@@ -19,6 +19,11 @@ import ResidentLayout from './components/resident/ResidentLayout'
 import ResidentHome from './pages/resident/ResidentHome'
 import UsageHistory from './pages/resident/UsageHistory'
 import ResidentBilling from './pages/resident/ResidentBilling'
+import PlatformLayout from './components/platform/PlatformLayout'
+import PlatformDashboard from './pages/platform/PlatformDashboard'
+import Communities from './pages/platform/Communities'
+import CommunityDetail from './pages/platform/CommunityDetail'
+import SystemStatus from './pages/platform/SystemStatus'
 import './styles/theme.css'
 
 function App() {
@@ -61,6 +66,19 @@ function App() {
               {STUB_PAGES.map((page) => (
                 <Route key={page.path} path={page.path} element={<ComingSoon title={page.title} description={page.description} />} />
               ))}
+            </Route>
+
+            <Route
+              element={
+                <ProtectedRoute role="SYSTEM_ADMIN">
+                  <PlatformLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route path="/platform/dashboard" element={<PlatformDashboard />} />
+              <Route path="/platform/communities" element={<Communities />} />
+              <Route path="/platform/communities/:adminId" element={<CommunityDetail />} />
+              <Route path="/platform/system-status" element={<SystemStatus />} />
             </Route>
           </Routes>
         </BrowserRouter>

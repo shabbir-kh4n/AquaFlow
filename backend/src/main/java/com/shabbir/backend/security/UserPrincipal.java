@@ -8,6 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.shabbir.backend.entity.CommunityAdmin;
+import com.shabbir.backend.entity.CommunityAdminStatus;
 
 public class UserPrincipal implements UserDetails {
 
@@ -34,5 +35,15 @@ public class UserPrincipal implements UserDetails {
     @Override
     public String getUsername() {
         return admin.getEmail();
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return admin.getStatus() == CommunityAdminStatus.ACTIVE;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return admin.getStatus() != CommunityAdminStatus.BLOCKED;
     }
 }

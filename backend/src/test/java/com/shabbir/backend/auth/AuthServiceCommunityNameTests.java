@@ -13,6 +13,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.shabbir.backend.dto.AuthResponse;
@@ -22,9 +23,12 @@ import com.shabbir.backend.entity.Apartment;
 import com.shabbir.backend.entity.CommunityAdmin;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.entity.Role;
+import com.shabbir.backend.entity.SystemAdmin;
+import com.shabbir.backend.exception.ApiException;
 import com.shabbir.backend.repository.CommunityAdminRepository;
 import com.shabbir.backend.repository.PasswordSetupTokenRepository;
 import com.shabbir.backend.repository.ResidentRepository;
+import com.shabbir.backend.repository.SystemAdminRepository;
 import com.shabbir.backend.security.JwtService;
 import com.shabbir.backend.service.ApartmentService;
 import com.shabbir.backend.service.AuthService;
@@ -37,6 +41,9 @@ class AuthServiceCommunityNameTests {
 
     @Mock
     private ResidentRepository residentRepository;
+
+    @Mock
+    private SystemAdminRepository systemAdminRepository;
 
     @Mock
     private PasswordSetupTokenRepository passwordSetupTokenRepository;
@@ -134,5 +141,34 @@ class AuthServiceCommunityNameTests {
         assertThat(response.communityName()).isEqualTo("Sunrise Towers");
         assertThat(response.houseNumber()).isEqualTo("A-101");
         assertThat(response.meterNumber()).isEqualTo("MTR-0001");
+    }
+
+    @Test
+    void loginSystemAdminBranchReturnsSystemAdminRole() {
+        LoginRequest request = new LoginRequest("root@hydroledger.local", "password123");
+        SystemAdmin sysAdmin = SystemAdmin.builder().id(9L).fullName("Root Admin").email("root@hydroledger.local")
+                .password("hashed").build();
+        when(communityAdminRepository.findByEmail("root@hydroledger.local")).thenReturn(Optional.empty());
+        when(residentRepository.findByEmailAndPasswordSetTrue("root@hydroledger.local")).thenReturn(Optional.empty());
+        when(systemAdminRepository.findByEmail("root@hydroledger.local")).thenReturn(Optional.of(sysAdmin));
+        when(jwtService.generateToken(any())).thenReturn("token");
+
+        AuthResponse response = authService.login(request);
+
+        assertThat(response.role()).isEqualTo(Role.SYSTEM_ADMIN);
+        assertThat(response.communityName()).isNull();
+        assertThat(response.houseNumber()).isNull();
+        assertThat(response.meterNumber()).isNull();
+    }
+
+    @Test
+    void loginRejectsBlockedOrTerminatedAdminWithGenericUnauthorized() {
+        LoginRequest request = new LoginRequest("jane@example.com", "password123");
+        org.mockito.Mockito.doThrow(new DisabledException("disabled"))
+                .when(authenticationManager).authenticate(any());
+
+        org.assertj.core.api.Assertions.assertThatThrownBy(() -> authService.login(request))
+                .isInstanceOf(ApiException.class)
+                .hasMessage("Invalid email or password");
     }
 }

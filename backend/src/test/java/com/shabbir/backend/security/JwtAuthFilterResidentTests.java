@@ -21,6 +21,7 @@ import com.shabbir.backend.entity.CommunityAdmin;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.repository.CommunityAdminRepository;
 import com.shabbir.backend.repository.ResidentRepository;
+import com.shabbir.backend.repository.SystemAdminRepository;
 
 /**
  * Regression test for the pre-existing bug where JwtAuthFilter only ever resolved the
@@ -39,6 +40,7 @@ class JwtAuthFilterResidentTests {
         JwtService jwtService = mock(JwtService.class);
         CommunityAdminRepository communityAdminRepository = mock(CommunityAdminRepository.class);
         ResidentRepository residentRepository = mock(ResidentRepository.class);
+        SystemAdminRepository systemAdminRepository = mock(SystemAdminRepository.class);
 
         Resident resident = Resident.builder()
                 .id(1L)
@@ -54,7 +56,7 @@ class JwtAuthFilterResidentTests {
         when(residentRepository.findByEmail("resident@example.com")).thenReturn(Optional.of(resident));
         when(jwtService.isTokenValid(eq(token), any(UserDetails.class))).thenReturn(true);
 
-        JwtAuthFilter filter = new JwtAuthFilter(jwtService, communityAdminRepository, residentRepository);
+        JwtAuthFilter filter = new JwtAuthFilter(jwtService, communityAdminRepository, residentRepository, systemAdminRepository);
 
         MockHttpServletRequest request = new MockHttpServletRequest();
         request.addHeader("Authorization", "Bearer " + token);
@@ -78,6 +80,7 @@ class JwtAuthFilterResidentTests {
         JwtService jwtService = mock(JwtService.class);
         CommunityAdminRepository communityAdminRepository = mock(CommunityAdminRepository.class);
         ResidentRepository residentRepository = mock(ResidentRepository.class);
+        SystemAdminRepository systemAdminRepository = mock(SystemAdminRepository.class);
 
         CommunityAdmin admin = CommunityAdmin.builder()
                 .id(2L)
@@ -91,7 +94,7 @@ class JwtAuthFilterResidentTests {
         when(communityAdminRepository.findByEmail("admin@example.com")).thenReturn(Optional.of(admin));
         when(jwtService.isTokenValid(eq(token), any(UserDetails.class))).thenReturn(true);
 
-        JwtAuthFilter filter = new JwtAuthFilter(jwtService, communityAdminRepository, residentRepository);
+        JwtAuthFilter filter = new JwtAuthFilter(jwtService, communityAdminRepository, residentRepository, systemAdminRepository);
 
         MockHttpServletRequest request = new MockHttpServletRequest();
         request.addHeader("Authorization", "Bearer " + token);

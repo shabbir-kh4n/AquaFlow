@@ -31,6 +31,7 @@ import com.shabbir.backend.entity.ReadingSource;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.repository.CommunityAdminRepository;
 import com.shabbir.backend.repository.ResidentRepository;
+import com.shabbir.backend.repository.SystemAdminRepository;
 import com.shabbir.backend.security.CustomUserDetailsService;
 import com.shabbir.backend.security.JwtService;
 import com.shabbir.backend.security.ResidentPrincipal;
@@ -56,6 +57,9 @@ class WaterUsageReadingControllerTests {
 
     @MockitoBean
     private ResidentRepository residentRepository;
+
+    @MockitoBean
+    private SystemAdminRepository systemAdminRepository;
 
     @MockitoBean
     private CustomUserDetailsService customUserDetailsService;

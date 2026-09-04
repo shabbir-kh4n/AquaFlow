@@ -15,8 +15,12 @@ function AuthModal() {
     closeAuthModal()
     if (mode === 'signup') {
       navigate('/admin/dashboard')
+    } else if (response.role === 'RESIDENT') {
+      navigate('/resident/home')
+    } else if (response.role === 'SYSTEM_ADMIN') {
+      navigate('/platform/dashboard')
     } else {
-      navigate(response.role === 'RESIDENT' ? '/resident/home' : '/admin/dashboard')
+      navigate('/admin/dashboard')
     }
   }
 

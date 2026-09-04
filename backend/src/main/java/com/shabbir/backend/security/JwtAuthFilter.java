@@ -12,6 +12,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.shabbir.backend.repository.CommunityAdminRepository;
 import com.shabbir.backend.repository.ResidentRepository;
+import com.shabbir.backend.repository.SystemAdminRepository;
 
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
@@ -30,6 +31,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     private final JwtService jwtService;
     private final CommunityAdminRepository communityAdminRepository;
     private final ResidentRepository residentRepository;
+    private final SystemAdminRepository systemAdminRepository;
 
     @Override
     protected void doFilterInternal(
@@ -53,9 +55,10 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 UserDetails userDetails = communityAdminRepository.findByEmail(email)
                         .<UserDetails>map(UserPrincipal::new)
                         .or(() -> residentRepository.findByEmail(email).map(ResidentPrincipal::new))
+                        .or(() -> systemAdminRepository.findByEmail(email).map(SystemAdminPrincipal::new))
                         .orElse(null);
 
-                if (userDetails != null && jwtService.isTokenValid(token, userDetails)) {
+                if (userDetails != null && userDetails.isEnabled() && jwtService.isTokenValid(token, userDetails)) {
                     UsernamePasswordAuthenticationToken authToken =
                             new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
                     authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));

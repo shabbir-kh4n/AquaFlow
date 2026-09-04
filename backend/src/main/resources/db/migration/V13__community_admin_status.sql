@@ -1,0 +1,2 @@
+ALTER TABLE community_admins
+    ADD COLUMN status VARCHAR(255) NOT NULL DEFAULT 'ACTIVE';

@@ -2,5 +2,6 @@ package com.shabbir.backend.entity;
 
 public enum Role {
     RESIDENT,
-    ADMIN
+    ADMIN,
+    SYSTEM_ADMIN
 }

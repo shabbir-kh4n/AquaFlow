@@ -5,6 +5,8 @@ import java.time.Instant;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.DisabledException;
+import org.springframework.security.authentication.LockedException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -20,12 +22,15 @@ import com.shabbir.backend.entity.CommunityAdmin;
 import com.shabbir.backend.entity.PasswordSetupToken;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.entity.Role;
+import com.shabbir.backend.entity.SystemAdmin;
 import com.shabbir.backend.exception.ApiException;
 import com.shabbir.backend.repository.CommunityAdminRepository;
 import com.shabbir.backend.repository.PasswordSetupTokenRepository;
 import com.shabbir.backend.repository.ResidentRepository;
+import com.shabbir.backend.repository.SystemAdminRepository;
 import com.shabbir.backend.security.JwtService;
 import com.shabbir.backend.security.ResidentPrincipal;
+import com.shabbir.backend.security.SystemAdminPrincipal;
 import com.shabbir.backend.security.UserPrincipal;
 
 import lombok.RequiredArgsConstructor;
@@ -36,6 +41,7 @@ public class AuthService {
 
     private final CommunityAdminRepository communityAdminRepository;
     private final ResidentRepository residentRepository;
+    private final SystemAdminRepository systemAdminRepository;
     private final PasswordSetupTokenRepository passwordSetupTokenRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
@@ -74,7 +80,7 @@ public class AuthService {
             authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(request.email(), request.password())
             );
-        } catch (BadCredentialsException ex) {
+        } catch (BadCredentialsException | DisabledException | LockedException ex) {
             throw new ApiException(HttpStatus.UNAUTHORIZED, "Invalid email or password");
         }
 
@@ -87,13 +93,21 @@ public class AuthService {
                     apartment.getName(), null, null);
         }
 
-        Resident resident = residentRepository.findByEmailAndPasswordSetTrue(request.email())
+        var resident = residentRepository.findByEmailAndPasswordSetTrue(request.email());
+        if (resident.isPresent()) {
+            Resident found = resident.get();
+            Apartment apartment = apartmentService.getOrCreate(found.getCreatedBy());
+            String token = jwtService.generateToken(new ResidentPrincipal(found));
+            return new AuthResponse(token, found.getId(), found.getFullName(), found.getEmail(), Role.RESIDENT,
+                    apartment.getName(), found.getHouseNumber(), found.getMeterNumber());
+        }
+
+        SystemAdmin sysAdmin = systemAdminRepository.findByEmail(request.email())
                 .orElseThrow(() -> new ApiException(HttpStatus.UNAUTHORIZED, "Invalid email or password"));
 
-        Apartment apartment = apartmentService.getOrCreate(resident.getCreatedBy());
-        String token = jwtService.generateToken(new ResidentPrincipal(resident));
-        return new AuthResponse(token, resident.getId(), resident.getFullName(), resident.getEmail(), Role.RESIDENT,
-                apartment.getName(), resident.getHouseNumber(), resident.getMeterNumber());
+        String token = jwtService.generateToken(new SystemAdminPrincipal(sysAdmin));
+        return new AuthResponse(token, sysAdmin.getId(), sysAdmin.getFullName(), sysAdmin.getEmail(),
+                Role.SYSTEM_ADMIN, null, null, null);
     }
 
     public SetPasswordInfoResponse getSetPasswordInfo(String token) {

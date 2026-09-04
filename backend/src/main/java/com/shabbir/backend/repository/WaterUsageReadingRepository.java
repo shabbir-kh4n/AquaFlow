@@ -37,4 +37,6 @@ public interface WaterUsageReadingRepository extends JpaRepository<WaterUsageRea
             @Param("from") LocalDate from,
             @Param("to") LocalDate to
     );
+
+    void deleteByMeterIn(List<WaterMeter> meters);
 }
