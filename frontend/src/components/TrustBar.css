@@ -1,0 +1,43 @@
+.af-trust {
+  position: relative;
+  padding: 0 80px 88px;
+  text-align: center;
+}
+
+.af-trust__label {
+  margin: 0 0 28px;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--af-text-muted);
+}
+
+.af-trust__row {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px 48px;
+}
+
+.af-trust__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--af-text-dark);
+}
+
+.af-trust__item svg {
+  color: var(--af-accent-2);
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .af-trust {
+    padding: 0 24px 64px;
+  }
+}

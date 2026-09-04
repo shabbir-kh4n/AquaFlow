@@ -1,0 +1,80 @@
+.af-auth-modal__backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(11, 40, 24, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.af-auth-modal {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 40px 36px 32px;
+  border-radius: var(--af-radius-lg);
+  background: var(--af-glass-bg-strong);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* legacy Edge */
+}
+
+.af-auth-modal::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Chromium Edge */
+  width: 0;
+  height: 0;
+}
+
+.af-auth-modal > * {
+  position: relative;
+}
+
+.af-auth-modal__close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid var(--af-border-subtle);
+  background: var(--af-bg-gradient);
+  color: var(--af-text-muted);
+}
+
+.af-auth-modal__close:hover {
+  background: var(--af-glass-border);
+  color: var(--af-text-dark);
+}
+
+.af-auth-modal__icon {
+  margin-bottom: 18px;
+}
+
+.af-auth-modal__title {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-auth-modal__subtitle {
+  margin: 0 0 24px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--af-text-muted);
+}
+
+@media (max-width: 640px) {
+  .af-auth-modal {
+    padding: 32px 24px 24px;
+  }
+}

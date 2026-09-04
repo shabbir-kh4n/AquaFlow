@@ -1,0 +1,205 @@
+:root {
+  /* Flat green theme palette (glassmorphism removed) */
+  --af-bg-gradient: #f2f5ef;
+  --af-text-dark: #16241c;
+  --af-text-body: #55645a;
+  --af-text-muted: #8b978d;
+  --af-accent-1: #8a9a5b;
+  --af-accent-2: #2f6b41;
+  --af-accent-gradient: linear-gradient(135deg, #2f6b41, #204a2d);
+
+  --af-glass-bg: #ffffff;
+  --af-glass-bg-strong: #ffffff;
+  --af-glass-border: #e3e8e0;
+  --af-glass-shine: none;
+  --af-border-subtle: #e3e8e0;
+  --af-shadow-glass: 0 1px 2px rgba(16, 24, 18, 0.04), 0 10px 24px -12px rgba(16, 24, 18, 0.14);
+  --af-shadow-accent: 0 8px 20px rgba(47, 107, 65, 0.25);
+
+  --af-dark-gradient: #0b2818;
+
+  --af-white: #ffffff;
+  --af-radius-lg: 20px;
+  --af-radius-md: 14px;
+  --af-radius-sm: 10px;
+  --af-font-heading: 'Work Sans', system-ui, -apple-system, Segoe UI, sans-serif;
+  --af-font-body: 'Work Sans', system-ui, -apple-system, Segoe UI, sans-serif;
+
+  /* Categorical chart palette — fixed hue order, never cycled (see the dataviz
+     skill's color-formula guidance). Greens drawn from the brand palette, with
+     an amber accent for a 5th/6th series where more separation is needed. */
+  --af-chart-1: #2f6b41;
+  --af-chart-2: #8a9a5b;
+  --af-chart-3: #bcb88a;
+  --af-chart-4: #5b8266;
+  --af-chart-5: #a8792c;
+  --af-chart-6: #204a2d;
+  --af-chart-grid: #e3e8e0;
+  --af-chart-axis: #a9b5a5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--af-font-body);
+  color: var(--af-text-body);
+  background: var(--af-white);
+}
+
+h1, h2, h3 {
+  font-family: var(--af-font-heading);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Dark section (stats band, CTA, footer) */
+
+.af-dark-gradient {
+  background: var(--af-dark-gradient);
+}
+
+/* Shared section scaffolding */
+
+.af-section {
+  position: relative;
+  padding: 96px 80px;
+}
+
+.af-section__inner {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.af-section__head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 56px;
+}
+
+.af-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 16px;
+  border-radius: 15px;
+  background: rgba(47, 107, 65, 0.1);
+  color: var(--af-accent-2);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.af-pill--light {
+  background: rgba(255, 255, 255, 0.12);
+  color: #cfe0cd;
+}
+
+.af-section__head h2 {
+  margin: 0 0 16px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--af-text-dark);
+  letter-spacing: -0.01em;
+}
+
+.af-section__head p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--af-text-body);
+}
+
+.af-gradient-text {
+  background: var(--af-accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 640px) {
+  .af-section {
+    padding: 64px 24px;
+  }
+
+  .af-section__head h2 {
+    font-size: 28px;
+  }
+}
+
+/* Fully hidden scrollbars for scroll containers inside the admin shell —
+   still scrollable (mouse wheel, trackpad, keyboard), just no visible track/thumb. */
+
+.af-admin__sidebar,
+.af-hh__modal {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* legacy Edge */
+}
+
+.af-admin__sidebar::-webkit-scrollbar,
+.af-hh__modal::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Chromium Edge */
+  width: 0;
+  height: 0;
+}
+
+/* Resident theme — a clean, professional light theme (flat cards, no glass/blur)
+   built on the project's green palette, scoped to .af-resident only. Kept as its
+   own token set (matches the .af-admin scoping pattern) even though the root
+   tokens above now use the same flat green system. */
+
+.af-resident {
+  --afr-bg: #f2f5ef;
+  --afr-sidebar: #0b2818;
+  --afr-sidebar-hover: rgba(255, 255, 255, 0.06);
+  --afr-sidebar-active: #163a26;
+  --afr-sidebar-text: #aebeae;
+  --afr-sidebar-text-active: #ffffff;
+  --afr-sidebar-border: rgba(255, 255, 255, 0.08);
+
+  --afr-accent: #2f6b41;
+  --afr-accent-dark: #204a2d;
+  --afr-accent-soft: rgba(47, 107, 65, 0.1);
+  --afr-accent-contrast: #ffffff;
+
+  --afr-card: #ffffff;
+  --afr-border: #e3e8e0;
+  --afr-text-dark: #16241c;
+  --afr-text-body: #55645a;
+  --afr-text-muted: #8b978d;
+
+  --afr-good: #2f6b41;
+  --afr-good-soft: rgba(47, 107, 65, 0.12);
+  --afr-bad: #b3492f;
+  --afr-bad-soft: rgba(179, 73, 47, 0.1);
+  --afr-warn: #a8792c;
+  --afr-warn-soft: rgba(168, 121, 44, 0.1);
+
+  --afr-shadow-card: 0 1px 2px rgba(16, 24, 18, 0.04), 0 10px 24px -12px rgba(16, 24, 18, 0.12);
+  --afr-radius-lg: 18px;
+  --afr-radius-md: 14px;
+  --afr-radius-sm: 10px;
+  --afr-font: 'Work Sans', system-ui, -apple-system, Segoe UI, sans-serif;
+
+  --afr-chart-1: #2f6b41;
+  --afr-chart-2: #8a9a5b;
+  --afr-chart-3: #bcb88a;
+  --afr-chart-4: #5b8266;
+  --afr-chart-5: #a8792c;
+  --afr-chart-grid: #e3e8e0;
+  --afr-chart-axis: #a9b5a5;
+}

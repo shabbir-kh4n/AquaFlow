@@ -1,0 +1,336 @@
+.af-hh__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.af-hh__toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.af-hh__bulk-upload-input {
+  margin: 4px 0 18px;
+}
+
+.af-hh__bulk-upload-input input[type='file'] {
+  font-size: 13px;
+  color: var(--af-text-body);
+}
+
+.af-hh__bulk-result {
+  margin: 0 0 18px;
+  padding: 16px 18px;
+  border-radius: 12px;
+  background: rgba(47, 107, 65, 0.08);
+  border: 1px solid var(--af-border-subtle);
+}
+
+.af-hh__bulk-result p {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--af-text-body);
+}
+
+.af-hh__bulk-failures {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  font-size: 12.5px;
+  color: #b91c1c;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.af-hh__bulk-failures li + li {
+  margin-top: 6px;
+}
+
+.af-hh__bulk-failures span {
+  color: var(--af-text-muted);
+}
+
+.af-hh__count {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--af-text-muted);
+}
+
+.af-hh__filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.af-hh__search {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+  max-width: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.af-hh__search svg {
+  position: absolute;
+  left: 14px;
+  color: var(--af-text-muted);
+  pointer-events: none;
+}
+
+.af-hh__search input {
+  width: 100%;
+  height: 42px;
+  padding: 0 14px 0 38px;
+  border-radius: 12px;
+  border: 1px solid var(--af-border-subtle);
+  background: var(--af-glass-bg);
+  font-size: 13.5px;
+  color: var(--af-text-dark);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.af-hh__search input:focus {
+  border-color: var(--af-accent-2);
+}
+
+.af-hh__sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.af-hh__sort label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--af-text-muted);
+}
+
+.af-hh__sort select {
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 1px solid var(--af-border-subtle);
+  background: var(--af-glass-bg);
+  font-size: 13.5px;
+  color: var(--af-text-dark);
+  outline: none;
+}
+
+.af-hh__sort-dir {
+  height: 42px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid var(--af-border-subtle);
+  background: var(--af-glass-bg);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+  white-space: nowrap;
+}
+
+.af-hh__sort-dir:hover {
+  background: rgba(47, 107, 65, 0.1);
+}
+
+.af-hh__error {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  font-size: 13px;
+}
+
+.af-hh__table-wrap {
+  border-radius: var(--af-radius-md);
+  background: var(--af-glass-bg);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+  overflow-x: auto;
+}
+
+.af-hh__empty {
+  margin: 0;
+  padding: 48px 24px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--af-text-muted);
+}
+
+.af-hh__table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.af-hh__table th {
+  text-align: left;
+  padding: 14px 20px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--af-text-muted);
+  border-bottom: 1px solid var(--af-border-subtle);
+}
+
+.af-hh__table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--af-border-subtle);
+  color: var(--af-text-dark);
+}
+
+.af-hh__table tr:last-child td {
+  border-bottom: none;
+}
+
+.af-hh__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.af-hh__pagination-info {
+  font-size: 12.5px;
+  color: var(--af-text-muted);
+}
+
+.af-hh__pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.af-hh__pagination-page {
+  font-size: 12.5px;
+  color: var(--af-text-body);
+}
+
+.af-hh__pagination-controls button {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--af-glass-border);
+  background: var(--af-glass-bg);
+  color: var(--af-text-dark);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.af-hh__pagination-controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.af-hh__row-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.af-hh__row-actions button {
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--af-accent-2);
+  padding: 0;
+}
+
+.af-hh__delete {
+  color: #c53030 !important;
+}
+
+.af-hh__modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(11, 40, 24, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.af-hh__modal {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 32px;
+  border-radius: var(--af-radius-lg);
+  background: var(--af-glass-bg-strong);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+}
+
+.af-hh__modal > * {
+  position: relative;
+}
+
+.af-hh__radio-group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  height: 44px;
+}
+
+.af-hh__radio {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13.5px;
+  color: var(--af-text-dark);
+  cursor: pointer;
+}
+
+.af-hh__radio input[type='radio'] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--af-accent-2);
+  cursor: pointer;
+}
+
+.af-hh__modal h2 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-hh__modal-sub {
+  margin: 0 0 22px;
+  font-size: 13px;
+  color: var(--af-text-muted);
+}
+
+.af-hh__modal .af-form__checkbox {
+  margin-bottom: 18px;
+}
+
+.af-hh__modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.af-hh__modal-actions .af-form__submit {
+  width: auto;
+  padding: 0 24px;
+}
+

@@ -1,0 +1,36 @@
+.af-coming-soon {
+  max-width: 480px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: var(--af-radius-lg);
+  background: var(--af-glass-bg);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+}
+
+.af-coming-soon__icon {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 20px;
+  border-radius: 16px;
+  background: var(--af-accent-gradient);
+  color: var(--af-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.af-coming-soon h2 {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-coming-soon p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--af-text-body);
+}

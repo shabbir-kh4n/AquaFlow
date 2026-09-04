@@ -1,0 +1,336 @@
+.af-bills__summary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: var(--afr-card);
+  border: 1px solid var(--afr-border);
+  box-shadow: var(--afr-shadow-card);
+  border-radius: var(--afr-radius-md);
+  padding: 22px;
+  margin-bottom: 16px;
+}
+
+.af-bills__eyebrow {
+  margin: 0 0 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--afr-text-muted);
+}
+
+.af-bills__summary-main h2 {
+  margin: 0 0 6px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--afr-text-dark);
+}
+
+.af-bills__summary-sub {
+  margin: 0 0 10px;
+  font-size: 12.5px;
+  color: var(--afr-text-muted);
+}
+
+.af-bills__summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+}
+
+.af-bills__cta {
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--afr-sidebar);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.af-bills__cta--outline {
+  background: transparent;
+  border: 1px solid var(--afr-border);
+  color: var(--afr-text-body);
+}
+
+.af-bills__cta:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.af-bills__panel {
+  background: var(--afr-card);
+  border: 1px solid var(--afr-border);
+  box-shadow: var(--afr-shadow-card);
+  border-radius: var(--afr-radius-md);
+  padding: 22px;
+  margin-bottom: 16px;
+}
+
+.af-bills__panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.af-bills__panel-heading h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--afr-text-dark);
+}
+
+.af-bills__export {
+  border: 1px solid var(--afr-border);
+  background: transparent;
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--afr-text-body);
+}
+
+.af-bills__export:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.af-bills__table-wrap {
+  overflow-x: auto;
+}
+
+.af-bills__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.af-bills__table th {
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--afr-text-muted);
+  border-bottom: 1px solid var(--afr-border);
+  white-space: nowrap;
+}
+
+.af-bills__table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--afr-border);
+  color: var(--afr-text-dark);
+  vertical-align: top;
+}
+
+.af-bills__table tr:last-child td {
+  border-bottom: none;
+}
+
+.af-bills__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.af-bills__pagination-info {
+  font-size: 12.5px;
+  color: var(--afr-text-muted);
+}
+
+.af-bills__pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.af-bills__pagination-page {
+  font-size: 12.5px;
+  color: var(--afr-text-body);
+}
+
+.af-bills__pagination-controls button {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--afr-border);
+  background: transparent;
+  color: var(--afr-text-dark);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.af-bills__pagination-controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.af-bills__row-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.af-bills__row-actions button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--afr-accent);
+}
+
+.af-bills__pdf-link {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--afr-text-muted);
+  cursor: not-allowed;
+}
+
+.af-bills__breakdown-row td {
+  background: var(--afr-bg);
+}
+
+.af-bills__breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.af-bills__breakdown h4 {
+  margin: 0 0 10px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--afr-text-dark);
+}
+
+.af-bills__breakdown-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+  font-size: 12.5px;
+  color: var(--afr-text-body);
+}
+
+.af-bills__breakdown-subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--afr-border);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--afr-text-dark);
+}
+
+.af-bills__breakdown-empty {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--afr-text-muted);
+  font-style: italic;
+}
+
+.af-bills__badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.af-bills__badge--paid {
+  background: var(--afr-good-soft);
+  color: var(--afr-good);
+}
+
+.af-bills__badge--unpaid {
+  background: var(--afr-bad-soft);
+  color: var(--afr-bad);
+}
+
+.af-bills__payment-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.af-bills__payment-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.af-bills__payment-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--afr-accent-soft);
+  color: var(--afr-accent);
+  flex-shrink: 0;
+}
+
+.af-bills__payment-info strong {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 13px;
+  color: var(--afr-text-dark);
+}
+
+.af-bills__payment-info p {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--afr-text-muted);
+}
+
+.af-bills__empty {
+  margin: 0;
+  padding: 32px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--afr-text-muted);
+}
+
+.af-bills__error {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  font-size: 13px;
+}
+
+@media (max-width: 720px) {
+  .af-bills__breakdown {
+    grid-template-columns: 1fr;
+  }
+
+  .af-bills__summary {
+    flex-direction: column;
+  }
+
+  .af-bills__summary-actions {
+    width: 100%;
+  }
+}

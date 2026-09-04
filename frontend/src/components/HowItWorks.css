@@ -1,0 +1,51 @@
+.af-howitworks {
+  background: var(--af-bg-gradient);
+}
+
+.af-howitworks__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.af-howitworks__num-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.af-howitworks__num {
+  font-family: var(--af-font-heading);
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--af-accent-1);
+  opacity: 0.85;
+}
+
+.af-howitworks__line {
+  flex: 1;
+  height: 1px;
+  background: var(--af-border-subtle);
+}
+
+.af-howitworks__step h3 {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-howitworks__step p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--af-text-body);
+}
+
+@media (max-width: 860px) {
+  .af-howitworks__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

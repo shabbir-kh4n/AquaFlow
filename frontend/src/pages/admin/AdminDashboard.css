@@ -1,0 +1,232 @@
+.af-dash__banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 26px;
+  margin-bottom: 20px;
+  border-radius: var(--af-radius-lg);
+  background: var(--af-dark-gradient);
+  color: #dfe7de;
+}
+
+.af-dash__banner h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.af-dash__banner p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #c3d0c0;
+}
+
+.af-dash__banner-btn {
+  flex-shrink: 0;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--af-chart-3);
+  color: var(--af-dark-gradient);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.af-dash__banner-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.af-dash__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.af-dash__card {
+  padding: 20px;
+  border-radius: var(--af-radius-md);
+  background: var(--af-glass-bg);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.af-dash__label {
+  font-size: 12.5px;
+  color: var(--af-text-muted);
+  font-weight: 600;
+}
+
+.af-dash__value {
+  font-family: var(--af-font-heading);
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-dash__value--warn {
+  color: var(--af-chart-5);
+}
+
+.af-dash__muted {
+  font-size: 11.5px;
+  color: var(--af-text-muted);
+}
+
+.af-dash__muted--pending {
+  color: var(--af-chart-5);
+}
+
+.af-dash__link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--af-accent-2);
+}
+
+.af-dash__error {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  font-size: 13px;
+}
+
+.af-dash__actions {
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border-radius: var(--af-radius-md);
+  background: var(--af-glass-bg);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+}
+
+.af-dash__actions-label {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-dash__actions-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.af-dash__action {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--af-glass-border);
+  background: var(--af-white);
+  color: var(--af-text-dark);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.af-dash__action--primary {
+  background: var(--af-dark-gradient);
+  border-color: var(--af-dark-gradient);
+  color: #ffffff;
+}
+
+.af-dash__action:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.af-dash__charts {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.af-dash__chart-card,
+.af-dash__recent-card {
+  padding: 22px;
+  border-radius: var(--af-radius-md);
+  background: var(--af-glass-bg);
+  border: 1px solid var(--af-glass-border);
+  box-shadow: var(--af-shadow-glass);
+  min-width: 0;
+}
+
+.af-dash__chart-card h3,
+.af-dash__recent-card h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: var(--af-text-dark);
+}
+
+.af-dash__chart-subtitle {
+  margin: 0 0 16px;
+  font-size: 12.5px;
+  color: var(--af-text-muted);
+}
+
+.af-dash__chart-empty {
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--af-text-muted);
+}
+
+.af-dash__table {
+  width: 100%;
+  margin-top: 14px;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+
+.af-dash__table th {
+  text-align: left;
+  padding: 8px 10px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--af-text-muted);
+  border-bottom: 1px solid var(--af-glass-border);
+}
+
+.af-dash__table td {
+  padding: 10px 10px;
+  color: var(--af-text-dark);
+  border-bottom: 1px solid var(--af-glass-border);
+}
+
+.af-dash__table tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 960px) {
+  .af-dash__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .af-dash__charts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .af-dash__banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .af-dash__grid {
+    grid-template-columns: 1fr;
+  }
+}
