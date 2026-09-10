@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/useAuth'
+import { getMyAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
 import { Icon } from './Icon'
 import '../../pages/resident/ResidentHome.css'
@@ -10,7 +12,7 @@ const NAV_ITEMS = [
   { label: 'My Bills', icon: 'bill', to: '/resident/billing' },
   { label: 'Reports', icon: 'chart' },
   { label: 'Support / Concerns', icon: 'help' },
-  { label: 'Notifications', icon: 'bell', badge: 3 },
+  { label: 'Notifications', icon: 'bell', to: '/resident/notifications' },
   { label: 'Profile', icon: 'user' },
 ]
 
@@ -25,12 +27,23 @@ const PAGE_META = {
     eyebrow: 'Billing',
     title: 'Billing & Invoices',
   },
+  '/resident/notifications': {
+    eyebrow: 'Alerts',
+    title: 'Notifications',
+  },
 }
 
 function ResidentLayout() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  const [activeAlertCount, setActiveAlertCount] = useState(0)
+
+  useEffect(() => {
+    getMyAlerts()
+      .then((alerts) => setActiveAlertCount(alerts.filter((alert) => alert.status === 'ACTIVE').length))
+      .catch(() => setActiveAlertCount(0))
+  }, [])
 
   function handleLogout() {
     logout()
@@ -109,7 +122,7 @@ function ResidentLayout() {
             </label>
             <button type="button" className="af-resident__icon-button" aria-label="Notifications" title="Notifications">
               <Icon name="bell" />
-              <b>2</b>
+              {activeAlertCount > 0 && <b>{activeAlertCount}</b>}
             </button>
             {user?.communityName && (
               <button type="button" className="af-resident__community-pill" title={user.communityName}>

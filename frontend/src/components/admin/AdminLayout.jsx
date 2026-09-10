@@ -1,5 +1,7 @@
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/useAuth'
+import { listAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
 import { STUB_PAGES } from './adminRoutes'
 import './AdminLayout.css'
@@ -11,7 +13,7 @@ const NAV_ITEMS = [
   { to: '/admin/billing', label: 'Billing Management', icon: 'invoice', built: true },
   { to: '/admin/bulk-purchases', label: 'Bulk Purchases', icon: 'truck', built: true },
   { to: '/admin/reports', label: 'Reports', icon: 'chart', built: false },
-  { to: '/admin/water-leakage', label: 'Water Leakage', icon: 'drop-alert', built: false },
+  { to: '/admin/water-leakage', label: 'Water Leakage', icon: 'drop-alert', built: true },
   { to: '/admin/support', label: 'Support / Concerns', icon: 'help', built: false },
   { to: '/admin/tariff-plans', label: 'Tariff Plans', icon: 'sliders', built: true },
   { to: '/admin/announcements', label: 'Announcements', icon: 'megaphone', built: false },
@@ -42,6 +44,10 @@ const PAGE_META = {
   '/admin/bulk-purchases': {
     title: 'Bulk Purchases',
     subtitle: 'Record tanker deliveries and municipal supply purchases for your community.',
+  },
+  '/admin/water-leakage': {
+    title: 'Water Leakage',
+    subtitle: 'Configure threshold and outlier-based leak alerts, and review flagged households.',
   },
   '/admin/profile': {
     title: 'Settings & Profile',
@@ -78,6 +84,13 @@ function AdminLayout() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  const [activeAlertCount, setActiveAlertCount] = useState(0)
+
+  useEffect(() => {
+    listAlerts('ACTIVE')
+      .then((alerts) => setActiveAlertCount(alerts.length))
+      .catch(() => setActiveAlertCount(0))
+  }, [])
 
   function handleLogout() {
     logout()
@@ -169,7 +182,7 @@ function AdminLayout() {
             </label>
             <button type="button" className="af-admin__icon-button" aria-label="Notifications" title="Notifications">
               <Icon name="bell" />
-              <b>7</b>
+              {activeAlertCount > 0 && <b>{activeAlertCount}</b>}
             </button>
             {user?.communityName && (
               <button type="button" className="af-admin__community-pill" title={user.communityName}>

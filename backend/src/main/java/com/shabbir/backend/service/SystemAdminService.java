@@ -25,6 +25,7 @@ import com.shabbir.backend.entity.Household;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.entity.WaterMeter;
 import com.shabbir.backend.exception.ApiException;
+import com.shabbir.backend.repository.AlertConfigRepository;
 import com.shabbir.backend.repository.ApartmentRepository;
 import com.shabbir.backend.repository.BillingCycleRepository;
 import com.shabbir.backend.repository.BulkWaterPurchaseRepository;
@@ -56,6 +57,7 @@ public class SystemAdminService {
     private final CommonAreaConfigRepository commonAreaConfigRepository;
     private final BulkWaterPurchaseRepository bulkWaterPurchaseRepository;
     private final BillingCycleRepository billingCycleRepository;
+    private final AlertConfigRepository alertConfigRepository;
     private final DataSource dataSource;
 
     @Value("${app.version}")
@@ -145,6 +147,7 @@ public class SystemAdminService {
 
         tariffPlanRepository.findByApartment(apartment).ifPresent(tariffPlanRepository::delete);
         commonAreaConfigRepository.findByApartment(apartment).ifPresent(commonAreaConfigRepository::delete);
+        alertConfigRepository.findByApartment(apartment).ifPresent(alertConfigRepository::delete);
         bulkWaterPurchaseRepository.deleteAll(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment));
 
         apartmentRepository.delete(apartment);

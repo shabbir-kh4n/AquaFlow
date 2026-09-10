@@ -13,12 +13,14 @@ import MeterReadings from './pages/admin/MeterReadings'
 import TariffPlans from './pages/admin/TariffPlans'
 import BillingCycles from './pages/admin/BillingCycles'
 import BulkWaterPurchases from './pages/admin/BulkWaterPurchases'
+import WaterLeakage from './pages/admin/WaterLeakage'
 import AdminProfile from './pages/admin/AdminProfile'
 import ComingSoon from './pages/admin/ComingSoon'
 import ResidentLayout from './components/resident/ResidentLayout'
 import ResidentHome from './pages/resident/ResidentHome'
 import UsageHistory from './pages/resident/UsageHistory'
 import ResidentBilling from './pages/resident/ResidentBilling'
+import ResidentNotifications from './pages/resident/ResidentNotifications'
 import PlatformLayout from './components/platform/PlatformLayout'
 import PlatformDashboard from './pages/platform/PlatformDashboard'
 import Communities from './pages/platform/Communities'
@@ -46,6 +48,7 @@ function App() {
               <Route path="/resident/home" element={<ResidentHome />} />
               <Route path="/resident/usage-history" element={<UsageHistory />} />
               <Route path="/resident/billing" element={<ResidentBilling />} />
+              <Route path="/resident/notifications" element={<ResidentNotifications />} />
             </Route>
 
             <Route
@@ -61,6 +64,7 @@ function App() {
               <Route path="/admin/tariff-plans" element={<TariffPlans />} />
               <Route path="/admin/billing" element={<BillingCycles />} />
               <Route path="/admin/bulk-purchases" element={<BulkWaterPurchases />} />
+              <Route path="/admin/water-leakage" element={<WaterLeakage />} />
               <Route path="/admin/profile" element={<AdminProfile />} />
 
               {STUB_PAGES.map((page) => (

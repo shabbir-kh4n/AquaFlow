@@ -31,6 +31,7 @@ import com.shabbir.backend.entity.Household;
 import com.shabbir.backend.entity.Resident;
 import com.shabbir.backend.entity.WaterMeter;
 import com.shabbir.backend.exception.ApiException;
+import com.shabbir.backend.repository.AlertConfigRepository;
 import com.shabbir.backend.repository.ApartmentRepository;
 import com.shabbir.backend.repository.BillingCycleRepository;
 import com.shabbir.backend.repository.BulkWaterPurchaseRepository;
@@ -79,6 +80,9 @@ class SystemAdminServiceTests {
 
     @Mock
     private BillingCycleRepository billingCycleRepository;
+
+    @Mock
+    private AlertConfigRepository alertConfigRepository;
 
     @Mock
     private DataSource dataSource;
@@ -163,6 +167,7 @@ class SystemAdminServiceTests {
         when(residentRepository.findByCreatedByOrderByCreatedAtDesc(admin)).thenReturn(List.of(resident));
         when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(commonAreaConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
+        when(alertConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
 
@@ -191,6 +196,7 @@ class SystemAdminServiceTests {
         when(residentRepository.findByCreatedByOrderByCreatedAtDesc(admin)).thenReturn(List.of());
         when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(commonAreaConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
+        when(alertConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
 
