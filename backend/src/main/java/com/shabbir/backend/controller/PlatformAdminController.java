@@ -16,8 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shabbir.backend.dto.CommunityDetailResponse;
 import com.shabbir.backend.dto.CommunityStatusUpdateRequest;
 import com.shabbir.backend.dto.CommunitySummaryResponse;
+import com.shabbir.backend.dto.PlatformReportResponse;
 import com.shabbir.backend.dto.SystemMetricsResponse;
 import com.shabbir.backend.dto.SystemStatusResponse;
+import com.shabbir.backend.service.PlatformReportService;
 import com.shabbir.backend.service.SystemAdminService;
 import com.shabbir.backend.service.SystemMetricsService;
 
@@ -32,6 +34,7 @@ public class PlatformAdminController {
 
     private final SystemAdminService systemAdminService;
     private final SystemMetricsService systemMetricsService;
+    private final PlatformReportService platformReportService;
 
     @GetMapping("/communities")
     public ResponseEntity<List<CommunitySummaryResponse>> listCommunities() {
@@ -64,5 +67,13 @@ public class PlatformAdminController {
     @GetMapping("/system-metrics")
     public ResponseEntity<SystemMetricsResponse> systemMetrics(@RequestParam String range) {
         return ResponseEntity.ok(systemMetricsService.getMetrics(range));
+    }
+
+    @GetMapping("/reports")
+    public ResponseEntity<PlatformReportResponse> getReport(
+            @RequestParam(required = false) String range,
+            @RequestParam(required = false) String from,
+            @RequestParam(required = false) String to) {
+        return ResponseEntity.ok(platformReportService.getReport(range, from, to));
     }
 }

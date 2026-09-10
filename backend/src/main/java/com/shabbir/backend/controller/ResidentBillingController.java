@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -35,5 +37,11 @@ public class ResidentBillingController {
     @GetMapping("/invoices")
     public ResponseEntity<List<InvoiceResponse>> getInvoices(@AuthenticationPrincipal ResidentPrincipal principal) {
         return ResponseEntity.ok(billingCycleService.listInvoicesForResident(principal.getUser()));
+    }
+
+    @PostMapping("/invoices/{id}/pay")
+    public ResponseEntity<InvoiceResponse> payInvoice(@PathVariable Long id,
+            @AuthenticationPrincipal ResidentPrincipal principal) {
+        return ResponseEntity.ok(billingCycleService.payInvoiceAsResident(principal.getUser(), id));
     }
 }

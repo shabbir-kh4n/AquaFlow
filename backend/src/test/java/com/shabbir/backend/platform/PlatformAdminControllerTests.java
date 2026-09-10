@@ -21,6 +21,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.shabbir.backend.controller.PlatformAdminController;
 import com.shabbir.backend.dto.CommunitySummaryResponse;
+import com.shabbir.backend.dto.PlatformReportResponse;
 import com.shabbir.backend.dto.SystemMetricsResponse;
 import com.shabbir.backend.dto.SystemStatusResponse;
 import com.shabbir.backend.entity.CommunityAdmin;
@@ -36,6 +37,7 @@ import com.shabbir.backend.security.ResidentPrincipal;
 import com.shabbir.backend.security.SecurityConfig;
 import com.shabbir.backend.security.SystemAdminPrincipal;
 import com.shabbir.backend.security.UserPrincipal;
+import com.shabbir.backend.service.PlatformReportService;
 import com.shabbir.backend.service.SystemAdminService;
 import com.shabbir.backend.service.SystemMetricsService;
 
@@ -51,6 +53,9 @@ class PlatformAdminControllerTests {
 
     @MockitoBean
     private SystemMetricsService systemMetricsService;
+
+    @MockitoBean
+    private PlatformReportService platformReportService;
 
     @MockitoBean
     private JwtService jwtService;
@@ -141,6 +146,32 @@ class PlatformAdminControllerTests {
     void systemMetricsIsForbiddenForCommunityAdmin() throws Exception {
         mockMvc.perform(get("/api/platform/system-metrics").param("range", "1h")
                         .with(user(new UserPrincipal(admin))))
+                .andExpect(status().isForbidden());
+    }
+
+    @Test
+    void reportReturnsOkForSystemAdmin() throws Exception {
+        when(platformReportService.getReport(null, null, null)).thenReturn(new PlatformReportResponse(
+                new PlatformReportResponse.ReportRangeInfo("3mo", "2026-07", "2026-09", List.of("2026-07", "2026-08", "2026-09")),
+                new PlatformReportResponse.PlatformReportSummary(1, 4, java.math.BigDecimal.TEN, java.math.BigDecimal.valueOf(500),
+                        java.math.BigDecimal.ONE, java.math.BigDecimal.valueOf(125)),
+                List.of(),
+                List.of()));
+
+        mockMvc.perform(get("/api/platform/reports").with(user(new SystemAdminPrincipal(systemAdmin))))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.range.key").value("3mo"));
+    }
+
+    @Test
+    void reportIsForbiddenForCommunityAdmin() throws Exception {
+        mockMvc.perform(get("/api/platform/reports").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isForbidden());
+    }
+
+    @Test
+    void reportIsForbiddenForResident() throws Exception {
+        mockMvc.perform(get("/api/platform/reports").with(user(new ResidentPrincipal(resident))))
                 .andExpect(status().isForbidden());
     }
 

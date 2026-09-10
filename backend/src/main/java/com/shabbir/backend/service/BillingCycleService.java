@@ -215,6 +215,29 @@ public class BillingCycleService {
                 .toList();
     }
 
+    @Transactional
+    public InvoiceResponse payInvoiceAsResident(Resident resident, Long invoiceId) {
+        Household residentHousehold = resident.getHousehold();
+        if (residentHousehold == null) {
+            throw new ApiException(HttpStatus.NOT_FOUND, "Invoice not found");
+        }
+
+        Household household = householdRepository.findWithApartmentById(residentHousehold.getId())
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Household not found"));
+
+        Invoice invoice = invoiceRepository.findByIdAndHousehold(invoiceId, household)
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Invoice not found"));
+
+        if (invoice.isPaid()) {
+            throw new ApiException(HttpStatus.CONFLICT, "This invoice is already paid");
+        }
+
+        invoice.setPaid(true);
+        invoice.setPaidAt(Instant.now());
+
+        return toInvoiceResponse(invoiceRepository.save(invoice));
+    }
+
     private BillingCycle requireOwnedCycle(Apartment apartment, Long id) {
         return billingCycleRepository.findByIdAndApartment(id, apartment)
                 .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Billing cycle not found"));

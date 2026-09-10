@@ -302,6 +302,66 @@ class BillingCycleServiceTests {
         assertThat(invoices).isEmpty();
     }
 
+    @Test
+    void payInvoiceAsResidentMarksOwnUnpaidInvoicePaid() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+        BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
+                .status(BillingCycleStatus.FINALIZED).build();
+        Invoice invoice = Invoice.builder().id(5L).billingCycle(cycle).household(household)
+                .consumptionUnits(BigDecimal.TEN).totalAmount(new BigDecimal("50.00"))
+                .generatedAt(java.time.Instant.now()).paid(false).build();
+
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(invoiceRepository.findByIdAndHousehold(5L, household)).thenReturn(Optional.of(invoice));
+        when(invoiceRepository.save(any(Invoice.class))).thenAnswer(inv -> inv.getArgument(0));
+
+        InvoiceResponse response = billingCycleService.payInvoiceAsResident(resident, 5L);
+
+        assertThat(response.paid()).isTrue();
+        assertThat(response.paidAt()).isNotNull();
+    }
+
+    @Test
+    void payInvoiceAsResidentRejectsAlreadyPaidInvoice() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+        BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
+                .status(BillingCycleStatus.FINALIZED).build();
+        Invoice invoice = Invoice.builder().id(5L).billingCycle(cycle).household(household)
+                .consumptionUnits(BigDecimal.TEN).totalAmount(new BigDecimal("50.00"))
+                .generatedAt(java.time.Instant.now()).paid(true).paidAt(java.time.Instant.now()).build();
+
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(invoiceRepository.findByIdAndHousehold(5L, household)).thenReturn(Optional.of(invoice));
+
+        assertThatThrownBy(() -> billingCycleService.payInvoiceAsResident(resident, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.CONFLICT);
+    }
+
+    @Test
+    void payInvoiceAsResidentThrowsNotFoundWhenInvoiceBelongsToAnotherHousehold() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(invoiceRepository.findByIdAndHousehold(5L, household)).thenReturn(Optional.empty());
+
+        assertThatThrownBy(() -> billingCycleService.payInvoiceAsResident(resident, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void payInvoiceAsResidentThrowsNotFoundWhenResidentHasNoHousehold() {
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(null).build();
+
+        assertThatThrownBy(() -> billingCycleService.payInvoiceAsResident(resident, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
+    }
+
     private List<com.shabbir.backend.dto.TierChargeLine> tariffPlanServiceCalculateBreakdown(BigDecimal totalUnits) {
         List<com.shabbir.backend.dto.TierChargeLine> lines = new java.util.ArrayList<>();
         BigDecimal remaining = totalUnits;
