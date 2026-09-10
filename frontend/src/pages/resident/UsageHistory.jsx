@@ -42,10 +42,13 @@ function UsageHistory() {
       .finally(() => setLoading(false))
   }, [])
 
+  // Group by consumptionMonth, not readingDate: consumption is the delta since the previous
+  // reading, so it belongs to the month the usage actually happened in, which is the month of
+  // the earlier reading — not the (later) month the reading confirming it was recorded in.
   const monthlyData = useMemo(() => {
     const totals = new Map()
     readings.forEach((r) => {
-      const ym = r.readingDate?.slice(0, 7)
+      const ym = r.consumptionMonth
       if (!ym) return
       totals.set(ym, (totals.get(ym) || 0) + Number(r.consumption || 0))
     })

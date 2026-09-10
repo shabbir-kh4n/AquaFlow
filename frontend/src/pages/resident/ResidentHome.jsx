@@ -26,6 +26,11 @@ function monthLabel(date) {
   return new Date(date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
 }
 
+function yearMonthLabel(ym) {
+  const [year, month] = ym.split('-')
+  return new Date(Number(year), Number(month) - 1, 1).toLocaleDateString(undefined, { month: 'short', year: 'numeric' })
+}
+
 function ResidentHome() {
   const { user } = useAuth()
   const [dashboard, setDashboard] = useState(null)
@@ -68,13 +73,25 @@ function ResidentHome() {
     [readings],
   )
 
+  // Group by consumptionMonth, not readingDate: consumption is the delta since the previous
+  // reading, so it belongs to the month the usage actually happened in, which is the month of
+  // the earlier reading — not the (later) month the reading confirming it was recorded in.
   const monthTotal = useMemo(() => {
     if (readings.length === 0) return null
+
     const now = new Date()
-    const ym = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
-    return readings
-      .filter((r) => r.readingDate?.startsWith(ym))
-      .reduce((sum, r) => sum + Number(r.consumption || 0), 0)
+    const currentYm = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
+    const monthsWithReadings = new Set(readings.map((r) => r.consumptionMonth).filter(Boolean))
+    // Fall back to the most recent month with readings if nothing's been logged yet for the
+    // real current calendar month, rather than showing a misleading 0.0 kL.
+    const ym = monthsWithReadings.has(currentYm) ? currentYm : [...monthsWithReadings].sort().at(-1)
+    if (!ym) return null
+
+    return {
+      total: readings.filter((r) => r.consumptionMonth === ym).reduce((sum, r) => sum + Number(r.consumption || 0), 0),
+      isCurrentMonth: ym === currentYm,
+      ym,
+    }
   }, [readings])
 
   const currentTierLabel = useMemo(() => {
@@ -103,14 +120,16 @@ function ResidentHome() {
           <span className="af-resident__muted">{hasReading ? `As of ${dashboard.latestReadingDate}` : 'No meter reading yet'}</span>
         </article>
         <article className="af-resident__stat">
-          <p>Monthly Total (this month)</p>
-          <strong>{monthTotal != null ? monthTotal.toFixed(1) : '--'} <small>kL</small></strong>
+          <p>{monthTotal && !monthTotal.isCurrentMonth ? `Monthly Total (${yearMonthLabel(monthTotal.ym)})` : 'Monthly Total (this month)'}</p>
+          <strong>{monthTotal != null ? monthTotal.total.toFixed(1) : '--'} <small>kL</small></strong>
           <span className="af-resident__muted">Sum of recorded readings</span>
         </article>
         <article className="af-resident__stat">
           <p>Current Estimated Bill</p>
           <strong>{billEstimate ? `₹${Number(billEstimate.totalAmount).toLocaleString('en-IN')}` : '--'}</strong>
-          <span className="af-resident__muted">Based on this month&apos;s metered consumption</span>
+          <span className="af-resident__muted">
+            {billEstimate ? `Based on ${yearMonthLabel(billEstimate.periodMonth)}'s metered consumption` : 'Based on this month’s metered consumption'}
+          </span>
         </article>
         <article className="af-resident__stat">
           <p>Savings vs Building Avg</p>
@@ -185,7 +204,7 @@ function ResidentHome() {
               <strong>
                 {latestInvoice
                   ? `${Number(latestInvoice.consumptionUnits).toFixed(1)} kL`
-                  : monthTotal != null ? `${monthTotal.toFixed(1)} kL` : '--'}
+                  : monthTotal != null ? `${monthTotal.total.toFixed(1)} kL` : '--'}
               </strong>
             </div>
             <div><span>Tier price level</span><strong className="af-resident__warn">{currentTierLabel}</strong></div>

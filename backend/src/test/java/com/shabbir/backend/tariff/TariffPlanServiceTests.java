@@ -259,11 +259,11 @@ class TariffPlanServiceTests {
         when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(waterUsageReadingService.listForResident(resident)).thenReturn(List.of(
                 new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 3, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("5"), null),
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("5"), null, "2026-03"),
                 new WaterUsageReadingResponse(2L, "MTR-0001", LocalDate.of(2026, 3, 15),
-                        new BigDecimal("120.000"), ReadingSource.MANUAL, new BigDecimal("20"), null),
+                        new BigDecimal("120.000"), ReadingSource.MANUAL, new BigDecimal("20"), null, "2026-03"),
                 new WaterUsageReadingResponse(3L, "MTR-0001", LocalDate.of(2026, 2, 1),
-                        new BigDecimal("80.000"), ReadingSource.MANUAL, new BigDecimal("999"), null)
+                        new BigDecimal("80.000"), ReadingSource.MANUAL, new BigDecimal("999"), null, "2026-02")
         ));
 
         BillEstimateResponse response = tariffPlanService.estimateForResident(resident, YearMonth.of(2026, 3));
@@ -272,5 +272,25 @@ class TariffPlanServiceTests {
         assertThat(response.consumptionUnits()).isEqualByComparingTo(new BigDecimal("25"));
         assertThat(response.totalAmount()).isEqualByComparingTo(new BigDecimal("190.00"));
         assertThat(response.periodMonth()).isEqualTo("2026-03");
+    }
+
+    @Test
+    void estimateForResidentFallsBackToLatestMonthWithReadingsWhenRequestedMonthHasNone() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
+        when(waterUsageReadingService.listForResident(resident)).thenReturn(List.of(
+                new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 2, 1),
+                        new BigDecimal("80.000"), ReadingSource.MANUAL, new BigDecimal("10"), null, "2026-02"),
+                new WaterUsageReadingResponse(2L, "MTR-0001", LocalDate.of(2026, 1, 1),
+                        new BigDecimal("70.000"), ReadingSource.MANUAL, new BigDecimal("999"), null, "2026-01")
+        ));
+
+        // No readings exist for March 2026 at all — should fall back to February, the latest month with data.
+        BillEstimateResponse response = tariffPlanService.estimateForResident(resident, YearMonth.of(2026, 3));
+
+        assertThat(response.periodMonth()).isEqualTo("2026-02");
+        assertThat(response.consumptionUnits()).isEqualByComparingTo(new BigDecimal("10"));
     }
 }

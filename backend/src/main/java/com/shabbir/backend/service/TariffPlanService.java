@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -149,9 +151,18 @@ public class TariffPlanService {
         Household household = householdRepository.findWithApartmentById(residentHousehold.getId())
                 .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Household not found"));
 
-        String monthPrefix = month.toString();
-        BigDecimal consumption = waterUsageReadingService.listForResident(resident).stream()
-                .filter(reading -> reading.readingDate() != null && reading.readingDate().toString().startsWith(monthPrefix))
+        List<WaterUsageReadingResponse> allReadings = waterUsageReadingService.listForResident(resident);
+
+        // If the real current calendar month has no readings yet (e.g. no admin has logged one
+        // this month), fall back to the most recent month that does have data instead of showing
+        // a misleading 0 kL / ₹0 estimate.
+        String requestedPrefix = month.toString();
+        boolean hasCurrentMonthReading = allReadings.stream()
+                .anyMatch(reading -> requestedPrefix.equals(reading.consumptionMonth()));
+        String monthPrefix = hasCurrentMonthReading ? requestedPrefix : latestMonthWithReadings(allReadings).orElse(requestedPrefix);
+
+        BigDecimal consumption = allReadings.stream()
+                .filter(reading -> monthPrefix.equals(reading.consumptionMonth()))
                 .map(WaterUsageReadingResponse::consumption)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
@@ -160,6 +171,13 @@ public class TariffPlanService {
         BigDecimal total = breakdown.stream().map(TierChargeLine::amount).reduce(BigDecimal.ZERO, BigDecimal::add);
 
         return new BillEstimateResponse(monthPrefix, consumption, breakdown, total);
+    }
+
+    private Optional<String> latestMonthWithReadings(List<WaterUsageReadingResponse> readings) {
+        return readings.stream()
+                .map(WaterUsageReadingResponse::consumptionMonth)
+                .filter(Objects::nonNull)
+                .max(String::compareTo);
     }
 
     private TariffPlanResponse toResponse(TariffPlan plan) {

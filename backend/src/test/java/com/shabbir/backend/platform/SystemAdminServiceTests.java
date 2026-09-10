@@ -168,11 +168,12 @@ class SystemAdminServiceTests {
 
         systemAdminService.deleteCommunityAdmin(1L);
 
-        InOrder inOrder = Mockito.inOrder(waterUsageReadingRepository, passwordSetupTokenRepository,
-                residentRepository, waterMeterRepository, householdRepository, apartmentRepository,
-                communityAdminRepository);
+        InOrder inOrder = Mockito.inOrder(waterUsageReadingRepository, billingCycleRepository,
+                passwordSetupTokenRepository, residentRepository, waterMeterRepository, householdRepository,
+                apartmentRepository, communityAdminRepository);
 
         inOrder.verify(waterUsageReadingRepository).deleteByMeterIn(List.of(meter));
+        inOrder.verify(billingCycleRepository).deleteAll(List.of());
         inOrder.verify(passwordSetupTokenRepository).deleteByResident(resident);
         inOrder.verify(residentRepository).deleteAll(List.of(resident));
         inOrder.verify(waterMeterRepository).deleteAll(List.of(meter));

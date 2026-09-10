@@ -65,9 +65,9 @@ class ResidentUsageHistoryControllerTests {
     void usageHistoryReturns200WithData() throws Exception {
         when(waterUsageReadingService.listForResident(any(Resident.class))).thenReturn(List.of(
                 new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 1, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now()),
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now(), "2026-01"),
                 new WaterUsageReadingResponse(2L, "MTR-0001", LocalDate.of(2026, 2, 1),
-                        new BigDecimal("120.000"), ReadingSource.MANUAL, new BigDecimal("20.000"), Instant.now())));
+                        new BigDecimal("120.000"), ReadingSource.MANUAL, new BigDecimal("20.000"), Instant.now(), "2026-01")));
 
         mockMvc.perform(get("/api/resident/usage-history").with(user(new ResidentPrincipal(resident))))
                 .andExpect(status().isOk())

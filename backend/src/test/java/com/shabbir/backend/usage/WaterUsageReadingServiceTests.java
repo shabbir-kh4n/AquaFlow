@@ -89,6 +89,7 @@ class WaterUsageReadingServiceTests {
                 new WaterUsageReadingRequest("MTR-0001", LocalDate.of(2026, 1, 1), new BigDecimal("100.000")), admin);
 
         assertThat(response.consumption()).isEqualByComparingTo(BigDecimal.ZERO);
+        assertThat(response.consumptionMonth()).isEqualTo("2026-01");
     }
 
     @Test
@@ -106,6 +107,9 @@ class WaterUsageReadingServiceTests {
                 new WaterUsageReadingRequest("MTR-0001", LocalDate.of(2026, 2, 1), new BigDecimal("135.500")), admin);
 
         assertThat(response.consumption()).isEqualByComparingTo(new BigDecimal("35.500"));
+        // The reading is dated Feb 1, but the 35.5 kL it reports was used between Jan 1 and Feb 1 —
+        // i.e. during January — so it must be attributed to January, not the month it was recorded in.
+        assertThat(response.consumptionMonth()).isEqualTo("2026-01");
     }
 
     @Test

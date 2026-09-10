@@ -107,7 +107,7 @@ public class BillingCycleService {
             }
 
             BigDecimal consumption = waterUsageReadingService.listForHousehold(household).stream()
-                    .filter(reading -> reading.readingDate() != null && reading.readingDate().toString().startsWith(monthPrefix))
+                    .filter(reading -> monthPrefix.equals(reading.consumptionMonth()))
                     .map(WaterUsageReadingResponse::consumption)
                     .reduce(BigDecimal.ZERO, BigDecimal::add);
 

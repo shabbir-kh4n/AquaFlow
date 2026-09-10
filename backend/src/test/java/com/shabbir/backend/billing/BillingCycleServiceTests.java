@@ -146,9 +146,9 @@ class BillingCycleServiceTests {
         when(residentRepository.findByHousehold(household)).thenReturn(Optional.of(resident));
         when(waterUsageReadingService.listForHousehold(household)).thenReturn(List.of(
                 new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 9, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("15"), null),
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("15"), null, "2026-09"),
                 new WaterUsageReadingResponse(2L, "MTR-0001", LocalDate.of(2026, 9, 15),
-                        new BigDecimal("115.000"), ReadingSource.MANUAL, new BigDecimal("10"), null)
+                        new BigDecimal("115.000"), ReadingSource.MANUAL, new BigDecimal("10"), null, "2026-09")
         ));
         when(tariffPlanService.calculateBreakdown(any(BigDecimal.class), any()))
                 .thenAnswer(inv -> tariffPlanServiceCalculateBreakdown(inv.getArgument(0)));
@@ -187,7 +187,7 @@ class BillingCycleServiceTests {
         when(residentRepository.findByHousehold(household)).thenReturn(Optional.of(resident));
         when(waterUsageReadingService.listForHousehold(household)).thenReturn(List.of(
                 new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 9, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("25"), null)
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("25"), null, "2026-09")
         ));
         when(tariffPlanService.calculateBreakdown(any(BigDecimal.class), any()))
                 .thenAnswer(inv -> tariffPlanServiceCalculateBreakdown(inv.getArgument(0)));

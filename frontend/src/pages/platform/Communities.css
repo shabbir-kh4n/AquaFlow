@@ -148,6 +148,19 @@
   border-bottom: none;
 }
 
+.af-comm__row--clickable {
+  cursor: pointer;
+}
+
+.af-comm__row--clickable:hover {
+  background: rgba(47, 107, 65, 0.06);
+}
+
+.af-comm__row--clickable:focus-visible {
+  outline: 2px solid var(--af-accent-2);
+  outline-offset: -2px;
+}
+
 .af-comm__badge {
   display: inline-block;
   padding: 3px 10px;

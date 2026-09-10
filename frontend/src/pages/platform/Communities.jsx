@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { listCommunities } from '../../api/platformApi'
 import './Communities.css'
 
@@ -12,6 +12,7 @@ const SORT_OPTIONS = [
 ]
 
 function Communities() {
+  const navigate = useNavigate()
   const [communities, setCommunities] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -133,25 +134,37 @@ function Communities() {
                 <th>Admin</th>
                 <th>Email</th>
                 <th>Status</th>
-                <th>Households</th>
                 <th>Residents</th>
                 <th></th>
               </tr>
             </thead>
             <tbody>
               {pagedCommunities.map((c) => (
-                <tr key={c.adminId}>
+                <tr
+                  key={c.adminId}
+                  className="af-comm__row--clickable"
+                  tabIndex={0}
+                  role="button"
+                  onClick={() => navigate(`/platform/communities/${c.adminId}`)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      navigate(`/platform/communities/${c.adminId}`)
+                    }
+                  }}
+                >
                   <td>{c.apartmentName || '—'}</td>
                   <td>{c.adminFullName}</td>
                   <td>{c.adminEmail}</td>
                   <td>
                     <span className={`af-comm__badge af-comm__badge--${c.status.toLowerCase()}`}>{c.status}</span>
                   </td>
-                  <td>{c.householdCount}</td>
                   <td>{c.residentCount}</td>
                   <td>
                     <div className="af-comm__row-actions">
-                      <Link to={`/platform/communities/${c.adminId}`}>View</Link>
+                      <Link to={`/platform/communities/${c.adminId}`} onClick={(e) => e.stopPropagation()}>
+                        View
+                      </Link>
                     </div>
                   </td>
                 </tr>

@@ -133,6 +133,11 @@ public class SystemAdminService {
         List<Resident> residents = residentRepository.findByCreatedByOrderByCreatedAtDesc(admin);
 
         waterUsageReadingRepository.deleteByMeterIn(meters);
+
+        // Invoices reference households (no ON DELETE CASCADE on that FK, only on billing_cycle_id),
+        // so billing cycles must be deleted before households/meters, not after.
+        billingCycleRepository.deleteAll(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment));
+
         residents.forEach(passwordSetupTokenRepository::deleteByResident);
         residentRepository.deleteAll(residents);
         waterMeterRepository.deleteAll(meters);
@@ -141,7 +146,6 @@ public class SystemAdminService {
         tariffPlanRepository.findByApartment(apartment).ifPresent(tariffPlanRepository::delete);
         commonAreaConfigRepository.findByApartment(apartment).ifPresent(commonAreaConfigRepository::delete);
         bulkWaterPurchaseRepository.deleteAll(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment));
-        billingCycleRepository.deleteAll(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment));
 
         apartmentRepository.delete(apartment);
         communityAdminRepository.delete(admin);

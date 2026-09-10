@@ -87,7 +87,6 @@ function PlatformDashboard() {
                 <th>Community</th>
                 <th>Admin</th>
                 <th>Status</th>
-                <th>Households</th>
                 <th>Residents</th>
               </tr>
             </thead>
@@ -101,7 +100,6 @@ function PlatformDashboard() {
                       {c.status}
                     </span>
                   </td>
-                  <td>{c.householdCount}</td>
                   <td>{c.residentCount}</td>
                 </tr>
               ))}

@@ -39,10 +39,13 @@ function AdminDashboard() {
     [readings],
   )
 
+  // Group by consumptionMonth, not readingDate: consumption is the delta since the previous
+  // reading, so it belongs to the month the usage actually happened in, which is the month of
+  // the earlier reading — not the (later) month the reading confirming it was recorded in.
   const monthlyTotals = useMemo(() => {
     const totals = new Map()
     readings.forEach((r) => {
-      const ym = r.readingDate?.slice(0, 7)
+      const ym = r.consumptionMonth
       if (!ym) return
       totals.set(ym, (totals.get(ym) || 0) + Number(r.consumption || 0))
     })
@@ -58,12 +61,20 @@ function AdminDashboard() {
       }))
   }, [readings])
 
-  const currentMonthTotal = useMemo(() => {
+  const currentMonthUsage = useMemo(() => {
     const now = new Date()
-    const ym = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
-    return readings
-      .filter((r) => r.readingDate?.startsWith(ym))
-      .reduce((sum, r) => sum + Number(r.consumption || 0), 0)
+    const currentYm = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
+
+    const monthsWithReadings = new Set(readings.map((r) => r.consumptionMonth).filter(Boolean))
+    // Fall back to the most recent month with readings if nothing's been logged yet for the
+    // real current calendar month, rather than showing a misleading 0.0 kL.
+    const ym = monthsWithReadings.has(currentYm) ? currentYm : [...monthsWithReadings].sort().at(-1)
+
+    const total = ym
+      ? readings.filter((r) => r.consumptionMonth === ym).reduce((sum, r) => sum + Number(r.consumption || 0), 0)
+      : 0
+
+    return { ym, total, isCurrentMonth: ym === currentYm }
   }, [readings])
 
   const recentReadings = useMemo(
@@ -105,8 +116,14 @@ function AdminDashboard() {
 
         <article className="af-dash__card">
           <span className="af-dash__label">Monthly Consumption</span>
-          <span className="af-dash__value">{loading ? '—' : `${currentMonthTotal.toFixed(1)} kL`}</span>
-          <span className="af-dash__muted">This calendar month</span>
+          <span className="af-dash__value">{loading ? '—' : `${currentMonthUsage.total.toFixed(1)} kL`}</span>
+          <span className="af-dash__muted">
+            {loading || currentMonthUsage.isCurrentMonth
+              ? 'This calendar month'
+              : currentMonthUsage.ym
+                ? `Latest recorded month (${monthLabel(currentMonthUsage.ym)})`
+                : 'No readings recorded yet'}
+          </span>
         </article>
 
         <article className="af-dash__card">

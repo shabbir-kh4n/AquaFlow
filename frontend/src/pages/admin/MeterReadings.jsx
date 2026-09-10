@@ -94,10 +94,13 @@ function MeterReadings() {
     )
   }, [residents, search])
 
+  // consumptionMonth (not readingDate) is used here: consumption is the delta since the previous
+  // reading, so it belongs to the month the usage actually happened in, which is the month of the
+  // earlier reading — not the (later) month the reading confirming it was recorded in.
   const monthConsumption = useMemo(() => {
     const currentMonth = today().slice(0, 7)
     return recentReadings
-      .filter((reading) => reading.readingDate?.startsWith(currentMonth))
+      .filter((reading) => reading.consumptionMonth === currentMonth)
       .reduce((sum, reading) => sum + Number(reading.consumption || 0), 0)
   }, [recentReadings])
 

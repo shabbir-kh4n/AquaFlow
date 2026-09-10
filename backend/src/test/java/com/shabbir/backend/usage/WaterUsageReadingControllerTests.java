@@ -70,7 +70,7 @@ class WaterUsageReadingControllerTests {
     void recordReturns201() throws Exception {
         when(waterUsageReadingService.recordManual(any(), any(CommunityAdmin.class)))
                 .thenReturn(new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 1, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now()));
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now(), "2026-01"));
 
         mockMvc.perform(post("/api/admin/usage-readings")
                         .with(user(new UserPrincipal(admin)))
@@ -84,7 +84,7 @@ class WaterUsageReadingControllerTests {
     void searchReturnsList() throws Exception {
         when(waterUsageReadingService.search(any(), any(), any(), any(CommunityAdmin.class)))
                 .thenReturn(List.of(new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 1, 1),
-                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now())));
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, BigDecimal.ZERO, Instant.now(), "2026-01")));
 
         mockMvc.perform(get("/api/admin/usage-readings").with(user(new UserPrincipal(admin))))
                 .andExpect(status().isOk())

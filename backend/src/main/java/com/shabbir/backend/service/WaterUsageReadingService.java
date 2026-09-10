@@ -69,7 +69,8 @@ public class WaterUsageReadingService {
                 .build();
 
         waterUsageReadingRepository.save(reading);
-        return WaterUsageReadingResponse.from(reading, computeConsumption(reading, previous));
+        return WaterUsageReadingResponse.from(reading, computeConsumption(reading, previous),
+                previous.map(WaterUsageReading::getReadingDate).orElse(null));
     }
 
     public List<WaterUsageReadingResponse> search(String meterNumber, LocalDate from, LocalDate to, CommunityAdmin admin) {
@@ -199,7 +200,8 @@ public class WaterUsageReadingService {
     private WaterUsageReadingResponse toResponse(WaterUsageReading reading) {
         Optional<WaterUsageReading> previous = waterUsageReadingRepository
                 .findFirstByMeterAndReadingDateBeforeOrderByReadingDateDesc(reading.getMeter(), reading.getReadingDate());
-        return WaterUsageReadingResponse.from(reading, computeConsumption(reading, previous));
+        return WaterUsageReadingResponse.from(reading, computeConsumption(reading, previous),
+                previous.map(WaterUsageReading::getReadingDate).orElse(null));
     }
 
     private BigDecimal computeConsumption(WaterUsageReading reading, Optional<WaterUsageReading> previous) {
