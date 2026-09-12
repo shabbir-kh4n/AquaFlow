@@ -120,7 +120,13 @@ function ResidentLayout() {
               <Icon name="search" />
               <input type="search" placeholder="Search analytics, bills…" aria-label="Search" />
             </label>
-            <button type="button" className="af-resident__icon-button" aria-label="Notifications" title="Notifications">
+            <button
+              type="button"
+              className="af-resident__icon-button"
+              aria-label="Notifications"
+              title="Notifications"
+              onClick={() => navigate('/resident/notifications')}
+            >
               <Icon name="bell" />
               {activeAlertCount > 0 && <b>{activeAlertCount}</b>}
             </button>

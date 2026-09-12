@@ -279,17 +279,19 @@ function WaterLeakage() {
                         {alert.status}
                       </span>
                     </td>
-                    <td className="af-leak__row-actions">
-                      {alert.status === 'ACTIVE' && (
-                        <>
-                          <button type="button" onClick={() => handleStatusChange(alert, 'RESOLVED')}>
-                            Resolve
-                          </button>
-                          <button type="button" className="af-leak__dismiss" onClick={() => handleStatusChange(alert, 'DISMISSED')}>
-                            Dismiss
-                          </button>
-                        </>
-                      )}
+                    <td>
+                      <div className="af-leak__row-actions">
+                        {alert.status === 'ACTIVE' && (
+                          <>
+                            <button type="button" onClick={() => handleStatusChange(alert, 'RESOLVED')}>
+                              Resolve
+                            </button>
+                            <button type="button" className="af-leak__dismiss" onClick={() => handleStatusChange(alert, 'DISMISSED')}>
+                              Dismiss
+                            </button>
+                          </>
+                        )}
+                      </div>
                     </td>
                   </tr>
                 ))}

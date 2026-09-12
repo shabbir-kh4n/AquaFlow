@@ -27,3 +27,7 @@ export function setInvoicePaymentStatus(invoiceId, paid) {
 export function getMyInvoices() {
   return axiosClient.get('/resident/invoices').then((res) => res.data)
 }
+
+export function payInvoice(invoiceId) {
+  return axiosClient.post(`/resident/invoices/${invoiceId}/pay`).then((res) => res.data)
+}

@@ -6,6 +6,7 @@ import './PlatformLayout.css'
 const NAV_ITEMS = [
   { to: '/platform/dashboard', label: 'Dashboard', icon: 'grid' },
   { to: '/platform/communities', label: 'Communities', icon: 'buildings' },
+  { to: '/platform/reports', label: 'Reports', icon: 'chart' },
   { to: '/platform/system-status', label: 'System Status', icon: 'pulse' },
 ]
 
@@ -14,6 +15,10 @@ const PAGE_META = {
   '/platform/communities': {
     title: 'Communities',
     subtitle: 'Every registered community admin and their community, in one place.',
+  },
+  '/platform/reports': {
+    title: 'Reports',
+    subtitle: 'Platform-wide water usage and billing figures, by community and over time.',
   },
   '/platform/system-status': {
     title: 'System Status',
@@ -24,6 +29,7 @@ const PAGE_META = {
 const ICONS = {
   grid: <path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" />,
   buildings: <path d="M4 21V7l6-4 6 4v14M4 21h16M9 9h2M9 13h2M13 9h2M13 13h2M9 21v-4h4v4" />,
+  chart: <path d="M4 21V9M10 21V3M16 21v-7M22 21H2" />,
   pulse: <path d="M3 12h4l2-7 4 14 2-7h6" />,
   search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,

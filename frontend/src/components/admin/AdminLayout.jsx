@@ -180,7 +180,13 @@ function AdminLayout() {
               <Icon name="search" />
               <input type="search" placeholder="Search anything…" aria-label="Search" />
             </label>
-            <button type="button" className="af-admin__icon-button" aria-label="Notifications" title="Notifications">
+            <button
+              type="button"
+              className="af-admin__icon-button"
+              aria-label="Notifications"
+              title="Notifications"
+              onClick={() => navigate('/admin/water-leakage')}
+            >
               <Icon name="bell" />
               {activeAlertCount > 0 && <b>{activeAlertCount}</b>}
             </button>

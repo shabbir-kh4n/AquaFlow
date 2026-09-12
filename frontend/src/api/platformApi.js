@@ -23,3 +23,8 @@ export function getSystemStatus() {
 export function getSystemMetrics(range) {
   return axiosClient.get('/platform/system-metrics', { params: { range } }).then((res) => res.data)
 }
+
+export function getPlatformReport({ range, from, to } = {}) {
+  const params = range ? { range } : { from, to }
+  return axiosClient.get('/platform/reports', { params }).then((res) => res.data)
+}

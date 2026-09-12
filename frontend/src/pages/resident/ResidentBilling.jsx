@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
-import { getMyInvoices } from '../../api/billingApi'
+import { getMyInvoices, payInvoice } from '../../api/billingApi'
 import { Icon } from '../../components/resident/Icon'
+import RazorpaySimulatorModal from './RazorpaySimulatorModal'
 import './ResidentBilling.css'
 
 const PAGE_SIZE = 10
@@ -11,6 +12,7 @@ function ResidentBilling() {
   const [error, setError] = useState('')
   const [expandedId, setExpandedId] = useState(null)
   const [page, setPage] = useState(0)
+  const [payingInvoice, setPayingInvoice] = useState(null)
 
   useEffect(() => {
     getMyInvoices()
@@ -18,6 +20,13 @@ function ResidentBilling() {
       .catch(() => setError('Could not load your billing history. Please try again.'))
       .finally(() => setLoading(false))
   }, [])
+
+  function handlePaymentSuccess(invoiceId) {
+    return payInvoice(invoiceId).then((updated) => {
+      setInvoices((prev) => prev.map((inv) => (inv.id === updated.id ? updated : inv)))
+      setPayingInvoice(null)
+    })
+  }
 
   const pageCount = Math.max(1, Math.ceil(invoices.length / PAGE_SIZE))
   const pagedInvoices = useMemo(
@@ -122,6 +131,15 @@ function ResidentBilling() {
                         <span className="af-bills__pdf-link" title="PDF download isn't available yet">
                           PDF
                         </span>
+                        {!invoice.paid && (
+                          <button
+                            type="button"
+                            className="af-bills__pay-btn"
+                            onClick={() => setPayingInvoice(invoice)}
+                          >
+                            Pay
+                          </button>
+                        )}
                       </div>
                     </td>
                   </tr>
@@ -211,6 +229,14 @@ function ResidentBilling() {
           Manage Payment Methods
         </button>
       </section>
+
+      {payingInvoice && (
+        <RazorpaySimulatorModal
+          invoice={payingInvoice}
+          onClose={() => setPayingInvoice(null)}
+          onSuccess={() => handlePaymentSuccess(payingInvoice.id)}
+        />
+      )}
     </>
   )
 }

@@ -25,6 +25,7 @@ import PlatformLayout from './components/platform/PlatformLayout'
 import PlatformDashboard from './pages/platform/PlatformDashboard'
 import Communities from './pages/platform/Communities'
 import CommunityDetail from './pages/platform/CommunityDetail'
+import PlatformReports from './pages/platform/PlatformReports'
 import SystemStatus from './pages/platform/SystemStatus'
 import './styles/theme.css'
 
@@ -82,6 +83,7 @@ function App() {
               <Route path="/platform/dashboard" element={<PlatformDashboard />} />
               <Route path="/platform/communities" element={<Communities />} />
               <Route path="/platform/communities/:adminId" element={<CommunityDetail />} />
+              <Route path="/platform/reports" element={<PlatformReports />} />
               <Route path="/platform/system-status" element={<SystemStatus />} />
             </Route>
           </Routes>
