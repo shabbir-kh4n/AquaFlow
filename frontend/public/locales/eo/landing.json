@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkciaro",
+    "linkHowItWorks": "Kiel ĝi funkcias",
+    "linkContact": "Kontaktu",
+    "signIn": "Ensaluti",
+    "getStarted": "Komenci"
+  },
+  "hero": {
+    "eyebrow": "Inteligenta Akvomonitorado",
+    "titleLine1": "Spuru uzadon.",
+    "titleHighlight": "Juste dividu.",
+    "titleLine2": "Ŝparu akvon.",
+    "paragraph": "HydroLedger donas al loĝejaj komunumoj realtempajn komprenojn pri konsumo, travideblan fakturadon de komunaj kostoj, kaj fruajn avertojn pri likoj — ĉio el unu instrumentpanelo.",
+    "ctaPrimary": "Komenci",
+    "ctaSecondary": "Ensaluti",
+    "panelLabel": "Uzado de ĉi tiu monato",
+    "panelSub": "8% sub la domanara averaĝo",
+    "chartLabelStart": "Lun",
+    "chartLabelEnd": "Dim"
+  },
+  "trustBar": {
+    "label": "Fidata de progresemaj multfamiliaj mastrumaj grupoj"
+  },
+  "features": {
+    "pill": "Kernaj Kapabloj",
+    "headingPrefix": "Ĉio necesa por",
+    "headingHighlight": "Monitori & Fakturi",
+    "headingSuffix": "Juste",
+    "paragraph": "Adiaŭu platajn tarifojn por servaĵoj. HydroLedger stiras strukturan egalecon per preciza mezurado kaj inteligenta aŭtomatigo.",
+    "items": [
+      {
+        "tag": "Akva Spurado",
+        "title": "Realtempa Sub-Mezurado",
+        "text": "Mezuru precizan, minut-post-minutan akvokonsumon tra individuaj loĝejoj anstataŭ fidi al malnoviĝintaj majstraj taksoj."
+      },
+      {
+        "tag": "Aŭtomatiga Fakturado",
+        "title": "Aŭtomatigita Komunuma Fakturado",
+        "text": "Fakturgenerado rekte al loĝantoj mapita dinamike al proporcia uzo. Eliminu fakturajn elspezojn tuj."
+      },
+      {
+        "tag": "Riskomildigo",
+        "title": "Fruaj Avertoj pri Lik-Detekto",
+        "text": "Tujaj aŭtomatigitaj avertoj flagas nenormalajn fluajn ŝablonojn kaj kaptas gravan akvodamaĝon ene de minutoj, ne monatoj."
+      },
+      {
+        "tag": "Kostasigno",
+        "title": "Justa Distribuado de Kostoj",
+        "text": "Spuru komunan uzadon de areoj kaj distribuu strukturajn kostojn travideble por konstrui loĝantaran fidon kaj konservadon."
+      }
+    ],
+    "learnMore": "Lernu pli"
+  },
+  "howItWorks": {
+    "pill": "Laborflua Efikeco",
+    "heading": "Senjunta Instalado, Senmana Operacio",
+    "paragraph": "Rapide agordu. Post kiam aparataro konektiĝas, la platformo pritraktas kompleksajn kalkulojn, fakturajn sendojn, kaj lik-avertojn denaske.",
+    "steps": [
+      {
+        "title": "Konektu Inteligentajn Mezurilojn",
+        "text": "Niaj atestitaj teknikistoj alkroĉas ne-invadajn inteligentajn flu-submezurilojn rekte al individuaj vertikalaj tuboj en malpli ol 15 minutoj."
+      },
+      {
+        "title": "Realtempa Spurado",
+        "text": "Datumoj fluas kontinue al la nuba platformo HydroLedger, registrante precizajn uzciferojn kaj monitorante nenormalan aktivecon."
+      },
+      {
+        "title": "Aŭtomatigu Fakturojn",
+        "text": "Ĉe monatfino, la motoro kombinas distribuojn de komunaj areoj kaj submezuritajn volumojn en klarajn, erigitajn fakturojn."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Viva Portalo por Loĝantoj",
+    "headingPrefix": "Povigu loĝantojn per",
+    "headingHighlight": "Klaro pri konsumo",
+    "paragraph": "Travidebleco konstruas komunumon. Loĝantoj ĝuas simplajn instrumentpanelojn kun realtempa retrosciigo, prognozaj kostoprojekcioj, kaj iniciatema lik-averto.",
+    "brandLabel": "Portalo de Loĝanto",
+    "unitLabel": "Unuo 4B — Nuna Faktura Ciklo",
+    "stat1Label": "Uzo de ĉi tiu monato",
+    "stat1Trend": "-12% kontraŭ averaĝo",
+    "stat2Label": "Est. Faktura Sumo",
+    "stat2Trend": "Laŭplane",
+    "stat3Label": "Stato de likoj",
+    "stat3Value": "Ĉio en ordo",
+    "stat3Trend": "Sekura Fluo",
+    "chartTitle": "Semajna Uzado (Galonoj)",
+    "bars": [
+      "Sem 1",
+      "Sem 2",
+      "Sem 3",
+      "Sem 4",
+      "Sem 5 (Prog)"
+    ],
+    "tipTitle": "Konservada Konsilo",
+    "tipText": "Via kuireja krano montras iomete kontinue flui matene. Kontroli aerigilojn povus ŝpari ĝis 10 galonojn/semajne.",
+    "tipBadge": "Aŭtomatigita Kompreno",
+    "autopayTitle": "Aŭtomata pago ebligita",
+    "autopayLabel": "Sekva dato de Aŭtomata fakturo",
+    "autopayButton": "Vidu detalan PDF-fakturon"
+  },
+  "audienceSplit": {
+    "residentPill": "Por Loĝantoj",
+    "residentHeading": "Justaj, sur Konsumo-bazitaj Servaĵaj Kostoj",
+    "residentParagraph": "Ĉesu pagi por la troa konsumo de via najbaro. Pagu strikte por la galonoj kiujn vi uzas, subtenate de realtempaj instrumentpanelaj datumoj.",
+    "residentBullets": [
+      "Precizaj monataj sub-mezuraj datumoj kun travideblaj kostmetrikoj.",
+      "SMS & poŝtelefonaj sciigoj se mikro-likoj estas detektitaj en aparatoj.",
+      "Simpla, fluliniigita cifereca faktura pagsistemo kun aŭtomatigitaj kvitancoj."
+    ],
+    "adminPill": "Por Mastrumantoj de Nemoveblaĵoj",
+    "adminHeading": "Tuja Operacia ROI kaj Malŝpar-Kontrolo",
+    "adminParagraph": "Transformu servaĵan mastrumadon de alt-perda kapdoloro en senjuntan, alt-marĝenan tubaron per aŭtomatigita fakturado de loĝantoj.",
+    "adminBullets": [
+      "Senmana servaĵa asigno rekte konektita al individuaj unuoj.",
+      "Tuja operaciaj avertoj por malhelpi altkoste strukturajn akvodamaĝojn.",
+      "Detala instrumentpanela raportado pri majstra mezurila fakturado kontraŭ distribuitaj galonoj."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Averaĝa Akvo Ŝparita",
+      "Aktivaj Domanaroj",
+      "Sistemo-funkciotempo",
+      "Komunumoj Mastrumataj"
+    ]
+  },
+  "pricing": {
+    "pill": "Travideblaj Pakoj",
+    "heading": "Operaciaj Kostoj kun Alta Reveno de Investo",
+    "paragraph": "Elektu planon skalitan al via preciza komunuma denseco. HydroLedger kutime kompensis siajn proprajn platformajn kotizojn en la unua monato per reduktita malŝparo en komunaj areoj.",
+    "highlightBadge": "Plej bona Valoro",
+    "customPriceLabel": "Laŭmenda",
+    "tiers": [
+      {
+        "name": "Komencanto",
+        "unit": "por unuo / monato",
+        "desc": "Perfekta por pli malgrandaj urbdomaj asocioj bezonantaj kernajn sub-mezurajn kapablojn.",
+        "features": [
+          "Realtempaj Mezurilaj Legadoj",
+          "SMS Lik-Avertoj",
+          "Normaj Fakturaj Eksportoj",
+          "Mem-serva Portalo"
+        ],
+        "cta": "Aktivigu Komencanton"
+      },
+      {
+        "name": "Profesiano",
+        "unit": "por unuo / monato",
+        "desc": "Nia ora norma pako por klasikaj loĝejaj komunumoj dezirantaj tute aŭtomatigitan fakturadon de loĝantoj.",
+        "features": [
+          "Ĉio en Komencanto",
+          "Aŭtomatigitaj PDF-Fakturaj Sendoj",
+          "Proporciaj Asignoj de Komunaj Areoj",
+          "Prioritata Klienta Subteno"
+        ],
+        "cta": "Iĝu Profesiano (Plej Populara)"
+      },
+      {
+        "name": "Entrepreno",
+        "unit": "laŭ peto",
+        "desc": "Por vastaj instituciaj komunumoj postulanta laŭmendajn API-tubarojn kaj fakturajn agordojn.",
+        "features": [
+          "Ĉio en Profesiano",
+          "Laŭmendaj Fakturaj Programaj Integriĝoj",
+          "Dediĉita Servaĵa Konsultisto",
+          "Aparatara SLA-Garantioj"
+        ],
+        "cta": "Kontaktu Entreprenajn Vendojn"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operaciaj Realecoj",
+    "heading": "Kion diras la Mastrumantoj",
+    "quotes": [
+      {
+        "text": "HydroLedger fundamente ŝanĝis nian operacian profit-kaj-perdan raporton. Ni malkovris tri gravajn kaŝitajn servajn likojn en mekanikaj linioj kiuj ŝparis al ni pli ol 11 lakhojn da rupioj en nia unua kvarono sole."
+      },
+      {
+        "text": "Loĝantara fido eksplodis. Fakturi niajn loĝantojn bazite strikte sur akvouzo anstataŭ ĝeneralaj mult-dormoĉambraj majstraj mezurilaj kalkuloj solvis niajn plej dolorajn disputojn kun loĝantoj."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Subteno",
+    "heading": "Ofte Responditaj Demandoj",
+    "items": [
+      {
+        "q": "Ĉu inteligentaj sub-mezuriloj postulas mekanikan servon-malŝalton?",
+        "a": "Ne. Niaj novigaj vertikalaj mezurilaj unuoj konvenas ne-invade rekte super ekzistantaj linioj en individuaj subtegmentoj aŭ subetaĝoj. Agordoj finiĝas pure en minutoj sen bezono de malŝalto de servaĵoj por la loĝantoj."
+      },
+      {
+        "q": "Kiel komunaj/parte dividitaj akvokostoj estas kalkulitaj?",
+        "a": "La centra komunuma areo (ekz. naĝejo, ĝardenado) estas subtrahita pure de la ĉefaj majstraj mezuriloj unue. Nemoveblaĵaj grupoj asignas tiujn strukture aŭ proporcie travideble."
+      },
+      {
+        "q": "Kiom rapide HydroLedger detektas kontinuajn lik-fluojn?",
+        "a": "Niaj fonaj averto-tubaroj kontrolas kontinuajn flusignalojn. Se la fluo ne atingas nulon dum 10-minuta ciklo, avertoj tuj ekfunkcias por minimumigi damaĝajn riskojn."
+      },
+      {
+        "q": "Ĉu HydroLedger pritraktas sekurecon aŭ privatecon de loĝantoj?",
+        "a": "Jes. HydroLedger protektas kaj konservas loĝantajn portalajn identigilojn malantaŭ normaj ĉifritaj kanaloj. Operaciaj datumoj estas konservitaj sekuraj strikte por konsum-spuraj celoj."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Aliĝu al HydroLedger Hodiaŭ",
+    "heading": "Komencu Monitori Vian Akvouzon Hodiaŭ",
+    "paragraph": "Akcelu konservadajn metrikojn, simpligu la fakturan elspezon por loĝantoj, kaj protektu valoran mult-domanaran infrastrukturon. Lasu nin kalkuli vian laŭmendan komunumon ROI-taksadon.",
+    "ctaPrimary": "Petu Citaĵon",
+    "ctaSecondary": "Kontaktu Vendojn"
+  },
+  "footer": {
+    "tagline": "Inteligentaj servaĵaj asignaj tubaroj kaj realtempaj loĝantaj sub-mezuraj solvoj. Protektu sistemojn, vicigu fakturojn, ŝparu akvon.",
+    "columns": [
+      {
+        "title": "Platformo",
+        "links": [
+          "Sub-Mezurado",
+          "Faktura Serio",
+          "Lik-Gardisto",
+          "Loĝanta Apo"
+        ]
+      },
+      {
+        "title": "Rimedoj",
+        "links": [
+          "Kazstudoj",
+          "Blogo",
+          "Instala Gvidilo",
+          "Helpa Centro"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporacia Oficejo",
+    "copyright": "© 2026 HydroLedger Systems Inc. Ĉiuj rajtoj rezervitaj.",
+    "legalPrivacy": "Privateca Politiko",
+    "legalTerms": "Kondiĉoj de Servo"
+  }
+}

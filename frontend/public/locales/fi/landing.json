@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Ominaisuudet",
+    "linkHowItWorks": "Miten se toimii",
+    "linkContact": "Yhteystiedot",
+    "signIn": "Kirjaudu sisään",
+    "getStarted": "Aloita tästä"
+  },
+  "hero": {
+    "eyebrow": "Älykäs veden seuranta",
+    "titleLine1": "Seuraa kulutusta.",
+    "titleHighlight": "Jaa oikeudenmukaisesti.",
+    "titleLine2": "Säästä vettä.",
+    "paragraph": "HydroLedger tarjoaa asuinyhteisöille reaaliaikaiset kulutustiedot, läpinäkyvän jaetun laskutuksen ja varhaiset vuotohälytykset – kaikki yhdestä näkymästä.",
+    "ctaPrimary": "Aloita tästä",
+    "ctaSecondary": "Kirjaudu sisään",
+    "panelLabel": "Tämän kuukauden kulutus",
+    "panelSub": "8 % alle kotitalouksien keskiarvon",
+    "chartLabelStart": "Ma",
+    "chartLabelEnd": "Su"
+  },
+  "trustBar": {
+    "label": "Edistyksellisten kiinteistönhallintaryhmien luottama"
+  },
+  "features": {
+    "pill": "Ydinominaisuudet",
+    "headingPrefix": "Kaikki tarvittava",
+    "headingHighlight": "seurantaan ja laskutukseen",
+    "headingSuffix": "oikeudenmukaisesti",
+    "paragraph": "Sano hyvästit kiinteähintaisille vesilaskuille. HydroLedger edistää rakenteellista oikeudenmukaisuutta tarkan mittauksen ja älykkään automaation avulla.",
+    "items": [
+      {
+        "tag": "Veden seuranta",
+        "title": "Reaaliaikainen alamittaus",
+        "text": "Mittaa veden kulutus tarkasti minuutti minuutilta jokaisesta asunnosta vanhentuneiden arvioiden sijaan."
+      },
+      {
+        "tag": "Laskutuksen automaatio",
+        "title": "Automatisoitu yhteisölaskutus",
+        "text": "Luo asukaskohtaiset laskut dynaamisesti toteutuneen kulutuksen perusteella. Poista laskutuksen hallinnollinen taakka välittömästi."
+      },
+      {
+        "tag": "Riskien hallinta",
+        "title": "Varhaiset vuotohälytykset",
+        "text": "Automaattiset hälytykset tunnistavat poikkeavat virtaamat ja havaitsevat merkittävät vesivahingot minuuteissa, eivät kuukausissa."
+      },
+      {
+        "tag": "Kustannusten jako",
+        "title": "Oikeudenmukainen kustannusten jako",
+        "text": "Seuraa yhteisten tilojen kulutusta ja jaa rakenteelliset kustannukset läpinäkyvästi luottamuksen ja säästäväisyyden lisäämiseksi."
+      }
+    ],
+    "learnMore": "Lue lisää"
+  },
+  "howItWorks": {
+    "pill": "Työnkulun tehostaminen",
+    "heading": "Saumaton asennus, vaivaton käyttö",
+    "paragraph": "Ota järjestelmä käyttöön nopeasti. Kun laitteet on yhdistetty, alusta hoitaa monimutkaiset laskelmat, laskujen lähetykset ja vuotohälytykset automaattisesti.",
+    "steps": [
+      {
+        "title": "Yhdistä älymittarit",
+        "text": "Valtuutetut asentajamme liittävät huomaamattomat älykkäät virtausmittarit suoraan nousuputkiin alle 15 minuutissa."
+      },
+      {
+        "title": "Reaaliaikainen seuranta",
+        "text": "Datan virtaus HydroLedger-pilvipalveluun on jatkuvaa, tallentaen tarkat kulutusluvut ja valvoen poikkeavaa toimintaa."
+      },
+      {
+        "title": "Automatisoi laskut",
+        "text": "Kuukauden lopussa järjestelmä yhdistää yhteisten tilojen ja asuntojen mittarilukemat selkeiksi, eritellyiksi laskuiksi."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Asukasportaalin näkymä",
+    "headingPrefix": "Tarjoa asukkaille",
+    "headingHighlight": "selkeä näkyvyys kulutukseen",
+    "paragraph": "Läpinäkyvyys lisää yhteisöllisyyttä. Asukkaat nauttivat selkeistä näkymistä, reaaliaikaisesta palautteesta, kustannusennusteista ja vuotovaroituksista.",
+    "brandLabel": "Asukasportaali",
+    "unitLabel": "Asunto 4B — Nykyinen laskutuskausi",
+    "stat1Label": "Tämän kuukauden kulutus",
+    "stat1Trend": "-12 % vs. keskiarvo",
+    "stat2Label": "Arvioitu lasku",
+    "stat2Trend": "Normaalilla tasolla",
+    "stat3Label": "Vuototila",
+    "stat3Value": "Kaikki kunnossa",
+    "stat3Trend": "Normaali virtaus",
+    "chartTitle": "Viikoittainen kulutus (litraa)",
+    "bars": [
+      "Vk 1",
+      "Vk 2",
+      "Vk 3",
+      "Vk 4",
+      "Vk 5 (Ennuste)"
+    ],
+    "tipTitle": "Säästövinkki",
+    "tipText": "Keittiön hana näyttää valuvan aamuisin. Suodattimien tarkistus voi säästää jopa 40 litraa viikossa.",
+    "tipBadge": "Automaattinen oivallus",
+    "autopayTitle": "Automaattinen maksu käytössä",
+    "autopayLabel": "Seuraava automaattinen laskutuspäivä",
+    "autopayButton": "Näytä PDF-lasku"
+  },
+  "audienceSplit": {
+    "residentPill": "Asukkaille",
+    "residentHeading": "Oikeudenmukaiset, kulutukseen perustuvat kustannukset",
+    "residentParagraph": "Lopeta naapurin ylikulutuksen maksaminen. Maksa vain itse kuluttamastasi vedestä, reaaliaikaisen datan tukemana.",
+    "residentBullets": [
+      "Tarkat kuukausittaiset kulutustiedot läpinäkyvillä kustannuksilla.",
+      "Tekstiviesti- ja mobiili-ilmoitukset mahdollisten vuotojen varalta.",
+      "Yksinkertainen ja sujuva digitaalinen laskujen maksu automaattisilla kuiteilla."
+    ],
+    "adminPill": "Isännöitsijöille",
+    "adminHeading": "Välitön operatiivinen hyöty ja kulutuksen hallinta",
+    "adminParagraph": "Muuta veden hallinta vaivattomaksi ja kannattavaksi toiminnaksi automatisoidun laskutuksen avulla.",
+    "adminBullets": [
+      "Vaivaton kustannusten jako suoraan yksittäisille asunnoille.",
+      "Välittömät hälytykset suurten vesivahinkojen estämiseksi.",
+      "Yksityiskohtainen raportointi päämittarin laskutuksesta vs. jaetut kuutiot."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Säästetty vesi keskimäärin",
+      "Aktiiviset kotitaloudet",
+      "Järjestelmän käytettävyys",
+      "Hallinnoidut yhteisöt"
+    ]
+  },
+  "pricing": {
+    "pill": "Läpinäkyvä hinnoittelu",
+    "heading": "Korkean tuoton operatiiviset kustannukset",
+    "paragraph": "Valitse yhteisösi kokoon sopiva suunnitelma. HydroLedger maksaa itsensä yleensä takaisin jo ensimmäisen kuukauden aikana vähentyneen hukka-veden ansiosta.",
+    "highlightBadge": "Paras hinta-laatusuhde",
+    "customPriceLabel": "Räätälöity",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "asunto / kk",
+        "desc": "Täydellinen pienille rivitaloyhtiöille, jotka tarvitsevat perusmittauksen.",
+        "features": [
+          "Reaaliaikaiset mittarilukemat",
+          "Vuotohälytykset tekstiviestillä",
+          "Vakiolaskutustiedostot",
+          "Itsepalveluportaali"
+        ],
+        "cta": "Aktivoi Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "asunto / kk",
+        "desc": "Kultainen standardi kerrostaloille, jotka haluavat täysin automatisoidun laskutuksen.",
+        "features": [
+          "Kaikki Starter-ominaisuudet",
+          "Automaattiset PDF-laskujen lähetykset",
+          "Yhteisten tilojen kustannusjako",
+          "Ensisijainen asiakastuki"
+        ],
+        "cta": "Valitse Pro (Suosituin)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "pyynnöstä",
+        "desc": "Suurille organisaatioille, jotka tarvitsevat räätälöityjä API-yhteyksiä ja laskutusasetuksia.",
+        "features": [
+          "Kaikki Professional-ominaisuudet",
+          "Räätälöidyt laskutusjärjestelmäintegraatiot",
+          "Oma asiantuntijakonsultti",
+          "Laitteiston palvelutasosopimus (SLA)"
+        ],
+        "cta": "Ota yhteys myyntiin"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Käytännön tulokset",
+    "heading": "Mitä isännöitsijät sanovat",
+    "quotes": [
+      {
+        "text": "HydroLedger muutti toimintamme kannattavuuden täysin. Löysimme kolme merkittävää piilovuotoa putkistoista, mikä säästi meiltä yli 11 lakhia ensimmäisen neljänneksen aikana."
+      },
+      {
+        "text": "Asukkaiden luottamus on kasvanut huomattavasti. Laskuttaminen todellisen kulutuksen mukaan on ratkaissut yleisimmät asukasriidat."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Usein kysytyt kysymykset",
+    "heading": "Usein kysyttyjä kysymyksiä",
+    "items": [
+      {
+        "q": "Vaativatko älymittarit vesikatkoja asennuksessa?",
+        "a": "Ei. Innovatiiviset mittarimme asennetaan olemassa olevien putkien päälle ilman katkoksia. Asennus vie vain minuutteja ilman tarvetta katkaista vettä asunnoilta."
+      },
+      {
+        "q": "Miten yhteiset vesikustannukset lasketaan?",
+        "a": "Yhteiset kulut (kuten uima-altaat tai kastelu) vähennetään ensin päämittarista. Yhtiöt voivat jakaa nämä kustannukset rakenteellisesti tai suhteellisesti."
+      },
+      {
+        "q": "Kuinka nopeasti HydroLedger havaitsee jatkuvan vuodon?",
+        "a": "Järjestelmämme tarkkailee virtausta jatkuvasti. Jos vesi virtaa taukoamatta yli 10 minuutin ajan, järjestelmä lähettää välittömän varoituksen mahdollisten vaurioiden minimoimiseksi."
+      },
+      {
+        "q": "Miten HydroLedger huomioi tietoturvan ja yksityisyyden?",
+        "a": "Kyllä. HydroLedger suojaa ja säilöö asukastiedot vahvasti salattujen kanavien takana. Operatiivinen data pidetään turvassa vain kulutuksen seurantaa varten."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Liity HydroLedgerin käyttäjäksi",
+    "heading": "Aloita veden seuranta jo tänään",
+    "paragraph": "Paranna säästötavoitteita, yksinkertaista asukaslaskutusta ja suojaa arvokasta kiinteistöomaisuutta. Pyydä meiltä arvio yhteisösi säästöpotentiaalista.",
+    "ctaPrimary": "Pyydä tarjous",
+    "ctaSecondary": "Ota yhteys myyntiin"
+  },
+  "footer": {
+    "tagline": "Älykkäät ratkaisut veden kulutuksen jakamiseen ja reaaliaikaiseen mittaukseen. Suojaa järjestelmät, tasaa laskut, säästä vettä.",
+    "columns": [
+      {
+        "title": "Alusta",
+        "links": [
+          "Alamittaus",
+          "Laskutuspaketti",
+          "Vuotosuojaus",
+          "Asukassovellus"
+        ]
+      },
+      {
+        "title": "Resurssit",
+        "links": [
+          "Case-tutkimukset",
+          "Blogi",
+          "Asennusopas",
+          "Ohjekeskus"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Pääkonttori",
+    "copyright": "© 2026 HydroLedger Systems Inc. Kaikki oikeudet pidätetään.",
+    "legalPrivacy": "Tietosuojakäytäntö",
+    "legalTerms": "Palveluehdot"
+  }
+}

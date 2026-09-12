@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funcionalitats",
+    "linkHowItWorks": "Com funciona",
+    "linkContact": "Contacte",
+    "signIn": "Iniciar sessió",
+    "getStarted": "Començar"
+  },
+  "hero": {
+    "eyebrow": "Monitorització intel·ligent de l'aigua",
+    "titleLine1": "Seguiment del consum.",
+    "titleHighlight": "Repartiment just.",
+    "titleLine2": "Estalvia aigua.",
+    "paragraph": "HydroLedger ofereix a les comunitats de veïns dades de consum en temps real, facturació transparent de costos compartits i alertes primerenques de fuites, tot des d'un únic panell.",
+    "ctaPrimary": "Començar",
+    "ctaSecondary": "Iniciar sessió",
+    "panelLabel": "Consum d'aquest mes",
+    "panelSub": "8% per sota de la mitjana de la llar",
+    "chartLabelStart": "Dll",
+    "chartLabelEnd": "Dg"
+  },
+  "trustBar": {
+    "label": "Amb la confiança de grups de gestió d'habitatges plurifamiliars progressistes"
+  },
+  "features": {
+    "pill": "Capacitats principals",
+    "headingPrefix": "Tot el necessari per",
+    "headingHighlight": "Monitoritzar i facturar",
+    "headingSuffix": "de manera justa",
+    "paragraph": "Digues adéu al repartiment de subministraments amb tarifes planes. HydroLedger impulsa l'equitat estructural mitjançant un mesurament precís i l'automatització intel·ligent.",
+    "items": [
+      {
+        "tag": "Seguiment de l'aigua",
+        "title": "Submesurament en temps real",
+        "text": "Mesura el consum d'aigua exacte, minut a minut, a cada unitat individual en lloc de confiar en estimacions mestres obsoletes."
+      },
+      {
+        "tag": "Automatització de facturació",
+        "title": "Facturació comunitària automatitzada",
+        "text": "Generació de factures directes als residents mapejades dinàmicament segons l'ús proporcional. Elimina els costos administratius de facturació a l'instant."
+      },
+      {
+        "tag": "Mitigació de riscos",
+        "title": "Alertes de detecció precoç de fuites",
+        "text": "Les alertes automatitzades instantànies senyalitzen patrons de flux anormals i detecten danys greus per aigua en qüestió de minuts, no mesos."
+      },
+      {
+        "tag": "Assignació de costos",
+        "title": "Distribució justa dels costos",
+        "text": "Fes un seguiment de l'ús de les zones comunes compartides i distribueix els costos estructurals de manera transparent per fomentar la confiança i la conservació a la llar."
+      }
+    ],
+    "learnMore": "Més informació"
+  },
+  "howItWorks": {
+    "pill": "Eficiència del flux de treball",
+    "heading": "Instal·lació senzilla, operació sense esforç",
+    "paragraph": "Configuració ràpida. Un cop connectats els dispositius de maquinari, la plataforma gestiona càlculs complexos, l'enviament de factures i les alertes de fuites de manera nativa.",
+    "steps": [
+      {
+        "title": "Connecta els comptadors intel·ligents",
+        "text": "Els nostres tècnics certificats instal·len subcomptadors de flux intel·ligents no invasius directament a les vàlvules d'elevació individuals en menys de 15 minuts."
+      },
+      {
+        "title": "Seguiment en temps real",
+        "text": "Les dades es transmeten contínuament a la plataforma al núvol d'HydroLedger, registrant les xifres d'ús exactes i monitoritzant l'activitat anormal."
+      },
+      {
+        "title": "Automatitza les factures",
+        "text": "A final de mes, el motor combina les distribucions de les zones comunes i els volums mesurats pels subcomptadors en factures clares i detallades."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Mostra del portal de residents",
+    "headingPrefix": "Capacita els residents amb",
+    "headingHighlight": "claredat en el consum",
+    "paragraph": "La transparència genera harmonia a la comunitat. Els residents gaudeixen de panells senzills amb informació en temps real, projeccions de costos i advertències proactives sobre fuites.",
+    "brandLabel": "Portal del resident",
+    "unitLabel": "Unitat 4B — Cicle de facturació actual",
+    "stat1Label": "Consum d'aquest mes",
+    "stat1Trend": "-12% respecte a la mitjana",
+    "stat2Label": "Import estimat de la factura",
+    "stat2Trend": "Segons el previst",
+    "stat3Label": "Estat de fuites",
+    "stat3Value": "Tot correcte",
+    "stat3Trend": "Flux segur",
+    "chartTitle": "Consum setmanal (galons)",
+    "bars": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5 (Proj)"
+    ],
+    "tipTitle": "Consell de conservació",
+    "tipText": "L'aixeta de la teva cuina mostra un flux lleugerament continu al matí. Revisar els airejadors podria estalviar fins a 10 galons/setmana.",
+    "tipBadge": "Informació automatitzada",
+    "autopayTitle": "Pagament automàtic activat",
+    "autopayLabel": "Pròxima data de pagament automàtic",
+    "autopayButton": "Veure factura PDF detallada"
+  },
+  "audienceSplit": {
+    "residentPill": "Per als residents",
+    "residentHeading": "Costos de subministraments justos i basats en el consum",
+    "residentParagraph": "Deixa de pagar pel consum excessiu del teu veí. Paga estrictament pels galons que utilitzes, amb el suport de dades del panell en temps real.",
+    "residentBullets": [
+      "Dades de submesurament mensual precises amb mètriques de cost transparents.",
+      "Notificacions per SMS i mòbil si es detecten micro-fuites als aparells.",
+      "Sistema de pagament de factures digitals senzill i racionalitzat amb rebuts automatitzats."
+    ],
+    "adminPill": "Per als administradors de propietats",
+    "adminHeading": "Retorn d'inversió operatiu instantani i control de residus",
+    "adminParagraph": "Transforma la gestió dels subministraments d'un maldecap de pèrdues en un sistema eficient i d'alt marge amb la facturació automatitzada als residents.",
+    "adminBullets": [
+      "Assignació de subministraments sense intervenció manual directament connectada a cada unitat.",
+      "Alertes operatives immediates per evitar danys estructurals costosos per aigua.",
+      "Informes detallats al panell sobre la facturació del comptador mestre davant els galons distribuïts."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Mitjana d'aigua estalviada",
+      "Llars actives",
+      "Temps d'activitat del sistema",
+      "Comunitats gestionades"
+    ]
+  },
+  "pricing": {
+    "pill": "Paquets transparents",
+    "heading": "Costos operatius amb un alt retorn d'inversió",
+    "paragraph": "Tria un pla adaptat a la densitat de la teva comunitat. HydroLedger sol compensar les seves pròpies tarifes de plataforma en el primer mes gràcies a la reducció dels residus en zones comunes.",
+    "highlightBadge": "Millor relació qualitat-preu",
+    "customPriceLabel": "Personalitzat",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "per unitat / mes",
+        "desc": "Perfecte per a associacions de propietaris petites que necessiten capacitats bàsiques de submesurament.",
+        "features": [
+          "Lectures de comptadors en temps real",
+          "Alertes de fuites per SMS",
+          "Exportacions de facturació estàndard",
+          "Portal d'autoservei"
+        ],
+        "cta": "Activar Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "per unitat / mes",
+        "desc": "El nostre paquet estàndard d'or per a comunitats d'apartaments clàssiques que volen una facturació totalment automatitzada als residents.",
+        "features": [
+          "Tot el de Starter",
+          "Enviament automatitzat de factures en PDF",
+          "Assignacions proporcionals per a zones comunes",
+          "Atenció al client prioritària"
+        ],
+        "cta": "Fer-se Pro (Més popular)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "sota petició",
+        "desc": "Per a grans comunitats institucionals que requereixen configuracions a mida d'API i de facturació.",
+        "features": [
+          "Tot el de Professional",
+          "Integracions de programari de facturació a mida",
+          "Consultor de subministraments dedicat",
+          "Garanties SLA de maquinari"
+        ],
+        "cta": "Contactar amb vendes d'Enterprise"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realitats operatives",
+    "heading": "Què en diuen els administradors de finques",
+    "quotes": [
+      {
+        "text": "HydroLedger va canviar fonamentalment el nostre P&L operatiu. Vam descobrir tres fuites de servei ocultes importants en línies mecàniques que ens van estalviar més de 11 lakh ₹ només en el nostre primer trimestre."
+      },
+      {
+        "text": "La confiança dels residents s'ha disparat. Facturar als nostres inquilins basant-nos estrictament en l'ús de l'aigua en lloc de càlculs genèrics de comptadors mestres per habitació ha resolt els nostres conflictes més dolorosos amb els inquilins."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Suport de preguntes freqüents",
+    "heading": "Preguntes freqüents",
+    "items": [
+      {
+        "q": "Els comptadors intel·ligents requereixen tancaments de servei mecànic?",
+        "a": "No. Les nostres unitats innovadores de mesurament per elevació s'adapten de manera no invasiva directament sobre les línies existents en espais de difícil accés. La configuració es completa netament en minuts sense talls de subministrament als inquilins."
+      },
+      {
+        "q": "Com es calculen els costos d'aigua comunitaris/compartits?",
+        "a": "El fons central de zones comunes (per exemple, instal·lacions de piscina, jardineria) es resta netament dels comptadors mestres principals primer. Els grups immobiliaris assignen aquests costos estructuralment o els prorrategen de manera transparent."
+      },
+      {
+        "q": "Amb quina rapidesa detecta HydroLedger els fluxos de fuites continus?",
+        "a": "Els nostres sistemes d'alertes en segon pla comproven els senyals de consum continu. Si el flux no arriba a zero durant un cicle de 10 minuts, s'envien avisos a l'instant per minimitzar els riscos de danys."
+      },
+      {
+        "q": "HydroLedger gestiona la seguretat o la privadesa dels residents?",
+        "a": "Sí. HydroLedger protegeix i emmagatzema els identificadors del portal del resident darrere de canals encriptats estàndard. Les dades operatives es mantenen segures estrictament per al seguiment del consum."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Uneix-te a HydroLedger avui",
+    "heading": "Comença a monitoritzar el teu consum d'aigua avui mateix",
+    "paragraph": "Millora les mètriques de conservació, simplifica la gestió de la facturació dels residents i protegeix la valuosa infraestructura de les llars. Deixa'ns calcular la teva estimació de ROI comunitària personalitzada.",
+    "ctaPrimary": "Sol·licitar pressupost",
+    "ctaSecondary": "Contactar amb vendes"
+  },
+  "footer": {
+    "tagline": "Sistemes d'assignació intel·ligent de subministraments i solucions de submesurament residencial en temps real. Protegeix els sistemes, alinea les factures, estalvia aigua.",
+    "columns": [
+      {
+        "title": "Plataforma",
+        "links": [
+          "Submesurament",
+          "Suite de facturació",
+          "Protecció contra fuites",
+          "App per a residents"
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          "Casos d'estudi",
+          "Bloc",
+          "Guia d'instal·lació",
+          "Centre d'ajuda"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Oficina corporativa",
+    "copyright": "© 2026 HydroLedger Systems Inc. Tots els drets reservats.",
+    "legalPrivacy": "Política de privadesa",
+    "legalTerms": "Termes del servei"
+  }
+}

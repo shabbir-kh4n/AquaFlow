@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Vaega faaopoopo",
+    "linkHowItWorks": "Pe faapefea ona aoga",
+    "linkContact": "Faafesootai",
+    "signIn": "Saini i totonu",
+    "getStarted": "Amata loa"
+  },
+  "hero": {
+    "eyebrow": "Mataituina o le Suavai Poto",
+    "titleLine1": "Su'e le faaaogaina.",
+    "titleHighlight": "Vaevae tonu.",
+    "titleLine2": "Faasao le suavai.",
+    "paragraph": "O le HydroLedger e tuuina atu ai i nuu o fale mautotogi faamatalaga o le suavai i le taimi moni, pili o tupe faasoa manino, ma lapataiga vave o le liki — mai le tasi laupapa faatonutonu.",
+    "ctaPrimary": "Amata loa",
+    "ctaSecondary": "Saini i totonu",
+    "panelLabel": "Le faaaogaina o lenei masina",
+    "panelSub": "8% i lalo ifo o le averesi o le aiga",
+    "chartLabelStart": "Gafua",
+    "chartLabelEnd": "Sa"
+  },
+  "trustBar": {
+    "label": "Faatuatuaina e vaega o pulega o fale mautotogi"
+  },
+  "features": {
+    "pill": "Agavaa Autu",
+    "headingPrefix": "Mea uma e mana'omia e",
+    "headingHighlight": "Mataitu & Pili",
+    "headingSuffix": "Ma le Tonu",
+    "paragraph": "Faatofa i le totogiina o pili e aunoa ma le fua sa'o. O le HydroLedger e faalauiloa le tutusa e ala i le fuaina tonu ma le otometi atamai.",
+    "items": [
+      {
+        "tag": "Su'ega Suavai",
+        "title": "Fuaina o le Suavai i le Taimi Moni",
+        "text": "Fua le faaaogaina tonu o le suavai i minute ta'itasi i iunite ta'ito'atasi nai lo le faalagolago i fua faatatau tuai."
+      },
+      {
+        "tag": "Otometi o Pili",
+        "title": "Otometi le Piliina o Nuu",
+        "text": "Fausia pili tuusa'o mo tagata nofomau e faatatau i le faaaogaina tonu. Aveese le faafitauli o pili."
+      },
+      {
+        "tag": "Faaitiitia o Tulaga lamatia",
+        "title": "Lapataiga Vave o le Liki",
+        "text": "O lapataiga otometi e faailoa ai le tafe faaletonu ma pu'e le faaleagaina o le suavai i totonu o minute, ae le o masina."
+      },
+      {
+        "tag": "Faasoaina o Tau",
+        "title": "Faasoaina Tonu o Tau",
+        "text": "Su'e le faaaogaina o vaega masani ma tufatufa tau fausaga ma le manino e fausia ai le faatuatuaina."
+      }
+    ],
+    "learnMore": "Aoao atili"
+  },
+  "howItWorks": {
+    "pill": "Lelei o le Galuega",
+    "heading": "Faapipiiina Faigofie, Faagaoioiga e leai se Tautala",
+    "paragraph": "Amata vave. O le taimi lava e fesootai ai masini, e faia e le tulaga faakomepiuta faamatalaga lavelave, auina atu o pili, ma lapataiga o le liki.",
+    "steps": [
+      {
+        "title": "Fesootai Masini Poto",
+        "text": "O a matou tekinisia faamaonia e faapipii masini atamai i luga o paipa i totonu o le 15 minute."
+      },
+      {
+        "title": "Su'eina o le Taimi Moni",
+        "text": "O faamatalaga e tafe faaauau i le tulaga o le HydroLedger, e faamauina ai fuainumera tonu o le faaaogaina ma mataituina gaoioiga faaletonu."
+      },
+      {
+        "title": "Otometi Pili",
+        "text": "I le faaiuga o le masina, e tuufaatasia e le afi le tufatufaina o vaega masani ma voluma fuaina i pili manino ma auiliili."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Faataitaiga o le Portal mo Nofomau",
+    "headingPrefix": "Faamalosia Nofomau ma",
+    "headingHighlight": "Manino o le Faaaogaina",
+    "paragraph": "O le manino e fausia ai le autasi o le nuu. E fiafia nofomau i laupapa faatonutonu faigofie ma faamatalaga i le taimi moni, fuafuaga o tau, ma lapataiga o le liki.",
+    "brandLabel": "Portal mo Nofomau",
+    "unitLabel": "Iunite 4B — Taamilosaga o le Pili o Iai Nei",
+    "stat1Label": "Faaaogaina o lenei masina",
+    "stat1Trend": "-12% faatusatusa i le averesi",
+    "stat2Label": "Fua o le Pili",
+    "stat2Trend": "I le ala sao",
+    "stat3Label": "Tulaga o le Liki",
+    "stat3Value": "Leai se faaletonu",
+    "stat3Trend": "Tafe saogalemu",
+    "chartTitle": "Faaaogaina o le Vaiaso (Kalone)",
+    "bars": [
+      "Vaiaso 1",
+      "Vaiaso 2",
+      "Vaiaso 3",
+      "Vaiaso 4",
+      "Vaiaso 5 (Fuafua)"
+    ],
+    "tipTitle": "Fautuaga mo le Faasao",
+    "tipText": "O lau paipa umukuka e foliga mai o lo'o tafe itiiti i le taeao. O le siakiina o vaega o le paipa e mafai ona faasaoina ai le 10 kalone i le vaiaso.",
+    "tipBadge": "Malamalama Otometi",
+    "autopayTitle": "Autopay ua mafai",
+    "autopayLabel": "Aso o le isi pili otometi",
+    "autopayButton": "Vaai le Pili PDF Auiliili"
+  },
+  "audienceSplit": {
+    "residentPill": "Mo Nofomau",
+    "residentHeading": "Tau o Auaunaga Tonu, e faavae i le Faaaogaina",
+    "residentParagraph": "Taofi le totogiina o le faaaogaina tele o lou tuaoi. Totogi na'o le kalone e te faaaogaina, lagolagoina e faamatalaga o le laupapa faatonutonu i le taimi moni.",
+    "residentBullets": [
+      "Faamatalaga sa'o o le fuaina o le masina ma meteke o tau manino.",
+      "SMS ma faamatalaga feaveai pe a iloa ni liki laiti i masini.",
+      "Faiga totogi pili numera faigofie ma otometi."
+    ],
+    "adminPill": "Mo Pule o Meatotino",
+    "adminHeading": "ROI Vave ma le Pulea o otaota",
+    "adminParagraph": "Suia le pulega o auaunaga mai se faafitauli taugata i se faiga e leai se faaletonu, ma otometi le piliina o nofomau.",
+    "adminBullets": [
+      "Tufatufaina o auaunaga e fesootai tuusa'o i iunite ta'ito'atasi.",
+      "Lapataiga vave o le faagaoioiga e puipuia ai le faaleagaina taugata o le suavai.",
+      "Lipoti o le laupapa faatonutonu i pili o le masini autu faasaga i kalone tufatufaina."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Averesi Suavai Faasaoina",
+      "Aiga o lo'o faaaogaina",
+      "Uptayme o le Faiga",
+      "Nuu o lo'o Puleaina"
+    ]
+  },
+  "pricing": {
+    "pill": "Afifi Manino",
+    "heading": "Tau o le Faagaoioiga ma le ROI Maualuga",
+    "paragraph": "Filifili se fuafuaga e fetaui ma lou nuu. E masani ona toe faafoi e le HydroLedger ana totogi i le masina muamua e ala i le faaitiitia o otaota.",
+    "highlightBadge": "Tau Sili",
+    "customPriceLabel": "Fua Faatatau",
+    "tiers": [
+      {
+        "name": "Amata",
+        "unit": "i le iunite / masina",
+        "desc": "Lelei mo asosi laiti o taulaga e mana'omia ai le fuaina o le suavai.",
+        "features": [
+          "Faitau o le Suavai i le Taimi Moni",
+          "SMS Lapataiga o Liki",
+          "Auina atu o Pili masani",
+          "Portal mo le tagata lava ia"
+        ],
+        "cta": "Faagaoioia le Amata"
+      },
+      {
+        "name": "Tomai",
+        "unit": "i le iunite / masina",
+        "desc": "La matou afifi tulaga auro mo nuu o fale mautotogi e mananao i le pili otometi.",
+        "features": [
+          "Mea uma o le Amata",
+          "Auina atu o Pili PDF Otometi",
+          "Tufatufaina o Vaega Masani",
+          "Lagolago faamuamua i Tagata faatau"
+        ],
+        "cta": "Alu i le Pro (Sili ona lauiloa)"
+      },
+      {
+        "name": "Atina'e",
+        "unit": "i luga o le talosaga",
+        "desc": "Mo nuu tetele e mana'omia ai API ma faatulagaga o pili.",
+        "features": [
+          "Mea uma o le Tomai",
+          "Atina'e o Polokalame o Pili",
+          "Faufautua o Auaunaga",
+          "Tusi saisai o Masini"
+        ],
+        "cta": "Faafesootai le Sales Atina'e"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Tulaga moni o le Galuega",
+    "heading": "O le a le tala a Pule o Meatotino",
+    "quotes": [
+      {
+        "text": "HydroLedger suia faavae la matou P&L. Ua matou maua ni liki tetele e tolu i laina masini na faasaoina ai i matou i le silia ma le ₹11 lakh i le kuata muamua lava."
+      },
+      {
+        "text": "Ua matua siitia le faatuatuaina o nofomau. O le piliina o matou tagata mautotogi e faavae na'o le faaaogaina o le vai nai lo o fua faatatau masani o fale na foia ai a matou finauga sili ona tiga."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Lagolago FAQ",
+    "heading": "Fesili e Masani ona Fai",
+    "items": [
+      {
+        "q": "E mana'omia e masini atamai ni tapuni o le suavai?",
+        "a": "Leai. O a matou masini fou e fetaui tuusa'o i laina o iai i totonu o minute e aunoa ma le motusia o le suavai."
+      },
+      {
+        "q": "E faapefea ona fuafua tau o le suavai faasoa?",
+        "a": "O le vaega masani (e pei o vaitaele, togalaau) e toesea mai masini autu muamua. Ona faasoa lea e vaega o meatotino ma le manino."
+      },
+      {
+        "q": "O le a le vave ona iloa e HydroLedger le liki faaauau?",
+        "a": "O a matou laina lapataiga e siaki faailo faaauau. Afai e le pa'u le tafe i le zero i totonu o le 10 minute, e auina atu loa lapataiga e faaitiitia ai tulaga lamatia."
+      },
+      {
+        "q": "E taulimaina e HydroLedger le saogalemu po o le le faalauaiteleina o nofomau?",
+        "a": "Ioe. HydroLedger puipuia ma teu faamatalaga o nofomau i tua o auala faailoilo. O faamatalaga o galuega e tausia saogalemu mo le mataituina o le faaaogaina."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Auai i le HydroLedger i Aso Nei",
+    "heading": "Amata Mataituina Lou Faaaogaina o le Suavai i Aso Nei",
+    "paragraph": "Faateleina meteke o le faasao, faafaigofie le piliina o nofomau, ma puipuia atinae tetele. Tuu mai matou e fuafua lau ROI o le nuu.",
+    "ctaPrimary": "Talosaga se Upusii",
+    "ctaSecondary": "Faafesootai le Sales"
+  },
+  "footer": {
+    "tagline": "Faiga o le faasoaina o auaunaga atamai ma fofo o le fuaina o le suavai. Puipuia faiga, faamaopoopo pili, faasao le suavai.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Fuaina o le Suavai",
+          "Pili Suite",
+          "Leoleo Liki",
+          "App mo Nofomau"
+        ]
+      },
+      {
+        "title": "Punaoa",
+        "links": [
+          "Suesuega o Mataupu",
+          "Blog",
+          "Taiala mo le Faapipiiina",
+          "Nofoaga Autu mo Fesoasoani"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Ofisa Autu",
+    "copyright": "© 2026 HydroLedger Systems Inc. Ua taofia aia tatau uma.",
+    "legalPrivacy": "Faiga Faavae o le Le Faalauaiteleina",
+    "legalTerms": "Tuutuuga o le Auaunaga"
+  }
+}

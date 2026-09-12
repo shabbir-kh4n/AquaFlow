@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Kenmerke",
+    "linkHowItWorks": "Hoe dit werk",
+    "linkContact": "Kontak",
+    "signIn": "Meld aan",
+    "getStarted": "Begin nou"
+  },
+  "hero": {
+    "eyebrow": "Slim Watermonitering",
+    "titleLine1": "Volg verbruik.",
+    "titleHighlight": "Verdeel billik.",
+    "titleLine2": "Bespaar water.",
+    "paragraph": "HydroLedger gee woonstelgemeenskappe intydse verbruiksinsigte, deursigtige gedeelde kostefakturering en vroeë waarskuwings vir lekkasies — alles vanaf een kontroleskerm.",
+    "ctaPrimary": "Begin nou",
+    "ctaSecondary": "Meld aan",
+    "panelLabel": "Hierdie maand se verbruik",
+    "panelSub": "8% onder huishoudelike gemiddelde",
+    "chartLabelStart": "Ma",
+    "chartLabelEnd": "So"
+  },
+  "trustBar": {
+    "label": "Vertrou deur vooruitstrewende meergesinsbestuursgroepe"
+  },
+  "features": {
+    "pill": "Kernvermoëns",
+    "headingPrefix": "Alles wat nodig is om",
+    "headingHighlight": "te Monitor & Faktureer",
+    "headingSuffix": "Billik",
+    "paragraph": "Sê totsiens vir vaste nutsverdelings. HydroLedger dryf strukturele billikheid deur presiese meting en intelligente outomatisering.",
+    "items": [
+      {
+        "tag": "Waternasporing",
+        "title": "Intydse Sub-meting",
+        "text": "Meet presiese, minuut-vir-minuut waterverbruik oor individuele eenhede in plaas daarvan om op verouderde hooframings staat te maak."
+      },
+      {
+        "tag": "Faktureringsoutomatisering",
+        "title": "Geoutomatiseerde Gemeenskapsfakturering",
+        "text": "Faktuurgenerering direk aan inwoners, dinamies gekoppel aan proporsionele gebruik. Skakel faktureringsbokoste onmiddellik uit."
+      },
+      {
+        "tag": "Risikobestuur",
+        "title": "Waarskuwings vir Vroeë Lekopsporing",
+        "text": "Onmiddellike geoutomatiseerde waarskuwings merk abnormale vloeipatrone en vang groot waterskade binne minute, nie maande nie, vas."
+      },
+      {
+        "tag": "Kostetoewysing",
+        "title": "Billike Koste-verspreiding",
+        "text": "Volg gedeelde gemeenskaplike area-gebruik en versprei strukturele koste deursigtig om huishoudelike vertroue en bewaring te bou."
+      }
+    ],
+    "learnMore": "Leer meer"
+  },
+  "howItWorks": {
+    "pill": "Werkstroomdoeltreffendheid",
+    "heading": "Naatlose installasie, handvrye werking",
+    "paragraph": "Stel vinnig op. Sodra hardeware-eenhede verbind, hanteer die platform komplekse berekeninge, faktuuroordragte en lekwaarskuwings natuurlik.",
+    "steps": [
+      {
+        "title": "Verbind Slimmeters",
+        "text": "Ons gesertifiseerde tegnici heg nie-indringende slimvloeimeters binne 15 minute direk aan individuele stygkleppe."
+      },
+      {
+        "title": "Intydse Nasporing",
+        "text": "Data stroom deurlopend na die HydroLedger-wolkplatform, teken presiese verbruiksyfers aan en monitor abnormale aktiwiteit."
+      },
+      {
+        "title": "Outomatiseer Rekeninge",
+        "text": "Aan maandeinde kombineer die enjin gemeenskaplike area-verspreidings en sub-gemete volumes in duidelike, gespesifiseerde fakture."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Regstreekse Inwonersportaal-model",
+    "headingPrefix": "Bemagtig inwoners met",
+    "headingHighlight": "Verbruiksduidelikheid",
+    "paragraph": "Deursigtigheid bou gemeenskapsbelyning. Inwoners geniet eenvoudige kontroleskerms met intydse terugvoer, voorspellende kosteprojeksies en proaktiewe lekwaarskuwings.",
+    "brandLabel": "Inwonersportaal",
+    "unitLabel": "Eenheid 4B — Huidige Faktureersiklus",
+    "stat1Label": "Hierdie maand se gebruik",
+    "stat1Trend": "-12% vs Gem.",
+    "stat2Label": "Geskatte faktuurbedrag",
+    "stat2Trend": "Op koers",
+    "stat3Label": "Lekstatus",
+    "stat3Value": "Alles skoon",
+    "stat3Trend": "Veilige vloei",
+    "chartTitle": "Weeklikse verbruik (Gellings)",
+    "bars": [
+      "Wk 1",
+      "Wk 2",
+      "Wk 3",
+      "Wk 4",
+      "Wk 5 (Proj)"
+    ],
+    "tipTitle": "Bewaringswenk",
+    "tipText": "Jou kombuiskraan toon effens deurlopende vloei in die oggend. Om belugters na te gaan kan tot 10 gellings/week bespaar.",
+    "tipBadge": "Geoutomatiseerde insig",
+    "autopayTitle": "Outomatiese betaling geaktiveer",
+    "autopayLabel": "Volgende outomatiese faktuurdatum",
+    "autopayButton": "Bekyk gedetailleerde PDF-faktuur"
+  },
+  "audienceSplit": {
+    "residentPill": "Vir inwoners",
+    "residentHeading": "Billike, verbruiksgebaseerde nutskoste",
+    "residentParagraph": "Hou op om vir jou buurman se oormatige verbruik te betaal. Betaal streng vir die gellings wat jy verbruik, ondersteun deur intydse kontroleskermdata.",
+    "residentBullets": [
+      "Akkurate maandelikse sub-metingsdata met deursigtige kostemaatstawwe.",
+      "SMS- en mobiele kennisgewings indien mikro-lekkasies in toestelle opgespoor word.",
+      "Eenvoudige, vaartbelynde digitale faktuurbetalingsstelsel met outomatiese kwitansies."
+    ],
+    "adminPill": "Vir eiendomsadministrateurs",
+    "adminHeading": "Onmiddellike operasionele ROI en afvalbeheer",
+    "adminParagraph": "Transformeer nutsbestuur van 'n verliesmakende kopseer in 'n naatlose, hoëmarge-pyplyn met geoutomatiseerde fakturering vir inwoners.",
+    "adminBullets": [
+      "Handvrye nutstoewysing direk gekoppel aan individuele eenhede.",
+      "Onmiddellike operasionele waarskuwings om duur strukturele waterskade te voorkom.",
+      "Gedetailleerde kontroleskermverslaggewing oor hoofmeterfakturering vs. verspreide gellings."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Gemiddelde water bespaar",
+      "Aktiewe huishoudings",
+      "Stelsel uptyd",
+      "Gemeenskappe bestuur"
+    ]
+  },
+  "pricing": {
+    "pill": "Deursigtige pakkette",
+    "heading": "Hoë opbrengs op belegging operasionele koste",
+    "paragraph": "Kies 'n plan wat volgens jou presiese gemeenskapsdigtheid geskaal is. HydroLedger verreken gewoonlik sy eie platformfooie in die eerste maand deur verminderde vermorsing in gemeenskaplike areas.",
+    "highlightBadge": "Beste waarde",
+    "customPriceLabel": "Pasgemaak",
+    "tiers": [
+      {
+        "name": "Beginner",
+        "unit": "per eenheid / maand",
+        "desc": "Ideaal vir kleiner meenthuisverenigings wat kern sub-metingsvermoëns benodig.",
+        "features": [
+          "Intydse meterlesings",
+          "SMS-lekwaarskuwings",
+          "Standaard faktureringuitvoere",
+          "Selfbedieningsportaal"
+        ],
+        "cta": "Aktiveer Beginner"
+      },
+      {
+        "name": "Professioneel",
+        "unit": "per eenheid / maand",
+        "desc": "Ons goue standaardpakket vir klassieke woonstelgemeenskappe wat ten volle geoutomatiseerde fakturering vir inwoners wil hê.",
+        "features": [
+          "Alles in Beginner",
+          "Geoutomatiseerde PDF-faktuuroordragte",
+          "Proporsionele toewysings vir gemeenskaplike areas",
+          "Prioriteitskliëntediens"
+        ],
+        "cta": "Gaan Pro (Mees gewild)"
+      },
+      {
+        "name": "Onderneming",
+        "unit": "op aanvraag",
+        "desc": "Vir uitgestrekte institusionele gemeenskappe wat pasgemaakte API-pyplyne en faktuurkonfigurasies benodig.",
+        "features": [
+          "Alles in Professioneel",
+          "Pasgemaakte faktuur-sagteware-integrasies",
+          "Toegewyde nutsadviseur",
+          "Hardeware SLA-waarborge"
+        ],
+        "cta": "Kontak Ondernemingsverkope"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operasionele realiteite",
+    "heading": "Wat eiendomsbestuurders sê",
+    "quotes": [
+      {
+        "text": "HydroLedger het ons operasionele P&W fundamenteel verander. Ons het drie groot verborge dienslekkasies in meganiese lyne ontdek wat ons in ons eerste kwartaal alleen meer as ₹11 lakh bespaar het."
+      },
+      {
+        "text": "Inwonersvertroue het die hoogte ingeskiet. Om ons huurders te faktureer op grond van watergebruik in plaas van generiese meerkamer-hoofmeterberekeninge, het ons mees pynlike huurdersgeskille opgelos."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Gereelde vrae",
+    "heading": "Algemene vrae beantwoord",
+    "items": [
+      {
+        "q": "Benodig slim sub-meters meganiese diensafsluitings?",
+        "a": "Nee. Ons innoverende stygmeter-eenhede pas nie-indringend direk oor bestaande lyne in individuele kruipruimtes. Opstellings voltooi skoon binne minute sonder om nutslyne vir inwoners af te sny."
+      },
+      {
+        "q": "Hoe word gemeenskaplike/gedeelde waterkoste bereken?",
+        "a": "Die sentrale gemeenskaplike area-poel (bv. swembadgeriewe, landskap) word eerste skoon van hoofmeters afgetrek. Eiendomsgroepe verdeel dit struktureel of pro-rata deursigtig."
+      },
+      {
+        "q": "Hoe vinnig bespeur HydroLedger deurlopende lekkasievloeie?",
+        "a": "Ons agtergrond-waarskuwingspyplyne kontroleer deurlopende trekseine. As vloei nie nul raak oor 'n rollende 10-minuut siklus nie, word waarskuwings onmiddellik uitgestuur om skaderisiko's te minimaliseer."
+      },
+      {
+        "q": "Hanteer HydroLedger sekuriteit of inwonersprivaatheid?",
+        "a": "Ja. HydroLedger beskerm en stoor inwonersportaal-identifiseerders agter standaard geënkripteerde kanale. Operasionele data word streng veilig gehou vir verbruiksnasporing."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Sluit vandag by HydroLedger aan",
+    "heading": "Begin vandag om jou waterverbruik te monitor",
+    "paragraph": "Verhoog bewaringsmaatstawwe, vereenvoudig faktureringsbokoste vir inwoners en beskerm waardevolle multi-huishoudelike infrastruktuur. Laat ons jou pasgemaakte gemeenskaps-ROI-raming bereken.",
+    "ctaPrimary": "Versoek kwotasie",
+    "ctaSecondary": "Kontak verkope"
+  },
+  "footer": {
+    "tagline": "Slim nutstoewysingspyplyne en intydse residensiële sub-metingsoplossings. Beskerm stelsels, belyn rekeninge, bespaar water.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Sub-meting",
+          "Faktureringspakket",
+          "Lekbeskerming",
+          "Inwoners-app"
+        ]
+      },
+      {
+        "title": "Hulpbronne",
+        "links": [
+          "Gevallestudies",
+          "Blog",
+          "Installasiegids",
+          "Hulpsentrum"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporatiewe kantoor",
+    "copyright": "© 2026 HydroLedger Systems Inc. Alle regte voorbehou.",
+    "legalPrivacy": "Privaatheidsbeleid",
+    "legalTerms": "Diensbepalings"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funktsioonid",
+    "linkHowItWorks": "Kuidas see töötab",
+    "linkContact": "Kontakt",
+    "signIn": "Logi sisse",
+    "getStarted": "Alusta"
+  },
+  "hero": {
+    "eyebrow": "Nutikas veeseire",
+    "titleLine1": "Jälgi tarbimist.",
+    "titleHighlight": "Jaota õiglaselt.",
+    "titleLine2": "Säästa vett.",
+    "paragraph": "HydroLedger pakub korteriühistutele reaalajas tarbimisülevaateid, läbipaistvat ühiskulude arveldamist ja varajasi lekkehoiatusi – kõik ühest juhtpaneelist.",
+    "ctaPrimary": "Alusta",
+    "ctaSecondary": "Logi sisse",
+    "panelLabel": "Selle kuu tarbimine",
+    "panelSub": "8% alla majapidamise keskmise",
+    "chartLabelStart": "E",
+    "chartLabelEnd": "P"
+  },
+  "trustBar": {
+    "label": "Usaldusväärne partner progressiivsetele korteriühistutele"
+  },
+  "features": {
+    "pill": "Põhivõimalused",
+    "headingPrefix": "Kõik vajalik",
+    "headingHighlight": "seireks ja arveldamiseks",
+    "headingSuffix": "õiglaselt",
+    "paragraph": "Jäta hüvasti ühtsete kommunaalkulude jagamisega. HydroLedger loob struktuurse õigluse täpse mõõtmise ja intelligentse automatiseerimise abil.",
+    "items": [
+      {
+        "tag": "Veeseire",
+        "title": "Reaalajas alammõõtmine",
+        "text": "Mõõda täpset, minutilist veetarbimist igas korteris, selle asemel et toetuda vananenud üldhinnangutele."
+      },
+      {
+        "tag": "Arvelduse automatiseerimine",
+        "title": "Automatiseeritud ühistuarvete koostamine",
+        "text": "Koosta otse elanikele arved, mis on dünaamiliselt seotud proportsionaalse tarbimisega. Likvideeri arvelduse halduskoormus koheselt."
+      },
+      {
+        "tag": "Riskide maandamine",
+        "title": "Varajase lekketuvastuse hoiatused",
+        "text": "Kiired automaatsed hoiatused märgivad ebatavalisi voolumustreid ja avastavad suuremad veekahjustused minutite, mitte kuude jooksul."
+      },
+      {
+        "tag": "Kulude jaotamine",
+        "title": "Õiglane kulude jaotamine",
+        "text": "Jälgi ühiskasutatavate alade tarbimist ja jaota struktuursed kulud läbipaistvalt, et suurendada elanike usaldust ja säästlikkust."
+      }
+    ],
+    "learnMore": "Loe lähemalt"
+  },
+  "howItWorks": {
+    "pill": "Töövoo tõhusus",
+    "heading": "Sujuv paigaldus, käed-vabad töö",
+    "paragraph": "Seadista kiiresti. Kui riistvaraseadmed on ühendatud, haldab platvorm keerulisi arvutusi, arvete saatmist ja lekkehoiatusi loomupäraselt.",
+    "steps": [
+      {
+        "title": "Ühenda nutiarvestid",
+        "text": "Meie sertifitseeritud tehnikud paigaldavad mitteinvasiivsed nutikad voolumõõtjad otse üksikutele tõusutorudele vähem kui 15 minutiga."
+      },
+      {
+        "title": "Reaalajas jälgimine",
+        "text": "Andmed voogavad pidevalt HydroLedgeri pilveplatvormile, logides täpsed tarbimisnäidud ja jälgides ebatavalist aktiivsust."
+      },
+      {
+        "title": "Automatiseeri arved",
+        "text": "Kuu lõpus kombineerib mootor ühiskasutatavate alade jaotused ja mõõdetud mahud selgeteks, üksikasjalikeks arveteks."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Elaniku portaali näidis",
+    "headingPrefix": "Anna elanikele",
+    "headingHighlight": "selgus tarbimises",
+    "paragraph": "Läbipaistvus loob kogukonnas ühtsuse. Elanikud saavad kasutada lihtsaid juhtpaneele reaalajas tagasiside, prognoositavate kulude ja ennetavate lekkehoiatustega.",
+    "brandLabel": "Elaniku portaal",
+    "unitLabel": "Korter 4B — Praegune arveldusperiood",
+    "stat1Label": "Selle kuu tarbimine",
+    "stat1Trend": "-12% vs keskmine",
+    "stat2Label": "Prognoositav arve summa",
+    "stat2Trend": "Graafikus",
+    "stat3Label": "Lekke olek",
+    "stat3Value": "Kõik korras",
+    "stat3Trend": "Ohutu vool",
+    "chartTitle": "Iganädalane tarbimine (gallonites)",
+    "bars": [
+      "1. nädal",
+      "2. nädal",
+      "3. nädal",
+      "4. nädal",
+      "5. nädal (prog.)"
+    ],
+    "tipTitle": "Säästunõuanne",
+    "tipText": "Teie köögikraan näitab hommikuti kergelt pidevat voolu. Aeraatorite kontrollimine võib säästa kuni 10 gallonit nädalas.",
+    "tipBadge": "Automaatne ülevaade",
+    "autopayTitle": "Automaatmakse lubatud",
+    "autopayLabel": "Järgmine automaatse arve kuupäev",
+    "autopayButton": "Vaata üksikasjalikku PDF-arvet"
+  },
+  "audienceSplit": {
+    "residentPill": "Elanikele",
+    "residentHeading": "Õiglased, tarbimisel põhinevad kommunaalkulud",
+    "residentParagraph": "Lõpeta naabri liigse tarbimise eest maksmine. Maksa rangelt ainult tarbitud gallonite eest, mida toetavad reaalajas juhtpaneeli andmed.",
+    "residentBullets": [
+      "Täpsed igakuised alammõõtmise andmed läbipaistvate kulunäitajatega.",
+      "SMS- ja mobiiliteavitused, kui seadmetes tuvastatakse mikrolekkeid.",
+      "Lihtne, sujuvam digitaalne arvete tasumise süsteem koos automaatsete kviitungitega."
+    ],
+    "adminPill": "Kinnisvarahalduritele",
+    "adminHeading": "Kiire operatiivne tasuvus ja raiskamise kontroll",
+    "adminParagraph": "Muuda kommunaalteenuste haldamine suure kahjuga peavalust sujuvaks ja kasumlikuks protsessiks koos automatiseeritud arvete koostamisega.",
+    "adminBullets": [
+      "Käed-vabad kommunaalkulude jaotamine, mis on otse ühendatud üksikute korteritega.",
+      "Kohesed operatiivsed hoiatused kulukate struktuursete veekahjustuste vältimiseks.",
+      "Üksikasjalik juhtpaneeli aruandlus peamõõtja arvete ja jaotatud gallonite võrdluses."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Keskmine veesääst",
+      "Aktiivsed majapidamised",
+      "Süsteemi tööaeg",
+      "Hallatavad kogukonnad"
+    ]
+  },
+  "pricing": {
+    "pill": "Läbipaistvad paketid",
+    "heading": "Kõrge investeeringutasuvusega tegevuskulud",
+    "paragraph": "Vali pakett, mis vastab teie kogukonna tihedusele. HydroLedger kompenseerib oma platvormi tasud tavaliselt esimesel kuul vähenenud ühiskasutuse raiskamise kaudu.",
+    "highlightBadge": "Parim väärtus",
+    "customPriceLabel": "Kohandatud",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "korteri kohta / kuus",
+        "desc": "Ideaalne väiksematele ridaelamuühistutele, kes vajavad põhilisi alammõõtmise võimalusi.",
+        "features": [
+          "Reaalajas arvestinäidud",
+          "SMS-lekkehoiatused",
+          "Standardne arve eksport",
+          "Iseteenindusportaal"
+        ],
+        "cta": "Aktiveeri Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "korteri kohta / kuus",
+        "desc": "Meie tipptasemel pakett klassikalistele korteriühistutele, kes soovivad täielikult automatiseeritud elanike arvete koostamist.",
+        "features": [
+          "Kõik Starteri võimalused",
+          "Automatiseeritud PDF-arvete saatmine",
+          "Proportsionaalsed ühiskasutusalade jaotused",
+          "Prioriteetne klienditugi"
+        ],
+        "cta": "Vali Pro (kõige populaarsem)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "päringu alusel",
+        "desc": "Suurtele institutsionaalsetele kogukondadele, kes vajavad eritellimusel API-sid ja arvelduskonfiguratsioone.",
+        "features": [
+          "Kõik Professionali võimalused",
+          "Eritellimusel arveldustarkvara integratsioonid",
+          "Pühendunud kommunaalkonsultant",
+          "Riistvara SLA garantiid"
+        ],
+        "cta": "Võta ühendust müügiosakonnaga"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operatiivsed tulemused",
+    "heading": "Mida kinnisvarahaldurid ütlevad",
+    "quotes": [
+      {
+        "text": "HydroLedger muutis fundamentaalselt meie tegevuse kasumiaruannet. Avastasime mehaanilistes liinides kolm suurt varjatud leket, mis säästsid meile juba esimeses kvartalis üle 11 lakh'i."
+      },
+      {
+        "text": "Elanike usaldus on hüppeliselt kasvanud. Üürnike arveldamine rangelt veetarbimise, mitte üldiste mitmetoaliste peamõõtja arvutuste põhjal lahendas meie kõige valusamad üürnikuvaidlused."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "KKK tugi",
+    "heading": "Korduma kippuvad küsimused",
+    "items": [
+      {
+        "q": "Kas nutikad alammõõturid vajavad mehaanilist vee sulgemist?",
+        "a": "Ei. Meie uuenduslikud tõusutoru mõõteseadmed paigaldatakse mitteinvasiivselt otse olemasolevatele liinidele keldrites või tehnilistes ruumides. Paigaldamine toimub puhtalt minutitega ilma vee sulgemiseta."
+      },
+      {
+        "q": "Kuidas arvutatakse ühiskasutatava vee kulusid?",
+        "a": "Keskne ühiskasutatav maht (nt basseinid, haljastus) lahutatakse kõigepealt peamõõtjatest. Haldusgrupid jaotavad need struktuurselt või proportsionaalselt läbipaistval viisil."
+      },
+      {
+        "q": "Kui kiiresti HydroLedger tuvastab pidevad lekked?",
+        "a": "Meie taustahoiatuste süsteem kontrollib pidevat voolu. Kui vool ei lange nulli 10-minutilise tsükli jooksul, saadetakse koheselt hoiatusteated, et minimeerida kahjuriske."
+      },
+      {
+        "q": "Kas HydroLedger tegeleb turvalisuse või elanike privaatsusega?",
+        "a": "Jah. HydroLedger kaitseb ja hoiab elanike portaali identifikaatoreid krüpteeritud kanalite taga. Operatiivseid andmeid hoitakse turvaliselt rangelt vaid tarbimise jälgimiseks."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Liitu HydroLedgeriga juba täna",
+    "heading": "Alusta oma veetarbimise jälgimist juba täna",
+    "paragraph": "Suurenda säästmist, lihtsustada elanike arveldamist ja kaitse väärtuslikku infrastruktuuri. Luba meil arvutada teie kogukonna tasuvushinnang.",
+    "ctaPrimary": "Küsi hinnapakkumist",
+    "ctaSecondary": "Võta ühendust müügiosakonnaga"
+  },
+  "footer": {
+    "tagline": "Nutikad kommunaalkulude jaotussüsteemid ja reaalajas elanike alammõõtmise lahendused. Kaitse süsteeme, ühtlusta arveid, säästa vett.",
+    "columns": [
+      {
+        "title": "Platvorm",
+        "links": [
+          "Alammõõtmine",
+          "Arvelduskomplekt",
+          "Lekkekaitse",
+          "Elaniku äpp"
+        ]
+      },
+      {
+        "title": "Ressursid",
+        "links": [
+          "Juhtumiuuringud",
+          "Blogi",
+          "Paigaldusjuhend",
+          "Abikeskus"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Peakontor",
+    "copyright": "© 2026 HydroLedger Systems Inc. Kõik õigused kaitstud.",
+    "legalPrivacy": "Privaatsuspoliitika",
+    "legalTerms": "Kasutustingimused"
+  }
+}

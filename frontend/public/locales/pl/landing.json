@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkcje",
+    "linkHowItWorks": "Jak to działa",
+    "linkContact": "Kontakt",
+    "signIn": "Zaloguj się",
+    "getStarted": "Rozpocznij"
+  },
+  "hero": {
+    "eyebrow": "Inteligentne monitorowanie wody",
+    "titleLine1": "Śledź zużycie.",
+    "titleHighlight": "Rozliczaj sprawiedliwie.",
+    "titleLine2": "Oszczędzaj wodę.",
+    "paragraph": "HydroLedger zapewnia wspólnotom mieszkaniowym wgląd w zużycie w czasie rzeczywistym, przejrzyste rozliczenia kosztów wspólnych oraz wczesne powiadomienia o wyciekach — wszystko z jednego panelu.",
+    "ctaPrimary": "Rozpocznij",
+    "ctaSecondary": "Zaloguj się",
+    "panelLabel": "Zużycie w tym miesiącu",
+    "panelSub": "8% poniżej średniej dla gospodarstwa domowego",
+    "chartLabelStart": "Pon",
+    "chartLabelEnd": "Niedz"
+  },
+  "trustBar": {
+    "label": "Zaufali nam postępowi zarządcy nieruchomości wielorodzinnych"
+  },
+  "features": {
+    "pill": "Główne możliwości",
+    "headingPrefix": "Wszystko, czego potrzeba do",
+    "headingHighlight": "Monitorowania i rozliczania",
+    "headingSuffix": "w sposób sprawiedliwy",
+    "paragraph": "Pożegnaj ryczałtowy podział opłat za media. HydroLedger zwiększa sprawiedliwość strukturalną poprzez precyzyjny pomiar i inteligentną automatyzację.",
+    "items": [
+      {
+        "tag": "Śledzenie wody",
+        "title": "Podlicznikowanie w czasie rzeczywistym",
+        "text": "Mierz dokładne, minutowe zużycie wody w poszczególnych lokalach, zamiast polegać na przestarzałych szacunkach głównych liczników."
+      },
+      {
+        "tag": "Automatyzacja rozliczeń",
+        "title": "Automatyczne rozliczenia wspólnoty",
+        "text": "Generowanie faktur bezpośrednio dla mieszkańców, dynamicznie przypisanych do proporcjonalnego zużycia. Wyeliminuj koszty administracyjne związane z rozliczeniami."
+      },
+      {
+        "tag": "Mitygacja ryzyka",
+        "title": "Wczesne wykrywanie wycieków",
+        "text": "Natychmiastowe automatyczne powiadomienia o nieprawidłowych wzorcach przepływu pozwalają wykryć poważne awarie w ciągu minut, a nie miesięcy."
+      },
+      {
+        "tag": "Alokacja kosztów",
+        "title": "Sprawiedliwy podział kosztów",
+        "text": "Śledź zużycie w częściach wspólnych i rozdzielaj koszty strukturalne w sposób przejrzysty, budując zaufanie i wspierając oszczędność."
+      }
+    ],
+    "learnMore": "Dowiedz się więcej"
+  },
+  "howItWorks": {
+    "pill": "Efektywność pracy",
+    "heading": "Bezproblemowa instalacja, obsługa bez angażowania rąk",
+    "paragraph": "Skonfiguruj system szybko. Gdy urządzenia zostaną podłączone, platforma samodzielnie zajmie się złożonymi obliczeniami, wysyłką faktur i powiadomieniami o wyciekach.",
+    "steps": [
+      {
+        "title": "Podłącz inteligentne liczniki",
+        "text": "Nasi certyfikowani technicy montują nieinwazyjne inteligentne podliczniki przepływu bezpośrednio na zaworach w mniej niż 15 minut."
+      },
+      {
+        "title": "Śledzenie w czasie rzeczywistym",
+        "text": "Dane są przesyłane w sposób ciągły do platformy chmurowej HydroLedger, rejestrując dokładne zużycie i monitorując nietypową aktywność."
+      },
+      {
+        "title": "Zautomatyzuj rachunki",
+        "text": "Pod koniec miesiąca silnik systemu łączy koszty części wspólnych i dane z podliczników, tworząc przejrzyste, wyszczególnione faktury."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Podgląd portalu mieszkańca",
+    "headingPrefix": "Daj mieszkańcom",
+    "headingHighlight": "przejrzystość zużycia",
+    "paragraph": "Przejrzystość buduje wspólnotę. Mieszkańcy otrzymują proste panele z informacjami w czasie rzeczywistym, prognozami kosztów i wczesnymi ostrzeżeniami o wyciekach.",
+    "brandLabel": "Portal mieszkańca",
+    "unitLabel": "Lokal 4B — Bieżący cykl rozliczeniowy",
+    "stat1Label": "Zużycie w tym miesiącu",
+    "stat1Trend": "-12% względem średniej",
+    "stat2Label": "Prognozowana kwota faktury",
+    "stat2Trend": "W normie",
+    "stat3Label": "Status wycieków",
+    "stat3Value": "Wszystko w porządku",
+    "stat3Trend": "Prawidłowy przepływ",
+    "chartTitle": "Cotygodniowe zużycie (galony)",
+    "bars": [
+      "Tydz 1",
+      "Tydz 2",
+      "Tydz 3",
+      "Tydz 4",
+      "Tydz 5 (prog.)"
+    ],
+    "tipTitle": "Porada dotycząca oszczędzania",
+    "tipText": "Twój kran kuchenny wykazuje lekki, ciągły przepływ rano. Sprawdzenie perlatorów może zaoszczędzić do 10 galonów tygodniowo.",
+    "tipBadge": "Zautomatyzowana wskazówka",
+    "autopayTitle": "Autopłatność włączona",
+    "autopayLabel": "Data kolejnej automatycznej płatności",
+    "autopayButton": "Zobacz szczegółową fakturę PDF"
+  },
+  "audienceSplit": {
+    "residentPill": "Dla mieszkańców",
+    "residentHeading": "Sprawiedliwe koszty mediów oparte na zużyciu",
+    "residentParagraph": "Przestań płacić za nadmierne zużycie Twojego sąsiada. Płać dokładnie za to, ile zużyjesz, w oparciu o dane z panelu w czasie rzeczywistym.",
+    "residentBullets": [
+      "Dokładne comiesięczne dane z podliczników z przejrzystymi metrykami kosztów.",
+      "Powiadomienia SMS i mobilne w przypadku wykrycia mikro-wycieków w urządzeniach.",
+      "Prosty, usprawniony system płatności faktur cyfrowych z automatycznym potwierdzeniem."
+    ],
+    "adminPill": "Dla zarządców nieruchomości",
+    "adminHeading": "Natychmiastowy zwrot z inwestycji i kontrola strat",
+    "adminParagraph": "Przekształć zarządzanie mediami z kosztownego problemu w bezproblemowy, wysoce dochodowy proces dzięki automatycznym rozliczeniom mieszkańców.",
+    "adminBullets": [
+      "Bezobsługowa alokacja mediów przypisana bezpośrednio do poszczególnych lokali.",
+      "Natychmiastowe powiadomienia operacyjne zapobiegające kosztownym szkodom wyrządzonym przez wodę.",
+      "Szczegółowe raporty porównujące główny licznik z rozliczonymi galonami w lokalach."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Średnia oszczędność wody",
+      "Aktywne gospodarstwa domowe",
+      "Dostępność systemu",
+      "Zarządzane wspólnoty"
+    ]
+  },
+  "pricing": {
+    "pill": "Przejrzyste pakiety",
+    "heading": "Wysoki zwrot z inwestycji w koszty operacyjne",
+    "paragraph": "Wybierz plan dostosowany do wielkości Twojej wspólnoty. HydroLedger zazwyczaj zwraca się w pierwszym miesiącu dzięki redukcji marnotrawstwa w częściach wspólnych.",
+    "highlightBadge": "Najlepszy wybór",
+    "customPriceLabel": "Indywidualna",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "za lokal / miesiąc",
+        "desc": "Idealny dla mniejszych stowarzyszeń właścicieli potrzebujących podstawowych funkcji podlicznikowania.",
+        "features": [
+          "Odczyty liczników w czasie rzeczywistym",
+          "Powiadomienia SMS o wyciekach",
+          "Standardowy eksport rozliczeń",
+          "Samoobsługowy portal"
+        ],
+        "cta": "Aktywuj Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "za lokal / miesiąc",
+        "desc": "Nasz złoty standard dla typowych osiedli mieszkaniowych wymagających w pełni automatycznych rozliczeń.",
+        "features": [
+          "Wszystko z planu Starter",
+          "Automatyczna wysyłka faktur PDF",
+          "Proporcjonalne rozliczenia części wspólnych",
+          "Priorytetowa obsługa klienta"
+        ],
+        "cta": "Wybierz Pro (Najpopularniejszy)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "na zapytanie",
+        "desc": "Dla dużych wspólnot wymagających indywidualnych rozwiązań API i niestandardowych konfiguracji rozliczeniowych.",
+        "features": [
+          "Wszystko z planu Professional",
+          "Indywidualne integracje oprogramowania rozliczeniowego",
+          "Dedykowany konsultant ds. mediów",
+          "Gwarancja SLA na sprzęt"
+        ],
+        "cta": "Skontaktuj się z działem sprzedaży Enterprise"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Praktyka operacyjna",
+    "heading": "Co mówią zarządcy nieruchomości",
+    "quotes": [
+      {
+        "text": "HydroLedger fundamentalnie zmienił nasz wynik operacyjny. Odkryliśmy trzy poważne ukryte wycieki w liniach mechanicznych, co pozwoliło zaoszczędzić ponad 1,1 mln ₹ w samym pierwszym kwartale."
+      },
+      {
+        "text": "Zaufanie mieszkańców wzrosło. Rozliczanie lokatorów ściśle na podstawie zużycia wody, zamiast ogólnych wyliczeń dla całego budynku, rozwiązało nasze najbardziej problematyczne spory z najemcami."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Wsparcie FAQ",
+    "heading": "Często zadawane pytania",
+    "items": [
+      {
+        "q": "Czy inteligentne podliczniki wymagają odcięcia wody w budynku?",
+        "a": "Nie. Nasze innowacyjne liczniki montowane są nieinwazyjnie bezpośrednio na istniejących liniach w przestrzeniach technicznych. Montaż kończy się w kilka minut bez przerywania dostaw mediów dla mieszkańców."
+      },
+      {
+        "q": "Jak obliczane są wspólne koszty wody?",
+        "a": "Zużycie główne części wspólnych (np. basen, podlewanie) jest odejmowane od wskazań liczników głównych w pierwszej kolejności. Grupy zarządcze rozliczają te koszty strukturalnie lub proporcjonalnie."
+      },
+      {
+        "q": "Jak szybko HydroLedger wykrywa ciągłe wycieki?",
+        "a": "Nasze systemy monitorują sygnały ciągłego przepływu. Jeśli przepływ nie spada do zera w ciągu 10-minutowego cyklu, ostrzeżenie jest wysyłane natychmiast, aby zminimalizować ryzyko uszkodzeń."
+      },
+      {
+        "q": "Czy HydroLedger dba o bezpieczeństwo i prywatność mieszkańców?",
+        "a": "Tak. HydroLedger chroni i przechowuje identyfikatory portalu mieszkańca w ramach standardowych szyfrowanych kanałów. Dane operacyjne są przechowywane wyłącznie w celu śledzenia zużycia."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Dołącz do HydroLedger już dziś",
+    "heading": "Zacznij monitorować swoje zużycie wody już dziś",
+    "paragraph": "Zwiększ wskaźniki oszczędności, uprość rozliczenia mieszkańców i chroń infrastrukturę budynku. Pozwól nam obliczyć Twój indywidualny zwrot z inwestycji.",
+    "ctaPrimary": "Poproś o wycenę",
+    "ctaSecondary": "Skontaktuj się ze sprzedażą"
+  },
+  "footer": {
+    "tagline": "Inteligentne systemy alokacji mediów i rozwiązania do podlicznikowania w czasie rzeczywistym. Chroń systemy, wyrównuj rachunki, oszczędzaj wodę.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Podlicznikowanie",
+          "Pakiet rozliczeniowy",
+          "Ochrona przed wyciekami",
+          "Aplikacja mieszkańca"
+        ]
+      },
+      {
+        "title": "Zasoby",
+        "links": [
+          "Studia przypadków",
+          "Blog",
+          "Instrukcja instalacji",
+          "Centrum pomocy"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Siedziba główna",
+    "copyright": "© 2026 HydroLedger Systems Inc. Wszelkie prawa zastrzeżone.",
+    "legalPrivacy": "Polityka prywatności",
+    "legalTerms": "Regulamin świadczenia usług"
+  }
+}

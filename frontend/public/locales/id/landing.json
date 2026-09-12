@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Fitur",
+    "linkHowItWorks": "Cara Kerja",
+    "linkContact": "Kontak",
+    "signIn": "Masuk",
+    "getStarted": "Mulai"
+  },
+  "hero": {
+    "eyebrow": "Pemantauan Air Cerdas",
+    "titleLine1": "Lacak penggunaan.",
+    "titleHighlight": "Bagi secara adil.",
+    "titleLine2": "Hemat air.",
+    "paragraph": "HydroLedger memberikan wawasan konsumsi real-time kepada komunitas apartemen, penagihan biaya bersama yang transparan, dan peringatan kebocoran dini — semuanya dari satu dasbor.",
+    "ctaPrimary": "Mulai",
+    "ctaSecondary": "Masuk",
+    "panelLabel": "Penggunaan bulan ini",
+    "panelSub": "8% di bawah rata-rata rumah tangga",
+    "chartLabelStart": "Sen",
+    "chartLabelEnd": "Min"
+  },
+  "trustBar": {
+    "label": "Dipercaya oleh grup manajemen multi-keluarga progresif"
+  },
+  "features": {
+    "pill": "Kemampuan Inti",
+    "headingPrefix": "Segala yang Dibutuhkan untuk",
+    "headingHighlight": "Memantau & Menagih",
+    "headingSuffix": "Secara Adil",
+    "paragraph": "Ucapkan selamat tinggal pada pembagian utilitas tarif tetap. HydroLedger mendorong keadilan struktural melalui pengukuran presisi dan otomatisasi cerdas.",
+    "items": [
+      {
+        "tag": "Pelacakan Air",
+        "title": "Sub-Meteran Real-Time",
+        "text": "Ukur konsumsi air yang tepat, menit demi menit di setiap unit alih-alih mengandalkan estimasi induk yang usang."
+      },
+      {
+        "tag": "Otomatisasi Penagihan",
+        "title": "Penagihan Komunitas Otomatis",
+        "text": "Pembuatan faktur langsung ke penghuni yang dipetakan secara dinamis ke penggunaan proporsional. Hilangkan beban administrasi penagihan secara instan."
+      },
+      {
+        "tag": "Mitigasi Risiko",
+        "title": "Peringatan Deteksi Kebocoran Dini",
+        "text": "Peringatan otomatis instan menandai pola aliran abnormal dan menangkap kerusakan air besar dalam hitungan menit, bukan bulan."
+      },
+      {
+        "tag": "Alokasi Biaya",
+        "title": "Distribusi Biaya yang Adil",
+        "text": "Lacak penggunaan area bersama dan distribusikan biaya struktural secara transparan untuk membangun kepercayaan dan konservasi rumah tangga."
+      }
+    ],
+    "learnMore": "Pelajari lebih lanjut"
+  },
+  "howItWorks": {
+    "pill": "Efisiensi Alur Kerja",
+    "heading": "Instalasi Mulus, Operasi Bebas Tangan",
+    "paragraph": "Siapkan dengan cepat. Setelah unit perangkat keras terhubung, platform menangani perhitungan kompleks, pengiriman faktur, dan peringatan kebocoran secara asli.",
+    "steps": [
+      {
+        "title": "Hubungkan Meteran Cerdas",
+        "text": "Teknisi bersertifikat kami memasang sub-meter aliran cerdas non-invasif langsung ke katup riser individu dalam waktu kurang dari 15 menit."
+      },
+      {
+        "title": "Pelacakan Real-Time",
+        "text": "Data mengalir terus menerus ke platform cloud HydroLedger, mencatat angka penggunaan yang tepat dan memantau aktivitas abnormal."
+      },
+      {
+        "title": "Otomatisasi Tagihan",
+        "text": "Di akhir bulan, mesin menggabungkan distribusi area bersama dan volume sub-meteran menjadi faktur yang jelas dan terperinci."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Mockup Portal Penghuni Langsung",
+    "headingPrefix": "Berdayakan Penghuni Dengan",
+    "headingHighlight": "Kejelasan Konsumsi",
+    "paragraph": "Transparansi membangun keselarasan komunitas. Penghuni menikmati dasbor sederhana dengan umpan balik real-time, proyeksi biaya prediktif, dan peringatan kebocoran proaktif.",
+    "brandLabel": "Portal Penghuni",
+    "unitLabel": "Unit 4B — Siklus Tagihan Saat Ini",
+    "stat1Label": "Penggunaan Bulan Ini",
+    "stat1Trend": "-12% vs Rata-rata",
+    "stat2Label": "Estimasi Jumlah Tagihan",
+    "stat2Trend": "Sesuai Jalur",
+    "stat3Label": "Status Kebocoran",
+    "stat3Value": "Aman",
+    "stat3Trend": "Aliran Normal",
+    "chartTitle": "Penggunaan Mingguan (Galon)",
+    "bars": [
+      "Mgg 1",
+      "Mgg 2",
+      "Mgg 3",
+      "Mgg 4",
+      "Mgg 5 (Proyeksi)"
+    ],
+    "tipTitle": "Tips Konservasi",
+    "tipText": "Keran dapur Anda menunjukkan aliran yang sedikit terus-menerus di pagi hari. Memeriksa aerator dapat menghemat hingga 10 galon/minggu.",
+    "tipBadge": "Wawasan Otomatis",
+    "autopayTitle": "Autopay Diaktifkan",
+    "autopayLabel": "Tanggal Tagihan Otomatis Berikutnya",
+    "autopayButton": "Lihat PDF Faktur Terperinci"
+  },
+  "audienceSplit": {
+    "residentPill": "Untuk Penghuni",
+    "residentHeading": "Biaya Utilitas yang Adil Berdasarkan Konsumsi",
+    "residentParagraph": "Berhenti membayar konsumsi berlebih tetangga Anda. Bayar hanya untuk galon yang Anda gunakan, didukung oleh data dasbor real-time.",
+    "residentBullets": [
+      "Data sub-meteran bulanan yang akurat dengan metrik biaya transparan.",
+      "Pemberitahuan SMS & seluler jika kebocoran mikro terdeteksi di peralatan.",
+      "Sistem pembayaran faktur digital yang sederhana dan efisien dengan tanda terima otomatis."
+    ],
+    "adminPill": "Untuk Admin Properti",
+    "adminHeading": "ROI Operasional Instan dan Kontrol Limbah",
+    "adminParagraph": "Ubah manajemen utilitas dari beban kerugian tinggi menjadi saluran margin tinggi yang mulus dengan penagihan penghuni otomatis.",
+    "adminBullets": [
+      "Alokasi utilitas bebas tangan yang terhubung langsung ke unit individu.",
+      "Peringatan operasional segera untuk mencegah kerusakan air struktural berbiaya tinggi.",
+      "Pelaporan dasbor terperinci tentang penagihan meteran induk vs galon yang didistribusikan."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Rata-rata Air yang Dihemat",
+      "Rumah Tangga Aktif",
+      "Waktu Aktif Sistem",
+      "Komunitas yang Dikelola"
+    ]
+  },
+  "pricing": {
+    "pill": "Paket Transparan",
+    "heading": "Biaya Operasional dengan Pengembalian Investasi Tinggi",
+    "paragraph": "Pilih paket yang disesuaikan dengan kepadatan komunitas Anda. HydroLedger biasanya mengganti biaya platformnya sendiri di bulan pertama melalui pengurangan limbah area bersama.",
+    "highlightBadge": "Nilai Terbaik",
+    "customPriceLabel": "Kustom",
+    "tiers": [
+      {
+        "name": "Pemula",
+        "unit": "per unit / bulan",
+        "desc": "Sempurna untuk asosiasi townhouse kecil yang membutuhkan kemampuan sub-meteran inti.",
+        "features": [
+          "Pembacaan Meteran Real-Time",
+          "Peringatan Kebocoran SMS",
+          "Ekspor Penagihan Standar",
+          "Portal Mandiri"
+        ],
+        "cta": "Aktifkan Pemula"
+      },
+      {
+        "name": "Profesional",
+        "unit": "per unit / bulan",
+        "desc": "Paket standar emas kami untuk komunitas apartemen klasik yang menginginkan penagihan penghuni yang sepenuhnya otomatis.",
+        "features": [
+          "Semua yang ada di Pemula",
+          "Pengiriman Faktur PDF Otomatis",
+          "Alokasi Area Bersama Proporsional",
+          "Dukungan Pelanggan Prioritas"
+        ],
+        "cta": "Gunakan Pro (Paling Populer)"
+      },
+      {
+        "name": "Perusahaan",
+        "unit": "berdasarkan permintaan",
+        "desc": "Untuk komunitas institusional luas yang memerlukan saluran API dan konfigurasi penagihan khusus.",
+        "features": [
+          "Semua yang ada di Profesional",
+          "Integrasi Perangkat Lunak Penagihan Khusus",
+          "Konsultan Utilitas Berdedikasi",
+          "Garansi SLA Perangkat Keras"
+        ],
+        "cta": "Hubungi Penjualan Perusahaan"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realitas Operasional",
+    "heading": "Apa Kata Manajer Properti",
+    "quotes": [
+      {
+        "text": "HydroLedger secara mendasar mengubah P&L operasional kami. Kami menemukan tiga kebocoran layanan tersembunyi yang besar di saluran mekanis yang menghemat lebih dari ₹11 lakh di kuartal pertama kami saja."
+      },
+      {
+        "text": "Kepercayaan penghuni melonjak. Menagih penyewa kami berdasarkan penggunaan air secara ketat alih-alih perhitungan meteran induk multi-kamar tidur yang umum menyelesaikan sengketa penyewa kami yang paling menyakitkan."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Dukungan FAQ",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Apakah sub-meteran cerdas memerlukan penghentian layanan mekanis?",
+        "a": "Tidak. Unit meteran riser inovatif kami dipasang secara non-invasif langsung di atas saluran yang ada di ruang bawah tanah individu. Pengaturan selesai dengan bersih dalam hitungan menit tanpa pemutusan utilitas multi-penyewa."
+      },
+      {
+        "q": "Bagaimana biaya air komunal/bersama dihitung?",
+        "a": "Kolam area bersama pusat (misalnya fasilitas kolam renang, lanskap) dikurangi dengan bersih dari meteran induk utama terlebih dahulu. Grup properti mengalokasikan hal tersebut secara struktural atau membagi proporsional secara transparan."
+      },
+      {
+        "q": "Seberapa cepat HydroLedger mendeteksi aliran kebocoran terus-menerus?",
+        "a": "Saluran peringatan latar belakang kami memeriksa sinyal tarikan terus-menerus. Jika aliran tidak menyentuh nol selama siklus 10 menit bergulir, peringatan dikirim secara instan untuk meminimalkan risiko kerusakan."
+      },
+      {
+        "q": "Apakah HydroLedger menangani keamanan atau privasi penghuni?",
+        "a": "Ya. HydroLedger melindungi dan menyimpan pengidentifikasi portal penghuni di belakang saluran terenkripsi standar. Data operasional dijaga keamanannya secara ketat untuk pelacakan konsumsi."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Bergabunglah dengan HydroLedger Hari Ini",
+    "heading": "Mulai Pantau Penggunaan Air Anda Hari Ini",
+    "paragraph": "Tingkatkan metrik konservasi, sederhanakan beban penagihan penghuni, dan lindungi infrastruktur multi-rumah tangga yang berharga. Izinkan kami menghitung estimasi ROI komunitas kustom Anda.",
+    "ctaPrimary": "Minta Penawaran",
+    "ctaSecondary": "Hubungi Penjualan"
+  },
+  "footer": {
+    "tagline": "Saluran alokasi utilitas cerdas dan solusi sub-meteran perumahan real-time. Lindungi sistem, selaraskan tagihan, hemat air.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Sub-Meteran",
+          "Suite Penagihan",
+          "Penjaga Kebocoran",
+          "Aplikasi Penghuni"
+        ]
+      },
+      {
+        "title": "Sumber Daya",
+        "links": [
+          "Studi Kasus",
+          "Blog",
+          "Panduan Instalasi",
+          "Pusat Bantuan"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Kantor Perusahaan",
+    "copyright": "© 2026 HydroLedger Systems Inc. Hak cipta dilindungi undang-undang.",
+    "legalPrivacy": "Kebijakan Privasi",
+    "legalTerms": "Ketentuan Layanan"
+  }
+}

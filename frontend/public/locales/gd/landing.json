@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Feartan",
+    "linkHowItWorks": "Mar a tha e ag obair",
+    "linkContact": "Cuir fios thugainn",
+    "signIn": "Clàraich a-steach",
+    "getStarted": "Tòisich"
+  },
+  "hero": {
+    "eyebrow": "Sgrùdadh Uisge Glic",
+    "titleLine1": "Cum sùil air caitheamh.",
+    "titleHighlight": "Roinn gu cothromach.",
+    "titleLine2": "Sàbhail uisge.",
+    "paragraph": "Tha HydroLedger a’ toirt seachad lèirsinn fìor-ùine air caitheamh uisge do choimhearsnachdan àros, bileachadh co-roinnte follaiseach, agus rabhaidhean aoidion – uile bho aon deas-bhòrd.",
+    "ctaPrimary": "Tòisich",
+    "ctaSecondary": "Clàraich a-steach",
+    "panelLabel": "Caitheamh na mìos seo",
+    "panelSub": "8% fon chuibheasachd teaghlaich",
+    "chartLabelStart": "Diluain",
+    "chartLabelEnd": "Didòmhnaich"
+  },
+  "trustBar": {
+    "label": "Air a mhuinighinn le buidhnean riaghlaidh ioma-teaghlaich adhartach"
+  },
+  "features": {
+    "pill": "Prìomh Chomasan",
+    "headingPrefix": "A h-uile rud a dh'fheumar gus",
+    "headingHighlight": "Sgrùdadh & Bileachadh",
+    "headingSuffix": "Gu cothromach",
+    "paragraph": "Abair beannachd le bileachadh rèidh. Bidh HydroLedger a’ brosnachadh cothromachd tro thomhas mionaideach agus fèin-ghluasad tùrail.",
+    "items": [
+      {
+        "tag": "Sgrùdadh Uisge",
+        "title": "Fo-mheatair Fìor-ùine",
+        "text": "Tomhais caitheamh uisge mionaideach, mionaid-air-mionaid, thar aonadan fa leth an àite a bhith an urra ri tuairmsean seann-fhasanta."
+      },
+      {
+        "tag": "Fèin-ghluasad Bileachaidh",
+        "title": "Bileachadh Coimhearsnachd Fèin-ghluasadach",
+        "text": "Gineadh bhilean dìreach don luchd-còmhnaidh stèidhichte air an cleachdadh aca. Cuir às do chosgaisean rianachd bhilean sa bhad."
+      },
+      {
+        "tag": "Lùghdachadh Cunnairt",
+        "title": "Rabhaidhean Lorg Aoidion Tràth",
+        "text": "Bidh rabhaidhean fèin-ghluasadach a' comharrachadh pàtrain sruthadh neo-àbhaisteach agus a' cur stad air milleadh mòr uisge taobh a-staigh mionaidean, chan e mìosan."
+      },
+      {
+        "tag": "Roinn Chosgaisean",
+        "title": "Sgaoileadh Chosgaisean Cothromach",
+        "text": "Cum sùil air caitheamh raointean coitcheann agus sgaoil cosgaisean strucuteurail gu follaiseach gus earbsa agus gleidheadh a thogail."
+      }
+    ],
+    "learnMore": "Ionnsaich barrachd"
+  },
+  "howItWorks": {
+    "pill": "Èifeachdas Sruth-obrach",
+    "heading": "Stàladh Gun Sgàil, Obrachadh gun làmhan",
+    "paragraph": "Faigh air dòigh gu luath. Cho luath ‘s a cheanglas na h-aonadan bathar-cruaidh, bidh an àrd-ùrlar a’ làimhseachadh àireamhachadh iom-fhillte, cur bhilean, agus rabhaidhean aoidion gu dùthchasach.",
+    "steps": [
+      {
+        "title": "Ceangail Meatairean Glic",
+        "text": "Bidh na teicneòlaichean teisteanach againn a’ ceangal fo-mheatairean sruthadh glic gu dìreach ri bhalbhaichean èirigh fa leth ann an nas lugha na 15 mionaidean."
+      },
+      {
+        "title": "Sgrùdadh Fìor-ùine",
+        "text": "Tha dàta a’ sruthadh gu leantainneach gu àrd-ùrlar neòil HydroLedger, a’ clàradh figearan caitheamh mionaideach agus a’ cumail sùil air gnìomhachd neo-àbhaisteach."
+      },
+      {
+        "title": "Fèin-ghluasad Bhilean",
+        "text": "Aig deireadh na mìos, bidh an einnsean a’ cothlamadh roinnean raon coitcheann agus meudan fo-mheatair gu bilean soilleir, mionaideach."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Modail Portail Luchd-còmhnaidh Beò",
+    "headingPrefix": "Thoir Cumhachd do Luchd-còmhnaidh le",
+    "headingHighlight": "Soilleireachd Caitheimh",
+    "paragraph": "Bidh follaiseachd a’ togail co-thaobhadh coimhearsnachd. Bidh luchd-còmhnaidh a’ faighinn tlachd à deas-bhòrd sìmplidh le fios air ais fìor-ùine, ro-mheasaidhean cosgais, agus rabhaidhean aoidion ro-ghnìomhach.",
+    "brandLabel": "Portal Luchd-còmhnaidh",
+    "unitLabel": "Aonad 4B — Cearcall Bileachaidh làithreach",
+    "stat1Label": "Caitheamh na Mìos seo",
+    "stat1Trend": "-12% vs Cuibheasachd",
+    "stat2Label": "Tuairmse na Bile",
+    "stat2Trend": "Air an t-slighe",
+    "stat3Label": "Inbhe Aoidion",
+    "stat3Value": "Glè mhath",
+    "stat3Trend": "Sruth Sàbhailte",
+    "chartTitle": "Caitheamh Seachdaineil (Galain)",
+    "bars": [
+      "Seachdain 1",
+      "Seachdain 2",
+      "Seachdain 3",
+      "Seachdain 4",
+      "Seachdain 5 (Proj)"
+    ],
+    "tipTitle": "Comhairle Gleidhidh",
+    "tipText": "Tha sruth beagan leantainneach aig tap na cidsin agad sa mhadainn. Dh'fhaodadh sgrùdadh air na h-aerators suas ri 10 galan/seachdain a shàbhaladh.",
+    "tipBadge": "Lèirsinn Fèin-ghluasadach",
+    "autopayTitle": "Pàigheadh Fèin-ghluasadach air a chomasachadh",
+    "autopayLabel": "An ath cheann-latha airson fèin-bhileachadh",
+    "autopayButton": "Faic Bile PDF Mionaideach"
+  },
+  "audienceSplit": {
+    "residentPill": "Airson Luchd-còmhnaidh",
+    "residentHeading": "Cosgaisean Goireis Cothromach, Stèidhichte air Caitheamh",
+    "residentParagraph": "Sguir de bhith a’ pàigheadh airson cus caitheamh do nàbaidh. Pàigh gu teann airson na galain a chleachdas tu, le taic bho dhàta deas-bhòrd fìor-ùine.",
+    "residentBullets": [
+      "Dàta fo-mheatair mìosail mionaideach le meatrachan cosgais follaiseach.",
+      "Rabhaidhean SMS & gluasadach ma lorgar meanbh-aoidion ann an innealan.",
+      "Siostam pàighidh bhilean didseatach sìmplidh le cuidhteasan fèin-ghluasadach."
+    ],
+    "adminPill": "Airson Rianadairean Seilbh",
+    "adminHeading": "ROI Obrachaidh Sa bhad agus Smachd air Sgudal",
+    "adminParagraph": "Atharraich riaghladh ghoireasan bho dhuilgheadas le call àrd gu pìob-loidhne rèidh, le iomall prothaid àrd le bileachadh luchd-còmhnaidh fèin-ghluasadach.",
+    "adminBullets": [
+      "Sgaoileadh ghoireasan gun làmhan ceangailte gu dìreach ri aonadan fa leth.",
+      "Rabhaidhean obrachaidh sa bhad gus casg a chur air milleadh uisge strucuteurail cosgail.",
+      "Aithisgean deas-bhòrd mionaideach air bileachadh prìomh mheatair an aghaidh ghalain sgaoilte."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Cuibheasachd Uisge air a Shàbhaladh",
+      "Dachaighean Gnìomhach",
+      "Ùine Obrachaidh an t-Siostaim",
+      "Coimhearsnachdan air an Riaghladh"
+    ]
+  },
+  "pricing": {
+    "pill": "Pasganan Follaiseach",
+    "heading": "Cosgaisean Obrachaidh le Toradh Àrd air Tasgadh",
+    "paragraph": "Tagh plana a tha a rèir dùmhlachd na coimhearsnachd agad. Mar as trice bidh HydroLedger a’ dìoladh a chosgaisean àrd-ùrlar fhèin sa chiad mhìos tro bhith a’ lughdachadh sgudal raointean coitcheann.",
+    "highlightBadge": "An Luach as Fheàrr",
+    "customPriceLabel": "Gnàthaichte",
+    "tiers": [
+      {
+        "name": "Tòiseachaidh",
+        "unit": "gach aonad / mìos",
+        "desc": "Foirfe airson comainn taigh-baile nas lugha a dh’fheumas prìomh chomasan fo-mheatair.",
+        "features": [
+          "Leughaidhean Meatair Fìor-ùine",
+          "Rabhaidhean Aoidion SMS",
+          "Às-mhalairt Bhilean Coitcheann",
+          "Portal Fèin-sheirbheis"
+        ],
+        "cta": "Gnìomhaich Tòiseachaidh"
+      },
+      {
+        "name": "Proifeasanta",
+        "unit": "gach aonad / mìos",
+        "desc": "Ar pasgan òir airson coimhearsnachdan àros clasaigeach a tha ag iarraidh bileachadh luchd-còmhnaidh làn fèin-ghluasadach.",
+        "features": [
+          "A h-uile rud anns an Tòiseachaidh",
+          "Cur Bhilean PDF Fèin-ghluasadach",
+          "Roinnean Raon Coitcheann Co-rèireach",
+          "Taic Luchd-ceannach Prìomhachais"
+        ],
+        "cta": "Rach gu Pro (As mòr-chòrdte)"
+      },
+      {
+        "name": "Iomairt",
+        "unit": "air iarrtas",
+        "desc": "Airson coimhearsnachdan institiùideach farsaing a dh’fheumas pìoban-loidhne API agus rèiteachaidhean bileachaidh sònraichte.",
+        "features": [
+          "A h-uile rud sa Proifeasanta",
+          "Amalachadh Bathar-bog Bileachaidh Sònraichte",
+          "Comhairliche Ghoireasan Sònraichte",
+          "Barantasan SLA Bathar-cruaidh"
+        ],
+        "cta": "Cuir fios gu Reic Iomairt"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Fìrinnean Obrachaidh",
+    "heading": "Na tha aig Manaidsearan Seilbh ri ràdh",
+    "quotes": [
+      {
+        "text": "Dh'atharraich HydroLedger ar P&L obrachaidh gu bunaiteach. Lorg sinn trì prìomh aoidion falaichte ann an loidhnichean meacanaigeach a shàbhail còrr is ₹11 lakh dhuinn sa chiad chairteal a-mhàin."
+      },
+      {
+        "text": "Tha earbsa luchd-còmhnaidh air a dhol suas. Le bhith a’ bileachadh ar luchd-gabhail stèidhichte gu teann air caitheamh uisge an àite àireamhachaidhean prìomh mheatair ioma-seòmar-cadail, dh’fhuasgail sinn na connspaidean luchd-gabhail bu phianail a bh’ againn."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Taic FAQ",
+    "heading": "Ceistean Cumanta",
+    "items": [
+      {
+        "q": "A bheil feum aig fo-mheatairean glic air dùnadh seirbheis meacanaigeach?",
+        "a": "Chan eil. Tha na h-aonadan meatair èirigh ùr-ghnàthach againn a’ freagairt gu neo-ionnsaigheach gu dìreach thairis air loidhnichean a th’ ann mar-thà ann an àiteachan fo-làr. Bidh stèidheachaidhean a’ crìochnachadh gu glan ann am mionaidean gun a bhith a’ gearradh dheth goireasan."
+      },
+      {
+        "q": "Ciamar a thèid cosgaisean uisge coitcheann/co-roinnte àireamhachadh?",
+        "a": "Tha an amar prìomh raon coitcheann (me goireasan amar, obair-ghàrraidh) air a thoirt air falbh gu glan bho phrìomh mheatairean an toiseach. Bidh buidhnean seilbh a’ sgaoileadh sin gu strucuteurail no gu co-rèireach gu follaiseach."
+      },
+      {
+        "q": "Ciamar a lorgas HydroLedger sruthan aoidion leantainneach cho luath?",
+        "a": "Bidh na pìoban-loidhne rabhaidh cùl-fhiosrachaidh againn a’ sgrùdadh chomharran tarraing leantainneach. Mura ruig an sruth neoni thar cearcall 10-mionaid, thèid rabhaidhean a chur a-mach sa bhad gus cunnartan milleadh a lughdachadh."
+      },
+      {
+        "q": "A bheil HydroLedger a’ làimhseachadh tèarainteachd no prìobhaideachd luchd-còmhnaidh?",
+        "a": "Tha. Tha HydroLedger a’ dìon agus a’ stòradh aithnichearan portal luchd-còmhnaidh air cùl seanalan crioptaichte àbhaisteach. Tha dàta obrachaidh air a chumail tèarainte gu teann airson sgrùdadh caitheamh."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Thig còmhla ri HydroLedger an-diugh",
+    "heading": "Tòisich air Sgrùdadh do Chaitheamh Uisge an-diugh",
+    "paragraph": "Neartaich meatrachan gleidhidh, sìmplich cosgaisean bileachaidh luchd-còmhnaidh, agus dìon bun-structar luachmhor ioma-teaghlaich. Leig leinn an tuairmse ROI coimhearsnachd gnàthaichte agad obrachadh a-mach.",
+    "ctaPrimary": "Iarr Cuòt",
+    "ctaSecondary": "Cuir fios gu Reic"
+  },
+  "footer": {
+    "tagline": "Pìoban-loidhne sgaoileadh ghoireasan glic agus fuasglaidhean fo-mheatair còmhnaidh fìor-ùine. Dìon siostaman, co-thaobhaich bilean, sàbhail uisge.",
+    "columns": [
+      {
+        "title": "Àrd-ùrlar",
+        "links": [
+          "Fo-mheatair",
+          "Seòmar Bileachaidh",
+          "Geàrd Aoidion",
+          "Aplacaid Luchd-còmhnaidh"
+        ]
+      },
+      {
+        "title": "Goireasan",
+        "links": [
+          "Sgrùdaidhean Cùise",
+          "Blog",
+          "Stiùireadh Stàlaidh",
+          "Ionad Taic"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Oifis Corporra",
+    "copyright": "© 2026 HydroLedger Systems Inc. Gach còir glèidhte.",
+    "legalPrivacy": "Poileasaidh Prìobhaideachd",
+    "legalTerms": "Cumhachan Seirbheis"
+  }
+}

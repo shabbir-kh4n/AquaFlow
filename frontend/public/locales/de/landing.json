@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funktionen",
+    "linkHowItWorks": "Funktionsweise",
+    "linkContact": "Kontakt",
+    "signIn": "Anmelden",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "eyebrow": "Intelligente Wasserüberwachung",
+    "titleLine1": "Verbrauch erfassen.",
+    "titleHighlight": "Fair abrechnen.",
+    "titleLine2": "Wasser sparen.",
+    "paragraph": "HydroLedger bietet Wohngemeinschaften Echtzeit-Einblicke in den Verbrauch, transparente Kostenabrechnungen und frühzeitige Leckwarnungen – alles über ein einziges Dashboard.",
+    "ctaPrimary": "Loslegen",
+    "ctaSecondary": "Anmelden",
+    "panelLabel": "Verbrauch diesen Monat",
+    "panelSub": "8% unter dem Haushaltsdurchschnitt",
+    "chartLabelStart": "Mo",
+    "chartLabelEnd": "So"
+  },
+  "trustBar": {
+    "label": "Im Vertrauen von fortschrittlichen Mehrfamilienhaus-Verwaltungsgruppen"
+  },
+  "features": {
+    "pill": "Kernfunktionen",
+    "headingPrefix": "Alles, was Sie benötigen für",
+    "headingHighlight": "Überwachung & Abrechnung",
+    "headingSuffix": "auf faire Weise",
+    "paragraph": "Verabschieden Sie sich von pauschalen Nebenkostenabrechnungen. HydroLedger sorgt durch präzise Messung und intelligente Automatisierung für strukturelle Gerechtigkeit.",
+    "items": [
+      {
+        "tag": "Wasser-Tracking",
+        "title": "Echtzeit-Sub-Metering",
+        "text": "Messen Sie den exakten, minütlichen Wasserverbrauch einzelner Einheiten, anstatt sich auf veraltete Gesamtschätzungen zu verlassen."
+      },
+      {
+        "tag": "Automatisierte Abrechnung",
+        "title": "Automatisierte Gemeinschaftsabrechnung",
+        "text": "Erstellen Sie Rechnungen direkt für Bewohner, die dynamisch an den anteiligen Verbrauch angepasst sind. Eliminieren Sie den Abrechnungsaufwand sofort."
+      },
+      {
+        "tag": "Risikominderung",
+        "title": "Frühzeitige Leckerkennung",
+        "text": "Sofortige automatisierte Warnmeldungen bei ungewöhnlichen Durchflussmustern verhindern große Wasserschäden innerhalb von Minuten, nicht erst nach Monaten."
+      },
+      {
+        "tag": "Kostenverteilung",
+        "title": "Faire Kostenverteilung",
+        "text": "Verfolgen Sie die Nutzung von Gemeinschaftsflächen und verteilen Sie strukturelle Kosten transparent, um Vertrauen bei den Haushalten zu schaffen und Einsparungen zu fördern."
+      }
+    ],
+    "learnMore": "Mehr erfahren"
+  },
+  "howItWorks": {
+    "pill": "Arbeitsablauf-Effizienz",
+    "heading": "Nahtlose Installation, wartungsfreier Betrieb",
+    "paragraph": "Schnelle Einrichtung. Sobald die Hardware angeschlossen ist, übernimmt die Plattform komplexe Berechnungen, Rechnungsversand und Leckwarnungen.",
+    "steps": [
+      {
+        "title": "Smarte Zähler verbinden",
+        "text": "Unsere zertifizierten Techniker installieren nicht-invasive smarte Durchflusszähler in unter 15 Minuten direkt an den individuellen Steigleitungen."
+      },
+      {
+        "title": "Echtzeit-Tracking",
+        "text": "Daten werden kontinuierlich an die HydroLedger-Cloud-Plattform übertragen, wo sie genaue Verbrauchszahlen protokollieren und auf ungewöhnliche Aktivitäten überwachen."
+      },
+      {
+        "title": "Automatisierte Rechnungen",
+        "text": "Am Monatsende kombiniert das System die Verteilung der Gemeinschaftsflächen mit den gemessenen Werten zu klaren, detaillierten Rechnungen."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live-Vorschau des Bewohnerportals",
+    "headingPrefix": "Ermächtigen Sie Bewohner mit",
+    "headingHighlight": "Verbrauchsklarheit",
+    "paragraph": "Transparenz schafft Gemeinschaft. Bewohner profitieren von einfachen Dashboards mit Echtzeit-Feedback, prognostizierten Kosten und proaktiven Leckwarnungen.",
+    "brandLabel": "Bewohnerportal",
+    "unitLabel": "Einheit 4B — Aktueller Abrechnungszeitraum",
+    "stat1Label": "Verbrauch diesen Monat",
+    "stat1Trend": "-12% vs. Durchschnitt",
+    "stat2Label": "Geschätzter Rechnungsbetrag",
+    "stat2Trend": "Im Plan",
+    "stat3Label": "Leck-Status",
+    "stat3Value": "Alles in Ordnung",
+    "stat3Trend": "Sicherer Durchfluss",
+    "chartTitle": "Wöchentlicher Verbrauch (Gallonen)",
+    "bars": [
+      "Wo 1",
+      "Wo 2",
+      "Wo 3",
+      "Wo 4",
+      "Wo 5 (Proj.)"
+    ],
+    "tipTitle": "Spartipp",
+    "tipText": "Ihr Küchenwasserhahn zeigt am Morgen einen leicht kontinuierlichen Durchfluss. Die Überprüfung der Strahlregler könnte bis zu 10 Gallonen pro Woche einsparen.",
+    "tipBadge": "Automatisierte Erkenntnis",
+    "autopayTitle": "Autopay aktiviert",
+    "autopayLabel": "Nächstes automatisches Rechnungsdatum",
+    "autopayButton": "Detaillierte PDF-Rechnung anzeigen"
+  },
+  "audienceSplit": {
+    "residentPill": "Für Bewohner",
+    "residentHeading": "Faire, verbrauchsabhängige Nebenkosten",
+    "residentParagraph": "Hören Sie auf, für den übermäßigen Verbrauch Ihres Nachbarn zu bezahlen. Zahlen Sie ausschließlich für die von Ihnen verbrauchten Mengen, belegt durch Echtzeit-Dashboard-Daten.",
+    "residentBullets": [
+      "Präzise monatliche Sub-Metering-Daten mit transparenten Kostenmetriken.",
+      "SMS- und mobile Benachrichtigungen bei erkannten Mikro-Lecks an Geräten.",
+      "Einfaches, optimiertes digitales Rechnungssystem mit automatischen Empfangsbestätigungen."
+    ],
+    "adminPill": "Für Immobilienverwalter",
+    "adminHeading": "Sofortiger betrieblicher ROI und Abfallkontrolle",
+    "adminParagraph": "Verwandeln Sie die Nebenkostenverwaltung von einem verlustreichen Ärgernis in einen nahtlosen, renditestarken Prozess mit automatisierter Bewohnerabrechnung.",
+    "adminBullets": [
+      "Wartungsfreie Nebenkostenverteilung direkt verbunden mit den individuellen Einheiten.",
+      "Sofortige betriebliche Warnmeldungen zur Vermeidung kostspieliger baulicher Wasserschäden.",
+      "Detaillierte Dashboard-Berichte zur Gegenüberstellung von Hauptzähler-Rechnungen und verteilten Mengen."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Durchschnittlich gespartes Wasser",
+      "Aktive Haushalte",
+      "Systemverfügbarkeit",
+      "Verwaltete Gemeinschaften"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparente Pakete",
+    "heading": "Betriebskosten mit hohem Return-on-Investment",
+    "paragraph": "Wählen Sie einen Plan, der auf Ihre Gemeindegröße zugeschnitten ist. HydroLedger kompensiert seine Plattformgebühren meist bereits im ersten Monat durch reduzierten Abfall in Gemeinschaftsbereichen.",
+    "highlightBadge": "Bestes Preis-Leistungs-Verhältnis",
+    "customPriceLabel": "Individuell",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "pro Einheit / Monat",
+        "desc": "Perfekt für kleinere Reihenhausgemeinschaften, die grundlegende Sub-Metering-Funktionen benötigen.",
+        "features": [
+          "Echtzeit-Zählerstände",
+          "SMS-Leckwarnungen",
+          "Standard-Abrechnungsexporte",
+          "Self-Service-Portal"
+        ],
+        "cta": "Starter aktivieren"
+      },
+      {
+        "name": "Professional",
+        "unit": "pro Einheit / Monat",
+        "desc": "Unser Goldstandard-Paket für klassische Apartment-Gemeinschaften, die eine vollautomatisierte Bewohnerabrechnung wünschen.",
+        "features": [
+          "Alles im Starter-Paket",
+          "Automatisierter PDF-Rechnungsversand",
+          "Proportionale Kostenverteilung für Gemeinschaftsbereiche",
+          "Bevorzugter Kundensupport"
+        ],
+        "cta": "Pro-Paket nutzen (am beliebtesten)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "auf Anfrage",
+        "desc": "Für große institutionelle Gemeinschaften, die maßgeschneiderte API-Pipelines und Abrechnungskonfigurationen benötigen.",
+        "features": [
+          "Alles im Professional-Paket",
+          "Individuelle Abrechnungssoftware-Integrationen",
+          "Dedizierter Versorgungsberater",
+          "Hardware-SLA-Garantien"
+        ],
+        "cta": "Enterprise-Vertrieb kontaktieren"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Betriebliche Realitäten",
+    "heading": "Was Immobilienverwalter sagen",
+    "quotes": [
+      {
+        "text": "HydroLedger hat unsere betriebliche Gewinn- und Verlustrechnung grundlegend verändert. Wir haben drei große verborgene Lecks in den mechanischen Leitungen entdeckt, die uns allein im ersten Quartal über 11 Lakh eingespart haben."
+      },
+      {
+        "text": "Das Vertrauen der Bewohner ist sprunghaft gestiegen. Die Abrechnung der Nebenkosten nach dem tatsächlichen Wasserverbrauch anstelle von allgemeinen Berechnungen über Hauptzähler hat unsere schmerzhaftesten Mieterstreitigkeiten gelöst."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ-Support",
+    "heading": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Erfordern smarte Sub-Zähler mechanische Absperrungen?",
+        "a": "Nein. Unsere innovativen Steigleitungs-Zähler lassen sich nicht-invasiv direkt über bestehende Leitungen in den Kriechkellern montieren. Die Einrichtung erfolgt sauber in wenigen Minuten, ohne dass Versorgungsleitungen für mehrere Mieter abgestellt werden müssen."
+      },
+      {
+        "q": "Wie werden gemeinschaftliche Wasserkosten berechnet?",
+        "a": "Der zentrale Gemeinschaftsbereich (z.B. Poolanlagen, Gartenbau) wird zuerst sauber von den Hauptzählern abgezogen. Die Verwaltungsgruppen verteilen diese Kosten strukturell oder pro-rata transparent."
+      },
+      {
+        "q": "Wie schnell erkennt HydroLedger kontinuierliche Lecks?",
+        "a": "Unsere Hintergrund-Warn-Pipelines prüfen kontinuierliche Durchfluss-Signale. Wenn der Durchfluss über einen 10-Minuten-Zyklus nicht auf Null sinkt, werden sofort Warnmeldungen versandt, um Schadensrisiken zu minimieren."
+      },
+      {
+        "q": "Wie geht HydroLedger mit Sicherheit oder Privatsphäre der Bewohner um?",
+        "a": "Ja. HydroLedger schützt und speichert die Identifikatoren des Bewohnerportals hinter standardmäßig verschlüsselten Kanälen. Betriebsdaten werden streng vertraulich ausschließlich für das Verbrauchs-Tracking verwendet."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Werden Sie noch heute Teil von HydroLedger",
+    "heading": "Beginnen Sie noch heute mit der Überwachung Ihres Wasserverbrauchs",
+    "paragraph": "Steigern Sie Ihre Einsparungsziele, vereinfachen Sie den Rechnungsaufwand für Bewohner und schützen Sie wertvolle Gebäudeinfrastruktur. Lassen Sie uns Ihren individuellen ROI für die Gemeinschaft berechnen.",
+    "ctaPrimary": "Angebot anfordern",
+    "ctaSecondary": "Vertrieb kontaktieren"
+  },
+  "footer": {
+    "tagline": "Intelligente Versorgungsverteilungs-Pipelines und Echtzeit-Lösungen für das Sub-Metering in Wohngebäuden. Schützen Sie Systeme, gleichen Sie Rechnungen ab, sparen Sie Wasser.",
+    "columns": [
+      {
+        "title": "Plattform",
+        "links": [
+          "Sub-Metering",
+          "Abrechnungs-Suite",
+          "Leck-Schutz",
+          "Bewohner-App"
+        ]
+      },
+      {
+        "title": "Ressourcen",
+        "links": [
+          "Fallstudien",
+          "Blog",
+          "Installationsanleitung",
+          "Hilfe-Center"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Unternehmenszentrale",
+    "copyright": "© 2026 HydroLedger Systems Inc. Alle Rechte vorbehalten.",
+    "legalPrivacy": "Datenschutzrichtlinie",
+    "legalTerms": "Nutzungsbedingungen"
+  }
+}

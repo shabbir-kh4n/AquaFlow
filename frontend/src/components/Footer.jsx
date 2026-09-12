@@ -1,19 +1,12 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import Logo from './Logo'
 import './Footer.css'
 
-const columns = [
-  {
-    title: 'Platform',
-    links: ['Sub-Metering', 'Billing Suite', 'Leak Guard', 'Resident App'],
-  },
-  {
-    title: 'Resources',
-    links: ['Case Studies', 'Blog', 'Install Guide', 'Help Center'],
-  },
-]
-
 function Footer() {
+  const { t } = useTranslation('landing')
+  const columns = t('footer.columns', { returnObjects: true })
+
   return (
     <footer className="af-footer af-dark-gradient">
       <div className="af-footer__top">
@@ -22,10 +15,7 @@ function Footer() {
             <Logo size={28} />
             HydroLedger
           </Link>
-          <p>
-            Smart utility allocation pipelines and real-time residential sub-metering solutions. Protect systems,
-            align bills, save water.
-          </p>
+          <p>{t('footer.tagline')}</p>
           <div className="af-footer__socials">
             <a href="#" aria-label="Facebook">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -59,7 +49,7 @@ function Footer() {
         ))}
 
         <div className="af-footer__col">
-          <h4>Corporate Office</h4>
+          <h4>{t('footer.corporateOfficeTitle')}</h4>
           <p className="af-footer__address">
             HydroLedger Systems Inc.
             <br />
@@ -74,10 +64,10 @@ function Footer() {
       </div>
 
       <div className="af-footer__bottom">
-        <span>© 2026 HydroLedger Systems Inc. All rights reserved.</span>
+        <span>{t('footer.copyright')}</span>
         <div className="af-footer__legal">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+          <a href="#">{t('footer.legalPrivacy')}</a>
+          <a href="#">{t('footer.legalTerms')}</a>
         </div>
       </div>
     </footer>

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Tính năng",
+    "linkHowItWorks": "Cách thức hoạt động",
+    "linkContact": "Liên hệ",
+    "signIn": "Đăng nhập",
+    "getStarted": "Bắt đầu ngay"
+  },
+  "hero": {
+    "eyebrow": "Giám sát nước thông minh",
+    "titleLine1": "Theo dõi mức sử dụng.",
+    "titleHighlight": "Chia sẻ chi phí công bằng.",
+    "titleLine2": "Tiết kiệm nước.",
+    "paragraph": "HydroLedger cung cấp cho các khu căn hộ thông tin tiêu thụ theo thời gian thực, hóa đơn chia sẻ chi phí minh bạch và cảnh báo rò rỉ sớm — tất cả từ một bảng điều khiển duy nhất.",
+    "ctaPrimary": "Bắt đầu ngay",
+    "ctaSecondary": "Đăng nhập",
+    "panelLabel": "Mức sử dụng tháng này",
+    "panelSub": "Thấp hơn 8% so với trung bình hộ gia đình",
+    "chartLabelStart": "Thứ 2",
+    "chartLabelEnd": "Chủ nhật"
+  },
+  "trustBar": {
+    "label": "Được tin dùng bởi các tập đoàn quản lý đa gia đình tiên tiến"
+  },
+  "features": {
+    "pill": "Các khả năng cốt lõi",
+    "headingPrefix": "Mọi thứ cần thiết để",
+    "headingHighlight": "Giám sát & Thanh toán",
+    "headingSuffix": "Công bằng",
+    "paragraph": "Hãy tạm biệt việc chia sẻ phí tiện ích theo giá cố định. HydroLedger thúc đẩy sự công bằng về cấu trúc thông qua đo lường chính xác và tự động hóa thông minh.",
+    "items": [
+      {
+        "tag": "Theo dõi nước",
+        "title": "Đo lường phụ theo thời gian thực",
+        "text": "Đo lường chính xác lượng nước tiêu thụ từng phút trên từng căn hộ thay vì dựa vào các ước tính tổng lỗi thời."
+      },
+      {
+        "tag": "Tự động hóa thanh toán",
+        "title": "Thanh toán cộng đồng tự động",
+        "text": "Tạo hóa đơn trực tiếp cho cư dân được ánh xạ linh hoạt theo mức sử dụng tỷ lệ. Loại bỏ gánh nặng quản lý thanh toán ngay lập tức."
+      },
+      {
+        "tag": "Giảm thiểu rủi ro",
+        "title": "Cảnh báo phát hiện rò rỉ sớm",
+        "text": "Các cảnh báo tự động ngay lập tức gắn cờ các kiểu dòng chảy bất thường và bắt kịp các thiệt hại lớn về nước trong vài phút, không phải vài tháng."
+      },
+      {
+        "tag": "Phân bổ chi phí",
+        "title": "Phân bổ chi phí công bằng",
+        "text": "Theo dõi việc sử dụng chung của khu vực và phân bổ chi phí cấu trúc một cách minh bạch để xây dựng niềm tin và sự bảo tồn cho hộ gia đình."
+      }
+    ],
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "howItWorks": {
+    "pill": "Hiệu quả quy trình",
+    "heading": "Cài đặt liền mạch, vận hành không cần thao tác",
+    "paragraph": "Thiết lập nhanh chóng. Khi phần cứng được kết nối, nền tảng sẽ tự động xử lý các tính toán phức tạp, gửi hóa đơn và cảnh báo rò rỉ.",
+    "steps": [
+      {
+        "title": "Kết nối đồng hồ thông minh",
+        "text": "Các kỹ thuật viên được chứng nhận của chúng tôi gắn các đồng hồ đo lưu lượng thông minh không xâm lấn trực tiếp vào các van riser riêng lẻ trong vòng chưa đầy 15 phút."
+      },
+      {
+        "title": "Theo dõi thời gian thực",
+        "text": "Dữ liệu truyền liên tục đến nền tảng đám mây HydroLedger, ghi lại các số liệu sử dụng chính xác và giám sát hoạt động bất thường."
+      },
+      {
+        "title": "Tự động hóa hóa đơn",
+        "text": "Vào cuối tháng, hệ thống kết hợp phân bổ khu vực chung và khối lượng đo được từ đồng hồ phụ thành các hóa đơn chi tiết, rõ ràng."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Mô phỏng cổng thông tin cư dân trực tiếp",
+    "headingPrefix": "Trao quyền cho cư dân với",
+    "headingHighlight": "Sự minh bạch trong tiêu thụ",
+    "paragraph": "Sự minh bạch tạo nên sự đồng thuận trong cộng đồng. Cư dân tận hưởng các bảng điều khiển đơn giản với phản hồi thời gian thực, dự báo chi phí và cảnh báo rò rỉ chủ động.",
+    "brandLabel": "Cổng thông tin cư dân",
+    "unitLabel": "Căn 4B — Chu kỳ thanh toán hiện tại",
+    "stat1Label": "Mức sử dụng tháng này",
+    "stat1Trend": "-12% so với trung bình",
+    "stat2Label": "Số tiền hóa đơn dự kiến",
+    "stat2Trend": "Đúng tiến độ",
+    "stat3Label": "Trạng thái rò rỉ",
+    "stat3Value": "An toàn",
+    "stat3Trend": "Dòng chảy ổn định",
+    "chartTitle": "Mức sử dụng hàng tuần (Gallon)",
+    "bars": [
+      "Tuần 1",
+      "Tuần 2",
+      "Tuần 3",
+      "Tuần 4",
+      "Tuần 5 (Dự kiến)"
+    ],
+    "tipTitle": "Mẹo bảo tồn",
+    "tipText": "Vòi bếp của bạn cho thấy dòng chảy liên tục nhẹ vào buổi sáng. Kiểm tra bộ lọc đầu vòi có thể tiết kiệm tới 10 gallon mỗi tuần.",
+    "tipBadge": "Thông tin chi tiết tự động",
+    "autopayTitle": "Đã bật tự động thanh toán",
+    "autopayLabel": "Ngày thanh toán tự động tiếp theo",
+    "autopayButton": "Xem hóa đơn PDF chi tiết"
+  },
+  "audienceSplit": {
+    "residentPill": "Dành cho cư dân",
+    "residentHeading": "Chi phí tiện ích công bằng dựa trên mức tiêu thụ",
+    "residentParagraph": "Ngừng trả tiền cho mức tiêu thụ quá mức của hàng xóm. Chỉ trả tiền cho lượng nước bạn sử dụng, được hỗ trợ bởi dữ liệu bảng điều khiển thời gian thực.",
+    "residentBullets": [
+      "Dữ liệu đo lường phụ hàng tháng chính xác với các chỉ số chi phí minh bạch.",
+      "Thông báo qua SMS & di động nếu phát hiện rò rỉ nhỏ trong các thiết bị.",
+      "Hệ thống thanh toán hóa đơn kỹ thuật số đơn giản, hợp lý với biên lai tự động."
+    ],
+    "adminPill": "Dành cho quản trị viên tài sản",
+    "adminHeading": "ROI vận hành tức thì và kiểm soát lãng phí",
+    "adminParagraph": "Biến việc quản lý tiện ích từ một cơn đau đầu gây thất thoát thành một quy trình liền mạch, lợi nhuận cao với thanh toán cư dân tự động.",
+    "adminBullets": [
+      "Phân bổ tiện ích không cần thao tác được kết nối trực tiếp với các căn hộ riêng lẻ.",
+      "Cảnh báo vận hành tức thì để ngăn ngừa thiệt hại về kết cấu do nước gây ra với chi phí cao.",
+      "Báo cáo bảng điều khiển chi tiết về hóa đơn đồng hồ chính so với lượng nước đã phân bổ."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Nước trung bình tiết kiệm được",
+      "Hộ gia đình đang hoạt động",
+      "Thời gian hoạt động của hệ thống",
+      "Cộng đồng được quản lý"
+    ]
+  },
+  "pricing": {
+    "pill": "Các gói minh bạch",
+    "heading": "Chi phí vận hành với lợi tức đầu tư cao",
+    "paragraph": "Chọn một gói phù hợp với mật độ cộng đồng của bạn. HydroLedger thường bù đắp phí nền tảng của chính nó ngay trong tháng đầu tiên thông qua việc giảm lãng phí ở khu vực chung.",
+    "highlightBadge": "Giá trị tốt nhất",
+    "customPriceLabel": "Tùy chỉnh",
+    "tiers": [
+      {
+        "name": "Khởi đầu",
+        "unit": "trên mỗi căn hộ / tháng",
+        "desc": "Hoàn hảo cho các hiệp hội nhà phố nhỏ hơn cần các khả năng đo lường phụ cốt lõi.",
+        "features": [
+          "Đọc đồng hồ thời gian thực",
+          "Cảnh báo rò rỉ qua SMS",
+          "Xuất hóa đơn tiêu chuẩn",
+          "Cổng thông tin tự phục vụ"
+        ],
+        "cta": "Kích hoạt gói Khởi đầu"
+      },
+      {
+        "name": "Chuyên nghiệp",
+        "unit": "trên mỗi căn hộ / tháng",
+        "desc": "Gói tiêu chuẩn vàng của chúng tôi dành cho các khu căn hộ cổ điển muốn tự động hóa hoàn toàn việc thanh toán của cư dân.",
+        "features": [
+          "Mọi thứ trong gói Khởi đầu",
+          "Gửi hóa đơn PDF tự động",
+          "Phân bổ khu vực chung theo tỷ lệ",
+          "Hỗ trợ khách hàng ưu tiên"
+        ],
+        "cta": "Chọn gói Chuyên nghiệp (Phổ biến nhất)"
+      },
+      {
+        "name": "Doanh nghiệp",
+        "unit": "theo yêu cầu",
+        "desc": "Dành cho các cộng đồng tổ chức mở rộng yêu cầu các quy trình API và cấu hình thanh toán riêng biệt.",
+        "features": [
+          "Mọi thứ trong gói Chuyên nghiệp",
+          "Tích hợp phần mềm thanh toán tùy chỉnh",
+          "Chuyên gia tư vấn tiện ích riêng",
+          "Cam kết bảo hành phần cứng SLA"
+        ],
+        "cta": "Liên hệ kinh doanh doanh nghiệp"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Thực tế vận hành",
+    "heading": "Các nhà quản lý bất động sản nói gì",
+    "quotes": [
+      {
+        "text": "HydroLedger đã thay đổi căn bản P&L vận hành của chúng tôi. Chúng tôi đã phát hiện ba vụ rò rỉ dịch vụ lớn ẩn trong các đường ống cơ khí, giúp chúng tôi tiết kiệm hơn 1,1 triệu Rupee chỉ trong quý đầu tiên."
+      },
+      {
+        "text": "Niềm tin của cư dân đã tăng vọt. Việc lập hóa đơn cho khách thuê dựa trên mức sử dụng nước thực tế thay vì tính toán đồng hồ chính theo số phòng ngủ chung đã giải quyết được những tranh chấp tồi tệ nhất với khách thuê của chúng tôi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Hỗ trợ FAQ",
+    "heading": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Các đồng hồ phụ thông minh có yêu cầu ngắt dịch vụ cơ khí không?",
+        "a": "Không. Các thiết bị đồng hồ đo riser sáng tạo của chúng tôi lắp đặt không xâm lấn trực tiếp qua các đường ống hiện có trong các không gian kỹ thuật riêng lẻ. Việc thiết lập hoàn tất sạch sẽ trong vài phút mà không cần cắt tiện ích của nhiều khách thuê."
+      },
+      {
+        "q": "Chi phí nước chung/cộng đồng được tính như thế nào?",
+        "a": "Hồ chứa chung (ví dụ: cơ sở hồ bơi, cảnh quan) được trừ sạch khỏi đồng hồ chính trước tiên. Các nhóm bất động sản phân bổ những phần đó theo cấu trúc hoặc theo tỷ lệ một cách minh bạch."
+      },
+      {
+        "q": "HydroLedger phát hiện dòng chảy rò rỉ liên tục nhanh như thế nào?",
+        "a": "Các quy trình cảnh báo nền của chúng tôi kiểm tra các tín hiệu sử dụng liên tục. Nếu dòng chảy không chạm mức 0 trong chu kỳ luân phiên 10 phút, các cảnh báo sẽ được gửi đi ngay lập tức để giảm thiểu rủi ro thiệt hại."
+      },
+      {
+        "q": "HydroLedger xử lý bảo mật hoặc quyền riêng tư của cư dân như thế nào?",
+        "a": "Có. HydroLedger bảo vệ và lưu trữ các mã định danh cổng thông tin cư dân đằng sau các kênh mã hóa tiêu chuẩn. Dữ liệu vận hành được giữ an toàn nghiêm ngặt chỉ để theo dõi mức tiêu thụ."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Tham gia HydroLedger ngay hôm nay",
+    "heading": "Bắt đầu giám sát mức sử dụng nước của bạn ngay hôm nay",
+    "paragraph": "Tăng cường các chỉ số bảo tồn, đơn giản hóa gánh nặng hóa đơn của cư dân và bảo vệ cơ sở hạ tầng đa hộ gia đình có giá trị. Hãy để chúng tôi tính toán ước tính ROI cộng đồng tùy chỉnh cho bạn.",
+    "ctaPrimary": "Yêu cầu báo giá",
+    "ctaSecondary": "Liên hệ kinh doanh"
+  },
+  "footer": {
+    "tagline": "Các quy trình phân bổ tiện ích thông minh và giải pháp đo lường phụ cư dân thời gian thực. Bảo vệ hệ thống, điều chỉnh hóa đơn, tiết kiệm nước.",
+    "columns": [
+      {
+        "title": "Nền tảng",
+        "links": [
+          "Đo lường phụ",
+          "Bộ thanh toán",
+          "Bảo vệ rò rỉ",
+          "Ứng dụng cư dân"
+        ]
+      },
+      {
+        "title": "Tài nguyên",
+        "links": [
+          "Nghiên cứu điển hình",
+          "Blog",
+          "Hướng dẫn cài đặt",
+          "Trung tâm trợ giúp"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Văn phòng công ty",
+    "copyright": "© 2026 HydroLedger Systems Inc. Mọi quyền được bảo lưu.",
+    "legalPrivacy": "Chính sách bảo mật",
+    "legalTerms": "Điều khoản dịch vụ"
+  }
+}

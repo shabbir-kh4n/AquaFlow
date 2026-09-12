@@ -98,9 +98,14 @@ button {
   color: var(--af-accent-2);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 18px;
+}
+
+/* Manual letter-spacing mangles scripts with contextually-shaped/connected
+   glyphs (Devanagari, Tamil, Arabic, etc.) - scoped to English via :lang(en). */
+:lang(en) .af-pill {
+  letter-spacing: 0.06em;
 }
 
 .af-pill--light {
@@ -111,9 +116,15 @@ button {
 .af-section__head h2 {
   margin: 0 0 16px;
   font-size: 36px;
-  line-height: 1.2;
+  /* 1.35 rather than a tighter ratio - avoids clipping tall conjuncts/vowel signs
+     in non-Latin scripts (Devanagari, Tamil, Bengali, etc.) used by the landing
+     page's language switcher. */
+  line-height: 1.35;
   font-weight: 700;
   color: var(--af-text-dark);
+}
+
+:lang(en) .af-section__head h2 {
   letter-spacing: -0.01em;
 }
 
@@ -124,7 +135,16 @@ button {
   color: var(--af-text-body);
 }
 
+/* Solid-color fallback first: background-clip:text clips the gradient fill to
+   each glyph's own outline, which browsers mishandle for scripts whose glyphs
+   extend beyond the normal em-box (Devanagari matras, Tamil/Bengali vowel
+   signs, etc.) - parts of the glyph render with no fill, looking "clipped".
+   The gradient trick is opt-in for English only, via :lang(en) below. */
 .af-gradient-text {
+  color: var(--af-accent-2);
+}
+
+:lang(en) .af-gradient-text {
   background: var(--af-accent-gradient);
   -webkit-background-clip: text;
   background-clip: text;

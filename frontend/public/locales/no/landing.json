@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funksjoner",
+    "linkHowItWorks": "Slik fungerer det",
+    "linkContact": "Kontakt",
+    "signIn": "Logg inn",
+    "getStarted": "Kom i gang"
+  },
+  "hero": {
+    "eyebrow": "Smart vannovervåking",
+    "titleLine1": "Spor forbruket.",
+    "titleHighlight": "Fordel rettferdig.",
+    "titleLine2": "Spar vann.",
+    "paragraph": "HydroLedger gir boligselskaper sanntidsinnsikt i forbruk, transparent kostnadsfordeling og tidlige lekkasjevarsler – alt fra ett dashbord.",
+    "ctaPrimary": "Kom i gang",
+    "ctaSecondary": "Logg inn",
+    "panelLabel": "Månedens forbruk",
+    "panelSub": "8 % under husholdningens gjennomsnitt",
+    "chartLabelStart": "Man",
+    "chartLabelEnd": "Søn"
+  },
+  "trustBar": {
+    "label": "Betrodd av progressive forvaltningsselskaper for flermannsboliger"
+  },
+  "features": {
+    "pill": "Kjernefunksjoner",
+    "headingPrefix": "Alt som trengs for å",
+    "headingHighlight": "Overvåke og fakturere",
+    "headingSuffix": "rettferdig",
+    "paragraph": "Si farvel til flat sats for vannfordeling. HydroLedger skaper strukturell rettferdighet gjennom presis måling og intelligent automatisering.",
+    "items": [
+      {
+        "tag": "Vannsporing",
+        "title": "Sanntids undermåling",
+        "text": "Mål nøyaktig, minutt-for-minutt vannforbruk i individuelle enheter i stedet for å stole på utdaterte hovedestimater."
+      },
+      {
+        "tag": "Faktureringsautomatisering",
+        "title": "Automatisert fellesskapsfakturering",
+        "text": "Generering av fakturaer direkte til beboer, dynamisk tilpasset proporsjonalt bruk. Eliminer faktureringsarbeidet umiddelbart."
+      },
+      {
+        "tag": "Risikoreduksjon",
+        "title": "Varsling om tidlig lekkasjedeteksjon",
+        "text": "Umiddelbare automatiserte varsler markerer unormale strømningsmønstre og fanger opp store vannskader i løpet av minutter, ikke måneder."
+      },
+      {
+        "tag": "Kostnadsfordeling",
+        "title": "Rettferdig kostnadsfordeling",
+        "text": "Spor delt bruk av fellesområder og fordel strukturelle kostnader transparent for å bygge tillit og oppfordre til sparing i husholdningene."
+      }
+    ],
+    "learnMore": "Lær mer"
+  },
+  "howItWorks": {
+    "pill": "Arbeidsflyteffektivitet",
+    "heading": "Sømløs installasjon, håndfri drift",
+    "paragraph": "Kom raskt i gang. Når maskinvaren er tilkoblet, håndterer plattformen komplekse beregninger, fakturautsendelser og lekkasjevarsler automatisk.",
+    "steps": [
+      {
+        "title": "Koble til smarte målere",
+        "text": "Våre sertifiserte teknikere fester ikke-invasive smarte strømningsmålere direkte til individuelle ventiler på under 15 minutter."
+      },
+      {
+        "title": "Sanntidssporing",
+        "text": "Data strømmes kontinuerlig til HydroLedger-skyplattformen, som logger nøyaktige forbrukstall og overvåker unormal aktivitet."
+      },
+      {
+        "title": "Automatiser fakturaer",
+        "text": "Ved månedsslutt kombinerer motoren fordeling av fellesarealer og målt forbruk til klare, spesifiserte fakturaer."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live beboerportal-demo",
+    "headingPrefix": "Gi beboere",
+    "headingHighlight": "Klarhet i forbruket",
+    "paragraph": "Transparens bygger felles forståelse. Beboere får enkle dashbord med sanntids tilbakemelding, prediktive kostnadsprognoser og proaktive lekkasjevarsler.",
+    "brandLabel": "Beboerportal",
+    "unitLabel": "Enhet 4B — Gjeldende fakturaperiode",
+    "stat1Label": "Månedens forbruk",
+    "stat1Trend": "-12 % vs snitt",
+    "stat2Label": "Estimert fakturabeløp",
+    "stat2Trend": "I rute",
+    "stat3Label": "Lekkasjestatus",
+    "stat3Value": "Alt OK",
+    "stat3Trend": "Normal flyt",
+    "chartTitle": "Ukentlig forbruk (liter)",
+    "bars": [
+      "Uke 1",
+      "Uke 2",
+      "Uke 3",
+      "Uke 4",
+      "Uke 5 (Proj)"
+    ],
+    "tipTitle": "Tips for sparing",
+    "tipText": "Kjøkkenkranen viser litt kontinuerlig flyt om morgenen. Sjekk av luftblandere kan spare opptil 40 liter i uken.",
+    "tipBadge": "Automatisert innsikt",
+    "autopayTitle": "Autogiro aktivert",
+    "autopayLabel": "Neste dato for automatisk trekk",
+    "autopayButton": "Vis detaljert PDF-faktura"
+  },
+  "audienceSplit": {
+    "residentPill": "For beboere",
+    "residentHeading": "Rettferdige, forbruksbaserte kostnader",
+    "residentParagraph": "Slutt å betale for naboens overforbruk. Betal kun for literne du bruker, støttet av sanntidsdata i dashbordet.",
+    "residentBullets": [
+      "Nøyaktige månedlige undermålingsdata med transparente kostnadstall.",
+      "SMS- og mobilvarsler hvis mikrolekkasjer oppdages i apparater.",
+      "Enkelt og strømlinjeformet digitalt betalingssystem med automatiske kvitteringer."
+    ],
+    "adminPill": "For eiendomsadministratorer",
+    "adminHeading": "Umiddelbar operasjonell ROI og avfallskontroll",
+    "adminParagraph": "Transformer forvaltningen fra et tapsbringende problem til en sømløs, lønnsom prosess med automatisert beboerfakturering.",
+    "adminBullets": [
+      "Håndfri fordeling av kostnader direkte tilknyttet individuelle enheter.",
+      "Umiddelbare operasjonelle varsler for å forhindre kostbare vannskader på bygningsmassen.",
+      "Detaljert rapportering på dashbordet som sammenligner hovedmåler mot fordelt forbruk."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Gjennomsnittlig spart vann",
+      "Aktive husholdninger",
+      "Systemoppetid",
+      "Forvaltede fellesskap"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparent prismodell",
+    "heading": "Driftskostnader med høy avkastning",
+    "paragraph": "Velg en plan som er skalert til ditt bomiljø. HydroLedger kompenserer vanligvis for sin egen plattformavgift allerede første måned gjennom redusert svinn i fellesarealer.",
+    "highlightBadge": "Beste verdi",
+    "customPriceLabel": "Tilpasset",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "per enhet / måned",
+        "desc": "Perfekt for mindre boligselskaper som trenger kjernefunksjoner for undermåling.",
+        "features": [
+          "Sanntidsmålinger",
+          "SMS-lekkasjevarsler",
+          "Standard fakturaeksport",
+          "Selvbetjeningsportal"
+        ],
+        "cta": "Aktiver Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "per enhet / måned",
+        "desc": "Vår gullstandard-pakke for klassiske leilighetskomplekser som ønsker fullautomatisert beboerfakturering.",
+        "features": [
+          "Alt i Starter",
+          "Automatisert PDF-fakturautsendelse",
+          "Proporsjonal fordeling av fellesarealer",
+          "Prioritert kundestøtte"
+        ],
+        "cta": "Velg Pro (Mest populær)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "på forespørsel",
+        "desc": "For store institusjonelle eiendommer som krever skreddersydde API-løsninger og fakturakonfigurasjoner.",
+        "features": [
+          "Alt i Professional",
+          "Skreddersydde integrasjoner for faktureringssystemer",
+          "Dedikert rådgiver for forsyningstjenester",
+          "SLA-garantier for maskinvare"
+        ],
+        "cta": "Kontakt salgsavdelingen"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operasjonell virkelighet",
+    "heading": "Hva eiendomsforvaltere sier",
+    "quotes": [
+      {
+        "text": "HydroLedger endret fundamentalt vår operasjonelle bunnlinje. Vi oppdaget tre store skjulte lekkasjer i mekaniske anlegg som sparte oss for over 1,1 millioner kroner i løpet av første kvartal alene."
+      },
+      {
+        "text": "Beboernes tillit har skutt i været. Å fakturere beboerne basert strengt på vannforbruk i stedet for generiske beregninger basert på antall rom, løste våre mest smertefulle tvister med leietakere."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ-støtte",
+    "heading": "Ofte stilte spørsmål",
+    "items": [
+      {
+        "q": "Krever smarte undermålere mekanisk avstengning?",
+        "a": "Nei. Våre innovative målere monteres ikke-invasivt direkte over eksisterende rør i individuelle krypkjellere eller skap. Installasjonen gjøres på minutter uten behov for å stenge av vannet for alle beboere."
+      },
+      {
+        "q": "Hvordan beregnes felles vannkostnader?",
+        "a": "Fellesforbruk (f.eks. svømmebasseng, vanning) trekkes først ut fra hovedmåleren. Boligselskaper fordeler disse kostnadene strukturelt eller proporsjonalt på en transparent måte."
+      },
+      {
+        "q": "Hvor raskt oppdager HydroLedger kontinuerlige lekkasjer?",
+        "a": "Våre bakgrunnssystemer overvåker kontinuerlig strømning. Hvis forbruket ikke treffer null over en rullerende 10-minutters syklus, sendes advarsler umiddelbart for å minimere skadeomfanget."
+      },
+      {
+        "q": "Håndterer HydroLedger sikkerhet og beboernes personvern?",
+        "a": "Ja. HydroLedger beskytter og lagrer identifisering for beboerportalen bak standard krypterte kanaler. Operasjonelle data oppbevares sikkert, utelukkende for sporing av forbruk."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Bli med i HydroLedger i dag",
+    "heading": "Start overvåking av vannforbruket ditt i dag",
+    "paragraph": "Forbedre miljøregnskapet, forenkle faktureringsarbeidet og beskytt verdifull infrastruktur. La oss beregne din tilpassede ROI for boligselskapet.",
+    "ctaPrimary": "Be om pristilbud",
+    "ctaSecondary": "Kontakt salg"
+  },
+  "footer": {
+    "tagline": "Smarte løsninger for fordeling av forbruk og sanntids undermåling. Beskytt systemer, forenkle fakturaer, spar vann.",
+    "columns": [
+      {
+        "title": "Plattform",
+        "links": [
+          "Undermåling",
+          "Faktureringssuite",
+          "Lekkasjebeskyttelse",
+          "Beboer-app"
+        ]
+      },
+      {
+        "title": "Ressurser",
+        "links": [
+          "Case-studier",
+          "Blogg",
+          "Installasjonsguide",
+          "Hjelpesenter"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Hovedkontor",
+    "copyright": "© 2026 HydroLedger Systems Inc. Alle rettigheter reservert.",
+    "legalPrivacy": "Personvernerklæring",
+    "legalTerms": "Vilkår for bruk"
+  }
+}

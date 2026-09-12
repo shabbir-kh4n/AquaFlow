@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Mga Tampok",
+    "linkHowItWorks": "Paano Ito Gumagana",
+    "linkContact": "Makipag-ugnayan",
+    "signIn": "Mag-sign In",
+    "getStarted": "Magsimula"
+  },
+  "hero": {
+    "eyebrow": "Matalinong Pagsubaybay sa Tubig",
+    "titleLine1": "Subaybayan ang paggamit.",
+    "titleHighlight": "Makatarungang paghahati.",
+    "titleLine2": "Magtipid ng tubig.",
+    "paragraph": "Binibigyan ng HydroLedger ang mga apartment community ng real-time na impormasyon sa pagkonsumo, transparent na pagsingil para sa shared-costs, at maagang babala sa pagtagas — lahat mula sa iisang dashboard.",
+    "ctaPrimary": "Magsimula",
+    "ctaSecondary": "Mag-sign In",
+    "panelLabel": "Paggamit ngayong buwan",
+    "panelSub": "8% mas mababa kaysa sa average ng sambahayan",
+    "chartLabelStart": "Lun",
+    "chartLabelEnd": "Ling"
+  },
+  "trustBar": {
+    "label": "Pinagkakatiwalaan ng mga progresibong grupo ng pamamahala ng multi-family housing"
+  },
+  "features": {
+    "pill": "Pangunahing Kakayahan",
+    "headingPrefix": "Lahat ng Kailangan para",
+    "headingHighlight": "Mag-monitor at Maningil",
+    "headingSuffix": " nang Makatarungan",
+    "paragraph": "Magpaalam na sa flat-rate na paghahati ng utility. Itinataguyod ng HydroLedger ang katarungan sa istruktura sa pamamagitan ng tumpak na pagsukat at matalinong automation.",
+    "items": [
+      {
+        "tag": "Pagsubaybay sa Tubig",
+        "title": "Real-Time Sub-Metering",
+        "text": "Sukatin ang eksakto, kada-minutong pagkonsumo ng tubig sa bawat unit sa halip na umasa sa mga lumang pagtatantya mula sa master meter."
+      },
+      {
+        "tag": "Automation ng Pagsingil",
+        "title": "Awtomatikong Pagsingil sa Komunidad",
+        "text": "Direktang paggawa ng invoice para sa mga residente na naka-mapa nang dinamiko sa proporsyonal na paggamit. Alisin agad ang abala sa pagsingil."
+      },
+      {
+        "tag": "Pagbawas ng Risko",
+        "title": "Mga Babala sa Maagang Pagtagas",
+        "text": "Ang mga awtomatikong alerto ay agad na nagtutukoy ng hindi normal na daloy ng tubig at nakakahanap ng malaking sira sa loob ng ilang minuto, hindi buwan."
+      },
+      {
+        "tag": "Paglalaan ng Gastos",
+        "title": "Makatarungang Distribusyon ng Gastos",
+        "text": "Subaybayan ang paggamit sa mga shared common-area at ipamahagi ang mga gastos sa istruktura nang transparent upang bumuo ng tiwala at konserbasyon."
+      }
+    ],
+    "learnMore": "Matuto nang higit pa"
+  },
+  "howItWorks": {
+    "pill": "Kahusayan sa Daloy ng Trabaho",
+    "heading": "Walang-abalang Pag-install, Hands-Free na Operasyon",
+    "paragraph": "Mabilis ang pag-setup. Kapag nakakonekta na ang mga hardware unit, ang platform na mismo ang humahawak sa mga kumplikadong kalkulasyon, pagpapadala ng invoice, at mga alerto sa pagtagas.",
+    "steps": [
+      {
+        "title": "Ikonekta ang mga Smart Meter",
+        "text": "Ang aming mga sertipikadong teknisyan ay nagkakabit ng mga non-invasive smart flow sub-meter nang direkta sa mga riser valve sa loob ng wala pang 15 minuto."
+      },
+      {
+        "title": "Real-Time na Pagsubaybay",
+        "text": "Ang data ay tuluy-tuloy na dumadaloy patungo sa HydroLedger cloud platform, na nagtatala ng eksaktong dami ng paggamit at nagbabantay sa hindi normal na aktibidad."
+      },
+      {
+        "title": "I-automate ang mga Bill",
+        "text": "Pagdating ng katapusan ng buwan, pinagsasama ng system ang mga distribusyon sa common-area at ang sukat ng sub-meter upang makabuo ng malinaw at detalyadong invoice."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live na Mockup ng Resident Portal",
+    "headingPrefix": "Bigyang-kapangyarihan ang mga Residente sa pamamagitan ng",
+    "headingHighlight": "Kalinawan sa Pagkonsumo",
+    "paragraph": "Ang transparency ay bumubuo ng pagkakaisa sa komunidad. Mae-enjoy ng mga residente ang mga simpleng dashboard na may real-time feedback, predictive na pagtantya ng gastos, at proactive na babala sa pagtagas.",
+    "brandLabel": "Resident Portal",
+    "unitLabel": "Unit 4B — Kasalukuyang Billing Cycle",
+    "stat1Label": "Paggamit Ngayong Buwan",
+    "stat1Trend": "-12% vs Avg",
+    "stat2Label": "Tantyang Halaga ng Bill",
+    "stat2Trend": "On Track",
+    "stat3Label": "Status ng Pagtagas",
+    "stat3Value": "Ligtas",
+    "stat3Trend": "Normal na Daloy",
+    "chartTitle": "Lingguhang Paggamit (Gallons)",
+    "bars": [
+      "Wk 1",
+      "Wk 2",
+      "Wk 3",
+      "Wk 4",
+      "Wk 5 (Proj)"
+    ],
+    "tipTitle": "Tip sa Konserbasyon",
+    "tipText": "Ang gripo sa iyong kusina ay nagpapakita ng bahagyang tuluy-tuloy na daloy sa umaga. Ang pag-check sa mga aerator ay maaaring makatipid ng hanggang 10 gallons/linggo.",
+    "tipBadge": "Awtomatikong Insight",
+    "autopayTitle": "Naka-enable ang Autopay",
+    "autopayLabel": "Susunod na petsa ng Auto-Bill",
+    "autopayButton": "Tingnan ang Detalyadong PDF Invoice"
+  },
+  "audienceSplit": {
+    "residentPill": "Para sa mga Residente",
+    "residentHeading": "Makatarungan, Batay sa Paggamit na Gastos sa Utility",
+    "residentParagraph": "Itigil ang pagbabayad para sa labis na pagkonsumo ng iyong kapitbahay. Magbayad nang eksakto para sa dami ng tubig na iyong ginagamit, na suportado ng data mula sa real-time dashboard.",
+    "residentBullets": [
+      "Tumpak na data ng buwanang sub-metering na may transparent na sukatan ng gastos.",
+      "Mga SMS at mobile notification kung may makitang micro-leaks sa mga kagamitan.",
+      "Simple at streamlined na digital na sistema ng pagbabayad ng invoice na may awtomatikong resibo."
+    ],
+    "adminPill": "Para sa mga Property Admin",
+    "adminHeading": "Agarang Operational ROI at Pagkontrol sa Basura",
+    "adminParagraph": "Gawing seamless at mataas na margin na pipeline ang pamamahala ng utility mula sa pagiging sakit sa ulo ng mataas na pagkalugi sa pamamagitan ng awtomatikong pagsingil sa residente.",
+    "adminBullets": [
+      "Hands-free na paglalaan ng utility na direktang nakakonekta sa bawat unit.",
+      "Agarang operational alert upang maiwasan ang mamahaling pinsala sa istruktura dahil sa tubig.",
+      "Detalyadong dashboard reporting sa master meter billing kumpara sa naipamahaging dami ng tubig."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Average na Tubig na Natipid",
+      "Aktibong Sambahayan",
+      "System Uptime",
+      "Pinamamahalaang Komunidad"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparent na mga Package",
+    "heading": "Operational Costs na may Mataas na Return-on-Investment",
+    "paragraph": "Pumili ng planong angkop sa density ng iyong komunidad. Karaniwang nababawi ng HydroLedger ang sarili nitong platform fees sa unang buwan pa lamang sa pamamagitan ng nabawasang basura sa common-area.",
+    "highlightBadge": "Pinakamahusay na Halaga",
+    "customPriceLabel": "Custom",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "bawat unit / buwan",
+        "desc": "Perpekto para sa mas maliliit na townhome association na nangangailangan ng pangunahing kakayahan sa sub-metering.",
+        "features": [
+          "Real-Time Meter Readings",
+          "SMS Leak Alerts",
+          "Standard Billing Exports",
+          "Self-Serve Portal"
+        ],
+        "cta": "I-activate ang Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "bawat unit / buwan",
+        "desc": "Ang aming gold standard package para sa mga klasikong apartment community na nagnanais ng fully automated na pagsingil sa residente.",
+        "features": [
+          "Lahat ng nasa Starter",
+          "Automated PDF Invoice Dispatches",
+          "Proportional Common-Area Allocations",
+          "Priority Customer Support"
+        ],
+        "cta": "Go Pro (Pinakapopular)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "sa hiling",
+        "desc": "Para sa malalaking institusyonal na komunidad na nangangailangan ng pasadyang API pipeline at mga configuration sa pagsingil.",
+        "features": [
+          "Lahat ng nasa Professional",
+          "Bespoke Billing Software Integrations",
+          "Dedicated Utility Consultant",
+          "Hardware SLA Warranties"
+        ],
+        "cta": "Makipag-ugnayan sa Enterprise Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operational Realities",
+    "heading": "Ano ang Sinasabi ng mga Property Manager",
+    "quotes": [
+      {
+        "text": "Binago ng HydroLedger ang aming operational P&L. Nakatuklas kami ng tatlong malalaking nakatagong leak sa mga mechanical line na nakatipid sa amin ng mahigit ₹11 lakh sa unang quarter pa lamang."
+      },
+      {
+        "text": "Tumataas ang tiwala ng mga residente. Ang pagsingil sa aming mga nangungupahan batay lamang sa paggamit ng tubig sa halip na generic na master meter calculations ang lumutas sa aming pinakamasakit na mga hindi pagkakaunawaan sa nangungupahan."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Suporta sa FAQ",
+    "heading": "Mga Madalas Itanong",
+    "items": [
+      {
+        "q": "Ang mga smart sub-meter ba ay nangangailangan ng mechanical service shut-off?",
+        "a": "Hindi. Ang aming mga makabagong riser meter unit ay non-invasive at direktang ikinakabit sa mga umiiral na linya sa mga individual crawlspace. Ang setup ay natatapos nang malinis sa loob ng ilang minuto nang hindi kinakailangang putulin ang utility ng maraming tenant."
+      },
+      {
+        "q": "Paano kinakalkula ang communal/shared na gastos sa tubig?",
+        "a": "Ang sentral na common-area pool (hal. mga pool facility, landscaping) ay unang ibinabawas nang malinis mula sa main master meters. Ipinapamahagi ito ng mga property group sa paraang istruktural o pro-rate nang transparent."
+      },
+      {
+        "q": "Gaano kabilis matutukoy ng HydroLedger ang tuluy-tuloy na pagtagas?",
+        "a": "Sinusuri ng aming background alert pipeline ang mga signal ng tuluy-tuloy na daloy. Kung hindi umabot sa zero ang daloy sa loob ng 10-minutong cycle, agad na magpapadala ng babala upang mabawasan ang risko ng pinsala."
+      },
+      {
+        "q": "Pinamamahalaan ba ng HydroLedger ang seguridad o privacy ng residente?",
+        "a": "Oo. Pinoprotektahan at itinatago ng HydroLedger ang mga identifier ng resident portal sa likod ng mga standard na encrypted channel. Ang operational data ay pinananatiling ligtas para lamang sa pagsubaybay ng pagkonsumo."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Sumali sa HydroLedger Ngayon",
+    "heading": "Simulan ang Pagsubaybay sa Paggamit ng Iyong Tubig Ngayon",
+    "paragraph": "I-boost ang mga sukatan ng konserbasyon, gawing simple ang overhead sa pagsingil sa residente, at protektahan ang mahahalagang imprastraktura ng sambahayan. Hayaan kaming kalkulahin ang iyong custom na ROI estimate para sa komunidad.",
+    "ctaPrimary": "Humiling ng Quote",
+    "ctaSecondary": "Makipag-ugnayan sa Sales"
+  },
+  "footer": {
+    "tagline": "Matalinong mga pipeline sa paglalaan ng utility at real-time na mga solusyon sa sub-metering para sa mga residente. Protektahan ang mga system, i-align ang mga bill, magtipid ng tubig.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Sub-Metering",
+          "Billing Suite",
+          "Leak Guard",
+          "Resident App"
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          "Case Studies",
+          "Blog",
+          "Install Guide",
+          "Help Center"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Corporate Office",
+    "copyright": "© 2026 HydroLedger Systems Inc. Lahat ng karapatan ay nakalaan.",
+    "legalPrivacy": "Patakaran sa Privacy",
+    "legalTerms": "Mga Tuntunin ng Serbisyo"
+  }
+}

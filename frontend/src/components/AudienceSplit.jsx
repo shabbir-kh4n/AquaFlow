@@ -1,34 +1,33 @@
+import { useTranslation } from 'react-i18next'
 import './AudienceSplit.css'
 
 function AudienceSplit() {
+  const { t } = useTranslation('landing')
+  const residentBullets = t('audienceSplit.residentBullets', { returnObjects: true })
+  const adminBullets = t('audienceSplit.adminBullets', { returnObjects: true })
+
   return (
     <section className="af-section af-audience">
       <div className="af-section__inner af-audience__grid">
         <div className="af-audience__card">
-          <span className="af-pill">For Residents</span>
-          <h3>Fair, Consumption-Based Utility Costs</h3>
-          <p>
-            Stop paying for your neighbor's excessive consumption. Pay strictly for the gallons you draw, backed
-            by real-time dashboard data.
-          </p>
+          <span className="af-pill">{t('audienceSplit.residentPill')}</span>
+          <h3>{t('audienceSplit.residentHeading')}</h3>
+          <p>{t('audienceSplit.residentParagraph')}</p>
           <ul>
-            <li>Accurate monthly sub-metering data with transparent cost metrics.</li>
-            <li>SMS &amp; mobile notifications if micro-leaks are detected in appliances.</li>
-            <li>Simple, streamlined digital invoice payment system with automated receipts.</li>
+            {residentBullets.map((bullet) => (
+              <li key={bullet}>{bullet}</li>
+            ))}
           </ul>
         </div>
 
         <div className="af-audience__card af-audience__card--dark">
-          <span className="af-pill af-pill--light">For Property Admins</span>
-          <h3>Instant Operational ROI and Waste Control</h3>
-          <p>
-            Transform utility management from a high-loss headache into a seamless, high-margin pipeline with
-            automated resident billing.
-          </p>
+          <span className="af-pill af-pill--light">{t('audienceSplit.adminPill')}</span>
+          <h3>{t('audienceSplit.adminHeading')}</h3>
+          <p>{t('audienceSplit.adminParagraph')}</p>
           <ul>
-            <li>Hands-free utility allocation directly connected to individual units.</li>
-            <li>Immediate operational alerts to prevent high-cost structural water damage.</li>
-            <li>Detailed dashboard reporting on master meter billing vs. distributed gallons.</li>
+            {adminBullets.map((bullet) => (
+              <li key={bullet}>{bullet}</li>
+            ))}
           </ul>
         </div>
       </div>

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkcijos",
+    "linkHowItWorks": "Kaip tai veikia",
+    "linkContact": "Kontaktai",
+    "signIn": "Prisijungti",
+    "getStarted": "Pradėti"
+  },
+  "hero": {
+    "eyebrow": "Išmanusis vandens stebėjimas",
+    "titleLine1": "Sekite suvartojimą.",
+    "titleHighlight": "Sąžiningas paskirstymas.",
+    "titleLine2": "Taupykite vandenį.",
+    "paragraph": "„HydroLedger“ suteikia daugiabučių bendrijoms realaus laiko suvartojimo įžvalgas, skaidrų bendrų išlaidų sąskaitų faktūrų išrašymą ir ankstyvus įspėjimus apie nuotėkius – viskas iš vienos valdymo srities.",
+    "ctaPrimary": "Pradėti",
+    "ctaSecondary": "Prisijungti",
+    "panelLabel": "Šio mėnesio suvartojimas",
+    "panelSub": "8% mažiau nei namų ūkio vidurkis",
+    "chartLabelStart": "Pirm",
+    "chartLabelEnd": "Sekm"
+  },
+  "trustBar": {
+    "label": "Pasitiki pažangios daugiabučių valdymo grupės"
+  },
+  "features": {
+    "pill": "Pagrindinės galimybės",
+    "headingPrefix": "Viskas, ko reikia",
+    "headingHighlight": "stebėti ir atsiskaityti",
+    "headingSuffix": "sąžiningai",
+    "paragraph": "Atsisveikinkite su vienodo dydžio komunalinių mokesčių padalijimu. „HydroLedger“ skatina struktūrinį teisingumą per tikslų matavimą ir intelektualią automatizaciją.",
+    "items": [
+      {
+        "tag": "Vandens sekimas",
+        "title": "Realaus laiko sub-skaitikliai",
+        "text": "Matuokite tikslų vandens suvartojimą minutės tikslumu atskiruose vienetuose, užuot pasikliavę pasenusiais pagrindiniais skaičiavimais."
+      },
+      {
+        "tag": "Sąskaitų automatizavimas",
+        "title": "Automatizuotas bendrijos atsiskaitymas",
+        "text": "Sąskaitų faktūrų generavimas tiesiogiai gyventojams, dinamiškai susietas su proporcingu naudojimu. Nedelsdami pašalinkite sąskaitų tvarkymo naštą."
+      },
+      {
+        "tag": "Rizikos mažinimas",
+        "title": "Ankstyvo nuotėkio aptikimo įspėjimai",
+        "text": "Momentiniai automatiniai įspėjimai pažymi neįprastus srauto modelius ir nustato didelius vandens pažeidimus per kelias minutes, o ne mėnesius."
+      },
+      {
+        "tag": "Išlaidų paskirstymas",
+        "title": "Sąžiningas išlaidų paskirstymas",
+        "text": "Stebėkite bendrų zonų naudojimą ir skaidriai paskirstykite struktūrines išlaidas, kad sukurtumėte gyventojų pasitikėjimą ir skatintumėte taupymą."
+      }
+    ],
+    "learnMore": "Sužinoti daugiau"
+  },
+  "howItWorks": {
+    "pill": "Darbo efektyvumas",
+    "heading": "Sklandus diegimas, darbas be rūpesčių",
+    "paragraph": "Greitai paruoškite sistemą. Kai aparatinė įranga prisijungia, platforma natūraliai atlieka sudėtingus skaičiavimus, siunčia sąskaitas ir įspėjimus apie nuotėkius.",
+    "steps": [
+      {
+        "title": "Prijunkite išmaniuosius skaitiklius",
+        "text": "Mūsų sertifikuoti technikai per mažiau nei 15 minučių pritvirtina neinvazinius išmaniuosius srauto sub-skaitiklius tiesiai prie atskirų stovo vožtuvų."
+      },
+      {
+        "title": "Realaus laiko sekimas",
+        "text": "Duomenys nuolat perduodami į „HydroLedger“ debesų platformą, fiksuojant tikslius suvartojimo rodiklius ir stebint neįprastą veiklą."
+      },
+      {
+        "title": "Automatizuokite sąskaitas",
+        "text": "Mėnesio pabaigoje sistema sujungia bendrų zonų paskirstymus ir sub-skaitiklių rodmenis į aiškias, detalizuotas sąskaitas faktūras."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Gyventojų portalo peržiūra",
+    "headingPrefix": "Suteikite gyventojams",
+    "headingHighlight": "aiškumą apie suvartojimą",
+    "paragraph": "Skaidrumas kuria bendruomenės vienybę. Gyventojai džiaugiasi paprastais prietaisų skydeliais su realaus laiko grįžtamuoju ryšiu, nuspėjamomis išlaidų prognozėmis ir proaktyviais įspėjimais apie nuotėkius.",
+    "brandLabel": "Gyventojų portalas",
+    "unitLabel": "4B vienetas — dabartinis sąskaitų ciklas",
+    "stat1Label": "Šio mėnesio suvartojimas",
+    "stat1Trend": "-12% palyginus su vidurkiu",
+    "stat2Label": "Prognozuojama sąskaita",
+    "stat2Trend": "Pagal planą",
+    "stat3Label": "Nuotėkio būsena",
+    "stat3Value": "Viskas tvarkoje",
+    "stat3Trend": "Saugus srautas",
+    "chartTitle": "Savaitinis suvartojimas (galonais)",
+    "bars": [
+      "1 sav.",
+      "2 sav.",
+      "3 sav.",
+      "4 sav.",
+      "5 sav. (prog.)"
+    ],
+    "tipTitle": "Patarimas taupymui",
+    "tipText": "Jūsų virtuvės maišytuvas ryte rodo šiek tiek nuolatinį srautą. Aeratorių patikrinimas galėtų sutaupyti iki 10 galonų per savaitę.",
+    "tipBadge": "Automatizuota įžvalga",
+    "autopayTitle": "Automatinis mokėjimas įjungtas",
+    "autopayLabel": "Kita automatinio mokėjimo data",
+    "autopayButton": "Peržiūrėti išsamią PDF sąskaitą"
+  },
+  "audienceSplit": {
+    "residentPill": "Gyventojams",
+    "residentHeading": "Sąžiningos, suvartojimu pagrįstos komunalinės išlaidos",
+    "residentParagraph": "Nustokite mokėti už kaimyno perteklinį vartojimą. Mokėkite tik už sunaudotus galonus, remdamiesi realaus laiko duomenimis.",
+    "residentBullets": [
+      "Tikslūs mėnesiniai sub-skaitiklių duomenys su skaidriais išlaidų rodikliais.",
+      "SMS ir mobiliųjų programėlių pranešimai, jei prietaisuose aptinkami mikro nuotėkiai.",
+      "Paprasta, supaprastinta skaitmeninių sąskaitų apmokėjimo sistema su automatiniais kvitais."
+    ],
+    "adminPill": "Nekilnojamojo turto administratoriams",
+    "adminHeading": "Momentinė operacinė grąža ir atliekų kontrolė",
+    "adminParagraph": "Paverskite komunalinių paslaugų valdymą iš didelių nuostolių galvos skausmo į sklandų, didelio pelningumo procesą su automatizuotu sąskaitų išrašymu gyventojams.",
+    "adminBullets": [
+      "Automatinis komunalinių paslaugų paskirstymas, tiesiogiai susietas su atskirais vienetais.",
+      "Momentiniai operaciniai įspėjimai, siekiant išvengti brangios struktūrinės žalos dėl vandens.",
+      "Išsami valdymo skydelio ataskaita apie pagrindinio skaitiklio sąskaitas vs. paskirstytus galonus."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Vidutiniškai sutaupytas vanduo",
+      "Aktyvūs namų ūkiai",
+      "Sistemos veikimo laikas",
+      "Valdomos bendruomenės"
+    ]
+  },
+  "pricing": {
+    "pill": "Skaidrūs paketai",
+    "heading": "Didelės investicijų grąžos operacinės sąnaudos",
+    "paragraph": "Pasirinkite planą, pritaikytą jūsų bendruomenės dydžiui. „HydroLedger“ paprastai kompensuoja savo platformos mokesčius jau pirmąjį mėnesį dėl sumažėjusių bendrų zonų nuostolių.",
+    "highlightBadge": "Geriausias pasirinkimas",
+    "customPriceLabel": "Individualus",
+    "tiers": [
+      {
+        "name": "Pradinis",
+        "unit": "vienam vienetui / mėn.",
+        "desc": "Puikiai tinka mažesnėms kotedžų asociacijoms, kurioms reikia pagrindinių sub-skaitiklių galimybių.",
+        "features": [
+          "Realaus laiko rodmenys",
+          "SMS įspėjimai apie nuotėkius",
+          "Standartinis sąskaitų eksportas",
+          "Savitarnos portalas"
+        ],
+        "cta": "Aktyvuoti Pradinį"
+      },
+      {
+        "name": "Profesionalus",
+        "unit": "vienam vienetui / mėn.",
+        "desc": "Mūsų auksinis paketas klasikinėms daugiabučių bendrijoms, norinčioms visiškai automatizuoto sąskaitų išrašymo gyventojams.",
+        "features": [
+          "Viskas, kas yra Pradiniame",
+          "Automatinis PDF sąskaitų siuntimas",
+          "Proporcingas bendrų zonų paskirstymas",
+          "Prioritetinis klientų aptarnavimas"
+        ],
+        "cta": "Rinktis Pro (populiariausias)"
+      },
+      {
+        "name": "Verslo",
+        "unit": "pagal užklausą",
+        "desc": "Didelėms institucinėms bendruomenėms, reikalaujančioms individualių API jungčių ir sąskaitų konfigūracijų.",
+        "features": [
+          "Viskas, kas yra Profesionaliame",
+          "Individualios sąskaitų programinės įrangos integracijos",
+          "Specializuotas komunalinių paslaugų konsultantas",
+          "Aparatinės įrangos SLA garantijos"
+        ],
+        "cta": "Susisiekti su Verslo pardavimais"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operacinė realybė",
+    "heading": "Ką sako nekilnojamojo turto valdytojai",
+    "quotes": [
+      {
+        "text": "„HydroLedger“ iš esmės pakeitė mūsų operacinį P&L. Mechaninėse linijose atradome tris didelius paslėptus nuotėkius, kurie vien per pirmąjį ketvirtį sutaupė mums daugiau nei 1,1 mln. rupijų."
+      },
+      {
+        "text": "Gyventojų pasitikėjimas smarkiai išaugo. Sąskaitų išrašymas nuomininkams griežtai pagal vandens naudojimą, užuot naudojus bendrus pagrindinių skaitiklių skaičiavimus, išsprendė mūsų skaudžiausius ginčus su nuomininkais."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "DUK pagalba",
+    "heading": "Dažniausiai užduodami klausimai",
+    "items": [
+      {
+        "q": "Ar išmaniesiems sub-skaitikliams reikia mechaninio vandens atjungimo?",
+        "a": "Ne. Mūsų naujoviški stovo skaitikliai montuojami neinvaziniu būdu tiesiai virš esamų linijų atskirose techninėse zonose. Montavimas vyksta švariai per kelias minutes be vandens atjungimo kitiems gyventojams."
+      },
+      {
+        "q": "Kaip skaičiuojamos bendros/dalijamos vandens išlaidos?",
+        "a": "Centrinis bendrų zonų rezervas (pvz., baseinai, laistymas) pirmiausia atimamas iš pagrindinių skaitiklių. Turto grupės šias išlaidas paskirsto struktūriškai arba skaidriai proporcingai."
+      },
+      {
+        "q": "Kaip greitai „HydroLedger“ aptinka nuolatinius nuotėkius?",
+        "a": "Mūsų fono įspėjimų sistemos tikrina nuolatinius srauto signalus. Jei srautas nenukrenta iki nulio per 10 minučių ciklą, įspėjimai siunčiami akimirksniu, kad būtų sumažinta žalos rizika."
+      },
+      {
+        "q": "Ar „HydroLedger“ užtikrina saugumą ir gyventojų privatumą?",
+        "a": "Taip. „HydroLedger“ saugo gyventojų portalo identifikatorius už standartinių šifruotų kanalų. Operaciniai duomenys yra saugiai laikomi tik suvartojimo stebėjimo tikslais."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Prisijunkite prie „HydroLedger“ šiandien",
+    "heading": "Pradėkite stebėti savo vandens suvartojimą šiandien",
+    "paragraph": "Padidinkite taupymo rodiklius, supaprastinkite sąskaitų administravimą ir apsaugokite vertingą infrastruktūrą. Leiskite mums apskaičiuoti individualią jūsų bendruomenės investicijų grąžą.",
+    "ctaPrimary": "Gauti pasiūlymą",
+    "ctaSecondary": "Susisiekti su pardavimais"
+  },
+  "footer": {
+    "tagline": "Išmanieji komunalinių paslaugų paskirstymo procesai ir realaus laiko sub-skaitiklių sprendimai. Apsaugokite sistemas, suderinkite sąskaitas, taupykite vandenį.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Sub-skaitikliai",
+          "Sąskaitų komplektas",
+          "Nuotėkių apsauga",
+          "Gyventojų programėlė"
+        ]
+      },
+      {
+        "title": "Ištekliai",
+        "links": [
+          "Atvejų analizės",
+          "Tinklaraštis",
+          "Diegimo vadovas",
+          "Pagalbos centras"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Pagrindinis biuras",
+    "copyright": "© 2026 „HydroLedger Systems Inc.“ Visos teisės saugomos.",
+    "legalPrivacy": "Privatumo politika",
+    "legalTerms": "Paslaugų teikimo sąlygos"
+  }
+}

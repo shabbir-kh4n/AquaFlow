@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Ezaugarriak",
+    "linkHowItWorks": "Nola funtzionatzen du",
+    "linkContact": "Kontaktua",
+    "signIn": "Saioa hasi",
+    "getStarted": "Hasi"
+  },
+  "hero": {
+    "eyebrow": "Ur-monitorizazio adimenduna",
+    "titleLine1": "Kontsumoaren jarraipena.",
+    "titleHighlight": "Banatu bidezki.",
+    "titleLine2": "Aurreztu ura.",
+    "paragraph": "HydroLedger-ek apartamentu-komunitateei denbora errealeko kontsumoaren ikuspegia, kostu partekatuen fakturazio gardena eta ihesen abisu goiztiarrak eskaintzen dizkie, dena panel bakar batetik.",
+    "ctaPrimary": "Hasi",
+    "ctaSecondary": "Saioa hasi",
+    "panelLabel": "Hilabete honetako erabilera",
+    "panelSub": "Etxeko batez bestekoa baino %8 gutxiago",
+    "chartLabelStart": "Al",
+    "chartLabelEnd": "Ig"
+  },
+  "trustBar": {
+    "label": "Etxebizitza anitzeko kudeaketa-talde aurrerakoiek konfiantza dute"
+  },
+  "features": {
+    "pill": "Oinarrizko gaitasunak",
+    "headingPrefix": "Behar dena",
+    "headingHighlight": "Monitorizatu eta fakturatzeko",
+    "headingSuffix": "bidezki",
+    "paragraph": "Esan agur tarifa finkoko zerbitzuen banaketari. HydroLedger-ek ekitate estrukturala bultzatzen du neurketa zehatz eta automatizazio adimendunaren bidez.",
+    "items": [
+      {
+        "tag": "Uraren jarraipena",
+        "title": "Denbora errealeko azpi-neurketa",
+        "text": "Neurtu banakako unitateen minutu-minutuko ur-kontsumo zehatza, estimazio zaharretan oinarritu beharrean."
+      },
+      {
+        "tag": "Fakturazioaren automatizazioa",
+        "title": "Komunitatearen fakturazio automatizatua",
+        "text": "Egoiliarrentzako fakturak zuzenean sortzea, proportzioaren araberako erabilera dinamikoarekin. Ezabatu fakturazioaren karga administratiboa berehala."
+      },
+      {
+        "tag": "Arriskuen arintzea",
+        "title": "Ihesen detekzio goiztiarraren abisuak",
+        "text": "Abisu automatikoek fluxu-patroi anormalak markatzen dituzte eta ur-kalte handiak minutu gutxitan detektatzen dituzte, ez hilabeteetan."
+      },
+      {
+        "tag": "Kostuen esleipena",
+        "title": "Kostuen banaketa bidezkoa",
+        "text": "Jarraitu gune komunetako erabilera eta banatu egitura-kostuak gardentasunez, etxeen konfiantza eta kontserbazioa eraikitzeko."
+      }
+    ],
+    "learnMore": "Ikasi gehiago"
+  },
+  "howItWorks": {
+    "pill": "Lan-fluxuaren eraginkortasuna",
+    "heading": "Instalazio erraza, funtzionamendu autonomoa",
+    "paragraph": "Ezarri azkar. Hardware-unitateak konektatzean, plataformak kalkulu konplexuak, fakturen bidalketak eta ihesen abisuak berez kudeatzen ditu.",
+    "steps": [
+      {
+        "title": "Konektatu neurgailu adimendunak",
+        "text": "Gure teknikari ziurtatuek fluxu-neurgailu adimendun ez-inbaditzaileak instalatzen dituzte banakako balbuletan 15 minutu baino gutxiagoan."
+      },
+      {
+        "title": "Denbora errealeko jarraipena",
+        "text": "Datuak etengabe transmititzen dira HydroLedger hodei-plataformara, erabilera-zifrak zehatz-mehatz erregistratuz eta jarduera anormala kontrolatuz."
+      },
+      {
+        "title": "Fakturak automatizatu",
+        "text": "Hilabete amaieran, sistemak gune komunetako banaketak eta azpi-neurgailuen bolumenak konbinatzen ditu faktura zehatzak sortzeko."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Egoiliarren atariaren simulazioa",
+    "headingPrefix": "Eman egoiliarrei",
+    "headingHighlight": "kontsumoaren argitasuna",
+    "paragraph": "Gardentasunak komunitatearen lerrokatzea eraikitzen du. Egoiliarrek panel errazak dituzte denbora errealeko iritziarekin, kostuen proiekzioekin eta ihesen abisuekin.",
+    "brandLabel": "Egoiliarren ataria",
+    "unitLabel": "4B unitatea — Uneko fakturazio-zikloa",
+    "stat1Label": "Hilabete honetako erabilera",
+    "stat1Trend": "%-12 batez bestekoarekiko",
+    "stat2Label": "Estimatutako faktura",
+    "stat2Trend": "Bide onean",
+    "stat3Label": "Ihesen egoera",
+    "stat3Value": "Guztia ondo",
+    "stat3Trend": "Fluxu segurua",
+    "chartTitle": "Asteko erabilera (Galoiak)",
+    "bars": [
+      "1. astea",
+      "2. astea",
+      "3. astea",
+      "4. astea",
+      "5. astea (Proiekzioa)"
+    ],
+    "tipTitle": "Kontserbazio-aholkua",
+    "tipText": "Sukaldeko txorrotak fluxu etengabe txiki bat du goizean. Aireagailuak egiaztatzeak astean 10 galoi aurreztu ditzake.",
+    "tipBadge": "Informazio automatizatua",
+    "autopayTitle": "Ordainketa automatikoa gaituta",
+    "autopayLabel": "Hurrengo ordainketa automatikoaren data",
+    "autopayButton": "Ikusi PDF faktura zehatza"
+  },
+  "audienceSplit": {
+    "residentPill": "Egoiliarrentzat",
+    "residentHeading": "Kontsumoan oinarritutako zerbitzuen kostu bidezkoak",
+    "residentParagraph": "Utzi zure bizilagunaren gehiegizko kontsumoa ordaintzeari. Ordaindu kontsumitzen dituzun galoiengatik soilik, denbora errealeko datuekin babestuta.",
+    "residentBullets": [
+      "Hilabeteko azpi-neurketaren datu zehatzak kostuen neurketa gardenekin.",
+      "SMS eta mugikorreko jakinarazpenak etxetresna elektrikoetan mikro-ihesak detektatzen badira.",
+      "Fakturen ordainketa sistema digital erraz eta arina, ordainagiri automatizatuekin."
+    ],
+    "adminPill": "Administratzaileentzat",
+    "adminHeading": "Berehalako ROI operatiboa eta hondakinen kontrola",
+    "adminParagraph": "Eraldatu zerbitzuen kudeaketa, buruhauste bat izatetik egoiliarren fakturazio automatizatuarekin funtzionatzen duen kanal errentagarri batera.",
+    "adminBullets": [
+      "Zerbitzuen esleipen autonomoa, zuzenean banakako unitateetara konektatuta.",
+      "Berehalako abisu operatiboak, uraren egitura-kalte garestiak saihesteko.",
+      "Panelaren txosten zehatzak, neurgailu nagusiaren fakturazioa eta banatutako galoien arteko konparazioarekin."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Aurreztutako uraren batez bestekoa",
+      "Etxebizitza aktiboak",
+      "Sistemaren erabilgarritasuna",
+      "Kudeatutako komunitateak"
+    ]
+  },
+  "pricing": {
+    "pill": "Pakete gardenak",
+    "heading": "ROI altuko kostu operatiboak",
+    "paragraph": "Aukeratu zure komunitatearen dentsitatera egokitutako plana. HydroLedger-ek bere plataformako kuotak lehen hilabetean konpentsatu ohi ditu, gune komunetako xahutzeak murriztuz.",
+    "highlightBadge": "Balio onena",
+    "customPriceLabel": "Pertsonalizatua",
+    "tiers": [
+      {
+        "name": "Hasierakoa",
+        "unit": "unitateko / hilabetean",
+        "desc": "Azpi-neurketa gaitasunak behar dituzten herri-etxeen elkarte txikiagoetarako aproposa.",
+        "features": [
+          "Denbora errealeko irakurketak",
+          "SMS ihes-abisuak",
+          "Fakturazio-esportazio estandarrak",
+          "Autozerbizioko ataria"
+        ],
+        "cta": "Aktibatu hasierakoa"
+      },
+      {
+        "name": "Profesionala",
+        "unit": "unitateko / hilabetean",
+        "desc": "Egoiliarren fakturazio guztiz automatizatua nahi duten apartamentu-komunitate klasikoentzako gure urrezko estandarreko paketea.",
+        "features": [
+          "Hasierako planeko guztia",
+          "PDF fakturen bidalketa automatizatua",
+          "Gune komunen esleipen proportzionalak",
+          "Lehentasunezko bezeroarentzako arreta"
+        ],
+        "cta": "Joan Pro-ra (Ezagunena)"
+      },
+      {
+        "name": "Enpresa",
+        "unit": "eskaera bidez",
+        "desc": "API kanal pertsonalizatuak eta fakturazio-konfigurazioak behar dituzten komunitate instituzional handientzat.",
+        "features": [
+          "Plan profesionaleko guztia",
+          "Fakturazio-softwarearen integrazio pertsonalizatuak",
+          "Zerbitzuen aholkulari dedikatua",
+          "Hardwarearen SLA bermeak"
+        ],
+        "cta": "Jarri harremanetan salmenta-taldearekin"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Errealitate operatiboak",
+    "heading": "Zer diote jabetza-kudeatzaileek",
+    "quotes": [
+      {
+        "text": "HydroLedger-ek gure P&L operatiboa funtsean aldatu zuen. Linea mekanikoetan ezkutuko hiru ihes zerbitzu handi aurkitu genituen, eta horrek 11 lakh rupia baino gehiago aurreztu zizkigun lehen hiruhilekoan."
+      },
+      {
+        "text": "Egoiliarren konfiantza asko hazi da. Gure maizterrak uraren erabileraren arabera fakturatzeak, logela anitzeko kalkulu generikoen ordez, gure maizterren gatazkarik mingarrienak konpondu zituen."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Ohiko galderak",
+    "heading": "Maiz egiten diren galderak",
+    "items": [
+      {
+        "q": "Neurgailu adimendunek zerbitzu mekanikoa moztu behar al dute?",
+        "a": "Ez. Gure neurgailu-unitate berritzaileak zuzenean instalatzen dira dauden lineen gainean, inbaditzaileak izan gabe. Konfigurazioak minutu gutxitan amaitzen dira, maizterren zerbitzuak moztu gabe."
+      },
+      {
+        "q": "Nola kalkulatzen dira uraren kostu komunak?",
+        "a": "Gune komuneko erabilera (adibidez, igerilekuak, lorategiak) neurgailu nagusietatik kentzen da lehenik. Jabetza-taldeek kostu horiek estrukturalki esleitzen dituzte edo gardentasunez banatzen dituzte."
+      },
+      {
+        "q": "Zein azkar detektatzen ditu HydroLedger-ek ihes-fluxu etengabeak?",
+        "a": "Gure atzeko planoko abisu-kanalek fluxu-seinale etengabeak egiaztatzen dituzte. Fluxua 10 minutuko ziklo batean zerora iristen ez bada, abisua berehala bidaltzen da kalte-arriskuak minimizatzeko."
+      },
+      {
+        "q": "HydroLedger-ek segurtasuna edo egoiliarren pribatutasuna kudeatzen al du?",
+        "a": "Bai. HydroLedger-ek egoiliarren atariaren identifikatzaileak kanal enkriptatu estandarren bidez babesten eta gordetzen ditu. Datu operatiboak kontsumoaren jarraipenerako soilik mantentzen dira seguru."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Bat egin HydroLedger-ekin gaur",
+    "heading": "Hasi zure ur-kontsumoa monitorizatzen gaur",
+    "paragraph": "Bultzatu kontserbazio-neurketak, sinplifikatu egoiliarren fakturazioa eta babestu azpiegitura baliotsuak. Utzi gure komunitatearen ROI kalkulu pertsonalizatua egiten.",
+    "ctaPrimary": "Eskatu aurrekontua",
+    "ctaSecondary": "Jarri harremanetan salmenta-taldearekin"
+  },
+  "footer": {
+    "tagline": "Zerbitzuen esleipen adimendunaren kanalak eta denbora errealeko azpi-neurketa irtenbideak. Babestu sistemak, lerrokatu fakturak, aurreztu ura.",
+    "columns": [
+      {
+        "title": "Plataforma",
+        "links": [
+          "Azpi-neurketa",
+          "Fakturazio-suitea",
+          "Ihesen babesa",
+          "Egoiliarren aplikazioa"
+        ]
+      },
+      {
+        "title": "Baliabideak",
+        "links": [
+          "Kasu praktikoak",
+          "Bloga",
+          "Instalazio-gida",
+          "Laguntza-zentroa"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Bulego korporatiboa",
+    "copyright": "© 2026 HydroLedger Systems Inc. Eskubide guztiak erreserbatuta.",
+    "legalPrivacy": "Pribatutasun politika",
+    "legalTerms": "Zerbitzu baldintzak"
+  }
+}

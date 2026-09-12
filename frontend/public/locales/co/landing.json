@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funziunalità",
+    "linkHowItWorks": "Cumu funziuneghja",
+    "linkContact": "Cuntattu",
+    "signIn": "Accedi",
+    "getStarted": "Principià"
+  },
+  "hero": {
+    "eyebrow": "Munturamentu Intelligente di l'Acqua",
+    "titleLine1": "Seguità u cunsumu.",
+    "titleHighlight": "Spartite à ghjustu.",
+    "titleLine2": "Risparmiate l'acqua.",
+    "paragraph": "HydroLedger offre à e cumunità d'appartamenti infurmazioni in tempu reale nantu à u cunsumu, fatturazione trasparente di e spese cumune, è avvisi precoci di perdite — tuttu da un solu pannellu di cuntrollu.",
+    "ctaPrimary": "Principià",
+    "ctaSecondary": "Accedi",
+    "panelLabel": "Cunsumu di stu mese",
+    "panelSub": "8% sottu à a media di a casa",
+    "chartLabelStart": "Lun",
+    "chartLabelEnd": "Dum"
+  },
+  "trustBar": {
+    "label": "Sceltu da gruppi di gestione immubiliare prugressivi"
+  },
+  "features": {
+    "pill": "Capacità Principali",
+    "headingPrefix": "Tuttu ciò chì serve per",
+    "headingHighlight": "Munturà è Fatturà",
+    "headingSuffix": "in modu ghjustu",
+    "paragraph": "Dì addiu à a ripartizione di e spese à forfait. HydroLedger prumove l'equità strutturale attraversu misurazioni precise è autumatisazione intelligente.",
+    "items": [
+      {
+        "tag": "Seguitu di l'Acqua",
+        "title": "Sottu-misurazione in tempu reale",
+        "text": "Misurate u cunsumu esattu d'acqua, minutu per minutu, per ogni unità, invece di basassi nantu à stime generali obsolete."
+      },
+      {
+        "tag": "Autumatisazione di a Fatturazione",
+        "title": "Fatturazione autumatica di a cumunità",
+        "text": "Generazione di fatture direttamente à i residenti, adattate dinamicamente à l'usu prupurziunale. Eliminate subitu i costi amministrativi di fatturazione."
+      },
+      {
+        "tag": "Mitigazione di i Rischi",
+        "title": "Avvisi precoci di perdite",
+        "text": "Avvisi autumatichi istantanei segnalanu mudelli di flussu anormale è rilevanu danni maiò causati da l'acqua in pochi minuti, micca mesi."
+      },
+      {
+        "tag": "Ripartizione di i Costi",
+        "title": "Distribuzione ghjusta di i costi",
+        "text": "Seguite l'usu di e zone cumune è distribuite i costi strutturali in modu trasparente per rinfurzà a fiducia è a cunservazione in casa."
+      }
+    ],
+    "learnMore": "Scopri di più"
+  },
+  "howItWorks": {
+    "pill": "Efficienza di u flussu di travagliu",
+    "heading": "Installazione sèmplice, funziunamentu autumatu",
+    "paragraph": "Installa tuttu rapidamente. Una volta cunnessi i dispositi, a piattaforma gestisce i calculi cumplessi, l'inviu di fatture è l'avvisi di perdite in modu nativu.",
+    "steps": [
+      {
+        "title": "Cunnette i Contatori Intelligenti",
+        "text": "I nostri tecnici certificati attaccanu sottu-contatori di flussu intelligenti è non invasivi direttamente à e valvule di risalita individuale in menu di 15 minuti."
+      },
+      {
+        "title": "Seguitu in tempu reale",
+        "text": "I dati flussanu continuamente versu a piattaforma nuvola HydroLedger, registrante e figure esatte di cunsumu è munturendu l'attività anormale."
+      },
+      {
+        "title": "Autumatizà e Fatture",
+        "text": "À a fine di u mese, u mutore combina e distribuzioni di e zone cumune è i volumi misurati per creà fatture chjare è dettagliate."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Modellu di u Portale di Residenti in Directu",
+    "headingPrefix": "Empowerate i Residenti cù",
+    "headingHighlight": "Chiarezza di Cunsumu",
+    "paragraph": "A trasparenza crea l'allineamentu di a cumunità. I residenti prufittanu di pannelli sèmplici cù feedback in tempu reale, pruiezioni di costi previste è avvisi proattivi di perdite.",
+    "brandLabel": "Portale di Residenti",
+    "unitLabel": "Unità 4B — Ciclu di Fatturazione Attuale",
+    "stat1Label": "Usu di stu mese",
+    "stat1Trend": "-12% vs Media",
+    "stat2Label": "Stima di a Fattura",
+    "stat2Trend": "In linea",
+    "stat3Label": "Statu di Perdite",
+    "stat3Value": "Tuttu bè",
+    "stat3Trend": "Flussu sicuru",
+    "chartTitle": "Usu Settimanale (Galloni)",
+    "bars": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5 (Prut.)"
+    ],
+    "tipTitle": "Cunsigliu di cunservazione",
+    "tipText": "U vostru rubinettu di cucina mostra un flussu ligeramente cuntinuu a mane. Verificà l'aeratori puderia risparmià finu à 10 galloni à a settimana.",
+    "tipBadge": "Intelligenza Autumatica",
+    "autopayTitle": "Autupagamentu Attivatu",
+    "autopayLabel": "Prossima data di fatturazione autumatica",
+    "autopayButton": "Vede a fattura PDF dettagliata"
+  },
+  "audienceSplit": {
+    "residentPill": "Per i Residenti",
+    "residentHeading": "Costi di servizii ghjusti, basati nantu à u cunsumu",
+    "residentParagraph": "Smetti di pagà per u cunsumu eccessivu di u vostru vicinu. Pagate strettamente per i galloni chì cunsumate, supportati da dati di u pannellu in tempu reale.",
+    "residentBullets": [
+      "Dati di sottu-misurazione mensili precisi cù metriche di costu trasparenti.",
+      "Notificazioni SMS è mobile se si rilevanu micro-perdite in l'apparecchi.",
+      "Sistema di pagamentu di fatture digitale sèmplice è fluidu cù ricevute autumatizzate."
+    ],
+    "adminPill": "Per i Amministratori di a Pruprietà",
+    "adminHeading": "ROI Operativu Istantaneu è Cuntrollu di i Scarti",
+    "adminParagraph": "Trasfurmate a gestione di i servizii da un prublema costosu in un flussu di redditu fluidu è à altu marghjine cù fatturazione autumatica per i residenti.",
+    "adminBullets": [
+      "Ripartizione di i servizii autumata cunnessa direttamente à l'unità individuali.",
+      "Avvisi operativi immediati per prevene danni strutturali costosi dovuti à l'acqua.",
+      "Rapporti dettagliati nantu à a fatturazione di u contatore principale vs galloni distribuiti."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Media d'acqua risparmiata",
+      "Case attive",
+      "Tempu di funziunamentu di u sistema",
+      "Cumunità gestite"
+    ]
+  },
+  "pricing": {
+    "pill": "Pacchetti trasparenti",
+    "heading": "Costi operativi cù un altu ritornu nantu à l'investimentu",
+    "paragraph": "Sceglite un pianu adattatu à a densità esatta di a vostra cumunità. HydroLedger compensa di solitu e so proprie spese di piattaforma in u primu mese per via di a riduzione di i rifiuti in e zone cumune.",
+    "highlightBadge": "U megliu valore",
+    "customPriceLabel": "Persunalizatu",
+    "tiers": [
+      {
+        "name": "Principiante",
+        "unit": "per unità / mese",
+        "desc": "Perfettu per e più chjuche associazioni di case chì anu bisognu di capacità di sottu-misurazione essenziali.",
+        "features": [
+          "Letture di contatore in tempu reale",
+          "Avvisi di perdite SMS",
+          "Esportazioni di fatturazione standard",
+          "Portale Self-Service"
+        ],
+        "cta": "Attivà Principiante"
+      },
+      {
+        "name": "Prufessiunale",
+        "unit": "per unità / mese",
+        "desc": "U nostru pacchettu standard d'oru per e cumunità d'appartamenti classiche chì volenu una fatturazione autumatica cumpleta per i residenti.",
+        "features": [
+          "Tuttu ciò chì hè in Principiante",
+          "Invii autumatichi di fatture PDF",
+          "Ripartizioni proporzionali di e zone cumune",
+          "Supportu à i clienti prioritariu"
+        ],
+        "cta": "Andà à Pro (U più populare)"
+      },
+      {
+        "name": "Impresa",
+        "unit": "su richiesta",
+        "desc": "Per e cumunità istituziunali estese chì richiedenu flussi di travagliu API è configurazioni di fatturazione su misura.",
+        "features": [
+          "Tuttu ciò chì hè in Prufessiunale",
+          "Integrazioni di software di fatturazione su misura",
+          "Cunsultante dedicatu à i servizii",
+          "Garanzie SLA di hardware"
+        ],
+        "cta": "Cuntattate e Vendite Impresa"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realtà Operative",
+    "heading": "Cosa dicenu i gestori di pruprietà",
+    "quotes": [
+      {
+        "text": "HydroLedger hà cambiatu fundamentalmente u nostru P&L operativu. Avemu scupertu trè perdite di serviziu maiò piatte in e linee meccaniche chì ci anu fattu risparmià oltre 11 lakh ₹ solu in u primu trimestru."
+      },
+      {
+        "text": "A fiducia di i residenti hè cresciuta assai. Fatturà i nostri inquilini basatu strettamente nantu à l'usu di l'acqua invece di calculi generici basati nantu à u contatore principale hà risoltu e nostre dispute più dolorose cù l'inquilini."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Supportu FAQ",
+    "heading": "Dumande frequenti",
+    "items": [
+      {
+        "q": "I sottu-contatori intelligenti richiedenu chjusi di serviziu meccanicu?",
+        "a": "Innò. E nostre unità di cuntrollu di risalita innovative si adattanu in modu non invasivu direttamente sopra e linee esistenti in i spazii sottostanti. L'installazioni si cumpienu pulitamente in pochi minuti senza tagli di serviziu per i residenti."
+      },
+      {
+        "q": "Cumu sò calculati i costi di l'acqua cumunali/spartiti?",
+        "a": "U pool cintrali di a zona cumuna (per esempiu, piscine, giardini) hè sottrattu pulitamente da i contatori principali prima. I gruppi immubiliari ripartiscenu quelli strutturalmente o pro-ratanu in modu trasparente."
+      },
+      {
+        "q": "Quantu rapidamente rileva HydroLedger i flussi di perdite cuntinui?",
+        "a": "I nostri flussi di avvisi in background verificanu i segnali di prelievu cuntinuu. Se u flussu ùn tocca micca u zero annantu à un ciculu di 10 minuti, l'avvisi sò inviati istantaneamente per minimizzà i risichi di danni."
+      },
+      {
+        "q": "HydroLedger gestisce a sicurezza o a privacy di i residenti?",
+        "a": "Iè. HydroLedger prutege è conserva l'identificatori di u portale di i residenti daretu à canali criptati standard. I dati operativi sò tenuti sicuri strettamente per u seguitu di u cunsumu."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Unitevi à HydroLedger oghje",
+    "heading": "Principià à seguità u vostru usu di l'acqua oghje",
+    "paragraph": "Aumentate e metriche di cunservazione, simplificate i costi di fatturazione di i residenti, è prutegete l'infrastruttura preziosa di a cumunità. Lasciateci calculà a vostra stima di ROI cumunitaria persunalizata.",
+    "ctaPrimary": "Richiedi un preventivu",
+    "ctaSecondary": "Cuntattate e vendite"
+  },
+  "footer": {
+    "tagline": "Flussi di ripartizione di servizii intelligenti è soluzioni di sottu-misurazione residenziale in tempu reale. Prutegete i sistemi, allineate e fatture, risparmiate l'acqua.",
+    "columns": [
+      {
+        "title": "Piattaforma",
+        "links": [
+          "Sottu-misurazione",
+          "Suite di fatturazione",
+          "Protezione di perdite",
+          "App di i Residenti"
+        ]
+      },
+      {
+        "title": "Risorse",
+        "links": [
+          "Studi di casu",
+          "Blog",
+          "Guida d'installazione",
+          "Centru di aiutu"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Uffiziu Corporativu",
+    "copyright": "© 2026 HydroLedger Systems Inc. Tutti i diritti riservati.",
+    "legalPrivacy": "Pulitica di Privacy",
+    "legalTerms": "Termini di Serviziu"
+  }
+}

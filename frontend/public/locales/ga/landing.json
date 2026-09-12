@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Gnéithe",
+    "linkHowItWorks": "Conas a oibríonn sé",
+    "linkContact": "Teagmháil",
+    "signIn": "Logáil isteach",
+    "getStarted": "Tosú"
+  },
+  "hero": {
+    "eyebrow": "Monatóireacht Chliste ar Uisce",
+    "titleLine1": "Rianaigh úsáid.",
+    "titleHighlight": "Roinn go cothrom.",
+    "titleLine2": "Sábháil uisce.",
+    "paragraph": "Tugann HydroLedger léargais ar thomhaltas fíor-ama do phobail árasán, billeáil chostas-roinnte trédhearcach, agus foláirimh luatha faoi sceitheadh — gach rud ó dheais amháin.",
+    "ctaPrimary": "Tosú",
+    "ctaSecondary": "Logáil isteach",
+    "panelLabel": "Úsáid na míosa seo",
+    "panelSub": "8% faoi bhun mheán an teaghlaigh",
+    "chartLabelStart": "Luan",
+    "chartLabelEnd": "Domh"
+  },
+  "trustBar": {
+    "label": "Iontaofa ag grúpaí bainistíochta il-árasán forásacha"
+  },
+  "features": {
+    "pill": "Príomhchumas",
+    "headingPrefix": "Gach Rud atá de dhíth chun",
+    "headingHighlight": "Monatóireacht & Billeáil",
+    "headingSuffix": "go Cothrom",
+    "paragraph": "Slán leis na rátaí áirgiúlachta cothroma. Cothaíonn HydroLedger cothromas struchtúrach trí thomhas beacht agus uathoibriú cliste.",
+    "items": [
+      {
+        "tag": "Rianú Uisce",
+        "title": "Fo-mhéadú Fíor-Ama",
+        "text": "Tomhais tomhaltas beacht uisce nóiméad ar nóiméad trasna na n-aonad aonair in ionad brath ar mheastacháin mháistir atá as dáta."
+      },
+      {
+        "tag": "Uathoibriú Billeála",
+        "title": "Billeáil Phobail Uathoibrithe",
+        "text": "Gin sonraisc go díreach chuig cónaitheoirí, mapáilte go dinimiciúil de réir úsáid chomhréireach. Cuir deireadh le riarachán billeála láithreach."
+      },
+      {
+        "tag": "Maolú Riosca",
+        "title": "Foláirimh Luatha um Bhrath Sceite",
+        "text": "Cuireann foláirimh uathoibrithe láithreach bac ar phatrúin sreafa neamhghnácha agus aimsíonn siad damáiste mór uisce laistigh de nóiméid, ní míonna."
+      },
+      {
+        "tag": "Leithdháileadh Costas",
+        "title": "Dáileadh Cothrom Costas",
+        "text": "Rianaigh úsáid limistéar coiteann agus dáil costais struchtúracha go trédhearcach chun muinín agus caomhnú teaghlach a chothú."
+      }
+    ],
+    "learnMore": "Tuilleadh eolais"
+  },
+  "howItWorks": {
+    "pill": "Éifeachtúlacht Sreabhadh Oibre",
+    "heading": "Suiteáil Gan uaim, Oibriú Gan Lámha",
+    "paragraph": "Bí socraithe go tapa. Nuair a nascann na haonaid chrua-earraí, láimhseálann an t-ardán ríomhanna casta, seolta sonraisc, agus foláirimh sceite go dúchasach.",
+    "steps": [
+      {
+        "title": "Ceangail Méadair Chliste",
+        "text": "Ceanglaíonn ár dteicneoirí deimhnithe fo-mhéadair sreafa chliste neamh-ionracha go díreach le comhlaí ardaitheora aonair i níos lú ná 15 nóiméad."
+      },
+      {
+        "title": "Rianú Fíor-Ama",
+        "text": "Sreabhann sonraí go leanúnach chuig ardán scamall HydroLedger, ag logáil figiúirí úsáide beachta agus ag monatóireacht gníomhaíochta neamhghnácha."
+      },
+      {
+        "title": "Uathoibrigh Billí",
+        "text": "Ag deireadh na míosa, comhcheanglaíonn an t-inneall dáiltí limistéar coiteann agus toirteanna fo-mhéadraithe i sonraisc shoiléire mhionsonraithe."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Mocscéim Beo an Tairseach Cónaitheoirí",
+    "headingPrefix": "Cumhachtaigh Cónaitheoirí le",
+    "headingHighlight": "Soiléireacht Tomhaltais",
+    "paragraph": "Cothaíonn trédhearcacht ailíniú pobail. Baineadh taitneamh as deais shimplí le haiseolas fíor-ama, réamhaisnéisí costais, agus rabhaidh réamhghníomhacha sceite.",
+    "brandLabel": "Tairseach Cónaitheoirí",
+    "unitLabel": "Aonad 4B — Timthriall Bille Reatha",
+    "stat1Label": "Úsáid na Míosa Seo",
+    "stat1Trend": "-12% vs Meán",
+    "stat2Label": "Méid an Bhille Measta",
+    "stat2Trend": "Ar an mbealach ceart",
+    "stat3Label": "Stádas Sceite",
+    "stat3Value": "Gach rud go maith",
+    "stat3Trend": "Sreabhadh Sábháilte",
+    "chartTitle": "Úsáid Sheachtainiúil (Galún)",
+    "bars": [
+      "Seachtain 1",
+      "Seachtain 2",
+      "Seachtain 3",
+      "Seachtain 4",
+      "Seachtain 5 (Réamh)"
+    ],
+    "tipTitle": "Leid Caomhantais",
+    "tipText": "Tá sreabhadh beag leanúnach ag sconna do chistine ar maidin. D'fhéadfadh seiceáil aeriomaitheoirí suas le 10 galún/seachtain a shábháil.",
+    "tipBadge": "Léargas Uathoibrithe",
+    "autopayTitle": "Íocaíocht Uathoibríoch Cumasaithe",
+    "autopayLabel": "An chéad dáta Bille Uathoibríoch eile",
+    "autopayButton": "Féach ar an tSonrasc PDF Mionsonraithe"
+  },
+  "audienceSplit": {
+    "residentPill": "Do Chónaitheoirí",
+    "residentHeading": "Costais Áirgiúlachta Cothroma, Bunaithe ar Thomhaltas",
+    "residentParagraph": "Stop ag íoc as tomhaltas iomarcach do chomharsan. Íoc go docht as na galúin a tharraingíonn tú, le tacaíocht ó shonraí deais fíor-ama.",
+    "residentBullets": [
+      "Sonraí beachta fo-mhéadraithe míosúla le méadracht costais trédhearcach.",
+      "Fógraí SMS & soghluaiste má bhraitheann micrea-sceitheadh in fearais.",
+      "Córas íocaíochta sonraisc digiteach simplí, sruthlínithe le admhálacha uathoibrithe."
+    ],
+    "adminPill": "Do Riaracháin Maoine",
+    "adminHeading": "ROI Oibríochtúil Meandaracha agus Rialú Dramhaíola",
+    "adminParagraph": "Athraigh bainistíocht áirgiúlachta ó fhadhb mhór caillteanais go dtí píblíne gan uaim, le corrlaigh arda le billeáil uathoibrithe do chónaitheoirí.",
+    "adminBullets": [
+      "Leithdháileadh áirgiúlachta gan lámha ceangailte go díreach le haonaid aonair.",
+      "Foláirimh oibríochtúla láithreacha chun damáiste uisce struchtúrach costasach a chosc.",
+      "Tuairisciú deais mionsonraithe ar bhilleáil máistir-mhéadair vs galúin dáilte."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Uisce Sábháilte ar an Meán",
+      "Teaghlaigh Gníomhacha",
+      "Am Uas-Ama an Chórais",
+      "Pobail Bainistithe"
+    ]
+  },
+  "pricing": {
+    "pill": "Pacáistí Trédhearcacha",
+    "heading": "Costais Oibríochtúla le ROI Ard",
+    "paragraph": "Roghnaigh plean atá scálaithe go dlús cruinn do phobail. Is iondúil go n-íocann HydroLedger as a tháillí ardáin féin sa chéad mhí trí dhramhaíl limistéar coiteann a laghdú.",
+    "highlightBadge": "An Luach is Fearr",
+    "customPriceLabel": "Saincheaptha",
+    "tiers": [
+      {
+        "name": "Tosaitheoir",
+        "unit": "in aghaidh an aonaid / mí",
+        "desc": "Foirfe do chomhlachais tithe baile níos lú a bhfuil cumas fo-mhéadraithe de dhíth orthu.",
+        "features": [
+          "Léamha Méadair Fíor-Ama",
+          "Foláirimh Sceite SMS",
+          "Easpórtálacha Billeála Caighdeánacha",
+          "Tairseach Féin-Seirbhíse"
+        ],
+        "cta": "Gníomhachtaigh Tosaitheoir"
+      },
+      {
+        "name": "Gairmiúil",
+        "unit": "in aghaidh an aonaid / mí",
+        "desc": "Ár bpacáiste caighdeánach óir do phobail árasán clasaiceacha atá ag iarraidh billeáil uathoibrithe do chónaitheoirí.",
+        "features": [
+          "Gach rud sa Tosaitheoir",
+          "Seolta Sonraisc PDF Uathoibrithe",
+          "Leithdháiltí Limistéar Coiteann Comhréireacha",
+          "Tacaíocht Tosaíochta do Chustaiméirí"
+        ],
+        "cta": "Téigh Pro (Is Mó tóir)"
+      },
+      {
+        "name": "Fiontar",
+        "unit": "ar iarratas",
+        "desc": "Do phobail institiúideacha fairsinge a dteastaíonn píblínte API saincheaptha agus cumraíochtaí billeála uathu.",
+        "features": [
+          "Gach rud sa Gairmiúil",
+          "Comhtháthú Bogearraí Billeála Saincheaptha",
+          "Comhairleoir Áirgiúlachta Tiomnaithe",
+          "Barántais SLA Crua-earraí"
+        ],
+        "cta": "Déan teagmháil le Díolacháin Fiontair"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Réaltachtaí Oibríochtúla",
+    "heading": "Cad a Deir Bainisteoirí Maoine",
+    "quotes": [
+      {
+        "text": "D'athraigh HydroLedger ár P&L oibríochtúil go bunúsach. D'aimsigh muid trí mhór-sceitheadh seirbhíse i línte meicniúla a shábháil os cionn ₹11 lakh inár gcéad ráithe amháin."
+      },
+      {
+        "text": "Tá muinín na gcónaitheoirí tar éis ardú. Réitigh billeáil ár dtionóntaí bunaithe go docht ar úsáid uisce in ionad ríomhanna máistir-mhéadair ginearálta ár n-aighnis tionóntaí ba phianmhaire."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Tacaíocht FAQ",
+    "heading": "Ceisteanna Coitianta",
+    "items": [
+      {
+        "q": "An dteastaíonn múchadh seirbhíse meicniúil ó fho-mhéadair chliste?",
+        "a": "Ní hea. Luíonn ár n-aonaid mhéadair ardaitheora nuálacha go neamh-ionrach go díreach thar línte atá ann cheana i spásanna crawl aonair. Críochnaíonn socruithe go glan i nóiméid gan múchadh áirgiúlachta do thionóntaí."
+      },
+      {
+        "q": "Conas a ríomhtar costais uisce pobail/roinnte?",
+        "a": "Baintear an linn limistéar coiteann lárnach (m.sh. áiseanna linne, tírdhreachú) go glan ó phríomh-mháistir-mhéadair ar dtús. Leithdháileann grúpaí maoine iad sin go struchtúrach nó go comhréireach go trédhearcach."
+      },
+      {
+        "q": "Cé chomh tapa agus a aimsíonn HydroLedger sreafaí sceite leanúnacha?",
+        "a": "Seiceálann ár bpíblínte foláirimh cúlra comharthaí tarraingthe leanúnacha. Mura dteagmhaíonn sreabhadh nialas thar timthriall 10 nóiméad, seoltar rabhaidh láithreach chun rioscaí damáiste a íoslaghdú."
+      },
+      {
+        "q": "An láimhseálann HydroLedger slándáil nó príobháideacht na gcónaitheoirí?",
+        "a": "Tá. Cosnaíonn agus stórálann HydroLedger aitheantóirí tairseach cónaitheoirí taobh thiar de chainéil criptithe caighdeánacha. Coinnítear sonraí oibríochtúla slán go docht le haghaidh rianú tomhaltais."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Bí i do bhall de HydroLedger Inniu",
+    "heading": "Tosaigh Ag Monatóireacht ar Do Úsáid Uisce Inniu",
+    "paragraph": "Treisiú méadracht caomhantais, déan riarachán billeála cónaitheoirí a shimpliú, agus cosain bonneagar luachmhar il-teaghlach. Lig dúinn d'mheastachán ROI pobail saincheaptha a ríomh.",
+    "ctaPrimary": "Iarratais ar Lua",
+    "ctaSecondary": "Déan teagmháil le Díolacháin"
+  },
+  "footer": {
+    "tagline": "Píblínte leithdháilte áirgiúlachta cliste agus réitigh fo-mhéadraithe cónaithe fíor-ama. Cosain córais, ailínigh billí, sábháil uisce.",
+    "columns": [
+      {
+        "title": "Ardán",
+        "links": [
+          "Fo-mhéadú",
+          "Sraith Billeála",
+          "Garda Sceite",
+          "Aip Chónaitheoirí"
+        ]
+      },
+      {
+        "title": "Acmhainní",
+        "links": [
+          "Cás-Staidéir",
+          "Blag",
+          "Treoir Suiteála",
+          "Ionad Cabhrach"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Oifig Chorparáideach",
+    "copyright": "© 2026 HydroLedger Systems Inc. Gach ceart ar cosaint.",
+    "legalPrivacy": "Beartas Príobháideachta",
+    "legalTerms": "Téarmaí Seirbhíse"
+  }
+}

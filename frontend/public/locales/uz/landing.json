@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Xususiyatlar",
+    "linkHowItWorks": "Qanday ishlaydi",
+    "linkContact": "Aloqa",
+    "signIn": "Kirish",
+    "getStarted": "Boshlash"
+  },
+  "hero": {
+    "eyebrow": "Aqlli suv monitoringi",
+    "titleLine1": "Iste'molni kuzating.",
+    "titleHighlight": "Adolatli taqsimlang.",
+    "titleLine2": "Suvni tejang.",
+    "paragraph": "HydroLedger ko'p kvartirali jamoalarga real vaqt rejimida iste'mol tahlili, shaffof umumiy xarajatlar hisobi va sizib chiqish haqida erta ogohlantirishlarni taqdim etadi — barchasi bitta boshqaruv panelidan.",
+    "ctaPrimary": "Boshlash",
+    "ctaSecondary": "Kirish",
+    "panelLabel": "Shu oyda sarflangan suv",
+    "panelSub": "Uy xo'jaligi o'rtacha ko'rsatkichidan 8% past",
+    "chartLabelStart": "Dush",
+    "chartLabelEnd": "Yak"
+  },
+  "trustBar": {
+    "label": "Ilg'or ko'p xonadonli boshqaruv guruhlari tomonidan ishonch bildirilgan"
+  },
+  "features": {
+    "pill": "Asosiy imkoniyatlar",
+    "headingPrefix": "Hammasi kerak",
+    "headingHighlight": "Nazorat va Hisob-kitob uchun",
+    "headingSuffix": "Adolatli",
+    "paragraph": "Belgilangan tariflar bilan xayrlashing. HydroLedger aniq o'lchovlar va aqlli avtomatlashtirish orqali tizimli adolatni ta'minlaydi.",
+    "items": [
+      {
+        "tag": "Suvni kuzatish",
+        "title": "Real vaqt rejimida sub-metrlash",
+        "text": "Eski umumiy hisob-kitoblarga tayanmasdan, individual birliklar bo'ylab har daqiqalik suv sarfini aniq o'lchang."
+      },
+      {
+        "tag": "Avtomatlashtirilgan hisob-kitob",
+        "title": "Avtomatlashtirilgan umumiy hisob-kitob",
+        "text": "Residentlarga to'g'ridan-to'g'ri foydalanish hajmiga qarab hisob-fakturalarni dinamik shakllantirish. Hisob-kitobdagi ortiqcha yuklamalarni darhol yo'q qiling."
+      },
+      {
+        "tag": "Xavflarni kamaytirish",
+        "title": "Sizib chiqishni erta aniqlash",
+        "text": "Avtomatlashtirilgan tezkor ogohlantirishlar g'ayritabiiy oqimni aniqlaydi va yirik suv zararining oldini oladi."
+      },
+      {
+        "tag": "Xarajatlarni taqsimlash",
+        "title": "Xarajatlarni adolatli taqsimlash",
+        "text": "Umumiy hududlardan foydalanishni kuzating va uy xo'jaliklari ishonchini mustahkamlash uchun xarajatlarni shaffof tarzda taqsimlang."
+      }
+    ],
+    "learnMore": "Ko'proq ma'lumot olish"
+  },
+  "howItWorks": {
+    "pill": "Ish jarayoni samaradorligi",
+    "heading": "Oson o'rnatish, avtomatik ishlash",
+    "paragraph": "Tez sozlang. Uskunalar ulangandan so'ng, platforma murakkab hisob-kitoblar, hisob-fakturalar va sizib chiqish ogohlantirishlarini o'zi bajaradi.",
+    "steps": [
+      {
+        "title": "Aqlli hisoblagichlarni ulash",
+        "text": "Sertifikatlangan texniklarimiz 15 daqiqa ichida invaziv bo'lmagan aqlli oqim hisoblagichlarini individual klapanlarga o'rnatadilar."
+      },
+      {
+        "title": "Real vaqtda kuzatish",
+        "text": "Ma'lumotlar HydroLedger bulutli platformasiga uzluksiz oqib keladi, aniq foydalanish ko'rsatkichlarini qayd etadi va g'ayritabiiy faoliyatni nazorat qiladi."
+      },
+      {
+        "title": "Hisob-kitoblarni avtomatlashtirish",
+        "text": "Oy oxirida tizim umumiy hudud xarajatlari va hisoblagich hajmlarini aniq hisob-fakturalarga birlashtiradi."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Jonli rezident portali namunasi",
+    "headingPrefix": "Rezidentlarga bering",
+    "headingHighlight": "Iste'mol ravshanligi",
+    "paragraph": "Shaffoflik jamoaviy birdamlikni shakllantiradi. Rezidentlar real vaqtda fikr-mulohazalar, bashoratli xarajatlar va profilaktik ogohlantirishlar bilan oddiy boshqaruv panellaridan foydalanadilar.",
+    "brandLabel": "Rezident portali",
+    "unitLabel": "4B birlik — Joriy hisob davri",
+    "stat1Label": "Shu oydagi foydalanish",
+    "stat1Trend": "O'rtacha ko'rsatkichga nisbatan -12%",
+    "stat2Label": "Taxminiy hisob summasi",
+    "stat2Trend": "Belgilangan reja bo'yicha",
+    "stat3Label": "Sizib chiqish holati",
+    "stat3Value": "Barchasi joyida",
+    "stat3Trend": "Xavfsiz oqim",
+    "chartTitle": "Haftalik iste'mol (Gallon)",
+    "bars": [
+      "1-hafta",
+      "2-hafta",
+      "3-hafta",
+      "4-hafta",
+      "5-hafta (Bashorat)"
+    ],
+    "tipTitle": "Tejamkorlik bo'yicha maslahat",
+    "tipText": "Oshxona jo'mragi ertalab biroz uzluksiz oqim ko'rsatmoqda. Aeratorlarni tekshirish haftasiga 10 gallongacha tejashga yordam beradi.",
+    "tipBadge": "Avtomatlashtirilgan tahlil",
+    "autopayTitle": "Avtoto'lov yoqilgan",
+    "autopayLabel": "Keyingi avtoto'lov sanasi",
+    "autopayButton": "Batafsil PDF hisob-fakturasini ko'rish"
+  },
+  "audienceSplit": {
+    "residentPill": "Rezidentlar uchun",
+    "residentHeading": "Iste'molga asoslangan adolatli kommunal to'lovlar",
+    "residentParagraph": "Qo'shningizning ortiqcha iste'moli uchun to'lashni to'xtating. Faqat real vaqt ma'lumotlari bilan tasdiqlangan va sarflagan hajmingiz uchun to'lang.",
+    "residentBullets": [
+      "Shaffof xarajatlar ko'rsatkichlari bilan aniq oylik sub-metrlash ma'lumotlari.",
+      "Maishiy texnikada mikro-sizish aniqlanganda SMS va mobil bildirishnomalar.",
+      "Avtomatlashtirilgan kvitansiyalar bilan oddiy va samarali raqamli to'lov tizimi."
+    ],
+    "adminPill": "Mulk boshqaruvchilari uchun",
+    "adminHeading": "Tezkor operatsion ROI va chiqindilarni nazorat qilish",
+    "adminParagraph": "Kommunal boshqaruvni avtomatlashtirilgan rezidentlar hisob-kitobi bilan daromadli jarayonga aylantiring.",
+    "adminBullets": [
+      "Individual birliklarga bevosita ulangan avtomatik kommunal taqsimot.",
+      "Yuqori xarajatli suv zararini oldini olish uchun zudlik bilan operatsion ogohlantirishlar.",
+      "Asosiy hisoblagich va taqsimlangan hajmlar bo'yicha batafsil hisobotlar."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "O'rtacha tejangan suv",
+      "Faol uy xo'jaliklari",
+      "Tizim ishlash vaqti",
+      "Boshqariladigan jamoalar"
+    ]
+  },
+  "pricing": {
+    "pill": "Shaffof paketlar",
+    "heading": "Yuqori investitsiya daromadli operatsion xarajatlar",
+    "paragraph": "Jamoangiz zichligiga mos keladigan rejani tanlang. HydroLedger odatda birinchi oydayoq umumiy hududdagi chiqindilarni kamaytirish orqali o'z platforma xarajatlarini qoplaydi.",
+    "highlightBadge": "Eng yaxshi qiymat",
+    "customPriceLabel": "Maxsus",
+    "tiers": [
+      {
+        "name": "Boshlang'ich",
+        "unit": "birlik / oy",
+        "desc": "Asosiy sub-metrlash imkoniyatlariga muhtoj kichik shaharchalar uchun ideal.",
+        "features": [
+          "Real vaqtda hisoblagich ko'rsatkichlari",
+          "SMS orqali sizish haqida ogohlantirishlar",
+          "Standart hisobotlar",
+          "O'z-o'ziga xizmat ko'rsatish portali"
+        ],
+        "cta": "Boshlang'ichni faollashtirish"
+      },
+      {
+        "name": "Professional",
+        "unit": "birlik / oy",
+        "desc": "To'liq avtomatlashtirilgan hisob-kitobni xohlaydigan kvartira jamoalari uchun oltin standart.",
+        "features": [
+          "Boshlang'ich rejadagi barcha imkoniyatlar",
+          "Avtomatlashtirilgan PDF hisob-fakturalari",
+          "Proportsional umumiy hudud taqsimoti",
+          "Ustuvor mijozlarni qo'llab-quvvatlash"
+        ],
+        "cta": "Professionalga o'tish (Eng mashhuri)"
+      },
+      {
+        "name": "Korporativ",
+        "unit": "so'rov bo'yicha",
+        "desc": "Maxsus API va murakkab hisob-kitob sozlamalarini talab qiladigan yirik muassasalar uchun.",
+        "features": [
+          "Professional rejadagi barcha imkoniyatlar",
+          "Maxsus hisob-kitob dasturiy integratsiyalari",
+          "Maxsus kommunal maslahatchi",
+          "Uskunalar uchun SLA kafolatlari"
+        ],
+        "cta": "Sotuv bo'limi bilan bog'lanish"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operatsion haqiqatlar",
+    "heading": "Mulk boshqaruvchilari nima deyishadi",
+    "quotes": [
+      {
+        "text": "HydroLedger bizning operatsion foyda va zararimizni tubdan o'zgartirdi. Biz mexanik liniyalarda uchta yirik yashirin sizishni aniqladik va birinchi chorakning o'zida ₹11 lakhdan ortiq mablag'ni tejadik."
+      },
+      {
+        "text": "Rezidentlar ishonchi keskin oshdi. Ijarachilarimizga umumiy o'lchovlar o'rniga faqat suv iste'moliga qarab hisob-kitob qilish eng og'riqli nizolarimizni hal qildi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ yordami",
+    "heading": "Ko'p so'raladigan savollar",
+    "items": [
+      {
+        "q": "Aqlli hisoblagichlar mexanik o'chirishni talab qiladimi?",
+        "a": "Yo'q. Bizning innovatsion ko'taruvchi hisoblagichlarimiz mavjud liniyalarga to'g'ridan-to'g'ri o'rnatiladi. O'rnatish ishlari bir necha daqiqada tugallanadi."
+      },
+      {
+        "q": "Umumiy suv xarajatlari qanday hisoblanadi?",
+        "a": "Markaziy umumiy hududlar (masalan, hovuz, obodonlashtirish) avvalo asosiy hisoblagichlardan ayirib tashlanadi. Mulk guruhlari buni shaffof tarzda taqsimlaydilar."
+      },
+      {
+        "q": "HydroLedger doimiy sizishni qanchalik tez aniqlaydi?",
+        "a": "Bizning ogohlantirish tizimimiz uzluksiz oqim signallarini tekshiradi. Agar oqim 10 daqiqalik tsikl davomida nolga tushmasa, zarar xavfini kamaytirish uchun darhol ogohlantirish yuboriladi."
+      },
+      {
+        "q": "HydroLedger xavfsizlik yoki maxfiylikni ta'minlaydimi?",
+        "a": "Ha. HydroLedger rezidentlarning portal identifikatorlarini shifrlangan kanallar orqali himoya qiladi va saqlaydi. Operatsion ma'lumotlar faqat iste'molni kuzatish uchun saqlanadi."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "HydroLedger'ga bugun qo'shiling",
+    "heading": "Bugundan suv iste'molini nazorat qiling",
+    "paragraph": "Tejamkorlik ko'rsatkichlarini oshiring, rezidentlar hisob-kitobini soddalashtiring va infratuzilmani himoya qiling. Jamoangiz uchun ROI hisobini bizga topshiring.",
+    "ctaPrimary": "Narx so'rash",
+    "ctaSecondary": "Sotuv bo'limiga bog'lanish"
+  },
+  "footer": {
+    "tagline": "Aqlli kommunal taqsimot va real vaqtda turar-joy sub-metrlash yechimlari. Tizimlarni himoya qiling, hisob-kitoblarni moslashtiring, suvni tejang.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Sub-metrlash",
+          "Hisob-kitob to'plami",
+          "Sizishdan himoya",
+          "Rezident ilovasi"
+        ]
+      },
+      {
+        "title": "Resurslar",
+        "links": [
+          "Muvaffaqiyatli loyihalar",
+          "Blog",
+          "O'rnatish qo'llanmasi",
+          "Yordam markazi"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporativ ofis",
+    "copyright": "© 2026 HydroLedger Systems Inc. Barcha huquqlar himoyalangan.",
+    "legalPrivacy": "Maxfiylik siyosati",
+    "legalTerms": "Xizmat shartlari"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Izici",
+    "linkHowItWorks": "Indlela okusebenza ngayo",
+    "linkContact": "Thinta",
+    "signIn": "Ngena",
+    "getStarted": "Qala Manje"
+  },
+  "hero": {
+    "eyebrow": "Ukuqapha Amanzi Okuhlakaniphile",
+    "titleLine1": "Landelela ukusetshenziswa.",
+    "titleHighlight": "Hlukanisa ngokufanele.",
+    "titleLine2": "Yonga amanzi.",
+    "paragraph": "I-HydroLedger inikeza imiphakathi yezindlu imininingwane yokusetshenziswa kwamanzi ngesikhathi sangempela, ukukhokhiswa okusobala okwabiwe, kanye nezixwayiso zokuvuza kusenesikhathi — konke kudeshibhodi eyodwa.",
+    "ctaPrimary": "Qala Manje",
+    "ctaSecondary": "Ngena",
+    "panelLabel": "Ukusetshenziswa kwale nyanga",
+    "panelSub": "8% ngaphansi kwesilinganiso semizi",
+    "chartLabelStart": "Mon",
+    "chartLabelEnd": "Sun"
+  },
+  "trustBar": {
+    "label": "Okwethenjwa ngamaqembu aphambili okuphatha izindlu"
+  },
+  "features": {
+    "pill": "Amakhono Abalulekile",
+    "headingPrefix": "Konke Okudingekayo ukuze",
+    "headingHighlight": "Uqaphe & Ukhokhise",
+    "headingSuffix": "Ngokufanele",
+    "paragraph": "Valelisa ekuhlukanisweni kwezindleko zezinsiza ngenani elilodwa. I-HydroLedger ikhuthaza ukulingana ngokusebenzisa izilinganiso ezinembile kanye nokuzenzakalelayo okuhlakaniphile.",
+    "items": [
+      {
+        "tag": "Ukulandelela Amanzi",
+        "title": "Ukukala Amanzi Ngesikhathi Sangempela",
+        "text": "Kala ukusetshenziswa kwamanzi okuqondile, umzuzu nomzuzu, kuwo wonke amayunithi esikhundleni sokuthembela ezilinganisweni zakudala."
+      },
+      {
+        "tag": "Ukuzenzakalela Kokukhokhiswa",
+        "title": "Ukukhokhiswa Komphakathi Okuzenzakalelayo",
+        "text": "Ukukhiqizwa kwe-invoice okuqondile okwenzelwe abahlali okuhambisana nokusetshenziswa kwabo. Qeda izindleko zokukhokhiswa khona manjalo."
+      },
+      {
+        "tag": "Ukunciphisa Ubungozi",
+        "title": "Izixwayiso Zokutholwa Kokuvuza Kusenesikhathi",
+        "text": "Izixwayiso ezizenzakalelayo ezisheshayo zikhombisa amaphethini okugeleza angajwayelekile futhi zibamba umonakalo omkhulu wamanzi phakathi nemizuzu, hhayi izinyanga."
+      },
+      {
+        "tag": "Ukwabiwa Kwezindleko",
+        "title": "Ukwabiwa Kwezindleko Okufanele",
+        "text": "Landelela ukusetshenziswa kwezindawo ezivamile futhi usabalalise izindleko ngokusalala ukuze wakhe ukwethembana nokonga emakhaya."
+      }
+    ],
+    "learnMore": "Funda kabanzi"
+  },
+  "howItWorks": {
+    "pill": "Ukusebenza kahle komsebenzi",
+    "heading": "Ukufakwa Okungenazinkinga, Ukusebenza Okuzenzakalelayo",
+    "paragraph": "Qala ngokushesha. Uma amayunithi e-hardware exhumekile, inkundla iphetha izibalo eziyinkimbinkimbi, ukuthunyelwa kwama-invoice, nezixwayiso zokuvuza ngokwemvelo.",
+    "steps": [
+      {
+        "title": "Xhuma Amamitha Ahlakaniphile",
+        "text": "Ochwepheshe bethu abagunyaziwe bafaka amamitha okugeleza ahlakaniphile ngqo kumavalvu okuphakela amayunithi ngaphansi kwemizuzu eyi-15."
+      },
+      {
+        "title": "Ukulandelela Ngesikhathi Sangempela",
+        "text": "Idatha igeleza ngokuqhubekayo iye endaweni ye-HydroLedger cloud, iloga izibalo eziqondile zokusetshenziswa futhi iqapha imisebenzi engajwayelekile."
+      },
+      {
+        "title": "Zenzakalela Izikweletu",
+        "text": "Ekupheleni kwenyanga, injini ihlanganisa ukusatshalaliswa kwezindawo ezivamile kanye namavolumu alinganisiwe abe ama-invoice acacile, anemininingwane."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "I-Mockup ye-Portal Yabahlali Ephilayo",
+    "headingPrefix": "Nika Abahlali Amandla Nge",
+    "headingHighlight": "Ukucaca Kokusebenzisa",
+    "paragraph": "Ukubeka izinto obala kwakha ukuvumelana komphakathi. Abahlali bajabulela amadeshibhodi alula anempendulo yesikhathi sangempela, izibikezelo zezindleko, nezixwayiso zokuvuza ezisheshayo.",
+    "brandLabel": "I-Portal Yabahlali",
+    "unitLabel": "Iyunithi 4B — Umjikelezo Wamanje Wokukhokha",
+    "stat1Label": "Ukusetshenziswa Kwale Nyanga",
+    "stat1Trend": "-12% vs Isilinganiso",
+    "stat2Label": "Isilinganiso Senani Le-invoice",
+    "stat2Trend": "Endleleni",
+    "stat3Label": "Isimo Sokuvuza",
+    "stat3Value": "Konke Kuhle",
+    "stat3Trend": "Ukuhamba Kuphephile",
+    "chartTitle": "Ukusetshenziswa Kwamaviki Onke (Amagaloni)",
+    "bars": [
+      "Veki 1",
+      "Veki 2",
+      "Veki 3",
+      "Veki 4",
+      "Veki 5 (Proj)"
+    ],
+    "tipTitle": "Ithiphu Yokonga",
+    "tipText": "Iphayiphi lakho lasekhishini likhombisa ukugeleza okuncane njalo ekuseni. Ukuhlola ama-aerator kungonga amagaloni afika kwangu-10 ngeviki.",
+    "tipBadge": "Ukuqonda Okuzenzakalelayo",
+    "autopayTitle": "I-Autopay Inikwe Amandla",
+    "autopayLabel": "Usuku olulandelayo lwe-Auto-Bill",
+    "autopayButton": "Buka I-invoice enemininingwane ye-PDF"
+  },
+  "audienceSplit": {
+    "residentPill": "Kwabahlali",
+    "residentHeading": "Izindleko Zezinsiza Ezifanele, Ezisekelwe Ekusetshenzisweni",
+    "residentParagraph": "Yeka ukukhokhela ukusetshenziswa ngokweqile komakhelwane bakho. Khokha ngokuqinile amagaloni owasebenzisayo, asekelwe idatha yedashibhodi yesikhathi sangempela.",
+    "residentBullets": [
+      "Idatha yokukala ngenyanga enembile enezilinganiso zezindleko ezisobala.",
+      "Izaziso ze-SMS ne-mobile uma kutholakala ukuvuza okuncane ezintweni zasekhaya.",
+      "Uhlelo lokukhokha lwe-invoice olulula, oluqondile olunezirisidi ezizenzakalelayo."
+    ],
+    "adminPill": "Kwabaphathi Bendawo",
+    "adminHeading": "I-ROI Yokusebenza Esheshayo Nokulawulwa Kwemfucuza",
+    "adminParagraph": "Guqula ukuphathwa kwezinsiza kusuka enhlungwini yelahleko enkulu uye emapayipini angenazinkinga, anenzuzo ephezulu ngokukhokhiswa okuzenzakalelayo kwabahlali.",
+    "adminBullets": [
+      "Ukwabiwa kwezinsiza okungenazandla okuxhunywe ngqo kumayunithi ngamanye.",
+      "Izixwayiso zokusebenza ezisheshayo zokuvimbela umonakalo omkhulu wamanzi.",
+      "Ukubika kwedeshibhodi okuningiliziwe ekukhokhisweni kwamamitha amakhulu vs. amagaloni asatshalaliswe."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Isilinganiso Samanzi Alondoloziwe",
+      "Imizi Esebenzayo",
+      "Isikhathi Sokusebenza Kwesistimu",
+      "Imiphakathi Elawulwayo"
+    ]
+  },
+  "pricing": {
+    "pill": "Amaphakethe Asobala",
+    "heading": "Izindleko Zokusebenza Zokubuyiselwa Kwezimali Eziphakeme",
+    "paragraph": "Khetha uhlelo olulinganiselwe kwisilinganiso somphakathi wakho. I-HydroLedger imvamisa yenza imali yayo emuva ngenyanga yokuqala ngokunciphisa imfucuza yezindawo ezivamile.",
+    "highlightBadge": "Inani Elingcono Kakhulu",
+    "customPriceLabel": "Okokuzikhethela",
+    "tiers": [
+      {
+        "name": "Qala",
+        "unit": "ngeyunithi / ngenyanga",
+        "desc": "Ilungele izinhlangano ezincane zamathawuni ezidinga amakhono ayisisekelo okulinganisa.",
+        "features": [
+          "Ukufundwa Kwemitha Ngesikhathi Sangempela",
+          "Izixwayiso Zokuvuza ze-SMS",
+          "Okukhishwayo Kokukhokhiswa Okujwayelekile",
+          "I-Portal Yokuzenzela"
+        ],
+        "cta": "Yenza I-Starter Isebenze"
+      },
+      {
+        "name": "Ochwepheshe",
+        "unit": "ngeyunithi / ngenyanga",
+        "desc": "Iphakethe lethu eliphambili lemiphakathi yezindlu ezifuna ukukhokhiswa kwabahlali okuzenzakalelayo ngokuphelele.",
+        "features": [
+          "Konke okuse-Starter",
+          "Ukuthunyelwa Kwama-invoice e-PDF Okuzenzakalelayo",
+          "Izabelo Zezindawo Ezivamile Ezilinganiselwe",
+          "Ukusekelwa Kwamakhasimende Okubalulekile"
+        ],
+        "cta": "Iya ku-Pro (Othandwa Kakhulu)"
+      },
+      {
+        "name": "Ibhizinisi",
+        "unit": "ngesicelo",
+        "desc": "Emiphakathini emikhulu edinga amapayipi e-API enziwe ngokwezifiso nezilungiselelo zokukhokha.",
+        "features": [
+          "Konke okuse-Professional",
+          "Izinhlelo Zokukhokha Ezenziwe Ngokwezifiso",
+          "Umluleki Wezinsiza Ozinikele",
+          "Iziqinisekiso ze-SLA ze-Hardware"
+        ],
+        "cta": "Thinta I-Enterprise Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Amaqiniso Okusebenza",
+    "heading": "Lokho Okushiwo Ngabaphathi Bezindlu",
+    "quotes": [
+      {
+        "text": "I-HydroLedger ishintshe i-P&L yethu yokusebenza ngokuyisisekelo. Sithole ukuvuza okuthathu okukhulu okufihliwe emapayipini emishini okusongele ngaphezu kuka-₹11 lakh kwikota yethu yokuqala kuphela."
+      },
+      {
+        "text": "Ukwethenjwa kwabahlali kukhuphuke kakhulu. Ukukhokhisa abaqashi bethu ngokusekelwe ngokuqinile ekusebenziseni amanzi esikhundleni sezibalo ezijwayelekile zamamitha amakhulu kuxazulule izingxabano zethu ezibuhlungu kakhulu zabaqashi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Ukusekelwa kwe-FAQ",
+    "heading": "Imibuzo Ebuzwa Njalo",
+    "items": [
+      {
+        "q": "Ingabe amamitha amancane ahlakaniphile adinga ukuvalwa kwemishini?",
+        "a": "Cha. Amayunithi ethu emitha amancane afakwa ngaphandle kokuhlasela ngqo phezu kwemigqa ekhona ezindaweni ezincane. Ukusetha kuqedwa ngokuhlanzekile ngemizuzu ngaphandle kokunqanyulwa kwezinsiza."
+      },
+      {
+        "q": "Izindleko zamanzi ezabiwe/ezokuhlanganyela zibalwa kanjani?",
+        "a": "Idamu eliphakathi lezindawo ezivamile (isb. izindawo zamachibi, ukulungisa izivande) lisuswa ngokuhlanzekile emamithini amakhulu kuqala. Amaqembu ezakhiwo abeka lezo zindleko ngokusekelwe esakhiweni noma ngokulinganisa ngokusobala."
+      },
+      {
+        "q": "I-HydroLedger ithola kanjani ukuhamba kwamanzi okuvuza okuqhubekayo ngokushesha?",
+        "a": "Amapayipi ethu ezaziso angemuva ahlola izimpawu zokudonsa okuqhubekayo. Uma ukugeleza kungathinti uziro emjikelezweni wemizuzu eyi-10, izixwayiso zithunyelwa khona manjalo ukuze kuncishiswe ubungozi bomonakalo."
+      },
+      {
+        "q": "Ingabe i-HydroLedger iphatha ukuphepha noma ubumfihlo babahlali?",
+        "a": "Yebo. I-HydroLedger ivikela futhi igcine izikhombi ze-portal yezakhamuzi ngemuva kweziteshi ezibhalwe ngemfihlo. Idatha yokusebenza igcinwa iphephile ngokuqinile ukulandelela ukusetshenziswa."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Joyina i-HydroLedger Namuhla",
+    "heading": "Qala Ukuqapha Ukusetshenziswa Kwamanzi Akho Namuhla",
+    "paragraph": "Khuthaza izilinganiso zokulondoloza, yenza lula izindleko zokukhokha zabahlali, futhi uvikele ingqalasizinda yemizi eminingi eyigugu. Ake sibale isilinganiso sakho somphakathi se-ROI.",
+    "ctaPrimary": "Cela Ikhotheshini",
+    "ctaSecondary": "Thinta I-Sales"
+  },
+  "footer": {
+    "tagline": "Amapayipi okwabiwa kwezinsiza ahlakaniphile nezixazululo zokukala zamanzi ezindawo zokuhlala zesikhathi sangempela. Vikela izinhlelo, vumelanisa izikweletu, yonga amanzi.",
+    "columns": [
+      {
+        "title": "Inkundla",
+        "links": [
+          "Ukukala",
+          "I-Billing Suite",
+          "I-Leak Guard",
+          "Uhlelo lokusebenza lwe-Resident"
+        ]
+      },
+      {
+        "title": "Izinsiza",
+        "links": [
+          "Izifundo Zamacala",
+          "Ibhulogi",
+          "Umhlahlandlela Wokufaka",
+          "Isikhungo Sosizo"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Ihhovisi Lezinkampani",
+    "copyright": "© 2026 HydroLedger Systems Inc. Wonke Amalungelo Agodliwe.",
+    "legalPrivacy": "Inqubomgomo Yobumfihlo",
+    "legalTerms": "Imigomo Yesevisi"
+  }
+}

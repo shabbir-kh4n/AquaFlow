@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Functies",
+    "linkHowItWorks": "Hoe het werkt",
+    "linkContact": "Contact",
+    "signIn": "Inloggen",
+    "getStarted": "Aan de slag"
+  },
+  "hero": {
+    "eyebrow": "Slim Waterbeheer",
+    "titleLine1": "Volg verbruik.",
+    "titleHighlight": "Eerlijke verdeling.",
+    "titleLine2": "Bespaar water.",
+    "paragraph": "HydroLedger biedt appartementencomplexen real-time inzicht in het verbruik, transparante facturering voor gedeelde kosten en vroege waarschuwingen bij lekkages — allemaal vanuit één dashboard.",
+    "ctaPrimary": "Aan de slag",
+    "ctaSecondary": "Inloggen",
+    "panelLabel": "Verbruik van deze maand",
+    "panelSub": "8% onder het huishoudelijk gemiddelde",
+    "chartLabelStart": "Ma",
+    "chartLabelEnd": "Zo"
+  },
+  "trustBar": {
+    "label": "Vertrouwd door vooruitstrevende beheerorganisaties voor meergezinswoningen"
+  },
+  "features": {
+    "pill": "Kerncapaciteiten",
+    "headingPrefix": "Alles wat nodig is om te",
+    "headingHighlight": "Monitoren & Factureren",
+    "headingSuffix": "Op een eerlijke manier",
+    "paragraph": "Zeg vaarwel tegen vaste tarieven voor nutsvoorzieningen. HydroLedger zorgt voor structurele rechtvaardigheid door nauwkeurige metingen en intelligente automatisering.",
+    "items": [
+      {
+        "tag": "Watermonitoring",
+        "title": "Real-time Sub-metering",
+        "text": "Meet het exacte, minuut-per-minuut waterverbruik per individuele unit in plaats van te vertrouwen op verouderde schattingen."
+      },
+      {
+        "tag": "Facturatie-automatisering",
+        "title": "Geautomatiseerde Gemeenschapsfacturering",
+        "text": "Genereer facturen direct voor bewoners, dynamisch gekoppeld aan het proportionele gebruik. Elimineer administratieve lasten direct."
+      },
+      {
+        "tag": "Risicobeperking",
+        "title": "Vroege Lekdetectie-waarschuwingen",
+        "text": "Directe geautomatiseerde waarschuwingen signaleren abnormale stroompatronen en vangen grote waterschade binnen enkele minuten op, in plaats van na maanden."
+      },
+      {
+        "tag": "Kostenallocatie",
+        "title": "Eerlijke Kostenverdeling",
+        "text": "Houd het gedeelde verbruik in algemene ruimtes bij en verdeel structurele kosten transparant om het vertrouwen van huishoudens en bewustzijn te vergroten."
+      }
+    ],
+    "learnMore": "Meer informatie"
+  },
+  "howItWorks": {
+    "pill": "Workflow-efficiëntie",
+    "heading": "Naadloze installatie, handsfree bediening",
+    "paragraph": "Snel opgestart. Zodra de hardware is verbonden, handelt het platform complexe berekeningen, factuurverzendingen en lekalarmen automatisch af.",
+    "steps": [
+      {
+        "title": "Slimme meters verbinden",
+        "text": "Onze gecertificeerde technici bevestigen niet-invasieve slimme debietmeters direct aan individuele stijgleidingen in minder dan 15 minuten."
+      },
+      {
+        "title": "Real-time tracking",
+        "text": "Gegevens stromen continu naar het HydroLedger cloudplatform, waarbij exacte verbruikscijfers worden vastgelegd en abnormale activiteit wordt gemonitord."
+      },
+      {
+        "title": "Facturen automatiseren",
+        "text": "Aan het einde van de maand combineert de engine de verdeling van algemene ruimtes en het gemeten verbruik in heldere, gespecificeerde facturen."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live voorbeeld bewonersportaal",
+    "headingPrefix": "Geef bewoners de kracht van",
+    "headingHighlight": "Verbruiksinzicht",
+    "paragraph": "Transparantie zorgt voor afstemming in de gemeenschap. Bewoners genieten van eenvoudige dashboards met real-time feedback, voorspellende kostenprojecties en proactieve lekmeldingen.",
+    "brandLabel": "Bewonersportaal",
+    "unitLabel": "Unit 4B — Huidige facturatiecyclus",
+    "stat1Label": "Verbruik deze maand",
+    "stat1Trend": "-12% t.o.v. gemiddelde",
+    "stat2Label": "Geschat factuurbedrag",
+    "stat2Trend": "Op schema",
+    "stat3Label": "Lekstatus",
+    "stat3Value": "Alles in orde",
+    "stat3Trend": "Veilige doorstroming",
+    "chartTitle": "Wekelijks verbruik (Gallons)",
+    "bars": [
+      "Wk 1",
+      "Wk 2",
+      "Wk 3",
+      "Wk 4",
+      "Wk 5 (Proj)"
+    ],
+    "tipTitle": "Bespaartip",
+    "tipText": "Uw keukenkraan vertoont in de ochtend een licht continue stroom. Het controleren van de perlator kan tot 10 gallons per week besparen.",
+    "tipBadge": "Geautomatiseerd inzicht",
+    "autopayTitle": "Automatische betaling ingeschakeld",
+    "autopayLabel": "Volgende automatische incassodatum",
+    "autopayButton": "Bekijk gedetailleerde PDF-factuur"
+  },
+  "audienceSplit": {
+    "residentPill": "Voor bewoners",
+    "residentHeading": "Eerlijke, op verbruik gebaseerde nutskosten",
+    "residentParagraph": "Stop met betalen voor het overmatige verbruik van uw buren. Betaal strikt voor het water dat u verbruikt, ondersteund door real-time dashboardgegevens.",
+    "residentBullets": [
+      "Nauwkeurige maandelijkse sub-metering gegevens met transparante kostenstatistieken.",
+      "SMS- en mobiele notificaties als er micro-lekkages in apparaten worden gedetecteerd.",
+      "Eenvoudig, gestroomlijnd digitaal factuurbetalingssysteem met automatische ontvangstbewijzen."
+    ],
+    "adminPill": "Voor vastgoedbeheerders",
+    "adminHeading": "Directe operationele ROI en afvalbeheersing",
+    "adminParagraph": "Transformeer het beheer van nutsvoorzieningen van een verliesgevende hoofdpijn naar een naadloze, hoogwaardige pijplijn met geautomatiseerde facturering voor bewoners.",
+    "adminBullets": [
+      "Handsfree toewijzing van nutsvoorzieningen, direct gekoppeld aan individuele units.",
+      "Onmiddellijke operationele waarschuwingen om kostbare structurele waterschade te voorkomen.",
+      "Gedetailleerde dashboardrapportage over hoofdmeterafrekening versus verdeelde volumes."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Gemiddelde waterbesparing",
+      "Actieve huishoudens",
+      "Systeem-uptime",
+      "Beheerde gemeenschappen"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparante pakketten",
+    "heading": "Operationele kosten met een hoog rendement",
+    "paragraph": "Kies een plan dat is afgestemd op uw exacte gemeenschapsdichtheid. HydroLedger compenseert de platformkosten meestal al in de eerste maand door verminderde verspilling in algemene ruimtes.",
+    "highlightBadge": "Beste waarde",
+    "customPriceLabel": "Op maat",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "per unit / maand",
+        "desc": "Perfect voor kleinere verenigingen van eigenaren die behoefte hebben aan essentiële sub-metering.",
+        "features": [
+          "Real-time meterstanden",
+          "SMS-lekmeldingen",
+          "Standaard factuurexports",
+          "Zelfbedieningsportaal"
+        ],
+        "cta": "Activeer Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "per unit / maand",
+        "desc": "Ons standaardpakket voor klassieke appartementencomplexen die volledig geautomatiseerde facturering wensen.",
+        "features": [
+          "Alles in Starter",
+          "Geautomatiseerde PDF-factuurverzending",
+          "Proportionele toewijzing algemene ruimtes",
+          "Prioritaire klantenservice"
+        ],
+        "cta": "Ga voor Pro (meest gekozen)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "op aanvraag",
+        "desc": "Voor uitgebreide institutionele gemeenschappen die aangepaste API-pijplijnen en facturatieconfiguraties vereisen.",
+        "features": [
+          "Alles in Professional",
+          "Op maat gemaakte facturatiesoftware-integraties",
+          "Toegewijde nutsconsultant",
+          "Hardware SLA-garanties"
+        ],
+        "cta": "Neem contact op met Enterprise Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operationele realiteit",
+    "heading": "Wat vastgoedbeheerders zeggen",
+    "quotes": [
+      {
+        "text": "HydroLedger heeft onze operationele resultaten fundamenteel veranderd. We ontdekten drie grote verborgen lekken in de mechanische leidingen, wat ons in het eerste kwartaal alleen al meer dan ₹11 lakh heeft bespaard."
+      },
+      {
+        "text": "Het vertrouwen van bewoners is enorm gestegen. Het factureren van onze huurders op basis van strikt waterverbruik in plaats van algemene berekeningen per woning, loste onze meest pijnlijke huurdersgeschillen op."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Ondersteuning",
+    "heading": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Vereisen slimme sub-meters mechanische afsluitingen?",
+        "a": "Nee. Onze innovatieve meterunits passen niet-invasief direct over bestaande leidingen in individuele kruipruimtes. Installaties worden netjes binnen enkele minuten voltooid zonder afsluiting voor meerdere huurders."
+      },
+      {
+        "q": "Hoe worden gemeenschappelijke/gedeelde waterkosten berekend?",
+        "a": "De centrale ruimte (bijv. zwembadfaciliteiten, groenvoorziening) wordt eerst netjes van de hoofdmeters afgetrokken. Vastgoedgroepen wijzen die structureel of pro rata transparant toe."
+      },
+      {
+        "q": "Hoe snel detecteert HydroLedger continue lekstromen?",
+        "a": "Onze achtergrond-alertpijplijnen controleren continue stroomsignalen. Als de doorstroming over een voortschrijdende cyclus van 10 minuten niet naar nul gaat, worden waarschuwingen direct verstuurd om schade te minimaliseren."
+      },
+      {
+        "q": "Gaat HydroLedger zorgvuldig om met beveiliging of privacy van bewoners?",
+        "a": "Ja. HydroLedger beschermt en slaat identificatiegegevens van het bewonersportaal op achter standaard versleutelde kanalen. Operationele gegevens worden strikt veilig bewaard voor verbruiksmonitoring."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Sluit je vandaag aan bij HydroLedger",
+    "heading": "Begin vandaag met het monitoren van uw waterverbruik",
+    "paragraph": "Verbeter besparingscijfers, vereenvoudig de administratieve factuurlast en bescherm waardevolle infrastructuur in huishoudens. Laat ons uw ROI voor uw gemeenschap berekenen.",
+    "ctaPrimary": "Offerte aanvragen",
+    "ctaSecondary": "Contact opnemen met Sales"
+  },
+  "footer": {
+    "tagline": "Slimme pijplijnen voor nutstoewijzing en real-time sub-metering voor woningen. Bescherm systemen, stem facturen af, bespaar water.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Sub-metering",
+          "Facturatiesuite",
+          "Lekbeveiliging",
+          "Bewoners-app"
+        ]
+      },
+      {
+        "title": "Bronnen",
+        "links": [
+          "Casestudies",
+          "Blog",
+          "Installatiehandleiding",
+          "Helpcentrum"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Hoofdkantoor",
+    "copyright": "© 2026 HydroLedger Systems Inc. Alle rechten voorbehouden.",
+    "legalPrivacy": "Privacybeleid",
+    "legalTerms": "Algemene voorwaarden"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funksiyalar",
+    "linkHowItWorks": "Necə işləyir",
+    "linkContact": "Əlaqə",
+    "signIn": "Daxil ol",
+    "getStarted": "Başla"
+  },
+  "hero": {
+    "eyebrow": "Ağıllı Su Monitorinqi",
+    "titleLine1": "İstifadəyə nəzarət edin.",
+    "titleHighlight": "Ədalətli bölgü.",
+    "titleLine2": "Suya qənaət edin.",
+    "paragraph": "HydroLedger mənzil icmalarına real vaxt rejimində istehlak anlayışları, şəffaf paylaşılan xərclərin hesablanması və erkən sızma xəbərdarlıqları təqdim edir — hamısı bir idarə panelindən.",
+    "ctaPrimary": "Başla",
+    "ctaSecondary": "Daxil ol",
+    "panelLabel": "Bu ayın istifadəsi",
+    "panelSub": "Ev təsərrüfatı ortalamasından 8% aşağı",
+    "chartLabelStart": "B.e",
+    "chartLabelEnd": "Bazar"
+  },
+  "trustBar": {
+    "label": "Mütərəqqi çoxmənzilli idarəetmə qrupları tərəfindən etibar edilir"
+  },
+  "features": {
+    "pill": "Əsas İmkanlar",
+    "headingPrefix": "Lazım olan hər şey",
+    "headingHighlight": "Monitorinq və Hesablaşma",
+    "headingSuffix": "Ədalətli",
+    "paragraph": "Sabit tarifli kommunal bölgülərlə vidalaşın. HydroLedger dəqiq ölçmə və intellektual avtomatlaşdırma vasitəsilə struktur bərabərliyi təmin edir.",
+    "items": [
+      {
+        "tag": "Su İzləmə",
+        "title": "Real Vaxt Rejimində Alt-Ölçmə",
+        "text": "Köhnəlmiş əsas təxminlərə güvənmək əvəzinə, ayrı-ayrı vahidlər üzrə dəqiq, dəqiqəlik su istehlakını ölçün."
+      },
+      {
+        "tag": "Hesablaşma Avtomatlaşdırması",
+        "title": "Avtomatlaşdırılmış İcma Hesablaşması",
+        "text": "Dinamik olaraq mütənasib istifadəyə uyğunlaşdırılmış birbaşa sakinə göndərilən fakturalar. Hesablaşma yükünü dərhal aradan qaldırın."
+      },
+      {
+        "tag": "Risklərin Azaldılması",
+        "title": "Erkən Sızma Deteksiya Xəbərdarlıqları",
+        "text": "Ani avtomatlaşdırılmış xəbərdarlıqlar anormal axın nümunələrini qeyd edir və böyük su zədələrini aylar deyil, dəqiqələr ərzində aşkar edir."
+      },
+      {
+        "tag": "Xərclərin Bölüşdürülməsi",
+        "title": "Ədalətli Xərc Bölgüsü",
+        "text": "Paylaşılan ümumi ərazi istifadəsini izləyin və ev təsərrüfatlarının etibarını və qənaəti artırmaq üçün struktur xərcləri şəffaf şəkildə bölüşdürün."
+      }
+    ],
+    "learnMore": "Daha çox məlumat"
+  },
+  "howItWorks": {
+    "pill": "İş axını səmərəliliyi",
+    "heading": "Problemsiz quraşdırma, əllə müdaxiləsiz işləmə",
+    "paragraph": "Sürətlə qurun. Avadanlıq bölmələri qoşulduqdan sonra platforma mürəkkəb hesablamaları, faktura göndərilmələrini və sızma xəbərdarlıqlarını yerli şəkildə idarə edir.",
+    "steps": [
+      {
+        "title": "Ağıllı Sayğacları Qoşun",
+        "text": "Sertifikatlı texniklərimiz invaziv olmayan ağıllı axın alt-sayğaclarını 15 dəqiqədən az müddətdə birbaşa fərdi yüksəldici klapanlara qoşur."
+      },
+      {
+        "title": "Real Vaxt İzləmə",
+        "text": "Məlumatlar davamlı olaraq HydroLedger bulud platformasına axır, dəqiq istifadə rəqəmlərini qeyd edir və anormal fəaliyyəti izləyir."
+      },
+      {
+        "title": "Hesabları Avtomatlaşdırın",
+        "text": "Ayın sonunda sistem ümumi ərazi bölgülərini və alt-sayğac həcmlərini aydın, maddələr üzrə ayrılmış fakturalarda birləşdirir."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Canlı Sakin Portalı Maketi",
+    "headingPrefix": "Sakinləri gücləndirin",
+    "headingHighlight": "İstehlak Aydınığı",
+    "paragraph": "Şəffaflıq icma uyğunluğunu yaradır. Sakinlər real vaxt rejimində rəy, proqnozlaşdırılan xərc hesablamaları və proaktiv sızma xəbərdarlıqları ilə sadə idarə panellərindən zövq alırlar.",
+    "brandLabel": "Sakin Portalı",
+    "unitLabel": "Vahid 4B — Cari Hesab Dövrü",
+    "stat1Label": "Bu Ayın İstifadəsi",
+    "stat1Trend": "-12% ortalamaya qarşı",
+    "stat2Label": "Təxmini Hesab Məbləği",
+    "stat2Trend": "Normal",
+    "stat3Label": "Sızma Vəziyyəti",
+    "stat3Value": "Hər şey qaydasındadır",
+    "stat3Trend": "Təhlükəsiz Axın",
+    "chartTitle": "Həftəlik İstifadə (Qalon)",
+    "bars": [
+      "Həftə 1",
+      "Həftə 2",
+      "Həftə 3",
+      "Həftə 4",
+      "Həftə 5 (Proj)"
+    ],
+    "tipTitle": "Qənaət Məsləhəti",
+    "tipText": "Mətbəx kranınız səhərlər bir az fasiləsiz axın göstərir. Aeratorları yoxlamaq həftədə 10 qalona qədər qənaət edə bilər.",
+    "tipBadge": "Avtomatlaşdırılmış Anlayış",
+    "autopayTitle": "Avtomatik ödəniş aktivdir",
+    "autopayLabel": "Növbəti avtomatik ödəniş tarixi",
+    "autopayButton": "Ətraflı PDF fakturanı nəzərdən keçirin"
+  },
+  "audienceSplit": {
+    "residentPill": "Sakinlər üçün",
+    "residentHeading": "Ədalətli, İstehlaka Əsaslanan Kommunal Xərclər",
+    "residentParagraph": "Qonşunuzun həddindən artıq istehlakına görə pul ödəməyi dayandırın. Real vaxt rejimində idarə paneli məlumatları ilə dəstəklənən, yalnız istifadə etdiyiniz qalonlar üçün ödəniş edin.",
+    "residentBullets": [
+      "Şəffaf xərc ölçüləri ilə dəqiq aylıq alt-sayğac məlumatları.",
+      "Məişət texnikasında mikro sızmalar aşkar edilərsə, SMS və mobil bildirişlər.",
+      "Sadə, avtomatlaşdırılmış qəbzlərlə rəqəmsal faktura ödəniş sistemi."
+    ],
+    "adminPill": "Əmlak İdarəçiləri üçün",
+    "adminHeading": "Ani Əməliyyat ROI və Tullantılara Nəzarət",
+    "adminParagraph": "Kommunal idarəetməni yüksək itkili baş ağrısından, avtomatlaşdırılmış sakin hesablaşması ilə sorunsuz, yüksək marjinal bir kanala çevirin.",
+    "adminBullets": [
+      "Birbaşa fərdi vahidlərə qoşulmuş əllə müdaxiləsiz kommunal bölgü.",
+      "Yüksək xərcli struktur su zədələrinin qarşısını almaq üçün dərhal əməliyyat xəbərdarlıqları.",
+      "Əsas sayğac hesablaşması ilə paylanmış qalonların müqayisəli ətraflı hesabatı."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Qənaət Edilən Orta Su",
+      "Aktiv Ev Təsərrüfatları",
+      "Sistem İşləmə Vaxtı",
+      "İdarə Olunan İcmalar"
+    ]
+  },
+  "pricing": {
+    "pill": "Şəffaf Paketlər",
+    "heading": "Yüksək İnvestisiya Gəlirli Əməliyyat Xərcləri",
+    "paragraph": "İcmanızın dəqiq sıxlığına uyğunlaşdırılmış plan seçin. HydroLedger adətən platforma haqlarını ilk ayda azalmış ümumi ərazi tullantıları hesabına ödəyir.",
+    "highlightBadge": "Ən Yaxşı Dəyər",
+    "customPriceLabel": "Fərdi",
+    "tiers": [
+      {
+        "name": "Başlanğıc",
+        "unit": "vahiddə / ayda",
+        "desc": "Əsas alt-sayğac imkanlarına ehtiyacı olan kiçik şəhərcik assosiasiyaları üçün mükəmməldir.",
+        "features": [
+          "Real Vaxt Sayğac Göstəriciləri",
+          "SMS Sızma Xəbərdarlıqları",
+          "Standart Hesablaşma İxracı",
+          "Özünəxidmət Portalı"
+        ],
+        "cta": "Başlanğıcı Aktivləşdirin"
+      },
+      {
+        "name": "Peşəkar",
+        "unit": "vahiddə / ayda",
+        "desc": "Tam avtomatlaşdırılmış sakin hesablaşması istəyən klassik mənzil icmaları üçün qızıl standart paketimiz.",
+        "features": [
+          "Başlanğıc paketindəki hər şey",
+          "Avtomatlaşdırılmış PDF Faktura Göndərilməsi",
+          "Mütənasib Ümumi Ərazi Bölgüləri",
+          "Prioritet Müştəri Dəstəyi"
+        ],
+        "cta": "Pro-ya Keçin (Ən Populyar)"
+      },
+      {
+        "name": "Müəssisə",
+        "unit": "sorğu əsasında",
+        "desc": "Bespoke API kanalları və hesablaşma konfiqurasiyaları tələb edən geniş institusional icmalar üçün.",
+        "features": [
+          "Peşəkar paketdəki hər şey",
+          "Xüsusi Hesablaşma Proqramı İnteqrasiyaları",
+          "İxtisaslaşmış Kommunal Məsləhətçi",
+          "Avadanlıq SLA Zəmanətləri"
+        ],
+        "cta": "Müəssisə Satışı ilə Əlaqə Saxlayın"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Əməliyyat Reallıqları",
+    "heading": "Əmlak Menecerləri nə deyir",
+    "quotes": [
+      {
+        "text": "HydroLedger bizim əməliyyat mənfəət və zərər hesabatımızı kökündən dəyişdi. Biz mexaniki xətlərdə təkcə ilk rübdə 1,1 lakh-dan çox qənaət etməyimizə səbəb olan üç böyük gizli sızma aşkar etdik."
+      },
+      {
+        "text": "Sakinlərin etibarı yüksəldi. İcarəçilərimizə ümumi çoxotaqlı əsas sayğac hesablamaları əvəzinə, ciddi şəkildə su istifadəsinə əsaslanan faktura göndərmək ən ağrılı icarəçi mübahisələrimizi həll etdi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Dəstəyi",
+    "heading": "Tez-tez Verilən Suallar",
+    "items": [
+      {
+        "q": "Ağıllı alt-sayğaclar mexaniki xidmət kəsilməsini tələb edirmi?",
+        "a": "Xeyr. Bizim innovativ yüksəldici sayğac bölmələrimiz invaziv olmayan şəkildə birbaşa mövcud xətlərin üzərinə quraşdırılır. Quraşdırma çoxmənzilli kommunal kəsintilər olmadan dəqiqələr içində təmiz şəkildə tamamlanır."
+      },
+      {
+        "q": "Ümumi/paylaşılan su xərcləri necə hesablanır?",
+        "a": "Mərkəzi ümumi ərazi hovuzu (məsələn, hovuz obyektləri, yaşıllıqlar) əvvəlcə əsas sayğaclardan təmiz şəkildə çıxılır. Əmlak qrupları bunları struktur şəkildə və ya şəffaf nisbətlə bölüşdürür."
+      },
+      {
+        "q": "HydroLedger fasiləsiz sızma axınlarını nə qədər sürətlə aşkar edir?",
+        "a": "Arxa plan xəbərdarlıq kanallarımız davamlı axın siqnallarını yoxlayır. Axın 10 dəqiqəlik dövr ərzində sıfıra düşmürsə, zədələnmə risklərini minimuma endirmək üçün xəbərdarlıq dərhal göndərilir."
+      },
+      {
+        "q": "HydroLedger təhlükəsizlik və ya sakinlərin məxfiliyini idarə edirmi?",
+        "a": "Bəli. HydroLedger sakin portalı identifikatorlarını standart şifrələnmiş kanallar arxasında qoruyur və saxlayır. Əməliyyat məlumatları yalnız istehlak izlənməsi üçün təhlükəsiz saxlanılır."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "HydroLedger-ə qoşulun",
+    "heading": "Bu gün su istifadənizi izləməyə başlayın",
+    "paragraph": "Qənaət göstəricilərini artırın, sakinlərin hesablaşma yükünü sadələşdirin və dəyərli çoxmənzilli infrastrukturu qoruyun. Gəlin sizin xüsusi icma ROI hesablamanızı aparaq.",
+    "ctaPrimary": "Qiymət Tələb Edin",
+    "ctaSecondary": "Satışla Əlaqə"
+  },
+  "footer": {
+    "tagline": "Ağıllı kommunal bölgü kanalları və real vaxt rejimində yaşayış alt-sayğac həlləri. Sistemləri qoruyun, hesabları düzəldin, suya qənaət edin.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Alt-Sayğac",
+          "Hesablaşma Paketi",
+          "Sızma Qoruyucusu",
+          "Sakin Tətbiqi"
+        ]
+      },
+      {
+        "title": "Resurslar",
+        "links": [
+          "Nümunə Araşdırmalar",
+          "Bloq",
+          "Quraşdırma Bələdçisi",
+          "Məlumat Mərkəzi"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporativ Ofis",
+    "copyright": "© 2026 HydroLedger Systems Inc. Bütün hüquqlar qorunur.",
+    "legalPrivacy": "Məxfilik Siyasəti",
+    "legalTerms": "Xidmət Şərtləri"
+  }
+}

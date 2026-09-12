@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Karakteristikat",
+    "linkHowItWorks": "Si funksionon",
+    "linkContact": "Kontaktoni",
+    "signIn": "Identifikohu",
+    "getStarted": "Fillo tani"
+  },
+  "hero": {
+    "eyebrow": "Monitorim inteligjent i ujit",
+    "titleLine1": "Gjurmo përdorimin.",
+    "titleHighlight": "Ndaje në mënyrë të drejtë.",
+    "titleLine2": "Kurse ujë.",
+    "paragraph": "HydroLedger u jep komuniteteve të apartamenteve njohuri në kohë reale për konsumin, faturim transparent të kostove të përbashkëta dhe alarme të hershme për rrjedhjet — të gjitha nga një panel i vetëm.",
+    "ctaPrimary": "Fillo tani",
+    "ctaSecondary": "Identifikohu",
+    "panelLabel": "Përdorimi i këtij muaji",
+    "panelSub": "8% nën mesataren e familjes",
+    "chartLabelStart": "Hën",
+    "chartLabelEnd": "Die"
+  },
+  "trustBar": {
+    "label": "I besuar nga grupet progresive të menaxhimit të shumë familjeve"
+  },
+  "features": {
+    "pill": "Kapacitetet Kryesore",
+    "headingPrefix": "Gjithçka që nevojitet për",
+    "headingHighlight": "Monitorim dhe Faturim",
+    "headingSuffix": "të Drejtë",
+    "paragraph": "Thuaj lamtumirë ndarjeve fikse të shërbimeve. HydroLedger nxit barazinë strukturore përmes matjes së saktë dhe automatizimit inteligjent.",
+    "items": [
+      {
+        "tag": "Gjurmimi i Ujit",
+        "title": "Nën-matje në kohë reale",
+        "text": "Mat konsumin e saktë të ujit minutë pas minute nëpër njësitë individuale në vend që të mbështetesh në vlerësimet e vjetruara të njehsorit kryesor."
+      },
+      {
+        "tag": "Automatizimi i Faturimit",
+        "title": "Faturimi i automatizuar i komunitetit",
+        "text": "Gjenerimi i faturave direkt për banorët, i lidhur dinamikisht me përdorimin proporcional. Eliminoni shpenzimet administrative të faturimit menjëherë."
+      },
+      {
+        "tag": "Zbutja e Rrezikut",
+        "title": "Alarme të hershme për rrjedhjet",
+        "text": "Alarmet e menjëhershme të automatizuara sinjalizojnë modelet jonormale të rrjedhjes dhe kapin dëmet e mëdha nga uji brenda minutash, jo muajsh."
+      },
+      {
+        "tag": "Alokimi i Kostove",
+        "title": "Shpërndarja e drejtë e kostove",
+        "text": "Gjurmo përdorimin e përbashkët të zonave dhe shpërndaji kostot strukturore në mënyrë transparente për të ndërtuar besimin e banorëve dhe ruajtjen e ujit."
+      }
+    ],
+    "learnMore": "Mëso më shumë"
+  },
+  "howItWorks": {
+    "pill": "Efikasiteti i rrjedhës së punës",
+    "heading": "Instalim pa probleme, funksionim pa ndërhyrje",
+    "paragraph": "Bëhu gati shpejt. Pasi pajisjet harduerike të lidhen, platforma trajton llogaritjet komplekse, dërgimin e faturave dhe alarmet për rrjedhjet në mënyrë vendase.",
+    "steps": [
+      {
+        "title": "Lidhja e Njehsorëve Inteligjentë",
+        "text": "Teknikët tanë të certifikuar bashkojnë nën-matësit e rrjedhës inteligjente jo-invazive direkt në valvulat individuale të ngritjes nën 15 minuta."
+      },
+      {
+        "title": "Gjurmimi në Kohë Reale",
+        "text": "Të dhënat rrjedhin vazhdimisht në platformën cloud të HydroLedger, duke regjistruar shifrat e sakta të përdorimit dhe duke monitoruar aktivitetin jonormal."
+      },
+      {
+        "title": "Automatizimi i Faturave",
+        "text": "Në fund të muajit, motori kombinon shpërndarjet e zonave të përbashkëta dhe vëllimet e nën-matuara në fatura të qarta dhe të detajuara."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Modeli i Portalit të Banorëve Live",
+    "headingPrefix": "Fuqizo banorët me",
+    "headingHighlight": "Qartësi mbi Konsumin",
+    "paragraph": "Transparenca ndërton harmoninë e komunitetit. Banorët gëzojnë panele të thjeshta me reagime në kohë reale, projeksione të kostos parashikuese dhe paralajmërime proaktive për rrjedhjet.",
+    "brandLabel": "Portali i Banorëve",
+    "unitLabel": "Njësia 4B — Cikli aktual i faturimit",
+    "stat1Label": "Përdorimi i këtij muaji",
+    "stat1Trend": "-12% kundrejt mesatares",
+    "stat2Label": "Shuma e vlerësuar e faturës",
+    "stat2Trend": "Në rrugën e duhur",
+    "stat3Label": "Statusi i rrjedhjes",
+    "stat3Value": "Gjithçka në rregull",
+    "stat3Trend": "Rrjedhje e sigurt",
+    "chartTitle": "Përdorimi javor (Gallonë)",
+    "bars": [
+      "Java 1",
+      "Java 2",
+      "Java 3",
+      "Java 4",
+      "Java 5 (Proj.)"
+    ],
+    "tipTitle": "Këshillë për konservim",
+    "tipText": "Çezma e kuzhinës suaj tregon një rrjedhje paksa të vazhdueshme në mëngjes. Kontrollimi i aeratorëve mund të kursejë deri në 10 gallonë në javë.",
+    "tipBadge": "Njohuri e automatizuar",
+    "autopayTitle": "Pagesa automatike e aktivizuar",
+    "autopayLabel": "Data e ardhshme e pagesës automatike",
+    "autopayButton": "Shiko faturën e detajuar PDF"
+  },
+  "audienceSplit": {
+    "residentPill": "Për Banorët",
+    "residentHeading": "Kosto të drejta të shërbimeve bazuar në konsum",
+    "residentParagraph": "Mos paguaj për konsumin e tepërt të fqinjit tënd. Paguaj në mënyrë strikte për gallonët që konsumon, të mbështetur nga të dhënat e panelit në kohë reale.",
+    "residentBullets": [
+      "Të dhëna të sakta të nën-matjes mujore me metrika transparente të kostos.",
+      "Njoftime me SMS dhe celular nëse zbulohen mikro-rrjedhje në pajisje.",
+      "Sistem i thjeshtë dhe efikas i pagesës së faturave dixhitale me fatura automatike."
+    ],
+    "adminPill": "Për Administratorët e Pronës",
+    "adminHeading": "ROI operacional i menjëhershëm dhe kontrolli i mbetjeve",
+    "adminParagraph": "Shndërroni menaxhimin e shërbimeve nga një dhimbje koke me humbje të larta në një proces të qetë dhe me marzhë të lartë me faturimin e automatizuar të banorëve.",
+    "adminBullets": [
+      "Alokim i shërbimeve pa duar, i lidhur direkt me njësitë individuale.",
+      "Alarme operacionale të menjëhershme për të parandaluar dëmet strukturore të kushtueshme nga uji.",
+      "Raportim i detajuar i panelit mbi faturimin e njehsorit kryesor kundrejt gallonëve të shpërndarë."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Uji i kursyer mesatarisht",
+      "Familje aktive",
+      "Kohëzgjatja e sistemit",
+      "Komunitete të menaxhuara"
+    ]
+  },
+  "pricing": {
+    "pill": "Paketa transparente",
+    "heading": "Kostot operacionale me kthim të lartë nga investimi",
+    "paragraph": "Zgjidhni një plan të shkallëzuar sipas densitetit tuaj të saktë të komunitetit. HydroLedger zakonisht kompenson tarifat e veta të platformës në muajin e parë përmes zvogëlimit të mbetjeve në zonat e përbashkëta.",
+    "highlightBadge": "Vlera më e mirë",
+    "customPriceLabel": "Me porosi",
+    "tiers": [
+      {
+        "name": "Fillestar",
+        "unit": "për njësi / muaj",
+        "desc": "E përkryer për shoqatat më të vogla të shtëpive që kanë nevojë për aftësi thelbësore të nën-matjes.",
+        "features": [
+          "Lexime të njehsorëve në kohë reale",
+          "Alarme për rrjedhjet me SMS",
+          "Eksporte standarde të faturimit",
+          "Portal vetë-shërbimi"
+        ],
+        "cta": "Aktivizo Fillestarin"
+      },
+      {
+        "name": "Profesional",
+        "unit": "për njësi / muaj",
+        "desc": "Paketa jonë standarde e artë për komunitetet klasike të apartamenteve që dëshirojnë faturim plotësisht të automatizuar të banorëve.",
+        "features": [
+          "Gjithçka tek Fillestari",
+          "Dërgimi i automatizuar i faturave PDF",
+          "Alokime proporcionale të zonave të përbashkëta",
+          "Mbështetje prioritare për klientët"
+        ],
+        "cta": "Bëhu Pro (Më i popullarizuari)"
+      },
+      {
+        "name": "Ndërmarrje",
+        "unit": "me kërkesë",
+        "desc": "Për komunitetet e mëdha institucionale që kërkojnë linja API dhe konfigurime faturimi të personalizuara.",
+        "features": [
+          "Gjithçka tek Profesional",
+          "Integrime të personalizuara të softuerit të faturimit",
+          "Konsulent i dedikuar për shërbimet",
+          "Garanci SLA për pajisjet"
+        ],
+        "cta": "Kontakto shitjet për Ndërmarrje"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realitetet operacionale",
+    "heading": "Çfarë thonë menaxherët e pronave",
+    "quotes": [
+      {
+        "text": "HydroLedger ndryshoi rrënjësisht P&L-në tonë operacionale. Zbuluam tri rrjedhje të mëdha të fshehura në linjat mekanike që na kursyen mbi 11 lakh ₹ vetëm në tremujorin tonë të parë."
+      },
+      {
+        "text": "Besimi i banorëve është rritur. Faturimi i qiramarrësve tanë bazuar në mënyrë strikte në përdorimin e ujit, në vend të llogaritjeve të përgjithshme të njehsorëve kryesorë për shumë dhoma gjumi, zgjidhi mosmarrëveshjet tona më të dhimbshme me qiramarrësit."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Mbështetje FAQ",
+    "heading": "Pyetje të bëra shpesh",
+    "items": [
+      {
+        "q": "A kërkojnë nën-matësit inteligjentë mbyllje të shërbimit mekanik?",
+        "a": "Jo. Njësitë tona inovative të njehsorëve ngritës montohen pa ndërhyrje direkt mbi linjat ekzistuese në hapësirat individuale tënë dysheme. Instalimi përfundon pastër në pak minuta pa ndërprerje të shërbimeve për banorët."
+      },
+      {
+        "q": "Si llogariten kostot e përbashkëta të ujit?",
+        "a": "Pishina qendrore e zonës së përbashkët (p.sh. facilitetet e pishinës, peizazhi) zbritet pastër nga njehsorët kryesorë në fillim. Grupet e pronave i alokojnë ato strukturalisht ose i ndajnë në mënyrë transparente."
+      },
+      {
+        "q": "Sa shpejt e zbulon HydroLedger rrjedhjen e vazhdueshme?",
+        "a": "Linjat tona të alarmit në sfond kontrollojnë sinjalet e konsumit të vazhdueshëm. Nëse rrjedhja nuk shkon në zero gjatë një cikli prej 10 minutash, paralajmërimet dërgohen menjëherë për të minimizuar rreziqet e dëmtimit."
+      },
+      {
+        "q": "A trajton HydroLedger sigurinë ose privatësinë e banorëve?",
+        "a": "Po. HydroLedger mbron dhe ruan identifikuesit e portalit të banorëve pas kanaleve standarde të koduara. Të dhënat operacionale mbahen të sigurta në mënyrë strikte për gjurmimin e konsumit."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Bashkohuni me HydroLedger sot",
+    "heading": "Filloni të monitoroni përdorimin e ujit tuaj sot",
+    "paragraph": "Rritni metrikat e ruajtjes, thjeshtoni shpenzimet e faturimit të banorëve dhe mbroni infrastrukturën e vlefshme për shumë familje. Le të llogarisim vlerësimin tuaj të personalizuar të ROI-t për komunitetin.",
+    "ctaPrimary": "Kërko ofertë",
+    "ctaSecondary": "Kontakto shitjet"
+  },
+  "footer": {
+    "tagline": "Linja të alokimit të shërbimeve inteligjente dhe zgjidhje për nën-matjen e banimeve në kohë reale. Mbroni sistemet, harmonizoni faturat, kurseni ujë.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Nën-matja",
+          "Suita e Faturimit",
+          "Mbrojtja nga rrjedhjet",
+          "Aplikacioni i banorëve"
+        ]
+      },
+      {
+        "title": "Burime",
+        "links": [
+          "Studime rasti",
+          "Blog",
+          "Udhëzues instalimi",
+          "Qendra e ndihmës"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Zyra Qendrore",
+    "copyright": "© 2026 HydroLedger Systems Inc. Të gjitha të drejtat e rezervuara.",
+    "legalPrivacy": "Politika e privatësisë",
+    "legalTerms": "Kushtet e shërbimit"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "navbar": {
+    "linkFeatures": "Features",
+    "linkHowItWorks": "How it works",
+    "linkContact": "Contact",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "eyebrow": "Smart Water Monitoring",
+    "titleLine1": "Track usage.",
+    "titleHighlight": "Split fairly.",
+    "titleLine2": "Save water.",
+    "paragraph": "HydroLedger gives apartment communities real-time consumption insights, transparent shared-cost billing, and early leak alerts — all from one dashboard.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Sign In",
+    "panelLabel": "This month's usage",
+    "panelSub": "8% below household average",
+    "chartLabelStart": "Mon",
+    "chartLabelEnd": "Sun"
+  },
+  "trustBar": {
+    "label": "Trusted by progressive multi-family management groups"
+  },
+  "features": {
+    "pill": "Core Capabilities",
+    "headingPrefix": "Everything Needed to",
+    "headingHighlight": "Monitor & Bill",
+    "headingSuffix": "Fairly",
+    "paragraph": "Say goodbye to flat-rate utility splits. HydroLedger drives structural equity through precise measurement and intelligent automation.",
+    "items": [
+      {
+        "tag": "Water Tracking",
+        "title": "Real-Time Sub-Metering",
+        "text": "Measure exact, minute-by-minute water consumption across individual units instead of relying on outdated master estimates."
+      },
+      {
+        "tag": "Billing Automation",
+        "title": "Automated Community Billing",
+        "text": "Direct-to-resident invoice generation mapped dynamically to proportional use. Eliminate billing overhead instantly."
+      },
+      {
+        "tag": "Risk Mitigation",
+        "title": "Early Leak Detection Alerts",
+        "text": "Instant automated alerts flag abnormal flow patterns and catch major water damage within minutes, not months."
+      },
+      {
+        "tag": "Cost Allocation",
+        "title": "Fair Cost Distribution",
+        "text": "Track shared common-area usage and distribute structural costs transparently to build household trust and conservation."
+      }
+    ],
+    "learnMore": "Learn more"
+  },
+  "howItWorks": {
+    "pill": "Workflow Efficiency",
+    "heading": "Seamless Installation, Hands-Free Operation",
+    "paragraph": "Get set up rapidly. Once hardware units connect, the platform handles complex calculations, invoice dispatches, and leak alerts natively.",
+    "steps": [
+      {
+        "title": "Connect Smart Meters",
+        "text": "Our certified technicians attach non-invasive smart flow sub-meters directly to individual riser valves in under 15 minutes."
+      },
+      {
+        "title": "Real-Time Tracking",
+        "text": "Data streams continuously to the HydroLedger cloud platform, logging exact usage figures and monitoring abnormal activity."
+      },
+      {
+        "title": "Automate Bills",
+        "text": "At month-end, the engine combines common-area distributions and sub-metered volumes into clear, itemized invoices."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live Resident Portal Mockup",
+    "headingPrefix": "Empower Residents With",
+    "headingHighlight": "Consumption Clarity",
+    "paragraph": "Transparency builds community alignment. Residents enjoy simple dashboards with real-time feedback, predictive cost projections, and proactive leak warnings.",
+    "brandLabel": "Resident Portal",
+    "unitLabel": "Unit 4B — Current Bill Cycle",
+    "stat1Label": "This Month's Use",
+    "stat1Trend": "-12% vs Avg",
+    "stat2Label": "Est. Bill Amount",
+    "stat2Trend": "On Track",
+    "stat3Label": "Leak Status",
+    "stat3Value": "All Clear",
+    "stat3Trend": "Safe Flow",
+    "chartTitle": "Weekly Usage (Gallons)",
+    "bars": ["Wk 1", "Wk 2", "Wk 3", "Wk 4", "Wk 5 (Proj)"],
+    "tipTitle": "Conservation Tip",
+    "tipText": "Your kitchen faucet shows slightly continuous flow in the morning. Checking aerators could save up to 10 gallons/week.",
+    "tipBadge": "Automated Insight",
+    "autopayTitle": "Autopay Enabled",
+    "autopayLabel": "Next Auto-Bill date",
+    "autopayButton": "View Detailed PDF Invoice"
+  },
+  "audienceSplit": {
+    "residentPill": "For Residents",
+    "residentHeading": "Fair, Consumption-Based Utility Costs",
+    "residentParagraph": "Stop paying for your neighbor's excessive consumption. Pay strictly for the gallons you draw, backed by real-time dashboard data.",
+    "residentBullets": [
+      "Accurate monthly sub-metering data with transparent cost metrics.",
+      "SMS & mobile notifications if micro-leaks are detected in appliances.",
+      "Simple, streamlined digital invoice payment system with automated receipts."
+    ],
+    "adminPill": "For Property Admins",
+    "adminHeading": "Instant Operational ROI and Waste Control",
+    "adminParagraph": "Transform utility management from a high-loss headache into a seamless, high-margin pipeline with automated resident billing.",
+    "adminBullets": [
+      "Hands-free utility allocation directly connected to individual units.",
+      "Immediate operational alerts to prevent high-cost structural water damage.",
+      "Detailed dashboard reporting on master meter billing vs. distributed gallons."
+    ]
+  },
+  "stats": {
+    "labels": ["Average Water Saved", "Active Households", "System Uptime", "Communities Managed"]
+  },
+  "pricing": {
+    "pill": "Transparent Packages",
+    "heading": "High Return-on-Investment Operational Costs",
+    "paragraph": "Choose a plan scaled to your exact community density. HydroLedger usually offsets its own platform fees in the first month through reduced common-area waste.",
+    "highlightBadge": "Best Value",
+    "customPriceLabel": "Custom",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "per unit / month",
+        "desc": "Perfect for smaller townhome associations needing core sub-metering capabilities.",
+        "features": ["Real-Time Meter Readings", "SMS Leak Alerts", "Standard Billing Exports", "Self-Serve Portal"],
+        "cta": "Activate Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "per unit / month",
+        "desc": "Our gold standard package for classic apartment communities wanting fully automated resident billing.",
+        "features": [
+          "Everything in Starter",
+          "Automated PDF Invoice Dispatches",
+          "Proportional Common-Area Allocations",
+          "Priority Customer Support"
+        ],
+        "cta": "Go Pro (Most Popular)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "on request",
+        "desc": "For expansive institutional communities requiring bespoke API pipelines and billing configurations.",
+        "features": [
+          "Everything in Professional",
+          "Bespoke Billing Software Integrations",
+          "Dedicated Utility Consultant",
+          "Hardware SLA Warranties"
+        ],
+        "cta": "Contact Enterprise Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operational Realities",
+    "heading": "What Property Managers Say",
+    "quotes": [
+      {
+        "text": "HydroLedger fundamentally changed our operational P&L. We discovered three major hidden service leaks in mechanical lines that saved us over ₹11 lakh in our first quarter alone."
+      },
+      {
+        "text": "Resident trust has rocketed. Billing our tenants based strictly on water use instead of generic multi-bedroom master meter calculations solved our most painful tenant disputes."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Support",
+    "heading": "Frequently Answered Questions",
+    "items": [
+      {
+        "q": "Do smart sub-meters require mechanical service shut-offs?",
+        "a": "No. Our innovative riser meter units fit non-invasively directly over existing lines in individual crawlspaces. Setups complete cleanly in minutes without multi-tenant utility cutoffs."
+      },
+      {
+        "q": "How are communal/shared water costs calculated?",
+        "a": "The central common-area pool (e.g. pool facilities, landscaping) is subtracted cleanly from main master meters first. Property groups allocate those structurally or pro-rate transparently."
+      },
+      {
+        "q": "How rapidly does HydroLedger detect continuous leak flows?",
+        "a": "Our background alert pipelines check continuous draw signals. If flow doesn't touch zero over a rolling 10-minute cycle, warning dispatches instantly route to minimize damage risks."
+      },
+      {
+        "q": "Does HydroLedger handle security or resident privacy?",
+        "a": "Yes. HydroLedger protects and stores resident portal identifiers behind standard encrypted channels. Operational data is kept secure strictly for consumption tracking."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Join HydroLedger Today",
+    "heading": "Start Monitoring Your Water Usage Today",
+    "paragraph": "Boost conservation metrics, simplify resident billing overhead, and protect valuable multi-household infrastructure. Let us calculate your custom community ROI estimate.",
+    "ctaPrimary": "Request Quote",
+    "ctaSecondary": "Contact Sales"
+  },
+  "footer": {
+    "tagline": "Smart utility allocation pipelines and real-time residential sub-metering solutions. Protect systems, align bills, save water.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": ["Sub-Metering", "Billing Suite", "Leak Guard", "Resident App"]
+      },
+      {
+        "title": "Resources",
+        "links": ["Case Studies", "Blog", "Install Guide", "Help Center"]
+      }
+    ],
+    "corporateOfficeTitle": "Corporate Office",
+    "copyright": "© 2026 HydroLedger Systems Inc. All rights reserved.",
+    "legalPrivacy": "Privacy Policy",
+    "legalTerms": "Terms of Service"
+  }
+}

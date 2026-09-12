@@ -14,7 +14,9 @@
 .af-cta__inner h2 {
   margin: 0 0 18px;
   font-size: 38px;
-  line-height: 1.2;
+  /* 1.35 rather than a tighter ratio - avoids clipping tall conjuncts/vowel signs
+     in non-Latin scripts used by the landing page's language switcher. */
+  line-height: 1.35;
   font-weight: 700;
   color: var(--af-white);
 }

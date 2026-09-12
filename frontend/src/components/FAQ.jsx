@@ -1,34 +1,18 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './FAQ.css'
 
-const items = [
-  {
-    q: 'Do smart sub-meters require mechanical service shut-offs?',
-    a: 'No. Our innovative riser meter units fit non-invasively directly over existing lines in individual crawlspaces. Setups complete cleanly in minutes without multi-tenant utility cutoffs.',
-  },
-  {
-    q: 'How are communal/shared water costs calculated?',
-    a: 'The central common-area pool (e.g. pool facilities, landscaping) is subtracted cleanly from main master meters first. Property groups allocate those structurally or pro-rate transparently.',
-  },
-  {
-    q: 'How rapidly does HydroLedger detect continuous leak flows?',
-    a: "Our background alert pipelines check continuous draw signals. If flow doesn't touch zero over a rolling 10-minute cycle, warning dispatches instantly route to minimize damage risks.",
-  },
-  {
-    q: 'Does HydroLedger handle security or resident privacy?',
-    a: 'Yes. HydroLedger protects and stores resident portal identifiers behind standard encrypted channels. Operational data is kept secure strictly for consumption tracking.',
-  },
-]
-
 function FAQ() {
+  const { t } = useTranslation('landing')
+  const items = t('faq.items', { returnObjects: true })
   const [open, setOpen] = useState(0)
 
   return (
     <section className="af-section af-faq" id="faq">
       <div className="af-section__inner">
         <div className="af-section__head">
-          <span className="af-pill">FAQ Support</span>
-          <h2>Frequently Answered Questions</h2>
+          <span className="af-pill">{t('faq.pill')}</span>
+          <h2>{t('faq.heading')}</h2>
         </div>
 
         <div className="af-faq__list">

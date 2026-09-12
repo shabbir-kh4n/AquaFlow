@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Eginleikar",
+    "linkHowItWorks": "Hvussu tað virkar",
+    "linkContact": "Samband",
+    "signIn": "Rita inn",
+    "getStarted": "Byrja her"
+  },
+  "hero": {
+    "eyebrow": "Snjall vatnyvirvøka",
+    "titleLine1": "Fylg við nýtsluni.",
+    "titleHighlight": "Býtt rættvíst.",
+    "titleLine2": "Spar uppá vatnið.",
+    "paragraph": "HydroLedger gevur íbúðarfeløgum nýtsluyvirlit í rauntíð, gjøgnumskygda felagsrokning og boð um leka við tíð - alt frá einum dashboard.",
+    "ctaPrimary": "Byrja her",
+    "ctaSecondary": "Rita inn",
+    "panelLabel": "Nýtsla henda mánaðin",
+    "panelSub": "8% undir miðal hjá húsarhaldinum",
+    "chartLabelStart": "Mán",
+    "chartLabelEnd": "Sun"
+  },
+  "trustBar": {
+    "label": "Álitt av framfýrdum felagsskapi hjá fleiri húskjum"
+  },
+  "features": {
+    "pill": "Høvuðsfunksjónir",
+    "headingPrefix": "Alt ið krevst fyri at",
+    "headingHighlight": "Yvirvaka & Rokning",
+    "headingSuffix": "Rættvíst",
+    "paragraph": "Sig farvæl til fastprís-býti av vatnrokningum. HydroLedger skapar javnvág gjøgnum nágreiniliga máting og snjalla automatisering.",
+    "items": [
+      {
+        "tag": "Vatnyvirvøka",
+        "title": "Undirmáting í rauntíð",
+        "text": "Máta nágreiniliga vatnnýtslu minutt fyri minutt í hvørji íbúð heldur enn at stuðul seg til gamaldags metingar."
+      },
+      {
+        "tag": "Automatisk rokning",
+        "title": "Automatisk felagsrokning",
+        "text": "Stofna fakturar beinleiðis til bústaðin, sum verða roknaðir út frá nýtslu. Slepp undan umsitingarbyrði beinanvegin."
+      },
+      {
+        "tag": "Rikoavmarking",
+        "title": "Boð um leka beinanvegin",
+        "text": "Automatisk boð gera vart við óvanlig nýtslumynstur og finna stóran vatnkaða innan minuttir, ikki mánaðir."
+      },
+      {
+        "tag": "Kostnaðarbýti",
+        "title": "Rættvíst kostnaðarbýti",
+        "text": "Fylg við felags nýtslu og býtt kostnaðin gjøgnumskygda fyri at byggja álit hjá húsarhaldinum."
+      }
+    ],
+    "learnMore": "Lær meira"
+  },
+  "howItWorks": {
+    "pill": "Arbeiðsgongd",
+    "heading": "Lætt uppseting, sjálvvirkandi rakstur",
+    "paragraph": "Kom í gongd skjótt. Tá útgerðin er knýtt at, stendur skipanin fyri útrokningum, fakturering og boðum um leka.",
+    "steps": [
+      {
+        "title": "Knýt snjallmátarar at",
+        "text": "Okkara serfrøðingar seta snjallar mátarar beinleiðis á rørini á undir 15 minuttum."
+      },
+      {
+        "title": "Yvirvøka í rauntíð",
+        "text": "Dátur verða sendar støðugt til HydroLedger skýskipanina, har nýtslan verður skrásett og óvanlig virksemi eftirlitin."
+      },
+      {
+        "title": "Automatisk rokning",
+        "text": "Við mánaðarlok leggur skipanin felagskostnað og mátaða nýtslu saman í eina greiða faktura."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live portalur fyri íbúgvar",
+    "headingPrefix": "Gev íbúgvarum",
+    "headingHighlight": "Greiðan yvir nýtslu",
+    "paragraph": "Gjøgnumskygni skapar felagsskap. Íbúgvar njóta einføld yvirlit við tilbakameldingum í rauntíð, framskriving av kostnaði og ávarðingum um leka.",
+    "brandLabel": "Íbúgvaportalur",
+    "unitLabel": "Íbúð 4B — Núverandi rokningsskeið",
+    "stat1Label": "Nýtsla henda mánaðin",
+    "stat1Trend": "-12% móti miðal",
+    "stat2Label": "Metdur rokningsupphædd",
+    "stat2Trend": "Á leið",
+    "stat3Label": "Lekastøða",
+    "stat3Value": "Alt í lagi",
+    "stat3Trend": "Trygt renn",
+    "chartTitle": "Viku nýtsla (Gallons)",
+    "bars": [
+      "Vika 1",
+      "Vika 2",
+      "Vika 3",
+      "Vika 4",
+      "Vika 5 (Met)"
+    ],
+    "tipTitle": "Spariráð",
+    "tipText": "Kranin í køkinum vísir eitt sindur av støðugum renni um morgunin. At kanna luftblandaran kann spara upp til 10 gallons um vikuna.",
+    "tipBadge": "Automatisk innsýn",
+    "autopayTitle": "Sjálvvirkandi gjald virkið",
+    "autopayLabel": "Næsta gjaldsfelag",
+    "autopayButton": "Sjá nágreiniliga PDF faktura"
+  },
+  "audienceSplit": {
+    "residentPill": "Til íbúgvar",
+    "residentHeading": "Rættvís nýtslubaseruð vatnrokning",
+    "residentParagraph": "Steðga við at gjalda fyri ov stóru nýtsluna hjá grannanum. Gjaldið bert fyri tað vatnið, tit brúka, við stuðli frá nágreiniligum dátu-dashboard.",
+    "residentBullets": [
+      "Nágreinilig mánaðarlig dátu við gjøgnumskygdum kostnaði.",
+      "SMS og fartelefon-boð um smáir lekar verða funnir í útgerð.",
+      "Einfalt og skjótt talgilt gjaldiðskipan við automatiski kvittan."
+    ],
+    "adminPill": "Til ognarumsitarar",
+    "adminHeading": "Beinleiðis rakstrarvinningur og avfallsstýring",
+    "adminParagraph": "Flyt umsiting av vatni frá at vera ein trupulleiki til at vera eitt ómakaleyst og lønandi arbeiði við automatiska fakturering.",
+    "adminBullets": [
+      "Ómakaleyst kostnaðarbýti knýtt beinleiðis at einstøku íbúðunum.",
+      "Boð beinanvegin fyri at fyribyrgja stórum vatnkaða.",
+      "Nágreiniligt dashboard yvirlit yvir høvuðsmátara ímóti býttari nýtslu."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Vatn spara í miðal",
+      "Virkin húsarhald",
+      "Skipanartíð",
+      "Feløg undir umsiting"
+    ]
+  },
+  "pricing": {
+    "pill": "Gjøgnumskygdar pakkar",
+    "heading": "Rakstrarkostnaður við høgum avkasti",
+    "paragraph": "Vel eina ætlan, sum passar til tín felagsskap. HydroLedger sparir oftast sín egna kostnað fyrsta mánaðin gjøgnum minkað spilt vatn.",
+    "highlightBadge": "Besta virði",
+    "customPriceLabel": "Sergjørt",
+    "tiers": [
+      {
+        "name": "Byrjan",
+        "unit": "pr. íbúð / mánað",
+        "desc": "Perfekt til smærri raðhúsafeløg, ið hava tørv á undirmáting.",
+        "features": [
+          "Avlestur í rauntíð",
+          "SMS um leka",
+          "Standard útflutningur av rokningum",
+          "Sjálvstýrandi portalur"
+        ],
+        "cta": "Byrja"
+      },
+      {
+        "name": "Professionell",
+        "unit": "pr. íbúð / mánað",
+        "desc": "Okkara gyldi pakki til vanliga íbúðarfeløg, sum ynskja fult automatiska fakturering.",
+        "features": [
+          "Alt í Byrjan-pakka",
+          "Automatisk PDF fakturering",
+          "Býti av felagskostnaði",
+          "Raðfest tænasta"
+        ],
+        "cta": "Gerst Pro (Vinsælast)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "eftir avtalu",
+        "desc": "Til stór feløg, sum hava tørv á sergjørdum API og fakturering.",
+        "features": [
+          "Alt í Professionell-pakka",
+          "Sergjørd faktureringsskipan",
+          "Serfrøðingur í vatnútgerð",
+          "SLA ábyrgd fyri útgerð"
+        ],
+        "cta": "Samband við sølu"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Veruleikin í rakstri",
+    "heading": "Hvat sigur umsitingin",
+    "quotes": [
+      {
+        "text": "HydroLedger broytti okkara rakstur grundleggjandi. Vit funnu tríggjar stórar lekar í rørskipanini, sum spardu okkum nógvar pengar bara fyrsta ársfjórðing."
+      },
+      {
+        "text": "Íbúgvar vísa størri álit. At fakturera eftir nágreiniligari nýtslu ístaðin fyri gitingar hevur loyst okkara mest sára trupulleikar."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Spurningar og svar",
+    "heading": "Ofasta spurdu spurningar",
+    "items": [
+      {
+        "q": "Krevja snjallmátarar at sløkkja fyri vatninum?",
+        "a": "Nei. Okkara mátarar verða settir uttanífrá á verandi rør. Uppsetingin tekur fáar minuttir uttan at sløkkja fyri vatninum hjá øðrum."
+      },
+      {
+        "q": "Hvussu verður felags vatnrokning roknað út?",
+        "a": "Felagsnýtsla (t.d. hagi, vaskirúm) verður drigin frá høvuðsmátaranum fyrst. Feløg býta henda kostnaðin rættvíst burtur."
+      },
+      {
+        "q": "Hvussu skjótt finnur HydroLedger leka?",
+        "a": "Okkara skipan kannar støðugt um tað rennur vatn. Um rennslið ikki steðgar í 10 minuttir, verður ávarðing send beinanvegin."
+      },
+      {
+        "q": "Hvussu við trygd og privatlivi hjá íbúgvum?",
+        "a": "Ja. HydroLedger verjir dáturnar hjá íbúgvum við kryptering. Dátur verða einans nýttar til at fylgja nýtsluni."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Gerst limur í dag",
+    "heading": "Byrja at yvirvaka tíni vatnnýtslu í dag",
+    "paragraph": "Øk um vatnsparing, einfalda fakturering og verjir dýra útgerð. Lat okkum rokna út tína vinningsvón.",
+    "ctaPrimary": "Bið um tilboð",
+    "ctaSecondary": "Samband við sølu"
+  },
+  "footer": {
+    "tagline": "Snjall tænastur til vatnrokning og yvirvøku. Verjir skipanir, rættvísar rokningar, spar vatn.",
+    "columns": [
+      {
+        "title": "Skipan",
+        "links": [
+          "Undirmáting",
+          "Faktureringsskipan",
+          "Lekavørn",
+          "Íbúgva-app"
+        ]
+      },
+      {
+        "title": "Tilfeingi",
+        "links": [
+          "Case-kanningar",
+          "Bloggur",
+          "Uppsetingarleiðari",
+          "Hjálparmiðstøð"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Høvuðsskrivstova",
+    "copyright": "© 2026 HydroLedger Systems Inc. Allur rættur tilskilaður.",
+    "legalPrivacy": "Privatlivspolitikkur",
+    "legalTerms": "Tænastuvilká"
+  }
+}

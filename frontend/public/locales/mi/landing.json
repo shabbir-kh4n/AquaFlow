@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Ngā Āhuatanga",
+    "linkHowItWorks": "Te Mahi",
+    "linkContact": "Whakapā",
+    "signIn": "Waitohu",
+    "getStarted": "Tīmatahia"
+  },
+  "hero": {
+    "eyebrow": "Aroturuki Wai Mātau",
+    "titleLine1": "Aroturuki i te whakamahinga.",
+    "titleHighlight": "Tohaina pū ai.",
+    "titleLine2": "Tiakina te wai.",
+    "paragraph": "Ka tukuna e HydroLedger ki ngā hapori whare ngā raraunga whakamahinga tūturu, te nama utu tiritahi mārama, me ngā whakamōhiotanga turuturu wawe — katoa i runga i te papatohu kotahi.",
+    "ctaPrimary": "Tīmatahia",
+    "ctaSecondary": "Waitohu",
+    "panelLabel": "Te whakamahinga o tēnei marama",
+    "panelSub": "8% i raro i te toharite o te whare",
+    "chartLabelStart": "Mane",
+    "chartLabelEnd": "Rātapu"
+  },
+  "trustBar": {
+    "label": "E whakawhirinakihia ana e ngā rōpū whakahaere whare maha"
+  },
+  "features": {
+    "pill": "Ngā Pūkenga Matua",
+    "headingPrefix": "Ngā mea katoa e hiahiatia ana hei",
+    "headingHighlight": "Aroturuki & Nama",
+    "headingSuffix": "i runga i te tika",
+    "paragraph": "Poroporoaki ki ngā utu tiritahi ōrite. Ka whakatairanga a HydroLedger i te ōritetanga mā te ine tika me te aunoatanga mātau.",
+    "items": [
+      {
+        "tag": "Aroturuki Wai",
+        "title": "Inenga-iti Wā Tūturu",
+        "text": "Inehia te whakamahinga wai tika, ia meneti, ki ia waeine, kaua e whakawhirinaki ki ngā whakatau tata tawhito."
+      },
+      {
+        "tag": "Aunoatanga Nama",
+        "title": "Nama Hapori Aunoa",
+        "text": "Te whakaputa nama ki ngā kainoho e hono tika ana ki te whakamahinga. Whakakorea te taumahatanga o te nama inamata."
+      },
+      {
+        "tag": "Whakaiti Morearea",
+        "title": "Whakamōhiotanga Turuturu Wawe",
+        "text": "Ko ngā whakamōhiotanga aunoa e tohu ana i ngā tauira rerenga rerekē me te hopu i ngā kino wai nui i roto i ngā meneti, kaua i ngā marama."
+      },
+      {
+        "tag": "Tohaina Utu",
+        "title": "Tohaina Utu Tika",
+        "text": "Aroturukitia te whakamahinga o ngā wāhi tiritahi me te toha i ngā utu hanganga mā te mārama hei hanga i te whakawhirinaki me te tiaki."
+      }
+    ],
+    "learnMore": "Ako atu"
+  },
+  "howItWorks": {
+    "pill": "Te Whaihua o te Rerengamahi",
+    "heading": "Tāutanga māmā, Whakahaere Māmā",
+    "paragraph": "Kia tere te whakarite. Ina hono ngā taputapu, mā te papanga e whakahaere ngā tātai uaua, te tuku nama, me ngā whakamōhiotanga turuturu.",
+    "steps": [
+      {
+        "title": "Honoa ngā Mita Mātau",
+        "text": "Ka whakapirihia e ā mātou kaitoi tohu ngā mita rerenga mātau ki ngā takirere o ia waeine i raro i te 15 meneti."
+      },
+      {
+        "title": "Aroturuki Wā Tūturu",
+        "text": "Ka rere tonu ngā raraunga ki te papanga kapua o HydroLedger, e hopu ana i ngā whakamahinga tika me te aroturuki i ngā mahi rerekē."
+      },
+      {
+        "title": "Whakaaunoatia ngā Nama",
+        "text": "I te mutunga o te marama, ka whakakotahihia e te pūnaha ngā tohanga o ngā wāhi tiritahi me ngā rōrahi i inea hei nama mārama."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Whakaaturanga Pūhara Kainoho",
+    "headingPrefix": "Whakamana i ngā Kainoho me te",
+    "headingHighlight": "Māramatanga Whakamahinga",
+    "paragraph": "Ko te māramatanga e hanga ana i te kotahitanga. Ka pai ngā kainoho ki ngā papatohu māmā me te urupare wā tūturu, ngā matapae utu, me ngā whakatūpato turuturu.",
+    "brandLabel": "Pūhara Kainoho",
+    "unitLabel": "Waeine 4B — Huringa Nama o nāianei",
+    "stat1Label": "Te whakamahinga o tēnei marama",
+    "stat1Trend": "-12% vs Toharite",
+    "stat2Label": "Utu Nama kua Whakatauhia",
+    "stat2Trend": "Kei te ara tika",
+    "stat3Label": "Tūnga Turuturu",
+    "stat3Value": "Kua mārama katoa",
+    "stat3Trend": "Rerenga Haumaru",
+    "chartTitle": "Whakamahinga ā-Wiki (Karanene)",
+    "bars": [
+      "Wk 1",
+      "Wk 2",
+      "Wk 3",
+      "Wk 4",
+      "Wk 5 (Proj)"
+    ],
+    "tipTitle": "Tohutohu Tiaki",
+    "tipText": "Kei te whakaatu tō tapu kīhini i te rerenga tonu i te ata. Ma te tirotiro i ngā aerator ka penapena pea tae atu ki te 10 karanene ia wiki.",
+    "tipBadge": "Māramatanga Aunoa",
+    "autopayTitle": "Kua Whakahohea te Utu Aunoa",
+    "autopayLabel": "Te rā Utu Aunoa e whai ake nei",
+    "autopayButton": "Tirohia te Nama PDF Taipitopito"
+  },
+  "audienceSplit": {
+    "residentPill": "Mō ngā Kainoho",
+    "residentHeading": "Ngā Utu Ratonga Tika, e Hāngai ana ki te Whakamahinga",
+    "residentParagraph": "Kati te utu mō te whakamahinga nui a tō hoa tata. Utua noa te wai e whakamahia ana e koe, e tautokona ana e ngā raraunga papatohu wā tūturu.",
+    "residentBullets": [
+      "Ngā raraunga inenga-iti ā-marama tika me ngā inenga utu mārama.",
+      "Ngā whakamōhiotanga SMS & pūkoro mēnā ka kitea ngā turuturu iti i roto i ngā taputapu.",
+      "He pūnaha utu nama matihiko māmā me ngā rīhiti aunoa."
+    ],
+    "adminPill": "Mō ngā Kaiwhakahaere Rawa",
+    "adminHeading": "ROI Whakahaere Inamata me te Mana Whakamau Para",
+    "adminParagraph": "Whakahurihia te whakahaere ratonga mai i te raruraru utu nui ki te rerenga mahi māeneene me te nama kainoho aunoa.",
+    "adminBullets": [
+      "Te toha ratonga māmā e hono tika ana ki ngā waeine takitahi.",
+      "Ngā whakamōhiotanga whakahaere inamata hei ārai i ngā kino wai utu nui.",
+      "Te pūrongo papatohu taipitopito mō te nama mita matua vs. ngā karanene kua tohatohahia."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Toharite Wai i Penapenahia",
+      "Ngā Whare Hohe",
+      "Te Wā Whakahaere Pūnaha",
+      "Ngā Hapori e Whakahaerehia ana"
+    ]
+  },
+  "pricing": {
+    "pill": "Ngā Mōkī Mārama",
+    "heading": "Ngā Utu Whakahaere Whakahoki-Mononga Nui",
+    "paragraph": "Kōwhiria he mahere e hāngai ana ki tō hapori. I te nuinga o te wā, ka utu a HydroLedger i ōna ake utu papanga i te marama tuatahi mā te whakaiti i te para o ngā wāhi tiritahi.",
+    "highlightBadge": "Uara Pai Rawa",
+    "customPriceLabel": "Ritenga",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "ia waeine / marama",
+        "desc": "He tino pai mō ngā rōpū whare iti e hiahia ana ki ngā pūkenga inenga-iti matua.",
+        "features": [
+          "Ngā Pānui Mita Wā Tūturu",
+          "Ngā Whakamōhiotanga Turuturu SMS",
+          "Ngā Kaweake Nama Paerewa",
+          "Pūhara Whakamahi-Whaiaro"
+        ],
+        "cta": "Whakahohea Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "ia waeine / marama",
+        "desc": "Tō mātou mōkī koura mō ngā hapori whare e hiahia ana ki te nama kainoho aunoa.",
+        "features": [
+          "Ngā mea katoa i roto i te Starter",
+          "Ngā Tukunga Nama PDF Aunoa",
+          "Ngā Tohanga Wāhi-Tiritahi Proportional",
+          "Tautoko Kiritaki Kaupapa Matua"
+        ],
+        "cta": "Haere ki te Pro (E tino hiahiatia ana)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "i runga i te tono",
+        "desc": "Mō ngā hapori nui e hiahia ana ki ngā rerenga API ritenga me ngā whirihoranga nama.",
+        "features": [
+          "Ngā mea katoa i roto i te Professional",
+          "Ngā Whakaurunga Pūmanawa Nama Ritenga",
+          "Kaitohutohu Ratonga Motuhake",
+          "Ngā Warati SLA Taputapu"
+        ],
+        "cta": "Whakapā atu ki te Hoko Enterprise"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Ngā Mea Tūturu o te Whakahaere",
+    "heading": "Ko tā ngā Kaiwhakahaere Rawa",
+    "quotes": [
+      {
+        "text": "I huri ke a HydroLedger i tō mātou P&L whakahaere. I kitea e mātou e toru ngā turuturu nui i ngā raina mīhini i penapena neke atu i te ₹11 lakh i tō mātou hauwhā tuatahi."
+      },
+      {
+        "text": "Kua piki te whakawhirinaki o ngā kainoho. Ko te nama i ā mātou kairīhi i runga i te whakamahinga wai, kaua i ngā tātai mita matua, i whakaoti i ngā tautohetohe tino mamae."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Tautoko FAQ",
+    "heading": "Ngā Pātai e Auau Ana te Pātai",
+    "items": [
+      {
+        "q": "Me kati rānei te ratonga mīhini mō ngā mita-iti mātau?",
+        "a": "Kāore. Ka uru ngā waeine mita mātau ki runga i ngā raina o mua. Ka oti te tāutanga i roto i ngā meneti me te kore e motu te ratonga."
+      },
+      {
+        "q": "Me pēhea te tātai i ngā utu wai tiritahi?",
+        "a": "Ka tangohia te puna wāhi tiritahi matua (hei tauira, puna kaukau) i ngā mita matua i te tuatahi. Ka toha ngā rōpū rawa i aua utu i runga i te tika."
+      },
+      {
+        "q": "He pēhea te tere o HydroLedger ki te kite i ngā rerenga turuturu tonu?",
+        "a": "Ka tirohia e ā mātou pūnaha whakamōhio ngā tohu rerenga. Ki te kore te rerenga e tae ki te kore i roto i te huringa 10-meneti, ka tukuna inamata he whakatūpato."
+      },
+      {
+        "q": "Kei te whakahaere a HydroLedger i te haumarutanga, te tūmataiti kainoho rānei?",
+        "a": "Āe. Ka tiakina e HydroLedger ngā tautuhi pūhara kainoho i muri i ngā hongere whakamunatia. Ka puritia ngā raraunga whakahaere mō te aroturuki whakamahinga anake."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Hono mai ki a HydroLedger i tēnei rā",
+    "heading": "Tīmata te Aroturuki i tō Whakamahinga Wai i Tēnei Rā",
+    "paragraph": "Whakanuia ngā inenga tiaki, whakangāwari i te taumahatanga o te nama kainoho, me te tiaki i ngā hanganga maha. Tukuna mātou ki te tātai i tō ROI hapori.",
+    "ctaPrimary": "Tonoa he Utu",
+    "ctaSecondary": "Whakapā atu ki te Hoko"
+  },
+  "footer": {
+    "tagline": "Ngā rerenga toha ratonga mātau me ngā rongoā inenga-iti kainoho wā tūturu. Tiakina ngā pūnaha, whakatairitea ngā nama, tiakina te wai.",
+    "columns": [
+      {
+        "title": "Pūhara",
+        "links": [
+          "Inenga-iti",
+          "Huinga Nama",
+          "Kaitaki Turuturu",
+          "Taupānga Kainoho"
+        ]
+      },
+      {
+        "title": "Ngā Rauemi",
+        "links": [
+          "Ngā Akoranga Kēhi",
+          "Blog",
+          "Aratohu Tāuta",
+          "Pokapū Āwhina"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Tari Kamupene",
+    "copyright": "© 2026 HydroLedger Systems Inc. Katoa ngā mana. ",
+    "legalPrivacy": "Kaupapa Tūmataiti",
+    "legalTerms": "Ngā Tikanga Ratonga"
+  }
+}

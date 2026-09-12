@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Fasali",
+    "linkHowItWorks": "Yadda Yake Aiki",
+    "linkContact": "Tuntuɓi",
+    "signIn": "Shiga",
+    "getStarted": "Fara Yanzu"
+  },
+  "hero": {
+    "eyebrow": "Kula da Ruwa Mai Inganci",
+    "titleLine1": "Sa ido kan amfani.",
+    "titleHighlight": "Rarraba da adalci.",
+    "titleLine2": "Adana ruwa.",
+    "paragraph": "HydroLedger tana ba wa al'ummomin gidaje fahimtar amfani da ruwa a ainihin lokacin, lissafin kuɗin da aka raba a bayyane, da gargadi kan ɗigon ruwa da wuri — duk daga dashboard ɗaya.",
+    "ctaPrimary": "Fara Yanzu",
+    "ctaSecondary": "Shiga",
+    "panelLabel": "Amfani na wannan wata",
+    "panelSub": "8% ƙasa da matsakaicin gida",
+    "chartLabelStart": "Lit",
+    "chartLabelEnd": "Lah"
+  },
+  "trustBar": {
+    "label": "Ƙungiyoyin gudanar da gidaje da ke amincewa da mu"
+  },
+  "features": {
+    "pill": "Babban Abin da Muke Bayarwa",
+    "headingPrefix": "Komai da ake bukata don",
+    "headingHighlight": "Sa ido & Lissafin Kuɗi",
+    "headingSuffix": "Cikin Adalci",
+    "paragraph": "Yi bankwana da rarraba kuɗin amfani da ruwa a matakin daidai. HydroLedger tana haifar da daidaito ta hanyar ma'auni daidai da aiki da kai mai kaifin basira.",
+    "items": [
+      {
+        "tag": "Sa Ido Kan Ruwa",
+        "title": "Ma'aunin Ruwa na Ainihin Lokaci",
+        "text": "Auna ainihin amfani da ruwa minti bayan minti a kowane ɓangaren gida maimakon dogaro ga kintace na gabaɗaya."
+      },
+      {
+        "tag": "Lissafi ta atomatik",
+        "title": "Lissafin Kuɗin Al'umma ta Atomatik",
+        "text": "Ƙirƙirar daftarin biyan kuɗi kai tsaye ga mazauna wanda aka tsara gwargwadon amfani. Kawar da nauyin lissafin kuɗi nan take."
+      },
+      {
+        "tag": "Ragewa Hadari",
+        "title": "Gargadi kan Ɗigon Ruwa da Wuri",
+        "text": "Gargadi na atomatik nan take don gano yanayin kwararar ruwa da ba a saba gani ba da kuma dakatar da babbar ɓarnar ruwa cikin mintuna, ba watanni ba."
+      },
+      {
+        "tag": "Rarraba Kuɗi",
+        "title": "Rarraba Kuɗi cikin Adalci",
+        "text": "Sa ido kan amfani da wuraren gama-gari da rarraba kuɗin gini a bayyane don gina amana da kiyaye ruwa a gidaje."
+      }
+    ],
+    "learnMore": "Ƙara sani"
+  },
+  "howItWorks": {
+    "pill": "Ingantaccen Aiki",
+    "heading": "Shigarwa Cikin Sauƙi, Aiki Ba tare da Matsala ba",
+    "paragraph": "Saita komai cikin sauri. Da zarar kayan aiki sun haɗa, dandalin yana sarrafa lissafi masu rikitarwa, aika daftarin kuɗi, da gargadi kan ɗigon ruwa.",
+    "steps": [
+      {
+        "title": "Haɗa Ma'aunin Ruwa",
+        "text": "Masu fasahar mu suna haɗa ma'aunin ruwa kai tsaye zuwa bututun kowane ɓangaren gida cikin ƙasa da mintuna 15."
+      },
+      {
+        "title": "Sa Ido na Ainihin Lokaci",
+        "text": "Bayanai suna gudana kai tsaye zuwa dandalin HydroLedger na yanar gizo, suna rubuta ainihin adadin amfani da sa ido kan duk wani aiki da ba a saba gani ba."
+      },
+      {
+        "title": "Lissafi ta Atomatik",
+        "text": "A ƙarshen wata, tsarin yana haɗa rarraba wuraren gama-gari da ƙarar ruwan da aka auna cikin daftarin kuɗi bayyanannu."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Misalin Tashar Mazauna",
+    "headingPrefix": "Ba Mazauna Iko da",
+    "headingHighlight": "Bayyanar Amfani",
+    "paragraph": "Gaskiya tana gina haɗin kai. Mazauna suna jin daɗin dashboard mai sauƙi tare da amsa ainihin lokaci, hasashen kuɗi, da gargaɗin ɗigon ruwa.",
+    "brandLabel": "Tashar Mazauna",
+    "unitLabel": "Raka'a 4B — Lokacin Biyan Kuɗi na Yanzu",
+    "stat1Label": "Amfani na Wannan Wata",
+    "stat1Trend": "-12% vs Matsakaici",
+    "stat2Label": "Hasashen Kuɗi",
+    "stat2Trend": "A Kan Tsari",
+    "stat3Label": "Matsayin Ɗigon Ruwa",
+    "stat3Value": "Duk Lafiya",
+    "stat3Trend": "Kwarara Lafiyayye",
+    "chartTitle": "Amfani na Mako-mako (Gallons)",
+    "bars": [
+      "Mako 1",
+      "Mako 2",
+      "Mako 3",
+      "Mako 4",
+      "Mako 5 (Hasashe)"
+    ],
+    "tipTitle": "Shawara kan Kiyayewa",
+    "tipText": "Fanfon kicin ɗinka yana ɗigon ruwa kaɗan da safe. Duba matattarar ruwa na iya adana har galan 10 a mako.",
+    "tipBadge": "Fahimta ta Atomatik",
+    "autopayTitle": "Biyan Kuɗi ta Atomatik",
+    "autopayLabel": "Ranar Biyan Kuɗi na Gaba",
+    "autopayButton": "Duba Daftarin Kuɗi na PDF"
+  },
+  "audienceSplit": {
+    "residentPill": "Don Mazauna",
+    "residentHeading": "Adalci, Kuɗin Ruwa bisa Amfani",
+    "residentParagraph": "Daina biyan kuɗin ruwan da maƙwabcinka yake almubazzaranci da shi. Biyan kuɗi kawai don adadin da ka yi amfani da shi, tare da bayanan dashboard na ainihin lokaci.",
+    "residentBullets": [
+      "Daidaitaccen bayanan ma'aunin ruwa na wata-wata tare da bayyanannun ma'aunin kuɗi.",
+      "Sanarwar SMS & waya idan aka gano ƙananan ɗigon ruwa a na'urori.",
+      "Tsarin biyan kuɗi na dijital mai sauƙi tare da rasit na atomatik."
+    ],
+    "adminPill": "Don Masu Gudanar da Gidaje",
+    "adminHeading": "Samun Ribar Aiki Nan Take da Sarrafa Ɓarna",
+    "adminParagraph": "Canza gudanar da amfani da ruwa daga babban asara zuwa tsarin da ke da riba mai yawa tare da lissafin kuɗi na atomatik.",
+    "adminBullets": [
+      "Rarraba kuɗin amfani da ruwa kai tsaye zuwa kowane ɓangaren gida.",
+      "Gargaɗin aiki na gaggawa don hana ɓarnar ruwa mai tsada.",
+      "Rahoton dashboard dalla-dalla kan babban ma'aunin ruwa da adadin da aka rarraba."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Matsakaicin Ruwan da Aka Adana",
+      "Gidajen da ke Amfani",
+      "Lokacin Aiki na Tsarin",
+      "Al'ummomin da Ake Gudanarwa"
+    ]
+  },
+  "pricing": {
+    "pill": "Kunshin Farashi Bayyananne",
+    "heading": "Farashin Aiki mai Babban Riba",
+    "paragraph": "Zaɓi shiri wanda ya dace da yawan al'ummarka. HydroLedger yawanci tana mayar da kuɗin shiga kanta a wata na farko ta hanyar rage ɓarnar ruwa a wuraren gama-gari.",
+    "highlightBadge": "Mafi Kyawun Daraja",
+    "customPriceLabel": "Na Musamman",
+    "tiers": [
+      {
+        "name": "Farko",
+        "unit": "kowane gida / wata",
+        "desc": "Cikakke ga ƙungiyoyin gidaje ƙanana da ke buƙatar ma'aunin ruwa na asali.",
+        "features": [
+          "Karanta Ma'auni na Ainihin Lokaci",
+          "Gargaɗin Ɗigon Ruwa ta SMS",
+          "Fitowar Lissafin Kuɗi na Musamman",
+          "Tashar Mazauna ta Kai-tsaye"
+        ],
+        "cta": "Kunna Farko"
+      },
+      {
+        "name": "Kwararru",
+        "unit": "kowane gida / wata",
+        "desc": "Kunshin mu na zinare don al'ummomin gidaje da ke son lissafin kuɗi na atomatik cikakke.",
+        "features": [
+          "Komai na Farko",
+          "Aika daftarin PDF ta Atomatik",
+          "Rarraba Kuɗin Wuraren Gama-gari",
+          "Tallafin Abokin Ciniki na Musamman"
+        ],
+        "cta": "Zama Kwararre (Mafi Shahara)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "akan buƙata",
+        "desc": "Don manyan al'ummomin gidaje da ke buƙatar tsarin API da saitin lissafi na musamman.",
+        "features": [
+          "Komai na Kwararru",
+          "Haɗin Software na Lissafi na Musamman",
+          "Mai Ba da Shawarar Ruwa na Musamman",
+          "Garanti na Kayan Aiki"
+        ],
+        "cta": "Tuntuɓi Sashen Tallace-tallace"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Gaskiyar Aiki",
+    "heading": "Abin da Manajojin Gidaje Ke Cewa",
+    "quotes": [
+      {
+        "text": "HydroLedger ta canza yadda muke gudanar da ribarmu. Mun gano manyan ɗigon ruwa guda uku a cikin bututun injina waɗanda suka adana mana sama da ₹11 lakh a cikin kwata na farko kawai."
+      },
+      {
+        "text": "Amanar mazauna ta ƙaru. Lissafin kuɗin mazauna bisa ainihin amfanin ruwa maimakon kintace na gabaɗaya ya magance matsalolinmu mafi wahala da mazauna."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Tallafin Tambayoyi",
+    "heading": "Tambayoyin da Ake Yawan Yi",
+    "items": [
+      {
+        "q": "Shin ma'aunin ruwa na zamani yana buƙatar kashe ruwa gaba ɗaya?",
+        "a": "A'a. Na'urorinmu na zamani suna shiga kai tsaye kan bututun da ke akwai ba tare da an yanke komai ba. Shigarwa yana kammala cikin mintuna ba tare da yanke ruwa ga sauran mazauna ba."
+      },
+      {
+        "q": "Ta yaya ake lissafin kuɗin ruwa na gama-gari?",
+        "a": "Ana cire kuɗin wuraren gama-gari (kamar wurin ninkaya, lambuna) daga babban ma'aunin ruwa da farko. Ƙungiyoyin gidaje suna rarraba su bisa tsari ko daidai."
+      },
+      {
+        "q": "Yaya saurin HydroLedger ke gano ɗigon ruwa?",
+        "a": "Tsarinmu yana duba kwararar ruwa akai-akai. Idan kwarara ba ta tsaya ba cikin mintuna 10, za a aika da gargaɗi nan take don rage haɗarin ɓarna."
+      },
+      {
+        "q": "Shin HydroLedger tana kula da tsaro ko sirrin mazauna?",
+        "a": "Eh. HydroLedger tana kare bayanan mazauna ta hanyar ɓoye bayanan sirri. Ana kiyaye bayanan aiki don sa ido kan amfani da ruwa kawai."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Kasance tare da HydroLedger Yau",
+    "heading": "Fara Sa Ido Kan Amfani da Ruwanka Yau",
+    "paragraph": "Haɓaka kiyaye ruwa, sauƙaƙa lissafin kuɗin mazauna, da kare abubuwan more rayuwa. Bari mu lissafa hasashen ribar al'ummarka.",
+    "ctaPrimary": "Nemi Farashi",
+    "ctaSecondary": "Tuntuɓi Sashen Tallace-tallace"
+  },
+  "footer": {
+    "tagline": "Tsarin rarraba ruwa mai inganci da hanyoyin ma'aunin ruwa na zamani don gidaje. Kare tsarin, daidaita lissafi, adana ruwa.",
+    "columns": [
+      {
+        "title": "Dandali",
+        "links": [
+          "Ma'aunin Ruwa",
+          "Tsarin Lissafin Kuɗi",
+          "Kariya daga Ɗigon Ruwa",
+          "Manhajar Mazauna"
+        ]
+      },
+      {
+        "title": "Albarkatu",
+        "links": [
+          "Nazarin Shari'a",
+          "Blog",
+          "Jagoran Shigarwa",
+          "Cibiyar Taimako"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Ofishin Kamfanin",
+    "copyright": "© 2026 HydroLedger Systems Inc. An ajiye duk haƙƙoƙi.",
+    "legalPrivacy": "Manufar Sirri",
+    "legalTerms": "Sharuɗɗan Amfani"
+  }
+}

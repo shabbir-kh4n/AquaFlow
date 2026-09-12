@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Aýratynlyklar",
+    "linkHowItWorks": "Nähili işleýär",
+    "linkContact": "Habarlaşmak",
+    "signIn": "Hasaba giriň",
+    "getStarted": "Başlaň"
+  },
+  "hero": {
+    "eyebrow": "Akylly suw gözegçiligi",
+    "titleLine1": "Sarp edilişi yzarlaň.",
+    "titleHighlight": "Adalatly paýlaşyň.",
+    "titleLine2": "Suwy tygşytlaň.",
+    "paragraph": "HydroLedger ýaşaýyş jaý jemgyýetlerine hakyky wagtda sarp ediliş maglumatlaryny, düşnükli umumy töleg hasabatlaryny we akmalara garşy irki duýduryşlary bir paneldäki maglumatlar arkaly hödürleýär.",
+    "ctaPrimary": "Başlaň",
+    "ctaSecondary": "Hasaba giriň",
+    "panelLabel": "Bu aýdaky sarp ediliş",
+    "panelSub": "Öý hojalygynyň ortaça görkezijisinden 8% pes",
+    "chartLabelStart": "Duş",
+    "chartLabelEnd": "Ýek"
+  },
+  "trustBar": {
+    "label": "Öňdebaryjy köp maşgalaly dolandyryş toparlary tarapyndan ynamdarlyk gazanyldy"
+  },
+  "features": {
+    "pill": "Esasy mümkinçilikler",
+    "headingPrefix": "Ähli zerur zatlar",
+    "headingHighlight": "Gözegçilik we töleg",
+    "headingSuffix": "Adalatly",
+    "paragraph": "Bellik edilmedik umumy töleg usullaryny taşlaň. HydroLedger takyk ölçeg we akylly awtomatlaşdyrma arkaly gurluşlaýyn deňligi üpjün edýär.",
+    "items": [
+      {
+        "tag": "Suw yzarlamak",
+        "title": "Hakyky wagtda kiçi ölçeg",
+        "text": "Köne çaklamalara bil baglaman, her bir otag boýunça suw sarp edilişini minutma-minut takyk ölçäň."
+      },
+      {
+        "tag": "Töleg awtomatlaşdyrmasy",
+        "title": "Awtomatlaşdyrylan jemgyýetçilik tölegleri",
+        "text": "Sarp edilişe görä gönüden-göni ýaşaýjylara töleg hatlaryny dörediň. Töleg işlerini awtomatlaşdyryp, çykdajylary azaldyň."
+      },
+      {
+        "tag": "Töwekgelçiligi azaltmak",
+        "title": "Akmalary irki duýduryş bilen ýüze çykarmak",
+        "text": "Aýrybaşga akymlary derrew ýüze çykaryň we suwuň ýetirip biljek uly zyýanyny aýlar däl, minutlar içinde öňüni alyň."
+      },
+      {
+        "tag": "Çykdajylary paýlamak",
+        "title": "Adalatly çykdajy paýlanyşy",
+        "text": "Umumy meýdançanyň sarp edilişini yzarlaň we gurluş çykdajylaryny adalatly paýlap, ýaşaýjylaryň ynamyny gazanyň."
+      }
+    ],
+    "learnMore": "Giňişleýin öwreniň"
+  },
+  "howItWorks": {
+    "pill": "Iş akymynyň netijeliligi",
+    "heading": "Ýönekeý gurnama, el degirmän işlediş",
+    "paragraph": "Çalt gurnaň. Enjamlar birigenden soň, platforma çylşyrymly hasaplamalary, töleg hatlaryny we akma duýduryşlaryny özbaşdak ýerine ýetirýär.",
+    "steps": [
+      {
+        "title": "Akylly ölçegleri birikdiriň",
+        "text": "Biziň hünärmenlerimiz akylly ölçeg gurallaryny 15 minutdan az wagtda göni turbalara gurnaýarlar."
+      },
+      {
+        "title": "Hakyky wagtda yzarlamak",
+        "text": "Maglumatlar HydroLedger bulut platformasyna yzygiderli akyp, takyk sarp edilişi we kadadan çykma ýagdaýlaryny yzarlaýar."
+      },
+      {
+        "title": "Tölegleri awtomatlaşdyryň",
+        "text": "Aýyň ahyrynda, ulgam umumy meýdança we şahsy sarp edilişleri jemläp, düşnükli töleg hatlaryny taýýarlaýar."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Ýaşaýjylar portalynyň nusgasy",
+    "headingPrefix": "Ýaşaýjylaryňyza",
+    "headingHighlight": "Sarp edilişi düşnükli ediň",
+    "paragraph": "Aýdyňlyk jemgyýetçilik hyzmatdaşlygyny artdyrýar. Ýaşaýjylar hakyky wagtda maglumat, çaklamalar we akma duýduryşlary bilen ýönekeý panellerden peýdalanýarlar.",
+    "brandLabel": "Ýaşaýjylar portaly",
+    "unitLabel": "Otag 4B — Häzirki töleg döwri",
+    "stat1Label": "Bu aýdaky sarp ediliş",
+    "stat1Trend": "Ortaçadan -12% az",
+    "stat2Label": "Hasaplanylan töleg",
+    "stat2Trend": "Kadaly",
+    "stat3Label": "Akma ýagdaýy",
+    "stat3Value": "Arassa",
+    "stat3Trend": "Kadaly akym",
+    "chartTitle": "Hepdelik sarp ediliş (gallon)",
+    "bars": [
+      "1-nji hepde",
+      "2-nji hepde",
+      "3-nji hepde",
+      "4-nji hepde",
+      "5-nji hepde (çaklama)"
+    ],
+    "tipTitle": "Tygşytlamak üçin maslahat",
+    "tipText": "Aşhananyňyzdaky krant irden az-kem suw damdyrýar. Aeratorlary barlamak hepdede 10 gallona çenli suwy tygşytlap biler.",
+    "tipBadge": "Awtomatlaşdyrylan maslahat",
+    "autopayTitle": "Awtotöleg işjeňleşdirildi",
+    "autopayLabel": "Indiki awtotöleg senesi",
+    "autopayButton": "Jikme-jik PDF töleg hatyny görüň"
+  },
+  "audienceSplit": {
+    "residentPill": "Ýaşaýjylar üçin",
+    "residentHeading": "Adalatly, sarp edilişe esaslanan tölegler",
+    "residentParagraph": "Goňşumyzyň artykmaç sarp edilişi üçin töleg töläň. Diňe hakyky wagtda ölçenen öz sarp eden suwunuz üçin töleň.",
+    "residentBullets": [
+      "Takyk aýlyk ölçeg maglumatlary we düşnükli çykdajy görkezijileri.",
+      "Enjamlarda kiçi akmalar ýüze çykarylanda SMS we mobil bildirişler.",
+      "Awtomatlaşdyrylan kwiitansiýaly ýönekeý we çalt onlaýn töleg ulgamy."
+    ],
+    "adminPill": "Dolandyryjylar üçin",
+    "adminHeading": "Gyssagly netijelilik we galyndylary gözegçilik",
+    "adminParagraph": "Hyzmat dolandyryşyny kynçylykdan awtomatlaşdyrylan tölegler arkaly ýokary girdejili ulgama öwüriň.",
+    "adminBullets": [
+      "Aýry-aýry otaglar bilen gönüden-göni baglanyşykly awtomatiki çykdajy paýlaýyş.",
+      "Gurluşlaýyn suw zyýanlarynyň öňüni almak üçin gyssagly operatiw duýduryşlar.",
+      "Esasy ölçeg we paýlanan suw mukdary boýunça jikme-jik panel hasabatlary."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Tygşytlanan ortaça suw",
+      "Işjeň öý hojalyklary",
+      "Ulgamyň işleýiş wagty",
+      "Dolandyrylýan jemgyýetler"
+    ]
+  },
+  "pricing": {
+    "pill": "Aýdyň bahalar",
+    "heading": "Ýokary girdejili dolandyryş çykdajylary",
+    "paragraph": "Jemgyýetiňize laýyk gelýän meýilnamany saýlaň. HydroLedger köplenç ilkinji aýda galyndylary azaltmak arkaly öz töleglerini ödäp bilýär.",
+    "highlightBadge": "Iň gowy baha",
+    "customPriceLabel": "Ýörite",
+    "tiers": [
+      {
+        "name": "Başlangyç",
+        "unit": "her otag / aý",
+        "desc": "Esasy ölçeg mümkinçiliklerine mätäç kiçi townhouselar üçin ajaýyp.",
+        "features": [
+          "Hakyky wagtda ölçeg okalyşlary",
+          "SMS akma duýduryşlary",
+          "Standart töleg eksportlary",
+          "Özbaşdak portal"
+        ],
+        "cta": "Başlangyç meýilnamany işjeňleşdiriň"
+      },
+      {
+        "name": "Professional",
+        "unit": "her otag / aý",
+        "desc": "Awtomatlaşdyrylan tölegleri isleýän köp otagly jaýlar üçin altyn standart.",
+        "features": [
+          "Başlangyç meýilnamadaky ähli zatlar",
+          "Awtomatlaşdyrylan PDF töleg hatlary",
+          "Umumy meýdançalaryň adalatly paýlanyşy",
+          "Iň ileri tutulýan müşderi goldawy"
+        ],
+        "cta": "Pro-a geçiň (Iň köp saýlanýan)"
+      },
+      {
+        "name": "Kärhana",
+        "unit": "soraw boýunça",
+        "desc": "Ýörite API birikmeleri we töleg düzgünlerini talap edýän iri jemgyýetler üçin.",
+        "features": [
+          "Professional meýilnamadaky ähli zatlar",
+          "Ýörite töleg programma birikmeleri",
+          "Ýörite hyzmat geňeşçisi",
+          "Enjam kepillikleri"
+        ],
+        "cta": "Kärhana bölümi bilen habarlaşyň"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operatiw hakykatlar",
+    "heading": "Dolandyryjylar näme diýýär",
+    "quotes": [
+      {
+        "text": "HydroLedger biziň maliýe netijelerimizi düýbünden üýtgetdi. Biz mehaniki liniýalarda üç uly gizlin akmany ýüze çykardyň we diňe birinji çärýekde 11 lakh rupiýadan gowrak tygşytladyk."
+      },
+      {
+        "text": "Ýaşaýjylaryň ynamy artdy. Tölegleri umumy hasaplamalar bilen däl-de, diňe suw sarp edilişi boýunça geçirmek, iň kyn dawalary çözmäge kömek etdi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Kömek we soraglar",
+    "heading": "Köp soralýan soraglar",
+    "items": [
+      {
+        "q": "Akylly ölçegler mehaniki öçürmäni talap edýärmi?",
+        "a": "Ýok. Bizdäki innowasion ölçegler turbalara zyýan bermän, göni üstünden gurnalýar. Gurnaw birnäçe minutda tamamlanyp, suwy öçürmegi talap etmeýär."
+      },
+      {
+        "q": "Umumy suw çykdajylary nähili hasaplanýar?",
+        "a": "Umumy meýdançanyň çykdajylary (meselem, howuzlar, baglar) esasy ölçegden ilki aýrylýar. Soňra bu çykdajylar jemgyýetçilik düzgünlerine görä paýlanýar."
+      },
+      {
+        "q": "HydroLedger akmalary nähili çalt ýüze çykarýar?",
+        "a": "Ulgamymyz yzygiderli akym signalyny barlap durýar. Eger akym 10 minutlap nula düşmese, zyýany azaltmak üçin derrew duýduryş iberilýär."
+      },
+      {
+        "q": "HydroLedger howpsuzlygy ýa-da gizlinligi üpjün edýärmi?",
+        "a": "Hawa. HydroLedger ýaşaýjylaryň maglumatlaryny şifrlenen kanallar arkaly goraýar. Operatiw maglumatlar diňe sarp edilişi yzarlamak üçin saklanýar."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Şu gün goşulyň",
+    "heading": "Suw sarp edilişiňize gözegçiligi başlaň",
+    "paragraph": "Tygşytlamany artdyryň, tölegleri ýönekeýleşdiriň we infrastrukturaňyzy goraň. Jemgyýetiňiz üçin girdeji çaklamasyny biz bilen hasaplaň.",
+    "ctaPrimary": "Bahany soraň",
+    "ctaSecondary": "Satuw bölümi bilen habarlaşyň"
+  },
+  "footer": {
+    "tagline": "Akylly töleg ulgamlary we hakyky wagtda ýaşaýyş jaý ölçeg çözgütleri. Ulgamlary goraň, tölegleri sazlaň, suwy tygşytlaň.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Ölçeg",
+          "Töleg toplumy",
+          "Akma goralary",
+          "Ýaşaýjylar goşundysy"
+        ]
+      },
+      {
+        "title": "Çeşmeler",
+        "links": [
+          "Taryhy wakalar",
+          "Blog",
+          "Gurnama gollanmasy",
+          "Kömek merkezi"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Edaranyň başlygy",
+    "copyright": "© 2026 HydroLedger Systems Inc. Ähli hukuklar goralan.",
+    "legalPrivacy": "Gizlinlik syýasaty",
+    "legalTerms": "Hyzmat şertleri"
+  }
+}

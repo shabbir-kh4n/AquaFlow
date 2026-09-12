@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Özellikler",
+    "linkHowItWorks": "Nasıl Çalışır",
+    "linkContact": "İletişim",
+    "signIn": "Giriş Yap",
+    "getStarted": "Başla"
+  },
+  "hero": {
+    "eyebrow": "Akıllı Su İzleme",
+    "titleLine1": "Kullanımı takip edin.",
+    "titleHighlight": "Adil bir şekilde paylaşın.",
+    "titleLine2": "Suyu koruyun.",
+    "paragraph": "HydroLedger, apartman topluluklarına gerçek zamanlı tüketim içgörüleri, şeffaf ortak gider faturalandırması ve erken sızıntı uyarıları sunar; üstelik hepsi tek bir panelden.",
+    "ctaPrimary": "Başla",
+    "ctaSecondary": "Giriş Yap",
+    "panelLabel": "Bu ayın kullanımı",
+    "panelSub": "Hane ortalamasının %8 altında",
+    "chartLabelStart": "Pzt",
+    "chartLabelEnd": "Paz"
+  },
+  "trustBar": {
+    "label": "İlerici çok aileli yönetim grupları tarafından güvenilir"
+  },
+  "features": {
+    "pill": "Temel Yetenekler",
+    "headingPrefix": "İhtiyaç Duyulan Her Şey",
+    "headingHighlight": "İzleme ve Faturalandırma",
+    "headingSuffix": "Adil",
+    "paragraph": "Sabit oranlı hizmet paylaşımlarına veda edin. HydroLedger, hassas ölçüm ve akıllı otomasyon yoluyla yapısal eşitliği sağlar.",
+    "items": [
+      {
+        "tag": "Su Takibi",
+        "title": "Gerçek Zamanlı Alt Sayaçlama",
+        "text": "Eski ana tahminlere güvenmek yerine, bireysel üniteler genelinde dakikası dakikasına kesin su tüketimini ölçün."
+      },
+      {
+        "tag": "Faturalandırma Otomasyonu",
+        "title": "Otomatik Topluluk Faturalandırması",
+        "text": "Doğrudan konut sakinine yönelik, orantılı kullanıma dinamik olarak eşlenmiş fatura oluşturma. Faturalandırma yükünü anında ortadan kaldırın."
+      },
+      {
+        "tag": "Risk Azaltma",
+        "title": "Erken Sızıntı Tespit Uyarıları",
+        "text": "Anlık otomatik uyarılar, anormal akış modellerini işaretler ve büyük su hasarlarını aylar değil, dakikalar içinde yakalar."
+      },
+      {
+        "tag": "Maliyet Paylaşımı",
+        "title": "Adil Maliyet Dağıtımı",
+        "text": "Ortak alan kullanımını takip edin ve hane halkının güvenini ve tasarrufu artırmak için yapısal maliyetleri şeffaf bir şekilde dağıtın."
+      }
+    ],
+    "learnMore": "Daha fazla bilgi edinin"
+  },
+  "howItWorks": {
+    "pill": "İş Akışı Verimliliği",
+    "heading": "Sorunsuz Kurulum, Zahmetsiz Operasyon",
+    "paragraph": "Hızlıca kurulun. Donanım üniteleri bağlandıktan sonra, platform karmaşık hesaplamaları, fatura gönderimlerini ve sızıntı uyarılarını yerel olarak yönetir.",
+    "steps": [
+      {
+        "title": "Akıllı Sayaçları Bağlayın",
+        "text": "Sertifikalı teknisyenlerimiz, invaziv olmayan akıllı debi alt sayaçlarını 15 dakikadan kısa sürede doğrudan bireysel yükseltici vanalara takar."
+      },
+      {
+        "title": "Gerçek Zamanlı Takip",
+        "text": "Veriler sürekli olarak HydroLedger bulut platformuna akar, tam kullanım rakamlarını kaydeder ve anormal aktiviteleri izler."
+      },
+      {
+        "title": "Faturaları Otomatize Edin",
+        "text": "Ay sonunda, sistem ortak alan dağıtımlarını ve alt sayaç hacimlerini net, kalem kalem dökülmüş faturalarda birleştirir."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Canlı Konut Sakini Portalı Taslağı",
+    "headingPrefix": "Konut Sakinlerini Güçlendirin",
+    "headingHighlight": "Tüketim Şeffaflığı",
+    "paragraph": "Şeffaflık topluluk uyumunu oluşturur. Konut sakinleri; gerçek zamanlı geri bildirim, tahmini maliyet projeksiyonları ve proaktif sızıntı uyarıları içeren basit panellerin keyfini çıkarır.",
+    "brandLabel": "Konut Sakini Portalı",
+    "unitLabel": "Ünite 4B — Mevcut Fatura Dönemi",
+    "stat1Label": "Bu Ayın Kullanımı",
+    "stat1Trend": "Ortalamaya göre -%12",
+    "stat2Label": "Tahmini Fatura Tutarı",
+    "stat2Trend": "Normal",
+    "stat3Label": "Sızıntı Durumu",
+    "stat3Value": "Sorun Yok",
+    "stat3Trend": "Güvenli Akış",
+    "chartTitle": "Haftalık Kullanım (Galon)",
+    "bars": [
+      "1. Hafta",
+      "2. Hafta",
+      "3. Hafta",
+      "4. Hafta",
+      "5. Hafta (Tahmini)"
+    ],
+    "tipTitle": "Tasarruf İpucu",
+    "tipText": "Mutfak musluğunuz sabahları hafif sürekli akış gösteriyor. Havalandırıcıları kontrol etmek haftada 10 galona kadar tasarruf sağlayabilir.",
+    "tipBadge": "Otomatik İçgörü",
+    "autopayTitle": "Otomatik Ödeme Etkin",
+    "autopayLabel": "Bir sonraki Otomatik Fatura tarihi",
+    "autopayButton": "Detaylı PDF Faturasını Görüntüle"
+  },
+  "audienceSplit": {
+    "residentPill": "Konut Sakinleri İçin",
+    "residentHeading": "Adil, Tüketime Dayalı Hizmet Maliyetleri",
+    "residentParagraph": "Komşunuzun aşırı tüketimi için ödeme yapmayı bırakın. Gerçek zamanlı panel verileriyle desteklenen, yalnızca kullandığınız galon kadar ödeme yapın.",
+    "residentBullets": [
+      "Şeffaf maliyet metrikleri ile doğru aylık alt sayaç verileri.",
+      "Cihazlarda mikro sızıntı tespit edilirse SMS ve mobil bildirimler.",
+      "Otomatik makbuzlu, basit ve modern dijital fatura ödeme sistemi."
+    ],
+    "adminPill": "Mülk Yöneticileri İçin",
+    "adminHeading": "Anında Operasyonel Yatırım Getirisi (ROI) ve Atık Kontrolü",
+    "adminParagraph": "Hizmet yönetimi sürecini, yüksek kayıplı bir sıkıntıdan, otomatik konut sakini faturalandırması ile sorunsuz ve yüksek marjlı bir sürece dönüştürün.",
+    "adminBullets": [
+      "Doğrudan bireysel ünitelere bağlı, zahmetsiz hizmet dağıtımı.",
+      "Yüksek maliyetli yapısal su hasarını önlemek için anında operasyonel uyarılar.",
+      "Ana sayaç faturalandırması ile dağıtılan galonlar arasında detaylı panel raporlaması."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Ortalama Tasarruf Edilen Su",
+      "Aktif Hane",
+      "Sistem Çalışma Süresi",
+      "Yönetilen Topluluk"
+    ]
+  },
+  "pricing": {
+    "pill": "Şeffaf Paketler",
+    "heading": "Yüksek Yatırım Getirili Operasyonel Maliyetler",
+    "paragraph": "Tam topluluk yoğunluğunuza göre ölçeklenmiş bir plan seçin. HydroLedger, genellikle ilk ayda azalan ortak alan israfı sayesinde kendi platform ücretlerini karşılar.",
+    "highlightBadge": "En İyi Değer",
+    "customPriceLabel": "Özel",
+    "tiers": [
+      {
+        "name": "Başlangıç",
+        "unit": "ünite / ay başına",
+        "desc": "Temel alt sayaç özelliklerine ihtiyaç duyan küçük site birlikleri için mükemmeldir.",
+        "features": [
+          "Gerçek Zamanlı Sayaç Okumaları",
+          "SMS Sızıntı Uyarıları",
+          "Standart Faturalandırma Çıktıları",
+          "Self-Servis Portal"
+        ],
+        "cta": "Başlangıç Planını Etkinleştir"
+      },
+      {
+        "name": "Profesyonel",
+        "unit": "ünite / ay başına",
+        "desc": "Tam otomatik konut sakini faturalandırması isteyen klasik apartman toplulukları için altın standart paketimiz.",
+        "features": [
+          "Başlangıçtaki her şey",
+          "Otomatik PDF Fatura Gönderimi",
+          "Orantılı Ortak Alan Paylaşımları",
+          "Öncelikli Müşteri Desteği"
+        ],
+        "cta": "Pro'ya Geç (En Popüler)"
+      },
+      {
+        "name": "Kurumsal",
+        "unit": "istek üzerine",
+        "desc": "Özel API hatları ve faturalandırma yapılandırmaları gerektiren büyük ölçekli kurumsal topluluklar için.",
+        "features": [
+          "Profesyoneldeki her şey",
+          "Özel Faturalandırma Yazılım Entegrasyonları",
+          "Özel Hizmet Danışmanı",
+          "Donanım SLA Garantileri"
+        ],
+        "cta": "Kurumsal Satışla İletişime Geçin"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operasyonel Gerçekler",
+    "heading": "Mülk Yöneticileri Ne Diyor?",
+    "quotes": [
+      {
+        "text": "HydroLedger, operasyonel kâr-zarar dengemizi temelden değiştirdi. Mekanik hatlarda, sadece ilk çeyreğimizde 1,1 milyon ₹'den fazla tasarruf etmemizi sağlayan üç büyük gizli servis sızıntısı keşfettik."
+      },
+      {
+        "text": "Konut sakinlerinin güveni arttı. Kiracılarımıza genel çok odalı ana sayaç hesaplamaları yerine, sadece su kullanımına dayalı fatura kesmek, en sancılı kiracı anlaşmazlıklarımızı çözdü."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "SSS Desteği",
+    "heading": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "q": "Akıllı alt sayaçlar mekanik servis kesintisi gerektirir mi?",
+        "a": "Hayır. Yenilikçi yükseltici sayaç ünitelerimiz, bireysel alanlardaki mevcut hatların doğrudan üzerine invaziv olmayan bir şekilde oturur. Kurulumlar, çok kiracılı hizmet kesintileri olmadan dakikalar içinde temiz bir şekilde tamamlanır."
+      },
+      {
+        "q": "Ortak/paylaşımlı su maliyetleri nasıl hesaplanır?",
+        "a": "Merkezi ortak alan havuzu (örn. havuz tesisleri, çevre düzenlemesi) önce ana sayaçlardan temiz bir şekilde çıkarılır. Mülk grupları bunları yapısal olarak dağıtır veya şeffaf bir şekilde orantılar."
+      },
+      {
+        "q": "HydroLedger sürekli sızıntı akışlarını ne kadar hızlı tespit eder?",
+        "a": "Arka plan uyarı hatlarımız sürekli akış sinyallerini kontrol eder. Eğer akış 10 dakikalık bir döngüde sıfıra düşmezse, hasar risklerini en aza indirmek için uyarı gönderimleri anında devreye girer."
+      },
+      {
+        "q": "HydroLedger güvenliği veya konut sakini gizliliğini nasıl yönetir?",
+        "a": "Evet. HydroLedger, konut sakini portalı tanımlayıcılarını standart şifreli kanalların arkasında korur ve saklar. Operasyonel veriler, kesinlikle sadece tüketim takibi için güvenli tutulur."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "HydroLedger'a Bugün Katılın",
+    "heading": "Su Kullanımınızı Bugün İzlemeye Başlayın",
+    "paragraph": "Tasarruf metriklerini artırın, konut sakini faturalandırma yükünü basitleştirin ve değerli çok haneli altyapıyı koruyun. Özel topluluk yatırım getirisi (ROI) tahmininizi hesaplamamıza izin verin.",
+    "ctaPrimary": "Teklif İste",
+    "ctaSecondary": "Satışla İletişime Geçin"
+  },
+  "footer": {
+    "tagline": "Akıllı hizmet tahsis hatları ve gerçek zamanlı konut alt sayaç çözümleri. Sistemleri koruyun, faturaları hizalayın, sudan tasarruf edin.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Alt Sayaçlama",
+          "Faturalandırma Paketi",
+          "Sızıntı Koruması",
+          "Konut Sakini Uygulaması"
+        ]
+      },
+      {
+        "title": "Kaynaklar",
+        "links": [
+          "Vaka Çalışmaları",
+          "Blog",
+          "Kurulum Kılavuzu",
+          "Yardım Merkezi"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Kurumsal Ofis",
+    "copyright": "© 2026 HydroLedger Systems Inc. Tüm hakları saklıdır.",
+    "legalPrivacy": "Gizlilik Politikası",
+    "legalTerms": "Hizmet Şartları"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Eiginleikar",
+    "linkHowItWorks": "Hvernig það virkar",
+    "linkContact": "Hafðu samband",
+    "signIn": "Innskráning",
+    "getStarted": "Byrjaðu núna"
+  },
+  "hero": {
+    "eyebrow": "Snjöll vatnsmæling",
+    "titleLine1": "Fylgstu með notkun.",
+    "titleHighlight": "Skiptu sanngjarnt.",
+    "titleLine2": "Sparaðu vatn.",
+    "paragraph": "HydroLedger veitir íbúðasamfélögum rauntímaupplýsingar um neyslu, gagnsæjan kostnaðarskiptingu og viðvaranir um leka — allt á einu mælaborði.",
+    "ctaPrimary": "Byrjaðu núna",
+    "ctaSecondary": "Innskráning",
+    "panelLabel": "Notkun þessa mánaðar",
+    "panelSub": "8% undir meðallagi heimila",
+    "chartLabelStart": "Mán",
+    "chartLabelEnd": "Sun"
+  },
+  "trustBar": {
+    "label": "Treyst af framsæknum fasteignafélögum"
+  },
+  "features": {
+    "pill": "Kjarnaþjónusta",
+    "headingPrefix": "Allt sem þarf til að",
+    "headingHighlight": "mæla og reikna",
+    "headingSuffix": "sanngjarnt",
+    "paragraph": "Segðu bless við jafnskýrða kostnaðarskiptingu. HydroLedger stuðlar að sanngirni með nákvæmum mælingum og sjálfvirkni.",
+    "items": [
+      {
+        "tag": "Vatnsmæling",
+        "title": "Rauntíma undirmæling",
+        "text": "Mældu nákvæma vatnsnotkun hverrar íbúðar mínútu fyrir mínútu í stað þess að treysta á úreltar áætlanir."
+      },
+      {
+        "tag": "Sjálfvirk innheimta",
+        "title": "Sjálfvirk sameignarinnheimta",
+        "text": "Gerðu reikninga beint fyrir íbúa miðað við raunverulega notkun. Útrýmdu stjórnsýslukostnaði við innheimtu samstundis."
+      },
+      {
+        "tag": "Áhættustýring",
+        "title": "Viðvaranir um leka",
+        "text": "Sjálfvirkar viðvaranir greina óeðlilega flæðimynstur og stöðva stórtjón af völdum vatns á nokkrum mínútum, ekki mánuðum."
+      },
+      {
+        "tag": "Kostnaðarskipting",
+        "title": "Sanngjörn kostnaðardreifing",
+        "text": "Fylgstu með notkun í sameiginlegum rýmum og dreifðu kostnaði á gagnsæjan hátt til að byggja upp traust og hvetja til sparnaðar."
+      }
+    ],
+    "learnMore": "Læra meira"
+  },
+  "howItWorks": {
+    "pill": "Skilvirkni í vinnuferli",
+    "heading": "Auðveld uppsetning, sjálfvirk rekstur",
+    "paragraph": "Komdu kerfinu fljótt í gang. Þegar vélbúnaðurinn er tengdur sér kerfið um flókna útreikninga, útsendingu reikninga og viðvaranir um leka.",
+    "steps": [
+      {
+        "title": "Tengdu snjallmæla",
+        "text": "Tæknimenn okkar setja upp ífaralausa snjallmæla beint á inntök lagnanna á innan við 15 mínútum."
+      },
+      {
+        "title": "Rauntímavöktun",
+        "text": "Gögn streyma stöðugt í HydroLedger skýjapallinn, þar sem nákvæm notkun er skráð og óeðlileg virkni vöktuð."
+      },
+      {
+        "title": "Sjálfvirkar reikningar",
+        "text": "Um hver mánaðamót sameinar kerfið kostnað af sameiginlegum svæðum og mælda notkun í skýra, sundurliðaða reikninga."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Sýnishorn af íbúagátt",
+    "headingPrefix": "Gefðu íbúum",
+    "headingHighlight": "skýra yfirsýn yfir neyslu",
+    "paragraph": "Gagnsæi skapar sátt. Íbúar njóta einfaldra mælaborða með rauntímaupplýsingum, spám um kostnað og fyrirbyggjandi viðvörunum um leka.",
+    "brandLabel": "Íbúagátt",
+    "unitLabel": "Íbúð 4B — Núverandi innheimtutímabil",
+    "stat1Label": "Notkun þessa mánaðar",
+    "stat1Trend": "-12% vs meðaltal",
+    "stat2Label": "Áætluð upphæð reiknings",
+    "stat2Trend": "Á áætlun",
+    "stat3Label": "Lekastaða",
+    "stat3Value": "Allt í lagi",
+    "stat3Trend": "Eðlilegt flæði",
+    "chartTitle": "Vikuleg notkun (lítrar)",
+    "bars": [
+      "Vika 1",
+      "Vika 2",
+      "Vika 3",
+      "Vika 4",
+      "Vika 5 (Áætl)"
+    ],
+    "tipTitle": "Sparnaðarráð",
+    "tipText": "Kraninn í eldhúsinu sýnir örlítið samfellt flæði á morgnana. Að athuga síur gæti sparað allt að 40 lítra á viku.",
+    "tipBadge": "Sjálfvirk innsýn",
+    "autopayTitle": "Sjálfvirk greiðsla virk",
+    "autopayLabel": "Næsti gjalddagi",
+    "autopayButton": "Skoða nákvæman PDF reikning"
+  },
+  "audienceSplit": {
+    "residentPill": "Fyrir íbúa",
+    "residentHeading": "Sanngjarn kostnaður miðaður við notkun",
+    "residentParagraph": "Hættu að borga fyrir óhóflega notkun nágranna þinna. Borgaðu aðeins fyrir það vatn sem þú notar, með stuðningi rauntímagagna.",
+    "residentBullets": [
+      "Nákvæmar mánaðarlegar mælingar með gagnsæjum kostnaðarupplýsingum.",
+      "SMS- og snjallsímatilkynningar ef leki greinist í heimilistækjum.",
+      "Einfalt og straumlínulagað greiðslukerfi fyrir rafræna reikninga með sjálfvirkum kvittunum."
+    ],
+    "adminPill": "Fyrir fasteignastjóra",
+    "adminHeading": "Aukin skilvirkni og eftirlit með sóun",
+    "adminParagraph": "Umbreyttu innheimtu úr flóknu vandamáli í einfalt og arðbært ferli með sjálfvirkri reikningagerð.",
+    "adminBullets": [
+      "Sjálfvirk kostnaðarskipting tengd beint við einstakar íbúðir.",
+      "Tafarlausar viðvaranir til að koma í veg fyrir kostnaðarsamt vatnstjón.",
+      "Nákvæmar skýrslur á mælaborði sem bera saman heildarmæla og úthlutaða notkun."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Meðalsparnaður vatns",
+      "Virk heimili",
+      "Uppitími kerfis",
+      "Stjórnuð samfélög"
+    ]
+  },
+  "pricing": {
+    "pill": "Gagnsæir pakkar",
+    "heading": "Rekstrarkostnaður með mikilli arðsemi",
+    "paragraph": "Veldu áætlun sem hentar stærð þíns samfélags. HydroLedger borgar sig oft upp á fyrsta mánuði með minni sóun í sameign.",
+    "highlightBadge": "Besta verðið",
+    "customPriceLabel": "Sérsniðið",
+    "tiers": [
+      {
+        "name": "Byrjandi",
+        "unit": "á íbúð / mánuði",
+        "desc": "Fullkomið fyrir minni húsfélög sem þurfa kjarnaþjónustu undirmælinga.",
+        "features": [
+          "Rauntímalestur mæla",
+          "SMS viðvaranir um leka",
+          "Staðlaðir útflutningar á reikningum",
+          "Sjálfsafgreiðslugátt"
+        ],
+        "cta": "Virkja Byrjanda"
+      },
+      {
+        "name": "Fagmaður",
+        "unit": "á íbúð / mánuði",
+        "desc": "Okkar vinsælasti pakki fyrir íbúðasamfélög sem vilja fullkomlega sjálfvirka innheimtu.",
+        "features": [
+          "Allt í Byrjanda pakkanum",
+          "Sjálfvirk útsending PDF reikninga",
+          "Hlutdeild í sameiginlegum kostnaði",
+          "Forgangssími fyrir þjónustu"
+        ],
+        "cta": "Fara í Pro (vinsælast)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "eftir óskum",
+        "desc": "Fyrir stór samfélög sem krefjast sérsniðinna API tenginga og reikningsstillinga.",
+        "features": [
+          "Allt í Fagmaður pakkanum",
+          "Sérsmíðaðar samþættingar",
+          "Sérstakur ráðgjafi í vatnsmálum",
+          "Ábyrgð á vélbúnaði (SLA)"
+        ],
+        "cta": "Hafðu samband við sölu"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Rekstrarlegur veruleiki",
+    "heading": "Hvað fasteignastjórar segja",
+    "quotes": [
+      {
+        "text": "HydroLedger breytti rekstrarafkomu okkar verulega. Við uppgötvuðum þrjá stóra leynda leka í lögnum sem spöruðu okkur yfir 1,1 milljón í fyrsta ársfjórðungi."
+      },
+      {
+        "text": "Traust íbúa hefur aukist til muna. Að reikna út frá raunverulegri notkun í stað almennra áætlana leysti okkar erfiðustu deilumál við leigjendur."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Algengar spurningar",
+    "heading": "Svör við algengum spurningum",
+    "items": [
+      {
+        "q": "Þurfa snjallmælar að vatn sé lokað fyrir við uppsetningu?",
+        "a": "Nei. Nýstárlegir mælar okkar passa utan á núverandi lagnir í hverri íbúð. Uppsetning tekur aðeins nokkrar mínútur án þess að þurfa að loka fyrir vatn hjá öðrum íbúum."
+      },
+      {
+        "q": "Hvernig er sameiginlegum vatnskostnaði reiknað?",
+        "a": "Kostnaður fyrir sameiginleg rými (t.d. sundlaug, garðvökvun) er dreginn frá heildarmælum fyrst. Húsfélög skipta þessum kostnaði síðan gagnsætt á milli íbúa."
+      },
+      {
+        "q": "Hversu hratt greinir HydroLedger samfelldan leka?",
+        "a": "Kerfið okkar fylgist stöðugt með flæðimerkjum. Ef flæðið nær ekki núlli yfir 10 mínútna tímabil, er viðvörun send samstundis til að lágmarka tjónshættu."
+      },
+      {
+        "q": "Sér HydroLedger um öryggi og persónuvernd íbúa?",
+        "a": "Já. HydroLedger verndar upplýsingar íbúa með dulkóðuðum rásum. Rekstrargögn eru eingöngu geymd til að fylgjast með notkun."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Vertu með í HydroLedger",
+    "heading": "Byrjaðu að fylgjast með vatnsnotkun í dag",
+    "paragraph": "Auktu sparnað, einfaldaðu innheimtu og verndaðu verðmæti fasteigna. Leyfðu okkur að reikna út ávinning fyrir þitt samfélag.",
+    "ctaPrimary": "Óska eftir tilboði",
+    "ctaSecondary": "Hafa samband við sölu"
+  },
+  "footer": {
+    "tagline": "Snjöll lausn fyrir kostnaðarskiptingu og rauntímavöktun á vatnsnotkun. Verndaðu kerfi, jafnaðu reikninga, sparaðu vatn.",
+    "columns": [
+      {
+        "title": "Vettvangur",
+        "links": [
+          "Undirmæling",
+          "Innheimtukerfi",
+          "Vörn gegn leka",
+          "Íbúa-app"
+        ]
+      },
+      {
+        "title": "Auðlindir",
+        "links": [
+          "Tilviksrannsóknir",
+          "Blogg",
+          "Uppsetningarleiðbeiningar",
+          "Þjónustumiðstöð"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Skrifstofa fyrirtækisins",
+    "copyright": "© 2026 HydroLedger Systems Inc. Allur réttur áskilinn.",
+    "legalPrivacy": "Persónuverndarstefna",
+    "legalTerms": "Notkunarskilmálar"
+  }
+}

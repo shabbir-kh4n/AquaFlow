@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Veivakasala",
+    "linkHowItWorks": "Cava na kena cakacaka",
+    "linkContact": "Veitaratarataki",
+    "signIn": "Curu ki loma",
+    "getStarted": "Tekivu ena gauna oqo"
+  },
+  "hero": {
+    "eyebrow": "Vakadeitaki ni Wai ena Yalomatua",
+    "titleLine1": "Raica na kena vakayagataki.",
+    "titleHighlight": "Wasei vakadodonu.",
+    "titleLine2": "Maroroya na wai.",
+    "paragraph": "E vakarautaka na HydroLedger na kena raici vakadodonu na wai ena veivale, na kena wasei na isau ni bili, kei na kena vakasalataki totolo ena gauna e drodro kina na wai — kece ena dua ga na dashboard.",
+    "ctaPrimary": "Tekivu ena gauna oqo",
+    "ctaSecondary": "Curu ki loma",
+    "panelLabel": "Na kena vakayagataki ena vula oqo",
+    "panelSub": "8% e ra ni ivakatagedegede ni veivale",
+    "chartLabelStart": "Mon",
+    "chartLabelEnd": "Sun"
+  },
+  "trustBar": {
+    "label": "Vakabauti ira na kena iliuliu ni tabana ni qaravi vale"
+  },
+  "features": {
+    "pill": "Na Kena iTavi Levu",
+    "headingPrefix": "Kece na ka e gadrevi me",
+    "headingHighlight": "Moku na Wai kei na Bili",
+    "headingSuffix": "Vakadodonu",
+    "paragraph": "Biuta tani na kena wasei vakatautauvata na isau ni wai. E uqeta na HydroLedger na veisau vakadodonu ena kena vakarautaki na kena iwiliwili kei na kena cakacaka vaka-idini.",
+    "items": [
+      {
+        "tag": "Vakaraici ni Wai",
+        "title": "Vakaraici ni Wai ena Gauna oqo",
+        "text": "Vakarautaka vakadodonu na kena vakayagataki na wai ena veiminiti ena veivale yadua, ena kena sega ni nuitaki na ivakacavaca ni kena iwiliwili e liu."
+      },
+      {
+        "tag": "Bili Vakacakacaka",
+        "title": "Bili ni Veikoro Vakacakacaka",
+        "text": "Vakarautaki na bili ni tiko vei ira na tiko ena vale me vaka na kena vakayagataki. Vakaotia na leqa ni kena vakarautaki na bili."
+      },
+      {
+        "tag": "Vakadeitaki ni Leqa",
+        "title": "Vakasalataki ena Drodro ni Wai",
+        "text": "Vakasalataki totolo ena gauna e drodro kina na wai, ka rawa ni tarovi na vakacaca ni wai ena loma ni vica na miniti, sega ni vica na vula."
+      },
+      {
+        "tag": "Wasei ni Isau",
+        "title": "Wasei ni Isau Vakadodonu",
+        "text": "Vakaraica na kena vakayagataki na vanua ni vakacegu ka wasei na kena isau vakadodonu me vakabauti kina na veivale kei na kena maroroi na wai."
+      }
+    ],
+    "learnMore": "Vulica vakalevu"
+  },
+  "howItWorks": {
+    "pill": "Cakacaka Vakayagataki",
+    "heading": "Vakacurumi ni iyaya totolo, Cakacaka vaka-i-dini",
+    "paragraph": "Vakarautaki ena totolo. Ni sa semati na iyaya, na platform ena qai cakava na kena iwiliwili, vakau na bili, kei na vakasalataki ena drodro ni wai.",
+    "steps": [
+      {
+        "title": "Semata na Mita ni Wai",
+        "text": "Na neimami dautevutevuru era na vakacuruma na mita ni wai ena loma ni 15 na miniti."
+      },
+      {
+        "title": "Vakaraici ena Gauna oqo",
+        "text": "Na itukutuku e cici tiko ga ki na HydroLedger cloud, ka volaitaki na kena iwiliwili vakadodonu ni wai kei na kena raici na itovo ni drodro."
+      },
+      {
+        "title": "Bili Vakacakacaka",
+        "text": "Ena icavacava ni vula, na injini ena tuvana vata na itukutuku ni kena vakayagataki na wai ena veivale kei na vanua raraba me dua na bili macala."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Portal ni Tiko e Vale",
+    "headingPrefix": "Vakarautaki ira na Tiko e Vale ena",
+    "headingHighlight": "Macala ni Vakayagataki",
+    "paragraph": "Na kena matata e vakadeitaka na duavata. Era na marautaka na tiko e vale na dashboard me ra raica kina na kena vakayagataki, na isau ni bili, kei na ivakasala ni drodro ni wai.",
+    "brandLabel": "Portal ni Tiko e Vale",
+    "unitLabel": "Vale 4B — Gauna ni Bili oqo",
+    "stat1Label": "Vakayagataki ena vula oqo",
+    "stat1Trend": "-12% ni vakatauvatani kei na kena ivakarau",
+    "stat2Label": "Isau ni Bili",
+    "stat2Trend": "Ena gauna donu",
+    "stat3Label": "Ituvaki ni Drodro ni Wai",
+    "stat3Value": "Macala vinaka",
+    "stat3Trend": "Drodro vinaka",
+    "chartTitle": "Vakayagataki ena veimacawa (Gallons)",
+    "bars": [
+      "Macawa 1",
+      "Macawa 2",
+      "Macawa 3",
+      "Macawa 4",
+      "Macawa 5 (Proj)"
+    ],
+    "tipTitle": "Vakasala ni Maroroi Wai",
+    "tipText": "Na nomu paipi ena kitchin e rawa ni drodro tiko vakalailai ena mataka. Na kena qaravi na aerator e rawa ni maroroya e 10 na galoni ena dua na macawa.",
+    "tipBadge": "Vakasala Vakacakacaka",
+    "autopayTitle": "Autopay e Vakatara",
+    "autopayLabel": "Bili ni kena gauna e tarava",
+    "autopayButton": "Raica na Bili PDF"
+  },
+  "audienceSplit": {
+    "residentPill": "Kivei ira na Tiko e Vale",
+    "residentHeading": "Isau ni Wai Vakadodonu, Vakatau ena kena Vakayagataki",
+    "residentParagraph": "Cegu na saumi ni wai era vakayagataka na nomu tiko veitikivi. Saumi ga na kena o vakayagataka vakadodonu, ena itukutuku mai na dashboard.",
+    "residentBullets": [
+      "Macala na ivakatagedegede ni vakayagataki ni wai e veivula.",
+      "Vakasalataki ena SMS se mobile ke dua na drodro lailai ena loma ni vale.",
+      "Sega ni dredre na kena saumi na bili ena mobile."
+    ],
+    "adminPill": "Kivei ira na Vakaitutu ni Vale",
+    "adminHeading": "Cakacaka Vakacakacaka ena Gauna oqo",
+    "adminParagraph": "Veisautaka na kena qaravi na wai me dua na cakacaka rawarawa ka vinaka, ena kena vakarautaki na bili ni tiko e vale.",
+    "adminBullets": [
+      "Vakarautaki ni bili ni wai ena veivale yadua.",
+      "Vakasalataki totolo ena gauna e basu kina na paipi.",
+      "Dashboard ni itukutuku ni kena vakayagataki na wai."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Wai Maroroi (Vakatautauvata)",
+      "Veivale Vakacakacaka",
+      "Sema ni Sisitemi",
+      "Veikoro Qaravi"
+    ]
+  },
+  "pricing": {
+    "pill": "Isau ni iTavi Macala",
+    "heading": "Isau ni Cakacaka e Vakarautaki me Rawai kina na Vinaka",
+    "paragraph": "Digitaka na i tuvatuva e ganita na nomu veikoro. Na HydroLedger e sa dau sauma oti na kena isau ena vula ni kena tekivu vakayagataki ena kena maroroi na wai.",
+    "highlightBadge": "Isau Vinaka Duadua",
+    "customPriceLabel": "Vakaitutu",
+    "tiers": [
+      {
+        "name": "Tekivu",
+        "unit": "e dua na vale / vula",
+        "desc": "E vinaka sara vei ira na veikoro lalai era gadreva na kena vakaraici na wai.",
+        "features": [
+          "Vakaraici ni Mita ena Gauna oqo",
+          "SMS ni Drodro ni Wai",
+          "Vakarautaki ni Bili ni Vale",
+          "Portal ni Vakatovotovo"
+        ],
+        "cta": "Tekivu na ituvatuva oqo"
+      },
+      {
+        "name": "Professional",
+        "unit": "e dua na vale / vula",
+        "desc": "Na noda ituvatuva e digitaki me baleti ira na veikoro era vinakata na bili vakacakacaka.",
+        "features": [
+          "Kece na ka ena Tekivu",
+          "Vakarautaki ni Bili PDF",
+          "Wasei ni Isau ni Vanua Raraba",
+          "Veivuke ni Kasaitala"
+        ],
+        "cta": "Digitaka na Pro (Digitaki Vakalevu)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "me vakatarai",
+        "desc": "Me baleti ira na veikoro levu era gadreva na veika e vakarautaki vakatabakidua.",
+        "features": [
+          "Kece na ka ena Professional",
+          "Bili Vakacakacaka ni API",
+          "Dauniveivakasala ni Wai",
+          "Vakadeitaki ni Hardware SLA"
+        ],
+        "cta": "Veitaratarataki ena Enterprise Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Na Kena iTukutuku",
+    "heading": "Cava era kaya na Vakaitutu ni Vale",
+    "quotes": [
+      {
+        "text": "E veisautaka sara ga na neimami qaravi vale na HydroLedger. Keimami raica e tolu na leqa levu ni drodro ni wai ka maroroya e rauta ni ₹11 na lakh ena imatai ni vula tolu."
+      },
+      {
+        "text": "E vakabauti keimami na tiko e vale. Na kena bilii na tiko e vale vakatau ena kena vakayagataki na wai e vakaotia na noda veileti ni bili."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Veivuke",
+    "heading": "Taro Dau Tarogi Vakalevu",
+    "items": [
+      {
+        "q": "E gadrevi me bokoci na wai ni vakacurumi na mita?",
+        "a": "Sega. Na noda mita e vakacurumi ga ena loma ni paipi e tiko rawa, ka rawa ni vakacurumi ena loma ni vica na miniti me sega ni bokoci na wai."
+      },
+      {
+        "q": "E vakarautaki vakacava na isau ni wai ni vanua raraba?",
+        "a": "Na kena e vakayagataki ena vanua raraba (me vaka na siwimingi pulu, were) e sauma vakadodonu na mita levu. E na qai wasei vakadodonu vei ira na tiko e vale."
+      },
+      {
+        "q": "E totolo vakacava na HydroLedger ena kena raici na drodro ni wai?",
+        "a": "Na noda sisitemi e raica tiko na kena cici na wai. Ke sega ni cegu na drodro ena loma ni 10 na miniti, e na vakasalataki totolo na tiko e vale."
+      },
+      {
+        "q": "E maroroya na HydroLedger na veika ni tiko e vale?",
+        "a": "Io. E maroroya na HydroLedger na itukutuku ni tiko e vale ena veika e vakadeitaki. Na itukutuku ni kena vakayagataki na wai e vakayagataki ga me raici kina na itovo ni wai."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Vakacurumi koya ena HydroLedger nikua",
+    "heading": "Tekivu Vakaraica na nomu Vakayagataki Wai Nikua",
+    "paragraph": "Uqeta na kena maroroi na wai, vakarawarawataka na kena bilii, ka maroroya na iyaya ni vale. Vakatara me keimami vakarautaka na nomu isau ni ROI.",
+    "ctaPrimary": "Kerea na Isau ni Bili",
+    "ctaSecondary": "Veitaratarataki ena Sales"
+  },
+  "footer": {
+    "tagline": "Vakarautaki ni kena wasei na wai vakadodonu kei na kena vakaraici ena gauna oqo. Maroroya na sisitemi, vakadodonutaka na bili, maroroya na wai.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Vakaraici ni Mita",
+          "Bili ni Veivale",
+          "Vakadeitaki ni Drodro",
+          "App ni Tiko e Vale"
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          "Case Studies",
+          "Blog",
+          "Install Guide",
+          "Help Center"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Vale ni Cakacaka",
+    "copyright": "© 2026 HydroLedger Systems Inc. Kece na dodonu e maroroi.",
+    "legalPrivacy": "Lawatu ni Veimataqali Tiko Vuni",
+    "legalTerms": "Lawatu ni Cakacaka"
+  }
+}

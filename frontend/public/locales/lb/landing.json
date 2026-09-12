@@ -1,0 +1,243 @@
+{
+  "navbar": {
+    "linkFeatures": "Features",
+    "linkHowItWorks": "Wéi et funktionéiert",
+    "linkContact": "Kontakt",
+    "signIn": "Umellen",
+    "getStarted": "Ufänken"
+  },
+  "hero": {
+    "eyebrow": "Intelligent Waasser-Iwwerwaachung",
+    "titleLine1": "Verfollegt de Verbrauch.",
+    "titleHighlight": "Gerecht opdeelen.",
+    "titleLine2": "Waasser spueren.",
+    "paragraph": "HydroLedger gëtt Wunnengsgemeinschaften Abléck an de Verbrauch an Echtzäit, transparent Deelkäschte-Rechnungen an fréi Leck-Warnungen — alles iwwer een Dashboard.",
+    "ctaPrimary": "Ufänken",
+    "ctaSecondary": "Umellen",
+    "panelLabel": "Verbrauch dëse Mount",
+    "panelSub": "8% ënner dem Haushaltsschnëtt",
+    "chartLabelStart": "Méi",
+    "chartLabelEnd": "Son"
+  },
+  "trustBar": {
+    "label": "Vertraut vun progressive Wunnengsbau-Managementgruppen"
+  },
+  "features": {
+    "pill": "Kärfäegkeeten",
+    "headingPrefix": "Alles wat néideg ass fir",
+    "headingHighlight": "Iwwerwaachen & Rechnung",
+    "headingSuffix": "Gerecht",
+    "paragraph": "Vergiess Pauschalpräisser fir Waasserkäschten. HydroLedger suergt fir strukturell Gerechtegkeet duerch präzis Miessung an intelligent Automatisatioun.",
+    "items": [
+      {
+        "tag": "Waasser-Tracking",
+        "title": "Echtzäit Sub-Metering",
+        "text": "Miess genee, Minutt fir Minutt de Waasserverbrauch an den eenzelne Wunnenge amplaz op al Meeschter-Schätzungen ze vertrauen."
+      },
+      {
+        "tag": "Rechnungs-Automatisatioun",
+        "title": "Automatiséiert Gemeinschaftsrechnung",
+        "text": "Generatioun vun de Rechnunge direkt un d'Awunner, dynamesch ugepasst op den ugepasste Verbrauch. Eliminéiert direkt de bürokrateschen Opwand."
+      },
+      {
+        "tag": "Risikominderung",
+        "title": "Fréi Leck-Erkennungsalarm",
+        "text": "Direkt automatiséiert Alarmer mellen ongewéinlech Flëssmuster a fanne gréisser Waasserschied bannent Minutten, net Méint."
+      },
+      {
+        "tag": "Käschteverdeelung",
+        "title": "Gerecht Käschteverdeelung",
+        "text": "Verfollegt de gemeinsame Verbrauch an deelt d'Käschte transparent op, fir Vertrauen an de Spuergedanken am Haushalt opzebauen."
+      }
+    ],
+    "learnMore": "Méi gewuer ginn"
+  },
+  "howItWorks": {
+    "pill": "Workflow-Effizienz",
+    "heading": "Einfach Installatioun, automatesche Betrib",
+    "paragraph": "Séier ageriicht. Soubal d'Hardware ugeschloss ass, geréiert d'Plattform komplex Berechnungen, Rechnungsversand an Leck-Alarmer automatesch.",
+    "steps": [
+      {
+        "title": "Smart Meter uschléissen",
+        "text": "Eis zertifizéiert Techniker montéieren net-invasiv Smart-Meter direkt op d'Leitunge vun den eenzelne Wunnenge a manner wéi 15 Minutten."
+      },
+      {
+        "title": "Echtzäit-Tracking",
+        "text": "Daten fléissen kontinuéierlech op d'HydroLedger Cloud-Plattform, protokolléiere genee Verbrauchszuelen an iwwerwaachen ongewéinlech Aktivitéiten."
+      },
+      {
+        "title": "Rechnungen automatiséieren",
+        "text": "Um Enn vum Mount kombinéiert d'System d'Verdeelung vun de gemeinsame Käschten an d'gemiesste Volumme zu kloren, detailléierte Rechnungen."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Live Awunner-Portal Mockup",
+    "headingPrefix": "Gëff Awunner",
+    "headingHighlight": "Kloerheet beim Verbrauch",
+    "paragraph": "Transparenz schaaft Gemeinschafts-Kohärenz. Awunner genéissen einfach Dashboards mat Echtzäit-Feedback, prévisiven Käschteprojektiounen a proaktive Leck-Warnungen.",
+    "brandLabel": "Awunner-Portal",
+    "unitLabel": "Wunneng 4B — Aktuellen Rechnungszyklus",
+    "stat1Label": "Verbrauch dëse Mount",
+    "stat1Trend": "-12% vs Schnëtt",
+    "stat2Label": "Geschätzte Rechnungsbetrag",
+    "stat2Trend": "Op Kurs",
+    "stat3Label": "Leck-Status",
+    "stat3Value": "Alles an der Rei",
+    "stat3Trend": "Sécher",
+    "chartTitle": "Wöchentleche Verbrauch (Gallonen)",
+    "bars": [
+      "Woch 1",
+      "Woch 2",
+      "Woch 3",
+      "Woch 4",
+      "Woch 5 (Proj)"
+    ],
+    "tipTitle": "Spuertipp",
+    "tipText": "Är Kichekran weist moies e liichte kontinuéierleche Floss. D'Iwwerpréiwung vun de Belüfter kéint bis zu 10 Gallone pro Woch spueren.",
+    "tipBadge": "Automatiséierten Abléck",
+    "autopayTitle": "Autopay aktivéiert",
+    "autopayLabel": "Nächst automatesch Rechnungsdatum",
+    "autopayButton": "Detailléiert PDF-Rechnung kucken"
+  },
+  "audienceSplit": {
+    "residentPill": "Fir Awunner",
+    "residentHeading": "Gerecht, verbrauchsbaséiert Utilitéitskäschten",
+    "residentParagraph": "Hör op, fir den exzessive Verbrauch vun Ärem Noper ze bezuelen. Bezuelt strikt fir d'Quantitéit, déi Dir verbraucht, gestäipt duerch Echtzäit-Dashboard-Daten.",
+    "residentBullets": [
+      "Genee monatlech Sub-Metering-Daten mat transparenten Käschtenmetriken.",
+      "SMS & Handy-Notifikatiounen, wann Mikrolecke bei Apparater festgestallt ginn.",
+      "Einfacht, gestroomlinnt digitalescht Bezuelungssystem mat automatiséierten Quittungen."
+    ],
+    "adminPill": "Fir Immobilien-Admins",
+    "adminHeading": "Direkten operationelle ROI a Kontrolle vum Offall",
+    "adminParagraph": "Verwandelt d'Utilitéitsmanagement vun enger héijer Käschtefuerderung an eng nahtlos, héich-margine Pipeline mat automatiséierter Rechnungsstellung.",
+    "adminBullets": [
+      "Automatesch Verdeelung direkt u verbonne Wunnengen.",
+      "Direkt operationell Alarmer fir deier strukturell Waasserschied ze verhënneren.",
+      "Detailléiert Dashboard-Berichter iwwer Haaptmeter-Rechnungen vs. verdeelte Waassermengen."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Duerchschnëttlech Waasser gespuert",
+      "Aktiv Haushalter",
+      "Systemverfügbarkeet",
+      "Gemeinschafte verwalt"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparent Packagen",
+    "heading": "Héich ROI-operationell Käschten",
+    "paragraph": "Wielt e Plang, deen op Är spezifesch Gemeinschaftsdicht ugepasst ass. HydroLedger kompenséiert seng eege Plattformegebühr meeschtens am éischte Mount duerch reduzéierten Offall an de Gemeinschaftsberäicher.",
+    "highlightBadge": "Beschte Wäert",
+    "customPriceLabel": "Custom",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "pro Wunneng / Mount",
+        "desc": "Perfekt fir méi kleng Wunnengsvereenegungen, déi Kärfäegkeete fir d'Sub-Metering brauchen.",
+        "features": [
+          "Echtzäit-Meterlesungen",
+          "SMS Leck-Alarmer",
+          "Standard Rechnungs-Exporter",
+          "Self-Service Portal"
+        ],
+        "cta": "Starter aktivéieren"
+      },
+      {
+        "name": "Professional",
+        "unit": "pro Wunneng / Mount",
+        "desc": "Eist Gold-Standard-Package fir klassesch Appartementsgemeinschaften, déi eng voll automatiséiert Rechnungsstellung wënschen.",
+        "features": [
+          "Alles aus dem Starter",
+          "Automatiséierten PDF-Rechnungsversand",
+          "Proportional Verdeelung fir Gemeinschaftsflächen",
+          "Prioritéits-Clientsupport"
+        ],
+        "cta": "Pro ginn (Mee populär)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "op Ufro",
+        "desc": "Fir grouss institutionell Gemeinschaften, déi personaliséiert API-Pipelines a Rechnungs-Konfiguratioune brauchen.",
+        "features": [
+          "Alles aus dem Professional",
+          "Maartgeschneidert Rechnungs-Software-Integratiounen",
+          "Engagéierte Beroder",
+          "Hardware SLA Garantien"
+        ],
+        "cta": "Kontaktéiert Enterprise-Sales"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operationell Realitéiten",
+    "heading": "Wat Property Manager soen",
+    "quotes": [
+      {
+        "text": "HydroLedger huet eis operationell P&L fundamental verännert. Mir hunn dräi grouss verstoppte Lecke an de mechanesche Leitunge fonnt, déi eis eleng am éischte Quartal iwwer 11 Lakh ₹ gespuert hunn."
+      },
+      {
+        "text": "D'Vertrauen vun den Awunner ass staark gewuess. D'Rechnungsstellung op Basis vum effektive Waasserverbrauch amplaz op generesch Meeschter-Meter-Berechnungen huet eis schwéierst Sträitfäll geléist."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "FAQ Support",
+    "heading": "Oft gestallte Froen",
+    "items": [
+      {
+        "q": "Brauchen Smart Sub-Meter mechanesch Ënnerbriechungen?",
+        "text": "",
+        "a": "Nee. Eis innovativ Meter-Unitéite passen net-invasiv direkt op bestehend Leitungen an de Kricherbäi. D'Installatioun ass an e puer Minutten ofgeschloss, ouni datt d'Waasser am ganze Gebai ofgestallt muss ginn."
+      },
+      {
+        "q": "Wéi ginn gemeinsam Waasserkäschte berechent?",
+        "a": "D'Zentralkäschte fir Gemeinschaftsanlagen (z.B. Pool, Bewässerung) ginn am Ufank vun de Haaptmeteren ofgezunn. D'Immobilien-Gruppen deelen dës dann transparent op."
+      },
+      {
+        "q": "Wéi séier erkennt HydroLedger kontinuéierlech Leck-Flëss?",
+        "a": "Eis Hannergrond-Alarm-Pipelines iwwerpréiwen d'Signaler op kontinuéierlechen Duerchfluss. Wann de Floss an engem 10-Minutte-Zyklus net op Null geet, gëtt direkt eng Warnung geschéckt, fir Schied ze minimiséieren."
+      },
+      {
+        "q": "Hëlt HydroLedger sech ëm Sécherheet oder Privatsphär vun den Awunner?",
+        "a": "Jo. HydroLedger schützt a späichert d'Identifikateuren am Awunner-Portal hannert Standard-verschlësselte Kanäl. Operationell Daten gi strikt sécher fir d'Verbrauchs-Tracking behandelt."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Maacht haut bei HydroLedger mat",
+    "heading": "Fänkt haut mat der Iwwerwaachung vun Ärem Waasserverbrauch un",
+    "paragraph": "Verbessert d'Spuer-Metriken, vereinfacht den administrativen Opwand an schützt wäertvoll Infrastruktur. Loosst eis Ären individuellen ROI berechnen.",
+    "ctaPrimary": "Ufro stellen",
+    "ctaSecondary": "Kontaktéiert de Verkaf"
+  },
+  "footer": {
+    "tagline": "Smart Utilitéitsverdeelung a Léisunge fir d'Sub-Metering vun Awunner. Schützt Systemer, passt Rechnungen un, spuert Waasser.",
+    "columns": [
+      {
+        "title": "Plattform",
+        "links": [
+          "Sub-Metering",
+          "Rechnungs-Suite",
+          "Leck-Schutz",
+          "Awunner-App"
+        ]
+      },
+      {
+        "title": "Ressourcen",
+        "links": [
+          "Fallstudien",
+          "Blog",
+          "Installatiouns-Guide",
+          "Hëllef-Center"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Firmensëtz",
+    "copyright": "© 2026 HydroLedger Systems Inc. All Rechter reservéiert.",
+    "legalPrivacy": "Dateschutz",
+    "legalTerms": "Nëtzungsbedéngungen"
+  }
+}

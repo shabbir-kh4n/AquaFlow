@@ -32,15 +32,21 @@
   color: var(--af-white);
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
 }
 
+/* Manual letter-spacing mangles scripts with contextually-shaped/connected
+   glyphs (Devanagari, Tamil, Arabic, etc.) - scoped to English via :lang(en). */
+:lang(en) .af-pricing__badge {
+  letter-spacing: 0.04em;
+}
+
 .af-pricing__card h3 {
   margin: 0 0 14px;
   font-size: 18px;
+  line-height: 1.35;
   font-weight: 700;
   color: var(--af-text-dark);
 }

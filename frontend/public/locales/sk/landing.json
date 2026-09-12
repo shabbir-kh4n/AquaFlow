@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkcie",
+    "linkHowItWorks": "Ako to funguje",
+    "linkContact": "Kontakt",
+    "signIn": "Prihlásiť sa",
+    "getStarted": "Začať"
+  },
+  "hero": {
+    "eyebrow": "Inteligentné monitorovanie vody",
+    "titleLine1": "Sledujte spotrebu.",
+    "titleHighlight": "Rozdeľujte spravodlivo.",
+    "titleLine2": "Šetrite vodu.",
+    "paragraph": "HydroLedger poskytuje bytovým komunitám prehľad o spotrebe v reálnom čase, transparentné vyúčtovanie spoločných nákladov a včasné upozornenia na úniky – všetko z jedného panela.",
+    "ctaPrimary": "Začať",
+    "ctaSecondary": "Prihlásiť sa",
+    "panelLabel": "Spotreba tento mesiac",
+    "panelSub": "8 % pod priemerom domácnosti",
+    "chartLabelStart": "Pon",
+    "chartLabelEnd": "Ned"
+  },
+  "trustBar": {
+    "label": "Dôverujú nám progresívne správcovské skupiny bytových domov"
+  },
+  "features": {
+    "pill": "Kľúčové schopnosti",
+    "headingPrefix": "Všetko potrebné na",
+    "headingHighlight": "monitorovanie a účtovanie",
+    "headingSuffix": "spravodlivo",
+    "paragraph": "Rozlúčte sa s paušálnym rozpočítavaním energií. HydroLedger zvyšuje štrukturálnu spravodlivosť prostredníctvom presného merania a inteligentnej automatizácie.",
+    "items": [
+      {
+        "tag": "Sledovanie vody",
+        "title": "Podružné meranie v reálnom čase",
+        "text": "Merajte presnú spotrebu vody po minútach v jednotlivých jednotkách namiesto spoliehania sa na zastarané odhady hlavného merača."
+      },
+      {
+        "tag": "Automatizácia fakturácie",
+        "title": "Automatizovaná fakturácia komunity",
+        "text": "Generovanie faktúr priamo pre obyvateľov dynamicky mapované na pomernú spotrebu. Okamžite odstráňte administratívnu záťaž pri fakturácii."
+      },
+      {
+        "tag": "Zmierňovanie rizík",
+        "title": "Upozornenia na včasné odhalenie únikov",
+        "text": "Okamžité automatické upozornenia označia abnormálne prietoky a zachytia závažné škody spôsobené vodou v priebehu minút, nie mesiacov."
+      },
+      {
+        "tag": "Alokácia nákladov",
+        "title": "Spravodlivé rozdelenie nákladov",
+        "text": "Sledujte spoločnú spotrebu v priestoroch a transparentne rozdeľujte štrukturálne náklady, čím vybudujete dôveru a podporíte šetrenie v domácnostiach."
+      }
+    ],
+    "learnMore": "Zistiť viac"
+  },
+  "howItWorks": {
+    "pill": "Efektivita pracovného postupu",
+    "heading": "Bezproblémová inštalácia, bezobslužná prevádzka",
+    "paragraph": "Nastavte všetko rýchlo. Keď sa hardvérové jednotky pripoja, platforma natívne spracuje komplexné výpočty, odosielanie faktúr a upozornenia na úniky.",
+    "steps": [
+      {
+        "title": "Pripojenie inteligentných meračov",
+        "text": "Naši certifikovaní technici pripoja neinvazívne inteligentné podružné merače prietoku priamo k jednotlivým stúpacím ventilom za menej ako 15 minút."
+      },
+      {
+        "title": "Sledovanie v reálnom čase",
+        "text": "Dáta nepretržite prúdia do cloudovej platformy HydroLedger, zaznamenávajú presné údaje o spotrebe a monitorujú abnormálnu aktivitu."
+      },
+      {
+        "title": "Automatizácia účtov",
+        "text": "Na konci mesiaca systém skombinuje distribúciu spoločných priestorov a objemy z podružných meračov do jasných, položkových faktúr."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Ukážka portálu pre obyvateľov",
+    "headingPrefix": "Posilnite obyvateľov",
+    "headingHighlight": "jasnou spotrebou",
+    "paragraph": "Transparentnosť buduje súlad v komunite. Obyvatelia využívajú jednoduché panely so spätnou väzbou v reálnom čase, predikciami nákladov a proaktívnymi varovaniami pred únikmi.",
+    "brandLabel": "Portál pre obyvateľov",
+    "unitLabel": "Jednotka 4B — Aktuálny fakturačný cyklus",
+    "stat1Label": "Spotreba tento mesiac",
+    "stat1Trend": "-12 % oproti priemeru",
+    "stat2Label": "Odhadovaná suma účtu",
+    "stat2Trend": "V norme",
+    "stat3Label": "Stav únikov",
+    "stat3Value": "Všetko v poriadku",
+    "stat3Trend": "Bezpečný prietok",
+    "chartTitle": "Týždenná spotreba (galóny)",
+    "bars": [
+      "1. týždeň",
+      "2. týždeň",
+      "3. týždeň",
+      "4. týždeň",
+      "5. týždeň (projekt.)"
+    ],
+    "tipTitle": "Tip na šetrenie",
+    "tipText": "Váš kuchynský kohútik vykazuje ráno mierne súvislý prietok. Kontrola perlátorov môže ušetriť až 10 galónov týždenne.",
+    "tipBadge": "Automatizovaný prehľad",
+    "autopayTitle": "Automatická platba povolená",
+    "autopayLabel": "Dátum ďalšej automatickej platby",
+    "autopayButton": "Zobraziť podrobnú PDF faktúru"
+  },
+  "audienceSplit": {
+    "residentPill": "Pre obyvateľov",
+    "residentHeading": "Spravodlivé náklady na energie podľa spotreby",
+    "residentParagraph": "Prestaňte platiť za nadmernú spotrebu vášho suseda. Plaťte presne za galóny, ktoré miniete, podložené údajmi z panela v reálnom čase.",
+    "residentBullets": [
+      "Presné mesačné údaje z podružných meračov s transparentnými nákladovými metrikami.",
+      "SMS a mobilné upozornenia, ak sú v spotrebičoch zistené mikro-úniky.",
+      "Jednoduchý, efektívny systém platieb digitálnych faktúr s automatickými potvrdeniami."
+    ],
+    "adminPill": "Pre správcov nehnuteľností",
+    "adminHeading": "Okamžitá prevádzková návratnosť investícií a kontrola odpadu",
+    "adminParagraph": "Transformujte správu energií z vysoko stratového problému na bezproblémový, vysoko ziskový proces s automatizovanou fakturáciou obyvateľov.",
+    "adminBullets": [
+      "Bezobslužná alokácia energií priamo spojená s jednotlivými jednotkami.",
+      "Okamžité prevádzkové upozornenia na zabránenie nákladným štrukturálnym škodám spôsobeným vodou.",
+      "Podrobné prehľady z panela o fakturácii hlavného merača oproti distribuovaným galónom."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Priemerná úspora vody",
+      "Aktívne domácnosti",
+      "Dostupnosť systému",
+      "Spravované komunity"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparentné balíky",
+    "heading": "Prevádzkové náklady s vysokou návratnosťou investícií",
+    "paragraph": "Vyberte si plán prispôsobený presnej hustote vašej komunity. HydroLedger zvyčajne vykompenzuje svoje vlastné poplatky za platformu už v prvom mesiaci prostredníctvom zníženého plytvania v spoločných priestoroch.",
+    "highlightBadge": "Najvýhodnejšia ponuka",
+    "customPriceLabel": "Vlastné",
+    "tiers": [
+      {
+        "name": "Štartér",
+        "unit": "za jednotku / mesiac",
+        "desc": "Ideálne pre menšie združenia vlastníkov bytov, ktoré potrebujú základné schopnosti podružného merania.",
+        "features": [
+          "Odčítanie meračov v reálnom čase",
+          "SMS upozornenia na úniky",
+          "Štandardné exporty fakturácie",
+          "Samoobslužný portál"
+        ],
+        "cta": "Aktivovať Štartér"
+      },
+      {
+        "name": "Profesionál",
+        "unit": "za jednotku / mesiac",
+        "desc": "Náš zlatý štandard pre klasické bytové komunity, ktoré chcú plne automatizovanú fakturáciu obyvateľov.",
+        "features": [
+          "Všetko zo Štartéra",
+          "Automatické odosielanie PDF faktúr",
+          "Pomerná alokácia spoločných priestorov",
+          "Prioritná zákaznícka podpora"
+        ],
+        "cta": "Prejsť na Pro (Najpopulárnejšie)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "na požiadanie",
+        "desc": "Pre rozsiahle inštitucionálne komunity vyžadujúce zákazkové API prepojenia a konfigurácie fakturácie.",
+        "features": [
+          "Všetko z Profesionála",
+          "Zákazková integrácia fakturačného softvéru",
+          "Dedikovaný konzultant pre energie",
+          "Záruky SLA na hardvér"
+        ],
+        "cta": "Kontaktovať obchodné oddelenie"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Prevádzková realita",
+    "heading": "Čo hovoria správcovia nehnuteľností",
+    "quotes": [
+      {
+        "text": "HydroLedger zásadne zmenil náš prevádzkový výsledok hospodárenia. Objavili sme tri veľké skryté úniky v mechanických vedeniach, ktoré nám len v prvom štvrťroku ušetrili viac ako 11 lakhov ₹."
+      },
+      {
+        "text": "Dôvera obyvateľov raketovo vzrástla. Fakturácia nájomníkov striktne na základe spotreby vody namiesto všeobecných výpočtov hlavného merača vyriešila naše najbolestivejšie spory s nájomníkmi."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Podpora FAQ",
+    "heading": "Často kladené otázky",
+    "items": [
+      {
+        "q": "Vyžadujú inteligentné podružné merače mechanické odstavenie služieb?",
+        "a": "Nie. Naše inovatívne jednotky meračov na stúpačky sa montujú neinvazívne priamo na existujúce potrubia v jednotlivých inštalačných priestoroch. Inštalácia prebehne čisto v priebehu minút bez nutnosti odstávky energií pre ostatných nájomníkov."
+      },
+      {
+        "q": "Ako sa vypočítavajú spoločné náklady na vodu?",
+        "a": "Centrálny fond spoločných priestorov (napr. bazénové zariadenia, zavlažovanie) sa najprv čisto odpočíta od hlavných meračov. Správcovské skupiny následne tieto náklady rozdeľujú štrukturálne alebo transparentne podľa pomeru."
+      },
+      {
+        "q": "Ako rýchlo HydroLedger deteguje nepretržité úniky vody?",
+        "a": "Naše systémy na pozadí kontrolujú signály nepretržitého odberu. Ak prietok neklesne na nulu počas 10-minútového cyklu, varovanie sa okamžite odošle, aby sa minimalizovali riziká poškodenia."
+      },
+      {
+        "q": "Zaoberá sa HydroLedger bezpečnosťou alebo súkromím obyvateľov?",
+        "a": "Áno. HydroLedger chráni a ukladá identifikátory portálu pre obyvateľov za štandardnými šifrovanými kanálmi. Prevádzkové údaje sa uchovávajú v bezpečí výhradne na účely sledovania spotreby."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Pridajte sa k HydroLedger ešte dnes",
+    "heading": "Začnite monitorovať svoju spotrebu vody ešte dnes",
+    "paragraph": "Zvýšte metriky šetrenia, zjednodušte administratívu fakturácie obyvateľov a chráňte cennú infraštruktúru viacgeneračných domov. Dovoľte nám vypočítať odhad návratnosti investícií pre vašu komunitu.",
+    "ctaPrimary": "Vyžiadať cenovú ponuku",
+    "ctaSecondary": "Kontaktovať predaj"
+  },
+  "footer": {
+    "tagline": "Inteligentné systémy rozpočítavania energií a riešenia podružného merania pre rezidencie v reálnom čase. Chráňte systémy, zlaďte faktúry, šetrite vodu.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Podružné meranie",
+          "Fakturačný balík",
+          "Ochrana pred únikmi",
+          "Aplikácia pre obyvateľov"
+        ]
+      },
+      {
+        "title": "Zdroje",
+        "links": [
+          "Prípadové štúdie",
+          "Blog",
+          "Inštalačná príručka",
+          "Centrum pomoci"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Firemná kancelária",
+    "copyright": "© 2026 HydroLedger Systems Inc. Všetky práva vyhradené.",
+    "legalPrivacy": "Zásady ochrany osobných údajov",
+    "legalTerms": "Obchodné podmienky"
+  }
+}

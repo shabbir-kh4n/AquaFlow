@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import './TrustBar.css'
 
 const partners = [
@@ -9,9 +10,11 @@ const partners = [
 ]
 
 function TrustBar() {
+  const { t } = useTranslation('landing')
+
   return (
     <section className="af-trust">
-      <p className="af-trust__label">Trusted by progressive multi-family management groups</p>
+      <p className="af-trust__label">{t('trustBar.label')}</p>
       <div className="af-trust__row">
         {partners.map((name) => (
           <span className="af-trust__item" key={name}>

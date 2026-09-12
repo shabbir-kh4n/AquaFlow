@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkcijas",
+    "linkHowItWorks": "Kā tas darbojas",
+    "linkContact": "Sazināties",
+    "signIn": "Pieslēgties",
+    "getStarted": "Sākt darbu"
+  },
+  "hero": {
+    "eyebrow": "Viedā ūdens uzskaite",
+    "titleLine1": "Seko patēriņam.",
+    "titleHighlight": "Sadalies godīgi.",
+    "titleLine2": "Ietaupi ūdeni.",
+    "paragraph": "HydroLedger sniedz daudzdzīvokļu namu kopienām reāllaika patēriņa ieskatu, pārredzamu koplietošanas izmaksu rēķinu sagatavošanu un agrīnus brīdinājumus par noplūdēm — viss vienā informācijas panelī.",
+    "ctaPrimary": "Sākt darbu",
+    "ctaSecondary": "Pieslēgties",
+    "panelLabel": "Šī mēneša patēriņš",
+    "panelSub": "8% zem mājsaimniecības vidējā līmeņa",
+    "chartLabelStart": "Pirm",
+    "chartLabelEnd": "Svētd"
+  },
+  "trustBar": {
+    "label": "Uzticas progresīvas daudzdzīvokļu namu apsaimniekošanas grupas"
+  },
+  "features": {
+    "pill": "Galvenās iespējas",
+    "headingPrefix": "Viss nepieciešamais, lai",
+    "headingHighlight": "uzraudzītu un rēķinātu",
+    "headingSuffix": "godīgi",
+    "paragraph": "Aizmirstiet par vienotām komunālo pakalpojumu likmēm. HydroLedger nodrošina strukturālu taisnīgumu, izmantojot precīzus mērījumus un inteliģentu automatizāciju.",
+    "items": [
+      {
+        "tag": "Ūdens uzskaite",
+        "title": "Reāllaika apakšuzskaite",
+        "text": "Mēriet precīzu, minūti pa minūtei ūdens patēriņu atsevišķās vienībās, nevis paļaujoties uz novecojušiem galvenajiem aprēķiniem."
+      },
+      {
+        "tag": "Norēķinu automatizācija",
+        "title": "Automatizēti kopienas rēķini",
+        "text": "Tieša rēķinu sagatavošana iedzīvotājiem, kas dinamiski saskaņota ar proporcionālo patēriņu. Novērsiet administratīvo slogu uzreiz."
+      },
+      {
+        "tag": "Risku mazināšana",
+        "title": "Brīdinājumi par agrīnu noplūdes konstatēšanu",
+        "text": "Tūlītēji automatizēti brīdinājumi norāda uz neparastiem plūsmas modeļiem un aptur lielus ūdens bojājumus dažu minūšu, nevis mēnešu laikā."
+      },
+      {
+        "tag": "Izmaksu sadale",
+        "title": "Godīga izmaksu sadale",
+        "text": "Sekojiet koplietošanas zonu patēriņam un sadaliet strukturālās izmaksas pārredzami, lai vairotu iedzīvotāju uzticību un resursu taupīšanu."
+      }
+    ],
+    "learnMore": "Uzzināt vairāk"
+  },
+  "howItWorks": {
+    "pill": "Darbplūsmas efektivitāte",
+    "heading": "Nevainojama uzstādīšana, darbs bez iejaukšanās",
+    "paragraph": "Iestatiet ātri. Kad aparatūras vienības ir savienotas, platforma pati veic sarežģītus aprēķinus, rēķinu izsūtīšanu un brīdinājumus par noplūdēm.",
+    "steps": [
+      {
+        "title": "Savienojiet viedos skaitītājus",
+        "text": "Mūsu sertificētie tehniķi pievieno neinvazīvus viedos plūsmas apakšskaitītājus tieši pie atsevišķiem stāvvadiem mazāk nekā 15 minūtēs."
+      },
+      {
+        "title": "Reāllaika uzskaite",
+        "text": "Dati nepārtraukti plūst uz HydroLedger mākoņa platformu, reģistrējot precīzus patēriņa rādītājus un uzraugot neparastu aktivitāti."
+      },
+      {
+        "title": "Automatizējiet rēķinus",
+        "text": "Mēneša beigās sistēma apvieno koplietošanas zonu sadali un apakšskaitītāju rādījumus skaidros, detalizētos rēķinos."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Iedzīvotāju portāla tiešraides makets",
+    "headingPrefix": "Sniedziet iedzīvotājiem",
+    "headingHighlight": "skaidrību par patēriņu",
+    "paragraph": "Pārredzamība veicina kopienas saskaņu. Iedzīvotāji izmanto vienkāršus informācijas paneļus ar reāllaika atgriezenisko saiti, prognozējamām izmaksu aplēsēm un proaktīviem brīdinājumiem par noplūdēm.",
+    "brandLabel": "Iedzīvotāju portāls",
+    "unitLabel": "4B vienība — Pašreizējais rēķinu cikls",
+    "stat1Label": "Šī mēneša patēriņš",
+    "stat1Trend": "-12% vs vidējais",
+    "stat2Label": "Aprēķinātā rēķina summa",
+    "stat2Trend": "Uz pareizā ceļa",
+    "stat3Label": "Noplūdes statuss",
+    "stat3Value": "Viss kārtībā",
+    "stat3Trend": "Droša plūsma",
+    "chartTitle": "Iknedēļas patēriņš (galonos)",
+    "bars": [
+      "1. ned.",
+      "2. ned.",
+      "3. ned.",
+      "4. ned.",
+      "5. ned. (prog.)"
+    ],
+    "tipTitle": "Taupīšanas padoms",
+    "tipText": "Jūsu virtuves jaucējkrāns no rīta uzrāda nedaudz nepārtrauktu plūsmu. Aeratoru pārbaude var ietaupīt līdz pat 10 galoniem nedēļā.",
+    "tipBadge": "Automatizēts ieskats",
+    "autopayTitle": "Automātiskie maksājumi iespējoti",
+    "autopayLabel": "Nākamais automātiskā rēķina datums",
+    "autopayButton": "Skatīt detalizētu PDF rēķinu"
+  },
+  "audienceSplit": {
+    "residentPill": "Iedzīvotājiem",
+    "residentHeading": "Godīgas, uz patēriņu balstītas komunālo pakalpojumu izmaksas",
+    "residentParagraph": "Beidziet maksāt par kaimiņa pārmērīgo patēriņu. Maksājiet stingri par patērētajiem galoniem, pamatojoties uz reāllaika informācijas paneļa datiem.",
+    "residentBullets": [
+      "Precīzi ikmēneša apakšuzskaites dati ar pārredzamiem izmaksu rādītājiem.",
+      "SMS un mobilie paziņojumi, ja ierīcēs tiek konstatētas mikronoplūdes.",
+      "Vienkārša, racionalizēta digitālo rēķinu apmaksas sistēma ar automātiskām kvītīm."
+    ],
+    "adminPill": "Īpašumu administratoriem",
+    "adminHeading": "Tūlītēja darbības atdeve un atkritumu kontrole",
+    "adminParagraph": "Pārveidojiet komunālo pakalpojumu pārvaldību no lielu zaudējumu galvassāpēm par nevainojamu, augstas peļņas procesu ar automatizētu rēķinu izrakstīšanu iedzīvotājiem.",
+    "adminBullets": [
+      "Automatizēta komunālo pakalpojumu sadale, kas tieši savienota ar atsevišķām vienībām.",
+      "Tūlītēji darbības brīdinājumi, lai novērstu dārgus strukturālus ūdens bojājumus.",
+      "Detalizēti informācijas paneļa pārskati par galvenā skaitītāja rēķiniem pret sadalītajiem galoniem."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Vidējais ietaupītais ūdens",
+      "Aktīvās mājsaimniecības",
+      "Sistēmas darbības laiks",
+      "Pārvaldītās kopienas"
+    ]
+  },
+  "pricing": {
+    "pill": "Caurspīdīgas pakotnes",
+    "heading": "Augstas atdeves operatīvās izmaksas",
+    "paragraph": "Izvēlieties plānu, kas atbilst jūsu kopienas blīvumam. HydroLedger parasti kompensē savas platformas maksu jau pirmajā mēnesī, samazinot koplietošanas zonu atkritumus.",
+    "highlightBadge": "Labākā vērtība",
+    "customPriceLabel": "Pielāgots",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "vienībai / mēnesī",
+        "desc": "Ideāli piemērots mazākām rindu māju asociācijām, kurām nepieciešamas pamata apakšuzskaites iespējas.",
+        "features": [
+          "Reāllaika skaitītāju rādījumi",
+          "SMS brīdinājumi par noplūdēm",
+          "Standarta rēķinu eksports",
+          "Pašapkalpošanās portāls"
+        ],
+        "cta": "Aktivizēt Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "vienībai / mēnesī",
+        "desc": "Mūsu zelta standarta pakotne klasiskām daudzdzīvokļu mājām, kas vēlas pilnībā automatizētu rēķinu izrakstīšanu iedzīvotājiem.",
+        "features": [
+          "Viss, kas iekļauts Starter",
+          "Automatizēta PDF rēķinu izsūtīšana",
+          "Proporcionāla koplietošanas zonu sadale",
+          "Prioritārs klientu atbalsts"
+        ],
+        "cta": "Izvēlēties Pro (populārākais)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "pēc pieprasījuma",
+        "desc": "Plaša mēroga institucionālām kopienām, kurām nepieciešami pielāgoti API savienojumi un rēķinu konfigurācijas.",
+        "features": [
+          "Viss, kas iekļauts Professional",
+          "Pielāgota rēķinu programmatūras integrācija",
+          "Īpašs komunālo pakalpojumu konsultants",
+          "Aparatūras SLA garantijas"
+        ],
+        "cta": "Sazināties ar uzņēmumu pārdošanas nodaļu"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operatīvā realitāte",
+    "heading": "Ko saka īpašumu pārvaldnieki",
+    "quotes": [
+      {
+        "text": "HydroLedger būtiski mainīja mūsu operatīvo P&L. Mēs atklājām trīs lielas slēptas noplūdes mehāniskajās līnijās, kas vien pirmajā ceturksnī ietaupīja mums vairāk nekā 11 lakus."
+      },
+      {
+        "text": "Iedzīvotāju uzticība ir strauji augusi. Rēķinu izrakstīšana mūsu īrniekiem, balstoties tikai uz ūdens patēriņu, nevis vispārīgiem daudzistabu skaitītāju aprēķiniem, atrisināja mūsu visnepatīkamākos strīdus ar īrniekiem."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Biežāk uzdotie jautājumi",
+    "heading": "Biežāk uzdotie jautājumi",
+    "items": [
+      {
+        "q": "Vai viedajiem apakšskaitītājiem ir nepieciešama mehāniskā ūdens atslēgšana?",
+        "a": "Nē. Mūsu inovatīvās stāvvadu skaitītāju vienības tiek uzstādītas neinvazīvi tieši virs esošajām līnijām atsevišķās telpās. Uzstādīšana notiek tīri un ātri bez ūdens atslēgšanas visai ēkai."
+      },
+      {
+        "q": "Kā tiek aprēķinātas koplietošanas ūdens izmaksas?",
+        "a": "Centrālais koplietošanas baseins (piem., baseinu telpas, apzaļumošana) vispirms tiek tīri atskaitīts no galvenajiem skaitītājiem. Īpašumu grupas tās sadala strukturāli vai proporcionāli un pārredzami."
+      },
+      {
+        "q": "Cik ātri HydroLedger nosaka nepārtrauktas noplūdes?",
+        "a": "Mūsu fona brīdinājumu sistēmas pārbauda nepārtrauktas plūsmas signālus. Ja plūsma nenokrītas līdz nullei 10 minūšu cikla laikā, brīdinājumi tiek izsūtīti tūlītēji, lai samazinātu bojājumu riskus."
+      },
+      {
+        "q": "Vai HydroLedger rūpējas par drošību vai iedzīvotāju privātumu?",
+        "a": "Jā. HydroLedger aizsargā un uzglabā iedzīvotāju portāla identifikatorus aiz standarta šifrētiem kanāliem. Operatīvie dati tiek glabāti drošībā tikai patēriņa uzskaitei."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Pievienojieties HydroLedger jau šodien",
+    "heading": "Sāciet uzraudzīt ūdens patēriņu jau šodien",
+    "paragraph": "Palieliniet resursu taupīšanas rādītājus, vienkāršojiet rēķinu izrakstīšanu un aizsargājiet vērtīgu infrastruktūru. Ļaujiet mums aprēķināt jūsu kopienas individuālo atdevi.",
+    "ctaPrimary": "Pieprasīt cenu",
+    "ctaSecondary": "Sazināties ar pārdošanas nodaļu"
+  },
+  "footer": {
+    "tagline": "Viedas komunālo pakalpojumu sadales sistēmas un reāllaika dzīvojamo telpu apakšuzskaites risinājumi. Aizsargājiet sistēmas, saskaņojiet rēķinus, taupiet ūdeni.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Apakšuzskaite",
+          "Norēķinu komplekts",
+          "Noplūžu aizsardzība",
+          "Iedzīvotāju lietotne"
+        ]
+      },
+      {
+        "title": "Resursi",
+        "links": [
+          "Gadījumu izpēte",
+          "Blogs",
+          "Uzstādīšanas rokasgrāmata",
+          "Palīdzības centrs"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporatīvais birojs",
+    "copyright": "© 2026 HydroLedger Systems Inc. Visas tiesības aizsargātas.",
+    "legalPrivacy": "Privātuma politika",
+    "legalTerms": "Pakalpojumu sniegšanas noteikumi"
+  }
+}

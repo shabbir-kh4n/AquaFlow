@@ -155,6 +155,7 @@
 .af-portal__tip h4 {
   margin: 0 0 10px;
   font-size: 15px;
+  line-height: 1.35;
   font-weight: 700;
 }
 
@@ -175,6 +176,7 @@
 .af-portal__autopay h4 {
   margin: 0 0 14px;
   font-size: 15px;
+  line-height: 1.35;
   font-weight: 700;
   color: var(--af-text-dark);
 }

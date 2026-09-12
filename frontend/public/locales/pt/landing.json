@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funcionalidades",
+    "linkHowItWorks": "Como funciona",
+    "linkContact": "Contato",
+    "signIn": "Entrar",
+    "getStarted": "Começar"
+  },
+  "hero": {
+    "eyebrow": "Monitoramento Inteligente de Água",
+    "titleLine1": "Monitore o uso.",
+    "titleHighlight": "Divida de forma justa.",
+    "titleLine2": "Economize água.",
+    "paragraph": "O HydroLedger oferece a condomínios insights de consumo em tempo real, faturamento compartilhado transparente e alertas precoces de vazamento — tudo a partir de um único painel.",
+    "ctaPrimary": "Começar",
+    "ctaSecondary": "Entrar",
+    "panelLabel": "Uso deste mês",
+    "panelSub": "8% abaixo da média residencial",
+    "chartLabelStart": "Seg",
+    "chartLabelEnd": "Dom"
+  },
+  "trustBar": {
+    "label": "Com a confiança de grupos progressistas de gestão multifamiliar"
+  },
+  "features": {
+    "pill": "Capacidades Principais",
+    "headingPrefix": "Tudo o que é necessário para",
+    "headingHighlight": "Monitorar e Cobrar",
+    "headingSuffix": "de forma justa",
+    "paragraph": "Diga adeus às divisões de serviços públicos com taxas fixas. O HydroLedger impulsiona a equidade estrutural por meio de medição precisa e automação inteligente.",
+    "items": [
+      {
+        "tag": "Monitoramento de Água",
+        "title": "Submedição em Tempo Real",
+        "text": "Meça o consumo exato de água, minuto a minuto, em unidades individuais, em vez de depender de estimativas mestre obsoletas."
+      },
+      {
+        "tag": "Automação de Faturamento",
+        "title": "Faturamento Comunitário Automatizado",
+        "text": "Geração de faturas direto para o residente, mapeadas dinamicamente ao uso proporcional. Elimine os custos administrativos de faturamento instantaneamente."
+      },
+      {
+        "tag": "Mitigação de Riscos",
+        "title": "Alertas de Detecção Precoce de Vazamentos",
+        "text": "Alertas automáticos instantâneos sinalizam padrões de fluxo anormais e detectam grandes danos causados pela água em minutos, não em meses."
+      },
+      {
+        "tag": "Alocação de Custos",
+        "title": "Distribuição Justa de Custos",
+        "text": "Monitore o uso compartilhado de áreas comuns e distribua os custos estruturais de forma transparente para construir confiança e conservação."
+      }
+    ],
+    "learnMore": "Saiba mais"
+  },
+  "howItWorks": {
+    "pill": "Eficiência de Fluxo de Trabalho",
+    "heading": "Instalação sem complicações, operação sem esforço",
+    "paragraph": "Configure rapidamente. Uma vez que as unidades de hardware se conectam, a plataforma lida com cálculos complexos, envios de faturas e alertas de vazamento de forma nativa.",
+    "steps": [
+      {
+        "title": "Conecte Medidores Inteligentes",
+        "text": "Nossos técnicos certificados instalam submedidores de fluxo inteligentes não invasivos diretamente nas válvulas individuais em menos de 15 minutos."
+      },
+      {
+        "title": "Monitoramento em Tempo Real",
+        "text": "Os dados são transmitidos continuamente para a plataforma em nuvem do HydroLedger, registrando números de uso exatos e monitorando atividades anormais."
+      },
+      {
+        "title": "Automatize Faturas",
+        "text": "No final do mês, o mecanismo combina distribuições de áreas comuns e volumes submedidos em faturas claras e detalhadas."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Simulação do Portal do Residente",
+    "headingPrefix": "Empodere os residentes com",
+    "headingHighlight": "Clareza no Consumo",
+    "paragraph": "A transparência cria alinhamento na comunidade. Os residentes desfrutam de painéis simples com feedback em tempo real, projeções de custos preditivas e avisos proativos de vazamento.",
+    "brandLabel": "Portal do Residente",
+    "unitLabel": "Unidade 4B — Ciclo de Faturamento Atual",
+    "stat1Label": "Uso deste mês",
+    "stat1Trend": "-12% vs Média",
+    "stat2Label": "Valor Est. da Fatura",
+    "stat2Trend": "Dentro do esperado",
+    "stat3Label": "Status de Vazamento",
+    "stat3Value": "Tudo ok",
+    "stat3Trend": "Fluxo seguro",
+    "chartTitle": "Uso Semanal (Galões)",
+    "bars": [
+      "Sem 1",
+      "Sem 2",
+      "Sem 3",
+      "Sem 4",
+      "Sem 5 (Proj)"
+    ],
+    "tipTitle": "Dica de Conservação",
+    "tipText": "Sua torneira da cozinha apresenta um fluxo levemente contínuo pela manhã. Verificar os aeradores pode economizar até 10 galões/semana.",
+    "tipBadge": "Insight Automatizado",
+    "autopayTitle": "Pagamento Automático Ativado",
+    "autopayLabel": "Próxima data de fatura automática",
+    "autopayButton": "Ver fatura PDF detalhada"
+  },
+  "audienceSplit": {
+    "residentPill": "Para Residentes",
+    "residentHeading": "Custos de serviços públicos justos e baseados no consumo",
+    "residentParagraph": "Pare de pagar pelo consumo excessivo do seu vizinho. Pague estritamente pelos galões que você utiliza, com o respaldo de dados do painel em tempo real.",
+    "residentBullets": [
+      "Dados precisos de submedição mensal com métricas de custo transparentes.",
+      "Notificações por SMS e celular se microvazamentos forem detectados em eletrodomésticos.",
+      "Sistema de pagamento de fatura digital simples e simplificado com recibos automatizados."
+    ],
+    "adminPill": "Para Administradores de Propriedade",
+    "adminHeading": "ROI operacional instantâneo e controle de desperdício",
+    "adminParagraph": "Transforme a gestão de serviços públicos de uma dor de cabeça de alto prejuízo em um canal contínuo de alta margem com faturamento automático para residentes.",
+    "adminBullets": [
+      "Alocação de serviços públicos sem esforço, conectada diretamente às unidades individuais.",
+      "Alertas operacionais imediatos para evitar danos estruturais dispendiosos causados pela água.",
+      "Relatórios detalhados no painel sobre o faturamento do medidor mestre versus galões distribuídos."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Média de Água Economizada",
+      "Residências Ativas",
+      "Tempo de Atividade do Sistema",
+      "Comunidades Gerenciadas"
+    ]
+  },
+  "pricing": {
+    "pill": "Pacotes Transparentes",
+    "heading": "Custos operacionais com alto retorno sobre o investimento",
+    "paragraph": "Escolha um plano dimensionado para a densidade exata da sua comunidade. O HydroLedger geralmente compensa suas próprias taxas de plataforma no primeiro mês por meio da redução do desperdício em áreas comuns.",
+    "highlightBadge": "Melhor Valor",
+    "customPriceLabel": "Personalizado",
+    "tiers": [
+      {
+        "name": "Inicial",
+        "unit": "por unidade / mês",
+        "desc": "Perfeito para associações de casas menores que precisam de capacidades básicas de submedição.",
+        "features": [
+          "Leituras de medidor em tempo real",
+          "Alertas de vazamento por SMS",
+          "Exportações de faturamento padrão",
+          "Portal de autoatendimento"
+        ],
+        "cta": "Ativar Inicial"
+      },
+      {
+        "name": "Profissional",
+        "unit": "por unidade / mês",
+        "desc": "Nosso pacote padrão ouro para condomínios residenciais clássicos que desejam faturamento automatizado para residentes.",
+        "features": [
+          "Tudo no pacote Inicial",
+          "Envio automatizado de faturas em PDF",
+          "Alocações proporcionais de áreas comuns",
+          "Suporte ao cliente prioritário"
+        ],
+        "cta": "Ir para o Profissional (Mais Popular)"
+      },
+      {
+        "name": "Corporativo",
+        "unit": "sob consulta",
+        "desc": "Para grandes comunidades institucionais que exigem canais de API personalizados e configurações de faturamento.",
+        "features": [
+          "Tudo no pacote Profissional",
+          "Integrações de software de faturamento sob medida",
+          "Consultor de serviços públicos dedicado",
+          "Garantias de nível de serviço (SLA) de hardware"
+        ],
+        "cta": "Contatar Vendas Corporativas"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realidades Operacionais",
+    "heading": "O que os gerentes de propriedade dizem",
+    "quotes": [
+      {
+        "text": "O HydroLedger mudou fundamentalmente nosso DRE operacional. Descobrimos três grandes vazamentos ocultos em linhas mecânicas que nos economizaram mais de ₹11 lakh apenas no nosso primeiro trimestre."
+      },
+      {
+        "text": "A confiança dos residentes disparou. Cobrar nossos inquilinos com base estritamente no uso de água, em vez de cálculos genéricos de medidores mestre, resolveu nossas disputas mais dolorosas com inquilinos."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Suporte de FAQ",
+    "heading": "Perguntas Frequentes",
+    "items": [
+      {
+        "q": "Os submedidores inteligentes exigem desligamento mecânico do serviço?",
+        "a": "Não. Nossas unidades de medidores inovadoras se encaixam de forma não invasiva diretamente sobre as linhas existentes em espaços de acesso. As instalações são concluídas rapidamente sem cortes de serviços públicos para múltiplos inquilinos."
+      },
+      {
+        "q": "Como os custos de água comunitários/compartilhados são calculados?",
+        "a": "O conjunto central da área comum (por exemplo, piscinas, paisagismo) é subtraído de forma limpa dos medidores mestres primeiro. Os grupos de propriedades alocam isso estruturalmente ou rateiam de forma transparente."
+      },
+      {
+        "q": "Com que rapidez o HydroLedger detecta fluxos de vazamento contínuos?",
+        "a": "Nossos canais de alerta de segundo plano verificam sinais de consumo contínuo. Se o fluxo não chegar a zero em um ciclo de 10 minutos, os avisos são enviados instantaneamente para minimizar os riscos de danos."
+      },
+      {
+        "q": "O HydroLedger lida com segurança ou privacidade do residente?",
+        "a": "Sim. O HydroLedger protege e armazena os identificadores do portal do residente atrás de canais criptografados padrão. Os dados operacionais são mantidos seguros estritamente para o monitoramento de consumo."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Junte-se ao HydroLedger hoje",
+    "heading": "Comece a monitorar seu uso de água hoje",
+    "paragraph": "Aumente as métricas de conservação, simplifique os custos administrativos de faturamento do residente e proteja infraestruturas multiresidenciais valiosas. Deixe-nos calcular sua estimativa de ROI comunitário personalizada.",
+    "ctaPrimary": "Solicitar cotação",
+    "ctaSecondary": "Contatar Vendas"
+  },
+  "footer": {
+    "tagline": "Canais inteligentes de alocação de serviços públicos e soluções de submedição residencial em tempo real. Proteja sistemas, alinhe contas, economize água.",
+    "columns": [
+      {
+        "title": "Plataforma",
+        "links": [
+          "Submedição",
+          "Suíte de Faturamento",
+          "Proteção contra Vazamentos",
+          "Aplicativo do Residente"
+        ]
+      },
+      {
+        "title": "Recursos",
+        "links": [
+          "Estudos de Caso",
+          "Blog",
+          "Guia de Instalação",
+          "Centro de Ajuda"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Escritório Corporativo",
+    "copyright": "© 2026 HydroLedger Systems Inc. Todos os direitos reservados.",
+    "legalPrivacy": "Política de Privacidade",
+    "legalTerms": "Termos de Serviço"
+  }
+}

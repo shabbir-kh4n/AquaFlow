@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkciók",
+    "linkHowItWorks": "Hogyan működik",
+    "linkContact": "Kapcsolat",
+    "signIn": "Bejelentkezés",
+    "getStarted": "Kezdés"
+  },
+  "hero": {
+    "eyebrow": "Okos vízfogyasztás-figyelés",
+    "titleLine1": "Kövesse a fogyasztást.",
+    "titleHighlight": "Igazságos elosztás.",
+    "titleLine2": "Takarítson meg vizet.",
+    "paragraph": "A HydroLedger valós idejű fogyasztási betekintést, átlátható közös költségelszámolást és korai szivárgásjelzést biztosít lakóközösségek számára – mindezt egyetlen irányítópultról.",
+    "ctaPrimary": "Kezdés",
+    "ctaSecondary": "Bejelentkezés",
+    "panelLabel": "E havi fogyasztás",
+    "panelSub": "8%-kal a háztartási átlag alatt",
+    "chartLabelStart": "Hétfő",
+    "chartLabelEnd": "Vasárnap"
+  },
+  "trustBar": {
+    "label": "Progresszív többlakásos ingatlankezelő csoportok megbízásával"
+  },
+  "features": {
+    "pill": "Alapvető képességek",
+    "headingPrefix": "Minden, ami szükséges a",
+    "headingHighlight": "felügyelethez és számlázáshoz",
+    "headingSuffix": "igazságosan",
+    "paragraph": "Felejtse el az átalánydíjas közműmegosztást. A HydroLedger pontos méréssel és intelligens automatizálással biztosítja a strukturális méltányosságot.",
+    "items": [
+      {
+        "tag": "Vízfogyasztás követése",
+        "title": "Valós idejű almérés",
+        "text": "Mérje a pontos, percről percre történő vízfogyasztást az egyes egységekben, ahelyett, hogy elavult becslésekre hagyatkozna."
+      },
+      {
+        "tag": "Számlázás automatizálása",
+        "title": "Automatizált közösségi számlázás",
+        "text": "Közvetlen lakói számlagenerálás, dinamikusan a tényleges használathoz igazítva. Szüntesse meg azonnal a számlázási adminisztrációt."
+      },
+      {
+        "tag": "Kockázatcsökkentés",
+        "title": "Korai szivárgásjelző riasztások",
+        "text": "Az azonnali automatikus riasztások jelzik a rendellenes áramlási mintákat, így a jelentős vízkárokat percek alatt, nem hónapok alatt fedezheti fel."
+      },
+      {
+        "tag": "Költségallokáció",
+        "title": "Igazságos költségelosztás",
+        "text": "Kövesse a közös területek használatát, és ossza el a strukturális költségeket átláthatóan a lakói bizalom és a takarékosság növelése érdekében."
+      }
+    ],
+    "learnMore": "Tudjon meg többet"
+  },
+  "howItWorks": {
+    "pill": "Munkafolyamat hatékonysága",
+    "heading": "Zökkenőmentes telepítés, érintésmentes működtetés",
+    "paragraph": "Gyors beüzemelés. Amint a hardveregységek csatlakoztatva vannak, a platform kezeli a komplex számításokat, a számlák kiküldését és a szivárgásriasztásokat.",
+    "steps": [
+      {
+        "title": "Okosmérők csatlakoztatása",
+        "text": "Minősített technikusaink kevesebb mint 15 perc alatt rögzítik a nem invazív okos áramlásmérőket közvetlenül az egyes vezeték szelepekre."
+      },
+      {
+        "title": "Valós idejű követés",
+        "text": "Az adatok folyamatosan áramlanak a HydroLedger felhőplatformra, rögzítve a pontos fogyasztási értékeket és monitorozva a rendellenes tevékenységet."
+      },
+      {
+        "title": "Számlák automatizálása",
+        "text": "A hónap végén a rendszer egyesíti a közös területek elosztását és az almérők által mért mennyiségeket tiszta, tételes számlákká."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Élő lakói portál bemutató",
+    "headingPrefix": "Tegye lehetővé a lakók számára a",
+    "headingHighlight": "fogyasztási tisztánlátást",
+    "paragraph": "Az átláthatóság közösségi összhangot teremt. A lakók egyszerű irányítópultokon élvezhetik a valós idejű visszajelzéseket, előrejelzéseket és proaktív szivárgásfigyelmeztetéseket.",
+    "brandLabel": "Lakói portál",
+    "unitLabel": "4B egység — Aktuális számlázási ciklus",
+    "stat1Label": "E havi fogyasztás",
+    "stat1Trend": "-12% vs átlag",
+    "stat2Label": "Becsült számlaösszeg",
+    "stat2Trend": "Terv szerint",
+    "stat3Label": "Szivárgás állapota",
+    "stat3Value": "Minden rendben",
+    "stat3Trend": "Biztonságos áramlás",
+    "chartTitle": "Heti fogyasztás (Gallon)",
+    "bars": [
+      "1. hét",
+      "2. hét",
+      "3. hét",
+      "4. hét",
+      "5. hét (becs.)"
+    ],
+    "tipTitle": "Takarékossági tipp",
+    "tipText": "A konyhai csaptelep reggelente enyhén folyamatos folyást mutat. A perlátorok ellenőrzésével akár 40 litert is megtakaríthat hetente.",
+    "tipBadge": "Automatizált betekintés",
+    "autopayTitle": "Automatikus fizetés engedélyezve",
+    "autopayLabel": "Következő automatikus számlázás dátuma",
+    "autopayButton": "Részletes PDF számla megtekintése"
+  },
+  "audienceSplit": {
+    "residentPill": "Lakóknak",
+    "residentHeading": "Igazságos, fogyasztásalapú közműköltségek",
+    "residentParagraph": "Ne fizessen a szomszédja túlzott fogyasztásáért. Csak a ténylegesen felhasznált mennyiség után fizessen, a valós idejű adatok alapján.",
+    "residentBullets": [
+      "Pontos havi almérési adatok átlátható költségmutatókkal.",
+      "SMS- és mobilértesítések, ha mikroszivárgást észlelnek a berendezéseken.",
+      "Egyszerű, áramvonalas digitális számlafizetési rendszer automatikus nyugtákkal."
+    ],
+    "adminPill": "Ingatlankezelőknek",
+    "adminHeading": "Azonnali operatív megtérülés és hulladékellenőrzés",
+    "adminParagraph": "Alakítsa át a közműkezelést egy veszteséges problémából egy zökkenőmentes, magas árrésű folyamattá automatizált lakói számlázással.",
+    "adminBullets": [
+      "Érintésmentes közműelosztás közvetlenül az egyes egységekhez csatlakoztatva.",
+      "Azonnali operatív riasztások a költséges strukturális vízkárok megelőzésére.",
+      "Részletes irányítópult-jelentések a főmérő számlázása és a szétosztott mennyiségek összehasonlításáról."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Átlagos víztakarékosság",
+      "Aktív háztartások",
+      "Rendszer üzemidő",
+      "Kezelt közösségek"
+    ]
+  },
+  "pricing": {
+    "pill": "Átlátható csomagok",
+    "heading": "Magas megtérülésű operatív költségek",
+    "paragraph": "Válasszon a közössége méretéhez illeszkedő csomagot. A HydroLedger általában az első hónapban fedezi saját díjait a közös területi veszteségek csökkentésével.",
+    "highlightBadge": "Legjobb érték",
+    "customPriceLabel": "Egyedi",
+    "tiers": [
+      {
+        "name": "Kezdő",
+        "unit": "egységenként / hó",
+        "desc": "Tökéletes kisebb lakásszövetkezetek számára, amelyek alapvető almérési képességeket igényelnek.",
+        "features": [
+          "Valós idejű mérőállások",
+          "SMS szivárgásriasztások",
+          "Standard számlaexport",
+          "Önkiszolgáló portál"
+        ],
+        "cta": "Kezdőcsomag aktiválása"
+      },
+      {
+        "name": "Professzionális",
+        "unit": "egységenként / hó",
+        "desc": "Arany standard csomagunk klasszikus lakóközösségek számára, amelyek teljes mértékben automatizált számlázást szeretnének.",
+        "features": [
+          "Minden, ami a Kezdő csomagban",
+          "Automatizált PDF számlakiküldés",
+          "Arányos közös területi elosztás",
+          "Prioritásos ügyfélszolgálat"
+        ],
+        "cta": "Pro csomag választása (Népszerű)"
+      },
+      {
+        "name": "Nagyvállalati",
+        "unit": "kérésre",
+        "desc": "Kiterjedt intézményi közösségek számára, amelyek egyedi API-integrációt és számlázási konfigurációkat igényelnek.",
+        "features": [
+          "Minden, ami a Professzionális csomagban",
+          "Egyedi számlázási szoftverintegrációk",
+          "Dedikált közműtanácsadó",
+          "Hardver garancia (SLA)"
+        ],
+        "cta": "Kapcsolatfelvétel az értékesítéssel"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operatív valóság",
+    "heading": "Mit mondanak az ingatlankezelők",
+    "quotes": [
+      {
+        "text": "A HydroLedger alapjaiban változtatta meg operatív eredményességünket. Három rejtett, jelentős szivárgást fedeztünk fel a gépészeti vezetékekben, amivel már az első negyedévben több mint 11 lakh rúpia megtakarítást értünk el."
+      },
+      {
+        "text": "A lakói bizalom az egekbe szökött. Az, hogy a bérlőinket szigorúan a vízfogyasztásuk alapján számlázzuk, nem pedig általános főmérő-kalkulációk szerint, megoldotta a legfájdalmasabb vitáinkat."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "GYIK támogatás",
+    "heading": "Gyakran ismételt kérdések",
+    "items": [
+      {
+        "q": "Szükséges-e mechanikus elzárás az okos almérőkhöz?",
+        "a": "Nem. Innovatív mérőegységeink nem invazív módon, közvetlenül a meglévő vezetékekre rögzíthetők az egyes bekötési pontokon. A beüzemelés tisztán, percek alatt zajlik, az egész épület közműszolgáltatásának leállítása nélkül."
+      },
+      {
+        "q": "Hogyan történik a közösségi/közös vízhasználati költségek kiszámítása?",
+        "a": "A központi közös területek (pl. medence, öntözőrendszer) fogyasztását először tisztán levonjuk a főmérő állásából. Az ingatlankezelő csoportok ezeket strukturálisan vagy átlátható arányosítással osztják szét."
+      },
+      {
+        "q": "Milyen gyorsan érzékeli a HydroLedger a folyamatos szivárgást?",
+        "a": "Háttér-riasztási folyamataink figyelik a folyamatos fogyasztási jeleket. Ha a vízáramlás egy 10 perces ciklusban sem esik nullára, azonnal riasztást küldünk a kár minimalizálása érdekében."
+      },
+      {
+        "q": "Kezeli-e a HydroLedger a biztonságot vagy a lakói adatvédelmet?",
+        "a": "Igen. A HydroLedger szabványos titkosított csatornákon védi és tárolja a lakói portál azonosítóit. Az operatív adatokat szigorúan csak a fogyasztás nyomon követésére használjuk."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Csatlakozzon a HydroLedgerhez még ma",
+    "heading": "Kezdje el a vízfogyasztás monitorozását még ma",
+    "paragraph": "Növelje a megtakarítási mutatókat, egyszerűsítse a lakói számlázást és védje meg értékes ingatlanállományát. Hagyja, hogy kiszámoljuk közössége egyedi megtérülési becslését.",
+    "ctaPrimary": "Ajánlatkérés",
+    "ctaSecondary": "Kapcsolat az értékesítéssel"
+  },
+  "footer": {
+    "tagline": "Okos közműelosztó rendszerek és valós idejű lakossági almérési megoldások. Védje rendszereit, hangolja össze számláit, takarítson meg vizet.",
+    "columns": [
+      {
+        "title": "Platform",
+        "links": [
+          "Almérés",
+          "Számlázási csomag",
+          "Szivárgásvédelem",
+          "Lakói alkalmazás"
+        ]
+      },
+      {
+        "title": "Erőforrások",
+        "links": [
+          "Esettanulmányok",
+          "Blog",
+          "Telepítési útmutató",
+          "Súgóközpont"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Központi iroda",
+    "copyright": "© 2026 HydroLedger Systems Inc. Minden jog fenntartva.",
+    "legalPrivacy": "Adatvédelmi irányelvek",
+    "legalTerms": "Felhasználási feltételek"
+  }
+}

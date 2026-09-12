@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funkcionalnosti",
+    "linkHowItWorks": "Kako to funkcioniše",
+    "linkContact": "Kontakt",
+    "signIn": "Prijava",
+    "getStarted": "Započnite"
+  },
+  "hero": {
+    "eyebrow": "Pametno praćenje potrošnje vode",
+    "titleLine1": "Pratite potrošnju.",
+    "titleHighlight": "Delite troškove pravedno.",
+    "titleLine2": "Uštedite vodu.",
+    "paragraph": "HydroLedger pruža stambenim zajednicama uvid u potrošnju u realnom vremenu, transparentno deljenje troškova i rana upozorenja na curenje — sve sa jedne kontrolne table.",
+    "ctaPrimary": "Započnite",
+    "ctaSecondary": "Prijava",
+    "panelLabel": "Potrošnja ovog meseca",
+    "panelSub": "8% ispod proseka domaćinstva",
+    "chartLabelStart": "Pon",
+    "chartLabelEnd": "Ned"
+  },
+  "trustBar": {
+    "label": "Veruju nam progresivne grupe za upravljanje višestambenim objektima"
+  },
+  "features": {
+    "pill": "Ključne mogućnosti",
+    "headingPrefix": "Sve što je potrebno za",
+    "headingHighlight": "Praćenje i naplatu",
+    "headingSuffix": "na pravičan način",
+    "paragraph": "Recite zbogom fiksnoj podeli troškova komunalija. HydroLedger podstiče strukturnu pravičnost kroz precizno merenje i inteligentnu automatizaciju.",
+    "items": [
+      {
+        "tag": "Praćenje vode",
+        "title": "Podmeravanje u realnom vremenu",
+        "text": "Merite tačnu potrošnju vode iz minuta u minut po pojedinačnim jedinicama umesto oslanjanja na zastarele glavne procene."
+      },
+      {
+        "tag": "Automatizacija naplate",
+        "title": "Automatizovana naplata u zajednici",
+        "text": "Generisanje računa direktno za stanare, dinamički mapirano prema proporcionalnoj upotrebi. Trenutno eliminišite administrativne troškove naplate."
+      },
+      {
+        "tag": "Ublažavanje rizika",
+        "title": "Upozorenja o ranom otkrivanju curenja",
+        "text": "Trenutna automatizovana upozorenja signaliziraju abnormalne obrasce protoka i otkrivaju veća oštećenja vode za nekoliko minuta, a ne meseci."
+      },
+      {
+        "tag": "Raspodela troškova",
+        "title": "Pravična raspodela troškova",
+        "text": "Pratite zajedničku potrošnju u zajedničkim prostorijama i transparentno rasporedite strukturne troškove kako biste izgradili poverenje i podstakli očuvanje resursa."
+      }
+    ],
+    "learnMore": "Saznajte više"
+  },
+  "howItWorks": {
+    "pill": "Efikasnost radnog procesa",
+    "heading": "Besprekorna instalacija, rad bez angažovanja",
+    "paragraph": "Postavite sistem brzo. Kada se hardverske jedinice povežu, platforma automatski rukuje složenim proračunima, slanjem računa i upozorenjima na curenje.",
+    "steps": [
+      {
+        "title": "Povežite pametne vodomere",
+        "text": "Naši sertifikovani tehničari postavljaju neinvazivne pametne pod-vodomere direktno na pojedinačne ventile za manje od 15 minuta."
+      },
+      {
+        "title": "Praćenje u realnom vremenu",
+        "text": "Podaci neprekidno pristižu na HydroLedger cloud platformu, beležeći tačne podatke o potrošnji i prateći abnormalne aktivnosti."
+      },
+      {
+        "title": "Automatizujte račune",
+        "text": "Na kraju meseca, sistem kombinuje raspodelu troškova zajedničkih prostorija i izmerene količine u jasne, stavkama definisane račune."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Pregled portala za stanare uživo",
+    "headingPrefix": "Osnažite stanare kroz",
+    "headingHighlight": "Jasnoću potrošnje",
+    "paragraph": "Transparentnost gradi harmoniju u zajednici. Stanari uživaju u jednostavnim kontrolnim tablama sa povratnim informacijama u realnom vremenu, predviđanjima troškova i proaktivnim upozorenjima na curenje.",
+    "brandLabel": "Portal za stanare",
+    "unitLabel": "Jedinica 4B — Trenutni obračunski period",
+    "stat1Label": "Potrošnja ovog meseca",
+    "stat1Trend": "-12% u odnosu na prosek",
+    "stat2Label": "Proc. iznos računa",
+    "stat2Trend": "U očekivanim okvirima",
+    "stat3Label": "Status curenja",
+    "stat3Value": "Sve u redu",
+    "stat3Trend": "Bezbedan protok",
+    "chartTitle": "Nedeljna potrošnja (galoni)",
+    "bars": [
+      "1. ned",
+      "2. ned",
+      "3. ned",
+      "4. ned",
+      "5. ned (proj.)"
+    ],
+    "tipTitle": "Savet za očuvanje",
+    "tipText": "Vaša kuhinjska slavina pokazuje blagi kontinuirani protok ujutru. Provera aeratora može uštedeti do 10 galona nedeljno.",
+    "tipBadge": "Automatizovani uvid",
+    "autopayTitle": "Automatsko plaćanje omogućeno",
+    "autopayLabel": "Sledeći datum automatskog plaćanja",
+    "autopayButton": "Prikaži detaljan PDF račun"
+  },
+  "audienceSplit": {
+    "residentPill": "Za stanare",
+    "residentHeading": "Pravični troškovi komunalija zasnovani na potrošnji",
+    "residentParagraph": "Prestanite da plaćate prekomernu potrošnju vaših komšija. Plaćajte isključivo za galone koje potrošite, potkrepljeno podacima sa kontrolne table u realnom vremenu.",
+    "residentBullets": [
+      "Tačni mesečni podaci o podmeravanju sa transparentnim parametrima troškova.",
+      "SMS i mobilna obaveštenja ukoliko se detektuje curenje u uređajima.",
+      "Jednostavan, optimizovan sistem digitalnog plaćanja računa sa automatizovanim potvrdama."
+    ],
+    "adminPill": "Za upravnike zgrada",
+    "adminHeading": "Trenutni operativni ROI i kontrola otpada",
+    "adminParagraph": "Pretvorite upravljanje komunalijama iz glavobolje sa visokim gubicima u besprekoran, profitabilan proces uz automatizovanu naplatu stanarima.",
+    "adminBullets": [
+      "Automatska raspodela komunalija direktno povezana sa pojedinačnim jedinicama.",
+      "Hitna operativna upozorenja za sprečavanje skupih strukturnih oštećenja vodom.",
+      "Detaljno izveštavanje na kontrolnoj tabli o naplati prema glavnom vodomeru naspram distribuirane potrošnje."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Prosečno ušteđena voda",
+      "Aktivna domaćinstva",
+      "Vreme rada sistema",
+      "Upravljanih zajednica"
+    ]
+  },
+  "pricing": {
+    "pill": "Transparentni paketi",
+    "heading": "Operativni troškovi sa visokim povraćajem investicije",
+    "paragraph": "Izaberite plan prilagođen vašoj gustini zajednice. HydroLedger obično pokriva svoje troškove platforme već u prvom mesecu kroz smanjenje gubitaka u zajedničkim prostorijama.",
+    "highlightBadge": "Najbolja vrednost",
+    "customPriceLabel": "Prilagođeno",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "po jedinici / mesečno",
+        "desc": "Savršeno za manja udruženja vlasnika stanova kojima su potrebne osnovne mogućnosti podmeravanja.",
+        "features": [
+          "Očitavanje brojila u realnom vremenu",
+          "SMS upozorenja o curenju",
+          "Standardni izvoz računa",
+          "Portal za samousluživanje"
+        ],
+        "cta": "Aktivirajte Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "po jedinici / mesečno",
+        "desc": "Naš zlatni standard paket za klasične stambene zajednice koje žele potpuno automatizovanu naplatu stanarima.",
+        "features": [
+          "Sve iz Starter paketa",
+          "Automatizovano slanje PDF računa",
+          "Proporcionalna raspodela zajedničkih prostorija",
+          "Prioritetna korisnička podrška"
+        ],
+        "cta": "Izaberite Pro (najpopularnije)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "na zahtev",
+        "desc": "Za velike institucionalne zajednice kojima su potrebni prilagođeni API tokovi i konfiguracije naplate.",
+        "features": [
+          "Sve iz Professional paketa",
+          "Prilagođene integracije softvera za naplatu",
+          "Posvećeni konsultant za komunalije",
+          "SLA garancije za hardver"
+        ],
+        "cta": "Kontaktirajte prodaju za preduzeća"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Operativna realnost",
+    "heading": "Šta kažu upravnici zgrada",
+    "quotes": [
+      {
+        "text": "HydroLedger je suštinski promenio naš operativni bilans uspeha. Otkrili smo tri velika skrivena curenja na mehaničkim instalacijama koja su nam uštedela preko 11 lakha samo u prvom kvartalu."
+      },
+      {
+        "text": "Poverenje stanara je drastično poraslo. Naplaćivanje stanarima striktno na osnovu potrošnje vode umesto generičkih proračuna na osnovu glavnog vodometra rešilo je naše najbolnije sporove sa stanarima."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Česta pitanja",
+    "heading": "Često postavljana pitanja",
+    "items": [
+      {
+        "q": "Da li pametni pod-vodomeri zahtevaju mehaničko isključivanje vode?",
+        "a": "Ne. Naše inovativne jedinice za pod-vodomere se postavljaju neinvazivno direktno preko postojećih instalacija u pojedinačnim servisnim prostorima. Postavljanje se završava čisto za nekoliko minuta bez prekida vode za stanare."
+      },
+      {
+        "q": "Kako se izračunavaju zajednički troškovi vode?",
+        "a": "Centralni zajednički bazen (npr. bazeni, zalivanje zelenih površina) se prvo čisto oduzima od glavnih vodomera. Upravljačke grupe raspoređuju te troškove strukturno ili proporcionalno na transparentan način."
+      },
+      {
+        "q": "Koliko brzo HydroLedger otkriva kontinuirano curenje vode?",
+        "a": "Naši pozadinski sistemi upozorenja prate signale kontinuiranog protoka. Ako protok ne padne na nulu tokom ciklusa od 10 minuta, upozorenje se odmah šalje kako bi se rizik od štete minimizirao."
+      },
+      {
+        "q": "Da li HydroLedger vodi računa o bezbednosti ili privatnosti stanara?",
+        "a": "Da. HydroLedger štiti i čuva identifikatore portala stanara iza standardnih šifrovanih kanala. Operativni podaci se čuvaju bezbedno isključivo radi praćenja potrošnje."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Pridružite se HydroLedger-u danas",
+    "heading": "Započnite praćenje potrošnje vode već danas",
+    "paragraph": "Poboljšajte pokazatelje uštede, pojednostavite naplatu stanarima i zaštitite vrednu infrastrukturu stambenih objekata. Dozvolite nam da izračunamo vašu prilagođenu procenu ROI-a zajednice.",
+    "ctaPrimary": "Zatražite ponudu",
+    "ctaSecondary": "Kontaktirajte prodaju"
+  },
+  "footer": {
+    "tagline": "Pametni sistemi za raspodelu komunalija i rešenja za podmeravanje potrošnje u realnom vremenu. Zaštitite sisteme, uskladite račune, uštedite vodu.",
+    "columns": [
+      {
+        "title": "Platforma",
+        "links": [
+          "Podmeravanje",
+          "Paket za naplatu",
+          "Zaštita od curenja",
+          "Aplikacija za stanare"
+        ]
+      },
+      {
+        "title": "Resursi",
+        "links": [
+          "Studije slučaja",
+          "Blog",
+          "Vodič za instalaciju",
+          "Centar za pomoć"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Korporativna kancelarija",
+    "copyright": "© 2026 HydroLedger Systems Inc. Sva prava zadržana.",
+    "legalPrivacy": "Politika privatnosti",
+    "legalTerms": "Uslovi korišćenja"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Karatteristiċi",
+    "linkHowItWorks": "Kif jaħdem",
+    "linkContact": "Kuntatt",
+    "signIn": "Idħol",
+    "getStarted": "Ibda"
+  },
+  "hero": {
+    "eyebrow": "Monitoraġġ Intelliġenti tal-Ilma",
+    "titleLine1": "Segwi l-użu.",
+    "titleHighlight": "Aqsam b'mod ġust.",
+    "titleLine2": "Iffranka l-ilma.",
+    "paragraph": "HydroLedger jagħti lill-komunitajiet ta' appartamenti għarfien dwar il-konsum f'ħin reali, kontijiet trasparenti għal spejjeż maqsuma, u twissijiet bikrija dwar tnixxija — kollox minn dashboard wieħed.",
+    "ctaPrimary": "Ibda",
+    "ctaSecondary": "Idħol",
+    "panelLabel": "Użu ta' dan ix-xahar",
+    "panelSub": "8% taħt il-medja tad-dar",
+    "chartLabelStart": "Tne",
+    "chartLabelEnd": "Ħad"
+  },
+  "trustBar": {
+    "label": "Fdat minn gruppi progressivi ta' ġestjoni ta' bini b'ħafna unitajiet"
+  },
+  "features": {
+    "pill": "Kapaċitajiet Ewlenin",
+    "headingPrefix": "Kull ma Hemm Bżonn biex",
+    "headingHighlight": "Tissorvelja u Tikkontrolla l-Kontijiet",
+    "headingSuffix": "B'Mod Ġust",
+    "paragraph": "Għid addio lill-qsim tal-utilitajiet b'rata fissa. HydroLedger imexxi ekwità strutturali permezz ta' kejl preċiż u awtomazzjoni intelliġenti.",
+    "items": [
+      {
+        "tag": "Traċċar tal-Ilma",
+        "title": "Sub-Metering f'Ħin Reali",
+        "text": "Kejjel il-konsum eżatt tal-ilma, minuta b'minuta, madwar l-unitajiet individwali minflok ma tistrieħ fuq stimi prinċipali skaduti."
+      },
+      {
+        "tag": "Awtomazzjoni tal-Kontijiet",
+        "title": "Kontijiet Awtomatizzati għall-Komunità",
+        "text": "Ġenerazzjoni ta' fatturi direttament lir-residenti mmappjati b'mod dinamiku għall-użu proporzjonali. Elimina l-ispejjeż amministrattivi tal-kontijiet istantanjament."
+      },
+      {
+        "tag": "Mitigazzjoni tar-Riskju",
+        "title": "Twissijiet Bikrija ta' Sejbien ta' Tnixxija",
+        "text": "Twissijiet awtomatiċi istantanji jimmarkaw mudelli ta' fluss anormali u jaqbdu ħsara kbira mill-ilma fi ftit minuti, mhux xhur."
+      },
+      {
+        "tag": "Allokazzjoni tal-Ispejjeż",
+        "title": "Distribuzzjoni Ġusta tal-Ispejjeż",
+        "text": "Segwi l-użu komuni taż-żoni maqsuma u qassam l-ispejjeż strutturali b'mod trasparenti biex tibni l-fiduċja u l-konservazzjoni tad-djar."
+      }
+    ],
+    "learnMore": "Tgħallem aktar"
+  },
+  "howItWorks": {
+    "pill": "Effiċjenza tal-Fluss tax-Xogħol",
+    "heading": "Installazzjoni Bla Xkiel, Operazzjoni Mingħajr Idejn",
+    "paragraph": "Ibda malajr. Ladarba l-unitajiet tal-ħardwer jikkonnettjaw, il-pjattaforma timmaniġġja kalkoli kumplessi, tibgħat fatturi, u twissijiet dwar tnixxija b'mod nattiv.",
+    "steps": [
+      {
+        "title": "Qabbad Miters Intelliġenti",
+        "text": "It-tekniċi ċċertifikati tagħna jwaħħlu sub-miters tal-fluss intelliġenti mhux invażivi direttament mal-valvi individwali fi żmien inqas minn 15-il minuta."
+      },
+      {
+        "title": "Traċċar f'Ħin Reali",
+        "text": "Id-dejta tiċċirkola kontinwament lejn il-pjattaforma cloud ta' HydroLedger, tirreġistra ċifri eżatti ta' użu u tissorvelja attività anormali."
+      },
+      {
+        "title": "Awtomatizza l-Kontijiet",
+        "text": "Fi tmiem ix-xahar, il-magna tgħaqqad id-distribuzzjonijiet taż-żoni komuni u l-volumi tas-sub-miters f'kontijiet ċari u dettaljati."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Mockup tal-Portal tar-Residenti Ħaj",
+    "headingPrefix": "Agħti s-Setgħa lir-Residenti bi",
+    "headingHighlight": "Ċarezza tal-Konsum",
+    "paragraph": "It-trasparenza tibni l-allinjament tal-komunità. Ir-residenti jgawdu dashboards sempliċi b'feedback f'ħin reali, projezzjonijiet ta' spejjeż prevedibbli, u twissijiet proattivi dwar tnixxija.",
+    "brandLabel": "Portal tar-Residenti",
+    "unitLabel": "Unità 4B — Ċiklu tal-Kont Kurrenti",
+    "stat1Label": "Użu ta' Dan ix-Xahar",
+    "stat1Trend": "-12% vs Medja",
+    "stat2Label": "Ammont Stimat tal-Kont",
+    "stat2Trend": "Fit-triq it-tajba",
+    "stat3Label": "Status ta' Tnixxija",
+    "stat3Value": "Kollox Sew",
+    "stat3Trend": "Fluss Sikur",
+    "chartTitle": "Użu ta' Kull Ġimgħa (Galluni)",
+    "bars": [
+      "Ġim 1",
+      "Ġim 2",
+      "Ġim 3",
+      "Ġim 4",
+      "Ġim 5 (Proj)"
+    ],
+    "tipTitle": "Ponta dwar il-Konservazzjoni",
+    "tipText": "Il-vit tal-kċina tiegħek juri fluss kemxejn kontinwu filgħodu. Iċ-ċekkjar tal-ajraturi jista' jiffranka sa 10 galluni/ġimgħa.",
+    "tipBadge": "Għarfien Awtomatizzat",
+    "autopayTitle": "Autopay Attivat",
+    "autopayLabel": "Data tal-kont awtomatiku li jmiss",
+    "autopayButton": "Ara l-Fattura PDF Dettaljata"
+  },
+  "audienceSplit": {
+    "residentPill": "Għar-Residenti",
+    "residentHeading": "Spejjeż tal-Utilitajiet Ġusti u Ibbażati fuq il-Konsum",
+    "residentParagraph": "Tieqaf tħallas għall-konsum eċċessiv tal-ġar tiegħek. Ħallas strettament għall-galluni li tuża, appoġġjat minn dejta tad-dashboard f'ħin reali.",
+    "residentBullets": [
+      "Dejta preċiża ta' sub-metering ta' kull xahar b'metriċi ta' spejjeż trasparenti.",
+      "Notifiki SMS u mobbli jekk jinstabu mikrotinixxijiet fl-apparat.",
+      "Sistema ta' ħlas ta' fatturi diġitali sempliċi u ssimplifikata b'irċevuti awtomatizzati."
+    ],
+    "adminPill": "Għall-Amministraturi tal-Proprjetà",
+    "adminHeading": "ROI Operattiv Istantaneju u Kontroll tal-Iskart",
+    "adminParagraph": "Ittrasforma l-ġestjoni tal-utilitajiet minn uġigħ ta' ras b'telf għoli għal pipeline bla xkiel u ta' marġini għoli b'kontijiet awtomatizzati għar-residenti.",
+    "adminBullets": [
+      "Allokazzjoni ta' utilitajiet mingħajr idejn konnessa direttament ma' unitajiet individwali.",
+      "Twissijiet operattivi immedjati biex jipprevjenu ħsara strutturali għalja mill-ilma.",
+      "Rapportar dettaljat tad-dashboard fuq il-kontijiet tal-miter prinċipali vs galluni mqassma."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Medja tal-Ilma Iffrankat",
+      "Djar Attivi",
+      "Uptime tas-Sistema",
+      "Komunitajiet Immexxija"
+    ]
+  },
+  "pricing": {
+    "pill": "Pakketti Trasparenti",
+    "heading": "Spejjeż Operattivi b'Ritorn Għoli fuq l-Investiment",
+    "paragraph": "Agħżel pjan imfassal għad-densità eżatta tal-komunità tiegħek. HydroLedger normalment jikkumpensa l-miżati tal-pjattaforma tiegħu stess fl-ewwel xahar permezz ta' skart imnaqqas fiż-żoni komuni.",
+    "highlightBadge": "L-Aħjar Valur",
+    "customPriceLabel": "Personalizzat",
+    "tiers": [
+      {
+        "name": "Bidu",
+        "unit": "kull unità / xahar",
+        "desc": "Perfett għal assoċjazzjonijiet iżgħar ta' townhomes li għandhom bżonn kapaċitajiet ewlenin ta' sub-metering.",
+        "features": [
+          "Qari tal-Miter f'Ħin Reali",
+          "Twissijiet SMS dwar Tnixxija",
+          "Esportazzjonijiet Standard tal-Kontijiet",
+          "Portal Self-Serve"
+        ],
+        "cta": "Attiva l-Bidu"
+      },
+      {
+        "name": "Professjonali",
+        "unit": "kull unità / xahar",
+        "desc": "Il-pakkett standard tad-deheb tagħna għal komunitajiet ta' appartamenti klassiċi li jridu kontijiet awtomatizzati bis-sħiħ għar-residenti.",
+        "features": [
+          "Dak kollu fil-Bidu",
+          "Tibgħat Fatturi PDF Awtomatizzati",
+          "Allokazzjonijiet Proporzjonali taż-Żona Komuni",
+          "Appoġġ Prijoritarju lill-Klijent"
+        ],
+        "cta": "Mur Pro (L-Aktar Popolari)"
+      },
+      {
+        "name": "Intrapriża",
+        "unit": "fuq talba",
+        "desc": "Għal komunitajiet istituzzjonali espansivi li jeħtieġu pipelines API u konfigurazzjonijiet ta' kontijiet apposta.",
+        "features": [
+          "Dak kollu fil-Professjonali",
+          "Integrazzjonijiet ta' Softwer tal-Kontijiet Apposta",
+          "Konsulent Dedikat għall-Utilitajiet",
+          "Garanziji SLA tal-Ħardwer"
+        ],
+        "cta": "Ikkuntattja l-Bejgħ Intrapriża"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realtajiet Operattivi",
+    "heading": "X'Jgħidu l-Maniġers tal-Proprjetà",
+    "quotes": [
+      {
+        "text": "HydroLedger biddel fundamentalment il-P&L operattiv tagħna. Skoprejna tliet tnixxijiet ta' servizz moħbija kbar f'linji mekkaniċi li ffrankawlna aktar minn ₹11-il lakh fl-ewwel kwart tagħna biss."
+      },
+      {
+        "text": "Il-fiduċja tar-residenti żdiedet. Il-kontijiet lill-kerrejja tagħna bbażati strettament fuq l-użu tal-ilma minflok kalkoli ġeneriċi ta' miter prinċipali ta' bosta kmamar tas-sodda solviet l-aktar tilwim bl-uġigħ mal-kerrejja."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Appoġġ FAQ",
+    "heading": "Mistoqsijiet Frekwenti",
+    "items": [
+      {
+        "q": "Is-sub-miters intelliġenti jeħtieġu għeluq tas-servizz mekkaniku?",
+        "a": "Le. L-unitajiet innovattivi tagħna tal-miter tal-riser jitwaħħlu b'mod mhux invażiv direttament fuq il-linji eżistenti fi spazji individwali. Is-setups jitlestew b'mod nadif f'minuti mingħajr qtugħ ta' utilità għal bosta kerrejja."
+      },
+      {
+        "q": "Kif jiġu kkalkulati l-ispejjeż tal-ilma komunali/maqsuma?",
+        "a": "Il-ġabra ċentrali taż-żoni komuni (eż. faċilitajiet tal-pixxina, pajsaġġ) titnaqqas b'mod nadif mill-miters prinċipali l-ewwel. Il-gruppi ta' proprjetà jallokaw dawk strutturalment jew b'rata proporzjonali b'mod trasparenti."
+      },
+      {
+        "q": "Kemm malajr HydroLedger jiskopri flussi ta' tnixxija kontinwi?",
+        "a": "Il-pipelines ta' twissija fl-isfond tagħna jiċċekkjaw sinjali ta' ġbid kontinwu. Jekk il-fluss ma jmissx żero matul ċiklu kontinwu ta' 10 minuti, il-twissijiet jintbagħtu istantanjament biex jimminimizzaw ir-riskji ta' ħsara."
+      },
+      {
+        "q": "HydroLedger jimmaniġġja s-sigurtà jew il-privatezza tar-residenti?",
+        "a": "Iva. HydroLedger jipproteġi u jaħżen l-identifikaturi tal-portal tar-residenti wara kanali kriptati standard. Id-dejta operattiva tinżamm sigura strettament għat-traċċar tal-konsum."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Ingħaqad ma' HydroLedger Illum",
+    "heading": "Ibda Tissorvelja l-Użu tal-Ilma Tiegħek Illum",
+    "paragraph": "Ittejjeb il-metriċi tal-konservazzjoni, issimplifika l-ispejjeż tal-kontijiet tar-residenti, u ipproteġi infrastruttura ta' valur għal ħafna djar. Ħalli lilna nikkalkulaw l-istima tal-ROI tal-komunità tiegħek.",
+    "ctaPrimary": "Itlob Kwotazzjoni",
+    "ctaSecondary": "Ikkuntattja l-Bejgħ"
+  },
+  "footer": {
+    "tagline": "Pipelines ta' allokazzjoni ta' utilitajiet intelliġenti u soluzzjonijiet ta' sub-metering residenzjali f'ħin reali. Ipproteġi s-sistemi, allinja l-kontijiet, iffranka l-ilma.",
+    "columns": [
+      {
+        "title": "Pjattaforma",
+        "links": [
+          "Sub-Metering",
+          "Sett tal-Kontijiet",
+          "Gwardja kontra Tnixxija",
+          "App tar-Residenti"
+        ]
+      },
+      {
+        "title": "Riżorsi",
+        "links": [
+          "Studji ta' Każijiet",
+          "Blog",
+          "Gwida għall-Installazzjoni",
+          "Ċentru ta' Għajnuna"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Uffiċċju Korporattiv",
+    "copyright": "© 2026 HydroLedger Systems Inc. Id-drittijiet kollha riżervati.",
+    "legalPrivacy": "Politika ta' Privatezza",
+    "legalTerms": "Termini ta' Servizz"
+  }
+}

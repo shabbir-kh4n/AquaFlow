@@ -1,20 +1,19 @@
+import { useTranslation } from 'react-i18next'
 import './Stats.css'
 
-const stats = [
-  { value: '40%', label: 'Average Water Saved' },
-  { value: '10,000+', label: 'Active Households' },
-  { value: '99.9%', label: 'System Uptime' },
-  { value: '500+', label: 'Communities Managed' },
-]
+const VALUES = ['40%', '10,000+', '99.9%', '500+']
 
 function Stats() {
+  const { t } = useTranslation('landing')
+  const labels = t('stats.labels', { returnObjects: true })
+
   return (
     <section className="af-stats af-dark-gradient">
       <div className="af-stats__grid">
-        {stats.map((s) => (
-          <div className="af-stats__item" key={s.label}>
-            <span className="af-stats__value">{s.value}</span>
-            <span className="af-stats__label">{s.label}</span>
+        {VALUES.map((value, i) => (
+          <div className="af-stats__item" key={labels[i]}>
+            <span className="af-stats__value">{value}</span>
+            <span className="af-stats__label">{labels[i]}</span>
           </div>
         ))}
       </div>

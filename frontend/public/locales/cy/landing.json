@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Nodweddion",
+    "linkHowItWorks": "Sut mae'n gweithio",
+    "linkContact": "Cysylltu",
+    "signIn": "Mewngofnodi",
+    "getStarted": "Dechrau Nawr"
+  },
+  "hero": {
+    "eyebrow": "Monitro Dŵr Clyfar",
+    "titleLine1": "Olrhain y defnydd.",
+    "titleHighlight": "Rhannu'n deg.",
+    "titleLine2": "Arbed dŵr.",
+    "paragraph": "Mae HydroLedger yn rhoi cipolwg ar ddefnydd dŵr amser real i gymunedau fflatiau, bilio costau a rennir yn dryloyw, a rhybuddion cynnar am ollyngiadau — i gyd o un dangosfwrdd.",
+    "ctaPrimary": "Dechrau Nawr",
+    "ctaSecondary": "Mewngofnodi",
+    "panelLabel": "Defnydd y mis hwn",
+    "panelSub": "8% yn is na chyfartaledd yr aelwyd",
+    "chartLabelStart": "Llun",
+    "chartLabelEnd": "Sul"
+  },
+  "trustBar": {
+    "label": "Ymddiriedir ynddo gan grwpiau rheoli aml-deulu blaengar"
+  },
+  "features": {
+    "pill": "Galluoedd Craidd",
+    "headingPrefix": "Popeth sydd ei angen i",
+    "headingHighlight": "Fonitro a Bilio",
+    "headingSuffix": "Yn Deg",
+    "paragraph": "Dywedwch ffarwel wrth raniadau cyfleustodau cyfradd unffurf. Mae HydroLedger yn gyrru ecwiti strwythurol trwy fesur manwl ac awtomeiddio deallus.",
+    "items": [
+      {
+        "tag": "Olrhain Dŵr",
+        "title": "Is-fesuryddion Amser Real",
+        "text": "Mesurwch y defnydd o ddŵr yn fanwl, munud-wrth-funud ar draws unedau unigol yn lle dibynnu ar amcangyfrifon meistr hen ffasiwn."
+      },
+      {
+        "tag": "Awtomeiddio Bilio",
+        "title": "Bilio Cymunedol Awtomatig",
+        "text": "Creu anfonebau'n uniongyrchol i breswylwyr wedi'u mapio'n ddeinamig i ddefnydd cymesurol. Dileu costau gweinyddol bilio ar unwaith."
+      },
+      {
+        "tag": "Lliniaru Risg",
+        "title": "Rhybuddion Canfod Gollyngiadau Cynnar",
+        "text": "Mae rhybuddion awtomatig ar unwaith yn nodi patrymau llif annormal ac yn dal difrod dŵr mawr o fewn munudau, nid misoedd."
+      },
+      {
+        "tag": "Dyrannu Costau",
+        "title": "Dosbarthiad Costau Teg",
+        "text": "Olrhain defnydd ardal gyffredin a rennir a dosbarthu costau strwythurol yn dryloyw i feithrin ymddiriedaeth ac arbedion yn yr aelwyd."
+      }
+    ],
+    "learnMore": "Dysgu mwy"
+  },
+  "howItWorks": {
+    "pill": "Effeithlonrwydd Llif Gwaith",
+    "heading": "Gosodiad Di-dor, Gweithrediad Heb Law",
+    "paragraph": "Sefydlwch yn gyflym. Unwaith y bydd unedau caledwedd yn cysylltu, mae'r platfform yn trin cyfrifiadau cymhleth, anfon anfonebau, a rhybuddion gollyngiadau yn frodorol.",
+    "steps": [
+      {
+        "title": "Cysylltu Mesuryddion Clyfar",
+        "text": "Mae ein technegwyr ardystiedig yn cysylltu is-fesuryddion llif clyfar di-ymledol yn uniongyrchol â falfiau riser unigol mewn llai na 15 munud."
+      },
+      {
+        "title": "Olrhain Amser Real",
+        "text": "Mae data'n llifo'n barhaus i blatfform cwmwl HydroLedger, gan gofnodi ffigurau defnydd union a monitro gweithgaredd annormal."
+      },
+      {
+        "title": "Awtomeiddio Biliau",
+        "text": "Ar ddiwedd y mis, mae'r peiriant yn cyfuno dosbarthiadau ardal gyffredin a chyfeintiau is-fesuredig yn anfonebau clir, eitemedig."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Model Porth Preswylwyr Byw",
+    "headingPrefix": "Grymuso Preswylwyr Gyda",
+    "headingHighlight": "Eglurder Defnydd",
+    "paragraph": "Mae tryloywder yn adeiladu aliniad cymunedol. Mae preswylwyr yn mwynhau dangosfyrddau syml gydag adborth amser real, rhagolygon cost rhagfynegol, a rhybuddion gollyngiadau rhagweithiol.",
+    "brandLabel": "Porth Preswylwyr",
+    "unitLabel": "Uned 4B — Cylch Bilio Cyfredol",
+    "stat1Label": "Defnydd y Mis Hwn",
+    "stat1Trend": "-12% vs Cyf",
+    "stat2Label": "Amc. Swm y Bil",
+    "stat2Trend": "Ar y trywydd iawn",
+    "stat3Label": "Statws Gollyngiadau",
+    "stat3Value": "Popeth yn Iawn",
+    "stat3Trend": "Llif Diogel",
+    "chartTitle": "Defnydd Wythnosol (Galwyni)",
+    "bars": [
+      "Wk 1",
+      "Wk 2",
+      "Wk 3",
+      "Wk 4",
+      "Wk 5 (Rhag.)"
+    ],
+    "tipTitle": "Awgrym Arbed",
+    "tipText": "Mae eich tap cegin yn dangos llif ychydig yn barhaus yn y bore. Gallai gwirio awyryddion arbed hyd at 10 galwyn/wythnos.",
+    "tipBadge": "Cipolwg Awtomatig",
+    "autopayTitle": "Taliad Awtomatig wedi'i Alluogi",
+    "autopayLabel": "Dyddiad Taliad Awtomatig Nesaf",
+    "autopayButton": "Gweld Anfoneb PDF Manwl"
+  },
+  "audienceSplit": {
+    "residentPill": "Ar gyfer Preswylwyr",
+    "residentHeading": "Costau Cyfleustodau Teg yn Seiliedig ar Ddefnydd",
+    "residentParagraph": "Stopiwch dalu am ddefnydd gormodol eich cymydog. Talu'n llym am y galwyni rydych chi'n eu defnyddio, wedi'u hategu gan ddata dangosfwrdd amser real.",
+    "residentBullets": [
+      "Data is-fesuryddion misol cywir gyda metrigau cost tryloyw.",
+      "Hysbysiadau SMS a symudol os canfyddir micro-ollyngiadau mewn offer.",
+      "System talu anfonebau digidol syml, symlach gyda derbyniadau awtomatig."
+    ],
+    "adminPill": "Ar gyfer Gweinyddwyr Eiddo",
+    "adminHeading": "ROI Gweithredol ar Unwaith a Rheoli Gwastraff",
+    "adminParagraph": "Trawsnewidiwch reolaeth cyfleustodau o gur pen colled uchel i biblinell ddi-dor, elw uchel gyda bilio preswylwyr awtomatig.",
+    "adminBullets": [
+      "Dyraniad cyfleustodau heb law wedi'i gysylltu'n uniongyrchol ag unedau unigol.",
+      "Rhybuddion gweithredol ar unwaith i atal difrod dŵr strwythurol costus.",
+      "Adroddiadau dangosfwrdd manwl ar filio mesurydd meistr yn erbyn galwyni a ddosbarthwyd."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Dŵr Cyfartalog a Arbedwyd",
+      "Aelwydydd Gweithredol",
+      "Amser Uptime y System",
+      "Cymunedau a Reolir"
+    ]
+  },
+  "pricing": {
+    "pill": "Pecynnau Tryloyw",
+    "heading": "Costau Gweithredol ROI Uchel",
+    "paragraph": "Dewiswch gynllun wedi'i raddio i'ch dwysedd cymunedol union. Fel arfer, mae HydroLedger yn gwrthbwyso ei ffioedd platfform ei hun yn y mis cyntaf trwy leihau gwastraff ardal gyffredin.",
+    "highlightBadge": "Gwerth Gorau",
+    "customPriceLabel": "Custom",
+    "tiers": [
+      {
+        "name": "Dechreuwr",
+        "unit": "y bob uned / mis",
+        "desc": "Perffaith ar gyfer cymdeithasau trefol llai sydd angen galluoedd is-fesuryddion craidd.",
+        "features": [
+          "Darlleniadau Mesurydd Amser Real",
+          "Rhybuddion Gollyngiadau SMS",
+          "Allforion Bilio Safonol",
+          "Porth Hunan-Wasanaeth"
+        ],
+        "cta": "Actifadu Dechreuwr"
+      },
+      {
+        "name": "Proffesiynol",
+        "unit": "y bob uned / mis",
+        "desc": "Ein pecyn safon aur ar gyfer cymunedau fflatiau clasurol sydd eisiau bilio preswylwyr cwbl awtomatig.",
+        "features": [
+          "Popeth yn y Dechreuwr",
+          "Anfon Anfonebau PDF Awtomatig",
+          "Dyraniadau Ardal Gyffredin Gymesurol",
+          "Cymorth Cwsmer Blaenoriaeth"
+        ],
+        "cta": "Mynd yn Bro (Mwyaf Poblogaidd)"
+      },
+      {
+        "name": "Menter",
+        "unit": "ar gais",
+        "desc": "Ar gyfer cymunedau sefydliadol helaeth sydd angen biblinellau API a chyfluniadau bilio pwrpasol.",
+        "features": [
+          "Popeth yn y Proffesiynol",
+          "Integreiddiau Meddalwedd Bilio Pwrpasol",
+          "Ymgynghorydd Cyfleustodau Pwrpasol",
+          "Gwarantau SLA Caledwedd"
+        ],
+        "cta": "Cysylltu â Gwerthiannau Menter"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Gwireddau Gweithredol",
+    "heading": "Beth mae Rheolwyr Eiddo yn ei ddweud",
+    "quotes": [
+      {
+        "text": "Newidiodd HydroLedger ein P&L gweithredol yn sylfaenol. Darganfyddon ni dri gollyngiad gwasanaeth cudd mawr yn y llinellau mecanyddol a arbedodd dros ₹11 lakh i ni yn ein chwarter cyntaf yn unig."
+      },
+      {
+        "text": "Mae ymddiriedaeth preswylwyr wedi saethu i fyny. Roedd bilio ein tenantiaid yn seiliedig yn llym ar ddefnydd dŵr yn lle cyfrifiadau mesurydd meistr aml-ystafell wely generig wedi datrys ein hanghydfodau tenant mwyaf poenus."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Cymorth Cwestiynau Cyffredin",
+    "heading": "Cwestiynau a Ofynnir yn Aml",
+    "items": [
+      {
+        "q": "A oes angen cau gwasanaeth mecanyddol ar is-fesuryddion clyfar?",
+        "a": "Na. Mae ein hunedau mesurydd riser arloesol yn ffitio'n ddi-ymledol yn uniongyrchol dros y llinellau presennol mewn gofodau ymlusgo unigol. Mae gosodiadau yn cwblhau'n lân mewn munudau heb doriadau cyfleustodau aml-denant."
+      },
+      {
+        "q": "Sut mae costau dŵr cymunedol/a rennir yn cael eu cyfrifo?",
+        "a": "Mae'r pwll ardal gyffredin canolog (e.e. cyfleusterau pwll, tirlunio) yn cael ei dynnu'n lân o'r mesuryddion meistr prif yn gyntaf. Mae grwpiau eiddo yn dyrannu'r rheini'n strwythurol neu'n pro-rata yn dryloyw."
+      },
+      {
+        "q": "Pa mor gyflym mae HydroLedger yn canfod llifau gollyngiadau parhaus?",
+        "a": "Mae ein biblinellau rhybudd cefndir yn gwirio signalau tynnu parhaus. Os nad yw'r llif yn cyffwrdd sero dros gylch 10 munud treigl, mae rhybuddion yn anfon ar unwaith i leihau risgiau difrod."
+      },
+      {
+        "q": "A yw HydroLedger yn trin diogelwch neu breifatrwydd preswylwyr?",
+        "a": "Ydy. Mae HydroLedger yn amddiffyn ac yn storio dynodwyr porth preswylwyr y tu ôl i sianeli amgryptiedig safonol. Mae data gweithredol yn cael ei gadw'n ddiogel yn llym ar gyfer olrhain defnydd."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Ymunwch â HydroLedger Heddiw",
+    "heading": "Dechreuwch Fonitro Eich Defnydd o Ddŵr Heddiw",
+    "paragraph": "Hyrwyddo metrigau arbed, symleiddio costau bilio preswylwyr, ac amddiffyn seilwaith aml-aelwyd gwerthfawr. Gadewch i ni gyfrifo'ch amcangyfrif ROI cymunedol personol.",
+    "ctaPrimary": "Gofyn am Ddyfynbris",
+    "ctaSecondary": "Cysylltu â Gwerthiannau"
+  },
+  "footer": {
+    "tagline": "Biblinellau dyrannu cyfleustodau clyfar ac atebion is-fesuryddion preswyl amser real. Amddiffyn systemau, alinio biliau, arbed dŵr.",
+    "columns": [
+      {
+        "title": "Platfform",
+        "links": [
+          "Is-fesuryddion",
+          "Swît Bilio",
+          "Gwarchod Gollyngiadau",
+          "Ap Preswylwyr"
+        ]
+      },
+      {
+        "title": "Adnoddau",
+        "links": [
+          "Astudiaethau Achos",
+          "Blog",
+          "Canllaw Gosod",
+          "Canolfan Gymorth"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Swyddfa Gorfforaethol",
+    "copyright": "© 2026 HydroLedger Systems Inc. Cedwir pob hawl.",
+    "legalPrivacy": "Polisi Preifatrwydd",
+    "legalTerms": "Telerau Gwasanaeth"
+  }
+}

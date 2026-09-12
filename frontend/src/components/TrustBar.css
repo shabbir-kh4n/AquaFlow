@@ -8,9 +8,14 @@
   margin: 0 0 28px;
   font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--af-text-muted);
+}
+
+/* Manual letter-spacing mangles scripts with contextually-shaped/connected
+   glyphs (Devanagari, Tamil, Arabic, etc.) - scoped to English via :lang(en). */
+:lang(en) .af-trust__label {
+  letter-spacing: 0.08em;
 }
 
 .af-trust__row {

@@ -1,0 +1,242 @@
+{
+  "navbar": {
+    "linkFeatures": "Funcționalități",
+    "linkHowItWorks": "Cum funcționează",
+    "linkContact": "Contact",
+    "signIn": "Conectare",
+    "getStarted": "Începe acum"
+  },
+  "hero": {
+    "eyebrow": "Monitorizare inteligentă a apei",
+    "titleLine1": "Monitorizați consumul.",
+    "titleHighlight": "Împărțiți echitabil.",
+    "titleLine2": "Economisiți apă.",
+    "paragraph": "HydroLedger oferă comunităților de apartamente informații în timp real despre consum, facturare transparentă a costurilor comune și alerte timpurii pentru scurgeri — totul dintr-un singur tablou de bord.",
+    "ctaPrimary": "Începe acum",
+    "ctaSecondary": "Conectare",
+    "panelLabel": "Consumul pe această lună",
+    "panelSub": "Cu 8% sub media gospodăriei",
+    "chartLabelStart": "Lun",
+    "chartLabelEnd": "Dum"
+  },
+  "trustBar": {
+    "label": "De încredere pentru grupuri de management imobiliar progresive"
+  },
+  "features": {
+    "pill": "Capabilități de bază",
+    "headingPrefix": "Tot ce este necesar pentru",
+    "headingHighlight": "Monitorizare și Facturare",
+    "headingSuffix": "Echitabilă",
+    "paragraph": "Spuneți adio împărțirii utilităților la tarif fix. HydroLedger conduce echitatea structurală prin măsurători precise și automatizare inteligentă.",
+    "items": [
+      {
+        "tag": "Monitorizarea apei",
+        "title": "Sub-contorizare în timp real",
+        "text": "Măsurați consumul exact de apă, minut cu minut, pentru fiecare unitate, în loc să vă bazați pe estimări generale învechite."
+      },
+      {
+        "tag": "Automatizarea facturării",
+        "title": "Facturarea automatizată a comunității",
+        "text": "Generarea facturilor direct către rezidenți, mapate dinamic pe baza consumului proporțional. Eliminați instantaneu costurile administrative de facturare."
+      },
+      {
+        "tag": "Atenuarea riscurilor",
+        "title": "Alerte timpurii pentru detectarea scurgerilor",
+        "text": "Alertele automate instantanee semnalează modele de debit anormale și detectează daunele majore provocate de apă în câteva minute, nu în câteva luni."
+      },
+      {
+        "tag": "Alocarea costurilor",
+        "title": "Distribuția echitabilă a costurilor",
+        "text": "Urmăriți consumul zonelor comune și distribuiți costurile structurale în mod transparent pentru a construi încredere și a încuraja conservarea apei."
+      }
+    ],
+    "learnMore": "Află mai multe"
+  },
+  "howItWorks": {
+    "pill": "Eficiența fluxului de lucru",
+    "heading": "Instalare fără probleme, operare automată",
+    "paragraph": "Configurați rapid. Odată ce unitățile hardware sunt conectate, platforma gestionează calcule complexe, trimiterea facturilor și alertele pentru scurgeri în mod nativ.",
+    "steps": [
+      {
+        "title": "Conectarea contoarelor inteligente",
+        "text": "Tehnicienii noștri certificați atașează sub-contoare de debit inteligente, non-invazive, direct pe valvele individuale în mai puțin de 15 minute."
+      },
+      {
+        "title": "Monitorizare în timp real",
+        "text": "Datele sunt transmise continuu către platforma cloud HydroLedger, înregistrând cifre exacte de consum și monitorizând activitățile anormale."
+      },
+      {
+        "title": "Automatizarea facturilor",
+        "text": "La sfârșitul lunii, motorul combină distribuția costurilor zonelor comune cu volumele sub-contorizate în facturi clare și detaliate."
+      }
+    ]
+  },
+  "portalPreview": {
+    "pill": "Previzualizare portal rezidenți",
+    "headingPrefix": "Oferiți rezidenților",
+    "headingHighlight": "Claritate asupra consumului",
+    "paragraph": "Transparența aliniază comunitatea. Rezidenții beneficiază de tablouri de bord simple cu feedback în timp real, proiecții de cost și avertismente proactive privind scurgerile.",
+    "brandLabel": "Portal Rezidenți",
+    "unitLabel": "Unitatea 4B — Ciclul actual de facturare",
+    "stat1Label": "Consumul lunii curente",
+    "stat1Trend": "-12% față de medie",
+    "stat2Label": "Estimare factură",
+    "stat2Trend": "În grafic",
+    "stat3Label": "Stare scurgeri",
+    "stat3Value": "Totul în regulă",
+    "stat3Trend": "Debit sigur",
+    "chartTitle": "Consum săptămânal (Galoni)",
+    "bars": [
+      "Săpt 1",
+      "Săpt 2",
+      "Săpt 3",
+      "Săpt 4",
+      "Săpt 5 (Prog)"
+    ],
+    "tipTitle": "Sfat pentru conservare",
+    "tipText": "Robinetul din bucătărie prezintă un debit continuu ușor dimineața. Verificarea aeratoarelor ar putea economisi până la 10 galoane pe săptămână.",
+    "tipBadge": "Informație automatizată",
+    "autopayTitle": "Plată automată activată",
+    "autopayLabel": "Următoarea dată de facturare automată",
+    "autopayButton": "Vezi factura PDF detaliată"
+  },
+  "audienceSplit": {
+    "residentPill": "Pentru rezidenți",
+    "residentHeading": "Costuri de utilități corecte, bazate pe consum",
+    "residentParagraph": "Nu mai plătiți pentru consumul excesiv al vecinului. Plătiți strict pentru galoanele pe care le consumați, susținut de date în timp real din tabloul de bord.",
+    "residentBullets": [
+      "Date precise de sub-contorizare lunară cu indicatori de cost transparenți.",
+      "Notificări prin SMS și mobil dacă sunt detectate micro-scurgeri la aparate.",
+      "Sistem de plată a facturilor digitale simplu și optimizat, cu chitanțe automate."
+    ],
+    "adminPill": "Pentru administratori",
+    "adminHeading": "ROI operațional instant și controlul risipei",
+    "adminParagraph": "Transformați gestionarea utilităților dintr-o problemă costisitoare într-un flux de lucru eficient și profitabil, cu facturare automată pentru rezidenți.",
+    "adminBullets": [
+      "Alocare automată a utilităților conectată direct la unitățile individuale.",
+      "Alerte operaționale imediate pentru a preveni daune structurale costisitoare provocate de apă.",
+      "Raportare detaliată în tabloul de bord privind facturarea contorului principal vs. galoanele distribuite."
+    ]
+  },
+  "stats": {
+    "labels": [
+      "Apă medie economisită",
+      "Gospodării active",
+      "Timp de funcționare sistem",
+      "Comunități gestionate"
+    ]
+  },
+  "pricing": {
+    "pill": "Pachete transparente",
+    "heading": "Costuri operaționale cu rentabilitate ridicată",
+    "paragraph": "Alegeți un plan adaptat densității comunității dumneavoastră. HydroLedger își recuperează de obicei taxele de platformă în prima lună prin reducerea risipei în zonele comune.",
+    "highlightBadge": "Cea mai bună alegere",
+    "customPriceLabel": "Personalizat",
+    "tiers": [
+      {
+        "name": "Starter",
+        "unit": "per unitate / lună",
+        "desc": "Perfect pentru asociații de locuințe mai mici care au nevoie de capabilități de bază de sub-contorizare.",
+        "features": [
+          "Citiri contoare în timp real",
+          "Alerte scurgeri prin SMS",
+          "Exporturi standard de facturare",
+          "Portal self-service"
+        ],
+        "cta": "Activează Starter"
+      },
+      {
+        "name": "Professional",
+        "unit": "per unitate / lună",
+        "desc": "Pachetul nostru standard de aur pentru comunități de apartamente clasice care doresc facturarea automată a rezidenților.",
+        "features": [
+          "Tot ce este inclus în Starter",
+          "Trimiterea automată a facturilor PDF",
+          "Alocări proporționale pentru zone comune",
+          "Asistență prioritară pentru clienți"
+        ],
+        "cta": "Go Pro (Cel mai popular)"
+      },
+      {
+        "name": "Enterprise",
+        "unit": "la cerere",
+        "desc": "Pentru comunități instituționale extinse care necesită fluxuri API personalizate și configurații de facturare.",
+        "features": [
+          "Tot ce este inclus în Professional",
+          "Integrări software de facturare personalizate",
+          "Consultant dedicat pentru utilități",
+          "Garanții SLA pentru hardware"
+        ],
+        "cta": "Contactează vânzările Enterprise"
+      }
+    ]
+  },
+  "testimonials": {
+    "pill": "Realități operaționale",
+    "heading": "Ce spun administratorii de proprietăți",
+    "quotes": [
+      {
+        "text": "HydroLedger a schimbat fundamental profitul nostru operațional. Am descoperit trei scurgeri majore ascunse în liniile mecanice care ne-au economisit peste 11 lakh ₹ doar în primul trimestru."
+      },
+      {
+        "text": "Încrederea rezidenților a crescut vertiginos. Facturarea chiriașilor noștri strict pe baza consumului de apă, în loc de calculele generice ale contorului principal, a rezolvat cele mai dureroase dispute cu chiriașii."
+      }
+    ]
+  },
+  "faq": {
+    "pill": "Asistență FAQ",
+    "heading": "Întrebări frecvente",
+    "items": [
+      {
+        "q": "Sub-contoarele inteligente necesită oprirea serviciilor mecanice?",
+        "a": "Nu. Unitățile noastre inovatoare se montează non-invaziv direct peste liniile existente în spațiile tehnice individuale. Instalarea se finalizează curat în câteva minute, fără întreruperi de utilități pentru locatari."
+      },
+      {
+        "q": "Cum sunt calculate costurile comune/partajate cu apa?",
+        "a": "Consumul pentru zonele comune centrale (de exemplu, piscine, spații verzi) este scăzut mai întâi din contoarele principale. Grupurile de proprietari alocă aceste costuri structural sau proporțional într-un mod transparent."
+      },
+      {
+        "q": "Cât de rapid detectează HydroLedger debitele continue de scurgere?",
+        "a": "Fluxurile noastre de alerte de fundal verifică semnalele de consum continuu. Dacă debitul nu atinge zero într-un ciclu de 10 minute, alertele sunt transmise instantaneu pentru a minimiza riscurile de daune."
+      },
+      {
+        "q": "HydroLedger gestionează securitatea sau confidențialitatea rezidenților?",
+        "a": "Da. HydroLedger protejează și stochează identificatorii portalului rezidenților în spatele unor canale criptate standard. Datele operaționale sunt păstrate în siguranță strict pentru monitorizarea consumului."
+      }
+    ]
+  },
+  "cta": {
+    "pill": "Alăturați-vă HydroLedger astăzi",
+    "heading": "Începeți să vă monitorizați consumul de apă astăzi",
+    "paragraph": "Îmbunătățiți indicatorii de conservare, simplificați administrarea facturilor rezidenților și protejați infrastructura imobiliară valoroasă. Permiteți-ne să calculăm estimarea de ROI pentru comunitatea dumneavoastră.",
+    "ctaPrimary": "Solicită o ofertă",
+    "ctaSecondary": "Contactează vânzările"
+  },
+  "footer": {
+    "tagline": "Fluxuri de alocare inteligentă a utilităților și soluții de sub-contorizare rezidențială în timp real. Protejați sistemele, aliniați facturile, economisiți apă.",
+    "columns": [
+      {
+        "title": "Platformă",
+        "links": [
+          "Sub-contorizare",
+          "Suită de facturare",
+          "Protecție scurgeri",
+          "Aplicație rezidenți"
+        ]
+      },
+      {
+        "title": "Resurse",
+        "links": [
+          "Studii de caz",
+          "Blog",
+          "Ghid de instalare",
+          "Centru de ajutor"
+        ]
+      }
+    ],
+    "corporateOfficeTitle": "Sediu Central",
+    "copyright": "© 2026 HydroLedger Systems Inc. Toate drepturile rezervate.",
+    "legalPrivacy": "Politica de confidențialitate",
+    "legalTerms": "Termeni și condiții"
+  }
+}

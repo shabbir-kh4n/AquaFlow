@@ -61,10 +61,15 @@
   color: var(--af-accent-2);
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
+}
+
+/* Manual letter-spacing mangles scripts with contextually-shaped/connected
+   glyphs (Devanagari, Tamil, Arabic, etc.) - scoped to English via :lang(en). */
+:lang(en) .af-features__tag {
+  letter-spacing: 0.04em;
 }
 
 .af-features__more {

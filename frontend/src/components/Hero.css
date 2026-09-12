@@ -30,21 +30,42 @@
   margin-bottom: 30px;
   font-size: 12.5px;
   font-weight: 700;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--af-accent-2);
+}
+
+/* Manual letter-spacing on scripts with contextually-shaped/connected glyphs
+   (Devanagari, Tamil, Arabic, etc.) makes conjuncts and vowel signs overlap -
+   these tracking tweaks are Latin-only, scoped to English via :lang(en). */
+:lang(en) .af-hero__eyebrow {
+  letter-spacing: 0.06em;
 }
 
 .af-hero__copy h1 {
   margin: 0 0 22px;
   font-size: 50px;
-  line-height: 1.13;
+  /* 1.3 rather than a tighter ratio - Devanagari/Tamil/Bengali/etc. conjuncts and
+     vowel signs extend further above/below the baseline than Latin glyphs and get
+     visually clipped at tighter line-heights (seen in Hindi: matras cut off). */
+  line-height: 1.3;
   font-weight: 700;
   color: var(--af-text-dark);
+}
+
+:lang(en) .af-hero__copy h1 {
   letter-spacing: -0.02em;
 }
 
+/* Solid-color fallback first: background-clip:text clips the gradient fill to
+   each glyph's own outline, which browsers mishandle for scripts whose glyphs
+   extend beyond the normal em-box (Devanagari matras, etc.) - parts of the
+   glyph render with no fill, looking "clipped". The gradient trick is opt-in
+   for English only, via :lang(en) below. */
 .af-hero__copy h1 span {
+  color: var(--af-accent-2);
+}
+
+:lang(en) .af-hero__copy h1 span {
   background: var(--af-accent-gradient);
   -webkit-background-clip: text;
   background-clip: text;
