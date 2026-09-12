@@ -1,6 +1,7 @@
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/useAuth'
 import Logo from '../Logo'
+import ChatWidget from '../chat/ChatWidget'
 import './PlatformLayout.css'
 
 const NAV_ITEMS = [
@@ -130,6 +131,8 @@ function PlatformLayout() {
           <Outlet />
         </main>
       </div>
+
+      <ChatWidget endpoint="/platform/chat" persona="platform" />
     </div>
   )
 }

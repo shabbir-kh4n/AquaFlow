@@ -82,7 +82,7 @@ public class TariffPlanService {
 
     private void validateTiers(List<TariffTierRequest> sorted) {
         if (sorted.get(0).minUnits().compareTo(BigDecimal.ZERO) != 0) {
-            throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY, "The first tier must start at 0 units");
+            throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT, "The first tier must start at 0 units");
         }
 
         for (int i = 0; i < sorted.size(); i++) {
@@ -90,19 +90,19 @@ public class TariffPlanService {
             boolean isLast = i == sorted.size() - 1;
 
             if (!isLast && tier.maxUnits() == null) {
-                throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY,
+                throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT,
                         "Only the last tier may be unbounded (no maximum)");
             }
 
             if (tier.maxUnits() != null && tier.maxUnits().compareTo(tier.minUnits()) <= 0) {
-                throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY,
+                throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT,
                         "Tier maximum must be greater than its minimum");
             }
 
             if (!isLast) {
                 TariffTierRequest next = sorted.get(i + 1);
                 if (tier.maxUnits().compareTo(next.minUnits()) != 0) {
-                    throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY,
+                    throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT,
                             "Tiers must be contiguous: tier " + (i + 1) + "'s maximum must equal tier " + (i + 2) + "'s minimum");
                 }
             }

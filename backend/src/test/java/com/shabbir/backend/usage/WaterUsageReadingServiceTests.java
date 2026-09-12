@@ -125,7 +125,7 @@ class WaterUsageReadingServiceTests {
         assertThatThrownBy(() -> waterUsageReadingService.recordManual(
                 new WaterUsageReadingRequest("MTR-0001", LocalDate.of(2026, 2, 1), new BigDecimal("50.000")), admin))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY);
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
     }
 
     @Test

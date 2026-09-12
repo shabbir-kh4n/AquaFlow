@@ -4,6 +4,7 @@ import { useAuth } from '../../context/useAuth'
 import { listAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
 import { STUB_PAGES } from './adminRoutes'
+import ChatWidget from '../chat/ChatWidget'
 import './AdminLayout.css'
 
 const NAV_ITEMS = [
@@ -203,6 +204,8 @@ function AdminLayout() {
           <Outlet />
         </main>
       </div>
+
+      <ChatWidget endpoint="/admin/chat" persona="admin" />
     </div>
   )
 }

@@ -2,3 +2,6 @@
 # real local credentials. It is loaded automatically because
 # spring.profiles.active defaults to "local" in application.properties.
 spring.datasource.password=your-local-postgres-password
+
+# Gemini API key for the AI chat assistant (free tier). Get one from Google AI Studio.
+gemini.api.key=your-gemini-api-key-here

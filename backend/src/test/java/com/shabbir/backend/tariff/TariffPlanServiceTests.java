@@ -149,7 +149,7 @@ class TariffPlanServiceTests {
 
         assertThatThrownBy(() -> tariffPlanService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY);
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
     }
 
     @Test
@@ -161,7 +161,7 @@ class TariffPlanServiceTests {
 
         assertThatThrownBy(() -> tariffPlanService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT)
                 .hasMessageContaining("contiguous");
     }
 
@@ -174,7 +174,7 @@ class TariffPlanServiceTests {
 
         assertThatThrownBy(() -> tariffPlanService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY);
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
     }
 
     @Test
@@ -186,7 +186,7 @@ class TariffPlanServiceTests {
 
         assertThatThrownBy(() -> tariffPlanService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT)
                 .hasMessageContaining("unbounded");
     }
 

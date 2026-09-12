@@ -33,11 +33,11 @@ public class AlertConfigService {
     public AlertConfigResponse save(Apartment apartment, AlertConfigRequest request) {
         if (request.thresholdAlertsEnabled()
                 && (request.monthlyThresholdKl() == null || request.monthlyThresholdKl().compareTo(BigDecimal.ZERO) <= 0)) {
-            throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY,
+            throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT,
                     "A positive monthly threshold (kL) is required when threshold alerts are enabled");
         }
         if (request.outlierStdDevMultiplier().compareTo(BigDecimal.ZERO) <= 0) {
-            throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY, "Standard deviation multiplier must be positive");
+            throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT, "Standard deviation multiplier must be positive");
         }
 
         AlertConfig config = alertConfigRepository.findByApartment(apartment)

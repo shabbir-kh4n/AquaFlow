@@ -55,7 +55,7 @@ public class WaterUsageReadingService {
                 .findFirstByMeterAndReadingDateBeforeOrderByReadingDateDesc(meter, request.readingDate());
 
         if (previous.isPresent() && request.readingValue().compareTo(previous.get().getReadingValue()) < 0) {
-            throw new ApiException(HttpStatus.UNPROCESSABLE_ENTITY,
+            throw new ApiException(HttpStatus.UNPROCESSABLE_CONTENT,
                     "New reading (" + request.readingValue() + " kL) cannot be lower than the previous recorded reading ("
                             + previous.get().getReadingValue() + " kL) on " + previous.get().getReadingDate());
         }

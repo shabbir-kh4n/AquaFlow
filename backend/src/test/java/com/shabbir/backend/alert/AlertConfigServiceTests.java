@@ -73,7 +73,7 @@ class AlertConfigServiceTests {
 
         assertThatThrownBy(() -> alertConfigService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY);
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
     }
 
     @Test
@@ -82,7 +82,7 @@ class AlertConfigServiceTests {
 
         assertThatThrownBy(() -> alertConfigService.save(apartment, request))
                 .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_ENTITY);
+                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
     }
 
     @Test

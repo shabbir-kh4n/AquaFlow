@@ -11,6 +11,7 @@ import Testimonials from '../components/Testimonials'
 import FAQ from '../components/FAQ'
 import CTA from '../components/CTA'
 import Footer from '../components/Footer'
+import ChatWidget from '../components/chat/ChatWidget'
 
 function Landing() {
   return (
@@ -28,6 +29,7 @@ function Landing() {
       <FAQ />
       <CTA />
       <Footer />
+      <ChatWidget endpoint="/public/chat" persona="landing" />
     </div>
   )
 }

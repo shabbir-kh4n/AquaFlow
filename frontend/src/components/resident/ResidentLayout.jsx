@@ -4,6 +4,7 @@ import { useAuth } from '../../context/useAuth'
 import { getMyAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
 import { Icon } from './Icon'
+import ChatWidget from '../chat/ChatWidget'
 import '../../pages/resident/ResidentHome.css'
 
 const NAV_ITEMS = [
@@ -143,6 +144,8 @@ function ResidentLayout() {
           <Outlet />
         </section>
       </main>
+
+      <ChatWidget endpoint="/resident/chat" persona="resident" />
     </div>
   )
 }
