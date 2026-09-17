@@ -202,6 +202,15 @@
 .af-bills__pdf-link {
   font-size: 12.5px;
   font-weight: 700;
+  color: var(--afr-accent);
+  cursor: pointer;
+}
+
+.af-bills__pdf-link:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+.af-bills__pdf-link:disabled {
   color: var(--afr-text-muted);
   cursor: not-allowed;
 }
@@ -318,6 +327,10 @@
   text-align: center;
   font-size: 14px;
   color: var(--afr-text-muted);
+}
+
+.af-bills__error--inline {
+  margin-top: 4px;
 }
 
 .af-bills__error {

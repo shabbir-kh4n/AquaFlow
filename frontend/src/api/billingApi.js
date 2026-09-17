@@ -31,3 +31,11 @@ export function getMyInvoices() {
 export function payInvoice(invoiceId) {
   return axiosClient.post(`/resident/invoices/${invoiceId}/pay`).then((res) => res.data)
 }
+
+export function downloadMyInvoicePdf(invoiceId) {
+  return axiosClient.get(`/resident/invoices/${invoiceId}/pdf`, { responseType: 'blob' }).then((res) => res.data)
+}
+
+export function downloadInvoicePdfAsAdmin(invoiceId) {
+  return axiosClient.get(`/admin/billing-cycles/invoices/${invoiceId}/pdf`, { responseType: 'blob' }).then((res) => res.data)
+}

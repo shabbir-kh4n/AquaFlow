@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
-import { getMyInvoices, payInvoice } from '../../api/billingApi'
+import { downloadMyInvoicePdf, getMyInvoices, payInvoice } from '../../api/billingApi'
 import { Icon } from '../../components/resident/Icon'
+import { downloadBlob } from '../../utils/downloadFile'
 import RazorpaySimulatorModal from './RazorpaySimulatorModal'
 import './ResidentBilling.css'
 
@@ -13,6 +14,8 @@ function ResidentBilling() {
   const [expandedId, setExpandedId] = useState(null)
   const [page, setPage] = useState(0)
   const [payingInvoice, setPayingInvoice] = useState(null)
+  const [downloadingId, setDownloadingId] = useState(null)
+  const [pdfError, setPdfError] = useState('')
 
   useEffect(() => {
     getMyInvoices()
@@ -36,6 +39,15 @@ function ResidentBilling() {
 
   function toggleExpanded(id) {
     setExpandedId((prev) => (prev === id ? null : id))
+  }
+
+  function handleDownloadPdf(invoice) {
+    setPdfError('')
+    setDownloadingId(invoice.id)
+    downloadMyInvoicePdf(invoice.id)
+      .then((blob) => downloadBlob(blob, `invoice-${invoice.periodMonth}.pdf`))
+      .catch(() => setPdfError('Could not download the PDF. Please try again.'))
+      .finally(() => setDownloadingId(null))
   }
 
   if (loading) {
@@ -100,6 +112,7 @@ function ResidentBilling() {
             Export All to CSV
           </button>
         </div>
+        {pdfError && <div className="af-bills__error af-bills__error--inline">{pdfError}</div>}
         <div className="af-bills__table-wrap">
           <table className="af-bills__table">
             <thead>
@@ -128,9 +141,14 @@ function ResidentBilling() {
                         <button type="button" onClick={() => toggleExpanded(invoice.id)}>
                           {expandedId === invoice.id ? 'Hide Breakdown ↑' : 'Itemized Breakdown ↓'}
                         </button>
-                        <span className="af-bills__pdf-link" title="PDF download isn't available yet">
-                          PDF
-                        </span>
+                        <button
+                          type="button"
+                          className="af-bills__pdf-link"
+                          disabled={downloadingId === invoice.id}
+                          onClick={() => handleDownloadPdf(invoice)}
+                        >
+                          {downloadingId === invoice.id ? 'Downloading…' : 'PDF'}
+                        </button>
                         {!invoice.paid && (
                           <button
                             type="button"

@@ -3,6 +3,8 @@ package com.hydroledger.backend.controller;
 import java.time.YearMonth;
 import java.util.List;
 
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -43,5 +45,15 @@ public class ResidentBillingController {
     public ResponseEntity<InvoiceResponse> payInvoice(@PathVariable Long id,
             @AuthenticationPrincipal ResidentPrincipal principal) {
         return ResponseEntity.ok(billingCycleService.payInvoiceAsResident(principal.getUser(), id));
+    }
+
+    @GetMapping("/invoices/{id}/pdf")
+    public ResponseEntity<byte[]> downloadInvoicePdf(@PathVariable Long id,
+            @AuthenticationPrincipal ResidentPrincipal principal) {
+        byte[] pdf = billingCycleService.generateInvoicePdfForResident(principal.getUser(), id);
+        return ResponseEntity.ok()
+                .contentType(MediaType.APPLICATION_PDF)
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"invoice-" + id + ".pdf\"")
+                .body(pdf);
     }
 }

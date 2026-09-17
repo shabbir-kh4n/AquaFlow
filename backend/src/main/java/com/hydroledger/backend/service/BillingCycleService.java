@@ -52,6 +52,7 @@ public class BillingCycleService {
     private final TariffPlanService tariffPlanService;
     private final CommonAreaConfigService commonAreaConfigService;
     private final EmailService emailService;
+    private final InvoicePdfService invoicePdfService;
 
     @Value("${app.frontend.url}")
     private String frontendUrl;
@@ -246,6 +247,27 @@ public class BillingCycleService {
         invoice.setPaidAt(Instant.now());
 
         return toInvoiceResponse(invoiceRepository.save(invoice));
+    }
+
+    public byte[] generateInvoicePdfForAdmin(Apartment apartment, Long invoiceId) {
+        Invoice invoice = invoiceRepository.findByIdAndBillingCycle_Apartment(invoiceId, apartment)
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Invoice not found"));
+        return invoicePdfService.generate(toInvoiceResponse(invoice), apartment.getName());
+    }
+
+    public byte[] generateInvoicePdfForResident(Resident resident, Long invoiceId) {
+        Household residentHousehold = resident.getHousehold();
+        if (residentHousehold == null) {
+            throw new ApiException(HttpStatus.NOT_FOUND, "Invoice not found");
+        }
+
+        Household household = householdRepository.findWithApartmentById(residentHousehold.getId())
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Household not found"));
+
+        Invoice invoice = invoiceRepository.findByIdAndHousehold(invoiceId, household)
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Invoice not found"));
+
+        return invoicePdfService.generate(toInvoiceResponse(invoice), household.getApartment().getName());
     }
 
     private BillingCycle requireOwnedCycle(Apartment apartment, Long id) {

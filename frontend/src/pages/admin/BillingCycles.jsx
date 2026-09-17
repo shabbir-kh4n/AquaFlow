@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   archiveBillingCycle,
+  downloadInvoicePdfAsAdmin,
   finalizeBillingCycle,
   getBillingCycleDetail,
   listBillingCycles,
   openBillingCycle,
   setInvoicePaymentStatus,
 } from '../../api/billingApi'
+import { downloadBlob } from '../../utils/downloadFile'
 import './BillingCycles.css'
 
 const CYCLES_PAGE_SIZE = 4
@@ -41,6 +43,8 @@ function BillingCycles() {
 
   const [paymentFilter, setPaymentFilter] = useState('all')
   const [paymentBusyId, setPaymentBusyId] = useState(null)
+  const [pdfDownloadingId, setPdfDownloadingId] = useState(null)
+  const [pdfError, setPdfError] = useState('')
   const [detailPage, setDetailPage] = useState(0)
   const [detailPageResetKey, setDetailPageResetKey] = useState('')
   const [cyclesPage, setCyclesPage] = useState(0)
@@ -99,6 +103,18 @@ function BillingCycles() {
       setActionError('Could not update this invoice\'s payment status.')
     } finally {
       setPaymentBusyId(null)
+    }
+  }
+
+  async function handleDownloadPdf(invoice) {
+    setPdfDownloadingId(invoice.id)
+    try {
+      const blob = await downloadInvoicePdfAsAdmin(invoice.id)
+      downloadBlob(blob, `invoice-${invoice.houseNumber}-${detail?.cycle?.periodMonth ?? ''}.pdf`)
+    } catch {
+      setPdfError('Could not download the PDF. Please try again.')
+    } finally {
+      setPdfDownloadingId(null)
     }
   }
 
@@ -300,6 +316,7 @@ function BillingCycles() {
         <section className="af-billing__panel">
           <div className="af-billing__detail-heading">
             <h2>Cycle Detail — {detail?.cycle?.periodMonth || '…'}</h2>
+            {pdfError && <div className="af-form__error">{pdfError}</div>}
             {detail && detail.invoices.length > 0 && (
               <div className="af-billing__payment-filter" role="group" aria-label="Filter by payment status">
                 {['all', 'paid', 'unpaid'].map((option) => (
@@ -337,6 +354,7 @@ function BillingCycles() {
                   <th>Common Area</th>
                   <th>Total</th>
                   <th>Payment Status</th>
+                  <th>PDF</th>
                 </tr>
               </thead>
               <tbody>
@@ -374,6 +392,16 @@ function BillingCycles() {
                         title={invoice.paid ? 'Mark as unpaid' : 'Mark as paid'}
                       >
                         {paymentBusyId === invoice.id ? 'Updating…' : invoice.paid ? 'Paid' : 'Unpaid'}
+                      </button>
+                    </td>
+                    <td>
+                      <button
+                        type="button"
+                        className="af-billing__pdf-btn"
+                        disabled={pdfDownloadingId === invoice.id}
+                        onClick={() => handleDownloadPdf(invoice)}
+                      >
+                        {pdfDownloadingId === invoice.id ? '…' : 'PDF'}
                       </button>
                     </td>
                   </tr>

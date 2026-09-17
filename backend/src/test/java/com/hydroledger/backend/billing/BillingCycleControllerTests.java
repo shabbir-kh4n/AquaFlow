@@ -156,4 +156,32 @@ class BillingCycleControllerTests {
                         .content("{\"paid\":true}"))
                 .andExpect(status().isForbidden());
     }
+
+    @Test
+    void downloadInvoicePdfReturns200WithPdfContentType() throws Exception {
+        when(apartmentService.getOrCreate(any(CommunityAdmin.class))).thenReturn(apartment);
+        when(billingCycleService.generateInvoicePdfForAdmin(apartment, 5L)).thenReturn(new byte[] {1, 2, 3});
+
+        mockMvc.perform(get("/api/admin/billing-cycles/invoices/5/pdf").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isOk())
+                .andExpect(org.springframework.test.web.servlet.result.MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_PDF));
+    }
+
+    @Test
+    void downloadInvoicePdfPropagatesNotFound() throws Exception {
+        when(apartmentService.getOrCreate(any(CommunityAdmin.class))).thenReturn(apartment);
+        when(billingCycleService.generateInvoicePdfForAdmin(apartment, 999L))
+                .thenThrow(new ApiException(HttpStatus.NOT_FOUND, "Invoice not found"));
+
+        mockMvc.perform(get("/api/admin/billing-cycles/invoices/999/pdf").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isNotFound());
+    }
+
+    @Test
+    void downloadInvoicePdfIsForbiddenForResident() throws Exception {
+        Resident resident = Resident.builder().id(2L).fullName("Res").email("res@example.com").build();
+
+        mockMvc.perform(get("/api/admin/billing-cycles/invoices/5/pdf").with(user(new ResidentPrincipal(resident))))
+                .andExpect(status().isForbidden());
+    }
 }

@@ -80,6 +80,9 @@ class BillingCycleServiceTests {
     @Mock
     private EmailService emailService;
 
+    @Mock
+    private com.hydroledger.backend.service.InvoicePdfService invoicePdfService;
+
     @InjectMocks
     private BillingCycleService billingCycleService;
 
@@ -364,6 +367,75 @@ class BillingCycleServiceTests {
         Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(null).build();
 
         assertThatThrownBy(() -> billingCycleService.payInvoiceAsResident(resident, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void generateInvoicePdfForAdminReturnsPdfBytesForOwnedInvoice() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
+                .status(BillingCycleStatus.FINALIZED).build();
+        Invoice invoice = Invoice.builder().id(5L).billingCycle(cycle).household(household)
+                .consumptionUnits(BigDecimal.TEN).totalAmount(new BigDecimal("50.00"))
+                .generatedAt(java.time.Instant.now()).paid(false).build();
+        byte[] pdfBytes = {1, 2, 3};
+
+        when(invoiceRepository.findByIdAndBillingCycle_Apartment(5L, apartment)).thenReturn(Optional.of(invoice));
+        when(invoicePdfService.generate(any(InvoiceResponse.class), eq("Sunrise Towers"))).thenReturn(pdfBytes);
+
+        byte[] result = billingCycleService.generateInvoicePdfForAdmin(apartment, 5L);
+
+        assertThat(result).isEqualTo(pdfBytes);
+    }
+
+    @Test
+    void generateInvoicePdfForAdminThrowsNotFoundForUnownedInvoice() {
+        when(invoiceRepository.findByIdAndBillingCycle_Apartment(5L, apartment)).thenReturn(Optional.empty());
+
+        assertThatThrownBy(() -> billingCycleService.generateInvoicePdfForAdmin(apartment, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void generateInvoicePdfForResidentReturnsPdfBytesForOwnInvoice() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+        BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
+                .status(BillingCycleStatus.FINALIZED).build();
+        Invoice invoice = Invoice.builder().id(5L).billingCycle(cycle).household(household)
+                .consumptionUnits(BigDecimal.TEN).totalAmount(new BigDecimal("50.00"))
+                .generatedAt(java.time.Instant.now()).paid(false).build();
+        byte[] pdfBytes = {1, 2, 3};
+
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(invoiceRepository.findByIdAndHousehold(5L, household)).thenReturn(Optional.of(invoice));
+        when(invoicePdfService.generate(any(InvoiceResponse.class), eq("Sunrise Towers"))).thenReturn(pdfBytes);
+
+        byte[] result = billingCycleService.generateInvoicePdfForResident(resident, 5L);
+
+        assertThat(result).isEqualTo(pdfBytes);
+    }
+
+    @Test
+    void generateInvoicePdfForResidentThrowsNotFoundForSomeoneElsesInvoice() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(invoiceRepository.findByIdAndHousehold(5L, household)).thenReturn(Optional.empty());
+
+        assertThatThrownBy(() -> billingCycleService.generateInvoicePdfForResident(resident, 5L))
+                .isInstanceOf(ApiException.class)
+                .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
+    }
+
+    @Test
+    void generateInvoicePdfForResidentThrowsNotFoundWhenResidentHasNoHousehold() {
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(null).build();
+
+        assertThatThrownBy(() -> billingCycleService.generateInvoicePdfForResident(resident, 5L))
                 .isInstanceOf(ApiException.class)
                 .hasFieldOrPropertyWithValue("status", HttpStatus.NOT_FOUND);
     }
