@@ -1,0 +1,22 @@
+package com.hydroledger.backend.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.hydroledger.backend.entity.Apartment;
+import com.hydroledger.backend.entity.BillingCycle;
+import com.hydroledger.backend.entity.Household;
+import com.hydroledger.backend.entity.Invoice;
+
+public interface InvoiceRepository extends JpaRepository<Invoice, Long> {
+
+    List<Invoice> findByBillingCycle(BillingCycle billingCycle);
+
+    List<Invoice> findByHouseholdOrderByGeneratedAtDesc(Household household);
+
+    Optional<Invoice> findByIdAndBillingCycle_Apartment(Long id, Apartment apartment);
+
+    Optional<Invoice> findByIdAndHousehold(Long id, Household household);
+}

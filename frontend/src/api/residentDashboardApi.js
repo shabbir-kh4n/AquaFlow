@@ -7,3 +7,7 @@ export function getMyDashboard() {
 export function getMyUsageHistory() {
   return axiosClient.get('/resident/usage-history').then((res) => res.data)
 }
+
+export function getMyUsageComparison() {
+  return axiosClient.get('/resident/usage-comparison').then((res) => res.data)
+}

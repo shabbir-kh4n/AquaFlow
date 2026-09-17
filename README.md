@@ -2,7 +2,7 @@
 
 A Smart Water Usage Monitoring & Automated Billing Management platform for apartment communities. Tracks per-household water meter readings, computes tiered-tariff bills, manages billing cycles, and apportions shared common-area costs.
 
-> Recently renamed from AquaFlow — the rename covers the UI, `package.json`, and `pom.xml` only; the Java package (`com.shabbir.backend`), Maven artifactId, and repo folder/remote are unchanged for now.
+> Recently renamed from AquaFlow — the rename covers the UI, `package.json`, `pom.xml`, the Java package (now `com.hydroledger.backend`), and the Maven `artifactId` (now `hydroledger-backend`). The repo folder/git remote are unchanged for now.
 
 ## Stack
 

@@ -5,3 +5,8 @@ spring.datasource.password=your-local-postgres-password
 
 # Gemini API key for the AI chat assistant (free tier). Get one from Google AI Studio.
 gemini.api.key=your-gemini-api-key-here
+
+# Gmail SMTP credentials for outgoing email (set-password links, invoice-ready and alert
+# notifications). Use a Gmail App Password, not your account password.
+MAIL_USERNAME=your-gmail-address@gmail.com
+MAIL_PASSWORD=your-gmail-app-password

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
-import { getMyDashboard, getMyUsageHistory } from '../../api/residentDashboardApi'
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { getMyDashboard, getMyUsageComparison, getMyUsageHistory } from '../../api/residentDashboardApi'
 import './UsageHistory.css'
 
 function monthLabel(ym) {
@@ -28,44 +28,44 @@ const HEATMAP_INTENSITY = [
 
 function UsageHistory() {
   const [readings, setReadings] = useState([])
+  const [comparison, setComparison] = useState([])
   const [houseNumber, setHouseNumber] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
   useEffect(() => {
-    Promise.all([getMyUsageHistory(), getMyDashboard().catch(() => null)])
-      .then(([history, dashboard]) => {
+    Promise.all([getMyUsageHistory(), getMyUsageComparison(), getMyDashboard().catch(() => null)])
+      .then(([history, comparisonData, dashboard]) => {
         setReadings(history)
+        setComparison(comparisonData)
         setHouseNumber(dashboard?.houseNumber ?? null)
       })
       .catch(() => setError('Could not load your usage history. Please try again.'))
       .finally(() => setLoading(false))
   }, [])
 
-  // Group by consumptionMonth, not readingDate: consumption is the delta since the previous
-  // reading, so it belongs to the month the usage actually happened in, which is the month of
-  // the earlier reading — not the (later) month the reading confirming it was recorded in.
+  // The comparison endpoint already groups by consumptionMonth server-side (see WaterUsageReadingService.
+  // getComparisonForResident) — consumption is the delta since the previous reading, so it's attributed to
+  // the month the usage actually happened in, not the (later) month the confirming reading was recorded in.
   const monthlyData = useMemo(() => {
-    const totals = new Map()
-    readings.forEach((r) => {
-      const ym = r.consumptionMonth
-      if (!ym) return
-      totals.set(ym, (totals.get(ym) || 0) + Number(r.consumption || 0))
-    })
-    return Array.from(totals.entries())
-      .sort(([a], [b]) => a.localeCompare(b))
+    return comparison
+      .slice()
+      .sort((a, b) => a.month.localeCompare(b.month))
       .slice(-6)
-      .map(([ym, consumption]) => {
-        const household = Number(consumption.toFixed(2))
-        return {
-          month: monthLabel(ym),
-          household,
-          // Apartment-wide average isn't exposed to residents yet — approximated
-          // for visual comparison until that aggregate exists (see comment above).
-          apartmentAverage: Number((household * 1.12).toFixed(2)),
-        }
-      })
-  }, [readings])
+      .map((point) => ({
+        month: monthLabel(point.month),
+        household: Number(point.household),
+        apartmentAverage: Number(point.apartmentAverage),
+        similarSizedAverage: Number(point.similarSizedAverage),
+      }))
+  }, [comparison])
+
+  // Only show a separate "similar-sized homes" series when it's meaningfully different from the
+  // plain apartment-wide average — otherwise a third near-identical bar just adds visual noise.
+  const showSimilarSizedSeries = useMemo(
+    () => monthlyData.some((point) => Math.abs(point.similarSizedAverage - point.apartmentAverage) > 0.05),
+    [monthlyData]
+  )
 
   const peakLow = useMemo(() => {
     const withConsumption = readings.filter((r) => r.consumption != null)
@@ -116,8 +116,12 @@ function UsageHistory() {
               <XAxis dataKey="month" stroke="var(--afr-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} />
               <YAxis stroke="var(--afr-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} width={40} />
               <Tooltip contentStyle={{ borderRadius: 10, border: '1px solid var(--afr-border)', fontSize: 12 }} />
+              <Legend wrapperStyle={{ fontSize: 12 }} />
               <Bar dataKey="household" name="Your Household" fill="var(--afr-chart-1)" radius={[4, 4, 0, 0]} maxBarSize={28} />
               <Bar dataKey="apartmentAverage" name="Apartment Average" fill="var(--afr-chart-3)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+              {showSimilarSizedSeries && (
+                <Bar dataKey="similarSizedAverage" name="Similar-Sized Homes" fill="var(--afr-chart-4)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+              )}
             </BarChart>
           </ResponsiveContainer>
         </div>
