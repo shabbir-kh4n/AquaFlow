@@ -3,6 +3,7 @@ package com.hydroledger.backend.tariff;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -49,7 +50,13 @@ class TariffPlanServiceTests {
     private com.hydroledger.backend.repository.HouseholdRepository householdRepository;
 
     @Mock
+    private com.hydroledger.backend.repository.ResidentRepository residentRepository;
+
+    @Mock
     private WaterUsageReadingService waterUsageReadingService;
+
+    @Mock
+    private com.hydroledger.backend.service.CommonAreaConfigService commonAreaConfigService;
 
     @InjectMocks
     private TariffPlanService tariffPlanService;
@@ -77,6 +84,7 @@ class TariffPlanServiceTests {
 
         assertThat(response.persisted()).isFalse();
         assertThat(response.tiers()).hasSize(3);
+        assertThat(response.basePricePerUnit()).isEqualByComparingTo(BigDecimal.ZERO);
     }
 
     @Test
@@ -103,7 +111,7 @@ class TariffPlanServiceTests {
             return plan;
         });
 
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
+        TariffPlanRequest request = new TariffPlanRequest(BigDecimal.ZERO, List.of(
                 new TariffTierRequest(new BigDecimal("10"), null, new BigDecimal("8.00")),
                 new TariffTierRequest(BigDecimal.ZERO, new BigDecimal("10"), new BigDecimal("5.00"))
         ));
@@ -129,7 +137,7 @@ class TariffPlanServiceTests {
             return plan;
         });
 
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
+        TariffPlanRequest request = new TariffPlanRequest(BigDecimal.ZERO, List.of(
                 new TariffTierRequest(BigDecimal.ZERO, null, new BigDecimal("7.00"))
         ));
 
@@ -142,19 +150,31 @@ class TariffPlanServiceTests {
     }
 
     @Test
-    void saveRejectsFirstTierNotStartingAtZero() {
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
-                new TariffTierRequest(new BigDecimal("5"), null, new BigDecimal("5.00"))
+    void saveAllowsFirstTierStartingAboveZero() {
+        // Units below the first tier's threshold are covered by the flat base price alone -
+        // tariff slabs no longer have to start at 0.
+        when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
+        when(tariffPlanRepository.save(any(TariffPlan.class))).thenAnswer(inv -> {
+            TariffPlan plan = inv.getArgument(0);
+            plan.setId(1L);
+            plan.setUpdatedAt(java.time.Instant.now());
+            return plan;
+        });
+
+        TariffPlanRequest request = new TariffPlanRequest(new BigDecimal("5.00"), List.of(
+                new TariffTierRequest(new BigDecimal("50"), null, new BigDecimal("10.00"))
         ));
 
-        assertThatThrownBy(() -> tariffPlanService.save(apartment, request))
-                .isInstanceOf(ApiException.class)
-                .hasFieldOrPropertyWithValue("status", HttpStatus.UNPROCESSABLE_CONTENT);
+        TariffPlanResponse response = tariffPlanService.save(apartment, request);
+
+        assertThat(response.basePricePerUnit()).isEqualByComparingTo(new BigDecimal("5.00"));
+        assertThat(response.tiers()).hasSize(1);
+        assertThat(response.tiers().get(0).minUnits()).isEqualByComparingTo(new BigDecimal("50"));
     }
 
     @Test
     void saveRejectsGapBetweenTiers() {
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
+        TariffPlanRequest request = new TariffPlanRequest(BigDecimal.ZERO, List.of(
                 new TariffTierRequest(BigDecimal.ZERO, new BigDecimal("10"), new BigDecimal("5.00")),
                 new TariffTierRequest(new BigDecimal("15"), null, new BigDecimal("8.00"))
         ));
@@ -167,7 +187,7 @@ class TariffPlanServiceTests {
 
     @Test
     void saveRejectsOverlappingTiers() {
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
+        TariffPlanRequest request = new TariffPlanRequest(BigDecimal.ZERO, List.of(
                 new TariffTierRequest(BigDecimal.ZERO, new BigDecimal("10"), new BigDecimal("5.00")),
                 new TariffTierRequest(new BigDecimal("5"), null, new BigDecimal("8.00"))
         ));
@@ -179,7 +199,7 @@ class TariffPlanServiceTests {
 
     @Test
     void saveRejectsMoreThanOneUnboundedTier() {
-        TariffPlanRequest request = new TariffPlanRequest(List.of(
+        TariffPlanRequest request = new TariffPlanRequest(BigDecimal.ZERO, List.of(
                 new TariffTierRequest(BigDecimal.ZERO, null, new BigDecimal("5.00")),
                 new TariffTierRequest(new BigDecimal("10"), null, new BigDecimal("8.00"))
         ));
@@ -228,6 +248,45 @@ class TariffPlanServiceTests {
         assertThat(lines.get(0).unitsInTier()).isEqualByComparingTo(new BigDecimal("10"));
         assertThat(lines.get(1).unitsInTier()).isEqualByComparingTo(new BigDecimal("10"));
         assertThat(lines.get(2).unitsInTier()).isEqualByComparingTo(new BigDecimal("5"));
+    }
+
+    @Test
+    void calculateBreakdownSkipsTiersConsumptionNeverReaches() {
+        // Tiers no longer have to start at 0 - consumption below a tier's minUnits contributes
+        // nothing to that tier (it's covered by the flat base price instead).
+        List<TariffTierResponse> highSlabs = List.of(
+                new TariffTierResponse(1, new BigDecimal("50"), new BigDecimal("60"), new BigDecimal("10.00")),
+                new TariffTierResponse(2, new BigDecimal("60"), new BigDecimal("70"), new BigDecimal("20.00")),
+                new TariffTierResponse(3, new BigDecimal("70"), null, new BigDecimal("30.00"))
+        );
+
+        List<TierChargeLine> lines = tariffPlanService.calculateBreakdown(new BigDecimal("30"), highSlabs);
+
+        assertThat(lines).isEmpty();
+    }
+
+    @Test
+    void calculateBaseAmountAndBreakdownMatchAdminExample() {
+        // Base ₹5/kL on all consumption, plus extra tariff slabs 50-60 @10, 60-70 @20, 70+ @30.
+        // 120 kL total => base 120*5=600; tier1 10@10=100; tier2 10@20=200; tier3 50@30=1500.
+        List<TariffTierResponse> highSlabs = List.of(
+                new TariffTierResponse(1, new BigDecimal("50"), new BigDecimal("60"), new BigDecimal("10.00")),
+                new TariffTierResponse(2, new BigDecimal("60"), new BigDecimal("70"), new BigDecimal("20.00")),
+                new TariffTierResponse(3, new BigDecimal("70"), null, new BigDecimal("30.00"))
+        );
+        BigDecimal consumption = new BigDecimal("120");
+
+        BigDecimal baseAmount = tariffPlanService.calculateBaseAmount(consumption, new BigDecimal("5"));
+        List<TierChargeLine> lines = tariffPlanService.calculateBreakdown(consumption, highSlabs);
+        BigDecimal tariffAmount = tariffPlanService.calculateAmount(consumption, highSlabs);
+
+        assertThat(baseAmount).isEqualByComparingTo(new BigDecimal("600"));
+        assertThat(lines).hasSize(3);
+        assertThat(lines.get(0).amount()).isEqualByComparingTo(new BigDecimal("100.00"));
+        assertThat(lines.get(1).amount()).isEqualByComparingTo(new BigDecimal("200.00"));
+        assertThat(lines.get(2).amount()).isEqualByComparingTo(new BigDecimal("1500.00"));
+        assertThat(tariffAmount).isEqualByComparingTo(new BigDecimal("1800.00"));
+        assertThat(baseAmount.add(tariffAmount)).isEqualByComparingTo(new BigDecimal("2400.00"));
     }
 
     @Test
@@ -292,5 +351,37 @@ class TariffPlanServiceTests {
 
         assertThat(response.periodMonth()).isEqualTo("2026-02");
         assertThat(response.consumptionUnits()).isEqualByComparingTo(new BigDecimal("10"));
+    }
+
+    @Test
+    void estimateForResidentIncludesApportionedCommonAreaChargesInTotal() {
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+        when(householdRepository.findWithApartmentById(1L)).thenReturn(Optional.of(household));
+        when(tariffPlanRepository.findByApartment(apartment)).thenReturn(Optional.empty());
+        when(waterUsageReadingService.listForResident(resident)).thenReturn(List.of(
+                new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 3, 15),
+                        new BigDecimal("105.000"), ReadingSource.MANUAL, new BigDecimal("5"), null, "2026-03")
+        ));
+        when(householdRepository.findByApartmentOrderByHouseNumberAsc(apartment)).thenReturn(List.of(household));
+        when(residentRepository.findByHousehold(household)).thenReturn(Optional.of(resident));
+        when(waterUsageReadingService.listForHousehold(household)).thenReturn(List.of(
+                new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 3, 15),
+                        new BigDecimal("105.000"), ReadingSource.MANUAL, new BigDecimal("5"), null, "2026-03")
+        ));
+        var commonAreaConfig = new com.hydroledger.backend.dto.CommonAreaConfigResponse(
+                1L, com.hydroledger.backend.entity.CommonAreaDistributionMethod.CONSUMPTION, List.of(), true, null);
+        when(commonAreaConfigService.getOrDefault(apartment)).thenReturn(commonAreaConfig);
+        var chargeLine = new com.hydroledger.backend.dto.CommonAreaChargeLine(10L, "Fixed Maintenance", new BigDecimal("50.00"));
+        when(commonAreaConfigService.apportion(eq(commonAreaConfig), any(), any()))
+                .thenReturn(java.util.Map.of(1L, List.of(chargeLine)));
+
+        // 5 units => 5@5 (tier 1) = 25.00 tariff, plus 50.00 apportioned common-area = 75.00 total
+        BillEstimateResponse response = tariffPlanService.estimateForResident(resident, YearMonth.of(2026, 3));
+
+        assertThat(response.tariffAmount()).isEqualByComparingTo(new BigDecimal("25.00"));
+        assertThat(response.commonAreaAmount()).isEqualByComparingTo(new BigDecimal("50.00"));
+        assertThat(response.totalAmount()).isEqualByComparingTo(new BigDecimal("75.00"));
+        assertThat(response.commonAreaCharges()).containsExactly(chargeLine);
     }
 }

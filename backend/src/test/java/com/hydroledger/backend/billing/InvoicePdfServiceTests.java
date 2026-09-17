@@ -20,8 +20,10 @@ class InvoicePdfServiceTests {
     @Test
     void generateProducesNonEmptyPdfBytes() {
         InvoiceResponse invoice = new InvoiceResponse(
-                5L, 1L, "A-101", "Jane Resident", "MTR-0001", "2026-09",
-                new BigDecimal("25"), new BigDecimal("190.00"), new BigDecimal("190.00"), BigDecimal.ZERO,
+                5L, 1L, "A-101", "Jane Resident", "MTR-0001", "ACTIVE", new BigDecimal("1000"), "2026-09",
+                new BigDecimal("25"), new BigDecimal("80"), new BigDecimal("105"),
+                BigDecimal.ZERO, BigDecimal.ZERO,
+                new BigDecimal("190.00"), new BigDecimal("190.00"), BigDecimal.ZERO,
                 Instant.now(), false, null,
                 List.of(new TierChargeLine(1, new BigDecimal("10"), new BigDecimal("5.00"), new BigDecimal("50.00"))),
                 List.of());
@@ -36,8 +38,10 @@ class InvoicePdfServiceTests {
     @Test
     void generateHandlesCommonAreaChargesAndPaidInvoice() {
         InvoiceResponse invoice = new InvoiceResponse(
-                5L, 1L, "A-101", "Jane Resident", "MTR-0001", "2026-09",
-                new BigDecimal("25"), new BigDecimal("290.00"), new BigDecimal("190.00"), new BigDecimal("100.00"),
+                5L, 1L, "A-101", "Jane Resident", "MTR-0001", "ACTIVE", new BigDecimal("1000"), "2026-09",
+                new BigDecimal("25"), new BigDecimal("80"), new BigDecimal("105"),
+                BigDecimal.ZERO, BigDecimal.ZERO,
+                new BigDecimal("290.00"), new BigDecimal("190.00"), new BigDecimal("100.00"),
                 Instant.now(), true, Instant.now(),
                 List.of(new TierChargeLine(1, new BigDecimal("10"), new BigDecimal("5.00"), new BigDecimal("50.00"))),
                 List.of(new CommonAreaChargeLine(1L, "Pool Maintenance", new BigDecimal("100.00"))));
@@ -48,10 +52,28 @@ class InvoicePdfServiceTests {
     }
 
     @Test
+    void generateHandlesBaseChargesLine() {
+        InvoiceResponse invoice = new InvoiceResponse(
+                5L, 1L, "A-101", "Jane Resident", "MTR-0001", "ACTIVE", new BigDecimal("1000"), "2026-09",
+                new BigDecimal("120"), new BigDecimal("0"), new BigDecimal("120"),
+                new BigDecimal("5.00"), new BigDecimal("600.00"),
+                new BigDecimal("2400.00"), new BigDecimal("1800.00"), BigDecimal.ZERO,
+                Instant.now(), false, null,
+                List.of(new TierChargeLine(1, new BigDecimal("10"), new BigDecimal("10.00"), new BigDecimal("100.00"))),
+                List.of());
+
+        byte[] pdf = invoicePdfService.generate(invoice, "Sunrise Towers");
+
+        assertThat(pdf).isNotEmpty();
+    }
+
+    @Test
     void generateHandlesNullOptionalFieldsGracefully() {
         InvoiceResponse invoice = new InvoiceResponse(
-                5L, 1L, null, null, null, "2026-09",
-                new BigDecimal("25"), new BigDecimal("190.00"), new BigDecimal("190.00"), BigDecimal.ZERO,
+                5L, 1L, null, null, null, null, null, "2026-09",
+                new BigDecimal("25"), null, null,
+                BigDecimal.ZERO, BigDecimal.ZERO,
+                new BigDecimal("190.00"), new BigDecimal("190.00"), BigDecimal.ZERO,
                 null, false, null,
                 List.of(), List.of());
 

@@ -71,7 +71,7 @@ class TariffPlanControllerTests {
     void getReturnsDefaultTariffPlan() throws Exception {
         when(apartmentService.getOrCreate(any(CommunityAdmin.class))).thenReturn(apartment);
         when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(null,
-                List.of(new TariffTierResponse(1, BigDecimal.ZERO, null, new BigDecimal("5.00"))), false, null));
+                List.of(new TariffTierResponse(1, BigDecimal.ZERO, null, new BigDecimal("5.00"))), BigDecimal.ZERO, false, null));
 
         mockMvc.perform(get("/api/admin/tariff-plan").with(user(new UserPrincipal(admin))))
                 .andExpect(status().isOk())
@@ -83,12 +83,12 @@ class TariffPlanControllerTests {
     void saveReturns200WithSavedPlan() throws Exception {
         when(apartmentService.getOrCreate(any(CommunityAdmin.class))).thenReturn(apartment);
         when(tariffPlanService.save(any(Apartment.class), any())).thenReturn(new TariffPlanResponse(1L,
-                List.of(new TariffTierResponse(1, BigDecimal.ZERO, null, new BigDecimal("6.00"))), true, null));
+                List.of(new TariffTierResponse(1, BigDecimal.ZERO, null, new BigDecimal("6.00"))), BigDecimal.ZERO, true, null));
 
         mockMvc.perform(put("/api/admin/tariff-plan")
                         .with(user(new UserPrincipal(admin)))
                         .contentType(MediaType.APPLICATION_JSON)
-                        .content("{\"tiers\":[{\"minUnits\":0,\"maxUnits\":null,\"ratePerUnit\":6.00}]}"))
+                        .content("{\"basePricePerUnit\":0,\"tiers\":[{\"minUnits\":0,\"maxUnits\":null,\"ratePerUnit\":6.00}]}"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.persisted").value(true));
     }

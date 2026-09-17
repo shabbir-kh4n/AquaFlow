@@ -365,6 +365,11 @@ function BillingCycles() {
                     <td>{invoice.meterNumber || '—'}</td>
                     <td>{Number(invoice.consumptionUnits).toFixed(1)}</td>
                     <td>
+                      {Number(invoice.baseAmount) > 0 && (
+                        <div className="af-billing__tier-line">
+                          Base: {Number(invoice.consumptionUnits).toFixed(1)} kL × ₹{invoice.basePricePerUnit} = ₹{invoice.baseAmount}
+                        </div>
+                      )}
                       {invoice.lineItems.map((line) => (
                         <div key={line.tierOrder} className="af-billing__tier-line">
                           Tier {line.tierOrder}: {Number(line.unitsInTier).toFixed(1)} kL × ₹{line.ratePerUnit} = ₹{line.amount}

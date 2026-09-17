@@ -8,6 +8,19 @@ const DISTRIBUTION_METHODS = [
   { id: 'FLOOR_AREA', label: 'By Apartment Flat Size (Sqft)' },
 ]
 
+// Controlled <input type="number"> fields can end up displaying a stray leading zero (e.g. "010")
+// after an edit: the browser shows exactly what was typed, but if the parsed number happens to
+// match the previous value, React sees no change and never re-syncs the DOM back to "10". Strip
+// leading zeros from what the user typed (preserving a genuine "0" or a decimal like "0.5") so the
+// input always reflects the canonical text.
+function sanitizeNumberInput(event) {
+  const raw = event.target.value
+  if (/^0+\d/.test(raw)) {
+    event.target.value = raw.replace(/^0+/, '')
+  }
+  return event.target.value
+}
+
 function tierLevelLabel(index, total) {
   if (index === 0) return 'Tier 1 (Base)'
   if (index === total - 1) return `Tier ${index + 1} (Heavy)`
@@ -17,6 +30,8 @@ function tierLevelLabel(index, total) {
 function TariffPlans() {
   const [autoGenerateInvoices, setAutoGenerateInvoices] = useState(true)
 
+  const [basePricePerUnit, setBasePricePerUnit] = useState(0)
+  const [firstTierMin, setFirstTierMin] = useState(0)
   const [tiers, setTiers] = useState([])
   const [persisted, setPersisted] = useState(false)
   const [loading, setLoading] = useState(true)
@@ -107,6 +122,8 @@ function TariffPlans() {
           boundary: tier.maxUnits != null ? Number(tier.maxUnits) : null,
           rate: Number(tier.ratePerUnit),
         })))
+        setFirstTierMin(data.tiers.length > 0 ? Number(data.tiers[0].minUnits) : 0)
+        setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
         setPersisted(data.persisted)
       })
       .catch(() => setSaveError('Could not load the tariff configuration'))
@@ -115,7 +132,7 @@ function TariffPlans() {
 
   const tierRows = tiers.map((tier, index) => ({
     level: tierLevelLabel(index, tiers.length),
-    min: index === 0 ? 0 : tiers[index - 1].boundary,
+    min: index === 0 ? firstTierMin : tiers[index - 1].boundary,
     max: tier.boundary,
     rate: tier.rate,
   }))
@@ -131,12 +148,22 @@ function TariffPlans() {
     setTiers((prev) => prev.map((t, idx) => (idx === index ? { ...t, boundary: Number(value) } : t)))
   }
 
+  function updateFirstTierMin(value) {
+    setSaveSuccess(false)
+    setFirstTierMin(Number(value))
+  }
+
+  function updateBasePricePerUnit(value) {
+    setSaveSuccess(false)
+    setBasePricePerUnit(Number(value))
+  }
+
   function addTier() {
     setSaveSuccess(false)
     setTiers((prev) => {
       if (prev.length === 0) return [{ boundary: null, rate: 0 }]
       const last = prev[prev.length - 1]
-      const previousBoundary = prev.length >= 2 ? prev[prev.length - 2].boundary : 0
+      const previousBoundary = prev.length >= 2 ? prev[prev.length - 2].boundary : firstTierMin
       const newTier = { boundary: (previousBoundary ?? 0) + 10, rate: last.rate }
       return [...prev.slice(0, -1), newTier, last]
     })
@@ -157,15 +184,17 @@ function TariffPlans() {
     setSaveSuccess(false)
     try {
       const payloadTiers = tiers.map((tier, index) => ({
-        minUnits: index === 0 ? 0 : tiers[index - 1].boundary,
+        minUnits: index === 0 ? firstTierMin : tiers[index - 1].boundary,
         maxUnits: tier.boundary,
         ratePerUnit: tier.rate,
       }))
-      const data = await saveTariffPlan(payloadTiers)
+      const data = await saveTariffPlan(basePricePerUnit, payloadTiers)
       setTiers(data.tiers.map((tier) => ({
         boundary: tier.maxUnits != null ? Number(tier.maxUnits) : null,
         rate: Number(tier.ratePerUnit),
       })))
+      setFirstTierMin(data.tiers.length > 0 ? Number(data.tiers[0].minUnits) : 0)
+      setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
       setPersisted(true)
       setSaveSuccess(true)
     } catch (err) {
@@ -199,6 +228,24 @@ function TariffPlans() {
           {!persisted && !loading && (
             <p className="af-tariff__preview-note">Showing default rates — not yet saved.</p>
           )}
+          <div className="af-tariff__base-price">
+            <label>
+              <span>Base Price (₹ / kL, applied to ALL consumption)</span>
+              <input
+                type="number"
+                className="af-tariff__cell-input"
+                min="0"
+                step="0.01"
+                value={basePricePerUnit}
+                onChange={(e) => updateBasePricePerUnit(sanitizeNumberInput(e))}
+              />
+            </label>
+            <p className="af-tariff__axis-note">
+              Every kL is charged this flat rate first. The slabs below add EXTRA charges only for
+              usage that falls within their range — e.g. a slab starting at 50 kL only adds its
+              rate for consumption above 50 kL.
+            </p>
+          </div>
           <div className="af-tariff__table-scroll">
             <table className="af-tariff__table">
               <thead>
@@ -214,7 +261,17 @@ function TariffPlans() {
                   <tr key={tier.level}>
                     <td>{tier.level}</td>
                     <td>
-                      {tier.min}
+                      {index === 0 ? (
+                        <input
+                          type="number"
+                          className="af-tariff__cell-input"
+                          min="0"
+                          value={tier.min}
+                          onChange={(e) => updateFirstTierMin(sanitizeNumberInput(e))}
+                        />
+                      ) : (
+                        tier.min
+                      )}
                       {' - '}
                       {tier.max != null ? (
                         <input
@@ -222,7 +279,7 @@ function TariffPlans() {
                           className="af-tariff__cell-input"
                           min={tier.min + 1}
                           value={tier.max}
-                          onChange={(e) => updateBoundary(index, e.target.value)}
+                          onChange={(e) => updateBoundary(index, sanitizeNumberInput(e))}
                         />
                       ) : (
                         '∞'
@@ -236,7 +293,7 @@ function TariffPlans() {
                         min="0"
                         step="0.01"
                         value={tier.rate}
-                        onChange={(e) => updateRate(index, e.target.value)}
+                        onChange={(e) => updateRate(index, sanitizeNumberInput(e))}
                       />
                     </td>
                     <td>

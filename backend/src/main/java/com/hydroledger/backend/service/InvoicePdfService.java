@@ -2,6 +2,7 @@ package com.hydroledger.backend.service;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
@@ -69,6 +70,18 @@ public class InvoicePdfService {
                 y -= GAP_BEFORE_RULE;
                 y = drawRule(content, y);
                 y -= GAP_AFTER_RULE;
+
+                if (invoice.baseAmount() != null && invoice.baseAmount().compareTo(BigDecimal.ZERO) > 0) {
+                    y = writeLine(content, FONT_BOLD, 12, MARGIN, y, "Base Charges");
+                    y -= 10;
+                    y = writeLine(content, FONT_REGULAR, 10, MARGIN, y,
+                            invoice.consumptionUnits() + " kL x Rs. " + invoice.basePricePerUnit() + " /kL");
+                    y -= 6;
+                    y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Base subtotal: Rs. " + invoice.baseAmount());
+                    y -= GAP_BEFORE_RULE;
+                    y = drawRule(content, y);
+                    y -= GAP_AFTER_RULE;
+                }
 
                 y = writeLine(content, FONT_BOLD, 12, MARGIN, y, "Tariff Charges");
                 y -= 10;

@@ -6,7 +6,7 @@ A Smart Water Usage Monitoring & Automated Billing Management platform for apart
 
 ## Stack
 
-- **Backend**: Spring Boot 4.1.1, Java 21, Spring Security 7.1.1 + JWT, Spring Data JPA, PostgreSQL, Flyway, Apache POI
+- **Backend**: Spring Boot 4.1.1, Java 21, Spring Security 7.1.1 + JWT, Spring Data JPA, PostgreSQL, Flyway, Apache POI, Apache PDFBox
 - **Frontend**: React 19 + Vite 8, React Router, Axios, Recharts
 - **Database**: PostgreSQL (`smart_water`), schema managed via Flyway migrations (`backend/src/main/resources/db/migration/`)
 
@@ -38,7 +38,7 @@ npm run dev
 
 ## Project status
 
-Phase 1 (auth, apartment/household/meter schema, resident & admin dashboards) and Phase 2 (tiered tariff billing engine, billing cycle management, bulk water purchase tracking, shared common-area cost apportionment) are feature-complete. See `STATUS.md` and `ROADMAP.md` (gitignored, local reference docs) for the full detail and next steps.
+Phase 1 (auth, apartment/household/meter schema, resident & admin dashboards) and Phase 2 (tiered tariff billing engine, billing cycle management, bulk water purchase tracking, shared common-area cost apportionment, alert engine) are feature-complete. Phase 3's remaining items — PDF invoice generation, transactional email, and a real household-vs-apartment consumption comparison view — are now done too. See `STATUS.md` and `ROADMAP.md` (gitignored, local reference docs) for the full detail and next steps.
 
 ## Repo layout
 

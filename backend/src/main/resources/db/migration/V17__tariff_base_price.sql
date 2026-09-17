@@ -1,0 +1,4 @@
+ALTER TABLE tariff_plans ADD COLUMN base_price_per_unit NUMERIC(10, 2) NOT NULL DEFAULT 0;
+
+ALTER TABLE invoices ADD COLUMN base_price_per_unit NUMERIC(10, 2) NOT NULL DEFAULT 0;
+ALTER TABLE invoices ADD COLUMN base_amount NUMERIC(12, 2) NOT NULL DEFAULT 0;

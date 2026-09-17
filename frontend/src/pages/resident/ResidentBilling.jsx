@@ -167,6 +167,14 @@ function ResidentBilling() {
                         <div className="af-bills__breakdown">
                           <div>
                             <h4>Household Consumption Breakdown</h4>
+                            {Number(invoice.baseAmount) > 0 && (
+                              <div className="af-bills__breakdown-line">
+                                <span>
+                                  Base Price: {Number(invoice.consumptionUnits).toFixed(1)} kL × ₹{invoice.basePricePerUnit}
+                                </span>
+                                <strong>₹{Number(invoice.baseAmount).toLocaleString('en-IN')}</strong>
+                              </div>
+                            )}
                             {invoice.lineItems.map((line) => (
                               <div key={line.tierOrder} className="af-bills__breakdown-line">
                                 <span>
@@ -177,7 +185,9 @@ function ResidentBilling() {
                             ))}
                             <div className="af-bills__breakdown-subtotal">
                               <span>Subtotal Metered Usage</span>
-                              <strong>₹{Number(invoice.tariffAmount).toLocaleString('en-IN')}</strong>
+                              <strong>
+                                ₹{(Number(invoice.baseAmount) + Number(invoice.tariffAmount)).toLocaleString('en-IN')}
+                              </strong>
                             </div>
                           </div>
                           <div>

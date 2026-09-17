@@ -54,9 +54,23 @@ public class Invoice {
     @Builder.Default
     private BigDecimal tariffAmount = BigDecimal.ZERO;
 
+    @Column(name = "base_price_per_unit", nullable = false, precision = 10, scale = 2)
+    @Builder.Default
+    private BigDecimal basePricePerUnit = BigDecimal.ZERO;
+
+    @Column(name = "base_amount", nullable = false, precision = 12, scale = 2)
+    @Builder.Default
+    private BigDecimal baseAmount = BigDecimal.ZERO;
+
     @Column(name = "common_area_amount", nullable = false, precision = 12, scale = 2)
     @Builder.Default
     private BigDecimal commonAreaAmount = BigDecimal.ZERO;
+
+    @Column(name = "previous_reading_value", precision = 12, scale = 3)
+    private BigDecimal previousReadingValue;
+
+    @Column(name = "current_reading_value", precision = 12, scale = 3)
+    private BigDecimal currentReadingValue;
 
     @Column(name = "generated_at", nullable = false)
     private Instant generatedAt;

@@ -147,7 +147,7 @@ class BillingCycleServiceTests {
         Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
 
         when(billingCycleRepository.findByIdAndApartment(1L, apartment)).thenReturn(Optional.of(cycle));
-        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, true, null));
+        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, BigDecimal.ZERO, true, null));
         when(commonAreaConfigService.getOrDefault(apartment)).thenReturn(NO_COMMON_AREA_CONFIG);
         when(commonAreaConfigService.apportion(eq(NO_COMMON_AREA_CONFIG), any(), any())).thenReturn(java.util.Map.of());
         when(householdRepository.findByApartmentOrderByHouseNumberAsc(apartment)).thenReturn(List.of(household));
@@ -160,6 +160,7 @@ class BillingCycleServiceTests {
         ));
         when(tariffPlanService.calculateBreakdown(any(BigDecimal.class), any()))
                 .thenAnswer(inv -> tariffPlanServiceCalculateBreakdown(inv.getArgument(0)));
+        when(tariffPlanService.calculateBaseAmount(any(BigDecimal.class), any())).thenReturn(BigDecimal.ZERO);
         when(billingCycleRepository.save(any(BillingCycle.class))).thenAnswer(inv -> inv.getArgument(0));
         when(invoiceRepository.findByBillingCycle(cycle)).thenAnswer(inv -> cycle.getInvoices());
 
@@ -174,6 +175,9 @@ class BillingCycleServiceTests {
         assertThat(invoice.commonAreaAmount()).isEqualByComparingTo(BigDecimal.ZERO);
         assertThat(invoice.totalAmount()).isEqualByComparingTo(new BigDecimal("190.00"));
         assertThat(invoice.houseNumber()).isEqualTo("A-101");
+        // Latest reading this month is 115.000; 25 units consumed this month => previous was 90.000.
+        assertThat(invoice.currentReadingValue()).isEqualByComparingTo(new BigDecimal("115.000"));
+        assertThat(invoice.previousReadingValue()).isEqualByComparingTo(new BigDecimal("90.000"));
         verify(emailService).sendInvoiceReadyEmail(eq(resident), eq("2026-09"), eq(new BigDecimal("190.00")), any());
     }
 
@@ -188,7 +192,7 @@ class BillingCycleServiceTests {
                 List.of(new CommonAreaCostItemResponse(1L, "Pool Maintenance", new BigDecimal("100.00"), true)), true, null);
 
         when(billingCycleRepository.findByIdAndApartment(1L, apartment)).thenReturn(Optional.of(cycle));
-        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, true, null));
+        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, BigDecimal.ZERO, true, null));
         when(commonAreaConfigService.getOrDefault(apartment)).thenReturn(commonAreaConfig);
         when(commonAreaConfigService.apportion(eq(commonAreaConfig), any(), any())).thenReturn(java.util.Map.of(
                 1L, List.of(new com.hydroledger.backend.dto.CommonAreaChargeLine(1L, "Pool Maintenance", new BigDecimal("100.00")))));
@@ -200,6 +204,7 @@ class BillingCycleServiceTests {
         ));
         when(tariffPlanService.calculateBreakdown(any(BigDecimal.class), any()))
                 .thenAnswer(inv -> tariffPlanServiceCalculateBreakdown(inv.getArgument(0)));
+        when(tariffPlanService.calculateBaseAmount(any(BigDecimal.class), any())).thenReturn(BigDecimal.ZERO);
         when(billingCycleRepository.save(any(BillingCycle.class))).thenAnswer(inv -> inv.getArgument(0));
         when(invoiceRepository.findByBillingCycle(cycle)).thenAnswer(inv -> cycle.getInvoices());
 
@@ -215,13 +220,48 @@ class BillingCycleServiceTests {
     }
 
     @Test
+    void finalizeAddsFlatBasePriceOnTopOfTariffAndCommonArea() {
+        BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
+                .status(BillingCycleStatus.OPEN).build();
+        Household household = Household.builder().id(1L).apartment(apartment).houseNumber("A-101").build();
+        Resident resident = Resident.builder().id(1L).fullName("Res").email("res@example.com").household(household).build();
+
+        when(billingCycleRepository.findByIdAndApartment(1L, apartment)).thenReturn(Optional.of(cycle));
+        when(tariffPlanService.getOrDefault(apartment))
+                .thenReturn(new TariffPlanResponse(1L, THREE_TIERS, new BigDecimal("5.00"), true, null));
+        when(commonAreaConfigService.getOrDefault(apartment)).thenReturn(NO_COMMON_AREA_CONFIG);
+        when(commonAreaConfigService.apportion(eq(NO_COMMON_AREA_CONFIG), any(), any())).thenReturn(java.util.Map.of());
+        when(householdRepository.findByApartmentOrderByHouseNumberAsc(apartment)).thenReturn(List.of(household));
+        when(residentRepository.findByHousehold(household)).thenReturn(Optional.of(resident));
+        when(waterUsageReadingService.listForHousehold(household)).thenReturn(List.of(
+                new WaterUsageReadingResponse(1L, "MTR-0001", LocalDate.of(2026, 9, 1),
+                        new BigDecimal("100.000"), ReadingSource.MANUAL, new BigDecimal("25"), null, "2026-09")
+        ));
+        when(tariffPlanService.calculateBreakdown(any(BigDecimal.class), any()))
+                .thenAnswer(inv -> tariffPlanServiceCalculateBreakdown(inv.getArgument(0)));
+        when(tariffPlanService.calculateBaseAmount(eq(new BigDecimal("25")), eq(new BigDecimal("5.00"))))
+                .thenReturn(new BigDecimal("125.00"));
+        when(billingCycleRepository.save(any(BillingCycle.class))).thenAnswer(inv -> inv.getArgument(0));
+        when(invoiceRepository.findByBillingCycle(cycle)).thenAnswer(inv -> cycle.getInvoices());
+
+        BillingCycleDetailResponse detail = billingCycleService.finalizeCycle(apartment, 1L);
+
+        InvoiceResponse invoice = detail.invoices().get(0);
+        // 25 units => base 25*5=125.00, tariff 10@5 + 10@8 + 5@12 = 190.00, no common-area => 315.00
+        assertThat(invoice.basePricePerUnit()).isEqualByComparingTo(new BigDecimal("5.00"));
+        assertThat(invoice.baseAmount()).isEqualByComparingTo(new BigDecimal("125.00"));
+        assertThat(invoice.tariffAmount()).isEqualByComparingTo(new BigDecimal("190.00"));
+        assertThat(invoice.totalAmount()).isEqualByComparingTo(new BigDecimal("315.00"));
+    }
+
+    @Test
     void finalizeSkipsHouseholdsWithoutAResident() {
         BillingCycle cycle = BillingCycle.builder().id(1L).apartment(apartment).periodMonth("2026-09")
                 .status(BillingCycleStatus.OPEN).build();
         Household orphanedHousehold = Household.builder().id(2L).apartment(apartment).houseNumber("03").build();
 
         when(billingCycleRepository.findByIdAndApartment(1L, apartment)).thenReturn(Optional.of(cycle));
-        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, true, null));
+        when(tariffPlanService.getOrDefault(apartment)).thenReturn(new TariffPlanResponse(1L, THREE_TIERS, BigDecimal.ZERO, true, null));
         when(commonAreaConfigService.getOrDefault(apartment)).thenReturn(NO_COMMON_AREA_CONFIG);
         when(commonAreaConfigService.apportion(eq(NO_COMMON_AREA_CONFIG), any(), any())).thenReturn(java.util.Map.of());
         when(householdRepository.findByApartmentOrderByHouseNumberAsc(apartment)).thenReturn(List.of(orphanedHousehold));

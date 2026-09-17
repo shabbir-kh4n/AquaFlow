@@ -1,5 +1,6 @@
 package com.hydroledger.backend.entity;
 
+import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +46,12 @@ public class TariffPlan {
     @OrderBy("tierOrder ASC")
     @Builder.Default
     private List<TariffTier> tiers = new ArrayList<>();
+
+    // Flat rate applied to the household's ENTIRE consumption every month, on top of (not instead
+    // of) whatever the tariff tiers below add for usage that falls into their slabs.
+    @Column(name = "base_price_per_unit", nullable = false, precision = 10, scale = 2)
+    @Builder.Default
+    private BigDecimal basePricePerUnit = BigDecimal.ZERO;
 
     @Column(nullable = false, updatable = false)
     private Instant createdAt;

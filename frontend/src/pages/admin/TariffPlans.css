@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  align-items: start;
   margin-bottom: 20px;
 }
 
@@ -18,7 +17,7 @@
 .af-tariff__panel--tiers {
   display: flex;
   flex-direction: column;
-  height: 360px;
+  height: 395px;
 }
 
 .af-tariff__panel h2 {
@@ -30,7 +29,7 @@
 
 .af-tariff__bars {
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: space-around;
   gap: 16px;
   flex: 1;
@@ -72,6 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   gap: 6px;
   flex: 1;
   min-width: 64px;
@@ -82,7 +82,8 @@
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  height: 140px;
+  flex: 1;
+  min-height: 0;
 }
 
 .af-tariff__bar {
@@ -186,6 +187,33 @@
   font-size: 13px;
 }
 
+.af-tariff__base-price {
+  margin: 4px 0 16px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--af-glass-border);
+  background: var(--af-bg-gradient);
+}
+
+.af-tariff__base-price label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--af-text-dark);
+}
+
+.af-tariff__base-price .af-tariff__cell-input {
+  width: 90px;
+}
+
+.af-tariff__base-price .af-tariff__axis-note {
+  text-align: left;
+  margin-top: 6px;
+}
+
 .af-tariff__tier-actions {
   display: flex;
   align-items: center;
@@ -212,6 +240,30 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  /* Exactly 2 rows tall (2 * 48px row height + 1 * 10px gap), then scroll - the outer panel's
+     height must stay constant as cost items are added/removed, or the sibling Cost Distribution
+     panel (stretched to match via grid) grows/shrinks along with it. */
+  max-height: 106px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--af-glass-border) transparent;
+}
+
+.af-tariff__cost-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.af-tariff__cost-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.af-tariff__cost-list::-webkit-scrollbar-thumb {
+  background-color: var(--af-glass-border);
+  border-radius: 10px;
+}
+
+.af-tariff__cost-list:hover::-webkit-scrollbar-thumb {
+  background-color: var(--af-accent-2);
 }
 
 .af-tariff__cost-list li {
@@ -219,11 +271,14 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 12px 14px;
+  min-height: 48px;
+  box-sizing: border-box;
+  padding: 6px 14px;
   border-radius: 10px;
   background: var(--af-bg-gradient);
   font-size: 13px;
   color: var(--af-text-body);
+  flex-shrink: 0;
 }
 
 .af-tariff__cost-list strong {

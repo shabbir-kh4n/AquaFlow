@@ -4,8 +4,8 @@ export function getTariffPlan() {
   return axiosClient.get('/admin/tariff-plan').then((res) => res.data)
 }
 
-export function saveTariffPlan(tiers) {
-  return axiosClient.put('/admin/tariff-plan', { tiers }).then((res) => res.data)
+export function saveTariffPlan(basePricePerUnit, tiers) {
+  return axiosClient.put('/admin/tariff-plan', { basePricePerUnit, tiers }).then((res) => res.data)
 }
 
 export function getBillEstimate() {

@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -99,7 +100,7 @@ public class BillingCycleService {
         CommonAreaConfigResponse commonAreaConfig = commonAreaConfigService.getOrDefault(apartment);
         String monthPrefix = cycle.getPeriodMonth();
 
-        record Billable(Household household, BigDecimal consumption) {
+        record Billable(Household household, BigDecimal consumption, BigDecimal previousReadingValue, BigDecimal currentReadingValue) {
         }
 
         List<Billable> billableHouseholds = new ArrayList<>();
@@ -112,12 +113,25 @@ public class BillingCycleService {
                 continue;
             }
 
-            BigDecimal consumption = waterUsageReadingService.listForHousehold(household).stream()
+            List<WaterUsageReadingResponse> monthReadings = waterUsageReadingService.listForHousehold(household).stream()
                     .filter(reading -> monthPrefix.equals(reading.consumptionMonth()))
+                    .toList();
+
+            BigDecimal consumption = monthReadings.stream()
                     .map(WaterUsageReadingResponse::consumption)
                     .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-            billableHouseholds.add(new Billable(household, consumption));
+            // The invoice PDF shows "previous reading -> current reading" like a physical utility
+            // bill: the current reading is the latest meter value recorded this month, and since
+            // consumption is a telescoping sum of deltas, the previous reading is simply that value
+            // minus the month's total consumption - no separate baseline lookup needed.
+            BigDecimal currentReadingValue = monthReadings.stream()
+                    .max(java.util.Comparator.comparing(WaterUsageReadingResponse::readingDate))
+                    .map(WaterUsageReadingResponse::readingValue)
+                    .orElse(null);
+            BigDecimal previousReadingValue = currentReadingValue != null ? currentReadingValue.subtract(consumption) : null;
+
+            billableHouseholds.add(new Billable(household, consumption, previousReadingValue, currentReadingValue));
         }
 
         // Common-area apportionment needs every billable household's consumption/floor-area totals
@@ -136,6 +150,7 @@ public class BillingCycleService {
             Household household = billable.household();
             BigDecimal consumption = billable.consumption();
 
+            BigDecimal baseAmount = tariffPlanService.calculateBaseAmount(consumption, plan.basePricePerUnit());
             List<TierChargeLine> breakdown = tariffPlanService.calculateBreakdown(consumption, plan.tiers());
             BigDecimal tariffTotal = breakdown.stream().map(TierChargeLine::amount).reduce(BigDecimal.ZERO, BigDecimal::add);
 
@@ -146,9 +161,13 @@ public class BillingCycleService {
                     .billingCycle(cycle)
                     .household(household)
                     .consumptionUnits(consumption)
+                    .previousReadingValue(billable.previousReadingValue())
+                    .currentReadingValue(billable.currentReadingValue())
+                    .basePricePerUnit(plan.basePricePerUnit())
+                    .baseAmount(baseAmount)
                     .tariffAmount(tariffTotal)
                     .commonAreaAmount(commonAreaTotal)
-                    .totalAmount(tariffTotal.add(commonAreaTotal))
+                    .totalAmount(baseAmount.add(tariffTotal).add(commonAreaTotal))
                     .generatedAt(Instant.now())
                     .build();
 
@@ -305,9 +324,9 @@ public class BillingCycleService {
         String residentName = residentRepository.findByHousehold(household)
                 .map(Resident::getFullName)
                 .orElse(null);
-        String meterNumber = waterMeterRepository.findByHousehold(household)
-                .map(WaterMeter::getMeterNumber)
-                .orElse(null);
+        Optional<WaterMeter> meter = waterMeterRepository.findByHousehold(household);
+        String meterNumber = meter.map(WaterMeter::getMeterNumber).orElse(null);
+        String meterStatus = meter.map(m -> m.getStatus().name()).orElse(null);
 
         return new InvoiceResponse(
                 invoice.getId(),
@@ -315,8 +334,14 @@ public class BillingCycleService {
                 household.getHouseNumber(),
                 residentName,
                 meterNumber,
+                meterStatus,
+                household.getFlatSizeSqft(),
                 invoice.getBillingCycle().getPeriodMonth(),
                 invoice.getConsumptionUnits(),
+                invoice.getPreviousReadingValue(),
+                invoice.getCurrentReadingValue(),
+                invoice.getBasePricePerUnit(),
+                invoice.getBaseAmount(),
                 invoice.getTotalAmount(),
                 invoice.getTariffAmount(),
                 invoice.getCommonAreaAmount(),

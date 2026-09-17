@@ -128,7 +128,9 @@ function ResidentHome() {
           <p>Current Estimated Bill</p>
           <strong>{billEstimate ? `₹${Number(billEstimate.totalAmount).toLocaleString('en-IN')}` : '--'}</strong>
           <span className="af-resident__muted">
-            {billEstimate ? `Based on ${yearMonthLabel(billEstimate.periodMonth)}'s metered consumption` : 'Based on this month’s metered consumption'}
+            {billEstimate
+              ? `Metered usage + shared charges, ${yearMonthLabel(billEstimate.periodMonth)}`
+              : 'Based on this month’s metered consumption and shared charges'}
           </span>
         </article>
         <article className="af-resident__stat">

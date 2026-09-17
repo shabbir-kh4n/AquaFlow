@@ -134,8 +134,9 @@ class BillingCycleControllerTests {
     void setInvoicePaidReturns200WithUpdatedInvoice() throws Exception {
         when(apartmentService.getOrCreate(any(CommunityAdmin.class))).thenReturn(apartment);
         when(billingCycleService.setInvoicePaid(eq(apartment), eq(5L), eq(true))).thenReturn(
-                new InvoiceResponse(5L, 1L, "A-101", "Jane Resident", "MTR-0001", "2026-09",
-                        new BigDecimal("10"), new BigDecimal("50.00"), new BigDecimal("50.00"), BigDecimal.ZERO,
+                new InvoiceResponse(5L, 1L, "A-101", "Jane Resident", "MTR-0001", "ACTIVE", null, "2026-09",
+                        new BigDecimal("10"), null, null, BigDecimal.ZERO, BigDecimal.ZERO,
+                        new BigDecimal("50.00"), new BigDecimal("50.00"), BigDecimal.ZERO,
                         null, true, null, List.of(), List.of()));
 
         mockMvc.perform(put("/api/admin/billing-cycles/invoices/5/payment-status")

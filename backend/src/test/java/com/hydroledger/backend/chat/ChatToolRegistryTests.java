@@ -172,7 +172,7 @@ class ChatToolRegistryTests {
     @Test
     void getBillEstimateDefaultsToCurrentMonthAndIgnoresUnrelatedArgs() {
         when(tariffPlanService.estimateForResident(eq(resident), any()))
-                .thenReturn(new BillEstimateResponse("2026-09", null, null, null));
+                .thenReturn(new BillEstimateResponse("2026-09", null, null, null, null, null, null, null, null));
 
         ChatTool tool = chatToolRegistry.toolsFor(ChatPersona.RESIDENT, resident).get("get_bill_estimate");
         tool.execute(Map.of());
@@ -183,7 +183,7 @@ class ChatToolRegistryTests {
     @Test
     void getBillEstimateHonoursAnExplicitMonthArgument() {
         when(tariffPlanService.estimateForResident(eq(resident), any()))
-                .thenReturn(new BillEstimateResponse("2026-01", null, null, null));
+                .thenReturn(new BillEstimateResponse("2026-01", null, null, null, null, null, null, null, null));
 
         ChatTool tool = chatToolRegistry.toolsFor(ChatPersona.RESIDENT, resident).get("get_bill_estimate");
         tool.execute(Map.of("yearMonth", "2026-01"));
