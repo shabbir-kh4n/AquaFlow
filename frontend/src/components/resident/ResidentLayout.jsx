@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { label: 'Dashboard', icon: 'grid', to: '/resident/home' },
   { label: 'Usage History', icon: 'drop', to: '/resident/usage-history' },
   { label: 'My Bills', icon: 'bill', to: '/resident/billing' },
+  { label: 'Recommendations', icon: 'bulb', to: '/resident/recommendations' },
   { label: 'Reports', icon: 'chart' },
   { label: 'Support / Concerns', icon: 'help' },
   { label: 'Notifications', icon: 'bell', to: '/resident/notifications' },
@@ -31,6 +32,10 @@ const PAGE_META = {
   '/resident/notifications': {
     eyebrow: 'Alerts',
     title: 'Notifications',
+  },
+  '/resident/recommendations': {
+    eyebrow: 'Personalized for you',
+    title: 'Recommendations',
   },
 }
 

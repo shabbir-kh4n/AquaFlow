@@ -4,12 +4,15 @@ import java.math.BigDecimal;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.io.ByteArrayResource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
 import com.hydroledger.backend.entity.Resident;
 
+import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
 
 @Service
@@ -35,19 +38,38 @@ public class EmailService {
         send(message, resident.getEmail(), "set-password");
     }
 
-    public void sendInvoiceReadyEmail(Resident resident, String periodMonth, BigDecimal totalAmount, String link) {
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setTo(resident.getEmail());
-        message.setSubject("Your HydroLedger bill for " + periodMonth + " is ready");
-        message.setText(
+    public void sendInvoiceReadyEmail(Resident resident, String periodMonth, BigDecimal totalAmount, String link,
+            byte[] invoicePdf) {
+        String text =
                 "Hi " + resident.getFullName() + ",\n\n"
                         + "Your water bill for " + periodMonth + " has been generated: ₹" + totalAmount + ".\n\n"
-                        + "View the full itemized breakdown here:\n\n"
+                        + "The itemized invoice is attached as a PDF, or view it online here:\n\n"
                         + link + "\n\n"
-                        + "If you have questions about this bill, contact your community admin."
-        );
+                        + "If you have questions about this bill, contact your community admin.";
 
-        send(message, resident.getEmail(), "invoice-ready");
+        if (invoicePdf == null || invoicePdf.length == 0) {
+            // Defensive fallback only - PDF generation isn't expected to fail independently of the
+            // invoice data that's already in hand at this point, but never let a rendering issue
+            // suppress the "your bill is ready" notification entirely.
+            SimpleMailMessage message = new SimpleMailMessage();
+            message.setTo(resident.getEmail());
+            message.setSubject("Your HydroLedger bill for " + periodMonth + " is ready");
+            message.setText(text);
+            send(message, resident.getEmail(), "invoice-ready");
+            return;
+        }
+
+        try {
+            MimeMessage mimeMessage = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+            helper.setTo(resident.getEmail());
+            helper.setSubject("Your HydroLedger bill for " + periodMonth + " is ready");
+            helper.setText(text);
+            helper.addAttachment("invoice-" + periodMonth + ".pdf", new ByteArrayResource(invoicePdf));
+            mailSender.send(mimeMessage);
+        } catch (Exception ex) {
+            log.error("Failed to send invoice-ready email to {}", resident.getEmail(), ex);
+        }
     }
 
     public void sendAlertEmail(Resident resident, String alertTypeLabel, String message, String link) {

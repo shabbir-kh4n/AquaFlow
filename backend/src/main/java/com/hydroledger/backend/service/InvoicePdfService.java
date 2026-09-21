@@ -3,6 +3,7 @@ package com.hydroledger.backend.service;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
@@ -75,9 +76,9 @@ public class InvoicePdfService {
                     y = writeLine(content, FONT_BOLD, 12, MARGIN, y, "Base Charges");
                     y -= 10;
                     y = writeLine(content, FONT_REGULAR, 10, MARGIN, y,
-                            invoice.consumptionUnits() + " kL x Rs. " + invoice.basePricePerUnit() + " /kL");
+                            invoice.consumptionUnits() + " kL x Rs. " + formatCurrency(invoice.basePricePerUnit()) + " /kL");
                     y -= 6;
-                    y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Base subtotal: Rs. " + invoice.baseAmount());
+                    y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Base subtotal: Rs. " + formatCurrency(invoice.baseAmount()));
                     y -= GAP_BEFORE_RULE;
                     y = drawRule(content, y);
                     y -= GAP_AFTER_RULE;
@@ -93,11 +94,11 @@ public class InvoicePdfService {
                     y = writeTableRow(content, y,
                             "Tier " + line.tierOrder(),
                             String.valueOf(line.unitsInTier()),
-                            "Rs. " + line.ratePerUnit(),
-                            "Rs. " + line.amount());
+                            "Rs. " + formatCurrency(line.ratePerUnit()),
+                            "Rs. " + formatCurrency(line.amount()));
                 }
                 y -= 6;
-                y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Tariff subtotal: Rs. " + invoice.tariffAmount());
+                y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Tariff subtotal: Rs. " + formatCurrency(invoice.tariffAmount()));
                 y -= GAP_BEFORE_RULE;
                 y = drawRule(content, y);
                 y -= GAP_AFTER_RULE;
@@ -110,16 +111,17 @@ public class InvoicePdfService {
                     y = drawRule(content, y);
                     y -= GAP_AFTER_RULE;
                     for (CommonAreaChargeLine line : invoice.commonAreaCharges()) {
-                        y = writeTableRow(content, y, line.label(), "", "", "Rs. " + line.amount());
+                        y = writeTableRow(content, y, line.label(), "", "", "Rs. " + formatCurrency(line.amount()));
                     }
                     y -= 6;
-                    y = writeLine(content, FONT_BOLD, 11, MARGIN, y, "Common area subtotal: Rs. " + invoice.commonAreaAmount());
+                    y = writeLine(content, FONT_BOLD, 11, MARGIN, y,
+                            "Common area subtotal: Rs. " + formatCurrency(invoice.commonAreaAmount()));
                     y -= GAP_BEFORE_RULE;
                     y = drawRule(content, y);
                     y -= GAP_AFTER_RULE;
                 }
 
-                writeLine(content, FONT_BOLD, 15, MARGIN, y, "Total: Rs. " + invoice.totalAmount());
+                writeLine(content, FONT_BOLD, 15, MARGIN, y, "Total: Rs. " + formatCurrency(invoice.totalAmount()));
 
                 drawSignatureStamp(content, invoice, apartmentName);
             }
@@ -204,6 +206,16 @@ public class InvoicePdfService {
 
     private String nullToDash(String value) {
         return value != null ? value : "-";
+    }
+
+    // Currency fields (basePricePerUnit x consumptionUnits, tier amounts, totals, ...) can carry
+    // more than 2 decimal places after multiplication - always render money at 2dp regardless of
+    // the underlying BigDecimal's scale.
+    private String formatCurrency(BigDecimal amount) {
+        if (amount == null) {
+            return "0.00";
+        }
+        return amount.setScale(2, RoundingMode.HALF_UP).toPlainString();
     }
 
     private float writeLine(PDPageContentStream content, PDFont font, float fontSize, float x, float y, String text) throws IOException {

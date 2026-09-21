@@ -83,6 +83,9 @@ class BillingCycleServiceTests {
     @Mock
     private com.hydroledger.backend.service.InvoicePdfService invoicePdfService;
 
+    @Mock
+    private com.hydroledger.backend.service.ResidentRecommendationService residentRecommendationService;
+
     @InjectMocks
     private BillingCycleService billingCycleService;
 
@@ -178,7 +181,8 @@ class BillingCycleServiceTests {
         // Latest reading this month is 115.000; 25 units consumed this month => previous was 90.000.
         assertThat(invoice.currentReadingValue()).isEqualByComparingTo(new BigDecimal("115.000"));
         assertThat(invoice.previousReadingValue()).isEqualByComparingTo(new BigDecimal("90.000"));
-        verify(emailService).sendInvoiceReadyEmail(eq(resident), eq("2026-09"), eq(new BigDecimal("190.00")), any());
+        verify(emailService).sendInvoiceReadyEmail(eq(resident), eq("2026-09"), eq(new BigDecimal("190.00")), any(), any());
+        verify(residentRecommendationService).generateForResidentAsync(resident, "2026-09");
     }
 
     @Test

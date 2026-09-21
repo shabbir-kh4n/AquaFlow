@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Cell, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { getMyDashboard, getMyUsageHistory } from '../../api/residentDashboardApi'
 import { getBillEstimate } from '../../api/tariffApi'
 import { getMyInvoices } from '../../api/billingApi'
+import { getRecommendations } from '../../api/recommendationApi'
 import { Icon } from '../../components/resident/Icon'
 import { useAuth } from '../../context/useAuth'
 
@@ -14,12 +16,6 @@ const USAGE_BREAKDOWN = [
   { name: 'Kitchen', value: 35, color: 'var(--afr-chart-2)' },
   { name: 'Garden / Balcony', value: 15, color: 'var(--afr-chart-3)' },
   { name: 'Other / Laundry', value: 5, color: 'var(--afr-chart-5)' },
-]
-
-const SAVING_TIPS = [
-  { icon: 'drop', text: 'Fix aerators in kitchen taps. Aerated faucets save up to 40% water flow.' },
-  { icon: 'chart', text: 'Adjust balcony sprinkler timers. Watering at 7 AM minimizes evaporation.' },
-  { icon: 'bulb', text: 'High usage detected in Bathroom at 3 AM. Check for a silent flush tank leak.' },
 ]
 
 function monthLabel(date) {
@@ -37,6 +33,7 @@ function ResidentHome() {
   const [readings, setReadings] = useState([])
   const [billEstimate, setBillEstimate] = useState(null)
   const [latestInvoice, setLatestInvoice] = useState(null)
+  const [tips, setTips] = useState([])
 
   useEffect(() => {
     getMyDashboard()
@@ -58,6 +55,11 @@ function ResidentHome() {
       .then((invoices) => setLatestInvoice(invoices[0] || null))
       .catch(() => {
         // No finalized invoices yet — the billing cycle panel falls back to the live estimate.
+      })
+    getRecommendations()
+      .then((data) => setTips((data.tips || []).slice(0, 3)))
+      .catch(() => {
+        // No recommendations generated yet — the tips panel just shows its empty state.
       })
   }, [])
 
@@ -240,16 +242,27 @@ function ResidentHome() {
         </section>
 
         <section className="af-resident__panel">
-          <p className="af-resident__eyebrow">Tips</p>
-          <h3>Smart Saving Tips</h3>
-          <ul className="af-resident__tips">
-            {SAVING_TIPS.map((tip) => (
-              <li key={tip.text}>
-                <span className="af-resident__tip-icon"><Icon name={tip.icon} /></span>
-                <span>{tip.text}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="af-resident__panel-heading">
+            <div>
+              <p className="af-resident__eyebrow">Tips</p>
+              <h3>Smart Saving Tips</h3>
+            </div>
+            <Link to="/resident/recommendations" className="af-resident__status">View all</Link>
+          </div>
+          {tips.length > 0 ? (
+            <ul className="af-resident__tips">
+              {tips.map((tip) => (
+                <li key={tip}>
+                  <span className="af-resident__tip-icon"><Icon name="bulb" /></span>
+                  <span>{tip}</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="af-resident__muted">
+              Personalized tips appear here after your community finalizes a billing cycle.
+            </p>
+          )}
         </section>
       </div>
 

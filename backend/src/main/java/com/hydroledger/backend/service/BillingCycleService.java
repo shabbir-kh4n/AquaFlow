@@ -54,6 +54,7 @@ public class BillingCycleService {
     private final CommonAreaConfigService commonAreaConfigService;
     private final EmailService emailService;
     private final InvoicePdfService invoicePdfService;
+    private final ResidentRecommendationService residentRecommendationService;
 
     @Value("${app.frontend.url}")
     private String frontendUrl;
@@ -195,7 +196,11 @@ public class BillingCycleService {
 
             residentRepository.findByHousehold(household).ifPresent(resident -> {
                 String link = frontendUrl + "/resident/billing";
-                emailService.sendInvoiceReadyEmail(resident, cycle.getPeriodMonth(), invoice.getTotalAmount(), link);
+                byte[] invoicePdf = invoicePdfService.generate(toInvoiceResponse(invoice), apartment.getName());
+                emailService.sendInvoiceReadyEmail(resident, cycle.getPeriodMonth(), invoice.getTotalAmount(), link, invoicePdf);
+                // Fire-and-forget: recommendation generation must never block finalize (a live
+                // per-household Gemini call here previously stalled the whole request).
+                residentRecommendationService.generateForResidentAsync(resident, cycle.getPeriodMonth());
             });
         }
 
