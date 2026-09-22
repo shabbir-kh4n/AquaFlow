@@ -55,6 +55,7 @@ public class BillingCycleService {
     private final EmailService emailService;
     private final InvoicePdfService invoicePdfService;
     private final ResidentRecommendationService residentRecommendationService;
+    private final PushNotificationService pushNotificationService;
 
     @Value("${app.frontend.url}")
     private String frontendUrl;
@@ -198,6 +199,7 @@ public class BillingCycleService {
                 String link = frontendUrl + "/resident/billing";
                 byte[] invoicePdf = invoicePdfService.generate(toInvoiceResponse(invoice), apartment.getName());
                 emailService.sendInvoiceReadyEmail(resident, cycle.getPeriodMonth(), invoice.getTotalAmount(), link, invoicePdf);
+                pushNotificationService.sendInvoiceReadyPush(resident, cycle.getPeriodMonth(), invoice.getTotalAmount(), link);
                 // Fire-and-forget: recommendation generation must never block finalize (a live
                 // per-household Gemini call here previously stalled the whole request).
                 residentRecommendationService.generateForResidentAsync(resident, cycle.getPeriodMonth());

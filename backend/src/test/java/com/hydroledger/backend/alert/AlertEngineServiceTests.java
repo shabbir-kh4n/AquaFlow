@@ -68,6 +68,9 @@ class AlertEngineServiceTests {
     @Mock
     private EmailService emailService;
 
+    @Mock
+    private com.hydroledger.backend.service.PushNotificationService pushNotificationService;
+
     @InjectMocks
     private AlertEngineService alertEngineService;
 
@@ -139,6 +142,7 @@ class AlertEngineServiceTests {
         assertThat(saved.getReferenceValue()).isEqualByComparingTo("10");
         // A brand-new alert (no prior row at all) is a genuine transition into ACTIVE -> notify.
         verify(emailService).sendAlertEmail(eq(resident), any(), any(), any());
+        verify(pushNotificationService).sendNewAlertPush(eq(resident), any(), any(), any());
     }
 
     @Test
@@ -163,6 +167,7 @@ class AlertEngineServiceTests {
         assertThat(existing.getStatus()).isEqualTo(AlertStatus.ACTIVE);
         // Still crossing on a re-run of an already-ACTIVE alert must not re-notify the resident.
         verify(emailService, never()).sendAlertEmail(any(), any(), any(), any());
+        verify(pushNotificationService, never()).sendNewAlertPush(any(), any(), any(), any());
     }
 
     @Test
@@ -187,6 +192,7 @@ class AlertEngineServiceTests {
         assertThat(resolved.getStatus()).isEqualTo(AlertStatus.ACTIVE);
         // Coming back from RESOLVED is a genuine transition into ACTIVE -> notify again.
         verify(emailService).sendAlertEmail(eq(resident), any(), any(), any());
+        verify(pushNotificationService).sendNewAlertPush(eq(resident), any(), any(), any());
     }
 
     @Test

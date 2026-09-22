@@ -86,6 +86,9 @@ class BillingCycleServiceTests {
     @Mock
     private com.hydroledger.backend.service.ResidentRecommendationService residentRecommendationService;
 
+    @Mock
+    private com.hydroledger.backend.service.PushNotificationService pushNotificationService;
+
     @InjectMocks
     private BillingCycleService billingCycleService;
 
@@ -182,6 +185,7 @@ class BillingCycleServiceTests {
         assertThat(invoice.currentReadingValue()).isEqualByComparingTo(new BigDecimal("115.000"));
         assertThat(invoice.previousReadingValue()).isEqualByComparingTo(new BigDecimal("90.000"));
         verify(emailService).sendInvoiceReadyEmail(eq(resident), eq("2026-09"), eq(new BigDecimal("190.00")), any(), any());
+        verify(pushNotificationService).sendInvoiceReadyPush(eq(resident), eq("2026-09"), eq(new BigDecimal("190.00")), any());
         verify(residentRecommendationService).generateForResidentAsync(resident, "2026-09");
     }
 

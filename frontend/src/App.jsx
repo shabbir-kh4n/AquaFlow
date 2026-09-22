@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import { AuthModalProvider } from './context/AuthModalContext'
 import AuthModal from './components/AuthModal'
+import InstallPrompt from './components/InstallPrompt'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import AdminLayout from './components/admin/AdminLayout'
 import { STUB_PAGES } from './components/admin/adminRoutes'
@@ -36,6 +37,7 @@ function App() {
       <AuthModalProvider>
         <BrowserRouter>
           <AuthModal />
+          <InstallPrompt />
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/set-password/:token" element={<SetPassword />} />

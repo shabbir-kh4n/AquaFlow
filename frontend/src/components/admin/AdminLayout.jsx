@@ -71,6 +71,8 @@ const ICONS = {
   search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,
   chevronDown: <path d="M6 9l6 6 6-6" />,
+  menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+  close: <path d="M6 6l12 12M18 6L6 18" />,
 }
 
 function Icon({ name }) {
@@ -86,12 +88,29 @@ function AdminLayout() {
   const navigate = useNavigate()
   const location = useLocation()
   const [activeAlertCount, setActiveAlertCount] = useState(0)
+  const [navOpen, setNavOpen] = useState(false)
+  const [lastPathname, setLastPathname] = useState(location.pathname)
 
   useEffect(() => {
     listAlerts('ACTIVE')
       .then((alerts) => setActiveAlertCount(alerts.length))
       .catch(() => setActiveAlertCount(0))
   }, [])
+
+  // Collapse the mobile drawer whenever the route changes so it never stays open over a new
+  // page. Adjusted during render rather than in a useEffect, per this project's
+  // react-hooks/set-state-in-effect rule.
+  if (location.pathname !== lastPathname) {
+    setLastPathname(location.pathname)
+    setNavOpen(false)
+  }
+
+  useEffect(() => {
+    document.body.style.overflow = navOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [navOpen])
 
   function handleLogout() {
     logout()
@@ -123,10 +142,22 @@ function AdminLayout() {
 
   return (
     <div className="af-admin">
-      <aside className="af-admin__sidebar">
+      {navOpen && (
+        <div className="af-admin__backdrop" onClick={() => setNavOpen(false)} aria-hidden="true" />
+      )}
+
+      <aside className={`af-admin__sidebar${navOpen ? ' af-admin__sidebar--open' : ''}`}>
         <div className="af-admin__brand">
           <Logo size={32} />
           HydroLedger
+          <button
+            type="button"
+            className="af-admin__nav-close"
+            aria-label="Close menu"
+            onClick={() => setNavOpen(false)}
+          >
+            <Icon name="close" />
+          </button>
         </div>
 
         <nav className="af-admin__nav">
@@ -171,9 +202,19 @@ function AdminLayout() {
 
       <div className="af-admin__main">
         <header className="af-admin__topbar">
-          <div>
-            <h1>{title}</h1>
-            {subtitle && <p>{subtitle}</p>}
+          <div className="af-admin__topbar-start">
+            <button
+              type="button"
+              className="af-admin__hamburger"
+              aria-label="Open menu"
+              onClick={() => setNavOpen(true)}
+            >
+              <Icon name="menu" />
+            </button>
+            <div>
+              <h1>{title}</h1>
+              {subtitle && <p>{subtitle}</p>}
+            </div>
           </div>
 
           <div className="af-admin__account">

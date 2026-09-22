@@ -33,6 +33,7 @@ import com.hydroledger.backend.repository.CommonAreaConfigRepository;
 import com.hydroledger.backend.repository.CommunityAdminRepository;
 import com.hydroledger.backend.repository.HouseholdRepository;
 import com.hydroledger.backend.repository.PasswordSetupTokenRepository;
+import com.hydroledger.backend.repository.PushSubscriptionRepository;
 import com.hydroledger.backend.repository.ResidentRepository;
 import com.hydroledger.backend.repository.TariffPlanRepository;
 import com.hydroledger.backend.repository.WaterMeterRepository;
@@ -58,6 +59,7 @@ public class SystemAdminService {
     private final BulkWaterPurchaseRepository bulkWaterPurchaseRepository;
     private final BillingCycleRepository billingCycleRepository;
     private final AlertConfigRepository alertConfigRepository;
+    private final PushSubscriptionRepository pushSubscriptionRepository;
     private final DataSource dataSource;
 
     @Value("${app.version}")
@@ -141,6 +143,7 @@ public class SystemAdminService {
         billingCycleRepository.deleteAll(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment));
 
         residents.forEach(passwordSetupTokenRepository::deleteByResident);
+        residents.forEach(pushSubscriptionRepository::deleteByResident);
         residentRepository.deleteAll(residents);
         waterMeterRepository.deleteAll(meters);
         householdRepository.deleteAll(households);

@@ -14,7 +14,7 @@ function Navbar() {
       <div className="af-navbar__inner">
         <Link to="/" className="af-navbar__brand">
           <Logo size={30} />
-          HydroLedger
+          <span>HydroLedger</span>
         </Link>
 
         <nav className="af-navbar__links">

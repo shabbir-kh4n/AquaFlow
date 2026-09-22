@@ -1,0 +1,76 @@
+.af-install-prompt {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: calc(100vw - 32px);
+  padding: 14px 18px;
+  border-radius: var(--af-radius-md);
+  background: var(--af-dark-gradient);
+  color: #ffffff;
+  box-shadow: var(--af-shadow-accent);
+  font-family: var(--af-font-body);
+}
+
+.af-install-prompt__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13px;
+}
+
+.af-install-prompt__text strong {
+  font-size: 14px;
+}
+
+.af-install-prompt__actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.af-install-prompt__dismiss,
+.af-install-prompt__install {
+  border: none;
+  border-radius: var(--af-radius-sm);
+  padding: 8px 14px;
+  font-family: var(--af-font-body);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.af-install-prompt__dismiss {
+  background: transparent;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.af-install-prompt__dismiss:hover {
+  opacity: 1;
+}
+
+.af-install-prompt__install {
+  background: var(--af-accent-2);
+  color: #ffffff;
+}
+
+.af-install-prompt__install:hover {
+  filter: brightness(1.08);
+}
+
+@media (max-width: 480px) {
+  .af-install-prompt {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .af-install-prompt__actions {
+    justify-content: flex-end;
+  }
+}

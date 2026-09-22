@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../context/useAuth'
 import Logo from '../Logo'
@@ -34,6 +35,8 @@ const ICONS = {
   pulse: <path d="M3 12h4l2-7 4 14 2-7h6" />,
   search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,
+  menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+  close: <path d="M6 6l12 12M18 6L6 18" />,
 }
 
 function Icon({ name }) {
@@ -48,6 +51,23 @@ function PlatformLayout() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  const [navOpen, setNavOpen] = useState(false)
+  const [lastPathname, setLastPathname] = useState(location.pathname)
+
+  // Collapse the mobile drawer whenever the route changes so it never stays open over a new
+  // page. Adjusted during render rather than in a useEffect, per this project's
+  // react-hooks/set-state-in-effect rule.
+  if (location.pathname !== lastPathname) {
+    setLastPathname(location.pathname)
+    setNavOpen(false)
+  }
+
+  useEffect(() => {
+    document.body.style.overflow = navOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [navOpen])
 
   function handleLogout() {
     logout()
@@ -73,10 +93,22 @@ function PlatformLayout() {
 
   return (
     <div className="af-platform">
-      <aside className="af-platform__sidebar">
+      {navOpen && (
+        <div className="af-platform__backdrop" onClick={() => setNavOpen(false)} aria-hidden="true" />
+      )}
+
+      <aside className={`af-platform__sidebar${navOpen ? ' af-platform__sidebar--open' : ''}`}>
         <div className="af-platform__brand">
           <Logo size={32} />
           HydroLedger
+          <button
+            type="button"
+            className="af-platform__nav-close"
+            aria-label="Close menu"
+            onClick={() => setNavOpen(false)}
+          >
+            <Icon name="close" />
+          </button>
         </div>
 
         <nav className="af-platform__nav">
@@ -108,9 +140,19 @@ function PlatformLayout() {
 
       <div className="af-platform__main">
         <header className="af-platform__topbar">
-          <div>
-            <h1>{title}</h1>
-            {subtitle && <p>{subtitle}</p>}
+          <div className="af-platform__topbar-start">
+            <button
+              type="button"
+              className="af-platform__hamburger"
+              aria-label="Open menu"
+              onClick={() => setNavOpen(true)}
+            >
+              <Icon name="menu" />
+            </button>
+            <div>
+              <h1>{title}</h1>
+              {subtitle && <p>{subtitle}</p>}
+            </div>
           </div>
 
           <div className="af-platform__account">

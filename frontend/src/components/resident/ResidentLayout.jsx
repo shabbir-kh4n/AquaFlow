@@ -44,12 +44,29 @@ function ResidentLayout() {
   const navigate = useNavigate()
   const location = useLocation()
   const [activeAlertCount, setActiveAlertCount] = useState(0)
+  const [navOpen, setNavOpen] = useState(false)
+  const [lastPathname, setLastPathname] = useState(location.pathname)
 
   useEffect(() => {
     getMyAlerts()
       .then((alerts) => setActiveAlertCount(alerts.filter((alert) => alert.status === 'ACTIVE').length))
       .catch(() => setActiveAlertCount(0))
   }, [])
+
+  // Collapse the mobile drawer whenever the route changes (navigating via the sidebar,
+  // browser back/forward, etc.) so it never stays open over a new page. Adjusted during
+  // render rather than in a useEffect, per this project's react-hooks/set-state-in-effect rule.
+  if (location.pathname !== lastPathname) {
+    setLastPathname(location.pathname)
+    setNavOpen(false)
+  }
+
+  useEffect(() => {
+    document.body.style.overflow = navOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [navOpen])
 
   function handleLogout() {
     logout()
@@ -67,10 +84,26 @@ function ResidentLayout() {
 
   return (
     <div className="af-resident">
-      <aside className="af-resident__sidebar">
+      {navOpen && (
+        <div
+          className="af-resident__backdrop"
+          onClick={() => setNavOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
+      <aside className={`af-resident__sidebar${navOpen ? ' af-resident__sidebar--open' : ''}`}>
         <div className="af-resident__brand">
           <Logo size={32} />
           <span>HydroLedger</span>
+          <button
+            type="button"
+            className="af-resident__nav-close"
+            aria-label="Close menu"
+            onClick={() => setNavOpen(false)}
+          >
+            <Icon name="close" />
+          </button>
         </div>
 
         <nav className="af-resident__nav" aria-label="Resident navigation">
@@ -119,7 +152,17 @@ function ResidentLayout() {
 
       <main className="af-resident__main">
         <header className="af-resident__topbar">
-          <h1>{title}</h1>
+          <div className="af-resident__topbar-start">
+            <button
+              type="button"
+              className="af-resident__hamburger"
+              aria-label="Open menu"
+              onClick={() => setNavOpen(true)}
+            >
+              <Icon name="menu" />
+            </button>
+            <h1>{title}</h1>
+          </div>
 
           <div className="af-resident__topbar-actions">
             <label className="af-resident__search">

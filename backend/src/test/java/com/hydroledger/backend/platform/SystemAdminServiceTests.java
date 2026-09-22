@@ -39,6 +39,7 @@ import com.hydroledger.backend.repository.CommonAreaConfigRepository;
 import com.hydroledger.backend.repository.CommunityAdminRepository;
 import com.hydroledger.backend.repository.HouseholdRepository;
 import com.hydroledger.backend.repository.PasswordSetupTokenRepository;
+import com.hydroledger.backend.repository.PushSubscriptionRepository;
 import com.hydroledger.backend.repository.ResidentRepository;
 import com.hydroledger.backend.repository.TariffPlanRepository;
 import com.hydroledger.backend.repository.WaterMeterRepository;
@@ -68,6 +69,9 @@ class SystemAdminServiceTests {
 
     @Mock
     private PasswordSetupTokenRepository passwordSetupTokenRepository;
+
+    @Mock
+    private PushSubscriptionRepository pushSubscriptionRepository;
 
     @Mock
     private TariffPlanRepository tariffPlanRepository;
@@ -174,12 +178,15 @@ class SystemAdminServiceTests {
         systemAdminService.deleteCommunityAdmin(1L);
 
         InOrder inOrder = Mockito.inOrder(waterUsageReadingRepository, billingCycleRepository,
-                passwordSetupTokenRepository, residentRepository, waterMeterRepository, householdRepository,
-                apartmentRepository, communityAdminRepository);
+                passwordSetupTokenRepository, pushSubscriptionRepository, residentRepository, waterMeterRepository,
+                householdRepository, apartmentRepository, communityAdminRepository);
 
         inOrder.verify(waterUsageReadingRepository).deleteByMeterIn(List.of(meter));
         inOrder.verify(billingCycleRepository).deleteAll(List.of());
         inOrder.verify(passwordSetupTokenRepository).deleteByResident(resident);
+        // Push subscriptions have an FK to residents (no ON DELETE CASCADE) - must be deleted
+        // before the resident row itself, same as password-setup tokens above.
+        inOrder.verify(pushSubscriptionRepository).deleteByResident(resident);
         inOrder.verify(residentRepository).deleteAll(List.of(resident));
         inOrder.verify(waterMeterRepository).deleteAll(List.of(meter));
         inOrder.verify(householdRepository).deleteAll(List.of(household));

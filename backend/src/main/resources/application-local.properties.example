@@ -10,3 +10,11 @@ gemini.api.key=your-gemini-api-key-here
 # notifications). Use a Gmail App Password, not your account password.
 MAIL_USERNAME=your-gmail-address@gmail.com
 MAIL_PASSWORD=your-gmail-app-password
+
+# VAPID keypair for web push notifications (invoice-ready + new-alert pushes to residents
+# who've opted in). Generate one with `npx web-push generate-vapid-keys`, or the
+# GenerateVapidKeys CLI class bundled in nl.martijndwars:web-push. Leave unset to disable
+# push sending entirely (it no-ops without breaking anything else).
+#VAPID_PUBLIC_KEY=
+#VAPID_PRIVATE_KEY=
+#VAPID_SUBJECT=mailto:admin@hydroledger.local

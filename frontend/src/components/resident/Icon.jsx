@@ -12,6 +12,8 @@ const ICONS = {
   chevronDown: <path d="M6 9l6 6 6-6" />,
   award: <path d="M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM8.5 13.5 7 22l5-2.5L17 22l-1.5-8.5" />,
   bulb: <path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.5.4.8 1 .8 1.7v.5h5.6v-.5c0-.7.3-1.3.8-1.7A6 6 0 0 0 12 3Z" />,
+  menu: <path d="M4 6h16M4 12h16M4 18h16" />,
+  close: <path d="M6 6l12 12M18 6L6 18" />,
 }
 
 export function Icon({ name }) {

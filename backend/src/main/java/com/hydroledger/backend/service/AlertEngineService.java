@@ -56,6 +56,7 @@ public class AlertEngineService {
     private final AlertConfigService alertConfigService;
     private final AlertRepository alertRepository;
     private final EmailService emailService;
+    private final PushNotificationService pushNotificationService;
 
     @Value("${app.frontend.url}")
     private String frontendUrl;
@@ -204,6 +205,7 @@ public class AlertEngineService {
                 residentRepository.findByHousehold(household).ifPresent(resident -> {
                     String link = frontendUrl + "/resident/notifications";
                     emailService.sendAlertEmail(resident, alertTypeLabel(type), message, link);
+                    pushNotificationService.sendNewAlertPush(resident, alertTypeLabel(type), message, link);
                 });
             }
 
