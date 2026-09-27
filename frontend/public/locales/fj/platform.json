@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Yavala",
+    "blocked": "Tarova",
+    "terminated": "Sa vakaoti"
+  },
+  "sort": {
+    "sortBy": "Vakarautaka ena",
+    "toggleDirection": "Veisautaka na veidusimaki",
+    "asc": "↑ Asc",
+    "desc": "↓ iVakamacala"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Taumada",
+    "next": "Tarava →",
+    "page": "Tabana {{page}} ni {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Railesuva na ituvatuva",
+    "subtitle": "Na admin ni veivanua kece sara e rejisita, ena taucoko ni HydroLedger ituvatuva.",
+    "viewAll": "Raica na veivanua kecega",
+    "loadError": "E sega ni rawa ni vakavodoki na itukutuku ni ituvatuva ena gauna oqo.",
+    "cards": {
+      "totalCommunities": "iWiliwili ni Veivanua",
+      "registeredAdmins": "Admins rejisita",
+      "totalResidents": "iWiliwili ni Lewenivanua",
+      "acrossAllCommunities": "Ena veivanua kecega",
+      "active": "Yavala",
+      "inGoodStanding": "Ena ituvaki vinaka",
+      "blockedTerminated": "Sa tarovi / Vakaoti",
+      "blockedTerminatedBreakdown": "{{blocked}} blocked, {{terminated}} terminated"
+    },
+    "recent": {
+      "title": "Na veivanua e se qai rejisita walega oqo",
+      "loading": "Vakavodoki tiko...",
+      "empty": "E se bera ni rejisita na veivanua.",
+      "table": {
+        "community": "Itikotiko",
+        "admin": "Dauniveiliutaki",
+        "status": "ITuvatuva",
+        "residents": "Lewenivanua"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "E sega ni rawa ni vakavodoki na veivanua. Kerekere mo tovolea tale.",
+    "searchPlaceholder": "Vakasavasavataka ena itikotiko, yaca ni admin, se imeli",
+    "statusFilter": {
+      "label": "ITuvatuva",
+      "all": "Kece"
+    },
+    "sortOptions": {
+      "community": "Itikotiko",
+      "admin": "Dauniveiliutaki",
+      "residents": "Lewenivanua"
+    },
+    "loading": "Vakavodoki na veivanua...",
+    "empty": "E se bera ni rejisita na veivanua.",
+    "noMatch": "E sega ni dua na itikotiko e veiganiti kei na nomu filita.",
+    "table": {
+      "community": "Itikotiko",
+      "admin": "Dauniveiliutaki",
+      "email": "Imeli",
+      "status": "ITuvatuva",
+      "residents": "Lewenivanua",
+      "view": "Rai"
+    }
+  },
+  "communityDetail": {
+    "loadError": "E sega ni rawa ni vakavodoki na itikotiko oqo. E rairai sa kau tani.",
+    "statusUpdateError": "E sega ni rawa ni vakavoutaki na ituvaki ni itikotiko oqo.",
+    "deleteError": "E sega ni rawa ni bokoci na itikotiko oqo.",
+    "loading": "Vakavodoki tiko na itikotiko...",
+    "notFound": "Sega ni kunei na veivanua.",
+    "backLink": "← Lesu tale ki na veivanua",
+    "backLinkShort": "Lesu tale ki na veivanua",
+    "eyebrow": "iTukutuku ni Vanua",
+    "unnamed": "Vanua sega ni vakayacani",
+    "noAddress": "Sega na itikotiko ena faile",
+    "stats": {
+      "residents": "Lewenivanua",
+      "status": "ITuvatuva"
+    },
+    "actions": {
+      "reactivate": "Vakayacora tale",
+      "block": "IWalewale",
+      "terminate": "Vakaoti",
+      "delete": "Bokoca na veivanua"
+    },
+    "blockDialog": {
+      "title": "Tarova na iliuliu ni itikotiko oqo?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "IWalewale"
+    },
+    "terminateDialog": {
+      "title": "Vakaotia na admin ni itikotiko oqo?",
+      "message": "Vakaoti vakadua na {{name}} ni curu? E sega ni rawa ni vakasukai oqo, e dina ga ni na maroroi na itukutuku ni nodra itikotiko me baleta na itukutuku.",
+      "confirm": "Vakaoti"
+    },
+    "deleteDialog": {
+      "title": "Bokoca na itikotiko oqo?",
+      "message": "Oqo ena bokoca vakadua <strong>{{name}}</strong> kei na kena veivale kece, lewenivanua, mita, ituvatuva ni isau/bili, kei na itukutuku ni inivoisi. Na cakacaka oqo e sega ni rawa ni vakasukai.",
+      "typeToConfirm": "Taipa <strong>{{word}}</strong> me tomani tikoga",
+      "confirm": "Vakadeitaka"
+    },
+    "residents": {
+      "title": "Lewenivanua",
+      "registeredCount": "Rejisitataki: {{count}}",
+      "empty": "E se bera ni dua na lewenivanua e rejisita ena itikotiko oqo.",
+      "table": {
+        "flatUnit": "Iunite ni Flat",
+        "meter": "Mita",
+        "resident": "Vakaitikotiko",
+        "email": "Imeli",
+        "passwordSet": "Seti ni vosanicuru"
+      },
+      "yes": "Io",
+      "no": "Sega"
+    },
+    "cancel": "Biuta laivi",
+    "working": "Cakacaka tiko…",
+    "deleting": "Bokoca..."
+  },
+  "systemStatus": {
+    "statusError": "E sega ni rawa ni yaco ki na backend me raica na ituvaki ni ivakarau.",
+    "metricsError": "E sega ni rawa ni vakavodoki na itukutuku ni metrics.",
+    "ranges": {
+      "fiveMinutes": "5 na miniti",
+      "fifteenMinutes": "15 na miniti",
+      "hour": "Auwa",
+      "day": "Siga",
+      "week": "Macawa",
+      "month": "Vula",
+      "threeMonths": "3 Vula"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Kerekere/sekodi",
+      "opsPerSec": "Ops/sekodi",
+      "latency": "Vakadede",
+      "lastValue": "{{value}} last",
+      "loading": "Vakavodoki tiko...",
+      "empty": "E se bera ni volai na metrics me baleta na ilawalawa oqo."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API ni muri",
+      "checking": "Vakadikeva tiko...",
+      "reachable": "Rawa ni rawati",
+      "unreachable": "Sega ni rawati",
+      "connected": "Semati",
+      "backendApiHint": "Na draunipepa oqo e vakavodoki mai na backend, sa qai sauma mai.",
+      "database": "iTukutuku",
+      "databaseHint": "Veisemati ni PostgreSQL, vakadikeva na bula.",
+      "uptime": "Gauna ni cakacaka e muri",
+      "uptimeHint": "Me tekivu mai na iotioti ni kerekere ni tekivu tale.",
+      "appVersion": "iVakadewa ni App",
+      "appVersionHint": "Vakadewa ni tara ni muri."
+    },
+    "mini": {
+      "latency": "Vakadede",
+      "readsLatency": "Wilika na gauna",
+      "writesLatency": "Vola na vakadede",
+      "otherLatency": "Eso tale na vakadede",
+      "connections": "Veisemati",
+      "totalKeys": "Ki Taucoko"
+    },
+    "note": "Na kerekere/sekodi kei na latency e vakatovotovotaki mai na bula ni backend ni veitaratara ena vei 15 na sekodi ka maroroi me yacova na 100 na siga. Oqo e dua na yavu ni veitaratara + vakadidike ni gaunisala — e sega ni sosomitaka na taucoko ni kerekere ni cakacaka ni vakaraitaki, aggregation ni itukutuku, se veivakaroti."
+  },
+  "reports": {
+    "loadError": "E sega ni rawa ni vakavodoki na ripote ni ituvatuva.",
+    "ranges": {
+      "threeMonths": "3 Vula",
+      "sixMonths": "6 Vula",
+      "twelveMonths": "12 na Vula",
+      "custom": "Ivakarau"
+    },
+    "sortOptions": {
+      "community": "Itikotiko",
+      "usage": "Vakayagataki",
+      "billed": "Bili",
+      "residents": "Lewenivanua"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "Me",
+      "hint": "Digitaka ruarua e dua na \"mai\" kei na \"ki\" vula me vakavodoki kina e dua na ripote vakaitaukei."
+    },
+    "loading": "Ripote ni vakavodoki...",
+    "cards": {
+      "totalCommunities": "iWiliwili ni Veivanua",
+      "inThisRange": "Ena iwasewase oqo",
+      "totalResidents": "iWiliwili ni Lewenivanua",
+      "acrossAllCommunities": "Ena veivanua kecega",
+      "overallUsage": "Vakayagataki Raraba",
+      "meteredConsumption": "Vakayagataki ni mita",
+      "overallBilled": "Saumi Taucoko",
+      "finalizedInvoicesOnly": "Na ivoli sa oti ga",
+      "avgUsagePerResident": "Avg Vakayagataki / Lewenivanua",
+      "avgBillPerResident": "Avg Bili / Lewenivanua"
+    },
+    "charts": {
+      "usageTitle": "Vakayagataki raraba ni ituvatuva (kL / vula)",
+      "usageEmpty": "E sega ni dua na vakayagataki e volai me baleta na ilawalawa oqo.",
+      "usageSeries": "Vakayagataki",
+      "billedTitle": "Na ilavo e saumi ena ituvatuva raraba (₹ / vula)",
+      "billedEmpty": "E sega ni dua na ivoli e vakaoti me baleta na ilawalawa oqo.",
+      "billedSeries": "Saumi"
+    },
+    "searchPlaceholder": "Vakasavasavataka na yaca ni itikotiko se admin",
+    "empty": "E sega ni dua na itikotiko e tiko kina na itukutuku ni vakayagataki se bili me baleta na ilawalawa oqo se bera.",
+    "noMatch": "E sega ni dua na itikotiko e veiganiti kei na nomu filita.",
+    "table": {
+      "community": "Itikotiko",
+      "admin": "Dauniveiliutaki",
+      "residents": "Lewenivanua",
+      "usage": "Usage (kL)",
+      "billed": "Sausaumi (₹)",
+      "avgUsagePerResident": "Avg Vakayagataki / Lewenivanua",
+      "avgBillPerResident": "Avg Bili / Lewenivanua"
+    }
+  },
+  "supportTickets": {
+    "title": "Tikite ni veitokoni",
+    "subtitle": "Veitokoni tikite kei na kauwai era vakatura na lewenivanua kei na admins ni itikotiko, ituvatuva-rabailevu."
+  }
+}

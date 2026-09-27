@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Laadimine…",
+    "saving": "Salvestamine…",
+    "saved": "Salvestatud.",
+    "uploading": "Üleslaadimine…",
+    "upload": "Laadi üles",
+    "uploadError": "Seda faili ei saanud üles laadida. Palun proovi uuesti.",
+    "cancel": "Tühista",
+    "close": "Sule",
+    "edit": "Muuda",
+    "remove": "Eemalda",
+    "saveChanges": "Salvesta muudatused",
+    "bulkSummary": "Töödeldud <b>{{total}}</b> rida — <b>{{success}}</b> õnnestus, <b>{{failure}}</b> ebaõnnestus.",
+    "rowFailure": "Rida {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Kuvatakse {{from}}–{{to}} / {{total}}",
+    "prev": "← Eelmine",
+    "next": "Järgmine →",
+    "page": "Lehekülg {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Teie kogukonna andmeid ei saanud praegu laadida.",
+    "title": "{{community}} Korteri armatuurlaud",
+    "titleFallback": "Teie korteri juhtpaneel",
+    "subtitle": "Veevärgi alammõõtmise ja kodutarbimise toimiv kokkuvõte.",
+    "comingSoon": "Varsti tulemas",
+    "manageCommunity": "Halda kogukonda",
+    "noUsageReadings": "Kasutusnäitu pole veel salvestatud.",
+    "cards": {
+      "totalHouseholds": "Leibkonnad kokku",
+      "occupied": "Hõivatud",
+      "activeMeters": "Aktiivsed mõõturid",
+      "reportingReadings": "Näitude teatamine",
+      "monthlyConsumption": "Igakuine tarbimine",
+      "thisCalendarMonth": "See kalendrikuu",
+      "latestRecordedMonth": "Viimane salvestatud kuu ({{month}})",
+      "noReadingsYet": "Näiteid pole veel salvestatud",
+      "pendingAlerts": "Ootel hoiatused",
+      "anomalyPreview": "Anomaaliate tuvastamise eelvaade – pole veel saadaval"
+    },
+    "actions": {
+      "label": "Kiired haldustoimingud",
+      "uploadReadings": "Laadige üles arvesti näidud",
+      "configureTariffs": "Tariifide seadistamine",
+      "reportsNotBuilt": "Aruanded pole veel koostatud",
+      "downloadReports": "Laadige alla süsteemiaruanded"
+    },
+    "chart": {
+      "title": "Igakuine tarbimise võrdlus (kL)",
+      "subtitle": "Viimased {{months}} kuud: eesmärk vs tegelik tarbimine.",
+      "targetSeries": "Siht (eelvaade)",
+      "actualSeries": "Tegelik"
+    },
+    "recent": {
+      "title": "Viimased arvesti näidud",
+      "unit": "Üksus",
+      "resident": "Resident",
+      "lastReading": "Viimane lugemine",
+      "consumption": "Tarbimine"
+    }
+  },
+  "households": {
+    "loadError": "Elanikke ei saanud laadida. Palun proovi uuesti.",
+    "fixFields": "Parandage esiletõstetud väljad.",
+    "saveError": "Seda elanikku ei õnnestunud päästa. Palun kontrollige üksikasju.",
+    "confirmRemove": "Kas eemaldada {{name}} oma leibkondade kataloogist?",
+    "removeError": "Seda elanikku ei saanud eemaldada. Palun proovi uuesti.",
+    "count": "Leibkonnad: {{total}}",
+    "bulkUploadButton": "⇪ Hulgiüleslaadimine",
+    "addResidentButton": "+ Lisa elanik",
+    "searchPlaceholder": "Filtreerige nime, maja, e-posti või arvesti numbri järgi.",
+    "loading": "Elanike laadimine…",
+    "empty": "Elanikke veel pole. Esimese leibkonna registreerimiseks klõpsake \"Lisa elanik\".",
+    "noMatch": "Ükski elanik ei vasta \"{{search}}\".",
+    "sort": {
+      "label": "Sorteeri",
+      "name": "Nimi",
+      "houseNumber": "Maja number",
+      "dateOfJoining": "Liitumise kuupäev",
+      "toggleDirection": "Lülita sortimissuunda",
+      "asc": "↑ Asc",
+      "desc": "↓ Kirjeldus"
+    },
+    "gender": {
+      "male": "Mees",
+      "female": "Naine",
+      "other": "muud"
+    },
+    "table": {
+      "name": "Nimi",
+      "houseUnit": "Maja / üksus",
+      "email": "Meil",
+      "phone": "Telefon",
+      "meterNumber": "Arvesti nr.",
+      "sqft": "ruutjalga",
+      "joined": "Liitunud"
+    },
+    "form": {
+      "addTitle": "Lisa elanik",
+      "editTitle": "Redigeeri elanikku",
+      "editSubtitle": "See värskendab elaniku andmeid teie kataloogis.",
+      "bypassSubtitle": "Määrate selle elaniku parooli otse. Meili ei saadeta.",
+      "addSubtitle": "Sellele elanikule saadetakse meiliga parooli määramise link, et ta saaks oma sisselogimise aktiveerida.",
+      "fullName": "Täisnimi",
+      "houseNumber": "Maja / osa nr.",
+      "email": "Meil",
+      "phone": "Telefoninumber",
+      "meterNumber": "Arvesti number",
+      "governmentId": "Riiklik isikutunnistus",
+      "gender": "Sugu",
+      "dateOfBirth": "Sünnikuupäev",
+      "dateOfJoining": "Liitumise kuupäev",
+      "flatSize": "Lame suurus (ruutjalga)",
+      "bypassLabel": "Mööda parooli määramise e-posti aadress – määrake kohe sellele elanikule parool",
+      "password": "Parool",
+      "confirmPassword": "Kinnitage parool"
+    },
+    "validation": {
+      "fullNameRequired": "Täisnimi on kohustuslik.",
+      "emailRequired": "E-post on kohustuslik.",
+      "phoneRequired": "Telefoninumber on nõutav.",
+      "houseNumberRequired": "Maja/üksuse number on nõutav.",
+      "houseNumberTaken": "See majanumber on juba teisele elanikule määratud.",
+      "meterNumberRequired": "Arvesti number on nõutav.",
+      "meterNumberFormat": "Arvesti number peab välja nägema nagu MTR-1234 (4 numbrit).",
+      "meterNumberTaken": "See arvesti number on juba teisele elanikule määratud.",
+      "governmentIdRequired": "Riiklik isikutunnistus on nõutav.",
+      "governmentIdFormat": "ID peab olema 6-kohaline, mis algab numbriga 99 (nt 991234).",
+      "genderRequired": "Valige sugu.",
+      "dateOfBirthRequired": "Sünnikuupäev on nõutav.",
+      "dateOfJoiningRequired": "Nõutav on liitumise kuupäev.",
+      "passwordRequired": "Parool on nõutav.",
+      "passwordLength": "Parool peab koosnema vähemalt 8 tähemärgist.",
+      "confirmPasswordRequired": "Kinnitage parool.",
+      "passwordMismatch": "Paroolid ei ühti."
+    },
+    "bulk": {
+      "title": "Residentide hulgiüleslaadimine",
+      "noFile": "Valige üleslaadimiseks fail .csv või .xlsx/.xls.",
+      "instructions": "Laadige üles .csv- või .xlsx/.xls-fail veergudega <code>{{columns}}</code> (parool ja flatSizeSqft on mõlemad valikulised). Parooliga read määravad selle otse; rida ilma selleta saavad parooli määramise meili, sama nagu elaniku käsitsi lisamine. Korduvad maja-/arvestinumbrid või e-kirjad lükatakse tagasi iga rea ​​kohta – üks vigane rida ei riku tervet komplekti."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Elanikke ei saanud laadida. Palun proovi uuesti.",
+    "historyLoadError": "Lugemisajalugu ei saanud laadida. Palun proovi uuesti.",
+    "successMessage": "Edukalt salvestatud {{value}} kL näit {{house}} jaoks (meeter: {{meter}})! Arvestuslik tarbimine: {{consumption}} kL.",
+    "tabs": {
+      "single": "Üksikkanne",
+      "csv": "Hulgiüleslaadimine CSV",
+      "history": "Ajaloo lugemine"
+    },
+    "source": {
+      "manual": "Käsiraamat",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Sellel elanikul pole arvesti numbrit.",
+      "dateRequired": "Lugemiskuupäev on nõutav.",
+      "invalidValue": "Sisestage kehtiv, mittenegatiivne lugemisväärtus.",
+      "duplicate": "Sellel kuupäeval on selle arvesti näit juba olemas.",
+      "meterNotFound": "Seda arvestit ei leitud. Valige elanik uuesti.",
+      "lowerThanPrevious": "See näit on madalam kui eelmine salvestatud näit.",
+      "recordFailed": "Seda näitu ei saanud salvestada. Palun proovi uuesti."
+    },
+    "combo": {
+      "label": "Valige Flat & Meter Serial",
+      "placeholder": "Valige lame ja arvesti seeria…",
+      "flat": "Korter {{house}}",
+      "noMeter": "Arvestit pole",
+      "searchPlaceholder": "Otsi korterit nr, arvesti seeria, elanik…",
+      "unitsHeader": "Elamuüksused",
+      "found": "Leitud kortereid: {{total}}",
+      "loading": "Elanike laadimine…",
+      "noMatch": "Ükski elanik ei vasta \"{{search}}\".",
+      "unassigned": "Määramata",
+      "itemMeta": "{{name}} · Viimati: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Näidu salvestamine",
+      "context": "Maja {{house}} · Meeter {{meter}}",
+      "changeResident": "Vaheta elanikku",
+      "readingDate": "Lugemise kuupäev",
+      "readingValue": "Praegune arvesti näit (kL)",
+      "submit": "Esitage kinnitatud lugemine",
+      "recentTitle": "Viimased lugemised",
+      "recentEmpty": "Selle arvesti kohta pole veel näitude salvestatud."
+    },
+    "info": {
+      "title": "Monotoonse arvesti valideerimine",
+      "body": "Iga uus näit peab olema suurem või võrdne selle arvesti eelmise logiga – see hoiab tarbimise arvutused täpsed ja tabab ülekantud numbrid varakult."
+    },
+    "details": {
+      "title": "Valitud üksuse üksikasjad",
+      "flatUnit": "Korter üksus",
+      "meterSerial": "Arvesti seeria",
+      "occupant": "Asuja nimi",
+      "lastDial": "Viimane salvestatud valik",
+      "noReadings": "Näiteid veel pole",
+      "monthConsumption": "Kuu tarbimine",
+      "empty": "Ühtegi leibkonda pole valitud. Otsige ja valige elanik, et näha tema arvesti üksikasju siin."
+    },
+    "csv": {
+      "noFile": "Valige üleslaadimiseks CSV fail.",
+      "instructions": "Laadige üles CSV veergudega <code>{{columns}}</code>. Ridu töödeldakse iseseisvalt – üks vigane rida ei vea tervet partii läbi."
+    },
+    "history": {
+      "loading": "Lugede laadimine…",
+      "empty": "Teie kogukonna jaoks pole veel lugemeid salvestatud."
+    },
+    "table": {
+      "meterNumber": "Arvesti nr.",
+      "date": "Kuupäev",
+      "value": "Väärtus (kL)",
+      "consumption": "Tarbimine (kL)",
+      "source": "Allikas"
+    }
+  },
+  "billingCycles": {
+    "title": "Arveldustsüklid",
+    "loadError": "Arveldustsükleid ei saanud laadida. Palun proovi uuesti.",
+    "paymentUpdateError": "Selle arve makseolekut ei saanud värskendada.",
+    "pdfError": "Ei saanud faili PDF alla laadida. Palun proovi uuesti.",
+    "finalizeError": "Seda arveldustsüklit ei saanud lõpule viia.",
+    "archiveError": "Seda arveldustsüklit ei saanud arhiivida.",
+    "loading": "Arveldustsüklite laadimine…",
+    "empty": "Arveldustsükleid veel pole. Alustamiseks avage ülalt üks.",
+    "status": {
+      "open": "Avatud",
+      "finalized": "Lõpetatud",
+      "archived": "Arhiveeritud"
+    },
+    "open": {
+      "title": "Avage uus arveldustsükkel",
+      "noMonth": "Valige avamise kuu.",
+      "error": "Selle kuu arveldustsüklit ei saanud avada.",
+      "monthAria": "Arveldusperioodi kuu",
+      "opening": "Avamine…",
+      "submit": "Ava tsükkel"
+    },
+    "table": {
+      "period": "Periood",
+      "status": "Olek",
+      "householdsBilled": "Arveldatud leibkonnad",
+      "totalBilled": "Arveldatud kokku",
+      "actions": "Tegevused"
+    },
+    "actions": {
+      "finalize": "Lõpeta",
+      "finalizing": "Lõpetamine…",
+      "archive": "Arhiiv",
+      "archiving": "Arhiveerimine…"
+    },
+    "filter": {
+      "aria": "Filtreerige makse oleku järgi",
+      "all": "Kõik"
+    },
+    "payment": {
+      "paid": "Tasuline",
+      "unpaid": "Tasumata",
+      "updating": "Värskendamine…",
+      "markPaid": "Märgi tasutuks",
+      "markUnpaid": "Märgi tasumata"
+    },
+    "detail": {
+      "title": "Tsükli üksikasjad — {{period}}",
+      "loading": "Arvete laadimine…",
+      "notFinalized": "See tsükkel pole veel lõppenud – arveid pole loodud.",
+      "noInvoices": "Selle tsükli kohta arveid pole.",
+      "noMatch": "Sellele filtrile ei vasta ükski arve."
+    },
+    "invoices": {
+      "household": "Majapidamine",
+      "resident": "Resident",
+      "meterNumber": "Arvesti nr.",
+      "consumption": "Tarbimine (kL)",
+      "tierBreakdown": "Taseme jaotus",
+      "commonArea": "Ühine ala",
+      "total": "Kokku",
+      "paymentStatus": "Makse olek",
+      "pdf": "PDF",
+      "baseLine": "Baas: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}",
+      "tierLine": "Tase {{tier}}: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tariifi konfiguratsiooni ei saanud laadida",
+    "saveError": "Tariifi konfiguratsiooni ei saanud salvestada",
+    "chartTitle": "Aktiivsed mõõdetud kommunaalkulude tasemed",
+    "axisNote": "Hind ₹/kL, plaatide piirmäärad kL",
+    "tableTitle": "Hinnatasemete tabel",
+    "defaultRatesNote": "Kuvatakse vaikemäärad – pole veel salvestatud.",
+    "addTier": "+ Lisa tase",
+    "saveRates": "Säästke tariifimäärasid",
+    "tierLevel": {
+      "base": "Tase {{tier}} (baas)",
+      "medium": "Tase {{tier}} (keskmine)",
+      "heavy": "Tase {{tier}} (raske)"
+    },
+    "basePrice": {
+      "label": "Baashind (₹ / kL, rakendatakse KÕIGILE tarbimisele)",
+      "note": "Iga kL eest võetakse esmalt see kindlasummaline tasu. Allolevad plaadid lisavad LISAtasusid ainult nende kasutusalasse jääva kasutamise eest – nt. plaat, mis algab 50-st kL, lisab oma tarbimise määra ainult üle 50 kL."
+    },
+    "table": {
+      "tierLevel": "Tase",
+      "slabLimit": "Plaadipiirang (kL)",
+      "rate": "Hind kL kohta",
+      "action": "Tegevus"
+    },
+    "commonArea": {
+      "title": "Jagatud ühispiirkonna kulu konfiguratsioon",
+      "loadError": "Ühise ala kulu konfiguratsiooni ei saanud laadida",
+      "saveError": "Ühise ala kulu konfiguratsiooni ei saanud salvestada",
+      "empty": "Ühtegi kuluartiklit pole veel salvestatud.",
+      "labelPlaceholder": "Kuluartikli silt",
+      "perMonth": "/ kuus",
+      "active": "Aktiivne",
+      "addItem": "+ Lisa kuluartikkel",
+      "save": "Salvesta ühisala konfiguratsioon"
+    },
+    "distribution": {
+      "title": "Kulude jaotusmeetodi valija",
+      "consumption": "Tarbimise järgi (alamõõtjaga proportsionaalne)",
+      "floorArea": "Korteri tasapinna järgi (ruutjalga)"
+    },
+    "footer": {
+      "cycleStart": "Tsükli arvelduse alguskuupäev",
+      "cycleStartValue": "Iga kuu 1",
+      "autoInvoices": "Loo automaatselt PDF arveid"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Lävi ületatud",
+      "statisticalOutlier": "Statistiline kõrvalekalle"
+    },
+    "status": {
+      "active": "Aktiivne",
+      "resolved": "Lahendatud",
+      "dismissed": "Vallandatud"
+    },
+    "config": {
+      "title": "Lekke tuvastamise konfiguratsioon",
+      "subtitle": "Määrake igakuine tarbimislävi ja/või lubage statistiliste kõrvalekallete tuvastamine (märgistab leibkonna, mille igakuine tarbimine on tema enda ajalooga võrreldes ebatavaliselt kõrge).",
+      "loadError": "Märguande konfiguratsiooni ei saanud laadida. Palun proovi uuesti.",
+      "thresholdRequired": "Kui läve hoiatused on lubatud, on nõutav igakuine lävi (kL).",
+      "saveError": "Seda konfiguratsiooni ei saanud salvestada.",
+      "loading": "Konfiguratsiooni laadimine…",
+      "threshold": "Kuu lävi (kL)",
+      "sensitivity": "Tundlikkus kõrvalekaldest (σ kordaja)",
+      "enableThreshold": "Luba läve märguanded",
+      "enableOutlier": "Luba statistiliste kõrvalekallete hoiatused",
+      "save": "Salvesta konfiguratsioon",
+      "running": "Jooksmine…",
+      "runNow": "Käivitage tuvastamine kohe"
+    },
+    "alerts": {
+      "title": "Lipuga tähistatud leibkonnad",
+      "loadError": "Märguandeid ei saanud laadida. Palun proovi uuesti.",
+      "runError": "Lekketuvastust ei saanud praegu käivitada. Palun proovi uuesti.",
+      "updateError": "Seda hoiatust ei saanud värskendada. Palun proovi uuesti.",
+      "allStatuses": "Kõik olekud",
+      "loading": "Märguannete laadimine…",
+      "empty": "Kuvatavaid hoiatusi pole. Seadistage ülalpool lävi või lubage kõrvalekallete tuvastamine, seejärel klõpsake oma kogukonna praeguse kasutuse hindamiseks käsul \"Käita tuvastamist kohe\".",
+      "resolve": "Lahenda",
+      "dismiss": "Loobu"
+    },
+    "table": {
+      "household": "Majapidamine",
+      "resident": "Resident",
+      "meter": "Mõõdik",
+      "type": "Tüüp",
+      "period": "Periood",
+      "consumption": "Tarbimine",
+      "reference": "Viide",
+      "status": "Olek"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Vee hulgioste ei saanud laadida. Palun proovi uuesti.",
+    "confirmRemove": "Kas eemaldada {{source}} tarne kuupäeval {{date}}?",
+    "removeError": "Seda ostu ei saanud eemaldada. Palun proovi uuesti.",
+    "count": "Salvestatud ostud: {{total}}",
+    "recordButton": "+ Plaadiost",
+    "loading": "Vee hulgiostude laadimine…",
+    "empty": "Vee hulgioste pole veel registreeritud. Tankeri tarne või munitsipaalvarustuse ostu registreerimiseks klõpsake nuppu \"Kirjelda ost\".",
+    "table": {
+      "date": "Kuupäev",
+      "source": "Allikas",
+      "volume": "Helitugevus (L)",
+      "unitCost": "Ühiku maksumus",
+      "totalCost": "Kogukulu",
+      "notes": "Märkmed"
+    },
+    "form": {
+      "addTitle": "Rekordivee hulgiostmine",
+      "editTitle": "Muuda vee hulgiostu",
+      "subtitle": "Jälgige oma kogukonna paakauto tarnimist või munitsipaaltarvikute ostmist – see salvestatakse ainult kulude nähtavuse jaoks ja see ei mõjuta majapidamisarveid.",
+      "requiredFields": "Sisestage kuupäev, allikas, maht ja ühiku maksumus.",
+      "saveError": "Seda ostu ei saanud salvestada. Palun kontrollige üksikasju.",
+      "purchaseDate": "Ostu kuupäev",
+      "source": "Allikas / tarnija",
+      "volume": "Maht (liitrit)",
+      "unitCost": "Ühiku maksumus (₹/liiter)",
+      "totalPreview": "Kogukulu: {{amount}}",
+      "notes": "Märkused (valikuline)",
+      "submit": "Plaadiost"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} pole veel ehitatud",
+    "profileSaveError": "Teie profiili ei saanud salvestada. Palun proovi uuesti.",
+    "apartmentSaveError": "Korteri andmeid ei õnnestunud salvestada. Palun proovi uuesti.",
+    "specsTitle": "Profiili spetsifikatsioonid",
+    "photoUnavailable": "Fotode üleslaadimine pole veel saadaval",
+    "changePhoto": "Muuda fotot",
+    "deletePhoto": "Kustuta",
+    "photoHint": "JPG või PNG. Max suurus 2MB.",
+    "saveProfile": "Salvesta profiil",
+    "apartmentTitle": "Korteri üksikasjad",
+    "saveApartment": "Salvestage korteri üksikasjad",
+    "tabs": {
+      "profile": "Profiili seaded",
+      "apartment": "Korteri profiil",
+      "notifications": "Teavitamise reeglid",
+      "billing": "Arveldamise integreerimine",
+      "security": "Turvalisus ja juurdepääs"
+    },
+    "fields": {
+      "fullName": "Täisnimi",
+      "email": "E-posti aadress",
+      "emailLocked": "E-posti ei saa siin muuta",
+      "phone": "Telefoninumber",
+      "accessLevel": "Juurdepääsutase",
+      "accessLevelValue": "kogukonna administraator",
+      "roleLocked": "Rollihaldus pole veel saadaval",
+      "apartmentName": "Korteri nimi",
+      "mainsSource": "Toiteallikas",
+      "mainsSourcePlaceholder": "nt. Kommunaalvarustus + lisatankerid",
+      "address": "Füüsiline aadress"
+    },
+    "security": {
+      "title": "Turvalisuse ja juurdepääsu eelvaade",
+      "twoFactor": "Kahefaktoriline autentimine",
+      "twoFactorHint": "Sisselogimisel lubatud",
+      "twoFactorUnavailable": "Kahefaktoriline autentimine pole veel saadaval",
+      "twoFactorAria": "Kahefaktoriline autentimine (ainult eelvaade)",
+      "sessionsLabel": "Aktiivsed administraatoriseansid",
+      "sessionsEmpty": "Seansi jälgimine pole veel saadaval – see on eelseisva paigutuse eelvaade."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Minu piletid",
+      "inbox": "Residentide piletid"
+    },
+    "mine": {
+      "title": "Minu tugipiletid",
+      "subtitle": "Esitage süsteemiadministraatorile küsimus või mure oma kogukonna kohta.",
+      "emptyCreateHint": "Esitage küsimus või mure oma kogukonna kohta. Süsteemiadministraator vaatab siin üle ja vastab."
+    },
+    "inbox": {
+      "title": "Residentide piletid",
+      "subtitle": "Teie kogukonna elanike tugipiletid ja mured on teie poole pöördunud."
+    }
+  }
+}

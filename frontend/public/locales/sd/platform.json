@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "فعال",
+    "blocked": "بند ٿيل",
+    "terminated": "ختم ٿيل"
+  },
+  "sort": {
+    "sortBy": "ترتيب ڏيو",
+    "toggleDirection": "ترتيب جي هدايت تبديل ڪريو",
+    "asc": "↑ چڙهندڙ",
+    "desc": "↓ لهندڙ"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} مان {{total}} ڏيکاريا پيا وڃن",
+    "prev": "← پوئين",
+    "next": "اڳيون →",
+    "page": "صفحو {{page}} جو {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "پليٽ فارم جو جائزو",
+    "subtitle": "HydroLedger پليٽ فارم تي سڀ رجسٽرڊ ڪميونٽي ايڊمن.",
+    "viewAll": "سڀ ڪميونٽيز ڏسو",
+    "loadError": "هن وقت پليٽ فارم ڊيٽا لوڊ نه ٿي سگهي.",
+    "cards": {
+      "totalCommunities": "ڪل ڪميونٽيز",
+      "registeredAdmins": "رجسٽرڊ ايڊمنز",
+      "totalResidents": "ڪل رهواسي",
+      "acrossAllCommunities": "سڀني ڪميونٽيز ۾",
+      "active": "فعال",
+      "inGoodStanding": "سٺي حالت ۾",
+      "blockedTerminated": "بند ٿيل / ختم ٿيل",
+      "blockedTerminatedBreakdown": "{{blocked}} بند ٿيل، {{terminated}} ختم ٿيل"
+    },
+    "recent": {
+      "title": "تازو رجسٽرڊ ڪميونٽيز",
+      "loading": "لوڊ ٿي رهيو آهي…",
+      "empty": "اڃا تائين ڪا به ڪميونٽي رجسٽرڊ ناهي.",
+      "table": {
+        "community": "ڪميونٽي",
+        "admin": "ايڊمن",
+        "status": "اسٽيٽس",
+        "residents": "رهواسي"
+      }
+    }
+  },
+  "communities": {
+    "count": "ڪميونٽيز: {{count}}",
+    "loadError": "ڪميونٽيز لوڊ نه ٿي سگهيون. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+    "searchPlaceholder": "ڪميونٽي، ايڊمن جو نالو، يا اي ميل ذريعي فلٽر ڪريو",
+    "statusFilter": {
+      "label": "اسٽيٽس",
+      "all": "سڀ"
+    },
+    "sortOptions": {
+      "community": "ڪميونٽي",
+      "admin": "ايڊمن",
+      "residents": "رهواسي"
+    },
+    "loading": "ڪميونٽيز لوڊ ٿي رهيون آهن…",
+    "empty": "اڃا تائين ڪا به ڪميونٽي رجسٽرڊ ناهي.",
+    "noMatch": "توهان جي فلٽر سان ڪو به نتيجو نه مليو.",
+    "table": {
+      "community": "ڪميونٽي",
+      "admin": "ايڊمن",
+      "email": "اي ميل",
+      "status": "اسٽيٽس",
+      "residents": "رهواسي",
+      "view": "ڏسو"
+    }
+  },
+  "communityDetail": {
+    "loadError": "هي ڪميونٽي لوڊ نه ٿي سگهي. ممڪن آهي ته اها هٽائي وئي هجي.",
+    "statusUpdateError": "هن ڪميونٽي جو اسٽيٽس اپڊيٽ نه ٿي سگهيو.",
+    "deleteError": "هي ڪميونٽي ڊليٽ نه ٿي سگهي.",
+    "loading": "ڪميونٽي لوڊ ٿي رهي آهي…",
+    "notFound": "ڪميونٽي نه ملي.",
+    "backLink": "← ڪميونٽيز ڏانهن واپس",
+    "backLinkShort": "ڪميونٽيز ڏانهن واپس",
+    "eyebrow": "ڪميونٽي پروفائل",
+    "unnamed": "بغير نالي جي ڪميونٽي",
+    "noAddress": "ڪوبه پتو موجود ناهي",
+    "stats": {
+      "residents": "رهواسي",
+      "status": "اسٽيٽس"
+    },
+    "actions": {
+      "reactivate": "ٻيهر فعال ڪريو",
+      "block": "بند ڪريو",
+      "terminate": "ختم ڪريو",
+      "delete": "ڪميونٽي ڊليٽ ڪريو"
+    },
+    "blockDialog": {
+      "title": "ڇا هي ڪميونٽي ايڊمن بند ڪرڻ چاهيو ٿا؟",
+      "message": "{{name}} کي بند ڪيو وڃي؟ اهي ٻيهر فعال ٿيڻ تائين لاگ ان نه ٿي سگهندا. ڪنهن به ڊيٽا تي ڪو اثر نه پوندو.",
+      "confirm": "بند ڪريو"
+    },
+    "terminateDialog": {
+      "title": "ڇا هي ڪميونٽي ايڊمن ختم ڪرڻ چاهيو ٿا؟",
+      "message": "{{name}} جي رسائي کي مستقل طور تي ختم ڪيو وڃي؟ اهو عمل واپس نه ٿي سگهندو، جيتوڻيڪ ڪميونٽي جي ڊيٽا رڪارڊ لاءِ رکي ويندي.",
+      "confirm": "ختم ڪريو"
+    },
+    "deleteDialog": {
+      "title": "ڇا هي ڪميونٽي ڊليٽ ڪرڻ چاهيو ٿا؟",
+      "message": "اهو عمل <strong>{{name}}</strong> کي ۽ ان جي سڀني گهرن، رهواسين، ميٽرن، ٽيرف/بلنگ سيٽنگز، ۽ انوائس جي تاريخ کي مستقل طور تي ڊليٽ ڪري ڇڏيندو. هي عمل واپس نه ٿي سگهندو.",
+      "typeToConfirm": "جاري رکڻ لاءِ <strong>{{word}}</strong> لکو",
+      "confirm": "تصديق ڪريو"
+    },
+    "residents": {
+      "title": "رهواسي",
+      "registeredCount": "رجسٽرڊ: {{count}}",
+      "empty": "هن ڪميونٽي ۾ اڃا ڪو به رهواسي رجسٽرڊ ناهي.",
+      "table": {
+        "flatUnit": "فليٽ يونٽ",
+        "meter": "ميٽر",
+        "resident": "رهواسي",
+        "email": "اي ميل",
+        "passwordSet": "پاسورڊ سيٽ ٿيل"
+      },
+      "yes": "ها",
+      "no": "نه"
+    },
+    "cancel": "رد ڪريو",
+    "working": "ڪم جاري آهي…",
+    "deleting": "ڊليٽ ٿي رهيو آهي…"
+  },
+  "systemStatus": {
+    "statusError": "سسٽم اسٽيٽس چيڪ ڪرڻ لاءِ بئڪنڊ سان رابطو نه ٿي سگهيو.",
+    "metricsError": "ميٽرڪس جي تاريخ لوڊ نه ٿي سگهي.",
+    "ranges": {
+      "fiveMinutes": "5 منٽ",
+      "fifteenMinutes": "15 منٽ",
+      "hour": "ڪلاڪ",
+      "day": "ڏينهن",
+      "week": "هفتو",
+      "month": "مهينو",
+      "threeMonths": "3 مهينا"
+    },
+    "uptime": {
+      "days": "{{value}} ڏينهن",
+      "hours": "{{value}} ڪلاڪ",
+      "minutes": "{{value}} منٽ"
+    },
+    "charts": {
+      "requestsPerSec": "ريڪويسٽس/سيڪنڊ",
+      "opsPerSec": "آپريشنز/سيڪنڊ",
+      "latency": "ليٽنسي",
+      "lastValue": "آخري {{value}}",
+      "loading": "لوڊ ٿي رهيو آهي…",
+      "empty": "هن عرصي لاءِ ڪي به ميٽرڪس رڪارڊ ٿيل ناهن."
+    },
+    "stats": {
+      "min": "گهٽ ۾ گهٽ: <b>{{value}}</b>",
+      "avg": "اوسط: <b>{{value}}</b>",
+      "max": "وڌ ۾ وڌ: <b>{{value}}</b>",
+      "last": "آخري: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "بئڪنڊ API",
+      "checking": "چيڪ ڪيو پيو وڃي…",
+      "reachable": "پهچ لائق",
+      "unreachable": "پهچ کان ٻاهر",
+      "connected": "ڳنڍيل",
+      "backendApiHint": "هي صفحو بئڪنڊ تان لوڊ ٿيو آهي، تنهنڪري اهو جواب ڏئي رهيو آهي.",
+      "database": "ڊيٽابيس",
+      "databaseHint": "PostgreSQL ڪنيڪشن، لائيو چيڪ ٿيل.",
+      "uptime": "بئڪنڊ اپ ٽائيم",
+      "uptimeHint": "ايپليڪيشن جي آخري ريسٽارٽ کان وٺي.",
+      "appVersion": "ايپ جو ورجن",
+      "appVersionHint": "بئڪنڊ بلڊ ورجن."
+    },
+    "mini": {
+      "latency": "ليٽنسي",
+      "readsLatency": "پڙهڻ جي ليٽنسي",
+      "writesLatency": "لکڻ جي ليٽنسي",
+      "otherLatency": "ٻي ليٽنسي",
+      "connections": "ڪنيڪشنز",
+      "totalKeys": "ڪل ڪيز"
+    },
+    "note": "ريڪويسٽس/سيڪنڊ ۽ ليٽنسي کي لائيو بئڪنڊ ٽريفڪ مان هر 15 سيڪنڊن ۾ سيمپل ڪيو ويندو آهي ۽ 100 ڏينهن تائين محفوظ رکيو ويندو آهي. هي هڪ بنيادي رابطي + ٽريفڪ چيڪ آهي — اهو مڪمل ايپليڪيشن ڪارڪردگي جي نگراني، لاگ مجموعي، يا الرٽنگ جي جاءِ نه ٿو وٺي."
+  },
+  "reports": {
+    "loadError": "پليٽ فارم رپورٽ لوڊ نٿي سگهي.",
+    "ranges": {
+      "threeMonths": "3 مهينا",
+      "sixMonths": "6 مهينا",
+      "twelveMonths": "12 مهينا",
+      "custom": "ڪسٽم"
+    },
+    "sortOptions": {
+      "community": "ڪميونٽي",
+      "usage": "استعمال",
+      "billed": "بل ٿيل",
+      "residents": "رهواسي"
+    },
+    "customRange": {
+      "from": "کان",
+      "to": "تائين",
+      "hint": "ڪسٽم رپورٽ لوڊ ڪرڻ لاءِ \"کان\" ۽ \"تائين\" ٻئي مهينا چونڊيو."
+    },
+    "loading": "رپورٽ لوڊ ٿي رهي آهي…",
+    "cards": {
+      "totalCommunities": "ڪل ڪميونٽيز",
+      "inThisRange": "هن عرصي ۾",
+      "totalResidents": "ڪل رهواسي",
+      "acrossAllCommunities": "سڀني ڪميونٽيز ۾",
+      "overallUsage": "مجموعي استعمال",
+      "meteredConsumption": "ميٽر ٿيل واهپو",
+      "overallBilled": "مجموعي بل",
+      "finalizedInvoicesOnly": "صرف فائنل ٿيل انوائسز",
+      "avgUsagePerResident": "في رهواسي سراسري استعمال",
+      "avgBillPerResident": "في رهواسي سراسري بل"
+    },
+    "charts": {
+      "usageTitle": "پليٽ فارم جو مجموعي استعمال (kL / مهينو)",
+      "usageEmpty": "هن عرصي لاءِ ڪو به استعمال رڪارڊ نه ٿيو آهي.",
+      "usageSeries": "استعمال",
+      "billedTitle": "پليٽ فارم جي مجموعي بلنگ (₹ / مهينو)",
+      "billedEmpty": "هن عرصي لاءِ ڪا به انوائس فائنل نه ٿي آهي.",
+      "billedSeries": "بل ٿيل"
+    },
+    "searchPlaceholder": "ڪميونٽي يا ايڊمن جي نالي سان فلٽر ڪريو",
+    "empty": "هن عرصي لاءِ ڪنهن به ڪميونٽي جو استعمال يا بلنگ ڊيٽا موجود ناهي.",
+    "noMatch": "توهان جي فلٽر سان ڪا به ڪميونٽي نه ملي.",
+    "table": {
+      "community": "ڪميونٽي",
+      "admin": "ايڊمن",
+      "residents": "رهواسي",
+      "usage": "استعمال (kL)",
+      "billed": "بل ٿيل (₹)",
+      "avgUsagePerResident": "في رهواسي سراسري استعمال",
+      "avgBillPerResident": "في رهواسي سراسري بل"
+    }
+  },
+  "supportTickets": {
+    "title": "سپورٽ ٽڪيٽس",
+    "subtitle": "رهواسين ۽ ڪميونٽي ايڊمنز پاران پليٽ فارم جي سطح تي اٿاريل سپورٽ ٽڪيٽس ۽ خدشا."
+  }
+}

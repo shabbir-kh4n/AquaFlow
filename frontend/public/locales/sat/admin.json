@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+    "saving": "ᱥᱮᱵᱷᱚᱜ ᱠᱟᱱᱟ…",
+    "saved": "ᱥᱮᱵᱷ ᱮᱱᱟ᱾",
+    "uploading": "ᱟᱯᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+    "upload": "ᱟᱯᱞᱚᱰ",
+    "uploadError": "ᱱᱚᱶᱟ ᱯᱷᱟᱭᱤᱞ ᱟᱯᱞᱚᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱢᱮ᱾",
+    "cancel": "ᱵᱟᱹᱛᱤᱞ",
+    "close": "ᱵᱚᱸᱫ",
+    "edit": "ᱮᱰᱤᱴ",
+    "remove": "ᱚᱪᱚᱜ",
+    "saveChanges": "ᱵᱚᱫᱚᱞ ᱥᱮᱵᱷ ᱢᱮ",
+    "bulkSummary": "<b>{{total}}</b> ᱥᱟᱹᱲᱤ ᱯᱨᱚᱥᱮᱥ ᱟᱠᱟᱱᱟ — <b>{{success}}</b> ᱥᱟᱹᱛ ᱮᱱᱟ, <b>{{failure}}</b> ᱵᱟᱝ ᱥᱟᱹᱛ ᱞᱮᱱᱟ᱾",
+    "rowFailure": "ᱥᱟᱹᱲᱤ {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{total}} ᱠᱷᱚᱱ {{from}}–{{to}} ᱩᱫᱩᱜ ᱠᱟᱱᱟ",
+    "prev": "← ᱢᱟᱬᱟᱝ",
+    "next": "ᱛᱟᱭᱚᱢ →",
+    "page": "ᱥᱟᱦᱴᱟ {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "ᱱᱤᱛᱚᱜ ᱟᱢᱟᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱰᱮᱴᱟ ᱞᱚᱰ ᱵᱟᱝ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ᱾",
+    "title": "{{community}} ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱰᱮᱥᱵᱳᱨᱰ",
+    "titleFallback": "ᱟᱢᱟᱜ ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱰᱮᱥᱵᱳᱨᱰ",
+    "subtitle": "ᱫᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱟᱨ ᱚᱲᱟᱜ ᱨᱮᱱᱟᱜ ᱠᱷᱚᱨᱚᱪ ᱨᱮᱱᱟᱜ ᱥᱟᱨᱟᱝᱥᱚ᱾",
+    "comingSoon": "ᱟᱹᱰᱤ ᱞᱚᱜᱚᱱ ᱦᱤᱡᱩᱜ ᱠᱟᱱᱟ",
+    "manageCommunity": "ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱪᱟᱪᱞᱟᱣ",
+    "noUsageReadings": "ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱫᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱨᱮᱱᱟᱜ ᱨᱤᱰᱤᱝ ᱵᱟᱝ ᱚᱞ ᱟᱠᱟᱱᱟ᱾",
+    "cards": {
+      "totalHouseholds": "ᱜᱩᱴ ᱚᱲᱟᱜ",
+      "occupied": "ᱫᱚᱠᱷᱚᱞ ᱟᱠᱟᱱ",
+      "activeMeters": "ᱪᱟᱹᱞᱩ ᱢᱤᱴᱚᱨ",
+      "reportingReadings": "ᱨᱤᱰᱤᱝ ᱨᱤᱯᱳᱨᱴ",
+      "monthlyConsumption": "ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ ᱵᱮᱵᱷᱟᱨ",
+      "thisCalendarMonth": "ᱱᱚᱶᱟ ᱠᱮᱞᱮᱱᱰᱟᱨ ᱪᱟᱸᱫᱚ",
+      "latestRecordedMonth": "ᱢᱩᱪᱟᱹᱫ ᱚᱞ ᱟᱠᱟᱱ ᱪᱟᱸᱫᱚ ({{month}})",
+      "noReadingsYet": "ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱨᱤᱰᱤᱝ ᱵᱟᱝ ᱚᱞ ᱟᱠᱟᱱᱟ",
+      "pendingAlerts": "ᱛᱟᱹᱜᱤ ᱨᱮ ᱢᱮᱱᱟᱜ ᱟᱞᱟᱨᱴ",
+      "anomalyPreview": "ᱟᱱᱚᱢᱟᱞᱤ ᱰᱤᱴᱮᱠᱥᱚᱱ ᱯᱨᱤᱵᱷᱤᱭᱩ — ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜ ᱠᱟᱱᱟ"
+    },
+    "actions": {
+      "label": "ᱞᱚᱜᱚᱱ ᱪᱟᱪᱞᱟᱣ ᱠᱟᱹᱢᱤ",
+      "uploadReadings": "ᱢᱤᱴᱚᱨ ᱨᱤᱰᱤᱝ ᱟᱯᱞᱚᱰ",
+      "configureTariffs": "ᱴᱮᱨᱤᱯᱷ ᱠᱚᱱᱯᱷᱤᱜᱟᱨ",
+      "reportsNotBuilt": "ᱨᱤᱯᱳᱨᱴ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱛᱮᱭᱟᱨ ᱟᱠᱟᱱᱟ",
+      "downloadReports": "ᱥᱤᱥᱴᱮᱢ ᱨᱤᱯᱳᱨᱴ ᱰᱟᱭᱩᱱᱞᱚᱰ"
+    },
+    "chart": {
+      "title": "ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ ᱵᱮᱵᱷᱟᱨ ᱛᱩᱞᱟᱹᱡᱚᱠᱷᱟ (kL)",
+      "subtitle": "ᱢᱩᱪᱟᱹᱫ {{months}} ᱪᱟᱸᱫᱚ: ᱴᱟᱨᱜᱮᱴ ᱵᱚᱱᱟᱢ ᱟᱥᱚᱞ ᱵᱮᱵᱷᱟᱨ᱾",
+      "targetSeries": "ᱴᱟᱨᱜᱮᱴ (ᱯᱨᱤᱵᱷᱤᱭᱩ)",
+      "actualSeries": "ᱟᱥᱚᱞ"
+    },
+    "recent": {
+      "title": "ᱢᱩᱪᱟᱹᱫ ᱢᱤᱴᱚᱨ ᱨᱤᱰᱤᱝ",
+      "unit": "ᱭᱩᱱᱤᱴ",
+      "resident": "ᱨᱮᱥᱤᱰᱮᱱᱴ",
+      "lastReading": "ᱢᱩᱪᱟᱹᱫ ᱨᱤᱰᱤᱝ",
+      "consumption": "ᱵᱮᱵᱷᱟᱨ"
+    }
+  },
+  "households": {
+    "loadError": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱠᱚ ᱞᱚᱰ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱯᱨᱮᱥ ᱯᱮ ᱾",
+    "fixFields": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱦᱟᱭᱞᱟᱭᱤᱴ ᱟᱠᱟᱱ ᱯᱷᱤᱞᱰ ᱠᱚ ᱴᱷᱤᱠ ᱯᱮ ᱾",
+    "saveError": "ᱱᱚᱶᱟ ᱛᱟᱦᱮᱸᱱᱤᱡ ᱟᱜ ᱰᱮᱴᱟ ᱵᱟᱝ ᱥᱮᱵᱷ ᱞᱮᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱰᱤᱴᱮᱞᱥ ᱧᱮᱞ ᱯᱮ ᱾",
+    "confirmRemove": "ᱟᱢᱟᱜ ᱦᱟᱣᱩᱥᱦᱳᱞᱰ ᱰᱟᱭᱨᱮᱠᱴᱚᱨᱤ ᱠᱷᱚᱱ {{name}} ᱚᱪᱚᱜ ᱞᱮᱭᱟ ᱥᱮ?",
+    "removeError": "ᱱᱚᱶᱟ ᱛᱟᱦᱮᱸᱱᱤᱡ ᱵᱟᱝ ᱚᱪᱚᱜ ᱞᱮᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱯᱨᱮᱥ ᱯᱮ ᱾",
+    "count": "ᱚᱲᱟᱜ ᱠᱚ: {{total}}",
+    "bulkUploadButton": "⇪ ᱢᱤᱫ ᱥᱟᱶᱛᱮ ᱟᱯᱞᱳᱰ ᱢᱮ",
+    "addResidentButton": "+ ᱛᱟᱦᱮᱸᱱᱤᱡ ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "searchPlaceholder": "ᱧᱩᱛᱩᱢ, ᱚᱲᱟᱜ, ᱤᱢᱮᱞ ᱟᱨᱵᱟᱝ ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ ᱛᱮ ᱯᱷᱤᱞᱴᱟᱨ ᱢᱮ ᱾",
+    "loading": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱠᱚ ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+    "empty": "ᱱᱤᱛᱚᱜ ᱦᱟᱹᱵᱤᱡ ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜ ᱠᱚᱣᱟ ᱾ ᱯᱩᱭᱞᱩ ᱚᱲᱟᱜ ᱨᱮᱱ ᱦᱚᱲ ᱮᱱᱴᱨᱤ ᱞᱟᱹᱜᱤᱫ \"ᱛᱟᱦᱮᱸᱱᱤᱡ ᱡᱚᱲᱟᱣ ᱢᱮ\" ᱨᱮ ᱠᱞᱤᱠ ᱢᱮ ᱾",
+    "noMatch": "“{{search}}” ᱧᱩᱛᱩᱢ ᱛᱮ ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜ ᱠᱚᱣᱟ ᱾",
+    "sort": {
+      "label": "ᱥᱳᱨᱴ ᱢᱮ",
+      "name": "ᱧᱩᱛᱩᱢ",
+      "houseNumber": "ᱚᱲᱟᱜ ᱱᱚᱢᱵᱚᱨ",
+      "dateOfJoining": "ᱡᱚᱲᱟᱣ ᱟᱠᱟᱱ ᱢᱟᱹᱦᱤᱛ",
+      "toggleDirection": "ᱥᱳᱨᱴ ᱦᱚᱨᱟ ᱵᱚᱫᱚᱞ ᱢᱮ",
+      "asc": "↑ ᱨᱟᱠᱟᱵ",
+      "desc": "↓ ᱟᱸᱜᱚᱱ"
+    },
+    "gender": {
+      "male": "ᱠᱚᱲᱟ",
+      "female": "ᱠᱩᱲᱤ",
+      "other": "ᱮᱴᱟᱜ"
+    },
+    "table": {
+      "name": "ᱧᱩᱛᱩᱢ",
+      "houseUnit": "ᱚᱲᱟᱜ / ᱤᱭᱩᱱᱤᱴ",
+      "email": "ᱤᱢᱮᱞ",
+      "phone": "ᱯᱷᱳᱱ",
+      "meterNumber": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ",
+      "sqft": "Sqft",
+      "joined": "ᱡᱚᱲᱟᱣ ᱟᱠᱟᱱᱟ"
+    },
+    "form": {
+      "addTitle": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱡᱚᱲᱟᱣ ᱢᱮ",
+      "editTitle": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱟᱜ ᱰᱤᱴᱮᱞᱥ ᱵᱚᱫᱚᱞ ᱢᱮ",
+      "editSubtitle": "ᱱᱚᱶᱟ ᱫᱚ ᱰᱟᱭᱨᱮᱠᱴᱚᱨᱤ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱤᱡ ᱟᱜ ᱰᱤᱴᱮᱞᱥ ᱚᱯᱰᱮᱴᱟ ᱾",
+      "bypassSubtitle": "ᱟᱢ ᱱᱚᱶᱟ ᱛᱟᱦᱮᱸᱱᱤᱡ ᱟᱜ ᱯᱟᱥᱣᱟᱨᱰ ᱥᱚᱡᱷᱮ ᱜᱮᱢ ᱥᱮᱴᱮᱫᱟ ᱾ ᱤᱢᱮᱞ ᱵᱟᱝ ᱠᱩᱞᱟ ᱾",
+      "addSubtitle": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱟᱜ ᱤᱢᱮᱞ ᱨᱮ ᱢᱤᱫ ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴᱤᱝ ᱞᱤᱸᱠ ᱠᱩᱞᱟ ᱡᱟᱦᱟᱸ ᱛᱮ ᱩᱱᱤ ᱞᱚᱜᱤᱱ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+      "fullName": "ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ",
+      "houseNumber": "ᱚᱲᱟᱜ / ᱤᱭᱩᱱᱤᱴ ᱱᱚᱢᱵᱚᱨ",
+      "email": "ᱤᱢᱮᱞ",
+      "phone": "ᱯᱷᱳᱱ ᱱᱚᱢᱵᱚᱨ",
+      "meterNumber": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ",
+      "governmentId": "ᱥᱚᱨᱠᱟᱨᱤ ID",
+      "gender": "ᱡᱟᱱᱟᱝ",
+      "dateOfBirth": "ᱡᱟᱱᱟᱢ ᱢᱟᱹᱦᱤᱛ",
+      "dateOfJoining": "ᱡᱚᱲᱟᱣ ᱟᱠᱟᱱ ᱢᱟᱹᱦᱤᱛ",
+      "flatSize": "ᱯᱷᱞᱮᱴ ᱥᱟᱭᱤᱡᱽ (sq ft)",
+      "bypassLabel": "ᱯᱟᱥᱣᱟᱨᱰ ᱤᱢᱮᱞ ᱵᱟᱫ ᱠᱟᱛᱮ ᱟᱹᱢᱤᱫ ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴ ᱢᱮ",
+      "password": "ᱯᱟᱥᱣᱟᱨᱰ",
+      "confirmPassword": "ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱢᱮ"
+    },
+    "validation": {
+      "fullNameRequired": "ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "emailRequired": "ᱤᱢᱮᱞ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "phoneRequired": "ᱯᱷᱳᱱ ᱱᱚᱢᱵᱚᱨ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "houseNumberRequired": "ᱚᱲᱟᱜ / ᱤᱭᱩᱱᱤᱴ ᱱᱚᱢᱵᱚᱨ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "houseNumberTaken": "ᱱᱚᱶᱟ ᱚᱲᱟᱜ ᱱᱚᱢᱵᱚᱨ ᱫᱚ ᱮᱴᱟᱜ ᱦᱚᱲ ᱴᱷᱮᱱ ᱢᱮᱱᱟᱜᱼᱟ ᱾",
+      "meterNumberRequired": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "meterNumberFormat": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ MTR-1234 (4 ᱰᱤᱡᱤᱴ) ᱞᱮᱠᱟ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤ ᱾",
+      "meterNumberTaken": "ᱱᱚᱶᱟ ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ ᱫᱚ ᱮᱴᱟᱜ ᱦᱚᱲ ᱴᱷᱮᱱ ᱢᱮᱱᱟᱜᱼᱟ ᱾",
+      "governmentIdRequired": "ᱥᱚᱨᱠᱟᱨᱤ ID ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "governmentIdFormat": "ID ᱫᱚ 99 ᱛᱮ ᱮᱛᱚᱦᱚᱵᱚᱜ 6 ᱰᱤᱡᱤᱴ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤ (ᱡᱮᱢᱚᱱ 991234) ᱾",
+      "genderRequired": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱡᱟᱱᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱾",
+      "dateOfBirthRequired": "ᱡᱟᱱᱟᱢ ᱢᱟᱹᱦᱤᱛ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "dateOfJoiningRequired": "ᱡᱚᱲᱟᱣ ᱟᱠᱟᱱ ᱢᱟᱹᱦᱤᱛ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "passwordRequired": "ᱯᱟᱥᱣᱟᱨᱰ ᱞᱟᱹᱠᱛᱤᱭᱟ ᱾",
+      "passwordLength": "ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱢ ᱛᱮ 8 ᱜᱚᱴᱟᱝ ᱟᱠᱷᱚᱨ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤ ᱾",
+      "confirmPasswordRequired": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱢᱮ ᱾",
+      "passwordMismatch": "ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱢᱤᱫᱩᱜ ᱠᱟᱱᱟ ᱾"
+    },
+    "bulk": {
+      "title": "ᱢᱤᱫ ᱥᱟᱶᱛᱮ ᱟᱯᱞᱳᱰ ᱢᱮ",
+      "noFile": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ .csv ᱟᱨᱵᱟᱝ .xlsx/.xls ᱯᱷᱟᱭᱤᱞ ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱾",
+      "instructions": "<code>{{columns}}</code> (password ᱟᱨ flatSizeSqft ᱫᱚ ᱟᱯᱱᱟᱨ ᱠᱩᱥᱤ) ᱠᱚᱞᱚᱢ ᱢᱮᱱᱟᱜ ᱢᱤᱫ .csv ᱟᱨᱵᱟᱝ .xlsx/.xls ᱯᱷᱟᱭᱤᱞ ᱟᱯᱞᱳᱰ ᱢᱮ ᱾ ᱡᱟᱦᱟᱸ ᱨᱮ password ᱢᱮᱱᱟᱜᱼᱟ, ᱚᱱᱟ ᱫᱚ ᱥᱚᱡᱷᱮ ᱥᱮᱴᱚᱜᱼᱟ; ᱵᱟᱹᱱᱩᱜ ᱠᱷᱟᱱ ᱫᱚ ᱤᱢᱮᱞ ᱪᱟᱞᱟᱜᱼᱟ ᱾ ᱢᱤᱫ ᱚᱲᱟᱜ ᱱᱚᱢᱵᱚᱨ ᱟᱨᱵᱟᱝ ᱤᱢᱮᱞ ᱫᱚ ᱟᱞᱚᱯᱮ ᱮᱢᱟ, ᱚᱱᱟ ᱫᱚ ᱵᱟᱝ ᱦᱟᱛᱟᱣᱚᱜᱼᱟ ᱾"
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "ᱨᱮᱥᱤᱰᱮᱱᱴ ᱠᱚ ᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+    "historyLoadError": "ᱨᱤᱰᱤᱝ ᱦᱤᱥᱴᱨᱤ ᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+    "successMessage": "{{house}} ᱞᱟᱹᱜᱤᱫ {{value}} kL ᱨᱤᱰᱤᱝ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢᱛᱮ ᱨᱮᱠᱚᱨᱰ ᱮᱱᱟ (ᱢᱤᱴᱟᱨ: {{meter}})! ᱦᱤᱥᱟᱹᱵᱽ ᱟᱠᱟᱱ ᱠᱚᱱᱥᱟᱢᱯᱥᱚᱱ: {{consumption}} kL᱾",
+    "tabs": {
+      "single": "ᱢᱤᱫᱴᱟᱹᱝ ᱮᱱᱴᱨᱤ",
+      "csv": "CSV ᱟᱯᱞᱚᱰ",
+      "history": "ᱨᱤᱰᱤᱝ ᱦᱤᱥᱴᱨᱤ"
+    },
+    "source": {
+      "manual": "ᱢᱮᱱᱩᱣᱟᱞ",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "ᱱᱚᱶᱟ ᱨᱮᱥᱤᱰᱮᱱᱴ ᱟᱜ ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ ᱯᱷᱟᱭᱤᱞ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾",
+      "dateRequired": "ᱨᱤᱰᱤᱝ ᱢᱟᱹᱦᱤᱛ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+      "invalidValue": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱥᱟᱹᱨᱤ ᱟᱨ ᱡᱮᱜᱮᱛᱟᱹᱨᱤ ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱞᱮᱠᱟᱱ ᱨᱤᱰᱤᱝ ᱮᱢ ᱯᱮ᱾",
+      "duplicate": "ᱱᱚᱶᱟ ᱢᱟᱹᱦᱤᱛ ᱨᱮ ᱱᱚᱶᱟ ᱢᱤᱴᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱹᱝ ᱨᱤᱰᱤᱝ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱜᱮ ᱢᱮᱱᱟᱜᱼᱟ᱾",
+      "meterNotFound": "ᱱᱚᱶᱟ ᱢᱤᱴᱟᱨ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱨᱮᱥᱤᱰᱮᱱᱴ ᱟᱨᱦᱚᱸ ᱵᱟᱪᱷᱟᱣ ᱯᱮ᱾",
+      "lowerThanPrevious": "ᱱᱚᱶᱟ ᱨᱤᱰᱤᱝ ᱫᱚ ᱢᱟᱲᱟᱝ ᱨᱮᱠᱚᱨᱰ ᱟᱠᱟᱱ ᱨᱤᱰᱤᱝ ᱠᱷᱚᱱ ᱠᱚᱢ ᱜᱮᱭᱟ᱾",
+      "recordFailed": "ᱱᱚᱶᱟ ᱨᱤᱰᱤᱝ ᱨᱮᱠᱚᱨᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾"
+    },
+    "combo": {
+      "label": "ᱯᱷᱞᱮᱴ ᱟᱨ ᱢᱤᱴᱟᱨ ᱥᱤᱨᱤᱭᱟᱞ ᱵᱟᱪᱷᱟᱣ ᱯᱮ",
+      "placeholder": "ᱯᱷᱞᱮᱴ ᱟᱨ ᱢᱤᱴᱟᱨ ᱥᱤᱨᱤᱭᱟᱞ ᱵᱟᱪᱷᱟᱣ ᱯᱮ…",
+      "flat": "ᱯᱷᱞᱮᱴ {{house}}",
+      "noMeter": "ᱢᱤᱴᱟᱨ ᱵᱟᱹᱱᱩᱜᱼᱟ",
+      "searchPlaceholder": "ᱯᱷᱞᱮᱴ ᱱᱚᱢᱵᱚᱨ, ᱢᱤᱴᱟᱨ ᱥᱤᱨᱤᱭᱟᱞ, ᱨᱮᱥᱤᱰᱮᱱᱴ ᱠᱚ ᱯᱷᱚᱸᱫᱟ ᱯᱮ…",
+      "unitsHeader": "ᱨᱮᱥᱤᱰᱮᱱᱥᱤᱭᱟᱞ ᱭᱩᱱᱤᱴ",
+      "found": "ᱧᱟᱢ ᱟᱠᱟᱱ ᱯᱷᱞᱮᱴ: {{total}}",
+      "loading": "ᱨᱮᱥᱤᱰᱮᱱᱴ ᱞᱚᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "noMatch": "\"{{search}}\" ᱥᱟᱞᱟᱜ ᱪᱮᱫ ᱨᱮᱥᱤᱰᱮᱱᱴ ᱦᱚᱸ ᱵᱟᱝ ᱢᱮᱞᱚᱜ ᱠᱟᱱᱟ᱾",
+      "unassigned": "ᱵᱟᱝ ᱮᱢ ᱟᱠᱟᱱ",
+      "itemMeta": "{{name}} · ᱢᱩᱪᱟᱹᱫ: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "ᱞᱟᱹᱜᱤᱫ ᱨᱤᱰᱤᱝ ᱨᱮᱠᱚᱨᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ",
+      "context": "ᱚᱲᱟᱜ {{house}} · ᱢᱤᱴᱟᱨ {{meter}}",
+      "changeResident": "ᱨᱮᱥᱤᱰᱮᱱᱴ ᱵᱚᱫᱚᱞ ᱯᱮ",
+      "readingDate": "ᱨᱤᱰᱤᱝ ᱢᱟᱹᱦᱤᱛ",
+      "readingValue": "ᱱᱤᱛᱚᱜᱟᱜ ᱢᱤᱴᱟᱨ ᱨᱤᱰᱤᱝ (kL)",
+      "submit": "ᱥᱟᱹᱨᱤ ᱟᱠᱟᱱ ᱨᱤᱰᱤᱝ ᱡᱟᱢᱟ ᱯᱮ",
+      "recentTitle": "ቅር ᱨᱤᱰᱤᱝ ᱠᱚ",
+      "recentEmpty": "ᱱᱚᱶᱟ ᱢᱤᱴᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱪᱮᱫ ᱨᱤᱰᱤᱝ ᱦᱚᱸ ᱨᱮᱠᱚᱨᱰ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾"
+    },
+    "info": {
+      "title": "ᱢᱚᱱᱚᱴᱚᱱᱤᱠ ᱢᱤᱴᱟᱨ ᱵᱷᱮᱞᱤᱰᱮᱥᱚᱱ",
+      "body": "ᱡᱚᱛᱚ ᱱᱟᱶᱟ ᱨᱤᱰᱤᱝ ᱫᱚ ᱢᱟᱲᱟᱝ ᱨᱤᱰᱤᱝ ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱥᱮ ᱵᱟᱨᱟᱵᱟᱹᱨᱤ ᱦᱩᱭ ᱞᱟᱹᱠᱛᱤᱭᱟ — ᱱᱚᱶᱟ ᱫᱚ ᱠᱚᱱᱥᱟᱢᱯᱥᱚᱱ ᱦᱤᱥᱟᱹᱵᱽ ᱴᱷᱤᱠ ᱫᱚᱦᱚᱭᱟ᱾"
+    },
+    "details": {
+      "title": "ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ ᱭᱩᱱᱤᱴ ᱵᱤᱵᱚᱨᱚᱱ",
+      "flatUnit": "ᱯᱷᱞᱮᱴ ᱭᱩᱱᱤᱴ",
+      "meterSerial": "ᱢᱤᱴᱟᱨ ᱥᱤᱨᱤᱭᱟᱞ",
+      "occupant": "ᱛᱟᱦᱮᱸᱱᱤᱡ ᱧᱩᱛᱩᱢ",
+      "lastDial": "ᱢᱩᱪᱟᱹᱫ ᱨᱮᱠᱚᱨᱰ ᱟᱠᱟᱱ ᱰᱟᱭᱟᱞ",
+      "noReadings": "ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱪᱮᱫ ᱨᱤᱰᱤᱝ ᱵᱟᱹᱱᱩᱜᱼᱟ",
+      "monthConsumption": "ᱪᱟᱸᱫᱚ ᱠᱚᱱᱥᱟᱢᱯᱥᱚᱱ",
+      "empty": "ᱚᱠᱚᱭ ᱦᱚᱸ ᱚᱲᱟᱜ ᱵᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱᱟ᱾ ᱥᱮᱸᱫᱽᱨᱟ ᱠᱟᱛᱮ ᱧᱮᱞ ᱯᱮ᱾"
+    },
+    "csv": {
+      "noFile": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱢᱤᱫᱴᱟᱹᱝ CSV ᱯᱷᱟᱭᱤᱞ ᱵᱟᱪᱷᱟᱣ ᱯᱮ᱾",
+      "instructions": "<code>{{columns}}</code> ᱠᱚᱞᱚᱢ ᱥᱟᱞᱟᱜ ᱢᱤᱫᱴᱟᱹᱝ CSV ᱟᱯᱞᱚᱰ ᱯᱮ᱾"
+    },
+    "history": {
+      "loading": "ᱨᱤᱰᱤᱝ ᱞᱚᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "empty": "ᱟᱯᱮᱭᱟᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱞᱟᱹᱜᱤᱫ ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱪᱮᱫ ᱨᱤᱰᱤᱝ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾"
+    },
+    "table": {
+      "meterNumber": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ",
+      "date": "ᱢᱟᱹᱦᱤᱛ",
+      "value": "ᱢᱟᱱ (kL)",
+      "consumption": "ᱠᱚᱱᱥᱟᱢᱯᱥᱚᱱ (kL)",
+      "source": "ᱥᱚᱨᱥ"
+    }
+  },
+  "billingCycles": {
+    "title": "ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ",
+    "loadError": "ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+    "paymentUpdateError": "ᱯᱮᱢᱮᱱᱴ ᱥᱴᱮᱴᱟᱥ ᱟᱯᱰᱮᱴ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾",
+    "pdfError": "PDF ᱰᱟᱭᱩᱱᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾",
+    "finalizeError": "ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱤᱡ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾",
+    "archiveError": "ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱟᱨᱠᱟᱭᱤᱵᱽ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾",
+    "loading": "ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱞᱚᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+    "empty": "ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱪᱮᱫ ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾",
+    "status": {
+      "open": "ᱡᱷᱤᱡ ᱢᱮᱱᱟᱜᱼᱟ",
+      "finalized": "ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱤᱡᱽ ᱟᱠᱟᱱᱟ",
+      "archived": "ᱟᱨᱠᱟᱭᱤᱵᱽ ᱟᱠᱟᱱᱟ"
+    },
+    "open": {
+      "title": "ᱱᱟᱶᱟ ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱡᱷᱤᱡ ᱯᱮ",
+      "noMonth": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱪᱟᱸᱫᱚ ᱵᱟᱪᱷᱟᱣ ᱯᱮ᱾",
+      "error": "ᱪᱟᱸᱫᱚ ᱞᱟᱹᱜᱤᱫ ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱡᱷᱤᱡ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱚᱣᱟ᱾",
+      "monthAria": "ᱵᱤᱞᱤᱝ ᱯᱤᱨᱤᱭᱚᱰ ᱪᱟᱸᱫᱚ",
+      "opening": "ᱡᱷᱤᱡ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "submit": "ᱥᱟᱭᱠᱮᱞ ᱡᱷᱤᱡ ᱯᱮ"
+    },
+    "table": {
+      "period": "ᱯᱤᱨᱤᱭᱚᱰ",
+      "status": "ᱥᱴᱮᱴᱟᱥ",
+      "householdsBilled": "ᱚᱲᱟᱜ ᱵᱤᱞ ᱟᱠᱟᱱ",
+      "totalBilled": "ᱡᱚᱛᱚ ᱵᱤᱞ",
+      "actions": "ᱠᱟᱹᱢᱤᱠᱚ"
+    },
+    "actions": {
+      "finalize": "ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱤᱡᱽ",
+      "finalizing": "ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱤᱡᱽ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "archive": "ᱟᱨᱠᱟᱭᱤᱵᱽ",
+      "archiving": "ᱟᱨᱠᱟᱭᱤᱵᱽ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…"
+    },
+    "filter": {
+      "aria": "ᱯᱮᱢᱮᱱᱴ ᱥᱴᱮᱴᱟᱥ ᱞᱮᱠᱟᱛᱮ ᱯᱷᱤᱞᱴᱟᱨ",
+      "all": "ᱡᱚᱛᱚ"
+    },
+    "payment": {
+      "paid": "ᱯᱚᱭᱥᱟ ᱮᱢ ᱟᱠᱟᱱ",
+      "unpaid": "ᱵᱟᱝ ᱮᱢ ᱟᱠᱟᱱ",
+      "updating": "ᱟᱯᱰᱮᱴ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "markPaid": "ᱯᱚᱭᱥᱟ ᱮᱢ ᱢᱮᱱᱛᱮ ᱪᱤᱱᱦᱟᱹ ᱯᱮ",
+      "markUnpaid": "ᱯᱚᱭᱥᱟ ᱵᱟᱝ ᱮᱢ ᱢᱮᱱᱛᱮ ᱪᱤᱱᱦᱟᱹ ᱯᱮ"
+    },
+    "detail": {
+      "title": "ᱥᱟᱭᱠᱮᱞ ᱵᱤᱵᱚᱨᱚᱱ — {{period}}",
+      "loading": "ᱤᱱᱵᱷᱚᱭᱤᱥ ᱞᱚᱰ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…",
+      "notFinalized": "ᱱᱚᱶᱟ ᱥᱟᱭᱠᱮᱞ ᱱᱤᱛᱚᱜ ᱯᱷᱟᱭᱱᱟᱞᱟᱭᱤᱡᱽ ᱵᱟᱝ ᱦᱩᱭ ᱟᱠᱟᱱᱟ᱾",
+      "noInvoices": "ᱱᱚᱶᱟ ᱥᱟᱭᱠᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱤᱱᱵᱷᱚᱭᱤᱥ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾",
+      "noMatch": "ᱪᱮᱫ ᱤᱱᱵᱷᱚᱭᱤᱥ ᱦᱚᱸ ᱵᱟᱝ ᱢᱮᱞᱚᱜ ᱠᱟᱱᱟ᱾"
+    },
+    "invoices": {
+      "household": "ᱚᱲᱟᱜ",
+      "resident": "ᱨᱮᱥᱤᱰᱮᱱᱴ",
+      "meterNumber": "ᱢᱤᱴᱟᱨ ᱱᱚᱢᱵᱚᱨ",
+      "consumption": "ᱠᱚᱱᱥᱟᱢᱯᱥᱚᱱ (kL)",
+      "tierBreakdown": "ᱴᱤᱭᱟᱨ ᱵᱨᱮᱠᱰᱟᱣᱩᱱ",
+      "commonArea": "ᱠᱚᱢᱚᱱ ᱮᱨᱤᱭᱟ",
+      "total": "ᱡᱚᱛᱚ",
+      "paymentStatus": "ᱯᱮᱢᱮᱱᱴ ᱥᱴᱮᱴᱟᱥ",
+      "pdf": "PDF",
+      "baseLine": "ᱵᱮᱥ: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "ᱴᱤᱭᱟᱨ {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tariff ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱞᱚᱰ ᱞᱮᱱᱟ",
+    "saveError": "Tariff ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱥᱮᱵᱷ ᱞᱮᱱᱟ",
+    "chartTitle": "Active Metered Utility Rate Tiers",
+    "axisNote": "Rate ₹/kL ᱨᱮ, slab ᱞᱤᱢᱤᱴ kL ᱨᱮ",
+    "tableTitle": "Pricing Tiers Table",
+    "defaultRatesNote": "Default rates ᱫᱮᱠᱷᱟᱣᱮᱜᱼᱟ — ᱱᱤᱛᱚᱜ ᱫᱷᱟᱹᱵᱤᱡ ᱵᱟᱝ ᱥᱮᱵᱷ ᱟᱠᱟᱱᱟ",
+    "addTier": "+ Tier ᱡᱚᱲᱟᱣ ᱢᱮ",
+    "saveRates": "Tariff Rates ᱥᱮᱵᱷ ᱢᱮ",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Base)",
+      "medium": "Tier {{tier}} (Medium)",
+      "heavy": "Tier {{tier}} (Heavy)"
+    },
+    "basePrice": {
+      "label": "Base Price (₹ / kL, ᱡᱚᱛᱚ ᱵᱮᱵᱷᱟᱨ ᱨᱮ ᱞᱟᱹᱜᱩᱭᱮᱱᱟ)",
+      "note": "ᱡᱚᱛᱚ kL ᱨᱮ ᱱᱚᱣᱟ ᱫᱚᱨ ᱞᱟᱹᱜᱩᱜᱼᱟ᱾ ᱞᱟᱛᱟᱨ ᱨᱮᱱᱟᱜ slabs ᱠᱷᱟᱹᱞᱤ ᱚᱱᱟ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱮᱠᱥᱴᱨᱟ ᱪᱟᱨᱡᱽ ᱡᱚᱲᱟᱣᱟ — ᱡᱮᱢᱚᱱ 50 kL ᱠᱷᱚᱱ ᱮᱦᱚᱵᱚᱜ ᱠᱟᱱ slab ᱠᱷᱟᱹᱞᱤ 50 kL ᱠᱷᱚᱱ ᱡᱟᱹᱥᱛᱤ ᱵᱮᱵᱷᱟᱨ ᱨᱮ ᱪᱟᱨᱡᱽ ᱡᱚᱲᱟᱣᱟ᱾"
+    },
+    "table": {
+      "tierLevel": "Tier Level",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate per kL",
+      "action": "Action"
+    },
+    "commonArea": {
+      "title": "Shared Common Area Cost Configuration",
+      "loadError": "Common-area cost ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱞᱚᱰ ᱞᱮᱱᱟ",
+      "saveError": "Common-area cost ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱥᱮᱵᱷ ᱞᱮᱱᱟ",
+      "empty": "ᱟᱹᱣᱨᱤ ᱥᱮᱵᱷᱚᱜᱼᱟ᱾",
+      "labelPlaceholder": "Cost item label",
+      "perMonth": "/ ᱪᱟᱸᱫᱚ",
+      "active": "Active",
+      "addItem": "+ Cost Item ᱡᱚᱲᱟᱣ ᱢᱮ",
+      "save": "Common Area Configuration ᱥᱮᱵᱷ ᱢᱮ"
+    },
+    "distribution": {
+      "title": "Cost Distribution Method Selector",
+      "consumption": "Consumption ᱞᱮᱠᱟᱛᱮ (Sub-metered Proportional)",
+      "floorArea": "Apartment Flat Size ᱞᱮᱠᱟᱛᱮ (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Cycle Billing ᱮᱦᱚᱵ ᱢᱟᱹᱦᱤᱛ",
+      "cycleStartValue": "ᱡᱚᱛᱚ ᱪᱟᱸᱫᱚ ᱨᱮᱱᱟᱜ ᱑ ᱢᱟᱹᱦᱤᱛ",
+      "autoInvoices": "PDF Invoices ᱛᱮᱜᱮ ᱵᱮᱱᱟᱣᱚᱜᱼᱟ"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Threshold ᱯᱟᱨᱚᱢ ᱮᱱᱟ",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "config": {
+      "title": "Leak Detection Configuration",
+      "subtitle": "ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ ᱵᱮᱵᱷᱟᱨ ᱨᱮᱱᱟᱜ threshold ᱥᱮᱴ ᱢᱮ ᱟᱨ/ᱟᱨᱵᱟᱝ statistical outlier detection (ᱡᱟᱦᱟᱸᱭ ᱜᱷᱟᱨᱚᱸᱡᱽ ᱨᱮᱱᱟᱜ ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ ᱵᱮᱵᱷᱟᱨ ᱟᱹᱰᱤ ᱡᱟᱹᱥᱛᱤ ᱧᱮᱞᱚᱜᱼᱟ) ᱮᱱᱮᱵᱚᱞ ᱢᱮ᱾",
+      "loadError": "Alert ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱞᱚᱰ ᱞᱮᱱᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+      "thresholdRequired": "Threshold alerts ᱮᱱᱮᱵᱚᱞ ᱞᱮᱱᱠᱷᱟᱱ ᱢᱤᱫ ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ threshold (kL) ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+      "saveError": "ᱱᱚᱣᱟ ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱵᱟᱝ ᱥᱮᱵᱷ ᱞᱮᱱᱟ᱾",
+      "loading": "ᱠᱚᱱᱯᱷᱤᱜᱟᱨᱮᱥᱚᱱ ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+      "threshold": "ᱪᱟᱸᱫᱚᱠᱤᱭᱟᱹ threshold (kL)",
+      "sensitivity": "Outlier sensitivity (σ multiplier)",
+      "enableThreshold": "Threshold alerts ᱮᱱᱮᱵᱚᱞ ᱢᱮ",
+      "enableOutlier": "Statistical outlier alerts ᱮᱱᱮᱵᱚᱞ ᱢᱮ",
+      "save": "Configuration ᱥᱮᱵᱷ ᱢᱮ",
+      "running": "ᱪᱟᱹᱞᱩᱜ ᱠᱟᱱᱟ…",
+      "runNow": "ᱱᱤᱛᱚᱜ Detection ᱪᱟᱹᱞᱩ ᱢᱮ"
+    },
+    "alerts": {
+      "title": "Flagged Households",
+      "loadError": "Alerts ᱵᱟᱝ ᱞᱚᱰ ᱞᱮᱱᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+      "runError": "Leak detection ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱪᱟᱹᱞᱩ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+      "updateError": "ᱱᱚᱣᱟ alert ᱵᱟᱝ ᱟᱯᱰᱮᱴ ᱞᱮᱱᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+      "allStatuses": "ᱡᱚᱛᱚ statuses",
+      "loading": "Alerts ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+      "empty": "ᱫᱮᱠᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ alert ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾ Threshold ᱥᱮᱴ ᱢᱮ ᱟᱨᱵᱟᱝ outlier detection ᱮᱱᱮᱵᱚᱞ ᱢᱮ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ \"Run Detection Now\" ᱨᱮ ᱠᱞᱤᱠ ᱠᱟᱛᱮ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱨᱮᱱᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱧᱮᱞ ᱢᱮ᱾",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss"
+    },
+    "table": {
+      "household": "Household",
+      "resident": "Resident",
+      "meter": "Meter",
+      "type": "Type",
+      "period": "Period",
+      "consumption": "Consumption",
+      "reference": "Reference",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Bulk water purchases ᱵᱟᱝ ᱞᱚᱰ ᱞᱮᱱᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+    "confirmRemove": "{{date}} ᱨᱮᱱᱟᱜ {{source}} ᱰᱮᱞᱤᱵᱷᱚᱨᱤ ᱚᱪᱚᱜᱟ? ",
+    "removeError": "ᱱᱚᱣᱟ purchase ᱵᱟᱝ ᱚᱪᱚᱜ ᱞᱮᱱᱟ᱾ ᱫᱚᱦᱲᱟ ᱨᱤᱛᱩ ᱢᱮ᱾",
+    "count": "Purchases ᱨᱮᱠᱚᱨᱰ ᱟᱠᱟᱱᱟ: {{total}}",
+    "recordButton": "+ Purchase ᱨᱮᱠᱚᱨᱰ ᱢᱮ",
+    "loading": "Bulk water purchases ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+    "empty": "ᱪᱮᱫ bulk water purchase ᱦᱚᱸ ᱵᱟᱝ ᱨᱮᱠᱚᱨᱰ ᱟᱠᱟᱱᱟ᱾ Tanker delivery ᱥᱮ municipal supply ᱨᱮᱠᱚᱨᱰ ᱞᱟᱹᱜᱤᱫ \"Record Purchase\" ᱨᱮ ᱠᱞᱤᱠ ᱢᱮ᱾",
+    "table": {
+      "date": "Date",
+      "source": "Source",
+      "volume": "Volume (L)",
+      "unitCost": "Unit Cost",
+      "totalCost": "Total Cost",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Bulk Water Purchase ᱨᱮᱠᱚᱨᱰ ᱢᱮ",
+      "editTitle": "Bulk Water Purchase Edit ᱢᱮ",
+      "subtitle": "ᱟᱯᱮᱱᱟᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱞᱟᱹᱜᱤᱫ tanker delivery ᱥᱮ municipal supply ᱴᱨᱮᱠ ᱢᱮ — ᱱᱚᱣᱟ ᱠᱷᱟᱹᱞᱤ ᱠᱷᱚᱨᱚᱪ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱨᱮᱠᱚᱨᱰ ᱦᱩᱭᱩᱜᱼᱟ ᱟᱨ ᱚᱲᱟᱜ ᱨᱮᱱᱟᱜ invoices ᱨᱮ ᱪᱮᱫ ᱦᱚᱸ ᱚᱨᱥᱚᱝ ᱵᱟᱝ ᱯᱟᱲᱟᱜᱼᱟ᱾",
+      "requiredFields": "ᱢᱟᱹᱦᱤᱛ, source, volume, ᱟᱨ unit cost ᱯᱮᱨᱮᱡ ᱢᱮ᱾",
+      "saveError": "ᱱᱚᱣᱟ purchase ᱵᱟᱝ ᱥᱮᱵᱷ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ details ᱧᱮᱞ ᱢᱮ᱾",
+      "purchaseDate": "Purchase date",
+      "source": "Source / supplier",
+      "volume": "Volume (liters)",
+      "unitCost": "Unit cost (₹/liter)",
+      "totalPreview": "Total cost: {{amount}}",
+      "notes": "Notes (optional)",
+      "submit": "Purchase ᱨᱮᱠᱚᱨᱰ ᱢᱮ"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ᱫᱚ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱᱟ",
+    "profileSaveError": "ᱟᱢᱟᱜ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱵᱟᱝ ᱥᱮᱵᱽ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱢᱮ᱾",
+    "apartmentSaveError": "ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱵᱤᱵᱚᱨᱚᱱ ᱵᱟᱝ ᱥᱮᱵᱽ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱢᱮ᱾",
+    "specsTitle": "ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱥᱯᱮᱥᱤᱯᱷᱤᱠᱮᱥᱚᱱ",
+    "photoUnavailable": "ᱯᱷᱚᱴᱚ ᱟᱯᱞᱳᱰ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ",
+    "changePhoto": "ᱯᱷᱚᱴᱚ ᱵᱚᱫᱚᱞ ᱢᱮ",
+    "deletePhoto": "ᱢᱮᱴᱟᱣ",
+    "photoHint": "JPG ᱟᱨᱵᱟᱝ PNG. ᱡᱟᱹᱥᱛᱤ ᱨᱮ 2MB.",
+    "saveProfile": "ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱥᱮᱵᱽ ᱢᱮ",
+    "apartmentTitle": "ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱵᱤᱵᱚᱨᱚᱱ",
+    "saveApartment": "ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱵᱤᱵᱚᱨᱚᱱ ᱥᱮᱵᱽ ᱢᱮ",
+    "tabs": {
+      "profile": "ᱯᱨᱚᱯᱷᱟᱭᱤᱞ ᱥᱮᱴᱤᱝ",
+      "apartment": "ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ",
+      "notifications": "ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱨᱩᱞ",
+      "billing": "ᱵᱤᱞᱤᱝ ᱤᱱᱴᱮᱜᱨᱮᱥᱚᱱ",
+      "security": "ᱥᱩᱨᱚᱠᱷᱭᱟ ᱟᱨ ᱮᱠᱥᱮᱥ"
+    },
+    "fields": {
+      "fullName": "ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ",
+      "email": "ᱤᱢᱮᱞ ᱮᱰᱨᱮᱥ",
+      "emailLocked": "ᱱᱚᱰᱮ ᱤᱢᱮᱞ ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱜᱟᱱᱚᱜᱼᱟ",
+      "phone": "ᱯᱷᱚᱱ ᱱᱚᱢᱵᱚᱨ",
+      "accessLevel": "ᱮᱠᱥᱮᱥ ᱞᱮᱵᱚᱞ",
+      "accessLevelValue": "ᱠᱚᱢᱩᱱᱤᱴᱤ ᱮᱰᱢᱤᱱᱤᱥᱴᱨᱮᱴᱚᱨ",
+      "roleLocked": "ᱨᱚᱞ ᱢᱮᱱᱮᱡᱽᱢᱮᱱᱴ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ",
+      "apartmentName": "ᱟᱯᱟᱨᱴᱢᱮᱱᱴ ᱧᱩᱛᱩᱢ",
+      "mainsSource": "ᱢᱮᱭᱱᱥ ᱥᱳᱨᱥ",
+      "mainsSourcePlaceholder": "ᱡᱮᱢᱚᱱ, Municipal Supply + Supplemental Tankers",
+      "address": "ᱥᱚᱨᱟᱥᱚᱨᱤ ᱮᱰᱨᱮᱥ"
+    },
+    "security": {
+      "title": "ᱥᱩᱨᱚᱠᱷᱭᱟ ᱟᱨ ᱮᱠᱥᱮᱥ ᱯᱨᱤᱵᱷᱤᱭᱩ",
+      "twoFactor": "ᱴᱩ-ᱯᱷᱮᱠᱴᱚᱨ ᱚᱛᱷᱮᱱᱴᱤᱠᱮᱥᱚᱱ",
+      "twoFactorHint": "ᱞᱚᱜᱤᱱ ᱨᱮ ᱪᱟᱹᱞᱩ ᱟᱠᱟᱱᱟ",
+      "twoFactorUnavailable": "ᱴᱩ-ᱯᱷᱮᱠᱴᱚᱨ ᱚᱛᱷᱮᱱᱴᱤᱠᱮᱥᱚᱱ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ",
+      "twoFactorAria": "ᱴᱩ-ᱯᱷᱮᱠᱴᱚᱨ ᱚᱛᱷᱮᱱᱴᱤᱠᱮᱥᱚᱱ (ᱥᱩᱢᱩᱝ ᱯᱨᱤᱵᱷᱤᱭᱩ)",
+      "sessionsLabel": "ᱪᱟᱹᱞᱩ ᱢᱮᱱᱟᱜ ᱮᱰᱢᱤᱱ ᱥᱮᱥᱚᱱ",
+      "sessionsEmpty": "ᱥᱮᱥᱚᱱ ᱴᱨᱮᱠᱤᱝ ᱱᱤᱛᱚᱜ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ — ᱱᱚᱣᱟ ᱫᱚ ᱦᱤᱡᱩᱜ ᱠᱟᱱ ᱞᱮᱭᱟᱩᱴ ᱨᱮᱱᱟᱜ ᱯᱨᱤᱵᱷᱤᱭᱩ ᱠᱟᱱᱟ᱾"
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "ᱤᱧᱟᱜ ᱴᱤᱠᱮᱴ",
+      "inbox": "ᱨᱮᱥᱤᱰᱮᱱᱴ ᱴᱤᱠᱮᱴ"
+    },
+    "mine": {
+      "title": "ᱤᱧᱟᱜ ᱥᱚᱯᱚᱨᱴ ᱴᱤᱠᱮᱴ",
+      "subtitle": "ᱥᱤᱥᱴᱮᱢ ᱮᱰᱢᱤᱱ ᱴᱷᱮᱱ ᱟᱢᱟᱜ ᱠᱚᱢᱩᱱᱤᱴᱤ ᱵᱟᱵᱚᱛ ᱠᱩᱠᱞᱤ ᱟᱨᱵᱟᱝ ᱪᱤᱱᱛᱟᱹ ᱨᱟᱠᱟᱵ ᱢᱮ᱾",
+      "emptyCreateHint": "ᱟᱢᱟᱜ ᱠᱚᱢᱩᱱᱤᱴᱤ ᱵᱟᱵᱚᱛ ᱠᱩᱠᱞᱤ ᱟᱨᱵᱟᱝ ᱪᱤᱱᱛᱟᱹ ᱨᱟᱠᱟᱵ ᱢᱮ᱾ ᱥᱤᱥᱴᱮᱢ ᱮᱰᱢᱤᱱ ᱮ ᱧᱮᱞᱟ ᱟᱨ ᱱᱚᱰᱮᱭ ᱡᱟᱵᱟᱵᱟ᱾"
+    },
+    "inbox": {
+      "title": "ᱨᱮᱥᱤᱰᱮᱱᱴ ᱴᱤᱠᱮᱴ",
+      "subtitle": "ᱟᱢᱟᱜ ᱠᱚᱢᱩᱱᱤᱴᱤ ᱨᱮᱱ ᱦᱚᱲ ᱠᱚᱣᱟᱜ ᱥᱚᱯᱚᱨᱴ ᱴᱤᱠᱮᱴ ᱟᱨ ᱪᱤᱱᱛᱟᱹ ᱠᱚ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱩᱱᱠᱩ ᱟᱢ ᱠᱚ ᱞᱟᱹᱭ ᱟᱠᱟᱫᱟ᱾"
+    }
+  }
+}

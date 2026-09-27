@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kuza vuba",
+    "welcome": {
+      "greeting": "Mwaramutse {{name}},",
+      "greetingFallback": "Mwaramutse hano,",
+      "title": "Guma hafi y'amateka y'urugo rwawe.",
+      "subtitle": "Imikoreshereze no kwishyuza bizagaragara hano nkibisomwa byabaturage.",
+      "viewBadges": "Reba Ibidukikije"
+    },
+    "stats": {
+      "todaysUsage": "Imikoreshereze yuyu munsi",
+      "asOf": "Kuva kuri {{date}}",
+      "noReading": "Nta metero yo gusoma",
+      "monthlyTotalFor": "Ukwezi kwose ({{month}})",
+      "monthlyTotalThisMonth": "Ukwezi kwose (uku kwezi)",
+      "sumOfReadings": "Igiteranyo cyasomwe",
+      "estimatedBill": "Umushinga uteganijwe",
+      "estimatedBillFor": "Ikigereranyo cyakoreshejwe + amafaranga asangiwe, {{month}}",
+      "estimatedBillHint": "Ukurikije ukwezi kwakoreshejwe kugereranijwe hamwe no kugabana amafaranga",
+      "savings": "Kuzigama vs Kubaka Avg",
+      "savingsValue": "{{percent}}% Hasi",
+      "savingsPreview": "Reba gusa - kugereranya bitarabaho"
+    },
+    "consumption": {
+      "eyebrow": "Gukoresha",
+      "title": "Ibiryo bya buri munsi (Ibisomwa 14 byanyuma)",
+      "seriesName": "Gukoresha",
+      "empty": "Nta bisomwa byanditswe."
+    },
+    "breakdown": {
+      "eyebrow": "Gusenyuka",
+      "title": "Gukoresha Kumeneka",
+      "bathroom": "Ubwiherero",
+      "kitchen": "Igikoni",
+      "garden": "Ubusitani / Balcony",
+      "other": "Ibindi / kumesa"
+    },
+    "billing": {
+      "eyebrow": "Kwishyuza",
+      "title": "Ukwezi kwishyurwa",
+      "finalized": "Byarangiye",
+      "preview": "Imbere",
+      "meteredConsumption": "Ikoreshwa ryapimwe",
+      "tierPriceLevel": "Urwego rwibiciro",
+      "tierLabel": "Urwego {{tier}}",
+      "commonArea": "Igabana rusange",
+      "commonAreaPreview": "Kugabana ahantu hasanzwe (kureba)",
+      "invoiceTotal": "{{period}} invoice total",
+      "estimatedCharge": "Amafaranga yagereranijwe",
+      "commonAreaBreakdown": "Igice rusange gisenyuka",
+      "payPreview": "Kwishura Umushinga",
+      "payUnavailable": "Moteri yo kwishyuza itaraboneka"
+    },
+    "tips": {
+      "eyebrow": "Inama",
+      "title": "Inama zo Kuzigama Zubwenge",
+      "viewAll": "Reba byose",
+      "empty": "Inama yihariye igaragara hano nyuma yuko umuryango wawe urangije kwishyuza."
+    },
+    "community": "Umuryango: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ntushobora kwikorera amateka yawe yo gukoresha. Nyamuneka gerageza.",
+    "loading": "Gupakira imikoreshereze yawe…",
+    "empty": "Nta bisomwa byanditswe. Umuganda wawe umaze kwandika metero yasomwe, bizerekanwa hano.",
+    "tabs": {
+      "lastSixMonths": "Amezi 6 ashize",
+      "customRange": "Urutonde rwumukiriya",
+      "comingSoon": "Kuza vuba"
+    },
+    "peakDay": "Umunsi w'impinga:",
+    "lowestDay": "Umunsi wo hasi:",
+    "comparison": {
+      "title": "Ikoreshwa ryurugo vs Ikigereranyo cyamazu",
+      "subtitle": "Ukwezi kwuzuye kwerekanwa muri kiloliteri (kL).",
+      "yourHousehold": "Urugo rwawe",
+      "apartmentAverage": "Ikigereranyo cy'amagorofa",
+      "similarSized": "Amazu asa-manini"
+    },
+    "heatmap": {
+      "title": "Ubushyuhe bwa buri munsi",
+      "subtitle": "Ibara ryinshi ryibendera rikoresha iminsi iremereye (kureba)."
+    },
+    "ranking": {
+      "title": "Urutonde rwabaturage",
+      "subtitle": "Urwego rwawe ugereranije nibice bisa (kureba).",
+      "ecoSaver": "Igikoresho gikora neza",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Igice {{number}}",
+      "yourUnit": "Igice cyawe",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "# {{rank}} {{unit}} (Wowe)"
+    }
+  },
+  "billing": {
+    "loadError": "Ntushobora kwishyiriraho amateka yo kwishyuza. Nyamuneka gerageza.",
+    "pdfError": "Ntushobora gukuramo PDF. Nyamuneka gerageza.",
+    "loading": "Gupakira amateka yo kwishyuza…",
+    "empty": "Nta fagitire kugeza ubu - umuryango wawe umaze kurangiza kwishyuza, fagitire yawe izerekanwa hano.",
+    "status": {
+      "paid": "Yishyuwe",
+      "unpaid": "Yishyuwe"
+    },
+    "summary": {
+      "outstandingBalance": "Impirimbanyi zidasanzwe",
+      "billingCycle": "Inzira yo kwishyuza: {{period}}",
+      "allPaid": "Inyemezabuguzi zose zishyuwe",
+      "payTotal": "Kwishura Indashyikirwa",
+      "payTotalUnavailable": "Kwishura kumurongo ntibiraboneka - gukemura fagitire hamwe numuyobozi wumuryango wawe",
+      "downloadSummary": "Kuramo Incamake ya Bill",
+      "downloadSummaryUnavailable": "Gukuramo incamake yumushinga nturaboneka"
+    },
+    "history": {
+      "title": "Inyemezabuguzi",
+      "exportCsv": "Kohereza Byose Kuri CSV",
+      "exportUnavailable": "CSV ibyoherezwa hanze ntibiraboneka"
+    },
+    "table": {
+      "cycle": "Ukuzenguruka",
+      "usage": "Ikoreshwa (kL)",
+      "amountDue": "Umubare Ukwiye",
+      "paymentStatus": "Imiterere yo Kwishura",
+      "hideBreakdown": "Hisha Kumeneka ↑",
+      "showBreakdown": "Gusenyuka Ikintu ↓",
+      "downloading": "Gukuramo…",
+      "pdf": "PDF",
+      "pay": "Kwishura"
+    },
+    "breakdown": {
+      "householdTitle": "Gusenyuka kw'urugo",
+      "basePrice": "Igiciro fatizo: {{units}} kL × ₹ {{rate}}",
+      "tierLine": "Urwego {{tier}}: {{units}} kL × ₹ {{rate}}",
+      "subtotalMetered": "Ikoreshwa rya Subtotal",
+      "commonAreaTitle": "Igabana Rusange",
+      "subtotalShared": "Agace gasangiwe",
+      "noCommonArea": "Ntamafaranga asangiwe-rusange yishyurwa kuriyi nzinguzingo."
+    },
+    "pagination": {
+      "showing": "Kwerekana {{from}} - {{to}} ya {{total}}",
+      "prev": ". Ibanza",
+      "next": "Ibikurikira →",
+      "page": "Urupapuro {{page}} rwa {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Uburyo bwo kwishyura (preview)",
+      "description": "Kwishura kumurongo ntibiraboneka - fagitire zikemurwa numuyobozi wumuryango wawe muburyo butaziguye.",
+      "manage": "Gucunga Uburyo bwo Kwishura",
+      "manageUnavailable": "Uburyo bwo kwishyura ntiburaboneka"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Yizewe na Razorpay",
+    "billingCycle": "Inzira yo kwishyuza {{period}}",
+    "close": "Funga",
+    "amountPayable": "Amafaranga yishyuwe",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Ikarita",
+      "netbanking": "Netbanking",
+      "wallet": "Umufuka"
+    },
+    "upi": {
+      "title": "Kwishura ukoresheje UPI",
+      "upiId": "UPI Indangamuntu",
+      "or": "CYANGWA",
+      "scan": "Sikana hamwe na porogaramu iyo ari yo yose UPI"
+    },
+    "card": {
+      "title": "Kwishura ukoresheje Ikarita",
+      "number": "Inomero y'amakarita",
+      "expiry": "Igihe kirangiye",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Izina ku Ikarita",
+      "namePlaceholder": "Nkuko byanditswe ku ikarita"
+    },
+    "netbanking": {
+      "title": "Kwishura ukoresheje Netbanking"
+    },
+    "wallet": {
+      "title": "Kwishura ukoresheje Umufuka"
+    },
+    "payAmount": "Kwishura ₹ {{amount}}",
+    "processing": "Gutunganya ubwishyu bwawe…",
+    "processingHint": "Nyamuneka ntugasubize inyuma cyangwa ngo usubize iyi page",
+    "success": "Kwishura Byagenze neza",
+    "error": "Ikintu kitagenze neza cyemeza ko wishyuye. Nyamuneka gerageza.",
+    "retry": "Ongera ugerageze"
+  },
+  "notifications": {
+    "loadError": "Ntushobora gupakira amatangazo yawe. Nyamuneka gerageza.",
+    "loading": "Gupakira amatangazo yawe…",
+    "empty": "Nta menyesha kugeza ubu - uzabona ikintu hano niba umuyobozi wumuryango wawe yarashoboje imikoreshereze-ntarengwa cyangwa imikoreshereze idasanzwe-yo gukoresha kandi imwe ikorerwa urugo rwawe.",
+    "type": {
+      "thresholdExceeded": "Imipaka ntarengwa yakoreshejwe",
+      "statisticalOutlier": "Ibiryo bidasanzwe Byamenyekanye"
+    },
+    "status": {
+      "active": "Bikora",
+      "resolved": "Byakemutse",
+      "dismissed": "Kwirukanwa"
+    },
+    "billingPeriod": "Igihe cyo kwishyuza: {{period}}",
+    "consumption": "Imikoreshereze: {{value}} kL",
+    "push": {
+      "title": "Shyira amatangazo",
+      "description": "Menyeshwa kuri iki gikoresho mugihe fagitire nshya cyangwa integuza yinjiye.",
+      "enable": "Gushoboza",
+      "disable": "Hagarika",
+      "permissionDenied": "Uruhushya rwo kumenyesha ntirwatanzwe.",
+      "notConfigured": "Kumenyesha gusunika ntabwo byashyizweho kugeza ubu. Menyesha umuyobozi wawe.",
+      "enableError": "Ntushobora gusunika imenyesha. Nyamuneka gerageza.",
+      "disableError": "Ntushobora guhagarika kumenyesha. Nyamuneka gerageza."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ntushobora kwishyiriraho ibyifuzo byawe. Nyamuneka gerageza.",
+    "loading": "Gupakira inama zawe bwite…",
+    "generated": "Byakozwe {{date}}",
+    "generatedForPeriod": "Byakozwe {{date}} mugihe cyo kwishyuza {{period}}",
+    "eyebrow": "Wenyine kuri wewe",
+    "title": "Inama nziza yo kuzigama amazi",
+    "empty": "Nta nama zitangwa kugeza ubu - zisubirwamo mu buryo bwikora igihe cyose umuryango wawe urangije kwishyuza urugo rwawe."
+  },
+  "support": {
+    "title": "Inkunga yabatuye & Ibibazo",
+    "subtitle": "Tanga raporo yamenetse, ibyifuzo bya kalibrasi ya metero, cyangwa ibibazo byo kwishyuza kubuyobozi bwumuryango wawe hamwe na / cyangwa umuyobozi wa sisitemu.",
+    "emptyCreateHint": "Sobanura ikibazo cyawe cyangwa impungenge hepfo aha, hanyuma uhitemo uwagikemura."
+  }
+}

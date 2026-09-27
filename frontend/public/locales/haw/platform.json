@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "ʻeleu",
+    "blocked": "Kāohi ʻia",
+    "terminated": "Hoʻopau ʻia"
+  },
+  "sort": {
+    "sortBy": "Hoʻokaʻawale",
+    "toggleDirection": "E hoʻololi i ke kuhikuhi ʻana",
+    "asc": "↑ Asc",
+    "desc": "↓ Hōʻike"
+  },
+  "pagination": {
+    "showing": "Hōʻike ʻia {{from}}–{{to}} o {{total}}",
+    "prev": "← Mamua",
+    "next": "Aʻe →",
+    "page": "ʻAoʻao {{page}} o {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Hōʻikeʻike Papahana",
+    "subtitle": "ʻO kēlā me kēia alakaʻi kaiaulu i hoʻopaʻa inoa ʻia, ma ke kahua HydroLedger holoʻokoʻa.",
+    "viewAll": "Nānā i nā Kaiāulu a pau",
+    "loadError": "ʻAʻole hiki ke hoʻouka i ka ʻikepili paepae i kēia manawa.",
+    "cards": {
+      "totalCommunities": "Huina Hui",
+      "registeredAdmins": "Nā luna hoʻopaʻa inoa",
+      "totalResidents": "Huina Noho",
+      "acrossAllCommunities": "Ma nā kaiaulu a pau",
+      "active": "ʻeleu",
+      "inGoodStanding": "Ma ke kūlana maikaʻi",
+      "blockedTerminated": "Kāohi ʻia / hoʻopau ʻia",
+      "blockedTerminatedBreakdown": "{{blocked}} ālai ʻia, {{terminated}} hoʻopau ʻia"
+    },
+    "recent": {
+      "title": "Nā Kaiāulu i hoʻopaʻa inoa hou ʻia",
+      "loading": "Ke hoʻouka nei…",
+      "empty": "ʻAʻohe kaiaulu i hoʻopaʻa inoa ʻia.",
+      "table": {
+        "community": "Kaiāulu",
+        "admin": "Admin",
+        "status": "Kūlana",
+        "residents": "Nā kamaʻāina"
+      }
+    }
+  },
+  "communities": {
+    "count": "Kaiaulu: {{count}}",
+    "loadError": "ʻAʻole hiki ke hoʻouka i nā kaiāulu. E ʻoluʻolu e hoʻāʻo hou.",
+    "searchPlaceholder": "E kānana ma ke kaiāulu, ka inoa luna, a i ʻole ka leka uila",
+    "statusFilter": {
+      "label": "Kūlana",
+      "all": "ʻO nā mea a pau"
+    },
+    "sortOptions": {
+      "community": "Kaiāulu",
+      "admin": "Admin",
+      "residents": "Nā kamaʻāina"
+    },
+    "loading": "Ke hoʻouka nei i nā kaiāulu…",
+    "empty": "ʻAʻohe kaiaulu i hoʻopaʻa inoa ʻia.",
+    "noMatch": "ʻAʻohe kaiaulu i kūlike i kāu mau kānana.",
+    "table": {
+      "community": "Kaiāulu",
+      "admin": "Admin",
+      "email": "leka uila",
+      "status": "Kūlana",
+      "residents": "Nā kamaʻāina",
+      "view": "Nānā"
+    }
+  },
+  "communityDetail": {
+    "loadError": "ʻAʻole hiki ke hoʻouka i kēia kaiaulu. Ua wehe ʻia paha.",
+    "statusUpdateError": "ʻAʻole hiki ke hōʻano hou i ke kūlana o kēia kaiāulu.",
+    "deleteError": "ʻAʻole hiki ke holoi i kēia kaiaulu.",
+    "loading": "Hoʻouka kaiaulu…",
+    "notFound": "ʻAʻole i loaʻa ke kaiāulu.",
+    "backLink": "← Hoʻi i nā Kaiāulu",
+    "backLinkShort": "Hoʻi i nā Kaiāulu",
+    "eyebrow": "Palapala Kaiaulu",
+    "unnamed": "Kaiāulu inoa ʻole",
+    "noAddress": "ʻAʻohe helu wahi ma ka waihona",
+    "stats": {
+      "residents": "Nā kamaʻāina",
+      "status": "Kūlana"
+    },
+    "actions": {
+      "reactivate": "Hoʻola hou",
+      "block": "Palaka",
+      "terminate": "Hoʻopau",
+      "delete": "Holoi Kaiaulu"
+    },
+    "blockDialog": {
+      "title": "Kāohi i kēia luna kaiaulu?",
+      "message": "Kāleka {{name}}? ʻAʻole hiki iā lākou ke komo a wehe ʻia. ʻAʻole pili ka ʻikepili.",
+      "confirm": "Palaka"
+    },
+    "terminateDialog": {
+      "title": "Hoʻopau i kēia luna kaiaulu?",
+      "message": "E hoʻopau mau i ke komo ʻana o {{name}}? ʻAʻole hiki ke hoʻopau ʻia, ʻoiai e mālama ʻia ka ʻikepili o ko lākou kaiāulu no nā moʻolelo.",
+      "confirm": "Hoʻopau"
+    },
+    "deleteDialog": {
+      "title": "Holoi i kēia kaiaulu?",
+      "message": "E holoi mau ana kēia i <strong>{{name}}</strong> a me kona mau ʻohana a pau, nā kamaʻāina, nā mika, ka hoʻonohonoho hoʻonohonoho pili kālā, a me ka mōʻaukala invoice. ʻAʻole hiki ke hoʻopau ʻia kēia hana.",
+      "typeToConfirm": "Kaomi <strong>{{word}}</strong> e hoʻomau",
+      "confirm": "E hōʻoia"
+    },
+    "residents": {
+      "title": "Nā kamaʻāina",
+      "registeredCount": "Kakau ʻia: {{count}}",
+      "empty": "ʻAʻohe kamaʻāina i hoʻopaʻa inoa ʻia ma kēia kaiāulu.",
+      "table": {
+        "flatUnit": "Huina Palahalaha",
+        "meter": "Mika",
+        "resident": "kamaaina",
+        "email": "leka uila",
+        "passwordSet": "Kau ʻōlelo huna"
+      },
+      "yes": "ʻAe",
+      "no": "ʻAʻole"
+    },
+    "cancel": "Hoʻopau",
+    "working": "Ke hana nei…",
+    "deleting": "Holoi ana…"
+  },
+  "systemStatus": {
+    "statusError": "ʻAʻole hiki ke hōʻea i ka hope e nānā i ke kūlana ʻōnaehana.",
+    "metricsError": "ʻAʻole hiki ke hoʻouka i ka mōʻaukala ana.",
+    "ranges": {
+      "fiveMinutes": "5 minuke",
+      "fifteenMinutes": "15 minuke",
+      "hour": "Hola",
+      "day": "Lā",
+      "week": "Pule",
+      "month": "Mahina",
+      "threeMonths": "3 mahina"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Noi/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} hope loa",
+      "loading": "Ke hoʻouka nei…",
+      "empty": "ʻAʻohe ana i hoʻopaʻa ʻia no kēia pae."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Awelika: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Hope: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API hope",
+      "checking": "Ke nānā nei…",
+      "reachable": "Hiki ke kii",
+      "unreachable": "Hiki ʻole ke kiʻi ʻia",
+      "connected": "Hoʻopili ʻia",
+      "backendApiHint": "Ua hoʻouka ʻia kēia ʻaoʻao mai ke kua, no laila ua pane mai.",
+      "database": "waihona waihona",
+      "databaseHint": "ʻO ka pilina PostgreSQL, nānā ola.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Mai ka hoʻomaka hou ʻana o ka noi hope.",
+      "appVersion": "Manaʻo App",
+      "appVersionHint": "mana kūkulu hope."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Heluhelu Latency",
+      "writesLatency": "Kākau Latency",
+      "otherLatency": "Latency ʻē aʻe",
+      "connections": "Hoʻohui",
+      "totalKeys": "Huina Ki"
+    },
+    "note": "Hoʻohālikelike ʻia nā noi/sec a me ka latency mai nā kaʻa backend ola i kēlā me kēia 15 kekona a mālama ʻia a hiki i 100 lā. ʻO kēia kahi pilina pili + mākaʻikaʻi - ʻaʻole ia e pani i ka nānā ʻana i ka hana noiʻi holoʻokoʻa, ka hōʻuluʻulu log, a i ʻole ka makaʻala."
+  },
+  "reports": {
+    "loadError": "ʻAʻole hiki ke hoʻouka i ka hōʻike paepae.",
+    "ranges": {
+      "threeMonths": "3 mahina",
+      "sixMonths": "6 mahina",
+      "twelveMonths": "12 mahina",
+      "custom": "Kuʻuna"
+    },
+    "sortOptions": {
+      "community": "Kaiāulu",
+      "usage": "Hoʻohana",
+      "billed": "Pili ʻia",
+      "residents": "Nā kamaʻāina"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "I ka",
+      "hint": "E koho i ka mahina \"mai\" a me \"i\" no ka hoʻouka ʻana i kahi hōʻike maʻamau."
+    },
+    "loading": "Ke hoʻouka nei i ka hōʻike…",
+    "cards": {
+      "totalCommunities": "Huina Hui",
+      "inThisRange": "Ma keia laula",
+      "totalResidents": "Huina Noho",
+      "acrossAllCommunities": "Ma nā kaiaulu a pau",
+      "overallUsage": "Hoʻohana holoʻokoʻa",
+      "meteredConsumption": "Hoʻohana mika",
+      "overallBilled": "Huina Pili",
+      "finalizedInvoicesOnly": "Hoʻopau ʻia nā invoice wale nō",
+      "avgUsagePerResident": "Awg hoʻohana / kamaʻāina",
+      "avgBillPerResident": "Pili / Noho"
+    },
+    "charts": {
+      "usageTitle": "Ka hoʻohana ʻana i ka paepae ākea (kL / mahina)",
+      "usageEmpty": "ʻAʻohe hoʻohana i hoʻopaʻa ʻia no kēia pae.",
+      "usageSeries": "Hoʻohana",
+      "billedTitle": "Ka huina kālā i hoʻolimalima ʻia ma ka paepae (₹ / mahina)",
+      "billedEmpty": "ʻAʻohe pepa i hoʻopaʻa ʻia no kēia pae.",
+      "billedSeries": "Pili ʻia"
+    },
+    "searchPlaceholder": "Kānana ma ka inoa kaiaulu a i ʻole ka inoa luna",
+    "empty": "ʻAʻohe kaiaulu i loaʻa ka ʻikepili hoʻohana a pili kālā paha no kēia pae.",
+    "noMatch": "ʻAʻohe kaiaulu e like me kāu kānana.",
+    "table": {
+      "community": "Kaiāulu",
+      "admin": "Admin",
+      "residents": "Nā kamaʻāina",
+      "usage": "Hoʻohana (kL)",
+      "billed": "Pili ʻia (₹)",
+      "avgUsagePerResident": "Awg hoʻohana / kamaʻāina",
+      "avgBillPerResident": "Pili / Noho"
+    }
+  },
+  "supportTickets": {
+    "title": "Kākoʻo Tickets",
+    "subtitle": "Kākoʻo i nā tiketi a me nā hopohopo i hāpai ʻia e nā kamaʻāina a me nā alakaʻi kaiāulu, ma ka pae ākea."
+  }
+}

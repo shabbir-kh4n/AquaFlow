@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import i18next from 'i18next'
+import { Trans, useTranslation } from 'react-i18next'
 import { listResidents } from '../../api/residentApi'
 import { bulkUploadUsageCsv, listUsageReadings, recordUsageReading } from '../../api/meterUsageApi'
 import '../../components/AuthForm.css'
@@ -14,12 +16,21 @@ const EMPTY_READING_FORM = {
 }
 
 const TABS = [
-  { id: 'single', label: 'Single Entry' },
-  { id: 'csv', label: 'Bulk CSV Upload' },
-  { id: 'history', label: 'Reading History' },
+  { id: 'single', labelKey: 'meterReadings.tabs.single' },
+  { id: 'csv', labelKey: 'meterReadings.tabs.csv' },
+  { id: 'history', labelKey: 'meterReadings.tabs.history' },
 ]
 
+const SOURCE_LABELS = {
+  MANUAL: 'meterReadings.source.manual',
+  CSV: 'meterReadings.source.csv',
+}
+
+// Literal column names the backend CSV parser expects - not translated.
+const CSV_COLUMNS = 'meterNumber,readingDate,readingValue'
+
 function MeterReadings() {
+  const { t } = useTranslation('admin')
   const [activeTab, setActiveTab] = useState('single')
 
   // Search combobox + selection
@@ -57,7 +68,7 @@ function MeterReadings() {
   useEffect(() => {
     listResidents()
       .then(setResidents)
-      .catch(() => setLoadError('Could not load residents. Please try again.'))
+      .catch(() => setLoadError(i18next.t('meterReadings.loadResidentsError', { ns: 'admin' })))
       .finally(() => setLoading(false))
 
     listUsageReadings({})
@@ -81,7 +92,7 @@ function MeterReadings() {
       setAllReadingsError('')
       listUsageReadings({})
         .then(setAllReadings)
-        .catch(() => setAllReadingsError('Could not load the reading history. Please try again.'))
+        .catch(() => setAllReadingsError(t('meterReadings.historyLoadError')))
         .finally(() => setAllReadingsLoading(false))
     }
   }
@@ -166,17 +177,17 @@ function MeterReadings() {
     setSuccessMessage('')
 
     if (!selected?.meterNumber) {
-      setFormError('This resident has no meter number on file.')
+      setFormError(t('meterReadings.errors.noMeter'))
       return
     }
 
     if (!form.readingDate) {
-      setFormError('Reading date is required.')
+      setFormError(t('meterReadings.errors.dateRequired'))
       return
     }
 
     if (form.readingValue === '' || Number(form.readingValue) < 0) {
-      setFormError('Please enter a valid, non-negative reading value.')
+      setFormError(t('meterReadings.errors.invalidValue'))
       return
     }
 
@@ -189,21 +200,25 @@ function MeterReadings() {
         readingValue: form.readingValue,
       })
       setSuccessMessage(
-        `Successfully recorded reading of ${result.readingValue} kL for ${selected.houseNumber} ` +
-          `(Meter: ${selected.meterNumber})! Calculated consumption: ${result.consumption} kL.`,
+        t('meterReadings.successMessage', {
+          value: result.readingValue,
+          house: selected.houseNumber,
+          meter: selected.meterNumber,
+          consumption: result.consumption,
+        }),
       )
       setForm(EMPTY_READING_FORM)
       loadRecentReadings(selected.meterNumber)
     } catch (err) {
       const status = err.response?.status
       if (status === 409) {
-        setFormError('A reading for this meter already exists on that date.')
+        setFormError(t('meterReadings.errors.duplicate'))
       } else if (status === 404) {
-        setFormError('This meter could not be found. Please re-select the resident.')
+        setFormError(t('meterReadings.errors.meterNotFound'))
       } else if (status === 422) {
-        setFormError(err.response?.data?.message || 'This reading is lower than the previous recorded reading.')
+        setFormError(err.response?.data?.message || t('meterReadings.errors.lowerThanPrevious'))
       } else {
-        setFormError(err.response?.data?.message || 'Could not record this reading. Please try again.')
+        setFormError(err.response?.data?.message || t('meterReadings.errors.recordFailed'))
       }
     } finally {
       setSubmitting(false)
@@ -216,7 +231,7 @@ function MeterReadings() {
     setCsvResult(null)
 
     if (!csvFile) {
-      setCsvError('Please choose a CSV file to upload.')
+      setCsvError(t('meterReadings.csv.noFile'))
       return
     }
 
@@ -227,7 +242,7 @@ function MeterReadings() {
       setCsvResult(result)
       setCsvFile(null)
     } catch (err) {
-      setCsvError(err.response?.data?.message || 'Could not upload this file. Please try again.')
+      setCsvError(err.response?.data?.message || t('shared.uploadError'))
     } finally {
       setCsvUploading(false)
     }
@@ -245,7 +260,7 @@ function MeterReadings() {
             className={`af-mr__tab ${activeTab === tab.id ? 'af-mr__tab--active' : ''}`}
             onClick={() => handleTabChange(tab.id)}
           >
-            {tab.label}
+            {t(tab.labelKey)}
           </button>
         ))}
       </div>
@@ -255,7 +270,7 @@ function MeterReadings() {
           <div className="af-mr__col-main">
             <div className="af-mr__combo" ref={comboRef}>
               <label className="af-mr__combo-label" htmlFor="unit-combo-trigger">
-                Select Flat &amp; Meter Serial <span className="af-mr__required">*</span>
+                {t('meterReadings.combo.label')} <span className="af-mr__required">*</span>
               </label>
               <button
                 type="button"
@@ -268,14 +283,14 @@ function MeterReadings() {
               >
                 {selected ? (
                   <span className="af-mr__combo-trigger-value">
-                    <strong>Flat {selected.houseNumber || '—'}</strong>
+                    <strong>{t('meterReadings.combo.flat', { house: selected.houseNumber || '—' })}</strong>
                     <span className="af-mr__combo-trigger-meter">
-                      🔧 {selected.meterNumber || 'No meter'}
+                      🔧 {selected.meterNumber || t('meterReadings.combo.noMeter')}
                     </span>
                     <span className="af-mr__combo-trigger-name">({selected.fullName})</span>
                   </span>
                 ) : (
-                  <span className="af-mr__combo-placeholder">Select Flat &amp; Meter Serial…</span>
+                  <span className="af-mr__combo-placeholder">{t('meterReadings.combo.placeholder')}</span>
                 )}
                 <svg className="af-mr__combo-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="m6 9 6 6 6-6" />
@@ -292,22 +307,22 @@ function MeterReadings() {
                     <input
                       ref={searchInputRef}
                       type="text"
-                      placeholder="Search flat no, meter serial, resident…"
+                      placeholder={t('meterReadings.combo.searchPlaceholder')}
                       value={search}
                       onChange={(e) => setSearch(e.target.value)}
                     />
                   </div>
 
                   <div className="af-mr__dropdown-header">
-                    <span>Residential Units</span>
-                    <span>{matches.length} flat{matches.length === 1 ? '' : 's'} found</span>
+                    <span>{t('meterReadings.combo.unitsHeader')}</span>
+                    <span>{t('meterReadings.combo.found', { total: matches.length })}</span>
                   </div>
 
                   <ul className="af-mr__dropdown-list">
                     {loading ? (
-                      <li className="af-mr__dropdown-empty">Loading residents…</li>
+                      <li className="af-mr__dropdown-empty">{t('meterReadings.combo.loading')}</li>
                     ) : matches.length === 0 ? (
-                      <li className="af-mr__dropdown-empty">No residents match "{search}".</li>
+                      <li className="af-mr__dropdown-empty">{t('meterReadings.combo.noMatch', { search })}</li>
                     ) : (
                       matches.map((resident) => {
                         const latest = resident.meterNumber ? latestByMeter[resident.meterNumber] : null
@@ -322,11 +337,14 @@ function MeterReadings() {
                               <span className="af-mr__combo-avatar">{(resident.houseNumber || '?').slice(0, 4)}</span>
                               <span className="af-mr__combo-meta">
                                 <strong>
-                                  Flat {resident.houseNumber || '—'}
+                                  {t('meterReadings.combo.flat', { house: resident.houseNumber || '—' })}
                                   <span className="af-mr__combo-meter-pill">🔧 {resident.meterNumber || '—'}</span>
                                 </strong>
                                 <span>
-                                  {resident.fullName || 'Unassigned'} · Last: {latest ? `${latest.readingValue} kL` : '—'}
+                                  {t('meterReadings.combo.itemMeta', {
+                                    name: resident.fullName || t('meterReadings.combo.unassigned'),
+                                    last: latest ? `${latest.readingValue} kL` : '—',
+                                  })}
                                 </span>
                               </span>
                               {isSelected && (
@@ -350,14 +368,17 @@ function MeterReadings() {
               <div className="af-mr__panel">
                 <div className="af-mr__panel-heading">
                   <div>
-                    <p className="af-mr__eyebrow">Recording a reading for</p>
+                    <p className="af-mr__eyebrow">{t('meterReadings.panel.eyebrow')}</p>
                     <h3>{selected.fullName}</h3>
                     <p className="af-mr__context">
-                      House {selected.houseNumber || '—'} · Meter {selected.meterNumber || '—'}
+                      {t('meterReadings.panel.context', {
+                        house: selected.houseNumber || '—',
+                        meter: selected.meterNumber || '—',
+                      })}
                     </p>
                   </div>
                   <button type="button" className="af-btn af-btn--outline" onClick={handleClearSelection}>
-                    Change resident
+                    {t('meterReadings.panel.changeResident')}
                   </button>
                 </div>
 
@@ -367,7 +388,7 @@ function MeterReadings() {
 
                   <div className="af-form__row">
                     <div className="af-form__field">
-                      <label htmlFor="readingDate">Reading date</label>
+                      <label htmlFor="readingDate">{t('meterReadings.panel.readingDate')}</label>
                       <input
                         id="readingDate"
                         name="readingDate"
@@ -378,7 +399,7 @@ function MeterReadings() {
                       />
                     </div>
                     <div className="af-form__field">
-                      <label htmlFor="readingValue">Current Meter Reading (kL)</label>
+                      <label htmlFor="readingValue">{t('meterReadings.panel.readingValue')}</label>
                       <input
                         id="readingValue"
                         name="readingValue"
@@ -392,24 +413,24 @@ function MeterReadings() {
                   </div>
 
                   <button type="submit" className="af-form__submit" disabled={submitting}>
-                    {submitting ? 'Saving…' : 'Submit Validated Reading'}
+                    {submitting ? t('shared.saving') : t('meterReadings.panel.submit')}
                   </button>
                 </form>
 
                 <div className="af-mr__recent">
-                  <h4>Recent readings</h4>
+                  <h4>{t('meterReadings.panel.recentTitle')}</h4>
                   {recentLoading ? (
-                    <p className="af-hh__empty">Loading…</p>
+                    <p className="af-hh__empty">{t('shared.loading')}</p>
                   ) : recentReadings.length === 0 ? (
-                    <p className="af-hh__empty">No readings recorded yet for this meter.</p>
+                    <p className="af-hh__empty">{t('meterReadings.panel.recentEmpty')}</p>
                   ) : (
                     <table className="af-hh__table">
                       <thead>
                         <tr>
-                          <th>Date</th>
-                          <th>Value (kL)</th>
-                          <th>Consumption (kL)</th>
-                          <th>Source</th>
+                          <th>{t('meterReadings.table.date')}</th>
+                          <th>{t('meterReadings.table.value')}</th>
+                          <th>{t('meterReadings.table.consumption')}</th>
+                          <th>{t('meterReadings.table.source')}</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -418,7 +439,7 @@ function MeterReadings() {
                             <td>{reading.readingDate}</td>
                             <td>{reading.readingValue}</td>
                             <td>{reading.consumption ?? '—'}</td>
-                            <td>{reading.source || '—'}</td>
+                            <td>{reading.source ? (SOURCE_LABELS[reading.source] ? t(SOURCE_LABELS[reading.source]) : reading.source) : '—'}</td>
                           </tr>
                         ))}
                       </tbody>
@@ -429,39 +450,39 @@ function MeterReadings() {
             )}
 
             <div className="af-mr__info-banner">
-              <strong>Monotonic Meter Validation</strong>
-              <p>Every new reading must be greater than or equal to the previous log for that meter — this keeps consumption calculations accurate and catches transposed digits early.</p>
+              <strong>{t('meterReadings.info.title')}</strong>
+              <p>{t('meterReadings.info.body')}</p>
             </div>
           </div>
 
           <aside className="af-mr__col-side">
             <div className="af-mr__side-card">
-              <h3>Selected Unit Details</h3>
+              <h3>{t('meterReadings.details.title')}</h3>
               {selected ? (
                 <dl className="af-mr__unit-details">
                   <div>
-                    <dt>Flat Unit</dt>
+                    <dt>{t('meterReadings.details.flatUnit')}</dt>
                     <dd>{selected.houseNumber || '—'}</dd>
                   </div>
                   <div>
-                    <dt>Meter Serial</dt>
+                    <dt>{t('meterReadings.details.meterSerial')}</dt>
                     <dd>{selected.meterNumber || '—'}</dd>
                   </div>
                   <div>
-                    <dt>Occupant Name</dt>
+                    <dt>{t('meterReadings.details.occupant')}</dt>
                     <dd>{selected.fullName || '—'}</dd>
                   </div>
                   <div>
-                    <dt>Last Recorded Dial</dt>
-                    <dd>{lastReading ? `${lastReading.readingValue} kL (${lastReading.readingDate})` : 'No readings yet'}</dd>
+                    <dt>{t('meterReadings.details.lastDial')}</dt>
+                    <dd>{lastReading ? `${lastReading.readingValue} kL (${lastReading.readingDate})` : t('meterReadings.details.noReadings')}</dd>
                   </div>
                   <div>
-                    <dt>Month Consumption</dt>
+                    <dt>{t('meterReadings.details.monthConsumption')}</dt>
                     <dd>{monthConsumption} kL</dd>
                   </div>
                 </dl>
               ) : (
-                <p className="af-hh__empty">No household selected. Search and pick a resident to see their meter details here.</p>
+                <p className="af-hh__empty">{t('meterReadings.details.empty')}</p>
               )}
             </div>
           </aside>
@@ -470,10 +491,14 @@ function MeterReadings() {
 
       {activeTab === 'csv' && (
         <div className="af-mr__panel af-mr__panel--csv">
-          <h3>Bulk CSV Upload</h3>
+          <h3>{t('meterReadings.tabs.csv')}</h3>
           <p className="af-mr__context">
-            Upload a CSV with columns <code>meterNumber,readingDate,readingValue</code>. Rows are processed
-            independently — one bad row won't fail the whole batch.
+            <Trans
+              t={t}
+              i18nKey="meterReadings.csv.instructions"
+              values={{ columns: CSV_COLUMNS }}
+              components={{ code: <code /> }}
+            />
           </p>
 
           <form onSubmit={handleCsvSubmit} className="af-mr__csv-form">
@@ -486,21 +511,30 @@ function MeterReadings() {
             />
 
             <button type="submit" className="af-btn af-btn--cyan" disabled={csvUploading}>
-              {csvUploading ? 'Uploading…' : 'Upload'}
+              {csvUploading ? t('shared.uploading') : t('shared.upload')}
             </button>
           </form>
 
           {csvResult && (
             <div className="af-mr__csv-result">
               <p>
-                Processed <strong>{csvResult.totalRows}</strong> rows —{' '}
-                <strong>{csvResult.successCount}</strong> succeeded, <strong>{csvResult.failureCount}</strong> failed.
+                <Trans
+                  t={t}
+                  i18nKey="shared.bulkSummary"
+                  values={{
+                    total: csvResult.totalRows,
+                    success: csvResult.successCount,
+                    failure: csvResult.failureCount,
+                  }}
+                  components={{ b: <strong /> }}
+                />
               </p>
               {csvResult.failures?.length > 0 && (
                 <ul className="af-mr__csv-failures">
                   {csvResult.failures.map((failure) => (
                     <li key={failure.rowNumber}>
-                      Row {failure.rowNumber}: {failure.reason} <span>({failure.rawLine})</span>
+                      {t('shared.rowFailure', { row: failure.rowNumber, reason: failure.reason })}{' '}
+                      <span>({failure.rawLine})</span>
                     </li>
                   ))}
                 </ul>
@@ -512,21 +546,21 @@ function MeterReadings() {
 
       {activeTab === 'history' && (
         <div className="af-mr__panel">
-          <h3>Reading History</h3>
+          <h3>{t('meterReadings.tabs.history')}</h3>
           {allReadingsError && <div className="af-hh__error">{allReadingsError}</div>}
           {allReadingsLoading ? (
-            <p className="af-hh__empty">Loading readings…</p>
+            <p className="af-hh__empty">{t('meterReadings.history.loading')}</p>
           ) : allReadings.length === 0 ? (
-            <p className="af-hh__empty">No readings recorded yet for your community.</p>
+            <p className="af-hh__empty">{t('meterReadings.history.empty')}</p>
           ) : (
             <table className="af-hh__table">
               <thead>
                 <tr>
-                  <th>Meter No.</th>
-                  <th>Date</th>
-                  <th>Value (kL)</th>
-                  <th>Consumption (kL)</th>
-                  <th>Source</th>
+                  <th>{t('meterReadings.table.meterNumber')}</th>
+                  <th>{t('meterReadings.table.date')}</th>
+                  <th>{t('meterReadings.table.value')}</th>
+                  <th>{t('meterReadings.table.consumption')}</th>
+                  <th>{t('meterReadings.table.source')}</th>
                 </tr>
               </thead>
               <tbody>
@@ -536,7 +570,7 @@ function MeterReadings() {
                     <td>{reading.readingDate}</td>
                     <td>{reading.readingValue}</td>
                     <td>{reading.consumption ?? '—'}</td>
-                    <td>{reading.source || '—'}</td>
+                    <td>{reading.source ? (SOURCE_LABELS[reading.source] ? t(SOURCE_LABELS[reading.source]) : reading.source) : '—'}</td>
                   </tr>
                 ))}
               </tbody>

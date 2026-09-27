@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Loading…",
+    "saving": "Salvis…",
+    "saved": "Servatus.",
+    "uploading": "Uploading…",
+    "upload": "Upload",
+    "uploadError": "Hoc fasciculum non imposuisti. Quaeso, iterum conare.",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "remove": "Aufer",
+    "saveChanges": "Servare Mutationes",
+    "bulkSummary": "Processerunt <b>{{total}}</b> ordines — <b>{{success}}</b> successit, <b>{{failure}}</b> defecit.",
+    "rowFailure": "Row {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "ostendens {{from}}-{{to}} de {{total}}",
+    "prev": "Prev",
+    "next": "Proxima →",
+    "page": "Page {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Non aperitur civitas notitia nunc.",
+    "title": "{{community}} Apartment Dashboard",
+    "titleFallback": "Tua Duis Dashboard",
+    "subtitle": "Summarium operationale ad utilitatem aquarum sub- metering et consumationem familiarem.",
+    "comingSoon": "Veniens cito",
+    "manageCommunity": "Curo Community",
+    "noUsageReadings": "Nullus adhuc usus lectionum scribitur.",
+    "cards": {
+      "totalHouseholds": "Summa Familiae",
+      "occupied": "occupatum",
+      "activeMeters": "Active Meters",
+      "reportingReadings": "Lectiones renuntiationes",
+      "monthlyConsumption": "Menstrua Consummatio",
+      "thisCalendarMonth": "Hoc fastis mensis",
+      "latestRecordedMonth": "Ultimae memoriae mensis ({{month}})",
+      "noReadingsYet": "Non tamen memoriae Lectiones",
+      "pendingAlerts": "Eviewray Alerts",
+      "anomalyPreview": "Anomalia deprehensio preview - not yet available"
+    },
+    "actions": {
+      "label": "Velox actiones administrativae",
+      "uploadReadings": "Index metri lectionum",
+      "configureTariffs": "Configurare Tariffs",
+      "reportsNotBuilt": "Renuntiationes non aedificatur adhuc",
+      "downloadReports": "Ratio Download Renuntiationes"
+    },
+    "chart": {
+      "title": "Consumptio Vestibulum Comparatio (kL)",
+      "subtitle": "Last {{months}} menses: target vs. ipsa consummatio.",
+      "targetSeries": "Scopum (preview)",
+      "actualSeries": "Actualis"
+    },
+    "recent": {
+      "title": "Recent Metre lectionum",
+      "unit": "Unitas",
+      "resident": "Incola",
+      "lastReading": "Ultima Lectio",
+      "consumption": "Consummatio"
+    }
+  },
+  "households": {
+    "loadError": "Non incolas onerare. Quaeso, iterum conare.",
+    "fixFields": "Placet figere campis claras.",
+    "saveError": "Vivamus non suscipit nisi. Quaeso reprehendo singula.",
+    "confirmRemove": "Amove presul {{name}} e familiis tuis?",
+    "removeError": "incolam hunc auferre non potuit. Quaeso, iterum conare.",
+    "count": "Familiae: {{total}}",
+    "bulkUploadButton": "mole onerati",
+    "addResidentButton": "+ Add Residens",
+    "searchPlaceholder": "Nomen, domus, inscriptio, vel meter n.",
+    "loading": "Loading habitant…",
+    "empty": "Nulla sed habitant. Preme \"Adde Residens\" ut subcriptio primam domum.",
+    "noMatch": "Nullus incolas compositus \"{{search}}\".",
+    "sort": {
+      "label": "Sort by",
+      "name": "Nomen",
+      "houseNumber": "Domus Number",
+      "dateOfJoining": "Date coniungendi",
+      "toggleDirection": "Toggle generis partem",
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Feminae",
+      "other": "Other"
+    },
+    "table": {
+      "name": "Nomen",
+      "houseUnit": "Domus / Unit",
+      "email": "Email",
+      "phone": "Phone",
+      "meterNumber": "Meter No.",
+      "sqft": "Sqft",
+      "joined": "Joined"
+    },
+    "form": {
+      "addTitle": "Add Residens",
+      "editTitle": "Recensere Residens",
+      "editSubtitle": "Hoc updates singula in indice tuo residentis.",
+      "bypassSubtitle": "Hanc tesseram insitum directe disponis. Nulla inscriptio mittetur.",
+      "addSubtitle": "Vinculum paro-password electronicum huic insenti electronicum erit ut suum login movere possint.",
+      "fullName": "Nomen plenum",
+      "houseNumber": "Domus / unitas nulla.",
+      "email": "Email",
+      "phone": "Numerus telephonicus",
+      "meterNumber": "Numerus meter",
+      "governmentId": "Imperium ID",
+      "gender": "Gender",
+      "dateOfBirth": "Dies nativitatis",
+      "dateOfJoining": "Date ex conjunctione",
+      "flatSize": "Plana magnitudine (SQ ft)",
+      "bypassLabel": "Bypass paro-password email - pone password huic insitum nunc",
+      "password": "Password",
+      "confirmPassword": "Adfirmare password"
+    },
+    "validation": {
+      "fullNameRequired": "Plenum nomen desideratur.",
+      "emailRequired": "Inscriptio desideratur.",
+      "phoneRequired": "Numerus telephonicus requiritur.",
+      "houseNumberRequired": "Domus / unitas numerus requiritur.",
+      "houseNumberTaken": "Haec domus numerus iam alteri residenti assignatus est.",
+      "meterNumberRequired": "Numerus metri desideratur.",
+      "meterNumberFormat": "Numerus metri videndus est sicut MTR-1234 (4 digiti).",
+      "meterNumberTaken": "Numerus hic metri iam alteri manenti assignatus est.",
+      "governmentIdRequired": "Imperium ID requiritur.",
+      "governmentIdFormat": "ID debet esse 6 digitorum incipiens a 99 (e.g. 991234).",
+      "genderRequired": "Placere eligere genus.",
+      "dateOfBirthRequired": "Dies nativitatis requiritur.",
+      "dateOfJoiningRequired": "Date conjunctionem exquiritur.",
+      "passwordRequired": "Signum desideratur.",
+      "passwordLength": "Password debet esse saltem VIII ingenia.",
+      "confirmPasswordRequired": "Confirme quaeso signum.",
+      "passwordMismatch": "Passwords non aequare."
+    },
+    "bulk": {
+      "title": "Mole Index Residentium",
+      "noFile": "Elige .csv vel .xlsx/.xls fasciculum ad upload.",
+      "instructions": "Fasciculum fasciculi cum columnis .csv vel .xlsx/.xls <code>{{columns}}</code> (password et flatSizeSqft utrumque ad libitum sunt). Ordines tesserae directae pone; ordines sine uno electronico tesserae praefinito acquirunt, similiter ac manuale residenti addito. Duplicata domus/metri numeri vel electronicae per ordinem rejiciuntur — unus malus ordo totam massam non deficiet."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Non incolas onerare. Quaeso, iterum conare.",
+    "historyLoadError": "Historiam legendi non onerare. Quaeso, iterum conare.",
+    "successMessage": "Feliciter exposita lectio {{value}} kL pro {{house}} (Meter: {{meter}})! Tabes calculata: {{consumption}} kL.",
+    "tabs": {
+      "single": "Unius Entry",
+      "csv": "Mole CSV Upload",
+      "history": "Lectio Historia"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Hic incola in tabella numerum metri non habet.",
+      "dateRequired": "Lectio date desideratur.",
+      "invalidValue": "Please enter the value valid, non-negative reading.",
+      "duplicate": "Lectio huius metri iam exstat eo die.",
+      "meterNotFound": "Hoc metrum inveniri non potuit. Quaeso rursus insitum eligere.",
+      "lowerThanPrevious": "Lectio haec inferior est quam prior scripti lectio.",
+      "recordFailed": "Hanc lectionem adnotare non potui. Quaeso, iterum conare."
+    },
+    "combo": {
+      "label": "Lego Flat & Metre Serial",
+      "placeholder": "Lego Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Non metrum",
+      "searchPlaceholder": "Quaere plana non, meter Vide, residens…",
+      "unitsHeader": "Residentiales Unitates",
+      "found": "Inventum est blandit: {{total}}",
+      "loading": "Loading habitant…",
+      "noMatch": "Nullus incolas compositus \"{{search}}\".",
+      "unassigned": "Unssigned",
+      "itemMeta": "{{name}} · Last: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Lectio pro memoria",
+      "context": "Domus {{house}} · Metre {{meter}}",
+      "changeResident": "Mutatio incola",
+      "readingDate": "Lectio date",
+      "readingValue": "Current Meter Reading (kL)",
+      "submit": "Submit Validated Lectio",
+      "recentTitle": "Recentes lectiones",
+      "recentEmpty": "Nullae tamen lectiones ad hoc metrum scriptae sunt."
+    },
+    "info": {
+      "title": "Monotonic Metre Validation",
+      "body": "Quaelibet nova lectio debet esse maior quam vel aequalis ad priorem stipem pro illo metro — haec consumptio calculi accurate servat et digitos transpositos mature capit."
+    },
+    "details": {
+      "title": "Electus Unit Details",
+      "flatUnit": "Plana Unit",
+      "meterSerial": "Metrum Serial",
+      "occupant": "Nomen occupatum",
+      "lastDial": "Last Exposita Dial",
+      "noReadings": "Lectiones nondum",
+      "monthConsumption": "Consummatio mensis",
+      "empty": "Nulla penatibus lectus. Scrutare et lege residentem ut hic singula metri eorum videas."
+    },
+    "csv": {
+      "noFile": "Elige CSV fasciculum ad upload.",
+      "instructions": "Upload a CSV columnis <code>{{columns}}</code>. Ordines sine ratione discursum sunt - unus malus ordo totam massam non deficiet."
+    },
+    "history": {
+      "loading": "Lectiones Loading...",
+      "empty": "Nullae lectiones scriptae adhuc pro communitate vestrae."
+    },
+    "table": {
+      "meterNumber": "Meter No.",
+      "date": "Date",
+      "value": "Precium (kL)",
+      "consumption": "Consummatio (kL)",
+      "source": "Source"
+    }
+  },
+  "billingCycles": {
+    "title": "Exosculatio Cycles",
+    "loadError": "Non poterat onerare cycles exosculatio. Quaeso, iterum conare.",
+    "paymentUpdateError": "Status cautionem hanc mercedem scriptor update non potuit.",
+    "pdfError": "Non poterat PDF. Quaeso, iterum conare.",
+    "finalizeError": "Non finalisare hoc exosculatio.",
+    "archiveError": "Hoc exosculatio cyclum archivum non poterat.",
+    "loading": "Exosculatio circuitus Loading...",
+    "empty": "Nulla sed cursus sapien. Aperi supra ut incipiat.",
+    "status": {
+      "open": "Open",
+      "finalized": "Finalised",
+      "archived": "Archived"
+    },
+    "open": {
+      "title": "Aperi New exosculatio Cycle",
+      "noMonth": "Mensem elige aperi.",
+      "error": "Non potuit aperire cyclum exosculatio illius mensis.",
+      "monthAria": "Exosculatio tempus mensis",
+      "opening": "Collecta…",
+      "submit": "Open Cycle"
+    },
+    "table": {
+      "period": "Tempus",
+      "status": "Status",
+      "householdsBilled": "familiae inoptatus",
+      "totalBilled": "Totalis inoptatus",
+      "actions": "Actiones"
+    },
+    "actions": {
+      "finalize": "Finalize",
+      "finalizing": "Finalisandi…",
+      "archive": "Archive",
+      "archiving": "Archiving…"
+    },
+    "filter": {
+      "aria": "Filtrum solucionis status",
+      "all": "All"
+    },
+    "payment": {
+      "paid": "Paid",
+      "unpaid": "insolutis",
+      "updating": "Adaequationis…",
+      "markPaid": "Mark sicut solvit",
+      "markUnpaid": "Mark insolutis"
+    },
+    "detail": {
+      "title": "Cycle Detail — {{period}}",
+      "loading": "Loading mercium venditarum ...",
+      "notFinalized": "Hic cyclus nondum completus est — nullae mercium generantur.",
+      "noInvoices": "Nullam cursus in ipsum id cursus.",
+      "noMatch": "Nullae mercium venditarum congruit huic colum."
+    },
+    "invoices": {
+      "household": "Familiares",
+      "resident": "Incola",
+      "meterNumber": "Meter No.",
+      "consumption": "Consummatio (kL)",
+      "tierBreakdown": "ORDO Naufragii",
+      "commonArea": "Communia Area",
+      "total": "Totalis",
+      "paymentStatus": "Payment Status",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL {{rate}} = {{amount}}",
+      "tierLine": "ORDO {{tier}}: {{units}} kL {{rate}} = {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Non onerare lezdam configuratione",
+    "saveError": "Configuratione lezdam non nisi",
+    "chartTitle": "Active Metered utilitatem Rate Tiers",
+    "axisNote": "Rate in /kL, tabula limitum kL",
+    "tableTitle": "Pricing Tiers Table",
+    "defaultRatesNote": "Ostendens rates default - nondum servavit.",
+    "addTier": "+ Add Tier",
+    "saveRates": "Salvum Tariff Rates",
+    "tierLevel": {
+      "base": "ORDO {{tier}} (Base)",
+      "medium": "Tier {{tier}} (Medium)",
+      "heavy": "ORDO {{tier}} (Grave)"
+    },
+    "basePrice": {
+      "label": "Base Pretium (₹ / kL, applicatum ad omnem consumptionem)",
+      "note": "Omnis kL haec sescupla prima est. Tabulae infra addunt EXTRA crimen solum ad usum qui intra fines eorum cadit — e.g. tabula incipientis ad 50 kL tantum ratem suam ad phthisin super 50 kL addit."
+    },
+    "table": {
+      "tierLevel": "ORDO Level",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate per kL",
+      "action": "Actio"
+    },
+    "commonArea": {
+      "title": "Communes Area Pretium configurationis",
+      "loadError": "Communis areae pretium non aperitur figura",
+      "saveError": "Communis areae pretium non salvabit configurationem",
+      "empty": "Nulla pretium items servavit adhuc.",
+      "labelPlaceholder": "Pretium item titulus",
+      "perMonth": "/ mensis",
+      "active": "Active",
+      "addItem": "+ Pretium Add Item",
+      "save": "Salvum Communia Area configurationis"
+    },
+    "distribution": {
+      "title": "Ratio Selector sumptus distributio",
+      "consumption": "Consummatione (Sub-Metered Proportional)",
+      "floorArea": "Per Flat Location Duis (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Exolvuntur exosculatio Satus Date",
+      "cycleStartValue": "1 de omni mense",
+      "autoInvoices": "Auto-Genere PDF Invoices"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Limen Exceeded",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "certus",
+      "dismissed": "dimissus"
+    },
+    "config": {
+      "title": "Leak Deprehensio configurationis",
+      "subtitle": "Limen menstruum consummatio pone et/vel deprehensio statistica outlier (vexamentum domus cuius menstruus consummatio plusquam alta est ad suam historiam comparata).",
+      "loadError": "Non poterat onerare erecti configuratione. Quaeso, iterum conare.",
+      "thresholdRequired": "Limen menstruum (kL) exigitur, cum limen in summis parabatur.",
+      "saveError": "Hanc conformationem salvare non potuit.",
+      "loading": "Configuratione loading…",
+      "threshold": "Vestibulum limen (kL)",
+      "sensitivity": "Sensus outlier (σ multiplicator)",
+      "enableThreshold": "Admitte limina summis",
+      "enableOutlier": "Admitte statistical outlier summis",
+      "save": "Salvum configurationis",
+      "running": "Cursus…",
+      "runNow": "Nunc currere Deprehensio"
+    },
+    "alerts": {
+      "title": "Flagged Familiae",
+      "loadError": "Non poterat summis onerare. Quaeso, iterum conare.",
+      "runError": "Leak deprehensio nunc currere non potuit. Quaeso, iterum conare.",
+      "updateError": "Hoc erecto update non poterat. Quaeso, iterum conare.",
+      "allStatuses": "Omnes statuses",
+      "loading": "Loading erectus…",
+      "empty": "Nullam in summis neque. Limen configurare vel superius deprehendere ampliorem da, tunc preme \"Detectio Curre\" nunc usum communitatis tuae aestimare.",
+      "resolve": "Propono",
+      "dismiss": "Dimitte"
+    },
+    "table": {
+      "household": "Familiares",
+      "resident": "Incola",
+      "meter": "Meter",
+      "type": "Type",
+      "period": "Tempus",
+      "consumption": "Consummatio",
+      "reference": "Reference",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Aquam molem emit non poterat onerare. Quaeso, iterum conare.",
+    "confirmRemove": "Tollere {{source}} partum in {{date}}?",
+    "removeError": "Hoc emptio removere non potuit. Quaeso, iterum conare.",
+    "count": "Emptio exposita: {{total}}",
+    "recordButton": "+ Record Purchase",
+    "loading": "Aquae moles emit ... Loading",
+    "empty": "Moles aquae nulla adhuc scripta emit. Preme \"Record Purchase\" ut stipes amphorarum traditio vel municipalis copia emptio.",
+    "table": {
+      "date": "Date",
+      "source": "Source",
+      "volume": "Volumen (L.)",
+      "unitCost": "Unit Pretium",
+      "totalCost": "Totalis Pretium",
+      "notes": "Notae"
+    },
+    "form": {
+      "addTitle": "Record mole aqua Purchase",
+      "editTitle": "Edit mole aqua Purchase",
+      "subtitle": "Vestigare onerariam traditionem seu copiam municipalem emptionis pro communitate vestrae - haec commemoratur pro visibilitate tantum sumptus et mercium familiarium non afficit.",
+      "requiredFields": "Quaeso tempus, fontem, volumen, et pretium unitatis.",
+      "saveError": "Hanc emptionem salvare non potuit. Quaeso reprehendo singula.",
+      "purchaseDate": "Purchase date",
+      "source": "Source / elit",
+      "volume": "Volumen (litterarum)",
+      "unitCost": "Unitas sumptus (₹/liter)",
+      "totalPreview": "Totalis sumptus: {{amount}}",
+      "notes": "Notae (libitum)",
+      "submit": "Record Purchase"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} nondum aedificatum est",
+    "profileSaveError": "Profile tuum non potuisti. Quaeso, iterum conare.",
+    "apartmentSaveError": "Apartment details servare non potuit. Quaeso, iterum conare.",
+    "specsTitle": "Specifications Profile",
+    "photoUnavailable": "Photo upload is not available yet",
+    "changePhoto": "Mutatio Photo",
+    "deletePhoto": "Delere",
+    "photoHint": "JPG vel PNG. Max amplitudo 2MB.",
+    "saveProfile": "Servare Profile",
+    "apartmentTitle": "Apartment Details",
+    "saveApartment": "Servare Duis Details",
+    "tabs": {
+      "profile": "Profile Occasus",
+      "apartment": "Apartment Profile",
+      "notifications": "Notification Rules",
+      "billing": "Exosculatio Integrations",
+      "security": "Securitas & Access"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Inscriptio electronica",
+      "emailLocked": "Inscriptio hic mutari non potest",
+      "phone": "Numerus telephonicus",
+      "accessLevel": "Accessum Level",
+      "accessLevelValue": "Administrator Communitatis",
+      "roleLocked": "Partes administratione non praesto tamen",
+      "apartmentName": "Apartment Name",
+      "mainsSource": "Mains Source",
+      "mainsSourcePlaceholder": "e.g. Municipale Supple + Supplemental Tankers",
+      "address": "Oratio corporalis"
+    },
+    "security": {
+      "title": "Securitatem & Access Praevius",
+      "twoFactor": "Duo-factor authenticitate",
+      "twoFactorHint": "De login enabled",
+      "twoFactorUnavailable": "Duo-factor non available tamen authenticas",
+      "twoFactorAria": "Duo-factor authenticas (solum praevius)",
+      "sessionsLabel": "Active Admin Sessiones",
+      "sessionsEmpty": "Sessio tracking adhuc praesto non est — haec praevisio venturi layouti est."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "My Nullam",
+      "inbox": "Habitans Nullam"
+    },
+    "mine": {
+      "title": "Mea Support Tickets",
+      "subtitle": "Interrogationem vel sollicitudinem de communitate tua ad Systema Admin move.",
+      "emptyCreateHint": "Interrogationem vel sollicitudinem de communitate vestra. Ratio Admin recensebit et hic respondebit."
+    },
+    "inbox": {
+      "title": "Habitans Nullam",
+      "subtitle": "Support tesserae et sollicitudines incolarum in communitate vestra ad vos directi sunt."
+    }
+  }
+}

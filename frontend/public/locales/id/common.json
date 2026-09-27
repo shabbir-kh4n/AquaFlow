@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Menutup",
+    "signUpTitle": "Daftarkan komunitas Anda",
+    "signInTitle": "Selamat Datang kembali",
+    "signUpSubtitle": "Buat akun Admin Komunitas untuk mulai mengelola penghuni dan penagihan.",
+    "signInSubtitle": "Masuk untuk melihat penggunaan dan tagihan air Anda."
+  },
+  "signIn": {
+    "errorFallback": "Tidak dapat masuk. Coba lagi.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Kata sandi",
+    "rememberMe": "Ingat saya",
+    "forgotPassword": "Lupa kata sandi?",
+    "submitting": "Masuk…",
+    "submit": "Masuk",
+    "noAccount": "Belum punya akun?",
+    "signUpLink": "Mendaftar"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Kata sandi tidak cocok.",
+      "communityRequired": "Nama komunitas wajib diisi.",
+      "termsRequired": "Harap setujui Ketentuan Layanan dan Kebijakan Privasi.",
+      "fallback": "Tidak dapat membuat akun. Silakan coba lagi."
+    },
+    "hint": "Hanya admin komunitas yang mendaftar di sini. Setelah Anda masuk, Anda akan menambahkan sendiri detail penduduk Anda — mereka tidak mendaftar sendiri.",
+    "fullNameLabel": "Nama lengkap",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Nomor telepon",
+    "communityNameLabel": "Nama komunitas",
+    "passwordLabel": "Kata sandi",
+    "confirmPasswordLabel": "Konfirmasikan kata sandi",
+    "agreeTerms": "Saya menyetujui <termsLink>Ketentuan Layanan</termsLink> dan <privacyLink>Kebijakan Privasi</privacyLink>",
+    "submitting": "Membuat akun…",
+    "submit": "Buat Akun Admin",
+    "haveAccount": "Sudah punya akun?",
+    "signInLink": "Masuk"
+  },
+  "installPrompt": {
+    "title": "Pasang HydroLedger",
+    "description": "Tambahkan ke layar beranda Anda untuk akses cepat.",
+    "dismiss": "Membubarkan",
+    "install": "Memasang"
+  },
+  "setPassword": {
+    "title": "Tetapkan kata sandi Anda",
+    "loading": "Memuat…",
+    "subtitle": "Hai {{name}}, pilih kata sandi untuk {{email}} untuk mengaktifkan akun HydroLedger Anda.",
+    "errors": {
+      "invalidLink": "Tautan ini tidak valid atau telah kedaluwarsa.",
+      "tooShort": "Kata sandi minimal harus 8 karakter.",
+      "mismatch": "Kata sandi tidak cocok.",
+      "fallback": "Tidak dapat menyetel sandi Anda. Silakan coba lagi."
+    },
+    "passwordLabel": "Kata sandi",
+    "confirmPasswordLabel": "Konfirmasikan kata sandi",
+    "submitting": "Menyetel kata sandi…",
+    "submit": "Tetapkan kata sandi & masuk"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asisten",
+      "resident": "Tanyakan tentang akun Anda",
+      "admin": "Asisten Komunitas",
+      "platform": "Asisten Platform",
+      "default": "Asisten"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Apa itu HydroLedger?",
+        "tieredBilling": "Bagaimana cara kerja penagihan berjenjang?",
+        "leaks": "Bagaimana kebocoran terdeteksi?"
+      },
+      "resident": {
+        "billEstimate": "Berapa perkiraan tagihan saya saat ini?",
+        "alerts": "Apakah saya memiliki peringatan penggunaan?",
+        "readings": "Tampilkan pembacaan meter terbaru saya"
+      },
+      "admin": {
+        "households": "Berapa banyak rumah tangga yang kita miliki?",
+        "billingCycles": "Cantumkan siklus penagihan terbaru kami",
+        "tariff": "Apa rencana tarif kami saat ini?"
+      },
+      "platform": {
+        "communities": "Daftar semua komunitas terdaftar",
+        "usageReport": "Tampilkan laporan penggunaan platform",
+        "systemStatus": "Apa status sistemnya?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Anda mengirim pesan terlalu cepat - harap tunggu sebentar dan coba lagi.",
+      "unavailable": "Asisten untuk sementara tidak tersedia. Silakan coba lagi sebentar lagi.",
+      "generic": "Ada yang tidak beres saat mengirim pesan itu. Silakan coba lagi."
+    },
+    "emptyHint": "Tanyakan apa saja kepada saya - saya hanya dapat melihat data Anda sendiri.",
+    "closeAssistant": "Asisten dekat",
+    "openAssistant": "Buka asisten",
+    "inputPlaceholder": "Ketik pesan…",
+    "inputLabel": "Pesan",
+    "send": "Mengirim"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tiket Dukungan",
+    "defaultCreateLabel": "Angkat Kepedulian Baru",
+    "status": {
+      "open": "Membuka",
+      "inProgress": "Sedang Berlangsung",
+      "resolved": "Terselesaikan",
+      "closed": "Tertutup"
+    },
+    "tabs": {
+      "all": "Semua Tiket"
+    },
+    "recipients": {
+      "admin": "Admin Komunitas",
+      "systemAdmin": "Admin Sistem",
+      "both": "Admin Komunitas + Admin Sistem"
+    },
+    "roles": {
+      "resident": "Penduduk",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kepada: {{recipients}}",
+    "raisedByResident": "Dibesarkan oleh penduduk {{name}}",
+    "raisedByAdmin": "Dibesarkan oleh admin {{name}}",
+    "refresh": "Menyegarkan",
+    "stats": {
+      "openLabel": "Buka Kiriman",
+      "openHint": "Menunggu peninjauan",
+      "inProgressLabel": "Sedang Berlangsung",
+      "inProgressHint": "Sedang dikerjakan",
+      "resolvedLabel": "Terselesaikan",
+      "resolvedHint": "Berhasil ditutup"
+    },
+    "searchPlaceholder": "Cari tiket berdasarkan subjek, masalah…",
+    "loadingTickets": "Memuat tiket…",
+    "empty": {
+      "title": "Tidak Ada Tiket Dukungan yang Ditemukan",
+      "body": "Saat ini Anda tidak memiliki permintaan dukungan terbuka atau tercatat yang cocok dengan filter ini.",
+      "cta": "Sampaikan Kekhawatiran"
+    },
+    "errors": {
+      "loadList": "Tidak dapat memuat tiket dukungan. Silakan coba lagi.",
+      "loadDetail": "Tidak dapat memuat tiket ini. Silakan coba lagi.",
+      "required": "Subjek dan pesan keduanya diperlukan.",
+      "recipientRequired": "Pilih setidaknya satu penerima (Admin Komunitas dan/atau Admin Sistem).",
+      "submitFallback": "Tidak dapat mengirimkan tiket ini. Silakan coba lagi.",
+      "sendReply": "Tidak dapat mengirimkan pesan ini. Silakan coba lagi.",
+      "updateStatus": "Tidak dapat memperbarui status tiket ini. Silakan coba lagi."
+    },
+    "form": {
+      "defaultHint": "Jelaskan masalah atau kekhawatiran Anda di bawah ini.",
+      "subjectLabel": "Subjek",
+      "subjectPlaceholder": "Ringkasan singkat masalah Anda",
+      "messageLabel": "Pesan",
+      "messagePlaceholder": "Jelaskan apa yang terjadi secara rinci…",
+      "recipientsLabel": "Kirimkan kekhawatiran ini ke",
+      "cancel": "Membatalkan",
+      "submitting": "Mengirimkan…",
+      "submit": "Kirim Tiket"
+    },
+    "detail": {
+      "loading": "Memuat tiket…",
+      "replyPlaceholder": "Tulis balasan…",
+      "close": "Menutup",
+      "sending": "Mengirim…",
+      "sendReply": "Kirim Balasan"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Selamat datang kembali, {{name}}",
+    "openMenu": "Buka menunya",
+    "closeMenu": "Tutup menunya",
+    "logout": "Keluar",
+    "search": "Mencari",
+    "notifications": "Pemberitahuan"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dasbor",
+      "households": "Direktori Rumah Tangga",
+      "meterReadings": "Pembacaan Meter",
+      "billing": "Manajemen Penagihan",
+      "bulkPurchases": "Pembelian Massal",
+      "reports": "Laporan",
+      "waterLeakage": "Kebocoran Air",
+      "support": "Dukungan / Kekhawatiran",
+      "tariffPlans": "Paket Tarif",
+      "announcements": "Pengumuman",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Berikut cuplikan komunitas Anda."
+      },
+      "households": {
+        "title": "Direktori Rumah Tangga",
+        "subtitle": "Tambahkan, perbarui, dan kelola penghuni yang tinggal di komunitas Anda."
+      },
+      "meterReadings": {
+        "title": "Hub Pembacaan Meter Air",
+        "subtitle": "Cari penduduk dan catat pembacaan meter air mereka."
+      },
+      "tariffPlans": {
+        "title": "Konfigurasi Tarif",
+        "subtitle": "Konfigurasikan batas tarif berjenjang, biaya area umum bersama, dan metode distribusi untuk komunitas apartemen Anda."
+      },
+      "billing": {
+        "title": "Manajemen Penagihan",
+        "subtitle": "Buka, selesaikan, dan arsipkan siklus penagihan, dan tinjau faktur yang diperinci per rumah tangga."
+      },
+      "bulkPurchases": {
+        "title": "Pembelian Massal",
+        "subtitle": "Catat pengiriman kapal tanker dan pembelian pasokan kota untuk komunitas Anda."
+      },
+      "waterLeakage": {
+        "title": "Kebocoran Air",
+        "subtitle": "Konfigurasikan peringatan kebocoran berbasis ambang batas dan outlier, serta tinjau rumah tangga yang ditandai."
+      },
+      "support": {
+        "title": "Dukungan / Kekhawatiran",
+        "subtitle": "Ajukan tiket Anda sendiri ke Admin Sistem, atau tangani kekhawatiran yang disampaikan penghuni Anda kepada Anda."
+      },
+      "profile": {
+        "title": "Pengaturan & Profil",
+        "subtitle": "Kelola detail akun dan informasi apartemen Anda."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Admin Komunitas",
+    "notBuilt": "{{label}} belum dibuat",
+    "searchPlaceholder": "Telusuri apa saja…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Laporan",
+      "description": "Laporan konsumsi, penagihan, dan konservasi untuk komunitas Anda."
+    },
+    "announcements": {
+      "title": "Pengumuman",
+      "description": "Kirimkan pengumuman ke seluruh komunitas kepada warga Anda."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} akan segera hadir"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dasbor",
+      "usageHistory": "Riwayat Penggunaan",
+      "bills": "Tagihan saya",
+      "recommendations": "Rekomendasi",
+      "reports": "Laporan",
+      "support": "Dukungan / Kekhawatiran",
+      "notifications": "Pemberitahuan",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Riwayat penggunaan Anda",
+      "billing": "Penagihan & Faktur",
+      "notifications": "Pemberitahuan",
+      "recommendations": "Rekomendasi",
+      "support": "Dukungan / Kekhawatiran"
+    },
+    "defaultTitle": "Dasbor Penduduk",
+    "navLabel": "Navigasi penduduk",
+    "fallbackName": "Penduduk",
+    "unit": "Satuan {{number}}",
+    "comingSoon": "{{label}} akan segera hadir",
+    "profile": "Profil",
+    "searchPlaceholder": "Analisis pencarian, tagihan…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dasbor",
+      "communities": "Komunitas",
+      "reports": "Laporan",
+      "supportTickets": "Tiket Dukungan",
+      "systemStatus": "Status Sistem"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Cuplikan seluruh platform di setiap komunitas terdaftar."
+      },
+      "communities": {
+        "title": "Komunitas",
+        "subtitle": "Setiap admin komunitas terdaftar dan komunitasnya, di satu tempat."
+      },
+      "reports": {
+        "title": "Laporan",
+        "subtitle": "Angka penggunaan dan penagihan air di seluruh platform, berdasarkan komunitas dan seiring berjalannya waktu."
+      },
+      "supportTickets": {
+        "title": "Tiket Dukungan",
+        "subtitle": "Tiket dukungan dan kekhawatiran yang disampaikan oleh warga dan admin komunitas, di seluruh platform."
+      },
+      "systemStatus": {
+        "title": "Status Sistem",
+        "subtitle": "Konektivitas backend dan kesehatan runtime dasar."
+      }
+    },
+    "fallbackName": "Admin Sistem",
+    "platformOwner": "Pemilik Platform",
+    "searchPlaceholder": "Telusuri komunitas…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Bahasa: {{language}}",
+    "searchPlaceholder": "Bahasa penelusuran…",
+    "noMatches": "Tidak ada kecocokan"
+  }
+}

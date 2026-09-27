@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Lueden…",
+    "saving": "Spuert…",
+    "saved": "Gespäichert.",
+    "uploading": "Eroplueden…",
+    "upload": "Eroplueden",
+    "uploadError": "Konnt dëse Fichier net eropluede. Probéiert w.e.g. nach eng Kéier.",
+    "cancel": "Ofbriechen",
+    "close": "Zoumaachen",
+    "edit": "Edit",
+    "remove": "Ewechzehuelen",
+    "saveChanges": "Ännerunge späicheren",
+    "bulkSummary": "<b>{{total}}</b> Reihen veraarbecht - <b>{{success}}</b> gelongen, <b>{{failure}}</b> gescheitert.",
+    "rowFailure": "Reihen {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Weist {{from}}–{{to}} vun {{total}}",
+    "prev": "← Virdrun",
+    "next": "Nächst →",
+    "page": "Säit {{page}} vun {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Konnt Är Gemeinschaftsdaten elo net lueden.",
+    "title": "{{community}} Appartement Dashboard",
+    "titleFallback": "Är Appartement Dashboard",
+    "subtitle": "Operationell Resumé fir Waasser Utility Sub-Messung a Stot Konsum.",
+    "comingSoon": "Kommt geschwënn",
+    "manageCommunity": "Verwalte Gemeinschaft",
+    "noUsageReadings": "Keng Benotzungslesunge sinn nach opgeholl.",
+    "cards": {
+      "totalHouseholds": "Total Stéit",
+      "occupied": "Besat",
+      "activeMeters": "Aktiv Meter",
+      "reportingReadings": "Bericht Liesungen",
+      "monthlyConsumption": "Monatlecht Verbrauch",
+      "thisCalendarMonth": "Dëse Kalenner Mount",
+      "latestRecordedMonth": "Lescht opgeholl Mount ({{month}})",
+      "noReadingsYet": "Keng Liesungen nach opgeholl",
+      "pendingAlerts": "Waarden Alarmer",
+      "anomalyPreview": "Anomalie Detektioun Virschau - nach net verfügbar"
+    },
+    "actions": {
+      "label": "Quick Administrativ Aktiounen",
+      "uploadReadings": "Eroplueden Meter Liesungen",
+      "configureTariffs": "Tariffer konfiguréieren",
+      "reportsNotBuilt": "Berichter sinn nach net gebaut",
+      "downloadReports": "Download System Berichter"
+    },
+    "chart": {
+      "title": "Monatlecht Verbrauchsvergleich (kL)",
+      "subtitle": "Läscht {{months}} Méint: Zil vs aktuell Konsum.",
+      "targetSeries": "Zil (Virschau)",
+      "actualSeries": "Tatsächlech"
+    },
+    "recent": {
+      "title": "Rezent Meter Liesungen",
+      "unit": "Eenheet",
+      "resident": "Awunner",
+      "lastReading": "Läscht Liesung",
+      "consumption": "Konsum"
+    }
+  },
+  "households": {
+    "loadError": "Konnt d'Awunner net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "fixFields": "Fixéiert w.e.g. déi markéiert Felder.",
+    "saveError": "Konnt dësen Awunner net retten. Kuckt w.e.g. d'Detailer.",
+    "confirmRemove": "{{name}} aus Ärem Haushaltsverzeechnes ewechhuelen?",
+    "removeError": "Konnt dësen Awunner net ewechhuelen. Probéiert w.e.g. nach eng Kéier.",
+    "count": "Stéit: {{total}}",
+    "bulkUploadButton": "⇪ Bulk Eroplueden",
+    "addResidentButton": "+ Resident derbäi",
+    "searchPlaceholder": "Filter no Numm, Haus, E-Mail oder Meternummer.",
+    "loading": "Bewunner lueden…",
+    "empty": "Nach keng Awunner. Klickt op \"Resident derbäi\" fir den éischte Stot anzeschreiwen.",
+    "noMatch": "Keen Awunner passen \"{{search}}\".",
+    "sort": {
+      "label": "Sortéieren no",
+      "name": "Numm",
+      "houseNumber": "Hausnummer",
+      "dateOfJoining": "Datum vun Bäitrëtt",
+      "toggleDirection": "Toggle Zort Richtung",
+      "asc": "↑ Asc",
+      "desc": "↓ Desch"
+    },
+    "gender": {
+      "male": "Männlech",
+      "female": "weiblech",
+      "other": "Aner"
+    },
+    "table": {
+      "name": "Numm",
+      "houseUnit": "Haus / Eenheet",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "meterNumber": "Meter Nr.",
+      "sqft": "sqft",
+      "joined": "Matgemaach"
+    },
+    "form": {
+      "addTitle": "Resident derbäi",
+      "editTitle": "Résident änneren",
+      "editSubtitle": "Dëst aktualiséiert d'Detailer vum Awunner an Ärem Verzeichnis.",
+      "bypassSubtitle": "Dir setzt d'Passwuert vun dësem Awunner direkt. Keng E-Mail gëtt geschéckt.",
+      "addSubtitle": "E Set-Passwuertlink gëtt un dësen Awunner per E-Mail geschéckt fir datt se hiren eegene Login aktivéiere kënnen.",
+      "fullName": "Ganzen numm",
+      "houseNumber": "Haus / Eenheet Nr.",
+      "email": "E-Mail",
+      "phone": "Telefonsnummer",
+      "meterNumber": "Meter Zuel",
+      "governmentId": "Regierung ID",
+      "gender": "Geschlecht",
+      "dateOfBirth": "Gebuertsdatum",
+      "dateOfJoining": "Datum vun dobäi",
+      "flatSize": "Flaach Gréisst (sq ft)",
+      "bypassLabel": "Bypass Set-Passwuert E-Mail - Setzt elo e Passwuert fir dësen Awunner",
+      "password": "Passwuert",
+      "confirmPassword": "Confirméieren Passwuert"
+    },
+    "validation": {
+      "fullNameRequired": "Voll Numm ass néideg.",
+      "emailRequired": "E-Mail ass néideg.",
+      "phoneRequired": "Telefonsnummer ass néideg.",
+      "houseNumberRequired": "Haus / Eenheetsnummer ass erfuerderlech.",
+      "houseNumberTaken": "Dës Hausnummer ass schonn engem aneren Awunner zougewisen.",
+      "meterNumberRequired": "Meternummer ass erfuerderlech.",
+      "meterNumberFormat": "Meternummer muss ausgesinn wéi MTR-1234 (4 Zifferen).",
+      "meterNumberTaken": "Dës Meternummer ass schonn engem aneren Awunner zougewisen.",
+      "governmentIdRequired": "Regierung ID ass néideg.",
+      "governmentIdFormat": "ID muss 6 Ziffere mat 99 ufänken (zB 991234).",
+      "genderRequired": "Wielt w.e.g. e Geschlecht.",
+      "dateOfBirthRequired": "Gebuertsdatum ass erfuerderlech.",
+      "dateOfJoiningRequired": "Den Datum vum Bäitrëtt ass erfuerderlech.",
+      "passwordRequired": "Passwuert ass erfuerderlech.",
+      "passwordLength": "Passwuert muss mindestens 8 Zeechen sinn.",
+      "confirmPasswordRequired": "Confirméiert w.e.g. d'Passwuert.",
+      "passwordMismatch": "Passwierder passen net."
+    },
+    "bulk": {
+      "title": "Bulk Eroplueden Awunner",
+      "noFile": "Wielt w.e.g. eng .csv oder .xlsx/.xls Datei fir eropzelueden.",
+      "instructions": "Eroplueden eng .csv oder .xlsx/.xls Datei mat Kolonnen <code>{{columns}}</code> (Passwuert a flatSizeSqft sinn allebéid fakultativ). Reihen mat engem Passwuert setzen se direkt; Reihen ouni e kritt e Set-Passwuert-E-Mail, d'selwecht wéi e Resident manuell bäizefügen. Duplizéiert Haus- / Meternummeren oder E-Maile ginn pro Zeil verworf - eng schlecht Zeil fällt net déi ganz Partie."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Konnt d'Awunner net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "historyLoadError": "Konnt d'Liesgeschicht net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "successMessage": "Erfollegräich opgeholl Liesung vun {{value}} kL fir {{house}} (Meter: {{meter}})! Berechent Verbrauch: {{consumption}} kL.",
+    "tabs": {
+      "single": "Single Entrée",
+      "csv": "Bulk CSV Eroplueden",
+      "history": "Liesen Geschicht"
+    },
+    "source": {
+      "manual": "Manuell",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Dësen Awunner huet keng Meternummer am Dossier.",
+      "dateRequired": "Liesen Datum ass néideg.",
+      "invalidValue": "Gitt w.e.g. e valabelen, net negativen Lieswäert un.",
+      "duplicate": "Eng Liesung fir dëse Meter gëtt et schonn op deem Datum.",
+      "meterNotFound": "Dëse Meter konnt net fonnt ginn. Wielt w.e.g. den Awunner nei.",
+      "lowerThanPrevious": "Dës Liesung ass manner wéi déi virdru opgeholl Liesung.",
+      "recordFailed": "Konnt dës Liesung net ophuelen. Probéiert w.e.g. nach eng Kéier."
+    },
+    "combo": {
+      "label": "Wielt Flat & Meter Serial",
+      "placeholder": "Wielt Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Kee Meter",
+      "searchPlaceholder": "Sichen Appartement Nee, Meter Serien, Awunner…",
+      "unitsHeader": "Wunnunitéiten",
+      "found": "Wunnenge fonnt: {{total}}",
+      "loading": "Bewunner lueden…",
+      "noMatch": "Keen Awunner passen \"{{search}}\".",
+      "unassigned": "Net zougewisen",
+      "itemMeta": "{{name}} · Lescht: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Opzeechnung engem liesen fir",
+      "context": "Haus {{house}} · Meter {{meter}}",
+      "changeResident": "Änneren Awunner",
+      "readingDate": "Liesen Datum",
+      "readingValue": "Aktuelle Meter Liesung (kL)",
+      "submit": "Gitt validéiert Liesung of",
+      "recentTitle": "Rezent Liesungen",
+      "recentEmpty": "Et gi keng Liesunge fir dëse Meter nach opgeholl."
+    },
+    "info": {
+      "title": "Monotonic Meter Validatioun",
+      "body": "All nei Liesung muss méi grouss sinn wéi oder gläich wéi de fréiere Logbuch fir dee Meter - dëst hält d'Verbrauchsrechnungen korrekt a fangt fréi transposéiert Zifferen."
+    },
+    "details": {
+      "title": "Ausgewielt Eenheet Detailer",
+      "flatUnit": "Flaach Eenheet",
+      "meterSerial": "Serien Meter",
+      "occupant": "Besetzer Numm",
+      "lastDial": "Last opgeholl Dial",
+      "noReadings": "Nach keng Liesungen",
+      "monthConsumption": "Mount Konsum",
+      "empty": "Kee Stot ausgewielt. Sicht a wielt en Awunner fir hir Meter Detailer hei ze gesinn."
+    },
+    "csv": {
+      "noFile": "Wielt w.e.g. eng CSV Datei fir eropzelueden.",
+      "instructions": "Eroplueden eng CSV mat Spalten <code>{{columns}}</code>. Zeile ginn onofhängeg veraarbecht - eng schlecht Zeil wäert d'ganz Partie net falen."
+    },
+    "history": {
+      "loading": "Luede Liesungen…",
+      "empty": "Keng Liesunge sinn nach fir Är Gemeinschaft opgeholl."
+    },
+    "table": {
+      "meterNumber": "Meter Nr.",
+      "date": "Datum",
+      "value": "Wäert (kL)",
+      "consumption": "Verbrauch (kL)",
+      "source": "Quell"
+    }
+  },
+  "billingCycles": {
+    "title": "Rechnungszyklen",
+    "loadError": "Konnt Rechnungszyklen net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "paymentUpdateError": "Konnt de Bezuelungsstatus vun dëser Rechnung net aktualiséieren.",
+    "pdfError": "Konnt den PDF net eroflueden. Probéiert w.e.g. nach eng Kéier.",
+    "finalizeError": "Konnt dëse Rechnungszyklus net finaliséieren.",
+    "archiveError": "Konnt dëse Rechnungszyklus net archivéieren.",
+    "loading": "Rechnungszyklen lueden…",
+    "empty": "Nach keng Rechnungszyklen. Öffnen een uewen fir unzefänken.",
+    "status": {
+      "open": "Oppen",
+      "finalized": "Finaliséiert",
+      "archived": "Archivéiert"
+    },
+    "open": {
+      "title": "Öffnen en neie Billing Cycle",
+      "noMonth": "Wielt w.e.g. e Mount fir opzemaachen.",
+      "error": "Konnt e Rechnungszyklus fir dee Mount net opmaachen.",
+      "monthAria": "Rechnungsperiod Mount",
+      "opening": "Ouverture…",
+      "submit": "Open Cycle"
+    },
+    "table": {
+      "period": "Period",
+      "status": "Status",
+      "householdsBilled": "Haushalter Rechnung",
+      "totalBilled": "Total Rechnung",
+      "actions": "Aktiounen"
+    },
+    "actions": {
+      "finalize": "Finaliséieren",
+      "finalizing": "Finaliséieren…",
+      "archive": "Archiv",
+      "archiving": "Archivéiert…"
+    },
+    "filter": {
+      "aria": "Filter no Bezuelungsstatus",
+      "all": "All"
+    },
+    "payment": {
+      "paid": "Bezuelt",
+      "unpaid": "Onbezuelt",
+      "updating": "Aktualiséieren…",
+      "markPaid": "Mark als bezuelt",
+      "markUnpaid": "Mark als onbezuelt"
+    },
+    "detail": {
+      "title": "Zyklus Detail - {{period}}",
+      "loading": "Rechnungen lueden…",
+      "notFinalized": "Dësen Zyklus ass nach net finaliséiert - keng Rechnungen generéiert.",
+      "noInvoices": "Keng Rechnungen fir dësen Zyklus.",
+      "noMatch": "Keng Rechnungen passen mat dësem Filter."
+    },
+    "invoices": {
+      "household": "Stot",
+      "resident": "Awunner",
+      "meterNumber": "Meter Nr.",
+      "consumption": "Verbrauch (kL)",
+      "tierBreakdown": "Tier Ënnerdeelung",
+      "commonArea": "Gemeinsam Beräich",
+      "total": "Ganzen",
+      "paymentStatus": "Bezuelen Status",
+      "pdf": "PDF",
+      "baseLine": "Basis: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Konnt d'Tarifkonfiguratioun net lueden",
+    "saveError": "Konnt d'Tarifkonfiguratioun net späicheren",
+    "chartTitle": "Aktiv Metered Utility Rate Tiers",
+    "axisNote": "Bewäert an ₹/kL, Plackegrenzen an kL",
+    "tableTitle": "Präisser Tiers Table",
+    "defaultRatesNote": "Default Tariffer weisen - nach net gespäichert.",
+    "addTier": "+ Tier derbäi",
+    "saveRates": "Retten Tariffer Tariffer",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Basis)",
+      "medium": "Tier {{tier}} (Mëttel)",
+      "heavy": "Tier {{tier}} (Schwiereg)"
+    },
+    "basePrice": {
+      "label": "Basispräis (₹ / kL, op ALL Konsum ugewannt)",
+      "note": "All kL gëtt als éischt dëse Forfait bezuelt. D'Placken hei drënner addéieren EXTRA Käschten nëmme fir d'Benotzung déi an hirem Beräich falen - z.B. eng Placke ab 50 kL bäidréit nëmmen säin Taux fir Konsum iwwer 50 kL."
+    },
+    "table": {
+      "tierLevel": "Niveau Niveau",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Tarif pro kL",
+      "action": "Aktioun"
+    },
+    "commonArea": {
+      "title": "Shared Common Area Cost Configuration",
+      "loadError": "Konnt d'gemeinsame Gebittskäschtekonfiguratioun net lueden",
+      "saveError": "Konnt d'gemeinsame Gebittskäschtekonfiguratioun net späicheren",
+      "empty": "Keng Käschtenartikele gespuert nach.",
+      "labelPlaceholder": "Käschtepunkt Label",
+      "perMonth": "/ Mount",
+      "active": "Aktiv",
+      "addItem": "+ Füügt Käschtepunkt",
+      "save": "Retten gemeinsame Beräich Configuratioun"
+    },
+    "distribution": {
+      "title": "Käschte Verdeelung Method Selector",
+      "consumption": "No Verbrauch (Sub-Metered Proportional)",
+      "floorArea": "No Appartement Flat Size (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Cycle Billing Startdatum",
+      "cycleStartValue": "1. vun all Mount",
+      "autoInvoices": "Auto-Generéieren PDF Rechnungen"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Schwell iwwerschratt",
+      "statisticalOutlier": "Statistesch Outlier"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Geléist",
+      "dismissed": "Entlooss"
+    },
+    "config": {
+      "title": "Leck Detection Configuratioun",
+      "subtitle": "Setzt e monatlecht Verbrauchsschwell an / oder aktivéiert statistesch Outlier Detektioun (Fändel e Stot deem säi monatlecht Konsum ongewéinlech héich ass am Verglach mat senger eegener Geschicht).",
+      "loadError": "Konnt d'Alarmkonfiguratioun net lueden. Probéiert w.e.g. nach eng Kéier.",
+      "thresholdRequired": "E monatleche Schwell (kL) ass erfuerderlech wann Schwellalarmer aktivéiert sinn.",
+      "saveError": "Konnt dës Konfiguratioun net späicheren.",
+      "loading": "Lueden d'Konfiguratioun…",
+      "threshold": "Mountschwell (kL)",
+      "sensitivity": "Outlier Empfindlechkeet (σ Multiplikator)",
+      "enableThreshold": "Schwellalarm aktivéieren",
+      "enableOutlier": "Aktivéiert statistesch Outlier Alarmer",
+      "save": "Späicheren Configuratioun",
+      "running": "Lafen…",
+      "runNow": "Run Detektioun Elo"
+    },
+    "alerts": {
+      "title": "Flagged Stéit",
+      "loadError": "Konnt d'Alarm net lueden. Probéiert w.e.g. nach eng Kéier.",
+      "runError": "Konnt de Leckdetektioun elo net lafen. Probéiert w.e.g. nach eng Kéier.",
+      "updateError": "Konnt dës Alarm net aktualiséieren. Probéiert w.e.g. nach eng Kéier.",
+      "allStatuses": "All Status",
+      "loading": "Lueden Alarmer…",
+      "empty": "Keng Alarmer ze weisen. Konfiguréiert eng Schwell oder aktivéiert Outlier Detektioun uewen, klickt dann op \"Run Detection Now\" fir d'aktuell Notzung vun Ärer Gemeinschaft ze evaluéieren.",
+      "resolve": "Opléisen",
+      "dismiss": "Entlooss"
+    },
+    "table": {
+      "household": "Stot",
+      "resident": "Awunner",
+      "meter": "Meter",
+      "type": "Typ",
+      "period": "Period",
+      "consumption": "Konsum",
+      "reference": "Referenz",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Konnt net bulk Waasser Akeef lueden. Probéiert w.e.g. nach eng Kéier.",
+    "confirmRemove": "Ewechzehuelen der {{source}} Liwwerung op {{date}}?",
+    "removeError": "Konnt dëse Kaf net ewechhuelen. Probéiert w.e.g. nach eng Kéier.",
+    "count": "Akeef opgeholl: {{total}}",
+    "recordButton": "+ Rekord Kaf",
+    "loading": "Luede Bulk Waasser Akeef ...",
+    "empty": "Kee bulk Waasser Akeef nach opgeholl. Klickt op \"Rekord Kaf\" fir eng Tanker Liwwerung oder kommunale Versuergungskaaf ze loggen.",
+    "table": {
+      "date": "Datum",
+      "source": "Quell",
+      "volume": "Volumen (L)",
+      "unitCost": "Eenheet Käschten",
+      "totalCost": "Total Käschten",
+      "notes": "Notizen"
+    },
+    "form": {
+      "addTitle": "Rekord Bulk Waasser Akeef",
+      "editTitle": "Edit Bulk Waasser Akeef",
+      "subtitle": "Verfollegt eng Tanker Liwwerung oder kommunale Versuergungskaf fir Är Gemeinschaft - dëst gëtt nëmme fir Käschtevisibilitéit opgeholl an beaflosst keng Haushaltsrechnungen.",
+      "requiredFields": "Fëllt w.e.g. den Datum, Quell, Volumen an Eenheetskäschte aus.",
+      "saveError": "Konnt dëse Kaf net späicheren. Kuckt w.e.g. d'Detailer.",
+      "purchaseDate": "Kaf Datum",
+      "source": "Quell / Fournisseur",
+      "volume": "Volumen (Liter)",
+      "unitCost": "Eenheetskäschte (₹ / Liter)",
+      "totalPreview": "Gesamtpräis: {{amount}}",
+      "notes": "Notizen (optional)",
+      "submit": "Rekord Akeef"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ass nach net gebaut",
+    "profileSaveError": "Konnt Äre Profil net späicheren. Probéiert w.e.g. nach eng Kéier.",
+    "apartmentSaveError": "Konnt d'Appartementdetailer net späicheren. Probéiert w.e.g. nach eng Kéier.",
+    "specsTitle": "Profil Spezifikatioune",
+    "photoUnavailable": "Foto Upload ass nach net verfügbar",
+    "changePhoto": "Foto änneren",
+    "deletePhoto": "Läschen",
+    "photoHint": "JPG oder PNG. Maximal Gréisst 2MB.",
+    "saveProfile": "Späicheren Profil",
+    "apartmentTitle": "Appartement Detailer",
+    "saveApartment": "Retten Appartement Detailer",
+    "tabs": {
+      "profile": "Profil Astellunge",
+      "apartment": "Appartement Profil",
+      "notifications": "Notifikatioun Regelen",
+      "billing": "Billing Integratioun",
+      "security": "Sécherheet & Zougang"
+    },
+    "fields": {
+      "fullName": "Ganzen numm",
+      "email": "Email Adress",
+      "emailLocked": "E-Mail kann hei net geännert ginn",
+      "phone": "Telefonsnummer",
+      "accessLevel": "Zougang Niveau",
+      "accessLevelValue": "Communautéit Administrateur",
+      "roleLocked": "Rollemanagement ass nach net verfügbar",
+      "apartmentName": "Appartement Numm",
+      "mainsSource": "Mains Quell",
+      "mainsSourcePlaceholder": "z.B. Gemengerot Fourniture + Zousaz Tankers",
+      "address": "Kierperlech Adress"
+    },
+    "security": {
+      "title": "Sécherheet & Zougang Preview",
+      "twoFactor": "Zwee-Faktor Authentifikatioun",
+      "twoFactorHint": "Aktivéiert beim Login",
+      "twoFactorUnavailable": "Zwee-Faktor Authentifikatioun ass nach net verfügbar",
+      "twoFactorAria": "Zwee-Faktor Authentifikatioun (nëmmen Virschau)",
+      "sessionsLabel": "Aktiv Admin Sessiounen",
+      "sessionsEmpty": "Sessiounsverfollegung ass nach net verfügbar - dëst ass eng Virschau vum Upëff vum Layout."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Meng Ticketen",
+      "inbox": "Awunner Ticketen"
+    },
+    "mine": {
+      "title": "Meng Ënnerstëtzung Ticketen",
+      "subtitle": "Stellt eng Fro oder Suerg iwwer Är Gemeinschaft un de System Admin.",
+      "emptyCreateHint": "Stellt eng Fro oder Suerg iwwer Är Gemeinschaft. E System Admin iwwerpréift a reagéiert hei."
+    },
+    "inbox": {
+      "title": "Awunner Ticketen",
+      "subtitle": "Ënnerstëtzung Ticketen a Bedenken Awunner an Ärer Gemeng hunn Iech adresséiert."
+    }
+  }
+}

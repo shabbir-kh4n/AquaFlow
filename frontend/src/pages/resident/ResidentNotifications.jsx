@@ -1,17 +1,25 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { getMyAlerts } from '../../api/alertApi'
 import { getVapidPublicKey, subscribe, unsubscribe } from '../../api/pushApi'
 import { urlBase64ToUint8Array } from '../../utils/webPush'
 import './ResidentNotifications.css'
 
-const TYPE_LABELS = {
-  THRESHOLD_EXCEEDED: 'Consumption Threshold Exceeded',
-  STATISTICAL_OUTLIER: 'Unusual Consumption Detected',
+const TYPE_LABEL_KEYS = {
+  THRESHOLD_EXCEEDED: 'notifications.type.thresholdExceeded',
+  STATISTICAL_OUTLIER: 'notifications.type.statisticalOutlier',
+}
+
+const STATUS_LABEL_KEYS = {
+  ACTIVE: 'notifications.status.active',
+  RESOLVED: 'notifications.status.resolved',
+  DISMISSED: 'notifications.status.dismissed',
 }
 
 const PUSH_UNSUPPORTED = typeof window === 'undefined' || !('serviceWorker' in navigator) || !('PushManager' in window)
 
 function ResidentNotifications() {
+  const { t } = useTranslation('resident')
   const [alerts, setAlerts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -22,9 +30,9 @@ function ResidentNotifications() {
   useEffect(() => {
     getMyAlerts()
       .then(setAlerts)
-      .catch(() => setError('Could not load your notifications. Please try again.'))
+      .catch(() => setError(t('notifications.loadError')))
       .finally(() => setLoading(false))
-  }, [])
+  }, [t])
 
   useEffect(() => {
     if (PUSH_UNSUPPORTED) return
@@ -41,12 +49,12 @@ function ResidentNotifications() {
       const registration = await navigator.serviceWorker.ready
       const permission = await Notification.requestPermission()
       if (permission !== 'granted') {
-        setPushError('Notification permission was not granted.')
+        setPushError(t('notifications.push.permissionDenied'))
         return
       }
       const { publicKey } = await getVapidPublicKey()
       if (!publicKey) {
-        setPushError('Push notifications are not configured yet. Contact your admin.')
+        setPushError(t('notifications.push.notConfigured'))
         return
       }
       const subscription = await registration.pushManager.subscribe({
@@ -56,7 +64,7 @@ function ResidentNotifications() {
       await subscribe(subscription.toJSON())
       setPushEnabled(true)
     } catch {
-      setPushError('Could not enable push notifications. Please try again.')
+      setPushError(t('notifications.push.enableError'))
     } finally {
       setPushBusy(false)
     }
@@ -74,7 +82,7 @@ function ResidentNotifications() {
       }
       setPushEnabled(false)
     } catch {
-      setPushError('Could not disable push notifications. Please try again.')
+      setPushError(t('notifications.push.disableError'))
     } finally {
       setPushBusy(false)
     }
@@ -85,8 +93,8 @@ function ResidentNotifications() {
       {!PUSH_UNSUPPORTED && (
         <section className="af-notif__panel af-notif__push-panel">
           <div className="af-notif__push-text">
-            <strong>Push notifications</strong>
-            <span>Get notified on this device when a new bill or alert comes in.</span>
+            <strong>{t('notifications.push.title')}</strong>
+            <span>{t('notifications.push.description')}</span>
           </div>
           <div className="af-notif__push-actions">
             {pushError && <span className="af-notif__push-error">{pushError}</span>}
@@ -96,21 +104,20 @@ function ResidentNotifications() {
               disabled={pushBusy}
               onClick={pushEnabled ? handleDisablePush : handleEnablePush}
             >
-              {pushEnabled ? 'Disable' : 'Enable'}
+              {pushEnabled ? t('notifications.push.disable') : t('notifications.push.enable')}
             </button>
           </div>
         </section>
       )}
 
       {loading ? (
-        <p className="af-notif__empty">Loading your notifications…</p>
+        <p className="af-notif__empty">{t('notifications.loading')}</p>
       ) : error ? (
         <div className="af-notif__error">{error}</div>
       ) : alerts.length === 0 ? (
         <div className="af-notif__panel">
           <p className="af-notif__empty">
-            No notifications yet — you'll see something here if your community admin has enabled
-            usage-threshold or unusual-consumption alerts and one is triggered for your household.
+            {t('notifications.empty')}
           </p>
         </div>
       ) : (
@@ -119,15 +126,15 @@ function ResidentNotifications() {
             {alerts.map((alert) => (
               <div key={alert.id} className={`af-notif__card af-notif__card--${alert.status.toLowerCase()}`}>
                 <div className="af-notif__card-heading">
-                  <strong>{TYPE_LABELS[alert.alertType] || alert.alertType}</strong>
+                  <strong>{TYPE_LABEL_KEYS[alert.alertType] ? t(TYPE_LABEL_KEYS[alert.alertType]) : alert.alertType}</strong>
                   <span className={`af-notif__badge af-notif__badge--${alert.status.toLowerCase()}`}>
-                    {alert.status}
+                    {STATUS_LABEL_KEYS[alert.status] ? t(STATUS_LABEL_KEYS[alert.status]) : alert.status}
                   </span>
                 </div>
                 <p className="af-notif__message">{alert.message}</p>
                 <div className="af-notif__meta">
-                  <span>Billing period: {alert.periodMonth}</span>
-                  <span>Consumption: {Number(alert.consumptionValue).toFixed(2)} kL</span>
+                  <span>{t('notifications.billingPeriod', { period: alert.periodMonth })}</span>
+                  <span>{t('notifications.consumption', { value: Number(alert.consumptionValue).toFixed(2) })}</span>
                 </div>
               </div>
             ))}

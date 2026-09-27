@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Pani",
+    "signUpTitle": "E hoʻopaʻa inoa i kou kaiāulu",
+    "signInTitle": "Welina hou",
+    "signUpSubtitle": "E hana i kahi moʻokāki Admin Community e hoʻomaka i ka hoʻokele ʻana i nā kamaʻāina a me nā bila.",
+    "signInSubtitle": "E ʻeʻe mai no ka ʻike ʻana i kāu hoʻohana ʻana i ka wai a me ka bila."
+  },
+  "signIn": {
+    "errorFallback": "ʻAʻole hiki ke kau inoa. E ʻoluʻolu e hoʻāʻo hou.",
+    "emailLabel": "leka uila",
+    "passwordLabel": "Hua huna",
+    "rememberMe": "Hoʻomanaʻo iaʻu",
+    "forgotPassword": "Poina ka ʻōlelo huna?",
+    "submitting": "Ke ʻeʻe nei…",
+    "submit": "ʻeʻe",
+    "noAccount": "ʻAʻohe moʻokāki?",
+    "signUpLink": "Kau inoa"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "ʻAʻole kūlike nā ʻōlelo huna.",
+      "communityRequired": "Pono ka inoa kaiāulu.",
+      "termsRequired": "E ʻoluʻolu e ʻae i nā Kūlana o ka lawelawe a me nā kulekele pilikino.",
+      "fallback": "ʻAʻole hiki ke hana i ka moʻokāki. E ʻoluʻolu e hoʻāʻo hou."
+    },
+    "hint": "Nā luna kaiaulu wale nō e kākau inoa ma aneʻi. Ke komo ʻoe, e hoʻohui ʻoe i nā kikoʻī o kāu poʻe kamaʻāina iā ʻoe iho - ʻaʻole lākou e kau inoa iā lākou iho.",
+    "fullNameLabel": "Inoa piha",
+    "emailLabel": "leka uila",
+    "phoneLabel": "Helu kelepona",
+    "communityNameLabel": "inoa kaiaulu",
+    "passwordLabel": "Hua huna",
+    "confirmPasswordLabel": "Hōʻoia i ka ʻŌlelo Huna",
+    "agreeTerms": "ʻAe wau i ka <termsLink>Kuleana o ka lawelawe</termsLink> a me <privacyLink>Kulekele Pilikino</privacyLink>",
+    "submitting": "Ke hana nei i moʻokāki…",
+    "submit": "Hana i ka moʻokāki Admin",
+    "haveAccount": "Loaʻa i kahi moʻokāki?",
+    "signInLink": "ʻeʻe"
+  },
+  "installPrompt": {
+    "title": "E hoʻouka HydroLedger",
+    "description": "Hoʻohui ia i kāu pale home no ke komo wikiwiki.",
+    "dismiss": "Hoʻokuʻu",
+    "install": "Hoʻokomo"
+  },
+  "setPassword": {
+    "title": "E hoʻonoho i kāu ʻōlelo huna",
+    "loading": "Ke hoʻouka nei…",
+    "subtitle": "Aloha {{name}}, koho i ka ʻōlelo huna no {{email}} e hoʻā i kāu moʻokāki HydroLedger.",
+    "errors": {
+      "invalidLink": "He kūpono ʻole kēia loulou a ua hala paha.",
+      "tooShort": "Pono ka ʻōlelo huna ma kahi o 8 mau huaʻōlelo.",
+      "mismatch": "ʻAʻole kūlike nā ʻōlelo huna.",
+      "fallback": "ʻAʻole hiki ke hoʻonohonoho i kāu ʻōlelo huna. E ʻoluʻolu e hoʻāʻo hou."
+    },
+    "passwordLabel": "Hua huna",
+    "confirmPasswordLabel": "Hōʻoia i ka ʻŌlelo Huna",
+    "submitting": "Ke hoʻonohonoho nei i ka ʻōlelo huna…",
+    "submit": "E hoʻopaʻa i ka ʻōlelo huna a kau inoa"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Kokua",
+      "resident": "E nīnau e pili ana i kāu moʻokāki",
+      "admin": "Kokua Kaiaulu",
+      "platform": "Kokua Papahana",
+      "default": "Kokua"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "He aha ka HydroLedger?",
+        "tieredBilling": "Pehea ka hana ʻana o ka hoʻolimalima kālā?",
+        "leaks": "Pehea e ʻike ʻia ai nā leaks?"
+      },
+      "resident": {
+        "billEstimate": "He aha kaʻu manaʻo pili pili i kēia manawa?",
+        "alerts": "Loaʻa iaʻu nā leka hoʻohana?",
+        "readings": "E hōʻike i kaʻu heluhelu mika i hala iho nei"
+      },
+      "admin": {
+        "households": "ʻEhia mau hale o kākou?",
+        "billingCycles": "E hoʻopaʻa inoa i kā mākou mau kaʻina hana pili kālā",
+        "tariff": "He aha kā mākou papahana uku i kēia manawa?"
+      },
+      "platform": {
+        "communities": "E papa inoa i nā kaiaulu i hoʻopaʻa inoa ʻia",
+        "usageReport": "Hōʻike i ka hōʻike hoʻohana platform",
+        "systemStatus": "He aha ke kūlana ʻōnaehana?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Ke hoʻouna wikiwiki nei ʻoe i nā memo - e ʻoluʻolu e kali a hoʻāʻo hou.",
+      "unavailable": "ʻAʻole loaʻa ke kōkua no kekahi manawa. E ʻoluʻolu e hoʻāʻo hou koke.",
+      "generic": "Ua hewa ka hoʻouna ʻana i kēlā memo. E ʻoluʻolu e hoʻāʻo hou."
+    },
+    "emptyHint": "E nīnau mai iaʻu i kekahi mea - hiki iaʻu ke ʻike i kāu ʻikepili wale nō.",
+    "closeAssistant": "Kokua pili",
+    "openAssistant": "Kokua wehe",
+    "inputPlaceholder": "Kākau i kahi memo…",
+    "inputLabel": "ʻŌlelo",
+    "send": "Hoʻouna"
+  },
+  "supportBoard": {
+    "defaultTitle": "Kākoʻo Tickets",
+    "defaultCreateLabel": "Hoʻonui i ka hopohopo hou",
+    "status": {
+      "open": "Wehe",
+      "inProgress": "Ke holo nei",
+      "resolved": "Hoʻoholo ʻia",
+      "closed": "Paʻa"
+    },
+    "tabs": {
+      "all": "Nā Kiki a pau"
+    },
+    "recipients": {
+      "admin": "Luna Kaiaulu",
+      "systemAdmin": "Luna hooponopono",
+      "both": "Luna Kaiaulu + Luna Pūnaewele"
+    },
+    "roles": {
+      "resident": "kamaaina",
+      "admin": "Admin"
+    },
+    "toRecipients": "I: {{recipients}}",
+    "raisedByResident": "Hāpai ʻia e ka kamaʻāina {{name}}",
+    "raisedByAdmin": "Hāpai ʻia e ka luna {{name}}",
+    "refresh": "Hōʻano hou",
+    "stats": {
+      "openLabel": "Wehe i nā waiho ʻana",
+      "openHint": "Ke kali nei i ka loiloi",
+      "inProgressLabel": "Ke holo nei",
+      "inProgressHint": "Ke hana ʻia nei",
+      "resolvedLabel": "Hoʻoholo ʻia",
+      "resolvedHint": "Ua pani ʻia"
+    },
+    "searchPlaceholder": "Huli i nā tiketi ma ke kumuhana, hoʻopuka…",
+    "loadingTickets": "Ke hoʻouka nei i nā tiketi…",
+    "empty": {
+      "title": "ʻAʻole i loaʻa nā tikiki kākoʻo",
+      "body": "ʻAʻohe āu noi kākoʻo i wehe ʻia a i hoʻopaʻa ʻia i kēia manawa.",
+      "cta": "Hoʻouna i kahi hopohopo"
+    },
+    "errors": {
+      "loadList": "ʻAʻole hiki ke hoʻouka i nā tikiki kākoʻo. E ʻoluʻolu e hoʻāʻo hou.",
+      "loadDetail": "ʻAʻole hiki ke hoʻouka i kēia tiketi. E ʻoluʻolu e hoʻāʻo hou.",
+      "required": "Pono ke kumuhana a me ka memo.",
+      "recipientRequired": "E koho i hoʻokahi mea e loaʻa ai (Luna Kaiāulu a/a i ʻole Luna Pūnaewele).",
+      "submitFallback": "ʻAʻole hiki ke hoʻouna i kēia tiketi. E ʻoluʻolu e hoʻāʻo hou.",
+      "sendReply": "ʻAʻole hiki ke hoʻouna i kēia memo. E ʻoluʻolu e hoʻāʻo hou.",
+      "updateStatus": "ʻAʻole hiki ke hōʻano hou i kēia kūlana tiketi. E ʻoluʻolu e hoʻāʻo hou."
+    },
+    "form": {
+      "defaultHint": "E wehewehe i kāu pilikia a hopohopo paha ma lalo nei.",
+      "subjectLabel": "Kumuhana",
+      "subjectPlaceholder": "He pōkole pōkole o kāu pilikia",
+      "messageLabel": "ʻŌlelo",
+      "messagePlaceholder": "E wehewehe kikoʻī i nā mea e hana nei…",
+      "recipientsLabel": "E hoʻouna i kēia hopohopo iā",
+      "cancel": "Hoʻopau",
+      "submitting": "Ke waiho nei…",
+      "submit": "E hoʻouna mai i ka palapala"
+    },
+    "detail": {
+      "loading": "Ke hoʻouka nei i ka tiketi…",
+      "replyPlaceholder": "Kākau i pane…",
+      "close": "Pani",
+      "sending": "Hoʻouna ʻia…",
+      "sendReply": "Hoʻouna Pane"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Aloha hou mai, {{name}}",
+    "openMenu": "E wehe i ka papa kuhikuhi",
+    "closeMenu": "E pani i ka papa kuhikuhi",
+    "logout": "E haʻalele",
+    "search": "Huli",
+    "notifications": "Hoolaha"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Papa kuhikuhi",
+      "households": "Papa kuhikuhi hale",
+      "meterReadings": "Heluhelu mika",
+      "billing": "Hooponopono Pili",
+      "bulkPurchases": "Nā Kūʻai Nui",
+      "reports": "Nā hōʻike",
+      "waterLeakage": "Leaka wai",
+      "support": "Kākoʻo / hopohopo",
+      "tariffPlans": "Hoʻolālā Uku",
+      "announcements": "Nā hoʻolaha",
+      "profile": "Pilikino"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Eia kahi kiʻi o kou kaiāulu."
+      },
+      "households": {
+        "title": "Papa kuhikuhi hale",
+        "subtitle": "Hoʻohui, hoʻohou, a hoʻokele i nā kamaʻāina e noho ana ma kou kaiāulu."
+      },
+      "meterReadings": {
+        "title": "Hub Heluhelu Meka Wai",
+        "subtitle": "E ʻimi i kahi kamaʻāina a hoʻopaʻa i kā lākou heluhelu mika wai."
+      },
+      "tariffPlans": {
+        "title": "Hoʻonohonoho Kūʻai",
+        "subtitle": "E hoʻonohonoho i nā palena pākēneka, kaʻana like ʻana i nā koina wahi maʻamau, a me nā ʻano hoʻohele no kāu kaiāulu."
+      },
+      "billing": {
+        "title": "Hooponopono Pili",
+        "subtitle": "Wehe, hoʻopau, a hoʻopaʻa i nā pōʻaiapili bila, a nānā i nā helu helu i kēlā me kēia hale."
+      },
+      "bulkPurchases": {
+        "title": "Nā Kūʻai Nui",
+        "subtitle": "E hoʻopaʻa i ka hoʻouna ʻana i nā pahu pahu a me nā kūʻai ʻana i nā lako kūloko no kou kaiāulu."
+      },
+      "waterLeakage": {
+        "title": "Leaka wai",
+        "subtitle": "E hoʻonohonoho i ka paepae a me nā makaʻala leak e pili ana i waho, a e nānā i nā hale i hōʻailona ʻia."
+      },
+      "support": {
+        "title": "Kākoʻo / hopohopo",
+        "subtitle": "E hoʻokiʻekiʻe i kāu mau tiketi ponoʻī i ka System Admin, a i ʻole e mālama i nā hopohopo a kāu poʻe kamaʻāina i kamaʻilio aku iā ʻoe."
+      },
+      "profile": {
+        "title": "Hoʻonohonoho & Profile",
+        "subtitle": "E mālama i kāu kikoʻī moʻokāki a me ka ʻike hale."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Luna Kaiaulu",
+    "notBuilt": "{{label}} ʻaʻole i kūkulu ʻia",
+    "searchPlaceholder": "Huli i kekahi mea…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Nā hōʻike",
+      "description": "Nā hōʻike hoʻohana, hoʻolimalima, a me ka mālama ʻana no kou kaiāulu."
+    },
+    "announcements": {
+      "title": "Nā hoʻolaha",
+      "description": "E hoʻouna i nā hoʻolaha kaiaulu i kou poʻe kamaʻāina."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} e hiki koke mai ana"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Papa kuhikuhi",
+      "usageHistory": "Moolelo hoohana",
+      "bills": "Ka'u Bila",
+      "recommendations": "Nā Manaʻo",
+      "reports": "Nā hōʻike",
+      "support": "Kākoʻo / hopohopo",
+      "notifications": "Hoolaha",
+      "profile": "Pilikino"
+    },
+    "pages": {
+      "usageHistory": "Kou mōʻaukala hoʻohana",
+      "billing": "Pili & Invoice",
+      "notifications": "Hoolaha",
+      "recommendations": "Nā Manaʻo",
+      "support": "Kākoʻo / hopohopo"
+    },
+    "defaultTitle": "Papa Hoʻokele Noho",
+    "navLabel": "Hoʻokele kamaʻāina",
+    "fallbackName": "kamaaina",
+    "unit": "Hui {{number}}",
+    "comingSoon": "{{label}} e hiki koke mai ana",
+    "profile": "Pilikino",
+    "searchPlaceholder": "Huli i ka ʻikepili, nā bila…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Papa kuhikuhi",
+      "communities": "Nā kaiaulu",
+      "reports": "Nā hōʻike",
+      "supportTickets": "Kākoʻo Tickets",
+      "systemStatus": "Kūlana Pūnaehana"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Kiʻi paʻi kiʻi ākea ma kēlā me kēia kaiāulu i hoʻopaʻa ʻia."
+      },
+      "communities": {
+        "title": "Nā kaiaulu",
+        "subtitle": "ʻO kēlā me kēia kaiāulu i hoʻopaʻa inoa ʻia a me ko lākou kaiāulu, ma kahi hoʻokahi."
+      },
+      "reports": {
+        "title": "Nā hōʻike",
+        "subtitle": "ʻO ka hoʻohana ʻana i ka wai ākea a me nā helu bila, e ke kaiāulu a i ka manawa."
+      },
+      "supportTickets": {
+        "title": "Kākoʻo Tickets",
+        "subtitle": "Kākoʻo i nā tiketi a me nā hopohopo i hāpai ʻia e nā kamaʻāina a me nā alakaʻi kaiāulu, ma ka pae ākea."
+      },
+      "systemStatus": {
+        "title": "Kūlana Pūnaehana",
+        "subtitle": "Hoʻohui hope a me ke olakino holo manawa maʻamau."
+      }
+    },
+    "fallbackName": "Luna hooponopono",
+    "platformOwner": "Mea nona ka paepae",
+    "searchPlaceholder": "Huli kaiaulu…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "ʻŌlelo: {{language}}",
+    "searchPlaceholder": "Huli ʻōlelo…",
+    "noMatches": "ʻAʻohe pāʻani"
+  }
+}

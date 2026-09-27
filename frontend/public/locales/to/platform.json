@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Longomo'ui",
+    "blocked": "Kuo poloka",
+    "terminated": "Fakangata"
+  },
+  "sort": {
+    "sortBy": "Fakahokohoko ʻaki ʻa e",
+    "toggleDirection": "Toggle fakahokohoko 'a e fakahinohino",
+    "asc": "↑ Asc",
+    "desc": "↓ Fakamatala"
+  },
+  "pagination": {
+    "showing": "Fakahaa'i 'a e {{from}}–{{to}} 'o e {{total}}",
+    "prev": "← Kimu'a",
+    "next": "Hoko atu →",
+    "page": "Peesi {{page}} ʻo e {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Fakakaukau Fakalukufua ki he Palataisi",
+    "subtitle": "Ko e admin fakakolo kotoa pe kuo lesisita, 'i he kotoa 'o e HydroLedger tu'unga.",
+    "viewAll": "Vakai ki he ngaahi komiuniti kotoa pe",
+    "loadError": "'Ikai lava ke uta 'a e fakamatala 'o e peletifoomu he taimi ni.",
+    "cards": {
+      "totalCommunities": "Fakakatoa 'o e Ngaahi Kolo",
+      "registeredAdmins": "Kau admin kuo lesisita",
+      "totalResidents": "Fakakatoa 'o e Kau Nofo",
+      "acrossAllCommunities": "'I he ngaahi komiuniti kotoa pe",
+      "active": "Longomo'ui",
+      "inGoodStanding": "ʻI he tuʻunga lelei .",
+      "blockedTerminated": "Kuo poloka / Fakangata",
+      "blockedTerminatedBreakdown": "{{blocked}} kuo poloka, {{terminated}} fakangata"
+    },
+    "recent": {
+      "title": "Ngaahi Kolo Toki Lesisita",
+      "loading": "Uta...",
+      "empty": "Kuo te'eki ke lesisita ha ngaahi komiuniti.",
+      "table": {
+        "community": "Kolo",
+        "admin": "Admin",
+        "status": "Tu'unga",
+        "residents": "Kau Nofo"
+      }
+    }
+  },
+  "communities": {
+    "count": "Ngaahi komiuniti: {{count}}",
+    "loadError": "Na'e 'ikai lava ke uta 'a e ngaahi komiuniti. Kātaki ʻo toe feinga.",
+    "searchPlaceholder": "Faka'ilonga'i 'e he komiuniti, hingoa admin, pe 'imeili",
+    "statusFilter": {
+      "label": "Tu'unga",
+      "all": "Kotoa"
+    },
+    "sortOptions": {
+      "community": "Kolo",
+      "admin": "Admin",
+      "residents": "Kau Nofo"
+    },
+    "loading": "Uta 'a e ngaahi komiuniti...",
+    "empty": "Kuo te'eki ke lesisita ha ngaahi komiuniti.",
+    "noMatch": "'Oku 'ikai ha ngaahi komiuniti 'oku nau tatau mo ho'o ngaahi filita.",
+    "table": {
+      "community": "Kolo",
+      "admin": "Admin",
+      "email": "'Imeili",
+      "status": "Tu'unga",
+      "residents": "Kau Nofo",
+      "view": "Vakai"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Na'e 'ikai lava ke uta 'a e komiuniti ko 'eni. Mahalo naʻe toʻo ia.",
+    "statusUpdateError": "'Ikai lava ke fakafo'ou 'a e tu'unga 'o e komiuniti ko 'eni.",
+    "deleteError": "Na'e 'ikai lava ke tamate'i 'a e komiuniti ko 'eni.",
+    "loading": "Uta 'a e komiuniti...",
+    "notFound": "Komuniti 'oku 'ikai ke ma'u.",
+    "backLink": "← Foki ki he Ngaahi Kolo",
+    "backLinkShort": "Foki ki he Ngaahi Kolo",
+    "eyebrow": "Fakamatala Fakakomiuniti",
+    "unnamed": "Komiuniti ta'efakahingoa",
+    "noAddress": "'Ikai ha tu'asila 'i he faile",
+    "stats": {
+      "residents": "Kau Nofo",
+      "status": "Tu'unga"
+    },
+    "actions": {
+      "reactivate": "Toe fakaakeake",
+      "block": "Poloka",
+      "terminate": "Fakangata",
+      "delete": "Tamate'i 'a e Komiuniti"
+    },
+    "blockDialog": {
+      "title": "Poloka 'a e admin 'o e komiuniti ko 'eni?",
+      "message": "Poloka {{name}}? He ʻikai ke nau lava ʻo hū ki loto kae ʻoua kuo taʻofi. He'ikai ke uesia ha fakamatala.",
+      "confirm": "Poloka"
+    },
+    "terminateDialog": {
+      "title": "Fakangata 'a e admin 'o e komiuniti ko 'eni?",
+      "message": "Fakangata tu'uloa 'a e hū 'a e {{name}}? He'ikai lava ke fakafoki 'eni, neongo 'e tauhi 'a e ngaahi fakamatala 'o honau komiuniti ke lekooti.",
+      "confirm": "Fakangata"
+    },
+    "deleteDialog": {
+      "title": "Tamate'i 'a e komiuniti ko 'eni?",
+      "message": "'E tamate'i tu'uloa 'e he me'a ni 'a e <strong>{{name}}</strong> mo hono ngaahi 'api kotoa pe, kau nofo, mita, totongi/totongi 'o e configuration, mo e hisitōlia 'o e inivoisi. He ʻikai lava ke fakafoki ʻa e ngāue ko ʻení.",
+      "typeToConfirm": "Lomiʻi ʻa e <strong>{{word}}</strong> ke hoko atu",
+      "confirm": "Fakapapau'i"
+    },
+    "residents": {
+      "title": "Kau Nofo",
+      "registeredCount": "Kuo lesisita: {{count}}",
+      "empty": "'Oku te'eki ke lesisita ha kau nofo 'i he komiuniti ko 'eni.",
+      "table": {
+        "flatUnit": "ʻIuniti Pala",
+        "meter": "Mita",
+        "resident": "Api nofo'anga",
+        "email": "'Imeili",
+        "passwordSet": "Seti lea fufuu"
+      },
+      "yes": "ʻIo",
+      "no": "ʻIkai"
+    },
+    "cancel": "Kaniseli",
+    "working": "Ngaue…",
+    "deleting": "Tamate'i..."
+  },
+  "systemStatus": {
+    "statusError": "Na'e 'ikai lava ke a'u ki he backend ke vakai'i 'a e tu'unga 'o e sisitemi.",
+    "metricsError": "'Ikai lava ke uta 'a e hisitōlia 'o e metrics.",
+    "ranges": {
+      "fiveMinutes": "Miniti ʻe 5",
+      "fifteenMinutes": "Miniti ʻe 15",
+      "hour": "Houa",
+      "day": "Aho",
+      "week": "Uike",
+      "month": "Māhina",
+      "threeMonths": "Mahina 'e 3"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Kole/sekoni",
+      "opsPerSec": "Ngaue/sekoni",
+      "latency": "Latency",
+      "lastValue": "{{value}} fakamuimuitaha",
+      "loading": "Uta...",
+      "empty": "'Oku te'eki ke lekooti ha metrics ki he 'atakai ko 'eni."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API fakamuimuitaha",
+      "checking": "Vakai'i...",
+      "reachable": "Lava ke aʻu ki ai",
+      "unreachable": "Ta'e lava ke a'u ki ai",
+      "connected": "Fehokotaki",
+      "backendApiHint": "Na'e uta 'a e peesi ko 'eni mei he backend, ko ia na'e tali.",
+      "database": "Tu'u'anga fakamatala",
+      "databaseHint": "PostgreSQL fehokotaki'anga, vakai'i mo'ui.",
+      "uptime": "Taimi ngaue 'o e Backend",
+      "uptimeHint": "Talu mei he toe kamata 'o e polokalama fakamuimuitaha.",
+      "appVersion": "Fakakaukau ʻo e App",
+      "appVersionHint": "Backend langa 'a e founga."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Lau 'a e Latency",
+      "writesLatency": "Tohi 'a e Latency .",
+      "otherLatency": "Latency kehe",
+      "connections": "Ngaahi fehokotaki'anga",
+      "totalKeys": "Fakakatoa 'o e Ngaahi Ki"
+    },
+    "note": "'Oku sipinga 'a e ngaahi kole/sec mo e latency mei he fefononga'aki backend mo'ui 'i he sekoni 'e 15 kotoa pe pea tauhi ia 'o a'u ki he 'aho 'e 100. Ko ha fehokotaki'anga tefito 'eni + sivi 'o e fefononga'aki — 'oku 'ikai ke ne fetongi 'a e siofi 'o e fakahoko kakato 'o e polokalama, aggregation 'o e 'akau, pe fakatokanga."
+  },
+  "reports": {
+    "loadError": "Naʻe ʻikai lava ke uta ʻa e lipooti ʻo e peletifōmú.",
+    "ranges": {
+      "threeMonths": "Mahina 'e 3",
+      "sixMonths": "Mahina 'e 6",
+      "twelveMonths": "12 Mahina",
+      "custom": "Angafakafonua"
+    },
+    "sortOptions": {
+      "community": "Kolo",
+      "usage": "Ngaue'aki",
+      "billed": "Fakamole",
+      "residents": "Kau Nofo"
+    },
+    "customRange": {
+      "from": "Mei",
+      "to": "Ki",
+      "hint": "Fili fakatou'osi ha \"mei he\" mo e \"ki he\" mahina ke uta ha lipooti angamaheni."
+    },
+    "loading": "Lipooti 'o e uta...",
+    "cards": {
+      "totalCommunities": "Fakakatoa 'o e Ngaahi Kolo",
+      "inThisRange": "'I he 'atakai ko 'eni .",
+      "totalResidents": "Fakakatoa 'o e Kau Nofo",
+      "acrossAllCommunities": "'I he ngaahi komiuniti kotoa pe",
+      "overallUsage": "Ngaue'aki Fakakatoa",
+      "meteredConsumption": "Fakamole mita",
+      "overallBilled": "Fakakatoa 'o e totongi",
+      "finalizedInvoicesOnly": "Ko e ngaahi inivoisi faka'osi pe",
+      "avgUsagePerResident": "Faka'aonga'i 'o e Avg / Nofo",
+      "avgBillPerResident": "Avg Bill / Nofo"
+    },
+    "charts": {
+      "usageTitle": "Faka'aonga'i 'o e peletifoomu-fakakatoa (kL / mahina)",
+      "usageEmpty": "'Oku 'ikai ha lekooti 'o e faka'aonga'i ki he 'atakai ko 'eni.",
+      "usageSeries": "Ngaue'aki",
+      "billedTitle": "Ko e Pa'anga Fakamole 'i he Palataisi-fakakatoa (₹ / mahina)",
+      "billedEmpty": "'Oku 'ikai ha ngaahi invoice kuo fakapapau'i ki he 'atakai ko 'eni.",
+      "billedSeries": "Fakamole"
+    },
+    "searchPlaceholder": "Filter 'aki 'a e hingoa 'o e komiuniti pe admin",
+    "empty": "'Oku te'eki ke 'i ai ha ngaahi komiuniti 'oku nau ma'u ha fakamatala 'o hono faka'aonga'i pe totongi ki he 'atakai ko 'eni.",
+    "noMatch": "'Oku 'ikai ha ngaahi komiuniti 'oku tatau mo ho'o filter.",
+    "table": {
+      "community": "Kolo",
+      "admin": "Admin",
+      "residents": "Kau Nofo",
+      "usage": "Usage (kL)",
+      "billed": "Totongi (₹)",
+      "avgUsagePerResident": "Faka'aonga'i 'o e Avg / Nofo",
+      "avgBillPerResident": "Avg Bill / Nofo"
+    }
+  },
+  "supportTickets": {
+    "title": "Tikite Poupou",
+    "subtitle": "Poupou'i 'a e tikite mo e ngaahi hoha'a 'oku 'ohake 'e he kakai 'o e fonua mo e kau admins 'o e komiuniti, platform-wide."
+  }
+}

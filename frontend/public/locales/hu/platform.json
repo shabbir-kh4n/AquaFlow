@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktív",
+    "blocked": "Zárolt",
+    "terminated": "Megszűnt"
+  },
+  "sort": {
+    "sortBy": "Rendezés",
+    "toggleDirection": "Váltsd át a rendezési irányt",
+    "asc": "↑ Asc",
+    "desc": "↓ Leírás"
+  },
+  "pagination": {
+    "showing": "{{total}} / {{from}}–{{to}} megjelenítése",
+    "prev": "← Előző",
+    "next": "Következő →",
+    "page": "{{pageCount}} / {{page}} oldal"
+  },
+  "dashboard": {
+    "title": "Platform áttekintése",
+    "subtitle": "Minden regisztrált közösségi adminisztrátor a teljes HydroLedger platformon.",
+    "viewAll": "Az összes közösség megtekintése",
+    "loadError": "Jelenleg nem sikerült betölteni a platformadatokat.",
+    "cards": {
+      "totalCommunities": "Összes közösségek",
+      "registeredAdmins": "Regisztrált adminok",
+      "totalResidents": "Összes lakos",
+      "acrossAllCommunities": "Az összes közösségben",
+      "active": "Aktív",
+      "inGoodStanding": "Jó állapotú",
+      "blockedTerminated": "Letiltva / megszűnt",
+      "blockedTerminatedBreakdown": "{{blocked}} blokkolva, {{terminated}} megszűnt"
+    },
+    "recent": {
+      "title": "Nemrég regisztrált közösségek",
+      "loading": "Terhelés…",
+      "empty": "Még nincs regisztrálva közösség.",
+      "table": {
+        "community": "Közösség",
+        "admin": "Adminisztrátor",
+        "status": "Állapot",
+        "residents": "Lakosok"
+      }
+    }
+  },
+  "communities": {
+    "count": "Közösségek: {{count}}",
+    "loadError": "Nem sikerült betölteni a közösségeket. Kérjük, próbálja újra.",
+    "searchPlaceholder": "Szűrés közösség, adminisztrátor neve vagy e-mail címe szerint",
+    "statusFilter": {
+      "label": "Állapot",
+      "all": "Minden"
+    },
+    "sortOptions": {
+      "community": "Közösség",
+      "admin": "Adminisztrátor",
+      "residents": "Lakosok"
+    },
+    "loading": "Közösségek betöltése…",
+    "empty": "Még nincs regisztrálva közösség.",
+    "noMatch": "Egyetlen közösség sem felel meg a szűrőknek.",
+    "table": {
+      "community": "Közösség",
+      "admin": "Adminisztrátor",
+      "email": "Email",
+      "status": "Állapot",
+      "residents": "Lakosok",
+      "view": "Kilátás"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Nem sikerült betölteni ezt a közösséget. Lehet, hogy eltávolították.",
+    "statusUpdateError": "Nem sikerült frissíteni a közösség állapotát.",
+    "deleteError": "Nem sikerült törölni ezt a közösséget.",
+    "loading": "Közösség betöltése…",
+    "notFound": "A közösség nem található.",
+    "backLink": "← Vissza a közösségekhez",
+    "backLinkShort": "Vissza a közösségekhez",
+    "eyebrow": "Közösségi profil",
+    "unnamed": "Névtelen közösség",
+    "noAddress": "Nincs cím az aktában",
+    "stats": {
+      "residents": "Lakosok",
+      "status": "Állapot"
+    },
+    "actions": {
+      "reactivate": "Aktiválja újra",
+      "block": "Tömb",
+      "terminate": "Leállítás",
+      "delete": "Közösség törlése"
+    },
+    "blockDialog": {
+      "title": "Letiltja ezt a közösségi adminisztrátort?",
+      "message": "Letiltja {{name}}? A letiltás feloldásáig nem tudnak bejelentkezni. Ez semmilyen adatot nem érint.",
+      "confirm": "Tömb"
+    },
+    "terminateDialog": {
+      "title": "Megszünteti ezt a közösségi adminisztrátort?",
+      "message": "Véglegesen megszakítja {{name}} hozzáférését? Ezt nem lehet visszavonni, bár a közösségük adatait nyilvántartják.",
+      "confirm": "Leállítás"
+    },
+    "deleteDialog": {
+      "title": "Törlöd ezt a közösséget?",
+      "message": "Ezzel véglegesen törli a <strong>{{name}}</strong> összes háztartását, lakosát, mérőjét, tarifa-/számlázási konfigurációját és számlázási előzményeit. Ez a művelet nem vonható vissza.",
+      "typeToConfirm": "A folytatáshoz írja be: <strong>{{word}}</strong>",
+      "confirm": "Erősítse meg"
+    },
+    "residents": {
+      "title": "Lakosok",
+      "registeredCount": "Regisztrált: {{count}}",
+      "empty": "Ebben a közösségben még nem regisztráltak lakosokat.",
+      "table": {
+        "flatUnit": "Lapos egység",
+        "meter": "Méter",
+        "resident": "Rezidens",
+        "email": "Email",
+        "passwordSet": "Jelszó beállítása"
+      },
+      "yes": "Igen",
+      "no": "Nem"
+    },
+    "cancel": "Mégse",
+    "working": "Dolgozó…",
+    "deleting": "Törlés…"
+  },
+  "systemStatus": {
+    "statusError": "Nem sikerült elérni a háttérrendszert a rendszerállapot ellenőrzéséhez.",
+    "metricsError": "Nem sikerült betölteni a mérőszámok előzményeit.",
+    "ranges": {
+      "fiveMinutes": "5 perc",
+      "fifteenMinutes": "15 perc",
+      "hour": "Óra",
+      "day": "Nap",
+      "week": "Hét",
+      "month": "Hónap",
+      "threeMonths": "3 hónap"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}ó",
+      "minutes": "{{value}}p"
+    },
+    "charts": {
+      "requestsPerSec": "Kérések/mp",
+      "opsPerSec": "Ops/sec",
+      "latency": "Látencia",
+      "lastValue": "{{value}} utolsó",
+      "loading": "Terhelés…",
+      "empty": "Ehhez a tartományhoz még nem rögzítettek mérőszámokat."
+    },
+    "stats": {
+      "min": "Min.: <b>{{value}}</b>",
+      "avg": "Átl.: <b>{{value}}</b>",
+      "max": "Max.: <b>{{value}}</b>",
+      "last": "Utolsó: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Ellenőrzés…",
+      "reachable": "Elérhető",
+      "unreachable": "Elérhetetlen",
+      "connected": "Csatlakozva",
+      "backendApiHint": "Ez az oldal a háttérből töltődött be, ezért válaszolt.",
+      "database": "Adatbázis",
+      "databaseHint": "PostgreSQL kapcsolat, élőben ellenőrizve.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Az utolsó alkalmazás újraindítása óta.",
+      "appVersion": "Alkalmazás verziója",
+      "appVersionHint": "Backend build verzió."
+    },
+    "mini": {
+      "latency": "Látencia",
+      "readsLatency": "Olvasási késleltetés",
+      "writesLatency": "Írja a Latency",
+      "otherLatency": "Egyéb késleltetés",
+      "connections": "Kapcsolatok",
+      "totalKeys": "Összes kulcs"
+    },
+    "note": "A kérések/másodperc és a várakozási idő 15 másodpercenként mintát vesz az élő háttérforgalomból, és legfeljebb 100 napig tárolja őket. Ez egy alapvető kapcsolódási + forgalmi ellenőrzés – nem helyettesíti a teljes alkalmazásteljesítmény-figyelést, a naplóösszesítést vagy a riasztást."
+  },
+  "reports": {
+    "loadError": "Nem sikerült betölteni a platformjelentést.",
+    "ranges": {
+      "threeMonths": "3 hónap",
+      "sixMonths": "6 hónap",
+      "twelveMonths": "12 hónap",
+      "custom": "Szokás"
+    },
+    "sortOptions": {
+      "community": "Közösség",
+      "usage": "Használat",
+      "billed": "Kiszámlázott",
+      "residents": "Lakosok"
+    },
+    "customRange": {
+      "from": "Tól",
+      "to": "To",
+      "hint": "Egyéni jelentés betöltéséhez válasszon egy \"tól\" és \"ig\" hónapot."
+    },
+    "loading": "Jelentés betöltése…",
+    "cards": {
+      "totalCommunities": "Összes közösségek",
+      "inThisRange": "Ebben a tartományban",
+      "totalResidents": "Összes lakos",
+      "acrossAllCommunities": "Az összes közösségben",
+      "overallUsage": "Általános használat",
+      "meteredConsumption": "Mért fogyasztás",
+      "overallBilled": "Összességében számlázott",
+      "finalizedInvoicesOnly": "Csak véglegesített számlák",
+      "avgUsagePerResident": "Átl. használat/lakó",
+      "avgBillPerResident": "Átl. számla/lakó"
+    },
+    "charts": {
+      "usageTitle": "Platformszintű használat (kL / hónap)",
+      "usageEmpty": "Ebben a tartományban nincs rögzítve használat.",
+      "usageSeries": "Használat",
+      "billedTitle": "Platformszintű számlázott összeg (₹ / hónap)",
+      "billedEmpty": "Ebben a tartományban nincs véglegesített számla.",
+      "billedSeries": "Kiszámlázott"
+    },
+    "searchPlaceholder": "Szűrés közösség vagy rendszergazda neve alapján",
+    "empty": "Ebben a tartományban még egyetlen közösség sem rendelkezik használati vagy számlázási adatokkal.",
+    "noMatch": "Egyetlen közösség sem felel meg a szűrőnek.",
+    "table": {
+      "community": "Közösség",
+      "admin": "Adminisztrátor",
+      "residents": "Lakosok",
+      "usage": "Használat (kL)",
+      "billed": "Számlázott (₹)",
+      "avgUsagePerResident": "Átl. használat/lakó",
+      "avgBillPerResident": "Átl. számla/lakó"
+    }
+  },
+  "supportTickets": {
+    "title": "Támogató jegyek",
+    "subtitle": "Támogatási jegyek és a lakosság és a közösségi adminisztrátorok által felvetett aggályok, platformszerte."
+  }
+}

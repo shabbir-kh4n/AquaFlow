@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Attivu",
+    "blocked": "Bloccatu",
+    "terminated": "Terminatu"
+  },
+  "sort": {
+    "sortBy": "Ordina per",
+    "toggleDirection": "Cambia a direzzione di sorte",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Mostra {{from}}–{{to}} di {{total}}",
+    "prev": "← Prec",
+    "next": "Next →",
+    "page": "Pagina {{page}} di {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Panoramica di a piattaforma",
+    "subtitle": "Ogni amministratore di a cumunità registrata, in tutta a piattaforma HydroLedger.",
+    "viewAll": "Vede tutte e cumunità",
+    "loadError": "Ùn pudia micca caricare i dati di a piattaforma avà.",
+    "cards": {
+      "totalCommunities": "Cumunità tutali",
+      "registeredAdmins": "Amministratori registrati",
+      "totalResidents": "Residenti totali",
+      "acrossAllCommunities": "In tutte e cumunità",
+      "active": "Attivu",
+      "inGoodStanding": "In bonu statu",
+      "blockedTerminated": "Bloccu / Terminatu",
+      "blockedTerminatedBreakdown": "{{blocked}} bluccatu, {{terminated}} finitu"
+    },
+    "recent": {
+      "title": "Cumunità registrate di pocu tempu",
+      "loading": "Caricamentu…",
+      "empty": "Nisuna cumunità registrata ancora.",
+      "table": {
+        "community": "Cumunità",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Residenti"
+      }
+    }
+  },
+  "communities": {
+    "count": "Cumunità: {{count}}",
+    "loadError": "Ùn pudia micca caricate e cumunità. Per piacè pruvate di novu.",
+    "searchPlaceholder": "Filtrà per cumunità, nome amministratore o email",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Tuttu"
+    },
+    "sortOptions": {
+      "community": "Cumunità",
+      "admin": "Admin",
+      "residents": "Residenti"
+    },
+    "loading": "Caricamentu di e cumunità…",
+    "empty": "Nisuna cumunità registrata ancora.",
+    "noMatch": "Nisuna cumunità currisponde à i vostri filtri.",
+    "table": {
+      "community": "Cumunità",
+      "admin": "Admin",
+      "email": "E-mail",
+      "status": "Status",
+      "residents": "Residenti",
+      "view": "Vede"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ùn pudia micca carica sta cumunità. Pò esse statu cacciatu.",
+    "statusUpdateError": "Ùn pudia micca aghjurnà u statutu di sta cumunità.",
+    "deleteError": "Ùn pudia micca sguassà sta cumunità.",
+    "loading": "Caricamentu di a cumunità…",
+    "notFound": "Cumunità micca truvata.",
+    "backLink": "← Torna à Cumunità",
+    "backLinkShort": "Torna à e cumunità",
+    "eyebrow": "Profilu di a cumunità",
+    "unnamed": "Cumunità senza nome",
+    "noAddress": "Nisun indirizzu in u schedariu",
+    "stats": {
+      "residents": "Residenti",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Riattivate",
+      "block": "Bloccu",
+      "terminate": "Terminate",
+      "delete": "Sguassà a cumunità"
+    },
+    "blockDialog": {
+      "title": "Bloccà stu amministratore di a cumunità?",
+      "message": "Bloccu {{name}}? Ùn puderanu micca login finu à sbloccatu. Nisuna dati serà affettatu.",
+      "confirm": "Bloccu"
+    },
+    "terminateDialog": {
+      "title": "Finisce stu amministratore di a cumunità?",
+      "message": "Finisce definitivamente l'accessu di {{name}} ? Questu ùn pò micca esse annullatu, anche se i dati di a so cumunità seranu guardati per i registri.",
+      "confirm": "Terminate"
+    },
+    "deleteDialog": {
+      "title": "Eliminate sta cumunità?",
+      "message": "Questu hà da sguassà permanentemente <strong>{{name}}</strong> è tutte e so famiglie, residenti, metri, cunfigurazione di tariffu / fattura, è a storia di fattura. Questa azzione ùn pò esse annullata.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Cunfirmà"
+    },
+    "residents": {
+      "title": "Residenti",
+      "registeredCount": "Registratu: {{count}}",
+      "empty": "Nisun residente registratu in questa cumunità ancora.",
+      "table": {
+        "flatUnit": "Unità Flat",
+        "meter": "metru",
+        "resident": "Residente",
+        "email": "E-mail",
+        "passwordSet": "Set Password"
+      },
+      "yes": "Iè",
+      "no": "Innò"
+    },
+    "cancel": "Cancella",
+    "working": "U travagliu…",
+    "deleting": "Sguassendu…"
+  },
+  "systemStatus": {
+    "statusError": "Ùn pudia micca ghjunghje à u backend per verificà u statu di u sistema.",
+    "metricsError": "Impossibile caricare a storia di e metriche.",
+    "ranges": {
+      "fiveMinutes": "5 minuti",
+      "fifteenMinutes": "15 minuti",
+      "hour": "Ora",
+      "day": "Ghjornu",
+      "week": "Settimana",
+      "month": "Mese",
+      "threeMonths": "3 mesi"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Richieste/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latenza",
+      "lastValue": "{{value}} l'ultimu",
+      "loading": "Caricamentu…",
+      "empty": "Nisuna metrica registrata per questa gamma ancora."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API di backend",
+      "checking": "Verificà…",
+      "reachable": "Raggiungibile",
+      "unreachable": "Inaccessibile",
+      "connected": "Cunnessu",
+      "backendApiHint": "Questa pagina hè caricata da u backend, cusì hà rispostu.",
+      "database": "basa di dati",
+      "databaseHint": "Connettività PostgreSQL, verificata in diretta.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Dapoi l'ultima applicazione riavvia.",
+      "appVersion": "Versione di l'app",
+      "appVersionHint": "Versione di creazione di backend."
+    },
+    "mini": {
+      "latency": "Latenza",
+      "readsLatency": "Leghje Latenza",
+      "writesLatency": "Scrive Latenza",
+      "otherLatency": "Altra Latenza",
+      "connections": "Cunnessioni",
+      "totalKeys": "Chjavi totali"
+    },
+    "note": "E dumande / sec è a latenza sò campionate da u trafficu backend live ogni 15 seconde è guardate finu à 100 ghjorni. Questu hè un cuntrollu di cunnessione di basa + trafficu - ùn rimpiazza micca u monitoraghju cumpletu di u rendiment di l'applicazione, l'aggregazione di log, o l'alerta."
+  },
+  "reports": {
+    "loadError": "Ùn pudia micca carica u rapportu di a piattaforma.",
+    "ranges": {
+      "threeMonths": "3 mesi",
+      "sixMonths": "6 mesi",
+      "twelveMonths": "12 mesi",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Cumunità",
+      "usage": "Usu",
+      "billed": "fatturatu",
+      "residents": "Residenti"
+    },
+    "customRange": {
+      "from": "Da",
+      "to": "À",
+      "hint": "Sceglite un mese \"da\" è \"à\" per carica un rapportu persunalizatu."
+    },
+    "loading": "Caricamentu di u rapportu…",
+    "cards": {
+      "totalCommunities": "Cumunità tutali",
+      "inThisRange": "In questa gamma",
+      "totalResidents": "Residenti totali",
+      "acrossAllCommunities": "In tutte e cumunità",
+      "overallUsage": "L'usu generale",
+      "meteredConsumption": "Cunsumu misuratu",
+      "overallBilled": "In generale fatturatu",
+      "finalizedInvoicesOnly": "Solu fatture finalizate",
+      "avgUsagePerResident": "Utilizazione media / Residente",
+      "avgBillPerResident": "Avg Bill / Residente"
+    },
+    "charts": {
+      "usageTitle": "Utilizzo in tutta a piattaforma (kL / mese)",
+      "usageEmpty": "Nisun usu registratu per questa gamma.",
+      "usageSeries": "Usu",
+      "billedTitle": "Importu fatturatu in tutta a piattaforma (₹ / mese)",
+      "billedEmpty": "Nisuna fattura finalizzata per questa gamma.",
+      "billedSeries": "fatturatu"
+    },
+    "searchPlaceholder": "Filtra per nome di a cumunità o di l'amministratore",
+    "empty": "Nisuna cumunità ùn hà ancu dati d'usu o di fattura per questa gamma.",
+    "noMatch": "Nisuna cumunità currisponde à u vostru filtru.",
+    "table": {
+      "community": "Cumunità",
+      "admin": "Admin",
+      "residents": "Residenti",
+      "usage": "Utilizazione (kL)",
+      "billed": "fatturatu (₹)",
+      "avgUsagePerResident": "Utilizazione media / Residente",
+      "avgBillPerResident": "Avg Bill / Residente"
+    }
+  },
+  "supportTickets": {
+    "title": "Biglietti di supportu",
+    "subtitle": "Supporta i biglietti è e preoccupazioni suscitate da i residenti è l'amministratori di a cumunità, in tutta a piattaforma."
+  }
+}

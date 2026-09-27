@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Mechie",
+    "signUpTitle": "Debanye aha obodo gị",
+    "signInTitle": "nnọọ",
+    "signUpSubtitle": "Mepụta akaụntụ Admin Community ka ịmalite ijikwa ndị bi na ịgba ụgwọ.",
+    "signInSubtitle": "Banye ka ịlele ojiji mmiri na ịgba ụgwọ gị."
+  },
+  "signIn": {
+    "errorFallback": "Enweghị ike ịbanye. Biko nwaa ọzọ.",
+    "emailLabel": "Email",
+    "passwordLabel": "Okwuntughe",
+    "rememberMe": "Cheta m",
+    "forgotPassword": "Chefuru okwuntughe?",
+    "submitting": "Ịbanye…",
+    "submit": "Banye",
+    "noAccount": "Ịnweghị akaụntụ?",
+    "signUpLink": "debanye aha"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Okwuntughe adabaghị.",
+      "communityRequired": "Achọrọ aha obodo.",
+      "termsRequired": "Biko kwenye na Usoro Ọrụ yana Amụma Nzuzo.",
+      "fallback": "Enweghị ike ịmepụta akaụntụ. Biko nwaa ọzọ."
+    },
+    "hint": "Naanị ndị nchịkwa obodo na-edebanye aha ebe a. Ozugbo ị banyere, ị ga-agbakwunye nkọwa ndị bi gị n'onwe gị - ha anaghị edebanye aha n'onwe ha.",
+    "fullNameLabel": "Aha n'uju",
+    "emailLabel": "Email",
+    "phoneLabel": "Nọmba ekwentị",
+    "communityNameLabel": "Aha obodo",
+    "passwordLabel": "Okwuntughe",
+    "confirmPasswordLabel": "Kwenye Na Okwuntughe",
+    "agreeTerms": "Ekwenyere m na <termsLink> Usoro ọrụ</termsLink> na <privacyLink> amụma nzuzo</privacyLink>",
+    "submitting": "Na-emepe akaụntụ…",
+    "submit": "Mepụta Akaụntụ Admin",
+    "haveAccount": "Ị nwere akaụntụ?",
+    "signInLink": "banye"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Tinye ya na ihuenyo ụlọ maka ịnweta ngwa ngwa.",
+    "dismiss": "Wepụ",
+    "install": "Wụnye"
+  },
+  "setPassword": {
+    "title": "Tọọ paswọọdụ gị",
+    "loading": "Na-ebugo…",
+    "subtitle": "Ndewo {{name}}, họrọ okwuntughe maka {{email}} iji mee ka akaụntụ HydroLedger gị rụọ ọrụ.",
+    "errors": {
+      "invalidLink": "Njikọ a abaghị uru ma ọ bụ kubie ume.",
+      "tooShort": "Okwuntughe ga-abụrịrị opekata mpe mkpụrụedemede 8.",
+      "mismatch": "Okwuntughe adabaghị.",
+      "fallback": "Enweghị ike ịtọ paswọọdụ gị. Biko nwaa ọzọ."
+    },
+    "passwordLabel": "Okwuntughe",
+    "confirmPasswordLabel": "Kwenye Na Okwuntughe",
+    "submitting": "Na-ahazi okwuntughe…",
+    "submit": "Tọọ paswọọdụ & banye"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Enyemaka",
+      "resident": "Jụọ maka akaụntụ gị",
+      "admin": "Onye enyemaka obodo",
+      "platform": "Onye enyemaka Platform",
+      "default": "Enyemaka"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "What is HydroLedger?",
+        "tieredBilling": "Kedu ka ụgwọ ịgba ụgwọ ọkwa dị elu si arụ ọrụ?",
+        "leaks": "Kedu ka esi achọpụta ntapu?"
+      },
+      "resident": {
+        "billEstimate": "Gịnị bụ atụmatụ ụgwọ m ugbu a?",
+        "alerts": "Enwere m ọkwa ojiji ọ bụla?",
+        "readings": "Gosi agụmagụ m na nso nso a"
+      },
+      "admin": {
+        "households": "Ezinụlọ ole ka anyị nwere?",
+        "billingCycles": "Depụta usoro ịgba ụgwọ anyị nso nso a",
+        "tariff": "Gịnị bụ atụmatụ tarifu anyị ugbu a?"
+      },
+      "platform": {
+        "communities": "Depụta obodo niile edebanyere aha",
+        "usageReport": "Gosi akụkọ ojiji ikpo okwu",
+        "systemStatus": "Kedu ihe bụ ọkwa sistemụ?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Ị na-ezipụ ozi ngwa ngwa - biko chere obere oge wee nwaa ọzọ.",
+      "unavailable": "Onye inyeaka adịghị nwa oge. Biko nwaa ọzọ obere oge.",
+      "generic": "Ọ nwere ihe adịghị mma izipu ozi ahụ. Biko nwaa ọzọ."
+    },
+    "emptyHint": "Jụọ m ihe ọ bụla - naanị data nke gị ka m nwere ike ịhụ.",
+    "closeAssistant": "Onye enyemaka nso",
+    "openAssistant": "Onye enyemaka mepere emepe",
+    "inputPlaceholder": "Pịnye ozi…",
+    "inputLabel": "Ozi",
+    "send": "Ziga"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tiketi nkwado",
+    "defaultCreateLabel": "Welite Nchegbu Ọhụrụ",
+    "status": {
+      "open": "Mepee",
+      "inProgress": "Na-aga n'ihu",
+      "resolved": "Ekpebiri",
+      "closed": "Emechiri"
+    },
+    "tabs": {
+      "all": "Tiketi niile"
+    },
+    "recipients": {
+      "admin": "Onye nchịkwa obodo",
+      "systemAdmin": "Onye nchịkwa sistemụ",
+      "both": "Onye nchịkwa obodo + onye nchịkwa sistemụ"
+    },
+    "roles": {
+      "resident": "Onye bi",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Ndị bi na ya zụlitere {{name}}",
+    "raisedByAdmin": "Onye nchịkwa welitere {{name}}",
+    "refresh": "Weghachite ume",
+    "stats": {
+      "openLabel": "Mepee ntinye",
+      "openHint": "Na-eche nyocha",
+      "inProgressLabel": "Na-aga n'ihu",
+      "inProgressHint": "Na-arụ ọrụ na",
+      "resolvedLabel": "Ekpebiri",
+      "resolvedHint": "Emechiri nke ọma"
+    },
+    "searchPlaceholder": "Chọọ tiketi site na isiokwu, mbipụta…",
+    "loadingTickets": "Na-ebu tiketi…",
+    "empty": {
+      "title": "Enweghị tiketi nkwado ahụrụ",
+      "body": "Ị nwebeghị arịrịọ nkwado mepere emepe ma ọ bụ ndekọ nke dabara nzacha a.",
+      "cta": "Nyefee Nchegbu"
+    },
+    "errors": {
+      "loadList": "Enweghị ike ibunye tiketi nkwado. Biko nwaa ọzọ.",
+      "loadDetail": "Enweghị ike ibunye tiketi a. Biko nwaa ọzọ.",
+      "required": "Isiokwu na ozi ka achọrọ ma.",
+      "recipientRequired": "Họrọ opekata mpe otu nnata (Admin Community na/ma ọ bụ onye nchịkwa sistemụ).",
+      "submitFallback": "Enweghị ike ịnye tiketi a. Biko nwaa ọzọ.",
+      "sendReply": "Enweghị ike izipu ozi a. Biko nwaa ọzọ.",
+      "updateStatus": "Enweghị ike imelite ọkwa tiketi a. Biko nwaa ọzọ."
+    },
+    "form": {
+      "defaultHint": "Kọwaa nsogbu gị ma ọ bụ nchegbu gị n'okpuru.",
+      "subjectLabel": "Isiokwu",
+      "subjectPlaceholder": "Nkọwa nkenke nke okwu gị",
+      "messageLabel": "Ozi",
+      "messagePlaceholder": "Kọwaa ihe na-eme nke ọma…",
+      "recipientsLabel": "Ziga nchegbu a na",
+      "cancel": "Kagbuo",
+      "submitting": "Na-enyefe…",
+      "submit": "Nyefee tiketi"
+    },
+    "detail": {
+      "loading": "Na-ebu tiketi…",
+      "replyPlaceholder": "Dee nzaghachi…",
+      "close": "Mechie",
+      "sending": "Na-eziga…",
+      "sendReply": "Zipụ azịza"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Mepee menu",
+    "closeMenu": "Mechie menu",
+    "logout": "Wepụ",
+    "search": "Chọọ",
+    "notifications": "Amamọkwa"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Ndekọ Ezinụlọ",
+      "meterReadings": "Ọgụgụ mita",
+      "billing": "Nlekọta ịgba ụgwọ",
+      "bulkPurchases": "Nzụta nnukwu",
+      "reports": "Akụkọ",
+      "waterLeakage": "Mgbapu mmiri",
+      "support": "Nkwado / Nchegbu",
+      "tariffPlans": "Atụmatụ tarifu",
+      "announcements": "Ọkwa",
+      "profile": "Profaịlụ"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Nke a bụ foto obodo gị."
+      },
+      "households": {
+        "title": "Ndekọ Ezinụlọ",
+        "subtitle": "Tinye, melite ma jikwaa ndị bi na obodo gị."
+      },
+      "meterReadings": {
+        "title": "Ebe Ọgụgụ Mmiri Mita",
+        "subtitle": "Chọọ onye bi ma dekọọ ọgụgụ mita mmiri ha."
+      },
+      "tariffPlans": {
+        "title": "Nhazi tarifu",
+        "subtitle": "Hazie oke ọnụego, ọnụ ahịa ọnụ ahịa ọnụ na ụzọ nkesa maka obodo gị."
+      },
+      "billing": {
+        "title": "Nlekọta ịgba ụgwọ",
+        "subtitle": "Mepee, mechaa, ma chekwaa usoro ịgba ụgwọ, wee nyochaa akwụkwọ ọnụahịa akọwapụtara n'otu ezinụlọ."
+      },
+      "bulkPurchases": {
+        "title": "Nzụta nnukwu",
+        "subtitle": "Dekọọ mbufe ụgbọ mmiri na ihe ndị obodo zụtara maka obodo gị."
+      },
+      "waterLeakage": {
+        "title": "Mgbapu mmiri",
+        "subtitle": "Hazie ọnụ ụzọ yana mmakwasa ntapu dabere karịa, wee nyochaa ezinaụlọ ndị nwere akara."
+      },
+      "support": {
+        "title": "Nkwado / Nchegbu",
+        "subtitle": "Bulite tiketi nke gị na nchịkwa Sistemu, ma ọ bụ dozie nchegbu ndị bi gị gwara gị."
+      },
+      "profile": {
+        "title": "Ntọala & Profaịlụ",
+        "subtitle": "Jikwaa nkọwa akaụntụ gị yana ozi ụlọ."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Onye nchịkwa obodo",
+    "notBuilt": "{{label}} emebebeghị",
+    "searchPlaceholder": "Chọọ ihe ọ bụla…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Akụkọ",
+      "description": "Akụkọ oriri, ụgwọ, na nchekwa maka obodo gị."
+    },
+    "announcements": {
+      "title": "Ọkwa",
+      "description": "Ziga ndị bi gị ọkwa ọkwa obodo."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} na-abịa ngwa ngwa"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Akụkọ ojiji",
+      "bills": "Ụgwọ m",
+      "recommendations": "Nkwanye",
+      "reports": "Akụkọ",
+      "support": "Nkwado / Nchegbu",
+      "notifications": "Amamọkwa",
+      "profile": "Profaịlụ"
+    },
+    "pages": {
+      "usageHistory": "Akụkọ ojiji gị",
+      "billing": "Ịgba ụgwọ & akwụkwọ ọnụahịa",
+      "notifications": "Amamọkwa",
+      "recommendations": "Nkwanye",
+      "support": "Nkwado / Nchegbu"
+    },
+    "defaultTitle": "Dashboard obibi",
+    "navLabel": "Ntugharị onye bi",
+    "fallbackName": "Onye bi",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} na-abịa ngwa ngwa",
+    "profile": "Profaịlụ",
+    "searchPlaceholder": "Chọọ nyocha, ụgwọ..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Obodo",
+      "reports": "Akụkọ",
+      "supportTickets": "Tiketi nkwado",
+      "systemStatus": "Ọnọdụ Sistemu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ihe onyonyo sara mbara n'ogbe niile edere aha."
+      },
+      "communities": {
+        "title": "Obodo",
+        "subtitle": "Onye nchịkwa obodo ọ bụla edebanyere aha na obodo ha, n'otu ebe."
+      },
+      "reports": {
+        "title": "Akụkọ",
+        "subtitle": "Ojiji mmiri na ọnụ ọgụgụ ịgba ụgwọ n'elu ikpo okwu, site na obodo na ka oge na-aga."
+      },
+      "supportTickets": {
+        "title": "Tiketi nkwado",
+        "subtitle": "Nkwado tiketi na nchegbu ndị bi na ndị nlekọta obodo welitere, n'ofe ikpo okwu."
+      },
+      "systemStatus": {
+        "title": "Ọnọdụ Sistemu",
+        "subtitle": "Njikọ azụ azụ na ahụ ike oge agba ọsọ."
+      }
+    },
+    "fallbackName": "Onye nchịkwa sistemụ",
+    "platformOwner": "Onye nwe ikpo okwu",
+    "searchPlaceholder": "Chọọ obodo…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "Chọọ asụsụ…",
+    "noMatches": "Enweghị nha"
+  }
+}

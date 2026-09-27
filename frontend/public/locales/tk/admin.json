@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Adingüklenýär…",
+    "saving": "Tygşytlamak…",
+    "saved": "Saklandy.",
+    "uploading": "Uploadüklemek…",
+    "upload": "Uploadükle",
+    "uploadError": "Bu faýly ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "cancel": "Elatyr",
+    "close": ".Akyn",
+    "edit": "Redaktirläň",
+    "remove": "Aýyr",
+    "saveChanges": "Üýtgeşmeleri ýazdyryň",
+    "bulkSummary": "Işlenilen <b> {{total}} </b> hatar - <b> {{success}} </b> üstünlik gazandy, <b> {{failure}} </b> şowsuz boldy.",
+    "rowFailure": "Setir {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{from}} - {{total}} -iň {{to}} görkezilmegi",
+    "prev": "← Öňki",
+    "next": "Indiki →",
+    "page": "{{pageCount}} sahypasy {{page}}"
+  },
+  "dashboard": {
+    "loadError": "Jemgyýet maglumatlaryňyzy şu wagt ýükläp bilmedim.",
+    "title": "{{community}} Kwartira paneli",
+    "titleFallback": "Kwartira paneli",
+    "subtitle": "Suw desgalarynyň ölçegleri we öý sarp edişleri üçin iş gysgaça mazmuny.",
+    "comingSoon": "Soonakynda",
+    "manageCommunity": "Jemgyýeti dolandyryň",
+    "noUsageReadings": "Ulanyş okalyşy entek ýazylmady.",
+    "cards": {
+      "totalHouseholds": "Jemi öý hojalygy",
+      "occupied": "Iş bilen meşgullanýar",
+      "activeMeters": "Işjeň ölçegler",
+      "reportingReadings": "Okalýanlary hasabat bermek",
+      "monthlyConsumption": "Aýlyk sarp",
+      "thisCalendarMonth": "Bu senenama aýy",
+      "latestRecordedMonth": "Iň soňky ýazylan aý ({{month}})",
+      "noReadingsYet": "Entek okalmady",
+      "pendingAlerts": "Garaşylýan duýduryşlar",
+      "anomalyPreview": "Anomaliýany ýüze çykarmak deslapky syn - entek elýeterli däl"
+    },
+    "actions": {
+      "label": "Çalt dolandyryş çäreleri",
+      "uploadReadings": "Metr okaýyşlaryny ýükläň",
+      "configureTariffs": "Nyrhlary sazlaň",
+      "reportsNotBuilt": "Hasabat entek gurlanok",
+      "downloadReports": "Ulgam hasabatlaryny göçürip alyň"
+    },
+    "chart": {
+      "title": "Aýlyk sarp ediş deňeşdirmesi (kL)",
+      "subtitle": "Soňky {{months}} aý: maksat we hakyky sarp.",
+      "targetSeries": "Maksat (deslapky syn)",
+      "actualSeries": "Hakyky"
+    },
+    "recent": {
+      "title": "Soňky metr okalyşlary",
+      "unit": "Bölüm",
+      "resident": "Aşaıjy",
+      "lastReading": "Soňky okaýyş",
+      "consumption": "Sarp etmek"
+    }
+  },
+  "households": {
+    "loadError": "Residentsaşaýjylary ýükläp bilmedi Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "fixFields": "Bellenen meýdanlary düzediň.",
+    "saveError": "Bu ýaşaýjyny halas edip bolmady Jikme-jiklikleri barlaň.",
+    "confirmRemove": "{{name}} öý hojalygynyň katalogyndan aýyryň?",
+    "removeError": "Bu ýaşaýjyny aýryp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "count": "Öý hojalygy: {{total}}",
+    "bulkUploadButton": "⇪ Köp ýüklemek",
+    "addResidentButton": "+ Resident goşuň",
+    "searchPlaceholder": "Ady, jaýy, e-poçta ýa-da metr belgisi boýunça süzüň.",
+    "loading": "Residentsaşaýjylary ýüklemek…",
+    "empty": "Entek ýaşaýjy ýok. Ilkinji hojalygy hasaba almak üçin \"Resident goş\" düwmesine basyň.",
+    "noMatch": "Hiç bir ýaşaýjy \"{{search}}\" bilen gabat gelenok.",
+    "sort": {
+      "label": "Tertipleşdir",
+      "name": "Ady",
+      "houseNumber": "Jaý belgisi",
+      "dateOfJoining": "Goşulan senesi",
+      "toggleDirection": "Sort ugruny üýtgediň",
+      "asc": "↑ Asc",
+      "desc": "↓ Des"
+    },
+    "gender": {
+      "male": "Erkek",
+      "female": "Aýal",
+      "other": "Beýlekiler"
+    },
+    "table": {
+      "name": "Ady",
+      "houseUnit": "Jaý / bölüm",
+      "email": "E-poçta iberiň",
+      "phone": "Telefon",
+      "meterNumber": "Metr No.",
+      "sqft": "Kw",
+      "joined": "Goşuldy"
+    },
+    "form": {
+      "addTitle": "Resident goşuň",
+      "editTitle": "Residenti redaktirläň",
+      "editSubtitle": "Bu, ýaşaýjynyň maglumatlaryny katalogyňyzda täzeleýär.",
+      "bypassSubtitle": "Bu ýaşaýjynyň parolyny gönüden-göni düzýärsiňiz. Hiç hili e-poçta iberilmez.",
+      "addSubtitle": "Bellenen parol baglanyşygy, öz girişini işjeňleşdirmek üçin bu ýaşaýja e-poçta iberiler.",
+      "fullName": "Doly ady",
+      "houseNumber": "Jaý / bölüm",
+      "email": "E-poçta iberiň",
+      "phone": "Telefon belgisi",
+      "meterNumber": "Metr belgisi",
+      "governmentId": "Döwlet şahadatnamasy",
+      "gender": "Jyns",
+      "dateOfBirth": "Doglan senesi",
+      "dateOfJoining": "Goşulan senesi",
+      "flatSize": "Tekiz ululygy (inedördül metr)",
+      "bypassLabel": "Set-paroly e-poçta aýlaň - bu ýaşaýjy üçin paroly belläň",
+      "password": "Parol",
+      "confirmPassword": "Paroly tassykla"
+    },
+    "validation": {
+      "fullNameRequired": "Doly ady talap edilýär.",
+      "emailRequired": "E-poçta talap edilýär.",
+      "phoneRequired": "Telefon belgisi talap edilýär",
+      "houseNumberRequired": "Jaý / birlik belgisi talap edilýär.",
+      "houseNumberTaken": "Bu jaý belgisi eýýäm başga bir ýaşaýja bellendi.",
+      "meterNumberRequired": "Metr belgisi talap edilýär.",
+      "meterNumberFormat": "Metr belgisi MTR-1234 (4 san) ýaly bolmaly.",
+      "meterNumberTaken": "Bu metr belgisi eýýäm başga bir ýaşaýja bellendi.",
+      "governmentIdRequired": "Döwlet şahadatnamasy talap edilýär",
+      "governmentIdFormat": "ID 99-dan başlap 6 san bolmaly (meselem 991234).",
+      "genderRequired": "Jyns saýlaň.",
+      "dateOfBirthRequired": "Doglan senesi hökmanydyr.",
+      "dateOfJoiningRequired": "Goşulan senesi hökmanydyr.",
+      "passwordRequired": "Parol talap edilýär",
+      "passwordLength": "Parol azyndan 8 simwoldan ybarat bolmaly",
+      "confirmPasswordRequired": "Paroly tassyklamagyňyzy haýyş edýäris.",
+      "passwordMismatch": "Parollar gabat gelenok"
+    },
+    "bulk": {
+      "title": "Uploadükleýänleriň köpüsi",
+      "noFile": "Uploadüklemek üçin .csv ýa-da .xlsx / .xls faýly saýlaň.",
+      "instructions": "<code> {{columns}} </code> sütünleri bilen .csv ýa-da .xlsx / .xls faýly ýükläň (parol we flatSizeSqft ikisi hem islege bagly). Parol bilen hatarlar ony göni düzýärler; hatar hatar, rezidenti el bilen goşmak ýaly kesgitlenen parol e-poçta alýar. Iki hatar / metr sanlary ýa-da e-poçta hatarlary ret edilýär - bir erbet hatar tutuş partiýany ýitirmez."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Residentsaşaýjylary ýükläp bilmedi Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "historyLoadError": "Okamagyň taryhyny ýükläp bilmedim. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "successMessage": "{{house}} (Meter: {{meter}}) üçin {{value}} kL okalmagy üstünlikli ýazga alyndy! Hasaplanan sarp: {{consumption}} kL.",
+    "tabs": {
+      "single": "Enteke giriş",
+      "csv": "Köp CSV Uploadükle",
+      "history": "Taryhy okamak"
+    },
+    "source": {
+      "manual": "Gollanma",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Bu ýaşaýjynyň faýlda metr belgisi ýok.",
+      "dateRequired": "Okamagyň senesi hökmanydyr.",
+      "invalidValue": "Dogry, negatiw däl bahany giriziň.",
+      "duplicate": "Bu metr üçin okalyş eýýäm şol senede bar.",
+      "meterNotFound": "Bu metr tapylmady Residentaşaýjyny täzeden saýlaň.",
+      "lowerThanPrevious": "Bu okamak öňki ýazylanlardan has pesdir.",
+      "recordFailed": "Bu okamagy ýazga alyp bilmedim. Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "combo": {
+      "label": "Flat & Meter seriýasyny saýlaň",
+      "placeholder": "“Flat & Meter” seriýasyny saýlaň…",
+      "flat": "Kwartira {{house}}",
+      "noMeter": "Metr ýok",
+      "searchPlaceholder": "Tekiz ýok, metr seriýasyny, ýaşaýjyny gözläň ...",
+      "unitsHeader": "Identaşaýyş jaýlary",
+      "found": "Kwartiralar tapyldy: {{total}}",
+      "loading": "Residentsaşaýjylary ýüklemek…",
+      "noMatch": "Hiç bir ýaşaýjy \"{{search}}\" bilen gabat gelenok.",
+      "unassigned": "Bellenmedik",
+      "itemMeta": "{{name}} · Iň soňky: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Okamak üçin ýazga almak",
+      "context": "Jaý {{house}} · Metr {{meter}}",
+      "changeResident": "Residentaşaýjyny çalyş",
+      "readingDate": "Okalýan senesi",
+      "readingValue": "Häzirki metri okamak (kL)",
+      "submit": "Dogry okaň",
+      "recentTitle": "Soňky okalmalar",
+      "recentEmpty": "Bu metr üçin entek okalmady."
+    },
+    "info": {
+      "title": "Monotoniki ölçeg barlagy",
+      "body": "Her täze okalyş, şol metr üçin öňki gündeliginden uly ýa-da deň bolmaly - bu sarp ediş hasaplamalaryny takyk saklaýar we geçirilen sanlary ir alýar."
+    },
+    "details": {
+      "title": "Saýlanan bölüm maglumatlary",
+      "flatUnit": "Kwartira bölümi",
+      "meterSerial": "Metr seriýasy",
+      "occupant": "Işiň ady",
+      "lastDial": "Iň soňky ýazylan jaň",
+      "noReadings": "Entek okalmady",
+      "monthConsumption": "Aý sarp etmek",
+      "empty": "Öý saýlanmady. Metrlerini görmek üçin ýaşaýjyny gözläň we saýlaň."
+    },
+    "csv": {
+      "noFile": "Uploadüklemek üçin CSV faýly saýlaň.",
+      "instructions": "<code> {{columns}} </code> sütünleri bilen CSV ýükläň. Setirler özbaşdak işlenýär - bir erbet hatar tutuş partiýany ýitirmez."
+    },
+    "history": {
+      "loading": "Okalýan ýükler…",
+      "empty": "Jemgyýetiňiz üçin entek okalmady."
+    },
+    "table": {
+      "meterNumber": "Metr No.",
+      "date": "Sene",
+      "value": "Bahasy (kL)",
+      "consumption": "Sarp etmek (kL)",
+      "source": "Çeşme"
+    }
+  },
+  "billingCycles": {
+    "title": "Hasaplaşyk siklleri",
+    "loadError": "Hasaplaşyk sikllerini ýükläp bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "paymentUpdateError": "Bu hasap-fakturanyň töleg ýagdaýyny täzeläp bolmady.",
+    "pdfError": "PDF göçürip alyp bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "finalizeError": "Bu töleg siklini gutaryp bilmedim.",
+    "archiveError": "Bu töleg siklini arhiwläp bolmady.",
+    "loading": "Hasaplaşyk sikllerini ýüklemek…",
+    "empty": "Hasaplaşyk siklleri entek ýok. Başlamak üçin ýokardaky birini açyň.",
+    "status": {
+      "open": "Açyň",
+      "finalized": "Jemleýji",
+      "archived": "Arhiwlenen"
+    },
+    "open": {
+      "title": "Täze hasaplaşyk siklini açyň",
+      "noMonth": "Açmak üçin bir aý saýlaň.",
+      "error": "Şol aý üçin töleg siklini açyp bolmady.",
+      "monthAria": "Hasaplaşyk döwri",
+      "opening": "Açmak…",
+      "submit": "Açyk aýlaw"
+    },
+    "table": {
+      "period": "Döwür",
+      "status": ".Agdaý",
+      "householdsBilled": "Öý hojalygy",
+      "totalBilled": "Jemi hasaplaşyk",
+      "actions": "Hereketler"
+    },
+    "actions": {
+      "finalize": "Jemleme",
+      "finalizing": "Jemleýji…",
+      "archive": "Arhiw",
+      "archiving": "Arhiwlemek…"
+    },
+    "filter": {
+      "aria": "Töleg ýagdaýy boýunça süzüň",
+      "all": "Hemmesi"
+    },
+    "payment": {
+      "paid": "Tölegli",
+      "unpaid": "Tölenmedik",
+      "updating": "Täzelenme…",
+      "markPaid": "Tölegli hökmünde belläň",
+      "markUnpaid": "Tölenmedik diýip belläň"
+    },
+    "detail": {
+      "title": "Sikl jikme-jigi - {{period}}",
+      "loading": "Hasap-faktura ýüklemek…",
+      "notFinalized": "Bu aýlaw entek gutarnykly däl - faktura döredilmedi.",
+      "noInvoices": "Bu aýlaw üçin hasap-faktura ýok.",
+      "noMatch": "Hiç hili hasap-faktura bu süzgüç bilen gabat gelenok."
+    },
+    "invoices": {
+      "household": "Öý hojalygy",
+      "resident": "Aşaıjy",
+      "meterNumber": "Metr No.",
+      "consumption": "Sarp etmek (kL)",
+      "tierBreakdown": "Bölümiň bölünişi",
+      "commonArea": "Umumy meýdan",
+      "total": "Jemi",
+      "paymentStatus": "Töleg ýagdaýy",
+      "pdf": "PDF",
+      "baseLine": "Esasy: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}",
+      "tierLine": "Dereje {{tier}}: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nyrh konfigurasiýasyny ýükläp bolmady",
+    "saveError": "Nyrh konfigurasiýasyny saklap bolmady",
+    "chartTitle": "Işjeň ölçegli peýdaly derejeler",
+    "axisNote": "₹ / kL, nyrh çäkleri kL",
+    "tableTitle": "Bahalar derejesi tablisasy",
+    "defaultRatesNote": "Bellenen nyrhlary görkezmek - entek ýatda saklanmady.",
+    "addTier": "+ Tier goşuň",
+    "saveRates": "Nyrh nyrhlaryny tygşytlaň",
+    "tierLevel": {
+      "base": "Gatnaşyk {{tier}} (Esasy)",
+      "medium": "Gatnaşyk {{tier}} (Orta)",
+      "heavy": "Gatnaşyk {{tier}} (Agyr)"
+    },
+    "basePrice": {
+      "label": "Esasy bahasy (₹ / kL, HEMMESI sarp etmek üçin ulanylýar)",
+      "note": "Her kL ilki bilen bu tekiz nyrh alynýar. Aşakdaky plitalarda diňe öz çägine girýän ulanmak üçin EXTRA tölegleri goşulýar - meselem. 50 kL -den başlaýan plita diňe sarp ediş derejesini 50 kL -den goşýar."
+    },
+    "table": {
+      "tierLevel": "Dereje derejesi",
+      "slabLimit": "Plitanyň çäkleri (kL)",
+      "rate": "Bahasy kL",
+      "action": "Hereket"
+    },
+    "commonArea": {
+      "title": "Umumy meýdanyň bahasy konfigurasiýasy",
+      "loadError": "Umumy meýdanyň bahasy konfigurasiýasyny ýükläp bolmady",
+      "saveError": "Umumy meýdanyň çykdajy konfigurasiýasyny saklap bolmady",
+      "empty": "Bahasy entek saklanmady.",
+      "labelPlaceholder": "Bahanyň belligi",
+      "perMonth": "/ aý",
+      "active": "Işjeň",
+      "addItem": "+ Çykdajy elementini goşuň",
+      "save": "Umumy meýdanyň konfigurasiýasyny ýazdyryň"
+    },
+    "distribution": {
+      "title": "Çykdajylary paýlamak usuly saýlaýjy",
+      "consumption": "Sarp etmek boýunça (kiçi ölçegli proporsional)",
+      "floorArea": "Kwartira kwartiranyň ululygy (kw.)"
+    },
+    "footer": {
+      "cycleStart": "Sikl hasaplaşyk başlanýan senesi",
+      "cycleStartValue": "Her aýyň 1-i",
+      "autoInvoices": "Awto-öndürmek PDF Hasap-faktura"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Bosgun geçdi",
+      "statisticalOutlier": "Statistik görkeziji"
+    },
+    "status": {
+      "active": "Işjeň",
+      "resolved": "Çözüldi",
+      "dismissed": "Işden aýryldy"
+    },
+    "config": {
+      "title": "Syzdyryjy kesgitleme konfigurasiýasy",
+      "subtitle": "Aýlyk sarp ediş çägini kesgitläň we / ýa-da statistiki daşarky kesgitlemäni işjeňleşdiriň (aýlyk sarp edilişi öz taryhy bilen deňeşdirilende adatdan daşary ýokary bolan öý hojalygyny belleýär).",
+      "loadError": "Duýduryş konfigurasiýasyny ýükläp bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "thresholdRequired": "Bosgun duýduryşlary açyk bolanda aýlyk çäk (kL) talap edilýär.",
+      "saveError": "Bu konfigurasiýany ýatda saklap bolmady",
+      "loading": "Sazlama ýüklenýär…",
+      "threshold": "Aýlyk çäk (kL)",
+      "sensitivity": "Daşky duýgurlyk (σ köpeldiji)",
+      "enableThreshold": "Bosgun duýduryşlaryny işjeňleşdiriň",
+      "enableOutlier": "Statistik daşarky duýduryşlary işjeňleşdiriň",
+      "save": "Sazlamany ýazdyryň",
+      "running": "Ylgaýar…",
+      "runNow": "Indi anyklamagy işlediň"
+    },
+    "alerts": {
+      "title": "Baýdakly öýler",
+      "loadError": "Duýduryşlary ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "runError": "Syzdyrmagy ýüze çykaryp bilemok. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "updateError": "Bu duýduryşy täzeläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "allStatuses": "Allhli statuslar",
+      "loading": "Duýduryşlary ýüklemek…",
+      "empty": "Görkezmek üçin duýduryş ýok. Bosagany sazlaň ýa-da ýokardaky daşarky kesgitlemäni işjeňleşdiriň, soňra jemgyýetiňiziň häzirki ulanylyşyna baha bermek üçin \"Indi kesgitlemäni işlediň\" düwmesine basyň.",
+      "resolve": "Çözüň",
+      "dismiss": "Işden aýyrmak"
+    },
+    "table": {
+      "household": "Öý hojalygy",
+      "resident": "Aşaıjy",
+      "meter": "Metr",
+      "type": "Görnüşi",
+      "period": "Döwür",
+      "consumption": "Sarp etmek",
+      "reference": "Salgylanma",
+      "status": ".Agdaý"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Köp suw satyn alyp bilmedi. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "confirmRemove": "{{date}} -de {{source}} gowşuryşy aýyryň?",
+    "removeError": "Bu satyn almany aýryp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "count": "Satyn alnan ýazgylar: {{total}}",
+    "recordButton": "+ Satyn almagy ýazga alyň",
+    "loading": "Köp mukdarda suw satyn almak ...",
+    "empty": "Köp mukdarda suw satyn almalary entek hasaba alynmady. Tankeriň iberilmegini ýa-da şäher üpjünçiligini satyn almak üçin \"Satyn almagy ýazga\" basyň.",
+    "table": {
+      "date": "Sene",
+      "source": "Çeşme",
+      "volume": "Ses (L)",
+      "unitCost": "Bölümiň bahasy",
+      "totalCost": "Jemi bahasy",
+      "notes": "Bellikler"
+    },
+    "form": {
+      "addTitle": "Köp mukdarda suw satyn almagy ýazga alyň",
+      "editTitle": "Köp suw satyn almagy redaktirläň",
+      "subtitle": "Jemgyýetiňiz üçin tanker iberilişini ýa-da munisipal üpjünçilik satyn alşyny yzarlaň - bu diňe çykdajylaryň görünmegi üçin ýazylýar we öý hasap-fakturalaryna täsir etmeýär.",
+      "requiredFields": "Sene, çeşme, göwrüm we birlik bahasyny doldurmagyňyzy haýyş edýäris.",
+      "saveError": "Bu satyn almany saklap bolmady Jikme-jiklikleri barlaň.",
+      "purchaseDate": "Satyn alnan senesi",
+      "source": "Çeşme / üpjün ediji",
+      "volume": "Ses (litr)",
+      "unitCost": "Bölümiň bahasy (₹ / litr)",
+      "totalPreview": "Jemi bahasy: {{amount}}",
+      "notes": "Bellikler (islege görä)",
+      "submit": "Satyn almagy ýazga alyň"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} entek gurlanok",
+    "profileSaveError": "Profiliňizi ýazdyryp bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "apartmentSaveError": "Kwartira jikme-jikliklerini saklap bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "specsTitle": "Profil aýratynlyklary",
+    "photoUnavailable": "Surat ýüklemek entek elýeterli däl",
+    "changePhoto": "Suraty üýtgediň",
+    "deletePhoto": "Öçür",
+    "photoHint": "JPG ýa-da PNG. Iň uly ululygy 2MB.",
+    "saveProfile": "Profil ýazdyr",
+    "apartmentTitle": "Kwartira maglumatlary",
+    "saveApartment": "Kwartira maglumatlaryny ýazdyryň",
+    "tabs": {
+      "profile": "Profil sazlamalary",
+      "apartment": "Kwartiranyň tertibi",
+      "notifications": "Duýduryş düzgünleri",
+      "billing": "Hasaplaşyk integrasiýasy",
+      "security": "Howpsuzlyk we elýeterlilik"
+    },
+    "fields": {
+      "fullName": "Doly ady",
+      "email": "E-poçta salgysy",
+      "emailLocked": "E-poçta bu ýerde üýtgedilip bilinmez",
+      "phone": "Telefon belgisi",
+      "accessLevel": "Giriş derejesi",
+      "accessLevelValue": "Jemgyýet dolandyryjysy",
+      "roleLocked": "Rol dolandyrmak entek elýeterli däl",
+      "apartmentName": "Kwartiranyň ady",
+      "mainsSource": "Esasy çeşme",
+      "mainsSourcePlaceholder": "meselem Şäher häkimligi üpjünçiligi + goşmaça tankerler",
+      "address": "Fiziki salgy"
+    },
+    "security": {
+      "title": "Howpsuzlyk we giriş deslapky syn",
+      "twoFactor": "Iki faktorly tanamak",
+      "twoFactorHint": "Girişde açyk",
+      "twoFactorUnavailable": "Iki faktorly tanamaklyk entek elýeterli däl",
+      "twoFactorAria": "Iki faktorly tanamaklyk (diňe deslapky syn)",
+      "sessionsLabel": "Işjeň administrasiýa sessiýalary",
+      "sessionsEmpty": "Sessiýa yzarlamasy entek elýeterli däl - bu öňümizdäki düzülişiň deslapky syny."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biletlerim",
+      "inbox": "Identaşaýjy biletler"
+    },
+    "mine": {
+      "title": "Goldaw biletlerim",
+      "subtitle": "Jemgyýetiňiz hakda sorag ýa-da aladany Ulgam dolandyryjysyna beriň.",
+      "emptyCreateHint": "Jemgyýetiňiz hakda sorag ýa-da alada dörediň. Ulgam dolandyryjysy bu ýerde gözden geçirer we jogap berer."
+    },
+    "inbox": {
+      "title": "Identaşaýjy biletler",
+      "subtitle": "Goldaw biletleri we jemgyýetiňizdäki ýaşaýjylar size ýüzlendiler."
+    }
+  }
+}

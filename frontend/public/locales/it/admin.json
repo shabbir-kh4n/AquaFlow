@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Caricamento…",
+    "saving": "Risparmio…",
+    "saved": "Salvato.",
+    "uploading": "Caricamento…",
+    "upload": "Caricamento",
+    "uploadError": "Impossibile caricare questo file. Per favore riprova.",
+    "cancel": "Cancellare",
+    "close": "Vicino",
+    "edit": "Modificare",
+    "remove": "Rimuovere",
+    "saveChanges": "Salva modifiche",
+    "bulkSummary": "<b>{{total}}</b> righe elaborate: <b>{{success}}</b> sono riuscite, <b>{{failure}}</b> non sono riuscite.",
+    "rowFailure": "Riga {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Visualizzazione di {{from}}–{{to}} di {{total}}",
+    "prev": "← Prec",
+    "next": "Avanti →",
+    "page": "Pagina {{page}} di {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Impossibile caricare i dati della tua community in questo momento.",
+    "title": "{{community}} Pannello di controllo dell'appartamento",
+    "titleFallback": "La dashboard del tuo appartamento",
+    "subtitle": "Sintesi operativa per la submisurazione delle utenze idriche e i consumi domestici.",
+    "comingSoon": "Prossimamente",
+    "manageCommunity": "Gestisci comunità",
+    "noUsageReadings": "Nessuna lettura di utilizzo ancora registrata.",
+    "cards": {
+      "totalHouseholds": "Famiglie totali",
+      "occupied": "Occupato",
+      "activeMeters": "Contatori attivi",
+      "reportingReadings": "Riportare le letture",
+      "monthlyConsumption": "Consumo mensile",
+      "thisCalendarMonth": "Questo mese di calendario",
+      "latestRecordedMonth": "Ultimo mese registrato ({{month}})",
+      "noReadingsYet": "Nessuna lettura ancora registrata",
+      "pendingAlerts": "Avvisi in sospeso",
+      "anomalyPreview": "Anteprima del rilevamento delle anomalie: non ancora disponibile"
+    },
+    "actions": {
+      "label": "Azioni amministrative rapide",
+      "uploadReadings": "Carica le letture dei contatori",
+      "configureTariffs": "Configura le tariffe",
+      "reportsNotBuilt": "I report non sono ancora stati creati",
+      "downloadReports": "Scarica i report di sistema"
+    },
+    "chart": {
+      "title": "Confronto del consumo mensile (kL)",
+      "subtitle": "Ultimi {{months}} mesi: consumo target rispetto a quello effettivo.",
+      "targetSeries": "Obiettivo (anteprima)",
+      "actualSeries": "Reale"
+    },
+    "recent": {
+      "title": "Letture recenti dei contatori",
+      "unit": "Unità",
+      "resident": "Residente",
+      "lastReading": "Ultima lettura",
+      "consumption": "Consumo"
+    }
+  },
+  "households": {
+    "loadError": "Impossibile caricare i residenti. Per favore riprova.",
+    "fixFields": "Correggi i campi evidenziati.",
+    "saveError": "Impossibile salvare questo residente. Si prega di verificare i dettagli.",
+    "confirmRemove": "Rimuovere {{name}} dalla directory delle tue famiglie?",
+    "removeError": "Impossibile rimuovere questo residente. Per favore riprova.",
+    "count": "Famiglie: {{total}}",
+    "bulkUploadButton": "⇪ Caricamento collettivo",
+    "addResidentButton": "+ Aggiungi residente",
+    "searchPlaceholder": "Filtra per nome, casa, email o n. contatore.",
+    "loading": "Caricamento residenti...",
+    "empty": "Nessun residente ancora. Fai clic su \"Aggiungi residente\" per registrare la prima famiglia.",
+    "noMatch": "Nessun residente corrisponde a \"{{search}}\".",
+    "sort": {
+      "label": "Ordina per",
+      "name": "Nome",
+      "houseNumber": "Numero civico",
+      "dateOfJoining": "Data di adesione",
+      "toggleDirection": "Attiva/disattiva la direzione dell'ordinamento",
+      "asc": "↑ Asc",
+      "desc": "↓Desc"
+    },
+    "gender": {
+      "male": "Maschio",
+      "female": "Femmina",
+      "other": "Altro"
+    },
+    "table": {
+      "name": "Nome",
+      "houseUnit": "Casa/Unità",
+      "email": "E-mail",
+      "phone": "Telefono",
+      "meterNumber": "Contatore n.",
+      "sqft": "mq",
+      "joined": "Partecipato"
+    },
+    "form": {
+      "addTitle": "Aggiungi residente",
+      "editTitle": "Modifica Residente",
+      "editSubtitle": "Questo aggiorna i dettagli del residente nella tua directory.",
+      "bypassSubtitle": "Stai impostando direttamente la password di questo residente. Non verrà inviata alcuna email.",
+      "addSubtitle": "Un collegamento per impostare la password verrà inviato via email a questo residente in modo che possa attivare il proprio accesso.",
+      "fullName": "Nome e cognome",
+      "houseNumber": "Casa/unità n.",
+      "email": "E-mail",
+      "phone": "Numero di telefono",
+      "meterNumber": "Numero del contatore",
+      "governmentId": "Carta d'identità governativa",
+      "gender": "Genere",
+      "dateOfBirth": "Data di nascita",
+      "dateOfJoining": "Data di adesione",
+      "flatSize": "Superficie appartamento (mq)",
+      "bypassLabel": "Evita l'e-mail di set-password: imposta subito una password per questo residente",
+      "password": "Password",
+      "confirmPassword": "Conferma password"
+    },
+    "validation": {
+      "fullNameRequired": "È richiesto il nome completo.",
+      "emailRequired": "L'e-mail è obbligatoria.",
+      "phoneRequired": "Il numero di telefono è obbligatorio.",
+      "houseNumberRequired": "È richiesto il numero civico/unità.",
+      "houseNumberTaken": "Questo numero civico è già assegnato ad un altro residente.",
+      "meterNumberRequired": "Il numero del contatore è obbligatorio.",
+      "meterNumberFormat": "Il numero del contatore deve essere simile a MTR-1234 (4 cifre).",
+      "meterNumberTaken": "Questo numero di contatore è già assegnato a un altro residente.",
+      "governmentIdRequired": "È richiesto un documento d'identità governativo.",
+      "governmentIdFormat": "L'ID deve essere composto da 6 cifre che iniziano con 99 (ad esempio 991234).",
+      "genderRequired": "Seleziona un genere.",
+      "dateOfBirthRequired": "È richiesta la data di nascita.",
+      "dateOfJoiningRequired": "La data di adesione è obbligatoria.",
+      "passwordRequired": "È richiesta la password.",
+      "passwordLength": "La password deve contenere almeno 8 caratteri.",
+      "confirmPasswordRequired": "Si prega di confermare la password.",
+      "passwordMismatch": "Le password non corrispondono."
+    },
+    "bulk": {
+      "title": "Residenti con caricamento collettivo",
+      "noFile": "Scegli un file .csv o .xlsx/.xls da caricare.",
+      "instructions": "Carica un file .csv o .xlsx/.xls con le colonne <code>{{columns}}</code> (password e flatSizeSqft sono entrambi facoltativi). Le righe con una password la impostano direttamente; le righe senza una ricevono un'e-mail con la password impostata, come se si aggiungesse manualmente un residente. Numeri civici/contatori o e-mail duplicati vengono rifiutati per riga: una riga errata non manderà in errore l'intero batch."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Impossibile caricare i residenti. Per favore riprova.",
+    "historyLoadError": "Impossibile caricare la cronologia delle letture. Per favore riprova.",
+    "successMessage": "Lettura registrata con successo di {{value}} kL per {{house}} (Contatore: {{meter}})! Consumo calcolato: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ingresso unico",
+      "csv": "Caricamento collettivo CSV",
+      "history": "Leggere la storia"
+    },
+    "source": {
+      "manual": "Manuale",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Questo residente non ha il numero del contatore in archivio.",
+      "dateRequired": "La data di lettura è obbligatoria.",
+      "invalidValue": "Inserisci un valore di lettura valido e non negativo.",
+      "duplicate": "A quella data esiste già una lettura per questo contatore.",
+      "meterNotFound": "Impossibile trovare questo contatore. Si prega di riselezionare il residente.",
+      "lowerThanPrevious": "Questa lettura è inferiore alla lettura registrata precedente.",
+      "recordFailed": "Impossibile registrare questa lettura. Per favore riprova."
+    },
+    "combo": {
+      "label": "Seleziona Seriale piatto e contatore",
+      "placeholder": "Seleziona seriale piatto e contatore...",
+      "flat": "Appartamento {{house}}",
+      "noMeter": "Nessun metro",
+      "searchPlaceholder": "Cerca n. appartamento, seriale contatore, residente…",
+      "unitsHeader": "Unità residenziali",
+      "found": "Appartamenti trovati: {{total}}",
+      "loading": "Caricamento residenti...",
+      "noMatch": "Nessun residente corrisponde a \"{{search}}\".",
+      "unassigned": "Non assegnato",
+      "itemMeta": "{{name}} · Ultimo: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Registrare una lettura per",
+      "context": "Casa {{house}} · Contatore {{meter}}",
+      "changeResident": "Cambia residente",
+      "readingDate": "Data di lettura",
+      "readingValue": "Lettura del contatore corrente (kL)",
+      "submit": "Invia lettura convalidata",
+      "recentTitle": "Letture recenti",
+      "recentEmpty": "Nessuna lettura ancora registrata per questo contatore."
+    },
+    "info": {
+      "title": "Convalida del contatore monotono",
+      "body": "Ogni nuova lettura deve essere maggiore o uguale al registro precedente per quel contatore: ciò mantiene i calcoli del consumo accurati e rileva tempestivamente le cifre trasposte."
+    },
+    "details": {
+      "title": "Dettagli dell'unità selezionata",
+      "flatUnit": "Unità piatta",
+      "meterSerial": "Seriale del misuratore",
+      "occupant": "Nome dell'occupante",
+      "lastDial": "Ultimo quadrante registrato",
+      "noReadings": "Nessuna lettura ancora",
+      "monthConsumption": "Consumo mensile",
+      "empty": "Nessuna famiglia selezionata. Cerca e scegli un residente per vedere i dettagli del suo contatore qui."
+    },
+    "csv": {
+      "noFile": "Scegli un CSV file da caricare.",
+      "instructions": "Carica un CSV con le colonne <code>{{columns}}</code>. Le righe vengono elaborate in modo indipendente: una riga errata non manderà in errore l'intero batch."
+    },
+    "history": {
+      "loading": "Caricamento letture…",
+      "empty": "Nessuna lettura ancora registrata per la tua comunità."
+    },
+    "table": {
+      "meterNumber": "Contatore n.",
+      "date": "Data",
+      "value": "Valore (kL)",
+      "consumption": "Consumo (kL)",
+      "source": "Fonte"
+    }
+  },
+  "billingCycles": {
+    "title": "Cicli di fatturazione",
+    "loadError": "Impossibile caricare i cicli di fatturazione. Per favore riprova.",
+    "paymentUpdateError": "Impossibile aggiornare lo stato di pagamento di questa fattura.",
+    "pdfError": "Impossibile scaricare il PDF. Per favore riprova.",
+    "finalizeError": "Impossibile finalizzare questo ciclo di fatturazione.",
+    "archiveError": "Impossibile archiviare questo ciclo di fatturazione.",
+    "loading": "Caricamento cicli di fatturazione…",
+    "empty": "Nessun ciclo di fatturazione ancora. Aprine uno qui sopra per iniziare.",
+    "status": {
+      "open": "Aprire",
+      "finalized": "Finalizzato",
+      "archived": "Archiviato"
+    },
+    "open": {
+      "title": "Apri un nuovo ciclo di fatturazione",
+      "noMonth": "Scegli un mese per l'apertura.",
+      "error": "Impossibile aprire un ciclo di fatturazione per quel mese.",
+      "monthAria": "Mese del periodo di fatturazione",
+      "opening": "Apertura…",
+      "submit": "Ciclo aperto"
+    },
+    "table": {
+      "period": "Periodo",
+      "status": "Stato",
+      "householdsBilled": "Famiglie fatturate",
+      "totalBilled": "Totale fatturato",
+      "actions": "Azioni"
+    },
+    "actions": {
+      "finalize": "Finalizzare",
+      "finalizing": "Finalizzazione…",
+      "archive": "Archivio",
+      "archiving": "Archiviazione…"
+    },
+    "filter": {
+      "aria": "Filtra per stato del pagamento",
+      "all": "Tutto"
+    },
+    "payment": {
+      "paid": "Pagato",
+      "unpaid": "Non pagato",
+      "updating": "Aggiornamento…",
+      "markPaid": "Contrassegna come pagato",
+      "markUnpaid": "Contrassegna come non pagato"
+    },
+    "detail": {
+      "title": "Dettagli ciclo — {{period}}",
+      "loading": "Caricamento fatture…",
+      "notFinalized": "Questo ciclo non è stato ancora finalizzato: nessuna fattura generata.",
+      "noInvoices": "Nessuna fattura per questo ciclo.",
+      "noMatch": "Nessuna fattura corrisponde a questo filtro."
+    },
+    "invoices": {
+      "household": "Domestico",
+      "resident": "Residente",
+      "meterNumber": "Contatore n.",
+      "consumption": "Consumo (kL)",
+      "tierBreakdown": "Ripartizione per livelli",
+      "commonArea": "Area comune",
+      "total": "Totale",
+      "paymentStatus": "Stato del pagamento",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Livello {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Impossibile caricare la configurazione della tariffa",
+    "saveError": "Impossibile salvare la configurazione della tariffa",
+    "chartTitle": "Livelli di tariffe delle utenze misurate attive",
+    "axisNote": "Tariffa in ₹/kL, limiti della soletta in kL",
+    "tableTitle": "Tabella dei livelli di prezzo",
+    "defaultRatesNote": "Visualizzazione delle tariffe predefinite: non ancora salvate.",
+    "addTier": "+ Aggiungi livello",
+    "saveRates": "Salva le tariffe tariffarie",
+    "tierLevel": {
+      "base": "Livello {{tier}} (Base)",
+      "medium": "Livello {{tier}} (Medio)",
+      "heavy": "Livello {{tier}} (pesante)"
+    },
+    "basePrice": {
+      "label": "Prezzo base (₹ / kL, applicato a TUTTI i consumi)",
+      "note": "A ogni kL viene addebitata prima questa tariffa forfettaria. Le lastre sottostanti aggiungono costi EXTRA solo per l'utilizzo che rientra nel loro intervallo, ad es. una lastra che inizia a 50 kL aggiunge la sua tariffa solo per il consumo superiore a 50 kL."
+    },
+    "table": {
+      "tierLevel": "Livello di livello",
+      "slabLimit": "Limite soletta (kL)",
+      "rate": "Tariffa per kL",
+      "action": "Azione"
+    },
+    "commonArea": {
+      "title": "Configurazione dei costi dell'area comune condivisa",
+      "loadError": "Impossibile caricare la configurazione dei costi dell'area comune",
+      "saveError": "Impossibile salvare la configurazione dei costi dell'area comune",
+      "empty": "Nessuna voce di costo ancora salvata.",
+      "labelPlaceholder": "Etichetta della voce di costo",
+      "perMonth": "/ mese",
+      "active": "Attivo",
+      "addItem": "+ Aggiungi voce di costo",
+      "save": "Salva configurazione area comune"
+    },
+    "distribution": {
+      "title": "Selettore del metodo di distribuzione dei costi",
+      "consumption": "Per consumo (proporzionale sub-contabilizzato)",
+      "floorArea": "Per appartamento Superficie appartamento (mq)"
+    },
+    "footer": {
+      "cycleStart": "Data di inizio della fatturazione del ciclo",
+      "cycleStartValue": "1 di ogni mese",
+      "autoInvoices": "Genera automaticamente PDF fatture"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Soglia superata",
+      "statisticalOutlier": "Valore anomalo statistico"
+    },
+    "status": {
+      "active": "Attivo",
+      "resolved": "Risolto",
+      "dismissed": "Licenziato"
+    },
+    "config": {
+      "title": "Configurazione del rilevamento delle perdite",
+      "subtitle": "Imposta una soglia di consumo mensile e/o abilita il rilevamento statistico dei valori anomali (contrassegna una famiglia il cui consumo mensile è insolitamente elevato rispetto alla sua stessa storia).",
+      "loadError": "Impossibile caricare la configurazione degli avvisi. Per favore riprova.",
+      "thresholdRequired": "Una soglia mensile (kL) è richiesta quando gli avvisi di soglia sono abilitati.",
+      "saveError": "Impossibile salvare questa configurazione.",
+      "loading": "Caricamento configurazione...",
+      "threshold": "Soglia mensile (kL)",
+      "sensitivity": "Sensibilità anomala (moltiplicatore σ)",
+      "enableThreshold": "Abilita avvisi di soglia",
+      "enableOutlier": "Abilita avvisi statistici sui valori anomali",
+      "save": "Salva configurazione",
+      "running": "Corsa…",
+      "runNow": "Esegui il rilevamento adesso"
+    },
+    "alerts": {
+      "title": "Famiglie segnalate",
+      "loadError": "Impossibile caricare gli avvisi. Per favore riprova.",
+      "runError": "Impossibile eseguire il rilevamento delle perdite in questo momento. Per favore riprova.",
+      "updateError": "Impossibile aggiornare questo avviso. Per favore riprova.",
+      "allStatuses": "Tutti gli stati",
+      "loading": "Caricamento avvisi...",
+      "empty": "Nessun avviso da mostrare. Configura una soglia o abilita il rilevamento dei valori anomali sopra, quindi fai clic su \"Esegui rilevamento ora\" per valutare l'utilizzo corrente della tua comunità.",
+      "resolve": "Risolvere",
+      "dismiss": "Congedare"
+    },
+    "table": {
+      "household": "Domestico",
+      "resident": "Residente",
+      "meter": "Metro",
+      "type": "Tipo",
+      "period": "Periodo",
+      "consumption": "Consumo",
+      "reference": "Riferimento",
+      "status": "Stato"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Impossibile caricare gli acquisti sfusi di acqua. Per favore riprova.",
+    "confirmRemove": "Rimuovere la consegna {{source}} su {{date}}?",
+    "removeError": "Impossibile rimuovere questo acquisto. Per favore riprova.",
+    "count": "Acquisti registrati: {{total}}",
+    "recordButton": "+ Acquisto discografico",
+    "loading": "Caricamento degli acquisti sfusi di acqua…",
+    "empty": "Nessun acquisto di acqua sfusa ancora registrato. Fare clic su \"Registra acquisto\" per registrare la consegna di un'autocisterna o l'acquisto di forniture comunali.",
+    "table": {
+      "date": "Data",
+      "source": "Fonte",
+      "volume": "Volume (l)",
+      "unitCost": "Costo unitario",
+      "totalCost": "Costo totale",
+      "notes": "Note"
+    },
+    "form": {
+      "addTitle": "Acquisti record di acqua in grandi quantità",
+      "editTitle": "Modifica acquisto di acqua in blocco",
+      "subtitle": "Tieni traccia della consegna di un'autocisterna o dell'acquisto di forniture comunali per la tua comunità: questo viene registrato solo per visibilità sui costi e non influisce sulle fatture domestiche.",
+      "requiredFields": "Inserisci la data, la fonte, il volume e il costo unitario.",
+      "saveError": "Impossibile salvare questo acquisto. Si prega di verificare i dettagli.",
+      "purchaseDate": "Data di acquisto",
+      "source": "Fonte/fornitore",
+      "volume": "Volume (litri)",
+      "unitCost": "Costo unitario (₹/litro)",
+      "totalPreview": "Costo totale: {{amount}}",
+      "notes": "Note (facoltativo)",
+      "submit": "Acquisto discografico"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} non è ancora stato creato",
+    "profileSaveError": "Impossibile salvare il tuo profilo. Per favore riprova.",
+    "apartmentSaveError": "Impossibile salvare i dettagli dell'appartamento. Per favore riprova.",
+    "specsTitle": "Specifiche del profilo",
+    "photoUnavailable": "Il caricamento delle foto non è ancora disponibile",
+    "changePhoto": "Cambia foto",
+    "deletePhoto": "Eliminare",
+    "photoHint": "JPG o PNG. Dimensione massima 2 MB.",
+    "saveProfile": "Salva profilo",
+    "apartmentTitle": "Dettagli dell'appartamento",
+    "saveApartment": "Salva i dettagli dell'appartamento",
+    "tabs": {
+      "profile": "Impostazioni del profilo",
+      "apartment": "Profilo dell'appartamento",
+      "notifications": "Regole di notifica",
+      "billing": "Integrazioni di fatturazione",
+      "security": "Sicurezza e accesso"
+    },
+    "fields": {
+      "fullName": "Nome e cognome",
+      "email": "Indirizzo e-mail",
+      "emailLocked": "L'e-mail non può essere modificata qui",
+      "phone": "Numero di telefono",
+      "accessLevel": "Livello di accesso",
+      "accessLevelValue": "Amministratore della comunità",
+      "roleLocked": "La gestione dei ruoli non è ancora disponibile",
+      "apartmentName": "Nome dell'appartamento",
+      "mainsSource": "Fonte di alimentazione",
+      "mainsSourcePlaceholder": "per esempio. Rifornimento Comunale + Autocisterne Supplementari",
+      "address": "Indirizzo fisico"
+    },
+    "security": {
+      "title": "Anteprima di sicurezza e accesso",
+      "twoFactor": "Autenticazione a due fattori",
+      "twoFactorHint": "Abilitato all'accesso",
+      "twoFactorUnavailable": "L'autenticazione a due fattori non è ancora disponibile",
+      "twoFactorAria": "Autenticazione a due fattori (solo anteprima)",
+      "sessionsLabel": "Sessioni di amministrazione attive",
+      "sessionsEmpty": "Il monitoraggio della sessione non è ancora disponibile: questa è un'anteprima del prossimo layout."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "I miei biglietti",
+      "inbox": "Biglietti residenti"
+    },
+    "mine": {
+      "title": "I miei ticket di supporto",
+      "subtitle": "Solleva una domanda o un dubbio sulla tua community all'amministratore di sistema.",
+      "emptyCreateHint": "Solleva una domanda o un dubbio sulla tua comunità. Un amministratore di sistema esaminerà e risponderà qui."
+    },
+    "inbox": {
+      "title": "Biglietti residenti",
+      "subtitle": "Ticket di supporto e preoccupazioni che i residenti della tua comunità ti hanno rivolto."
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Cargando…",
+    "saving": "Gardando…",
+    "saved": "Gardado.",
+    "uploading": "Cargando…",
+    "upload": "Cargar",
+    "uploadError": "Non se puido cargar este ficheiro. Téntao de novo.",
+    "cancel": "Cancelar",
+    "close": "Pechar",
+    "edit": "Editar",
+    "remove": "Eliminar",
+    "saveChanges": "Gardar cambios",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Fila {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Mostrando {{from}}–{{to}} de {{total}}",
+    "prev": "← Anterior",
+    "next": "Seguinte →",
+    "page": "Páxina {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Non se puideron cargar os datos da túa comunidade neste momento.",
+    "title": "{{community}} Panel de control do apartamento",
+    "titleFallback": "O panel de control do teu apartamento",
+    "subtitle": "Resumo operativo para a subcontaxe de auga e consumo doméstico.",
+    "comingSoon": "Próximamente",
+    "manageCommunity": "Xestionar a comunidade",
+    "noUsageReadings": "Aínda non se rexistraron lecturas de uso.",
+    "cards": {
+      "totalHouseholds": "Total Fogares",
+      "occupied": "Ocupado",
+      "activeMeters": "Medidores activos",
+      "reportingReadings": "Informe de lecturas",
+      "monthlyConsumption": "Consumo Mensual",
+      "thisCalendarMonth": "Este mes natural",
+      "latestRecordedMonth": "Último mes rexistrado ({{month}})",
+      "noReadingsYet": "Aínda non se rexistraron lecturas",
+      "pendingAlerts": "Alertas pendentes",
+      "anomalyPreview": "Vista previa da detección de anomalías, aínda non dispoñible"
+    },
+    "actions": {
+      "label": "Accións administrativas rápidas",
+      "uploadReadings": "Cargar lecturas de contadores",
+      "configureTariffs": "Configurar Tarifas",
+      "reportsNotBuilt": "Os informes aínda non están construídos",
+      "downloadReports": "Descargar informes do sistema"
+    },
+    "chart": {
+      "title": "Comparación do consumo mensual (kL)",
+      "subtitle": "Últimos {{months}} meses: consumo obxectivo versus consumo real.",
+      "targetSeries": "Obxectivo (vista previa)",
+      "actualSeries": "Real"
+    },
+    "recent": {
+      "title": "Lecturas recentes de contadores",
+      "unit": "Unidade",
+      "resident": "Residente",
+      "lastReading": "Última lectura",
+      "consumption": "Consumo"
+    }
+  },
+  "households": {
+    "loadError": "Non se puideron cargar os residentes. Téntao de novo.",
+    "fixFields": "Corrixe os campos resaltados.",
+    "saveError": "Non se puido salvar este residente. Comprobe os detalles.",
+    "confirmRemove": "Queres eliminar {{name}} do directorio das túas familias?",
+    "removeError": "Non se puido eliminar este residente. Téntao de novo.",
+    "count": "Fogares: {{total}}",
+    "bulkUploadButton": "⇪ Carga masiva",
+    "addResidentButton": "+ Engadir residente",
+    "searchPlaceholder": "Filtra por nome, casa, correo electrónico ou número de contador.",
+    "loading": "Cargando residentes...",
+    "empty": "Aínda non hai residentes. Fai clic en \"Engadir residente\" para rexistrar o primeiro fogar.",
+    "noMatch": "Ningún residente coincide con \"{{search}}\".",
+    "sort": {
+      "label": "Ordenar por",
+      "name": "Nome",
+      "houseNumber": "Número da casa",
+      "dateOfJoining": "Data de incorporación",
+      "toggleDirection": "Alterna a dirección de ordenación",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Masculino",
+      "female": "Feminino",
+      "other": "Outros"
+    },
+    "table": {
+      "name": "Nome",
+      "houseUnit": "Casa / Unidade",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "meterNumber": "Número de contador",
+      "sqft": "pés cadrados",
+      "joined": "Uniuse"
+    },
+    "form": {
+      "addTitle": "Engadir residente",
+      "editTitle": "Editar residente",
+      "editSubtitle": "Isto actualiza os detalles do residente no teu directorio.",
+      "bypassSubtitle": "Estás configurando o contrasinal deste residente directamente. Non se enviará ningún correo electrónico.",
+      "addSubtitle": "Enviarase por correo electrónico a este residente unha ligazón de configuración de contrasinal para que poida activar o seu propio inicio de sesión.",
+      "fullName": "Nome completo",
+      "houseNumber": "Casa/unidade núm.",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "meterNumber": "Número de contador",
+      "governmentId": "Identificación do goberno",
+      "gender": "Xénero",
+      "dateOfBirth": "Data de nacemento",
+      "dateOfJoining": "Data de incorporación",
+      "flatSize": "Tamaño plano (sq ft)",
+      "bypassLabel": "Omitir o correo electrónico de configuración do contrasinal: establece agora un contrasinal para este residente",
+      "password": "Contrasinal",
+      "confirmPassword": "Confirmar contrasinal"
+    },
+    "validation": {
+      "fullNameRequired": "O nome completo é necesario.",
+      "emailRequired": "O correo electrónico é necesario.",
+      "phoneRequired": "O número de teléfono é necesario.",
+      "houseNumberRequired": "Requírese o número de casa/unidade.",
+      "houseNumberTaken": "Este número de casa xa está asignado a outro residente.",
+      "meterNumberRequired": "O número de contador é necesario.",
+      "meterNumberFormat": "O número do contador debe parecerse ao MTR-1234 (4 díxitos).",
+      "meterNumberTaken": "Este número de contador xa está asignado a outro residente.",
+      "governmentIdRequired": "Requírese a identificación do goberno.",
+      "governmentIdFormat": "O ID debe ter 6 díxitos que comezan por 99 (por exemplo, 991234).",
+      "genderRequired": "Selecciona un sexo.",
+      "dateOfBirthRequired": "Requírese a data de nacemento.",
+      "dateOfJoiningRequired": "Requírese a data de incorporación.",
+      "passwordRequired": "O contrasinal é necesario.",
+      "passwordLength": "O contrasinal debe ter polo menos 8 caracteres.",
+      "confirmPasswordRequired": "Confirma o contrasinal.",
+      "passwordMismatch": "Os contrasinais non coinciden."
+    },
+    "bulk": {
+      "title": "Residentes de carga masiva",
+      "noFile": "Escolla un ficheiro .csv ou .xlsx/.xls para cargar.",
+      "instructions": "Carga un ficheiro .csv ou .xlsx/.xls coas columnas <code>{{columns}}</code> (o contrasinal e flatSizeSqft son opcionais). As filas cun contrasinal configúrao directamente; as filas sen unha reciben un correo electrónico de contrasinal definido, igual que engadir un residente manualmente. Os números ou os correos electrónicos duplicados de casas/contadores rexéitanse por fila; unha fila incorrecta non fallará durante todo o lote."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Non se puideron cargar os residentes. Téntao de novo.",
+    "historyLoadError": "Non se puido cargar o historial de lecturas. Téntao de novo.",
+    "successMessage": "Lectura rexistrada correctamente de {{value}} kL para {{house}} (Medidor: {{meter}})! Consumo calculado: {{consumption}} kL.",
+    "tabs": {
+      "single": "Entrada única",
+      "csv": "Carga masiva CSV",
+      "history": "Lendo Historia"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Este residente non ten ningún número de contador no arquivo.",
+      "dateRequired": "A data de lectura é obrigatoria.",
+      "invalidValue": "Introduza un valor de lectura válido e non negativo.",
+      "duplicate": "Xa existe unha lectura para este contador nesa data.",
+      "meterNotFound": "Non se puido atopar este contador. Volve seleccionar o residente.",
+      "lowerThanPrevious": "Esta lectura é inferior á lectura rexistrada anterior.",
+      "recordFailed": "Non se puido gravar esta lectura. Téntao de novo."
+    },
+    "combo": {
+      "label": "Seleccione Flat & Meter Serial",
+      "placeholder": "Seleccione Flat & Meter Serial...",
+      "flat": "Plano {{house}}",
+      "noMeter": "Sen contador",
+      "searchPlaceholder": "Busca número de piso, número de serie, residente...",
+      "unitsHeader": "Unidades Residenciais",
+      "found": "Pisos atopados: {{total}}",
+      "loading": "Cargando residentes...",
+      "noMatch": "Ningún residente coincide con \"{{search}}\".",
+      "unassigned": "Sen asignar",
+      "itemMeta": "{{name}} · Último: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Gravación dunha lectura para",
+      "context": "Casa {{house}} · Metro {{meter}}",
+      "changeResident": "Cambiar de residente",
+      "readingDate": "Data de lectura",
+      "readingValue": "Lectura do contador actual (kL)",
+      "submit": "Enviar lectura validada",
+      "recentTitle": "Lecturas recentes",
+      "recentEmpty": "Aínda non se rexistraron lecturas para este medidor."
+    },
+    "info": {
+      "title": "Validación de medidores monotónicos",
+      "body": "Cada lectura nova debe ser maior ou igual ao rexistro anterior para ese contador; isto mantén os cálculos de consumo precisos e captura os díxitos transpostos antes."
+    },
+    "details": {
+      "title": "Detalles da unidade seleccionada",
+      "flatUnit": "Unidade plana",
+      "meterSerial": "Medidor de serie",
+      "occupant": "Nome do ocupante",
+      "lastDial": "Última marcación gravada",
+      "noReadings": "Aínda non hai lecturas",
+      "monthConsumption": "Consumo mensual",
+      "empty": "Non se seleccionou ningún fogar. Busca e escolle un residente para ver os detalles do seu contador aquí."
+    },
+    "csv": {
+      "noFile": "Escolla un ficheiro CSV para cargar.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Cargando lecturas...",
+      "empty": "Aínda non se rexistrou ningunha lectura para a túa comunidade."
+    },
+    "table": {
+      "meterNumber": "Número de contador",
+      "date": "Data",
+      "value": "Valor (kL)",
+      "consumption": "Consumo (kL)",
+      "source": "Fonte"
+    }
+  },
+  "billingCycles": {
+    "title": "Ciclos de facturación",
+    "loadError": "Non se puideron cargar os ciclos de facturación. Téntao de novo.",
+    "paymentUpdateError": "Non se puido actualizar o estado de pago desta factura.",
+    "pdfError": "Non se puido descargar o PDF. Téntao de novo.",
+    "finalizeError": "Non se puido finalizar este ciclo de facturación.",
+    "archiveError": "Non se puido arquivar este ciclo de facturación.",
+    "loading": "Cargando ciclos de facturación...",
+    "empty": "Aínda non hai ciclos de facturación. Abre un arriba para comezar.",
+    "status": {
+      "open": "Aberto",
+      "finalized": "Finalizado",
+      "archived": "Arquivado"
+    },
+    "open": {
+      "title": "Abre un novo ciclo de facturación",
+      "noMonth": "Escolle un mes para abrir.",
+      "error": "Non se puido abrir un ciclo de facturación para ese mes.",
+      "monthAria": "Período de facturación mes",
+      "opening": "Apertura…",
+      "submit": "Ciclo Aberto"
+    },
+    "table": {
+      "period": "Período",
+      "status": "Estado",
+      "householdsBilled": "Fogares facturados",
+      "totalBilled": "Total facturado",
+      "actions": "Accións"
+    },
+    "actions": {
+      "finalize": "Finalizar",
+      "finalizing": "Finalizando…",
+      "archive": "Arquivo",
+      "archiving": "Arquivando…"
+    },
+    "filter": {
+      "aria": "Filtra por estado de pago",
+      "all": "Todos"
+    },
+    "payment": {
+      "paid": "Pagado",
+      "unpaid": "Sen pago",
+      "updating": "Actualizando…",
+      "markPaid": "Marcar como pago",
+      "markUnpaid": "Marcar como non pagado"
+    },
+    "detail": {
+      "title": "Detalle do ciclo — {{period}}",
+      "loading": "Cargando facturas...",
+      "notFinalized": "Este ciclo aínda non se finalizou; non se xeraron facturas.",
+      "noInvoices": "Non hai facturas para este ciclo.",
+      "noMatch": "Ningunha factura coincide con este filtro."
+    },
+    "invoices": {
+      "household": "Fogar",
+      "resident": "Residente",
+      "meterNumber": "Número de contador",
+      "consumption": "Consumo (kL)",
+      "tierBreakdown": "Desglose de niveis",
+      "commonArea": "Zona Común",
+      "total": "Total",
+      "paymentStatus": "Estado de pago",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivel {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Non se puido cargar a configuración da tarifa",
+    "saveError": "Non se puido gardar a configuración da tarifa",
+    "chartTitle": "Niveles de tarifas de servizos públicos medidos activos",
+    "axisNote": "Tarifa en ₹/kL, límites de forxado en kL",
+    "tableTitle": "Táboa de niveis de prezos",
+    "defaultRatesNote": "Mostrando as taxas predeterminadas, aínda non gardadas.",
+    "addTier": "+ Engadir nivel",
+    "saveRates": "Gardar tarifas",
+    "tierLevel": {
+      "base": "Nivel {{tier}} (base)",
+      "medium": "Nivel {{tier}} (Medio)",
+      "heavy": "Nivel {{tier}} (pesado)"
+    },
+    "basePrice": {
+      "label": "Prezo base (₹/kL, aplicado a TODO o consumo)",
+      "note": "Cada kL cóbrase primeiro esta tarifa plana. As placas que aparecen a continuación engaden cargos EXTRA só para o uso que estea dentro do seu rango, por exemplo. unha lousa que comeza en 50 kL só engade a súa tarifa para o consumo superior a 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivel de nivel",
+      "slabLimit": "Límite de forxado (kL)",
+      "rate": "Tarifa por kL",
+      "action": "Acción"
+    },
+    "commonArea": {
+      "title": "Configuración de custos de área común compartida",
+      "loadError": "Non se puido cargar a configuración do custo da área común",
+      "saveError": "Non se puido gardar a configuración do custo da área común",
+      "empty": "Aínda non se gardou ningún elemento de custo.",
+      "labelPlaceholder": "Etiqueta do elemento de custo",
+      "perMonth": "/mes",
+      "active": "Activo",
+      "addItem": "+ Engadir elemento de custo",
+      "save": "Gardar a configuración da área común"
+    },
+    "distribution": {
+      "title": "Selector do método de distribución de custos",
+      "consumption": "Por consumo (proporcional submedido)",
+      "floorArea": "Por tamaño do apartamento (pies cadrados)"
+    },
+    "footer": {
+      "cycleStart": "Data de inicio da facturación do ciclo",
+      "cycleStartValue": "1 de cada mes",
+      "autoInvoices": "Xerar automaticamente PDF facturas"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Limiar superado",
+      "statisticalOutlier": "Valor atípico estatístico"
+    },
+    "status": {
+      "active": "Activo",
+      "resolved": "Resolto",
+      "dismissed": "Descartado"
+    },
+    "config": {
+      "title": "Configuración de detección de fugas",
+      "subtitle": "Establece un limiar de consumo mensual e/ou activa a detección estatística de valores atípicos (marca un fogar cuxo consumo mensual é inusualmente alto en comparación co seu propio historial).",
+      "loadError": "Non se puido cargar a configuración da alerta. Téntao de novo.",
+      "thresholdRequired": "Un limiar mensual (kL) é necesario cando as alertas de limiar están activadas.",
+      "saveError": "Non se puido gardar esta configuración.",
+      "loading": "Cargando configuración...",
+      "threshold": "Limiar mensual (kL)",
+      "sensitivity": "Sensibilidade dos valores atípicos (multiplicador σ)",
+      "enableThreshold": "Activa as alertas de limiar",
+      "enableOutlier": "Activa as alertas estatísticas atípicas",
+      "save": "Gardar configuración",
+      "running": "Correndo…",
+      "runNow": "Executa a detección agora"
+    },
+    "alerts": {
+      "title": "Fogares sinalizados",
+      "loadError": "Non se puideron cargar as alertas. Téntao de novo.",
+      "runError": "Non se puido executar a detección de fugas neste momento. Téntao de novo.",
+      "updateError": "Non se puido actualizar esta alerta. Téntao de novo.",
+      "allStatuses": "Todos os estados",
+      "loading": "Cargando alertas...",
+      "empty": "Non hai alertas para mostrar. Configura un limiar ou activa a detección de valores atípicos arriba e fai clic en \"Executar detección agora\" para avaliar o uso actual da túa comunidade.",
+      "resolve": "Resolver",
+      "dismiss": "Descartar"
+    },
+    "table": {
+      "household": "Fogar",
+      "resident": "Residente",
+      "meter": "Contador",
+      "type": "Tipo",
+      "period": "Período",
+      "consumption": "Consumo",
+      "reference": "Referencia",
+      "status": "Estado"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Non se puideron cargar as compras de auga a granel. Téntao de novo.",
+    "confirmRemove": "Quitar a entrega de {{source}} o {{date}}?",
+    "removeError": "Non se puido eliminar esta compra. Téntao de novo.",
+    "count": "Compras rexistradas: {{total}}",
+    "recordButton": "+ Rexistro de compra",
+    "loading": "Cargando compras de auga a granel...",
+    "empty": "Aínda non se rexistraron compras de auga a granel. Fai clic en \"Rexistrar compra\" para rexistrar unha entrega dun petroleiro ou unha compra de subministración municipal.",
+    "table": {
+      "date": "Data",
+      "source": "Fonte",
+      "volume": "Volume (L)",
+      "unitCost": "Custo unitario",
+      "totalCost": "Custo total",
+      "notes": "Notas"
+    },
+    "form": {
+      "addTitle": "Rexistrar a compra de auga a granel",
+      "editTitle": "Editar a compra de auga a granel",
+      "subtitle": "Rastrexa a entrega dun camión cisterna ou a compra de subministración municipal para a túa comunidade; isto rexístrase só para a visibilidade dos custos e non afecta ás facturas do fogar.",
+      "requiredFields": "Introduza a data, fonte, volume e custo unitario.",
+      "saveError": "Non se puido gardar esta compra. Comprobe os detalles.",
+      "purchaseDate": "Data de compra",
+      "source": "Fonte/provedor",
+      "volume": "Volume (litros)",
+      "unitCost": "Custo unitario (₹/litro)",
+      "totalPreview": "Custo total: {{amount}}",
+      "notes": "Notas (opcional)",
+      "submit": "Rexistro de compra"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} aínda non está construído",
+    "profileSaveError": "Non se puido gardar o teu perfil. Téntao de novo.",
+    "apartmentSaveError": "Non se puideron gardar os detalles do apartamento. Téntao de novo.",
+    "specsTitle": "Especificacións do perfil",
+    "photoUnavailable": "A carga de fotos aínda non está dispoñible",
+    "changePhoto": "Cambiar foto",
+    "deletePhoto": "Eliminar",
+    "photoHint": "JPG ou PNG. Tamaño máximo 2 MB.",
+    "saveProfile": "Gardar o perfil",
+    "apartmentTitle": "Detalles do apartamento",
+    "saveApartment": "Garda os detalles do apartamento",
+    "tabs": {
+      "profile": "Configuración do perfil",
+      "apartment": "Perfil do apartamento",
+      "notifications": "Normas de notificación",
+      "billing": "Integracións de facturación",
+      "security": "Seguridade e acceso"
+    },
+    "fields": {
+      "fullName": "Nome completo",
+      "email": "Enderezo de correo electrónico",
+      "emailLocked": "O correo electrónico non se pode cambiar aquí",
+      "phone": "Número de teléfono",
+      "accessLevel": "Nivel de acceso",
+      "accessLevelValue": "Administrador comunitario",
+      "roleLocked": "A xestión de roles aínda non está dispoñible",
+      "apartmentName": "Nome do apartamento",
+      "mainsSource": "Fonte de rede",
+      "mainsSourcePlaceholder": "p.ex. Abastecemento Municipal + Buques cisterna suplementarios",
+      "address": "Enderezo físico"
+    },
+    "security": {
+      "title": "Vista previa de acceso e seguridade",
+      "twoFactor": "Autenticación de dous factores",
+      "twoFactorHint": "Activado ao iniciar sesión",
+      "twoFactorUnavailable": "A autenticación de dous factores aínda non está dispoñible",
+      "twoFactorAria": "Autenticación de dous factores (só vista previa)",
+      "sessionsLabel": "Sesións de administración activas",
+      "sessionsEmpty": "O seguimento da sesión aínda non está dispoñible. Esta é unha vista previa do próximo deseño."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Os meus billetes",
+      "inbox": "Tickets de residentes"
+    },
+    "mine": {
+      "title": "Os meus tickets de soporte",
+      "subtitle": "Fai unha pregunta ou preocupación sobre a túa comunidade ao administrador do sistema.",
+      "emptyCreateHint": "Formula unha pregunta ou preocupación sobre a túa comunidade. Un administrador do sistema revisará e responderá aquí."
+    },
+    "inbox": {
+      "title": "Tickets de residentes",
+      "subtitle": "Os tickets de apoio e as preocupacións que os residentes na túa comunidade dirixíronche."
+    }
+  }
+}

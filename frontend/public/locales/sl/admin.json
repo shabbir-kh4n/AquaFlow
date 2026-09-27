@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Nalaganje ...",
+    "saving": "Shranjevanje ...",
+    "saved": "Shranjeno.",
+    "uploading": "Nalaganje …",
+    "upload": "Naloži",
+    "uploadError": "Te datoteke ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "cancel": "Prekliči",
+    "close": "Zapri",
+    "edit": "Uredi",
+    "remove": "Odstrani",
+    "saveChanges": "Shrani spremembe",
+    "bulkSummary": "Obdelanih <b>{{total}}</b> vrstic — <b>{{success}}</b> uspelo, <b>{{failure}}</b> neuspešno.",
+    "rowFailure": "Vrstica {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Prikaz {{from}}–{{to}} od {{total}}",
+    "prev": "← Prejšnji",
+    "next": "Naprej →",
+    "page": "Stran {{page}} od {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Podatkov vaše skupnosti trenutno ni bilo mogoče naložiti.",
+    "title": "{{community}} Nadzorna plošča stanovanja",
+    "titleFallback": "Nadzorna plošča vašega stanovanja",
+    "subtitle": "Operativni povzetek za vodovodne storitve in gospodinjsko porabo.",
+    "comingSoon": "Kmalu na voljo",
+    "manageCommunity": "Upravljanje skupnosti",
+    "noUsageReadings": "Zabeleženih še ni nobenih odčitkov o uporabi.",
+    "cards": {
+      "totalHouseholds": "Skupaj gospodinjstev",
+      "occupied": "Zasedeno",
+      "activeMeters": "Aktivni števci",
+      "reportingReadings": "Poročanje o odčitkih",
+      "monthlyConsumption": "Mesečna poraba",
+      "thisCalendarMonth": "Ta koledarski mesec",
+      "latestRecordedMonth": "Zadnji zabeležen mesec ({{month}})",
+      "noReadingsYet": "Odčitki še niso zabeleženi",
+      "pendingAlerts": "Čakajoča opozorila",
+      "anomalyPreview": "Predogled zaznavanja nepravilnosti — še ni na voljo"
+    },
+    "actions": {
+      "label": "Hitri administrativni ukrepi",
+      "uploadReadings": "Naloži odčitke števca",
+      "configureTariffs": "Konfigurirajte tarife",
+      "reportsNotBuilt": "Poročila še niso izdelana",
+      "downloadReports": "Prenesite sistemska poročila"
+    },
+    "chart": {
+      "title": "Primerjava mesečne porabe (kL)",
+      "subtitle": "Zadnjih {{months}} mesecev: cilj v primerjavi z dejansko porabo.",
+      "targetSeries": "Cilj (predogled)",
+      "actualSeries": "Dejansko"
+    },
+    "recent": {
+      "title": "Nedavni odčitki števca",
+      "unit": "Enota",
+      "resident": "Stanovnik",
+      "lastReading": "Zadnje branje",
+      "consumption": "Poraba"
+    }
+  },
+  "households": {
+    "loadError": "Stanovalcev ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "fixFields": "Popravite označena polja.",
+    "saveError": "Tega prebivalca ni bilo mogoče rešiti. Preverite podrobnosti.",
+    "confirmRemove": "Želite odstraniti {{name}} iz imenika gospodinjstev?",
+    "removeError": "Tega prebivalca ni bilo mogoče odstraniti. prosim poskusite ponovno",
+    "count": "Gospodinjstva: {{total}}",
+    "bulkUploadButton": "⇪ Množično nalaganje",
+    "addResidentButton": "+ Dodaj prebivalca",
+    "searchPlaceholder": "Filtrirajte po imenu, hiši, e-pošti ali št.",
+    "loading": "Nalaganje prebivalcev …",
+    "empty": "Še ni stanovalcev. Za registracijo prvega gospodinjstva kliknite »Dodaj prebivalca«.",
+    "noMatch": "Noben prebivalec se ne ujema z \"{{search}}\".",
+    "sort": {
+      "label": "Razvrsti po",
+      "name": "Ime",
+      "houseNumber": "Hišna številka",
+      "dateOfJoining": "Datum včlanitve",
+      "toggleDirection": "Preklopi smer razvrščanja",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "moški",
+      "female": "ženska",
+      "other": "drugo"
+    },
+    "table": {
+      "name": "Ime",
+      "houseUnit": "Hiša/enota",
+      "email": "E-pošta",
+      "phone": "Telefon",
+      "meterNumber": "Števec št.",
+      "sqft": "kvadratnih metrov",
+      "joined": "Pridružen"
+    },
+    "form": {
+      "addTitle": "Dodaj prebivalca",
+      "editTitle": "Uredi rezident",
+      "editSubtitle": "S tem se posodobijo podatki stanovalca v vašem imeniku.",
+      "bypassSubtitle": "Neposredno nastavljate geslo tega stanovalca. E-pošta ne bo poslana.",
+      "addSubtitle": "Temu stanovalcu bo po e-pošti poslana povezava za nastavitev gesla, da bo lahko aktiviral lastno prijavo.",
+      "fullName": "Polno ime",
+      "houseNumber": "Hišna/enotna št.",
+      "email": "E-pošta",
+      "phone": "Telefonska številka",
+      "meterNumber": "Številka števca",
+      "governmentId": "Državna izkaznica",
+      "gender": "Spol",
+      "dateOfBirth": "Datum rojstva",
+      "dateOfJoining": "Datum včlanitve",
+      "flatSize": "Velikost stanovanja (kvadratni čevlji)",
+      "bypassLabel": "Bypass set-password email — zdaj nastavite geslo za tega stanovalca",
+      "password": "Geslo",
+      "confirmPassword": "Potrdite geslo"
+    },
+    "validation": {
+      "fullNameRequired": "Potrebno je polno ime.",
+      "emailRequired": "E-pošta je obvezna.",
+      "phoneRequired": "Telefonska številka je obvezna.",
+      "houseNumberRequired": "Obvezna je številka hiše/enote.",
+      "houseNumberTaken": "Ta hišna številka je že dodeljena drugemu stanovalcu.",
+      "meterNumberRequired": "Zahtevana je številka števca.",
+      "meterNumberFormat": "Številka števca mora izgledati kot MTR-1234 (4 števke).",
+      "meterNumberTaken": "Ta številka števca je že dodeljena drugemu stanovalcu.",
+      "governmentIdRequired": "Zahtevana je državna izkaznica.",
+      "governmentIdFormat": "ID mora imeti 6 števk, ki se začnejo z 99 (npr. 991234).",
+      "genderRequired": "Izberite spol.",
+      "dateOfBirthRequired": "Datum rojstva je obvezen.",
+      "dateOfJoiningRequired": "Datum včlanitve je obvezen.",
+      "passwordRequired": "Zahtevano je geslo.",
+      "passwordLength": "Geslo mora imeti vsaj 8 znakov.",
+      "confirmPasswordRequired": "Prosim potrdite geslo.",
+      "passwordMismatch": "Gesli se ne ujemata."
+    },
+    "bulk": {
+      "title": "Prebivalci množičnega nalaganja",
+      "noFile": "Za nalaganje izberite datoteko .csv ali .xlsx/.xls.",
+      "instructions": "Naložite datoteko .csv ali .xlsx/.xls s stolpci <code>{{columns}}</code> (geslo in flatSizeSqft sta neobvezna). Vrstice z geslom ga nastavijo neposredno; vrstice brez ene dobijo e-poštno sporočilo z nastavljenim geslom, enako kot če bi rezidenta dodali ročno. Podvojene hišne številke/številke števcev ali e-poštni naslovi so zavrnjeni na vrstico – ena slaba vrstica ne bo zavrnila celotne serije."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Stanovalcev ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "historyLoadError": "Ni bilo mogoče naložiti zgodovine branja. prosim poskusite ponovno",
+    "successMessage": "Uspešno zabeleženo odčitavanje {{value}} kL za {{house}} (Meter: {{meter}})! Obračunana poraba: {{consumption}} kL.",
+    "tabs": {
+      "single": "En vnos",
+      "csv": "Množično CSV nalaganje",
+      "history": "Zgodovina branja"
+    },
+    "source": {
+      "manual": "Priročnik",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Ta stanovalec nima številke števca v evidenci.",
+      "dateRequired": "Datum branja je obvezen.",
+      "invalidValue": "Vnesite veljavno, nenegativno vrednost odčitka.",
+      "duplicate": "Odčitek za ta števec na ta datum že obstaja.",
+      "meterNotFound": "Tega merilnika ni bilo mogoče najti. Prosimo, ponovno izberite rezidenta.",
+      "lowerThanPrevious": "Ta odčitek je nižji od prejšnjega zabeleženega odčitka.",
+      "recordFailed": "Tega branja ni bilo mogoče zabeležiti. prosim poskusite ponovno"
+    },
+    "combo": {
+      "label": "Izberite Flat & Meter Serial",
+      "placeholder": "Izberite Flat & Meter Serial…",
+      "flat": "Stanovanje {{house}}",
+      "noMeter": "Brez števca",
+      "searchPlaceholder": "Iskanje št. stanovanja, serijski števec, stanovalec ...",
+      "unitsHeader": "Stanovanjske enote",
+      "found": "Najdena stanovanja: {{total}}",
+      "loading": "Nalaganje prebivalcev …",
+      "noMatch": "Noben prebivalec se ne ujema z \"{{search}}\".",
+      "unassigned": "Nedodeljen",
+      "itemMeta": "{{name}} · Zadnji: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Snemanje branja za",
+      "context": "Hiša {{house}} · Merilnik {{meter}}",
+      "changeResident": "Spremeni prebivalca",
+      "readingDate": "Datum branja",
+      "readingValue": "Trenutni odčitek števca (kL)",
+      "submit": "Predloži potrjeno branje",
+      "recentTitle": "Nedavna branja",
+      "recentEmpty": "Za ta merilnik še ni zabeleženih nobenih odčitkov."
+    },
+    "info": {
+      "title": "Validacija monotonega merilnika",
+      "body": "Vsak nov odčitek mora biti večji ali enak prejšnjemu dnevniku za ta števec - to zagotavlja natančnost izračunov porabe in zgodnje ulov prestavljenih števk."
+    },
+    "details": {
+      "title": "Podrobnosti izbrane enote",
+      "flatUnit": "Ploščata enota",
+      "meterSerial": "Serijski merilnik",
+      "occupant": "Ime uporabnika",
+      "lastDial": "Zadnja zabeležena številka",
+      "noReadings": "Odčitkov še ni",
+      "monthConsumption": "Mesečna poraba",
+      "empty": "Izbrano ni nobeno gospodinjstvo. Tukaj poiščite in izberite stanovalca, da si ogledate podrobnosti o njegovem števcu."
+    },
+    "csv": {
+      "noFile": "Izberite CSV datoteko za nalaganje.",
+      "instructions": "Naložite CSV s stolpci <code>{{columns}}</code>. Vrstice se obdelujejo neodvisno — ena slaba vrstica ne bo spodletela za celotno serijo."
+    },
+    "history": {
+      "loading": "Nalaganje odčitkov …",
+      "empty": "Za vašo skupnost še ni zabeležen noben odčitek."
+    },
+    "table": {
+      "meterNumber": "Števec št.",
+      "date": "Datum",
+      "value": "Vrednost (kL)",
+      "consumption": "Poraba (kL)",
+      "source": "Vir"
+    }
+  },
+  "billingCycles": {
+    "title": "Obračunski cikli",
+    "loadError": "Ni bilo mogoče naložiti obračunskih ciklov. prosim poskusite ponovno",
+    "paymentUpdateError": "Ni bilo mogoče posodobiti stanja plačila tega računa.",
+    "pdfError": "Ni bilo mogoče prenesti PDF. prosim poskusite ponovno",
+    "finalizeError": "Tega obračunskega cikla ni bilo mogoče dokončati.",
+    "archiveError": "Tega obračunskega cikla ni bilo mogoče arhivirati.",
+    "loading": "Nalaganje obračunskih ciklov …",
+    "empty": "Ni še obračunskih ciklov. Odprite enega zgoraj, da začnete.",
+    "status": {
+      "open": "Odpri",
+      "finalized": "Dokončano",
+      "archived": "Arhivirano"
+    },
+    "open": {
+      "title": "Odprite nov obračunski cikel",
+      "noMonth": "Izberite mesec za odprtje.",
+      "error": "Za ta mesec ni bilo mogoče odpreti obračunskega cikla.",
+      "monthAria": "Mesec obračunskega obdobja",
+      "opening": "Odpiranje ...",
+      "submit": "Odpri cikel"
+    },
+    "table": {
+      "period": "Pika",
+      "status": "Stanje",
+      "householdsBilled": "Zaračunano gospodinjstvom",
+      "totalBilled": "Skupaj zaračunano",
+      "actions": "Dejanja"
+    },
+    "actions": {
+      "finalize": "Dokončaj",
+      "finalizing": "Zaključevanje …",
+      "archive": "Arhiv",
+      "archiving": "Arhiviranje ..."
+    },
+    "filter": {
+      "aria": "Filtriraj po stanju plačila",
+      "all": "Vse"
+    },
+    "payment": {
+      "paid": "Plačano",
+      "unpaid": "Neplačano",
+      "updating": "Posodabljanje ...",
+      "markPaid": "Označi kot plačano",
+      "markUnpaid": "Označi kot neplačano"
+    },
+    "detail": {
+      "title": "Podrobnosti cikla — {{period}}",
+      "loading": "Nalaganje računov …",
+      "notFinalized": "Ta cikel še ni zaključen – ni ustvarjenih računov.",
+      "noInvoices": "Za ta cikel ni računov.",
+      "noMatch": "Noben račun ne ustreza temu filtru."
+    },
+    "invoices": {
+      "household": "Gospodinjstvo",
+      "resident": "Stanovnik",
+      "meterNumber": "Števec št.",
+      "consumption": "Poraba (kL)",
+      "tierBreakdown": "Razčlenitev stopnje",
+      "commonArea": "Skupni prostor",
+      "total": "Skupaj",
+      "paymentStatus": "Stanje plačila",
+      "pdf": "PDF",
+      "baseLine": "Osnova: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Stopnja {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Konfiguracije tarife ni bilo mogoče naložiti",
+    "saveError": "Konfiguracije tarife ni bilo mogoče shraniti",
+    "chartTitle": "Stopnje aktivnih odmerjenih komunalnih storitev",
+    "axisNote": "Cena v ₹/kL, omejitve plošč v kL",
+    "tableTitle": "Tabela cenovnih stopenj",
+    "defaultRatesNote": "Prikaz privzetih tečajev — še ni shranjeno.",
+    "addTier": "+ Dodaj stopnjo",
+    "saveRates": "Shranite tarifne stopnje",
+    "tierLevel": {
+      "base": "Stopnja {{tier}} (osnova)",
+      "medium": "Stopnja {{tier}} (srednje)",
+      "heavy": "Stopnja {{tier}} (težka)"
+    },
+    "basePrice": {
+      "label": "Osnovna cena (₹ / kL, uporabljena za VSO porabo)",
+      "note": "Vsakih kL se najprej zaračuna ta pavšalni znesek. Spodnje plošče dodajajo DODATNE stroške samo za uporabo, ki spada v njihov obseg - npr. plošča, ki se začne pri 50 kL, doda svojo stopnjo samo za porabo nad 50 kL."
+    },
+    "table": {
+      "tierLevel": "Raven stopnje",
+      "slabLimit": "Omejitev plošč (kL)",
+      "rate": "Stopnja na kL",
+      "action": "Akcija"
+    },
+    "commonArea": {
+      "title": "Konfiguracija stroškov skupnega območja",
+      "loadError": "Ni bilo mogoče naložiti konfiguracije stroškov skupnega prostora",
+      "saveError": "Ni bilo mogoče shraniti konfiguracije stroškov skupnega prostora",
+      "empty": "Shranjenih še ni nobenih stroškovnih postavk.",
+      "labelPlaceholder": "Oznaka stroškovne postavke",
+      "perMonth": "/ mesec",
+      "active": "Aktiven",
+      "addItem": "+ Dodaj postavko stroškov",
+      "save": "Shrani konfiguracijo skupnega območja"
+    },
+    "distribution": {
+      "title": "Izbirnik metode porazdelitve stroškov",
+      "consumption": "Glede na porabo (sorazmerno s submetrom)",
+      "floorArea": "Glede na velikost stanovanja (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Začetni datum obračunavanja cikla",
+      "cycleStartValue": "1. vsakega meseca",
+      "autoInvoices": "Samodejno ustvari PDF računov"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Prag presežen",
+      "statisticalOutlier": "Statistični odstotek"
+    },
+    "status": {
+      "active": "Aktiven",
+      "resolved": "Razrešeno",
+      "dismissed": "Odpuščen"
+    },
+    "config": {
+      "title": "Konfiguracija zaznavanja puščanja",
+      "subtitle": "Nastavite mejno vrednost mesečne porabe in/ali omogočite zaznavanje statističnih odstopanj (označi gospodinjstvo, katerega mesečna poraba je neobičajno visoka v primerjavi z njegovo lastno zgodovino).",
+      "loadError": "Ni bilo mogoče naložiti konfiguracije opozorila. prosim poskusite ponovno",
+      "thresholdRequired": "Če so omogočena opozorila o pragu, je potreben mesečni prag (kL).",
+      "saveError": "Te konfiguracije ni bilo mogoče shraniti.",
+      "loading": "Nalaganje konfiguracije …",
+      "threshold": "Mesečni prag (kL)",
+      "sensitivity": "Izstopajoča občutljivost (množitelj σ)",
+      "enableThreshold": "Omogoči opozorila o pragu",
+      "enableOutlier": "Omogoči opozorila o statističnih odstopanjih",
+      "save": "Shrani konfiguracijo",
+      "running": "Teče …",
+      "runNow": "Zaženi zaznavanje zdaj"
+    },
+    "alerts": {
+      "title": "Označena gospodinjstva",
+      "loadError": "Opozoril ni bilo mogoče naložiti. prosim poskusite ponovno",
+      "runError": "Trenutno ni bilo mogoče zagnati odkrivanja puščanja. prosim poskusite ponovno",
+      "updateError": "Tega opozorila ni bilo mogoče posodobiti. prosim poskusite ponovno",
+      "allStatuses": "Vsi statusi",
+      "loading": "Nalaganje opozoril ...",
+      "empty": "Ni opozoril za prikaz. Zgoraj konfigurirajte prag ali omogočite zaznavanje odstopanj, nato kliknite »Zaženi zaznavanje zdaj«, da ocenite trenutno uporabo vaše skupnosti.",
+      "resolve": "razrešiti",
+      "dismiss": "Odpusti"
+    },
+    "table": {
+      "household": "Gospodinjstvo",
+      "resident": "Stanovnik",
+      "meter": "Merilnik",
+      "type": "Vrsta",
+      "period": "Pika",
+      "consumption": "Poraba",
+      "reference": "Referenca",
+      "status": "Stanje"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ni bilo mogoče naložiti množičnih nakupov vode. prosim poskusite ponovno",
+    "confirmRemove": "Odstraniti {{source}} dostavo dne {{date}}?",
+    "removeError": "Tega nakupa ni bilo mogoče odstraniti. prosim poskusite ponovno",
+    "count": "Zabeleženi nakupi: {{total}}",
+    "recordButton": "+ Rekorden nakup",
+    "loading": "Nalaganje velikih nakupov vode …",
+    "empty": "Zabeležen še ni bil noben masovni nakup vode. Kliknite »Zabeleži nakup«, da zabeležite dostavo s cisterno ali nakup komunalnih zalog.",
+    "table": {
+      "date": "Datum",
+      "source": "Vir",
+      "volume": "Prostornina (L)",
+      "unitCost": "Strošek na enoto",
+      "totalCost": "Skupni stroški",
+      "notes": "Opombe"
+    },
+    "form": {
+      "addTitle": "Rekorden nakup vode v razsutem stanju",
+      "editTitle": "Uredi množični nakup vode",
+      "subtitle": "Sledite dostavi s cisterno ali nakupu komunalnih zalog za vašo skupnost — to se zabeleži samo zaradi preglednosti stroškov in ne vpliva na račune gospodinjstev.",
+      "requiredFields": "Vnesite datum, vir, obseg in ceno na enoto.",
+      "saveError": "Tega nakupa ni bilo mogoče shraniti. Preverite podrobnosti.",
+      "purchaseDate": "Datum nakupa",
+      "source": "Vir / dobavitelj",
+      "volume": "Prostornina (litri)",
+      "unitCost": "Cena na enoto (₹/liter)",
+      "totalPreview": "Skupni stroški: {{amount}}",
+      "notes": "Opombe (neobvezno)",
+      "submit": "Rekorden nakup"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} še ni zgrajen",
+    "profileSaveError": "Vašega profila ni bilo mogoče shraniti. prosim poskusite ponovno",
+    "apartmentSaveError": "Podatkov o stanovanju ni bilo mogoče shraniti. prosim poskusite ponovno",
+    "specsTitle": "Specifikacije profila",
+    "photoUnavailable": "Nalaganje fotografij še ni na voljo",
+    "changePhoto": "Spremeni fotografijo",
+    "deletePhoto": "Izbriši",
+    "photoHint": "JPG ali PNG. Največja velikost 2 MB.",
+    "saveProfile": "Shrani profil",
+    "apartmentTitle": "Podrobnosti o stanovanju",
+    "saveApartment": "Shranite podrobnosti o stanovanju",
+    "tabs": {
+      "profile": "Nastavitve profila",
+      "apartment": "Profil stanovanja",
+      "notifications": "Pravila obveščanja",
+      "billing": "Integracije obračunavanja",
+      "security": "Varnost in dostop"
+    },
+    "fields": {
+      "fullName": "Polno ime",
+      "email": "E-poštni naslov",
+      "emailLocked": "Tukaj ni mogoče spremeniti e-pošte",
+      "phone": "Telefonska številka",
+      "accessLevel": "Raven dostopa",
+      "accessLevelValue": "Skrbnik skupnosti",
+      "roleLocked": "Upravljanje vlog še ni na voljo",
+      "apartmentName": "Ime stanovanja",
+      "mainsSource": "Omrežni vir",
+      "mainsSourcePlaceholder": "npr. Občinska oskrba + dodatne cisterne",
+      "address": "Fizični naslov"
+    },
+    "security": {
+      "title": "Predogled varnosti in dostopa",
+      "twoFactor": "Dvostopenjska avtentikacija",
+      "twoFactorHint": "Omogočeno ob prijavi",
+      "twoFactorUnavailable": "Dvostopenjska avtentikacija še ni na voljo",
+      "twoFactorAria": "Dvostopenjska avtentikacija (samo predogled)",
+      "sessionsLabel": "Aktivne skrbniške seje",
+      "sessionsEmpty": "Sledenje sejam še ni na voljo — to je predogled prihajajoče postavitve."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Moje vstopnice",
+      "inbox": "Vstopnice za prebivalce"
+    },
+    "mine": {
+      "title": "Moje vstopnice za podporo",
+      "subtitle": "Postavite vprašanje ali pomislek glede svoje skupnosti sistemskemu skrbniku.",
+      "emptyCreateHint": "Postavite vprašanje ali pomislek o vaši skupnosti. Sistemski skrbnik bo tukaj pregledal in odgovoril."
+    },
+    "inbox": {
+      "title": "Vstopnice za prebivalce",
+      "subtitle": "Vstopnice za podporo in skrbi, ki so jih na vas naslovili prebivalci vaše skupnosti."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "פָּעִיל",
+    "blocked": "חָסוּם",
+    "terminated": "הסתיים"
+  },
+  "sort": {
+    "sortBy": "מיין לפי",
+    "toggleDirection": "החלף את כיוון המיון",
+    "asc": "↑ Asc",
+    "desc": "↓ תיאור"
+  },
+  "pagination": {
+    "showing": "מציג {{from}}–{{to}} מתוך {{total}}",
+    "prev": "← הקודם",
+    "next": "הבא →",
+    "page": "עמוד {{page}} מתוך {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "סקירת פלטפורמה",
+    "subtitle": "כל מנהל קהילה רשום, בכל הפלטפורמה HydroLedger.",
+    "viewAll": "הצג את כל הקהילות",
+    "loadError": "לא ניתן לטעון את נתוני הפלטפורמה כעת.",
+    "cards": {
+      "totalCommunities": "סך הקהילות",
+      "registeredAdmins": "מנהלים רשומים",
+      "totalResidents": "סך התושבים",
+      "acrossAllCommunities": "בכל הקהילות",
+      "active": "פָּעִיל",
+      "inGoodStanding": "במצב טוב",
+      "blockedTerminated": "חסום / נסגר",
+      "blockedTerminatedBreakdown": "{{blocked}} נחסם, {{terminated}} הופסק"
+    },
+    "recent": {
+      "title": "קהילות שנרשמו לאחרונה",
+      "loading": "טְעִינָה…",
+      "empty": "עדיין לא נרשמו קהילות.",
+      "table": {
+        "community": "קהילה",
+        "admin": "מנהל מערכת",
+        "status": "סטָטוּס",
+        "residents": "תושבים"
+      }
+    }
+  },
+  "communities": {
+    "count": "קהילות: {{count}}",
+    "loadError": "לא ניתן לטעון קהילות. אנא נסה שוב.",
+    "searchPlaceholder": "סנן לפי קהילה, שם מנהל או דוא\"ל",
+    "statusFilter": {
+      "label": "סטָטוּס",
+      "all": "כֹּל"
+    },
+    "sortOptions": {
+      "community": "קהילה",
+      "admin": "מנהל מערכת",
+      "residents": "תושבים"
+    },
+    "loading": "טוען קהילות...",
+    "empty": "עדיין לא נרשמו קהילות.",
+    "noMatch": "אין קהילות שתואמות למסננים שלך.",
+    "table": {
+      "community": "קהילה",
+      "admin": "מנהל מערכת",
+      "email": "אֶלֶקטרוֹנִי",
+      "status": "סטָטוּס",
+      "residents": "תושבים",
+      "view": "נוֹף"
+    }
+  },
+  "communityDetail": {
+    "loadError": "לא ניתן לטעון את הקהילה הזו. ייתכן שהוא הוסר.",
+    "statusUpdateError": "לא ניתן היה לעדכן את הסטטוס של הקהילה הזו.",
+    "deleteError": "לא ניתן למחוק את הקהילה הזו.",
+    "loading": "טוען קהילה...",
+    "notFound": "הקהילה לא נמצאה.",
+    "backLink": "← חזרה לקהילות",
+    "backLinkShort": "חזרה לקהילות",
+    "eyebrow": "פרופיל קהילה",
+    "unnamed": "קהילה ללא שם",
+    "noAddress": "אין כתובת בקובץ",
+    "stats": {
+      "residents": "תושבים",
+      "status": "סטָטוּס"
+    },
+    "actions": {
+      "reactivate": "הפעל מחדש",
+      "block": "לַחסוֹם",
+      "terminate": "לְסַיֵם",
+      "delete": "מחק את הקהילה"
+    },
+    "blockDialog": {
+      "title": "לחסום את מנהל הקהילה הזה?",
+      "message": "לחסום את {{name}}? הם לא יוכלו להיכנס עד לביטול החסימה. שום נתונים לא יושפעו.",
+      "confirm": "לַחסוֹם"
+    },
+    "terminateDialog": {
+      "title": "לסיים את מנהל הקהילה הזה?",
+      "message": "להפסיק לצמיתות את הגישה של {{name}}? לא ניתן לבטל זאת, למרות שהנתונים של הקהילה שלהם יישמרו לתיעוד.",
+      "confirm": "לְסַיֵם"
+    },
+    "deleteDialog": {
+      "title": "למחוק את הקהילה הזו?",
+      "message": "פעולה זו תמחק לצמיתות את <strong>{{name}}</strong> ואת כל משקי הבית, התושבים, המונים, תצורת התעריפים/חיובים והיסטוריית החשבוניות שלו. לא ניתן לבטל פעולה זו.",
+      "typeToConfirm": "הקלד <strong>{{word}}</strong> כדי להמשיך",
+      "confirm": "לְאַשֵׁר"
+    },
+    "residents": {
+      "title": "תושבים",
+      "registeredCount": "רשום: {{count}}",
+      "empty": "עדיין לא נרשמו תושבים בקהילה זו.",
+      "table": {
+        "flatUnit": "יחידה שטוחה",
+        "meter": "מֶטֶר",
+        "resident": "תוֹשָׁב",
+        "email": "אֶלֶקטרוֹנִי",
+        "passwordSet": "הגדרת סיסמה"
+      },
+      "yes": "כֵּן",
+      "no": "לֹא"
+    },
+    "cancel": "לְבַטֵל",
+    "working": "עובד…",
+    "deleting": "מוחק..."
+  },
+  "systemStatus": {
+    "statusError": "לא ניתן היה להגיע ל-backend כדי לבדוק את מצב המערכת.",
+    "metricsError": "לא ניתן היה לטעון את היסטוריית המדדים.",
+    "ranges": {
+      "fiveMinutes": "5 דקות",
+      "fifteenMinutes": "15 דקות",
+      "hour": "שָׁעָה",
+      "day": "יְוֹם",
+      "week": "שָׁבוּעַ",
+      "month": "חוֹדֶשׁ",
+      "threeMonths": "3 חודשים"
+    },
+    "uptime": {
+      "days": "{{value}}ד",
+      "hours": "{{value}}ש",
+      "minutes": "{{value}}מ"
+    },
+    "charts": {
+      "requestsPerSec": "בקשות/שנייה",
+      "opsPerSec": "אופציות/שנייה",
+      "latency": "חֶבִיוֹן",
+      "lastValue": "{{value}} אחרון",
+      "loading": "טְעִינָה…",
+      "empty": "עדיין לא נרשמו מדדים עבור טווח זה."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "אחרון: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "ממשק API Backend",
+      "checking": "בודק...",
+      "reachable": "ניתן להגיע",
+      "unreachable": "בלתי ניתן להשגה",
+      "connected": "מְחוּבָּר",
+      "backendApiHint": "הדף הזה נטען מהחלק האחורי, אז הוא הגיב.",
+      "database": "מסד נתונים",
+      "databaseHint": "קישוריות PostgreSQL, נבדקה בשידור חי.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "מאז ההפעלה מחדש האחרונה של היישום.",
+      "appVersion": "גרסת האפליקציה",
+      "appVersionHint": "גרסת בנייה עורפית."
+    },
+    "mini": {
+      "latency": "חֶבִיוֹן",
+      "readsLatency": "קורא Latency",
+      "writesLatency": "כותב Latency",
+      "otherLatency": "חביון אחר",
+      "connections": "חיבורים",
+      "totalKeys": "סך הכל מפתחות"
+    },
+    "note": "בקשות/שנייה וזמן אחזור נדגמים מתעבורת עורפית חיה כל 15 שניות ונשמרות עד 100 ימים. זוהי קישוריות בסיסית + בדיקת תעבורה - היא אינה מחליפה ניטור מלא של ביצועי יישומים, צבירת יומנים או התראה."
+  },
+  "reports": {
+    "loadError": "לא ניתן היה לטעון את דוח הפלטפורמה.",
+    "ranges": {
+      "threeMonths": "3 חודשים",
+      "sixMonths": "6 חודשים",
+      "twelveMonths": "12 חודשים",
+      "custom": "מִנְהָג"
+    },
+    "sortOptions": {
+      "community": "קהילה",
+      "usage": "נוֹהָג",
+      "billed": "מחויב",
+      "residents": "תושבים"
+    },
+    "customRange": {
+      "from": "מִן",
+      "to": "אֶל",
+      "hint": "בחר גם חודש \"מ\" וגם \"עד\" לטעינת דוח מותאם אישית."
+    },
+    "loading": "טוען דוח...",
+    "cards": {
+      "totalCommunities": "סך הקהילות",
+      "inThisRange": "בטווח הזה",
+      "totalResidents": "סך התושבים",
+      "acrossAllCommunities": "בכל הקהילות",
+      "overallUsage": "שימוש כולל",
+      "meteredConsumption": "צריכה מדודה",
+      "overallBilled": "מחויב בסך הכל",
+      "finalizedInvoicesOnly": "חשבוניות סופיות בלבד",
+      "avgUsagePerResident": "שימוש ממוצע / תושב",
+      "avgBillPerResident": "חשבון ממוצע / תושב"
+    },
+    "charts": {
+      "usageTitle": "שימוש בכל הפלטפורמה (kL לחודש)",
+      "usageEmpty": "לא נרשם שימוש עבור טווח זה.",
+      "usageSeries": "נוֹהָג",
+      "billedTitle": "סכום מחויב בכל הפלטפורמה (₹ לחודש)",
+      "billedEmpty": "לא סוכמו חשבוניות עבור טווח זה.",
+      "billedSeries": "מחויב"
+    },
+    "searchPlaceholder": "סנן לפי שם קהילה או מנהל",
+    "empty": "לאף קהילות אין עדיין נתוני שימוש או חיוב עבור טווח זה.",
+    "noMatch": "אין קהילות שתואמות למסנן שלך.",
+    "table": {
+      "community": "קהילה",
+      "admin": "מנהל מערכת",
+      "residents": "תושבים",
+      "usage": "שימוש (kL)",
+      "billed": "מחויב (₹)",
+      "avgUsagePerResident": "שימוש ממוצע / תושב",
+      "avgBillPerResident": "חשבון ממוצע / תושב"
+    }
+  },
+  "supportTickets": {
+    "title": "כרטיסי תמיכה",
+    "subtitle": "תמכו בכרטיסים ובחששות שהעלו תושבים ומנהלי קהילה, בכל הפלטפורמה."
+  }
+}

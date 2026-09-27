@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Notiek ielāde…",
+    "saving": "Notiek saglabāšana…",
+    "saved": "Saglabāts.",
+    "uploading": "Notiek augšupielāde…",
+    "upload": "Augšupielādēt",
+    "uploadError": "Nevarēja augšupielādēt šo failu. Lūdzu, mēģiniet vēlreiz.",
+    "cancel": "Atcelt",
+    "close": "Aizvērt",
+    "edit": "Rediģēt",
+    "remove": "Noņemt",
+    "saveChanges": "Saglabāt izmaiņas",
+    "bulkSummary": "Apstrādātas <b>{{total}}</b> rindas — <b>{{success}}</b> izdevās, <b>{{failure}}</b> neizdevās.",
+    "rowFailure": "{{row}} rinda: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Rāda {{from}}–{{to}} no {{total}}",
+    "prev": "← Iepriekš",
+    "next": "Nākamais →",
+    "page": "{{page}} lapa no {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Pašlaik nevarēja ielādēt jūsu kopienas datus.",
+    "title": "{{community}} Dzīvokļa informācijas panelis",
+    "titleFallback": "Jūsu dzīvokļa informācijas panelis",
+    "subtitle": "Darbības kopsavilkums par ūdensapgādes apakšuzskaiti un mājsaimniecības patēriņu.",
+    "comingSoon": "Drīzumā",
+    "manageCommunity": "Pārvaldīt kopienu",
+    "noUsageReadings": "Vēl nav reģistrēti lietošanas rādījumi.",
+    "cards": {
+      "totalHouseholds": "Mājsaimniecības kopā",
+      "occupied": "Aizņemts",
+      "activeMeters": "Aktīvie skaitītāji",
+      "reportingReadings": "Rādījumu ziņošana",
+      "monthlyConsumption": "Mēneša patēriņš",
+      "thisCalendarMonth": "Šajā kalendārajā mēnesī",
+      "latestRecordedMonth": "Pēdējais reģistrētais mēnesis ({{month}})",
+      "noReadingsYet": "Vēl nav reģistrēti rādījumi",
+      "pendingAlerts": "Gaidāmie brīdinājumi",
+      "anomalyPreview": "Anomāliju noteikšanas priekšskatījums — vēl nav pieejams"
+    },
+    "actions": {
+      "label": "Ātras administratīvās darbības",
+      "uploadReadings": "Augšupielādējiet skaitītāja rādījumus",
+      "configureTariffs": "Konfigurējiet tarifus",
+      "reportsNotBuilt": "Pārskati vēl nav izveidoti",
+      "downloadReports": "Lejupielādēt sistēmas pārskatus"
+    },
+    "chart": {
+      "title": "Mēneša patēriņa salīdzinājums (kL)",
+      "subtitle": "Pēdējie {{months}} mēneši: mērķis pret faktisko patēriņu.",
+      "targetSeries": "Mērķis (priekšskatījums)",
+      "actualSeries": "Faktiskais"
+    },
+    "recent": {
+      "title": "Jaunākie skaitītāju rādījumi",
+      "unit": "Vienība",
+      "resident": "Iedzīvotājs",
+      "lastReading": "Pēdējais lasījums",
+      "consumption": "Patēriņš"
+    }
+  },
+  "households": {
+    "loadError": "Nevarēja ielādēt iedzīvotājus. Lūdzu, mēģiniet vēlreiz.",
+    "fixFields": "Lūdzu, izlabojiet iezīmētos laukus.",
+    "saveError": "Nevarēja glābt šo iedzīvotāju. Lūdzu, pārbaudiet informāciju.",
+    "confirmRemove": "Vai noņemt {{name}} no jūsu mājsaimniecību kataloga?",
+    "removeError": "Nevarēja noņemt šo iedzīvotāju. Lūdzu, mēģiniet vēlreiz.",
+    "count": "Mājsaimniecības: {{total}}",
+    "bulkUploadButton": "⇪ Lielapjoma augšupielāde",
+    "addResidentButton": "+ Pievienot rezidentu",
+    "searchPlaceholder": "Filtrējiet pēc vārda, mājas, e-pasta vai skaitītāja nr.",
+    "loading": "Notiek iedzīvotāju ielāde…",
+    "empty": "Iedzīvotāju vēl nav. Noklikšķiniet uz \"Pievienot rezidentu\", lai reģistrētu pirmo mājsaimniecību.",
+    "noMatch": "Neviens rezidents neatbilst \"{{search}}\".",
+    "sort": {
+      "label": "Kārtot pēc",
+      "name": "Vārds",
+      "houseNumber": "Mājas numurs",
+      "dateOfJoining": "Pievienošanās datums",
+      "toggleDirection": "Pārslēgt kārtošanas virzienu",
+      "asc": "↑ Asc",
+      "desc": "↓ Aprak"
+    },
+    "gender": {
+      "male": "Vīrietis",
+      "female": "Sieviete",
+      "other": "Cits"
+    },
+    "table": {
+      "name": "Vārds",
+      "houseUnit": "Māja / vienība",
+      "email": "E-pasts",
+      "phone": "Tālrunis",
+      "meterNumber": "Skaitītāja Nr.",
+      "sqft": "Sqft",
+      "joined": "Pievienojās"
+    },
+    "form": {
+      "addTitle": "Pievienot rezidentu",
+      "editTitle": "Rediģēt rezidentu",
+      "editSubtitle": "Tādējādi tiek atjaunināta rezidenta informācija jūsu direktorijā.",
+      "bypassSubtitle": "Jūs iestatāt šī iedzīvotāja paroli tieši. E-pasts netiks nosūtīts.",
+      "addSubtitle": "Šim iedzīvotājam pa e-pastu tiks nosūtīta paroles iestatīšanas saite, lai viņš varētu aktivizēt savu pieteikšanos.",
+      "fullName": "Pilns vārds",
+      "houseNumber": "Māja / vienības nr.",
+      "email": "E-pasts",
+      "phone": "Tālruņa numurs",
+      "meterNumber": "Skaitītāja numurs",
+      "governmentId": "Valsts iestādes ID",
+      "gender": "Dzimums",
+      "dateOfBirth": "Dzimšanas datums",
+      "dateOfJoining": "Pievienošanās datums",
+      "flatSize": "Plakans izmērs (kvadrātpēdas)",
+      "bypassLabel": "Apiet iestatīt-paroles e-pastu — iestatiet šim iedzīvotājam paroli tūlīt",
+      "password": "Parole",
+      "confirmPassword": "Apstipriniet paroli"
+    },
+    "validation": {
+      "fullNameRequired": "Jānorāda pilns vārds.",
+      "emailRequired": "Nepieciešams e-pasts.",
+      "phoneRequired": "Nepieciešams tālruņa numurs.",
+      "houseNumberRequired": "Nepieciešams mājas/vienības numurs.",
+      "houseNumberTaken": "Šis mājas numurs jau ir piešķirts citam iedzīvotājam.",
+      "meterNumberRequired": "Nepieciešams skaitītāja numurs.",
+      "meterNumberFormat": "Skaitītāja numuram ir jāizskatās kā MTR-1234 (4 cipari).",
+      "meterNumberTaken": "Šis skaitītāja numurs jau ir piešķirts citam iedzīvotājam.",
+      "governmentIdRequired": "Nepieciešams valsts ID.",
+      "governmentIdFormat": "ID ir jābūt 6 cipariem, kas sākas ar 99 (piemēram, 991234).",
+      "genderRequired": "Lūdzu, atlasiet dzimumu.",
+      "dateOfBirthRequired": "Jānorāda dzimšanas datums.",
+      "dateOfJoiningRequired": "Jānorāda pievienošanās datums.",
+      "passwordRequired": "Nepieciešama parole.",
+      "passwordLength": "Parolei ir jābūt vismaz 8 rakstzīmēm.",
+      "confirmPasswordRequired": "Lūdzu, apstipriniet paroli.",
+      "passwordMismatch": "Paroles nesakrīt."
+    },
+    "bulk": {
+      "title": "Iedzīvotāju lielapjoma augšupielāde",
+      "noFile": "Lūdzu, izvēlieties augšupielādējamo .csv vai .xlsx/.xls failu.",
+      "instructions": "Augšupielādējiet .csv vai .xlsx/.xls failu ar kolonnām <code>{{columns}}</code> (parole un flatSizeSqft nav obligātas). Rindas ar paroli to iestata tieši; rindas bez viena saņem iestatītas paroles e-pasta ziņojumu, tāpat kā manuāli pievienojot rezidentu. Katrai rindai tiek noraidīti māju/skaitītāju numuru vai e-pasta ziņojumu dublikāti — viena nepareiza rinda nekļūdīsies visā paketē."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Nevarēja ielādēt iedzīvotājus. Lūdzu, mēģiniet vēlreiz.",
+    "historyLoadError": "Nevarēja ielādēt lasīšanas vēsturi. Lūdzu, mēģiniet vēlreiz.",
+    "successMessage": "Veiksmīgi ierakstīts {{value}} kL rādījums {{house}} (mērītājs: {{meter}})! Aprēķinātais patēriņš: {{consumption}} kL.",
+    "tabs": {
+      "single": "Vienotais ieraksts",
+      "csv": "Lielapjoma CSV augšupielāde",
+      "history": "Vēstures lasīšana"
+    },
+    "source": {
+      "manual": "Rokasgrāmata",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Šim iedzīvotājam nav reģistrēts neviens skaitītāja numurs.",
+      "dateRequired": "Nepieciešams lasīšanas datums.",
+      "invalidValue": "Lūdzu, ievadiet derīgu nolasījuma vērtību, kas nav negatīva.",
+      "duplicate": "Šajā datumā šim skaitītājam jau ir rādījums.",
+      "meterNotFound": "Šo skaitītāju nevarēja atrast. Lūdzu, atkārtoti atlasiet rezidentu.",
+      "lowerThanPrevious": "Šis rādījums ir mazāks nekā iepriekš reģistrētais rādījums.",
+      "recordFailed": "Nevarēja ierakstīt šo rādījumu. Lūdzu, mēģiniet vēlreiz."
+    },
+    "combo": {
+      "label": "Atlasiet Flat & Meter Serial",
+      "placeholder": "Atlasiet plakano un skaitītāju sēriju…",
+      "flat": "Dzīvoklis {{house}}",
+      "noMeter": "Nav skaitītāja",
+      "searchPlaceholder": "Meklēt dzīvokli nr., skaitītāja sērija, iedzīvotājs…",
+      "unitsHeader": "Dzīvojamās vienības",
+      "found": "Atrasti dzīvokļi: {{total}}",
+      "loading": "Notiek iedzīvotāju ielāde…",
+      "noMatch": "Neviens rezidents neatbilst \"{{search}}\".",
+      "unassigned": "Nav piešķirts",
+      "itemMeta": "{{name}} · Pēdējais: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Nolasījuma ierakstīšana priekš",
+      "context": "Māja {{house}} · Metrs {{meter}}",
+      "changeResident": "Mainīt iedzīvotāju",
+      "readingDate": "Lasīšanas datums",
+      "readingValue": "Pašreizējais skaitītāja rādījums (kL)",
+      "submit": "Iesniedziet apstiprinātu lasījumu",
+      "recentTitle": "Jaunākie lasījumi",
+      "recentEmpty": "Šim skaitītājam vēl nav reģistrēti rādījumi."
+    },
+    "info": {
+      "title": "Monotoniskā skaitītāja validācija",
+      "body": "Katram jaunajam rādījumam ir jābūt lielākam vai vienādam ar iepriekšējo šī skaitītāja žurnālu — tas nodrošina precīzus patēriņa aprēķinus un agri uztver transponētos ciparus."
+    },
+    "details": {
+      "title": "Atlasītās vienības informācija",
+      "flatUnit": "Plakana vienība",
+      "meterSerial": "Skaitītāja sērija",
+      "occupant": "Iedzīvotāja vārds",
+      "lastDial": "Pēdējais ierakstītais numurs",
+      "noReadings": "Vēl nav rādījumu",
+      "monthConsumption": "Mēneša patēriņš",
+      "empty": "Nav atlasīta neviena mājsaimniecība. Meklējiet un izvēlieties iedzīvotāju, lai šeit skatītu viņa skaitītāja informāciju."
+    },
+    "csv": {
+      "noFile": "Lūdzu, izvēlieties augšupielādējamo failu CSV.",
+      "instructions": "Augšupielādējiet CSV ar kolonnām <code>{{columns}}</code>. Rindas tiek apstrādātas neatkarīgi — viena nepareiza rinda neizdosies visu partiju."
+    },
+    "history": {
+      "loading": "Notiek rādījumu ielāde…",
+      "empty": "Jūsu kopienai vēl nav reģistrēts neviens rādījums."
+    },
+    "table": {
+      "meterNumber": "Skaitītāja Nr.",
+      "date": "Datums",
+      "value": "Vērtība (kL)",
+      "consumption": "Patēriņš (kL)",
+      "source": "Avots"
+    }
+  },
+  "billingCycles": {
+    "title": "Norēķinu cikli",
+    "loadError": "Nevarēja ielādēt norēķinu ciklus. Lūdzu, mēģiniet vēlreiz.",
+    "paymentUpdateError": "Nevarēja atjaunināt šī rēķina maksājuma statusu.",
+    "pdfError": "Nevarēja lejupielādēt PDF. Lūdzu, mēģiniet vēlreiz.",
+    "finalizeError": "Nevarēja pabeigt šo norēķinu ciklu.",
+    "archiveError": "Nevarēja arhivēt šo norēķinu ciklu.",
+    "loading": "Notiek norēķinu ciklu ielāde…",
+    "empty": "Vēl nav neviena norēķinu cikla. Lai sāktu, atveriet vienu iepriekš.",
+    "status": {
+      "open": "Atvērt",
+      "finalized": "Pabeigts",
+      "archived": "Arhivēts"
+    },
+    "open": {
+      "title": "Atveriet jaunu norēķinu ciklu",
+      "noMonth": "Lūdzu, izvēlieties atvēršanas mēnesi.",
+      "error": "Nevarēja atvērt šī mēneša norēķinu ciklu.",
+      "monthAria": "Norēķinu perioda mēnesis",
+      "opening": "Notiek atklāšana…",
+      "submit": "Atvērt ciklu"
+    },
+    "table": {
+      "period": "Periods",
+      "status": "Statuss",
+      "householdsBilled": "Rēķini mājsaimniecībām",
+      "totalBilled": "Kopējais rēķins",
+      "actions": "Darbības"
+    },
+    "actions": {
+      "finalize": "Pabeigt",
+      "finalizing": "Notiek pabeigšana…",
+      "archive": "Arhīvs",
+      "archiving": "Notiek arhivēšana…"
+    },
+    "filter": {
+      "aria": "Filtrējiet pēc maksājuma statusa",
+      "all": "Visi"
+    },
+    "payment": {
+      "paid": "Apmaksāts",
+      "unpaid": "Neapmaksāts",
+      "updating": "Notiek atjaunināšana…",
+      "markPaid": "Atzīmēt kā apmaksātu",
+      "markUnpaid": "Atzīmēt kā neapmaksātu"
+    },
+    "detail": {
+      "title": "Cikla informācija — {{period}}",
+      "loading": "Notiek rēķinu ielāde…",
+      "notFinalized": "Šis cikls vēl nav pabeigts — neviens rēķins nav ģenerēts.",
+      "noInvoices": "Par šo ciklu nav rēķinu.",
+      "noMatch": "Šim filtram neatbilst neviens rēķins."
+    },
+    "invoices": {
+      "household": "Mājsaimniecība",
+      "resident": "Iedzīvotājs",
+      "meterNumber": "Skaitītāja Nr.",
+      "consumption": "Patēriņš (kL)",
+      "tierBreakdown": "Līmeņu sadalījums",
+      "commonArea": "Kopējā telpa",
+      "total": "Kopā",
+      "paymentStatus": "Maksājuma statuss",
+      "pdf": "PDF",
+      "baseLine": "Bāze: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}",
+      "tierLine": "{{tier}} līmenis: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nevarēja ielādēt tarifu konfigurāciju",
+    "saveError": "Nevarēja saglabāt tarifu konfigurāciju",
+    "chartTitle": "Aktīvie mērīti komunālo pakalpojumu tarifu līmeņi",
+    "axisNote": "Likme ₹/kL, plātņu ierobežojumi kL",
+    "tableTitle": "Cenu līmeņu tabula",
+    "defaultRatesNote": "Tiek rādītas noklusējuma likmes — vēl nav saglabātas.",
+    "addTier": "+ Pievienot līmeni",
+    "saveRates": "Ietaupiet tarifu likmes",
+    "tierLevel": {
+      "base": "{{tier}} līmenis (bāze)",
+      "medium": "{{tier}} līmenis (vidējs)",
+      "heavy": "{{tier}} līmenis (smags)"
+    },
+    "basePrice": {
+      "label": "Bāzes cena (₹ / kL, attiecas uz VISU patēriņu)",
+      "note": "Katram kL vispirms tiek iekasēta šī vienotā likme. Tālāk norādītajās plātnēs tiek piemērota papildu maksa tikai par izmantošanu, kas ietilpst to diapazonā, piemēram, plāksne, kas sākas no 50 kL, tikai pievieno patēriņa likmi virs 50 kL."
+    },
+    "table": {
+      "tierLevel": "Līmeņa līmenis",
+      "slabLimit": "Plātņu ierobežojums (kL)",
+      "rate": "Likme par kL",
+      "action": "Darbība"
+    },
+    "commonArea": {
+      "title": "Koplietojamo koplietošanas telpu izmaksu konfigurācija",
+      "loadError": "Nevarēja ielādēt kopējās telpas izmaksu konfigurāciju",
+      "saveError": "Nevarēja saglabāt kopējās telpas izmaksu konfigurāciju",
+      "empty": "Vēl nav saglabāta neviena izmaksu vienība.",
+      "labelPlaceholder": "Izmaksu pozīcijas etiķete",
+      "perMonth": "/ mēnesī",
+      "active": "Aktīvs",
+      "addItem": "+ Pievienot izmaksu vienību",
+      "save": "Saglabājiet kopējās zonas konfigurāciju"
+    },
+    "distribution": {
+      "title": "Izmaksu sadales metodes atlasītājs",
+      "consumption": "Pēc patēriņa (proporcionāli zem mērītāja)",
+      "floorArea": "Pēc dzīvokļa platības (kvadrātpēdas)"
+    },
+    "footer": {
+      "cycleStart": "Cikla norēķinu sākuma datums",
+      "cycleStartValue": "Katra mēneša 1. datums",
+      "autoInvoices": "Automātiski ģenerēt PDF rēķinus"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Pārsniegts slieksnis",
+      "statisticalOutlier": "Statistiskais izņēmums"
+    },
+    "status": {
+      "active": "Aktīvs",
+      "resolved": "Atrisināts",
+      "dismissed": "Atlaista"
+    },
+    "config": {
+      "title": "Noplūdes noteikšanas konfigurācija",
+      "subtitle": "Iestatiet ikmēneša patēriņa slieksni un/vai iespējojiet statistisko noviržu noteikšanu (atzīmē mājsaimniecību, kuras ikmēneša patēriņš ir neparasti augsts salīdzinājumā ar tās vēsturi).",
+      "loadError": "Nevarēja ielādēt brīdinājuma konfigurāciju. Lūdzu, mēģiniet vēlreiz.",
+      "thresholdRequired": "Ja ir iespējoti sliekšņa brīdinājumi, ir nepieciešams mēneša slieksnis (kL).",
+      "saveError": "Nevarēja saglabāt šo konfigurāciju.",
+      "loading": "Notiek konfigurācijas ielāde…",
+      "threshold": "Mēneša slieksnis (kL)",
+      "sensitivity": "Ārējā jutība (σ reizinātājs)",
+      "enableThreshold": "Iespējot sliekšņa brīdinājumus",
+      "enableOutlier": "Iespējot brīdinājumus par statistiskām novirzēm",
+      "save": "Saglabāt konfigurāciju",
+      "running": "Darbojas…",
+      "runNow": "Palaidiet noteikšanu tūlīt"
+    },
+    "alerts": {
+      "title": "Mājsaimniecības ar karogu",
+      "loadError": "Nevarēja ielādēt brīdinājumus. Lūdzu, mēģiniet vēlreiz.",
+      "runError": "Pašlaik nevarēja palaist noplūdes noteikšanu. Lūdzu, mēģiniet vēlreiz.",
+      "updateError": "Nevarēja atjaunināt šo brīdinājumu. Lūdzu, mēģiniet vēlreiz.",
+      "allStatuses": "Visi statusi",
+      "loading": "Notiek brīdinājumu ielāde…",
+      "empty": "Nav brīdinājumu, ko parādīt. Iepriekš konfigurējiet slieksni vai iespējojiet novirzes noteikšanu, pēc tam noklikšķiniet uz “Palaist noteikšanu tūlīt”, lai novērtētu savas kopienas pašreizējo lietojumu.",
+      "resolve": "Atrisināt",
+      "dismiss": "Atlaist"
+    },
+    "table": {
+      "household": "Mājsaimniecība",
+      "resident": "Iedzīvotājs",
+      "meter": "Mērītājs",
+      "type": "Tips",
+      "period": "Periods",
+      "consumption": "Patēriņš",
+      "reference": "Atsauce",
+      "status": "Statuss"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Nevarēja ielādēt lielapjoma ūdens pirkumus. Lūdzu, mēģiniet vēlreiz.",
+    "confirmRemove": "Vai noņemt {{source}} piegādi uz {{date}}?",
+    "removeError": "Šo pirkumu nevarēja noņemt. Lūdzu, mēģiniet vēlreiz.",
+    "count": "Reģistrētie pirkumi: {{total}}",
+    "recordButton": "+ Ierakstu iegāde",
+    "loading": "Notiek lielapjoma ūdens pirkumu ielāde…",
+    "empty": "Vēl nav reģistrēts neviens lielapjoma ūdens pirkums. Noklikšķiniet uz \"Ierakstīt pirkumu\", lai reģistrētu autocisternas piegādi vai pašvaldības preču iegādi.",
+    "table": {
+      "date": "Datums",
+      "source": "Avots",
+      "volume": "Tilpums (L)",
+      "unitCost": "Vienības izmaksas",
+      "totalCost": "Kopējās izmaksas",
+      "notes": "Piezīmes"
+    },
+    "form": {
+      "addTitle": "Ierakstiet lielapjoma ūdens iegādi",
+      "editTitle": "Rediģēt lielapjoma ūdens iegādi",
+      "subtitle": "Izsekojiet autocisternas piegādi vai komunālo preču iegādi savai kopienai — tas tiek reģistrēts tikai izmaksu redzamības nolūkos, un tas neietekmē mājsaimniecības rēķinus.",
+      "requiredFields": "Lūdzu, ievadiet datumu, avotu, apjomu un vienības izmaksas.",
+      "saveError": "Nevarēja saglabāt šo pirkumu. Lūdzu, pārbaudiet informāciju.",
+      "purchaseDate": "Pirkuma datums",
+      "source": "Avots / piegādātājs",
+      "volume": "Tilpums (litri)",
+      "unitCost": "Vienības cena (₹/l)",
+      "totalPreview": "Kopējās izmaksas: {{amount}}",
+      "notes": "Piezīmes (pēc izvēles)",
+      "submit": "Ierakstu iegāde"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} vēl nav uzbūvēts",
+    "profileSaveError": "Nevarēja saglabāt jūsu profilu. Lūdzu, mēģiniet vēlreiz.",
+    "apartmentSaveError": "Nevarēja saglabāt dzīvokļa informāciju. Lūdzu, mēģiniet vēlreiz.",
+    "specsTitle": "Profila specifikācijas",
+    "photoUnavailable": "Fotoattēlu augšupielāde vēl nav pieejama",
+    "changePhoto": "Mainīt fotoattēlu",
+    "deletePhoto": "Dzēst",
+    "photoHint": "JPG vai PNG. Maksimālais izmērs 2MB.",
+    "saveProfile": "Saglabāt profilu",
+    "apartmentTitle": "Dzīvokļa detaļas",
+    "saveApartment": "Saglabājiet dzīvokļa informāciju",
+    "tabs": {
+      "profile": "Profila iestatījumi",
+      "apartment": "Dzīvokļa profils",
+      "notifications": "Paziņošanas noteikumi",
+      "billing": "Norēķinu integrācijas",
+      "security": "Drošība un piekļuve"
+    },
+    "fields": {
+      "fullName": "Pilns vārds",
+      "email": "E-pasta adrese",
+      "emailLocked": "Šeit nevar mainīt e-pastu",
+      "phone": "Tālruņa numurs",
+      "accessLevel": "Piekļuves līmenis",
+      "accessLevelValue": "Kopienas administrators",
+      "roleLocked": "Lomu pārvaldība vēl nav pieejama",
+      "apartmentName": "Dzīvokļa nosaukums",
+      "mainsSource": "Tīkla avots",
+      "mainsSourcePlaceholder": "piem. Pilsētas apgāde + papildu tankkuģi",
+      "address": "Fiziskā adrese"
+    },
+    "security": {
+      "title": "Drošība un piekļuves priekšskatījums",
+      "twoFactor": "Divu faktoru autentifikācija",
+      "twoFactorHint": "Iespējots, piesakoties",
+      "twoFactorUnavailable": "Divu faktoru autentifikācija vēl nav pieejama",
+      "twoFactorAria": "Divu faktoru autentifikācija (tikai priekšskatījums)",
+      "sessionsLabel": "Aktīvās administratora sesijas",
+      "sessionsEmpty": "Sesiju izsekošana vēl nav pieejama — šis ir gaidāmā izkārtojuma priekšskatījums."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Manas biļetes",
+      "inbox": "Iedzīvotāju biļetes"
+    },
+    "mine": {
+      "title": "Manas atbalsta biļetes",
+      "subtitle": "Uzdodiet sistēmas administratoram jautājumu vai bažas par savu kopienu.",
+      "emptyCreateHint": "Uzdodiet jautājumu vai bažas par savu kopienu. Sistēmas administrators šeit izskatīs un atbildēs."
+    },
+    "inbox": {
+      "title": "Iedzīvotāju biļetes",
+      "subtitle": "Atbalsta biļetes un bažas, ko jūsu kopienas iedzīvotāji ir adresējuši jums."
+    }
+  }
+}

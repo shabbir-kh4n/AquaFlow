@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Varsti tulemas",
+    "welcome": {
+      "greeting": "Tere, {{name}}",
+      "greetingFallback": "Tere,",
+      "title": "Püsige oma kodu veejutu lähedal.",
+      "subtitle": "Siin kuvatakse kasutus- ja arveldamise statistika, kuna teie kogukond salvestab näidud.",
+      "viewBadges": "Vaadake ökomärke"
+    },
+    "stats": {
+      "todaysUsage": "Tänane kasutus",
+      "asOf": "Seisuga {{date}}",
+      "noReading": "Arvesti näitu veel pole",
+      "monthlyTotalFor": "Kuu kokku ({{month}})",
+      "monthlyTotalThisMonth": "Kuu kokku (sel kuul)",
+      "sumOfReadings": "Salvestatud näitude summa",
+      "estimatedBill": "Praegune hinnanguline arve",
+      "estimatedBillFor": "Kasutusarvestus + jagatud tasud, {{month}}",
+      "estimatedBillHint": "Põhineb selle kuu mõõdetud tarbimisel ja jagatud tasudel",
+      "savings": "Sääst vs hoone keskmine",
+      "savingsValue": "{{percent}}% vähem",
+      "savingsPreview": "Ainult eelvaade – võrdlus pole veel aktiivne"
+    },
+    "consumption": {
+      "eyebrow": "Tarbimine",
+      "title": "Päevane tarbimine (viimased 14 näitu)",
+      "seriesName": "Tarbimine",
+      "empty": "Näiteid pole veel salvestatud."
+    },
+    "breakdown": {
+      "eyebrow": "Jaotus",
+      "title": "Kasutamise jaotus",
+      "bathroom": "Vannituba",
+      "kitchen": "Köök",
+      "garden": "Aed / rõdu",
+      "other": "Muu / Pesu"
+    },
+    "billing": {
+      "eyebrow": "Arveldamine",
+      "title": "Aktiivne arveldustsükkel",
+      "finalized": "Lõpetatud",
+      "preview": "Eelvaade",
+      "meteredConsumption": "Mõõdukas tarbimine",
+      "tierPriceLevel": "Taseme hinnatase",
+      "tierLabel": "Tase {{tier}}",
+      "commonArea": "Ühispinna jaotus",
+      "commonAreaPreview": "Ühise ala jaotus (eelvaade)",
+      "invoiceTotal": "{{period}} arve kokku",
+      "estimatedCharge": "Praegune hinnanguline tasu",
+      "commonAreaBreakdown": "Ühise ala jaotus",
+      "payPreview": "Maksete arvete eelvaade",
+      "payUnavailable": "Arveldusmootor pole veel saadaval"
+    },
+    "tips": {
+      "eyebrow": "Näpunäiteid",
+      "title": "Nutikad säästmise näpunäited",
+      "viewAll": "Kuva kõik",
+      "empty": "Isikupärastatud nõuanded ilmuvad siin pärast seda, kui teie kogukond on arveldustsükli lõpule viinud."
+    },
+    "community": "Kogukond: {{name}}"
+  },
+  "usage": {
+    "loadError": "Teie kasutusajalugu ei saanud laadida. Palun proovi uuesti.",
+    "loading": "Kasutusanalüütika laadimine…",
+    "empty": "Näiteid pole veel salvestatud. Kui teie kogukond registreerib arvesti näidu, kuvatakse see siin.",
+    "tabs": {
+      "lastSixMonths": "Viimased 6 kuud",
+      "customRange": "Kohandatud vahemik",
+      "comingSoon": "Varsti tulemas"
+    },
+    "peakDay": "Tipppäev:",
+    "lowestDay": "Madalaim päev:",
+    "comparison": {
+      "title": "Leibkonna tarbimine vs korteri keskmine",
+      "subtitle": "Igakuised kogusummad näidatud kiloliitrites (kL).",
+      "yourHousehold": "Teie leibkond",
+      "apartmentAverage": "Korter keskmine",
+      "similarSized": "Sarnase suurusega kodud"
+    },
+    "heatmap": {
+      "title": "Päevase tarbimise soojuskaart",
+      "subtitle": "Värvi intensiivsus tähistab tiheda kasutusega päevi (eelvaade)."
+    },
+    "ranking": {
+      "title": "Kogukonna kolleegide edetabel",
+      "subtitle": "Teie asetus võrreldes sarnaste üksustega (eelvaade).",
+      "ecoSaver": "Aktiivne ökosäästja",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Üksus {{number}}",
+      "yourUnit": "Teie üksus",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Teie)"
+    }
+  },
+  "billing": {
+    "loadError": "Teie arveldusajalugu ei saanud laadida. Palun proovi uuesti.",
+    "pdfError": "Ei saanud faili PDF alla laadida. Palun proovi uuesti.",
+    "loading": "Teie arveldusajaloo laadimine…",
+    "empty": "Arveid veel pole – kui teie kogukond on arveldustsükli lõpule viinud, kuvatakse teie arved siin.",
+    "status": {
+      "paid": "Tasuline",
+      "unpaid": "Tasumata"
+    },
+    "summary": {
+      "outstandingBalance": "Tasumata saldo",
+      "billingCycle": "Arveldustsükkel: {{period}}",
+      "allPaid": "Kõik arved on tasutud",
+      "payTotal": "Tasu kokku tasumata",
+      "payTotalUnavailable": "Veebimakse pole veel saadaval – arveldage arveid otse kogukonna administraatoriga",
+      "downloadSummary": "Laadige alla arve kokkuvõte",
+      "downloadSummaryUnavailable": "Arve kokkuvõtte allalaadimine pole veel saadaval"
+    },
+    "history": {
+      "title": "Arve ajalugu",
+      "exportCsv": "Ekspordi kõik asukohta CSV",
+      "exportUnavailable": "CSV eksport pole veel saadaval"
+    },
+    "table": {
+      "cycle": "Tsükkel",
+      "usage": "Kasutus (kL)",
+      "amountDue": "Tasumisele kuuluv summa",
+      "paymentStatus": "Makse olek",
+      "hideBreakdown": "Peida jaotus ↑",
+      "showBreakdown": "Üksikasjalik jaotus ↓",
+      "downloading": "Allalaadimine…",
+      "pdf": "PDF",
+      "pay": "Maksa"
+    },
+    "breakdown": {
+      "householdTitle": "Kodumajapidamiste tarbimise jaotus",
+      "basePrice": "Baashind: {{units}} kL × ₹ {{rate}}",
+      "tierLine": "Tase {{tier}}: {{units}} kL × ₹ {{rate}}",
+      "subtotalMetered": "Vahesumma mõõdetud kasutus",
+      "commonAreaTitle": "Ühise ala jaotus",
+      "subtotalShared": "Vahesumma jagatud ala",
+      "noCommonArea": "Selle tsükli eest ühiskasutustasusid pole."
+    },
+    "pagination": {
+      "showing": "Kuvatakse {{from}}–{{to}} / {{total}}",
+      "prev": "← Eelmine",
+      "next": "Järgmine →",
+      "page": "Lehekülg {{page}} / {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Makseviisid (eelvaade)",
+      "description": "Veebimakse pole veel saadaval – arved arveldatakse otse teie kogukonna administraatoriga.",
+      "manage": "Makseviiside haldamine",
+      "manageUnavailable": "Makseviisid pole veel saadaval"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Turvas Razorpay",
+    "billingCycle": "Arveldustsükkel {{period}}",
+    "close": "Sule",
+    "amountPayable": "Tasumisele kuuluv summa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kaardid",
+      "netbanking": "Internetipangandus",
+      "wallet": "Rahakott"
+    },
+    "upi": {
+      "title": "Maksa UPI kaudu",
+      "upiId": "UPI ID",
+      "or": "VÕI",
+      "scan": "Skannige mis tahes UPI rakendusega"
+    },
+    "card": {
+      "title": "Makske kaardiga",
+      "number": "Kaardi number",
+      "expiry": "Aegumine",
+      "expiryPlaceholder": "KK/AA",
+      "cvv": "CVV",
+      "name": "Nimi kaardil",
+      "namePlaceholder": "Nagu kaardile trükitud"
+    },
+    "netbanking": {
+      "title": "Maksa internetipanga kaudu"
+    },
+    "wallet": {
+      "title": "Makske Walleti kaudu"
+    },
+    "payAmount": "Maksa {{amount}} ₹",
+    "processing": "Teie makse töötlemine…",
+    "processingHint": "Palun ärge vajutage tagasi ega värskendage seda lehte",
+    "success": "Makse õnnestus",
+    "error": "Teie makse kinnitamisel läks midagi valesti. Palun proovi uuesti.",
+    "retry": "Proovi uuesti"
+  },
+  "notifications": {
+    "loadError": "Teie teatisi ei saanud laadida. Palun proovi uuesti.",
+    "loading": "Märguannete laadimine…",
+    "empty": "Märguandeid pole veel – näete siin midagi, kui teie kogukonna administraator on lubanud kasutusläve või ebatavalise tarbimise hoiatused ja teie leibkonna jaoks on see aktiveeritud.",
+    "type": {
+      "thresholdExceeded": "Tarbimislävi on ületatud",
+      "statisticalOutlier": "Tuvastati ebatavaline tarbimine"
+    },
+    "status": {
+      "active": "Aktiivne",
+      "resolved": "Lahendatud",
+      "dismissed": "Vallandatud"
+    },
+    "billingPeriod": "Arveldusperiood: {{period}}",
+    "consumption": "Tarbimine: {{value}} kL",
+    "push": {
+      "title": "Tõukemärguanded",
+      "description": "Saate selles seadmes märguande, kui saabub uus arve või hoiatus.",
+      "enable": "Luba",
+      "disable": "Keela",
+      "permissionDenied": "Teavitamise luba ei antud.",
+      "notConfigured": "Tõukemärguanded pole veel konfigureeritud. Võtke ühendust oma administraatoriga.",
+      "enableError": "Tõukemärguandeid ei saanud lubada. Palun proovi uuesti.",
+      "disableError": "Tõukemärguandeid ei saanud keelata. Palun proovi uuesti."
+    }
+  },
+  "recommendations": {
+    "loadError": "Teie soovitusi ei saanud laadida. Palun proovi uuesti.",
+    "loading": "Isikupärastatud näpunäidete laadimine…",
+    "generated": "Loodud {{date}}",
+    "generatedForPeriod": "Loodud {{date}} arveldusperioodi {{period}} jaoks",
+    "eyebrow": "Teie jaoks isikupärastatud",
+    "title": "Nutikad veesäästunõuanded",
+    "empty": "Vihjeid pole veel loodud – neid värskendatakse automaatselt iga kord, kui teie kogukond teie leibkonna arveldustsükli lõpetab."
+  },
+  "support": {
+    "title": "Residentide tugi- ja murepunkt",
+    "subtitle": "Esitage veelekkearuanded, arvestite kalibreerimistaotlused või arvelduspäringud otse oma kogukonna administraatorile ja/või süsteemiadministraatorile.",
+    "emptyCreateHint": "Kirjeldage allpool oma probleemi või muret ja valige, kes peaks sellega tegelema."
+  }
+}

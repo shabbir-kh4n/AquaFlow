@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './InstallPrompt.css'
 
 const DISMISSED_KEY = 'af_install_dismissed'
 
 function InstallPrompt() {
+  const { t } = useTranslation('common')
   const [deferredPrompt, setDeferredPrompt] = useState(null)
   const [visible, setVisible] = useState(false)
 
@@ -46,17 +48,17 @@ function InstallPrompt() {
   if (!visible) return null
 
   return (
-    <div className="af-install-prompt" role="dialog" aria-label="Install HydroLedger">
+    <div className="af-install-prompt" role="dialog" aria-label={t('installPrompt.title')}>
       <div className="af-install-prompt__text">
-        <strong>Install HydroLedger</strong>
-        <span>Add it to your home screen for quick access.</span>
+        <strong>{t('installPrompt.title')}</strong>
+        <span>{t('installPrompt.description')}</span>
       </div>
       <div className="af-install-prompt__actions">
         <button type="button" className="af-install-prompt__dismiss" onClick={handleDismiss}>
-          Dismiss
+          {t('installPrompt.dismiss')}
         </button>
         <button type="button" className="af-install-prompt__install" onClick={handleInstall}>
-          Install
+          {t('installPrompt.install')}
         </button>
       </div>
     </div>

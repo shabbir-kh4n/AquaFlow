@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "सक्रिय",
+    "blocked": "ब्लॉक कीता",
+    "terminated": "समाप्त"
+  },
+  "sort": {
+    "sortBy": "क्रमबद्ध करो",
+    "toggleDirection": "क्रम दिशा बदलें",
+    "asc": "↑ चढ़दा क्रम",
+    "desc": "↓ उतरदा क्रम"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} कुल {{total}} विचों",
+    "prev": "← पिछला",
+    "next": "अगला →",
+    "page": "सफा {{page}} कुल {{pageCount}} विचों"
+  },
+  "dashboard": {
+    "title": "प्लेटफ़ॉर्म ओवरव्यू",
+    "subtitle": "पूरे HydroLedger प्लेटफ़ॉर्म पर मौजूद हर रजिस्टर्ड कम्युनिटी एडमिन।",
+    "viewAll": "सारी कम्युनिटीयां दक्खो",
+    "loadError": "फिलहाल प्लेटफ़ॉर्म डेटा लोड नी होइया।",
+    "cards": {
+      "totalCommunities": "कुल कम्युनिटीयां",
+      "registeredAdmins": "रजिस्टर्ड एडमिन",
+      "totalResidents": "कुल निवासी",
+      "acrossAllCommunities": "सारी कम्युनिटीयां दे विच",
+      "active": "सक्रिय",
+      "inGoodStanding": "ठीक स्थिति विच",
+      "blockedTerminated": "ब्लॉक / समाप्त",
+      "blockedTerminatedBreakdown": "{{blocked}} ब्लॉक, {{terminated}} समाप्त"
+    },
+    "recent": {
+      "title": "हाल ही च रजिस्टर्ड कम्युनिटीयां",
+      "loading": "लोड हो रिया ऐ…",
+      "empty": "कोई भी कम्युनिटी रजिस्टर्ड नी ऐ।",
+      "table": {
+        "community": "कम्युनिटी",
+        "admin": "एडमिन",
+        "status": "स्थिति",
+        "residents": "निवासी"
+      }
+    }
+  },
+  "communities": {
+    "count": "कम्युनिटीयां: {{count}}",
+    "loadError": "कम्युनिटीयां लोड नी होइयां। कृपया फेर कोशिश करो।",
+    "searchPlaceholder": "कम्युनिटी जां एडमिन दे नां या ईमेल थमां खोजो",
+    "statusFilter": {
+      "label": "स्थिति",
+      "all": "सारे"
+    },
+    "sortOptions": {
+      "community": "कम्युनिटी",
+      "admin": "एडमिन",
+      "residents": "निवासी"
+    },
+    "loading": "कम्युनिटीयां लोड हो रियायां…",
+    "empty": "कोई भी कम्युनिटी रजिस्टर्ड नी ऐ।",
+    "noMatch": "तुसारे फिल्टर दे मुताबिक कोई मैच नी मिल्या।",
+    "table": {
+      "community": "कम्युनिटी",
+      "admin": "एडमिन",
+      "email": "ईमेल",
+      "status": "स्थिति",
+      "residents": "निवासी",
+      "view": "दक्खो"
+    }
+  },
+  "communityDetail": {
+    "loadError": "एह कम्युनिटी लोड नी हो सकी। शायद इदे हटा दित्ता गया ऐ।",
+    "statusUpdateError": "एह कम्युनिटी दी स्थिति अपडेट नी हो सकी।",
+    "deleteError": "एह कम्युनिटी डिलीट नी हो सकी।",
+    "loading": "कम्युनिटी लोड हो रिया ऐ…",
+    "notFound": "कम्युनिटी नी मिली।",
+    "backLink": "← कम्युनिटीयां पर वापस जाओ",
+    "backLinkShort": "कम्युनिटीयां पर वापस",
+    "eyebrow": "कम्युनिटी प्रोफाइल",
+    "unnamed": "बिना नां वाली कम्युनिटी",
+    "noAddress": "कोई पता दर्ज नी ऐ",
+    "stats": {
+      "residents": "निवासी",
+      "status": "स्थिति"
+    },
+    "actions": {
+      "reactivate": "फेर सक्रिय करो",
+      "block": "ब्लॉक करो",
+      "terminate": "समाप्त करो",
+      "delete": "कम्युनिटी डिलीट करो"
+    },
+    "blockDialog": {
+      "title": "क्या इस कम्युनिटी एडमिन गी ब्लॉक करना ऐ?",
+      "message": "{{name}} गी ब्लॉक करना ऐ? अनब्लॉक होन तक एह लॉग इन नी कर सकनगे। डेटा पर कोई असर नी पैग।",
+      "confirm": "ब्लॉक करो"
+    },
+    "terminateDialog": {
+      "title": "क्या इस कम्युनिटी एडमिन गी समाप्त करना ऐ?",
+      "message": "क्या {{name}} दी पहुंच स्थायी तौर पर समाप्त करनी ऐ? एह दोबारा नी हो सकदा, पर कम्युनिटी दा डेटा रिकॉर्ड आस्ते सुरक्षित रहग।",
+      "confirm": "समाप्त करो"
+    },
+    "deleteDialog": {
+      "title": "क्या कम्युनिटी डिलीट करनी ऐ?",
+      "message": "एहदे थमां <strong>{{name}}</strong> और सारे घर, निवासी, मीटर, टैरिफ/बिलिंग कॉन्फ़िगरेशन, और इनवॉइस हिस्ट्री हमेशा आस्ते डिलीट हो जाऐगी। एह कार्रवाई वापस नी हो सकदी।",
+      "typeToConfirm": "जारी रखन आस्ते <strong>{{word}}</strong> टाइप करो",
+      "confirm": "पुष्टि करो"
+    },
+    "residents": {
+      "title": "निवासी",
+      "registeredCount": "रजिस्टर्ड: {{count}}",
+      "empty": "इस कम्युनिटी च कोई निवासी रजिस्टर्ड नी ऐ।",
+      "table": {
+        "flatUnit": "फ्लैट यूनिट",
+        "meter": "मीटर",
+        "resident": "निवासी",
+        "email": "ईमेल",
+        "passwordSet": "पासवर्ड सेट ऐ"
+      },
+      "yes": "हां",
+      "no": "नी"
+    },
+    "cancel": "रद्द करो",
+    "working": "हो रिया ऐ…",
+    "deleting": "डिलीट हो रिया ऐ…"
+  },
+  "systemStatus": {
+    "statusError": "सिस्टम स्थिति दी जांच करन आस्ते बैकएंड तक नी पुज्जे।",
+    "metricsError": "मेट्रिक्स हिस्ट्री लोड नी हो सकी।",
+    "ranges": {
+      "fiveMinutes": "5 मिनट",
+      "fifteenMinutes": "15 मिनट",
+      "hour": "घंटा",
+      "day": "दिन",
+      "week": "हफ्ता",
+      "month": "महीना",
+      "threeMonths": "3 महीने"
+    },
+    "uptime": {
+      "days": "{{value}} दिन",
+      "hours": "{{value}} घंटे",
+      "minutes": "{{value}} मिनट"
+    },
+    "charts": {
+      "requestsPerSec": "अनुरोध प्रति सेकंड",
+      "opsPerSec": "ऑपरेशन्स प्रति सेकंड",
+      "latency": "लेटेंसी",
+      "lastValue": "पिछली {{value}}",
+      "loading": "लोड हो रिया ऐ…",
+      "empty": "इस रेंज आस्ते कोई मेट्रिक्स रिकॉर्ड नी कीते गए।"
+    },
+    "stats": {
+      "min": "घट्ट: <b>{{value}}</b>",
+      "avg": "औसत: <b>{{value}}</b>",
+      "max": "ज्यादा: <b>{{value}}</b>",
+      "last": "आखिरी: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "बैकएंड API",
+      "checking": "जांच हो रिया ऐ…",
+      "reachable": "पहुंच योग्य",
+      "unreachable": "पहुंच नी ऐ",
+      "connected": "जुड़े दा",
+      "backendApiHint": "एह सफा बैकएंड थमां लोड होया ऐ, यानी एह काम करदा ऐ।",
+      "database": "डेटाबेस",
+      "databaseHint": "PostgreSQL कनेक्टिविटी, लाइव जांची गई।",
+      "uptime": "बैकएंड अपटाइम",
+      "uptimeHint": "पिछली बार एप्लीकेशन रीस्टार्ट होन थमां बाद।",
+      "appVersion": "ऐप वर्जन",
+      "appVersionHint": "बैकएंड बिल्ड वर्जन।"
+    },
+    "mini": {
+      "latency": "लेटेंसी",
+      "readsLatency": "रीड्स लेटेंसी",
+      "writesLatency": "राइट्स लेटेंसी",
+      "otherLatency": "होर लेटेंसी",
+      "connections": "कनेक्शन",
+      "totalKeys": "कुल कीज़"
+    },
+    "note": "अनुरोध प्रति सेकंड और लेटेंसी लाइव बैकएंड ट्रैफिक थमां हर 15 सेकंड च नमूने दे तौर पर लेई जंदी ऐ ते 100 दिन तक रखी जंदी ऐ। एह इक बुनियादी कनेक्टिविटी और ट्रैफिक जांच ऐ — एह पूरी एप्लीकेशन परफॉरमेंस मॉनिटरिंग, लॉग एग्रीगेशन, या अलर्टिंग दा विकल्प नी ऐ।"
+  },
+  "reports": {
+    "loadError": "प्लेटफॉर्म रिपोर्ट लोड नी होई सकदी।",
+    "ranges": {
+      "threeMonths": "3 महीने",
+      "sixMonths": "6 महीने",
+      "twelveMonths": "12 महीने",
+      "custom": "कस्टम"
+    },
+    "sortOptions": {
+      "community": "कम्युनिटी",
+      "usage": "इस्तेमाल (usage)",
+      "billed": "बिल कीता",
+      "residents": "वासी"
+    },
+    "customRange": {
+      "from": "तूं",
+      "to": "अज्ज तकर",
+      "hint": "कस्टम रिपोर्ट लोड करने लेई \"तूं\" ते \"अज्ज तकर\" महीने दा चयन करो।"
+    },
+    "loading": "रिपोर्ट लोड हो रही ऐ...",
+    "cards": {
+      "totalCommunities": "कुल कम्युनिटी",
+      "inThisRange": "इस रेंज विच",
+      "totalResidents": "कुल वासी",
+      "acrossAllCommunities": "सारी कम्युनिटी विच",
+      "overallUsage": "कुल इस्तेमाल",
+      "meteredConsumption": "मीटर दी खपत",
+      "overallBilled": "कुल बिल",
+      "finalizedInvoicesOnly": "सिर्फ फाइनल बिल",
+      "avgUsagePerResident": "औसत इस्तेमाल / वासी",
+      "avgBillPerResident": "औसत बिल / वासी"
+    },
+    "charts": {
+      "usageTitle": "प्लेटफॉर्म-वाइड इस्तेमाल (kL / महीना)",
+      "usageEmpty": "इस रेंज लेई कोई इस्तेमाल दर्ज नी ऐ।",
+      "usageSeries": "इस्तेमाल",
+      "billedTitle": "प्लेटफॉर्म-वाइड बिल राशि (₹ / महीना)",
+      "billedEmpty": "इस रेंज लेई कोई बिल फाइनल नी कीता गया।",
+      "billedSeries": "बिल"
+    },
+    "searchPlaceholder": "कम्युनिटी या एडमिन दे नाम कन्नै छानो (Filter)",
+    "empty": "इस रेंज लेई किसी बी कम्युनिटी दा इस्तेमाल या बिलिंग डेटा मौजूद नी ऐ।",
+    "noMatch": "थुसाड़े फिल्टर कन्नै कोई कम्युनिटी मेल नी खानी।",
+    "table": {
+      "community": "कम्युनिटी",
+      "admin": "एडमिन",
+      "residents": "वासी",
+      "usage": "इस्तेमाल (kL)",
+      "billed": "बिल (₹)",
+      "avgUsagePerResident": "औसत इस्तेमाल / वासी",
+      "avgBillPerResident": "औसत बिल / वासी"
+    }
+  },
+  "supportTickets": {
+    "title": "सपोर्ट टिकट्स",
+    "subtitle": "वासियों ते कम्युनिटी एडमिन द्वारा उठाई गेदी सपोर्ट टिकट्स ते चिंताएं, प्लेटफॉर्म-वाइड।"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Bağlayın",
+    "signUpTitle": "İcmanızı qeydiyyatdan keçirin",
+    "signInTitle": "Xoş gəldiniz",
+    "signUpSubtitle": "Sakinləri idarə etməyə və hesab göndərməyə başlamaq üçün İcma İdarəçi hesabı yaradın.",
+    "signInSubtitle": "Su istifadənizə və fakturaya baxmaq üçün daxil olun."
+  },
+  "signIn": {
+    "errorFallback": "Daxil olmaq mümkün deyil. Yenidən cəhd edin.",
+    "emailLabel": "E-poçt",
+    "passwordLabel": "parol",
+    "rememberMe": "Məni xatırla",
+    "forgotPassword": "Şifrəni unutmusunuz?",
+    "submitting": "Daxil olunur...",
+    "submit": "Daxil ol",
+    "noAccount": "Hesabınız yoxdur?",
+    "signUpLink": "Qeydiyyatdan keçin"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Parollar uyğun gəlmir.",
+      "communityRequired": "İcma adı tələb olunur.",
+      "termsRequired": "Zəhmət olmasa Xidmət Şərtləri və Məxfilik Siyasəti ilə razılaşın.",
+      "fallback": "Hesab yaratmaq mümkün deyil. Yenidən cəhd edin."
+    },
+    "hint": "Yalnız icma adminləri burada qeydiyyatdan keçin. Daxil olduqdan sonra sakinlərinizin təfərrüatlarını özünüz əlavə edəcəksiniz - onlar özləri qeydiyyatdan keçmirlər.",
+    "fullNameLabel": "Tam adı",
+    "emailLabel": "E-poçt",
+    "phoneLabel": "Telefon nömrəsi",
+    "communityNameLabel": "İcma adı",
+    "passwordLabel": "parol",
+    "confirmPasswordLabel": "Şifrəni təsdiqləyin",
+    "agreeTerms": "Mən <termsLink>Xidmət Şərtləri</termsLink> və <privacyLink>Məxfilik Siyasəti</privacyLink> ilə razıyam",
+    "submitting": "Hesab yaradılır...",
+    "submit": "Admin hesabı yaradın",
+    "haveAccount": "Artıq hesabınız var?",
+    "signInLink": "Daxil olun"
+  },
+  "installPrompt": {
+    "title": "HydroLedger quraşdırın",
+    "description": "Tez daxil olmaq üçün onu əsas ekranınıza əlavə edin.",
+    "dismiss": "Rədd et",
+    "install": "Quraşdırın"
+  },
+  "setPassword": {
+    "title": "Parolunuzu təyin edin",
+    "loading": "Yüklənir...",
+    "subtitle": "Salam {{name}}, HydroLedger hesabınızı aktivləşdirmək üçün {{email}} üçün parol seçin.",
+    "errors": {
+      "invalidLink": "Bu keçid etibarsızdır və ya vaxtı keçmişdir.",
+      "tooShort": "Parol ən azı 8 simvoldan ibarət olmalıdır.",
+      "mismatch": "Parollar uyğun gəlmir.",
+      "fallback": "Parolunuzu təyin etmək mümkün olmadı. Yenidən cəhd edin."
+    },
+    "passwordLabel": "parol",
+    "confirmPasswordLabel": "Şifrəni təsdiqləyin",
+    "submitting": "Parol təyin edilir...",
+    "submit": "Parol təyin edin və daxil olun"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Hesabınız haqqında soruşun",
+      "admin": "İcma köməkçisi",
+      "platform": "Platforma köməkçisi",
+      "default": "köməkçi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger nədir?",
+        "tieredBilling": "Səviyyəli hesablama necə işləyir?",
+        "leaks": "Sızıntılar necə aşkar edilir?"
+      },
+      "resident": {
+        "billEstimate": "Mənim cari hesab hesablamam nədir?",
+        "alerts": "İstifadə ilə bağlı xəbərdarlıqlarım varmı?",
+        "readings": "Son sayğac oxunuşlarımı göstərin"
+      },
+      "admin": {
+        "households": "Neçə evimiz var?",
+        "billingCycles": "Son hesablaşma dövrlərimizi sadalayın",
+        "tariff": "Hazırkı tarif planımız nədir?"
+      },
+      "platform": {
+        "communities": "Bütün qeydiyyatdan keçmiş icmaları sadalayın",
+        "usageReport": "Platformadan istifadə hesabatını göstərin",
+        "systemStatus": "Sistemin vəziyyəti necədir?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mesajları çox tez göndərirsiniz - bir az gözləyin və yenidən cəhd edin.",
+      "unavailable": "Köməkçi müvəqqəti olaraq əlçatmazdır. Lütfən, tezliklə yenidən cəhd edin.",
+      "generic": "Bu mesajı göndərərkən xəta baş verdi. Yenidən cəhd edin."
+    },
+    "emptyHint": "Məndən nə soruşun - mən yalnız öz məlumatlarınızı görə bilərəm.",
+    "closeAssistant": "Yaxın köməkçi",
+    "openAssistant": "Açıq köməkçi",
+    "inputPlaceholder": "Mesaj yazın...",
+    "inputLabel": "Mesaj",
+    "send": "Göndər"
+  },
+  "supportBoard": {
+    "defaultTitle": "Dəstək Biletləri",
+    "defaultCreateLabel": "Yeni narahatlığı artırın",
+    "status": {
+      "open": "Açıq",
+      "inProgress": "Davam edir",
+      "resolved": "Həll olundu",
+      "closed": "bağlıdır"
+    },
+    "tabs": {
+      "all": "Bütün Biletlər"
+    },
+    "recipients": {
+      "admin": "İcma Admini",
+      "systemAdmin": "Sistem Administratoru",
+      "both": "İcma Admini + Sistem Admini"
+    },
+    "roles": {
+      "resident": "Sakin",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kimə: {{recipients}}",
+    "raisedByResident": "{{name}} sakini tərəfindən böyüdü",
+    "raisedByAdmin": "Admin tərəfindən qaldırıldı {{name}}",
+    "refresh": "Yeniləyin",
+    "stats": {
+      "openLabel": "Təqdimatları açın",
+      "openHint": "Baxış gözlənilir",
+      "inProgressLabel": "Davam edir",
+      "inProgressHint": "Üzərində işləyir",
+      "resolvedLabel": "Həll olundu",
+      "resolvedHint": "Uğurla bağlandı"
+    },
+    "searchPlaceholder": "Biletləri mövzuya, buraxılışa görə axtarın...",
+    "loadingTickets": "Biletlər yüklənir...",
+    "empty": {
+      "title": "Dəstək Biletləri Tapılmadı",
+      "body": "Hazırda bu filtrə uyğun açıq və ya qeydə alınmış dəstək sorğunuz yoxdur.",
+      "cta": "Narahatlıq Göndərin"
+    },
+    "errors": {
+      "loadList": "Dəstək biletlərini yükləmək mümkün olmadı. Yenidən cəhd edin.",
+      "loadDetail": "Bu bileti yükləmək mümkün olmadı. Yenidən cəhd edin.",
+      "required": "Mövzu və mesajın hər ikisi tələb olunur.",
+      "recipientRequired": "Ən azı bir alıcı seçin (İcma Admini və/və ya Sistem Admini).",
+      "submitFallback": "Bu bileti təqdim etmək mümkün olmadı. Yenidən cəhd edin.",
+      "sendReply": "Bu mesajı göndərmək mümkün olmadı. Yenidən cəhd edin.",
+      "updateStatus": "Bu bilet statusunu yeniləmək mümkün olmadı. Yenidən cəhd edin."
+    },
+    "form": {
+      "defaultHint": "Probleminizi və ya narahatlığınızı aşağıda təsvir edin.",
+      "subjectLabel": "Mövzu",
+      "subjectPlaceholder": "Probleminizin qısa xülasəsi",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Baş verənləri ətraflı təsvir edin...",
+      "recipientsLabel": "Bu narahatlığı ünvanına göndərin",
+      "cancel": "Ləğv et",
+      "submitting": "Göndərilir...",
+      "submit": "Bilet təqdim edin"
+    },
+    "detail": {
+      "loading": "Bilet yüklənir...",
+      "replyPlaceholder": "Cavab yazın...",
+      "close": "Bağlayın",
+      "sending": "Göndərilir...",
+      "sendReply": "Cavab Göndər"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Yenidən xoş gəlmisiniz, {{name}}",
+    "openMenu": "Menyu açın",
+    "closeMenu": "Menyunu bağlayın",
+    "logout": "Çıxın",
+    "search": "Axtar",
+    "notifications": "Bildirişlər"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "İdarə paneli",
+      "households": "Ev təsərrüfatları kataloqu",
+      "meterReadings": "Sayğacların oxunuşları",
+      "billing": "Faktura İdarəetmə",
+      "bulkPurchases": "Toplu alışlar",
+      "reports": "Hesabatlar",
+      "waterLeakage": "Su sızması",
+      "support": "Dəstək / Narahatlıqlar",
+      "tariffPlans": "Tarif Planları",
+      "announcements": "Elanlar",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Budur icmanızın şəkli."
+      },
+      "households": {
+        "title": "Ev təsərrüfatları kataloqu",
+        "subtitle": "İcmanızda yaşayan sakinləri əlavə edin, yeniləyin və idarə edin."
+      },
+      "meterReadings": {
+        "title": "Su Sayğaclarının Oxumaları Mərkəzi",
+        "subtitle": "Sakinləri axtarın və onların su sayğacının oxunuşunu qeyd edin."
+      },
+      "tariffPlans": {
+        "title": "Tarif Konfiqurasiyası",
+        "subtitle": "Mənzil icmanız üçün səviyyəli tarif limitlərini, paylaşılan ümumi sahə xərclərini və paylama üsullarını konfiqurasiya edin."
+      },
+      "billing": {
+        "title": "Faktura İdarəetmə",
+        "subtitle": "Faktura dövrlərini açın, yekunlaşdırın və arxivləşdirin və hər ev üçün detallaşdırılmış fakturaları nəzərdən keçirin."
+      },
+      "bulkPurchases": {
+        "title": "Toplu alışlar",
+        "subtitle": "İcmanız üçün tanker tədarükü və bələdiyyə təchizatı alışını qeyd edin."
+      },
+      "waterLeakage": {
+        "title": "Su sızması",
+        "subtitle": "Həddi və kənara əsaslanan sızma xəbərdarlıqlarını konfiqurasiya edin və işarələnmiş ev təsərrüfatlarını nəzərdən keçirin."
+      },
+      "support": {
+        "title": "Dəstək / Narahatlıqlar",
+        "subtitle": "Sistem Admininə öz biletinizi qaldırın və ya sakinlərin sizə ünvanladığı narahatlıqları idarə edin."
+      },
+      "profile": {
+        "title": "Parametrlər və Profil",
+        "subtitle": "Hesab məlumatlarınızı və mənzil məlumatlarınızı idarə edin."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "İcma Admini",
+    "notBuilt": "{{label}} hələ qurulmayıb",
+    "searchPlaceholder": "İstənilən şeyi axtarın..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Hesabatlar",
+      "description": "İcmanız üçün istehlak, hesablama və qoruma hesabatları."
+    },
+    "announcements": {
+      "title": "Elanlar",
+      "description": "Sakinlərinizə icma miqyasında elanlar göndərin."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} tezliklə gələcək"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "İdarə paneli",
+      "usageHistory": "İstifadə Tarixi",
+      "bills": "Hesablarım",
+      "recommendations": "Tövsiyələr",
+      "reports": "Hesabatlar",
+      "support": "Dəstək / Narahatlıqlar",
+      "notifications": "Bildirişlər",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "İstifadə tarixçəniz",
+      "billing": "Faktura və Fakturalar",
+      "notifications": "Bildirişlər",
+      "recommendations": "Tövsiyələr",
+      "support": "Dəstək / Narahatlıqlar"
+    },
+    "defaultTitle": "Rezident İdarə Paneli",
+    "navLabel": "Rezident naviqasiyası",
+    "fallbackName": "Sakin",
+    "unit": "Vahid {{number}}",
+    "comingSoon": "{{label}} tezliklə gələcək",
+    "profile": "Profil",
+    "searchPlaceholder": "Analitikləri, fakturaları axtarın..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "İdarə paneli",
+      "communities": "İcmalar",
+      "reports": "Hesabatlar",
+      "supportTickets": "Dəstək Biletləri",
+      "systemStatus": "Sistem Vəziyyəti"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hər bir qeydiyyatdan keçmiş icmada platforma geniş snapshot."
+      },
+      "communities": {
+        "title": "İcmalar",
+        "subtitle": "Hər qeydiyyatdan keçmiş icma admini və onların icması bir yerdə."
+      },
+      "reports": {
+        "title": "Hesabatlar",
+        "subtitle": "Platforma miqyasında su istifadəsi və hesablama rəqəmləri, icma tərəfindən və zamanla."
+      },
+      "supportTickets": {
+        "title": "Dəstək Biletləri",
+        "subtitle": "Platforma miqyasında sakinlər və icma adminləri tərəfindən qaldırılan biletləri və narahatlıqları dəstəkləyin."
+      },
+      "systemStatus": {
+        "title": "Sistem Vəziyyəti",
+        "subtitle": "Backend bağlantısı və əsas iş vaxtı sağlamlığı."
+      }
+    },
+    "fallbackName": "Sistem Administratoru",
+    "platformOwner": "Platformanın Sahibi",
+    "searchPlaceholder": "İcmaları axtarın..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Dil: {{language}}",
+    "searchPlaceholder": "Dil axtar...",
+    "noMatches": "Uyğunluq yoxdur"
+  }
+}

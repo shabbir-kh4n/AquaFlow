@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Ŝargante…",
+    "saving": "Konservante…",
+    "saved": "Savita.",
+    "uploading": "Alŝutante…",
+    "upload": "Alŝutu",
+    "uploadError": "Ne eblis alŝuti ĉi tiun dosieron. Bonvolu provi denove.",
+    "cancel": "Nuligi",
+    "close": "Fermu",
+    "edit": "Redakti",
+    "remove": "Forigi",
+    "saveChanges": "Konservu Ŝanĝojn",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Vico {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Montrante {{from}}–{{to}} el {{total}}",
+    "prev": "← Antaŭa",
+    "next": "Sekva →",
+    "page": "Paĝo {{page}} el {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ne eblis ŝargi viajn komunumajn datumojn nun.",
+    "title": "{{community}} Apartamenta Panelo",
+    "titleFallback": "Via Apartamenta Panelo",
+    "subtitle": "Funkcia resumo por akvoservaĵo submezurado kaj hejma konsumo.",
+    "comingSoon": "Baldaŭ venos",
+    "manageCommunity": "Administri Komunumon",
+    "noUsageReadings": "Neniuj uzadolegaĵoj ankoraŭ registritaj.",
+    "cards": {
+      "totalHouseholds": "Tutaj Domanaroj",
+      "occupied": "Okupita",
+      "activeMeters": "Aktivaj Metroj",
+      "reportingReadings": "Raporti legadojn",
+      "monthlyConsumption": "Monata Konsumo",
+      "thisCalendarMonth": "Ĉi tiu kalendara monato",
+      "latestRecordedMonth": "Plej lasta registrita monato ({{month}})",
+      "noReadingsYet": "Neniuj legaĵoj ankoraŭ registritaj",
+      "pendingAlerts": "Atendantaj Atentigoj",
+      "anomalyPreview": "Antaŭrigardo pri detektado de anomalioj — ankoraŭ ne havebla"
+    },
+    "actions": {
+      "label": "Rapidaj Administraj Agoj",
+      "uploadReadings": "Alŝutu Metrolegaĵojn",
+      "configureTariffs": "Agordi Tarifojn",
+      "reportsNotBuilt": "Raportoj ankoraŭ ne estas konstruitaj",
+      "downloadReports": "Elŝutu Sistemajn Raportojn"
+    },
+    "chart": {
+      "title": "Monata Konsumo-Komparo (kL)",
+      "subtitle": "Lastaj {{months}} monatoj: celo kontraŭ reala konsumo.",
+      "targetSeries": "Celo (antaŭprezento)",
+      "actualSeries": "Fakta"
+    },
+    "recent": {
+      "title": "Lastatempaj Metrolegaĵoj",
+      "unit": "Unuo",
+      "resident": "Loĝanto",
+      "lastReading": "Lasta Legado",
+      "consumption": "Konsumo"
+    }
+  },
+  "households": {
+    "loadError": "Ne eblis ŝarĝi loĝantojn. Bonvolu provi denove.",
+    "fixFields": "Bonvolu ripari la emfazitajn kampojn.",
+    "saveError": "Ne eblis savi ĉi tiun loĝanton. Bonvolu kontroli la detalojn.",
+    "confirmRemove": "Ĉu forigi {{name}} el viaj hejmaj dosierujoj?",
+    "removeError": "Ne eblis forigi ĉi tiun loĝanton. Bonvolu provi denove.",
+    "count": "Domanaroj: {{total}}",
+    "bulkUploadButton": "⇪ Pogranda Alŝuto",
+    "addResidentButton": "+ Aldonu Loĝanton",
+    "searchPlaceholder": "Filtru laŭ nomo, domo, retpoŝto aŭ mezurilo n-ro.",
+    "loading": "Ŝarĝante loĝantojn...",
+    "empty": "Ankoraŭ neniuj loĝantoj. Alklaku \"Aldoni Loĝanton\" por registri la unuan domanaron.",
+    "noMatch": "Neniuj loĝantoj kongruas kun \"{{search}}\".",
+    "sort": {
+      "label": "Ordigi laŭ",
+      "name": "Nomo",
+      "houseNumber": "Domnumero",
+      "dateOfJoining": "Dato de Aliĝo",
+      "toggleDirection": "Ŝaltu ordigdirekton",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Ino",
+      "other": "Aliaj"
+    },
+    "table": {
+      "name": "Nomo",
+      "houseUnit": "Domo / Unuo",
+      "email": "Retpoŝto",
+      "phone": "Telefono",
+      "meterNumber": "Metro No.",
+      "sqft": "Sqft",
+      "joined": "Aliĝis"
+    },
+    "form": {
+      "addTitle": "Aldoni Loĝanton",
+      "editTitle": "Redaktu Loĝanton",
+      "editSubtitle": "Ĉi tio ĝisdatigas la detalojn de la loĝanto en via adresaro.",
+      "bypassSubtitle": "Vi fiksas la pasvorton de ĉi tiu loĝanto rekte. Neniu retpoŝto estos sendita.",
+      "addSubtitle": "Aro-pasvorta ligilo estos retpoŝta al ĉi tiu loĝanto por ke ili povu aktivigi sian propran ensaluton.",
+      "fullName": "Plena nomo",
+      "houseNumber": "Domo/unuo n-ro.",
+      "email": "Retpoŝto",
+      "phone": "Telefonnumero",
+      "meterNumber": "Nombro de metro",
+      "governmentId": "Registaridentigilo",
+      "gender": "Sekso",
+      "dateOfBirth": "Dato de naskiĝo",
+      "dateOfJoining": "Dato de aliĝo",
+      "flatSize": "Ebena grandeco (kv. piedoj)",
+      "bypassLabel": "Preterpasi ret-pasvorton retpoŝton — starigu pasvorton por ĉi tiu loĝanto nun",
+      "password": "Pasvorto",
+      "confirmPassword": "Konfirmu pasvorton"
+    },
+    "validation": {
+      "fullNameRequired": "Plena nomo estas postulata.",
+      "emailRequired": "Retpoŝto estas postulata.",
+      "phoneRequired": "Telefonnumero estas postulata.",
+      "houseNumberRequired": "Domo/unua nombro estas postulata.",
+      "houseNumberTaken": "Ĉi tiu domnumero jam estas atribuita al alia loĝanto.",
+      "meterNumberRequired": "Metronombro estas postulata.",
+      "meterNumberFormat": "Metronombro devas aspekti kiel MTR-1234 (4 ciferoj).",
+      "meterNumberTaken": "Tiu ĉi metronombro jam estas asignita al alia loĝanto.",
+      "governmentIdRequired": "Registaridentigilo estas postulata.",
+      "governmentIdFormat": "ID devas esti 6 ciferoj komencante per 99 (ekz. 991234).",
+      "genderRequired": "Bonvolu elekti sekson.",
+      "dateOfBirthRequired": "Dato de naskiĝo estas postulata.",
+      "dateOfJoiningRequired": "Dato de aliĝo estas postulata.",
+      "passwordRequired": "Pasvorto estas postulata.",
+      "passwordLength": "Pasvorto devas esti almenaŭ 8 signoj.",
+      "confirmPasswordRequired": "Bonvolu konfirmi la pasvorton.",
+      "passwordMismatch": "Pasvortoj ne kongruas."
+    },
+    "bulk": {
+      "title": "Pogranda Alŝuto Loĝantoj",
+      "noFile": "Bonvolu elekti dosieron .csv aŭ .xlsx/.xls por alŝuti.",
+      "instructions": "Alŝutu .csv aŭ .xlsx/.xls dosieron kun kolumnoj <code>{{columns}}</code> (pasvorto kaj flatSizeSqft estas ambaŭ laŭvolaj). Vicoj kun pasvorto fiksas ĝin rekte; vicoj sen unu ricevas agordan pasvorton retpoŝton, same kiel aldono de loĝanto permane. Duoblaj domaj/mezuriloj aŭ retpoŝtoj estas malakceptitaj per vico — unu malbona vico ne malsukcesos la tutan aron."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ne eblis ŝarĝi loĝantojn. Bonvolu provi denove.",
+    "historyLoadError": "Ne eblis ŝargi la legohistorion. Bonvolu provi denove.",
+    "successMessage": "Sukcese registrita legado de {{value}} kL por {{house}} (Mezurilo: {{meter}})! Kalkulita konsumo: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ununura Eniro",
+      "csv": "Pogranda CSV Alŝuto",
+      "history": "Legado de Historio"
+    },
+    "source": {
+      "manual": "Manlibro",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Ĉi tiu loĝanto havas neniun metronumeron en dosiero.",
+      "dateRequired": "Legodato estas postulata.",
+      "invalidValue": "Bonvolu enigi validan, nenegativan legan valoron.",
+      "duplicate": "Legado por ĉi tiu mezurilo jam ekzistas en tiu dato.",
+      "meterNotFound": "Ĉi tiu mezurilo ne estis trovita. Bonvolu reelekti la loĝanton.",
+      "lowerThanPrevious": "Ĉi tiu legado estas pli malalta ol la antaŭa registrita legado.",
+      "recordFailed": "Ne eblis registri ĉi tiun legadon. Bonvolu provi denove."
+    },
+    "combo": {
+      "label": "Elektu Flat & Meter Serial",
+      "placeholder": "Elektu Ebenan kaj Mezurilan Serian...",
+      "flat": "Plata {{house}}",
+      "noMeter": "Neniu metro",
+      "searchPlaceholder": "Serĉu ebenan ne, mezurserialon, loĝantan...",
+      "unitsHeader": "LoĝUnuoj",
+      "found": "Apartamentoj trovitaj: {{total}}",
+      "loading": "Ŝarĝante loĝantojn...",
+      "noMatch": "Neniuj loĝantoj kongruas kun \"{{search}}\".",
+      "unassigned": "Neasignita",
+      "itemMeta": "{{name}} · Laste: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Registrante legadon por",
+      "context": "Domo {{house}} · Metro {{meter}}",
+      "changeResident": "Ŝanĝi loĝanton",
+      "readingDate": "Dato de legado",
+      "readingValue": "Aktuala Metrolegado (kL)",
+      "submit": "Sendu Validikitan Legadon",
+      "recentTitle": "Lastatempaj legaĵoj",
+      "recentEmpty": "Neniuj valoroj ankoraŭ registritaj por ĉi tiu mezurilo."
+    },
+    "info": {
+      "title": "Monotona Metervalidigo",
+      "body": "Ĉiu nova legado devas esti pli granda ol aŭ egala al la antaŭa tagalo por tiu mezurilo — tio konservas konsumkalkulojn precizaj kaj kaptas transmetitajn ciferojn frue."
+    },
+    "details": {
+      "title": "Elektitaj Unuaj Detaloj",
+      "flatUnit": "Plata Unuo",
+      "meterSerial": "Metrilo Seria",
+      "occupant": "Nomo de la okupanto",
+      "lastDial": "Lasta Registrita Ciferdisko",
+      "noReadings": "Ankoraŭ neniuj legaĵoj",
+      "monthConsumption": "Monata Konsumo",
+      "empty": "Neniu domanaro elektita. Serĉu kaj elektu loĝanton por vidi iliajn mezurilojn ĉi tie."
+    },
+    "csv": {
+      "noFile": "Bonvolu elekti CSV dosieron por alŝuti.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Ŝarĝante legaĵojn...",
+      "empty": "Neniuj legaĵoj ankoraŭ registritaj por via komunumo."
+    },
+    "table": {
+      "meterNumber": "Metro No.",
+      "date": "Dato",
+      "value": "Valoro (kL)",
+      "consumption": "Konsumo (kL)",
+      "source": "Fonto"
+    }
+  },
+  "billingCycles": {
+    "title": "Fakturaj Cikloj",
+    "loadError": "Ne eblis ŝargi fakturajn ciklojn. Bonvolu provi denove.",
+    "paymentUpdateError": "Ne eblis ĝisdatigi la pagstatuson de ĉi tiu fakturo.",
+    "pdfError": "Ne eblis elŝuti la PDF. Bonvolu provi denove.",
+    "finalizeError": "Ne eblis fini ĉi tiun fakturan ciklon.",
+    "archiveError": "Ne eblis arkivi ĉi tiun fakturan ciklon.",
+    "loading": "Ŝarĝante fakturajn ciklojn...",
+    "empty": "Ankoraŭ neniuj fakturaj cikloj. Malfermu unu supre por komenci.",
+    "status": {
+      "open": "Malfermu",
+      "finalized": "Finiĝis",
+      "archived": "Arkivita"
+    },
+    "open": {
+      "title": "Malfermu Novan Fakturan Ciklon",
+      "noMonth": "Bonvolu elekti monaton por malfermi.",
+      "error": "Ne eblis malfermi fakturan ciklon por tiu monato.",
+      "monthAria": "Faktura periodo monato",
+      "opening": "Malfermante…",
+      "submit": "Malferma Ciklo"
+    },
+    "table": {
+      "period": "Periodo",
+      "status": "Statuso",
+      "householdsBilled": "Domanaroj Faktutaj",
+      "totalBilled": "Totalo Fakturita",
+      "actions": "Agoj"
+    },
+    "actions": {
+      "finalize": "Finigi",
+      "finalizing": "Finante…",
+      "archive": "Arkivo",
+      "archiving": "Arkivante…"
+    },
+    "filter": {
+      "aria": "Filtru laŭ pago statuso",
+      "all": "Ĉiuj"
+    },
+    "payment": {
+      "paid": "Pagita",
+      "unpaid": "Nepagita",
+      "updating": "Ĝisdatigante…",
+      "markPaid": "Marku kiel pagita",
+      "markUnpaid": "Marku kiel nepagita"
+    },
+    "detail": {
+      "title": "Cikla Detalo — {{period}}",
+      "loading": "Ŝargante fakturojn...",
+      "notFinalized": "Ĉi tiu ciklo ankoraŭ ne estis finita — neniuj fakturoj generitaj.",
+      "noInvoices": "Neniuj fakturoj por ĉi tiu ciklo.",
+      "noMatch": "Neniuj fakturoj kongruas kun ĉi tiu filtrilo."
+    },
+    "invoices": {
+      "household": "Domanaro",
+      "resident": "Loĝanto",
+      "meterNumber": "Metro No.",
+      "consumption": "Konsumo (kL)",
+      "tierBreakdown": "Tier Breakdown",
+      "commonArea": "Komuna Areo",
+      "total": "Entute",
+      "paymentStatus": "Paga Statuso",
+      "pdf": "PDF",
+      "baseLine": "Bazo: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivelo {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ne eblis ŝargi la tarifan agordon",
+    "saveError": "Ne eblis konservi la tarifan agordon",
+    "chartTitle": "Aktiva Mezurita Utila Indice Tiers",
+    "axisNote": "Tarifo en ₹/kL, slablimoj en kL",
+    "tableTitle": "Tabelo de Prezoj de Niveloj",
+    "defaultRatesNote": "Montrante defaŭltajn tarifojn — ankoraŭ ne konservite.",
+    "addTier": "+ Aldonu Nivelon",
+    "saveRates": "Konservu Tarifajn Tarifojn",
+    "tierLevel": {
+      "base": "Nivelo {{tier}} (Bazo)",
+      "medium": "Nivelo {{tier}} (Meza)",
+      "heavy": "Nivelo {{tier}} (Peza)"
+    },
+    "basePrice": {
+      "label": "Baza Prezo (₹ / kL, aplikata al ĈIUJ konsumado)",
+      "note": "Ĉiu kL estas pagendata ĉi tiu ebena tarifo unue. La slaboj malsupre aldonas EXTRA-kostojn nur por uzado kiu falas ene de sia intervalo - ekz. slabo komencanta je 50 kL nur aldonas sian tarifon por konsumo super 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivela Nivelo",
+      "slabLimit": "SlabLimo (kL)",
+      "rate": "Tarifo per kL",
+      "action": "Ago"
+    },
+    "commonArea": {
+      "title": "Komuna Areo Kosta Agordo",
+      "loadError": "Ne eblis ŝargi la agordon de kosto de komuna areo",
+      "saveError": "Ne eblis konservi la komunregionan kostagordon",
+      "empty": "Neniuj kostaĵoj ankoraŭ konservitaj.",
+      "labelPlaceholder": "Etikedo de kosto",
+      "perMonth": "/ monato",
+      "active": "Aktiva",
+      "addItem": "+ Aldonu Kostan Eron",
+      "save": "Konservu Agordon de Komuna Areo"
+    },
+    "distribution": {
+      "title": "Kosto Distribua Metodo Elektilo",
+      "consumption": "Laŭ Konsumo (Submezurita Proporcia)",
+      "floorArea": "Laŭ Apartamenta Ebena Grandeco (Kvft)"
+    },
+    "footer": {
+      "cycleStart": "Ciklo-Fakturado Komenca Dato",
+      "cycleStartValue": "1-a de Ĉiu Monato",
+      "autoInvoices": "Aŭtomate Generu PDF Fakturojn"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Sojlo Superita",
+      "statisticalOutlier": "Statistika Outlier"
+    },
+    "status": {
+      "active": "Aktiva",
+      "resolved": "Solvita",
+      "dismissed": "Forigita"
+    },
+    "config": {
+      "title": "Agordo de Detektado de Likoj",
+      "subtitle": "Agordu monatan konsumsojlon kaj/aŭ ebligu statistikan eksterordinaran detekton (signalas domanaron kies monata konsumo estas nekutime alta kompare kun sia propra historio).",
+      "loadError": "Ne eblis ŝargi atentan agordon. Bonvolu provi denove.",
+      "thresholdRequired": "Monata sojlo (kL) estas bezonata kiam sojlaj atentigoj estas ebligitaj.",
+      "saveError": "Ne eblis konservi ĉi tiun agordon.",
+      "loading": "Ŝargante agordon...",
+      "threshold": "Monata sojlo (kL)",
+      "sensitivity": "Neklara sentemo (σ-multiplikato)",
+      "enableThreshold": "Ebligu sojlaj atentigoj",
+      "enableOutlier": "Ebligu statistikajn eksterordinarajn alarmojn",
+      "save": "Konservu Agordon",
+      "running": "Kurante…",
+      "runNow": "Rulu Detekton Nun"
+    },
+    "alerts": {
+      "title": "Markitaj Domanaroj",
+      "loadError": "Ne eblis ŝargi atentigojn. Bonvolu provi denove.",
+      "runError": "Ne eblis ruli fukdetekto nun. Bonvolu provi denove.",
+      "updateError": "Ne eblis ĝisdatigi ĉi tiun atentigon. Bonvolu provi denove.",
+      "allStatuses": "Ĉiuj statusoj",
+      "loading": "Ŝarĝante atentigojn...",
+      "empty": "Neniuj atentigoj por montri. Agordu sojlon aŭ ebligu eksterordinaran detekton supre, tiam alklaku \"Runi Detekton Nun\" por taksi la nunan uzadon de via komunumo.",
+      "resolve": "Solvu",
+      "dismiss": "Forĵeti"
+    },
+    "table": {
+      "household": "Domanaro",
+      "resident": "Loĝanto",
+      "meter": "Metro",
+      "type": "Tajpu",
+      "period": "Periodo",
+      "consumption": "Konsumo",
+      "reference": "Referenco",
+      "status": "Statuso"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ne eblis ŝarĝi pograndajn akvoaĉetojn. Bonvolu provi denove.",
+    "confirmRemove": "Ĉu forigi la {{source}} liveron je {{date}}?",
+    "removeError": "Ne eblis forigi ĉi tiun aĉeton. Bonvolu provi denove.",
+    "count": "Aĉetoj registritaj: {{total}}",
+    "recordButton": "+ Rekorda Aĉeto",
+    "loading": "Ŝarĝante pograndajn akvoaĉetojn...",
+    "empty": "Neniuj pograndaj akvaj aĉetoj ankoraŭ registritaj. Alklaku \"Registri Aĉeton\" por registri aĉeton de petrolŝipo aŭ municipan provizon.",
+    "table": {
+      "date": "Dato",
+      "source": "Fonto",
+      "volume": "Volumo (L)",
+      "unitCost": "Unueca Kosto",
+      "totalCost": "Tuta Kosto",
+      "notes": "Notoj"
+    },
+    "form": {
+      "addTitle": "Rekordo Pogranda Akvo-Aĉeto",
+      "editTitle": "Redaktu Pograndan Akvo-Aĉeton",
+      "subtitle": "Spuri aĉeton de petrolŝipo aŭ municipa provizo por via komunumo - ĉi tio estas registrita nur por kostvidebleco kaj ne influas hejmajn fakturojn.",
+      "requiredFields": "Bonvolu plenigi la daton, fonton, volumon kaj unukoston.",
+      "saveError": "Ne eblis konservi ĉi tiun aĉeton. Bonvolu kontroli la detalojn.",
+      "purchaseDate": "Aĉeta dato",
+      "source": "Fonto / provizanto",
+      "volume": "Volumo (litroj)",
+      "unitCost": "Unukosto (₹/litro)",
+      "totalPreview": "Totala kosto: {{amount}}",
+      "notes": "Notoj (laŭvola)",
+      "submit": "Rekorda Aĉeto"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ankoraŭ ne estas konstruita",
+    "profileSaveError": "Ne eblis konservi vian profilon. Bonvolu provi denove.",
+    "apartmentSaveError": "Ne eblis konservi detalojn pri apartamento. Bonvolu provi denove.",
+    "specsTitle": "Specifoj de Profilo",
+    "photoUnavailable": "Foto-alŝuto ankoraŭ ne haveblas",
+    "changePhoto": "Ŝanĝi Foton",
+    "deletePhoto": "Forigi",
+    "photoHint": "JPG aŭ PNG. Maksimuma grandeco 2MB.",
+    "saveProfile": "Konservi Profilon",
+    "apartmentTitle": "Apartamentaj Detaloj",
+    "saveApartment": "Konservu Apartamentajn Detalojn",
+    "tabs": {
+      "profile": "Profilaj Agordoj",
+      "apartment": "Aparta Profilo",
+      "notifications": "Reguloj pri sciigo",
+      "billing": "Fakturado-Integriĝoj",
+      "security": "Sekureco & Aliro"
+    },
+    "fields": {
+      "fullName": "Plena Nomo",
+      "email": "Retpoŝta Adreso",
+      "emailLocked": "Retpoŝto ne povas esti ŝanĝita ĉi tie",
+      "phone": "Telefonnumero",
+      "accessLevel": "Alirnivelo",
+      "accessLevelValue": "Komunuma Administranto",
+      "roleLocked": "Roladministrado ankoraŭ ne haveblas",
+      "apartmentName": "Apartamenta Nomo",
+      "mainsSource": "Ĉeffonto",
+      "mainsSourcePlaceholder": "ekz. Urba Provizo + Suplementaj Petrolŝipoj",
+      "address": "Fizika Adreso"
+    },
+    "security": {
+      "title": "Antaŭrigardo pri sekureco kaj aliro",
+      "twoFactor": "Dufaktora Aŭtentigo",
+      "twoFactorHint": "Ebligita ĉe ensaluto",
+      "twoFactorUnavailable": "Dufaktora aŭtentigo ankoraŭ ne haveblas",
+      "twoFactorAria": "Dufaktora aŭtentigo (nur antaŭrigardo)",
+      "sessionsLabel": "Aktivaj Administraj Sesioj",
+      "sessionsEmpty": "Seanspurado ankoraŭ ne haveblas — ĉi tio estas antaŭprezento de la venonta aranĝo."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Miaj Biletoj",
+      "inbox": "Loĝantaj Biletoj"
+    },
+    "mine": {
+      "title": "Miaj Subtenaj Biletoj",
+      "subtitle": "Levu demandon aŭ zorgon pri via komunumo al la Sistemadministranto.",
+      "emptyCreateHint": "Levu demandon aŭ zorgon pri via komunumo. Sistemadministranto revizios kaj respondos ĉi tie."
+    },
+    "inbox": {
+      "title": "Loĝantaj Biletoj",
+      "subtitle": "Subtenaj biletoj kaj zorgoj, kiujn loĝantoj en via komunumo adresis al vi."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "ንቁ",
+    "blocked": "ታግዷል",
+    "terminated": "ተቋርጧል"
+  },
+  "sort": {
+    "sortBy": "ደርድር በ",
+    "toggleDirection": "የመደርደር አቅጣጫ ቀያይር",
+    "asc": "↑ አስ",
+    "desc": "↓ ዴስክ"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← የቀድሞ",
+    "next": "ቀጣይ →",
+    "page": "Page {{page}} of {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "የመድረክ አጠቃላይ እይታ",
+    "subtitle": "Every registered community admin, across the whole HydroLedger platform.",
+    "viewAll": "ሁሉንም ማህበረሰቦች ይመልከቱ",
+    "loadError": "የመሣሪያ ስርዓት ውሂብ አሁን መጫን አልተቻለም።",
+    "cards": {
+      "totalCommunities": "ጠቅላላ ማህበረሰቦች",
+      "registeredAdmins": "የተመዘገቡ አስተዳዳሪዎች",
+      "totalResidents": "ጠቅላላ ነዋሪዎች",
+      "acrossAllCommunities": "በሁሉም ማህበረሰቦች ውስጥ",
+      "active": "ንቁ",
+      "inGoodStanding": "በጥሩ አቋም ላይ",
+      "blockedTerminated": "ታግዷል/የተቋረጠ",
+      "blockedTerminatedBreakdown": "{{blocked}} ታግዷል፣ {{terminated}} ተቋርጧል"
+    },
+    "recent": {
+      "title": "በቅርብ ጊዜ የተመዘገቡ ማህበረሰቦች",
+      "loading": "በመጫን ላይ…",
+      "empty": "እስካሁን ምንም ማህበረሰቦች አልተመዘገቡም።",
+      "table": {
+        "community": "ማህበረሰብ",
+        "admin": "አስተዳዳሪ",
+        "status": "ሁኔታ",
+        "residents": "ነዋሪዎች"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "ማህበረሰቦችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "searchPlaceholder": "በማህበረሰብ፣ በአስተዳዳሪ ስም ወይም በኢሜይል አጣራ",
+    "statusFilter": {
+      "label": "ሁኔታ",
+      "all": "ሁሉም"
+    },
+    "sortOptions": {
+      "community": "ማህበረሰብ",
+      "admin": "አስተዳዳሪ",
+      "residents": "ነዋሪዎች"
+    },
+    "loading": "ማህበረሰቦችን በመጫን ላይ…",
+    "empty": "እስካሁን ምንም ማህበረሰቦች አልተመዘገቡም።",
+    "noMatch": "ከእርስዎ ማጣሪያዎች ጋር የሚዛመዱ ምንም ማህበረሰቦች የሉም።",
+    "table": {
+      "community": "ማህበረሰብ",
+      "admin": "አስተዳዳሪ",
+      "email": "ኢሜይል",
+      "status": "ሁኔታ",
+      "residents": "ነዋሪዎች",
+      "view": "ይመልከቱ"
+    }
+  },
+  "communityDetail": {
+    "loadError": "ይህን ማህበረሰብ መጫን አልተቻለም። ተወግዶ ሊሆን ይችላል።",
+    "statusUpdateError": "የዚህን ማህበረሰብ ሁኔታ ማዘመን አልተቻለም።",
+    "deleteError": "ይህን ማህበረሰብ መሰረዝ አልተቻለም።",
+    "loading": "ማህበረሰብን በመጫን ላይ…",
+    "notFound": "ማህበረሰብ አልተገኘም።",
+    "backLink": "← ወደ ማህበረሰቦች ተመለስ",
+    "backLinkShort": "ወደ ማህበረሰቦች ተመለስ",
+    "eyebrow": "የማህበረሰብ መገለጫ",
+    "unnamed": "ያልተሰየመ ማህበረሰብ",
+    "noAddress": "በፋይሉ ላይ አድራሻ የለም።",
+    "stats": {
+      "residents": "ነዋሪዎች",
+      "status": "ሁኔታ"
+    },
+    "actions": {
+      "reactivate": "እንደገና አንቃ",
+      "block": "አግድ",
+      "terminate": "አቋርጥ",
+      "delete": "ማህበረሰቡን ሰርዝ"
+    },
+    "blockDialog": {
+      "title": "ይህ የማህበረሰብ አስተዳዳሪ ይታገድ?",
+      "message": "አግድ {{name}}? እስካልታገዱ ድረስ መግባት አይችሉም። ምንም ውሂብ አይነካም።",
+      "confirm": "አግድ"
+    },
+    "terminateDialog": {
+      "title": "ይህ የማህበረሰብ አስተዳዳሪ ይቋረጥ?",
+      "message": "Permanently terminate {{name}}'s access? This cannot be undone, though their community's data will be kept for records.",
+      "confirm": "አቋርጥ"
+    },
+    "deleteDialog": {
+      "title": "ይህ ማህበረሰብ ይሰረዝ?",
+      "message": "ይህ <strong>{{name}}</strong>ን እና ሁሉንም ቤተሰቡን፣ ነዋሪዎችን፣ ሜትሮችን፣ የታሪፍ/የሂሳብ አከፋፈል ውቅረትን እና የክፍያ መጠየቂያ ታሪክን እስከመጨረሻው ይሰርዛል። ይህ እርምጃ ሊቀለበስ አይችልም።",
+      "typeToConfirm": "ለመቀጠል <strong>{{word}}</strong> ይተይቡ",
+      "confirm": "አረጋግጥ"
+    },
+    "residents": {
+      "title": "ነዋሪዎች",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "በዚህ ማህበረሰብ ውስጥ እስካሁን የተመዘገቡ ነዋሪዎች የሉም።",
+      "table": {
+        "flatUnit": "ጠፍጣፋ ክፍል",
+        "meter": "ሜትር",
+        "resident": "ነዋሪ",
+        "email": "ኢሜይል",
+        "passwordSet": "የይለፍ ቃል አዘጋጅ"
+      },
+      "yes": "አዎ",
+      "no": "አይ"
+    },
+    "cancel": "ሰርዝ",
+    "working": "በመስራት ላይ…",
+    "deleting": "በመሰረዝ ላይ…"
+  },
+  "systemStatus": {
+    "statusError": "የስርዓት ሁኔታን ለመፈተሽ ከኋላ በኩል መድረስ አልተቻለም።",
+    "metricsError": "የመለኪያ ታሪክን መጫን አልተቻለም።",
+    "ranges": {
+      "fiveMinutes": "5 ደቂቃዎች",
+      "fifteenMinutes": "15 ደቂቃዎች",
+      "hour": "ሰአት",
+      "day": "ቀን",
+      "week": "ሳምንት",
+      "month": "ወር",
+      "threeMonths": "3 ወራት"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}} ሰ",
+      "minutes": "{{value}} ሜትር"
+    },
+    "charts": {
+      "requestsPerSec": "ጥያቄዎች/ሰከንድ",
+      "opsPerSec": "ኦፕ/ሰከንድ",
+      "latency": "መዘግየት",
+      "lastValue": "{{value}} last",
+      "loading": "በመጫን ላይ…",
+      "empty": "እስካሁን ለዚህ ክልል ምንም ልኬቶች አልተመዘገቡም።"
+    },
+    "stats": {
+      "min": "ደቂቃ፡ <b>{{value}}</b>",
+      "avg": "አማካኝ፡ <b>{{value}}</b>",
+      "max": "ከፍተኛ፡ <b>{{value}}</b>",
+      "last": "የመጨረሻው፡ <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "በማጣራት ላይ…",
+      "reachable": "ሊደረስበት የሚችል",
+      "unreachable": "የማይደረስ",
+      "connected": "ተገናኝቷል።",
+      "backendApiHint": "ይህ ገጽ ከጀርባ ተጭኗል፣ ስለዚህ ምላሽ ሰጥቷል።",
+      "database": "የውሂብ ጎታ",
+      "databaseHint": "የ PostgreSQL ግንኙነት፣ በቀጥታ የተረጋገጠ።",
+      "uptime": "የመጠባበቂያ ጊዜ",
+      "uptimeHint": "የመጨረሻው መተግበሪያ እንደገና ከተጀመረ በኋላ።",
+      "appVersion": "የመተግበሪያ ሥሪት",
+      "appVersionHint": "የኋላ ግንባታ ስሪት።"
+    },
+    "mini": {
+      "latency": "መዘግየት",
+      "readsLatency": "መዘግየትን ያነባል።",
+      "writesLatency": "መዘግየትን ይጽፋል",
+      "otherLatency": "ሌላ መዘግየት",
+      "connections": "ግንኙነቶች",
+      "totalKeys": "ጠቅላላ ቁልፎች"
+    },
+    "note": "ጥያቄዎች/ሰከንድ እና መዘግየት ከቀጥታ የኋላ ትራፊክ በየ15 ሰከንድ ይወሰዳሉ እና እስከ 100 ቀናት ድረስ ይቀመጣሉ። ይህ መሠረታዊ የግንኙነት + የትራፊክ ፍተሻ ነው - ሙሉ የመተግበሪያ አፈጻጸም ክትትልን፣ የምዝግብ ማስታወሻ ማሰባሰብን ወይም ማንቂያን አይተካም።"
+  },
+  "reports": {
+    "loadError": "የመድረክ ሪፖርቱን መጫን አልተቻለም።",
+    "ranges": {
+      "threeMonths": "3 ወራት",
+      "sixMonths": "6 ወራት",
+      "twelveMonths": "12 ወራት",
+      "custom": "ብጁ"
+    },
+    "sortOptions": {
+      "community": "ማህበረሰብ",
+      "usage": "አጠቃቀም",
+      "billed": "ተከፍሏል።",
+      "residents": "ነዋሪዎች"
+    },
+    "customRange": {
+      "from": "ከ",
+      "to": "ለ",
+      "hint": "ብጁ ሪፖርት ለመጫን ሁለቱንም የ\"ከ\" እና \"ወደ\" ወር ይምረጡ።"
+    },
+    "loading": "ሪፖርትን በመጫን ላይ…",
+    "cards": {
+      "totalCommunities": "ጠቅላላ ማህበረሰቦች",
+      "inThisRange": "በዚህ ክልል ውስጥ",
+      "totalResidents": "ጠቅላላ ነዋሪዎች",
+      "acrossAllCommunities": "በሁሉም ማህበረሰቦች ውስጥ",
+      "overallUsage": "አጠቃላይ አጠቃቀም",
+      "meteredConsumption": "ሜትር ፍጆታ",
+      "overallBilled": "በአጠቃላይ ክፍያ ተከፍሏል።",
+      "finalizedInvoicesOnly": "የተጠናቀቁ ደረሰኞች ብቻ",
+      "avgUsagePerResident": "አማካይ አጠቃቀም / ነዋሪ",
+      "avgBillPerResident": "አማካይ ሂሳብ / ነዋሪ"
+    },
+    "charts": {
+      "usageTitle": "Platform-wide Usage (kL / month)",
+      "usageEmpty": "ለዚህ ክልል ምንም ጥቅም አልተመዘገበም።",
+      "usageSeries": "አጠቃቀም",
+      "billedTitle": "መድረክ-ሰፊ የሚከፈልበት መጠን (₹ በወር)",
+      "billedEmpty": "ለዚህ ክልል ምንም ደረሰኞች አልተጠናቀቁም።",
+      "billedSeries": "ተከፍሏል።"
+    },
+    "searchPlaceholder": "በማህበረሰብ ወይም በአስተዳዳሪ ስም አጣራ",
+    "empty": "ምንም ማህበረሰቦች እስካሁን ለዚህ ክልል የአጠቃቀም ወይም የመክፈያ ውሂብ የላቸውም።",
+    "noMatch": "ከእርስዎ ማጣሪያ ጋር የሚዛመዱ ምንም ማህበረሰቦች የሉም።",
+    "table": {
+      "community": "ማህበረሰብ",
+      "admin": "አስተዳዳሪ",
+      "residents": "ነዋሪዎች",
+      "usage": "Usage (kL)",
+      "billed": "የሚከፈልበት (₹)",
+      "avgUsagePerResident": "አማካይ አጠቃቀም / ነዋሪ",
+      "avgBillPerResident": "አማካይ ሂሳብ / ነዋሪ"
+    }
+  },
+  "supportTickets": {
+    "title": "ትኬቶችን ይደግፉ",
+    "subtitle": "የድጋፍ ትኬቶችን እና በነዋሪዎች እና በማህበረሰብ አስተዳዳሪዎች የተነሱ ስጋቶችን መድረክ-ሰፊ።"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Yn dod yn fuan",
+    "welcome": {
+      "greeting": "Helo {{name}},",
+      "greetingFallback": "Helo yno,",
+      "title": "Arhoswch yn agos at stori dŵr eich cartref.",
+      "subtitle": "Bydd mewnwelediadau defnydd a bilio yn ymddangos yma wrth i'ch cymuned gofnodi darlleniadau.",
+      "viewBadges": "Gweld Eco-Fathodynnau"
+    },
+    "stats": {
+      "todaysUsage": "Defnydd Heddiw",
+      "asOf": "O {{date}}",
+      "noReading": "Dim darlleniad mesurydd eto",
+      "monthlyTotalFor": "Cyfanswm Misol ({{month}})",
+      "monthlyTotalThisMonth": "Cyfanswm Misol (y mis hwn)",
+      "sumOfReadings": "Swm y darlleniadau a gofnodwyd",
+      "estimatedBill": "Mesur Amcangyfrif Presennol",
+      "estimatedBillFor": "Defnydd mesuredig + taliadau a rennir, {{month}}",
+      "estimatedBillHint": "Yn seiliedig ar ddefnydd mesuredig y mis hwn a thaliadau a rennir",
+      "savings": "Arbedion vs Adeiladu Cyf",
+      "savingsValue": "{{percent}} % Llai",
+      "savingsPreview": "Rhagolwg yn unig - cymhariaeth ddim yn fyw eto"
+    },
+    "consumption": {
+      "eyebrow": "Treuliant",
+      "title": "Defnydd Dyddiol (14 Darlleniad Diwethaf)",
+      "seriesName": "Treuliant",
+      "empty": "Dim darlleniadau wedi'u cofnodi eto."
+    },
+    "breakdown": {
+      "eyebrow": "Chwalfa",
+      "title": "Dadansoddiad Defnydd",
+      "bathroom": "Ystafell ymolchi",
+      "kitchen": "Cegin",
+      "garden": "Gardd / Balconi",
+      "other": "Arall / Golchdy"
+    },
+    "billing": {
+      "eyebrow": "Bilio",
+      "title": "Cylch Bilio Gweithredol",
+      "finalized": "Wedi ei derfynu",
+      "preview": "Rhagolwg",
+      "meteredConsumption": "Defnydd mesuredig",
+      "tierPriceLevel": "Haen lefel pris",
+      "tierLabel": "Haen {{tier}}",
+      "commonArea": "Dosraniad ardal gyffredin",
+      "commonAreaPreview": "Dosraniad ardal gyffredin (rhagolwg)",
+      "invoiceTotal": "{{period}} cyfanswm yr anfoneb",
+      "estimatedCharge": "Tâl amcangyfrifedig cyfredol",
+      "commonAreaBreakdown": "Dadansoddiad ardal gyffredin",
+      "payPreview": "Rhagolwg Bil Tâl",
+      "payUnavailable": "Peiriant bilio ddim ar gael eto"
+    },
+    "tips": {
+      "eyebrow": "Cynghorion",
+      "title": "Awgrymiadau Arbed Clyfar",
+      "viewAll": "Gweld y cyfan",
+      "empty": "Mae awgrymiadau personol yn ymddangos yma ar ôl i'ch cymuned gwblhau cylch bilio."
+    },
+    "community": "Cymuned: {{name}}"
+  },
+  "usage": {
+    "loadError": "Methu llwytho eich hanes defnydd. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho eich dadansoddiadau defnydd…",
+    "empty": "Dim darlleniadau wedi'u cofnodi eto. Unwaith y bydd eich cymuned yn cofnodi darlleniad mesurydd, bydd yn ymddangos yma.",
+    "tabs": {
+      "lastSixMonths": "6 Mis diwethaf",
+      "customRange": "Ystod Custom",
+      "comingSoon": "Yn dod yn fuan"
+    },
+    "peakDay": "Diwrnod Brig:",
+    "lowestDay": "Diwrnod Isaf:",
+    "comparison": {
+      "title": "Defnydd Aelwyd yn erbyn Cyfartaledd Apartment",
+      "subtitle": "Dangosir cyfansymiau misol mewn kiloliters (kL).",
+      "yourHousehold": "Eich Aelwyd",
+      "apartmentAverage": "Cyfartaledd Apartment",
+      "similarSized": "Cartrefi o Faint Cyffelyb"
+    },
+    "heatmap": {
+      "title": "Map Gwres Defnydd Dyddiol",
+      "subtitle": "Mae dwyster lliw yn amlygu diwrnodau defnydd trwm (rhagolwg)."
+    },
+    "ranking": {
+      "title": "Safle Cymheiriaid Cymunedol",
+      "subtitle": "Eich rheng o gymharu ag unedau tebyg (rhagolwg).",
+      "ecoSaver": "Arbedwr Eco Actif",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Uned {{number}}",
+      "yourUnit": "Eich uned",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}}{{unit}} (Chi)"
+    }
+  },
+  "billing": {
+    "loadError": "Methu llwytho eich hanes bilio. Ceisiwch eto.",
+    "pdfError": "Methu lawrlwytho'r PDF. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho eich hanes bilio…",
+    "empty": "Dim anfonebau eto - unwaith y bydd eich cymuned yn cwblhau cylch bilio, bydd eich biliau yn ymddangos yma.",
+    "status": {
+      "paid": "Talwyd",
+      "unpaid": "Di-dâl"
+    },
+    "summary": {
+      "outstandingBalance": "Cydbwysedd Eithriadol",
+      "billingCycle": "Cylch Bilio: {{period}}",
+      "allPaid": "Telir pob anfoneb",
+      "payTotal": "Cyfanswm Talu heb ei dalu",
+      "payTotalUnavailable": "Nid yw taliad ar-lein ar gael eto - talwch eich biliau'n uniongyrchol gyda'ch gweinyddwr cymunedol",
+      "downloadSummary": "Lawrlwythwch Crynodeb Bil",
+      "downloadSummaryUnavailable": "Nid yw crynodeb o'r bil ar gael eto"
+    },
+    "history": {
+      "title": "Hanes Anfoneb",
+      "exportCsv": "Allforio Pawb i CSV",
+      "exportUnavailable": "CSV nid yw allforio ar gael eto"
+    },
+    "table": {
+      "cycle": "Beicio",
+      "usage": "Defnydd (kL)",
+      "amountDue": "Swm Dyledus",
+      "paymentStatus": "Statws Talu",
+      "hideBreakdown": "Cuddio Dadansoddiad ↑",
+      "showBreakdown": "Dadansoddiad Eitemedig ↓",
+      "downloading": "Wrthi'n llwytho i lawr…",
+      "pdf": "PDF",
+      "pay": "Talu"
+    },
+    "breakdown": {
+      "householdTitle": "Dadansoddiad Defnydd Aelwydydd",
+      "basePrice": "Pris Sylfaenol: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Haen {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Defnydd Mesuredig Is-gyfanswm",
+      "commonAreaTitle": "Dosraniad Ardal Gyffredin",
+      "subtotalShared": "Is-gyfanswm Ardal a Rennir",
+      "noCommonArea": "Dim taliadau ardal gyffredin a rennir ar gyfer y cylch hwn."
+    },
+    "pagination": {
+      "showing": "Yn dangos {{from}}–{{to}} o {{total}}",
+      "prev": "← Cynt",
+      "next": "Nesaf →",
+      "page": "Tudalen {{page}} o {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Dulliau talu (rhagolwg)",
+      "description": "Nid yw taliad ar-lein ar gael eto - caiff biliau eu setlo'n uniongyrchol gyda'ch gweinyddwr cymunedol.",
+      "manage": "Rheoli Dulliau Talu",
+      "manageUnavailable": "Nid yw dulliau talu ar gael eto"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Wedi'i ddiogelu gan Razorpay",
+    "billingCycle": "Cylch Bilio {{period}}",
+    "close": "Cau",
+    "amountPayable": "Swm Taladwy",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Cardiau",
+      "netbanking": "Bancio rhwyd",
+      "wallet": "Waled"
+    },
+    "upi": {
+      "title": "Talu drwy UPI",
+      "upiId": "UPI ID",
+      "or": "NEU",
+      "scan": "Sganiwch gydag unrhyw ap UPI"
+    },
+    "card": {
+      "title": "Talu trwy Gerdyn",
+      "number": "Rhif Cerdyn",
+      "expiry": "Dod i ben",
+      "expiryPlaceholder": "MM / BB",
+      "cvv": "CVV",
+      "name": "Enw ar Gerdyn",
+      "namePlaceholder": "Fel yr argraffwyd ar gerdyn"
+    },
+    "netbanking": {
+      "title": "Talu trwy Fancio Rhwyd"
+    },
+    "wallet": {
+      "title": "Talu trwy Waled"
+    },
+    "payAmount": "Talu ₹{{amount}}",
+    "processing": "Wrthi'n prosesu'ch taliad…",
+    "processingHint": "Peidiwch â phwyso'n ôl nac adnewyddu'r dudalen hon",
+    "success": "Taliad yn Llwyddiannus",
+    "error": "Aeth rhywbeth o'i le yn cadarnhau eich taliad. Ceisiwch eto.",
+    "retry": "Ceisiwch eto"
+  },
+  "notifications": {
+    "loadError": "Methu llwytho eich hysbysiadau. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho eich hysbysiadau…",
+    "empty": "Dim hysbysiadau eto - fe welwch rywbeth yma os yw eich gweinyddwr cymunedol wedi galluogi rhybuddion defnydd-trothwy neu ddefnydd anarferol a bod un yn cael ei sbarduno ar gyfer eich cartref.",
+    "type": {
+      "thresholdExceeded": "Trothwy Defnydd wedi mynd y tu hwnt",
+      "statisticalOutlier": "Canfod Defnydd Anarferol"
+    },
+    "status": {
+      "active": "Actif",
+      "resolved": "Penderfynwyd",
+      "dismissed": "Wedi'i ddiswyddo"
+    },
+    "billingPeriod": "Cyfnod bilio: {{period}}",
+    "consumption": "Defnydd: {{value}} kL",
+    "push": {
+      "title": "Hysbysiadau gwthio",
+      "description": "Cael gwybod ar y ddyfais hon pan fydd bil neu rybudd newydd yn dod i mewn.",
+      "enable": "Galluogi",
+      "disable": "Analluogi",
+      "permissionDenied": "Ni roddwyd caniatâd hysbysu.",
+      "notConfigured": "Nid yw hysbysiadau gwthio wedi'u ffurfweddu eto. Cysylltwch â'ch gweinyddwr.",
+      "enableError": "Ni fu modd galluogi hysbysiadau gwthio. Ceisiwch eto.",
+      "disableError": "Methu ag analluogi hysbysiadau gwthio. Ceisiwch eto."
+    }
+  },
+  "recommendations": {
+    "loadError": "Methu llwytho eich argymhellion. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho eich awgrymiadau personol…",
+    "generated": "Cynhyrchwyd {{date}}",
+    "generatedForPeriod": "Cynhyrchwyd {{date}} ar gyfer y cyfnod bilio {{period}}",
+    "eyebrow": "Wedi'i bersonoli i chi",
+    "title": "Syniadau Clyfar ar Arbed Dŵr",
+    "empty": "Dim awgrymiadau wedi'u cynhyrchu eto - caiff y rhain eu hadnewyddu'n awtomatig bob tro y bydd eich cymuned yn cwblhau cylch bilio ar gyfer eich cartref."
+  },
+  "support": {
+    "title": "Desg Cefnogi a Phryderon Preswylwyr",
+    "subtitle": "Cyflwyno adroddiadau gollyngiadau dŵr, ceisiadau graddnodi mesurydd, neu ymholiadau bilio yn uniongyrchol i'ch gweinyddwr cymunedol a / neu Weinyddwr System.",
+    "emptyCreateHint": "Disgrifiwch eich mater neu bryder isod, a dewiswch pwy ddylai ymdrin ag ef."
+  }
+}

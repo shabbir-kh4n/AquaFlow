@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kommer snart",
+    "welcome": {
+      "greeting": "Hej {{name}},",
+      "greetingFallback": "Hej där,",
+      "title": "Håll dig nära ditt hems vattenhistoria.",
+      "subtitle": "Användnings- och faktureringsinsikter visas här när din grupp registrerar avläsningar.",
+      "viewBadges": "Se Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Dagens användning",
+      "asOf": "Från och med {{date}}",
+      "noReading": "Ingen mätarställning ännu",
+      "monthlyTotalFor": "Månadssumma ({{month}})",
+      "monthlyTotalThisMonth": "Månadssumma (denna månad)",
+      "sumOfReadings": "Summan av registrerade avläsningar",
+      "estimatedBill": "Aktuell beräknad räkning",
+      "estimatedBillFor": "Uppmätt användning + delade avgifter, {{month}}",
+      "estimatedBillHint": "Baserat på denna månads uppmätta förbrukning och delade avgifter",
+      "savings": "Besparingar vs byggnadsgenomsnitt",
+      "savingsValue": "{{percent}}% mindre",
+      "savingsPreview": "Endast förhandsgranskning — jämförelse ännu inte live"
+    },
+    "consumption": {
+      "eyebrow": "Konsumtion",
+      "title": "Daglig konsumtion (senaste 14 avläsningarna)",
+      "seriesName": "Konsumtion",
+      "empty": "Inga avläsningar registrerade ännu."
+    },
+    "breakdown": {
+      "eyebrow": "Sammanbrott",
+      "title": "Användningsfördelning",
+      "bathroom": "Badrum",
+      "kitchen": "Kök",
+      "garden": "Trädgård / Balkong",
+      "other": "Övrigt / Tvätt"
+    },
+    "billing": {
+      "eyebrow": "Fakturering",
+      "title": "Aktiv faktureringscykel",
+      "finalized": "Avslutad",
+      "preview": "Förhandsvisning",
+      "meteredConsumption": "Uppmätt förbrukning",
+      "tierPriceLevel": "Nivåprisnivå",
+      "tierLabel": "Nivå {{tier}}",
+      "commonArea": "Gemensam yta",
+      "commonAreaPreview": "Gemensamt områdesfördelning (förhandsvisning)",
+      "invoiceTotal": "{{period}} faktura totalt",
+      "estimatedCharge": "Aktuell beräknad avgift",
+      "commonAreaBreakdown": "Gemensamt områdesfördelning",
+      "payPreview": "Förhandsvisning av betala räkning",
+      "payUnavailable": "Faktureringsmotor ännu inte tillgänglig"
+    },
+    "tips": {
+      "eyebrow": "Tips",
+      "title": "Smarta spartips",
+      "viewAll": "Visa alla",
+      "empty": "Personliga tips visas här när din grupp har slutfört en faktureringscykel."
+    },
+    "community": "Grupp: {{name}}"
+  },
+  "usage": {
+    "loadError": "Det gick inte att ladda din användningshistorik. Försök igen.",
+    "loading": "Laddar din användningsanalys...",
+    "empty": "Inga avläsningar registrerade ännu. När din grupp registrerar en mätarställning kommer den att visas här.",
+    "tabs": {
+      "lastSixMonths": "Senaste 6 månaderna",
+      "customRange": "Anpassat intervall",
+      "comingSoon": "Kommer snart"
+    },
+    "peakDay": "Högsta dag:",
+    "lowestDay": "Lägsta dag:",
+    "comparison": {
+      "title": "Hushållens konsumtion vs lägenhetsgenomsnitt",
+      "subtitle": "Månadssummor visas i kiloliter (kL).",
+      "yourHousehold": "Ditt hushåll",
+      "apartmentAverage": "Lägenhet genomsnitt",
+      "similarSized": "Hem i liknande storlek"
+    },
+    "heatmap": {
+      "title": "Daglig förbrukning värmekarta",
+      "subtitle": "Färgintensitet flaggar för tunga användningsdagar (förhandsgranskning)."
+    },
+    "ranking": {
+      "title": "Gemenskapens kamratranking",
+      "subtitle": "Din rankning jämfört med liknande enheter (förhandsgranskning).",
+      "ecoSaver": "Aktiv Eco Saver",
+      "aptNumber": "Lämplig {{number}}",
+      "unitNumber": "Enhet {{number}}",
+      "yourUnit": "Din enhet",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Du)"
+    }
+  },
+  "billing": {
+    "loadError": "Det gick inte att läsa in din faktureringshistorik. Försök igen.",
+    "pdfError": "Det gick inte att ladda ned PDF. Försök igen.",
+    "loading": "Läser in din faktureringshistorik...",
+    "empty": "Inga fakturor än – när din grupp har slutfört en faktureringscykel kommer dina räkningar att dyka upp här.",
+    "status": {
+      "paid": "Betalt",
+      "unpaid": "Obetald"
+    },
+    "summary": {
+      "outstandingBalance": "Utestående balans",
+      "billingCycle": "Faktureringscykel: {{period}}",
+      "allPaid": "Alla fakturor är betalda",
+      "payTotal": "Betala totalt utestående",
+      "payTotalUnavailable": "Onlinebetalning är inte tillgänglig ännu – betala räkningar direkt med din community-administratör",
+      "downloadSummary": "Ladda ner räkningssammanfattning",
+      "downloadSummaryUnavailable": "Nedladdning av fakturasammanfattning är inte tillgänglig ännu"
+    },
+    "history": {
+      "title": "Fakturahistorik",
+      "exportCsv": "Exportera alla till CSV",
+      "exportUnavailable": "CSV export är inte tillgänglig ännu"
+    },
+    "table": {
+      "cycle": "Cykel",
+      "usage": "Användning (kL)",
+      "amountDue": "Förfallna belopp",
+      "paymentStatus": "Betalningsstatus",
+      "hideBreakdown": "Dölj uppdelning ↑",
+      "showBreakdown": "Specificerad uppdelning ↓",
+      "downloading": "Laddar ned...",
+      "pdf": "PDF",
+      "pay": "Betala"
+    },
+    "breakdown": {
+      "householdTitle": "Hushållens konsumtionsfördelning",
+      "basePrice": "Baspris: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Nivå {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal uppmätt användning",
+      "commonAreaTitle": "Gemensamt områdesfördelning",
+      "subtotalShared": "Delsumma delad yta",
+      "noCommonArea": "Inga avgifter för delat gemensamt område för denna cykel."
+    },
+    "pagination": {
+      "showing": "Visar {{from}}–{{to}} av {{total}}",
+      "prev": "← Föreg",
+      "next": "Nästa →",
+      "page": "Sida {{page}} av {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Betalningsmetoder (förhandsgranskning)",
+      "description": "Onlinebetalning är inte tillgänglig ännu – räkningar regleras med din community-administratör direkt.",
+      "manage": "Hantera betalningsmetoder",
+      "manageUnavailable": "Betalningsmetoder är inte tillgängliga ännu"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Säkrad av Razorpay",
+    "billingCycle": "Faktureringscykel {{period}}",
+    "close": "Nära",
+    "amountPayable": "Belopp som ska betalas",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kort",
+      "netbanking": "Nätbank",
+      "wallet": "Plånbok"
+    },
+    "upi": {
+      "title": "Betala via UPI",
+      "upiId": "UPI ID",
+      "or": "ELLER",
+      "scan": "Skanna med valfri UPI app"
+    },
+    "card": {
+      "title": "Betala med kort",
+      "number": "Kortnummer",
+      "expiry": "Upphörande",
+      "expiryPlaceholder": "MM / ÅÅ",
+      "cvv": "CVV",
+      "name": "Namn på kortet",
+      "namePlaceholder": "Som tryckt på kortet"
+    },
+    "netbanking": {
+      "title": "Betala via nätbank"
+    },
+    "wallet": {
+      "title": "Betala via Wallet"
+    },
+    "payAmount": "Betala ₹{{amount}}",
+    "processing": "Bearbetar din betalning...",
+    "processingHint": "Vänligen tryck inte tillbaka eller uppdatera den här sidan",
+    "success": "Betalning lyckad",
+    "error": "Något gick fel när du bekräftade din betalning. Försök igen.",
+    "retry": "Försöka igen"
+  },
+  "notifications": {
+    "loadError": "Det gick inte att läsa in dina aviseringar. Försök igen.",
+    "loading": "Läser in dina aviseringar...",
+    "empty": "Inga aviseringar än – du kommer att se något här om din community-administratör har aktiverat varningar om användningströskel eller ovanlig konsumtion och en utlöses för ditt hushåll.",
+    "type": {
+      "thresholdExceeded": "Konsumtionströskeln har överskridits",
+      "statisticalOutlier": "Ovanlig förbrukning upptäckt"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Löst",
+      "dismissed": "Avskedad"
+    },
+    "billingPeriod": "Faktureringsperiod: {{period}}",
+    "consumption": "Förbrukning: {{value}} kL",
+    "push": {
+      "title": "Push-meddelanden",
+      "description": "Få ett meddelande på den här enheten när en ny faktura eller varning kommer in.",
+      "enable": "Aktivera",
+      "disable": "Inaktivera",
+      "permissionDenied": "Notifieringstillstånd beviljades inte.",
+      "notConfigured": "Push-meddelanden är inte konfigurerade ännu. Kontakta din administratör.",
+      "enableError": "Det gick inte att aktivera push-meddelanden. Försök igen.",
+      "disableError": "Det gick inte att inaktivera push-meddelanden. Försök igen."
+    }
+  },
+  "recommendations": {
+    "loadError": "Det gick inte att läsa in dina rekommendationer. Försök igen.",
+    "loading": "Laddar dina personliga tips...",
+    "generated": "Genererade {{date}}",
+    "generatedForPeriod": "Genererade {{date}} för faktureringsperiod {{period}}",
+    "eyebrow": "Personifierad för dig",
+    "title": "Smarta vattenbesparande tips",
+    "empty": "Inga tips har genererats ännu – dessa uppdateras automatiskt varje gång din grupp slutför en faktureringscykel för ditt hushåll."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Skicka rapporter om vattenläckage, förfrågningar om mätarekalibrering eller faktureringsförfrågningar direkt till din communityadministratör och/eller systemadministratör.",
+    "emptyCreateHint": "Beskriv ditt problem eller problem nedan och välj vem som ska hantera det."
+  }
+}

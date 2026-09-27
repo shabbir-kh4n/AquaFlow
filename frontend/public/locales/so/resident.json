@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Dhawaan imaanaya",
+    "welcome": {
+      "greeting": "Hello {{name}},",
+      "greetingFallback": "Salaamu calaykum",
+      "title": "U dhowow sheekada biyaha gurigaaga.",
+      "subtitle": "Isticmaalka iyo aragtida biilasha ayaa halkan ka soo muuqan doona iyadoo beeshaadu ay diiwaangelinayso akhrinta.",
+      "viewBadges": "Eeg Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Isticmaalka Maanta",
+      "asOf": "As of {{date}}",
+      "noReading": "Weli wax mitir wax akhriya ma jiro",
+      "monthlyTotalFor": "Monthly Total ({{month}})",
+      "monthlyTotalThisMonth": "Wadarta Bisha (Bishan)",
+      "sumOfReadings": "Wadarta akhrinta la duubay",
+      "estimatedBill": "Biilasha Qiyaasta Hadda",
+      "estimatedBillFor": "Isticmaalka mitirka + kharashyada la wadaago, {{month}}",
+      "estimatedBillHint": "Iyada oo ku saleysan isticmaalka mitirka ee bishan iyo kharashyada la wadaago",
+      "savings": "Savings vs Building celcelis ahaan",
+      "savingsValue": "{{percent}}% ka yar",
+      "savingsPreview": "Aragtida kaliya - isbarbardhigga weli ma noola"
+    },
+    "consumption": {
+      "eyebrow": "Isticmaalka",
+      "title": "Isticmaalka maalinlaha ah (Akhris 14 ee u dambeeyay)",
+      "seriesName": "Isticmaalka",
+      "empty": "Weli wax akhrin ah lama duubin"
+    },
+    "breakdown": {
+      "eyebrow": "Burburinta",
+      "title": "Burburka Isticmaalka",
+      "bathroom": "Qolka musqusha",
+      "kitchen": "Jikada",
+      "garden": "Beerta / balakoonka",
+      "other": "Wax kale / dhar-dhaqid"
+    },
+    "billing": {
+      "eyebrow": "Biilasha",
+      "title": "Wareega Biilasha Firfircoon",
+      "finalized": "Dhammaatay",
+      "preview": "Horudhac",
+      "meteredConsumption": "Isticmaalka mitirka",
+      "tierPriceLevel": "Heerka qiimaha",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Qaybinta aagga guud",
+      "commonAreaPreview": "Aagga la wadaago (fiiri hore)",
+      "invoiceTotal": "{{period}} wadarta qaansheegta",
+      "estimatedCharge": "Qiimaha hadda la qiyaasay",
+      "commonAreaBreakdown": "Burburka aagga guud",
+      "payPreview": "Bixinta Biilka Hordhaca",
+      "payUnavailable": "Matoorka biilasha weli lama heli karo"
+    },
+    "tips": {
+      "eyebrow": "Talooyin",
+      "title": "Talooyin Badbaadinta Wacan",
+      "viewAll": "Eeg dhammaan",
+      "empty": "Talooyinka gaarka ah ayaa halkan ka muuqda kadib marka beeshaadu dhammayso wareegga biilasha."
+    },
+    "community": "Community: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ma rari karo taariikhda isticmaalkaaga Fadlan isku day mar kale",
+    "loading": "Soo dejinaya falanqaynta isticmaalkaaga…",
+    "empty": "Weli wax akhrin ah lama duubin Marka beeshaadu diiwaan geliso akhriska mitirka, waxay ka muuqan doontaa halkan.",
+    "tabs": {
+      "lastSixMonths": "6-dii bilood ee la soo dhaafay",
+      "customRange": "Range Custom",
+      "comingSoon": "Dhawaan imaanaya"
+    },
+    "peakDay": "Maalinta ugu sarreysa:",
+    "lowestDay": "Maalinta Ugu Hooseysa:",
+    "comparison": {
+      "title": "Isticmaalka Qoyska vs Celceliska Guriga",
+      "subtitle": "Monthly totals shown in kilolitres (kL).",
+      "yourHousehold": "Qoyskaaga",
+      "apartmentAverage": "Celceliska Guriga",
+      "similarSized": "Guryo la mid ah"
+    },
+    "heatmap": {
+      "title": "Khariidadda Kulaylka Isticmaalka Maalinlaha ah",
+      "subtitle": "Midabka xoojinta ayaa calamada maalmaha isticmaalka culus (fiiri)."
+    },
+    "ranking": {
+      "title": "Qiimaynta Asxaabta Bulshada",
+      "subtitle": "Darajadaada marka la barbar dhigo cutubyada la midka ah (fiiri).",
+      "ecoSaver": "Badbaadiyaha Eco ee Firfircoon",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unit {{number}}",
+      "yourUnit": "Unuggaaga",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Adiga)"
+    }
+  },
+  "billing": {
+    "loadError": "Ma rari karo taariikhdaada biilasha Fadlan isku day mar kale",
+    "pdfError": "Waa la soo dejin waayay PDF. Fadlan isku day mar kale",
+    "loading": "Soo raraysa taariikhdaada biilasha…",
+    "empty": "Weli qaan-sheegyo ma jiraan - marka beeshaadu dhammayso wareegga biilasha, biilashaadu waxay ka muuqan doonaan halkan.",
+    "status": {
+      "paid": "La bixiyay",
+      "unpaid": "Lacag la'aan"
+    },
+    "summary": {
+      "outstandingBalance": "Isu-dheelitirnaan Fiican",
+      "billingCycle": "Wareegga biilasha: {{period}}",
+      "allPaid": "Dhammaan qaansheegyada waa la bixiyaa",
+      "payTotal": "Bixi Wadarta Guud ee Bixinta",
+      "payTotalUnavailable": "Lacag bixinta onlaynka ah weli lama heli karo - si toos ah ula xalli biilasha maamulka beeshaada",
+      "downloadSummary": "Soo deji Biilka Kooban",
+      "downloadSummaryUnavailable": "Soo dejinta biilka oo kooban wali lama heli karo"
+    },
+    "history": {
+      "title": "Taariikhda qaansheegta",
+      "exportCsv": "U Dhoofi Dhammaan CSV",
+      "exportUnavailable": "CSV export isn't available yet"
+    },
+    "table": {
+      "cycle": "Wareegto",
+      "usage": "Usage (kL)",
+      "amountDue": "Qadarka La rabo",
+      "paymentStatus": "Heerka Lacag-bixinta",
+      "hideBreakdown": "Qari burburka ↑",
+      "showBreakdown": "Burburka shayga leh ↓",
+      "downloading": "Soo dejinaya…",
+      "pdf": "PDF",
+      "pay": "Bixi"
+    },
+    "breakdown": {
+      "householdTitle": "Burburka Isticmaalka Qoyska",
+      "basePrice": "Qiimaha saldhiga: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Heerka {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Wadarta mitirka isticmaalka",
+      "commonAreaTitle": "Qaybinta Aaga Guud",
+      "subtotalShared": "Wadarta Guud ee Aagga La Wadaago",
+      "noCommonArea": "Ma jiraan wax kharash ah oo la wadaago goobta-wareeggan."
+    },
+    "pagination": {
+      "showing": "Muujinaya {{from}} -{{to}} ee {{total}}",
+      "prev": "← Horay",
+      "next": "Xiga →",
+      "page": "Bogga {{page}} ee {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Hababka lacag bixinta (fiiri hore)",
+      "description": "Lacag bixinta onlaynka ah weli lama heli karo - biilasha waxaa si toos ah loola xalliyaa maamulka beeshaada.",
+      "manage": "Maamul hababka lacag bixinta",
+      "manageUnavailable": "Hababka lacag bixinta weli lama heli karo"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Waxaa xafiday Razorpay",
+    "billingCycle": "Wareegga biilasha {{period}}",
+    "close": "Xir",
+    "amountPayable": "Qadarka la bixin karo",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kaararka",
+      "netbanking": "Netbanking",
+      "wallet": "Wallet"
+    },
+    "upi": {
+      "title": "Pay via UPI",
+      "upiId": "UPI Aqoonsi",
+      "or": "AMA",
+      "scan": "Scan with any UPI app"
+    },
+    "card": {
+      "title": "Ku bixi Kaarka",
+      "number": "Lambarka Kaadhka",
+      "expiry": "Dhicis",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Magaca kaadhka",
+      "namePlaceholder": "Sida ku daabacan kaarka"
+    },
+    "netbanking": {
+      "title": "Ku bixi adigoo isticmaalaya Netbanking"
+    },
+    "wallet": {
+      "title": "Ku bixi adigoo isticmaalaya Wallet"
+    },
+    "payAmount": "Bixi ₹{{amount}}",
+    "processing": "Hagaajinta lacag bixintaada…",
+    "processingHint": "Fadlan dib ha u cadaadin hana dib u cusboonaysiin boggan",
+    "success": "Lacag-bixinta ayaa lagu guulaystay",
+    "error": "Waxbaa khaldamay xaqiijinta lacag bixintaada Fadlan isku day mar kale",
+    "retry": "Isku day"
+  },
+  "notifications": {
+    "loadError": "Ma soo shubi karayn wargelintaada Fadlan isku day mar kale",
+    "loading": "Soo dejinaya wargelintaada…",
+    "empty": "Weli wax ogeysiin ah ma jiraan - waxaad ku arki doontaa halkan wax haddii maamulka beeshaadu uu karti-u-yeelay heerka isticmaalka ama digniinta isticmaalka aan caadiga ahayn oo mid ka mid ah uu kiciyo qoyskaaga.",
+    "type": {
+      "thresholdExceeded": "Xaddiga Isticmaalka Way dhaaftay",
+      "statisticalOutlier": "Isticmaal aan Caadi ahayn oo la ogaaday"
+    },
+    "status": {
+      "active": "Firfircoon",
+      "resolved": "La xaliyay",
+      "dismissed": "La fasaxay"
+    },
+    "billingPeriod": "Muddada biilasha: {{period}}",
+    "consumption": "Consumption: {{value}} kL",
+    "push": {
+      "title": "Riix ogeysiisyada",
+      "description": "La socodsii qalabkan marka biil cusub ama digniin uu yimaado.",
+      "enable": "Daar",
+      "disable": "Dami",
+      "permissionDenied": "Ogolaanshaha ogeysiinta lama siin",
+      "notConfigured": "Ogeysiiska riix weli lama habbin La xidhiidh maamulahaaga.",
+      "enableError": "Ma suurtagelin karin ogeysiisyada riixitaanka Fadlan isku day mar kale",
+      "disableError": "Waa la joojin waayay ogeysiisyada riixitaanka Fadlan isku day mar kale"
+    }
+  },
+  "recommendations": {
+    "loadError": "Waa la rari waayay taladaada Fadlan isku day mar kale",
+    "loading": "Soo dejinaya talooyinkaaga gaarka ah…",
+    "generated": "Generated {{date}}",
+    "generatedForPeriod": "Loo sameeyay {{date}} muddada biilasha {{period}}",
+    "eyebrow": "Adiga lagu gaaryeelay",
+    "title": "Talooyin Badbaadinta Biyaha Wacan",
+    "empty": "Weli wax tallo ah lama soo saarin - kuwan si toos ah ayaa loo cusboonaysiiyaa mar kasta oo beeshaadu dhammayso wareegga biilasha qoyskaaga."
+  },
+  "support": {
+    "title": "Taageerada Deganeyaasha & Miiska welwelka",
+    "subtitle": "U soo gudbi warbixinnada daadinta biyaha, codsiyada cabbirida mitirka, ama weydiimaha biilasha si toos ah maamulka beeshaada iyo/ama Maamulka Nidaamka.",
+    "emptyCreateHint": "Hoos ku sharax arrintaada ama welwelkaaga, oo dooro cidda wax ka qabanaysa."
+  }
+}

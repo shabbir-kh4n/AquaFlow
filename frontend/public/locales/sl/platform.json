@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiven",
+    "blocked": "blokiran",
+    "terminated": "Prekinjeno"
+  },
+  "sort": {
+    "sortBy": "Razvrsti po",
+    "toggleDirection": "Preklopi smer razvrščanja",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Prikaz {{from}}–{{to}} od {{total}}",
+    "prev": "← Prejšnji",
+    "next": "Naprej →",
+    "page": "Stran {{page}} od {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Pregled platforme",
+    "subtitle": "Vsak registriran skrbnik skupnosti na celotni platformi HydroLedger.",
+    "viewAll": "Prikaži vse skupnosti",
+    "loadError": "Podatkov o platformi trenutno ni bilo mogoče naložiti.",
+    "cards": {
+      "totalCommunities": "Skupne skupnosti",
+      "registeredAdmins": "Registrirani admini",
+      "totalResidents": "Skupaj Prebivalci",
+      "acrossAllCommunities": "V vseh skupnostih",
+      "active": "Aktiven",
+      "inGoodStanding": "V dobrem stanju",
+      "blockedTerminated": "Blokirano/ukinjeno",
+      "blockedTerminatedBreakdown": "{{blocked}} blokiran, {{terminated}} prekinjen"
+    },
+    "recent": {
+      "title": "Nedavno registrirane skupnosti",
+      "loading": "Nalaganje ...",
+      "empty": "Nobena skupnost še ni registrirana.",
+      "table": {
+        "community": "Skupnost",
+        "admin": "skrbnik",
+        "status": "Stanje",
+        "residents": "Prebivalci"
+      }
+    }
+  },
+  "communities": {
+    "count": "Skupnosti: {{count}}",
+    "loadError": "Skupnosti ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "searchPlaceholder": "Filtrirajte po skupnosti, imenu skrbnika ali e-pošti",
+    "statusFilter": {
+      "label": "Stanje",
+      "all": "Vse"
+    },
+    "sortOptions": {
+      "community": "Skupnost",
+      "admin": "skrbnik",
+      "residents": "Prebivalci"
+    },
+    "loading": "Nalaganje skupnosti ...",
+    "empty": "Nobena skupnost še ni registrirana.",
+    "noMatch": "Nobena skupnost se ne ujema z vašimi filtri.",
+    "table": {
+      "community": "Skupnost",
+      "admin": "skrbnik",
+      "email": "E-pošta",
+      "status": "Stanje",
+      "residents": "Prebivalci",
+      "view": "Pogled"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Te skupnosti ni bilo mogoče naložiti. Morda je bil odstranjen.",
+    "statusUpdateError": "Ni bilo mogoče posodobiti statusa te skupnosti.",
+    "deleteError": "Te skupnosti ni bilo mogoče izbrisati.",
+    "loading": "Nalaganje skupnosti ...",
+    "notFound": "Skupnosti ni mogoče najti.",
+    "backLink": "← Nazaj na skupnosti",
+    "backLinkShort": "Nazaj na skupnosti",
+    "eyebrow": "Profil skupnosti",
+    "unnamed": "Neimenovana skupnost",
+    "noAddress": "Ni naslova v datoteki",
+    "stats": {
+      "residents": "Prebivalci",
+      "status": "Stanje"
+    },
+    "actions": {
+      "reactivate": "Ponovno aktiviraj",
+      "block": "Blokiraj",
+      "terminate": "Prekiniti",
+      "delete": "Izbriši skupnost"
+    },
+    "blockDialog": {
+      "title": "Želite blokirati tega skrbnika skupnosti?",
+      "message": "Blokirati {{name}}? Ne bodo se mogli prijaviti, dokler ne bodo odblokirani. To ne bo vplivalo na nobene podatke.",
+      "confirm": "Blokiraj"
+    },
+    "terminateDialog": {
+      "title": "Želite ukiniti tega skrbnika skupnosti?",
+      "message": "Trajno prekiniti dostop osebe {{name}}? Tega ni mogoče razveljaviti, čeprav bodo podatki njihove skupnosti ohranjeni za evidenco.",
+      "confirm": "Prekiniti"
+    },
+    "deleteDialog": {
+      "title": "Želite izbrisati to skupnost?",
+      "message": "S tem boste trajno izbrisali <strong>{{name}}</strong> in vsa njegova gospodinjstva, prebivalce, števce, konfiguracijo tarif/računov in zgodovino računov. Tega dejanja ni mogoče razveljaviti.",
+      "typeToConfirm": "Za nadaljevanje vnesite <strong>{{word}}</strong>.",
+      "confirm": "Potrdi"
+    },
+    "residents": {
+      "title": "Prebivalci",
+      "registeredCount": "Registriran: {{count}}",
+      "empty": "V tej skupnosti še ni registriran noben prebivalec.",
+      "table": {
+        "flatUnit": "Ploščata enota",
+        "meter": "Merilnik",
+        "resident": "Stanovnik",
+        "email": "E-pošta",
+        "passwordSet": "Nastavljeno geslo"
+      },
+      "yes": "ja",
+      "no": "št"
+    },
+    "cancel": "Prekliči",
+    "working": "Delo ...",
+    "deleting": "Brisanje …"
+  },
+  "systemStatus": {
+    "statusError": "Ni bilo mogoče doseči zaledja za preverjanje stanja sistema.",
+    "metricsError": "Ni bilo mogoče naložiti zgodovine meritev.",
+    "ranges": {
+      "fiveMinutes": "5 minut",
+      "fifteenMinutes": "15 minut",
+      "hour": "ura",
+      "day": "Dan",
+      "week": "teden",
+      "month": "mesec",
+      "threeMonths": "3 mesece"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Zahteve/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Zakasnitev",
+      "lastValue": "{{value}} nazadnje",
+      "loading": "Nalaganje ...",
+      "empty": "Za ta obseg še ni zabeleženih nobenih meritev."
+    },
+    "stats": {
+      "min": "Najmanj: <b>{{value}}</b>",
+      "avg": "Povprečje: <b>{{value}}</b>",
+      "max": "Največ: <b>{{value}}</b>",
+      "last": "Zadnji: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Preverjanje ...",
+      "reachable": "Dosegljiv",
+      "unreachable": "Nedosegljivo",
+      "connected": "Povezan",
+      "backendApiHint": "Ta stran se je naložila iz ozadja, zato se je odzvala.",
+      "database": "Baza podatkov",
+      "databaseHint": "PostgreSQL povezljivost, preverjeno v živo.",
+      "uptime": "Zaledni čas delovanja",
+      "uptimeHint": "Od zadnjega ponovnega zagona aplikacije.",
+      "appVersion": "Različica aplikacije",
+      "appVersionHint": "Zaledna različica gradnje."
+    },
+    "mini": {
+      "latency": "Zakasnitev",
+      "readsLatency": "Bere zakasnitev",
+      "writesLatency": "Piše zakasnitev",
+      "otherLatency": "Druge latence",
+      "connections": "Povezave",
+      "totalKeys": "Skupaj ključev"
+    },
+    "note": "Zahteve/s in zakasnitev se vzorčijo iz prometa v ozadju v živo vsakih 15 sekund in se hranijo do 100 dni. To je osnovno preverjanje povezljivosti + prometa — ne nadomešča popolnega spremljanja delovanja aplikacije, združevanja dnevnikov ali opozarjanja."
+  },
+  "reports": {
+    "loadError": "Poročila o platformi ni bilo mogoče naložiti.",
+    "ranges": {
+      "threeMonths": "3 mesece",
+      "sixMonths": "6 mesecev",
+      "twelveMonths": "12 mesecev",
+      "custom": "Po meri"
+    },
+    "sortOptions": {
+      "community": "Skupnost",
+      "usage": "Uporaba",
+      "billed": "Zaračunano",
+      "residents": "Prebivalci"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "Za",
+      "hint": "Izberite mesec »od« in »do«, da naložite poročilo po meri."
+    },
+    "loading": "Nalaganje poročila …",
+    "cards": {
+      "totalCommunities": "Skupne skupnosti",
+      "inThisRange": "V tem razponu",
+      "totalResidents": "Skupaj Prebivalci",
+      "acrossAllCommunities": "V vseh skupnostih",
+      "overallUsage": "Celotna uporaba",
+      "meteredConsumption": "Merjena poraba",
+      "overallBilled": "Na splošno zaračunano",
+      "finalizedInvoicesOnly": "Samo končni računi",
+      "avgUsagePerResident": "Povprečna uporaba/prebivalec",
+      "avgBillPerResident": "Povprečni račun/rezident"
+    },
+    "charts": {
+      "usageTitle": "Uporaba na celotni platformi (kL / mesec)",
+      "usageEmpty": "Za ta obseg ni bila zabeležena uporaba.",
+      "usageSeries": "Uporaba",
+      "billedTitle": "Zaračunani znesek za celotno platformo (₹ / mesec)",
+      "billedEmpty": "Za ta obseg ni dokončanih računov.",
+      "billedSeries": "Zaračunano"
+    },
+    "searchPlaceholder": "Filtrirajte po imenu skupnosti ali skrbnika",
+    "empty": "Nobena skupnost še nima podatkov o uporabi ali obračunavanju za ta obseg.",
+    "noMatch": "Nobena skupnost ne ustreza vašemu filtru.",
+    "table": {
+      "community": "Skupnost",
+      "admin": "skrbnik",
+      "residents": "Prebivalci",
+      "usage": "Uporaba (kL)",
+      "billed": "Zaračunano (₹)",
+      "avgUsagePerResident": "Povprečna uporaba/prebivalec",
+      "avgBillPerResident": "Povprečni račun/rezident"
+    }
+  },
+  "supportTickets": {
+    "title": "Vstopnice za podporo",
+    "subtitle": "Vstopnice za podporo in pomisleki prebivalcev in skrbnikov skupnosti na celotni platformi."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Actius",
+    "blocked": "Bloquejat",
+    "terminated": "Terminat"
+  },
+  "sort": {
+    "sortBy": "Ordena per",
+    "toggleDirection": "Canvia la direcció d'ordenació",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Es mostren {{from}}–{{to}} de {{total}}",
+    "prev": "← Anterior",
+    "next": "Següent →",
+    "page": "Pàgina {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Visió general de la plataforma",
+    "subtitle": "Tots els administradors de comunitats registrats, a tota la plataforma HydroLedger.",
+    "viewAll": "Veure totes les comunitats",
+    "loadError": "No s'han pogut carregar les dades de la plataforma en aquest moment.",
+    "cards": {
+      "totalCommunities": "Total Comunitats",
+      "registeredAdmins": "Administradors registrats",
+      "totalResidents": "Total de residents",
+      "acrossAllCommunities": "A totes les comunitats",
+      "active": "Actius",
+      "inGoodStanding": "En bon estat",
+      "blockedTerminated": "Bloquejat / Terminat",
+      "blockedTerminatedBreakdown": "{{blocked}} bloquejat, {{terminated}} finalitzat"
+    },
+    "recent": {
+      "title": "Comunitats registrades recentment",
+      "loading": "S'està carregant…",
+      "empty": "Encara no s'ha registrat cap comunitat.",
+      "table": {
+        "community": "Comunitat",
+        "admin": "Admin",
+        "status": "Estat",
+        "residents": "Residents"
+      }
+    }
+  },
+  "communities": {
+    "count": "Comunitats: {{count}}",
+    "loadError": "No s'han pogut carregar les comunitats. Si us plau, torna-ho a provar.",
+    "searchPlaceholder": "Filtreu per comunitat, nom de l'administrador o correu electrònic",
+    "statusFilter": {
+      "label": "Estat",
+      "all": "Tots"
+    },
+    "sortOptions": {
+      "community": "Comunitat",
+      "admin": "Admin",
+      "residents": "Residents"
+    },
+    "loading": "S'estan carregant comunitats...",
+    "empty": "Encara no s'ha registrat cap comunitat.",
+    "noMatch": "Cap comunitat no coincideix amb els vostres filtres.",
+    "table": {
+      "community": "Comunitat",
+      "admin": "Admin",
+      "email": "Correu electrònic",
+      "status": "Estat",
+      "residents": "Residents",
+      "view": "Veure"
+    }
+  },
+  "communityDetail": {
+    "loadError": "No s'ha pogut carregar aquesta comunitat. Pot ser que s'hagi eliminat.",
+    "statusUpdateError": "No s'ha pogut actualitzar l'estat d'aquesta comunitat.",
+    "deleteError": "No s'ha pogut suprimir aquesta comunitat.",
+    "loading": "S'està carregant la comunitat...",
+    "notFound": "No s'ha trobat la comunitat.",
+    "backLink": "← Torna a Comunitats",
+    "backLinkShort": "Tornar a Comunitats",
+    "eyebrow": "Perfil de la comunitat",
+    "unnamed": "Comunitat sense nom",
+    "noAddress": "No hi ha cap adreça al fitxer",
+    "stats": {
+      "residents": "Residents",
+      "status": "Estat"
+    },
+    "actions": {
+      "reactivate": "Reactivar",
+      "block": "Bloc",
+      "terminate": "Finalitzar",
+      "delete": "Suprimeix la comunitat"
+    },
+    "blockDialog": {
+      "title": "Bloquejar aquest administrador de la comunitat?",
+      "message": "Bloquejar {{name}}? No podran iniciar sessió fins que no es desbloquegin. No es veurà afectada cap dada.",
+      "confirm": "Bloc"
+    },
+    "terminateDialog": {
+      "title": "Vols cancel·lar aquest administrador de la comunitat?",
+      "message": "Vols cancel·lar permanentment l'accés de {{name}}? Això no es pot desfer, tot i que les dades de la seva comunitat es conservaran per a registres.",
+      "confirm": "Finalitzar"
+    },
+    "deleteDialog": {
+      "title": "Vols suprimir aquesta comunitat?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Confirmeu"
+    },
+    "residents": {
+      "title": "Residents",
+      "registeredCount": "Registrat: {{count}}",
+      "empty": "Encara no hi ha cap resident registrat en aquesta comunitat.",
+      "table": {
+        "flatUnit": "Unitat plana",
+        "meter": "Mesurador",
+        "resident": "Resident",
+        "email": "Correu electrònic",
+        "passwordSet": "Conjunt de contrasenya"
+      },
+      "yes": "Sí",
+      "no": "No"
+    },
+    "cancel": "Cancel·la",
+    "working": "Treballant…",
+    "deleting": "S'està suprimint…"
+  },
+  "systemStatus": {
+    "statusError": "No s'ha pogut accedir al backend per comprovar l'estat del sistema.",
+    "metricsError": "No s'ha pogut carregar l'historial de mètriques.",
+    "ranges": {
+      "fiveMinutes": "5 minuts",
+      "fifteenMinutes": "15 minuts",
+      "hour": "Hora",
+      "day": "Dia",
+      "week": "Setmana",
+      "month": "Mes",
+      "threeMonths": "3 mesos"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Sol·licituds/seg",
+      "opsPerSec": "Operacions/seg",
+      "latency": "Latència",
+      "lastValue": "{{value}} darrer",
+      "loading": "S'està carregant…",
+      "empty": "Encara no s'ha registrat cap mètrica per a aquest interval."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API de fons",
+      "checking": "S'està comprovant…",
+      "reachable": "Accessible",
+      "unreachable": "Inabastable",
+      "connected": "Connectat",
+      "backendApiHint": "Aquesta pàgina s'ha carregat des del backend, així que ha respost.",
+      "database": "Base de dades",
+      "databaseHint": "Connectivitat PostgreSQL, comprovat en directe.",
+      "uptime": "Temps de funcionament del backend",
+      "uptimeHint": "Des de l'últim reinici de l'aplicació.",
+      "appVersion": "Versió de l'aplicació",
+      "appVersionHint": "Versió de construcció del backend."
+    },
+    "mini": {
+      "latency": "Latència",
+      "readsLatency": "Latència de lectura",
+      "writesLatency": "Escriu latència",
+      "otherLatency": "Altres latències",
+      "connections": "Connexions",
+      "totalKeys": "Claus totals"
+    },
+    "note": "Les sol·licituds/s i la latència es mostren del trànsit de backend en directe cada 15 segons i es conserven fins a 100 dies. Es tracta d'una comprovació bàsica de connectivitat + trànsit: no substitueix el control complet del rendiment de l'aplicació, l'agregació de registres o l'avís."
+  },
+  "reports": {
+    "loadError": "No s'ha pogut carregar l'informe de la plataforma.",
+    "ranges": {
+      "threeMonths": "3 mesos",
+      "sixMonths": "6 mesos",
+      "twelveMonths": "12 mesos",
+      "custom": "Personalitzat"
+    },
+    "sortOptions": {
+      "community": "Comunitat",
+      "usage": "Ús",
+      "billed": "Facturat",
+      "residents": "Residents"
+    },
+    "customRange": {
+      "from": "Des de",
+      "to": "A",
+      "hint": "Trieu un mes \"des de\" i \"fins a\" per carregar un informe personalitzat."
+    },
+    "loading": "S'està carregant l'informe...",
+    "cards": {
+      "totalCommunities": "Total Comunitats",
+      "inThisRange": "En aquest rang",
+      "totalResidents": "Total de residents",
+      "acrossAllCommunities": "A totes les comunitats",
+      "overallUsage": "Ús general",
+      "meteredConsumption": "Consum mesurat",
+      "overallBilled": "Facturació global",
+      "finalizedInvoicesOnly": "Només factures finalitzades",
+      "avgUsagePerResident": "Mitjana d'ús / resident",
+      "avgBillPerResident": "Factura mitjana / resident"
+    },
+    "charts": {
+      "usageTitle": "Ús a tota la plataforma (kL/mes)",
+      "usageEmpty": "No s'ha registrat cap ús per a aquest interval.",
+      "usageSeries": "Ús",
+      "billedTitle": "Import facturat a tota la plataforma (₹/mes)",
+      "billedEmpty": "No s'han finalitzat les factures per a aquest rang.",
+      "billedSeries": "Facturat"
+    },
+    "searchPlaceholder": "Filtra per comunitat o nom d'administrador",
+    "empty": "Encara no hi ha cap comunitat amb dades d'ús o de facturació per a aquest interval.",
+    "noMatch": "Cap comunitat no coincideix amb el vostre filtre.",
+    "table": {
+      "community": "Comunitat",
+      "admin": "Admin",
+      "residents": "Residents",
+      "usage": "Ús (kL)",
+      "billed": "Facturat (₹)",
+      "avgUsagePerResident": "Mitjana d'ús / resident",
+      "avgBillPerResident": "Factura mitjana / resident"
+    }
+  },
+  "supportTickets": {
+    "title": "Entrades de suport",
+    "subtitle": "Ajudes de suport i preocupacions plantejades pels residents i els administradors de la comunitat, a tota la plataforma."
+  }
+}

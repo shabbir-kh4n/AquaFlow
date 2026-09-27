@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Kargatzen…",
+    "saving": "Gordetzen…",
+    "saved": "Gorde.",
+    "uploading": "Kargatzen…",
+    "upload": "Kargatu",
+    "uploadError": "Ezin izan da fitxategi hau kargatu. Mesedez, saiatu berriro.",
+    "cancel": "Utzi",
+    "close": "Itxi",
+    "edit": "Editatu",
+    "remove": "Kendu",
+    "saveChanges": "Gorde aldaketak",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "{{row}} errenkada: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}}/{{total}} erakusten",
+    "prev": "← Aurrekoa",
+    "next": "Hurrengoa →",
+    "page": "{{page}}/{{pageCount}} orrialdea"
+  },
+  "dashboard": {
+    "loadError": "Ezin izan dira kargatu komunitateko datuak une honetan.",
+    "title": "{{community}} Apartamentuaren panela",
+    "titleFallback": "Zure apartamentuaren panela",
+    "subtitle": "Laburpen operatiboa ur-zerbitzuaren azpineurketa eta etxeko kontsumoa.",
+    "comingSoon": "Laster",
+    "manageCommunity": "Kudeatu Komunitatea",
+    "noUsageReadings": "Oraindik ez da erabilera-irakurketarik erregistratu.",
+    "cards": {
+      "totalHouseholds": "Etxebizitzak guztira",
+      "occupied": "Okupatua",
+      "activeMeters": "Kontagailu Aktiboak",
+      "reportingReadings": "Irakurgaien berri ematea",
+      "monthlyConsumption": "Hileko Kontsumoa",
+      "thisCalendarMonth": "Hilabete natural honetan",
+      "latestRecordedMonth": "Grabatutako azken hilabetea ({{month}})",
+      "noReadingsYet": "Oraindik ez dago irakurketarik erregistratu",
+      "pendingAlerts": "Alertak zain",
+      "anomalyPreview": "Anomaliak hautemateko aurrebista — oraindik ez dago erabilgarri"
+    },
+    "actions": {
+      "label": "Administrazio Ekintza Azkarrak",
+      "uploadReadings": "Kontagailuen irakurketak igo",
+      "configureTariffs": "Konfiguratu Tarifak",
+      "reportsNotBuilt": "Txostenak oraindik ez dira sortu",
+      "downloadReports": "Deskargatu sistemaren txostenak"
+    },
+    "chart": {
+      "title": "Hileko kontsumoaren konparaketa (kL)",
+      "subtitle": "Azken {{months}} hilabeteak: helburua eta benetako kontsumoa.",
+      "targetSeries": "Helburua (aurrebista)",
+      "actualSeries": "Benetakoa"
+    },
+    "recent": {
+      "title": "Azken neurgailuen irakurketak",
+      "unit": "Unitatea",
+      "resident": "Egoiliarra",
+      "lastReading": "Azken Irakurketa",
+      "consumption": "Kontsumoa"
+    }
+  },
+  "households": {
+    "loadError": "Ezin izan dira bizilagunak kargatu. Mesedez, saiatu berriro.",
+    "fixFields": "Konpondu nabarmendutako eremuak.",
+    "saveError": "Ezin izan da bizilaguna gorde. Mesedez, egiaztatu xehetasunak.",
+    "confirmRemove": "{{name}} zure etxeko direktoriotik kendu?",
+    "removeError": "Ezin izan da bizilagun hau kendu. Mesedez, saiatu berriro.",
+    "count": "Etxeak: {{total}}",
+    "bulkUploadButton": "⇪ Multzoko karga",
+    "addResidentButton": "+ Gehitu Egoiliarra",
+    "searchPlaceholder": "Iragazi izenaren, etxearen, posta elektronikoaren edo neurgailuaren arabera.",
+    "loading": "Egoiliarrak kargatzen…",
+    "empty": "Oraindik ez dago bizilagunik. Sakatu \"Gehitu bizilaguna\" lehen etxea erregistratzeko.",
+    "noMatch": "Ez dago bizilagunik \"{{search}}\"rekin bat datorren.",
+    "sort": {
+      "label": "Ordenatu",
+      "name": "Izena",
+      "houseNumber": "Etxe zenbakia",
+      "dateOfJoining": "Batzeko data",
+      "toggleDirection": "Aldatu ordenatzeko norabidea",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "gender": {
+      "male": "Gizonezkoa",
+      "female": "Emakumezkoa",
+      "other": "Bestela"
+    },
+    "table": {
+      "name": "Izena",
+      "houseUnit": "Etxea / Unitatea",
+      "email": "Posta elektronikoa",
+      "phone": "Telefonoa",
+      "meterNumber": "Metro zenbakia.",
+      "sqft": "Sqft",
+      "joined": "Bat eginda"
+    },
+    "form": {
+      "addTitle": "Gehitu Egoiliarra",
+      "editTitle": "Editatu Egoiliarra",
+      "editSubtitle": "Honek zure direktorioko egoiliarren xehetasunak eguneratzen ditu.",
+      "bypassSubtitle": "Zuzenean egoiliar honen pasahitza ezartzen ari zara. Ez da mezu elektronikorik bidaliko.",
+      "addSubtitle": "Ezarri pasahitza esteka posta elektronikoz bidaliko zaio egoiliar honi, bere saioa hasteko aukera aktib dezan.",
+      "fullName": "Izen osoa",
+      "houseNumber": "Etxe/unitate zk.",
+      "email": "Posta elektronikoa",
+      "phone": "Telefono zenbakia",
+      "meterNumber": "Kontagailuaren zenbakia",
+      "governmentId": "Gobernuaren NAN",
+      "gender": "Generoa",
+      "dateOfBirth": "Jaiotze data",
+      "dateOfJoining": "Sartzeko data",
+      "flatSize": "Tamaina laua (oin karratu)",
+      "bypassLabel": "Saihestu ezarri-pasahitza posta elektronikoa — ezarri pasahitz bat egoiliar honentzat",
+      "password": "Pasahitza",
+      "confirmPassword": "Berretsi pasahitza"
+    },
+    "validation": {
+      "fullNameRequired": "Izen osoa behar da.",
+      "emailRequired": "Posta elektronikoa beharrezkoa da.",
+      "phoneRequired": "Telefono zenbakia beharrezkoa da.",
+      "houseNumberRequired": "Etxe/unitate zenbakia beharrezkoa da.",
+      "houseNumberTaken": "Etxe-zenbaki hau beste bizilagun bati esleituta dago jada.",
+      "meterNumberRequired": "Kontagailuaren zenbakia beharrezkoa da.",
+      "meterNumberFormat": "Kontagailuaren zenbakiak MTR-1234 (4 digitu) itxura izan behar du.",
+      "meterNumberTaken": "Kontagailu-zenbaki hau beste bizilagun bati esleituta dago jada.",
+      "governmentIdRequired": "Gobernuaren NANa beharrezkoa da.",
+      "governmentIdFormat": "ID-ak 99tik hasten diren 6 digitu izan behar ditu (adibidez, 991234).",
+      "genderRequired": "Mesedez, hautatu genero bat.",
+      "dateOfBirthRequired": "Jaiotze data beharrezkoa da.",
+      "dateOfJoiningRequired": "Sartzeko data beharrezkoa da.",
+      "passwordRequired": "Pasahitza beharrezkoa da.",
+      "passwordLength": "Pasahitzak 8 karaktere izan behar ditu gutxienez.",
+      "confirmPasswordRequired": "Mesedez, berretsi pasahitza.",
+      "passwordMismatch": "Pasahitzak ez datoz bat."
+    },
+    "bulk": {
+      "title": "Karga masiboko egoiliarrak",
+      "noFile": "Mesedez, aukeratu .csv edo .xlsx/.xls fitxategi bat kargatzeko.",
+      "instructions": "Kargatu .csv edo .xlsx/.xls fitxategi bat <code>{{columns}}</code> zutabeekin (pasahitza eta flatSizeSqft biak aukerakoak dira). Pasahitza duten errenkadek zuzenean ezartzen dute; bat ez duten errenkadek ezarri-pasahitz mezu elektronikoa jasotzen dute, egoiliar bat eskuz gehitzea bezala. Bikoiztutako etxe/kontagailu-zenbakiak edo mezu elektronikoak errenkada bakoitzeko baztertzen dira; errenkada txar batek ez du huts egingo sorta osoan."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ezin izan dira bizilagunak kargatu. Mesedez, saiatu berriro.",
+    "historyLoadError": "Ezin izan da irakurketa-historia kargatu. Mesedez, saiatu berriro.",
+    "successMessage": "{{value}} kL-ren irakurketa ondo grabatu da {{house}}-rako (neurgailua: {{meter}})! Kalkulatutako kontsumoa: {{consumption}} kL.",
+    "tabs": {
+      "single": "Sarrera bakarra",
+      "csv": "CSV kargatu masiboa",
+      "history": "Historia irakurtzea"
+    },
+    "source": {
+      "manual": "Eskuliburua",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Bizilagun honek ez du kontagailu-zenbakirik fitxategian.",
+      "dateRequired": "Irakurketa data beharrezkoa da.",
+      "invalidValue": "Mesedez, idatzi baliozko irakurketa-balio bat, ez negatiboa.",
+      "duplicate": "Dagoeneko data horretan neurgailu honen irakurketa bat dago.",
+      "meterNotFound": "Ezin izan da neurgailua aurkitu. Mesedez, berriro hautatu egoiliarra.",
+      "lowerThanPrevious": "Irakurketa hau aurreko grabatutako irakurketa baino txikiagoa da.",
+      "recordFailed": "Ezin izan da irakurketa hau grabatu. Mesedez, saiatu berriro."
+    },
+    "combo": {
+      "label": "Hautatu Flat & Meter Serial",
+      "placeholder": "Hautatu laua eta neurgailu seriea...",
+      "flat": "Laua {{house}}",
+      "noMeter": "Kontagailurik ez",
+      "searchPlaceholder": "Bilatu laua ez, neurgailu seriea, egoiliarra...",
+      "unitsHeader": "Bizitegi Unitateak",
+      "found": "Aurkitutako pisuak: {{total}}",
+      "loading": "Egoiliarrak kargatzen…",
+      "noMatch": "Ez dago bizilagunik \"{{search}}\"rekin bat datorren.",
+      "unassigned": "Esleitu gabe",
+      "itemMeta": "{{name}} · Azkena: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Irakurketa bat grabatzea",
+      "context": "Etxea {{house}} · Metroa {{meter}}",
+      "changeResident": "Bizilaguna aldatu",
+      "readingDate": "Irakurketa data",
+      "readingValue": "Uneko neurgailuaren irakurketa (kL)",
+      "submit": "Bidali Baliozkotutako Irakurketa",
+      "recentTitle": "Azken irakurketak",
+      "recentEmpty": "Oraindik ez da neurgailu honetarako irakurketarik erregistratu."
+    },
+    "info": {
+      "title": "Neurgailuen baliozkotze monotonikoa",
+      "body": "Irakurketa berri bakoitzak aurreko erregistroa baino handiagoa edo berdina izan behar du kontagailu horretarako; horrek kontsumoaren kalkuluak zehatzak mantentzen ditu eta transposatutako zifrak goiz harrapatzen ditu."
+    },
+    "details": {
+      "title": "Hautatutako unitatearen xehetasunak",
+      "flatUnit": "Unitate laua",
+      "meterSerial": "Metro seriea",
+      "occupant": "Okupatzailearen izena",
+      "lastDial": "Grabatutako azken marka",
+      "noReadings": "Oraindik ez dago irakurketarik",
+      "monthConsumption": "Hileko Kontsumoa",
+      "empty": "Ez dago etxerik hautatu. Bilatu eta aukeratu bizilagun bat bere neurgailuaren xehetasunak hemen ikusteko."
+    },
+    "csv": {
+      "noFile": "Mesedez, aukeratu CSV fitxategi bat kargatzeko.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Irakurketak kargatzen…",
+      "empty": "Oraindik ez dago irakurketarik zure komunitatearentzat."
+    },
+    "table": {
+      "meterNumber": "Metro zenbakia.",
+      "date": "Data",
+      "value": "Balioa (kL)",
+      "consumption": "Kontsumoa (kL)",
+      "source": "Iturria"
+    }
+  },
+  "billingCycles": {
+    "title": "Fakturazio Zikloak",
+    "loadError": "Ezin izan dira kargatu fakturazio-zikloak. Mesedez, saiatu berriro.",
+    "paymentUpdateError": "Ezin izan da faktura honen ordainketa-egoera eguneratu.",
+    "pdfError": "Ezin izan da deskargatu PDF. Mesedez, saiatu berriro.",
+    "finalizeError": "Ezin izan da amaitu fakturazio-ziklo hau.",
+    "archiveError": "Ezin izan da fakturazio-ziklo hau artxibatu.",
+    "loading": "Fakturazio-zikloak kargatzen…",
+    "empty": "Oraindik ez dago fakturazio-ziklorik. Hasteko, ireki goiko bat.",
+    "status": {
+      "open": "Ireki",
+      "finalized": "Amaitua",
+      "archived": "Artxibatuta"
+    },
+    "open": {
+      "title": "Ireki fakturazio-ziklo berri bat",
+      "noMonth": "Mesedez, aukeratu hilabete bat irekitzeko.",
+      "error": "Ezin izan da hilabete horretako fakturazio-ziklorik ireki.",
+      "monthAria": "Fakturazio epea hilabetea",
+      "opening": "Irekitzen…",
+      "submit": "Ziklo Irekia"
+    },
+    "table": {
+      "period": "Aldia",
+      "status": "Egoera",
+      "householdsBilled": "Fakturatutako etxeak",
+      "totalBilled": "Fakturatutako guztira",
+      "actions": "Ekintzak"
+    },
+    "actions": {
+      "finalize": "Amaitu",
+      "finalizing": "Amaitzen…",
+      "archive": "Artxiboa",
+      "archiving": "Artxibatzen…"
+    },
+    "filter": {
+      "aria": "Iragazi ordainketa-egoeraren arabera",
+      "all": "Denak"
+    },
+    "payment": {
+      "paid": "Ordaindua",
+      "unpaid": "Ordaindu gabe",
+      "updating": "Eguneratzen…",
+      "markPaid": "Markatu ordaindutako gisa",
+      "markUnpaid": "Markatu ordaindu gabeko gisa"
+    },
+    "detail": {
+      "title": "Zikloaren xehetasuna — {{period}}",
+      "loading": "Fakturak kargatzen…",
+      "notFinalized": "Ziklo hau oraindik ez da amaitu — ez da fakturarik sortu.",
+      "noInvoices": "Ez dago fakturarik ziklo honetarako.",
+      "noMatch": "Ez dago fakturarik iragazki honekin bat datorren."
+    },
+    "invoices": {
+      "household": "Etxekoa",
+      "resident": "Egoiliarra",
+      "meterNumber": "Metro zenbakia.",
+      "consumption": "Kontsumoa (kL)",
+      "tierBreakdown": "Mailaren banaketa",
+      "commonArea": "Eremu Komuna",
+      "total": "Guztira",
+      "paymentStatus": "Ordainketa-egoera",
+      "pdf": "PDF",
+      "baseLine": "Oinarria: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "{{tier}} maila: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ezin izan da tarifaren konfigurazioa kargatu",
+    "saveError": "Ezin izan da tarifaren konfigurazioa gorde",
+    "chartTitle": "Neuratutako erabilgarritasun-tasa aktiboen mailak",
+    "axisNote": "Tarifa ₹/kL-n, lauza-mugak kL-n",
+    "tableTitle": "Prezioen mailak taula",
+    "defaultRatesNote": "Tarifa lehenetsiak erakusten, oraindik ez dago gordeta.",
+    "addTier": "+ Gehitu maila",
+    "saveRates": "Gorde Tarifen Tarifak",
+    "tierLevel": {
+      "base": "{{tier}} maila (oinarria)",
+      "medium": "Maila {{tier}} (Ertain)",
+      "heavy": "{{tier}} maila (astuna)"
+    },
+    "basePrice": {
+      "label": "Oinarrizko prezioa (₹ / kL, kontsumo GUZTIEI aplikatuta)",
+      "note": "kL bakoitzean tarifa finko hau kobratzen da lehenik. Beheko lauzek EGITEKO kargak gehitzen dituzte beren barrutian sartzen den erabilerarako soilik - adibidez. 50 kL-tik hasten den lauza batek bere tarifa gehitzen du 50 kLtik gorako kontsumorako."
+    },
+    "table": {
+      "tierLevel": "Maila Maila",
+      "slabLimit": "Plaka-muga (kL)",
+      "rate": "Tarifa kL bakoitzeko",
+      "action": "Ekintza"
+    },
+    "commonArea": {
+      "title": "Partekatutako Eremu Komuneko kostuen konfigurazioa",
+      "loadError": "Ezin izan da eremu komuneko kostuen konfigurazioa kargatu",
+      "saveError": "Ezin izan da gune komuneko kostuen konfigurazioa gorde",
+      "empty": "Ez dago kostu-elementurik gorde oraindik.",
+      "labelPlaceholder": "Kostu-elementuaren etiketa",
+      "perMonth": "/ hilabete",
+      "active": "Aktiboa",
+      "addItem": "+ Gehitu kostu-elementua",
+      "save": "Gorde eremu komunaren konfigurazioa"
+    },
+    "distribution": {
+      "title": "Kostuak banatzeko metodoaren hautatzailea",
+      "consumption": "Kontsumoaren arabera (subneurgailu proportzionala)",
+      "floorArea": "Apartamentu pisuaren arabera (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Zikloaren fakturazioaren hasiera data",
+      "cycleStartValue": "Hilero 1ean",
+      "autoInvoices": "Sortu PDF fakturak automatikoki"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Atalasea gainditu da",
+      "statisticalOutlier": "Estatistika Kanpokoa"
+    },
+    "status": {
+      "active": "Aktiboa",
+      "resolved": "Ebatzita",
+      "dismissed": "Baztertua"
+    },
+    "config": {
+      "title": "Ihesak detektatzeko konfigurazioa",
+      "subtitle": "Ezarri hileroko kontsumo-atalasea eta/edo gaitu estatistiko-kanpoaren hautematea (hileroko kontsumoa ezohiko altua den familia bat adierazten du bere historiarekin alderatuta).",
+      "loadError": "Ezin izan da alertaren konfigurazioa kargatu. Mesedez, saiatu berriro.",
+      "thresholdRequired": "Hileroko atalasea (kL) behar da atalasearen alertak gaituta daudenean.",
+      "saveError": "Ezin izan da konfigurazio hau gorde.",
+      "loading": "Konfigurazioa kargatzen…",
+      "threshold": "Hileko atalasea (kL)",
+      "sensitivity": "Kanpoko sentikortasuna (σ biderkatzailea)",
+      "enableThreshold": "Gaitu atalasearen alertak",
+      "enableOutlier": "Gaitu estatistikoen alertak",
+      "save": "Gorde konfigurazioa",
+      "running": "Korrika…",
+      "runNow": "Exekutatu detekzioa orain"
+    },
+    "alerts": {
+      "title": "Markatutako etxeak",
+      "loadError": "Ezin izan dira alertak kargatu. Mesedez, saiatu berriro.",
+      "runError": "Ezin izan da ihesen detekzioa abiarazi. Mesedez, saiatu berriro.",
+      "updateError": "Ezin izan da alerta hau eguneratu. Mesedez, saiatu berriro.",
+      "allStatuses": "Egoera guztiak",
+      "loading": "Alertak kargatzen…",
+      "empty": "Ez dago alertarik erakusteko. Konfiguratu atalase bat edo gaitu goian kanpoko detekzioa eta, ondoren, sakatu \"Exekutatu detekzioa orain\" zure komunitatearen egungo erabilera ebaluatzeko.",
+      "resolve": "Ebatzi",
+      "dismiss": "Baztertu"
+    },
+    "table": {
+      "household": "Etxekoa",
+      "resident": "Egoiliarra",
+      "meter": "Metroa",
+      "type": "Mota",
+      "period": "Aldia",
+      "consumption": "Kontsumoa",
+      "reference": "Erreferentzia",
+      "status": "Egoera"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ezin izan dira kargatu ontziratu gabeko ur-erosketak. Mesedez, saiatu berriro.",
+    "confirmRemove": "{{date}}-ko {{source}} bidalketa kendu?",
+    "removeError": "Ezin izan da erosketa kendu. Mesedez, saiatu berriro.",
+    "count": "Erregistratutako erosketak: {{total}}",
+    "recordButton": "+ Erregistratu Erosketa",
+    "loading": "Ur ontziratu gabeko erosketak kargatzen…",
+    "empty": "Oraindik ez da ontziratu gabeko ur erosketarik erregistratu. Egin klik \"Erosketa erregistratu\" zisternaren entrega edo udal hornidura erosketa erregistratzeko.",
+    "table": {
+      "date": "Data",
+      "source": "Iturria",
+      "volume": "Bolumena (L)",
+      "unitCost": "Kostu Unitarioa",
+      "totalCost": "Kostu osoa",
+      "notes": "Oharrak"
+    },
+    "form": {
+      "addTitle": "Erregistratu ontziratu gabeko ur erosketa",
+      "editTitle": "Editatu ontziratu gabeko ur-erosketa",
+      "subtitle": "Jarraitu zure erkidegorako zisterna baten entrega edo udal horniduraren erosketa - kostuak ikusteko soilik erregistratzen da eta ez du eragiten etxeko fakturetan.",
+      "requiredFields": "Mesedez, bete data, iturria, bolumena eta kostu unitarioa.",
+      "saveError": "Ezin izan da erosketa hau gorde. Mesedez, egiaztatu xehetasunak.",
+      "purchaseDate": "Erosketa data",
+      "source": "Iturria / hornitzailea",
+      "volume": "Bolumena (litro)",
+      "unitCost": "Unitatearen kostua (₹/litro)",
+      "totalPreview": "Kostu osoa: {{amount}}",
+      "notes": "Oharrak (aukerakoa)",
+      "submit": "Erregistro Erosketa"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} oraindik ez dago eraikita",
+    "profileSaveError": "Ezin izan da zure profila gorde. Mesedez, saiatu berriro.",
+    "apartmentSaveError": "Ezin izan dira gorde apartamentuaren xehetasunak. Mesedez, saiatu berriro.",
+    "specsTitle": "Profilaren zehaztapenak",
+    "photoUnavailable": "Argazkiak kargatzea ez dago erabilgarri oraindik",
+    "changePhoto": "Aldatu argazkia",
+    "deletePhoto": "Ezabatu",
+    "photoHint": "JPG edo PNG. Gehienezko tamaina 2 MB.",
+    "saveProfile": "Gorde profila",
+    "apartmentTitle": "Apartamentuaren xehetasunak",
+    "saveApartment": "Gorde apartamentuaren xehetasunak",
+    "tabs": {
+      "profile": "Profilaren ezarpenak",
+      "apartment": "Apartamentuaren profila",
+      "notifications": "Jakinarazpen-arauak",
+      "billing": "Fakturazio Integrazioak",
+      "security": "Segurtasuna eta sarbidea"
+    },
+    "fields": {
+      "fullName": "Izen osoa",
+      "email": "Helbide elektronikoa",
+      "emailLocked": "Hemen ezin da helbide elektronikoa aldatu",
+      "phone": "Telefono zenbakia",
+      "accessLevel": "Sarbide Maila",
+      "accessLevelValue": "Komunitateko Administratzailea",
+      "roleLocked": "Rolen kudeaketa oraindik ez dago erabilgarri",
+      "apartmentName": "Apartamentuaren izena",
+      "mainsSource": "Sare iturria",
+      "mainsSourcePlaceholder": "adib. Udal Hornikuntza + Ontziak Osagarriak",
+      "address": "Helbide fisikoa"
+    },
+    "security": {
+      "title": "Segurtasuna eta sarbidearen aurrebista",
+      "twoFactor": "Bi faktoreko autentifikazioa",
+      "twoFactorHint": "Hasi saioan gaituta",
+      "twoFactorUnavailable": "Bi faktoreko autentifikazioa ez dago oraindik erabilgarri",
+      "twoFactorAria": "Bi faktoreko autentifikazioa (aurrebista soilik)",
+      "sessionsLabel": "Admin Saio Aktiboak",
+      "sessionsEmpty": "Saioen jarraipena oraindik ez dago erabilgarri — hurrengo diseinuaren aurrebista da hau."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Nire Sarrerak",
+      "inbox": "Egoiliarren txartelak"
+    },
+    "mine": {
+      "title": "Nire laguntza-txartelak",
+      "subtitle": "Jarri zure komunitateari buruzko galdera edo kezka bat Sistemaren administratzaileari.",
+      "emptyCreateHint": "Egin galdera edo kezka bat zure komunitateari buruz. Sistemako administratzaile batek hemen berrikusi eta erantzungo du."
+    },
+    "inbox": {
+      "title": "Egoiliarren txartelak",
+      "subtitle": "Zure komunitateko bizilagunek zuri zuzendutako laguntza-txartelak eta kezkak."
+    }
+  }
+}

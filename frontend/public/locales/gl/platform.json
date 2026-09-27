@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Activo",
+    "blocked": "Bloqueado",
+    "terminated": "Terminado"
+  },
+  "sort": {
+    "sortBy": "Ordenar por",
+    "toggleDirection": "Alterna a dirección de ordenación",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Mostrando {{from}}–{{to}} de {{total}}",
+    "prev": "← Anterior",
+    "next": "Seguinte →",
+    "page": "Páxina {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Visión xeral da plataforma",
+    "subtitle": "Todos os administradores da comunidade rexistrados, en toda a plataforma HydroLedger.",
+    "viewAll": "Ver todas as comunidades",
+    "loadError": "Non se puideron cargar os datos da plataforma neste momento.",
+    "cards": {
+      "totalCommunities": "Total Comunidades",
+      "registeredAdmins": "Administradores rexistrados",
+      "totalResidents": "Total de Residentes",
+      "acrossAllCommunities": "En todas as comunidades",
+      "active": "Activo",
+      "inGoodStanding": "En boa situación",
+      "blockedTerminated": "Bloqueado / Terminado",
+      "blockedTerminatedBreakdown": "{{blocked}} bloqueado, {{terminated}} finalizado"
+    },
+    "recent": {
+      "title": "Comunidades rexistradas recentemente",
+      "loading": "Cargando…",
+      "empty": "Aínda non hai comunidades rexistradas.",
+      "table": {
+        "community": "Comunidade",
+        "admin": "Admin",
+        "status": "Estado",
+        "residents": "Residentes"
+      }
+    }
+  },
+  "communities": {
+    "count": "Comunidades: {{count}}",
+    "loadError": "Non se puideron cargar as comunidades. Téntao de novo.",
+    "searchPlaceholder": "Filtra por comunidade, nome do administrador ou correo electrónico",
+    "statusFilter": {
+      "label": "Estado",
+      "all": "Todos"
+    },
+    "sortOptions": {
+      "community": "Comunidade",
+      "admin": "Admin",
+      "residents": "Residentes"
+    },
+    "loading": "Cargando comunidades...",
+    "empty": "Aínda non hai comunidades rexistradas.",
+    "noMatch": "Ningunha comunidade coincide cos teus filtros.",
+    "table": {
+      "community": "Comunidade",
+      "admin": "Admin",
+      "email": "Correo electrónico",
+      "status": "Estado",
+      "residents": "Residentes",
+      "view": "Ver"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Non se puido cargar esta comunidade. Pode ser eliminado.",
+    "statusUpdateError": "Non se puido actualizar o estado desta comunidade.",
+    "deleteError": "Non se puido eliminar esta comunidade.",
+    "loading": "Cargando comunidade...",
+    "notFound": "Non se atopou a comunidade.",
+    "backLink": "← Volver a Comunidades",
+    "backLinkShort": "Volver a Comunidades",
+    "eyebrow": "Perfil da comunidade",
+    "unnamed": "Comunidade sen nome",
+    "noAddress": "Non hai enderezo no arquivo",
+    "stats": {
+      "residents": "Residentes",
+      "status": "Estado"
+    },
+    "actions": {
+      "reactivate": "Reactivar",
+      "block": "Bloquear",
+      "terminate": "Terminar",
+      "delete": "Eliminar comunidade"
+    },
+    "blockDialog": {
+      "title": "Queres bloquear este administrador da comunidade?",
+      "message": "Bloquear {{name}}? Non poderán iniciar sesión ata que se desbloqueen. Ningún dato se verá afectado.",
+      "confirm": "Bloquear"
+    },
+    "terminateDialog": {
+      "title": "Queres cancelar este administrador da comunidade?",
+      "message": "Queres finalizar permanentemente o acceso de {{name}}? Isto non se pode desfacer, aínda que os datos da súa comunidade conservaranse para rexistros.",
+      "confirm": "Terminar"
+    },
+    "deleteDialog": {
+      "title": "Queres eliminar esta comunidade?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Confirmar"
+    },
+    "residents": {
+      "title": "Residentes",
+      "registeredCount": "Rexistrado: {{count}}",
+      "empty": "Aínda non hai ningún residente rexistrado nesta comunidade.",
+      "table": {
+        "flatUnit": "Unidade plana",
+        "meter": "Contador",
+        "resident": "Residente",
+        "email": "Correo electrónico",
+        "passwordSet": "Contrasinal definido"
+      },
+      "yes": "Si",
+      "no": "Non"
+    },
+    "cancel": "Cancelar",
+    "working": "Traballando…",
+    "deleting": "Eliminando…"
+  },
+  "systemStatus": {
+    "statusError": "Non se puido acceder ao backend para comprobar o estado do sistema.",
+    "metricsError": "Non se puido cargar o historial de métricas.",
+    "ranges": {
+      "fiveMinutes": "5 Minutos",
+      "fifteenMinutes": "15 minutos",
+      "hour": "Hora",
+      "day": "Día",
+      "week": "Semana",
+      "month": "Mes",
+      "threeMonths": "3 meses"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Solicitudes/seg",
+      "opsPerSec": "Operacións/seg",
+      "latency": "Latencia",
+      "lastValue": "{{value}} último",
+      "loading": "Cargando…",
+      "empty": "Aínda non se rexistraron métricas para este intervalo."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API de fondo",
+      "checking": "Comprobando…",
+      "reachable": "Accesible",
+      "unreachable": "Inalcanzable",
+      "connected": "Conectado",
+      "backendApiHint": "Esta páxina cargouse desde o backend, polo que respondeu.",
+      "database": "Base de datos",
+      "databaseHint": "Conectividade PostgreSQL, comprobada en directo.",
+      "uptime": "Tempo de actividade do backend",
+      "uptimeHint": "Desde o último reinicio da aplicación.",
+      "appVersion": "Versión da aplicación",
+      "appVersionHint": "Versión de compilación de backend."
+    },
+    "mini": {
+      "latency": "Latencia",
+      "readsLatency": "Ler Latencia",
+      "writesLatency": "Latencia de escritura",
+      "otherLatency": "Outra latencia",
+      "connections": "Conexións",
+      "totalKeys": "Total de chaves"
+    },
+    "note": "As solicitudes/s e a latencia son mostradas do tráfico de backend en directo cada 15 segundos e mantéñense ata 100 días. Esta é unha conectividade básica + comprobación de tráfico: non substitúe o seguimento completo do rendemento da aplicación, a agregación de rexistros ou as alertas."
+  },
+  "reports": {
+    "loadError": "Non se puido cargar o informe da plataforma.",
+    "ranges": {
+      "threeMonths": "3 meses",
+      "sixMonths": "6 meses",
+      "twelveMonths": "12 meses",
+      "custom": "Personalizado"
+    },
+    "sortOptions": {
+      "community": "Comunidade",
+      "usage": "Uso",
+      "billed": "Facturado",
+      "residents": "Residentes"
+    },
+    "customRange": {
+      "from": "Desde",
+      "to": "Para",
+      "hint": "Escolle un mes \"desde\" e \"ata\" para cargar un informe personalizado."
+    },
+    "loading": "Cargando informe...",
+    "cards": {
+      "totalCommunities": "Total Comunidades",
+      "inThisRange": "Neste rango",
+      "totalResidents": "Total de Residentes",
+      "acrossAllCommunities": "En todas as comunidades",
+      "overallUsage": "Uso xeral",
+      "meteredConsumption": "Consumo medido",
+      "overallBilled": "Facturación global",
+      "finalizedInvoicesOnly": "Só facturas finalizadas",
+      "avgUsagePerResident": "Uso medio / Residente",
+      "avgBillPerResident": "Factura media / Residente"
+    },
+    "charts": {
+      "usageTitle": "Uso en toda a plataforma (kL/mes)",
+      "usageEmpty": "Non se rexistrou ningún uso para este intervalo.",
+      "usageSeries": "Uso",
+      "billedTitle": "Importe facturado en toda a plataforma (₹/mes)",
+      "billedEmpty": "Non hai facturas finalizadas para este intervalo.",
+      "billedSeries": "Facturado"
+    },
+    "searchPlaceholder": "Filtra por nome da comunidade ou administrador",
+    "empty": "Aínda non hai comunidades con datos de uso ou facturación para este intervalo.",
+    "noMatch": "Ningunha comunidade coincide co teu filtro.",
+    "table": {
+      "community": "Comunidade",
+      "admin": "Admin",
+      "residents": "Residentes",
+      "usage": "Uso (kL)",
+      "billed": "Facturado (₹)",
+      "avgUsagePerResident": "Uso medio / Residente",
+      "avgBillPerResident": "Factura media / Residente"
+    }
+  },
+  "supportTickets": {
+    "title": "Entradas de apoio",
+    "subtitle": "Tickets de apoio e dúbidas formuladas polos residentes e os administradores da comunidade, en toda a plataforma."
+  }
+}

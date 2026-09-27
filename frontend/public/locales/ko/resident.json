@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "곧 출시 예정",
+    "welcome": {
+      "greeting": "안녕하세요 {{name}}님,",
+      "greetingFallback": "안녕,",
+      "title": "집의 물 이야기에 가까이 다가가세요.",
+      "subtitle": "사용량 및 청구 정보가 여기에 커뮤니티 기록 판독값으로 표시됩니다.",
+      "viewBadges": "에코배지 보기"
+    },
+    "stats": {
+      "todaysUsage": "오늘의 사용량",
+      "asOf": "{{date}} 현재",
+      "noReading": "아직 미터 판독값이 없습니다.",
+      "monthlyTotalFor": "월간 합계({{month}})",
+      "monthlyTotalThisMonth": "월별 총액(이번 달)",
+      "sumOfReadings": "기록된 판독값의 합계",
+      "estimatedBill": "현재 예상 청구액",
+      "estimatedBillFor": "측정된 사용량 + 공유 요금, {{month}}",
+      "estimatedBillHint": "이번 달 측정된 사용량과 공유 요금을 기준으로 합니다.",
+      "savings": "절감액과 건물 평균",
+      "savingsValue": "{{percent}}% 덜",
+      "savingsPreview": "미리보기 전용 - 비교가 아직 실시간으로 제공되지 않음"
+    },
+    "consumption": {
+      "eyebrow": "소비",
+      "title": "일일 소비량(지난 14개 판독값)",
+      "seriesName": "소비",
+      "empty": "아직 기록된 판독값이 없습니다."
+    },
+    "breakdown": {
+      "eyebrow": "고장",
+      "title": "사용량 분석",
+      "bathroom": "화장실",
+      "kitchen": "주방",
+      "garden": "정원 / 발코니",
+      "other": "기타 / 세탁"
+    },
+    "billing": {
+      "eyebrow": "청구",
+      "title": "활성 청구 주기",
+      "finalized": "확정됨",
+      "preview": "시사",
+      "meteredConsumption": "측정된 소비량",
+      "tierPriceLevel": "등급 가격 수준",
+      "tierLabel": "계층 {{tier}}",
+      "commonArea": "공용 면적 할당",
+      "commonAreaPreview": "공통 영역 할당(미리보기)",
+      "invoiceTotal": "{{period}} 송장 합계",
+      "estimatedCharge": "현재 예상 요금",
+      "commonAreaBreakdown": "공통 영역 분석",
+      "payPreview": "청구서 미리보기",
+      "payUnavailable": "청구 엔진을 아직 사용할 수 없습니다."
+    },
+    "tips": {
+      "eyebrow": "팁",
+      "title": "스마트 절약 팁",
+      "viewAll": "모두 보기",
+      "empty": "커뮤니티에서 결제 주기를 확정한 후 여기에 맞춤 팁이 표시됩니다."
+    },
+    "community": "커뮤니티: {{name}}"
+  },
+  "usage": {
+    "loadError": "사용 기록을 로드할 수 없습니다. 다시 시도해 주세요.",
+    "loading": "사용량 분석 로드 중…",
+    "empty": "아직 기록된 판독값이 없습니다. 커뮤니티에서 미터 수치를 기록하면 여기에 표시됩니다.",
+    "tabs": {
+      "lastSixMonths": "지난 6개월",
+      "customRange": "맞춤 범위",
+      "comingSoon": "곧 출시 예정"
+    },
+    "peakDay": "성수기:",
+    "lowestDay": "최저일:",
+    "comparison": {
+      "title": "가계소비 vs 아파트 평균",
+      "subtitle": "월간 합계는 킬로리터(kL)로 표시됩니다.",
+      "yourHousehold": "귀하의 가구",
+      "apartmentAverage": "아파트 평균",
+      "similarSized": "비슷한 크기의 주택"
+    },
+    "heatmap": {
+      "title": "일일 소비 히트맵",
+      "subtitle": "색상 강도는 사용량이 많은 날을 표시합니다(미리 보기)."
+    },
+    "ranking": {
+      "title": "커뮤니티 동료 순위",
+      "subtitle": "유사한 유닛과 비교한 순위입니다(미리보기).",
+      "ecoSaver": "액티브 에코 세이버",
+      "aptNumber": "아파트 {{number}}",
+      "unitNumber": "단위 {{number}}",
+      "yourUnit": "귀하의 장치",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (당신)"
+    }
+  },
+  "billing": {
+    "loadError": "결제 내역을 로드할 수 없습니다. 다시 시도해 주세요.",
+    "pdfError": "PDF을(를) 다운로드할 수 없습니다. 다시 시도해 주세요.",
+    "loading": "결제 내역 로드 중…",
+    "empty": "아직 청구서가 없습니다. 커뮤니티에서 청구 주기를 확정하면 청구서가 여기에 표시됩니다.",
+    "status": {
+      "paid": "유급의",
+      "unpaid": "미지급"
+    },
+    "summary": {
+      "outstandingBalance": "미결제 잔액",
+      "billingCycle": "청구 주기: {{period}}",
+      "allPaid": "모든 청구서가 지불되었습니다.",
+      "payTotal": "총 미결제 금액 지불",
+      "payTotalUnavailable": "아직 온라인 결제를 사용할 수 없습니다. 커뮤니티 관리자에게 직접 청구서를 정산하세요.",
+      "downloadSummary": "청구서 요약 다운로드",
+      "downloadSummaryUnavailable": "청구서 요약 다운로드는 아직 사용할 수 없습니다."
+    },
+    "history": {
+      "title": "송장 내역",
+      "exportCsv": "모두 CSV(으)로 내보내기",
+      "exportUnavailable": "CSV 내보내기는 아직 사용할 수 없습니다."
+    },
+    "table": {
+      "cycle": "주기",
+      "usage": "사용법 (kL)",
+      "amountDue": "지불해야 할 금액",
+      "paymentStatus": "결제 상태",
+      "hideBreakdown": "분류 숨기기 ↑",
+      "showBreakdown": "항목별 분석 ↓",
+      "downloading": "다운로드 중…",
+      "pdf": "PDF",
+      "pay": "지불하다"
+    },
+    "breakdown": {
+      "householdTitle": "가계 소비 내역",
+      "basePrice": "기본 가격: {{units}} kL × ₹{{rate}}",
+      "tierLine": "등급 {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "소계 측정 사용량",
+      "commonAreaTitle": "공통 영역 할당",
+      "subtotalShared": "소계 공유면적",
+      "noCommonArea": "이 사이클에는 공용 공용 공간 요금이 부과되지 않습니다."
+    },
+    "pagination": {
+      "showing": "{{total}} 중 {{from}}~{{to}} 표시 중",
+      "prev": "← 이전",
+      "next": "다음 →",
+      "page": "{{count}} 중 {{page}} 페이지"
+    },
+    "paymentMethods": {
+      "title": "결제 방법(미리보기)",
+      "description": "아직 온라인 결제를 사용할 수 없습니다. 청구서는 커뮤니티 관리자를 통해 직접 정산됩니다.",
+      "manage": "결제 수단 관리",
+      "manageUnavailable": "아직 결제 수단을 사용할 수 없습니다."
+    }
+  },
+  "razorpay": {
+    "securedBy": "Razorpay에 의해 보호됨",
+    "billingCycle": "청구 주기 {{period}}",
+    "close": "닫다",
+    "amountPayable": "지불할 금액",
+    "methods": {
+      "upi": "UPI",
+      "cards": "카드",
+      "netbanking": "넷뱅킹",
+      "wallet": "지갑"
+    },
+    "upi": {
+      "title": "UPI을(를) 통해 결제",
+      "upiId": "UPI 아이디",
+      "or": "또는",
+      "scan": "UPI 앱으로 스캔"
+    },
+    "card": {
+      "title": "카드로 결제",
+      "number": "카드번호",
+      "expiry": "만료",
+      "expiryPlaceholder": "월/년",
+      "cvv": "이력서",
+      "name": "카드 이름",
+      "namePlaceholder": "카드에 인쇄된 대로"
+    },
+    "netbanking": {
+      "title": "넷뱅킹을 통해 결제"
+    },
+    "wallet": {
+      "title": "월렛을 통해 결제"
+    },
+    "payAmount": "₩{{amount}} 지불",
+    "processing": "결제 처리 중…",
+    "processingHint": "이 페이지를 뒤로 누르거나 새로 고치지 마세요.",
+    "success": "결제 성공",
+    "error": "결제를 확인하는 중에 문제가 발생했습니다. 다시 시도해 주세요.",
+    "retry": "다시 해 보다"
+  },
+  "notifications": {
+    "loadError": "알림을 로드할 수 없습니다. 다시 시도해 주세요.",
+    "loading": "알림 로드 중…",
+    "empty": "아직 알림이 없습니다. 커뮤니티 관리자가 사용량 임계값 또는 비정상적인 소비 알림을 활성화했고 귀하의 가족에 대해 알림이 실행된 경우 여기에 내용이 표시됩니다.",
+    "type": {
+      "thresholdExceeded": "소비 임계값을 초과했습니다.",
+      "statisticalOutlier": "비정상적인 소비 감지"
+    },
+    "status": {
+      "active": "활동적인",
+      "resolved": "해결됨",
+      "dismissed": "해고됨"
+    },
+    "billingPeriod": "청구 기간: {{period}}",
+    "consumption": "소비: {{value}} kL",
+    "push": {
+      "title": "푸시 알림",
+      "description": "새로운 청구서나 알림이 오면 이 기기에서 알림을 받으세요.",
+      "enable": "할 수 있게 하다",
+      "disable": "장애를 입히다",
+      "permissionDenied": "알림 권한이 부여되지 않았습니다.",
+      "notConfigured": "푸시 알림이 아직 구성되지 않았습니다. 관리자에게 문의하세요.",
+      "enableError": "푸시 알림을 활성화할 수 없습니다. 다시 시도해 주세요.",
+      "disableError": "푸시 알림을 비활성화할 수 없습니다. 다시 시도해 주세요."
+    }
+  },
+  "recommendations": {
+    "loadError": "추천을 로드할 수 없습니다. 다시 시도해 주세요.",
+    "loading": "맞춤 팁 로드 중…",
+    "generated": "{{date}} 생성됨",
+    "generatedForPeriod": "청구 기간 {{period}}에 대해 {{date}}이(가) 생성되었습니다.",
+    "eyebrow": "당신을 위한 맞춤형",
+    "title": "스마트한 물 절약 팁",
+    "empty": "아직 생성된 팁이 없습니다. 커뮤니티에서 가구에 대한 청구 주기를 마무리할 때마다 자동으로 새로 고쳐집니다."
+  },
+  "support": {
+    "title": "주민 지원 및 우려 사항 데스크",
+    "subtitle": "누수 보고서, 계량기 교정 요청 또는 청구 문의를 커뮤니티 관리자 및/또는 시스템 관리자에게 직접 제출하세요.",
+    "emptyCreateHint": "아래에 문제나 우려 사항을 설명하고 이를 처리할 사람을 선택하세요."
+  }
+}

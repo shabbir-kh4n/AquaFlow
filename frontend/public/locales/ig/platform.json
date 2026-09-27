@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Na-arụ ọrụ",
+    "blocked": "Egbochiri",
+    "terminated": "Akwụsịla"
+  },
+  "sort": {
+    "sortBy": "Hazie site na",
+    "toggleDirection": "Gbanwee ụzọ nhazi",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Nke gara aga",
+    "next": "Ọzọ →",
+    "page": "Ibe {{page}} nke {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Nchịkọta Platform",
+    "subtitle": "Every registered community admin, across the whole HydroLedger platform.",
+    "viewAll": "Lelee obodo niile",
+    "loadError": "Enweghị ike ibunye data ikpo okwu ugbu a.",
+    "cards": {
+      "totalCommunities": "Mgbakọta obodo",
+      "registeredAdmins": "Admins edebanyere aha",
+      "totalResidents": "Mgbakọta ndị bi",
+      "acrossAllCommunities": "N'ofe obodo niile",
+      "active": "Na-arụ ọrụ",
+      "inGoodStanding": "N'ọnọdụ dị mma",
+      "blockedTerminated": "Akpọchie / kwụsị",
+      "blockedTerminatedBreakdown": "{{blocked}} akpọchiela, {{terminated}} akwụsị"
+    },
+    "recent": {
+      "title": "Obodo edebanyere aha nso nso a",
+      "loading": "Na-ebugo…",
+      "empty": "Enweghị obodo edebanyere aha.",
+      "table": {
+        "community": "Ogbe",
+        "admin": "Admin",
+        "status": "Ọnọdụ",
+        "residents": "Ndị bi"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "Enweghị ike ibunye obodo. Biko nwaa ọzọ.",
+    "searchPlaceholder": "Wepụta site na obodo, aha nchịkwa, ma ọ bụ email",
+    "statusFilter": {
+      "label": "Ọnọdụ",
+      "all": "Ha niile"
+    },
+    "sortOptions": {
+      "community": "Ogbe",
+      "admin": "Admin",
+      "residents": "Ndị bi"
+    },
+    "loading": "Na-ebugo obodo…",
+    "empty": "Enweghị obodo edebanyere aha.",
+    "noMatch": "Ọ nweghị obodo dabara na nzacha gị.",
+    "table": {
+      "community": "Ogbe",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Ọnọdụ",
+      "residents": "Ndị bi",
+      "view": "Lelee"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Enweghị ike ibunye obodo a. O nwere ike ịbụ na ewepụrụ ya.",
+    "statusUpdateError": "Enweghị ike imelite ọkwa obodo a.",
+    "deleteError": "Enweghị ike ihichapụ obodo a.",
+    "loading": "Ogbe na-ebu…",
+    "notFound": "Ahụghị obodo.",
+    "backLink": "← Back to Communities",
+    "backLinkShort": "Laghachi na Obodo",
+    "eyebrow": "Profaịlụ obodo",
+    "unnamed": "Obodo akpọghị aha",
+    "noAddress": "Enweghị adreesị na faịlụ",
+    "stats": {
+      "residents": "Ndị bi",
+      "status": "Ọnọdụ"
+    },
+    "actions": {
+      "reactivate": "Malitegharịa ekwentị",
+      "block": "Gbochie",
+      "terminate": "Kwụsị",
+      "delete": "Hichapụ Ogbe"
+    },
+    "blockDialog": {
+      "title": "Gbochie onye nchịkwa obodo a?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "Gbochie"
+    },
+    "terminateDialog": {
+      "title": "Hapụ onye nchịkwa obodo a?",
+      "message": "Kwụsị ohere {{name}} ruo mgbe ebighị ebi? Enweghị ike ịmegharị nke a, n'agbanyeghị na a ga-edobe data obodo ha ka ọ bụrụ ndekọ.",
+      "confirm": "Kwụsị"
+    },
+    "deleteDialog": {
+      "title": "Hichapụ obodo a?",
+      "message": "Nke a ga-ehichapụ <strong>{{name}}</strong> na ezinụlọ ya niile, ndị bi na ya, mita, nhazi tarifu/ịgba ụgwọ, na akụkọ akwụkwọ ọnụahịa. Enweghị ike imegharị ihe a.",
+      "typeToConfirm": "Pịnye <strong>{{word}}</strong> ka ịga n'ihu",
+      "confirm": "Kwenye"
+    },
+    "residents": {
+      "title": "Ndị bi",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "Onweghi onye bi na obodo a edebanyere aha.",
+      "table": {
+        "flatUnit": "Akụkụ dị larịị",
+        "meter": "Mita",
+        "resident": "Onye bi",
+        "email": "Email",
+        "passwordSet": "Tọọ okwuntughe"
+      },
+      "yes": "Ee",
+      "no": "Mba"
+    },
+    "cancel": "Kagbuo",
+    "working": "Na-arụ ọrụ…",
+    "deleting": "Na-ehichapụ…"
+  },
+  "systemStatus": {
+    "statusError": "Enweghị ike iru azụ azụ iji lelee ọkwa sistemụ.",
+    "metricsError": "Enweghị ike ibunye akụkọ metrik.",
+    "ranges": {
+      "fiveMinutes": "Nkeji 5",
+      "fifteenMinutes": "Nkeji 15",
+      "hour": "Oge awa",
+      "day": "Ụbọchị",
+      "week": "Izu",
+      "month": "Ọnwa",
+      "threeMonths": "Ọnwa 3"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}} h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Arịrịọ/sk",
+      "opsPerSec": "Ops/sk",
+      "latency": "Latency",
+      "lastValue": "{{value}} ikpeazụ",
+      "loading": "Na-ebugo…",
+      "empty": "Onweghị metrik edekọtara maka oke a."
+    },
+    "stats": {
+      "min": "Nkeji: <b>{{value}}</b>",
+      "avg": "Nkeji: <b>{{value}}</b>",
+      "max": "Nke kachasị: <b>{{value}}</b>",
+      "last": "Ikpeazụ: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API azụ azụ",
+      "checking": "Na-enyocha…",
+      "reachable": "Enwere ike iru",
+      "unreachable": "Enweghị ike iru",
+      "connected": "Ejikọtara",
+      "backendApiHint": "Ebugoro ibe a site na azụ azụ, yabụ ọ zara.",
+      "database": "Ebe nchekwa data",
+      "databaseHint": "Njikọ PostgreSQL, enyochala ndụ.",
+      "uptime": "Oge nkwado ndabere",
+      "uptimeHint": "Ebe ọ bụ na ngwa ikpeazụ malitegharịa.",
+      "appVersion": "Ụdị ngwa",
+      "appVersionHint": "Ụdị nrụpụta azụ azụ."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Na-agụ Latency",
+      "writesLatency": "Na-ede Latency",
+      "otherLatency": "Latency ndị ọzọ",
+      "connections": "Njikọ",
+      "totalKeys": "Mkpokọta igodo"
+    },
+    "note": "Arịrịọ / sk na latency ka a na-enyocha site na okporo ụzọ azụ azụ kwa sekọnd iri na ise ma debe ya ruo ụbọchị 100. Nke a bụ njikọ bụ isi + nlele okporo ụzọ - ọ naghị edochi nleba anya arụmọrụ ngwa zuru oke, nchịkọta ndekọ, ma ọ bụ ịdọ aka ná ntị."
+  },
+  "reports": {
+    "loadError": "Enweghị ike ibunye akụkọ ikpo okwu.",
+    "ranges": {
+      "threeMonths": "Ọnwa 3",
+      "sixMonths": "Ọnwa 6",
+      "twelveMonths": "Ọnwa iri na abụọ",
+      "custom": "Omenala"
+    },
+    "sortOptions": {
+      "community": "Ogbe",
+      "usage": "Ojiji",
+      "billed": "Agbara ya",
+      "residents": "Ndị bi"
+    },
+    "customRange": {
+      "from": "Site na",
+      "to": "Iji",
+      "hint": "Họrọ ma ọnwa \"site na\" na \"ruo\" iji buo akụkọ omenala."
+    },
+    "loading": "Na-ebu akụkọ…",
+    "cards": {
+      "totalCommunities": "Mgbakọta obodo",
+      "inThisRange": "Na nso nso a",
+      "totalResidents": "Mgbakọta ndị bi",
+      "acrossAllCommunities": "N'ofe obodo niile",
+      "overallUsage": "N'ozuzu ojiji",
+      "meteredConsumption": "Oriri mita",
+      "overallBilled": "Agbara ya n'ozuzu ya",
+      "finalizedInvoicesOnly": "Naanị akwụkwọ ọnụahịa emechara",
+      "avgUsagePerResident": "Ojiji/onye bi na nkezi",
+      "avgBillPerResident": "Nkeji ụgwọ/onye bi"
+    },
+    "charts": {
+      "usageTitle": "Platform-wide Usage (kL / month)",
+      "usageEmpty": "Enweghị ojiji edere maka oke a.",
+      "usageSeries": "Ojiji",
+      "billedTitle": "Ọnụ ego akwụ ụgwọ n'elu ikpo okwu (₹ / ọnwa)",
+      "billedEmpty": "Enweghị akwụkwọ ọnụahịa emechara maka oke a.",
+      "billedSeries": "Agbara ya"
+    },
+    "searchPlaceholder": "Wepụta site na obodo ma ọ bụ aha nchịkwa",
+    "empty": "Ọ nweghị obodo nwere data ojiji ma ọ bụ ịgba ụgwọ maka oke a.",
+    "noMatch": "Ọ nweghị obodo dabara na nza gị.",
+    "table": {
+      "community": "Ogbe",
+      "admin": "Admin",
+      "residents": "Ndị bi",
+      "usage": "Usage (kL)",
+      "billed": "Akwụ ụgwọ (₹)",
+      "avgUsagePerResident": "Ojiji/onye bi na nkezi",
+      "avgBillPerResident": "Nkeji ụgwọ/onye bi"
+    }
+  },
+  "supportTickets": {
+    "title": "Tiketi nkwado",
+    "subtitle": "Nkwado tiketi na nchegbu ndị bi na ndị nlekọta obodo welitere, n'ofe ikpo okwu."
+  }
+}

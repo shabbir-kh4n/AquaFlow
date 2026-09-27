@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import {
   addAdminSupportTicketInboxMessage,
   addAdminSupportTicketMessage,
@@ -12,6 +13,7 @@ import SupportTicketBoard from '../../components/support/SupportTicketBoard'
 import './SupportConcerns.css'
 
 function SupportConcerns() {
+  const { t } = useTranslation('admin')
   const [tab, setTab] = useState('mine')
 
   return (
@@ -22,34 +24,34 @@ function SupportConcerns() {
           className={`af-support-concerns__tab${tab === 'mine' ? ' af-support-concerns__tab--active' : ''}`}
           onClick={() => setTab('mine')}
         >
-          My Tickets
+          {t('support.tabs.mine')}
         </button>
         <button
           type="button"
           className={`af-support-concerns__tab${tab === 'inbox' ? ' af-support-concerns__tab--active' : ''}`}
           onClick={() => setTab('inbox')}
         >
-          Resident Tickets
+          {t('support.tabs.inbox')}
         </button>
       </div>
 
       {tab === 'mine' ? (
         <SupportTicketBoard
           key="mine"
-          title="My Support Tickets"
-          subtitle="Raise a question or concern about your community to the System Admin."
+          title={t('support.mine.title')}
+          subtitle={t('support.mine.subtitle')}
           listFn={listAdminSupportTickets}
           createFn={createAdminSupportTicket}
           getDetailFn={getAdminSupportTicketDetail}
           addMessageFn={addAdminSupportTicketMessage}
-          emptyCreateHint="Raise a question or concern about your community. A System Admin will review and respond here."
+          emptyCreateHint={t('support.mine.emptyCreateHint')}
           selfRole="ADMIN"
         />
       ) : (
         <SupportTicketBoard
           key="inbox"
-          title="Resident Tickets"
-          subtitle="Support tickets and concerns residents in your community have addressed to you."
+          title={t('support.inbox.title')}
+          subtitle={t('support.inbox.subtitle')}
           listFn={listAdminSupportTicketsInbox}
           getDetailFn={getAdminSupportTicketInboxDetail}
           addMessageFn={addAdminSupportTicketInboxMessage}

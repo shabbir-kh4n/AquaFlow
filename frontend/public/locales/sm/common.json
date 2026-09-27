@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Tapuni",
+    "signUpTitle": "Resitala lou nuu",
+    "signInTitle": "Maliu mai",
+    "signUpSubtitle": "Fausia se Community Admin account e amata pulea tagata nofomau ma pili.",
+    "signInSubtitle": "Saini e matamata i lou fa'aogaina o le vai ma lau pili."
+  },
+  "signIn": {
+    "errorFallback": "Le mafai ona saini. Faamolemole toe taumafai.",
+    "emailLabel": "imeli",
+    "passwordLabel": "Numera e le iloa e sesi",
+    "rememberMe": "Manatua mai a'u",
+    "forgotPassword": "Ua galo upu faataga?",
+    "submitting": "Saini i totonu…",
+    "submit": "Saini ese j",
+    "noAccount": "E leai se tala?",
+    "signUpLink": "Saini loa"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "E le fetaui upu faataga.",
+      "communityRequired": "E mana'omia le igoa ole nu'u.",
+      "termsRequired": "Fa'amolemole malie i Tu'utu'uga o Au'aunaga ma Faiga Fa'alilolilo.",
+      "fallback": "Le mafai ona fai se tala. Fa'amolemole toe taumafai."
+    },
+    "hint": "Na'o fa'alapotopotoga fa'alapotopotoga e lesitala iinei. O le taimi lava e te ulufale ai, o le ae faʻaopoopoina au faʻamatalaga a tagata o loʻo nonofo ai - latou te le sainia na o latou.",
+    "fullNameLabel": "Igoa atoa",
+    "emailLabel": "imeli",
+    "phoneLabel": "Numera telefoni",
+    "communityNameLabel": "igoa ole nuu",
+    "passwordLabel": "Numera e le iloa e sesi",
+    "confirmPasswordLabel": "Faamaonia le upu faalilolilo",
+    "agreeTerms": "Ou te ioe i le <termsLink>Tuutuuga o Auaunaga</termsLink> ma le <privacyLink>Faiga Fa'alilolilo</privacyLink>",
+    "submitting": "Fausia tala…",
+    "submit": "Fausia Admin Account",
+    "haveAccount": "Ua uma ona iai sau tala?",
+    "signInLink": "Saini ese j"
+  },
+  "installPrompt": {
+    "title": "Fa'apipi'i HydroLedger",
+    "description": "Fa'aopoopo i lau lau fale mo le vave maua.",
+    "dismiss": "Fa'ate'a",
+    "install": "Fa'apipi'i"
+  },
+  "setPassword": {
+    "title": "Seti lau upu faataga",
+    "loading": "utaina...",
+    "subtitle": "Talofa {{name}}, filifili se upu faataga mo {{email}} e faagaioi ai lau HydroLedger.",
+    "errors": {
+      "invalidLink": "O lenei so'oga e le aoga pe ua muta.",
+      "tooShort": "O le upu faataga e tatau ona le itiiti ifo ma le 8 mataitusi.",
+      "mismatch": "E le fetaui upu faataga.",
+      "fallback": "Le mafai ona seti lau upu faataga. Fa'amolemole toe taumafai."
+    },
+    "passwordLabel": "Numera e le iloa e sesi",
+    "confirmPasswordLabel": "Faamaonia le upu faalilolilo",
+    "submitting": "Fa'atulaga upu fa'aupuga...",
+    "submit": "Seti upu faataga ma saini"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Fesoasoani",
+      "resident": "Fesili e uiga i lau tala",
+      "admin": "Fesoasoani i Nuu",
+      "platform": "Fesoasoani Platform",
+      "default": "Fesoasoani"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "O le a le HydroLedger?",
+        "tieredBilling": "E fa'afefea ona fa'aogaina pili fa'avasega?",
+        "leaks": "E fa'afefea ona iloa liki?"
+      },
+      "resident": {
+        "billEstimate": "O le a la'u fa'atatau o lo'o iai nei?",
+        "alerts": "E i ai ni a'u fa'amatalaga fa'aoga?",
+        "readings": "Faaali atu a'u faitauga mita talu ai nei"
+      },
+      "admin": {
+        "households": "E fia ni o tatou aiga?",
+        "billingCycles": "Lisi a matou ta'amilosaga pili lata mai",
+        "tariff": "O le a le tatou fuafuaga o le tau o lo o i ai nei?"
+      },
+      "platform": {
+        "communities": "Lisi nu'u uma ua resitalaina",
+        "usageReport": "Faaali atu le lipoti o le faaaogaina o tulaga",
+        "systemStatus": "O le a le tulaga o le faiga?"
+      }
+    },
+    "errors": {
+      "rateLimited": "O lo'o vave tele lau fe'au - fa'amolemole fa'atali mo sina taimi ma toe taumafai.",
+      "unavailable": "Ua le avanoa le fesoasoani. Fa'amolemole toe taumafai vave.",
+      "generic": "Sa i ai se mea na faaletonu i le auina atu o lena savali. Fa'amolemole toe taumafai."
+    },
+    "emptyHint": "Fesili mai ia te aʻu i soo se mea - E mafai ona ou vaʻai i au lava faʻamatalaga.",
+    "closeAssistant": "Tapuni fesoasoani",
+    "openAssistant": "Fesoasoani tatala",
+    "inputPlaceholder": "Tusia se fe'au...",
+    "inputLabel": "Savali",
+    "send": "Auina atu"
+  },
+  "supportBoard": {
+    "defaultTitle": "Lagolago Tiketi",
+    "defaultCreateLabel": "Si'i le Popolega Fou",
+    "status": {
+      "open": "Tatala",
+      "inProgress": "Sologa",
+      "resolved": "Foia",
+      "closed": "Tapuni"
+    },
+    "tabs": {
+      "all": "Tiketi uma"
+    },
+    "recipients": {
+      "admin": "Pule o Nuu",
+      "systemAdmin": "Pule Fa'atonu",
+      "both": "Fa'alapotopotoga Fa'alapotopotoga + Pule Fa'atonu"
+    },
+    "roles": {
+      "resident": "Tagata nofomau",
+      "admin": "Pule"
+    },
+    "toRecipients": "Ia: {{recipients}}",
+    "raisedByResident": "Si'itia e le tagata nofomau {{name}}",
+    "raisedByAdmin": "Sii e ​​le pule {{name}}",
+    "refresh": "Toe faafou",
+    "stats": {
+      "openLabel": "Tatala Tatala",
+      "openHint": "Talia se iloiloga",
+      "inProgressLabel": "Sologa",
+      "inProgressHint": "O lo'o galue ai",
+      "resolvedLabel": "Foia",
+      "resolvedHint": "Tapuni manuia"
+    },
+    "searchPlaceholder": "Su'e tiketi ile mataupu, fa'asalalauga...",
+    "loadingTickets": "O lo'o utaina pepa ulufale…",
+    "empty": {
+      "title": "Leai ni tiketi lagolago na maua",
+      "body": "I le taimi nei e leai ni au talosaga lagolago o lo'o tatala pe fa'amaumauina e fetaui ma lenei faamama.",
+      "cta": "Tuuina atu se atugaluga"
+    },
+    "errors": {
+      "loadList": "Le mafai ona utaina pepa lagolago. Fa'amolemole toe taumafai.",
+      "loadDetail": "Le mafai ona utaina le pepa lea. Fa'amolemole toe taumafai.",
+      "required": "E mana'omia uma le mataupu ma le fe'au.",
+      "recipientRequired": "Filifili a itiiti ifo ma le tasi le tagata e mauaina (Community Admin ma/poʻo le System Admin).",
+      "submitFallback": "Le mafai ona tu'uina atu le pepa lea. Fa'amolemole toe taumafai.",
+      "sendReply": "Le mafai ona auina atu lenei fe'au. Fa'amolemole toe taumafai.",
+      "updateStatus": "Le mafai ona fa'afou le tulaga o le pepa ulufale. Fa'amolemole toe taumafai."
+    },
+    "form": {
+      "defaultHint": "Fa'amatala lau fa'afitauli po'o lou popolega i lalo.",
+      "subjectLabel": "Mataupu",
+      "subjectPlaceholder": "Aotelega puupuu o lau mataupu",
+      "messageLabel": "Savali",
+      "messagePlaceholder": "Fa'amatala auiliili mea o lo'o tupu...",
+      "recipientsLabel": "Auina atu lenei atugaluga i",
+      "cancel": "Fa'aleaogaina",
+      "submitting": "Tuuina atu…",
+      "submit": "Tuuina atu le tiketi"
+    },
+    "detail": {
+      "loading": "O lo'o utaina pepa ulufale…",
+      "replyPlaceholder": "Tusi se tali…",
+      "close": "Tapuni",
+      "sending": "Tuuina atu…",
+      "sendReply": "Auina atu le Tali"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Susu maia, {{name}}",
+    "openMenu": "Tatala le lisi",
+    "closeMenu": "Tapuni le lisi",
+    "logout": "Saini ese j",
+    "search": "Saili",
+    "notifications": "Fa'asilasilaga"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Laupapa laupapa",
+      "households": "Fa'asinomaga o Aiga",
+      "meterReadings": "Faitauga mita",
+      "billing": "Pulega o Pili",
+      "bulkPurchases": "Fa'atauga Tele",
+      "reports": "Lipoti",
+      "waterLeakage": "Suavai Lisi",
+      "support": "Lagolago / atugaluga",
+      "tariffPlans": "Fuafuaga o Faasologa",
+      "announcements": "Faasalalauga",
+      "profile": "Tala'aga"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "O se ata lenei o lou alalafaga."
+      },
+      "households": {
+        "title": "Fa'asinomaga o Aiga",
+        "subtitle": "Fa'aopoopo, fa'afou, ma pulea tagata o lo'o nonofo i lou nu'u."
+      },
+      "meterReadings": {
+        "title": "Suavai Meta Faitautusi Hub",
+        "subtitle": "Su'e se tagata nofomau ma fa'amaumau le latou faitau mita vai."
+      },
+      "tariffPlans": {
+        "title": "Fa'asologa o Fa'asologa",
+        "subtitle": "Fa'atulaga le fa'atapula'a o fua faatatau, fefa'asoaa'i tau o nofoaga masani, ma auala fa'asoa mo lou nu'u mautotogi."
+      },
+      "billing": {
+        "title": "Pulega o Pili",
+        "subtitle": "Tatala, fa'amae'a, ma fa'aputu ta'amilosaga pili, ma toe iloilo fa'amatalaga fa'amatalaga i le aiga."
+      },
+      "bulkPurchases": {
+        "title": "Fa'atauga Tele",
+        "subtitle": "Fa'amaumau uta va'a ma fa'atauga sapalai mo lou nu'u."
+      },
+      "waterLeakage": {
+        "title": "Suavai Lisi",
+        "subtitle": "Fa'atonu le fa'ailoga ma fa'ata'ita'i i fafo, ma toe iloilo aiga ua fu'a."
+      },
+      "support": {
+        "title": "Lagolago / atugaluga",
+        "subtitle": "Si'i a oe lava tiketi ile Pule Fa'atonu, pe taulima atugaluga na fa'ailoa atu e lou aumau ia te oe."
+      },
+      "profile": {
+        "title": "Fa'atonu & Tala'aga",
+        "subtitle": "Pulea au fa'amatalaga fa'amatalaga ma fa'amatalaga fale mautotogi."
+      }
+    },
+    "fallbackName": "Pule",
+    "fallbackCommunity": "Pule o Nuu",
+    "notBuilt": "{{label}} e le'i fausia",
+    "searchPlaceholder": "Su'e so'o se mea..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Lipoti",
+      "description": "Lipoti fa'atau, pili, ma fa'asao mo lou nu'u."
+    },
+    "announcements": {
+      "title": "Faasalalauga",
+      "description": "Auina atu faʻasalalauga lautele i tagata o loʻo nofoia."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ua lata mai"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Laupapa laupapa",
+      "usageHistory": "Fa'aoga Tala'aga",
+      "bills": "O a'u pili",
+      "recommendations": "Fautuaga",
+      "reports": "Lipoti",
+      "support": "Lagolago / atugaluga",
+      "notifications": "Fa'asilasilaga",
+      "profile": "Tala'aga"
+    },
+    "pages": {
+      "usageHistory": "O lou fa'aoga tala'aga",
+      "billing": "Pili & pili",
+      "notifications": "Fa'asilasilaga",
+      "recommendations": "Fautuaga",
+      "support": "Lagolago / atugaluga"
+    },
+    "defaultTitle": "Nu'u Dashboard",
+    "navLabel": "Tautai nofomau",
+    "fallbackName": "Tagata nofomau",
+    "unit": "Iunite {{number}}",
+    "comingSoon": "{{label}} ua lata mai",
+    "profile": "Tala'aga",
+    "searchPlaceholder": "Su'e au'ili'iliga, pili..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Laupapa laupapa",
+      "communities": "Nuu",
+      "reports": "Lipoti",
+      "supportTickets": "Lagolago Tiketi",
+      "systemStatus": "Tulaga Fa'atonu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ata-lautele ata i luga o so'o se alalafaga resitala."
+      },
+      "communities": {
+        "title": "Nuu",
+        "subtitle": "Ta'ita'i fa'alapotopotoga uma ua resitalaina ma lo latou nu'u, i le nofoaga e tasi."
+      },
+      "reports": {
+        "title": "Lipoti",
+        "subtitle": "Fa'atatau ole fa'aogaina ole vai ma fa'asologa o pili, e alaalafaga ma le aluga ole taimi."
+      },
+      "supportTickets": {
+        "title": "Lagolago Tiketi",
+        "subtitle": "Lagolago tiketi ma atugaluga na laga e tagata nofomau ma faʻalapotopotoga faʻalapotopotoga, tulaga-lautele."
+      },
+      "systemStatus": {
+        "title": "Tulaga Faiga",
+        "subtitle": "Feso'ota'iga pito i tua ma le soifua maloloina fa'avae."
+      }
+    },
+    "fallbackName": "Pule Fa'atonu",
+    "platformOwner": "Pule Fa'avae",
+    "searchPlaceholder": "Su'e nu'u..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Gagana: {{language}}",
+    "searchPlaceholder": "Su'e gagana...",
+    "noMatches": "Leai se fetaui"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Vala",
+    "signUpTitle": "Bhalisa uluntu lwakho",
+    "signInTitle": "Siyakwamkela emva",
+    "signUpSubtitle": "Yenza i-akhawunti yoLawulo loLuntu ukuze uqale ukulawula abahlali kunye nokuhlawula.",
+    "signInSubtitle": "Sayina ungene ukujonga ukusebenzisa kwakho amanzi kunye nentlawulo."
+  },
+  "signIn": {
+    "errorFallback": "Ayikwazanga ukungena. Nceda uzame kwakhona.",
+    "emailLabel": "I-imeyile",
+    "passwordLabel": "Inombolo yokuvula",
+    "rememberMe": "Ndikhumbule",
+    "forgotPassword": "Ingaba uyilibele iphasiwedi?",
+    "submitting": "Iyangena...",
+    "submit": "Ngena",
+    "noAccount": "Awunayo iakhawunti?",
+    "signUpLink": "Bhalisa"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Amagama okugqithisa awahambelani.",
+      "communityRequired": "Igama loluntu liyafuneka.",
+      "termsRequired": "Nceda uvumelane neMigqaliselo yeNkonzo kunye noMgaqo-nkqubo waBucala.",
+      "fallback": "Ayikwazanga ukwenza iakhawunti. Nceda zama kwakhona."
+    },
+    "hint": "Abalawuli basekuhlaleni kuphela ababhalisa apha. Nje ukuba ungenile, uya kongeza iinkcukacha zabahlali bakho ngokwakho - abazibhalisi ngokwabo.",
+    "fullNameLabel": "Igama eliphelele",
+    "emailLabel": "I-imeyile",
+    "phoneLabel": "Inombolo yomnxeba",
+    "communityNameLabel": "Igama loluntu",
+    "passwordLabel": "Inombolo yokuvula",
+    "confirmPasswordLabel": "Ngqina iphasiwedi",
+    "agreeTerms": "Ndiyavumelana <termsLink>neMiqathango yeNkonzo</termsLink> kunye <privacyLink>neNkqubo yaBucala</privacyLink>",
+    "submitting": "Kuyilwa iakhawunti...",
+    "submit": "Yenza iAkhawunti yoLawulo",
+    "haveAccount": "Ngaba sele unayo i-akhawunti?",
+    "signInLink": "Ngena"
+  },
+  "installPrompt": {
+    "title": "Faka HydroLedger",
+    "description": "Yongeza kwiscreen sakho sasekhaya ukuze ufikelele ngokukhawuleza.",
+    "dismiss": "Gxotha",
+    "install": "Faka"
+  },
+  "setPassword": {
+    "title": "Seta igama lokugqithisa lakho",
+    "loading": "Iyalayisha...",
+    "subtitle": "Molo {{name}}, khetha igama lokugqitha ukuze {{email}} uvule HydroLedger iakhawunti yakho.",
+    "errors": {
+      "invalidLink": "Elikhonkco alisebenzi okanye liphelelwe lixesha.",
+      "tooShort": "Igama lokugqithisa kufuneka libe noonobumba abasi-8 ubuncinane.",
+      "mismatch": "Amagama okugqithisa awahambelani.",
+      "fallback": "Ayikwazanga ukuseta igama lokugqithisa lakho. Nceda zama kwakhona."
+    },
+    "passwordLabel": "Inombolo yokuvula",
+    "confirmPasswordLabel": "Ngqina iphasiwedi",
+    "submitting": "Ukuseta igama lokugqithisa...",
+    "submit": "Cwangcisa igama lokugqithisa & ungene"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger uMncedisi",
+      "resident": "Buza ngeakhawunti yakho",
+      "admin": "UMncedisi woLuntu",
+      "platform": "Umncedisi weQonga",
+      "default": "Umncedisi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Yintoni HydroLedger?",
+        "tieredBilling": "Isebenza njani intlawulo yenqanaba?",
+        "leaks": "Kufunyaniswa njani ukuvuza?"
+      },
+      "resident": {
+        "billEstimate": "Luthini uqikelelo lwetyala lam langoku?",
+        "alerts": "Ndinazo izilumkiso zosetyenziso?",
+        "readings": "Bonisa ufundo lwam lwemitha lwamva nje"
+      },
+      "admin": {
+        "households": "Mingaphi imizi esinayo?",
+        "billingCycles": "Dwelisa imijikelo yethu yakutshanje yokuhlawula",
+        "tariff": "Sithini isicwangciso sethu sangoku samaxabiso?"
+      },
+      "platform": {
+        "communities": "Dwelisa lonke uluntu olubhalisiweyo",
+        "usageReport": "Bonisa ingxelo yokusetyenziswa kweqonga",
+        "systemStatus": "Sithini isimo senkqubo?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Uthumela imiyalezo ngokukhawuleza kakhulu-nceda ulinde umzuzwana uzame kwakhona.",
+      "unavailable": "Umncedisi akafumaneki okwangoku. Nceda uzame kwakhona kungekudala.",
+      "generic": "Kukho into engalunganga ngokuthumela lo myalezo. Nceda zama kwakhona."
+    },
+    "emptyHint": "Ndibuze nantoni na - ndiyayibona kuphela idatha yakho.",
+    "closeAssistant": "Vala umncedisi",
+    "openAssistant": "Vula umncedisi",
+    "inputPlaceholder": "Chwetheza umyalezo...",
+    "inputLabel": "Umyalezo",
+    "send": "Thumela"
+  },
+  "supportBoard": {
+    "defaultTitle": "Amatikiti enkxaso",
+    "defaultCreateLabel": "Phakamisa Inkxalabo Entsha",
+    "status": {
+      "open": "Vula",
+      "inProgress": "Iyaqhubeka",
+      "resolved": "Isonjululwe",
+      "closed": "Ivaliwe"
+    },
+    "tabs": {
+      "all": "Onke amatikiti"
+    },
+    "recipients": {
+      "admin": "Community Admin",
+      "systemAdmin": "Ulawulo lweNkqubo",
+      "both": "Ulawulo loluntu + Ulawulo lweNkqubo"
+    },
+    "roles": {
+      "resident": "Umhlali",
+      "admin": "Admin"
+    },
+    "toRecipients": "Iya: {{recipients}}",
+    "raisedByResident": "Ikhuliswe ngumhlali {{name}}",
+    "raisedByAdmin": "Iphakanyiswe ngumlawuli {{name}}",
+    "refresh": "Hlaziya",
+    "stats": {
+      "openLabel": "Vula uNgeniso",
+      "openHint": "Ilindele ukuphononongwa",
+      "inProgressLabel": "Iyaqhubeka",
+      "inProgressHint": "Kuyasetyenzwa",
+      "resolvedLabel": "Isonjululwe",
+      "resolvedHint": "Ivalwe ngempumelelo"
+    },
+    "searchPlaceholder": "Phendla amatikiti ngomxholo, ukukhutshwa...",
+    "loadingTickets": "Ilayisha amatikiti...",
+    "empty": {
+      "title": "Akukho matikiti eNkxaso afunyenweyo",
+      "body": "Okwangoku awunazicelo zenkxaso ezivuliweyo okanye ezirekhodiweyo ezihambelana nesi sihluzo.",
+      "cta": "Ngenisa iNgxaki"
+    },
+    "errors": {
+      "loadList": "Ayikwazanga ukulayisha amatikiti enkxaso. Nceda zama kwakhona.",
+      "loadDetail": "Ayikwazanga ukulayisha eli tikiti. Nceda zama kwakhona.",
+      "required": "Umxholo kunye nomyalezo ziyafuneka zombini.",
+      "recipientRequired": "Khetha nokuba mnye umamkeli (uLawulo loLuntu kunye/okanye noLawulo lweNkqubo).",
+      "submitFallback": "Ayikwazanga ukuthumela eli tikiti. Nceda zama kwakhona.",
+      "sendReply": "Ayikwazanga ukuthumela lo myalezo. Nceda zama kwakhona.",
+      "updateStatus": "Ayikwazanga kuhlaziya isimo setikiti. Nceda zama kwakhona."
+    },
+    "form": {
+      "defaultHint": "Chaza umba wakho okanye inkxalabo yakho ngezantsi.",
+      "subjectLabel": "Umxholo",
+      "subjectPlaceholder": "Isishwankathelo esifutshane somba wakho",
+      "messageLabel": "Umyalezo",
+      "messagePlaceholder": "Chaza okwenzekayo ngokweenkcukacha...",
+      "recipientsLabel": "Thumela le nkxalabo ku",
+      "cancel": "Rhoxisa",
+      "submitting": "Iyathumela...",
+      "submit": "Ngenisa itikiti"
+    },
+    "detail": {
+      "loading": "Ilayisha itikiti...",
+      "replyPlaceholder": "Bhala impendulo...",
+      "close": "Vala",
+      "sending": "Iyathumela...",
+      "sendReply": "Thumela Impendulo"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Wamkelekile kwakhona, {{name}}",
+    "openMenu": "Vula imenyu",
+    "closeMenu": "Vala imenyu",
+    "logout": "Phuma",
+    "search": "Khangela",
+    "notifications": "Izaziso"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Uluhlu lweencwadi zemizi",
+      "meterReadings": "Ufundo lwemitha",
+      "billing": "Ulawulo lweeBhili",
+      "bulkPurchases": "Ukuthengwa kwezinto ezininzi",
+      "reports": "Iingxelo",
+      "waterLeakage": "Ukuvuza kwamanzi",
+      "support": "Inkxaso / Iinkxalabo",
+      "tariffPlans": "Izicwangciso zeRhafu",
+      "announcements": "Izaziso",
+      "profile": "Inkangeleko yesimo"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Nanku umfanekiso woluntu lwakho."
+      },
+      "households": {
+        "title": "Uluhlu lweencwadi zemizi",
+        "subtitle": "Yongeza, uhlaziye, kwaye ulawule abahlali abahlala kwindawo yakho."
+      },
+      "meterReadings": {
+        "title": "IZiko lokuFunda lemitha yamanzi",
+        "subtitle": "Khangela umhlali kwaye urekhode ukufundwa kwemitha yamanzi."
+      },
+      "tariffPlans": {
+        "title": "Uqwalaselo lweRhafu",
+        "subtitle": "Qwalasela imilinganiselo yemilinganiselo emiselweyo, iindleko zendawo ekwabelwana ngazo, kunye neendlela zokusasaza kwindawo ohlala kuyo."
+      },
+      "billing": {
+        "title": "Ulawulo lweeBhili",
+        "subtitle": "Vula, ugqibezele, kwaye ugcine imijikelo yokuhlawula, kwaye uphonononge ii-invoyisi ezichaziweyo kwikhaya ngalinye."
+      },
+      "bulkPurchases": {
+        "title": "Ukuthengwa kwezinto ezininzi",
+        "subtitle": "Rekhoda ukuhanjiswa kweetanki kunye nokuthengwa kwezinto zikamasipala kwindawo yakho."
+      },
+      "waterLeakage": {
+        "title": "Ukuvuza kwamanzi",
+        "subtitle": "Qwalasela i-threshold kunye nezilumkiso zokuvuza ezisekwe ngaphandle, kwaye uphonononge amakhaya aneflegi."
+      },
+      "support": {
+        "title": "Inkxaso / Iinkxalabo",
+        "subtitle": "Phakamisa awakho amatikiti kuLawulo lweNkqubo, okanye uphathe iinkxalabo abahlali bakho abazibhekise kuwe."
+      },
+      "profile": {
+        "title": "Iisetingi kunye neProfayili",
+        "subtitle": "Lawula iinkcukacha zeakhawunti yakho kunye nolwazi lwefulethi."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Community Admin",
+    "notBuilt": "{{label}} ayikakhiwa",
+    "searchPlaceholder": "Phendla nantoni na..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Iingxelo",
+      "description": "Ukusetyenziswa, ukuhlawula, kunye neengxelo zolondolozo kuluntu lwakho."
+    },
+    "announcements": {
+      "title": "Izaziso",
+      "description": "Thumela izaziso zoluntu ngokubanzi kubahlali bakho."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} iyeza kwakamsinya"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Imbali yosetyenziso",
+      "bills": "Amatyala am",
+      "recommendations": "Iingcebiso",
+      "reports": "Iingxelo",
+      "support": "Inkxaso / Iinkxalabo",
+      "notifications": "Izaziso",
+      "profile": "Inkangeleko yesimo"
+    },
+    "pages": {
+      "usageHistory": "Imbali yakho yokusetyenziswa",
+      "billing": "Iintlawulo kunye nee-invoyisi",
+      "notifications": "Izaziso",
+      "recommendations": "Iingcebiso",
+      "support": "Inkxaso / Iinkxalabo"
+    },
+    "defaultTitle": "Ideshibhodi yabahlali",
+    "navLabel": "Ukuzulazula kwabahlali",
+    "fallbackName": "Umhlali",
+    "unit": "Iyunithi {{number}}",
+    "comingSoon": "{{label}} iyeza kwakamsinya",
+    "profile": "Inkangeleko yesimo",
+    "searchPlaceholder": "Khangela uhlalutyo, amatyala..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Uluntu",
+      "reports": "Iingxelo",
+      "supportTickets": "Amatikiti enkxaso",
+      "systemStatus": "Ubume beNkqubo"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "I-Platform-wide snapshot kulo lonke uluntu olubhalisiweyo."
+      },
+      "communities": {
+        "title": "Uluntu",
+        "subtitle": "Wonke umlawuli woluntu obhalisiweyo kunye noluntu lwabo, kwindawo enye."
+      },
+      "reports": {
+        "title": "Iingxelo",
+        "subtitle": "Ukusetyenziswa kwamanzi kwiqonga elibanzi kunye namanani amatyala, luluntu kunye nexesha."
+      },
+      "supportTickets": {
+        "title": "Amatikiti enkxaso",
+        "subtitle": "Amatikiti enkxaso kunye neenkxalabo eziphakanyiswe ngabahlali kunye nabalawuli boluntu, iqonga-ngokubanzi."
+      },
+      "systemStatus": {
+        "title": "Ubume beNkqubo",
+        "subtitle": "Uqhagamshelo lwasemva kunye nempilo esisiseko yexesha lokusebenza."
+      }
+    },
+    "fallbackName": "Ulawulo lweNkqubo",
+    "platformOwner": "uMnini weQonga",
+    "searchPlaceholder": "Phendla uluntu..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Ulwimi: {{language}}",
+    "searchPlaceholder": "Phendla ulwimi...",
+    "noMatches": "Akukho midlalo"
+  }
+}

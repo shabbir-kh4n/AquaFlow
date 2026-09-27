@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Netrukus",
+    "welcome": {
+      "greeting": "Sveiki {{name}},",
+      "greetingFallback": "Sveiki,",
+      "title": "Būkite šalia savo namų vandens istorijos.",
+      "subtitle": "Naudojimo ir atsiskaitymo įžvalgos bus rodomos čia, kai jūsų bendruomenė registruoja rodmenis.",
+      "viewBadges": "Peržiūrėkite ekologinius ženklelius"
+    },
+    "stats": {
+      "todaysUsage": "Šiandieninis naudojimas",
+      "asOf": "Nuo {{date}}",
+      "noReading": "Skaitiklio rodmenų dar nėra",
+      "monthlyTotalFor": "Iš viso per mėnesį ({{month}})",
+      "monthlyTotalThisMonth": "Iš viso per mėnesį (šį mėnesį)",
+      "sumOfReadings": "Užregistruotų rodmenų suma",
+      "estimatedBill": "Dabartinė numatoma sąskaita",
+      "estimatedBillFor": "Matuojamas naudojimas + bendri mokesčiai, {{month}}",
+      "estimatedBillHint": "Remiantis šio mėnesio skaičiuojamu suvartojimu ir bendrais mokesčiais",
+      "savings": "Sutaupyta, palyginti su pastato vid",
+      "savingsValue": "{{percent}} % mažiau",
+      "savingsPreview": "Tik peržiūra – palyginimas dar neaktyvus"
+    },
+    "consumption": {
+      "eyebrow": "Vartojimas",
+      "title": "Kasdienis suvartojimas (14 paskutinių skaitymų)",
+      "seriesName": "Vartojimas",
+      "empty": "Dar nėra užfiksuotų rodmenų."
+    },
+    "breakdown": {
+      "eyebrow": "Suskirstymas",
+      "title": "Naudojimo suskirstymas",
+      "bathroom": "Vonios kambarys",
+      "kitchen": "Virtuvė",
+      "garden": "Sodas / Balkonas",
+      "other": "Kita / Skalbykla"
+    },
+    "billing": {
+      "eyebrow": "Atsiskaitymas",
+      "title": "Aktyvus atsiskaitymo ciklas",
+      "finalized": "Užbaigta",
+      "preview": "Peržiūra",
+      "meteredConsumption": "Matuojamas suvartojimas",
+      "tierPriceLevel": "Pakopų kainų lygis",
+      "tierLabel": "Pakopa {{tier}}",
+      "commonArea": "Bendro ploto paskirstymas",
+      "commonAreaPreview": "Bendros erdvės paskirstymas (peržiūra)",
+      "invoiceTotal": "Iš viso {{period}} sąskaitos faktūros",
+      "estimatedCharge": "Dabartinis apskaičiuotas mokestis",
+      "commonAreaBreakdown": "Bendro ploto suskirstymas",
+      "payPreview": "Mokėti sąskaitos peržiūra",
+      "payUnavailable": "Atsiskaitymo variklis dar nepasiekiamas"
+    },
+    "tips": {
+      "eyebrow": "Patarimai",
+      "title": "Sumanūs taupymo patarimai",
+      "viewAll": "Žiūrėti viską",
+      "empty": "Suasmeninti patarimai rodomi čia, kai jūsų bendruomenė baigia atsiskaitymo ciklą."
+    },
+    "community": "Bendruomenė: {{name}}"
+  },
+  "usage": {
+    "loadError": "Nepavyko įkelti jūsų naudojimo istorijos. Bandykite dar kartą.",
+    "loading": "Įkeliama jūsų naudojimo analizė…",
+    "empty": "Dar nėra užfiksuotų rodmenų. Kai jūsų bendruomenė užfiksuos skaitiklio rodmenis, jis bus rodomas čia.",
+    "tabs": {
+      "lastSixMonths": "Paskutiniai 6 mėnesiai",
+      "customRange": "Pasirinktinis diapazonas",
+      "comingSoon": "Netrukus"
+    },
+    "peakDay": "Piko diena:",
+    "lowestDay": "Žemiausia diena:",
+    "comparison": {
+      "title": "Namų ūkių suvartojimas ir buto vidurkis",
+      "subtitle": "Mėnesio sumos rodomos kilolitrais (kL).",
+      "yourHousehold": "Jūsų namų ūkis",
+      "apartmentAverage": "Butas Vidutinis",
+      "similarSized": "Panašaus dydžio namai"
+    },
+    "heatmap": {
+      "title": "Kasdienio vartojimo šilumos žemėlapis",
+      "subtitle": "Spalvos intensyvumas žymi intensyvaus naudojimo dienas (peržiūra)."
+    },
+    "ranking": {
+      "title": "Bendruomenės bendraamžių reitingas",
+      "subtitle": "Jūsų reitingas, palyginti su panašiais vienetais (peržiūra).",
+      "ecoSaver": "Aktyvus ekologinis taupymas",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Vienetas {{number}}",
+      "yourUnit": "Jūsų padalinys",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Jūs)"
+    }
+  },
+  "billing": {
+    "loadError": "Nepavyko įkelti atsiskaitymo istorijos. Bandykite dar kartą.",
+    "pdfError": "Nepavyko atsisiųsti PDF. Bandykite dar kartą.",
+    "loading": "Įkeliama atsiskaitymo istorija…",
+    "empty": "Dar nėra sąskaitų faktūrų – kai tik jūsų bendruomenė užbaigs atsiskaitymo ciklą, jūsų sąskaitos bus rodomos čia.",
+    "status": {
+      "paid": "Mokama",
+      "unpaid": "Neapmokėta"
+    },
+    "summary": {
+      "outstandingBalance": "Išskirtinis balansas",
+      "billingCycle": "Atsiskaitymo ciklas: {{period}}",
+      "allPaid": "Visos sąskaitos apmokėtos",
+      "payTotal": "Iš viso mokėti",
+      "payTotalUnavailable": "Mokėjimas internetu dar nepasiekiamas – apmokėkite sąskaitas tiesiogiai su bendruomenės administratoriumi",
+      "downloadSummary": "Atsisiųskite sąskaitų santrauką",
+      "downloadSummaryUnavailable": "Sąskaitų suvestinės atsisiuntimas dar nepasiekiamas"
+    },
+    "history": {
+      "title": "Sąskaitų faktūrų istorija",
+      "exportCsv": "Eksportuoti viską į CSV",
+      "exportUnavailable": "CSV eksportavimas dar nepasiekiamas"
+    },
+    "table": {
+      "cycle": "Ciklas",
+      "usage": "Naudojimas (kL)",
+      "amountDue": "Mokėtina suma",
+      "paymentStatus": "Mokėjimo būsena",
+      "hideBreakdown": "Slėpti suskirstymą ↑",
+      "showBreakdown": "Išsamus suskirstymas ↓",
+      "downloading": "Atsisiunčiama…",
+      "pdf": "PDF",
+      "pay": "Mokėti"
+    },
+    "breakdown": {
+      "householdTitle": "Namų ūkių vartojimo suskirstymas",
+      "basePrice": "Bazinė kaina: {{units}} kL × ₹ {{rate}}",
+      "tierLine": "{{tier}} pakopa: {{units}} kL × ₹ {{rate}}",
+      "subtotalMetered": "Išmatuoto naudojimo tarpinė suma",
+      "commonAreaTitle": "Bendros erdvės paskirstymas",
+      "subtotalShared": "Bendra ploto tarpinė suma",
+      "noCommonArea": "Už šį ciklą nėra bendrų bendro naudojimo mokesčių."
+    },
+    "pagination": {
+      "showing": "Rodoma {{from}}–{{to}} iš {{total}}",
+      "prev": "← Ankst",
+      "next": "Kitas →",
+      "page": "Puslapis {{page}} iš {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Mokėjimo metodai (peržiūra)",
+      "description": "Mokėjimas internetu dar nepasiekiamas – sąskaitos apmokamos tiesiogiai su bendruomenės administratoriumi.",
+      "manage": "Tvarkyti mokėjimo būdus",
+      "manageUnavailable": "Mokėjimo būdai dar nepasiekiami"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Apsaugota Razorpay",
+    "billingCycle": "Atsiskaitymo ciklas {{period}}",
+    "close": "Uždaryti",
+    "amountPayable": "Mokėtina suma",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kortelės",
+      "netbanking": "Interneto bankininkystė",
+      "wallet": "Piniginė"
+    },
+    "upi": {
+      "title": "Mokėti per UPI",
+      "upiId": "UPI ID",
+      "or": "ARBA",
+      "scan": "Nuskaitykite naudodami bet kurią UPI programą"
+    },
+    "card": {
+      "title": "Mokėti kortele",
+      "number": "Kortelės numeris",
+      "expiry": "Galiojimo laikas",
+      "expiryPlaceholder": "MM / MM",
+      "cvv": "CVV",
+      "name": "Vardas ant kortelės",
+      "namePlaceholder": "Kaip atspausdinta ant kortelės"
+    },
+    "netbanking": {
+      "title": "Mokėti per internetbanką"
+    },
+    "wallet": {
+      "title": "Mokėti per Piniginę"
+    },
+    "payAmount": "Mokėti {{amount}} INR",
+    "processing": "Apdorojamas mokėjimas…",
+    "processingHint": "Prašome nespausti atgal ir neatnaujinti šio puslapio",
+    "success": "Mokėjimas sėkmingas",
+    "error": "Patvirtinant mokėjimą įvyko klaida. Bandykite dar kartą.",
+    "retry": "Bandykite dar kartą"
+  },
+  "notifications": {
+    "loadError": "Nepavyko įkelti pranešimų. Bandykite dar kartą.",
+    "loading": "Įkeliami pranešimai…",
+    "empty": "Kol kas jokių pranešimų – ką nors matysite čia, jei jūsų bendruomenės administratorius įgalino įspėjimus apie naudojimo slenkstį arba neįprastą suvartojimą ir toks bus suaktyvintas jūsų namų ūkyje.",
+    "type": {
+      "thresholdExceeded": "Vartojimo slenkstis viršytas",
+      "statisticalOutlier": "Aptiktas neįprastas suvartojimas"
+    },
+    "status": {
+      "active": "Aktyvus",
+      "resolved": "Išspręsta",
+      "dismissed": "Atleistas"
+    },
+    "billingPeriod": "Atsiskaitymo laikotarpis: {{period}}",
+    "consumption": "Vartojimas: {{value}} kL",
+    "push": {
+      "title": "Push pranešimai",
+      "description": "Gaukite pranešimą šiame įrenginyje, kai gausite naują sąskaitą ar įspėjimą.",
+      "enable": "Įgalinti",
+      "disable": "Išjungti",
+      "permissionDenied": "Leidimas pranešti nebuvo suteiktas.",
+      "notConfigured": "Push pranešimai dar nesukonfigūruoti. Susisiekite su savo administratoriumi.",
+      "enableError": "Nepavyko įjungti tiesioginių pranešimų. Bandykite dar kartą.",
+      "disableError": "Nepavyko išjungti tiesioginių pranešimų. Bandykite dar kartą."
+    }
+  },
+  "recommendations": {
+    "loadError": "Nepavyko įkelti jūsų rekomendacijų. Bandykite dar kartą.",
+    "loading": "Įkeliami suasmeninti patarimai…",
+    "generated": "Sukurta {{date}}",
+    "generatedForPeriod": "Sugeneruota {{date}} atsiskaitymo laikotarpiu {{period}}",
+    "eyebrow": "Suasmeninta jums",
+    "title": "Išmanūs vandens taupymo patarimai",
+    "empty": "Dar nesugeneruota jokių patarimų – jie automatiškai atnaujinami kiekvieną kartą, kai bendruomenė užbaigia atsiskaitymo už jūsų namų ūkį ciklą."
+  },
+  "support": {
+    "title": "Gyventojų palaikymo ir rūpesčių biuras",
+    "subtitle": "Pateikite vandens nuotėkio ataskaitas, skaitiklio kalibravimo užklausas arba atsiskaitymo užklausas tiesiogiai savo bendruomenės administratoriui ir (arba) sistemos administratoriui.",
+    "emptyCreateHint": "Toliau aprašykite savo problemą arba susirūpinimą ir pasirinkite, kas turėtų ją spręsti."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Active",
+    "blocked": "voasakana",
+    "terminated": "faranana"
+  },
+  "sort": {
+    "sortBy": "Sivanina araka",
+    "toggleDirection": "Ampifamadiho ny lalana fanasokajiana",
+    "asc": "↑ Asc",
+    "desc": "↓ Des"
+  },
+  "pagination": {
+    "showing": "Mampiseho {{from}}–{{to}} amin'ny {{total}}",
+    "prev": "← Teo aloha",
+    "next": "Manaraka →",
+    "page": "Pejy {{page}} amin'ny {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Overview",
+    "subtitle": "Ny mpitantana vondrom-piarahamonina rehetra voasoratra anarana, manerana ny sehatra HydroLedger manontolo.",
+    "viewAll": "Jereo ny vondrom-piarahamonina rehetra",
+    "loadError": "Tsy afaka mampiditra angon-drakitra amin'ny sehatra amin'izao fotoana izao.",
+    "cards": {
+      "totalCommunities": "Total Community",
+      "registeredAdmins": "Mpiandraikitra nisoratra anarana",
+      "totalResidents": "Total mponina",
+      "acrossAllCommunities": "Manerana ny vondrom-piarahamonina rehetra",
+      "active": "Active",
+      "inGoodStanding": "Amin'ny toerana tsara",
+      "blockedTerminated": "Voasakana / Tapaka",
+      "blockedTerminatedBreakdown": "{{blocked}} voasakana, {{terminated}} tapaka"
+    },
+    "recent": {
+      "title": "Vondrom-piarahamonina nisoratra anarana vao haingana",
+      "loading": "Loading…",
+      "empty": "Tsy mbola nisy vondrom-piarahamonina nisoratra anarana.",
+      "table": {
+        "community": "COMMUNITY",
+        "admin": "Admin",
+        "status": "sata",
+        "residents": "TEZITRA ny mponina"
+      }
+    }
+  },
+  "communities": {
+    "count": "Vondrom-piarahamonina: {{count}}",
+    "loadError": "Tsy afaka nampiditra vondrom-piarahamonina. Andramo indray azafady.",
+    "searchPlaceholder": "Sivanina araka ny vondrom-piarahamonina, anarana admin, na mailaka",
+    "statusFilter": {
+      "label": "sata",
+      "all": "rehetra"
+    },
+    "sortOptions": {
+      "community": "COMMUNITY",
+      "admin": "Admin",
+      "residents": "TEZITRA ny mponina"
+    },
+    "loading": "Mametraka vondrom-piarahamonina…",
+    "empty": "Tsy mbola nisy vondrom-piarahamonina nisoratra anarana.",
+    "noMatch": "Tsy misy vondrom-piarahamonina mifanaraka amin'ny sivanao.",
+    "table": {
+      "community": "COMMUNITY",
+      "admin": "Admin",
+      "email": "mailaka",
+      "status": "sata",
+      "residents": "TEZITRA ny mponina",
+      "view": "View"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Tsy afaka nampiditra ity vondrom-piarahamonina ity. Nesorina angamba.",
+    "statusUpdateError": "Tsy afaka nanavao ny satan'ity vondrom-piarahamonina ity.",
+    "deleteError": "Tsy afaka namafa ity vondrom-piarahamonina ity.",
+    "loading": "Mametraka fiaraha-monina…",
+    "notFound": "Tsy hita ny fiaraha-monina.",
+    "backLink": "← Miverina amin'ny vondrom-piarahamonina",
+    "backLinkShort": "Hiverina any amin'ny Communities",
+    "eyebrow": "mombamomba ny fiaraha-monina",
+    "unnamed": "Fiaraha-monina tsy fantatra anarana",
+    "noAddress": "Tsy misy adiresy ao anaty rakitra",
+    "stats": {
+      "residents": "TEZITRA ny mponina",
+      "status": "sata"
+    },
+    "actions": {
+      "reactivate": "Avereno indray",
+      "block": "andian-tsoratra",
+      "terminate": "hamarana",
+      "delete": "Fafao ny vondrom-piarahamonina"
+    },
+    "blockDialog": {
+      "title": "Sakanana ity mpitantana vondrom-piarahamonina ity?",
+      "message": "Sakanana {{name}}? Tsy afaka miditra izy ireo raha tsy voasakana. Tsy misy angon-drakitra hisy fiantraikany.",
+      "confirm": "andian-tsoratra"
+    },
+    "terminateDialog": {
+      "title": "Atsaharo ity mpitantana vondrom-piarahamonina ity?",
+      "message": "Atsaharo maharitra ny fidirana {{name}}? Tsy azo averina izany, na dia hotehirizina ho firaketana aza ny angon'ny vondrom-piarahamonina misy azy.",
+      "confirm": "hamarana"
+    },
+    "deleteDialog": {
+      "title": "Fafao ity vondrom-piarahamonina ity?",
+      "message": "Izany dia hamafa tanteraka <strong>{{name}}</strong> sy ny ankohonany rehetra, ny mponina, ny metatra, ny sarany/faktiora, ary ny tantaran'ny faktiora. Tsy azo averina io hetsika io.",
+      "typeToConfirm": "Soraty <strong>{{word}}</strong> hanohizana",
+      "confirm": "Manamarina"
+    },
+    "residents": {
+      "title": "TEZITRA ny mponina",
+      "registeredCount": "Voasoratra: {{count}}",
+      "empty": "Tsy mbola nisy mponina nisoratra anarana tao amin'ity vondrom-piarahamonina ity.",
+      "table": {
+        "flatUnit": "Fizarana fisaka",
+        "meter": "metatra",
+        "resident": "Amin'ny mponina",
+        "email": "mailaka",
+        "passwordSet": "Tenimiafina napetraka"
+      },
+      "yes": "ENY",
+      "no": "tsy misy"
+    },
+    "cancel": "hanafoana",
+    "working": "Miasa…",
+    "deleting": "Famafana…"
+  },
+  "systemStatus": {
+    "statusError": "Tsy tonga any amin'ny backend hanamarina ny satan'ny rafitra.",
+    "metricsError": "Tsy afaka mampiditra ny tantaran'ny metrika.",
+    "ranges": {
+      "fiveMinutes": "5 minitra",
+      "fifteenMinutes": "15 minitra",
+      "hour": "Ora",
+      "day": "Andro",
+      "week": "Herinandro",
+      "month": "VOLANA",
+      "threeMonths": "3 volana"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Fangatahana/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} farany",
+      "loading": "Loading…",
+      "empty": "Tsy mbola misy metrika voarakitra ho an'ity sehatra ity."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Salan'isa: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Farany: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Manamarina…",
+      "reachable": "Indray Andro Any",
+      "unreachable": "takatra",
+      "connected": "mifandray",
+      "backendApiHint": "Ity pejy ity dia nalaina avy any aoriana, ka namaly.",
+      "database": "banky angona",
+      "databaseHint": "Ny fifandraisana PostgreSQL, voamarina mivantana.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Hatramin'ny nanombohan'ny fampiharana farany.",
+      "appVersion": "App Version",
+      "appVersionHint": "Fanorenana dikan-backend."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Mamaky ny Latency",
+      "writesLatency": "Manoratra Latency",
+      "otherLatency": "Latency hafa",
+      "connections": "fifandraisana",
+      "totalKeys": "Total Keys"
+    },
+    "note": "Ny fangatahana/seg sy ny fahatarana dia alaina avy amin'ny fifamoivoizana mivantana any aoriana isaky ny 15 segondra ary tehirizina hatramin'ny 100 andro. Ity dia fampifandraisana fototra + fisavana fifamoivoizana - tsy manolo ny fanaraha-maso ny fahombiazan'ny fampiharana feno, ny fanangonana log, na ny fanairana."
+  },
+  "reports": {
+    "loadError": "Tsy afaka nampiditra ny tatitra momba ny sehatra.",
+    "ranges": {
+      "threeMonths": "3 volana",
+      "sixMonths": "6 volana",
+      "twelveMonths": "12 volana",
+      "custom": "fanao"
+    },
+    "sortOptions": {
+      "community": "COMMUNITY",
+      "usage": "Fampiasana",
+      "billed": "no voalaza",
+      "residents": "TEZITRA ny mponina"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "ny",
+      "hint": "Safidio ny volana \"avy amin'ny\" sy \"hatramin'ny\" mba hampidirana tatitra manokana."
+    },
+    "loading": "Mametraka tatitra…",
+    "cards": {
+      "totalCommunities": "Total Community",
+      "inThisRange": "Ao amin'io faritra io",
+      "totalResidents": "Total mponina",
+      "acrossAllCommunities": "Manerana ny vondrom-piarahamonina rehetra",
+      "overallUsage": "Fampiasana ankapobeny",
+      "meteredConsumption": "Fanjifana metatra",
+      "overallBilled": "Vola amin'ny ankapobeny",
+      "finalizedInvoicesOnly": "Faktiora vita ihany",
+      "avgUsagePerResident": "Avg fampiasana / mponina",
+      "avgBillPerResident": "Vola Avg / Mponina"
+    },
+    "charts": {
+      "usageTitle": "Fampiasana manerana ny sehatra (kL / volana)",
+      "usageEmpty": "Tsy misy fampiasana voarakitra ho an'ity sehatra ity.",
+      "usageSeries": "Fampiasana",
+      "billedTitle": "Vola voaloa amin'ny sehatra (₹ / volana)",
+      "billedEmpty": "Tsy nisy faktiora vita ho an'ity sehatra ity.",
+      "billedSeries": "no voalaza"
+    },
+    "searchPlaceholder": "Sivanina araka ny anaran'ny vondrom-piarahamonina na admin",
+    "empty": "Tsy mbola misy vondrom-piarahamonina manana angon-drakitra fampiasana na faktiora ho an'ity sehatra ity.",
+    "noMatch": "Tsy misy vondrom-piarahamonina mifanaraka amin'ny sivanao.",
+    "table": {
+      "community": "COMMUNITY",
+      "admin": "Admin",
+      "residents": "TEZITRA ny mponina",
+      "usage": "Fampiasana (kL)",
+      "billed": "Voavidy (₹)",
+      "avgUsagePerResident": "Avg fampiasana / mponina",
+      "avgBillPerResident": "Vola Avg / Mponina"
+    }
+  },
+  "supportTickets": {
+    "title": "Tickets fanohanana",
+    "subtitle": "Tohano ny tapakila sy ny olana napetraky ny mponina sy ny mpitantana ny vondrom-piarahamonina, manerana ny sehatra."
+  }
+}

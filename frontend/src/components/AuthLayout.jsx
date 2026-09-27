@@ -1,9 +1,10 @@
 import Logo from './Logo'
 import './AuthLayout.css'
 
-function AuthLayout({ title, subtitle, width = 480, children, footer }) {
+function AuthLayout({ title, subtitle, width = 480, children, footer, cornerAction }) {
   return (
     <div className="af-auth">
+      {cornerAction && <div className="af-auth__corner">{cornerAction}</div>}
       <div className="af-auth__card" style={{ width: `${width}px` }}>
         <div className="af-auth__icon">
           <Logo size={40} />

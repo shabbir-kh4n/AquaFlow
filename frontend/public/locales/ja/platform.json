@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "アクティブ",
+    "blocked": "ブロックされました",
+    "terminated": "終了しました"
+  },
+  "sort": {
+    "sortBy": "並べ替え",
+    "toggleDirection": "並べ替え方向の切り替え",
+    "asc": "↑昇順",
+    "desc": "↓ 説明"
+  },
+  "pagination": {
+    "showing": "{{total}} の {{from}} ～ {{to}} を表示しています",
+    "prev": "← 前へ",
+    "next": "次へ →",
+    "page": "ページ {{page}}/{{pageCount}}"
+  },
+  "dashboard": {
+    "title": "プラットフォームの概要",
+    "subtitle": "HydroLedger プラットフォーム全体にわたる、登録されているすべてのコミュニティ管理者。",
+    "viewAll": "すべてのコミュニティを表示",
+    "loadError": "現在プラットフォーム データをロードできませんでした。",
+    "cards": {
+      "totalCommunities": "コミュニティ総数",
+      "registeredAdmins": "登録管理者",
+      "totalResidents": "総居住者",
+      "acrossAllCommunities": "すべてのコミュニティ全体で",
+      "active": "アクティブ",
+      "inGoodStanding": "良好な状態",
+      "blockedTerminated": "ブロック/終了",
+      "blockedTerminatedBreakdown": "{{blocked}} がブロックされ、{{terminated}} が終了しました"
+    },
+    "recent": {
+      "title": "最近登録されたコミュニティ",
+      "loading": "読み込み中…",
+      "empty": "まだコミュニティが登録されていません。",
+      "table": {
+        "community": "コミュニティ",
+        "admin": "管理者",
+        "status": "状態",
+        "residents": "住民"
+      }
+    }
+  },
+  "communities": {
+    "count": "コミュニティ: {{count}}",
+    "loadError": "コミュニティを読み込めませんでした。もう一度試してください。",
+    "searchPlaceholder": "コミュニティ、管理者名、または電子メールでフィルタリングします",
+    "statusFilter": {
+      "label": "状態",
+      "all": "全て"
+    },
+    "sortOptions": {
+      "community": "コミュニティ",
+      "admin": "管理者",
+      "residents": "住民"
+    },
+    "loading": "コミュニティを読み込み中…",
+    "empty": "まだコミュニティが登録されていません。",
+    "noMatch": "フィルターに一致するコミュニティはありません。",
+    "table": {
+      "community": "コミュニティ",
+      "admin": "管理者",
+      "email": "電子メール",
+      "status": "状態",
+      "residents": "住民",
+      "view": "ビュー"
+    }
+  },
+  "communityDetail": {
+    "loadError": "このコミュニティを読み込めませんでした。削除された可能性があります。",
+    "statusUpdateError": "このコミュニティのステータスを更新できませんでした。",
+    "deleteError": "このコミュニティを削除できませんでした。",
+    "loading": "コミュニティを読み込み中…",
+    "notFound": "コミュニティが見つかりません。",
+    "backLink": "← コミュニティに戻る",
+    "backLinkShort": "コミュニティに戻る",
+    "eyebrow": "コミュニティプロフィール",
+    "unnamed": "名前のないコミュニティ",
+    "noAddress": "ファイルに住所がありません",
+    "stats": {
+      "residents": "住民",
+      "status": "状態"
+    },
+    "actions": {
+      "reactivate": "再アクティブ化",
+      "block": "ブロック",
+      "terminate": "終了",
+      "delete": "コミュニティの削除"
+    },
+    "blockDialog": {
+      "title": "このコミュニティ管理者をブロックしますか?",
+      "message": "{{name}} をブロックしますか?ブロックが解除されるまでログインできなくなります。データは影響を受けません。",
+      "confirm": "ブロック"
+    },
+    "terminateDialog": {
+      "title": "このコミュニティ管理者を終了しますか?",
+      "message": "{{name}} のアクセスを永久に終了しますか?これを元に戻すことはできませんが、コミュニティのデータは記録として保存されます。",
+      "confirm": "終了"
+    },
+    "deleteDialog": {
+      "title": "このコミュニティを削除しますか?",
+      "message": "これにより、<strong>{{name}}</strong> とそのすべての世帯、居住者、メーター、料金/請求設定、および請求書の履歴が完全に削除されます。この操作は元に戻すことができません。",
+      "typeToConfirm": "<strong>{{word}}</strong> と入力して続行します",
+      "confirm": "確認する"
+    },
+    "residents": {
+      "title": "住民",
+      "registeredCount": "登録済み: {{count}}",
+      "empty": "このコミュニティにはまだ住民が登録されていません。",
+      "table": {
+        "flatUnit": "フラットユニット",
+        "meter": "メーター",
+        "resident": "居住者",
+        "email": "電子メール",
+        "passwordSet": "パスワードセット"
+      },
+      "yes": "はい",
+      "no": "いいえ"
+    },
+    "cancel": "キャンセル",
+    "working": "働く…",
+    "deleting": "削除中…"
+  },
+  "systemStatus": {
+    "statusError": "バックエンドに到達してシステムのステータスを確認できませんでした。",
+    "metricsError": "メトリクス履歴をロードできませんでした。",
+    "ranges": {
+      "fiveMinutes": "5分",
+      "fifteenMinutes": "15分",
+      "hour": "時間",
+      "day": "日",
+      "week": "週",
+      "month": "月",
+      "threeMonths": "3ヶ月"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}分"
+    },
+    "charts": {
+      "requestsPerSec": "リクエスト/秒",
+      "opsPerSec": "オペレーション/秒",
+      "latency": "レイテンシー",
+      "lastValue": "{{value}} 最後",
+      "loading": "読み込み中…",
+      "empty": "この範囲のメトリクスはまだ記録されていません。"
+    },
+    "stats": {
+      "min": "最小: <b>{{value}}</b>",
+      "avg": "平均: <b>{{value}}</b>",
+      "max": "最大: <b>{{value}}</b>",
+      "last": "最後: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "バックエンドAPI",
+      "checking": "チェック中…",
+      "reachable": "到達可能",
+      "unreachable": "到達不能",
+      "connected": "接続済み",
+      "backendApiHint": "このページはバックエンドから読み込まれたため、応答しました。",
+      "database": "データベース",
+      "databaseHint": "PostgreSQL 接続はライブでチェックされています。",
+      "uptime": "バックエンド稼働時間",
+      "uptimeHint": "最後にアプリケーションを再起動してから。",
+      "appVersion": "アプリのバージョン",
+      "appVersionHint": "バックエンドのビルド バージョン。"
+    },
+    "mini": {
+      "latency": "レイテンシー",
+      "readsLatency": "読み取りレイテンシ",
+      "writesLatency": "書き込みレイテンシ",
+      "otherLatency": "その他のレイテンシ",
+      "connections": "接続",
+      "totalKeys": "キーの総数"
+    },
+    "note": "1 秒あたりのリクエスト数と遅延は、ライブ バックエンド トラフィックから 15 秒ごとにサンプリングされ、最大 100 日間保存されます。これは基本的な接続とトラフィックのチェックであり、アプリケーションの完全なパフォーマンス監視、ログ集約、またはアラートに代わるものではありません。"
+  },
+  "reports": {
+    "loadError": "プラットフォーム レポートをロードできませんでした。",
+    "ranges": {
+      "threeMonths": "3ヶ月",
+      "sixMonths": "6ヶ月",
+      "twelveMonths": "12ヶ月",
+      "custom": "カスタム"
+    },
+    "sortOptions": {
+      "community": "コミュニティ",
+      "usage": "使用法",
+      "billed": "請求済み",
+      "residents": "住民"
+    },
+    "customRange": {
+      "from": "から",
+      "to": "に",
+      "hint": "カスタム レポートをロードするには、「開始」月と「終了」月の両方を選択します。"
+    },
+    "loading": "レポートを読み込み中…",
+    "cards": {
+      "totalCommunities": "コミュニティ総数",
+      "inThisRange": "この範囲内で",
+      "totalResidents": "総居住者",
+      "acrossAllCommunities": "すべてのコミュニティ全体で",
+      "overallUsage": "全体的な使用量",
+      "meteredConsumption": "従量制消費量",
+      "overallBilled": "全体的に請求される",
+      "finalizedInvoicesOnly": "確定した請求書のみ",
+      "avgUsagePerResident": "居住者あたりの平均使用量",
+      "avgBillPerResident": "居住者あたりの平均請求額"
+    },
+    "charts": {
+      "usageTitle": "プラットフォーム全体の使用量 (kL / 月)",
+      "usageEmpty": "この範囲では使用法は記録されていません。",
+      "usageSeries": "使用法",
+      "billedTitle": "プラットフォーム全体の請求額 (₹ / 月)",
+      "billedEmpty": "この範囲については最終的な請求書はありません。",
+      "billedSeries": "請求済み"
+    },
+    "searchPlaceholder": "コミュニティまたは管理者名でフィルタリングします",
+    "empty": "この範囲の使用状況または請求データを持っているコミュニティはまだありません。",
+    "noMatch": "フィルターに一致するコミュニティはありません。",
+    "table": {
+      "community": "コミュニティ",
+      "admin": "管理者",
+      "residents": "住民",
+      "usage": "使用法 (kL)",
+      "billed": "請求済み (₹)",
+      "avgUsagePerResident": "居住者あたりの平均使用量",
+      "avgBillPerResident": "居住者あたりの平均請求額"
+    }
+  },
+  "supportTickets": {
+    "title": "サポートチケット",
+    "subtitle": "プラットフォーム全体で、住民やコミュニティ管理者によって提起されたチケットと懸念事項をサポートします。"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "即将推出",
+    "welcome": {
+      "greeting": "你好{{name}}，",
+      "greetingFallback": "你好呀，",
+      "title": "密切关注您家的水故事。",
+      "subtitle": "当您的社区记录读数时，使用情况和计费见解将显示在此处。",
+      "viewBadges": "查看生态徽章"
+    },
+    "stats": {
+      "todaysUsage": "今天的使用情况",
+      "asOf": "截至 {{date}}",
+      "noReading": "还没有抄表",
+      "monthlyTotalFor": "每月总计 ({{month}})",
+      "monthlyTotalThisMonth": "每月总计（本月）",
+      "sumOfReadings": "记录读数的总和",
+      "estimatedBill": "当前预计账单",
+      "estimatedBillFor": "计量使用 + 共享费用，{{month}}",
+      "estimatedBillHint": "基于本月的计量消耗和共享费用",
+      "savings": "节省与建筑平均",
+      "savingsValue": "{{percent}}% 减少",
+      "savingsPreview": "仅预览 - 尚未进行比较"
+    },
+    "consumption": {
+      "eyebrow": "消耗",
+      "title": "每日消耗量（最近 14 次读数）",
+      "seriesName": "消耗",
+      "empty": "尚未记录读数。"
+    },
+    "breakdown": {
+      "eyebrow": "分解",
+      "title": "使用情况细分",
+      "bathroom": "浴室",
+      "kitchen": "厨房",
+      "garden": "花园/阳台",
+      "other": "其他/洗衣"
+    },
+    "billing": {
+      "eyebrow": "计费",
+      "title": "有效计费周期",
+      "finalized": "最终确定",
+      "preview": "预览",
+      "meteredConsumption": "计量消耗",
+      "tierPriceLevel": "等级价格水平",
+      "tierLabel": "层 {{tier}}",
+      "commonArea": "公共区域分配",
+      "commonAreaPreview": "公共区域分配（预览）",
+      "invoiceTotal": "{{period}} 发票总额",
+      "estimatedCharge": "目前预计费用",
+      "commonAreaBreakdown": "公共区域明细",
+      "payPreview": "支付账单预览",
+      "payUnavailable": "计费引擎尚不可用"
+    },
+    "tips": {
+      "eyebrow": "尖端",
+      "title": "明智的储蓄技巧",
+      "viewAll": "查看全部",
+      "empty": "当您的社区完成计费周期后，个性化提示将显示在此处。"
+    },
+    "community": "社区：{{name}}"
+  },
+  "usage": {
+    "loadError": "无法加载您的使用历史记录。请再试一次。",
+    "loading": "正在加载您的使用情况分析...",
+    "empty": "尚未记录读数。一旦您的社区记录了抄表，它将显示在此处。",
+    "tabs": {
+      "lastSixMonths": "过去 6 个月",
+      "customRange": "定制范围",
+      "comingSoon": "即将推出"
+    },
+    "peakDay": "高峰日：",
+    "lowestDay": "最低日：",
+    "comparison": {
+      "title": "家庭消费与公寓平均消费",
+      "subtitle": "每月总量以千升 (kL) 为单位显示。",
+      "yourHousehold": "您的家人",
+      "apartmentAverage": "平均公寓",
+      "similarSized": "类似大小的房屋"
+    },
+    "heatmap": {
+      "title": "每日消费热图",
+      "subtitle": "颜色强度标记大量使用天数（预览）。"
+    },
+    "ranking": {
+      "title": "社区同行排名",
+      "subtitle": "您与类似单位相比的排名（预览）。",
+      "ecoSaver": "积极的生态节约者",
+      "aptNumber": "适合 {{number}}",
+      "unitNumber": "单位{{number}}",
+      "yourUnit": "你的单位",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}}{{unit}}（你）"
+    }
+  },
+  "billing": {
+    "loadError": "无法加载您的帐单历史记录。请再试一次。",
+    "pdfError": "无法下载 PDF。请再试一次。",
+    "loading": "正在加载您的账单历史记录...",
+    "empty": "尚无发票 - 一旦您的社区确定了计费周期，您的账单将显示在此处。",
+    "status": {
+      "paid": "有薪酬的",
+      "unpaid": "未付"
+    },
+    "summary": {
+      "outstandingBalance": "未结余额",
+      "billingCycle": "计费周期：{{period}}",
+      "allPaid": "所有发票均已支付",
+      "payTotal": "欠薪总额",
+      "payTotalUnavailable": "尚不支持在线支付 - 直接与社区管理员结算账单",
+      "downloadSummary": "下载账单摘要",
+      "downloadSummaryUnavailable": "帐单摘要尚不可用"
+    },
+    "history": {
+      "title": "发票历史记录",
+      "exportCsv": "全部导出到 CSV",
+      "exportUnavailable": "CSV 导出尚不可用"
+    },
+    "table": {
+      "cycle": "循环",
+      "usage": "用法 (kL)",
+      "amountDue": "应付金额",
+      "paymentStatus": "付款状态",
+      "hideBreakdown": "隐藏详细信息 ↑",
+      "showBreakdown": "明细细目↓",
+      "downloading": "正在下载...",
+      "pdf": "PDF",
+      "pay": "支付"
+    },
+    "breakdown": {
+      "householdTitle": "家庭消费构成",
+      "basePrice": "基本价格：{{units}} kL × 卢比{{rate}}",
+      "tierLine": "等级 {{tier}}：{{units}} kL × 卢比{{rate}}",
+      "subtotalMetered": "计量使用小计",
+      "commonAreaTitle": "公共区域分配",
+      "subtotalShared": "共享区域小计",
+      "noCommonArea": "本周期不收取共享公共区域费用。"
+    },
+    "pagination": {
+      "showing": "显示 {{total}} 的 {{from}}–{{to}}",
+      "prev": "← 上一页",
+      "next": "下一页 →",
+      "page": "第 {{page}} 页，共 {{count}} 页"
+    },
+    "paymentMethods": {
+      "title": "付款方式（预览）",
+      "description": "尚不支持在线支付 - 账单可直接与您的社区管理员结算。",
+      "manage": "管理付款方式",
+      "manageUnavailable": "付款方式尚不可用"
+    }
+  },
+  "razorpay": {
+    "securedBy": "由 Razorpay 保护",
+    "billingCycle": "计费周期{{period}}",
+    "close": "关闭",
+    "amountPayable": "应付金额",
+    "methods": {
+      "upi": "UPI",
+      "cards": "牌",
+      "netbanking": "网上银行",
+      "wallet": "钱包"
+    },
+    "upi": {
+      "title": "通过 UPI 付款",
+      "upiId": "UPI ID",
+      "or": "或者",
+      "scan": "使用任何 UPI 应用程序进行扫描"
+    },
+    "card": {
+      "title": "通过卡支付",
+      "number": "卡号",
+      "expiry": "到期日",
+      "expiryPlaceholder": "月/年",
+      "cvv": "CVV",
+      "name": "卡上的姓名",
+      "namePlaceholder": "与卡片上印制的一样"
+    },
+    "netbanking": {
+      "title": "通过网银支付"
+    },
+    "wallet": {
+      "title": "通过钱包支付"
+    },
+    "payAmount": "支付 卢比{{amount}}",
+    "processing": "正在处理您的付款...",
+    "processingHint": "请不要按返回或刷新此页面",
+    "success": "付款成功",
+    "error": "确认您的付款时出现问题。请再试一次。",
+    "retry": "重试"
+  },
+  "notifications": {
+    "loadError": "无法加载您的通知。请再试一次。",
+    "loading": "正在加载您的通知...",
+    "empty": "尚无通知 - 如果您的社区管理员启用了使用阈值或异常消耗警报，并且为您的家庭触发了警报，您将在此处看到一些内容。",
+    "type": {
+      "thresholdExceeded": "超过消费门槛",
+      "statisticalOutlier": "检测到异常消耗"
+    },
+    "status": {
+      "active": "积极的",
+      "resolved": "已解决",
+      "dismissed": "被解雇"
+    },
+    "billingPeriod": "计费周期：{{period}}",
+    "consumption": "消耗：{{value}}kL",
+    "push": {
+      "title": "推送通知",
+      "description": "当有新账单或提醒时，您会在此设备上收到通知。",
+      "enable": "使能够",
+      "disable": "禁用",
+      "permissionDenied": "未授予通知许可。",
+      "notConfigured": "尚未配置推送通知。请联系您的管理员。",
+      "enableError": "无法启用推送通知。请再试一次。",
+      "disableError": "无法禁用推送通知。请再试一次。"
+    }
+  },
+  "recommendations": {
+    "loadError": "无法加载您的推荐。请再试一次。",
+    "loading": "正在加载您的个性化提示...",
+    "generated": "已生成 {{date}}",
+    "generatedForPeriod": "已为计费周期 {{period}} 生成 {{date}}",
+    "eyebrow": "为您量身定制",
+    "title": "智能节水小窍门",
+    "empty": "尚未生成提示 - 每次您的社区为您的家庭确定计费周期时，这些提示都会自动刷新。"
+  },
+  "support": {
+    "title": "居民支持和疑虑服务台",
+    "subtitle": "直接向您的社区管理员和/或系统管理员提交漏水报告、仪表校准请求或计费查询。",
+    "emptyCreateHint": "请在下面描述您的问题或疑虑，并选择由谁来处理。"
+  }
+}

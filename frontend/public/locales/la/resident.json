@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Veniens cito",
+    "welcome": {
+      "greeting": "salve {{name}}",
+      "greetingFallback": "Salve ibi,",
+      "title": "Prope manete aquam fabulam domi tuae.",
+      "subtitle": "Usus et perceptio exosculatio hic apparebit sicut documenta communitatis vestrae lectionis.",
+      "viewBadges": "Visum Eco-Insignes"
+    },
+    "stats": {
+      "todaysUsage": "Hodiernae Usu",
+      "asOf": "Ut {{date}}",
+      "noReading": "No meter reading yet",
+      "monthlyTotalFor": "Menstrua Totalis ({{month}})",
+      "monthlyTotalThisMonth": "Menstrua Total (mensis)",
+      "sumOfReadings": "Summa memoriae Lectiones",
+      "estimatedBill": "Current Aestimari Bill",
+      "estimatedBillFor": "Metered usus + criminibus communibus, {{month}}",
+      "estimatedBillHint": "Ex hoc mense consumptio metered et crimina communicare",
+      "savings": "Savings vs Building Avg",
+      "savingsValue": "{{percent}}% Minus",
+      "savingsPreview": "Praevius solum - comparatio nondum vivunt"
+    },
+    "consumption": {
+      "eyebrow": "Consummatio",
+      "title": "Cotidiana Consummatio (Last XIV Lectiones)",
+      "seriesName": "Consummatio",
+      "empty": "No tamen lectiones scripti sunt."
+    },
+    "breakdown": {
+      "eyebrow": "Naufragii",
+      "title": "Usus Naufragii",
+      "bathroom": "Bathroom",
+      "kitchen": "Culina",
+      "garden": "Hortus / Balcony",
+      "other": "Other / Lauandi"
+    },
+    "billing": {
+      "eyebrow": "Billing",
+      "title": "Active exosculatio Cicero",
+      "finalized": "Finalised",
+      "preview": "Praevius",
+      "meteredConsumption": "Meted consummatio",
+      "tierPriceLevel": "ORDO pretium gradu",
+      "tierLabel": "ORDO {{tier}}",
+      "commonArea": "Communi area adiectio",
+      "commonAreaPreview": "Communis area adiectio (preview)",
+      "invoiceTotal": "{{period}} cautionem total",
+      "estimatedCharge": "Current extimationis crimen",
+      "commonAreaBreakdown": "Communi area naufragii",
+      "payPreview": "Stipendium Bill Praevius",
+      "payUnavailable": "Exosculatio engine nondum praesto"
+    },
+    "tips": {
+      "eyebrow": "Apicibus",
+      "title": "Dolor Excepto Tips",
+      "viewAll": "View all",
+      "empty": "Privatae apicibus hic apparent, postquam communitas vestra cyclum exosculatio finalisat."
+    },
+    "community": "Communitas: {{name}}"
+  },
+  "usage": {
+    "loadError": "Usum historiae tuae non onerare. Quaeso, iterum conare.",
+    "loading": "Loading usus tuos analytics...",
+    "empty": "No tamen lectiones scripti sunt. Postquam communitas vestra metrum recitat, hic ostendet.",
+    "tabs": {
+      "lastSixMonths": "Last VI Menses",
+      "customRange": "Custom Range",
+      "comingSoon": "Veniens cito"
+    },
+    "peakDay": "Picus dies:",
+    "lowestDay": "Infimus dies:",
+    "comparison": {
+      "title": "Domus Consummatio nobis Apartment Average",
+      "subtitle": "Menstrua totals in chiliolite exhibita (kL).",
+      "yourHousehold": "Familiam tuam",
+      "apartmentAverage": "Apartment Average",
+      "similarSized": "Similia-amplitudo Homes"
+    },
+    "heatmap": {
+      "title": "Cotidiana Consummatio Heatmap",
+      "subtitle": "Color intensio vexilla gravis usus dierum (praevisio)."
+    },
+    "ranking": {
+      "title": "Community Peer Ranking",
+      "subtitle": "Tuus ordo ad similes unitates comparatus est.",
+      "ecoSaver": "Active Eco New",
+      "aptNumber": "Apta {{number}}",
+      "unitNumber": "Unitas {{number}}",
+      "yourUnit": "Unitas tua",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (tu)"
+    }
+  },
+  "billing": {
+    "loadError": "Non potuit tuam exosculatio historiam onerare. Quaeso, iterum conare.",
+    "pdfError": "Non poterat PDF. Quaeso, iterum conare.",
+    "loading": "Exosculatio historiam tuam Loading...",
+    "empty": "Nullae cautiones adhuc — semel communitas vestra cyclum exosculationem finalit, tesserae tuae hic monstrabunt.",
+    "status": {
+      "paid": "Paid",
+      "unpaid": "insolutis"
+    },
+    "summary": {
+      "outstandingBalance": "excellens Libra",
+      "billingCycle": "Exosculatio: {{period}}",
+      "allPaid": "Omnes mercium venditarum solverunt",
+      "payTotal": "Stipendium Romanum Outstanding",
+      "payTotalUnavailable": "Online solucionis is not available yet - settle bills with your community Administrator directe",
+      "downloadSummary": "Download Bill Summary",
+      "downloadSummaryUnavailable": "Bill summary download is not available yet"
+    },
+    "history": {
+      "title": "Cautionem historia",
+      "exportCsv": "Omnes exportare CSV",
+      "exportUnavailable": "CSV exportare is not available yet"
+    },
+    "table": {
+      "cycle": "Cycle",
+      "usage": "Usus (kL)",
+      "amountDue": "Quantum Ob*",
+      "paymentStatus": "Payment Status",
+      "hideBreakdown": "Celare Naufragii",
+      "showBreakdown": "Itemized Naufragii",
+      "downloading": "Downloading…",
+      "pdf": "PDF",
+      "pay": "Stipendium"
+    },
+    "breakdown": {
+      "householdTitle": "Domus Consummatio Naufragii",
+      "basePrice": "Base Price: {{units}} kL {{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL {{rate}}",
+      "subtotalMetered": "Subtotal Metered Ritus",
+      "commonAreaTitle": "Communis Area Appositio",
+      "subtotalShared": "Subtotal Area Shared",
+      "noCommonArea": "Nullus communis communis regio stipendiorum huius cycli communis est."
+    },
+    "pagination": {
+      "showing": "ostendens {{from}}-{{to}} de {{total}}",
+      "prev": "Prev",
+      "next": "Proxima →",
+      "page": "Page {{page}} de {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Solucionis modi (preview)",
+      "description": "Online solutionis nondum praesto est - rogationes constituuntur cum communitate tua admin directe.",
+      "manage": "Payment Methodi Curo",
+      "manageUnavailable": "Payment modi non funguntur adhuc"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Tuta per Razorpay",
+    "billingCycle": "Exosculatio Cycle {{period}}",
+    "close": "Close",
+    "amountPayable": "quantum Payable",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Chartae",
+      "netbanking": "Netbanking",
+      "wallet": "vidulum"
+    },
+    "upi": {
+      "title": "Via UPI",
+      "upiId": "UPI ID",
+      "or": "OR'",
+      "scan": "Scan cum aliquo UPI app"
+    },
+    "card": {
+      "title": "Stipendium per Card",
+      "number": "Card Number",
+      "expiry": "Exitus",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Nomen in Card",
+      "namePlaceholder": "Ut typis a card"
+    },
+    "netbanking": {
+      "title": "Stipendium per Netbanking"
+    },
+    "wallet": {
+      "title": "Stipendium per vidulum"
+    },
+    "payAmount": "Stipendium {{amount}}",
+    "processing": "Processus mercedem tuam…",
+    "processingHint": "Quaeso ne premas vel refice hanc paginam",
+    "success": "Mercedem Prosperum",
+    "error": "Aliquid abiit iniuriam confirmans mercedem tuam. Quaeso, iterum conare.",
+    "retry": "Retry"
+  },
+  "notifications": {
+    "loadError": "Non tuam notificationes load. Quaeso, iterum conare.",
+    "loading": "Oneratisque notificationes ...",
+    "empty": "Nullae notificationes adhuc — aliquid hic videbis si communitas vestra admin usum summis-liminis vel insoliti-consumtionis in summis fecit et alius utitur pro domo tua.",
+    "type": {
+      "thresholdExceeded": "Limen consummatio Exceeded",
+      "statisticalOutlier": "Consummatio insolita Results"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "certus",
+      "dismissed": "dimissus"
+    },
+    "billingPeriod": "Exosculatio: {{period}}",
+    "consumption": "Consummatio: {{value}} kL",
+    "push": {
+      "title": "Acta Vicimediorum dis",
+      "description": "De hac arte notificandum cum novum libellum vel vigilatum venit in.",
+      "enable": "Admitte",
+      "disable": "inactivare",
+      "permissionDenied": "Notification permittitur.",
+      "notConfigured": "Acta Vicimediorum dis non set tamen. Contact vestri admin.",
+      "enableError": "Non dis notificationes enable. Quaeso, iterum conare.",
+      "disableError": "Disable notificationes non dis. Quaeso, iterum conare."
+    }
+  },
+  "recommendations": {
+    "loadError": "Suasiones tuas non potuerunt onerare. Quaeso, iterum conare.",
+    "loading": "Oneratisque personalized tips ...",
+    "generated": "Generatur {{date}}",
+    "generatedForPeriod": "Generatur {{date}} tempus exosculationis {{period}}",
+    "eyebrow": "Privatum est tibi",
+    "title": "Captiosus aqua-salvis Tips",
+    "empty": "Nullae apices generantur adhuc — hi statim reficiuntur singulis vicis communitatis vestrae cyclum osculantem pro familia tua complet."
+  },
+  "support": {
+    "title": "Habitans Support & concernit Pluteum",
+    "subtitle": "Submittere lacus aquationes, petitiones metri calibrationis, vel rogationes exosculationes directe ad tuam communitatem admin et/vel System Admin.",
+    "emptyCreateHint": "Causam tuam vel sollicitudinem infra describe, et elige qui eam tractare debeas."
+  }
+}

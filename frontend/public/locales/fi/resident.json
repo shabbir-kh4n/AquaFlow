@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Tulossa pian",
+    "welcome": {
+      "greeting": "Hei {{name}}",
+      "greetingFallback": "Hei",
+      "title": "Pysy lähellä kotisi vesitarinaa.",
+      "subtitle": "Käyttö- ja laskutustiedot näkyvät täällä, kun yhteisösi tallentaa lukemia.",
+      "viewBadges": "Katso Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Tämän päivän käyttö",
+      "asOf": "{{date}}",
+      "noReading": "Ei mittarin lukemaa vielä",
+      "monthlyTotalFor": "Kuukausi yhteensä ({{month}})",
+      "monthlyTotalThisMonth": "Kuukausi yhteensä (tässä kuussa)",
+      "sumOfReadings": "Tallennettujen lukemien summa",
+      "estimatedBill": "Nykyinen arvioitu lasku",
+      "estimatedBillFor": "Mittarillinen käyttö + jaetut maksut, {{month}}",
+      "estimatedBillHint": "Perustuu tämän kuun mitattuun kulutukseen ja yhteismaksuihin",
+      "savings": "Säästöt vs. rakentamisen keskim",
+      "savingsValue": "{{percent}} % vähemmän",
+      "savingsPreview": "Vain esikatselu – vertailua ei ole vielä julkaistu"
+    },
+    "consumption": {
+      "eyebrow": "Kulutus",
+      "title": "Päivittäinen kulutus (14 viimeistä lukemaa)",
+      "seriesName": "Kulutus",
+      "empty": "Mitään lukemia ei ole vielä tallennettu."
+    },
+    "breakdown": {
+      "eyebrow": "Erittely",
+      "title": "Käytön erittely",
+      "bathroom": "Kylpyhuone",
+      "kitchen": "Keittiö",
+      "garden": "Puutarha / parveke",
+      "other": "Muut / Pesula"
+    },
+    "billing": {
+      "eyebrow": "Laskutus",
+      "title": "Aktiivinen laskutussykli",
+      "finalized": "Viimeistelty",
+      "preview": "Esikatselu",
+      "meteredConsumption": "Mitattu kulutus",
+      "tierPriceLevel": "Tasohintataso",
+      "tierLabel": "Taso {{tier}}",
+      "commonArea": "Yhteisen alueen jako",
+      "commonAreaPreview": "Yhteisen alueen jako (esikatselu)",
+      "invoiceTotal": "{{period}} laskun loppusumma",
+      "estimatedCharge": "Nykyinen arvioitu veloitus",
+      "commonAreaBreakdown": "Yhteisen alueen erittely",
+      "payPreview": "Maksulaskujen esikatselu",
+      "payUnavailable": "Laskutusmoottori ei ole vielä saatavilla"
+    },
+    "tips": {
+      "eyebrow": "Vinkkejä",
+      "title": "Älykkäitä säästämisvinkkejä",
+      "viewAll": "Näytä kaikki",
+      "empty": "Henkilökohtaiset vinkit näkyvät täällä, kun yhteisösi on viimeistellyt laskutusjakson."
+    },
+    "community": "Yhteisö: {{name}}"
+  },
+  "usage": {
+    "loadError": "Käyttöhistoriaasi ei voitu ladata. Yritä uudelleen.",
+    "loading": "Ladataan käyttöanalytiikkaasi…",
+    "empty": "Mitään lukemia ei ole vielä tallennettu. Kun yhteisösi kirjaa mittarin lukeman, se näkyy täällä.",
+    "tabs": {
+      "lastSixMonths": "Viimeiset 6 kuukautta",
+      "customRange": "Mukautettu valikoima",
+      "comingSoon": "Tulossa pian"
+    },
+    "peakDay": "Huippupäivä:",
+    "lowestDay": "Alin päivä:",
+    "comparison": {
+      "title": "Kotitalouksien kulutus vs asunnon keskiarvo",
+      "subtitle": "Kuukausittaiset kokonaismäärät kilolitroina (kL).",
+      "yourHousehold": "Sinun kotitaloutesi",
+      "apartmentAverage": "Asunto keskimäärin",
+      "similarSized": "Samankokoiset kodit"
+    },
+    "heatmap": {
+      "title": "Päivittäisen kulutuksen lämpökartta",
+      "subtitle": "Värin voimakkuus merkitsee raskaan käytön päivät (esikatselu)."
+    },
+    "ranking": {
+      "title": "Yhteisön vertaissijoitus",
+      "subtitle": "Sijoituksesi verrattuna vastaaviin yksiköihin (esikatselu).",
+      "ecoSaver": "Aktiivinen Eco Saver",
+      "aptNumber": "Asunto {{number}}",
+      "unitNumber": "Yksikkö {{number}}",
+      "yourUnit": "Sinun yksikkösi",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Sinä)"
+    }
+  },
+  "billing": {
+    "loadError": "Laskutushistoriaasi ei voitu ladata. Yritä uudelleen.",
+    "pdfError": "Tiedostoa PDF ei voitu ladata. Yritä uudelleen.",
+    "loading": "Ladataan laskutushistoriaasi…",
+    "empty": "Ei vielä laskuja – kun yhteisösi on viimeistellyt laskutusjakson, laskusi näkyvät täällä.",
+    "status": {
+      "paid": "Maksettu",
+      "unpaid": "Palkaton"
+    },
+    "summary": {
+      "outstandingBalance": "Erinomainen saldo",
+      "billingCycle": "Laskutusjakso: {{period}}",
+      "allPaid": "Kaikki laskut maksetaan",
+      "payTotal": "Maksa yhteensä Erinomaisesti",
+      "payTotalUnavailable": "Verkkomaksu ei ole vielä saatavilla – maksa laskut suoraan yhteisön järjestelmänvalvojan kanssa",
+      "downloadSummary": "Lataa laskun yhteenveto",
+      "downloadSummaryUnavailable": "Laskuyhteenvedon lataus ei ole vielä saatavilla"
+    },
+    "history": {
+      "title": "Laskuhistoria",
+      "exportCsv": "Vie kaikki kohteeseen CSV",
+      "exportUnavailable": "CSV vienti ei ole vielä saatavilla"
+    },
+    "table": {
+      "cycle": "Kierrä",
+      "usage": "Käyttö (kL)",
+      "amountDue": "Erääntyvä summa",
+      "paymentStatus": "Maksun tila",
+      "hideBreakdown": "Piilota erittely ↑",
+      "showBreakdown": "Erittely ↓",
+      "downloading": "Ladataan…",
+      "pdf": "PDF",
+      "pay": "Maksaa"
+    },
+    "breakdown": {
+      "householdTitle": "Kotitalouksien kulutuksen erittely",
+      "basePrice": "Perushinta: {{units}} kL × ₹ {{rate}}",
+      "tierLine": "Taso {{tier}}: {{units}} kL × ₹ {{rate}}",
+      "subtotalMetered": "Välisumma mitattu käyttö",
+      "commonAreaTitle": "Yhteisen alueen jako",
+      "subtotalShared": "Jaetun alueen välisumma",
+      "noCommonArea": "Ei yhteisiä yhteisiä maksuja tälle kierrokselle."
+    },
+    "pagination": {
+      "showing": "Näytetään {{from}}–{{to}} / {{total}}",
+      "prev": "← Ed",
+      "next": "Seuraava →",
+      "page": "Sivu {{page}} / {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Maksutavat (esikatselu)",
+      "description": "Verkkomaksu ei ole vielä saatavilla – laskut maksetaan suoraan yhteisön ylläpitäjän kanssa.",
+      "manage": "Hallitse maksutapoja",
+      "manageUnavailable": "Maksutapoja ei ole vielä saatavilla"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Suojattu: Razorpay",
+    "billingCycle": "Laskutusjakso {{period}}",
+    "close": "Lähellä",
+    "amountPayable": "Maksettava summa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kortit",
+      "netbanking": "Verkkopankkitoiminta",
+      "wallet": "Lompakko"
+    },
+    "upi": {
+      "title": "Maksa UPI",
+      "upiId": "UPI Tunnus",
+      "or": "TAI",
+      "scan": "Skannaa millä tahansa UPI-sovelluksella"
+    },
+    "card": {
+      "title": "Maksa kortilla",
+      "number": "Kortin numero",
+      "expiry": "Vanheneminen",
+      "expiryPlaceholder": "KK/VV",
+      "cvv": "CVV",
+      "name": "Nimi kortissa",
+      "namePlaceholder": "Kuten kortille painettu"
+    },
+    "netbanking": {
+      "title": "Maksa verkkopankin kautta"
+    },
+    "wallet": {
+      "title": "Maksa Walletin kautta"
+    },
+    "payAmount": "Maksa {{amount}} ₹",
+    "processing": "Käsitellään maksuasi…",
+    "processingHint": "Älä paina takaisin tai päivitä tätä sivua",
+    "success": "Maksu onnistui",
+    "error": "Jotain meni pieleen maksusi vahvistamisessa. Yritä uudelleen.",
+    "retry": "Yritä uudelleen"
+  },
+  "notifications": {
+    "loadError": "Ilmoituksiasi ei voitu ladata. Yritä uudelleen.",
+    "loading": "Ladataan ilmoituksiasi…",
+    "empty": "Ei vielä ilmoituksia – näet jotain täällä, jos yhteisön järjestelmänvalvoja on ottanut käyttöön käyttökynnyksen tai epätavallisen kulutuksen hälytykset ja sellainen on aktivoitu kotitaloudessasi.",
+    "type": {
+      "thresholdExceeded": "Kulutuskynnys ylitetty",
+      "statisticalOutlier": "Epätavallinen kulutus havaittu"
+    },
+    "status": {
+      "active": "Aktiivinen",
+      "resolved": "Ratkaistu",
+      "dismissed": "Hylätty"
+    },
+    "billingPeriod": "Laskutuskausi: {{period}}",
+    "consumption": "Kulutus: {{value}} kL",
+    "push": {
+      "title": "Push-ilmoitukset",
+      "description": "Saat ilmoituksen tälle laitteelle, kun uusi lasku tai ilmoitus tulee.",
+      "enable": "Ota käyttöön",
+      "disable": "Poista käytöstä",
+      "permissionDenied": "Ilmoituslupaa ei myönnetty.",
+      "notConfigured": "Push-ilmoituksia ei ole vielä määritetty. Ota yhteyttä järjestelmänvalvojaasi.",
+      "enableError": "Push-ilmoituksia ei voitu ottaa käyttöön. Yritä uudelleen.",
+      "disableError": "Push-ilmoituksia ei voitu poistaa käytöstä. Yritä uudelleen."
+    }
+  },
+  "recommendations": {
+    "loadError": "Suosituksiasi ei voitu ladata. Yritä uudelleen.",
+    "loading": "Ladataan henkilökohtaisia ​​vinkkejäsi…",
+    "generated": "Luotu {{date}}",
+    "generatedForPeriod": "Luotu {{date}} laskutuskaudelle {{period}}",
+    "eyebrow": "Räätälöity sinulle",
+    "title": "Älykkäitä vedensäästövinkkejä",
+    "empty": "Vinkkejä ei ole vielä luotu – ne päivitetään automaattisesti aina, kun yhteisösi päättää kotitaloutesi laskutusjakson."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Lähetä vesivuotoraportit, mittarin kalibrointipyynnöt tai laskutuskyselyt suoraan yhteisön järjestelmänvalvojalle ja/tai järjestelmänvalvojalle.",
+    "emptyCreateHint": "Kuvaile ongelmaasi tai huolenaiheitasi alla ja valitse, kuka sen hoitaa."
+  }
+}

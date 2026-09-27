@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Funga",
+    "signUpTitle": "Sajili jumuiya yako",
+    "signInTitle": "Karibu tena",
+    "signUpSubtitle": "Fungua akaunti ya Msimamizi wa Jumuiya ili kuanza kudhibiti wakazi na utozaji.",
+    "signInSubtitle": "Ingia ili kuona matumizi yako ya maji na bili."
+  },
+  "signIn": {
+    "errorFallback": "Imeshindwa kuingia. Tafadhali jaribu tena.",
+    "emailLabel": "Barua pepe",
+    "passwordLabel": "Nenosiri",
+    "rememberMe": "Nikumbuke",
+    "forgotPassword": "Umesahau nenosiri?",
+    "submitting": "Inaingia...",
+    "submit": "Ingia",
+    "noAccount": "Je, huna akaunti?",
+    "signUpLink": "Jisajili"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Manenosiri hayalingani.",
+      "communityRequired": "Jina la jumuiya linahitajika.",
+      "termsRequired": "Tafadhali kubali Sheria na Masharti na Sera ya Faragha.",
+      "fallback": "Imeshindwa kuunda akaunti. Tafadhali jaribu tena."
+    },
+    "hint": "Wasimamizi wa jumuiya pekee ndio wanaojiandikisha hapa. Ukiingia, utaongeza maelezo ya wakaazi wako mwenyewe - hawajisajili wao wenyewe.",
+    "fullNameLabel": "Jina kamili",
+    "emailLabel": "Barua pepe",
+    "phoneLabel": "Nambari ya simu",
+    "communityNameLabel": "Jina la jumuiya",
+    "passwordLabel": "Nenosiri",
+    "confirmPasswordLabel": "Thibitisha nenosiri",
+    "agreeTerms": "Ninakubali <termsLink>Sheria na Masharti</termsLink> na <privacyLink>Sera ya Faragha</privacyLink>",
+    "submitting": "Inaunda akaunti...",
+    "submit": "Fungua Akaunti ya Msimamizi",
+    "haveAccount": "Je, tayari una akaunti?",
+    "signInLink": "Ingia"
+  },
+  "installPrompt": {
+    "title": "Sakinisha HydroLedger",
+    "description": "Iongeze kwenye skrini yako ya nyumbani kwa ufikiaji wa haraka.",
+    "dismiss": "Ondoa",
+    "install": "Sakinisha"
+  },
+  "setPassword": {
+    "title": "Weka nenosiri lako",
+    "loading": "Inapakia...",
+    "subtitle": "Hujambo {{name}}, chagua nenosiri la {{email}} kuwezesha akaunti yako ya HydroLedger.",
+    "errors": {
+      "invalidLink": "Kiungo hiki ni batili au muda wake umeisha.",
+      "tooShort": "Nenosiri lazima liwe na angalau vibambo 8.",
+      "mismatch": "Manenosiri hayalingani.",
+      "fallback": "Haikuweza kuweka nenosiri lako. Tafadhali jaribu tena."
+    },
+    "passwordLabel": "Nenosiri",
+    "confirmPasswordLabel": "Thibitisha nenosiri",
+    "submitting": "Inaweka nenosiri...",
+    "submit": "Weka nenosiri na uingie"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Msaidizi",
+      "resident": "Uliza kuhusu akaunti yako",
+      "admin": "Msaidizi wa Jumuiya",
+      "platform": "Msaidizi wa Jukwaa",
+      "default": "Msaidizi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger ni nini?",
+        "tieredBilling": "Je, bili za viwango hufanya kazi vipi?",
+        "leaks": "Je, uvujaji hugunduliwaje?"
+      },
+      "resident": {
+        "billEstimate": "Je, ni makadirio gani ya bili yangu ya sasa?",
+        "alerts": "Je, nina arifa zozote za matumizi?",
+        "readings": "Onyesha usomaji wangu wa hivi majuzi wa mita"
+      },
+      "admin": {
+        "households": "Je, tuna kaya ngapi?",
+        "billingCycles": "Orodhesha mizunguko yetu ya hivi majuzi ya utozaji",
+        "tariff": "Mpango wetu wa sasa wa ushuru ni upi?"
+      },
+      "platform": {
+        "communities": "Orodhesha jumuiya zote zilizosajiliwa",
+        "usageReport": "Onyesha ripoti ya matumizi ya jukwaa",
+        "systemStatus": "Je, hali ya mfumo ikoje?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Unatuma ujumbe haraka sana - tafadhali subiri kidogo na ujaribu tena.",
+      "unavailable": "Kiratibu hakipatikani kwa sasa. Tafadhali jaribu tena baada ya muda mfupi.",
+      "generic": "Hitilafu fulani imetokea wakati wa kutuma ujumbe huo. Tafadhali jaribu tena."
+    },
+    "emptyHint": "Niulize chochote - ninaweza tu kuona data yako mwenyewe.",
+    "closeAssistant": "Msaidizi wa karibu",
+    "openAssistant": "Fungua msaidizi",
+    "inputPlaceholder": "Andika ujumbe...",
+    "inputLabel": "Ujumbe",
+    "send": "Tuma"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tikiti za Usaidizi",
+    "defaultCreateLabel": "Ongeza Wasiwasi Mpya",
+    "status": {
+      "open": "Fungua",
+      "inProgress": "Inaendelea",
+      "resolved": "Imetatuliwa",
+      "closed": "Imefungwa"
+    },
+    "tabs": {
+      "all": "Tiketi Zote"
+    },
+    "recipients": {
+      "admin": "Msimamizi wa Jumuiya",
+      "systemAdmin": "Msimamizi wa Mfumo",
+      "both": "Msimamizi wa Jumuiya + Msimamizi wa Mfumo"
+    },
+    "roles": {
+      "resident": "Mkazi",
+      "admin": "Msimamizi"
+    },
+    "toRecipients": "Kwa: {{recipients}}",
+    "raisedByResident": "Imekuzwa na mkazi {{name}}",
+    "raisedByAdmin": "Imetolewa na msimamizi {{name}}",
+    "refresh": "Onyesha upya",
+    "stats": {
+      "openLabel": "Fungua Mawasilisho",
+      "openHint": "Inasubiri ukaguzi",
+      "inProgressLabel": "Inaendelea",
+      "inProgressHint": "Kufanyiwa kazi",
+      "resolvedLabel": "Imetatuliwa",
+      "resolvedHint": "Imefungwa"
+    },
+    "searchPlaceholder": "Tafuta tikiti kulingana na mada, toleo...",
+    "loadingTickets": "Inapakia tikiti...",
+    "empty": {
+      "title": "Hakuna Tiketi za Usaidizi Zilizopatikana",
+      "body": "Kwa sasa huna maombi ya usaidizi yaliyofunguliwa au yaliyorekodiwa yanayolingana na kichujio hiki.",
+      "cta": "Wasilisha Wasiwasi"
+    },
+    "errors": {
+      "loadList": "Haikuweza kupakia tikiti za usaidizi. Tafadhali jaribu tena.",
+      "loadDetail": "Haikuweza kupakia tikiti hii. Tafadhali jaribu tena.",
+      "required": "Mada na ujumbe zote zinahitajika.",
+      "recipientRequired": "Chagua angalau mpokeaji mmoja (Msimamizi wa Jumuiya na/au Msimamizi wa Mfumo).",
+      "submitFallback": "Haikuweza kuwasilisha tikiti hii. Tafadhali jaribu tena.",
+      "sendReply": "Haikuweza kutuma ujumbe huu. Tafadhali jaribu tena.",
+      "updateStatus": "Haikuweza kusasisha hali hii ya tikiti. Tafadhali jaribu tena."
+    },
+    "form": {
+      "defaultHint": "Eleza suala lako au wasiwasi wako hapa chini.",
+      "subjectLabel": "Somo",
+      "subjectPlaceholder": "Muhtasari mfupi wa suala lako",
+      "messageLabel": "Ujumbe",
+      "messagePlaceholder": "Eleza kinachoendelea kwa undani...",
+      "recipientsLabel": "Tuma wasiwasi huu kwa",
+      "cancel": "Ghairi",
+      "submitting": "Inawasilisha...",
+      "submit": "Peana Tiketi"
+    },
+    "detail": {
+      "loading": "Inapakia tikiti...",
+      "replyPlaceholder": "Andika jibu...",
+      "close": "Funga",
+      "sending": "Inatuma...",
+      "sendReply": "Tuma Jibu"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Karibu tena, {{name}}",
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "logout": "Toka nje",
+    "search": "Tafuta",
+    "notifications": "Arifa"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashibodi",
+      "households": "Orodha ya Kaya",
+      "meterReadings": "Masomo ya mita",
+      "billing": "Usimamizi wa Malipo",
+      "bulkPurchases": "Ununuzi wa Wingi",
+      "reports": "Ripoti",
+      "waterLeakage": "Uvujaji wa Maji",
+      "support": "Msaada / Wasiwasi",
+      "tariffPlans": "Mipango ya Ushuru",
+      "announcements": "Matangazo",
+      "profile": "Wasifu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Huu hapa ni picha ya jumuiya yako."
+      },
+      "households": {
+        "title": "Orodha ya Kaya",
+        "subtitle": "Ongeza, sasisha na udhibiti wakazi wanaoishi katika jumuiya yako."
+      },
+      "meterReadings": {
+        "title": "Kitovu cha Masomo cha Mita za Maji",
+        "subtitle": "Tafuta mkazi na urekodi usomaji wao wa mita ya maji."
+      },
+      "tariffPlans": {
+        "title": "Usanidi wa Ushuru",
+        "subtitle": "Sanidi viwango vya viwango vya viwango, gharama zinazoshirikiwa za eneo la pamoja, na mbinu za usambazaji kwa jumuiya ya ghorofa yako."
+      },
+      "billing": {
+        "title": "Usimamizi wa Malipo",
+        "subtitle": "Fungua, kamilisha na uhifadhi kwenye kumbukumbu mizunguko ya bili na ukague ankara zilizoainishwa kwa kila kaya."
+      },
+      "bulkPurchases": {
+        "title": "Ununuzi wa Wingi",
+        "subtitle": "Rekodi usafirishaji wa lori na ununuzi wa usambazaji wa manispaa kwa jamii yako."
+      },
+      "waterLeakage": {
+        "title": "Uvujaji wa Maji",
+        "subtitle": "Sanidi kiwango cha juu na arifa za uvujaji wa nje, na kagua kaya zilizoalamishwa."
+      },
+      "support": {
+        "title": "Msaada / Wasiwasi",
+        "subtitle": "Pandisha tikiti zako kwa Msimamizi wa Mfumo, au ushughulikie masuala ambayo wakazi wako wamekujibu."
+      },
+      "profile": {
+        "title": "Mipangilio na Wasifu",
+        "subtitle": "Dhibiti maelezo ya akaunti yako na maelezo ya ghorofa."
+      }
+    },
+    "fallbackName": "Msimamizi",
+    "fallbackCommunity": "Msimamizi wa Jumuiya",
+    "notBuilt": "{{label}} haijajengwa bado",
+    "searchPlaceholder": "Tafuta chochote..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Ripoti",
+      "description": "Ripoti za matumizi, bili na uhifadhi kwa jumuiya yako."
+    },
+    "announcements": {
+      "title": "Matangazo",
+      "description": "Tuma matangazo kwa jamii nzima kwa wakazi wako."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} inakuja hivi karibuni"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashibodi",
+      "usageHistory": "Historia ya Matumizi",
+      "bills": "Bili Zangu",
+      "recommendations": "Mapendekezo",
+      "reports": "Ripoti",
+      "support": "Msaada / Wasiwasi",
+      "notifications": "Arifa",
+      "profile": "Wasifu"
+    },
+    "pages": {
+      "usageHistory": "Historia yako ya matumizi",
+      "billing": "Bili na ankara",
+      "notifications": "Arifa",
+      "recommendations": "Mapendekezo",
+      "support": "Msaada / Wasiwasi"
+    },
+    "defaultTitle": "Dashibodi ya Mkazi",
+    "navLabel": "Urambazaji wa wakaazi",
+    "fallbackName": "Mkazi",
+    "unit": "Kitengo {{number}}",
+    "comingSoon": "{{label}} inakuja hivi karibuni",
+    "profile": "Wasifu",
+    "searchPlaceholder": "Uchanganuzi wa utafutaji, bili..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashibodi",
+      "communities": "Jumuiya",
+      "reports": "Ripoti",
+      "supportTickets": "Tikiti za Usaidizi",
+      "systemStatus": "Hali ya Mfumo"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Picha ya jukwaa kote katika kila jumuiya iliyosajiliwa."
+      },
+      "communities": {
+        "title": "Jumuiya",
+        "subtitle": "Kila msimamizi wa jumuiya aliyesajiliwa na jumuiya yake, katika sehemu moja."
+      },
+      "reports": {
+        "title": "Ripoti",
+        "subtitle": "Utumiaji wa maji katika jukwaa zima na takwimu za bili, kwa jamii na baada ya muda."
+      },
+      "supportTickets": {
+        "title": "Tikiti za Usaidizi",
+        "subtitle": "Tikiti za usaidizi na hoja zilizotolewa na wakaazi na wasimamizi wa jamii, jukwaa kote."
+      },
+      "systemStatus": {
+        "title": "Hali ya Mfumo",
+        "subtitle": "Muunganisho wa nyuma na afya ya msingi ya wakati wa kukimbia."
+      }
+    },
+    "fallbackName": "Msimamizi wa Mfumo",
+    "platformOwner": "Mmiliki wa Jukwaa",
+    "searchPlaceholder": "Tafuta jumuiya..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lugha: {{language}}",
+    "searchPlaceholder": "Tafuta lugha...",
+    "noMatches": "Hakuna zinazolingana"
+  }
+}

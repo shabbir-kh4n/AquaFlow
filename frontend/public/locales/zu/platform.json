@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Iyasebenza",
+    "blocked": "Kuvinjiwe",
+    "terminated": "Inqanyuliwe"
+  },
+  "sort": {
+    "sortBy": "Hlunga nge",
+    "toggleDirection": "Guqula isiqondisindlela sokuhlunga",
+    "asc": "↑ I-Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Ibonisa {{from}}–{{to}} kwe-{{total}}",
+    "prev": "← Okwedlule",
+    "next": "Okulandelayo →",
+    "page": "Ikhasi {{page}} kwangu-{{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Ukubuka konke kwenkundla",
+    "subtitle": "Bonke abaphathi bomphakathi ababhalisiwe, kuyo yonke inkundla HydroLedger.",
+    "viewAll": "Buka Yonke Imiphakathi",
+    "loadError": "Ayikwazanga ukulayisha idatha yenkundla njengamanje.",
+    "cards": {
+      "totalCommunities": "Ingqikithi Yemiphakathi",
+      "registeredAdmins": "Abaphathi ababhalisiwe",
+      "totalResidents": "Ingqikithi Yezakhamizi",
+      "acrossAllCommunities": "Kuyo yonke imiphakathi",
+      "active": "Iyasebenza",
+      "inGoodStanding": "Ekumeni okuhle",
+      "blockedTerminated": "Kuvinjiwe / Kunqanyuliwe",
+      "blockedTerminatedBreakdown": "{{blocked}} ivinjiwe, {{terminated}} inqanyuliwe"
+    },
+    "recent": {
+      "title": "Imiphakathi Esanda Kubhaliswa",
+      "loading": "Iyalayisha...",
+      "empty": "Ayikho imiphakathi ebhalisiwe okwamanje.",
+      "table": {
+        "community": "Umphakathi",
+        "admin": "Admin",
+        "status": "Isimo",
+        "residents": "Izakhamuzi"
+      }
+    }
+  },
+  "communities": {
+    "count": "Imiphakathi: {{count}}",
+    "loadError": "Ayikwazanga ukulayisha imiphakathi. Sicela uzame futhi.",
+    "searchPlaceholder": "Hlunga ngomphakathi, igama lomphathi, noma i-imeyili",
+    "statusFilter": {
+      "label": "Isimo",
+      "all": "Konke"
+    },
+    "sortOptions": {
+      "community": "Umphakathi",
+      "admin": "Admin",
+      "residents": "Izakhamuzi"
+    },
+    "loading": "Ilayisha imiphakathi...",
+    "empty": "Ayikho imiphakathi ebhalisiwe okwamanje.",
+    "noMatch": "Ayikho imiphakathi efana nezihlungi zakho.",
+    "table": {
+      "community": "Umphakathi",
+      "admin": "Admin",
+      "email": "I-imeyili",
+      "status": "Isimo",
+      "residents": "Izakhamuzi",
+      "view": "Buka"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ayikwazanga ukulayisha lo mphakathi. Kungenzeka ukuthi isusiwe.",
+    "statusUpdateError": "Ayikwazanga ukubuyekeza isimo salo mphakathi.",
+    "deleteError": "Ayikwazanga ukususa lo mphakathi.",
+    "loading": "Ilayisha umphakathi...",
+    "notFound": "Umphakathi awutholakali.",
+    "backLink": "← Buyela Emiphakathini",
+    "backLinkShort": "Buyela Emiphakathini",
+    "eyebrow": "Iphrofayela yomphakathi",
+    "unnamed": "Umphakathi ongashiwongo",
+    "noAddress": "Alikho ikheli efayelini",
+    "stats": {
+      "residents": "Izakhamuzi",
+      "status": "Isimo"
+    },
+    "actions": {
+      "reactivate": "Yenza kusebenze futhi",
+      "block": "Vimba",
+      "terminate": "Qeda",
+      "delete": "Susa Umphakathi"
+    },
+    "blockDialog": {
+      "title": "Vimbela lo mphathi womphakathi?",
+      "message": "Vimba {{name}}? Ngeke bakwazi ukungena baze bavulelwe. Ayikho idatha ezothinteka.",
+      "confirm": "Vimba"
+    },
+    "terminateDialog": {
+      "title": "Susa lo mphathi womphakathi?",
+      "message": "Susa unomphela ukufinyelela kuka-{{name}}? Lokhu akukwazi ukuhlehliswa, noma idatha yomphakathi wabo izogcinelwa amarekhodi.",
+      "confirm": "Qeda"
+    },
+    "deleteDialog": {
+      "title": "Susa lo mphakathi?",
+      "message": "Lokhu kuzosusa unomphela i-<strong>{{name}}</strong> nayo yonke imizi yayo, izakhamuzi, amamitha, intela/ukulungiswa kwenkokhelo, kanye nomlando we-invoyisi. Lesi senzo asikwazi ukuhlehliswa.",
+      "typeToConfirm": "Thayipha <strong>{{word}}</strong> ukuze uqhubeke",
+      "confirm": "Qinisekisa"
+    },
+    "residents": {
+      "title": "Izakhamuzi",
+      "registeredCount": "Ibhalisiwe: {{count}}",
+      "empty": "Azikho izakhamizi ezibhalisiwe kulo mphakathi okwamanje.",
+      "table": {
+        "flatUnit": "Iyunithi eyisicaba",
+        "meter": "Imitha",
+        "resident": "Isakhamuzi",
+        "email": "I-imeyili",
+        "passwordSet": "Iphasiwedi Setha"
+      },
+      "yes": "Yebo",
+      "no": "Cha"
+    },
+    "cancel": "Khansela",
+    "working": "Iyasebenza...",
+    "deleting": "Iyasusa..."
+  },
+  "systemStatus": {
+    "statusError": "Ayikwazanga ukufinyelela ingemuva ukuze ihlole isimo sesistimu.",
+    "metricsError": "Ayikwazanga ukulayisha umlando wamamethrikhi.",
+    "ranges": {
+      "fiveMinutes": "5 Amaminithi",
+      "fifteenMinutes": "15 Amaminithi",
+      "hour": "Ihora",
+      "day": "Usuku",
+      "week": "Isonto",
+      "month": "Inyanga",
+      "threeMonths": "Izinyanga ezi-3"
+    },
+    "uptime": {
+      "days": "{{value}}izinsuku",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Izicelo/isekhondi",
+      "opsPerSec": "I-Ops/isekhondi",
+      "latency": "Ukubambezeleka",
+      "lastValue": "{{value}} okokugcina",
+      "loading": "Iyalayisha...",
+      "empty": "Awekho amamethrikhi arekhodiwe kulobu bubanzi okwamanje."
+    },
+    "stats": {
+      "min": "Ubuncane: <b>{{value}}</b>",
+      "avg": "Isilinganiso: <b>{{value}}</b>",
+      "max": "Ubukhulu: <b>{{value}}</b>",
+      "last": "Okokugcina: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Iyahlola...",
+      "reachable": "Kuyafinyeleleka",
+      "unreachable": "Ayifinyeleleki",
+      "connected": "Ixhunyiwe",
+      "backendApiHint": "Leli khasi lilayishwe ngemuva, ngakho liphendule.",
+      "database": "Isizindalwazi",
+      "databaseHint": "Ukuxhumana kwe-PostgreSQL, kuhlolwe bukhoma.",
+      "uptime": "Isikhathi sokubuyela emuva",
+      "uptimeHint": "Kusukela kuqale kabusha uhlelo lokusebenza.",
+      "appVersion": "Inguqulo yohlelo lokusebenza",
+      "appVersionHint": "Inguqulo yokwakha engemuva."
+    },
+    "mini": {
+      "latency": "Ukubambezeleka",
+      "readsLatency": "Ifunda i-latency",
+      "writesLatency": "Kubhala Ukubambezeleka",
+      "otherLatency": "Okunye Ukubambezeleka",
+      "connections": "Ukuxhumana",
+      "totalKeys": "Okhiye Abaphelele"
+    },
+    "note": "Izicelo/isekhondi nokubambezeleka kuyisampula kuthrafikhi yangemuva ebukhoma njalo ngemizuzwana eyi-15 futhi igcinwa izinsuku ezingafika kweziyi-100. Lokhu ukuxhumana okuyisisekelo + ukuhlolwa kwethrafikhi — akuthathi indawo yokuqapha ukusebenza kohlelo lokusebenza okugcwele, ukuhlanganiswa kwelogi, noma ukuxwayisa."
+  },
+  "reports": {
+    "loadError": "Ayikwazanga ukulayisha umbiko wenkundla.",
+    "ranges": {
+      "threeMonths": "Izinyanga ezi-3",
+      "sixMonths": "6 Izinyanga",
+      "twelveMonths": "Izinyanga eziyi-12",
+      "custom": "Ngokwezifiso"
+    },
+    "sortOptions": {
+      "community": "Umphakathi",
+      "usage": "Ukusetshenziswa",
+      "billed": "Ukhokhisiwe",
+      "residents": "Izakhamuzi"
+    },
+    "customRange": {
+      "from": "Kusuka",
+      "to": "Kuya",
+      "hint": "Khetha kokubili inyanga ethi \"kusuka\" kanye \"ukuya\" ukuze ulayishe umbiko wangokwezifiso."
+    },
+    "loading": "Ilayisha umbiko...",
+    "cards": {
+      "totalCommunities": "Ingqikithi Yemiphakathi",
+      "inThisRange": "Kulolu hlu",
+      "totalResidents": "Ingqikithi Yezakhamizi",
+      "acrossAllCommunities": "Kuyo yonke imiphakathi",
+      "overallUsage": "Ukusetshenziswa Sekukonke",
+      "meteredConsumption": "Ukusetshenziswa kwamamitha",
+      "overallBilled": "Sekukonke Kukhokhisiwe",
+      "finalizedInvoicesOnly": "Ama-invoyisi aqediwe kuphela",
+      "avgUsagePerResident": "Ukusetshenziswa okumaphakathi / Isakhamuzi",
+      "avgBillPerResident": "Isilinganiso soMthethosivivinywa / Isakhamuzi"
+    },
+    "charts": {
+      "usageTitle": "Ukusetshenziswa kwendawo yonke (kL / ngenyanga)",
+      "usageEmpty": "Akukho ukusetshenziswa okurekhodiwe kulobu bubanzi.",
+      "usageSeries": "Ukusetshenziswa",
+      "billedTitle": "Inani Elikhokhiswa Inkundla yonke ( ₹ / ngenyanga)",
+      "billedEmpty": "Awekho ama-invoyisi aqediwe kulobu bubanzi.",
+      "billedSeries": "Ukhokhisiwe"
+    },
+    "searchPlaceholder": "Hlunga ngegama lomphakathi noma lomphathi",
+    "empty": "Ayikho imiphakathi enedatha yokusetshenziswa noma yokukhokha yalolu banga okwamanje.",
+    "noMatch": "Ayikho imiphakathi efana nesihlungi sakho.",
+    "table": {
+      "community": "Umphakathi",
+      "admin": "Admin",
+      "residents": "Izakhamuzi",
+      "usage": "Ukusetshenziswa (kL)",
+      "billed": "Kukhokhisiwe ( ₹)",
+      "avgUsagePerResident": "Ukusetshenziswa okumaphakathi / Isakhamuzi",
+      "avgBillPerResident": "Isilinganiso soMthethosivivinywa / Isakhamuzi"
+    }
+  },
+  "supportTickets": {
+    "title": "Ukusekela Amathikithi",
+    "subtitle": "Sekela amathikithi nokukhathazeka okuphakanyiswe abahlali nabaphathi bomphakathi, inkundla yonkana."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Bikora",
+    "blocked": "Yahagaritswe",
+    "terminated": "Byarangiye"
+  },
+  "sort": {
+    "sortBy": "Gutondekanya na",
+    "toggleDirection": "Hindura icyerekezo",
+    "asc": "Asc",
+    "desc": "↓ Ibimanuka"
+  },
+  "pagination": {
+    "showing": "Kwerekana {{from}} - {{to}} ya {{total}}",
+    "prev": ". Ibanza",
+    "next": "Ibikurikira →",
+    "page": "Urupapuro {{page}} rwa {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Incamake ya platform",
+    "subtitle": "Buri muyobozi wanditse wumuyobozi, kurubuga rwose HydroLedger.",
+    "viewAll": "Reba Imiryango Yose",
+    "loadError": "Ntushobora gupakira amakuru yamakuru kuri ubu.",
+    "cards": {
+      "totalCommunities": "Imiryango yose",
+      "registeredAdmins": "Abayobozi biyandikishije",
+      "totalResidents": "Abaturage bose",
+      "acrossAllCommunities": "Hirya no hino mu baturage",
+      "active": "Bikora",
+      "inGoodStanding": "Uhagaze neza",
+      "blockedTerminated": "Yahagaritswe / Yahagaritswe",
+      "blockedTerminatedBreakdown": "{{blocked}} yahagaritswe, {{terminated}} yarangiye"
+    },
+    "recent": {
+      "title": "Imiryango Iherutse Kwiyandikisha",
+      "loading": "Kuremera…",
+      "empty": "Nta baturage biyandikishije.",
+      "table": {
+        "community": "Umuryango",
+        "admin": "Umuyobozi",
+        "status": "Imiterere",
+        "residents": "Abaturage"
+      }
+    }
+  },
+  "communities": {
+    "count": "Abaturage: {{count}}",
+    "loadError": "Ntushobora kwikorera abaturage. Nyamuneka gerageza.",
+    "searchPlaceholder": "Shungura kumuryango, izina rya admin, cyangwa imeri",
+    "statusFilter": {
+      "label": "Imiterere",
+      "all": "Byose"
+    },
+    "sortOptions": {
+      "community": "Umuryango",
+      "admin": "Umuyobozi",
+      "residents": "Abaturage"
+    },
+    "loading": "Gutwara abaturage…",
+    "empty": "Nta baturage biyandikishije.",
+    "noMatch": "Ntamuryango uhuye nayunguruzo.",
+    "table": {
+      "community": "Umuryango",
+      "admin": "Umuyobozi",
+      "email": "Imeri",
+      "status": "Imiterere",
+      "residents": "Abaturage",
+      "view": "Reba"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ntushobora kwikorera uyu muryango. Irashobora kuba yarakuweho.",
+    "statusUpdateError": "Ntushobora kuvugurura imiterere yabaturage.",
+    "deleteError": "Ntushobora gusiba uyu muryango.",
+    "loading": "Gutwara abaturage…",
+    "notFound": "Umuganda ntiwabonetse.",
+    "backLink": "Subira mu baturage",
+    "backLinkShort": "Subira mu baturage",
+    "eyebrow": "Umwirondoro wabaturage",
+    "unnamed": "Umuryango utavuzwe izina",
+    "noAddress": "Nta aderesi iri muri dosiye",
+    "stats": {
+      "residents": "Abaturage",
+      "status": "Imiterere"
+    },
+    "actions": {
+      "reactivate": "Ongera ukore",
+      "block": "Hagarika",
+      "terminate": "Kurangiza",
+      "delete": "Siba Umuryango"
+    },
+    "blockDialog": {
+      "title": "Hagarika uyu muyobozi?",
+      "message": "Guhagarika {{name}}? Ntibazashobora kwinjira kugeza bafunguye. Nta makuru azagira ingaruka.",
+      "confirm": "Hagarika"
+    },
+    "terminateDialog": {
+      "title": "Guhagarika uyu muyobozi?",
+      "message": "Kurangiza burundu {{name}} kwinjira? Ibi ntibishobora gusubirwaho, nubwo amakuru yabaturage bazabikwa kubitabo.",
+      "confirm": "Kurangiza"
+    },
+    "deleteDialog": {
+      "title": "Siba uyu muryango?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Andika <strong> {{word}} </strong> kugirango ukomeze",
+      "confirm": "Emeza"
+    },
+    "residents": {
+      "title": "Abaturage",
+      "registeredCount": "Abiyandikishije: {{count}}",
+      "empty": "Nta muturage wiyandikishije muri uyu muganda.",
+      "table": {
+        "flatUnit": "Igice cya Flat",
+        "meter": "Metero",
+        "resident": "Umuturage",
+        "email": "Imeri",
+        "passwordSet": "Gushiraho ijambo ryibanga"
+      },
+      "yes": "Yego",
+      "no": "Oya"
+    },
+    "cancel": "Kureka",
+    "working": "Gukora…",
+    "deleting": "Gusiba…"
+  },
+  "systemStatus": {
+    "statusError": "Ntushobora kugera inyuma kugirango ugenzure sisitemu imiterere.",
+    "metricsError": "Ntushobora kwipimisha amateka.",
+    "ranges": {
+      "fiveMinutes": "Iminota 5",
+      "fifteenMinutes": "Iminota 15",
+      "hour": "Isaha",
+      "day": "Umunsi",
+      "week": "Icyumweru",
+      "month": "Ukwezi",
+      "threeMonths": "Amezi 3"
+    },
+    "uptime": {
+      "days": "{{value}} d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Gusaba / amasegonda",
+      "opsPerSec": "Ops / amasegonda",
+      "latency": "Ubukererwe",
+      "lastValue": "{{value}} iheruka",
+      "loading": "Kuremera…",
+      "empty": "Nta bipimo byanditse kuriyi ntera."
+    },
+    "stats": {
+      "min": "Min: <b> {{value}} </b>",
+      "avg": "Avg: <b> {{value}} </b>",
+      "max": "Icyiza: <b> {{value}} </b>",
+      "last": "Iheruka: <b> {{value}} </b>"
+    },
+    "cards": {
+      "backendApi": "Inyuma API",
+      "checking": "Kugenzura…",
+      "reachable": "Kugerwaho",
+      "unreachable": "Ntibagerwaho",
+      "connected": "Byahujwe",
+      "backendApiHint": "Uru rupapuro rwapakiwe inyuma, nuko rusubiza.",
+      "database": "Ububikoshingiro",
+      "databaseHint": "Ihuza rya PostgreSQL, ryagenzuwe neza.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Kuva porogaramu iheruka gutangira.",
+      "appVersion": "Porogaramu",
+      "appVersionHint": "Inyuma yubaka verisiyo."
+    },
+    "mini": {
+      "latency": "Ubukererwe",
+      "readsLatency": "Soma Ubukererwe",
+      "writesLatency": "Yandika Ubukererwe",
+      "otherLatency": "Ubundi Ubunebwe",
+      "connections": "Kwihuza",
+      "totalKeys": "Urufunguzo rwose"
+    },
+    "note": "Gusaba / amasegonda nubukererwe byatoranijwe kuva traffic backend buri masegonda 15 kandi bikabikwa kugeza kumunsi 100. Ubu ni uburyo bwibanze bwo guhuza + kugenzura ibinyabiziga - ntibisimbuza igenzura ryuzuye ryimikorere, kugenzura ibiti, cyangwa kumenyesha."
+  },
+  "reports": {
+    "loadError": "Ntushobora gupakira raporo ya platform.",
+    "ranges": {
+      "threeMonths": "Amezi 3",
+      "sixMonths": "Amezi 6",
+      "twelveMonths": "Amezi 12",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Umuryango",
+      "usage": "Ikoreshwa",
+      "billed": "Yishyurwa",
+      "residents": "Abaturage"
+    },
+    "customRange": {
+      "from": "Kuva",
+      "to": "Kuri",
+      "hint": "Tora byombi \"kuva\" na \"kugeza\" ukwezi kugirango ukore raporo yihariye."
+    },
+    "loading": "Raporo yerekana…",
+    "cards": {
+      "totalCommunities": "Imiryango yose",
+      "inThisRange": "Muri uru rwego",
+      "totalResidents": "Abaturage bose",
+      "acrossAllCommunities": "Hirya no hino mu baturage",
+      "overallUsage": "Ikoreshwa muri rusange",
+      "meteredConsumption": "Ikoreshwa ryapimwe",
+      "overallBilled": "Muri rusange",
+      "finalizedInvoicesOnly": "Inyemezabuguzi zuzuye gusa",
+      "avgUsagePerResident": "Gukoresha Avg / Umuturage",
+      "avgBillPerResident": "Avg Bill / Umuturage"
+    },
+    "charts": {
+      "usageTitle": "Gukoresha urubuga rwose (kL / ukwezi)",
+      "usageEmpty": "Nta mikoreshereze yanditse kuriyi ntera.",
+      "usageSeries": "Ikoreshwa",
+      "billedTitle": "Umwanya wose wuzuye wuzuye (₹ / ukwezi)",
+      "billedEmpty": "Nta fagitire zarangiye kuri uru rwego.",
+      "billedSeries": "Yishyurwa"
+    },
+    "searchPlaceholder": "Shungura kumuryango cyangwa izina rya admin",
+    "empty": "Nta baturage bafite imikoreshereze cyangwa fagitire kuri uru rwego kugeza ubu.",
+    "noMatch": "Nta baturage bahuye na filteri yawe.",
+    "table": {
+      "community": "Umuryango",
+      "admin": "Umuyobozi",
+      "residents": "Abaturage",
+      "usage": "Ikoreshwa (kL)",
+      "billed": "Yishyuwe (₹)",
+      "avgUsagePerResident": "Gukoresha Avg / Umuturage",
+      "avgBillPerResident": "Avg Bill / Umuturage"
+    }
+  },
+  "supportTickets": {
+    "title": "Amatike yo Gushyigikira",
+    "subtitle": "Shigikira amatike hamwe nimpungenge zavuzwe nabenegihugu hamwe nabayobozi bayobozi, urubuga-rugari."
+  }
+}

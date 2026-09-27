@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Virkin",
+    "blocked": "Blokerað",
+    "terminated": "Uppsagt"
+  },
+  "sort": {
+    "sortBy": "Sortera eftir",
+    "toggleDirection": "Skift sorteringsætlan",
+    "asc": "↑ Asc",
+    "desc": "↓ Lýsing"
+  },
+  "pagination": {
+    "showing": "Vísir {{from}}–{{to}} av {{total}}",
+    "prev": "← Fyrr",
+    "next": "Næsta →",
+    "page": "Síða {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Yvirlit yvir pall",
+    "subtitle": "Hvør skrásettur felagsskapur admin, tvørtur um allan HydroLedger pallin.",
+    "viewAll": "Vís øll felagsskapir",
+    "loadError": "Kundi ikki heinta palldátur beint nú.",
+    "cards": {
+      "totalCommunities": "Samfeløg",
+      "registeredAdmins": "Skrásettir umsitarar",
+      "totalResidents": "Samlað íbúgvar",
+      "acrossAllCommunities": "Tvørtur um øll samfeløg",
+      "active": "Virkin",
+      "inGoodStanding": "Í góðum standi",
+      "blockedTerminated": "Blokerað / Upplýst",
+      "blockedTerminatedBreakdown": "{{blocked}} sperrað, {{terminated}} avlýst"
+    },
+    "recent": {
+      "title": "Nýliga skrásett samfeløg",
+      "loading": "Heinta...",
+      "empty": "Ongin felagsskapur er skrásettur enn.",
+      "table": {
+        "community": "Samfelag",
+        "admin": "Umsitari",
+        "status": "Støða",
+        "residents": "Íbúgvar"
+      }
+    }
+  },
+  "communities": {
+    "count": "Samfeløg: {{count}}",
+    "loadError": "Kundi ikki lasta samfeløg. Vinarliga royn aftur.",
+    "searchPlaceholder": "Filtrera eftir felagsskapi, umsitararnavni ella telduposti",
+    "statusFilter": {
+      "label": "Støða",
+      "all": "Altíð"
+    },
+    "sortOptions": {
+      "community": "Samfelag",
+      "admin": "Umsitari",
+      "residents": "Íbúgvar"
+    },
+    "loading": "Heinta samfeløg...",
+    "empty": "Ongin felagsskapur er skrásettur enn.",
+    "noMatch": "Ongin felagsskapur passa til tíni filtur.",
+    "table": {
+      "community": "Samfelag",
+      "admin": "Umsitari",
+      "email": "Teldupostur",
+      "status": "Støða",
+      "residents": "Íbúgvar",
+      "view": "Útsýni"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Kundi ikki heinta hendan felagsskapin. Tað kann hava verið burturbeitt.",
+    "statusUpdateError": "Kundi ikki dagføra støðuna hjá hesum felagsskapinum.",
+    "deleteError": "Kundi ikki strika hendan felagsskapin.",
+    "loading": "Heinta felagsskap...",
+    "notFound": "Felagsskapur ikki funnin.",
+    "backLink": "← Aftur til felagsskapir",
+    "backLinkShort": "Aftur til Samfeløg",
+    "eyebrow": "Felagsmynd",
+    "unnamed": "Ónavngivin felagsskapur",
+    "noAddress": "Eingin adressa á skrá",
+    "stats": {
+      "residents": "Íbúgvar",
+      "status": "Støða"
+    },
+    "actions": {
+      "reactivate": "Endurvirkja",
+      "block": "Kubbi",
+      "terminate": "Gev upp",
+      "delete": "Strika felagsskap"
+    },
+    "blockDialog": {
+      "title": "Blokera hendan felags admin?",
+      "message": "Blokka {{name}}? Tey kunnu ikki logga á fyrr enn tey eru avblokerað. Ongar dátur verða ávirkaðar.",
+      "confirm": "Kubbi"
+    },
+    "terminateDialog": {
+      "title": "Siga hendan felags admin upp?",
+      "message": "Enda atgongdina hjá {{name}} varandi? Hetta kann ikki rættast, hóast dáturnar hjá teirra samfelag verða goymdar til skrásetingar.",
+      "confirm": "Gev upp"
+    },
+    "deleteDialog": {
+      "title": "Strika hendan felagsskapin?",
+      "message": "Hetta strikar <strong>{{name}}</strong> og øll húsarhald, íbúgvar, mátarar, gjalds/rokningaruppseting og fakturasøgu varandi. Henda handlingin kann ikki ógildast.",
+      "typeToConfirm": "Skriva <strong>{{word}}</strong> fyri at halda fram",
+      "confirm": "Vátta"
+    },
+    "residents": {
+      "title": "Íbúgvar",
+      "registeredCount": "Skrásett: {{count}}",
+      "empty": "Ongin íbúgvi er skrásettur í hesum felagsskapinum enn.",
+      "table": {
+        "flatUnit": "Flat eind",
+        "meter": "Mátari",
+        "resident": "Íbúgvi",
+        "email": "Teldupostur",
+        "passwordSet": "Loyniorðsett"
+      },
+      "yes": "Ja",
+      "no": "Nei"
+    },
+    "cancel": "strika",
+    "working": "Arbeiður…",
+    "deleting": "Strika..."
+  },
+  "systemStatus": {
+    "statusError": "Kundi ikki røkka baksíðuni fyri at kanna skipanarstøðuna.",
+    "metricsError": "Kundi ikki heinta metrikksøgu.",
+    "ranges": {
+      "fiveMinutes": "5 minuttir",
+      "fifteenMinutes": "15 minuttir",
+      "hour": "Tími",
+      "day": "Dagur",
+      "week": "Veikur",
+      "month": "Mánaði",
+      "threeMonths": "3 Mánaðir"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}t",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Áheitanir/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Seinking",
+      "lastValue": "{{value}} seinast",
+      "loading": "Heinta...",
+      "empty": "Eingin metrikkur er skrásettur fyri hetta økið enn."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Baksíðu API",
+      "checking": "Kanna...",
+      "reachable": "Nærkandi",
+      "unreachable": "Órøkjandi",
+      "connected": "Samband",
+      "backendApiHint": "Hendan síðan varð heintað frá baksíðuni, so hon svaraði.",
+      "database": "Dátugrunnur",
+      "databaseHint": "PostgreSQL samband, kannað beinleiðis.",
+      "uptime": "Upptíð á baksíðuni",
+      "uptimeHint": "Síðani seinasta forritið endurbyrjaði.",
+      "appVersion": "App útgáva",
+      "appVersionHint": "Baksíðu byggiútgáva."
+    },
+    "mini": {
+      "latency": "Seinking",
+      "readsLatency": "Lesur seinking",
+      "writesLatency": "Skrivar seinking",
+      "otherLatency": "Onnur seinking",
+      "connections": "Samband",
+      "totalKeys": "Samlaðir lyklar"
+    },
+    "note": "Umbønir/sek og latency verða sýnd úr beinleiðis backend ferðslu 15. hvørt sekund og hildin í upp til 100 dagar. Hetta er ein grundleggjandi samband + ferðslukanning — tað kemur ikki í staðin fyri fult eftirlit við avrikinum av forritum, loggsamling ella ávaring."
+  },
+  "reports": {
+    "loadError": "Kundi ikki heinta pallfrágreiðingina.",
+    "ranges": {
+      "threeMonths": "3 Mánaðir",
+      "sixMonths": "6 Mánaðir",
+      "twelveMonths": "12 Mánaðir",
+      "custom": "Skikkur"
+    },
+    "sortOptions": {
+      "community": "Samfelag",
+      "usage": "Nýtsla",
+      "billed": "Roknað",
+      "residents": "Íbúgvar"
+    },
+    "customRange": {
+      "from": "Frá",
+      "to": "Til",
+      "hint": "Vel bæði ein \"frá\" og \"til\" mánað fyri at heinta eina sersniðgivna frágreiðing."
+    },
+    "loading": "Heinta frágreiðing...",
+    "cards": {
+      "totalCommunities": "Samfeløg",
+      "inThisRange": "Í hesum bilinum",
+      "totalResidents": "Samlað íbúgvar",
+      "acrossAllCommunities": "Tvørtur um øll samfeløg",
+      "overallUsage": "Samlað nýtsla",
+      "meteredConsumption": "Mátað nýtsla",
+      "overallBilled": "Samlað roknað",
+      "finalizedInvoicesOnly": "Einans endaligar rokningar",
+      "avgUsagePerResident": "Miðalnýtsla / Búsitandi",
+      "avgBillPerResident": "Miðal Rokning / Búsitandi"
+    },
+    "charts": {
+      "usageTitle": "Nýtsla á øllum pallinum (kL / mánað)",
+      "usageEmpty": "Eingin nýtsla skrásett fyri hetta økið.",
+      "usageSeries": "Nýtsla",
+      "billedTitle": "Fakturerað upphædd fyri allan pallin (₹ / mánað)",
+      "billedEmpty": "Ongar rokningar endaligar fyri hetta bilið.",
+      "billedSeries": "Roknað"
+    },
+    "searchPlaceholder": "Filtur eftir felagsskapi ella umsitararnavni",
+    "empty": "Ongin felagsskapur hevur nýtslu- ella rokningardátur fyri hetta økið enn.",
+    "noMatch": "Ongin felagsskapur passa til títt filtur.",
+    "table": {
+      "community": "Samfelag",
+      "admin": "Umsitari",
+      "residents": "Íbúgvar",
+      "usage": "Usage (kL)",
+      "billed": "Roknað (₹)",
+      "avgUsagePerResident": "Miðalnýtsla / Búsitandi",
+      "avgBillPerResident": "Miðal Rokning / Búsitandi"
+    }
+  },
+  "supportTickets": {
+    "title": "Stuðulsmiðlar",
+    "subtitle": "Stuðla atgongumerkjum og ávum, sum íbúgvar og samfelags admins hava reist, um allan pallin."
+  }
+}

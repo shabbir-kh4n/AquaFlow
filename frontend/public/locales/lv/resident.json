@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Drīzumā",
+    "welcome": {
+      "greeting": "Sveiki, {{name}}!",
+      "greetingFallback": "Sveiki,",
+      "title": "Esiet tuvu savas mājas ūdens stāstam.",
+      "subtitle": "Lietojuma un norēķinu ieskati tiks parādīti šeit, jo jūsu kopiena ieraksta rādījumus.",
+      "viewBadges": "Skatīt ekozīmītes"
+    },
+    "stats": {
+      "todaysUsage": "Šodienas lietojums",
+      "asOf": "No {{date}}",
+      "noReading": "Vēl nav skaitītāja rādījuma",
+      "monthlyTotalFor": "Kopā mēnesī ({{month}})",
+      "monthlyTotalThisMonth": "Kopā mēnesī (šomēnes)",
+      "sumOfReadings": "Reģistrēto rādījumu summa",
+      "estimatedBill": "Pašreizējais paredzamais rēķins",
+      "estimatedBillFor": "Uzskaites lietojums + dalītās maksas, {{month}}",
+      "estimatedBillHint": "Pamatojoties uz šī mēneša mērīto patēriņu un dalītajām maksām",
+      "savings": "Ietaupījumi salīdzinājumā ar ēkas vid",
+      "savingsValue": "{{percent}}% mazāk",
+      "savingsPreview": "Tikai priekšskatījums — salīdzinājums vēl nav pieejams"
+    },
+    "consumption": {
+      "eyebrow": "Patēriņš",
+      "title": "Ikdienas patēriņš (pēdējie 14 rādījumi)",
+      "seriesName": "Patēriņš",
+      "empty": "Vēl nav reģistrēts neviens rādījums."
+    },
+    "breakdown": {
+      "eyebrow": "Sadalījums",
+      "title": "Lietošanas sadalījums",
+      "bathroom": "Vannas istaba",
+      "kitchen": "Virtuve",
+      "garden": "Dārzs / Balkons",
+      "other": "Citi / Veļas mazgāšana"
+    },
+    "billing": {
+      "eyebrow": "Norēķini",
+      "title": "Aktīvs norēķinu cikls",
+      "finalized": "Pabeigts",
+      "preview": "Priekšskatījums",
+      "meteredConsumption": "Uzskaitīts patēriņš",
+      "tierPriceLevel": "Līmeņa cenu līmenis",
+      "tierLabel": "Līmenis {{tier}}",
+      "commonArea": "Kopējās telpas sadale",
+      "commonAreaPreview": "Kopējās telpas sadalījums (priekšskatījums)",
+      "invoiceTotal": "{{period}} rēķins kopā",
+      "estimatedCharge": "Pašreizējā aprēķinātā maksa",
+      "commonAreaBreakdown": "Kopējās telpas sadalījums",
+      "payPreview": "Apmaksāt rēķinu priekšskatījums",
+      "payUnavailable": "Norēķinu programma vēl nav pieejama"
+    },
+    "tips": {
+      "eyebrow": "Padomi",
+      "title": "Gudri taupīšanas padomi",
+      "viewAll": "Skatīt visu",
+      "empty": "Personalizēti padomi tiek parādīti šeit pēc tam, kad jūsu kopiena ir pabeigusi norēķinu ciklu."
+    },
+    "community": "Kopiena: {{name}}"
+  },
+  "usage": {
+    "loadError": "Nevarēja ielādēt jūsu lietošanas vēsturi. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek jūsu lietojuma analīzes ielāde…",
+    "empty": "Vēl nav reģistrēts neviens rādījums. Tiklīdz jūsu kopiena ierakstīs skaitītāja rādījumu, tas tiks parādīts šeit.",
+    "tabs": {
+      "lastSixMonths": "Pēdējie 6 mēneši",
+      "customRange": "Pielāgots diapazons",
+      "comingSoon": "Drīzumā"
+    },
+    "peakDay": "Pīķa diena:",
+    "lowestDay": "Zemākā diena:",
+    "comparison": {
+      "title": "Mājsaimniecības patēriņš pret dzīvokļu vidējo",
+      "subtitle": "Mēneša kopsummas parādītas kilolitros (kL).",
+      "yourHousehold": "Jūsu mājsaimniecība",
+      "apartmentAverage": "Dzīvoklis Vidējais",
+      "similarSized": "Līdzīga izmēra mājas"
+    },
+    "heatmap": {
+      "title": "Dienas patēriņa siltuma karte",
+      "subtitle": "Krāsu intensitāte iezīmē intensīvas lietošanas dienas (priekšskatījums)."
+    },
+    "ranking": {
+      "title": "Kopienas vienaudžu reitings",
+      "subtitle": "Jūsu rangs salīdzinājumā ar līdzīgām vienībām (priekšskatījums).",
+      "ecoSaver": "Aktīvā Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Vienība {{number}}",
+      "yourUnit": "Jūsu vienība",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Jūs)"
+    }
+  },
+  "billing": {
+    "loadError": "Nevarēja ielādēt jūsu norēķinu vēsturi. Lūdzu, mēģiniet vēlreiz.",
+    "pdfError": "Nevarēja lejupielādēt PDF. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek norēķinu vēstures ielāde…",
+    "empty": "Vēl nav neviena rēķina — tiklīdz jūsu kopiena pabeigs norēķinu ciklu, jūsu rēķini tiks parādīti šeit.",
+    "status": {
+      "paid": "Apmaksāts",
+      "unpaid": "Neapmaksāts"
+    },
+    "summary": {
+      "outstandingBalance": "Nenokārtots atlikums",
+      "billingCycle": "Norēķinu cikls: {{period}}",
+      "allPaid": "Visi rēķini ir apmaksāti",
+      "payTotal": "Maksājiet kopā izcili",
+      "payTotalUnavailable": "Tiešsaistes maksājums vēl nav pieejams — apmaksājiet rēķinus tieši ar kopienas administratoru",
+      "downloadSummary": "Lejupielādēt rēķinu kopsavilkumu",
+      "downloadSummaryUnavailable": "Rēķinu kopsavilkuma lejupielāde vēl nav pieejama"
+    },
+    "history": {
+      "title": "Rēķinu vēsture",
+      "exportCsv": "Eksportēt visu uz CSV",
+      "exportUnavailable": "CSV eksportēšana vēl nav pieejama"
+    },
+    "table": {
+      "cycle": "Cikls",
+      "usage": "Lietojums (kL)",
+      "amountDue": "Maksājamā summa",
+      "paymentStatus": "Maksājuma statuss",
+      "hideBreakdown": "Paslēpt sadalījumu ↑",
+      "showBreakdown": "Detalizēts sadalījums ↓",
+      "downloading": "Notiek lejupielāde…",
+      "pdf": "PDF",
+      "pay": "Maksājiet"
+    },
+    "breakdown": {
+      "householdTitle": "Mājsaimniecības patēriņa sadalījums",
+      "basePrice": "Pamatcena: {{units}} kL × ₹ {{rate}}",
+      "tierLine": "{{tier}} līmenis: {{units}} kL × ₹ {{rate}}",
+      "subtotalMetered": "Starpsumma mērīto lietojumu",
+      "commonAreaTitle": "Kopējās platības sadale",
+      "subtotalShared": "Kopsumma starp koplietojamo apgabalu",
+      "noCommonArea": "Par šo ciklu nav jāmaksā par koplietošanas telpu."
+    },
+    "pagination": {
+      "showing": "Rāda {{from}}–{{to}} no {{total}}",
+      "prev": "← Iepriekš",
+      "next": "Nākamais →",
+      "page": "{{page}} lapa no {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Maksājuma veidi (priekšskatījums)",
+      "description": "Tiešsaistes maksājums vēl nav pieejams — rēķini tiek apmaksāti tieši ar jūsu kopienas administratoru.",
+      "manage": "Pārvaldiet maksājumu metodes",
+      "manageUnavailable": "Maksājuma veidi vēl nav pieejami"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Nodrošina Razorpay",
+    "billingCycle": "Norēķinu cikls {{period}}",
+    "close": "Aizvērt",
+    "amountPayable": "Maksājamā summa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kartes",
+      "netbanking": "Internetbanka",
+      "wallet": "Maks"
+    },
+    "upi": {
+      "title": "Maksājiet, izmantojot UPI",
+      "upiId": "UPI ID",
+      "or": "VAI",
+      "scan": "Skenējiet ar jebkuru UPI lietotni"
+    },
+    "card": {
+      "title": "Maksājiet ar karti",
+      "number": "Kartes numurs",
+      "expiry": "Derīguma termiņš",
+      "expiryPlaceholder": "MM/GG",
+      "cvv": "CVV",
+      "name": "Vārds uz kartes",
+      "namePlaceholder": "Kā uzdrukāts uz kartes"
+    },
+    "netbanking": {
+      "title": "Maksājiet, izmantojot internetbanku"
+    },
+    "wallet": {
+      "title": "Maksājiet, izmantojot maku"
+    },
+    "payAmount": "Maksājiet {{amount}} Indijas rūpijas",
+    "processing": "Notiek jūsu maksājuma apstrāde…",
+    "processingHint": "Lūdzu, nespiediet atpakaļ un neatsvaidziniet šo lapu",
+    "success": "Maksājums sekmīgs",
+    "error": "Apstiprinot maksājumu, radās kļūda. Lūdzu, mēģiniet vēlreiz.",
+    "retry": "Mēģiniet vēlreiz"
+  },
+  "notifications": {
+    "loadError": "Nevarēja ielādēt jūsu paziņojumus. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek paziņojumu ielāde…",
+    "empty": "Pagaidām nav paziņojumu — ja jūsu kopienas administrators ir iespējojis brīdinājumus par lietojuma slieksni vai neparastu patēriņu un tas ir aktivizēts jūsu mājsaimniecībai, šeit tiks parādīta informācija.",
+    "type": {
+      "thresholdExceeded": "Pārsniegts patēriņa slieksnis",
+      "statisticalOutlier": "Konstatēts neparasts patēriņš"
+    },
+    "status": {
+      "active": "Aktīvs",
+      "resolved": "Atrisināts",
+      "dismissed": "Atlaista"
+    },
+    "billingPeriod": "Norēķinu periods: {{period}}",
+    "consumption": "Patēriņš: {{value}} kL",
+    "push": {
+      "title": "Push paziņojumi",
+      "description": "Saņemiet paziņojumu šajā ierīcē, kad tiek saņemts jauns rēķins vai brīdinājums.",
+      "enable": "Iespējot",
+      "disable": "Atspējot",
+      "permissionDenied": "Paziņojuma atļauja netika piešķirta.",
+      "notConfigured": "Push paziņojumi vēl nav konfigurēti. Sazinieties ar savu administratoru.",
+      "enableError": "Nevarēja iespējot push paziņojumus. Lūdzu, mēģiniet vēlreiz.",
+      "disableError": "Nevarēja atspējot push paziņojumus. Lūdzu, mēģiniet vēlreiz."
+    }
+  },
+  "recommendations": {
+    "loadError": "Nevarēja ielādēt jūsu ieteikumus. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek personalizēto padomu ielāde…",
+    "generated": "Izveidots {{date}}",
+    "generatedForPeriod": "Ģenerēts {{date}} norēķinu periodam {{period}}",
+    "eyebrow": "Personalizēts jums",
+    "title": "Gudri ūdens taupīšanas padomi",
+    "empty": "Pagaidām nav ģenerēti padomi — tie tiek automātiski atsvaidzināti katru reizi, kad jūsu kopiena pabeidz norēķinu ciklu jūsu mājsaimniecībai."
+  },
+  "support": {
+    "title": "Iedzīvotāju atbalsta un rūpju birojs",
+    "subtitle": "Iesniedziet ziņojumus par ūdens noplūdi, skaitītāja kalibrēšanas pieprasījumus vai norēķinu pieprasījumus tieši kopienas administratoram un/vai sistēmas administratoram.",
+    "emptyCreateHint": "Tālāk aprakstiet savu problēmu vai bažas un izvēlieties, kam tā jārisina."
+  }
+}

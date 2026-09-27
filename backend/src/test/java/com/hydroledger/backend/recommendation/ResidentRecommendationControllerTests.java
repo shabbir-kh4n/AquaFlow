@@ -59,7 +59,7 @@ class ResidentRecommendationControllerTests {
 
     @Test
     void getRecommendationsReturns200ForResident() throws Exception {
-        when(residentRecommendationService.getForResident(resident)).thenReturn(
+        when(residentRecommendationService.getForResident(resident, null)).thenReturn(
                 new ResidentRecommendationResponse(List.of("Fix leaking taps"), Instant.now(), "2026-09"));
 
         mockMvc.perform(get("/api/resident/recommendations").with(user(new ResidentPrincipal(resident))))
@@ -70,7 +70,7 @@ class ResidentRecommendationControllerTests {
 
     @Test
     void getRecommendationsFallsBackToEmptyTipsWhenNoneGeneratedYet() throws Exception {
-        when(residentRecommendationService.getForResident(resident)).thenReturn(
+        when(residentRecommendationService.getForResident(resident, null)).thenReturn(
                 new ResidentRecommendationResponse(List.of(), null, null));
 
         mockMvc.perform(get("/api/resident/recommendations").with(user(new ResidentPrincipal(resident))))

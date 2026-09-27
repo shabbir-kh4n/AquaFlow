@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Actief",
+    "blocked": "Geblokkeerd",
+    "terminated": "Beëindigd"
+  },
+  "sort": {
+    "sortBy": "Sorteer op",
+    "toggleDirection": "Sorteerrichting wijzigen",
+    "asc": "↑ Oplopend",
+    "desc": "↓ Besch"
+  },
+  "pagination": {
+    "showing": "Toont {{from}}–{{to}} van {{total}}",
+    "prev": "← Vorige",
+    "next": "Volgende →",
+    "page": "Pagina {{page}} van {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformoverzicht",
+    "subtitle": "Elke geregistreerde communitybeheerder, op het hele HydroLedger-platform.",
+    "viewAll": "Bekijk alle communities",
+    "loadError": "Kan platformgegevens momenteel niet laden.",
+    "cards": {
+      "totalCommunities": "Totale gemeenschappen",
+      "registeredAdmins": "Geregistreerde beheerders",
+      "totalResidents": "Totaal aantal inwoners",
+      "acrossAllCommunities": "In alle gemeenschappen",
+      "active": "Actief",
+      "inGoodStanding": "In goede staat",
+      "blockedTerminated": "Geblokkeerd / beëindigd",
+      "blockedTerminatedBreakdown": "{{blocked}} geblokkeerd, {{terminated}} beëindigd"
+    },
+    "recent": {
+      "title": "Recent geregistreerde gemeenschappen",
+      "loading": "Laden…",
+      "empty": "Er zijn nog geen gemeenschappen geregistreerd.",
+      "table": {
+        "community": "Gemeenschap",
+        "admin": "Beheerder",
+        "status": "Status",
+        "residents": "Bewoners"
+      }
+    }
+  },
+  "communities": {
+    "count": "Gemeenschappen: {{count}}",
+    "loadError": "Kan community's niet laden. Probeer het opnieuw.",
+    "searchPlaceholder": "Filter op community, beheerdersnaam of e-mailadres",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Alle"
+    },
+    "sortOptions": {
+      "community": "Gemeenschap",
+      "admin": "Beheerder",
+      "residents": "Bewoners"
+    },
+    "loading": "Community's laden…",
+    "empty": "Er zijn nog geen gemeenschappen geregistreerd.",
+    "noMatch": "Er zijn geen communities die overeenkomen met uw filters.",
+    "table": {
+      "community": "Gemeenschap",
+      "admin": "Beheerder",
+      "email": "E-mail",
+      "status": "Status",
+      "residents": "Bewoners",
+      "view": "Weergave"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Kan deze community niet laden. Mogelijk is deze verwijderd.",
+    "statusUpdateError": "Kan de status van deze community niet bijwerken.",
+    "deleteError": "Kan deze community niet verwijderen.",
+    "loading": "Community laden…",
+    "notFound": "Gemeenschap niet gevonden.",
+    "backLink": "← Terug naar Gemeenschappen",
+    "backLinkShort": "Terug naar Gemeenschappen",
+    "eyebrow": "Gemeenschapsprofiel",
+    "unnamed": "Naamloze gemeenschap",
+    "noAddress": "Geen adres in bestand",
+    "stats": {
+      "residents": "Bewoners",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Opnieuw activeren",
+      "block": "Blok",
+      "terminate": "Beëindigen",
+      "delete": "Gemeenschap verwijderen"
+    },
+    "blockDialog": {
+      "title": "Deze communitybeheerder blokkeren?",
+      "message": "{{name}} blokkeren? Ze kunnen niet inloggen totdat de blokkering is opgeheven. Er worden geen gegevens beïnvloed.",
+      "confirm": "Blok"
+    },
+    "terminateDialog": {
+      "title": "Deze communitybeheerder beëindigen?",
+      "message": "De toegang van {{name}} definitief beëindigen? Dit kan niet ongedaan worden gemaakt, hoewel de gegevens van hun gemeenschap wel worden bewaard voor de administratie.",
+      "confirm": "Beëindigen"
+    },
+    "deleteDialog": {
+      "title": "Deze community verwijderen?",
+      "message": "Hierdoor worden <strong>{{name}}</strong> en al zijn huishoudens, bewoners, meters, tarief-/factureringsconfiguratie en factuurgeschiedenis permanent verwijderd. Deze actie kan niet ongedaan worden gemaakt.",
+      "typeToConfirm": "Typ <strong>{{word}}</strong> om door te gaan",
+      "confirm": "Bevestigen"
+    },
+    "residents": {
+      "title": "Bewoners",
+      "registeredCount": "Geregistreerd: {{count}}",
+      "empty": "Er zijn nog geen bewoners geregistreerd in deze community.",
+      "table": {
+        "flatUnit": "Platte eenheid",
+        "meter": "Meter",
+        "resident": "Inwoner",
+        "email": "E-mail",
+        "passwordSet": "Wachtwoord ingesteld"
+      },
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "cancel": "Annuleren",
+    "working": "Werken…",
+    "deleting": "Verwijderen…"
+  },
+  "systemStatus": {
+    "statusError": "Kon de backend niet bereiken om de systeemstatus te controleren.",
+    "metricsError": "Kan statistiekengeschiedenis niet laden.",
+    "ranges": {
+      "fiveMinutes": "5 minuten",
+      "fifteenMinutes": "15 minuten",
+      "hour": "Uur",
+      "day": "Dag",
+      "week": "Week",
+      "month": "Maand",
+      "threeMonths": "3 maanden"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}u",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Verzoeken/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latentie",
+      "lastValue": "{{value}} laatste",
+      "loading": "Laden…",
+      "empty": "Er zijn nog geen statistieken vastgelegd voor dit bereik."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Gemiddeld: <b>{{value}}</b>",
+      "max": "Maximaal: <b>{{value}}</b>",
+      "last": "Laatste: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend-API",
+      "checking": "Controleren…",
+      "reachable": "Bereikbaar",
+      "unreachable": "Onbereikbaar",
+      "connected": "Aangesloten",
+      "backendApiHint": "Deze pagina werd vanuit de backend geladen en reageerde dus.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL-connectiviteit, live gecontroleerd.",
+      "uptime": "Backend-uptime",
+      "uptimeHint": "Sinds de laatste herstart van de applicatie.",
+      "appVersion": "App-versie",
+      "appVersionHint": "Backend-buildversie."
+    },
+    "mini": {
+      "latency": "Latentie",
+      "readsLatency": "Leest latentie",
+      "writesLatency": "Schrijft latentie",
+      "otherLatency": "Andere latentie",
+      "connections": "Verbindingen",
+      "totalKeys": "Totaal aantal sleutels"
+    },
+    "note": "Verzoeken per seconde en latentie worden elke 15 seconden uit live backend-verkeer bemonsterd en maximaal 100 dagen bewaard. Dit is een basiscontrole van connectiviteit en verkeer; het vervangt niet de volledige monitoring van applicatieprestaties, logaggregatie of waarschuwingen."
+  },
+  "reports": {
+    "loadError": "Kan het platformrapport niet laden.",
+    "ranges": {
+      "threeMonths": "3 maanden",
+      "sixMonths": "6 maanden",
+      "twelveMonths": "12 maanden",
+      "custom": "Aangepast"
+    },
+    "sortOptions": {
+      "community": "Gemeenschap",
+      "usage": "Gebruik",
+      "billed": "Gefactureerd",
+      "residents": "Bewoners"
+    },
+    "customRange": {
+      "from": "Van",
+      "to": "Naar",
+      "hint": "Kies zowel een 'van' als een 'tot' maand om een ​​aangepast rapport te laden."
+    },
+    "loading": "Rapport laden…",
+    "cards": {
+      "totalCommunities": "Totale gemeenschappen",
+      "inThisRange": "In dit bereik",
+      "totalResidents": "Totaal aantal inwoners",
+      "acrossAllCommunities": "In alle gemeenschappen",
+      "overallUsage": "Algemeen gebruik",
+      "meteredConsumption": "Gemeten verbruik",
+      "overallBilled": "Globaal gefactureerd",
+      "finalizedInvoicesOnly": "Alleen definitieve facturen",
+      "avgUsagePerResident": "Gem. gebruik/inwoner",
+      "avgBillPerResident": "Gem. factuur/ingezetene"
+    },
+    "charts": {
+      "usageTitle": "Platformbreed gebruik (kL / maand)",
+      "usageEmpty": "Er is geen gebruik geregistreerd voor dit bereik.",
+      "usageSeries": "Gebruik",
+      "billedTitle": "Platformbreed gefactureerd bedrag (₹ / maand)",
+      "billedEmpty": "Er zijn geen facturen afgerond voor dit bereik.",
+      "billedSeries": "Gefactureerd"
+    },
+    "searchPlaceholder": "Filter op community- of beheerdersnaam",
+    "empty": "Er zijn nog geen community's die gebruiks- of factureringsgegevens voor dit bereik hebben.",
+    "noMatch": "Er zijn geen communities die overeenkomen met uw filter.",
+    "table": {
+      "community": "Gemeenschap",
+      "admin": "Beheerder",
+      "residents": "Bewoners",
+      "usage": "Gebruik (kL)",
+      "billed": "Gefactureerd (€)",
+      "avgUsagePerResident": "Gem. gebruik/inwoner",
+      "avgBillPerResident": "Gem. factuur/ingezetene"
+    }
+  },
+  "supportTickets": {
+    "title": "Ondersteuningstickets",
+    "subtitle": "Ondersteun tickets en zorgen van bewoners en gemeenschapsbeheerders, platformbreed."
+  }
+}

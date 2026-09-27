@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kemur bráðum",
+    "welcome": {
+      "greeting": "Halló {{name}},",
+      "greetingFallback": "Halló,",
+      "title": "Vertu nálægt vatnssögu heimilisins þíns.",
+      "subtitle": "Notkunar- og innheimtuupplýsingar munu birtast hér þegar samfélagið þitt skráir lestur.",
+      "viewBadges": "Skoða umhverfismerki"
+    },
+    "stats": {
+      "todaysUsage": "Notkun dagsins",
+      "asOf": "Frá og með {{date}}",
+      "noReading": "Enginn mælikvarði ennþá",
+      "monthlyTotalFor": "Mánaðarleg samtals ({{month}})",
+      "monthlyTotalThisMonth": "Mánaðarleg samtals (þessi mánuður)",
+      "sumOfReadings": "Summa skráðra lestra",
+      "estimatedBill": "Núverandi áætlaður reikningur",
+      "estimatedBillFor": "Mæld notkun + sameiginleg gjöld, {{month}}",
+      "estimatedBillHint": "Byggt á mældri neyslu þessa mánaðar og sameiginlegum gjöldum",
+      "savings": "Sparnaður vs byggingarmeðal",
+      "savingsValue": "{{percent}}% minna",
+      "savingsPreview": "Aðeins forskoðun — samanburður er ekki enn í beinni"
+    },
+    "consumption": {
+      "eyebrow": "Neysla",
+      "title": "Dagleg neysla (síðustu 14 lestur)",
+      "seriesName": "Neysla",
+      "empty": "Enginn lestur skráður ennþá."
+    },
+    "breakdown": {
+      "eyebrow": "Sundurliðun",
+      "title": "Sundurliðun notkunar",
+      "bathroom": "Baðherbergi",
+      "kitchen": "Eldhús",
+      "garden": "Garður / svalir",
+      "other": "Annað / Þvottahús"
+    },
+    "billing": {
+      "eyebrow": "Innheimta",
+      "title": "Virkur innheimtulota",
+      "finalized": "Lokið",
+      "preview": "Forskoðun",
+      "meteredConsumption": "Mæld eyðsla",
+      "tierPriceLevel": "Verðlagsstig",
+      "tierLabel": "Stig {{tier}}",
+      "commonArea": "Sameiginleg svæðisskipting",
+      "commonAreaPreview": "Skipting sameiginlegs svæðis (sýnishorn)",
+      "invoiceTotal": "{{period}} heildarreikningur",
+      "estimatedCharge": "Núverandi áætlað gjald",
+      "commonAreaBreakdown": "Sundurliðun á sameiginlegum svæðum",
+      "payPreview": "Greiðsla reiknings Preview",
+      "payUnavailable": "Innheimtuvél ekki enn tiltæk"
+    },
+    "tips": {
+      "eyebrow": "Ábendingar",
+      "title": "Snjöll sparnaðarráð",
+      "viewAll": "Skoða allt",
+      "empty": "Sérsniðnar ábendingar birtast hér eftir að samfélagið þitt hefur lokið innheimtuferli."
+    },
+    "community": "Samfélag: {{name}}"
+  },
+  "usage": {
+    "loadError": "Gat ekki hlaðið notkunarferilinn þinn. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður notkunargreiningu...",
+    "empty": "Enginn lestur skráður ennþá. Þegar samfélagið þitt hefur skráð mælingu mun það birtast hér.",
+    "tabs": {
+      "lastSixMonths": "Síðustu 6 mánuðir",
+      "customRange": "Sérsniðið svið",
+      "comingSoon": "Kemur bráðum"
+    },
+    "peakDay": "Hámarksdagur:",
+    "lowestDay": "Lægsti dagur:",
+    "comparison": {
+      "title": "Heimilisneysla vs meðaltal íbúða",
+      "subtitle": "Mánaðarlegar heildartölur sýndar í kílólítrum (kL).",
+      "yourHousehold": "Heimili þitt",
+      "apartmentAverage": "Íbúð að meðaltali",
+      "similarSized": "Svipuð heimili"
+    },
+    "heatmap": {
+      "title": "Dagleg neyslu hitakort",
+      "subtitle": "Litastyrkur gefur til kynna mikla notkunardaga (sýnishorn)."
+    },
+    "ranking": {
+      "title": "Samfélag jafningjaröðun",
+      "subtitle": "Staðan þín miðað við svipaðar einingar (sýnishorn).",
+      "ecoSaver": "Virkur Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Eining {{number}}",
+      "yourUnit": "Einingin þín",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Þú)"
+    }
+  },
+  "billing": {
+    "loadError": "Ekki tókst að hlaða innheimtuferilinn þinn. Vinsamlegast reyndu aftur.",
+    "pdfError": "Gat ekki hlaðið niður PDF. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður innheimtuferil þinn...",
+    "empty": "Engir reikningar ennþá - þegar samfélagið þitt hefur lokið innheimtuferli munu reikningarnir þínir birtast hér.",
+    "status": {
+      "paid": "Greitt",
+      "unpaid": "Ógreitt"
+    },
+    "summary": {
+      "outstandingBalance": "Framúrskarandi jafnvægi",
+      "billingCycle": "Innheimtutímabil: {{period}}",
+      "allPaid": "Allir reikningar eru greiddir",
+      "payTotal": "Borga alls útistandandi",
+      "payTotalUnavailable": "Greiðsla á netinu er ekki í boði ennþá - gerðu upp reikninga beint við samfélagsstjórann þinn",
+      "downloadSummary": "Sækja samantekt reikninga",
+      "downloadSummaryUnavailable": "Niðurhal reikningsyfirlits er ekki tiltækt ennþá"
+    },
+    "history": {
+      "title": "Saga reikninga",
+      "exportCsv": "Flytja allt út til CSV",
+      "exportUnavailable": "CSV útflutningur er ekki í boði ennþá"
+    },
+    "table": {
+      "cycle": "Hringrás",
+      "usage": "Notkun (kL)",
+      "amountDue": "Upphæð á gjalddaga",
+      "paymentStatus": "Greiðslustaða",
+      "hideBreakdown": "Fela sundurliðun ↑",
+      "showBreakdown": "Sundurliðuð sundurliðun ↓",
+      "downloading": "Sækir…",
+      "pdf": "PDF",
+      "pay": "Borga"
+    },
+    "breakdown": {
+      "householdTitle": "Sundurliðun neyslu heimilanna",
+      "basePrice": "Grunnverð: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Þrep {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Metered Using",
+      "commonAreaTitle": "Sameiginleg svæðisúthlutun",
+      "subtotalShared": "Sameiginlegt svæði",
+      "noCommonArea": "Engin sameiginleg svæðisgjöld fyrir þessa lotu."
+    },
+    "pagination": {
+      "showing": "Sýnir {{from}}–{{to}} af {{total}}",
+      "prev": "← Fyrri",
+      "next": "Næsta →",
+      "page": "Síða {{page}} af {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Greiðslumátar (forskoðun)",
+      "description": "Greiðsla á netinu er ekki í boði ennþá - reikningar eru greiddir beint við samfélagsstjórann þinn.",
+      "manage": "Stjórna greiðslumáta",
+      "manageUnavailable": "Greiðslumátar eru ekki tiltækar ennþá"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Tryggt af Razorpay",
+    "billingCycle": "Innheimtutímabil {{period}}",
+    "close": "Loka",
+    "amountPayable": "Upphæð til greiðslu",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Spil",
+      "netbanking": "Netbanki",
+      "wallet": "Veski"
+    },
+    "upi": {
+      "title": "Borgaðu með UPI",
+      "upiId": "UPI Auðkenni",
+      "or": "EÐA",
+      "scan": "Skannaðu með hvaða UPI forriti sem er"
+    },
+    "card": {
+      "title": "Borga með korti",
+      "number": "Kortanúmer",
+      "expiry": "Rennur út",
+      "expiryPlaceholder": "MM / ÁÁ",
+      "cvv": "CVV",
+      "name": "Nafn á korti",
+      "namePlaceholder": "Eins og prentað er á kort"
+    },
+    "netbanking": {
+      "title": "Borgaðu í gegnum netbanka"
+    },
+    "wallet": {
+      "title": "Borgaðu með Wallet"
+    },
+    "payAmount": "Borgaðu ₹{{amount}}",
+    "processing": "Er að vinna úr greiðslunni þinni...",
+    "processingHint": "Vinsamlegast ekki ýta til baka eða endurnýja þessa síðu",
+    "success": "Greiðsla tókst",
+    "error": "Eitthvað fór úrskeiðis við að staðfesta greiðsluna þína. Vinsamlegast reyndu aftur.",
+    "retry": "Reyndu aftur"
+  },
+  "notifications": {
+    "loadError": "Ekki tókst að hlaða tilkynningunum þínum. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður tilkynningunum þínum...",
+    "empty": "Engar tilkynningar ennþá - þú munt sjá eitthvað hér ef samfélagsstjórinn þinn hefur virkjað viðvörun um notkunarþröskuld eða óvenjulega neyslu og ein er ræst fyrir heimilið þitt.",
+    "type": {
+      "thresholdExceeded": "Neyslumörk farið yfir",
+      "statisticalOutlier": "Óvenjuleg neysla greind"
+    },
+    "status": {
+      "active": "Virkur",
+      "resolved": "Leyst",
+      "dismissed": "Vísað frá"
+    },
+    "billingPeriod": "Innheimtutímabil: {{period}}",
+    "consumption": "Neysla: {{value}} kL",
+    "push": {
+      "title": "Push tilkynningar",
+      "description": "Fáðu tilkynningu í þessu tæki þegar nýr reikningur eða viðvörun kemur inn.",
+      "enable": "Virkja",
+      "disable": "Óvirkja",
+      "permissionDenied": "Tilkynningarleyfi var ekki veitt.",
+      "notConfigured": "Push tilkynningar eru ekki stilltar ennþá. Hafðu samband við stjórnanda þinn.",
+      "enableError": "Gat ekki virkjað ýtt tilkynningar. Vinsamlegast reyndu aftur.",
+      "disableError": "Gat ekki slökkt á ýttu tilkynningum. Vinsamlegast reyndu aftur."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ekki tókst að hlaða tilmælunum þínum. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður sérsniðnu ráðunum þínum...",
+    "generated": "Myndaði {{date}}",
+    "generatedForPeriod": "Myndaði {{date}} fyrir reikningstímabilið {{period}}",
+    "eyebrow": "Sérsniðið fyrir þig",
+    "title": "Snjöll ráð til að spara vatn",
+    "empty": "Engar ábendingar búnar til enn sem komið er - þær endurnýjast sjálfkrafa í hvert sinn sem samfélagið þitt lýkur greiðsluferli fyrir heimilið þitt."
+  },
+  "support": {
+    "title": "Þjónustuborð íbúa og áhyggjuefna",
+    "subtitle": "Sendu skýrslur um vatnsleka, mælikvarðabeiðnir eða innheimtufyrirspurnir beint til samfélagsstjóra og/eða kerfisstjóra.",
+    "emptyCreateHint": "Lýstu máli þínu eða áhyggjum hér að neðan og veldu hver ætti að taka á því."
+  }
+}

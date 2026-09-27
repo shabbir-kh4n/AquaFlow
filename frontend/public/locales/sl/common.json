@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Zapri",
+    "signUpTitle": "Registrirajte svojo skupnost",
+    "signInTitle": "dobrodošli nazaj",
+    "signUpSubtitle": "Ustvarite skrbniški račun skupnosti, da začnete upravljati prebivalce in zaračunavati.",
+    "signInSubtitle": "Prijavite se za ogled porabe vode in obračuna."
+  },
+  "signIn": {
+    "errorFallback": "Prijava ni mogoča. Poskusite znova.",
+    "emailLabel": "E-pošta",
+    "passwordLabel": "Geslo",
+    "rememberMe": "Zapomni si me",
+    "forgotPassword": "Ste pozabili geslo?",
+    "submitting": "Prijava ...",
+    "submit": "Prijavite se",
+    "noAccount": "Nimate računa?",
+    "signUpLink": "Prijavite se"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Gesli se ne ujemata.",
+      "communityRequired": "Zahtevano je ime skupnosti.",
+      "termsRequired": "Prosimo, da se strinjate s pogoji storitve in politiko zasebnosti.",
+      "fallback": "Računa ni mogoče ustvariti. prosim poskusite ponovno"
+    },
+    "hint": "Tukaj se registrirajo samo skrbniki skupnosti. Ko vstopite, boste sami dodali podatke o stanovalcih – ne prijavijo se sami.",
+    "fullNameLabel": "Polno ime",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefonska številka",
+    "communityNameLabel": "Ime skupnosti",
+    "passwordLabel": "Geslo",
+    "confirmPasswordLabel": "Potrdite geslo",
+    "agreeTerms": "Strinjam se s <termsLink>Pogoji storitve</termsLink> in <privacyLink>Politiko zasebnosti</privacyLink>",
+    "submitting": "Ustvarjanje računa …",
+    "submit": "Ustvari skrbniški račun",
+    "haveAccount": "Že imate račun?",
+    "signInLink": "Prijavite se"
+  },
+  "installPrompt": {
+    "title": "Namestite HydroLedger",
+    "description": "Dodajte ga na začetni zaslon za hiter dostop.",
+    "dismiss": "Odpusti",
+    "install": "Namestite"
+  },
+  "setPassword": {
+    "title": "Nastavite geslo",
+    "loading": "Nalaganje ...",
+    "subtitle": "Pozdravljeni {{name}}, izberite geslo za {{email}}, da aktivirate svoj račun HydroLedger.",
+    "errors": {
+      "invalidLink": "Ta povezava ni veljavna ali je potekla.",
+      "tooShort": "Geslo mora imeti vsaj 8 znakov.",
+      "mismatch": "Gesli se ne ujemata.",
+      "fallback": "Vašega gesla ni bilo mogoče nastaviti. prosim poskusite ponovno"
+    },
+    "passwordLabel": "Geslo",
+    "confirmPasswordLabel": "Potrdite geslo",
+    "submitting": "Nastavitev gesla ...",
+    "submit": "Nastavite geslo in se prijavite"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Pomočnik",
+      "resident": "Vprašajte o svojem računu",
+      "admin": "Pomočnik skupnosti",
+      "platform": "Pomočnik za platformo",
+      "default": "Pomočnik"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Kaj je HydroLedger?",
+        "tieredBilling": "Kako deluje stopenjsko obračunavanje?",
+        "leaks": "Kako se odkrijejo puščanja?"
+      },
+      "resident": {
+        "billEstimate": "Kakšna je moja trenutna ocena računa?",
+        "alerts": "Ali imam kakšna opozorila o uporabi?",
+        "readings": "Pokaži moje nedavne odčitke števca"
+      },
+      "admin": {
+        "households": "Koliko gospodinjstev imamo?",
+        "billingCycles": "Navedite naše nedavne obračunske cikle",
+        "tariff": "Kakšen je naš trenutni tarifni načrt?"
+      },
+      "platform": {
+        "communities": "Seznam vseh registriranih skupnosti",
+        "usageReport": "Prikaži poročilo o uporabi platforme",
+        "systemStatus": "Kakšno je stanje sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Prehitro pošiljate sporočila – počakajte trenutek in poskusite znova.",
+      "unavailable": "Asistent je začasno nedosegljiv. Poskusite znova kmalu.",
+      "generic": "Pri pošiljanju tega sporočila je šlo nekaj narobe. prosim poskusite ponovno"
+    },
+    "emptyHint": "Vprašajte me karkoli - vidim lahko samo vaše podatke.",
+    "closeAssistant": "Tesni pomočnik",
+    "openAssistant": "Odpri pomočnika",
+    "inputPlaceholder": "Vnesite sporočilo ...",
+    "inputLabel": "Sporočilo",
+    "send": "Pošlji"
+  },
+  "supportBoard": {
+    "defaultTitle": "Vstopnice za podporo",
+    "defaultCreateLabel": "Vzbudite novo skrb",
+    "status": {
+      "open": "Odpri",
+      "inProgress": "V teku",
+      "resolved": "Razrešeno",
+      "closed": "Zaprto"
+    },
+    "tabs": {
+      "all": "Vse vstopnice"
+    },
+    "recipients": {
+      "admin": "Skrbnik skupnosti",
+      "systemAdmin": "Sistemski skrbnik",
+      "both": "Skrbnik skupnosti + skrbnik sistema"
+    },
+    "roles": {
+      "resident": "Stanovnik",
+      "admin": "skrbnik"
+    },
+    "toRecipients": "Za: {{recipients}}",
+    "raisedByResident": "Vzgojil rezident {{name}}",
+    "raisedByAdmin": "Vzgojil skrbnik {{name}}",
+    "refresh": "Osveži",
+    "stats": {
+      "openLabel": "Odpri Oddaje",
+      "openHint": "Čaka na pregled",
+      "inProgressLabel": "V teku",
+      "inProgressHint": "Na njem se dela",
+      "resolvedLabel": "Razrešeno",
+      "resolvedHint": "Uspešno zaprto"
+    },
+    "searchPlaceholder": "Iskanje vstopnic po temi, številki ...",
+    "loadingTickets": "Nalaganje vstopnic …",
+    "empty": {
+      "title": "Vstopnice za podporo niso bile najdene",
+      "body": "Trenutno nimate nobene odprte ali zabeležene zahteve za podporo, ki bi ustrezala temu filtru.",
+      "cta": "Predložite pomislek"
+    },
+    "errors": {
+      "loadList": "Vstopnic za podporo ni bilo mogoče naložiti. prosim poskusite ponovno",
+      "loadDetail": "Te vstopnice ni bilo mogoče naložiti. prosim poskusite ponovno",
+      "required": "Zadeva in sporočilo sta obvezna.",
+      "recipientRequired": "Izberite vsaj enega prejemnika (skrbnika skupnosti in/ali skrbnika sistema).",
+      "submitFallback": "Te vstopnice ni bilo mogoče oddati. prosim poskusite ponovno",
+      "sendReply": "Tega sporočila ni bilo mogoče poslati. prosim poskusite ponovno",
+      "updateStatus": "Tega statusa vstopnice ni bilo mogoče posodobiti. prosim poskusite ponovno"
+    },
+    "form": {
+      "defaultHint": "Spodaj opišite svojo težavo ali skrb.",
+      "subjectLabel": "Predmet",
+      "subjectPlaceholder": "Kratek povzetek vaše težave",
+      "messageLabel": "Sporočilo",
+      "messagePlaceholder": "Podrobno opišite, kaj se dogaja ...",
+      "recipientsLabel": "Pošljite to skrb na",
+      "cancel": "Prekliči",
+      "submitting": "Pošiljanje ...",
+      "submit": "Oddaj vstopnico"
+    },
+    "detail": {
+      "loading": "Nalaganje vozovnice …",
+      "replyPlaceholder": "Napiši odgovor…",
+      "close": "Zapri",
+      "sending": "Pošiljanje ...",
+      "sendReply": "Pošlji odgovor"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Dobrodošli nazaj, {{name}}",
+    "openMenu": "Odpri meni",
+    "closeMenu": "Zapri meni",
+    "logout": "Odjava",
+    "search": "Iskanje",
+    "notifications": "Obvestila"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Nadzorna plošča",
+      "households": "Imenik gospodinjstev",
+      "meterReadings": "Odčitki merilnika",
+      "billing": "Upravljanje obračunavanja",
+      "bulkPurchases": "Množični nakupi",
+      "reports": "Poročila",
+      "waterLeakage": "Puščanje vode",
+      "support": "Podpora/pomisleki",
+      "tariffPlans": "Tarifni načrti",
+      "announcements": "Obvestila",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Tukaj je posnetek vaše skupnosti."
+      },
+      "households": {
+        "title": "Imenik gospodinjstev",
+        "subtitle": "Dodajte, posodobite in upravljajte prebivalce, ki živijo v vaši skupnosti."
+      },
+      "meterReadings": {
+        "title": "Središče za odčitke vodomerov",
+        "subtitle": "Poiščite stanovalca in zabeležite njegov odčitek vodomera."
+      },
+      "tariffPlans": {
+        "title": "Konfiguracija tarife",
+        "subtitle": "Konfigurirajte stopenjske omejitve cen, skupne stroške skupnega prostora in metode distribucije za vašo stanovanjsko skupnost."
+      },
+      "billing": {
+        "title": "Upravljanje obračunavanja",
+        "subtitle": "Odprite, dokončajte in arhivirajte obračunske cikle ter pregledujte razčlenjene račune po gospodinjstvih."
+      },
+      "bulkPurchases": {
+        "title": "Množični nakupi",
+        "subtitle": "Zabeležite dostave s cisternami in nakupe komunalnih zalog za vašo skupnost."
+      },
+      "waterLeakage": {
+        "title": "Puščanje vode",
+        "subtitle": "Konfigurirajte opozorila o puščanju na podlagi pragov in izstopnih vrednosti ter preglejte označena gospodinjstva."
+      },
+      "support": {
+        "title": "Podpora/pomisleki",
+        "subtitle": "Sami pokličite sistemskega skrbnika ali obravnavajte pomisleke, ki so jih vaši stanovalci naslovili na vas."
+      },
+      "profile": {
+        "title": "Nastavitve in profil",
+        "subtitle": "Upravljajte podatke o svojem računu in podatke o stanovanju."
+      }
+    },
+    "fallbackName": "skrbnik",
+    "fallbackCommunity": "Skrbnik skupnosti",
+    "notBuilt": "{{label}} še ni zgrajen",
+    "searchPlaceholder": "Išči karkoli ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Poročila",
+      "description": "Poročila o porabi, obračunavanju in varčevanju za vašo skupnost."
+    },
+    "announcements": {
+      "title": "Obvestila",
+      "description": "Pošljite obvestila za celotno skupnost svojim stanovalcem."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} bo kmalu na voljo"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Nadzorna plošča",
+      "usageHistory": "Zgodovina uporabe",
+      "bills": "Moji računi",
+      "recommendations": "Priporočila",
+      "reports": "Poročila",
+      "support": "Podpora/pomisleki",
+      "notifications": "Obvestila",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Vaša zgodovina uporabe",
+      "billing": "Obračunavanje in računi",
+      "notifications": "Obvestila",
+      "recommendations": "Priporočila",
+      "support": "Podpora/pomisleki"
+    },
+    "defaultTitle": "Rezidentna nadzorna plošča",
+    "navLabel": "Rezidenčna navigacija",
+    "fallbackName": "Stanovnik",
+    "unit": "Enota {{number}}",
+    "comingSoon": "{{label}} bo kmalu na voljo",
+    "profile": "Profil",
+    "searchPlaceholder": "Analitika iskanja, računi…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Nadzorna plošča",
+      "communities": "skupnosti",
+      "reports": "Poročila",
+      "supportTickets": "Vstopnice za podporo",
+      "systemStatus": "Stanje sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Posnetek celotne platforme v vsaki registrirani skupnosti."
+      },
+      "communities": {
+        "title": "skupnosti",
+        "subtitle": "Vsak registriran skrbnik skupnosti in njihova skupnost na enem mestu."
+      },
+      "reports": {
+        "title": "Poročila",
+        "subtitle": "Številke za porabo vode in zaračunavanje na ravni celotne platforme po skupnostih in skozi čas."
+      },
+      "supportTickets": {
+        "title": "Vstopnice za podporo",
+        "subtitle": "Vstopnice za podporo in pomisleki prebivalcev in skrbnikov skupnosti na celotni platformi."
+      },
+      "systemStatus": {
+        "title": "Stanje sistema",
+        "subtitle": "Zaledna povezljivost in osnovno stanje izvajalnega okolja."
+      }
+    },
+    "fallbackName": "Sistemski skrbnik",
+    "platformOwner": "Lastnik platforme",
+    "searchPlaceholder": "Iskanje skupnosti ..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Jezik: {{language}}",
+    "searchPlaceholder": "Išči jezik ...",
+    "noMatches": "Ni ujemanja"
+  }
+}

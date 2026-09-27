@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import './RazorpaySimulatorModal.css'
 
 const METHODS = [
-  { id: 'upi', label: 'UPI', icon: 'upi' },
-  { id: 'card', label: 'Cards', icon: 'card' },
-  { id: 'netbanking', label: 'Netbanking', icon: 'bank' },
-  { id: 'wallet', label: 'Wallet', icon: 'wallet' },
+  { id: 'upi', labelKey: 'razorpay.methods.upi', icon: 'upi' },
+  { id: 'card', labelKey: 'razorpay.methods.cards', icon: 'card' },
+  { id: 'netbanking', labelKey: 'razorpay.methods.netbanking', icon: 'bank' },
+  { id: 'wallet', labelKey: 'razorpay.methods.wallet', icon: 'wallet' },
 ]
 
 const BANKS = ['State Bank of India', 'HDFC Bank', 'ICICI Bank', 'Axis Bank', 'Kotak Mahindra Bank']
@@ -104,6 +105,7 @@ function generateFakePaymentId() {
 // no live keys are configured, so this replicates the same look-and-feel and processing →
 // success flow, then calls back into the real backend endpoint to mark the invoice paid.
 function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
+  const { t } = useTranslation('resident')
   const [method, setMethod] = useState('upi')
   const [stage, setStage] = useState('checkout') // checkout | processing | success | error
   const [paymentId] = useState(generateFakePaymentId)
@@ -128,7 +130,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
           <>
             <div className="af-rzp__brandstrip">
               <RazorpayMark size={14} />
-              <span>Secured by Razorpay</span>
+              <span>{t('razorpay.securedBy')}</span>
             </div>
 
             <div className="af-rzp__topbar">
@@ -136,16 +138,16 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
                 <span className="af-rzp__merchant-logo">HL</span>
                 <div>
                   <strong>HydroLedger</strong>
-                  <small>Billing Cycle {invoice.periodMonth}</small>
+                  <small>{t('razorpay.billingCycle', { period: invoice.periodMonth })}</small>
                 </div>
               </div>
-              <button type="button" className="af-rzp__close" onClick={onClose} aria-label="Close">
+              <button type="button" className="af-rzp__close" onClick={onClose} aria-label={t('razorpay.close')}>
                 ×
               </button>
             </div>
 
             <div className="af-rzp__amount-row">
-              <span>Amount Payable</span>
+              <span>{t('razorpay.amountPayable')}</span>
               <strong>₹{amountLabel}</strong>
             </div>
 
@@ -161,7 +163,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
                     <span className="af-rzp__rail-icon" aria-hidden="true">
                       <MethodIcon name={m.icon} />
                     </span>
-                    {m.label}
+                    {t(m.labelKey)}
                   </button>
                 ))}
               </nav>
@@ -169,9 +171,9 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
               <div className="af-rzp__pane">
                 {method === 'upi' && (
                   <div className="af-rzp__pane-content">
-                    <h4>Pay via UPI</h4>
+                    <h4>{t('razorpay.upi.title')}</h4>
                     <label className="af-rzp__field">
-                      <span>UPI ID</span>
+                      <span>{t('razorpay.upi.upiId')}</span>
                       <input
                         type="text"
                         placeholder="yourname@upi"
@@ -179,7 +181,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
                         onChange={(event) => setUpiId(event.target.value)}
                       />
                     </label>
-                    <div className="af-rzp__divider"><span>OR</span></div>
+                    <div className="af-rzp__divider"><span>{t('razorpay.upi.or')}</span></div>
                     <div className="af-rzp__qr-box">
                       <svg
                         className="af-rzp__qr-svg"
@@ -195,38 +197,38 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
                           ),
                         )}
                       </svg>
-                      <span>Scan with any UPI app</span>
+                      <span>{t('razorpay.upi.scan')}</span>
                     </div>
                   </div>
                 )}
 
                 {method === 'card' && (
                   <div className="af-rzp__pane-content">
-                    <h4>Pay via Card</h4>
+                    <h4>{t('razorpay.card.title')}</h4>
                     <label className="af-rzp__field">
-                      <span>Card Number</span>
+                      <span>{t('razorpay.card.number')}</span>
                       <input type="text" placeholder="1234 5678 9012 3456" maxLength={19} />
                     </label>
                     <div className="af-rzp__field-row">
                       <label className="af-rzp__field">
-                        <span>Expiry</span>
-                        <input type="text" placeholder="MM / YY" maxLength={7} />
+                        <span>{t('razorpay.card.expiry')}</span>
+                        <input type="text" placeholder={t('razorpay.card.expiryPlaceholder')} maxLength={7} />
                       </label>
                       <label className="af-rzp__field">
-                        <span>CVV</span>
+                        <span>{t('razorpay.card.cvv')}</span>
                         <input type="password" placeholder="•••" maxLength={3} />
                       </label>
                     </div>
                     <label className="af-rzp__field">
-                      <span>Name on Card</span>
-                      <input type="text" placeholder="As printed on card" />
+                      <span>{t('razorpay.card.name')}</span>
+                      <input type="text" placeholder={t('razorpay.card.namePlaceholder')} />
                     </label>
                   </div>
                 )}
 
                 {method === 'netbanking' && (
                   <div className="af-rzp__pane-content">
-                    <h4>Pay via Netbanking</h4>
+                    <h4>{t('razorpay.netbanking.title')}</h4>
                     <div className="af-rzp__list">
                       {BANKS.map((bank) => (
                         <label key={bank} className="af-rzp__list-item">
@@ -240,7 +242,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
 
                 {method === 'wallet' && (
                   <div className="af-rzp__pane-content">
-                    <h4>Pay via Wallet</h4>
+                    <h4>{t('razorpay.wallet.title')}</h4>
                     <div className="af-rzp__list">
                       {WALLETS.map((wallet) => (
                         <label key={wallet} className="af-rzp__list-item">
@@ -256,7 +258,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
 
             <div className="af-rzp__footer">
               <button type="button" className="af-rzp__pay-btn" onClick={handlePay}>
-                Pay ₹{amountLabel}
+                {t('razorpay.payAmount', { amount: amountLabel })}
               </button>
             </div>
           </>
@@ -268,8 +270,8 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
               <RazorpayMark size={30} />
               <div className="af-rzp__spinner" aria-hidden="true" />
             </div>
-            <p>Processing your payment…</p>
-            <span className="af-rzp__status-sub">Please do not press back or refresh this page</span>
+            <p>{t('razorpay.processing')}</p>
+            <span className="af-rzp__status-sub">{t('razorpay.processingHint')}</span>
           </div>
         )}
 
@@ -279,19 +281,19 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
               <circle className="af-rzp__success-circle" cx="26" cy="26" r="24" fill="none" />
               <path className="af-rzp__success-check" fill="none" d="M14 27l7 7 16-16" />
             </svg>
-            <p>Payment Successful</p>
+            <p>{t('razorpay.success')}</p>
             <span className="af-rzp__status-sub">{paymentId}</span>
           </div>
         )}
 
         {stage === 'error' && (
           <div className="af-rzp__status">
-            <p className="af-rzp__error">Something went wrong confirming your payment. Please try again.</p>
+            <p className="af-rzp__error">{t('razorpay.error')}</p>
             <button type="button" className="af-rzp__pay-btn" onClick={() => setStage('checkout')}>
-              Retry
+              {t('razorpay.retry')}
             </button>
             <button type="button" className="af-rzp__cancel-btn" onClick={onClose}>
-              Close
+              {t('razorpay.close')}
             </button>
           </div>
         )}

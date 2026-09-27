@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Coming soon",
+    "welcome": {
+      "greeting": "Hello {{name}},",
+      "greetingFallback": "Hello there,",
+      "title": "Stay close to your home's water story.",
+      "subtitle": "Usage and billing insights will appear here as your community records readings.",
+      "viewBadges": "View Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Today's Usage",
+      "asOf": "As of {{date}}",
+      "noReading": "No meter reading yet",
+      "monthlyTotalFor": "Monthly Total ({{month}})",
+      "monthlyTotalThisMonth": "Monthly Total (this month)",
+      "sumOfReadings": "Sum of recorded readings",
+      "estimatedBill": "Current Estimated Bill",
+      "estimatedBillFor": "Metered usage + shared charges, {{month}}",
+      "estimatedBillHint": "Based on this month’s metered consumption and shared charges",
+      "savings": "Savings vs Building Avg",
+      "savingsValue": "{{percent}}% Less",
+      "savingsPreview": "Preview only — comparison not yet live"
+    },
+    "consumption": {
+      "eyebrow": "Consumption",
+      "title": "Daily Consumption (Last 14 Readings)",
+      "seriesName": "Consumption",
+      "empty": "No readings recorded yet."
+    },
+    "breakdown": {
+      "eyebrow": "Breakdown",
+      "title": "Usage Breakdown",
+      "bathroom": "Bathroom",
+      "kitchen": "Kitchen",
+      "garden": "Garden / Balcony",
+      "other": "Other / Laundry"
+    },
+    "billing": {
+      "eyebrow": "Billing",
+      "title": "Active Billing Cycle",
+      "finalized": "Finalized",
+      "preview": "Preview",
+      "meteredConsumption": "Metered consumption",
+      "tierPriceLevel": "Tier price level",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Common area apportionment",
+      "commonAreaPreview": "Common area apportionment (preview)",
+      "invoiceTotal": "{{period}} invoice total",
+      "estimatedCharge": "Current estimated charge",
+      "commonAreaBreakdown": "Common area breakdown",
+      "payPreview": "Pay Bill Preview",
+      "payUnavailable": "Billing engine not yet available"
+    },
+    "tips": {
+      "eyebrow": "Tips",
+      "title": "Smart Saving Tips",
+      "viewAll": "View all",
+      "empty": "Personalized tips appear here after your community finalizes a billing cycle."
+    },
+    "community": "Community: {{name}}"
+  },
+  "usage": {
+    "loadError": "Could not load your usage history. Please try again.",
+    "loading": "Loading your usage analytics…",
+    "empty": "No readings recorded yet. Once your community records a meter reading, it will show up here.",
+    "tabs": {
+      "lastSixMonths": "Last 6 Months",
+      "customRange": "Custom Range",
+      "comingSoon": "Coming soon"
+    },
+    "peakDay": "Peak Day:",
+    "lowestDay": "Lowest Day:",
+    "comparison": {
+      "title": "Household Consumption vs Apartment Average",
+      "subtitle": "Monthly totals shown in kilolitres (kL).",
+      "yourHousehold": "Your Household",
+      "apartmentAverage": "Apartment Average",
+      "similarSized": "Similar-Sized Homes"
+    },
+    "heatmap": {
+      "title": "Daily Consumption Heatmap",
+      "subtitle": "Color intensity flags heavy usage days (preview)."
+    },
+    "ranking": {
+      "title": "Community Peer Ranking",
+      "subtitle": "Your rank compared to similar units (preview).",
+      "ecoSaver": "Active Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unit {{number}}",
+      "yourUnit": "Your unit",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (You)"
+    }
+  },
+  "billing": {
+    "loadError": "Could not load your billing history. Please try again.",
+    "pdfError": "Could not download the PDF. Please try again.",
+    "loading": "Loading your billing history…",
+    "empty": "No invoices yet — once your community finalizes a billing cycle, your bills will show up here.",
+    "status": {
+      "paid": "Paid",
+      "unpaid": "Unpaid"
+    },
+    "summary": {
+      "outstandingBalance": "Outstanding Balance",
+      "billingCycle": "Billing Cycle: {{period}}",
+      "allPaid": "All invoices are paid",
+      "payTotal": "Pay Total Outstanding",
+      "payTotalUnavailable": "Online payment isn't available yet — settle bills with your community admin directly",
+      "downloadSummary": "Download Bill Summary",
+      "downloadSummaryUnavailable": "Bill summary download isn't available yet"
+    },
+    "history": {
+      "title": "Invoice History",
+      "exportCsv": "Export All to CSV",
+      "exportUnavailable": "CSV export isn't available yet"
+    },
+    "table": {
+      "cycle": "Cycle",
+      "usage": "Usage (kL)",
+      "amountDue": "Amount Due",
+      "paymentStatus": "Payment Status",
+      "hideBreakdown": "Hide Breakdown ↑",
+      "showBreakdown": "Itemized Breakdown ↓",
+      "downloading": "Downloading…",
+      "pdf": "PDF",
+      "pay": "Pay"
+    },
+    "breakdown": {
+      "householdTitle": "Household Consumption Breakdown",
+      "basePrice": "Base Price: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Metered Usage",
+      "commonAreaTitle": "Common Area Apportionment",
+      "subtotalShared": "Subtotal Shared Area",
+      "noCommonArea": "No shared common-area charges for this cycle."
+    },
+    "pagination": {
+      "showing": "Showing {{from}}–{{to}} of {{total}}",
+      "prev": "← Prev",
+      "next": "Next →",
+      "page": "Page {{page}} of {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Payment methods (preview)",
+      "description": "Online payment isn't available yet — bills are settled with your community admin directly.",
+      "manage": "Manage Payment Methods",
+      "manageUnavailable": "Payment methods aren't available yet"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Secured by Razorpay",
+    "billingCycle": "Billing Cycle {{period}}",
+    "close": "Close",
+    "amountPayable": "Amount Payable",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Cards",
+      "netbanking": "Netbanking",
+      "wallet": "Wallet"
+    },
+    "upi": {
+      "title": "Pay via UPI",
+      "upiId": "UPI ID",
+      "or": "OR",
+      "scan": "Scan with any UPI app"
+    },
+    "card": {
+      "title": "Pay via Card",
+      "number": "Card Number",
+      "expiry": "Expiry",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Name on Card",
+      "namePlaceholder": "As printed on card"
+    },
+    "netbanking": {
+      "title": "Pay via Netbanking"
+    },
+    "wallet": {
+      "title": "Pay via Wallet"
+    },
+    "payAmount": "Pay ₹{{amount}}",
+    "processing": "Processing your payment…",
+    "processingHint": "Please do not press back or refresh this page",
+    "success": "Payment Successful",
+    "error": "Something went wrong confirming your payment. Please try again.",
+    "retry": "Retry"
+  },
+  "notifications": {
+    "loadError": "Could not load your notifications. Please try again.",
+    "loading": "Loading your notifications…",
+    "empty": "No notifications yet — you'll see something here if your community admin has enabled usage-threshold or unusual-consumption alerts and one is triggered for your household.",
+    "type": {
+      "thresholdExceeded": "Consumption Threshold Exceeded",
+      "statisticalOutlier": "Unusual Consumption Detected"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "billingPeriod": "Billing period: {{period}}",
+    "consumption": "Consumption: {{value}} kL",
+    "push": {
+      "title": "Push notifications",
+      "description": "Get notified on this device when a new bill or alert comes in.",
+      "enable": "Enable",
+      "disable": "Disable",
+      "permissionDenied": "Notification permission was not granted.",
+      "notConfigured": "Push notifications are not configured yet. Contact your admin.",
+      "enableError": "Could not enable push notifications. Please try again.",
+      "disableError": "Could not disable push notifications. Please try again."
+    }
+  },
+  "recommendations": {
+    "loadError": "Could not load your recommendations. Please try again.",
+    "loading": "Loading your personalized tips…",
+    "generated": "Generated {{date}}",
+    "generatedForPeriod": "Generated {{date}} for billing period {{period}}",
+    "eyebrow": "Personalized for you",
+    "title": "Smart Water-Saving Tips",
+    "empty": "No tips generated yet — these are refreshed automatically each time your community finalizes a billing cycle for your household."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Submit water leakage reports, meter calibration requests, or billing inquiries directly to your community admin and/or System Admin.",
+    "emptyCreateHint": "Describe your issue or concern below, and choose who should handle it."
+  }
+}

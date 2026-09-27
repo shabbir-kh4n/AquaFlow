@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "A’ tighinn a dh’ aithghearr",
+    "welcome": {
+      "greeting": "Halo {{name}},",
+      "greetingFallback": "Halo ann,",
+      "title": "Fuirich faisg air sgeulachd uisge an dachaigh agad.",
+      "subtitle": "Nochdaidh seallaidhean cleachdaidh is bileachaidh an seo fhad ‘s a bhios do choimhearsnachd a’ clàradh leughaidhean.",
+      "viewBadges": "Thoir sùil air Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Cleachdadh an-diugh",
+      "asOf": "Mar a tha {{date}}",
+      "noReading": "Gun leughadh meatair fhathast",
+      "monthlyTotalFor": "Iomlan mìosail ({{month}})",
+      "monthlyTotalThisMonth": "Iomlan mìosail (a’ mhìos seo)",
+      "sumOfReadings": "Suim de leughaidhean clàraichte",
+      "estimatedBill": "Bile tuairmseach làithreach",
+      "estimatedBillFor": "Cleachdadh le tomhas + cosgaisean co-roinnte, {{month}}",
+      "estimatedBillHint": "Stèidhichte air caitheamh meadhanach na mìos seo agus cosgaisean co-roinnte",
+      "savings": "Sàbhalaidhean vs Togail Avg",
+      "savingsValue": "{{percent}} % Nas lugha",
+      "savingsPreview": "Ro-shealladh a-mhàin - chan eil coimeas beò fhathast"
+    },
+    "consumption": {
+      "eyebrow": "Caitheamh",
+      "title": "Caitheamh làitheil (na 14 leughaidhean mu dheireadh)",
+      "seriesName": "Caitheamh",
+      "empty": "Chan eil leughaidhean air an clàradh fhathast."
+    },
+    "breakdown": {
+      "eyebrow": "Briseadh sìos",
+      "title": "Briseadh sìos cleachdaidh",
+      "bathroom": "Seòmar-ionnlaid",
+      "kitchen": "Cidsin",
+      "garden": "Gàradh / Balcony",
+      "other": "Eile / Nigheadaireachd"
+    },
+    "billing": {
+      "eyebrow": "Bile",
+      "title": "Cearcall bileachaidh gnìomhach",
+      "finalized": "Crìochnaichte",
+      "preview": "Ro-shealladh",
+      "meteredConsumption": "Caitheamh meadhanach",
+      "tierPriceLevel": "Ìre prìs ìre",
+      "tierLabel": "Sreath {{tier}}",
+      "commonArea": "Roinn cumanta sgìre",
+      "commonAreaPreview": "Roinn coitcheann sgìre (ro-shealladh)",
+      "invoiceTotal": "{{period}} fàirdeal uile gu lèir",
+      "estimatedCharge": "Cosgais tuairmseach gnàthach",
+      "commonAreaBreakdown": "Briseadh sgìre cumanta",
+      "payPreview": "Ro-shealladh Bile Pàighidh",
+      "payUnavailable": "Chan eil einnsean bileachaidh ri fhaighinn fhathast"
+    },
+    "tips": {
+      "eyebrow": "Molaidhean",
+      "title": "Molaidhean sàbhalaidh glic",
+      "viewAll": "Seall a h-uile",
+      "empty": "Bidh molaidhean pearsanaichte a’ nochdadh an seo às deidh do choimhearsnachd crìoch a chuir air cearcall bileachaidh."
+    },
+    "community": "Coimhearsnachd: {{name}}"
+  },
+  "usage": {
+    "loadError": "Cha b' urrainn dhuinn an eachdraidh cleachdaidh agad a luchdadh. Feuch ris a-rithist.",
+    "loading": "A’ luchdachadh do anailisean cleachdaidh…",
+    "empty": "Chan eil leughaidhean air an clàradh fhathast. Cho luath ‘s a chlàras do choimhearsnachd leughadh meatair, nochdaidh e an seo.",
+    "tabs": {
+      "lastSixMonths": "Na 6 mìosan mu dheireadh",
+      "customRange": "Raon Custom",
+      "comingSoon": "A’ tighinn a dh’ aithghearr"
+    },
+    "peakDay": "Latha as àirde:",
+    "lowestDay": "An latha as ìsle:",
+    "comparison": {
+      "title": "Cleachdadh dachaigh vs cuibheasachd àros",
+      "subtitle": "Àireamhan mìosail air an sealltainn ann an kiloliters (kL).",
+      "yourHousehold": "Do Theaghlach",
+      "apartmentAverage": "Cuibheasach Apartment",
+      "similarSized": "Dachaighean den aon mheud"
+    },
+    "heatmap": {
+      "title": "Mapa teas caitheamh làitheil",
+      "subtitle": "Tha dian dath a’ comharrachadh làithean cleachdaidh trom (ro-shealladh)."
+    },
+    "ranking": {
+      "title": "Rangachadh Co-aoisean Coimhearsnachd",
+      "subtitle": "Do inbhe an coimeas ri aonadan coltach ris (ro-shealladh).",
+      "ecoSaver": "Eco-sàbhalaiche gnìomhach",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Aonad {{number}}",
+      "yourUnit": "An aonad agad",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (sibh)"
+    }
+  },
+  "billing": {
+    "loadError": "Cha b' urrainn dhuinn an eachdraidh cunntais agad a luchdachadh. Feuch ris a-rithist.",
+    "pdfError": "Cha b' urrainn dhuinn am faidhle PDF a luchdachadh sìos. Feuch ris a-rithist.",
+    "loading": "A’ luchdachadh an eachdraidh cunntais agad…",
+    "empty": "Chan eil fàirdealan ann fhathast - aon uair ‘s gu bheil a’ choimhearsnachd agad a ’crìochnachadh cearcall bileachaidh, nochdaidh na bilean agad an seo.",
+    "status": {
+      "paid": "Phàigh",
+      "unpaid": "Gun phàigheadh"
+    },
+    "summary": {
+      "outstandingBalance": "Cothrom air leth",
+      "billingCycle": "Cearcall bileachaidh: {{period}}",
+      "allPaid": "Tha na cunntasan uile air am pàigheadh",
+      "payTotal": "Pàigheadh ​​​​iomlan gun phàigheadh",
+      "payTotalUnavailable": "Chan eil pàigheadh ​​​​air-loidhne ri fhaighinn fhathast - suidhich bilean leis an rianaire coimhearsnachd agad gu dìreach",
+      "downloadSummary": "Luchdaich a-nuas geàrr-chunntas na bilean.",
+      "downloadSummaryUnavailable": "Chan eil geàrr-chunntas bile ri fhaighinn fhathast"
+    },
+    "history": {
+      "title": "Eachdraidh fàirdeal",
+      "exportCsv": "Às-phortaich na h-uile gu CSV",
+      "exportUnavailable": "CSV chan eil às-mhalairt ri fhaighinn fhathast"
+    },
+    "table": {
+      "cycle": "Rothaireachd",
+      "usage": "Cleachdadh (kL)",
+      "amountDue": "Suim ri phàigheadh",
+      "paymentStatus": "Inbhe pàighidh",
+      "hideBreakdown": "Falaich Breakdown ↑",
+      "showBreakdown": "Mion-sgrùdadh Itemized ↓",
+      "downloading": "A’ luchdachadh sìos…",
+      "pdf": "PDF",
+      "pay": "Pàigh"
+    },
+    "breakdown": {
+      "householdTitle": "Briseadh sìos caitheamh taighe",
+      "basePrice": "Base Price: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Cleachdadh Meataichte Fo-iomlan",
+      "commonAreaTitle": "Roinn Coitcheann",
+      "subtotalShared": "Raon Co-roinnte Fo-iomlan",
+      "noCommonArea": "Chan eil cosgaisean coitcheann ann airson a’ chearcall seo."
+    },
+    "pagination": {
+      "showing": "A' sealltainn {{from}}–{{to}} de {{total}}",
+      "prev": "← Mu dheireadh",
+      "next": "Air adhart →",
+      "page": "Duilleag {{page}} de {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Dòighean pàighidh (ro-shealladh)",
+      "description": "Chan eil pàigheadh ​​​​air-loidhne ri fhaighinn fhathast - tha bilean air an rèiteachadh leis an rianaire coimhearsnachd agad gu dìreach.",
+      "manage": "Stiùirich dòighean pàighidh",
+      "manageUnavailable": "Chan eil dòighean pàighidh rim faighinn fhathast"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Air a dhìon le Razorpay",
+    "billingCycle": "Cearcall bileachaidh {{period}}",
+    "close": "Dùin",
+    "amountPayable": "Suim ri phàigheadh",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Cairtean",
+      "netbanking": "Banca-lìn",
+      "wallet": "Wallet"
+    },
+    "upi": {
+      "title": "Pàigh tro UPI",
+      "upiId": "UPI ID",
+      "or": "NO",
+      "scan": "Sgan le aplacaid UPI sam bith"
+    },
+    "card": {
+      "title": "Pàigheadh ​​tro chairt",
+      "number": "Àireamh cairt",
+      "expiry": "Crìochnaich",
+      "expiryPlaceholder": "MM/YY",
+      "cvv": "CVV",
+      "name": "Ainm air a 'chairt",
+      "namePlaceholder": "Mar a chlò-bhualadh air cairt"
+    },
+    "netbanking": {
+      "title": "Pàigh tro Netbanking"
+    },
+    "wallet": {
+      "title": "Pàigh tro Wallet"
+    },
+    "payAmount": "Pay ₹{{amount}}",
+    "processing": "A’ làimhseachadh do phàigheadh…",
+    "processingHint": "Feuch nach brùth thu air ais no ùraich an duilleag seo",
+    "success": "Pàigheadh ​​soirbheachail",
+    "error": "Chaidh rudeigin ceàrr a’ dearbhadh do phàigheadh. Feuch ris a-rithist.",
+    "retry": "Feuch a-rithist"
+  },
+  "notifications": {
+    "loadError": "Cha b' urrainn dhuinn na sanasan agad a luchdachadh. Feuch ris a-rithist.",
+    "loading": "A’ luchdachadh na sanasan agad…",
+    "empty": "Chan eil fios agad fhathast - chì thu rudeigin an seo ma tha an rianaire coimhearsnachd agad air rabhaidhean cleachdaidh-stairsnich no caitheamh neo-àbhaisteach a chomasachadh agus gu bheil fear air a phiobrachadh airson do theaghlach.",
+    "type": {
+      "thresholdExceeded": "Tha an stairsnich cleachdaidh air a dhol thairis air",
+      "statisticalOutlier": "Caitheamh neo-àbhaisteach air a lorg"
+    },
+    "status": {
+      "active": "Gnìomhach",
+      "resolved": "Fuasgladh",
+      "dismissed": "Air a chur às"
+    },
+    "billingPeriod": "Ùine bileachaidh: {{period}}",
+    "consumption": "Caitheamh: {{value}} kL",
+    "push": {
+      "title": "Brùth sanasan",
+      "description": "Faigh fios air an inneal seo nuair a thig bile no rabhadh ùr a-steach.",
+      "enable": "Dèan comas",
+      "disable": "Cuir à comas",
+      "permissionDenied": "Cha deach cead fios a thoirt seachad.",
+      "notConfigured": "Chan eil fiosan putaidh air an rèiteachadh fhathast. Cuir fios chun rianaire agad.",
+      "enableError": "Cha b' urrainn dhuinn fiosan putaidh a chur an comas. Feuch ris a-rithist.",
+      "disableError": "Cha b' urrainn dhuinn fiosan putaidh a chur à comas. Feuch ris a-rithist."
+    }
+  },
+  "recommendations": {
+    "loadError": "Cha b' urrainn dhuinn na molaidhean agad a luchdachadh. Feuch ris a-rithist.",
+    "loading": "A’ luchdachadh do mholaidhean pearsanaichte…",
+    "generated": "Gineadh {{date}}",
+    "generatedForPeriod": "Air a chruthachadh {{date}} airson ùine cunntais {{period}}",
+    "eyebrow": "Air a phearsanachadh dhut",
+    "title": "Molaidhean sàbhalaidh uisge glic",
+    "empty": "Cha deach molaidhean sam bith a chruthachadh fhathast - bidh iad sin gan ùrachadh gu fèin-ghluasadach a h-uile uair a chuireas do choimhearsnachd crìoch air cearcall bileachaidh airson do dhachaigh."
+  },
+  "support": {
+    "title": "Deasg Taic Luchd-còmhnaidh & Draghan",
+    "subtitle": "Cuir a-steach aithisgean aoidionachd uisge, iarrtasan calibration mheatair, no fiosan bileachaidh gu dìreach chun rianadair coimhearsnachd agad agus / no rianadair an t-siostaim.",
+    "emptyCreateHint": "Thoir cunntas air a’ chùis no an dragh agad gu h-ìosal, agus tagh cò a bu chòir a làimhseachadh."
+  }
+}

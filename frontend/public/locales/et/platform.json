@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiivne",
+    "blocked": "Blokeeritud",
+    "terminated": "Lõpetatud"
+  },
+  "sort": {
+    "sortBy": "Sorteeri",
+    "toggleDirection": "Lülita sortimissuunda",
+    "asc": "↑ Asc",
+    "desc": "↓ Kirjeldus"
+  },
+  "pagination": {
+    "showing": "Kuvatakse {{from}}–{{to}} / {{total}}",
+    "prev": "← Eelmine",
+    "next": "Järgmine →",
+    "page": "Lehekülg {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platvormi ülevaade",
+    "subtitle": "Iga registreeritud kogukonna administraator kogu HydroLedger platvormil.",
+    "viewAll": "Kuva kõik kogukonnad",
+    "loadError": "Platvormi andmeid ei saanud praegu laadida.",
+    "cards": {
+      "totalCommunities": "Kogukonnad kokku",
+      "registeredAdmins": "Registreeritud administraatorid",
+      "totalResidents": "Elanikke kokku",
+      "acrossAllCommunities": "Kõigis kogukondades",
+      "active": "Aktiivne",
+      "inGoodStanding": "Heas seisus",
+      "blockedTerminated": "Blokeeritud / lõpetatud",
+      "blockedTerminatedBreakdown": "{{blocked}} blokeeritud, {{terminated}} lõpetatud"
+    },
+    "recent": {
+      "title": "Hiljuti registreeritud kogukonnad",
+      "loading": "Laadimine…",
+      "empty": "Ühtegi kogukonda pole veel registreeritud.",
+      "table": {
+        "community": "kogukond",
+        "admin": "Admin",
+        "status": "Olek",
+        "residents": "Elanikud"
+      }
+    }
+  },
+  "communities": {
+    "count": "Kogukonnad: {{count}}",
+    "loadError": "Kogukondi ei saanud laadida. Palun proovi uuesti.",
+    "searchPlaceholder": "Filtreerige kogukonna, administraatori nime või e-posti aadressi järgi",
+    "statusFilter": {
+      "label": "Olek",
+      "all": "Kõik"
+    },
+    "sortOptions": {
+      "community": "kogukond",
+      "admin": "Admin",
+      "residents": "Elanikud"
+    },
+    "loading": "Kogukondade laadimine…",
+    "empty": "Ühtegi kogukonda pole veel registreeritud.",
+    "noMatch": "Ükski kogukond ei vasta teie filtritele.",
+    "table": {
+      "community": "kogukond",
+      "admin": "Admin",
+      "email": "Meil",
+      "status": "Olek",
+      "residents": "Elanikud",
+      "view": "Vaade"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Seda kommuuni ei saanud laadida. See võib olla eemaldatud.",
+    "statusUpdateError": "Selle kommuuni olekut ei saanud värskendada.",
+    "deleteError": "Seda kommuuni ei saanud kustutada.",
+    "loading": "Kogukonna laadimine…",
+    "notFound": "Kogukonda ei leitud.",
+    "backLink": "← Tagasi kogukonnad",
+    "backLinkShort": "Tagasi kogukondade juurde",
+    "eyebrow": "kogukonna profiil",
+    "unnamed": "Nimetu kogukond",
+    "noAddress": "Aadressi failis pole",
+    "stats": {
+      "residents": "Elanikud",
+      "status": "Olek"
+    },
+    "actions": {
+      "reactivate": "Aktiveerige uuesti",
+      "block": "Blokeeri",
+      "terminate": "Lõpeta",
+      "delete": "Kustuta kogukond"
+    },
+    "blockDialog": {
+      "title": "Kas blokeerida see kogukonna administraator?",
+      "message": "Kas blokeerida {{name}}? Nad ei saa enne blokeeringu tühistamist sisse logida. Andmeid see ei mõjuta.",
+      "confirm": "Blokeeri"
+    },
+    "terminateDialog": {
+      "title": "Kas lõpetada see kommuuni administraator?",
+      "message": "Kas lõpetada kasutaja {{name}} juurdepääs jäädavalt? Seda ei saa tagasi võtta, kuigi nende kogukonna andmeid säilitatakse registreerimiseks.",
+      "confirm": "Lõpeta"
+    },
+    "deleteDialog": {
+      "title": "Kas kustutada see kommuun?",
+      "message": "See kustutab jäädavalt <strong>{{name}}</strong> ja kõik selle leibkonnad, elanikud, arvestid, tariifi-/arvelduskonfiguratsioonid ja arvete ajaloo. Seda toimingut ei saa tagasi võtta.",
+      "typeToConfirm": "Jätkamiseks tippige <strong>{{word}}</strong>",
+      "confirm": "Kinnita"
+    },
+    "residents": {
+      "title": "Elanikud",
+      "registeredCount": "Registreeritud: {{count}}",
+      "empty": "Selles kogukonnas pole veel registreeritud ühtegi elanikku.",
+      "table": {
+        "flatUnit": "Korter üksus",
+        "meter": "Mõõdik",
+        "resident": "Resident",
+        "email": "Meil",
+        "passwordSet": "Parooli määramine"
+      },
+      "yes": "Jah",
+      "no": "Ei"
+    },
+    "cancel": "Tühista",
+    "working": "Töötab…",
+    "deleting": "Kustutamine…"
+  },
+  "systemStatus": {
+    "statusError": "Süsteemi oleku kontrollimiseks ei õnnestunud taustaprogrammiga ühendust võtta.",
+    "metricsError": "Mõõdikute ajalugu ei saanud laadida.",
+    "ranges": {
+      "fiveMinutes": "5 minutit",
+      "fifteenMinutes": "15 minutit",
+      "hour": "Tund",
+      "day": "päev",
+      "week": "Nädal",
+      "month": "Kuu",
+      "threeMonths": "3 kuud"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Taotlused/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latentsus",
+      "lastValue": "{{value}} viimane",
+      "loading": "Laadimine…",
+      "empty": "Selle vahemiku kohta pole veel mõõdikuid salvestatud."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Keskmine: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Viimati: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Taustaprogrammi API",
+      "checking": "Kontrollimine…",
+      "reachable": "Kättesaadav",
+      "unreachable": "Kättesaamatu",
+      "connected": "Ühendatud",
+      "backendApiHint": "See leht laaditi taustaprogrammist, nii et see vastas.",
+      "database": "Andmebaas",
+      "databaseHint": "PostgreSQL-i ühenduvus, kontrollitud reaalajas.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Alates viimasest rakenduse taaskäivitusest.",
+      "appVersion": "Rakenduse versioon",
+      "appVersionHint": "Taustaprogrammi ehitusversioon."
+    },
+    "mini": {
+      "latency": "Latentsus",
+      "readsLatency": "Loe latentsus",
+      "writesLatency": "Kirjutab Latency",
+      "otherLatency": "Muu latentsusaeg",
+      "connections": "Ühendused",
+      "totalKeys": "Võtmed kokku"
+    },
+    "note": "Päringuid sekundis ja latentsust võetakse reaalajas taustaliiklusest iga 15 sekundi järel ja neid säilitatakse kuni 100 päeva. See on põhiline ühenduvuse + liikluse kontroll – see ei asenda täielikku rakenduse jõudluse jälgimist, logide koondamist ega hoiatamist."
+  },
+  "reports": {
+    "loadError": "Platvormi aruannet ei saanud laadida.",
+    "ranges": {
+      "threeMonths": "3 kuud",
+      "sixMonths": "6 kuud",
+      "twelveMonths": "12 kuud",
+      "custom": "Kohandatud"
+    },
+    "sortOptions": {
+      "community": "kogukond",
+      "usage": "Kasutamine",
+      "billed": "Arveldatud",
+      "residents": "Elanikud"
+    },
+    "customRange": {
+      "from": "Alates",
+      "to": "To",
+      "hint": "Kohandatud aruande laadimiseks valige kuu \"alates\" ja \"kuni\"."
+    },
+    "loading": "Aruande laadimine…",
+    "cards": {
+      "totalCommunities": "Kogukonnad kokku",
+      "inThisRange": "Selles vahemikus",
+      "totalResidents": "Elanikke kokku",
+      "acrossAllCommunities": "Kõigis kogukondades",
+      "overallUsage": "Üldine kasutamine",
+      "meteredConsumption": "Mõõdukas tarbimine",
+      "overallBilled": "Üldarvestus",
+      "finalizedInvoicesOnly": "Ainult lõplikud arved",
+      "avgUsagePerResident": "Keskmine kasutus / elanik",
+      "avgBillPerResident": "Keskmine arve / elanik"
+    },
+    "charts": {
+      "usageTitle": "Platvormiülene kasutus (kL kuus)",
+      "usageEmpty": "Selle vahemiku jaoks pole kasutust registreeritud.",
+      "usageSeries": "Kasutamine",
+      "billedTitle": "Kogu platvormi hõlmav arveldussumma (₹ kuus)",
+      "billedEmpty": "Selle vahemiku kohta ei vormistatud ühtegi arvet.",
+      "billedSeries": "Arveldatud"
+    },
+    "searchPlaceholder": "Filtreerige kogukonna või administraatori nime järgi",
+    "empty": "Ühelgi kogukonnal pole veel selle vahemiku kasutus- ega arveldusandmeid.",
+    "noMatch": "Teie filtrile ei vasta ükski kogukond.",
+    "table": {
+      "community": "kogukond",
+      "admin": "Admin",
+      "residents": "Elanikud",
+      "usage": "Kasutus (kL)",
+      "billed": "Arveldatud (₹)",
+      "avgUsagePerResident": "Keskmine kasutus / elanik",
+      "avgBillPerResident": "Keskmine arve / elanik"
+    }
+  },
+  "supportTickets": {
+    "title": "Tugipiletid",
+    "subtitle": "Toetage pileteid ja elanike ja kogukonna administraatorite tõstatatud probleeme kogu platvormil."
+  }
+}

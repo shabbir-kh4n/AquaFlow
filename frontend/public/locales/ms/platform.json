@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktif",
+    "blocked": "Disekat",
+    "terminated": "ditamatkan"
+  },
+  "sort": {
+    "sortBy": "Isih mengikut",
+    "toggleDirection": "Togol arah isihan",
+    "asc": "↑ Asc",
+    "desc": "↓ Des"
+  },
+  "pagination": {
+    "showing": "Menunjukkan {{from}}–{{to}} daripada {{total}}",
+    "prev": "← Sebelumnya",
+    "next": "Seterusnya →",
+    "page": "Halaman {{page}} daripada {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Gambaran Keseluruhan Platform",
+    "subtitle": "Setiap pentadbir komuniti berdaftar, merentas seluruh platform HydroLedger.",
+    "viewAll": "Lihat Semua Komuniti",
+    "loadError": "Tidak dapat memuatkan data platform sekarang.",
+    "cards": {
+      "totalCommunities": "Jumlah Komuniti",
+      "registeredAdmins": "Pentadbir berdaftar",
+      "totalResidents": "Jumlah Penduduk",
+      "acrossAllCommunities": "Merentasi semua komuniti",
+      "active": "Aktif",
+      "inGoodStanding": "Dalam keadaan baik",
+      "blockedTerminated": "Disekat / Ditamatkan",
+      "blockedTerminatedBreakdown": "{{blocked}} disekat, {{terminated}} ditamatkan"
+    },
+    "recent": {
+      "title": "Komuniti Berdaftar Baru-baru ini",
+      "loading": "Memuatkan…",
+      "empty": "Tiada komuniti didaftarkan lagi.",
+      "table": {
+        "community": "Komuniti",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Penduduk"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komuniti: {{count}}",
+    "loadError": "Tidak dapat memuatkan komuniti. Sila cuba lagi.",
+    "searchPlaceholder": "Tapis mengikut komuniti, nama pentadbir atau e-mel",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Semua"
+    },
+    "sortOptions": {
+      "community": "Komuniti",
+      "admin": "Admin",
+      "residents": "Penduduk"
+    },
+    "loading": "Memuatkan komuniti…",
+    "empty": "Tiada komuniti didaftarkan lagi.",
+    "noMatch": "Tiada komuniti yang sepadan dengan penapis anda.",
+    "table": {
+      "community": "Komuniti",
+      "admin": "Admin",
+      "email": "E-mel",
+      "status": "Status",
+      "residents": "Penduduk",
+      "view": "Lihat"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Tidak dapat memuatkan komuniti ini. Ia mungkin telah dikeluarkan.",
+    "statusUpdateError": "Tidak dapat mengemas kini status komuniti ini.",
+    "deleteError": "Tidak dapat memadamkan komuniti ini.",
+    "loading": "Memuatkan komuniti…",
+    "notFound": "Komuniti tidak ditemui.",
+    "backLink": "← Kembali ke Komuniti",
+    "backLinkShort": "Kembali ke Komuniti",
+    "eyebrow": "Profil Komuniti",
+    "unnamed": "Komuniti tanpa nama",
+    "noAddress": "Tiada alamat dalam fail",
+    "stats": {
+      "residents": "Penduduk",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Aktifkan semula",
+      "block": "Sekat",
+      "terminate": "tamatkan",
+      "delete": "Padam Komuniti"
+    },
+    "blockDialog": {
+      "title": "Sekat pentadbir komuniti ini?",
+      "message": "Sekat {{name}}? Mereka tidak akan dapat log masuk sehingga disekat. Tiada data akan terjejas.",
+      "confirm": "Sekat"
+    },
+    "terminateDialog": {
+      "title": "Tamatkan pentadbir komuniti ini?",
+      "message": "Tamatkan akses {{name}} secara kekal? Ini tidak boleh dibuat asal, walaupun data komuniti mereka akan disimpan untuk rekod.",
+      "confirm": "tamatkan"
+    },
+    "deleteDialog": {
+      "title": "Padamkan komuniti ini?",
+      "message": "Ini akan memadamkan <strong>{{name}}</strong> dan semua isi rumah, pemastautin, meter, konfigurasi tarif/bil dan sejarah invoisnya secara kekal. Tindakan ini tidak boleh dibuat asal.",
+      "typeToConfirm": "Taip <strong>{{word}}</strong> untuk meneruskan",
+      "confirm": "sahkan"
+    },
+    "residents": {
+      "title": "Penduduk",
+      "registeredCount": "Berdaftar: {{count}}",
+      "empty": "Belum ada penduduk yang berdaftar dalam komuniti ini.",
+      "table": {
+        "flatUnit": "Unit Flat",
+        "meter": "Meter",
+        "resident": "Penduduk",
+        "email": "E-mel",
+        "passwordSet": "Set Kata Laluan"
+      },
+      "yes": "ya",
+      "no": "Tidak"
+    },
+    "cancel": "Batal",
+    "working": "Bekerja…",
+    "deleting": "Memadamkan…"
+  },
+  "systemStatus": {
+    "statusError": "Tidak dapat mencapai bahagian belakang untuk menyemak status sistem.",
+    "metricsError": "Tidak dapat memuatkan sejarah metrik.",
+    "ranges": {
+      "fiveMinutes": "5 Minit",
+      "fifteenMinutes": "15 Minit",
+      "hour": "jam",
+      "day": "Hari",
+      "week": "Minggu",
+      "month": "bulan",
+      "threeMonths": "3 Bulan"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Permintaan/saat",
+      "opsPerSec": "Ops/saat",
+      "latency": "Latensi",
+      "lastValue": "{{value}} terakhir",
+      "loading": "Memuatkan…",
+      "empty": "Tiada metrik direkodkan untuk julat ini."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Purata: <b>{{value}}</b>",
+      "max": "Maks: <b>{{value}}</b>",
+      "last": "Terakhir: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API Bahagian Belakang",
+      "checking": "Menyemak…",
+      "reachable": "Boleh dicapai",
+      "unreachable": "Tidak dapat dihubungi",
+      "connected": "Bersambung",
+      "backendApiHint": "Halaman ini dimuatkan dari bahagian belakang, jadi ia bertindak balas.",
+      "database": "Pangkalan data",
+      "databaseHint": "Kesambungan PostgreSQL, disemak secara langsung.",
+      "uptime": "Masa Laluan Belakang",
+      "uptimeHint": "Sejak aplikasi terakhir dimulakan semula.",
+      "appVersion": "Versi Apl",
+      "appVersionHint": "Versi binaan bahagian belakang."
+    },
+    "mini": {
+      "latency": "Latensi",
+      "readsLatency": "Membaca Kependaman",
+      "writesLatency": "Menulis Latensi",
+      "otherLatency": "Latensi Lain",
+      "connections": "Sambungan",
+      "totalKeys": "Jumlah Kunci"
+    },
+    "note": "Permintaan/saat dan kependaman diambil sampel daripada trafik bahagian belakang langsung setiap 15 saat dan disimpan sehingga 100 hari. Ini ialah sambungan asas + semakan trafik — ia tidak menggantikan pemantauan prestasi aplikasi penuh, pengagregatan log atau amaran."
+  },
+  "reports": {
+    "loadError": "Tidak dapat memuatkan laporan platform.",
+    "ranges": {
+      "threeMonths": "3 Bulan",
+      "sixMonths": "6 Bulan",
+      "twelveMonths": "12 Bulan",
+      "custom": "Adat"
+    },
+    "sortOptions": {
+      "community": "Komuniti",
+      "usage": "Penggunaan",
+      "billed": "Dibilkan",
+      "residents": "Penduduk"
+    },
+    "customRange": {
+      "from": "daripada",
+      "to": "Kepada",
+      "hint": "Pilih kedua-dua bulan \"dari\" dan \"kepada\" untuk memuatkan laporan tersuai."
+    },
+    "loading": "Memuatkan laporan…",
+    "cards": {
+      "totalCommunities": "Jumlah Komuniti",
+      "inThisRange": "Dalam julat ini",
+      "totalResidents": "Jumlah Penduduk",
+      "acrossAllCommunities": "Merentasi semua komuniti",
+      "overallUsage": "Penggunaan Keseluruhan",
+      "meteredConsumption": "Penggunaan bermeter",
+      "overallBilled": "Keseluruhan Dibilkan",
+      "finalizedInvoicesOnly": "Invois dimuktamadkan sahaja",
+      "avgUsagePerResident": "Purata Penggunaan / Penduduk",
+      "avgBillPerResident": "Purata Bil / Penduduk"
+    },
+    "charts": {
+      "usageTitle": "Penggunaan seluruh platform (kL / bulan)",
+      "usageEmpty": "Tiada penggunaan direkodkan untuk julat ini.",
+      "usageSeries": "Penggunaan",
+      "billedTitle": "Amaun Bil seluruh platform (₹ / bulan)",
+      "billedEmpty": "Tiada invois dimuktamadkan untuk julat ini.",
+      "billedSeries": "Dibilkan"
+    },
+    "searchPlaceholder": "Tapis mengikut komuniti atau nama pentadbir",
+    "empty": "Belum ada komuniti yang mempunyai data penggunaan atau pengebilan untuk julat ini.",
+    "noMatch": "Tiada komuniti yang sepadan dengan penapis anda.",
+    "table": {
+      "community": "Komuniti",
+      "admin": "Admin",
+      "residents": "Penduduk",
+      "usage": "Penggunaan (kL)",
+      "billed": "Dibilkan (₹)",
+      "avgUsagePerResident": "Purata Penggunaan / Penduduk",
+      "avgBillPerResident": "Purata Bil / Penduduk"
+    }
+  },
+  "supportTickets": {
+    "title": "Tiket Sokongan",
+    "subtitle": "Sokong tiket dan kebimbangan yang dibangkitkan oleh penduduk dan pentadbir komuniti, di seluruh platform."
+  }
+}

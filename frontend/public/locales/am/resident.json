@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "በቅርቡ ይመጣል",
+    "welcome": {
+      "greeting": "ሰላም {{name}}",
+      "greetingFallback": "ሰላም፣",
+      "title": "ከቤትዎ የውሃ ታሪክ አጠገብ ይቆዩ።",
+      "subtitle": "የእርስዎ ማህበረሰብ ንባቦችን ሲመዘግብ የአጠቃቀም እና የሂሳብ አከፋፈል ግንዛቤዎች እዚህ ይታያሉ።",
+      "viewBadges": "ኢኮ-ባጆችን ይመልከቱ"
+    },
+    "stats": {
+      "todaysUsage": "የዛሬው አጠቃቀም",
+      "asOf": "As of {{date}}",
+      "noReading": "እስካሁን ምንም ሜትር ማንበብ የለም።",
+      "monthlyTotalFor": "Monthly Total ({{month}})",
+      "monthlyTotalThisMonth": "ወርሃዊ ጠቅላላ (በዚህ ወር)",
+      "sumOfReadings": "የተቀዳ ንባብ ድምር",
+      "estimatedBill": "አሁን ያለው የተገመተ ሂሳብ",
+      "estimatedBillFor": "የሚለካ አጠቃቀም + የጋራ ክፍያዎች፣ {{month}}",
+      "estimatedBillHint": "በዚህ ወር በሚለካ ፍጆታ እና በጋራ ክፍያዎች ላይ በመመስረት",
+      "savings": "ቁጠባ ከግንባታ አማካይ",
+      "savingsValue": "{{percent}}% ያነሰ",
+      "savingsPreview": "ቅድመ-ዕይታ ብቻ - ንጽጽር ገና በቀጥታ አይደለም"
+    },
+    "consumption": {
+      "eyebrow": "ፍጆታ",
+      "title": "ዕለታዊ ፍጆታ (የመጨረሻዎቹ 14 ንባቦች)",
+      "seriesName": "ፍጆታ",
+      "empty": "እስካሁን ምንም የተመዘገቡ ንባቦች የሉም።"
+    },
+    "breakdown": {
+      "eyebrow": "መከፋፈል",
+      "title": "የአጠቃቀም መከፋፈል",
+      "bathroom": "መታጠቢያ ቤት",
+      "kitchen": "ወጥ ቤት",
+      "garden": "የአትክልት ስፍራ / በረንዳ",
+      "other": "ሌላ / የልብስ ማጠቢያ"
+    },
+    "billing": {
+      "eyebrow": "የሂሳብ አከፋፈል",
+      "title": "ንቁ የሂሳብ አከፋፈል ዑደት",
+      "finalized": "ተጠናቀቀ",
+      "preview": "ቅድመ እይታ",
+      "meteredConsumption": "ሜትር ፍጆታ",
+      "tierPriceLevel": "የደረጃ የዋጋ ደረጃ",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "የጋራ አካባቢ ክፍፍል",
+      "commonAreaPreview": "የጋራ አካባቢ ክፍፍል (ቅድመ እይታ)",
+      "invoiceTotal": "{{period}} ጠቅላላ ደረሰኝ",
+      "estimatedCharge": "የአሁኑ ግምታዊ ክፍያ",
+      "commonAreaBreakdown": "የጋራ አካባቢ መከፋፈል",
+      "payPreview": "የክፍያ ሂሳብ ቅድመ እይታ",
+      "payUnavailable": "የሂሳብ መክፈያ ሞተር እስካሁን አይገኝም"
+    },
+    "tips": {
+      "eyebrow": "ጠቃሚ ምክሮች",
+      "title": "ብልጥ ቁጠባ ጠቃሚ ምክሮች",
+      "viewAll": "ሁሉንም ይመልከቱ",
+      "empty": "ማህበረሰብዎ የሂሳብ አከፋፈል ዑደት ካጠናቀቀ በኋላ ለግል የተበጁ ምክሮች እዚህ ይታያሉ።"
+    },
+    "community": "Community: {{name}}"
+  },
+  "usage": {
+    "loadError": "የአጠቃቀም ታሪክዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "loading": "የአጠቃቀም ትንታኔዎን በመጫን ላይ…",
+    "empty": "እስካሁን ምንም የተመዘገቡ ንባቦች የሉም። አንዴ ማህበረሰብዎ የአንድ ሜትር ንባብ ከመዘገበ፣ እዚህ ይታያል።",
+    "tabs": {
+      "lastSixMonths": "ያለፉት 6 ወራት",
+      "customRange": "ብጁ ክልል",
+      "comingSoon": "በቅርቡ ይመጣል"
+    },
+    "peakDay": "ከፍተኛ ቀን፡",
+    "lowestDay": "ዝቅተኛው ቀን፡",
+    "comparison": {
+      "title": "የቤተሰብ ፍጆታ እና የአፓርታማ አማካይ",
+      "subtitle": "Monthly totals shown in kilolitres (kL).",
+      "yourHousehold": "የእርስዎ ቤተሰብ",
+      "apartmentAverage": "የአፓርታማ አማካይ",
+      "similarSized": "ተመሳሳይ መጠን ያላቸው ቤቶች"
+    },
+    "heatmap": {
+      "title": "ዕለታዊ ፍጆታ የሙቀት ካርታ",
+      "subtitle": "የቀለም ጥንካሬ ከባድ የአጠቃቀም ቀናትን ያሳያል (ቅድመ እይታ)።"
+    },
+    "ranking": {
+      "title": "የማህበረሰብ አቻ ደረጃ አሰጣጥ",
+      "subtitle": "የእርስዎ ደረጃ ከተመሳሳይ ክፍሎች (ቅድመ እይታ) ጋር ሲነጻጸር።",
+      "ecoSaver": "ንቁ ኢኮ ቆጣቢ",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unit {{number}}",
+      "yourUnit": "የእርስዎ ክፍል",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (እርስዎ)"
+    }
+  },
+  "billing": {
+    "loadError": "የሂሳብ አከፋፈል ታሪክዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "pdfError": "Could not download the PDF. Please try again.",
+    "loading": "የሂሳብ አከፋፈል ታሪክዎን በመጫን ላይ…",
+    "empty": "እስካሁን ምንም ደረሰኞች የሉም - አንዴ ማህበረሰብዎ የሂሳብ አከፋፈል ዑደት ካጠናቀቀ በኋላ ሂሳቦችዎ እዚህ ይታያሉ።",
+    "status": {
+      "paid": "የተከፈለ",
+      "unpaid": "ያልተከፈለ"
+    },
+    "summary": {
+      "outstandingBalance": "የላቀ ሚዛን",
+      "billingCycle": "የሂሳብ አከፋፈል ዑደት፡ {{period}}",
+      "allPaid": "ሁሉም ደረሰኞች ይከፈላሉ",
+      "payTotal": "ጠቅላላ የላቀ ክፍያ ይክፈሉ።",
+      "payTotalUnavailable": "የመስመር ላይ ክፍያ ገና የለም — ሂሳቦችን ከማህበረሰብ አስተዳዳሪዎ ጋር በቀጥታ ያስተካክሉ",
+      "downloadSummary": "የቢል ማጠቃለያ አውርድ",
+      "downloadSummaryUnavailable": "የሂሳብ ማጠቃለያ ማውረድ እስካሁን የለም።"
+    },
+    "history": {
+      "title": "የክፍያ መጠየቂያ ታሪክ",
+      "exportCsv": "ሁሉንም ወደ CSV ላክ",
+      "exportUnavailable": "CSV export isn't available yet"
+    },
+    "table": {
+      "cycle": "ዑደት",
+      "usage": "Usage (kL)",
+      "amountDue": "የሚከፈለው መጠን",
+      "paymentStatus": "የክፍያ ሁኔታ",
+      "hideBreakdown": "መከፋፈልን ደብቅ ↑",
+      "showBreakdown": "ንጥል ነገር መከፋፈል ↓",
+      "downloading": "በማውረድ ላይ…",
+      "pdf": "PDF",
+      "pay": "ይክፈሉ።"
+    },
+    "breakdown": {
+      "householdTitle": "የቤተሰብ ፍጆታ መከፋፈል",
+      "basePrice": "የመሠረት ዋጋ፡ {{units}} kL × ₹{{rate}}",
+      "tierLine": "ደረጃ {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "አጠቃላይ የመለኪያ አጠቃቀም",
+      "commonAreaTitle": "የጋራ አካባቢ ክፍፍል",
+      "subtotalShared": "አጠቃላይ የተጋራ አካባቢ",
+      "noCommonArea": "ለዚህ ዑደት ምንም የጋራ-አካባቢ ክፍያዎች የሉም።"
+    },
+    "pagination": {
+      "showing": "Showing {{from}}–{{to}} of {{total}}",
+      "prev": "← የቀድሞ",
+      "next": "ቀጣይ →",
+      "page": "Page {{page}} of {{count}}"
+    },
+    "paymentMethods": {
+      "title": "የመክፈያ ዘዴዎች (ቅድመ እይታ)",
+      "description": "የመስመር ላይ ክፍያ እስካሁን የለም - ሂሳቦች ከማህበረሰብ አስተዳዳሪዎ ጋር በቀጥታ ተስተካክለዋል።",
+      "manage": "የመክፈያ ዘዴዎችን ያስተዳድሩ",
+      "manageUnavailable": "የመክፈያ ዘዴዎች እስካሁን አይገኙም።"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Secured by Razorpay",
+    "billingCycle": "የሂሳብ አከፋፈል ዑደት {{period}}",
+    "close": "ገጠመ",
+    "amountPayable": "የሚከፈል መጠን",
+    "methods": {
+      "upi": "UPI",
+      "cards": "ካርዶች",
+      "netbanking": "ኔትባንኪንግ",
+      "wallet": "የኪስ ቦርሳ"
+    },
+    "upi": {
+      "title": "Pay via UPI",
+      "upiId": "UPI መታወቂያ",
+      "or": "ወይም",
+      "scan": "በማንኛውም UPI መተግበሪያ ይቃኙ"
+    },
+    "card": {
+      "title": "በካርድ በኩል ይክፈሉ",
+      "number": "የካርድ ቁጥር",
+      "expiry": "ጊዜው ያለፈበት",
+      "expiryPlaceholder": "ወወ/ ዓ.ም",
+      "cvv": "ሲቪቪ",
+      "name": "በካርድ ላይ ስም",
+      "namePlaceholder": "በካርድ ላይ እንደታተመ"
+    },
+    "netbanking": {
+      "title": "በኔትባንኪንግ በኩል ይክፈሉ።"
+    },
+    "wallet": {
+      "title": "በ Wallet በኩል ይክፈሉ።"
+    },
+    "payAmount": "Pay ₹{{amount}}",
+    "processing": "ክፍያዎን በማስኬድ ላይ…",
+    "processingHint": "እባኮትን መልሰው አይጫኑ ወይም ይህን ገጽ አያድሱ",
+    "success": "ክፍያ ተሳክቷል።",
+    "error": "ክፍያዎን በማረጋገጥ ላይ የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
+    "retry": "እንደገና ይሞክሩ"
+  },
+  "notifications": {
+    "loadError": "ማሳወቂያዎችዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "loading": "ማሳወቂያዎችዎን በመጫን ላይ…",
+    "empty": "እስካሁን ምንም ማሳወቂያዎች የሉም — የማህበረሰብ አስተዳዳሪዎ የአጠቃቀም ገደብ ወይም ያልተለመደ የፍጆታ ማንቂያዎችን ካነቃ እና አንዱ ለቤተሰብዎ ከተነሳ እዚህ የሆነ ነገር ያያሉ።",
+    "type": {
+      "thresholdExceeded": "የፍጆታ ገደብ አልፏል",
+      "statisticalOutlier": "ያልተለመደ ፍጆታ ተገኝቷል"
+    },
+    "status": {
+      "active": "ንቁ",
+      "resolved": "ተፈቷል።",
+      "dismissed": "ተሰናብቷል።"
+    },
+    "billingPeriod": "የክፍያ ጊዜ፡ {{period}}",
+    "consumption": "ፍጆታ፡ {{value}} kL",
+    "push": {
+      "title": "ማሳወቂያዎችን ይግፉ",
+      "description": "አዲስ የክፍያ መጠየቂያ ወይም ማንቂያ ሲመጣ በዚህ መሣሪያ ላይ ማሳወቂያ ያግኙ።",
+      "enable": "አንቃ",
+      "disable": "አሰናክል",
+      "permissionDenied": "የማሳወቂያ ፍቃድ አልተሰጠም።",
+      "notConfigured": "የግፋ ማሳወቂያዎች ገና አልተዋቀሩም። አስተዳዳሪዎን ያነጋግሩ።",
+      "enableError": "የግፋ ማሳወቂያዎችን ማንቃት አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "disableError": "የግፋ ማሳወቂያዎችን ማሰናከል አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "recommendations": {
+    "loadError": "ምክሮችዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "loading": "ግላዊነት የተላበሱ ምክሮችዎን በመጫን ላይ…",
+    "generated": "የተፈጠረ {{date}}",
+    "generatedForPeriod": "የተፈጠረ {{date}} ለክፍያ ጊዜ {{period}}",
+    "eyebrow": "ለእርስዎ የተበጀ",
+    "title": "ብልህ ውሃ ቆጣቢ ምክሮች",
+    "empty": "እስካሁን ምንም ጠቃሚ ምክሮች አልተፈጠሩም - ማህበረሰብዎ ለቤተሰብዎ የሂሳብ አከፋፈል ዑደት ባጠናቀቀ ቁጥር እነዚህ በራስ-ሰር ይታደሳሉ።"
+  },
+  "support": {
+    "title": "የነዋሪዎች ድጋፍ እና አሳሳቢ ጉዳዮች ዴስክ",
+    "subtitle": "የውሃ ማፍሰስ ሪፖርቶችን፣ የሜትር መለኪያ ጥያቄዎችን ወይም የሂሳብ መጠየቂያ ጥያቄዎችን በቀጥታ ለማህበረሰብ አስተዳዳሪዎ እና/ወይም የስርዓት አስተዳዳሪዎ ያቅርቡ።",
+    "emptyCreateHint": "ችግርዎን ወይም ስጋትዎን ከዚህ በታች ይግለጹ እና ማን ማስተናገድ እንዳለበት ይምረጡ።"
+  }
+}

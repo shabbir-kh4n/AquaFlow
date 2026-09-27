@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kemur skjótt",
+    "welcome": {
+      "greeting": "Hey {{name}},",
+      "greetingFallback": "Hey har,",
+      "title": "Ver tætt við vatnsøguna hjá tær.",
+      "subtitle": "Nýtslu- og rokningarinnlit verða víst her, meðan tín felagsskapur skrásetir avlestur.",
+      "viewBadges": "Sí umhvørvismerki"
+    },
+    "stats": {
+      "todaysUsage": "Dagsins nýtsla",
+      "asOf": "Frá {{date}}",
+      "noReading": "Eingin mátaralesing enn",
+      "monthlyTotalFor": "Mánaðarlig tilsamans ({{month}})",
+      "monthlyTotalThisMonth": "Mánaðarligt Tilsamans (hendan mánaðin)",
+      "sumOfReadings": "Summa av skrásettum avlestri",
+      "estimatedBill": "Verandi mett rokning",
+      "estimatedBillFor": "Mátað nýtsla + felags gjøld, {{month}}",
+      "estimatedBillHint": "Við støði í mátaðu nýtsluni og felags gjøldum í hesum mánaðinum",
+      "savings": "Sparing vs Bygging Miðal",
+      "savingsValue": "{{percent}}% Minni",
+      "savingsPreview": "Einans forskoðan — samanbering ikki beinleiðis enn"
+    },
+    "consumption": {
+      "eyebrow": "Brúk",
+      "title": "Daglig nýtsla (Seinastu 14 avlestrarnar)",
+      "seriesName": "Brúk",
+      "empty": "Eingin avlestur skrásettur enn."
+    },
+    "breakdown": {
+      "eyebrow": "Niðurbróting",
+      "title": "Nýtslubrot",
+      "bathroom": "Baðirúm",
+      "kitchen": "Køkur",
+      "garden": "Garður / Altan",
+      "other": "Annað / Vaskirúm"
+    },
+    "billing": {
+      "eyebrow": "Fakturering",
+      "title": "Virk rokningarringrás",
+      "finalized": "Endaliga",
+      "preview": "Forskoðan",
+      "meteredConsumption": "Mátað nýtsla",
+      "tierPriceLevel": "Tier prísstig",
+      "tierLabel": "Lag {{tier}}",
+      "commonArea": "Felagsøkisbýti",
+      "commonAreaPreview": "Felagsøkisbýti (forskoðan)",
+      "invoiceTotal": "{{period}} rokning tilsamans",
+      "estimatedCharge": "Núverandi mett gjald",
+      "commonAreaBreakdown": "Sundurbýti av felagsøkjum",
+      "payPreview": "Gjalda rokning Forsýning",
+      "payUnavailable": "Faktureringsmotor er ikki tøkur enn"
+    },
+    "tips": {
+      "eyebrow": "Drykkipengar",
+      "title": "Smart spariráð",
+      "viewAll": "Vís øll",
+      "empty": "Persónlig ráð síggjast her, eftir at títt samfelag hevur gjørt eina rokningarringrás lidna."
+    },
+    "community": "Felagsskapur: {{name}}"
+  },
+  "usage": {
+    "loadError": "Kundi ikki heinta tína nýtslusøgu. Vinarliga royn aftur.",
+    "loading": "Heinta tínar nýtslugreiningar...",
+    "empty": "Eingin avlestur skrásettur enn. Tá títt samfelag hevur skrásett ein mátaraavlesing, kemur hann fram her.",
+    "tabs": {
+      "lastSixMonths": "Seinastu 6 mánaðirnar",
+      "customRange": "Sersniðgivið úrval",
+      "comingSoon": "Kemur skjótt"
+    },
+    "peakDay": "Toppdagur:",
+    "lowestDay": "Lægsti dagur:",
+    "comparison": {
+      "title": "Húsarhaldsnýtsla móti íbúðarmiðaltali",
+      "subtitle": "Mánaðarlig samlaða tøl víst í kilolitrum (kL).",
+      "yourHousehold": "Títt húsarhald",
+      "apartmentAverage": "Íbúðarmiðal",
+      "similarSized": "Heim í líknandi stødd"
+    },
+    "heatmap": {
+      "title": "Hitakort fyri dagliga nýtsluna",
+      "subtitle": "Litstyrkin merkir nógvar nýtsludagar (forskoðan)."
+    },
+    "ranking": {
+      "title": "Samfelagsjavnaldrar",
+      "subtitle": "Tín rang í mun til líknandi eindir (forskoðan).",
+      "ecoSaver": "Virkin umhvørvissparari",
+      "aptNumber": "Hús {{number}}",
+      "unitNumber": "Eind {{number}}",
+      "yourUnit": "Tín eind",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Tú)"
+    }
+  },
+  "billing": {
+    "loadError": "Kundi ikki heinta tína rokningarsøgu. Vinarliga royn aftur.",
+    "pdfError": "Kundi ikki heinta PDF. Vinarliga royn aftur.",
+    "loading": "Heinta tína rokningarsøgu...",
+    "empty": "Ongar rokningar enn — tá ið títt samfelag hevur gjørt eina rokningarringrás lidna, síggjast tínar rokningar her.",
+    "status": {
+      "paid": "Rindaði",
+      "unpaid": "Ógreitt"
+    },
+    "summary": {
+      "outstandingBalance": "Írestandi salda",
+      "billingCycle": "Faktureringsringrás: {{period}}",
+      "allPaid": "Allar rokningar eru goldnar",
+      "payTotal": "Greiða tilsamans útistandandi",
+      "payTotalUnavailable": "Gjald á netinum er ikki tøkt enn — avgreið rokningar beinleiðis við tín samfelags admin",
+      "downloadSummary": "Heinta Rokningasamandrátt",
+      "downloadSummaryUnavailable": "Samandráttur av rokningini er ikki tøkur enn"
+    },
+    "history": {
+      "title": "Fakturasøga",
+      "exportCsv": "Útflyt alt til CSV",
+      "exportUnavailable": "CSV útflutningur er ikki tøkur enn"
+    },
+    "table": {
+      "cycle": "Súkkla",
+      "usage": "Usage (kL)",
+      "amountDue": "Gjaldskyldugur upphædd",
+      "paymentStatus": "Gjaldsstøða",
+      "hideBreakdown": "Goym niðurbróting ↑",
+      "showBreakdown": "Lutskipað sundurbýti ↓",
+      "downloading": "Heinta...",
+      "pdf": "PDF",
+      "pay": "Gjalda"
+    },
+    "breakdown": {
+      "householdTitle": "Nýtslubýti hjá húsarhaldunum",
+      "basePrice": "Base Price: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Undirsamlað mátað nýtsla",
+      "commonAreaTitle": "Felagsøkisbýti",
+      "subtotalShared": "Undirsamlað felagsøki",
+      "noCommonArea": "Ongin felags felagsøki gjøld fyri hesa ringrásina."
+    },
+    "pagination": {
+      "showing": "Vísir {{from}}–{{to}} av {{total}}",
+      "prev": "← Fyrr",
+      "next": "Næsta →",
+      "page": "Síða {{page}} av {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Gjaldshættir (undansýning)",
+      "description": "Gjald á netinum er ikki tøkt enn — rokningar verða avgreiddar beinleiðis hjá tínum samfelags admin.",
+      "manage": "Stjóra gjaldsháttum",
+      "manageUnavailable": "Gjaldsháttir eru ikki tøkir enn"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Tryggjað við Razorpay",
+    "billingCycle": "Faktureringsringrás {{period}}",
+    "close": "Lata aftur",
+    "amountPayable": "Upphædd, sum skal gjaldast",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kort",
+      "netbanking": "Netbanki",
+      "wallet": "Pengamappa"
+    },
+    "upi": {
+      "title": "Gjald umvegis UPI",
+      "upiId": "UPI ID",
+      "or": "ELLA",
+      "scan": "Skanna við einari og hvørjari UPI app"
+    },
+    "card": {
+      "title": "Gjald umvegis kort",
+      "number": "Kortnummar",
+      "expiry": "Forfall",
+      "expiryPlaceholder": "MM / ÁR",
+      "cvv": "CVV",
+      "name": "Navn á kortinum",
+      "namePlaceholder": "Sum prentað á kortinum"
+    },
+    "netbanking": {
+      "title": "Gjald umvegis Netbanka"
+    },
+    "wallet": {
+      "title": "Gjald umvegis pengapung"
+    },
+    "payAmount": "Rinda ₹{{amount}}",
+    "processing": "Avgreiða tína gjald...",
+    "processingHint": "Vinarliga ikki trýsta aftur ella uppdatera hesa síðuna",
+    "success": "Gjaldið eydnaðist",
+    "error": "Okkurt gekk galið við at staðfesta tína gjald. Vinarliga royn aftur.",
+    "retry": "Royn aftur"
+  },
+  "notifications": {
+    "loadError": "Kundi ikki heinta tínar fráboðanir. Vinarliga royn aftur.",
+    "loading": "Heinta tínar boð...",
+    "empty": "Ongar fráboðanir enn — tú sært okkurt her, um tín samfelagsleiðari hevur virkjað nýtslumark ella óvanliga nýtsluáminningar, og ein er útloyst fyri títt húsarhald.",
+    "type": {
+      "thresholdExceeded": "Nýtslumarkið er farið upp um",
+      "statisticalOutlier": "Óvanlig nýtsla uppdagað"
+    },
+    "status": {
+      "active": "Virkin",
+      "resolved": "Loyst",
+      "dismissed": "Uppsagdur"
+    },
+    "billingPeriod": "Rokningartíðarskeið: {{period}}",
+    "consumption": "Nýtsla: {{value}} kL",
+    "push": {
+      "title": "Push-boð",
+      "description": "Fá boð á hesum tólinum, tá nýggj rokning ella ávaring kemur inn.",
+      "enable": "Gera føran fyri",
+      "disable": "Gera óarbeiðsføran",
+      "permissionDenied": "Fráboðanarloyvi varð ikki givið.",
+      "notConfigured": "Push-boð eru ikki uppsett enn. Set teg í samband við tín admin.",
+      "enableError": "Kundi ikki virkja push-boð. Vinarliga royn aftur.",
+      "disableError": "Kundi ikki sløkkja push-boð. Vinarliga royn aftur."
+    }
+  },
+  "recommendations": {
+    "loadError": "Kundi ikki heinta tíni tilmæli. Vinarliga royn aftur.",
+    "loading": "Heinta tíni persónligu ráð...",
+    "generated": "Framleitt {{date}}",
+    "generatedForPeriod": "Framleitt {{date}} fyri rokningartíðarskeiðið {{period}}",
+    "eyebrow": "Persónliggjørd til tín",
+    "title": "Smart vatnsparandi ráð",
+    "empty": "Eingi ráð eru gjørd enn — hesi verða uppdaterað sjálvvirkandi, hvørja ferð títt samfelag ger eina rokningargongd fyri títt húsarhald."
+  },
+  "support": {
+    "title": "Skrivstova fyri stuðul og áhugamál hjá búfólkum",
+    "subtitle": "Send fráboðanir um vatnleka, mátarakalibrering ella rokningarfyrispurningar beinleiðis til tín samfelags admin og/ella skipanar admin.",
+    "emptyCreateHint": "Lýs títt mál ella stúran niðanfyri, og vel, hvør skal avgreiða tað."
+  }
+}

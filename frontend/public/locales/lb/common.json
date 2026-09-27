@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Zoumaachen",
+    "signUpTitle": "Registréiert Är Gemeinschaft",
+    "signInTitle": "Wëllkomm zréck",
+    "signUpSubtitle": "Erstellt e Community Admin Kont fir d'Awunner a Rechnung ze managen.",
+    "signInSubtitle": "Mellt Iech un fir Äert Waasserverbrauch a Rechnung ze gesinn."
+  },
+  "signIn": {
+    "errorFallback": "Kann net umellen. Probéiert w.e.g. nach eng Kéier.",
+    "emailLabel": "E-Mail",
+    "passwordLabel": "Passwuert",
+    "rememberMe": "Erënner dech u mech",
+    "forgotPassword": "Passwuert vergiess?",
+    "submitting": "Umellen…",
+    "submit": "Umellen",
+    "noAccount": "Hutt Dir kee Kont?",
+    "signUpLink": "Umellen"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Passwierder passen net.",
+      "communityRequired": "Gemeinschaftsnumm ass erfuerderlech.",
+      "termsRequired": "Gitt w.e.g. d'Konditioune vum Service a Privatsphär Politik averstanen.",
+      "fallback": "Kann net Kont schafen. Probéiert w.e.g. nach eng Kéier."
+    },
+    "hint": "Nëmmen Communautéit Administrateuren registréieren hei. Wann Dir erakënnt, füügt Dir d'Detailer vun Ären Awunner selwer derbäi - si mellen sech net eleng un.",
+    "fullNameLabel": "Ganzen numm",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefonsnummer",
+    "communityNameLabel": "Gemeinschaft Numm",
+    "passwordLabel": "Passwuert",
+    "confirmPasswordLabel": "Confirméieren Passwuert",
+    "agreeTerms": "Ech averstane mat de <termsLink>Servicebedéngungen</termsLink> an <privacyLink>Privatsphär Politik</privacyLink>",
+    "submitting": "Kont erstellen...",
+    "submit": "Administrator Kont erstellen",
+    "haveAccount": "Hutt Dir schonn e Kont?",
+    "signInLink": "Zeechen an"
+  },
+  "installPrompt": {
+    "title": "Installéieren HydroLedger",
+    "description": "Füügt et op Ärem Heembildschierm fir séier Zougang.",
+    "dismiss": "Entlooss",
+    "install": "Installéieren"
+  },
+  "setPassword": {
+    "title": "Setzt Äert Passwuert",
+    "loading": "Lueden…",
+    "subtitle": "Salut {{name}}, wielt e Passwuert fir {{email}} fir Äre HydroLedger Kont ze aktivéieren.",
+    "errors": {
+      "invalidLink": "Dëse Link ass ongëlteg oder ass ofgelaf.",
+      "tooShort": "Passwuert muss mindestens 8 Zeechen sinn.",
+      "mismatch": "Passwierder passen net.",
+      "fallback": "Konnt Äert Passwuert net astellen. Probéiert w.e.g. nach eng Kéier."
+    },
+    "passwordLabel": "Passwuert",
+    "confirmPasswordLabel": "Confirméieren Passwuert",
+    "submitting": "Passwuert setzen ...",
+    "submit": "Setzt Passwuert a mellt Iech un"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Frot iwwer Äre Kont",
+      "admin": "Communautéit Assistent",
+      "platform": "Plattform Assistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Wat ass HydroLedger?",
+        "tieredBilling": "Wéi funktionnéiert tiered Billing?",
+        "leaks": "Wéi ginn Leckage festgestallt?"
+      },
+      "resident": {
+        "billEstimate": "Wat ass meng aktuell Rechnungsschätzung?",
+        "alerts": "Hunn ech Benotzungswarnungen?",
+        "readings": "Weist meng rezent Metermessungen"
+      },
+      "admin": {
+        "households": "Wéi vill Stéit hu mir?",
+        "billingCycles": "Lëscht eis rezent Rechnungszyklen",
+        "tariff": "Wat ass eisen aktuellen Tarifplang?"
+      },
+      "platform": {
+        "communities": "Lëscht all registréiert Communautéiten",
+        "usageReport": "Weist de Plattformverbrauchsbericht",
+        "systemStatus": "Wat ass de System Status?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Dir schéckt Messagen ze séier - waart w.e.g. e Moment a probéiert nach eng Kéier.",
+      "unavailable": "Den Assistent ass temporär net verfügbar. Probéiert w.e.g. geschwënn nach eng Kéier.",
+      "generic": "Eppes ass falsch gaang wann dee Message geschéckt gouf. Probéiert w.e.g. nach eng Kéier."
+    },
+    "emptyHint": "Frot mech eppes - ech kann nëmmen Är eegen Donnéeën gesinn.",
+    "closeAssistant": "Zoumaachen Assistent",
+    "openAssistant": "Open Assistent",
+    "inputPlaceholder": "Gitt e Message ...",
+    "inputLabel": "Message",
+    "send": "Schécken"
+  },
+  "supportBoard": {
+    "defaultTitle": "Ënnerstëtzung Ticketen",
+    "defaultCreateLabel": "Maacht nei Suergen",
+    "status": {
+      "open": "Oppen",
+      "inProgress": "A Beaarbechtung",
+      "resolved": "Geléist",
+      "closed": "Zougemaach"
+    },
+    "tabs": {
+      "all": "All Ticketen"
+    },
+    "recipients": {
+      "admin": "Gemeinschaft Admin",
+      "systemAdmin": "System Admin",
+      "both": "Communautéit Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Awunner",
+      "admin": "Admin"
+    },
+    "toRecipients": "An: {{recipients}}",
+    "raisedByResident": "Opgehuewe vum Awunner {{name}}",
+    "raisedByAdmin": "Opgewuess vum Admin {{name}}",
+    "refresh": "Erfrëschen",
+    "stats": {
+      "openLabel": "Open Soumissioun",
+      "openHint": "Waart op Iwwerpréiwung",
+      "inProgressLabel": "A Beaarbechtung",
+      "inProgressHint": "Un geschafft gëtt",
+      "resolvedLabel": "Geléist",
+      "resolvedHint": "Erfolleg zougemaach"
+    },
+    "searchPlaceholder": "Sich Ticketen no Sujet, Ausgab ...",
+    "loadingTickets": "Ticketen lueden…",
+    "empty": {
+      "title": "Keng Ënnerstëtzung Ticketen fonnt",
+      "body": "Dir hutt momentan keng oppen oder opgeholl Ënnerstëtzungsufroen déi dëse Filter passen.",
+      "cta": "Schéckt eng Suerg"
+    },
+    "errors": {
+      "loadList": "Konnt Support Ticketen net lueden. Probéiert w.e.g. nach eng Kéier.",
+      "loadDetail": "Konnt dësen Ticket net lueden. Probéiert w.e.g. nach eng Kéier.",
+      "required": "Betreff a Message sinn allebéid erfuerderlech.",
+      "recipientRequired": "Wielt op d'mannst een Empfänger (Community Admin an / oder System Admin).",
+      "submitFallback": "Konnt dësen Ticket net ofginn. Probéiert w.e.g. nach eng Kéier.",
+      "sendReply": "Konnt dëse Message net schécken. Probéiert w.e.g. nach eng Kéier.",
+      "updateStatus": "Konnt dësen Ticketstatus net aktualiséieren. Probéiert w.e.g. nach eng Kéier."
+    },
+    "form": {
+      "defaultHint": "Beschreift Är Problem oder Suerg hei ënnen.",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Kuerz Resumé vun Ärem Problem",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Beschreift am Detail wat geschitt ...",
+      "recipientsLabel": "Schéckt dës Suerg un",
+      "cancel": "Ofbriechen",
+      "submitting": "Erlaabt…",
+      "submit": "Ticket ofginn"
+    },
+    "detail": {
+      "loading": "Ticket lueden…",
+      "replyPlaceholder": "Schreift eng Äntwert ...",
+      "close": "Zoumaachen",
+      "sending": "Schéckt…",
+      "sendReply": "Schécken Äntwert"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Wëllkomm zréck, {{name}}",
+    "openMenu": "Menü opmaachen",
+    "closeMenu": "Menu zoumaachen",
+    "logout": "Ausloggen",
+    "search": "Sichen",
+    "notifications": "Notifikatiounen"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Haushaltsverzeechnes",
+      "meterReadings": "Meter Liesungen",
+      "billing": "Rechnung Gestioun",
+      "bulkPurchases": "Bulk Akeef",
+      "reports": "Rapporten",
+      "waterLeakage": "Waasser Leckage",
+      "support": "Ënnerstëtzung / Bedenken",
+      "tariffPlans": "Tarifpläng",
+      "announcements": "Ukënnegung",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hei ass e Snapshot vun Ärer Gemeinschaft."
+      },
+      "households": {
+        "title": "Haushaltsverzeechnes",
+        "subtitle": "Füügt, aktualiséieren a verwalten d'Awunner déi an Ärer Gemeinschaft liewen."
+      },
+      "meterReadings": {
+        "title": "Waasser Meter Liesen Hub",
+        "subtitle": "Sich no engem Awunner a notéiert hir Waassermeterlesung."
+      },
+      "tariffPlans": {
+        "title": "Tarif Configuratioun",
+        "subtitle": "Konfiguréiert tiered Tariflimiten, gemeinsame Käschte fir gemeinsame Beräicher a Verdeelungsmethoden fir Är Appartementgemeinschaft."
+      },
+      "billing": {
+        "title": "Rechnung Gestioun",
+        "subtitle": "Opzemaachen, finaliséieren an archivéieren Rechnungszyklen, a iwwerpréift itemiséiert Rechnungen pro Stot."
+      },
+      "bulkPurchases": {
+        "title": "Bulk Akeef",
+        "subtitle": "Rekord Tanker Liwwerungen a kommunale Versuergungskafe fir Är Gemeinschaft."
+      },
+      "waterLeakage": {
+        "title": "Waasser Leckage",
+        "subtitle": "Configuréieren Schwellen an outlier-baséiert Leck Alarmer, an iwwerpréift flagged Stéit."
+      },
+      "support": {
+        "title": "Ënnerstëtzung / Bedenken",
+        "subtitle": "Huelt Är eege Ticketen un de System Admin, oder behandelt Bedenken déi Är Awunner un Iech adresséiert hunn."
+      },
+      "profile": {
+        "title": "Astellungen & Profil",
+        "subtitle": "Managen Äre Kont Detailer an Appartement Informatiounen."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Gemeinschaft Admin",
+    "notBuilt": "{{label}} ass nach net gebaut",
+    "searchPlaceholder": "Sich no eppes ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporten",
+      "description": "Verbrauch, Rechnung, a Conservatioun Berichter fir Är Gemeinschaft."
+    },
+    "announcements": {
+      "title": "Ukënnegung",
+      "description": "Schéckt Gemeinschaftsbreet Ukënnegung un Är Awunner."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kënnt geschwënn"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Benotzungsgeschicht",
+      "bills": "Meng Rechnungen",
+      "recommendations": "Recommandatiounen",
+      "reports": "Rapporten",
+      "support": "Ënnerstëtzung / Bedenken",
+      "notifications": "Notifikatiounen",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Är Benotzungsgeschicht",
+      "billing": "Rechnung & Rechnungen",
+      "notifications": "Notifikatiounen",
+      "recommendations": "Recommandatiounen",
+      "support": "Ënnerstëtzung / Bedenken"
+    },
+    "defaultTitle": "Awunner Dashboard",
+    "navLabel": "Awunner Navigatioun",
+    "fallbackName": "Awunner",
+    "unit": "Eenheet {{number}}",
+    "comingSoon": "{{label}} kënnt geschwënn",
+    "profile": "Profil",
+    "searchPlaceholder": "Sichanalysen, Rechnungen ..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Communautéiten",
+      "reports": "Rapporten",
+      "supportTickets": "Ënnerstëtzung Ticketen",
+      "systemStatus": "System Status"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Plattformbreet Snapshot iwwer all registréiert Gemeinschaft."
+      },
+      "communities": {
+        "title": "Communautéiten",
+        "subtitle": "All registréiert Gemeinschaftsadministrator an hir Gemeinschaft, op enger Plaz."
+      },
+      "reports": {
+        "title": "Rapporten",
+        "subtitle": "Plattformbreet Waasserverbrauch a Rechnungszuelen, no Gemeinschaft a mat der Zäit."
+      },
+      "supportTickets": {
+        "title": "Ënnerstëtzung Ticketen",
+        "subtitle": "Ënnerstëtzt Ticketen a Bedenken, déi vun Awunner a Gemeinschaftsadministrateuren opgeworf ginn, Plattform-breet."
+      },
+      "systemStatus": {
+        "title": "System Status",
+        "subtitle": "Backend Konnektivitéit a Basis Runtime Gesondheet."
+      }
+    },
+    "fallbackName": "System Admin",
+    "platformOwner": "Plattform Besëtzer",
+    "searchPlaceholder": "Sich Gemeinschaften…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Sprooch: {{language}}",
+    "searchPlaceholder": "Sprooch sichen…",
+    "noMatches": "Keng Mätscher"
+  }
+}

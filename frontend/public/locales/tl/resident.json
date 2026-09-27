@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Paparating na",
+    "welcome": {
+      "greeting": "Kamusta {{name}},",
+      "greetingFallback": "kumusta,",
+      "title": "Manatiling malapit sa kwento ng tubig ng iyong tahanan.",
+      "subtitle": "Lalabas dito ang mga insight sa paggamit at pagsingil habang nagre-record ang iyong komunidad ng mga pagbabasa.",
+      "viewBadges": "Tingnan ang Mga Eco-Badge"
+    },
+    "stats": {
+      "todaysUsage": "Paggamit Ngayong Araw",
+      "asOf": "Mula noong {{date}}",
+      "noReading": "Wala pang metro reading",
+      "monthlyTotalFor": "Buwanang Kabuuan ({{month}})",
+      "monthlyTotalThisMonth": "Buwanang Kabuuan (sa buwang ito)",
+      "sumOfReadings": "Kabuuan ng mga naitalang pagbabasa",
+      "estimatedBill": "Kasalukuyang Tinantyang Bill",
+      "estimatedBillFor": "Metered na paggamit + nakabahaging singil, {{month}}",
+      "estimatedBillHint": "Batay sa metered consumption at shared charges ngayong buwan",
+      "savings": "Savings vs Building Avg",
+      "savingsValue": "{{percent}}% Mas kaunti",
+      "savingsPreview": "Preview lang — hindi pa live ang paghahambing"
+    },
+    "consumption": {
+      "eyebrow": "Pagkonsumo",
+      "title": "Pang-araw-araw na Pagkonsumo (Huling 14 na Pagbasa)",
+      "seriesName": "Pagkonsumo",
+      "empty": "Wala pang naitalang pagbabasa."
+    },
+    "breakdown": {
+      "eyebrow": "Pagkasira",
+      "title": "Pagkakasira ng Paggamit",
+      "bathroom": "Banyo",
+      "kitchen": "Kusina",
+      "garden": "Hardin / Balkonahe",
+      "other": "Iba pa / Paglalaba"
+    },
+    "billing": {
+      "eyebrow": "Pagsingil",
+      "title": "Aktibong Ikot ng Pagsingil",
+      "finalized": "Natapos na",
+      "preview": "Silipin",
+      "meteredConsumption": "Meter na pagkonsumo",
+      "tierPriceLevel": "Antas ng presyo ng tier",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Karaniwang paghahati sa lugar",
+      "commonAreaPreview": "Karaniwang paghahati-hati ng lugar (preview)",
+      "invoiceTotal": "{{period}} kabuuan ng invoice",
+      "estimatedCharge": "Kasalukuyang tinantyang singil",
+      "commonAreaBreakdown": "Karaniwang pagkasira ng lugar",
+      "payPreview": "Pay Bill Preview",
+      "payUnavailable": "Hindi pa available ang makina ng pagsingil"
+    },
+    "tips": {
+      "eyebrow": "Mga tip",
+      "title": "Mga Tip sa Smart Saving",
+      "viewAll": "Tingnan lahat",
+      "empty": "Lumilitaw dito ang mga personalized na tip pagkatapos na tapusin ng iyong komunidad ang isang yugto ng pagsingil."
+    },
+    "community": "Komunidad: {{name}}"
+  },
+  "usage": {
+    "loadError": "Hindi ma-load ang iyong kasaysayan ng paggamit. Pakisubukang muli.",
+    "loading": "Nilo-load ang iyong analytics sa paggamit...",
+    "empty": "Wala pang naitalang pagbabasa. Kapag nakapagtala ang iyong komunidad ng pagbabasa ng metro, lalabas ito dito.",
+    "tabs": {
+      "lastSixMonths": "Huling 6 na Buwan",
+      "customRange": "Custom na Saklaw",
+      "comingSoon": "Paparating na"
+    },
+    "peakDay": "Araw ng Peak:",
+    "lowestDay": "Pinakamababang Araw:",
+    "comparison": {
+      "title": "Pagkonsumo ng Sambahayan kumpara sa Average na Apartment",
+      "subtitle": "Mga buwanang kabuuan na ipinapakita sa kiloliter (kL).",
+      "yourHousehold": "Ang iyong Sambahayan",
+      "apartmentAverage": "Pangkaraniwan sa Apartment",
+      "similarSized": "Mga Bahay na Magkatulad"
+    },
+    "heatmap": {
+      "title": "Pang-araw-araw na Consumption Heatmap",
+      "subtitle": "Binabandera ng intensity ng kulay ang mabibigat na araw ng paggamit (preview)."
+    },
+    "ranking": {
+      "title": "Pagraranggo ng Peer sa Komunidad",
+      "subtitle": "Ang iyong ranggo kumpara sa mga katulad na unit (preview).",
+      "ecoSaver": "Aktibong Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Yunit {{number}}",
+      "yourUnit": "Iyong unit",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Ikaw)"
+    }
+  },
+  "billing": {
+    "loadError": "Hindi ma-load ang iyong kasaysayan ng pagsingil. Pakisubukang muli.",
+    "pdfError": "Hindi ma-download ang PDF. Pakisubukang muli.",
+    "loading": "Nilo-load ang iyong history ng pagsingil...",
+    "empty": "Wala pang mga invoice — kapag natapos na ng iyong komunidad ang isang yugto ng pagsingil, lalabas dito ang iyong mga singil.",
+    "status": {
+      "paid": "Binayaran",
+      "unpaid": "Walang bayad"
+    },
+    "summary": {
+      "outstandingBalance": "Natitirang Balanse",
+      "billingCycle": "Ikot ng Pagsingil: {{period}}",
+      "allPaid": "Ang lahat ng mga invoice ay binabayaran",
+      "payTotal": "Magbayad ng Total Outstanding",
+      "payTotalUnavailable": "Hindi pa available ang online na pagbabayad — direktang bayaran ang mga bill sa iyong admin ng komunidad",
+      "downloadSummary": "I-download ang Buod ng Bill",
+      "downloadSummaryUnavailable": "Hindi pa available ang pag-download ng buod ng bill"
+    },
+    "history": {
+      "title": "Kasaysayan ng Invoice",
+      "exportCsv": "I-export ang Lahat sa CSV",
+      "exportUnavailable": "CSV ang pag-export ay hindi pa available"
+    },
+    "table": {
+      "cycle": "Ikot",
+      "usage": "Paggamit (kL)",
+      "amountDue": "Halagang Babayaran",
+      "paymentStatus": "Katayuan ng Pagbabayad",
+      "hideBreakdown": "Itago ang Breakdown ↑",
+      "showBreakdown": "Itemized Breakdown ↓",
+      "downloading": "Dina-download…",
+      "pdf": "PDF",
+      "pay": "Magbayad"
+    },
+    "breakdown": {
+      "householdTitle": "Pagkasira ng Pagkonsumo ng Sambahayan",
+      "basePrice": "Batayang Presyo: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Metered na Paggamit",
+      "commonAreaTitle": "Common Area Apportionment",
+      "subtotalShared": "Subtotal na Nakabahaging Lugar",
+      "noCommonArea": "Walang shared common-area charges para sa cycle na ito."
+    },
+    "pagination": {
+      "showing": "Ipinapakita ang {{from}}–{{to}} ng {{total}}",
+      "prev": "← Nakaraan",
+      "next": "Susunod →",
+      "page": "Pahina {{page}} ng {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Mga paraan ng pagbabayad (preview)",
+      "description": "Hindi pa available ang online na pagbabayad — direktang binabayaran ang mga bill sa iyong admin ng komunidad.",
+      "manage": "Pamahalaan ang Mga Paraan ng Pagbabayad",
+      "manageUnavailable": "Hindi pa available ang mga paraan ng pagbabayad"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Sinigurado ni Razorpay",
+    "billingCycle": "Ikot ng Pagsingil {{period}}",
+    "close": "Isara",
+    "amountPayable": "Halaga ng Babayaran",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Mga card",
+      "netbanking": "Netbanking",
+      "wallet": "Wallet"
+    },
+    "upi": {
+      "title": "Magbayad sa pamamagitan ng UPI",
+      "upiId": "UPI ID",
+      "or": "O",
+      "scan": "Mag-scan gamit ang anumang UPI app"
+    },
+    "card": {
+      "title": "Magbayad sa pamamagitan ng Card",
+      "number": "Numero ng Card",
+      "expiry": "Expired",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Pangalan sa Card",
+      "namePlaceholder": "Tulad ng naka-print sa card"
+    },
+    "netbanking": {
+      "title": "Magbayad sa pamamagitan ng Netbanking"
+    },
+    "wallet": {
+      "title": "Magbayad sa pamamagitan ng Wallet"
+    },
+    "payAmount": "Magbayad ng ₹{{amount}}",
+    "processing": "Pinoproseso ang iyong pagbabayad…",
+    "processingHint": "Mangyaring huwag pindutin muli o i-refresh ang pahinang ito",
+    "success": "Matagumpay ang Pagbabayad",
+    "error": "Nagkaproblema sa pagkumpirma ng iyong pagbabayad. Pakisubukang muli.",
+    "retry": "Subukan muli"
+  },
+  "notifications": {
+    "loadError": "Hindi ma-load ang iyong mga notification. Pakisubukang muli.",
+    "loading": "Nilo-load ang iyong mga notification...",
+    "empty": "Wala pang mga notification — may makikita ka rito kung pinagana ng iyong admin ng komunidad ang mga alerto sa limitasyon ng paggamit o hindi pangkaraniwang pagkonsumo at na-trigger ang isa para sa iyong sambahayan.",
+    "type": {
+      "thresholdExceeded": "Lumampas sa Limitasyon ng Pagkonsumo",
+      "statisticalOutlier": "Natukoy ang Hindi Karaniwang Pagkonsumo"
+    },
+    "status": {
+      "active": "Aktibo",
+      "resolved": "Nalutas",
+      "dismissed": "Nadismiss"
+    },
+    "billingPeriod": "Panahon ng pagsingil: {{period}}",
+    "consumption": "Pagkonsumo: {{value}} kL",
+    "push": {
+      "title": "Mga push notification",
+      "description": "Maabisuhan sa device na ito kapag may pumasok na bagong bill o alerto.",
+      "enable": "Paganahin",
+      "disable": "Huwag paganahin",
+      "permissionDenied": "Hindi ibinigay ang pahintulot sa pag-abiso.",
+      "notConfigured": "Hindi pa naka-configure ang mga push notification. Makipag-ugnayan sa iyong admin.",
+      "enableError": "Hindi ma-enable ang mga push notification. Pakisubukang muli.",
+      "disableError": "Hindi ma-disable ang mga push notification. Pakisubukang muli."
+    }
+  },
+  "recommendations": {
+    "loadError": "Hindi ma-load ang iyong mga rekomendasyon. Pakisubukang muli.",
+    "loading": "Nilo-load ang iyong mga personalized na tip…",
+    "generated": "Binuo {{date}}",
+    "generatedForPeriod": "Binuo {{date}} para sa panahon ng pagsingil {{period}}",
+    "eyebrow": "Personalized para sa iyo",
+    "title": "Mga Tip sa Smart Water-Saving",
+    "empty": "Wala pang nabuong mga tip — ang mga ito ay awtomatikong nire-refresh sa tuwing magtatapos ang iyong komunidad ng cycle ng pagsingil para sa iyong sambahayan."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Magsumite ng mga ulat sa pagtagas ng tubig, mga kahilingan sa pag-calibrate ng metro, o mga katanungan sa pagsingil nang direkta sa iyong admin ng komunidad at/o Admin ng System.",
+    "emptyCreateHint": "Ilarawan ang iyong isyu o alalahanin sa ibaba, at piliin kung sino ang dapat humawak nito."
+  }
+}

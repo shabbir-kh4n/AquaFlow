@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Kapalı",
+    "signUpTitle": "Topluluğunuzu kaydedin",
+    "signInTitle": "tekrar hoşgeldiniz",
+    "signUpSubtitle": "Konut sakinlerini ve faturalandırmayı yönetmeye başlamak için bir Topluluk Yöneticisi hesabı oluşturun.",
+    "signInSubtitle": "Su kullanımınızı ve faturalarınızı görüntülemek için oturum açın."
+  },
+  "signIn": {
+    "errorFallback": "Oturum açılamıyor. Lütfen tekrar deneyin.",
+    "emailLabel": "E-posta",
+    "passwordLabel": "Şifre",
+    "rememberMe": "Beni Hatırla",
+    "forgotPassword": "Parolanızı mı unuttunuz?",
+    "submitting": "Oturum açılıyor…",
+    "submit": "Oturum aç",
+    "noAccount": "Hesabınız yok mu?",
+    "signUpLink": "Üye olmak"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Şifreler eşleşmiyor.",
+      "communityRequired": "Topluluk adı gerekli.",
+      "termsRequired": "Lütfen Hizmet Şartlarını ve Gizlilik Politikasını kabul edin.",
+      "fallback": "Hesap oluşturulamıyor. Lütfen tekrar deneyin."
+    },
+    "hint": "Buraya yalnızca topluluk yöneticileri kaydolur. İçeri girdiğinizde sakinlerinizin ayrıntılarını kendiniz ekleyeceksiniz; onlar kendi başlarına kaydolmazlar.",
+    "fullNameLabel": "Ad Soyad",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon numarası",
+    "communityNameLabel": "Topluluk adı",
+    "passwordLabel": "Şifre",
+    "confirmPasswordLabel": "Şifreyi onayla",
+    "agreeTerms": "<termsLink>Hizmet Şartları</termsLink> ve <privacyLink>Gizlilik Politikası</privacyLink>'nı kabul ediyorum",
+    "submitting": "Hesap oluşturuluyor…",
+    "submit": "Yönetici Hesabı Oluştur",
+    "haveAccount": "Zaten bir hesabınız var mı?",
+    "signInLink": "Oturum aç"
+  },
+  "installPrompt": {
+    "title": "HydroLedger yükleyin",
+    "description": "Hızlı erişim için ana ekranınıza ekleyin.",
+    "dismiss": "Azletmek",
+    "install": "Düzenlemek"
+  },
+  "setPassword": {
+    "title": "Şifrenizi belirleyin",
+    "loading": "Yükleniyor…",
+    "subtitle": "Merhaba {{name}}, HydroLedger hesabınızı etkinleştirmek için {{email}} için bir şifre seçin.",
+    "errors": {
+      "invalidLink": "Bu bağlantı geçersiz veya süresi dolmuş.",
+      "tooShort": "Şifre en az 8 karakter olmalıdır.",
+      "mismatch": "Şifreler eşleşmiyor.",
+      "fallback": "Şifreniz ayarlanamadı. Lütfen tekrar deneyin."
+    },
+    "passwordLabel": "Şifre",
+    "confirmPasswordLabel": "Şifreyi onayla",
+    "submitting": "Şifre ayarlanıyor…",
+    "submit": "Şifre belirleyin ve oturum açın"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistan",
+      "resident": "Hesabınız hakkında soru sorun",
+      "admin": "Topluluk Asistanı",
+      "platform": "Platform Asistanı",
+      "default": "Asistan"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger nedir?",
+        "tieredBilling": "Katmanlı faturalandırma nasıl çalışır?",
+        "leaks": "Sızıntılar nasıl tespit edilir?"
+      },
+      "resident": {
+        "billEstimate": "Şu anki fatura tahminim nedir?",
+        "alerts": "Herhangi bir kullanım uyarım var mı?",
+        "readings": "Son sayaç okumalarımı göster"
+      },
+      "admin": {
+        "households": "Kaç hanemiz var?",
+        "billingCycles": "Son faturalandırma döngülerimizi listeleyin",
+        "tariff": "Mevcut tarife planımız nedir?"
+      },
+      "platform": {
+        "communities": "Tüm kayıtlı toplulukları listele",
+        "usageReport": "Platform kullanım raporunu göster",
+        "systemStatus": "Sistem durumu nedir?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mesajları çok hızlı gönderiyorsunuz; lütfen biraz bekleyip tekrar deneyin.",
+      "unavailable": "Asistan geçici olarak kullanılamıyor. Lütfen kısa süre sonra tekrar deneyin.",
+      "generic": "Bu mesajı gönderirken bir şeyler ters gitti. Lütfen tekrar deneyin."
+    },
+    "emptyHint": "Bana bir şey sor; yalnızca senin kendi verilerini görebilirim.",
+    "closeAssistant": "Asistanı kapat",
+    "openAssistant": "Asistanı aç",
+    "inputPlaceholder": "Bir mesaj yazın…",
+    "inputLabel": "Mesaj",
+    "send": "Göndermek"
+  },
+  "supportBoard": {
+    "defaultTitle": "Destek Biletleri",
+    "defaultCreateLabel": "Yeni Endişeyi Dile Getirin",
+    "status": {
+      "open": "Açık",
+      "inProgress": "Devam etmekte",
+      "resolved": "Çözüldü",
+      "closed": "Kapalı"
+    },
+    "tabs": {
+      "all": "Tüm Biletler"
+    },
+    "recipients": {
+      "admin": "Topluluk Yöneticisi",
+      "systemAdmin": "Sistem Yöneticisi",
+      "both": "Topluluk Yöneticisi + Sistem Yöneticisi"
+    },
+    "roles": {
+      "resident": "İkamet eden kişi",
+      "admin": "Yönetici"
+    },
+    "toRecipients": "Kime: {{recipients}}",
+    "raisedByResident": "{{name}} sakini tarafından büyütüldü",
+    "raisedByAdmin": "Yönetici tarafından yükseltildi {{name}}",
+    "refresh": "Yenile",
+    "stats": {
+      "openLabel": "Gönderimleri Aç",
+      "openHint": "İnceleme bekleniyor",
+      "inProgressLabel": "Devam etmekte",
+      "inProgressHint": "Üzerinde çalışılıyor",
+      "resolvedLabel": "Çözüldü",
+      "resolvedHint": "Başarıyla kapatıldı"
+    },
+    "searchPlaceholder": "Konuya, sayıya göre bilet arayın…",
+    "loadingTickets": "Biletler yükleniyor…",
+    "empty": {
+      "title": "Destek Bileti Bulunamadı",
+      "body": "Şu anda bu filtreyle eşleşen açık veya kayıtlı destek isteğiniz yok.",
+      "cta": "Bir Endişenizi Bildirin"
+    },
+    "errors": {
+      "loadList": "Destek biletleri yüklenemedi. Lütfen tekrar deneyin.",
+      "loadDetail": "Bu bilet yüklenemedi. Lütfen tekrar deneyin.",
+      "required": "Hem konu hem de mesaj gereklidir.",
+      "recipientRequired": "En az bir alıcı seçin (Topluluk Yöneticisi ve/veya Sistem Yöneticisi).",
+      "submitFallback": "Bu bilet gönderilemedi. Lütfen tekrar deneyin.",
+      "sendReply": "Bu mesaj gönderilemedi. Lütfen tekrar deneyin.",
+      "updateStatus": "Bu bilet durumu güncellenemedi. Lütfen tekrar deneyin."
+    },
+    "form": {
+      "defaultHint": "Sorununuzu veya endişenizi aşağıda açıklayın.",
+      "subjectLabel": "Ders",
+      "subjectPlaceholder": "Sorununuzun kısa özeti",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Olan biteni ayrıntılı olarak anlatın…",
+      "recipientsLabel": "Bu kaygıyı şu adrese ilet:",
+      "cancel": "İptal etmek",
+      "submitting": "Gönderiliyor…",
+      "submit": "Bilet Gönder"
+    },
+    "detail": {
+      "loading": "Bilet yükleniyor…",
+      "replyPlaceholder": "Bir cevap yazın…",
+      "close": "Kapalı",
+      "sending": "Gönderiliyor…",
+      "sendReply": "Yanıt Gönder"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Tekrar hoş geldiniz, {{name}}",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "logout": "Oturumu kapat",
+    "search": "Aramak",
+    "notifications": "Bildirimler"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Kontrol Paneli",
+      "households": "Hane Rehberi",
+      "meterReadings": "Sayaç Okumaları",
+      "billing": "Fatura Yönetimi",
+      "bulkPurchases": "Toplu Alımlar",
+      "reports": "Raporlar",
+      "waterLeakage": "Su Sızıntısı",
+      "support": "Destek / Endişeler",
+      "tariffPlans": "Tarife Planları",
+      "announcements": "Duyurular",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "İşte topluluğunuzun anlık görüntüsü."
+      },
+      "households": {
+        "title": "Hane Rehberi",
+        "subtitle": "Topluluğunuzda yaşayan sakinleri ekleyin, güncelleyin ve yönetin."
+      },
+      "meterReadings": {
+        "title": "Su Sayacı Okuma Merkezi",
+        "subtitle": "Bir sakini arayın ve su sayacı okumalarını kaydedin."
+      },
+      "tariffPlans": {
+        "title": "Tarife Yapılandırması",
+        "subtitle": "Apartman topluluğunuz için kademeli fiyat sınırlarını, paylaşılan ortak alan maliyetlerini ve dağıtım yöntemlerini yapılandırın."
+      },
+      "billing": {
+        "title": "Fatura Yönetimi",
+        "subtitle": "Faturalandırma döngülerini açın, sonlandırın ve arşivleyin ve hane başına ayrıntılı faturaları inceleyin."
+      },
+      "bulkPurchases": {
+        "title": "Toplu Alımlar",
+        "subtitle": "Topluluğunuz için tanker teslimatlarını ve belediye malzeme alımlarını kaydedin."
+      },
+      "waterLeakage": {
+        "title": "Su Sızıntısı",
+        "subtitle": "Eşik ve aykırı değere dayalı sızıntı uyarılarını yapılandırın ve işaretlenen haneleri inceleyin."
+      },
+      "support": {
+        "title": "Destek / Endişeler",
+        "subtitle": "Sistem Yöneticisine kendi bildirimlerinizi oluşturun veya sakinlerinizin size ilettiği endişeleri ele alın."
+      },
+      "profile": {
+        "title": "Ayarlar ve Profil",
+        "subtitle": "Hesap ayrıntılarınızı ve daire bilgilerinizi yönetin."
+      }
+    },
+    "fallbackName": "Yönetici",
+    "fallbackCommunity": "Topluluk Yöneticisi",
+    "notBuilt": "{{label}} henüz oluşturulmadı",
+    "searchPlaceholder": "Herhangi bir şeyi arayın…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Raporlar",
+      "description": "Topluluğunuz için tüketim, faturalandırma ve koruma raporları."
+    },
+    "announcements": {
+      "title": "Duyurular",
+      "description": "Sakinlerinize topluluk çapında duyurular gönderin."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} yakında geliyor"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Kontrol Paneli",
+      "usageHistory": "Kullanım Geçmişi",
+      "bills": "Faturalarım",
+      "recommendations": "Öneriler",
+      "reports": "Raporlar",
+      "support": "Destek / Endişeler",
+      "notifications": "Bildirimler",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Kullanım geçmişiniz",
+      "billing": "Faturalandırma ve Faturalar",
+      "notifications": "Bildirimler",
+      "recommendations": "Öneriler",
+      "support": "Destek / Endişeler"
+    },
+    "defaultTitle": "Yerleşik Kontrol Paneli",
+    "navLabel": "Yerleşik navigasyon",
+    "fallbackName": "İkamet eden kişi",
+    "unit": "Birim {{number}}",
+    "comingSoon": "{{label}} yakında geliyor",
+    "profile": "Profil",
+    "searchPlaceholder": "Arama analizleri, faturalar…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Kontrol Paneli",
+      "communities": "Topluluklar",
+      "reports": "Raporlar",
+      "supportTickets": "Destek Biletleri",
+      "systemStatus": "Sistem Durumu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Kayıtlı her toplulukta platform çapında anlık görüntü."
+      },
+      "communities": {
+        "title": "Topluluklar",
+        "subtitle": "Kayıtlı tüm topluluk yöneticileri ve toplulukları tek bir yerde."
+      },
+      "reports": {
+        "title": "Raporlar",
+        "subtitle": "Topluluğa ve zamana göre platform çapında su kullanımı ve faturalandırma rakamları."
+      },
+      "supportTickets": {
+        "title": "Destek Biletleri",
+        "subtitle": "Platform genelinde sakinler ve topluluk yöneticileri tarafından dile getirilen bildirimleri ve endişeleri destekleyin."
+      },
+      "systemStatus": {
+        "title": "Sistem Durumu",
+        "subtitle": "Arka uç bağlantısı ve temel çalışma zamanı durumu."
+      }
+    },
+    "fallbackName": "Sistem Yöneticisi",
+    "platformOwner": "Platform Sahibi",
+    "searchPlaceholder": "Toplulukları arayın…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Dil: {{language}}",
+    "searchPlaceholder": "Dil ara…",
+    "noMatches": "Eşleşme yok"
+  }
+}

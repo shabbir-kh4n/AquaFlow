@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Ana lodawa…",
+    "saving": "Ana ajiyewa…",
+    "saved": "Ajiye",
+    "uploading": "Ana lodawa…",
+    "upload": "Loda",
+    "uploadError": "An kasa loda wannan fayil ɗin. Da fatan za a sake gwadawa.",
+    "cancel": "Soke",
+    "close": "Kusa",
+    "edit": "Gyara",
+    "remove": "Cire",
+    "saveChanges": "Ajiye Canje-canje",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Row {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Prev",
+    "next": "Na gaba →",
+    "page": "Shafi {{page}} na {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "An kasa loda bayanan al'ummar ku a yanzu.",
+    "title": "{{community}} Dashboard na Apartment",
+    "titleFallback": "Dashboard na Apartment",
+    "subtitle": "Takaitacciyar aiki don ƙananan mitoci masu amfani da ruwa da amfanin gida.",
+    "comingSoon": "Ana zuwa nan ba da jimawa ba",
+    "manageCommunity": "Sarrafa Al'umma",
+    "noUsageReadings": "Ba a yi rikodin karatun amfani ba tukuna.",
+    "cards": {
+      "totalHouseholds": "Jimlar Iyali",
+      "occupied": "An shagaltar da shi",
+      "activeMeters": "Mita masu aiki",
+      "reportingReadings": "Rahoton karatu",
+      "monthlyConsumption": "Amfanin wata-wata",
+      "thisCalendarMonth": "Wannan watan kalanda",
+      "latestRecordedMonth": "Latest recorded month ({{month}})",
+      "noReadingsYet": "Ba a yi rikodin karatun ba tukuna",
+      "pendingAlerts": "Faɗakarwar da ake jira",
+      "anomalyPreview": "Samfurin gano anomaly - har yanzu ba a samu ba"
+    },
+    "actions": {
+      "label": "Ayyukan Gudanarwa na gaggawa",
+      "uploadReadings": "Loda Karatun Mita",
+      "configureTariffs": "Sanya Tariffs",
+      "reportsNotBuilt": "Har yanzu ba a gina rahotanni ba",
+      "downloadReports": "Zazzage Rahoton Tsarin"
+    },
+    "chart": {
+      "title": "Monthly Consumption Comparison (kL)",
+      "subtitle": "Last {{months}} months: target vs. actual consumption.",
+      "targetSeries": "Target (samfoti)",
+      "actualSeries": "Ainihin"
+    },
+    "recent": {
+      "title": "Karatun Mita na Kwanan nan",
+      "unit": "Naúrar",
+      "resident": "Mazaunin",
+      "lastReading": "Karatun Karshe",
+      "consumption": "Amfani"
+    }
+  },
+  "households": {
+    "loadError": "An kasa loda mazauna. Da fatan za a sake gwadawa.",
+    "fixFields": "Da fatan za a gyara filaye da aka haskaka.",
+    "saveError": "An kasa ajiye wannan mazaunin. Da fatan za a duba cikakkun bayanai.",
+    "confirmRemove": "Cire {{name}} daga kundin adireshin gidan ku?",
+    "removeError": "An kasa cire wannan mazaunin. Da fatan za a sake gwadawa.",
+    "count": "Households: {{total}}",
+    "bulkUploadButton": "⇪ Jumla Upload",
+    "addResidentButton": "+ Ƙara Mazauni",
+    "searchPlaceholder": "Tace da suna, gida, imel, ko mitar no.",
+    "loading": "Ana loda mazauna…",
+    "empty": "Babu mazauna tukuna. Danna \"Ƙara Mazauni\" don yin rajistar gidan farko.",
+    "noMatch": "No residents match \"{{search}}\".",
+    "sort": {
+      "label": "Kasa",
+      "name": "Suna",
+      "houseNumber": "Lambar Gida",
+      "dateOfJoining": "Ranar Shiga",
+      "toggleDirection": "Juya hanyar daidaitawa",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Namiji",
+      "female": "Mace",
+      "other": "Sauran"
+    },
+    "table": {
+      "name": "Suna",
+      "houseUnit": "Gida / Unit",
+      "email": "Imel",
+      "phone": "Waya",
+      "meterNumber": "Mita A'a.",
+      "sqft": "Sqft",
+      "joined": "An shiga"
+    },
+    "form": {
+      "addTitle": "Ƙara Mazauni",
+      "editTitle": "Gyara Mazauni",
+      "editSubtitle": "Wannan yana sabunta bayanan mazaunin cikin littafin ku.",
+      "bypassSubtitle": "Kuna saita kalmar sirrin wannan mazaunin kai tsaye. Ba za a aika imel ba.",
+      "addSubtitle": "Za a aiko da hanyar haɗin yanar gizon saitin kalmar sirri zuwa ga wannan mazaunin don su kunna shiga nasu.",
+      "fullName": "Cikakken suna",
+      "houseNumber": "Gidan / naúrar no.",
+      "email": "Imel",
+      "phone": "Lambar tarho",
+      "meterNumber": "Lambar mita",
+      "governmentId": "ID na gwamnati",
+      "gender": "Jinsi",
+      "dateOfBirth": "Ranar haifuwa",
+      "dateOfJoining": "Ranar shiga",
+      "flatSize": "Girman lebur (sq ft)",
+      "bypassLabel": "Kewaya saitin kalmar sirri imel - saita kalmar sirri don wannan mazaunin yanzu",
+      "password": "Kalmar wucewa",
+      "confirmPassword": "Tabbata kalmar shiga"
+    },
+    "validation": {
+      "fullNameRequired": "Ana buƙatar cikakken suna.",
+      "emailRequired": "Ana buƙatar imel.",
+      "phoneRequired": "Ana buƙatar lambar waya.",
+      "houseNumberRequired": "Ana buƙatar lambar gida/raka.",
+      "houseNumberTaken": "An riga an sanya wannan lambar gidan ga wani mazaunin.",
+      "meterNumberRequired": "Ana buƙatar lambar mita.",
+      "meterNumberFormat": "Dole ne lambar mita ta yi kama da MTR-1234 (lambobi 4).",
+      "meterNumberTaken": "An riga an sanya wannan lambar mita ga wani mazaunin.",
+      "governmentIdRequired": "Ana buƙatar ID na gwamnati.",
+      "governmentIdFormat": "ID dole ne ya zama lambobi 6 farawa da 99 (misali 991234).",
+      "genderRequired": "Da fatan za a zaɓi jinsi.",
+      "dateOfBirthRequired": "Ana buƙatar ranar haihuwa.",
+      "dateOfJoiningRequired": "Ana buƙatar ranar shiga.",
+      "passwordRequired": "Ana buƙatar kalmar sirri.",
+      "passwordLength": "Dole ne kalmar wucewa ta zama aƙalla haruffa 8.",
+      "confirmPasswordRequired": "Da fatan za a tabbatar da kalmar wucewa.",
+      "passwordMismatch": "Kalmomin sirri ba su daidaita ba."
+    },
+    "bulk": {
+      "title": "Yawan Loda Mazauna",
+      "noFile": "Da fatan za a zaɓi fayil ɗin .csv ko .xlsx/.xls don lodawa.",
+      "instructions": "Loda fayil ɗin .csv ko .xlsx/.xls tare da ginshiƙai <code>{{columns}}</code> (kalmar sirri da flatSizeSqft duka na zaɓi ne). Layuka tare da kalmar sirri saita shi kai tsaye; Layuka ba tare da ɗaya suna samun imel ɗin saitin kalmar wucewa ba, daidai da ƙara mazaunin da hannu. Kwafin lambobi na gida/mita ko imel ana ƙi su a jere-mummunan jere ɗaya ba zai gaza duka ba."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "An kasa loda mazauna. Da fatan za a sake gwadawa.",
+    "historyLoadError": "An kasa loda tarihin karatun. Da fatan za a sake gwadawa.",
+    "successMessage": "Successfully recorded reading of {{value}} kL for {{house}} (Meter: {{meter}})! Calculated consumption: {{consumption}} kL.",
+    "tabs": {
+      "single": "Shiga Guda Daya",
+      "csv": "Juyawa CSV Loda",
+      "history": "Tarihin Karatu"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Wannan mazaunin ba shi da lambar mita a fayil.",
+      "dateRequired": "Ana buƙatar ranar karatu.",
+      "invalidValue": "Da fatan za a shigar da ingantaccen, ƙimar karatu mara kyau.",
+      "duplicate": "An riga an karanta karatun wannan mita a wannan ranar.",
+      "meterNotFound": "Ba a iya samun wannan mita ba. Da fatan za a sake zabar mazaunin.",
+      "lowerThanPrevious": "Wannan karatun ya yi ƙasa da karatun da aka rubuta a baya.",
+      "recordFailed": "An kasa yin rikodin wannan karatun. Da fatan za a sake gwadawa."
+    },
+    "combo": {
+      "label": "Zaɓi Serial Flat & Mita",
+      "placeholder": "Zaɓi Serial Flat & Mita…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Babu mita",
+      "searchPlaceholder": "Bincika flat no, serial mita, mazaunin…",
+      "unitsHeader": "Rukunan zama",
+      "found": "Flats found: {{total}}",
+      "loading": "Ana loda mazauna…",
+      "noMatch": "No residents match \"{{search}}\".",
+      "unassigned": "Ba a sanyawa ba",
+      "itemMeta": "{{name}} · Last: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Yin rikodin karatu don",
+      "context": "Gida {{house}} · Mita {{meter}}",
+      "changeResident": "Canja mazaunin",
+      "readingDate": "Kwanan karatu",
+      "readingValue": "Current Meter Reading (kL)",
+      "submit": "Gabatar da Ingantacciyar Karatu",
+      "recentTitle": "Karatun kwanan nan",
+      "recentEmpty": "Har yanzu ba a yi rikodin karatun na wannan mita ba."
+    },
+    "info": {
+      "title": "Tabbatar da Mitar monotonic",
+      "body": "Kowane sabon karatu dole ne ya fi ko daidai da log ɗin da ya gabata na waccan mita - wannan yana kiyaye lissafin amfani daidai kuma yana kama lambobi da aka canza da wuri."
+    },
+    "details": {
+      "title": "Cikakken Bayanin Naúrar da aka zaɓa",
+      "flatUnit": "Rukunin Flat",
+      "meterSerial": "Serial Mita",
+      "occupant": "Sunan mazaunin",
+      "lastDial": "Kiran Kira na Karshe",
+      "noReadings": "Babu karatu tukuna",
+      "monthConsumption": "Amfanin Watan",
+      "empty": "Babu gida da aka zaɓa. Bincika kuma zaɓi mazaunin don ganin cikakkun bayanan mitar su anan."
+    },
+    "csv": {
+      "noFile": "Da fatan za a zaɓi fayil CSV don lodawa.",
+      "instructions": "Loda CSV tare da ginshiƙai <code>{{columns}}</code>. Ana sarrafa layuka daban-daban - jere mara kyau ɗaya ba zai gaza duka ba."
+    },
+    "history": {
+      "loading": "Ana loda karatun…",
+      "empty": "Har yanzu babu wani karatun da aka yi rikodin don al'ummar ku."
+    },
+    "table": {
+      "meterNumber": "Mita A'a.",
+      "date": "Kwanan wata",
+      "value": "Value (kL)",
+      "consumption": "Consumption (kL)",
+      "source": "Source"
+    }
+  },
+  "billingCycles": {
+    "title": "Zagayen Biyan Kuɗi",
+    "loadError": "An kasa loda zagayowar lissafin kuɗi. Da fatan za a sake gwadawa.",
+    "paymentUpdateError": "An kasa sabunta halin biyan wannan daftari.",
+    "pdfError": "An kasa zazzage PDF. Da fatan za a sake gwadawa.",
+    "finalizeError": "An kasa kammala wannan zagaye na lissafin kuɗi.",
+    "archiveError": "Ba za a iya ajiye wannan tsarin lissafin kuɗi ba.",
+    "loading": "Ana loda keken kuɗi…",
+    "empty": "Ba a sake zagayowar lissafin kuɗi ba tukuna. Bude daya a sama don farawa.",
+    "status": {
+      "open": "Bude",
+      "finalized": "Ƙarshe",
+      "archived": "Ajiye"
+    },
+    "open": {
+      "title": "Bude Sabon Zagayowar Kuɗi",
+      "noMonth": "Da fatan za a zaɓi wata ɗaya don buɗewa.",
+      "error": "An kasa buɗe zagayowar lissafin kuɗi na wannan watan.",
+      "monthAria": "Lokacin biyan kuɗi watan",
+      "opening": "Ana buɗewa…",
+      "submit": "Bude Zagayowar"
+    },
+    "table": {
+      "period": "Lokaci",
+      "status": "Matsayi",
+      "householdsBilled": "Magidanta An biya",
+      "totalBilled": "Jimillar Kuɗi",
+      "actions": "Ayyuka"
+    },
+    "actions": {
+      "finalize": "Ƙarshe",
+      "finalizing": "Ana gamawa…",
+      "archive": "Taskoki",
+      "archiving": "Ana ajiyewa…"
+    },
+    "filter": {
+      "aria": "Tace ta halin biya",
+      "all": "Duka"
+    },
+    "payment": {
+      "paid": "An biya",
+      "unpaid": "Ba a biya ba",
+      "updating": "Ana sabuntawa…",
+      "markPaid": "Yi alama kamar yadda aka biya",
+      "markUnpaid": "Yi alama a matsayin wanda ba a biya ba"
+    },
+    "detail": {
+      "title": "Cikakken Bayani - {{period}}",
+      "loading": "Ana loda daftari…",
+      "notFinalized": "Ba a kammala wannan zagayowar ba tukuna - ba a samar da daftari ba.",
+      "noInvoices": "Babu daftari don wannan zagayowar.",
+      "noMatch": "Babu takardun kudi da suka dace da wannan tace."
+    },
+    "invoices": {
+      "household": "Gidan gida",
+      "resident": "Mazaunin",
+      "meterNumber": "Mita A'a.",
+      "consumption": "Consumption (kL)",
+      "tierBreakdown": "Rushewar matakin",
+      "commonArea": "Yankin gama gari",
+      "total": "Jimlar",
+      "paymentStatus": "Matsayin Biyan Kuɗi",
+      "pdf": "PDF",
+      "baseLine": "Tushe: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹ {{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "An kasa loda tsarin jadawalin kuɗin fito",
+    "saveError": "An kasa ajiye tsarin jadawalin kuɗin fito",
+    "chartTitle": "Matsakaicin Matsakaicin Ƙimar Amfani Mai Aiki",
+    "axisNote": "Ƙimar a cikin ₹/kL, iyakacin iyaka a cikin kL",
+    "tableTitle": "Teburin farashin Tiers",
+    "defaultRatesNote": "Nuna tsoffin ƙima - har yanzu ba a adana su ba.",
+    "addTier": "+ Ƙara Tier",
+    "saveRates": "Ajiye Farashin Tarifu",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Base)",
+      "medium": "Mataki {{tier}} (Matsakaici)",
+      "heavy": "Tier {{tier}} (mai nauyi)"
+    },
+    "basePrice": {
+      "label": "Base Price (₹ / kL, applied to ALL consumption)",
+      "note": "Every kL is charged this flat rate first. The slabs below add EXTRA charges only for usage that falls within their range — e.g. a slab starting at 50 kL only adds its rate for consumption above 50 kL."
+    },
+    "table": {
+      "tierLevel": "Mataki Level",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate per kL",
+      "action": "Aiki"
+    },
+    "commonArea": {
+      "title": "Kanfigareshan Kuɗin Wuri na gama gari",
+      "loadError": "Ba za a iya loda daidaitattun farashin yanki ba",
+      "saveError": "Ba za a iya ajiye saitin farashin gama-gari ba",
+      "empty": "Ba a adana kayan farashi tukuna.",
+      "labelPlaceholder": "Alamar farashin kaya",
+      "perMonth": "/ wata",
+      "active": "Mai aiki",
+      "addItem": "+ Ƙara Abun Kuɗi",
+      "save": "Ajiye Kanfigareshan Wuri gama gari"
+    },
+    "distribution": {
+      "title": "Mai Zaɓan Hanyar Rarraba Kuɗi",
+      "consumption": "By Consumption (Sub-metered Proportional)",
+      "floorArea": "Ta Girman Faɗin Apartment (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Kwanan Watan Fara Biyan Kuɗi",
+      "cycleStartValue": "1 ga Kowacce Wata",
+      "autoInvoices": "Ƙirƙirar Ta atomatik PDF Rasitoci"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Ƙofar Ya Wuce",
+      "statisticalOutlier": "Ƙididdiga Outlier"
+    },
+    "status": {
+      "active": "Mai aiki",
+      "resolved": "An warware",
+      "dismissed": "An kore"
+    },
+    "config": {
+      "title": "Kanfigareshan Gano Leak",
+      "subtitle": "Saita ƙofa ta amfani da kowane wata da/ko ba da damar gano bayanan ƙididdiga (tuta dangin da cin abincin kowane wata ya yi girma ba kamar tarihin kansa ba).",
+      "loadError": "An kasa loda saitin faɗakarwa. Da fatan za a sake gwadawa.",
+      "thresholdRequired": "A monthly threshold (kL) is required when threshold alerts are enabled.",
+      "saveError": "An kasa ajiye wannan tsarin.",
+      "loading": "Ana loda saitin…",
+      "threshold": "Monthly threshold (kL)",
+      "sensitivity": "Ƙwararren hankali (σ multiplier)",
+      "enableThreshold": "Kunna faɗakarwar bakin kofa",
+      "enableOutlier": "Kunna faɗakarwar bayanan ƙididdiga",
+      "save": "Ajiye Kanfigareshan",
+      "running": "Gudu…",
+      "runNow": "Run Gano Yanzu"
+    },
+    "alerts": {
+      "title": "Iyalan Tuta",
+      "loadError": "An kasa loda faɗakarwa. Da fatan za a sake gwadawa.",
+      "runError": "An kasa gudanar da gano yadudduka a yanzu. Da fatan za a sake gwadawa.",
+      "updateError": "An kasa sabunta wannan faɗakarwar. Da fatan za a sake gwadawa.",
+      "allStatuses": "Duk matsayi",
+      "loading": "Ana loda faɗakarwa…",
+      "empty": "Babu faɗakarwa don nunawa. Shirya bakin kofa ko kunna gano abin da ke sama, sannan danna \"Run Gano Yanzu\" don kimanta amfanin al'ummarku a halin yanzu.",
+      "resolve": "Gyara",
+      "dismiss": "Korar"
+    },
+    "table": {
+      "household": "Gidan gida",
+      "resident": "Mazaunin",
+      "meter": "Mita",
+      "type": "Nau'in",
+      "period": "Lokaci",
+      "consumption": "Amfani",
+      "reference": "Magana",
+      "status": "Matsayi"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "An kasa loda yawan sayayyar ruwa. Da fatan za a sake gwadawa.",
+    "confirmRemove": "Cire isar da {{source}} akan {{date}}?",
+    "removeError": "An kasa cire wannan siyan. Da fatan za a sake gwadawa.",
+    "count": "An yi rikodin sayayya: {{total}}",
+    "recordButton": "+ Siyan Rikodi",
+    "loading": "Ana loda babban siyayyar ruwa…",
+    "empty": "Ba a yi rikodin sayan ruwa mai yawa tukuna. Danna \"Record Purchase\" don shigar da jigilar tanki ko siyan kayayyaki na birni.",
+    "table": {
+      "date": "Kwanan wata",
+      "source": "Source",
+      "volume": "girma (L)",
+      "unitCost": "Farashin Unit",
+      "totalCost": "Jimlar Kudin",
+      "notes": "Bayanan kula"
+    },
+    "form": {
+      "addTitle": "Yi rikodin Siyan Ruwa Mai Girma",
+      "editTitle": "Gyara Sayen Ruwa Mai Girma",
+      "subtitle": "Bibiyar isar da tanki ko siyan kayan aikin birni don al'ummar ku - an yi rikodin wannan don ganin farashi kawai kuma baya shafar daftarin gida.",
+      "requiredFields": "Da fatan za a cika kwanan wata, tushe, ƙara, da farashin naúrar.",
+      "saveError": "An kasa ajiye wannan siyan. Da fatan za a duba cikakkun bayanai.",
+      "purchaseDate": "Kwanan sayayya",
+      "source": "Source / mai bayarwa",
+      "volume": "Girma (lita)",
+      "unitCost": "Farashin naúrar (₹/lita)",
+      "totalPreview": "Jimlar farashi: {{amount}}",
+      "notes": "Bayanan kula (na zaɓi)",
+      "submit": "Sayen rikodin"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ba a gina shi ba tukuna",
+    "profileSaveError": "Ba za a iya ajiye bayanin martabarku ba. Da fatan za a sake gwadawa.",
+    "apartmentSaveError": "An kasa ajiye bayanan gida. Da fatan za a sake gwadawa.",
+    "specsTitle": "Bayanan Bayanin Bayani",
+    "photoUnavailable": "Ba a samun ɗora hoto tukuna",
+    "changePhoto": "Canja Hoto",
+    "deletePhoto": "Share",
+    "photoHint": "JPG ko PNG. Matsakaicin girman 2MB.",
+    "saveProfile": "Ajiye bayanan martaba",
+    "apartmentTitle": "Bayanin Apartment",
+    "saveApartment": "Ajiye Cikakkun Gida",
+    "tabs": {
+      "profile": "Saitunan Bayani",
+      "apartment": "Bayanin Apartment",
+      "notifications": "Dokokin Sanarwa",
+      "billing": "Haɗin Kuɗi",
+      "security": "Tsaro & Shiga"
+    },
+    "fields": {
+      "fullName": "Cikakken suna",
+      "email": "Adireshin i-mel",
+      "emailLocked": "Ba za a iya canza imel a nan ba",
+      "phone": "Lambar tarho",
+      "accessLevel": "Matsayin shiga",
+      "accessLevelValue": "Al'umma Mai Gudanarwa",
+      "roleLocked": "Ba a samun gudanar da aikin tukuna",
+      "apartmentName": "Sunan Apartment",
+      "mainsSource": "Mais Source",
+      "mainsSourcePlaceholder": "misali Kayayyakin Karamar Hukuma + Kariyar Tankokin Mai",
+      "address": "Adireshin Jiki"
+    },
+    "security": {
+      "title": "Duban Tsaro & Samun dama",
+      "twoFactor": "Tabbatar da Factor Biyu",
+      "twoFactorHint": "An kunna lokacin shiga",
+      "twoFactorUnavailable": "Ba a samu tabbacin abubuwa biyu ba tukuna",
+      "twoFactorAria": "Tabbatar da abubuwa biyu (samfoti kawai)",
+      "sessionsLabel": "Zama Mai Gudanarwa",
+      "sessionsEmpty": "Har yanzu ba a samun bin sawun zama - wannan shine samfoti na shimfidar wuri mai zuwa."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Tikiti na",
+      "inbox": "Tikitin zama"
+    },
+    "mine": {
+      "title": "Tikiti na Tallafi",
+      "subtitle": "Tada tambaya ko damuwa game da al'ummar ku zuwa ga Mai Gudanar da Tsarin.",
+      "emptyCreateHint": "Tada tambaya ko damuwa game da al'ummar ku. A System Admin zai duba da kuma mayar da martani a nan."
+    },
+    "inbox": {
+      "title": "Tikitin zama",
+      "subtitle": "Tikitin tallafi da damuwa mazauna yankinku sun yi magana da ku."
+    }
+  }
+}

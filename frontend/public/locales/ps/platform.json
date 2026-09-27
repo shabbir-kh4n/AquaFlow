@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "فعاله",
+    "blocked": "بلاک شوی",
+    "terminated": "ختم شوی"
+  },
+  "sort": {
+    "sortBy": "په ترتیب سره",
+    "toggleDirection": "د ترتیب ترتیب بدل کړئ",
+    "asc": "↑ Asc",
+    "desc": "↓ تفصیل"
+  },
+  "pagination": {
+    "showing": "د {{total}} څخه {{from}}–{{to}} ښودل",
+    "prev": "← مخکینی",
+    "next": "بل →",
+    "page": "د {{pageCount}} مخ {{page}}"
+  },
+  "dashboard": {
+    "title": "د پلیټ فارم کتنه",
+    "subtitle": "د ټولنې هر راجستر شوی مدیر، په ټول HydroLedger پلیټ فارم کې.",
+    "viewAll": "ټولې ټولنې وګورئ",
+    "loadError": "همدا اوس د پلیټ فارم ډاټا نشي پورته کولی.",
+    "cards": {
+      "totalCommunities": "ټولې ټولنې",
+      "registeredAdmins": "راجستر شوي اډمین",
+      "totalResidents": "ټول اوسیدونکي",
+      "acrossAllCommunities": "په ټولو ټولنو کې",
+      "active": "فعاله",
+      "inGoodStanding": "په ښه حالت کې",
+      "blockedTerminated": "بند شوی / ختم شوی",
+      "blockedTerminatedBreakdown": "{{blocked}} بند شوی، {{terminated}} ختم شوی"
+    },
+    "recent": {
+      "title": "په دې وروستیو کې ثبت شوي ټولنې",
+      "loading": "بار کول…",
+      "empty": "تر اوسه کومې ټولنې نه دي ثبت شوي.",
+      "table": {
+        "community": "ټولنه",
+        "admin": "اډمین",
+        "status": "حالت",
+        "residents": "اوسيدونکي"
+      }
+    }
+  },
+  "communities": {
+    "count": "ټولنې: {{count}}",
+    "loadError": "ټولنې نشي پورته کولی. مهرباني وکړئ بیا هڅه وکړئ.",
+    "searchPlaceholder": "د ټولنې، مدیر نوم، یا بریښنالیک لخوا فلټر کړئ",
+    "statusFilter": {
+      "label": "حالت",
+      "all": "ټول"
+    },
+    "sortOptions": {
+      "community": "ټولنه",
+      "admin": "اډمین",
+      "residents": "اوسيدونکي"
+    },
+    "loading": "د ټولنو بارول…",
+    "empty": "تر اوسه کومې ټولنې نه دي ثبت شوي.",
+    "noMatch": "هیڅ ټولنه ستاسو د فلټرونو سره سمون نلري.",
+    "table": {
+      "community": "ټولنه",
+      "admin": "اډمین",
+      "email": "ایمیل",
+      "status": "حالت",
+      "residents": "اوسيدونکي",
+      "view": "لید"
+    }
+  },
+  "communityDetail": {
+    "loadError": "دا ټولنه نشي پورته کولی. دا کیدای شي لیرې شوي وي.",
+    "statusUpdateError": "د دې ټولنې حالت تازه نشو.",
+    "deleteError": "دا ټولنه نشي حذف کولی.",
+    "loading": "ټولنه لوډیږي…",
+    "notFound": "ټولنه ونه موندل شوه.",
+    "backLink": "← بېرته ټولنو ته",
+    "backLinkShort": "بېرته ټولنو ته",
+    "eyebrow": "د ټولنې پروفایل",
+    "unnamed": "بې نومه ټولنه",
+    "noAddress": "په فایل کې هیڅ پته نشته",
+    "stats": {
+      "residents": "اوسيدونکي",
+      "status": "حالت"
+    },
+    "actions": {
+      "reactivate": "بیا فعالول",
+      "block": "بلاک",
+      "terminate": "ختمول",
+      "delete": "ټولنه ړنګه کړئ"
+    },
+    "blockDialog": {
+      "title": "د دې ټولنې اډمین بلاک کړئ؟",
+      "message": "بلاک {{name}}؟ دوی به د ننوتلو توان ونلري تر هغه چې بلاک شوی نه وي. هیڅ معلومات به اغیزمن نشي.",
+      "confirm": "بلاک"
+    },
+    "terminateDialog": {
+      "title": "د دې ټولنې مدیر ختم کړئ؟",
+      "message": "د تل لپاره د {{name}} لاسرسی بند کړئ؟ دا نشي رد کیدی، که څه هم د دوی د ټولنې معلومات به د ریکارډونو لپاره وساتل شي.",
+      "confirm": "ختمول"
+    },
+    "deleteDialog": {
+      "title": "دا ټولنه ړنګه کړئ؟",
+      "message": "دا به د تل لپاره <strong>{{name}}</strong> او د هغې ټولې کورنۍ، اوسیدونکي، میټرونه، د تعرفې/بل کولو ترتیب، او د رسید تاریخ حذف کړي. دا کړنه نه شي ختمولی.",
+      "typeToConfirm": "د دوام لپاره <strong>{{word}}</strong> ټایپ کړئ",
+      "confirm": "تایید کړه"
+    },
+    "residents": {
+      "title": "اوسيدونکي",
+      "registeredCount": "ثبت: {{count}}",
+      "empty": "تراوسه په دې ټولنه کې هیڅ اوسیدونکي راجستر شوي ندي.",
+      "table": {
+        "flatUnit": "فلیټ واحد",
+        "meter": "متره",
+        "resident": "اوسیدونکی",
+        "email": "ایمیل",
+        "passwordSet": "د پټنوم ترتیب"
+      },
+      "yes": "هو",
+      "no": "نه"
+    },
+    "cancel": "لغوه کړئ",
+    "working": "کار کوي…",
+    "deleting": "ړنګول…"
+  },
+  "systemStatus": {
+    "statusError": "د سیسټم حالت چک کولو لپاره شاته پای ته رسیدلی نشو.",
+    "metricsError": "د میټریک تاریخ نشي پورته کولی.",
+    "ranges": {
+      "fiveMinutes": "5 دقیقې",
+      "fifteenMinutes": "15 دقیقې",
+      "hour": "ساعت",
+      "day": "ورځ",
+      "week": "اونۍ",
+      "month": "میاشت",
+      "threeMonths": "۳ میاشتې"
+    },
+    "uptime": {
+      "days": "{{value}}د",
+      "hours": "{{value}} ساعت",
+      "minutes": "{{value}}می"
+    },
+    "charts": {
+      "requestsPerSec": "غوښتنې/ ثانیې",
+      "opsPerSec": "عملیات / ثانیه",
+      "latency": "ځنډ",
+      "lastValue": "{{value}} وروستی",
+      "loading": "بار کول…",
+      "empty": "تراوسه د دې سلسلې لپاره هیڅ میټریک نه دی ثبت شوی."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "اعظمي: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "بیک اینډ API",
+      "checking": "چک کول…",
+      "reachable": "د لاسرسي وړ",
+      "unreachable": "د لاسرسي وړ",
+      "connected": "نښلول شوی",
+      "backendApiHint": "دا پاڼه د شاليد څخه ډکه شوه، نو دا ځواب ورکړ.",
+      "database": "ډیټابیس",
+      "databaseHint": "PostgreSQL ارتباط، په ژوندۍ بڼه چک شوی.",
+      "uptime": "د شاتړ اپ وخت",
+      "uptimeHint": "د وروستي غوښتنلیک له بیا پیل راهیسې.",
+      "appVersion": "د اپلیکیشن نسخه",
+      "appVersionHint": "د شاتنۍ جوړونې نسخه."
+    },
+    "mini": {
+      "latency": "ځنډ",
+      "readsLatency": "لیټینسی لوستل",
+      "writesLatency": "لیټینسی لیکي",
+      "otherLatency": "نور ځنډ",
+      "connections": "ارتباطات",
+      "totalKeys": "ټول کلیدونه"
+    },
+    "note": "غوښتنې/ ثانیې او ځنډ په هرو 15 ثانیو کې د ژوندي شاته ترافیک څخه نمونه کیږي او تر 100 ورځو پورې ساتل کیږي. دا یو بنسټیز ارتباط + ټرافیک چک دی - دا د بشپړ غوښتنلیک فعالیت څارنه، د ننوتلو راټولول، یا خبرتیا نه بدلوي."
+  },
+  "reports": {
+    "loadError": "د پلیټ فارم راپور نشي پورته کولی.",
+    "ranges": {
+      "threeMonths": "۳ میاشتې",
+      "sixMonths": "۶ میاشتې",
+      "twelveMonths": "12 میاشتې",
+      "custom": "دودیز"
+    },
+    "sortOptions": {
+      "community": "ټولنه",
+      "usage": "کارول",
+      "billed": "بل شوی",
+      "residents": "اوسيدونکي"
+    },
+    "customRange": {
+      "from": "څخه",
+      "to": "ته",
+      "hint": "د ګمرکي راپور پورته کولو لپاره دواړه \"له\" او \"تر\" میاشت غوره کړئ."
+    },
+    "loading": "راپور لوډیږي…",
+    "cards": {
+      "totalCommunities": "ټولې ټولنې",
+      "inThisRange": "په دې لړ کې",
+      "totalResidents": "ټول اوسیدونکي",
+      "acrossAllCommunities": "په ټولو ټولنو کې",
+      "overallUsage": "په ټولیزه توګه کارول",
+      "meteredConsumption": "د مصرف اندازه",
+      "overallBilled": "په ټولیز ډول بیل شوی",
+      "finalizedInvoicesOnly": "یوازې وروستي رسیدونه",
+      "avgUsagePerResident": "اوسط کارول / اوسیدونکی",
+      "avgBillPerResident": "اوسط بل / اوسیدونکی"
+    },
+    "charts": {
+      "usageTitle": "د پلیټ فارم په کچه کارول (kL / میاشت)",
+      "usageEmpty": "د دې سلسلې لپاره هیڅ کار نه دی ثبت شوی.",
+      "usageSeries": "کارول",
+      "billedTitle": "د پلیټ فارم په کچه د بیل شوي مقدار (₹ / میاشت)",
+      "billedEmpty": "د دې سلسلې لپاره هیڅ رسید نه دی بشپړ شوی.",
+      "billedSeries": "بل شوی"
+    },
+    "searchPlaceholder": "د ټولنې یا مدیر نوم لخوا فلټر کړئ",
+    "empty": "هیڅ ټولنې تر اوسه د دې سلسلې لپاره د کارولو یا بل کولو ډاټا نلري.",
+    "noMatch": "هیڅ ټولنه ستاسو د فلټر سره سمون نلري.",
+    "table": {
+      "community": "ټولنه",
+      "admin": "اډمین",
+      "residents": "اوسيدونکي",
+      "usage": "کارول (kL)",
+      "billed": "بیل شوی (₹)",
+      "avgUsagePerResident": "اوسط کارول / اوسیدونکی",
+      "avgBillPerResident": "اوسط بل / اوسیدونکی"
+    }
+  },
+  "supportTickets": {
+    "title": "د ملاتړ ټکټونه",
+    "subtitle": "د ملاتړ ټکټونه او اندیښنې چې د اوسیدونکو او د ټولنې مدیرانو لخوا راپورته شوي، په ټول پلیټ فارم کې."
+  }
+}

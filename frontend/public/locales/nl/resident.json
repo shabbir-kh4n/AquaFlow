@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Binnenkort beschikbaar",
+    "welcome": {
+      "greeting": "Hallo {{name}},",
+      "greetingFallback": "Hallo daar,",
+      "title": "Blijf dicht bij het waterverhaal van uw huis.",
+      "subtitle": "Gebruiks- en factureringsinzichten worden hier weergegeven terwijl uw community metingen registreert.",
+      "viewBadges": "Bekijk Ecobadges"
+    },
+    "stats": {
+      "todaysUsage": "Het huidige gebruik",
+      "asOf": "Vanaf {{date}}",
+      "noReading": "Nog geen meterstand",
+      "monthlyTotalFor": "Maandelijks totaal ({{month}})",
+      "monthlyTotalThisMonth": "Maandtotaal (deze maand)",
+      "sumOfReadings": "Som van geregistreerde metingen",
+      "estimatedBill": "Huidige geschatte factuur",
+      "estimatedBillFor": "Gemeten gebruik + gedeelde kosten, {{month}}",
+      "estimatedBillHint": "Gebaseerd op het gemeten verbruik en de gedeelde kosten van deze maand",
+      "savings": "Besparingen versus bouwen Gem",
+      "savingsValue": "{{percent}}% Minder",
+      "savingsPreview": "Alleen voorbeeld — vergelijking nog niet live"
+    },
+    "consumption": {
+      "eyebrow": "Consumptie",
+      "title": "Dagelijks verbruik (laatste 14 metingen)",
+      "seriesName": "Consumptie",
+      "empty": "Er zijn nog geen metingen geregistreerd."
+    },
+    "breakdown": {
+      "eyebrow": "Uitsplitsing",
+      "title": "Gebruiksverdeling",
+      "bathroom": "Badkamer",
+      "kitchen": "Keuken",
+      "garden": "Tuin / Balkon",
+      "other": "Overige / Wasserij"
+    },
+    "billing": {
+      "eyebrow": "Facturering",
+      "title": "Actieve factureringscyclus",
+      "finalized": "Afgerond",
+      "preview": "Voorbeeld",
+      "meteredConsumption": "Gemeten verbruik",
+      "tierPriceLevel": "Niveau prijsniveau",
+      "tierLabel": "Niveau {{tier}}",
+      "commonArea": "Verdeling van de gemeenschappelijke ruimte",
+      "commonAreaPreview": "Verdeling gemeenschappelijke ruimte (preview)",
+      "invoiceTotal": "{{period}} factuurtotaal",
+      "estimatedCharge": "Huidige geschatte kosten",
+      "commonAreaBreakdown": "Uitsplitsing gemeenschappelijke ruimte",
+      "payPreview": "Voorbeeld van factuur betalen",
+      "payUnavailable": "Factureringsengine is nog niet beschikbaar"
+    },
+    "tips": {
+      "eyebrow": "Tips",
+      "title": "Slimme spaartips",
+      "viewAll": "Bekijk alles",
+      "empty": "Gepersonaliseerde tips verschijnen hier nadat uw community een factureringscyclus heeft afgerond."
+    },
+    "community": "Gemeenschap: {{name}}"
+  },
+  "usage": {
+    "loadError": "Kan uw gebruiksgeschiedenis niet laden. Probeer het opnieuw.",
+    "loading": "Uw gebruiksanalyses laden...",
+    "empty": "Er zijn nog geen metingen geregistreerd. Zodra uw gemeenschap een meterstand heeft geregistreerd, wordt deze hier weergegeven.",
+    "tabs": {
+      "lastSixMonths": "Laatste 6 maanden",
+      "customRange": "Aangepast bereik",
+      "comingSoon": "Binnenkort beschikbaar"
+    },
+    "peakDay": "Piekdag:",
+    "lowestDay": "Laagste dag:",
+    "comparison": {
+      "title": "Huishoudelijke consumptie versus appartementsgemiddelde",
+      "subtitle": "Maandtotalen weergegeven in kiloliters (kL).",
+      "yourHousehold": "Uw huishouden",
+      "apartmentAverage": "Appartement Gemiddeld",
+      "similarSized": "Huizen van vergelijkbare grootte"
+    },
+    "heatmap": {
+      "title": "Warmtekaart voor dagelijks verbruik",
+      "subtitle": "Kleurintensiteit markeert dagen van intensief gebruik (preview)."
+    },
+    "ranking": {
+      "title": "Peer-ranglijst van de gemeenschap",
+      "subtitle": "Je rang vergeleken met vergelijkbare eenheden (preview).",
+      "ecoSaver": "Actieve Eco Saver",
+      "aptNumber": "Geschikt {{number}}",
+      "unitNumber": "Eenheid {{number}}",
+      "yourUnit": "Jouw eenheid",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Jij)"
+    }
+  },
+  "billing": {
+    "loadError": "Kan uw factuurgeschiedenis niet laden. Probeer het opnieuw.",
+    "pdfError": "Kon de PDF niet downloaden. Probeer het opnieuw.",
+    "loading": "Uw factuurgeschiedenis laden...",
+    "empty": "Nog geen facturen: zodra uw community een factureringscyclus heeft afgerond, worden uw facturen hier weergegeven.",
+    "status": {
+      "paid": "Betaald",
+      "unpaid": "Onbetaald"
+    },
+    "summary": {
+      "outstandingBalance": "Uitstaand saldo",
+      "billingCycle": "Factureringscyclus: {{period}}",
+      "allPaid": "Alle facturen zijn betaald",
+      "payTotal": "Betaal totaal openstaand",
+      "payTotalUnavailable": "Online betalen is nog niet mogelijk. Betaal de rekeningen rechtstreeks met uw communitybeheerder",
+      "downloadSummary": "Factuuroverzicht downloaden",
+      "downloadSummaryUnavailable": "Het downloaden van het factuuroverzicht is nog niet beschikbaar"
+    },
+    "history": {
+      "title": "Factuurgeschiedenis",
+      "exportCsv": "Alles exporteren naar CSV",
+      "exportUnavailable": "CSV exporteren is nog niet beschikbaar"
+    },
+    "table": {
+      "cycle": "Cyclus",
+      "usage": "Gebruik (kL)",
+      "amountDue": "Te betalen bedrag",
+      "paymentStatus": "Betalingsstatus",
+      "hideBreakdown": "Verberg uitsplitsing ↑",
+      "showBreakdown": "Gespecificeerde uitsplitsing ↓",
+      "downloading": "Downloaden…",
+      "pdf": "PDF",
+      "pay": "Betalen"
+    },
+    "breakdown": {
+      "householdTitle": "Verdeling van de gezinsconsumptie",
+      "basePrice": "Basisprijs: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Niveau {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotaal gemeten gebruik",
+      "commonAreaTitle": "Verdeling van de gemeenschappelijke ruimte",
+      "subtotalShared": "Subtotaal gedeeld gebied",
+      "noCommonArea": "Geen gedeelde kosten voor de gemeenschappelijke ruimte voor deze cyclus."
+    },
+    "pagination": {
+      "showing": "Toont {{from}}–{{to}} van {{total}}",
+      "prev": "← Vorige",
+      "next": "Volgende →",
+      "page": "Pagina {{page}} van {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Betaalmethoden (voorbeeld)",
+      "description": "Online betalen is nog niet mogelijk. Facturen worden rechtstreeks met uw communitybeheerder afgerekend.",
+      "manage": "Beheer betaalmethoden",
+      "manageUnavailable": "Betaalmethoden zijn nog niet beschikbaar"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Beveiligd door Razorpay",
+    "billingCycle": "Factureringscyclus {{period}}",
+    "close": "Dichtbij",
+    "amountPayable": "Te betalen bedrag",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kaarten",
+      "netbanking": "Netbankieren",
+      "wallet": "Portemonnee"
+    },
+    "upi": {
+      "title": "Betaal via UPI",
+      "upiId": "UPI ID",
+      "or": "OF",
+      "scan": "Scan met elke UPI-app"
+    },
+    "card": {
+      "title": "Betaal via kaart",
+      "number": "Kaartnummer",
+      "expiry": "Vervaldatum",
+      "expiryPlaceholder": "MM / JJ",
+      "cvv": "CVV",
+      "name": "Naam op kaart",
+      "namePlaceholder": "Zoals afgedrukt op kaart"
+    },
+    "netbanking": {
+      "title": "Betaal via Netbanking"
+    },
+    "wallet": {
+      "title": "Betaal via Portemonnee"
+    },
+    "payAmount": "Betaal ₹{{amount}}",
+    "processing": "Uw betaling verwerken…",
+    "processingHint": "Druk alstublieft niet terug op deze pagina en vernieuw deze ook niet",
+    "success": "Betaling succesvol",
+    "error": "Er is iets misgegaan bij het bevestigen van uw betaling. Probeer het opnieuw.",
+    "retry": "Opnieuw proberen"
+  },
+  "notifications": {
+    "loadError": "Kan uw meldingen niet laden. Probeer het opnieuw.",
+    "loading": "Uw meldingen laden…",
+    "empty": "Nog geen meldingen. U ziet hier iets als uw communitybeheerder meldingen over gebruiksdrempels of ongebruikelijke verbruiken heeft ingeschakeld en er een wordt geactiveerd voor uw huishouden.",
+    "type": {
+      "thresholdExceeded": "Verbruiksdrempel overschreden",
+      "statisticalOutlier": "Ongebruikelijk verbruik gedetecteerd"
+    },
+    "status": {
+      "active": "Actief",
+      "resolved": "Opgelost",
+      "dismissed": "Afgewezen"
+    },
+    "billingPeriod": "Factureringsperiode: {{period}}",
+    "consumption": "Verbruik: {{value}} kL",
+    "push": {
+      "title": "Pushmeldingen",
+      "description": "Ontvang een melding op dit apparaat wanneer er een nieuwe factuur of waarschuwing binnenkomt.",
+      "enable": "Inschakelen",
+      "disable": "Uitzetten",
+      "permissionDenied": "Er is geen toestemming voor melding verleend.",
+      "notConfigured": "Pushmeldingen zijn nog niet geconfigureerd. Neem contact op met uw beheerder.",
+      "enableError": "Kan pushmeldingen niet inschakelen. Probeer het opnieuw.",
+      "disableError": "Kan pushmeldingen niet uitschakelen. Probeer het opnieuw."
+    }
+  },
+  "recommendations": {
+    "loadError": "Kan uw aanbevelingen niet laden. Probeer het opnieuw.",
+    "loading": "Uw gepersonaliseerde tips laden…",
+    "generated": "Gegenereerd {{date}}",
+    "generatedForPeriod": "Gegenereerd {{date}} voor factureringsperiode {{period}}",
+    "eyebrow": "Gepersonaliseerd voor jou",
+    "title": "Slimme waterbesparende tips",
+    "empty": "Er zijn nog geen fooien gegenereerd. Deze worden automatisch vernieuwd telkens wanneer uw community een betalingscyclus voor uw huishouden voltooit."
+  },
+  "support": {
+    "title": "Bureau voor Bewonersondersteuning en Bezorgdheid",
+    "subtitle": "Dien waterlekkagerapporten, meterkalibratieverzoeken of factureringsvragen rechtstreeks in bij uw communitybeheerder en/of systeembeheerder.",
+    "emptyCreateHint": "Beschrijf hieronder uw probleem of probleem en kies wie dit moet behandelen."
+  }
+}

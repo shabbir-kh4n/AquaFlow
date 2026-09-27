@@ -1,35 +1,39 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import Logo from '../Logo'
 import ChatWidget from '../chat/ChatWidget'
+import LanguageSwitcher from '../LanguageSwitcher'
 import './PlatformLayout.css'
 
+// labelKey/titleKey/subtitleKey values are translation keys (common namespace), resolved
+// with t() at render time.
 const NAV_ITEMS = [
-  { to: '/platform/dashboard', label: 'Dashboard', icon: 'grid' },
-  { to: '/platform/communities', label: 'Communities', icon: 'buildings' },
-  { to: '/platform/reports', label: 'Reports', icon: 'chart' },
-  { to: '/platform/support-tickets', label: 'Support Tickets', icon: 'help' },
-  { to: '/platform/system-status', label: 'System Status', icon: 'pulse' },
+  { to: '/platform/dashboard', labelKey: 'platformLayout.nav.dashboard', icon: 'grid' },
+  { to: '/platform/communities', labelKey: 'platformLayout.nav.communities', icon: 'buildings' },
+  { to: '/platform/reports', labelKey: 'platformLayout.nav.reports', icon: 'chart' },
+  { to: '/platform/support-tickets', labelKey: 'platformLayout.nav.supportTickets', icon: 'help' },
+  { to: '/platform/system-status', labelKey: 'platformLayout.nav.systemStatus', icon: 'pulse' },
 ]
 
 const PAGE_META = {
-  '/platform/dashboard': { subtitle: 'Platform-wide snapshot across every registered community.' },
+  '/platform/dashboard': { subtitleKey: 'platformLayout.pages.dashboard.subtitle' },
   '/platform/communities': {
-    title: 'Communities',
-    subtitle: 'Every registered community admin and their community, in one place.',
+    titleKey: 'platformLayout.pages.communities.title',
+    subtitleKey: 'platformLayout.pages.communities.subtitle',
   },
   '/platform/reports': {
-    title: 'Reports',
-    subtitle: 'Platform-wide water usage and billing figures, by community and over time.',
+    titleKey: 'platformLayout.pages.reports.title',
+    subtitleKey: 'platformLayout.pages.reports.subtitle',
   },
   '/platform/support-tickets': {
-    title: 'Support Tickets',
-    subtitle: 'Support tickets and concerns raised by residents and community admins, platform-wide.',
+    titleKey: 'platformLayout.pages.supportTickets.title',
+    subtitleKey: 'platformLayout.pages.supportTickets.subtitle',
   },
   '/platform/system-status': {
-    title: 'System Status',
-    subtitle: 'Backend connectivity and basic runtime health.',
+    titleKey: 'platformLayout.pages.systemStatus.title',
+    subtitleKey: 'platformLayout.pages.systemStatus.subtitle',
   },
 }
 
@@ -57,6 +61,7 @@ function PlatformLayout() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  const { t } = useTranslation('common')
   const [navOpen, setNavOpen] = useState(false)
   const [lastPathname, setLastPathname] = useState(location.pathname)
 
@@ -83,14 +88,14 @@ function PlatformLayout() {
   let title = ''
   let subtitle = ''
   if (location.pathname === '/platform/dashboard') {
-    title = `Welcome back, ${user?.fullName || 'System Admin'}`
-    subtitle = PAGE_META['/platform/dashboard'].subtitle
+    title = t('shell.welcomeBack', { name: user?.fullName || t('platformLayout.fallbackName') })
+    subtitle = t(PAGE_META['/platform/dashboard'].subtitleKey)
   } else if (PAGE_META[location.pathname]) {
-    title = PAGE_META[location.pathname].title
-    subtitle = PAGE_META[location.pathname].subtitle
+    title = t(PAGE_META[location.pathname].titleKey)
+    subtitle = t(PAGE_META[location.pathname].subtitleKey)
   }
 
-  const initials = (user?.fullName || 'System Admin')
+  const initials = (user?.fullName || t('platformLayout.fallbackName'))
     .split(' ')
     .map((part) => part[0])
     .slice(0, 2)
@@ -110,7 +115,7 @@ function PlatformLayout() {
           <button
             type="button"
             className="af-platform__nav-close"
-            aria-label="Close menu"
+            aria-label={t('shell.closeMenu')}
             onClick={() => setNavOpen(false)}
           >
             <Icon name="close" />
@@ -127,7 +132,7 @@ function PlatformLayout() {
               }
             >
               <Icon name={item.icon} />
-              {item.label}
+              {t(item.labelKey)}
             </NavLink>
           ))}
         </nav>
@@ -135,10 +140,10 @@ function PlatformLayout() {
         <div className="af-platform__sidebar-footer">
           <span className="af-platform__avatar">{initials}</span>
           <div className="af-platform__account-text">
-            <strong>{user?.fullName || 'System Admin'}</strong>
-            <span>Platform Owner</span>
+            <strong>{user?.fullName || t('platformLayout.fallbackName')}</strong>
+            <span>{t('platformLayout.platformOwner')}</span>
           </div>
-          <button type="button" className="af-platform__logout" onClick={handleLogout} title="Log out">
+          <button type="button" className="af-platform__logout" onClick={handleLogout} title={t('shell.logout')}>
             <span aria-hidden="true">↪</span>
           </button>
         </div>
@@ -150,7 +155,7 @@ function PlatformLayout() {
             <button
               type="button"
               className="af-platform__hamburger"
-              aria-label="Open menu"
+              aria-label={t('shell.openMenu')}
               onClick={() => setNavOpen(true)}
             >
               <Icon name="menu" />
@@ -164,13 +169,19 @@ function PlatformLayout() {
           <div className="af-platform__account">
             <label className="af-platform__search">
               <Icon name="search" />
-              <input type="search" placeholder="Search communities…" aria-label="Search" />
+              <input type="search" placeholder={t('platformLayout.searchPlaceholder')} aria-label={t('shell.search')} />
             </label>
-            <button type="button" className="af-platform__icon-button" aria-label="Notifications" title="Notifications">
+            <button
+              type="button"
+              className="af-platform__icon-button"
+              aria-label={t('shell.notifications')}
+              title={t('shell.notifications')}
+            >
               <Icon name="bell" />
             </button>
-            <span className="af-platform__badge-pill" title="Platform Owner">
-              Platform Owner
+            <LanguageSwitcher variant="topbar" />
+            <span className="af-platform__badge-pill" title={t('platformLayout.platformOwner')}>
+              {t('platformLayout.platformOwner')}
             </span>
           </div>
         </header>

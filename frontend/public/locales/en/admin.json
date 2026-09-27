@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "saved": "Saved.",
+    "uploading": "Uploading…",
+    "upload": "Upload",
+    "uploadError": "Could not upload this file. Please try again.",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "remove": "Remove",
+    "saveChanges": "Save Changes",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Row {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Prev",
+    "next": "Next →",
+    "page": "Page {{page}} of {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Could not load your community data right now.",
+    "title": "{{community}} Apartment Dashboard",
+    "titleFallback": "Your Apartment Dashboard",
+    "subtitle": "Operational summary for water utility sub-metering and household consumption.",
+    "comingSoon": "Coming soon",
+    "manageCommunity": "Manage Community",
+    "noUsageReadings": "No usage readings recorded yet.",
+    "cards": {
+      "totalHouseholds": "Total Households",
+      "occupied": "Occupied",
+      "activeMeters": "Active Meters",
+      "reportingReadings": "Reporting readings",
+      "monthlyConsumption": "Monthly Consumption",
+      "thisCalendarMonth": "This calendar month",
+      "latestRecordedMonth": "Latest recorded month ({{month}})",
+      "noReadingsYet": "No readings recorded yet",
+      "pendingAlerts": "Pending Alerts",
+      "anomalyPreview": "Anomaly detection preview — not yet available"
+    },
+    "actions": {
+      "label": "Quick Administrative Actions",
+      "uploadReadings": "Upload Meter Readings",
+      "configureTariffs": "Configure Tariffs",
+      "reportsNotBuilt": "Reports isn't built yet",
+      "downloadReports": "Download System Reports"
+    },
+    "chart": {
+      "title": "Monthly Consumption Comparison (kL)",
+      "subtitle": "Last {{months}} months: target vs. actual consumption.",
+      "targetSeries": "Target (preview)",
+      "actualSeries": "Actual"
+    },
+    "recent": {
+      "title": "Recent Meter Readings",
+      "unit": "Unit",
+      "resident": "Resident",
+      "lastReading": "Last Reading",
+      "consumption": "Consumption"
+    }
+  },
+  "households": {
+    "loadError": "Could not load residents. Please try again.",
+    "fixFields": "Please fix the highlighted fields.",
+    "saveError": "Could not save this resident. Please check the details.",
+    "confirmRemove": "Remove {{name}} from your households directory?",
+    "removeError": "Could not remove this resident. Please try again.",
+    "count": "Households: {{total}}",
+    "bulkUploadButton": "⇪ Bulk Upload",
+    "addResidentButton": "+ Add Resident",
+    "searchPlaceholder": "Filter by name, house, email, or meter no.",
+    "loading": "Loading residents…",
+    "empty": "No residents yet. Click \"Add Resident\" to register the first household.",
+    "noMatch": "No residents match \"{{search}}\".",
+    "sort": {
+      "label": "Sort by",
+      "name": "Name",
+      "houseNumber": "House Number",
+      "dateOfJoining": "Date of Joining",
+      "toggleDirection": "Toggle sort direction",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "table": {
+      "name": "Name",
+      "houseUnit": "House / Unit",
+      "email": "Email",
+      "phone": "Phone",
+      "meterNumber": "Meter No.",
+      "sqft": "Sqft",
+      "joined": "Joined"
+    },
+    "form": {
+      "addTitle": "Add Resident",
+      "editTitle": "Edit Resident",
+      "editSubtitle": "This updates the resident's details in your directory.",
+      "bypassSubtitle": "You're setting this resident's password directly. No email will be sent.",
+      "addSubtitle": "A set-password link will be emailed to this resident so they can activate their own login.",
+      "fullName": "Full name",
+      "houseNumber": "House / unit no.",
+      "email": "Email",
+      "phone": "Phone number",
+      "meterNumber": "Meter number",
+      "governmentId": "Government ID",
+      "gender": "Gender",
+      "dateOfBirth": "Date of birth",
+      "dateOfJoining": "Date of joining",
+      "flatSize": "Flat size (sq ft)",
+      "bypassLabel": "Bypass set-password email — set a password for this resident now",
+      "password": "Password",
+      "confirmPassword": "Confirm password"
+    },
+    "validation": {
+      "fullNameRequired": "Full name is required.",
+      "emailRequired": "Email is required.",
+      "phoneRequired": "Phone number is required.",
+      "houseNumberRequired": "House / unit number is required.",
+      "houseNumberTaken": "This house number is already assigned to another resident.",
+      "meterNumberRequired": "Meter number is required.",
+      "meterNumberFormat": "Meter number must look like MTR-1234 (4 digits).",
+      "meterNumberTaken": "This meter number is already assigned to another resident.",
+      "governmentIdRequired": "Government ID is required.",
+      "governmentIdFormat": "ID must be 6 digits starting with 99 (e.g. 991234).",
+      "genderRequired": "Please select a gender.",
+      "dateOfBirthRequired": "Date of birth is required.",
+      "dateOfJoiningRequired": "Date of joining is required.",
+      "passwordRequired": "Password is required.",
+      "passwordLength": "Password must be at least 8 characters.",
+      "confirmPasswordRequired": "Please confirm the password.",
+      "passwordMismatch": "Passwords do not match."
+    },
+    "bulk": {
+      "title": "Bulk Upload Residents",
+      "noFile": "Please choose a .csv or .xlsx/.xls file to upload.",
+      "instructions": "Upload a .csv or .xlsx/.xls file with columns <code>{{columns}}</code> (password and flatSizeSqft are both optional). Rows with a password set it directly; rows without one get a set-password email, same as adding a resident manually. Duplicate house/meter numbers or emails are rejected per row — one bad row won't fail the whole batch."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Could not load residents. Please try again.",
+    "historyLoadError": "Could not load the reading history. Please try again.",
+    "successMessage": "Successfully recorded reading of {{value}} kL for {{house}} (Meter: {{meter}})! Calculated consumption: {{consumption}} kL.",
+    "tabs": {
+      "single": "Single Entry",
+      "csv": "Bulk CSV Upload",
+      "history": "Reading History"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "This resident has no meter number on file.",
+      "dateRequired": "Reading date is required.",
+      "invalidValue": "Please enter a valid, non-negative reading value.",
+      "duplicate": "A reading for this meter already exists on that date.",
+      "meterNotFound": "This meter could not be found. Please re-select the resident.",
+      "lowerThanPrevious": "This reading is lower than the previous recorded reading.",
+      "recordFailed": "Could not record this reading. Please try again."
+    },
+    "combo": {
+      "label": "Select Flat & Meter Serial",
+      "placeholder": "Select Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "No meter",
+      "searchPlaceholder": "Search flat no, meter serial, resident…",
+      "unitsHeader": "Residential Units",
+      "found": "Flats found: {{total}}",
+      "loading": "Loading residents…",
+      "noMatch": "No residents match \"{{search}}\".",
+      "unassigned": "Unassigned",
+      "itemMeta": "{{name}} · Last: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Recording a reading for",
+      "context": "House {{house}} · Meter {{meter}}",
+      "changeResident": "Change resident",
+      "readingDate": "Reading date",
+      "readingValue": "Current Meter Reading (kL)",
+      "submit": "Submit Validated Reading",
+      "recentTitle": "Recent readings",
+      "recentEmpty": "No readings recorded yet for this meter."
+    },
+    "info": {
+      "title": "Monotonic Meter Validation",
+      "body": "Every new reading must be greater than or equal to the previous log for that meter — this keeps consumption calculations accurate and catches transposed digits early."
+    },
+    "details": {
+      "title": "Selected Unit Details",
+      "flatUnit": "Flat Unit",
+      "meterSerial": "Meter Serial",
+      "occupant": "Occupant Name",
+      "lastDial": "Last Recorded Dial",
+      "noReadings": "No readings yet",
+      "monthConsumption": "Month Consumption",
+      "empty": "No household selected. Search and pick a resident to see their meter details here."
+    },
+    "csv": {
+      "noFile": "Please choose a CSV file to upload.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Loading readings…",
+      "empty": "No readings recorded yet for your community."
+    },
+    "table": {
+      "meterNumber": "Meter No.",
+      "date": "Date",
+      "value": "Value (kL)",
+      "consumption": "Consumption (kL)",
+      "source": "Source"
+    }
+  },
+  "billingCycles": {
+    "title": "Billing Cycles",
+    "loadError": "Could not load billing cycles. Please try again.",
+    "paymentUpdateError": "Could not update this invoice's payment status.",
+    "pdfError": "Could not download the PDF. Please try again.",
+    "finalizeError": "Could not finalize this billing cycle.",
+    "archiveError": "Could not archive this billing cycle.",
+    "loading": "Loading billing cycles…",
+    "empty": "No billing cycles yet. Open one above to get started.",
+    "status": {
+      "open": "Open",
+      "finalized": "Finalized",
+      "archived": "Archived"
+    },
+    "open": {
+      "title": "Open a New Billing Cycle",
+      "noMonth": "Please choose a month to open.",
+      "error": "Could not open a billing cycle for that month.",
+      "monthAria": "Billing period month",
+      "opening": "Opening…",
+      "submit": "Open Cycle"
+    },
+    "table": {
+      "period": "Period",
+      "status": "Status",
+      "householdsBilled": "Households Billed",
+      "totalBilled": "Total Billed",
+      "actions": "Actions"
+    },
+    "actions": {
+      "finalize": "Finalize",
+      "finalizing": "Finalizing…",
+      "archive": "Archive",
+      "archiving": "Archiving…"
+    },
+    "filter": {
+      "aria": "Filter by payment status",
+      "all": "All"
+    },
+    "payment": {
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "updating": "Updating…",
+      "markPaid": "Mark as paid",
+      "markUnpaid": "Mark as unpaid"
+    },
+    "detail": {
+      "title": "Cycle Detail — {{period}}",
+      "loading": "Loading invoices…",
+      "notFinalized": "This cycle has not been finalized yet — no invoices generated.",
+      "noInvoices": "No invoices for this cycle.",
+      "noMatch": "No invoices match this filter."
+    },
+    "invoices": {
+      "household": "Household",
+      "resident": "Resident",
+      "meterNumber": "Meter No.",
+      "consumption": "Consumption (kL)",
+      "tierBreakdown": "Tier Breakdown",
+      "commonArea": "Common Area",
+      "total": "Total",
+      "paymentStatus": "Payment Status",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Could not load the tariff configuration",
+    "saveError": "Could not save the tariff configuration",
+    "chartTitle": "Active Metered Utility Rate Tiers",
+    "axisNote": "Rate in ₹/kL, slab limits in kL",
+    "tableTitle": "Pricing Tiers Table",
+    "defaultRatesNote": "Showing default rates — not yet saved.",
+    "addTier": "+ Add Tier",
+    "saveRates": "Save Tariff Rates",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Base)",
+      "medium": "Tier {{tier}} (Medium)",
+      "heavy": "Tier {{tier}} (Heavy)"
+    },
+    "basePrice": {
+      "label": "Base Price (₹ / kL, applied to ALL consumption)",
+      "note": "Every kL is charged this flat rate first. The slabs below add EXTRA charges only for usage that falls within their range — e.g. a slab starting at 50 kL only adds its rate for consumption above 50 kL."
+    },
+    "table": {
+      "tierLevel": "Tier Level",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate per kL",
+      "action": "Action"
+    },
+    "commonArea": {
+      "title": "Shared Common Area Cost Configuration",
+      "loadError": "Could not load the common-area cost configuration",
+      "saveError": "Could not save the common-area cost configuration",
+      "empty": "No cost items saved yet.",
+      "labelPlaceholder": "Cost item label",
+      "perMonth": "/ month",
+      "active": "Active",
+      "addItem": "+ Add Cost Item",
+      "save": "Save Common Area Configuration"
+    },
+    "distribution": {
+      "title": "Cost Distribution Method Selector",
+      "consumption": "By Consumption (Sub-metered Proportional)",
+      "floorArea": "By Apartment Flat Size (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Cycle Billing Start Date",
+      "cycleStartValue": "1st of Every Month",
+      "autoInvoices": "Auto-Generate PDF Invoices"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Threshold Exceeded",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "config": {
+      "title": "Leak Detection Configuration",
+      "subtitle": "Set a monthly consumption threshold and/or enable statistical outlier detection (flags a household whose monthly consumption is unusually high compared to its own history).",
+      "loadError": "Could not load alert configuration. Please try again.",
+      "thresholdRequired": "A monthly threshold (kL) is required when threshold alerts are enabled.",
+      "saveError": "Could not save this configuration.",
+      "loading": "Loading configuration…",
+      "threshold": "Monthly threshold (kL)",
+      "sensitivity": "Outlier sensitivity (σ multiplier)",
+      "enableThreshold": "Enable threshold alerts",
+      "enableOutlier": "Enable statistical outlier alerts",
+      "save": "Save Configuration",
+      "running": "Running…",
+      "runNow": "Run Detection Now"
+    },
+    "alerts": {
+      "title": "Flagged Households",
+      "loadError": "Could not load alerts. Please try again.",
+      "runError": "Could not run leak detection right now. Please try again.",
+      "updateError": "Could not update this alert. Please try again.",
+      "allStatuses": "All statuses",
+      "loading": "Loading alerts…",
+      "empty": "No alerts to show. Configure a threshold or enable outlier detection above, then click \"Run Detection Now\" to evaluate your community's current usage.",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss"
+    },
+    "table": {
+      "household": "Household",
+      "resident": "Resident",
+      "meter": "Meter",
+      "type": "Type",
+      "period": "Period",
+      "consumption": "Consumption",
+      "reference": "Reference",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Could not load bulk water purchases. Please try again.",
+    "confirmRemove": "Remove the {{source}} delivery on {{date}}?",
+    "removeError": "Could not remove this purchase. Please try again.",
+    "count": "Purchases recorded: {{total}}",
+    "recordButton": "+ Record Purchase",
+    "loading": "Loading bulk water purchases…",
+    "empty": "No bulk water purchases recorded yet. Click \"Record Purchase\" to log a tanker delivery or municipal supply purchase.",
+    "table": {
+      "date": "Date",
+      "source": "Source",
+      "volume": "Volume (L)",
+      "unitCost": "Unit Cost",
+      "totalCost": "Total Cost",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Record Bulk Water Purchase",
+      "editTitle": "Edit Bulk Water Purchase",
+      "subtitle": "Track a tanker delivery or municipal supply purchase for your community — this is recorded for cost visibility only and does not affect household invoices.",
+      "requiredFields": "Please fill in the date, source, volume, and unit cost.",
+      "saveError": "Could not save this purchase. Please check the details.",
+      "purchaseDate": "Purchase date",
+      "source": "Source / supplier",
+      "volume": "Volume (liters)",
+      "unitCost": "Unit cost (₹/liter)",
+      "totalPreview": "Total cost: {{amount}}",
+      "notes": "Notes (optional)",
+      "submit": "Record Purchase"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} isn't built yet",
+    "profileSaveError": "Could not save your profile. Please try again.",
+    "apartmentSaveError": "Could not save apartment details. Please try again.",
+    "specsTitle": "Profile Specifications",
+    "photoUnavailable": "Photo upload isn't available yet",
+    "changePhoto": "Change Photo",
+    "deletePhoto": "Delete",
+    "photoHint": "JPG or PNG. Max size 2MB.",
+    "saveProfile": "Save Profile",
+    "apartmentTitle": "Apartment Details",
+    "saveApartment": "Save Apartment Details",
+    "tabs": {
+      "profile": "Profile Settings",
+      "apartment": "Apartment Profile",
+      "notifications": "Notification Rules",
+      "billing": "Billing Integrations",
+      "security": "Security & Access"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "emailLocked": "Email can't be changed here",
+      "phone": "Phone Number",
+      "accessLevel": "Access Level",
+      "accessLevelValue": "Community Administrator",
+      "roleLocked": "Role management isn't available yet",
+      "apartmentName": "Apartment Name",
+      "mainsSource": "Mains Source",
+      "mainsSourcePlaceholder": "e.g. Municipal Supply + Supplemental Tankers",
+      "address": "Physical Address"
+    },
+    "security": {
+      "title": "Security & Access Preview",
+      "twoFactor": "Two-Factor Authentication",
+      "twoFactorHint": "Enabled on login",
+      "twoFactorUnavailable": "Two-factor authentication isn't available yet",
+      "twoFactorAria": "Two-factor authentication (preview only)",
+      "sessionsLabel": "Active Admin Sessions",
+      "sessionsEmpty": "Session tracking isn't available yet — this is a preview of the upcoming layout."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "My Tickets",
+      "inbox": "Resident Tickets"
+    },
+    "mine": {
+      "title": "My Support Tickets",
+      "subtitle": "Raise a question or concern about your community to the System Admin.",
+      "emptyCreateHint": "Raise a question or concern about your community. A System Admin will review and respond here."
+    },
+    "inbox": {
+      "title": "Resident Tickets",
+      "subtitle": "Support tickets and concerns residents in your community have addressed to you."
+    }
+  }
+}

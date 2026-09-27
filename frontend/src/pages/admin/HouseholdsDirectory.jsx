@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import i18next from 'i18next'
+import { Trans, useTranslation } from 'react-i18next'
 import { bulkUploadResidents, createResident, deleteResident, listResidents, updateResident } from '../../api/residentApi'
 import '../../components/AuthForm.css'
 import './HouseholdsDirectory.css'
@@ -22,10 +24,21 @@ const EMPTY_FORM = {
 const PAGE_SIZE = 10
 
 const SORT_OPTIONS = [
-  { value: 'fullName', label: 'Name' },
-  { value: 'houseNumber', label: 'House Number' },
-  { value: 'dateOfJoining', label: 'Date of Joining' },
+  { value: 'fullName', labelKey: 'households.sort.name' },
+  { value: 'houseNumber', labelKey: 'households.sort.houseNumber' },
+  { value: 'dateOfJoining', labelKey: 'households.sort.dateOfJoining' },
 ]
+
+// Values are sent to the backend as-is; only the displayed label is translated.
+const GENDER_OPTIONS = [
+  { value: 'Male', labelKey: 'households.gender.male' },
+  { value: 'Female', labelKey: 'households.gender.female' },
+  { value: 'Other', labelKey: 'households.gender.other' },
+]
+
+// Literal column names the backend bulk-upload parser expects - not translated.
+const BULK_UPLOAD_COLUMNS =
+  'fullName, email, phone, houseNumber, meterNumber, governmentId, gender, dateOfBirth, dateOfJoining, password, flatSizeSqft'
 
 const METER_NUMBER_REGEX = /^MTR-\d{4}$/
 const GOVERNMENT_ID_REGEX = /^99\d{4}$/
@@ -34,56 +47,57 @@ function joinedDate(resident) {
   return resident.dateOfJoining || resident.createdAt?.slice(0, 10) || ''
 }
 
+// Returns translation keys (resolved with t() at render time), not display strings.
 function validateForm(form, residents = [], editingId = null) {
   const errors = {}
 
-  if (!form.fullName.trim()) errors.fullName = 'Full name is required.'
-  if (!form.email.trim()) errors.email = 'Email is required.'
-  if (!form.phone.trim()) errors.phone = 'Phone number is required.'
+  if (!form.fullName.trim()) errors.fullName = 'households.validation.fullNameRequired'
+  if (!form.email.trim()) errors.email = 'households.validation.emailRequired'
+  if (!form.phone.trim()) errors.phone = 'households.validation.phoneRequired'
 
   if (!form.houseNumber.trim()) {
-    errors.houseNumber = 'House / unit number is required.'
+    errors.houseNumber = 'households.validation.houseNumberRequired'
   } else if (
     residents.some(
       (r) => r.id !== editingId && r.houseNumber?.trim().toLowerCase() === form.houseNumber.trim().toLowerCase(),
     )
   ) {
-    errors.houseNumber = 'This house number is already assigned to another resident.'
+    errors.houseNumber = 'households.validation.houseNumberTaken'
   }
 
   if (!form.meterNumber.trim()) {
-    errors.meterNumber = 'Meter number is required.'
+    errors.meterNumber = 'households.validation.meterNumberRequired'
   } else if (!METER_NUMBER_REGEX.test(form.meterNumber)) {
-    errors.meterNumber = 'Meter number must look like MTR-1234 (4 digits).'
+    errors.meterNumber = 'households.validation.meterNumberFormat'
   } else if (
     residents.some(
       (r) => r.id !== editingId && r.meterNumber?.trim().toLowerCase() === form.meterNumber.trim().toLowerCase(),
     )
   ) {
-    errors.meterNumber = 'This meter number is already assigned to another resident.'
+    errors.meterNumber = 'households.validation.meterNumberTaken'
   }
 
   if (!form.governmentId.trim()) {
-    errors.governmentId = 'Government ID is required.'
+    errors.governmentId = 'households.validation.governmentIdRequired'
   } else if (!GOVERNMENT_ID_REGEX.test(form.governmentId)) {
-    errors.governmentId = 'ID must be 6 digits starting with 99 (e.g. 991234).'
+    errors.governmentId = 'households.validation.governmentIdFormat'
   }
 
-  if (!form.gender) errors.gender = 'Please select a gender.'
-  if (!form.dateOfBirth) errors.dateOfBirth = 'Date of birth is required.'
-  if (!form.dateOfJoining) errors.dateOfJoining = 'Date of joining is required.'
+  if (!form.gender) errors.gender = 'households.validation.genderRequired'
+  if (!form.dateOfBirth) errors.dateOfBirth = 'households.validation.dateOfBirthRequired'
+  if (!form.dateOfJoining) errors.dateOfJoining = 'households.validation.dateOfJoiningRequired'
 
   if (form.bypassSetPassword) {
     if (!form.password) {
-      errors.password = 'Password is required.'
+      errors.password = 'households.validation.passwordRequired'
     } else if (form.password.length < 8) {
-      errors.password = 'Password must be at least 8 characters.'
+      errors.password = 'households.validation.passwordLength'
     }
 
     if (!form.confirmPassword) {
-      errors.confirmPassword = 'Please confirm the password.'
+      errors.confirmPassword = 'households.validation.confirmPasswordRequired'
     } else if (form.password !== form.confirmPassword) {
-      errors.confirmPassword = 'Passwords do not match.'
+      errors.confirmPassword = 'households.validation.passwordMismatch'
     }
   }
 
@@ -91,6 +105,7 @@ function validateForm(form, residents = [], editingId = null) {
 }
 
 function HouseholdsDirectory() {
+  const { t } = useTranslation('admin')
   const [residents, setResidents] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -153,7 +168,7 @@ function HouseholdsDirectory() {
   useEffect(() => {
     listResidents()
       .then(setResidents)
-      .catch(() => setError('Could not load residents. Please try again.'))
+      .catch(() => setError(i18next.t('households.loadError', { ns: 'admin' })))
       .finally(() => setLoading(false))
   }, [])
 
@@ -205,7 +220,7 @@ function HouseholdsDirectory() {
     const errors = validateForm(form, residents, editingId)
     if (Object.keys(errors).length > 0) {
       setFieldErrors(errors)
-      setFormError('Please fix the highlighted fields.')
+      setFormError(t('households.fixFields'))
       return
     }
 
@@ -225,14 +240,14 @@ function HouseholdsDirectory() {
       }
       closeForm()
     } catch (err) {
-      setFormError(err.response?.data?.message || 'Could not save this resident. Please check the details.')
+      setFormError(err.response?.data?.message || t('households.saveError'))
     } finally {
       setSubmitting(false)
     }
   }
 
   async function handleDelete(resident) {
-    if (!window.confirm(`Remove ${resident.fullName} from your households directory?`)) {
+    if (!window.confirm(t('households.confirmRemove', { name: resident.fullName }))) {
       return
     }
 
@@ -240,7 +255,7 @@ function HouseholdsDirectory() {
       await deleteResident(resident.id)
       setResidents((prev) => prev.filter((r) => r.id !== resident.id))
     } catch {
-      setError('Could not remove this resident. Please try again.')
+      setError(t('households.removeError'))
     }
   }
 
@@ -261,7 +276,7 @@ function HouseholdsDirectory() {
     setBulkResult(null)
 
     if (!bulkFile) {
-      setBulkError('Please choose a .csv or .xlsx/.xls file to upload.')
+      setBulkError(t('households.bulk.noFile'))
       return
     }
 
@@ -275,7 +290,7 @@ function HouseholdsDirectory() {
         listResidents().then(setResidents).catch(() => {})
       }
     } catch (err) {
-      setBulkError(err.response?.data?.message || 'Could not upload this file. Please try again.')
+      setBulkError(err.response?.data?.message || t('shared.uploadError'))
     } finally {
       setBulkUploading(false)
     }
@@ -284,13 +299,13 @@ function HouseholdsDirectory() {
   return (
     <>
       <div className="af-hh__toolbar">
-        <span className="af-hh__count">{residents.length} household{residents.length === 1 ? '' : 's'}</span>
+        <span className="af-hh__count">{t('households.count', { total: residents.length })}</span>
         <div className="af-hh__toolbar-actions">
           <button type="button" className="af-btn af-btn--outline" onClick={openBulkUpload}>
-            ⇪ Bulk Upload
+            {t('households.bulkUploadButton')}
           </button>
           <button type="button" className="af-btn af-btn--cyan" onClick={openAddForm}>
-            + Add Resident
+            {t('households.addResidentButton')}
           </button>
         </div>
       </div>
@@ -303,23 +318,23 @@ function HouseholdsDirectory() {
           </svg>
           <input
             type="text"
-            placeholder="Filter by name, house, email, or meter no."
+            placeholder={t('households.searchPlaceholder')}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
 
         <div className="af-hh__sort">
-          <label htmlFor="sortField">Sort by</label>
+          <label htmlFor="sortField">{t('households.sort.label')}</label>
           <select id="sortField" value={sortField} onChange={(e) => setSortField(e.target.value)}>
             {SORT_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
-                {opt.label}
+                {t(opt.labelKey)}
               </option>
             ))}
           </select>
-          <button type="button" className="af-hh__sort-dir" onClick={toggleSortDirection} title="Toggle sort direction">
-            {sortDirection === 'asc' ? '↑ Asc' : '↓ Desc'}
+          <button type="button" className="af-hh__sort-dir" onClick={toggleSortDirection} title={t('households.sort.toggleDirection')}>
+            {sortDirection === 'asc' ? t('households.sort.asc') : t('households.sort.desc')}
           </button>
         </div>
       </div>
@@ -328,24 +343,24 @@ function HouseholdsDirectory() {
 
       <div className="af-hh__table-wrap">
         {loading ? (
-          <p className="af-hh__empty">Loading residents…</p>
+          <p className="af-hh__empty">{t('households.loading')}</p>
         ) : residents.length === 0 ? (
           <p className="af-hh__empty">
-            No residents yet. Click "Add Resident" to register the first household.
+            {t('households.empty')}
           </p>
         ) : visibleResidents.length === 0 ? (
-          <p className="af-hh__empty">No residents match "{search}".</p>
+          <p className="af-hh__empty">{t('households.noMatch', { search })}</p>
         ) : (
           <table className="af-hh__table">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>House / Unit</th>
-                <th>Email</th>
-                <th>Phone</th>
-                <th>Meter No.</th>
-                <th>Sqft</th>
-                <th>Joined</th>
+                <th>{t('households.table.name')}</th>
+                <th>{t('households.table.houseUnit')}</th>
+                <th>{t('households.table.email')}</th>
+                <th>{t('households.table.phone')}</th>
+                <th>{t('households.table.meterNumber')}</th>
+                <th>{t('households.table.sqft')}</th>
+                <th>{t('households.table.joined')}</th>
                 <th></th>
               </tr>
             </thead>
@@ -362,10 +377,10 @@ function HouseholdsDirectory() {
                   <td>
                     <div className="af-hh__row-actions">
                       <button type="button" onClick={() => openEditForm(resident)}>
-                        Edit
+                        {t('shared.edit')}
                       </button>
                       <button type="button" className="af-hh__delete" onClick={() => handleDelete(resident)}>
-                        Remove
+                        {t('shared.remove')}
                       </button>
                     </div>
                   </td>
@@ -379,18 +394,21 @@ function HouseholdsDirectory() {
       {visibleResidents.length > 0 && (
         <div className="af-hh__pagination">
           <span className="af-hh__pagination-info">
-            Showing {page * PAGE_SIZE + 1}–{Math.min(visibleResidents.length, page * PAGE_SIZE + PAGE_SIZE)} of{' '}
-            {visibleResidents.length}
+            {t('pagination.showing', {
+              from: page * PAGE_SIZE + 1,
+              to: Math.min(visibleResidents.length, page * PAGE_SIZE + PAGE_SIZE),
+              total: visibleResidents.length,
+            })}
           </span>
           <div className="af-hh__pagination-controls">
             <button type="button" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-              ← Prev
+              {t('pagination.prev')}
             </button>
             <span className="af-hh__pagination-page">
-              Page {page + 1} of {pageCount}
+              {t('pagination.page', { page: page + 1, pageCount })}
             </span>
             <button type="button" disabled={page >= pageCount - 1} onClick={() => setPage((p) => p + 1)}>
-              Next →
+              {t('pagination.next')}
             </button>
           </div>
         </div>
@@ -399,13 +417,13 @@ function HouseholdsDirectory() {
       {showForm && (
         <div className="af-hh__modal-backdrop" onClick={closeForm}>
           <div className="af-hh__modal" onClick={(e) => e.stopPropagation()}>
-            <h2>{editingId ? 'Edit Resident' : 'Add Resident'}</h2>
+            <h2>{editingId ? t('households.form.editTitle') : t('households.form.addTitle')}</h2>
             <p className="af-hh__modal-sub">
               {editingId
-                ? "This updates the resident's details in your directory."
+                ? t('households.form.editSubtitle')
                 : form.bypassSetPassword
-                  ? "You're setting this resident's password directly. No email will be sent."
-                  : "A set-password link will be emailed to this resident so they can activate their own login."}
+                  ? t('households.form.bypassSubtitle')
+                  : t('households.form.addSubtitle')}
             </p>
 
             <form onSubmit={handleSubmit}>
@@ -413,7 +431,7 @@ function HouseholdsDirectory() {
 
               <div className="af-form__row">
                 <div className="af-form__field">
-                  <label htmlFor="fullName">Full name</label>
+                  <label htmlFor="fullName">{t('households.form.fullName')}</label>
                   <input
                     id="fullName"
                     name="fullName"
@@ -422,10 +440,10 @@ function HouseholdsDirectory() {
                     value={form.fullName}
                     onChange={handleChange}
                   />
-                  {fieldErrors.fullName && <span className="af-form__field-error">{fieldErrors.fullName}</span>}
+                  {fieldErrors.fullName && <span className="af-form__field-error">{t(fieldErrors.fullName)}</span>}
                 </div>
                 <div className="af-form__field">
-                  <label htmlFor="houseNumber">House / unit no.</label>
+                  <label htmlFor="houseNumber">{t('households.form.houseNumber')}</label>
                   <input
                     id="houseNumber"
                     name="houseNumber"
@@ -434,13 +452,13 @@ function HouseholdsDirectory() {
                     value={form.houseNumber}
                     onChange={handleChange}
                   />
-                  {fieldErrors.houseNumber && <span className="af-form__field-error">{fieldErrors.houseNumber}</span>}
+                  {fieldErrors.houseNumber && <span className="af-form__field-error">{t(fieldErrors.houseNumber)}</span>}
                 </div>
               </div>
 
               <div className="af-form__row">
                 <div className="af-form__field">
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email">{t('households.form.email')}</label>
                   <input
                     id="email"
                     name="email"
@@ -450,10 +468,10 @@ function HouseholdsDirectory() {
                     value={form.email}
                     onChange={handleChange}
                   />
-                  {fieldErrors.email && <span className="af-form__field-error">{fieldErrors.email}</span>}
+                  {fieldErrors.email && <span className="af-form__field-error">{t(fieldErrors.email)}</span>}
                 </div>
                 <div className="af-form__field">
-                  <label htmlFor="phone">Phone number</label>
+                  <label htmlFor="phone">{t('households.form.phone')}</label>
                   <input
                     id="phone"
                     name="phone"
@@ -463,13 +481,13 @@ function HouseholdsDirectory() {
                     value={form.phone}
                     onChange={handleChange}
                   />
-                  {fieldErrors.phone && <span className="af-form__field-error">{fieldErrors.phone}</span>}
+                  {fieldErrors.phone && <span className="af-form__field-error">{t(fieldErrors.phone)}</span>}
                 </div>
               </div>
 
               <div className="af-form__row">
                 <div className="af-form__field">
-                  <label htmlFor="meterNumber">Meter number</label>
+                  <label htmlFor="meterNumber">{t('households.form.meterNumber')}</label>
                   <input
                     id="meterNumber"
                     name="meterNumber"
@@ -479,10 +497,10 @@ function HouseholdsDirectory() {
                     value={form.meterNumber}
                     onChange={handleChange}
                   />
-                  {fieldErrors.meterNumber && <span className="af-form__field-error">{fieldErrors.meterNumber}</span>}
+                  {fieldErrors.meterNumber && <span className="af-form__field-error">{t(fieldErrors.meterNumber)}</span>}
                 </div>
                 <div className="af-form__field">
-                  <label htmlFor="governmentId">Government ID</label>
+                  <label htmlFor="governmentId">{t('households.form.governmentId')}</label>
                   <input
                     id="governmentId"
                     name="governmentId"
@@ -492,31 +510,31 @@ function HouseholdsDirectory() {
                     value={form.governmentId}
                     onChange={handleChange}
                   />
-                  {fieldErrors.governmentId && <span className="af-form__field-error">{fieldErrors.governmentId}</span>}
+                  {fieldErrors.governmentId && <span className="af-form__field-error">{t(fieldErrors.governmentId)}</span>}
                 </div>
               </div>
 
               <div className="af-form__row">
                 <div className="af-form__field">
-                  <label>Gender</label>
-                  <div className="af-hh__radio-group" role="radiogroup" aria-label="Gender">
-                    {['Male', 'Female', 'Other'].map((option) => (
-                      <label className="af-hh__radio" key={option}>
+                  <label>{t('households.form.gender')}</label>
+                  <div className="af-hh__radio-group" role="radiogroup" aria-label={t('households.form.gender')}>
+                    {GENDER_OPTIONS.map((option) => (
+                      <label className="af-hh__radio" key={option.value}>
                         <input
                           type="radio"
                           name="gender"
-                          value={option}
-                          checked={form.gender === option}
+                          value={option.value}
+                          checked={form.gender === option.value}
                           onChange={handleChange}
                         />
-                        {option}
+                        {t(option.labelKey)}
                       </label>
                     ))}
                   </div>
-                  {fieldErrors.gender && <span className="af-form__field-error">{fieldErrors.gender}</span>}
+                  {fieldErrors.gender && <span className="af-form__field-error">{t(fieldErrors.gender)}</span>}
                 </div>
                 <div className="af-form__field">
-                  <label htmlFor="dateOfBirth">Date of birth</label>
+                  <label htmlFor="dateOfBirth">{t('households.form.dateOfBirth')}</label>
                   <input
                     id="dateOfBirth"
                     name="dateOfBirth"
@@ -526,13 +544,13 @@ function HouseholdsDirectory() {
                     value={form.dateOfBirth}
                     onChange={handleChange}
                   />
-                  {fieldErrors.dateOfBirth && <span className="af-form__field-error">{fieldErrors.dateOfBirth}</span>}
+                  {fieldErrors.dateOfBirth && <span className="af-form__field-error">{t(fieldErrors.dateOfBirth)}</span>}
                 </div>
               </div>
 
               <div className="af-form__row">
                 <div className="af-form__field">
-                  <label htmlFor="dateOfJoining">Date of joining</label>
+                  <label htmlFor="dateOfJoining">{t('households.form.dateOfJoining')}</label>
                   <input
                     id="dateOfJoining"
                     name="dateOfJoining"
@@ -542,10 +560,10 @@ function HouseholdsDirectory() {
                     value={form.dateOfJoining}
                     onChange={handleChange}
                   />
-                  {fieldErrors.dateOfJoining && <span className="af-form__field-error">{fieldErrors.dateOfJoining}</span>}
+                  {fieldErrors.dateOfJoining && <span className="af-form__field-error">{t(fieldErrors.dateOfJoining)}</span>}
                 </div>
                 <div className="af-form__field">
-                  <label htmlFor="flatSizeSqft">Flat size (sq ft)</label>
+                  <label htmlFor="flatSizeSqft">{t('households.form.flatSize')}</label>
                   <input
                     id="flatSizeSqft"
                     name="flatSizeSqft"
@@ -568,13 +586,13 @@ function HouseholdsDirectory() {
                       checked={form.bypassSetPassword}
                       onChange={handleChange}
                     />
-                    Bypass set-password email — set a password for this resident now
+                    {t('households.form.bypassLabel')}
                   </label>
 
                   {form.bypassSetPassword && (
                     <div className="af-form__row">
                       <div className="af-form__field">
-                        <label htmlFor="password">Password</label>
+                        <label htmlFor="password">{t('households.form.password')}</label>
                         <input
                           id="password"
                           name="password"
@@ -585,10 +603,10 @@ function HouseholdsDirectory() {
                           value={form.password}
                           onChange={handleChange}
                         />
-                        {fieldErrors.password && <span className="af-form__field-error">{fieldErrors.password}</span>}
+                        {fieldErrors.password && <span className="af-form__field-error">{t(fieldErrors.password)}</span>}
                       </div>
                       <div className="af-form__field">
-                        <label htmlFor="confirmPassword">Confirm password</label>
+                        <label htmlFor="confirmPassword">{t('households.form.confirmPassword')}</label>
                         <input
                           id="confirmPassword"
                           name="confirmPassword"
@@ -600,7 +618,7 @@ function HouseholdsDirectory() {
                           onChange={handleChange}
                         />
                         {fieldErrors.confirmPassword && (
-                          <span className="af-form__field-error">{fieldErrors.confirmPassword}</span>
+                          <span className="af-form__field-error">{t(fieldErrors.confirmPassword)}</span>
                         )}
                       </div>
                     </div>
@@ -610,10 +628,10 @@ function HouseholdsDirectory() {
 
               <div className="af-hh__modal-actions">
                 <button type="button" className="af-btn af-btn--outline" onClick={closeForm}>
-                  Cancel
+                  {t('shared.cancel')}
                 </button>
                 <button type="submit" className="af-form__submit" disabled={submitting}>
-                  {submitting ? 'Saving…' : editingId ? 'Save Changes' : 'Add Resident'}
+                  {submitting ? t('shared.saving') : editingId ? t('shared.saveChanges') : t('households.form.addTitle')}
                 </button>
               </div>
             </form>
@@ -624,13 +642,14 @@ function HouseholdsDirectory() {
       {showBulkUpload && (
         <div className="af-hh__modal-backdrop" onClick={closeBulkUpload}>
           <div className="af-hh__modal" onClick={(e) => e.stopPropagation()}>
-            <h2>Bulk Upload Residents</h2>
+            <h2>{t('households.bulk.title')}</h2>
             <p className="af-hh__modal-sub">
-              Upload a .csv or .xlsx/.xls file with columns <code>fullName, email, phone, houseNumber,
-              meterNumber, governmentId, gender, dateOfBirth, dateOfJoining, password, flatSizeSqft</code>{' '}
-              (password and flatSizeSqft are both optional). Rows with a password set it directly; rows
-              without one get a set-password email, same as adding a resident manually. Duplicate
-              house/meter numbers or emails are rejected per row — one bad row won't fail the whole batch.
+              <Trans
+                t={t}
+                i18nKey="households.bulk.instructions"
+                values={{ columns: BULK_UPLOAD_COLUMNS }}
+                components={{ code: <code /> }}
+              />
             </p>
 
             <form onSubmit={handleBulkSubmit}>
@@ -647,14 +666,23 @@ function HouseholdsDirectory() {
               {bulkResult && (
                 <div className="af-hh__bulk-result">
                   <p>
-                    Processed <strong>{bulkResult.totalRows}</strong> rows —{' '}
-                    <strong>{bulkResult.successCount}</strong> succeeded, <strong>{bulkResult.failureCount}</strong> failed.
+                    <Trans
+                      t={t}
+                      i18nKey="shared.bulkSummary"
+                      values={{
+                        total: bulkResult.totalRows,
+                        success: bulkResult.successCount,
+                        failure: bulkResult.failureCount,
+                      }}
+                      components={{ b: <strong /> }}
+                    />
                   </p>
                   {bulkResult.failures?.length > 0 && (
                     <ul className="af-hh__bulk-failures">
                       {bulkResult.failures.map((failure) => (
                         <li key={failure.rowNumber}>
-                          Row {failure.rowNumber}: {failure.reason} <span>({failure.rawLine})</span>
+                          {t('shared.rowFailure', { row: failure.rowNumber, reason: failure.reason })}{' '}
+                          <span>({failure.rawLine})</span>
                         </li>
                       ))}
                     </ul>
@@ -664,10 +692,10 @@ function HouseholdsDirectory() {
 
               <div className="af-hh__modal-actions">
                 <button type="button" className="af-btn af-btn--outline" onClick={closeBulkUpload}>
-                  Close
+                  {t('shared.close')}
                 </button>
                 <button type="submit" className="af-form__submit" disabled={bulkUploading}>
-                  {bulkUploading ? 'Uploading…' : 'Upload'}
+                  {bulkUploading ? t('shared.uploading') : t('shared.upload')}
                 </button>
               </div>
             </form>

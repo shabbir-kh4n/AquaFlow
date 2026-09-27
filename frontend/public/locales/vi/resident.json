@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Sắp ra mắt",
+    "welcome": {
+      "greeting": "Xin chào {{name}},",
+      "greetingFallback": "Xin chào,",
+      "title": "Ở gần câu chuyện nước của nhà bạn.",
+      "subtitle": "Thông tin chi tiết về việc sử dụng và thanh toán sẽ xuất hiện ở đây dưới dạng thông tin ghi lại trong cộng đồng của bạn.",
+      "viewBadges": "Xem huy hiệu sinh thái"
+    },
+    "stats": {
+      "todaysUsage": "Cách sử dụng ngày nay",
+      "asOf": "Kể từ {{date}}",
+      "noReading": "Chưa có đồng hồ đọc",
+      "monthlyTotalFor": "Tổng cộng hàng tháng ({{month}})",
+      "monthlyTotalThisMonth": "Tổng cộng hàng tháng (tháng này)",
+      "sumOfReadings": "Tổng số bài đọc được ghi lại",
+      "estimatedBill": "Hóa đơn ước tính hiện tại",
+      "estimatedBillFor": "Mức sử dụng được tính + phí chia sẻ, {{month}}",
+      "estimatedBillHint": "Dựa trên mức tiêu thụ theo định mức và chi phí chung của tháng này",
+      "savings": "Tiết kiệm so với xây dựng trung bình",
+      "savingsValue": "{{percent}}% Ít hơn",
+      "savingsPreview": "Chỉ xem trước - so sánh chưa trực tuyến"
+    },
+    "consumption": {
+      "eyebrow": "Sự tiêu thụ",
+      "title": "Tiêu thụ hàng ngày (14 bài đọc cuối cùng)",
+      "seriesName": "Sự tiêu thụ",
+      "empty": "Chưa có bài đọc nào được ghi lại."
+    },
+    "breakdown": {
+      "eyebrow": "Sự cố",
+      "title": "Phân tích sử dụng",
+      "bathroom": "Phòng tắm",
+      "kitchen": "Phòng bếp",
+      "garden": "Vườn / Ban công",
+      "other": "Khác / Giặt ủi"
+    },
+    "billing": {
+      "eyebrow": "Thanh toán",
+      "title": "Chu kỳ thanh toán đang hoạt động",
+      "finalized": "Đã hoàn tất",
+      "preview": "Xem trước",
+      "meteredConsumption": "Mức tiêu thụ được đo lường",
+      "tierPriceLevel": "Mức giá bậc",
+      "tierLabel": "Bậc {{tier}}",
+      "commonArea": "Phân chia diện tích chung",
+      "commonAreaPreview": "Phân chia diện tích chung (xem trước)",
+      "invoiceTotal": "{{period}} tổng hóa đơn",
+      "estimatedCharge": "Phí ước tính hiện tại",
+      "commonAreaBreakdown": "Phân chia khu vực chung",
+      "payPreview": "Xem trước hóa đơn thanh toán",
+      "payUnavailable": "Công cụ thanh toán chưa có sẵn"
+    },
+    "tips": {
+      "eyebrow": "Mẹo",
+      "title": "Mẹo tiết kiệm thông minh",
+      "viewAll": "Xem tất cả",
+      "empty": "Các mẹo được cá nhân hóa sẽ xuất hiện ở đây sau khi cộng đồng của bạn hoàn tất chu kỳ thanh toán."
+    },
+    "community": "Cộng đồng: {{name}}"
+  },
+  "usage": {
+    "loadError": "Không thể tải lịch sử sử dụng của bạn. Vui lòng thử lại.",
+    "loading": "Đang tải phân tích sử dụng của bạn…",
+    "empty": "Chưa có bài đọc nào được ghi lại. Khi cộng đồng của bạn ghi lại chỉ số đồng hồ, nó sẽ hiển thị ở đây.",
+    "tabs": {
+      "lastSixMonths": "6 tháng qua",
+      "customRange": "Phạm vi tùy chỉnh",
+      "comingSoon": "Sắp ra mắt"
+    },
+    "peakDay": "Ngày cao điểm:",
+    "lowestDay": "Ngày thấp nhất:",
+    "comparison": {
+      "title": "Mức tiêu dùng hộ gia đình so với mức trung bình căn hộ",
+      "subtitle": "Tổng số hàng tháng được hiển thị bằng kilolít (kL).",
+      "yourHousehold": "hộ gia đình của bạn",
+      "apartmentAverage": "Căn hộ trung bình",
+      "similarSized": "Những ngôi nhà có kích thước tương tự"
+    },
+    "heatmap": {
+      "title": "Bản đồ nhiệt tiêu thụ hàng ngày",
+      "subtitle": "Cờ cường độ màu ngày sử dụng nhiều (xem trước)."
+    },
+    "ranking": {
+      "title": "Xếp hạng ngang hàng trong cộng đồng",
+      "subtitle": "Thứ hạng của bạn so với các đơn vị tương tự (xem trước).",
+      "ecoSaver": "Tiết kiệm sinh thái đang hoạt động",
+      "aptNumber": "Căn hộ {{number}}",
+      "unitNumber": "Đơn vị {{number}}",
+      "yourUnit": "Đơn vị của bạn",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Bạn)"
+    }
+  },
+  "billing": {
+    "loadError": "Không thể tải lịch sử thanh toán của bạn. Vui lòng thử lại.",
+    "pdfError": "Không thể tải xuống PDF. Vui lòng thử lại.",
+    "loading": "Đang tải lịch sử thanh toán của bạn…",
+    "empty": "Chưa có hóa đơn — sau khi cộng đồng của bạn hoàn tất chu kỳ thanh toán, hóa đơn của bạn sẽ hiển thị ở đây.",
+    "status": {
+      "paid": "Trả",
+      "unpaid": "Chưa thanh toán"
+    },
+    "summary": {
+      "outstandingBalance": "Số dư chưa thanh toán",
+      "billingCycle": "Chu kỳ thanh toán: {{period}}",
+      "allPaid": "Tất cả các hóa đơn được thanh toán",
+      "payTotal": "Thanh toán tổng số dư nợ",
+      "payTotalUnavailable": "Thanh toán trực tuyến chưa khả dụng - thanh toán hóa đơn trực tiếp với quản trị viên cộng đồng của bạn",
+      "downloadSummary": "Tải xuống bản tóm tắt hóa đơn",
+      "downloadSummaryUnavailable": "Chưa có bản tải xuống tóm tắt hóa đơn"
+    },
+    "history": {
+      "title": "Lịch sử hóa đơn",
+      "exportCsv": "Xuất tất cả sang CSV",
+      "exportUnavailable": "CSV chưa xuất được"
+    },
+    "table": {
+      "cycle": "Xe đạp",
+      "usage": "Cách sử dụng (kL)",
+      "amountDue": "Số tiền đến hạn",
+      "paymentStatus": "Trạng thái thanh toán",
+      "hideBreakdown": "Ẩn phân tích ↑",
+      "showBreakdown": "Phân tích từng mục ↓",
+      "downloading": "Đang tải xuống…",
+      "pdf": "PDF",
+      "pay": "Chi trả"
+    },
+    "breakdown": {
+      "householdTitle": "Cơ cấu tiêu dùng hộ gia đình",
+      "basePrice": "Giá cơ bản: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Cấp {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Tổng mức sử dụng được đo lường",
+      "commonAreaTitle": "Phân bổ diện tích chung",
+      "subtotalShared": "Tổng diện tích chia sẻ",
+      "noCommonArea": "Không có phí khu vực chung cho chu kỳ này."
+    },
+    "pagination": {
+      "showing": "Đang hiển thị {{from}}–{{to}} trong số {{total}}",
+      "prev": "← Trước đó",
+      "next": "Tiếp theo →",
+      "page": "Trang {{page}} của {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Phương thức thanh toán (xem trước)",
+      "description": "Thanh toán trực tuyến chưa khả dụng — hóa đơn được thanh toán trực tiếp với quản trị viên cộng đồng của bạn.",
+      "manage": "Quản lý phương thức thanh toán",
+      "manageUnavailable": "Phương thức thanh toán chưa có sẵn"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Được bảo đảm bởi Razorpay",
+    "billingCycle": "Chu kỳ thanh toán {{period}}",
+    "close": "Đóng",
+    "amountPayable": "Số tiền phải trả",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Thẻ",
+      "netbanking": "Ngân hàng trực tuyến",
+      "wallet": "Cái ví"
+    },
+    "upi": {
+      "title": "Thanh toán qua UPI",
+      "upiId": "UPI mã nhận dạng",
+      "or": "HOẶC",
+      "scan": "Quét bằng bất kỳ ứng dụng UPI nào"
+    },
+    "card": {
+      "title": "Thanh toán qua thẻ",
+      "number": "Số thẻ",
+      "expiry": "Hết hạn",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Tên trên thẻ",
+      "namePlaceholder": "Như in trên thẻ"
+    },
+    "netbanking": {
+      "title": "Thanh toán qua Netbanking"
+    },
+    "wallet": {
+      "title": "Thanh toán qua Ví"
+    },
+    "payAmount": "Trả ₹{{amount}}",
+    "processing": "Đang xử lý khoản thanh toán của bạn…",
+    "processingHint": "Vui lòng không nhấn lại hoặc làm mới trang này",
+    "success": "Thanh toán thành công",
+    "error": "Đã xảy ra lỗi khi xác nhận khoản thanh toán của bạn. Vui lòng thử lại.",
+    "retry": "Thử lại"
+  },
+  "notifications": {
+    "loadError": "Không thể tải thông báo của bạn. Vui lòng thử lại.",
+    "loading": "Đang tải thông báo của bạn…",
+    "empty": "Chưa có thông báo nào — bạn sẽ thấy nội dung nào đó ở đây nếu quản trị viên cộng đồng của bạn đã bật cảnh báo ngưỡng sử dụng hoặc mức tiêu thụ bất thường và một cảnh báo được kích hoạt cho hộ gia đình của bạn.",
+    "type": {
+      "thresholdExceeded": "Đã vượt quá ngưỡng tiêu thụ",
+      "statisticalOutlier": "Đã phát hiện mức tiêu thụ bất thường"
+    },
+    "status": {
+      "active": "Tích cực",
+      "resolved": "Đã giải quyết",
+      "dismissed": "Bị loại bỏ"
+    },
+    "billingPeriod": "Thời hạn thanh toán: {{period}}",
+    "consumption": "Tiêu thụ: {{value}} kL",
+    "push": {
+      "title": "Thông báo đẩy",
+      "description": "Nhận thông báo trên thiết bị này khi có hóa đơn hoặc cảnh báo mới.",
+      "enable": "Cho phép",
+      "disable": "Vô hiệu hóa",
+      "permissionDenied": "Quyền thông báo không được cấp.",
+      "notConfigured": "Thông báo đẩy chưa được định cấu hình. Liên hệ với quản trị viên của bạn.",
+      "enableError": "Không thể bật thông báo đẩy. Vui lòng thử lại.",
+      "disableError": "Không thể tắt thông báo đẩy. Vui lòng thử lại."
+    }
+  },
+  "recommendations": {
+    "loadError": "Không thể tải đề xuất của bạn. Vui lòng thử lại.",
+    "loading": "Đang tải các mẹo được cá nhân hóa của bạn…",
+    "generated": "Đã tạo {{date}}",
+    "generatedForPeriod": "Đã tạo {{date}} cho kỳ thanh toán {{period}}",
+    "eyebrow": "Cá nhân hóa cho bạn",
+    "title": "Mẹo tiết kiệm nước thông minh",
+    "empty": "Chưa có mẹo nào được tạo - những mẹo này được tự động làm mới mỗi khi cộng đồng của bạn hoàn tất chu kỳ thanh toán cho hộ gia đình bạn."
+  },
+  "support": {
+    "title": "Bộ phận hỗ trợ và quan tâm thường trú",
+    "subtitle": "Gửi báo cáo rò rỉ nước, yêu cầu hiệu chỉnh đồng hồ hoặc yêu cầu thanh toán trực tiếp đến quản trị viên cộng đồng và/hoặc Quản trị viên hệ thống của bạn.",
+    "emptyCreateHint": "Hãy mô tả vấn đề hoặc mối quan ngại của bạn bên dưới và chọn người sẽ xử lý vấn đề đó."
+  }
+}

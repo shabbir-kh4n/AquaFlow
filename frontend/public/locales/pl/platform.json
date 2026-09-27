@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktywny",
+    "blocked": "Zablokowany",
+    "terminated": "Zakończony"
+  },
+  "sort": {
+    "sortBy": "Sortuj według",
+    "toggleDirection": "Przełącz kierunek sortowania",
+    "asc": "↑ Rosn",
+    "desc": "↓ Opis"
+  },
+  "pagination": {
+    "showing": "Wyświetlanie {{from}}–{{to}} z {{total}}",
+    "prev": "← Poprzednie",
+    "next": "Dalej →",
+    "page": "Strona {{page}} z {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Przegląd platformy",
+    "subtitle": "Każdy zarejestrowany administrator społeczności na całej platformie HydroLedger.",
+    "viewAll": "Wyświetl wszystkie społeczności",
+    "loadError": "Nie można teraz wczytać danych platformy.",
+    "cards": {
+      "totalCommunities": "Razem społeczności",
+      "registeredAdmins": "Zarejestrowani administratorzy",
+      "totalResidents": "Całkowita liczba mieszkańców",
+      "acrossAllCommunities": "We wszystkich społecznościach",
+      "active": "Aktywny",
+      "inGoodStanding": "W dobrej kondycji",
+      "blockedTerminated": "Zablokowany / Zakończony",
+      "blockedTerminatedBreakdown": "{{blocked}} zablokowane, {{terminated}} zakończone"
+    },
+    "recent": {
+      "title": "Ostatnio zarejestrowane społeczności",
+      "loading": "Załadunek…",
+      "empty": "Nie zarejestrowano jeszcze żadnych społeczności.",
+      "table": {
+        "community": "Wspólnota",
+        "admin": "Administrator",
+        "status": "Status",
+        "residents": "Mieszkańcy"
+      }
+    }
+  },
+  "communities": {
+    "count": "Społeczności: {{count}}",
+    "loadError": "Nie udało się wczytać społeczności. Spróbuj ponownie.",
+    "searchPlaceholder": "Filtruj według społeczności, nazwy administratora lub adresu e-mail",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Wszystko"
+    },
+    "sortOptions": {
+      "community": "Wspólnota",
+      "admin": "Administrator",
+      "residents": "Mieszkańcy"
+    },
+    "loading": "Ładowanie społeczności…",
+    "empty": "Nie zarejestrowano jeszcze żadnych społeczności.",
+    "noMatch": "Żadna społeczność nie pasuje do Twoich filtrów.",
+    "table": {
+      "community": "Wspólnota",
+      "admin": "Administrator",
+      "email": "E-mail",
+      "status": "Status",
+      "residents": "Mieszkańcy",
+      "view": "Pogląd"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Nie można wczytać tej społeczności. Być może został usunięty.",
+    "statusUpdateError": "Nie można zaktualizować statusu tej społeczności.",
+    "deleteError": "Nie można usunąć tej społeczności.",
+    "loading": "Ładowanie społeczności…",
+    "notFound": "Nie znaleziono społeczności.",
+    "backLink": "← Powrót do Społeczności",
+    "backLinkShort": "Powrót do Społeczności",
+    "eyebrow": "Profil społeczności",
+    "unnamed": "Nienazwana społeczność",
+    "noAddress": "Brak adresu w aktach",
+    "stats": {
+      "residents": "Mieszkańcy",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Reaktywować",
+      "block": "Blok",
+      "terminate": "Zakończyć",
+      "delete": "Usuń społeczność"
+    },
+    "blockDialog": {
+      "title": "Zablokować tego administratora społeczności?",
+      "message": "Zablokować {{name}}? Dopóki nie zostaną odblokowane, nie będą mogli się zalogować. Nie będzie to miało wpływu na żadne dane.",
+      "confirm": "Blok"
+    },
+    "terminateDialog": {
+      "title": "Zakończyć pracę tego administratora społeczności?",
+      "message": "Trwale zakończyć dostęp użytkownika {{name}}? Tej czynności nie można cofnąć, chociaż dane społeczności tej osoby będą przechowywane w celach archiwalnych.",
+      "confirm": "Zakończyć"
+    },
+    "deleteDialog": {
+      "title": "Usunąć tę społeczność?",
+      "message": "Spowoduje to trwałe usunięcie <strong>{{name}}</strong> i wszystkich jego gospodarstw domowych, mieszkańców, liczników, konfiguracji taryf/rozliczeń i historii faktur. Tej akcji nie można cofnąć.",
+      "typeToConfirm": "Wpisz <strong>{{word}}</strong>, aby kontynuować",
+      "confirm": "Potwierdzać"
+    },
+    "residents": {
+      "title": "Mieszkańcy",
+      "registeredCount": "Zarejestrowany: {{count}}",
+      "empty": "W tej społeczności nie ma jeszcze zarejestrowanych żadnych mieszkańców.",
+      "table": {
+        "flatUnit": "Jednostka płaska",
+        "meter": "Metr",
+        "resident": "Rezydent",
+        "email": "E-mail",
+        "passwordSet": "Hasło ustawione"
+      },
+      "yes": "Tak",
+      "no": "NIE"
+    },
+    "cancel": "Anulować",
+    "working": "Pracujący…",
+    "deleting": "Usuwanie…"
+  },
+  "systemStatus": {
+    "statusError": "Nie można połączyć się z backendem, aby sprawdzić stan systemu.",
+    "metricsError": "Nie można wczytać historii metryk.",
+    "ranges": {
+      "fiveMinutes": "5 minut",
+      "fifteenMinutes": "15 minut",
+      "hour": "Godzina",
+      "day": "Dzień",
+      "week": "Tydzień",
+      "month": "Miesiąc",
+      "threeMonths": "3 miesiące"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}godz",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Żądania/sek",
+      "opsPerSec": "Operacje/sek",
+      "latency": "Utajenie",
+      "lastValue": "{{value}} ostatni",
+      "loading": "Załadunek…",
+      "empty": "Nie zarejestrowano jeszcze żadnych wskaźników dla tego zakresu."
+    },
+    "stats": {
+      "min": "Min.: <b>{{value}}</b>",
+      "avg": "Średnia: <b>{{value}}</b>",
+      "max": "Maks.: <b>{{value}}</b>",
+      "last": "Ostatni: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Interfejs API zaplecza",
+      "checking": "Kontrola…",
+      "reachable": "Osiągalny",
+      "unreachable": "Nieosiągalny",
+      "connected": "Połączony",
+      "backendApiHint": "Ta strona została załadowana z backendu, więc odpowiedziała.",
+      "database": "Baza danych",
+      "databaseHint": "Łączność PostgreSQL sprawdzona na żywo.",
+      "uptime": "Czas działania backendu",
+      "uptimeHint": "Od ostatniego ponownego uruchomienia aplikacji.",
+      "appVersion": "Wersja aplikacji",
+      "appVersionHint": "Wersja kompilacji backendu."
+    },
+    "mini": {
+      "latency": "Utajenie",
+      "readsLatency": "Odczytuje opóźnienie",
+      "writesLatency": "Zapisuje opóźnienie",
+      "otherLatency": "Inne opóźnienie",
+      "connections": "Znajomości",
+      "totalKeys": "Razem klucze"
+    },
+    "note": "Żądania na sekundę i opóźnienia są próbkowane z bieżącego ruchu zaplecza co 15 sekund i przechowywane przez maksymalnie 100 dni. Jest to podstawowa kontrola łączności i ruchu — nie zastępuje pełnego monitorowania wydajności aplikacji, agregowania dzienników ani alertów."
+  },
+  "reports": {
+    "loadError": "Nie można załadować raportu platformy.",
+    "ranges": {
+      "threeMonths": "3 miesiące",
+      "sixMonths": "6 miesięcy",
+      "twelveMonths": "12 miesięcy",
+      "custom": "Zwyczaj"
+    },
+    "sortOptions": {
+      "community": "Wspólnota",
+      "usage": "Stosowanie",
+      "billed": "Rozliczono",
+      "residents": "Mieszkańcy"
+    },
+    "customRange": {
+      "from": "Z",
+      "to": "Do",
+      "hint": "Wybierz miesiąc „od” i „do”, aby załadować raport niestandardowy."
+    },
+    "loading": "Ładowanie raportu…",
+    "cards": {
+      "totalCommunities": "Razem społeczności",
+      "inThisRange": "W tym zakresie",
+      "totalResidents": "Całkowita liczba mieszkańców",
+      "acrossAllCommunities": "We wszystkich społecznościach",
+      "overallUsage": "Ogólne wykorzystanie",
+      "meteredConsumption": "Zmierzone zużycie",
+      "overallBilled": "Ogółem rozliczone",
+      "finalizedInvoicesOnly": "Tylko sfinalizowane faktury",
+      "avgUsagePerResident": "Średnie wykorzystanie / mieszkaniec",
+      "avgBillPerResident": "Średni rachunek / mieszkaniec"
+    },
+    "charts": {
+      "usageTitle": "Wykorzystanie na całej platformie (kL/miesiąc)",
+      "usageEmpty": "Dla tego zakresu nie zarejestrowano żadnego użycia.",
+      "usageSeries": "Stosowanie",
+      "billedTitle": "Kwota naliczana dla całej platformy (₹ / miesiąc)",
+      "billedEmpty": "Brak sfinalizowanych faktur dla tego zakresu.",
+      "billedSeries": "Rozliczono"
+    },
+    "searchPlaceholder": "Filtruj według nazwy społeczności lub administratora",
+    "empty": "Żadna społeczność nie ma jeszcze danych dotyczących użytkowania ani rozliczeń dla tego zakresu.",
+    "noMatch": "Żadna społeczność nie pasuje do Twojego filtra.",
+    "table": {
+      "community": "Wspólnota",
+      "admin": "Administrator",
+      "residents": "Mieszkańcy",
+      "usage": "Użycie (kL)",
+      "billed": "Zafakturowane (₹)",
+      "avgUsagePerResident": "Średnie wykorzystanie / mieszkaniec",
+      "avgBillPerResident": "Średni rachunek / mieszkaniec"
+    }
+  },
+  "supportTickets": {
+    "title": "Bilety wsparcia",
+    "subtitle": "Zgłoszenia pomocy i wątpliwości zgłaszane przez mieszkańców i administratorów społeczności na całej platformie."
+  }
+}

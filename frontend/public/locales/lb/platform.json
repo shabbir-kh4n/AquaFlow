@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "blocked": "Blockéiert",
+    "terminated": "Ofgeschloss"
+  },
+  "sort": {
+    "sortBy": "Sortéieren no",
+    "toggleDirection": "Toggle Zort Richtung",
+    "asc": "↑ Asc",
+    "desc": "↓ Desch"
+  },
+  "pagination": {
+    "showing": "Weist {{from}}–{{to}} vun {{total}}",
+    "prev": "← Virdrun",
+    "next": "Nächst →",
+    "page": "Säit {{page}} vun {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Plattform Iwwersiicht",
+    "subtitle": "All registréiert Gemeinschaftsadministrateur, iwwer déi ganz HydroLedger Plattform.",
+    "viewAll": "View All Communautéiten",
+    "loadError": "Konnt elo net Plattformdaten lueden.",
+    "cards": {
+      "totalCommunities": "Total Communautéiten",
+      "registeredAdmins": "Registréiert Administrateuren",
+      "totalResidents": "Total Awunner",
+      "acrossAllCommunities": "Iwwer all Communautéiten",
+      "active": "Aktiv",
+      "inGoodStanding": "A guddem Stand",
+      "blockedTerminated": "Blockéiert / ofgeschloss",
+      "blockedTerminatedBreakdown": "{{blocked}} blockéiert, {{terminated}} ofgeschloss"
+    },
+    "recent": {
+      "title": "Kuerzem registréiert Communautéiten",
+      "loading": "Lueden…",
+      "empty": "Nee Communautéiten ageschriwwen nach.",
+      "table": {
+        "community": "Communautéit",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Awunner"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communautéiten: {{count}}",
+    "loadError": "Konnt Gemeinschaften net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "searchPlaceholder": "Filter no Gemeinschaft, Admin Numm oder E-Mail",
+    "statusFilter": {
+      "label": "Status",
+      "all": "All"
+    },
+    "sortOptions": {
+      "community": "Communautéit",
+      "admin": "Admin",
+      "residents": "Awunner"
+    },
+    "loading": "Luede Gemeinschaften…",
+    "empty": "Nee Communautéiten ageschriwwen nach.",
+    "noMatch": "Keng Gemeinschafte passen mat Äre Filtere.",
+    "table": {
+      "community": "Communautéit",
+      "admin": "Admin",
+      "email": "E-Mail",
+      "status": "Status",
+      "residents": "Awunner",
+      "view": "Vue"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Konnt dës Gemeinschaft net lueden. Et ass vläicht ewechgeholl ginn.",
+    "statusUpdateError": "Konnt de Status vun dëser Gemeinschaft net aktualiséieren.",
+    "deleteError": "Konnt dës Gemeinschaft net läschen.",
+    "loading": "Luet Gemeinschaft…",
+    "notFound": "Gemeinschaft net fonnt.",
+    "backLink": "← Zréck op Gemeinschaften",
+    "backLinkShort": "Zréck op Communautéiten",
+    "eyebrow": "Communautéit Profil",
+    "unnamed": "Numm Communautéit",
+    "noAddress": "Keng Adress am Fichier",
+    "stats": {
+      "residents": "Awunner",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Reaktivéieren",
+      "block": "Block",
+      "terminate": "Ofschléissen",
+      "delete": "Läschen Communautéit"
+    },
+    "blockDialog": {
+      "title": "Dës Gemeinschaftsadministrator blockéieren?",
+      "message": "Blockéieren {{name}}? Si kënnen net aloggen bis se opgehuewe sinn. Keng Donnéeë ginn betraff.",
+      "confirm": "Block"
+    },
+    "terminateDialog": {
+      "title": "Dës Gemeinschaftsadministrator ofschléissen?",
+      "message": "Den Zougang zu {{name}} permanent ofschléissen? Dëst kann net réckgängeg gemaach ginn, obwuel hir Gemeinschaftsdaten fir Rekorder gespäichert ginn.",
+      "confirm": "Ofschléissen"
+    },
+    "deleteDialog": {
+      "title": "Dës Gemeinschaft läschen?",
+      "message": "Dëst läscht permanent <strong>{{name}}</strong> an all seng Stéit, Awunner, Meter, Tarif- / Rechnungskonfiguratioun, a Rechnungsgeschicht. Dës Aktioun kann net réckgängeg gemaach ginn.",
+      "typeToConfirm": "Typ <strong>{{word}}</strong> fir weiderzemaachen",
+      "confirm": "Confirméieren"
+    },
+    "residents": {
+      "title": "Awunner",
+      "registeredCount": "Registréiert: {{count}}",
+      "empty": "Keen Awunner ageschriwwen an dëser Communautéit nach.",
+      "table": {
+        "flatUnit": "Flaach Eenheet",
+        "meter": "Meter",
+        "resident": "Awunner",
+        "email": "E-Mail",
+        "passwordSet": "Passwuert Set"
+      },
+      "yes": "Jo",
+      "no": "Nee"
+    },
+    "cancel": "Ofbriechen",
+    "working": "Schafft…",
+    "deleting": "Läscht…"
+  },
+  "systemStatus": {
+    "statusError": "Konnt de Backend net erreechen fir de Systemstatus ze kontrolléieren.",
+    "metricsError": "Konnt d'Geschicht vun Metriken net lueden.",
+    "ranges": {
+      "fiveMinutes": "5 Minutten",
+      "fifteenMinutes": "15 Minutten",
+      "hour": "Stonn",
+      "day": "Dag",
+      "week": "Woch",
+      "month": "Mount",
+      "threeMonths": "3 Méint"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Ufroen / sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latenz",
+      "lastValue": "{{value}} lescht",
+      "loading": "Lueden…",
+      "empty": "Et gi keng Metriken fir dës Gamme nach opgeholl."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Duerchschnëtt: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Lescht: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Iwwerpréift…",
+      "reachable": "Erreechbar",
+      "unreachable": "Onerreechbar",
+      "connected": "Ugeschloss",
+      "backendApiHint": "Dës Säit ass vum Backend gelueden, sou datt se geäntwert huet.",
+      "database": "Datebank",
+      "databaseHint": "PostgreSQL Konnektivitéit, live iwwerpréift.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Zënter der leschter Applikatioun Neistart.",
+      "appVersion": "App Versioun",
+      "appVersionHint": "Backend Build Versioun."
+    },
+    "mini": {
+      "latency": "Latenz",
+      "readsLatency": "Liest Latenz",
+      "writesLatency": "Schreift Latenz",
+      "otherLatency": "Aner Latenz",
+      "connections": "Verbindungen",
+      "totalKeys": "Ganzen Schlësselen"
+    },
+    "note": "Ufroen / Sek an Latenz ginn all 15 Sekonnen aus Live Backend Traffic geprobéiert a bis zu 100 Deeg gehal. Dëst ass eng Basis Konnektivitéit + Traffic Check - et ersetzt net voll Applikatioun Performance Iwwerwaachung, Log Aggregatioun oder Alarm."
+  },
+  "reports": {
+    "loadError": "Konnt de Plattformbericht net lueden.",
+    "ranges": {
+      "threeMonths": "3 Méint",
+      "sixMonths": "6 Méint",
+      "twelveMonths": "12 Méint",
+      "custom": "Benotzerdefinéiert"
+    },
+    "sortOptions": {
+      "community": "Communautéit",
+      "usage": "Benotzung",
+      "billed": "Rechnung",
+      "residents": "Awunner"
+    },
+    "customRange": {
+      "from": "Vun",
+      "to": "Zu",
+      "hint": "Wielt souwuel e \"vun\" an \"zu\" Mount fir e personaliséierte Bericht ze lueden."
+    },
+    "loading": "Rapport lueden…",
+    "cards": {
+      "totalCommunities": "Total Communautéiten",
+      "inThisRange": "An dësem Beräich",
+      "totalResidents": "Total Awunner",
+      "acrossAllCommunities": "Iwwer all Communautéiten",
+      "overallUsage": "Allgemeng Benotzung",
+      "meteredConsumption": "Verbrauch gemooss",
+      "overallBilled": "Allgemeng Rechnung",
+      "finalizedInvoicesOnly": "Nëmme finaliséiert Rechnungen",
+      "avgUsagePerResident": "Duerchschnëtt Benotzung / Awunner",
+      "avgBillPerResident": "Duerchschnëtt Bill / Awunner"
+    },
+    "charts": {
+      "usageTitle": "Plattform-breet Benotzung (kL / Mount)",
+      "usageEmpty": "Keng Notzung fir dës Gamme opgeholl.",
+      "usageSeries": "Benotzung",
+      "billedTitle": "Plattform-breet Rechnungsbetrag (₹ / Mount)",
+      "billedEmpty": "Keng Rechnungen fir dës Gamme finaliséiert.",
+      "billedSeries": "Rechnung"
+    },
+    "searchPlaceholder": "Filter no Gemeinschaft oder Admin Numm",
+    "empty": "Keng Communautéiten hunn Benotzungs- oder Rechnungsdaten fir dës Gamme nach.",
+    "noMatch": "Keng Gemeinschafte passen mat Ärem Filter.",
+    "table": {
+      "community": "Communautéit",
+      "admin": "Admin",
+      "residents": "Awunner",
+      "usage": "Benotzung (kL)",
+      "billed": "Rechnung (₹)",
+      "avgUsagePerResident": "Duerchschnëtt Benotzung / Awunner",
+      "avgBillPerResident": "Duerchschnëtt Bill / Awunner"
+    }
+  },
+  "supportTickets": {
+    "title": "Ënnerstëtzung Ticketen",
+    "subtitle": "Ënnerstëtzt Ticketen a Bedenken, déi vun Awunner a Gemeinschaftsadministrateuren opgeworf ginn, Plattform-breet."
+  }
+}

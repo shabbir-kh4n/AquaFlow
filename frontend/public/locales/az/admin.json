@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Yüklənir...",
+    "saving": "Yadda saxlanılır...",
+    "saved": "Saxlandı.",
+    "uploading": "Yüklənir...",
+    "upload": "Yüklə",
+    "uploadError": "Bu faylı yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "cancel": "Ləğv et",
+    "close": "Bağlayın",
+    "edit": "Redaktə et",
+    "remove": "Sil",
+    "saveChanges": "Dəyişiklikləri Saxla",
+    "bulkSummary": "<b>{{total}}</b> sətirlər emal edildi — <b>{{success}}</b> uğur qazandı, <b>{{failure}}</b> alınmadı.",
+    "rowFailure": "Sıra {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{total}}-dən {{from}}–{{to}} göstərilir",
+    "prev": "← Əvvəlki",
+    "next": "Sonrakı →",
+    "page": "Səhifə {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "İcma datanızı hazırda yükləmək mümkün deyil.",
+    "title": "{{community}} Mənzil İdarə Paneli",
+    "titleFallback": "Mənzilinizin İdarə Paneli",
+    "subtitle": "Su kommunallarının sayğaclaşdırılması və məişət istehlakı üçün əməliyyat xülasəsi.",
+    "comingSoon": "Tezliklə",
+    "manageCommunity": "İcmanı idarə edin",
+    "noUsageReadings": "İstifadə oxunuşu hələ qeydə alınmayıb.",
+    "cards": {
+      "totalHouseholds": "Ümumi Ev Təsərrüfatları",
+      "occupied": "işğal olunub",
+      "activeMeters": "Aktiv sayğaclar",
+      "reportingReadings": "Hesabat oxunuşları",
+      "monthlyConsumption": "Aylıq istehlak",
+      "thisCalendarMonth": "Bu təqvim ayı",
+      "latestRecordedMonth": "Ən son qeydə alınmış ay ({{month}})",
+      "noReadingsYet": "Hələ oxunuş qeydə alınmayıb",
+      "pendingAlerts": "Gözləyən Siqnallar",
+      "anomalyPreview": "Anomaliya aşkarlanmasına baxış — hələ mövcud deyil"
+    },
+    "actions": {
+      "label": "Sürətli inzibati tədbirlər",
+      "uploadReadings": "Sayğac oxunuşlarını yükləyin",
+      "configureTariffs": "Tarifləri konfiqurasiya edin",
+      "reportsNotBuilt": "Hesabatlar hələ hazırlanmayıb",
+      "downloadReports": "Sistem Hesabatlarını yükləyin"
+    },
+    "chart": {
+      "title": "Aylıq İstehlak Müqayisəsi (kL)",
+      "subtitle": "Son {{months}} ay: hədəf və faktiki istehlak.",
+      "targetSeries": "Hədəf (ön baxış)",
+      "actualSeries": "Faktiki"
+    },
+    "recent": {
+      "title": "Son Sayğac Oxunuşları",
+      "unit": "Vahid",
+      "resident": "Sakin",
+      "lastReading": "Son Oxu",
+      "consumption": "İstehlak"
+    }
+  },
+  "households": {
+    "loadError": "Sakinləri yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "fixFields": "Lütfən, vurğulanmış sahələri düzəldin.",
+    "saveError": "Bu sakini xilas etmək mümkün olmadı. Zəhmət olmasa təfərrüatları yoxlayın.",
+    "confirmRemove": "{{name}} ev təsərrüfatları kataloqundan silinsin?",
+    "removeError": "Bu sakini silmək mümkün olmadı. Yenidən cəhd edin.",
+    "count": "Ev təsərrüfatları: {{total}}",
+    "bulkUploadButton": "⇪ Toplu Yükləmə",
+    "addResidentButton": "+ Rezident əlavə edin",
+    "searchPlaceholder": "Ad, ev, e-poçt və ya sayğac nömrəsinə görə süzün.",
+    "loading": "Sakinlər yüklənir...",
+    "empty": "Hələ sakin yoxdur. Birinci ailəni qeydiyyatdan keçirmək üçün \"Rezident əlavə et\" üzərinə klikləyin.",
+    "noMatch": "Heç bir sakin \"{{search}}\" ilə uyğun gəlmir.",
+    "sort": {
+      "label": "Sırala",
+      "name": "ad",
+      "houseNumber": "Ev nömrəsi",
+      "dateOfJoining": "Qoşulma tarixi",
+      "toggleDirection": "Çeşidləmə istiqamətini dəyişin",
+      "asc": "↑ Asc",
+      "desc": "↓ Azalt"
+    },
+    "gender": {
+      "male": "Kişi",
+      "female": "Qadın",
+      "other": "Digər"
+    },
+    "table": {
+      "name": "ad",
+      "houseUnit": "Ev / Bölmə",
+      "email": "E-poçt",
+      "phone": "Telefon",
+      "meterNumber": "Sayğac nömrəsi",
+      "sqft": "kvft",
+      "joined": "Qoşuldu"
+    },
+    "form": {
+      "addTitle": "Rezident əlavə edin",
+      "editTitle": "Rezidenti redaktə edin",
+      "editSubtitle": "Bu, kataloqunuzdakı rezidentin təfərrüatlarını yeniləyir.",
+      "bypassSubtitle": "Bu sakinin parolunu birbaşa təyin edirsiniz. Heç bir e-poçt göndərilməyəcək.",
+      "addSubtitle": "Bu rezidentə öz girişini aktivləşdirə bilməsi üçün müəyyən edilmiş parol linki e-poçtla göndəriləcək.",
+      "fullName": "Tam adı",
+      "houseNumber": "Ev / bölmə nömrəsi.",
+      "email": "E-poçt",
+      "phone": "Telefon nömrəsi",
+      "meterNumber": "Sayğac nömrəsi",
+      "governmentId": "Hökumət ID",
+      "gender": "Cins",
+      "dateOfBirth": "Doğum tarixi",
+      "dateOfJoining": "Qoşulma tarixi",
+      "flatSize": "Düz ölçü (kv ft)",
+      "bypassLabel": "Set-parol e-poçtunu keçin — indi bu sakin üçün parol təyin edin",
+      "password": "parol",
+      "confirmPassword": "Şifrəni təsdiqləyin"
+    },
+    "validation": {
+      "fullNameRequired": "Tam ad tələb olunur.",
+      "emailRequired": "E-poçt tələb olunur.",
+      "phoneRequired": "Telefon nömrəsi tələb olunur.",
+      "houseNumberRequired": "Ev / bölmə nömrəsi tələb olunur.",
+      "houseNumberTaken": "Bu ev nömrəsi artıq başqa sakinə verilib.",
+      "meterNumberRequired": "Sayğac nömrəsi tələb olunur.",
+      "meterNumberFormat": "Sayğac nömrəsi MTR-1234 (4 rəqəm) kimi görünməlidir.",
+      "meterNumberTaken": "Bu sayğac nömrəsi artıq başqa sakinə verilib.",
+      "governmentIdRequired": "Hökumət ID tələb olunur.",
+      "governmentIdFormat": "ID 99 ilə başlayan 6 rəqəmdən ibarət olmalıdır (məsələn, 991234).",
+      "genderRequired": "Lütfən, cinsi seçin.",
+      "dateOfBirthRequired": "Doğum tarixi tələb olunur.",
+      "dateOfJoiningRequired": "Qoşulma tarixi tələb olunur.",
+      "passwordRequired": "Parol tələb olunur.",
+      "passwordLength": "Parol ən azı 8 simvoldan ibarət olmalıdır.",
+      "confirmPasswordRequired": "Zəhmət olmasa parolu təsdiqləyin.",
+      "passwordMismatch": "Parollar uyğun gəlmir."
+    },
+    "bulk": {
+      "title": "Rezidentləri Toplu Yükləyin",
+      "noFile": "Yükləmək üçün .csv və ya .xlsx/.xls faylı seçin.",
+      "instructions": "<code>{{columns}}</code> sütunlu .csv və ya .xlsx/.xls faylını yükləyin (parol və flatSizeSqft hər ikisi isteğe bağlıdır). Parollu sıralar onu birbaşa təyin edir; bir rezidenti əl ilə əlavə etmək kimi, biri olmayan cərgələr təyin edilmiş parol e-poçtu alır. Dublikat ev/sayğac nömrələri və ya e-poçtlar hər cərgəyə rədd edilir - bir pis sıra bütün partiyanı uğursuz etməyəcək."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Sakinləri yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "historyLoadError": "Oxu tarixçəsini yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "successMessage": "{{house}} üçün {{value}} kL oxunuşu uğurla qeydə alınıb (Meter: {{meter}})! Hesablanmış istehlak: {{consumption}} kL.",
+    "tabs": {
+      "single": "Tək Giriş",
+      "csv": "Toplu CSV Yüklə",
+      "history": "Tarix oxumaq"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Bu sakinin sənədində sayğac nömrəsi yoxdur.",
+      "dateRequired": "Oxuma tarixi tələb olunur.",
+      "invalidValue": "Etibarlı, mənfi olmayan oxu dəyəri daxil edin.",
+      "duplicate": "Həmin tarixdə bu sayğac üçün göstərici artıq mövcuddur.",
+      "meterNotFound": "Bu sayğacı tapmaq mümkün olmadı. Zəhmət olmasa sakini yenidən seçin.",
+      "lowerThanPrevious": "Bu göstərici əvvəlki qeydə alınmış oxunuşdan aşağıdır.",
+      "recordFailed": "Bu oxunu qeyd etmək mümkün olmadı. Yenidən cəhd edin."
+    },
+    "combo": {
+      "label": "Flat & Meter Serial seçin",
+      "placeholder": "Flat & Meter Serial seçin...",
+      "flat": "Mənzil {{house}}",
+      "noMeter": "Sayğac yoxdur",
+      "searchPlaceholder": "Axtar mənzil nömrəsi, sayğac seriyası, sakini...",
+      "unitsHeader": "Yaşayış vahidləri",
+      "found": "Tapılan mənzillər: {{total}}",
+      "loading": "Sakinlər yüklənir...",
+      "noMatch": "Heç bir sakin \"{{search}}\" ilə uyğun gəlmir.",
+      "unassigned": "Təyin edilmədi",
+      "itemMeta": "{{name}} · Son: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Üçün oxunuş yazmaq",
+      "context": "Ev {{house}} · Metr {{meter}}",
+      "changeResident": "Rezidenti dəyişdirin",
+      "readingDate": "Oxuma tarixi",
+      "readingValue": "Cari Sayğac Oxunu (kL)",
+      "submit": "Təsdiqlənmiş oxunu təqdim edin",
+      "recentTitle": "Son oxunuşlar",
+      "recentEmpty": "Bu sayğac üçün hələ heç bir oxunuş qeydə alınmayıb."
+    },
+    "info": {
+      "title": "Monoton Sayğacların Qiymətləndirilməsi",
+      "body": "Hər yeni oxunuş həmin sayğac üçün əvvəlki jurnaldan böyük və ya ona bərabər olmalıdır — bu, istehlak hesablamalarını dəqiq saxlayır və köçürülmüş rəqəmləri erkən tutur."
+    },
+    "details": {
+      "title": "Seçilmiş Vahid Təfərrüatları",
+      "flatUnit": "Düz Vahid",
+      "meterSerial": "Sayğac seriyası",
+      "occupant": "Sakin Adı",
+      "lastDial": "Son qeydə alınmış zəng",
+      "noReadings": "Hələ oxunuş yoxdur",
+      "monthConsumption": "Aylıq istehlak",
+      "empty": "Heç bir ailə seçilmədi. Burada sayğac təfərrüatlarını görmək üçün sakini axtarın və seçin."
+    },
+    "csv": {
+      "noFile": "Yükləmək üçün CSV fayl seçin.",
+      "instructions": "<code>{{columns}}</code> sütunları ilə CSV yükləyin. Sətirlər müstəqil şəkildə işlənir - bir pis cərgə bütün partiyanı uğursuz etməyəcək."
+    },
+    "history": {
+      "loading": "Oxunuşlar yüklənir...",
+      "empty": "İcmanız üçün hələ heç bir oxunuş qeydə alınmayıb."
+    },
+    "table": {
+      "meterNumber": "Sayğac nömrəsi",
+      "date": "Tarix",
+      "value": "Dəyər (kL)",
+      "consumption": "İstehlak (kL)",
+      "source": "Mənbə"
+    }
+  },
+  "billingCycles": {
+    "title": "Faturalandırma Dövrləri",
+    "loadError": "Faktura dövrlərini yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "paymentUpdateError": "Bu fakturanın ödəniş statusunu yeniləmək mümkün olmadı.",
+    "pdfError": "PDF yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "finalizeError": "Bu faktura dövriyyəsini tamamlamaq mümkün olmadı.",
+    "archiveError": "Bu faktura dövriyyəsini arxivləşdirmək mümkün olmadı.",
+    "loading": "Faktura dövrləri yüklənir...",
+    "empty": "Hələ faktura dövrü yoxdur. Başlamaq üçün yuxarıdakı birini açın.",
+    "status": {
+      "open": "Açıq",
+      "finalized": "Tamamlanmışdır",
+      "archived": "Arxivləşdirilib"
+    },
+    "open": {
+      "title": "Yeni Hesablaşma Döngüsü açın",
+      "noMonth": "Açmaq üçün bir ay seçin.",
+      "error": "Həmin ay üçün faktura dövrü açmaq mümkün olmadı.",
+      "monthAria": "Hesablaşma dövrü ayı",
+      "opening": "Açılır...",
+      "submit": "Açıq Dövr"
+    },
+    "table": {
+      "period": "Dövr",
+      "status": "Vəziyyət",
+      "householdsBilled": "Ev təsərrüfatları hesablanmışdır",
+      "totalBilled": "Ümumi hesablanmış",
+      "actions": "Fəaliyyətlər"
+    },
+    "actions": {
+      "finalize": "Yekunlaşdırın",
+      "finalizing": "Tamamlanır...",
+      "archive": "Arxiv",
+      "archiving": "Arxivlənir..."
+    },
+    "filter": {
+      "aria": "Ödəniş statusuna görə süzün",
+      "all": "Hamısı"
+    },
+    "payment": {
+      "paid": "Ödənişli",
+      "unpaid": "Ödənilməmiş",
+      "updating": "Yenilənir...",
+      "markPaid": "Ödənilmiş kimi qeyd edin",
+      "markUnpaid": "Ödənilməmiş kimi qeyd edin"
+    },
+    "detail": {
+      "title": "Dövr təfərrüatı — {{period}}",
+      "loading": "Fakturalar yüklənir...",
+      "notFinalized": "Bu dövrə hələ tamamlanmayıb — faktura yaradılmayıb.",
+      "noInvoices": "Bu dövr üçün faktura yoxdur.",
+      "noMatch": "Bu filtrə uyğun faktura yoxdur."
+    },
+    "invoices": {
+      "household": "Məişət",
+      "resident": "Sakin",
+      "meterNumber": "Sayğac nömrəsi",
+      "consumption": "İstehlak (kL)",
+      "tierBreakdown": "Səviyyə Bölgüsü",
+      "commonArea": "Ümumi sahə",
+      "total": "Cəmi",
+      "paymentStatus": "Ödəniş Status",
+      "pdf": "PDF",
+      "baseLine": "Əsas: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Səviyyə {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tarif konfiqurasiyasını yükləmək mümkün olmadı",
+    "saveError": "Tarif konfiqurasiyasını saxlamaq mümkün olmadı",
+    "chartTitle": "Aktiv Ölçülü Kommunal Qiymət Səviyyələri",
+    "axisNote": "Qiymət ₹/kL ilə, plitə limitləri kL ilə",
+    "tableTitle": "Qiymətləndirmə Cədvəli",
+    "defaultRatesNote": "Defolt tariflər göstərilir — hələ saxlanmayıb.",
+    "addTier": "+ Səviyyə əlavə edin",
+    "saveRates": "Tarif tariflərinə qənaət edin",
+    "tierLevel": {
+      "base": "Səviyyə {{tier}} (Baza)",
+      "medium": "Səviyyə {{tier}} (Orta)",
+      "heavy": "Səviyyə {{tier}} (Ağır)"
+    },
+    "basePrice": {
+      "label": "Baza Qiymət (₹ / kL, BÜTÜN istehlaka tətbiq olunur)",
+      "note": "Hər kL ilk olaraq bu sabit tarifdən tutulur. Aşağıdakı plitələr yalnız onların əhatə dairəsinə düşən istifadə üçün ƏLAVƏ rüsumlar əlavə edir — məs. 50 kL-dən başlayan plitə yalnız 50 kL-dən yuxarı istehlak dərəcəsini əlavə edir."
+    },
+    "table": {
+      "tierLevel": "Səviyyə Səviyyəsi",
+      "slabLimit": "Plitə Limiti (kL)",
+      "rate": "kL üçün qiymət",
+      "action": "Fəaliyyət"
+    },
+    "commonArea": {
+      "title": "Ortaq Ümumi Sahə Xərcləri Konfiqurasiyası",
+      "loadError": "Ümumi sahə dəyəri konfiqurasiyasını yükləmək mümkün olmadı",
+      "saveError": "Ümumi sahə dəyəri konfiqurasiyasını saxlamaq mümkün olmadı",
+      "empty": "Hələ heç bir xərc elementi saxlanmayıb.",
+      "labelPlaceholder": "Xərc elementi etiketi",
+      "perMonth": "/ ay",
+      "active": "Aktiv",
+      "addItem": "+ Xərc maddəsi əlavə edin",
+      "save": "Ümumi Sahə Konfiqurasiyasını Saxla"
+    },
+    "distribution": {
+      "title": "Xərclərin Bölüşdürülməsi Metodunun Seçicisi",
+      "consumption": "İstehlak üzrə (Sub-metred Proporsional)",
+      "floorArea": "Mənzilin ölçüsünə görə (kvft)"
+    },
+    "footer": {
+      "cycleStart": "Cicle Billing Başlama Tarixi",
+      "cycleStartValue": "Hər Ayın 1-i",
+      "autoInvoices": "PDF Fakturaları Avtomatik Yaradın"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Həddi keçdi",
+      "statisticalOutlier": "Statistikadan kənar göstərici"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Həll olundu",
+      "dismissed": "İşdən çıxarıldı"
+    },
+    "config": {
+      "title": "Sızmanın Aşkarlanması Konfiqurasiyası",
+      "subtitle": "Aylıq istehlak həddini təyin edin və/yaxud statistik göstəricilərin aşkar edilməsini aktivləşdirin (aylıq istehlakı öz tarixi ilə müqayisədə qeyri-adi dərəcədə yüksək olan ev təsərrüfatını qeyd edir).",
+      "loadError": "Xəbərdarlıq konfiqurasiyasını yükləmək mümkün olmadı. Yenidən cəhd edin.",
+      "thresholdRequired": "Hədiyyə siqnalları aktiv edildikdə aylıq hədd (kL) tələb olunur.",
+      "saveError": "Bu konfiqurasiyanı saxlamaq mümkün olmadı.",
+      "loading": "Konfiqurasiya yüklənir...",
+      "threshold": "Aylıq hədd (kL)",
+      "sensitivity": "Kənar həssaslıq (σ çarpan)",
+      "enableThreshold": "Hədiyyə siqnallarını aktivləşdirin",
+      "enableOutlier": "Statistik göstəricilərdən kənar xəbərdarlıqları aktivləşdirin",
+      "save": "Konfiqurasiyanı yadda saxla",
+      "running": "Qaçır...",
+      "runNow": "İndi aşkarlamağı işə salın"
+    },
+    "alerts": {
+      "title": "Bayraqlı Ev Təsərrüfatları",
+      "loadError": "Xəbərdarlıqları yükləmək mümkün olmadı. Yenidən cəhd edin.",
+      "runError": "Hazırda sızma aşkarlanmasını işə salmaq mümkün deyil. Yenidən cəhd edin.",
+      "updateError": "Bu xəbərdarlığı yeniləmək mümkün olmadı. Yenidən cəhd edin.",
+      "allStatuses": "Bütün statuslar",
+      "loading": "Xəbərdarlıqlar yüklənir...",
+      "empty": "Göstəriləcək xəbərdarlıq yoxdur. Yuxarıdakı həddi konfiqurasiya edin və ya kənar göstəricinin aşkarlanmasını aktivləşdirin, sonra icmanızın cari istifadəsini qiymətləndirmək üçün \"İndi Aşkarlamağı işə salın\" üzərinə klikləyin.",
+      "resolve": "Həll et",
+      "dismiss": "Rədd et"
+    },
+    "table": {
+      "household": "Məişət",
+      "resident": "Sakin",
+      "meter": "Metr",
+      "type": "Növ",
+      "period": "Dövr",
+      "consumption": "İstehlak",
+      "reference": "İstinad",
+      "status": "Vəziyyət"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Toplu su alışlarını yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "confirmRemove": "{{date}} tarixində {{source}} çatdırılması silinsin?",
+    "removeError": "Bu alışı silmək mümkün olmadı. Yenidən cəhd edin.",
+    "count": "Qeydə alınan alışlar: {{total}}",
+    "recordButton": "+ Rekord alışı",
+    "loading": "Toplu su alışları yüklənir...",
+    "empty": "Hələlik heç bir toplu su alışı qeydə alınmayıb. Tankerin çatdırılması və ya bələdiyyə təchizatının alınmasını qeyd etmək üçün \"Satınalmanı qeyd et\" üzərinə klikləyin.",
+    "table": {
+      "date": "Tarix",
+      "source": "Mənbə",
+      "volume": "Həcmi (L)",
+      "unitCost": "Vahid dəyəri",
+      "totalCost": "Ümumi Xərc",
+      "notes": "Qeydlər"
+    },
+    "form": {
+      "addTitle": "Toplu Su Alışını Rekord",
+      "editTitle": "Toplu Su Alışını redaktə edin",
+      "subtitle": "İcmanız üçün tankerin çatdırılmasını və ya bələdiyyə təchizatının alınmasını izləyin — bu, yalnız xərclərin görünməsi üçün qeydə alınır və ev təsərrüfatlarının fakturalarına təsir etmir.",
+      "requiredFields": "Zəhmət olmasa tarixi, mənbəyi, həcmi və vahid dəyərini doldurun.",
+      "saveError": "Bu alışı saxlamaq mümkün olmadı. Zəhmət olmasa təfərrüatları yoxlayın.",
+      "purchaseDate": "Satınalma tarixi",
+      "source": "Mənbə / təchizatçı",
+      "volume": "Həcmi (litr)",
+      "unitCost": "Vahid dəyəri (₹/litr)",
+      "totalPreview": "Ümumi xərc: {{amount}}",
+      "notes": "Qeydlər (isteğe bağlı)",
+      "submit": "Rekord alışı"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} hələ qurulmayıb",
+    "profileSaveError": "Profilinizi saxlamaq mümkün olmadı. Yenidən cəhd edin.",
+    "apartmentSaveError": "Mənzil təfərrüatlarını saxlamaq mümkün olmadı. Yenidən cəhd edin.",
+    "specsTitle": "Profil Xüsusiyyətləri",
+    "photoUnavailable": "Foto yükləmə hələ mövcud deyil",
+    "changePhoto": "Fotonu dəyişdirin",
+    "deletePhoto": "Sil",
+    "photoHint": "JPG və ya PNG. Maksimum ölçü 2MB.",
+    "saveProfile": "Profili yadda saxla",
+    "apartmentTitle": "Mənzil təfərrüatları",
+    "saveApartment": "Mənzil Təfərrüatlarını Saxla",
+    "tabs": {
+      "profile": "Profil Parametrləri",
+      "apartment": "Mənzil Profili",
+      "notifications": "Bildiriş qaydaları",
+      "billing": "Ödəniş İnteqrasiyaları",
+      "security": "Təhlükəsizlik və Giriş"
+    },
+    "fields": {
+      "fullName": "Tam adı",
+      "email": "E-poçt ünvanı",
+      "emailLocked": "E-poçt burada dəyişdirilə bilməz",
+      "phone": "Telefon nömrəsi",
+      "accessLevel": "Giriş Səviyyəsi",
+      "accessLevelValue": "İcma Administratoru",
+      "roleLocked": "Rol idarəçiliyi hələ mövcud deyil",
+      "apartmentName": "Mənzilin adı",
+      "mainsSource": "Əsas Mənbə",
+      "mainsSourcePlaceholder": "məs. Bələdiyyə Təchizatı + Əlavə Tankerlər",
+      "address": "Fiziki Ünvan"
+    },
+    "security": {
+      "title": "Təhlükəsizlik və Giriş Ön Baxışı",
+      "twoFactor": "İki faktorlu autentifikasiya",
+      "twoFactorHint": "Giriş zamanı aktivləşdirilib",
+      "twoFactorUnavailable": "İki faktorlu autentifikasiya hələ mövcud deyil",
+      "twoFactorAria": "İki faktorlu autentifikasiya (yalnız önizləmə)",
+      "sessionsLabel": "Aktiv İdarəetmə Sessiyaları",
+      "sessionsEmpty": "Sessiyanın izlənilməsi hələ mövcud deyil — bu, qarşıdan gələn tərtibatın ilkin baxışıdır."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biletlərim",
+      "inbox": "Rezident biletləri"
+    },
+    "mine": {
+      "title": "Dəstək Biletlərim",
+      "subtitle": "Sistem Admininə icmanızla bağlı sual və ya narahatlıq bildirin.",
+      "emptyCreateHint": "Cəmiyyətinizlə bağlı sual və ya narahatlıq bildirin. Sistem Admini burada nəzərdən keçirəcək və cavab verəcək."
+    },
+    "inbox": {
+      "title": "Rezident biletləri",
+      "subtitle": "Dəstək biletləri və icmanızın sakinləri sizə müraciət ediblər."
+    }
+  }
+}

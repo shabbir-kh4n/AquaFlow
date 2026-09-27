@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Faol",
+    "blocked": "Bloklangan",
+    "terminated": "Tugatilgan"
+  },
+  "sort": {
+    "sortBy": "Saralash turi",
+    "toggleDirection": "Saralash yoʻnalishini oʻzgartirish",
+    "asc": "↑ Asc",
+    "desc": "↓ Tuzatish"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} / {{total}} koʻrsatilmoqda",
+    "prev": "← Oldingi",
+    "next": "Keyingi →",
+    "page": "Sahifa {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformaga umumiy nuqtai",
+    "subtitle": "Butun HydroLedger platformasida roʻyxatdan oʻtgan har bir hamjamiyat administratori.",
+    "viewAll": "Barcha hamjamiyatlarni ko'rish",
+    "loadError": "Ayni paytda platforma maʼlumotlarini yuklab boʻlmadi.",
+    "cards": {
+      "totalCommunities": "Jamiyatlar soni",
+      "registeredAdmins": "Ro'yxatdan o'tgan adminlar",
+      "totalResidents": "Jami rezidentlar",
+      "acrossAllCommunities": "Barcha jamoalarda",
+      "active": "Faol",
+      "inGoodStanding": "Yaxshi holatda",
+      "blockedTerminated": "Bloklangan / Tugatilgan",
+      "blockedTerminatedBreakdown": "{{blocked}} bloklandi, {{terminated}} tugatildi"
+    },
+    "recent": {
+      "title": "Yaqinda ro'yxatdan o'tgan jamoalar",
+      "loading": "Yuklanmoqda…",
+      "empty": "Hozircha birorta hamjamiyat roʻyxatdan oʻtmagan.",
+      "table": {
+        "community": "Jamiyat",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Aholi"
+      }
+    }
+  },
+  "communities": {
+    "count": "Jamiyatlar: {{count}}",
+    "loadError": "Hamjamiyatlarni yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "searchPlaceholder": "Hamjamiyat, administrator nomi yoki elektron pochta orqali filtrlang",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Hammasi"
+    },
+    "sortOptions": {
+      "community": "Jamiyat",
+      "admin": "Admin",
+      "residents": "Aholi"
+    },
+    "loading": "Hamjamiyatlar yuklanmoqda…",
+    "empty": "Hozircha birorta hamjamiyat roʻyxatdan oʻtmagan.",
+    "noMatch": "Hech qanday hamjamiyat filtrlaringizga mos kelmaydi.",
+    "table": {
+      "community": "Jamiyat",
+      "admin": "Admin",
+      "email": "Elektron pochta",
+      "status": "Status",
+      "residents": "Aholi",
+      "view": "Ko'rish"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Bu hamjamiyatni yuklab bo‘lmadi. U olib tashlangan bo'lishi mumkin.",
+    "statusUpdateError": "Bu hamjamiyat holatini yangilab bo‘lmadi.",
+    "deleteError": "Bu hamjamiyatni oʻchirib boʻlmadi.",
+    "loading": "Hamjamiyat yuklanmoqda…",
+    "notFound": "Hamjamiyat topilmadi.",
+    "backLink": "← Hamjamiyatlarga qaytish",
+    "backLinkShort": "Hamjamiyatlarga qaytish",
+    "eyebrow": "Hamjamiyat profili",
+    "unnamed": "Nomsiz hamjamiyat",
+    "noAddress": "Faylda manzil yo'q",
+    "stats": {
+      "residents": "Aholi",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Qayta faollashtirish",
+      "block": "Bloklash",
+      "terminate": "Tugatish",
+      "delete": "Hamjamiyatni oʻchirish"
+    },
+    "blockDialog": {
+      "title": "Bu hamjamiyat administratori bloklansinmi?",
+      "message": "{{name}} bloklansinmi? Ular blokdan chiqarilmaguncha tizimga kira olmaydi. Hech qanday ma'lumot ta'sir qilmaydi.",
+      "confirm": "Bloklash"
+    },
+    "terminateDialog": {
+      "title": "Bu hamjamiyat administratori tugatilsinmi?",
+      "message": "{{name}} ruxsati butunlay toʻxtatilsinmi? Buni bekor qilib boʻlmaydi, lekin ularning hamjamiyatiga oid maʼlumotlar qaydlar uchun saqlanadi.",
+      "confirm": "Tugatish"
+    },
+    "deleteDialog": {
+      "title": "Bu hamjamiyat oʻchirilsinmi?",
+      "message": "Bu <strong>{{name}}</strong> va uning barcha uy xoʻjaliklari, rezidentlari, hisoblagichlari, tarif/toʻlov konfiguratsiyasi va hisob-faktura tarixi butunlay oʻchirib tashlanadi. Bu amalni ortga qaytarib bo‘lmaydi.",
+      "typeToConfirm": "Davom etish uchun <strong>{{word}}</strong> ni kiriting",
+      "confirm": "Tasdiqlang"
+    },
+    "residents": {
+      "title": "Aholi",
+      "registeredCount": "Roʻyxatdan oʻtgan: {{count}}",
+      "empty": "Hozircha bu jamiyatda rezidentlar roʻyxatdan oʻtmagan.",
+      "table": {
+        "flatUnit": "Yassi birlik",
+        "meter": "Metr",
+        "resident": "Rezident",
+        "email": "Elektron pochta",
+        "passwordSet": "Parol to'plami"
+      },
+      "yes": "Ha",
+      "no": "Yo'q"
+    },
+    "cancel": "Bekor qilish",
+    "working": "Ishlamoqda…",
+    "deleting": "Oʻchirilmoqda…"
+  },
+  "systemStatus": {
+    "statusError": "Tizim holatini tekshirish uchun backendga ulanib bo‘lmadi.",
+    "metricsError": "Ko‘rsatkichlar tarixini yuklab bo‘lmadi.",
+    "ranges": {
+      "fiveMinutes": "5 daqiqa",
+      "fifteenMinutes": "15 daqiqa",
+      "hour": "Soat",
+      "day": "kun",
+      "week": "Hafta",
+      "month": "Oy",
+      "threeMonths": "3 oy"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}soat",
+      "minutes": "{{value}}daq"
+    },
+    "charts": {
+      "requestsPerSec": "Soʻrovlar/sek",
+      "opsPerSec": "Operatsiya/sek",
+      "latency": "Kechikish",
+      "lastValue": "{{value}} oxirgi",
+      "loading": "Yuklanmoqda…",
+      "empty": "Bu diapazon uchun hali hech qanday ko‘rsatkich qayd etilmagan."
+    },
+    "stats": {
+      "min": "Minimal: <b>{{value}}</b>",
+      "avg": "Oʻrtacha: <b>{{value}}</b>",
+      "max": "Maks: <b>{{value}}</b>",
+      "last": "Oxirgi: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Tekshirilmoqda…",
+      "reachable": "Urish mumkin",
+      "unreachable": "Urib bo'lmaydigan",
+      "connected": "Ulangan",
+      "backendApiHint": "Bu sahifa backenddan yuklangan, shuning uchun u javob berdi.",
+      "database": "Ma'lumotlar bazasi",
+      "databaseHint": "PostgreSQL ulanishi, jonli ravishda tekshirildi.",
+      "uptime": "Backend ish vaqti",
+      "uptimeHint": "Oxirgi dastur qayta ishga tushirilgandan beri.",
+      "appVersion": "Ilova versiyasi",
+      "appVersionHint": "Backend yaratish versiyasi."
+    },
+    "mini": {
+      "latency": "Kechikish",
+      "readsLatency": "Kechikishni o'qiydi",
+      "writesLatency": "Latency yozadi",
+      "otherLatency": "Boshqa kechikish",
+      "connections": "Ulanishlar",
+      "totalKeys": "Jami kalitlar"
+    },
+    "note": "Soʻrovlar/soniya va kechikish har 15 soniyada jonli backend trafikidan namuna olinadi va 100 kungacha saqlanadi. Bu asosiy ulanish + trafik tekshiruvi — u toʻliq ilova ishlashi monitoringi, jurnallarni yigʻish yoki ogohlantirish oʻrnini bosmaydi."
+  },
+  "reports": {
+    "loadError": "Platforma hisobotini yuklab bo‘lmadi.",
+    "ranges": {
+      "threeMonths": "3 oy",
+      "sixMonths": "6 oy",
+      "twelveMonths": "12 oy",
+      "custom": "Maxsus"
+    },
+    "sortOptions": {
+      "community": "Jamiyat",
+      "usage": "Foydalanish",
+      "billed": "Hisob-kitob qilingan",
+      "residents": "Aholi"
+    },
+    "customRange": {
+      "from": "Kimdan",
+      "to": "Kimga",
+      "hint": "Shaxsiy hisobotni yuklash uchun \"dan\" va \"kundan\" oyini tanlang."
+    },
+    "loading": "Hisobot yuklanmoqda…",
+    "cards": {
+      "totalCommunities": "Jamiyatlar soni",
+      "inThisRange": "Ushbu diapazonda",
+      "totalResidents": "Jami rezidentlar",
+      "acrossAllCommunities": "Barcha jamoalarda",
+      "overallUsage": "Umumiy foydalanish",
+      "meteredConsumption": "Hisoblangan iste'mol",
+      "overallBilled": "Umumiy hisob-kitob",
+      "finalizedInvoicesOnly": "Faqat yakuniy hisob-fakturalar",
+      "avgUsagePerResident": "Oʻrtacha foydalanish / Rezident",
+      "avgBillPerResident": "O'rtacha hisob-kitob / Rezident"
+    },
+    "charts": {
+      "usageTitle": "Platforma boʻylab foydalanish (kL/oy)",
+      "usageEmpty": "Bu diapazon uchun hech qanday foydalanish qayd etilmagan.",
+      "usageSeries": "Foydalanish",
+      "billedTitle": "Platforma boʻyicha hisob-kitob summasi (₹/oy)",
+      "billedEmpty": "Bu diapazon uchun yakuniy hisob-fakturalar mavjud emas.",
+      "billedSeries": "Hisob-kitob qilingan"
+    },
+    "searchPlaceholder": "Hamjamiyat yoki administrator nomi boʻyicha filtrlang",
+    "empty": "Hozircha hech bir jamoada bu diapazon uchun foydalanish yoki to‘lov ma’lumotlari mavjud emas.",
+    "noMatch": "Filtringizga mos keladigan hamjamiyat topilmadi.",
+    "table": {
+      "community": "Jamiyat",
+      "admin": "Admin",
+      "residents": "Aholi",
+      "usage": "Foydalanish (kL)",
+      "billed": "Hisoblangan (₹)",
+      "avgUsagePerResident": "Oʻrtacha foydalanish / Rezident",
+      "avgBillPerResident": "O'rtacha hisob-kitob / Rezident"
+    }
+  },
+  "supportTickets": {
+    "title": "Qo'llab-quvvatlash chiptalari",
+    "subtitle": "Platforma bo'ylab aholi va hamjamiyat ma'murlari tomonidan bildirilgan chiptalar va tashvishlarni qo'llab-quvvatlash."
+  }
+}

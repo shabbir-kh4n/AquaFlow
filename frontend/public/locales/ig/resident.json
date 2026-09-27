@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Na-abịa oge adịghị anya",
+    "welcome": {
+      "greeting": "Hello {{name}},",
+      "greetingFallback": "Ndewo ebe ahụ,",
+      "title": "Nọrọ nso na akụkọ mmiri nke ụlọ gị.",
+      "subtitle": "Nghọta ojiji na ịgba ụgwọ ga-apụta ebe a ka obodo gị na-edekọ ọgụgụ.",
+      "viewBadges": "Lelee Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Ojiji nke taa",
+      "asOf": "As of {{date}}",
+      "noReading": "Ọnweghị mita ọgụgụ",
+      "monthlyTotalFor": "Monthly Total ({{month}})",
+      "monthlyTotalThisMonth": "Mgbakọta kwa ọnwa (ọnwa a)",
+      "sumOfReadings": "Ngụkọta agụmagụ e dekọrọ",
+      "estimatedBill": "Ụgwọ echere ugbu a",
+      "estimatedBillFor": "Ojiji metered + ụgwọ ekekọrịtara, {{month}}",
+      "estimatedBillHint": "Dabere na ọnụ ahịa elele ọnwa a yana ụgwọ ekekọrịtara",
+      "savings": "Nchekwa vs Building Avg",
+      "savingsValue": "{{percent}}% obere",
+      "savingsPreview": "Nhụchalụ naanị - ntụnyere adịbeghị ndụ"
+    },
+    "consumption": {
+      "eyebrow": "Oriri",
+      "title": "Oriri kwa ụbọchị (agụ 14 gara aga)",
+      "seriesName": "Oriri",
+      "empty": "Enweghị agụ akwụkwọ edekọbeghị."
+    },
+    "breakdown": {
+      "eyebrow": "Gbarie",
+      "title": "Nkwụsị ojiji",
+      "bathroom": "Ụlọ ịsa ahụ",
+      "kitchen": "Ụlọ nri",
+      "garden": "Ubi / mbara ihu",
+      "other": "Ndị ọzọ / akwa akwa"
+    },
+    "billing": {
+      "eyebrow": "Ịgba ụgwọ",
+      "title": "Usoro ịgba ụgwọ na-arụ ọrụ",
+      "finalized": "Emechaala",
+      "preview": "Nhụchalụ",
+      "meteredConsumption": "Oriri mita",
+      "tierPriceLevel": "Ọkwa ọnụahịa",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Oke mpaghara a na-ahụkarị",
+      "commonAreaPreview": "Oke mpaghara a na-ahụkarị (nhụchalụ)",
+      "invoiceTotal": "{{period}} mkpokọta akwụkwọ ọnụahịa",
+      "estimatedCharge": "Ego echere ugbu a",
+      "commonAreaBreakdown": "Mgbasa mpaghara a na-ahụkarị",
+      "payPreview": "Kwụọ ihe nlele ụgwọ",
+      "payUnavailable": "Injin ịgba ụgwọ erubeghị"
+    },
+    "tips": {
+      "eyebrow": "Ndụmọdụ",
+      "title": "Ndụmọdụ nchekwa Smart",
+      "viewAll": "Lelee ihe niile",
+      "empty": "Ndụmọdụ ahaziri ahazi na-apụta ebe a ka obodo gị mechachara usoro ịgba ụgwọ."
+    },
+    "community": "Community: {{name}}"
+  },
+  "usage": {
+    "loadError": "Enweghị ike ibu akụkọ ihe mere eme gị. Biko nwaa ọzọ.",
+    "loading": "Na-ebunye nyocha ojiji gị…",
+    "empty": "Enweghị agụ akwụkwọ edekọbeghị. Ozugbo obodo gị dekọtara ọgụgụ mita, ọ ga-apụta ebe a.",
+    "tabs": {
+      "lastSixMonths": "Ọnwa isii gara aga",
+      "customRange": "Omenala nso",
+      "comingSoon": "Na-abịa oge adịghị anya"
+    },
+    "peakDay": "Ụbọchị kacha elu:",
+    "lowestDay": "Ụbọchị kacha ala:",
+    "comparison": {
+      "title": "Oriri Ezinụlọ vs Nkezi Ụlọ",
+      "subtitle": "Monthly totals shown in kilolitres (kL).",
+      "yourHousehold": "Ezinụlọ gị",
+      "apartmentAverage": "Nkezi ọnụ ụlọ",
+      "similarSized": "Ụlọ ndị yiri ya"
+    },
+    "heatmap": {
+      "title": "Igwe ọkụ na-eri kwa ụbọchị",
+      "subtitle": "Ike agba na-egosi ụbọchị ojiji dị arọ (nhụchalụ)."
+    },
+    "ranking": {
+      "title": "Ịnye ọkwa ndị ọgbọ obodo",
+      "subtitle": "Ọkwa gị tụnyere nkeji (nhụchalụ).",
+      "ecoSaver": "Nchekwa Eco na-arụ ọrụ",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unit {{number}}",
+      "yourUnit": "Unit gị",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Ị)"
+    }
+  },
+  "billing": {
+    "loadError": "Enweghị ike ibunye akụkọ ịgba ụgwọ gị. Biko nwaa ọzọ.",
+    "pdfError": "Enweghị ike ibudata PDF. Biko nwaa ọzọ.",
+    "loading": "Na-ebu akụkọ ịgba ụgwọ gị…",
+    "empty": "Enweghị akwụkwọ ọnụahịa ma - ozugbo obodo gị mechara usoro ịgba ụgwọ, ụgwọ gị ga-apụta ebe a.",
+    "status": {
+      "paid": "Akwụ ụgwọ",
+      "unpaid": "Akwụghị ụgwọ"
+    },
+    "summary": {
+      "outstandingBalance": "Ntụle pụtara ìhè",
+      "billingCycle": "Usoro ịgba ụgwọ: {{period}}",
+      "allPaid": "A na-akwụ ụgwọ akwụkwọ ọnụahịa niile",
+      "payTotal": "Kwuo ngụkọta pụtara ìhè",
+      "payTotalUnavailable": "Ịkwụ ụgwọ ọnlaịnụ adịbeghị - dozie ụgwọ gị na ndị nchịkwa obodo gị ozugbo",
+      "downloadSummary": "Budata Nchịkọta Bill",
+      "downloadSummaryUnavailable": "Nbudata nchịkọta Bill adịghị ugbu a"
+    },
+    "history": {
+      "title": "Akụkọ akwụkwọ ọnụahịa",
+      "exportCsv": "Bupụ ihe niile na CSV",
+      "exportUnavailable": "CSV mbupụ adịghị ma"
+    },
+    "table": {
+      "cycle": "okirikiri",
+      "usage": "Usage (kL)",
+      "amountDue": "Ọnụ ego ekwesịrị",
+      "paymentStatus": "Ọnọdụ ịkwụ ụgwọ",
+      "hideBreakdown": "Zoo ndakpọ ↑",
+      "showBreakdown": "Nkebi nbibi ↓",
+      "downloading": "Na-ebudata…",
+      "pdf": "PDF",
+      "pay": "Kwụọ"
+    },
+    "breakdown": {
+      "householdTitle": "Mmebi erimeri ezinụlọ",
+      "basePrice": "Ọnụ ala: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Mkpokọta Ojiji Metered",
+      "commonAreaTitle": "Nkesa Mpaghara a na-ahụkarị",
+      "subtotalShared": "Mkpokọta Mpaghara Ekekọrịtara",
+      "noCommonArea": "Enweghị ụgwọ mpaghara ọnụ maka okirikiri a."
+    },
+    "pagination": {
+      "showing": "Showing {{from}}–{{to}} of {{total}}",
+      "prev": "← Nke gara aga",
+      "next": "Ọzọ →",
+      "page": "Ibe {{page}} nke {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Ụzọ ịkwụ ụgwọ (nhụchalụ)",
+      "description": "Ịkwụ ụgwọ ọnlaịnụ adịbeghị - a na-edozi ụgwọ ya na ndị nchịkwa obodo gị ozugbo.",
+      "manage": "Jikwaa ụzọ ịkwụ ụgwọ",
+      "manageUnavailable": "Ụzọ ịkwụ ụgwọ adịghị ma"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Nchekwa site Razorpay",
+    "billingCycle": "Usoro ịgba ụgwọ {{period}}",
+    "close": "Mechie",
+    "amountPayable": "Ọnụ ego enwere ike ịkwụ",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kaadị",
+      "netbanking": "Netbanking",
+      "wallet": "obere akpa"
+    },
+    "upi": {
+      "title": "Pay via UPI",
+      "upiId": "UPI ID",
+      "or": "MA ọ bụ",
+      "scan": "Scan with any UPI app"
+    },
+    "card": {
+      "title": "Kwuo site na Kaadị",
+      "number": "Nọmba kaadị",
+      "expiry": "Emebi",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Aha na Kaadị",
+      "namePlaceholder": "Dị ka e bipụtara na kaadị"
+    },
+    "netbanking": {
+      "title": "Kwuo site na Netbanking"
+    },
+    "wallet": {
+      "title": "Kwuo site na obere akpa"
+    },
+    "payAmount": "Pay ₹{{amount}}",
+    "processing": "Na-ahazi ịkwụ ụgwọ gị…",
+    "processingHint": "Biko apịala azụ ma ọ bụ megharịa ibe a",
+    "success": "Ịkwụ ụgwọ gara nke ọma",
+    "error": "Ọ nwere ihe na-ezighi ezi na-akwado ịkwụ ụgwọ gị. Biko nwaa ọzọ.",
+    "retry": "Gbalịa ọzọ"
+  },
+  "notifications": {
+    "loadError": "Enweghị ike ibunye ọkwa gị. Biko nwaa ọzọ.",
+    "loading": "Na-ebugo ọkwa gị…",
+    "empty": "Enweghị ọkwa amamọkwa - ị ga-ahụ ihe ebe a ma ọ bụrụ na onye nchịkwa obodo enyerela aka ojiji-ọnụ ụzọ ma ọ bụ ihe oriri na-adịghị ahụkebe yana otu a kpalitere maka ezinụlọ gị.",
+    "type": {
+      "thresholdExceeded": "Oke oriri gafere",
+      "statisticalOutlier": "Achọpụtara oriri na-adịghị ahụkebe"
+    },
+    "status": {
+      "active": "Na-arụ ọrụ",
+      "resolved": "Ekpebiri",
+      "dismissed": "Achụpụrụ"
+    },
+    "billingPeriod": "Billing period: {{period}}",
+    "consumption": "Consumption: {{value}} kL",
+    "push": {
+      "title": "Pịa amamọkwa",
+      "description": "Nweta ọkwa na ngwaọrụ a mgbe ụgwọ ma ọ bụ njikere ọhụrụ batara.",
+      "enable": "Kwado",
+      "disable": "Gbanyụọ",
+      "permissionDenied": "Enyeghị ikike ngosi.",
+      "notConfigured": "Ahazibeghị ọkwa mkpọsa ma. Kpọtụrụ onye nchịkwa gị.",
+      "enableError": "Enweghị ike ịme ka ngosi ntinye. Biko nwaa ọzọ.",
+      "disableError": "Enwenwughị ike gbanyụọ ngosi ntinye. Biko nwaa ọzọ."
+    }
+  },
+  "recommendations": {
+    "loadError": "Enweghị ike ibunye ndụmọdụ gị. Biko nwaa ọzọ.",
+    "loading": "Na-ebunye ndụmọdụ gị ahaziri ahazi…",
+    "generated": "Generated {{date}}",
+    "generatedForPeriod": "Emepụtara {{date}} maka oge ịgba ụgwọ {{period}}",
+    "eyebrow": "Ahaziri gị nkeonwe",
+    "title": "Ndụmọdụ iji chekwaa mmiri Smart",
+    "empty": "Enweghị ndụmọdụ emepụtara - ndị a na-enweta ume ozugbo oge ọ bụla obodo gị mechachara usoro ịgba ụgwọ maka ezinụlọ gị."
+  },
+  "support": {
+    "title": "Desktọpụ Nkwado Ndị obibi & Nchegbu",
+    "subtitle": "Nyefee akụkọ ntapu mmiri, arịrịọ mmezi mita, ma ọ bụ ajụjụ ịgba ụgwọ ozugbo n'aka onye nchịkwa na/ma ọ bụ onye nchịkwa obodo gị.",
+    "emptyCreateHint": "Kọwaa nsogbu gị ma ọ bụ nchegbu gị n'okpuru, wee họrọ onye ga-edozi ya."
+  }
+}

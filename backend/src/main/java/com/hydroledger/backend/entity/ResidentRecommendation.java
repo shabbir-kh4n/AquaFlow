@@ -42,4 +42,8 @@ public class ResidentRecommendation {
 
     @Column(name = "source_period_month", length = 7)
     private String sourcePeriodMonth;
+
+    @Builder.Default
+    @Column(nullable = false, length = 8)
+    private String language = "en";
 }

@@ -78,7 +78,7 @@ function App() {
               <Route path="/admin/profile" element={<AdminProfile />} />
 
               {STUB_PAGES.map((page) => (
-                <Route key={page.path} path={page.path} element={<ComingSoon title={page.title} description={page.description} />} />
+                <Route key={page.path} path={page.path} element={<ComingSoon titleKey={page.titleKey} descriptionKey={page.descriptionKey} />} />
               ))}
             </Route>
 

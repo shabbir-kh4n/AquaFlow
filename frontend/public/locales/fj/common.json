@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Voleka",
+    "signUpTitle": "Rejisitataka na nomu itikotiko .",
+    "signInTitle": "Vinaka vakalevu",
+    "signUpSubtitle": "Cakava e dua na akaude ni Admin ni itikotiko me tekivu na kena cicivaki na lewenivanua kei na bili.",
+    "signInSubtitle": "Saini mo raica na nomu vakayagataka na wai kei na bili."
+  },
+  "signIn": {
+    "errorFallback": "Sega ni rawa ni saini. Yalovinaka tovolea tale.",
+    "emailLabel": "Imeli",
+    "passwordLabel": "Vosavuni",
+    "rememberMe": "Nanumi au",
+    "forgotPassword": "Guilecava na vosanicuru?",
+    "submitting": "Saini ena...",
+    "submit": "Saini",
+    "noAccount": "Sega ni dua na nomu akaude?",
+    "signUpLink": "Sainitaka"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "E sega ni veiganiti na vosanicuru.",
+      "communityRequired": "E gadrevi na yaca ni itikotiko.",
+      "termsRequired": "Yalovinaka mo duavata kei na iTuvatuva ni Veiqaravi kei na iTuvatuva ni itukutuku.",
+      "fallback": "Sega ni rawa ni buli na akaude. Kerekere mo tovolea tale."
+    },
+    "hint": "O ira ga na admin ni veivanua era rejisita eke. Ni o sa curu, o na vakacuruma na nomu vakaitikotiko’ itukutuku vakataki iko — era sega ni sainitaka vakataki ira.",
+    "fullNameLabel": "Yaca taucoko",
+    "emailLabel": "Imeli",
+    "phoneLabel": "Naba ni talevoni",
+    "communityNameLabel": "Yaca ni itikotiko",
+    "passwordLabel": "Vosavuni",
+    "confirmPasswordLabel": "Vakadeitaka na vosanicuru",
+    "agreeTerms": "Au duavata kei na <termsLink>Ivakarau ni veiqaravi</termsLink> kei na <privacyLink>iTuvatuva ni itukutuku</privacyLink>",
+    "submitting": "Cakava na akaude...",
+    "submit": "Cakava na akaude ni Admin",
+    "haveAccount": "Sa tiko beka e dua na nomu akaude?",
+    "signInLink": "Saini"
+  },
+  "installPrompt": {
+    "title": "Vakacuruma HydroLedger",
+    "description": "Vakacuruma ki na nomu sikirini ni vale me baleta na totolo ni kena rawati.",
+    "dismiss": "Vakasivoi",
+    "install": "Vakacuruma"
+  },
+  "setPassword": {
+    "title": "Vakarautaka na nomu vosanicuru",
+    "loading": "Vakavodoki tiko...",
+    "subtitle": "Hi {{name}}, digitaka e dua na vosanicuru me baleta na {{email}} me vakacavara na nomu akaude HydroLedger.",
+    "errors": {
+      "invalidLink": "Na isema oqo e sega ni dodonu se sa oti na kena gauna.",
+      "tooShort": "Na vosanicuru e dodonu me lailai duadua na 8 na matanivola.",
+      "mismatch": "E sega ni veiganiti na vosanicuru.",
+      "fallback": "E sega ni rawa ni vakarautaka na nomu vosanicuru. Kerekere mo tovolea tale."
+    },
+    "passwordLabel": "Vosavuni",
+    "confirmPasswordLabel": "Vakadeitaka na vosanicuru",
+    "submitting": "Vakarautaka na vosanicuru...",
+    "submit": "Vakarautaka na vosanicuru & saini ena"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Veivuke",
+      "resident": "Taroga na nomu akaude .",
+      "admin": "iVukevuke ni Vanua",
+      "platform": "iVukevuke ni ituvatuva",
+      "default": "Dauveivuke"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Na cava na HydroLedger?",
+        "tieredBilling": "E cakacaka vakacava na bili vakailawalawa?",
+        "leaks": "E laurai vakacava na leqa?"
+      },
+      "resident": {
+        "billEstimate": "Na cava na noqu vakasama ni bili ena gauna oqo?",
+        "alerts": "E tiko beka vei au e dua na ivakasala ni vakayagataki?",
+        "readings": "Vakaraitaka na noqu wiliwili ni mita se qai oti toka ga"
+      },
+      "admin": {
+        "households": "E vica na vuvale eda tiko kina?",
+        "billingCycles": "Lisitaka na noda veisau ni bili se qai oti toka ga",
+        "tariff": "Na cava na noda ituvatuva ni sausaumi ena gauna oqo?"
+      },
+      "platform": {
+        "communities": "Lisitaka na veivanua kece era sa rejisita",
+        "usageReport": "Vakaraitaka na ripote ni vakayagataki ni ituvatuva .",
+        "systemStatus": "Na cava na ituvaki ni ivakarau?"
+      }
+    },
+    "errors": {
+      "rateLimited": "O sa vakauta tiko vakatotolo na itukutuku - yalovinaka waraka mada vakalailai ka tovolea tale.",
+      "unavailable": "E sega ni rawa ni vakayagataki vakalekaleka na ivukevuke. Kerekere mo tovolea tale ena dua na gauna lekaleka mai oqo.",
+      "generic": "E dua na ka e cala ena kena vakau na itukutuku oya. Kerekere mo tovolea tale."
+    },
+    "emptyHint": "Tarogi au ena dua na ka - au rawa ni raica ga na nomu itukutuku.",
+    "closeAssistant": "Veivuke voleka",
+    "openAssistant": "Dolava na veivuke",
+    "inputPlaceholder": "Taipa e dua na itukutuku...",
+    "inputLabel": "Itukutuku",
+    "send": "Vakauta"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tikite ni veitokoni",
+    "defaultCreateLabel": "Vakatubura na Kauwai Vou",
+    "status": {
+      "open": "Dola",
+      "inProgress": "Toso tiko",
+      "resolved": "Sa wali",
+      "closed": "Sogo"
+    },
+    "tabs": {
+      "all": "Tikite kece"
+    },
+    "recipients": {
+      "admin": "Dauniveiliutaki ni Vanua",
+      "systemAdmin": "Admin ni Sistema",
+      "both": "Dauniveiliutaki ni Vanua + Dauniveiliutaki ni Sistema"
+    },
+    "roles": {
+      "resident": "Vakaitikotiko",
+      "admin": "Dauniveiliutaki"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Vakatuburi mai vei ira na lewenivanua {{name}}",
+    "raisedByAdmin": "Vakatubura na dauniveiliutaki {{name}}",
+    "refresh": "Vakavoui",
+    "stats": {
+      "openLabel": "Dolava na vakau",
+      "openHint": "Waraka tiko na railesuva",
+      "inProgressLabel": "Toso tiko",
+      "inProgressHint": "Sa cakacaka tiko ena",
+      "resolvedLabel": "Sa wali",
+      "resolvedHint": "Sa sogo vinaka"
+    },
+    "searchPlaceholder": "Vakasaqara na tikite ena ulutaga, ulutaga...",
+    "loadingTickets": "Tikite ni vakavodoki...",
+    "empty": {
+      "title": "Sega ni kune e dua na tikite ni veitokoni",
+      "body": "Ena gauna oqo e sega ni dua na kerekere ni veitokoni e dolavi se volai me veiganiti kei na filter oqo.",
+      "cta": "Vakauta mai e dua na kauwai"
+    },
+    "errors": {
+      "loadList": "E sega ni rawa ni vakavodoki na tikite ni veitokoni. Kerekere mo tovolea tale.",
+      "loadDetail": "E sega ni rawa ni vakavodoki na tikite oqo. Kerekere mo tovolea tale.",
+      "required": "E gadrevi ruarua na ulutaga kei na itukutuku.",
+      "recipientRequired": "Digitaka e dua mada ga na dau ciqoma (Admin ni itikotiko kei na/se Admin ni Sistema).",
+      "submitFallback": "E sega ni rawa ni vakau na tikite oqo. Kerekere mo tovolea tale.",
+      "sendReply": "E sega ni rawa ni vakau na itukutuku oqo. Kerekere mo tovolea tale.",
+      "updateStatus": "E sega ni rawa ni vakavoutaki na ituvaki ni tikite oqo. Kerekere mo tovolea tale."
+    },
+    "form": {
+      "defaultHint": "Vakamacalataka na nomu leqa se kauwai e ra.",
+      "subjectLabel": "Ulutaga",
+      "subjectPlaceholder": "Vakalekalekataki na nomu ulutaga .",
+      "messageLabel": "Itukutuku",
+      "messagePlaceholder": "Vakamacalataka na ka e yaco tiko ena kena matailalai...",
+      "recipientsLabel": "Vakauta mai na kauwai oqo ki na .",
+      "cancel": "Biuta laivi",
+      "submitting": "Vakauta mai...",
+      "submit": "Vakauta mai na Tikite"
+    },
+    "detail": {
+      "loading": "Tikite ni vakavodoki...",
+      "replyPlaceholder": "Vola e dua na isaunitaro...",
+      "close": "Voleka",
+      "sending": "Vakauta...",
+      "sendReply": "Vakauta mai na isaunitaro"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Ni bula vinaka tale mai, {{name}}",
+    "openMenu": "Dolava na menu",
+    "closeMenu": "Sogota na menu",
+    "logout": "Lako tani",
+    "search": "Vakasaqaqara",
+    "notifications": "Veivakatakila"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dasibodi",
+      "households": "Dairekita ni Veivale",
+      "meterReadings": "Wilika na mita",
+      "billing": "Veiliutaki ni Bili",
+      "bulkPurchases": "Volivoli vakalevu",
+      "reports": "Ripote",
+      "waterLeakage": "Leakage ni wai",
+      "support": "Veitokoni / Kauwai",
+      "tariffPlans": "iTuvatuva ni Sausaumi",
+      "announcements": "Kacivaka",
+      "profile": "Itukutuku"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Oqo e dua na iyaloyalo ni nomu itikotiko."
+      },
+      "households": {
+        "title": "Dairekita ni Veivale",
+        "subtitle": "Kuria, vakavoutaka, ka qarava na lewenivanua era tiko ena nomu itikotiko."
+      },
+      "meterReadings": {
+        "title": "Hub ni Wilika na Mita ni Wai",
+        "subtitle": "Vakasaqara e dua na lewenivanua ka vola na nodra wiliwili ni mita ni wai."
+      },
+      "tariffPlans": {
+        "title": "Veivakarautaki ni iVakacavacava",
+        "subtitle": "Vakarautaka na iyalayala ni isau ni tiered, wasei na isau ni vanua raraba, kei na iwalewale ni veisoliyaki me baleta na nomu itikotiko ni vale."
+      },
+      "billing": {
+        "title": "Veiliutaki ni Bili",
+        "subtitle": "Dolava, vakaotia, ka maroroya na veisau ni bili, ka raica lesu na ivoli vakaitaukei ena veivale."
+      },
+      "bulkPurchases": {
+        "title": "Volivoli vakalevu",
+        "subtitle": "Rekotaka na veisoliyaki ni tanker kei na volivoli ni iyaya ni koro me baleta na nomu itikotiko."
+      },
+      "waterLeakage": {
+        "title": "Leakage ni wai",
+        "subtitle": "Vakarautaka na icurucuru kei na outlier-yavutaki na leakage ni veivakaroti, ka railesuva na veivale vakatakilakilataki."
+      },
+      "support": {
+        "title": "Veitokoni / Kauwai",
+        "subtitle": "Laveta cake na nomu tikite ki na Admin ni Sistema, se qarava na kauwai era sa vakaraitaka vei iko na nomu lewenivanua."
+      },
+      "profile": {
+        "title": "Tuvatuva kei na itukutuku",
+        "subtitle": "Vakatulewataka na nomu itukutuku ni akaude kei na itukutuku ni vale."
+      }
+    },
+    "fallbackName": "Dauniveiliutaki",
+    "fallbackCommunity": "Dauniveiliutaki ni Vanua",
+    "notBuilt": "{{label}} se bera ni tara",
+    "searchPlaceholder": "Vakasaqara e dua na ka..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Ripote",
+      "description": "Na ripote ni vakayagataki, bili, kei na maroroi ni veika bula me baleta na nomu itikotiko."
+    },
+    "announcements": {
+      "title": "Kacivaka",
+      "description": "Vakauta na itukutuku ni veivanua raraba vei ira na nomu lewenivanua."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} sa voleka mai"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dasibodi",
+      "usageHistory": "iTukutuku ni Vakayagataki",
+      "bills": "Noqu Bili",
+      "recommendations": "Vakatutu",
+      "reports": "Ripote",
+      "support": "Veitokoni / Kauwai",
+      "notifications": "Veivakatakila",
+      "profile": "Itukutuku"
+    },
+    "pages": {
+      "usageHistory": "Na nomu itukutuku ni vakayagataki",
+      "billing": "Bili kei na ivoli",
+      "notifications": "Veivakatakila",
+      "recommendations": "Vakatutu",
+      "support": "Veitokoni / Kauwai"
+    },
+    "defaultTitle": "Dasibodi ni Vakaitikotiko",
+    "navLabel": "Veilakoyaki ni vakaitikotiko",
+    "fallbackName": "Vakaitikotiko",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} sa voleka mai",
+    "profile": "Itukutuku",
+    "searchPlaceholder": "Vakasaqara na vakadidike, bili..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dasibodi",
+      "communities": "Veivanua",
+      "reports": "Ripote",
+      "supportTickets": "Tikite ni veitokoni",
+      "systemStatus": "iTuvaki ni Sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Na iyaloyalo raraba ni ituvatuva ena veivanua kece sara era sa rejisita."
+      },
+      "communities": {
+        "title": "Veivanua",
+        "subtitle": "Na admin ni veivanua kece era rejisita kei na nodra veivanua, ena dua ga na vanua."
+      },
+      "reports": {
+        "title": "Ripote",
+        "subtitle": "Na vakayagataki ni wai ena ituvatuva raraba kei na iwiliwili ni bili, ena veivanua kei na gauna."
+      },
+      "supportTickets": {
+        "title": "Tikite ni veitokoni",
+        "subtitle": "Veitokoni tikite kei na kauwai era vakatura na lewenivanua kei na admins ni itikotiko, ituvatuva-rabailevu."
+      },
+      "systemStatus": {
+        "title": "iTuvaki ni Sistema",
+        "subtitle": "Na veitaratara ni backend kei na yavu ni bula ni gauna ni cici."
+      }
+    },
+    "fallbackName": "Admin ni Sistema",
+    "platformOwner": "Taukei ni ituvatuva",
+    "searchPlaceholder": "Vakasaqara na veivanua..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Vosa: {{language}}",
+    "searchPlaceholder": "Vakasaqara na vosa...",
+    "noMatches": "Sega na veitau"
+  }
+}

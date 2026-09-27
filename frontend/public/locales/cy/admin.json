@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Wrthi'n llwytho…",
+    "saving": "Wrthi'n cadw…",
+    "saved": "Cadwedig.",
+    "uploading": "Wrthi'n uwchlwytho…",
+    "upload": "Llwytho i fyny",
+    "uploadError": "Methu uwchlwytho'r ffeil hon. Ceisiwch eto.",
+    "cancel": "Canslo",
+    "close": "Cau",
+    "edit": "Golygu",
+    "remove": "Dileu",
+    "saveChanges": "Cadw Newidiadau",
+    "bulkSummary": "Wedi prosesu <b>{{total}}</b> rhesi - <b>{{success}}</b> wedi llwyddo, <b>{{failure}}</b> wedi methu.",
+    "rowFailure": "Rhes {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Yn dangos {{from}}–{{to}} o {{total}}",
+    "prev": "← Cynt",
+    "next": "Nesaf →",
+    "page": "Tudalen {{page}} o {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Methu llwytho eich data cymunedol ar hyn o bryd.",
+    "title": "{{community}} Dangosfwrdd Fflatiau",
+    "titleFallback": "Eich Dangosfwrdd Fflatiau",
+    "subtitle": "Crynodeb gweithredol ar gyfer is-fesuryddion cyfleustodau dŵr a defnydd cartrefi.",
+    "comingSoon": "Yn dod yn fuan",
+    "manageCommunity": "Rheoli Cymuned",
+    "noUsageReadings": "Dim darlleniadau defnydd wedi'u cofnodi eto.",
+    "cards": {
+      "totalHouseholds": "Cyfanswm Aelwydydd",
+      "occupied": "Wedi meddiannu",
+      "activeMeters": "Mesuryddion Gweithredol",
+      "reportingReadings": "Adrodd darlleniadau",
+      "monthlyConsumption": "Treuliad Misol",
+      "thisCalendarMonth": "Y mis calendr hwn",
+      "latestRecordedMonth": "Y mis diweddaraf a gofnodwyd ({{month}})",
+      "noReadingsYet": "Dim darlleniadau wedi'u cofnodi eto",
+      "pendingAlerts": "Rhybuddion sy'n Arfaethu",
+      "anomalyPreview": "Rhagolwg canfod anomaleddau - ddim ar gael eto"
+    },
+    "actions": {
+      "label": "Camau Gweinyddol Cyflym",
+      "uploadReadings": "Uwchlwytho Darlleniadau Mesurydd",
+      "configureTariffs": "Ffurfweddu Tariffau",
+      "reportsNotBuilt": "Nid yw adroddiadau wedi'u hadeiladu eto",
+      "downloadReports": "Lawrlwythwch Adroddiadau System"
+    },
+    "chart": {
+      "title": "Cymhariaeth Defnydd Misol (kL)",
+      "subtitle": "{{months}} misoedd diwethaf: targed yn erbyn defnydd gwirioneddol.",
+      "targetSeries": "Targed (rhagolwg)",
+      "actualSeries": "Gwirioneddol"
+    },
+    "recent": {
+      "title": "Darlleniadau Mesurydd Diweddar",
+      "unit": "Uned",
+      "resident": "Preswylydd",
+      "lastReading": "Darlleniad Diweddaf",
+      "consumption": "Treuliant"
+    }
+  },
+  "households": {
+    "loadError": "Methu llwytho preswylwyr. Ceisiwch eto.",
+    "fixFields": "Trwsiwch y meysydd a amlygwyd.",
+    "saveError": "Ni fu modd achub y preswylydd hwn. Gwiriwch y manylion.",
+    "confirmRemove": "Tynnu {{name}} o'ch cyfeiriadur cartrefi?",
+    "removeError": "Ni fu modd symud y preswylydd hwn. Ceisiwch eto.",
+    "count": "Aelwydydd: {{total}}",
+    "bulkUploadButton": "⇪ Llwythiad Swmp",
+    "addResidentButton": "+ Ychwanegu Preswylydd",
+    "searchPlaceholder": "Hidlo yn ôl enw, tŷ, e-bost, neu rif y mesurydd.",
+    "loading": "Wrthi'n llwytho trigolion…",
+    "empty": "Dim trigolion eto. Cliciwch \"Ychwanegu Preswylydd\" i gofrestru'r cartref cyntaf.",
+    "noMatch": "Nid oes unrhyw drigolion yn cyfateb i \"{{search}}\".",
+    "sort": {
+      "label": "Trefnu yn ôl",
+      "name": "Enw",
+      "houseNumber": "Rhif y Ty",
+      "dateOfJoining": "Dyddiad Ymuno",
+      "toggleDirection": "Toglo cyfeiriad didoli",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Gwryw",
+      "female": "Benyw",
+      "other": "Arall"
+    },
+    "table": {
+      "name": "Enw",
+      "houseUnit": "Ty/Uned",
+      "email": "Ebost",
+      "phone": "Ffon",
+      "meterNumber": "Mesurydd Rhif.",
+      "sqft": "troedfedd sgwâr",
+      "joined": "Ymunodd"
+    },
+    "form": {
+      "addTitle": "Ychwanegu Preswylydd",
+      "editTitle": "Golygu Preswylydd",
+      "editSubtitle": "Mae hyn yn diweddaru manylion y preswylydd yn eich cyfeiriadur.",
+      "bypassSubtitle": "Rydych chi'n gosod cyfrinair y preswylydd hwn yn uniongyrchol. Ni fydd unrhyw e-bost yn cael ei anfon.",
+      "addSubtitle": "Bydd dolen cyfrinair gosod yn cael ei e-bostio at y preswylydd hwn fel y gallant actifadu eu mewngofnodi eu hunain.",
+      "fullName": "Enw llawn",
+      "houseNumber": "Rhif tŷ/uned.",
+      "email": "Ebost",
+      "phone": "Rhif ffôn",
+      "meterNumber": "Rhif mesurydd",
+      "governmentId": "ID y Llywodraeth",
+      "gender": "Rhyw",
+      "dateOfBirth": "Dyddiad geni",
+      "dateOfJoining": "Dyddiad ymuno",
+      "flatSize": "Maint gwastad (troedfedd sgwâr)",
+      "bypassLabel": "E-bost gosod cyfrinair ffordd osgoi - gosodwch gyfrinair ar gyfer y preswylydd hwn nawr",
+      "password": "Cyfrinair",
+      "confirmPassword": "Cadarnhau cyfrinair"
+    },
+    "validation": {
+      "fullNameRequired": "Mae angen enw llawn.",
+      "emailRequired": "Mae angen e-bost.",
+      "phoneRequired": "Mae angen rhif ffôn.",
+      "houseNumberRequired": "Mae angen rhif tŷ/uned.",
+      "houseNumberTaken": "Mae'r rhif tŷ hwn eisoes wedi'i neilltuo i breswylydd arall.",
+      "meterNumberRequired": "Mae angen rhif y mesurydd.",
+      "meterNumberFormat": "Rhaid i rif y mesurydd edrych fel MTR-1234 (4 digid).",
+      "meterNumberTaken": "Mae'r rhif mesurydd hwn eisoes wedi'i neilltuo i breswylydd arall.",
+      "governmentIdRequired": "Mae angen ID y Llywodraeth.",
+      "governmentIdFormat": "Rhaid i'r ID fod yn 6 digid gan ddechrau gyda 99 (e.e. 991234).",
+      "genderRequired": "Dewiswch ryw.",
+      "dateOfBirthRequired": "Mae angen dyddiad geni.",
+      "dateOfJoiningRequired": "Mae angen dyddiad ymuno.",
+      "passwordRequired": "Mae angen cyfrinair.",
+      "passwordLength": "Rhaid i'r cyfrinair fod o leiaf 8 nod.",
+      "confirmPasswordRequired": "Cadarnhewch y cyfrinair.",
+      "passwordMismatch": "Nid yw cyfrineiriau yn cyfateb."
+    },
+    "bulk": {
+      "title": "Swmp Llwytho Preswylwyr",
+      "noFile": "Dewiswch ffeil .csv neu .xlsx/.xls i'w huwchlwytho.",
+      "instructions": "Uwchlwythwch ffeil .csv neu .xlsx/.xls gyda cholofnau <code>{{columns}}</code> (cyfrinair a flatSizeSqft ill dau yn ddewisol). Mae rhesi gyda chyfrinair yn ei osod yn uniongyrchol; mae rhesi heb un yn cael e-bost cyfrinair gosodedig, yr un fath ag ychwanegu preswylydd â llaw. Mae rhifau tŷ/metr neu e-byst dyblyg yn cael eu gwrthod fesul rhes - ni fydd un rhes wael yn methu'r swp cyfan."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Methu llwytho preswylwyr. Ceisiwch eto.",
+    "historyLoadError": "Methu llwytho'r hanes darllen. Ceisiwch eto.",
+    "successMessage": "Darlleniad wedi'i recordio'n llwyddiannus o {{value}} kL ar gyfer {{house}} (Mesurydd: {{meter}})! Defnydd a gyfrifwyd: {{consumption}} kL.",
+    "tabs": {
+      "single": "Mynediad Sengl",
+      "csv": "Swmp CSV Uwchlwytho",
+      "history": "Hanes Darllen"
+    },
+    "source": {
+      "manual": "Llawlyfr",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Nid oes gan y preswylydd hwn rif mesurydd ar ffeil.",
+      "dateRequired": "Mae angen dyddiad darllen.",
+      "invalidValue": "Rhowch werth darllen dilys, nad yw'n negyddol.",
+      "duplicate": "Mae darlleniad ar gyfer y mesurydd hwn eisoes yn bodoli ar y dyddiad hwnnw.",
+      "meterNotFound": "Nid oedd modd dod o hyd i'r mesurydd hwn. Ail-ddewiswch y preswylydd.",
+      "lowerThanPrevious": "Mae'r darlleniad hwn yn is na'r darlleniad blaenorol a gofnodwyd.",
+      "recordFailed": "Methu â chofnodi'r darlleniad hwn. Ceisiwch eto."
+    },
+    "combo": {
+      "label": "Dewiswch Fflat a Chyfres Mesurydd",
+      "placeholder": "Dewiswch Gyfres Fflat a Mesurydd…",
+      "flat": "Fflat {{house}}",
+      "noMeter": "Dim mesurydd",
+      "searchPlaceholder": "Chwilio rhif fflat, cyfres metr, preswylydd…",
+      "unitsHeader": "Unedau Preswyl",
+      "found": "Fflatiau a ddarganfuwyd: {{total}}",
+      "loading": "Wrthi'n llwytho trigolion…",
+      "noMatch": "Nid oes unrhyw drigolion yn cyfateb i \"{{search}}\".",
+      "unassigned": "Heb ei aseinio",
+      "itemMeta": "{{name}} · Diwethaf: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Recordio darlleniad ar gyfer",
+      "context": "Ty {{house}} · Mesurydd {{meter}}",
+      "changeResident": "Newid preswylydd",
+      "readingDate": "Dyddiad darllen",
+      "readingValue": "Darlleniad Mesurydd Cyfredol (kL)",
+      "submit": "Cyflwyno Darlleniad Wedi'i Ddilysu",
+      "recentTitle": "Darlleniadau diweddar",
+      "recentEmpty": "Dim darlleniadau wedi'u cofnodi ar gyfer y mesurydd hwn eto."
+    },
+    "info": {
+      "title": "Dilysiad Mesurydd Monotonig",
+      "body": "Rhaid i bob darlleniad newydd fod yn fwy neu'n hafal i'r log blaenorol ar gyfer y mesurydd hwnnw - mae hyn yn cadw cyfrifiadau defnydd yn gywir ac yn dal digidau wedi'u trawsosod yn gynnar."
+    },
+    "details": {
+      "title": "Manylion yr Uned Dethol",
+      "flatUnit": "Uned Fflat",
+      "meterSerial": "Cyfres Mesurydd",
+      "occupant": "Enw'r Preswylydd",
+      "lastDial": "Dial a Recordiwyd Diwethaf",
+      "noReadings": "Dim darlleniadau eto",
+      "monthConsumption": "Treuliad Mis",
+      "empty": "Dim cartref wedi'i ddewis. Chwiliwch a dewiswch breswylydd i weld manylion eu mesurydd yma."
+    },
+    "csv": {
+      "noFile": "Dewiswch ffeil CSV i'w huwchlwytho.",
+      "instructions": "Llwythwch i fyny CSV gyda cholofnau <code>{{columns}}</code>. Mae rhesi'n cael eu prosesu'n annibynnol - ni fydd un rhes wael yn methu'r swp cyfan."
+    },
+    "history": {
+      "loading": "Wrthi'n llwytho darlleniadau…",
+      "empty": "Dim darlleniadau wedi'u cofnodi eto ar gyfer eich cymuned."
+    },
+    "table": {
+      "meterNumber": "Mesurydd Rhif.",
+      "date": "Dyddiad",
+      "value": "Gwerth (kL)",
+      "consumption": "Defnydd (kL)",
+      "source": "Ffynhonnell"
+    }
+  },
+  "billingCycles": {
+    "title": "Cylchoedd Bilio",
+    "loadError": "Methu llwytho cylchoedd bilio. Ceisiwch eto.",
+    "paymentUpdateError": "Methu â diweddaru statws talu'r anfoneb hon.",
+    "pdfError": "Methu lawrlwytho'r PDF. Ceisiwch eto.",
+    "finalizeError": "Methu â chwblhau'r cylch bilio hwn.",
+    "archiveError": "Methu ag archifo'r cylch bilio hwn.",
+    "loading": "Wrthi'n llwytho cylchoedd bilio…",
+    "empty": "Dim cylchoedd bilio eto. Agorwch un uchod i ddechrau.",
+    "status": {
+      "open": "Agored",
+      "finalized": "Wedi ei derfynu",
+      "archived": "Wedi'i archifo"
+    },
+    "open": {
+      "title": "Agor Cylch Bilio Newydd",
+      "noMonth": "Dewiswch fis i agor.",
+      "error": "Methu agor cylch bilio ar gyfer y mis hwnnw.",
+      "monthAria": "Mis cyfnod bilio",
+      "opening": "Wrthi'n agor…",
+      "submit": "Cylch Agored"
+    },
+    "table": {
+      "period": "Cyfnod",
+      "status": "Statws",
+      "householdsBilled": "Aelwydydd yn cael Bil",
+      "totalBilled": "Cyfanswm y Bil",
+      "actions": "Gweithredoedd"
+    },
+    "actions": {
+      "finalize": "Terfynu",
+      "finalizing": "Wrthi'n gorffen…",
+      "archive": "Archif",
+      "archiving": "Wrthi'n archifo…"
+    },
+    "filter": {
+      "aria": "Hidlo yn ôl statws talu",
+      "all": "Pawb"
+    },
+    "payment": {
+      "paid": "Talwyd",
+      "unpaid": "Di-dâl",
+      "updating": "Wrthi'n diweddaru…",
+      "markPaid": "Marciwch ei fod wedi talu",
+      "markUnpaid": "Marciwch fel un di-dâl"
+    },
+    "detail": {
+      "title": "Manylion Beicio — {{period}}",
+      "loading": "Wrthi'n llwytho anfonebau…",
+      "notFinalized": "Nid yw'r cylch hwn wedi'i gwblhau eto - ni chynhyrchwyd unrhyw anfonebau.",
+      "noInvoices": "Dim anfonebau ar gyfer y cylch hwn.",
+      "noMatch": "Nid oes unrhyw anfonebau yn cyfateb i'r hidlydd hwn."
+    },
+    "invoices": {
+      "household": "Aelwyd",
+      "resident": "Preswylydd",
+      "meterNumber": "Mesurydd Rhif.",
+      "consumption": "Defnydd (kL)",
+      "tierBreakdown": "Dadansoddiad Haen",
+      "commonArea": "Ardal Gyffredin",
+      "total": "Cyfanswm",
+      "paymentStatus": "Statws Talu",
+      "pdf": "PDF",
+      "baseLine": "Sylfaen: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Haen {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Methu llwytho ffurfweddiad y tariff",
+    "saveError": "Methu cadw ffurfweddiad y tariff",
+    "chartTitle": "Haenau Cyfradd Cyfleustodau Mesuredig Gweithredol",
+    "axisNote": "Cyfradd yn ₹/kL, terfynau slab yn kL",
+    "tableTitle": "Tabl Haenau Prisio",
+    "defaultRatesNote": "Yn dangos cyfraddau rhagosodedig - heb eu cadw eto.",
+    "addTier": "+ Ychwanegu Haen",
+    "saveRates": "Arbed Cyfraddau Tariff",
+    "tierLevel": {
+      "base": "Haen {{tier}} (Sylfaen)",
+      "medium": "Haen {{tier}} (Canolig)",
+      "heavy": "Haen {{tier}} (Trwm)"
+    },
+    "basePrice": {
+      "label": "Pris Sylfaenol (₹ / kL, wedi'i gymhwyso i BOB defnydd)",
+      "note": "Codir y gyfradd safonol hon ar bob kL yn gyntaf. Mae’r slabiau isod yn ychwanegu taliadau EXTRA dim ond ar gyfer defnydd sy’n dod o fewn eu hystod — e.e. mae slab sy'n dechrau ar 50 kL ond yn ychwanegu ei gyfradd defnydd uwchlaw 50 kL."
+    },
+    "table": {
+      "tierLevel": "Lefel Haen",
+      "slabLimit": "Terfyn Slab (kL)",
+      "rate": "Cyfradd fesul kL",
+      "action": "Gweithred"
+    },
+    "commonArea": {
+      "title": "Ffurfweddiad Cost Ardal Gyffredin a Rennir",
+      "loadError": "Methu â llwytho'r cyfluniad cost ardal gyffredin",
+      "saveError": "Methu ag arbed y cyfluniad cost ardal gyffredin",
+      "empty": "Dim eitemau cost wedi'u cadw eto.",
+      "labelPlaceholder": "Label eitem cost",
+      "perMonth": "/ mis",
+      "active": "Actif",
+      "addItem": "+ Ychwanegu Eitem Cost",
+      "save": "Cadw Cyfluniad Ardal Gyffredin"
+    },
+    "distribution": {
+      "title": "Dewisydd Dull Dosbarthu Cost",
+      "consumption": "Yn ôl Defnydd (Cymesur wedi'i Is-fesurydd)",
+      "floorArea": "Yn ôl Maint Fflat Fflat (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Dyddiad Cychwyn Bilio Beic",
+      "cycleStartValue": "1af o Bob Mis",
+      "autoInvoices": "Awto-Gynhyrchu PDF Anfonebau"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Trothwy Wedi mynd heibio",
+      "statisticalOutlier": "Outlier Ystadegol"
+    },
+    "status": {
+      "active": "Actif",
+      "resolved": "Penderfynwyd",
+      "dismissed": "Wedi'i ddiswyddo"
+    },
+    "config": {
+      "title": "Ffurfweddiad Canfod Gollyngiadau",
+      "subtitle": "Gosodwch drothwy defnydd misol a/neu alluogi canfod allanolyn ystadegol (yn tynnu sylw at gartref y mae ei ddefnydd misol yn anarferol o uchel o'i gymharu â'i hanes ei hun).",
+      "loadError": "Methu llwytho ffurfweddiad rhybudd. Ceisiwch eto.",
+      "thresholdRequired": "Mae angen trothwy misol (kL) pan fydd rhybuddion trothwy yn cael eu galluogi.",
+      "saveError": "Methu cadw'r ffurfweddiad hwn.",
+      "loading": "Wrthi'n llwytho ffurfweddiad…",
+      "threshold": "Trothwy misol (kL)",
+      "sensitivity": "Sensitifrwydd allanol (σ lluosydd)",
+      "enableThreshold": "Galluogi rhybuddion trothwy",
+      "enableOutlier": "Galluogi rhybuddion allanol ystadegol",
+      "save": "Cadw Ffurfweddiad",
+      "running": "Yn rhedeg…",
+      "runNow": "Rhedeg Canfod Nawr"
+    },
+    "alerts": {
+      "title": "Aelwydydd Banerog",
+      "loadError": "Methu llwytho rhybuddion. Ceisiwch eto.",
+      "runError": "Methu rhedeg canfod gollyngiadau ar hyn o bryd. Ceisiwch eto.",
+      "updateError": "Methu â diweddaru'r rhybudd hwn. Ceisiwch eto.",
+      "allStatuses": "Pob statws",
+      "loading": "Wrthi'n llwytho rhybuddion…",
+      "empty": "Dim rhybuddion i'w dangos. Ffurfweddwch drothwy neu alluogi canfod allglaf uchod, yna cliciwch ar \"Run Detection Now\" i werthuso defnydd presennol eich cymuned.",
+      "resolve": "Datrys",
+      "dismiss": "Diystyru"
+    },
+    "table": {
+      "household": "Aelwyd",
+      "resident": "Preswylydd",
+      "meter": "Mesurydd",
+      "type": "Math",
+      "period": "Cyfnod",
+      "consumption": "Treuliant",
+      "reference": "Cyfeiriad",
+      "status": "Statws"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Methu llwytho pryniannau dŵr swmp. Ceisiwch eto.",
+    "confirmRemove": "Dileu'r {{source}} danfoniad ar {{date}}?",
+    "removeError": "Methu tynnu'r pryniant hwn. Ceisiwch eto.",
+    "count": "Pryniannau a gofnodwyd: {{total}}",
+    "recordButton": "+ Prynu Cofnodion",
+    "loading": "Wrthi'n llwytho pryniannau dŵr swmp…",
+    "empty": "Ni chofnodwyd unrhyw bryniannau dŵr swmp eto. Cliciwch \"Cofnod Prynu\" i gofnodi danfoniad tancer neu bryniant cyflenwad dinesig.",
+    "table": {
+      "date": "Dyddiad",
+      "source": "Ffynhonnell",
+      "volume": "Cyfrol (L)",
+      "unitCost": "Cost Uned",
+      "totalCost": "Cyfanswm y Gost",
+      "notes": "Nodiadau"
+    },
+    "form": {
+      "addTitle": "Cofnodi Pryniant Swmp Dŵr",
+      "editTitle": "Golygu Swmp Prynu Dŵr",
+      "subtitle": "Traciwch ddanfoniad tancer neu bryniant cyflenwad dinesig ar gyfer eich cymuned — cofnodir hyn ar gyfer gwelededd cost yn unig ac nid yw’n effeithio ar anfonebau cartref.",
+      "requiredFields": "Llenwch y dyddiad, ffynhonnell, cyfaint, a chost uned.",
+      "saveError": "Methu cadw'r pryniant hwn. Gwiriwch y manylion.",
+      "purchaseDate": "Dyddiad prynu",
+      "source": "Ffynhonnell / cyflenwr",
+      "volume": "Cyfaint (litr)",
+      "unitCost": "Cost uned (₹/litr)",
+      "totalPreview": "Cyfanswm y gost: {{amount}}",
+      "notes": "Nodiadau (dewisol)",
+      "submit": "Prynu Cofnodion"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} heb ei adeiladu eto",
+    "profileSaveError": "Methu cadw eich proffil. Ceisiwch eto.",
+    "apartmentSaveError": "Ni fu modd arbed manylion y fflat. Ceisiwch eto.",
+    "specsTitle": "Manylebau Proffil",
+    "photoUnavailable": "Nid yw uwchlwytho lluniau ar gael eto",
+    "changePhoto": "Newid Llun",
+    "deletePhoto": "Dileu",
+    "photoHint": "JPG neu PNG. Maint mwyaf 2MB.",
+    "saveProfile": "Cadw Proffil",
+    "apartmentTitle": "Manylion Fflat",
+    "saveApartment": "Arbed Manylion Fflat",
+    "tabs": {
+      "profile": "Gosodiadau Proffil",
+      "apartment": "Proffil Apartment",
+      "notifications": "Rheolau Hysbysu",
+      "billing": "Integreiddiadau Bilio",
+      "security": "Diogelwch a Mynediad"
+    },
+    "fields": {
+      "fullName": "Enw Llawn",
+      "email": "Cyfeiriad Ebost",
+      "emailLocked": "Ni ellir newid e-bost yma",
+      "phone": "Rhif Ffôn",
+      "accessLevel": "Lefel Mynediad",
+      "accessLevelValue": "Gweinyddwr Cymunedol",
+      "roleLocked": "Nid yw rheoli rôl ar gael eto",
+      "apartmentName": "Enw Fflat",
+      "mainsSource": "Prif Ffynhonnell",
+      "mainsSourcePlaceholder": "e.e. Cyflenwad Dinesig + Tanceri Atodol",
+      "address": "Anerchiad Corfforol"
+    },
+    "security": {
+      "title": "Rhagolwg Diogelwch a Mynediad",
+      "twoFactor": "Dilysu Dau-Ffactor",
+      "twoFactorHint": "Wedi'i alluogi wrth fewngofnodi",
+      "twoFactorUnavailable": "Nid yw dilysu dau ffactor ar gael eto",
+      "twoFactorAria": "Dilysu dau ffactor (rhagolwg yn unig)",
+      "sessionsLabel": "Sesiynau Gweinyddol Gweithredol",
+      "sessionsEmpty": "Nid yw tracio sesiwn ar gael eto - dyma ragolwg o'r cynllun sydd i ddod."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Fy Nhocynnau",
+      "inbox": "Tocynnau Preswylwyr"
+    },
+    "mine": {
+      "title": "Fy Nhocynnau Cymorth",
+      "subtitle": "Codwch gwestiwn neu bryder am eich cymuned i Weinyddwr y System.",
+      "emptyCreateHint": "Codwch gwestiwn neu bryder am eich cymuned. Bydd Gweinyddwr System yn adolygu ac yn ymateb yma."
+    },
+    "inbox": {
+      "title": "Tocynnau Preswylwyr",
+      "subtitle": "Tocynnau cymorth a phryderon y mae preswylwyr yn eich cymuned wedi'u cyfeirio atoch."
+    }
+  }
+}

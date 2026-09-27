@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": ".Akyn",
+    "signUpTitle": "Jemgyýetiňizi hasaba alyň",
+    "signInTitle": "Gaýtadan hoş geldiňiz",
+    "signUpSubtitle": "Residentsaşaýjylary we hasaplaşyklary dolandyrmak üçin jemgyýetçilik administrator hasaby dörediň.",
+    "signInSubtitle": "Suwuňyzyň ulanylyşyny we tölegini görmek üçin giriň."
+  },
+  "signIn": {
+    "errorFallback": "Girip bilmedim. Gaýtadan synanyşyň.",
+    "emailLabel": "E-poçta iberiň",
+    "passwordLabel": "Parol",
+    "rememberMe": "Meni ýatla",
+    "forgotPassword": "Paroly ýatdan çykardyňyzmy?",
+    "submitting": "Hasaba girmek ...",
+    "submit": "Giriň",
+    "noAccount": "Hasabyňyz ýokmy?",
+    "signUpLink": "Hasaba giriň"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Parollar gabat gelenok",
+      "communityRequired": "Jemgyýetiň ady hökmanydyr.",
+      "termsRequired": "Hyzmat şertlerine we gizlinlik ýörelgelerine razy bolmagyňyzy haýyş edýäris.",
+      "fallback": "Hasap açyp bolmaýar Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "hint": "Bu ýerde diňe jemgyýetçilik administratorlary hasaba alynýar. Içeri gireniňizden soň, ýaşaýjylaryňyzyň jikme-jikliklerini özüňiz goşarsyňyz - olar özbaşdak ýazylmaýarlar.",
+    "fullNameLabel": "Doly ady",
+    "emailLabel": "E-poçta iberiň",
+    "phoneLabel": "Telefon belgisi",
+    "communityNameLabel": "Jemgyýetiň ady",
+    "passwordLabel": "Parol",
+    "confirmPasswordLabel": "Paroly tassykla",
+    "agreeTerms": "<termsLink> Hyzmat şertlerine </termsLink> we <privacyLink> Gizlinlik Policyörelgelerine </privacyLink> razy.",
+    "submitting": "Hasap döretmek…",
+    "submit": "Admin hasaby dörediň",
+    "haveAccount": "Hasabyňyz barmy?",
+    "signInLink": "Giriň"
+  },
+  "installPrompt": {
+    "title": "Guruň HydroLedger",
+    "description": "Çalt girmek üçin baş ekrana goşuň.",
+    "dismiss": "Işden aýyrmak",
+    "install": "Gurnama"
+  },
+  "setPassword": {
+    "title": "Parolyňyzy düzüň",
+    "loading": "Adingüklenýär…",
+    "subtitle": "Salam {{name}}, HydroLedger hasabyňyzy işjeňleşdirmek üçin {{email}} paroly saýlaň.",
+    "errors": {
+      "invalidLink": "Bu baglanyşyk nädogry ýa-da möhleti gutardy.",
+      "tooShort": "Parol azyndan 8 simwoldan ybarat bolmaly",
+      "mismatch": "Parollar gabat gelenok",
+      "fallback": "Parolyňyzy düzüp bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "passwordLabel": "Parol",
+    "confirmPasswordLabel": "Paroly tassykla",
+    "submitting": "Paroly düzmek…",
+    "submit": "Paroly belläň we giriň"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Kömekçi",
+      "resident": "Hasabyňyz barada soraň",
+      "admin": "Jemgyýet kömekçisi",
+      "platform": "Platforma kömekçisi",
+      "default": "Kömekçi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger näme?",
+        "tieredBilling": "Gatnaşykly hasaplaşyk nähili işleýär?",
+        "leaks": "Syzdyrmalar nädip ýüze çykarylýar?"
+      },
+      "resident": {
+        "billEstimate": "Häzirki hasaplamalarym nähili?",
+        "alerts": "Ulanyş duýduryşlary barmy?",
+        "readings": "Soňky metrdäki okamalarymy görkeziň"
+      },
+      "admin": {
+        "households": "Näçe öýümiz bar?",
+        "billingCycles": "Recentaňy-ýakynda hasaplaşyk sikllerimizi sanaň",
+        "tariff": "Häzirki nyrh meýilnamamyz näme?"
+      },
+      "platform": {
+        "communities": "Registeredhli hasaba alnan jemgyýetleri sanaň",
+        "usageReport": "Platformanyň ulanylyş hasabatyny görkeziň",
+        "systemStatus": "Ulgamyň ýagdaýy nähili?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Habarlary gaty çalt iberýärsiňiz - biraz garaşyň we gaýtadan synanyşyň.",
+      "unavailable": "Kömekçi wagtlaýyn elýeterli däl. Gysga wagtda gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "generic": "Şol habary ibermekde nädogry bir zat boldy. Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "emptyHint": "Menden bir zat soraň - men diňe öz maglumatlaryňyzy görüp bilýärin.",
+    "closeAssistant": "Kömekçi kömekçi",
+    "openAssistant": "Açyk kömekçi",
+    "inputPlaceholder": "Habar ýazyň…",
+    "inputLabel": "Habar",
+    "send": "Iber"
+  },
+  "supportBoard": {
+    "defaultTitle": "Goldaw biletleri",
+    "defaultCreateLabel": "Täze alada dörediň",
+    "status": {
+      "open": "Açyň",
+      "inProgress": "Dowam edilýär",
+      "resolved": "Çözüldi",
+      "closed": ".Apyk"
+    },
+    "tabs": {
+      "all": "Allhli biletler"
+    },
+    "recipients": {
+      "admin": "Jemgyýet dolandyryjysy",
+      "systemAdmin": "Ulgam dolandyryjysy",
+      "both": "Jemgyýet dolandyryjysy + ulgam dolandyryjysy"
+    },
+    "roles": {
+      "resident": "Aşaıjy",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kim üçin: {{recipients}}",
+    "raisedByResident": "Residentaşaýjy tarapyndan ulaldy {{name}}",
+    "raisedByAdmin": "Admin tarapyndan ulaldy {{name}}",
+    "refresh": "Täzele",
+    "stats": {
+      "openLabel": "Iberilenleri açyň",
+      "openHint": "Syn garaşýar",
+      "inProgressLabel": "Dowam edilýär",
+      "inProgressHint": "Işlenýär",
+      "resolvedLabel": "Çözüldi",
+      "resolvedHint": "Üstünlik bilen ýapyldy"
+    },
+    "searchPlaceholder": "Biletleri mowzuk, gözleg…",
+    "loadingTickets": "Bilet ýüklemek…",
+    "empty": {
+      "title": "Goldaw biletleri tapylmady",
+      "body": "Häzirki wagtda bu süzgüç bilen gabat gelýän açyk ýa-da ýazylan goldaw haýyşlaryňyz ýok.",
+      "cta": "Alada goýuň"
+    },
+    "errors": {
+      "loadList": "Goldaw biletlerini ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "loadDetail": "Bu bileti ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "required": "Mowzuk we habar ikisi hem zerurdyr.",
+      "recipientRequired": "Iň azyndan bir alyjyny saýlaň (Jemgyýet dolandyryjysy we / ýa-da ulgam dolandyryjysy).",
+      "submitFallback": "Bu bileti tabşyryp bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "sendReply": "Bu habary iberip bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "updateStatus": "Bu bilet ýagdaýyny täzeläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "form": {
+      "defaultHint": "Meseläňizi ýa-da aladalaryňyzy aşakda düşündiriň.",
+      "subjectLabel": "Mowzuk",
+      "subjectPlaceholder": "Meseläňiziň gysgaça mazmuny",
+      "messageLabel": "Habar",
+      "messagePlaceholder": "Bolýan zatlary jikme-jik beýan ediň ...",
+      "recipientsLabel": "Bu aladany iberiň",
+      "cancel": "Elatyr",
+      "submitting": "Ibermek ...",
+      "submit": "Bilet iberiň"
+    },
+    "detail": {
+      "loading": "Bilet ýüklenýär…",
+      "replyPlaceholder": "Jogap ýazyň ...",
+      "close": ".Akyn",
+      "sending": "Ibermek…",
+      "sendReply": "Jogap iber"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Gaýtadan hoş geldiňiz, {{name}}",
+    "openMenu": "Açyk menýu",
+    "closeMenu": "Menýu ýapyň",
+    "logout": "Çykyň",
+    "search": "Gözlemek",
+    "notifications": "Duýduryşlar"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dolandyryş paneli",
+      "households": "Öý hojalygynyň katalogy",
+      "meterReadings": "Metr okalyşlary",
+      "billing": "Hasaplaşyk dolandyryşy",
+      "bulkPurchases": "Köp satyn almak",
+      "reports": "Hasabat",
+      "waterLeakage": "Suwuň syzmagy",
+      "support": "Goldaw / aladalar",
+      "tariffPlans": "Nyrh meýilnamalary",
+      "announcements": "Bildirişler",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ine, jemgyýetiňiziň suraty."
+      },
+      "households": {
+        "title": "Öý hojalygynyň katalogy",
+        "subtitle": "Jemgyýetiňizde ýaşaýanlary goşuň, täzeläň we dolandyryň."
+      },
+      "meterReadings": {
+        "title": "Suw ölçeg okaýyş merkezi",
+        "subtitle": "Residentaşaýjy gözläň we suw hasaplaýjylaryny okaň."
+      },
+      "tariffPlans": {
+        "title": "Nyrh konfigurasiýasy",
+        "subtitle": "Jaýly jemagat üçin derejeli nyrh çäklerini, umumy umumy çykdajylary we paýlama usullaryny düzüň."
+      },
+      "billing": {
+        "title": "Hasaplaşyk dolandyryşy",
+        "subtitle": "Hasaplaşyk sikllerini açyň, jemläň we arhiwläň we her bir öý üçin hasap-fakturalary gözden geçiriň."
+      },
+      "bulkPurchases": {
+        "title": "Köp satyn almak",
+        "subtitle": "Tanker iberişlerini we jemgyýetiňiz üçin şäher üpjünçiligini satyn alyň."
+      },
+      "waterLeakage": {
+        "title": "Suwuň syzmagy",
+        "subtitle": "Bosagadan we daşarky syzdyryjy duýduryşlary sazlaň we baýdakly öýleri gözden geçiriň."
+      },
+      "support": {
+        "title": "Goldaw / aladalar",
+        "subtitle": "Ulgam dolandyryjysyna öz biletleriňizi galdyryň ýa-da ýaşaýjylaryňyzyň size ýüzlenýän aladalaryny çözüň."
+      },
+      "profile": {
+        "title": "Sazlamalar we profil",
+        "subtitle": "Hasabyňyzyň jikme-jikliklerini we kwartira maglumatlaryny dolandyryň."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Jemgyýet dolandyryjysy",
+    "notBuilt": "{{label}} entek gurlanok",
+    "searchPlaceholder": "Islän zadyňyzy gözläň ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Hasabat",
+      "description": "Jemgyýetiňiz üçin sarp ediş, töleg we gorap saklamak hasabatlary."
+    },
+    "announcements": {
+      "title": "Bildirişler",
+      "description": "Residentsaşaýjylaryňyza jemgyýetçilik bildirişlerini iberiň."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ýakyn wagtda geler"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dolandyryş paneli",
+      "usageHistory": "Ulanyş taryhy",
+      "bills": "Hasaplaşyklarym",
+      "recommendations": "Teklipler",
+      "reports": "Hasabat",
+      "support": "Goldaw / aladalar",
+      "notifications": "Duýduryşlar",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Ulanyş taryhyňyz",
+      "billing": "Hasaplaşyk we hasap-fakturalar",
+      "notifications": "Duýduryşlar",
+      "recommendations": "Teklipler",
+      "support": "Goldaw / aladalar"
+    },
+    "defaultTitle": "Resident Dolandyryş paneli",
+    "navLabel": "Identaşaýjy nawigasiýa",
+    "fallbackName": "Aşaıjy",
+    "unit": "Bölüm {{number}}",
+    "comingSoon": "{{label}} ýakyn wagtda geler",
+    "profile": "Profil",
+    "searchPlaceholder": "Analitikleri, tölegleri gözläň ..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dolandyryş paneli",
+      "communities": "Jemgyýetler",
+      "reports": "Hasabat",
+      "supportTickets": "Goldaw biletleri",
+      "systemStatus": "Ulgam ýagdaýy"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Her hasaba alnan jemgyýetde platforma boýunça surat."
+      },
+      "communities": {
+        "title": "Jemgyýetler",
+        "subtitle": "Her bir hasaba alnan jemgyýet administratory we jemgyýeti bir ýerde."
+      },
+      "reports": {
+        "title": "Hasabat",
+        "subtitle": "Jemgyýetiň we wagtyň geçmegi bilen platforma boýunça suwdan peýdalanmak we hasaplaşyk sanlary."
+      },
+      "supportTickets": {
+        "title": "Goldaw biletleri",
+        "subtitle": "Platforma boýunça ýaşaýjylar we jemgyýetçilik administratorlary tarapyndan döredilen biletleri we aladalary goldaň."
+      },
+      "systemStatus": {
+        "title": "Ulgam ýagdaýy",
+        "subtitle": "Arka baglanyşyk we iş wagtynyň saglygy."
+      }
+    },
+    "fallbackName": "Ulgam dolandyryjysy",
+    "platformOwner": "Platformanyň eýesi",
+    "searchPlaceholder": "Jemgyýetleri gözläň ..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Dil: {{language}}",
+    "searchPlaceholder": "Gözleg dili…",
+    "noMatches": "Gabat gelenok"
+  }
+}

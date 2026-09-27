@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "加载中…",
+    "saving": "保存…",
+    "saved": "已保存。",
+    "uploading": "正在上传...",
+    "upload": "上传",
+    "uploadError": "无法上传该文件。请再试一次。",
+    "cancel": "取消",
+    "close": "关闭",
+    "edit": "编辑",
+    "remove": "消除",
+    "saveChanges": "保存更改",
+    "bulkSummary": "已处理 <b>{{total}}</b> 行 — <b>{{success}}</b> 成功，<b>{{failure}}</b> 失败。",
+    "rowFailure": "行 {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "显示 {{total}} 的 {{from}}–{{to}}",
+    "prev": "← 上一页",
+    "next": "下一页 →",
+    "page": "第 {{page}} 页，共 {{pageCount}} 页"
+  },
+  "dashboard": {
+    "loadError": "目前无法加载您的社区数据。",
+    "title": "{{community}} 公寓仪表板",
+    "titleFallback": "您的公寓仪表板",
+    "subtitle": "自来水分项计量和家庭消费的操作摘要。",
+    "comingSoon": "即将推出",
+    "manageCommunity": "管理社区",
+    "noUsageReadings": "尚未记录使用读数。",
+    "cards": {
+      "totalHouseholds": "家庭总数",
+      "occupied": "占领",
+      "activeMeters": "有源仪表",
+      "reportingReadings": "报告读数",
+      "monthlyConsumption": "每月消费",
+      "thisCalendarMonth": "这个历月",
+      "latestRecordedMonth": "最新记录月份 ({{month}})",
+      "noReadingsYet": "尚未记录读数",
+      "pendingAlerts": "待处理警报",
+      "anomalyPreview": "异常检测预览 - 尚不可用"
+    },
+    "actions": {
+      "label": "快速管理行动",
+      "uploadReadings": "上传仪表读数",
+      "configureTariffs": "配置资费",
+      "reportsNotBuilt": "报告尚未构建",
+      "downloadReports": "下载系统报告"
+    },
+    "chart": {
+      "title": "每月消费比较(kL)",
+      "subtitle": "过去 {{months}} 个月：目标消耗量与实际消耗量。",
+      "targetSeries": "目标（预览）",
+      "actualSeries": "实际的"
+    },
+    "recent": {
+      "title": "最近的仪表读数",
+      "unit": "单元",
+      "resident": "居民",
+      "lastReading": "最后阅读",
+      "consumption": "消耗"
+    }
+  },
+  "households": {
+    "loadError": "无法加载居民。请再试一次。",
+    "fixFields": "请修复突出显示的字段。",
+    "saveError": "无法拯救这位居民。请检查详细信息。",
+    "confirmRemove": "从您的家庭目录中删除 {{name}} 吗？",
+    "removeError": "无法删除该居民。请再试一次。",
+    "count": "家庭：{{total}}",
+    "bulkUploadButton": "⇪ 批量上传",
+    "addResidentButton": "+ 添加居民",
+    "searchPlaceholder": "按姓名、房屋、电子邮件或电表号码过滤。",
+    "loading": "正在加载居民...",
+    "empty": "还没有居民。点击“添加居民”即可登记第一户。",
+    "noMatch": "没有居民匹配“{{search}}”。",
+    "sort": {
+      "label": "排序方式",
+      "name": "姓名",
+      "houseNumber": "门牌号",
+      "dateOfJoining": "加入日期",
+      "toggleDirection": "切换排序方向",
+      "asc": "↑ 上升",
+      "desc": "↓ 描述"
+    },
+    "gender": {
+      "male": "男性",
+      "female": "女性",
+      "other": "其他"
+    },
+    "table": {
+      "name": "姓名",
+      "houseUnit": "房屋/单位",
+      "email": "电子邮件",
+      "phone": "电话",
+      "meterNumber": "仪表编号",
+      "sqft": "平方英尺",
+      "joined": "已加入"
+    },
+    "form": {
+      "addTitle": "添加居民",
+      "editTitle": "编辑居民",
+      "editSubtitle": "这会更新您目录中的居民详细信息。",
+      "bypassSubtitle": "您直接设置该居民的密码。不会发送任何电子邮件。",
+      "addSubtitle": "设置密码链接将通过电子邮件发送给该居民，以便他们可以激活自己的登录。",
+      "fullName": "姓名",
+      "houseNumber": "房屋/单位号码",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "meterNumber": "米数",
+      "governmentId": "政府身份证",
+      "gender": "性别",
+      "dateOfBirth": "出生日期",
+      "dateOfJoining": "加入日期",
+      "flatSize": "单位面积（平方英尺）",
+      "bypassLabel": "绕过设置密码电子邮件 — 立即为此居民设置密码",
+      "password": "密码",
+      "confirmPassword": "确认密码"
+    },
+    "validation": {
+      "fullNameRequired": "需要全名。",
+      "emailRequired": "需要电子邮件。",
+      "phoneRequired": "需要电话号码。",
+      "houseNumberRequired": "房屋/单元号码为必填项。",
+      "houseNumberTaken": "该门牌号已分配给另一位居民。",
+      "meterNumberRequired": "需要米数。",
+      "meterNumberFormat": "电表编号必须类似于 MTR-1234（4 位数字）。",
+      "meterNumberTaken": "该电表号码已分配给另一位居民。",
+      "governmentIdRequired": "需要政府身份证件。",
+      "governmentIdFormat": "ID 必须是以 99 开头的 6 位数字（例如 991234）。",
+      "genderRequired": "请选择性别。",
+      "dateOfBirthRequired": "出生日期为必填项。",
+      "dateOfJoiningRequired": "加入日期为必填项。",
+      "passwordRequired": "需要密码。",
+      "passwordLength": "密码必须至少为 8 个字符。",
+      "confirmPasswordRequired": "请确认密码。",
+      "passwordMismatch": "密码不匹配。"
+    },
+    "bulk": {
+      "title": "批量上传居民",
+      "noFile": "请选择要上传的 .csv 或 .xlsx/.xls 文件。",
+      "instructions": "上传包含 <code>{{columns}}</code> 列的 .csv 或 .xlsx/.xls 文件（密码和 flatSizeSqft 均为可选）。有密码的行直接设置即可；没有的行会收到一封设置密码的电子邮件，与手动添加居民相同。每行都会拒绝重复的房屋/电表号码或电子邮件 - 一个坏行不会导致整个批次失败。"
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "无法加载居民。请再试一次。",
+    "historyLoadError": "无法加载阅读历史记录。请再试一次。",
+    "successMessage": "已成功记录 {{house}} 的 {{value}} kL 读数（仪表：{{meter}}）！计算消耗：{{consumption}}kL。",
+    "tabs": {
+      "single": "单次入境",
+      "csv": "批量CSV上传",
+      "history": "读历史"
+    },
+    "source": {
+      "manual": "手动的",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "该居民档案中没有电表号码。",
+      "dateRequired": "需要阅读日期。",
+      "invalidValue": "请输入有效的非负读数值。",
+      "duplicate": "该仪表的读数在该日期已存在。",
+      "meterNotFound": "找不到该仪表。请重新选择居住者。",
+      "lowerThanPrevious": "该读数低于先前记录的读数。",
+      "recordFailed": "无法记录该读数。请再试一次。"
+    },
+    "combo": {
+      "label": "选择平面和仪表系列",
+      "placeholder": "选择平面和仪表系列...",
+      "flat": "平 {{house}}",
+      "noMeter": "无仪表",
+      "searchPlaceholder": "搜寻单位号码、电表编号、住户…",
+      "unitsHeader": "住宅单位",
+      "found": "找到公寓：{{total}}",
+      "loading": "正在加载居民...",
+      "noMatch": "没有居民匹配“{{search}}”。",
+      "unassigned": "未分配",
+      "itemMeta": "{{name}} · 最后：{{last}}"
+    },
+    "panel": {
+      "eyebrow": "记录读数",
+      "context": "房屋 {{house}} · 米 {{meter}}",
+      "changeResident": "变更居民",
+      "readingDate": "阅读日期",
+      "readingValue": "当前仪表读数 (kL)",
+      "submit": "提交经过验证的阅读内容",
+      "recentTitle": "最近读物",
+      "recentEmpty": "该仪表尚未记录任何读数。"
+    },
+    "info": {
+      "title": "单调仪表验证",
+      "body": "每个新读数必须大于或等于该仪表的先前记录 - 这可以保持消耗计算的准确性并尽早捕获转置的数字。"
+    },
+    "details": {
+      "title": "所选单位详细信息",
+      "flatUnit": "单位单位",
+      "meterSerial": "仪表系列",
+      "occupant": "居住者姓名",
+      "lastDial": "最后记录的拨号",
+      "noReadings": "还没有读数",
+      "monthConsumption": "月消耗量",
+      "empty": "没有选择家庭。在这里搜索并选择一位居民以查看他们的电表详细信息。"
+    },
+    "csv": {
+      "noFile": "请选择要上传的 CSV 文件。",
+      "instructions": "上传包含 <code>{{columns}}</code> 列的 CSV。行是独立处理的——一个坏行不会导致整个批次失败。"
+    },
+    "history": {
+      "loading": "正在加载读数...",
+      "empty": "您的社区尚未记录读数。"
+    },
+    "table": {
+      "meterNumber": "仪表编号",
+      "date": "日期",
+      "value": "值（kL）",
+      "consumption": "消耗（kL）",
+      "source": "来源"
+    }
+  },
+  "billingCycles": {
+    "title": "计费周期",
+    "loadError": "无法加载计费周期。请再试一次。",
+    "paymentUpdateError": "无法更新此发票的付款状态。",
+    "pdfError": "无法下载 PDF。请再试一次。",
+    "finalizeError": "无法最终确定此计费周期。",
+    "archiveError": "无法存档此计费周期。",
+    "loading": "正在加载计费周期...",
+    "empty": "还没有计费周期。打开上面的一个即可开始。",
+    "status": {
+      "open": "打开",
+      "finalized": "最终确定",
+      "archived": "已存档"
+    },
+    "open": {
+      "title": "打开新的计费周期",
+      "noMonth": "请选择打开月份。",
+      "error": "无法打开该月的计费周期。",
+      "monthAria": "计费周期月份",
+      "opening": "开幕…",
+      "submit": "开式循环"
+    },
+    "table": {
+      "period": "时期",
+      "status": "地位",
+      "householdsBilled": "计费家庭",
+      "totalBilled": "总计费",
+      "actions": "行动"
+    },
+    "actions": {
+      "finalize": "最终确定",
+      "finalizing": "正在完成……",
+      "archive": "档案",
+      "archiving": "归档..."
+    },
+    "filter": {
+      "aria": "按付款状态过滤",
+      "all": "全部"
+    },
+    "payment": {
+      "paid": "有薪酬的",
+      "unpaid": "未付",
+      "updating": "正在更新…",
+      "markPaid": "标记为已付款",
+      "markUnpaid": "标记为未付款"
+    },
+    "detail": {
+      "title": "循环详细信息 — {{period}}",
+      "loading": "正在加载发票...",
+      "notFinalized": "该周期尚未最终确定——没有生成发票。",
+      "noInvoices": "此周期没有发票。",
+      "noMatch": "没有发票与此过滤器匹配。"
+    },
+    "invoices": {
+      "household": "家庭",
+      "resident": "居民",
+      "meterNumber": "仪表编号",
+      "consumption": "消耗（kL）",
+      "tierBreakdown": "等级划分",
+      "commonArea": "公共区域",
+      "total": "全部的",
+      "paymentStatus": "付款状态",
+      "pdf": "PDF",
+      "baseLine": "基数：{{units}} kL × ${{rate}} = ${{amount}}",
+      "tierLine": "等级 {{tier}}：{{units}} kL × 卢比{{rate}} = 卢比{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "无法加载资费配置",
+    "saveError": "无法保存资费配置",
+    "chartTitle": "主动计量公用事业费率等级",
+    "axisNote": "费率以卢比/kL 为单位，平板限制以 kL 为单位",
+    "tableTitle": "定价等级表",
+    "defaultRatesNote": "显示默认费率 - 尚未保存。",
+    "addTier": "+ 添加等级",
+    "saveRates": "节省关税率",
+    "tierLevel": {
+      "base": "等级 {{tier}}（基础）",
+      "medium": "等级 {{tier}}（中）",
+      "heavy": "等级 {{tier}}（重）"
+    },
+    "basePrice": {
+      "label": "基本价格（卢比/kL，适用于所有消费）",
+      "note": "每个 kL 首先按此统一费率收费。下面的平板仅在其范围内的使用情况下添加额外费用 - 例如从 50 kL 开始的平板只会在 50 kL 以上时增加其消耗率。"
+    },
+    "table": {
+      "tierLevel": "级别",
+      "slabLimit": "板限制 (kL)",
+      "rate": "每 kL 的费率",
+      "action": "行动"
+    },
+    "commonArea": {
+      "title": "共享公共区域成本配置",
+      "loadError": "无法加载公共区域成本配置",
+      "saveError": "无法保存公共区域成本配置",
+      "empty": "尚未保存任何成本项目。",
+      "labelPlaceholder": "成本项目标签",
+      "perMonth": "/ 月",
+      "active": "积极的",
+      "addItem": "+ 添加成本项目",
+      "save": "保存公共区域配置"
+    },
+    "distribution": {
+      "title": "成本分配方法选择器",
+      "consumption": "按消耗量（分表计量比例）",
+      "floorArea": "按公寓面积（平方英尺）"
+    },
+    "footer": {
+      "cycleStart": "周期计费开始日期",
+      "cycleStartValue": "每月 1 日",
+      "autoInvoices": "自动生成 PDF 发票"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "超过阈值",
+      "statisticalOutlier": "统计异常值"
+    },
+    "status": {
+      "active": "积极的",
+      "resolved": "已解决",
+      "dismissed": "被解雇"
+    },
+    "config": {
+      "title": "泄漏检测配置",
+      "subtitle": "设置每月消费阈值和/或启用统计异常值检测（标记与其历史记录相比每月消费异常高的家庭）。",
+      "loadError": "无法加载警报配置。请再试一次。",
+      "thresholdRequired": "启用阈值警报时需要每月阈值 (kL)。",
+      "saveError": "无法保存此配置。",
+      "loading": "正在加载配置...",
+      "threshold": "每月阈值 (kL)",
+      "sensitivity": "离群值敏感性（σ 乘数）",
+      "enableThreshold": "启用阈值警报",
+      "enableOutlier": "启用统计异常值警报",
+      "save": "保存配置",
+      "running": "跑步…",
+      "runNow": "立即运行检测"
+    },
+    "alerts": {
+      "title": "标记家庭",
+      "loadError": "无法加载警报。请再试一次。",
+      "runError": "目前无法运行泄漏检测。请再试一次。",
+      "updateError": "无法更新此警报。请再试一次。",
+      "allStatuses": "所有状态",
+      "loading": "正在加载警报...",
+      "empty": "没有可显示的警报。配置阈值或启用上面的异常值检测，然后单击“立即运行检测”以评估社区的当前使用情况。",
+      "resolve": "解决",
+      "dismiss": "解雇"
+    },
+    "table": {
+      "household": "家庭",
+      "resident": "居民",
+      "meter": "仪表",
+      "type": "类型",
+      "period": "时期",
+      "consumption": "消耗",
+      "reference": "参考",
+      "status": "地位"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "无法加载批量购买的水。请再试一次。",
+    "confirmRemove": "删除 {{date}} 上的 {{source}} 交货？",
+    "removeError": "无法删除此购买。请再试一次。",
+    "count": "购买记录：{{total}}",
+    "recordButton": "+ 购买记录",
+    "loading": "正在加载批量采购的水...",
+    "empty": "尚未有大宗购水记录。单击“记录购买”以记录油轮交付或市政供应购买。",
+    "table": {
+      "date": "日期",
+      "source": "来源",
+      "volume": "体积（升）",
+      "unitCost": "单位成本",
+      "totalCost": "总成本",
+      "notes": "笔记"
+    },
+    "form": {
+      "addTitle": "创纪录的大宗购水量",
+      "editTitle": "编辑批量购水",
+      "subtitle": "跟踪您所在社区的油轮交付或市政供应采购 - 记录此信息仅用于成本可见性，不会影响家庭发票。",
+      "requiredFields": "请填写日期、来源、数量和单位成本。",
+      "saveError": "无法保存此次购买。请检查详细信息。",
+      "purchaseDate": "购买日期",
+      "source": "来源/供应商",
+      "volume": "体积（升）",
+      "unitCost": "单位成本（卢比/升）",
+      "totalPreview": "总成本：{{amount}}",
+      "notes": "注释（可选）",
+      "submit": "记录购买"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} 尚未构建",
+    "profileSaveError": "无法保存您的个人资料。请再试一次。",
+    "apartmentSaveError": "无法保存公寓详细信息。请再试一次。",
+    "specsTitle": "型材规格",
+    "photoUnavailable": "尚不支持照片上传",
+    "changePhoto": "更改照片",
+    "deletePhoto": "删除",
+    "photoHint": "JPG 或 PNG。最大大小 2MB。",
+    "saveProfile": "保存个人资料",
+    "apartmentTitle": "公寓详情",
+    "saveApartment": "保存公寓详细信息",
+    "tabs": {
+      "profile": "配置文件设置",
+      "apartment": "公寓简介",
+      "notifications": "通知规则",
+      "billing": "计费集成",
+      "security": "安全与访问"
+    },
+    "fields": {
+      "fullName": "姓名",
+      "email": "电子邮件",
+      "emailLocked": "此处无法更改电子邮件",
+      "phone": "电话号码",
+      "accessLevel": "访问级别",
+      "accessLevelValue": "社区管理员",
+      "roleLocked": "角色管理尚不可用",
+      "apartmentName": "公寓名称",
+      "mainsSource": "电源",
+      "mainsSourcePlaceholder": "例如市政供应 + 补充油轮",
+      "address": "物理地址"
+    },
+    "security": {
+      "title": "安全和访问预览",
+      "twoFactor": "双因素身份验证",
+      "twoFactorHint": "登录时启用",
+      "twoFactorUnavailable": "双因素身份验证尚不可用",
+      "twoFactorAria": "双因素身份验证（仅限预览版）",
+      "sessionsLabel": "活跃的管理会话",
+      "sessionsEmpty": "会话跟踪尚不可用 - 这是即将推出的布局的预览。"
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "我的门票",
+      "inbox": "居民票"
+    },
+    "mine": {
+      "title": "我的支持票",
+      "subtitle": "向系统管理员提出有关您社区的问题或疑虑。",
+      "emptyCreateHint": "提出有关您的社区的问题或疑虑。系统管理员将在此处查看并回复。"
+    },
+    "inbox": {
+      "title": "居民票",
+      "subtitle": "您所在社区的居民向您提出的支持请求和疑虑。"
+    }
+  }
+}

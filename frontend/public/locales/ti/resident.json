@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "ኣብዚ ቐረባ እዋን",
+    "welcome": {
+      "greeting": "ሰላም {{name}}፣",
+      "greetingFallback": "ሰላም ሰላም፡",
+      "title": "ናብ ታሪኽ ማይ ገዛኻ ቅርበት ግበር።",
+      "subtitle": "ማሕበረሰብካ ንባባት ክምዝግብ ከሎ ናይ ኣጠቓቕማን ሕሳብን ርድኢታት ኣብዚ ክቐርብ እዩ።",
+      "viewBadges": "ኢኮ-ባጅስ ርአ"
+    },
+    "stats": {
+      "todaysUsage": "ናይ ሎሚ ኣጠቓቕማ",
+      "asOf": "ካብ {{date}} ጀሚሩ።",
+      "noReading": "ገና ንባብ ቆጻሪ የለን",
+      "monthlyTotalFor": "ወርሓዊ ጠቕላላ ({{month}})",
+      "monthlyTotalThisMonth": "ወርሓዊ ጠቕላላ (ኣብዚ ወርሒ)",
+      "sumOfReadings": "ድምር ናይ ዝተቐድሑ ንባባት",
+      "estimatedBill": "ህሉው ግምታዊ እማመ",
+      "estimatedBillFor": "መለክዒ ዘለዎ ኣጠቓቕማ + ናይ ሓባር ክፍሊት፣ {{month}}",
+      "estimatedBillHint": "ኣብ’ዚ ወርሒ’ዚ ዝተለክዐ ሃልኪን ናይ ሓባር ክፍሊትን መሰረት ብምግባር",
+      "savings": "ዕቋር ኣንጻር ህንጻ ማእከላይ ዋጋ",
+      "savingsValue": "{{percent}}% ዝወሓደ",
+      "savingsPreview": "ቅድመ ምርኢት ጥራይ — ምውድዳር ገና ቀጥታዊ ኣይኮነን።"
+    },
+    "consumption": {
+      "eyebrow": "ምህላኽ",
+      "title": "መዓልታዊ ሃልኪ (ዝሓለፉ 14 ንባባት)",
+      "seriesName": "ምህላኽ",
+      "empty": "ክሳብ ሕጂ ዝተመዝገበ ንባባት የለን።"
+    },
+    "breakdown": {
+      "eyebrow": "ምብትታን",
+      "title": "ምብትታን ኣጠቓቕማ",
+      "bathroom": "ነብሲ መሕጸቢ",
+      "kitchen": "ኽሽነ",
+      "garden": "ጀርዲን / ባርኮኒ",
+      "other": "ካልእ / ላውንድሪ"
+    },
+    "billing": {
+      "eyebrow": "ሕሳብ ምኽፋል",
+      "title": "ንጡፍ ዑደት ሕሳብ ምኽፋል",
+      "finalized": "ተዛዚሙ",
+      "preview": "ቅድመ ምርኢት",
+      "meteredConsumption": "መለክዒ ዘለዎ ሃልኪ",
+      "tierPriceLevel": "ደረጃ ዋጋ ደረጃ",
+      "tierLabel": "ደረጃ {{tier}}።",
+      "commonArea": "ናይ ሓባር ስፍሓት ምምቕራሕ",
+      "commonAreaPreview": "ምምቕራሕ ናይ ሓባር ቦታ (ቅድመ-ምርኢት)",
+      "invoiceTotal": "{{period}} ጠቕላላ ፋክቱር",
+      "estimatedCharge": "ናይ ሕጂ ግምታዊ ክፍሊት",
+      "commonAreaBreakdown": "ናይ ሓባር ከባቢ ምብትታን",
+      "payPreview": "ቅድመ ምርኢት ክፍሊት ሕሳብ",
+      "payUnavailable": "ሞተር ሕሳብ ገና ኣይተረኽበን።"
+    },
+    "tips": {
+      "eyebrow": "መቑሽሽ",
+      "title": "ስማርት ምኽርታት ዕቋር",
+      "viewAll": "ንኹሉ ርአ",
+      "empty": "ብሕታዊ ምኽርታት ኣብዚ ይቐርብ ማሕበረሰብካ ዑደት ሕሳብ ምስ ወድአ።"
+    },
+    "community": "ማሕበረሰብ፡ {{name}}"
+  },
+  "usage": {
+    "loadError": "ናይ ኣጠቓቕማ ታሪኽካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "ትንታነታት ኣጠቓቕማኻ ኣብ ምጽዓን...",
+    "empty": "ክሳብ ሕጂ ዝተመዝገበ ንባባት የለን። ማሕበረሰብካ ንባብ ቆጻሪ ምስ ተመዝገበ ኣብዚ ክረአ እዩ።",
+    "tabs": {
+      "lastSixMonths": "ዝሓለፉ 6 ኣዋርሕ",
+      "customRange": "ብሕታዊ ደረጃ",
+      "comingSoon": "ኣብዚ ቐረባ እዋን"
+    },
+    "peakDay": "መዓልቲ ጫፍ:",
+    "lowestDay": "ዝወሓደ መዓልቲ፤",
+    "comparison": {
+      "title": "ሃልኪ ገዛውቲ ኣንጻር ማእከላይ ደረጃ ኣፓርታማ",
+      "subtitle": "ወርሓዊ ድምር ብኪሎሊተር (kL) ዝተርኣየ።",
+      "yourHousehold": "ገዛኻ",
+      "apartmentAverage": "ኣፓርታማ ማእከላይ ደረጃ",
+      "similarSized": "ተመሳሳሊ ስፍሓት ዘለዎም ገዛውቲ"
+    },
+    "heatmap": {
+      "title": "መዓልታዊ ሃልኪ ሂትማፕ",
+      "subtitle": "ጽዓት ሕብሪ ንኸበድቲ መዓልታት ኣጠቓቕማ ሰንደቕ ዕላማ (ቅድመ-ምርኢት)።"
+    },
+    "ranking": {
+      "title": "ደረጃ መዛኑ ማሕበረሰብ",
+      "subtitle": "ምስ ተመሳሰልቲ ኣሃዱታት ክነጻጸር ከሎ ደረጃኻ (ቅድመ-ምርኢት)።",
+      "ecoSaver": "ንጡፍ ኢኮ ሴቨር",
+      "aptNumber": "ኣፕት {{number}}",
+      "unitNumber": "ኣሃዱ {{number}}።",
+      "yourUnit": "ኣሃዱኻ",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (ንስኻ)"
+    }
+  },
+  "billing": {
+    "loadError": "ናይ ሕሳብ ታሪኽካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "pdfError": "ነቲ PDF ከውርድ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "ናይ ሕሳብ ታሪኽካ ኣብ ምጽዓን...",
+    "empty": "ገና ፋክቱር የለን — ማሕበረሰብካ ዑደት ሕሳብ ምስ ወድአ፡ ሕሳብካ ኣብዚ ክረአ እዩ።",
+    "status": {
+      "paid": "ተኸፊሉ",
+      "unpaid": "ዘይተኸፍለ"
+    },
+    "summary": {
+      "outstandingBalance": "ዘይተኸፍለ ሚዛን",
+      "billingCycle": "ዑደት ሕሳብ ሕሳብ፡ {{period}}",
+      "allPaid": "ኩሎም ፋክቱራት ይኽፈሉ።",
+      "payTotal": "ክፍሊት ጠቕላላ ዘይተኸፍለ",
+      "payTotalUnavailable": "ብኢንተርነት ክፍሊት ገና ኣይተረኽበን — ሕሳብ ብቐጥታ ምስ ናይ ማሕበረሰብ ኣድሚንካ ምፍታሕ",
+      "downloadSummary": "Download ጽማቕ ቢል",
+      "downloadSummaryUnavailable": "Bill summary download ገና ኣይተረኽበን።"
+    },
+    "history": {
+      "title": "ታሪኽ ፋክቱር",
+      "exportCsv": "ኩሉ ናብ CSV ሰደድ።",
+      "exportUnavailable": "CSV ሰደድ ገና ኣይተረኽበን።"
+    },
+    "table": {
+      "cycle": "ዑደት",
+      "usage": "ኣጠቓቕማ (kL)",
+      "amountDue": "ዝኽፈል መጠን ገንዘብ",
+      "paymentStatus": "ኩነታት ክፍሊት",
+      "hideBreakdown": "ምብትታን ምሕባእ ↑",
+      "showBreakdown": "ብነጥቢ ዝተዳለወ ምብትታን ↓",
+      "downloading": "ኣብ ምውራድ...",
+      "pdf": "PDF",
+      "pay": "ክፈል"
+    },
+    "breakdown": {
+      "householdTitle": "ምብትታን ሃልኪ ገዛውቲ",
+      "basePrice": "መሰረታዊ ዋጋ: {{units}} kL × ₹{{rate}}።",
+      "tierLine": "ደረጃ {{tier}}: {{units}} kL × ₹{{rate}}።",
+      "subtotalMetered": "ንኡስ ድምር መለክዒ ዘለዎ ኣጠቓቕማ",
+      "commonAreaTitle": "ናይ ሓባር ከባቢ ምምቕራሕ",
+      "subtotalShared": "ንኡስ ጠቕላላ ናይ ሓባር ስፍሓት",
+      "noCommonArea": "ነዚ ዑደት ዝኸውን ናይ ሓባር ናይ ሓባር ከባቢ ክፍሊት የለን።"
+    },
+    "pagination": {
+      "showing": "{{from}}–{{to}} ናይ {{total}} ዘርኢ።",
+      "prev": "← ቅድሚት",
+      "next": "ቀጺሉ →",
+      "page": "ገጽ {{page}} ናይ {{count}}።"
+    },
+    "paymentMethods": {
+      "title": "ኣገባብ ክፍሊት (ቅድመ-ምርኢት)",
+      "description": "ብኢንተርነት ክፍሊት ገና ኣይተረኽበን — ሕሳባት ብቐጥታ ምስ ናይ ማሕበረሰብ ኣድሚንካ ይፍታሕ።",
+      "manage": "ኣገባብ ክፍሊት ምምሕዳር",
+      "manageUnavailable": "ኣገባብ ክፍሊት ገና ኣይተረኽበን።"
+    }
+  },
+  "razorpay": {
+    "securedBy": "ብ Razorpay ዝተረጋገጸ።",
+    "billingCycle": "ዑደት ሕሳብ ምኽፋል {{period}}",
+    "close": "ዕፁው",
+    "amountPayable": "ዝኽፈል መጠን ገንዘብ",
+    "methods": {
+      "upi": "UPI",
+      "cards": "ካርድታት",
+      "netbanking": "ኔትባንኪንግ",
+      "wallet": "ሳንጣ"
+    },
+    "upi": {
+      "title": "ብመንገዲ UPI ክትከፍል።",
+      "upiId": "UPI መለለዪ መንነት",
+      "or": "ወይ",
+      "scan": "ብዝኾነ UPI ኣፕ ስካን ግበር"
+    },
+    "card": {
+      "title": "ብካርድ ኣቢልካ ክትከፍል",
+      "number": "ቁጽሪ ካርድ",
+      "expiry": "ግዜኡ ይውዳእ",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "ሲቪቪ",
+      "name": "ስም ኣብ ካርድ",
+      "namePlaceholder": "ከምቲ ኣብ ካርድ ዝተሓትመ"
+    },
+    "netbanking": {
+      "title": "ብመንገዲ ኔትባንኪንግ ክትከፍል"
+    },
+    "wallet": {
+      "title": "ብዋለተ ኣቢልካ ክትከፍል"
+    },
+    "payAmount": "₹{{amount}} ክኸፍል።",
+    "processing": "መስርሕ ክፍሊትካ...",
+    "processingHint": "በጃኹም ነዚ ገጽ ንድሕሪት ኣይትጽቀጡ ወይ ኣይትሕደሱ",
+    "success": "ክፍሊት ዕዉት እዩ።",
+    "error": "ክፍሊትካ ዘረጋግጽ ነገር ተጋግዩ። በጃኹም ደጊምኩም ፈትኑ።",
+    "retry": "ዳግማይ ፈትን።"
+  },
+  "notifications": {
+    "loadError": "መፍለጢታትካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "መተሓሳሰቢታትኩም ኣብ ምጽዓን...",
+    "empty": "ገና መፍለጢ የለን — ኣብዚ ገለ ነገር ክትሪኢ ኢኻ፡ ኣድሚን ማሕበረሰብካ usage-threshold ወይ ዘይተለምደ-ሃልኪ መጠንቀቕታታት እንተ ኣኽኢሉን ሓደ ንገዛኻ እንተተበጊሱን።",
+    "type": {
+      "thresholdExceeded": "ደረት ሃልኪ ሓሊፉ",
+      "statisticalOutlier": "ዘይተለምደ ሃልኪ ተረኺቡ።"
+    },
+    "status": {
+      "active": "ንቑሕ",
+      "resolved": "ተፈቲሑ",
+      "dismissed": "ካብ ስርሑ ተባሪሩ"
+    },
+    "billingPeriod": "ናይ ሕሳብ ግዜ፡ {{period}}",
+    "consumption": "ሃልኪ፡ {{value}} kL።",
+    "push": {
+      "title": "ናይ ምድፋእ መተሓሳሰቢታት",
+      "description": "ሓድሽ ሕሳብ ወይ መጠንቀቕታ ምስ ዝመጽእ ኣብዚ መሳርሒ ተሓበሩ።",
+      "enable": "ኣኽእል",
+      "disable": "ስንኩል",
+      "permissionDenied": "ናይ ምፍላጥ ፍቓድ ኣይተዋህቦን።",
+      "notConfigured": "ናይ ድፍኢት መፍለጢታት ገና ኣይተዋቕሩን። ምስ ኣድሚንኩም ርክብ ግበሩ።",
+      "enableError": "ድፍኢት መፍለጢታት ከኽእል ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+      "disableError": "ድፍኢት መፍለጢታት ከሰናኽል ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+    }
+  },
+  "recommendations": {
+    "loadError": "ለበዋታትካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "ብሕታዊ ምኽርታትካ ኣብ ምጽዓን...",
+    "generated": "ዝተፈጥረ {{date}}።",
+    "generatedForPeriod": "ንናይ ሕሳብ ግዜ {{date}} ዝተፈጥረ {{period}}።",
+    "eyebrow": "ንዓኻ ዝኸውን ብሕታዊ",
+    "title": "ስማርት ምኽርታት ምቑጣብ ማይ",
+    "empty": "ገና ዝኾነ ምኽርታት ኣይተፈጥረን — እዚኦም ኣብ ነፍሲ ወከፍ ማሕበረሰብካ ንገዛኻ ዝኸውን ናይ ሕሳብ ዑደት ኣብ ዝውድኣሉ እዋን ብኣውቶማቲክ ይሕደሱ።"
+  },
+  "support": {
+    "title": "ናይ ነበርቲ ደገፍን ስክፍታታትን ዴስክ",
+    "subtitle": "ጸብጻብ ምፍሳስ ማይ፡ ሕቶታት ምዕቃን ቆጻሪ፡ ወይ ሕቶታት ሕሳብ ብቐጥታ ናብ ኣድሚን ማሕበረሰብካን/ወይ ኣመሓዳሪ ስርዓትካን ኣቕርብ።",
+    "emptyCreateHint": "ኣብ ታሕቲ ጉዳይካ ወይ ስክፍታኻ ግለጽ፡ መን ክሕዞ ከም ዘለዎ ድማ ምረጽ።"
+  }
+}

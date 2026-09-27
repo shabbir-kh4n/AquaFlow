@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Hleður…",
+    "saving": "Vistar...",
+    "saved": "Vistað.",
+    "uploading": "Hleður inn...",
+    "upload": "Hlaða upp",
+    "uploadError": "Gat ekki hlaðið þessari skrá upp. Vinsamlegast reyndu aftur.",
+    "cancel": "Hætta við",
+    "close": "Loka",
+    "edit": "Breyta",
+    "remove": "Fjarlægja",
+    "saveChanges": "Vista breytingar",
+    "bulkSummary": "Unnið <b>{{total}}</b> línur — <b>{{success}}</b> tókst, <b>{{failure}}</b> mistókst.",
+    "rowFailure": "Röð {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Sýnir {{from}}–{{to}} af {{total}}",
+    "prev": "← Fyrri",
+    "next": "Næsta →",
+    "page": "Síða {{page}} af {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ekki tókst að hlaða samfélagsgögnunum þínum núna.",
+    "title": "{{community}} Mælaborð íbúða",
+    "titleFallback": "Mælaborð íbúðarinnar þíns",
+    "subtitle": "Rekstraryfirlit fyrir undirmælingu vatnsveitu og heimilisnotkun.",
+    "comingSoon": "Kemur bráðum",
+    "manageCommunity": "Stjórna samfélagi",
+    "noUsageReadings": "Engar notkunarlestur skráðar ennþá.",
+    "cards": {
+      "totalHouseholds": "Heildarfjöldi heimila",
+      "occupied": "Upptekinn",
+      "activeMeters": "Virkir mælar",
+      "reportingReadings": "Tilkynning um lestur",
+      "monthlyConsumption": "Mánaðarleg neysla",
+      "thisCalendarMonth": "Þessi almanaksmánuður",
+      "latestRecordedMonth": "Síðasti skráði mánuðurinn ({{month}})",
+      "noReadingsYet": "Enginn lestur skráður ennþá",
+      "pendingAlerts": "Tilkynningar í bið",
+      "anomalyPreview": "Forskoðun fráviksgreiningar — ekki enn tiltæk"
+    },
+    "actions": {
+      "label": "Fljótlegar stjórnunaraðgerðir",
+      "uploadReadings": "Hladdu upp mæligildum",
+      "configureTariffs": "Stilla gjaldskrár",
+      "reportsNotBuilt": "Skýrslur eru ekki smíðaðar enn",
+      "downloadReports": "Sækja kerfisskýrslur"
+    },
+    "chart": {
+      "title": "Mánaðarlegur neyslusamanburður (kL)",
+      "subtitle": "Síðustu {{months}} mánuðir: markmið á móti raunverulegri neyslu.",
+      "targetSeries": "Miða (forskoðun)",
+      "actualSeries": "Raunverulegt"
+    },
+    "recent": {
+      "title": "Nýlegar mælingar",
+      "unit": "Eining",
+      "resident": "Íbúi",
+      "lastReading": "Síðasti lestur",
+      "consumption": "Neysla"
+    }
+  },
+  "households": {
+    "loadError": "Ekki tókst að hlaða íbúa. Vinsamlegast reyndu aftur.",
+    "fixFields": "Vinsamlegast lagaðu auðkennda reiti.",
+    "saveError": "Ekki tókst að bjarga þessum íbúa. Vinsamlegast athugaðu upplýsingarnar.",
+    "confirmRemove": "Fjarlægja {{name}} úr heimilisskránni þinni?",
+    "removeError": "Ekki tókst að fjarlægja þennan íbúa. Vinsamlegast reyndu aftur.",
+    "count": "Heimili: {{total}}",
+    "bulkUploadButton": "⇪ Magnupphleðsla",
+    "addResidentButton": "+ Bæta við íbúa",
+    "searchPlaceholder": "Sía eftir nafni, húsi, tölvupósti eða mælinr.",
+    "loading": "Hleður íbúa…",
+    "empty": "Engir íbúar ennþá. Smelltu á „Bæta við íbúa“ til að skrá fyrsta heimilið.",
+    "noMatch": "Engir íbúar passa við „{{search}}“.",
+    "sort": {
+      "label": "Raða eftir",
+      "name": "Nafn",
+      "houseNumber": "Húsnúmer",
+      "dateOfJoining": "Dagsetning inngöngu",
+      "toggleDirection": "Skiptu um flokkunarstefnu",
+      "asc": "↑ Asc",
+      "desc": "↓ Skýrsla"
+    },
+    "gender": {
+      "male": "Karlkyns",
+      "female": "Kvenkyns",
+      "other": "Annað"
+    },
+    "table": {
+      "name": "Nafn",
+      "houseUnit": "Hús / Eining",
+      "email": "Tölvupóstur",
+      "phone": "Sími",
+      "meterNumber": "Mælir nr.",
+      "sqft": "Sqft",
+      "joined": "Skráði sig"
+    },
+    "form": {
+      "addTitle": "Bæta við íbúa",
+      "editTitle": "Breyta íbúi",
+      "editSubtitle": "Þetta uppfærir upplýsingar íbúanna í skránni þinni.",
+      "bypassSubtitle": "Þú ert að stilla lykilorð þessa íbúa beint. Enginn tölvupóstur verður sendur.",
+      "addSubtitle": "Tengill með settu lykilorði verður sendur í tölvupósti til þessa íbúa svo hann geti virkjað eigin innskráningu.",
+      "fullName": "Fullt nafn",
+      "houseNumber": "Hús / eining nr.",
+      "email": "Tölvupóstur",
+      "phone": "Símanúmer",
+      "meterNumber": "Númer mæla",
+      "governmentId": "Ríkiskenni",
+      "gender": "Kyn",
+      "dateOfBirth": "Fæðingardagur",
+      "dateOfJoining": "Dagsetning inngöngu",
+      "flatSize": "Íbúðarstærð (fm)",
+      "bypassLabel": "Farðu framhjá netfangi með lykilorði — stilltu lykilorð fyrir þennan íbúa núna",
+      "password": "Lykilorð",
+      "confirmPassword": "Staðfestu lykilorð"
+    },
+    "validation": {
+      "fullNameRequired": "Fullt nafn er krafist.",
+      "emailRequired": "Tölvupóstur er nauðsynlegur.",
+      "phoneRequired": "Símanúmer er áskilið.",
+      "houseNumberRequired": "Hús-/einingarnúmer er áskilið.",
+      "houseNumberTaken": "Þetta húsnúmer er þegar úthlutað öðrum íbúa.",
+      "meterNumberRequired": "Mælanúmer er áskilið.",
+      "meterNumberFormat": "Númer mælisins verður að líta út eins og MTR-1234 (4 tölustafir).",
+      "meterNumberTaken": "Þetta mælanúmer er þegar úthlutað öðrum íbúa.",
+      "governmentIdRequired": "Ríkisskilríki er krafist.",
+      "governmentIdFormat": "Auðkenni verða að vera 6 tölustafir sem byrja á 99 (t.d. 991234).",
+      "genderRequired": "Vinsamlegast veldu kyn.",
+      "dateOfBirthRequired": "Fæðingardagur er áskilinn.",
+      "dateOfJoiningRequired": "Dagsetning inngöngu er nauðsynleg.",
+      "passwordRequired": "Lykilorð er krafist.",
+      "passwordLength": "Lykilorð verður að vera að minnsta kosti 8 stafir.",
+      "confirmPasswordRequired": "Vinsamlegast staðfestu lykilorðið.",
+      "passwordMismatch": "Lykilorð passa ekki saman."
+    },
+    "bulk": {
+      "title": "Íbúar í fjöldaupphleðslu",
+      "noFile": "Vinsamlegast veldu .csv eða .xlsx/.xls skrá til að hlaða upp.",
+      "instructions": "Hladdu upp .csv eða .xlsx/.xls skrá með dálkum <code>{{columns}}</code> (lykilorð og flatSizeSqft eru bæði valfrjáls). Raðir með lykilorði setja það beint; raðir án þess fá netfang með settu lykilorði, sama og að bæta við íbúa handvirkt. Tvíteknum hús-/mælanúmerum eða tölvupósti er hafnað í hverri röð — ein slæm röð mun ekki mistakast alla lotuna."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ekki tókst að hlaða íbúa. Vinsamlegast reyndu aftur.",
+    "historyLoadError": "Gat ekki hlaðið lestrarferilinn. Vinsamlegast reyndu aftur.",
+    "successMessage": "Tók upp lestur á {{value}} kL fyrir {{house}} (Mælir: {{meter}})! Reiknuð eyðsla: {{consumption}} kL.",
+    "tabs": {
+      "single": "Einstök innganga",
+      "csv": "Magn CSV Hlaða upp",
+      "history": "Lestur sögu"
+    },
+    "source": {
+      "manual": "Handbók",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Þessi íbúi hefur ekkert mælanúmer á skrá.",
+      "dateRequired": "Lestrardagsetning er nauðsynleg.",
+      "invalidValue": "Vinsamlega sláðu inn gilt, ekki neikvætt lesgildi.",
+      "duplicate": "Aflestur fyrir þennan mæli er þegar til á þeirri dagsetningu.",
+      "meterNotFound": "Þessi mælir fannst ekki. Vinsamlegast veldu íbúa aftur.",
+      "lowerThanPrevious": "Þessi lestur er lægri en fyrri skráður lestur.",
+      "recordFailed": "Gat ekki skráð þennan lestur. Vinsamlegast reyndu aftur."
+    },
+    "combo": {
+      "label": "Veldu Flat & Meter Serial",
+      "placeholder": "Veldu Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Enginn mælir",
+      "searchPlaceholder": "Leita í íbúð nr, raðmælir, íbúa…",
+      "unitsHeader": "Íbúðareiningar",
+      "found": "Íbúðir fundnar: {{total}}",
+      "loading": "Hleður íbúa…",
+      "noMatch": "Engir íbúar passa við „{{search}}“.",
+      "unassigned": "Óúthlutað",
+      "itemMeta": "{{name}} · Síðasta: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Að taka upp lestur fyrir",
+      "context": "Hús {{house}} · Mælir {{meter}}",
+      "changeResident": "Skipta um íbúa",
+      "readingDate": "Lestrardagsetning",
+      "readingValue": "Núverandi mælalestur (kL)",
+      "submit": "Sendu staðfestan lestur",
+      "recentTitle": "Nýleg lesning",
+      "recentEmpty": "Engar mælingar skráðar enn fyrir þennan mæli."
+    },
+    "info": {
+      "title": "Monotonic Meter Validation",
+      "body": "Sérhver nýr álestur verður að vera stærri en eða jafn og fyrri skrá fyrir þann mæli - þetta heldur neysluútreikningum nákvæmum og nær yfirfærðum tölum snemma."
+    },
+    "details": {
+      "title": "Upplýsingar um valin eining",
+      "flatUnit": "Flat eining",
+      "meterSerial": "Metra Serial",
+      "occupant": "Nafn farþega",
+      "lastDial": "Síðasta skráða hringja",
+      "noReadings": "Enginn lestur ennþá",
+      "monthConsumption": "Mánaðar neysla",
+      "empty": "Ekkert heimili valið. Leitaðu og veldu íbúa til að sjá upplýsingar um mælinn hans hér."
+    },
+    "csv": {
+      "noFile": "Vinsamlegast veldu CSV skrá til að hlaða upp.",
+      "instructions": "Hladdu upp CSV með dálkum <code>{{columns}}</code>. Línur eru unnar sjálfstætt - ein slæm röð mun ekki mistakast í allri lotunni."
+    },
+    "history": {
+      "loading": "Hleður lestri...",
+      "empty": "Enginn lestur skráður enn fyrir samfélagið þitt."
+    },
+    "table": {
+      "meterNumber": "Mælir nr.",
+      "date": "Dagsetning",
+      "value": "Gildi (kL)",
+      "consumption": "Neysla (kL)",
+      "source": "Heimild"
+    }
+  },
+  "billingCycles": {
+    "title": "Innheimtulotur",
+    "loadError": "Gat ekki hlaðið innheimtulotum. Vinsamlegast reyndu aftur.",
+    "paymentUpdateError": "Ekki tókst að uppfæra greiðslustöðu þessa reiknings.",
+    "pdfError": "Gat ekki hlaðið niður PDF. Vinsamlegast reyndu aftur.",
+    "finalizeError": "Ekki tókst að ganga frá þessari innheimtulotu.",
+    "archiveError": "Gat ekki sett þessa innheimtulotu í geymslu.",
+    "loading": "Hleður innheimtulotum...",
+    "empty": "Engir innheimtutímar ennþá. Opnaðu einn hér að ofan til að byrja.",
+    "status": {
+      "open": "Opið",
+      "finalized": "Lokið",
+      "archived": "Sett í geymslu"
+    },
+    "open": {
+      "title": "Opnaðu nýja innheimtulotu",
+      "noMonth": "Vinsamlegast veldu mánuð til að opna.",
+      "error": "Gat ekki opnað innheimtulotu fyrir þann mánuð.",
+      "monthAria": "Innheimtutímabil mánuður",
+      "opening": "Opnar…",
+      "submit": "Opna hringrás"
+    },
+    "table": {
+      "period": "Tímabil",
+      "status": "Staða",
+      "householdsBilled": "Heimili innheimt",
+      "totalBilled": "Samtals innheimt",
+      "actions": "Aðgerðir"
+    },
+    "actions": {
+      "finalize": "Loka",
+      "finalizing": "Lokar...",
+      "archive": "Skjalasafn",
+      "archiving": "Setur í geymslu..."
+    },
+    "filter": {
+      "aria": "Sía eftir greiðslustöðu",
+      "all": "Allt"
+    },
+    "payment": {
+      "paid": "Greitt",
+      "unpaid": "Ógreitt",
+      "updating": "Uppfærir...",
+      "markPaid": "Merktu sem greitt",
+      "markUnpaid": "Merktu sem ógreitt"
+    },
+    "detail": {
+      "title": "Upplýsingar um hringrás — {{period}}",
+      "loading": "Hleður reikninga...",
+      "notFinalized": "Þessari lotu hefur ekki verið lokið enn – engir reikningar búnir til.",
+      "noInvoices": "Engir reikningar fyrir þessa lotu.",
+      "noMatch": "Engir reikningar passa við þessa síu."
+    },
+    "invoices": {
+      "household": "Heimili",
+      "resident": "Íbúi",
+      "meterNumber": "Mælir nr.",
+      "consumption": "Neysla (kL)",
+      "tierBreakdown": "Niðurbrot á flokki",
+      "commonArea": "Sameiginlegt svæði",
+      "total": "Samtals",
+      "paymentStatus": "Greiðslustaða",
+      "pdf": "PDF",
+      "baseLine": "Grunnur: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Þrep {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Gat ekki hlaðið gjaldskráruppsetningu",
+    "saveError": "Ekki tókst að vista gjaldskrárstillinguna",
+    "chartTitle": "Virkir metered Utility Rate Triers",
+    "axisNote": "Gefið í ₹/kL, plötumörk í kL",
+    "tableTitle": "Verðlagstafla",
+    "defaultRatesNote": "Sýnir sjálfgefið verð — ekki enn vistað.",
+    "addTier": "+ Bæta við flokki",
+    "saveRates": "Sparaðu gjaldskrá",
+    "tierLevel": {
+      "base": "Stig {{tier}} (grunnur)",
+      "medium": "Stig {{tier}} (miðlungs)",
+      "heavy": "Þrep {{tier}} (þungt)"
+    },
+    "basePrice": {
+      "label": "Grunnverð (₹ / kL, notað á ALLA neyslu)",
+      "note": "Fyrir hvert kL er þetta fastagjald rukkað fyrst. Plöturnar hér að neðan bæta aðeins við aukagjöldum fyrir notkun sem fellur innan þeirra marka — t.d. hella sem byrjar á 50 kL bætir aðeins við neysluverði sínu yfir 50 kL."
+    },
+    "table": {
+      "tierLevel": "Stig",
+      "slabLimit": "Hellumörk (kL)",
+      "rate": "Verð á kL",
+      "action": "Aðgerð"
+    },
+    "commonArea": {
+      "title": "Sameiginlegt svæðiskostnaðarstillingar",
+      "loadError": "Ekki var hægt að hlaða uppsetningu kostnaðar fyrir almennt svæði",
+      "saveError": "Ekki tókst að vista sameignarkostnaðarstillingu",
+      "empty": "Engir kostnaðarliðir vistaðir ennþá.",
+      "labelPlaceholder": "Merki kostnaðarliðs",
+      "perMonth": "/ mánuði",
+      "active": "Virkur",
+      "addItem": "+ Bæta við kostnaðarlið",
+      "save": "Vistaðu uppsetningu á sameiginlegu svæði"
+    },
+    "distribution": {
+      "title": "Kostnaðardreifingaraðferðarval",
+      "consumption": "Eftir neyslu (undirmælt í hlutfalli)",
+      "floorArea": "Eftir íbúð íbúðarstærð (fm)"
+    },
+    "footer": {
+      "cycleStart": "Upphafsdagur innheimtu hringrásar",
+      "cycleStartValue": "1. hvers mánaðar",
+      "autoInvoices": "Búðu til PDF reikninga sjálfkrafa"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Þröskuldur fór yfir",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Virkur",
+      "resolved": "Leyst",
+      "dismissed": "Vísað frá"
+    },
+    "config": {
+      "title": "Lekaskynjunarstillingar",
+      "subtitle": "Stilltu mánaðarlega neysluþröskuld og/eða virkjaðu tölfræðilega fráviksgreiningu (merkir heimili þar sem mánaðarleg neysla er óvenju há miðað við eigin sögu).",
+      "loadError": "Gat ekki hlaðið viðvörunarstillingu. Vinsamlegast reyndu aftur.",
+      "thresholdRequired": "Mánaðarleg þröskuldur (kL) er nauðsynlegur þegar viðvörun um þröskuld er virkjuð.",
+      "saveError": "Ekki tókst að vista þessa stillingu.",
+      "loading": "Hleður uppsetningu...",
+      "threshold": "Mánaðarlegur þröskuldur (kL)",
+      "sensitivity": "Fráviksnæmi (σ margfaldari)",
+      "enableThreshold": "Virkja viðvaranir um þröskuld",
+      "enableOutlier": "Virkjaðu viðvaranir um tölfræðilegar frávik",
+      "save": "Vista stillingar",
+      "running": "Í gangi…",
+      "runNow": "Keyra uppgötvun núna"
+    },
+    "alerts": {
+      "title": "Flögguð heimili",
+      "loadError": "Gat ekki hlaðið viðvörunum. Vinsamlegast reyndu aftur.",
+      "runError": "Gat ekki keyrt lekaleit núna. Vinsamlegast reyndu aftur.",
+      "updateError": "Ekki tókst að uppfæra þessa viðvörun. Vinsamlegast reyndu aftur.",
+      "allStatuses": "Allar stöður",
+      "loading": "Hleður tilkynningar...",
+      "empty": "Engar tilkynningar til að sýna. Stilltu þröskuld eða virkjaðu fráviksgreiningu hér að ofan, smelltu síðan á „Run Detection Now“ til að meta núverandi notkun samfélagsins.",
+      "resolve": "Leysa",
+      "dismiss": "Segja frá"
+    },
+    "table": {
+      "household": "Heimili",
+      "resident": "Íbúi",
+      "meter": "Mælir",
+      "type": "Tegund",
+      "period": "Tímabil",
+      "consumption": "Neysla",
+      "reference": "Tilvísun",
+      "status": "Staða"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ekki tókst að hlaða magnvatnskaupum. Vinsamlegast reyndu aftur.",
+    "confirmRemove": "Viltu fjarlægja {{source}} afhendingu á {{date}}?",
+    "removeError": "Ekki tókst að fjarlægja þessi kaup. Vinsamlegast reyndu aftur.",
+    "count": "Kaup skráð: {{total}}",
+    "recordButton": "+ Upptökukaup",
+    "loading": "Hleður magnvatnskaupum...",
+    "empty": "Engin magnvatnskaup skráð enn. Smelltu á „Skrá innkaup“ til að skrá afhendingu tankbíls eða kaup á birgðaflutningi sveitarfélaga.",
+    "table": {
+      "date": "Dagsetning",
+      "source": "Heimild",
+      "volume": "Rúmmál (L)",
+      "unitCost": "Einingakostnaður",
+      "totalCost": "Heildarkostnaður",
+      "notes": "Skýringar"
+    },
+    "form": {
+      "addTitle": "Taka upp magn vatnskaupa",
+      "editTitle": "Breyta magnvatnskaupum",
+      "subtitle": "Fylgstu með sendingu tankbíla eða kaupum á birgðum sveitarfélaga fyrir samfélagið þitt - þetta er aðeins skráð vegna sýnileika kostnaðar og hefur ekki áhrif á heimilisreikninga.",
+      "requiredFields": "Vinsamlegast fylltu út dagsetningu, uppruna, magn og einingarkostnað.",
+      "saveError": "Ekki tókst að vista þessi kaup. Vinsamlegast athugaðu upplýsingarnar.",
+      "purchaseDate": "Kaupdagur",
+      "source": "Heimild / birgir",
+      "volume": "Rúmmál (lítra)",
+      "unitCost": "Einingakostnaður (₹/líter)",
+      "totalPreview": "Heildarkostnaður: {{amount}}",
+      "notes": "Skýringar (valfrjálst)",
+      "submit": "Plötukaup"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} er ekki smíðað ennþá",
+    "profileSaveError": "Ekki tókst að vista prófílinn þinn. Vinsamlegast reyndu aftur.",
+    "apartmentSaveError": "Ekki tókst að vista upplýsingar um íbúð. Vinsamlegast reyndu aftur.",
+    "specsTitle": "Upplýsingar um prófíl",
+    "photoUnavailable": "Ekki er hægt að hlaða upp myndum ennþá",
+    "changePhoto": "Breyta mynd",
+    "deletePhoto": "Eyða",
+    "photoHint": "JPG eða PNG. Hámarksstærð 2MB.",
+    "saveProfile": "Vista prófíl",
+    "apartmentTitle": "Upplýsingar um íbúð",
+    "saveApartment": "Vistaðu upplýsingar um íbúð",
+    "tabs": {
+      "profile": "Prófílstillingar",
+      "apartment": "Íbúð Prófíll",
+      "notifications": "Tilkynningarreglur",
+      "billing": "Innheimtusamþættingar",
+      "security": "Öryggi og aðgangur"
+    },
+    "fields": {
+      "fullName": "Fullt nafn",
+      "email": "Netfang",
+      "emailLocked": "Ekki er hægt að breyta tölvupósti hér",
+      "phone": "Símanúmer",
+      "accessLevel": "Aðgangsstig",
+      "accessLevelValue": "Samfélagsstjóri",
+      "roleLocked": "Hlutverkastjórnun er ekki í boði ennþá",
+      "apartmentName": "Nafn íbúðar",
+      "mainsSource": "Aðaluppspretta",
+      "mainsSourcePlaceholder": "t.d. Framboð sveitarfélaga + viðbótartankskip",
+      "address": "Líkamlegt heimilisfang"
+    },
+    "security": {
+      "title": "Forskoðun öryggis og aðgangs",
+      "twoFactor": "Tveggja þátta auðkenning",
+      "twoFactorHint": "Virkt við innskráningu",
+      "twoFactorUnavailable": "Tvíþætt auðkenning er ekki í boði ennþá",
+      "twoFactorAria": "Tveggja þátta auðkenning (aðeins forskoðun)",
+      "sessionsLabel": "Virkar stjórnunarlotur",
+      "sessionsEmpty": "Setumæling er ekki í boði ennþá - þetta er sýnishorn af væntanlegu skipulagi."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Miðarnir mínir",
+      "inbox": "Miðar fyrir íbúa"
+    },
+    "mine": {
+      "title": "Stuðningsmiðarnir mínir",
+      "subtitle": "Komdu með spurningu eða áhyggjum um samfélagið þitt til kerfisstjórans.",
+      "emptyCreateHint": "Komdu með spurningu eða áhyggjum um samfélagið þitt. Kerfisstjóri mun fara yfir og svara hér."
+    },
+    "inbox": {
+      "title": "Miðar fyrir íbúa",
+      "subtitle": "Stuðningsmiðar og áhyggjur íbúar í samfélaginu þínu hafa beint til þín."
+    }
+  }
+}

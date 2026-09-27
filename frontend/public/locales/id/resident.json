@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Segera hadir",
+    "welcome": {
+      "greeting": "Halo {{name}},",
+      "greetingFallback": "Halo,",
+      "title": "Tetap dekat dengan kisah air rumah Anda.",
+      "subtitle": "Wawasan penggunaan dan penagihan akan muncul di sini saat komunitas Anda mencatat pembacaan.",
+      "viewBadges": "Lihat Lencana Ramah Lingkungan"
+    },
+    "stats": {
+      "todaysUsage": "Penggunaan Hari Ini",
+      "asOf": "Pada {{date}}",
+      "noReading": "Belum ada pembacaan meter",
+      "monthlyTotalFor": "Total Bulanan ({{month}})",
+      "monthlyTotalThisMonth": "Total Bulanan (bulan ini)",
+      "sumOfReadings": "Jumlah pembacaan yang direkam",
+      "estimatedBill": "Perkiraan Tagihan Saat Ini",
+      "estimatedBillFor": "Penggunaan terukur + biaya bersama, {{month}}",
+      "estimatedBillHint": "Berdasarkan konsumsi terukur dan biaya bersama bulan ini",
+      "savings": "Penghematan vs Rata-Rata Bangunan",
+      "savingsValue": "{{percent}}% Lebih sedikit",
+      "savingsPreview": "Hanya pratinjau — perbandingan belum ditayangkan"
+    },
+    "consumption": {
+      "eyebrow": "Konsumsi",
+      "title": "Konsumsi Harian (14 Bacaan Terakhir)",
+      "seriesName": "Konsumsi",
+      "empty": "Belum ada pembacaan yang tercatat."
+    },
+    "breakdown": {
+      "eyebrow": "Perincian",
+      "title": "Perincian Penggunaan",
+      "bathroom": "Kamar mandi",
+      "kitchen": "Dapur",
+      "garden": "Taman / Balkon",
+      "other": "Lainnya / Binatu"
+    },
+    "billing": {
+      "eyebrow": "Penagihan",
+      "title": "Siklus Penagihan Aktif",
+      "finalized": "Selesai",
+      "preview": "Pratinjau",
+      "meteredConsumption": "Konsumsi terukur",
+      "tierPriceLevel": "Tingkat harga tingkat",
+      "tierLabel": "Tingkat {{tier}}",
+      "commonArea": "Pembagian area umum",
+      "commonAreaPreview": "Pembagian area umum (pratinjau)",
+      "invoiceTotal": "{{period}} total faktur",
+      "estimatedCharge": "Perkiraan biaya saat ini",
+      "commonAreaBreakdown": "Kerusakan area umum",
+      "payPreview": "Pratinjau Tagihan Bayar",
+      "payUnavailable": "Mesin penagihan belum tersedia"
+    },
+    "tips": {
+      "eyebrow": "Kiat",
+      "title": "Tips Menabung Cerdas",
+      "viewAll": "Lihat semuanya",
+      "empty": "Kiat yang dipersonalisasi muncul di sini setelah komunitas Anda menyelesaikan siklus penagihan."
+    },
+    "community": "Komunitas: {{name}}"
+  },
+  "usage": {
+    "loadError": "Tidak dapat memuat riwayat penggunaan Anda. Silakan coba lagi.",
+    "loading": "Memuat analisis penggunaan Anda…",
+    "empty": "Belum ada pembacaan yang tercatat. Setelah komunitas Anda mencatat pembacaan meter, pembacaan tersebut akan muncul di sini.",
+    "tabs": {
+      "lastSixMonths": "6 Bulan Terakhir",
+      "customRange": "Rentang Kustom",
+      "comingSoon": "Segera hadir"
+    },
+    "peakDay": "Hari Puncak:",
+    "lowestDay": "Hari Terendah:",
+    "comparison": {
+      "title": "Konsumsi Rumah Tangga vs Rata-Rata Apartemen",
+      "subtitle": "Total bulanan ditampilkan dalam kiloliter (kL).",
+      "yourHousehold": "Rumah Tangga Anda",
+      "apartmentAverage": "Rata-rata Apartemen",
+      "similarSized": "Rumah Berukuran Serupa"
+    },
+    "heatmap": {
+      "title": "Peta Panas Konsumsi Harian",
+      "subtitle": "Intensitas warna menandai hari-hari penggunaan yang berat (pratinjau)."
+    },
+    "ranking": {
+      "title": "Peringkat Sejawat Komunitas",
+      "subtitle": "Peringkat Anda dibandingkan dengan unit serupa (pratinjau).",
+      "ecoSaver": "Penghemat Lingkungan Aktif",
+      "aptNumber": "Tepat {{number}}",
+      "unitNumber": "Satuan {{number}}",
+      "yourUnit": "Unit Anda",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Kamu)"
+    }
+  },
+  "billing": {
+    "loadError": "Tidak dapat memuat riwayat penagihan Anda. Silakan coba lagi.",
+    "pdfError": "Tidak dapat mengunduh PDF. Silakan coba lagi.",
+    "loading": "Memuat riwayat penagihan Anda…",
+    "empty": "Belum ada faktur — setelah komunitas Anda menyelesaikan siklus penagihan, tagihan Anda akan muncul di sini.",
+    "status": {
+      "paid": "Dibayar",
+      "unpaid": "Tidak dibayar"
+    },
+    "summary": {
+      "outstandingBalance": "Saldo Luar Biasa",
+      "billingCycle": "Siklus Penagihan: {{period}}",
+      "allPaid": "Semua faktur dibayar",
+      "payTotal": "Bayar Total Terutang",
+      "payTotalUnavailable": "Pembayaran online belum tersedia — selesaikan tagihan langsung dengan admin komunitas Anda",
+      "downloadSummary": "Unduh Ringkasan Tagihan",
+      "downloadSummaryUnavailable": "Unduhan ringkasan tagihan belum tersedia"
+    },
+    "history": {
+      "title": "Riwayat Faktur",
+      "exportCsv": "Ekspor Semua ke CSV",
+      "exportUnavailable": "CSV ekspor belum tersedia"
+    },
+    "table": {
+      "cycle": "Siklus",
+      "usage": "Penggunaan (kL)",
+      "amountDue": "Jumlah yang Harus Dibayar",
+      "paymentStatus": "Status Pembayaran",
+      "hideBreakdown": "Sembunyikan Perincian ↑",
+      "showBreakdown": "Rincian Terperinci ↓",
+      "downloading": "Mengunduh…",
+      "pdf": "PDF",
+      "pay": "Membayar"
+    },
+    "breakdown": {
+      "householdTitle": "Rincian Konsumsi Rumah Tangga",
+      "basePrice": "Harga Dasar: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tingkat {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Penggunaan Terukur Subtotal",
+      "commonAreaTitle": "Pembagian Area Umum",
+      "subtotalShared": "Subtotal Area Bersama",
+      "noCommonArea": "Tidak ada biaya area umum bersama untuk siklus ini."
+    },
+    "pagination": {
+      "showing": "Menampilkan {{from}}–{{to}} dari {{total}}",
+      "prev": "← Sebelumnya",
+      "next": "Selanjutnya →",
+      "page": "Halaman {{page}} dari {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Metode pembayaran (pratinjau)",
+      "description": "Pembayaran online belum tersedia — tagihan diselesaikan langsung dengan admin komunitas Anda.",
+      "manage": "Kelola Metode Pembayaran",
+      "manageUnavailable": "Metode pembayaran belum tersedia"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Diamankan oleh Razorpay",
+    "billingCycle": "Siklus Penagihan {{period}}",
+    "close": "Menutup",
+    "amountPayable": "Jumlah Hutang",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kartu-kartu",
+      "netbanking": "perbankan bersih",
+      "wallet": "Dompet"
+    },
+    "upi": {
+      "title": "Bayar melalui UPI",
+      "upiId": "UPI tanda pengenal",
+      "or": "ATAU",
+      "scan": "Pindai dengan aplikasi UPI apa pun"
+    },
+    "card": {
+      "title": "Bayar melalui Kartu",
+      "number": "Nomor Kartu",
+      "expiry": "Kedaluwarsa",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Nama di Kartu",
+      "namePlaceholder": "Seperti yang tercetak di kartu"
+    },
+    "netbanking": {
+      "title": "Bayar melalui Netbanking"
+    },
+    "wallet": {
+      "title": "Bayar melalui Dompet"
+    },
+    "payAmount": "Bayar ₹{{amount}}",
+    "processing": "Memproses pembayaran Anda…",
+    "processingHint": "Mohon jangan menekan kembali atau menyegarkan halaman ini",
+    "success": "Pembayaran Berhasil",
+    "error": "Terjadi masalah saat mengonfirmasi pembayaran Anda. Silakan coba lagi.",
+    "retry": "Mencoba kembali"
+  },
+  "notifications": {
+    "loadError": "Tidak dapat memuat notifikasi Anda. Silakan coba lagi.",
+    "loading": "Memuat notifikasi Anda…",
+    "empty": "Belum ada pemberitahuan — Anda akan melihat sesuatu di sini jika admin komunitas Anda telah mengaktifkan peringatan ambang batas penggunaan atau konsumsi tidak biasa dan pemberitahuan tersebut dipicu untuk rumah tangga Anda.",
+    "type": {
+      "thresholdExceeded": "Ambang Batas Konsumsi Terlampaui",
+      "statisticalOutlier": "Konsumsi Tidak Biasa Terdeteksi"
+    },
+    "status": {
+      "active": "Aktif",
+      "resolved": "Terselesaikan",
+      "dismissed": "Diberhentikan"
+    },
+    "billingPeriod": "Periode penagihan: {{period}}",
+    "consumption": "Konsumsi: {{value}} kL",
+    "push": {
+      "title": "Pemberitahuan push",
+      "description": "Dapatkan pemberitahuan di perangkat ini ketika ada tagihan atau peringatan baru yang masuk.",
+      "enable": "Memungkinkan",
+      "disable": "Cacat",
+      "permissionDenied": "Izin pemberitahuan tidak diberikan.",
+      "notConfigured": "Notifikasi push belum dikonfigurasi. Hubungi admin Anda.",
+      "enableError": "Tidak dapat mengaktifkan pemberitahuan push. Silakan coba lagi.",
+      "disableError": "Tidak dapat menonaktifkan pemberitahuan push. Silakan coba lagi."
+    }
+  },
+  "recommendations": {
+    "loadError": "Tidak dapat memuat rekomendasi Anda. Silakan coba lagi.",
+    "loading": "Memuat tips hasil personalisasi Anda…",
+    "generated": "Dihasilkan {{date}}",
+    "generatedForPeriod": "Dihasilkan {{date}} untuk periode penagihan {{period}}",
+    "eyebrow": "Dipersonalisasi untuk Anda",
+    "title": "Tips Cerdas Menghemat Air",
+    "empty": "Belum ada tips yang dihasilkan — tips ini diperbarui secara otomatis setiap kali komunitas Anda menyelesaikan siklus penagihan untuk rumah tangga Anda."
+  },
+  "support": {
+    "title": "Meja Dukungan & Kekhawatiran Residen",
+    "subtitle": "Kirimkan laporan kebocoran air, permintaan kalibrasi meteran, atau pertanyaan penagihan langsung ke admin komunitas Anda dan/atau Admin Sistem.",
+    "emptyCreateHint": "Jelaskan masalah atau kekhawatiran Anda di bawah ini, dan pilih siapa yang harus menanganinya."
+  }
+}

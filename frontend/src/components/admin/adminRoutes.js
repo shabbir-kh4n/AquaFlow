@@ -1,12 +1,14 @@
+// titleKey/descriptionKey are translation keys in the `common` namespace - translate them
+// with t() wherever they're rendered (AdminLayout topbar, ComingSoon page).
 export const STUB_PAGES = [
   {
     path: '/admin/reports',
-    title: 'Reports',
-    description: 'Consumption, billing, and conservation reports for your community.',
+    titleKey: 'stubPages.reports.title',
+    descriptionKey: 'stubPages.reports.description',
   },
   {
     path: '/admin/announcements',
-    title: 'Announcements',
-    description: 'Send community-wide announcements to your residents.',
+    titleKey: 'stubPages.announcements.title',
+    descriptionKey: 'stubPages.announcements.description',
   },
 ]

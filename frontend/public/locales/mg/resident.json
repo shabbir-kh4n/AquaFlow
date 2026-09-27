@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Ho avy tsy ho ela",
+    "welcome": {
+      "greeting": "Salama {{name}},",
+      "greetingFallback": "Salama ny ao,",
+      "title": "Mijanòna akaikin'ny tantaran'ny rano ao an-tranonao.",
+      "subtitle": "Hiseho eto ny hevitra momba ny fampiasana sy faktiora rehefa mirakitra ny vakiteny ny vondrom-piarahamoninao.",
+      "viewBadges": "Jereo ny Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "Fampiasana anio",
+      "asOf": "Hatramin'ny {{date}}",
+      "noReading": "Tsy mbola mamaky metatra",
+      "monthlyTotalFor": "Total isam-bolana ({{month}})",
+      "monthlyTotalThisMonth": "Total isam-bolana (ity volana ity)",
+      "sumOfReadings": "Ny fitambaran'ny vakiteny voarakitra",
+      "estimatedBill": "Volavola tombanana ankehitriny",
+      "estimatedBillFor": "Fampiasana mitatra + sara ifampizarana, {{month}}",
+      "estimatedBillHint": "Mifototra amin'ny fanjifana amin'ity volana ity sy ny sara ifampizarana",
+      "savings": "Savings vs Building Avg",
+      "savingsValue": "{{percent}}% Kely",
+      "savingsPreview": "Preview fotsiny — tsy mbola mivantana ny fampitahana"
+    },
+    "consumption": {
+      "eyebrow": "fihinanana",
+      "title": "Fanjifana isan'andro (Vakio 14 farany)",
+      "seriesName": "fihinanana",
+      "empty": "Tsy mbola nisy vakiteny voarakitra."
+    },
+    "breakdown": {
+      "eyebrow": "Mitanondrika",
+      "title": "Fampiharana ny fampiasana",
+      "bathroom": "efitra fandroana",
+      "kitchen": "LAKOZIA",
+      "garden": "Zaridaina / lavarangana",
+      "other": "Hafa / Fanasan-damba"
+    },
+    "billing": {
+      "eyebrow": "Billing",
+      "title": "Active Billing Cycle",
+      "finalized": "nomanina",
+      "preview": "TOPI-MASO",
+      "meteredConsumption": "Fanjifana metatra",
+      "tierPriceLevel": "Ny haavon'ny vidin'ny tier",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Fizarana faritra iraisana",
+      "commonAreaPreview": "Fizarana faritra iraisana (fahitana)",
+      "invoiceTotal": "{{period}} totalin'ny faktiora",
+      "estimatedCharge": "Tombanana sarany ankehitriny",
+      "commonAreaBreakdown": "Faritra iraisana",
+      "payPreview": "Pay Bill Preview",
+      "payUnavailable": "Mbola tsy misy ny maotera faktiora"
+    },
+    "tips": {
+      "eyebrow": "SOSO-KEVITRA",
+      "title": "Torohevitra mitahiry Smart",
+      "viewAll": "Jereo daholo",
+      "empty": "Mipoitra eto ny toro-hevitra manokana rehefa mamarana tsingerin'ny faktiora ny vondrom-piarahamoninao."
+    },
+    "community": "Fiaraha-monina: {{name}}"
+  },
+  "usage": {
+    "loadError": "Tsy afaka nampiditra ny tantaranao ny fampiasanao. Andramo indray azafady.",
+    "loading": "Mampiakatra ny famakafakana ny fampiasanao…",
+    "empty": "Tsy mbola nisy vakiteny voarakitra. Rehefa voarakitra an-tsoratra metatra iray ny vondrom-piarahamoninao dia hiseho eto izany.",
+    "tabs": {
+      "lastSixMonths": "6 volana lasa izay",
+      "customRange": "Kilalao manokana",
+      "comingSoon": "Ho avy tsy ho ela"
+    },
+    "peakDay": "Andro faratampony:",
+    "lowestDay": "Andro ambany indrindra:",
+    "comparison": {
+      "title": "Fanjifana trano vs Salan'ny trano",
+      "subtitle": "Total isam-bolana aseho amin'ny kilolitatra (kL).",
+      "yourHousehold": "Ny ankohonanao",
+      "apartmentAverage": "Apartment Salanisa",
+      "similarSized": "Trano mitovy habe"
+    },
+    "heatmap": {
+      "title": "Sarintany hafanana fanjifana isan'andro",
+      "subtitle": "Ny hamafin'ny loko dia manondro andro fampiasana mavesatra (fijerena)."
+    },
+    "ranking": {
+      "title": "Fiakaran'ny mpiara-belona",
+      "subtitle": "Ny laharanao raha ampitahaina amin'ny singa mitovitovy (mijery).",
+      "ecoSaver": "Active Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Fizarana {{number}}",
+      "yourUnit": "Ny tarikao",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Ianao)"
+    }
+  },
+  "billing": {
+    "loadError": "Tsy afaka nampiditra ny tantaran'ny faktiorao. Andramo indray azafady.",
+    "pdfError": "Tsy afaka misintona ny PDF. Andramo indray azafady.",
+    "loading": "Mampiakatra ny tantaran'ny faktiorao…",
+    "empty": "Tsy mbola misy faktiora — rehefa mamarana tsingerin'ny faktiora ny vondrom-piarahamoninao dia hiseho eto ny faktiorao.",
+    "status": {
+      "paid": "karama",
+      "unpaid": "handraisam-bola"
+    },
+    "summary": {
+      "outstandingBalance": "Balance miavaka",
+      "billingCycle": "Fihodinana faktiora: {{period}}",
+      "allPaid": "Voaloa ny faktiora rehetra",
+      "payTotal": "Mandoa Total Outstanding",
+      "payTotalUnavailable": "Tsy mbola misy ny fandoavam-bola an-tserasera — manefa faktiora mivantana amin'ny admin-nao",
+      "downloadSummary": "Download Bill Summary",
+      "downloadSummaryUnavailable": "Tsy mbola misy ny fampidinana famintinana volavolan-dalàna"
+    },
+    "history": {
+      "title": "Tantaran'ny faktiora",
+      "exportCsv": "Manondrana rehetra any CSV",
+      "exportUnavailable": "CSV tsy mbola misy ny fanondranana"
+    },
+    "table": {
+      "cycle": "tsingerin'ny",
+      "usage": "Fampiasana (kL)",
+      "amountDue": "Vola tsy maintsy aloa",
+      "paymentStatus": "Sata fandoavana",
+      "hideBreakdown": "Afeno ny fizarazarana ↑",
+      "showBreakdown": "Fizarana voarindra ↓",
+      "downloading": "Misintona…",
+      "pdf": "PDF",
+      "pay": "KARAMANY"
+    },
+    "breakdown": {
+      "householdTitle": "Fahasimban'ny fanjifana isan-tokantrano",
+      "basePrice": "Vidiny fototra: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Metered Fampiasana",
+      "commonAreaTitle": "Fizarana faritra iraisana",
+      "subtotalShared": "Faritra zaraina sobika",
+      "noCommonArea": "Tsy misy saran'ny faritra iraisana amin'ity tsingerina ity."
+    },
+    "pagination": {
+      "showing": "Mampiseho {{from}}–{{to}} amin'ny {{total}}",
+      "prev": "← Teo aloha",
+      "next": "Manaraka →",
+      "page": "Pejy {{page}} amin'ny {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Fomba fandoavana (famantarana)",
+      "description": "Tsy mbola misy ny fandoavam-bola an-tserasera — ny faktiora dia voalamina mivantana amin'ny mpitantana ny vondrom-piarahamoninao.",
+      "manage": "Mitantana ny fomba fandoavam-bola",
+      "manageUnavailable": "Tsy mbola misy ny fomba fandoavam-bola"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Voaro amin'ny Razorpay",
+    "billingCycle": "Fihodinana faktiora {{period}}",
+    "close": "AKAIKY",
+    "amountPayable": "Vola azo aloa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "KARATRA",
+      "netbanking": "Netbanking",
+      "wallet": "kitapom-batsy"
+    },
+    "upi": {
+      "title": "Mandoa amin'ny UPI",
+      "upiId": "UPI ID",
+      "or": "OR",
+      "scan": "Scan amin'ny fampiharana UPI."
+    },
+    "card": {
+      "title": "Mandoa amin'ny alalan'ny Karatra",
+      "number": "Nomeraon-karatra",
+      "expiry": "fahataperan'ny",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Anarana amin'ny Karatra",
+      "namePlaceholder": "Toy ny vita pirinty amin'ny karatra"
+    },
+    "netbanking": {
+      "title": "Mandoa amin'ny alalan'ny Netbanking"
+    },
+    "wallet": {
+      "title": "Aloavy amin'ny Wallet"
+    },
+    "payAmount": "Mandoa ₹{{amount}}",
+    "processing": "Mikarakara ny fandoavanao…",
+    "processingHint": "Aza manindry miverina na manavao ity pejy ity azafady",
+    "success": "Nahomby ny fandoavana",
+    "error": "Nisy tsy nety nanamarina ny fandoavanao. Andramo indray azafady.",
+    "retry": "Hanandrana indray"
+  },
+  "notifications": {
+    "loadError": "Tsy afaka nampiditra ny fampandrenesanao. Andramo indray azafady.",
+    "loading": "Mampiakatra ny fampandrenesanao…",
+    "empty": "Tsy mbola misy fampandrenesana — hahita zavatra eto ianao raha toa ka nampidirin'ny mpitantana ny vondrom-piarahamoninao ny fampandrenesana fetran'ny fampiasana na tsy mahazatra ny fanjifana ary ny iray dia voatarika ho an'ny ankohonanao.",
+    "type": {
+      "thresholdExceeded": "Nihoatra ny fetran'ny fanjifana",
+      "statisticalOutlier": "Hita ny fanjifana tsy mahazatra"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "tapa-kevitra",
+      "dismissed": "voaroaka"
+    },
+    "billingPeriod": "Vanim-potoana faktiora: {{period}}",
+    "consumption": "Fanjifana: {{value}} kL",
+    "push": {
+      "title": "Fampandrenesana manosika",
+      "description": "Mampandrenesina amin'ity fitaovana ity rehefa misy faktiora na fanairana vaovao tonga.",
+      "enable": "Tadiavo",
+      "disable": "Atsaharo",
+      "permissionDenied": "Tsy nomena alalana fampahafantarana.",
+      "notConfigured": "Tsy mbola voarindra ny fampandrenesana fanerena. Mifandraisa amin'ny admin anao.",
+      "enableError": "Tsy afaka namela fampandrenesana fanosehana. Andramo indray azafady.",
+      "disableError": "Tsy afaka nesorina ny fampandrenesana fanosehana. Andramo indray azafady."
+    }
+  },
+  "recommendations": {
+    "loadError": "Tsy afaka nampiditra ny soso-kevitrao. Andramo indray azafady.",
+    "loading": "Mametraka ny toro-hevitrao manokana…",
+    "generated": "Nateraka {{date}}",
+    "generatedForPeriod": "Namboarina {{date}} ho an'ny fe-potoana faktiora {{period}}",
+    "eyebrow": "Natao manokana ho anao",
+    "title": "Torohevitra mitsitsy rano marani-tsaina",
+    "empty": "Tsy mbola misy toro-hevitra voavolavola — havaozina ho azy ireo isaky ny mamarana tsingerin'ny faktiora ho an'ny ankohonanao ny vondrom-piarahamoninao."
+  },
+  "support": {
+    "title": "Biraon'ny fanohanana sy fiahiana ny mponina",
+    "subtitle": "Alefaso any amin'ny mpitantana ny vondrom-piarahamoninao sy/na ny System Admin ny tatitra momba ny fahapotehan'ny rano, ny fangatahana calibration metatra, na ny fanontaniana momba ny faktiora.",
+    "emptyCreateHint": "Lazalazao eto ambany ny olanao na ny ahiahinao, ary fidio izay tokony hikarakara azy."
+  }
+}

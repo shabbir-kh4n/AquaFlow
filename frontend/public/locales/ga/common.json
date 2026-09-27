@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Dún",
+    "signUpTitle": "Cláraigh do phobal",
+    "signInTitle": "Fáilte ar ais",
+    "signUpSubtitle": "Cruthaigh cuntas Riarachán Pobail chun tús a chur le bainistiú a dhéanamh ar chónaitheoirí agus le billeáil.",
+    "signInSubtitle": "Sínigh isteach chun d’úsáid uisce agus do bhilleáil a fheiceáil."
+  },
+  "signIn": {
+    "errorFallback": "Ní féidir síniú isteach. Bain triail eile as.",
+    "emailLabel": "Ríomhphost",
+    "passwordLabel": "Pasfhocal",
+    "rememberMe": "Cuimhnigh orm",
+    "forgotPassword": "Focal faire dearmadta?",
+    "submitting": "Ag síniú isteach…",
+    "submit": "Sínigh Isteach",
+    "noAccount": "Nach bhfuil cuntas agat?",
+    "signUpLink": "Cláraigh"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Ní hionann pasfhocail.",
+      "communityRequired": "Tá ainm pobail ag teastáil.",
+      "termsRequired": "Aontaigh le do thoil leis na Téarmaí Seirbhíse agus Polasaí Príobháideachta.",
+      "fallback": "Ní féidir cuntas a chruthú. Bain triail eile as."
+    },
+    "hint": "Ní chláraíonn ach riarthóirí pobail anseo. Nuair a bheidh tú istigh, cuirfidh tú sonraí do chónaitheoirí leis féin - ní chláraíonn siad ina n-aonar.",
+    "fullNameLabel": "Ainm iomlán",
+    "emailLabel": "Ríomhphost",
+    "phoneLabel": "Uimhir theileafóin",
+    "communityNameLabel": "Ainm pobail",
+    "passwordLabel": "Pasfhocal",
+    "confirmPasswordLabel": "Deimhnigh pasfhocal",
+    "agreeTerms": "Aontaím leis na <termsLink>Téarmaí Seirbhíse</termsLink> agus an <privacyLink>Beartas Príobháideachta</privacyLink>",
+    "submitting": "Cuntas á chruthú…",
+    "submit": "Cruthaigh Cuntas Riaracháin",
+    "haveAccount": "An bhfuil cuntas agat cheana féin?",
+    "signInLink": "Sínigh isteach"
+  },
+  "installPrompt": {
+    "title": "Suiteáil HydroLedger",
+    "description": "Cuir é le do scáileán baile le haghaidh rochtana tapa.",
+    "dismiss": "Díbhe",
+    "install": "Suiteáil"
+  },
+  "setPassword": {
+    "title": "Socraigh do phasfhocal",
+    "loading": "Á lódáil…",
+    "subtitle": "Haigh {{name}}, roghnaigh pasfhocal le haghaidh {{email}} chun do chuntas HydroLedger a ghníomhachtú.",
+    "errors": {
+      "invalidLink": "Tá an nasc seo neamhbhailí nó imithe in éag.",
+      "tooShort": "Ní mór go mbeadh 8 gcarachtar ar a laghad ag pasfhocal.",
+      "mismatch": "Ní hionann pasfhocail.",
+      "fallback": "Níorbh fhéidir do phasfhocal a shocrú. Bain triail eile as."
+    },
+    "passwordLabel": "Pasfhocal",
+    "confirmPasswordLabel": "Deimhnigh pasfhocal",
+    "submitting": "Pasfhocal á shocrú…",
+    "submit": "Socraigh pasfhocal & logáil isteach"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Cúntóir",
+      "resident": "Fiafraigh faoi do chuntas",
+      "admin": "Cúntóir Pobail",
+      "platform": "Cúntóir Ardán",
+      "default": "Cúntóir"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Cad é HydroLedger?",
+        "tieredBilling": "Conas a oibríonn billeáil srathach?",
+        "leaks": "Conas a aimsítear sceitheanna?"
+      },
+      "resident": {
+        "billEstimate": "Cad é mo mheastachán bille reatha?",
+        "alerts": "An bhfuil aon foláirimh úsáide agam?",
+        "readings": "Taispeáin mo léamha méadair le déanaí"
+      },
+      "admin": {
+        "households": "Cé mhéad teaghlach atá againn?",
+        "billingCycles": "Déan liosta dár dtimthriallta billeála le déanaí",
+        "tariff": "Cad é ár bplean taraife reatha?"
+      },
+      "platform": {
+        "communities": "Déan liosta de na pobail chláraithe go léir",
+        "usageReport": "Taispeáin an tuarascáil úsáide ardáin",
+        "systemStatus": "Cad é stádas an chórais?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Tá tú ag seoladh teachtaireachtaí ró-thapa - fan nóiméad agus bain triail eile as.",
+      "unavailable": "Níl an cúntóir ar fáil go sealadach. Bain triail eile as gan mhoill.",
+      "generic": "Tharla earráid agus an teachtaireacht sin á seoladh. Bain triail eile as."
+    },
+    "emptyHint": "Iarr orm rud ar bith - ní féidir liom a fheiceáil ach do shonraí féin.",
+    "closeAssistant": "Dún cúntóir",
+    "openAssistant": "Oscail cúntóir",
+    "inputPlaceholder": "Clóscríobh teachtaireacht…",
+    "inputLabel": "Teachtaireacht",
+    "send": "Seol"
+  },
+  "supportBoard": {
+    "defaultTitle": "Ticéid Tacaíochta",
+    "defaultCreateLabel": "Ardaigh Buartha Nua",
+    "status": {
+      "open": "Oscail",
+      "inProgress": "Ar Siúl",
+      "resolved": "Réitíodh",
+      "closed": "Dúnta"
+    },
+    "tabs": {
+      "all": "Gach Ticéid"
+    },
+    "recipients": {
+      "admin": "Riarachán Pobail",
+      "systemAdmin": "Riarachán Córais",
+      "both": "Riarachán Pobail + Riarachán Córais"
+    },
+    "roles": {
+      "resident": "Cónaitheach",
+      "admin": "Riarachán"
+    },
+    "toRecipients": "Chuig: {{recipients}}",
+    "raisedByResident": "Ardaithe ag cónaitheoir {{name}}",
+    "raisedByAdmin": "Arna ardú ag riarthóir {{name}}",
+    "refresh": "Athnuaigh",
+    "stats": {
+      "openLabel": "Aighneachtaí Oscailte",
+      "openHint": "Ag feitheamh ar athbhreithniú",
+      "inProgressLabel": "Ar Siúl",
+      "inProgressHint": "A bheith ag obair ar",
+      "resolvedLabel": "Réitíodh",
+      "resolvedHint": "Dúnadh go rathúil"
+    },
+    "searchPlaceholder": "Cuardaigh ticéid de réir ábhair, eisiúint…",
+    "loadingTickets": "Ticéid á lódáil…",
+    "empty": {
+      "title": "Níor aimsíodh aon ticéid tacaíochta",
+      "body": "Níl aon iarratas tacaíochta oscailte nó taifeadta agat a mheaitseálann an scagaire seo.",
+      "cta": "Cuir Imní isteach"
+    },
+    "errors": {
+      "loadList": "Níorbh fhéidir ticéid tacaíochta a lódáil. Bain triail eile as.",
+      "loadDetail": "Níorbh fhéidir an ticéad seo a lódáil. Bain triail eile as.",
+      "required": "Tá ábhar agus teachtaireacht araon ag teastáil.",
+      "recipientRequired": "Roghnaigh faighteoir amháin ar a laghad (Riarachán Pobail agus/nó Riarachán Córais).",
+      "submitFallback": "Níorbh fhéidir an ticéad seo a chur isteach. Bain triail eile as.",
+      "sendReply": "Níorbh fhéidir an teachtaireacht seo a sheoladh. Bain triail eile as.",
+      "updateStatus": "Níorbh fhéidir stádas an ticéid seo a nuashonrú. Bain triail eile as."
+    },
+    "form": {
+      "defaultHint": "Déan cur síos ar do cheist nó imní thíos.",
+      "subjectLabel": "Ábhar",
+      "subjectPlaceholder": "Achoimre ghairid ar do cheist",
+      "messageLabel": "Teachtaireacht",
+      "messagePlaceholder": "Déan cur síos go mion ar a bhfuil ag tarlú…",
+      "recipientsLabel": "Seol an imní seo chuig",
+      "cancel": "Cealaigh",
+      "submitting": "Á chur isteach…",
+      "submit": "Cuir Ticéad isteach"
+    },
+    "detail": {
+      "loading": "Ticéad á lódáil…",
+      "replyPlaceholder": "Scríobh freagra…",
+      "close": "Dún",
+      "sending": "Á sheoladh…",
+      "sendReply": "Seol Freagra"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Fáilte ar ais, {{name}}",
+    "openMenu": "Roghchlár a oscailt",
+    "closeMenu": "Dún an roghchlár",
+    "logout": "Logáil amach",
+    "search": "Cuardach",
+    "notifications": "Fógraí"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Deais",
+      "households": "Eolaire Teaghlaigh",
+      "meterReadings": "Léamha Méadair",
+      "billing": "Bainistíocht Billeála",
+      "bulkPurchases": "Mórcheannacháin",
+      "reports": "Tuarascálacha",
+      "waterLeakage": "Sceitheadh ​​Uisce",
+      "support": "Tacaíocht / Imní",
+      "tariffPlans": "Pleananna Taraife",
+      "announcements": "Fógraí",
+      "profile": "Próifíl"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Seo léargas ar do phobal."
+      },
+      "households": {
+        "title": "Eolaire Teaghlaigh",
+        "subtitle": "Cuir leis, nuashonraigh agus bainistigh na cónaitheoirí atá ina gcónaí i do phobal."
+      },
+      "meterReadings": {
+        "title": "Mol Léamh Méadar Uisce",
+        "subtitle": "Déan cuardach do chónaitheoir agus taifead a léamh méadair uisce."
+      },
+      "tariffPlans": {
+        "title": "Cumraíocht Taraife",
+        "subtitle": "Cumraigh teorainneacha ráta srathach, costais chomhlimistéar roinnte, agus modhanna dáileacháin do do phobal árasán."
+      },
+      "billing": {
+        "title": "Bainistíocht Billeála",
+        "subtitle": "Timthriallta billeála a oscailt, a thabhairt chun críche agus a chartlannú, agus athbhreithniú a dhéanamh ar shonraisc mhionsonraithe in aghaidh an teaghlaigh."
+      },
+      "bulkPurchases": {
+        "title": "Mórcheannacháin",
+        "subtitle": "Déan taifead ar sheachadtaí tancaer agus ar cheannacháin soláthair chathrach do do phobal."
+      },
+      "waterLeakage": {
+        "title": "Sceitheadh ​​Uisce",
+        "subtitle": "Cumraigh tairseacha agus foláirimh sceite asluiteach-bhunaithe, agus athbhreithnigh teaghlaigh faoi bhratacha."
+      },
+      "support": {
+        "title": "Tacaíocht / Imní",
+        "subtitle": "Ardaigh do thicéid féin chuig an Riarthóir Córais, nó láimhsigh imní a chuir do chónaitheoirí chugat."
+      },
+      "profile": {
+        "title": "Socruithe & Próifíl",
+        "subtitle": "Bainistigh do shonraí cuntais agus faisnéis árasán."
+      }
+    },
+    "fallbackName": "Riarachán",
+    "fallbackCommunity": "Riarachán Pobail",
+    "notBuilt": "{{label}} nach bhfuil tógtha fós",
+    "searchPlaceholder": "Cuardaigh rud ar bith…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Tuarascálacha",
+      "description": "Tomhaltas, billeáil, agus tuarascálacha caomhnaithe do do phobal."
+    },
+    "announcements": {
+      "title": "Fógraí",
+      "description": "Seol fógraí ar fud an phobail chuig do chónaitheoirí."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ag teacht go luath"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Deais",
+      "usageHistory": "Stair Úsáide",
+      "bills": "Mo Bhillí",
+      "recommendations": "Moltaí",
+      "reports": "Tuarascálacha",
+      "support": "Tacaíocht / Imní",
+      "notifications": "Fógraí",
+      "profile": "Próifíl"
+    },
+    "pages": {
+      "usageHistory": "Do stair úsáide",
+      "billing": "Billeáil & Sonraisc",
+      "notifications": "Fógraí",
+      "recommendations": "Moltaí",
+      "support": "Tacaíocht / Imní"
+    },
+    "defaultTitle": "Painéal Cónaitheach",
+    "navLabel": "Nascleanúint cónaitheoirí",
+    "fallbackName": "Cónaitheach",
+    "unit": "Aonad{{number}}",
+    "comingSoon": "{{label}} ag teacht go luath",
+    "profile": "Próifíl",
+    "searchPlaceholder": "Anailísíocht chuardaigh, billí…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Deais",
+      "communities": "Pobail",
+      "reports": "Tuarascálacha",
+      "supportTickets": "Ticéid Tacaíochta",
+      "systemStatus": "Stádas an Chórais"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Léiriú ar fud an ardáin thar gach pobal cláraithe."
+      },
+      "communities": {
+        "title": "Pobail",
+        "subtitle": "Gach riarthóir pobail cláraithe agus a bpobal, in aon áit amháin."
+      },
+      "reports": {
+        "title": "Tuarascálacha",
+        "subtitle": "Úsáid uisce ar fud an ardáin agus figiúirí billeála, de réir pobail agus de réir a chéile."
+      },
+      "supportTickets": {
+        "title": "Ticéid Tacaíochta",
+        "subtitle": "Ticéid tacaíochta agus imní ardaithe ag cónaitheoirí agus riarthóirí pobail, ar fud an ardáin."
+      },
+      "systemStatus": {
+        "title": "Stádas an Chórais",
+        "subtitle": "Nascacht inneall agus sláinte bhunúsach ama rite."
+      }
+    },
+    "fallbackName": "Riarachán Córais",
+    "platformOwner": "Úinéir Ardáin",
+    "searchPlaceholder": "Cuardaigh pobail…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Teanga: {{language}}",
+    "searchPlaceholder": "Cuardaigh teanga…",
+    "noMatches": "Gan aon chluichí"
+  }
+}

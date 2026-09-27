@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Tancar",
+    "signUpTitle": "Registreu la vostra comunitat",
+    "signInTitle": "Benvingut de nou",
+    "signUpSubtitle": "Creeu un compte d'administrador de la comunitat per començar a gestionar els residents i la facturació.",
+    "signInSubtitle": "Inicieu la sessió per veure el vostre ús d'aigua i la facturació."
+  },
+  "signIn": {
+    "errorFallback": "No es pot iniciar la sessió. Torna-ho a provar.",
+    "emailLabel": "Correu electrònic",
+    "passwordLabel": "Contrasenya",
+    "rememberMe": "Recorda'm",
+    "forgotPassword": "Heu oblidat la contrasenya?",
+    "submitting": "S'està iniciant la sessió...",
+    "submit": "Inicieu la sessió",
+    "noAccount": "No tens un compte?",
+    "signUpLink": "Registra't"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Les contrasenyes no coincideixen.",
+      "communityRequired": "El nom de la comunitat és obligatori.",
+      "termsRequired": "Accepteu les Condicions del servei i la Política de privadesa.",
+      "fallback": "No es pot crear el compte. Si us plau, torna-ho a provar."
+    },
+    "hint": "Només els administradors de la comunitat es registren aquí. Un cop hi siguis, afegiràs tu mateix les dades dels teus residents; no es registren sols.",
+    "fullNameLabel": "Nom complet",
+    "emailLabel": "Correu electrònic",
+    "phoneLabel": "Número de telèfon",
+    "communityNameLabel": "Nom de la comunitat",
+    "passwordLabel": "Contrasenya",
+    "confirmPasswordLabel": "Confirmeu la contrasenya",
+    "agreeTerms": "Accepto les <termsLink>Condicions del servei</termsLink> i la <privacyLink>Política de privadesa</privacyLink>",
+    "submitting": "S'està creant un compte...",
+    "submit": "Crea un compte d'administrador",
+    "haveAccount": "Ja tens un compte?",
+    "signInLink": "Inicia sessió"
+  },
+  "installPrompt": {
+    "title": "Instal·la HydroLedger",
+    "description": "Afegiu-lo a la vostra pantalla d'inici per accedir-hi ràpidament.",
+    "dismiss": "Descartar",
+    "install": "Instal·lar"
+  },
+  "setPassword": {
+    "title": "Establiu la vostra contrasenya",
+    "loading": "S'està carregant…",
+    "subtitle": "Hola {{name}}, tria una contrasenya per a {{email}} per activar el teu compte HydroLedger.",
+    "errors": {
+      "invalidLink": "Aquest enllaç no és vàlid o ha caducat.",
+      "tooShort": "La contrasenya ha de tenir com a mínim 8 caràcters.",
+      "mismatch": "Les contrasenyes no coincideixen.",
+      "fallback": "No s'ha pogut establir la vostra contrasenya. Si us plau, torna-ho a provar."
+    },
+    "passwordLabel": "Contrasenya",
+    "confirmPasswordLabel": "Confirmeu la contrasenya",
+    "submitting": "S'està configurant la contrasenya...",
+    "submit": "Estableix la contrasenya i inicia la sessió"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Pregunta pel teu compte",
+      "admin": "Auxiliar de comunitat",
+      "platform": "Assistent de plataforma",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Què és HydroLedger?",
+        "tieredBilling": "Com funciona la facturació per nivells?",
+        "leaks": "Com es detecten les fuites?"
+      },
+      "resident": {
+        "billEstimate": "Quina és la meva estimació de factura actual?",
+        "alerts": "Tinc alertes d'ús?",
+        "readings": "Mostra les meves lectures recents del comptador"
+      },
+      "admin": {
+        "households": "Quantes llars tenim?",
+        "billingCycles": "Enumereu els nostres cicles de facturació recents",
+        "tariff": "Quin és el nostre pla tarifari actual?"
+      },
+      "platform": {
+        "communities": "Llista totes les comunitats registrades",
+        "usageReport": "Mostra l'informe d'ús de la plataforma",
+        "systemStatus": "Quin és l'estat del sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Esteu enviant missatges massa ràpid; espereu un moment i torneu-ho a provar.",
+      "unavailable": "L'assistent no està disponible temporalment. Si us plau, torna-ho a provar en breu.",
+      "generic": "S'ha produït un error en enviar aquest missatge. Si us plau, torna-ho a provar."
+    },
+    "emptyHint": "Pregunteu-me qualsevol cosa: només puc veure les vostres dades.",
+    "closeAssistant": "Assistent proper",
+    "openAssistant": "Obre l'assistent",
+    "inputPlaceholder": "Escriu un missatge...",
+    "inputLabel": "Missatge",
+    "send": "Enviar"
+  },
+  "supportBoard": {
+    "defaultTitle": "Entrades de suport",
+    "defaultCreateLabel": "Aixecar una nova preocupació",
+    "status": {
+      "open": "Obert",
+      "inProgress": "En curs",
+      "resolved": "Solucionat",
+      "closed": "Tancat"
+    },
+    "tabs": {
+      "all": "Totes les entrades"
+    },
+    "recipients": {
+      "admin": "Administrador de la comunitat",
+      "systemAdmin": "Administrador del sistema",
+      "both": "Administrador de la comunitat + Administrador del sistema"
+    },
+    "roles": {
+      "resident": "Resident",
+      "admin": "Admin"
+    },
+    "toRecipients": "A: {{recipients}}",
+    "raisedByResident": "Criat pel resident {{name}}",
+    "raisedByAdmin": "Creat per l'administrador {{name}}",
+    "refresh": "Actualitza",
+    "stats": {
+      "openLabel": "Enviaments oberts",
+      "openHint": "A l'espera de revisió",
+      "inProgressLabel": "En curs",
+      "inProgressHint": "S'està treballant",
+      "resolvedLabel": "Solucionat",
+      "resolvedHint": "Tancat correctament"
+    },
+    "searchPlaceholder": "Cerca entrades per tema, número...",
+    "loadingTickets": "S'estan carregant les entrades...",
+    "empty": {
+      "title": "No s'han trobat entrades de suport",
+      "body": "Actualment no teniu cap sol·licitud d'assistència oberta o registrada que coincideixi amb aquest filtre.",
+      "cta": "Envieu una inquietud"
+    },
+    "errors": {
+      "loadList": "No s'han pogut carregar els bitllets d'assistència. Si us plau, torna-ho a provar.",
+      "loadDetail": "No s'ha pogut carregar aquest bitllet. Si us plau, torna-ho a provar.",
+      "required": "L'assumpte i el missatge són obligatoris.",
+      "recipientRequired": "Seleccioneu almenys un destinatari (administrador de la comunitat i/o administrador del sistema).",
+      "submitFallback": "No s'ha pogut enviar aquest bitllet. Si us plau, torna-ho a provar.",
+      "sendReply": "No s'ha pogut enviar aquest missatge. Si us plau, torna-ho a provar.",
+      "updateStatus": "No s'ha pogut actualitzar l'estat d'aquest bitllet. Si us plau, torna-ho a provar."
+    },
+    "form": {
+      "defaultHint": "Descriu el teu problema o preocupació a continuació.",
+      "subjectLabel": "Assumpte",
+      "subjectPlaceholder": "Breu resum del vostre problema",
+      "messageLabel": "Missatge",
+      "messagePlaceholder": "Descriu el que està passant en detall...",
+      "recipientsLabel": "Envieu aquesta preocupació a",
+      "cancel": "Cancel·la",
+      "submitting": "S'està enviant…",
+      "submit": "Envia el bitllet"
+    },
+    "detail": {
+      "loading": "S'està carregant el bitllet...",
+      "replyPlaceholder": "Escriu una resposta...",
+      "close": "Tancar",
+      "sending": "S'està enviant…",
+      "sendReply": "Envia la resposta"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Benvingut de nou, {{name}}",
+    "openMenu": "Obre el menú",
+    "closeMenu": "Tanca el menú",
+    "logout": "Tanca la sessió",
+    "search": "Cerca",
+    "notifications": "Notificacions"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Tauler de control",
+      "households": "Directori de llars",
+      "meterReadings": "Lectures de comptadors",
+      "billing": "Gestió de facturació",
+      "bulkPurchases": "Compres a granel",
+      "reports": "Informes",
+      "waterLeakage": "Fuga d'aigua",
+      "support": "Suport/Preocupacions",
+      "tariffPlans": "Plans Tarifaris",
+      "announcements": "Anuncis",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Aquí teniu una instantània de la vostra comunitat."
+      },
+      "households": {
+        "title": "Directori de llars",
+        "subtitle": "Afegiu, actualitzeu i gestioneu els residents que viuen a la vostra comunitat."
+      },
+      "meterReadings": {
+        "title": "Centre de lectura del comptador d'aigua",
+        "subtitle": "Busqueu un resident i registreu la lectura del seu comptador d'aigua."
+      },
+      "tariffPlans": {
+        "title": "Configuració de tarifes",
+        "subtitle": "Configureu límits de tarifes per nivells, costos compartits d'àrea comuna i mètodes de distribució per a la vostra comunitat d'apartaments."
+      },
+      "billing": {
+        "title": "Gestió de facturació",
+        "subtitle": "Obrir, finalitzar i arxivar cicles de facturació i revisar les factures detallades per llar."
+      },
+      "bulkPurchases": {
+        "title": "Compres a granel",
+        "subtitle": "Registra els lliuraments de camions cisterna i les compres de subministraments municipals per a la teva comunitat."
+      },
+      "waterLeakage": {
+        "title": "Fuga d'aigua",
+        "subtitle": "Configureu alertes de fuites basades en llindars i valors atípics i reviseu les llars marcades."
+      },
+      "support": {
+        "title": "Suport/Preocupacions",
+        "subtitle": "Recolliu les vostres pròpies entrades a l'administrador del sistema o gestioneu les preocupacions que els vostres residents us hagin dirigit."
+      },
+      "profile": {
+        "title": "Configuració i perfil",
+        "subtitle": "Gestioneu les dades del vostre compte i la informació de l'apartament."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Administrador de la comunitat",
+    "notBuilt": "{{label}} encara no està construït",
+    "searchPlaceholder": "Cerca qualsevol cosa..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Informes",
+      "description": "Informes de consum, facturació i conservació de la teva comunitat."
+    },
+    "announcements": {
+      "title": "Anuncis",
+      "description": "Envieu anuncis a tota la comunitat als vostres residents."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} arribarà aviat"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Tauler de control",
+      "usageHistory": "Historial d'ús",
+      "bills": "Els meus comptes",
+      "recommendations": "Recomanacions",
+      "reports": "Informes",
+      "support": "Suport/Preocupacions",
+      "notifications": "Notificacions",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "usageHistory": "El vostre historial d'ús",
+      "billing": "Facturació i factures",
+      "notifications": "Notificacions",
+      "recommendations": "Recomanacions",
+      "support": "Suport/Preocupacions"
+    },
+    "defaultTitle": "Tauler de control del resident",
+    "navLabel": "Navegació resident",
+    "fallbackName": "Resident",
+    "unit": "Unitat {{number}}",
+    "comingSoon": "{{label}} arribarà aviat",
+    "profile": "Perfil",
+    "searchPlaceholder": "Anàlisi de cerques, factures..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Tauler de control",
+      "communities": "Comunitats",
+      "reports": "Informes",
+      "supportTickets": "Entrades de suport",
+      "systemStatus": "Estat del sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Instantània de tota la plataforma a totes les comunitats registrades."
+      },
+      "communities": {
+        "title": "Comunitats",
+        "subtitle": "Tots els administradors de comunitats registrats i la seva comunitat, en un sol lloc."
+      },
+      "reports": {
+        "title": "Informes",
+        "subtitle": "Xifres de facturació i consum d'aigua a tota la plataforma, per comunitat i al llarg del temps."
+      },
+      "supportTickets": {
+        "title": "Entrades de suport",
+        "subtitle": "Ajudes de suport i preocupacions plantejades pels residents i els administradors de la comunitat, a tota la plataforma."
+      },
+      "systemStatus": {
+        "title": "Estat del sistema",
+        "subtitle": "Connectivitat backend i salut bàsica del temps d'execució."
+      }
+    },
+    "fallbackName": "Administrador del sistema",
+    "platformOwner": "Propietari de la plataforma",
+    "searchPlaceholder": "Cerca comunitats..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Idioma: {{language}}",
+    "searchPlaceholder": "Cerca l'idioma...",
+    "noMatches": "Sense coincidències"
+  }
+}

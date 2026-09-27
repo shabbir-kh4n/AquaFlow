@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "लोड তৌরি…",
+    "saving": "সেভ তৌরি…",
+    "saved": "সেভ তৌরে।",
+    "uploading": "আপলোড তৌরি…",
+    "upload": "আপলোড",
+    "uploadError": "ফাইল অসি আপলোড তৌবা ঙমদ্রে। অমুক হন্না হোৎনবিয়ু।",
+    "cancel": "কেন্সেল",
+    "close": "খোমজিনবিয়ু",
+    "edit": "এদিত",
+    "remove": "লোৎথোকউ",
+    "saveChanges": "চেঞ্জশিং সেভ তৌবিয়ু",
+    "bulkSummary": "<b>{{total}}</b> রো প্রোসেস তৌরে — <b>{{success}}</b> ফরে, <b>{{failure}}</b> লুপথোকখ্রে।",
+    "rowFailure": "রো {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "খংহৌবা {{from}}–{{to}} দগী {{total}}",
+    "prev": "← মমাং",
+    "next": "মথং →",
+    "page": "পেজ {{page}} দগী {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "হৌজিক্কী ওইনা মীয়ামগী দেতা লোড তৌবা ঙমদ্রে।",
+    "title": "{{community}} এপার্টমেন্ত ড্যাশবোর্ড",
+    "titleFallback": "মীয়ামগী এপার্টমেন্ত ড্যাশবোর্ড",
+    "subtitle": "অক অমা লেমজবগী অমসুং য়ুমথোং খুদিংমক্কী অসি য়েংশিনবগী অকপ ফম।",
+    "comingSoon": "থুংলক্লগনি",
+    "manageCommunity": "কমিউনিটি মেনেজ তৌবিয়ু",
+    "noUsageReadings": "হৌজিক ফাওবা রিদিং লৈতে।",
+    "cards": {
+      "totalHouseholds": "অপুনবা য়ুমথোং",
+      "occupied": "লৈরিবা",
+      "activeMeters": "হিংগৎলবা মীতর",
+      "reportingReadings": "রিদিং রিপোর্ত তৌরিবা",
+      "monthlyConsumption": "থু-থুগী কনজাম্পশন",
+      "thisCalendarMonth": "হৌজিক্কী থা অসি",
+      "latestRecordedMonth": "হৌজিক ওইনা রেকর্দ তৌবা থা ({{month}})",
+      "noReadingsYet": "হৌজিক ফাওবা রিদিং লৈতে",
+      "pendingAlerts": "পেন্দিং লৈরিবা এলার্ত",
+      "anomalyPreview": "অনোমালি দীতেক্সন প্রিভিয়ু — হৌজিক ফাওবা ফংদ্রি"
+    },
+    "actions": {
+      "label": "কুইক এদমিনিস্ত্রেতিভ একশন",
+      "uploadReadings": "মীতর রিদিং আপলোড তৌবিয়ু",
+      "configureTariffs": "তারিফ কনফিগ তৌবিয়ু",
+      "reportsNotBuilt": "রিপোর্ত অসি হৌজিক শেমদ্রি",
+      "downloadReports": "সিস্তেম রিপোর্ত দাউনলোদ তৌবিয়ু"
+    },
+    "chart": {
+      "title": "থু-থুগী কনজাম্পশন কম্পেরিসন (kL)",
+      "subtitle": "মমাংগী {{months}} থা: তার্গেত বনাম একচুয়েল কনজাম্পশন।",
+      "targetSeries": "তার্গেত (প্রিভিয়ু)",
+      "actualSeries": "একচুয়েল"
+    },
+    "recent": {
+      "title": "মমাংগী মীতর রিদিং",
+      "unit": "য়ুনিত",
+      "resident": "হায়বদি লৈরিবা",
+      "lastReading": "মমাংগী রিদিং",
+      "consumption": "কনজাম্পশন"
+    }
+  },
+  "households": {
+    "loadError": "Residents load touba ngamde. Halluk try tৌbiyu.",
+    "fixFields": "Highlighted oiba fields sing adu siirekpiyu.",
+    "saveError": "Resident asibu save touba ngamde. Details sing adu check toubiyu.",
+    "confirmRemove": "{{name}} yausina households directory dagi hauthokkadra?",
+    "removeError": "Resident asibu hauthokpa ngamde. Halluk try toubiyu.",
+    "count": "Households: {{total}}",
+    "bulkUploadButton": "⇪ Bulk Upload",
+    "addResidentButton": "+ Resident tanabiyu",
+    "searchPlaceholder": "Name, house, email, aduga meter no. da search toubiyu.",
+    "loading": "Residents load touri…",
+    "empty": "Resident amafaoba leitre. Haandokpa \"Add Resident\" da click toubiyu.",
+    "noMatch": "\"{{search}}\" ga pumnaba resident amafaoba leitre.",
+    "sort": {
+      "label": "Sort touba",
+      "name": "Nam",
+      "houseNumber": "House Number",
+      "dateOfJoining": "Joined date",
+      "toggleDirection": "Sort direction allhnbiyu",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Nupa",
+      "female": "Nupi",
+      "other": "Atoppa"
+    },
+    "table": {
+      "name": "Nam",
+      "houseUnit": "House / Unit",
+      "email": "Email",
+      "phone": "Phone",
+      "meterNumber": "Meter No.",
+      "sqft": "Sqft",
+      "joined": "Joined"
+    },
+    "form": {
+      "addTitle": "Resident tanabiyu",
+      "editTitle": "Resident edit toubiyu",
+      "editSubtitle": "Asina directory dagi resident gi details adu update touigani.",
+      "bypassSubtitle": "Nakhoi resident asigi password direct set toubire. Email tharoi.",
+      "addSubtitle": "Resident asina login activate touhanba set-password link ama email thagani.",
+      "fullName": "Name pummanamak",
+      "houseNumber": "House / unit no.",
+      "email": "Email",
+      "phone": "Phone number",
+      "meterNumber": "Meter number",
+      "governmentId": "Government ID",
+      "gender": "Gender",
+      "dateOfBirth": "Pokpa numit",
+      "dateOfJoining": "Joined date",
+      "flatSize": "Flat size (sq ft)",
+      "bypassLabel": "Set-password email bypass toubiyu — resident asigi password tangai phadana set toubiyu",
+      "password": "Password",
+      "confirmPassword": "Password khangba"
+    },
+    "validation": {
+      "fullNameRequired": "Name pummanamak kauhanba chade.",
+      "emailRequired": "Email kauhanba chade.",
+      "phoneRequired": "Phone number kauhanba chade.",
+      "houseNumberRequired": "House / unit number kauhanba chade.",
+      "houseNumberTaken": "House number asi atoppa resident ama da leire.",
+      "meterNumberRequired": "Meter number kauhanba chade.",
+      "meterNumberFormat": "Meter number asi MTR-1234 (digit 4) gi matung inba oigadabani.",
+      "meterNumberTaken": "Meter number asi atoppa resident ama da leire.",
+      "governmentIdRequired": "Government ID kauhanba chade.",
+      "governmentIdFormat": "ID asi 99 dagi houdokpa digit 6 oigadabani (ex: 991234).",
+      "genderRequired": "Gender ama selet toubiyu.",
+      "dateOfBirthRequired": "Pokpa numit kauhanba chade.",
+      "dateOfJoiningRequired": "Joined date kauhanba chade.",
+      "passwordRequired": "Password kauhanba chade.",
+      "passwordLength": "Password asi character 8 da mangadabani.",
+      "confirmPasswordRequired": "Password khangbibiyu.",
+      "passwordMismatch": "Password pumnak khangnaba natte."
+    },
+    "bulk": {
+      "title": "Bulk Upload Residents",
+      "noFile": ".csv ne .xlsx/.xls file ama selet toubiyu.",
+      "instructions": "<code>{{columns}}</code> (password amadi flatSizeSqft asikhi optional ni) column leiba .csv ne .xlsx/.xls file upload toubiyu. Password leiba row singdi direct set touigani; password leitrabadi resident tanabaga chaokhiba matumda set-password email thagani. Duplicate oiba house/meter number ne email sing adu reject touigani — row ama manglabasu batch pummana mapan thaoroi."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Residents load touba ngamdre. Halla hotnobi.",
+    "historyLoadError": "Reading history load touba ngamdre. Halla hotnobi.",
+    "successMessage": "{{house}} (Meter: {{meter}}) gi reading {{value}} kL haapchinnaba pangthokhre! Consumption: {{consumption}} kL.",
+    "tabs": {
+      "single": "Single Entry",
+      "csv": "Bulk CSV Upload",
+      "history": "Reading History"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Resident asigi meter number file da leite.",
+      "dateRequired": "Reading date chadei leite.",
+      "invalidValue": "Valid oiba asu positive oiba reading ama haapchinnaba.",
+      "duplicate": "Date asida meter asigi reading ama leirabani.",
+      "meterNotFound": "Meter asida phirakpada ngamde. Resident ama hanna selet toubi.",
+      "lowerThanPrevious": "Reading asi hanna record touba reading dagi nungaitana hek thagi.",
+      "recordFailed": "Reading asi record touba ngamdre. Halla hotnobi."
+    },
+    "combo": {
+      "label": "Flat & Meter Serial Selet Toubi",
+      "placeholder": "Flat & Meter Serial selet toubi…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Meter leite",
+      "searchPlaceholder": "Flat no, meter serial, resident thirubiro…",
+      "unitsHeader": "Residential Units",
+      "found": "Phirakpa Flats: {{total}}",
+      "loading": "Residents loading touri…",
+      "noMatch": "\"{{search}}\" gumbada resident ama pharake.",
+      "unassigned": "Unassigned",
+      "itemMeta": "{{name}} · Last: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Reading record touriba",
+      "context": "House {{house}} · Meter {{meter}}",
+      "changeResident": "Resident amuk hiloknaba",
+      "readingDate": "Reading date",
+      "readingValue": "Current Meter Reading (kL)",
+      "submit": "Validated Reading submit toubi",
+      "recentTitle": "Recent readings",
+      "recentEmpty": "Meter asigi reading ama record touba leite."
+    },
+    "info": {
+      "title": "Monotonic Meter Validation",
+      "body": "Reading khudingmak hanna leiramba reading dagi kuina hek thagi — asina consumption calculate touba matamda mapung faba oigani amadi digit amuk hanna yengbada nungaitaba leite."
+    },
+    "details": {
+      "title": "Selet touriba Unit Details",
+      "flatUnit": "Flat Unit",
+      "meterSerial": "Meter Serial",
+      "occupant": "Occupant Name",
+      "lastDial": "Last Recorded Dial",
+      "noReadings": "Reading leite",
+      "monthConsumption": "Month Consumption",
+      "empty": "Household ama selet touba leite. Resident ama thiraga details asi yengbi."
+    },
+    "csv": {
+      "noFile": "Upload toubagidamak CSV file ama selet toubi.",
+      "instructions": "<code>{{columns}}</code> columns leiba CSV ama upload toubi. Row khudingmak separte oina process touba oigani."
+    },
+    "history": {
+      "loading": "Readings loading touri…",
+      "empty": "Community asigi readings leite."
+    },
+    "table": {
+      "meterNumber": "Meter No.",
+      "date": "Date",
+      "value": "Value (kL)",
+      "consumption": "Consumption (kL)",
+      "source": "Source"
+    }
+  },
+  "billingCycles": {
+    "title": "Billing Cycles",
+    "loadError": "Billing cycles load touba ngamdre. Halla hotnobi.",
+    "paymentUpdateError": "Invoice asigi payment status update touba ngamdre.",
+    "pdfError": "PDF download touba ngamdre. Halla hotnobi.",
+    "finalizeError": "Billing cycle asi finalize touba ngamdre.",
+    "archiveError": "Billing cycle asi archive touba ngamdre.",
+    "loading": "Billing cycles loading touri…",
+    "empty": "Billing cycles leite. Start touba mathaida amak khangbi.",
+    "status": {
+      "open": "Open",
+      "finalized": "Finalized",
+      "archived": "Archived"
+    },
+    "open": {
+      "title": "Billing Cycle Ama Open Toubi",
+      "noMonth": "Open toubagidamak month ama selet toubi.",
+      "error": "Month adugi billing cycle open touba ngamdre.",
+      "monthAria": "Billing period month",
+      "opening": "Opening…",
+      "submit": "Cycle Open Toubi"
+    },
+    "table": {
+      "period": "Period",
+      "status": "Status",
+      "householdsBilled": "Households Billed",
+      "totalBilled": "Total Billed",
+      "actions": "Actions"
+    },
+    "actions": {
+      "finalize": "Finalize",
+      "finalizing": "Finalizing…",
+      "archive": "Archive",
+      "archiving": "Archiving…"
+    },
+    "filter": {
+      "aria": "Payment status gida filter toubi",
+      "all": "All"
+    },
+    "payment": {
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "updating": "Updating…",
+      "markPaid": "Mark as paid",
+      "markUnpaid": "Mark as unpaid"
+    },
+    "detail": {
+      "title": "Cycle Detail — {{period}}",
+      "loading": "Invoices loading touri…",
+      "notFinalized": "Cycle asi finalize touba leite — invoice generate touba leite.",
+      "noInvoices": "Cycle asigi invoices leite.",
+      "noMatch": "Filter asida check touba invoice leite."
+    },
+    "invoices": {
+      "household": "Household",
+      "resident": "Resident",
+      "meterNumber": "Meter No.",
+      "consumption": "Consumption (kL)",
+      "tierBreakdown": "Tier Breakdown",
+      "commonArea": "Common Area",
+      "total": "Total",
+      "paymentStatus": "Payment Status",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tariff configuration load touba ngamdre",
+    "saveError": "Tariff configuration save touba ngamdre",
+    "chartTitle": "Active Metered Utility Rate Tiers",
+    "axisNote": "Rate (₹/kL) da, slab limits (kL) da",
+    "tableTitle": "Pricing Tiers Table",
+    "defaultRatesNote": "Default rates takli — hetrine.",
+    "addTier": "+ Tier hap-u",
+    "saveRates": "Tariff Rates Save Tou-u",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Base)",
+      "medium": "Tier {{tier}} (Medium)",
+      "heavy": "Tier {{tier}} (Heavy)"
+    },
+    "basePrice": {
+      "label": "Base Price (₹ / kL, consumption pumba da apply tou-i)",
+      "note": "kL khudingmakta base rate asi leithok-i. Mathakki slab singse slab-ki limit-tagi henna chaba consumption-nagi khaktani."
+    },
+    "table": {
+      "tierLevel": "Tier Level",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate (kL da)",
+      "action": "Thabak"
+    },
+    "commonArea": {
+      "title": "Shared Common Area Cost Configuration",
+      "loadError": "Common-area cost configuration load touba ngamdre",
+      "saveError": "Common-area cost configuration save touba ngamdre",
+      "empty": "Cost item amafaoba save tou-khibade.",
+      "labelPlaceholder": "Cost item label",
+      "perMonth": "/ thak-ki",
+      "active": "Active",
+      "addItem": "+ Cost Item hap-u",
+      "save": "Common Area Configuration Save Tou-u"
+    },
+    "distribution": {
+      "title": "Cost Distribution Method Selector",
+      "consumption": "Consumption-gi matung-inna (Sub-metered)",
+      "floorArea": "Apartment Flat Size (Sqft) gi matung-inna"
+    },
+    "footer": {
+      "cycleStart": "Cycle Billing Start Date",
+      "cycleStartValue": "Thakhudingi 1-ni",
+      "autoInvoices": "Auto-Generate PDF Invoices"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Threshold henna chaba",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Active",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "config": {
+      "title": "Leak Detection Configuration",
+      "subtitle": "Monthly consumption threshold set tou-u amadi statistical outlier detection enable tou-u (mashingana anouba consumption-ga chadaba house-sing khangdoksani).",
+      "loadError": "Alert configuration load touba ngamdre. Halluk-u.",
+      "thresholdRequired": "Threshold alerts enable tou-raga monthly threshold (kL) amadi mathou tai.",
+      "saveError": "Configuration asi save touba ngamdre.",
+      "loading": "Configuration load tou-li…",
+      "threshold": "Monthly threshold (kL)",
+      "sensitivity": "Outlier sensitivity (σ multiplier)",
+      "enableThreshold": "Threshold alerts enable tou-u",
+      "enableOutlier": "Statistical outlier alerts enable tou-u",
+      "save": "Configuration Save Tou-u",
+      "running": "Run tou-li…",
+      "runNow": "Detection Nuna Run Tou-u"
+    },
+    "alerts": {
+      "title": "Flagged Households",
+      "loadError": "Alerts load touba ngamdre. Halluk-u.",
+      "runError": "Leak detection mathou touba ngamdre. Halluk-u.",
+      "updateError": "Alert asi update touba ngamdre. Halluk-u.",
+      "allStatuses": "All statuses",
+      "loading": "Alerts load tou-li…",
+      "empty": "Alert amafaoba leitre. Threshold config tou-u nattraga outlier detection enable tou-raga, \"Run Detection Now\" da click tou-u.",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss"
+    },
+    "table": {
+      "household": "Household",
+      "resident": "Resident",
+      "meter": "Meter",
+      "type": "Type",
+      "period": "Period",
+      "consumption": "Consumption",
+      "reference": "Reference",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Bulk water purchases load touba ngamdre. Halluk-u.",
+    "confirmRemove": "{{date}} dagi {{source}} delivery asi remove tou-gni haibra?",
+    "removeError": "Purchase asi remove touba ngamdre. Halluk-u.",
+    "count": "Record toukhiba purchases: {{total}}",
+    "recordButton": "+ Purchase Record Tou-u",
+    "loading": "Bulk water purchases load tou-li…",
+    "empty": "Bulk water purchase amafaoba record tou-khibade. Tanker nattraga municipal supply record tou-naba \"Record Purchase\" da click tou-u.",
+    "table": {
+      "date": "Date",
+      "source": "Source",
+      "volume": "Volume (L)",
+      "unitCost": "Unit Cost",
+      "totalCost": "Total Cost",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Bulk Water Purchase Record Tou-u",
+      "editTitle": "Bulk Water Purchase Edit Tou-u",
+      "subtitle": "Community-gi tanker delivery nattraga municipal supply record tou-u — asi cost khangnanaba khaktani, household invoice da kaiba leitre.",
+      "requiredFields": "Date, source, volume, amadi unit cost pijage.",
+      "saveError": "Purchase asi save touba ngamdre. Detail-sing check tou-u.",
+      "purchaseDate": "Purchase date",
+      "source": "Source / supplier",
+      "volume": "Volume (liters)",
+      "unitCost": "Unit cost (₹/liter)",
+      "totalPreview": "Total cost: {{amount}}",
+      "notes": "Notes (optional)",
+      "submit": "Purchase Record Tou-u"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ꯁꯦꯝꯕ ꯍꯧꯔꯤꯗ꯭ꯔꯤꯅꯤ",
+    "profileSaveError": "ꯅꯨꯡꯁꯤꯖꯕ ꯃꯤꯑꯣꯏꯒꯤ ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯁꯦꯚ ꯇꯧꯕ ꯉꯃꯗꯦ꯫ ꯑꯃꯨꯛ ꯍꯟꯅ ꯍꯣꯠꯅꯕꯤꯌꯨ꯫",
+    "apartmentSaveError": "ꯑꯦꯄꯥꯔꯇꯃꯦꯟꯇꯀꯤ ꯗꯤꯇꯦꯜꯁ ꯁꯦꯚ ꯇꯧꯕ ꯉꯃꯗꯦ꯫ ꯑꯃꯨꯛ ꯍꯟꯅ ꯍꯣꯠꯅꯕꯤꯌꯨ꯫",
+    "specsTitle": "ꯄ꯭ꯔꯣꯐꯥꯏꯜꯒꯤ ꯄ꯭ꯔꯇꯤꯀꯨꯂꯔꯁꯤꯡ",
+    "photoUnavailable": "ꯐꯣꯇꯣ ꯊꯥꯕ ꯉꯃꯗꯔꯤ꯫",
+    "changePhoto": "ꯐꯣꯇꯣ ꯍꯣꯡꯗꯣꯛꯄ",
+    "deletePhoto": "ꯇꯧꯊꯣꯛꯄ",
+    "photoHint": "JPG ꯅꯠꯇ꯭ꯔꯒ PNG꯫ ꯑꯦꯝꯑꯦꯜ ꯲ꯑꯦꯝꯕꯤ ꯐꯥꯑꯣꯕꯥ꯫",
+    "saveProfile": "ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯁꯦꯚ ꯇꯧꯕ",
+    "apartmentTitle": "ꯑꯦꯄꯥꯔꯇꯃꯦꯟꯇ ꯗꯤꯇꯦꯜꯁ",
+    "saveApartment": "ꯑꯦꯄꯥꯔꯇꯃꯦꯟꯇ ꯗꯤꯇꯦꯜꯁ ꯁꯦꯚ ꯇꯧꯕ",
+    "tabs": {
+      "profile": "ꯄ꯭ꯔꯣꯐꯥꯏꯜ ꯁꯦꯇꯤꯡꯁ",
+      "apartment": "ꯑꯦꯄꯥꯔꯇꯃꯦꯟꯇ ꯄ꯭ꯔꯣꯐꯥꯏꯜ",
+      "notifications": "ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯟ ꯔꯨꯂꯁ",
+      "billing": "ꯕꯤꯂꯤꯡ ꯏꯟꯇꯤꯒ꯭ꯔꯦꯁꯟꯁꯤꯡ",
+      "security": "ꯁꯤꯀ꯭ꯌꯨꯔꯤꯇꯤ ꯑꯃꯁꯨꯡ ꯑꯦꯛꯁꯦꯁ"
+    },
+    "fields": {
+      "fullName": "ꯃꯤꯡ ꯄꯨꯝꯅꯃꯛ",
+      "email": "ꯏꯃꯦꯜ ꯑꯦꯗ꯭ꯔꯦꯁ",
+      "emailLocked": "ꯏꯃꯦꯜ ꯑꯁꯤ ꯐꯤꯛꯁ ꯇꯧꯔꯀꯄꯅꯤ",
+      "phone": "ꯐꯣꯟ ꯅꯝꯕꯔ",
+      "accessLevel": "ꯑꯦꯛꯁꯦꯁ ꯂꯦꯚꯦꯜ",
+      "accessLevelValue": "ꯀꯃ꯭ꯌꯨꯅꯤꯇꯤ ꯑꯦꯗꯃꯤꯅꯤꯁ꯭ꯇ꯭ꯔꯦꯇꯔ",
+      "roleLocked": "ꯔꯣꯜ ꯃꯦꯅꯦꯖꯃꯦꯟꯇ ꯍꯧꯖꯤꯛ ꯑꯣꯟꯊꯣꯀꯄ ꯌꯥꯗꯦ",
+      "apartmentName": "ꯑꯦꯄꯥꯔꯇꯃꯦꯟꯇ ꯃꯤꯡ",
+      "mainsSource": "ꯃꯦꯏꯟꯁ ꯁꯣꯔꯁ",
+      "mainsSourcePlaceholder": "ꯄꯨꯝꯅꯃꯛ ꯃꯨꯅꯤꯁꯤꯄꯥꯜ ꯁꯄ꯭ꯂꯥꯏ + ꯇꯦꯉ꯭ꯀꯔꯁꯤꯡ",
+      "address": "ꯂꯩꯐꯝ ꯂꯣꯏꯁꯪꯒꯤ ꯑꯦꯗ꯭ꯔꯦꯁ"
+    },
+    "security": {
+      "title": "ꯁꯤꯀ꯭ꯌꯨꯔꯤꯇꯤ ꯑꯃꯁꯨꯡ ꯑꯦꯛꯁꯦꯁ ꯄ꯭ꯔꯤꯚꯤꯌꯨ",
+      "twoFactor": "ꯇꯨ-ꯐꯦꯛꯇꯔ ꯑꯊꯦꯟꯇꯤꯀꯦꯁꯟ",
+      "twoFactorHint": "ꯂꯣꯒ-ꯏꯟ ꯇꯧꯕꯗ ꯑꯣꯟ ꯇꯧꯔꯀꯏ",
+      "twoFactorUnavailable": "ꯇꯨ-ꯐꯦꯛꯇꯔ ꯑꯊꯦꯟꯇꯤꯀꯦꯁꯟ ꯐꯪꯗꯦ",
+      "twoFactorAria": "ꯇꯨ-ꯐꯦꯛꯇꯔ ꯑꯊꯦꯟꯇꯤꯀꯦꯁꯟ (ꯄ꯭ꯔꯤꯚꯤꯌꯨ ꯑꯣꯏꯅ)",
+      "sessionsLabel": "ꯑꯦꯛꯇꯤꯚ ꯑꯦꯗꯃꯤꯟ ꯁꯦꯁꯟꯁꯤꯡ",
+      "sessionsEmpty": "ꯁꯦꯁꯟ ꯇ꯭ꯔꯦꯀꯤꯡ ꯍꯧꯖꯤꯛ ꯐꯪꯗꯦ — ꯃꯁꯤ ꯃꯊꯪꯒꯤ ꯂꯦꯑꯥꯎꯇꯀꯤ ꯄ꯭ꯔꯤꯚꯤꯌꯨꯅꯤ꯫"
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "ꯀꯥꯏꯗꯅꯥ ꯊꯥꯈꯤꯕ ꯇꯤꯀꯦꯠꯁꯤꯡ",
+      "inbox": "ꯔꯦꯁꯤꯗꯦꯟꯇ ꯇꯤꯀꯦꯠꯁꯤꯡ"
+    },
+    "mine": {
+      "title": "ꯑꯩꯒꯤ ꯁꯄꯣꯔꯠ ꯇꯤꯀꯦꯠꯁꯤꯡ",
+      "subtitle": "ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯗꯃꯤꯟꯗ ꯀꯃ꯭ꯌꯨꯅꯤꯇꯤꯒꯤ ꯃꯇꯥꯡꯗ ꯋꯥꯍꯪ ꯍꯪꯕꯤꯌꯨ꯫",
+      "emptyCreateHint": "ꯀꯃ꯭ꯌꯨꯅꯤꯇꯤꯒꯤ ꯃꯇꯥꯡꯗ ꯋꯥꯍꯪ ꯍꯪꯕꯤꯌꯨ꯫ ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯗꯃꯤꯟꯅ ꯌꯦꯡꯁꯤꯟꯒꯅꯤ꯫"
+    },
+    "inbox": {
+      "title": "ꯔꯦꯁꯤꯗꯦꯟꯇ ꯇꯤꯀꯦꯠꯁꯤꯡ",
+      "subtitle": "ꯀꯃ꯭ꯌꯨꯅꯤꯇꯤꯗ ꯂꯩꯕ ꯃꯤꯌꯥꯝꯅ ꯍꯪꯂꯀꯄ ꯋꯥꯍꯪꯁꯤꯡ꯫"
+    }
+  }
+}

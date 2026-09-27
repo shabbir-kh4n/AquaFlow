@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "关闭",
+    "signUpTitle": "注册您的社区",
+    "signInTitle": "欢迎回来",
+    "signUpSubtitle": "创建社区管理员帐户以开始管理居民和计费。",
+    "signInSubtitle": "登录查看您的用水量和账单。"
+  },
+  "signIn": {
+    "errorFallback": "无法登录。请重试。",
+    "emailLabel": "电子邮件",
+    "passwordLabel": "密码",
+    "rememberMe": "记住账号",
+    "forgotPassword": "忘记密码？",
+    "submitting": "正在登录...",
+    "submit": "登入",
+    "noAccount": "没有帐户？",
+    "signUpLink": "报名"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "密码不匹配。",
+      "communityRequired": "社区名称为必填项。",
+      "termsRequired": "请同意服务条款和隐私政策。",
+      "fallback": "无法创建帐户。请再试一次。"
+    },
+    "hint": "只有社区管理员在这里注册。进入后，您将自行添加居民的详细信息 - 他们不会自行注册。",
+    "fullNameLabel": "姓名",
+    "emailLabel": "电子邮件",
+    "phoneLabel": "电话号码",
+    "communityNameLabel": "社区名称",
+    "passwordLabel": "密码",
+    "confirmPasswordLabel": "确认密码",
+    "agreeTerms": "我同意<termsLink>服务条款</termsLink>和<privacyLink>隐私政策</privacyLink>",
+    "submitting": "正在创建帐户...",
+    "submit": "创建管理员帐户",
+    "haveAccount": "已经有帐户？",
+    "signInLink": "登入"
+  },
+  "installPrompt": {
+    "title": "安装HydroLedger",
+    "description": "将其添加到主屏幕以便快速访问。",
+    "dismiss": "解雇",
+    "install": "安装"
+  },
+  "setPassword": {
+    "title": "设置您的密码",
+    "loading": "加载中…",
+    "subtitle": "{{name}} 您好，请为 {{email}} 选择一个密码来激活您的 HydroLedger 帐户。",
+    "errors": {
+      "invalidLink": "该链接无效或已过期。",
+      "tooShort": "密码必须至少为 8 个字符。",
+      "mismatch": "密码不匹配。",
+      "fallback": "无法设置您的密码。请再试一次。"
+    },
+    "passwordLabel": "密码",
+    "confirmPasswordLabel": "确认密码",
+    "submitting": "设置密码...",
+    "submit": "设置密码并登录"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger 助理",
+      "resident": "询问您的帐户",
+      "admin": "社区助理",
+      "platform": "平台助理",
+      "default": "助手"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger是什么？",
+        "tieredBilling": "分级计费如何运作？",
+        "leaks": "如何检测泄漏？"
+      },
+      "resident": {
+        "billEstimate": "我目前的账单预估是多少？",
+        "alerts": "我有任何使用提醒吗？",
+        "readings": "显示我最近的仪表读数"
+      },
+      "admin": {
+        "households": "我们有多少户人家？",
+        "billingCycles": "列出我们最近的计费周期",
+        "tariff": "我们目前的资费计划是什么？"
+      },
+      "platform": {
+        "communities": "列出所有已注册的社区",
+        "usageReport": "显示平台使用报告",
+        "systemStatus": "系统状态如何？"
+      }
+    },
+    "errors": {
+      "rateLimited": "您发送消息的速度太快 - 请稍等片刻，然后重试。",
+      "unavailable": "助理暂时无法使用。请稍后重试。",
+      "generic": "发送该消息时出了点问题。请再试一次。"
+    },
+    "emptyHint": "有什么问题都可以问我 - 我只能看到你自己的数据。",
+    "closeAssistant": "贴心助手",
+    "openAssistant": "打开助手",
+    "inputPlaceholder": "输入消息...",
+    "inputLabel": "信息",
+    "send": "发送"
+  },
+  "supportBoard": {
+    "defaultTitle": "支持票",
+    "defaultCreateLabel": "提出新的担忧",
+    "status": {
+      "open": "打开",
+      "inProgress": "进行中",
+      "resolved": "已解决",
+      "closed": "关闭"
+    },
+    "tabs": {
+      "all": "所有门票"
+    },
+    "recipients": {
+      "admin": "社区管理员",
+      "systemAdmin": "系统管理员",
+      "both": "社区管理员+系统管理员"
+    },
+    "roles": {
+      "resident": "居民",
+      "admin": "行政"
+    },
+    "toRecipients": "致：{{recipients}}",
+    "raisedByResident": "由居民提出{{name}}",
+    "raisedByAdmin": "由管理员提出 {{name}}",
+    "refresh": "刷新",
+    "stats": {
+      "openLabel": "开放提交",
+      "openHint": "等待审核",
+      "inProgressLabel": "进行中",
+      "inProgressHint": "正在处理中",
+      "resolvedLabel": "已解决",
+      "resolvedHint": "成功关闭"
+    },
+    "searchPlaceholder": "按主题、问题搜索门票...",
+    "loadingTickets": "正在加载门票...",
+    "empty": {
+      "title": "未找到支持票",
+      "body": "您当前没有与此过滤器匹配的未决或记录的支持请求。",
+      "cta": "提交问题"
+    },
+    "errors": {
+      "loadList": "无法加载支持票证。请再试一次。",
+      "loadDetail": "无法加载此票据。请再试一次。",
+      "required": "主题和消息都是必需的。",
+      "recipientRequired": "至少选择一名收件人（社区管理员和/或系统管理员）。",
+      "submitFallback": "无法提交此票证。请再试一次。",
+      "sendReply": "无法发送此消息。请再试一次。",
+      "updateStatus": "无法更新此票证状态。请再试一次。"
+    },
+    "form": {
+      "defaultHint": "请在下面描述您的问题或疑虑。",
+      "subjectLabel": "主题",
+      "subjectPlaceholder": "您的问题的简要摘要",
+      "messageLabel": "信息",
+      "messagePlaceholder": "详细描述发生了什么……",
+      "recipientsLabel": "将此问题发送至",
+      "cancel": "取消",
+      "submitting": "正在提交...",
+      "submit": "提交票据"
+    },
+    "detail": {
+      "loading": "正在加载票...",
+      "replyPlaceholder": "写回复...",
+      "close": "关闭",
+      "sending": "正在发送...",
+      "sendReply": "发送回复"
+    }
+  },
+  "shell": {
+    "welcomeBack": "欢迎回来，{{name}}",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "logout": "退出",
+    "search": "搜索",
+    "notifications": "通知"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "仪表板",
+      "households": "住户目录",
+      "meterReadings": "仪表读数",
+      "billing": "计费管理",
+      "bulkPurchases": "批量采购",
+      "reports": "报告",
+      "waterLeakage": "漏水",
+      "support": "支持/关注",
+      "tariffPlans": "资费计划",
+      "announcements": "公告",
+      "profile": "轮廓"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "这是您的社区的快照。"
+      },
+      "households": {
+        "title": "住户目录",
+        "subtitle": "添加、更新和管理居住在您社区中的居民。"
+      },
+      "meterReadings": {
+        "title": "水表读数中心",
+        "subtitle": "寻找居民并记录他们的水表读数。"
+      },
+      "tariffPlans": {
+        "title": "资费配置",
+        "subtitle": "为您的公寓社区配置分级费率限制、共享公共区域费用和分配方法。"
+      },
+      "billing": {
+        "title": "计费管理",
+        "subtitle": "打开、最终确定和存档计费周期，并查看每个家庭的明细发票。"
+      },
+      "bulkPurchases": {
+        "title": "批量采购",
+        "subtitle": "记录您所在社区的油轮交付情况和市政供应采购情况。"
+      },
+      "waterLeakage": {
+        "title": "漏水",
+        "subtitle": "配置阈值和基于异常值的泄漏警报，并审查标记的家庭。"
+      },
+      "support": {
+        "title": "支持/关注",
+        "subtitle": "向系统管理员提出您自己的票证，或处理您的居民向您提出的问题。"
+      },
+      "profile": {
+        "title": "设置和个人资料",
+        "subtitle": "管理您的帐户详细信息和公寓信息。"
+      }
+    },
+    "fallbackName": "行政",
+    "fallbackCommunity": "社区管理员",
+    "notBuilt": "{{label}} 尚未构建",
+    "searchPlaceholder": "搜索任何东西..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "报告",
+      "description": "您所在社区的消耗、计费和保护报告。"
+    },
+    "announcements": {
+      "title": "公告",
+      "description": "向您的居民发送社区范围的公告。"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} 即将推出"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "仪表板",
+      "usageHistory": "使用历史",
+      "bills": "我的账单",
+      "recommendations": "建议",
+      "reports": "报告",
+      "support": "支持/关注",
+      "notifications": "通知",
+      "profile": "轮廓"
+    },
+    "pages": {
+      "usageHistory": "您的使用历史记录",
+      "billing": "账单和发票",
+      "notifications": "通知",
+      "recommendations": "建议",
+      "support": "支持/关注"
+    },
+    "defaultTitle": "居民仪表板",
+    "navLabel": "驻地导航",
+    "fallbackName": "居民",
+    "unit": "单位{{number}}",
+    "comingSoon": "{{label}} 即将推出",
+    "profile": "轮廓",
+    "searchPlaceholder": "搜索分析、账单……"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "仪表板",
+      "communities": "社区",
+      "reports": "报告",
+      "supportTickets": "支持票",
+      "systemStatus": "系统状态"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "每个注册社区的平台范围快照。"
+      },
+      "communities": {
+        "title": "社区",
+        "subtitle": "每个注册的社区管理员及其社区都位于一个地方。"
+      },
+      "reports": {
+        "title": "报告",
+        "subtitle": "按社区和时间段划分的平台范围内的用水量和账单数据。"
+      },
+      "supportTickets": {
+        "title": "支持票",
+        "subtitle": "在整个平台范围内支持居民和社区管理员提出的票证和疑虑。"
+      },
+      "systemStatus": {
+        "title": "系统状态",
+        "subtitle": "后端连接和基本运行时健康状况。"
+      }
+    },
+    "fallbackName": "系统管理员",
+    "platformOwner": "平台拥有者",
+    "searchPlaceholder": "搜索社区..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "语言：{{language}}",
+    "searchPlaceholder": "搜索语言...",
+    "noMatches": "没有匹配项"
+  }
+}

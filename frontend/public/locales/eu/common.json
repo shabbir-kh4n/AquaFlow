@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Itxi",
+    "signUpTitle": "Erregistratu zure komunitatea",
+    "signInTitle": "Ongi etorri berriro",
+    "signUpSubtitle": "Sortu komunitateko administratzaile kontu bat egoiliarrak eta fakturazioa kudeatzen hasteko.",
+    "signInSubtitle": "Hasi saioa zure uraren erabilera eta fakturazioa ikusteko."
+  },
+  "signIn": {
+    "errorFallback": "Ezin da saioa hasi. Saiatu berriro.",
+    "emailLabel": "Posta elektronikoa",
+    "passwordLabel": "Pasahitza",
+    "rememberMe": "Gogoratu nirekin",
+    "forgotPassword": "Pasahitza ahaztu duzu?",
+    "submitting": "Saioa hasten…",
+    "submit": "Hasi saioa",
+    "noAccount": "Ez al duzu konturik?",
+    "signUpLink": "Izena eman"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Pasahitzak ez datoz bat.",
+      "communityRequired": "Komunitatearen izena beharrezkoa da.",
+      "termsRequired": "Mesedez, onartu Zerbitzu-baldintzak eta Pribatutasun-politika.",
+      "fallback": "Ezin da kontua sortu. Mesedez, saiatu berriro."
+    },
+    "hint": "Komunitatearen administratzaileak bakarrik erregistratzen dira hemen. Sartzen zarenean, zure bizilagunen datuak zuk zeuk gehituko dituzu; ez dute beren kabuz erregistratzen.",
+    "fullNameLabel": "Izen osoa",
+    "emailLabel": "Posta elektronikoa",
+    "phoneLabel": "Telefono zenbakia",
+    "communityNameLabel": "Komunitatearen izena",
+    "passwordLabel": "Pasahitza",
+    "confirmPasswordLabel": "Berretsi pasahitza",
+    "agreeTerms": "Onartzen ditut <termsLink>Zerbitzu-baldintzak</termsLink> eta <privacyLink>Pribatutasun-gidalerroak</privacyLink>",
+    "submitting": "Kontua sortzen…",
+    "submit": "Sortu administratzaile kontua",
+    "haveAccount": "Kontu bat al duzu dagoeneko?",
+    "signInLink": "Hasi saioa"
+  },
+  "installPrompt": {
+    "title": "Instalatu HydroLedger",
+    "description": "Gehitu zure hasierako pantailan atzitzeko.",
+    "dismiss": "Baztertu",
+    "install": "Instalatu"
+  },
+  "setPassword": {
+    "title": "Ezarri zure pasahitza",
+    "loading": "Kargatzen…",
+    "subtitle": "Kaixo {{name}}, aukeratu {{email}}-ren pasahitza zure HydroLedger kontua aktibatzeko.",
+    "errors": {
+      "invalidLink": "Esteka hau baliogabea da edo iraungi egin da.",
+      "tooShort": "Pasahitzak 8 karaktere izan behar ditu gutxienez.",
+      "mismatch": "Pasahitzak ez datoz bat.",
+      "fallback": "Ezin izan da pasahitza ezarri. Mesedez, saiatu berriro."
+    },
+    "passwordLabel": "Pasahitza",
+    "confirmPasswordLabel": "Berretsi pasahitza",
+    "submitting": "Pasahitza ezartzen…",
+    "submit": "Ezarri pasahitza eta hasi saioa"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Laguntzailea",
+      "resident": "Galdetu zure kontuari buruz",
+      "admin": "Komunitateko Laguntzailea",
+      "platform": "Plataforma laguntzailea",
+      "default": "Laguntzailea"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Zer da HydroLedger?",
+        "tieredBilling": "Nola funtzionatzen du mailakako fakturazioak?",
+        "leaks": "Nola detektatzen dira ihesak?"
+      },
+      "resident": {
+        "billEstimate": "Zein da nire uneko fakturaren estimazioa?",
+        "alerts": "Ba al dut erabilera-abisurik?",
+        "readings": "Erakutsi nire azken neurgailuen irakurketak"
+      },
+      "admin": {
+        "households": "Zenbat etxe ditugu?",
+        "billingCycles": "Zerrendatu gure azken fakturazio-zikloak",
+        "tariff": "Zein da gure egungo tarifa plana?"
+      },
+      "platform": {
+        "communities": "Erregistratutako komunitate guztiak zerrendatu",
+        "usageReport": "Erakutsi plataformaren erabilera-txostena",
+        "systemStatus": "Zein da sistemaren egoera?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mezuak azkarregi bidaltzen ari zara. Itxaron une bat eta saiatu berriro.",
+      "unavailable": "Laguntzailea ez dago aldi baterako erabilgarri. Mesedez, saiatu berriro laster.",
+      "generic": "Arazoren bat izan da mezu hori bidaltzean. Mesedez, saiatu berriro."
+    },
+    "emptyHint": "Galde iezadazu edozer - zure datuak bakarrik ikus ditzaket.",
+    "closeAssistant": "Hurbil laguntzailea",
+    "openAssistant": "Ireki laguntzailea",
+    "inputPlaceholder": "Idatzi mezu bat…",
+    "inputLabel": "Mezua",
+    "send": "Bidali"
+  },
+  "supportBoard": {
+    "defaultTitle": "Laguntza Sarrerak",
+    "defaultCreateLabel": "Kezka Berria Piztea",
+    "status": {
+      "open": "Ireki",
+      "inProgress": "Eraikitzen",
+      "resolved": "Ebatzita",
+      "closed": "Itxita"
+    },
+    "tabs": {
+      "all": "Sarrera guztiak"
+    },
+    "recipients": {
+      "admin": "Komunitateko administratzailea",
+      "systemAdmin": "Sistemako administratzailea",
+      "both": "Komunitatearen administratzailea + Sistemaren administratzailea"
+    },
+    "roles": {
+      "resident": "Egoiliarra",
+      "admin": "Admin"
+    },
+    "toRecipients": "Nori: {{recipients}}",
+    "raisedByResident": "{{name}} egoiliarrak sortua",
+    "raisedByAdmin": "{{name}} administratzaileak sortua",
+    "refresh": "Freskatu",
+    "stats": {
+      "openLabel": "Ireki Bidalketak",
+      "openHint": "Berrikuspenaren zain",
+      "inProgressLabel": "Eraikitzen",
+      "inProgressHint": "Landua izatea",
+      "resolvedLabel": "Ebatzita",
+      "resolvedHint": "Behar bezala itxi da"
+    },
+    "searchPlaceholder": "Bilatu sarrerak gaiaren, alearen arabera...",
+    "loadingTickets": "Sarrerak kargatzen…",
+    "empty": {
+      "title": "Ez da laguntza-txartelik aurkitu",
+      "body": "Une honetan ez duzu iragazki honekin bat datorren laguntza eskaerarik irekita edo erregistratuta.",
+      "cta": "Bidali kezka bat"
+    },
+    "errors": {
+      "loadList": "Ezin izan dira kargatu laguntza-txartelak. Mesedez, saiatu berriro.",
+      "loadDetail": "Ezin izan da txartela kargatu. Mesedez, saiatu berriro.",
+      "required": "Gaia eta mezua beharrezkoak dira.",
+      "recipientRequired": "Hautatu gutxienez hartzaile bat (Komunitate-administratzailea eta/edo Sistema-administratzailea).",
+      "submitFallback": "Ezin izan da txartel hau bidali. Mesedez, saiatu berriro.",
+      "sendReply": "Ezin izan da mezu hau bidali. Mesedez, saiatu berriro.",
+      "updateStatus": "Ezin izan da txartelaren egoera eguneratu. Mesedez, saiatu berriro."
+    },
+    "form": {
+      "defaultHint": "Deskribatu zure arazoa edo kezka behean.",
+      "subjectLabel": "Gaia",
+      "subjectPlaceholder": "Zure arazoaren laburpen laburra",
+      "messageLabel": "Mezua",
+      "messagePlaceholder": "Deskribatu zehatz-mehatz gertatzen ari dena...",
+      "recipientsLabel": "Bidali kezka hau hona",
+      "cancel": "Utzi",
+      "submitting": "Bidaltzen…",
+      "submit": "Bidali Txartela"
+    },
+    "detail": {
+      "loading": "Tiketa kargatzen…",
+      "replyPlaceholder": "Idatzi erantzuna…",
+      "close": "Itxi",
+      "sending": "Bidaltzen…",
+      "sendReply": "Bidali erantzuna"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Ongi etorri berriro, {{name}}",
+    "openMenu": "Ireki menua",
+    "closeMenu": "Itxi menua",
+    "logout": "Amaitu saioa",
+    "search": "Bilatu",
+    "notifications": "Jakinarazpenak"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Aginte-panela",
+      "households": "Etxeen direktorioa",
+      "meterReadings": "Kontagailuen irakurketak",
+      "billing": "Fakturazio Kudeaketa",
+      "bulkPurchases": "Multzoko Erosketak",
+      "reports": "Txostenak",
+      "waterLeakage": "Ur-ihesak",
+      "support": "Laguntza / Kezkak",
+      "tariffPlans": "Tarifa Planak",
+      "announcements": "Iragarkiak",
+      "profile": "Profila"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hona hemen zure komunitatearen argazki bat."
+      },
+      "households": {
+        "title": "Etxeen direktorioa",
+        "subtitle": "Gehitu, eguneratu eta kudeatu zure komunitatean bizi diren bizilagunak."
+      },
+      "meterReadings": {
+        "title": "Ur-kontagailuen irakurketen gunea",
+        "subtitle": "Bilatu bizilagun bat eta erregistratu bere ur-kontagailuaren irakurketa."
+      },
+      "tariffPlans": {
+        "title": "Tarifaren konfigurazioa",
+        "subtitle": "Konfiguratu mailakako tarifa-mugak, partekatutako eremu komuneko kostuak eta banaketa-metodoak zure apartamentu komunitaterako."
+      },
+      "billing": {
+        "title": "Fakturazio Kudeaketa",
+        "subtitle": "Ireki, amaitu eta artxibatu fakturazio-zikloak, eta berrikusi etxe bakoitzeko fakturak."
+      },
+      "bulkPurchases": {
+        "title": "Multzoko Erosketak",
+        "subtitle": "Erregistratu zisterna bidalketak eta udal hornidura-erosketak zure komunitaterako."
+      },
+      "waterLeakage": {
+        "title": "Ur-ihesak",
+        "subtitle": "Konfiguratu atalaseetan eta kanpoan oinarritutako ihesen alertak eta berrikusi markatutako etxeak."
+      },
+      "support": {
+        "title": "Laguntza / Kezkak",
+        "subtitle": "Altxatu zure txartelak Sistemaren administratzaileari edo kudeatu zure egoiliarrek zuri zuzendutako kezkak."
+      },
+      "profile": {
+        "title": "Ezarpenak eta profila",
+        "subtitle": "Kudeatu zure kontuaren xehetasunak eta apartamentuaren informazioa."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Komunitateko administratzailea",
+    "notBuilt": "{{label}} oraindik ez dago eraikita",
+    "searchPlaceholder": "Bilatu ezer..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Txostenak",
+      "description": "Zure komunitaterako kontsumo, fakturazio eta kontserbazio txostenak."
+    },
+    "announcements": {
+      "title": "Iragarkiak",
+      "description": "Bidali komunitate osorako iragarkiak zure bizilagunei."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} laster etorriko da"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Aginte-panela",
+      "usageHistory": "Erabilera Historia",
+      "bills": "Nire fakturak",
+      "recommendations": "Gomendioak",
+      "reports": "Txostenak",
+      "support": "Laguntza / Kezkak",
+      "notifications": "Jakinarazpenak",
+      "profile": "Profila"
+    },
+    "pages": {
+      "usageHistory": "Zure erabilera-historia",
+      "billing": "Fakturak eta fakturak",
+      "notifications": "Jakinarazpenak",
+      "recommendations": "Gomendioak",
+      "support": "Laguntza / Kezkak"
+    },
+    "defaultTitle": "Egoiliarren Arbela",
+    "navLabel": "Egoiliarren nabigazioa",
+    "fallbackName": "Egoiliarra",
+    "unit": "{{number}} unitatea",
+    "comingSoon": "{{label}} laster etorriko da",
+    "profile": "Profila",
+    "searchPlaceholder": "Bilatu analitikak, fakturak..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Aginte-panela",
+      "communities": "Komunitateak",
+      "reports": "Txostenak",
+      "supportTickets": "Laguntza Sarrerak",
+      "systemStatus": "Sistemaren egoera"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Plataforma osorako argazkia erregistratutako komunitate guztietan."
+      },
+      "communities": {
+        "title": "Komunitateak",
+        "subtitle": "Erregistratutako komunitateko administratzaile bakoitza eta bere komunitatea, leku bakarrean."
+      },
+      "reports": {
+        "title": "Txostenak",
+        "subtitle": "Plataforma osoan uraren erabilera eta fakturazio zifrak, komunitatearen arabera eta denboran zehar."
+      },
+      "supportTickets": {
+        "title": "Laguntza Sarrerak",
+        "subtitle": "Laguntza-txartelak eta bizilagunek eta komunitateko administratzaileek planteatutako kezkak, plataforma osoan."
+      },
+      "systemStatus": {
+        "title": "Sistemaren egoera",
+        "subtitle": "Backend konektibitatea eta oinarrizko exekuzio-denboraren osasuna."
+      }
+    },
+    "fallbackName": "Sistemako administratzailea",
+    "platformOwner": "Plataformaren jabea",
+    "searchPlaceholder": "Bilatu komunitateak..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Hizkuntza: {{language}}",
+    "searchPlaceholder": "Bilatu hizkuntza…",
+    "noMatches": "Partidurik ez"
+  }
+}

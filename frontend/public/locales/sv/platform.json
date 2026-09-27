@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "blocked": "Blockerad",
+    "terminated": "Avslutad"
+  },
+  "sort": {
+    "sortBy": "Sortera efter",
+    "toggleDirection": "Växla sorteringsriktning",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Visar {{from}}–{{to}} av {{total}}",
+    "prev": "← Föreg",
+    "next": "Nästa →",
+    "page": "Sida {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Plattformsöversikt",
+    "subtitle": "Varje registrerad community-administratör, över hela HydroLedger-plattformen.",
+    "viewAll": "Visa alla grupper",
+    "loadError": "Det gick inte att ladda plattformsdata just nu.",
+    "cards": {
+      "totalCommunities": "Totala gemenskaper",
+      "registeredAdmins": "Registrerade administratörer",
+      "totalResidents": "Totalt invånare",
+      "acrossAllCommunities": "I alla samhällen",
+      "active": "Aktiv",
+      "inGoodStanding": "I god ställning",
+      "blockedTerminated": "Blockerad / avslutad",
+      "blockedTerminatedBreakdown": "{{blocked}} blockerad, {{terminated}} avslutad"
+    },
+    "recent": {
+      "title": "Nyligen registrerade gemenskaper",
+      "loading": "Belastning…",
+      "empty": "Inga grupper har registrerats än.",
+      "table": {
+        "community": "Gemenskap",
+        "admin": "Administration",
+        "status": "Status",
+        "residents": "Invånare"
+      }
+    }
+  },
+  "communities": {
+    "count": "Grupper: {{count}}",
+    "loadError": "Det gick inte att läsa in grupper. Försök igen.",
+    "searchPlaceholder": "Filtrera efter community, administratörsnamn eller e-postadress",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Alla"
+    },
+    "sortOptions": {
+      "community": "Gemenskap",
+      "admin": "Administration",
+      "residents": "Invånare"
+    },
+    "loading": "Läser in grupper...",
+    "empty": "Inga grupper har registrerats än.",
+    "noMatch": "Inga grupper matchar dina filter.",
+    "table": {
+      "community": "Gemenskap",
+      "admin": "Administration",
+      "email": "E-post",
+      "status": "Status",
+      "residents": "Invånare",
+      "view": "Se"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Det gick inte att ladda denna grupp. Det kan ha tagits bort.",
+    "statusUpdateError": "Det gick inte att uppdatera denna grupps status.",
+    "deleteError": "Det gick inte att ta bort den här gruppen.",
+    "loading": "Läser in grupp...",
+    "notFound": "Gruppen hittades inte.",
+    "backLink": "← Tillbaka till Gemenskaper",
+    "backLinkShort": "Tillbaka till gemenskaper",
+    "eyebrow": "Gemenskapsprofil",
+    "unnamed": "Namnlös gemenskap",
+    "noAddress": "Ingen adress i filen",
+    "stats": {
+      "residents": "Invånare",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Återaktivera",
+      "block": "Blockera",
+      "terminate": "Avsluta",
+      "delete": "Ta bort grupp"
+    },
+    "blockDialog": {
+      "title": "Blockera denna gruppadministratör?",
+      "message": "Blockera {{name}}? De kommer inte att kunna logga in förrän de har avblockerats. Inga uppgifter kommer att påverkas.",
+      "confirm": "Blockera"
+    },
+    "terminateDialog": {
+      "title": "Vill du avsluta denna gruppadministratör?",
+      "message": "Vill du avsluta {{name}}s åtkomst permanent? Detta kan inte ångras, även om deras communitys data kommer att sparas för register.",
+      "confirm": "Avsluta"
+    },
+    "deleteDialog": {
+      "title": "Vill du ta bort den här gruppen?",
+      "message": "Detta kommer att permanent radera <strong>{{name}}</strong> och alla dess hushåll, invånare, mätare, tariff-/faktureringskonfiguration och fakturahistorik. Denna åtgärd kan inte ångras.",
+      "typeToConfirm": "Skriv <strong>{{word}}</strong> för att fortsätta",
+      "confirm": "Bekräfta"
+    },
+    "residents": {
+      "title": "Invånare",
+      "registeredCount": "Registrerad: {{count}}",
+      "empty": "Inga invånare har registrerats i denna grupp ännu.",
+      "table": {
+        "flatUnit": "Platt enhet",
+        "meter": "Meter",
+        "resident": "Bosatt",
+        "email": "E-post",
+        "passwordSet": "Lösenordsuppsättning"
+      },
+      "yes": "Ja",
+      "no": "Inga"
+    },
+    "cancel": "Avboka",
+    "working": "Arbetssätt…",
+    "deleting": "Tar bort..."
+  },
+  "systemStatus": {
+    "statusError": "Det gick inte att nå backend för att kontrollera systemstatus.",
+    "metricsError": "Det gick inte att läsa in statistikhistorik.",
+    "ranges": {
+      "fiveMinutes": "5 minuter",
+      "fifteenMinutes": "15 minuter",
+      "hour": "Timme",
+      "day": "Dag",
+      "week": "Vecka",
+      "month": "Månad",
+      "threeMonths": "3 månader"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Begäran/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latens",
+      "lastValue": "{{value}} sist",
+      "loading": "Belastning…",
+      "empty": "Inga mätvärden har registrerats för det här intervallet ännu."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Genomsnittlig: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Senaste: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Kontroll…",
+      "reachable": "Kan nås",
+      "unreachable": "Otillgänglig",
+      "connected": "Ansluten",
+      "backendApiHint": "Den här sidan laddades från backend, så den svarade.",
+      "database": "Databas",
+      "databaseHint": "PostgreSQL-anslutning, kontrolleras live.",
+      "uptime": "Upptid för backend",
+      "uptimeHint": "Sedan den senaste omstarten av programmet.",
+      "appVersion": "Appversion",
+      "appVersionHint": "Backend-version."
+    },
+    "mini": {
+      "latency": "Latens",
+      "readsLatency": "Läser latens",
+      "writesLatency": "Skriver Latency",
+      "otherLatency": "Annan latens",
+      "connections": "Anslutningar",
+      "totalKeys": "Totalt nycklar"
+    },
+    "note": "Begäranden/sek och latens samplas från live backend-trafik var 15:e sekund och sparas i upp till 100 dagar. Detta är en grundläggande anslutning + trafikkontroll — den ersätter inte fullständig övervakning av applikationsprestanda, loggaggregation eller varning."
+  },
+  "reports": {
+    "loadError": "Det gick inte att läsa in plattformsrapporten.",
+    "ranges": {
+      "threeMonths": "3 månader",
+      "sixMonths": "6 månader",
+      "twelveMonths": "12 månader",
+      "custom": "Beställnings"
+    },
+    "sortOptions": {
+      "community": "Gemenskap",
+      "usage": "Användande",
+      "billed": "Fakturerad",
+      "residents": "Invånare"
+    },
+    "customRange": {
+      "from": "Från",
+      "to": "Till",
+      "hint": "Välj både \"från\" och \"till\" månad för att ladda en anpassad rapport."
+    },
+    "loading": "Läser in rapport...",
+    "cards": {
+      "totalCommunities": "Totala gemenskaper",
+      "inThisRange": "I detta intervall",
+      "totalResidents": "Totalt invånare",
+      "acrossAllCommunities": "I alla samhällen",
+      "overallUsage": "Övergripande användning",
+      "meteredConsumption": "Uppmätt förbrukning",
+      "overallBilled": "Totalt fakturerat",
+      "finalizedInvoicesOnly": "Endast färdigställda fakturor",
+      "avgUsagePerResident": "Genomsnittlig användning / invånare",
+      "avgBillPerResident": "Genomsnittlig faktura / invånare"
+    },
+    "charts": {
+      "usageTitle": "Plattformsomfattande användning (kL/månad)",
+      "usageEmpty": "Ingen användning registrerad för detta intervall.",
+      "usageSeries": "Användande",
+      "billedTitle": "Fakturerat belopp för hela plattformen (₹/månad)",
+      "billedEmpty": "Inga fakturor har slutförts för detta intervall.",
+      "billedSeries": "Fakturerad"
+    },
+    "searchPlaceholder": "Filtrera efter grupp- eller administratörsnamn",
+    "empty": "Inga grupper har användnings- eller faktureringsdata för det här intervallet ännu.",
+    "noMatch": "Inga grupper matchar ditt filter.",
+    "table": {
+      "community": "Gemenskap",
+      "admin": "Administration",
+      "residents": "Invånare",
+      "usage": "Användning (kL)",
+      "billed": "Fakturerad (₹)",
+      "avgUsagePerResident": "Genomsnittlig användning / invånare",
+      "avgBillPerResident": "Genomsnittlig räkning / invånare"
+    }
+  },
+  "supportTickets": {
+    "title": "Supportbiljetter",
+    "subtitle": "Stöd biljetter och problem som tagits upp av invånare och community-administratörer, över hela plattformen."
+  }
+}

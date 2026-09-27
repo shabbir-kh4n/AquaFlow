@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "近日公開",
+    "welcome": {
+      "greeting": "こんにちは {{name}} さん",
+      "greetingFallback": "こんにちは、",
+      "title": "あなたのお家の水の物語に寄り添ってください。",
+      "subtitle": "コミュニティが測定値を記録すると、使用状況と請求に関する分析情報がここに表示されます。",
+      "viewBadges": "エコバッジを見る"
+    },
+    "stats": {
+      "todaysUsage": "今日の使い方",
+      "asOf": "{{date}}現在",
+      "noReading": "まだ検針がありません",
+      "monthlyTotalFor": "月別合計 ({{month}})",
+      "monthlyTotalThisMonth": "月間合計（今月）",
+      "sumOfReadings": "記録された測定値の合計",
+      "estimatedBill": "現在の推定請求額",
+      "estimatedBillFor": "従量制使用量 + 共有料金、{{month}}",
+      "estimatedBillHint": "今月の従量課金と共用料金に基づく",
+      "savings": "節約と建物の平均",
+      "savingsValue": "{{percent}}% 減少",
+      "savingsPreview": "プレビューのみ - 比較はまだ公開されていません"
+    },
+    "consumption": {
+      "eyebrow": "消費",
+      "title": "1 日あたりの消費量 (過去 14 回の測定値)",
+      "seriesName": "消費",
+      "empty": "まだ測定値は記録されていません。"
+    },
+    "breakdown": {
+      "eyebrow": "壊す",
+      "title": "使用量の内訳",
+      "bathroom": "バスルーム",
+      "kitchen": "台所",
+      "garden": "庭・バルコニー",
+      "other": "その他/ランドリー"
+    },
+    "billing": {
+      "eyebrow": "請求する",
+      "title": "有効な請求サイクル",
+      "finalized": "確定済み",
+      "preview": "プレビュー",
+      "meteredConsumption": "従量制消費量",
+      "tierPriceLevel": "階層価格レベル",
+      "tierLabel": "層 {{tier}}",
+      "commonArea": "共用部の配分",
+      "commonAreaPreview": "共用エリアの割り当て（プレビュー）",
+      "invoiceTotal": "{{period}} 請求書の合計",
+      "estimatedCharge": "現在の推定料金",
+      "commonAreaBreakdown": "共用部の内訳",
+      "payPreview": "支払い請求書のプレビュー",
+      "payUnavailable": "課金エンジンはまだ利用できません"
+    },
+    "tips": {
+      "eyebrow": "ヒント",
+      "title": "賢い節約のヒント",
+      "viewAll": "すべて見る",
+      "empty": "コミュニティが請求サイクルを完了すると、パーソナライズされたヒントがここに表示されます。"
+    },
+    "community": "コミュニティ: {{name}}"
+  },
+  "usage": {
+    "loadError": "利用履歴を読み込めませんでした。もう一度試してください。",
+    "loading": "使用状況分析を読み込んでいます…",
+    "empty": "まだ測定値は記録されていません。コミュニティがメーターの測定値を記録すると、ここに表示されます。",
+    "tabs": {
+      "lastSixMonths": "過去 6 か月",
+      "customRange": "カスタム範囲",
+      "comingSoon": "近日公開"
+    },
+    "peakDay": "ピーク日:",
+    "lowestDay": "最低日:",
+    "comparison": {
+      "title": "世帯消費量とアパート平均消費量の比較",
+      "subtitle": "月ごとの合計はキロリットル (kL) で表示されます。",
+      "yourHousehold": "あなたの世帯",
+      "apartmentAverage": "アパートの平均",
+      "similarSized": "似たような大きさの家"
+    },
+    "heatmap": {
+      "title": "1 日あたりの消費量のヒートマップ",
+      "subtitle": "色の濃さは使用量が多い日を示します (プレビュー)。"
+    },
+    "ranking": {
+      "title": "コミュニティピアランキング",
+      "subtitle": "同様のユニットと比較したあなたのランク (プレビュー)。",
+      "ecoSaver": "アクティブエコセーバー",
+      "aptNumber": "適切な {{number}}",
+      "unitNumber": "ユニット{{number}}",
+      "yourUnit": "あなたのユニット",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (あなた)"
+    }
+  },
+  "billing": {
+    "loadError": "請求履歴を読み込めませんでした。もう一度試してください。",
+    "pdfError": "PDF をダウンロードできませんでした。もう一度試してください。",
+    "loading": "請求履歴を読み込んでいます…",
+    "empty": "まだ請求書はありません。コミュニティが請求サイクルを完了すると、請求書がここに表示されます。",
+    "status": {
+      "paid": "有料",
+      "unpaid": "未払い"
+    },
+    "summary": {
+      "outstandingBalance": "残高",
+      "billingCycle": "請求サイクル: {{period}}",
+      "allPaid": "すべての請求書は支払われています",
+      "payTotal": "未払い総額の支払い",
+      "payTotalUnavailable": "オンライン支払いはまだ利用できません - コミュニティ管理者と直接請求を決済してください",
+      "downloadSummary": "請求書の概要をダウンロード",
+      "downloadSummaryUnavailable": "請求概要のダウンロードはまだ利用できません"
+    },
+    "history": {
+      "title": "請求書履歴",
+      "exportCsv": "すべてを CSV にエクスポート",
+      "exportUnavailable": "CSV エクスポートはまだ利用できません"
+    },
+    "table": {
+      "cycle": "サイクル",
+      "usage": "使用法 (kL)",
+      "amountDue": "未払い額",
+      "paymentStatus": "支払い状況",
+      "hideBreakdown": "内訳を隠す ↑",
+      "showBreakdown": "項目別内訳 ↓",
+      "downloading": "ダウンロード中…",
+      "pdf": "PDF",
+      "pay": "支払う"
+    },
+    "breakdown": {
+      "householdTitle": "家計消費の内訳",
+      "basePrice": "基本価格: {{units}} kL × ₹{{rate}}",
+      "tierLine": "層 {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "従量制使用量の小計",
+      "commonAreaTitle": "共用エリアの配分",
+      "subtotalShared": "共用面積小計",
+      "noCommonArea": "このサイクルでは共用費はかかりません。"
+    },
+    "pagination": {
+      "showing": "{{total}} の {{from}} ～ {{to}} を表示しています",
+      "prev": "← 前へ",
+      "next": "次へ →",
+      "page": "ページ {{page}}/{{count}}"
+    },
+    "paymentMethods": {
+      "title": "支払い方法 (プレビュー)",
+      "description": "オンライン支払いはまだ利用できません。請求はコミュニティ管理者と直接決済されます。",
+      "manage": "支払い方法の管理",
+      "manageUnavailable": "支払い方法はまだ利用できません"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Razorpay によって保護されています",
+    "billingCycle": "請求サイクル {{period}}",
+    "close": "近い",
+    "amountPayable": "支払額",
+    "methods": {
+      "upi": "UPI",
+      "cards": "カード",
+      "netbanking": "ネットバンキング",
+      "wallet": "財布"
+    },
+    "upi": {
+      "title": "UPI 経由でお支払いください",
+      "upiId": "UPI ID",
+      "or": "または",
+      "scan": "任意の UPI アプリでスキャン"
+    },
+    "card": {
+      "title": "カードで支払う",
+      "number": "カード番号",
+      "expiry": "有効期限",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "カード上の名前",
+      "namePlaceholder": "カードに印刷されているとおり"
+    },
+    "netbanking": {
+      "title": "ネットバンキングで支払う"
+    },
+    "wallet": {
+      "title": "ウォレット経由で支払う"
+    },
+    "payAmount": "₹{{amount}} を支払う",
+    "processing": "お支払いを処理しています…",
+    "processingHint": "このページを押したり、更新したりしないでください",
+    "success": "支払いが成功しました",
+    "error": "お支払いの確認中に問題が発生しました。もう一度試してください。",
+    "retry": "リトライ"
+  },
+  "notifications": {
+    "loadError": "通知を読み込めませんでした。もう一度試してください。",
+    "loading": "通知を読み込んでいます…",
+    "empty": "まだ通知はありません。コミュニティ管理者が使用量のしきい値または異常な消費アラートを有効にしており、世帯に対してアラートがトリガーされた場合、ここに何かが表示されます。",
+    "type": {
+      "thresholdExceeded": "消費量のしきい値を超えました",
+      "statisticalOutlier": "異常な消費が検出されました"
+    },
+    "status": {
+      "active": "アクティブ",
+      "resolved": "解決済み",
+      "dismissed": "解雇された"
+    },
+    "billingPeriod": "請求期間: {{period}}",
+    "consumption": "消費量: {{value}} kL",
+    "push": {
+      "title": "プッシュ通知",
+      "description": "新しい請求書やアラートが届いたときに、このデバイスで通知を受け取ります。",
+      "enable": "有効にする",
+      "disable": "無効にする",
+      "permissionDenied": "通知の許可が与えられませんでした。",
+      "notConfigured": "プッシュ通知はまだ設定されていません。管理者に連絡してください。",
+      "enableError": "プッシュ通知を有効にできませんでした。もう一度試してください。",
+      "disableError": "プッシュ通知を無効にできませんでした。もう一度試してください。"
+    }
+  },
+  "recommendations": {
+    "loadError": "おすすめを読み込めませんでした。もう一度試してください。",
+    "loading": "カスタマイズされたヒントを読み込んでいます…",
+    "generated": "生成された {{date}}",
+    "generatedForPeriod": "請求期間 {{period}} に対して {{date}} が生成されました",
+    "eyebrow": "あなたのためにパーソナライズされた",
+    "title": "賢い節水のヒント",
+    "empty": "ヒントはまだ生成されていません。これらは、コミュニティが世帯の請求サイクルを確定するたびに自動的に更新されます。"
+  },
+  "support": {
+    "title": "居住者サポート＆お悩みデスク",
+    "subtitle": "水漏れレポート、メーター校正リクエスト、請求に関する問い合わせは、コミュニティ管理者やシステム管理者に直接送信してください。",
+    "emptyCreateHint": "以下に問題や懸念事項を説明し、それを誰が処理するかを選択してください。"
+  }
+}

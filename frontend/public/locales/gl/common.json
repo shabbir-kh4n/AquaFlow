@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Pechar",
+    "signUpTitle": "Rexistra a túa comunidade",
+    "signInTitle": "Benvido de novo",
+    "signUpSubtitle": "Crea unha conta de administrador da comunidade para comezar a xestionar os residentes e a facturación.",
+    "signInSubtitle": "Inicia sesión para ver o teu uso e facturación de auga."
+  },
+  "signIn": {
+    "errorFallback": "Non se puido iniciar sesión. Téntao de novo.",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contrasinal",
+    "rememberMe": "Lémbrame",
+    "forgotPassword": "Esqueciches o contrasinal?",
+    "submitting": "Iniciando sesión...",
+    "submit": "Iniciar sesión",
+    "noAccount": "Non tes unha conta?",
+    "signUpLink": "Rexístrate"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Os contrasinais non coinciden.",
+      "communityRequired": "O nome da comunidade é necesario.",
+      "termsRequired": "Acepta as Condicións de servizo e a Política de privacidade.",
+      "fallback": "Non se puido crear a conta. Téntao de novo."
+    },
+    "hint": "Só os administradores da comunidade rexistran aquí. Unha vez que esteas, engadirás ti mesmo os datos dos teus residentes; non se rexistran por si mesmos.",
+    "fullNameLabel": "Nome completo",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Número de teléfono",
+    "communityNameLabel": "Nome da comunidade",
+    "passwordLabel": "Contrasinal",
+    "confirmPasswordLabel": "Confirmar contrasinal",
+    "agreeTerms": "Acepto as <termsLink>Condicións de servizo</termsLink> e a <privacyLink>Política de privacidade</privacyLink>",
+    "submitting": "Creando conta…",
+    "submit": "Crear unha conta de administrador",
+    "haveAccount": "Xa tes unha conta?",
+    "signInLink": "Inicia sesión"
+  },
+  "installPrompt": {
+    "title": "Instalar HydroLedger",
+    "description": "Engádeo á túa pantalla de inicio para acceder rapidamente.",
+    "dismiss": "Descartar",
+    "install": "Instalar"
+  },
+  "setPassword": {
+    "title": "Establece o teu contrasinal",
+    "loading": "Cargando…",
+    "subtitle": "Ola {{name}}, escolle un contrasinal para {{email}} para activar a túa conta HydroLedger.",
+    "errors": {
+      "invalidLink": "Esta ligazón non é válida ou caducou.",
+      "tooShort": "O contrasinal debe ter polo menos 8 caracteres.",
+      "mismatch": "Os contrasinais non coinciden.",
+      "fallback": "Non se puido establecer o teu contrasinal. Téntao de novo."
+    },
+    "passwordLabel": "Contrasinal",
+    "confirmPasswordLabel": "Confirmar contrasinal",
+    "submitting": "Configurando o contrasinal...",
+    "submit": "Establece o contrasinal e inicia sesión"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistente",
+      "resident": "Pregunta pola túa conta",
+      "admin": "Asistente comunitario",
+      "platform": "Asistente de plataforma",
+      "default": "Asistente"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Que é HydroLedger?",
+        "tieredBilling": "Como funciona a facturación por niveis?",
+        "leaks": "Como se detectan as fugas?"
+      },
+      "resident": {
+        "billEstimate": "Cal é a miña estimación de factura actual?",
+        "alerts": "Teño algunha alerta de uso?",
+        "readings": "Mostrar as lecturas dos meus contadores recentes"
+      },
+      "admin": {
+        "households": "Cantos fogares temos?",
+        "billingCycles": "Lista os nosos ciclos de facturación recentes",
+        "tariff": "Cal é o noso plan tarifario actual?"
+      },
+      "platform": {
+        "communities": "Lista todas as comunidades rexistradas",
+        "usageReport": "Mostra o informe de uso da plataforma",
+        "systemStatus": "Cal é o estado do sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Estás enviando mensaxes demasiado rápido. Agarda un momento e téntao de novo.",
+      "unavailable": "O asistente non está dispoñible temporalmente. Téntao de novo en breve.",
+      "generic": "Produciuse un erro ao enviar esa mensaxe. Téntao de novo."
+    },
+    "emptyHint": "Pregúntame calquera cousa: só podo ver os teus propios datos.",
+    "closeAssistant": "Asistente próximo",
+    "openAssistant": "Abrir asistente",
+    "inputPlaceholder": "Escribe unha mensaxe...",
+    "inputLabel": "Mensaxe",
+    "send": "Enviar"
+  },
+  "supportBoard": {
+    "defaultTitle": "Entradas de apoio",
+    "defaultCreateLabel": "Levantar unha nova preocupación",
+    "status": {
+      "open": "Aberto",
+      "inProgress": "En proceso",
+      "resolved": "Resolto",
+      "closed": "Pechado"
+    },
+    "tabs": {
+      "all": "Todas as entradas"
+    },
+    "recipients": {
+      "admin": "Administrador da comunidade",
+      "systemAdmin": "Administrador do sistema",
+      "both": "Administrador da comunidade + Administrador do sistema"
+    },
+    "roles": {
+      "resident": "Residente",
+      "admin": "Admin"
+    },
+    "toRecipients": "Para: {{recipients}}",
+    "raisedByResident": "Criado polo residente {{name}}",
+    "raisedByAdmin": "Creado polo administrador {{name}}",
+    "refresh": "Actualizar",
+    "stats": {
+      "openLabel": "Presentacións abertas",
+      "openHint": "Agardando revisión",
+      "inProgressLabel": "En proceso",
+      "inProgressHint": "Estando traballado",
+      "resolvedLabel": "Resolto",
+      "resolvedHint": "Pechado correctamente"
+    },
+    "searchPlaceholder": "Busca entradas por tema, número...",
+    "loadingTickets": "Cargando entradas...",
+    "empty": {
+      "title": "Non se atoparon tickets de soporte",
+      "body": "Actualmente non tes ningunha solicitude de asistencia aberta nin rexistrada que coincida con este filtro.",
+      "cta": "Enviar unha preocupación"
+    },
+    "errors": {
+      "loadList": "Non se puideron cargar os tickets de asistencia. Téntao de novo.",
+      "loadDetail": "Non se puido cargar este billete. Téntao de novo.",
+      "required": "O asunto e a mensaxe son obrigatorios.",
+      "recipientRequired": "Seleccione polo menos un destinatario (administrador da comunidade e/ou administrador do sistema).",
+      "submitFallback": "Non se puido enviar este ticket. Téntao de novo.",
+      "sendReply": "Non se puido enviar esta mensaxe. Téntao de novo.",
+      "updateStatus": "Non se puido actualizar o estado deste ticket. Téntao de novo."
+    },
+    "form": {
+      "defaultHint": "Describe o teu problema ou preocupación a continuación.",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "Breve resumo do seu problema",
+      "messageLabel": "Mensaxe",
+      "messagePlaceholder": "Describe o que está pasando en detalle...",
+      "recipientsLabel": "Envía esta preocupación a",
+      "cancel": "Cancelar",
+      "submitting": "Enviando…",
+      "submit": "Enviar Ticket"
+    },
+    "detail": {
+      "loading": "Cargando ticket...",
+      "replyPlaceholder": "Escribe unha resposta...",
+      "close": "Pechar",
+      "sending": "Enviando…",
+      "sendReply": "Enviar resposta"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Benvido de novo, {{name}}",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Pechar menú",
+    "logout": "Pechar sesión",
+    "search": "Busca",
+    "notifications": "Notificacións"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Panel de control",
+      "households": "Directorio de fogares",
+      "meterReadings": "Lecturas de contadores",
+      "billing": "Xestión de facturación",
+      "bulkPurchases": "Compras a granel",
+      "reports": "Informes",
+      "waterLeakage": "Fuga de auga",
+      "support": "Apoio/Preocupacións",
+      "tariffPlans": "Plans tarifarios",
+      "announcements": "Anuncios",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Aquí tes unha instantánea da túa comunidade."
+      },
+      "households": {
+        "title": "Directorio de fogares",
+        "subtitle": "Engade, actualiza e xestiona os residentes que viven na túa comunidade."
+      },
+      "meterReadings": {
+        "title": "Centro de lecturas de contadores de auga",
+        "subtitle": "Busca un residente e rexistra a lectura do seu contador de auga."
+      },
+      "tariffPlans": {
+        "title": "Configuración de tarifas",
+        "subtitle": "Configura límites de tarifas por niveis, custos compartidos de áreas comúns e métodos de distribución para a túa comunidade de apartamentos."
+      },
+      "billing": {
+        "title": "Xestión de facturación",
+        "subtitle": "Abre, finaliza e arquiva ciclos de facturación e revisa facturas detalladas por fogar."
+      },
+      "bulkPurchases": {
+        "title": "Compras a granel",
+        "subtitle": "Rexistra as entregas de camións cisterna e as compras de subministracións municipais para a túa comunidade."
+      },
+      "waterLeakage": {
+        "title": "Fuga de auga",
+        "subtitle": "Configura alertas de fuga baseadas no limiar e en valores atípicos e revisa os fogares sinalados."
+      },
+      "support": {
+        "title": "Apoio/Preocupacións",
+        "subtitle": "Envía as túas propias entradas ao administrador do sistema ou xestiona as preocupacións que che dirixiron os teus residentes."
+      },
+      "profile": {
+        "title": "Configuración e perfil",
+        "subtitle": "Xestiona os detalles da túa conta e a información do apartamento."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Administrador da comunidade",
+    "notBuilt": "{{label}} aínda non está construído",
+    "searchPlaceholder": "Busca calquera cousa..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Informes",
+      "description": "Informes de consumo, facturación e conservación da túa comunidade."
+    },
+    "announcements": {
+      "title": "Anuncios",
+      "description": "Envía anuncios para toda a comunidade aos teus residentes."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} chegará en breve"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Panel de control",
+      "usageHistory": "Historial de uso",
+      "bills": "As miñas contas",
+      "recommendations": "Recomendacións",
+      "reports": "Informes",
+      "support": "Apoio/Preocupacións",
+      "notifications": "Notificacións",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "usageHistory": "O teu historial de uso",
+      "billing": "Facturación e facturas",
+      "notifications": "Notificacións",
+      "recommendations": "Recomendacións",
+      "support": "Apoio/Preocupacións"
+    },
+    "defaultTitle": "Panel de control de residentes",
+    "navLabel": "Navegación de residentes",
+    "fallbackName": "Residente",
+    "unit": "Unidade {{number}}",
+    "comingSoon": "{{label}} chegará en breve",
+    "profile": "Perfil",
+    "searchPlaceholder": "Busca analíticas, facturas..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Panel de control",
+      "communities": "Comunidades",
+      "reports": "Informes",
+      "supportTickets": "Entradas de apoio",
+      "systemStatus": "Estado do sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Instantánea de toda a plataforma en todas as comunidades rexistradas."
+      },
+      "communities": {
+        "title": "Comunidades",
+        "subtitle": "Cada administrador da comunidade rexistrada e a súa comunidade nun só lugar."
+      },
+      "reports": {
+        "title": "Informes",
+        "subtitle": "Cifras de consumo e facturación de auga en toda a plataforma, por comunidade e ao longo do tempo."
+      },
+      "supportTickets": {
+        "title": "Entradas de apoio",
+        "subtitle": "Tickets de apoio e dúbidas formuladas polos residentes e os administradores da comunidade, en toda a plataforma."
+      },
+      "systemStatus": {
+        "title": "Estado do sistema",
+        "subtitle": "Conectividade de backend e estado de execución básico."
+      }
+    },
+    "fallbackName": "Administrador do sistema",
+    "platformOwner": "Propietario da plataforma",
+    "searchPlaceholder": "Busca comunidades..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Idioma: {{language}}",
+    "searchPlaceholder": "Busca idioma...",
+    "noMatches": "Non hai coincidencias"
+  }
+}

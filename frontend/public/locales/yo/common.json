@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Sunmọ",
+    "signUpTitle": "Forukọsilẹ agbegbe rẹ",
+    "signInTitle": "ku aabọ pada",
+    "signUpSubtitle": "Ṣẹda akọọlẹ Abojuto Agbegbe kan lati bẹrẹ iṣakoso awọn olugbe ati ìdíyelé.",
+    "signInSubtitle": "Wọle lati wo lilo omi rẹ ati ìdíyelé."
+  },
+  "signIn": {
+    "errorFallback": "Ko le wọle. Jọwọ gbiyanju lẹẹkansi.",
+    "emailLabel": "Imeeli",
+    "passwordLabel": "Ọrọigbaniwọle",
+    "rememberMe": "Ranti mi",
+    "forgotPassword": "Gbagbe ọrọ aṣina bi?",
+    "submitting": "Wọlé…",
+    "submit": "Wọle",
+    "noAccount": "Ṣe ko ni akọọlẹ kan?",
+    "signUpLink": "forukọsilẹ"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Awọn ọrọ igbaniwọle ko baramu.",
+      "communityRequired": "A nilo orukọ agbegbe.",
+      "termsRequired": "Jọwọ gba si Awọn ofin Iṣẹ ati Ilana Aṣiri.",
+      "fallback": "Ko le ṣẹda iroyin. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "hint": "Awọn alabojuto agbegbe nikan forukọsilẹ nibi. Ni kete ti o ba wọle, iwọ yoo ṣafikun awọn alaye olugbe rẹ funrararẹ - wọn ko forukọsilẹ funrararẹ.",
+    "fullNameLabel": "Akokun Oruko",
+    "emailLabel": "Imeeli",
+    "phoneLabel": "Nomba fonu",
+    "communityNameLabel": "Orukọ agbegbe",
+    "passwordLabel": "Ọrọigbaniwọle",
+    "confirmPasswordLabel": "So ni pato orukoabawole re",
+    "agreeTerms": "Mo gba si <termsLink> Awọn ofin Iṣẹ</termsLink> ati <privacyLink> Ilana Aṣiri</privacyLink>",
+    "submitting": "Ṣiṣẹda akọọlẹ…",
+    "submit": "Ṣẹda Account Admin",
+    "haveAccount": "Ti ni iroyin tẹlẹ?",
+    "signInLink": "wọle"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Ṣafikun-un si iboju ile rẹ fun wiwọle yara yara.",
+    "dismiss": "Yọọ kuro",
+    "install": "Fi sori ẹrọ"
+  },
+  "setPassword": {
+    "title": "Ṣeto ọrọ igbaniwọle rẹ",
+    "loading": "Nkojọpọ…",
+    "subtitle": "Bawo {{name}}, yan ọrọ igbaniwọle kan fun {{email}} lati mu akọọlẹ HydroLedger rẹ ṣiṣẹ.",
+    "errors": {
+      "invalidLink": "Ọna asopọ yii ko wulo tabi ti pari.",
+      "tooShort": "Ọrọigbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8.",
+      "mismatch": "Awọn ọrọ igbaniwọle ko baramu.",
+      "fallback": "Ko le ṣeto ọrọ igbaniwọle rẹ. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "passwordLabel": "Ọrọigbaniwọle",
+    "confirmPasswordLabel": "So ni pato orukoabawole re",
+    "submitting": "Ṣiṣeto ọrọ igbaniwọle…",
+    "submit": "Ṣeto ọrọ igbaniwọle & wọle"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Iranlọwọ",
+      "resident": "Beere nipa akọọlẹ rẹ",
+      "admin": "Community Iranlọwọ",
+      "platform": "Platform Iranlọwọ",
+      "default": "Iranlọwọ"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Kini HydroLedger?",
+        "tieredBilling": "Bawo ni tiered ìdíyelé ṣiṣẹ?",
+        "leaks": "Bawo ni a ṣe rii awọn n jo?"
+      },
+      "resident": {
+        "billEstimate": "Kini iṣiro owo mi lọwọlọwọ?",
+        "alerts": "Ṣe Mo ni eyikeyi titaniji lilo?",
+        "readings": "Ṣe afihan awọn kika mita aipẹ mi"
+      },
+      "admin": {
+        "households": "Awọn idile melo ni a ni?",
+        "billingCycles": "Ṣe atokọ awọn iyipo ìdíyelé aipẹ wa",
+        "tariff": "Kini eto owo idiyele wa lọwọlọwọ?"
+      },
+      "platform": {
+        "communities": "Ṣe atokọ gbogbo awọn agbegbe ti o forukọsilẹ",
+        "usageReport": "Ṣe afihan ijabọ lilo Syeed",
+        "systemStatus": "Kini ipo eto naa?"
+      }
+    },
+    "errors": {
+      "rateLimited": "O n firanṣẹ awọn ifiranṣẹ ni yarayara - jọwọ duro fun iṣẹju diẹ ki o tun gbiyanju lẹẹkansi.",
+      "unavailable": "Ko si oluranlọwọ fun igba diẹ. Jọwọ gbiyanju lẹẹkansi laipẹ.",
+      "generic": "Nkankan ti ko tọ ni fifiranṣẹ ifiranṣẹ yẹn. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "emptyHint": "Beere lọwọ mi ohunkohun - Mo le rii data tirẹ nikan.",
+    "closeAssistant": "Oluranlọwọ sunmọ",
+    "openAssistant": "Ṣii oluranlọwọ",
+    "inputPlaceholder": "Tẹ ifiranṣẹ kan…",
+    "inputLabel": "Ifiranṣẹ",
+    "send": "Firanṣẹ"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tiketi atilẹyin",
+    "defaultCreateLabel": "Gbe Ibakcdun Tuntun soke",
+    "status": {
+      "open": "Ṣii",
+      "inProgress": "Ni Ilọsiwaju",
+      "resolved": "Ti yanju",
+      "closed": "Pipade"
+    },
+    "tabs": {
+      "all": "Gbogbo Tiketi"
+    },
+    "recipients": {
+      "admin": "Abojuto Agbegbe",
+      "systemAdmin": "Alakoso Eto",
+      "both": "Abojuto Agbegbe + Alakoso Eto"
+    },
+    "roles": {
+      "resident": "Olugbe",
+      "admin": "Abojuto"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Ti dagba nipasẹ olugbe {{name}}",
+    "raisedByAdmin": "Ti dagba nipasẹ alabojuto {{name}}",
+    "refresh": "Tuntun",
+    "stats": {
+      "openLabel": "Ṣii Awọn ifisilẹ",
+      "openHint": "Nduro awotẹlẹ",
+      "inProgressLabel": "Ni Ilọsiwaju",
+      "inProgressHint": "Ti ṣiṣẹ lori",
+      "resolvedLabel": "Ti yanju",
+      "resolvedHint": "Titi ni aṣeyọri"
+    },
+    "searchPlaceholder": "Wa awọn tikẹti nipasẹ koko-ọrọ, jade…",
+    "loadingTickets": "Nkojọpọ awọn tikẹti…",
+    "empty": {
+      "title": "Ko ri Tiketi Atilẹyin",
+      "body": "Lọwọlọwọ o ko ni ṣiṣi tabi awọn ibeere atilẹyin ti o gbasilẹ ti o baamu àlẹmọ yii.",
+      "cta": "Fi ifarabalẹ silẹ"
+    },
+    "errors": {
+      "loadList": "Ko le gbe awọn tikẹti atilẹyin silẹ. Jọwọ gbiyanju lẹẹkansi.",
+      "loadDetail": "Ko le gbe tikẹti yii. Jọwọ gbiyanju lẹẹkansi.",
+      "required": "Koko-ọrọ ati ifiranṣẹ mejeeji nilo.",
+      "recipientRequired": "Yan o kere ju olugba kan (Abojuto Agbegbe ati/tabi Alakoso Eto).",
+      "submitFallback": "Ko le fi tikẹti yii silẹ. Jọwọ gbiyanju lẹẹkansi.",
+      "sendReply": "Ko le fi ifiranṣẹ yii ranṣẹ. Jọwọ gbiyanju lẹẹkansi.",
+      "updateStatus": "Ko le ṣe imudojuiwọn ipo tikẹti yii. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "form": {
+      "defaultHint": "Ṣe apejuwe ọran rẹ tabi ibakcdun ni isalẹ.",
+      "subjectLabel": "Koko-ọrọ",
+      "subjectPlaceholder": "Akopọ kukuru ti ọran rẹ",
+      "messageLabel": "Ifiranṣẹ",
+      "messagePlaceholder": "Ṣe apejuwe ohun ti n ṣẹlẹ ni kikun…",
+      "recipientsLabel": "Firanṣẹ ibakcdun yii si",
+      "cancel": "Fagilee",
+      "submitting": "Nfi silẹ…",
+      "submit": "Fi tiketi silẹ"
+    },
+    "detail": {
+      "loading": "Tikẹti ikojọpọ…",
+      "replyPlaceholder": "Kọ esi kan…",
+      "close": "Sunmọ",
+      "sending": "Fifiranṣẹ…",
+      "sendReply": "Fi idahun ranṣẹ"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Ṣii akojọ aṣayan",
+    "closeMenu": "Pa akojọ aṣayan",
+    "logout": "Jade jade",
+    "search": "Wa",
+    "notifications": "Awọn iwifunni"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dasibodu",
+      "households": "Ìdílé Directory",
+      "meterReadings": "Awọn kika Mita",
+      "billing": "Isakoso ìdíyelé",
+      "bulkPurchases": "Olopobobo rira",
+      "reports": "Iroyin",
+      "waterLeakage": "Omi jijo",
+      "support": "Atilẹyin / Awọn ifiyesi",
+      "tariffPlans": "Awọn Eto owo idiyele",
+      "announcements": "Awọn ikede",
+      "profile": "Profaili"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Eyi ni aworan ti agbegbe rẹ."
+      },
+      "households": {
+        "title": "Ìdílé Directory",
+        "subtitle": "Ṣafikun, ṣe imudojuiwọn, ati ṣakoso awọn olugbe ti ngbe ni agbegbe rẹ."
+      },
+      "meterReadings": {
+        "title": "Omi Mita Readings Ipele",
+        "subtitle": "Wa fun olugbe kan ki o ṣe igbasilẹ kika mita omi wọn."
+      },
+      "tariffPlans": {
+        "title": "Iṣeto ni owo idiyele",
+        "subtitle": "Ṣe atunto awọn opin oṣuwọn tiered, awọn idiyele agbegbe ti o wọpọ ati awọn ọna pinpin fun agbegbe iyẹwu rẹ."
+      },
+      "billing": {
+        "title": "Isakoso ìdíyelé",
+        "subtitle": "Ṣii, pari, ati ṣafipamọ awọn iyipo ìdíyelé, ki o si ṣe atunwo awọn risiti ohun kan fun idile."
+      },
+      "bulkPurchases": {
+        "title": "Olopobobo rira",
+        "subtitle": "Ṣe igbasilẹ awọn ifijiṣẹ tanker ati awọn rira ipese idalẹnu ilu fun agbegbe rẹ."
+      },
+      "waterLeakage": {
+        "title": "Omi jijo",
+        "subtitle": "Ṣe atunto ẹnu-ọna ati awọn titaniji jijo ti o da lori ita, ati atunyẹwo awọn idile ti asia."
+      },
+      "support": {
+        "title": "Atilẹyin / Awọn ifiyesi",
+        "subtitle": "Gbe awọn tikẹti tirẹ lọ si Alakoso Eto, tabi mu awọn ifiyesi ti awọn olugbe rẹ ti koju si ọ."
+      },
+      "profile": {
+        "title": "Eto & Profaili",
+        "subtitle": "Ṣakoso awọn alaye akọọlẹ rẹ ati alaye iyẹwu."
+      }
+    },
+    "fallbackName": "Abojuto",
+    "fallbackCommunity": "Abojuto Agbegbe",
+    "notBuilt": "{{label}} ko tii kọ",
+    "searchPlaceholder": "Wa ohunkohun…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Iroyin",
+      "description": "Lilo, ìdíyelé, ati awọn ijabọ itoju fun agbegbe rẹ."
+    },
+    "announcements": {
+      "title": "Awọn ikede",
+      "description": "Firanṣẹ awọn ikede jakejado agbegbe si awọn olugbe rẹ."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} n bọ laipẹ"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dasibodu",
+      "usageHistory": "Itan lilo",
+      "bills": "Awọn owo-owo mi",
+      "recommendations": "Awọn iṣeduro",
+      "reports": "Iroyin",
+      "support": "Atilẹyin / Awọn ifiyesi",
+      "notifications": "Awọn iwifunni",
+      "profile": "Profaili"
+    },
+    "pages": {
+      "usageHistory": "Itan lilo rẹ",
+      "billing": "Ìdíyelé & Invoices",
+      "notifications": "Awọn iwifunni",
+      "recommendations": "Awọn iṣeduro",
+      "support": "Atilẹyin / Awọn ifiyesi"
+    },
+    "defaultTitle": "Dasibodu olugbe",
+    "navLabel": "Lilọ kiri olugbe",
+    "fallbackName": "Olugbe",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} n bọ laipẹ",
+    "profile": "Profaili",
+    "searchPlaceholder": "Awọn atupale wiwa, awọn owo…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dasibodu",
+      "communities": "Awọn agbegbe",
+      "reports": "Iroyin",
+      "supportTickets": "Tiketi atilẹyin",
+      "systemStatus": "Ipo System"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Aworan aworan jakejado Platform kọja gbogbo agbegbe ti o forukọsilẹ."
+      },
+      "communities": {
+        "title": "Awọn agbegbe",
+        "subtitle": "Gbogbo abojuto agbegbe ti o forukọsilẹ ati agbegbe wọn, ni aye kan."
+      },
+      "reports": {
+        "title": "Iroyin",
+        "subtitle": "Lilo omi jakejado Platform ati awọn isiro ìdíyelé, nipasẹ agbegbe ati lori akoko."
+      },
+      "supportTickets": {
+        "title": "Tiketi atilẹyin",
+        "subtitle": "Awọn tikẹti atilẹyin ati awọn ifiyesi dide nipasẹ awọn olugbe ati awọn alabojuto agbegbe, pẹpẹ jakejado."
+      },
+      "systemStatus": {
+        "title": "Ipo System",
+        "subtitle": "Asopọmọra afẹyinti ati ilera asiko isise ipilẹ."
+      }
+    },
+    "fallbackName": "Alakoso Eto",
+    "platformOwner": "Platform Olohun",
+    "searchPlaceholder": "Ṣewadii awọn agbegbe…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "Wa ede…",
+    "noMatches": "Ko si ibaamu"
+  }
+}

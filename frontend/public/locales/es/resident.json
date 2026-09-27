@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Muy pronto",
+    "welcome": {
+      "greeting": "Hola {{name}},",
+      "greetingFallback": "Hola,",
+      "title": "Manténgase cerca de la historia del agua de su hogar.",
+      "subtitle": "La información sobre el uso y la facturación aparecerá aquí a medida que su comunidad registre las lecturas.",
+      "viewBadges": "Ver Eco-Insignias"
+    },
+    "stats": {
+      "todaysUsage": "Uso actual",
+      "asOf": "A partir de {{date}}",
+      "noReading": "Aún no hay lectura del medidor",
+      "monthlyTotalFor": "Total mensual ({{month}})",
+      "monthlyTotalThisMonth": "Total mensual (este mes)",
+      "sumOfReadings": "Suma de lecturas registradas",
+      "estimatedBill": "Factura estimada actual",
+      "estimatedBillFor": "Uso medido + cargos compartidos, {{month}}",
+      "estimatedBillHint": "Basado en el consumo medido y los cargos compartidos de este mes",
+      "savings": "Ahorros versus promedio de construcción",
+      "savingsValue": "{{percent}}% Menos",
+      "savingsPreview": "Solo vista previa: la comparación aún no está disponible"
+    },
+    "consumption": {
+      "eyebrow": "Consumo",
+      "title": "Consumo diario (Últimas 14 lecturas)",
+      "seriesName": "Consumo",
+      "empty": "Aún no se han registrado lecturas."
+    },
+    "breakdown": {
+      "eyebrow": "Descomponer",
+      "title": "Desglose de uso",
+      "bathroom": "Baño",
+      "kitchen": "Cocina",
+      "garden": "Jardín / Balcón",
+      "other": "Otro / Lavandería"
+    },
+    "billing": {
+      "eyebrow": "Facturación",
+      "title": "Ciclo de facturación activo",
+      "finalized": "Finalizado",
+      "preview": "Avance",
+      "meteredConsumption": "Consumo medido",
+      "tierPriceLevel": "Nivel de precios de nivel",
+      "tierLabel": "Nivel {{tier}}",
+      "commonArea": "Reparto de áreas comunes",
+      "commonAreaPreview": "Reparto de áreas comunes (vista previa)",
+      "invoiceTotal": "{{period}} total de la factura",
+      "estimatedCharge": "Cargo estimado actual",
+      "commonAreaBreakdown": "Desglose de áreas comunes",
+      "payPreview": "Vista previa de pago de facturas",
+      "payUnavailable": "Motor de facturación aún no disponible"
+    },
+    "tips": {
+      "eyebrow": "Consejos",
+      "title": "Consejos de ahorro inteligentes",
+      "viewAll": "Ver todo",
+      "empty": "Los consejos personalizados aparecen aquí después de que su comunidad finaliza un ciclo de facturación."
+    },
+    "community": "Comunidad: {{name}}"
+  },
+  "usage": {
+    "loadError": "No se pudo cargar su historial de uso. Por favor inténtalo de nuevo.",
+    "loading": "Cargando sus análisis de uso...",
+    "empty": "Aún no se han registrado lecturas. Una vez que su comunidad registre la lectura de un medidor, aparecerá aquí.",
+    "tabs": {
+      "lastSixMonths": "Últimos 6 meses",
+      "customRange": "Rango personalizado",
+      "comingSoon": "Muy pronto"
+    },
+    "peakDay": "Día pico:",
+    "lowestDay": "Día más bajo:",
+    "comparison": {
+      "title": "Consumo del hogar frente al promedio de los apartamentos",
+      "subtitle": "Totales mensuales mostrados en kilolitros (kL).",
+      "yourHousehold": "su hogar",
+      "apartmentAverage": "Apartamento Promedio",
+      "similarSized": "Casas de tamaño similar"
+    },
+    "heatmap": {
+      "title": "Mapa de calor de consumo diario",
+      "subtitle": "La intensidad del color indica días de uso intenso (vista previa)."
+    },
+    "ranking": {
+      "title": "Clasificación de pares de la comunidad",
+      "subtitle": "Tu rango en comparación con unidades similares (vista previa).",
+      "ecoSaver": "Ahorro ecológico activo",
+      "aptNumber": "Apto {{number}}",
+      "unitNumber": "Unidad {{number}}",
+      "yourUnit": "tu unidad",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Tú)"
+    }
+  },
+  "billing": {
+    "loadError": "No se pudo cargar tu historial de facturación. Por favor inténtalo de nuevo.",
+    "pdfError": "No se pudo descargar el PDF. Por favor inténtalo de nuevo.",
+    "loading": "Cargando tu historial de facturación...",
+    "empty": "Aún no hay facturas: una vez que tu comunidad finalice un ciclo de facturación, tus facturas aparecerán aquí.",
+    "status": {
+      "paid": "Pagado",
+      "unpaid": "No pagado"
+    },
+    "summary": {
+      "outstandingBalance": "Saldo pendiente",
+      "billingCycle": "Ciclo de facturación: {{period}}",
+      "allPaid": "Todas las facturas están pagadas.",
+      "payTotal": "Pago total pendiente",
+      "payTotalUnavailable": "El pago en línea aún no está disponible: liquide las facturas directamente con el administrador de su comunidad",
+      "downloadSummary": "Descargar resumen de factura",
+      "downloadSummaryUnavailable": "La descarga del resumen de factura aún no está disponible"
+    },
+    "history": {
+      "title": "Historial de facturas",
+      "exportCsv": "Exportar todo a CSV",
+      "exportUnavailable": "CSV la exportación aún no está disponible"
+    },
+    "table": {
+      "cycle": "Ciclo",
+      "usage": "Uso (kL)",
+      "amountDue": "Monto adeudado",
+      "paymentStatus": "Estado de pago",
+      "hideBreakdown": "Ocultar desglose ↑",
+      "showBreakdown": "Desglose detallado ↓",
+      "downloading": "Descargando…",
+      "pdf": "PDF",
+      "pay": "Pagar"
+    },
+    "breakdown": {
+      "householdTitle": "Desglose del consumo de los hogares",
+      "basePrice": "Precio base: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Nivel {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Uso medido subtotal",
+      "commonAreaTitle": "Distribución de áreas comunes",
+      "subtotalShared": "Área compartida subtotal",
+      "noCommonArea": "No se aplican cargos por áreas comunes compartidas para este ciclo."
+    },
+    "pagination": {
+      "showing": "Mostrando {{from}}–{{to}} de {{total}}",
+      "prev": "← Anterior",
+      "next": "Siguiente →",
+      "page": "Página {{page}} de {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Métodos de pago (vista previa)",
+      "description": "El pago en línea aún no está disponible: las facturas se liquidan directamente con el administrador de su comunidad.",
+      "manage": "Administrar métodos de pago",
+      "manageUnavailable": "Los métodos de pago aún no están disponibles"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Asegurado por Razorpay",
+    "billingCycle": "Ciclo de facturación {{period}}",
+    "close": "Cerca",
+    "amountPayable": "Monto a pagar",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Tarjetas",
+      "netbanking": "Banca en red",
+      "wallet": "Billetera"
+    },
+    "upi": {
+      "title": "Pagar mediante UPI",
+      "upiId": "UPI ID",
+      "or": "O",
+      "scan": "Escanee con cualquier aplicación UPI"
+    },
+    "card": {
+      "title": "Pagar con Tarjeta",
+      "number": "Número de tarjeta",
+      "expiry": "Expiración",
+      "expiryPlaceholder": "MM/AA",
+      "cvv": "CVV",
+      "name": "Nombre en la tarjeta",
+      "namePlaceholder": "Como está impreso en la tarjeta"
+    },
+    "netbanking": {
+      "title": "Pagar a través de Netbanking"
+    },
+    "wallet": {
+      "title": "Pagar mediante billetera"
+    },
+    "payAmount": "Paga ₹{{amount}}",
+    "processing": "Procesando su pago...",
+    "processingHint": "Por favor, no presione hacia atrás ni actualice esta página.",
+    "success": "Pago exitoso",
+    "error": "Algo salió mal al confirmar tu pago. Por favor inténtalo de nuevo.",
+    "retry": "Rever"
+  },
+  "notifications": {
+    "loadError": "No se pudieron cargar tus notificaciones. Por favor inténtalo de nuevo.",
+    "loading": "Cargando tus notificaciones…",
+    "empty": "Aún no hay notificaciones: verá algo aquí si el administrador de su comunidad ha habilitado alertas de umbral de uso o de consumo inusual y se activa una para su hogar.",
+    "type": {
+      "thresholdExceeded": "Umbral de consumo superado",
+      "statisticalOutlier": "Consumo inusual detectado"
+    },
+    "status": {
+      "active": "Activo",
+      "resolved": "Resuelto",
+      "dismissed": "Despedido"
+    },
+    "billingPeriod": "Período de facturación: {{period}}",
+    "consumption": "Consumo: {{value}} kL",
+    "push": {
+      "title": "Notificaciones push",
+      "description": "Recibe notificaciones en este dispositivo cuando llegue una nueva factura o alerta.",
+      "enable": "Permitir",
+      "disable": "Desactivar",
+      "permissionDenied": "No se concedió el permiso de notificación.",
+      "notConfigured": "Las notificaciones push aún no están configuradas. Póngase en contacto con su administrador.",
+      "enableError": "No se pudieron habilitar las notificaciones automáticas. Por favor inténtalo de nuevo.",
+      "disableError": "No se pudieron desactivar las notificaciones automáticas. Por favor inténtalo de nuevo."
+    }
+  },
+  "recommendations": {
+    "loadError": "No se pudieron cargar tus recomendaciones. Por favor inténtalo de nuevo.",
+    "loading": "Cargando tus consejos personalizados…",
+    "generated": "Generado {{date}}",
+    "generatedForPeriod": "Generado {{date}} para el período de facturación {{period}}",
+    "eyebrow": "Personalizado para ti",
+    "title": "Consejos inteligentes para ahorrar agua",
+    "empty": "Aún no se han generado sugerencias: se actualizan automáticamente cada vez que su comunidad finaliza un ciclo de facturación para su hogar."
+  },
+  "support": {
+    "title": "Mostrador de inquietudes y soporte para residentes",
+    "subtitle": "Envíe informes de fugas de agua, solicitudes de calibración de medidores o consultas de facturación directamente al administrador de su comunidad y/o al administrador del sistema.",
+    "emptyCreateHint": "Describe tu problema o inquietud a continuación y elige quién debe manejarlo."
+  }
+}

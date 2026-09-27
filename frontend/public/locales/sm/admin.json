@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "utaina...",
+    "saving": "Sefe…",
+    "saved": "Faasaoina.",
+    "uploading": "Tu'u i luga...",
+    "upload": "Tu'u mai",
+    "uploadError": "Le mafai ona lafo i luga le faila. Fa'amolemole toe taumafai.",
+    "cancel": "Fa'aleaogaina",
+    "close": "Tapuni",
+    "edit": "Fa'atonu",
+    "remove": "Aveese",
+    "saveChanges": "Faasaoina Suiga",
+    "bulkSummary": "Fa'agasolo <b>{{total}}</b> laina — <b>{{success}}</b> ua manuia, <b>{{failure}}</b> ua le manuia.",
+    "rowFailure": "Laina {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Faaalia {{from}}–{{to}} o {{total}}",
+    "prev": "← Muamua",
+    "next": "Sosoo →",
+    "page": "Itulau {{page}} o le {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Le mafai ona la'uina lau fa'amatalaga fa'alenu'u i le taimi nei.",
+    "title": "{{community}} Laupapa Fale",
+    "titleFallback": "Lau Laupapa Fale",
+    "subtitle": "Aotelega o galuega mo le fuaina o le suavai ma le faaaogaina e aiga.",
+    "comingSoon": "Lea la'a sau",
+    "manageCommunity": "Pulea le Nuu",
+    "noUsageReadings": "E le'i fa'amauina le faitau fa'aoga.",
+    "cards": {
+      "totalHouseholds": "Aofaiga o Aiga",
+      "occupied": "nofoia",
+      "activeMeters": "Meter Active",
+      "reportingReadings": "Lipoti faitauga",
+      "monthlyConsumption": "Fa'aaogā masina",
+      "thisCalendarMonth": "Le masina lenei kalena",
+      "latestRecordedMonth": "Fa'amauina masina fou ({{month}})",
+      "noReadingsYet": "E leai ni faitauga fa'amauina",
+      "pendingAlerts": "Fa'atali Fa'aliga",
+      "anomalyPreview": "Va'aiga fa'ailoga fa'aletonu - e le'i maua"
+    },
+    "actions": {
+      "label": "Fa'atonuga Fa'atonu",
+      "uploadReadings": "Tu'u mai le mita Faitauga",
+      "configureTariffs": "Fa'atulaga Fa'asologa",
+      "reportsNotBuilt": "E le'i fausia lipoti",
+      "downloadReports": "La'uina Lipoti Faiga"
+    },
+    "chart": {
+      "title": "Fa'atusatusaga Fa'aaogā Fa'alemasina (kL)",
+      "subtitle": "{{months}} masina ua tuana'i: sini vs. taumafa moni.",
+      "targetSeries": "Sini (mua'i va'aiga)",
+      "actualSeries": "Moni"
+    },
+    "recent": {
+      "title": "Faitauga Meta lata mai",
+      "unit": "Vaega",
+      "resident": "Tagata nofomau",
+      "lastReading": "Faitauga Mulimuli",
+      "consumption": "Fa'atauga"
+    }
+  },
+  "households": {
+    "loadError": "Le mafai ona uta tagata nofoia. Fa'amolemole toe taumafai.",
+    "fixFields": "Fa'amolemole fa'asa'o vaega fa'ailoga.",
+    "saveError": "Ua le mafai ona lavea'iina lenei tagata nofomau. Fa'amolemole siaki fa'amatalaga.",
+    "confirmRemove": "Aveese {{name}} mai lou lisi o aiga?",
+    "removeError": "Le mafai ona aveese lenei tagata nofomau. Fa'amolemole toe taumafai.",
+    "count": "Aiga: {{total}}",
+    "bulkUploadButton": "⇪ La'uina tele",
+    "addResidentButton": "+ Faaopoopo le Tagata nofomau",
+    "searchPlaceholder": "Filifili ile igoa, fale, imeli, po'o le mita numera.",
+    "loading": "O lo'o uta tagata nofoia...",
+    "empty": "Leai ni tagata nofomau. Kiliki le \"Add Resident\" e lesitala ai le aiga muamua.",
+    "noMatch": "E leai ni tagata nofomau e fetaui ma le \"{{search}}\".",
+    "sort": {
+      "label": "Fa'avasega i",
+      "name": "Igoa",
+      "houseNumber": "Numera Fale",
+      "dateOfJoining": "Aso o le Auai",
+      "toggleDirection": "Togomi le fa'avasegaga",
+      "asc": "↑ Asc",
+      "desc": "↓ Fa'amatala"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Fafine",
+      "other": "Isi"
+    },
+    "table": {
+      "name": "Igoa",
+      "houseUnit": "Fale/Iunite",
+      "email": "imeli",
+      "phone": "Telefoni",
+      "meterNumber": "Meta Nu.",
+      "sqft": "Sqft",
+      "joined": "Fa'atasi"
+    },
+    "form": {
+      "addTitle": "Faaopoopo le Resident",
+      "editTitle": "Fa'asa'o nofomau",
+      "editSubtitle": "E fa'afou ai fa'amatalaga a le tagata nofomau i lau lisi.",
+      "bypassSubtitle": "O lo'o e setiina sa'o le upu fa'aupuga a le tagata nofomau. E leai se imeli e lafo.",
+      "addSubtitle": "O se feso'ota'iga seti-password o le a imeli i lenei tagata nofomau ina ia mafai ona latou fa'agaoioia a latou lava saini.",
+      "fullName": "Igoa atoa",
+      "houseNumber": "Fale / iunite Nu.",
+      "email": "imeli",
+      "phone": "Numera telefoni",
+      "meterNumber": "Numera mita",
+      "governmentId": "ID Malo",
+      "gender": "Itupa",
+      "dateOfBirth": "Aso fanau",
+      "dateOfJoining": "Aso o le auai",
+      "flatSize": "Tele mafolafola (sq ft)",
+      "bypassLabel": "Aveese le seti-password imeli - seti se upu faataga mo lenei tagata nofomau nei",
+      "password": "Numera e le iloa e sesi",
+      "confirmPassword": "Faamaonia le upu faalilolilo"
+    },
+    "validation": {
+      "fullNameRequired": "E mana'omia le igoa atoa.",
+      "emailRequired": "E mana'omia le imeli.",
+      "phoneRequired": "E mana'omia le numera telefoni.",
+      "houseNumberRequired": "Ole numera ole fale/unit e mana'omia.",
+      "houseNumberTaken": "O lenei numera o le fale ua uma ona tuʻuina atu i se isi tagata nofomau.",
+      "meterNumberRequired": "E mana'omia le numera mita.",
+      "meterNumberFormat": "Ole numera ole mita e tatau ona pei ole MTR-1234 (4 numera).",
+      "meterNumberTaken": "O lenei numera mita ua uma ona tuʻuina atu i se isi tagata nofomau.",
+      "governmentIdRequired": "E mana'omia le ID a le Malo.",
+      "governmentIdFormat": "ID e tatau ona 6 numera amata ile 99 (fa'ata'ita'iga 991234).",
+      "genderRequired": "Fa'amolemole filifili se itupa.",
+      "dateOfBirthRequired": "E mana'omia le aso fanau.",
+      "dateOfJoiningRequired": "E mana'omia le aso o le auai.",
+      "passwordRequired": "E mana'omia le password.",
+      "passwordLength": "O le upu faataga e tatau ona le itiiti ifo ma le 8 mataitusi.",
+      "confirmPasswordRequired": "Fa'amolemole fa'amaonia le password.",
+      "passwordMismatch": "E le fetaui upu faataga."
+    },
+    "bulk": {
+      "title": "Tu'u Tele Tagata nofomau",
+      "noFile": "Fa'amolemole filifili se faila .csv po'o le .xlsx/.xls e lafo i luga.",
+      "instructions": "Tu'u i luga se faila .csv po'o le .xlsx/.xls ma koluma <code>{{columns}}</code> (password ma flatSizeSqft e filifili uma). O laina o lo'o iai se fa'aupuga e fa'atulaga sa'o; laina e aunoa ma se tasi e maua se seti-password imeli, tutusa ma le faʻaopoopoina o se tagata nofomau ma le lima. Fa'alua fale/mita numera po'o imeli e te'ena ile laina - tasi le laina leaga o le a le fa'aletonu le vaega atoa."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Le mafai ona uta tagata nofoia. Fa'amolemole toe taumafai.",
+    "historyLoadError": "Le mafai ona utaina le tala fa'asolopito. Fa'amolemole toe taumafai.",
+    "successMessage": "Manuia le faamaumauina o faitauga o le {{value}} kL mo le {{house}} (Meter: {{meter}})! Fa'atatau le fa'aaogaina: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ulufale nofofua",
+      "csv": "Tele CSV La'uina",
+      "history": "Faitauga Talafaasolopito"
+    },
+    "source": {
+      "manual": "Tusi Lesona",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "O lenei tagata nofomau e leai se numera mita i le faila.",
+      "dateRequired": "E mana'omia le aso faitau.",
+      "invalidValue": "Fa'amolemole tu'u mai se tau faitau aoga, e le fa'aletonu.",
+      "duplicate": "O se faitauga mo lenei mita ua uma ona iai i lea aso.",
+      "meterNotFound": "E le mafai ona maua lenei mita. Fa'amolemole toe filifili le tagata nofomau.",
+      "lowerThanPrevious": "O lenei faitauga e maualalo ifo nai lo le faitauga muamua na faamaumauina.",
+      "recordFailed": "Le mafai ona faamaumauina lenei faitauga. Fa'amolemole toe taumafai."
+    },
+    "combo": {
+      "label": "Filifili Flat & Meter Serial",
+      "placeholder": "Filifili Flat & Meter Serial…",
+      "flat": "Mafolafola {{house}}",
+      "noMeter": "Leai mita",
+      "searchPlaceholder": "Su'esu'e ile numera ole numera, tagata nofomau...",
+      "unitsHeader": "Unite nofomau",
+      "found": "Fale mafolafola na maua: {{total}}",
+      "loading": "O lo'o uta tagata nofoia...",
+      "noMatch": "E leai ni tagata nofomau e fetaui ma le \"{{search}}\".",
+      "unassigned": "Le tofiaina",
+      "itemMeta": "{{name}} · Mulimuli: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Faamauina o se faitauga mo",
+      "context": "Fale {{house}} · mita {{meter}}",
+      "changeResident": "Sui tagata nofomau",
+      "readingDate": "Aso faitau",
+      "readingValue": "Faitauina o le mita i le taimi nei (kL)",
+      "submit": "Tuuina atu Faitauga Faamaonia",
+      "recentTitle": "Faitauga lata mai",
+      "recentEmpty": "E le'i fa'amauina ni faitauga mo lenei mita."
+    },
+    "info": {
+      "title": "Monotonic Meter Validation",
+      "body": "O faitauga fou uma e tatau ona sili atu pe tutusa ma le ogalaau muamua mo lena mita - o le mea lea e sa'o ai le fa'atatauga o mea'ai ma vave maua ai numera liliu."
+    },
+    "details": {
+      "title": "Auiliiliga Vaega Filifilia",
+      "flatUnit": "Vaega mafolafola",
+      "meterSerial": "Meta Serial",
+      "occupant": "Igoa o le nofoia",
+      "lastDial": "Telefoni Faamauina Mulimuli",
+      "noReadings": "Leai ni faitauga",
+      "monthConsumption": "Fa'atau masina",
+      "empty": "Leai se aiga ua filifilia. Su'e ma filifili se tagata nofomau e va'ai i latou fa'amatalaga mita iinei."
+    },
+    "csv": {
+      "noFile": "Fa'amolemole filifili se CSV faila e lafo.",
+      "instructions": "Tu'u mai se CSV ma koluma <code>{{columns}}</code>. O laina e fa'agasolo tuto'atasi - tasi le laina leaga e le fa'aletonu le vaega atoa."
+    },
+    "history": {
+      "loading": "O lo'o utaina fa'amatalaga...",
+      "empty": "E le'i fa'amauina ni faitauga mo lou nu'u."
+    },
+    "table": {
+      "meterNumber": "Meta Nu.",
+      "date": "Aso",
+      "value": "Taua (kL)",
+      "consumption": "Fa'aaogāina (kL)",
+      "source": "Punavai"
+    }
+  },
+  "billingCycles": {
+    "title": "Ta'amilosaga pili",
+    "loadError": "Le mafai ona uta ta'amilosaga pili. Fa'amolemole toe taumafai.",
+    "paymentUpdateError": "Le mafai ona fa'afouina le tulaga o le totogiina o le pili.",
+    "pdfError": "Le mafai ona la'u mai le PDF. Fa'amolemole toe taumafai.",
+    "finalizeError": "E le mafai ona fa'amae'aina lenei taamilosaga o pili.",
+    "archiveError": "Le mafai ona fa'aputuina lenei ta'amilosaga pili.",
+    "loading": "O lo'o uta ta'amilosaga pili...",
+    "empty": "Leai se taamilosaga o pili. Tatala le tasi i luga e amata ai.",
+    "status": {
+      "open": "Tatala",
+      "finalized": "Fa'ai'u",
+      "archived": "Fa'amaumauga"
+    },
+    "open": {
+      "title": "Tatala se Ta'amilosaga Tau Tupe Fou",
+      "noMonth": "Fa'amolemole filifili se masina e tatala ai.",
+      "error": "Le mafai ona tatalaina se taamilosaga pili mo lena masina.",
+      "monthAria": "Ole masina ole pili",
+      "opening": "Tatala…",
+      "submit": "Ta'amilosaga Tatala"
+    },
+    "table": {
+      "period": "Vaitaimi",
+      "status": "Tulaga",
+      "householdsBilled": "Totogi Fale",
+      "totalBilled": "Aofa'iga Totogi",
+      "actions": "Gaioiga"
+    },
+    "actions": {
+      "finalize": "Fa'ai'u",
+      "finalizing": "Fa'ai'u...",
+      "archive": "Fa'amaumauga",
+      "archiving": "Fa'asaoina..."
+    },
+    "filter": {
+      "aria": "Filifili i tulaga totogi",
+      "all": "O mea uma"
+    },
+    "payment": {
+      "paid": "Totogi",
+      "unpaid": "Le totogia",
+      "updating": "Fa'afou...",
+      "markPaid": "Faailoga ua totogi",
+      "markUnpaid": "Faailoga e lei totogia"
+    },
+    "detail": {
+      "title": "Fa'amatalaga Ta'amilosaga — {{period}}",
+      "loading": "La'uina o pili...",
+      "notFinalized": "E le'i fa'amae'aina lenei ta'amilosaga - leai ni pili ua faia.",
+      "noInvoices": "Leai ni pili mo lenei taamilosaga.",
+      "noMatch": "E leai ni pili e fetaui ma lenei faamama."
+    },
+    "invoices": {
+      "household": "Aiga",
+      "resident": "Tagata nofomau",
+      "meterNumber": "Meta Nu.",
+      "consumption": "Fa'aaogāina (kL)",
+      "tierBreakdown": "Vaevaega Fa'avae",
+      "commonArea": "Avanoa Lautele",
+      "total": "Aofa'iga",
+      "paymentStatus": "Tulaga Totogi",
+      "pdf": "PDF",
+      "baseLine": "Faavae: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tulaga {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Le mafai ona utaina le faatulagaga o tau",
+    "saveError": "Le mafai ona fa'asaoina le fa'atulagaina o tau",
+    "chartTitle": "Fuafuaga Fua Fa'atatau o Fa'aoga Fa'atonu Fa'atino",
+    "axisNote": "Fua i le ₹/kL, tapula'a i le kL",
+    "tableTitle": "Fuafuaga Laupapa Tau",
+    "defaultRatesNote": "Fa'aali fua faatatau - e le'i fa'asaoina.",
+    "addTier": "+ Faaopoopo le Tier",
+    "saveRates": "Faasao Fua Faatatau",
+    "tierLevel": {
+      "base": "Tulaga {{tier}} (Fa'avae)",
+      "medium": "Vasega {{tier}} (Medium)",
+      "heavy": "Vasega {{tier}} (Mamafa)"
+    },
+    "basePrice": {
+      "label": "Tau Fa'avae (₹ / kL, fa'atatau ile taumafaina UMA)",
+      "note": "O kL uma e totogi muamua le tau fa'atasi. O papa o lo'o i lalo e fa'aopoopoina tau fa'aopoopo mo na'o le fa'aoga e pa'ū i totonu o latou vaega - eg. o se papa e amata i le 50 kL e fa'aopoopoina lona fua faatatau mo le taumafaina i luga atu o le 50 kL."
+    },
+    "table": {
+      "tierLevel": "Tulaga Tulaga",
+      "slabLimit": "Tapulaa Slab (kL)",
+      "rate": "Tau ile kL",
+      "action": "Gaioiga"
+    },
+    "commonArea": {
+      "title": "Fetufa'aiga Tau o le Eria Fetufa'atasi",
+      "loadError": "Le mafai ona la'uina le fa'atulagaina o tau o nofoaga masani",
+      "saveError": "Le mafai ona fa'asaoina le fa'atulagaina o tau o nofoaga masani",
+      "empty": "E le'i fa'asaoina mea tau tau.",
+      "labelPlaceholder": "Fa'ailoga o mea tau",
+      "perMonth": "/ masina",
+      "active": "Malosi",
+      "addItem": "+ Faaopoopo le Mea Tau",
+      "save": "Fa'asaoina le Fa'atulagaina o Eria masani"
+    },
+    "distribution": {
+      "title": "Tau Fa'asoa Metotia Filifilia",
+      "consumption": "E ala i le fa'atauina (Sub-metered Proportional)",
+      "floorArea": "Ile Fale mafolafola Tele (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Aso e amata ai pili tau ta'amilosaga",
+      "cycleStartValue": "1 o masina ta'itasi",
+      "autoInvoices": "Fa'a-Aunoa PDF pili"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Ua Silia le Avanoa",
+      "statisticalOutlier": "Fa'amatalaga Fa'amaumauga"
+    },
+    "status": {
+      "active": "Malosi",
+      "resolved": "Foia",
+      "dismissed": "Fa'ate'aina"
+    },
+    "config": {
+      "title": "Fa'atonuga o le su'eina o le leak",
+      "subtitle": "Seti se ta'i masina e fa'aaoga ai ma/po'o le fa'ataga fa'afuainumera su'esu'ega (fa'ailoga se aiga e tulaga ese le maualuga o le taumafa fa'alemasina pe a fa'atusatusa i lona lava tala'aga).",
+      "loadError": "Le mafai ona utaina le fa'atonuga mataala. Fa'amolemole toe taumafai.",
+      "thresholdRequired": "E mana'omia se ta'i masina (kL) pe a fa'agaoioi fa'ailo fa'ailoga.",
+      "saveError": "Le mafai ona fa'asaoina lenei fa'atulagaga.",
+      "loading": "O lo'o uta le fa'atulagaga...",
+      "threshold": "Ta'i masina (kL)",
+      "sensitivity": "Ma'ale'ale ese (σ fa'atele)",
+      "enableThreshold": "Fa'amalo fa'aliga fa'ailoga",
+      "enableOutlier": "Fa'aagavaa fa'amatalaga fa'afuainumera outlier",
+      "save": "Fa'asaoina le Fa'atonu",
+      "running": "Tamomoe…",
+      "runNow": "Tafe le Su'esu'ega Nei"
+    },
+    "alerts": {
+      "title": "Aiga Fu'a",
+      "loadError": "Le mafai ona utaina fa'aaliga. Fa'amolemole toe taumafai.",
+      "runError": "Le mafai ona fa'atautaia le su'esu'ega leak i le taimi nei. Fa'amolemole toe taumafai.",
+      "updateError": "Le mafai ona fa'afou lenei fa'aaliga. Fa'amolemole toe taumafai.",
+      "allStatuses": "Statuses uma",
+      "loading": "O lo'o uta fa'aaliga...",
+      "empty": "Leai ni fa'aaliga e fa'aalia. Fa'atulaga se fa'ailoga po'o fa'agaoioi le su'esu'ega o lo'o i luga, ona kiliki lea o le \"Run Detection Now\" e iloilo ai le fa'aoga a lou nu'u.",
+      "resolve": "Filifiliga",
+      "dismiss": "Fa'ate'a"
+    },
+    "table": {
+      "household": "Aiga",
+      "resident": "Tagata nofomau",
+      "meter": "mita",
+      "type": "Ituaiga",
+      "period": "Vaitaimi",
+      "consumption": "Fa'atauga",
+      "reference": "Fa'asinomaga",
+      "status": "Tulaga"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Le mafai ona utaina vai tetele fa'atau. Fa'amolemole toe taumafai.",
+    "confirmRemove": "Aveese le {{source}} tiliva i le {{date}}?",
+    "removeError": "Le mafai ona aveese lenei fa'atau. Fa'amolemole toe taumafai.",
+    "count": "Fa'atauga fa'amaumau: {{total}}",
+    "recordButton": "+ Faʻamaumauga Faʻatau",
+    "loading": "La'uina o fa'atauga vai tetele...",
+    "empty": "E le'i fa'amauina ni fa'atauga vai tetele. Kiliki le \"Fa'amaumauga Fa'atauga\" e fa'amauina ai se va'a tilivaina po'o se fa'atauga a le malo.",
+    "table": {
+      "date": "Aso",
+      "source": "Punavai",
+      "volume": "Volume (L)",
+      "unitCost": "Tau o le Iunite",
+      "totalCost": "Aofa'i Tau",
+      "notes": "Fa'amatalaga"
+    },
+    "form": {
+      "addTitle": "Fa'amaumau Fa'atauga Suavai Tele",
+      "editTitle": "Fa'atonu Fa'atauga Suavai Tele",
+      "subtitle": "Su'e se va'a kiliva po'o sapalai fa'atauga mo lou nu'u - e fa'amauina mo na'o tau ma e le afaina ai pili o aiga.",
+      "requiredFields": "Fa'amolemole fa'atumu le aso, puna, voluma, ma le tau o le iunite.",
+      "saveError": "Le mafai ona fa'asaoina lenei fa'atau. Fa'amolemole siaki fa'amatalaga.",
+      "purchaseDate": "Aso fa'atau",
+      "source": "Puna / fa'atau",
+      "volume": "Volume (lita)",
+      "unitCost": "Tau o le iunite (₹/lita)",
+      "totalPreview": "Aofa'iga tau: {{amount}}",
+      "notes": "Fa'amatalaga (filifiliga)",
+      "submit": "Fa'amaumauga Fa'atau"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} e le'i fausia",
+    "profileSaveError": "Le mafai ona sefe lau talaaga. Fa'amolemole toe taumafai.",
+    "apartmentSaveError": "Le mafai ona sefe fa'amatalaga o fale mautotogi. Fa'amolemole toe taumafai.",
+    "specsTitle": "Fa'amatalaga Fa'amatalaga",
+    "photoUnavailable": "E le'i avanoa le la'uina o ata",
+    "changePhoto": "Suia Ata",
+    "deletePhoto": "Aveese",
+    "photoHint": "JPG poʻo PNG. Max tele 2MB.",
+    "saveProfile": "Fa'asaoina Tala'aga",
+    "apartmentTitle": "Fa'amatalaga Fale",
+    "saveApartment": "Fa'asaoina Fa'amatalaga Fale",
+    "tabs": {
+      "profile": "Fa'asologa o Tala'aga",
+      "apartment": "Tala'aga Fale",
+      "notifications": "Tulafono Fa'asilasilaga",
+      "billing": "Tu'ufa'atasiga o Pili",
+      "security": "Puipuiga & Avanoa"
+    },
+    "fields": {
+      "fullName": "Igoa Atoa",
+      "email": "Imeli tuatusi",
+      "emailLocked": "E le mafai ona sui le imeli iinei",
+      "phone": "Numera telefoni",
+      "accessLevel": "Avanoa Tulaga",
+      "accessLevelValue": "Pule o Nuu",
+      "roleLocked": "E le'i avanoa le pulega o matafaioi",
+      "apartmentName": "Igoa Fale",
+      "mainsSource": "Punavai Autu",
+      "mainsSourcePlaceholder": "e.g. Sapalai a le Malo + Toka Faaopoopo",
+      "address": "Tulaga Faaletino"
+    },
+    "security": {
+      "title": "Puipuiga & Avanoa Va'aiga",
+      "twoFactor": "Fa'amaoni Fa'ailoga Lua",
+      "twoFactorHint": "Fa'aagaoi ile saini",
+      "twoFactorUnavailable": "E le'i maua le fa'amaoniga e lua",
+      "twoFactorAria": "Fa'amaoniga e lua (na'o le mua'i va'aiga)",
+      "sessionsLabel": "Fa'atonu Pule Sauniga",
+      "sessionsEmpty": "E le'i maua le su'ega o sauniga - o se fa'aaliga lea o le fa'atulagaina o lo'o lumana'i."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "O'u Tiketi",
+      "inbox": "Tiketi nofomau"
+    },
+    "mine": {
+      "title": "O'u Tiketi Lagolago",
+      "subtitle": "Tu'u atu se fesili po'o se atugaluga e uiga i lou alalafaga i le System Admin.",
+      "emptyCreateHint": "Fa'atu se fesili po'o se atugaluga e uiga i lou nu'u. O le System Admin o le a toe iloilo ma tali mai iinei."
+    },
+    "inbox": {
+      "title": "Tiketi nofomau",
+      "subtitle": "Lagolago tiketi ma atugaluga ua fa'asino atu e tagata o lou nu'u ia oe."
+    }
+  }
+}

@@ -5,6 +5,7 @@ import java.time.YearMonth;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.TreeMap;
 import java.math.BigDecimal;
 
@@ -57,18 +58,27 @@ public class ResidentRecommendationService {
     private final InvoiceRepository invoiceRepository;
     private final AlertEngineService alertEngineService;
 
-    public ResidentRecommendationResponse getForResident(Resident resident) {
+    /**
+     * Returns the resident's persisted tips in {@code requestedLanguage} (the frontend's selected UI
+     * language). If nothing is persisted yet, or the persisted tips are in a different language, tips
+     * are generated synchronously in that language first - a one-time wait on the resident's own page
+     * load is acceptable, unlike billing-cycle finalize which must never block on Gemini. The new
+     * language is persisted, so later per-cycle regenerations keep using it.
+     */
+    public ResidentRecommendationResponse getForResident(Resident resident, String requestedLanguage) {
+        String language = ReplyLanguage.normalize(requestedLanguage);
+        Optional<ResidentRecommendation> existing = residentRecommendationRepository.findByResident(resident);
+        if (existing.isPresent() && language.equals(existing.get().getLanguage())) {
+            return toResponse(existing.get());
+        }
+
+        String periodMonth = existing.map(ResidentRecommendation::getSourcePeriodMonth).orElse(null);
+        generateForResident(resident, periodMonth, language);
+        // On a Gemini failure this falls back to whatever was already persisted (possibly in the
+        // previous language) rather than showing the resident an empty page.
         return residentRecommendationRepository.findByResident(resident)
                 .map(this::toResponse)
-                .orElseGet(() -> {
-                    // Synchronous (not the @Async path below) - this is a resident's own page load
-                    // with no persisted row yet, so a one-time wait for the very first generation
-                    // is acceptable, unlike billing-cycle finalize which must never block on Gemini.
-                    generateForResident(resident, null);
-                    return residentRecommendationRepository.findByResident(resident)
-                            .map(this::toResponse)
-                            .orElse(new ResidentRecommendationResponse(List.of(), null, null));
-                });
+                .orElse(new ResidentRecommendationResponse(List.of(), null, null));
     }
 
     /**
@@ -82,11 +92,21 @@ public class ResidentRecommendationService {
         generateForResident(resident, periodMonth);
     }
 
+    /** Regenerates in whatever language the resident's tips were last generated in (English if none). */
     @Transactional
     public void generateForResident(Resident resident, String periodMonth) {
+        String language = residentRecommendationRepository.findByResident(resident)
+                .map(ResidentRecommendation::getLanguage)
+                .orElse(ReplyLanguage.DEFAULT);
+        generateForResident(resident, periodMonth, language);
+    }
+
+    @Transactional
+    public void generateForResident(Resident resident, String periodMonth, String language) {
         try {
             String prompt = buildPrompt(resident, periodMonth);
-            GeminiTurnResult result = geminiClient.generateContent(SYSTEM_INSTRUCTION,
+            GeminiTurnResult result = geminiClient.generateContent(
+                    SYSTEM_INSTRUCTION + ReplyLanguage.instructionFor(language),
                     List.of(Map.of("role", "user", "parts", List.of(Map.of("text", prompt)))), null);
 
             if (!(result instanceof GeminiTurnResult.FinalText finalText)) {
@@ -105,6 +125,7 @@ public class ResidentRecommendationService {
             recommendation.setTips(String.join("\n", tips));
             recommendation.setGeneratedAt(Instant.now());
             recommendation.setSourcePeriodMonth(periodMonth);
+            recommendation.setLanguage(ReplyLanguage.normalize(language));
             residentRecommendationRepository.save(recommendation);
         } catch (Exception ex) {
             // A Gemini outage/failure must never break billing-cycle finalize (the primary caller)

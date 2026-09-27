@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "לִסְגוֹר",
+    "signUpTitle": "רשום את הקהילה שלך",
+    "signInTitle": "ברוך שובך",
+    "signUpSubtitle": "צור חשבון מנהל קהילה כדי להתחיל בניהול תושבים וחיובים.",
+    "signInSubtitle": "היכנס כדי להציג את צריכת המים והחיוב שלך."
+  },
+  "signIn": {
+    "errorFallback": "לא ניתן להיכנס. אנא נסה שוב.",
+    "emailLabel": "אֶלֶקטרוֹנִי",
+    "passwordLabel": "סִיסמָה",
+    "rememberMe": "תזכור אותי",
+    "forgotPassword": "שכחת סיסמה?",
+    "submitting": "נכנס...",
+    "submit": "היכנס",
+    "noAccount": "אין לך חשבון?",
+    "signUpLink": "הירשם"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "הסיסמאות אינן תואמות.",
+      "communityRequired": "נדרש שם קהילה.",
+      "termsRequired": "נא להסכים לתנאי השירות ולמדיניות הפרטיות.",
+      "fallback": "לא ניתן ליצור חשבון. אנא נסה שוב."
+    },
+    "hint": "רק מנהלי קהילה נרשמים כאן. ברגע שאתה נכנס, אתה תוסיף את פרטי התושבים שלך בעצמך - הם לא נרשמים בעצמם.",
+    "fullNameLabel": "שם מלא",
+    "emailLabel": "אֶלֶקטרוֹנִי",
+    "phoneLabel": "מספר טלפון",
+    "communityNameLabel": "שם הקהילה",
+    "passwordLabel": "סִיסמָה",
+    "confirmPasswordLabel": "אשר את הסיסמה",
+    "agreeTerms": "אני מסכים ל<termsLink>תנאים והגבלות</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink>",
+    "submitting": "יוצר חשבון...",
+    "submit": "צור חשבון ניהול",
+    "haveAccount": "כבר יש לך חשבון?",
+    "signInLink": "היכנס"
+  },
+  "installPrompt": {
+    "title": "התקן את HydroLedger",
+    "description": "הוסף אותו למסך הבית שלך לגישה מהירה.",
+    "dismiss": "לְפַטֵר",
+    "install": "לְהַתְקִין"
+  },
+  "setPassword": {
+    "title": "הגדר את הסיסמה שלך",
+    "loading": "טְעִינָה…",
+    "subtitle": "היי {{name}}, בחר סיסמה עבור {{email}} כדי להפעיל את חשבון HydroLedger שלך.",
+    "errors": {
+      "invalidLink": "קישור זה אינו חוקי או שפג תוקפו.",
+      "tooShort": "הסיסמה חייבת להיות לפחות 8 תווים.",
+      "mismatch": "הסיסמאות אינן תואמות.",
+      "fallback": "לא ניתן להגדיר את הסיסמה שלך. אנא נסה שוב."
+    },
+    "passwordLabel": "סִיסמָה",
+    "confirmPasswordLabel": "אשר את הסיסמה",
+    "submitting": "מגדיר סיסמה...",
+    "submit": "הגדר סיסמה והיכנס"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger עוזר",
+      "resident": "שאל על החשבון שלך",
+      "admin": "עוזר קהילה",
+      "platform": "עוזר פלטפורמה",
+      "default": "עוֹזֵר"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "מה זה HydroLedger?",
+        "tieredBilling": "איך עובד חיוב מדורג?",
+        "leaks": "כיצד מאתרים נזילות?"
+      },
+      "resident": {
+        "billEstimate": "מה הערכת החשבון הנוכחית שלי?",
+        "alerts": "האם יש לי התראות שימוש?",
+        "readings": "הצג את קריאות המונה האחרונות שלי"
+      },
+      "admin": {
+        "households": "כמה משקי בית יש לנו?",
+        "billingCycles": "רשום את מחזורי החיוב האחרונים שלנו",
+        "tariff": "מהי תוכנית התעריפים הנוכחית שלנו?"
+      },
+      "platform": {
+        "communities": "רשום את כל הקהילות הרשומות",
+        "usageReport": "הצג את דוח השימוש בפלטפורמה",
+        "systemStatus": "מה מצב המערכת?"
+      }
+    },
+    "errors": {
+      "rateLimited": "אתה שולח הודעות מהר מדי - אנא המתן רגע ונסה שוב.",
+      "unavailable": "האסיסטנט אינו זמין באופן זמני. אנא נסה שוב בקרוב.",
+      "generic": "משהו השתבש בשליחת ההודעה הזו. אנא נסה שוב."
+    },
+    "emptyHint": "שאל אותי כל דבר - אני יכול לראות רק את הנתונים שלך.",
+    "closeAssistant": "עוזר צמוד",
+    "openAssistant": "פתח עוזר",
+    "inputPlaceholder": "הקלד הודעה...",
+    "inputLabel": "הוֹדָעָה",
+    "send": "לִשְׁלוֹחַ"
+  },
+  "supportBoard": {
+    "defaultTitle": "כרטיסי תמיכה",
+    "defaultCreateLabel": "להעלות דאגה חדשה",
+    "status": {
+      "open": "לִפְתוֹחַ",
+      "inProgress": "בתהליך",
+      "resolved": "נפתר",
+      "closed": "סָגוּר"
+    },
+    "tabs": {
+      "all": "כל הכרטיסים"
+    },
+    "recipients": {
+      "admin": "מנהל קהילה",
+      "systemAdmin": "מנהל מערכת",
+      "both": "מנהל קהילה + מנהל מערכת"
+    },
+    "roles": {
+      "resident": "תוֹשָׁב",
+      "admin": "מנהל מערכת"
+    },
+    "toRecipients": "אל: {{recipients}}",
+    "raisedByResident": "גדל על ידי תושב {{name}}",
+    "raisedByAdmin": "הועלה על ידי מנהל מערכת {{name}}",
+    "refresh": "לְרַעֲנֵן",
+    "stats": {
+      "openLabel": "פתח הגשות",
+      "openHint": "ממתין לסקירה",
+      "inProgressLabel": "בתהליך",
+      "inProgressHint": "עובדים עליו",
+      "resolvedLabel": "נפתר",
+      "resolvedHint": "נסגר בהצלחה"
+    },
+    "searchPlaceholder": "חפש כרטיסים לפי נושא, גיליון...",
+    "loadingTickets": "טוען כרטיסים...",
+    "empty": {
+      "title": "לא נמצאו כרטיסי תמיכה",
+      "body": "אין לך כרגע בקשות תמיכה פתוחות או מוקלטות התואמות למסנן זה.",
+      "cta": "הגש חשש"
+    },
+    "errors": {
+      "loadList": "לא ניתן היה לטעון כרטיסי תמיכה. אנא נסה שוב.",
+      "loadDetail": "לא ניתן היה לטעון את הכרטיס הזה. אנא נסה שוב.",
+      "required": "הנושא וההודעה נדרשים שניהם.",
+      "recipientRequired": "בחר נמען אחד לפחות (מנהל קהילה ו/או מנהל מערכת).",
+      "submitFallback": "לא ניתן היה לשלוח את הכרטיס הזה. אנא נסה שוב.",
+      "sendReply": "לא ניתן לשלוח הודעה זו. אנא נסה שוב.",
+      "updateStatus": "לא ניתן היה לעדכן את סטטוס הכרטיס הזה. אנא נסה שוב."
+    },
+    "form": {
+      "defaultHint": "תאר את הבעיה או החשש שלך למטה.",
+      "subjectLabel": "נוֹשֵׂא",
+      "subjectPlaceholder": "סיכום קצר של הבעיה שלך",
+      "messageLabel": "הוֹדָעָה",
+      "messagePlaceholder": "תאר בפירוט מה קורה...",
+      "recipientsLabel": "שלח את החשש הזה ל",
+      "cancel": "לְבַטֵל",
+      "submitting": "הַגָשָׁה…",
+      "submit": "שלח כרטיס"
+    },
+    "detail": {
+      "loading": "טוען כרטיס...",
+      "replyPlaceholder": "כתבו תשובה…",
+      "close": "לִסְגוֹר",
+      "sending": "שְׁלִיחָה…",
+      "sendReply": "שלח תגובה"
+    }
+  },
+  "shell": {
+    "welcomeBack": "ברוך שובך, {{name}}",
+    "openMenu": "פתח את התפריט",
+    "closeMenu": "סגור תפריט",
+    "logout": "התנתק",
+    "search": "לְחַפֵּשׂ",
+    "notifications": "התראות"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "לוּחַ מַחווָנִים",
+      "households": "מדריך משקי בית",
+      "meterReadings": "קריאת מונים",
+      "billing": "ניהול חיוב",
+      "bulkPurchases": "רכישות בכמות גדולה",
+      "reports": "דוחות",
+      "waterLeakage": "דליפת מים",
+      "support": "תמיכה / דאגות",
+      "tariffPlans": "תוכניות תעריפים",
+      "announcements": "הכרזות",
+      "profile": "פּרוֹפִיל"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "הנה תמונת מצב של הקהילה שלך."
+      },
+      "households": {
+        "title": "מדריך משקי בית",
+        "subtitle": "הוסף, עדכן ונהל את התושבים החיים בקהילה שלך."
+      },
+      "meterReadings": {
+        "title": "רכזת קריאת מדי מים",
+        "subtitle": "חפש תושב ורשום את קריאת מד המים שלו."
+      },
+      "tariffPlans": {
+        "title": "תצורת תעריף",
+        "subtitle": "הגדר מגבלות תעריפים מדורגות, עלויות משותפות בשטח משותף ושיטות הפצה עבור קהילת הדירות שלך."
+      },
+      "billing": {
+        "title": "ניהול חיוב",
+        "subtitle": "פתח, סיים ואחסן מחזורי חיוב, ובדוק חשבוניות מפורטות לכל משק בית."
+      },
+      "bulkPurchases": {
+        "title": "רכישות בכמות גדולה",
+        "subtitle": "שיא משלוחי מכליות ורכישות אספקה ​​עירונית עבור הקהילה שלך."
+      },
+      "waterLeakage": {
+        "title": "דליפת מים",
+        "subtitle": "הגדר התראות דליפות המבוססות על סף וחריגות, ובדוק משקי בית שסומנו."
+      },
+      "support": {
+        "title": "תמיכה / דאגות",
+        "subtitle": "העלו כרטיסים משלכם למנהל המערכת, או טפלו בחששות שהתושבים שלכם פנו אליכם."
+      },
+      "profile": {
+        "title": "הגדרות ופרופיל",
+        "subtitle": "נהל את פרטי החשבון ופרטי הדירה שלך."
+      }
+    },
+    "fallbackName": "מנהל מערכת",
+    "fallbackCommunity": "מנהל קהילה",
+    "notBuilt": "{{label}} עדיין לא נבנה",
+    "searchPlaceholder": "חפש בכל דבר…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "דוחות",
+      "description": "דוחות צריכה, חיוב ושימור עבור הקהילה שלך."
+    },
+    "announcements": {
+      "title": "הכרזות",
+      "description": "שלח הודעות כלל-קהילתיות לתושבים שלך."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} בקרוב"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "לוּחַ מַחווָנִים",
+      "usageHistory": "היסטוריית שימוש",
+      "bills": "החשבונות שלי",
+      "recommendations": "המלצות",
+      "reports": "דוחות",
+      "support": "תמיכה / דאגות",
+      "notifications": "התראות",
+      "profile": "פּרוֹפִיל"
+    },
+    "pages": {
+      "usageHistory": "היסטוריית השימוש שלך",
+      "billing": "חיוב וחשבוניות",
+      "notifications": "התראות",
+      "recommendations": "המלצות",
+      "support": "תמיכה / דאגות"
+    },
+    "defaultTitle": "לוח מחוונים של תושב",
+    "navLabel": "ניווט תושבים",
+    "fallbackName": "תוֹשָׁב",
+    "unit": "יחידה {{number}}",
+    "comingSoon": "{{label}} בקרוב",
+    "profile": "פּרוֹפִיל",
+    "searchPlaceholder": "ניתוח חיפוש, חשבונות..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "לוּחַ מַחווָנִים",
+      "communities": "קהילות",
+      "reports": "דוחות",
+      "supportTickets": "כרטיסי תמיכה",
+      "systemStatus": "מצב מערכת"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "תמונת מצב בפלטפורמה בכל קהילה רשומה."
+      },
+      "communities": {
+        "title": "קהילות",
+        "subtitle": "כל מנהל קהילה רשום והקהילה שלו, במקום אחד."
+      },
+      "reports": {
+        "title": "דוחות",
+        "subtitle": "נתוני צריכת מים וחיוב בכל הפלטפורמה, לפי קהילה ולאורך זמן."
+      },
+      "supportTickets": {
+        "title": "כרטיסי תמיכה",
+        "subtitle": "תמכו בכרטיסים ובחששות שהעלו תושבים ומנהלי קהילה, בכל הפלטפורמה."
+      },
+      "systemStatus": {
+        "title": "מצב מערכת",
+        "subtitle": "קישוריות אחורי ובריאות זמן ריצה בסיסית."
+      }
+    },
+    "fallbackName": "מנהל מערכת",
+    "platformOwner": "בעל פלטפורמה",
+    "searchPlaceholder": "חפש קהילות..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "שפה: {{language}}",
+    "searchPlaceholder": "שפת חיפוש...",
+    "noMatches": "אין התאמות"
+  }
+}

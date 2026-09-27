@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kmalu na voljo",
+    "welcome": {
+      "greeting": "Pozdravljeni {{name}},",
+      "greetingFallback": "Pozdravljeni,",
+      "title": "Ostanite blizu vodne zgodbe vašega doma.",
+      "subtitle": "Tukaj bodo prikazani vpogledi v uporabo in zaračunavanje, ko vaša skupnost beleži odčitke.",
+      "viewBadges": "Oglejte si ekološke značke"
+    },
+    "stats": {
+      "todaysUsage": "Današnja uporaba",
+      "asOf": "Od {{date}}",
+      "noReading": "Števca še ni",
+      "monthlyTotalFor": "Mesečno skupno ({{month}})",
+      "monthlyTotalThisMonth": "Skupaj mesečno (ta mesec)",
+      "sumOfReadings": "Vsota zabeleženih odčitkov",
+      "estimatedBill": "Trenutni ocenjeni račun",
+      "estimatedBillFor": "Merjena poraba + skupni stroški, {{month}}",
+      "estimatedBillHint": "Na podlagi izmerjene porabe v tem mesecu in deljenih stroškov",
+      "savings": "Prihranki v primerjavi z gradnjo Povp",
+      "savingsValue": "{{percent}}% manj",
+      "savingsPreview": "Samo predogled — primerjava še ni objavljena"
+    },
+    "consumption": {
+      "eyebrow": "Poraba",
+      "title": "Dnevna poraba (zadnjih 14 meritev)",
+      "seriesName": "Poraba",
+      "empty": "Odčitki še niso zabeleženi."
+    },
+    "breakdown": {
+      "eyebrow": "Razčlenitev",
+      "title": "Razčlenitev uporabe",
+      "bathroom": "Kopalnica",
+      "kitchen": "Kuhinja",
+      "garden": "Vrt / Balkon",
+      "other": "Drugo / Pranje perila"
+    },
+    "billing": {
+      "eyebrow": "Obračunavanje",
+      "title": "Aktivni obračunski cikel",
+      "finalized": "Dokončano",
+      "preview": "Predogled",
+      "meteredConsumption": "Merjena poraba",
+      "tierPriceLevel": "Stopnja cene",
+      "tierLabel": "Stopnja {{tier}}",
+      "commonArea": "Porazdelitev skupnega prostora",
+      "commonAreaPreview": "Porazdelitev skupnega prostora (predogled)",
+      "invoiceTotal": "{{period}} račun skupaj",
+      "estimatedCharge": "Trenutna ocenjena poraba",
+      "commonAreaBreakdown": "Razčlenitev skupnega prostora",
+      "payPreview": "Predogled plačila računa",
+      "payUnavailable": "Mehanizem obračunavanja še ni na voljo"
+    },
+    "tips": {
+      "eyebrow": "Nasveti",
+      "title": "Nasveti za pametno varčevanje",
+      "viewAll": "Prikaži vse",
+      "empty": "Prilagojeni nasveti se prikažejo tukaj, ko vaša skupnost zaključi obračunski cikel."
+    },
+    "community": "Skupnost: {{name}}"
+  },
+  "usage": {
+    "loadError": "Vaše zgodovine uporabe ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "loading": "Nalaganje analitike uporabe ...",
+    "empty": "Odčitki še niso zabeleženi. Ko vaša skupnost zabeleži odčitek števca, se prikaže tukaj.",
+    "tabs": {
+      "lastSixMonths": "Zadnjih 6 mesecev",
+      "customRange": "Razpon po meri",
+      "comingSoon": "Kmalu na voljo"
+    },
+    "peakDay": "Najvišji dan:",
+    "lowestDay": "Najnižji dan:",
+    "comparison": {
+      "title": "Poraba gospodinjstva v primerjavi s povprečjem stanovanja",
+      "subtitle": "Mesečne vsote so prikazane v kilolitrih (kL).",
+      "yourHousehold": "Vaše gospodinjstvo",
+      "apartmentAverage": "Stanovanje Povprečje",
+      "similarSized": "Hiše podobne velikosti"
+    },
+    "heatmap": {
+      "title": "Toplotni zemljevid dnevne porabe",
+      "subtitle": "Intenzivnost barve označuje dneve pogoste uporabe (predogled)."
+    },
+    "ranking": {
+      "title": "Skupnost Peer Ranking",
+      "subtitle": "Vaša uvrstitev v primerjavi s podobnimi enotami (predogled).",
+      "ecoSaver": "Active Eco Saver",
+      "aptNumber": "Stanovanje {{number}}",
+      "unitNumber": "Enota {{number}}",
+      "yourUnit": "Vaša enota",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Vi)"
+    }
+  },
+  "billing": {
+    "loadError": "Vaše zgodovine obračunavanja ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "pdfError": "Ni bilo mogoče prenesti PDF. prosim poskusite ponovno",
+    "loading": "Nalaganje vaše zgodovine obračunavanja ...",
+    "empty": "Računov še ni – ko bo vaša skupnost dokončala obračunski cikel, bodo vaši računi prikazani tukaj.",
+    "status": {
+      "paid": "Plačano",
+      "unpaid": "Neplačano"
+    },
+    "summary": {
+      "outstandingBalance": "Neplačano stanje",
+      "billingCycle": "Obračunski cikel: {{period}}",
+      "allPaid": "Vsi računi so plačani",
+      "payTotal": "Plačajte skupno neporavnano",
+      "payTotalUnavailable": "Spletno plačilo še ni na voljo — račune poravnajte neposredno s skrbnikom skupnosti",
+      "downloadSummary": "Prenesite povzetek računa",
+      "downloadSummaryUnavailable": "Prenos povzetka računa še ni na voljo"
+    },
+    "history": {
+      "title": "Zgodovina računov",
+      "exportCsv": "Izvozi vse v CSV",
+      "exportUnavailable": "CSV izvoz še ni na voljo"
+    },
+    "table": {
+      "cycle": "Cikel",
+      "usage": "Uporaba (kL)",
+      "amountDue": "Dolgovani znesek",
+      "paymentStatus": "Stanje plačila",
+      "hideBreakdown": "Skrij razčlenitev ↑",
+      "showBreakdown": "Razčlenitev po postavkah ↓",
+      "downloading": "Prenašanje ...",
+      "pdf": "PDF",
+      "pay": "plačaj"
+    },
+    "breakdown": {
+      "householdTitle": "Razčlenitev porabe gospodinjstev",
+      "basePrice": "Osnovna cena: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Stopnja {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Vmesni seštevek merjene porabe",
+      "commonAreaTitle": "Porazdelitev skupnih površin",
+      "subtotalShared": "Vmesni seštevek Skupna površina",
+      "noCommonArea": "Za ta cikel ni stroškov skupnega prostora."
+    },
+    "pagination": {
+      "showing": "Prikaz {{from}}–{{to}} od {{total}}",
+      "prev": "← Prejšnji",
+      "next": "Naprej →",
+      "page": "Stran {{page}} od {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Načini plačila (predogled)",
+      "description": "Spletno plačilo še ni na voljo — računi se poravnajo neposredno pri skrbniku skupnosti.",
+      "manage": "Upravljanje plačilnih metod",
+      "manageUnavailable": "Načini plačila še niso na voljo"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Varuje Razorpay",
+    "billingCycle": "Obračunski cikel {{period}}",
+    "close": "Zapri",
+    "amountPayable": "Znesek za plačilo",
+    "methods": {
+      "upi": "UPI",
+      "cards": "kartice",
+      "netbanking": "Internetno bančništvo",
+      "wallet": "Denarnica"
+    },
+    "upi": {
+      "title": "Plačajte prek UPI",
+      "upiId": "UPI ID",
+      "or": "ALI",
+      "scan": "Skenirajte s katero koli aplikacijo UPI."
+    },
+    "card": {
+      "title": "Plačajte s kartico",
+      "number": "Številka kartice",
+      "expiry": "Iztek",
+      "expiryPlaceholder": "MM/LL",
+      "cvv": "CVV",
+      "name": "Ime na kartici",
+      "namePlaceholder": "Kot je natisnjeno na kartici"
+    },
+    "netbanking": {
+      "title": "Plačajte prek spletnega bančništva"
+    },
+    "wallet": {
+      "title": "Plačajte prek denarnice"
+    },
+    "payAmount": "Plačajte {{amount}} ₹",
+    "processing": "Obdelava vašega plačila …",
+    "processingHint": "Prosimo, ne pritiskajte nazaj ali osvežite te strani",
+    "success": "Plačilo uspešno",
+    "error": "Pri potrjevanju vašega plačila je šlo nekaj narobe. prosim poskusite ponovno",
+    "retry": "Poskusite znova"
+  },
+  "notifications": {
+    "loadError": "Vaših obvestil ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "loading": "Nalaganje vaših obvestil ...",
+    "empty": "Obvestil še ni — tukaj boste videli nekaj, če je skrbnik vaše skupnosti omogočil opozorila o pragu uporabe ali nenavadni porabi in se eno sproži za vaše gospodinjstvo.",
+    "type": {
+      "thresholdExceeded": "Prag porabe je presežen",
+      "statisticalOutlier": "Zaznana nenavadna poraba"
+    },
+    "status": {
+      "active": "Aktiven",
+      "resolved": "Razrešeno",
+      "dismissed": "Odpuščen"
+    },
+    "billingPeriod": "Obračunsko obdobje: {{period}}",
+    "consumption": "Poraba: {{value}} kL",
+    "push": {
+      "title": "Potisna obvestila",
+      "description": "Prejmite obvestilo v tej napravi, ko pride nov račun ali opozorilo.",
+      "enable": "Omogoči",
+      "disable": "Onemogoči",
+      "permissionDenied": "Dovoljenje za obveščanje ni bilo odobreno.",
+      "notConfigured": "Potisna obvestila še niso konfigurirana. Obrnite se na skrbnika.",
+      "enableError": "Potisnih obvestil ni bilo mogoče omogočiti. prosim poskusite ponovno",
+      "disableError": "Potisnih obvestil ni bilo mogoče onemogočiti. prosim poskusite ponovno"
+    }
+  },
+  "recommendations": {
+    "loadError": "Vaših priporočil ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "loading": "Nalaganje prilagojenih nasvetov …",
+    "generated": "Ustvarjeno {{date}}",
+    "generatedForPeriod": "Ustvarjeno {{date}} za obračunsko obdobje {{period}}",
+    "eyebrow": "Prilagojeno za vas",
+    "title": "Pametni nasveti za varčevanje z vodo",
+    "empty": "Ustvarjen še ni noben namig — ti se samodejno osvežijo vsakič, ko vaša skupnost zaključi obračunski cikel za vaše gospodinjstvo."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Predložite poročila o puščanju vode, zahteve za umerjanje merilnika ali poizvedbe o obračunavanju neposredno svojemu skrbniku skupnosti in/ali skrbniku sistema.",
+    "emptyCreateHint": "Spodaj opišite svojo težavo ali skrb in izberite, kdo naj jo obravnava."
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "AKAIKY",
+    "signUpTitle": "Soraty ny vondrom-piarahamoninao",
+    "signInTitle": "Tongasoa indray",
+    "signUpSubtitle": "Mamorona kaonty Admin Community hanombohana ny fitantanana ny mponina sy ny faktiora.",
+    "signInSubtitle": "Midira hijerena ny fampiasanao rano sy ny faktiora."
+  },
+  "signIn": {
+    "errorFallback": "Tsy afaka miditra. Andramo indray azafady.",
+    "emailLabel": "mailaka",
+    "passwordLabel": "Password",
+    "rememberMe": "Tsarovy aho",
+    "forgotPassword": "Hadino ny tenimiafina?",
+    "submitting": "Miditra…",
+    "submit": "Hiditra",
+    "noAccount": "Tsy manana kaonty?",
+    "signUpLink": "Hiditra Mpikambana"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Tsy mifanaraka ny tenimiafina.",
+      "communityRequired": "Ilaina ny anaran'ny vondrom-piarahamonina.",
+      "termsRequired": "Ekeo azafady ny Fepetran'ny serivisy sy ny politika momba ny fiainana manokana.",
+      "fallback": "Tsy afaka mamorona kaonty. Andramo indray azafady."
+    },
+    "hint": "Ny mpitantana vondrom-piarahamonina ihany no misoratra anarana eto. Rehefa tafiditra ianao dia ampidirinao ny antsipirihan'ny mponina ao aminao — tsy misoratra anarana samirery izy ireo.",
+    "fullNameLabel": "Anarana feno",
+    "emailLabel": "mailaka",
+    "phoneLabel": "Nomeraon-telefaona",
+    "communityNameLabel": "Anaran'ny fiaraha-monina",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Hamafiso ny tenimiafina",
+    "agreeTerms": "Ekeko ny <termsLink>Fepetra momba ny serivisy</termsLink> sy <privacyLink>Politika momba ny tsiambaratelo</privacyLink>",
+    "submitting": "Mamorona kaonty…",
+    "submit": "Mamorona kaonty Admin",
+    "haveAccount": "Efa manana kaonty?",
+    "signInLink": "Hiditra"
+  },
+  "installPrompt": {
+    "title": "Mametraka HydroLedger",
+    "description": "Ampio amin'ny efijerinao izany mba hidirana haingana.",
+    "dismiss": "handroaka",
+    "install": "hametraka"
+  },
+  "setPassword": {
+    "title": "Ataovy ny tenimiafinao",
+    "loading": "Loading…",
+    "subtitle": "Salama {{name}}, mifidiana tenimiafina ho an'ny {{email}} hampavitrika ny kaontinao HydroLedger.",
+    "errors": {
+      "invalidLink": "Tsy mety na lany daty ity rohy ity.",
+      "tooShort": "Ny tenimiafina dia tokony ho 8 farafahakeliny.",
+      "mismatch": "Tsy mifanaraka ny tenimiafina.",
+      "fallback": "Tsy afaka nametraka ny tenimiafinao. Andramo indray azafady."
+    },
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Hamafiso ny tenimiafina",
+    "submitting": "Mametraka tenimiafina…",
+    "submit": "Mametraha tenimiafina & midira"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Mpanampy",
+      "resident": "Anontanio ny momba ny kaontinao",
+      "admin": "Mpanampy fiaraha-monina",
+      "platform": "Mpanampy amin'ny sehatra",
+      "default": "mpanampy"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Inona ny HydroLedger?",
+        "tieredBilling": "Ahoana no fiasan'ny faktiora misy ambaratonga?",
+        "leaks": "Ahoana no hamantarana ny fivoahana?"
+      },
+      "resident": {
+        "billEstimate": "Inona ny tombam-bidiko ankehitriny?",
+        "alerts": "Manana fanairana momba ny fampiasana ve aho?",
+        "readings": "Asehoy ny famakiako metatra vao haingana"
+      },
+      "admin": {
+        "households": "Firy ny tokantrano ananantsika?",
+        "billingCycles": "Tanisao ny tsingerina faktiora vao haingana",
+        "tariff": "Inona ny drafitry ny karamantsika ankehitriny?"
+      },
+      "platform": {
+        "communities": "Tanisao ny vondrom-piarahamonina rehetra voasoratra anarana",
+        "usageReport": "Asehoy ny tatitra momba ny fampiasana sehatra",
+        "systemStatus": "Inona ny satan'ny rafitra?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mandefa hafatra haingana loatra ianao - andraso kely azafady ary andramo indray.",
+      "unavailable": "Tsy afaka vonjimaika ny mpanampy. Andramo indray azafady azafady.",
+      "generic": "Nisy tsy nety tamin'ny fandefasana an'io hafatra io. Andramo indray azafady."
+    },
+    "emptyHint": "Anontanio ahy na inona na inona - ny angonao ihany no hitako.",
+    "closeAssistant": "Akatona mpanampy",
+    "openAssistant": "Open assistant",
+    "inputPlaceholder": "Manorata hafatra…",
+    "inputLabel": "hAFATRA",
+    "send": "Alefaso"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tickets fanohanana",
+    "defaultCreateLabel": "Manangana ahiahy vaovao",
+    "status": {
+      "open": "Misokatra",
+      "inProgress": "Eo an-dàlana",
+      "resolved": "tapa-kevitra",
+      "closed": "mihidy"
+    },
+    "tabs": {
+      "all": "Tickets rehetra"
+    },
+    "recipients": {
+      "admin": "Mpitantana ny vondrom-piarahamonina",
+      "systemAdmin": "System Admin",
+      "both": "Mpiandraikitra ny vondrom-piarahamonina + Mpiandraikitra ny rafitra"
+    },
+    "roles": {
+      "resident": "Amin'ny mponina",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Notezain'ny mponina {{name}}",
+    "raisedByAdmin": "Natsangan'ny admin {{name}}",
+    "refresh": "Havaozina",
+    "stats": {
+      "openLabel": "Sokafy ny fandefasana",
+      "openHint": "Miandry ny famerenana",
+      "inProgressLabel": "Eo an-dàlana",
+      "inProgressHint": "Miasa",
+      "resolvedLabel": "tapa-kevitra",
+      "resolvedHint": "Nikatona soa aman-tsara"
+    },
+    "searchPlaceholder": "Mitadiava tapakila amin'ny lohahevitra, famoahana…",
+    "loadingTickets": "Mametraka tapakila…",
+    "empty": {
+      "title": "Tsy misy tapakila fanohanana hita",
+      "body": "Tsy manana fangatahana fanohanana misokatra na voarakitra mifanaraka amin'ity sivana ity ianao amin'izao fotoana izao.",
+      "cta": "Mametraha ahiahy"
+    },
+    "errors": {
+      "loadList": "Tsy afaka nampiditra tapakila fanohanana. Andramo indray azafady.",
+      "loadDetail": "Tsy afaka nampiditra ity tapakila ity. Andramo indray azafady.",
+      "required": "Ny lohahevitra sy ny hafatra dia samy ilaina.",
+      "recipientRequired": "Misafidiana mpandray iray farafahakeliny (Adminin'ny vondrom-piarahamonina sy/na Admin System).",
+      "submitFallback": "Tsy afaka nanolotra ity tapakila ity. Andramo indray azafady.",
+      "sendReply": "Tsy afaka nandefa ity hafatra ity. Andramo indray azafady.",
+      "updateStatus": "Tsy afaka nanavao ity sata tapakila ity. Andramo indray azafady."
+    },
+    "form": {
+      "defaultHint": "Lazalazao eto ambany ny olanao na ny ahiahinao.",
+      "subjectLabel": "-DAHATSORATRA",
+      "subjectPlaceholder": "Famintinana fohy momba ny olanao",
+      "messageLabel": "hAFATRA",
+      "messagePlaceholder": "Farito amin'ny antsipiriany ny zava-mitranga…",
+      "recipientsLabel": "Alefaso any amin'ny",
+      "cancel": "hanafoana",
+      "submitting": "Mandefa…",
+      "submit": "Alefaso tapakila"
+    },
+    "detail": {
+      "loading": "Mametraka tapakila…",
+      "replyPlaceholder": "Manorata valiny…",
+      "close": "AKAIKY",
+      "sending": "Mandefa…",
+      "sendReply": "Alefaso valiny"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Tongasoa eto, {{name}}",
+    "openMenu": "Sokafy ny sakafo",
+    "closeMenu": "Akatona ny sakafo",
+    "logout": "Mivoaha",
+    "search": "karohy",
+    "notifications": "fampahatsiahivana"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "anaty fiara",
+      "households": "Tokantrano Directory",
+      "meterReadings": "Famakiana metatra",
+      "billing": "Fitantanana faktiora",
+      "bulkPurchases": "Fividianana betsaka",
+      "reports": "tatitra",
+      "waterLeakage": "Fidirana rano",
+      "support": "Fanohanana / ahiahy",
+      "tariffPlans": "Tarifa drafitra",
+      "announcements": "Fampandrenesana",
+      "profile": "TANTARANY"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ity misy sarin'ny fiaraha-monina misy anao."
+      },
+      "households": {
+        "title": "Tokantrano Directory",
+        "subtitle": "Ampio, havaozy ary tantano ny mponina monina ao amin'ny vondrom-piarahamoninao."
+      },
+      "meterReadings": {
+        "title": "Water Meter Readings Hub",
+        "subtitle": "Mitadiava mponina iray ary raketo an-tsoratra ny famakian-drano azy."
+      },
+      "tariffPlans": {
+        "title": "Tariff Configuration",
+        "subtitle": "Ampifanaraho ny fetran'ny sarany, ny sandan'ny faritra iraisana ary ny fomba fizarana ho an'ny vondrom-piarahamonina misy anao."
+      },
+      "billing": {
+        "title": "Fitantanana faktiora",
+        "subtitle": "Sokafy, farano, ary alaivo ny tsingerin'ny faktiora, ary avereno jerena ny faktiora voafantina isaky ny tokantrano."
+      },
+      "bulkPurchases": {
+        "title": "Fividianana betsaka",
+        "subtitle": "Raketo an-tsoratra ny fanaterana tanky sy ny fividianana famatsiana monisipaly ho an'ny vondrom-piarahamoninao."
+      },
+      "waterLeakage": {
+        "title": "Fidirana rano",
+        "subtitle": "Ampifanaraho amin'ny tokonam-baravarana sy fampandrenesana mitete-mihoatra noho ny lavitra, ary avereno jerena ireo tokantrano voamarika."
+      },
+      "support": {
+        "title": "Fanohanana / ahiahy",
+        "subtitle": "Atsangano any amin'ny Admin System ny tapakilanao manokana, na karakarao ny ahiahin'ny mponina aminao."
+      },
+      "profile": {
+        "title": "Fikirana & mombamomba",
+        "subtitle": "Tantano ny antsipirian'ny kaontinao sy ny mombamomba ny trano."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Mpitantana ny vondrom-piarahamonina",
+    "notBuilt": "{{label}} dia tsy mbola vita",
+    "searchPlaceholder": "Hikaroka na inona na inona…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "tatitra",
+      "description": "Tatitra momba ny fanjifana, faktiora ary fiarovana ho an'ny vondrom-piarahamoninao."
+    },
+    "announcements": {
+      "title": "Fampandrenesana",
+      "description": "Mandefa fanambarana manerana ny vondrom-piarahamonina amin'ny mponinao."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ho avy tsy ho ela"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "anaty fiara",
+      "usageHistory": "Tantaran'ny fampiasana",
+      "bills": "Ny faktiorako",
+      "recommendations": "tolo-kevitra",
+      "reports": "tatitra",
+      "support": "Fanohanana / ahiahy",
+      "notifications": "fampahatsiahivana",
+      "profile": "TANTARANY"
+    },
+    "pages": {
+      "usageHistory": "Ny tantaran'ny fampiasanao",
+      "billing": "Faktiora & faktiora",
+      "notifications": "fampahatsiahivana",
+      "recommendations": "tolo-kevitra",
+      "support": "Fanohanana / ahiahy"
+    },
+    "defaultTitle": "Dashboard mponina",
+    "navLabel": "Fikarohana mponina",
+    "fallbackName": "Amin'ny mponina",
+    "unit": "Fizarana {{number}}",
+    "comingSoon": "{{label}} ho avy tsy ho ela",
+    "profile": "TANTARANY",
+    "searchPlaceholder": "Fikarohana fanadihadiana, faktiora…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "anaty fiara",
+      "communities": "Vondrom-piarahamonina",
+      "reports": "tatitra",
+      "supportTickets": "Tickets fanohanana",
+      "systemStatus": "Satan'ny rafitra"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Saripikan'ny sehatra manerana ny vondrom-piarahamonina rehetra voasoratra anarana."
+      },
+      "communities": {
+        "title": "Vondrom-piarahamonina",
+        "subtitle": "Ny mpitantana vondrom-piarahamonina rehetra voasoratra anarana sy ny vondrom-piarahamoniny, amin'ny toerana iray."
+      },
+      "reports": {
+        "title": "tatitra",
+        "subtitle": "Tarehimarika momba ny fampiasana rano sy faktiora eran'ny sehatra, araka ny fiaraha-monina ary mandritra ny fotoana."
+      },
+      "supportTickets": {
+        "title": "Tickets fanohanana",
+        "subtitle": "Tohano ny tapakila sy ny olana napetraky ny mponina sy ny mpitantana ny vondrom-piarahamonina, manerana ny sehatra."
+      },
+      "systemStatus": {
+        "title": "Satan'ny rafitra",
+        "subtitle": "Ny fifandraisana amin'ny backend sy ny fahasalamana fototra amin'ny fotoana fandehanana."
+      }
+    },
+    "fallbackName": "System Admin",
+    "platformOwner": "Tompon'ny sehatra",
+    "searchPlaceholder": "Mikaroka vondrom-piarahamonina…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Fiteny: {{language}}",
+    "searchPlaceholder": "Fiteny fikarohana…",
+    "noMatches": "Tsy misy lalao"
+  }
+}

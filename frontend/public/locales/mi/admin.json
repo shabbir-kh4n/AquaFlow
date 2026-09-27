@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Uta ana…",
+    "saving": "Tiaki…",
+    "saved": "Whakaorangia.",
+    "uploading": "Tukuake ana…",
+    "upload": "Tukuake",
+    "uploadError": "Kāore i taea te tuku ake i tēnei kōnae. Me ngana ano.",
+    "cancel": "Whakakore",
+    "close": "Katia",
+    "edit": "Whakatikatika",
+    "remove": "Tango",
+    "saveChanges": "Tiaki Huringa",
+    "bulkSummary": "Tukatuka <b>{{total}}</b> rarangi — <b>{{success}}</b> i angitu, <b>{{failure}}</b> i rahua.",
+    "rowFailure": "Rarangi {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Whakaatu ana {{from}}–{{to}} o {{total}}",
+    "prev": "← Tuhinga o mua",
+    "next": "Panuku →",
+    "page": "Whārangi {{page}} o {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Kāore i taea te uta i ō raraunga hapori ināianei.",
+    "title": "{{community}} Papatohu Whare",
+    "titleFallback": "To Papatohu Whare Whare",
+    "subtitle": "He whakarāpopototanga mahi mo te ine-iti me te kai o te whare.",
+    "comingSoon": "Ka tata mai",
+    "manageCommunity": "Whakahaere Hapori",
+    "noUsageReadings": "Kaore ano kia tuhia nga panui whakamahi.",
+    "cards": {
+      "totalHouseholds": "Tapeke Whare",
+      "occupied": "Kua nohoia",
+      "activeMeters": "Nga Mita Hohe",
+      "reportingReadings": "Te panui korero",
+      "monthlyConsumption": "Kohi Marama",
+      "thisCalendarMonth": "Tenei marama maramataka",
+      "latestRecordedMonth": "Marama rekoata hou ({{month}})",
+      "noReadingsYet": "Kaore ano kia tuhia nga panui",
+      "pendingAlerts": "E tatari ana matohi",
+      "anomalyPreview": "Arokite kitenga anomaly — kaore ano i te waatea"
+    },
+    "actions": {
+      "label": "Nga Mahi Whakahaere Tere",
+      "uploadReadings": "Tukuna Nga Panui Mita",
+      "configureTariffs": "Whakaritehia nga utu",
+      "reportsNotBuilt": "Kaore ano kia hangahia nga purongo",
+      "downloadReports": "Tikiake Pūrongo Pūnaha"
+    },
+    "chart": {
+      "title": "Whakatauritenga Kohi Marama (kL)",
+      "subtitle": "{{months}} marama kua hipa: te whainga me te kohi tuturu.",
+      "targetSeries": "Whāinga (arokite)",
+      "actualSeries": "Tuturu"
+    },
+    "recent": {
+      "title": "Nga Panuitanga mita o naianei",
+      "unit": "Waeine",
+      "resident": "Kainoho",
+      "lastReading": "Panuitanga Whakamutunga",
+      "consumption": "Te kai"
+    }
+  },
+  "households": {
+    "loadError": "Kāore i taea te uta kainoho. Me ngana ano.",
+    "fixFields": "Tena whakatikahia nga mara kua tohua.",
+    "saveError": "Kaore i taea te whakaora i tenei kainoho. Tena tirohia nga korero.",
+    "confirmRemove": "Tango {{name}} mai i to raarangi whare?",
+    "removeError": "Kaore i taea te tango i tenei kainoho. Me ngana ano.",
+    "count": "Whare: {{total}}",
+    "bulkUploadButton": "⇪ Tukuake Nui",
+    "addResidentButton": "+ Tāpiri Kainoho",
+    "searchPlaceholder": "Tātarihia ma te ingoa, te whare, te imeera, te mita nama ranei.",
+    "loading": "Uta ana nga kainoho…",
+    "empty": "Kaore ano he kainoho. Patohia te \"Taapiri Kainoho\" ki te rehita i te whare tuatahi.",
+    "noMatch": "Karekau he kainoho e rite ana ki te \"{{search}}\".",
+    "sort": {
+      "label": "Kōmaka mā",
+      "name": "Ingoa",
+      "houseNumber": "Nama Whare",
+      "dateOfJoining": "Te ra o te hono",
+      "toggleDirection": "Takahurihia te ahunga kōmaka",
+      "asc": "↑ Asc",
+      "desc": "↓ Des"
+    },
+    "gender": {
+      "male": "Tane",
+      "female": "Wahine",
+      "other": "Ētahi atu"
+    },
+    "table": {
+      "name": "Ingoa",
+      "houseUnit": "Whare / Waeine",
+      "email": "Īmēra",
+      "phone": "Waea",
+      "meterNumber": "Mita No.",
+      "sqft": "Sqft",
+      "joined": "Kua hono"
+    },
+    "form": {
+      "addTitle": "Tāpiri Kainoho",
+      "editTitle": "Whakatika Kainoho",
+      "editSubtitle": "Ka whakahōu tēnei i ngā kōrero a te kainoho i tō whaiaronga.",
+      "bypassSubtitle": "Kei te tautuhi tika koe i te kupuhipa a tenei kainoho. Karekau he imeera e tukuna.",
+      "addSubtitle": "Ka tukuna he hononga-kupuhipa ki tenei kainoho kia taea ai e ratou te whakahohe i tana ake takiuru.",
+      "fullName": "Ingoa katoa",
+      "houseNumber": "Whare / wae no.",
+      "email": "Īmēra",
+      "phone": "Tau waea",
+      "meterNumber": "Nama mita",
+      "governmentId": "ID Kāwanatanga",
+      "gender": "Ira tangata",
+      "dateOfBirth": "Te ra whanau",
+      "dateOfJoining": "Te ra i uru mai ai",
+      "flatSize": "Rahi papatahi (sq ft)",
+      "bypassLabel": "Tukuna he imeera kua tautuhia-kupuhipa — whakaritea he kupuhipa mo tenei kainoho inaianei",
+      "password": "Kupuhipa",
+      "confirmPassword": "Whakaū kupuhipa"
+    },
+    "validation": {
+      "fullNameRequired": "Ko te ingoa katoa e hiahiatia ana.",
+      "emailRequired": "Kei te hiahiatia te imeera.",
+      "phoneRequired": "Kei te hiahiatia te nama waea.",
+      "houseNumberRequired": "Kei te hiahiatia te nama whare / wae.",
+      "houseNumberTaken": "Ko tenei nama whare kua tohua ki tetahi atu tangata noho.",
+      "meterNumberRequired": "Me tau te mita.",
+      "meterNumberFormat": "Me rite te ahua o te nama mita ki a MTR-1234 (4 mati).",
+      "meterNumberTaken": "Ko tenei nama mita kua tohua ki tetahi atu tangata noho.",
+      "governmentIdRequired": "Ko te ID a te Kawanatanga e hiahiatia ana.",
+      "governmentIdFormat": "Ko te ID me 6 mati ka timata i te 99 (hei tauira 991234).",
+      "genderRequired": "Tīpakohia koa he ira tangata.",
+      "dateOfBirthRequired": "Ka hiahiatia te ra whanau.",
+      "dateOfJoiningRequired": "Ka hiahiatia te ra whakauru.",
+      "passwordRequired": "Kei te hiahiatia te kupuhipa.",
+      "passwordLength": "Me 8 te iti rawa o te kupuhipa.",
+      "confirmPasswordRequired": "Whakaū koa te kupuhipa.",
+      "passwordMismatch": "Karekau nga kupuhipa e taurite."
+    },
+    "bulk": {
+      "title": "Tukuake Nui nga Kainoho",
+      "noFile": "Kōwhiri koa he kōnae .csv, .xlsx/.xls rānei hei tukuake.",
+      "instructions": "Tukuna he kōnae .csv, .xlsx/.xls ranei me nga pou <code>{{columns}}</code> (ko te kupuhipa me te flatSizeSqft he mea whiriwhiri). Ko nga rarangi me te kupuhipa ka tautuhi tika; Ko nga rarangi kaore he kotahi ka whiwhi i te imeera-kupuhipa, pera ano me te taapiri a-ringa i te tangata noho. Ka paopaohia nga nama whare/mita taarua, nga imeera ranei mo ia rarangi - kotahi rarangi kino e kore e taka te puranga katoa."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Kāore i taea te uta kainoho. Me ngana ano.",
+    "historyLoadError": "Kaore i taea te uta te hitori panui. Me ngana ano.",
+    "successMessage": "I angitu te tuhi i te panui o {{value}} kL mo {{house}} (Meta: {{meter}})! Kohi kua tatauhia: {{consumption}} kL.",
+    "tabs": {
+      "single": "Whakauru Takitahi",
+      "csv": "Nui CSV Tukuake",
+      "history": "Panui History"
+    },
+    "source": {
+      "manual": "ā-ringa",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Karekau he nama mita o tenei kainoho i runga i te konae.",
+      "dateRequired": "Ka hiahiatia te ra panui.",
+      "invalidValue": "Whakaurua koa he uara panui whaimana, kore-kino.",
+      "duplicate": "He panuitanga mo tenei mita i tera ra.",
+      "meterNotFound": "Kaore i kitea tenei mita. Tīpakohia anō te tangata noho.",
+      "lowerThanPrevious": "He iti ake tenei panui i te panui kua tuhia o mua.",
+      "recordFailed": "Kaore i taea te tuhi i tenei panui. Me ngana ano."
+    },
+    "combo": {
+      "label": "Tīpakohia te Papatahi & Meter Serial",
+      "placeholder": "Tīpakohia te Raarangi Papatahi me te mita…",
+      "flat": "Papatahi {{house}}",
+      "noMeter": "Kaore he mita",
+      "searchPlaceholder": "Rapu papa kore, rangatū mita, kainoho…",
+      "unitsHeader": "Nga Wae Noho",
+      "found": "I kitea nga papa: {{total}}",
+      "loading": "Uta ana nga kainoho…",
+      "noMatch": "Karekau he kainoho e rite ana ki te \"{{search}}\".",
+      "unassigned": "Kore i tohua",
+      "itemMeta": "{{name}} · Whakamutunga: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Te tuhi panui mo",
+      "context": "Whare {{house}} · Mita {{meter}}",
+      "changeResident": "Huri tangata noho",
+      "readingDate": "Te ra panui",
+      "readingValue": "Panui mita o naianei (kL)",
+      "submit": "Tukua te Panui Kua Whakamanahia",
+      "recentTitle": "Ko nga panuitanga tata nei",
+      "recentEmpty": "Kaore ano kia rekotia nga panui mo tenei mita."
+    },
+    "info": {
+      "title": "Whakamana i te mita Monotonic",
+      "body": "Ko ia panui hou kia nui ake, kia rite ranei ki te raarangi o mua mo taua mita - ma konei e tika ai nga tatauranga kai me te hopu moata i nga mati kua whakawhitia."
+    },
+    "details": {
+      "title": "Nga Taipitopito Waehe kua tohua",
+      "flatUnit": "Waeine Papatahi",
+      "meterSerial": "Rangatū mita",
+      "occupant": "Ingoa Kainoho",
+      "lastDial": "Waea Whakamutunga Whakamutunga",
+      "noReadings": "Kaore ano kia panui",
+      "monthConsumption": "Kohi Marama",
+      "empty": "Kaore he whare i tohua. Rapua me te kowhiri i tetahi kainoho kia kite i a raatau korero mita i konei."
+    },
+    "csv": {
+      "noFile": "Kōwhiria he CSV kōnae hei tukuake.",
+      "instructions": "Tukuatu he CSV me nga pou <code>{{columns}}</code>. Ka tukatuka takitahi nga rarangi - kotahi rarangi kino e kore e taka te puranga katoa."
+    },
+    "history": {
+      "loading": "Uta ana i nga panui…",
+      "empty": "Kaore ano kia tuhia he panui mo to hapori."
+    },
+    "table": {
+      "meterNumber": "Mita No.",
+      "date": "Rā",
+      "value": "Uara (kL)",
+      "consumption": "Kohi (kL)",
+      "source": "Puna"
+    }
+  },
+  "billingCycles": {
+    "title": "Nga huringa nama",
+    "loadError": "Kaore i taea te uta i nga huringa nama. Me ngana ano.",
+    "paymentUpdateError": "Kāore i taea te whakahōu i te tūnga utu o tēnei nama.",
+    "pdfError": "Kāore i taea te tikiake i te PDF. Me ngana ano.",
+    "finalizeError": "Kaore i taea te whakaoti i tenei huringa nama.",
+    "archiveError": "Kāore i taea te pūranga i tēnei huringa nama.",
+    "loading": "Uta ana i nga huringa nama…",
+    "empty": "Karekau he huringa nama. Whakatuwheratia tetahi o runga ki te timata.",
+    "status": {
+      "open": "Tuwhera",
+      "finalized": "Kua oti",
+      "archived": "Pūrangatia"
+    },
+    "open": {
+      "title": "Whakatuwheratia he Huringa Pire Hou",
+      "noMonth": "Kōwhiria he marama hei whakatuwhera.",
+      "error": "Kaore i taea te whakatuwhera i tetahi huringa nama mo tera marama.",
+      "monthAria": "Marama nama nama",
+      "opening": "Tuwhera…",
+      "submit": "Tuwhera Porohita"
+    },
+    "table": {
+      "period": "Wā",
+      "status": "Tūnga",
+      "householdsBilled": "Nga Whare kua Namaa",
+      "totalBilled": "Katoa te nama",
+      "actions": "Nga Mahi"
+    },
+    "actions": {
+      "finalize": "Whakaoti",
+      "finalizing": "Whakaoti…",
+      "archive": "Pūranga",
+      "archiving": "Pūrangatia…"
+    },
+    "filter": {
+      "aria": "Tātarihia mā te tūnga utu",
+      "all": "Katoa"
+    },
+    "payment": {
+      "paid": "Ka utua",
+      "unpaid": "Kare i utua",
+      "updating": "Whakahōu ana…",
+      "markPaid": "Tohua kua utua",
+      "markUnpaid": "Tohua he kore utu"
+    },
+    "detail": {
+      "title": "Taipitopito Porohita — {{period}}",
+      "loading": "Uta ana i nga nama…",
+      "notFinalized": "Ko tenei huringa kaore ano kia oti - kaore he nama i hangaia.",
+      "noInvoices": "Karekau he nama mo tenei huringa.",
+      "noMatch": "Karekau he nama e rite ana ki tenei tātari."
+    },
+    "invoices": {
+      "household": "Whare",
+      "resident": "Kainoho",
+      "meterNumber": "Mita No.",
+      "consumption": "Kohi (kL)",
+      "tierBreakdown": "Wehenga taumata",
+      "commonArea": "Wāhi Whānui",
+      "total": "Tapeke",
+      "paymentStatus": "Tūnga Utu",
+      "pdf": "PDF",
+      "baseLine": "Turanga: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Reanga {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Kāore i taea te uta te whirihoranga utu",
+    "saveError": "Kāore i taea te tiaki te whirihoranga utu",
+    "chartTitle": "Nga taumata reiti mo te whakamahi i nga taputapu",
+    "axisNote": "Reiti i ₹/kL, tepe papa i kL",
+    "tableTitle": "Ripanga Taumata Utu",
+    "defaultRatesNote": "E whakaatu ana i nga reiti taunoa — kaore ano kia tiakina.",
+    "addTier": "+ Tāpiri Tier",
+    "saveRates": "Tiaki Reiti Taripa",
+    "tierLevel": {
+      "base": "Reanga {{tier}} (Turanga)",
+      "medium": "Reanga {{tier}} (Waenga)",
+      "heavy": "Reanga {{tier}} (Taimaha)"
+    },
+    "basePrice": {
+      "label": "Utu turanga (₹ / kL, hoatu ki te kai KATOA)",
+      "note": "Ko ia kL te utu tuatahi mo tenei reiti. Ko nga papa kei raro nei ka taapirihia nga utu TAWHITI anake mo te whakamahi ka taka ki roto i to raatau awhe - hei tauira. ko te papa e timata ana i te 50 kL ka taapiri noa i tana reiti mo te kai ki runga ake i te 50 kL."
+    },
+    "table": {
+      "tierLevel": "Taumata taumata",
+      "slabLimit": "Tepe Papa (kL)",
+      "rate": "Reiti mo ia kL",
+      "action": "Mahi"
+    },
+    "commonArea": {
+      "title": "Whirihoranga Utu Horahanga Tiritahi",
+      "loadError": "Kāore i taea te uta te whirihoranga utu rohe noa",
+      "saveError": "Kāore i taea te tiaki i te whirihoranga utu rohe noa",
+      "empty": "Kaore ano kia tiakina nga taonga utu.",
+      "labelPlaceholder": "Tapanga taonga utu",
+      "perMonth": "/ marama",
+      "active": "Hohe",
+      "addItem": "+ Taapiri Utu Tuemi",
+      "save": "Tiaki Whirihoranga Rohe Noa"
+    },
+    "distribution": {
+      "title": "Kaitohu Tikanga Toha Utu",
+      "consumption": "Ma te Whakamahi (Whakaritenga Ine-iti)",
+      "floorArea": "Ma te Rahi Papatahi (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Te Ra Timata Pire Porohita",
+      "cycleStartValue": "Tuatahi o Ia Marama",
+      "autoInvoices": "Hanga-Aunoa PDF Nama"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Kua Hiahia te Paepae",
+      "statisticalOutlier": "Putanga Tatauranga"
+    },
+    "status": {
+      "active": "Hohe",
+      "resolved": "Whakatau",
+      "dismissed": "Kua whakakorehia"
+    },
+    "config": {
+      "title": "Whirihoranga Raputanga Leak",
+      "subtitle": "Tautuhia he paepae kohi ia marama, ka taea ranei te rapu i nga tatauranga o waho (ka tohuhia he whare he nui rawa te kai o ia marama ki tana ake hitori).",
+      "loadError": "Kāore i taea te uta whirihoranga matohi. Me ngana ano.",
+      "thresholdRequired": "Ka hiahiatia he paepae marama (kL) ina whakahohea nga matohi paepae.",
+      "saveError": "Kāore i taea te tiaki i tēnei whirihoranga.",
+      "loading": "Uta ana te whirihoranga…",
+      "threshold": "Paepae marama (kL)",
+      "sensitivity": "Te tairongo o waho (whakarea σ)",
+      "enableThreshold": "Whakahohe matohi paepae",
+      "enableOutlier": "Whakahohehia nga matohi o waho tauanga",
+      "save": "Tiaki Whirihoranga",
+      "running": "Rere ana…",
+      "runNow": "Whakahaerehia te Rapu Inaianei"
+    },
+    "alerts": {
+      "title": "Whare kua kara",
+      "loadError": "Kaore i taea te uta matohi. Me ngana ano.",
+      "runError": "Kaore i taea te mahi rapunga turuturu inaianei. Me ngana ano.",
+      "updateError": "Kāore i taea te whakahōu i tēnei matohi. Me ngana ano.",
+      "allStatuses": "Nga mana katoa",
+      "loading": "Uta ana matohi…",
+      "empty": "Karekau he matohi hei whakaatu. Whirihorahia he paepae, whakaahei ranei i te kitenga o waho i runga ake nei, ka paato i te \"Run Detection Now\" ki te arotake i te whakamahinga o to hapori.",
+      "resolve": "Whakatau",
+      "dismiss": "Whakakore"
+    },
+    "table": {
+      "household": "Whare",
+      "resident": "Kainoho",
+      "meter": "mita",
+      "type": "Momo",
+      "period": "Wā",
+      "consumption": "Te kai",
+      "reference": "Tohutoro",
+      "status": "Tūnga"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Kaore i taea te uta i nga hoko wai nui. Me ngana ano.",
+    "confirmRemove": "Tangohia te tukunga {{source}} ki {{date}}?",
+    "removeError": "Kaore i taea te tango i tenei hoko. Me ngana ano.",
+    "count": "Hokonga kua tuhia: {{total}}",
+    "recordButton": "+ Tuhia te Hokonga",
+    "loading": "Uta ana i nga hoko wai nui…",
+    "empty": "Kaore ano kia rekotia nga hoko wai nui. Paatohia te \"Record Purchase\" ki te tuhi i tetahi tuku waka waka, hoko taonga a te taone nui ranei.",
+    "table": {
+      "date": "Rā",
+      "source": "Puna",
+      "volume": "Rōrahi (L)",
+      "unitCost": "Utu Waeine",
+      "totalCost": "Utu Tapeke",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Tuhia te Hokonga Wai Nui",
+      "editTitle": "Whakatikahia te Hokonga Wai Nui",
+      "subtitle": "Aroturuki i te tuku waka waka, i te hoko taonga a te taone nui ranei mo to hapori - ka tuhia tenei mo te tirohanga utu anake kaore e pa ki nga nama o te whare.",
+      "requiredFields": "Whakakiia koa te ra, te puna, te rōrahi, me te utu o te waeine.",
+      "saveError": "Kaore i taea te tiaki i tenei hoko. Tena tirohia nga korero.",
+      "purchaseDate": "Te ra hoko",
+      "source": "Pūtake / kaiwhakarato",
+      "volume": "Rōrahi (rita)",
+      "unitCost": "Utu wae (₹/rita)",
+      "totalPreview": "Utu Tapeke: {{amount}}",
+      "notes": "Notes (kōwhiringa)",
+      "submit": "Rekoata Hokonga"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} kaore ano kia hanga",
+    "profileSaveError": "Kāore i taea te tiaki i tō kōtaha. Me ngana ano.",
+    "apartmentSaveError": "Kaore i taea te tiaki i nga taipitopito whare. Me ngana ano.",
+    "specsTitle": "Whakatakotoranga Kōtaha",
+    "photoUnavailable": "Ko te tukunga whakaahua kaore ano kia watea",
+    "changePhoto": "Huri Whakaahua",
+    "deletePhoto": "Mukua",
+    "photoHint": "JPG, PNG ranei. Rahi teitei 2MB.",
+    "saveProfile": "Tiaki Kōtaha",
+    "apartmentTitle": "Nga Taipitopito Whare",
+    "saveApartment": "Tiakina nga Taipitopito Whare",
+    "tabs": {
+      "profile": "Tautuhinga Kōtaha",
+      "apartment": "Kōtaha Whare",
+      "notifications": "Ture Whakamōhiotanga",
+      "billing": "Whakakotahitanga nama",
+      "security": "Haumarutanga me te Uru"
+    },
+    "fields": {
+      "fullName": "Ingoa Katoa",
+      "email": "Wāhitau Īmēra",
+      "emailLocked": "Kaore e taea te huri i te imeera i konei",
+      "phone": "Tau Waea",
+      "accessLevel": "Taumata Uru",
+      "accessLevelValue": "Kaiwhakahaere Hapori",
+      "roleLocked": "Ko te whakahaeretanga o nga mahi kaore ano kia waatea",
+      "apartmentName": "Ingoa Whare Whare",
+      "mainsSource": "Pūtake Matua",
+      "mainsSourcePlaceholder": "e.g. Whakawhiwhia Taone + Toka Tāpiri",
+      "address": "Wāhitau Tinana"
+    },
+    "security": {
+      "title": "Haumarutanga me te Arokite Uru",
+      "twoFactor": "Motuhēhēnga-rua",
+      "twoFactorHint": "Whakahohe i te takiuru",
+      "twoFactorUnavailable": "Ko te motuhēhēnga-rua-rua kāore anō kia wātea",
+      "twoFactorAria": "Motuhēhēnga-rua (arokite anake)",
+      "sessionsLabel": "Wātū Whakahaere Hohe",
+      "sessionsEmpty": "Kare ano i te watea te aroturuki hui — he arokite tenei mo te tahora e haere ake nei."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Aku Tiiki",
+      "inbox": "Tikiti Nohonoho"
+    },
+    "mine": {
+      "title": "Aku Tikiti Tautoko",
+      "subtitle": "Tukuna he patai, he awangawanga ranei mo to hapori ki te Kaiwhakahaere Pūnaha.",
+      "emptyCreateHint": "Tukuna he patai, he awangawanga ranei mo to hapori. Ka arotakehia e te Kaiwhakahaere Pūnaha me te whakautu i konei."
+    },
+    "inbox": {
+      "title": "Tikiti Nohonoho",
+      "subtitle": "Ko nga tikiti tautoko me nga awangawanga kua tukuna atu e nga kainoho o to hapori ki a koe."
+    }
+  }
+}

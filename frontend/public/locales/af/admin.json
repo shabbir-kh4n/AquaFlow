@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Laai tans …",
+    "saving": "Stoor tans …",
+    "saved": "Gestoor.",
+    "uploading": "Laai tans op …",
+    "upload": "Laai op",
+    "uploadError": "Kon nie hierdie lêer oplaai nie. Probeer asseblief weer.",
+    "cancel": "Kanselleer",
+    "close": "Maak toe",
+    "edit": "Wysig",
+    "remove": "Verwyder",
+    "saveChanges": "Stoor veranderinge",
+    "bulkSummary": "<b>{{total}}</b> rye verwerk — <b>{{success}}</b> het geslaag, <b>{{failure}}</b> het misluk.",
+    "rowFailure": "Ry {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Wys tans {{from}}–{{to}} van {{total}}",
+    "prev": "← Vorige",
+    "next": "Volgende →",
+    "page": "Bladsy {{page}} van {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Kon nie jou gemeenskapdata op die oomblik laai nie.",
+    "title": "{{community}} Woonstel Dashboard",
+    "titleFallback": "Jou Woonstel Dashboard",
+    "subtitle": "Operasionele opsomming vir waternuts submetering en huishoudelike verbruik.",
+    "comingSoon": "Binnekort beskikbaar",
+    "manageCommunity": "Bestuur gemeenskap",
+    "noUsageReadings": "Geen gebruikslesings is nog aangeteken nie.",
+    "cards": {
+      "totalHouseholds": "Totale huishoudings",
+      "occupied": "Beset",
+      "activeMeters": "Aktiewe meters",
+      "reportingReadings": "Rapporteer lesings",
+      "monthlyConsumption": "Maandelikse verbruik",
+      "thisCalendarMonth": "Hierdie kalendermaand",
+      "latestRecordedMonth": "Jongste aangetekende maand ({{month}})",
+      "noReadingsYet": "Geen lesings is nog aangeteken nie",
+      "pendingAlerts": "Hangende waarskuwings",
+      "anomalyPreview": "Voorskou van afwykingsopsporing — nog nie beskikbaar nie"
+    },
+    "actions": {
+      "label": "Vinnige administratiewe aksies",
+      "uploadReadings": "Laai meterlesings op",
+      "configureTariffs": "Stel tariewe op",
+      "reportsNotBuilt": "Verslae is nog nie gebou nie",
+      "downloadReports": "Laai stelselverslae af"
+    },
+    "chart": {
+      "title": "Maandelikse verbruiksvergelyking (kL)",
+      "subtitle": "Laaste {{months}} maande: teiken vs. werklike verbruik.",
+      "targetSeries": "Teiken (voorskou)",
+      "actualSeries": "Werklik"
+    },
+    "recent": {
+      "title": "Onlangse meterlesings",
+      "unit": "Eenheid",
+      "resident": "Inwoner",
+      "lastReading": "Laaste lees",
+      "consumption": "Verbruik"
+    }
+  },
+  "households": {
+    "loadError": "Kon nie inwoners laai nie. Probeer asseblief weer.",
+    "fixFields": "Maak asseblief die gemerkte velde reg.",
+    "saveError": "Kon nie hierdie inwoner red nie. Gaan asseblief die besonderhede na.",
+    "confirmRemove": "Verwyder {{name}} uit jou huishoudingsgids?",
+    "removeError": "Kon nie hierdie inwoner verwyder nie. Probeer asseblief weer.",
+    "count": "Huishoudings: {{total}}",
+    "bulkUploadButton": "⇪ Grootmaat oplaai",
+    "addResidentButton": "+ Voeg inwoner by",
+    "searchPlaceholder": "Filter volgens naam, huis, e-pos of meternr.",
+    "loading": "Laai tans inwoners …",
+    "empty": "Nog geen inwoners nie. Klik \"Voeg inwoner by\" om die eerste huishouding te registreer.",
+    "noMatch": "Geen inwoners pas by \"{{search}}\" nie.",
+    "sort": {
+      "label": "Sorteer volgens",
+      "name": "Naam",
+      "houseNumber": "Huisnommer",
+      "dateOfJoining": "Datum van aansluiting",
+      "toggleDirection": "Wissel sorteerrigting",
+      "asc": "↑ Asc",
+      "desc": "↓ Beskrywing"
+    },
+    "gender": {
+      "male": "Manlik",
+      "female": "Vroulik",
+      "other": "Ander"
+    },
+    "table": {
+      "name": "Naam",
+      "houseUnit": "Huis / Eenheid",
+      "email": "E-pos",
+      "phone": "Telefoon",
+      "meterNumber": "Meter No.",
+      "sqft": "Sqft",
+      "joined": "Aangesluit"
+    },
+    "form": {
+      "addTitle": "Voeg inwoner by",
+      "editTitle": "Wysig inwoner",
+      "editSubtitle": "Dit werk die inwoner se besonderhede in jou gids op.",
+      "bypassSubtitle": "Jy stel hierdie inwoner se wagwoord direk. Geen e-pos sal gestuur word nie.",
+      "addSubtitle": "'n Stel wagwoordskakel sal aan hierdie inwoner per e-pos gestuur word sodat hulle hul eie aanmelding kan aktiveer.",
+      "fullName": "Volle naam",
+      "houseNumber": "Huis / eenheid nr.",
+      "email": "E-pos",
+      "phone": "Telefoonnommer",
+      "meterNumber": "Meter nommer",
+      "governmentId": "Regering ID",
+      "gender": "Geslag",
+      "dateOfBirth": "Geboortedatum",
+      "dateOfJoining": "Datum van aansluiting",
+      "flatSize": "Plat grootte (vk ft)",
+      "bypassLabel": "Omseil stel-wagwoord-e-pos – stel nou 'n wagwoord vir hierdie inwoner",
+      "password": "Wagwoord",
+      "confirmPassword": "Bevestig wagwoord"
+    },
+    "validation": {
+      "fullNameRequired": "Volle naam word vereis.",
+      "emailRequired": "E-pos word vereis.",
+      "phoneRequired": "Telefoonnommer word vereis.",
+      "houseNumberRequired": "Huis-/eenheidnommer word vereis.",
+      "houseNumberTaken": "Hierdie huisnommer is reeds aan 'n ander inwoner toegeken.",
+      "meterNumberRequired": "Meternommer word vereis.",
+      "meterNumberFormat": "Meternommer moet soos MTR-1234 lyk (4 syfers).",
+      "meterNumberTaken": "Hierdie meternommer is reeds aan 'n ander inwoner toegeken.",
+      "governmentIdRequired": "Staats-ID word vereis.",
+      "governmentIdFormat": "ID moet 6 syfers wees wat met 99 begin (bv. 991234).",
+      "genderRequired": "Kies asseblief 'n geslag.",
+      "dateOfBirthRequired": "Geboortedatum word vereis.",
+      "dateOfJoiningRequired": "Datum van aansluiting word vereis.",
+      "passwordRequired": "Wagwoord word vereis.",
+      "passwordLength": "Wagwoord moet ten minste 8 karakters wees.",
+      "confirmPasswordRequired": "Bevestig asseblief die wagwoord.",
+      "passwordMismatch": "Wagwoorde stem nie ooreen nie."
+    },
+    "bulk": {
+      "title": "Grootmaat oplaai inwoners",
+      "noFile": "Kies asseblief 'n .csv- of .xlsx/.xls-lêer om op te laai.",
+      "instructions": "Laai 'n .csv- of .xlsx/.xls-lêer op met kolomme <code>{{columns}}</code> (wagwoord en flatSizeSqft is albei opsioneel). Rye met 'n wagwoord stel dit direk; rye sonder een kry 'n stel-wagwoord-e-pos, dieselfde as om 'n inwoner handmatig by te voeg. Duplikaathuis-/meternommers of e-posse word per ry afgekeur – een slegte ry sal nie die hele bondel laat misluk nie."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Kon nie inwoners laai nie. Probeer asseblief weer.",
+    "historyLoadError": "Kon nie die leesgeskiedenis laai nie. Probeer asseblief weer.",
+    "successMessage": "Suksesvol opgeneem lesing van {{value}} kL vir {{house}} (Meter: {{meter}})! Berekende verbruik: {{consumption}} kL.",
+    "tabs": {
+      "single": "Enkelinskrywing",
+      "csv": "Grootmaat CSV Laai op",
+      "history": "Lees Geskiedenis"
+    },
+    "source": {
+      "manual": "Handleiding",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Hierdie inwoner het geen meternommer op lêer nie.",
+      "dateRequired": "Leesdatum word vereis.",
+      "invalidValue": "Voer asseblief 'n geldige, nie-negatiewe leeswaarde in.",
+      "duplicate": "'n Lesing vir hierdie meter bestaan ​​reeds op daardie datum.",
+      "meterNotFound": "Hierdie meter kon nie gevind word nie. Herkies asseblief die inwoner.",
+      "lowerThanPrevious": "Hierdie lesing is laer as die vorige aangetekende lesing.",
+      "recordFailed": "Kon nie hierdie lesing opneem nie. Probeer asseblief weer."
+    },
+    "combo": {
+      "label": "Kies Flat & Meter Serial",
+      "placeholder": "Kies Flat & Meter Serial...",
+      "flat": "Plat {{house}}",
+      "noMeter": "Geen meter nie",
+      "searchPlaceholder": "Soek woonstel nr, meter reeks, inwoner...",
+      "unitsHeader": "Residensiële eenhede",
+      "found": "Woonstelle gevind: {{total}}",
+      "loading": "Laai tans inwoners …",
+      "noMatch": "Geen inwoners pas by \"{{search}}\" nie.",
+      "unassigned": "Ontoegewys",
+      "itemMeta": "{{name}} · Laaste: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Opneem van 'n lesing vir",
+      "context": "Huis {{house}} · Meter {{meter}}",
+      "changeResident": "Verander inwoner",
+      "readingDate": "Lees datum",
+      "readingValue": "Huidige meterlesing (kL)",
+      "submit": "Dien gevalideerde leeswerk in",
+      "recentTitle": "Onlangse lesings",
+      "recentEmpty": "Geen lesings is nog vir hierdie meter aangeteken nie."
+    },
+    "info": {
+      "title": "Monotoniese meter validering",
+      "body": "Elke nuwe lesing moet groter as of gelyk wees aan die vorige log vir daardie meter - dit hou verbruiksberekeninge akkuraat en vang getransponeerde syfers vroeg op."
+    },
+    "details": {
+      "title": "Geselekteerde Eenheid Besonderhede",
+      "flatUnit": "Plat Eenheid",
+      "meterSerial": "Meter reeks",
+      "occupant": "Bewoner Naam",
+      "lastDial": "Laaste Opgeneemde Dial",
+      "noReadings": "Nog geen lesings nie",
+      "monthConsumption": "Maand Verbruik",
+      "empty": "Geen huishouding gekies nie. Soek en kies 'n inwoner om hul meterbesonderhede hier te sien."
+    },
+    "csv": {
+      "noFile": "Kies asseblief 'n CSV lêer om op te laai.",
+      "instructions": "Laai 'n CSV op met kolomme <code>{{columns}}</code>. Rye word onafhanklik verwerk - een slegte ry sal nie die hele bondel misluk nie."
+    },
+    "history": {
+      "loading": "Laai tans lesings …",
+      "empty": "Geen lesings is nog vir jou gemeenskap aangeteken nie."
+    },
+    "table": {
+      "meterNumber": "Meter No.",
+      "date": "Datum",
+      "value": "Waarde (kL)",
+      "consumption": "Verbruik (kL)",
+      "source": "Bron"
+    }
+  },
+  "billingCycles": {
+    "title": "Rekeningsiklusse",
+    "loadError": "Kon nie faktuursiklusse laai nie. Probeer asseblief weer.",
+    "paymentUpdateError": "Kon nie hierdie faktuur se betalingstatus opdateer nie.",
+    "pdfError": "Kon nie die PDF aflaai nie. Probeer asseblief weer.",
+    "finalizeError": "Kon nie hierdie faktureringsiklus finaliseer nie.",
+    "archiveError": "Kon nie hierdie faktuursiklus argiveer nie.",
+    "loading": "Laai tans faktureringsiklusse …",
+    "empty": "Nog geen faktuursiklusse nie. Maak een hierbo oop om te begin.",
+    "status": {
+      "open": "Maak oop",
+      "finalized": "Gefinaliseer",
+      "archived": "Geargiveer"
+    },
+    "open": {
+      "title": "Maak 'n nuwe faktuursiklus oop",
+      "noMonth": "Kies asseblief 'n maand om oop te maak.",
+      "error": "Kon nie 'n faktuursiklus vir daardie maand oopmaak nie.",
+      "monthAria": "Faktuurperiode maand",
+      "opening": "Maak tans oop …",
+      "submit": "Maak siklus oop"
+    },
+    "table": {
+      "period": "Tydperk",
+      "status": "Status",
+      "householdsBilled": "Huishoudings Gefaktureer",
+      "totalBilled": "Totaal gefaktureer",
+      "actions": "Aksies"
+    },
+    "actions": {
+      "finalize": "Finaliseer",
+      "finalizing": "Finaliseer tans …",
+      "archive": "Argief",
+      "archiving": "Argiveer tans …"
+    },
+    "filter": {
+      "aria": "Filter volgens betalingstatus",
+      "all": "Almal"
+    },
+    "payment": {
+      "paid": "Betaal",
+      "unpaid": "Onbetaald",
+      "updating": "Dateer tans op …",
+      "markPaid": "Merk as betaal",
+      "markUnpaid": "Merk as onbetaald"
+    },
+    "detail": {
+      "title": "Siklusbesonderhede – {{period}}",
+      "loading": "Laai tans fakture …",
+      "notFinalized": "Hierdie siklus is nog nie gefinaliseer nie – geen fakture is gegenereer nie.",
+      "noInvoices": "Geen fakture vir hierdie siklus nie.",
+      "noMatch": "Geen fakture pas by hierdie filter nie."
+    },
+    "invoices": {
+      "household": "Huishouding",
+      "resident": "Inwoner",
+      "meterNumber": "Meter No.",
+      "consumption": "Verbruik (kL)",
+      "tierBreakdown": "Vlak uiteensetting",
+      "commonArea": "Gemeenskaplike Gebied",
+      "total": "Totaal",
+      "paymentStatus": "Betaling Status",
+      "pdf": "PDF",
+      "baseLine": "Basis: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Vlak {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Kon nie die tariefopstelling laai nie",
+    "saveError": "Kon nie die tariefopstelling stoor nie",
+    "chartTitle": "Aktiewe gemete nutkoersvlakke",
+    "axisNote": "Beoordeel in ₹/kL, plaatlimiete in kL",
+    "tableTitle": "Prysvlakke Tabel",
+    "defaultRatesNote": "Wys tans verstekkoerse – nog nie gestoor nie.",
+    "addTier": "+ Voeg vlak by",
+    "saveRates": "Bespaar Tariewe",
+    "tierLevel": {
+      "base": "Vlak {{tier}} (Basis)",
+      "medium": "Vlak {{tier}} (Medium)",
+      "heavy": "Vlak {{tier}} (Swaar)"
+    },
+    "basePrice": {
+      "label": "Basisprys (₹ / kL, toegepas op ALLE verbruik)",
+      "note": "Elke kL word eers hierdie vaste tarief gehef. Die blaaie hieronder voeg EKSTRA heffings by slegs vir gebruik wat binne hul omvang val - bv. 'n blad wat by 50 kL begin, voeg slegs sy koers by vir verbruik bo 50 kL."
+    },
+    "table": {
+      "tierLevel": "Vlak vlak",
+      "slabLimit": "Bladbeperking (kL)",
+      "rate": "Tarief per kL",
+      "action": "Aksie"
+    },
+    "commonArea": {
+      "title": "Gedeelde gemeenskaplike area-koste-konfigurasie",
+      "loadError": "Kon nie die gemeenskaplike-area-koste-opstelling laai nie",
+      "saveError": "Kon nie die gemeenskaplike-area-koste-opstelling stoor nie",
+      "empty": "Geen koste-items is nog gestoor nie.",
+      "labelPlaceholder": "Koste item etiket",
+      "perMonth": "/ maand",
+      "active": "Aktief",
+      "addItem": "+ Voeg koste-item by",
+      "save": "Stoor gemeenskaplike area-konfigurasie"
+    },
+    "distribution": {
+      "title": "Koste verspreiding metode kieser",
+      "consumption": "Volgens verbruik (Sub-gemeterde proporsionele)",
+      "floorArea": "Volgens woonstel woonstel grootte (vk)"
+    },
+    "footer": {
+      "cycleStart": "Begindatum vir siklusfakturering",
+      "cycleStartValue": "1ste van elke maand",
+      "autoInvoices": "Outo-genereer PDF fakture"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Drempel oorskry",
+      "statisticalOutlier": "Statistiese uitskieter"
+    },
+    "status": {
+      "active": "Aktief",
+      "resolved": "Opgelos",
+      "dismissed": "Ontslaan"
+    },
+    "config": {
+      "title": "Lekdetectie-konfigurasie",
+      "subtitle": "Stel 'n maandelikse verbruiksdrempel en/of aktiveer statistiese uitskieterbespeuring (vlag 'n huishouding wie se maandelikse verbruik buitengewoon hoog is in vergelyking met sy eie geskiedenis).",
+      "loadError": "Kon nie waarskuwingsopstelling laai nie. Probeer asseblief weer.",
+      "thresholdRequired": "'n Maandelikse drempel (kL) word vereis wanneer drempelwaarskuwings geaktiveer is.",
+      "saveError": "Kon nie hierdie opstelling stoor nie.",
+      "loading": "Laai tans opstelling …",
+      "threshold": "Maandelikse drempel (kL)",
+      "sensitivity": "Uitskieter sensitiwiteit (σ vermenigvuldiger)",
+      "enableThreshold": "Aktiveer drempelwaarskuwings",
+      "enableOutlier": "Aktiveer statistiese uitskieterwaarskuwings",
+      "save": "Stoor konfigurasie",
+      "running": "Hardloop tans …",
+      "runNow": "Begin nou opsporing"
+    },
+    "alerts": {
+      "title": "Gevlagde Huishoudings",
+      "loadError": "Kon nie waarskuwings laai nie. Probeer asseblief weer.",
+      "runError": "Kon nie op die oomblik lekopsporing uitvoer nie. Probeer asseblief weer.",
+      "updateError": "Kon nie hierdie waarskuwing opdateer nie. Probeer asseblief weer.",
+      "allStatuses": "Alle statusse",
+      "loading": "Laai tans opletberigte …",
+      "empty": "Geen waarskuwings om te wys nie. Stel 'n drempel op of aktiveer uitskieterbespeuring hierbo, klik dan \"Laat opsporing nou uitvoer\" om jou gemeenskap se huidige gebruik te evalueer.",
+      "resolve": "Los op",
+      "dismiss": "Verwerp"
+    },
+    "table": {
+      "household": "Huishouding",
+      "resident": "Inwoner",
+      "meter": "Meter",
+      "type": "Tik",
+      "period": "Tydperk",
+      "consumption": "Verbruik",
+      "reference": "Verwysing",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Kon nie grootmaat wateraankope laai nie. Probeer asseblief weer.",
+    "confirmRemove": "Verwyder die {{source}} aflewering op {{date}}?",
+    "removeError": "Kon nie hierdie aankoop verwyder nie. Probeer asseblief weer.",
+    "count": "Aankope aangeteken: {{total}}",
+    "recordButton": "+ Rekord aankoop",
+    "loading": "Laai tans grootmaat wateraankope …",
+    "empty": "Geen grootmaat wateraankope is nog aangeteken nie. Klik \"Teken aankoop aan\" om 'n tenkwa-aflewering of munisipale voorraadaankoop aan te teken.",
+    "table": {
+      "date": "Datum",
+      "source": "Bron",
+      "volume": "Volume (L)",
+      "unitCost": "Eenheidskoste",
+      "totalCost": "Totale koste",
+      "notes": "Notas"
+    },
+    "form": {
+      "addTitle": "Teken grootmaat wateraankoop op",
+      "editTitle": "Wysig grootmaat wateraankoop",
+      "subtitle": "Volg 'n tenkwaaflewering of munisipale voorraadaankoop vir jou gemeenskap – dit word slegs vir kostesigbaarheid aangeteken en raak nie huishoudelike fakture nie.",
+      "requiredFields": "Vul asseblief die datum, bron, volume en eenheidskoste in.",
+      "saveError": "Kon nie hierdie aankoop stoor nie. Gaan asseblief die besonderhede na.",
+      "purchaseDate": "Aankoopdatum",
+      "source": "Bron / verskaffer",
+      "volume": "Volume (liter)",
+      "unitCost": "Eenheidskoste (₹/liter)",
+      "totalPreview": "Totale koste: {{amount}}",
+      "notes": "Notas (opsioneel)",
+      "submit": "Rekord aankoop"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} is nog nie gebou nie",
+    "profileSaveError": "Kon nie jou profiel stoor nie. Probeer asseblief weer.",
+    "apartmentSaveError": "Kon nie woonstelbesonderhede stoor nie. Probeer asseblief weer.",
+    "specsTitle": "Profiel spesifikasies",
+    "photoUnavailable": "Foto-oplaai is nog nie beskikbaar nie",
+    "changePhoto": "Verander foto",
+    "deletePhoto": "Vee uit",
+    "photoHint": "JPG of PNG. Maksimum grootte 2MB.",
+    "saveProfile": "Stoor profiel",
+    "apartmentTitle": "Woonstel Besonderhede",
+    "saveApartment": "Stoor woonstelbesonderhede",
+    "tabs": {
+      "profile": "Profielinstellings",
+      "apartment": "Woonstelprofiel",
+      "notifications": "Kennisgewingsreëls",
+      "billing": "Fakturering-integrasies",
+      "security": "Sekuriteit en toegang"
+    },
+    "fields": {
+      "fullName": "Volle Naam",
+      "email": "E-posadres",
+      "emailLocked": "E-pos kan nie hier verander word nie",
+      "phone": "Telefoonnommer",
+      "accessLevel": "Toegangsvlak",
+      "accessLevelValue": "Gemeenskap Administrateur",
+      "roleLocked": "Rolbestuur is nog nie beskikbaar nie",
+      "apartmentName": "Woonstel Naam",
+      "mainsSource": "Hoofbron",
+      "mainsSourcePlaceholder": "bv. Munisipale Voorraad + Aanvullende Tenkwaens",
+      "address": "Fisiese adres"
+    },
+    "security": {
+      "title": "Voorskou van sekuriteit en toegang",
+      "twoFactor": "Twee-faktor-verifikasie",
+      "twoFactorHint": "Geaktiveer by aanmelding",
+      "twoFactorUnavailable": "Twee-faktor-stawing is nog nie beskikbaar nie",
+      "twoFactorAria": "Twee-faktor-verifikasie (slegs voorskou)",
+      "sessionsLabel": "Aktiewe Admin Sessies",
+      "sessionsEmpty": "Sessienasporing is nog nie beskikbaar nie - dit is 'n voorskou van die komende uitleg."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "My Kaartjies",
+      "inbox": "Inwoner Kaartjies"
+    },
+    "mine": {
+      "title": "My Ondersteuningskaartjies",
+      "subtitle": "Rig 'n vraag of bekommernis oor jou gemeenskap aan die Stelseladministrateur.",
+      "emptyCreateHint": "Stel 'n vraag of bekommernis oor jou gemeenskap. 'n Stelseladministrateur sal hier hersien en reageer."
+    },
+    "inbox": {
+      "title": "Inwoner Kaartjies",
+      "subtitle": "Ondersteuningskaartjies en bekommernisse wat inwoners in jou gemeenskap aan jou gerig het."
+    }
+  }
+}

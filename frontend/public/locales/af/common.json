@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Maak toe",
+    "signUpTitle": "Registreer jou gemeenskap",
+    "signInTitle": "Welkom terug",
+    "signUpSubtitle": "Skep 'n gemeenskapsadministrasierekening om inwoners en fakturering te begin bestuur.",
+    "signInSubtitle": "Meld aan om jou waterverbruik en fakturering te sien."
+  },
+  "signIn": {
+    "errorFallback": "Kan nie aanmeld nie. Probeer asseblief weer.",
+    "emailLabel": "E-pos",
+    "passwordLabel": "Wagwoord",
+    "rememberMe": "Onthou my",
+    "forgotPassword": "Wagwoord vergeet?",
+    "submitting": "Meld tans aan …",
+    "submit": "Meld aan",
+    "noAccount": "Het jy nie 'n rekening nie?",
+    "signUpLink": "Teken in"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Wagwoorde stem nie ooreen nie.",
+      "communityRequired": "Gemeenskapnaam word vereis.",
+      "termsRequired": "Stem asseblief in tot die diensbepalings en privaatheidsbeleid.",
+      "fallback": "Kan nie rekening skep nie. Probeer asseblief weer."
+    },
+    "hint": "Slegs gemeenskapsadministrateurs registreer hier. Sodra jy binne is, sal jy self jou inwoners se besonderhede byvoeg - hulle teken nie op hul eie aan nie.",
+    "fullNameLabel": "Volle naam",
+    "emailLabel": "E-pos",
+    "phoneLabel": "Telefoonnommer",
+    "communityNameLabel": "Gemeenskapsnaam",
+    "passwordLabel": "Wagwoord",
+    "confirmPasswordLabel": "Bevestig wagwoord",
+    "agreeTerms": "Ek stem in tot die <termsLink>Diensbepalings</termsLink> en <privacyLink>Privaatheidsbeleid</privacyLink>",
+    "submitting": "Skep tans rekening …",
+    "submit": "Skep admin rekening",
+    "haveAccount": "Het jy reeds 'n rekening?",
+    "signInLink": "Meld aan"
+  },
+  "installPrompt": {
+    "title": "Installeer HydroLedger",
+    "description": "Voeg dit by jou tuisskerm vir vinnige toegang.",
+    "dismiss": "Verwerp",
+    "install": "Installeer"
+  },
+  "setPassword": {
+    "title": "Stel jou wagwoord",
+    "loading": "Laai tans …",
+    "subtitle": "Hallo {{name}}, kies 'n wagwoord vir {{email}} om jou HydroLedger rekening te aktiveer.",
+    "errors": {
+      "invalidLink": "Hierdie skakel is ongeldig of het verval.",
+      "tooShort": "Wagwoord moet ten minste 8 karakters wees.",
+      "mismatch": "Wagwoorde stem nie ooreen nie.",
+      "fallback": "Kon nie jou wagwoord stel nie. Probeer asseblief weer."
+    },
+    "passwordLabel": "Wagwoord",
+    "confirmPasswordLabel": "Bevestig wagwoord",
+    "submitting": "Stel tans wagwoord …",
+    "submit": "Stel wagwoord en meld aan"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Vra oor jou rekening",
+      "admin": "Gemeenskapsassistent",
+      "platform": "Platform assistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Wat is HydroLedger?",
+        "tieredBilling": "Hoe werk vlak fakturering?",
+        "leaks": "Hoe word lekkasies opgespoor?"
+      },
+      "resident": {
+        "billEstimate": "Wat is my huidige rekeningskatting?",
+        "alerts": "Het ek enige gebruikswaarskuwings?",
+        "readings": "Wys my onlangse meterlesings"
+      },
+      "admin": {
+        "households": "Hoeveel huishoudings het ons?",
+        "billingCycles": "Lys ons onlangse faktuursiklusse",
+        "tariff": "Wat is ons huidige tariefplan?"
+      },
+      "platform": {
+        "communities": "Lys alle geregistreerde gemeenskappe",
+        "usageReport": "Wys die platformgebruikverslag",
+        "systemStatus": "Wat is die stelselstatus?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Jy stuur te vinnig boodskappe - wag asseblief 'n oomblik en probeer weer.",
+      "unavailable": "Die assistent is tydelik onbeskikbaar. Probeer asseblief binnekort weer.",
+      "generic": "Iets het verkeerd geloop met die stuur van daardie boodskap. Probeer asseblief weer."
+    },
+    "emptyHint": "Vra my enigiets – ek kan net jou eie data sien.",
+    "closeAssistant": "Sluit assistent",
+    "openAssistant": "Oop assistent",
+    "inputPlaceholder": "Tik 'n boodskap...",
+    "inputLabel": "Boodskap",
+    "send": "Stuur"
+  },
+  "supportBoard": {
+    "defaultTitle": "Ondersteuningskaartjies",
+    "defaultCreateLabel": "Wek nuwe kommer",
+    "status": {
+      "open": "Maak oop",
+      "inProgress": "Aan die gang",
+      "resolved": "Opgelos",
+      "closed": "Gesluit"
+    },
+    "tabs": {
+      "all": "Alle Kaartjies"
+    },
+    "recipients": {
+      "admin": "Gemeenskap Admin",
+      "systemAdmin": "Stelsel Admin",
+      "both": "Gemeenskap Admin + Stelsel Admin"
+    },
+    "roles": {
+      "resident": "Inwoner",
+      "admin": "Admin"
+    },
+    "toRecipients": "Aan: {{recipients}}",
+    "raisedByResident": "Opgevoed deur inwoner {{name}}",
+    "raisedByAdmin": "Opgeneem deur admin {{name}}",
+    "refresh": "Verfris",
+    "stats": {
+      "openLabel": "Maak voorleggings oop",
+      "openHint": "Wag op hersiening",
+      "inProgressLabel": "Aan die gang",
+      "inProgressHint": "Daar word aan gewerk",
+      "resolvedLabel": "Opgelos",
+      "resolvedHint": "Suksesvol gesluit"
+    },
+    "searchPlaceholder": "Soek kaartjies volgens onderwerp, uitgawe...",
+    "loadingTickets": "Laai tans kaartjies …",
+    "empty": {
+      "title": "Geen ondersteuningskaartjies gevind nie",
+      "body": "Jy het tans geen oop of aangetekende ondersteuningsversoeke wat by hierdie filter pas nie.",
+      "cta": "Dien 'n bekommernis in"
+    },
+    "errors": {
+      "loadList": "Kon nie ondersteuningskaartjies laai nie. Probeer asseblief weer.",
+      "loadDetail": "Kon nie hierdie kaartjie laai nie. Probeer asseblief weer.",
+      "required": "Onderwerp en boodskap word albei vereis.",
+      "recipientRequired": "Kies ten minste een ontvanger (Gemeenskapsadministrateur en/of Stelseladministrateur).",
+      "submitFallback": "Kon nie hierdie kaartjie indien nie. Probeer asseblief weer.",
+      "sendReply": "Kon nie hierdie boodskap stuur nie. Probeer asseblief weer.",
+      "updateStatus": "Kon nie hierdie kaartjiestatus opdateer nie. Probeer asseblief weer."
+    },
+    "form": {
+      "defaultHint": "Beskryf jou probleem of bekommernis hieronder.",
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Kort opsomming van jou probleem",
+      "messageLabel": "Boodskap",
+      "messagePlaceholder": "Beskryf in detail wat gebeur...",
+      "recipientsLabel": "Stuur hierdie kommer na",
+      "cancel": "Kanselleer",
+      "submitting": "Dien tans in …",
+      "submit": "Dien kaartjie in"
+    },
+    "detail": {
+      "loading": "Laai tans kaartjie …",
+      "replyPlaceholder": "Skryf 'n antwoord...",
+      "close": "Maak toe",
+      "sending": "Stuur tans …",
+      "sendReply": "Stuur Antwoord"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welkom terug, {{name}}",
+    "openMenu": "Maak spyskaart oop",
+    "closeMenu": "Maak spyskaart toe",
+    "logout": "Teken uit",
+    "search": "Soek",
+    "notifications": "Kennisgewings"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Huishoudings Gids",
+      "meterReadings": "Meterlesings",
+      "billing": "Rekeningbestuur",
+      "bulkPurchases": "Grootmaat aankope",
+      "reports": "Verslae",
+      "waterLeakage": "Waterlekkasie",
+      "support": "Ondersteuning / Bekommernisse",
+      "tariffPlans": "Tariefplanne",
+      "announcements": "Aankondigings",
+      "profile": "Profiel"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hier is 'n momentopname van jou gemeenskap."
+      },
+      "households": {
+        "title": "Huishoudings Gids",
+        "subtitle": "Voeg by, werk op en bestuur die inwoners wat in jou gemeenskap woon."
+      },
+      "meterReadings": {
+        "title": "Watermeterlesingshub",
+        "subtitle": "Soek 'n inwoner en teken hul watermeterlesing aan."
+      },
+      "tariffPlans": {
+        "title": "Tariefopstelling",
+        "subtitle": "Stel vlaktarieflimiete, gedeelde gemeenskaplike-areakoste en verspreidingsmetodes vir jou woonstelgemeenskap op."
+      },
+      "billing": {
+        "title": "Rekeningbestuur",
+        "subtitle": "Maak faktuursiklusse oop, finaliseer en argiveer, en hersien gedetailleerde fakture per huishouding."
+      },
+      "bulkPurchases": {
+        "title": "Grootmaat aankope",
+        "subtitle": "Teken tenkwa-aflewerings en munisipale voorraadaankope aan vir jou gemeenskap."
+      },
+      "waterLeakage": {
+        "title": "Waterlekkasie",
+        "subtitle": "Stel drempel- en uitskietergebaseerde lekwaarskuwings op, en hersien gemerkte huishoudings."
+      },
+      "support": {
+        "title": "Ondersteuning / Bekommernisse",
+        "subtitle": "Samel jou eie kaartjies na die Stelseladministrateur, of hanteer bekommernisse wat jou inwoners aan jou gerig het."
+      },
+      "profile": {
+        "title": "Instellings en profiel",
+        "subtitle": "Bestuur jou rekeningbesonderhede en woonstelinligting."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Gemeenskap Admin",
+    "notBuilt": "{{label}} is nog nie gebou nie",
+    "searchPlaceholder": "Soek enigiets …"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Verslae",
+      "description": "Verbruik-, fakturerings- en bewaringsverslae vir jou gemeenskap."
+    },
+    "announcements": {
+      "title": "Aankondigings",
+      "description": "Stuur gemeenskapswye aankondigings aan jou inwoners."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kom binnekort"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Gebruik Geskiedenis",
+      "bills": "My rekeninge",
+      "recommendations": "Aanbevelings",
+      "reports": "Verslae",
+      "support": "Ondersteuning / Bekommernisse",
+      "notifications": "Kennisgewings",
+      "profile": "Profiel"
+    },
+    "pages": {
+      "usageHistory": "Jou gebruik geskiedenis",
+      "billing": "Fakture en faktuur",
+      "notifications": "Kennisgewings",
+      "recommendations": "Aanbevelings",
+      "support": "Ondersteuning / Bekommernisse"
+    },
+    "defaultTitle": "Inwoner Dashboard",
+    "navLabel": "Inwoner navigasie",
+    "fallbackName": "Inwoner",
+    "unit": "Eenheid {{number}}",
+    "comingSoon": "{{label}} kom binnekort",
+    "profile": "Profiel",
+    "searchPlaceholder": "Soek ontledings, rekeninge …"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Gemeenskappe",
+      "reports": "Verslae",
+      "supportTickets": "Ondersteuningskaartjies",
+      "systemStatus": "Stelsel Status"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platformwye momentopname oor elke geregistreerde gemeenskap."
+      },
+      "communities": {
+        "title": "Gemeenskappe",
+        "subtitle": "Elke geregistreerde gemeenskapsadministrateur en hul gemeenskap, op een plek."
+      },
+      "reports": {
+        "title": "Verslae",
+        "subtitle": "Platformwye watergebruik- en faktureringsyfers, volgens gemeenskap en oor tyd."
+      },
+      "supportTickets": {
+        "title": "Ondersteuningskaartjies",
+        "subtitle": "Ondersteun kaartjies en bekommernisse wat deur inwoners en gemeenskapsadministrateurs geopper word, platformwyd."
+      },
+      "systemStatus": {
+        "title": "Stelsel Status",
+        "subtitle": "Backend-verbinding en basiese runtime-gesondheid."
+      }
+    },
+    "fallbackName": "Stelsel Admin",
+    "platformOwner": "Platform eienaar",
+    "searchPlaceholder": "Soek gemeenskappe …"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Taal: {{language}}",
+    "searchPlaceholder": "Soek taal …",
+    "noMatches": "Geen wedstryde nie"
+  }
+}

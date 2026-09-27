@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "بند کریں",
+    "signUpTitle": "اپنی کمیونٹی رجسٹر کریں",
+    "signInTitle": "خوش آمدید",
+    "signUpSubtitle": "رہائشیوں اور بلنگ کا انتظام کرنے کے لیے کمیونٹی ایڈمن اکاؤنٹ بنائیں۔",
+    "signInSubtitle": "اپنے پانی کے استعمال اور بلنگ کو دیکھنے کے لیے سائن ان کریں۔"
+  },
+  "signIn": {
+    "errorFallback": "سائن ان کرنے سے قاصر۔ براہ کرم دوبارہ کوشش کریں۔",
+    "emailLabel": "ای میل",
+    "passwordLabel": "پاس ورڈ",
+    "rememberMe": "مجھے یاد رکھیں",
+    "forgotPassword": "پاس ورڈ بھول گئے؟",
+    "submitting": "سائن ان ہو رہا ہے...",
+    "submit": "سائن ان کریں",
+    "noAccount": "اکاؤنٹ نہیں ہے؟",
+    "signUpLink": "سائن اپ کریں"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "پاس ورڈز میل نہیں کھاتے۔",
+      "communityRequired": "کمیونٹی کا نام درکار ہے۔",
+      "termsRequired": "براہ کرم سروس کی شرائط اور پرائیویسی پالیسی سے اتفاق کریں۔",
+      "fallback": "اکاؤنٹ بنانے سے قاصر۔ براہ کرم دوبارہ کوشش کریں۔"
+    },
+    "hint": "یہاں صرف کمیونٹی ایڈمنز رجسٹر کریں۔ ایک بار جب آپ لاگ ان ہو جائیں گے، تو آپ خود رہائشیوں کی تفصیلات شامل کریں گے — وہ خود سائن اپ نہیں کرتے۔",
+    "fullNameLabel": "پورا نام",
+    "emailLabel": "ای میل",
+    "phoneLabel": "فون نمبر",
+    "communityNameLabel": "کمیونٹی کا نام",
+    "passwordLabel": "پاس ورڈ",
+    "confirmPasswordLabel": "پاس ورڈ کی تصدیق کریں",
+    "agreeTerms": "میں <termsLink>سروس کی شرائط</termsLink> اور <privacyLink>پرائیویسی پالیسی</privacyLink> سے اتفاق کرتا ہوں۔",
+    "submitting": "اکاؤنٹ بن رہا ہے...",
+    "submit": "ایڈمن اکاؤنٹ بنائیں",
+    "haveAccount": "پہلے سے اکاؤنٹ موجود ہے؟",
+    "signInLink": "سائن ان کریں"
+  },
+  "installPrompt": {
+    "title": "HydroLedger انسٹال کریں",
+    "description": "فوری رسائی کے لیے اسے اپنی ہوم اسکرین پر شامل کریں۔",
+    "dismiss": "خارج کریں",
+    "install": "انسٹال کریں"
+  },
+  "setPassword": {
+    "title": "اپنا پاس ورڈ سیٹ کریں",
+    "loading": "لوڈ ہو رہا ہے...",
+    "subtitle": "ہیلو {{name}}، اپنے HydroLedger اکاؤنٹ کو فعال کرنے کے لیے {{email}} کا پاس ورڈ منتخب کریں۔",
+    "errors": {
+      "invalidLink": "یہ لنک غلط ہے یا اس کی میعاد ختم ہو چکی ہے۔",
+      "tooShort": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
+      "mismatch": "پاس ورڈز میل نہیں کھاتے۔",
+      "fallback": "آپ کا پاس ورڈ سیٹ نہیں کیا جا سکا۔ براہ کرم دوبارہ کوشش کریں۔"
+    },
+    "passwordLabel": "پاس ورڈ",
+    "confirmPasswordLabel": "پاس ورڈ کی تصدیق کریں",
+    "submitting": "پاس ورڈ سیٹ ہو رہا ہے...",
+    "submit": "پاس ورڈ سیٹ کریں اور سائن ان کریں"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger اسسٹنٹ",
+      "resident": "اپنے اکاؤنٹ کے بارے میں پوچھیں",
+      "admin": "کمیونٹی اسسٹنٹ",
+      "platform": "پلیٹ فارم اسسٹنٹ",
+      "default": "اسسٹنٹ"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger کیا ہے؟",
+        "tieredBilling": "ٹیئرڈ بلنگ کیسے کام کرتی ہے؟",
+        "leaks": "لیکس کا پتہ کیسے لگایا جاتا ہے؟"
+      },
+      "resident": {
+        "billEstimate": "میرے موجودہ بل کا تخمینہ کیا ہے؟",
+        "alerts": "کیا میرے پاس کوئی استعمال کے الرٹس ہیں؟",
+        "readings": "میری حالیہ میٹر ریڈنگز دکھائیں"
+      },
+      "admin": {
+        "households": "ہمارے پاس کتنے گھرانے ہیں؟",
+        "billingCycles": "ہمارے حالیہ بلنگ سائیکلز کی فہرست بنائیں",
+        "tariff": "ہمارا موجودہ ٹیرف پلان کیا ہے؟"
+      },
+      "platform": {
+        "communities": "تمام رجسٹرڈ کمیونٹیز کی فہرست بنائیں",
+        "usageReport": "پلیٹ فارم کے استعمال کی رپورٹ دکھائیں",
+        "systemStatus": "سسٹم کی حیثیت کیا ہے؟"
+      }
+    },
+    "errors": {
+      "rateLimited": "آپ بہت تیزی سے پیغامات بھیج رہے ہیں - براہ کرم تھوڑی دیر انتظار کریں اور دوبارہ کوشش کریں۔",
+      "unavailable": "اسسٹنٹ عارضی طور پر دستیاب نہیں ہے۔ براہ کرم تھوڑی دیر بعد کوشش کریں۔",
+      "generic": "پیغام بھیجتے وقت کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+    },
+    "emptyHint": "مجھ سے کچھ بھی پوچھیں - میں صرف آپ کا ڈیٹا دیکھ سکتا ہوں۔",
+    "closeAssistant": "اسسٹنٹ بند کریں",
+    "openAssistant": "اسسٹنٹ کھولیں",
+    "inputPlaceholder": "پیغام لکھیں...",
+    "inputLabel": "پیغام",
+    "send": "بھیجیں"
+  },
+  "supportBoard": {
+    "defaultTitle": "سپورٹ ٹکٹ",
+    "defaultCreateLabel": "نئی شکایت درج کریں",
+    "status": {
+      "open": "کھلی ہوئی",
+      "inProgress": "زیرِ عمل",
+      "resolved": "حل شدہ",
+      "closed": "بند شدہ"
+    },
+    "tabs": {
+      "all": "تمام ٹکٹ"
+    },
+    "recipients": {
+      "admin": "کمیونٹی ایڈمن",
+      "systemAdmin": "سسٹم ایڈمن",
+      "both": "کمیونٹی ایڈمن + سسٹم ایڈمن"
+    },
+    "roles": {
+      "resident": "رہائشی",
+      "admin": "ایڈمن"
+    },
+    "toRecipients": "بہ نام: {{recipients}}",
+    "raisedByResident": "رہائشی {{name}} کی طرف سے درج کی گئی",
+    "raisedByAdmin": "ایڈمن {{name}} کی طرف سے درج کی گئی",
+    "refresh": "تازہ کریں",
+    "stats": {
+      "openLabel": "کھلی درخواستیں",
+      "openHint": "جائزہ کے منتظر",
+      "inProgressLabel": "زیرِ عمل",
+      "inProgressHint": "کام جاری ہے",
+      "resolvedLabel": "حل شدہ",
+      "resolvedHint": "کامیابی سے بند کر دی گئی"
+    },
+    "searchPlaceholder": "ٹکٹوں کو موضوع یا مسئلے کے ذریعے تلاش کریں…",
+    "loadingTickets": "ٹکٹ لوڈ ہو رہے ہیں…",
+    "empty": {
+      "title": "کوئی سپورٹ ٹکٹ نہیں ملا",
+      "body": "اس فلٹر سے مطابقت رکھنے والی فی الحال کوئی کھلی یا ریکارڈ شدہ درخواست موجود نہیں ہے۔",
+      "cta": "شکایت درج کریں"
+    },
+    "errors": {
+      "loadList": "سپورٹ ٹکٹ لوڈ نہیں ہو سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+      "loadDetail": "یہ ٹکٹ لوڈ نہیں ہو سکا۔ براہ کرم دوبارہ کوشش کریں۔",
+      "required": "موضوع اور پیغام دونوں لازمی ہیں۔",
+      "recipientRequired": "کم از کم ایک وصول کنندہ منتخب کریں (کمیونٹی ایڈمن اور/یا سسٹم ایڈمن)۔",
+      "submitFallback": "یہ ٹکٹ جمع نہیں کیا جا سکا۔ براہ کرم دوبارہ کوشش کریں۔",
+      "sendReply": "یہ پیغام بھیجا نہیں جا سکا۔ براہ کرم دوبارہ کوشش کریں۔",
+      "updateStatus": "ٹکٹ کی حیثیت اپ ڈیٹ نہیں ہو سکی۔ براہ کرم دوبارہ کوشش کریں۔"
+    },
+    "form": {
+      "defaultHint": "اپنے مسئلے یا تشویش کی تفصیل نیچے بیان کریں۔",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "اپنے مسئلے کا مختصر خلاصہ",
+      "messageLabel": "پیغام",
+      "messagePlaceholder": "تفصیل سے بیان کریں کہ کیا ہو رہا ہے…",
+      "recipientsLabel": "یہ شکایت انہیں بھیجیں",
+      "cancel": "منسوخ کریں",
+      "submitting": "جمع ہو رہا ہے…",
+      "submit": "ٹکٹ جمع کریں"
+    },
+    "detail": {
+      "loading": "ٹکٹ لوڈ ہو رہا ہے…",
+      "replyPlaceholder": "جواب لکھیں…",
+      "close": "بند کریں",
+      "sending": "بھیجا جا رہا ہے…",
+      "sendReply": "جواب بھیجیں"
+    }
+  },
+  "shell": {
+    "welcomeBack": "خوش آمدید، {{name}}",
+    "openMenu": "مینو کھولیں",
+    "closeMenu": "مینو بند کریں",
+    "logout": "لاگ آؤٹ",
+    "search": "تلاش",
+    "notifications": "اطلاعات"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ڈیش بورڈ",
+      "households": "گھرانوں کی ڈائریکٹری",
+      "meterReadings": "میٹر ریڈنگز",
+      "billing": "بلنگ کا انتظام",
+      "bulkPurchases": "بلک خریداریاں",
+      "reports": "رپورٹس",
+      "waterLeakage": "پانی کا رساؤ",
+      "support": "سپورٹ / شکایات",
+      "tariffPlans": "ٹیرف پلانز",
+      "announcements": "اعلانات",
+      "profile": "پروفائل"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "یہاں آپ کی کمیونٹی کا ایک مختصر جائزہ ہے۔"
+      },
+      "households": {
+        "title": "گھرانوں کی ڈائریکٹری",
+        "subtitle": "اپنی کمیونٹی میں رہنے والے رہائشیوں کو شامل، اپ ڈیٹ اور ان کا انتظام کریں۔"
+      },
+      "meterReadings": {
+        "title": "واٹر میٹر ریڈنگز ہب",
+        "subtitle": "کسی رہائشی کو تلاش کریں اور ان کے واٹر میٹر کی ریڈنگ ریکارڈ کریں۔"
+      },
+      "tariffPlans": {
+        "title": "ٹیرف کنفیگریشن",
+        "subtitle": "اپنے اپارٹمنٹ کمیونٹی کے لیے ٹیرڈ ریٹ کی حدیں، مشترکہ علاقے کے اخراجات، اور تقسیم کے طریقے ترتیب دیں۔"
+      },
+      "billing": {
+        "title": "بلنگ کا انتظام",
+        "subtitle": "بلنگ سائیکل کھولیں، حتمی شکل دیں، آرکائیو کریں اور فی گھرانہ تفصیلی انوائسز کا جائزہ لیں۔"
+      },
+      "bulkPurchases": {
+        "title": "بلک خریداریاں",
+        "subtitle": "اپنی کمیونٹی کے لیے ٹینکر کی ترسیل اور میونسپل سپلائی کی خریداری ریکارڈ کریں۔"
+      },
+      "waterLeakage": {
+        "title": "پانی کا رساؤ",
+        "subtitle": "رساؤ کے انتباہات (الرٹس) کی حدیں مقرر کریں اور نشان زد گھرانوں کا جائزہ لیں۔"
+      },
+      "support": {
+        "title": "سپورٹ / شکایات",
+        "subtitle": "سسٹم ایڈمن کو اپنے ٹکٹ جمع کرائیں، یا اپنے رہائشیوں کی شکایات سنبھالیں۔"
+      },
+      "profile": {
+        "title": "سیٹنگز اور پروفائل",
+        "subtitle": "اپنے اکاؤنٹ کی تفصیلات اور اپارٹمنٹ کی معلومات کا انتظام کریں۔"
+      }
+    },
+    "fallbackName": "ایڈمن",
+    "fallbackCommunity": "کمیونٹی ایڈمن",
+    "notBuilt": "{{label}} ابھی تیار نہیں ہے",
+    "searchPlaceholder": "کچھ بھی تلاش کریں…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "رپورٹس",
+      "description": "آپ کی کمیونٹی کے لیے کھپت، بلنگ، اور تحفظ کی رپورٹس۔"
+    },
+    "announcements": {
+      "title": "اعلانات",
+      "description": "اپنے رہائشیوں کو کمیونٹی کے لیے اعلانات بھیجیں۔"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} جلد آ رہا ہے"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ڈیش بورڈ",
+      "usageHistory": "استعمال کی تاریخ",
+      "bills": "میرے بل",
+      "recommendations": "تجاویز",
+      "reports": "رپورٹس",
+      "support": "سپورٹ / شکایات",
+      "notifications": "اطلاعات",
+      "profile": "پروفائل"
+    },
+    "pages": {
+      "usageHistory": "آپ کے استعمال کی تاریخ",
+      "billing": "بلنگ اور انوائسز",
+      "notifications": "اطلاعات",
+      "recommendations": "تجاویز",
+      "support": "سپورٹ / شکایات"
+    },
+    "defaultTitle": "رہائشی ڈیش بورڈ",
+    "navLabel": "رہائشی نیویگیشن",
+    "fallbackName": "رہائشی",
+    "unit": "یونٹ {{number}}",
+    "comingSoon": "{{label}} جلد آ رہا ہے",
+    "profile": "پروفائل",
+    "searchPlaceholder": "تجزیات، بل تلاش کریں…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ڈیش بورڈ",
+      "communities": "کمیونٹیز",
+      "reports": "رپورٹس",
+      "supportTickets": "سپورٹ ٹکٹس",
+      "systemStatus": "سسٹم کی حالت"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "تمام رجسٹرڈ کمیونٹیز کا ایک مجموعی جائزہ۔"
+      },
+      "communities": {
+        "title": "کمیونٹیز",
+        "subtitle": "تمام رجسٹرڈ کمیونٹی ایڈمنز اور ان کی کمیونٹیز، ایک ہی جگہ پر۔"
+      },
+      "reports": {
+        "title": "رپورٹس",
+        "subtitle": "کمیونٹی کے لحاظ سے اور وقت کے ساتھ پانی کے استعمال اور بلنگ کے اعداد و شمار۔"
+      },
+      "supportTickets": {
+        "title": "سپورٹ ٹکٹس",
+        "subtitle": "رہائشیوں اور کمیونٹی ایڈمنز کی جانب سے اٹھائے گئے مسائل اور سپورٹ ٹکٹس۔"
+      },
+      "systemStatus": {
+        "title": "سسٹم کی حالت",
+        "subtitle": "بیک اینڈ کنیکٹوٹی اور بنیادی رن ٹائم ہیلتھ۔"
+      }
+    },
+    "fallbackName": "سسٹم ایڈمن",
+    "platformOwner": "پلیٹ فارم اونر",
+    "searchPlaceholder": "کمیونٹیز تلاش کریں..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "زبان: {{language}}",
+    "searchPlaceholder": "زبان تلاش کریں...",
+    "noMatches": "کوئی مماثلت نہیں"
+  }
+}

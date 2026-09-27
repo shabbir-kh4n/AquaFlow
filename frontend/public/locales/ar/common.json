@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "يغلق",
+    "signUpTitle": "سجل مجتمعك",
+    "signInTitle": "مرحبًا بعودتك",
+    "signUpSubtitle": "قم بإنشاء حساب مسؤول المجتمع لبدء إدارة المقيمين والفواتير.",
+    "signInSubtitle": "قم بتسجيل الدخول لعرض استخدامك للمياه والفواتير."
+  },
+  "signIn": {
+    "errorFallback": "غير قادر على تسجيل الدخول. يرجى المحاولة مرة أخرى.",
+    "emailLabel": "بريد إلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "rememberMe": "تذكرنى",
+    "forgotPassword": "هل نسيت كلمة السر؟",
+    "submitting": "تسجيل الدخول...",
+    "submit": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "signUpLink": "اشتراك"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "كلمات المرور غير متطابقة.",
+      "communityRequired": "اسم المجتمع مطلوب.",
+      "termsRequired": "يرجى الموافقة على شروط الخدمة وسياسة الخصوصية.",
+      "fallback": "غير قادر على إنشاء الحساب. يرجى المحاولة مرة أخرى."
+    },
+    "hint": "فقط مدراء المجتمع يسجلون هنا. بمجرد دخولك، ستضيف تفاصيل المقيمين لديك بنفسك - فهم لا يقومون بالتسجيل من تلقاء أنفسهم.",
+    "fullNameLabel": "الاسم الكامل",
+    "emailLabel": "بريد إلكتروني",
+    "phoneLabel": "رقم التليفون",
+    "communityNameLabel": "اسم المجتمع",
+    "passwordLabel": "كلمة المرور",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "agreeTerms": "أوافق على <termsLink>شروط الخدمة</termsLink> و<privacyLink>سياسة الخصوصية</privacyLink>",
+    "submitting": "جارٍ إنشاء الحساب…",
+    "submit": "إنشاء حساب المسؤول",
+    "haveAccount": "هل لديك حساب بالفعل؟",
+    "signInLink": "تسجيل الدخول"
+  },
+  "installPrompt": {
+    "title": "تثبيت HydroLedger",
+    "description": "أضفه إلى شاشتك الرئيسية للوصول السريع.",
+    "dismiss": "رفض",
+    "install": "ثَبَّتَ"
+  },
+  "setPassword": {
+    "title": "قم بتعيين كلمة المرور الخاصة بك",
+    "loading": "تحميل…",
+    "subtitle": "مرحبًا {{name}}، اختر كلمة مرور لـ {{email}} لتفعيل حساب HydroLedger الخاص بك.",
+    "errors": {
+      "invalidLink": "هذا الرابط غير صالح أو انتهت صلاحيته.",
+      "tooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",
+      "mismatch": "كلمات المرور غير متطابقة.",
+      "fallback": "لا يمكن تعيين كلمة المرور الخاصة بك. يرجى المحاولة مرة أخرى."
+    },
+    "passwordLabel": "كلمة المرور",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "submitting": "تعيين كلمة المرور…",
+    "submit": "تعيين كلمة المرور وتسجيل الدخول"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger مساعد",
+      "resident": "اسأل عن حسابك",
+      "admin": "مساعد المجتمع",
+      "platform": "مساعد المنصة",
+      "default": "مساعد"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "ما هو HydroLedger؟",
+        "tieredBilling": "كيف تعمل الفواتير المتدرجة؟",
+        "leaks": "كيف يتم الكشف عن التسريبات؟"
+      },
+      "resident": {
+        "billEstimate": "ما هو تقدير فاتورتي الحالية؟",
+        "alerts": "هل لدي أي تنبيهات الاستخدام؟",
+        "readings": "عرض قراءاتي الأخيرة للعدادات"
+      },
+      "admin": {
+        "households": "كم عدد الأسر لدينا؟",
+        "billingCycles": "قم بإدراج دورات الفوترة الأخيرة لدينا",
+        "tariff": "ما هي خطة التعريفة الحالية لدينا؟"
+      },
+      "platform": {
+        "communities": "قائمة كافة المجتمعات المسجلة",
+        "usageReport": "عرض تقرير استخدام المنصة",
+        "systemStatus": "ما هو وضع النظام؟"
+      }
+    },
+    "errors": {
+      "rateLimited": "أنت ترسل الرسائل بسرعة كبيرة جدًا - يرجى الانتظار قليلاً ثم حاول مرة أخرى.",
+      "unavailable": "المساعد غير متاح مؤقتا. يرجى المحاولة مرة أخرى قريبا.",
+      "generic": "حدث خطأ أثناء إرسال تلك الرسالة. يرجى المحاولة مرة أخرى."
+    },
+    "emptyHint": "اسألني عن أي شيء - لا يمكنني رؤية سوى بياناتك الخاصة.",
+    "closeAssistant": "مساعد قريب",
+    "openAssistant": "فتح مساعد",
+    "inputPlaceholder": "اكتب رسالة...",
+    "inputLabel": "رسالة",
+    "send": "يرسل"
+  },
+  "supportBoard": {
+    "defaultTitle": "تذاكر الدعم",
+    "defaultCreateLabel": "إثارة قلق جديد",
+    "status": {
+      "open": "يفتح",
+      "inProgress": "في تَقَدم",
+      "resolved": "تم الحل",
+      "closed": "مغلق"
+    },
+    "tabs": {
+      "all": "جميع التذاكر"
+    },
+    "recipients": {
+      "admin": "مشرف المجتمع",
+      "systemAdmin": "مسؤول النظام",
+      "both": "مسؤول المجتمع + مسؤول النظام"
+    },
+    "roles": {
+      "resident": "مقيم",
+      "admin": "مسؤل"
+    },
+    "toRecipients": "إلى: {{recipients}}",
+    "raisedByResident": "أثارها المقيم {{name}}",
+    "raisedByAdmin": "أثارها المشرف {{name}}",
+    "refresh": "ينعش",
+    "stats": {
+      "openLabel": "فتح التقديمات",
+      "openHint": "في انتظار المراجعة",
+      "inProgressLabel": "في تَقَدم",
+      "inProgressHint": "يجري العمل عليها",
+      "resolvedLabel": "تم الحل",
+      "resolvedHint": "تم إغلاقه بنجاح"
+    },
+    "searchPlaceholder": "البحث عن التذاكر حسب الموضوع، الإصدار ...",
+    "loadingTickets": "جارٍ تحميل التذاكر…",
+    "empty": {
+      "title": "لم يتم العثور على تذاكر الدعم",
+      "body": "ليس لديك حاليًا أي طلبات دعم مفتوحة أو مسجلة تطابق هذا الفلتر.",
+      "cta": "تقديم قلق"
+    },
+    "errors": {
+      "loadList": "تعذر تحميل تذاكر الدعم. يرجى المحاولة مرة أخرى.",
+      "loadDetail": "تعذر تحميل هذه التذكرة. يرجى المحاولة مرة أخرى.",
+      "required": "الموضوع والرسالة كلاهما مطلوبان.",
+      "recipientRequired": "حدد مستلمًا واحدًا على الأقل (مسؤول المجتمع و/أو مسؤول النظام).",
+      "submitFallback": "لا يمكن تقديم هذه التذكرة. يرجى المحاولة مرة أخرى.",
+      "sendReply": "لا يمكن إرسال هذه الرسالة. يرجى المحاولة مرة أخرى.",
+      "updateStatus": "تعذر تحديث حالة التذكرة هذه. يرجى المحاولة مرة أخرى."
+    },
+    "form": {
+      "defaultHint": "قم بوصف مشكلتك أو مشكلتك أدناه.",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "ملخص موجز لمشكلتك",
+      "messageLabel": "رسالة",
+      "messagePlaceholder": "وصف ما يحدث بالتفصيل…",
+      "recipientsLabel": "أرسل هذا الاهتمام إلى",
+      "cancel": "يلغي",
+      "submitting": "تقديم…",
+      "submit": "إرسال التذكرة"
+    },
+    "detail": {
+      "loading": "جارٍ تحميل التذكرة…",
+      "replyPlaceholder": "أكتب الرد...",
+      "close": "يغلق",
+      "sending": "إرسال…",
+      "sendReply": "إرسال الرد"
+    }
+  },
+  "shell": {
+    "welcomeBack": "أهلا بعودتك، {{name}}",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "logout": "تسجيل الخروج",
+    "search": "يبحث",
+    "notifications": "إشعارات"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "لوحة القيادة",
+      "households": "دليل الأسر",
+      "meterReadings": "قراءات العدادات",
+      "billing": "إدارة الفواتير",
+      "bulkPurchases": "المشتريات بالجملة",
+      "reports": "التقارير",
+      "waterLeakage": "تسرب المياه",
+      "support": "الدعم / المخاوف",
+      "tariffPlans": "خطط التعريفة",
+      "announcements": "إعلانات",
+      "profile": "حساب تعريفي"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "إليك لقطة من مجتمعك."
+      },
+      "households": {
+        "title": "دليل الأسر",
+        "subtitle": "إضافة وتحديث وإدارة السكان الذين يعيشون في مجتمعك."
+      },
+      "meterReadings": {
+        "title": "مركز قراءات عدادات المياه",
+        "subtitle": "البحث عن ساكن وتسجيل قراءة عداد المياه الخاص به."
+      },
+      "tariffPlans": {
+        "title": "تكوين التعريفة",
+        "subtitle": "قم بتكوين حدود الأسعار المتدرجة، وتكاليف المنطقة المشتركة المشتركة، وطرق التوزيع لمجتمع شقتك."
+      },
+      "billing": {
+        "title": "إدارة الفواتير",
+        "subtitle": "فتح دورات الفوترة وإنهائها وأرشفتها، ومراجعة الفواتير المفصلة لكل أسرة."
+      },
+      "bulkPurchases": {
+        "title": "المشتريات بالجملة",
+        "subtitle": "سجل عمليات تسليم الناقلات ومشتريات الإمدادات البلدية لمجتمعك."
+      },
+      "waterLeakage": {
+        "title": "تسرب المياه",
+        "subtitle": "قم بتكوين تنبيهات التسرب المستندة إلى العتبة والقيم الخارجية، وقم بمراجعة الأسر التي تم وضع علامة عليها."
+      },
+      "support": {
+        "title": "الدعم / المخاوف",
+        "subtitle": "ارفع التذاكر الخاصة بك إلى مسؤول النظام، أو تعامل مع المخاوف التي وجهها إليك سكانك."
+      },
+      "profile": {
+        "title": "الإعدادات والملف الشخصي",
+        "subtitle": "إدارة تفاصيل حسابك ومعلومات الشقة."
+      }
+    },
+    "fallbackName": "مسؤل",
+    "fallbackCommunity": "مشرف المجتمع",
+    "notBuilt": "{{label}} لم يتم بناؤه بعد",
+    "searchPlaceholder": "ابحث عن أي شيء…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "التقارير",
+      "description": "تقارير الاستهلاك والفوترة والحفظ لمجتمعك."
+    },
+    "announcements": {
+      "title": "إعلانات",
+      "description": "إرسال إعلانات على مستوى المجتمع للمقيمين لديك."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} قريبا"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "لوحة القيادة",
+      "usageHistory": "تاريخ الاستخدام",
+      "bills": "فواتيري",
+      "recommendations": "التوصيات",
+      "reports": "التقارير",
+      "support": "الدعم / المخاوف",
+      "notifications": "إشعارات",
+      "profile": "حساب تعريفي"
+    },
+    "pages": {
+      "usageHistory": "تاريخ الاستخدام الخاص بك",
+      "billing": "الفواتير والفواتير",
+      "notifications": "إشعارات",
+      "recommendations": "التوصيات",
+      "support": "الدعم / المخاوف"
+    },
+    "defaultTitle": "لوحة المقيم",
+    "navLabel": "الملاحة المقيمة",
+    "fallbackName": "مقيم",
+    "unit": "الوحدة {{number}}",
+    "comingSoon": "{{label}} قريبا",
+    "profile": "حساب تعريفي",
+    "searchPlaceholder": "تحليلات البحث والفواتير ..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "لوحة القيادة",
+      "communities": "المجتمعات",
+      "reports": "التقارير",
+      "supportTickets": "تذاكر الدعم",
+      "systemStatus": "حالة النظام"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "لقطة على مستوى النظام الأساسي عبر كل مجتمع مسجل."
+      },
+      "communities": {
+        "title": "المجتمعات",
+        "subtitle": "كل مسؤول مجتمع مسجل ومجتمعه، في مكان واحد."
+      },
+      "reports": {
+        "title": "التقارير",
+        "subtitle": "أرقام استخدام المياه والفواتير على مستوى المنصة، حسب المجتمع ومع مرور الوقت."
+      },
+      "supportTickets": {
+        "title": "تذاكر الدعم",
+        "subtitle": "دعم التذاكر والمخاوف التي أثارها السكان ومدراء المجتمع، على مستوى النظام الأساسي."
+      },
+      "systemStatus": {
+        "title": "حالة النظام",
+        "subtitle": "الاتصال بالواجهة الخلفية وسلامة وقت التشغيل الأساسية."
+      }
+    },
+    "fallbackName": "مسؤول النظام",
+    "platformOwner": "مالك المنصة",
+    "searchPlaceholder": "بحث في المجتمعات..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "اللغة: {{language}}",
+    "searchPlaceholder": "لغة البحث...",
+    "noMatches": "لا توجد مباريات"
+  }
+}

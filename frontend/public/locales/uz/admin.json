@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Yuklanmoqda…",
+    "saving": "Saqlanmoqda…",
+    "saved": "Saqlangan.",
+    "uploading": "Yuklanmoqda…",
+    "upload": "Yuklash",
+    "uploadError": "Bu faylni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "cancel": "Bekor qilish",
+    "close": "Yopish",
+    "edit": "Tahrirlash",
+    "remove": "O'chirish",
+    "saveChanges": "O'zgarishlarni saqlash",
+    "bulkSummary": "Qayta ishlangan <b>{{total}}</b> qatorlar — <b>{{success}}</b> muvaffaqiyatli, <b>{{failure}}</b> bajarilmadi.",
+    "rowFailure": "Qator {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} / {{total}} koʻrsatilmoqda",
+    "prev": "← Oldingi",
+    "next": "Keyingi →",
+    "page": "Sahifa {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Hamjamiyat maʼlumotlarini hozir yuklab boʻlmadi.",
+    "title": "{{community}} Kvartira boshqaruv paneli",
+    "titleFallback": "Sizning kvartirangiz boshqaruv paneli",
+    "subtitle": "Suv ta'minoti sub-hisoblash va maishiy iste'mol uchun operatsion xulosa.",
+    "comingSoon": "Tez kunlarda",
+    "manageCommunity": "Hamjamiyatni boshqarish",
+    "noUsageReadings": "Foydalanish ko'rsatkichlari hali qayd etilmagan.",
+    "cards": {
+      "totalHouseholds": "Jami uy xo'jaliklari",
+      "occupied": "Ishg'ol qilingan",
+      "activeMeters": "Faol hisoblagichlar",
+      "reportingReadings": "Hisobot o'qishlari",
+      "monthlyConsumption": "Oylik iste'mol",
+      "thisCalendarMonth": "Ushbu kalendar oyi",
+      "latestRecordedMonth": "Oxirgi yozilgan oy ({{month}})",
+      "noReadingsYet": "O'qishlar hali qayd etilmagan",
+      "pendingAlerts": "Kutilayotgan ogohlantirishlar",
+      "anomalyPreview": "Anomaliyalarni aniqlashni oldindan ko'rish — hali mavjud emas"
+    },
+    "actions": {
+      "label": "Tez ma'muriy harakatlar",
+      "uploadReadings": "Hisoblagich ko'rsatkichlarini yuklash",
+      "configureTariffs": "Tariflarni sozlash",
+      "reportsNotBuilt": "Hisobotlar hali tuzilmagan",
+      "downloadReports": "Tizim hisobotlarini yuklab oling"
+    },
+    "chart": {
+      "title": "Oylik iste'molni taqqoslash (kL)",
+      "subtitle": "Oxirgi {{months}} oy: maqsadli va haqiqiy iste'mol.",
+      "targetSeries": "Maqsad (oldindan ko'rish)",
+      "actualSeries": "Haqiqiy"
+    },
+    "recent": {
+      "title": "Hisoblagichlarning so'nggi ko'rsatkichlari",
+      "unit": "Birlik",
+      "resident": "Rezident",
+      "lastReading": "Oxirgi o'qish",
+      "consumption": "Iste'mol"
+    }
+  },
+  "households": {
+    "loadError": "Rezidentlarni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "fixFields": "Belgilangan maydonlarni tuzating.",
+    "saveError": "Bu rezidentni saqlab bo‘lmadi. Iltimos, tafsilotlarni tekshiring.",
+    "confirmRemove": "{{name}} uy xoʻjaliklari katalogidan olib tashlansinmi?",
+    "removeError": "Bu rezidentni olib tashlab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "count": "Uy xo'jaliklari: {{total}}",
+    "bulkUploadButton": "⇪ Ommaviy yuklash",
+    "addResidentButton": "+ Rezident qo'shing",
+    "searchPlaceholder": "Ism, uy, elektron pochta yoki hisoblagich raqami bo'yicha filtrlang.",
+    "loading": "Rezidentlar yuklanmoqda…",
+    "empty": "Hozircha rezidentlar yoʻq. Birinchi oilani ro'yxatdan o'tkazish uchun \"Rezident qo'shish\" tugmasini bosing.",
+    "noMatch": "Hech bir rezident “{{search}}”ga mos kelmaydi.",
+    "sort": {
+      "label": "Saralash turi",
+      "name": "Ism",
+      "houseNumber": "Uy raqami",
+      "dateOfJoining": "Qo'shilish sanasi",
+      "toggleDirection": "Saralash yoʻnalishini oʻzgartirish",
+      "asc": "↑ Asc",
+      "desc": "↓ Tuzatish"
+    },
+    "gender": {
+      "male": "Erkak",
+      "female": "Ayol",
+      "other": "Boshqa"
+    },
+    "table": {
+      "name": "Ism",
+      "houseUnit": "Uy / birlik",
+      "email": "Elektron pochta",
+      "phone": "Telefon",
+      "meterNumber": "Hisoblagich raqami",
+      "sqft": "kvft",
+      "joined": "Qoʻshildi"
+    },
+    "form": {
+      "addTitle": "Rezident qo'shing",
+      "editTitle": "Rezidentni tahrirlash",
+      "editSubtitle": "Bu sizning katalogingizdagi rezident ma'lumotlarini yangilaydi.",
+      "bypassSubtitle": "Siz ushbu rezidentning parolini toʻgʻridan-toʻgʻri oʻrnatmoqdasiz. Hech qanday elektron pochta xabari yuborilmaydi.",
+      "addSubtitle": "Ushbu rezidentga o'z loginini faollashtirish uchun parol o'rnatilgan havola yuboriladi.",
+      "fullName": "To'liq ism",
+      "houseNumber": "Uy / birlik raqami.",
+      "email": "Elektron pochta",
+      "phone": "Telefon raqami",
+      "meterNumber": "Hisoblagich raqami",
+      "governmentId": "Hukumat identifikatori",
+      "gender": "Jins",
+      "dateOfBirth": "Tug'ilgan kuni",
+      "dateOfJoining": "Qo'shilish sanasi",
+      "flatSize": "Yassi o'lcham (kv ft)",
+      "bypassLabel": "Oʻrnatilgan parolni chetlab oʻtish — hozir ushbu rezident uchun parol oʻrnating",
+      "password": "Parol",
+      "confirmPassword": "Parolni tasdiqlang"
+    },
+    "validation": {
+      "fullNameRequired": "To'liq ism talab qilinadi.",
+      "emailRequired": "Elektron pochta kerak.",
+      "phoneRequired": "Telefon raqami kerak.",
+      "houseNumberRequired": "Uy / birlik raqami talab qilinadi.",
+      "houseNumberTaken": "Bu uy raqami allaqachon boshqa rezidentga berilgan.",
+      "meterNumberRequired": "Hisoblagich raqami talab qilinadi.",
+      "meterNumberFormat": "Hisoblagich raqami MTR-1234 (4 ta raqam) kabi ko'rinishi kerak.",
+      "meterNumberTaken": "Ushbu hisoblagich raqami allaqachon boshqa rezidentga berilgan.",
+      "governmentIdRequired": "Hukumat identifikatori talab qilinadi.",
+      "governmentIdFormat": "ID 99 dan boshlanadigan 6 ta raqamdan iborat boʻlishi kerak (masalan, 991234).",
+      "genderRequired": "Jinsni tanlang.",
+      "dateOfBirthRequired": "Tug'ilgan sana kerak.",
+      "dateOfJoiningRequired": "Qo'shilish sanasi talab qilinadi.",
+      "passwordRequired": "Parol talab qilinadi.",
+      "passwordLength": "Parol kamida 8 ta belgidan iborat bo'lishi kerak.",
+      "confirmPasswordRequired": "Iltimos, parolni tasdiqlang.",
+      "passwordMismatch": "Parollar mos kelmaydi."
+    },
+    "bulk": {
+      "title": "Ommaviy yuklash rezidentlari",
+      "noFile": "Yuklash uchun .csv yoki .xlsx/.xls faylni tanlang.",
+      "instructions": "<code>{{columns}}</code> ustunli .csv yoki .xlsx/.xls faylini yuklang (parol va flatSizeSqft ikkalasi ham ixtiyoriy). Parolli qatorlar uni to'g'ridan-to'g'ri o'rnatadi; bittasi bo'lmagan qatorlar rezidentni qo'lda qo'shish kabi o'rnatilgan parolli elektron pochta xabarini oladi. Takroriy uy/metr raqamlari yoki elektron pochta xabarlari har bir satrda rad etiladi - bitta yomon qator butun partiyani muvaffaqiyatsiz tugatmaydi."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Rezidentlarni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "historyLoadError": "Oʻqish tarixini yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "successMessage": "{{house}} uchun {{value}} kL koʻrsatkichi muvaffaqiyatli qayd etildi (Meter: {{meter}})! Hisoblangan iste'mol: {{consumption}} kL.",
+    "tabs": {
+      "single": "Yagona kirish",
+      "csv": "Ommaviy CSV yuklash",
+      "history": "Tarixni o'qish"
+    },
+    "source": {
+      "manual": "Qo'llanma",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Bu rezidentning hisoblagich raqami yo‘q.",
+      "dateRequired": "O'qish sanasi talab qilinadi.",
+      "invalidValue": "Iltimos, toʻgʻri, manfiy boʻlmagan oʻqish qiymatini kiriting.",
+      "duplicate": "Ushbu hisoblagich uchun ko'rsatkich o'sha sanada allaqachon mavjud.",
+      "meterNotFound": "Bu hisoblagich topilmadi. Rezidentni qayta tanlang.",
+      "lowerThanPrevious": "Ushbu ko'rsatkich avvalgi qayd etilgan o'qishdan pastroq.",
+      "recordFailed": "Bu o‘qishni yozib bo‘lmadi. Iltimos, qayta urinib koʻring."
+    },
+    "combo": {
+      "label": "Flat & Meter Serial-ni tanlang",
+      "placeholder": "Yassi va metr seriyasini tanlang…",
+      "flat": "Kvartira {{house}}",
+      "noMeter": "Hisoblagich yo'q",
+      "searchPlaceholder": "Kvartira raqami, hisoblagich seriyasi, yashovchi…",
+      "unitsHeader": "Turar-joy binolari",
+      "found": "Topilgan kvartiralar: {{total}}",
+      "loading": "Rezidentlar yuklanmoqda…",
+      "noMatch": "Hech bir rezident “{{search}}”ga mos kelmaydi.",
+      "unassigned": "Tayinlanmagan",
+      "itemMeta": "{{name}} · Oxirgi: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "O'qish uchun yozib olish",
+      "context": "Uy {{house}} · Metr {{meter}}",
+      "changeResident": "Rezidentni o'zgartirish",
+      "readingDate": "O'qish sanasi",
+      "readingValue": "Joriy hisoblagich ko'rsatkichi (kL)",
+      "submit": "Tasdiqlangan o'qishni topshirish",
+      "recentTitle": "So'nggi o'qishlar",
+      "recentEmpty": "Ushbu hisoblagich uchun ko'rsatkichlar hali qayd etilmagan."
+    },
+    "info": {
+      "title": "Monotonik hisoblagichni tasdiqlash",
+      "body": "Har bir yangi ko'rsatkich ushbu hisoblagich uchun oldingi jurnaldan kattaroq yoki unga teng bo'lishi kerak - bu iste'mol hisoblarini to'g'ri saqlaydi va o'tkazilgan raqamlarni erta ushlaydi."
+    },
+    "details": {
+      "title": "Tanlangan birlik tafsilotlari",
+      "flatUnit": "Yassi birlik",
+      "meterSerial": "Metr seriyasi",
+      "occupant": "Yo'lovchi nomi",
+      "lastDial": "Oxirgi yozib olingan terish",
+      "noReadings": "Hali o'qishlar yo'q",
+      "monthConsumption": "Oylik iste'mol",
+      "empty": "Hech qanday uy tanlanmagan. Hisoblagich ma'lumotlarini bu erda ko'rish uchun rezidentni qidiring va tanlang."
+    },
+    "csv": {
+      "noFile": "Yuklash uchun CSV faylni tanlang.",
+      "instructions": "<code>{{columns}}</code> ustunlari bilan CSV yuklang. Qatorlar mustaqil ravishda qayta ishlanadi - bitta noto'g'ri qator butun to'plamni buzmaydi."
+    },
+    "history": {
+      "loading": "Oʻqishlar yuklanmoqda…",
+      "empty": "Hamjamiyatingiz uchun hali hech qanday oʻqish qayd etilmagan."
+    },
+    "table": {
+      "meterNumber": "Hisoblagich raqami",
+      "date": "Sana",
+      "value": "Qiymat (kL)",
+      "consumption": "Iste'mol (kL)",
+      "source": "Manba"
+    }
+  },
+  "billingCycles": {
+    "title": "Hisob-kitob davrlari",
+    "loadError": "Toʻlov davrlarini yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "paymentUpdateError": "Bu fakturaning toʻlov holatini yangilab boʻlmadi.",
+    "pdfError": "PDF yuklab olinmadi. Iltimos, qayta urinib koʻring.",
+    "finalizeError": "Bu toʻlov siklini yakunlab boʻlmadi.",
+    "archiveError": "Bu hisob-kitob davrini arxivlab bo‘lmadi.",
+    "loading": "Hisob-kitob davrlari yuklanmoqda…",
+    "empty": "Hozircha hisob-kitob davri yo‘q. Boshlash uchun yuqoridagi birini oching.",
+    "status": {
+      "open": "Ochiq",
+      "finalized": "Yakunlangan",
+      "archived": "Arxivlangan"
+    },
+    "open": {
+      "title": "Yangi hisob-kitob davrini oching",
+      "noMonth": "Iltimos, ochish uchun oyni tanlang.",
+      "error": "Oʻsha oy uchun hisob-kitob davrini ochib boʻlmadi.",
+      "monthAria": "Hisob-kitob davri oyi",
+      "opening": "Ochilyapti…",
+      "submit": "Ochiq tsikl"
+    },
+    "table": {
+      "period": "Davr",
+      "status": "Status",
+      "householdsBilled": "Hisoblangan uy xo'jaliklari",
+      "totalBilled": "Jami hisob-kitob",
+      "actions": "Harakatlar"
+    },
+    "actions": {
+      "finalize": "Yakunlash",
+      "finalizing": "Yakunlanmoqda…",
+      "archive": "Arxiv",
+      "archiving": "Arxivlanmoqda…"
+    },
+    "filter": {
+      "aria": "Toʻlov holati boʻyicha filtrlash",
+      "all": "Hammasi"
+    },
+    "payment": {
+      "paid": "To'langan",
+      "unpaid": "To'lanmagan",
+      "updating": "Yangilanmoqda…",
+      "markPaid": "To'langan deb belgilang",
+      "markUnpaid": "To'lanmagan deb belgilang"
+    },
+    "detail": {
+      "title": "Tsikl tafsilotlari — {{period}}",
+      "loading": "Hisob-fakturalar yuklanmoqda…",
+      "notFinalized": "Bu sikl hali yakunlanmagan — hisob-fakturalar yaratilmagan.",
+      "noInvoices": "Ushbu tsikl uchun hisob-fakturalar yo'q.",
+      "noMatch": "Ushbu filtrga mos keladigan hisob-fakturalar mavjud emas."
+    },
+    "invoices": {
+      "household": "Uy xo'jaligi",
+      "resident": "Rezident",
+      "meterNumber": "Hisoblagich raqami",
+      "consumption": "Iste'mol (kL)",
+      "tierBreakdown": "Darajani taqsimlash",
+      "commonArea": "Umumiy hudud",
+      "total": "Jami",
+      "paymentStatus": "To'lov holati",
+      "pdf": "PDF",
+      "baseLine": "Baza: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Daraja {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tarif konfiguratsiyasini yuklab bo'lmadi",
+    "saveError": "Tarif konfiguratsiyasi saqlanmadi",
+    "chartTitle": "Faol hisoblangan kommunal tariflar darajalari",
+    "axisNote": "Narx ₹/kL da, plitalar chegarasi kL da",
+    "tableTitle": "Narxlar darajalari jadvali",
+    "defaultRatesNote": "Standart tariflar koʻrsatilmoqda — hali saqlanmagan.",
+    "addTier": "+ Darajani qo'shing",
+    "saveRates": "Tarif stavkalarini saqlang",
+    "tierLevel": {
+      "base": "Daraja {{tier}} (Asosiy)",
+      "medium": "Daraja {{tier}} (Oʻrta)",
+      "heavy": "Daraja {{tier}} (og'ir)"
+    },
+    "basePrice": {
+      "label": "Asosiy narx (₹ / kL, HAMMA isteʼmolga nisbatan qoʻllaniladi)",
+      "note": "Har bir kL uchun birinchi navbatda ushbu tekis tarif olinadi. Quyidagi plitalar faqat ularning diapazoniga to'g'ri keladigan foydalanish uchun QO'SHIMCHA to'lovlarni qo'shadi - masalan. 50 kL dan boshlangan plita faqat 50 kL dan yuqori iste'mol qilish uchun uning tezligini qo'shadi."
+    },
+    "table": {
+      "tierLevel": "Daraja darajasi",
+      "slabLimit": "Plitalar chegarasi (kL)",
+      "rate": "kL uchun narx",
+      "action": "Harakat"
+    },
+    "commonArea": {
+      "title": "Umumiy xarajat konfiguratsiyasi",
+      "loadError": "Umumiy hudud xarajatlari konfiguratsiyasini yuklab boʻlmadi",
+      "saveError": "Umumiy hudud xarajatlari konfiguratsiyasi saqlanmadi",
+      "empty": "Hali hech qanday xarajat elementi saqlanmadi.",
+      "labelPlaceholder": "Xarajatlar yorlig'i",
+      "perMonth": "/ oy",
+      "active": "Faol",
+      "addItem": "+ Xarajat elementini qo'shing",
+      "save": "Umumiy hudud konfiguratsiyasini saqlang"
+    },
+    "distribution": {
+      "title": "Xarajatlarni taqsimlash usulini tanlash",
+      "consumption": "Iste'mol bo'yicha (sub-metered proportional)",
+      "floorArea": "Kvartiraning o'lchami bo'yicha (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Tsikl hisob-kitobining boshlanish sanasi",
+      "cycleStartValue": "Har oyning 1-kuni",
+      "autoInvoices": "Hisob-fakturalarni avtomatik yaratish PDF"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Chegaradan oshib ketdi",
+      "statisticalOutlier": "Statistik chegara"
+    },
+    "status": {
+      "active": "Faol",
+      "resolved": "Yechilgan",
+      "dismissed": "Rad etilgan"
+    },
+    "config": {
+      "title": "Oqishni aniqlash konfiguratsiyasi",
+      "subtitle": "Oylik iste'mol chegarasini o'rnating va/yoki statistik cheklovni aniqlashni yoqing (oylik iste'moli o'z tarixi bilan solishtirganda juda yuqori bo'lgan uy xo'jaligini belgilaydi).",
+      "loadError": "Ogohlantirish konfiguratsiyasini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "thresholdRequired": "Chegara ogohlantirishlari yoqilganda oylik chegara (kL) talab qilinadi.",
+      "saveError": "Ushbu konfiguratsiyani saqlab boʻlmadi.",
+      "loading": "Konfiguratsiya yuklanmoqda…",
+      "threshold": "Oylik chegara (kL)",
+      "sensitivity": "Chet sezuvchanlik (s ko'paytmasi)",
+      "enableThreshold": "Chegaraviy ogohlantirishlarni yoqish",
+      "enableOutlier": "Statistik chegaralar haqida ogohlantirishlarni yoqish",
+      "save": "Konfiguratsiyani saqlash",
+      "running": "Yugurish…",
+      "runNow": "Aniqlashni hozir ishga tushiring"
+    },
+    "alerts": {
+      "title": "Belgilangan uy xo'jaliklari",
+      "loadError": "Ogohlantirishlar yuklanmadi. Iltimos, qayta urinib koʻring.",
+      "runError": "Oqishni aniqlashni hozir ishga tushirib bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "updateError": "Bu ogohlantirishni yangilab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "allStatuses": "Barcha holatlar",
+      "loading": "Ogohlantirishlar yuklanmoqda…",
+      "empty": "Ko'rsatish uchun hech qanday ogohlantirish yo'q. Chegarani sozlang yoki yuqoridagi chegarani aniqlashni yoqing, so‘ngra hamjamiyatingizning joriy foydalanishini baholash uchun “Aniqlashni hozir ishga tushirish” tugmasini bosing.",
+      "resolve": "Yechish",
+      "dismiss": "Rad etish"
+    },
+    "table": {
+      "household": "Uy xo'jaligi",
+      "resident": "Rezident",
+      "meter": "Metr",
+      "type": "Turi",
+      "period": "Davr",
+      "consumption": "Iste'mol",
+      "reference": "Malumot",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ommaviy suv xaridlarini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "confirmRemove": "{{date}} da {{source}} yetkazib berish olib tashlansinmi?",
+    "removeError": "Bu xaridni olib tashlab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "count": "Xaridlar qayd etildi: {{total}}",
+    "recordButton": "+ Rekord xarid",
+    "loading": "Ommaviy suv xaridlari yuklanmoqda…",
+    "empty": "Haligacha suv sotib olish qayd etilmagan. Tankerni yetkazib berish yoki kommunal ta’minot xaridini qayd qilish uchun “Xaridni yozib olish” tugmasini bosing.",
+    "table": {
+      "date": "Sana",
+      "source": "Manba",
+      "volume": "Ovoz (L)",
+      "unitCost": "Birlik narxi",
+      "totalCost": "Umumiy xarajat",
+      "notes": "Eslatmalar"
+    },
+    "form": {
+      "addTitle": "Ommaviy suv xaridini qayd etish",
+      "editTitle": "Ommaviy suv xaridini tahrirlash",
+      "subtitle": "Hamjamiyatingiz uchun tanker yetkazib berish yoki kommunal ta’minot xaridini kuzatib boring — bu faqat xarajat ko‘rinishi uchun qayd etiladi va uy hisob-fakturalariga ta’sir qilmaydi.",
+      "requiredFields": "Iltimos, sana, manba, hajm va birlik narxini kiriting.",
+      "saveError": "Bu xaridni saqlab bo‘lmadi. Iltimos, tafsilotlarni tekshiring.",
+      "purchaseDate": "Sotib olish sanasi",
+      "source": "Manba / yetkazib beruvchi",
+      "volume": "Hajmi (litr)",
+      "unitCost": "Birlik narxi (₹/litr)",
+      "totalPreview": "Umumiy xarajat: {{amount}}",
+      "notes": "Eslatmalar (ixtiyoriy)",
+      "submit": "Rekord xarid"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} hali qurilmagan",
+    "profileSaveError": "Profilingiz saqlanmadi. Iltimos, qayta urinib koʻring.",
+    "apartmentSaveError": "Kvartira tafsilotlarini saqlab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "specsTitle": "Profil spetsifikatsiyalari",
+    "photoUnavailable": "Rasm yuklash hali mavjud emas",
+    "changePhoto": "Rasmni o'zgartirish",
+    "deletePhoto": "Oʻchirish",
+    "photoHint": "JPG yoki PNG. Maksimal hajmi 2 MB.",
+    "saveProfile": "Profilni saqlash",
+    "apartmentTitle": "Kvartira tafsilotlari",
+    "saveApartment": "Kvartira tafsilotlarini saqlang",
+    "tabs": {
+      "profile": "Profil sozlamalari",
+      "apartment": "Kvartira profili",
+      "notifications": "Xabar berish qoidalari",
+      "billing": "Billing integratsiyasi",
+      "security": "Xavfsizlik va kirish"
+    },
+    "fields": {
+      "fullName": "To'liq ism",
+      "email": "E-pochta manzili",
+      "emailLocked": "Bu yerda elektron pochta manzilini o‘zgartirib bo‘lmaydi",
+      "phone": "Telefon raqami",
+      "accessLevel": "Kirish darajasi",
+      "accessLevelValue": "Jamiyat ma'muri",
+      "roleLocked": "Rollarni boshqarish hali mavjud emas",
+      "apartmentName": "Kvartira nomi",
+      "mainsSource": "Asosiy manba",
+      "mainsSourcePlaceholder": "masalan Kommunal ta'minot + Qo'shimcha tankerlar",
+      "address": "Jismoniy manzil"
+    },
+    "security": {
+      "title": "Xavfsizlik va kirishni oldindan ko'rish",
+      "twoFactor": "Ikki faktorli autentifikatsiya",
+      "twoFactorHint": "Kirish paytida yoqilgan",
+      "twoFactorUnavailable": "Ikki faktorli autentifikatsiya hali mavjud emas",
+      "twoFactorAria": "Ikki faktorli autentifikatsiya (faqat oldindan ko'rish)",
+      "sessionsLabel": "Faol administrator seanslari",
+      "sessionsEmpty": "Seansni kuzatish hozircha mavjud emas — bu kelgusi tartibning oldindan ko‘rishi."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Mening chiptalarim",
+      "inbox": "Rezident chiptalari"
+    },
+    "mine": {
+      "title": "Mening qo'llab-quvvatlash chiptalari",
+      "subtitle": "Tizim administratoriga jamoangiz haqida savol yoki tashvish bildiring.",
+      "emptyCreateHint": "Jamiyatingiz haqida savol yoki tashvish bildiring. Tizim administratori bu yerda ko‘rib chiqadi va javob beradi."
+    },
+    "inbox": {
+      "title": "Rezident chiptalari",
+      "subtitle": "Qo'llab-quvvatlash chiptalari va sizning mahallangiz aholisi sizga murojaat qilgan."
+    }
+  }
+}

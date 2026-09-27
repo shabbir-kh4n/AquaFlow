@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Đang tải…",
+    "saving": "Đang lưu…",
+    "saved": "Đã lưu.",
+    "uploading": "Đang tải lên…",
+    "upload": "Tải lên",
+    "uploadError": "Không thể tải lên tập tin này. Vui lòng thử lại.",
+    "cancel": "Hủy bỏ",
+    "close": "Đóng",
+    "edit": "Biên tập",
+    "remove": "Di dời",
+    "saveChanges": "Lưu thay đổi",
+    "bulkSummary": "Đã xử lý <b>{{total}}</b> hàng — <b>{{success}}</b> đã thành công, <b>{{failure}}</b> không thành công.",
+    "rowFailure": "Hàng {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Đang hiển thị {{from}}–{{to}} trong số {{total}}",
+    "prev": "← Trước đó",
+    "next": "Tiếp theo →",
+    "page": "Trang {{page}} của {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Không thể tải dữ liệu cộng đồng của bạn ngay bây giờ.",
+    "title": "{{community}} Bảng điều khiển căn hộ",
+    "titleFallback": "Bảng điều khiển căn hộ của bạn",
+    "subtitle": "Tóm tắt hoạt động đo đếm phụ của tiện ích nước và tiêu dùng của hộ gia đình.",
+    "comingSoon": "Sắp ra mắt",
+    "manageCommunity": "Quản lý cộng đồng",
+    "noUsageReadings": "Chưa có bài đọc sử dụng nào được ghi lại.",
+    "cards": {
+      "totalHouseholds": "Tổng số hộ gia đình",
+      "occupied": "Chiếm lĩnh",
+      "activeMeters": "Máy đo hoạt động",
+      "reportingReadings": "Báo cáo bài đọc",
+      "monthlyConsumption": "Tiêu thụ hàng tháng",
+      "thisCalendarMonth": "Tháng dương lịch này",
+      "latestRecordedMonth": "Tháng ghi nhận gần nhất ({{month}})",
+      "noReadingsYet": "Chưa có bài đọc nào được ghi lại",
+      "pendingAlerts": "Cảnh báo đang chờ xử lý",
+      "anomalyPreview": "Xem trước phát hiện bất thường - chưa có sẵn"
+    },
+    "actions": {
+      "label": "Hành động hành chính nhanh chóng",
+      "uploadReadings": "Tải lên số đo của đồng hồ",
+      "configureTariffs": "Cấu hình biểu thuế",
+      "reportsNotBuilt": "Báo cáo chưa được xây dựng",
+      "downloadReports": "Tải xuống báo cáo hệ thống"
+    },
+    "chart": {
+      "title": "So sánh mức tiêu thụ hàng tháng (kL)",
+      "subtitle": "{{months}} tháng qua: mục tiêu so với mức tiêu thụ thực tế.",
+      "targetSeries": "Mục tiêu (xem trước)",
+      "actualSeries": "Thật sự"
+    },
+    "recent": {
+      "title": "Số đọc đồng hồ gần đây",
+      "unit": "Đơn vị",
+      "resident": "Người dân",
+      "lastReading": "Lần đọc cuối cùng",
+      "consumption": "Sự tiêu thụ"
+    }
+  },
+  "households": {
+    "loadError": "Không thể tải cư dân. Vui lòng thử lại.",
+    "fixFields": "Vui lòng sửa các trường được đánh dấu.",
+    "saveError": "Không thể cứu cư dân này. Vui lòng kiểm tra chi tiết.",
+    "confirmRemove": "Xóa {{name}} khỏi danh bạ hộ gia đình của bạn?",
+    "removeError": "Không thể xóa cư dân này. Vui lòng thử lại.",
+    "count": "Hộ gia đình: {{total}}",
+    "bulkUploadButton": "⇪ Tải lên hàng loạt",
+    "addResidentButton": "+ Thêm cư dân",
+    "searchPlaceholder": "Lọc theo tên, số nhà, email hoặc số mét.",
+    "loading": "Đang tải cư dân…",
+    "empty": "Chưa có cư dân nào. Nhấp vào \"Thêm cư dân\" để đăng ký hộ gia đình đầu tiên.",
+    "noMatch": "Không có cư dân nào khớp với \"{{search}}\".",
+    "sort": {
+      "label": "Sắp xếp theo",
+      "name": "Tên",
+      "houseNumber": "Số nhà",
+      "dateOfJoining": "Ngày tham gia",
+      "toggleDirection": "Chuyển đổi hướng sắp xếp",
+      "asc": "↑ Tăng dần",
+      "desc": "↓ Quyết định"
+    },
+    "gender": {
+      "male": "Nam giới",
+      "female": "Nữ giới",
+      "other": "Khác"
+    },
+    "table": {
+      "name": "Tên",
+      "houseUnit": "Nhà/Căn hộ",
+      "email": "E-mail",
+      "phone": "Điện thoại",
+      "meterNumber": "Số mét",
+      "sqft": "mét vuông",
+      "joined": "Đã tham gia"
+    },
+    "form": {
+      "addTitle": "Thêm cư dân",
+      "editTitle": "Chỉnh sửa thường trú",
+      "editSubtitle": "Điều này cập nhật thông tin chi tiết của cư dân trong thư mục của bạn.",
+      "bypassSubtitle": "Bạn đang trực tiếp đặt mật khẩu của cư dân này. Sẽ không có email nào được gửi.",
+      "addSubtitle": "Một liên kết đặt mật khẩu sẽ được gửi qua email cho cư dân này để họ có thể kích hoạt thông tin đăng nhập của riêng mình.",
+      "fullName": "Tên đầy đủ",
+      "houseNumber": "Số nhà/căn hộ",
+      "email": "E-mail",
+      "phone": "Số điện thoại",
+      "meterNumber": "Số mét",
+      "governmentId": "ID chính phủ",
+      "gender": "Giới tính",
+      "dateOfBirth": "Ngày sinh",
+      "dateOfJoining": "Ngày tham gia",
+      "flatSize": "Kích thước phẳng (sq ft)",
+      "bypassLabel": "Bỏ qua email đã đặt mật khẩu — đặt mật khẩu cho cư dân này ngay bây giờ",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu"
+    },
+    "validation": {
+      "fullNameRequired": "Tên đầy đủ là bắt buộc.",
+      "emailRequired": "Email là bắt buộc.",
+      "phoneRequired": "Số điện thoại là bắt buộc.",
+      "houseNumberRequired": "Cần có số nhà/căn hộ.",
+      "houseNumberTaken": "Số nhà này đã được gán cho một cư dân khác.",
+      "meterNumberRequired": "Số mét là bắt buộc.",
+      "meterNumberFormat": "Số đồng hồ phải giống như MTR-1234 (4 chữ số).",
+      "meterNumberTaken": "Số công tơ này đã được gán cho một cư dân khác.",
+      "governmentIdRequired": "ID chính phủ là bắt buộc.",
+      "governmentIdFormat": "ID phải có 6 chữ số bắt đầu bằng 99 (ví dụ: 991234).",
+      "genderRequired": "Vui lòng chọn giới tính.",
+      "dateOfBirthRequired": "Ngày sinh là bắt buộc.",
+      "dateOfJoiningRequired": "Ngày tham gia là bắt buộc.",
+      "passwordRequired": "Mật khẩu là bắt buộc.",
+      "passwordLength": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu.",
+      "passwordMismatch": "Mật khẩu không khớp."
+    },
+    "bulk": {
+      "title": "Tải lên hàng loạt cư dân",
+      "noFile": "Vui lòng chọn tệp .csv hoặc .xlsx/.xls để tải lên.",
+      "instructions": "Tải lên tệp .csv hoặc .xlsx/.xls có các cột <code>{{columns}}</code> (cả mật khẩu và FlatSizeSqft đều là tùy chọn). Hàng có mật khẩu được đặt trực tiếp; các hàng không có ai sẽ nhận được email đặt mật khẩu, giống như thêm cư dân theo cách thủ công. Số nhà/mét hồ hoặc email trùng lặp sẽ bị từ chối trên mỗi hàng - một hàng sai sẽ không bị loại trong cả lô."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Không thể tải cư dân. Vui lòng thử lại.",
+    "historyLoadError": "Không thể tải lịch sử đọc. Vui lòng thử lại.",
+    "successMessage": "Đã ghi thành công số đọc {{value}} kL cho {{house}} (Mét: {{meter}})! Mức tiêu thụ được tính toán: {{consumption}} kL.",
+    "tabs": {
+      "single": "Mục nhập đơn",
+      "csv": "Tải lên hàng loạt CSV",
+      "history": "Lịch sử đọc"
+    },
+    "source": {
+      "manual": "Thủ công",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Cư dân này không có số đồng hồ trong hồ sơ.",
+      "dateRequired": "Ngày đọc là bắt buộc.",
+      "invalidValue": "Vui lòng nhập giá trị đọc hợp lệ, không âm.",
+      "duplicate": "Số liệu cho đồng hồ này đã tồn tại vào ngày đó.",
+      "meterNotFound": "Đồng hồ đo này không thể được tìm thấy. Vui lòng chọn lại cư dân.",
+      "lowerThanPrevious": "Số đọc này thấp hơn số đọc được ghi trước đó.",
+      "recordFailed": "Không thể ghi lại bài đọc này. Vui lòng thử lại."
+    },
+    "combo": {
+      "label": "Chọn Flat & Meter Serial",
+      "placeholder": "Chọn Serial & Đồng hồ đo…",
+      "flat": "Phẳng {{house}}",
+      "noMeter": "Không có đồng hồ đo",
+      "searchPlaceholder": "Tìm kiếm số căn hộ, đồng hồ, số hộ dân…",
+      "unitsHeader": "Đơn vị dân cư",
+      "found": "Căn hộ được tìm thấy: {{total}}",
+      "loading": "Đang tải cư dân…",
+      "noMatch": "Không có cư dân nào khớp với \"{{search}}\".",
+      "unassigned": "Chưa được chỉ định",
+      "itemMeta": "{{name}} · Cuối cùng: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Ghi lại bài đọc cho",
+      "context": "Nhà {{house}} · Đồng hồ đo {{meter}}",
+      "changeResident": "Thay đổi cư dân",
+      "readingDate": "Ngày đọc",
+      "readingValue": "Số đọc đồng hồ hiện tại (kL)",
+      "submit": "Gửi bài đọc đã được xác thực",
+      "recentTitle": "Bài đọc gần đây",
+      "recentEmpty": "Chưa có số đọc nào được ghi lại cho đồng hồ này."
+    },
+    "info": {
+      "title": "Xác thực máy đo đơn điệu",
+      "body": "Mỗi số đọc mới phải lớn hơn hoặc bằng nhật ký trước đó của đồng hồ đo đó — điều này giúp cho các phép tính tiêu thụ được chính xác và sớm bắt được các chữ số được chuyển đổi."
+    },
+    "details": {
+      "title": "Chi tiết đơn vị đã chọn",
+      "flatUnit": "Đơn vị phẳng",
+      "meterSerial": "mét nối tiếp",
+      "occupant": "Tên người cư trú",
+      "lastDial": "Cuộc gọi được ghi lần cuối",
+      "noReadings": "Chưa có bài đọc nào",
+      "monthConsumption": "Tiêu thụ tháng",
+      "empty": "Không có hộ nào được chọn. Tìm kiếm và chọn một cư dân để xem chi tiết đồng hồ của họ tại đây."
+    },
+    "csv": {
+      "noFile": "Vui lòng chọn tệp CSV để tải lên.",
+      "instructions": "Tải lên CSV có các cột <code>{{columns}}</code>. Các hàng được xử lý độc lập — một hàng xấu sẽ không bị lỗi trong cả lô."
+    },
+    "history": {
+      "loading": "Đang tải bài đọc…",
+      "empty": "Chưa có bài đọc nào được ghi lại cho cộng đồng của bạn."
+    },
+    "table": {
+      "meterNumber": "Số mét",
+      "date": "Ngày",
+      "value": "Giá trị (kL)",
+      "consumption": "Mức tiêu thụ (kL)",
+      "source": "Nguồn"
+    }
+  },
+  "billingCycles": {
+    "title": "Chu kỳ thanh toán",
+    "loadError": "Không thể tải chu kỳ thanh toán. Vui lòng thử lại.",
+    "paymentUpdateError": "Không thể cập nhật trạng thái thanh toán của hóa đơn này.",
+    "pdfError": "Không thể tải xuống PDF. Vui lòng thử lại.",
+    "finalizeError": "Không thể hoàn tất chu kỳ thanh toán này.",
+    "archiveError": "Không thể lưu trữ chu kỳ thanh toán này.",
+    "loading": "Đang tải chu kỳ thanh toán…",
+    "empty": "Chưa có chu kỳ thanh toán nào. Mở một cái ở trên để bắt đầu.",
+    "status": {
+      "open": "Mở",
+      "finalized": "Đã hoàn tất",
+      "archived": "Đã lưu trữ"
+    },
+    "open": {
+      "title": "Mở chu kỳ thanh toán mới",
+      "noMonth": "Hãy chọn một tháng để mở.",
+      "error": "Không thể mở chu kỳ thanh toán cho tháng đó.",
+      "monthAria": "Tháng kỳ thanh toán",
+      "opening": "Khai mạc…",
+      "submit": "Chu kỳ mở"
+    },
+    "table": {
+      "period": "Giai đoạn",
+      "status": "Trạng thái",
+      "householdsBilled": "Hộ gia đình được lập hoá đơn",
+      "totalBilled": "Tổng số tiền đã thanh toán",
+      "actions": "hành động"
+    },
+    "actions": {
+      "finalize": "Hoàn thiện",
+      "finalizing": "Đang hoàn thiện…",
+      "archive": "Lưu trữ",
+      "archiving": "Đang lưu trữ…"
+    },
+    "filter": {
+      "aria": "Lọc theo trạng thái thanh toán",
+      "all": "Tất cả"
+    },
+    "payment": {
+      "paid": "Trả",
+      "unpaid": "Chưa thanh toán",
+      "updating": "Đang cập nhật…",
+      "markPaid": "Đánh dấu là đã thanh toán",
+      "markUnpaid": "Đánh dấu là chưa thanh toán"
+    },
+    "detail": {
+      "title": "Chi tiết chu kỳ - {{period}}",
+      "loading": "Đang tải hóa đơn…",
+      "notFinalized": "Chu trình này chưa được hoàn tất — chưa có hóa đơn nào được tạo.",
+      "noInvoices": "Không có hóa đơn cho chu kỳ này.",
+      "noMatch": "Không có hóa đơn nào phù hợp với bộ lọc này."
+    },
+    "invoices": {
+      "household": "Hộ gia đình",
+      "resident": "Người dân",
+      "meterNumber": "Số mét",
+      "consumption": "Mức tiêu thụ (kL)",
+      "tierBreakdown": "Phân tích cấp bậc",
+      "commonArea": "Khu vực chung",
+      "total": "Tổng cộng",
+      "paymentStatus": "Trạng thái thanh toán",
+      "pdf": "PDF",
+      "baseLine": "Cơ sở: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Cấp {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Không thể tải cấu hình biểu giá",
+    "saveError": "Không thể lưu cấu hình biểu giá",
+    "chartTitle": "Các bậc giá tiện ích được đo lường đang hoạt động",
+    "axisNote": "Tỷ giá tính bằng ₹/kL, giới hạn phiến tính bằng kL",
+    "tableTitle": "Bảng mức giá",
+    "defaultRatesNote": "Hiển thị giá mặc định — chưa được lưu.",
+    "addTier": "+ Thêm cấp độ",
+    "saveRates": "Lưu thuế suất",
+    "tierLevel": {
+      "base": "Cấp {{tier}} (Cơ sở)",
+      "medium": "Cấp {{tier}} (Trung bình)",
+      "heavy": "Cấp {{tier}} (Nặng)"
+    },
+    "basePrice": {
+      "label": "Giá cơ bản (₹ / kL, áp dụng cho TẤT CẢ mức tiêu thụ)",
+      "note": "Mọi kL đều được tính theo mức giá cố định này trước tiên. Các bảng bên dưới chỉ tính thêm phí EXTRA cho mức sử dụng nằm trong phạm vi của chúng - ví dụ: một phiến bắt đầu từ 50 kL chỉ cộng thêm tỷ lệ tiêu thụ trên 50 kL."
+    },
+    "table": {
+      "tierLevel": "Cấp bậc",
+      "slabLimit": "Giới hạn tấm (kL)",
+      "rate": "Tỷ lệ mỗi kL",
+      "action": "Hoạt động"
+    },
+    "commonArea": {
+      "title": "Cấu hình chi phí khu vực chung được chia sẻ",
+      "loadError": "Không thể tải cấu hình chi phí chung",
+      "saveError": "Không thể lưu cấu hình chi phí chung",
+      "empty": "Chưa có mục chi phí nào được lưu.",
+      "labelPlaceholder": "Nhãn mục chi phí",
+      "perMonth": "/ tháng",
+      "active": "Tích cực",
+      "addItem": "+ Thêm hạng mục chi phí",
+      "save": "Lưu cấu hình khu vực chung"
+    },
+    "distribution": {
+      "title": "Bộ chọn phương pháp phân bổ chi phí",
+      "consumption": "Theo mức tiêu thụ (Tỷ lệ theo đồng hồ đo phụ)",
+      "floorArea": "Theo diện tích căn hộ (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Ngày bắt đầu thanh toán theo chu kỳ",
+      "cycleStartValue": "Ngày 1 hàng tháng",
+      "autoInvoices": "Tự động tạo PDF hóa đơn"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Đã vượt quá ngưỡng",
+      "statisticalOutlier": "Thống kê ngoại lệ"
+    },
+    "status": {
+      "active": "Tích cực",
+      "resolved": "Đã giải quyết",
+      "dismissed": "Bị loại bỏ"
+    },
+    "config": {
+      "title": "Cấu hình phát hiện rò rỉ",
+      "subtitle": "Đặt ngưỡng tiêu dùng hàng tháng và/hoặc cho phép phát hiện các ngoại lệ thống kê (gắn cờ một hộ gia đình có mức tiêu dùng hàng tháng cao bất thường so với lịch sử của chính hộ gia đình đó).",
+      "loadError": "Không thể tải cấu hình cảnh báo. Vui lòng thử lại.",
+      "thresholdRequired": "Cần phải có ngưỡng hàng tháng (kL) khi bật cảnh báo ngưỡng.",
+      "saveError": "Không thể lưu cấu hình này.",
+      "loading": "Đang tải cấu hình…",
+      "threshold": "Ngưỡng hàng tháng (kL)",
+      "sensitivity": "Độ nhạy ngoại lệ (hệ số σ)",
+      "enableThreshold": "Bật cảnh báo ngưỡng",
+      "enableOutlier": "Bật cảnh báo ngoại lệ thống kê",
+      "save": "Lưu cấu hình",
+      "running": "Đang chạy…",
+      "runNow": "Chạy phát hiện ngay"
+    },
+    "alerts": {
+      "title": "Hộ gia đình được gắn cờ",
+      "loadError": "Không thể tải cảnh báo. Vui lòng thử lại.",
+      "runError": "Không thể chạy tính năng phát hiện rò rỉ ngay bây giờ. Vui lòng thử lại.",
+      "updateError": "Không thể cập nhật cảnh báo này. Vui lòng thử lại.",
+      "allStatuses": "Tất cả trạng thái",
+      "loading": "Đang tải cảnh báo…",
+      "empty": "Không có cảnh báo nào để hiển thị. Định cấu hình ngưỡng hoặc bật tính năng phát hiện ngoại lệ ở trên, sau đó nhấp vào \"Chạy phát hiện ngay\" để đánh giá mức sử dụng hiện tại trong cộng đồng của bạn.",
+      "resolve": "Giải quyết",
+      "dismiss": "Miễn nhiệm"
+    },
+    "table": {
+      "household": "Hộ gia đình",
+      "resident": "Người dân",
+      "meter": "Mét",
+      "type": "Kiểu",
+      "period": "Giai đoạn",
+      "consumption": "Sự tiêu thụ",
+      "reference": "Thẩm quyền giải quyết",
+      "status": "Trạng thái"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Không thể tải mua nước số lượng lớn. Vui lòng thử lại.",
+    "confirmRemove": "Xóa việc phân phối {{source}} trên {{date}}?",
+    "removeError": "Không thể xóa giao dịch mua này. Vui lòng thử lại.",
+    "count": "Số lần mua hàng được ghi nhận: {{total}}",
+    "recordButton": "+ Mua hồ sơ",
+    "loading": "Đang tải các giao dịch mua nước số lượng lớn…",
+    "empty": "Chưa có giao dịch mua nước số lượng lớn nào được ghi nhận. Nhấp vào \"Ghi lại Mua hàng\" để ghi nhật ký giao hàng bằng tàu chở dầu hoặc mua hàng cung cấp cho thành phố.",
+    "table": {
+      "date": "Ngày",
+      "source": "Nguồn",
+      "volume": "Khối lượng (L)",
+      "unitCost": "Đơn giá",
+      "totalCost": "Tổng chi phí",
+      "notes": "Ghi chú"
+    },
+    "form": {
+      "addTitle": "Ghi lại việc mua nước số lượng lớn",
+      "editTitle": "Chỉnh sửa mua nước số lượng lớn",
+      "subtitle": "Theo dõi việc giao hàng bằng tàu chở dầu hoặc mua hàng cung cấp cho thành phố cho cộng đồng của bạn — việc này được ghi lại chỉ để hiển thị chi phí và không ảnh hưởng đến hóa đơn hộ gia đình.",
+      "requiredFields": "Vui lòng điền ngày tháng, nguồn gốc, khối lượng và đơn giá.",
+      "saveError": "Không thể lưu giao dịch mua này. Vui lòng kiểm tra chi tiết.",
+      "purchaseDate": "Ngày mua",
+      "source": "Nguồn/nhà cung cấp",
+      "volume": "Thể tích (lít)",
+      "unitCost": "Đơn giá ($/lít)",
+      "totalPreview": "Tổng chi phí: {{amount}}",
+      "notes": "Ghi chú (tùy chọn)",
+      "submit": "Kỷ lục mua hàng"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} chưa được xây dựng",
+    "profileSaveError": "Không thể lưu hồ sơ của bạn. Vui lòng thử lại.",
+    "apartmentSaveError": "Không thể lưu chi tiết căn hộ. Vui lòng thử lại.",
+    "specsTitle": "Thông số hồ sơ",
+    "photoUnavailable": "Tính năng tải ảnh lên chưa khả dụng",
+    "changePhoto": "Thay đổi ảnh",
+    "deletePhoto": "Xóa bỏ",
+    "photoHint": "JPG hoặc PNG. Kích thước tối đa 2MB.",
+    "saveProfile": "Lưu hồ sơ",
+    "apartmentTitle": "Chi tiết căn hộ",
+    "saveApartment": "Lưu chi tiết căn hộ",
+    "tabs": {
+      "profile": "Cài đặt hồ sơ",
+      "apartment": "Hồ sơ căn hộ",
+      "notifications": "Quy tắc thông báo",
+      "billing": "Tích hợp thanh toán",
+      "security": "Bảo mật & Truy cập"
+    },
+    "fields": {
+      "fullName": "Tên đầy đủ",
+      "email": "Địa chỉ email",
+      "emailLocked": "Email không thể thay đổi ở đây",
+      "phone": "Số điện thoại",
+      "accessLevel": "Cấp độ truy cập",
+      "accessLevelValue": "Quản trị viên cộng đồng",
+      "roleLocked": "Quản lý vai trò chưa khả dụng",
+      "apartmentName": "Tên căn hộ",
+      "mainsSource": "Nguồn điện chính",
+      "mainsSourcePlaceholder": "ví dụ. Cung cấp thành phố + Tàu chở dầu bổ sung",
+      "address": "Địa chỉ vật lý"
+    },
+    "security": {
+      "title": "Xem trước bảo mật và quyền truy cập",
+      "twoFactor": "Xác thực hai yếu tố",
+      "twoFactorHint": "Đã bật khi đăng nhập",
+      "twoFactorUnavailable": "Xác thực hai yếu tố chưa khả dụng",
+      "twoFactorAria": "Xác thực hai yếu tố (chỉ xem trước)",
+      "sessionsLabel": "Phiên quản trị đang hoạt động",
+      "sessionsEmpty": "Tính năng theo dõi phiên chưa khả dụng — đây là bản xem trước của bố cục sắp tới."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Vé của tôi",
+      "inbox": "Vé thường trú"
+    },
+    "mine": {
+      "title": "Vé hỗ trợ của tôi",
+      "subtitle": "Đưa ra câu hỏi hoặc mối quan ngại về cộng đồng của bạn với Quản trị viên hệ thống.",
+      "emptyCreateHint": "Đưa ra câu hỏi hoặc mối quan ngại về cộng đồng của bạn. Quản trị hệ thống sẽ xem xét và phản hồi tại đây."
+    },
+    "inbox": {
+      "title": "Vé thường trú",
+      "subtitle": "Phiếu hỗ trợ và những mối quan tâm mà cư dân trong cộng đồng của bạn đã gửi đến bạn."
+    }
+  }
+}

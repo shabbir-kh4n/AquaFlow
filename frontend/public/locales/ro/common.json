@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Aproape",
+    "signUpTitle": "Înregistrează-ți comunitatea",
+    "signInTitle": "Bine ai revenit",
+    "signUpSubtitle": "Creați un cont de administrator al comunității pentru a începe să gestionați rezidenții și facturarea.",
+    "signInSubtitle": "Conectați-vă pentru a vedea consumul de apă și facturarea."
+  },
+  "signIn": {
+    "errorFallback": "Nu se poate conecta. Vă rugăm să încercați din nou.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Parolă",
+    "rememberMe": "Ține-mă minte",
+    "forgotPassword": "Aţi uitat parola?",
+    "submitting": "Se conectează...",
+    "submit": "Conectare",
+    "noAccount": "Nu ai un cont?",
+    "signUpLink": "Înscrie-te"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Parolele nu se potrivesc.",
+      "communityRequired": "Numele comunității este obligatoriu.",
+      "termsRequired": "Vă rugăm să acceptați Termenii și condițiile și Politica de confidențialitate.",
+      "fallback": "Nu se poate crea contul. Vă rugăm să încercați din nou."
+    },
+    "hint": "Doar administratorii comunității se înregistrează aici. Odată ce intrați, veți adăuga personal detaliile rezidenților dvs. - aceștia nu se înscriu singuri.",
+    "fullNameLabel": "Numele complet",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Număr de telefon",
+    "communityNameLabel": "Numele comunității",
+    "passwordLabel": "Parolă",
+    "confirmPasswordLabel": "Confirmați parola",
+    "agreeTerms": "Sunt de acord cu <termsLink>Termenii și condițiile</termsLink> și <privacyLink>Politica de confidențialitate</privacyLink>",
+    "submitting": "Se creează cont...",
+    "submit": "Creați un cont de administrator",
+    "haveAccount": "Aveți deja un cont?",
+    "signInLink": "Conectare"
+  },
+  "installPrompt": {
+    "title": "Instalați HydroLedger",
+    "description": "Adăugați-l pe ecranul de pornire pentru acces rapid.",
+    "dismiss": "Respingeți",
+    "install": "Instala"
+  },
+  "setPassword": {
+    "title": "Setează-ți parola",
+    "loading": "Încărcare…",
+    "subtitle": "Bună {{name}}, alegeți o parolă pentru {{email}} pentru a vă activa contul HydroLedger.",
+    "errors": {
+      "invalidLink": "Acest link este invalid sau a expirat.",
+      "tooShort": "Parola trebuie să aibă cel puțin 8 caractere.",
+      "mismatch": "Parolele nu se potrivesc.",
+      "fallback": "Nu s-a putut seta parola. Vă rugăm să încercați din nou."
+    },
+    "passwordLabel": "Parolă",
+    "confirmPasswordLabel": "Confirmați parola",
+    "submitting": "Se setează parola...",
+    "submit": "Setați parola și conectați-vă"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistent",
+      "resident": "Întrebați despre contul dvs",
+      "admin": "Asistent comunitar",
+      "platform": "Asistent de platformă",
+      "default": "Asistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Ce este HydroLedger?",
+        "tieredBilling": "Cum funcționează facturarea pe niveluri?",
+        "leaks": "Cum sunt detectate scurgerile?"
+      },
+      "resident": {
+        "billEstimate": "Care este estimarea actuală a facturii mele?",
+        "alerts": "Am alerte de utilizare?",
+        "readings": "Afișați citirile mele recente"
+      },
+      "admin": {
+        "households": "Câte gospodării avem?",
+        "billingCycles": "Listați ciclurile noastre recente de facturare",
+        "tariff": "Care este planul nostru tarifar actual?"
+      },
+      "platform": {
+        "communities": "Listați toate comunitățile înregistrate",
+        "usageReport": "Afișați raportul de utilizare a platformei",
+        "systemStatus": "Care este starea sistemului?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Trimiți mesaje prea repede - așteptați un moment și încercați din nou.",
+      "unavailable": "Asistentul este temporar indisponibil. Vă rugăm să încercați din nou în scurt timp.",
+      "generic": "Ceva a mers prost la trimiterea acelui mesaj. Vă rugăm să încercați din nou."
+    },
+    "emptyHint": "Întrebați-mă orice - vă pot vedea doar propriile date.",
+    "closeAssistant": "Asistent apropiat",
+    "openAssistant": "Deschide asistentul",
+    "inputPlaceholder": "Tastați un mesaj...",
+    "inputLabel": "Mesaj",
+    "send": "Trimite"
+  },
+  "supportBoard": {
+    "defaultTitle": "Bilete de suport",
+    "defaultCreateLabel": "Trezește o nouă îngrijorare",
+    "status": {
+      "open": "Deschide",
+      "inProgress": "În curs",
+      "resolved": "Rezolvat",
+      "closed": "Închis"
+    },
+    "tabs": {
+      "all": "Toate Biletele"
+    },
+    "recipients": {
+      "admin": "Administratorul comunității",
+      "systemAdmin": "Administrator de sistem",
+      "both": "Administrator comunității + Administrator de sistem"
+    },
+    "roles": {
+      "resident": "Rezident",
+      "admin": "Admin"
+    },
+    "toRecipients": "Către: {{recipients}}",
+    "raisedByResident": "Crescut de rezident {{name}}",
+    "raisedByAdmin": "Ridicat de administrator {{name}}",
+    "refresh": "Reîmprospăta",
+    "stats": {
+      "openLabel": "Deschide Trimiterile",
+      "openHint": "Se așteaptă revizuirea",
+      "inProgressLabel": "În curs",
+      "inProgressHint": "Se lucrează la",
+      "resolvedLabel": "Rezolvat",
+      "resolvedHint": "S-a închis cu succes"
+    },
+    "searchPlaceholder": "Căutați bilete după subiect, problemă...",
+    "loadingTickets": "Se încarcă biletele…",
+    "empty": {
+      "title": "Nu s-au găsit bilete de asistență",
+      "body": "În prezent, nu aveți cereri de asistență deschise sau înregistrate care să corespundă acestui filtru.",
+      "cta": "Trimiteți o îngrijorare"
+    },
+    "errors": {
+      "loadList": "Nu s-au putut încărca biletele de asistență. Vă rugăm să încercați din nou.",
+      "loadDetail": "Acest bilet nu a putut fi încărcat. Vă rugăm să încercați din nou.",
+      "required": "Subiectul și mesajul sunt obligatorii.",
+      "recipientRequired": "Selectați cel puțin un destinatar (administrator comunității și/sau administrator de sistem).",
+      "submitFallback": "Nu s-a putut trimite acest bilet. Vă rugăm să încercați din nou.",
+      "sendReply": "Nu s-a putut trimite acest mesaj. Vă rugăm să încercați din nou.",
+      "updateStatus": "Nu s-a putut actualiza starea acestui bilet. Vă rugăm să încercați din nou."
+    },
+    "form": {
+      "defaultHint": "Descrieți problema sau preocuparea dvs. mai jos.",
+      "subjectLabel": "Subiect",
+      "subjectPlaceholder": "Scurt rezumat al problemei dvs",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Descrieți în detaliu ce se întâmplă...",
+      "recipientsLabel": "Trimiteți această îngrijorare către",
+      "cancel": "Anula",
+      "submitting": "Se trimite…",
+      "submit": "Trimiteți biletul"
+    },
+    "detail": {
+      "loading": "Se încarcă biletul...",
+      "replyPlaceholder": "Scrie un răspuns…",
+      "close": "Aproape",
+      "sending": "Se trimite…",
+      "sendReply": "Trimite răspuns"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Bine ai revenit, {{name}}",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "logout": "Deconectați-vă",
+    "search": "Căutare",
+    "notifications": "Notificări"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Bord",
+      "households": "Directorul gospodăriilor",
+      "meterReadings": "Citirile contorului",
+      "billing": "Managementul facturării",
+      "bulkPurchases": "Achiziții în vrac",
+      "reports": "Rapoarte",
+      "waterLeakage": "Scurgeri de apă",
+      "support": "Suport / Preocupări",
+      "tariffPlans": "Planuri tarifare",
+      "announcements": "Anunturi",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Iată un instantaneu al comunității tale."
+      },
+      "households": {
+        "title": "Directorul gospodăriilor",
+        "subtitle": "Adăugați, actualizați și gestionați rezidenții care locuiesc în comunitatea dvs."
+      },
+      "meterReadings": {
+        "title": "Hub de citire a contorului de apă",
+        "subtitle": "Căutați un rezident și înregistrați citirea contorului de apă."
+      },
+      "tariffPlans": {
+        "title": "Configurarea tarifului",
+        "subtitle": "Configurați limitele de tarife pe niveluri, costurile comune ale zonei comune și metodele de distribuție pentru comunitatea dvs. de apartamente."
+      },
+      "billing": {
+        "title": "Managementul facturării",
+        "subtitle": "Deschideți, finalizați și arhivați ciclurile de facturare și examinați facturile detaliate pentru fiecare gospodărie."
+      },
+      "bulkPurchases": {
+        "title": "Achiziții în vrac",
+        "subtitle": "Înregistrați livrările de cisterne și achizițiile municipale de provizii pentru comunitatea dvs."
+      },
+      "waterLeakage": {
+        "title": "Scurgeri de apă",
+        "subtitle": "Configurați alertele de scurgere bazate pe prag și valori aberante și examinați gospodăriile semnalate."
+      },
+      "support": {
+        "title": "Suport / Preocupări",
+        "subtitle": "Ridicați-vă propriile bilete la administratorul de sistem sau gestionați preocupările pe care vi le-au adresat rezidenții."
+      },
+      "profile": {
+        "title": "Setări și profil",
+        "subtitle": "Gestionați detaliile contului și informațiile despre apartament."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Administratorul comunității",
+    "notBuilt": "{{label}} nu este încă creat",
+    "searchPlaceholder": "Cauta orice..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapoarte",
+      "description": "Rapoarte de consum, facturare și conservare pentru comunitatea dvs."
+    },
+    "announcements": {
+      "title": "Anunturi",
+      "description": "Trimiteți anunțuri la nivelul comunității rezidenților dvs."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} va veni în curând"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Bord",
+      "usageHistory": "Istoricul utilizării",
+      "bills": "Facturile mele",
+      "recommendations": "Recomandări",
+      "reports": "Rapoarte",
+      "support": "Suport / Preocupări",
+      "notifications": "Notificări",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Istoricul dvs. de utilizare",
+      "billing": "Facturare și facturi",
+      "notifications": "Notificări",
+      "recommendations": "Recomandări",
+      "support": "Suport / Preocupări"
+    },
+    "defaultTitle": "Tabloul de bord pentru rezidenți",
+    "navLabel": "Navigație pentru rezidenți",
+    "fallbackName": "Rezident",
+    "unit": "Unitatea {{number}}",
+    "comingSoon": "{{label}} va veni în curând",
+    "profile": "Profil",
+    "searchPlaceholder": "Analize de căutare, facturi..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Bord",
+      "communities": "Comunități",
+      "reports": "Rapoarte",
+      "supportTickets": "Bilete de suport",
+      "systemStatus": "Stare sistem"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Instantaneu la nivel de platformă în fiecare comunitate înregistrată."
+      },
+      "communities": {
+        "title": "Comunități",
+        "subtitle": "Fiecare administrator al comunității înregistrat și comunitatea lor, într-un singur loc."
+      },
+      "reports": {
+        "title": "Rapoarte",
+        "subtitle": "Cifrele privind consumul de apă și facturarea la nivelul întregii platforme, în funcție de comunitate și în timp."
+      },
+      "supportTickets": {
+        "title": "Bilete de suport",
+        "subtitle": "Sprijină bilete și preocupări ridicate de rezidenți și administratorii comunității, la nivelul întregii platforme."
+      },
+      "systemStatus": {
+        "title": "Stare sistem",
+        "subtitle": "Conectivitate backend și starea de funcționare de bază."
+      }
+    },
+    "fallbackName": "Administrator de sistem",
+    "platformOwner": "Proprietarul platformei",
+    "searchPlaceholder": "Căutați în comunități..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Limba: {{language}}",
+    "searchPlaceholder": "Căutați limba...",
+    "noMatches": "Fără meciuri"
+  }
+}

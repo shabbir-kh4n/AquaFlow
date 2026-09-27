@@ -5,6 +5,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hydroledger.backend.dto.ResidentRecommendationResponse;
@@ -23,7 +24,8 @@ public class ResidentRecommendationController {
 
     @GetMapping("/recommendations")
     public ResponseEntity<ResidentRecommendationResponse> getRecommendations(
-            @AuthenticationPrincipal ResidentPrincipal principal) {
-        return ResponseEntity.ok(residentRecommendationService.getForResident(principal.getUser()));
+            @AuthenticationPrincipal ResidentPrincipal principal,
+            @RequestParam(required = false) String lang) {
+        return ResponseEntity.ok(residentRecommendationService.getForResident(principal.getUser(), lang));
     }
 }

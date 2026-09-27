@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktyvus",
+    "blocked": "Užblokuota",
+    "terminated": "Nutraukta"
+  },
+  "sort": {
+    "sortBy": "Rūšiuoti pagal",
+    "toggleDirection": "Perjungti rūšiavimo kryptį",
+    "asc": "↑ Asc",
+    "desc": "↓ Aprašymas"
+  },
+  "pagination": {
+    "showing": "Rodoma {{from}}–{{to}} iš {{total}}",
+    "prev": "← Ankst",
+    "next": "Kitas →",
+    "page": "Puslapis {{page}} iš {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformos apžvalga",
+    "subtitle": "Kiekvienas registruotas bendruomenės administratorius visoje HydroLedger platformoje.",
+    "viewAll": "Peržiūrėti visas bendruomenes",
+    "loadError": "Šiuo metu nepavyko įkelti platformos duomenų.",
+    "cards": {
+      "totalCommunities": "Iš viso bendruomenės",
+      "registeredAdmins": "Registruoti administratoriai",
+      "totalResidents": "Iš viso gyventojų",
+      "acrossAllCommunities": "Visose bendruomenėse",
+      "active": "Aktyvus",
+      "inGoodStanding": "Geros būklės",
+      "blockedTerminated": "Užblokuotas / nutrauktas",
+      "blockedTerminatedBreakdown": "{{blocked}} užblokuotas, {{terminated}} nutrauktas"
+    },
+    "recent": {
+      "title": "Neseniai registruotos bendruomenės",
+      "loading": "Įkeliama…",
+      "empty": "Bendruomenių dar neužregistruota.",
+      "table": {
+        "community": "bendruomenė",
+        "admin": "Admin",
+        "status": "Būsena",
+        "residents": "Gyventojai"
+      }
+    }
+  },
+  "communities": {
+    "count": "Bendruomenės: {{count}}",
+    "loadError": "Nepavyko įkelti bendruomenių. Bandykite dar kartą.",
+    "searchPlaceholder": "Filtruokite pagal bendruomenę, administratoriaus vardą arba el. pašto adresą",
+    "statusFilter": {
+      "label": "Būsena",
+      "all": "Visi"
+    },
+    "sortOptions": {
+      "community": "bendruomenė",
+      "admin": "Admin",
+      "residents": "Gyventojai"
+    },
+    "loading": "Įkeliamos bendruomenės…",
+    "empty": "Bendruomenių dar neužregistruota.",
+    "noMatch": "Nė viena bendruomenė neatitinka jūsų filtrų.",
+    "table": {
+      "community": "bendruomenė",
+      "admin": "Admin",
+      "email": "El. paštas",
+      "status": "Būsena",
+      "residents": "Gyventojai",
+      "view": "Žiūrėti"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Nepavyko įkelti šios bendruomenės. Gali būti, kad jis buvo pašalintas.",
+    "statusUpdateError": "Nepavyko atnaujinti šios bendruomenės būsenos.",
+    "deleteError": "Nepavyko ištrinti šios bendruomenės.",
+    "loading": "Įkeliama bendruomenė…",
+    "notFound": "Bendruomenė nerasta.",
+    "backLink": "← Atgal į bendruomenes",
+    "backLinkShort": "Grįžti į bendruomenes",
+    "eyebrow": "Bendruomenės profilis",
+    "unnamed": "Neįvardyta bendruomenė",
+    "noAddress": "Byloje nėra adreso",
+    "stats": {
+      "residents": "Gyventojai",
+      "status": "Būsena"
+    },
+    "actions": {
+      "reactivate": "Iš naujo suaktyvinkite",
+      "block": "Blokuoti",
+      "terminate": "Nutraukti",
+      "delete": "Ištrinti Bendruomenę"
+    },
+    "blockDialog": {
+      "title": "Blokuoti šį bendruomenės administratorių?",
+      "message": "Blokuoti {{name}}? Jie negalės prisijungti, kol nebus atblokuoti. Jokie duomenys nebus paveikti.",
+      "confirm": "Blokuoti"
+    },
+    "terminateDialog": {
+      "title": "Nutraukti šį bendruomenės administratorių?",
+      "message": "Visam laikui nutraukti {{name}} prieigą? To negalima anuliuoti, nors jų bendruomenės duomenys bus saugomi įrašams.",
+      "confirm": "Nutraukti"
+    },
+    "deleteDialog": {
+      "title": "Ištrinti šią bendruomenę?",
+      "message": "Bus visam laikui ištrinta <strong>{{name}}</strong> ir visi jo namų ūkiai, gyventojai, skaitikliai, tarifų / atsiskaitymo konfigūracija ir sąskaitų faktūrų istorija. Šio veiksmo anuliuoti negalima.",
+      "typeToConfirm": "Norėdami tęsti, įveskite <strong>{{word}}</strong>",
+      "confirm": "Patvirtinti"
+    },
+    "residents": {
+      "title": "Gyventojai",
+      "registeredCount": "Registruota: {{count}}",
+      "empty": "Šioje bendruomenėje dar nėra užsiregistravusių gyventojų.",
+      "table": {
+        "flatUnit": "Plokščias vienetas",
+        "meter": "Metras",
+        "resident": "Gyventojas",
+        "email": "El. paštas",
+        "passwordSet": "Slaptažodžio rinkinys"
+      },
+      "yes": "Taip",
+      "no": "Nr"
+    },
+    "cancel": "Atšaukti",
+    "working": "Dirba…",
+    "deleting": "Ištrinama…"
+  },
+  "systemStatus": {
+    "statusError": "Nepavyko pasiekti užpakalinės programos ir patikrinti sistemos būseną.",
+    "metricsError": "Nepavyko įkelti metrikos istorijos.",
+    "ranges": {
+      "fiveMinutes": "5 minutės",
+      "fifteenMinutes": "15 minučių",
+      "hour": "Valanda",
+      "day": "Diena",
+      "week": "Savaitė",
+      "month": "Mėnuo",
+      "threeMonths": "3 mėnesiai"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}val",
+      "minutes": "{{value}} min"
+    },
+    "charts": {
+      "requestsPerSec": "Prašymai/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latencija",
+      "lastValue": "{{value}} paskutinis",
+      "loading": "Įkeliama…",
+      "empty": "Šio diapazono metrikos dar neįrašytos."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Vid.: <b>{{value}}</b>",
+      "max": "Maks.: <b>{{value}}</b>",
+      "last": "Paskutinį kartą: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Tikrinama…",
+      "reachable": "Pasiekiamas",
+      "unreachable": "Nepasiekiamas",
+      "connected": "Prisijungta",
+      "backendApiHint": "Šis puslapis buvo įkeltas iš užpakalinės programos, todėl jis atsakė.",
+      "database": "Duomenų bazė",
+      "databaseHint": "„PostgreSQL“ ryšys, patikrintas gyvai.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Nuo paskutinio programos paleidimo iš naujo.",
+      "appVersion": "Programos versija",
+      "appVersionHint": "Backend kūrimo versija."
+    },
+    "mini": {
+      "latency": "Latencija",
+      "readsLatency": "Skaitymo delsa",
+      "writesLatency": "Rašo delsą",
+      "otherLatency": "Kitas delsimas",
+      "connections": "Jungtys",
+      "totalKeys": "Iš viso raktų"
+    },
+    "note": "Užklausos per sekundę ir delsa atrenkamos iš tiesioginio foninio srauto kas 15 sekundžių ir saugomos iki 100 dienų. Tai yra pagrindinis ryšio ir srauto patikrinimas – jis nepakeičia viso programos našumo stebėjimo, žurnalų kaupimo ar įspėjimų."
+  },
+  "reports": {
+    "loadError": "Nepavyko įkelti platformos ataskaitos.",
+    "ranges": {
+      "threeMonths": "3 mėnesiai",
+      "sixMonths": "6 mėnesiai",
+      "twelveMonths": "12 mėnesių",
+      "custom": "Pasirinktinis"
+    },
+    "sortOptions": {
+      "community": "bendruomenė",
+      "usage": "Naudojimas",
+      "billed": "Išrašyta sąskaita",
+      "residents": "Gyventojai"
+    },
+    "customRange": {
+      "from": "Iš",
+      "to": "Į",
+      "hint": "Norėdami įkelti tinkintą ataskaitą, pasirinkite mėnesį „nuo“ ir „iki“."
+    },
+    "loading": "Įkeliama ataskaita…",
+    "cards": {
+      "totalCommunities": "Iš viso bendruomenės",
+      "inThisRange": "Šiame diapazone",
+      "totalResidents": "Iš viso gyventojų",
+      "acrossAllCommunities": "Visose bendruomenėse",
+      "overallUsage": "Bendras naudojimas",
+      "meteredConsumption": "Matuojamas suvartojimas",
+      "overallBilled": "Bendra sąskaita",
+      "finalizedInvoicesOnly": "Tik galutinės sąskaitos faktūros",
+      "avgUsagePerResident": "Vidutinis naudojimas / gyventojas",
+      "avgBillPerResident": "Vid. sąskaita / gyventojas"
+    },
+    "charts": {
+      "usageTitle": "Naudojimas visoje platformoje (kL per mėnesį)",
+      "usageEmpty": "Šio diapazono naudojimas neužregistruotas.",
+      "usageSeries": "Naudojimas",
+      "billedTitle": "Platformos atsiskaitymo suma (₹ / mėn.)",
+      "billedEmpty": "Šio diapazono sąskaitų faktūrų neužbaigta.",
+      "billedSeries": "Išrašyta sąskaita"
+    },
+    "searchPlaceholder": "Filtruokite pagal bendruomenės arba administratoriaus vardą",
+    "empty": "Jokia bendruomenė dar neturi šio diapazono naudojimo ar atsiskaitymo duomenų.",
+    "noMatch": "Nėra jūsų filtrą atitinkančių bendruomenių.",
+    "table": {
+      "community": "bendruomenė",
+      "admin": "Admin",
+      "residents": "Gyventojai",
+      "usage": "Naudojimas (kL)",
+      "billed": "Sąskaita (₹)",
+      "avgUsagePerResident": "Vidutinis naudojimas / gyventojas",
+      "avgBillPerResident": "Vid. sąskaita / gyventojas"
+    }
+  },
+  "supportTickets": {
+    "title": "Palaikymo bilietai",
+    "subtitle": "Palaikykite bilietus ir rūpesčius, kuriuos iškėlė gyventojai ir bendruomenės administratoriai, visoje platformoje."
+  }
+}

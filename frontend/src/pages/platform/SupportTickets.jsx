@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import {
   addPlatformSupportTicketMessage,
   getPlatformSupportTicketDetail,
@@ -7,10 +8,12 @@ import {
 import SupportTicketBoard from '../../components/support/SupportTicketBoard'
 
 function SupportTickets() {
+  const { t } = useTranslation('platform')
+
   return (
     <SupportTicketBoard
-      title="Support Tickets"
-      subtitle="Support tickets and concerns raised by residents and community admins, platform-wide."
+      title={t('supportTickets.title')}
+      subtitle={t('supportTickets.subtitle')}
       listFn={listPlatformSupportTickets}
       getDetailFn={getPlatformSupportTicketDetail}
       addMessageFn={addPlatformSupportTicketMessage}

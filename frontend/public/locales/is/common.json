@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Loka",
+    "signUpTitle": "Skráðu samfélag þitt",
+    "signInTitle": "Velkominn aftur",
+    "signUpSubtitle": "Búðu til samfélagsstjórareikning til að byrja að stjórna íbúa og innheimtu.",
+    "signInSubtitle": "Skráðu þig inn til að skoða vatnsnotkun þína og innheimtu."
+  },
+  "signIn": {
+    "errorFallback": "Ekki tókst að skrá þig inn. Reyndu aftur.",
+    "emailLabel": "Tölvupóstur",
+    "passwordLabel": "Lykilorð",
+    "rememberMe": "Mundu eftir mér",
+    "forgotPassword": "Gleymt lykilorð?",
+    "submitting": "Skráir sig inn...",
+    "submit": "Skráðu þig inn",
+    "noAccount": "Ertu ekki með reikning?",
+    "signUpLink": "Skráðu þig"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Lykilorð passa ekki saman.",
+      "communityRequired": "Nafn samfélagsins er áskilið.",
+      "termsRequired": "Vinsamlegast samþykktu þjónustuskilmálana og persónuverndarstefnuna.",
+      "fallback": "Ekki tókst að stofna reikning. Vinsamlegast reyndu aftur."
+    },
+    "hint": "Aðeins samfélagsstjórar skrá sig hér. Þegar þú ert kominn inn, bætir þú sjálfur við upplýsingum íbúa þinna - þeir skrá sig ekki á eigin spýtur.",
+    "fullNameLabel": "Fullt nafn",
+    "emailLabel": "Tölvupóstur",
+    "phoneLabel": "Símanúmer",
+    "communityNameLabel": "Samfélagsheiti",
+    "passwordLabel": "Lykilorð",
+    "confirmPasswordLabel": "Staðfestu lykilorð",
+    "agreeTerms": "Ég samþykki <termsLink>þjónustuskilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink>",
+    "submitting": "Býr til reikning...",
+    "submit": "Búðu til stjórnandareikning",
+    "haveAccount": "Ertu nú þegar með reikning?",
+    "signInLink": "Skráðu þig inn"
+  },
+  "installPrompt": {
+    "title": "Settu upp HydroLedger",
+    "description": "Bættu því við heimaskjáinn þinn til að fá skjótan aðgang.",
+    "dismiss": "Segja frá",
+    "install": "Settu upp"
+  },
+  "setPassword": {
+    "title": "Stilltu lykilorðið þitt",
+    "loading": "Hleður…",
+    "subtitle": "Hæ {{name}}, veldu lykilorð fyrir {{email}} til að virkja HydroLedger reikninginn þinn.",
+    "errors": {
+      "invalidLink": "Þessi hlekkur er ógildur eða er útrunninn.",
+      "tooShort": "Lykilorð verður að vera að minnsta kosti 8 stafir.",
+      "mismatch": "Lykilorð passa ekki saman.",
+      "fallback": "Gat ekki stillt lykilorðið þitt. Vinsamlegast reyndu aftur."
+    },
+    "passwordLabel": "Lykilorð",
+    "confirmPasswordLabel": "Staðfestu lykilorð",
+    "submitting": "Stillir lykilorð...",
+    "submit": "Stilltu lykilorð og skráðu þig inn"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Aðstoðarmaður",
+      "resident": "Spyrðu um reikninginn þinn",
+      "admin": "Aðstoðarmaður samfélagsins",
+      "platform": "Aðstoðarmaður pallur",
+      "default": "Aðstoðarmaður"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Hvað er HydroLedger?",
+        "tieredBilling": "Hvernig virkar þrepaskipt innheimta?",
+        "leaks": "Hvernig er leki greind?"
+      },
+      "resident": {
+        "billEstimate": "Hvert er núverandi reikningsáætlun mín?",
+        "alerts": "Er ég með einhverjar notkunarviðvaranir?",
+        "readings": "Sýndu nýlegar mælingar mínar"
+      },
+      "admin": {
+        "households": "Hvað eigum við mörg heimili?",
+        "billingCycles": "Skráðu nýlegar innheimtulotur okkar",
+        "tariff": "Hver er núverandi gjaldskráráætlun okkar?"
+      },
+      "platform": {
+        "communities": "Skráðu öll skráð samfélög",
+        "usageReport": "Sýndu vettvangsnotkunarskýrsluna",
+        "systemStatus": "Hver er staða kerfisins?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Þú ert að senda skilaboð of hratt - vinsamlegast bíddu í smá stund og reyndu aftur.",
+      "unavailable": "Aðstoðarmaðurinn er ekki tiltækur tímabundið. Vinsamlegast reyndu aftur fljótlega.",
+      "generic": "Eitthvað fór úrskeiðis við að senda þessi skilaboð. Vinsamlegast reyndu aftur."
+    },
+    "emptyHint": "Spyrðu mig hvað sem er - ég get aðeins séð þín eigin gögn.",
+    "closeAssistant": "Náinn aðstoðarmaður",
+    "openAssistant": "Opinn aðstoðarmaður",
+    "inputPlaceholder": "Sláðu inn skilaboð…",
+    "inputLabel": "Skilaboð",
+    "send": "Senda"
+  },
+  "supportBoard": {
+    "defaultTitle": "Stuðningsmiðar",
+    "defaultCreateLabel": "Vekja nýjar áhyggjur",
+    "status": {
+      "open": "Opið",
+      "inProgress": "Í vinnslu",
+      "resolved": "Leyst",
+      "closed": "Lokað"
+    },
+    "tabs": {
+      "all": "Allir miðar"
+    },
+    "recipients": {
+      "admin": "Samfélagsstjórnandi",
+      "systemAdmin": "Kerfisstjóri",
+      "both": "Samfélagsstjóri + Kerfisstjóri"
+    },
+    "roles": {
+      "resident": "Íbúi",
+      "admin": "Admin"
+    },
+    "toRecipients": "Til: {{recipients}}",
+    "raisedByResident": "Alið upp af íbúa {{name}}",
+    "raisedByAdmin": "Alinn upp af stjórnanda {{name}}",
+    "refresh": "Endurnýja",
+    "stats": {
+      "openLabel": "Opna innsendingar",
+      "openHint": "Bíður skoðunar",
+      "inProgressLabel": "Í vinnslu",
+      "inProgressHint": "Verið er að vinna í",
+      "resolvedLabel": "Leyst",
+      "resolvedHint": "Lokað tókst"
+    },
+    "searchPlaceholder": "Leitaðu að miðum eftir efni, útgáfu...",
+    "loadingTickets": "Hleður miða...",
+    "empty": {
+      "title": "Engir stuðningsmiðar fundust",
+      "body": "Þú hefur sem stendur engar opnar eða skráðar stuðningsbeiðnir sem passa við þessa síu.",
+      "cta": "Sendu fram áhyggjuefni"
+    },
+    "errors": {
+      "loadList": "Gat ekki hlaðið stuðningsmiða. Vinsamlegast reyndu aftur.",
+      "loadDetail": "Ekki tókst að hlaða þessum miða. Vinsamlegast reyndu aftur.",
+      "required": "Efni og skilaboð eru bæði nauðsynleg.",
+      "recipientRequired": "Veldu að minnsta kosti einn viðtakanda (samfélagsstjórnandi og/eða kerfisstjóri).",
+      "submitFallback": "Ekki tókst að senda inn þennan miða. Vinsamlegast reyndu aftur.",
+      "sendReply": "Gat ekki sent þessi skilaboð. Vinsamlegast reyndu aftur.",
+      "updateStatus": "Ekki tókst að uppfæra þessa miðastöðu. Vinsamlegast reyndu aftur."
+    },
+    "form": {
+      "defaultHint": "Lýstu vandamálinu þínu eða áhyggjum hér að neðan.",
+      "subjectLabel": "Efni",
+      "subjectPlaceholder": "Stutt samantekt á máli þínu",
+      "messageLabel": "Skilaboð",
+      "messagePlaceholder": "Lýstu í smáatriðum hvað er að gerast…",
+      "recipientsLabel": "Sendu þessa áhyggjur til",
+      "cancel": "Hætta við",
+      "submitting": "Sendir inn...",
+      "submit": "Sendu miða"
+    },
+    "detail": {
+      "loading": "Hleður miða…",
+      "replyPlaceholder": "Skrifaðu svar…",
+      "close": "Loka",
+      "sending": "Sendir…",
+      "sendReply": "Senda svar"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Velkominn aftur, {{name}}",
+    "openMenu": "Opna valmynd",
+    "closeMenu": "Loka valmynd",
+    "logout": "Skráðu þig út",
+    "search": "Leita",
+    "notifications": "Tilkynningar"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Mælaborð",
+      "households": "Heimilisskrá",
+      "meterReadings": "Mælaálestur",
+      "billing": "Innheimtustjórnun",
+      "bulkPurchases": "Magnkaup",
+      "reports": "Skýrslur",
+      "waterLeakage": "Vatnsleki",
+      "support": "Stuðningur / áhyggjur",
+      "tariffPlans": "Gjaldskráráætlanir",
+      "announcements": "Tilkynningar",
+      "profile": "Prófíll"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hér er mynd af samfélaginu þínu."
+      },
+      "households": {
+        "title": "Heimilisskrá",
+        "subtitle": "Bættu við, uppfærðu og stjórnaðu þeim íbúum sem búa í samfélaginu þínu."
+      },
+      "meterReadings": {
+        "title": "Aflestrarstöð vatnsmæla",
+        "subtitle": "Leitaðu að íbúa og skráðu álestur vatnsmæla hans."
+      },
+      "tariffPlans": {
+        "title": "Uppsetning gjaldskrár",
+        "subtitle": "Stilltu þrepaskipt taxtamörk, sameiginlegan kostnað á sameiginlegum svæðum og dreifingaraðferðir fyrir íbúðasamfélagið þitt."
+      },
+      "billing": {
+        "title": "Innheimtustjórnun",
+        "subtitle": "Opna, ganga frá og setja í geymslu innheimtulotur og fara yfir sundurliðaða reikninga á heimili."
+      },
+      "bulkPurchases": {
+        "title": "Magnkaup",
+        "subtitle": "Taktu upp sendingar á tankskipum og kaupum á birgðum sveitarfélaga fyrir samfélagið þitt."
+      },
+      "waterLeakage": {
+        "title": "Vatnsleki",
+        "subtitle": "Stilltu viðvörun um viðmiðunarmörk og frávik byggðar á leka og skoðaðu tilkynnt heimili."
+      },
+      "support": {
+        "title": "Stuðningur / áhyggjur",
+        "subtitle": "Fáðu þína eigin miða til kerfisstjórans, eða sjáðu um áhyggjur íbúar þínir hafa beint til þín."
+      },
+      "profile": {
+        "title": "Stillingar og prófíl",
+        "subtitle": "Hafðu umsjón með reikningsupplýsingum þínum og íbúðaupplýsingum."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Samfélagsstjórnandi",
+    "notBuilt": "{{label}} er ekki smíðað ennþá",
+    "searchPlaceholder": "Leitaðu að hverju sem er…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Skýrslur",
+      "description": "Neyslu-, innheimtu- og varðveisluskýrslur fyrir samfélagið þitt."
+    },
+    "announcements": {
+      "title": "Tilkynningar",
+      "description": "Sendu tilkynningar um allt samfélagið til íbúa þinna."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kemur bráðum"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Mælaborð",
+      "usageHistory": "Notkunarsaga",
+      "bills": "Víxlarnir mínir",
+      "recommendations": "Meðmæli",
+      "reports": "Skýrslur",
+      "support": "Stuðningur / áhyggjur",
+      "notifications": "Tilkynningar",
+      "profile": "Prófíll"
+    },
+    "pages": {
+      "usageHistory": "Notkunarferill þinn",
+      "billing": "Innheimtu og reikningar",
+      "notifications": "Tilkynningar",
+      "recommendations": "Meðmæli",
+      "support": "Stuðningur / áhyggjur"
+    },
+    "defaultTitle": "Mælaborð íbúa",
+    "navLabel": "Siglingar íbúa",
+    "fallbackName": "Íbúi",
+    "unit": "Eining {{number}}",
+    "comingSoon": "{{label}} kemur bráðum",
+    "profile": "Prófíll",
+    "searchPlaceholder": "Leitargreiningar, reikningar..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Mælaborð",
+      "communities": "Samfélög",
+      "reports": "Skýrslur",
+      "supportTickets": "Stuðningsmiðar",
+      "systemStatus": "Kerfisstaða"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Skyndimynd fyrir alla vettvang fyrir hvert skráð samfélag."
+      },
+      "communities": {
+        "title": "Samfélög",
+        "subtitle": "Sérhver skráður samfélagsstjóri og samfélag þeirra, á einum stað."
+      },
+      "reports": {
+        "title": "Skýrslur",
+        "subtitle": "Tölur um vatnsnotkun og reikninga á vettvangi, eftir samfélagi og yfir tíma."
+      },
+      "supportTickets": {
+        "title": "Stuðningsmiðar",
+        "subtitle": "Styðjið miða og áhyggjur sem íbúar og stjórnendur samfélagsins hafa vakið yfir, alls staðar á vettvangi."
+      },
+      "systemStatus": {
+        "title": "Kerfisstaða",
+        "subtitle": "Bakendatengingar og grunnheilbrigðistímar."
+      }
+    },
+    "fallbackName": "Kerfisstjóri",
+    "platformOwner": "Eigandi palla",
+    "searchPlaceholder": "Leita í samfélögum..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Tungumál: {{language}}",
+    "searchPlaceholder": "Leita tungumál...",
+    "noMatches": "Engar samsvörun"
+  }
+}

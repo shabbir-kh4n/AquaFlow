@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Trans, useTranslation } from 'react-i18next'
 import { useAuth } from '../context/useAuth'
 import './AuthForm.css'
 
@@ -14,6 +15,7 @@ const INITIAL_FORM = {
 
 function SignUpForm({ onSuccess, onSwitchToSignIn }) {
   const { register } = useAuth()
+  const { t } = useTranslation('common')
 
   const [form, setForm] = useState(INITIAL_FORM)
   const [error, setError] = useState('')
@@ -29,17 +31,17 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
     setError('')
 
     if (form.password !== form.confirmPassword) {
-      setError('Passwords do not match.')
+      setError(t('signUp.errors.passwordMismatch'))
       return
     }
 
     if (!form.communityName.trim()) {
-      setError('Community name is required.')
+      setError(t('signUp.errors.communityRequired'))
       return
     }
 
     if (!form.agreedToTerms) {
-      setError('Please agree to the Terms of Service and Privacy Policy.')
+      setError(t('signUp.errors.termsRequired'))
       return
     }
 
@@ -56,7 +58,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
       })
       onSuccess?.(response)
     } catch (err) {
-      const message = err.response?.data?.message || 'Unable to create account. Please try again.'
+      const message = err.response?.data?.message || t('signUp.errors.fallback')
       setError(message)
     } finally {
       setSubmitting(false)
@@ -67,13 +69,10 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
     <form onSubmit={handleSubmit}>
       {error && <div className="af-form__error">{error}</div>}
 
-      <p className="af-form__hint">
-        Only community admins register here. Once you're in, you'll add your residents'
-        details yourself — they don't sign up on their own.
-      </p>
+      <p className="af-form__hint">{t('signUp.hint')}</p>
 
       <div className="af-form__field">
-        <label htmlFor="fullName">Full name</label>
+        <label htmlFor="fullName">{t('signUp.fullNameLabel')}</label>
         <input
           id="fullName"
           name="fullName"
@@ -86,7 +85,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
       </div>
 
       <div className="af-form__field">
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">{t('signUp.emailLabel')}</label>
         <input
           id="email"
           name="email"
@@ -99,7 +98,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
       </div>
 
       <div className="af-form__field">
-        <label htmlFor="phone">Phone number</label>
+        <label htmlFor="phone">{t('signUp.phoneLabel')}</label>
         <input
           id="phone"
           name="phone"
@@ -111,7 +110,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
       </div>
 
       <div className="af-form__field">
-        <label htmlFor="communityName">Community name</label>
+        <label htmlFor="communityName">{t('signUp.communityNameLabel')}</label>
         <input
           id="communityName"
           name="communityName"
@@ -124,7 +123,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
 
       <div className="af-form__row">
         <div className="af-form__field">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">{t('signUp.passwordLabel')}</label>
           <input
             id="password"
             name="password"
@@ -137,7 +136,7 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
           />
         </div>
         <div className="af-form__field">
-          <label htmlFor="confirmPassword">Confirm password</label>
+          <label htmlFor="confirmPassword">{t('signUp.confirmPasswordLabel')}</label>
           <input
             id="confirmPassword"
             name="confirmPassword"
@@ -160,19 +159,22 @@ function SignUpForm({ onSuccess, onSwitchToSignIn }) {
           onChange={handleChange}
         />
         <span>
-          I agree to the <a href="#terms">Terms of Service</a> and{' '}
-          <a href="#privacy">Privacy Policy</a>
+          <Trans
+            t={t}
+            i18nKey="signUp.agreeTerms"
+            components={{ termsLink: <a href="#terms" />, privacyLink: <a href="#privacy" /> }}
+          />
         </span>
       </label>
 
       <button type="submit" className="af-form__submit" disabled={submitting}>
-        {submitting ? 'Creating account…' : 'Create Admin Account'}
+        {submitting ? t('signUp.submitting') : t('signUp.submit')}
       </button>
 
       <p className="af-form__footer-text">
-        Already have an account?{' '}
+        {t('signUp.haveAccount')}{' '}
         <button type="button" className="af-form__link-button" onClick={onSwitchToSignIn}>
-          Sign in
+          {t('signUp.signInLink')}
         </button>
       </p>
     </form>

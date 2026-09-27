@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Ladataan…",
+    "saving": "Tallennetaan…",
+    "saved": "Tallennettu.",
+    "uploading": "Ladataan…",
+    "upload": "Lataa",
+    "uploadError": "Tätä tiedostoa ei voitu ladata. Yritä uudelleen.",
+    "cancel": "Peruuttaa",
+    "close": "Lähellä",
+    "edit": "Muokata",
+    "remove": "Poistaa",
+    "saveChanges": "Tallenna muutokset",
+    "bulkSummary": "Käsitelty <b>{{total}}</b> riviä — <b>{{success}}</b> onnistui, <b>{{failure}}</b> epäonnistui.",
+    "rowFailure": "Rivi {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Näytetään {{from}}–{{to}} / {{total}}",
+    "prev": "← Ed",
+    "next": "Seuraava →",
+    "page": "Sivu {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Yhteisön tietoja ei voitu ladata juuri nyt.",
+    "title": "{{community}} Asunnon kojelauta",
+    "titleFallback": "Asuntosi kojelauta",
+    "subtitle": "Toiminnallinen yhteenveto vesilaitoksen osamittauksesta ja kotitalouksien kulutuksesta.",
+    "comingSoon": "Tulossa pian",
+    "manageCommunity": "Hallinnoi yhteisöä",
+    "noUsageReadings": "Käyttölukemia ei ole vielä tallennettu.",
+    "cards": {
+      "totalHouseholds": "Kotitaloudet yhteensä",
+      "occupied": "Miehitetty",
+      "activeMeters": "Aktiiviset mittarit",
+      "reportingReadings": "Lukemien raportointi",
+      "monthlyConsumption": "Kuukausittainen kulutus",
+      "thisCalendarMonth": "Tämä kalenterikuukausi",
+      "latestRecordedMonth": "Viimeisin tallennettu kuukausi ({{month}})",
+      "noReadingsYet": "Mitään lukemia ei ole vielä tallennettu",
+      "pendingAlerts": "Odottavat hälytykset",
+      "anomalyPreview": "Poikkeamien havaitsemisen esikatselu – ei vielä saatavilla"
+    },
+    "actions": {
+      "label": "Nopeat hallinnolliset toimet",
+      "uploadReadings": "Lataa mittarilukemat",
+      "configureTariffs": "Määritä tariffit",
+      "reportsNotBuilt": "Raportteja ei ole vielä rakennettu",
+      "downloadReports": "Lataa järjestelmäraportit"
+    },
+    "chart": {
+      "title": "Kuukausittaisen kulutuksen vertailu (kL)",
+      "subtitle": "Viimeiset {{months}} kuukautta: tavoite vs. todellinen kulutus.",
+      "targetSeries": "Kohde (esikatselu)",
+      "actualSeries": "Todellinen"
+    },
+    "recent": {
+      "title": "Viimeaikaiset mittarilukemat",
+      "unit": "Yksikkö",
+      "resident": "Asukas",
+      "lastReading": "Viimeinen luku",
+      "consumption": "Kulutus"
+    }
+  },
+  "households": {
+    "loadError": "Asukkaita ei voitu ladata. Yritä uudelleen.",
+    "fixFields": "Korjaa korostetut kentät.",
+    "saveError": "Tätä asukasta ei voitu pelastaa. Tarkista tiedot.",
+    "confirmRemove": "Poistetaanko {{name}} kotitaloushakemistostasi?",
+    "removeError": "Tätä asukasta ei voitu poistaa. Yritä uudelleen.",
+    "count": "Kotitaloudet: {{total}}",
+    "bulkUploadButton": "⇪ Joukkolataus",
+    "addResidentButton": "+ Lisää asukas",
+    "searchPlaceholder": "Suodata nimen, talon, sähköpostin tai mittarin numeron mukaan.",
+    "loading": "Ladataan asukkaita…",
+    "empty": "Ei vielä asukkaita. Napsauta \"Lisää asukas\" rekisteröidäksesi ensimmäinen kotitalous.",
+    "noMatch": "Yksikään asukas ei vastaa hakusanaa {{search}}.",
+    "sort": {
+      "label": "Lajitteluperuste",
+      "name": "Nimi",
+      "houseNumber": "Talon numero",
+      "dateOfJoining": "Liittymispäivämäärä",
+      "toggleDirection": "Vaihda lajittelusuuntaa",
+      "asc": "↑ Asc",
+      "desc": "↓ Kuvaus"
+    },
+    "gender": {
+      "male": "Uros",
+      "female": "Naaras",
+      "other": "muu"
+    },
+    "table": {
+      "name": "Nimi",
+      "houseUnit": "Talo / yksikkö",
+      "email": "Sähköposti",
+      "phone": "Puhelin",
+      "meterNumber": "Mittari nro",
+      "sqft": "Sqft",
+      "joined": "Liittyi"
+    },
+    "form": {
+      "addTitle": "Lisää asukas",
+      "editTitle": "Muokkaa asukasta",
+      "editSubtitle": "Tämä päivittää asukkaan tiedot hakemistossasi.",
+      "bypassSubtitle": "Asetat tämän asukkaan salasanan suoraan. Sähköpostia ei lähetetä.",
+      "addSubtitle": "Tälle asukkaalle lähetetään salasanan asetuslinkki sähköpostitse, jotta hän voi aktivoida oman kirjautumisensa.",
+      "fullName": "Koko nimi",
+      "houseNumber": "Talo / asunto nro.",
+      "email": "Sähköposti",
+      "phone": "Puhelinnumero",
+      "meterNumber": "Mittarin numero",
+      "governmentId": "Virallinen henkilöllisyystodistus",
+      "gender": "Sukupuoli",
+      "dateOfBirth": "Syntymäaika",
+      "dateOfJoining": "Liittymispäivämäärä",
+      "flatSize": "Tasainen koko (neliöjalkaa)",
+      "bypassLabel": "Ohita asetus-salasanan sähköposti – aseta salasana tälle asukkaalle nyt",
+      "password": "Salasana",
+      "confirmPassword": "Vahvista salasana"
+    },
+    "validation": {
+      "fullNameRequired": "Koko nimi vaaditaan.",
+      "emailRequired": "Sähköposti vaaditaan.",
+      "phoneRequired": "Puhelinnumero vaaditaan.",
+      "houseNumberRequired": "Talon/yksikön numero vaaditaan.",
+      "houseNumberTaken": "Tämä talonumero on jo määritetty toiselle asukkaalle.",
+      "meterNumberRequired": "Mittarin numero vaaditaan.",
+      "meterNumberFormat": "Mittarin numeron tulee näyttää MTR-1234:ltä (4 numeroa).",
+      "meterNumberTaken": "Tämä mittarinumero on jo määritetty toiselle asukkaalle.",
+      "governmentIdRequired": "Virallinen henkilöllisyystodistus vaaditaan.",
+      "governmentIdFormat": "Tunnuksessa on oltava 6 numeroa, jotka alkavat 99:stä (esim. 991234).",
+      "genderRequired": "Valitse sukupuoli.",
+      "dateOfBirthRequired": "Syntymäaika vaaditaan.",
+      "dateOfJoiningRequired": "Liittymispäivä vaaditaan.",
+      "passwordRequired": "Salasana vaaditaan.",
+      "passwordLength": "Salasanassa on oltava vähintään 8 merkkiä.",
+      "confirmPasswordRequired": "Vahvista salasana.",
+      "passwordMismatch": "Salasanat eivät täsmää."
+    },
+    "bulk": {
+      "title": "Joukkolataus asukkaat",
+      "noFile": "Valitse ladattava .csv- tai .xlsx/.xls-tiedosto.",
+      "instructions": "Lataa .csv- tai .xlsx/.xls-tiedosto, jossa on sarakkeet <code>{{columns}}</code> (salasana ja flatSizeSqft ovat molemmat valinnaisia). Rivit, joissa on salasana, asettavat sen suoraan; rivit, joilla ei ole yhtä, saavat salasanan määrittämissähköpostin, samoin kuin asukkaan lisääminen manuaalisesti. Päällekkäiset talo-/mittarinumerot tai sähköpostit hylätään riviä kohden – yksi huono rivi ei hylkää koko erää."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Asukkaita ei voitu ladata. Yritä uudelleen.",
+    "historyLoadError": "Lukuhistoriaa ei voitu ladata. Yritä uudelleen.",
+    "successMessage": "Onnistuneesti tallennettu lukema {{value}} kL kohteelle {{house}} (mittari: {{meter}})! Laskettu kulutus: {{consumption}} kL.",
+    "tabs": {
+      "single": "Yksittäinen sisäänpääsy",
+      "csv": "Joukkolataus CSV",
+      "history": "Historian lukeminen"
+    },
+    "source": {
+      "manual": "Manuaalinen",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Tällä asukkaalla ei ole tiedoissa mittarinumeroa.",
+      "dateRequired": "Lukupäivämäärä vaaditaan.",
+      "invalidValue": "Anna kelvollinen, ei-negatiivinen lukuarvo.",
+      "duplicate": "Tämän mittarin lukema on jo olemassa sinä päivänä.",
+      "meterNotFound": "Tätä mittaria ei löytynyt. Valitse asukas uudelleen.",
+      "lowerThanPrevious": "Tämä lukema on pienempi kuin edellinen tallennettu lukema.",
+      "recordFailed": "Tätä lukemaa ei voitu tallentaa. Yritä uudelleen."
+    },
+    "combo": {
+      "label": "Valitse Flat & Meter Serial",
+      "placeholder": "Valitse tasainen ja mittarisarja…",
+      "flat": "Asunto {{house}}",
+      "noMeter": "Ei mittaria",
+      "searchPlaceholder": "Hae asunto nro, mittarisarja, asukas…",
+      "unitsHeader": "Asuinyksiköt",
+      "found": "Asuntoja löydetty: {{total}}",
+      "loading": "Ladataan asukkaita…",
+      "noMatch": "Yksikään asukas ei vastaa hakusanaa {{search}}.",
+      "unassigned": "Ei määritetty",
+      "itemMeta": "{{name}} · Viimeisin: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Lukeman tallentaminen",
+      "context": "Talo {{house}} · Mittari {{meter}}",
+      "changeResident": "Vaihda asukasta",
+      "readingDate": "Lukupäivämäärä",
+      "readingValue": "Nykyinen mittarin lukema (kL)",
+      "submit": "Lähetä vahvistettu lukema",
+      "recentTitle": "Viimeaikaiset lukemat",
+      "recentEmpty": "Tälle mittarille ei ole vielä tallennettu lukemia."
+    },
+    "info": {
+      "title": "Monotoninen mittarin validointi",
+      "body": "Jokaisen uuden lukeman on oltava suurempi tai yhtä suuri kuin kyseisen mittarin edellinen loki - tämä pitää kulutuslaskelmat täsmällisinä ja havaitsee transponoidut numerot ajoissa."
+    },
+    "details": {
+      "title": "Valitun yksikön tiedot",
+      "flatUnit": "Tasainen yksikkö",
+      "meterSerial": "Mittarin sarja",
+      "occupant": "Asukkaan nimi",
+      "lastDial": "Viimeisin tallennettu numero",
+      "noReadings": "Ei vielä lukemia",
+      "monthConsumption": "Kuukauden kulutus",
+      "empty": "Kotitaloutta ei ole valittu. Etsi ja valitse asukas nähdäksesi hänen mittaritietonsa täältä."
+    },
+    "csv": {
+      "noFile": "Valitse ladattava tiedosto CSV.",
+      "instructions": "Lataa CSV, jossa on sarakkeet <code>{{columns}}</code>. Rivit käsitellään itsenäisesti – yksi huono rivi ei epäonnistu koko erää."
+    },
+    "history": {
+      "loading": "Ladataan lukemia…",
+      "empty": "Yhteisöstäsi ei ole vielä tallennettu lukemia."
+    },
+    "table": {
+      "meterNumber": "Mittari nro",
+      "date": "Päivämäärä",
+      "value": "Arvo (kL)",
+      "consumption": "Kulutus (kL)",
+      "source": "Lähde"
+    }
+  },
+  "billingCycles": {
+    "title": "Laskutusjaksot",
+    "loadError": "Laskutusjaksoja ei voitu ladata. Yritä uudelleen.",
+    "paymentUpdateError": "Tämän laskun maksutilan päivittäminen epäonnistui.",
+    "pdfError": "Tiedostoa PDF ei voitu ladata. Yritä uudelleen.",
+    "finalizeError": "Tätä laskutusjaksoa ei voitu viimeistellä.",
+    "archiveError": "Tätä laskutusjaksoa ei voitu arkistoida.",
+    "loading": "Ladataan laskutusjaksoja…",
+    "empty": "Ei vielä laskutusjaksoja. Aloita avaamalla yksi yllä olevasta.",
+    "status": {
+      "open": "Avata",
+      "finalized": "Viimeistelty",
+      "archived": "Arkistoitu"
+    },
+    "open": {
+      "title": "Avaa uusi laskutusjakso",
+      "noMonth": "Valitse avauskuukausi.",
+      "error": "Kyseisen kuukauden laskutusjaksoa ei voitu avata.",
+      "monthAria": "Laskutuskauden kuukausi",
+      "opening": "Avataan…",
+      "submit": "Avaa sykli"
+    },
+    "table": {
+      "period": "Kausi",
+      "status": "Status",
+      "householdsBilled": "Kotitaloudet laskutettu",
+      "totalBilled": "Laskutettu yhteensä",
+      "actions": "Toiminnot"
+    },
+    "actions": {
+      "finalize": "Viimeistele",
+      "finalizing": "Viimeistellään…",
+      "archive": "Arkisto",
+      "archiving": "Arkistoidaan…"
+    },
+    "filter": {
+      "aria": "Suodata maksutilan mukaan",
+      "all": "Kaikki"
+    },
+    "payment": {
+      "paid": "Maksettu",
+      "unpaid": "Palkaton",
+      "updating": "Päivitetään…",
+      "markPaid": "Merkitse maksetuksi",
+      "markUnpaid": "Merkitse maksamattomaksi"
+    },
+    "detail": {
+      "title": "Syklin tiedot — {{period}}",
+      "loading": "Ladataan laskuja…",
+      "notFinalized": "Tätä jaksoa ei ole vielä saatu päätökseen – laskuja ei ole luotu.",
+      "noInvoices": "Ei laskuja tälle jaksolle.",
+      "noMatch": "Yksikään lasku ei vastaa tätä suodatinta."
+    },
+    "invoices": {
+      "household": "Kotitalous",
+      "resident": "Asukas",
+      "meterNumber": "Mittari nro",
+      "consumption": "Kulutus (kL)",
+      "tierBreakdown": "Tason erittely",
+      "commonArea": "Yhteinen alue",
+      "total": "Kokonais",
+      "paymentStatus": "Maksun tila",
+      "pdf": "PDF",
+      "baseLine": "Perus: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}",
+      "tierLine": "Taso {{tier}}: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tariffimääritystä ei voitu ladata",
+    "saveError": "Tariffimääritystä ei voitu tallentaa",
+    "chartTitle": "Aktiiviset mitatut hyödyllisyystasot",
+    "axisNote": "Hinta ₹/kL, laattarajat kL",
+    "tableTitle": "Hinnoittelutasojen taulukko",
+    "defaultRatesNote": "Näytetään oletushinnat – ei vielä tallennettu.",
+    "addTier": "+ Lisää taso",
+    "saveRates": "Säästä tariffit",
+    "tierLevel": {
+      "base": "Taso {{tier}} (perus)",
+      "medium": "Taso {{tier}} (Keskitaso)",
+      "heavy": "Taso {{tier}} (raskas)"
+    },
+    "basePrice": {
+      "label": "Perushinta (₹ / kL, sovelletaan KAIKKIIN kulutukseen)",
+      "note": "Jokaista kL:sta veloitetaan tämä kiinteä hinta ensin. Alla olevat laatat lisäävät LISÄmaksuja vain niiden käyttöalueeseen kuuluvasta käytöstä - esim. laatta, joka alkaa 50:stä kL, lisää kulutuksensa vain yli 50:een kL."
+    },
+    "table": {
+      "tierLevel": "Tason taso",
+      "slabLimit": "Laattaraja (kL)",
+      "rate": "Hinta per kL",
+      "action": "Toiminta"
+    },
+    "commonArea": {
+      "title": "Jaetun yhteisen alueen kustannusmääritys",
+      "loadError": "Yhteisen alueen kustannusmääritystä ei voitu ladata",
+      "saveError": "Yhteisen alueen kustannusmääritystä ei voitu tallentaa",
+      "empty": "Kustannuskohteita ei ole vielä tallennettu.",
+      "labelPlaceholder": "Kustannusnimikkeen etiketti",
+      "perMonth": "/ kuukausi",
+      "active": "Aktiivinen",
+      "addItem": "+ Lisää kustannuserä",
+      "save": "Tallenna yhteisen alueen asetukset"
+    },
+    "distribution": {
+      "title": "Kustannusten jakautumismenetelmän valitsin",
+      "consumption": "Kulutuksen mukaan (alimittarilla suhteellinen)",
+      "floorArea": "Huoneiston tasaisen koon mukaan (neliöjalkaa)"
+    },
+    "footer": {
+      "cycleStart": "Kierrä laskutuksen alkamispäivä",
+      "cycleStartValue": "Joka Kuukauden 1. päivä",
+      "autoInvoices": "Luo automaattisesti PDF laskuja"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Kynnys ylitetty",
+      "statisticalOutlier": "Tilastollinen outlier"
+    },
+    "status": {
+      "active": "Aktiivinen",
+      "resolved": "Ratkaistu",
+      "dismissed": "Hylätty"
+    },
+    "config": {
+      "title": "Vuodon havaitsemisen kokoonpano",
+      "subtitle": "Aseta kuukausittainen kulutuskynnys ja/tai ota käyttöön tilastollisten poikkeamien havaitseminen (merkitsee kotitaloutta, jonka kuukausikulutus on epätavallisen korkea verrattuna sen omaan historiaan).",
+      "loadError": "Hälytysmäärityksiä ei voitu ladata. Yritä uudelleen.",
+      "thresholdRequired": "Kuukausittainen kynnys (kL) vaaditaan, kun kynnyshälytykset ovat käytössä.",
+      "saveError": "Tätä määritystä ei voitu tallentaa.",
+      "loading": "Ladataan määritystä…",
+      "threshold": "Kuukausittainen kynnys (kL)",
+      "sensitivity": "Outlier-herkkyys (σ-kerroin)",
+      "enableThreshold": "Ota kynnyshälytykset käyttöön",
+      "enableOutlier": "Ota käyttöön tilastolliset poikkeavuushälytykset",
+      "save": "Tallenna asetukset",
+      "running": "Juokse…",
+      "runNow": "Suorita tunnistus nyt"
+    },
+    "alerts": {
+      "title": "Liputetut kotitaloudet",
+      "loadError": "Hälytyksiä ei voitu ladata. Yritä uudelleen.",
+      "runError": "Vuodon havaitsemista ei voitu suorittaa juuri nyt. Yritä uudelleen.",
+      "updateError": "Tätä ilmoitusta ei voitu päivittää. Yritä uudelleen.",
+      "allStatuses": "Kaikki tilat",
+      "loading": "Ladataan ilmoituksia…",
+      "empty": "Ei näytettäviä hälytyksiä. Määritä kynnys tai ota käyttöön poikkeamien tunnistus yllä ja napsauta sitten \"Suorita tunnistus nyt\" arvioidaksesi yhteisösi tämänhetkinen käyttö.",
+      "resolve": "Ratkaista",
+      "dismiss": "Hylkää"
+    },
+    "table": {
+      "household": "Kotitalous",
+      "resident": "Asukas",
+      "meter": "Mittari",
+      "type": "Tyyppi",
+      "period": "Kausi",
+      "consumption": "Kulutus",
+      "reference": "Viite",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Veden suuria ostoksia ei voitu ladata. Yritä uudelleen.",
+    "confirmRemove": "Poistetaanko {{source}} toimitus {{date}}?",
+    "removeError": "Tätä ostosta ei voitu poistaa. Yritä uudelleen.",
+    "count": "Tallennetut ostot: {{total}}",
+    "recordButton": "+ Levyostos",
+    "loading": "Ladataan suuria vesiostoja…",
+    "empty": "Veden suuria ostoja ei ole vielä kirjattu. Napsauta \"Record Purchase\" kirjataksesi säiliöaluksen toimituksen tai kunnallisen tarvikkeen oston.",
+    "table": {
+      "date": "Päivämäärä",
+      "source": "Lähde",
+      "volume": "Tilavuus (L)",
+      "unitCost": "Yksikköhinta",
+      "totalCost": "Kokonaiskustannukset",
+      "notes": "Huomautuksia"
+    },
+    "form": {
+      "addTitle": "Ennätyksellisen veden osto",
+      "editTitle": "Muokkaa vesimassaa",
+      "subtitle": "Seuraa säiliöautotoimitusta tai kunnallisten tarvikkeiden ostoa paikkakunnallesi – tämä kirjataan vain kustannusten näkyvyyttä varten, eikä se vaikuta kotitalouksien laskuihin.",
+      "requiredFields": "Täytä päivämäärä, lähde, määrä ja yksikköhinta.",
+      "saveError": "Tätä ostosta ei voitu tallentaa. Tarkista tiedot.",
+      "purchaseDate": "Ostopäivä",
+      "source": "Lähde/toimittaja",
+      "volume": "Tilavuus (litraa)",
+      "unitCost": "Yksikköhinta (₹/litra)",
+      "totalPreview": "Kokonaiskustannukset: {{amount}}",
+      "notes": "Huomautuksia (valinnainen)",
+      "submit": "Levyostos"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ei ole vielä rakennettu",
+    "profileSaveError": "Profiiliasi ei voitu tallentaa. Yritä uudelleen.",
+    "apartmentSaveError": "Asunnon tietoja ei voitu tallentaa. Yritä uudelleen.",
+    "specsTitle": "Profiilin tiedot",
+    "photoUnavailable": "Valokuvien lataus ei ole vielä saatavilla",
+    "changePhoto": "Vaihda valokuva",
+    "deletePhoto": "Poistaa",
+    "photoHint": "JPG tai PNG. Max koko 2MB.",
+    "saveProfile": "Tallenna profiili",
+    "apartmentTitle": "Huoneiston tiedot",
+    "saveApartment": "Tallenna asunnon tiedot",
+    "tabs": {
+      "profile": "Profiilin asetukset",
+      "apartment": "Huoneiston profiili",
+      "notifications": "Ilmoitussäännöt",
+      "billing": "Laskutusintegraatiot",
+      "security": "Turvallisuus ja pääsy"
+    },
+    "fields": {
+      "fullName": "Koko nimi",
+      "email": "Sähköpostiosoite",
+      "emailLocked": "Sähköpostiosoitetta ei voi muuttaa täällä",
+      "phone": "Puhelinnumero",
+      "accessLevel": "Käyttöoikeustaso",
+      "accessLevelValue": "Yhteisön ylläpitäjä",
+      "roleLocked": "Roolinhallinta ei ole vielä saatavilla",
+      "apartmentName": "Asunnon nimi",
+      "mainsSource": "Verkkolähde",
+      "mainsSourcePlaceholder": "esim. Kunnallinen huolto + lisäsäiliöalukset",
+      "address": "Fyysinen osoite"
+    },
+    "security": {
+      "title": "Turvallisuuden ja pääsyn esikatselu",
+      "twoFactor": "Kaksitekijäinen todennus",
+      "twoFactorHint": "Käytössä kirjautumisen yhteydessä",
+      "twoFactorUnavailable": "Kaksivaiheista todennusta ei ole vielä saatavilla",
+      "twoFactorAria": "Kaksivaiheinen todennus (vain esikatselu)",
+      "sessionsLabel": "Aktiiviset järjestelmänvalvojan istunnot",
+      "sessionsEmpty": "Istuntoseuranta ei ole vielä käytettävissä – tämä on esikatselu tulevasta asettelusta."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Omat liput",
+      "inbox": "Asukasliput"
+    },
+    "mine": {
+      "title": "Omat tukiliput",
+      "subtitle": "Esitä yhteisöäsi koskeva kysymys tai huolenaihe järjestelmänvalvojalle.",
+      "emptyCreateHint": "Esitä kysymys tai huolenaihe yhteisöstäsi. Järjestelmänvalvoja tarkistaa ja vastaa täällä."
+    },
+    "inbox": {
+      "title": "Asukasliput",
+      "subtitle": "Yhteisösi asukkaat ovat osoittaneet sinulle tukiliput ja huolenaiheet."
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "読み込み中…",
+    "saving": "保存中…",
+    "saved": "保存されました。",
+    "uploading": "アップロード中…",
+    "upload": "アップロード",
+    "uploadError": "このファイルをアップロードできませんでした。もう一度試してください。",
+    "cancel": "キャンセル",
+    "close": "近い",
+    "edit": "編集",
+    "remove": "取り除く",
+    "saveChanges": "変更を保存",
+    "bulkSummary": "<b>{{total}}</b> 行を処理しました — <b>{{success}}</b> は成功しましたが、<b>{{failure}}</b> は失敗しました。",
+    "rowFailure": "行 {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{total}} の {{from}} ～ {{to}} を表示しています",
+    "prev": "← 前へ",
+    "next": "次へ →",
+    "page": "ページ {{page}}/{{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "現在コミュニティ データをロードできませんでした。",
+    "title": "{{community}} アパートのダッシュボード",
+    "titleFallback": "あなたのアパートのダッシュボード",
+    "subtitle": "水道事業のサブメーターと家庭の消費量の運用概要。",
+    "comingSoon": "近日公開",
+    "manageCommunity": "コミュニティの管理",
+    "noUsageReadings": "使用量の測定値はまだ記録されていません。",
+    "cards": {
+      "totalHouseholds": "総世帯数",
+      "occupied": "占領されました",
+      "activeMeters": "アクティブメーター",
+      "reportingReadings": "測定値の報告",
+      "monthlyConsumption": "月間消費量",
+      "thisCalendarMonth": "この暦月",
+      "latestRecordedMonth": "最新の記録月 ({{month}})",
+      "noReadingsYet": "まだ測定値が記録されていません",
+      "pendingAlerts": "保留中のアラート",
+      "anomalyPreview": "異常検出プレビュー — まだ利用できません"
+    },
+    "actions": {
+      "label": "迅速な管理アクション",
+      "uploadReadings": "メーター測定値をアップロードする",
+      "configureTariffs": "料金の設定",
+      "reportsNotBuilt": "レポートはまだ作成されていません",
+      "downloadReports": "システムレポートのダウンロード"
+    },
+    "chart": {
+      "title": "月間消費量の比較 (kL)",
+      "subtitle": "過去 {{months}} か月: 目標消費量と実際の消費量。",
+      "targetSeries": "ターゲット (プレビュー)",
+      "actualSeries": "実際の"
+    },
+    "recent": {
+      "title": "最近のメーター測定値",
+      "unit": "ユニット",
+      "resident": "居住者",
+      "lastReading": "最後に読んだ本",
+      "consumption": "消費"
+    }
+  },
+  "households": {
+    "loadError": "住民をロードできませんでした。もう一度試してください。",
+    "fixFields": "強調表示されたフィールドを修正してください。",
+    "saveError": "この居住者を救えませんでした。詳細をご確認ください。",
+    "confirmRemove": "世帯ディレクトリから {{name}} を削除しますか?",
+    "removeError": "この居住者を削除できませんでした。もう一度試してください。",
+    "count": "世帯: {{total}}",
+    "bulkUploadButton": "⇪ 一括アップロード",
+    "addResidentButton": "+ 居住者を追加",
+    "searchPlaceholder": "名前、自宅、メールアドレス、またはメーター番号でフィルターします。",
+    "loading": "住民をロード中…",
+    "empty": "まだ住民はいない。 「居住者を追加」をクリックして最初の世帯を登録します。",
+    "noMatch": "「{{search}}」に一致する居住者はいません。",
+    "sort": {
+      "label": "並べ替え",
+      "name": "名前",
+      "houseNumber": "住居番号",
+      "dateOfJoining": "入社日",
+      "toggleDirection": "並べ替え方向の切り替え",
+      "asc": "↑昇順",
+      "desc": "↓ 説明"
+    },
+    "gender": {
+      "male": "男",
+      "female": "女性",
+      "other": "他の"
+    },
+    "table": {
+      "name": "名前",
+      "houseUnit": "ハウス・ユニット",
+      "email": "電子メール",
+      "phone": "電話",
+      "meterNumber": "メーターNo.",
+      "sqft": "平方フィート",
+      "joined": "参加しました"
+    },
+    "form": {
+      "addTitle": "居住者の追加",
+      "editTitle": "居住者の編集",
+      "editSubtitle": "これにより、ディレクトリ内の居住者の詳細が更新されます。",
+      "bypassSubtitle": "この居住者のパスワードを直接設定しています。電子メールは送信されません。",
+      "addSubtitle": "パスワード設定リンクがこの居住者に電子メールで送信されるので、居住者は自分のログインをアクティブ化できます。",
+      "fullName": "フルネーム",
+      "houseNumber": "家屋/ユニット番号",
+      "email": "電子メール",
+      "phone": "電話番号",
+      "meterNumber": "メーター番号",
+      "governmentId": "政府ID",
+      "gender": "性別",
+      "dateOfBirth": "生年月日",
+      "dateOfJoining": "入社日",
+      "flatSize": "フラットサイズ (平方フィート)",
+      "bypassLabel": "パスワード設定メールをバイパスする — 今すぐこの居住者のパスワードを設定します",
+      "password": "パスワード",
+      "confirmPassword": "パスワードを認証する"
+    },
+    "validation": {
+      "fullNameRequired": "フルネームは必須です。",
+      "emailRequired": "電子メールは必須です。",
+      "phoneRequired": "電話番号は必須です。",
+      "houseNumberRequired": "家屋/ユニット番号は必須です。",
+      "houseNumberTaken": "この番地はすでに別の居住者に割り当てられています。",
+      "meterNumberRequired": "メーター番号は必須です。",
+      "meterNumberFormat": "メーター番号は MTR-1234 (4 桁) のようにする必要があります。",
+      "meterNumberTaken": "このメーター番号はすでに他の居住者に割り当てられています。",
+      "governmentIdRequired": "政府IDが必要です。",
+      "governmentIdFormat": "ID は 99 で始まる 6 桁である必要があります (例: 991234)。",
+      "genderRequired": "性別を選択してください。",
+      "dateOfBirthRequired": "生年月日は必須です。",
+      "dateOfJoiningRequired": "入社日は必須です。",
+      "passwordRequired": "パスワードが必要です。",
+      "passwordLength": "パスワードは 8 文字以上である必要があります。",
+      "confirmPasswordRequired": "パスワードを確認してください。",
+      "passwordMismatch": "パスワードが一致しません。"
+    },
+    "bulk": {
+      "title": "居住者を一括アップロード",
+      "noFile": "アップロードする .csv または .xlsx/.xls ファイルを選択してください。",
+      "instructions": "列 <code>{{columns}}</code> を含む .csv または .xlsx/.xls ファイルをアップロードします (パスワードと flatSizeSqft は両方ともオプションです)。パスワードを含む行は直接パスワードを設定します。手動で常駐者を追加するのと同じように、何もない行にはパスワード設定メールが送信されます。重複する家/メーター番号または電子メールは行ごとに拒否されます。1 つの不良行がバッチ全体で失敗することはありません。"
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "住民をロードできませんでした。もう一度試してください。",
+    "historyLoadError": "読書履歴を読み込めませんでした。もう一度試してください。",
+    "successMessage": "{{house}} (メーター: {{meter}}) の {{value}} kL の読み取り値が正常に記録されました。計算された消費量: {{consumption}} kL。",
+    "tabs": {
+      "single": "シングルエントリー",
+      "csv": "一括 CSV アップロード",
+      "history": "読書履歴"
+    },
+    "source": {
+      "manual": "マニュアル",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "この居住者にはメーター番号が記録されていません。",
+      "dateRequired": "閲覧日は必須です。",
+      "invalidValue": "有効な負でない読み取り値を入力してください。",
+      "duplicate": "このメーターの測定値は、その日付にすでに存在します。",
+      "meterNotFound": "このメーターは見つかりませんでした。居住者を再選択してください。",
+      "lowerThanPrevious": "この測定値は、以前に記録された測定値よりも低いです。",
+      "recordFailed": "この測定値を記録できませんでした。もう一度試してください。"
+    },
+    "combo": {
+      "label": "フラットとメーターのシリアルを選択してください",
+      "placeholder": "フラットとメーターのシリアルを選択してください…",
+      "flat": "フラット {{house}}",
+      "noMeter": "メーターなし",
+      "searchPlaceholder": "アパート番号、メーターのシリアル番号、居住者を検索…",
+      "unitsHeader": "住宅ユニット",
+      "found": "見つかったアパート: {{total}}",
+      "loading": "住民をロード中…",
+      "noMatch": "「{{search}}」に一致する居住者はいません。",
+      "unassigned": "未割り当て",
+      "itemMeta": "{{name}} · 最後: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "測定値を記録する",
+      "context": "ハウス {{house}} · メーター {{meter}}",
+      "changeResident": "居住者の変更",
+      "readingDate": "読書日",
+      "readingValue": "現在のメーター読み取り値 (kL)",
+      "submit": "検証済みの読み取り値を送信する",
+      "recentTitle": "最近の読書",
+      "recentEmpty": "このメーターにはまだ測定値が記録されていません。"
+    },
+    "info": {
+      "title": "単調メーターの検証",
+      "body": "新しい読み取り値はすべて、そのメーターの以前のログ以上である必要があります。これにより、消費量の計算が正確に保たれ、置き換えられた桁が早期に検出されます。"
+    },
+    "details": {
+      "title": "選択したユニットの詳細",
+      "flatUnit": "フラットユニット",
+      "meterSerial": "メーターシリアル",
+      "occupant": "占有者名",
+      "lastDial": "最後に記録されたダイヤル",
+      "noReadings": "まだ測定値はありません",
+      "monthConsumption": "月の消費量",
+      "empty": "世帯が選択されていません。ここで居住者を検索して選択すると、メーターの詳細が表示されます。"
+    },
+    "csv": {
+      "noFile": "アップロードする CSV ファイルを選択してください。",
+      "instructions": "列 <code>{{columns}}</code> を含む CSV をアップロードします。行は独立して処理されます。1 つの不良行によってバッチ全体が失敗することはありません。"
+    },
+    "history": {
+      "loading": "測定値を読み込み中…",
+      "empty": "コミュニティの測定値はまだ記録されていません。"
+    },
+    "table": {
+      "meterNumber": "メーターNo.",
+      "date": "日付",
+      "value": "値 (kL)",
+      "consumption": "消費量 (kL)",
+      "source": "ソース"
+    }
+  },
+  "billingCycles": {
+    "title": "請求サイクル",
+    "loadError": "請求サイクルをロードできませんでした。もう一度試してください。",
+    "paymentUpdateError": "この請求書の支払いステータスを更新できませんでした。",
+    "pdfError": "PDF をダウンロードできませんでした。もう一度試してください。",
+    "finalizeError": "この請求サイクルを完了できませんでした。",
+    "archiveError": "この請求サイクルをアーカイブできませんでした。",
+    "loading": "請求サイクルを読み込み中…",
+    "empty": "まだ請求サイクルはありません。開始するには、上の 1 つを開いてください。",
+    "status": {
+      "open": "開ける",
+      "finalized": "確定済み",
+      "archived": "アーカイブ済み"
+    },
+    "open": {
+      "title": "新しい請求サイクルを開始する",
+      "noMonth": "オープンする月を選択してください。",
+      "error": "その月の請求サイクルを開けませんでした。",
+      "monthAria": "請求期間月",
+      "opening": "オープニング…",
+      "submit": "オープンサイクル"
+    },
+    "table": {
+      "period": "期間",
+      "status": "状態",
+      "householdsBilled": "請求対象世帯数",
+      "totalBilled": "請求総額",
+      "actions": "アクション"
+    },
+    "actions": {
+      "finalize": "ファイナライズ",
+      "finalizing": "仕上げ中…",
+      "archive": "アーカイブ",
+      "archiving": "アーカイブ中…"
+    },
+    "filter": {
+      "aria": "支払いステータスでフィルタリングする",
+      "all": "全て"
+    },
+    "payment": {
+      "paid": "有料",
+      "unpaid": "未払い",
+      "updating": "更新中…",
+      "markPaid": "支払い済みとしてマークする",
+      "markUnpaid": "未払いとしてマークする"
+    },
+    "detail": {
+      "title": "サイクルの詳細 — {{period}}",
+      "loading": "請求書を読み込んでいます…",
+      "notFinalized": "このサイクルはまだ完了しておらず、請求書は生成されていません。",
+      "noInvoices": "このサイクルには請求書はありません。",
+      "noMatch": "このフィルターに一致する請求書はありません。"
+    },
+    "invoices": {
+      "household": "家庭",
+      "resident": "居住者",
+      "meterNumber": "メーターNo.",
+      "consumption": "消費量 (kL)",
+      "tierBreakdown": "階層の内訳",
+      "commonArea": "共用エリア",
+      "total": "合計",
+      "paymentStatus": "支払い状況",
+      "pdf": "PDF",
+      "baseLine": "基数: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "層 {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "料金設定をロードできませんでした",
+    "saveError": "料金設定を保存できませんでした",
+    "chartTitle": "アクティブな従量制公共料金階層",
+    "axisNote": "レート (₹/kL)、スラブ制限 (kL)",
+    "tableTitle": "価格帯テーブル",
+    "defaultRatesNote": "デフォルトのレートを表示しています — まだ保存されていません。",
+    "addTier": "+ 階層を追加",
+    "saveRates": "関税率を節約する",
+    "tierLevel": {
+      "base": "ティア {{tier}} (ベース)",
+      "medium": "ティア {{tier}} (中)",
+      "heavy": "階層 {{tier}} (重)"
+    },
+    "basePrice": {
+      "label": "基本価格 (₹ / kL、すべての消費量に適用)",
+      "note": "すべての kL には、最初にこの定額料金が請求されます。以下のスラブでは、範囲内での使用に対してのみ追加料金が追加されます。 50 kL から始まるスラブは、50 kL を超えると消費レートが追加されるだけです。"
+    },
+    "table": {
+      "tierLevel": "ティアレベル",
+      "slabLimit": "スラブ制限 (kL)",
+      "rate": "kL あたりのレート",
+      "action": "アクション"
+    },
+    "commonArea": {
+      "title": "共有共用エリアのコスト構成",
+      "loadError": "共用エリアのコスト構成をロードできませんでした",
+      "saveError": "共用エリアのコスト構成を保存できませんでした",
+      "empty": "コスト項目はまだ保存されていません。",
+      "labelPlaceholder": "原価項目ラベル",
+      "perMonth": "/ 月",
+      "active": "アクティブ",
+      "addItem": "+ コスト項目を追加",
+      "save": "共通領域設定の保存"
+    },
+    "distribution": {
+      "title": "原価配分方法セレクター",
+      "consumption": "消費量別（サブメーター比例）",
+      "floorArea": "アパートのフラットサイズ (平方フィート) 別"
+    },
+    "footer": {
+      "cycleStart": "サイクル課金開始日",
+      "cycleStartValue": "毎月1日",
+      "autoInvoices": "PDF 個の請求書を自動生成"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "しきい値を超えました",
+      "statisticalOutlier": "統計的外れ値"
+    },
+    "status": {
+      "active": "アクティブ",
+      "resolved": "解決済み",
+      "dismissed": "解雇された"
+    },
+    "config": {
+      "title": "漏れ検出の構成",
+      "subtitle": "毎月の消費量のしきい値を設定したり、統計的な外れ値の検出を有効にしたりできます (毎月の消費量が過去の世帯と比較して異常に高い世帯にフラグを立てます)。",
+      "loadError": "アラート構成をロードできませんでした。もう一度試してください。",
+      "thresholdRequired": "しきい値アラートが有効な場合は、月次しきい値 (kL) が必要です。",
+      "saveError": "この構成を保存できませんでした。",
+      "loading": "設定を読み込み中…",
+      "threshold": "月ごとのしきい値 (kL)",
+      "sensitivity": "外れ値感度（σ乗数）",
+      "enableThreshold": "しきい値アラートを有効にする",
+      "enableOutlier": "統計的外れ値アラートを有効にする",
+      "save": "設定の保存",
+      "running": "実行中…",
+      "runNow": "今すぐ検出を実行"
+    },
+    "alerts": {
+      "title": "フラグが立てられた世帯",
+      "loadError": "アラートを読み込めませんでした。もう一度試してください。",
+      "runError": "現在、リーク検出を実行できませんでした。もう一度試してください。",
+      "updateError": "このアラートを更新できませんでした。もう一度試してください。",
+      "allStatuses": "すべてのステータス",
+      "loading": "アラートを読み込んでいます…",
+      "empty": "表示するアラートはありません。しきい値を設定するか、上記の外れ値検出を有効にしてから、[今すぐ検出を実行] をクリックしてコミュニティの現在の使用状況を評価します。",
+      "resolve": "解決する",
+      "dismiss": "却下する"
+    },
+    "table": {
+      "household": "家庭",
+      "resident": "居住者",
+      "meter": "メーター",
+      "type": "タイプ",
+      "period": "期間",
+      "consumption": "消費",
+      "reference": "参照",
+      "status": "状態"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "大量の水を購入できませんでした。もう一度試してください。",
+    "confirmRemove": "{{date}} の {{source}} 配信を削除しますか?",
+    "removeError": "この購入を削除できませんでした。もう一度試してください。",
+    "count": "記録された購入数: {{total}}",
+    "recordButton": "+ レコードの購入",
+    "loading": "大量の水を購入中…",
+    "empty": "水の大量購入はまだ記録されていません。 「購入の記録」をクリックして、タンカーの配送または自治体の物資の購入を記録します。",
+    "table": {
+      "date": "日付",
+      "source": "ソース",
+      "volume": "容積(L)",
+      "unitCost": "単価",
+      "totalCost": "総コスト",
+      "notes": "注意事項"
+    },
+    "form": {
+      "addTitle": "水の大量購入の記録",
+      "editTitle": "水の一括購入を編集する",
+      "subtitle": "あなたの地域へのタンカー配達や自治体の物資の購入を追跡します。これはコストを可視化する目的でのみ記録され、世帯の請求書には影響しません。",
+      "requiredFields": "日付、供給元、数量、単価をご記入ください。",
+      "saveError": "この購入を保存できませんでした。詳細をご確認ください。",
+      "purchaseDate": "購入日",
+      "source": "供給元/サプライヤー",
+      "volume": "容積（リットル）",
+      "unitCost": "単価（₹/リットル）",
+      "totalPreview": "総コスト: {{amount}}",
+      "notes": "注記 (オプション)",
+      "submit": "レコードの購入"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} はまだ構築されていません",
+    "profileSaveError": "プロフィールを保存できませんでした。もう一度試してください。",
+    "apartmentSaveError": "アパートメントの詳細を保存できませんでした。もう一度試してください。",
+    "specsTitle": "プロファイル仕様",
+    "photoUnavailable": "写真のアップロードはまだ利用できません",
+    "changePhoto": "写真を変更する",
+    "deletePhoto": "消去",
+    "photoHint": "JPG または PNG。最大サイズは2MB。",
+    "saveProfile": "プロファイルの保存",
+    "apartmentTitle": "アパートの詳細",
+    "saveApartment": "アパートの詳細を保存",
+    "tabs": {
+      "profile": "プロファイル設定",
+      "apartment": "アパートメントの概要",
+      "notifications": "通知ルール",
+      "billing": "請求の統合",
+      "security": "セキュリティとアクセス"
+    },
+    "fields": {
+      "fullName": "フルネーム",
+      "email": "電子メールアドレス",
+      "emailLocked": "ここではメールアドレスを変更できません",
+      "phone": "電話番号",
+      "accessLevel": "アクセスレベル",
+      "accessLevelValue": "コミュニティ管理者",
+      "roleLocked": "役割管理はまだ利用できません",
+      "apartmentName": "アパート名",
+      "mainsSource": "主電源",
+      "mainsSourcePlaceholder": "例えば自治体供給 + 補充タンカー",
+      "address": "物理アドレス"
+    },
+    "security": {
+      "title": "セキュリティとアクセスのプレビュー",
+      "twoFactor": "二要素認証",
+      "twoFactorHint": "ログイン時に有効化",
+      "twoFactorUnavailable": "二要素認証はまだ利用できません",
+      "twoFactorAria": "2 要素認証 (プレビューのみ)",
+      "sessionsLabel": "アクティブな管理者セッション",
+      "sessionsEmpty": "セッション追跡はまだ利用できません。これは今後のレイアウトのプレビューです。"
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "私のチケット",
+      "inbox": "居住者チケット"
+    },
+    "mine": {
+      "title": "私のサポートチケット",
+      "subtitle": "コミュニティに関する質問や懸念事項をシステム管理者に提起してください。",
+      "emptyCreateHint": "コミュニティについて質問や懸念を提起します。システム管理者がここで確認して返答します。"
+    },
+    "inbox": {
+      "title": "居住者チケット",
+      "subtitle": "サポート チケットと、コミュニティの住民があなたに寄せた懸念事項。"
+    }
+  }
+}

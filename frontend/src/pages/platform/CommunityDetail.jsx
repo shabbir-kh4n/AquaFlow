@@ -1,11 +1,21 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Trans, useTranslation } from 'react-i18next'
 import { deleteCommunity, getCommunityDetail, updateCommunityStatus } from '../../api/platformApi'
 import './CommunityDetail.css'
 
 const PAGE_SIZE = 10
 
+const DELETE_CONFIRM_WORD = 'confirm'
+
+const STATUS_KEYS = {
+  ACTIVE: 'status.active',
+  BLOCKED: 'status.blocked',
+  TERMINATED: 'status.terminated',
+}
+
 function CommunityDetail() {
+  const { t } = useTranslation('platform')
   const { adminId } = useParams()
   const navigate = useNavigate()
 
@@ -22,7 +32,7 @@ function CommunityDetail() {
   useEffect(() => {
     getCommunityDetail(adminId)
       .then(setDetail)
-      .catch(() => setError('Could not load this community. It may have been removed.'))
+      .catch(() => setError('communityDetail.loadError'))
       .finally(() => setLoading(false))
   }, [adminId])
 
@@ -33,7 +43,7 @@ function CommunityDetail() {
       const updated = await updateCommunityStatus(adminId, status)
       setDetail((prev) => (prev ? { ...prev, status: updated.status } : prev))
     } catch (err) {
-      setActionError(err.response?.data?.message || 'Could not update this community\'s status.')
+      setActionError(err.response?.data?.message || t('communityDetail.statusUpdateError'))
     } finally {
       setActionBusy(false)
     }
@@ -74,20 +84,21 @@ function CommunityDetail() {
       await deleteCommunity(adminId)
       navigate('/platform/communities')
     } catch (err) {
-      setActionError(err.response?.data?.message || 'Could not delete this community.')
+      setActionError(err.response?.data?.message || t('communityDetail.deleteError'))
       setActionBusy(false)
       setShowDeleteConfirm(false)
     }
   }
 
   if (loading) {
-    return <p className="af-cd__empty">Loading community…</p>
+    return <p className="af-cd__empty">{t('communityDetail.loading')}</p>
   }
 
   if (error || !detail) {
     return (
       <div className="af-cd__error">
-        {error || 'Community not found.'} <Link to="/platform/communities">Back to Communities</Link>
+        {error ? t(error) : t('communityDetail.notFound')}{' '}
+        <Link to="/platform/communities">{t('communityDetail.backLinkShort')}</Link>
       </div>
     )
   }
@@ -99,26 +110,28 @@ function CommunityDetail() {
   return (
     <>
       <Link to="/platform/communities" className="af-cd__back">
-        ← Back to Communities
+        {t('communityDetail.backLink')}
       </Link>
 
       {actionError && <div className="af-cd__error">{actionError}</div>}
 
       <div className="af-cd__header">
         <div>
-          <p className="af-cd__eyebrow">Community Profile</p>
-          <h2>{detail.apartmentName || 'Unnamed community'}</h2>
-          <p className="af-cd__address">{detail.apartmentAddress || 'No address on file'}</p>
+          <p className="af-cd__eyebrow">{t('communityDetail.eyebrow')}</p>
+          <h2>{detail.apartmentName || t('communityDetail.unnamed')}</h2>
+          <p className="af-cd__address">{detail.apartmentAddress || t('communityDetail.noAddress')}</p>
         </div>
 
         <div className="af-cd__header-stats">
           <div>
             <span className="af-cd__stat-value">{residents.length}</span>
-            <span className="af-cd__stat-label">Residents</span>
+            <span className="af-cd__stat-label">{t('communityDetail.stats.residents')}</span>
           </div>
           <div>
-            <span className={`af-cd__badge af-cd__badge--${detail.status.toLowerCase()}`}>{detail.status}</span>
-            <span className="af-cd__stat-label">Status</span>
+            <span className={`af-cd__badge af-cd__badge--${detail.status.toLowerCase()}`}>
+              {STATUS_KEYS[detail.status] ? t(STATUS_KEYS[detail.status]) : detail.status}
+            </span>
+            <span className="af-cd__stat-label">{t('communityDetail.stats.status')}</span>
           </div>
           <div className="af-cd__admin-block">
             <strong>{detail.adminFullName}</strong>
@@ -136,7 +149,7 @@ function CommunityDetail() {
             disabled={actionBusy}
             onClick={() => handleStatusChange('ACTIVE')}
           >
-            Reactivate
+            {t('communityDetail.actions.reactivate')}
           </button>
         )}
         {detail.status === 'ACTIVE' && (
@@ -147,14 +160,14 @@ function CommunityDetail() {
             onClick={() =>
               requestStatusChange(
                 'BLOCKED',
-                'Block this community admin?',
-                `Block ${detail.adminFullName}? They will be unable to log in until unblocked. No data will be affected.`,
-                'Block',
+                t('communityDetail.blockDialog.title'),
+                t('communityDetail.blockDialog.message', { name: detail.adminFullName }),
+                t('communityDetail.blockDialog.confirm'),
                 'outline',
               )
             }
           >
-            Block
+            {t('communityDetail.actions.block')}
           </button>
         )}
         {detail.status !== 'TERMINATED' && (
@@ -165,38 +178,38 @@ function CommunityDetail() {
             onClick={() =>
               requestStatusChange(
                 'TERMINATED',
-                'Terminate this community admin?',
-                `Permanently terminate ${detail.adminFullName}'s access? This cannot be undone, though their community's data will be kept for records.`,
-                'Terminate',
+                t('communityDetail.terminateDialog.title'),
+                t('communityDetail.terminateDialog.message', { name: detail.adminFullName }),
+                t('communityDetail.terminateDialog.confirm'),
                 'warn',
               )
             }
           >
-            Terminate
+            {t('communityDetail.actions.terminate')}
           </button>
         )}
         <button type="button" className="af-cd__action af-cd__action--danger" disabled={actionBusy} onClick={openDeleteConfirm}>
-          Delete Community
+          {t('communityDetail.actions.delete')}
         </button>
       </div>
 
       <div className="af-cd__table-wrap">
         <div className="af-cd__table-header">
-          <h3>Residents</h3>
-          <span>{residents.length} registered</span>
+          <h3>{t('communityDetail.residents.title')}</h3>
+          <span>{t('communityDetail.residents.registeredCount', { count: residents.length })}</span>
         </div>
 
         {residents.length === 0 ? (
-          <p className="af-cd__empty">No residents registered in this community yet.</p>
+          <p className="af-cd__empty">{t('communityDetail.residents.empty')}</p>
         ) : (
           <table className="af-cd__table">
             <thead>
               <tr>
-                <th>Flat Unit</th>
-                <th>Meter</th>
-                <th>Resident</th>
-                <th>Email</th>
-                <th>Password Set</th>
+                <th>{t('communityDetail.residents.table.flatUnit')}</th>
+                <th>{t('communityDetail.residents.table.meter')}</th>
+                <th>{t('communityDetail.residents.table.resident')}</th>
+                <th>{t('communityDetail.residents.table.email')}</th>
+                <th>{t('communityDetail.residents.table.passwordSet')}</th>
               </tr>
             </thead>
             <tbody>
@@ -206,7 +219,7 @@ function CommunityDetail() {
                   <td>{r.meterNumber || '—'}</td>
                   <td>{r.fullName}</td>
                   <td>{r.email}</td>
-                  <td>{r.passwordSet ? 'Yes' : 'No'}</td>
+                  <td>{r.passwordSet ? t('communityDetail.residents.yes') : t('communityDetail.residents.no')}</td>
                 </tr>
               ))}
             </tbody>
@@ -217,13 +230,13 @@ function CommunityDetail() {
       {residents.length > PAGE_SIZE && (
         <div className="af-cd__pagination">
           <button type="button" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-            ← Prev
+            {t('pagination.prev')}
           </button>
           <span>
-            Page {page + 1} of {pageCount}
+            {t('pagination.page', { page: page + 1, pageCount })}
           </span>
           <button type="button" disabled={page >= pageCount - 1} onClick={() => setPage((p) => p + 1)}>
-            Next →
+            {t('pagination.next')}
           </button>
         </div>
       )}
@@ -235,7 +248,7 @@ function CommunityDetail() {
             <p>{confirmAction.message}</p>
             <div className="af-cd__danger-actions">
               <button type="button" className="af-cd__action af-cd__action--outline" disabled={actionBusy} onClick={closeConfirmAction}>
-                Cancel
+                {t('communityDetail.cancel')}
               </button>
               <button
                 type="button"
@@ -243,7 +256,7 @@ function CommunityDetail() {
                 disabled={actionBusy}
                 onClick={confirmStatusChange}
               >
-                {actionBusy ? 'Working…' : confirmAction.confirmLabel}
+                {actionBusy ? t('communityDetail.working') : confirmAction.confirmLabel}
               </button>
             </div>
           </div>
@@ -256,13 +269,22 @@ function CommunityDetail() {
             <div className="af-cd__danger-icon" aria-hidden="true">
               !
             </div>
-            <h2>Delete this community?</h2>
+            <h2>{t('communityDetail.deleteDialog.title')}</h2>
             <p>
-              This will permanently delete <strong>{detail.apartmentName}</strong> and all of its households,
-              residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.
+              <Trans
+                t={t}
+                i18nKey="communityDetail.deleteDialog.message"
+                values={{ name: detail.apartmentName }}
+                components={{ strong: <strong /> }}
+              />
             </p>
             <label htmlFor="deleteConfirmText">
-              Type <strong>confirm</strong> to continue
+              <Trans
+                t={t}
+                i18nKey="communityDetail.deleteDialog.typeToConfirm"
+                values={{ word: DELETE_CONFIRM_WORD }}
+                components={{ strong: <strong /> }}
+              />
             </label>
             <input
               id="deleteConfirmText"
@@ -271,19 +293,19 @@ function CommunityDetail() {
               autoFocus
               value={deleteConfirmText}
               onChange={(e) => setDeleteConfirmText(e.target.value)}
-              placeholder="confirm"
+              placeholder={DELETE_CONFIRM_WORD}
             />
             <div className="af-cd__danger-actions">
               <button type="button" className="af-cd__action af-cd__action--outline" disabled={actionBusy} onClick={closeDeleteConfirm}>
-                Cancel
+                {t('communityDetail.cancel')}
               </button>
               <button
                 type="button"
                 className="af-cd__action af-cd__action--danger"
-                disabled={actionBusy || deleteConfirmText.trim().toLowerCase() !== 'confirm'}
+                disabled={actionBusy || deleteConfirmText.trim().toLowerCase() !== DELETE_CONFIRM_WORD}
                 onClick={handleDelete}
               >
-                {actionBusy ? 'Deleting…' : 'Confirm'}
+                {actionBusy ? t('communityDetail.deleting') : t('communityDetail.deleteDialog.confirm')}
               </button>
             </div>
           </div>

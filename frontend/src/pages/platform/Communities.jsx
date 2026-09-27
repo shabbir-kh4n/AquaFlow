@@ -1,17 +1,25 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { listCommunities } from '../../api/platformApi'
 import './Communities.css'
 
 const PAGE_SIZE = 10
 
 const SORT_OPTIONS = [
-  { value: 'apartmentName', label: 'Community' },
-  { value: 'adminFullName', label: 'Admin' },
-  { value: 'residentCount', label: 'Residents' },
+  { value: 'apartmentName', label: 'communities.sortOptions.community' },
+  { value: 'adminFullName', label: 'communities.sortOptions.admin' },
+  { value: 'residentCount', label: 'communities.sortOptions.residents' },
 ]
 
+const STATUS_KEYS = {
+  ACTIVE: 'status.active',
+  BLOCKED: 'status.blocked',
+  TERMINATED: 'status.terminated',
+}
+
 function Communities() {
+  const { t } = useTranslation('platform')
   const navigate = useNavigate()
   const [communities, setCommunities] = useState([])
   const [loading, setLoading] = useState(true)
@@ -27,7 +35,7 @@ function Communities() {
   useEffect(() => {
     listCommunities()
       .then(setCommunities)
-      .catch(() => setError('Could not load communities. Please try again.'))
+      .catch(() => setError('communities.loadError'))
       .finally(() => setLoading(false))
   }, [])
 
@@ -76,7 +84,7 @@ function Communities() {
     <>
       <div className="af-comm__toolbar">
         <span className="af-comm__count">
-          {communities.length} communit{communities.length === 1 ? 'y' : 'ies'}
+          {t('communities.count', { count: communities.length })}
         </span>
       </div>
 
@@ -88,53 +96,53 @@ function Communities() {
           </svg>
           <input
             type="text"
-            placeholder="Filter by community, admin name, or email"
+            placeholder={t('communities.searchPlaceholder')}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
 
         <div className="af-comm__sort">
-          <label htmlFor="statusFilter">Status</label>
+          <label htmlFor="statusFilter">{t('communities.statusFilter.label')}</label>
           <select id="statusFilter" value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
-            <option value="ALL">All</option>
-            <option value="ACTIVE">Active</option>
-            <option value="BLOCKED">Blocked</option>
-            <option value="TERMINATED">Terminated</option>
+            <option value="ALL">{t('communities.statusFilter.all')}</option>
+            <option value="ACTIVE">{t('status.active')}</option>
+            <option value="BLOCKED">{t('status.blocked')}</option>
+            <option value="TERMINATED">{t('status.terminated')}</option>
           </select>
 
-          <label htmlFor="sortField">Sort by</label>
+          <label htmlFor="sortField">{t('sort.sortBy')}</label>
           <select id="sortField" value={sortField} onChange={(e) => setSortField(e.target.value)}>
             {SORT_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
-                {opt.label}
+                {t(opt.label)}
               </option>
             ))}
           </select>
-          <button type="button" className="af-comm__sort-dir" onClick={toggleSortDirection} title="Toggle sort direction">
-            {sortDirection === 'asc' ? '↑ Asc' : '↓ Desc'}
+          <button type="button" className="af-comm__sort-dir" onClick={toggleSortDirection} title={t('sort.toggleDirection')}>
+            {sortDirection === 'asc' ? t('sort.asc') : t('sort.desc')}
           </button>
         </div>
       </div>
 
-      {error && <div className="af-comm__error">{error}</div>}
+      {error && <div className="af-comm__error">{t(error)}</div>}
 
       <div className="af-comm__table-wrap">
         {loading ? (
-          <p className="af-comm__empty">Loading communities…</p>
+          <p className="af-comm__empty">{t('communities.loading')}</p>
         ) : communities.length === 0 ? (
-          <p className="af-comm__empty">No communities registered yet.</p>
+          <p className="af-comm__empty">{t('communities.empty')}</p>
         ) : visibleCommunities.length === 0 ? (
-          <p className="af-comm__empty">No communities match your filters.</p>
+          <p className="af-comm__empty">{t('communities.noMatch')}</p>
         ) : (
           <table className="af-comm__table">
             <thead>
               <tr>
-                <th>Community</th>
-                <th>Admin</th>
-                <th>Email</th>
-                <th>Status</th>
-                <th>Residents</th>
+                <th>{t('communities.table.community')}</th>
+                <th>{t('communities.table.admin')}</th>
+                <th>{t('communities.table.email')}</th>
+                <th>{t('communities.table.status')}</th>
+                <th>{t('communities.table.residents')}</th>
                 <th></th>
               </tr>
             </thead>
@@ -157,13 +165,15 @@ function Communities() {
                   <td>{c.adminFullName}</td>
                   <td>{c.adminEmail}</td>
                   <td>
-                    <span className={`af-comm__badge af-comm__badge--${c.status.toLowerCase()}`}>{c.status}</span>
+                    <span className={`af-comm__badge af-comm__badge--${c.status.toLowerCase()}`}>
+                      {STATUS_KEYS[c.status] ? t(STATUS_KEYS[c.status]) : c.status}
+                    </span>
                   </td>
                   <td>{c.residentCount}</td>
                   <td>
                     <div className="af-comm__row-actions">
                       <Link to={`/platform/communities/${c.adminId}`} onClick={(e) => e.stopPropagation()}>
-                        View
+                        {t('communities.table.view')}
                       </Link>
                     </div>
                   </td>
@@ -177,18 +187,21 @@ function Communities() {
       {visibleCommunities.length > 0 && (
         <div className="af-comm__pagination">
           <span className="af-comm__pagination-info">
-            Showing {page * PAGE_SIZE + 1}–{Math.min(visibleCommunities.length, page * PAGE_SIZE + PAGE_SIZE)} of{' '}
-            {visibleCommunities.length}
+            {t('pagination.showing', {
+              from: page * PAGE_SIZE + 1,
+              to: Math.min(visibleCommunities.length, page * PAGE_SIZE + PAGE_SIZE),
+              total: visibleCommunities.length,
+            })}
           </span>
           <div className="af-comm__pagination-controls">
             <button type="button" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-              ← Prev
+              {t('pagination.prev')}
             </button>
             <span className="af-comm__pagination-page">
-              Page {page + 1} of {pageCount}
+              {t('pagination.page', { page: page + 1, pageCount })}
             </span>
             <button type="button" disabled={page >= pageCount - 1} onClick={() => setPage((p) => p + 1)}>
-              Next →
+              {t('pagination.next')}
             </button>
           </div>
         </div>

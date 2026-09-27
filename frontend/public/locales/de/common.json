@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Schließen",
+    "signUpTitle": "Registrieren Sie Ihre Community",
+    "signInTitle": "Willkommen zurück",
+    "signUpSubtitle": "Erstellen Sie ein Community-Administratorkonto, um mit der Verwaltung der Bewohner und der Abrechnung zu beginnen.",
+    "signInSubtitle": "Melden Sie sich an, um Ihren Wasserverbrauch und Ihre Abrechnung anzuzeigen."
+  },
+  "signIn": {
+    "errorFallback": "Anmeldung nicht möglich. Bitte versuchen Sie es erneut.",
+    "emailLabel": "E-Mail",
+    "passwordLabel": "Passwort",
+    "rememberMe": "Erinnere dich an mich",
+    "forgotPassword": "Passwort vergessen?",
+    "submitting": "Anmelden…",
+    "submit": "Anmelden",
+    "noAccount": "Sie haben noch kein Konto?",
+    "signUpLink": "Melden Sie sich an"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Passwörter stimmen nicht überein.",
+      "communityRequired": "Community-Name ist erforderlich.",
+      "termsRequired": "Bitte stimmen Sie den Nutzungsbedingungen und Datenschutzbestimmungen zu.",
+      "fallback": "Konto kann nicht erstellt werden. Bitte versuchen Sie es erneut."
+    },
+    "hint": "Hier registrieren sich nur Community-Administratoren. Sobald Sie angemeldet sind, geben Sie die Daten Ihrer Bewohner selbst ein – sie melden sich nicht selbst an.",
+    "fullNameLabel": "Vollständiger Name",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefonnummer",
+    "communityNameLabel": "Community-Name",
+    "passwordLabel": "Passwort",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "agreeTerms": "Ich stimme den <termsLink>Nutzungsbedingungen</termsLink> und der <privacyLink>Datenschutzerklärung</privacyLink> zu.",
+    "submitting": "Konto erstellen…",
+    "submit": "Erstellen Sie ein Admin-Konto",
+    "haveAccount": "Sie haben bereits ein Konto?",
+    "signInLink": "anmelden"
+  },
+  "installPrompt": {
+    "title": "Installieren Sie HydroLedger",
+    "description": "Fügen Sie es Ihrem Startbildschirm hinzu, um schnell darauf zugreifen zu können.",
+    "dismiss": "Zurückweisen",
+    "install": "Installieren"
+  },
+  "setPassword": {
+    "title": "Legen Sie Ihr Passwort fest",
+    "loading": "Laden…",
+    "subtitle": "Hallo {{name}}, wählen Sie ein Passwort für {{email}}, um Ihr HydroLedger-Konto zu aktivieren.",
+    "errors": {
+      "invalidLink": "Dieser Link ist ungültig oder abgelaufen.",
+      "tooShort": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+      "mismatch": "Passwörter stimmen nicht überein.",
+      "fallback": "Ihr Passwort konnte nicht festgelegt werden. Bitte versuchen Sie es erneut."
+    },
+    "passwordLabel": "Passwort",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "submitting": "Passwort festlegen…",
+    "submit": "Passwort festlegen und anmelden"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Fragen Sie nach Ihrem Konto",
+      "admin": "Gemeindeassistent",
+      "platform": "Plattformassistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Was ist HydroLedger?",
+        "tieredBilling": "Wie funktioniert die gestaffelte Abrechnung?",
+        "leaks": "Wie werden Lecks erkannt?"
+      },
+      "resident": {
+        "billEstimate": "Wie hoch ist mein aktueller Rechnungsvoranschlag?",
+        "alerts": "Habe ich Nutzungswarnungen?",
+        "readings": "Meine letzten Zählerstände anzeigen"
+      },
+      "admin": {
+        "households": "Wie viele Haushalte haben wir?",
+        "billingCycles": "Listen Sie unsere letzten Abrechnungszyklen auf",
+        "tariff": "Was ist unser aktueller Tarifplan?"
+      },
+      "platform": {
+        "communities": "Listen Sie alle registrierten Communities auf",
+        "usageReport": "Zeigen Sie den Plattformnutzungsbericht an",
+        "systemStatus": "Wie ist der Systemstatus?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Sie senden Nachrichten zu schnell. Bitte warten Sie einen Moment und versuchen Sie es erneut.",
+      "unavailable": "Der Assistent ist vorübergehend nicht verfügbar. Bitte versuchen Sie es in Kürze noch einmal.",
+      "generic": "Beim Senden dieser Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "emptyHint": "Fragen Sie mich etwas – ich kann nur Ihre eigenen Daten sehen.",
+    "closeAssistant": "Enger Assistent",
+    "openAssistant": "Assistent öffnen",
+    "inputPlaceholder": "Geben Sie eine Nachricht ein…",
+    "inputLabel": "Nachricht",
+    "send": "Schicken"
+  },
+  "supportBoard": {
+    "defaultTitle": "Support-Tickets",
+    "defaultCreateLabel": "Bringen Sie neue Bedenken hervor",
+    "status": {
+      "open": "Offen",
+      "inProgress": "Im Gange",
+      "resolved": "Gelöst",
+      "closed": "Geschlossen"
+    },
+    "tabs": {
+      "all": "Alle Tickets"
+    },
+    "recipients": {
+      "admin": "Community-Administrator",
+      "systemAdmin": "Systemadministrator",
+      "both": "Community-Administrator + Systemadministrator"
+    },
+    "roles": {
+      "resident": "Einwohner",
+      "admin": "Admin"
+    },
+    "toRecipients": "An: {{recipients}}",
+    "raisedByResident": "Aufgewachsen durch Bewohner {{name}}",
+    "raisedByAdmin": "Erhöht vom Administrator {{name}}",
+    "refresh": "Aktualisieren",
+    "stats": {
+      "openLabel": "Offene Einreichungen",
+      "openHint": "Warten auf Rezension",
+      "inProgressLabel": "Im Gange",
+      "inProgressHint": "Es wird daran gearbeitet",
+      "resolvedLabel": "Gelöst",
+      "resolvedHint": "Erfolgreich geschlossen"
+    },
+    "searchPlaceholder": "Suchen Sie Tickets nach Betreff, Problem usw.",
+    "loadingTickets": "Tickets werden geladen…",
+    "empty": {
+      "title": "Keine Support-Tickets gefunden",
+      "body": "Sie haben derzeit keine offenen oder aufgezeichneten Supportanfragen, die diesem Filter entsprechen.",
+      "cta": "Senden Sie ein Anliegen"
+    },
+    "errors": {
+      "loadList": "Support-Tickets konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "loadDetail": "Dieses Ticket konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "required": "Betreff und Nachricht sind beide erforderlich.",
+      "recipientRequired": "Wählen Sie mindestens einen Empfänger aus (Community-Administrator und/oder Systemadministrator).",
+      "submitFallback": "Dieses Ticket konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "sendReply": "Diese Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "updateStatus": "Dieser Ticketstatus konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+    },
+    "form": {
+      "defaultHint": "Beschreiben Sie unten Ihr Problem oder Anliegen.",
+      "subjectLabel": "Thema",
+      "subjectPlaceholder": "Kurze Zusammenfassung Ihres Problems",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie im Detail, was passiert …",
+      "recipientsLabel": "Senden Sie dieses Anliegen an",
+      "cancel": "Stornieren",
+      "submitting": "Einreichen…",
+      "submit": "Ticket einreichen"
+    },
+    "detail": {
+      "loading": "Ticket wird geladen…",
+      "replyPlaceholder": "Schreibe eine Antwort…",
+      "close": "Schließen",
+      "sending": "Senden…",
+      "sendReply": "Antwort senden"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Willkommen zurück, {{name}}",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "logout": "Abmelden",
+    "search": "Suchen",
+    "notifications": "Benachrichtigungen"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Armaturenbrett",
+      "households": "Haushaltsverzeichnis",
+      "meterReadings": "Zählerstände",
+      "billing": "Abrechnungsmanagement",
+      "bulkPurchases": "Großeinkäufe",
+      "reports": "Berichte",
+      "waterLeakage": "Wasserleck",
+      "support": "Unterstützung / Bedenken",
+      "tariffPlans": "Tarifpläne",
+      "announcements": "Ankündigungen",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hier ist ein Schnappschuss Ihrer Community."
+      },
+      "households": {
+        "title": "Haushaltsverzeichnis",
+        "subtitle": "Fügen Sie die in Ihrer Gemeinde lebenden Bewohner hinzu, aktualisieren und verwalten Sie sie."
+      },
+      "meterReadings": {
+        "title": "Hub für Wasserzählerstände",
+        "subtitle": "Suchen Sie nach einem Bewohner und notieren Sie dessen Wasserzählerstand."
+      },
+      "tariffPlans": {
+        "title": "Tarifkonfiguration",
+        "subtitle": "Konfigurieren Sie gestaffelte Tariflimits, gemeinsame Kosten für Gemeinschaftsräume und Verteilungsmethoden für Ihre Wohngemeinschaft."
+      },
+      "billing": {
+        "title": "Abrechnungsmanagement",
+        "subtitle": "Öffnen, schließen und archivieren Sie Abrechnungszyklen und überprüfen Sie die Einzelrechnungen pro Haushalt."
+      },
+      "bulkPurchases": {
+        "title": "Großeinkäufe",
+        "subtitle": "Erfassen Sie Tankerlieferungen und kommunale Versorgungseinkäufe für Ihre Gemeinde."
+      },
+      "waterLeakage": {
+        "title": "Wasserleck",
+        "subtitle": "Konfigurieren Sie Schwellenwert- und ausreißerbasierte Leckwarnungen und überprüfen Sie markierte Haushalte."
+      },
+      "support": {
+        "title": "Unterstützung / Bedenken",
+        "subtitle": "Eröffnen Sie Ihre eigenen Tickets beim Systemadministrator oder bearbeiten Sie Anliegen, die Ihre Bewohner an Sie gerichtet haben."
+      },
+      "profile": {
+        "title": "Einstellungen & Profil",
+        "subtitle": "Verwalten Sie Ihre Kontodaten und Apartmentinformationen."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Community-Administrator",
+    "notBuilt": "{{label}} ist noch nicht erstellt",
+    "searchPlaceholder": "Suchen Sie alles ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Berichte",
+      "description": "Verbrauchs-, Abrechnungs- und Erhaltungsberichte für Ihre Gemeinde."
+    },
+    "announcements": {
+      "title": "Ankündigungen",
+      "description": "Senden Sie gemeinschaftsweite Ankündigungen an Ihre Bewohner."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kommt bald"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Armaturenbrett",
+      "usageHistory": "Nutzungsverlauf",
+      "bills": "Meine Rechnungen",
+      "recommendations": "Empfehlungen",
+      "reports": "Berichte",
+      "support": "Unterstützung / Bedenken",
+      "notifications": "Benachrichtigungen",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Ihr Nutzungsverlauf",
+      "billing": "Abrechnung und Rechnungen",
+      "notifications": "Benachrichtigungen",
+      "recommendations": "Empfehlungen",
+      "support": "Unterstützung / Bedenken"
+    },
+    "defaultTitle": "Resident-Dashboard",
+    "navLabel": "Residente Navigation",
+    "fallbackName": "Einwohner",
+    "unit": "Einheit {{number}}",
+    "comingSoon": "{{label}} kommt bald",
+    "profile": "Profil",
+    "searchPlaceholder": "Suchanalysen, Rechnungen…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Armaturenbrett",
+      "communities": "Gemeinschaften",
+      "reports": "Berichte",
+      "supportTickets": "Support-Tickets",
+      "systemStatus": "Systemstatus"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Plattformweiter Snapshot aller registrierten Communitys."
+      },
+      "communities": {
+        "title": "Gemeinschaften",
+        "subtitle": "Jeder registrierte Community-Administrator und seine Community an einem Ort."
+      },
+      "reports": {
+        "title": "Berichte",
+        "subtitle": "Plattformweite Wasserverbrauchs- und Abrechnungszahlen, nach Gemeinde und im Zeitverlauf."
+      },
+      "supportTickets": {
+        "title": "Support-Tickets",
+        "subtitle": "Support-Tickets und Bedenken von Anwohnern und Community-Administratoren auf der gesamten Plattform."
+      },
+      "systemStatus": {
+        "title": "Systemstatus",
+        "subtitle": "Backend-Konnektivität und grundlegende Laufzeitintegrität."
+      }
+    },
+    "fallbackName": "Systemadministrator",
+    "platformOwner": "Plattformbesitzer",
+    "searchPlaceholder": "Communitys durchsuchen…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Sprache: {{language}}",
+    "searchPlaceholder": "Sprache suchen…",
+    "noMatches": "Keine Übereinstimmungen"
+  }
+}

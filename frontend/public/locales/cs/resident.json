@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Již brzy",
+    "welcome": {
+      "greeting": "Dobrý den, {{name}},",
+      "greetingFallback": "Dobrý den,",
+      "title": "Zůstaňte blízko příběhu vody vašeho domova.",
+      "subtitle": "Zde se zobrazí statistiky využití a fakturace, když vaše komunita zaznamenává odečty.",
+      "viewBadges": "Zobrazit ekologické odznaky"
+    },
+    "stats": {
+      "todaysUsage": "Dnešní použití",
+      "asOf": "Ke dni {{date}}",
+      "noReading": "Zatím bez odečtu",
+      "monthlyTotalFor": "Měsíční součet ({{month}})",
+      "monthlyTotalThisMonth": "Měsíční součet (tento měsíc)",
+      "sumOfReadings": "Součet zaznamenaných odečtů",
+      "estimatedBill": "Aktuální odhadovaný účet",
+      "estimatedBillFor": "Měřená spotřeba + sdílené poplatky, {{month}}",
+      "estimatedBillHint": "Na základě naměřené spotřeby a sdílených poplatků za tento měsíc",
+      "savings": "Prům. úspora vs",
+      "savingsValue": "{{percent}} % méně",
+      "savingsPreview": "Pouze náhled – srovnání ještě není aktivní"
+    },
+    "consumption": {
+      "eyebrow": "Spotřeba",
+      "title": "Denní spotřeba (posledních 14 čtení)",
+      "seriesName": "Spotřeba",
+      "empty": "Dosud nebyly zaznamenány žádné údaje."
+    },
+    "breakdown": {
+      "eyebrow": "Zhroucení",
+      "title": "Rozdělení podle použití",
+      "bathroom": "Koupelna",
+      "kitchen": "Kuchyně",
+      "garden": "Zahrada / Balkon",
+      "other": "Ostatní / Prádelna"
+    },
+    "billing": {
+      "eyebrow": "Fakturace",
+      "title": "Aktivní fakturační cyklus",
+      "finalized": "Dokončeno",
+      "preview": "Náhled",
+      "meteredConsumption": "Měřená spotřeba",
+      "tierPriceLevel": "Úroveň cenové hladiny",
+      "tierLabel": "Úroveň {{tier}}",
+      "commonArea": "Rozdělení společných prostor",
+      "commonAreaPreview": "Rozdělení společných prostor (náhled)",
+      "invoiceTotal": "{{period}} faktura celkem",
+      "estimatedCharge": "Aktuální odhadovaný poplatek",
+      "commonAreaBreakdown": "Rozdělení společných prostor",
+      "payPreview": "Náhled vyúčtování",
+      "payUnavailable": "Fakturační modul zatím není k dispozici"
+    },
+    "tips": {
+      "eyebrow": "Tipy",
+      "title": "Chytré tipy na spoření",
+      "viewAll": "Zobrazit vše",
+      "empty": "Personalizované tipy se zde objeví poté, co vaše komunita dokončí fakturační cyklus."
+    },
+    "community": "Komunita: {{name}}"
+  },
+  "usage": {
+    "loadError": "Historii použití nelze načíst. Zkuste to prosím znovu.",
+    "loading": "Načítání statistik využití…",
+    "empty": "Dosud nebyly zaznamenány žádné údaje. Jakmile vaše komunita zaznamená stav měřiče, zobrazí se zde.",
+    "tabs": {
+      "lastSixMonths": "Posledních 6 měsíců",
+      "customRange": "Vlastní rozsah",
+      "comingSoon": "Již brzy"
+    },
+    "peakDay": "Den špičky:",
+    "lowestDay": "Nejnižší den:",
+    "comparison": {
+      "title": "Průměrná spotřeba domácnosti vs",
+      "subtitle": "Měsíční součty uvedené v kilolitrech (kL).",
+      "yourHousehold": "Vaše domácnost",
+      "apartmentAverage": "Apartmán Průměr",
+      "similarSized": "Domy podobné velikosti"
+    },
+    "heatmap": {
+      "title": "Teplotní mapa denní spotřeby",
+      "subtitle": "Intenzita barev označuje dny intenzivního používání (náhled)."
+    },
+    "ranking": {
+      "title": "Hodnocení komunitních vrstevníků",
+      "subtitle": "Vaše hodnost ve srovnání s podobnými jednotkami (náhled).",
+      "ecoSaver": "Aktivní Eco Saver",
+      "aptNumber": "Byt {{number}}",
+      "unitNumber": "Jednotka {{number}}",
+      "yourUnit": "Vaše jednotka",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (vy)"
+    }
+  },
+  "billing": {
+    "loadError": "Historii fakturace se nepodařilo načíst. Zkuste to prosím znovu.",
+    "pdfError": "Nelze stáhnout PDF. Zkuste to prosím znovu.",
+    "loading": "Načítání historie fakturace…",
+    "empty": "Zatím žádné faktury – jakmile vaše komunita dokončí fakturační cyklus, vaše faktury se zobrazí zde.",
+    "status": {
+      "paid": "Zaplaceno",
+      "unpaid": "Nezaplaceno"
+    },
+    "summary": {
+      "outstandingBalance": "Nesplacený zůstatek",
+      "billingCycle": "Fakturační cyklus: {{period}}",
+      "allPaid": "Všechny faktury jsou zaplaceny",
+      "payTotal": "Zaplaťte celkem nezaplacenou částku",
+      "payTotalUnavailable": "Online platba zatím není k dispozici – vyrovnejte účty přímo se svým komunitním administrátorem",
+      "downloadSummary": "Stáhnout Přehled faktur",
+      "downloadSummaryUnavailable": "Stažení přehledu faktur zatím není k dispozici"
+    },
+    "history": {
+      "title": "Historie faktur",
+      "exportCsv": "Exportovat vše do CSV",
+      "exportUnavailable": "CSV export zatím není k dispozici"
+    },
+    "table": {
+      "cycle": "Cyklus",
+      "usage": "Použití (kL)",
+      "amountDue": "Dlužná částka",
+      "paymentStatus": "Stav platby",
+      "hideBreakdown": "Skrýt rozdělení ↑",
+      "showBreakdown": "Položkové členění ↓",
+      "downloading": "Stahování…",
+      "pdf": "PDF",
+      "pay": "Platit"
+    },
+    "breakdown": {
+      "householdTitle": "Rozdělení spotřeby domácností",
+      "basePrice": "Základní cena: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Úroveň {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Mezisoučet měřeného využití",
+      "commonAreaTitle": "Rozdělení společných prostor",
+      "subtotalShared": "Mezisoučet sdílená plocha",
+      "noCommonArea": "Žádné poplatky za sdílené společné prostory pro tento cyklus."
+    },
+    "pagination": {
+      "showing": "Zobrazeno {{from}}–{{to}} z {{total}}",
+      "prev": "← Předchozí",
+      "next": "Další →",
+      "page": "Strana {{page}} z {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Platební metody (náhled)",
+      "description": "Online platba zatím není k dispozici – účty se vyřizují přímo s vaším komunitním administrátorem.",
+      "manage": "Správa platebních metod",
+      "manageUnavailable": "Platební metody zatím nejsou k dispozici"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Zabezpečeno Razorpay",
+    "billingCycle": "Fakturační cyklus {{period}}",
+    "close": "Blízko",
+    "amountPayable": "Splatná částka",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Karty",
+      "netbanking": "Netbanking",
+      "wallet": "Peněženka"
+    },
+    "upi": {
+      "title": "Platit přes UPI",
+      "upiId": "UPI ID",
+      "or": "NEBO",
+      "scan": "Skenujte pomocí libovolné aplikace UPI"
+    },
+    "card": {
+      "title": "Platba kartou",
+      "number": "Číslo karty",
+      "expiry": "Uplynutí",
+      "expiryPlaceholder": "MM / RR",
+      "cvv": "CVV",
+      "name": "Jméno na kartě",
+      "namePlaceholder": "Jak je vytištěno na kartě"
+    },
+    "netbanking": {
+      "title": "Plaťte přes Netbanking"
+    },
+    "wallet": {
+      "title": "Plaťte přes Peněženku"
+    },
+    "payAmount": "Zaplaťte {{amount}} ₹",
+    "processing": "Zpracování vaší platby…",
+    "processingHint": "Netiskněte zpět ani neobnovujte tuto stránku",
+    "success": "Platba úspěšná",
+    "error": "Při potvrzování vaší platby se něco pokazilo. Zkuste to prosím znovu.",
+    "retry": "Zkuste to znovu"
+  },
+  "notifications": {
+    "loadError": "Vaše oznámení se nepodařilo načíst. Zkuste to prosím znovu.",
+    "loading": "Načítání oznámení…",
+    "empty": "Zatím žádná upozornění – zde se něco zobrazí, pokud váš správce komunity povolil upozornění na limit využití nebo na neobvyklou spotřebu a jedno se spustí pro vaši domácnost.",
+    "type": {
+      "thresholdExceeded": "Překročena prahová hodnota spotřeby",
+      "statisticalOutlier": "Zjištěna neobvyklá spotřeba"
+    },
+    "status": {
+      "active": "Aktivní",
+      "resolved": "Vyřešeno",
+      "dismissed": "Zamítnuto"
+    },
+    "billingPeriod": "Fakturační období: {{period}}",
+    "consumption": "Spotřeba: {{value}} kL",
+    "push": {
+      "title": "Push notifikace",
+      "description": "Nechte se na tomto zařízení upozornit, když přijde nový účet nebo upozornění.",
+      "enable": "Umožnit",
+      "disable": "Zakázat",
+      "permissionDenied": "Oprávnění k oznámení nebylo uděleno.",
+      "notConfigured": "Push notifikace zatím nejsou nakonfigurovány. Kontaktujte svého administrátora.",
+      "enableError": "Oznámení push nelze aktivovat. Zkuste to prosím znovu.",
+      "disableError": "Oznámení push nelze zakázat. Zkuste to prosím znovu."
+    }
+  },
+  "recommendations": {
+    "loadError": "Vaše doporučení se nepodařilo načíst. Zkuste to prosím znovu.",
+    "loading": "Načítání vašich personalizovaných tipů…",
+    "generated": "Vygenerováno {{date}}",
+    "generatedForPeriod": "Vygenerováno {{date}} pro fakturační období {{period}}",
+    "eyebrow": "Personalizované pro vás",
+    "title": "Chytré tipy na úsporu vody",
+    "empty": "Dosud nebyly vygenerovány žádné tipy – tyto se automaticky obnovují pokaždé, když vaše komunita dokončí fakturační cyklus pro vaši domácnost."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Odešlete zprávy o úniku vody, požadavky na kalibraci měřiče nebo fakturační dotazy přímo správci komunity a/nebo správci systému.",
+    "emptyCreateHint": "Níže popište svůj problém nebo obavu a vyberte, kdo by se tím měl zabývat."
+  }
+}

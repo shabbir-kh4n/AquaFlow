@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Virkur",
+    "blocked": "Lokað",
+    "terminated": "Hætti"
+  },
+  "sort": {
+    "sortBy": "Raða eftir",
+    "toggleDirection": "Skiptu um flokkunarstefnu",
+    "asc": "↑ Asc",
+    "desc": "↓ Skýrsla"
+  },
+  "pagination": {
+    "showing": "Sýnir {{from}}–{{to}} af {{total}}",
+    "prev": "← Fyrri",
+    "next": "Næsta →",
+    "page": "Síða {{page}} af {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Yfirlit vettvangs",
+    "subtitle": "Sérhver skráður samfélagsstjóri, á öllum HydroLedger pallinum.",
+    "viewAll": "Skoða öll samfélög",
+    "loadError": "Ekki var hægt að hlaða vettvangsgögnum núna.",
+    "cards": {
+      "totalCommunities": "Heildarsamfélög",
+      "registeredAdmins": "Skráðir stjórnendur",
+      "totalResidents": "Samtals íbúar",
+      "acrossAllCommunities": "Í öllum samfélögum",
+      "active": "Virkur",
+      "inGoodStanding": "Í góðri stöðu",
+      "blockedTerminated": "Lokað / Lokað",
+      "blockedTerminatedBreakdown": "{{blocked}} lokað, {{terminated}} sagt upp"
+    },
+    "recent": {
+      "title": "Nýlega skráð samfélög",
+      "loading": "Hleður…",
+      "empty": "Engin samfélög skráð enn.",
+      "table": {
+        "community": "Samfélag",
+        "admin": "Admin",
+        "status": "Staða",
+        "residents": "Íbúar"
+      }
+    }
+  },
+  "communities": {
+    "count": "Samfélög: {{count}}",
+    "loadError": "Ekki tókst að hlaða samfélögum. Vinsamlegast reyndu aftur.",
+    "searchPlaceholder": "Sía eftir samfélagi, nafni stjórnanda eða netfangi",
+    "statusFilter": {
+      "label": "Staða",
+      "all": "Allt"
+    },
+    "sortOptions": {
+      "community": "Samfélag",
+      "admin": "Admin",
+      "residents": "Íbúar"
+    },
+    "loading": "Hleður samfélögum...",
+    "empty": "Engin samfélög skráð enn.",
+    "noMatch": "Engin samfélög passa við síurnar þínar.",
+    "table": {
+      "community": "Samfélag",
+      "admin": "Admin",
+      "email": "Tölvupóstur",
+      "status": "Staða",
+      "residents": "Íbúar",
+      "view": "Skoða"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ekki tókst að hlaða þessu samfélagi. Það kann að hafa verið fjarlægt.",
+    "statusUpdateError": "Ekki tókst að uppfæra stöðu þessa samfélags.",
+    "deleteError": "Ekki tókst að eyða þessu samfélagi.",
+    "loading": "Hleður samfélag...",
+    "notFound": "Samfélag fannst ekki.",
+    "backLink": "← Til baka í Samfélög",
+    "backLinkShort": "Aftur í samfélög",
+    "eyebrow": "Samfélagssnið",
+    "unnamed": "Ónefnt samfélag",
+    "noAddress": "Ekkert heimilisfang á skrá",
+    "stats": {
+      "residents": "Íbúar",
+      "status": "Staða"
+    },
+    "actions": {
+      "reactivate": "Virkjaðu aftur",
+      "block": "Block",
+      "terminate": "Hætta",
+      "delete": "Eyða samfélagi"
+    },
+    "blockDialog": {
+      "title": "Loka á þennan samfélagsstjóra?",
+      "message": "Loka á {{name}}? Þeir munu ekki geta skráð sig inn fyrr en opnað er fyrir. Engin gögn verða fyrir áhrifum.",
+      "confirm": "Block"
+    },
+    "terminateDialog": {
+      "title": "Viltu hætta þessum samfélagsstjóra?",
+      "message": "Vilja slíta aðgangi {{name}} varanlega? Ekki er hægt að afturkalla þetta, þó að gögn samfélagsins þeirra verði geymd til skráningar.",
+      "confirm": "Hætta"
+    },
+    "deleteDialog": {
+      "title": "Eyða þessu samfélagi?",
+      "message": "Þetta mun eyða <strong>{{name}}</strong> varanlega og öllum heimilum þess, íbúum, mælum, gjaldskrá/reikningsuppsetningu og reikningssögu. Ekki er hægt að afturkalla þessa aðgerð.",
+      "typeToConfirm": "Sláðu inn <strong>{{word}}</strong> til að halda áfram",
+      "confirm": "Staðfesta"
+    },
+    "residents": {
+      "title": "Íbúar",
+      "registeredCount": "Skráður: {{count}}",
+      "empty": "Engir íbúar skráðir í þetta samfélag ennþá.",
+      "table": {
+        "flatUnit": "Flat eining",
+        "meter": "Mælir",
+        "resident": "Íbúi",
+        "email": "Tölvupóstur",
+        "passwordSet": "Lykilorð sett"
+      },
+      "yes": "Já",
+      "no": "Nei"
+    },
+    "cancel": "Hætta við",
+    "working": "Vinnur…",
+    "deleting": "Eyðir..."
+  },
+  "systemStatus": {
+    "statusError": "Gat ekki náð í bakenda til að athuga kerfisstöðu.",
+    "metricsError": "Gat ekki hlaðið mælingaferil.",
+    "ranges": {
+      "fiveMinutes": "5 mínútur",
+      "fifteenMinutes": "15 mínútur",
+      "hour": "Klukkutími",
+      "day": "Dagur",
+      "week": "Vika",
+      "month": "Mánuður",
+      "threeMonths": "3 mánuðir"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}klst",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Beiðnir/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Seinkun",
+      "lastValue": "{{value}} síðast",
+      "loading": "Hleður…",
+      "empty": "Engar mælingar skráðar fyrir þetta svið ennþá."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Meðaltal: <b>{{value}}</b>",
+      "max": "Hámark: <b>{{value}}</b>",
+      "last": "Síðasta: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Athugar...",
+      "reachable": "Hægt að nálgast",
+      "unreachable": "Óaðgengilegt",
+      "connected": "Tengdur",
+      "backendApiHint": "Þessi síða hlóðst úr bakendanum, svo hún svaraði.",
+      "database": "Gagnagrunnur",
+      "databaseHint": "PostgreSQL tenging, athugað í beinni.",
+      "uptime": "Spenntur bakenda",
+      "uptimeHint": "Frá því að forritið var endurræst síðast.",
+      "appVersion": "App útgáfa",
+      "appVersionHint": "Backend smíða útgáfa."
+    },
+    "mini": {
+      "latency": "Seinkun",
+      "readsLatency": "Les Latency",
+      "writesLatency": "Skrifar Latency",
+      "otherLatency": "Önnur bið",
+      "connections": "Tengingar",
+      "totalKeys": "Heildar lyklar"
+    },
+    "note": "Beiðnir/sek og töf eru tekin úr beinni bakendaumferð á 15 sekúndna fresti og geymd í allt að 100 daga. Þetta er grunntenging + umferðarathugun - það kemur ekki í stað fullrar frammistöðuvöktunar forrita, skráningarskrár eða viðvörun."
+  },
+  "reports": {
+    "loadError": "Ekki tókst að hlaða vettvangsskýrslunni.",
+    "ranges": {
+      "threeMonths": "3 mánuðir",
+      "sixMonths": "6 mánuðir",
+      "twelveMonths": "12 mánuðir",
+      "custom": "Sérsniðin"
+    },
+    "sortOptions": {
+      "community": "Samfélag",
+      "usage": "Notkun",
+      "billed": "Innheimt",
+      "residents": "Íbúar"
+    },
+    "customRange": {
+      "from": "Frá",
+      "to": "Til",
+      "hint": "Veldu bæði „frá“ og „til“ mánuð til að hlaða sérsniðinni skýrslu."
+    },
+    "loading": "Hleður skýrslu...",
+    "cards": {
+      "totalCommunities": "Heildarsamfélög",
+      "inThisRange": "Á þessu sviði",
+      "totalResidents": "Samtals íbúar",
+      "acrossAllCommunities": "Í öllum samfélögum",
+      "overallUsage": "Heildarnotkun",
+      "meteredConsumption": "Mæld eyðsla",
+      "overallBilled": "Heildarreikningur",
+      "finalizedInvoicesOnly": "Aðeins endanlegir reikningar",
+      "avgUsagePerResident": "Meðalnotkun / Íbúi",
+      "avgBillPerResident": "Meðalreikningur / íbúi"
+    },
+    "charts": {
+      "usageTitle": "Notkun á vettvangi (kL / mánuði)",
+      "usageEmpty": "Engin notkun skráð fyrir þetta svið.",
+      "usageSeries": "Notkun",
+      "billedTitle": "Innheimt upphæð á vettvangi (₹ / mánuði)",
+      "billedEmpty": "Engir reikningar endanlegir fyrir þetta svið.",
+      "billedSeries": "Innheimt"
+    },
+    "searchPlaceholder": "Sía eftir samfélags- eða stjórnandanafni",
+    "empty": "Engin samfélög hafa notkunar- eða innheimtugögn fyrir þetta svið ennþá.",
+    "noMatch": "Engin samfélög passa við síuna þína.",
+    "table": {
+      "community": "Samfélag",
+      "admin": "Admin",
+      "residents": "Íbúar",
+      "usage": "Notkun (kL)",
+      "billed": "Innheimt (₹)",
+      "avgUsagePerResident": "Meðalnotkun / Íbúi",
+      "avgBillPerResident": "Meðalreikningur / íbúi"
+    }
+  },
+  "supportTickets": {
+    "title": "Stuðningsmiðar",
+    "subtitle": "Styðjið miða og áhyggjur sem íbúar og stjórnendur samfélagsins hafa vakið yfir, alls staðar á vettvangi."
+  }
+}

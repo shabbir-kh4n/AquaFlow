@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Mai aiki",
+    "blocked": "An katange",
+    "terminated": "Ƙarshe"
+  },
+  "sort": {
+    "sortBy": "Kasa",
+    "toggleDirection": "Juya hanyar daidaitawa",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Prev",
+    "next": "Na gaba →",
+    "page": "Shafi {{page}} na {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Bayanin Dandali",
+    "subtitle": "Kowane admin na al'umma mai rijista, a duk faɗin dandalin HydroLedger.",
+    "viewAll": "Duba Duk Al'ummai",
+    "loadError": "An kasa loda bayanan dandamali a yanzu.",
+    "cards": {
+      "totalCommunities": "Jimlar Al'umma",
+      "registeredAdmins": "admins masu rijista",
+      "totalResidents": "Jimlar Mazauna",
+      "acrossAllCommunities": "A duk faɗin al'umma",
+      "active": "Mai aiki",
+      "inGoodStanding": "A tsaye mai kyau",
+      "blockedTerminated": "An Kashe / Kashe",
+      "blockedTerminatedBreakdown": "{{blocked}} an katange, {{terminated}} ya ƙare"
+    },
+    "recent": {
+      "title": "Al'ummomin da suka yi rajista kwanan nan",
+      "loading": "Ana lodawa…",
+      "empty": "Babu al'ummomin da suka yi rajista tukuna.",
+      "table": {
+        "community": "Al'umma",
+        "admin": "Admin",
+        "status": "Matsayi",
+        "residents": "Mazauna"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "An kasa loda al'ummomi. Da fatan za a sake gwadawa.",
+    "searchPlaceholder": "Tace ta hanyar al'umma, sunan mai gudanarwa, ko imel",
+    "statusFilter": {
+      "label": "Matsayi",
+      "all": "Duka"
+    },
+    "sortOptions": {
+      "community": "Al'umma",
+      "admin": "Admin",
+      "residents": "Mazauna"
+    },
+    "loading": "Ana loda al'ummomi…",
+    "empty": "Babu al'ummomin da suka yi rajista tukuna.",
+    "noMatch": "Babu al'ummomin da suka dace da matatun ku.",
+    "table": {
+      "community": "Al'umma",
+      "admin": "Admin",
+      "email": "Imel",
+      "status": "Matsayi",
+      "residents": "Mazauna",
+      "view": "Duba"
+    }
+  },
+  "communityDetail": {
+    "loadError": "An kasa loda wannan al'umma. Wataƙila an cire shi.",
+    "statusUpdateError": "An kasa sabunta matsayin wannan al'umma.",
+    "deleteError": "An kasa share wannan al'umma.",
+    "loading": "Ana loda al'umma…",
+    "notFound": "Ba a sami al'umma ba.",
+    "backLink": "← Komawa Al'umma",
+    "backLinkShort": "Komawa Al'umma",
+    "eyebrow": "Bayanan Al'umma",
+    "unnamed": "Al'ummar da ba a bayyana sunanta ba",
+    "noAddress": "Babu adireshi akan fayil",
+    "stats": {
+      "residents": "Mazauna",
+      "status": "Matsayi"
+    },
+    "actions": {
+      "reactivate": "Sake kunnawa",
+      "block": "Toshe",
+      "terminate": "Karshe",
+      "delete": "Share Al'umma"
+    },
+    "blockDialog": {
+      "title": "Toshe wannan al'umma admin?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "Toshe"
+    },
+    "terminateDialog": {
+      "title": "A soke wannan admin na al'umma?",
+      "message": "Kashe damar {{name}} na dindindin? Ba za a iya soke wannan ba, ko da yake za a adana bayanan al'ummarsu don yin rikodi.",
+      "confirm": "Karshe"
+    },
+    "deleteDialog": {
+      "title": "Share wannan al'umma?",
+      "message": "Wannan zai share <strong>{{name}}</strong> har abada da duk gidansa, mazauna, mitoci, tsarin jadawalin jadawalin kuɗin fito, da tarihin daftari. Ba za a iya soke wannan aikin ba.",
+      "typeToConfirm": "Buga <strong>{{word}}</strong> don ci gaba",
+      "confirm": "Tabbatar"
+    },
+    "residents": {
+      "title": "Mazauna",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "Babu wani mazaunin da ya yi rajista a cikin wannan al'umma tukuna.",
+      "table": {
+        "flatUnit": "Rukunin Flat",
+        "meter": "Mita",
+        "resident": "Mazaunin",
+        "email": "Imel",
+        "passwordSet": "Saitin Kalmar wucewa"
+      },
+      "yes": "Ee",
+      "no": "A'a"
+    },
+    "cancel": "Soke",
+    "working": "Yana aiki…",
+    "deleting": "Ana sharewa…"
+  },
+  "systemStatus": {
+    "statusError": "An kasa isa ƙarshen baya don duba halin tsarin.",
+    "metricsError": "An kasa loda tarihin awo.",
+    "ranges": {
+      "fiveMinutes": "Minti 5",
+      "fifteenMinutes": "Minti 15",
+      "hour": "Sa'a",
+      "day": "Rana",
+      "week": "Mako",
+      "month": "Watan",
+      "threeMonths": "Watanni 3"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Buƙatun / s",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} last",
+      "loading": "Ana lodawa…",
+      "empty": "Babu awo da aka yi rikodin don wannan kewayon tukuna."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Matsakaici: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Na Karshe: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API ɗin Baya",
+      "checking": "Ana dubawa…",
+      "reachable": "Mai iya isa",
+      "unreachable": "Ba za a iya isa ba",
+      "connected": "An haɗa",
+      "backendApiHint": "An ɗora wannan shafin daga baya, don haka ya amsa.",
+      "database": "Database",
+      "databaseHint": "Haɗin haɗin PostgreSQL, an duba kai tsaye.",
+      "uptime": "Lokacin Bayarwa",
+      "uptimeHint": "Tun lokacin sake farawa aikace-aikacen ƙarshe.",
+      "appVersion": "Shafin App",
+      "appVersionHint": "Sigar ginin baya."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Yana karanta Latency",
+      "writesLatency": "Ya rubuta Latency",
+      "otherLatency": "Sauran Latency",
+      "connections": "Haɗin kai",
+      "totalKeys": "Jimlar Maɓallai"
+    },
+    "note": "Buƙatun / sec da latency ana yin samfurin daga zirga-zirgar ababen hawa a kowane daƙiƙa 15 kuma ana kiyaye su har zuwa kwanaki 100. Wannan shine ainihin haɗin kai + duba zirga-zirga - baya maye gurbin cikakken aikin sa ido na aikace-aikacen, tara log, ko faɗakarwa."
+  },
+  "reports": {
+    "loadError": "An kasa loda rahoton dandamali.",
+    "ranges": {
+      "threeMonths": "Watanni 3",
+      "sixMonths": "Watanni 6",
+      "twelveMonths": "Watanni 12",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Al'umma",
+      "usage": "Amfani",
+      "billed": "An biya",
+      "residents": "Mazauna"
+    },
+    "customRange": {
+      "from": "Daga",
+      "to": "Zuwa",
+      "hint": "Zaɓi biyun \"daga\" da \"zuwa\" wata don loda rahoton al'ada."
+    },
+    "loading": "Ana loda rahoton…",
+    "cards": {
+      "totalCommunities": "Jimlar Al'umma",
+      "inThisRange": "A cikin wannan zangon",
+      "totalResidents": "Jimlar Mazauna",
+      "acrossAllCommunities": "A duk faɗin al'umma",
+      "overallUsage": "Gabaɗaya Amfani",
+      "meteredConsumption": "Amfanin mita",
+      "overallBilled": "Gabaɗaya An biya",
+      "finalizedInvoicesOnly": "Kuskuren da aka kammala kawai",
+      "avgUsagePerResident": "Matsakaicin Amfani / Mazaunin",
+      "avgBillPerResident": "Matsakaicin Bill / Mazauni"
+    },
+    "charts": {
+      "usageTitle": "Platform-wide Usage (kL / month)",
+      "usageEmpty": "Babu amfani da aka yi rikodin don wannan kewayon.",
+      "usageSeries": "Amfani",
+      "billedTitle": "Adadin Kuɗi na Faɗin dandamali (₹ / wata)",
+      "billedEmpty": "Babu daftarin da aka kammala don wannan kewayon.",
+      "billedSeries": "An biya"
+    },
+    "searchPlaceholder": "Tace da sunan al'umma ko admin",
+    "empty": "Babu al'ummomin da ke da bayanan amfani ko lissafin kuɗi na wannan kewayon tukuna.",
+    "noMatch": "Babu al'ummomin da suka dace da tacewar ku.",
+    "table": {
+      "community": "Al'umma",
+      "admin": "Admin",
+      "residents": "Mazauna",
+      "usage": "Usage (kL)",
+      "billed": "An biya (₹)",
+      "avgUsagePerResident": "Matsakaicin Amfani / Mazaunin",
+      "avgBillPerResident": "Matsakaicin Bill / Mazauni"
+    }
+  },
+  "supportTickets": {
+    "title": "Tallafin Tikiti",
+    "subtitle": "Taimakon tikiti da damuwar da mazauna da masu kula da al'umma suka gabatar, a fa'ida."
+  }
+}

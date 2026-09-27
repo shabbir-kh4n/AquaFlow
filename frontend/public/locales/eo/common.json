@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Fermu",
+    "signUpTitle": "Registri vian komunumon",
+    "signInTitle": "Bonvenon reen",
+    "signUpSubtitle": "Kreu Komunuman Administran konton por komenci administri loĝantojn kaj fakturadon.",
+    "signInSubtitle": "Ensalutu por vidi vian akvouzon kaj fakturadon."
+  },
+  "signIn": {
+    "errorFallback": "Ne eblas ensaluti. Bonvolu provi denove.",
+    "emailLabel": "Retpoŝto",
+    "passwordLabel": "Pasvorto",
+    "rememberMe": "Memoru min",
+    "forgotPassword": "Ĉu vi forgesis pasvorton?",
+    "submitting": "Ensaltante...",
+    "submit": "Ensalutu",
+    "noAccount": "Ĉu vi ne havas konton?",
+    "signUpLink": "Aliĝu"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Pasvortoj ne kongruas.",
+      "communityRequired": "Komunuma nomo estas postulata.",
+      "termsRequired": "Bonvolu konsenti la Kondiĉojn de Servo kaj Privateca Politiko.",
+      "fallback": "Ne eblas krei konton. Bonvolu provi denove."
+    },
+    "hint": "Nur komunumaj administrantoj registriĝas ĉi tie. Post kiam vi eniros, vi mem aldonos la detalojn de viaj loĝantoj — ili ne aliĝas memstare.",
+    "fullNameLabel": "Plena nomo",
+    "emailLabel": "Retpoŝto",
+    "phoneLabel": "Telefonnumero",
+    "communityNameLabel": "Komunuma nomo",
+    "passwordLabel": "Pasvorto",
+    "confirmPasswordLabel": "Konfirmu pasvorton",
+    "agreeTerms": "Mi konsentas pri la <termsLink>Servkondiĉoj</termsLink> kaj <privacyLink>Privateca Politiko</privacyLink>",
+    "submitting": "Kreante konton...",
+    "submit": "Krei Administran Konton",
+    "haveAccount": "Ĉu jam havas konton?",
+    "signInLink": "Ensalutu"
+  },
+  "installPrompt": {
+    "title": "Instalu HydroLedger",
+    "description": "Aldonu ĝin al via hejma ekrano por rapida aliro.",
+    "dismiss": "Forĵeti",
+    "install": "Instali"
+  },
+  "setPassword": {
+    "title": "Agordu vian pasvorton",
+    "loading": "Ŝargante…",
+    "subtitle": "Saluton {{name}}, elektu pasvorton por {{email}} por aktivigi vian HydroLedger konton.",
+    "errors": {
+      "invalidLink": "Ĉi tiu ligo estas nevalida aŭ eksvalidiĝis.",
+      "tooShort": "Pasvorto devas esti almenaŭ 8 signoj.",
+      "mismatch": "Pasvortoj ne kongruas.",
+      "fallback": "Ne eblis agordi vian pasvorton. Bonvolu provi denove."
+    },
+    "passwordLabel": "Pasvorto",
+    "confirmPasswordLabel": "Konfirmu pasvorton",
+    "submitting": "Agordante pasvorton...",
+    "submit": "Agordu pasvorton kaj ensalutu"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistanto",
+      "resident": "Demandu pri via konto",
+      "admin": "Komunuma Asistanto",
+      "platform": "Platforma Asistanto",
+      "default": "Asistanto"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Kio estas HydroLedger?",
+        "tieredBilling": "Kiel funkcias grada fakturado?",
+        "leaks": "Kiel estas detektitaj likoj?"
+      },
+      "resident": {
+        "billEstimate": "Kio estas mia nuna faktura takso?",
+        "alerts": "Ĉu mi havas avertojn pri uzado?",
+        "readings": "Montru miajn lastatempajn mezurilojn"
+      },
+      "admin": {
+        "households": "Kiom da hejmoj ni havas?",
+        "billingCycles": "Listigu niajn lastatempajn fakturajn ciklojn",
+        "tariff": "Kio estas nia nuna tarifplano?"
+      },
+      "platform": {
+        "communities": "Listigu ĉiujn registritajn komunumojn",
+        "usageReport": "Montru la raporton pri uzado de platformo",
+        "systemStatus": "Kio estas la sistema statuso?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Vi sendas mesaĝojn tro rapide - bonvolu atendi momenton kaj provi denove.",
+      "unavailable": "La asistanto estas provizore nedisponebla. Bonvolu provi denove baldaŭ.",
+      "generic": "Io misfunkciis sendante tiun mesaĝon. Bonvolu provi denove."
+    },
+    "emptyHint": "Demandu al mi ion ajn - mi nur povas vidi viajn proprajn datumojn.",
+    "closeAssistant": "Proksima asistanto",
+    "openAssistant": "Malfermu asistanton",
+    "inputPlaceholder": "Tajpu mesaĝon...",
+    "inputLabel": "Mesaĝo",
+    "send": "Sendu"
+  },
+  "supportBoard": {
+    "defaultTitle": "Subtenaj Biletoj",
+    "defaultCreateLabel": "Levu Novan Zorgon",
+    "status": {
+      "open": "Malfermu",
+      "inProgress": "En Progreso",
+      "resolved": "Solvita",
+      "closed": "Fermita"
+    },
+    "tabs": {
+      "all": "Ĉiuj Biletoj"
+    },
+    "recipients": {
+      "admin": "Komunuma Administranto",
+      "systemAdmin": "Sistemadministranto",
+      "both": "Komunuma Administranto + Sistemo Administranto"
+    },
+    "roles": {
+      "resident": "Loĝanto",
+      "admin": "Admin"
+    },
+    "toRecipients": "Al: {{recipients}}",
+    "raisedByResident": "Kreskita de loĝanto {{name}}",
+    "raisedByAdmin": "Levita de administranto {{name}}",
+    "refresh": "Refreŝigi",
+    "stats": {
+      "openLabel": "Malfermu Submetadojn",
+      "openHint": "Atendante revizion",
+      "inProgressLabel": "En Progreso",
+      "inProgressHint": "Prilaborata",
+      "resolvedLabel": "Solvita",
+      "resolvedHint": "Sukcese fermita"
+    },
+    "searchPlaceholder": "Serĉu biletojn laŭ temo, temo...",
+    "loadingTickets": "Ŝarĝante biletojn...",
+    "empty": {
+      "title": "Neniuj Subtenaj Biletoj Trovitaj",
+      "body": "Vi nuntempe ne havas malfermitajn aŭ registritajn subtenpetojn kongruajn kun ĉi tiu filtrilo.",
+      "cta": "Sendu Koncernon"
+    },
+    "errors": {
+      "loadList": "Ne eblis ŝargi subtenajn biletojn. Bonvolu provi denove.",
+      "loadDetail": "Ne eblis ŝargi ĉi tiun bileton. Bonvolu provi denove.",
+      "required": "Temo kaj mesaĝo estas ambaŭ postulataj.",
+      "recipientRequired": "Elektu almenaŭ unu ricevanton (Komunuma Administranto kaj/aŭ Sistema Administranto).",
+      "submitFallback": "Ne eblis sendi ĉi tiun bileton. Bonvolu provi denove.",
+      "sendReply": "Ne eblis sendi ĉi tiun mesaĝon. Bonvolu provi denove.",
+      "updateStatus": "Ne eblis ĝisdatigi ĉi tiun biletan staton. Bonvolu provi denove."
+    },
+    "form": {
+      "defaultHint": "Priskribu vian problemon aŭ zorgon malsupre.",
+      "subjectLabel": "Subjekto",
+      "subjectPlaceholder": "Mallonga resumo de via afero",
+      "messageLabel": "Mesaĝo",
+      "messagePlaceholder": "Priskribu kio okazas detale...",
+      "recipientsLabel": "Sendu ĉi tiun zorgon al",
+      "cancel": "Nuligi",
+      "submitting": "Sendante…",
+      "submit": "Sendu Bileton"
+    },
+    "detail": {
+      "loading": "Ŝarĝante bileton…",
+      "replyPlaceholder": "Skribu respondon...",
+      "close": "Fermu",
+      "sending": "Sendante…",
+      "sendReply": "Sendu Respondon"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Bonvenon reen, {{name}}",
+    "openMenu": "Malfermu menuon",
+    "closeMenu": "Fermu menuon",
+    "logout": "Elsaluti",
+    "search": "Serĉu",
+    "notifications": "Sciigoj"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Panelo",
+      "households": "Domanaroj Adresaro",
+      "meterReadings": "Metrolegadoj",
+      "billing": "Faktura Administrado",
+      "bulkPurchases": "Pograndaj Aĉetoj",
+      "reports": "Raportoj",
+      "waterLeakage": "Akva Elfluo",
+      "support": "Subteno / Zorgoj",
+      "tariffPlans": "Tarifaj Planoj",
+      "announcements": "Anoncoj",
+      "profile": "Profilo"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Jen momentfoto de via komunumo."
+      },
+      "households": {
+        "title": "Domanaroj Adresaro",
+        "subtitle": "Aldonu, ĝisdatigu kaj administru la loĝantojn loĝantajn en via komunumo."
+      },
+      "meterReadings": {
+        "title": "Akvomezurilo-Legado-Nabo",
+        "subtitle": "Serĉu loĝanton kaj registri ilian legadon de akvomezurilo."
+      },
+      "tariffPlans": {
+        "title": "Tarifa Agordo",
+        "subtitle": "Agordu nivelitajn tariflimojn, komunajn kostojn kaj distribuajn metodojn por via loĝeja komunumo."
+      },
+      "billing": {
+        "title": "Faktura Administrado",
+        "subtitle": "Malfermu, finpregu kaj arkivu fakturajn ciklojn, kaj reviziu specifitajn fakturojn por domanaro."
+      },
+      "bulkPurchases": {
+        "title": "Pograndaj Aĉetoj",
+        "subtitle": "Notu petrolliveraĵojn kaj municipajn provizojn aĉetojn por via komunumo."
+      },
+      "waterLeakage": {
+        "title": "Akva Elfluo",
+        "subtitle": "Agordu sojlon kaj eksterordinarajn ligajn alarmojn, kaj reviziu markitajn domanarojn."
+      },
+      "support": {
+        "title": "Subteno / Zorgoj",
+        "subtitle": "Levu viajn proprajn biletojn al la Sistemadministranto, aŭ pritraktu zorgojn, kiujn viaj loĝantoj adresis al vi."
+      },
+      "profile": {
+        "title": "Agordoj & Profilo",
+        "subtitle": "Administri viajn kontajn detalojn kaj apartamentojn."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Komunuma Administranto",
+    "notBuilt": "{{label}} ankoraŭ ne estas konstruita",
+    "searchPlaceholder": "Serĉu ion ajn..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Raportoj",
+      "description": "Raportoj pri konsumado, fakturado kaj konservado por via komunumo."
+    },
+    "announcements": {
+      "title": "Anoncoj",
+      "description": "Sendu tutkomunumajn anoncojn al viaj loĝantoj."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} baldaŭ venos"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Panelo",
+      "usageHistory": "Historio de Uzado",
+      "bills": "Miaj Fakturoj",
+      "recommendations": "Rekomendoj",
+      "reports": "Raportoj",
+      "support": "Subteno / Zorgoj",
+      "notifications": "Sciigoj",
+      "profile": "Profilo"
+    },
+    "pages": {
+      "usageHistory": "Via historio de uzado",
+      "billing": "Fakturado kaj Fakturoj",
+      "notifications": "Sciigoj",
+      "recommendations": "Rekomendoj",
+      "support": "Subteno / Zorgoj"
+    },
+    "defaultTitle": "Loĝanta Panelo",
+    "navLabel": "Loĝanta navigado",
+    "fallbackName": "Loĝanto",
+    "unit": "Unuo {{number}}",
+    "comingSoon": "{{label}} baldaŭ venos",
+    "profile": "Profilo",
+    "searchPlaceholder": "Serĉu analizojn, fakturojn..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Panelo",
+      "communities": "Komunumoj",
+      "reports": "Raportoj",
+      "supportTickets": "Subtenaj Biletoj",
+      "systemStatus": "Sistema Statuso"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Tutplatformo foto tra ĉiu registrita komunumo."
+      },
+      "communities": {
+        "title": "Komunumoj",
+        "subtitle": "Ĉiu registrita komunuma administranto kaj ilia komunumo, en unu loko."
+      },
+      "reports": {
+        "title": "Raportoj",
+        "subtitle": "Platform-kovranta akvouzado kaj fakturaj ciferoj, laŭ komunumo kaj laŭlonge de la tempo."
+      },
+      "supportTickets": {
+        "title": "Subtenaj Biletoj",
+        "subtitle": "Subtenaj biletoj kaj zorgoj levitaj de loĝantoj kaj komunumaj administrantoj, tutplatformo."
+      },
+      "systemStatus": {
+        "title": "Sistemo Statuso",
+        "subtitle": "Backend konektebleco kaj baza rultempa sano."
+      }
+    },
+    "fallbackName": "Sistemadministranto",
+    "platformOwner": "Posedanto de la platformo",
+    "searchPlaceholder": "Serĉu komunumojn..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lingvo: {{language}}",
+    "searchPlaceholder": "Serĉu lingvon...",
+    "noMatches": "Neniuj alumetoj"
+  }
+}

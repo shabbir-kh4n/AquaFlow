@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useAuth } from '../context/useAuth'
 import './AuthForm.css'
 
 function SignInForm({ onSuccess, onSwitchToSignUp }) {
   const { login } = useAuth()
+  const { t } = useTranslation('common')
 
   const [form, setForm] = useState({ email: '', password: '', remember: false })
   const [error, setError] = useState('')
@@ -23,7 +25,7 @@ function SignInForm({ onSuccess, onSwitchToSignUp }) {
       const response = await login({ email: form.email, password: form.password })
       onSuccess?.(response)
     } catch (err) {
-      const message = err.response?.data?.message || 'Unable to sign in. Please try again.'
+      const message = err.response?.data?.message || t('signIn.errorFallback')
       setError(message)
     } finally {
       setSubmitting(false)
@@ -35,7 +37,7 @@ function SignInForm({ onSuccess, onSwitchToSignUp }) {
       {error && <div className="af-form__error">{error}</div>}
 
       <div className="af-form__field">
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">{t('signIn.emailLabel')}</label>
         <input
           id="email"
           name="email"
@@ -48,7 +50,7 @@ function SignInForm({ onSuccess, onSwitchToSignUp }) {
       </div>
 
       <div className="af-form__field">
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">{t('signIn.passwordLabel')}</label>
         <input
           id="password"
           name="password"
@@ -69,21 +71,21 @@ function SignInForm({ onSuccess, onSwitchToSignUp }) {
             checked={form.remember}
             onChange={handleChange}
           />
-          Remember me
+          {t('signIn.rememberMe')}
         </label>
         <a href="#forgot-password" className="af-form__forgot">
-          Forgot password?
+          {t('signIn.forgotPassword')}
         </a>
       </div>
 
       <button type="submit" className="af-form__submit" disabled={submitting}>
-        {submitting ? 'Signing in…' : 'Sign In'}
+        {submitting ? t('signIn.submitting') : t('signIn.submit')}
       </button>
 
       <p className="af-form__footer-text">
-        Don&apos;t have an account?{' '}
+        {t('signIn.noAccount')}{' '}
         <button type="button" className="af-form__link-button" onClick={onSwitchToSignUp}>
-          Sign up
+          {t('signIn.signUpLink')}
         </button>
       </p>
     </form>

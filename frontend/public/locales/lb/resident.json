@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kommt geschwënn",
+    "welcome": {
+      "greeting": "Moien {{name}},",
+      "greetingFallback": "Moien,",
+      "title": "Bleift no bei der Waassergeschicht vun Ärem Heem.",
+      "subtitle": "Notzungs- a Rechnungsabléck erschéngen hei wéi Är Gemeinschaft Liesungen ophëlt.",
+      "viewBadges": "View Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "D'Benotzung vun haut",
+      "asOf": "Vun {{date}}",
+      "noReading": "Nach keng Meterleeschtung",
+      "monthlyTotalFor": "Mount Gesamt ({{month}})",
+      "monthlyTotalThisMonth": "Mount Total (dëse Mount)",
+      "sumOfReadings": "Zomm vun opgeholl Liesungen",
+      "estimatedBill": "Aktuell geschätzte Bill",
+      "estimatedBillFor": "Metered Notzung + gemeinsam Käschten, {{month}}",
+      "estimatedBillHint": "Baséierend op de gemoossene Verbrauch vun dësem Mount a gemeinsame Käschten",
+      "savings": "Spuer vs Gebai Duerchschnëtt",
+      "savingsValue": "{{percent}}% manner",
+      "savingsPreview": "Nëmmen Virschau - Verglach nach net live"
+    },
+    "consumption": {
+      "eyebrow": "Konsum",
+      "title": "Deeglech Verbrauch (Lescht 14 Liesungen)",
+      "seriesName": "Konsum",
+      "empty": "Keng Liesungen nach opgeholl."
+    },
+    "breakdown": {
+      "eyebrow": "Zerfall",
+      "title": "Benotzung Decompte",
+      "bathroom": "Buedzëmmer",
+      "kitchen": "Kichen",
+      "garden": "Gaart / Balkon",
+      "other": "Aner / Wäsch"
+    },
+    "billing": {
+      "eyebrow": "Rechnung",
+      "title": "Aktiv Billing Zyklus",
+      "finalized": "Finaliséiert",
+      "preview": "Virschau",
+      "meteredConsumption": "Verbrauch gemooss",
+      "tierPriceLevel": "Tier Präis Niveau",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Gemeinsam Beräich Verdeelung",
+      "commonAreaPreview": "Gemeinsam Beräich Verdeelung (Virschau)",
+      "invoiceTotal": "{{period}} Rechnung am Ganzen",
+      "estimatedCharge": "Aktuell geschätzte Charge",
+      "commonAreaBreakdown": "Gemeinsam Beräich Decompte",
+      "payPreview": "Pay Bill Preview",
+      "payUnavailable": "Rechnungsmotor nach net verfügbar"
+    },
+    "tips": {
+      "eyebrow": "Tipps",
+      "title": "Smart Spuer Tipps",
+      "viewAll": "Kuckt all",
+      "empty": "Personaliséiert Tipps erschéngen hei nodeems Är Gemeinschaft e Rechnungszyklus finaliséiert."
+    },
+    "community": "Gemeinschaft: {{name}}"
+  },
+  "usage": {
+    "loadError": "Konnt Är Benotzungsgeschicht net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Luet Är Benotzungsanalyse ...",
+    "empty": "Keng Liesungen nach opgeholl. Wann Är Gemeinschaft e Meterliest ophëlt, gëtt se hei gewisen.",
+    "tabs": {
+      "lastSixMonths": "Déi lescht 6 Méint",
+      "customRange": "Benotzerdefinéiert Range",
+      "comingSoon": "Kommt geschwënn"
+    },
+    "peakDay": "Héichpunkt Dag:",
+    "lowestDay": "Niddregsten Dag:",
+    "comparison": {
+      "title": "Stot Konsum vs Appartement Moyenne",
+      "subtitle": "Monatlecht Gesamtzuel ugewisen a Kiloliter (kL).",
+      "yourHousehold": "Äre Stot",
+      "apartmentAverage": "Appartement Moyenne",
+      "similarSized": "Ähnlech Gréisst Haiser"
+    },
+    "heatmap": {
+      "title": "Deeglech Verbrauch Heatmap",
+      "subtitle": "Faarfintensitéit markéiert schwéier Benotzungsdeeg (Virschau)."
+    },
+    "ranking": {
+      "title": "Gemeinschaft Peer Ranking",
+      "subtitle": "Äre Rang am Verglach mat ähnlechen Eenheeten (Virschau).",
+      "ecoSaver": "Aktiv Eco Saver",
+      "aptNumber": "Schéin {{number}}",
+      "unitNumber": "Eenheet {{number}}",
+      "yourUnit": "Är Eenheet",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Dir)"
+    }
+  },
+  "billing": {
+    "loadError": "Konnt Är Rechnungsgeschicht net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "pdfError": "Konnt den PDF net eroflueden. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Luet Är Rechnungsgeschicht ...",
+    "empty": "Nach keng Rechnungen - eemol Är Gemeinschaft e Rechnungszyklus finaliséiert, ginn Är Rechnungen hei op.",
+    "status": {
+      "paid": "Bezuelt",
+      "unpaid": "Onbezuelt"
+    },
+    "summary": {
+      "outstandingBalance": "Ausgezeechent Gläichgewiicht",
+      "billingCycle": "Rechnungszyklus: {{period}}",
+      "allPaid": "All Rechnungen gi bezuelt",
+      "payTotal": "Bezuelen Ganzen enestaende",
+      "payTotalUnavailable": "Online Bezuelung ass nach net verfügbar - regléiert Rechnungen direkt mat Ärem Gemeinschaftsadministrator",
+      "downloadSummary": "Download Bill Resumé",
+      "downloadSummaryUnavailable": "Rechnung Resumé Download ass nach net verfügbar"
+    },
+    "history": {
+      "title": "Rechnung Geschicht",
+      "exportCsv": "Export alles op CSV",
+      "exportUnavailable": "CSV Export ass nach net verfügbar"
+    },
+    "table": {
+      "cycle": "Zyklus",
+      "usage": "Benotzung (kL)",
+      "amountDue": "Betrag bezuelt",
+      "paymentStatus": "Bezuelen Status",
+      "hideBreakdown": "Verstoppen Decompte ↑",
+      "showBreakdown": "Ënnerdeelung ↓",
+      "downloading": "Eroflueden…",
+      "pdf": "PDF",
+      "pay": "Bezuelen"
+    },
+    "breakdown": {
+      "householdTitle": "Stot Konsum Ënnerdeelung",
+      "basePrice": "Basispräis: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Metered Notzung",
+      "commonAreaTitle": "Gemeinsam Beräich Verdeelung",
+      "subtotalShared": "Subtotal Shared Area",
+      "noCommonArea": "Keng gemeinsam Gebittskäschte fir dësen Zyklus."
+    },
+    "pagination": {
+      "showing": "Weist {{from}}–{{to}} vun {{total}}",
+      "prev": "← Virdrun",
+      "next": "Nächst →",
+      "page": "Säit {{page}} vun {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Bezuelmethoden (Virschau)",
+      "description": "Online Bezuelung ass nach net verfügbar - Rechnungen gi mat Ärem Gemeinschaftsadministrateur direkt geléist.",
+      "manage": "Verwalte Bezuelmethoden",
+      "manageUnavailable": "Bezuelmethoden sinn nach net verfügbar"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Geséchert duerch Razorpay",
+    "billingCycle": "Rechnungszyklus {{period}}",
+    "close": "Zoumaachen",
+    "amountPayable": "Bezuelbar Betrag",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kaarten",
+      "netbanking": "Netbanking",
+      "wallet": "Portemonnaie"
+    },
+    "upi": {
+      "title": "Bezuelt iwwer UPI",
+      "upiId": "UPI ID",
+      "or": "ODER",
+      "scan": "Scan mat all UPI App"
+    },
+    "card": {
+      "title": "Bezuelen iwwer Kaart",
+      "number": "Kaart Zuel",
+      "expiry": "Verfall",
+      "expiryPlaceholder": "MM/JJ",
+      "cvv": "CVV",
+      "name": "Numm op Kaart",
+      "namePlaceholder": "Wéi op der Kaart gedréckt"
+    },
+    "netbanking": {
+      "title": "Bezuelen iwwer Netbanking"
+    },
+    "wallet": {
+      "title": "Bezuelen iwwer Portemonnaie"
+    },
+    "payAmount": "Bezuelt ₹{{amount}}",
+    "processing": "Veraarbechtt Är Bezuelung ...",
+    "processingHint": "W.e.g. dréckt net zréck oder erfrëscht dës Säit",
+    "success": "Bezuelen Erfolleg",
+    "error": "Eppes ass falsch gaang fir Är Bezuelung ze bestätegen. Probéiert w.e.g. nach eng Kéier.",
+    "retry": "Nach eng Kéier probéieren"
+  },
+  "notifications": {
+    "loadError": "Konnt Är Notifikatiounen net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Luet Är Notifikatiounen ...",
+    "empty": "Nach keng Notifikatiounen - Dir gesitt hei eppes wann Äre Gemeinschaftsadministrateur Benotzungsschwell oder ongewéinlech Konsum Alarmer aktivéiert huet an eng fir Äert Stot ausgeléist gëtt.",
+    "type": {
+      "thresholdExceeded": "Verbrauchsgrenz iwwerschratt",
+      "statisticalOutlier": "Ongewéinlech Verbrauch entdeckt"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Geléist",
+      "dismissed": "Entlooss"
+    },
+    "billingPeriod": "Rechnungsperiod: {{period}}",
+    "consumption": "Verbrauch: {{value}} kL",
+    "push": {
+      "title": "Push Notifikatiounen",
+      "description": "Gitt op dësem Apparat Notifikatioun wann eng nei Rechnung oder Alarm erakënnt.",
+      "enable": "Aktivéieren",
+      "disable": "Desaktivéieren",
+      "permissionDenied": "Notifikatioun Erlaabnis gouf net accordéiert.",
+      "notConfigured": "Push Notifikatiounen sinn nach net konfiguréiert. Kontaktéiert Ären Admin.",
+      "enableError": "Konnt Push Notifikatiounen net aktivéieren. Probéiert w.e.g. nach eng Kéier.",
+      "disableError": "Konnt Push Notifikatiounen net deaktivéieren. Probéiert w.e.g. nach eng Kéier."
+    }
+  },
+  "recommendations": {
+    "loadError": "Konnt Är Empfehlungen net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Lued Är personaliséiert Tipps ...",
+    "generated": "Generéiert {{date}}",
+    "generatedForPeriod": "Generéiert {{date}} fir Rechnungsperiod {{period}}",
+    "eyebrow": "Personaliséiert fir Iech",
+    "title": "Smart Waasser-spueren Tipps",
+    "empty": "Keng Tipps generéiert nach - dës ginn automatesch erfrëscht all Kéier wann Är Gemeinschaft e Rechnungszyklus fir Äert Stot finaliséiert."
+  },
+  "support": {
+    "title": "Resident Support & Bedenken Desk",
+    "subtitle": "Gitt Waasserleckberichter, Meterkalibratiounsufroen oder Rechnungsufroen direkt un Äre Gemeinschaftsadministrator an / oder System Admin of.",
+    "emptyCreateHint": "Beschreift Äert Thema oder Suerg hei ënnen a wielt wien et soll behandelen."
+  }
+}

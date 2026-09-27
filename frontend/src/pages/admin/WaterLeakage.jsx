@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 import {
   getAlertConfig,
   listAlerts,
@@ -19,11 +21,18 @@ const EMPTY_CONFIG_FORM = {
 }
 
 const TYPE_LABELS = {
-  THRESHOLD_EXCEEDED: 'Threshold Exceeded',
-  STATISTICAL_OUTLIER: 'Statistical Outlier',
+  THRESHOLD_EXCEEDED: 'waterLeakage.type.thresholdExceeded',
+  STATISTICAL_OUTLIER: 'waterLeakage.type.statisticalOutlier',
+}
+
+const STATUS_LABELS = {
+  ACTIVE: 'waterLeakage.status.active',
+  RESOLVED: 'waterLeakage.status.resolved',
+  DISMISSED: 'waterLeakage.status.dismissed',
 }
 
 function WaterLeakage() {
+  const { t } = useTranslation('admin')
   const [configForm, setConfigForm] = useState(EMPTY_CONFIG_FORM)
   const [configLoading, setConfigLoading] = useState(true)
   const [configError, setConfigError] = useState('')
@@ -47,7 +56,7 @@ function WaterLeakage() {
           outlierAlertsEnabled: config.outlierAlertsEnabled,
         }),
       )
-      .catch(() => setConfigError('Could not load alert configuration. Please try again.'))
+      .catch(() => setConfigError(t('waterLeakage.config.loadError')))
       .finally(() => setConfigLoading(false))
   }
 
@@ -56,7 +65,7 @@ function WaterLeakage() {
     setAlertsError('')
     return listAlerts(statusFilter || undefined)
       .then(setAlerts)
-      .catch(() => setAlertsError('Could not load alerts. Please try again.'))
+      .catch(() => setAlertsError(t('waterLeakage.alerts.loadError')))
       .finally(() => {
         if (!silent) setAlertsLoading(false)
       })
@@ -72,7 +81,7 @@ function WaterLeakage() {
           outlierAlertsEnabled: config.outlierAlertsEnabled,
         }),
       )
-      .catch(() => setConfigError('Could not load alert configuration. Please try again.'))
+      .catch(() => setConfigError(i18next.t('waterLeakage.config.loadError', { ns: 'admin' })))
       .finally(() => setConfigLoading(false))
   }, [])
 
@@ -85,7 +94,7 @@ function WaterLeakage() {
         setAlerts(data)
         setAlertsError('')
       })
-      .catch(() => setAlertsError('Could not load alerts. Please try again.'))
+      .catch(() => setAlertsError(i18next.t('waterLeakage.alerts.loadError', { ns: 'admin' })))
       .finally(() => setAlertsLoading(false))
   }, [statusFilter])
 
@@ -106,7 +115,7 @@ function WaterLeakage() {
     setConfigError('')
 
     if (configForm.thresholdAlertsEnabled && !configForm.monthlyThresholdKl) {
-      setConfigError('A monthly threshold (kL) is required when threshold alerts are enabled.')
+      setConfigError(t('waterLeakage.config.thresholdRequired'))
       return
     }
 
@@ -120,7 +129,7 @@ function WaterLeakage() {
       })
       await loadConfig()
     } catch (err) {
-      setConfigError(err.response?.data?.message || 'Could not save this configuration.')
+      setConfigError(err.response?.data?.message || t('waterLeakage.config.saveError'))
     } finally {
       setConfigSaving(false)
     }
@@ -132,7 +141,7 @@ function WaterLeakage() {
       await runAlertDetectionNow()
       await loadAlerts(true)
     } catch {
-      setAlertsError('Could not run leak detection right now. Please try again.')
+      setAlertsError(t('waterLeakage.alerts.runError'))
     } finally {
       setRunning(false)
     }
@@ -143,28 +152,27 @@ function WaterLeakage() {
       await updateAlertStatus(alert.id, status)
       await loadAlerts(true)
     } catch {
-      setAlertsError('Could not update this alert. Please try again.')
+      setAlertsError(t('waterLeakage.alerts.updateError'))
     }
   }
 
   return (
     <>
       <section className="af-leak__config-panel">
-        <h2>Leak Detection Configuration</h2>
+        <h2>{t('waterLeakage.config.title')}</h2>
         <p className="af-leak__config-sub">
-          Set a monthly consumption threshold and/or enable statistical outlier detection (flags a
-          household whose monthly consumption is unusually high compared to its own history).
+          {t('waterLeakage.config.subtitle')}
         </p>
 
         {configLoading ? (
-          <p className="af-leak__empty">Loading configuration…</p>
+          <p className="af-leak__empty">{t('waterLeakage.config.loading')}</p>
         ) : (
           <form onSubmit={handleConfigSubmit}>
             {configError && <div className="af-form__error">{configError}</div>}
 
             <div className="af-form__row">
               <div className="af-form__field">
-                <label htmlFor="monthlyThresholdKl">Monthly threshold (kL)</label>
+                <label htmlFor="monthlyThresholdKl">{t('waterLeakage.config.threshold')}</label>
                 <input
                   id="monthlyThresholdKl"
                   name="monthlyThresholdKl"
@@ -176,7 +184,7 @@ function WaterLeakage() {
                 />
               </div>
               <div className="af-form__field">
-                <label htmlFor="outlierStdDevMultiplier">Outlier sensitivity (σ multiplier)</label>
+                <label htmlFor="outlierStdDevMultiplier">{t('waterLeakage.config.sensitivity')}</label>
                 <input
                   id="outlierStdDevMultiplier"
                   name="outlierStdDevMultiplier"
@@ -197,7 +205,7 @@ function WaterLeakage() {
                   checked={configForm.thresholdAlertsEnabled}
                   onChange={handleConfigChange}
                 />
-                Enable threshold alerts
+                {t('waterLeakage.config.enableThreshold')}
               </label>
               <label className="af-leak__toggle">
                 <input
@@ -206,16 +214,16 @@ function WaterLeakage() {
                   checked={configForm.outlierAlertsEnabled}
                   onChange={handleConfigChange}
                 />
-                Enable statistical outlier alerts
+                {t('waterLeakage.config.enableOutlier')}
               </label>
             </div>
 
             <div className="af-leak__config-actions">
               <button type="submit" className="af-form__submit" disabled={configSaving}>
-                {configSaving ? 'Saving…' : 'Save Configuration'}
+                {configSaving ? t('shared.saving') : t('waterLeakage.config.save')}
               </button>
               <button type="button" className="af-btn af-btn--outline" onClick={handleRunNow} disabled={running}>
-                {running ? 'Running…' : 'Run Detection Now'}
+                {running ? t('waterLeakage.config.running') : t('waterLeakage.config.runNow')}
               </button>
             </div>
           </form>
@@ -224,7 +232,7 @@ function WaterLeakage() {
 
       <section className="af-leak__alerts-panel">
         <div className="af-leak__alerts-heading">
-          <h2>Flagged Households</h2>
+          <h2>{t('waterLeakage.alerts.title')}</h2>
           <select
             value={statusFilter}
             onChange={(event) => {
@@ -232,10 +240,10 @@ function WaterLeakage() {
               setPage(0)
             }}
           >
-            <option value="">All statuses</option>
-            <option value="ACTIVE">Active</option>
-            <option value="RESOLVED">Resolved</option>
-            <option value="DISMISSED">Dismissed</option>
+            <option value="">{t('waterLeakage.alerts.allStatuses')}</option>
+            <option value="ACTIVE">{t(STATUS_LABELS.ACTIVE)}</option>
+            <option value="RESOLVED">{t(STATUS_LABELS.RESOLVED)}</option>
+            <option value="DISMISSED">{t(STATUS_LABELS.DISMISSED)}</option>
           </select>
         </div>
 
@@ -243,24 +251,23 @@ function WaterLeakage() {
 
         <div className="af-leak__table-wrap">
           {alertsLoading ? (
-            <p className="af-leak__empty">Loading alerts…</p>
+            <p className="af-leak__empty">{t('waterLeakage.alerts.loading')}</p>
           ) : alerts.length === 0 ? (
             <p className="af-leak__empty">
-              No alerts to show. Configure a threshold or enable outlier detection above, then click
-              "Run Detection Now" to evaluate your community's current usage.
+              {t('waterLeakage.alerts.empty')}
             </p>
           ) : (
             <table className="af-leak__table">
               <thead>
                 <tr>
-                  <th>Household</th>
-                  <th>Resident</th>
-                  <th>Meter</th>
-                  <th>Type</th>
-                  <th>Period</th>
-                  <th>Consumption</th>
-                  <th>Reference</th>
-                  <th>Status</th>
+                  <th>{t('waterLeakage.table.household')}</th>
+                  <th>{t('waterLeakage.table.resident')}</th>
+                  <th>{t('waterLeakage.table.meter')}</th>
+                  <th>{t('waterLeakage.table.type')}</th>
+                  <th>{t('waterLeakage.table.period')}</th>
+                  <th>{t('waterLeakage.table.consumption')}</th>
+                  <th>{t('waterLeakage.table.reference')}</th>
+                  <th>{t('waterLeakage.table.status')}</th>
                   <th></th>
                 </tr>
               </thead>
@@ -270,13 +277,13 @@ function WaterLeakage() {
                     <td>{alert.houseNumber}</td>
                     <td>{alert.residentName || '—'}</td>
                     <td>{alert.meterNumber || '—'}</td>
-                    <td>{TYPE_LABELS[alert.alertType] || alert.alertType}</td>
+                    <td>{TYPE_LABELS[alert.alertType] ? t(TYPE_LABELS[alert.alertType]) : alert.alertType}</td>
                     <td>{alert.periodMonth}</td>
                     <td>{Number(alert.consumptionValue).toFixed(2)} kL</td>
                     <td>{Number(alert.referenceValue).toFixed(2)} kL</td>
                     <td>
                       <span className={`af-leak__badge af-leak__badge--${alert.status.toLowerCase()}`}>
-                        {alert.status}
+                        {STATUS_LABELS[alert.status] ? t(STATUS_LABELS[alert.status]) : alert.status}
                       </span>
                     </td>
                     <td>
@@ -284,10 +291,10 @@ function WaterLeakage() {
                         {alert.status === 'ACTIVE' && (
                           <>
                             <button type="button" onClick={() => handleStatusChange(alert, 'RESOLVED')}>
-                              Resolve
+                              {t('waterLeakage.alerts.resolve')}
                             </button>
                             <button type="button" className="af-leak__dismiss" onClick={() => handleStatusChange(alert, 'DISMISSED')}>
-                              Dismiss
+                              {t('waterLeakage.alerts.dismiss')}
                             </button>
                           </>
                         )}
@@ -303,18 +310,21 @@ function WaterLeakage() {
         {alerts.length > 0 && (
           <div className="af-leak__pagination">
             <span className="af-leak__pagination-info">
-              Showing {safePage * PAGE_SIZE + 1}–{Math.min(alerts.length, safePage * PAGE_SIZE + PAGE_SIZE)} of{' '}
-              {alerts.length}
+              {t('pagination.showing', {
+                from: safePage * PAGE_SIZE + 1,
+                to: Math.min(alerts.length, safePage * PAGE_SIZE + PAGE_SIZE),
+                total: alerts.length,
+              })}
             </span>
             <div className="af-leak__pagination-controls">
               <button type="button" disabled={safePage === 0} onClick={() => setPage(safePage - 1)}>
-                ← Prev
+                {t('pagination.prev')}
               </button>
               <span>
-                Page {safePage + 1} of {pageCount}
+                {t('pagination.page', { page: safePage + 1, pageCount })}
               </span>
               <button type="button" disabled={safePage >= pageCount - 1} onClick={() => setPage(safePage + 1)}>
-                Next →
+                {t('pagination.next')}
               </button>
             </div>
           </div>

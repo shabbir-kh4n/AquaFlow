@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Cau",
+    "signUpTitle": "Cofrestrwch eich cymuned",
+    "signInTitle": "Croeso yn ôl",
+    "signUpSubtitle": "Creu cyfrif Gweinyddol Cymunedol i ddechrau rheoli preswylwyr a bilio.",
+    "signInSubtitle": "Mewngofnodwch i weld eich defnydd o ddŵr a'ch biliau."
+  },
+  "signIn": {
+    "errorFallback": "Methu mewngofnodi. Ceisiwch eto.",
+    "emailLabel": "Ebost",
+    "passwordLabel": "Cyfrinair",
+    "rememberMe": "Cofiwch fi",
+    "forgotPassword": "Wedi anghofio cyfrinair?",
+    "submitting": "Wrthi'n mewngofnodi…",
+    "submit": "Mewngofnodwch",
+    "noAccount": "Dim cyfrif?",
+    "signUpLink": "Cofrestrwch"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Nid yw cyfrineiriau yn cyfateb.",
+      "communityRequired": "Mae angen enw cymunedol.",
+      "termsRequired": "Cytunwch i'r Telerau Gwasanaeth a'r Polisi Preifatrwydd.",
+      "fallback": "Methu creu cyfrif. Ceisiwch eto."
+    },
+    "hint": "Gweinyddwyr cymunedol yn unig sy'n cofrestru yma. Unwaith y byddwch i mewn, byddwch yn ychwanegu manylion eich preswylwyr eich hun — nid ydynt yn cofrestru ar eu pen eu hunain.",
+    "fullNameLabel": "Enw llawn",
+    "emailLabel": "Ebost",
+    "phoneLabel": "Rhif ffôn",
+    "communityNameLabel": "Enw cymuned",
+    "passwordLabel": "Cyfrinair",
+    "confirmPasswordLabel": "Cadarnhau cyfrinair",
+    "agreeTerms": "Cytunaf i <termsLink>Thelerau Gwasanaeth</termsLink> a <privacyLink>Polisi Preifatrwydd</privacyLink>",
+    "submitting": "Wrthi'n creu cyfrif…",
+    "submit": "Creu Cyfrif Gweinyddol",
+    "haveAccount": "Oes gennych chi gyfrif yn barod?",
+    "signInLink": "Mewngofnodwch"
+  },
+  "installPrompt": {
+    "title": "Gosod HydroLedger",
+    "description": "Ychwanegwch ef i'ch sgrin gartref i gael mynediad cyflym.",
+    "dismiss": "Diystyru",
+    "install": "Gosod"
+  },
+  "setPassword": {
+    "title": "Gosodwch eich cyfrinair",
+    "loading": "Wrthi'n llwytho…",
+    "subtitle": "Helo {{name}}, dewiswch gyfrinair ar gyfer {{email}} i actifadu eich HydroLedger cyfrif.",
+    "errors": {
+      "invalidLink": "Mae'r ddolen hon yn annilys neu wedi dod i ben.",
+      "tooShort": "Rhaid i'r cyfrinair fod o leiaf 8 nod.",
+      "mismatch": "Nid yw cyfrineiriau yn cyfateb.",
+      "fallback": "Methu gosod eich cyfrinair. Ceisiwch eto."
+    },
+    "passwordLabel": "Cyfrinair",
+    "confirmPasswordLabel": "Cadarnhau cyfrinair",
+    "submitting": "Wrthi'n gosod cyfrinair…",
+    "submit": "Gosod cyfrinair a mewngofnodi"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Cynorthwy-ydd",
+      "resident": "Holwch am eich cyfrif",
+      "admin": "Cynorthwy-ydd Cymunedol",
+      "platform": "Cynorthwy-ydd Llwyfan",
+      "default": "Cynorthwy-ydd"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Beth yw HydroLedger?",
+        "tieredBilling": "Sut mae bilio haenog yn gweithio?",
+        "leaks": "Sut mae gollyngiadau yn cael eu canfod?"
+      },
+      "resident": {
+        "billEstimate": "Beth yw amcangyfrif fy mil cyfredol?",
+        "alerts": "A oes gennyf unrhyw rybuddion defnydd?",
+        "readings": "Dangoswch fy narlleniadau mesurydd diweddar"
+      },
+      "admin": {
+        "households": "Faint o gartrefi sydd gennym ni?",
+        "billingCycles": "Rhestrwch ein cylchoedd bilio diweddar",
+        "tariff": "Beth yw ein cynllun tariff presennol?"
+      },
+      "platform": {
+        "communities": "Rhestrwch yr holl gymunedau cofrestredig",
+        "usageReport": "Dangoswch yr adroddiad defnydd platfform",
+        "systemStatus": "Beth yw statws y system?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Rydych chi'n anfon negeseuon yn rhy gyflym - arhoswch am eiliad a rhowch gynnig arall arni.",
+      "unavailable": "Nid yw'r cynorthwyydd ar gael dros dro. Ceisiwch eto yn fuan.",
+      "generic": "Aeth rhywbeth o'i le wrth anfon y neges honno. Ceisiwch eto."
+    },
+    "emptyHint": "Gofynnwch unrhyw beth i mi - dim ond eich data eich hun y gallaf ei weld.",
+    "closeAssistant": "Cynorthwy-ydd agos",
+    "openAssistant": "Cynorthwyydd agored",
+    "inputPlaceholder": "Teipiwch neges…",
+    "inputLabel": "Neges",
+    "send": "Anfon"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tocynnau Cefnogi",
+    "defaultCreateLabel": "Codi Pryder Newydd",
+    "status": {
+      "open": "Agored",
+      "inProgress": "Mewn Cynnydd",
+      "resolved": "Penderfynwyd",
+      "closed": "Ar gau"
+    },
+    "tabs": {
+      "all": "Pob Tocyn"
+    },
+    "recipients": {
+      "admin": "Gweinyddiaeth Gymunedol",
+      "systemAdmin": "Gweinyddwr System",
+      "both": "Gweinyddu Cymunedol + Gweinyddwr System"
+    },
+    "roles": {
+      "resident": "Preswylydd",
+      "admin": "Gweinyddol"
+    },
+    "toRecipients": "I: {{recipients}}",
+    "raisedByResident": "Codwyd gan breswylydd {{name}}",
+    "raisedByAdmin": "Wedi'i godi gan weinyddwr {{name}}",
+    "refresh": "Adnewyddu",
+    "stats": {
+      "openLabel": "Cyflwyniadau Agored",
+      "openHint": "Aros am adolygiad",
+      "inProgressLabel": "Mewn Cynnydd",
+      "inProgressHint": "Bod yn gweithio ar",
+      "resolvedLabel": "Penderfynwyd",
+      "resolvedHint": "Wedi cau yn llwyddiannus"
+    },
+    "searchPlaceholder": "Chwiliwch am docynnau yn ôl pwnc, rhifyn…",
+    "loadingTickets": "Wrthi'n llwytho tocynnau…",
+    "empty": {
+      "title": "Ni Ganfuwyd Tocynnau Cymorth",
+      "body": "Ar hyn o bryd nid oes gennych unrhyw geisiadau cymorth agored neu wedi'u recordio sy'n cyfateb i'r hidlydd hwn.",
+      "cta": "Cyflwyno Pryder"
+    },
+    "errors": {
+      "loadList": "Methu llwytho tocynnau cymorth. Ceisiwch eto.",
+      "loadDetail": "Methu llwytho'r tocyn hwn. Ceisiwch eto.",
+      "required": "Mae angen pwnc a neges.",
+      "recipientRequired": "Dewiswch o leiaf un derbynnydd (Gweinyddwr Cymunedol a/neu Weinyddwr System).",
+      "submitFallback": "Methu cyflwyno'r tocyn hwn. Ceisiwch eto.",
+      "sendReply": "Methu anfon y neges hon. Ceisiwch eto.",
+      "updateStatus": "Methu â diweddaru statws y tocyn hwn. Ceisiwch eto."
+    },
+    "form": {
+      "defaultHint": "Disgrifiwch eich mater neu bryder isod.",
+      "subjectLabel": "Pwnc",
+      "subjectPlaceholder": "Crynodeb byr o'ch mater",
+      "messageLabel": "Neges",
+      "messagePlaceholder": "Disgrifiwch yn fanwl beth sy'n digwydd...",
+      "recipientsLabel": "Anfonwch y pryder hwn i",
+      "cancel": "Canslo",
+      "submitting": "Wrthi'n cyflwyno…",
+      "submit": "Cyflwyno Tocyn"
+    },
+    "detail": {
+      "loading": "Wrthi'n llwytho tocyn…",
+      "replyPlaceholder": "Ysgrifennwch ateb…",
+      "close": "Cau",
+      "sending": "Wrthi'n anfon…",
+      "sendReply": "Anfon Ateb"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Croeso yn ôl, {{name}}",
+    "openMenu": "Dewislen agored",
+    "closeMenu": "Cau'r ddewislen",
+    "logout": "Allgofnodi",
+    "search": "Chwiliwch",
+    "notifications": "Hysbysiadau"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dangosfwrdd",
+      "households": "Cyfeiriadur Aelwydydd",
+      "meterReadings": "Darlleniadau Mesurydd",
+      "billing": "Rheoli Bilio",
+      "bulkPurchases": "Pryniannau Swmp",
+      "reports": "Adroddiadau",
+      "waterLeakage": "Gollyngiad Dwr",
+      "support": "Cefnogaeth / Pryderon",
+      "tariffPlans": "Cynlluniau Tariff",
+      "announcements": "Cyhoeddiadau",
+      "profile": "Proffil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Dyma gipolwg ar eich cymuned."
+      },
+      "households": {
+        "title": "Cyfeiriadur Aelwydydd",
+        "subtitle": "Ychwanegu, diweddaru a rheoli'r preswylwyr sy'n byw yn eich cymuned."
+      },
+      "meterReadings": {
+        "title": "Hyb Darllen Mesuryddion Dŵr",
+        "subtitle": "Chwiliwch am breswylydd a chofnodwch eu darlleniad mesurydd dŵr."
+      },
+      "tariffPlans": {
+        "title": "Ffurfweddiad Tariff",
+        "subtitle": "Ffurfweddu terfynau cyfradd haenog, costau ardal gyffredin a rennir, a dulliau dosbarthu ar gyfer eich cymuned fflatiau."
+      },
+      "billing": {
+        "title": "Rheoli Bilio",
+        "subtitle": "Agor, cwblhau, ac archifo cylchoedd bilio, ac adolygu anfonebau fesul eitem fesul cartref."
+      },
+      "bulkPurchases": {
+        "title": "Pryniannau Swmp",
+        "subtitle": "Cofnodi danfoniadau tancer a phryniannau cyflenwad dinesig ar gyfer eich cymuned."
+      },
+      "waterLeakage": {
+        "title": "Gollyngiad Dwr",
+        "subtitle": "Ffurfweddu rhybuddion gollwng sy'n seiliedig ar drothwy ac allgleifion, ac adolygu cartrefi a fflagiwyd."
+      },
+      "support": {
+        "title": "Cefnogaeth / Pryderon",
+        "subtitle": "Codwch eich tocynnau eich hun i Weinyddwr y System, neu ymdrin â phryderon y mae eich preswylwyr wedi'u cyfeirio atoch."
+      },
+      "profile": {
+        "title": "Gosodiadau a Phroffil",
+        "subtitle": "Rheoli manylion eich cyfrif a gwybodaeth am fflat."
+      }
+    },
+    "fallbackName": "Gweinyddol",
+    "fallbackCommunity": "Gweinyddiaeth Gymunedol",
+    "notBuilt": "{{label}} heb ei adeiladu eto",
+    "searchPlaceholder": "Chwiliwch unrhyw beth…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Adroddiadau",
+      "description": "Adroddiadau defnydd, bilio a chadwraeth ar gyfer eich cymuned."
+    },
+    "announcements": {
+      "title": "Cyhoeddiadau",
+      "description": "Anfonwch gyhoeddiadau cymunedol i'ch preswylwyr."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} yn dod yn fuan"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dangosfwrdd",
+      "usageHistory": "Hanes Defnydd",
+      "bills": "Fy Miliau",
+      "recommendations": "Argymhellion",
+      "reports": "Adroddiadau",
+      "support": "Cefnogaeth / Pryderon",
+      "notifications": "Hysbysiadau",
+      "profile": "Proffil"
+    },
+    "pages": {
+      "usageHistory": "Eich hanes defnydd",
+      "billing": "Bilio ac Anfonebau",
+      "notifications": "Hysbysiadau",
+      "recommendations": "Argymhellion",
+      "support": "Cefnogaeth / Pryderon"
+    },
+    "defaultTitle": "Dangosfwrdd Preswylwyr",
+    "navLabel": "Mordwyo preswylwyr",
+    "fallbackName": "Preswylydd",
+    "unit": "Uned {{number}}",
+    "comingSoon": "{{label}} yn dod yn fuan",
+    "profile": "Proffil",
+    "searchPlaceholder": "Dadansoddeg chwilio, biliau…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dangosfwrdd",
+      "communities": "Cymunedau",
+      "reports": "Adroddiadau",
+      "supportTickets": "Tocynnau Cefnogi",
+      "systemStatus": "Statws System"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ciplun llwyfan-gyfan ar draws pob cymuned gofrestredig."
+      },
+      "communities": {
+        "title": "Cymunedau",
+        "subtitle": "Pob gweinyddwr cymunedol cofrestredig a'u cymuned, mewn un lle."
+      },
+      "reports": {
+        "title": "Adroddiadau",
+        "subtitle": "Ffigurau defnydd dŵr a bilio ar draws y platfform, fesul cymuned a thros amser."
+      },
+      "supportTickets": {
+        "title": "Tocynnau Cefnogi",
+        "subtitle": "Tocynnau cymorth a phryderon a godwyd gan drigolion a gweinyddwyr cymunedol, ar draws y platfform."
+      },
+      "systemStatus": {
+        "title": "Statws System",
+        "subtitle": "Cysylltedd ôl-gefn ac iechyd amser rhedeg sylfaenol."
+      }
+    },
+    "fallbackName": "Gweinyddwr System",
+    "platformOwner": "Perchennog Llwyfan",
+    "searchPlaceholder": "Chwilio cymunedau…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Iaith: {{language}}",
+    "searchPlaceholder": "Chwilio iaith…",
+    "noMatches": "Dim gemau"
+  }
+}

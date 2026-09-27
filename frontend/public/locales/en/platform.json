@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Active",
+    "blocked": "Blocked",
+    "terminated": "Terminated"
+  },
+  "sort": {
+    "sortBy": "Sort by",
+    "toggleDirection": "Toggle sort direction",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Prev",
+    "next": "Next →",
+    "page": "Page {{page}} of {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Overview",
+    "subtitle": "Every registered community admin, across the whole HydroLedger platform.",
+    "viewAll": "View All Communities",
+    "loadError": "Could not load platform data right now.",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "registeredAdmins": "Registered admins",
+      "totalResidents": "Total Residents",
+      "acrossAllCommunities": "Across all communities",
+      "active": "Active",
+      "inGoodStanding": "In good standing",
+      "blockedTerminated": "Blocked / Terminated",
+      "blockedTerminatedBreakdown": "{{blocked}} blocked, {{terminated}} terminated"
+    },
+    "recent": {
+      "title": "Recently Registered Communities",
+      "loading": "Loading…",
+      "empty": "No communities registered yet.",
+      "table": {
+        "community": "Community",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Residents"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "Could not load communities. Please try again.",
+    "searchPlaceholder": "Filter by community, admin name, or email",
+    "statusFilter": {
+      "label": "Status",
+      "all": "All"
+    },
+    "sortOptions": {
+      "community": "Community",
+      "admin": "Admin",
+      "residents": "Residents"
+    },
+    "loading": "Loading communities…",
+    "empty": "No communities registered yet.",
+    "noMatch": "No communities match your filters.",
+    "table": {
+      "community": "Community",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Status",
+      "residents": "Residents",
+      "view": "View"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Could not load this community. It may have been removed.",
+    "statusUpdateError": "Could not update this community's status.",
+    "deleteError": "Could not delete this community.",
+    "loading": "Loading community…",
+    "notFound": "Community not found.",
+    "backLink": "← Back to Communities",
+    "backLinkShort": "Back to Communities",
+    "eyebrow": "Community Profile",
+    "unnamed": "Unnamed community",
+    "noAddress": "No address on file",
+    "stats": {
+      "residents": "Residents",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Reactivate",
+      "block": "Block",
+      "terminate": "Terminate",
+      "delete": "Delete Community"
+    },
+    "blockDialog": {
+      "title": "Block this community admin?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "Block"
+    },
+    "terminateDialog": {
+      "title": "Terminate this community admin?",
+      "message": "Permanently terminate {{name}}'s access? This cannot be undone, though their community's data will be kept for records.",
+      "confirm": "Terminate"
+    },
+    "deleteDialog": {
+      "title": "Delete this community?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Confirm"
+    },
+    "residents": {
+      "title": "Residents",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "No residents registered in this community yet.",
+      "table": {
+        "flatUnit": "Flat Unit",
+        "meter": "Meter",
+        "resident": "Resident",
+        "email": "Email",
+        "passwordSet": "Password Set"
+      },
+      "yes": "Yes",
+      "no": "No"
+    },
+    "cancel": "Cancel",
+    "working": "Working…",
+    "deleting": "Deleting…"
+  },
+  "systemStatus": {
+    "statusError": "Could not reach the backend to check system status.",
+    "metricsError": "Could not load metrics history.",
+    "ranges": {
+      "fiveMinutes": "5 Minutes",
+      "fifteenMinutes": "15 Minutes",
+      "hour": "Hour",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "threeMonths": "3 Months"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Requests/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} last",
+      "loading": "Loading…",
+      "empty": "No metrics recorded for this range yet."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Checking…",
+      "reachable": "Reachable",
+      "unreachable": "Unreachable",
+      "connected": "Connected",
+      "backendApiHint": "This page loaded from the backend, so it responded.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL connectivity, checked live.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Since the last application restart.",
+      "appVersion": "App Version",
+      "appVersionHint": "Backend build version."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Reads Latency",
+      "writesLatency": "Writes Latency",
+      "otherLatency": "Other Latency",
+      "connections": "Connections",
+      "totalKeys": "Total Keys"
+    },
+    "note": "Requests/sec and latency are sampled from live backend traffic every 15 seconds and kept for up to 100 days. This is a basic connectivity + traffic check — it does not replace full application performance monitoring, log aggregation, or alerting."
+  },
+  "reports": {
+    "loadError": "Could not load the platform report.",
+    "ranges": {
+      "threeMonths": "3 Months",
+      "sixMonths": "6 Months",
+      "twelveMonths": "12 Months",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Community",
+      "usage": "Usage",
+      "billed": "Billed",
+      "residents": "Residents"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "To",
+      "hint": "Pick both a \"from\" and \"to\" month to load a custom report."
+    },
+    "loading": "Loading report…",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "inThisRange": "In this range",
+      "totalResidents": "Total Residents",
+      "acrossAllCommunities": "Across all communities",
+      "overallUsage": "Overall Usage",
+      "meteredConsumption": "Metered consumption",
+      "overallBilled": "Overall Billed",
+      "finalizedInvoicesOnly": "Finalized invoices only",
+      "avgUsagePerResident": "Avg Usage / Resident",
+      "avgBillPerResident": "Avg Bill / Resident"
+    },
+    "charts": {
+      "usageTitle": "Platform-wide Usage (kL / month)",
+      "usageEmpty": "No usage recorded for this range.",
+      "usageSeries": "Usage",
+      "billedTitle": "Platform-wide Billed Amount (₹ / month)",
+      "billedEmpty": "No invoices finalized for this range.",
+      "billedSeries": "Billed"
+    },
+    "searchPlaceholder": "Filter by community or admin name",
+    "empty": "No communities have usage or billing data for this range yet.",
+    "noMatch": "No communities match your filter.",
+    "table": {
+      "community": "Community",
+      "admin": "Admin",
+      "residents": "Residents",
+      "usage": "Usage (kL)",
+      "billed": "Billed (₹)",
+      "avgUsagePerResident": "Avg Usage / Resident",
+      "avgBillPerResident": "Avg Bill / Resident"
+    }
+  },
+  "supportTickets": {
+    "title": "Support Tickets",
+    "subtitle": "Support tickets and concerns raised by residents and community admins, platform-wide."
+  }
+}

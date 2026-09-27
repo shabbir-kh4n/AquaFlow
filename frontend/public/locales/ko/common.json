@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "닫다",
+    "signUpTitle": "커뮤니티 등록",
+    "signInTitle": "돌아온 것을 환영합니다",
+    "signUpSubtitle": "주민 관리 및 청구 관리를 시작하려면 커뮤니티 관리자 계정을 만드세요.",
+    "signInSubtitle": "물 사용량과 청구서를 보려면 로그인하세요."
+  },
+  "signIn": {
+    "errorFallback": "로그인할 수 없습니다. 다시 시도해 주세요.",
+    "emailLabel": "이메일",
+    "passwordLabel": "비밀번호",
+    "rememberMe": "나를 기억해",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "submitting": "로그인 중…",
+    "submit": "로그인",
+    "noAccount": "계정이 없나요?",
+    "signUpLink": "가입"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "비밀번호가 일치하지 않습니다.",
+      "communityRequired": "커뮤니티 이름이 필요합니다.",
+      "termsRequired": "서비스 약관 및 개인정보 보호정책에 동의해주세요.",
+      "fallback": "계정을 생성할 수 없습니다. 다시 시도해 주세요."
+    },
+    "hint": "커뮤니티 관리자만 여기에 등록합니다. 일단 들어가면 주민의 세부 정보를 직접 추가하게 됩니다. 주민이 스스로 등록하는 것은 아닙니다.",
+    "fullNameLabel": "성명",
+    "emailLabel": "이메일",
+    "phoneLabel": "전화 번호",
+    "communityNameLabel": "커뮤니티 이름",
+    "passwordLabel": "비밀번호",
+    "confirmPasswordLabel": "비밀번호 확인",
+    "agreeTerms": "<termsLink>서비스 약관</termsLink> 및 <privacyLink>개인정보 보호정책</privacyLink>에 동의합니다.",
+    "submitting": "계정을 만드는 중…",
+    "submit": "관리자 계정 만들기",
+    "haveAccount": "이미 계정이 있나요?",
+    "signInLink": "로그인"
+  },
+  "installPrompt": {
+    "title": "HydroLedger 설치",
+    "description": "빠른 액세스를 위해 홈 화면에 추가하세요.",
+    "dismiss": "해고하다",
+    "install": "설치하다"
+  },
+  "setPassword": {
+    "title": "비밀번호를 설정하세요",
+    "loading": "로드 중…",
+    "subtitle": "{{name}}님, 안녕하세요. {{email}}의 비밀번호를 선택하여 HydroLedger 계정을 활성화하세요.",
+    "errors": {
+      "invalidLink": "이 링크는 유효하지 않거나 만료되었습니다.",
+      "tooShort": "비밀번호는 8자 이상이어야 합니다.",
+      "mismatch": "비밀번호가 일치하지 않습니다.",
+      "fallback": "비밀번호를 설정할 수 없습니다. 다시 시도해 주세요."
+    },
+    "passwordLabel": "비밀번호",
+    "confirmPasswordLabel": "비밀번호 확인",
+    "submitting": "비밀번호 설정 중…",
+    "submit": "비밀번호 설정 및 로그인"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger 어시스턴트",
+      "resident": "귀하의 계정에 대해 물어보십시오",
+      "admin": "커뮤니티 어시스턴트",
+      "platform": "플랫폼 어시스턴트",
+      "default": "어시스턴트"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger이란 무엇입니까?",
+        "tieredBilling": "계층별 청구는 어떻게 작동하나요?",
+        "leaks": "누출은 어떻게 감지됩니까?"
+      },
+      "resident": {
+        "billEstimate": "현재 예상 청구액은 얼마입니까?",
+        "alerts": "사용 알림이 있나요?",
+        "readings": "최근 미터 수치 표시"
+      },
+      "admin": {
+        "households": "우리 집은 몇 가구인가요?",
+        "billingCycles": "최근 청구 주기 나열",
+        "tariff": "현재 요금제는 어떻게 되나요?"
+      },
+      "platform": {
+        "communities": "등록된 커뮤니티 모두 나열",
+        "usageReport": "플랫폼 사용 보고서 표시",
+        "systemStatus": "시스템 상태는 어떤가요?"
+      }
+    },
+    "errors": {
+      "rateLimited": "메시지를 너무 빨리 보내고 있습니다. 잠시 후에 다시 시도해 주세요.",
+      "unavailable": "어시스턴트를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+      "generic": "메시지를 보내는 데 문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "emptyHint": "무엇이든 물어보세요. 저는 귀하의 데이터만 볼 수 있습니다.",
+    "closeAssistant": "가까운 조수",
+    "openAssistant": "어시스턴트 열기",
+    "inputPlaceholder": "메시지를 입력하세요…",
+    "inputLabel": "메시지",
+    "send": "보내다"
+  },
+  "supportBoard": {
+    "defaultTitle": "지원 티켓",
+    "defaultCreateLabel": "새로운 우려사항 제기",
+    "status": {
+      "open": "열려 있는",
+      "inProgress": "진행 중",
+      "resolved": "해결됨",
+      "closed": "닫은"
+    },
+    "tabs": {
+      "all": "모든 티켓"
+    },
+    "recipients": {
+      "admin": "커뮤니티 관리자",
+      "systemAdmin": "시스템 관리자",
+      "both": "커뮤니티 관리자 + 시스템 관리자"
+    },
+    "roles": {
+      "resident": "거주자",
+      "admin": "관리자"
+    },
+    "toRecipients": "받는 사람: {{recipients}}",
+    "raisedByResident": "거주자 {{name}}에 의해 모금됨",
+    "raisedByAdmin": "관리자 {{name}}에 의해 제기됨",
+    "refresh": "새로 고치다",
+    "stats": {
+      "openLabel": "공개 제출",
+      "openHint": "검토 대기 중",
+      "inProgressLabel": "진행 중",
+      "inProgressHint": "작업 중",
+      "resolvedLabel": "해결됨",
+      "resolvedHint": "성공적으로 종료되었습니다"
+    },
+    "searchPlaceholder": "주제, 이슈별로 티켓을 검색하세요…",
+    "loadingTickets": "티켓 로드 중…",
+    "empty": {
+      "title": "지원 티켓을 찾을 수 없습니다.",
+      "body": "현재 이 필터와 일치하는 진행 중이거나 기록된 지원 요청이 없습니다.",
+      "cta": "우려사항 제출"
+    },
+    "errors": {
+      "loadList": "지원 티켓을 로드할 수 없습니다. 다시 시도해 주세요.",
+      "loadDetail": "이 티켓을 로드할 수 없습니다. 다시 시도해 주세요.",
+      "required": "제목과 메시지가 모두 필수입니다.",
+      "recipientRequired": "수신자를 한 명 이상 선택하십시오(커뮤니티 관리자 및/또는 시스템 관리자).",
+      "submitFallback": "이 티켓을 제출할 수 없습니다. 다시 시도해 주세요.",
+      "sendReply": "이 메시지를 보낼 수 없습니다. 다시 시도해 주세요.",
+      "updateStatus": "이 티켓 상태를 업데이트할 수 없습니다. 다시 시도해 주세요."
+    },
+    "form": {
+      "defaultHint": "아래에 문제나 우려 사항을 설명해 주세요.",
+      "subjectLabel": "주제",
+      "subjectPlaceholder": "문제에 대한 간략한 요약",
+      "messageLabel": "메시지",
+      "messagePlaceholder": "무슨 일인지 자세히 설명해주세요...",
+      "recipientsLabel": "이 우려 사항을 다음으로 보내십시오.",
+      "cancel": "취소",
+      "submitting": "제출 중…",
+      "submit": "티켓 제출"
+    },
+    "detail": {
+      "loading": "티켓 로드 중…",
+      "replyPlaceholder": "답장을 쓰세요…",
+      "close": "닫다",
+      "sending": "배상…",
+      "sendReply": "답장 보내기"
+    }
+  },
+  "shell": {
+    "welcomeBack": "다시 오신 것을 환영합니다. {{name}}",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "logout": "로그아웃",
+    "search": "찾다",
+    "notifications": "알림"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "계기반",
+      "households": "가구 목록",
+      "meterReadings": "미터 판독값",
+      "billing": "청구 관리",
+      "bulkPurchases": "대량 구매",
+      "reports": "보고서",
+      "waterLeakage": "누수",
+      "support": "지원/우려사항",
+      "tariffPlans": "관세 계획",
+      "announcements": "공지사항",
+      "profile": "윤곽"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "다음은 커뮤니티의 스냅샷입니다."
+      },
+      "households": {
+        "title": "가구 목록",
+        "subtitle": "커뮤니티에 거주하는 주민을 추가, 업데이트 및 관리하세요."
+      },
+      "meterReadings": {
+        "title": "수량계 판독 허브",
+        "subtitle": "주민을 검색하고 수도 미터 수치를 기록합니다."
+      },
+      "tariffPlans": {
+        "title": "관세 구성",
+        "subtitle": "아파트 커뮤니티에 대한 계층별 요금 제한, 공유 공용 공간 비용 및 배포 방법을 구성합니다."
+      },
+      "billing": {
+        "title": "청구 관리",
+        "subtitle": "청구 주기를 열고 확정하고 보관하고 가구당 항목별 송장을 검토하세요."
+      },
+      "bulkPurchases": {
+        "title": "대량 구매",
+        "subtitle": "지역사회를 위한 유조선 배송 및 지방자치단체 물품 구매를 기록하세요."
+      },
+      "waterLeakage": {
+        "title": "누수",
+        "subtitle": "임계값 및 이상값 기반 누출 경고를 구성하고 플래그가 지정된 가구를 검토합니다."
+      },
+      "support": {
+        "title": "지원/우려사항",
+        "subtitle": "시스템 관리자에게 자신의 티켓을 제출하거나 주민들이 귀하에게 제기한 문제를 처리하십시오."
+      },
+      "profile": {
+        "title": "설정 및 프로필",
+        "subtitle": "계정 세부정보 및 아파트 정보를 관리하세요."
+      }
+    },
+    "fallbackName": "관리자",
+    "fallbackCommunity": "커뮤니티 관리자",
+    "notBuilt": "{{label}}은(는) 아직 빌드되지 않았습니다.",
+    "searchPlaceholder": "무엇이든 검색하세요…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "보고서",
+      "description": "지역사회의 소비, 청구 및 보존 보고서입니다."
+    },
+    "announcements": {
+      "title": "공지사항",
+      "description": "지역사회 전체의 공지사항을 주민들에게 보냅니다."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}}이(가) 곧 출시됩니다"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "계기반",
+      "usageHistory": "이용내역",
+      "bills": "내 청구서",
+      "recommendations": "권장사항",
+      "reports": "보고서",
+      "support": "지원/우려사항",
+      "notifications": "알림",
+      "profile": "윤곽"
+    },
+    "pages": {
+      "usageHistory": "귀하의 사용 내역",
+      "billing": "청구 및 송장",
+      "notifications": "알림",
+      "recommendations": "권장사항",
+      "support": "지원/우려사항"
+    },
+    "defaultTitle": "주민 대시보드",
+    "navLabel": "주민 내비게이션",
+    "fallbackName": "거주자",
+    "unit": "단위 {{number}}",
+    "comingSoon": "{{label}}이(가) 곧 출시됩니다",
+    "profile": "윤곽",
+    "searchPlaceholder": "분석, 청구서 검색…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "계기반",
+      "communities": "커뮤니티",
+      "reports": "보고서",
+      "supportTickets": "지원 티켓",
+      "systemStatus": "시스템 상태"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "등록된 모든 커뮤니티에 대한 플랫폼 전체 스냅샷입니다."
+      },
+      "communities": {
+        "title": "커뮤니티",
+        "subtitle": "등록된 모든 커뮤니티 관리자와 해당 커뮤니티가 한곳에 있습니다."
+      },
+      "reports": {
+        "title": "보고서",
+        "subtitle": "커뮤니티별 및 시간 경과에 따른 플랫폼 전반의 물 사용량 및 청구 수치입니다."
+      },
+      "supportTickets": {
+        "title": "지원 티켓",
+        "subtitle": "플랫폼 전반에 걸쳐 주민과 커뮤니티 관리자가 제기한 티켓과 우려 사항을 지원합니다."
+      },
+      "systemStatus": {
+        "title": "시스템 상태",
+        "subtitle": "백엔드 연결 및 기본 런타임 상태."
+      }
+    },
+    "fallbackName": "시스템 관리자",
+    "platformOwner": "플랫폼 소유자",
+    "searchPlaceholder": "커뮤니티 검색…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "언어: {{language}}",
+    "searchPlaceholder": "검색 언어…",
+    "noMatches": "일치하는 항목 없음"
+  }
+}

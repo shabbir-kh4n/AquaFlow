@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "ਸਰਗਰਮ",
+    "blocked": "ਬਲੌਕ ਕੀਤਾ",
+    "terminated": "ਖਤਮ ਕੀਤਾ"
+  },
+  "sort": {
+    "sortBy": "ਕ੍ਰਮਬੱਧ ਕਰੋ",
+    "toggleDirection": "ਕ੍ਰਮ ਦੀ ਦਿਸ਼ਾ ਬਦਲੋ",
+    "asc": "↑ ਚੜ੍ਹਦਾ ਕ੍ਰਮ",
+    "desc": "↓ ਉਤਰਦਾ ਕ੍ਰਮ"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} ਕੁੱਲ {{total}} ਵਿੱਚੋਂ",
+    "prev": "← ਪਿਛਲਾ",
+    "next": "ਅਗਲਾ →",
+    "page": "ਪੰਨਾ {{page}} (ਕੁੱਲ {{pageCount}})"
+  },
+  "dashboard": {
+    "title": "ਪਲੇਟਫਾਰਮ ਸੰਖੇਪ",
+    "subtitle": "ਸਾਰੇ HydroLedger ਪਲੇਟਫਾਰਮ 'ਤੇ ਰਜਿਸਟਰਡ ਕਮਿਊਨਿਟੀ ਐਡਮਿਨ।",
+    "viewAll": "ਸਾਰੀਆਂ ਕਮਿਊਨਿਟੀਆਂ ਦੇਖੋ",
+    "loadError": "ਇਸ ਸਮੇਂ ਪਲੇਟਫਾਰਮ ਡੇਟਾ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+    "cards": {
+      "totalCommunities": "ਕੁੱਲ ਕਮਿਊਨਿਟੀਆਂ",
+      "registeredAdmins": "ਰਜਿਸਟਰਡ ਐਡਮਿਨ",
+      "totalResidents": "ਕੁੱਲ ਨਿਵਾਸੀ",
+      "acrossAllCommunities": "ਸਾਰੀਆਂ ਕਮਿਊਨਿਟੀਆਂ ਵਿੱਚ",
+      "active": "ਸਰਗਰਮ",
+      "inGoodStanding": "ਚੰਗੀ ਸਥਿਤੀ ਵਿੱਚ",
+      "blockedTerminated": "ਬਲੌਕ / ਖਤਮ ਕੀਤੇ",
+      "blockedTerminatedBreakdown": "{{blocked}} ਬਲੌਕ, {{terminated}} ਖਤਮ"
+    },
+    "recent": {
+      "title": "ਹਾਲ ਹੀ ਵਿੱਚ ਰਜਿਸਟਰਡ ਕਮਿਊਨਿਟੀਆਂ",
+      "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…",
+      "empty": "ਅਜੇ ਕੋਈ ਕਮਿਊਨਿਟੀ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੈ।",
+      "table": {
+        "community": "ਕਮਿਊਨਿਟੀ",
+        "admin": "ਐਡਮਿਨ",
+        "status": "ਸਥਿਤੀ",
+        "residents": "ਨਿਵਾਸੀ"
+      }
+    }
+  },
+  "communities": {
+    "count": "ਕਮਿਊਨਿਟੀਆਂ: {{count}}",
+    "loadError": "ਕਮਿਊਨਿਟੀਆਂ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀਆਂ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "searchPlaceholder": "ਕਮਿਊਨਿਟੀ, ਐਡਮਿਨ ਨਾਮ, ਜਾਂ ਈਮੇਲ ਦੁਆਰਾ ਖੋਜੋ",
+    "statusFilter": {
+      "label": "ਸਥਿਤੀ",
+      "all": "ਸਭ"
+    },
+    "sortOptions": {
+      "community": "ਕਮਿਊਨਿਟੀ",
+      "admin": "ਐਡਮਿਨ",
+      "residents": "ਨਿਵਾਸੀ"
+    },
+    "loading": "ਕਮਿਊਨਿਟੀਆਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ…",
+    "empty": "ਅਜੇ ਕੋਈ ਕਮਿਊਨਿਟੀ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੈ।",
+    "noMatch": "ਤੁਹਾਡੇ ਫਿਲਟਰ ਨਾਲ ਕੋਈ ਕਮਿਊਨਿਟੀ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।",
+    "table": {
+      "community": "ਕਮਿਊਨਿਟੀ",
+      "admin": "ਐਡਮਿਨ",
+      "email": "ਈਮੇਲ",
+      "status": "ਸਥਿਤੀ",
+      "residents": "ਨਿਵਾਸੀ",
+      "view": "ਦੇਖੋ"
+    }
+  },
+  "communityDetail": {
+    "loadError": "ਇਹ ਕਮਿਊਨਿਟੀ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ। ਸ਼ਾਇਦ ਇਸਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।",
+    "statusUpdateError": "ਇਸ ਕਮਿਊਨਿਟੀ ਦੀ ਸਥਿਤੀ ਅਪਡੇਟ ਨਹੀਂ ਹੋ ਸਕੀ।",
+    "deleteError": "ਇਹ ਕਮਿਊਨਿਟੀ ਡਿਲੀਟ ਨਹੀਂ ਹੋ ਸਕੀ।",
+    "loading": "ਕਮਿਊਨਿਟੀ ਲੋਡ ਹੋ ਰਹੀ ਹੈ…",
+    "notFound": "ਕਮਿਊਨਿਟੀ ਨਹੀਂ ਮਿਲੀ।",
+    "backLink": "← ਕਮਿਊਨਿਟੀਆਂ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "backLinkShort": "ਕਮਿਊਨਿਟੀਆਂ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "eyebrow": "ਕਮਿਊਨਿਟੀ ਪ੍ਰੋਫਾਈਲ",
+    "unnamed": "ਬਿਨਾਂ ਨਾਮ ਦੀ ਕਮਿਊਨਿਟੀ",
+    "noAddress": "ਕੋਈ ਪਤਾ ਉਪਲਬਧ ਨਹੀਂ",
+    "stats": {
+      "residents": "ਨਿਵਾਸੀ",
+      "status": "ਸਥਿਤੀ"
+    },
+    "actions": {
+      "reactivate": "ਦੁਬਾਰਾ ਸਰਗਰਮ ਕਰੋ",
+      "block": "ਬਲੌਕ ਕਰੋ",
+      "terminate": "ਖਤਮ ਕਰੋ",
+      "delete": "ਕਮਿਊਨਿਟੀ ਡਿਲੀਟ ਕਰੋ"
+    },
+    "blockDialog": {
+      "title": "ਕੀ ਇਸ ਕਮਿਊਨਿਟੀ ਐਡਮਿਨ ਨੂੰ ਬਲੌਕ ਕਰਨਾ ਹੈ?",
+      "message": "{{name}} ਨੂੰ ਬਲੌਕ ਕਰਨਾ ਹੈ? ਉਹ ਅਨਬਲੌਕ ਹੋਣ ਤੱਕ ਲੌਗ ਇਨ ਨਹੀਂ ਕਰ ਸਕਣਗੇ। ਕੋਈ ਡੇਟਾ ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਵੇਗਾ।",
+      "confirm": "ਬਲੌਕ ਕਰੋ"
+    },
+    "terminateDialog": {
+      "title": "ਕੀ ਇਸ ਕਮਿਊਨਿਟੀ ਐਡਮਿਨ ਨੂੰ ਖਤਮ ਕਰਨਾ ਹੈ?",
+      "message": "{{name}} ਦੀ ਪਹੁੰਚ ਨੂੰ ਸਥਾਈ ਤੌਰ 'ਤੇ ਖਤਮ ਕਰਨਾ ਹੈ? ਇਸਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ, ਹਾਲਾਂਕਿ ਕਮਿਊਨਿਟੀ ਦਾ ਡੇਟਾ ਰਿਕਾਰਡ ਲਈ ਰੱਖਿਆ ਜਾਵੇਗਾ।",
+      "confirm": "ਖਤਮ ਕਰੋ"
+    },
+    "deleteDialog": {
+      "title": "ਕੀ ਇਹ ਕਮਿਊਨਿਟੀ ਡਿਲੀਟ ਕਰਨੀ ਹੈ?",
+      "message": "ਇਹ <strong>{{name}}</strong> ਅਤੇ ਇਸਦੇ ਸਾਰੇ ਪਰਿਵਾਰਾਂ, ਨਿਵਾਸੀਆਂ, ਮੀਟਰਾਂ, ਟੈਰਿਫ/ਬਿਲਿੰਗ ਸੰਰਚਨਾ, ਅਤੇ ਇਨਵੌਇਸ ਇਤਿਹਾਸ ਨੂੰ ਸਥਾਈ ਤੌਰ 'ਤੇ ਡਿਲੀਟ ਕਰ ਦੇਵੇਗਾ। ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।",
+      "typeToConfirm": "ਜਾਰੀ ਰੱਖਣ ਲਈ <strong>{{word}}</strong> ਟਾਈਪ ਕਰੋ",
+      "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ"
+    },
+    "residents": {
+      "title": "ਨਿਵਾਸੀ",
+      "registeredCount": "ਰਜਿਸਟਰਡ: {{count}}",
+      "empty": "ਇਸ ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਅਜੇ ਕੋਈ ਨਿਵਾਸੀ ਰਜਿਸਟਰਡ ਨਹੀਂ ਹੈ।",
+      "table": {
+        "flatUnit": "ਫਲੈਟ ਯੂਨਿਟ",
+        "meter": "ਮੀਟਰ",
+        "resident": "ਨਿਵਾਸੀ",
+        "email": "ਈਮੇਲ",
+        "passwordSet": "ਪਾਸਵਰਡ ਸੈੱਟ ਹੈ"
+      },
+      "yes": "ਹਾਂ",
+      "no": "ਨਹੀਂ"
+    },
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "working": "ਕੰਮ ਚੱਲ ਰਿਹਾ ਹੈ…",
+    "deleting": "ਡਿਲੀਟ ਹੋ ਰਿਹਾ ਹੈ…"
+  },
+  "systemStatus": {
+    "statusError": "ਸਿਸਟਮ ਸਥਿਤੀ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਬੈਕਐਂਡ ਤੱਕ ਨਹੀਂ ਪਹੁੰਚਿਆ ਜਾ ਸਕਿਆ।",
+    "metricsError": "ਮੀਟ੍ਰਿਕਸ ਇਤਿਹਾਸ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ।",
+    "ranges": {
+      "fiveMinutes": "5 ਮਿੰਟ",
+      "fifteenMinutes": "15 ਮਿੰਟ",
+      "hour": "ਘੰਟਾ",
+      "day": "ਦਿਨ",
+      "week": "ਹਫ਼ਤਾ",
+      "month": "ਮਹੀਨਾ",
+      "threeMonths": "3 ਮਹੀਨੇ"
+    },
+    "uptime": {
+      "days": "{{value}} ਦਿਨ",
+      "hours": "{{value}} ਘੰਟੇ",
+      "minutes": "{{value}} ਮਿੰਟ"
+    },
+    "charts": {
+      "requestsPerSec": "ਬੇਨਤੀਆਂ/ਸਕਿੰਟ",
+      "opsPerSec": "ਓਪਸ/ਸਕਿੰਟ",
+      "latency": "ਲੇਟੈਂਸੀ",
+      "lastValue": "{{value}} ਆਖਰੀ",
+      "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…",
+      "empty": "ਇਸ ਸੀਮਾ ਲਈ ਅਜੇ ਕੋਈ ਮੀਟ੍ਰਿਕ ਦਰਜ ਨਹੀਂ ਹੋਇਆ।"
+    },
+    "stats": {
+      "min": "ਘੱਟੋ-ਘੱਟ: <b>{{value}}</b>",
+      "avg": "ਔਸਤ: <b>{{value}}</b>",
+      "max": "ਵੱਧ ਤੋਂ ਵੱਧ: <b>{{value}}</b>",
+      "last": "ਆਖਰੀ: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "ਬੈਕਐਂਡ API",
+      "checking": "ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ…",
+      "reachable": "ਪਹੁੰਚਯੋਗ",
+      "unreachable": "ਪਹੁੰਚ ਤੋਂ ਬਾਹਰ",
+      "connected": "ਕਨੈਕਟਡ",
+      "backendApiHint": "ਇਹ ਪੰਨਾ ਬੈਕਐਂਡ ਤੋਂ ਲੋਡ ਹੋਇਆ ਹੈ, ਇਸ ਲਈ ਇਹ ਜਵਾਬ ਦੇ ਰਿਹਾ ਹੈ।",
+      "database": "ਡਾਟਾਬੇਸ",
+      "databaseHint": "PostgreSQL ਕਨੈਕਟੀਵਿਟੀ, ਲਾਈਵ ਜਾਂਚ ਕੀਤੀ ਗਈ।",
+      "uptime": "ਬੈਕਐਂਡ ਅਪਟਾਈਮ",
+      "uptimeHint": "ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਆਖਰੀ ਵਾਰ ਰੀਸਟਾਰਟ ਹੋਣ ਤੋਂ ਬਾਅਦ।",
+      "appVersion": "ਐਪ ਵਰਜਨ",
+      "appVersionHint": "ਬੈਕਐਂਡ ਬਿਲਡ ਵਰਜਨ।"
+    },
+    "mini": {
+      "latency": "ਲੇਟੈਂਸੀ",
+      "readsLatency": "ਰੀਡ ਲੇਟੈਂਸੀ",
+      "writesLatency": "ਰਾਈਟ ਲੇਟੈਂਸੀ",
+      "otherLatency": "ਹੋਰ ਲੇਟੈਂਸੀ",
+      "connections": "ਕਨੈਕਸ਼ਨ",
+      "totalKeys": "ਕੁੱਲ ਕੁੰਜੀਆਂ"
+    },
+    "note": "ਬੇਨਤੀਆਂ/ਸਕਿੰਟ ਅਤੇ ਲੇਟੈਂਸੀ ਨੂੰ ਹਰ 15 ਸਕਿੰਟਾਂ ਵਿੱਚ ਲਾਈਵ ਬੈਕਐਂਡ ਟ੍ਰੈਫਿਕ ਤੋਂ ਲਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ 100 ਦਿਨਾਂ ਤੱਕ ਰੱਖਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਇੱਕ ਬੁਨਿਆਦੀ ਕਨੈਕਟੀਵਿਟੀ + ਟ੍ਰੈਫਿਕ ਜਾਂਚ ਹੈ - ਇਹ ਪੂਰੀ ਐਪਲੀਕੇਸ਼ਨ ਪ੍ਰਦਰਸ਼ਨ ਨਿਗਰਾਨੀ, ਲੌਗ ਐਗਰੀਗੇਸ਼ਨ, ਜਾਂ ਅਲਰਟਿੰਗ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦੀ।"
+  },
+  "reports": {
+    "loadError": "ਪਲੇਟਫਾਰਮ ਰਿਪੋਰਟ ਲੋਡ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।",
+    "ranges": {
+      "threeMonths": "3 ਮਹੀਨੇ",
+      "sixMonths": "6 ਮਹੀਨੇ",
+      "twelveMonths": "12 ਮਹੀਨੇ",
+      "custom": "ਕਸਟਮ"
+    },
+    "sortOptions": {
+      "community": "ਕਮਿਊਨਿਟੀ",
+      "usage": "ਵਰਤੋਂ",
+      "billed": "ਬਿਲ ਕੀਤਾ ਗਿਆ",
+      "residents": "ਵਸਨੀਕ"
+    },
+    "customRange": {
+      "from": "ਤੋਂ",
+      "to": "ਤੱਕ",
+      "hint": "ਕਸਟਮ ਰਿਪੋਰਟ ਲੋਡ ਕਰਨ ਲਈ \"ਤੋਂ\" ਅਤੇ \"ਤੱਕ\" ਦੋਵੇਂ ਮਹੀਨੇ ਚੁਣੋ।"
+    },
+    "loading": "ਰਿਪੋਰਟ ਲੋਡ ਹੋ ਰਹੀ ਹੈ...",
+    "cards": {
+      "totalCommunities": "ਕੁੱਲ ਕਮਿਊਨਿਟੀਆਂ",
+      "inThisRange": "ਇਸ ਸਮੇਂ ਵਿੱਚ",
+      "totalResidents": "ਕੁੱਲ ਵਸਨੀਕ",
+      "acrossAllCommunities": "ਸਾਰੀਆਂ ਕਮਿਊਨਿਟੀਆਂ ਵਿੱਚ",
+      "overallUsage": "ਕੁੱਲ ਵਰਤੋਂ",
+      "meteredConsumption": "ਮੀਟਰ ਕੀਤੀ ਖਪਤ",
+      "overallBilled": "ਕੁੱਲ ਬਿਲ",
+      "finalizedInvoicesOnly": "ਸਿਰਫ਼ ਫਾਈਨਲ ਇਨਵੌਇਸ",
+      "avgUsagePerResident": "ਔਸਤ ਵਰਤੋਂ / ਵਸਨੀਕ",
+      "avgBillPerResident": "ਔਸਤ ਬਿਲ / ਵਸਨੀਕ"
+    },
+    "charts": {
+      "usageTitle": "ਪਲੇਟਫਾਰਮ-ਵਿਆਪੀ ਵਰਤੋਂ (kL / ਮਹੀਨਾ)",
+      "usageEmpty": "ਇਸ ਸਮੇਂ ਲਈ ਕੋਈ ਵਰਤੋਂ ਦਰਜ ਨਹੀਂ ਹੈ।",
+      "usageSeries": "ਵਰਤੋਂ",
+      "billedTitle": "ਪਲੇਟਫਾਰਮ-ਵਿਆਪੀ ਬਿਲ ਕੀਤੀ ਰਕਮ (₹ / ਮਹੀਨਾ)",
+      "billedEmpty": "ਇਸ ਸਮੇਂ ਲਈ ਕੋਈ ਇਨਵੌਇਸ ਫਾਈਨਲ ਨਹੀਂ ਹੋਇਆ ਹੈ।",
+      "billedSeries": "ਬਿਲ ਕੀਤਾ ਗਿਆ"
+    },
+    "searchPlaceholder": "ਕਮਿਊਨਿਟੀ ਜਾਂ ਐਡਮਿਨ ਨਾਮ ਦੁਆਰਾ ਫਿਲਟਰ ਕਰੋ",
+    "empty": "ਇਸ ਸਮੇਂ ਲਈ ਕਿਸੇ ਵੀ ਕਮਿਊਨਿਟੀ ਕੋਲ ਵਰਤੋਂ ਜਾਂ ਬਿਲਿੰਗ ਡੇਟਾ ਨਹੀਂ ਹੈ।",
+    "noMatch": "ਤੁਹਾਡੇ ਫਿਲਟਰ ਨਾਲ ਕੋਈ ਕਮਿਊਨਿਟੀ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।",
+    "table": {
+      "community": "ਕਮਿਊਨਿਟੀ",
+      "admin": "ਐਡਮਿਨ",
+      "residents": "ਵਸਨੀਕ",
+      "usage": "ਵਰਤੋਂ (kL)",
+      "billed": "ਬਿਲ (₹)",
+      "avgUsagePerResident": "ਔਸਤ ਵਰਤੋਂ / ਵਸਨੀਕ",
+      "avgBillPerResident": "ਔਸਤ ਬਿਲ / ਵਸਨੀਕ"
+    }
+  },
+  "supportTickets": {
+    "title": "ਸਪੋਰਟ ਟਿਕਟਾਂ",
+    "subtitle": "ਵਸਨੀਕਾਂ ਅਤੇ ਕਮਿਊਨਿਟੀ ਐਡਮਿਨਾਂ ਦੁਆਰਾ ਉਠਾਏ ਗਏ ਸਪੋਰਟ ਟਿਕਟ ਅਤੇ ਮੁੱਦੇ।"
+  }
+}

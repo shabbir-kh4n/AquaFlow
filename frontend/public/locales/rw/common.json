@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Funga",
+    "signUpTitle": "Iyandikishe umuryango wawe",
+    "signInTitle": "Kaze neza",
+    "signUpSubtitle": "Kora konti yubuyobozi bwabaturage kugirango utangire gucunga abaturage no kwishura.",
+    "signInSubtitle": "Injira kugirango urebe imikoreshereze y'amazi no kwishura."
+  },
+  "signIn": {
+    "errorFallback": "Ntushobora kwinjira. Nyamuneka gerageza.",
+    "emailLabel": "Imeri",
+    "passwordLabel": "Ijambobanga",
+    "rememberMe": "Unyibuke",
+    "forgotPassword": "Wibagiwe ijambo ryibanga?",
+    "submitting": "Kwinjira…",
+    "submit": "Injira",
+    "noAccount": "Ntabwo ufite konti?",
+    "signUpLink": "Iyandikishe"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Ijambobanga ntirihuye.",
+      "communityRequired": "Izina ryabaturage rirakenewe.",
+      "termsRequired": "Nyamuneka wemere Amasezerano ya Serivisi na Politiki Yerekeye ubuzima bwite.",
+      "fallback": "Ntushobora gukora konti. Nyamuneka gerageza."
+    },
+    "hint": "Gusa abayobozi b'abaturage biyandikisha hano. Numara kwinjira, uzongeramo amakuru yabaturage bawe - ntibiyandikisha bonyine.",
+    "fullNameLabel": "Izina ryuzuye",
+    "emailLabel": "Imeri",
+    "phoneLabel": "Numero ya terefone",
+    "communityNameLabel": "Izina ryabaturage",
+    "passwordLabel": "Ijambobanga",
+    "confirmPasswordLabel": "Emeza ijambo ryibanga",
+    "agreeTerms": "Nemeranya na <termsLink> Amasezerano ya serivisi </termsLink> na <privacyLink> Politiki Yibanga </privacyLink>",
+    "submitting": "Gukora konti…",
+    "submit": "Kora Konti ya Admin",
+    "haveAccount": "Ufite konti?",
+    "signInLink": "Injira"
+  },
+  "installPrompt": {
+    "title": "Shyiramo HydroLedger",
+    "description": "Ongeraho murugo rwawe kugirango ubone uburyo bwihuse.",
+    "dismiss": "Kwirukana",
+    "install": "Shyiramo"
+  },
+  "setPassword": {
+    "title": "Shiraho ijambo ryibanga",
+    "loading": "Kuremera…",
+    "subtitle": "Muraho {{name}}, hitamo ijambo ryibanga rya {{email}} kugirango ukoreshe konti yawe HydroLedger.",
+    "errors": {
+      "invalidLink": "Iyi link itemewe cyangwa yararangiye.",
+      "tooShort": "Ijambobanga rigomba kuba byibuze inyuguti 8.",
+      "mismatch": "Ijambobanga ntirihuye.",
+      "fallback": "Ntushobora gushyiraho ijambo ryibanga. Nyamuneka gerageza."
+    },
+    "passwordLabel": "Ijambobanga",
+    "confirmPasswordLabel": "Emeza ijambo ryibanga",
+    "submitting": "Gushiraho ijambo ryibanga…",
+    "submit": "Shiraho ijambo ryibanga & injira"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistant",
+      "resident": "Baza ibya konte yawe",
+      "admin": "Umufasha wabaturage",
+      "platform": "Umufasha wa platform",
+      "default": "Umufasha"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Niki HydroLedger?",
+        "tieredBilling": "Nigute urwego rwo kwishyuza rukora?",
+        "leaks": "Nigute imyanda imenyekana?"
+      },
+      "resident": {
+        "billEstimate": "Niki kigereranyo cyanjye cyo kugereranya?",
+        "alerts": "Mfite imenyesha ryo gukoresha?",
+        "readings": "Erekana metero mperutse gusoma"
+      },
+      "admin": {
+        "households": "Dufite ingo zingahe?",
+        "billingCycles": "Andika ibihe byanyuma byo kwishyuza",
+        "tariff": "Gahunda yacu y'ibiciro iriho ubu?"
+      },
+      "platform": {
+        "communities": "Andika abaturage bose biyandikishije",
+        "usageReport": "Erekana raporo yo gukoresha urubuga",
+        "systemStatus": "Sisitemu imeze ite?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Kohereza ubutumwa byihuse - nyamuneka utegereze akanya hanyuma ugerageze.",
+      "unavailable": "Umufasha ntashobora kuboneka by'agateganyo. Nyamuneka gerageza nanone vuba.",
+      "generic": "Ikintu kitagenze neza kohereza ubwo butumwa. Nyamuneka gerageza."
+    },
+    "emptyHint": "Mubaze ikintu icyo ari cyo cyose - Nshobora kubona amakuru yawe gusa.",
+    "closeAssistant": "Umufasha wa hafi",
+    "openAssistant": "Fungura umufasha",
+    "inputPlaceholder": "Andika ubutumwa…",
+    "inputLabel": "Ubutumwa",
+    "send": "Ohereza"
+  },
+  "supportBoard": {
+    "defaultTitle": "Amatike yo Gushyigikira",
+    "defaultCreateLabel": "Uzamure impungenge nshya",
+    "status": {
+      "open": "Fungura",
+      "inProgress": "Iterambere",
+      "resolved": "Byakemutse",
+      "closed": "Gufunga"
+    },
+    "tabs": {
+      "all": "Amatike yose"
+    },
+    "recipients": {
+      "admin": "Umuyobozi wabaturage",
+      "systemAdmin": "Umuyobozi wa sisitemu",
+      "both": "Umuyobozi wumuryango + Umuyobozi wa sisitemu"
+    },
+    "roles": {
+      "resident": "Umuturage",
+      "admin": "Umuyobozi"
+    },
+    "toRecipients": "Kuri: {{recipients}}",
+    "raisedByResident": "Yarezwe n'umuturage {{name}}",
+    "raisedByAdmin": "Yarezwe na admin {{name}}",
+    "refresh": "Ongera",
+    "stats": {
+      "openLabel": "Fungura ibyifuzo",
+      "openHint": "Gutegereza gusubiramo",
+      "inProgressLabel": "Iterambere",
+      "inProgressHint": "Gukorerwa",
+      "resolvedLabel": "Byakemutse",
+      "resolvedHint": "Gufunga neza"
+    },
+    "searchPlaceholder": "Shakisha amatike ukurikije ingingo, ikibazo…",
+    "loadingTickets": "Gutwara amatike…",
+    "empty": {
+      "title": "Nta matike yo gushyigikira yabonetse",
+      "body": "Kugeza ubu nta byifuzo bifunguye cyangwa byanditse bisaba guhuza iyi filteri.",
+      "cta": "Tanga ikibazo"
+    },
+    "errors": {
+      "loadList": "Ntushobora gupakira amatike yingoboka. Nyamuneka gerageza.",
+      "loadDetail": "Ntushobora gupakira iyi tike. Nyamuneka gerageza.",
+      "required": "Ingingo n'ubutumwa byombi birakenewe.",
+      "recipientRequired": "Hitamo byibuze uwahawe (Umuyobozi wumuryango na / cyangwa umuyobozi wa sisitemu).",
+      "submitFallback": "Ntushobora gutanga iyi tike. Nyamuneka gerageza.",
+      "sendReply": "Ntushobora kohereza ubu butumwa. Nyamuneka gerageza.",
+      "updateStatus": "Ntushobora kuvugurura iyi tike. Nyamuneka gerageza."
+    },
+    "form": {
+      "defaultHint": "Sobanura ikibazo cyawe cyangwa impungenge hepfo aha.",
+      "subjectLabel": "Ingingo",
+      "subjectPlaceholder": "Incamake muri make ikibazo cyawe",
+      "messageLabel": "Ubutumwa",
+      "messagePlaceholder": "Sobanura ibibera mu buryo burambuye…",
+      "recipientsLabel": "Ohereza iyi mpungenge kuri",
+      "cancel": "Kureka",
+      "submitting": "Kohereza…",
+      "submit": "Tanga Tike"
+    },
+    "detail": {
+      "loading": "Gutwara itike…",
+      "replyPlaceholder": "Andika igisubizo…",
+      "close": "Funga",
+      "sending": "Kohereza…",
+      "sendReply": "Ohereza Igisubizo"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Kaze neza, {{name}}",
+    "openMenu": "Fungura menu",
+    "closeMenu": "Funga menu",
+    "logout": "Sohoka",
+    "search": "Shakisha",
+    "notifications": "Kumenyesha"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Ikibaho",
+      "households": "Ubuyobozi bw'ingo",
+      "meterReadings": "Gusoma Metero",
+      "billing": "Gucunga fagitire",
+      "bulkPurchases": "Kugura byinshi",
+      "reports": "Raporo",
+      "waterLeakage": "Amazi ava",
+      "support": "Inkunga / Ibibazo",
+      "tariffPlans": "Gahunda y'Ibiciro",
+      "announcements": "Amatangazo",
+      "profile": "Umwirondoro"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hano hari ifoto yumuryango wawe."
+      },
+      "households": {
+        "title": "Ubuyobozi bw'ingo",
+        "subtitle": "Ongeraho, kuvugurura, no gucunga abaturage batuye aho utuye."
+      },
+      "meterReadings": {
+        "title": "Ibipimo by'amazi Gusoma Hub",
+        "subtitle": "Shakisha umuturage wandike metero y'amazi basoma."
+      },
+      "tariffPlans": {
+        "title": "Ibiciro",
+        "subtitle": "Kugena igipimo cyateganijwe, kugabana ibiciro rusange, hamwe nuburyo bwo kugabura umuryango wawe."
+      },
+      "billing": {
+        "title": "Gucunga fagitire",
+        "subtitle": "Fungura, urangize, kandi ubike inzinguzingo zo kwishyuza, kandi usubiremo inyemezabuguzi zashyizwe kuri buri rugo."
+      },
+      "bulkPurchases": {
+        "title": "Kugura byinshi",
+        "subtitle": "Andika itangwa rya tanker hamwe nibiguzi bya komine kubaturage bawe."
+      },
+      "waterLeakage": {
+        "title": "Amazi ava",
+        "subtitle": "Shyiramo imbibi n’ibisohoka hanze, kandi usubiremo ingo."
+      },
+      "support": {
+        "title": "Inkunga / Ibibazo",
+        "subtitle": "Kuzamura amatike yawe kuri Admin Sisitemu, cyangwa ukemure ibibazo abaturage bawe bakubwiye."
+      },
+      "profile": {
+        "title": "Igenamiterere & Umwirondoro",
+        "subtitle": "Gucunga konti yawe hamwe namakuru yimiturire."
+      }
+    },
+    "fallbackName": "Umuyobozi",
+    "fallbackCommunity": "Umuyobozi wabaturage",
+    "notBuilt": "{{label}} ntabwo yubatswe",
+    "searchPlaceholder": "Shakisha ikintu cyose…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Raporo",
+      "description": "Raporo yo gukoresha, kwishura, no kubungabunga ibidukikije."
+    },
+    "announcements": {
+      "title": "Amatangazo",
+      "description": "Kohereza amatangazo rusange kubaturage bawe."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} is coming soon"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Ikibaho",
+      "usageHistory": "Amateka yo Gukoresha",
+      "bills": "Inyemezabuguzi",
+      "recommendations": "Ibyifuzo",
+      "reports": "Raporo",
+      "support": "Inkunga / Ibibazo",
+      "notifications": "Kumenyesha",
+      "profile": "Umwirondoro"
+    },
+    "pages": {
+      "usageHistory": "Amateka yawe yo gukoresha",
+      "billing": "Inyemezabuguzi & Inyemezabuguzi",
+      "notifications": "Kumenyesha",
+      "recommendations": "Ibyifuzo",
+      "support": "Inkunga / Ibibazo"
+    },
+    "defaultTitle": "Ikibaho",
+    "navLabel": "Kugenda",
+    "fallbackName": "Umuturage",
+    "unit": "Igice {{number}}",
+    "comingSoon": "{{label}} is coming soon",
+    "profile": "Umwirondoro",
+    "searchPlaceholder": "Shakisha isesengura, fagitire…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Ikibaho",
+      "communities": "Imiryango",
+      "reports": "Raporo",
+      "supportTickets": "Amatike yo Gushyigikira",
+      "systemStatus": "Imiterere ya Sisitemu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ihuriro ryerekana amashusho kuri buri muturage wiyandikishije."
+      },
+      "communities": {
+        "title": "Imiryango",
+        "subtitle": "Buri muturage wiyandikishije admin hamwe nabaturage babo, ahantu hamwe."
+      },
+      "reports": {
+        "title": "Raporo",
+        "subtitle": "Gukoresha amazi yose hamwe nimibare yo kwishyuza, kubaturage no mugihe."
+      },
+      "supportTickets": {
+        "title": "Amatike yo Gushyigikira",
+        "subtitle": "Shigikira amatike hamwe nimpungenge zavuzwe nabenegihugu hamwe nabayobozi bayobozi, urubuga-rugari."
+      },
+      "systemStatus": {
+        "title": "Imiterere ya Sisitemu",
+        "subtitle": "Inyuma ihuza hamwe nubuzima bwibanze bwigihe."
+      }
+    },
+    "fallbackName": "Umuyobozi wa sisitemu",
+    "platformOwner": "Nyiri platform",
+    "searchPlaceholder": "Shakisha abaturage…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Ururimi: {{language}}",
+    "searchPlaceholder": "Shakisha ururimi…",
+    "noMatches": "Ntaho bihuriye"
+  }
+}

@@ -105,3 +105,67 @@
   color: var(--af-text-muted);
   font-size: 13px;
 }
+
+/* --- Topbar variant (admin / resident / platform shell topbars) ---
+   Matches the shells' 38px pill controls (community pill, bell button). Colors come from
+   overridable custom properties so each shell can map them onto its own palette. */
+.af-langswitch--topbar {
+  flex-shrink: 0;
+}
+
+.af-langswitch--topbar .af-langswitch__button {
+  max-width: 150px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid var(--af-langswitch-border, var(--af-glass-border));
+  background: var(--af-langswitch-bg, var(--af-glass-bg));
+  color: var(--af-langswitch-text, var(--af-text-dark));
+  font-size: 12.5px;
+}
+
+.af-langswitch--topbar .af-langswitch__chevron {
+  color: var(--af-langswitch-muted, var(--af-text-muted));
+}
+
+.af-langswitch--topbar .af-langswitch__button:hover .af-langswitch__chevron {
+  color: inherit;
+}
+
+/* Resident shell uses its own --afr-* palette. */
+.af-resident .af-langswitch--topbar {
+  --af-langswitch-border: var(--afr-border);
+  --af-langswitch-bg: var(--afr-card);
+  --af-langswitch-text: var(--afr-text-dark);
+  --af-langswitch-muted: var(--afr-text-muted);
+}
+
+@media (max-width: 960px) {
+  .af-langswitch--topbar .af-langswitch__button {
+    max-width: 120px;
+  }
+}
+
+/* Narrow screens (hamburger-drawer layout): collapse to globe + chevron like the community
+   pill hides its label, and open the list as a bottom sheet so it can't run off-screen
+   wherever the wrapped topbar happens to place the button. The sheet sits above the chat
+   widget's FAB (bottom: 24px + 56px) - the topbar's z-index stacking context keeps it below
+   the FAB, so it must not overlap it. */
+@media (max-width: 620px) {
+  .af-langswitch--topbar .af-langswitch__button {
+    padding: 0 10px;
+  }
+
+  .af-langswitch--topbar .af-langswitch__current {
+    display: none;
+  }
+
+  .af-langswitch--topbar .af-langswitch__panel {
+    position: fixed;
+    top: auto;
+    left: 16px;
+    right: 16px;
+    bottom: 96px;
+    width: auto;
+    max-height: 60vh;
+  }
+}

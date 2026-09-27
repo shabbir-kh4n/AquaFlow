@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "近い",
+    "signUpTitle": "コミュニティを登録する",
+    "signInTitle": "おかえり",
+    "signUpSubtitle": "コミュニティ管理者アカウントを作成して、居住者の管理と請求を開始します。",
+    "signInSubtitle": "サインインして水の使用量と請求を表示します。"
+  },
+  "signIn": {
+    "errorFallback": "サインインできません。もう一度お試しください。",
+    "emailLabel": "電子メール",
+    "passwordLabel": "パスワード",
+    "rememberMe": "私を覚えてますか",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "submitting": "サインイン中…",
+    "submit": "サインイン",
+    "noAccount": "アカウントをお持ちでない場合は、",
+    "signUpLink": "サインアップ"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "パスワードが一致しません。",
+      "communityRequired": "コミュニティ名は必須です。",
+      "termsRequired": "利用規約とプライバシーポリシーに同意してください。",
+      "fallback": "アカウントを作成できません。もう一度試してください。"
+    },
+    "hint": "コミュニティ管理者のみがここに登録します。参加したら、居住者の詳細を自分で追加します。居住者は自分でサインアップするわけではありません。",
+    "fullNameLabel": "フルネーム",
+    "emailLabel": "電子メール",
+    "phoneLabel": "電話番号",
+    "communityNameLabel": "コミュニティ名",
+    "passwordLabel": "パスワード",
+    "confirmPasswordLabel": "パスワードを認証する",
+    "agreeTerms": "<termsLink>利用規約</termsLink> および <privacyLink>プライバシー ポリシー</privacyLink> に同意します",
+    "submitting": "アカウントを作成中…",
+    "submit": "管理者アカウントの作成",
+    "haveAccount": "すでにアカウントをお持ちですか?",
+    "signInLink": "サインイン"
+  },
+  "installPrompt": {
+    "title": "HydroLedger をインストールします",
+    "description": "すぐにアクセスできるようにホーム画面に追加します。",
+    "dismiss": "却下する",
+    "install": "インストール"
+  },
+  "setPassword": {
+    "title": "パスワードを設定してください",
+    "loading": "読み込み中…",
+    "subtitle": "こんにちは {{name}} さん。HydroLedger アカウントを有効にするための {{email}} のパスワードを選択してください。",
+    "errors": {
+      "invalidLink": "このリンクは無効であるか、有効期限が切れています。",
+      "tooShort": "パスワードは 8 文字以上である必要があります。",
+      "mismatch": "パスワードが一致しません。",
+      "fallback": "パスワードを設定できませんでした。もう一度試してください。"
+    },
+    "passwordLabel": "パスワード",
+    "confirmPasswordLabel": "パスワードを認証する",
+    "submitting": "パスワードを設定中…",
+    "submit": "パスワードを設定してサインインする"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger アシスタント",
+      "resident": "アカウントについて尋ねる",
+      "admin": "コミュニティアシスタント",
+      "platform": "プラットフォームアシスタント",
+      "default": "アシスタント"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger とは何ですか?",
+        "tieredBilling": "段階的請求はどのように機能しますか?",
+        "leaks": "漏れはどのように検出されますか?"
+      },
+      "resident": {
+        "billEstimate": "現在の請求額の見積もりはいくらですか?",
+        "alerts": "使用状況に関する警告はありますか?",
+        "readings": "最近のメーター測定値を表示する"
+      },
+      "admin": {
+        "households": "私たちの世帯は何世帯ありますか?",
+        "billingCycles": "最近の請求サイクルを一覧表示します",
+        "tariff": "現在の料金プランは何ですか?"
+      },
+      "platform": {
+        "communities": "登録されているすべてのコミュニティを一覧表示する",
+        "usageReport": "プラットフォーム使用状況レポートを表示する",
+        "systemStatus": "システムのステータスは何ですか?"
+      }
+    },
+    "errors": {
+      "rateLimited": "メッセージの送信が早すぎます - しばらく待ってから再試行してください。",
+      "unavailable": "アシスタントは一時的に利用できません。しばらくしてからもう一度お試しください。",
+      "generic": "メッセージの送信に問題が発生しました。もう一度試してください。"
+    },
+    "emptyHint": "何でも聞いてください。私はあなた自身のデータしか見ることができません。",
+    "closeAssistant": "アシスタントを閉じる",
+    "openAssistant": "オープンアシスタント",
+    "inputPlaceholder": "メッセージを入力してください…",
+    "inputLabel": "メッセージ",
+    "send": "送信"
+  },
+  "supportBoard": {
+    "defaultTitle": "サポートチケット",
+    "defaultCreateLabel": "新たな懸念を提起する",
+    "status": {
+      "open": "開ける",
+      "inProgress": "進行中",
+      "resolved": "解決済み",
+      "closed": "閉店"
+    },
+    "tabs": {
+      "all": "すべてのチケット"
+    },
+    "recipients": {
+      "admin": "コミュニティ管理者",
+      "systemAdmin": "システム管理者",
+      "both": "コミュニティ管理者 + システム管理者"
+    },
+    "roles": {
+      "resident": "居住者",
+      "admin": "管理者"
+    },
+    "toRecipients": "宛先: {{recipients}}",
+    "raisedByResident": "居住者 {{name}} によって育てられました",
+    "raisedByAdmin": "管理者 {{name}} によって発生しました",
+    "refresh": "リフレッシュ",
+    "stats": {
+      "openLabel": "オープンサブミッション",
+      "openHint": "レビュー待ち",
+      "inProgressLabel": "進行中",
+      "inProgressHint": "取り組んでいる",
+      "resolvedLabel": "解決済み",
+      "resolvedHint": "正常に終了しました"
+    },
+    "searchPlaceholder": "件名、問題ごとにチケットを検索…",
+    "loadingTickets": "チケットを読み込み中…",
+    "empty": {
+      "title": "サポートチケットが見つかりませんでした",
+      "body": "現在、このフィルターに一致するオープンまたは記録されたサポート リクエストはありません。",
+      "cta": "懸念事項を送信する"
+    },
+    "errors": {
+      "loadList": "サポートチケットをロードできませんでした。もう一度試してください。",
+      "loadDetail": "このチケットをロードできませんでした。もう一度試してください。",
+      "required": "件名とメッセージは両方とも必須です。",
+      "recipientRequired": "少なくとも 1 人の受信者 (コミュニティ管理者および/またはシステム管理者) を選択します。",
+      "submitFallback": "このチケットを送信できませんでした。もう一度試してください。",
+      "sendReply": "このメッセージを送信できませんでした。もう一度試してください。",
+      "updateStatus": "このチケットのステータスを更新できませんでした。もう一度試してください。"
+    },
+    "form": {
+      "defaultHint": "問題や懸念事項を以下に説明してください。",
+      "subjectLabel": "主題",
+      "subjectPlaceholder": "問題の簡単な概要",
+      "messageLabel": "メッセージ",
+      "messagePlaceholder": "何が起こっているのか詳しく説明してください...",
+      "recipientsLabel": "この懸念事項を次の宛先に送信してください",
+      "cancel": "キャンセル",
+      "submitting": "送信中…",
+      "submit": "チケットを送信する"
+    },
+    "detail": {
+      "loading": "チケットを読み込み中…",
+      "replyPlaceholder": "返信を書いてください…",
+      "close": "近い",
+      "sending": "送信中…",
+      "sendReply": "返信を送信"
+    }
+  },
+  "shell": {
+    "welcomeBack": "おかえりなさい、{{name}}",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "logout": "ログアウト",
+    "search": "検索",
+    "notifications": "通知"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ダッシュボード",
+      "households": "世帯名簿",
+      "meterReadings": "メーターの測定値",
+      "billing": "請求管理",
+      "bulkPurchases": "まとめ買い",
+      "reports": "レポート",
+      "waterLeakage": "水漏れ",
+      "support": "サポート/懸念事項",
+      "tariffPlans": "料金プラン",
+      "announcements": "お知らせ",
+      "profile": "プロフィール"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "これがコミュニティのスナップショットです。"
+      },
+      "households": {
+        "title": "世帯名簿",
+        "subtitle": "コミュニティに住んでいる住民を追加、更新、管理します。"
+      },
+      "meterReadings": {
+        "title": "水道メーター測定値ハブ",
+        "subtitle": "居住者を探し出し、水道メーターの測定値を記録します。"
+      },
+      "tariffPlans": {
+        "title": "料金設定",
+        "subtitle": "段階的な料金制限、共有共用エリアの費用、アパート コミュニティの分配方法を構成します。"
+      },
+      "billing": {
+        "title": "請求管理",
+        "subtitle": "請求サイクルをオープン、確定、アーカイブし、世帯ごとに明細化された請求書を確認します。"
+      },
+      "bulkPurchases": {
+        "title": "まとめ買い",
+        "subtitle": "あなたの地域へのタンカーの配達と自治体の物資の購入を記録します。"
+      },
+      "waterLeakage": {
+        "title": "水漏れ",
+        "subtitle": "しきい値と異常値に基づいた漏水アラートを設定し、フラグが立てられた世帯を確認します。"
+      },
+      "support": {
+        "title": "サポート/懸念事項",
+        "subtitle": "自分のチケットをシステム管理者に提出するか、住民から寄せられた懸念事項に対処してください。"
+      },
+      "profile": {
+        "title": "設定とプロフィール",
+        "subtitle": "アカウントの詳細とアパート情報を管理します。"
+      }
+    },
+    "fallbackName": "管理者",
+    "fallbackCommunity": "コミュニティ管理者",
+    "notBuilt": "{{label}} はまだ構築されていません",
+    "searchPlaceholder": "何でも検索してください…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "レポート",
+      "description": "コミュニティの消費、請求、保全レポート。"
+    },
+    "announcements": {
+      "title": "お知らせ",
+      "description": "コミュニティ全体のお知らせを住民に送信します。"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} がもうすぐ登場します"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ダッシュボード",
+      "usageHistory": "利用履歴",
+      "bills": "私の請求書",
+      "recommendations": "推奨事項",
+      "reports": "レポート",
+      "support": "サポート/懸念事項",
+      "notifications": "通知",
+      "profile": "プロフィール"
+    },
+    "pages": {
+      "usageHistory": "ご利用履歴",
+      "billing": "請求書と請求書",
+      "notifications": "通知",
+      "recommendations": "推奨事項",
+      "support": "サポート/懸念事項"
+    },
+    "defaultTitle": "常駐ダッシュボード",
+    "navLabel": "居住者ナビゲーション",
+    "fallbackName": "居住者",
+    "unit": "ユニット{{number}}",
+    "comingSoon": "{{label}} がもうすぐ登場します",
+    "profile": "プロフィール",
+    "searchPlaceholder": "検索分析、請求書…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ダッシュボード",
+      "communities": "コミュニティ",
+      "reports": "レポート",
+      "supportTickets": "サポートチケット",
+      "systemStatus": "システムステータス"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "登録されているすべてのコミュニティにわたるプラットフォーム全体のスナップショット。"
+      },
+      "communities": {
+        "title": "コミュニティ",
+        "subtitle": "登録されているすべてのコミュニティ管理者とそのコミュニティを 1 か所にまとめます。"
+      },
+      "reports": {
+        "title": "レポート",
+        "subtitle": "プラットフォーム全体の水の使用量と請求額を、コミュニティごとおよび時間の経過とともに示します。"
+      },
+      "supportTickets": {
+        "title": "サポートチケット",
+        "subtitle": "プラットフォーム全体で、住民やコミュニティ管理者によって提起されたチケットと懸念事項をサポートします。"
+      },
+      "systemStatus": {
+        "title": "システムステータス",
+        "subtitle": "バックエンドの接続と基本的なランタイムの健全性。"
+      }
+    },
+    "fallbackName": "システム管理者",
+    "platformOwner": "プラットフォーム所有者",
+    "searchPlaceholder": "コミュニティを検索…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "言語: {{language}}",
+    "searchPlaceholder": "言語を検索…",
+    "noMatches": "一致しません"
+  }
+}

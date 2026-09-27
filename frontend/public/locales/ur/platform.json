@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "فعال",
+    "blocked": "بلاک شدہ",
+    "terminated": "برطرف شدہ"
+  },
+  "sort": {
+    "sortBy": "ترتیب دیں",
+    "toggleDirection": "ترتیب کی سمت تبدیل کریں",
+    "asc": "↑ صعودی",
+    "desc": "↓ نزولی"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} دکھائے جا رہے ہیں، کل: {{total}}",
+    "prev": "← پچھلا",
+    "next": "اگلا →",
+    "page": "صفحہ {{page}} از {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "پلیٹ فارم کا جائزہ",
+    "subtitle": "پورے HydroLedger پلیٹ فارم پر موجود تمام رجسٹرڈ کمیونٹی ایڈمنز۔",
+    "viewAll": "تمام کمیونٹیز دیکھیں",
+    "loadError": "اس وقت پلیٹ فارم کا ڈیٹا لوڈ نہیں کیا جا سکا۔",
+    "cards": {
+      "totalCommunities": "کل کمیونٹیز",
+      "registeredAdmins": "رجسٹرڈ ایڈمنز",
+      "totalResidents": "کل رہائشی",
+      "acrossAllCommunities": "تمام کمیونٹیز میں",
+      "active": "فعال",
+      "inGoodStanding": "بہترین حالت میں",
+      "blockedTerminated": "بلاک / برطرف شدہ",
+      "blockedTerminatedBreakdown": "{{blocked}} بلاک، {{terminated}} برطرف شدہ"
+    },
+    "recent": {
+      "title": "حال ہی میں رجسٹرڈ کمیونٹیز",
+      "loading": "لوڈ ہو رہا ہے…",
+      "empty": "ابھی تک کوئی کمیونٹی رجسٹر نہیں ہوئی۔",
+      "table": {
+        "community": "کمیونٹی",
+        "admin": "ایڈمن",
+        "status": "حیثیت",
+        "residents": "رہائشی"
+      }
+    }
+  },
+  "communities": {
+    "count": "کمیونٹیز: {{count}}",
+    "loadError": "کمیونٹیز لوڈ نہیں ہو سکیں۔ براہ کرم دوبارہ کوشش کریں۔",
+    "searchPlaceholder": "کمیونٹی، ایڈمن کے نام، یا ای میل کے ذریعے تلاش کریں",
+    "statusFilter": {
+      "label": "حیثیت",
+      "all": "سب"
+    },
+    "sortOptions": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "residents": "رہائشی"
+    },
+    "loading": "کمیونٹیز لوڈ ہو رہی ہیں…",
+    "empty": "ابھی تک کوئی کمیونٹی رجسٹر نہیں ہوئی۔",
+    "noMatch": "آپ کے فلٹرز سے کوئی مماثل نتیجہ نہیں ملا۔",
+    "table": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "email": "ای میل",
+      "status": "حیثیت",
+      "residents": "رہائشی",
+      "view": "دیکھیں"
+    }
+  },
+  "communityDetail": {
+    "loadError": "یہ کمیونٹی لوڈ نہیں ہو سکی۔ ہو سکتا ہے اسے ہٹا دیا گیا ہو۔",
+    "statusUpdateError": "اس کمیونٹی کی حیثیت اپ ڈیٹ نہیں ہو سکی۔",
+    "deleteError": "اس کمیونٹی کو حذف نہیں کیا جا سکا۔",
+    "loading": "کمیونٹی لوڈ ہو رہی ہے…",
+    "notFound": "کمیونٹی نہیں ملی۔",
+    "backLink": "← کمیونٹیز پر واپس جائیں",
+    "backLinkShort": "کمیونٹیز پر واپس",
+    "eyebrow": "کمیونٹی پروفائل",
+    "unnamed": "نامعلوم کمیونٹی",
+    "noAddress": "کوئی پتہ درج نہیں",
+    "stats": {
+      "residents": "رہائشی",
+      "status": "حیثیت"
+    },
+    "actions": {
+      "reactivate": "دوبارہ فعال کریں",
+      "block": "بلاک کریں",
+      "terminate": "برطرف کریں",
+      "delete": "کمیونٹی حذف کریں"
+    },
+    "blockDialog": {
+      "title": "اس کمیونٹی ایڈمن کو بلاک کریں؟",
+      "message": "{{name}} کو بلاک کریں؟ وہ ان بلاک ہونے تک لاگ ان نہیں ہو سکیں گے۔ ڈیٹا متاثر نہیں ہوگا۔",
+      "confirm": "بلاک کریں"
+    },
+    "terminateDialog": {
+      "title": "اس کمیونٹی ایڈمن کو برطرف کریں؟",
+      "message": "{{name}} کی رسائی کو مستقل طور پر ختم کریں؟ اس عمل کو واپس نہیں کیا جا سکتا، البتہ ان کی کمیونٹی کا ڈیٹا ریکارڈ کے لیے محفوظ رہے گا۔",
+      "confirm": "برطرف کریں"
+    },
+    "deleteDialog": {
+      "title": "اس کمیونٹی کو حذف کریں؟",
+      "message": "یہ عمل <strong>{{name}}</strong> اور اس کے تمام گھرانوں، رہائشیوں، میٹرز، ٹیرف/بلنگ کنفیگریشن، اور انوائس ہسٹری کو مستقل طور پر حذف کر دے گا۔ اس عمل کو واپس نہیں کیا جا سکتا۔",
+      "typeToConfirm": "جاری رکھنے کے لیے <strong>{{word}}</strong> ٹائپ کریں",
+      "confirm": "تصدیق کریں"
+    },
+    "residents": {
+      "title": "رہائشی",
+      "registeredCount": "رجسٹرڈ: {{count}}",
+      "empty": "اس کمیونٹی میں ابھی تک کوئی رہائشی رجسٹر نہیں ہے۔",
+      "table": {
+        "flatUnit": "فلیٹ یونٹ",
+        "meter": "میٹر",
+        "resident": "رہائشی",
+        "email": "ای میل",
+        "passwordSet": "پاس ورڈ سیٹ ہے"
+      },
+      "yes": "جی ہاں",
+      "no": "جی نہیں"
+    },
+    "cancel": "منسوخ کریں",
+    "working": "کام جاری ہے…",
+    "deleting": "حذف ہو رہا ہے…"
+  },
+  "systemStatus": {
+    "statusError": "سسٹم کی حیثیت چیک کرنے کے لیے بیک اینڈ تک رسائی حاصل نہیں ہو سکی۔",
+    "metricsError": "میٹرکس ہسٹری لوڈ نہیں ہو سکی۔",
+    "ranges": {
+      "fiveMinutes": "5 منٹ",
+      "fifteenMinutes": "15 منٹ",
+      "hour": "گھنٹہ",
+      "day": "دن",
+      "week": "ہفتہ",
+      "month": "مہینہ",
+      "threeMonths": "3 مہینے"
+    },
+    "uptime": {
+      "days": "{{value}} دن",
+      "hours": "{{value}} گھنٹے",
+      "minutes": "{{value}} منٹ"
+    },
+    "charts": {
+      "requestsPerSec": "درخواستیں فی سیکنڈ",
+      "opsPerSec": "آپریشنز فی سیکنڈ",
+      "latency": "لیٹنسی",
+      "lastValue": "آخری ویلیو {{value}}",
+      "loading": "لوڈ ہو رہا ہے…",
+      "empty": "اس رینج کے لیے ابھی تک کوئی میٹرکس ریکارڈ نہیں ہوا۔"
+    },
+    "stats": {
+      "min": "کم از کم: <b>{{value}}</b>",
+      "avg": "اوسط: <b>{{value}}</b>",
+      "max": "زیادہ سے زیادہ: <b>{{value}}</b>",
+      "last": "آخری: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "بیک اینڈ API",
+      "checking": "چیک ہو رہا ہے…",
+      "reachable": "رسائی ممکن ہے",
+      "unreachable": "رسائی ممکن نہیں",
+      "connected": "منسلک",
+      "backendApiHint": "یہ صفحہ بیک اینڈ سے لوڈ ہوا، لہذا یہ جواب دے رہا ہے۔",
+      "database": "ڈیٹا بیس",
+      "databaseHint": "PostgreSQL کنیکٹیویٹی، لائیو چیک کی گئی۔",
+      "uptime": "بیک اینڈ اپ ٹائم",
+      "uptimeHint": "آخری ایپلیکیشن ری اسٹارٹ کے بعد سے۔",
+      "appVersion": "ایپ ورژن",
+      "appVersionHint": "بیک اینڈ بلڈ ورژن۔"
+    },
+    "mini": {
+      "latency": "لیٹنسی",
+      "readsLatency": "ریڈز لیٹنسی",
+      "writesLatency": "رائٹس لیٹنسی",
+      "otherLatency": "دیگر لیٹنسی",
+      "connections": "کنکشنز",
+      "totalKeys": "کل کیز"
+    },
+    "note": "درخواستیں فی سیکنڈ اور لیٹنسی کو ہر 15 سیکنڈ میں لائیو بیک اینڈ ٹریفک سے سیمپل کیا جاتا ہے اور 100 دنوں تک محفوظ رکھا جاتا ہے۔ یہ ایک بنیادی کنیکٹیویٹی + ٹریفک چیک ہے — یہ مکمل ایپلیکیشن مانیٹرنگ، لاگ ایگریگیشن، یا الرٹنگ کا متبادل نہیں ہے۔"
+  },
+  "reports": {
+    "loadError": "پلیٹ فارم رپورٹ لوڈ نہیں ہو سکی۔",
+    "ranges": {
+      "threeMonths": "3 مہینے",
+      "sixMonths": "6 مہینے",
+      "twelveMonths": "12 مہینے",
+      "custom": "حسب ضرورت"
+    },
+    "sortOptions": {
+      "community": "کمیونٹی",
+      "usage": "استعمال",
+      "billed": "بل شدہ",
+      "residents": "رہائشی"
+    },
+    "customRange": {
+      "from": "از",
+      "to": "تا",
+      "hint": "حسب ضرورت رپورٹ لوڈ کرنے کے لیے \"از\" اور \"تا\" مہینوں کا انتخاب کریں۔"
+    },
+    "loading": "رپورٹ لوڈ ہو رہی ہے...",
+    "cards": {
+      "totalCommunities": "کل کمیونٹیز",
+      "inThisRange": "اس دورانیے میں",
+      "totalResidents": "کل رہائشی",
+      "acrossAllCommunities": "تمام کمیونٹیز میں",
+      "overallUsage": "مجموعی استعمال",
+      "meteredConsumption": "میٹر شدہ کھپت",
+      "overallBilled": "مجموعی بل",
+      "finalizedInvoicesOnly": "صرف حتمی انوائسز",
+      "avgUsagePerResident": "اوسط استعمال / رہائشی",
+      "avgBillPerResident": "اوسط بل / رہائشی"
+    },
+    "charts": {
+      "usageTitle": "پلیٹ فارم وائز استعمال (kL / مہینہ)",
+      "usageEmpty": "اس دورانیے کے لیے کوئی استعمال ریکارڈ نہیں ہوا۔",
+      "usageSeries": "استعمال",
+      "billedTitle": "پلیٹ فارم وائز بل کی رقم (₹ / مہینہ)",
+      "billedEmpty": "اس دورانیے کے لیے کوئی انوائس حتمی نہیں کی گئی۔",
+      "billedSeries": "بل"
+    },
+    "searchPlaceholder": "کمیونٹی یا ایڈمن نام کے ذریعے فلٹر کریں",
+    "empty": "اس دورانیے کے لیے کسی کمیونٹی کا استعمال یا بلنگ ڈیٹا موجود نہیں ہے۔",
+    "noMatch": "آپ کے فلٹر سے کوئی کمیونٹی میل نہیں کھاتی۔",
+    "table": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "residents": "رہائشی",
+      "usage": "استعمال (kL)",
+      "billed": "بل (₹)",
+      "avgUsagePerResident": "اوسط استعمال / رہائشی",
+      "avgBillPerResident": "اوسط بل / رہائشی"
+    }
+  },
+  "supportTickets": {
+    "title": "سپورٹ ٹکٹس",
+    "subtitle": "پلیٹ فارم بھر میں رہائشیوں اور کمیونٹی ایڈمنز کی جانب سے اٹھائے گئے سپورٹ ٹکٹس اور خدشات۔"
+  }
+}

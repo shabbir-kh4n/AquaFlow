@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktif",
+    "blocked": "Diblokir",
+    "terminated": "Dihentikan"
+  },
+  "sort": {
+    "sortBy": "Urutkan berdasarkan",
+    "toggleDirection": "Alihkan arah pengurutan",
+    "asc": "^ Bertanya",
+    "desc": "↓ Des"
+  },
+  "pagination": {
+    "showing": "Menampilkan {{from}}–{{to}} dari {{total}}",
+    "prev": "← Sebelumnya",
+    "next": "Selanjutnya →",
+    "page": "Halaman {{page}} dari {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Ikhtisar Platform",
+    "subtitle": "Setiap admin komunitas yang terdaftar, di seluruh HydroLedger platform.",
+    "viewAll": "Lihat Semua Komunitas",
+    "loadError": "Tidak dapat memuat data platform saat ini.",
+    "cards": {
+      "totalCommunities": "Jumlah Komunitas",
+      "registeredAdmins": "Admin terdaftar",
+      "totalResidents": "Jumlah Penduduk",
+      "acrossAllCommunities": "Di semua komunitas",
+      "active": "Aktif",
+      "inGoodStanding": "Dalam reputasi yang baik",
+      "blockedTerminated": "Diblokir / Dihentikan",
+      "blockedTerminatedBreakdown": "{{blocked}} diblokir, {{terminated}} dihentikan"
+    },
+    "recent": {
+      "title": "Komunitas yang Baru Terdaftar",
+      "loading": "Memuat…",
+      "empty": "Belum ada komunitas yang terdaftar.",
+      "table": {
+        "community": "Masyarakat",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Penduduk"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunitas: {{count}}",
+    "loadError": "Tidak dapat memuat komunitas. Silakan coba lagi.",
+    "searchPlaceholder": "Filter berdasarkan komunitas, nama admin, atau email",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Semua"
+    },
+    "sortOptions": {
+      "community": "Masyarakat",
+      "admin": "Admin",
+      "residents": "Penduduk"
+    },
+    "loading": "Memuat komunitas…",
+    "empty": "Belum ada komunitas yang terdaftar.",
+    "noMatch": "Tidak ada komunitas yang cocok dengan filter Anda.",
+    "table": {
+      "community": "Masyarakat",
+      "admin": "Admin",
+      "email": "E-mail",
+      "status": "Status",
+      "residents": "Penduduk",
+      "view": "Melihat"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Tidak dapat memuat komunitas ini. Itu mungkin telah dihapus.",
+    "statusUpdateError": "Tidak dapat memperbarui status komunitas ini.",
+    "deleteError": "Tidak dapat menghapus komunitas ini.",
+    "loading": "Memuat komunitas…",
+    "notFound": "Komunitas tidak ditemukan.",
+    "backLink": "← Kembali ke Komunitas",
+    "backLinkShort": "Kembali ke Komunitas",
+    "eyebrow": "Profil Komunitas",
+    "unnamed": "Komunitas tanpa nama",
+    "noAddress": "Tidak ada alamat di file",
+    "stats": {
+      "residents": "Penduduk",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Mengaktifkan kembali",
+      "block": "Memblokir",
+      "terminate": "Mengakhiri",
+      "delete": "Hapus Komunitas"
+    },
+    "blockDialog": {
+      "title": "Blokir admin komunitas ini?",
+      "message": "Blokir {{name}}? Mereka tidak akan dapat masuk sampai pemblokirannya dibuka. Tidak ada data yang akan terpengaruh.",
+      "confirm": "Memblokir"
+    },
+    "terminateDialog": {
+      "title": "Hentikan admin komunitas ini?",
+      "message": "Hentikan akses {{name}} secara permanen? Hal ini tidak dapat dibatalkan, meskipun data komunitas mereka akan disimpan sebagai catatan.",
+      "confirm": "Mengakhiri"
+    },
+    "deleteDialog": {
+      "title": "Hapus komunitas ini?",
+      "message": "Tindakan ini akan menghapus <strong>{{name}}</strong> dan semua rumah tangga, penghuni, meteran, konfigurasi tarif/penagihan, dan riwayat faktur secara permanen. Tindakan ini tidak dapat dibatalkan.",
+      "typeToConfirm": "Ketik <strong>{{word}}</strong> untuk melanjutkan",
+      "confirm": "Mengonfirmasi"
+    },
+    "residents": {
+      "title": "Penduduk",
+      "registeredCount": "Terdaftar: {{count}}",
+      "empty": "Belum ada penduduk yang terdaftar di komunitas ini.",
+      "table": {
+        "flatUnit": "Satuan Datar",
+        "meter": "Meter",
+        "resident": "Penduduk",
+        "email": "E-mail",
+        "passwordSet": "Kumpulan Kata Sandi"
+      },
+      "yes": "Ya",
+      "no": "TIDAK"
+    },
+    "cancel": "Membatalkan",
+    "working": "Bekerja…",
+    "deleting": "Menghapus…"
+  },
+  "systemStatus": {
+    "statusError": "Tidak dapat menjangkau backend untuk memeriksa status sistem.",
+    "metricsError": "Tidak dapat memuat riwayat metrik.",
+    "ranges": {
+      "fiveMinutes": "5 Menit",
+      "fifteenMinutes": "15 Menit",
+      "hour": "Jam",
+      "day": "Hari",
+      "week": "Pekan",
+      "month": "Bulan",
+      "threeMonths": "3 Bulan"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Permintaan/detik",
+      "opsPerSec": "Operasi/dtk",
+      "latency": "Latensi",
+      "lastValue": "{{value}} terakhir",
+      "loading": "Memuat…",
+      "empty": "Belum ada metrik yang dicatat untuk rentang ini."
+    },
+    "stats": {
+      "min": "Minimal: <b>{{value}}</b>",
+      "avg": "Rata-rata: <b>{{value}}</b>",
+      "max": "Maks: <b>{{value}}</b>",
+      "last": "Terakhir: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API ujung belakang",
+      "checking": "Memeriksa…",
+      "reachable": "Dapat dijangkau",
+      "unreachable": "Tidak dapat dijangkau",
+      "connected": "Terhubung",
+      "backendApiHint": "Halaman ini dimuat dari backend, sehingga merespons.",
+      "database": "Basis data",
+      "databaseHint": "Konektivitas PostgreSQL, diperiksa langsung.",
+      "uptime": "Waktu Aktif Backend",
+      "uptimeHint": "Sejak aplikasi terakhir restart.",
+      "appVersion": "Versi Aplikasi",
+      "appVersionHint": "Versi pembuatan backend."
+    },
+    "mini": {
+      "latency": "Latensi",
+      "readsLatency": "Membaca Latensi",
+      "writesLatency": "Menulis Latensi",
+      "otherLatency": "Latensi Lainnya",
+      "connections": "Koneksi",
+      "totalKeys": "Jumlah Kunci"
+    },
+    "note": "Permintaan/detik dan latensi diambil sampelnya dari lalu lintas backend langsung setiap 15 detik dan disimpan hingga 100 hari. Ini adalah konektivitas dasar + pemeriksaan lalu lintas — ini tidak menggantikan pemantauan kinerja aplikasi secara penuh, agregasi log, atau peringatan."
+  },
+  "reports": {
+    "loadError": "Tidak dapat memuat laporan platform.",
+    "ranges": {
+      "threeMonths": "3 Bulan",
+      "sixMonths": "6 Bulan",
+      "twelveMonths": "12 Bulan",
+      "custom": "Kebiasaan"
+    },
+    "sortOptions": {
+      "community": "Masyarakat",
+      "usage": "Penggunaan",
+      "billed": "Ditagih",
+      "residents": "Penduduk"
+    },
+    "customRange": {
+      "from": "Dari",
+      "to": "Ke",
+      "hint": "Pilih bulan \"dari\" dan \"sampai\" untuk memuat laporan khusus."
+    },
+    "loading": "Memuat laporan…",
+    "cards": {
+      "totalCommunities": "Jumlah Komunitas",
+      "inThisRange": "Dalam kisaran ini",
+      "totalResidents": "Jumlah Penduduk",
+      "acrossAllCommunities": "Di semua komunitas",
+      "overallUsage": "Penggunaan Keseluruhan",
+      "meteredConsumption": "Konsumsi terukur",
+      "overallBilled": "Keseluruhan Ditagih",
+      "finalizedInvoicesOnly": "Hanya faktur yang sudah diselesaikan",
+      "avgUsagePerResident": "Rata-rata Penggunaan / Penduduk",
+      "avgBillPerResident": "Rata-rata Tagihan / Penduduk"
+    },
+    "charts": {
+      "usageTitle": "Penggunaan di Seluruh Platform (kL / bulan)",
+      "usageEmpty": "Tidak ada penggunaan yang dicatat untuk rentang ini.",
+      "usageSeries": "Penggunaan",
+      "billedTitle": "Jumlah yang Ditagih di seluruh platform (₹ / bulan)",
+      "billedEmpty": "Tidak ada faktur yang diselesaikan untuk rentang ini.",
+      "billedSeries": "Ditagih"
+    },
+    "searchPlaceholder": "Filter berdasarkan nama komunitas atau admin",
+    "empty": "Belum ada komunitas yang memiliki data penggunaan atau penagihan untuk rentang ini.",
+    "noMatch": "Tidak ada komunitas yang cocok dengan filter Anda.",
+    "table": {
+      "community": "Masyarakat",
+      "admin": "Admin",
+      "residents": "Penduduk",
+      "usage": "Penggunaan (kL)",
+      "billed": "Ditagih (₹)",
+      "avgUsagePerResident": "Rata-rata Penggunaan / Penduduk",
+      "avgBillPerResident": "Rata-rata Tagihan / Penduduk"
+    }
+  },
+  "supportTickets": {
+    "title": "Tiket Dukungan",
+    "subtitle": "Tiket dukungan dan kekhawatiran yang disampaikan oleh warga dan admin komunitas, di seluruh platform."
+  }
+}

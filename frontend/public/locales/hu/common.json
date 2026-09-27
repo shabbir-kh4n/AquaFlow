@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Közeli",
+    "signUpTitle": "Regisztrálja közösségét",
+    "signInTitle": "Isten hozott",
+    "signUpSubtitle": "Hozzon létre egy közösségi rendszergazdai fiókot a lakosok kezeléséhez és a számlázáshoz.",
+    "signInSubtitle": "Jelentkezzen be a vízhasználat és a számlázás megtekintéséhez."
+  },
+  "signIn": {
+    "errorFallback": "Nem sikerült bejelentkezni. Kérjük, próbálja újra.",
+    "emailLabel": "Email",
+    "passwordLabel": "Jelszó",
+    "rememberMe": "Emlékezz rám",
+    "forgotPassword": "Elfelejtetted a jelszavad?",
+    "submitting": "Bejelentkezés…",
+    "submit": "Jelentkezzen be",
+    "noAccount": "Nincs fiókod?",
+    "signUpLink": "Regisztráljon"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "A jelszavak nem egyeznek.",
+      "communityRequired": "A közösség neve kötelező.",
+      "termsRequired": "Kérjük, fogadja el a Szolgáltatási feltételeket és az Adatvédelmi szabályzatot.",
+      "fallback": "Nem lehet fiókot létrehozni. Kérjük, próbálja újra."
+    },
+    "hint": "Csak közösségi adminisztrátorok regisztrálnak itt. Miután belépett, saját maga adja meg lakóinak adatait – ők nem regisztrálnak maguktól.",
+    "fullNameLabel": "Teljes név",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefonszám",
+    "communityNameLabel": "Közösség neve",
+    "passwordLabel": "Jelszó",
+    "confirmPasswordLabel": "Erősítse meg a jelszót",
+    "agreeTerms": "Elfogadom az <termsLink>Általános Szerződési Feltételeket</termsLink> és az <privacyLink>Adatvédelmi irányelveket</privacyLink>",
+    "submitting": "Fiók létrehozása…",
+    "submit": "Adminisztrátori fiók létrehozása",
+    "haveAccount": "Már van fiókja?",
+    "signInLink": "Jelentkezzen be"
+  },
+  "installPrompt": {
+    "title": "HydroLedger telepítése",
+    "description": "Adja hozzá a kezdőképernyőhöz a gyors hozzáférés érdekében.",
+    "dismiss": "Elvetés",
+    "install": "Telepítés"
+  },
+  "setPassword": {
+    "title": "Állítsa be a jelszavát",
+    "loading": "Terhelés…",
+    "subtitle": "Szia {{name}}, válasszon jelszót {{email}} számára HydroLedger fiókja aktiválásához.",
+    "errors": {
+      "invalidLink": "Ez a link érvénytelen vagy lejárt.",
+      "tooShort": "A jelszónak legalább 8 karakterből kell állnia.",
+      "mismatch": "A jelszavak nem egyeznek.",
+      "fallback": "Nem sikerült beállítani a jelszót. Kérjük, próbálja újra."
+    },
+    "passwordLabel": "Jelszó",
+    "confirmPasswordLabel": "Erősítse meg a jelszót",
+    "submitting": "Jelszó beállítása…",
+    "submit": "Jelszó beállítása és bejelentkezés"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asszisztens",
+      "resident": "Kérdezzen a fiókjáról",
+      "admin": "közösségi asszisztens",
+      "platform": "Platform asszisztens",
+      "default": "Helyettes"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Mi az a HydroLedger?",
+        "tieredBilling": "Hogyan működik a többszintű számlázás?",
+        "leaks": "Hogyan észlelhető a szivárgás?"
+      },
+      "resident": {
+        "billEstimate": "Mi a jelenlegi számlabecslésem?",
+        "alerts": "Vannak használati figyelmeztetéseim?",
+        "readings": "Mutasd a legutóbbi mérőállásomat"
+      },
+      "admin": {
+        "households": "Hány háztartásunk van?",
+        "billingCycles": "Sorolja fel legutóbbi számlázási ciklusainkat",
+        "tariff": "Mi a jelenlegi díjcsomagunk?"
+      },
+      "platform": {
+        "communities": "Sorolja fel az összes regisztrált közösséget",
+        "usageReport": "A platformhasználati jelentés megjelenítése",
+        "systemStatus": "Mi a rendszer állapota?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Túl gyorsan küld üzeneteket – kérjük, várjon egy kicsit, és próbálja újra.",
+      "unavailable": "Az asszisztens átmenetileg nem elérhető. Kérjük, próbálja újra rövidesen.",
+      "generic": "Hiba történt az üzenet elküldésekor. Kérjük, próbálja újra."
+    },
+    "emptyHint": "Kérdezz bármit – csak a saját adataidat látom.",
+    "closeAssistant": "Közeli asszisztens",
+    "openAssistant": "Nyissa meg az asszisztenst",
+    "inputPlaceholder": "Írjon be egy üzenetet…",
+    "inputLabel": "Üzenet",
+    "send": "Elküld"
+  },
+  "supportBoard": {
+    "defaultTitle": "Támogató jegyek",
+    "defaultCreateLabel": "Új aggodalmat kelt",
+    "status": {
+      "open": "Nyitott",
+      "inProgress": "Folyamatban van",
+      "resolved": "Megoldva",
+      "closed": "Zárt"
+    },
+    "tabs": {
+      "all": "Minden jegy"
+    },
+    "recipients": {
+      "admin": "Közösségi adminisztrátor",
+      "systemAdmin": "Rendszergazda",
+      "both": "Közösségi adminisztrátor + rendszergazda"
+    },
+    "roles": {
+      "resident": "Rezidens",
+      "admin": "Adminisztrátor"
+    },
+    "toRecipients": "Címzett: {{recipients}}",
+    "raisedByResident": "{{name}} lakos nevelte fel",
+    "raisedByAdmin": "Rendszergazda emelte {{name}}",
+    "refresh": "Frissítés",
+    "stats": {
+      "openLabel": "Nyissa meg a beküldéseket",
+      "openHint": "Felülvizsgálatra vár",
+      "inProgressLabel": "Folyamatban van",
+      "inProgressHint": "Dolgoznak rajta",
+      "resolvedLabel": "Megoldva",
+      "resolvedHint": "Sikeresen lezárva"
+    },
+    "searchPlaceholder": "Jegyek keresése tárgy, szám szerint…",
+    "loadingTickets": "Jegyek betöltése…",
+    "empty": {
+      "title": "Nem található támogatási jegy",
+      "body": "Jelenleg nincs ennek a szűrőnek megfelelő nyitott vagy rögzített támogatási kérelme.",
+      "cta": "Nyújtsa be aggodalmát"
+    },
+    "errors": {
+      "loadList": "Nem sikerült betölteni a támogatási jegyeket. Kérjük, próbálja újra.",
+      "loadDetail": "Nem sikerült betölteni ezt a jegyet. Kérjük, próbálja újra.",
+      "required": "A tárgy és az üzenet egyaránt kötelező.",
+      "recipientRequired": "Válasszon ki legalább egy címzettet (közösségi rendszergazda és/vagy rendszergazda).",
+      "submitFallback": "Nem sikerült elküldeni ezt a jegyet. Kérjük, próbálja újra.",
+      "sendReply": "Nem sikerült elküldeni ezt az üzenetet. Kérjük, próbálja újra.",
+      "updateStatus": "Nem sikerült frissíteni a jegy állapotát. Kérjük, próbálja újra."
+    },
+    "form": {
+      "defaultHint": "Az alábbiakban írja le problémáját vagy aggodalmát.",
+      "subjectLabel": "Téma",
+      "subjectPlaceholder": "A probléma rövid összefoglalása",
+      "messageLabel": "Üzenet",
+      "messagePlaceholder": "Írja le részletesen, mi történik…",
+      "recipientsLabel": "Küldje el ezt az aggodalmat",
+      "cancel": "Mégse",
+      "submitting": "Beküldés…",
+      "submit": "Jegy benyújtása"
+    },
+    "detail": {
+      "loading": "Jegy betöltése…",
+      "replyPlaceholder": "Írj választ…",
+      "close": "Közeli",
+      "sending": "Küldés…",
+      "sendReply": "Válasz küldése"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Üdv újra, {{name}}",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása",
+    "logout": "Jelentkezzen ki",
+    "search": "Keresés",
+    "notifications": "Értesítések"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Műszerfal",
+      "households": "Háztartási címtár",
+      "meterReadings": "Mérőleolvasások",
+      "billing": "Számlázási menedzsment",
+      "bulkPurchases": "Tömeges vásárlások",
+      "reports": "Jelentések",
+      "waterLeakage": "Vízszivárgás",
+      "support": "Támogatás / Aggodalmak",
+      "tariffPlans": "Díjszabási tervek",
+      "announcements": "Közlemények",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Íme egy pillanatkép a közösségedről."
+      },
+      "households": {
+        "title": "Háztartási címtár",
+        "subtitle": "Adja hozzá, frissítse és kezelje a közösségében élő lakosokat."
+      },
+      "meterReadings": {
+        "title": "Vízmérő leolvasó központ",
+        "subtitle": "Keressen egy lakót, és jegyezze fel a vízóra állását."
+      },
+      "tariffPlans": {
+        "title": "Tarifa konfiguráció",
+        "subtitle": "Állítson be többszintű díjkorlátokat, megosztott közös területi költségeket és elosztási módszereket a lakásközösség számára."
+      },
+      "billing": {
+        "title": "Számlázási menedzsment",
+        "subtitle": "Számlázási ciklusok megnyitása, véglegesítése és archiválása, valamint a tételes számlák háztartásonkénti áttekintése."
+      },
+      "bulkPurchases": {
+        "title": "Tömeges vásárlások",
+        "subtitle": "Rögzítse a tartályhajók szállításait és az önkormányzati ellátás beszerzéseit a közösség számára."
+      },
+      "waterLeakage": {
+        "title": "Vízszivárgás",
+        "subtitle": "Konfigurálja a küszöbértéken és a kiugró értékeken alapuló szivárgási riasztásokat, és tekintse át a megjelölt háztartásokat."
+      },
+      "support": {
+        "title": "Támogatás / Aggodalmak",
+        "subtitle": "Emelje fel saját jegyeit a rendszeradminisztrátornak, vagy kezelje a lakói által Önhöz intézett aggályokat."
+      },
+      "profile": {
+        "title": "Beállítások és profil",
+        "subtitle": "Kezelje fiókadatait és lakásinformációit."
+      }
+    },
+    "fallbackName": "Adminisztrátor",
+    "fallbackCommunity": "Közösségi adminisztrátor",
+    "notBuilt": "{{label}} még nincs megépítve",
+    "searchPlaceholder": "Keressen bármit…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Jelentések",
+      "description": "Fogyasztási, számlázási és megőrzési jelentések a közösség számára."
+    },
+    "announcements": {
+      "title": "Közlemények",
+      "description": "Küldjön közösségre kiterjedő közleményeket lakóinak."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} hamarosan érkezik"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Műszerfal",
+      "usageHistory": "Használati előzmények",
+      "bills": "Saját számláim",
+      "recommendations": "Ajánlások",
+      "reports": "Jelentések",
+      "support": "Támogatás / Aggodalmak",
+      "notifications": "Értesítések",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Az Ön használati előzményei",
+      "billing": "Számlázás és számlák",
+      "notifications": "Értesítések",
+      "recommendations": "Ajánlások",
+      "support": "Támogatás / Aggodalmak"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Lakossági navigáció",
+    "fallbackName": "Rezidens",
+    "unit": "Egység {{number}}",
+    "comingSoon": "{{label}} hamarosan érkezik",
+    "profile": "Profil",
+    "searchPlaceholder": "Keresési elemzések, számlák…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Műszerfal",
+      "communities": "közösségek",
+      "reports": "Jelentések",
+      "supportTickets": "Támogató jegyek",
+      "systemStatus": "Rendszer állapota"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platformszintű pillanatkép minden regisztrált közösségről."
+      },
+      "communities": {
+        "title": "közösségek",
+        "subtitle": "Minden regisztrált közösségi adminisztrátor és közösségük egy helyen."
+      },
+      "reports": {
+        "title": "Jelentések",
+        "subtitle": "Platformszintű vízhasználati és számlázási adatok közösségenként és időnként."
+      },
+      "supportTickets": {
+        "title": "Támogató jegyek",
+        "subtitle": "Támogatási jegyek és a lakosság és a közösségi adminisztrátorok által felvetett aggályok, platformszerte."
+      },
+      "systemStatus": {
+        "title": "Rendszer állapota",
+        "subtitle": "Háttérkapcsolat és alapvető futásidejű állapot."
+      }
+    },
+    "fallbackName": "Rendszergazda",
+    "platformOwner": "Platform tulajdonos",
+    "searchPlaceholder": "Közösségek keresése…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Nyelv: {{language}}",
+    "searchPlaceholder": "Nyelv keresése…",
+    "noMatches": "Nincs egyezés"
+  }
+}

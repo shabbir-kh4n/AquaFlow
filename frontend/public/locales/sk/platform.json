@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktívne",
+    "blocked": "Zablokované",
+    "terminated": "Ukončené"
+  },
+  "sort": {
+    "sortBy": "Zoradiť podľa",
+    "toggleDirection": "Prepnúť smer zoradenia",
+    "asc": "↑ Asc",
+    "desc": "↓ Popis"
+  },
+  "pagination": {
+    "showing": "Zobrazuje sa {{from}}–{{to}} z {{total}}",
+    "prev": "← Predch",
+    "next": "Ďalej →",
+    "page": "Strana {{page}} z {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Prehľad platformy",
+    "subtitle": "Každý registrovaný správca komunity na celej HydroLedger platforme.",
+    "viewAll": "Zobraziť všetky komunity",
+    "loadError": "Momentálne nie je možné načítať údaje platformy.",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "registeredAdmins": "Registrovaní správcovia",
+      "totalResidents": "Celkový počet obyvateľov",
+      "acrossAllCommunities": "Naprieč všetkými komunitami",
+      "active": "Aktívne",
+      "inGoodStanding": "V dobrom stave",
+      "blockedTerminated": "Blokované / ukončené",
+      "blockedTerminatedBreakdown": "{{blocked}} zablokované, {{terminated}} ukončené"
+    },
+    "recent": {
+      "title": "Nedávno registrované komunity",
+      "loading": "Načítava sa…",
+      "empty": "Zatiaľ nie sú zaregistrované žiadne komunity.",
+      "table": {
+        "community": "Spoločenstva",
+        "admin": "Admin",
+        "status": "Stav",
+        "residents": "Obyvatelia"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunity: {{count}}",
+    "loadError": "Komunity sa nepodarilo načítať. Skúste to znova.",
+    "searchPlaceholder": "Filtrujte podľa komunity, mena správcu alebo e-mailu",
+    "statusFilter": {
+      "label": "Stav",
+      "all": "Všetky"
+    },
+    "sortOptions": {
+      "community": "Spoločenstva",
+      "admin": "Admin",
+      "residents": "Obyvatelia"
+    },
+    "loading": "Načítavajú sa komunity…",
+    "empty": "Zatiaľ nie sú zaregistrované žiadne komunity.",
+    "noMatch": "Vašim filtrom nevyhovujú žiadne komunity.",
+    "table": {
+      "community": "Spoločenstva",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Stav",
+      "residents": "Obyvatelia",
+      "view": "Zobraziť"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Túto komunitu sa nepodarilo načítať. Možno bol odstránený.",
+    "statusUpdateError": "Nepodarilo sa aktualizovať stav tejto komunity.",
+    "deleteError": "Túto komunitu sa nepodarilo odstrániť.",
+    "loading": "Načítava sa komunita…",
+    "notFound": "Komunita sa nenašla.",
+    "backLink": "← Späť na Komunity",
+    "backLinkShort": "Späť na komunity",
+    "eyebrow": "Profil komunity",
+    "unnamed": "Nemenovaná komunita",
+    "noAddress": "Žiadna adresa v zázname",
+    "stats": {
+      "residents": "Obyvatelia",
+      "status": "Stav"
+    },
+    "actions": {
+      "reactivate": "Znova aktivovať",
+      "block": "Blokovať",
+      "terminate": "Ukončiť",
+      "delete": "Odstrániť komunitu"
+    },
+    "blockDialog": {
+      "title": "Zablokovať tohto správcu komunity?",
+      "message": "Zablokovať {{name}}? Kým nebudú odblokovaní, nebudú sa môcť prihlásiť. Žiadne údaje nebudú ovplyvnené.",
+      "confirm": "Blokovať"
+    },
+    "terminateDialog": {
+      "title": "Chcete ukončiť tohto správcu komunity?",
+      "message": "Chcete natrvalo ukončiť prístup používateľa {{name}}? Toto sa nedá vrátiť späť, hoci údaje o komunite budú uchovávané pre záznamy.",
+      "confirm": "Ukončiť"
+    },
+    "deleteDialog": {
+      "title": "Odstrániť túto komunitu?",
+      "message": "Týmto natrvalo odstránite <strong>{{name}}</strong> a všetky jeho domácnosti, obyvateľov, merače, konfiguráciu tarify/fakturácie a históriu faktúr. Túto akciu nie je možné vrátiť späť.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Potvrďte"
+    },
+    "residents": {
+      "title": "Obyvatelia",
+      "registeredCount": "Registrovaný: {{count}}",
+      "empty": "V tejto komunite sa zatiaľ nezaregistrovali žiadni obyvatelia.",
+      "table": {
+        "flatUnit": "Plochá jednotka",
+        "meter": "Meter",
+        "resident": "Rezident",
+        "email": "Email",
+        "passwordSet": "Nastavenie hesla"
+      },
+      "yes": "áno",
+      "no": "Nie"
+    },
+    "cancel": "Zrušiť",
+    "working": "Pracuje sa…",
+    "deleting": "Odstraňuje sa…"
+  },
+  "systemStatus": {
+    "statusError": "Nepodarilo sa dostať na backend a skontrolovať stav systému.",
+    "metricsError": "Históriu metrík sa nepodarilo načítať.",
+    "ranges": {
+      "fiveMinutes": "5 minút",
+      "fifteenMinutes": "15 minút",
+      "hour": "hodina",
+      "day": "deň",
+      "week": "týždeň",
+      "month": "mesiac",
+      "threeMonths": "3 mesiace"
+    },
+    "uptime": {
+      "days": "{{value}} d",
+      "hours": "{{value}} h",
+      "minutes": "{{value}} min"
+    },
+    "charts": {
+      "requestsPerSec": "Žiadosti/sek",
+      "opsPerSec": "Ops/s",
+      "latency": "Latencia",
+      "lastValue": "{{value}} posledný",
+      "loading": "Načítava sa…",
+      "empty": "Pre tento rozsah zatiaľ neboli zaznamenané žiadne metriky."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Kontroluje sa…",
+      "reachable": "Dosiahnuteľný",
+      "unreachable": "Nedosiahnuteľný",
+      "connected": "Pripojené",
+      "backendApiHint": "Táto stránka sa načítala z backendu, takže odpovedala.",
+      "database": "Databáza",
+      "databaseHint": "PostgreSQL konektivita, skontrolovaná naživo.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Od posledného reštartu aplikácie.",
+      "appVersion": "Verzia aplikácie",
+      "appVersionHint": "Verzia zostavy backendu."
+    },
+    "mini": {
+      "latency": "Latencia",
+      "readsLatency": "Latencia čítania",
+      "writesLatency": "Latencia zápisu",
+      "otherLatency": "Iná latencia",
+      "connections": "Spojenia",
+      "totalKeys": "Celkový počet kľúčov"
+    },
+    "note": "Požiadavky/s a latencia sú vzorkované zo živej backendovej prevádzky každých 15 sekúnd a uchovávajú sa až 100 dní. Toto je základná kontrola konektivity + prevádzky — nenahrádza úplné monitorovanie výkonu aplikácie, agregáciu protokolov ani upozorňovanie."
+  },
+  "reports": {
+    "loadError": "Nepodarilo sa načítať prehľad platformy.",
+    "ranges": {
+      "threeMonths": "3 mesiace",
+      "sixMonths": "6 mesiacov",
+      "twelveMonths": "12 mesiacov",
+      "custom": "Vlastné"
+    },
+    "sortOptions": {
+      "community": "Spoločenstva",
+      "usage": "Použitie",
+      "billed": "Fakturované",
+      "residents": "Obyvatelia"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "Komu",
+      "hint": "Ak chcete načítať vlastný prehľad, vyberte mesiac „od“ aj „do“."
+    },
+    "loading": "Načítava sa prehľad…",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "inThisRange": "V tomto rozsahu",
+      "totalResidents": "Celkový počet obyvateľov",
+      "acrossAllCommunities": "Naprieč všetkými komunitami",
+      "overallUsage": "Celkové využitie",
+      "meteredConsumption": "Meraná spotreba",
+      "overallBilled": "Celkovo fakturované",
+      "finalizedInvoicesOnly": "Len hotové faktúry",
+      "avgUsagePerResident": "Priemerná spotreba / obyvateľ",
+      "avgBillPerResident": "Priem. účet / obyvateľ"
+    },
+    "charts": {
+      "usageTitle": "Využitie v rámci celej platformy (kL / mesiac)",
+      "usageEmpty": "Pre tento rozsah nebolo zaznamenané žiadne použitie.",
+      "usageSeries": "Použitie",
+      "billedTitle": "Fakturovaná suma pre celú platformu (INR / mesiac)",
+      "billedEmpty": "Pre tento rozsah neboli dokončené žiadne faktúry.",
+      "billedSeries": "Fakturované"
+    },
+    "searchPlaceholder": "Filtrujte podľa mena komunity alebo správcu",
+    "empty": "Žiadne komunity zatiaľ nemajú údaje o využití ani fakturáciu pre tento rozsah.",
+    "noMatch": "Vášmu filtru nevyhovujú žiadne komunity.",
+    "table": {
+      "community": "Spoločenstva",
+      "admin": "Admin",
+      "residents": "Obyvatelia",
+      "usage": "Použitie (kL)",
+      "billed": "Fakturované (₹)",
+      "avgUsagePerResident": "Priemerná spotreba / obyvateľ",
+      "avgBillPerResident": "Priem. účet / obyvateľ"
+    }
+  },
+  "supportTickets": {
+    "title": "Podporné vstupenky",
+    "subtitle": "Podporte lístky a obavy, ktoré vzniesli obyvatelia a správcovia komunít, na celej platforme."
+  }
+}

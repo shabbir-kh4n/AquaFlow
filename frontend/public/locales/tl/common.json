@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Isara",
+    "signUpTitle": "Irehistro ang iyong komunidad",
+    "signInTitle": "Maligayang pagbabalik",
+    "signUpSubtitle": "Gumawa ng Community Admin account para simulan ang pamamahala sa mga residente at pagsingil.",
+    "signInSubtitle": "Mag-sign in upang tingnan ang iyong paggamit ng tubig at pagsingil."
+  },
+  "signIn": {
+    "errorFallback": "Hindi makapag-sign in. Pakisubukang muli.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMe": "Tandaan mo ako",
+    "forgotPassword": "Nakalimutan ang password?",
+    "submitting": "Nagsa-sign in…",
+    "submit": "Mag-sign In",
+    "noAccount": "Walang account?",
+    "signUpLink": "Mag-sign up"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Hindi tugma ang mga password.",
+      "communityRequired": "Kinakailangan ang pangalan ng komunidad.",
+      "termsRequired": "Mangyaring sumang-ayon sa Mga Tuntunin ng Serbisyo at Patakaran sa Privacy.",
+      "fallback": "Hindi makagawa ng account. Pakisubukang muli."
+    },
+    "hint": "Ang mga admin ng komunidad lamang ang nagparehistro dito. Kapag nakapasok ka na, ikaw mismo ang magdadagdag ng mga detalye ng iyong mga residente — hindi sila nagsa-sign up nang mag-isa.",
+    "fullNameLabel": "Buong pangalan",
+    "emailLabel": "Email",
+    "phoneLabel": "Numero ng telepono",
+    "communityNameLabel": "Pangalan ng komunidad",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Kumpirmahin ang password",
+    "agreeTerms": "Sumasang-ayon ako sa <termsLink>Mga Tuntunin ng Serbisyo</termsLink> at <privacyLink>Patakaran sa Privacy</privacyLink>",
+    "submitting": "Gumagawa ng account…",
+    "submit": "Lumikha ng Admin Account",
+    "haveAccount": "Mayroon ka nang account?",
+    "signInLink": "Mag-sign in"
+  },
+  "installPrompt": {
+    "title": "I-install HydroLedger",
+    "description": "Idagdag ito sa iyong home screen para sa mabilis na pag-access.",
+    "dismiss": "I-dismiss",
+    "install": "I-install"
+  },
+  "setPassword": {
+    "title": "Itakda ang iyong password",
+    "loading": "Naglo-load…",
+    "subtitle": "Kumusta {{name}}, pumili ng password para sa {{email}} upang maisaaktibo ang iyong HydroLedger account.",
+    "errors": {
+      "invalidLink": "Ang link na ito ay hindi wasto o nag-expire na.",
+      "tooShort": "Dapat na hindi bababa sa 8 character ang password.",
+      "mismatch": "Hindi tugma ang mga password.",
+      "fallback": "Hindi maitakda ang iyong password. Pakisubukang muli."
+    },
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Kumpirmahin ang password",
+    "submitting": "Pagtatakda ng password...",
+    "submit": "Itakda ang password at mag-sign in"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistant",
+      "resident": "Magtanong tungkol sa iyong account",
+      "admin": "Katulong ng Komunidad",
+      "platform": "Platform Assistant",
+      "default": "Katulong"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Ano ang HydroLedger?",
+        "tieredBilling": "Paano gumagana ang tiered billing?",
+        "leaks": "Paano natukoy ang mga pagtagas?"
+      },
+      "resident": {
+        "billEstimate": "Ano ang aking kasalukuyang pagtatantya ng singil?",
+        "alerts": "Mayroon ba akong anumang mga alerto sa paggamit?",
+        "readings": "Ipakita ang aking kamakailang mga pagbabasa ng metro"
+      },
+      "admin": {
+        "households": "Ilang kabahayan mayroon tayo?",
+        "billingCycles": "Ilista ang aming kamakailang mga yugto ng pagsingil",
+        "tariff": "Ano ang aming kasalukuyang plano ng taripa?"
+      },
+      "platform": {
+        "communities": "Ilista ang lahat ng nakarehistrong komunidad",
+        "usageReport": "Ipakita ang ulat sa paggamit ng platform",
+        "systemStatus": "Ano ang status ng system?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Masyado kang mabilis na nagpapadala ng mga mensahe - mangyaring maghintay ng ilang sandali at subukang muli.",
+      "unavailable": "Pansamantalang hindi available ang assistant. Pakisubukang muli sa ilang sandali.",
+      "generic": "Nagkaproblema sa pagpapadala ng mensaheng iyon. Pakisubukang muli."
+    },
+    "emptyHint": "Magtanong sa akin ng kahit ano - sarili mong data lang ang nakikita ko.",
+    "closeAssistant": "Isara ang katulong",
+    "openAssistant": "Buksan ang katulong",
+    "inputPlaceholder": "Mag-type ng mensahe…",
+    "inputLabel": "Mensahe",
+    "send": "Ipadala"
+  },
+  "supportBoard": {
+    "defaultTitle": "Mga Ticket ng Suporta",
+    "defaultCreateLabel": "Itaas ang Bagong Alalahanin",
+    "status": {
+      "open": "Bukas",
+      "inProgress": "Isinasagawa",
+      "resolved": "Nalutas",
+      "closed": "sarado"
+    },
+    "tabs": {
+      "all": "Lahat ng Ticket"
+    },
+    "recipients": {
+      "admin": "Admin ng Komunidad",
+      "systemAdmin": "System Admin",
+      "both": "Admin ng Komunidad + Admin ng System"
+    },
+    "roles": {
+      "resident": "Residente",
+      "admin": "Admin"
+    },
+    "toRecipients": "Para kay: {{recipients}}",
+    "raisedByResident": "Pinalaki ng residente {{name}}",
+    "raisedByAdmin": "Itinaas ng admin {{name}}",
+    "refresh": "I-refresh",
+    "stats": {
+      "openLabel": "Buksan ang Mga Pagsusumite",
+      "openHint": "Naghihintay ng pagsusuri",
+      "inProgressLabel": "Isinasagawa",
+      "inProgressHint": "Pinagtrabahuan",
+      "resolvedLabel": "Nalutas",
+      "resolvedHint": "Matagumpay na naisara"
+    },
+    "searchPlaceholder": "Maghanap ng mga tiket ayon sa paksa, isyu…",
+    "loadingTickets": "Nilo-load ang mga ticket…",
+    "empty": {
+      "title": "Walang Nahanap na Mga Ticket sa Suporta",
+      "body": "Kasalukuyan kang walang bukas o naitalang mga kahilingan sa suporta na tumutugma sa filter na ito.",
+      "cta": "Magsumite ng Alalahanin"
+    },
+    "errors": {
+      "loadList": "Hindi ma-load ang mga support ticket. Pakisubukang muli.",
+      "loadDetail": "Hindi ma-load ang ticket na ito. Pakisubukang muli.",
+      "required": "Parehong kailangan ang paksa at mensahe.",
+      "recipientRequired": "Pumili ng hindi bababa sa isang tatanggap (Community Admin at/o System Admin).",
+      "submitFallback": "Hindi maisumite ang ticket na ito. Pakisubukang muli.",
+      "sendReply": "Hindi maipadala ang mensaheng ito. Pakisubukang muli.",
+      "updateStatus": "Hindi ma-update ang status ng ticket na ito. Pakisubukang muli."
+    },
+    "form": {
+      "defaultHint": "Ilarawan ang iyong isyu o alalahanin sa ibaba.",
+      "subjectLabel": "Paksa",
+      "subjectPlaceholder": "Maikling buod ng iyong isyu",
+      "messageLabel": "Mensahe",
+      "messagePlaceholder": "Ilarawan kung ano ang nangyayari nang detalyado...",
+      "recipientsLabel": "Ipadala itong alalahanin sa",
+      "cancel": "Kanselahin",
+      "submitting": "Isinusumite…",
+      "submit": "Magsumite ng Ticket"
+    },
+    "detail": {
+      "loading": "Nilo-load ang ticket…",
+      "replyPlaceholder": "Sumulat ng tugon...",
+      "close": "Isara",
+      "sending": "Ipinapadala…",
+      "sendReply": "Ipadala ang Tugon"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Maligayang pagbabalik, {{name}}",
+    "openMenu": "Buksan ang menu",
+    "closeMenu": "Isara ang menu",
+    "logout": "Log out",
+    "search": "Maghanap",
+    "notifications": "Mga abiso"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Direktoryo ng mga Sambahayan",
+      "meterReadings": "Mga Pagbasa ng Metro",
+      "billing": "Pamamahala ng Pagsingil",
+      "bulkPurchases": "Maramihang Pagbili",
+      "reports": "Mga ulat",
+      "waterLeakage": "Pagtulo ng Tubig",
+      "support": "Suporta / Alalahanin",
+      "tariffPlans": "Mga Plano ng Taripa",
+      "announcements": "Mga anunsyo",
+      "profile": "Profile"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Narito ang isang snapshot ng iyong komunidad."
+      },
+      "households": {
+        "title": "Direktoryo ng mga Sambahayan",
+        "subtitle": "Magdagdag, mag-update, at pamahalaan ang mga residenteng naninirahan sa iyong komunidad."
+      },
+      "meterReadings": {
+        "title": "Water Metro Readings Hub",
+        "subtitle": "Maghanap ng residente at itala ang kanilang pagbabasa ng metro ng tubig."
+      },
+      "tariffPlans": {
+        "title": "Configuration ng Taripa",
+        "subtitle": "I-configure ang mga tiered na limitasyon sa rate, ibinahaging gastos sa common-area, at mga paraan ng pamamahagi para sa komunidad ng iyong apartment."
+      },
+      "billing": {
+        "title": "Pamamahala ng Pagsingil",
+        "subtitle": "Buksan, i-finalize, at i-archive ang mga cycle ng pagsingil, at suriin ang mga naka-itemize na invoice bawat sambahayan."
+      },
+      "bulkPurchases": {
+        "title": "Maramihang Pagbili",
+        "subtitle": "Itala ang mga paghahatid ng tanker at mga pagbili ng supply ng munisipyo para sa iyong komunidad."
+      },
+      "waterLeakage": {
+        "title": "Pagtulo ng Tubig",
+        "subtitle": "I-configure ang threshold at outlier-based na mga alerto sa pagtagas, at suriin ang mga na-flag na sambahayan."
+      },
+      "support": {
+        "title": "Suporta / Alalahanin",
+        "subtitle": "Itaas ang iyong sariling mga tiket sa Admin ng System, o pangasiwaan ang mga alalahanin na itinuro sa iyo ng iyong mga residente."
+      },
+      "profile": {
+        "title": "Mga Setting at Profile",
+        "subtitle": "Pamahalaan ang mga detalye ng iyong account at impormasyon ng apartment."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Admin ng Komunidad",
+    "notBuilt": "{{label}} ay hindi pa binuo",
+    "searchPlaceholder": "Maghanap ng kahit ano..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Mga ulat",
+      "description": "Mga ulat sa pagkonsumo, pagsingil, at konserbasyon para sa iyong komunidad."
+    },
+    "announcements": {
+      "title": "Mga anunsyo",
+      "description": "Magpadala ng mga anunsyo sa buong komunidad sa iyong mga residente."
+    }
+  },
+  "comingSoon": {
+    "title": "Malapit na ang {{title}}."
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Kasaysayan ng Paggamit",
+      "bills": "Aking mga Bill",
+      "recommendations": "Mga rekomendasyon",
+      "reports": "Mga ulat",
+      "support": "Suporta / Alalahanin",
+      "notifications": "Mga abiso",
+      "profile": "Profile"
+    },
+    "pages": {
+      "usageHistory": "Ang iyong kasaysayan ng paggamit",
+      "billing": "Pagsingil at Mga Invoice",
+      "notifications": "Mga abiso",
+      "recommendations": "Mga rekomendasyon",
+      "support": "Suporta / Alalahanin"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Resident navigation",
+    "fallbackName": "Residente",
+    "unit": "Yunit {{number}}",
+    "comingSoon": "Malapit na ang {{label}}.",
+    "profile": "Profile",
+    "searchPlaceholder": "Maghanap ng analytics, mga singil..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Mga komunidad",
+      "reports": "Mga ulat",
+      "supportTickets": "Mga Ticket ng Suporta",
+      "systemStatus": "Katayuan ng System"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "snapshot sa buong platform sa bawat nakarehistrong komunidad."
+      },
+      "communities": {
+        "title": "Mga komunidad",
+        "subtitle": "Ang bawat rehistradong admin ng komunidad at ang kanilang komunidad, sa isang lugar."
+      },
+      "reports": {
+        "title": "Mga ulat",
+        "subtitle": "Mga numero ng paggamit ng tubig at pagsingil sa buong platform, ayon sa komunidad at sa paglipas ng panahon."
+      },
+      "supportTickets": {
+        "title": "Mga Ticket ng Suporta",
+        "subtitle": "Suportahan ang mga tiket at alalahanin na ibinangon ng mga residente at mga admin ng komunidad, sa buong platform."
+      },
+      "systemStatus": {
+        "title": "Katayuan ng System",
+        "subtitle": "Backend connectivity at basic runtime health."
+      }
+    },
+    "fallbackName": "System Admin",
+    "platformOwner": "May-ari ng Platform",
+    "searchPlaceholder": "Maghanap ng mga komunidad…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Wika: {{language}}",
+    "searchPlaceholder": "Maghanap ng wika…",
+    "noMatches": "Walang tugma"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktīvs",
+    "blocked": "Bloķēts",
+    "terminated": "Izbeigts"
+  },
+  "sort": {
+    "sortBy": "Kārtot pēc",
+    "toggleDirection": "Pārslēgt kārtošanas virzienu",
+    "asc": "↑ Asc",
+    "desc": "↓ Aprak"
+  },
+  "pagination": {
+    "showing": "Rāda {{from}}–{{to}} no {{total}}",
+    "prev": "← Iepriekš",
+    "next": "Nākamais →",
+    "page": "{{page}} lapa no {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformas pārskats",
+    "subtitle": "Katrs reģistrētais kopienas administrators visā HydroLedger platformā.",
+    "viewAll": "Skatīt visas kopienas",
+    "loadError": "Pašlaik nevarēja ielādēt platformas datus.",
+    "cards": {
+      "totalCommunities": "Kopienas kopā",
+      "registeredAdmins": "Reģistrētie administratori",
+      "totalResidents": "Iedzīvotāju kopskaits",
+      "acrossAllCommunities": "Visās kopienās",
+      "active": "Aktīvs",
+      "inGoodStanding": "Labā stāvoklī",
+      "blockedTerminated": "Bloķēts / pārtraukts",
+      "blockedTerminatedBreakdown": "{{blocked}} bloķēts, {{terminated}} pārtraukts"
+    },
+    "recent": {
+      "title": "Nesen reģistrētās kopienas",
+      "loading": "Notiek ielāde…",
+      "empty": "Vēl nav reģistrēta neviena kopiena.",
+      "table": {
+        "community": "kopiena",
+        "admin": "Administrators",
+        "status": "Statuss",
+        "residents": "Iedzīvotāji"
+      }
+    }
+  },
+  "communities": {
+    "count": "Kopienas: {{count}}",
+    "loadError": "Nevarēja ielādēt kopienas. Lūdzu, mēģiniet vēlreiz.",
+    "searchPlaceholder": "Filtrējiet pēc kopienas, administratora vārda vai e-pasta",
+    "statusFilter": {
+      "label": "Statuss",
+      "all": "Visi"
+    },
+    "sortOptions": {
+      "community": "kopiena",
+      "admin": "Administrators",
+      "residents": "Iedzīvotāji"
+    },
+    "loading": "Notiek kopienu ielāde…",
+    "empty": "Vēl nav reģistrēta neviena kopiena.",
+    "noMatch": "Neviena kopiena neatbilst jūsu filtriem.",
+    "table": {
+      "community": "kopiena",
+      "admin": "Administrators",
+      "email": "E-pasts",
+      "status": "Statuss",
+      "residents": "Iedzīvotāji",
+      "view": "Skatīt"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Nevarēja ielādēt šo kopienu. Iespējams, tas ir noņemts.",
+    "statusUpdateError": "Nevarēja atjaunināt šīs kopienas statusu.",
+    "deleteError": "Nevarēja izdzēst šo kopienu.",
+    "loading": "Notiek kopienas ielāde…",
+    "notFound": "Kopiena nav atrasta.",
+    "backLink": "← Atpakaļ uz kopienām",
+    "backLinkShort": "Atpakaļ uz kopienām",
+    "eyebrow": "Kopienas profils",
+    "unnamed": "Kopiena bez nosaukuma",
+    "noAddress": "Failā nav adreses",
+    "stats": {
+      "residents": "Iedzīvotāji",
+      "status": "Statuss"
+    },
+    "actions": {
+      "reactivate": "Atkārtoti aktivizēt",
+      "block": "Bloķēt",
+      "terminate": "Pārtraukt",
+      "delete": "Dzēst kopienu"
+    },
+    "blockDialog": {
+      "title": "Vai bloķēt šo kopienas administratoru?",
+      "message": "Vai bloķēt {{name}}? Viņi nevarēs pieteikties, kamēr netiks atbloķēti. Dati netiks ietekmēti.",
+      "confirm": "Bloķēt"
+    },
+    "terminateDialog": {
+      "title": "Vai pārtraukt šī kopienas administratora darbību?",
+      "message": "Vai neatgriezeniski pārtraukt lietotāja {{name}} piekļuvi? Šo darbību nevar atsaukt, lai gan viņu kopienas dati tiks saglabāti uzskaitei.",
+      "confirm": "Pārtraukt"
+    },
+    "deleteDialog": {
+      "title": "Vai dzēst šo kopienu?",
+      "message": "Tiks neatgriezeniski dzēsts <strong>{{name}}</strong> un visas tās mājsaimniecības, iedzīvotāji, skaitītāji, tarifu/norēķinu konfigurācija un rēķinu vēsture. Šo darbību nevar atsaukt.",
+      "typeToConfirm": "Lai turpinātu, ierakstiet <strong>{{word}}</strong>",
+      "confirm": "Apstiprināt"
+    },
+    "residents": {
+      "title": "Iedzīvotāji",
+      "registeredCount": "Reģistrēts: {{count}}",
+      "empty": "Šajā kopienā vēl nav reģistrēts neviens iedzīvotājs.",
+      "table": {
+        "flatUnit": "Plakana vienība",
+        "meter": "Mērītājs",
+        "resident": "Iedzīvotājs",
+        "email": "E-pasts",
+        "passwordSet": "Paroles iestatīšana"
+      },
+      "yes": "Jā",
+      "no": "Nē"
+    },
+    "cancel": "Atcelt",
+    "working": "Strādā…",
+    "deleting": "Notiek dzēšana…"
+  },
+  "systemStatus": {
+    "statusError": "Nevarēja sasniegt aizmugursistēmu, lai pārbaudītu sistēmas statusu.",
+    "metricsError": "Nevarēja ielādēt metrikas vēsturi.",
+    "ranges": {
+      "fiveMinutes": "5 minūtes",
+      "fifteenMinutes": "15 minūtes",
+      "hour": "Stunda",
+      "day": "diena",
+      "week": "nedēļa",
+      "month": "Mēnesis",
+      "threeMonths": "3 mēneši"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Pieprasījumi/sek",
+      "opsPerSec": "Ops/s",
+      "latency": "Latentums",
+      "lastValue": "{{value}} pēdējā",
+      "loading": "Notiek ielāde…",
+      "empty": "Šim diapazonam vēl nav reģistrēta neviena metrika."
+    },
+    "stats": {
+      "min": "Min.: <b>{{value}}</b>",
+      "avg": "Vid.: <b>{{value}}</b>",
+      "max": "Maks.: <b>{{value}}</b>",
+      "last": "Pēdējā: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Aizmugursistēmas API",
+      "checking": "Notiek pārbaude…",
+      "reachable": "Sasniedzams",
+      "unreachable": "Nesasniedzams",
+      "connected": "Savienots",
+      "backendApiHint": "Šī lapa tika ielādēta no aizmugursistēmas, tāpēc tā atbildēja.",
+      "database": "Datu bāze",
+      "databaseHint": "PostgreSQL savienojamība, pārbaudīta tiešraidē.",
+      "uptime": "Aizmugursistēmas darbības laiks",
+      "uptimeHint": "Kopš pēdējās lietojumprogrammas restartēšanas.",
+      "appVersion": "Lietotnes versija",
+      "appVersionHint": "Aizmugursistēmas versija."
+    },
+    "mini": {
+      "latency": "Latentums",
+      "readsLatency": "Lasīšanas latentums",
+      "writesLatency": "Raksta latentums",
+      "otherLatency": "Cits latentums",
+      "connections": "Savienojumi",
+      "totalKeys": "Atslēgas kopā"
+    },
+    "note": "Pieprasījumi sekundē un latentums tiek atlasīti no reāllaika aizmugursistēmas datplūsmas ik pēc 15 sekundēm un tiek glabāti līdz 100 dienām. Šī ir pamata savienojamības + satiksmes pārbaude — tā neaizstāj pilnīgu lietojumprogrammas veiktspējas uzraudzību, žurnālu apkopošanu vai brīdinājumus."
+  },
+  "reports": {
+    "loadError": "Nevarēja ielādēt platformas pārskatu.",
+    "ranges": {
+      "threeMonths": "3 mēneši",
+      "sixMonths": "6 mēneši",
+      "twelveMonths": "12 mēneši",
+      "custom": "Pielāgots"
+    },
+    "sortOptions": {
+      "community": "kopiena",
+      "usage": "Lietošana",
+      "billed": "Rēķins",
+      "residents": "Iedzīvotāji"
+    },
+    "customRange": {
+      "from": "No",
+      "to": "Uz",
+      "hint": "Izvēlieties gan \"no\", gan \"līdz\" mēnesi, lai ielādētu pielāgotu pārskatu."
+    },
+    "loading": "Notiek pārskata ielāde…",
+    "cards": {
+      "totalCommunities": "Kopienas kopā",
+      "inThisRange": "Šajā diapazonā",
+      "totalResidents": "Iedzīvotāju kopskaits",
+      "acrossAllCommunities": "Visās kopienās",
+      "overallUsage": "Kopējais lietojums",
+      "meteredConsumption": "Uzskaitīts patēriņš",
+      "overallBilled": "Kopējais rēķins",
+      "finalizedInvoicesOnly": "Tikai pabeigti rēķini",
+      "avgUsagePerResident": "Vidējais lietojums/iedzīvotājs",
+      "avgBillPerResident": "Vidējais rēķins/iedzīvotājs"
+    },
+    "charts": {
+      "usageTitle": "Platformas lietojums (kL mēnesī)",
+      "usageEmpty": "Šajā diapazonā nav reģistrēts lietojums.",
+      "usageSeries": "Lietošana",
+      "billedTitle": "Platformas norēķinu summa (₹/mēnesī)",
+      "billedEmpty": "Šim diapazonam nav pabeigts neviens rēķins.",
+      "billedSeries": "Rēķins"
+    },
+    "searchPlaceholder": "Filtrējiet pēc kopienas vai administratora vārda",
+    "empty": "Pagaidām nevienai kopienai nav lietojuma vai norēķinu datu par šo diapazonu.",
+    "noMatch": "Neviena kopiena neatbilst jūsu filtram.",
+    "table": {
+      "community": "kopiena",
+      "admin": "Administrators",
+      "residents": "Iedzīvotāji",
+      "usage": "Lietojums (kL)",
+      "billed": "Rēķins (₹)",
+      "avgUsagePerResident": "Vidējais lietojums/iedzīvotājs",
+      "avgBillPerResident": "Vidējais rēķins/iedzīvotājs"
+    }
+  },
+  "supportTickets": {
+    "title": "Atbalsta biļetes",
+    "subtitle": "Atbalstiet biļetes un iedzīvotāju un kopienas administratoru bažas visā platformā."
+  }
+}

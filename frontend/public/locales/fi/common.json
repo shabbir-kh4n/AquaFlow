@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Lähellä",
+    "signUpTitle": "Rekisteröi yhteisösi",
+    "signInTitle": "Tervetuloa takaisin",
+    "signUpSubtitle": "Luo yhteisön järjestelmänvalvojatili aloittaaksesi asukkaiden hallinnan ja laskutuksen.",
+    "signInSubtitle": "Kirjaudu sisään nähdäksesi vedenkulutuksesi ja laskutuksesi."
+  },
+  "signIn": {
+    "errorFallback": "Kirjautuminen ei onnistu. Yritä uudelleen.",
+    "emailLabel": "Sähköposti",
+    "passwordLabel": "Salasana",
+    "rememberMe": "Muista minut",
+    "forgotPassword": "Unohditko salasanan?",
+    "submitting": "Kirjaudutaan sisään…",
+    "submit": "Kirjaudu sisään",
+    "noAccount": "Eikö sinulla ole tiliä?",
+    "signUpLink": "Rekisteröidy"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Salasanat eivät täsmää.",
+      "communityRequired": "Yhteisön nimi vaaditaan.",
+      "termsRequired": "Hyväksy käyttöehdot ja tietosuojakäytäntö.",
+      "fallback": "Tiliä ei voi luoda. Yritä uudelleen."
+    },
+    "hint": "Vain yhteisön ylläpitäjät rekisteröityvät tänne. Kun olet sisään, lisäät asukkaidesi tiedot itse – he eivät rekisteröidy itse.",
+    "fullNameLabel": "Koko nimi",
+    "emailLabel": "Sähköposti",
+    "phoneLabel": "Puhelinnumero",
+    "communityNameLabel": "Yhteisön nimi",
+    "passwordLabel": "Salasana",
+    "confirmPasswordLabel": "Vahvista salasana",
+    "agreeTerms": "Hyväksyn <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojakäytännön</privacyLink>",
+    "submitting": "Luodaan tiliä…",
+    "submit": "Luo järjestelmänvalvojan tili",
+    "haveAccount": "Onko sinulla jo tili?",
+    "signInLink": "Kirjaudu sisään"
+  },
+  "installPrompt": {
+    "title": "Asenna HydroLedger",
+    "description": "Lisää se aloitusnäyttöön nopeaa käyttöä varten.",
+    "dismiss": "Hylkää",
+    "install": "Asentaa"
+  },
+  "setPassword": {
+    "title": "Aseta salasanasi",
+    "loading": "Ladataan…",
+    "subtitle": "Hei {{name}}, valitse salasana käyttäjälle {{email}} aktivoidaksesi HydroLedger-tilisi.",
+    "errors": {
+      "invalidLink": "Tämä linkki on virheellinen tai vanhentunut.",
+      "tooShort": "Salasanassa on oltava vähintään 8 merkkiä.",
+      "mismatch": "Salasanat eivät täsmää.",
+      "fallback": "Salasanaa ei voitu asettaa. Yritä uudelleen."
+    },
+    "passwordLabel": "Salasana",
+    "confirmPasswordLabel": "Vahvista salasana",
+    "submitting": "Asetetaan salasanaa…",
+    "submit": "Aseta salasana ja kirjaudu sisään"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistentti",
+      "resident": "Kysy tilistäsi",
+      "admin": "Yhteisön avustaja",
+      "platform": "Alustan avustaja",
+      "default": "Assistant"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Mikä on HydroLedger?",
+        "tieredBilling": "Miten porrastettu laskutus toimii?",
+        "leaks": "Miten vuodot havaitaan?"
+      },
+      "resident": {
+        "billEstimate": "Mikä on tämänhetkinen laskuarvioni?",
+        "alerts": "Onko minulla käyttövaroituksia?",
+        "readings": "Näytä viimeisimmät mittarilukemani"
+      },
+      "admin": {
+        "households": "Kuinka monta kotitaloutta meillä on?",
+        "billingCycles": "Luettele viimeaikaiset laskutusjaksomme",
+        "tariff": "Mikä on nykyinen tariffisuunnitelmamme?"
+      },
+      "platform": {
+        "communities": "Listaa kaikki rekisteröidyt yhteisöt",
+        "usageReport": "Näytä alustan käyttöraportti",
+        "systemStatus": "Mikä on järjestelmän tila?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Lähetät viestejä liian nopeasti – odota hetki ja yritä uudelleen.",
+      "unavailable": "Assistentti ei ole tilapäisesti tavoitettavissa. Yritä hetken kuluttua uudelleen.",
+      "generic": "Jotain meni pieleen viestin lähettämisessä. Yritä uudelleen."
+    },
+    "emptyHint": "Kysy minulta mitä tahansa - näen vain omat tietosi.",
+    "closeAssistant": "Sulje avustaja",
+    "openAssistant": "Avaa avustaja",
+    "inputPlaceholder": "Kirjoita viesti…",
+    "inputLabel": "Viesti",
+    "send": "Lähetä"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tukiliput",
+    "defaultCreateLabel": "Nosta uusi huoli",
+    "status": {
+      "open": "Avata",
+      "inProgress": "Käynnissä",
+      "resolved": "Ratkaistu",
+      "closed": "Suljettu"
+    },
+    "tabs": {
+      "all": "Kaikki liput"
+    },
+    "recipients": {
+      "admin": "Yhteisön järjestelmänvalvoja",
+      "systemAdmin": "Järjestelmänvalvoja",
+      "both": "Yhteisön järjestelmänvalvoja + järjestelmänvalvoja"
+    },
+    "roles": {
+      "resident": "Asukas",
+      "admin": "Admin"
+    },
+    "toRecipients": "Vastaanottaja: {{recipients}}",
+    "raisedByResident": "Asukas {{name}} kasvattanut",
+    "raisedByAdmin": "Järjestelmänvalvojan kasvattama {{name}}",
+    "refresh": "Päivitä",
+    "stats": {
+      "openLabel": "Avaa lähetykset",
+      "openHint": "Odotetaan arvostelua",
+      "inProgressLabel": "Käynnissä",
+      "inProgressHint": "Työstetään",
+      "resolvedLabel": "Ratkaistu",
+      "resolvedHint": "Suljettu onnistuneesti"
+    },
+    "searchPlaceholder": "Hae lippuja aiheen, numeron mukaan…",
+    "loadingTickets": "Ladataan lippuja…",
+    "empty": {
+      "title": "Tukilippuja ei löytynyt",
+      "body": "Sinulla ei tällä hetkellä ole tätä suodatinta vastaavia avoimia tai tallennettuja tukipyyntöjä.",
+      "cta": "Lähetä huolenaihe"
+    },
+    "errors": {
+      "loadList": "Tukilippuja ei voitu ladata. Yritä uudelleen.",
+      "loadDetail": "Tätä lippua ei voitu ladata. Yritä uudelleen.",
+      "required": "Sekä aihe että viesti ovat pakollisia.",
+      "recipientRequired": "Valitse vähintään yksi vastaanottaja (yhteisön järjestelmänvalvoja ja/tai järjestelmänvalvoja).",
+      "submitFallback": "Tätä lippua ei voitu lähettää. Yritä uudelleen.",
+      "sendReply": "Tätä viestiä ei voitu lähettää. Yritä uudelleen.",
+      "updateStatus": "Tämän lipun tilan päivittäminen epäonnistui. Yritä uudelleen."
+    },
+    "form": {
+      "defaultHint": "Kuvaile ongelmasi tai huolenaiheesi alla.",
+      "subjectLabel": "Aihe",
+      "subjectPlaceholder": "Lyhyt yhteenveto ongelmastasi",
+      "messageLabel": "Viesti",
+      "messagePlaceholder": "Kuvaile mitä tapahtuu yksityiskohtaisesti…",
+      "recipientsLabel": "Lähetä tämä huolenaihe osoitteeseen",
+      "cancel": "Peruuttaa",
+      "submitting": "Lähetetään…",
+      "submit": "Lähetä lippu"
+    },
+    "detail": {
+      "loading": "Ladataan lippua…",
+      "replyPlaceholder": "Kirjoita vastaus…",
+      "close": "Lähellä",
+      "sending": "Lähetetään…",
+      "sendReply": "Lähetä vastaus"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Tervetuloa takaisin, {{name}}",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko",
+    "logout": "Kirjaudu ulos",
+    "search": "Haku",
+    "notifications": "Ilmoitukset"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Kojelauta",
+      "households": "Kotitalouksien hakemisto",
+      "meterReadings": "Mittarin lukemat",
+      "billing": "Laskutuksen hallinta",
+      "bulkPurchases": "Joukkoostot",
+      "reports": "Raportit",
+      "waterLeakage": "Vesivuoto",
+      "support": "Tuki / huolenaiheet",
+      "tariffPlans": "Tariffisuunnitelmat",
+      "announcements": "Ilmoitukset",
+      "profile": "Profiili"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Tässä on tilannekuva yhteisöstäsi."
+      },
+      "households": {
+        "title": "Kotitalouksien hakemisto",
+        "subtitle": "Lisää, päivitä ja hallinnoi yhteisössäsi asuvia asukkaita."
+      },
+      "meterReadings": {
+        "title": "Vesimittarin lukemien keskitin",
+        "subtitle": "Etsi asukas ja kirjaa hänen vesimittarinsa lukema."
+      },
+      "tariffPlans": {
+        "title": "Tariffimääritys",
+        "subtitle": "Määritä porrastetut hintarajat, jaetut yhteiset kustannukset ja jakelutavat asuntoyhteisöllesi."
+      },
+      "billing": {
+        "title": "Laskutuksen hallinta",
+        "subtitle": "Avaa, viimeistele ja arkistoi laskutusjaksot ja tarkastele eriteltyjä laskuja kotitaloutta kohti."
+      },
+      "bulkPurchases": {
+        "title": "Joukkoostot",
+        "subtitle": "Kirjaa säiliöautotoimitukset ja kunnalliset tarvikeostot paikkakunnallesi."
+      },
+      "waterLeakage": {
+        "title": "Vesivuoto",
+        "subtitle": "Määritä kynnysarvoihin ja poikkeamiin perustuvia vuotohälytyksiä ja tarkista merkityt kotitaloudet."
+      },
+      "support": {
+        "title": "Tuki / huolenaiheet",
+        "subtitle": "Nosta omat lippusi Järjestelmänvalvojalle tai käsittele asukkaidesi sinulle osoittamat huolenaiheet."
+      },
+      "profile": {
+        "title": "Asetukset ja profiili",
+        "subtitle": "Hallitse tilitietojasi ja asunnon tietoja."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Yhteisön järjestelmänvalvoja",
+    "notBuilt": "{{label}} ei ole vielä rakennettu",
+    "searchPlaceholder": "Hae mitä tahansa…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Raportit",
+      "description": "Kulutus-, laskutus- ja säilytysraportit yhteisöllesi."
+    },
+    "announcements": {
+      "title": "Ilmoitukset",
+      "description": "Lähetä yhteisön laajuisia ilmoituksia asukkaillesi."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} on tulossa pian"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Kojelauta",
+      "usageHistory": "Käyttöhistoria",
+      "bills": "Minun laskuni",
+      "recommendations": "Suositukset",
+      "reports": "Raportit",
+      "support": "Tuki / huolenaiheet",
+      "notifications": "Ilmoitukset",
+      "profile": "Profiili"
+    },
+    "pages": {
+      "usageHistory": "Käyttöhistoriasi",
+      "billing": "Laskutus ja laskut",
+      "notifications": "Ilmoitukset",
+      "recommendations": "Suositukset",
+      "support": "Tuki / huolenaiheet"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Asukas navigointi",
+    "fallbackName": "Asukas",
+    "unit": "Yksikkö {{number}}",
+    "comingSoon": "{{label}} on tulossa pian",
+    "profile": "Profiili",
+    "searchPlaceholder": "Hakuanalytiikka, laskut…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Kojelauta",
+      "communities": "yhteisöt",
+      "reports": "Raportit",
+      "supportTickets": "Tukiliput",
+      "systemStatus": "Järjestelmän tila"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Koko alustan kattava tilannekuva jokaisesta rekisteröidystä yhteisöstä."
+      },
+      "communities": {
+        "title": "yhteisöt",
+        "subtitle": "Jokainen rekisteröitynyt yhteisön ylläpitäjä ja heidän yhteisönsä yhdessä paikassa."
+      },
+      "reports": {
+        "title": "Raportit",
+        "subtitle": "Koko alustan kattavat vedenkulutus- ja laskutusluvut yhteisön ja ajan mukaan."
+      },
+      "supportTickets": {
+        "title": "Tukiliput",
+        "subtitle": "Tue lippuja ja asukkaiden ja yhteisön järjestelmänvalvojien esittämiä huolenaiheita alustanlaajuisesti."
+      },
+      "systemStatus": {
+        "title": "Järjestelmän tila",
+        "subtitle": "Taustayhteydet ja peruskäyttöaikainen kunto."
+      }
+    },
+    "fallbackName": "Järjestelmänvalvoja",
+    "platformOwner": "Alustan omistaja",
+    "searchPlaceholder": "Hae yhteisöjä…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Kieli: {{language}}",
+    "searchPlaceholder": "Hakukieli…",
+    "noMatches": "Ei osumia"
+  }
+}

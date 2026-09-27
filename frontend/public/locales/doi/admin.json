@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "लोड हो रहा है...",
+    "saving": "सहेज रहे हैं...",
+    "saved": "सहेजा गया।",
+    "uploading": "अपलोड हो रहा है...",
+    "upload": "अपलोड करो",
+    "uploadError": "ई फाइल अपलोड नी होई सकी। कृपया फेर कोशिश करो।",
+    "cancel": "रद्द करो",
+    "close": "बंद करो",
+    "edit": "बदलो",
+    "remove": "हटाओ",
+    "saveChanges": "बदलाव सहेजो",
+    "bulkSummary": "<b>{{total}}</b> पंगतियां प्रोसेस कीतियां — <b>{{success}}</b> सफल, <b>{{failure}}</b> विफल।",
+    "rowFailure": "पंक्ति {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "दिखा रहे हैं {{from}}–{{to}}, कुल {{total}} च",
+    "prev": "← पिछला",
+    "next": "अगला →",
+    "page": "सफा {{page}} (कुल {{pageCount}})"
+  },
+  "dashboard": {
+    "loadError": "इस बक्ते तुंदी कम्युनिटी दा डेटा लोड नी होई सकदा।",
+    "title": "{{community}} अपार्टमेंट डैशबोर्ड",
+    "titleFallback": "तुंदा अपार्टमेंट डैशबोर्ड",
+    "subtitle": "पानी दी खपत ते सब-मीटरिंग दा सारांश।",
+    "comingSoon": "जल्दी आ रहा है",
+    "manageCommunity": "कम्युनिटी प्रबंधित करो",
+    "noUsageReadings": "अज्जै तकर कोई खपत रीडिंग दर्ज नी होई।",
+    "cards": {
+      "totalHouseholds": "कुल परिवार",
+      "occupied": "रह रहे परिवार",
+      "activeMeters": "सक्रिय मीटर",
+      "reportingReadings": "रीडिंग रिपोर्टिंग",
+      "monthlyConsumption": "मासिक खपत",
+      "thisCalendarMonth": "ए कैलेंडर महीना",
+      "latestRecordedMonth": "नवीनतम दर्ज महीना ({{month}})",
+      "noReadingsYet": "अज्जै कोई रीडिंग दर्ज नी होई",
+      "pendingAlerts": "लंबित अलर्ट",
+      "anomalyPreview": "विसंगति डिटेक्शन प्रीव्यू — अज्जै उपलब्ध नी है"
+    },
+    "actions": {
+      "label": "प्रशासनिक कार्य",
+      "uploadReadings": "मीटर रीडिंग अपलोड करो",
+      "configureTariffs": "टैरिफ कॉन्फ़िगर करो",
+      "reportsNotBuilt": "रिपोर्ट अज्जै तैयार नी है",
+      "downloadReports": "सिस्टम रिपोर्ट डाउनलोड करो"
+    },
+    "chart": {
+      "title": "मासिक खपत तुलना (kL)",
+      "subtitle": "पिछले {{months}} महीने: लक्ष्य बनाम वास्तविक खपत।",
+      "targetSeries": "लक्ष्य (प्रीव्यू)",
+      "actualSeries": "वास्तविक"
+    },
+    "recent": {
+      "title": "हाल दी मीटर रीडिंग",
+      "unit": "यूनिट",
+      "resident": "निवासी",
+      "lastReading": "पिछली रीडिंग",
+      "consumption": "खपत"
+    }
+  },
+  "households": {
+    "loadError": "निवासी लोड नी होई सके। कृपया फिर कोशिश करो।",
+    "fixFields": "कृपया हाइलाइट कीते गेदे फील्डां ठीक करो।",
+    "saveError": "एह निवासी सेव नी होई सके। कृपया ब्यौरा चेक करो।",
+    "confirmRemove": "की तुस {{name}} गी अपनी हाउसहोल्ड डायरेक्टरी थमां हटाना चाहने ओ?",
+    "removeError": "एह निवासी गी हटाना मुमकिन नी हा। कृपया फिर कोशिश करो।",
+    "count": "परिवार (Households): {{total}}",
+    "bulkUploadButton": "⇪ बल्क अपलोड",
+    "addResidentButton": "+ निवासी जोड़ो",
+    "searchPlaceholder": "नां, घर, ईमेल, या मीटर नंबर कन्नै फिल्टर करो।",
+    "loading": "निवासी लोड हो रहे न...",
+    "empty": "कोई निवासी नेईं। पहला परिवार रजिस्टर करने लेई \"निवासी जोड़ो\" पर क्लिक करो।",
+    "noMatch": "कोई निवासी \"{{search}}\" कन्नै मेल नेईं खंदा।",
+    "sort": {
+      "label": "क्रमबद्ध करो",
+      "name": "नां",
+      "houseNumber": "घर दा नंबर",
+      "dateOfJoining": "शामिल होने दी तारीख",
+      "toggleDirection": "क्रम दी दिशा बदलो",
+      "asc": "↑ चढ़दा क्रम",
+      "desc": "↓ उतरदा क्रम"
+    },
+    "gender": {
+      "male": "मर्दाना",
+      "female": "जनाना",
+      "other": "होर"
+    },
+    "table": {
+      "name": "नां",
+      "houseUnit": "घर / यूनिट",
+      "email": "ईमेल",
+      "phone": "फोन",
+      "meterNumber": "मीटर नंबर",
+      "sqft": "स्क्वायर फीट",
+      "joined": "शामिल"
+    },
+    "form": {
+      "addTitle": "निवासी जोड़ो",
+      "editTitle": "निवासी दी जानकारी बदलो",
+      "editSubtitle": "एह थुआंडी डायरेक्टरी च निवासी दा ब्यौरा अपडेट करग।",
+      "bypassSubtitle": "तुस इस निवासी दा पासवर्ड सीधे सेट कर रहे ओ। कोई ईमेल नेईं भेजिया जाग।",
+      "addSubtitle": "एक पासवर्ड-सेट करने वाला लिंक इस निवासी गी ईमेल कीता जाग तां जे ओ अपना लॉग-इन एक्टिवेट कर सकन।",
+      "fullName": "पूरा नां",
+      "houseNumber": "घर / यूनिट नंबर",
+      "email": "ईमेल",
+      "phone": "फोन नंबर",
+      "meterNumber": "मीटर नंबर",
+      "governmentId": "सरकारी आईडी",
+      "gender": "लिंग",
+      "dateOfBirth": "जन्मता तारीख",
+      "dateOfJoining": "शामिल होने दी तारीख",
+      "flatSize": "फ्लैट दा साइज (sq ft)",
+      "bypassLabel": "पासवर्ड सेट ईमेल बाईपास करो - इस निवासी लेई पासवर्ड हुणई सेट करो",
+      "password": "पासवर्ड",
+      "confirmPassword": "पासवर्ड पक्का करो"
+    },
+    "validation": {
+      "fullNameRequired": "पूरा नां जरूरी ऐ।",
+      "emailRequired": "ईमेल जरूरी ऐ।",
+      "phoneRequired": "फोन नंबर जरूरी ऐ।",
+      "houseNumberRequired": "घर / यूनिट नंबर जरूरी ऐ।",
+      "houseNumberTaken": "एह घर नंबर पेहले ही किसे होर निवासी गी दित्ता गेदा ऐ।",
+      "meterNumberRequired": "मीटर नंबर जरूरी ऐ।",
+      "meterNumberFormat": "मीटर नंबर MTR-1234 (4 अंक) जिया होना चाहिदा।",
+      "meterNumberTaken": "एह मीटर नंबर पेहले ही किसे होर निवासी गी दित्ता गेदा ऐ।",
+      "governmentIdRequired": "सरकारी आईडी जरूरी ऐ।",
+      "governmentIdFormat": "आईडी 6 अंक दी होनी चाहिदी जो 99 थमां शुरू होवे (मिसाल दे तौर पर 991234)।",
+      "genderRequired": "कृपया लिंग चुनो।",
+      "dateOfBirthRequired": "जन्मता तारीख जरूरी ऐ।",
+      "dateOfJoiningRequired": "शामिल होने दी तारीख जरूरी ऐ।",
+      "passwordRequired": "पासवर्ड जरूरी ऐ।",
+      "passwordLength": "पासवर्ड घट्टो-घट्ट 8 अक्षर दा होना चाहिदा।",
+      "confirmPasswordRequired": "कृपया पासवर्ड पक्का करो।",
+      "passwordMismatch": "पासवर्ड मेल नेईं खंदे।"
+    },
+    "bulk": {
+      "title": "बल्क अपलोड निवासी",
+      "noFile": "कृपया अपलोड करने लेई .csv या .xlsx/.xls फाइल चुनो।",
+      "instructions": "<code>{{columns}}</code> कॉलम कन्नै इक .csv या .xlsx/.xls फाइल अपलोड करो (पासवर्ड ते flatSizeSqft वैकल्पिक न)। जिनियां रो च पासवर्ड सेट ऐ, ओ सीधे सेट होई जांगे; बिना पासवर्ड आलियां लेई, निवासी जोड़न दी तरह ई ईमेल भेजा जाग। डुप्लीकेट घर/मीटर नंबर या ईमेल रिजेक्ट कर दित्ते जांगे — इक गलत रो पूरे बैच गी फेल नेईं करग।"
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "निवासी लोड नहीं होई सके। कृपया फेर कोशिश करो।",
+    "historyLoadError": "रीडिंग दा इतिहास लोड नहीं होई सक्या। कृपया फेर कोशिश करो।",
+    "successMessage": "{{house}} (मीटर: {{meter}}) लेई {{value}} kL रीडिंग सफलतापूर्वक दर्ज कीती गई! हिसाब कीती गई खपत: {{consumption}} kL.",
+    "tabs": {
+      "single": "इकहरी एंट्री",
+      "csv": "बल्क CSV अपलोड",
+      "history": "रीडिंग दा इतिहास"
+    },
+    "source": {
+      "manual": "मैनुअल",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "इस निवासी दा कोई मीटर नंबर रिकॉर्ड च नहीं है।",
+      "dateRequired": "रीडिंग दी तारीख जरूरी है।",
+      "invalidValue": "कृपया इक सही, गैर-नकारात्मक रीडिंग मान दर्ज करो।",
+      "duplicate": "इस तारीख पर इस मीटर लेई रीडिंग पेहले ही मजूद है।",
+      "meterNotFound": "ए मीटर नहीं मिल्या। कृपया निवासी दोबारा चुनो।",
+      "lowerThanPrevious": "ए रीडिंग पेहले दर्ज कीती गई रीडिंग थमां घट्ट है।",
+      "recordFailed": "ए रीडिंग दर्ज नहीं कीती जा सकी। कृपया फेर कोशिश करो।"
+    },
+    "combo": {
+      "label": "फ्लैट ते मीटर नंबर चुनो",
+      "placeholder": "फ्लैट ते मीटर नंबर चुनो...",
+      "flat": "फ्लैट {{house}}",
+      "noMeter": "कोई मीटर नहीं",
+      "searchPlaceholder": "फ्लैट नंबर, मीटर सीरियल, निवासी खोजो...",
+      "unitsHeader": "रिहायशी यूनिट",
+      "found": "मिले फ्लैट: {{total}}",
+      "loading": "निवासी लोड हो रहे न...",
+      "noMatch": "कोई निवासी \"{{search}}\" कन्नै मेल नहीं खांदा।",
+      "unassigned": "असाइन नहीं कीता",
+      "itemMeta": "{{name}} · पिछला: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "रीडिंग दर्ज करना",
+      "context": "घर {{house}} · मीटर {{meter}}",
+      "changeResident": "निवासी बदलो",
+      "readingDate": "रीडिंग दी तारीख",
+      "readingValue": "मौजूदा मीटर रीडिंग (kL)",
+      "submit": "वेरिफाई कीती रीडिंग जमा करो",
+      "recentTitle": "हाल दी रीडिंग",
+      "recentEmpty": "इस मीटर लेई अभी कोई रीडिंग दर्ज नहीं कीती गई।"
+    },
+    "info": {
+      "title": "मोनोटोनिक मीटर वैलिडेशन",
+      "body": "हर नई रीडिंग पिछले रिकॉर्ड दे बराबर या उस थमां ज्यादा होनी चाहिदी है — ए खपत दे हिसाब गी सही रखदा है ते गलत अंके दी पहचान करदा है।"
+    },
+    "details": {
+      "title": "चुनी गई यूनिट दा विवरण",
+      "flatUnit": "फ्लैट यूनिट",
+      "meterSerial": "मीटर सीरियल",
+      "occupant": "निवासी दा नां",
+      "lastDial": "पिछली दर्ज रीडिंग",
+      "noReadings": "कोई रीडिंग नहीं",
+      "monthConsumption": "महीने दी खपत",
+      "empty": "कोई घर नहीं चुन्या। विवरण देखन लेई निवासी गी खोजो ते चुनो।"
+    },
+    "csv": {
+      "noFile": "कृपया अपलोड करन लेई CSV फाइल चुनो।",
+      "instructions": "<code>{{columns}}</code> कॉलम आली CSV अपलोड करो। हर पंक्ति दा अलग हिसाब होंदा है — इक गलत पंक्ति पूरे बैच गी फेल नहीं करदी।"
+    },
+    "history": {
+      "loading": "रीडिंग लोड हो रही है...",
+      "empty": "थुआडे समुदाय लेई अभी कोई रीडिंग दर्ज नहीं कीती गई।"
+    },
+    "table": {
+      "meterNumber": "मीटर नंबर",
+      "date": "तारीख",
+      "value": "मान (kL)",
+      "consumption": "खपत (kL)",
+      "source": "स्रोत"
+    }
+  },
+  "billingCycles": {
+    "title": "बिलिंग साइकिल",
+    "loadError": "बिलिंग साइकिल लोड नहीं हो सके। कृपया फेर कोशिश करो।",
+    "paymentUpdateError": "इनवॉइस दी भुगतान स्थिति अपडेट नहीं हो सकी।",
+    "pdfError": "PDF डाउनलोड नहीं हो सक्या। कृपया फेर कोशिश करो।",
+    "finalizeError": "बिलिंग साइकिल फाइनल नहीं हो सक्या।",
+    "archiveError": "बिलिंग साइकिल आर्काइव नहीं हो सक्या।",
+    "loading": "बिलिंग साइकिल लोड हो रहे न...",
+    "empty": "कोई बिलिंग साइकिल नहीं। शुरू करन लेई ऊपर इक खोलु।",
+    "status": {
+      "open": "खुल्ला",
+      "finalized": "फाइनल कीता",
+      "archived": "आर्काइव कीता"
+    },
+    "open": {
+      "title": "नवां बिलिंग साइकिल खोलो",
+      "noMonth": "खोलन लेई महीना चुनो।",
+      "error": "उस महीने लेई बिलिंग साइकिल नहीं खुल सक्या।",
+      "monthAria": "बिलिंग अवधि दा महीना",
+      "opening": "खुल रहा है...",
+      "submit": "साइकिल खोलो"
+    },
+    "table": {
+      "period": "अवधि",
+      "status": "स्थिति",
+      "householdsBilled": "बिल कीते घर",
+      "totalBilled": "कुल बिल",
+      "actions": "कार्रवाई"
+    },
+    "actions": {
+      "finalize": "फाइनल करो",
+      "finalizing": "फाइनल हो रहा है...",
+      "archive": "आर्काइव करो",
+      "archiving": "आर्काइव हो रहा है..."
+    },
+    "filter": {
+      "aria": "भुगतान स्थिति दे आधार पर फिल्टर करो",
+      "all": "सब"
+    },
+    "payment": {
+      "paid": "भुगतान कीता",
+      "unpaid": "भुगतान नहीं कीता",
+      "updating": "अपडेट हो रहा है...",
+      "markPaid": "भुगतान कीता चिह्नांकित करो",
+      "markUnpaid": "भुगतान नहीं कीता चिह्नांकित करो"
+    },
+    "detail": {
+      "title": "साइकिल विवरण — {{period}}",
+      "loading": "इनवॉइस लोड हो रहे न...",
+      "notFinalized": "ए साइकिल अभी फाइनल नहीं होइया है — कोई इनवॉइस जेनरेट नहीं कीता गया।",
+      "noInvoices": "इस साइकिल लेई कोई इनवॉइस नहीं।",
+      "noMatch": "कोई इनवॉइस इस फिल्टर कन्नै मेल नहीं खांदा।"
+    },
+    "invoices": {
+      "household": "घर",
+      "resident": "निवासी",
+      "meterNumber": "मीटर नंबर",
+      "consumption": "खपत (kL)",
+      "tierBreakdown": "टियर विवरण",
+      "commonArea": "साझा क्षेत्र",
+      "total": "कुल",
+      "paymentStatus": "भुगतान स्थिति",
+      "pdf": "PDF",
+      "baseLine": "बेस: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "टियर {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "टैरिफ कॉन्फ़िगरेशन लोड नी करी सक्या",
+    "saveError": "टैरिफ कॉन्फ़िगरेशन सेव नी करी सक्या",
+    "chartTitle": "सक्रिय मीटर युटिलिटी रेट टियर",
+    "axisNote": "रेट ₹/kL च, स्लैब लिमिट kL च",
+    "tableTitle": "प्राइसिंग टियर टेबल",
+    "defaultRatesNote": "डिफ़ॉल्ट रेट्स दखाड़े दे - अभी तक सेव नी कीते।",
+    "addTier": "+ टियर जोड़ो",
+    "saveRates": "टैरिफ रेट्स सेव करो",
+    "tierLevel": {
+      "base": "टियर {{tier}} (बेस)",
+      "medium": "टियर {{tier}} (मैडियम)",
+      "heavy": "टियर {{tier}} (हैवी)"
+    },
+    "basePrice": {
+      "label": "बेस प्राइस (₹ / kL, सारी खपत पर लागू)",
+      "note": "हर kL पर पहले ए फिक्स रेट लगदा ऐ। नीचले स्लैब सिर्फ उस खपत पर एक्स्ट्रा चार्ज जोड़दे न जो उंदा दायरा पार करदी ऐ — मिसाल दे तौर पर, 50 kL ताईं स्लैब सिर्फ 50 kL तों ऊपर दी खपत पर रेट जोड़दा ऐ।"
+    },
+    "table": {
+      "tierLevel": "टियर लेवल",
+      "slabLimit": "स्लैब लिमिट (kL)",
+      "rate": "रेट प्रति kL",
+      "action": "कार्रवाई"
+    },
+    "commonArea": {
+      "title": "साझा कॉमन एरिया लागत कॉन्फ़िगरेशन",
+      "loadError": "कॉमन-एरिया लागत कॉन्फ़िगरेशन लोड नी करी सक्या",
+      "saveError": "कॉमन-एरिया लागत कॉन्फ़िगरेशन सेव नी करी सक्या",
+      "empty": "कोई लागत आईटम सेव नी कीती।",
+      "labelPlaceholder": "लागत आईटम लेबल",
+      "perMonth": "/ महीना",
+      "active": "सक्रिय",
+      "addItem": "+ लागत आईटम जोड़ो",
+      "save": "कॉमन एरिया कॉन्फ़िगरेशन सेव करो"
+    },
+    "distribution": {
+      "title": "लागत वितरण विधि चयनकर्ता",
+      "consumption": "खपत दे अनुसार (सब-मीटर आनुपातिक)",
+      "floorArea": "अपार्टमेंट फ्लैट साइज दे अनुसार (वर्ग फुट)"
+    },
+    "footer": {
+      "cycleStart": "साइकिल बिलिंग शुरू दी तारीख",
+      "cycleStartValue": "हर महीने दी पहली तारीख",
+      "autoInvoices": "ऑटो-जनरेट PDF इनवॉइस"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "थ्रेशोल्ड पार करी गेदा",
+      "statisticalOutlier": "सांख्यिकीय आउटलायर"
+    },
+    "status": {
+      "active": "सक्रिय",
+      "resolved": "समाधान",
+      "dismissed": "खारिज"
+    },
+    "config": {
+      "title": "लीक डिटेक्शन कॉन्फ़िगरेशन",
+      "subtitle": "मासिक खपत सीमा सेट करो या सांख्यिकीय आउटलायर डिटेक्शन चालू करो (जेह्ड़ा उस परिवार दी पहचान करदा ऐ जिनदी मासिक खपत उंदे पिछले रिकॉर्ड दे मुकाबले बहुत ज्यादा ऐ)।",
+      "loadError": "अलर्ट कॉन्फ़िगरेशन लोड नी करी सक्या। कृपया दोबारा कोशिश करो।",
+      "thresholdRequired": "थ्रेशोल्ड अलर्ट चालू होने पर मासिक सीमा (kL) जरूरी ऐ।",
+      "saveError": "एह कॉन्फ़िगरेशन सेव नी करी सक्या।",
+      "loading": "कॉन्फ़िगरेशन लोड होय रिया ऐ…",
+      "threshold": "मासिक सीमा (kL)",
+      "sensitivity": "आउटलायर संवेदनशीलता (σ गुणक)",
+      "enableThreshold": "थ्रेशोल्ड अलर्ट चालू करो",
+      "enableOutlier": "सांख्यिकीय आउटलायर अलर्ट चालू करो",
+      "save": "कॉन्फ़िगरेशन सेव करो",
+      "running": "चल रह्या ऐ…",
+      "runNow": "डिटेक्शन अभी चलाओ"
+    },
+    "alerts": {
+      "title": "चिह्नित परिवार",
+      "loadError": "अलर्ट लोड नी करी सक्या। कृपया दोबारा कोशिश करो।",
+      "runError": "लीक डिटेक्शन अभी नी चल सक्या। कृपया दोबारा कोशिश करो।",
+      "updateError": "एह अलर्ट अपडेट नी करी सक्या। कृपया दोबारा कोशिश करो।",
+      "allStatuses": "सारे स्टेटस",
+      "loading": "अलर्ट लोड होय रिया ऐ…",
+      "empty": "दिखाने लेई कोई अलर्ट नी। एक सीमा कॉन्फ़िगर करो या ऊपर आउटलायर डिटेक्शन चालू करो, फिर अपनी कम्युनिटी दी मौजूदा खपत जांचने लेई \"डिटेक्शन अभी चलाओ\" पर क्लिक करो।",
+      "resolve": "समाधान",
+      "dismiss": "खारिज"
+    },
+    "table": {
+      "household": "परिवार",
+      "resident": "निवासी",
+      "meter": "मीटर",
+      "type": "किस्म",
+      "period": "अवधि",
+      "consumption": "खपत",
+      "reference": "संदर्भ",
+      "status": "स्थिति"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "बल्क वॉटर परचेज लोड नी करी सक्या। कृपया दोबारा कोशिश करो।",
+    "confirmRemove": "{{date}} पर {{source}} डिलीवरी हटाना चांदे ओ?",
+    "removeError": "एह परचेज हटा नी सक्या। कृपया दोबारा कोशिश करो।",
+    "count": "दर्ज कीती गई परचेज: {{total}}",
+    "recordButton": "+ परचेज दर्ज करो",
+    "loading": "बल्क वॉटर परचेज लोड होय रिया ऐ…",
+    "empty": "अजे ताईं कोई बल्क वॉटर परचेज दर्ज नी कीती। टैंकर डिलीवरी या म्युनिसिपल सप्लाई दर्ज करने लेई \"परचेज दर्ज करो\" पर क्लिक करो।",
+    "table": {
+      "date": "तारीख",
+      "source": "स्रोत",
+      "volume": "मात्रा (L)",
+      "unitCost": "इकाई लागत",
+      "totalCost": "कुल लागत",
+      "notes": "नोट्स"
+    },
+    "form": {
+      "addTitle": "बल्क वॉटर परचेज दर्ज करो",
+      "editTitle": "बल्क वॉटर परचेज एडिट करो",
+      "subtitle": "अपनी कम्युनिटी लेई टैंकर डिलीवरी या म्युनिसिपल सप्लाई ट्रैक करो - एह सिर्फ लागत दी जानकारी लेई दर्ज कीता जांदा ऐ ते पारिवारिक इनवॉइस पर असर नी करदा।",
+      "requiredFields": "कृपया तारीख, स्रोत, मात्रा, ते इकाई लागत भरो।",
+      "saveError": "एह परचेज सेव नी करी सक्या। कृपया विवरण जांचो।",
+      "purchaseDate": "खरीद दी तारीख",
+      "source": "स्रोत / सप्लायर",
+      "volume": "मात्रा (लीटर)",
+      "unitCost": "इकाई लागत (₹/लीटर)",
+      "totalPreview": "कुल लागत: {{amount}}",
+      "notes": "नोट्स (वैकल्पिक)",
+      "submit": "परचेज दर्ज करो"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} abi nayi bania hai",
+    "profileSaveError": "Tuhadi profile save nahi ho saki. Kripya pher koshish karo.",
+    "apartmentSaveError": "Apartment da vivran save nahi ho sakya. Kripya pher koshish karo.",
+    "specsTitle": "Profile da vivran",
+    "photoUnavailable": "Photo upload abi uplabdh nahi hai",
+    "changePhoto": "Photo badlo",
+    "deletePhoto": "Delete karo",
+    "photoHint": "JPG ya PNG. Zayada ton zayada 2MB size.",
+    "saveProfile": "Profile save karo",
+    "apartmentTitle": "Apartment da vivran",
+    "saveApartment": "Apartment da vivran save karo",
+    "tabs": {
+      "profile": "Profile settings",
+      "apartment": "Apartment profile",
+      "notifications": "Soochna de niyam",
+      "billing": "Billing integration",
+      "security": "Suraksha te pahunch"
+    },
+    "fields": {
+      "fullName": "Pura naam",
+      "email": "Email address",
+      "emailLocked": "Email ethe nahi badal sakdi",
+      "phone": "Phone number",
+      "accessLevel": "Pahunch da star",
+      "accessLevelValue": "Community administrator",
+      "roleLocked": "Role management abi uplabdh nahi hai",
+      "apartmentName": "Apartment da naam",
+      "mainsSource": "Mukhya jal srot",
+      "mainsSourcePlaceholder": "udaharan: Municipal supply + Supplemental tankers",
+      "address": "Bhougolic pata"
+    },
+    "security": {
+      "title": "Suraksha te pahunch preview",
+      "twoFactor": "Two-factor authentication",
+      "twoFactorHint": "Login par sakriye",
+      "twoFactorUnavailable": "Two-factor authentication abi uplabdh nahi hai",
+      "twoFactorAria": "Two-factor authentication (sirf preview)",
+      "sessionsLabel": "Sakriye admin session",
+      "sessionsEmpty": "Session tracking abi uplabdh nahi hai — eh aan aale layout da preview hai."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Meriya tickets",
+      "inbox": "Niwasia di tickets"
+    },
+    "mine": {
+      "title": "Meriya support tickets",
+      "subtitle": "System admin kol apni community bare koi sawal ya chinta rakho.",
+      "emptyCreateHint": "Apni community bare koi sawal ya chinta rakho. System admin isdi janch karange te ethe jawab denge."
+    },
+    "inbox": {
+      "title": "Niwasia di tickets",
+      "subtitle": "Support tickets te chinta jo tuhadi community de niwasiya ne tuhade kol rakhiya han."
+    }
+  }
+}

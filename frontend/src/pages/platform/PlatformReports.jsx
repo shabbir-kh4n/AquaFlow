@@ -9,28 +9,29 @@ import {
   XAxis,
   YAxis,
 } from 'recharts'
+import { useTranslation } from 'react-i18next'
 import { getPlatformReport } from '../../api/platformApi'
 import './PlatformReports.css'
 
 const PAGE_SIZE = 10
 
 const RANGE_OPTIONS = [
-  { value: '3mo', label: '3 Months' },
-  { value: '6mo', label: '6 Months' },
-  { value: '12mo', label: '12 Months' },
-  { value: 'custom', label: 'Custom' },
+  { value: '3mo', label: 'reports.ranges.threeMonths' },
+  { value: '6mo', label: 'reports.ranges.sixMonths' },
+  { value: '12mo', label: 'reports.ranges.twelveMonths' },
+  { value: 'custom', label: 'reports.ranges.custom' },
 ]
 
 const SORT_OPTIONS = [
-  { value: 'apartmentName', label: 'Community' },
-  { value: 'totalConsumptionKl', label: 'Usage' },
-  { value: 'totalBilledAmount', label: 'Billed' },
-  { value: 'residentCount', label: 'Residents' },
+  { value: 'apartmentName', label: 'reports.sortOptions.community' },
+  { value: 'totalConsumptionKl', label: 'reports.sortOptions.usage' },
+  { value: 'totalBilledAmount', label: 'reports.sortOptions.billed' },
+  { value: 'residentCount', label: 'reports.sortOptions.residents' },
 ]
 
-function formatMonthLabel(periodMonth) {
+function formatMonthLabel(periodMonth, locale) {
   const [year, month] = periodMonth.split('-')
-  return new Date(Number(year), Number(month) - 1, 1).toLocaleDateString(undefined, {
+  return new Date(Number(year), Number(month) - 1, 1).toLocaleDateString(locale, {
     month: 'short',
     year: '2-digit',
   })
@@ -45,6 +46,8 @@ function formatCurrency(value) {
 }
 
 function PlatformReports() {
+  const { t, i18n } = useTranslation('platform')
+  const locale = i18n.resolvedLanguage || 'en'
   const navigate = useNavigate()
   const [rangeMode, setRangeMode] = useState('3mo')
   const [customFrom, setCustomFrom] = useState('')
@@ -74,7 +77,7 @@ function PlatformReports() {
         setReport(data)
         setError('')
       })
-      .catch((err) => setError(err.response?.data?.message || 'Could not load the platform report.'))
+      .catch((err) => setError(err.response?.data?.message || t('reports.loadError')))
       .finally(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rangeMode, customFrom, customTo])
@@ -113,8 +116,8 @@ function PlatformReports() {
   )
 
   const trendPoints = useMemo(
-    () => (report?.monthlyTrend ?? []).map((p) => ({ ...p, label: formatMonthLabel(p.periodMonth) })),
-    [report],
+    () => (report?.monthlyTrend ?? []).map((p) => ({ ...p, label: formatMonthLabel(p.periodMonth, locale) })),
+    [report, locale],
   )
 
   function toggleSortDirection() {
@@ -135,18 +138,18 @@ function PlatformReports() {
             className={`af-rpt__range-tab ${rangeMode === opt.value ? 'af-rpt__range-tab--active' : ''}`}
             onClick={() => setRangeMode(opt.value)}
           >
-            {opt.label}
+            {t(opt.label)}
           </button>
         ))}
 
         {rangeMode === 'custom' && (
           <div className="af-rpt__custom-pickers">
             <label>
-              From
+              {t('reports.customRange.from')}
               <input type="month" value={customFrom} onChange={(e) => setCustomFrom(e.target.value)} />
             </label>
             <label>
-              To
+              {t('reports.customRange.to')}
               <input type="month" value={customTo} onChange={(e) => setCustomTo(e.target.value)} />
             </label>
           </div>
@@ -154,41 +157,41 @@ function PlatformReports() {
       </div>
 
       {rangeMode === 'custom' && !customRangeReady && (
-        <p className="af-rpt__hint">Pick both a "from" and "to" month to load a custom report.</p>
+        <p className="af-rpt__hint">{t('reports.customRange.hint')}</p>
       )}
 
       {loading && customRangeReady ? (
-        <p className="af-rpt__empty">Loading report…</p>
+        <p className="af-rpt__empty">{t('reports.loading')}</p>
       ) : (
         customRangeReady && (
           <>
             <div className="af-rpt__grid">
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Total Communities</span>
+                <span className="af-rpt__label">{t('reports.cards.totalCommunities')}</span>
                 <span className="af-rpt__value">{summary?.totalCommunities ?? 0}</span>
-                <span className="af-rpt__muted">In this range</span>
+                <span className="af-rpt__muted">{t('reports.cards.inThisRange')}</span>
               </article>
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Total Residents</span>
+                <span className="af-rpt__label">{t('reports.cards.totalResidents')}</span>
                 <span className="af-rpt__value">{summary?.totalResidents ?? 0}</span>
-                <span className="af-rpt__muted">Across all communities</span>
+                <span className="af-rpt__muted">{t('reports.cards.acrossAllCommunities')}</span>
               </article>
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Overall Usage</span>
+                <span className="af-rpt__label">{t('reports.cards.overallUsage')}</span>
                 <span className="af-rpt__value">{formatKl(summary?.totalConsumptionKl)}</span>
-                <span className="af-rpt__muted">Metered consumption</span>
+                <span className="af-rpt__muted">{t('reports.cards.meteredConsumption')}</span>
               </article>
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Overall Billed</span>
+                <span className="af-rpt__label">{t('reports.cards.overallBilled')}</span>
                 <span className="af-rpt__value">{formatCurrency(summary?.totalBilledAmount)}</span>
-                <span className="af-rpt__muted">Finalized invoices only</span>
+                <span className="af-rpt__muted">{t('reports.cards.finalizedInvoicesOnly')}</span>
               </article>
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Avg Usage / Resident</span>
+                <span className="af-rpt__label">{t('reports.cards.avgUsagePerResident')}</span>
                 <span className="af-rpt__value">{formatKl(summary?.avgConsumptionPerResident)}</span>
               </article>
               <article className="af-rpt__card">
-                <span className="af-rpt__label">Avg Bill / Resident</span>
+                <span className="af-rpt__label">{t('reports.cards.avgBillPerResident')}</span>
                 <span className="af-rpt__value">{formatCurrency(summary?.avgBilledPerResident)}</span>
               </article>
             </div>
@@ -196,10 +199,10 @@ function PlatformReports() {
             <div className="af-rpt__charts">
               <div className="af-rpt__chart-card">
                 <div className="af-rpt__chart-header">
-                  <span>Platform-wide Usage (kL / month)</span>
+                  <span>{t('reports.charts.usageTitle')}</span>
                 </div>
                 {trendPoints.length === 0 ? (
-                  <p className="af-rpt__chart-empty">No usage recorded for this range.</p>
+                  <p className="af-rpt__chart-empty">{t('reports.charts.usageEmpty')}</p>
                 ) : (
                   <ResponsiveContainer width="100%" height={220}>
                     <AreaChart data={trendPoints} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
@@ -208,7 +211,7 @@ function PlatformReports() {
                       <YAxis stroke="var(--af-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} width={48} />
                       <Tooltip
                         contentStyle={{ borderRadius: 12, border: '1px solid var(--af-glass-border)', fontSize: 12 }}
-                        formatter={(value) => [formatKl(value), 'Usage']}
+                        formatter={(value) => [formatKl(value), t('reports.charts.usageSeries')]}
                       />
                       <Area type="monotone" dataKey="totalConsumptionKl" stroke="var(--af-chart-1)" fill="var(--af-chart-1)" fillOpacity={0.15} strokeWidth={2} />
                     </AreaChart>
@@ -218,10 +221,10 @@ function PlatformReports() {
 
               <div className="af-rpt__chart-card">
                 <div className="af-rpt__chart-header">
-                  <span>Platform-wide Billed Amount (₹ / month)</span>
+                  <span>{t('reports.charts.billedTitle')}</span>
                 </div>
                 {trendPoints.length === 0 ? (
-                  <p className="af-rpt__chart-empty">No invoices finalized for this range.</p>
+                  <p className="af-rpt__chart-empty">{t('reports.charts.billedEmpty')}</p>
                 ) : (
                   <ResponsiveContainer width="100%" height={220}>
                     <AreaChart data={trendPoints} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
@@ -230,7 +233,7 @@ function PlatformReports() {
                       <YAxis stroke="var(--af-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} width={56} />
                       <Tooltip
                         contentStyle={{ borderRadius: 12, border: '1px solid var(--af-glass-border)', fontSize: 12 }}
-                        formatter={(value) => [formatCurrency(value), 'Billed']}
+                        formatter={(value) => [formatCurrency(value), t('reports.charts.billedSeries')]}
                       />
                       <Area type="monotone" dataKey="totalBilledAmount" stroke="var(--af-chart-2)" fill="var(--af-chart-2)" fillOpacity={0.15} strokeWidth={2} />
                     </AreaChart>
@@ -247,43 +250,43 @@ function PlatformReports() {
                 </svg>
                 <input
                   type="text"
-                  placeholder="Filter by community or admin name"
+                  placeholder={t('reports.searchPlaceholder')}
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                 />
               </div>
 
               <div className="af-rpt__sort">
-                <label htmlFor="sortField">Sort by</label>
+                <label htmlFor="sortField">{t('sort.sortBy')}</label>
                 <select id="sortField" value={sortField} onChange={(e) => setSortField(e.target.value)}>
                   {SORT_OPTIONS.map((opt) => (
                     <option key={opt.value} value={opt.value}>
-                      {opt.label}
+                      {t(opt.label)}
                     </option>
                   ))}
                 </select>
-                <button type="button" className="af-rpt__sort-dir" onClick={toggleSortDirection} title="Toggle sort direction">
-                  {sortDirection === 'asc' ? '↑ Asc' : '↓ Desc'}
+                <button type="button" className="af-rpt__sort-dir" onClick={toggleSortDirection} title={t('sort.toggleDirection')}>
+                  {sortDirection === 'asc' ? t('sort.asc') : t('sort.desc')}
                 </button>
               </div>
             </div>
 
             <div className="af-rpt__table-wrap">
               {communities.length === 0 ? (
-                <p className="af-rpt__empty">No communities have usage or billing data for this range yet.</p>
+                <p className="af-rpt__empty">{t('reports.empty')}</p>
               ) : visibleCommunities.length === 0 ? (
-                <p className="af-rpt__empty">No communities match your filter.</p>
+                <p className="af-rpt__empty">{t('reports.noMatch')}</p>
               ) : (
                 <table className="af-rpt__table">
                   <thead>
                     <tr>
-                      <th>Community</th>
-                      <th>Admin</th>
-                      <th>Residents</th>
-                      <th>Usage (kL)</th>
-                      <th>Billed (₹)</th>
-                      <th>Avg Usage / Resident</th>
-                      <th>Avg Bill / Resident</th>
+                      <th>{t('reports.table.community')}</th>
+                      <th>{t('reports.table.admin')}</th>
+                      <th>{t('reports.table.residents')}</th>
+                      <th>{t('reports.table.usage')}</th>
+                      <th>{t('reports.table.billed')}</th>
+                      <th>{t('reports.table.avgUsagePerResident')}</th>
+                      <th>{t('reports.table.avgBillPerResident')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -318,18 +321,21 @@ function PlatformReports() {
             {visibleCommunities.length > 0 && (
               <div className="af-rpt__pagination">
                 <span className="af-rpt__pagination-info">
-                  Showing {page * PAGE_SIZE + 1}–{Math.min(visibleCommunities.length, page * PAGE_SIZE + PAGE_SIZE)} of{' '}
-                  {visibleCommunities.length}
+                  {t('pagination.showing', {
+                    from: page * PAGE_SIZE + 1,
+                    to: Math.min(visibleCommunities.length, page * PAGE_SIZE + PAGE_SIZE),
+                    total: visibleCommunities.length,
+                  })}
                 </span>
                 <div className="af-rpt__pagination-controls">
                   <button type="button" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-                    ← Prev
+                    {t('pagination.prev')}
                   </button>
                   <span className="af-rpt__pagination-page">
-                    Page {page + 1} of {pageCount}
+                    {t('pagination.page', { page: page + 1, pageCount })}
                   </span>
                   <button type="button" disabled={page >= pageCount - 1} onClick={() => setPage((p) => p + 1)}>
-                    Next →
+                    {t('pagination.next')}
                   </button>
                 </div>
               </div>

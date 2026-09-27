@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Chiudi",
+    "signUpTitle": "Registrate a vostra cumunità",
+    "signInTitle": "Benvenuta di ritornu",
+    "signUpSubtitle": "Crea un contu Amministratore di a cumunità per cumincià à gestisce i residenti è a fatturazione.",
+    "signInSubtitle": "Accedi per vede u vostru usu di l'acqua è a fattura."
+  },
+  "signIn": {
+    "errorFallback": "Impossible di accede. Per piacè pruvate di novu.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Codice",
+    "rememberMe": "Arriccorda ti di mè",
+    "forgotPassword": "Password dimenticata?",
+    "submitting": "Signing in…",
+    "submit": "Firmà lu",
+    "noAccount": "Ùn avete micca un contu ?",
+    "signUpLink": "Firma"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "I password ùn currispondenu micca.",
+      "communityRequired": "U nome di a cumunità hè necessariu.",
+      "termsRequired": "Per piacè accettà i Termini di serviziu è a Politica di privacy.",
+      "fallback": "Impossibile di creà un contu. Per piacè pruvate di novu."
+    },
+    "hint": "Solu l'amministratori di a cumunità si registranu quì. Una volta chì site in, aghjunghje i dati di i vostri residenti stessu - ùn si firmanu micca da sè stessu.",
+    "fullNameLabel": "Nome interu",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Numeru di telefonu",
+    "communityNameLabel": "Nome di a cumunità",
+    "passwordLabel": "Codice",
+    "confirmPasswordLabel": "Cunfirmà a parolla d'intesa",
+    "agreeTerms": "Accettanu i <termsLink>Termini di serviziu</termsLink> è a <privacyLink>Politica di privacy</privacyLink>",
+    "submitting": "Creazione di un contu…",
+    "submit": "Crea un contu di amministratore",
+    "haveAccount": "Avete digià un contu ?",
+    "signInLink": "Firmà lu"
+  },
+  "installPrompt": {
+    "title": "Installa HydroLedger",
+    "description": "Aghjunghjite à a vostra pantalla di casa per un accessu rapidu.",
+    "dismiss": "Licenziate",
+    "install": "Installa"
+  },
+  "setPassword": {
+    "title": "Stabbilisce a vostra password",
+    "loading": "Caricamentu…",
+    "subtitle": "Salute {{name}}, sceglite una password per {{email}} per attivà u vostru contu HydroLedger.",
+    "errors": {
+      "invalidLink": "Stu ligame hè invalidu o hè scadutu.",
+      "tooShort": "A password deve esse almenu 8 caratteri.",
+      "mismatch": "I password ùn currispondenu micca.",
+      "fallback": "Ùn pudia micca stabilisce a vostra password. Per piacè pruvate di novu."
+    },
+    "passwordLabel": "Codice",
+    "confirmPasswordLabel": "Cunfirmà a parolla d'intesa",
+    "submitting": "Impostazione di a password...",
+    "submit": "Stabilite a password è accede"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistant",
+      "resident": "Dumandate nantu à u vostru contu",
+      "admin": "Assistente di a cumunità",
+      "platform": "Assistente di piattaforma",
+      "default": "Assistant"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Chì ghjè HydroLedger?",
+        "tieredBilling": "Cumu funziona a fatturazione in livelli?",
+        "leaks": "Cumu sò rilevate e fughe?"
+      },
+      "resident": {
+        "billEstimate": "Chì ghjè a mo stima di fattura attuale?",
+        "alerts": "Aghju qualchì avvisu di usu ?",
+        "readings": "Mostra i mo recenti letture di u metru"
+      },
+      "admin": {
+        "households": "Quante famiglie avemu ?",
+        "billingCycles": "Lista i nostri recenti cicli di fatturazione",
+        "tariff": "Chì ghjè u nostru pianu di tariffu attuale?"
+      },
+      "platform": {
+        "communities": "Lista tutte e cumunità registrate",
+        "usageReport": "Mostra u rapportu di usu di a piattaforma",
+        "systemStatus": "Chì ghjè u statutu di u sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mandate missaghji troppu prestu - per piacè aspettate un mumentu è pruvate di novu.",
+      "unavailable": "L'assistente hè temporaneamente indisponibile. Per piacè pruvate di novu prestu.",
+      "generic": "Qualcosa hè andatu sbagliatu mandendu stu missaghju. Per piacè pruvate di novu."
+    },
+    "emptyHint": "Dumandate qualcosa - possu vede solu i vostri dati.",
+    "closeAssistant": "Assistant vicinu",
+    "openAssistant": "Apertura assistente",
+    "inputPlaceholder": "Scrivite un missaghju...",
+    "inputLabel": "Missaghju",
+    "send": "Mandate"
+  },
+  "supportBoard": {
+    "defaultTitle": "Biglietti di supportu",
+    "defaultCreateLabel": "Suscita una nova preoccupazione",
+    "status": {
+      "open": "Apertu",
+      "inProgress": "In corsu",
+      "resolved": "Risolta",
+      "closed": "Chjusu"
+    },
+    "tabs": {
+      "all": "Tutti i biglietti"
+    },
+    "recipients": {
+      "admin": "Amministratore di a cumunità",
+      "systemAdmin": "Amministratore di u sistema",
+      "both": "Amministratore di a cumunità + Amministratore di u sistema"
+    },
+    "roles": {
+      "resident": "Residente",
+      "admin": "Admin"
+    },
+    "toRecipients": "À : {{recipients}}",
+    "raisedByResident": "Cresciuta da residente {{name}}",
+    "raisedByAdmin": "Cresciuta da l'amministratore {{name}}",
+    "refresh": "Refresh",
+    "stats": {
+      "openLabel": "Open Submissions",
+      "openHint": "In attesa di rivisione",
+      "inProgressLabel": "In corsu",
+      "inProgressHint": "Essendu travagliatu",
+      "resolvedLabel": "Risolta",
+      "resolvedHint": "Chiusu successu"
+    },
+    "searchPlaceholder": "Ricerca i biglietti per sughjettu, emissione...",
+    "loadingTickets": "Caricamentu di i biglietti…",
+    "empty": {
+      "title": "Nisun bigliettu di supportu trovu",
+      "body": "Attualmente ùn avete micca richieste di supportu aperte o registrate chì currispondenu à stu filtru.",
+      "cta": "Invia una Preoccupazione"
+    },
+    "errors": {
+      "loadList": "Impossibile caricare i biglietti di supportu. Per piacè pruvate di novu.",
+      "loadDetail": "Ùn pudia micca carica stu bigliettu. Per piacè pruvate di novu.",
+      "required": "U sughjettu è u missaghju sò tutti richiesti.",
+      "recipientRequired": "Selezziunate almenu un destinatariu (Amministratore di a Comunità è / o Amministratore di u Sistema).",
+      "submitFallback": "Ùn pudia micca mandà stu bigliettu. Per piacè pruvate di novu.",
+      "sendReply": "Ùn pudia mandà stu missaghju. Per piacè pruvate di novu.",
+      "updateStatus": "Ùn pudia aghjurnà stu statutu di u bigliettu. Per piacè pruvate di novu."
+    },
+    "form": {
+      "defaultHint": "Scrivite u vostru prublema o preoccupazione quì sottu.",
+      "subjectLabel": "Sugettu",
+      "subjectPlaceholder": "Breve riassuntu di u vostru prublema",
+      "messageLabel": "Missaghju",
+      "messagePlaceholder": "Descrivite ciò chì succede in dettagliu ...",
+      "recipientsLabel": "Mandate sta preoccupazione à",
+      "cancel": "Cancella",
+      "submitting": "Invio…",
+      "submit": "Mandate u Bigliettu"
+    },
+    "detail": {
+      "loading": "Caricamentu di u bigliettu…",
+      "replyPlaceholder": "Scrivite una risposta...",
+      "close": "Chiudi",
+      "sending": "Mandatu…",
+      "sendReply": "Mandate Risposta"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Benvenutu torna, {{name}}",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "logout": "Scunnettà si",
+    "search": "Ricerca",
+    "notifications": "Notificazioni"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Directory di famiglie",
+      "meterReadings": "Lettura di metri",
+      "billing": "Gestione di fattura",
+      "bulkPurchases": "Acquisti grossi",
+      "reports": "Rapporti",
+      "waterLeakage": "Fuga d'acqua",
+      "support": "Supportu / Preoccupazioni",
+      "tariffPlans": "Piani tariffari",
+      "announcements": "Annunci",
+      "profile": "Prufilu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Eccu un snapshot di a vostra cumunità."
+      },
+      "households": {
+        "title": "Directory di famiglie",
+        "subtitle": "Aghjunghjite, aghjurnà è gestisce i residenti chì vivenu in a vostra cumunità."
+      },
+      "meterReadings": {
+        "title": "Hub di lettura di u contatore d'acqua",
+        "subtitle": "Cerca un residente è registra a so lettura di u metru d'acqua."
+      },
+      "tariffPlans": {
+        "title": "Cunfigurazione Tariffa",
+        "subtitle": "Configurate i limiti di tariffu à livellu, i costi di l'area cumuna è i metudi di distribuzione per a vostra cumunità di appartamenti."
+      },
+      "billing": {
+        "title": "Gestione di fattura",
+        "subtitle": "Apertura, finalizà è archiviate i ciculi di fattura, è rivede e fatture dettagliate per famiglia."
+      },
+      "bulkPurchases": {
+        "title": "Acquisti grossi",
+        "subtitle": "Registrate e spedizioni di cisterna è l'acquistu di furnizzioni municipali per a vostra cumunità."
+      },
+      "waterLeakage": {
+        "title": "Fuga d'acqua",
+        "subtitle": "Configurate l'alerte di fuga basate nantu à u soglia è l'outlier, è verificate e famiglie marcate."
+      },
+      "support": {
+        "title": "Supportu / Preoccupazioni",
+        "subtitle": "Alzate i vostri propri biglietti à l'amministratore di u sistema, o trattà e preoccupazioni chì i vostri residenti anu indirizzatu à voi."
+      },
+      "profile": {
+        "title": "Settings & Profile",
+        "subtitle": "Gestisce i dati di u vostru contu è l'infurmazioni di l'appartamentu."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Amministratore di a cumunità",
+    "notBuilt": "{{label}} ùn hè ancu custruitu",
+    "searchPlaceholder": "Cerca qualcosa..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporti",
+      "description": "Rapporti di cunsumu, fattura è cunservazione per a vostra cumunità."
+    },
+    "announcements": {
+      "title": "Annunci",
+      "description": "Mandate annunzii in tutta a cumunità à i vostri residenti."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} hè prestu"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Storia di l'usu",
+      "bills": "My Bills",
+      "recommendations": "Raccomandazioni",
+      "reports": "Rapporti",
+      "support": "Supportu / Preoccupazioni",
+      "notifications": "Notificazioni",
+      "profile": "Prufilu"
+    },
+    "pages": {
+      "usageHistory": "A vostra storia di usu",
+      "billing": "Fatturazione è fatture",
+      "notifications": "Notificazioni",
+      "recommendations": "Raccomandazioni",
+      "support": "Supportu / Preoccupazioni"
+    },
+    "defaultTitle": "Dashboard di u Residente",
+    "navLabel": "Navigazione residente",
+    "fallbackName": "Residente",
+    "unit": "Unità {{number}}",
+    "comingSoon": "{{label}} hè prestu",
+    "profile": "Prufilu",
+    "searchPlaceholder": "Analitiche di ricerca, fatture..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Cumunità",
+      "reports": "Rapporti",
+      "supportTickets": "Biglietti di supportu",
+      "systemStatus": "Status di u sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Istantanea in tutta a piattaforma in ogni cumunità registrata."
+      },
+      "communities": {
+        "title": "Cumunità",
+        "subtitle": "Ogni amministratore di a cumunità registrata è a so cumunità, in un locu."
+      },
+      "reports": {
+        "title": "Rapporti",
+        "subtitle": "L'usu di l'acqua in a piattaforma è e figure di fattura, per cumunità è cù u tempu."
+      },
+      "supportTickets": {
+        "title": "Biglietti di supportu",
+        "subtitle": "Supporta i biglietti è e preoccupazioni suscitate da i residenti è l'amministratori di a cumunità, in tutta a piattaforma."
+      },
+      "systemStatus": {
+        "title": "Status di u sistema",
+        "subtitle": "Connettività backend è salute di runtime basica."
+      }
+    },
+    "fallbackName": "Amministratore di u sistema",
+    "platformOwner": "Prupietariu di a piattaforma",
+    "searchPlaceholder": "Ricerca in cumunità..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lingua: {{language}}",
+    "searchPlaceholder": "Ricerca lingua...",
+    "noMatches": "Nisuna partita"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiboa",
+    "blocked": "Blokeatua",
+    "terminated": "Amaitua"
+  },
+  "sort": {
+    "sortBy": "Ordenatu",
+    "toggleDirection": "Aldatu ordenatzeko norabidea",
+    "asc": "↑ Asc",
+    "desc": "↓ Desk"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}}/{{total}} erakusten",
+    "prev": "← Aurrekoa",
+    "next": "Hurrengoa →",
+    "page": "{{page}}/{{pageCount}} orrialdea"
+  },
+  "dashboard": {
+    "title": "Plataformaren ikuspegi orokorra",
+    "subtitle": "Erregistratutako komunitateko administratzaile bakoitza, HydroLedger plataforma osoan.",
+    "viewAll": "Ikusi komunitate guztiak",
+    "loadError": "Ezin izan dira kargatu plataformako datuak une honetan.",
+    "cards": {
+      "totalCommunities": "Komunitateak guztira",
+      "registeredAdmins": "Erregistratutako administratzaileak",
+      "totalResidents": "Egoiliarren guztira",
+      "acrossAllCommunities": "Komunitate guztietan",
+      "active": "Aktiboa",
+      "inGoodStanding": "Egoera onean",
+      "blockedTerminated": "Blokeatua / Amaitua",
+      "blockedTerminatedBreakdown": "{{blocked}} blokeatuta, {{terminated}} amaitu da"
+    },
+    "recent": {
+      "title": "Erregistratutako azken komunitateak",
+      "loading": "Kargatzen…",
+      "empty": "Oraindik ez dago komunitaterik erregistratu.",
+      "table": {
+        "community": "Komunitatea",
+        "admin": "Admin",
+        "status": "Egoera",
+        "residents": "Bizilagunak"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunitateak: {{count}}",
+    "loadError": "Ezin izan dira komunitateak kargatu. Mesedez, saiatu berriro.",
+    "searchPlaceholder": "Iragazi komunitatearen, administratzailearen izenaren edo posta elektronikoaren arabera",
+    "statusFilter": {
+      "label": "Egoera",
+      "all": "Denak"
+    },
+    "sortOptions": {
+      "community": "Komunitatea",
+      "admin": "Admin",
+      "residents": "Bizilagunak"
+    },
+    "loading": "Komunitateak kargatzen…",
+    "empty": "Oraindik ez dago komunitaterik erregistratu.",
+    "noMatch": "Ez dago zure iragazkiekin bat datorren komunitaterik.",
+    "table": {
+      "community": "Komunitatea",
+      "admin": "Admin",
+      "email": "Posta elektronikoa",
+      "status": "Egoera",
+      "residents": "Bizilagunak",
+      "view": "Ikusi"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ezin izan da komunitatea kargatu. Baliteke kendu izana.",
+    "statusUpdateError": "Ezin izan da komunitatearen egoera eguneratu.",
+    "deleteError": "Ezin izan da komunitate hau ezabatu.",
+    "loading": "Komunitatea kargatzen…",
+    "notFound": "Ez da komunitatea aurkitu.",
+    "backLink": "← Itzuli Komunitateetara",
+    "backLinkShort": "Itzuli Komunitateetara",
+    "eyebrow": "Komunitatearen profila",
+    "unnamed": "Izenik gabeko komunitatea",
+    "noAddress": "Ez dago helbiderik fitxategian",
+    "stats": {
+      "residents": "Bizilagunak",
+      "status": "Egoera"
+    },
+    "actions": {
+      "reactivate": "Berriz aktibatu",
+      "block": "Blokea",
+      "terminate": "Amaitu",
+      "delete": "Ezabatu komunitatea"
+    },
+    "blockDialog": {
+      "title": "Komunitatearen administratzailea blokeatu nahi duzu?",
+      "message": "{{name}} blokeatu? Ezin izango dute saioa hasi desblokeatu arte. Ez da daturik eragingo.",
+      "confirm": "Blokea"
+    },
+    "terminateDialog": {
+      "title": "Komunitatearen administratzailea amaitu nahi duzu?",
+      "message": "{{name}}-ren sarbidea behin betiko amaitu nahi duzu? Hau ezin da desegin, nahiz eta haien komunitatearen datuak erregistroetarako gordeko diren.",
+      "confirm": "Amaitu"
+    },
+    "deleteDialog": {
+      "title": "Komunitate hau ezabatu nahi duzu?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Berretsi"
+    },
+    "residents": {
+      "title": "Bizilagunak",
+      "registeredCount": "Erregistratutakoa: {{count}}",
+      "empty": "Oraindik ez dago komunitate honetan erroldatutako biztanlerik.",
+      "table": {
+        "flatUnit": "Unitate laua",
+        "meter": "Metroa",
+        "resident": "Egoiliarra",
+        "email": "Posta elektronikoa",
+        "passwordSet": "Pasahitza ezarri"
+      },
+      "yes": "Bai",
+      "no": "Ez"
+    },
+    "cancel": "Utzi",
+    "working": "Lanean…",
+    "deleting": "Ezabatzen…"
+  },
+  "systemStatus": {
+    "statusError": "Ezin izan da backend-era iritsi sistemaren egoera egiaztatzeko.",
+    "metricsError": "Ezin izan da neurketen historia kargatu.",
+    "ranges": {
+      "fiveMinutes": "5 minutu",
+      "fifteenMinutes": "15 minutu",
+      "hour": "Ordua",
+      "day": "Eguna",
+      "week": "Astea",
+      "month": "Hilabetea",
+      "threeMonths": "3 Hilabete"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Eskaerak/seg",
+      "opsPerSec": "Ops/seg",
+      "latency": "Latentzia",
+      "lastValue": "{{value}} azkena",
+      "loading": "Kargatzen…",
+      "empty": "Oraindik ez da neurketarik erregistratu barruti honetarako."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend APIa",
+      "checking": "Egiaztatzen…",
+      "reachable": "Eskuragarria",
+      "unreachable": "Iritsi ezina",
+      "connected": "Konektatuta",
+      "backendApiHint": "Orrialde hau backendetik kargatu da, beraz, erantzun du.",
+      "database": "Datu-basea",
+      "databaseHint": "PostgreSQL konexioa, zuzenean egiaztatuta.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Azken aplikazioa berrabiarazi zenetik.",
+      "appVersion": "Aplikazioaren bertsioa",
+      "appVersionHint": "Backend eraikitzeko bertsioa."
+    },
+    "mini": {
+      "latency": "Latentzia",
+      "readsLatency": "Latentzia irakurtzen du",
+      "writesLatency": "Latentzia idazten du",
+      "otherLatency": "Beste Latentzia",
+      "connections": "Konexioak",
+      "totalKeys": "Gakoak guztira"
+    },
+    "note": "Eskaerak/segundo eta latentzia zuzeneko backend trafikotik lagintzen dira 15 segundoz behin eta 100 egunez gordetzen dira. Oinarrizko konektibitatea + trafikoaren egiaztapena da - ez du ordezkatzen aplikazioen errendimenduaren jarraipen osoa, erregistroen agregazioa edo alertak."
+  },
+  "reports": {
+    "loadError": "Ezin izan da plataformaren txostena kargatu.",
+    "ranges": {
+      "threeMonths": "3 Hilabete",
+      "sixMonths": "6 hilabete",
+      "twelveMonths": "12 Hilabete",
+      "custom": "Pertsonalizatua"
+    },
+    "sortOptions": {
+      "community": "Komunitatea",
+      "usage": "Erabilera",
+      "billed": "Fakturatua",
+      "residents": "Bizilagunak"
+    },
+    "customRange": {
+      "from": "Bertatik",
+      "to": "To",
+      "hint": "Aukeratu \"notik\" eta \"hara\" hilabete bat txosten pertsonalizatu bat kargatzeko."
+    },
+    "loading": "Txostena kargatzen…",
+    "cards": {
+      "totalCommunities": "Komunitateak guztira",
+      "inThisRange": "Tarte honetan",
+      "totalResidents": "Egoiliarren guztira",
+      "acrossAllCommunities": "Komunitate guztietan",
+      "overallUsage": "Erabilera orokorra",
+      "meteredConsumption": "Kontsumo neurtua",
+      "overallBilled": "Fakturatu orokorra",
+      "finalizedInvoicesOnly": "Amaitutako fakturak soilik",
+      "avgUsagePerResident": "Batez besteko erabilera/egoiliarra",
+      "avgBillPerResident": "Batez besteko faktura / Bizilaguna"
+    },
+    "charts": {
+      "usageTitle": "Plataforma osorako erabilera (kL/hilabete)",
+      "usageEmpty": "Ez da erabilerarik erregistratu barruti honetarako.",
+      "usageSeries": "Erabilera",
+      "billedTitle": "Plataforma osoan fakturatutako zenbatekoa (₹/hilabete)",
+      "billedEmpty": "Ez dago fakturarik finkatu sorta honetarako.",
+      "billedSeries": "Fakturatua"
+    },
+    "searchPlaceholder": "Iragazi komunitatearen edo administratzailearen izenaren arabera",
+    "empty": "Ez dago komunitaterik oraindik barruti honen erabilera edo fakturazio-daturik.",
+    "noMatch": "Ez dago zure iragazkiarekin bat datorren komunitaterik.",
+    "table": {
+      "community": "Komunitatea",
+      "admin": "Admin",
+      "residents": "Bizilagunak",
+      "usage": "Erabilera (kL)",
+      "billed": "Fakturatua (₹)",
+      "avgUsagePerResident": "Batez besteko erabilera/egoiliarra",
+      "avgBillPerResident": "Batez besteko faktura / Bizilaguna"
+    }
+  },
+  "supportTickets": {
+    "title": "Laguntza Sarrerak",
+    "subtitle": "Laguntza-txartelak eta bizilagunek eta komunitateko administratzaileek planteatutako kezkak, plataforma osoan."
+  }
+}

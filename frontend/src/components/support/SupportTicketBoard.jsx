@@ -1,20 +1,22 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import '../AuthForm.css'
 import './SupportTicketBoard.css'
 
-const STATUS_LABELS = {
-  OPEN: 'Open',
-  IN_PROGRESS: 'In Progress',
-  RESOLVED: 'Resolved',
-  CLOSED: 'Closed',
+// Translation keys (common namespace), resolved with t() at render time.
+const STATUS_LABEL_KEYS = {
+  OPEN: 'supportBoard.status.open',
+  IN_PROGRESS: 'supportBoard.status.inProgress',
+  RESOLVED: 'supportBoard.status.resolved',
+  CLOSED: 'supportBoard.status.closed',
 }
 
 const STATUS_OPTIONS = ['OPEN', 'IN_PROGRESS', 'RESOLVED', 'CLOSED']
 const TABS = [
-  { key: '', label: 'All Tickets' },
-  { key: 'OPEN', label: 'Open' },
-  { key: 'IN_PROGRESS', label: 'In Progress' },
-  { key: 'RESOLVED', label: 'Resolved' },
+  { key: '', labelKey: 'supportBoard.tabs.all' },
+  { key: 'OPEN', labelKey: 'supportBoard.status.open' },
+  { key: 'IN_PROGRESS', labelKey: 'supportBoard.status.inProgress' },
+  { key: 'RESOLVED', labelKey: 'supportBoard.status.resolved' },
 ]
 
 function formatDateTime(value) {
@@ -25,11 +27,11 @@ function formatDateTime(value) {
   })
 }
 
-function recipientLabel(ticket) {
-  const parts = []
-  if (ticket.toAdmin) parts.push('Community Admin')
-  if (ticket.toSystemAdmin) parts.push('System Admin')
-  return parts.join(' + ') || '—'
+function recipientLabelKey(ticket) {
+  if (ticket.toAdmin && ticket.toSystemAdmin) return 'supportBoard.recipients.both'
+  if (ticket.toAdmin) return 'supportBoard.recipients.admin'
+  if (ticket.toSystemAdmin) return 'supportBoard.recipients.systemAdmin'
+  return null
 }
 
 /**
@@ -48,10 +50,19 @@ function SupportTicketBoard({
   recipientPicker = false,
   emptyCreateHint,
   selfRole,
-  title = 'Support Tickets',
+  title,
   subtitle = '',
-  createButtonLabel = 'Raise New Concern',
+  createButtonLabel,
 }) {
+  const { t } = useTranslation('common')
+  const boardTitle = title || t('supportBoard.defaultTitle')
+  const createLabel = createButtonLabel || t('supportBoard.defaultCreateLabel')
+
+  function recipientLabel(ticket) {
+    const key = recipientLabelKey(ticket)
+    return key ? t(key) : '—'
+  }
+
   const [tickets, setTickets] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -89,7 +100,7 @@ function SupportTicketBoard({
         setTickets(data)
         setError('')
       })
-      .catch(() => setError('Could not load support tickets. Please try again.'))
+      .catch(() => setError(t('supportBoard.errors.loadList')))
   }
 
   useEffect(() => {
@@ -98,25 +109,25 @@ function SupportTicketBoard({
         setTickets(data)
         setError('')
       })
-      .catch(() => setError('Could not load support tickets. Please try again.'))
+      .catch(() => setError(t('supportBoard.errors.loadList')))
       .finally(() => setLoading(false))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const stats = useMemo(
     () => ({
-      OPEN: tickets.filter((t) => t.status === 'OPEN').length,
-      IN_PROGRESS: tickets.filter((t) => t.status === 'IN_PROGRESS').length,
-      RESOLVED: tickets.filter((t) => t.status === 'RESOLVED').length,
+      OPEN: tickets.filter((ticket) => ticket.status === 'OPEN').length,
+      IN_PROGRESS: tickets.filter((ticket) => ticket.status === 'IN_PROGRESS').length,
+      RESOLVED: tickets.filter((ticket) => ticket.status === 'RESOLVED').length,
     }),
     [tickets],
   )
 
   const filteredTickets = useMemo(() => {
     const q = search.trim().toLowerCase()
-    return tickets.filter((t) => {
-      if (activeTab && t.status !== activeTab) return false
-      if (q && !t.subject.toLowerCase().includes(q) && !(t.lastMessagePreview || '').toLowerCase().includes(q)) {
+    return tickets.filter((ticket) => {
+      if (activeTab && ticket.status !== activeTab) return false
+      if (q && !ticket.subject.toLowerCase().includes(q) && !(ticket.lastMessagePreview || '').toLowerCase().includes(q)) {
         return false
       }
       return true
@@ -128,7 +139,7 @@ function SupportTicketBoard({
     setDetailError('')
     return getDetailFn(id)
       .then(setDetail)
-      .catch(() => setDetailError('Could not load this ticket. Please try again.'))
+      .catch(() => setDetailError(t('supportBoard.errors.loadDetail')))
       .finally(() => {
         if (!silent) setDetailLoading(false)
       })
@@ -160,11 +171,11 @@ function SupportTicketBoard({
     setFormError('')
 
     if (!formSubject.trim() || !formMessage.trim()) {
-      setFormError('Subject and message are both required.')
+      setFormError(t('supportBoard.errors.required'))
       return
     }
     if (recipientPicker && !formToAdmin && !formToSystemAdmin) {
-      setFormError('Select at least one recipient (Community Admin and/or System Admin).')
+      setFormError(t('supportBoard.errors.recipientRequired'))
       return
     }
 
@@ -177,7 +188,7 @@ function SupportTicketBoard({
       setShowCreateModal(false)
       await refreshTickets()
     } catch (err) {
-      setFormError(err.response?.data?.message || 'Could not submit this ticket. Please try again.')
+      setFormError(err.response?.data?.message || t('supportBoard.errors.submitFallback'))
     } finally {
       setSubmitting(false)
     }
@@ -194,7 +205,7 @@ function SupportTicketBoard({
       setReplyText('')
       await refreshTickets()
     } catch {
-      setDetailError('Could not send this message. Please try again.')
+      setDetailError(t('supportBoard.errors.sendReply'))
     } finally {
       setReplySubmitting(false)
     }
@@ -207,7 +218,7 @@ function SupportTicketBoard({
       await updateStatusFn(selectedId, status)
       await Promise.all([loadDetail(selectedId, true), refreshTickets()])
     } catch {
-      setDetailError('Could not update this ticket status. Please try again.')
+      setDetailError(t('supportBoard.errors.updateStatus'))
     } finally {
       setStatusSaving(false)
     }
@@ -217,16 +228,16 @@ function SupportTicketBoard({
     <div className="af-support">
       <div className="af-support__header">
         <div className="af-support__header-text">
-          <h2>{title}</h2>
+          <h2>{boardTitle}</h2>
           {subtitle && <p>{subtitle}</p>}
         </div>
         <div className="af-support__header-actions">
           <button type="button" className="af-btn af-btn--outline" onClick={() => refreshTickets()}>
-            ↻ Refresh
+            ↻ {t('supportBoard.refresh')}
           </button>
           {createFn && (
             <button type="button" className="af-btn af-btn--cyan" onClick={openCreateModal}>
-              + {createButtonLabel}
+              + {createLabel}
             </button>
           )}
         </div>
@@ -234,19 +245,19 @@ function SupportTicketBoard({
 
       <div className="af-support__stats">
         <div className="af-support__stat-card">
-          <span className="af-support__stat-label">Open Submissions</span>
+          <span className="af-support__stat-label">{t('supportBoard.stats.openLabel')}</span>
           <strong>{stats.OPEN}</strong>
-          <span className="af-support__stat-hint">Awaiting review</span>
+          <span className="af-support__stat-hint">{t('supportBoard.stats.openHint')}</span>
         </div>
         <div className="af-support__stat-card">
-          <span className="af-support__stat-label">In Progress</span>
+          <span className="af-support__stat-label">{t('supportBoard.stats.inProgressLabel')}</span>
           <strong>{stats.IN_PROGRESS}</strong>
-          <span className="af-support__stat-hint">Being worked on</span>
+          <span className="af-support__stat-hint">{t('supportBoard.stats.inProgressHint')}</span>
         </div>
         <div className="af-support__stat-card">
-          <span className="af-support__stat-label">Resolved</span>
+          <span className="af-support__stat-label">{t('supportBoard.stats.resolvedLabel')}</span>
           <strong>{stats.RESOLVED}</strong>
-          <span className="af-support__stat-hint">Successfully closed</span>
+          <span className="af-support__stat-hint">{t('supportBoard.stats.resolvedHint')}</span>
         </div>
       </div>
 
@@ -259,14 +270,14 @@ function SupportTicketBoard({
               className={`af-support__tab${activeTab === tab.key ? ' af-support__tab--active' : ''}`}
               onClick={() => setActiveTab(tab.key)}
             >
-              {tab.label}
+              {t(tab.labelKey)}
             </button>
           ))}
         </div>
         <label className="af-support__search">
           <input
             type="search"
-            placeholder="Search tickets by subject, issue…"
+            placeholder={t('supportBoard.searchPlaceholder')}
             value={search}
             onChange={(event) => setSearch(event.target.value)}
           />
@@ -276,15 +287,15 @@ function SupportTicketBoard({
       {error && <div className="af-form__error">{error}</div>}
 
       {loading ? (
-        <p className="af-support__empty">Loading tickets…</p>
+        <p className="af-support__empty">{t('supportBoard.loadingTickets')}</p>
       ) : filteredTickets.length === 0 ? (
         <div className="af-support__empty-state">
           <div className="af-support__empty-icon">🛟</div>
-          <h3>No Support Tickets Found</h3>
-          <p>You currently have no open or recorded support requests matching this filter.</p>
+          <h3>{t('supportBoard.empty.title')}</h3>
+          <p>{t('supportBoard.empty.body')}</p>
           {createFn && (
             <button type="button" className="af-btn af-btn--cyan" onClick={openCreateModal}>
-              + Submit a Concern
+              + {t('supportBoard.empty.cta')}
             </button>
           )}
         </div>
@@ -296,17 +307,19 @@ function SupportTicketBoard({
                 <div className="af-support__list-item-top">
                   <strong>{ticket.subject}</strong>
                   <span className={`af-support__badge af-support__badge--${ticket.status.toLowerCase()}`}>
-                    {STATUS_LABELS[ticket.status]}
+                    {t(STATUS_LABEL_KEYS[ticket.status])}
                   </span>
                 </div>
                 {showRaiser && (
                   <span className="af-support__list-item-meta">
-                    {ticket.raisedByRole === 'RESIDENT' ? 'Resident' : 'Admin'} · {ticket.raisedByName} ·{' '}
+                    {ticket.raisedByRole === 'RESIDENT' ? t('supportBoard.roles.resident') : t('supportBoard.roles.admin')} · {ticket.raisedByName} ·{' '}
                     {ticket.communityName}
                   </span>
                 )}
                 {showRecipients && (
-                  <span className="af-support__list-item-meta">To: {recipientLabel(ticket)}</span>
+                  <span className="af-support__list-item-meta">
+                    {t('supportBoard.toRecipients', { recipients: recipientLabel(ticket) })}
+                  </span>
                 )}
                 <span className="af-support__list-item-preview">{ticket.lastMessagePreview}</span>
                 <span className="af-support__list-item-date">{formatDateTime(ticket.updatedAt)}</span>
@@ -319,41 +332,41 @@ function SupportTicketBoard({
       {showCreateModal && (
         <div className="af-support__modal-backdrop" onClick={() => setShowCreateModal(false)}>
           <div className="af-support__modal" onClick={(event) => event.stopPropagation()}>
-            <h2>{createButtonLabel}</h2>
+            <h2>{createLabel}</h2>
             <p className="af-support__modal-sub">
-              {emptyCreateHint || 'Describe your issue or concern below.'}
+              {emptyCreateHint || t('supportBoard.form.defaultHint')}
             </p>
 
             <form onSubmit={handleCreate}>
               {formError && <div className="af-form__error">{formError}</div>}
 
               <div className="af-form__field">
-                <label htmlFor="support-subject">Subject</label>
+                <label htmlFor="support-subject">{t('supportBoard.form.subjectLabel')}</label>
                 <input
                   id="support-subject"
                   type="text"
                   maxLength={200}
                   value={formSubject}
                   onChange={(event) => setFormSubject(event.target.value)}
-                  placeholder="Brief summary of your issue"
+                  placeholder={t('supportBoard.form.subjectPlaceholder')}
                 />
               </div>
 
               <div className="af-form__field">
-                <label htmlFor="support-message">Message</label>
+                <label htmlFor="support-message">{t('supportBoard.form.messageLabel')}</label>
                 <textarea
                   id="support-message"
                   rows={4}
                   maxLength={2000}
                   value={formMessage}
                   onChange={(event) => setFormMessage(event.target.value)}
-                  placeholder="Describe what's happening in detail…"
+                  placeholder={t('supportBoard.form.messagePlaceholder')}
                 />
               </div>
 
               {recipientPicker && (
                 <div className="af-form__field">
-                  <label>Send this concern to</label>
+                  <label>{t('supportBoard.form.recipientsLabel')}</label>
                   <div className="af-support__recipient-options">
                     <label className="af-support__checkbox">
                       <input
@@ -361,7 +374,7 @@ function SupportTicketBoard({
                         checked={formToAdmin}
                         onChange={(event) => setFormToAdmin(event.target.checked)}
                       />
-                      Community Admin
+                      {t('supportBoard.recipients.admin')}
                     </label>
                     <label className="af-support__checkbox">
                       <input
@@ -369,7 +382,7 @@ function SupportTicketBoard({
                         checked={formToSystemAdmin}
                         onChange={(event) => setFormToSystemAdmin(event.target.checked)}
                       />
-                      System Admin
+                      {t('supportBoard.recipients.systemAdmin')}
                     </label>
                   </div>
                 </div>
@@ -377,10 +390,10 @@ function SupportTicketBoard({
 
               <div className="af-support__modal-actions">
                 <button type="button" className="af-btn af-btn--outline" onClick={() => setShowCreateModal(false)}>
-                  Cancel
+                  {t('supportBoard.form.cancel')}
                 </button>
                 <button type="submit" className="af-form__submit" disabled={submitting}>
-                  {submitting ? 'Submitting…' : 'Submit Ticket'}
+                  {submitting ? t('supportBoard.form.submitting') : t('supportBoard.form.submit')}
                 </button>
               </div>
             </form>
@@ -392,7 +405,7 @@ function SupportTicketBoard({
         <div className="af-support__modal-backdrop" onClick={closeDetail}>
           <div className="af-support__modal af-support__modal--detail" onClick={(event) => event.stopPropagation()}>
             {detailLoading ? (
-              <p className="af-support__empty">Loading ticket…</p>
+              <p className="af-support__empty">{t('supportBoard.detail.loading')}</p>
             ) : detailError ? (
               <div className="af-form__error">{detailError}</div>
             ) : detail ? (
@@ -402,12 +415,17 @@ function SupportTicketBoard({
                     <h2>{detail.subject}</h2>
                     {showRaiser && (
                       <p className="af-support__detail-sub">
-                        Raised by {detail.raisedByRole === 'RESIDENT' ? 'resident' : 'admin'} {detail.raisedByName} ·{' '}
+                        {detail.raisedByRole === 'RESIDENT'
+                          ? t('supportBoard.raisedByResident', { name: detail.raisedByName })
+                          : t('supportBoard.raisedByAdmin', { name: detail.raisedByName })}{' '}
+                        ·{' '}
                         {detail.communityName}
                       </p>
                     )}
                     {showRecipients && (
-                      <p className="af-support__detail-sub">To: {recipientLabel(detail)}</p>
+                      <p className="af-support__detail-sub">
+                        {t('supportBoard.toRecipients', { recipients: recipientLabel(detail) })}
+                      </p>
                     )}
                   </div>
                   {updateStatusFn ? (
@@ -418,13 +436,13 @@ function SupportTicketBoard({
                     >
                       {STATUS_OPTIONS.map((status) => (
                         <option key={status} value={status}>
-                          {STATUS_LABELS[status]}
+                          {t(STATUS_LABEL_KEYS[status])}
                         </option>
                       ))}
                     </select>
                   ) : (
                     <span className={`af-support__badge af-support__badge--${detail.status.toLowerCase()}`}>
-                      {STATUS_LABELS[detail.status]}
+                      {t(STATUS_LABEL_KEYS[detail.status])}
                     </span>
                   )}
                 </div>
@@ -450,14 +468,14 @@ function SupportTicketBoard({
                     maxLength={2000}
                     value={replyText}
                     onChange={(event) => setReplyText(event.target.value)}
-                    placeholder="Write a reply…"
+                    placeholder={t('supportBoard.detail.replyPlaceholder')}
                   />
                   <div className="af-support__modal-actions">
                     <button type="button" className="af-btn af-btn--outline" onClick={closeDetail}>
-                      Close
+                      {t('supportBoard.detail.close')}
                     </button>
                     <button type="submit" className="af-form__submit" disabled={replySubmitting || !replyText.trim()}>
-                      {replySubmitting ? 'Sending…' : 'Send Reply'}
+                      {replySubmitting ? t('supportBoard.detail.sending') : t('supportBoard.detail.sendReply')}
                     </button>
                   </div>
                 </form>

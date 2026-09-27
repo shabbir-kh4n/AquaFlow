@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Ti nṣiṣe lọwọ",
+    "blocked": "Dina",
+    "terminated": "Ti pari"
+  },
+  "sort": {
+    "sortBy": "Sa pelu",
+    "toggleDirection": "Yi ọna tootọ yipada",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Iṣaaju",
+    "next": "Next →",
+    "page": "Oju-iwe {{page}} ti {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Akopọ",
+    "subtitle": "Gbogbo abojuto agbegbe ti o forukọsilẹ, kọja gbogbo pẹpẹ HydroLedger.",
+    "viewAll": "Wo Gbogbo Awọn agbegbe",
+    "loadError": "Ko le kojọpọ data Syeed ni bayi.",
+    "cards": {
+      "totalCommunities": "Lapapọ Awọn agbegbe",
+      "registeredAdmins": "Awọn admins ti o forukọsilẹ",
+      "totalResidents": "Lapapọ Olugbe",
+      "acrossAllCommunities": "Kọja gbogbo agbegbe",
+      "active": "Ti nṣiṣe lọwọ",
+      "inGoodStanding": "Ni ipo to dara",
+      "blockedTerminated": "Ti dina / Ti pari",
+      "blockedTerminatedBreakdown": "{{blocked}} dina, {{terminated}} fopin si"
+    },
+    "recent": {
+      "title": "Awọn agbegbe ti a forukọsilẹ laipẹ",
+      "loading": "Nkojọpọ…",
+      "empty": "Ko si agbegbe ti o forukọsilẹ sibẹsibẹ.",
+      "table": {
+        "community": "Agbegbe",
+        "admin": "Abojuto",
+        "status": "Ipo",
+        "residents": "Awọn olugbe"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "Ko le kojọpọ awọn agbegbe. Jọwọ gbiyanju lẹẹkansi.",
+    "searchPlaceholder": "Ṣe àlẹmọ nipasẹ agbegbe, orukọ abojuto, tabi imeeli",
+    "statusFilter": {
+      "label": "Ipo",
+      "all": "Gbogbo"
+    },
+    "sortOptions": {
+      "community": "Agbegbe",
+      "admin": "Abojuto",
+      "residents": "Awọn olugbe"
+    },
+    "loading": "Ikojọpọ awọn agbegbe…",
+    "empty": "Ko si agbegbe ti o forukọsilẹ sibẹsibẹ.",
+    "noMatch": "Ko si agbegbe ti o baamu awọn asẹ rẹ.",
+    "table": {
+      "community": "Agbegbe",
+      "admin": "Abojuto",
+      "email": "Imeeli",
+      "status": "Ipo",
+      "residents": "Awọn olugbe",
+      "view": "Wo"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ko le kojọpọ agbegbe yii. O le ti yọ kuro.",
+    "statusUpdateError": "Ko le ṣe imudojuiwọn ipo agbegbe yii.",
+    "deleteError": "Ko le pa agbegbe yii rẹ.",
+    "loading": "Agbegbe ikojọpọ…",
+    "notFound": "Agbegbe ko ri.",
+    "backLink": "← Pada si Awọn agbegbe",
+    "backLinkShort": "Pada si Awọn agbegbe",
+    "eyebrow": "Agbegbe Profaili",
+    "unnamed": "Agbegbe ti a ko darukọ",
+    "noAddress": "Ko si adirẹsi lori faili",
+    "stats": {
+      "residents": "Awọn olugbe",
+      "status": "Ipo"
+    },
+    "actions": {
+      "reactivate": "Tun mu ṣiṣẹ",
+      "block": "Dina",
+      "terminate": "Pari",
+      "delete": "Pa Awujọ"
+    },
+    "blockDialog": {
+      "title": "Di alabojuto agbegbe yii bi?",
+      "message": "Dina {{name}}? Wọn kii yoo ni anfani lati wọle titi ti yoo ṣii. Ko si data yoo kan.",
+      "confirm": "Dina"
+    },
+    "terminateDialog": {
+      "title": "Fi opin si alakoso agbegbe yii bi?",
+      "message": "Fi opin si wiwọle {{name}} patapata bi? Eyi ko le ṣe atunṣe, botilẹjẹpe data agbegbe wọn yoo wa ni ipamọ fun awọn igbasilẹ.",
+      "confirm": "Pari"
+    },
+    "deleteDialog": {
+      "title": "Pa agbegbe yii rẹ bi?",
+      "message": "Eyi yoo paarẹ <strong>{{name}}</strong> patapata ati gbogbo awọn ile rẹ, awọn olugbe, awọn mita, iṣeto idiyele/sanwo, ati itan risiti. Iṣe yii ko le ṣe atunṣe.",
+      "typeToConfirm": "Tẹ <strong>{{word}}</strong> lati tẹsiwaju",
+      "confirm": "Jẹrisi"
+    },
+    "residents": {
+      "title": "Awọn olugbe",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "Ko si olugbe ti o forukọsilẹ ni agbegbe yii sibẹsibẹ.",
+      "table": {
+        "flatUnit": "Alapin Unit",
+        "meter": "Mita",
+        "resident": "Olugbe",
+        "email": "Imeeli",
+        "passwordSet": "Ọrọigbaniwọle Ṣeto"
+      },
+      "yes": "Bẹẹni",
+      "no": "Rara"
+    },
+    "cancel": "Fagilee",
+    "working": "Nṣiṣẹ…",
+    "deleting": "Nparẹ…"
+  },
+  "systemStatus": {
+    "statusError": "Ko le de ẹhin lati ṣayẹwo ipo eto.",
+    "metricsError": "Ko le kojọpọ itan awọn metiriki.",
+    "ranges": {
+      "fiveMinutes": "Awọn iṣẹju 5",
+      "fifteenMinutes": "Awọn iṣẹju 15",
+      "hour": "Wakati",
+      "day": "Ojo",
+      "week": "Ọsẹ",
+      "month": "Osu",
+      "threeMonths": "Osu 3"
+    },
+    "uptime": {
+      "days": "{{value}} d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Awọn ibeere / iṣẹju-aaya",
+      "opsPerSec": "Ops/ iṣẹju-aaya",
+      "latency": "Lairi",
+      "lastValue": "{{value}} kẹhin",
+      "loading": "Nkojọpọ…",
+      "empty": "Ko si awọn metiriki ti o gbasilẹ fun sakani yii sibẹsibẹ."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Apapọ: <b>{{value}}</b>",
+      "max": "O pọju: <b>{{value}}</b>",
+      "last": "Ikẹhin: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Afẹyinti API",
+      "checking": "Ṣiṣayẹwo…",
+      "reachable": "Ti o le de ọdọ",
+      "unreachable": "Ti ko le de ọdọ",
+      "connected": "Ti sopọ",
+      "backendApiHint": "Oju-iwe yii ti kojọpọ lati ẹhin, nitorinaa o dahun.",
+      "database": "Aaye data",
+      "databaseHint": "PostgreSQL Asopọmọra, ṣayẹwo ifiwe.",
+      "uptime": "Aago Ipari",
+      "uptimeHint": "Niwon awọn ti o kẹhin ohun elo tun.",
+      "appVersion": "Ẹya App",
+      "appVersionHint": "Ẹya Kọ afẹyinti."
+    },
+    "mini": {
+      "latency": "Lairi",
+      "readsLatency": "Ka Lairi",
+      "writesLatency": "Kọ Lairi",
+      "otherLatency": "Miiran Lairi",
+      "connections": "Awọn isopọ",
+      "totalKeys": "Lapapọ Awọn bọtini"
+    },
+    "note": "Awọn ibeere / iṣẹju-aaya ati lairi jẹ apẹẹrẹ lati ijabọ ẹhin ifiwe ni gbogbo iṣẹju-aaya 15 ati tọju fun awọn ọjọ 100. Eyi jẹ Asopọmọra ipilẹ + ayẹwo ijabọ — ko rọpo ibojuwo iṣẹ ṣiṣe ohun elo ni kikun, akopọ log, tabi titaniji."
+  },
+  "reports": {
+    "loadError": "Ko le gbe iroyin Syeed.",
+    "ranges": {
+      "threeMonths": "Osu 3",
+      "sixMonths": "6 osu",
+      "twelveMonths": "12 osu",
+      "custom": "Aṣa"
+    },
+    "sortOptions": {
+      "community": "Agbegbe",
+      "usage": "Lilo",
+      "billed": "Billed",
+      "residents": "Awọn olugbe"
+    },
+    "customRange": {
+      "from": "Lati",
+      "to": "Si",
+      "hint": "Mu mejeeji “lati” ati “si” oṣu lati ṣaja ijabọ aṣa kan."
+    },
+    "loading": "Ikojọpọ iroyin…",
+    "cards": {
+      "totalCommunities": "Lapapọ Awọn agbegbe",
+      "inThisRange": "Ni ibiti o wa",
+      "totalResidents": "Lapapọ Olugbe",
+      "acrossAllCommunities": "Kọja gbogbo agbegbe",
+      "overallUsage": "Lapapọ Lilo",
+      "meteredConsumption": "Lilo mita",
+      "overallBilled": "Billed Lapapọ",
+      "finalizedInvoicesOnly": "Awọn risiti ti o pari nikan",
+      "avgUsagePerResident": "Apapọ Lilo / Olugbe",
+      "avgBillPerResident": "Apapọ Bill / Olugbe"
+    },
+    "charts": {
+      "usageTitle": "Lilo pẹpẹ jakejado (kL / oṣu)",
+      "usageEmpty": "Ko si lilo ti o gbasilẹ fun sakani yii.",
+      "usageSeries": "Lilo",
+      "billedTitle": "Iye owo sisan jakejado Syeed (₹ / oṣu)",
+      "billedEmpty": "Ko si awọn iwe-owo ti o pari fun sakani yii.",
+      "billedSeries": "Billed"
+    },
+    "searchPlaceholder": "Ṣe àlẹmọ nipasẹ agbegbe tabi orukọ abojuto",
+    "empty": "Ko si agbegbe ti o ni lilo tabi data ìdíyelé fun sakani yii sibẹsibẹ.",
+    "noMatch": "Ko si agbegbe ti o baamu àlẹmọ rẹ.",
+    "table": {
+      "community": "Agbegbe",
+      "admin": "Abojuto",
+      "residents": "Awọn olugbe",
+      "usage": "Lilo (kL)",
+      "billed": "Ti gba owo (₹)",
+      "avgUsagePerResident": "Apapọ Lilo / Olugbe",
+      "avgBillPerResident": "Apapọ Bill / Olugbe"
+    }
+  },
+  "supportTickets": {
+    "title": "Tiketi atilẹyin",
+    "subtitle": "Awọn tikẹti atilẹyin ati awọn ifiyesi dide nipasẹ awọn olugbe ati awọn alabojuto agbegbe, pẹpẹ jakejado."
+  }
+}

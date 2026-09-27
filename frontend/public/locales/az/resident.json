@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Tezliklə",
+    "welcome": {
+      "greeting": "salam {{name}},",
+      "greetingFallback": "salam,",
+      "title": "Evinizin su hekayəsinə yaxın qalın.",
+      "subtitle": "İcma oxunuşları qeyd edərkən istifadə və faktura məlumatları burada görünəcək.",
+      "viewBadges": "Eko Nişanlara baxın"
+    },
+    "stats": {
+      "todaysUsage": "Bugünkü İstifadəsi",
+      "asOf": "{{date}} tarixindən etibarən",
+      "noReading": "Hələ sayğacın göstəricisi yoxdur",
+      "monthlyTotalFor": "Aylıq Cəmi ({{month}})",
+      "monthlyTotalThisMonth": "Aylıq Cəmi (bu ay)",
+      "sumOfReadings": "Qeydə alınmış oxunuşların cəmi",
+      "estimatedBill": "Cari Təxmini Hesab",
+      "estimatedBillFor": "Ölçülmüş istifadə + paylaşılan ödənişlər, {{month}}",
+      "estimatedBillHint": "Bu ayın hesablanmış istehlak və paylaşılan ödənişlərə əsasən",
+      "savings": "Əmanət və Tikinti Ort",
+      "savingsValue": "{{percent}}% Az",
+      "savingsPreview": "Yalnız önizləmə — müqayisə hələ canlı deyil"
+    },
+    "consumption": {
+      "eyebrow": "İstehlak",
+      "title": "Gündəlik istehlak (Son 14 oxunuş)",
+      "seriesName": "İstehlak",
+      "empty": "Hələ oxunuş qeydə alınmayıb."
+    },
+    "breakdown": {
+      "eyebrow": "Dağılma",
+      "title": "İstifadə Bölgüsü",
+      "bathroom": "Vanna otağı",
+      "kitchen": "Mətbəx",
+      "garden": "Bağ / Balkon",
+      "other": "Digər / Camaşırxana"
+    },
+    "billing": {
+      "eyebrow": "Faturalandırma",
+      "title": "Aktiv Faturalandırma Döngüsü",
+      "finalized": "Tamamlanmışdır",
+      "preview": "Önizləmə",
+      "meteredConsumption": "Ölçülmüş istehlak",
+      "tierPriceLevel": "Səviyyəli qiymət səviyyəsi",
+      "tierLabel": "Səviyyə {{tier}}",
+      "commonArea": "Ümumi sahə bölgüsü",
+      "commonAreaPreview": "Ümumi sahə bölgüsü (ön görünüş)",
+      "invoiceTotal": "{{period}} faktura cəmi",
+      "estimatedCharge": "Cari təxmini ödəniş",
+      "commonAreaBreakdown": "Ümumi sahənin pozulması",
+      "payPreview": "Ödəniş Hesabına Baxış",
+      "payUnavailable": "Hesablama mühərriki hələ mövcud deyil"
+    },
+    "tips": {
+      "eyebrow": "Məsləhətlər",
+      "title": "Ağıllı qənaət məsləhətləri",
+      "viewAll": "Hamısına baxın",
+      "empty": "Fərdiləşdirilmiş məsləhətlər icmanız hesablaşma dövrünü yekunlaşdırdıqdan sonra burada görünür."
+    },
+    "community": "İcma: {{name}}"
+  },
+  "usage": {
+    "loadError": "İstifadə tarixçənizi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "İstifadə analitikanız yüklənir...",
+    "empty": "Hələ oxunuş qeydə alınmayıb. İcmanız sayğacın oxunmasını qeyd etdikdən sonra o, burada görünəcək.",
+    "tabs": {
+      "lastSixMonths": "Son 6 Ay",
+      "customRange": "Fərdi diapazon",
+      "comingSoon": "Tezliklə"
+    },
+    "peakDay": "Pik gün:",
+    "lowestDay": "Ən aşağı gün:",
+    "comparison": {
+      "title": "Ev Təsərrüfatlarının İstehlakı və Mənzil Orta",
+      "subtitle": "Aylıq cəmi kilolitrlə göstərilir (kL).",
+      "yourHousehold": "Sizin Ev Təsərrüfatınız",
+      "apartmentAverage": "Mənzil Orta",
+      "similarSized": "Oxşar Ölçülü Evlər"
+    },
+    "heatmap": {
+      "title": "Gündəlik istehlak istilik xəritəsi",
+      "subtitle": "Rəng intensivliyi bayraqları ağır istifadə günləri (preview)."
+    },
+    "ranking": {
+      "title": "İcma Peer Sıralaması",
+      "subtitle": "Oxşar vahidlərlə müqayisədə dərəcəniz (ön baxış).",
+      "ecoSaver": "Aktiv Eko Saver",
+      "aptNumber": "Mənzil {{number}}",
+      "unitNumber": "Vahid {{number}}",
+      "yourUnit": "Sizin vahidiniz",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Siz)"
+    }
+  },
+  "billing": {
+    "loadError": "Faktura tarixçənizi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "pdfError": "PDF yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "Faktura tarixçəniz yüklənir...",
+    "empty": "Hələ heç bir faktura yoxdur — icmanız hesablaşma dövrünü başa vurduqdan sonra hesablarınız burada görünəcək.",
+    "status": {
+      "paid": "Ödənişli",
+      "unpaid": "Ödənilməmiş"
+    },
+    "summary": {
+      "outstandingBalance": "Ödənilməmiş Balans",
+      "billingCycle": "Faturalandırma dövrü: {{period}}",
+      "allPaid": "Bütün hesablar ödənilir",
+      "payTotal": "Cəmi Ödəniş",
+      "payTotalUnavailable": "Onlayn ödəniş hələ mövcud deyil — hesabları birbaşa icma admininizlə həll edin",
+      "downloadSummary": "Bill xülasəsini yükləyin",
+      "downloadSummaryUnavailable": "Bill xülasəsini endirmək hələ mövcud deyil"
+    },
+    "history": {
+      "title": "Faktura Tarixçəsi",
+      "exportCsv": "Hamısını CSV-a Eksport edin",
+      "exportUnavailable": "CSV ixracı hələ mövcud deyil"
+    },
+    "table": {
+      "cycle": "Velosiped",
+      "usage": "İstifadə (kL)",
+      "amountDue": "Ödəniləcək məbləğ",
+      "paymentStatus": "Ödəniş Status",
+      "hideBreakdown": "Bölməni gizlədin ↑",
+      "showBreakdown": "Maddələşdirilmiş Dağılım ↓",
+      "downloading": "Endirilir...",
+      "pdf": "PDF",
+      "pay": "Ödəmək"
+    },
+    "breakdown": {
+      "householdTitle": "Məişət İstehlakının Dağılımı",
+      "basePrice": "Baza Qiymət: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Səviyyə {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Aralıq Cəmi Ölçülü İstifadə",
+      "commonAreaTitle": "Ümumi sahə bölgüsü",
+      "subtotalShared": "Ümumi Ümumi Sahə",
+      "noCommonArea": "Bu dövr üçün ortaq ümumi sahə ödənişləri yoxdur."
+    },
+    "pagination": {
+      "showing": "{{total}}-dən {{from}}–{{to}} göstərilir",
+      "prev": "← Əvvəlki",
+      "next": "Sonrakı →",
+      "page": "Səhifə {{page}} / {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Ödəniş üsulları (önizləmə)",
+      "description": "Onlayn ödəniş hələ mövcud deyil - hesablar birbaşa icma admininizlə hesablanır.",
+      "manage": "Ödəniş üsullarını idarə edin",
+      "manageUnavailable": "Ödəniş üsulları hələ mövcud deyil"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Razorpay tərəfindən qorunur",
+    "billingCycle": "Faturalandırma dövrü {{period}}",
+    "close": "Bağlayın",
+    "amountPayable": "Ödəniləcək məbləğ",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kartlar",
+      "netbanking": "Netbankinq",
+      "wallet": "Pul kisəsi"
+    },
+    "upi": {
+      "title": "UPI vasitəsilə ödəyin",
+      "upiId": "UPI ID",
+      "or": "YA",
+      "scan": "İstənilən UPI tətbiqi ilə skan edin"
+    },
+    "card": {
+      "title": "Kartla Ödəniş",
+      "number": "Kart nömrəsi",
+      "expiry": "İstifadə müddəti",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Kartdakı ad",
+      "namePlaceholder": "Kartda çap olunduğu kimi"
+    },
+    "netbanking": {
+      "title": "Netbanking vasitəsilə ödəyin"
+    },
+    "wallet": {
+      "title": "Pulqabı vasitəsilə ödəyin"
+    },
+    "payAmount": "Ödəniş ₹{{amount}}",
+    "processing": "Ödənişiniz emal edilir...",
+    "processingHint": "Zəhmət olmasa geriyə basmayın və ya bu səhifəni yeniləməyin",
+    "success": "Ödəniş Uğurlu",
+    "error": "Ödənişinizi təsdiqləyərkən xəta baş verdi. Yenidən cəhd edin.",
+    "retry": "Yenidən cəhd edin"
+  },
+  "notifications": {
+    "loadError": "Bildirişlərinizi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "Bildirişləriniz yüklənir...",
+    "empty": "Hələ heç bir bildiriş yoxdur — icma admininiz istifadə həddi və ya qeyri-adi istehlak xəbərdarlıqlarını aktiv edibsə və biri ailəniz üçün işə salınıbsa, burada nəsə görəcəksiniz.",
+    "type": {
+      "thresholdExceeded": "İstehlak həddini keçdi",
+      "statisticalOutlier": "Qeyri-adi İstehlak Aşkarlandı"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Həll olundu",
+      "dismissed": "İşdən çıxarıldı"
+    },
+    "billingPeriod": "Hesablaşma müddəti: {{period}}",
+    "consumption": "İstehlak: {{value}} kL",
+    "push": {
+      "title": "Push bildirişləri",
+      "description": "Yeni hesab və ya xəbərdarlıq daxil olduqda bu cihazda bildiriş alın.",
+      "enable": "Aktivləşdirin",
+      "disable": "Deaktiv edin",
+      "permissionDenied": "Bildiriş icazəsi verilmədi.",
+      "notConfigured": "Push bildirişləri hələ konfiqurasiya edilməyib. Admininizlə əlaqə saxlayın.",
+      "enableError": "Push bildirişlərini aktivləşdirmək mümkün olmadı. Yenidən cəhd edin.",
+      "disableError": "Push bildirişlərini deaktiv etmək mümkün olmadı. Yenidən cəhd edin."
+    }
+  },
+  "recommendations": {
+    "loadError": "Tövsiyələrinizi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "Fərdiləşdirilmiş məsləhətləriniz yüklənir...",
+    "generated": "Yaradılan {{date}}",
+    "generatedForPeriod": "Faturalandırma dövrü üçün {{date}} yaradıldı {{period}}",
+    "eyebrow": "Sizin üçün fərdiləşdirilmişdir",
+    "title": "Ağıllı Suya Qənaət Məsləhətləri",
+    "empty": "Hələ heç bir məsləhət yaradılmayıb – icmanız hər dəfə ailəniz üçün hesablaşma dövrünü yekunlaşdırdıqda bunlar avtomatik olaraq yenilənir."
+  },
+  "support": {
+    "title": "Sakinlərə Dəstək və Narahatlıq Masası",
+    "subtitle": "Su sızması hesabatlarını, sayğac kalibrləmə sorğularını və ya faktura sorğularını birbaşa icma admininizə və/yaxud Sistem Admininizə təqdim edin.",
+    "emptyCreateHint": "Probleminizi və ya narahatlığınızı aşağıda təsvir edin və kimin həll edəcəyini seçin."
+  }
+}

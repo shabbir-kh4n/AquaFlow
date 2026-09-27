@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "فعال",
+    "blocked": "بند",
+    "terminated": "ختم"
+  },
+  "sort": {
+    "sortBy": "ترتیب دیو",
+    "toggleDirection": "ترتیبک رخ بدل",
+    "asc": "↑ چڑھتی ترتیب",
+    "desc": "↓ اترتی ترتیب"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} {{total}} منزہ",
+    "prev": "← پسمان",
+    "next": "اگاہ →",
+    "page": "صفحہ {{page}} {{pageCount}} منزہ"
+  },
+  "dashboard": {
+    "title": "پلیٹ فارم جائزہ",
+    "subtitle": "HydroLedger پلیٹ فارمس پؠٹھ موجود تمام رجسٹرڈ کمیونٹی ایڈمن۔",
+    "viewAll": "تمام کمیونیٹیز وچھ",
+    "loadError": "پلیٹ فارم ڈیٹا لوڈ کرنَس منز خلل۔",
+    "cards": {
+      "totalCommunities": "کل کمیونیٹیز",
+      "registeredAdmins": "رجسٹرڈ ایڈمن",
+      "totalResidents": "کل رہائشی",
+      "acrossAllCommunities": "تمام کمیونیٹیز منزہ",
+      "active": "فعال",
+      "inGoodStanding": "بہتر حالت",
+      "blockedTerminated": "بند / ختم",
+      "blockedTerminatedBreakdown": "{{blocked}} بند، {{terminated}} ختم"
+    },
+    "recent": {
+      "title": "حال ہی منز رجسٹرڈ کمیونیٹیز",
+      "loading": "لوڈ گژھن چھ…",
+      "empty": "کاہ کمیونٹی رجسٹرڈ چھنہ۔",
+      "table": {
+        "community": "کمیونٹی",
+        "admin": "ایڈمن",
+        "status": "حیثیت",
+        "residents": "رہائشی"
+      }
+    }
+  },
+  "communities": {
+    "count": "کمیونیٹیز: {{count}}",
+    "loadError": "کمیونیٹیز لوڈ کرنَس منز خلل۔ مہر بانی کرتھ دوبارہ کوشش کرہ۔",
+    "searchPlaceholder": "کمیونٹی، ایڈمن ناو یا ای میل سٟتؠ چھانٛٹھ",
+    "statusFilter": {
+      "label": "حیثیت",
+      "all": "ساروے"
+    },
+    "sortOptions": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "residents": "رہائشی"
+    },
+    "loading": "کمیونیٹیز لوڈ گژھن چھ…",
+    "empty": "کاہ کمیونٹی رجسٹرڈ چھنہ۔",
+    "noMatch": "تُہندِ فلٹرن مطابقت چھنہ۔",
+    "table": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "email": "ای میل",
+      "status": "حیثیت",
+      "residents": "رہائشی",
+      "view": "وچھ"
+    }
+  },
+  "communityDetail": {
+    "loadError": "یہ کمیونٹی لوڈ گژھنہ آیہ۔ ممکن چھ یہ ہٹاونہ آمت ٲسے۔",
+    "statusUpdateError": "یہ کمیونٹی ہنٛز حیثیت اپ ڈیٹ کرنہ منز خلل۔",
+    "deleteError": "یہ کمیونٹی ختم کرنہ منز خلل۔",
+    "loading": "کمیونٹی لوڈ گژھن چھ…",
+    "notFound": "کمیونٹی لبنہ آیہ نہ۔",
+    "backLink": "← کمیونیٹیز وات",
+    "backLinkShort": "کمیونیٹیز وات",
+    "eyebrow": "کمیونٹی پروفائل",
+    "unnamed": "بغیر ناو کمیونٹی",
+    "noAddress": "پتہ موجود چھنہ",
+    "stats": {
+      "residents": "رہائشی",
+      "status": "حیثیت"
+    },
+    "actions": {
+      "reactivate": "دوبارہ فعال کرہ",
+      "block": "بند کرہ",
+      "terminate": "ختم کرہ",
+      "delete": "کمیونٹی ختم کرہ"
+    },
+    "blockDialog": {
+      "title": "یہ کمیونٹی ایڈمن بند کرہ؟",
+      "message": "{{name}} بند کرہ؟ یہ لاگ ان کرنہ پؠٹھ نا اہل روزن۔ ڈیٹا پؠٹھ کانہہ اثر نہ۔",
+      "confirm": "بند"
+    },
+    "terminateDialog": {
+      "title": "یہ کمیونٹی ایڈمن ختم کرہ؟",
+      "message": "{{name}} سٕنٛز رسائی مستقل طور ختم کرہ؟ یہ واپس آسنہ نہ، مگر کمیونٹی ڈیٹا ریکارڈ خٲطرہ رودن۔",
+      "confirm": "ختم"
+    },
+    "deleteDialog": {
+      "title": "یہ کمیونٹی حذف کرہ؟",
+      "message": "یہ <strong>{{name}}</strong> تہ تمام گھر، رہائشی، میٹر، ٹیرف/بلنگ تہ انوائس ہسٹری مستقل طور ختم کرنہ۔ یہ عمل واپس آسنہ نہ۔",
+      "typeToConfirm": "جاری تھاونہ خٲطرہ <strong>{{word}}</strong> ٹائپ کرہ",
+      "confirm": "تصدیق"
+    },
+    "residents": {
+      "title": "رہائشی",
+      "registeredCount": "رجسٹرڈ: {{count}}",
+      "empty": "یہ کمیونٹی منز چھنہ کانہہ رہائشی رجسٹرڈ۔",
+      "table": {
+        "flatUnit": "فلیٹ یونٹ",
+        "meter": "میٹر",
+        "resident": "رہائشی",
+        "email": "ای میل",
+        "passwordSet": "پاس ورڈ سیٹ"
+      },
+      "yes": "آہ",
+      "no": "نہ"
+    },
+    "cancel": "منسوخ",
+    "working": "کام جٲری…",
+    "deleting": "حذف گژھن…"
+  },
+  "systemStatus": {
+    "statusError": "سسٹم حیثیت چیک کرن خٲطرہ بیک اینڈ واتہ نہ۔",
+    "metricsError": "میٹرکس ہسٹری لوڈ گژھنہ آیہ۔",
+    "ranges": {
+      "fiveMinutes": "5 منٹ",
+      "fifteenMinutes": "15 منٹ",
+      "hour": "گنٹہ",
+      "day": "دۄہ",
+      "week": "ہفتہ",
+      "month": "راتھ",
+      "threeMonths": "3 راتھ"
+    },
+    "uptime": {
+      "days": "{{value}} دۄہ",
+      "hours": "{{value}} گنٹہ",
+      "minutes": "{{value}} منٹ"
+    },
+    "charts": {
+      "requestsPerSec": "درخواستیں فی سیکنڈ",
+      "opsPerSec": "Ops فی سیکنڈ",
+      "latency": "لیٹنسی",
+      "lastValue": "آخری {{value}}",
+      "loading": "لوڈ گژھن چھ…",
+      "empty": "یہ رینج خٲطرہ کانہہ میٹرکس ریکارڈ چھنہ۔"
+    },
+    "stats": {
+      "min": "کم از کم: <b>{{value}}</b>",
+      "avg": "اوسط: <b>{{value}}</b>",
+      "max": "زیادہ از زیادہ: <b>{{value}}</b>",
+      "last": "آخری: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "بیک اینڈ API",
+      "checking": "چیک گژھن چھ…",
+      "reachable": "قابل رسائی",
+      "unreachable": "ناقابل رسائی",
+      "connected": "منسلک",
+      "backendApiHint": "یہ صفحہ بیک اینڈ پؠٹھ لوڈ گو، تیکہ سٟتؠ چھ یہ جواب دیتمت۔",
+      "database": "ڈیٹا بیس",
+      "databaseHint": "PostgreSQL کنیکٹوٹی، لائیو چیک۔",
+      "uptime": "بیک اینڈ اپ ٹائم",
+      "uptimeHint": "آخری ایپلیکیشن ری سٹارٹ پؠٹھ۔",
+      "appVersion": "ایپ ورژن",
+      "appVersionHint": "بیک اینڈ بلڈ ورژن۔"
+    },
+    "mini": {
+      "latency": "لیٹنسی",
+      "readsLatency": "ریڈز لیٹنسی",
+      "writesLatency": "رائٹس لیٹنسی",
+      "otherLatency": "دیگر لیٹنسی",
+      "connections": "کنیکشن",
+      "totalKeys": "کل کیز"
+    },
+    "note": "درخواستیں فی سیکنڈ اور لیٹنسی ہر 15 سیکنڈ میں لائیو ٹریفک سے نمونے کے طور پر لی جاتی ہیں اور 100 دنوں تک رکھی جاتی ہیں۔ یہ ایک بنیادی ٹریفک چیک ہے - یہ مکمل ایپلیکیشن کارکردگی کی نگرانی یا الرٹنگ کی جگہ نہیں لیتا۔"
+  },
+  "reports": {
+    "loadError": "پلیٹ فارم رپورٹ لوڈ کرنہ مژھ نہ گو۔",
+    "ranges": {
+      "threeMonths": "3 رؠتہٕ",
+      "sixMonths": "6 رؠتہٕ",
+      "twelveMonths": "12 رؠتہٕ",
+      "custom": "پنن مرضی مطابق"
+    },
+    "sortOptions": {
+      "community": "کمیونٹی",
+      "usage": "استعمال",
+      "billed": "بل",
+      "residents": "رہائشی"
+    },
+    "customRange": {
+      "from": "کنہٕ",
+      "to": "تانہٕ",
+      "hint": "کسٹم رپورٹ لوڈ کرنہٕ خٲطرٕ 'کنہٕ' تہٕ 'تانہٕ' مہینہٕ منتخب کریو۔"
+    },
+    "loading": "رپورٹ لوڈ گژھان چھُ…",
+    "cards": {
+      "totalCommunities": "کل کمیونٹیز",
+      "inThisRange": "یہِ حدس منٛز",
+      "totalResidents": "کل رہائشی",
+      "acrossAllCommunities": "ساروے کمیونٹیزن منٛز",
+      "overallUsage": "مجموعی استعمال",
+      "meteredConsumption": "میٹرڈ کھپت",
+      "overallBilled": "مجموعی بل",
+      "finalizedInvoicesOnly": "صرف حتمی انوائس",
+      "avgUsagePerResident": "اوسط استعمال / رہائشی",
+      "avgBillPerResident": "اوسط بل / رہائشی"
+    },
+    "charts": {
+      "usageTitle": "پلیٹ فارم-وائیڈ استعمال (kL / مہینہٕ)",
+      "usageEmpty": "یہِ حدس خٲطرٕہ کانٛہہ تہِ استعمال ریکارڈ چھنہٕ آمت۔",
+      "usageSeries": "استعمال",
+      "billedTitle": "پلیٹ فارم-وائیڈ بل رقم (₹ / مہینہٕ)",
+      "billedEmpty": "یہِ حدس خٲطرٕہ کانٛہہ تہِ انوائس حتمی چھنہٕ آمت۔",
+      "billedSeries": "بل"
+    },
+    "searchPlaceholder": "کمیونٹی یا ایڈمن نامہٕ سٟتؠ فلٹر کریو",
+    "empty": "یہِ حدس خٲطرٕہ کنہٕ تہِ کمیونٹی ہنٛد استعمال یا بلنگ ڈیٹا چھنہٕ آمت۔",
+    "noMatch": "تُہندِ فلٹرس سٟتؠ کانٛہہ تہِ کمیونٹی مِلان چھنہٕ۔",
+    "table": {
+      "community": "کمیونٹی",
+      "admin": "ایڈمن",
+      "residents": "رہائشی",
+      "usage": "استعمال (kL)",
+      "billed": "بل (₹)",
+      "avgUsagePerResident": "اوسط استعمال / رہائشی",
+      "avgBillPerResident": "اوسط بل / رہائشی"
+    }
+  },
+  "supportTickets": {
+    "title": "سپورٹ ٹکٹس",
+    "subtitle": "رہائشن تہٕ کمیونٹی ایڈمنز طرفہٕ اٹھاونہٕ آمتؠ سپورٹ ٹکٹس تہٕ خدشات۔"
+  }
+}

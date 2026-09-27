@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "בקרוב",
+    "welcome": {
+      "greeting": "שלום {{name}},",
+      "greetingFallback": "שלום לך,",
+      "title": "הישאר קרוב לסיפור המים של הבית שלך.",
+      "subtitle": "תובנות לגבי שימוש וחיוב יופיעו כאן כשהקהילה שלך רושמת קריאות.",
+      "viewBadges": "צפה בתגים אקולוגיים"
+    },
+    "stats": {
+      "todaysUsage": "השימוש של היום",
+      "asOf": "נכון ל-{{date}}",
+      "noReading": "עדיין אין קריאת מונה",
+      "monthlyTotalFor": "סה\"כ חודשי ({{month}})",
+      "monthlyTotalThisMonth": "סה\"כ חודשי (החודש)",
+      "sumOfReadings": "סכום הקריאות המוקלטות",
+      "estimatedBill": "חוק משוער נוכחי",
+      "estimatedBillFor": "שימוש מדוד + חיובים משותפים, {{month}}",
+      "estimatedBillHint": "מבוסס על הצריכה המדודה של החודש והחיובים המשותפים",
+      "savings": "חיסכון לעומת בניין ממוצע",
+      "savingsValue": "{{percent}}% פחות",
+      "savingsPreview": "תצוגה מקדימה בלבד - ההשוואה עדיין לא פעילה"
+    },
+    "consumption": {
+      "eyebrow": "צְרִיכָה",
+      "title": "צריכה יומית (14 קריאות אחרונות)",
+      "seriesName": "צְרִיכָה",
+      "empty": "עדיין לא נרשמו קריאות."
+    },
+    "breakdown": {
+      "eyebrow": "הִתמוֹטְטוּת",
+      "title": "פירוט שימוש",
+      "bathroom": "חֲדַר אַמְבַּטִיָה",
+      "kitchen": "מִטְבָּח",
+      "garden": "גינה / מרפסת",
+      "other": "אחר / כביסה"
+    },
+    "billing": {
+      "eyebrow": "חיוב",
+      "title": "מחזור חיובים פעיל",
+      "finalized": "סופית",
+      "preview": "תצוגה מקדימה",
+      "meteredConsumption": "צריכה מדודה",
+      "tierPriceLevel": "רמת מחירים",
+      "tierLabel": "שכבה {{tier}}",
+      "commonArea": "חלוקת שטח משותף",
+      "commonAreaPreview": "חלוקת שטח משותף (תצוגה מקדימה)",
+      "invoiceTotal": "סה\"כ {{period}} חשבונית",
+      "estimatedCharge": "חיוב משוער נוכחי",
+      "commonAreaBreakdown": "התמוטטות שטח משותף",
+      "payPreview": "תצוגה מקדימה של חשבונות תשלום",
+      "payUnavailable": "מנוע החיוב עדיין לא זמין"
+    },
+    "tips": {
+      "eyebrow": "טיפים",
+      "title": "טיפים חכמים לחיסכון",
+      "viewAll": "הצג הכל",
+      "empty": "טיפים מותאמים אישית מופיעים כאן לאחר שהקהילה שלך מסיימת מחזור חיובים."
+    },
+    "community": "קהילה: {{name}}"
+  },
+  "usage": {
+    "loadError": "לא ניתן היה לטעון את היסטוריית השימוש שלך. אנא נסה שוב.",
+    "loading": "טוען את ניתוחי השימוש שלך...",
+    "empty": "עדיין לא נרשמו קריאות. ברגע שהקהילה שלך תתעד קריאת מונה, היא תופיע כאן.",
+    "tabs": {
+      "lastSixMonths": "6 החודשים האחרונים",
+      "customRange": "טווח מותאם אישית",
+      "comingSoon": "בקרוב"
+    },
+    "peakDay": "יום השיא:",
+    "lowestDay": "היום הנמוך ביותר:",
+    "comparison": {
+      "title": "צריכת משק בית לעומת ממוצע דירה",
+      "subtitle": "סיכומים חודשיים מוצגים בקילוליטרים (kL).",
+      "yourHousehold": "משק הבית שלך",
+      "apartmentAverage": "ממוצע דירה",
+      "similarSized": "בתים בגודל דומה"
+    },
+    "heatmap": {
+      "title": "מפת חום של צריכה יומית",
+      "subtitle": "עוצמת הצבע מסמנת ימי שימוש כבדים (תצוגה מקדימה)."
+    },
+    "ranking": {
+      "title": "דירוג עמיתים בקהילה",
+      "subtitle": "הדירוג שלך בהשוואה ליחידות דומות (תצוגה מקדימה).",
+      "ecoSaver": "חיסכון אקטיבי אקטיבי",
+      "aptNumber": "דירה {{number}}",
+      "unitNumber": "יחידה {{number}}",
+      "yourUnit": "היחידה שלך",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (אתה)"
+    }
+  },
+  "billing": {
+    "loadError": "לא ניתן היה לטעון את היסטוריית החיובים שלך. אנא נסה שוב.",
+    "pdfError": "לא ניתן היה להוריד את PDF. אנא נסה שוב.",
+    "loading": "טוען את היסטוריית החיובים שלך...",
+    "empty": "עדיין אין חשבוניות - ברגע שהקהילה שלך תסיים מחזור חיובים, החשבונות שלך יופיעו כאן.",
+    "status": {
+      "paid": "בתשלום",
+      "unpaid": "ללא תשלום"
+    },
+    "summary": {
+      "outstandingBalance": "יתרה יוצאת דופן",
+      "billingCycle": "מחזור חיובים: {{period}}",
+      "allPaid": "כל החשבוניות משולמות",
+      "payTotal": "שלם סה\"כ מצטיינים",
+      "payTotalUnavailable": "תשלום מקוון אינו זמין עדיין - קבע חשבונות ישירות עם מנהל הקהילה שלך",
+      "downloadSummary": "הורד את סיכום חשבונות",
+      "downloadSummaryUnavailable": "הורדת סיכום חשבונות אינה זמינה עדיין"
+    },
+    "history": {
+      "title": "היסטוריית חשבוניות",
+      "exportCsv": "ייצא הכל אל CSV",
+      "exportUnavailable": "ייצוא CSV אינו זמין עדיין"
+    },
+    "table": {
+      "cycle": "מַחזוֹר",
+      "usage": "שימוש (kL)",
+      "amountDue": "סכום לתשלום",
+      "paymentStatus": "מצב תשלום",
+      "hideBreakdown": "הסתר פירוט ↑",
+      "showBreakdown": "פירוט מפורט ↓",
+      "downloading": "מוריד...",
+      "pdf": "PDF",
+      "pay": "לְשַׁלֵם"
+    },
+    "breakdown": {
+      "householdTitle": "פירוט צריכת משק בית",
+      "basePrice": "מחיר בסיס: {{units}} kL × ₹{{rate}}",
+      "tierLine": "שכבה {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "סה\"כ שימוש מדוד",
+      "commonAreaTitle": "חלוקת שטח משותף",
+      "subtotalShared": "סה\"כ אזור משותף",
+      "noCommonArea": "אין חיובים בשטח משותף עבור מחזור זה."
+    },
+    "pagination": {
+      "showing": "מציג {{from}}–{{to}} מתוך {{total}}",
+      "prev": "← הקודם",
+      "next": "הבא →",
+      "page": "עמוד {{page}} מתוך {{count}}"
+    },
+    "paymentMethods": {
+      "title": "אמצעי תשלום (תצוגה מקדימה)",
+      "description": "תשלום מקוון אינו זמין עדיין - החשבונות מסולקים ישירות עם מנהל הקהילה שלך.",
+      "manage": "ניהול אמצעי תשלום",
+      "manageUnavailable": "אמצעי תשלום אינם זמינים עדיין"
+    }
+  },
+  "razorpay": {
+    "securedBy": "מאובטח על ידי Razorpay",
+    "billingCycle": "מחזור חיובים {{period}}",
+    "close": "לִסְגוֹר",
+    "amountPayable": "סכום לתשלום",
+    "methods": {
+      "upi": "UPI",
+      "cards": "קלפים",
+      "netbanking": "בנקאות רשת",
+      "wallet": "אַרְנָק"
+    },
+    "upi": {
+      "title": "שלם באמצעות UPI",
+      "upiId": "UPI מזהה",
+      "or": "אוֹ",
+      "scan": "סרוק עם כל אפליקציה UPI"
+    },
+    "card": {
+      "title": "שלם באמצעות כרטיס",
+      "number": "מספר כרטיס",
+      "expiry": "תְפוּגָה",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "השם בכרטיס",
+      "namePlaceholder": "כפי שהודפס על כרטיס"
+    },
+    "netbanking": {
+      "title": "שלם באמצעות Netbanking"
+    },
+    "wallet": {
+      "title": "שלם באמצעות ארנק"
+    },
+    "payAmount": "שלם ₹{{amount}}",
+    "processing": "מעבד את התשלום שלך...",
+    "processingHint": "נא לא ללחוץ אחורה או לרענן את הדף הזה",
+    "success": "התשלום הצליח",
+    "error": "משהו השתבש באישור התשלום שלך. אנא נסה שוב.",
+    "retry": "נסה שוב"
+  },
+  "notifications": {
+    "loadError": "לא ניתן היה לטעון את ההתראות שלך. אנא נסה שוב.",
+    "loading": "טוען את ההתראות שלך...",
+    "empty": "עדיין אין התראות - תראה משהו כאן אם מנהל הקהילה שלך הפעיל התראות סף שימוש או צריכת חריגה ואחת מופעלת עבור משק הבית שלך.",
+    "type": {
+      "thresholdExceeded": "חריגה מסף הצריכה",
+      "statisticalOutlier": "זוהתה צריכה חריגה"
+    },
+    "status": {
+      "active": "פָּעִיל",
+      "resolved": "נפתר",
+      "dismissed": "מְפוּטָר"
+    },
+    "billingPeriod": "תקופת חיוב: {{period}}",
+    "consumption": "צריכה: {{value}} kL",
+    "push": {
+      "title": "הודעות דחיפה",
+      "description": "קבל התראה במכשיר הזה כשמגיע חשבון או התראה חדשים.",
+      "enable": "לְאַפשֵׁר",
+      "disable": "השבת",
+      "permissionDenied": "הרשאת הודעה לא ניתנה.",
+      "notConfigured": "הודעות דחיפה אינן מוגדרות עדיין. פנה למנהל המערכת שלך.",
+      "enableError": "לא ניתן להפעיל הודעות דחיפה. אנא נסה שוב.",
+      "disableError": "לא ניתן היה להשבית הודעות דחיפה. אנא נסה שוב."
+    }
+  },
+  "recommendations": {
+    "loadError": "לא ניתן היה לטעון את ההמלצות שלך. אנא נסה שוב.",
+    "loading": "טוען את הטיפים המותאמים אישית שלך...",
+    "generated": "נוצר {{date}}",
+    "generatedForPeriod": "נוצר {{date}} עבור תקופת החיוב {{period}}",
+    "eyebrow": "מותאם אישית עבורך",
+    "title": "טיפים חכמים לחיסכון במים",
+    "empty": "עדיין לא נוצרו טיפים - אלה מתרעננים אוטומטית בכל פעם שהקהילה שלך מסיימת מחזור חיובים עבור משק הבית שלך."
+  },
+  "support": {
+    "title": "דלפק תמיכה ודאגות לתושבים",
+    "subtitle": "שלח דוחות נזילות מים, בקשות לכיול מונה או פניות חיוב ישירות למנהל הקהילה ו/או למנהל המערכת שלך.",
+    "emptyCreateHint": "תאר את הבעיה או החשש שלך למטה, ובחר מי צריך לטפל בהם."
+  }
+}

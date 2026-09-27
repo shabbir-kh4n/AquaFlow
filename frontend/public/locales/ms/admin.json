@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Memuatkan…",
+    "saving": "Menyimpan…",
+    "saved": "Disimpan.",
+    "uploading": "Memuat naik…",
+    "upload": "Muat naik",
+    "uploadError": "Tidak dapat memuat naik fail ini. Sila cuba lagi.",
+    "cancel": "Batal",
+    "close": "tutup",
+    "edit": "Sunting",
+    "remove": "Alih keluar",
+    "saveChanges": "Simpan Perubahan",
+    "bulkSummary": "Diproses <b>{{total}}</b> baris — <b>{{success}}</b> berjaya, <b>{{failure}}</b> gagal.",
+    "rowFailure": "Baris {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Menunjukkan {{from}}–{{to}} daripada {{total}}",
+    "prev": "← Sebelumnya",
+    "next": "Seterusnya →",
+    "page": "Halaman {{page}} daripada {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Tidak dapat memuatkan data komuniti anda sekarang.",
+    "title": "{{community}} Papan Pemuka Pangsapuri",
+    "titleFallback": "Papan Pemuka Pangsapuri Anda",
+    "subtitle": "Ringkasan operasi untuk sub-metering utiliti air dan penggunaan isi rumah.",
+    "comingSoon": "Akan datang",
+    "manageCommunity": "Urus Komuniti",
+    "noUsageReadings": "Tiada bacaan penggunaan direkodkan.",
+    "cards": {
+      "totalHouseholds": "Jumlah Isi Rumah",
+      "occupied": "diduduki",
+      "activeMeters": "Meter Aktif",
+      "reportingReadings": "Melaporkan bacaan",
+      "monthlyConsumption": "Penggunaan Bulanan",
+      "thisCalendarMonth": "Bulan kalendar ini",
+      "latestRecordedMonth": "Bulan tercatat terkini ({{month}})",
+      "noReadingsYet": "Tiada bacaan direkodkan lagi",
+      "pendingAlerts": "Makluman belum selesai",
+      "anomalyPreview": "Pratonton pengesanan anomali — belum tersedia"
+    },
+    "actions": {
+      "label": "Tindakan Pentadbiran Pantas",
+      "uploadReadings": "Muat Naik Bacaan Meter",
+      "configureTariffs": "Konfigurasikan Tarif",
+      "reportsNotBuilt": "Laporan belum dibina lagi",
+      "downloadReports": "Muat Turun Laporan Sistem"
+    },
+    "chart": {
+      "title": "Perbandingan Penggunaan Bulanan (kL)",
+      "subtitle": "{{months}} bulan lepas: sasaran berbanding penggunaan sebenar.",
+      "targetSeries": "Sasaran (pratonton)",
+      "actualSeries": "sebenarnya"
+    },
+    "recent": {
+      "title": "Bacaan Meter Terkini",
+      "unit": "Unit",
+      "resident": "Penduduk",
+      "lastReading": "Bacaan Terakhir",
+      "consumption": "Penggunaan"
+    }
+  },
+  "households": {
+    "loadError": "Tidak dapat memuatkan penduduk. Sila cuba lagi.",
+    "fixFields": "Sila betulkan medan yang diserlahkan.",
+    "saveError": "Tidak dapat menyelamatkan penduduk ini. Sila semak butiran.",
+    "confirmRemove": "Alih keluar {{name}} daripada direktori isi rumah anda?",
+    "removeError": "Tidak dapat mengalih keluar penduduk ini. Sila cuba lagi.",
+    "count": "Isi rumah: {{total}}",
+    "bulkUploadButton": "⇪ Muat Naik Pukal",
+    "addResidentButton": "+ Tambah Penduduk",
+    "searchPlaceholder": "Tapis mengikut nama, rumah, e-mel atau no meter.",
+    "loading": "Memuatkan penduduk…",
+    "empty": "Belum ada penduduk. Klik \"Tambah Penduduk\" untuk mendaftarkan isi rumah pertama.",
+    "noMatch": "Tiada penduduk yang sepadan dengan \"{{search}}\".",
+    "sort": {
+      "label": "Isih mengikut",
+      "name": "Nama",
+      "houseNumber": "Nombor Rumah",
+      "dateOfJoining": "Tarikh Menyertai",
+      "toggleDirection": "Togol arah isihan",
+      "asc": "↑ Asc",
+      "desc": "↓ Des"
+    },
+    "gender": {
+      "male": "jantan",
+      "female": "perempuan",
+      "other": "Lain-lain"
+    },
+    "table": {
+      "name": "Nama",
+      "houseUnit": "Rumah / Unit",
+      "email": "E-mel",
+      "phone": "telefon",
+      "meterNumber": "No Meter",
+      "sqft": "kaki persegi",
+      "joined": "Menyertai"
+    },
+    "form": {
+      "addTitle": "Tambah Penduduk",
+      "editTitle": "Edit Residen",
+      "editSubtitle": "Ini mengemas kini butiran pemastautin dalam direktori anda.",
+      "bypassSubtitle": "Anda menetapkan kata laluan pemastautin ini secara langsung. Tiada e-mel akan dihantar.",
+      "addSubtitle": "Pautan set-kata laluan akan dihantar melalui e-mel kepada pemastautin ini supaya mereka boleh mengaktifkan log masuk mereka sendiri.",
+      "fullName": "Nama penuh",
+      "houseNumber": "Rumah / unit no.",
+      "email": "E-mel",
+      "phone": "Nombor telefon",
+      "meterNumber": "Nombor meter",
+      "governmentId": "ID Kerajaan",
+      "gender": "Jantina",
+      "dateOfBirth": "Tarikh lahir",
+      "dateOfJoining": "Tarikh menyertai",
+      "flatSize": "Saiz rata (kaki persegi)",
+      "bypassLabel": "Pintasan e-mel set-kata laluan — tetapkan kata laluan untuk pemastautin ini sekarang",
+      "password": "Kata laluan",
+      "confirmPassword": "Sahkan kata laluan"
+    },
+    "validation": {
+      "fullNameRequired": "Nama penuh diperlukan.",
+      "emailRequired": "E-mel diperlukan.",
+      "phoneRequired": "Nombor telefon diperlukan.",
+      "houseNumberRequired": "Nombor rumah / unit diperlukan.",
+      "houseNumberTaken": "Nombor rumah ini sudah diberikan kepada penduduk lain.",
+      "meterNumberRequired": "Nombor meter diperlukan.",
+      "meterNumberFormat": "Nombor meter mesti kelihatan seperti MTR-1234 (4 digit).",
+      "meterNumberTaken": "Nombor meter ini sudah diberikan kepada penduduk lain.",
+      "governmentIdRequired": "ID Kerajaan diperlukan.",
+      "governmentIdFormat": "ID mestilah 6 digit bermula dengan 99 (cth. 991234).",
+      "genderRequired": "Sila pilih jantina.",
+      "dateOfBirthRequired": "Tarikh lahir diperlukan.",
+      "dateOfJoiningRequired": "Tarikh penyertaan diperlukan.",
+      "passwordRequired": "Kata laluan diperlukan.",
+      "passwordLength": "Kata laluan mestilah sekurang-kurangnya 8 aksara.",
+      "confirmPasswordRequired": "Sila sahkan kata laluan.",
+      "passwordMismatch": "Kata laluan tidak sepadan."
+    },
+    "bulk": {
+      "title": "Muat Naik Pukal Penduduk",
+      "noFile": "Sila pilih fail .csv atau .xlsx/.xls untuk dimuat naik.",
+      "instructions": "Muat naik fail .csv atau .xlsx/.xls dengan lajur <code>{{columns}}</code> (kata laluan dan flatSizeSqft kedua-duanya adalah pilihan). Baris dengan kata laluan menetapkannya secara langsung; baris tanpa satu mendapat e-mel set-kata laluan, sama seperti menambah pemastautin secara manual. Nombor rumah/meter pendua atau e-mel ditolak setiap baris — satu baris yang buruk tidak akan gagal pada keseluruhan kumpulan."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Tidak dapat memuatkan penduduk. Sila cuba lagi.",
+    "historyLoadError": "Tidak dapat memuatkan sejarah bacaan. Sila cuba lagi.",
+    "successMessage": "Berjaya merakam bacaan {{value}} kL untuk {{house}} (Meter: {{meter}})! Penggunaan dikira: {{consumption}} kL.",
+    "tabs": {
+      "single": "Kemasukan Tunggal",
+      "csv": "Pukal CSV Muat naik",
+      "history": "Membaca Sejarah"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Penduduk ini tidak mempunyai nombor meter dalam fail.",
+      "dateRequired": "Tarikh bacaan diperlukan.",
+      "invalidValue": "Sila masukkan nilai bacaan yang sah dan bukan negatif.",
+      "duplicate": "Bacaan untuk meter ini sudah wujud pada tarikh tersebut.",
+      "meterNotFound": "Meter ini tidak dapat ditemui. Sila pilih semula penduduk.",
+      "lowerThanPrevious": "Bacaan ini lebih rendah daripada bacaan yang direkodkan sebelum ini.",
+      "recordFailed": "Tidak dapat merakam bacaan ini. Sila cuba lagi."
+    },
+    "combo": {
+      "label": "Pilih Bersiri Flat & Meter",
+      "placeholder": "Pilih Siri Rata & Meter…",
+      "flat": "Rata {{house}}",
+      "noMeter": "Tiada meter",
+      "searchPlaceholder": "Cari no flat, meter siri, pemastautin…",
+      "unitsHeader": "Unit Kediaman",
+      "found": "Rumah pangsa ditemui: {{total}}",
+      "loading": "Memuatkan penduduk…",
+      "noMatch": "Tiada penduduk yang sepadan dengan \"{{search}}\".",
+      "unassigned": "Tidak ditugaskan",
+      "itemMeta": "{{name}} · Terakhir: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Merakam bacaan untuk",
+      "context": "Rumah {{house}} · Meter {{meter}}",
+      "changeResident": "Tukar penduduk",
+      "readingDate": "Tarikh bacaan",
+      "readingValue": "Bacaan Meter Semasa (kL)",
+      "submit": "Hantar Bacaan yang Disahkan",
+      "recentTitle": "Bacaan terkini",
+      "recentEmpty": "Tiada bacaan direkodkan lagi untuk meter ini."
+    },
+    "info": {
+      "title": "Pengesahan Meter Monotonik",
+      "body": "Setiap bacaan baharu mestilah lebih besar daripada atau sama dengan log sebelumnya untuk meter itu — ini memastikan pengiraan penggunaan tepat dan menangkap digit yang ditukar lebih awal."
+    },
+    "details": {
+      "title": "Butiran Unit Terpilih",
+      "flatUnit": "Unit Flat",
+      "meterSerial": "Siri Meter",
+      "occupant": "Nama Penghuni",
+      "lastDial": "Dail Terakhir Dirakam",
+      "noReadings": "Tiada bacaan lagi",
+      "monthConsumption": "Penggunaan Bulan",
+      "empty": "Tiada isi rumah yang dipilih. Cari dan pilih penduduk untuk melihat butiran meter mereka di sini."
+    },
+    "csv": {
+      "noFile": "Sila pilih fail CSV untuk dimuat naik.",
+      "instructions": "Muat naik CSV dengan lajur <code>{{columns}}</code>. Baris diproses secara bebas — satu baris yang buruk tidak akan gagal pada keseluruhan kumpulan."
+    },
+    "history": {
+      "loading": "Memuatkan bacaan…",
+      "empty": "Tiada bacaan direkodkan untuk komuniti anda."
+    },
+    "table": {
+      "meterNumber": "No Meter",
+      "date": "tarikh",
+      "value": "Nilai (kL)",
+      "consumption": "Penggunaan (kL)",
+      "source": "Sumber"
+    }
+  },
+  "billingCycles": {
+    "title": "Kitaran Pengebilan",
+    "loadError": "Tidak dapat memuatkan kitaran pengebilan. Sila cuba lagi.",
+    "paymentUpdateError": "Tidak dapat mengemas kini status pembayaran invois ini.",
+    "pdfError": "Tidak dapat memuat turun PDF. Sila cuba lagi.",
+    "finalizeError": "Tidak dapat memuktamadkan kitaran pengebilan ini.",
+    "archiveError": "Tidak dapat mengarkibkan kitaran pengebilan ini.",
+    "loading": "Memuatkan kitaran pengebilan…",
+    "empty": "Tiada kitaran pengebilan lagi. Buka satu di atas untuk bermula.",
+    "status": {
+      "open": "Buka",
+      "finalized": "Dimuktamadkan",
+      "archived": "Diarkibkan"
+    },
+    "open": {
+      "title": "Buka Kitaran Pengebilan Baharu",
+      "noMonth": "Sila pilih bulan untuk dibuka.",
+      "error": "Tidak dapat membuka kitaran pengebilan untuk bulan itu.",
+      "monthAria": "Bulan tempoh pengebilan",
+      "opening": "Membuka…",
+      "submit": "Kitaran Terbuka"
+    },
+    "table": {
+      "period": "Tempoh",
+      "status": "Status",
+      "householdsBilled": "Isi Rumah Dibilkan",
+      "totalBilled": "Jumlah Bil",
+      "actions": "Tindakan"
+    },
+    "actions": {
+      "finalize": "memuktamadkan",
+      "finalizing": "Memuktamadkan…",
+      "archive": "Arkib",
+      "archiving": "Mengarkibkan…"
+    },
+    "filter": {
+      "aria": "Tapis mengikut status pembayaran",
+      "all": "Semua"
+    },
+    "payment": {
+      "paid": "Dibayar",
+      "unpaid": "Tak bergaji",
+      "updating": "Mengemas kini…",
+      "markPaid": "Tandakan sebagai berbayar",
+      "markUnpaid": "Tandakan sebagai belum dibayar"
+    },
+    "detail": {
+      "title": "Butiran Kitaran — {{period}}",
+      "loading": "Memuatkan invois…",
+      "notFinalized": "Kitaran ini belum dimuktamadkan lagi — tiada invois dijana.",
+      "noInvoices": "Tiada invois untuk kitaran ini.",
+      "noMatch": "Tiada invois yang sepadan dengan penapis ini."
+    },
+    "invoices": {
+      "household": "isi rumah",
+      "resident": "Penduduk",
+      "meterNumber": "No Meter",
+      "consumption": "Penggunaan (kL)",
+      "tierBreakdown": "Pecahan Peringkat",
+      "commonArea": "Kawasan Bersama",
+      "total": "Jumlah",
+      "paymentStatus": "Status Pembayaran",
+      "pdf": "PDF",
+      "baseLine": "Pangkalan: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Peringkat {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tidak dapat memuatkan konfigurasi tarif",
+    "saveError": "Tidak dapat menyimpan konfigurasi tarif",
+    "chartTitle": "Peringkat Kadar Utiliti Bermeter Aktif",
+    "axisNote": "Kadar dalam ₹/kL, had papak dalam kL",
+    "tableTitle": "Jadual Peringkat Harga",
+    "defaultRatesNote": "Menunjukkan kadar lalai — belum disimpan.",
+    "addTier": "+ Tambah Peringkat",
+    "saveRates": "Jimat Kadar Tarif",
+    "tierLevel": {
+      "base": "Peringkat {{tier}} (Asas)",
+      "medium": "Peringkat {{tier}} (Sederhana)",
+      "heavy": "Peringkat {{tier}} (Berat)"
+    },
+    "basePrice": {
+      "label": "Harga Asas (₹ / kL, digunakan untuk SEMUA penggunaan)",
+      "note": "Setiap kL dikenakan kadar rata ini terlebih dahulu. Papak di bawah menambah caj TAMBAHAN hanya untuk penggunaan yang berada dalam julatnya — cth. papak bermula pada 50 kL hanya menambah kadarnya untuk penggunaan melebihi 50 kL."
+    },
+    "table": {
+      "tierLevel": "Tahap Peringkat",
+      "slabLimit": "Had Papak (kL)",
+      "rate": "Kadar setiap kL",
+      "action": "Tindakan"
+    },
+    "commonArea": {
+      "title": "Konfigurasi Kos Kawasan Biasa Dikongsi",
+      "loadError": "Tidak dapat memuatkan konfigurasi kos kawasan umum",
+      "saveError": "Tidak dapat menyimpan konfigurasi kos kawasan umum",
+      "empty": "Tiada item kos disimpan lagi.",
+      "labelPlaceholder": "Label item kos",
+      "perMonth": "/ bulan",
+      "active": "Aktif",
+      "addItem": "+ Tambah Item Kos",
+      "save": "Simpan Konfigurasi Kawasan Biasa"
+    },
+    "distribution": {
+      "title": "Pemilih Kaedah Pengagihan Kos",
+      "consumption": "Mengikut Penggunaan (Sub-metered Proportional)",
+      "floorArea": "Mengikut Saiz Flat Pangsapuri (Kaki persegi)"
+    },
+    "footer": {
+      "cycleStart": "Tarikh Mula Pengebilan Kitaran",
+      "cycleStartValue": "1 setiap Bulan",
+      "autoInvoices": "AutoJana PDF Invois"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Ambang Melebihi",
+      "statisticalOutlier": "Outlier Statistik"
+    },
+    "status": {
+      "active": "Aktif",
+      "resolved": "Selesai",
+      "dismissed": "Diketepikan"
+    },
+    "config": {
+      "title": "Konfigurasi Pengesanan Kebocoran",
+      "subtitle": "Tetapkan ambang penggunaan bulanan dan/atau dayakan pengesanan outlier statistik (menandai isi rumah yang penggunaan bulanannya luar biasa tinggi berbanding sejarahnya sendiri).",
+      "loadError": "Tidak dapat memuatkan konfigurasi amaran. Sila cuba lagi.",
+      "thresholdRequired": "Ambang bulanan (kL) diperlukan apabila amaran ambang didayakan.",
+      "saveError": "Tidak dapat menyimpan konfigurasi ini.",
+      "loading": "Memuatkan konfigurasi…",
+      "threshold": "Ambang bulanan (kL)",
+      "sensitivity": "Kepekaan terpencil (pengganda σ)",
+      "enableThreshold": "Dayakan makluman ambang",
+      "enableOutlier": "Dayakan makluman outlier statistik",
+      "save": "Simpan Konfigurasi",
+      "running": "Berlari…",
+      "runNow": "Jalankan Pengesanan Sekarang"
+    },
+    "alerts": {
+      "title": "Isi Rumah Dibenderakan",
+      "loadError": "Tidak dapat memuatkan makluman. Sila cuba lagi.",
+      "runError": "Tidak dapat menjalankan pengesanan kebocoran sekarang. Sila cuba lagi.",
+      "updateError": "Tidak dapat mengemas kini makluman ini. Sila cuba lagi.",
+      "allStatuses": "Semua status",
+      "loading": "Memuatkan makluman…",
+      "empty": "Tiada makluman untuk ditunjukkan. Konfigurasikan ambang atau dayakan pengesanan outlier di atas, kemudian klik \"Jalankan Pengesanan Sekarang\" untuk menilai penggunaan semasa komuniti anda.",
+      "resolve": "Selesaikan",
+      "dismiss": "Tolak"
+    },
+    "table": {
+      "household": "isi rumah",
+      "resident": "Penduduk",
+      "meter": "Meter",
+      "type": "taip",
+      "period": "Tempoh",
+      "consumption": "Penggunaan",
+      "reference": "Rujukan",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Tidak dapat memuatkan pembelian air pukal. Sila cuba lagi.",
+    "confirmRemove": "Alih keluar penghantaran {{source}} pada {{date}}?",
+    "removeError": "Tidak dapat mengalih keluar pembelian ini. Sila cuba lagi.",
+    "count": "Pembelian direkodkan: {{total}}",
+    "recordButton": "+ Rekod Pembelian",
+    "loading": "Memuatkan pembelian air pukal…",
+    "empty": "Tiada pembelian air pukal lagi direkodkan. Klik \"Rekod Pembelian\" untuk mencatat penghantaran kapal tangki atau pembelian bekalan perbandaran.",
+    "table": {
+      "date": "tarikh",
+      "source": "Sumber",
+      "volume": "Kelantangan (L)",
+      "unitCost": "Kos Unit",
+      "totalCost": "Jumlah Kos",
+      "notes": "Nota"
+    },
+    "form": {
+      "addTitle": "Merekodkan Pembelian Air Pukal",
+      "editTitle": "Edit Pembelian Air Pukal",
+      "subtitle": "Jejaki penghantaran kapal tangki atau pembelian bekalan perbandaran untuk komuniti anda — ini direkodkan untuk keterlihatan kos sahaja dan tidak menjejaskan invois isi rumah.",
+      "requiredFields": "Sila isi tarikh, sumber, volum dan kos unit.",
+      "saveError": "Tidak dapat menyimpan pembelian ini. Sila semak butiran.",
+      "purchaseDate": "Tarikh pembelian",
+      "source": "Sumber / pembekal",
+      "volume": "Isipadu (liter)",
+      "unitCost": "Kos seunit (₹/liter)",
+      "totalPreview": "Jumlah kos: {{amount}}",
+      "notes": "Nota (pilihan)",
+      "submit": "Rekod Pembelian"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} belum dibina lagi",
+    "profileSaveError": "Tidak dapat menyimpan profil anda. Sila cuba lagi.",
+    "apartmentSaveError": "Tidak dapat menyimpan butiran apartmen. Sila cuba lagi.",
+    "specsTitle": "Spesifikasi Profil",
+    "photoUnavailable": "Muat naik foto belum tersedia lagi",
+    "changePhoto": "Tukar Foto",
+    "deletePhoto": "Padam",
+    "photoHint": "JPG atau PNG. Saiz maksimum 2MB.",
+    "saveProfile": "Simpan Profil",
+    "apartmentTitle": "Butiran Pangsapuri",
+    "saveApartment": "Simpan Butiran Pangsapuri",
+    "tabs": {
+      "profile": "Tetapan Profil",
+      "apartment": "Profil Pangsapuri",
+      "notifications": "Peraturan Pemberitahuan",
+      "billing": "Integrasi Pengebilan",
+      "security": "Keselamatan & Akses"
+    },
+    "fields": {
+      "fullName": "Nama Penuh",
+      "email": "Alamat E-mel",
+      "emailLocked": "E-mel tidak boleh ditukar di sini",
+      "phone": "Nombor Telefon",
+      "accessLevel": "Tahap Akses",
+      "accessLevelValue": "Pentadbir Komuniti",
+      "roleLocked": "Pengurusan peranan belum tersedia lagi",
+      "apartmentName": "Nama Pangsapuri",
+      "mainsSource": "Sumber Utama",
+      "mainsSourcePlaceholder": "cth. Bekalan Perbandaran + Tangki Tambahan",
+      "address": "Alamat Fizikal"
+    },
+    "security": {
+      "title": "Pratonton Keselamatan & Akses",
+      "twoFactor": "Pengesahan Dua Faktor",
+      "twoFactorHint": "Didayakan semasa log masuk",
+      "twoFactorUnavailable": "Pengesahan dua faktor belum tersedia lagi",
+      "twoFactorAria": "Pengesahan dua faktor (pratonton sahaja)",
+      "sessionsLabel": "Sesi Pentadbiran Aktif",
+      "sessionsEmpty": "Penjejakan sesi belum tersedia lagi — ini ialah pratonton reka letak yang akan datang."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Tiket Saya",
+      "inbox": "Tiket Pemastautin"
+    },
+    "mine": {
+      "title": "Tiket Sokongan Saya",
+      "subtitle": "Kemukakan soalan atau kebimbangan tentang komuniti anda kepada Pentadbir Sistem.",
+      "emptyCreateHint": "Kemukakan soalan atau kebimbangan tentang komuniti anda. Pentadbir Sistem akan menyemak dan membalas di sini."
+    },
+    "inbox": {
+      "title": "Tiket Pemastautin",
+      "subtitle": "Tiket sokongan dan kebimbangan penduduk dalam komuniti anda telah dialamatkan kepada anda."
+    }
+  }
+}

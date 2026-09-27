@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import {
   addMySupportTicketMessage,
   createMySupportTicket,
@@ -7,15 +8,17 @@ import {
 import SupportTicketBoard from '../../components/support/SupportTicketBoard'
 
 function ResidentSupportTickets() {
+  const { t } = useTranslation('resident')
+
   return (
     <SupportTicketBoard
-      title="Resident Support & Concerns Desk"
-      subtitle="Submit water leakage reports, meter calibration requests, or billing inquiries directly to your community admin and/or System Admin."
+      title={t('support.title')}
+      subtitle={t('support.subtitle')}
       listFn={listMySupportTickets}
       createFn={createMySupportTicket}
       getDetailFn={getMySupportTicketDetail}
       addMessageFn={addMySupportTicketMessage}
-      emptyCreateHint="Describe your issue or concern below, and choose who should handle it."
+      emptyCreateHint={t('support.emptyCreateHint')}
       selfRole="RESIDENT"
       recipientPicker
     />

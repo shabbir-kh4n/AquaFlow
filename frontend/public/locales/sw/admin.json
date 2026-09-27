@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Inapakia...",
+    "saving": "Inahifadhi...",
+    "saved": "Imehifadhiwa.",
+    "uploading": "Inapakia...",
+    "upload": "Pakia",
+    "uploadError": "Haikuweza kupakia faili hii. Tafadhali jaribu tena.",
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "edit": "Hariri",
+    "remove": "Ondoa",
+    "saveChanges": "Hifadhi Mabadiliko",
+    "bulkSummary": "Safu mlalo <b>{{total}}</b> zimechakatwa - <b>{{success}}</b> zilifaulu, <b>{{failure}}</b> hazikufaulu.",
+    "rowFailure": "Safu {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Inaonyesha {{from}}–{{to}} kati ya {{total}}",
+    "prev": "← Iliyotangulia",
+    "next": "Inayofuata →",
+    "page": "Ukurasa {{page}} wa {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Haikuweza kupakia data ya jumuiya yako sasa hivi.",
+    "title": "{{community}} Dashibodi ya Ghorofa",
+    "titleFallback": "Dashibodi yako ya Ghorofa",
+    "subtitle": "Muhtasari wa uendeshaji wa kupima mita ndogo ya matumizi ya maji na matumizi ya kaya.",
+    "comingSoon": "Inakuja hivi karibuni",
+    "manageCommunity": "Dhibiti Jumuiya",
+    "noUsageReadings": "Bado hakuna usomaji wa matumizi uliorekodiwa.",
+    "cards": {
+      "totalHouseholds": "Jumla ya Kaya",
+      "occupied": "Imechukuliwa",
+      "activeMeters": "Mita Amilifu",
+      "reportingReadings": "Kuripoti usomaji",
+      "monthlyConsumption": "Matumizi ya Kila Mwezi",
+      "thisCalendarMonth": "Mwezi huu wa kalenda",
+      "latestRecordedMonth": "Mwezi uliorekodiwa hivi karibuni ({{month}})",
+      "noReadingsYet": "Bado hakuna usomaji uliorekodiwa",
+      "pendingAlerts": "Tahadhari Zinazosubiri",
+      "anomalyPreview": "Onyesho la kukagua ugunduzi usio wa kawaida - bado haupatikani"
+    },
+    "actions": {
+      "label": "Vitendo vya Utawala vya Haraka",
+      "uploadReadings": "Pakia Masomo ya Mita",
+      "configureTariffs": "Sanidi Ushuru",
+      "reportsNotBuilt": "Ripoti bado hazijaundwa",
+      "downloadReports": "Pakua Ripoti za Mfumo"
+    },
+    "chart": {
+      "title": "Ulinganisho wa Matumizi ya Kila Mwezi (kL)",
+      "subtitle": "Miezi {{months}} iliyopita: lengo dhidi ya matumizi halisi.",
+      "targetSeries": "Lengo (hakiki)",
+      "actualSeries": "Halisi"
+    },
+    "recent": {
+      "title": "Masomo ya Mita ya Hivi Karibuni",
+      "unit": "Kitengo",
+      "resident": "Mkazi",
+      "lastReading": "Usomaji wa Mwisho",
+      "consumption": "Matumizi"
+    }
+  },
+  "households": {
+    "loadError": "Haikuweza kupakia wakazi. Tafadhali jaribu tena.",
+    "fixFields": "Tafadhali rekebisha sehemu zilizoangaziwa.",
+    "saveError": "Haikuweza kuokoa mkazi huyu. Tafadhali angalia maelezo.",
+    "confirmRemove": "Ungependa kuondoa {{name}} kwenye orodha ya kaya zako?",
+    "removeError": "Haikuweza kumwondoa mkazi huyu. Tafadhali jaribu tena.",
+    "count": "Kaya: {{total}}",
+    "bulkUploadButton": "⇪ Upakiaji Wingi",
+    "addResidentButton": "+ Ongeza Mkazi",
+    "searchPlaceholder": "Chuja kwa jina, nyumba, barua pepe, au mita nambari.",
+    "loading": "Inapakia wakazi...",
+    "empty": "Bado hakuna wakazi. Bofya \"Ongeza Mkazi\" ili kusajili kaya ya kwanza.",
+    "noMatch": "Hakuna wakazi wanaolingana na \"{{search}}\".",
+    "sort": {
+      "label": "Panga kwa",
+      "name": "Jina",
+      "houseNumber": "Nambari ya Nyumba",
+      "dateOfJoining": "Tarehe ya Kujiunga",
+      "toggleDirection": "Geuza mwelekeo wa kupanga",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Mwanaume",
+      "female": "Mwanamke",
+      "other": "Nyingine"
+    },
+    "table": {
+      "name": "Jina",
+      "houseUnit": "Nyumba / Kitengo",
+      "email": "Barua pepe",
+      "phone": "Simu",
+      "meterNumber": "Nambari ya mita.",
+      "sqft": "Sqft",
+      "joined": "Imejiunga"
+    },
+    "form": {
+      "addTitle": "Ongeza Mkazi",
+      "editTitle": "Badilisha Mkazi",
+      "editSubtitle": "Hii inasasisha maelezo ya mkazi katika saraka yako.",
+      "bypassSubtitle": "Unaweka nenosiri la mkazi huyu moja kwa moja. Hakuna barua pepe itakayotumwa.",
+      "addSubtitle": "Kiungo cha kuweka nenosiri kitatumwa kwa barua pepe kwa mkazi huyu ili waweze kuwezesha kuingia kwao wenyewe.",
+      "fullName": "Jina kamili",
+      "houseNumber": "Nyumba / kitengo Na.",
+      "email": "Barua pepe",
+      "phone": "Nambari ya simu",
+      "meterNumber": "Nambari ya mita",
+      "governmentId": "Kitambulisho cha Serikali",
+      "gender": "Jinsia",
+      "dateOfBirth": "Tarehe ya kuzaliwa",
+      "dateOfJoining": "Tarehe ya kujiunga",
+      "flatSize": "Saizi ya gorofa (sq ft)",
+      "bypassLabel": "Bypass set-password email — weka nenosiri la mkazi huyu sasa",
+      "password": "Nenosiri",
+      "confirmPassword": "Thibitisha nenosiri"
+    },
+    "validation": {
+      "fullNameRequired": "Jina kamili linahitajika.",
+      "emailRequired": "Barua pepe inahitajika.",
+      "phoneRequired": "Nambari ya simu inahitajika.",
+      "houseNumberRequired": "Nambari ya nyumba / kitengo inahitajika.",
+      "houseNumberTaken": "Nambari hii ya nyumba tayari imepewa mkazi mwingine.",
+      "meterNumberRequired": "Nambari ya mita inahitajika.",
+      "meterNumberFormat": "Nambari ya mita lazima iwe kama MTR-1234 (tarakimu 4).",
+      "meterNumberTaken": "Nambari hii ya mita tayari imepewa mkazi mwingine.",
+      "governmentIdRequired": "Kitambulisho cha serikali kinahitajika.",
+      "governmentIdFormat": "Ni lazima kitambulisho kiwe na tarakimu 6 kuanzia 99 (k.m. 991234).",
+      "genderRequired": "Tafadhali chagua jinsia.",
+      "dateOfBirthRequired": "Tarehe ya kuzaliwa inahitajika.",
+      "dateOfJoiningRequired": "Tarehe ya kujiunga inahitajika.",
+      "passwordRequired": "Nenosiri linahitajika.",
+      "passwordLength": "Nenosiri lazima liwe na angalau vibambo 8.",
+      "confirmPasswordRequired": "Tafadhali thibitisha nenosiri.",
+      "passwordMismatch": "Manenosiri hayalingani."
+    },
+    "bulk": {
+      "title": "Wakazi wa Kupakia Wingi",
+      "noFile": "Tafadhali chagua faili ya .csv au .xlsx/.xls ya kupakia.",
+      "instructions": "Pakia faili ya .csv au .xlsx/.xls yenye safu wima <code>{{columns}}</code> (nenosiri na flatSizeSqft zote ni za hiari). Safu zilizo na nenosiri huiweka moja kwa moja; safu mlalo bila moja pata barua pepe ya kuweka nenosiri, sawa na kuongeza mkazi wewe mwenyewe. Nambari za nakala za nyumba/mita au barua pepe hukataliwa kwa kila safu - safu mlalo moja mbaya haitashindwa kundi zima."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Haikuweza kupakia wakazi. Tafadhali jaribu tena.",
+    "historyLoadError": "Haikuweza kupakia historia ya usomaji. Tafadhali jaribu tena.",
+    "successMessage": "Imefaulu kurekodi usomaji wa {{value}} kL kwa {{house}} (Mita: {{meter}})! Utumiaji uliokokotolewa: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ingizo Moja",
+      "csv": "Wingi CSV Pakia",
+      "history": "Historia ya Kusoma"
+    },
+    "source": {
+      "manual": "Mwongozo",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Mkazi huyu hana nambari ya mita kwenye faili.",
+      "dateRequired": "Tarehe ya kusoma inahitajika.",
+      "invalidValue": "Tafadhali weka thamani halali, isiyo hasi ya kusoma.",
+      "duplicate": "Usomaji wa mita hii tayari upo tarehe hiyo.",
+      "meterNotFound": "Mita hii haikuweza kupatikana. Tafadhali chagua tena mkazi.",
+      "lowerThanPrevious": "Usomaji huu ni wa chini kuliko usomaji uliorekodiwa hapo awali.",
+      "recordFailed": "Haikuweza kurekodi usomaji huu. Tafadhali jaribu tena."
+    },
+    "combo": {
+      "label": "Chagua Msururu wa Gorofa na Mita",
+      "placeholder": "Chagua Mfumo wa Ghorofa na Mita...",
+      "flat": "Gorofa {{house}}",
+      "noMeter": "Hakuna mita",
+      "searchPlaceholder": "Tafuta nambari ya gorofa, nambari ya mita, mkazi...",
+      "unitsHeader": "Vitengo vya Makazi",
+      "found": "Gorofa zimepatikana: {{total}}",
+      "loading": "Inapakia wakazi...",
+      "noMatch": "Hakuna wakazi wanaolingana na \"{{search}}\".",
+      "unassigned": "Haijakabidhiwa",
+      "itemMeta": "{{name}} · Mwisho: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Kurekodi usomaji kwa",
+      "context": "Nyumba {{house}} · Mita {{meter}}",
+      "changeResident": "Badilisha mkazi",
+      "readingDate": "Tarehe ya kusoma",
+      "readingValue": "Usomaji wa Sasa wa Mita (kL)",
+      "submit": "Wasilisha Usomaji Uliothibitishwa",
+      "recentTitle": "Usomaji wa hivi majuzi",
+      "recentEmpty": "Bado hakuna usomaji uliorekodiwa kwa mita hii."
+    },
+    "info": {
+      "title": "Uthibitishaji wa Mita ya Monotonic",
+      "body": "Kila usomaji mpya lazima uwe mkubwa kuliko au sawa na kumbukumbu ya awali ya mita hiyo - hii huweka hesabu za matumizi kuwa sahihi na kunasa tarakimu zilizopitishwa mapema."
+    },
+    "details": {
+      "title": "Maelezo ya kitengo kilichochaguliwa",
+      "flatUnit": "Kitengo cha Gorofa",
+      "meterSerial": "Msururu wa mita",
+      "occupant": "Jina la mwenyeji",
+      "lastDial": "Simu ya Mwisho iliyorekodiwa",
+      "noReadings": "Bado hakuna masomo",
+      "monthConsumption": "Matumizi ya Mwezi",
+      "empty": "Hakuna kaya iliyochaguliwa. Tafuta na uchague mkazi ili kuona maelezo yake ya mita hapa."
+    },
+    "csv": {
+      "noFile": "Tafadhali chagua faili CSV ya kupakia.",
+      "instructions": "Pakia CSV iliyo na safu wima <code>{{columns}}</code>. Safu mlalo huchakatwa kwa kujitegemea - safu mlalo moja mbaya haitashindwa kundi zima."
+    },
+    "history": {
+      "loading": "Inapakia usomaji...",
+      "empty": "Bado hakuna usomaji uliorekodiwa kwa jumuiya yako."
+    },
+    "table": {
+      "meterNumber": "Nambari ya mita.",
+      "date": "Tarehe",
+      "value": "Thamani (kL)",
+      "consumption": "Matumizi (kL)",
+      "source": "Chanzo"
+    }
+  },
+  "billingCycles": {
+    "title": "Mizunguko ya Malipo",
+    "loadError": "Haikuweza kupakia mizunguko ya bili. Tafadhali jaribu tena.",
+    "paymentUpdateError": "Haikuweza kusasisha hali ya malipo ya ankara hii.",
+    "pdfError": "Haikuweza kupakua PDF. Tafadhali jaribu tena.",
+    "finalizeError": "Haikuweza kukamilisha mzunguko huu wa bili.",
+    "archiveError": "Haikuweza kuhifadhi kipindi hiki cha utozaji kwenye kumbukumbu.",
+    "loading": "Inapakia mizunguko ya bili...",
+    "empty": "Bado hakuna mizunguko ya bili. Fungua moja hapo juu ili kuanza.",
+    "status": {
+      "open": "Fungua",
+      "finalized": "Imekamilika",
+      "archived": "Imehifadhiwa"
+    },
+    "open": {
+      "title": "Fungua Mzunguko Mpya wa Malipo",
+      "noMonth": "Tafadhali chagua mwezi wa kufungua.",
+      "error": "Haikuweza kufungua kipindi cha bili kwa mwezi huo.",
+      "monthAria": "Mwezi wa kipindi cha bili",
+      "opening": "Inafungua...",
+      "submit": "Fungua Mzunguko"
+    },
+    "table": {
+      "period": "Kipindi",
+      "status": "Hali",
+      "householdsBilled": "Kaya Zinalipishwa",
+      "totalBilled": "Jumla Inayotozwa",
+      "actions": "Vitendo"
+    },
+    "actions": {
+      "finalize": "Maliza",
+      "finalizing": "Inakamilisha...",
+      "archive": "Hifadhi",
+      "archiving": "Inahifadhi kwenye kumbukumbu..."
+    },
+    "filter": {
+      "aria": "Chuja kulingana na hali ya malipo",
+      "all": "Wote"
+    },
+    "payment": {
+      "paid": "Imelipwa",
+      "unpaid": "Haijalipwa",
+      "updating": "Inasasisha...",
+      "markPaid": "Weka alama kuwa umelipwa",
+      "markUnpaid": "Weka alama kuwa haujalipwa"
+    },
+    "detail": {
+      "title": "Maelezo ya Mzunguko - {{period}}",
+      "loading": "Inapakia ankara...",
+      "notFinalized": "Mzunguko huu bado haujakamilika - hakuna ankara zilizotolewa.",
+      "noInvoices": "Hakuna ankara za mzunguko huu.",
+      "noMatch": "Hakuna ankara zinazolingana na kichujio hiki."
+    },
+    "invoices": {
+      "household": "Kaya",
+      "resident": "Mkazi",
+      "meterNumber": "Nambari ya mita.",
+      "consumption": "Matumizi (kL)",
+      "tierBreakdown": "Mgawanyiko wa Ngazi",
+      "commonArea": "Eneo la Pamoja",
+      "total": "Jumla",
+      "paymentStatus": "Hali ya Malipo",
+      "pdf": "PDF",
+      "baseLine": "Msingi: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Daraja {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Haikuweza kupakia usanidi wa ushuru",
+    "saveError": "Haikuweza kuhifadhi usanidi wa ushuru",
+    "chartTitle": "Viwango Amilifu vya Viwango vya Utumiaji Vilivyopimwa",
+    "axisNote": "Kadiria kwa ₹/kL, vikomo vya slaba katika kL",
+    "tableTitle": "Jedwali la viwango vya bei",
+    "defaultRatesNote": "Inaonyesha viwango vya chaguo-msingi - bado hazijahifadhiwa.",
+    "addTier": "+ Ongeza Kiwango",
+    "saveRates": "Okoa Viwango vya Ushuru",
+    "tierLevel": {
+      "base": "Daraja {{tier}} (Msingi)",
+      "medium": "Daraja {{tier}} (Kati)",
+      "heavy": "Daraja {{tier}} (Nzito)"
+    },
+    "basePrice": {
+      "label": "Bei ya Msingi ( ₹ / kL, inatumika kwa matumizi YOTE)",
+      "note": "Kila kL inatozwa bei hii bapa kwanza. Vibamba vilivyo hapa chini vinaongeza gharama za ZIADA pekee kwa matumizi ambayo yapo ndani ya masafa yake - k.m. slab inayoanzia 50 kL huongeza tu kiwango chake cha matumizi zaidi ya 50 kL."
+    },
+    "table": {
+      "tierLevel": "Ngazi ya Daraja",
+      "slabLimit": "Upeo wa Slab (kL)",
+      "rate": "Kiwango kwa kila kL",
+      "action": "Kitendo"
+    },
+    "commonArea": {
+      "title": "Usanidi wa Gharama ya Eneo la Pamoja la Pamoja",
+      "loadError": "Haikuweza kupakia usanidi wa gharama ya eneo la kawaida",
+      "saveError": "Haikuweza kuhifadhi usanidi wa gharama ya eneo la kawaida",
+      "empty": "Bado hakuna bidhaa za gharama zilizohifadhiwa.",
+      "labelPlaceholder": "Lebo ya bidhaa ya gharama",
+      "perMonth": "/ mwezi",
+      "active": "Inayotumika",
+      "addItem": "+ Ongeza Kipengee cha Gharama",
+      "save": "Hifadhi Usanidi wa Eneo la Pamoja"
+    },
+    "distribution": {
+      "title": "Kiteuzi cha Mbinu ya Usambazaji wa Gharama",
+      "consumption": "Kwa Matumizi (Sub-metered Proportional)",
+      "floorArea": "Kwa Ghorofa Ukubwa wa Gorofa (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Tarehe ya Kuanza Kutozwa kwa Mzunguko",
+      "cycleStartValue": "1 ya Kila Mwezi",
+      "autoInvoices": "Tengeneza Ankara PDF Kiotomatiki"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Kizingiti Kimezidi",
+      "statisticalOutlier": "Takwimu Outlier"
+    },
+    "status": {
+      "active": "Inayotumika",
+      "resolved": "Imetatuliwa",
+      "dismissed": "Imeondolewa"
+    },
+    "config": {
+      "title": "Usanidi wa Kugundua Uvujaji",
+      "subtitle": "Weka kiwango cha juu cha matumizi ya kila mwezi na/au uwashe ugunduzi wa nje wa takwimu (huripoti kaya ambayo matumizi yake ya kila mwezi ni ya juu isivyo kawaida ikilinganishwa na historia yake yenyewe).",
+      "loadError": "Haikuweza kupakia usanidi wa tahadhari. Tafadhali jaribu tena.",
+      "thresholdRequired": "Kiwango cha juu cha kila mwezi (kL) kinahitajika wakati arifa za kiwango cha juu zimewashwa.",
+      "saveError": "Haikuweza kuhifadhi usanidi huu.",
+      "loading": "Inapakia usanidi...",
+      "threshold": "Kiwango cha juu cha kila mwezi (kL)",
+      "sensitivity": "Unyeti wa nje (σ kizidishi)",
+      "enableThreshold": "Washa arifa za kizingiti",
+      "enableOutlier": "Washa arifa za nje za takwimu",
+      "save": "Hifadhi Usanidi",
+      "running": "Inakimbia...",
+      "runNow": "Endesha Utambuzi Sasa"
+    },
+    "alerts": {
+      "title": "Kaya Zilizoalamishwa",
+      "loadError": "Haikuweza kupakia arifa. Tafadhali jaribu tena.",
+      "runError": "Haikuweza kutekeleza ugunduzi wa uvujaji sasa hivi. Tafadhali jaribu tena.",
+      "updateError": "Haikuweza kusasisha arifa hii. Tafadhali jaribu tena.",
+      "allStatuses": "Hali zote",
+      "loading": "Inapakia arifa...",
+      "empty": "Hakuna arifa za kuonyesha. Sanidi kiwango cha juu au uwashe ugunduzi wa nje hapo juu, kisha ubofye \"Endesha Ugunduzi Sasa\" ili kutathmini matumizi ya sasa ya jumuiya yako.",
+      "resolve": "Suluhisha",
+      "dismiss": "Ondoa"
+    },
+    "table": {
+      "household": "Kaya",
+      "resident": "Mkazi",
+      "meter": "Mita",
+      "type": "Aina",
+      "period": "Kipindi",
+      "consumption": "Matumizi",
+      "reference": "Rejea",
+      "status": "Hali"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Haikuweza kupakia ununuzi wa maji kwa wingi. Tafadhali jaribu tena.",
+    "confirmRemove": "Ungependa kuondoa {{source}} uwasilishaji mnamo {{date}}?",
+    "removeError": "Haikuweza kuondoa ununuzi huu. Tafadhali jaribu tena.",
+    "count": "Ununuzi umerekodiwa: {{total}}",
+    "recordButton": "+ Rekodi Ununuzi",
+    "loading": "Inapakia ununuzi wa maji kwa wingi...",
+    "empty": "Bado hakuna ununuzi wa maji kwa wingi uliorekodiwa. Bofya \"Rekodi Ununuzi\" ili kuweka kumbukumbu ya usafirishaji wa lori au ununuzi wa usambazaji wa manispaa.",
+    "table": {
+      "date": "Tarehe",
+      "source": "Chanzo",
+      "volume": "Kiasi (L)",
+      "unitCost": "Gharama ya Kitengo",
+      "totalCost": "Jumla ya Gharama",
+      "notes": "Vidokezo"
+    },
+    "form": {
+      "addTitle": "Rekodi Ununuzi wa Maji Wingi",
+      "editTitle": "Hariri Ununuzi wa Maji Wingi",
+      "subtitle": "Fuatilia usafirishaji wa meli au ununuzi wa usambazaji wa manispaa kwa jumuiya yako - hii imerekodiwa kwa mwonekano wa gharama pekee na haiathiri ankara za kaya.",
+      "requiredFields": "Tafadhali jaza tarehe, chanzo, kiasi na gharama ya kitengo.",
+      "saveError": "Haikuweza kuhifadhi ununuzi huu. Tafadhali angalia maelezo.",
+      "purchaseDate": "Tarehe ya ununuzi",
+      "source": "Chanzo / mtoaji",
+      "volume": "Kiasi (lita)",
+      "unitCost": "Gharama ya kitengo ( ₹/lita)",
+      "totalPreview": "Jumla ya gharama: {{amount}}",
+      "notes": "Vidokezo (si lazima)",
+      "submit": "Rekodi Ununuzi"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} haijajengwa bado",
+    "profileSaveError": "Haikuweza kuhifadhi wasifu wako. Tafadhali jaribu tena.",
+    "apartmentSaveError": "Haikuweza kuhifadhi maelezo ya ghorofa. Tafadhali jaribu tena.",
+    "specsTitle": "Maelezo ya Wasifu",
+    "photoUnavailable": "Upakiaji wa picha bado haupatikani",
+    "changePhoto": "Badilisha Picha",
+    "deletePhoto": "Futa",
+    "photoHint": "JPG au PNG. Ukubwa wa juu 2MB.",
+    "saveProfile": "Hifadhi Wasifu",
+    "apartmentTitle": "Maelezo ya Ghorofa",
+    "saveApartment": "Hifadhi Maelezo ya Ghorofa",
+    "tabs": {
+      "profile": "Mipangilio ya Wasifu",
+      "apartment": "Wasifu wa Ghorofa",
+      "notifications": "Kanuni za Arifa",
+      "billing": "Ushirikiano wa Bili",
+      "security": "Usalama na Ufikiaji"
+    },
+    "fields": {
+      "fullName": "Jina Kamili",
+      "email": "Anwani ya Barua Pepe",
+      "emailLocked": "Barua pepe haiwezi kubadilishwa hapa",
+      "phone": "Nambari ya Simu",
+      "accessLevel": "Kiwango cha Ufikiaji",
+      "accessLevelValue": "Msimamizi wa Jumuiya",
+      "roleLocked": "Usimamizi wa jukumu bado haupatikani",
+      "apartmentName": "Jina la Ghorofa",
+      "mainsSource": "Chanzo kikuu",
+      "mainsSourcePlaceholder": "k.m. Ugavi wa Manispaa + Mizinga ya Ziada",
+      "address": "Anwani ya Mahali ulipo"
+    },
+    "security": {
+      "title": "Onyesho la kukagua Usalama na Ufikiaji",
+      "twoFactor": "Uthibitishaji wa Mambo Mbili",
+      "twoFactorHint": "Imewashwa wakati wa kuingia",
+      "twoFactorUnavailable": "Uthibitishaji wa vipengele viwili bado haupatikani",
+      "twoFactorAria": "Uthibitishaji wa mambo mawili (hakiki pekee)",
+      "sessionsLabel": "Vipindi vya Wasimamizi Amilifu",
+      "sessionsEmpty": "Ufuatiliaji wa kipindi bado haupatikani - hii ni hakikisho la mpangilio ujao."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Tiketi Zangu",
+      "inbox": "Tikiti za Mkazi"
+    },
+    "mine": {
+      "title": "Tiketi Zangu za Usaidizi",
+      "subtitle": "Uliza swali au wasiwasi kuhusu jumuiya yako kwa Msimamizi wa Mfumo.",
+      "emptyCreateHint": "Uliza swali au wasiwasi kuhusu jumuiya yako. Msimamizi wa Mfumo atakagua na kujibu hapa."
+    },
+    "inbox": {
+      "title": "Tikiti za Mkazi",
+      "subtitle": "Tikiti za usaidizi na hoja ambazo wakazi katika jumuiya yako wamekuelekeza."
+    }
+  }
+}

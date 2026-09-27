@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Aizvērt",
+    "signUpTitle": "Reģistrējiet savu kopienu",
+    "signInTitle": "Laipni lūdzam atpakaļ",
+    "signUpSubtitle": "Izveidojiet kopienas administratora kontu, lai sāktu pārvaldīt iedzīvotājus un norēķināties.",
+    "signInSubtitle": "Pierakstieties, lai skatītu ūdens patēriņu un rēķinus."
+  },
+  "signIn": {
+    "errorFallback": "Nevar pierakstīties. Lūdzu, mēģiniet vēlreiz.",
+    "emailLabel": "E-pasts",
+    "passwordLabel": "Parole",
+    "rememberMe": "Atcerieties mani",
+    "forgotPassword": "Aizmirsāt paroli?",
+    "submitting": "Notiek pierakstīšanās…",
+    "submit": "Pierakstīties",
+    "noAccount": "Vai jums nav konta?",
+    "signUpLink": "Pierakstīties"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Paroles nesakrīt.",
+      "communityRequired": "Jānorāda kopienas nosaukums.",
+      "termsRequired": "Lūdzu, piekrītiet pakalpojumu sniegšanas noteikumiem un konfidencialitātes politikai.",
+      "fallback": "Nevar izveidot kontu. Lūdzu, mēģiniet vēlreiz."
+    },
+    "hint": "Šeit reģistrējas tikai kopienas administratori. Kad esat pievienojies, jūs pats pievienosit informāciju par saviem iedzīvotājiem — viņi nereģistrējas paši.",
+    "fullNameLabel": "Pilns vārds",
+    "emailLabel": "E-pasts",
+    "phoneLabel": "Tālruņa numurs",
+    "communityNameLabel": "Kopienas nosaukums",
+    "passwordLabel": "Parole",
+    "confirmPasswordLabel": "Apstipriniet paroli",
+    "agreeTerms": "Es piekrītu <termsLink>pakalpojumu sniegšanas noteikumiem</termsLink> un <privacyLink>konfidencialitātes politikai</privacyLink>",
+    "submitting": "Notiek konta izveide…",
+    "submit": "Izveidojiet administratora kontu",
+    "haveAccount": "Vai jums jau ir konts?",
+    "signInLink": "Pierakstīties"
+  },
+  "installPrompt": {
+    "title": "Instalēt HydroLedger",
+    "description": "Pievienojiet to sākuma ekrānam, lai ātri piekļūtu.",
+    "dismiss": "Atlaist",
+    "install": "Instalējiet"
+  },
+  "setPassword": {
+    "title": "Iestatiet savu paroli",
+    "loading": "Notiek ielāde…",
+    "subtitle": "Sveiki, {{name}}, izvēlieties {{email}} paroli, lai aktivizētu savu HydroLedger kontu.",
+    "errors": {
+      "invalidLink": "Šī saite nav derīga vai ir beidzies.",
+      "tooShort": "Parolei ir jābūt vismaz 8 rakstzīmēm.",
+      "mismatch": "Paroles nesakrīt.",
+      "fallback": "Nevarēja iestatīt jūsu paroli. Lūdzu, mēģiniet vēlreiz."
+    },
+    "passwordLabel": "Parole",
+    "confirmPasswordLabel": "Apstipriniet paroli",
+    "submitting": "Notiek paroles iestatīšana…",
+    "submit": "Iestatiet paroli un pierakstieties"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistents",
+      "resident": "Jautājiet par savu kontu",
+      "admin": "Kopienas asistents",
+      "platform": "Platformas palīgs",
+      "default": "Asistents"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Kas ir HydroLedger?",
+        "tieredBilling": "Kā darbojas daudzpakāpju norēķini?",
+        "leaks": "Kā tiek atklātas noplūdes?"
+      },
+      "resident": {
+        "billEstimate": "Kāda ir mana pašreizējā rēķina tāme?",
+        "alerts": "Vai man ir kādi lietošanas brīdinājumi?",
+        "readings": "Rādīt manus jaunākos skaitītāja rādījumus"
+      },
+      "admin": {
+        "households": "Cik mums ir mājsaimniecību?",
+        "billingCycles": "Norādiet mūsu pēdējos norēķinu ciklus",
+        "tariff": "Kāds ir mūsu pašreizējais tarifu plāns?"
+      },
+      "platform": {
+        "communities": "Uzskaitiet visas reģistrētās kopienas",
+        "usageReport": "Rādīt platformas lietošanas pārskatu",
+        "systemStatus": "Kāds ir sistēmas statuss?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Jūs sūtāt ziņojumus pārāk ātri — lūdzu, uzgaidiet brīdi un mēģiniet vēlreiz.",
+      "unavailable": "Asistents īslaicīgi nav pieejams. Lūdzu, drīzumā mēģiniet vēlreiz.",
+      "generic": "Nosūtot šo ziņojumu, radās kļūda. Lūdzu, mēģiniet vēlreiz."
+    },
+    "emptyHint": "Jautājiet man jebko - es redzu tikai jūsu datus.",
+    "closeAssistant": "Aizvērt palīgu",
+    "openAssistant": "Atvērt palīgu",
+    "inputPlaceholder": "Ierakstiet ziņojumu…",
+    "inputLabel": "Ziņa",
+    "send": "Sūtīt"
+  },
+  "supportBoard": {
+    "defaultTitle": "Atbalsta biļetes",
+    "defaultCreateLabel": "Radīt jaunas bažas",
+    "status": {
+      "open": "Atvērt",
+      "inProgress": "Notiek",
+      "resolved": "Atrisināts",
+      "closed": "Slēgts"
+    },
+    "tabs": {
+      "all": "Visas biļetes"
+    },
+    "recipients": {
+      "admin": "Kopienas administrators",
+      "systemAdmin": "Sistēmas administrators",
+      "both": "Kopienas administrators + sistēmas administrators"
+    },
+    "roles": {
+      "resident": "Iedzīvotājs",
+      "admin": "Administrators"
+    },
+    "toRecipients": "Kam: {{recipients}}",
+    "raisedByResident": "Audzinājis iedzīvotājs {{name}}",
+    "raisedByAdmin": "Izaudzināja administrators {{name}}",
+    "refresh": "Atsvaidzināt",
+    "stats": {
+      "openLabel": "Atveriet Iesniegumus",
+      "openHint": "Gaida pārskatīšanu",
+      "inProgressLabel": "Notiek",
+      "inProgressHint": "Tiek strādāts pie",
+      "resolvedLabel": "Atrisināts",
+      "resolvedHint": "Veiksmīgi aizvērts"
+    },
+    "searchPlaceholder": "Meklēt biļetes pēc tēmas, izdevuma…",
+    "loadingTickets": "Notiek biļešu ielāde…",
+    "empty": {
+      "title": "Atbalsta biļetes netika atrastas",
+      "body": "Pašlaik jums nav neviena atvērta vai ierakstīta atbalsta pieprasījuma, kas atbilstu šim filtram.",
+      "cta": "Iesniedziet bažas"
+    },
+    "errors": {
+      "loadList": "Nevarēja ielādēt atbalsta biļetes. Lūdzu, mēģiniet vēlreiz.",
+      "loadDetail": "Nevarēja ielādēt šo biļeti. Lūdzu, mēģiniet vēlreiz.",
+      "required": "Nepieciešams gan tēma, gan ziņojums.",
+      "recipientRequired": "Atlasiet vismaz vienu adresātu (kopienas administrators un/vai sistēmas administrators).",
+      "submitFallback": "Nevarēja iesniegt šo biļeti. Lūdzu, mēģiniet vēlreiz.",
+      "sendReply": "Nevarēja nosūtīt šo ziņojumu. Lūdzu, mēģiniet vēlreiz.",
+      "updateStatus": "Nevarēja atjaunināt šo biļetes statusu. Lūdzu, mēģiniet vēlreiz."
+    },
+    "form": {
+      "defaultHint": "Tālāk aprakstiet savu problēmu vai bažas.",
+      "subjectLabel": "Priekšmets",
+      "subjectPlaceholder": "Īss jūsu problēmas kopsavilkums",
+      "messageLabel": "Ziņa",
+      "messagePlaceholder": "Detalizēti aprakstiet notiekošo…",
+      "recipientsLabel": "Nosūtiet šīs bažas uz",
+      "cancel": "Atcelt",
+      "submitting": "Notiek iesniegšana…",
+      "submit": "Iesniedziet biļeti"
+    },
+    "detail": {
+      "loading": "Notiek biļetes ielāde…",
+      "replyPlaceholder": "Uzrakstiet atbildi…",
+      "close": "Aizvērt",
+      "sending": "Notiek sūtīšana…",
+      "sendReply": "Nosūtīt atbildi"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Laipni lūdzam atpakaļ, {{name}}",
+    "openMenu": "Atvērt izvēlni",
+    "closeMenu": "Aizvērt izvēlni",
+    "logout": "Atteikties",
+    "search": "Meklēt",
+    "notifications": "Paziņojumi"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Informācijas panelis",
+      "households": "Mājsaimniecību direktorijs",
+      "meterReadings": "Skaitītāju rādījumi",
+      "billing": "Norēķinu pārvaldība",
+      "bulkPurchases": "Lielapjoma pirkumi",
+      "reports": "Pārskati",
+      "waterLeakage": "Ūdens noplūde",
+      "support": "Atbalsts / bažas",
+      "tariffPlans": "Tarifu plāni",
+      "announcements": "Paziņojumi",
+      "profile": "Profils"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Šeit ir jūsu kopienas momentuzņēmums."
+      },
+      "households": {
+        "title": "Mājsaimniecību direktorijs",
+        "subtitle": "Pievienojiet, atjauniniet un pārvaldiet jūsu kopienā dzīvojošos iedzīvotājus."
+      },
+      "meterReadings": {
+        "title": "Ūdens skaitītāju rādījumu centrs",
+        "subtitle": "Meklējiet iedzīvotāju un pierakstiet viņa ūdens skaitītāja rādījumu."
+      },
+      "tariffPlans": {
+        "title": "Tarifu konfigurācija",
+        "subtitle": "Konfigurējiet daudzpakāpju tarifu ierobežojumus, koplietošanas izmaksas un sadales metodes savai dzīvokļu kopienai."
+      },
+      "billing": {
+        "title": "Norēķinu pārvaldība",
+        "subtitle": "Atveriet, pabeidziet un arhivējiet norēķinu ciklus, kā arī pārskatiet katras mājsaimniecības rēķinus."
+      },
+      "bulkPurchases": {
+        "title": "Lielapjoma pirkumi",
+        "subtitle": "Reģistrējiet tankkuģu piegādes un pašvaldības preču iepirkumus savai kopienai."
+      },
+      "waterLeakage": {
+        "title": "Ūdens noplūde",
+        "subtitle": "Konfigurējiet uz sliekšņa un novirzēm balstītus noplūdes brīdinājumus un pārskatiet atzīmētās mājsaimniecības."
+      },
+      "support": {
+        "title": "Atbalsts / bažas",
+        "subtitle": "Paaugstiniet savas biļetes sistēmas administratoram vai apstrādājiet problēmas, kuras jums ir adresējuši jūsu iedzīvotāji."
+      },
+      "profile": {
+        "title": "Iestatījumi un profils",
+        "subtitle": "Pārvaldiet sava konta informāciju un dzīvokļa informāciju."
+      }
+    },
+    "fallbackName": "Administrators",
+    "fallbackCommunity": "Kopienas administrators",
+    "notBuilt": "{{label}} vēl nav uzbūvēts",
+    "searchPlaceholder": "Meklēt jebko…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Pārskati",
+      "description": "Patēriņa, norēķinu un saglabāšanas pārskati jūsu kopienai."
+    },
+    "announcements": {
+      "title": "Paziņojumi",
+      "description": "Nosūtiet visiem kopienas paziņojumus saviem iedzīvotājiem."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} drīzumā"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Informācijas panelis",
+      "usageHistory": "Lietošanas vēsture",
+      "bills": "Mani rēķini",
+      "recommendations": "Ieteikumi",
+      "reports": "Pārskati",
+      "support": "Atbalsts / bažas",
+      "notifications": "Paziņojumi",
+      "profile": "Profils"
+    },
+    "pages": {
+      "usageHistory": "Jūsu lietošanas vēsture",
+      "billing": "Norēķini un rēķini",
+      "notifications": "Paziņojumi",
+      "recommendations": "Ieteikumi",
+      "support": "Atbalsts / bažas"
+    },
+    "defaultTitle": "Rezidentu informācijas panelis",
+    "navLabel": "Iedzīvotāju navigācija",
+    "fallbackName": "Iedzīvotājs",
+    "unit": "Vienība {{number}}",
+    "comingSoon": "{{label}} drīzumā",
+    "profile": "Profils",
+    "searchPlaceholder": "Meklēt analīzi, rēķinus…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Informācijas panelis",
+      "communities": "kopienas",
+      "reports": "Pārskati",
+      "supportTickets": "Atbalsta biļetes",
+      "systemStatus": "Sistēmas statuss"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platformas mēroga momentuzņēmums katrā reģistrētajā kopienā."
+      },
+      "communities": {
+        "title": "kopienas",
+        "subtitle": "Katrs reģistrētais kopienas administrators un viņa kopiena vienuviet."
+      },
+      "reports": {
+        "title": "Pārskati",
+        "subtitle": "Platformas ūdens patēriņa un norēķinu dati pēc kopienas un laika gaitā."
+      },
+      "supportTickets": {
+        "title": "Atbalsta biļetes",
+        "subtitle": "Atbalstiet biļetes un iedzīvotāju un kopienas administratoru bažas visā platformā."
+      },
+      "systemStatus": {
+        "title": "Sistēmas statuss",
+        "subtitle": "Aizmugursistēmas savienojamība un pamata izpildlaika veselība."
+      }
+    },
+    "fallbackName": "Sistēmas administrators",
+    "platformOwner": "Platformas īpašnieks",
+    "searchPlaceholder": "Meklēt kopienas…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Valoda: {{language}}",
+    "searchPlaceholder": "Meklēt valodu…",
+    "noMatches": "Nav nevienas spēles"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Close",
+    "signUpTitle": "Register your community",
+    "signInTitle": "Welcome back",
+    "signUpSubtitle": "Create a Community Admin account to start managing residents and billing.",
+    "signInSubtitle": "Sign in to view your water usage and billing."
+  },
+  "signIn": {
+    "errorFallback": "Unable to sign in. Please try again.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "submitting": "Signing in…",
+    "submit": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Passwords do not match.",
+      "communityRequired": "Community name is required.",
+      "termsRequired": "Please agree to the Terms of Service and Privacy Policy.",
+      "fallback": "Unable to create account. Please try again."
+    },
+    "hint": "Only community admins register here. Once you're in, you'll add your residents' details yourself — they don't sign up on their own.",
+    "fullNameLabel": "Full name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone number",
+    "communityNameLabel": "Community name",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm password",
+    "agreeTerms": "I agree to the <termsLink>Terms of Service</termsLink> and <privacyLink>Privacy Policy</privacyLink>",
+    "submitting": "Creating account…",
+    "submit": "Create Admin Account",
+    "haveAccount": "Already have an account?",
+    "signInLink": "Sign in"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Add it to your home screen for quick access.",
+    "dismiss": "Dismiss",
+    "install": "Install"
+  },
+  "setPassword": {
+    "title": "Set your password",
+    "loading": "Loading…",
+    "subtitle": "Hi {{name}}, choose a password for {{email}} to activate your HydroLedger account.",
+    "errors": {
+      "invalidLink": "This link is invalid or has expired.",
+      "tooShort": "Password must be at least 8 characters.",
+      "mismatch": "Passwords do not match.",
+      "fallback": "Could not set your password. Please try again."
+    },
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm password",
+    "submitting": "Setting password…",
+    "submit": "Set password & sign in"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistant",
+      "resident": "Ask about your account",
+      "admin": "Community Assistant",
+      "platform": "Platform Assistant",
+      "default": "Assistant"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "What is HydroLedger?",
+        "tieredBilling": "How does tiered billing work?",
+        "leaks": "How are leaks detected?"
+      },
+      "resident": {
+        "billEstimate": "What's my current bill estimate?",
+        "alerts": "Do I have any usage alerts?",
+        "readings": "Show my recent meter readings"
+      },
+      "admin": {
+        "households": "How many households do we have?",
+        "billingCycles": "List our recent billing cycles",
+        "tariff": "What is our current tariff plan?"
+      },
+      "platform": {
+        "communities": "List all registered communities",
+        "usageReport": "Show the platform usage report",
+        "systemStatus": "What's the system status?"
+      }
+    },
+    "errors": {
+      "rateLimited": "You're sending messages too quickly - please wait a moment and try again.",
+      "unavailable": "The assistant is temporarily unavailable. Please try again shortly.",
+      "generic": "Something went wrong sending that message. Please try again."
+    },
+    "emptyHint": "Ask me anything - I can only see your own data.",
+    "closeAssistant": "Close assistant",
+    "openAssistant": "Open assistant",
+    "inputPlaceholder": "Type a message…",
+    "inputLabel": "Message",
+    "send": "Send"
+  },
+  "supportBoard": {
+    "defaultTitle": "Support Tickets",
+    "defaultCreateLabel": "Raise New Concern",
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "tabs": {
+      "all": "All Tickets"
+    },
+    "recipients": {
+      "admin": "Community Admin",
+      "systemAdmin": "System Admin",
+      "both": "Community Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Resident",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Raised by resident {{name}}",
+    "raisedByAdmin": "Raised by admin {{name}}",
+    "refresh": "Refresh",
+    "stats": {
+      "openLabel": "Open Submissions",
+      "openHint": "Awaiting review",
+      "inProgressLabel": "In Progress",
+      "inProgressHint": "Being worked on",
+      "resolvedLabel": "Resolved",
+      "resolvedHint": "Successfully closed"
+    },
+    "searchPlaceholder": "Search tickets by subject, issue…",
+    "loadingTickets": "Loading tickets…",
+    "empty": {
+      "title": "No Support Tickets Found",
+      "body": "You currently have no open or recorded support requests matching this filter.",
+      "cta": "Submit a Concern"
+    },
+    "errors": {
+      "loadList": "Could not load support tickets. Please try again.",
+      "loadDetail": "Could not load this ticket. Please try again.",
+      "required": "Subject and message are both required.",
+      "recipientRequired": "Select at least one recipient (Community Admin and/or System Admin).",
+      "submitFallback": "Could not submit this ticket. Please try again.",
+      "sendReply": "Could not send this message. Please try again.",
+      "updateStatus": "Could not update this ticket status. Please try again."
+    },
+    "form": {
+      "defaultHint": "Describe your issue or concern below.",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Brief summary of your issue",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe what's happening in detail…",
+      "recipientsLabel": "Send this concern to",
+      "cancel": "Cancel",
+      "submitting": "Submitting…",
+      "submit": "Submit Ticket"
+    },
+    "detail": {
+      "loading": "Loading ticket…",
+      "replyPlaceholder": "Write a reply…",
+      "close": "Close",
+      "sending": "Sending…",
+      "sendReply": "Send Reply"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "logout": "Log out",
+    "search": "Search",
+    "notifications": "Notifications"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Households Directory",
+      "meterReadings": "Meter Readings",
+      "billing": "Billing Management",
+      "bulkPurchases": "Bulk Purchases",
+      "reports": "Reports",
+      "waterLeakage": "Water Leakage",
+      "support": "Support / Concerns",
+      "tariffPlans": "Tariff Plans",
+      "announcements": "Announcements",
+      "profile": "Profile"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Here's a snapshot of your community."
+      },
+      "households": {
+        "title": "Households Directory",
+        "subtitle": "Add, update, and manage the residents living in your community."
+      },
+      "meterReadings": {
+        "title": "Water Meter Readings Hub",
+        "subtitle": "Search for a resident and record their water meter reading."
+      },
+      "tariffPlans": {
+        "title": "Tariff Configuration",
+        "subtitle": "Configure tiered rate limits, shared common-area costs, and distribution methods for your apartment community."
+      },
+      "billing": {
+        "title": "Billing Management",
+        "subtitle": "Open, finalize, and archive billing cycles, and review itemized invoices per household."
+      },
+      "bulkPurchases": {
+        "title": "Bulk Purchases",
+        "subtitle": "Record tanker deliveries and municipal supply purchases for your community."
+      },
+      "waterLeakage": {
+        "title": "Water Leakage",
+        "subtitle": "Configure threshold and outlier-based leak alerts, and review flagged households."
+      },
+      "support": {
+        "title": "Support / Concerns",
+        "subtitle": "Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you."
+      },
+      "profile": {
+        "title": "Settings & Profile",
+        "subtitle": "Manage your account details and apartment information."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Community Admin",
+    "notBuilt": "{{label}} isn't built yet",
+    "searchPlaceholder": "Search anything…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Reports",
+      "description": "Consumption, billing, and conservation reports for your community."
+    },
+    "announcements": {
+      "title": "Announcements",
+      "description": "Send community-wide announcements to your residents."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} is coming soon"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Usage History",
+      "bills": "My Bills",
+      "recommendations": "Recommendations",
+      "reports": "Reports",
+      "support": "Support / Concerns",
+      "notifications": "Notifications",
+      "profile": "Profile"
+    },
+    "pages": {
+      "usageHistory": "Your usage history",
+      "billing": "Billing & Invoices",
+      "notifications": "Notifications",
+      "recommendations": "Recommendations",
+      "support": "Support / Concerns"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Resident navigation",
+    "fallbackName": "Resident",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} is coming soon",
+    "profile": "Profile",
+    "searchPlaceholder": "Search analytics, bills…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Communities",
+      "reports": "Reports",
+      "supportTickets": "Support Tickets",
+      "systemStatus": "System Status"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platform-wide snapshot across every registered community."
+      },
+      "communities": {
+        "title": "Communities",
+        "subtitle": "Every registered community admin and their community, in one place."
+      },
+      "reports": {
+        "title": "Reports",
+        "subtitle": "Platform-wide water usage and billing figures, by community and over time."
+      },
+      "supportTickets": {
+        "title": "Support Tickets",
+        "subtitle": "Support tickets and concerns raised by residents and community admins, platform-wide."
+      },
+      "systemStatus": {
+        "title": "System Status",
+        "subtitle": "Backend connectivity and basic runtime health."
+      }
+    },
+    "fallbackName": "System Admin",
+    "platformOwner": "Platform Owner",
+    "searchPlaceholder": "Search communities…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "Search language…",
+    "noMatches": "No matches"
+  }
+}

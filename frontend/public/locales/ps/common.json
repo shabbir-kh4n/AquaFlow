@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "تړل",
+    "signUpTitle": "خپله ټولنه راجستر کړئ",
+    "signInTitle": "بیرته پخیر راغلې",
+    "signUpSubtitle": "د اوسیدونکو اداره کولو او بل کولو پیل کولو لپاره د ټولنې اداري حساب جوړ کړئ.",
+    "signInSubtitle": "د خپل اوبو کارولو او بل کولو لیدو لپاره لاسلیک وکړئ."
+  },
+  "signIn": {
+    "errorFallback": "د ننوتلو توان نلري. مهرباني وکړئ بیا هڅه وکړئ.",
+    "emailLabel": "ایمیل",
+    "passwordLabel": "رمز",
+    "rememberMe": "ما په یاد ولره",
+    "forgotPassword": "پټنوم هیر شوی؟",
+    "submitting": "لاسلیک کول…",
+    "submit": "ننوتل",
+    "noAccount": "حساب نه لرئ؟",
+    "signUpLink": "ګډون کول"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "پاسورډونه سمون نه خوري.",
+      "communityRequired": "د ټولنې نوم اړین دی.",
+      "termsRequired": "مهرباني وکړئ د خدمت شرایط او د محرمیت پالیسۍ سره موافق یاست.",
+      "fallback": "د حساب جوړولو توان نلري. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "hint": "یوازې د ټولنې مدیران دلته راجستر کیږي. یوځل چې تاسو دننه شئ، تاسو به د خپلو اوسیدونکو توضیحات پخپله اضافه کړئ - دوی پخپله لاسلیک نه کوي.",
+    "fullNameLabel": "بشپړ نوم",
+    "emailLabel": "ایمیل",
+    "phoneLabel": "د تلیفون شمیره",
+    "communityNameLabel": "د ټولنې نوم",
+    "passwordLabel": "رمز",
+    "confirmPasswordLabel": "پاسورډ تایید کړئ",
+    "agreeTerms": "زه موافق یم <termsLink>د خدمت شرایط</termsLink> او <privacyLink>د محرمیت پالیسۍ</privacyLink>",
+    "submitting": "د اکاونټ جوړول…",
+    "submit": "د اډمین حساب جوړ کړئ",
+    "haveAccount": "ایا دمخه حساب لرئ؟",
+    "signInLink": "ننوتل"
+  },
+  "installPrompt": {
+    "title": "لګول HydroLedger",
+    "description": "د ګړندي لاسرسي لپاره یې خپل کور سکرین ته اضافه کړئ.",
+    "dismiss": "ګوښه کول",
+    "install": "نصب کړئ"
+  },
+  "setPassword": {
+    "title": "خپل پټنوم تنظیم کړئ",
+    "loading": "بار کول…",
+    "subtitle": "سلام {{name}}، د خپل HydroLedger اکاونټ د فعالولو لپاره د {{email}} لپاره پټنوم غوره کړئ.",
+    "errors": {
+      "invalidLink": "دا لینک غلط دی یا پای ته رسیدلی.",
+      "tooShort": "پاسورډ باید لږ تر لږه 8 حروف ولري.",
+      "mismatch": "پاسورډونه سمون نه خوري.",
+      "fallback": "خپل پټنوم نه شو ټاکلی. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "passwordLabel": "رمز",
+    "confirmPasswordLabel": "پاسورډ تایید کړئ",
+    "submitting": "پټنوم ترتیب کول…",
+    "submit": "پاسورډ تنظیم کړئ او ننوتل"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger مرستیال",
+      "resident": "د خپل حساب په اړه پوښتنه وکړئ",
+      "admin": "د ټولنې مرستیال",
+      "platform": "د پلیټ فارم معاون",
+      "default": "معاون"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger څه شی دی؟",
+        "tieredBilling": "ټایر شوي بلینګ څنګه کار کوي؟",
+        "leaks": "لیکونه څنګه کشف کیږي؟"
+      },
+      "resident": {
+        "billEstimate": "زما د اوسني بل اټکل څه دی؟",
+        "alerts": "ایا زه د کارونې کوم خبرتیا لرم؟",
+        "readings": "زما وروستي میټر لوستل وښایاست"
+      },
+      "admin": {
+        "households": "موږ څو کورنۍ لرو؟",
+        "billingCycles": "زموږ د وروستي بلینګ دورې لیست کړئ",
+        "tariff": "زموږ د اوسني تعرفې پلان څه دی؟"
+      },
+      "platform": {
+        "communities": "ټولې ثبت شوي ټولنې لیست کړئ",
+        "usageReport": "د پلیټ فارم کارولو راپور وښایاست",
+        "systemStatus": "د سیسټم وضعیت څه دی؟"
+      }
+    },
+    "errors": {
+      "rateLimited": "تاسو ډیر ژر پیغامونه لیږئ - مهرباني وکړئ یوه شیبه انتظار وکړئ او بیا هڅه وکړئ.",
+      "unavailable": "معاون په لنډمهاله توګه شتون نلري. مهرباني وکړئ لږ وروسته بیا هڅه وکړئ.",
+      "generic": "د دې پیغام په لیږلو کې یو څه غلط شو. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "emptyHint": "له ما څخه څه وپوښتئ - زه یوازې ستاسو خپل معلومات لیدلی شم.",
+    "closeAssistant": "نږدې همکار",
+    "openAssistant": "خلاص معاون",
+    "inputPlaceholder": "یو پیغام ټایپ کړئ…",
+    "inputLabel": "پیغام",
+    "send": "لیږل"
+  },
+  "supportBoard": {
+    "defaultTitle": "د ملاتړ ټکټونه",
+    "defaultCreateLabel": "نوې اندیښنه راپورته کړئ",
+    "status": {
+      "open": "خلاص",
+      "inProgress": "د پرمختګ په حال کې",
+      "resolved": "حل شوی",
+      "closed": "تړل شوی"
+    },
+    "tabs": {
+      "all": "ټول ټکټونه"
+    },
+    "recipients": {
+      "admin": "د ټولنې اډمین",
+      "systemAdmin": "د سیسټم مدیر",
+      "both": "د ټولنې اډمین + سیسټم اډمین"
+    },
+    "roles": {
+      "resident": "اوسیدونکی",
+      "admin": "اډمین"
+    },
+    "toRecipients": "ته: {{recipients}}",
+    "raisedByResident": "د اوسیدونکو لخوا پورته شوی {{name}}",
+    "raisedByAdmin": "د منتظم لخوا پورته شوی {{name}}",
+    "refresh": "تازه کړئ",
+    "stats": {
+      "openLabel": "خلاصې سپارنې",
+      "openHint": "د بیاکتنې په تمه",
+      "inProgressLabel": "د پرمختګ په حال کې",
+      "inProgressHint": "پر کار روان دی",
+      "resolvedLabel": "حل شوی",
+      "resolvedHint": "په بریالیتوب سره وتړل شو"
+    },
+    "searchPlaceholder": "د موضوع، مسلې له مخې ټکټونه وپلټئ ...",
+    "loadingTickets": "ټکټونه پورته کول…",
+    "empty": {
+      "title": "د ملاتړ ټکټونه ونه موندل شول",
+      "body": "تاسو اوس مهال د دې فلټر سره سمون لرونکي هیڅ خلاص یا ثبت شوي ملاتړ غوښتنې نلرئ.",
+      "cta": "اندیښنه وړاندې کړئ"
+    },
+    "errors": {
+      "loadList": "د ملاتړ ټکټونه نشي پورته کولی. مهرباني وکړئ بیا هڅه وکړئ.",
+      "loadDetail": "دا ټکټ نشي پورته کولی. مهرباني وکړئ بیا هڅه وکړئ.",
+      "required": "موضوع او پیغام دواړه اړین دي.",
+      "recipientRequired": "لږترلږه یو ترلاسه کونکی وټاکئ (د ټولنې اډمین او/یا سیسټم اډمین).",
+      "submitFallback": "دا ټکټ نشي سپارلی. مهرباني وکړئ بیا هڅه وکړئ.",
+      "sendReply": "دا پیغام نشي لیږلی. مهرباني وکړئ بیا هڅه وکړئ.",
+      "updateStatus": "د دې ټکټ حالت تازه نشو. مهرباني وکړئ بیا هڅه وکړئ."
+    },
+    "form": {
+      "defaultHint": "لاندې خپله ستونزه یا اندیښنه بیان کړئ.",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "ستاسو د مسلې لنډ لنډیز",
+      "messageLabel": "پیغام",
+      "messagePlaceholder": "په تفصیل سره تشریح کړئ چې څه پیښیږي ...",
+      "recipientsLabel": "دا اندیښنه واستوئ",
+      "cancel": "لغوه کړئ",
+      "submitting": "سپارل…",
+      "submit": "ټکټ وسپاري"
+    },
+    "detail": {
+      "loading": "ټکټ پورته کول…",
+      "replyPlaceholder": "ځواب ولیکئ…",
+      "close": "تړل",
+      "sending": "لیږل…",
+      "sendReply": "ځواب واستوئ"
+    }
+  },
+  "shell": {
+    "welcomeBack": "بیرته ښه راغلاست، {{name}}",
+    "openMenu": "مینو خلاص کړئ",
+    "closeMenu": "مینو بند کړئ",
+    "logout": "وتل",
+    "search": "لټون",
+    "notifications": "خبرتیاوې"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ډشبورډ",
+      "households": "د کورنیو لارښود",
+      "meterReadings": "د میټر لوستل",
+      "billing": "د بلینګ مدیریت",
+      "bulkPurchases": "بلک پیرود",
+      "reports": "راپورونه",
+      "waterLeakage": "د اوبو لیک",
+      "support": "ملاتړ / اندیښنې",
+      "tariffPlans": "د تعرفې پلانونه",
+      "announcements": "اعلانونه",
+      "profile": "پروفایل"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "دلته ستاسو د ټولنې یو انځور دی."
+      },
+      "households": {
+        "title": "د کورنیو لارښود",
+        "subtitle": "ستاسو په ټولنه کې اوسیدونکي اضافه کړئ، تازه کړئ او اداره کړئ."
+      },
+      "meterReadings": {
+        "title": "د اوبو میټر لوستلو مرکز",
+        "subtitle": "د اوسیدونکي لټون وکړئ او د دوی د اوبو میټر لوستل ثبت کړئ."
+      },
+      "tariffPlans": {
+        "title": "د تعرفې ترتیب",
+        "subtitle": "ستاسو د اپارتمان ټولنې لپاره د ټیټ نرخ محدودیتونه ، د ګډې ساحې لګښتونه او د توزیع میتودونه تنظیم کړئ."
+      },
+      "billing": {
+        "title": "د بلینګ مدیریت",
+        "subtitle": "د بلینګ دورې خلاص کړئ، نهایی کړئ، او آرشیف کړئ، او په هر کور کې د توکو شوي رسیدونه بیاکتنه وکړئ."
+      },
+      "bulkPurchases": {
+        "title": "بلک پیرود",
+        "subtitle": "ستاسو د ټولنې لپاره د ټانکر تحویلۍ او د ښاروالۍ اکمالاتو پیرود ثبت کړئ."
+      },
+      "waterLeakage": {
+        "title": "د اوبو لیک",
+        "subtitle": "د حد او بهر پر بنسټ د لیک خبرتیاوې ترتیب کړئ، او د بیرغ لرونکي کورنیو بیاکتنه وکړئ."
+      },
+      "support": {
+        "title": "ملاتړ / اندیښنې",
+        "subtitle": "خپل ټکټونه د سیسټم اډمین ته لوړ کړئ، یا هغه اندیښنې اداره کړئ چې ستاسو اوسیدونکو تاسو ته په ګوته کړي."
+      },
+      "profile": {
+        "title": "ترتیبات او پروفایل",
+        "subtitle": "د خپل حساب توضیحات او د اپارتمان معلومات اداره کړئ."
+      }
+    },
+    "fallbackName": "اډمین",
+    "fallbackCommunity": "د ټولنې اډمین",
+    "notBuilt": "{{label}} لا نه دی جوړ شوی",
+    "searchPlaceholder": "هر څه وپلټئ…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "راپورونه",
+      "description": "ستاسو د ټولنې لپاره د مصرف، بلینګ، او ساتنې راپورونه."
+    },
+    "announcements": {
+      "title": "اعلانونه",
+      "description": "خپلو اوسیدونکو ته د ټولنې په کچه اعلانونه واستوئ."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ژر راځي"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ډشبورډ",
+      "usageHistory": "د کارونې تاریخ",
+      "bills": "زما بیلونه",
+      "recommendations": "سپارښتنې",
+      "reports": "راپورونه",
+      "support": "ملاتړ / اندیښنې",
+      "notifications": "خبرتیاوې",
+      "profile": "پروفایل"
+    },
+    "pages": {
+      "usageHistory": "ستاسو د کارونې تاریخ",
+      "billing": "بلینګ او رسیدونه",
+      "notifications": "خبرتیاوې",
+      "recommendations": "سپارښتنې",
+      "support": "ملاتړ / اندیښنې"
+    },
+    "defaultTitle": "د اوسیدونکي ډشبورډ",
+    "navLabel": "د اوسیدونکو نیویگیشن",
+    "fallbackName": "اوسیدونکی",
+    "unit": "واحد {{number}}",
+    "comingSoon": "{{label}} ژر راځي",
+    "profile": "پروفایل",
+    "searchPlaceholder": "د لټون تحلیلونه، بیلونه…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ډشبورډ",
+      "communities": "ټولنې",
+      "reports": "راپورونه",
+      "supportTickets": "د ملاتړ ټکټونه",
+      "systemStatus": "د سیسټم حالت"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "په هره ثبت شوې ټولنه کې د پلیټ فارم پراخه سنیپ شاټ."
+      },
+      "communities": {
+        "title": "ټولنې",
+        "subtitle": "د هرې ثبت شوې ټولنې اداره او د دوی ټولنه په یو ځای کې."
+      },
+      "reports": {
+        "title": "راپورونه",
+        "subtitle": "د پلیټ فارم په کچه د اوبو کارول او د بل کولو ارقام، د ټولنې لخوا او د وخت په تیریدو سره."
+      },
+      "supportTickets": {
+        "title": "د ملاتړ ټکټونه",
+        "subtitle": "د ملاتړ ټکټونه او اندیښنې چې د اوسیدونکو او د ټولنې مدیرانو لخوا راپورته شوي، په ټول پلیټ فارم کې."
+      },
+      "systemStatus": {
+        "title": "د سیسټم حالت",
+        "subtitle": "شاته ارتباط او د چلولو لومړني روغتیا."
+      }
+    },
+    "fallbackName": "د سیسټم مدیر",
+    "platformOwner": "د پلیټ فارم مالک",
+    "searchPlaceholder": "د ټولنو لټون…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "ژبه: {{language}}",
+    "searchPlaceholder": "ژبه لټون…",
+    "noMatches": "هیڅ لوبه نشته"
+  }
+}

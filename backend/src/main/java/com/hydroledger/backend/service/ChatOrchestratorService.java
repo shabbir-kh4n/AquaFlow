@@ -33,7 +33,8 @@ public class ChatOrchestratorService {
         Map<String, ChatTool> tools = chatToolRegistry.toolsFor(persona, principal);
         List<Map<String, Object>> contents = buildInitialContents(request);
         List<Map<String, Object>> functionDeclarations = buildFunctionDeclarations(tools);
-        String systemInstruction = ChatPersonaPrompts.systemInstructionFor(persona);
+        String systemInstruction = ChatPersonaPrompts.systemInstructionFor(persona)
+                + ReplyLanguage.instructionFor(request.language());
 
         for (int round = 0; round < MAX_TOOL_ROUNDTRIPS; round++) {
             GeminiTurnResult result = geminiClient.generateContent(systemInstruction, contents, functionDeclarations);

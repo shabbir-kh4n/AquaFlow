@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "बंद करो",
+    "signUpTitle": "अपनी कम्युनिटी रजिस्टर करो",
+    "signInTitle": "वापस स्वागत है",
+    "signUpSubtitle": "निवासियों और बिलिंग का प्रबंधन शुरू करने के लिए एक कम्युनिटी एडमिन अकाउंट बनाओ।",
+    "signInSubtitle": "अपने पानी की खपत और बिलिंग देखने के लिए साइन इन करें।"
+  },
+  "signIn": {
+    "errorFallback": "साइन इन करने में असमर्थ। कृपया फिर कोशिश करो।",
+    "emailLabel": "ईमेल",
+    "passwordLabel": "पासवर्ड",
+    "rememberMe": "याद रखें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "submitting": "साइन इन हो रहा है…",
+    "submit": "साइन इन",
+    "noAccount": "क्या आपका कोई अकाउंट नहीं है?",
+    "signUpLink": "साइन अप"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "पासवर्ड मेल नहीं खा रहे हैं।",
+      "communityRequired": "कम्युनिटी का नाम जरूरी है।",
+      "termsRequired": "कृपया सेवा की शर्तों और गोपनीयता नीति से सहमत हों।",
+      "fallback": "अकाउंट बनाने में असमर्थ। कृपया फिर कोशिश करो।"
+    },
+    "hint": "यहाँ सिर्फ कम्युनिटी एडमिन ही रजिस्टर करते हैं। एक बार अंदर आने के बाद, आप खुद अपने निवासियों की डिटेल्स जोड़ेंगे — वो खुद साइन अप नहीं करते।",
+    "fullNameLabel": "पूरा नाम",
+    "emailLabel": "ईमेल",
+    "phoneLabel": "फोन नंबर",
+    "communityNameLabel": "कम्युनिटी का नाम",
+    "passwordLabel": "पासवर्ड",
+    "confirmPasswordLabel": "पासवर्ड की पुष्टि करें",
+    "agreeTerms": "मैं <termsLink>सेवा की शर्तों</termsLink> और <privacyLink>गोपनीयता नीति</privacyLink> से सहमत हूँ।",
+    "submitting": "अकाउंट बन रहा है…",
+    "submit": "एडमिन अकाउंट बनाओ",
+    "haveAccount": "क्या आपके पास पहले से ही कोई अकाउंट है?",
+    "signInLink": "साइन इन"
+  },
+  "installPrompt": {
+    "title": "HydroLedger इंस्टॉल करें",
+    "description": "त्वरित पहुँच के लिए इसे अपनी होम स्क्रीन पर जोड़ें।",
+    "dismiss": "हटाएं",
+    "install": "इंस्टॉल"
+  },
+  "setPassword": {
+    "title": "अपना पासवर्ड सेट करें",
+    "loading": "लोड हो रहा है…",
+    "subtitle": "नमस्ते {{name}}, अपने HydroLedger अकाउंट को एक्टिवेट करने के लिए {{email}} के वास्ते एक पासवर्ड चुनें।",
+    "errors": {
+      "invalidLink": "यह लिंक अमान्य है या इसकी समय-सीमा समाप्त हो गई है।",
+      "tooShort": "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।",
+      "mismatch": "पासवर्ड मेल नहीं खा रहे हैं।",
+      "fallback": "आपका पासवर्ड सेट नहीं हो सका। कृपया फिर कोशिश करो।"
+    },
+    "passwordLabel": "पासवर्ड",
+    "confirmPasswordLabel": "पासवर्ड की पुष्टि करें",
+    "submitting": "पासवर्ड सेट हो रहा है…",
+    "submit": "पासवर्ड सेट करें और साइन इन करें"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger असिस्टेंट",
+      "resident": "अपने अकाउंट के बारे में पूछें",
+      "admin": "कम्युनिटी असिस्टेंट",
+      "platform": "प्लेटफॉर्म असिस्टेंट",
+      "default": "असिस्टेंट"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger क्या है?",
+        "tieredBilling": "टियर्ड बिलिंग (tiered billing) कैसे काम करती है?",
+        "leaks": "लीकेज का पता कैसे चलता है?"
+      },
+      "resident": {
+        "billEstimate": "मेरा मौजूदा बिल अनुमान क्या है?",
+        "alerts": "क्या मेरे पास कोई खपत अलर्ट (usage alerts) हैं?",
+        "readings": "मेरी हालिया मीटर रीडिंग दिखाएं"
+      },
+      "admin": {
+        "households": "हमारे पास कितने घर हैं?",
+        "billingCycles": "हमारे हालिया बिलिंग चक्रों की सूची दें",
+        "tariff": "हमारी मौजूदा टैरिफ योजना क्या है?"
+      },
+      "platform": {
+        "communities": "सभी रजिस्टर्ड कम्युनिटी की सूची दें",
+        "usageReport": "प्लेटफॉर्म उपयोग रिपोर्ट दिखाएं",
+        "systemStatus": "सिस्टम की स्थिति क्या है?"
+      }
+    },
+    "errors": {
+      "rateLimited": "आप बहुत जल्दी संदेश भेज रहे हैं - कृपया थोड़ी देर रुकें और फिर कोशिश करें।",
+      "unavailable": "असिस्टेंट अभी उपलब्ध नहीं है। कृपया थोड़ी देर बाद फिर कोशिश करें।",
+      "generic": "वो संदेश भेजने में कुछ गड़बड़ हो गई। कृपया फिर कोशिश करें।"
+    },
+    "emptyHint": "मुझसे कुछ भी पूछें - मैं सिर्फ आपका अपना डेटा देख सकता हूँ।",
+    "closeAssistant": "असिस्टेंट बंद करें",
+    "openAssistant": "असिस्टेंट खोलें",
+    "inputPlaceholder": "एक संदेश लिखें…",
+    "inputLabel": "संदेश",
+    "send": "भेजें"
+  },
+  "supportBoard": {
+    "defaultTitle": "सहायता टिकट",
+    "defaultCreateLabel": "नवीं शिकायत दर्ज करो",
+    "status": {
+      "open": "खुल्ला",
+      "inProgress": "प्रक्रिया अधीन",
+      "resolved": "समाधान होया",
+      "closed": "बंद"
+    },
+    "tabs": {
+      "all": "सारे टिकट"
+    },
+    "recipients": {
+      "admin": "कम्युनिटी एडमिन",
+      "systemAdmin": "सिस्टम एडमिन",
+      "both": "कम्युनिटी एडमिन + सिस्टम एडमिन"
+    },
+    "roles": {
+      "resident": "निवासी",
+      "admin": "एडमिन"
+    },
+    "toRecipients": "प्रति: {{recipients}}",
+    "raisedByResident": "निवासी {{name}} द्वारा दर्ज",
+    "raisedByAdmin": "एडमिन {{name}} द्वारा दर्ज",
+    "refresh": "रीफ्रेश",
+    "stats": {
+      "openLabel": "खुल्लियां अर्जियां",
+      "openHint": "समीक्षा दी प्रतीक्षा",
+      "inProgressLabel": "प्रक्रिया अधीन",
+      "inProgressHint": "कम्म चलै दा ऐ",
+      "resolvedLabel": "समाधान होया",
+      "resolvedHint": "सफलतापूर्वक बंद"
+    },
+    "searchPlaceholder": "विषय या समस्या दे आधार पर टिकट लभ्भो...",
+    "loadingTickets": "टिकट लोड हो रहे न...",
+    "empty": {
+      "title": "कोई सहायता टिकट नी मिल्या",
+      "body": "तुआढ़े कोल इस फिल्टर दे मुताबिक कोई खुल्ला या दर्ज होया सहायता अनुरोध नी ऐ।",
+      "cta": "शिकायत दर्ज करो"
+    },
+    "errors": {
+      "loadList": "सहायता टिकट लोड नी हो सके। कृपया दोबारा कोशिश करो।",
+      "loadDetail": "एह टिकट लोड नी हो सकदा। कृपया दोबारा कोशिश करो।",
+      "required": "विषय ते संदेश दोंह जरूरी न।",
+      "recipientRequired": "घट्टों-घट्ट इक प्राप्तकर्ता (कम्युनिटी एडमिन या सिस्टम एडमिन) चुन।",
+      "submitFallback": "एह टिकट सबमिट नी हो सकदा। कृपया दोबारा कोशिश करो।",
+      "sendReply": "एह संदेश भेजा नी जा सकदा। कृपया दोबारा कोशिश करो।",
+      "updateStatus": "टिकट दी स्थिति अपडेट नी हो सकदी। कृपया दोबारा कोशिश करो।"
+    },
+    "form": {
+      "defaultHint": "नीचे अपनी समस्या या चिंता दा ब्योरा द्यो।",
+      "subjectLabel": "विषय",
+      "subjectPlaceholder": "अपनी समस्या दा संक्षिप्त सारांश",
+      "messageLabel": "संदेश",
+      "messagePlaceholder": "की हो रया ऐ, विस्तार कन्नै दस्सो...",
+      "recipientsLabel": "एह चिंता इन्हें भेजनी ऐ",
+      "cancel": "रद्द करो",
+      "submitting": "सबमिट हो रया ऐ...",
+      "submit": "टिकट सबमिट करो"
+    },
+    "detail": {
+      "loading": "टिकट लोड हो रया ऐ...",
+      "replyPlaceholder": "जवाब लिखो...",
+      "close": "बंद",
+      "sending": "भेज रया ऐ...",
+      "sendReply": "जवाब भेजो"
+    }
+  },
+  "shell": {
+    "welcomeBack": "स्वागत ऐ, {{name}}",
+    "openMenu": "मेन्यू खोलो",
+    "closeMenu": "मेन्यू बंद करो",
+    "logout": "लॉग आउट",
+    "search": "खोजो",
+    "notifications": "सूचनाएं"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "डैशबोर्ड",
+      "households": "घर परिवार सूची",
+      "meterReadings": "मीटर रीडिंग",
+      "billing": "बिलिंग प्रबंधन",
+      "bulkPurchases": "थोक खरीद",
+      "reports": "रिपोर्ट",
+      "waterLeakage": "पानी दी लीकेज",
+      "support": "सहायता / चिंताएं",
+      "tariffPlans": "टैरिफ प्लान",
+      "announcements": "ऐलान",
+      "profile": "प्रोफ़ाइल"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "एह तुआढ़ी कम्युनिटी दी इक झलक ऐ।"
+      },
+      "households": {
+        "title": "घर परिवार सूची",
+        "subtitle": "अपनी कम्युनिटी रेहने वाले निवासियों गी जोड़ो, अपडेट करो ते प्रबंधन करो।"
+      },
+      "meterReadings": {
+        "title": "पानी मीटर रीडिंग हब",
+        "subtitle": "किसी निवासी गी लभ्भो ते उंदी पानी दी मीटर रीडिंग नोट करो।"
+      },
+      "tariffPlans": {
+        "title": "टैरिफ कॉन्फ़िगरेशन",
+        "subtitle": "टियर रेट लिमिट, सांझी जगह दा खर्चा, ते वितरण विधियां सेट करो।"
+      },
+      "billing": {
+        "title": "बिलिंग प्रबंधन",
+        "subtitle": "बिलिंग चक्र खोलना, फाइनल करना, आर्काइव करना ते हर घर दा बिल चेक करना।"
+      },
+      "bulkPurchases": {
+        "title": "थोक खरीद",
+        "subtitle": "टैंकर डिलीवरी ते म्यूनिसिपल पानी दी सप्लाई दा ब्योरा दर्ज करो।"
+      },
+      "waterLeakage": {
+        "title": "पानी दी लीकेज",
+        "subtitle": "लीक अलर्ट थ्रेशोल्ड सेट करो ते फ्लैग होये घरे दी समीक्षा करो।"
+      },
+      "support": {
+        "title": "सहायता / चिंताएं",
+        "subtitle": "सिस्टम एडमिन गी टिकट भेजो या निवासियों दी शिकायतें हल करो।"
+      },
+      "profile": {
+        "title": "सेटिंग्स ते प्रोफ़ाइल",
+        "subtitle": "अपना अकाउंट विवरण ते अपार्टमेंट जानकारी प्रबंधित करो।"
+      }
+    },
+    "fallbackName": "एडमिन",
+    "fallbackCommunity": "कम्युनिटी एडमिन",
+    "notBuilt": "{{label}} अभी बनी नी ऐ",
+    "searchPlaceholder": "कुछ भी खोजो..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "रिपोर्ट",
+      "description": "कम्युनिटी दी खपत, बिलिंग, ते बचत दी रिपोर्ट।"
+    },
+    "announcements": {
+      "title": "ऐलान",
+      "description": "अपनी कम्युनिटी दे निवासियों गी ऐलान भेजो।"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} जल्द आ रया ऐ"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "डैशबोर्ड",
+      "usageHistory": "खपत दा इतिहास",
+      "bills": "मेरे बिल",
+      "recommendations": "सुझाव",
+      "reports": "रिपोर्ट",
+      "support": "सहायता / चिंताएं",
+      "notifications": "सूचनाएं",
+      "profile": "प्रोफ़ाइल"
+    },
+    "pages": {
+      "usageHistory": "तुआढ़ी खपत दा इतिहास",
+      "billing": "बिलिंग ते इनवॉइस",
+      "notifications": "सूचनाएं",
+      "recommendations": "सुझाव",
+      "support": "सहायता / चिंताएं"
+    },
+    "defaultTitle": "निवासी डैशबोर्ड",
+    "navLabel": "निवासी नेविगेशन",
+    "fallbackName": "निवासी",
+    "unit": "यूनिट {{number}}",
+    "comingSoon": "{{label}} जल्द आ रया ऐ",
+    "profile": "प्रोफ़ाइल",
+    "searchPlaceholder": "एनालिटिक्स, बिल खोजो..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "डैशबोर्ड",
+      "communities": "कम्यूनिटी",
+      "reports": "रिपोर्ट",
+      "supportTickets": "सपोर्ट टिकट",
+      "systemStatus": "सिस्टम स्टेटस"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "सारे रजिस्टर्ड कम्यूनिटी दा इक समूचा जायजा।"
+      },
+      "communities": {
+        "title": "कम्यूनिटी",
+        "subtitle": "सारे रजिस्टर्ड कम्यूनिटी एडमिन ते उनेंगी कम्यूनिटी, इकठ्ठे।"
+      },
+      "reports": {
+        "title": "रिपोर्ट",
+        "subtitle": "सारे कम्यूनिटी लेई पानी दी खपत ते बिलिंग दा ब्योरा।"
+      },
+      "supportTickets": {
+        "title": "सपोर्ट टिकट",
+        "subtitle": "रेसिडेंट्स ते कम्यूनिटी एडमिन वलें उठाईयां गइयां शिकायतें ते सवाल।"
+      },
+      "systemStatus": {
+        "title": "सिस्टम स्टेटस",
+        "subtitle": "बैकएंड कनेक्टिविटी ते सिस्टम दी मौजूदा हालत।"
+      }
+    },
+    "fallbackName": "सिस्टम एडमिन",
+    "platformOwner": "प्लेटफॉर्म ओनर",
+    "searchPlaceholder": "कम्यूनिटी खोजो…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "भाषा: {{language}}",
+    "searchPlaceholder": "भाषा खोजो…",
+    "noMatches": "कोई मेल नहीं"
+  }
+}

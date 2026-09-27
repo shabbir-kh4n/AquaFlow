@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Prestu",
+    "welcome": {
+      "greeting": "Salutami {{name}},",
+      "greetingFallback": "Salutami,",
+      "title": "Stà vicinu à a storia di l'acqua di a vostra casa.",
+      "subtitle": "L'infurmazioni di usu è di fatturazione appariscenu quì cum'è a vostra cumunità registra e letture.",
+      "viewBadges": "Vede Eco-Badges"
+    },
+    "stats": {
+      "todaysUsage": "L'usu d'oghje",
+      "asOf": "Da {{date}}",
+      "noReading": "Nisuna lettura di u metru",
+      "monthlyTotalFor": "Totale mensile ({{month}})",
+      "monthlyTotalThisMonth": "Totale mensile (questu mese)",
+      "sumOfReadings": "Suma di letture registrate",
+      "estimatedBill": "Bill stimata attuale",
+      "estimatedBillFor": "Usu misuratu + carichi spartuti, {{month}}",
+      "estimatedBillHint": "Basatu nantu à u cunsumu misuratu di stu mese è i carichi spartuti",
+      "savings": "Risparmi versus Building Avg",
+      "savingsValue": "{{percent}}% di menu",
+      "savingsPreview": "Preview solu - paragone micca ancu in diretta"
+    },
+    "consumption": {
+      "eyebrow": "Cunsumu",
+      "title": "Cunsumu di ogni ghjornu (Ultime 14 Letture)",
+      "seriesName": "Cunsumu",
+      "empty": "Nisuna lettura ancora registrata."
+    },
+    "breakdown": {
+      "eyebrow": "Rupture",
+      "title": "Spartimentu di l'usu",
+      "bathroom": "Bagnu",
+      "kitchen": "Cucina",
+      "garden": "Giardinu / Balcone",
+      "other": "Altru / Lavanderia"
+    },
+    "billing": {
+      "eyebrow": "Facturazione",
+      "title": "Ciclu di fattura attivu",
+      "finalized": "Finalizatu",
+      "preview": "Anteprima",
+      "meteredConsumption": "Cunsumu misuratu",
+      "tierPriceLevel": "U livellu di prezzu",
+      "tierLabel": "Tier {{tier}}",
+      "commonArea": "Distribuzione di l'area cumuna",
+      "commonAreaPreview": "Distribuzione di l'area cumuna (anteprima)",
+      "invoiceTotal": "{{period}} fattura tutale",
+      "estimatedCharge": "Carica stimata attuale",
+      "commonAreaBreakdown": "Ripartizione di l'area cumuna",
+      "payPreview": "Pay Bill Preview",
+      "payUnavailable": "U mutore di fatturazione ùn hè ancu dispunibule"
+    },
+    "tips": {
+      "eyebrow": "Cunsiglii",
+      "title": "Cunsiglii di salvezza intelligente",
+      "viewAll": "Vede tuttu",
+      "empty": "I cunsiglii persunalizati appariscenu quì dopu chì a vostra cumunità finalizeghja un ciclu di fattura."
+    },
+    "community": "Cumunità: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ùn pudia micca carica a vostra storia di usu. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di a vostra analisi di usu...",
+    "empty": "Nisuna lettura ancora registrata. Una volta chì a vostra cumunità registra una lettura di u metru, si mostrarà quì.",
+    "tabs": {
+      "lastSixMonths": "L'ultimi 6 mesi",
+      "customRange": "Gamma persunalizata",
+      "comingSoon": "Prestu"
+    },
+    "peakDay": "U ghjornu di punta:",
+    "lowestDay": "U ghjornu più bassu:",
+    "comparison": {
+      "title": "Cunsumu di a famiglia versus appartamentu mediu",
+      "subtitle": "Totali mensili mostrati in kilolitri (kL).",
+      "yourHousehold": "A vostra famiglia",
+      "apartmentAverage": "L'appartamentu mediu",
+      "similarSized": "Case di dimensioni simili"
+    },
+    "heatmap": {
+      "title": "Heatmap di cunsumu ogni ghjornu",
+      "subtitle": "L'intensità di u culore indica i ghjorni di usu pesante (anteprima)."
+    },
+    "ranking": {
+      "title": "Classificazione di i pari di a cumunità",
+      "subtitle": "U vostru rangu cumparatu cù unità simili (anteprima).",
+      "ecoSaver": "Eco Saver attivu",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unità {{number}}",
+      "yourUnit": "A vostra unità",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Tu)"
+    }
+  },
+  "billing": {
+    "loadError": "Ùn pudia micca carricà a vostra storia di fattura. Per piacè pruvate di novu.",
+    "pdfError": "Ùn pudia micca scaricà u PDF. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di a vostra storia di fattura...",
+    "empty": "Nisuna fattura ancora - una volta chì a vostra cumunità finalizeghja un ciclu di fatturazione, e vostre fatture appariscenu quì.",
+    "status": {
+      "paid": "Pagatu",
+      "unpaid": "Impagatu"
+    },
+    "summary": {
+      "outstandingBalance": "Equilibrio eccezziunale",
+      "billingCycle": "Ciclu di fattura: {{period}}",
+      "allPaid": "Tutte e fatture sò pagate",
+      "payTotal": "Pay Total Outstanding",
+      "payTotalUnavailable": "U pagamentu in linea ùn hè micca dispunibule ancu - saldete e fatture direttamente cù u vostru amministratore di a cumunità",
+      "downloadSummary": "Scaricate Bill Summary",
+      "downloadSummaryUnavailable": "U scaricamentu di u riassuntu di Bill ùn hè micca dispunibule ancu"
+    },
+    "history": {
+      "title": "Storia di a fattura",
+      "exportCsv": "Esporta tuttu à CSV",
+      "exportUnavailable": "CSV esportazione ùn hè ancu dispunibile"
+    },
+    "table": {
+      "cycle": "Ciclu",
+      "usage": "Utilizazione (kL)",
+      "amountDue": "A quantità dovuta",
+      "paymentStatus": "Status di pagamentu",
+      "hideBreakdown": "Hide Breakdown ↑",
+      "showBreakdown": "↓ disgregazione dettagliata",
+      "downloading": "Scaricamentu…",
+      "pdf": "PDF",
+      "pay": "Paga"
+    },
+    "breakdown": {
+      "householdTitle": "Ripartizione di u cunsumu di a famiglia",
+      "basePrice": "Prezzu Base: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Livellu {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotale di l'usu misuratu",
+      "commonAreaTitle": "Ripartizione di l'area cumuna",
+      "subtotalShared": "Subtotal Area Shared",
+      "noCommonArea": "Nisun carichi cumuni cumuni per stu ciclu."
+    },
+    "pagination": {
+      "showing": "Mostra {{from}}–{{to}} di {{total}}",
+      "prev": "← Prec",
+      "next": "Next →",
+      "page": "Pagina {{page}} di {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Metodi di pagamentu (anteprima)",
+      "description": "U pagamentu in linea ùn hè ancu dispunibule - e fatture sò saldate direttamente cù u vostru amministratore di a cumunità.",
+      "manage": "Gestisce i metudi di pagamentu",
+      "manageUnavailable": "I metudi di pagamentu ùn sò ancu dispunibili"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Garantitu da Razorpay",
+    "billingCycle": "Ciclu di fattura {{period}}",
+    "close": "Chiudi",
+    "amountPayable": "A quantità pagabile",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Carte",
+      "netbanking": "Netbanking",
+      "wallet": "Wallet"
+    },
+    "upi": {
+      "title": "Paga via UPI",
+      "upiId": "UPI ID",
+      "or": "OR",
+      "scan": "Scansione cù qualsiasi UPI app"
+    },
+    "card": {
+      "title": "Paga via Card",
+      "number": "Numero di carta",
+      "expiry": "Scadenza",
+      "expiryPlaceholder": "MM/AA",
+      "cvv": "CVV",
+      "name": "Nome nantu à a carta",
+      "namePlaceholder": "Cum'è stampatu nantu à a carta"
+    },
+    "netbanking": {
+      "title": "Paga via Netbanking"
+    },
+    "wallet": {
+      "title": "Paga via Wallet"
+    },
+    "payAmount": "Paga ₹{{amount}}",
+    "processing": "Trattamentu di u vostru pagamentu...",
+    "processingHint": "Per piacè ùn appughjà micca in daretu o rinfriscà sta pagina",
+    "success": "Pagamentu successu",
+    "error": "Qualcosa hè andatu male cunfirmendu u vostru pagamentu. Per piacè pruvate di novu.",
+    "retry": "Riprova"
+  },
+  "notifications": {
+    "loadError": "Ùn pudite micca caricate e vostre notificazioni. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di e vostre notificazioni…",
+    "empty": "Nisuna notificazione ancora - vi vede qualcosa quì se u vostru amministratore di a cumunità hà attivatu avvisi di soglia d'usu o cunsumu inusual è unu hè attivatu per a vostra famiglia.",
+    "type": {
+      "thresholdExceeded": "U sogliu di cunsumu superatu",
+      "statisticalOutlier": "Cunsumu inusual rilevatu"
+    },
+    "status": {
+      "active": "Attivu",
+      "resolved": "Risolta",
+      "dismissed": "Licenziatu"
+    },
+    "billingPeriod": "Periudu di fatturazione: {{period}}",
+    "consumption": "Cunsumu : {{value}} kL",
+    "push": {
+      "title": "Notificazioni push",
+      "description": "Ricevi una notificazione nantu à stu dispositivu quandu una nova fattura o alerta entra.",
+      "enable": "Attivà",
+      "disable": "Disattivà",
+      "permissionDenied": "L'autorizazione di notificazione ùn hè micca stata cuncessa.",
+      "notConfigured": "E notificazioni push ùn sò micca cunfigurate ancu. Cuntattate u vostru amministratore.",
+      "enableError": "Ùn pudia micca attivà e notificazioni push. Per piacè pruvate di novu.",
+      "disableError": "Ùn pudia micca disattivà e notificazioni push. Per piacè pruvate di novu."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ùn pudia micca carica i vostri cunsiglii. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di i vostri cunsiglii persunalizati...",
+    "generated": "Generatu {{date}}",
+    "generatedForPeriod": "Generatu {{date}} per u periodu di fatturazione {{period}}",
+    "eyebrow": "Personalizatu per voi",
+    "title": "Cunsiglii intelligenti per risparmià acqua",
+    "empty": "Ùn ci sò micca cunsiglii ancu generati - questi sò rinfrescati automaticamente ogni volta chì a vostra cumunità finaliza un ciclu di fatturazione per a vostra famiglia."
+  },
+  "support": {
+    "title": "Desk di supportu è preoccupazioni per i residenti",
+    "subtitle": "Inviate rapporti di perdite d'acqua, richieste di calibrazione di metru, o dumande di fatturazione direttamente à u vostru amministratore di a cumunità è / o l'amministratore di u sistema.",
+    "emptyCreateHint": "Descrivite u vostru prublema o preoccupazione quì sottu, è sceglite quale deve trattà."
+  }
+}

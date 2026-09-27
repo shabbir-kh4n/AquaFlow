@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Już wkrótce",
+    "welcome": {
+      "greeting": "Witaj {{name}},",
+      "greetingFallback": "Witam,",
+      "title": "Pozostań blisko historii wody w swoim domu.",
+      "subtitle": "Informacje o użytkowaniu i rozliczeniach będą się tu pojawiać w miarę odczytów rejestrowanych przez Twoją społeczność.",
+      "viewBadges": "Zobacz odznaki ekologiczne"
+    },
+    "stats": {
+      "todaysUsage": "Dzisiejsze użycie",
+      "asOf": "Od {{date}}",
+      "noReading": "Nie ma jeszcze odczytu licznika",
+      "monthlyTotalFor": "Miesięczna suma ({{month}})",
+      "monthlyTotalThisMonth": "Suma miesięczna (w tym miesiącu)",
+      "sumOfReadings": "Suma zarejestrowanych odczytów",
+      "estimatedBill": "Aktualny szacunkowy rachunek",
+      "estimatedBillFor": "Pomiar zużycia + wspólne opłaty, {{month}}",
+      "estimatedBillHint": "Na podstawie zmierzonego zużycia w tym miesiącu i wspólnych opłat",
+      "savings": "Oszczędności w porównaniu ze średnią budową",
+      "savingsValue": "{{percent}}% Mniej",
+      "savingsPreview": "Tylko podgląd — porównanie jeszcze nieaktualne"
+    },
+    "consumption": {
+      "eyebrow": "Konsumpcja",
+      "title": "Dzienne spożycie (ostatnie 14 odczytów)",
+      "seriesName": "Konsumpcja",
+      "empty": "Nie zarejestrowano jeszcze żadnych odczytów."
+    },
+    "breakdown": {
+      "eyebrow": "Załamanie",
+      "title": "Podział wykorzystania",
+      "bathroom": "Łazienka",
+      "kitchen": "Kuchnia",
+      "garden": "Ogród/balkon",
+      "other": "Inne / Pralnia"
+    },
+    "billing": {
+      "eyebrow": "Rozliczenia",
+      "title": "Aktywny cykl rozliczeniowy",
+      "finalized": "Sfinalizowane",
+      "preview": "Zapowiedź",
+      "meteredConsumption": "Zmierzone zużycie",
+      "tierPriceLevel": "Poziom cenowy poziomu",
+      "tierLabel": "Poziom {{tier}}",
+      "commonArea": "Podział części wspólnej",
+      "commonAreaPreview": "Podział powierzchni wspólnych (podgląd)",
+      "invoiceTotal": "{{period}} suma faktury",
+      "estimatedCharge": "Aktualna szacunkowa opłata",
+      "commonAreaBreakdown": "Podział powierzchni wspólnych",
+      "payPreview": "Podgląd rachunku",
+      "payUnavailable": "Mechanizm rozliczeniowy nie jest jeszcze dostępny"
+    },
+    "tips": {
+      "eyebrow": "Porady",
+      "title": "Inteligentne wskazówki dotyczące oszczędzania",
+      "viewAll": "Zobacz wszystkie",
+      "empty": "Spersonalizowane wskazówki pojawiają się tutaj, gdy Twoja społeczność zakończy cykl rozliczeniowy."
+    },
+    "community": "Społeczność: {{name}}"
+  },
+  "usage": {
+    "loadError": "Nie udało się załadować historii użytkowania. Spróbuj ponownie.",
+    "loading": "Ładowanie statystyk użytkowania…",
+    "empty": "Nie zarejestrowano jeszcze żadnych odczytów. Gdy Twoja społeczność zarejestruje odczyt licznika, pojawi się on tutaj.",
+    "tabs": {
+      "lastSixMonths": "Ostatnie 6 miesięcy",
+      "customRange": "Zakres niestandardowy",
+      "comingSoon": "Już wkrótce"
+    },
+    "peakDay": "Dzień szczytowy:",
+    "lowestDay": "Najniższy dzień:",
+    "comparison": {
+      "title": "Konsumpcja gospodarstwa domowego a średnia mieszkania",
+      "subtitle": "Miesięczne sumy podawane w kilolitach (kL).",
+      "yourHousehold": "Twoje gospodarstwo domowe",
+      "apartmentAverage": "Mieszkanie Średnie",
+      "similarSized": "Domy o podobnej wielkości"
+    },
+    "heatmap": {
+      "title": "Mapa cieplna dziennego zużycia",
+      "subtitle": "Intensywność kolorów oznacza dni intensywnego użytkowania (podgląd)."
+    },
+    "ranking": {
+      "title": "Ranking społecznościowy",
+      "subtitle": "Twoja ranga w porównaniu do podobnych jednostek (podgląd).",
+      "ecoSaver": "Aktywny Eco Saver",
+      "aptNumber": "trafny {{number}}",
+      "unitNumber": "Jednostka {{number}}",
+      "yourUnit": "Twoja jednostka",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Ty)"
+    }
+  },
+  "billing": {
+    "loadError": "Nie można wczytać historii rozliczeń. Spróbuj ponownie.",
+    "pdfError": "Nie można pobrać PDF. Spróbuj ponownie.",
+    "loading": "Ładowanie historii rozliczeń…",
+    "empty": "Nie ma jeszcze faktur — gdy Twoja społeczność zakończy cykl rozliczeniowy, Twoje rachunki pojawią się tutaj.",
+    "status": {
+      "paid": "Płatny",
+      "unpaid": "Nie zapłacony"
+    },
+    "summary": {
+      "outstandingBalance": "Znakomita równowaga",
+      "billingCycle": "Cykl rozliczeniowy: {{period}}",
+      "allPaid": "Wszystkie faktury są opłacone",
+      "payTotal": "Zapłać całą kwotę zaległą",
+      "payTotalUnavailable": "Płatności online nie są jeszcze dostępne — rozliczaj rachunki bezpośrednio z administratorem społeczności",
+      "downloadSummary": "Pobierz podsumowanie rachunku",
+      "downloadSummaryUnavailable": "Pobieranie podsumowania rachunków nie jest jeszcze dostępne"
+    },
+    "history": {
+      "title": "Historia faktur",
+      "exportCsv": "Eksportuj wszystko do CSV",
+      "exportUnavailable": "CSV eksport nie jest jeszcze dostępny"
+    },
+    "table": {
+      "cycle": "Cykl",
+      "usage": "Użycie (kL)",
+      "amountDue": "Kwota należna",
+      "paymentStatus": "Stan płatności",
+      "hideBreakdown": "Ukryj podział ↑",
+      "showBreakdown": "Szczegółowy podział ↓",
+      "downloading": "Ściąganie…",
+      "pdf": "PDF",
+      "pay": "Płacić"
+    },
+    "breakdown": {
+      "householdTitle": "Podział konsumpcji w gospodarstwie domowym",
+      "basePrice": "Cena podstawowa: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Poziom {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Suma częściowa zmierzonego wykorzystania",
+      "commonAreaTitle": "Podział powierzchni wspólnej",
+      "subtotalShared": "Suma częściowa obszaru wspólnego",
+      "noCommonArea": "Brak opłat za korzystanie ze wspólnych powierzchni w tym cyklu."
+    },
+    "pagination": {
+      "showing": "Wyświetlanie {{from}}–{{to}} z {{total}}",
+      "prev": "← Poprzednie",
+      "next": "Dalej →",
+      "page": "Strona {{page}} z {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Metody płatności (podgląd)",
+      "description": "Płatności online nie są jeszcze dostępne — rachunki są rozliczane bezpośrednio z administratorem społeczności.",
+      "manage": "Zarządzaj metodami płatności",
+      "manageUnavailable": "Metody płatności nie są jeszcze dostępne"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Zabezpieczone przez Razorpay",
+    "billingCycle": "Cykl rozliczeniowy {{period}}",
+    "close": "Zamknąć",
+    "amountPayable": "Kwota do zapłaty",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Karty",
+      "netbanking": "Bankowość internetowa",
+      "wallet": "Portfel"
+    },
+    "upi": {
+      "title": "Zapłać przez UPI",
+      "upiId": "UPI Identyfikator",
+      "or": "LUB",
+      "scan": "Skanuj za pomocą dowolnej aplikacji UPI."
+    },
+    "card": {
+      "title": "Zapłać Kartą",
+      "number": "Numer karty",
+      "expiry": "Wygaśnięcie",
+      "expiryPlaceholder": "MM / RR",
+      "cvv": "CVV",
+      "name": "Imię i nazwisko na karcie",
+      "namePlaceholder": "Jak wydrukowano na karcie"
+    },
+    "netbanking": {
+      "title": "Zapłać za pośrednictwem bankowości internetowej"
+    },
+    "wallet": {
+      "title": "Zapłać poprzez Portfel"
+    },
+    "payAmount": "Zapłać ₹{{amount}}",
+    "processing": "Przetwarzam Twoją płatność…",
+    "processingHint": "Proszę nie wciskać wstecz ani nie odświeżać tej strony",
+    "success": "Płatność pomyślna",
+    "error": "Coś poszło nie tak podczas potwierdzania Twojej płatności. Spróbuj ponownie.",
+    "retry": "Spróbować ponownie"
+  },
+  "notifications": {
+    "loadError": "Nie udało się wczytać powiadomień. Spróbuj ponownie.",
+    "loading": "Ładowanie powiadomień…",
+    "empty": "Nie ma jeszcze żadnych powiadomień — zobaczysz coś tutaj, jeśli administrator społeczności włączył alerty dotyczące progów użycia lub nietypowego zużycia i jeden z nich został uruchomiony w Twoim gospodarstwie domowym.",
+    "type": {
+      "thresholdExceeded": "Przekroczono próg zużycia",
+      "statisticalOutlier": "Wykryto nietypowe zużycie"
+    },
+    "status": {
+      "active": "Aktywny",
+      "resolved": "Rozwiązany",
+      "dismissed": "Zwolniony"
+    },
+    "billingPeriod": "Okres rozliczeniowy: {{period}}",
+    "consumption": "Zużycie: {{value}} kL",
+    "push": {
+      "title": "Powiadomienia push",
+      "description": "Otrzymuj powiadomienia na tym urządzeniu, gdy pojawi się nowy rachunek lub alert.",
+      "enable": "Włączać",
+      "disable": "Wyłączyć",
+      "permissionDenied": "Zezwolenie na powiadamianie nie zostało udzielone.",
+      "notConfigured": "Powiadomienia push nie są jeszcze skonfigurowane. Skontaktuj się z administratorem.",
+      "enableError": "Nie można włączyć powiadomień push. Spróbuj ponownie.",
+      "disableError": "Nie można wyłączyć powiadomień push. Spróbuj ponownie."
+    }
+  },
+  "recommendations": {
+    "loadError": "Nie udało się wczytać Twoich rekomendacji. Spróbuj ponownie.",
+    "loading": "Ładuję Twoje spersonalizowane wskazówki…",
+    "generated": "Wygenerowano {{date}}",
+    "generatedForPeriod": "Wygenerowano {{date}} za okres rozliczeniowy {{period}}",
+    "eyebrow": "Spersonalizowane dla Ciebie",
+    "title": "Inteligentne wskazówki dotyczące oszczędzania wody",
+    "empty": "Nie wygenerowano jeszcze żadnych wskazówek — są one odświeżane automatycznie za każdym razem, gdy Twoja społeczność zakończy cykl rozliczeniowy dla Twojego gospodarstwa domowego."
+  },
+  "support": {
+    "title": "Biuro wsparcia i obsługi mieszkańców",
+    "subtitle": "Przesyłaj raporty o wyciekach wody, prośby o kalibrację licznika lub zapytania dotyczące rozliczeń bezpośrednio do administratora społeczności i/lub administratora systemu.",
+    "emptyCreateHint": "Opisz poniżej swój problem lub obawę i wybierz, kto powinien się nim zająć."
+  }
+}

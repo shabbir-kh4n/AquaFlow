@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Yopish",
+    "signUpTitle": "Jamoangizni ro'yxatdan o'tkazing",
+    "signInTitle": "qaytib kelganingizdan xursandmiz",
+    "signUpSubtitle": "Rezidentlarni boshqarish va hisob-kitob qilishni boshlash uchun hamjamiyat administratori hisobini yarating.",
+    "signInSubtitle": "Suv isteʼmoli va hisobingizni koʻrish uchun tizimga kiring."
+  },
+  "signIn": {
+    "errorFallback": "Tizimga kirib boʻlmadi. Qayta urinib koʻring.",
+    "emailLabel": "Elektron pochta",
+    "passwordLabel": "Parol",
+    "rememberMe": "Meni eslaysizmi",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "submitting": "Kirish…",
+    "submit": "Tizimga kirish",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "signUpLink": "Ro'yxatdan o'tish"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Parollar mos kelmaydi.",
+      "communityRequired": "Hamjamiyat nomi talab qilinadi.",
+      "termsRequired": "Iltimos, Foydalanish shartlari va Maxfiylik siyosatiga rozilik bildiring.",
+      "fallback": "Hisob yaratib bo‘lmadi. Iltimos, qayta urinib koʻring."
+    },
+    "hint": "Bu yerda faqat hamjamiyat ma'murlari ro'yxatdan o'tadi. Kirganingizdan so'ng, siz o'zingizning fuqarolaringiz haqidagi ma'lumotlarni o'zingiz qo'shasiz - ular o'z-o'zidan ro'yxatdan o'tmaydi.",
+    "fullNameLabel": "To'liq ism",
+    "emailLabel": "Elektron pochta",
+    "phoneLabel": "Telefon raqami",
+    "communityNameLabel": "Jamiyat nomi",
+    "passwordLabel": "Parol",
+    "confirmPasswordLabel": "Parolni tasdiqlang",
+    "agreeTerms": "Men <termsLink>Foydalanish shartlari</termsLink> va <privacyLink>Maxfiylik siyosatiga</privacyLink> rozilik bildiraman",
+    "submitting": "Hisob yaratilmoqda…",
+    "submit": "Administrator hisobini yarating",
+    "haveAccount": "Hisobingiz bormi?",
+    "signInLink": "tizimga kirish"
+  },
+  "installPrompt": {
+    "title": "Oʻrnatish HydroLedger",
+    "description": "Tez kirish uchun uni bosh ekraningizga qo'shing.",
+    "dismiss": "Rad etish",
+    "install": "O'rnatish"
+  },
+  "setPassword": {
+    "title": "Parolingizni o'rnating",
+    "loading": "Yuklanmoqda…",
+    "subtitle": "Salom {{name}}, HydroLedger hisobingizni faollashtirish uchun {{email}} uchun parol tanlang.",
+    "errors": {
+      "invalidLink": "Bu havola yaroqsiz yoki muddati tugagan.",
+      "tooShort": "Parol kamida 8 ta belgidan iborat bo'lishi kerak.",
+      "mismatch": "Parollar mos kelmaydi.",
+      "fallback": "Parolni oʻrnatib boʻlmadi. Iltimos, qayta urinib koʻring."
+    },
+    "passwordLabel": "Parol",
+    "confirmPasswordLabel": "Parolni tasdiqlang",
+    "submitting": "Parol sozlanmoqda…",
+    "submit": "Parol o'rnating va tizimga kiring"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Yordamchi",
+      "resident": "Hisobingiz haqida so'rang",
+      "admin": "Jamiyat yordamchisi",
+      "platform": "Platforma yordamchisi",
+      "default": "Yordamchi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger nima?",
+        "tieredBilling": "Bosqichli hisob-kitob qanday ishlaydi?",
+        "leaks": "Oqishlar qanday aniqlanadi?"
+      },
+      "resident": {
+        "billEstimate": "Hozirgi hisob-kitobim qancha?",
+        "alerts": "Menda foydalanish haqida ogohlantirishlar bormi?",
+        "readings": "Mening so'nggi hisoblagichlarimni ko'rsating"
+      },
+      "admin": {
+        "households": "Qancha xonadonimiz bor?",
+        "billingCycles": "Oxirgi hisob-kitob davrlarimizni sanab bering",
+        "tariff": "Hozirgi tarif rejamiz qanday?"
+      },
+      "platform": {
+        "communities": "Barcha ro'yxatdan o'tgan jamoalarni sanab o'ting",
+        "usageReport": "Platformadan foydalanish hisobotini ko'rsating",
+        "systemStatus": "Tizim holati qanday?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Siz xabarlarni juda tez yuboryapsiz - bir oz kutib turing va qayta urinib ko'ring.",
+      "unavailable": "Yordamchi vaqtincha ishlamaydi. Tez orada qayta urinib koʻring.",
+      "generic": "Bu xabarni yuborishda nimadir xato ketdi. Iltimos, qayta urinib koʻring."
+    },
+    "emptyHint": "Mendan so'rang - men faqat sizning shaxsiy ma'lumotlaringizni ko'ra olaman.",
+    "closeAssistant": "Yaqin yordamchi",
+    "openAssistant": "Yordamchini ochish",
+    "inputPlaceholder": "Xabar yozing…",
+    "inputLabel": "Xabar",
+    "send": "Yuborish"
+  },
+  "supportBoard": {
+    "defaultTitle": "Qo'llab-quvvatlash chiptalari",
+    "defaultCreateLabel": "Yangi tashvish ko'taring",
+    "status": {
+      "open": "Ochiq",
+      "inProgress": "Jarayonda",
+      "resolved": "Yechilgan",
+      "closed": "Yopiq"
+    },
+    "tabs": {
+      "all": "Barcha chiptalar"
+    },
+    "recipients": {
+      "admin": "Hamjamiyat administratori",
+      "systemAdmin": "Tizim administratori",
+      "both": "Hamjamiyat administratori + tizim administratori"
+    },
+    "roles": {
+      "resident": "Rezident",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kimga: {{recipients}}",
+    "raisedByResident": "Rezident tomonidan tarbiyalangan {{name}}",
+    "raisedByAdmin": "Administrator tomonidan koʻtarilgan {{name}}",
+    "refresh": "Yangilash",
+    "stats": {
+      "openLabel": "Taqdimotlarni oching",
+      "openHint": "Ko'rib chiqish kutilmoqda",
+      "inProgressLabel": "Jarayonda",
+      "inProgressHint": "Ishlanmoqda",
+      "resolvedLabel": "Yechilgan",
+      "resolvedHint": "Muvaffaqiyatli yopildi"
+    },
+    "searchPlaceholder": "Chiptalarni mavzu, nashr boʻyicha qidirish…",
+    "loadingTickets": "Chiptalar yuklanmoqda…",
+    "empty": {
+      "title": "Yordam chiptalari topilmadi",
+      "body": "Hozirda sizda ushbu filtrga mos keladigan ochiq yoki yozib olingan qo‘llab-quvvatlash so‘rovlari yo‘q.",
+      "cta": "Xavotirni yuborish"
+    },
+    "errors": {
+      "loadList": "Qo‘llab-quvvatlash chiptalarini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "loadDetail": "Bu chiptani yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "required": "Mavzu va xabar ham talab qilinadi.",
+      "recipientRequired": "Kamida bitta qabul qiluvchini tanlang (hamjamiyat administratori va/yoki tizim administratori).",
+      "submitFallback": "Bu chiptani yuborib bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "sendReply": "Bu xabarni yuborib bo‘lmadi. Iltimos, qayta urinib koʻring.",
+      "updateStatus": "Bu chipta holatini yangilab bo‘lmadi. Iltimos, qayta urinib koʻring."
+    },
+    "form": {
+      "defaultHint": "Muammo yoki tashvishingizni quyida tasvirlab bering.",
+      "subjectLabel": "Mavzu",
+      "subjectPlaceholder": "Muammoingizning qisqacha tavsifi",
+      "messageLabel": "Xabar",
+      "messagePlaceholder": "Nima bo'layotganini batafsil tasvirlab bering ...",
+      "recipientsLabel": "Ushbu tashvishni quyidagi manzilga yuboring",
+      "cancel": "Bekor qilish",
+      "submitting": "Yuborilmoqda…",
+      "submit": "Chipta yuborish"
+    },
+    "detail": {
+      "loading": "Chipta yuklanmoqda…",
+      "replyPlaceholder": "Javob yozing…",
+      "close": "Yopish",
+      "sending": "Yuborilmoqda…",
+      "sendReply": "Javob yuborish"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Xush kelibsiz, {{name}}",
+    "openMenu": "Menyuni oching",
+    "closeMenu": "Menyuni yopish",
+    "logout": "Chiqish",
+    "search": "Qidiruv",
+    "notifications": "Bildirishnomalar"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Boshqaruv paneli",
+      "households": "Uy xo'jaliklari katalogi",
+      "meterReadings": "Hisoblagich ko'rsatkichlari",
+      "billing": "Hisob-kitoblarni boshqarish",
+      "bulkPurchases": "Ommaviy xaridlar",
+      "reports": "Hisobotlar",
+      "waterLeakage": "Suv oqishi",
+      "support": "Qo'llab-quvvatlash / Xavotirlar",
+      "tariffPlans": "Tarif rejalari",
+      "announcements": "E'lonlar",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Bu yerda hamjamiyatingizning surati."
+      },
+      "households": {
+        "title": "Uy xo'jaliklari katalogi",
+        "subtitle": "Jamiyatingizda yashovchi aholini qo'shing, yangilang va boshqaring."
+      },
+      "meterReadings": {
+        "title": "Suv hisoblagichlarini o'qish markazi",
+        "subtitle": "Rezidentni qidiring va ularning suv hisoblagich ko'rsatkichlarini yozib oling."
+      },
+      "tariffPlans": {
+        "title": "Tarif konfiguratsiyasi",
+        "subtitle": "Kvartiralar hamjamiyatingiz uchun darajali tarif chegaralarini, umumiy umumiy xarajatlarni va taqsimlash usullarini sozlang."
+      },
+      "billing": {
+        "title": "Hisob-kitoblarni boshqarish",
+        "subtitle": "Hisob-kitob davrlarini oching, yakunlang va arxivlang va har bir xonadonga mo‘ljallangan invoyslarni ko‘rib chiqing."
+      },
+      "bulkPurchases": {
+        "title": "Ommaviy xaridlar",
+        "subtitle": "Hamjamiyatingiz uchun tanker yetkazib berish va kommunal ta'minot xaridlarini yozib oling."
+      },
+      "waterLeakage": {
+        "title": "Suv oqishi",
+        "subtitle": "Chegara va chegaraviy qiymatlarga asoslangan oqish ogohlantirishlarini sozlang va belgilangan uy xo‘jaliklarini ko‘rib chiqing."
+      },
+      "support": {
+        "title": "Qo'llab-quvvatlash / Xavotirlar",
+        "subtitle": "Tizim ma'muriga o'z chiptalaringizni taqdim eting yoki fuqarolaringiz sizga murojaat qilgan muammolarni hal qiling."
+      },
+      "profile": {
+        "title": "Sozlamalar va profil",
+        "subtitle": "Hisob ma'lumotlarini va kvartira ma'lumotlarini boshqaring."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Hamjamiyat administratori",
+    "notBuilt": "{{label}} hali qurilmagan",
+    "searchPlaceholder": "Har qanday narsani qidiring…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Hisobotlar",
+      "description": "Jamiyatingiz uchun iste'mol, hisob-kitob va saqlash hisobotlari."
+    },
+    "announcements": {
+      "title": "E'lonlar",
+      "description": "Aholiga hamjamiyat miqyosida e'lonlar yuboring."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} tez orada chiqadi"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Boshqaruv paneli",
+      "usageHistory": "Foydalanish tarixi",
+      "bills": "Mening hisoblarim",
+      "recommendations": "Tavsiyalar",
+      "reports": "Hisobotlar",
+      "support": "Qo'llab-quvvatlash / Xavotirlar",
+      "notifications": "Bildirishnomalar",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Foydalanish tarixingiz",
+      "billing": "Billing & Invoys",
+      "notifications": "Bildirishnomalar",
+      "recommendations": "Tavsiyalar",
+      "support": "Qo'llab-quvvatlash / Xavotirlar"
+    },
+    "defaultTitle": "Rezident boshqaruv paneli",
+    "navLabel": "Rezident navigatsiyasi",
+    "fallbackName": "Rezident",
+    "unit": "Birlik {{number}}",
+    "comingSoon": "{{label}} tez orada chiqadi",
+    "profile": "Profil",
+    "searchPlaceholder": "Qidiruv tahlillari, hisob-kitoblar…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Boshqaruv paneli",
+      "communities": "Jamiyatlar",
+      "reports": "Hisobotlar",
+      "supportTickets": "Qo'llab-quvvatlash chiptalari",
+      "systemStatus": "Tizim holati"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Har bir roʻyxatdan oʻtgan hamjamiyat boʻylab keng platformali surat."
+      },
+      "communities": {
+        "title": "Jamiyatlar",
+        "subtitle": "Har bir roʻyxatdan oʻtgan hamjamiyat administratori va ularning hamjamiyati, bir joyda."
+      },
+      "reports": {
+        "title": "Hisobotlar",
+        "subtitle": "Platforma bo'ylab suvdan foydalanish va hisob-kitob raqamlari, jamiyat va vaqt bo'yicha."
+      },
+      "supportTickets": {
+        "title": "Qo'llab-quvvatlash chiptalari",
+        "subtitle": "Platforma bo'ylab aholi va hamjamiyat ma'murlari tomonidan bildirilgan chiptalar va tashvishlarni qo'llab-quvvatlash."
+      },
+      "systemStatus": {
+        "title": "Tizim holati",
+        "subtitle": "Backend ulanishi va asosiy ish vaqti salomatligi."
+      }
+    },
+    "fallbackName": "Tizim administratori",
+    "platformOwner": "Platforma egasi",
+    "searchPlaceholder": "Jamiyatlarni qidirish…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Til: {{language}}",
+    "searchPlaceholder": "Til qidirish…",
+    "noMatches": "Mos kelmaydi"
+  }
+}

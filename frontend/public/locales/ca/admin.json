@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "S'està carregant…",
+    "saving": "S'està desant…",
+    "saved": "Desat.",
+    "uploading": "S'està carregant…",
+    "upload": "Carrega",
+    "uploadError": "No s'ha pogut carregar aquest fitxer. Si us plau, torna-ho a provar.",
+    "cancel": "Cancel·la",
+    "close": "Tancar",
+    "edit": "Edita",
+    "remove": "Eliminar",
+    "saveChanges": "Desa els canvis",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Fila {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Es mostren {{from}}–{{to}} de {{total}}",
+    "prev": "← Anterior",
+    "next": "Següent →",
+    "page": "Pàgina {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "No s'han pogut carregar les dades de la comunitat en aquest moment.",
+    "title": "{{community}} Tauler de control de l'apartament",
+    "titleFallback": "Tauler del vostre apartament",
+    "subtitle": "Resum operatiu per a la submesura de l'aigua i el consum de les llars.",
+    "comingSoon": "Aviat",
+    "manageCommunity": "Gestionar la comunitat",
+    "noUsageReadings": "Encara no s'ha registrat cap lectura d'ús.",
+    "cards": {
+      "totalHouseholds": "Total Llars",
+      "occupied": "Ocupat",
+      "activeMeters": "Comptadors actius",
+      "reportingReadings": "Informe de lectures",
+      "monthlyConsumption": "Consum mensual",
+      "thisCalendarMonth": "Aquest mes natural",
+      "latestRecordedMonth": "Últim mes registrat ({{month}})",
+      "noReadingsYet": "Encara no s'han registrat lectures",
+      "pendingAlerts": "Alertes pendents",
+      "anomalyPreview": "Vista prèvia de detecció d'anomalies, encara no disponible"
+    },
+    "actions": {
+      "label": "Accions administratives ràpides",
+      "uploadReadings": "Carregueu les lectures del comptador",
+      "configureTariffs": "Configura les tarifes",
+      "reportsNotBuilt": "Els informes encara no s'han creat",
+      "downloadReports": "Baixeu els informes del sistema"
+    },
+    "chart": {
+      "title": "Comparació de consum mensual (kL)",
+      "subtitle": "Darrers {{months}} mesos: consum objectiu versus consum real.",
+      "targetSeries": "Objectiu (visualització prèvia)",
+      "actualSeries": "Real"
+    },
+    "recent": {
+      "title": "Lectures de comptadors recents",
+      "unit": "Unitat",
+      "resident": "Resident",
+      "lastReading": "Última lectura",
+      "consumption": "Consum"
+    }
+  },
+  "households": {
+    "loadError": "No s'han pogut carregar els residents. Si us plau, torna-ho a provar.",
+    "fixFields": "Corregiu els camps destacats.",
+    "saveError": "No s'ha pogut salvar aquest resident. Si us plau, comproveu els detalls.",
+    "confirmRemove": "Vols suprimir {{name}} del directori de les teves llars?",
+    "removeError": "No s'ha pogut eliminar aquest resident. Si us plau, torna-ho a provar.",
+    "count": "Llars: {{total}}",
+    "bulkUploadButton": "⇪ Pujada massiva",
+    "addResidentButton": "+ Afegeix un resident",
+    "searchPlaceholder": "Filtreu per nom, casa, correu electrònic o número de comptador.",
+    "loading": "Carregant residents...",
+    "empty": "Encara no hi ha residents. Feu clic a \"Afegeix resident\" per registrar la primera llar.",
+    "noMatch": "Cap resident coincideix amb \"{{search}}\".",
+    "sort": {
+      "label": "Ordena per",
+      "name": "Nom",
+      "houseNumber": "Número de casa",
+      "dateOfJoining": "Data d'incorporació",
+      "toggleDirection": "Canvia la direcció d'ordenació",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Mascle",
+      "female": "Dona",
+      "other": "Altres"
+    },
+    "table": {
+      "name": "Nom",
+      "houseUnit": "Casa / Unitat",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "meterNumber": "Comptador núm.",
+      "sqft": "peus quadrats",
+      "joined": "S'ha unit"
+    },
+    "form": {
+      "addTitle": "Afegeix un resident",
+      "editTitle": "Edita resident",
+      "editSubtitle": "Això actualitza les dades del resident al vostre directori.",
+      "bypassSubtitle": "Estàs configurant la contrasenya d'aquest resident directament. No s'enviarà cap correu electrònic.",
+      "addSubtitle": "S'enviarà un enllaç amb una contrasenya establerta a aquest resident perquè pugui activar el seu propi inici de sessió.",
+      "fullName": "Nom complet",
+      "houseNumber": "Casa / unitat núm.",
+      "email": "Correu electrònic",
+      "phone": "Número de telèfon",
+      "meterNumber": "Número de comptador",
+      "governmentId": "Identificació del govern",
+      "gender": "Gènere",
+      "dateOfBirth": "Data de naixement",
+      "dateOfJoining": "Data d'incorporació",
+      "flatSize": "Mida plana (pies quadrats)",
+      "bypassLabel": "Omet el correu electrònic de configuració de la contrasenya: configureu ara una contrasenya per a aquest resident",
+      "password": "Contrasenya",
+      "confirmPassword": "Confirmeu la contrasenya"
+    },
+    "validation": {
+      "fullNameRequired": "El nom complet és obligatori.",
+      "emailRequired": "El correu electrònic és obligatori.",
+      "phoneRequired": "El número de telèfon és obligatori.",
+      "houseNumberRequired": "Es requereix el número de casa/unitat.",
+      "houseNumberTaken": "Aquest número de casa ja està assignat a un altre resident.",
+      "meterNumberRequired": "El número de comptador és obligatori.",
+      "meterNumberFormat": "El número del comptador ha de semblar a MTR-1234 (4 dígits).",
+      "meterNumberTaken": "Aquest número de comptador ja està assignat a un altre resident.",
+      "governmentIdRequired": "Cal un document d'identitat governamental.",
+      "governmentIdFormat": "L'identificador ha de tenir 6 dígits que comencin per 99 (p. ex., 991234).",
+      "genderRequired": "Seleccioneu un gènere.",
+      "dateOfBirthRequired": "La data de naixement és obligatòria.",
+      "dateOfJoiningRequired": "La data d'incorporació és necessària.",
+      "passwordRequired": "La contrasenya és necessària.",
+      "passwordLength": "La contrasenya ha de tenir com a mínim 8 caràcters.",
+      "confirmPasswordRequired": "Si us plau, confirmeu la contrasenya.",
+      "passwordMismatch": "Les contrasenyes no coincideixen."
+    },
+    "bulk": {
+      "title": "Pujada massiva de residents",
+      "noFile": "Trieu un fitxer .csv o .xlsx/.xls per penjar.",
+      "instructions": "Pengeu un fitxer .csv o .xlsx/.xls amb columnes <code>{{columns}}</code> (la contrasenya i flatSizeSqft són opcionals). Les files amb una contrasenya la configuren directament; les files sense cap reben un correu electrònic de contrasenya establerta, igual que afegir un resident manualment. Els números o correus electrònics duplicats de casa/metre es rebutgen per fila; una fila incorrecta no fallarà tot el lot."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "No s'han pogut carregar els residents. Si us plau, torna-ho a provar.",
+    "historyLoadError": "No s'ha pogut carregar l'historial de lectura. Si us plau, torna-ho a provar.",
+    "successMessage": "Lectura registrada correctament de {{value}} kL per a {{house}} (Medidor: {{meter}})! Consum calculat: {{consumption}} kL.",
+    "tabs": {
+      "single": "Entrada única",
+      "csv": "Pujada massiva CSV",
+      "history": "Lectura d'Història"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Aquest resident no té cap número de comptador registrat.",
+      "dateRequired": "La data de lectura és obligatòria.",
+      "invalidValue": "Introduïu un valor de lectura vàlid i no negatiu.",
+      "duplicate": "En aquesta data ja existeix una lectura d'aquest comptador.",
+      "meterNotFound": "No s'ha pogut trobar aquest mesurador. Torneu a seleccionar el resident.",
+      "lowerThanPrevious": "Aquesta lectura és inferior a la lectura registrada anteriorment.",
+      "recordFailed": "No s'ha pogut gravar aquesta lectura. Si us plau, torna-ho a provar."
+    },
+    "combo": {
+      "label": "Seleccioneu Flat & Meter Serial",
+      "placeholder": "Seleccioneu Serial plana i comptador...",
+      "flat": "Pis {{house}}",
+      "noMeter": "Sense comptador",
+      "searchPlaceholder": "Cerca pis no, comptador de sèrie, resident...",
+      "unitsHeader": "Unitats Residencials",
+      "found": "Pisos trobats: {{total}}",
+      "loading": "Carregant residents...",
+      "noMatch": "Cap resident coincideix amb \"{{search}}\".",
+      "unassigned": "Sense assignar",
+      "itemMeta": "{{name}} · Últim: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Enregistrament d'una lectura per",
+      "context": "Casa {{house}} · Metro {{meter}}",
+      "changeResident": "Canviar de resident",
+      "readingDate": "Data de lectura",
+      "readingValue": "Lectura actual del comptador (kL)",
+      "submit": "Envia una lectura validada",
+      "recentTitle": "Lectures recents",
+      "recentEmpty": "Encara no s'han registrat lectures per a aquest mesurador."
+    },
+    "info": {
+      "title": "Validació monotònica del comptador",
+      "body": "Cada lectura nova ha de ser superior o igual al registre anterior d'aquest comptador; això fa que els càlculs de consum siguin precisos i capta els dígits transposats abans."
+    },
+    "details": {
+      "title": "Detalls de la unitat seleccionada",
+      "flatUnit": "Unitat plana",
+      "meterSerial": "Mesurador de sèrie",
+      "occupant": "Nom de l'ocupant",
+      "lastDial": "Darrer marcatge gravat",
+      "noReadings": "Encara no hi ha lectures",
+      "monthConsumption": "Mes de consum",
+      "empty": "No s'ha seleccionat cap llar. Cerqueu i trieu un resident per veure els detalls del seu comptador aquí."
+    },
+    "csv": {
+      "noFile": "Si us plau, trieu un fitxer CSV per carregar.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Carregant lectures...",
+      "empty": "Encara no s'ha registrat cap lectura per a la teva comunitat."
+    },
+    "table": {
+      "meterNumber": "Comptador núm.",
+      "date": "Data",
+      "value": "Valor (kL)",
+      "consumption": "Consum (kL)",
+      "source": "Font"
+    }
+  },
+  "billingCycles": {
+    "title": "Cicles de facturació",
+    "loadError": "No s'han pogut carregar els cicles de facturació. Si us plau, torna-ho a provar.",
+    "paymentUpdateError": "No s'ha pogut actualitzar l'estat de pagament d'aquesta factura.",
+    "pdfError": "No s'ha pogut baixar el PDF. Si us plau, torna-ho a provar.",
+    "finalizeError": "No s'ha pogut finalitzar aquest cicle de facturació.",
+    "archiveError": "No s'ha pogut arxivar aquest cicle de facturació.",
+    "loading": "S'estan carregant els cicles de facturació...",
+    "empty": "Encara no hi ha cicles de facturació. Obriu-ne un a dalt per començar.",
+    "status": {
+      "open": "Obert",
+      "finalized": "Finalitzat",
+      "archived": "Arxivat"
+    },
+    "open": {
+      "title": "Obriu un nou cicle de facturació",
+      "noMonth": "Si us plau, trieu un mes per obrir.",
+      "error": "No s'ha pogut obrir un cicle de facturació per a aquest mes.",
+      "monthAria": "Període de facturació mes",
+      "opening": "Obertura…",
+      "submit": "Cicle Obert"
+    },
+    "table": {
+      "period": "Període",
+      "status": "Estat",
+      "householdsBilled": "Les llars facturades",
+      "totalBilled": "Total facturat",
+      "actions": "Accions"
+    },
+    "actions": {
+      "finalize": "Finalitzar",
+      "finalizing": "S'està finalitzant…",
+      "archive": "Arxiu",
+      "archiving": "S'està arxivant..."
+    },
+    "filter": {
+      "aria": "Filtra per estat de pagament",
+      "all": "Tots"
+    },
+    "payment": {
+      "paid": "Pagat",
+      "unpaid": "Sense pagar",
+      "updating": "S'està actualitzant…",
+      "markPaid": "Marca com a pagat",
+      "markUnpaid": "Marca com a no pagat"
+    },
+    "detail": {
+      "title": "Detall del cicle — {{period}}",
+      "loading": "S'estan carregant les factures...",
+      "notFinalized": "Aquest cicle encara no s'ha finalitzat: no s'han generat factures.",
+      "noInvoices": "No hi ha factures per aquest cicle.",
+      "noMatch": "No hi ha cap factura que coincideixi amb aquest filtre."
+    },
+    "invoices": {
+      "household": "llar",
+      "resident": "Resident",
+      "meterNumber": "Comptador núm.",
+      "consumption": "Consum (kL)",
+      "tierBreakdown": "Desglossament de nivells",
+      "commonArea": "Àrea Comú",
+      "total": "Total",
+      "paymentStatus": "Estat de pagament",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivell {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "No s'ha pogut carregar la configuració de la tarifa",
+    "saveError": "No s'ha pogut desar la configuració de la tarifa",
+    "chartTitle": "Nivells actius de tarifa de serveis públics mesurats",
+    "axisNote": "Tarifa en ₹/kL, límits de llosa en kL",
+    "tableTitle": "Taula de nivells de preus",
+    "defaultRatesNote": "Es mostren les tarifes predeterminades; encara no s'han desat.",
+    "addTier": "+ Afegeix un nivell",
+    "saveRates": "Estalviï les tarifes",
+    "tierLevel": {
+      "base": "Nivell {{tier}} (base)",
+      "medium": "Nivell {{tier}} (mitjà)",
+      "heavy": "Nivell {{tier}} (pesat)"
+    },
+    "basePrice": {
+      "label": "Preu base (₹/kL, aplicat a TOT el consum)",
+      "note": "Cada kL es cobra primer aquesta tarifa plana. Les lloses següents afegeixen càrrecs EXTRA només per a l'ús que es troba dins del seu rang, p. una llosa que comença a 50 kL només afegeix la seva tarifa per a un consum superior a 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivell de nivell",
+      "slabLimit": "Límit de llosa (kL)",
+      "rate": "Tarifa per kL",
+      "action": "Acció"
+    },
+    "commonArea": {
+      "title": "Configuració de costos d'àrea comuna compartida",
+      "loadError": "No s'ha pogut carregar la configuració del cost de l'àrea comuna",
+      "saveError": "No s'ha pogut desar la configuració del cost de l'àrea comuna",
+      "empty": "Encara no s'ha guardat cap article de cost.",
+      "labelPlaceholder": "Etiqueta de l'article de cost",
+      "perMonth": "/mes",
+      "active": "Actius",
+      "addItem": "+ Afegeix un article de cost",
+      "save": "Desa la configuració de l'àrea comuna"
+    },
+    "distribution": {
+      "title": "Selector de mètodes de distribució de costos",
+      "consumption": "Per consum (proporcional submesurat)",
+      "floorArea": "Per mida de l'apartament (pies quadrats)"
+    },
+    "footer": {
+      "cycleStart": "Data d'inici de facturació del cicle",
+      "cycleStartValue": "1r de cada mes",
+      "autoInvoices": "Genera automàticament PDF factures"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Llindar superat",
+      "statisticalOutlier": "Valor atípic estadístic"
+    },
+    "status": {
+      "active": "Actius",
+      "resolved": "Solucionat",
+      "dismissed": "Descartat"
+    },
+    "config": {
+      "title": "Configuració de detecció de fuites",
+      "subtitle": "Estableix un llindar de consum mensual i/o activa la detecció estadística de valors atípics (marca una llar el consum mensual de la qual és inusualment alt en comparació amb el seu propi historial).",
+      "loadError": "No s'ha pogut carregar la configuració d'alerta. Si us plau, torna-ho a provar.",
+      "thresholdRequired": "Es requereix un llindar mensual (kL) quan les alertes de llindar estan habilitades.",
+      "saveError": "No s'ha pogut desar aquesta configuració.",
+      "loading": "S'està carregant la configuració...",
+      "threshold": "Llindar mensual (kL)",
+      "sensitivity": "Sensibilitat atípica (multiplicador σ)",
+      "enableThreshold": "Activa les alertes de llindar",
+      "enableOutlier": "Activa les alertes estadístiques atípiques",
+      "save": "Desa la configuració",
+      "running": "Córrer…",
+      "runNow": "Executeu la detecció ara"
+    },
+    "alerts": {
+      "title": "Llars marcades",
+      "loadError": "No s'han pogut carregar les alertes. Si us plau, torna-ho a provar.",
+      "runError": "No s'ha pogut executar la detecció de fuites ara mateix. Si us plau, torna-ho a provar.",
+      "updateError": "No s'ha pogut actualitzar aquesta alerta. Si us plau, torna-ho a provar.",
+      "allStatuses": "Tots els estats",
+      "loading": "S'estan carregant les alertes...",
+      "empty": "No hi ha alertes per mostrar. Configureu un llindar o activeu la detecció de valors atípics a dalt i feu clic a \"Executar la detecció ara\" per avaluar l'ús actual de la vostra comunitat.",
+      "resolve": "Resol",
+      "dismiss": "Descartar"
+    },
+    "table": {
+      "household": "llar",
+      "resident": "Resident",
+      "meter": "Mesurador",
+      "type": "Tipus",
+      "period": "Període",
+      "consumption": "Consum",
+      "reference": "Referència",
+      "status": "Estat"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "No s'han pogut carregar les compres d'aigua a granel. Si us plau, torna-ho a provar.",
+    "confirmRemove": "Eliminar el lliurament {{source}} el {{date}}?",
+    "removeError": "No s'ha pogut eliminar aquesta compra. Si us plau, torna-ho a provar.",
+    "count": "Compres registrades: {{total}}",
+    "recordButton": "+ Registre de compra",
+    "loading": "S'estan carregant compres d'aigua a granel...",
+    "empty": "Encara no s'han registrat compres d'aigua a granel. Feu clic a \"Registra la compra\" per registrar un lliurament d'un camió cisterna o una compra de subministrament municipal.",
+    "table": {
+      "date": "Data",
+      "source": "Font",
+      "volume": "Volum (L)",
+      "unitCost": "Cost unitari",
+      "totalCost": "Cost total",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Registra la compra d'aigua a granel",
+      "editTitle": "Edita la compra d'aigua a granel",
+      "subtitle": "Feu un seguiment d'un lliurament d'un camió cisterna o d'una compra de subministraments municipals per a la vostra comunitat; això només es registra per a la visibilitat dels costos i no afecta les factures domèstiques.",
+      "requiredFields": "Si us plau, empleneu la data, la font, el volum i el cost unitari.",
+      "saveError": "No s'ha pogut desar aquesta compra. Si us plau, comproveu els detalls.",
+      "purchaseDate": "Data de compra",
+      "source": "Font/proveïdor",
+      "volume": "Volum (litres)",
+      "unitCost": "Cost unitari (₹/litre)",
+      "totalPreview": "Cost total: {{amount}}",
+      "notes": "Notes (opcional)",
+      "submit": "Registre de compra"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} encara no està construït",
+    "profileSaveError": "No s'ha pogut desar el teu perfil. Si us plau, torna-ho a provar.",
+    "apartmentSaveError": "No s'han pogut desar els detalls de l'apartament. Si us plau, torna-ho a provar.",
+    "specsTitle": "Especificacions del perfil",
+    "photoUnavailable": "La càrrega de fotos encara no està disponible",
+    "changePhoto": "Canvia foto",
+    "deletePhoto": "Suprimeix",
+    "photoHint": "JPG o PNG. Mida màxima 2 MB.",
+    "saveProfile": "Desa el perfil",
+    "apartmentTitle": "Detalls de l'apartament",
+    "saveApartment": "Desa els detalls de l'apartament",
+    "tabs": {
+      "profile": "Configuració del perfil",
+      "apartment": "Perfil de l'apartament",
+      "notifications": "Normes de notificació",
+      "billing": "Integracions de facturació",
+      "security": "Seguretat i accés"
+    },
+    "fields": {
+      "fullName": "Nom complet",
+      "email": "Adreça de correu electrònic",
+      "emailLocked": "El correu electrònic no es pot canviar aquí",
+      "phone": "Número de telèfon",
+      "accessLevel": "Nivell d'accés",
+      "accessLevelValue": "Administrador de la comunitat",
+      "roleLocked": "La gestió de rols encara no està disponible",
+      "apartmentName": "Nom de l'apartament",
+      "mainsSource": "Font de xarxa",
+      "mainsSourcePlaceholder": "p. ex. Subministrament Municipal + Cisterna Suplementària",
+      "address": "Adreça física"
+    },
+    "security": {
+      "title": "Previsualització de seguretat i accés",
+      "twoFactor": "Autenticació de dos factors",
+      "twoFactorHint": "Habilitat en iniciar sessió",
+      "twoFactorUnavailable": "L'autenticació de dos factors encara no està disponible",
+      "twoFactorAria": "Autenticació de dos factors (només vista prèvia)",
+      "sessionsLabel": "Sessions d'administració actives",
+      "sessionsEmpty": "El seguiment de la sessió encara no està disponible; aquesta és una vista prèvia del proper disseny."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Les meves entrades",
+      "inbox": "Bitllets de residents"
+    },
+    "mine": {
+      "title": "Les meves entrades de suport",
+      "subtitle": "Feu una pregunta o preocupació sobre la vostra comunitat a l'administrador del sistema.",
+      "emptyCreateHint": "Planteja una pregunta o preocupació sobre la teva comunitat. Un administrador del sistema revisarà i respondrà aquí."
+    },
+    "inbox": {
+      "title": "Bitllets de residents",
+      "subtitle": "Els bitllets de suport i les preocupacions que els residents de la vostra comunitat us han adreçat."
+    }
+  }
+}

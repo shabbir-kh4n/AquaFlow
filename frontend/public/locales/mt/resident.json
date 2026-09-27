@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Dalwaqt",
+    "welcome": {
+      "greeting": "Hello {{name}},",
+      "greetingFallback": "Hello hemm,",
+      "title": "Oqgħod qrib l-istorja tal-ilma tad-dar tiegħek.",
+      "subtitle": "L-għarfien dwar l-użu u l-kontijiet se jidhru hawn bħala qari tar-rekords tal-komunità tiegħek.",
+      "viewBadges": "Ara l-Eko-Badges"
+    },
+    "stats": {
+      "todaysUsage": "L-Użu tal-lum",
+      "asOf": "Minn {{date}}",
+      "noReading": "Għadu l-ebda qari tal-meter",
+      "monthlyTotalFor": "Total fix-xahar ({{month}})",
+      "monthlyTotalThisMonth": "Total fix-xahar (dan ix-xahar)",
+      "sumOfReadings": "Somma tal-qari reġistrat",
+      "estimatedBill": "Abbozz ta' Liġi Stima kurrenti",
+      "estimatedBillFor": "Użu bil-kejl + ħlasijiet kondiviżi, {{month}}",
+      "estimatedBillHint": "Ibbażat fuq il-konsum imkejjel ta’ dan ix-xahar u ħlasijiet kondiviżi",
+      "savings": "Tfaddil vs Bini Avg",
+      "savingsValue": "{{percent}}% Inqas",
+      "savingsPreview": "Preview biss — paragun għadu mhux ħaj"
+    },
+    "consumption": {
+      "eyebrow": "Konsum",
+      "title": "Konsum ta' Kuljum (L-aħħar 14-il Qari)",
+      "seriesName": "Konsum",
+      "empty": "Għadu ma ġiex irreġistrat qari."
+    },
+    "breakdown": {
+      "eyebrow": "Tkissir",
+      "title": "Tqassim ta 'Użu",
+      "bathroom": "Kamra tal-banju",
+      "kitchen": "Kċina",
+      "garden": "Ġnien / Gallarija",
+      "other": "Oħrajn / Laundry"
+    },
+    "billing": {
+      "eyebrow": "Kontijiet",
+      "title": "Ċiklu ta' Billing Attiv",
+      "finalized": "Finalizzat",
+      "preview": "Preview",
+      "meteredConsumption": "Konsum imkejjel",
+      "tierPriceLevel": "Livell tal-prezz tal-livell",
+      "tierLabel": "Saff {{tier}}",
+      "commonArea": "Tqassim taż-żona komuni",
+      "commonAreaPreview": "Tqassim taż-żona komuni (previżjoni)",
+      "invoiceTotal": "{{period}} fattura totali",
+      "estimatedCharge": "Tariffa stmata kurrenti",
+      "commonAreaBreakdown": "Tkissir taż-żona komuni",
+      "payPreview": "Previżjoni tal-Paga tal-Bill",
+      "payUnavailable": "Il-magna tal-kontijiet għadha mhix disponibbli"
+    },
+    "tips": {
+      "eyebrow": "Għajnuniet",
+      "title": "Għajnuniet għall-iffrankar intelliġenti",
+      "viewAll": "Ara kollha",
+      "empty": "Pariri personalizzati jidhru hawn wara li l-komunità tiegħek tiffinalizza ċiklu ta' kontijiet."
+    },
+    "community": "Komunità: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ma setgħetx tagħbija l-istorja tal-użu tiegħek. Jekk jogħġbok erġa' pprova.",
+    "loading": "Qiegħed ittella' l-analiżi tal-użu tiegħek...",
+    "empty": "Għadu ma ġiex irreġistrat qari. Ladarba l-komunità tiegħek tirreġistra qari tal-meter, dan jidher hawn.",
+    "tabs": {
+      "lastSixMonths": "L-aħħar 6 Xhur",
+      "customRange": "Medda tad-dwana",
+      "comingSoon": "Dalwaqt"
+    },
+    "peakDay": "Jum l-Oċċess:",
+    "lowestDay": "L-inqas Jum:",
+    "comparison": {
+      "title": "Konsum tad-dar vs Appartament Medja",
+      "subtitle": "Totali ta' kull xahar murija f'kilolitri (kL).",
+      "yourHousehold": "Id-dar tiegħek",
+      "apartmentAverage": "Appartament Medja",
+      "similarSized": "Djar ta' Daqs Simili"
+    },
+    "heatmap": {
+      "title": "Mappa tas-Sħana tal-Konsum ta 'Kuljum",
+      "subtitle": "L-intensità tal-kulur tindika ġranet ta' użu qawwi (previżjoni)."
+    },
+    "ranking": {
+      "title": "Ranking tal-Peer tal-Komunità",
+      "subtitle": "Il-grad tiegħek meta mqabbel ma' unitajiet simili (previżjoni).",
+      "ecoSaver": "Eco Saver Attiv",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unità {{number}}",
+      "yourUnit": "L-unità tiegħek",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Inti)"
+    }
+  },
+  "billing": {
+    "loadError": "Ma setgħetx tagħbija l-istorja tal-kontijiet tiegħek. Jekk jogħġbok erġa' pprova.",
+    "pdfError": "Ma setgħetx tniżżel il-PDF. Jekk jogħġbok erġa' pprova.",
+    "loading": "Qiegħed ittella' l-istorja tal-kontijiet tiegħek...",
+    "empty": "S'issa l-ebda fattura — ladarba l-komunità tiegħek tiffinalizza ċiklu ta' kontijiet, il-kontijiet tiegħek se jidhru hawn.",
+    "status": {
+      "paid": "Imħallas",
+      "unpaid": "Mhux imħallas"
+    },
+    "summary": {
+      "outstandingBalance": "Bilanċ Pendenti",
+      "billingCycle": "Ċiklu ta' Billing: {{period}}",
+      "allPaid": "Il-fatturi kollha jitħallsu",
+      "payTotal": "Ħlas Total Pendenti",
+      "payTotalUnavailable": "Il-ħlas onlajn għadu mhux disponibbli — salda l-kontijiet direttament mal-amministratur tal-komunità tiegħek",
+      "downloadSummary": "Niżżel is-Sommarju tal-Abbozz",
+      "downloadSummaryUnavailable": "It-tniżżil tas-sommarju tal-kont għadu mhux disponibbli"
+    },
+    "history": {
+      "title": "Storja tal-Fattura",
+      "exportCsv": "Esporta Kollha għal CSV",
+      "exportUnavailable": "CSV esportazzjoni għadha mhix disponibbli"
+    },
+    "table": {
+      "cycle": "Ċiklu",
+      "usage": "Użu (kL)",
+      "amountDue": "Ammont dovut",
+      "paymentStatus": "Status tal-Ħlas",
+      "hideBreakdown": "Aħbi Tqassim ↑",
+      "showBreakdown": "Tqassim dettaljat ↓",
+      "downloading": "Niżżel...",
+      "pdf": "PDF",
+      "pay": "Ħlas"
+    },
+    "breakdown": {
+      "householdTitle": "Tqassim tal-Konsum domestiku",
+      "basePrice": "Prezz Bażi: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Livell {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal tal-Użu Mkejjel",
+      "commonAreaTitle": "Tqassim taż-Żona Komuni",
+      "subtotalShared": "Subtotal Żona Kondiviża",
+      "noCommonArea": "L-ebda ħlas ta' żona komuni kondiviża għal dan iċ-ċiklu."
+    },
+    "pagination": {
+      "showing": "Li juru {{from}}–{{to}} minn {{total}}",
+      "prev": "← Prev",
+      "next": "Li jmiss →",
+      "page": "Paġna {{page}} minn {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Metodi ta' ħlas (previżjoni)",
+      "description": "Il-ħlas onlajn għadu mhux disponibbli — il-kontijiet jitħallsu direttament mal-amministratur tal-komunità tiegħek.",
+      "manage": "Immaniġġja Metodi ta 'Ħlas",
+      "manageUnavailable": "Il-metodi ta' ħlas għadhom mhumiex disponibbli"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Sikura minn Razorpay",
+    "billingCycle": "Ċiklu ta' Billing {{period}}",
+    "close": "Agħlaq",
+    "amountPayable": "Ammont Pagabbli",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Karti",
+      "netbanking": "Netbanking",
+      "wallet": "Kartiera"
+    },
+    "upi": {
+      "title": "Ħlas permezz ta' UPI",
+      "upiId": "UPI ID",
+      "or": "JEW",
+      "scan": "Skennja bi kwalunkwe UPI app"
+    },
+    "card": {
+      "title": "Ħlas permezz tal-Kard",
+      "number": "Numru tal-Kard",
+      "expiry": "Skadenza",
+      "expiryPlaceholder": "XX / SS",
+      "cvv": "CVV",
+      "name": "Isem fuq il-Kard",
+      "namePlaceholder": "Kif stampat fuq il-karta"
+    },
+    "netbanking": {
+      "title": "Ħlas permezz ta' Netbanking"
+    },
+    "wallet": {
+      "title": "Ħlas permezz tal-Kartiera"
+    },
+    "payAmount": "Ħlas ₹{{amount}}",
+    "processing": "Ipproċessa l-ħlas tiegħek...",
+    "processingHint": "Jekk jogħġbok tagħfasx lura jew taġġornax din il-paġna",
+    "success": "Ħlas b'suċċess",
+    "error": "Xi ħaġa marret ħażin meta tikkonferma l-ħlas tiegħek. Jekk jogħġbok erġa' pprova.",
+    "retry": "Erġa' pprova"
+  },
+  "notifications": {
+    "loadError": "Ma setgħetx tagħbija n-notifiki tiegħek. Jekk jogħġbok erġa' pprova.",
+    "loading": "Qiegħed ittella' n-notifiki tiegħek...",
+    "empty": "Għadu l-ebda notifika — se tara xi ħaġa hawn jekk l-amministratur tal-komunità tiegħek ippermetta twissijiet ta' limitu ta' użu jew ta' konsum mhux tas-soltu u tiġi attivata waħda għad-dar tiegħek.",
+    "type": {
+      "thresholdExceeded": "Limitu tal-Konsum Inqabeż",
+      "statisticalOutlier": "Konsum Mhux tas-soltu Individwat"
+    },
+    "status": {
+      "active": "Attiva",
+      "resolved": "Solvuti",
+      "dismissed": "Miċħud"
+    },
+    "billingPeriod": "Perjodu tal-kontijiet: {{period}}",
+    "consumption": "Konsum: {{value}} kL",
+    "push": {
+      "title": "Notifiki push",
+      "description": "Ikseb notifikat fuq dan l-apparat meta tidħol kont jew twissija ġdida.",
+      "enable": "Attiva",
+      "disable": "Itfi",
+      "permissionDenied": "Il-permess għan-notifika ma ngħatax.",
+      "notConfigured": "Notifiki push għadhom mhumiex konfigurati. Ikkuntattja lill-amministratur tiegħek.",
+      "enableError": "Ma setgħetx tippermetti notifiki push. Jekk jogħġbok erġa' pprova.",
+      "disableError": "Ma setgħetx tiddiżattiva notifiki push. Jekk jogħġbok erġa' pprova."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ma setgħetx tagħbija r-rakkomandazzjonijiet tiegħek. Jekk jogħġbok erġa' pprova.",
+    "loading": "Qiegħed ittella' l-pariri personalizzati tiegħek...",
+    "generated": "Ġġenerat {{date}}",
+    "generatedForPeriod": "Ġenerat {{date}} għall-perjodu tal-kontijiet {{period}}",
+    "eyebrow": "Personalizzat għalik",
+    "title": "Għajnuniet intelliġenti dwar l-iffrankar tal-ilma",
+    "empty": "S'issa ma ġewx iġġenerati pariri — dawn jiġu aggornati awtomatikament kull darba li l-komunità tiegħek tiffinalizza ċiklu ta' kontijiet għad-dar tiegħek."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Ibgħat rapporti ta' tnixxija tal-ilma, talbiet għall-kalibrazzjoni tal-meter, jew mistoqsijiet dwar il-kontijiet direttament lill-amministratur tal-komunità tiegħek u/jew lill-Amministratur tas-Sistema.",
+    "emptyCreateHint": "Iddeskrivi l-kwistjoni jew it-tħassib tiegħek hawn taħt, u agħżel min għandu jieħu ħsiebha."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Işjeň",
+    "blocked": "Bloklandy",
+    "terminated": "Inatedatyryldy"
+  },
+  "sort": {
+    "sortBy": "Tertipleşdir",
+    "toggleDirection": "Sort ugruny üýtgediň",
+    "asc": "↑ Asc",
+    "desc": "↓ Des"
+  },
+  "pagination": {
+    "showing": "{{from}} - {{total}} -iň {{to}} görkezilmegi",
+    "prev": "← Öňki",
+    "next": "Indiki →",
+    "page": "{{pageCount}} sahypasy {{page}}"
+  },
+  "dashboard": {
+    "title": "Platforma syn",
+    "subtitle": "[Hli HydroLedger platformasynda hasaba alnan her bir jemgyýet dolandyryjysy.",
+    "viewAll": "Allhli jemgyýetleri görmek",
+    "loadError": "Häzirki wagtda platforma maglumatlaryny ýükläp bolmady.",
+    "cards": {
+      "totalCommunities": "Jemi jemgyýetler",
+      "registeredAdmins": "Bellige alnan adminler",
+      "totalResidents": "Jemi ýaşaýjylar",
+      "acrossAllCommunities": "Communitieshli jemgyýetlerde",
+      "active": "Işjeň",
+      "inGoodStanding": "Gowy ýagdaýda",
+      "blockedTerminated": "Bloklanan / ýatyrylan",
+      "blockedTerminatedBreakdown": "{{blocked}} petiklendi, {{terminated}} ýatyryldy"
+    },
+    "recent": {
+      "title": "Recentlyakynda hasaba alnan jemgyýetler",
+      "loading": "Adingüklenýär…",
+      "empty": "Entek hiç bir jemgyýet hasaba alynmady.",
+      "table": {
+        "community": "Jemgyýet",
+        "admin": "Admin",
+        "status": ".Agdaý",
+        "residents": "Identaşaýjylar"
+      }
+    }
+  },
+  "communities": {
+    "count": "Jemgyýetler: {{count}}",
+    "loadError": "Jemgyýetleri ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "searchPlaceholder": "Jemgyýet, administratoryň ady ýa-da e-poçta boýunça süzüň",
+    "statusFilter": {
+      "label": ".Agdaý",
+      "all": "Hemmesi"
+    },
+    "sortOptions": {
+      "community": "Jemgyýet",
+      "admin": "Admin",
+      "residents": "Identaşaýjylar"
+    },
+    "loading": "Jemgyýetleri ýüklemek…",
+    "empty": "Entek hiç bir jemgyýet hasaba alynmady.",
+    "noMatch": "Süzgüçleriňize hiç bir jemgyýet gabat gelenok.",
+    "table": {
+      "community": "Jemgyýet",
+      "admin": "Admin",
+      "email": "E-poçta iberiň",
+      "status": ".Agdaý",
+      "residents": "Identaşaýjylar",
+      "view": "Gör"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Bu jemgyýeti ýükläp bolmady Öçürilen bolmagy mümkin.",
+    "statusUpdateError": "Bu jemgyýetiň statusyny täzeläp bolmady",
+    "deleteError": "Bu jemgyýeti pozup bolmady",
+    "loading": "Jemgyýet ýüklenýär…",
+    "notFound": "Jemgyýet tapylmady",
+    "backLink": "Commun Jemgyýetlere dolanmak",
+    "backLinkShort": "Jemgyýetlere dolan",
+    "eyebrow": "Jemgyýetiň tertibi",
+    "unnamed": "Ady agzalmadyk jemgyýet",
+    "noAddress": "Faýlda salgy ýok",
+    "stats": {
+      "residents": "Identaşaýjylar",
+      "status": ".Agdaý"
+    },
+    "actions": {
+      "reactivate": "Gaýtadan işlediň",
+      "block": "Blok",
+      "terminate": "Inateatyr",
+      "delete": "Jemgyýeti poz"
+    },
+    "blockDialog": {
+      "title": "Bu jemgyýet administratoryny bloklamalymy?",
+      "message": "Blok {{name}}? Blok açylýança girip bilmezler. Hiç hili maglumat täsir etmez.",
+      "confirm": "Blok"
+    },
+    "terminateDialog": {
+      "title": "Bu jemagat administratoryny ýatyrmalymy?",
+      "message": "{{name}} girişini hemişelik bes ediň? Jemgyýetiniň maglumatlary ýazgylar üçin saklanjak bolsa-da, muny yzyna gaýtaryp bolmaz.",
+      "confirm": "Inateatyr"
+    },
+    "deleteDialog": {
+      "title": "Bu jemgyýeti pozuň?",
+      "message": "Bu <strong> {{name}} </strong> we ähli öý hojalygyny, ýaşaýjylary, metrleri, nyrh / töleg konfigurasiýasyny we hasap-faktura taryhyny hemişelik ýok eder. Bu hereketi yzyna gaýtaryp bolmaz.",
+      "typeToConfirm": "Dowam etmek üçin <strong> {{word}} </strong> ýazyň",
+      "confirm": "Tassykla"
+    },
+    "residents": {
+      "title": "Identaşaýjylar",
+      "registeredCount": "Hasaba alnan: {{count}}",
+      "empty": "Bu jemgyýetde entek hiç bir ýaşaýjy hasaba alynmady.",
+      "table": {
+        "flatUnit": "Kwartira bölümi",
+        "meter": "Metr",
+        "resident": "Aşaıjy",
+        "email": "E-poçta iberiň",
+        "passwordSet": "Parol toplumy"
+      },
+      "yes": "Hawa",
+      "no": ".Ok"
+    },
+    "cancel": "Elatyr",
+    "working": "Işlemek…",
+    "deleting": "Öçürmek…"
+  },
+  "systemStatus": {
+    "statusError": "Ulgamyň ýagdaýyny barlamak üçin arkasyna baryp bilmedim.",
+    "metricsError": "Ölçegleriň taryhyny ýükläp bolmady",
+    "ranges": {
+      "fiveMinutes": "5 minut",
+      "fifteenMinutes": "15 minut",
+      "hour": "Sagat",
+      "day": "Gün",
+      "week": "Hepde",
+      "month": "Aý",
+      "threeMonths": "3 aý"
+    },
+    "uptime": {
+      "days": "{{value}} d",
+      "hours": "{{value}} sag",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Islegler / sek",
+      "opsPerSec": "Ops / sek",
+      "latency": "Gijä galmak",
+      "lastValue": "{{value}} iň soňky",
+      "loading": "Adingüklenýär…",
+      "empty": "Bu aralyk üçin entek hiç hili ölçeg ýazylmady."
+    },
+    "stats": {
+      "min": "Min: <b> {{value}} </b>",
+      "avg": "Ortaça: <b> {{value}} </b>",
+      "max": "Maks: <b> {{value}} </b>",
+      "last": "Iň soňky: <b> {{value}} </b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Barlamak ...",
+      "reachable": "Elýeterli",
+      "unreachable": "Elýeterli däl",
+      "connected": "Birikdirildi",
+      "backendApiHint": "Bu sahypa arka tarapdan ýüklendi, şonuň üçin jogap berdi.",
+      "database": "Maglumatlar bazasy",
+      "databaseHint": "PostgreSQL birikmesi, göni efirde barlandy.",
+      "uptime": "Yzky wagt",
+      "uptimeHint": "Iň soňky programma täzeden başlaly bäri.",
+      "appVersion": "Programma wersiýasy",
+      "appVersionHint": "Yzky gurmak wersiýasy."
+    },
+    "mini": {
+      "latency": "Gijä galmak",
+      "readsLatency": "Gijä galýar",
+      "writesLatency": "Gijä galýar",
+      "otherLatency": "Beýleki gijä galmak",
+      "connections": "Baglanyşyklar",
+      "totalKeys": "Jemi açarlar"
+    },
+    "note": "Islegler / sek we gijä galmak her 15 sekuntda göni arka trafikden alynýar we 100 güne çenli saklanýar. Bu esasy birikme + traffigi barlamak - programmanyň doly ýerine ýetirilişine gözegçilik, hasaba alyş jemlemesi ýa-da duýduryş çalşyp bilmez."
+  },
+  "reports": {
+    "loadError": "Platforma hasabatyny ýükläp bolmady",
+    "ranges": {
+      "threeMonths": "3 aý",
+      "sixMonths": "6 aý",
+      "twelveMonths": "12 aý",
+      "custom": "Omörite"
+    },
+    "sortOptions": {
+      "community": "Jemgyýet",
+      "usage": "Ulanylyşy",
+      "billed": "Hasaplaşyk",
+      "residents": "Identaşaýjylar"
+    },
+    "customRange": {
+      "from": "Kimden",
+      "to": "To",
+      "hint": "Customörite hasabat ýüklemek üçin \"aý\" we \"aý\" aýlaryny saýlaň."
+    },
+    "loading": "Reportükleme hasabaty…",
+    "cards": {
+      "totalCommunities": "Jemi jemgyýetler",
+      "inThisRange": "Bu aralykda",
+      "totalResidents": "Jemi ýaşaýjylar",
+      "acrossAllCommunities": "Communitieshli jemgyýetlerde",
+      "overallUsage": "Umumy ulanylyşy",
+      "meteredConsumption": "Ölçegli sarp",
+      "overallBilled": "Umuman hasaplaşyk",
+      "finalizedInvoicesOnly": "Diňe gutarnykly hasap-fakturalar",
+      "avgUsagePerResident": "Ortaça ulanylyşy / ýaşaýjysy",
+      "avgBillPerResident": "Orta hasap / ýaşaýjy"
+    },
+    "charts": {
+      "usageTitle": "Platformanyň ulanylyşy (kL / aý)",
+      "usageEmpty": "Bu aralyk üçin ulanyş ýazylmady.",
+      "usageSeries": "Ulanylyşy",
+      "billedTitle": "Platforma boýunça hasaplaşyk mukdary (₹ / aý)",
+      "billedEmpty": "Bu aralyk üçin hasap-faktura gutarmady.",
+      "billedSeries": "Hasaplaşyk"
+    },
+    "searchPlaceholder": "Jemgyýet ýa-da administrator ady boýunça süzüň",
+    "empty": "Hiç bir jemgyýetiň bu aralyk üçin ulanylyşy ýa-da hasaplaşyk maglumatlary ýok.",
+    "noMatch": "Hiç bir jemgyýet siziň süzgüçiňize gabat gelenok.",
+    "table": {
+      "community": "Jemgyýet",
+      "admin": "Admin",
+      "residents": "Identaşaýjylar",
+      "usage": "Ulanylyşy (kL)",
+      "billed": "Hasaplaşyk (₹)",
+      "avgUsagePerResident": "Ortaça ulanylyşy / ýaşaýjysy",
+      "avgBillPerResident": "Orta hasap / ýaşaýjy"
+    }
+  },
+  "supportTickets": {
+    "title": "Goldaw biletleri",
+    "subtitle": "Platforma boýunça ýaşaýjylar we jemgyýetçilik administratorlary tarapyndan döredilen biletleri we aladalary goldaň."
+  }
+}

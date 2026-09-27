@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Tez kunlarda",
+    "welcome": {
+      "greeting": "Salom {{name}},",
+      "greetingFallback": "Salom,",
+      "title": "Uyingizning suv haqidagi hikoyasiga yaqin turing.",
+      "subtitle": "Foydalanish va hisob-kitob statistikasi bu yerda hamjamiyatingiz oʻqishlarni qayd qilganda paydo boʻladi.",
+      "viewBadges": "Ekologik nishonlarni ko'rish"
+    },
+    "stats": {
+      "todaysUsage": "Bugungi foydalanish",
+      "asOf": "{{date}} holatiga koʻra",
+      "noReading": "Hisoblagich ko'rsatilmagan",
+      "monthlyTotalFor": "Oylik jami ({{month}})",
+      "monthlyTotalThisMonth": "Oylik jami (shu oy)",
+      "sumOfReadings": "Yozilgan o'qishlar yig'indisi",
+      "estimatedBill": "Joriy taxminiy hisob",
+      "estimatedBillFor": "Hisoblangan foydalanish + umumiy toʻlovlar, {{month}}",
+      "estimatedBillHint": "Bu oydagi hisoblangan isteʼmol va umumiy toʻlovlar asosida",
+      "savings": "Tejamkorlik va qurilish oʻrtachasi",
+      "savingsValue": "{{percent}}% kamroq",
+      "savingsPreview": "Faqat oldindan koʻrish — taqqoslash hali jonli emas"
+    },
+    "consumption": {
+      "eyebrow": "Iste'mol",
+      "title": "Kundalik iste'mol (oxirgi 14 o'qish)",
+      "seriesName": "Iste'mol",
+      "empty": "O'qishlar hali qayd etilmagan."
+    },
+    "breakdown": {
+      "eyebrow": "Sindirish",
+      "title": "Foydalanish taqsimoti",
+      "bathroom": "Hammom",
+      "kitchen": "Oshxona",
+      "garden": "Bog '/ Balkon",
+      "other": "Boshqalar / Kir yuvish"
+    },
+    "billing": {
+      "eyebrow": "Hisob-kitob",
+      "title": "Faol hisob-kitob davri",
+      "finalized": "Yakunlangan",
+      "preview": "Ko‘rib chiqish",
+      "meteredConsumption": "Hisoblangan iste'mol",
+      "tierPriceLevel": "Darajali narx darajasi",
+      "tierLabel": "Daraja {{tier}}",
+      "commonArea": "Umumiy maydonni taqsimlash",
+      "commonAreaPreview": "Umumiy maydon taqsimoti (oldindan ko'rish)",
+      "invoiceTotal": "jami {{period}} hisob-faktura",
+      "estimatedCharge": "Joriy taxminiy to'lov",
+      "commonAreaBreakdown": "Umumiy hududning buzilishi",
+      "payPreview": "Toʻlovni oldindan koʻrish",
+      "payUnavailable": "Hisob-kitob mexanizmi hali mavjud emas"
+    },
+    "tips": {
+      "eyebrow": "Maslahatlar",
+      "title": "Aqlli saqlash maslahatlari",
+      "viewAll": "Hammasini ko'rish",
+      "empty": "Moslashtirilgan maslahatlar bu yerda hamjamiyatingiz hisob-kitob davrini yakunlagandan so‘ng paydo bo‘ladi."
+    },
+    "community": "Hamjamiyat: {{name}}"
+  },
+  "usage": {
+    "loadError": "Foydalanish tarixini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Foydalanish tahlili yuklanmoqda…",
+    "empty": "O'qishlar hali qayd etilmagan. Sizning hamjamiyatingiz hisoblagich ko'rsatkichini yozib olgandan so'ng, u shu yerda ko'rinadi.",
+    "tabs": {
+      "lastSixMonths": "Oxirgi 6 oy",
+      "customRange": "Maxsus diapazon",
+      "comingSoon": "Tez kunlarda"
+    },
+    "peakDay": "Eng yuqori kun:",
+    "lowestDay": "Eng past kun:",
+    "comparison": {
+      "title": "Uy xo'jaliklari iste'moli va kvartiraning o'rtacha ko'rsatkichi",
+      "subtitle": "Oylik jami kilolitrda (kL) ko'rsatilgan.",
+      "yourHousehold": "Sizning xonadoningiz",
+      "apartmentAverage": "Kvartira o'rtacha",
+      "similarSized": "O'xshash o'lchamdagi uylar"
+    },
+    "heatmap": {
+      "title": "Kundalik iste'molning issiqlik xaritasi",
+      "subtitle": "Rang intensivligi bayroqlari og'ir foydalanish kunlari (oldindan ko'rish)."
+    },
+    "ranking": {
+      "title": "Hamjamiyat tengdoshlari reytingi",
+      "subtitle": "O'xshash birliklar bilan solishtirganda sizning darajangiz (oldindan ko'rish).",
+      "ecoSaver": "Faol Eko Saver",
+      "aptNumber": "Kvartira {{number}}",
+      "unitNumber": "Birlik {{number}}",
+      "yourUnit": "Sizning birligingiz",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (siz)"
+    }
+  },
+  "billing": {
+    "loadError": "Hisob-kitoblar tarixini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "pdfError": "PDF yuklab olinmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Hisob-kitoblar tarixi yuklanmoqda…",
+    "empty": "Hisob-fakturalar hali yo‘q — hamjamiyatingiz hisob-kitob davrini yakunlagach, hisoblaringiz shu yerda ko‘rinadi.",
+    "status": {
+      "paid": "To'langan",
+      "unpaid": "To'lanmagan"
+    },
+    "summary": {
+      "outstandingBalance": "To'lanmagan balans",
+      "billingCycle": "Hisob-kitob davri: {{period}}",
+      "allPaid": "Barcha hisob-fakturalar to'lanadi",
+      "payTotal": "To'lanmagan to'lov",
+      "payTotalUnavailable": "Onlayn toʻlov hali mavjud emas — toʻlovlarni hamjamiyat administratoringiz bilan toʻgʻridan-toʻgʻri hal qiling",
+      "downloadSummary": "Hisob-kitob xulosasini yuklab oling",
+      "downloadSummaryUnavailable": "Hisob-kitob xulosasini yuklab olish hali mavjud emas"
+    },
+    "history": {
+      "title": "Hisob-fakturalar tarixi",
+      "exportCsv": "Hammasini CSV ga eksport qilish",
+      "exportUnavailable": "CSV eksporti hali mavjud emas"
+    },
+    "table": {
+      "cycle": "Velosiped",
+      "usage": "Foydalanish (kL)",
+      "amountDue": "To'lanishi kerak bo'lgan miqdor",
+      "paymentStatus": "To'lov holati",
+      "hideBreakdown": "Buzilishni yashirish ↑",
+      "showBreakdown": "Batafsil taqsimot ↓",
+      "downloading": "Yuklab olinmoqda…",
+      "pdf": "PDF",
+      "pay": "To'lash"
+    },
+    "breakdown": {
+      "householdTitle": "Uy xo'jaliklari iste'molini taqsimlash",
+      "basePrice": "Asosiy narx: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Daraja {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Hisoblangan foydalanish oralig'i",
+      "commonAreaTitle": "Umumiy hududni taqsimlash",
+      "subtotalShared": "Umumiy umumiy maydon",
+      "noCommonArea": "Bu tsikl uchun umumiy maydon toʻlovi olinmaydi."
+    },
+    "pagination": {
+      "showing": "{{from}}–{{to}} / {{total}} koʻrsatilmoqda",
+      "prev": "← Oldingi",
+      "next": "Keyingi →",
+      "page": "Sahifa {{page}} / {{count}}"
+    },
+    "paymentMethods": {
+      "title": "To'lov usullari (oldindan ko'rish)",
+      "description": "Onlayn toʻlov hali mavjud emas — toʻlovlar toʻgʻridan-toʻgʻri hamjamiyat administratoringiz bilan hisob-kitob qilinadi.",
+      "manage": "To'lov usullarini boshqarish",
+      "manageUnavailable": "Toʻlov usullari hali mavjud emas"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Razorpay tomonidan himoyalangan",
+    "billingCycle": "Hisob-kitob davri {{period}}",
+    "close": "Yopish",
+    "amountPayable": "To'lanadigan summa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kartalar",
+      "netbanking": "Netbanking",
+      "wallet": "Hamyon"
+    },
+    "upi": {
+      "title": "UPI orqali toʻlash",
+      "upiId": "UPI ID",
+      "or": "YOKI",
+      "scan": "Istalgan UPI ilovasi bilan skanerlang"
+    },
+    "card": {
+      "title": "Karta orqali to'lash",
+      "number": "Karta raqami",
+      "expiry": "Muddati",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Kartadagi ism",
+      "namePlaceholder": "Kartada chop etilganidek"
+    },
+    "netbanking": {
+      "title": "Netbanking orqali to'lash"
+    },
+    "wallet": {
+      "title": "Wallet orqali toʻlash"
+    },
+    "payAmount": "₹{{amount}} toʻlash",
+    "processing": "Toʻlovingiz qayta ishlanmoqda…",
+    "processingHint": "Iltimos, bu sahifani orqaga bosmang yoki yangilamang",
+    "success": "Toʻlov muvaffaqiyatli amalga oshirildi",
+    "error": "Toʻlovni tasdiqlashda nimadir xato ketdi. Iltimos, qayta urinib koʻring.",
+    "retry": "Qayta urinish"
+  },
+  "notifications": {
+    "loadError": "Bildirishnomalaringizni yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Bildirishnomalaringiz yuklanmoqda…",
+    "empty": "Hali hech qanday bildirishnoma yo‘q — agar hamjamiyat administratoringiz foydalanish chegarasi yoki noodatiy iste’mol ogohlantirishlarini yoqgan bo‘lsa va oilangiz uchun ishga tushirilsa, bu yerda biror narsani ko‘rasiz.",
+    "type": {
+      "thresholdExceeded": "Iste'mol chegarasidan oshib ketdi",
+      "statisticalOutlier": "Noodatiy iste'mol aniqlandi"
+    },
+    "status": {
+      "active": "Faol",
+      "resolved": "Yechilgan",
+      "dismissed": "Rad etilgan"
+    },
+    "billingPeriod": "Hisob-kitob davri: {{period}}",
+    "consumption": "Iste'mol: {{value}} kL",
+    "push": {
+      "title": "Push-bildirishnomalar",
+      "description": "Yangi hisob yoki ogohlantirish kelib tushganda, bu qurilmada bildirishnoma oling.",
+      "enable": "Yoqish",
+      "disable": "Oʻchirish",
+      "permissionDenied": "Bildirishnoma ruxsati berilmagan.",
+      "notConfigured": "Push-bildirishnomalar hali sozlanmagan. Administratoringizga murojaat qiling.",
+      "enableError": "Push-bildirishnomalar yoqilmadi. Iltimos, qayta urinib koʻring.",
+      "disableError": "Push-bildirishnomalarni o‘chirib bo‘lmadi. Iltimos, qayta urinib koʻring."
+    }
+  },
+  "recommendations": {
+    "loadError": "Tavsiyalaringizni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Shaxsiylashtirilgan maslahatlaringiz yuklanmoqda…",
+    "generated": "Yaratilgan {{date}}",
+    "generatedForPeriod": "Hisob-kitob davri uchun {{date}} yaratildi {{period}}",
+    "eyebrow": "Siz uchun moslashtirilgan",
+    "title": "Suvni tejash bo'yicha aqlli maslahatlar",
+    "empty": "Hali hech qanday maslahat yaratilmagan — ular har safar hamjamiyatingiz oilangiz uchun hisob-kitob davrini yakunlaganida avtomatik ravishda yangilanadi."
+  },
+  "support": {
+    "title": "Rezidentlarni qo‘llab-quvvatlash va xavotirlar bo‘limi",
+    "subtitle": "Suv sizib chiqishi haqida hisobotlarni, hisoblagichlarni kalibrlash soʻrovlarini yoki toʻlov soʻrovlarini toʻgʻridan-toʻgʻri hamjamiyat administratoriga va/yoki tizim maʼmuriga yuboring.",
+    "emptyCreateHint": "Quyida muammo yoki tashvishingizni tasvirlab bering va uni kim hal qilishi kerakligini tanlang."
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Tāpuni",
+    "signUpTitle": "Lesisita ho komiuniti .",
+    "signInTitle": "Talitali lelei koe",
+    "signUpSubtitle": "Fa'u ha 'akauni Admin 'o e komiuniti ke kamata hono pule'i 'o e kau nofo mo e totongi.",
+    "signInSubtitle": "Saini mai ke ke vakai ki ho'o ngaue'aki 'a e vai mo e totongi."
+  },
+  "signIn": {
+    "errorFallback": "'Oku 'ikai lava ke fakamo'oni. Kātaki 'o toe feinga.",
+    "emailLabel": "'Imeili",
+    "passwordLabel": "Leafūfū",
+    "rememberMe": "Manatu'i au .",
+    "forgotPassword": "Ngalo 'a e lea fufuu?",
+    "submitting": "Fakamo'oni hingoa...",
+    "submit": "Fakamoʻoni",
+    "noAccount": "'Oku 'ikai ha'o 'akauni?",
+    "signUpLink": "Fakamoʻoni hingoa"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "ʻOku ʻikai ke feʻunga ʻa e ngaahi lea fufuú.",
+      "communityRequired": "'Oku fiema'u 'a e hingoa 'o e komiuniti.",
+      "termsRequired": "Kātaki ʻo loto ki he Ngaahi Tuʻutuʻuni ʻo e Ngāué mo e Tuʻutuʻuni Fakapulipulí.",
+      "fallback": "ʻOku ʻikai lava ke faʻu ha ʻakauni. Kātaki ʻo toe feinga."
+    },
+    "hint": "Ko e kau admin pe 'o e komiuniti 'oku nau lesisita heni. Ko e taimi pe te ke hu ai, te ke tanaki atu 'e koe 'a e ngaahi fakaikiiki 'o ho'o kau nofo — 'oku 'ikai ke nau fakamo'oni hingoa 'iate kinautolu pe.",
+    "fullNameLabel": "Hingoa kakato",
+    "emailLabel": "'Imeili",
+    "phoneLabel": "Fika telefoni",
+    "communityNameLabel": "Hingoa ʻo e komiuniti",
+    "passwordLabel": "Leafūfū",
+    "confirmPasswordLabel": "Fakapapauʻi ʻa e lea fufuú",
+    "agreeTerms": "'Oku ou loto ki he <termsLink>Ngaahi Tu'utu'uni 'o e Ngaue</termsLink> mo e <privacyLink>Tu'utu'uni Fakalukufua</privacyLink>",
+    "submitting": "Fa'u 'o e 'akauni...",
+    "submit": "Fa'u ha 'akauni Admin",
+    "haveAccount": "'Oku 'osi 'i ai ha'o 'akauni?",
+    "signInLink": "Saini ki loto"
+  },
+  "installPrompt": {
+    "title": "Fokotuʻu HydroLedger",
+    "description": "Tānaki atu ia ki hoʻo screen ʻi ʻapí ke vave ʻa e hū ki aí.",
+    "dismiss": "Tukuange ke alu",
+    "install": "Fokotu'u"
+  },
+  "setPassword": {
+    "title": "Seti ho'o lea fufuu .",
+    "loading": "Uta...",
+    "subtitle": "Hi {{name}}, fili ha lea fufuu ki he {{email}} ke faka'aonga'i ho'o HydroLedger 'akauni.",
+    "errors": {
+      "invalidLink": "'Oku 'ikai ke 'aonga 'a e fehokotaki'anga ko 'eni pe kuo 'osi 'a e taimi.",
+      "tooShort": "Ko e password kuo pau ke 'oua 'e si'i hifo he mata'itohi 'e 8.",
+      "mismatch": "ʻOku ʻikai ke feʻunga ʻa e ngaahi lea fufuú.",
+      "fallback": "Na'e 'ikai lava ke seti ho'o lea fufuu. Kātaki ʻo toe feinga."
+    },
+    "passwordLabel": "Leafūfū",
+    "confirmPasswordLabel": "Fakapapauʻi ʻa e lea fufuú",
+    "submitting": "Fokotu'u 'o e lea fufuu...",
+    "submit": "Seti 'a e lea fufuu & fakamo'oni ki loto"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Tokoni",
+      "resident": "Fehu'i fekau'aki mo ho'o 'akauni .",
+      "admin": "Tokoni Fakakomiuniti",
+      "platform": "Tokoni Peletifoomu",
+      "default": "Tokotaha tokoni"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Ko e hā ʻa e HydroLedger?",
+        "tieredBilling": "‘Oku anga-fēfē ‘a e ngāue ‘a e totongi tiered?",
+        "leaks": "‘Oku anga-fēfē hono ‘ilo‘i ‘a e ngaahi hū‘angá?"
+      },
+      "resident": {
+        "billEstimate": "Ko e ha 'eku fakafuofua 'o e bill lolotonga?",
+        "alerts": "'Oku 'i ai ha'aku fakatokanga ki hono faka'aonga'i?",
+        "readings": "Fakahaa'i 'eku lau mita kimuí ni mai"
+      },
+      "admin": {
+        "households": "Ko e ngaahi 'api 'e fiha 'oku tau ma'u?",
+        "billingCycles": "Lisi 'etau ngaahi siakale totongi kimuí ni mai .",
+        "tariff": "Ko e ha 'etau palani totongi lolotonga?"
+      },
+      "platform": {
+        "communities": "Lisi kotoa e ngaahi komiuniti kuo lesisita .",
+        "usageReport": "Fakahaaʻi ʻa e lipooti ʻo hono fakaʻaongaʻi ʻo e peletifōmú .",
+        "systemStatus": "Ko e ha e tu'unga 'o e sisitemi?"
+      }
+    },
+    "errors": {
+      "rateLimited": "'Oku fu'u vave ho'o 'ave 'a e ngaahi fekau - kataki 'o ki'i tatali pea ke toe feinga.",
+      "unavailable": "ʻOku ʻikai ke maʻu fakataimi ʻa e tokoní. Kataki 'o toe feinga mai 'i ha taimi nounou.",
+      "generic": "Naʻe ʻi ai ha meʻa naʻe fehālaaki ʻi hono ʻave ʻo e pōpoaki ko iá. Kātaki ʻo toe feinga."
+    },
+    "emptyHint": "Fehu'i mai ha me'a - 'oku ou lava pe 'o sio ki ho'o data 'a'au.",
+    "closeAssistant": "Tokoni ofi",
+    "openAssistant": "Tokoni fakaava",
+    "inputPlaceholder": "Taipa ha fekau...",
+    "inputLabel": "Fekau",
+    "send": "Lī"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tikite Poupou",
+    "defaultCreateLabel": "'Ohake ha Hoha'a Fo'ou",
+    "status": {
+      "open": "Ava",
+      "inProgress": "ʻOku Fakalakalaka",
+      "resolved": "Fakalelei'i",
+      "closed": "Tāpuni"
+    },
+    "tabs": {
+      "all": "Tikite kotoa"
+    },
+    "recipients": {
+      "admin": "Pule Fakakomiuniti",
+      "systemAdmin": "Pule Sisitemi",
+      "both": "Pule Fakakomiuniti + Pule Sisitemi"
+    },
+    "roles": {
+      "resident": "Api nofo'anga",
+      "admin": "Admin"
+    },
+    "toRecipients": "Ki he: {{recipients}}",
+    "raisedByResident": "Na'e 'ohake 'e he tokotaha nofo {{name}}",
+    "raisedByAdmin": "Na'e 'ohake 'e he pule {{name}}",
+    "refresh": "Fakafo'ou",
+    "stats": {
+      "openLabel": "Fakaava ʻa e Ngaahi Fakahū",
+      "openHint": "Tatali ki he vakai'i",
+      "inProgressLabel": "ʻOku Fakalakalaka",
+      "inProgressHint": "Ko e ngaue ki ai .",
+      "resolvedLabel": "Fakalelei'i",
+      "resolvedHint": "Kuo lavame'a hono tapuni"
+    },
+    "searchPlaceholder": "Fekumi tikite 'i he kaveinga, 'isiu...",
+    "loadingTickets": "Uta tikite...",
+    "empty": {
+      "title": "'Oku 'ikai ke ma'u ha tikite poupou",
+      "body": "'Oku 'ikai ha'o ngaahi kole poupou 'oku fakaava pe lekooti 'i he lolotonga ni 'oku fe'unga mo e filter ko 'eni.",
+      "cta": "Fakahū atu ha Hohaʻa"
+    },
+    "errors": {
+      "loadList": "Na'e 'ikai lava ke uta 'a e ngaahi tikite poupou. Kātaki ʻo toe feinga.",
+      "loadDetail": "Na'e 'ikai lava ke uta 'a e tikite ko 'eni. Kātaki ʻo toe feinga.",
+      "required": "ʻOku fakatou fie maʻu ʻa e kaveingá mo e pōpoakí.",
+      "recipientRequired": "Fili ha taha 'oku ne ma'u (Admin 'o e komiuniti mo e/pe Admin 'o e sisitemi).",
+      "submitFallback": "Na'e 'ikai lava ke fakahu mai 'a e tikite ko 'eni. Kātaki ʻo toe feinga.",
+      "sendReply": "Naʻe ʻikai lava ke ʻave ʻa e pōpoaki ko ʻení. Kātaki ʻo toe feinga.",
+      "updateStatus": "Na'e 'ikai lava ke fakafo'ou 'a e tu'unga tikite ko 'eni. Kātaki ʻo toe feinga."
+    },
+    "form": {
+      "defaultHint": "Fakamatala'i ho'o issue pe hoha'a 'i lalo.",
+      "subjectLabel": "Kaveinga",
+      "subjectPlaceholder": "Fakanounou nounou ho'o issue .",
+      "messageLabel": "Fekau",
+      "messagePlaceholder": "Fakamatala'i fakaikiiki 'a e me'a 'oku hoko...",
+      "recipientsLabel": "Fakahoko atu e hoha'a ko eni ki he",
+      "cancel": "Kaniseli",
+      "submitting": "Fakahū atu...",
+      "submit": "Fakahu Tikite"
+    },
+    "detail": {
+      "loading": "Tikite uta...",
+      "replyPlaceholder": "Tohi ha tali...",
+      "close": "Tāpuni",
+      "sending": "Ko hono 'ave...",
+      "sendReply": "Fekau'i atu 'a e tali"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Talitali lelei koe, {{name}}",
+    "openMenu": "Fakaava 'a e menu",
+    "closeMenu": "Tāpuni ʻa e menu",
+    "logout": "Hu ki tu'a",
+    "search": "Kumi",
+    "notifications": "Ngaahi Fakatokanga"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Tesipapa",
+      "households": "Tohi Fakahinohino ki he Ngaahi ʻApí",
+      "meterReadings": "Ngaahi Lau 'o e Mita",
+      "billing": "Puleʻi ʻo e Totongí",
+      "bulkPurchases": "Ngaahi Fakatau Lahi",
+      "reports": "Ngaahi Lipooti",
+      "waterLeakage": "Tafe 'a e Vai",
+      "support": "Poupou / Hoha'a",
+      "tariffPlans": "Ngaahi Palani Totongi",
+      "announcements": "Ngaahi Fanongonongo",
+      "profile": "Fakamatala fakatāutaha"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ko e snapshot eni 'o ho'o komiuniti."
+      },
+      "households": {
+        "title": "Tohi Fakahinohino ki he Ngaahi ʻApí",
+        "subtitle": "Tānaki atu, fakafoʻou, mo puleʻi ʻa e kau nofo ʻoku nau nofo ʻi ho koló."
+      },
+      "meterReadings": {
+        "title": "Hub Lau Mita Vai",
+        "subtitle": "Kumi ha taha nofo pea lekooti 'enau lau 'o e mita vai."
+      },
+      "tariffPlans": {
+        "title": "Fakaleleiʻi ʻo e Totongi",
+        "subtitle": "Configure 'a e ngaahi fakangatangata 'o e totongi tiered, vahevahe 'a e ngaahi fakamole 'o e feitu'u angamaheni, mo e ngaahi founga tufaki'anga koloa ki ho komiuniti 'o e fale nofo'anga."
+      },
+      "billing": {
+        "title": "Puleʻi ʻo e Totongí",
+        "subtitle": "Fakaava, fakaʻosi, mo tauhi ʻa e ngaahi siakale totongi, pea vakaiʻi ʻa e ngaahi ʻinivoisi fakaikiiki ʻi he ʻapi takitaha."
+      },
+      "bulkPurchases": {
+        "title": "Ngaahi Fakatau Lahi",
+        "subtitle": "Lekooti 'a e ngaahi tu'uaki 'o e ngaahi vaka uta mo e ngaahi fakatau 'o e ngaahi naunau 'a e kolomu'a ma'a ho komiuniti."
+      },
+      "waterLeakage": {
+        "title": "Tafe 'a e Vai",
+        "subtitle": "Configure 'a e ngaahi fakatokanga 'o e leakage 'oku makatu'unga 'i he threshold mo e outlier, pea vakai'i 'a e ngaahi 'api 'oku faka'ilonga'i."
+      },
+      "support": {
+        "title": "Poupou / Hoha'a",
+        "subtitle": "Hiki hake ho'o tikite 'a'au ki he System Admin, pe tokanga'i 'a e ngaahi hoha'a kuo fakahoko atu 'e ho'o kau nofo kiate koe."
+      },
+      "profile": {
+        "title": "Ngaahi fokotuʻutuʻu & Fakamatala",
+        "subtitle": "Pule'i ho'o ngaahi fakaikiiki 'o e 'akauni mo e fakamatala 'o e fale nofo'anga."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Pule Fakakomiuniti",
+    "notBuilt": "{{label}} 'oku te'eki ke langa",
+    "searchPlaceholder": "Fekumi ki ha me'a pe..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Ngaahi Lipooti",
+      "description": "Ngaahi lipooti fakamole, totongi, mo e tauhi maʻa ho komiunitií."
+    },
+    "announcements": {
+      "title": "Ngaahi Fanongonongo",
+      "description": "ʻAve ha ngaahi fanongonongo fakakomiuniti ki hoʻo kau nofo aí."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} 'oku vave mai"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Tesipapa",
+      "usageHistory": "Hisitōlia hono Ngāueʻakí",
+      "bills": "Ko 'eku ngaahi totongi",
+      "recommendations": "Ngaahi Fokotuʻu",
+      "reports": "Ngaahi Lipooti",
+      "support": "Poupou / Hoha'a",
+      "notifications": "Ngaahi Fakatokanga",
+      "profile": "Fakamatala fakatāutaha"
+    },
+    "pages": {
+      "usageHistory": "Ko ho'o hisitōlia hono ngāue'aki",
+      "billing": "Ngaahi totongi mo e ngaahi inivoisi",
+      "notifications": "Ngaahi Fakatokanga",
+      "recommendations": "Ngaahi Fokotuʻu",
+      "support": "Poupou / Hoha'a"
+    },
+    "defaultTitle": "Dashboard 'o e Nofo'anga",
+    "navLabel": "Folau 'eve'eva 'a e kau nofo",
+    "fallbackName": "Api nofo'anga",
+    "unit": "ʻIuniti {{number}}",
+    "comingSoon": "{{label}} 'oku vave mai",
+    "profile": "Fakamatala fakatāutaha",
+    "searchPlaceholder": "Fekumi ki he ngaahi 'analaiso, ngaahi totongi..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Tesipapa",
+      "communities": "Ngaahi komiuniti",
+      "reports": "Ngaahi Lipooti",
+      "supportTickets": "Tikite Poupou",
+      "systemStatus": "Tu'unga 'o e Sisitemi"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Snapshot 'o e peletifoomu-fakakatoa 'i he komiuniti lesisita kotoa pe."
+      },
+      "communities": {
+        "title": "Ngaahi komiuniti",
+        "subtitle": "Ko e admin kotoa pe 'o e komiuniti kuo lesisita mo honau komiuniti, 'i he feitu'u pe 'e taha."
+      },
+      "reports": {
+        "title": "Ngaahi Lipooti",
+        "subtitle": "Ko e faka'aonga'i 'o e vai 'i he peletifoomu-fakakatoa mo e ngaahi fika 'o e totongi, 'e he komiuniti pea 'i he taimi."
+      },
+      "supportTickets": {
+        "title": "Tikite Poupou",
+        "subtitle": "Poupou'i 'a e tikite mo e ngaahi hoha'a 'oku 'ohake 'e he kakai 'o e fonua mo e kau admins 'o e komiuniti, platform-wide."
+      },
+      "systemStatus": {
+        "title": "Tu'unga 'o e Sisitemi",
+        "subtitle": "Backend fehokotaki'anga mo e mo'ui lelei 'o e taimi lele tefito."
+      }
+    },
+    "fallbackName": "Pule Sisitemi",
+    "platformOwner": "Tokotaha 'oku 'a'ana 'a e peletifoomu",
+    "searchPlaceholder": "Fekumi ki he ngaahi komiuniti..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lea: {{language}}",
+    "searchPlaceholder": "Fekumi ki he lea...",
+    "noMatches": "'Ikai ha ngaahi fe'auhi"
+  }
+}

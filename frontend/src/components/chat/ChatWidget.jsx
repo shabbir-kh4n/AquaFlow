@@ -1,49 +1,52 @@
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { sendChatMessage } from '../../api/chatApi'
 import './ChatWidget.css'
 
-const TITLES = {
-  landing: 'HydroLedger Assistant',
-  resident: 'Ask about your account',
-  admin: 'Community Assistant',
-  platform: 'Platform Assistant',
+// Translation keys (common namespace), resolved with t() at render time.
+const TITLE_KEYS = {
+  landing: 'chat.titles.landing',
+  resident: 'chat.titles.resident',
+  admin: 'chat.titles.admin',
+  platform: 'chat.titles.platform',
 }
 
-const SUGGESTED_PROMPTS = {
+const SUGGESTED_PROMPT_KEYS = {
   landing: [
-    'What is HydroLedger?',
-    'How does tiered billing work?',
-    'How are leaks detected?',
+    'chat.prompts.landing.whatIs',
+    'chat.prompts.landing.tieredBilling',
+    'chat.prompts.landing.leaks',
   ],
   resident: [
-    "What's my current bill estimate?",
-    'Do I have any usage alerts?',
-    'Show my recent meter readings',
+    'chat.prompts.resident.billEstimate',
+    'chat.prompts.resident.alerts',
+    'chat.prompts.resident.readings',
   ],
   admin: [
-    'How many households do we have?',
-    'List our recent billing cycles',
-    'What is our current tariff plan?',
+    'chat.prompts.admin.households',
+    'chat.prompts.admin.billingCycles',
+    'chat.prompts.admin.tariff',
   ],
   platform: [
-    'List all registered communities',
-    'Show the platform usage report',
-    "What's the system status?",
+    'chat.prompts.platform.communities',
+    'chat.prompts.platform.usageReport',
+    'chat.prompts.platform.systemStatus',
   ],
 }
 
-function errorMessageFor(err) {
+function errorKeyFor(err) {
   const status = err?.response?.status
   if (status === 429) {
-    return "You're sending messages too quickly - please wait a moment and try again."
+    return 'chat.errors.rateLimited'
   }
   if (status === 503) {
-    return 'The assistant is temporarily unavailable. Please try again shortly.'
+    return 'chat.errors.unavailable'
   }
-  return "Something went wrong sending that message. Please try again."
+  return 'chat.errors.generic'
 }
 
 function ChatWidget({ endpoint, persona, title }) {
+  const { t } = useTranslation('common')
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState('')
@@ -73,7 +76,7 @@ function ChatWidget({ endpoint, persona, title }) {
         setMessages((prev) => [...prev, { role: 'model', content: data.reply }])
       })
       .catch((err) => {
-        setError(errorMessageFor(err))
+        setError(errorKeyFor(err))
       })
       .finally(() => setIsSending(false))
   }
@@ -83,8 +86,8 @@ function ChatWidget({ endpoint, persona, title }) {
     handleSend(input)
   }
 
-  const panelTitle = title || TITLES[persona] || 'Assistant'
-  const suggestions = SUGGESTED_PROMPTS[persona] || []
+  const panelTitle = title || t(TITLE_KEYS[persona] || 'chat.titles.default')
+  const suggestions = (SUGGESTED_PROMPT_KEYS[persona] || []).map((key) => t(key))
 
   return (
     <div className="af-chat">
@@ -96,7 +99,7 @@ function ChatWidget({ endpoint, persona, title }) {
               type="button"
               className="af-chat__close"
               onClick={() => setIsOpen(false)}
-              aria-label="Close assistant"
+              aria-label={t('chat.closeAssistant')}
             >
               ×
             </button>
@@ -105,7 +108,7 @@ function ChatWidget({ endpoint, persona, title }) {
           <div className="af-chat__messages">
             {messages.length === 0 && (
               <div className="af-chat__empty">
-                <p>Ask me anything - I can only see your own data.</p>
+                <p>{t('chat.emptyHint')}</p>
                 <div className="af-chat__suggestions">
                   {suggestions.map((prompt) => (
                     <button
@@ -138,7 +141,7 @@ function ChatWidget({ endpoint, persona, title }) {
               </div>
             )}
 
-            {error && <div className="af-chat__error">{error}</div>}
+            {error && <div className="af-chat__error">{t(error)}</div>}
 
             <div ref={messagesEndRef} />
           </div>
@@ -148,11 +151,11 @@ function ChatWidget({ endpoint, persona, title }) {
               type="text"
               value={input}
               onChange={(event) => setInput(event.target.value)}
-              placeholder="Type a message…"
-              aria-label="Message"
+              placeholder={t('chat.inputPlaceholder')}
+              aria-label={t('chat.inputLabel')}
             />
             <button type="submit" disabled={isSending || !input.trim()}>
-              Send
+              {t('chat.send')}
             </button>
           </form>
         </div>
@@ -162,7 +165,7 @@ function ChatWidget({ endpoint, persona, title }) {
         type="button"
         className="af-chat__fab"
         onClick={() => setIsOpen((open) => !open)}
-        aria-label={isOpen ? 'Close assistant' : 'Open assistant'}
+        aria-label={isOpen ? t('chat.closeAssistant') : t('chat.openAssistant')}
       >
         {isOpen ? (
           <span aria-hidden="true">×</span>

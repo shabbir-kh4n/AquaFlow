@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next'
 import './ComingSoon.css'
 
-function ComingSoon({ title, description }) {
+function ComingSoon({ titleKey, descriptionKey }) {
+  const { t } = useTranslation('common')
+
   return (
     <div className="af-coming-soon">
       <div className="af-coming-soon__icon">
@@ -8,8 +11,8 @@ function ComingSoon({ title, description }) {
           <path d="M12 8v4l3 3M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" />
         </svg>
       </div>
-      <h2>{title} is coming soon</h2>
-      <p>{description}</p>
+      <h2>{t('comingSoon.title', { title: t(titleKey) })}</h2>
+      <p>{t(descriptionKey)}</p>
     </div>
   )
 }

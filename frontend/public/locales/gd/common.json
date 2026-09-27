@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Dùin",
+    "signUpTitle": "Clàraich do choimhearsnachd",
+    "signInTitle": "Fàilte air ais",
+    "signUpSubtitle": "Cruthaich cunntas Rianachd Coimhearsnachd gus tòiseachadh air riaghladh luchd-còmhnaidh agus bilean.",
+    "signInSubtitle": "Clàraich a-steach gus do chleachdadh uisge agus do chunntasan fhaicinn."
+  },
+  "signIn": {
+    "errorFallback": "Cha b' urrainn dhuinn clàradh a-steach. Feuch ris a-rithist.",
+    "emailLabel": "Post-d",
+    "passwordLabel": "Facal-faire",
+    "rememberMe": "Cuimhnich ormsa",
+    "forgotPassword": "An do dhìochuimhnich thu am facal-faire?",
+    "submitting": "A’ clàradh a-steach…",
+    "submit": "Soidhnig a-steach",
+    "noAccount": "Chan eil cunntas agad?",
+    "signUpLink": "Cuir d’ainm ris"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Chan eil faclan-faire co-ionnan.",
+      "communityRequired": "Tha feum air ainm coimhearsnachd.",
+      "termsRequired": "Feuch an aontaich thu ris na Cumhachan Seirbheis agus Poileasaidh Dìomhaireachd.",
+      "fallback": "Cha ghabh cunntas a chruthachadh. Feuch ris a-rithist."
+    },
+    "hint": "Chan eil ach luchd-rianachd coimhearsnachd a’ clàradh an seo. Aon uair ‘s gu bheil thu a-staigh, cuiridh tu ris mion-fhiosrachadh an luchd-còmhnaidh agad thu fhèin - cha bhith iad a’ clàradh leotha fhèin.",
+    "fullNameLabel": "Làn ainm",
+    "emailLabel": "Post-d",
+    "phoneLabel": "Àireamh fòn",
+    "communityNameLabel": "Ainm coimhearsnachd",
+    "passwordLabel": "Facal-faire",
+    "confirmPasswordLabel": "Dearbh am facal-faire",
+    "agreeTerms": "Tha mi ag aontachadh ris na <termsLink>Cumhachan Seirbheis</termsLink> agus <privacyLink>Poileasaidh Dìomhaireachd</privacyLink>",
+    "submitting": "A’ cruthachadh cunntas…",
+    "submit": "Cruthaich cunntas rianachd",
+    "haveAccount": "A bheil cunntas agad mu thràth?",
+    "signInLink": "Soidhnig a-steach"
+  },
+  "installPrompt": {
+    "title": "Stàlaich HydroLedger",
+    "description": "Cuir ris an sgrìn dachaigh agad airson ruigsinneachd luath.",
+    "dismiss": "Cur às",
+    "install": "Stàladh"
+  },
+  "setPassword": {
+    "title": "Suidhich am facal-faire agad",
+    "loading": "A’ luchdachadh…",
+    "subtitle": "Hi {{name}}, tagh facal-faire airson {{email}} gus an cunntas HydroLedger agad a chur an gnìomh.",
+    "errors": {
+      "invalidLink": "Tha an ceangal seo mì-dhligheach no tha e air tighinn gu crìch.",
+      "tooShort": "Feumaidh am facal-faire a bhith co-dhiù 8 caractaran.",
+      "mismatch": "Chan eil faclan-faire co-ionnan.",
+      "fallback": "Cha b' urrainn dhuinn am facal-faire agad a shuidheachadh. Feuch ris a-rithist."
+    },
+    "passwordLabel": "Facal-faire",
+    "confirmPasswordLabel": "Dearbh am facal-faire",
+    "submitting": "A’ suidheachadh facal-faire…",
+    "submit": "Suidhich facal-faire & clàraich a-steach"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Neach-cuideachaidh",
+      "resident": "Faighnich mun chunntas agad",
+      "admin": "Neach-taic Coimhearsnachd",
+      "platform": "Neach-taic Àrd-ùrlar",
+      "default": "Neach-cuideachaidh"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Dè tha HydroLedger?",
+        "tieredBilling": "Ciamar a tha bileachadh sreathach ag obair?",
+        "leaks": "Ciamar a lorgar aoidion?"
+      },
+      "resident": {
+        "billEstimate": "Dè an tuairmse a th’ aig a’ bhile agam an-dràsta?",
+        "alerts": "A bheil rabhaidhean cleachdaidh sam bith agam?",
+        "readings": "Seall na leughaidhean meatair agam o chionn ghoirid"
+      },
+      "admin": {
+        "households": "Cia mheud dachaigh a th’ againn?",
+        "billingCycles": "Dèan liosta de na cuairtean bileachaidh againn o chionn ghoirid",
+        "tariff": "Dè am plana taraifean a th’ againn an-dràsta?"
+      },
+      "platform": {
+        "communities": "Dèan liosta de na coimhearsnachdan clàraichte uile",
+        "usageReport": "Seall an aithisg cleachdadh àrd-ùrlar",
+        "systemStatus": "Dè an inbhe a th’ aig an t-siostam?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Tha thu a' cur teachdaireachdan ro luath - fuirich mionaid agus feuch ris a-rithist.",
+      "unavailable": "Chan eil an neach-cuideachaidh ri fhaighinn airson ùine. Feuch ris a-rithist a dh'aithghearr.",
+      "generic": "Chaidh rudeigin ceàrr a’ cur na teachdaireachd sin. Feuch ris a-rithist."
+    },
+    "emptyHint": "Faighnich dhomh rud sam bith - chan urrainn dhomh ach an dàta agad fhèin fhaicinn.",
+    "closeAssistant": "Dùin neach-cuideachaidh",
+    "openAssistant": "Neach-cuideachaidh fosgailte",
+    "inputPlaceholder": "Sgrìobh teachdaireachd…",
+    "inputLabel": "Teachdaireachd",
+    "send": "Seol"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tiogaidean taic",
+    "defaultCreateLabel": "Tog dragh ùr",
+    "status": {
+      "open": "Fosgailte",
+      "inProgress": "A’ dèanamh adhartais",
+      "resolved": "Fuasgladh",
+      "closed": "Dùinte"
+    },
+    "tabs": {
+      "all": "Ticeadan uile"
+    },
+    "recipients": {
+      "admin": "Rianachd Coimhearsnachd",
+      "systemAdmin": "Rianachd siostam",
+      "both": "Rianachd Coimhearsnachd + Rianachd Siostam"
+    },
+    "roles": {
+      "resident": "Còmhnaidh",
+      "admin": "Rianachd"
+    },
+    "toRecipients": "Gu: {{recipients}}",
+    "raisedByResident": "Air a thogail le neach-còmhnaidh {{name}}",
+    "raisedByAdmin": "Air a thogail le admin {{name}}",
+    "refresh": "Ùraich",
+    "stats": {
+      "openLabel": "Cuir a-steach fosgailte",
+      "openHint": "A’ feitheamh ri lèirmheas",
+      "inProgressLabel": "A’ dèanamh adhartais",
+      "inProgressHint": "A bhith ag obair air",
+      "resolvedLabel": "Fuasgladh",
+      "resolvedHint": "Dhùin gu soirbheachail"
+    },
+    "searchPlaceholder": "Rannsaich tiogaidean a rèir cuspair, cùis…",
+    "loadingTickets": "A’ luchdachadh tiogaidean…",
+    "empty": {
+      "title": "Cha deach tiogaidean taic a lorg",
+      "body": "Chan eil iarrtasan taic fosgailte no clàraichte agad a tha a' freagairt ris a' chriathrag seo an-dràsta.",
+      "cta": "Cuir a-steach dragh"
+    },
+    "errors": {
+      "loadList": "Cha b' urrainn dhuinn tiocaidean taic a luchdachadh. Feuch ris a-rithist.",
+      "loadDetail": "Cha b' urrainn dhuinn an tiogaid seo a luchdachadh. Feuch ris a-rithist.",
+      "required": "Tha feum air cuspair agus teachdaireachd an dà chuid.",
+      "recipientRequired": "Tagh co-dhiù aon neach a gheibh e (Rianachd Coimhearsnachd agus/no Rianadair an t-Siostaim).",
+      "submitFallback": "Cha b' urrainn dhuinn an tiogaid seo a chur a-steach. Feuch ris a-rithist.",
+      "sendReply": "Cha b' urrainn dhuinn am brath seo a chur. Feuch ris a-rithist.",
+      "updateStatus": "Cha b' urrainn dhuinn inbhe na tiogaid seo ùrachadh. Feuch ris a-rithist."
+    },
+    "form": {
+      "defaultHint": "Thoir cunntas air a’ chùis no an dragh agad gu h-ìosal.",
+      "subjectLabel": "Cuspair",
+      "subjectPlaceholder": "Geàrr-chunntas goirid den chùis agad",
+      "messageLabel": "Teachdaireachd",
+      "messagePlaceholder": "Thoir cunntas mionaideach air na tha a’ tachairt…",
+      "recipientsLabel": "Cuir an dragh seo gu",
+      "cancel": "Sguir dheth",
+      "submitting": "A’ cur a-steach…",
+      "submit": "Cuir a-steach tiogaid"
+    },
+    "detail": {
+      "loading": "A’ luchdachadh tiogaid…",
+      "replyPlaceholder": "Sgrìobh freagairt…",
+      "close": "Dùin",
+      "sending": "A’ cur…",
+      "sendReply": "Send Reply"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Fàilte air ais, {{name}}",
+    "openMenu": "Clàr-taice fosgailte",
+    "closeMenu": "Dùin an clàr-taice",
+    "logout": "Log a-mach",
+    "search": "Rannsaich",
+    "notifications": "Brathan"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Deas-bhòrd",
+      "households": "Leabhar-seòlaidh Teaghlaich",
+      "meterReadings": "Leughaidhean meatair",
+      "billing": "Riaghladh Bilean",
+      "bulkPurchases": "Mòr-cheannach",
+      "reports": "Aithisgean",
+      "waterLeakage": "Aodion uisge",
+      "support": "Taic/Draghan",
+      "tariffPlans": "Planaichean Tar-chuir",
+      "announcements": "Sanasan",
+      "profile": "Pròifil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Seo dealbh den choimhearsnachd agad."
+      },
+      "households": {
+        "title": "Leabhar-seòlaidh Teaghlaich",
+        "subtitle": "Cuir ris, ùraich, agus stiùirich an luchd-còmhnaidh a tha a’ fuireach sa choimhearsnachd agad."
+      },
+      "meterReadings": {
+        "title": "Ionad leughaidh meatair uisge",
+        "subtitle": "Lorg neach-còmhnaidh agus clàraich an leughadh meatair uisge aca."
+      },
+      "tariffPlans": {
+        "title": "Rèiteachadh Tariff",
+        "subtitle": "Dèan rèiteachadh air crìochan reata sreathach, cosgaisean sgìre cumanta co-roinnte, agus dòighean cuairteachaidh airson do choimhearsnachd àros."
+      },
+      "billing": {
+        "title": "Riaghladh Bilean",
+        "subtitle": "Fosgail, cuir crìoch air, agus tasglann cearcallan bileachaidh, agus ath-sgrùdaich fàirdealan mionaideach gach dachaigh."
+      },
+      "bulkPurchases": {
+        "title": "Mòr-cheannach",
+        "subtitle": "Clàraich lìbhrigeadh tancair agus ceannach solair baile airson do choimhearsnachd."
+      },
+      "waterLeakage": {
+        "title": "Aodion uisge",
+        "subtitle": "Dèan rèiteachadh air stairsnich agus rabhaidhean aodion stèidhichte air an taobh a-muigh, agus dèan lèirmheas air dachaighean le bratach."
+      },
+      "support": {
+        "title": "Taic/Draghan",
+        "subtitle": "Tog na tiogaidean agad fhèin gu Rianachd an t-Siostaim, no làimhsich draghan a tha an luchd-còmhnaidh agad air dèiligeadh riut."
+      },
+      "profile": {
+        "title": "Roghainnean & Pròifil",
+        "subtitle": "Stiùirich mion-fhiosrachadh do chunntas agus fiosrachadh àros."
+      }
+    },
+    "fallbackName": "Rianachd",
+    "fallbackCommunity": "Rianachd Coimhearsnachd",
+    "notBuilt": "{{label}} chan eil e air a thogail fhathast",
+    "searchPlaceholder": "Lorg rud sam bith…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Aithisgean",
+      "description": "Aithisgean caitheamh, bileachaidh agus glèidhteachais airson do choimhearsnachd."
+    },
+    "announcements": {
+      "title": "Sanasan",
+      "description": "Cuir fiosan air feadh na coimhearsnachd chun luchd-còmhnaidh agad."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} a’ tighinn a dh’ aithghearr"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Deas-bhòrd",
+      "usageHistory": "Eachdraidh cleachdaidh",
+      "bills": "Na Bilean agam",
+      "recommendations": "Molaidhean",
+      "reports": "Aithisgean",
+      "support": "Taic/Draghan",
+      "notifications": "Brathan",
+      "profile": "Pròifil"
+    },
+    "pages": {
+      "usageHistory": "An eachdraidh cleachdaidh agad",
+      "billing": "Clàradh & fàirdealan",
+      "notifications": "Brathan",
+      "recommendations": "Molaidhean",
+      "support": "Taic/Draghan"
+    },
+    "defaultTitle": "Deas-bhòrd còmhnaidh",
+    "navLabel": "Seòladh luchd-còmhnaidh",
+    "fallbackName": "Còmhnaidh",
+    "unit": "Aonad {{number}}",
+    "comingSoon": "{{label}} a’ tighinn a dh’ aithghearr",
+    "profile": "Pròifil",
+    "searchPlaceholder": "Rannsachadh mion-sgrùdaidh, cunntasan…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Deas-bhòrd",
+      "communities": "Coimhearsnachdan",
+      "reports": "Aithisgean",
+      "supportTickets": "Tiogaidean taic",
+      "systemStatus": "Inbhe siostam"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Sealladh farsaing air àrd-ùrlar thar gach coimhearsnachd clàraichte."
+      },
+      "communities": {
+        "title": "Coimhearsnachdan",
+        "subtitle": "A h-uile rianaire coimhearsnachd clàraichte agus a’ choimhearsnachd aca, ann an aon àite."
+      },
+      "reports": {
+        "title": "Aithisgean",
+        "subtitle": "Figearan cleachdadh uisge agus bileachaidh air feadh àrd-ùrlar, a rèir coimhearsnachd agus thar ùine."
+      },
+      "supportTickets": {
+        "title": "Tiogaidean taic",
+        "subtitle": "Cuir taic ri tiogaidean agus draghan a thog luchd-còmhnaidh agus luchd-rianachd coimhearsnachd, air feadh an àrd-ùrlair."
+      },
+      "systemStatus": {
+        "title": "Inbhe siostam",
+        "subtitle": "Ceangal backend agus slàinte runtime bunaiteach."
+      }
+    },
+    "fallbackName": "Rianachd siostam",
+    "platformOwner": "Sealbhadair àrd-ùrlar",
+    "searchPlaceholder": "Rannsaich coimhearsnachdan…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Cànan: {{language}}",
+    "searchPlaceholder": "Rannsachadh cànain…",
+    "noMatches": "Gun choimeas"
+  }
+}

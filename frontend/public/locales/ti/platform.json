@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "ንቑሕ",
+    "blocked": "ተዓጽዩ ኣሎ።",
+    "terminated": "ተቛሪጹ"
+  },
+  "sort": {
+    "sortBy": "ብስርዓት",
+    "toggleDirection": "ኣንፈት ምድላው ምቕያር",
+    "asc": "↑ ኣስክ",
+    "desc": "↓ መግለጺ"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} ናይ {{total}} ዘርኢ።",
+    "prev": "← ቅድሚት",
+    "next": "ቀጺሉ →",
+    "page": "ገጽ {{page}} ናይ {{pageCount}}።"
+  },
+  "dashboard": {
+    "title": "ሓፈሻዊ ትሕዝቶ መድረኽ",
+    "subtitle": "ኩሉ ምዝጉብ ማሕበረሰብ ኣድሚን፣ ኣብ መላእ HydroLedger መድረኽ።",
+    "viewAll": "ንኹሎም ማሕበረሰባት ርአ",
+    "loadError": "ኣብዚ ሕጂ እዋን ፕላትፎርም ዳታ ክጽዕን ኣይከኣለን።",
+    "cards": {
+      "totalCommunities": "ጠቕላላ ማሕበረሰባት",
+      "registeredAdmins": "ምዝጉባት ኣድሚናት",
+      "totalResidents": "ጠቕላላ ነበርቲ",
+      "acrossAllCommunities": "ኣብ መላእ ኩሎም ማሕበረሰባት",
+      "active": "ንቑሕ",
+      "inGoodStanding": "ኣብ ጽቡቕ ደረጃ",
+      "blockedTerminated": "ተዓጽዩ / ተቛሪጹ",
+      "blockedTerminatedBreakdown": "{{blocked}} ተዓጊቱ፣ {{terminated}} ተቛሪጹ"
+    },
+    "recent": {
+      "title": "ኣብ ቀረባ እዋን ዝተመዝገቡ ማሕበረሰባት",
+      "loading": "ኣብ ምጽዓን...",
+      "empty": "ክሳብ ሕጂ ዝተመዝገበ ማሕበረሰባት የለን።",
+      "table": {
+        "community": "ማሕበረሰብ",
+        "admin": "ኣድሚን",
+        "status": "ኩነታት",
+        "residents": "ነበርቲ"
+      }
+    }
+  },
+  "communities": {
+    "count": "ማሕበረሰባት፡ {{count}}",
+    "loadError": "ማሕበረሰባት ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "searchPlaceholder": "ብማሕበረሰብ፡ ስም ኣድሚን፡ ወይ ብኢመይል ኣጽርዮ",
+    "statusFilter": {
+      "label": "ኩነታት",
+      "all": "ኩሎም"
+    },
+    "sortOptions": {
+      "community": "ማሕበረሰብ",
+      "admin": "ኣድሚን",
+      "residents": "ነበርቲ"
+    },
+    "loading": "ማሕበረሰባት ይጽዕኑ ኣለዉ...",
+    "empty": "ክሳብ ሕጂ ዝተመዝገበ ማሕበረሰባት የለን።",
+    "noMatch": "ምስ ፍልፍልኻ ዝሰማማዕ ማሕበረሰባት የለን።",
+    "table": {
+      "community": "ማሕበረሰብ",
+      "admin": "ኣድሚን",
+      "email": "ኢመይል",
+      "status": "ኩነታት",
+      "residents": "ነበርቲ",
+      "view": "ኣረኣእያ"
+    }
+  },
+  "communityDetail": {
+    "loadError": "ነዚ ማሕበረሰብ ክጽዕኖ ኣይከኣለን። ተኣልዩ ክኸውን ይኽእል እዩ።",
+    "statusUpdateError": "ናይዚ ማሕበረሰብ ኩነታት ክመሓየሽ ኣይከኣለን።",
+    "deleteError": "ነዚ ማሕበረሰብ ክስረዞ ኣይከኣለን።",
+    "loading": "ኣብ ምጽዓን ማሕበረሰብ...",
+    "notFound": "ማሕበረሰብ ኣይተረኽበን።",
+    "backLink": "← ናብ ማሕበረሰባት ምምላስ",
+    "backLinkShort": "ናብ ማሕበረሰባት ንመለስ",
+    "eyebrow": "ፕሮፋይል ማሕበረሰብ",
+    "unnamed": "ስሙ ዘይተጠቕሰ ማሕበረሰብ",
+    "noAddress": "ኣብ ፋይል ኣድራሻ የለን",
+    "stats": {
+      "residents": "ነበርቲ",
+      "status": "ኩነታት"
+    },
+    "actions": {
+      "reactivate": "ዳግማይ ንጥፈት",
+      "block": "ህንጻ",
+      "terminate": "ምቁራጽ",
+      "delete": "ማሕበረሰብ ምድምሳስ"
+    },
+    "blockDialog": {
+      "title": "ነዚ ማሕበረሰብ ኣድሚን ብሎክ?",
+      "message": "ብሎክ {{name}}? ክሳብ ዝፍታሕ ክኣትዉ ኣይክእሉን እዮም። ዝኾነ ዳታ ኣይክጽሎን እዩ።",
+      "confirm": "ህንጻ"
+    },
+    "terminateDialog": {
+      "title": "ነዚ ማሕበረሰብ ኣድሚን ምቁራጽ?",
+      "message": "ንሓዋሩ ንመእተዊ {{name}} ምቁራጽ? እዚ ክምለስ ኣይክእልን እዩ፣ ዋላ እኳ ዳታ ማሕበረሰቦም ንመዝገብ ክቕመጥ እንተኾነ።",
+      "confirm": "ምቁራጽ"
+    },
+    "deleteDialog": {
+      "title": "ነዚ ማሕበረሰብ ምድምሳስ?",
+      "message": "እዚ ድማ <strong>{{name}}</strong>ን ኩሎም ስድራቤታቱን፡ ነበርቱን፡ ቆጻሪታቱን፡ ውቅር ታሪፍ/ሕሳብ ሕሳብን ታሪኽ ፋክቱርን ንሓዋሩ ክስርዝ እዩ። እዚ ተግባር እዚ ክምለስ ኣይክእልን እዩ።",
+      "typeToConfirm": "ንኽትቅጽል <strong>{{word}}</strong> ጽሓፍ",
+      "confirm": "ኣረጋግፅ"
+    },
+    "residents": {
+      "title": "ነበርቲ",
+      "registeredCount": "ዝተመዝገበ: {{count}}",
+      "empty": "ኣብዚ ማሕበረሰብ ክሳብ ሕጂ ዝተመዝገበ ነባሪ የለን።",
+      "table": {
+        "flatUnit": "ፍላት ኣሃዱ",
+        "meter": "ሜትሮ",
+        "resident": "ነባሪ",
+        "email": "ኢመይል",
+        "passwordSet": "ፓስዎርድ ሴት ምግባር"
+      },
+      "yes": "እወ",
+      "no": "አይኮንን"
+    },
+    "cancel": "ሰርዝ",
+    "working": "ምስራሕ…",
+    "deleting": "ምድምሳስ..."
+  },
+  "systemStatus": {
+    "statusError": "ኩነታት ስርዓት ንምፍታሽ ኣብ ድሕሪት ክበጽሕ ኣይከኣለን።",
+    "metricsError": "ታሪኽ ሜትሪክስ ክጽዕን ኣይከኣለን።",
+    "ranges": {
+      "fiveMinutes": "5 ደቒቕ",
+      "fifteenMinutes": "15 ደቓይቕ",
+      "hour": "ሰዓት",
+      "day": "መዓልቲ",
+      "week": "ሰሙን",
+      "month": "ወርሒ",
+      "threeMonths": "3 ወርሒ"
+    },
+    "uptime": {
+      "days": "{{value}}መ",
+      "hours": "{{value}}ሰ",
+      "minutes": "{{value}}መ"
+    },
+    "charts": {
+      "requestsPerSec": "ሕቶታት/ሰ",
+      "opsPerSec": "Ops/sec",
+      "latency": "ላቴንሲ",
+      "lastValue": "{{value}} ናይ መወዳእታ",
+      "loading": "ኣብ ምጽዓን...",
+      "empty": "ክሳብ ሕጂ ነዚ ደረጃ ዝምልከት ዝኾነ መለክዒ ኣይተመዝገበን።"
+    },
+    "stats": {
+      "min": "ደቒቕ፡ <b>{{value}}</b>።",
+      "avg": "ማእከላይ ደረጃ: <b>{{value}}</b>",
+      "max": "ዝለዓለ ቁጽሪ: <b>{{value}}</b>",
+      "last": "ናይ መወዳእታ: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "ባክኤንድ ኤፒኣይ",
+      "checking": "ምፍታሽ...",
+      "reachable": "ዝብጻሕ",
+      "unreachable": "ዘይብጻሕ",
+      "connected": "ዝተኣሳሰረ",
+      "backendApiHint": "እዚ ገጽ ካብ ድሕረ ባይታ ስለ ዝተጻዕነ መልሲ ሂቡ።",
+      "database": "ዳታቤዝ",
+      "databaseHint": "PostgreSQL ምትእስሳር፣ ብቐጥታ ተፈቲሹ።",
+      "uptime": "ባክኤንድ ኣፕታይም",
+      "uptimeHint": "ካብቲ ናይ መወዳእታ ኣፕሊኬሽን ዳግማይ ምጅማር ጀሚሩ።",
+      "appVersion": "ኣፕ ቨርዥን",
+      "appVersionHint": "ባክኤንድ ህንጸት ስሪት።"
+    },
+    "mini": {
+      "latency": "ላቴንሲ",
+      "readsLatency": "ላቴንሲ የንብብ",
+      "writesLatency": "ላቴንሲ ይጽሕፍ",
+      "otherLatency": "ካልእ ላቴንሲ",
+      "connections": "ምትእስሳራት",
+      "totalKeys": "ጠቕላላ መፍትሕታት"
+    },
+    "note": "ሕቶታት/ሰከንድን ላቴንሲን ካብ ቀጥታዊ ባክኤንድ ትራፊክ ኣብ ነፍሲ ወከፍ 15 ካልኢት ናሙና ይውሰዱን ክሳብ 100 መዓልታት ይቕመጡን። እዚ መሰረታዊ ምትእስሳር + ትራፊክ ምፍታሽ እዩ — ምሉእ ምክትታል ኣፈጻጽማ መተግበሪ፡ ምትእኽኻብ ምዝገባ፡ ወይ መጠንቀቕታ ኣይትክእን እዩ።"
+  },
+  "reports": {
+    "loadError": "ጸብጻብ መድረኽ ክጽዕን ኣይከኣለን።",
+    "ranges": {
+      "threeMonths": "3 ወርሒ",
+      "sixMonths": "6 ወርሒ",
+      "twelveMonths": "12 ወርሒ",
+      "custom": "ቅቡል ልምዲ"
+    },
+    "sortOptions": {
+      "community": "ማሕበረሰብ",
+      "usage": "ኣጠቓቕማ",
+      "billed": "ሕሳብ ዝተኸፍለ",
+      "residents": "ነበርቲ"
+    },
+    "customRange": {
+      "from": "ካብ",
+      "to": "ናብ",
+      "hint": "ብሕታዊ ጸብጻብ ንምጽዓን ክልቲኡ \"ካብ\"ን \"ናብ\"ን ወርሒ ምረጽ።"
+    },
+    "loading": "ጸብጻብ ይጽዕን ኣሎ...",
+    "cards": {
+      "totalCommunities": "ጠቕላላ ማሕበረሰባት",
+      "inThisRange": "ኣብዚ ደረጃ",
+      "totalResidents": "ጠቕላላ ነበርቲ",
+      "acrossAllCommunities": "ኣብ መላእ ኩሎም ማሕበረሰባት",
+      "overallUsage": "ሓፈሻዊ ኣጠቓቕማ",
+      "meteredConsumption": "መለክዒ ዘለዎ ሃልኪ",
+      "overallBilled": "ብሓፈሻ Billed",
+      "finalizedInvoicesOnly": "ዝተዛዘሙ ፋክቱራት ጥራይ",
+      "avgUsagePerResident": "ማእከላይ ኣጠቓቕማ / ነባሪ",
+      "avgBillPerResident": "ማእከላይ ዋጋ ሕሳብ / ነባሪ"
+    },
+    "charts": {
+      "usageTitle": "መድረኽ-ዓቐን ኣጠቓቕማ (kL / ወርሒ)",
+      "usageEmpty": "ነዚ ደረጃ እዚ ዝኾነ ኣጠቓቕማ ኣይተመዝገበን።",
+      "usageSeries": "ኣጠቓቕማ",
+      "billedTitle": "ፕላትፎርም-ዓቐን ዝኽፈል መጠን ገንዘብ (₹ / ወርሒ)",
+      "billedEmpty": "ነዚ ደረጃ ዝኸውን ፋክቱር ዝተዛዘመ የለን።",
+      "billedSeries": "ሕሳብ ዝተኸፍለ"
+    },
+    "searchPlaceholder": "ብናይ ማሕበረሰብ ወይ ብስም ኣድሚን ምፍታሕ",
+    "empty": "ክሳብ ሕጂ ነዚ ደረጃ ዝምልከት ናይ ኣጠቓቕማ ወይ ሕሳብ ዳታ ዘለዎ ማሕበረሰባት የለን።",
+    "noMatch": "ምስ ፍልተርካ ዝሰማማዕ ማሕበረሰባት የለን።",
+    "table": {
+      "community": "ማሕበረሰብ",
+      "admin": "ኣድሚን",
+      "residents": "ነበርቲ",
+      "usage": "ኣጠቓቕማ (kL)",
+      "billed": "ሕሳብ (₹)",
+      "avgUsagePerResident": "ማእከላይ ኣጠቓቕማ / ነባሪ",
+      "avgBillPerResident": "ማእከላይ ዋጋ ሕሳብ / ነባሪ"
+    }
+  },
+  "supportTickets": {
+    "title": "ናይ ደገፍ ትኬት",
+    "subtitle": "ብነበርትን ኣድሚናት ማሕበረሰብን ዝለዓሉ ትኬታትን ስክፍታታትን ደገፍ፣ ብደረጃ መድረኽ።"
+  }
+}

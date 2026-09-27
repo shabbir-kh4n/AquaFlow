@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Agħlaq",
+    "signUpTitle": "Irreġistra l-komunità tiegħek",
+    "signInTitle": "Merħba lura",
+    "signUpSubtitle": "Oħloq kont Amministratur tal-Komunità biex tibda tmexxi r-residenti u l-kontijiet.",
+    "signInSubtitle": "Idħol biex tara l-użu tal-ilma u l-kontijiet tiegħek."
+  },
+  "signIn": {
+    "errorFallback": "Ma tistax tidħol. Jekk jogħġbok erġa' pprova.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMe": "Ftakar fija",
+    "forgotPassword": "Insejt il-password?",
+    "submitting": "Iffirmar...",
+    "submit": "Idħol",
+    "noAccount": "M'għandekx kont?",
+    "signUpLink": "Irreġistra"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Il-passwords ma jaqblux.",
+      "communityRequired": "Isem tal-Komunità huwa meħtieġ.",
+      "termsRequired": "Jekk jogħġbok taqbel mat-Termini tas-Servizz u l-Politika tal-Privatezza.",
+      "fallback": "Ma tistax toħloq kont. Jekk jogħġbok erġa' pprova."
+    },
+    "hint": "L-amministraturi tal-komunità biss jirreġistraw hawn. Ladarba tkun ġewwa, int ser iżżid id-dettalji tar-residenti tiegħek stess — dawn ma jiffirmawx waħedhom.",
+    "fullNameLabel": "Isem sħiħ",
+    "emailLabel": "Email",
+    "phoneLabel": "Numru tat-telefon",
+    "communityNameLabel": "Isem tal-Komunità",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Ikkonferma l-password",
+    "agreeTerms": "Naqbel mat-<termsLink>Termini tas-Servizz</termsLink> u l-<privacyLink>Politika tal-Privatezza</privacyLink>",
+    "submitting": "Qed jinħoloq kont...",
+    "submit": "Oħloq Kont tal-Amministratur",
+    "haveAccount": "Diġà għandek kont?",
+    "signInLink": "Idħol"
+  },
+  "installPrompt": {
+    "title": "Installa HydroLedger",
+    "description": "Żidha mal-iskrin tad-dar tiegħek għal aċċess rapidu.",
+    "dismiss": "Tkeċċi",
+    "install": "Installa"
+  },
+  "setPassword": {
+    "title": "Issettja l-password tiegħek",
+    "loading": "Tagħbija...",
+    "subtitle": "Hi {{name}}, agħżel password għal {{email}} biex tattiva l-kont HydroLedger tiegħek.",
+    "errors": {
+      "invalidLink": "Din il-link mhix valida jew skadiet.",
+      "tooShort": "Il-password għandu jkun ta' mill-inqas 8 karattri.",
+      "mismatch": "Il-passwords ma jaqblux.",
+      "fallback": "Ma setgħetx tissettja l-password tiegħek. Jekk jogħġbok erġa' pprova."
+    },
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Ikkonferma l-password",
+    "submitting": "Issettja l-password...",
+    "submit": "Issettja l-password u idħol"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Staqsi dwar il-kont tiegħek",
+      "admin": "Assistent tal-Komunità",
+      "platform": "Assistent tal-Pjattaforma",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "X'inhu HydroLedger?",
+        "tieredBilling": "Kif jaħdem il-kontijiet f'saffi?",
+        "leaks": "Kif jinstabu tnixxijiet?"
+      },
+      "resident": {
+        "billEstimate": "X'inhi l-istima attwali tal-kont tiegħi?",
+        "alerts": "Għandi xi twissijiet dwar l-użu?",
+        "readings": "Uri l-qari reċenti tiegħi tal-meter"
+      },
+      "admin": {
+        "households": "Kemm għandna djar?",
+        "billingCycles": "Elenka ċ-ċikli tal-kontijiet riċenti tagħna",
+        "tariff": "X'inhu l-pjan tat-tariffi attwali tagħna?"
+      },
+      "platform": {
+        "communities": "Elenka l-komunitajiet irreġistrati kollha",
+        "usageReport": "Uri r-rapport dwar l-użu tal-pjattaforma",
+        "systemStatus": "X'inhu l-istatus tas-sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Qed tibgħat messaġġi malajr wisq - jekk jogħġbok stenna ftit u erġa' pprova.",
+      "unavailable": "L-assistent huwa temporanjament mhux disponibbli. Jekk jogħġbok erġa' pprova dalwaqt.",
+      "generic": "Xi ħaġa marret ħażin meta tibgħat dak il-messaġġ. Jekk jogħġbok erġa' pprova."
+    },
+    "emptyHint": "Staqsini xi ħaġa - nista' nara biss id-dejta tiegħek stess.",
+    "closeAssistant": "Assistent mill-qrib",
+    "openAssistant": "Assistent miftuħ",
+    "inputPlaceholder": "Ittajpja messaġġ...",
+    "inputLabel": "Messaġġ",
+    "send": "Ibgħat"
+  },
+  "supportBoard": {
+    "defaultTitle": "Biljetti ta' Appoġġ",
+    "defaultCreateLabel": "Qiegħed Tħassib Ġdid",
+    "status": {
+      "open": "Miftuħa",
+      "inProgress": "Fil-Progress",
+      "resolved": "Solvuti",
+      "closed": "Magħluq"
+    },
+    "tabs": {
+      "all": "Biljetti kollha"
+    },
+    "recipients": {
+      "admin": "Amministratur tal-Komunità",
+      "systemAdmin": "Amministratur tas-Sistema",
+      "both": "Amministratur tal-Komunità + Amministratur tas-Sistema"
+    },
+    "roles": {
+      "resident": "Resident",
+      "admin": "Amministratur"
+    },
+    "toRecipients": "Lil: {{recipients}}",
+    "raisedByResident": "Imkabbra minn residenti {{name}}",
+    "raisedByAdmin": "Imqajma mill-amministratur {{name}}",
+    "refresh": "Aġġorna",
+    "stats": {
+      "openLabel": "Sottomissjonijiet Miftuħa",
+      "openHint": "Jistenna reviżjoni",
+      "inProgressLabel": "Fil-Progress",
+      "inProgressHint": "Qed tkun maħduma",
+      "resolvedLabel": "Solvuti",
+      "resolvedHint": "Ingħalaq b'suċċess"
+    },
+    "searchPlaceholder": "Fittex il-biljetti skont is-suġġett, il-ħruġ...",
+    "loadingTickets": "Qiegħed il-biljetti qed itellgħu...",
+    "empty": {
+      "title": "Ma nstabu l-ebda biljett ta' appoġġ",
+      "body": "Bħalissa m'għandekx talbiet ta' appoġġ miftuħa jew irreġistrati li jaqblu ma' dan il-filtru.",
+      "cta": "Ibgħat Tħassib"
+    },
+    "errors": {
+      "loadList": "Ma setgħetx tagħbija biljetti ta' appoġġ. Jekk jogħġbok erġa' pprova.",
+      "loadDetail": "Ma setax jgħabbi dan il-biljett. Jekk jogħġbok erġa' pprova.",
+      "required": "Is-suġġett u l-messaġġ huma t-tnejn meħtieġa.",
+      "recipientRequired": "Agħżel mill-inqas riċevitur wieħed (Amministratur tal-Komunità u/jew Amministratur tas-Sistema).",
+      "submitFallback": "Ma setgħetx tissottometti dan il-biljett. Jekk jogħġbok erġa' pprova.",
+      "sendReply": "Ma setgħetx tibgħat dan il-messaġġ. Jekk jogħġbok erġa' pprova.",
+      "updateStatus": "Ma setax jaġġorna dan l-istatus tal-biljett. Jekk jogħġbok erġa' pprova."
+    },
+    "form": {
+      "defaultHint": "Iddeskrivi l-kwistjoni jew it-tħassib tiegħek hawn taħt.",
+      "subjectLabel": "Suġġett",
+      "subjectPlaceholder": "Sommarju qasir tal-kwistjoni tiegħek",
+      "messageLabel": "Messaġġ",
+      "messagePlaceholder": "Iddeskrivi x'qed jiġri fid-dettall...",
+      "recipientsLabel": "Ibgħat dan it-tħassib lil",
+      "cancel": "Ikkanċella",
+      "submitting": "Tissottometti...",
+      "submit": "Ibgħat Biljett"
+    },
+    "detail": {
+      "loading": "Qiegħed il-biljett...",
+      "replyPlaceholder": "Ikteb tweġiba...",
+      "close": "Agħlaq",
+      "sending": "Tibgħat...",
+      "sendReply": "Ibgħat Risposta"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Merħba lura, {{name}}",
+    "openMenu": "Iftaħ il-menu",
+    "closeMenu": "Agħlaq il-menu",
+    "logout": "Log out",
+    "search": "Fittex",
+    "notifications": "Notifiki"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Daxxbord",
+      "households": "Direttorju tad-Djar",
+      "meterReadings": "Qari tal-Meter",
+      "billing": "Ġestjoni tal-kontijiet",
+      "bulkPurchases": "Xiri bl-ingrossa",
+      "reports": "Rapporti",
+      "waterLeakage": "Tnixxija tal-Ilma",
+      "support": "Appoġġ / Tħassib",
+      "tariffPlans": "Pjanijiet ta' Tariffi",
+      "announcements": "Avviżi",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hawn stampa tal-komunità tiegħek."
+      },
+      "households": {
+        "title": "Direttorju tad-Djar",
+        "subtitle": "Żid, aġġorna, u mmaniġġja r-residenti li jgħixu fil-komunità tiegħek."
+      },
+      "meterReadings": {
+        "title": "Hub tal-Qari tal-Meter tal-Ilma",
+        "subtitle": "Fittex residenti u rreġistra l-qari tal-miter tal-ilma."
+      },
+      "tariffPlans": {
+        "title": "Konfigurazzjoni tat-Tariffa",
+        "subtitle": "Ikkonfigura limiti tar-rata f'saffi, spejjeż kondiviżi taż-żona komuni, u metodi ta' distribuzzjoni għall-komunità tal-appartamenti tiegħek."
+      },
+      "billing": {
+        "title": "Ġestjoni tal-kontijiet",
+        "subtitle": "Iftaħ, iffinalizza, u arkivja ċ-ċikli tal-kontijiet, u tirrevedi fatturi dettaljati għal kull dar."
+      },
+      "bulkPurchases": {
+        "title": "Xiri bl-ingrossa",
+        "subtitle": "Irreġistra l-kunsinni tat-tankers u x-xiri tal-provvista muniċipali għall-komunità tiegħek."
+      },
+      "waterLeakage": {
+        "title": "Tnixxija tal-Ilma",
+        "subtitle": "Ikkonfigura twissijiet ta' tnixxija bbażati fuq il-limitu u l-outliers, u eżamina d-djar immarkati."
+      },
+      "support": {
+        "title": "Appoġġ / Tħassib",
+        "subtitle": "Għolli l-biljetti tiegħek lill-Amministratur tas-Sistema, jew maniġġa t-tħassib li r-residenti tiegħek indirizzawlek."
+      },
+      "profile": {
+        "title": "Settings & Profil",
+        "subtitle": "Immaniġġja d-dettalji tal-kont tiegħek u l-informazzjoni tal-appartament."
+      }
+    },
+    "fallbackName": "Amministratur",
+    "fallbackCommunity": "Amministratur tal-Komunità",
+    "notBuilt": "{{label}} għadu mhux mibni",
+    "searchPlaceholder": "Fittex xi ħaġa..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporti",
+      "description": "Rapporti dwar il-konsum, il-kontijiet u l-konservazzjoni għall-komunità tiegħek."
+    },
+    "announcements": {
+      "title": "Avviżi",
+      "description": "Ibgħat avviżi mal-komunità kollha lir-residenti tiegħek."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} dalwaqt"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Daxxbord",
+      "usageHistory": "Storja tal-Użu",
+      "bills": "Bills tiegħi",
+      "recommendations": "Rakkomandazzjonijiet",
+      "reports": "Rapporti",
+      "support": "Appoġġ / Tħassib",
+      "notifications": "Notifiki",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "L-istorja tal-użu tiegħek",
+      "billing": "Kontijiet u Fatturi",
+      "notifications": "Notifiki",
+      "recommendations": "Rakkomandazzjonijiet",
+      "support": "Appoġġ / Tħassib"
+    },
+    "defaultTitle": "Dashboard Residenti",
+    "navLabel": "Navigazzjoni residenti",
+    "fallbackName": "Resident",
+    "unit": "Unità {{number}}",
+    "comingSoon": "{{label}} dalwaqt",
+    "profile": "Profil",
+    "searchPlaceholder": "Fittex analitiċi, kontijiet..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Daxxbord",
+      "communities": "Komunitajiet",
+      "reports": "Rapporti",
+      "supportTickets": "Biljetti ta' Appoġġ",
+      "systemStatus": "Status tas-Sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Snapshot mal-pjattaforma kollha madwar kull komunità reġistrata."
+      },
+      "communities": {
+        "title": "Komunitajiet",
+        "subtitle": "Kull amministratur tal-komunità rreġistrata u l-komunità tagħhom, f'post wieħed."
+      },
+      "reports": {
+        "title": "Rapporti",
+        "subtitle": "Użu tal-ilma mal-pjattaforma kollha u ċifri tal-kontijiet, skont il-komunità u maż-żmien."
+      },
+      "supportTickets": {
+        "title": "Biljetti ta' Appoġġ",
+        "subtitle": "Tappoġġja l-biljetti u t-tħassib imqajjem mir-residenti u l-amministraturi tal-komunità, mal-pjattaforma kollha."
+      },
+      "systemStatus": {
+        "title": "Status tas-Sistema",
+        "subtitle": "Konnettività backend u saħħa runtime bażika."
+      }
+    },
+    "fallbackName": "Amministratur tas-Sistema",
+    "platformOwner": "Sid tal-Pjattaforma",
+    "searchPlaceholder": "Fittex komunitajiet..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lingwa: {{language}}",
+    "searchPlaceholder": "Fittex il-lingwa...",
+    "noMatches": "Ebda logħbiet"
+  }
+}

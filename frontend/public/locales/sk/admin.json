@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Načítava sa…",
+    "saving": "Ukladá sa…",
+    "saved": "Uložené.",
+    "uploading": "Nahráva sa…",
+    "upload": "Nahrať",
+    "uploadError": "Tento súbor sa nepodarilo nahrať. Skúste to znova.",
+    "cancel": "Zrušiť",
+    "close": "Zavrieť",
+    "edit": "Upraviť",
+    "remove": "Odstrániť",
+    "saveChanges": "Uložiť zmeny",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Riadok {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Zobrazuje sa {{from}}–{{to}} z {{total}}",
+    "prev": "← Predch",
+    "next": "Ďalej →",
+    "page": "Strana {{page}} z {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Momentálne nie je možné načítať údaje vašej komunity.",
+    "title": "{{community}} Dashboard bytu",
+    "titleFallback": "Váš bytový panel",
+    "subtitle": "Prevádzkový prehľad pre čiastkové meranie vody a spotrebu v domácnosti.",
+    "comingSoon": "Už čoskoro",
+    "manageCommunity": "Spravovať komunitu",
+    "noUsageReadings": "Zatiaľ neboli zaznamenané žiadne údaje o používaní.",
+    "cards": {
+      "totalHouseholds": "Celkový počet domácností",
+      "occupied": "Obsadené",
+      "activeMeters": "Aktívne merače",
+      "reportingReadings": "Hlásenie hodnôt",
+      "monthlyConsumption": "Mesačná spotreba",
+      "thisCalendarMonth": "Tento kalendárny mesiac",
+      "latestRecordedMonth": "Posledný zaznamenaný mesiac ({{month}})",
+      "noReadingsYet": "Zatiaľ neboli zaznamenané žiadne hodnoty",
+      "pendingAlerts": "Nespracované upozornenia",
+      "anomalyPreview": "Ukážka detekcie anomálií – zatiaľ nie je k dispozícii"
+    },
+    "actions": {
+      "label": "Rýchle administratívne akcie",
+      "uploadReadings": "Nahrajte stavy meračov",
+      "configureTariffs": "Konfigurovať tarify",
+      "reportsNotBuilt": "Prehľady ešte nie sú vytvorené",
+      "downloadReports": "Stiahnite si systémové správy"
+    },
+    "chart": {
+      "title": "Porovnanie mesačnej spotreby (kL)",
+      "subtitle": "Posledné {{months}} mesiace: cieľová verzus skutočná spotreba.",
+      "targetSeries": "Cieľ (ukážka)",
+      "actualSeries": "Skutočné"
+    },
+    "recent": {
+      "title": "Nedávne meradlá",
+      "unit": "Jednotka",
+      "resident": "Rezident",
+      "lastReading": "Posledné čítanie",
+      "consumption": "Spotreba"
+    }
+  },
+  "households": {
+    "loadError": "Nepodarilo sa načítať obyvateľov. Skúste to znova.",
+    "fixFields": "Opravte zvýraznené polia.",
+    "saveError": "Tohto obyvateľa sa nepodarilo uložiť. Skontrolujte podrobnosti.",
+    "confirmRemove": "Odstrániť {{name}} z adresára domácností?",
+    "removeError": "Tohto obyvateľa sa nepodarilo odstrániť. Skúste to znova.",
+    "count": "Domácnosti: {{total}}",
+    "bulkUploadButton": "⇪ Hromadné nahrávanie",
+    "addResidentButton": "+ Pridať obyvateľa",
+    "searchPlaceholder": "Filtrujte podľa mena, domu, e-mailu alebo čísla merača.",
+    "loading": "Načítava sa obyvateľov…",
+    "empty": "Zatiaľ žiadni obyvatelia. Kliknite na „Pridať obyvateľa“ a zaregistrujte prvú domácnosť.",
+    "noMatch": "Žiadni obyvatelia nezodpovedajú „{{search}}“.",
+    "sort": {
+      "label": "Zoradiť podľa",
+      "name": "Meno",
+      "houseNumber": "Číslo domu",
+      "dateOfJoining": "Dátum vstupu",
+      "toggleDirection": "Prepnúť smer zoradenia",
+      "asc": "↑ Asc",
+      "desc": "↓ Popis"
+    },
+    "gender": {
+      "male": "Mužský",
+      "female": "Žena",
+      "other": "Iné"
+    },
+    "table": {
+      "name": "Meno",
+      "houseUnit": "Dom / Jednotka",
+      "email": "Email",
+      "phone": "Telefón",
+      "meterNumber": "Merač č.",
+      "sqft": "štvorcových stôp",
+      "joined": "Pripojené"
+    },
+    "form": {
+      "addTitle": "Pridať obyvateľa",
+      "editTitle": "Upraviť obyvateľa",
+      "editSubtitle": "Tým sa aktualizujú údaje o obyvateľovi vo vašom adresári.",
+      "bypassSubtitle": "Heslo tohto obyvateľa nastavujete priamo. Nebude odoslaný žiadny e-mail.",
+      "addSubtitle": "Tomuto používateľovi bude e-mailom zaslaný odkaz na nastavenie hesla, aby si mohol aktivovať svoje vlastné prihlásenie.",
+      "fullName": "Celé meno",
+      "houseNumber": "Dom / jednotka č.",
+      "email": "Email",
+      "phone": "Telefónne číslo",
+      "meterNumber": "Číslo merača",
+      "governmentId": "Vládne identifikačné číslo",
+      "gender": "Pohlavie",
+      "dateOfBirth": "Dátum narodenia",
+      "dateOfJoining": "Dátum pripojenia",
+      "flatSize": "Plochá veľkosť (štvorcové stopy)",
+      "bypassLabel": "Obísť e-mail s nastaveným heslom — teraz nastavte heslo pre tohto obyvateľa",
+      "password": "heslo",
+      "confirmPassword": "Potvrďte heslo"
+    },
+    "validation": {
+      "fullNameRequired": "Vyžaduje sa celé meno.",
+      "emailRequired": "Vyžaduje sa e-mail.",
+      "phoneRequired": "Vyžaduje sa telefónne číslo.",
+      "houseNumberRequired": "Vyžaduje sa číslo domu / jednotky.",
+      "houseNumberTaken": "Toto číslo domu je už pridelené inému obyvateľovi.",
+      "meterNumberRequired": "Vyžaduje sa číslo merača.",
+      "meterNumberFormat": "Číslo merača musí vyzerať ako MTR-1234 (4 číslice).",
+      "meterNumberTaken": "Toto číslo merača je už pridelené inému obyvateľovi.",
+      "governmentIdRequired": "Vyžaduje sa občiansky preukaz.",
+      "governmentIdFormat": "ID musí mať 6 číslic začínajúcich na 99 (napr. 991234).",
+      "genderRequired": "Vyberte pohlavie.",
+      "dateOfBirthRequired": "Vyžaduje sa dátum narodenia.",
+      "dateOfJoiningRequired": "Vyžaduje sa dátum pripojenia.",
+      "passwordRequired": "Vyžaduje sa heslo.",
+      "passwordLength": "Heslo musí mať aspoň 8 znakov.",
+      "confirmPasswordRequired": "Potvrďte heslo.",
+      "passwordMismatch": "Heslá sa nezhodujú."
+    },
+    "bulk": {
+      "title": "Hromadné nahrávanie obyvateľov",
+      "noFile": "Na nahranie vyberte súbor .csv alebo .xlsx/.xls.",
+      "instructions": "Nahrajte súbor .csv alebo .xlsx/.xls so stĺpcami <code>{{columns}}</code> (heslo aj flatSizeSqft sú voliteľné). Riadky s heslom ho nastavia priamo; riadky bez jedného dostanú e-mail s nastaveným heslom, rovnako ako manuálne pridanie rezidenta. Duplicitné čísla domu/metra alebo e-maily sú odmietnuté v každom riadku – jeden zlý riadok nezlyhá celú dávku."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Nepodarilo sa načítať obyvateľov. Skúste to znova.",
+    "historyLoadError": "Nepodarilo sa načítať históriu čítania. Skúste to znova.",
+    "successMessage": "Úspešne zaznamenané čítanie {{value}} kL pre {{house}} (glukomer: {{meter}})! Vypočítaná spotreba: {{consumption}} kL.",
+    "tabs": {
+      "single": "Jediný vstup",
+      "csv": "Hromadné CSV odovzdanie",
+      "history": "Čítanie histórie"
+    },
+    "source": {
+      "manual": "manuál",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Tento obyvateľ nemá v evidencii žiadne číslo merača.",
+      "dateRequired": "Vyžaduje sa dátum čítania.",
+      "invalidValue": "Zadajte platnú nezápornú hodnotu čítania.",
+      "duplicate": "Odpočet pre tento glukomer už k tomuto dátumu existuje.",
+      "meterNotFound": "Tento merač sa nepodarilo nájsť. Znova vyberte obyvateľa.",
+      "lowerThanPrevious": "Táto hodnota je nižšia ako predchádzajúca zaznamenaná hodnota.",
+      "recordFailed": "Toto čítanie sa nepodarilo zaznamenať. Skúste to znova."
+    },
+    "combo": {
+      "label": "Vyberte položku Flat & Meter Serial",
+      "placeholder": "Vybrať ploché a meracie sériové…",
+      "flat": "Ploché {{house}}",
+      "noMeter": "Žiadny meter",
+      "searchPlaceholder": "Hľadať číslo bytu, sériový meter, obyvateľ…",
+      "unitsHeader": "Obytné jednotky",
+      "found": "Nájdené byty: {{total}}",
+      "loading": "Načítava sa obyvateľov…",
+      "noMatch": "Žiadni obyvatelia nezodpovedajú „{{search}}“.",
+      "unassigned": "Nepriradené",
+      "itemMeta": "{{name}} · Naposledy: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Zaznamenávanie čítania pre",
+      "context": "Dom {{house}} · Merač {{meter}}",
+      "changeResident": "Zmeniť obyvateľa",
+      "readingDate": "Dátum čítania",
+      "readingValue": "Aktuálny stav merača (kL)",
+      "submit": "Odoslať overené čítanie",
+      "recentTitle": "Nedávne čítania",
+      "recentEmpty": "Pre tento glukomer zatiaľ neboli zaznamenané žiadne hodnoty."
+    },
+    "info": {
+      "title": "Overenie monotónneho merača",
+      "body": "Každý nový údaj musí byť väčší alebo rovný predchádzajúcemu protokolu daného merača – to udržuje výpočty spotreby presné a včas zachytí transponované číslice."
+    },
+    "details": {
+      "title": "Podrobnosti vybranej jednotky",
+      "flatUnit": "Plochá jednotka",
+      "meterSerial": "Sériový meter",
+      "occupant": "Meno obyvateľa",
+      "lastDial": "Posledná zaznamenaná voľba",
+      "noReadings": "Zatiaľ žiadne čítania",
+      "monthConsumption": "Spotreba mesiaca",
+      "empty": "Nie je vybratá žiadna domácnosť. Vyhľadajte a vyberte obyvateľa, aby ste tu videli podrobnosti o jeho merači."
+    },
+    "csv": {
+      "noFile": "Vyberte súbor CSV, ktorý chcete odovzdať.",
+      "instructions": "Nahrajte CSV so stĺpcami <code>{{columns}}</code>. Riadky sa spracovávajú nezávisle – jeden zlý riadok nezlyhá celú dávku."
+    },
+    "history": {
+      "loading": "Načítavajú sa údaje…",
+      "empty": "Pre vašu komunitu zatiaľ nie sú zaznamenané žiadne čítania."
+    },
+    "table": {
+      "meterNumber": "Merač č.",
+      "date": "Dátum",
+      "value": "Hodnota (kL)",
+      "consumption": "Spotreba (kL)",
+      "source": "Zdroj"
+    }
+  },
+  "billingCycles": {
+    "title": "Fakturačné cykly",
+    "loadError": "Nepodarilo sa načítať fakturačné cykly. Skúste to znova.",
+    "paymentUpdateError": "Nepodarilo sa aktualizovať stav platby tejto faktúry.",
+    "pdfError": "Nepodarilo sa stiahnuť PDF. Skúste to znova.",
+    "finalizeError": "Tento fakturačný cyklus sa nepodarilo dokončiť.",
+    "archiveError": "Tento fakturačný cyklus sa nepodarilo archivovať.",
+    "loading": "Načítavajú sa fakturačné cykly…",
+    "empty": "Zatiaľ žiadne fakturačné cykly. Ak chcete začať, otvorte jeden vyššie.",
+    "status": {
+      "open": "OTVORENÉ",
+      "finalized": "Dokončené",
+      "archived": "Archivované"
+    },
+    "open": {
+      "title": "Otvorte nový fakturačný cyklus",
+      "noMonth": "Vyberte mesiac na otvorenie.",
+      "error": "Nepodarilo sa otvoriť fakturačný cyklus pre daný mesiac.",
+      "monthAria": "Mesiac fakturačného obdobia",
+      "opening": "Otvára sa…",
+      "submit": "Otvorený cyklus"
+    },
+    "table": {
+      "period": "Obdobie",
+      "status": "Stav",
+      "householdsBilled": "Domácnosti fakturované",
+      "totalBilled": "Celkom fakturované",
+      "actions": "Akcie"
+    },
+    "actions": {
+      "finalize": "Dokončiť",
+      "finalizing": "Dokončuje sa…",
+      "archive": "Archív",
+      "archiving": "Archivuje sa…"
+    },
+    "filter": {
+      "aria": "Filtrujte podľa stavu platby",
+      "all": "Všetky"
+    },
+    "payment": {
+      "paid": "Zaplatené",
+      "unpaid": "Nezaplatené",
+      "updating": "Aktualizuje sa…",
+      "markPaid": "Označiť ako zaplatené",
+      "markUnpaid": "Označiť ako nezaplatené"
+    },
+    "detail": {
+      "title": "Podrobnosti cyklu — {{period}}",
+      "loading": "Načítavajú sa faktúry…",
+      "notFinalized": "Tento cyklus ešte nebol dokončený – nevygenerovali sa žiadne faktúry.",
+      "noInvoices": "Žiadne faktúry za tento cyklus.",
+      "noMatch": "Tomuto filtru nezodpovedajú žiadne faktúry."
+    },
+    "invoices": {
+      "household": "Domácnosť",
+      "resident": "Rezident",
+      "meterNumber": "Merač č.",
+      "consumption": "Spotreba (kL)",
+      "tierBreakdown": "Rozdelenie úrovní",
+      "commonArea": "Spoločný priestor",
+      "total": "Celkom",
+      "paymentStatus": "Stav platby",
+      "pdf": "PDF",
+      "baseLine": "Základ: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Úroveň {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nepodarilo sa načítať konfiguráciu tarify",
+    "saveError": "Nepodarilo sa uložiť konfiguráciu tarify",
+    "chartTitle": "Úrovne aktívnej meranej úžitkovej hodnoty",
+    "axisNote": "Sadzba v ₹/kL, limity v kL",
+    "tableTitle": "Tabuľka cenových úrovní",
+    "defaultRatesNote": "Zobrazujú sa predvolené sadzby – zatiaľ neuložené.",
+    "addTier": "+ Pridať úroveň",
+    "saveRates": "Ušetrite tarify",
+    "tierLevel": {
+      "base": "Úroveň {{tier}} (základ)",
+      "medium": "Úroveň {{tier}} (stredná)",
+      "heavy": "Úroveň {{tier}} (ťažká)"
+    },
+    "basePrice": {
+      "label": "Základná cena (₹ / kL, vzťahuje sa na VŠETKU spotrebu)",
+      "note": "Každých kL sa najprv účtuje táto paušálna sadzba. Nižšie uvedené dosky pridávajú EXTRA poplatky len za použitie, ktoré spadá do ich rozsahu – napr. doska začínajúca na 50 kL iba pripočítava svoju sadzbu za spotrebu nad 50 kL."
+    },
+    "table": {
+      "tierLevel": "Úroveň úrovne",
+      "slabLimit": "Limit dosky (kL)",
+      "rate": "Sadzba za kL",
+      "action": "Akcia"
+    },
+    "commonArea": {
+      "title": "Konfigurácia zdieľaných nákladov na spoločnú oblasť",
+      "loadError": "Nepodarilo sa načítať konfiguráciu nákladov na spoločnú oblasť",
+      "saveError": "Nepodarilo sa uložiť konfiguráciu nákladov na spoločnú oblasť",
+      "empty": "Zatiaľ nie sú uložené žiadne nákladové položky.",
+      "labelPlaceholder": "Štítok nákladovej položky",
+      "perMonth": "/ mesiac",
+      "active": "Aktívne",
+      "addItem": "+ Pridať nákladovú položku",
+      "save": "Uložiť konfiguráciu spoločnej oblasti"
+    },
+    "distribution": {
+      "title": "Výber spôsobu rozdelenia nákladov",
+      "consumption": "Podľa spotreby (podmerané proporcionálne)",
+      "floorArea": "Podľa veľkosti bytu (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Dátum začiatku fakturácie cyklu",
+      "cycleStartValue": "1. deň každého mesiaca",
+      "autoInvoices": "Automaticky generovať PDF faktúry"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Prekročený prah",
+      "statisticalOutlier": "Štatistická odľahlá hodnota"
+    },
+    "status": {
+      "active": "Aktívne",
+      "resolved": "Vyriešené",
+      "dismissed": "Odmietnuté"
+    },
+    "config": {
+      "title": "Konfigurácia detekcie úniku",
+      "subtitle": "Nastavte mesačný prah spotreby a/alebo povoľte štatistické zisťovanie odľahlých hodnôt (označí domácnosť, ktorej mesačná spotreba je nezvyčajne vysoká v porovnaní s jej vlastnou históriou).",
+      "loadError": "Nepodarilo sa načítať konfiguráciu upozornenia. Skúste to znova.",
+      "thresholdRequired": "Keď sú povolené upozornenia na prahové hodnoty, vyžaduje sa mesačný limit (kL).",
+      "saveError": "Túto konfiguráciu sa nepodarilo uložiť.",
+      "loading": "Načítava sa konfigurácia…",
+      "threshold": "Mesačný limit (kL)",
+      "sensitivity": "Mimoriadna citlivosť (σ multiplikátor)",
+      "enableThreshold": "Povoliť upozornenia na prahové hodnoty",
+      "enableOutlier": "Povoliť štatistické odľahlé upozornenia",
+      "save": "Uložiť konfiguráciu",
+      "running": "Beží…",
+      "runNow": "Spustite detekciu"
+    },
+    "alerts": {
+      "title": "Označené domácnosti",
+      "loadError": "Nepodarilo sa načítať upozornenia. Skúste to znova.",
+      "runError": "Momentálne nie je možné spustiť detekciu úniku. Skúste to znova.",
+      "updateError": "Toto upozornenie sa nepodarilo aktualizovať. Skúste to znova.",
+      "allStatuses": "Všetky stavy",
+      "loading": "Načítavajú sa upozornenia…",
+      "empty": "Žiadne upozornenia na zobrazenie. Vyššie nakonfigurujte prah alebo povoľte detekciu odľahlých hodnôt a potom kliknite na „Spustiť detekciu teraz“, aby ste vyhodnotili aktuálne používanie vašej komunity.",
+      "resolve": "Vyriešiť",
+      "dismiss": "Odmietnuť"
+    },
+    "table": {
+      "household": "Domácnosť",
+      "resident": "Rezident",
+      "meter": "Meter",
+      "type": "Typ",
+      "period": "Obdobie",
+      "consumption": "Spotreba",
+      "reference": "Odkaz",
+      "status": "Stav"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Nepodarilo sa načítať hromadné nákupy vody. Skúste to znova.",
+    "confirmRemove": "Odstrániť dodávku {{source}} dňa {{date}}?",
+    "removeError": "Tento nákup sa nepodarilo odstrániť. Skúste to znova.",
+    "count": "Zaznamenané nákupy: {{total}}",
+    "recordButton": "+ Nákup rekordov",
+    "loading": "Načítavajú sa hromadné nákupy vody…",
+    "empty": "Zatiaľ neboli zaznamenané žiadne nákupy vody vo veľkom. Kliknutím na „Zaznamenať nákup“ zaznamenáte dodávku cisternou alebo nákup komunálnych zásob.",
+    "table": {
+      "date": "Dátum",
+      "source": "Zdroj",
+      "volume": "Objem (L)",
+      "unitCost": "Jednotkové náklady",
+      "totalCost": "Celkové náklady",
+      "notes": "Poznámky"
+    },
+    "form": {
+      "addTitle": "Rekordný nákup vody vo veľkom",
+      "editTitle": "Upraviť hromadný nákup vody",
+      "subtitle": "Sledujte dodávku cisterny alebo nákup komunálnych zásob pre vašu komunitu – zaznamenáva sa to len kvôli prehľadnosti nákladov a nemá vplyv na faktúry pre domácnosť.",
+      "requiredFields": "Vyplňte dátum, zdroj, objem a jednotkovú cenu.",
+      "saveError": "Tento nákup sa nepodarilo uložiť. Skontrolujte podrobnosti.",
+      "purchaseDate": "Dátum nákupu",
+      "source": "Zdroj / dodávateľ",
+      "volume": "Objem (litre)",
+      "unitCost": "Jednotková cena (₹/liter)",
+      "totalPreview": "Celkové náklady: {{amount}}",
+      "notes": "Poznámky (voliteľné)",
+      "submit": "Rekordný nákup"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ešte nie je vytvorený",
+    "profileSaveError": "Váš profil sa nepodarilo uložiť. Skúste to znova.",
+    "apartmentSaveError": "Podrobnosti o apartmáne sa nepodarilo uložiť. Skúste to znova.",
+    "specsTitle": "Špecifikácie profilu",
+    "photoUnavailable": "Nahrávanie fotografií zatiaľ nie je k dispozícii",
+    "changePhoto": "Zmeniť fotografiu",
+    "deletePhoto": "Odstrániť",
+    "photoHint": "JPG alebo PNG. Maximálna veľkosť 2 MB.",
+    "saveProfile": "Uložiť profil",
+    "apartmentTitle": "Podrobnosti o apartmáne",
+    "saveApartment": "Uložiť podrobnosti o apartmáne",
+    "tabs": {
+      "profile": "Nastavenia profilu",
+      "apartment": "Profil bytu",
+      "notifications": "Pravidlá oznamovania",
+      "billing": "Integrácie fakturácie",
+      "security": "Zabezpečenie a prístup"
+    },
+    "fields": {
+      "fullName": "Celé meno",
+      "email": "E-mailová adresa",
+      "emailLocked": "Email tu nie je možné zmeniť",
+      "phone": "Telefónne číslo",
+      "accessLevel": "Úroveň prístupu",
+      "accessLevelValue": "Správca komunity",
+      "roleLocked": "Správa rolí zatiaľ nie je k dispozícii",
+      "apartmentName": "Názov apartmánu",
+      "mainsSource": "Sieťový zdroj",
+      "mainsSourcePlaceholder": "napr. Mestské zásobovanie + doplnkové cisterny",
+      "address": "Fyzická adresa"
+    },
+    "security": {
+      "title": "Ukážka zabezpečenia a prístupu",
+      "twoFactor": "Dvojfaktorová autentifikácia",
+      "twoFactorHint": "Povolené pri prihlásení",
+      "twoFactorUnavailable": "Dvojfaktorové overenie zatiaľ nie je k dispozícii",
+      "twoFactorAria": "Dvojfaktorové overenie (iba ukážka)",
+      "sessionsLabel": "Aktívne správcovské relácie",
+      "sessionsEmpty": "Sledovanie relácií zatiaľ nie je k dispozícii – toto je ukážka pripravovaného rozloženia."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Moje vstupenky",
+      "inbox": "Pobytové lístky"
+    },
+    "mine": {
+      "title": "Moje lístky na podporu",
+      "subtitle": "Položte otázku alebo obavy týkajúce sa vašej komunity správcovi systému.",
+      "emptyCreateHint": "Položte otázku alebo obavy týkajúce sa vašej komunity. Správca systému to tu skontroluje a odpovie."
+    },
+    "inbox": {
+      "title": "Pobytové lístky",
+      "subtitle": "Podporné lístky a obavy, ktoré vám adresovali obyvatelia vašej komunity."
+    }
+  }
+}

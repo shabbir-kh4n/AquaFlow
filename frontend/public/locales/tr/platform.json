@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktif",
+    "blocked": "Engellendi",
+    "terminated": "Feshedildi"
+  },
+  "sort": {
+    "sortBy": "Göre sırala",
+    "toggleDirection": "Sıralama yönünü değiştir",
+    "asc": "↑ Artan",
+    "desc": "↓ Tanım"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} / {{total}} gösteriliyor",
+    "prev": "← Önceki",
+    "next": "Sonraki →",
+    "page": "Sayfa {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platforma Genel Bakış",
+    "subtitle": "Tüm HydroLedger platformundaki her kayıtlı topluluk yöneticisi.",
+    "viewAll": "Tüm Toplulukları Görüntüle",
+    "loadError": "Platform verileri şu anda yüklenemiyor.",
+    "cards": {
+      "totalCommunities": "Toplam Topluluklar",
+      "registeredAdmins": "Kayıtlı yöneticiler",
+      "totalResidents": "Toplam Sakinler",
+      "acrossAllCommunities": "Tüm topluluklarda",
+      "active": "Aktif",
+      "inGoodStanding": "İyi durumda",
+      "blockedTerminated": "Engellendi / Sonlandırıldı",
+      "blockedTerminatedBreakdown": "{{blocked}} engellendi, {{terminated}} sonlandırıldı"
+    },
+    "recent": {
+      "title": "Yeni Kayıt Olunan Topluluklar",
+      "loading": "Yükleniyor…",
+      "empty": "Henüz kayıtlı topluluk yok.",
+      "table": {
+        "community": "Toplum",
+        "admin": "Yönetici",
+        "status": "Durum",
+        "residents": "Sakinler"
+      }
+    }
+  },
+  "communities": {
+    "count": "Topluluklar: {{count}}",
+    "loadError": "Topluluklar yüklenemedi. Lütfen tekrar deneyin.",
+    "searchPlaceholder": "Topluluğa, yönetici adına veya e-postaya göre filtreleyin",
+    "statusFilter": {
+      "label": "Durum",
+      "all": "Tüm"
+    },
+    "sortOptions": {
+      "community": "Toplum",
+      "admin": "Yönetici",
+      "residents": "Sakinler"
+    },
+    "loading": "Topluluklar yükleniyor…",
+    "empty": "Henüz kayıtlı topluluk yok.",
+    "noMatch": "Filtrelerinizle eşleşen topluluk yok.",
+    "table": {
+      "community": "Toplum",
+      "admin": "Yönetici",
+      "email": "E-posta",
+      "status": "Durum",
+      "residents": "Sakinler",
+      "view": "Görüş"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Bu topluluk yüklenemedi. Kaldırılmış olabilir.",
+    "statusUpdateError": "Bu topluluğun durumu güncellenemedi.",
+    "deleteError": "Bu topluluk silinemedi.",
+    "loading": "Topluluk yükleniyor…",
+    "notFound": "Topluluk bulunamadı.",
+    "backLink": "← Topluluklar'e geri dön",
+    "backLinkShort": "Topluluklara Geri Dön",
+    "eyebrow": "Topluluk Profili",
+    "unnamed": "Adsız topluluk",
+    "noAddress": "Dosyada adres yok",
+    "stats": {
+      "residents": "Sakinler",
+      "status": "Durum"
+    },
+    "actions": {
+      "reactivate": "Yeniden etkinleştir",
+      "block": "Engellemek",
+      "terminate": "Sonlandır",
+      "delete": "Topluluğu Sil"
+    },
+    "blockDialog": {
+      "title": "Bu topluluk yöneticisi engellensin mi?",
+      "message": "{{name}} engellensin mi? Engelleme kaldırılana kadar giriş yapamayacaklar. Hiçbir veri etkilenmeyecektir.",
+      "confirm": "Engellemek"
+    },
+    "terminateDialog": {
+      "title": "Bu topluluk yöneticisi sonlandırılsın mı?",
+      "message": "{{name}}'ın erişimi kalıcı olarak sonlandırılsın mı? Bu işlem geri alınamaz ancak topluluklarının verileri kayıt amacıyla saklanacaktır.",
+      "confirm": "Sonlandır"
+    },
+    "deleteDialog": {
+      "title": "Bu topluluk silinsin mi?",
+      "message": "Bu işlem, <strong>{{name}}</strong> ve onun tüm hanelerini, sakinlerini, sayaçlarını, tarife/faturalandırma yapılandırmasını ve fatura geçmişini kalıcı olarak silecektir. Bu eylem geri alınamaz.",
+      "typeToConfirm": "Devam etmek için <strong>{{word}}</strong> yazın",
+      "confirm": "Onaylamak"
+    },
+    "residents": {
+      "title": "Sakinler",
+      "registeredCount": "Kayıtlı: {{count}}",
+      "empty": "Henüz bu topluluğa kayıtlı sakin yok.",
+      "table": {
+        "flatUnit": "Düz Ünite",
+        "meter": "Metre",
+        "resident": "İkamet eden kişi",
+        "email": "E-posta",
+        "passwordSet": "Şifre Ayarı"
+      },
+      "yes": "Evet",
+      "no": "HAYIR"
+    },
+    "cancel": "İptal etmek",
+    "working": "Çalışma…",
+    "deleting": "Siliniyor…"
+  },
+  "systemStatus": {
+    "statusError": "Sistem durumunu kontrol etmek için arka uca ulaşılamadı.",
+    "metricsError": "Metrik geçmişi yüklenemedi.",
+    "ranges": {
+      "fiveMinutes": "5 Dakika",
+      "fifteenMinutes": "15 Dakika",
+      "hour": "Saat",
+      "day": "Gün",
+      "week": "Hafta",
+      "month": "Ay",
+      "threeMonths": "3 Ay"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}sa",
+      "minutes": "{{value}}dk"
+    },
+    "charts": {
+      "requestsPerSec": "İstek/sn",
+      "opsPerSec": "İşlem/sn",
+      "latency": "Gecikme",
+      "lastValue": "{{value}} son",
+      "loading": "Yükleniyor…",
+      "empty": "Bu aralık için henüz metrik kaydedilmedi."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Ort: <b>{{value}}</b>",
+      "max": "Maksimum: <b>{{value}}</b>",
+      "last": "Son: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Arka uç API'si",
+      "checking": "Kontrol ediliyor…",
+      "reachable": "Ulaşılabilir",
+      "unreachable": "Ulaşılamaz",
+      "connected": "Bağlı",
+      "backendApiHint": "Bu sayfa arka uçtan yüklendiğinden yanıt verdi.",
+      "database": "Veritabanı",
+      "databaseHint": "PostgreSQL bağlantısı, canlı olarak kontrol edildi.",
+      "uptime": "Arka Uç Çalışma Süresi",
+      "uptimeHint": "Son uygulamanın yeniden başlatılmasından bu yana.",
+      "appVersion": "Uygulama Sürümü",
+      "appVersionHint": "Arka uç derleme sürümü."
+    },
+    "mini": {
+      "latency": "Gecikme",
+      "readsLatency": "Okuma Gecikmesi",
+      "writesLatency": "Gecikme Yazma",
+      "otherLatency": "Diğer Gecikme",
+      "connections": "Bağlantılar",
+      "totalKeys": "Toplam Anahtarlar"
+    },
+    "note": "İstek/sn ve gecikme, her 15 saniyede bir canlı arka uç trafiğinden örneklenir ve 100 güne kadar saklanır. Bu, temel bir bağlantı + trafik kontrolüdür; tam uygulama performansı izlemenin, günlük toplamanın veya uyarı vermenin yerini almaz."
+  },
+  "reports": {
+    "loadError": "Platform raporu yüklenemedi.",
+    "ranges": {
+      "threeMonths": "3 Ay",
+      "sixMonths": "6 Ay",
+      "twelveMonths": "12 Ay",
+      "custom": "Gelenek"
+    },
+    "sortOptions": {
+      "community": "Toplum",
+      "usage": "Kullanım",
+      "billed": "Faturalandırıldı",
+      "residents": "Sakinler"
+    },
+    "customRange": {
+      "from": "İtibaren",
+      "to": "İle",
+      "hint": "Özel bir rapor yüklemek için hem \"başlangıç\" hem de \"bitiş\" ayını seçin."
+    },
+    "loading": "Rapor yükleniyor…",
+    "cards": {
+      "totalCommunities": "Toplam Topluluklar",
+      "inThisRange": "Bu aralıkta",
+      "totalResidents": "Toplam Sakinler",
+      "acrossAllCommunities": "Tüm topluluklarda",
+      "overallUsage": "Genel Kullanım",
+      "meteredConsumption": "Ölçülen tüketim",
+      "overallBilled": "Genel Faturalandırma",
+      "finalizedInvoicesOnly": "Yalnızca kesinleşmiş faturalar",
+      "avgUsagePerResident": "Ortalama Kullanım / Yerleşik",
+      "avgBillPerResident": "Ortalama Fatura / Yerleşik"
+    },
+    "charts": {
+      "usageTitle": "Platform Genelinde Kullanım (kL / ay)",
+      "usageEmpty": "Bu aralık için herhangi bir kullanım kaydedilmedi.",
+      "usageSeries": "Kullanım",
+      "billedTitle": "Platform Genelinde Faturalandırılan Tutar (₹ / ay)",
+      "billedEmpty": "Bu aralık için kesinleşmiş fatura yok.",
+      "billedSeries": "Faturalandırıldı"
+    },
+    "searchPlaceholder": "Topluluğa veya yönetici adına göre filtrele",
+    "empty": "Henüz hiçbir topluluğun bu aralık için kullanım veya faturalandırma verileri yok.",
+    "noMatch": "Filtrenizle eşleşen topluluk yok.",
+    "table": {
+      "community": "Toplum",
+      "admin": "Yönetici",
+      "residents": "Sakinler",
+      "usage": "Kullanım (kL)",
+      "billed": "Faturalandırıldı (₹)",
+      "avgUsagePerResident": "Ortalama Kullanım / Yerleşik",
+      "avgBillPerResident": "Ortalama Fatura / Yerleşik"
+    }
+  },
+  "supportTickets": {
+    "title": "Destek Biletleri",
+    "subtitle": "Platform genelinde sakinler ve topluluk yöneticileri tarafından dile getirilen bildirimleri ve endişeleri destekleyin."
+  }
+}

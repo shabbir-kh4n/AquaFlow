@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Caricamentu…",
+    "saving": "Salvà…",
+    "saved": "Salvatu.",
+    "uploading": "Caricà…",
+    "upload": "Caricà",
+    "uploadError": "Ùn pudia micca caricate stu schedariu. Per piacè pruvate di novu.",
+    "cancel": "Cancella",
+    "close": "Chiudi",
+    "edit": "Edit",
+    "remove": "Eliminate",
+    "saveChanges": "Salvà i cambiamenti",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Fila {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Mostra {{from}}–{{to}} di {{total}}",
+    "prev": "← Prec",
+    "next": "Next →",
+    "page": "Pagina {{page}} di {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ùn pudia micca carica i dati di a vostra cumunità avà.",
+    "title": "{{community}} Dashboard di l'appartamentu",
+    "titleFallback": "U vostru Dashboard di l'appartamentu",
+    "subtitle": "Riassuntu operativu per u submetering di l'utilità di l'acqua è u cunsumu domesticu.",
+    "comingSoon": "Prestu",
+    "manageCommunity": "Gestisce a cumunità",
+    "noUsageReadings": "Nisuna lettura di usu registrata ancora.",
+    "cards": {
+      "totalHouseholds": "Total Famiglie",
+      "occupied": "Occupatu",
+      "activeMeters": "Metri attivi",
+      "reportingReadings": "Riportà letture",
+      "monthlyConsumption": "Cunsumu mensili",
+      "thisCalendarMonth": "Stu mese calendariu",
+      "latestRecordedMonth": "Ultimu mese registratu ({{month}})",
+      "noReadingsYet": "Nisuna lettura ancora registrata",
+      "pendingAlerts": "Avvisi pendenti",
+      "anomalyPreview": "Preview di rilevazione di anomalie - micca ancu dispunibule"
+    },
+    "actions": {
+      "label": "Azzione Amministrativa Rapida",
+      "uploadReadings": "Caricà e letture di u metru",
+      "configureTariffs": "Configurate Tariffe",
+      "reportsNotBuilt": "I rapporti ùn sò micca custruiti ancu",
+      "downloadReports": "Scaricate i rapporti di u sistema"
+    },
+    "chart": {
+      "title": "Paragone di cunsumu mensu (kL)",
+      "subtitle": "L'ultimi {{months}} mesi : u cunsumu target versus u cunsumu attuale.",
+      "targetSeries": "Target (anteprima)",
+      "actualSeries": "Attuali"
+    },
+    "recent": {
+      "title": "Letture recenti di metri",
+      "unit": "Unità",
+      "resident": "Residente",
+      "lastReading": "Ultima Lettura",
+      "consumption": "Cunsumu"
+    }
+  },
+  "households": {
+    "loadError": "Ùn pudia micca carica i residenti. Per piacè pruvate di novu.",
+    "fixFields": "Per piacè corregge i campi evidenziati.",
+    "saveError": "Ùn pudia micca salvà stu residente. Per piacè verificate i dettagli.",
+    "confirmRemove": "Eliminate {{name}} da u vostru annuariu di a famiglia ?",
+    "removeError": "Ùn pudia micca sguassà stu residente. Per piacè pruvate di novu.",
+    "count": "Famiglie: {{total}}",
+    "bulkUploadButton": "⇪ Carica in massa",
+    "addResidentButton": "+ Add Resident",
+    "searchPlaceholder": "Filtrà per nome, casa, email, o metru nr.",
+    "loading": "Caricamentu di i residenti...",
+    "empty": "Nisun residenti ancora. Cliccate \"Add Resident\" per registrà a prima famiglia.",
+    "noMatch": "Nisun residente currisponde à \"{{search}}\".",
+    "sort": {
+      "label": "Ordina per",
+      "name": "Nome",
+      "houseNumber": "Numeru di casa",
+      "dateOfJoining": "Data di aderenza",
+      "toggleDirection": "Cambia a direzzione di sorte",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Masculinu",
+      "female": "Femmina",
+      "other": "Altru"
+    },
+    "table": {
+      "name": "Nome",
+      "houseUnit": "Casa / Unità",
+      "email": "E-mail",
+      "phone": "telefonu",
+      "meterNumber": "Meter No.",
+      "sqft": "Sqft",
+      "joined": "Aghjunghjite"
+    },
+    "form": {
+      "addTitle": "Add Resident",
+      "editTitle": "Edit Residente",
+      "editSubtitle": "Questu aghjurnà i dettagli di u residente in u vostru annuariu.",
+      "bypassSubtitle": "Stai stabilisce a password di stu residente direttamente. Nisun email serà mandatu.",
+      "addSubtitle": "Un ligame stabilitu-password serà mandatu per email à stu residente per pudè attivà u so propiu login.",
+      "fullName": "Nome interu",
+      "houseNumber": "Casa / unità nr.",
+      "email": "E-mail",
+      "phone": "Numeru di telefonu",
+      "meterNumber": "numeru di metru",
+      "governmentId": "ID di u guvernu",
+      "gender": "Genere",
+      "dateOfBirth": "Data di nascimentu",
+      "dateOfJoining": "Data di aderenza",
+      "flatSize": "Dimensione pianu (sq ft)",
+      "bypassLabel": "Bypass set-password email - stabilisce una password per questu residente avà",
+      "password": "Codice",
+      "confirmPassword": "Cunfirmà a parolla d'intesa"
+    },
+    "validation": {
+      "fullNameRequired": "U nome cumpletu hè necessariu.",
+      "emailRequired": "E-mail hè necessariu.",
+      "phoneRequired": "U numeru di telefunu hè necessariu.",
+      "houseNumberRequired": "U numeru di casa / unità hè necessariu.",
+      "houseNumberTaken": "Stu numeru di casa hè digià assignatu à un altru residente.",
+      "meterNumberRequired": "U numeru di metru hè necessariu.",
+      "meterNumberFormat": "U numeru di metru deve esse cum'è MTR-1234 (4 cifre).",
+      "meterNumberTaken": "Stu numeru di metru hè digià assignatu à un altru residente.",
+      "governmentIdRequired": "L'identità di u guvernu hè necessaria.",
+      "governmentIdFormat": "L'ID deve esse 6 cifre chì cumincianu cù 99 (per esempiu, 991234).",
+      "genderRequired": "Per piacè selezziunate un genere.",
+      "dateOfBirthRequired": "A data di nascita hè necessaria.",
+      "dateOfJoiningRequired": "A data di unione hè necessaria.",
+      "passwordRequired": "A password hè necessaria.",
+      "passwordLength": "A password deve esse almenu 8 caratteri.",
+      "confirmPasswordRequired": "Per piacè cunfirmà a password.",
+      "passwordMismatch": "I password ùn currispondenu micca."
+    },
+    "bulk": {
+      "title": "Residenti di carica in massa",
+      "noFile": "Per piacè sceglite un schedariu .csv o .xlsx/.xls per carica.",
+      "instructions": "Caricate un schedariu .csv o .xlsx/.xls cù e colonne <code>{{columns}}</code> (password è flatSizeSqft sò tramindui opzionali). I fila cù una password stabiliscenu direttamente; e fila senza unu ricevenu un email set-password, cum'è aghjunghje un residente manualmente. I numeri di casa / metru duplicati o e-mail sò rifiutati per fila - una fila cattiva ùn falla micca tuttu u batch."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ùn pudia micca carica i residenti. Per piacè pruvate di novu.",
+    "historyLoadError": "Impossibile caricare a storia di lettura. Per piacè pruvate di novu.",
+    "successMessage": "Lettura registrata cù successu di {{value}} kL per {{house}} (Meter: {{meter}})! Cunsumu calculatu : {{consumption}} kL.",
+    "tabs": {
+      "single": "Entrata unica",
+      "csv": "Carica in massa CSV.",
+      "history": "Storia di lettura"
+    },
+    "source": {
+      "manual": "Manuale",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Stu residente ùn hà micca un numeru di metri in u schedariu.",
+      "dateRequired": "A data di lettura hè necessaria.",
+      "invalidValue": "Per piacè inserite un valore di lettura validu, micca negativu.",
+      "duplicate": "Una lettura per stu metru esiste digià in quella data.",
+      "meterNotFound": "Stu metru ùn pudia esse trovu. Per piacè ri-selezziunà u residente.",
+      "lowerThanPrevious": "Questa lettura hè più bassa di a lettura precedente registrata.",
+      "recordFailed": "Ùn pudia micca registrà sta lettura. Per piacè pruvate di novu."
+    },
+    "combo": {
+      "label": "Selezziunà Flat & Meter Serial",
+      "placeholder": "Selezziunate Flat & Meter Serial...",
+      "flat": "Flat {{house}}",
+      "noMeter": "Nisun metru",
+      "searchPlaceholder": "Ricerca flat no, metru seriale, residente ...",
+      "unitsHeader": "Unità Residenziale",
+      "found": "Appartamenti trovu: {{total}}",
+      "loading": "Caricamentu di i residenti...",
+      "noMatch": "Nisun residente currisponde à \"{{search}}\".",
+      "unassigned": "Unassigned",
+      "itemMeta": "{{name}} · Ultimu : {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Registrazione di una lettura per",
+      "context": "Casa {{house}} · Meter {{meter}}",
+      "changeResident": "Cambia residente",
+      "readingDate": "Data di lettura",
+      "readingValue": "Lettura di u metru attuale (kL)",
+      "submit": "Invia una Lettura Validata",
+      "recentTitle": "Letture recenti",
+      "recentEmpty": "Nisuna lettura registrata ancora per stu metru."
+    },
+    "info": {
+      "title": "Validazione di u metru monotonicu",
+      "body": "Ogni nova lettura deve esse più grande o uguale à u logu precedente per quellu metru - questu mantene i calculi di cunsumu precisi è cattura i numeri trasposti prima."
+    },
+    "details": {
+      "title": "Dettagli Unità Scelta",
+      "flatUnit": "Unità Flat",
+      "meterSerial": "Meter Serial",
+      "occupant": "Nome di l'occupante",
+      "lastDial": "Ultimu Dial Registratu",
+      "noReadings": "Nisuna lettura ancora",
+      "monthConsumption": "Cunsumu di u mese",
+      "empty": "Nisuna famiglia scelta. Cerca è sceglite un residente per vede i dettagli di i so metri quì."
+    },
+    "csv": {
+      "noFile": "Per piacè sceglite un schedariu CSV per carica.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Caricamentu di letture…",
+      "empty": "Nisuna lettura registrata per a vostra cumunità."
+    },
+    "table": {
+      "meterNumber": "Meter No.",
+      "date": "Data",
+      "value": "Valore (kL)",
+      "consumption": "Cunsumu (kL)",
+      "source": "Fonte"
+    }
+  },
+  "billingCycles": {
+    "title": "Cicli di fattura",
+    "loadError": "Impossibile caricare i cicli di fatturazione. Per piacè pruvate di novu.",
+    "paymentUpdateError": "Ùn pudia micca aghjurnà u statu di pagamentu di sta fattura.",
+    "pdfError": "Ùn pudia micca scaricà u PDF. Per piacè pruvate di novu.",
+    "finalizeError": "Ùn puderia micca finalizà stu ciclu di fattura.",
+    "archiveError": "Ùn pudia micca archivià stu ciclu di fattura.",
+    "loading": "Caricamentu di i cicli di fatturazione...",
+    "empty": "Nisun ciclu di fattura ancora. Aprite unu sopra per cumincià.",
+    "status": {
+      "open": "Apertu",
+      "finalized": "Finalizatu",
+      "archived": "Archivatu"
+    },
+    "open": {
+      "title": "Apertura un Novu Ciclu di Billing",
+      "noMonth": "Per piacè sceglite un mese per apre.",
+      "error": "Ùn pudia micca apre un ciclu di fattura per quellu mese.",
+      "monthAria": "Periudu di fattura mese",
+      "opening": "Apertura…",
+      "submit": "Ciclu Apertu"
+    },
+    "table": {
+      "period": "Periodu",
+      "status": "Status",
+      "householdsBilled": "Famiglia fatturatu",
+      "totalBilled": "Total fatturatu",
+      "actions": "Azzioni"
+    },
+    "actions": {
+      "finalize": "Finalize",
+      "finalizing": "Finalizazioni…",
+      "archive": "Archive",
+      "archiving": "Archiviazione…"
+    },
+    "filter": {
+      "aria": "Filtrà per statu di pagamentu",
+      "all": "Tuttu"
+    },
+    "payment": {
+      "paid": "Pagatu",
+      "unpaid": "Impagatu",
+      "updating": "Aghjurnà…",
+      "markPaid": "Marca cum'è pagatu",
+      "markUnpaid": "Marca cum'è micca pagatu"
+    },
+    "detail": {
+      "title": "Detail di u Ciclu - {{period}}",
+      "loading": "Caricamentu di fatture…",
+      "notFinalized": "Stu ciculu ùn hè micca statu finitu ancu - nisuna fattura generata.",
+      "noInvoices": "Nisuna fattura per stu ciclu.",
+      "noMatch": "Nisuna fattura currisponde à stu filtru."
+    },
+    "invoices": {
+      "household": "Famiglia",
+      "resident": "Residente",
+      "meterNumber": "Meter No.",
+      "consumption": "Cunsumu (kL)",
+      "tierBreakdown": "Ripartizione di i livelli",
+      "commonArea": "Spaziu cumunu",
+      "total": "Totale",
+      "paymentStatus": "Status di pagamentu",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Livellu {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ùn pudia micca carica a cunfigurazione di a tarifa",
+    "saveError": "Ùn pudia micca salvà a cunfigurazione di a tarifa",
+    "chartTitle": "Livelli di tassi d'utilità misurati attivi",
+    "axisNote": "Tariffa in ₹/kL, limiti di lastra in kL",
+    "tableTitle": "Tabella di i prezzi",
+    "defaultRatesNote": "Mostra i tassi predeterminati - micca ancu salvatu.",
+    "addTier": "+ Add Tier",
+    "saveRates": "Salvà Tariffe Tariffe",
+    "tierLevel": {
+      "base": "Livellu {{tier}} (Base)",
+      "medium": "Livellu {{tier}} (Medium)",
+      "heavy": "Livellu {{tier}} (pesante)"
+    },
+    "basePrice": {
+      "label": "Prezzu Base (₹ / kL, applicatu à TUTTI u cunsumu)",
+      "note": "Ogni kL hè addebitatu prima sta tarifa fissa. E lastre sottu aghjunghjenu carichi EXTRA solu per l'usu chì si trova in u so intervallu - per esempiu. una lastra chì principia da 50 kL aghjunghje solu a so tarifa per u cunsumu sopra à 50 kL."
+    },
+    "table": {
+      "tierLevel": "Livellu di livellu",
+      "slabLimit": "Limite di lastra (kL)",
+      "rate": "Tariffa per kL",
+      "action": "Azzione"
+    },
+    "commonArea": {
+      "title": "Cunfigurazione di u costu di l'area cumuni cumuni",
+      "loadError": "Ùn pudia micca carica a cunfigurazione di u costu di l'area cumuna",
+      "saveError": "Ùn pudia micca salvà a cunfigurazione di u costu di l'area cumuna",
+      "empty": "Nisun articulu di costu salvatu ancu.",
+      "labelPlaceholder": "Etichetta di l'articulu di costu",
+      "perMonth": "/ mese",
+      "active": "Attivu",
+      "addItem": "+ Add Cost Item",
+      "save": "Salvà a cunfigurazione di l'area cumuna"
+    },
+    "distribution": {
+      "title": "Selettore di Metudu di Distribuzione di Costu",
+      "consumption": "Per cunsumu (Sub-metered Proportional)",
+      "floorArea": "Per dimensione di l'appartamentu (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Data di iniziu di fatturazione di u ciclu",
+      "cycleStartValue": "1 di ogni mese",
+      "autoInvoices": "Genera automaticamente PDF fatture"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Threshold Exceeded",
+      "statisticalOutlier": "Outlier statisticu"
+    },
+    "status": {
+      "active": "Attivu",
+      "resolved": "Risolta",
+      "dismissed": "Licenziatu"
+    },
+    "config": {
+      "title": "Configurazione di rilevazione di fughe",
+      "subtitle": "Stabbilisce un sogliu di cunsumu mensile è / o attivate a rilevazione statistica di l'outlier (marca una famiglia chì u cunsumu mensile hè inusualmente altu cumparatu cù a so propria storia).",
+      "loadError": "Ùn pudia micca carica a cunfigurazione di l'alerta. Per piacè pruvate di novu.",
+      "thresholdRequired": "Un limitu mensuale (kL) hè necessariu quandu l'alerta di limitu sò attivate.",
+      "saveError": "Ùn pudia micca salvà sta cunfigurazione.",
+      "loading": "Caricamentu di a cunfigurazione…",
+      "threshold": "Soglia mensu (kL)",
+      "sensitivity": "Sensibilité des valeurs aberrantes (multiplicateur σ)",
+      "enableThreshold": "Attivà l'alerta di u sogliu",
+      "enableOutlier": "Abilita l'alerte statistiche outlier",
+      "save": "Salvà a cunfigurazione",
+      "running": "Corsa…",
+      "runNow": "Run Detection Now"
+    },
+    "alerts": {
+      "title": "Famiglia marcate",
+      "loadError": "Ùn pudia micca carica l'alerte. Per piacè pruvate di novu.",
+      "runError": "Ùn puderia micca eseguisce a rilevazione di fughe avà. Per piacè pruvate di novu.",
+      "updateError": "Ùn pudia micca aghjurnà sta alerta. Per piacè pruvate di novu.",
+      "allStatuses": "Tutti i statuti",
+      "loading": "Caricamentu di avvisi…",
+      "empty": "Nisuna alerte per vede. Configurate una soglia o attivate a rilevazione di outlier sopra, dopu cliccate \"Run Detection Now\" per valutà l'usu attuale di a vostra cumunità.",
+      "resolve": "Risolve",
+      "dismiss": "Licenziate"
+    },
+    "table": {
+      "household": "Famiglia",
+      "resident": "Residente",
+      "meter": "metru",
+      "type": "Tipu",
+      "period": "Periodu",
+      "consumption": "Cunsumu",
+      "reference": "Riferimentu",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ùn pudia micca carricà l'acquisti d'acqua in massa. Per piacè pruvate di novu.",
+    "confirmRemove": "Eliminate a consegna {{source}} u {{date}} ?",
+    "removeError": "Ùn pudia micca sguassà sta compra. Per piacè pruvate di novu.",
+    "count": "Acquisti registrati: {{total}}",
+    "recordButton": "+ Acquistu di registrazione",
+    "loading": "Caricamentu di l'acquisti d'acqua in massa...",
+    "empty": "Nisuna compra d'acqua in massa hè ancu registrata. Cliccate \"Record Purchase\" per registrà una consegna di cisterna o una compra di furnimentu municipale.",
+    "table": {
+      "date": "Data",
+      "source": "Fonte",
+      "volume": "Volume (L)",
+      "unitCost": "Costu unità",
+      "totalCost": "Costu tutale",
+      "notes": "Notes"
+    },
+    "form": {
+      "addTitle": "Registrate l'Acquistu di l'acqua in quantità",
+      "editTitle": "Edite l'Acquistu di l'acqua in quantità",
+      "subtitle": "Traccia una spedizione di cisterna o una compra di fornitura municipale per a vostra cumunità - questu hè registratu solu per a visibilità di i costi è ùn affetta micca e fatture di a famiglia.",
+      "requiredFields": "Per piacè inserite a data, a fonte, u voluminu è u costu unitario.",
+      "saveError": "Ùn pudia micca salvà sta compra. Per piacè verificate i dettagli.",
+      "purchaseDate": "Data di compra",
+      "source": "Fonte / fornitore",
+      "volume": "Volume (litri)",
+      "unitCost": "Costu unitario (₹/litre)",
+      "totalPreview": "Costu tutale: {{amount}}",
+      "notes": "Note (opzionale)",
+      "submit": "Acquistu Record"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ùn hè ancu custruitu",
+    "profileSaveError": "Ùn pudia micca salvà u vostru prufilu. Per piacè pruvate di novu.",
+    "apartmentSaveError": "Ùn pudia micca salvà i dettagli di l'appartamentu. Per piacè pruvate di novu.",
+    "specsTitle": "Specificazioni di u prufilu",
+    "photoUnavailable": "L'upload di foto ùn hè ancu dispunibule",
+    "changePhoto": "Cambia a foto",
+    "deletePhoto": "Sguassà",
+    "photoHint": "JPG o PNG. Dimensione massima 2 MB.",
+    "saveProfile": "Salvà u prufilu",
+    "apartmentTitle": "Dettagli di l'appartamentu",
+    "saveApartment": "Salvà i dettagli di l'appartamentu",
+    "tabs": {
+      "profile": "Paràmetri di u prufilu",
+      "apartment": "Profilu di l'appartamentu",
+      "notifications": "Regoli di Notificazione",
+      "billing": "Integrazioni di fattura",
+      "security": "Sicurezza & Accessu"
+    },
+    "fields": {
+      "fullName": "Nome interu",
+      "email": "Indirizzu mail",
+      "emailLocked": "L'email ùn pò esse cambiatu quì",
+      "phone": "Numeru di telefonu",
+      "accessLevel": "Livellu d'accessu",
+      "accessLevelValue": "Amministratore di a cumunità",
+      "roleLocked": "A gestione di u rolu ùn hè ancu dispunibule",
+      "apartmentName": "Nome di l'appartamentu",
+      "mainsSource": "Fonte di rete",
+      "mainsSourcePlaceholder": "p.e. Fornitura Municipale + Cisterna Supplementale",
+      "address": "Indirizzu fisicu"
+    },
+    "security": {
+      "title": "Preview di Sicurezza è Accessu",
+      "twoFactor": "Autentificazione à dui fattori",
+      "twoFactorHint": "Abilitatu à u login",
+      "twoFactorUnavailable": "L'autenticazione à dui fattori ùn hè ancu dispunibule",
+      "twoFactorAria": "Autentificazione à dui fattori (solu in anteprima)",
+      "sessionsLabel": "Sessioni di amministratore attivu",
+      "sessionsEmpty": "U seguimentu di a sessione ùn hè ancu dispunibile - questu hè un anteprima di u layout chì vene."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "I mo Biglietti",
+      "inbox": "Biglietti per i residenti"
+    },
+    "mine": {
+      "title": "I mo biglietti di supportu",
+      "subtitle": "Fate una quistione o preoccupazione nantu à a vostra cumunità à l'amministratore di u sistema.",
+      "emptyCreateHint": "Suscitate una quistione o preoccupazione nantu à a vostra cumunità. Un amministratore di u sistema riviserà è risponde quì."
+    },
+    "inbox": {
+      "title": "Biglietti per i residenti",
+      "subtitle": "I biglietti di supportu è e preoccupazioni chì i residenti in a vostra cumunità anu indirizzatu à voi."
+    }
+  }
+}

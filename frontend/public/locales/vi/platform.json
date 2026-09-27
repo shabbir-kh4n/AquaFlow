@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Tích cực",
+    "blocked": "Bị chặn",
+    "terminated": "Đã chấm dứt"
+  },
+  "sort": {
+    "sortBy": "Sắp xếp theo",
+    "toggleDirection": "Chuyển đổi hướng sắp xếp",
+    "asc": "↑ Tăng dần",
+    "desc": "↓ Quyết định"
+  },
+  "pagination": {
+    "showing": "Đang hiển thị {{from}}–{{to}} trong số {{total}}",
+    "prev": "← Trước đó",
+    "next": "Tiếp theo →",
+    "page": "Trang {{page}} của {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Tổng quan về nền tảng",
+    "subtitle": "Mọi quản trị viên cộng đồng đã đăng ký, trên toàn bộ nền tảng HydroLedger.",
+    "viewAll": "Xem tất cả cộng đồng",
+    "loadError": "Không thể tải dữ liệu nền tảng ngay bây giờ.",
+    "cards": {
+      "totalCommunities": "Tổng số cộng đồng",
+      "registeredAdmins": "Quản trị viên đã đăng ký",
+      "totalResidents": "Tổng số cư dân",
+      "acrossAllCommunities": "Trên tất cả các cộng đồng",
+      "active": "Tích cực",
+      "inGoodStanding": "Ở trạng thái tốt",
+      "blockedTerminated": "Bị chặn / Chấm dứt",
+      "blockedTerminatedBreakdown": "{{blocked}} bị chặn, {{terminated}} đã chấm dứt"
+    },
+    "recent": {
+      "title": "Cộng đồng đã đăng ký gần đây",
+      "loading": "Đang tải…",
+      "empty": "Chưa có cộng đồng nào đăng ký.",
+      "table": {
+        "community": "Cộng đồng",
+        "admin": "Quản trị viên",
+        "status": "Trạng thái",
+        "residents": "cư dân"
+      }
+    }
+  },
+  "communities": {
+    "count": "Cộng đồng: {{count}}",
+    "loadError": "Không thể tải cộng đồng. Vui lòng thử lại.",
+    "searchPlaceholder": "Lọc theo cộng đồng, tên quản trị viên hoặc email",
+    "statusFilter": {
+      "label": "Trạng thái",
+      "all": "Tất cả"
+    },
+    "sortOptions": {
+      "community": "Cộng đồng",
+      "admin": "Quản trị viên",
+      "residents": "cư dân"
+    },
+    "loading": "Đang tải cộng đồng…",
+    "empty": "Chưa có cộng đồng nào đăng ký.",
+    "noMatch": "Không có cộng đồng nào phù hợp với bộ lọc của bạn.",
+    "table": {
+      "community": "Cộng đồng",
+      "admin": "Quản trị viên",
+      "email": "E-mail",
+      "status": "Trạng thái",
+      "residents": "cư dân",
+      "view": "Xem"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Không thể tải cộng đồng này. Nó có thể đã được gỡ bỏ.",
+    "statusUpdateError": "Không thể cập nhật trạng thái của cộng đồng này.",
+    "deleteError": "Không thể xóa cộng đồng này.",
+    "loading": "Đang tải cộng đồng…",
+    "notFound": "Không tìm thấy cộng đồng.",
+    "backLink": "← Quay lại Cộng đồng",
+    "backLinkShort": "Quay lại Cộng đồng",
+    "eyebrow": "Hồ sơ cộng đồng",
+    "unnamed": "Cộng đồng vô danh",
+    "noAddress": "Không có địa chỉ trong hồ sơ",
+    "stats": {
+      "residents": "cư dân",
+      "status": "Trạng thái"
+    },
+    "actions": {
+      "reactivate": "Kích hoạt lại",
+      "block": "Khối",
+      "terminate": "Chấm dứt",
+      "delete": "Xóa cộng đồng"
+    },
+    "blockDialog": {
+      "title": "Chặn quản trị viên cộng đồng này?",
+      "message": "Chặn {{name}}? Họ sẽ không thể đăng nhập cho đến khi được bỏ chặn. Không có dữ liệu sẽ bị ảnh hưởng.",
+      "confirm": "Khối"
+    },
+    "terminateDialog": {
+      "title": "Chấm dứt quản trị viên cộng đồng này?",
+      "message": "Chấm dứt vĩnh viễn quyền truy cập của {{name}}? Việc này không thể hoàn tác được, mặc dù dữ liệu về cộng đồng của họ sẽ được lưu giữ trong hồ sơ.",
+      "confirm": "Chấm dứt"
+    },
+    "deleteDialog": {
+      "title": "Xóa cộng đồng này?",
+      "message": "Thao tác này sẽ xóa vĩnh viễn <strong>{{name}}</strong> và tất cả hộ gia đình, cư dân, đồng hồ đo, cấu hình biểu giá/thanh toán và lịch sử hóa đơn. Không thể hoàn tác hành động này.",
+      "typeToConfirm": "Nhập <strong>{{word}}</strong> để tiếp tục",
+      "confirm": "Xác nhận"
+    },
+    "residents": {
+      "title": "cư dân",
+      "registeredCount": "Đã đăng ký: {{count}}",
+      "empty": "Chưa có cư dân nào đăng ký trong cộng đồng này.",
+      "table": {
+        "flatUnit": "Đơn vị phẳng",
+        "meter": "Mét",
+        "resident": "Người dân",
+        "email": "E-mail",
+        "passwordSet": "Đặt mật khẩu"
+      },
+      "yes": "Đúng",
+      "no": "KHÔNG"
+    },
+    "cancel": "Hủy bỏ",
+    "working": "Đang làm việc…",
+    "deleting": "Đang xóa…"
+  },
+  "systemStatus": {
+    "statusError": "Không thể truy cập phần phụ trợ để kiểm tra trạng thái hệ thống.",
+    "metricsError": "Không thể tải lịch sử chỉ số.",
+    "ranges": {
+      "fiveMinutes": "5 phút",
+      "fifteenMinutes": "15 phút",
+      "hour": "Giờ",
+      "day": "Ngày",
+      "week": "Tuần",
+      "month": "Tháng",
+      "threeMonths": "3 tháng"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}phút"
+    },
+    "charts": {
+      "requestsPerSec": "Yêu cầu/giây",
+      "opsPerSec": "Thời gian/giây",
+      "latency": "Độ trễ",
+      "lastValue": "{{value}} cuối cùng",
+      "loading": "Đang tải…",
+      "empty": "Chưa có số liệu nào được ghi lại cho phạm vi này."
+    },
+    "stats": {
+      "min": "Tối thiểu: <b>{{value}}</b>",
+      "avg": "Trung bình: <b>{{value}}</b>",
+      "max": "Tối đa: <b>{{value}}</b>",
+      "last": "Cuối cùng: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API phụ trợ",
+      "checking": "Đang kiểm tra…",
+      "reachable": "Có thể truy cập",
+      "unreachable": "Không thể truy cập",
+      "connected": "Đã kết nối",
+      "backendApiHint": "Trang này được tải từ phần phụ trợ nên nó phản hồi.",
+      "database": "Cơ sở dữ liệu",
+      "databaseHint": "Kết nối PostgreSQL, được kiểm tra trực tiếp.",
+      "uptime": "Thời gian hoạt động phụ trợ",
+      "uptimeHint": "Kể từ lần khởi động lại ứng dụng cuối cùng.",
+      "appVersion": "Phiên bản ứng dụng",
+      "appVersionHint": "Phiên bản xây dựng phụ trợ."
+    },
+    "mini": {
+      "latency": "Độ trễ",
+      "readsLatency": "Độ trễ đọc",
+      "writesLatency": "Độ trễ ghi",
+      "otherLatency": "Độ trễ khác",
+      "connections": "Kết nối",
+      "totalKeys": "Tổng số phím"
+    },
+    "note": "Yêu cầu/giây và độ trễ được lấy mẫu từ lưu lượng truy cập phụ trợ trực tiếp cứ sau 15 giây và được lưu giữ trong tối đa 100 ngày. Đây là kết nối cơ bản + kiểm tra lưu lượng — nó không thay thế việc giám sát hiệu suất ứng dụng, tổng hợp nhật ký hoặc cảnh báo đầy đủ."
+  },
+  "reports": {
+    "loadError": "Không thể tải báo cáo nền tảng.",
+    "ranges": {
+      "threeMonths": "3 tháng",
+      "sixMonths": "6 tháng",
+      "twelveMonths": "12 tháng",
+      "custom": "Phong tục"
+    },
+    "sortOptions": {
+      "community": "Cộng đồng",
+      "usage": "Cách sử dụng",
+      "billed": "Đã thanh toán",
+      "residents": "cư dân"
+    },
+    "customRange": {
+      "from": "Từ",
+      "to": "ĐẾN",
+      "hint": "Chọn cả tháng \"từ\" và \"đến\" để tải báo cáo tùy chỉnh."
+    },
+    "loading": "Đang tải báo cáo…",
+    "cards": {
+      "totalCommunities": "Tổng số cộng đồng",
+      "inThisRange": "Trong phạm vi này",
+      "totalResidents": "Tổng số cư dân",
+      "acrossAllCommunities": "Trên tất cả các cộng đồng",
+      "overallUsage": "Cách sử dụng tổng thể",
+      "meteredConsumption": "Mức tiêu thụ được đo lường",
+      "overallBilled": "Tổng thanh toán",
+      "finalizedInvoicesOnly": "Chỉ hóa đơn cuối cùng",
+      "avgUsagePerResident": "Mức sử dụng trung bình / Thường trú",
+      "avgBillPerResident": "Hóa đơn trung bình / thường trú"
+    },
+    "charts": {
+      "usageTitle": "Mức sử dụng trên toàn nền tảng (kL / tháng)",
+      "usageEmpty": "Không có mức sử dụng nào được ghi lại cho phạm vi này.",
+      "usageSeries": "Cách sử dụng",
+      "billedTitle": "Số tiền thanh toán trên toàn nền tảng (₹ / tháng)",
+      "billedEmpty": "Không có hóa đơn nào được hoàn tất cho phạm vi này.",
+      "billedSeries": "Đã thanh toán"
+    },
+    "searchPlaceholder": "Lọc theo tên cộng đồng hoặc quản trị viên",
+    "empty": "Chưa có cộng đồng nào có dữ liệu sử dụng hoặc thanh toán cho phạm vi này.",
+    "noMatch": "Không có cộng đồng nào phù hợp với bộ lọc của bạn.",
+    "table": {
+      "community": "Cộng đồng",
+      "admin": "Quản trị viên",
+      "residents": "cư dân",
+      "usage": "Cách sử dụng (kL)",
+      "billed": "Đã thanh toán ($)",
+      "avgUsagePerResident": "Mức sử dụng trung bình / Thường trú",
+      "avgBillPerResident": "Hóa đơn trung bình / thường trú"
+    }
+  },
+  "supportTickets": {
+    "title": "Vé hỗ trợ",
+    "subtitle": "Hỗ trợ vé và các mối quan tâm được người dân và quản trị viên cộng đồng nêu ra trên toàn nền tảng."
+  }
+}

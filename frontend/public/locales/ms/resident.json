@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Akan datang",
+    "welcome": {
+      "greeting": "Hello {{name}},",
+      "greetingFallback": "salam,",
+      "title": "Kekal dekat dengan cerita air rumah anda.",
+      "subtitle": "Cerapan penggunaan dan pengebilan akan dipaparkan di sini semasa komuniti anda merekodkan bacaan.",
+      "viewBadges": "Lihat Lencana Eko"
+    },
+    "stats": {
+      "todaysUsage": "Penggunaan Hari Ini",
+      "asOf": "Mulai {{date}}",
+      "noReading": "Tiada bacaan meter lagi",
+      "monthlyTotalFor": "Jumlah Bulanan ({{month}})",
+      "monthlyTotalThisMonth": "Jumlah Bulanan (bulan ini)",
+      "sumOfReadings": "Jumlah bacaan yang direkodkan",
+      "estimatedBill": "Bil Anggaran Semasa",
+      "estimatedBillFor": "Penggunaan bermeter + caj dikongsi, {{month}}",
+      "estimatedBillHint": "Berdasarkan penggunaan bermeter bulan ini dan caj dikongsi",
+      "savings": "Simpanan lwn Purata Bangunan",
+      "savingsValue": "{{percent}}% Kurang",
+      "savingsPreview": "Pratonton sahaja — perbandingan belum disiarkan"
+    },
+    "consumption": {
+      "eyebrow": "Penggunaan",
+      "title": "Penggunaan Harian (14 Bacaan Terakhir)",
+      "seriesName": "Penggunaan",
+      "empty": "Tiada bacaan direkodkan lagi."
+    },
+    "breakdown": {
+      "eyebrow": "Pecahan",
+      "title": "Pecahan Penggunaan",
+      "bathroom": "Bilik air",
+      "kitchen": "Dapur",
+      "garden": "Taman / Balkoni",
+      "other": "Lain-lain / Dobi"
+    },
+    "billing": {
+      "eyebrow": "Pengebilan",
+      "title": "Kitaran Pengebilan Aktif",
+      "finalized": "Dimuktamadkan",
+      "preview": "Pratonton",
+      "meteredConsumption": "Penggunaan bermeter",
+      "tierPriceLevel": "Tahap harga peringkat",
+      "tierLabel": "Peringkat {{tier}}",
+      "commonArea": "Pembahagian kawasan biasa",
+      "commonAreaPreview": "Pembahagian kawasan biasa (pratonton)",
+      "invoiceTotal": "{{period}} jumlah invois",
+      "estimatedCharge": "Anggaran caj semasa",
+      "commonAreaBreakdown": "Pecahan kawasan biasa",
+      "payPreview": "Pratonton Bayar Bil",
+      "payUnavailable": "Enjin pengebilan belum tersedia"
+    },
+    "tips": {
+      "eyebrow": "Petua",
+      "title": "Petua Penjimatan Pintar",
+      "viewAll": "Lihat semua",
+      "empty": "Petua diperibadikan muncul di sini selepas komuniti anda memuktamadkan kitaran pengebilan."
+    },
+    "community": "Komuniti: {{name}}"
+  },
+  "usage": {
+    "loadError": "Tidak dapat memuatkan sejarah penggunaan anda. Sila cuba lagi.",
+    "loading": "Memuatkan analitis penggunaan anda…",
+    "empty": "Tiada bacaan direkodkan lagi. Setelah komuniti anda merekodkan bacaan meter, ia akan dipaparkan di sini.",
+    "tabs": {
+      "lastSixMonths": "6 Bulan lepas",
+      "customRange": "Julat Tersuai",
+      "comingSoon": "Akan datang"
+    },
+    "peakDay": "Hari Kemuncak:",
+    "lowestDay": "Hari Terendah:",
+    "comparison": {
+      "title": "Penggunaan Isi Rumah lwn Purata Pangsapuri",
+      "subtitle": "Jumlah bulanan ditunjukkan dalam kiloliter (kL).",
+      "yourHousehold": "Isi Rumah Anda",
+      "apartmentAverage": "Purata Pangsapuri",
+      "similarSized": "Rumah Bersaiz Serupa"
+    },
+    "heatmap": {
+      "title": "Peta Haba Penggunaan Harian",
+      "subtitle": "Keamatan warna menandakan hari penggunaan yang berat (pratonton)."
+    },
+    "ranking": {
+      "title": "Kedudukan Rakan Sebaya Komuniti",
+      "subtitle": "Kedudukan anda berbanding dengan unit yang serupa (pratonton).",
+      "ecoSaver": "Penjimat Eko Aktif",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unit {{number}}",
+      "yourUnit": "Unit anda",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Anda)"
+    }
+  },
+  "billing": {
+    "loadError": "Tidak dapat memuatkan sejarah pengebilan anda. Sila cuba lagi.",
+    "pdfError": "Tidak dapat memuat turun PDF. Sila cuba lagi.",
+    "loading": "Memuatkan sejarah pengebilan anda…",
+    "empty": "Tiada invois lagi — setelah komuniti anda memuktamadkan kitaran pengebilan, bil anda akan dipaparkan di sini.",
+    "status": {
+      "paid": "Dibayar",
+      "unpaid": "Tak bergaji"
+    },
+    "summary": {
+      "outstandingBalance": "Baki Tertunggak",
+      "billingCycle": "Kitaran Pengebilan: {{period}}",
+      "allPaid": "Semua invois dibayar",
+      "payTotal": "Bayar Jumlah Tertunggak",
+      "payTotalUnavailable": "Pembayaran dalam talian belum tersedia lagi — selesaikan bil dengan pentadbir komuniti anda secara terus",
+      "downloadSummary": "Muat turun Ringkasan Bil",
+      "downloadSummaryUnavailable": "Muat turun ringkasan bil belum tersedia lagi"
+    },
+    "history": {
+      "title": "Sejarah Invois",
+      "exportCsv": "Eksport Semua ke CSV",
+      "exportUnavailable": "CSV eksport belum tersedia lagi"
+    },
+    "table": {
+      "cycle": "Kitaran",
+      "usage": "Penggunaan (kL)",
+      "amountDue": "Jumlah Tertunggak",
+      "paymentStatus": "Status Pembayaran",
+      "hideBreakdown": "Sembunyikan Pecahan ↑",
+      "showBreakdown": "Pecahan Terperinci ↓",
+      "downloading": "Memuat turun…",
+      "pdf": "PDF",
+      "pay": "Bayar"
+    },
+    "breakdown": {
+      "householdTitle": "Pecahan Penggunaan Isi Rumah",
+      "basePrice": "Harga Asas: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Peringkat {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotal Penggunaan Bermeter",
+      "commonAreaTitle": "Pembahagian Kawasan Bersama",
+      "subtotalShared": "Subjumlah Kawasan Kongsi",
+      "noCommonArea": "Tiada caj kawasan umum dikongsi untuk kitaran ini."
+    },
+    "pagination": {
+      "showing": "Menunjukkan {{from}}–{{to}} daripada {{total}}",
+      "prev": "← Sebelumnya",
+      "next": "Seterusnya →",
+      "page": "Halaman {{page}} daripada {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Kaedah pembayaran (pratonton)",
+      "description": "Pembayaran dalam talian belum tersedia lagi — bil diselesaikan dengan pentadbir komuniti anda secara langsung.",
+      "manage": "Uruskan Kaedah Pembayaran",
+      "manageUnavailable": "Kaedah pembayaran belum tersedia lagi"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Dilindungi oleh Razorpay",
+    "billingCycle": "Kitaran Pengebilan {{period}}",
+    "close": "tutup",
+    "amountPayable": "Amaun Yang Perlu Dibayar",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kad",
+      "netbanking": "Perbankan bersih",
+      "wallet": "Dompet"
+    },
+    "upi": {
+      "title": "Bayar melalui UPI",
+      "upiId": "UPI ID",
+      "or": "ATAU",
+      "scan": "Imbas dengan mana-mana apl UPI."
+    },
+    "card": {
+      "title": "Bayar melalui Kad",
+      "number": "Nombor Kad",
+      "expiry": "tamat tempoh",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Nama pada Kad",
+      "namePlaceholder": "Seperti yang dicetak pada kad"
+    },
+    "netbanking": {
+      "title": "Bayar melalui Netbanking"
+    },
+    "wallet": {
+      "title": "Bayar melalui Wallet"
+    },
+    "payAmount": "Bayar ₹{{amount}}",
+    "processing": "Memproses pembayaran anda…",
+    "processingHint": "Tolong jangan tekan kembali atau muat semula halaman ini",
+    "success": "Pembayaran Berjaya",
+    "error": "Kesilapan telah berlaku semasa mengesahkan pembayaran anda. Sila cuba lagi.",
+    "retry": "Cuba semula"
+  },
+  "notifications": {
+    "loadError": "Tidak dapat memuatkan pemberitahuan anda. Sila cuba lagi.",
+    "loading": "Memuatkan pemberitahuan anda…",
+    "empty": "Tiada pemberitahuan lagi — anda akan melihat sesuatu di sini jika pentadbir komuniti anda telah mendayakan ambang penggunaan atau makluman penggunaan luar biasa dan satu amaran dicetuskan untuk isi rumah anda.",
+    "type": {
+      "thresholdExceeded": "Ambang Penggunaan Melebihi",
+      "statisticalOutlier": "Penggunaan Luar Biasa Dikesan"
+    },
+    "status": {
+      "active": "Aktif",
+      "resolved": "Selesai",
+      "dismissed": "Diketepikan"
+    },
+    "billingPeriod": "Tempoh pengebilan: {{period}}",
+    "consumption": "Penggunaan: {{value}} kL",
+    "push": {
+      "title": "Pemberitahuan tolak",
+      "description": "Dapatkan pemberitahuan pada peranti ini apabila bil atau makluman baharu masuk.",
+      "enable": "Dayakan",
+      "disable": "Lumpuhkan",
+      "permissionDenied": "Kebenaran pemberitahuan tidak diberikan.",
+      "notConfigured": "Pemberitahuan tolak belum dikonfigurasikan lagi. Hubungi pentadbir anda.",
+      "enableError": "Tidak dapat mendayakan pemberitahuan tolak. Sila cuba lagi.",
+      "disableError": "Tidak dapat melumpuhkan pemberitahuan tolak. Sila cuba lagi."
+    }
+  },
+  "recommendations": {
+    "loadError": "Tidak dapat memuatkan pengesyoran anda. Sila cuba lagi.",
+    "loading": "Memuatkan petua peribadi anda…",
+    "generated": "Dijana {{date}}",
+    "generatedForPeriod": "Dijana {{date}} untuk tempoh pengebilan {{period}}",
+    "eyebrow": "Diperibadikan untuk anda",
+    "title": "Petua Penjimatan Air Pintar",
+    "empty": "Tiada petua dijana lagi — ini dimuat semula secara automatik setiap kali komuniti anda memuktamadkan kitaran pengebilan untuk isi rumah anda."
+  },
+  "support": {
+    "title": "Meja Sokongan & Keprihatinan Penduduk",
+    "subtitle": "Serahkan laporan kebocoran air, permintaan penentukuran meter atau pertanyaan pengebilan terus kepada pentadbir komuniti anda dan/atau Pentadbir Sistem.",
+    "emptyCreateHint": "Terangkan isu atau kebimbangan anda di bawah dan pilih siapa yang harus mengendalikannya."
+  }
+}

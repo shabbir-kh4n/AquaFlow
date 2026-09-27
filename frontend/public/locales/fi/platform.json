@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiivinen",
+    "blocked": "Estetty",
+    "terminated": "Lopetettu"
+  },
+  "sort": {
+    "sortBy": "Lajitteluperuste",
+    "toggleDirection": "Vaihda lajittelusuuntaa",
+    "asc": "↑ Asc",
+    "desc": "↓ Kuvaus"
+  },
+  "pagination": {
+    "showing": "Näytetään {{from}}–{{to}} / {{total}}",
+    "prev": "← Ed",
+    "next": "Seuraava →",
+    "page": "Sivu {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Alustan yleiskatsaus",
+    "subtitle": "Jokainen rekisteröitynyt yhteisön ylläpitäjä koko HydroLedger alustalla.",
+    "viewAll": "Näytä kaikki yhteisöt",
+    "loadError": "Alustatietoja ei voitu ladata juuri nyt.",
+    "cards": {
+      "totalCommunities": "Yhteisöt yhteensä",
+      "registeredAdmins": "Rekisteröityneet ylläpitäjät",
+      "totalResidents": "Asukkaita yhteensä",
+      "acrossAllCommunities": "Kaikissa yhteisöissä",
+      "active": "Aktiivinen",
+      "inGoodStanding": "Hyvässä asemassa",
+      "blockedTerminated": "Estetty / lopetettu",
+      "blockedTerminatedBreakdown": "{{blocked}} estetty, {{terminated}} lopetettu"
+    },
+    "recent": {
+      "title": "Äskettäin rekisteröidyt yhteisöt",
+      "loading": "Ladataan…",
+      "empty": "Ei vielä rekisteröityjä yhteisöjä.",
+      "table": {
+        "community": "yhteisössä",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Asukkaat"
+      }
+    }
+  },
+  "communities": {
+    "count": "Yhteisöt: {{count}}",
+    "loadError": "Yhteisöjä ei voitu ladata. Yritä uudelleen.",
+    "searchPlaceholder": "Suodata yhteisön, järjestelmänvalvojan nimen tai sähköpostiosoitteen mukaan",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Kaikki"
+    },
+    "sortOptions": {
+      "community": "yhteisössä",
+      "admin": "Admin",
+      "residents": "Asukkaat"
+    },
+    "loading": "Ladataan yhteisöjä…",
+    "empty": "Ei vielä rekisteröityjä yhteisöjä.",
+    "noMatch": "Yksikään yhteisö ei vastaa suodattimiasi.",
+    "table": {
+      "community": "yhteisössä",
+      "admin": "Admin",
+      "email": "Sähköposti",
+      "status": "Status",
+      "residents": "Asukkaat",
+      "view": "Näytä"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Tätä yhteisöä ei voitu ladata. Se on saatettu poistaa.",
+    "statusUpdateError": "Tämän yhteisön tilaa ei voitu päivittää.",
+    "deleteError": "Tätä yhteisöä ei voitu poistaa.",
+    "loading": "Ladataan yhteisöä…",
+    "notFound": "Yhteisöä ei löydy.",
+    "backLink": "← Takaisin yhteisöihin",
+    "backLinkShort": "Takaisin yhteisöihin",
+    "eyebrow": "Yhteisön profiili",
+    "unnamed": "Nimetön yhteisö",
+    "noAddress": "Ei osoitetta tiedoissa",
+    "stats": {
+      "residents": "Asukkaat",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Aktivoi uudelleen",
+      "block": "Lohko",
+      "terminate": "Lopeta",
+      "delete": "Poista yhteisö"
+    },
+    "blockDialog": {
+      "title": "Estetäänkö tämä yhteisön järjestelmänvalvoja?",
+      "message": "Estä {{name}}? He eivät voi kirjautua sisään ennen kuin esto poistetaan. Tämä ei vaikuta tietoihin.",
+      "confirm": "Lohko"
+    },
+    "terminateDialog": {
+      "title": "Lopetetaanko tämä yhteisön järjestelmänvalvoja?",
+      "message": "Lopetetaanko käyttäjän {{name}} käyttöoikeus pysyvästi? Tätä ei voi peruuttaa, vaikka heidän yhteisönsä tiedot säilytetään kirjaamista varten.",
+      "confirm": "Lopeta"
+    },
+    "deleteDialog": {
+      "title": "Poistetaanko tämä yhteisö?",
+      "message": "Tämä poistaa pysyvästi <strong>{{name}}</strong> ja kaikki sen kotitaloudet, asukkaat, mittarit, tariffi-/laskutusmääritykset ja laskuhistorian. Tätä toimintoa ei voi kumota.",
+      "typeToConfirm": "Jatka kirjoittamalla <strong>{{word}}</strong>",
+      "confirm": "Vahvistaa"
+    },
+    "residents": {
+      "title": "Asukkaat",
+      "registeredCount": "Rekisteröity: {{count}}",
+      "empty": "Tähän yhteisöön ei ole vielä rekisteröitynyt asukkaita.",
+      "table": {
+        "flatUnit": "Tasainen yksikkö",
+        "meter": "Mittari",
+        "resident": "Asukas",
+        "email": "Sähköposti",
+        "passwordSet": "Salasana Aseta"
+      },
+      "yes": "Kyllä",
+      "no": "Ei"
+    },
+    "cancel": "Peruuttaa",
+    "working": "Työskentely…",
+    "deleting": "Poistetaan…"
+  },
+  "systemStatus": {
+    "statusError": "Ei saatu yhteyttä taustajärjestelmään järjestelmän tilan tarkistamiseksi.",
+    "metricsError": "Mittaushistoriaa ei voitu ladata.",
+    "ranges": {
+      "fiveMinutes": "5 minuuttia",
+      "fifteenMinutes": "15 minuuttia",
+      "hour": "Tunnin",
+      "day": "Päivä",
+      "week": "Viikko",
+      "month": "Kuukausi",
+      "threeMonths": "3 kuukautta"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}min"
+    },
+    "charts": {
+      "requestsPerSec": "Pyynnöt/sek",
+      "opsPerSec": "Ops/s",
+      "latency": "Latenssi",
+      "lastValue": "{{value}} viimeksi",
+      "loading": "Ladataan…",
+      "empty": "Tälle alueelle ei ole vielä tallennettu mittareita."
+    },
+    "stats": {
+      "min": "Minimi: <b>{{value}}</b>",
+      "avg": "Keskiarvo: <b>{{value}}</b>",
+      "max": "Enintään: <b>{{value}}</b>",
+      "last": "Viimeisin: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Tarkistetaan…",
+      "reachable": "tavoitettavissa",
+      "unreachable": "tavoittamaton",
+      "connected": "Yhdistetty",
+      "backendApiHint": "Tämä sivu latautui taustajärjestelmästä, joten se vastasi.",
+      "database": "Tietokanta",
+      "databaseHint": "PostgreSQL-yhteys, tarkistettu livenä.",
+      "uptime": "Backend käytettävyys",
+      "uptimeHint": "Edellisen sovelluksen uudelleenkäynnistyksen jälkeen.",
+      "appVersion": "Sovelluksen versio",
+      "appVersionHint": "Backend build versio."
+    },
+    "mini": {
+      "latency": "Latenssi",
+      "readsLatency": "Lukemisviive",
+      "writesLatency": "Kirjoittaa Latenssia",
+      "otherLatency": "Muu latenssi",
+      "connections": "Liitännät",
+      "totalKeys": "Avaimet yhteensä"
+    },
+    "note": "Pyynnöt/s ja latenssi otetaan live-taustaliikenteestä 15 sekunnin välein ja niitä säilytetään jopa 100 päivää. Tämä on perusyhteys + liikennetarkistus – se ei korvaa täyttä sovelluksen suorituskyvyn seurantaa, lokien yhdistämistä tai hälytyksiä."
+  },
+  "reports": {
+    "loadError": "Alustaraporttia ei voitu ladata.",
+    "ranges": {
+      "threeMonths": "3 kuukautta",
+      "sixMonths": "6 kuukautta",
+      "twelveMonths": "12 kuukautta",
+      "custom": "Mukautettu"
+    },
+    "sortOptions": {
+      "community": "yhteisössä",
+      "usage": "Käyttö",
+      "billed": "Laskutettu",
+      "residents": "Asukkaat"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "Vastaanottaja",
+      "hint": "Valitse sekä \"alkaen\" että \"to\" kuukausi ladataksesi mukautetun raportin."
+    },
+    "loading": "Ladataan raporttia…",
+    "cards": {
+      "totalCommunities": "Yhteisöt yhteensä",
+      "inThisRange": "Tällä alueella",
+      "totalResidents": "Asukkaita yhteensä",
+      "acrossAllCommunities": "Kaikissa yhteisöissä",
+      "overallUsage": "Kokonaiskäyttö",
+      "meteredConsumption": "Mitattu kulutus",
+      "overallBilled": "Laskutettu kokonaisuudessaan",
+      "finalizedInvoicesOnly": "Vain viimeistellyt laskut",
+      "avgUsagePerResident": "Keskimääräinen käyttö / asukas",
+      "avgBillPerResident": "Keskim. lasku / asukas"
+    },
+    "charts": {
+      "usageTitle": "Koko alustan käyttö (kL / kuukausi)",
+      "usageEmpty": "Tälle alueelle ei ole tallennettu käyttöä.",
+      "usageSeries": "Käyttö",
+      "billedTitle": "Koko alustan kattava laskutettu summa (₹ / kuukausi)",
+      "billedEmpty": "Tälle alueelle ei ole viimeistelty laskuja.",
+      "billedSeries": "Laskutettu"
+    },
+    "searchPlaceholder": "Suodata yhteisön tai järjestelmänvalvojan nimen mukaan",
+    "empty": "Yhdelläkään yhteisöllä ei ole vielä tämän alueen käyttö- tai laskutustietoja.",
+    "noMatch": "Yksikään yhteisö ei vastaa suodatintasi.",
+    "table": {
+      "community": "yhteisössä",
+      "admin": "Admin",
+      "residents": "Asukkaat",
+      "usage": "Käyttö (kL)",
+      "billed": "Laskutettu (₹)",
+      "avgUsagePerResident": "Keskimääräinen käyttö / asukas",
+      "avgBillPerResident": "Keskim. lasku / asukas"
+    }
+  },
+  "supportTickets": {
+    "title": "Tukiliput",
+    "subtitle": "Tue lippuja ja asukkaiden ja yhteisön järjestelmänvalvojien esittämiä huolenaiheita alustanlaajuisesti."
+  }
+}

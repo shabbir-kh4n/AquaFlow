@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Inayotumika",
+    "blocked": "Imezuiwa",
+    "terminated": "Imekatishwa"
+  },
+  "sort": {
+    "sortBy": "Panga kwa",
+    "toggleDirection": "Geuza mwelekeo wa kupanga",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Inaonyesha {{from}}–{{to}} kati ya {{total}}",
+    "prev": "← Iliyotangulia",
+    "next": "Inayofuata →",
+    "page": "Ukurasa {{page}} wa {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Muhtasari wa Jukwaa",
+    "subtitle": "Kila msimamizi wa jumuiya aliyesajiliwa, katika mfumo mzima wa HydroLedger.",
+    "viewAll": "Tazama Jumuiya Zote",
+    "loadError": "Haikuweza kupakia data ya mfumo kwa sasa.",
+    "cards": {
+      "totalCommunities": "Jumla ya Jumuiya",
+      "registeredAdmins": "Wasimamizi waliosajiliwa",
+      "totalResidents": "Jumla ya Wakazi",
+      "acrossAllCommunities": "Katika jamii zote",
+      "active": "Inayotumika",
+      "inGoodStanding": "Katika msimamo mzuri",
+      "blockedTerminated": "Imezuiwa / Imesimamishwa",
+      "blockedTerminatedBreakdown": "{{blocked}} imezuiwa, {{terminated}} imekatishwa"
+    },
+    "recent": {
+      "title": "Jumuiya Zilizosajiliwa Hivi Karibuni",
+      "loading": "Inapakia...",
+      "empty": "Bado hakuna jumuiya zilizosajiliwa.",
+      "table": {
+        "community": "Jumuiya",
+        "admin": "Msimamizi",
+        "status": "Hali",
+        "residents": "Wakazi"
+      }
+    }
+  },
+  "communities": {
+    "count": "Jumuiya: {{count}}",
+    "loadError": "Haikuweza kupakia jumuiya. Tafadhali jaribu tena.",
+    "searchPlaceholder": "Chuja kwa jumuiya, jina la msimamizi au barua pepe",
+    "statusFilter": {
+      "label": "Hali",
+      "all": "Wote"
+    },
+    "sortOptions": {
+      "community": "Jumuiya",
+      "admin": "Msimamizi",
+      "residents": "Wakazi"
+    },
+    "loading": "Inapakia jumuiya...",
+    "empty": "Bado hakuna jumuiya zilizosajiliwa.",
+    "noMatch": "Hakuna jumuiya zinazolingana na vichujio vyako.",
+    "table": {
+      "community": "Jumuiya",
+      "admin": "Msimamizi",
+      "email": "Barua pepe",
+      "status": "Hali",
+      "residents": "Wakazi",
+      "view": "Tazama"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Haikuweza kupakia jumuiya hii. Huenda imeondolewa.",
+    "statusUpdateError": "Haikuweza kusasisha hali ya jumuiya hii.",
+    "deleteError": "Haikuweza kufuta jumuiya hii.",
+    "loading": "Inapakia jumuiya...",
+    "notFound": "Jumuiya haijapatikana.",
+    "backLink": "← Rudi kwa Jumuiya",
+    "backLinkShort": "Rudi kwa Jumuiya",
+    "eyebrow": "Wasifu wa Jumuiya",
+    "unnamed": "Jumuiya isiyo na jina",
+    "noAddress": "Hakuna anwani kwenye faili",
+    "stats": {
+      "residents": "Wakazi",
+      "status": "Hali"
+    },
+    "actions": {
+      "reactivate": "Anzisha tena",
+      "block": "Zuia",
+      "terminate": "Sitisha",
+      "delete": "Futa Jumuiya"
+    },
+    "blockDialog": {
+      "title": "Je, ungependa kumzuia msimamizi huyu wa jumuiya?",
+      "message": "Ungependa kuzuia {{name}}? Hawataweza kuingia hadi wafunguliwe. Hakuna data itaathiriwa.",
+      "confirm": "Zuia"
+    },
+    "terminateDialog": {
+      "title": "Ungependa kukomesha msimamizi huyu wa jumuiya?",
+      "message": "Je, ungependa kukomesha kabisa ufikiaji wa {{name}}? Hili haliwezi kutenduliwa, ingawa data ya jumuiya yao itawekwa kwa ajili ya kumbukumbu.",
+      "confirm": "Sitisha"
+    },
+    "deleteDialog": {
+      "title": "Ungependa kufuta jumuiya hii?",
+      "message": "Hii itafuta kabisa <strong>{{name}}</strong> na kaya zake zote, wakazi, mita, usanidi wa ushuru/bili na historia ya ankara. Kitendo hiki hakiwezi kutenduliwa.",
+      "typeToConfirm": "Andika <strong>{{word}}</strong> ili kuendelea",
+      "confirm": "Thibitisha"
+    },
+    "residents": {
+      "title": "Wakazi",
+      "registeredCount": "Imesajiliwa: {{count}}",
+      "empty": "Bado hakuna wakaazi waliosajiliwa katika jumuiya hii.",
+      "table": {
+        "flatUnit": "Kitengo cha Gorofa",
+        "meter": "Mita",
+        "resident": "Mkazi",
+        "email": "Barua pepe",
+        "passwordSet": "Nenosiri Seti"
+      },
+      "yes": "Ndiyo",
+      "no": "Hapana"
+    },
+    "cancel": "Ghairi",
+    "working": "Inafanya kazi...",
+    "deleting": "Inafuta..."
+  },
+  "systemStatus": {
+    "statusError": "Haikuweza kufikia upande wa nyuma ili kuangalia hali ya mfumo.",
+    "metricsError": "Haikuweza kupakia historia ya vipimo.",
+    "ranges": {
+      "fiveMinutes": "Dakika 5",
+      "fifteenMinutes": "Dakika 15",
+      "hour": "Saa",
+      "day": "Siku",
+      "week": "Wiki",
+      "month": "Mwezi",
+      "threeMonths": "Miezi 3"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Maombi/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Kuchelewa",
+      "lastValue": "{{value}} mwisho",
+      "loading": "Inapakia...",
+      "empty": "Bado hakuna vipimo vilivyorekodiwa vya safu hii."
+    },
+    "stats": {
+      "min": "Dak: <b>{{value}}</b>",
+      "avg": "Wastani: <b>{{value}}</b>",
+      "max": "Upeo: <b>{{value}}</b>",
+      "last": "Mwisho: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Inaangalia...",
+      "reachable": "Inaweza kufikiwa",
+      "unreachable": "Haipatikani",
+      "connected": "Imeunganishwa",
+      "backendApiHint": "Ukurasa huu ulipakiwa kutoka upande wa nyuma, kwa hivyo ulijibu.",
+      "database": "Hifadhidata",
+      "databaseHint": "Muunganisho wa PostgreSQL, umeangaliwa moja kwa moja.",
+      "uptime": "Nyuma Uptime",
+      "uptimeHint": "Tangu programu ya mwisho ianze tena.",
+      "appVersion": "Toleo la Programu",
+      "appVersionHint": "Toleo la uundaji wa nyuma."
+    },
+    "mini": {
+      "latency": "Kuchelewa",
+      "readsLatency": "Anasoma Latency",
+      "writesLatency": "Anaandika Latency",
+      "otherLatency": "Kuchelewa Nyingine",
+      "connections": "Viunganishi",
+      "totalKeys": "Funguo Jumla"
+    },
+    "note": "Maombi/sekunde na muda wa kusubiri huchukuliwa kutoka kwa trafiki ya moja kwa moja kila baada ya sekunde 15 na hutunzwa kwa hadi siku 100. Huu ni muunganisho wa msingi + ukaguzi wa trafiki - hauchukui nafasi ya ufuatiliaji kamili wa utendakazi wa programu, ujumlishaji wa kumbukumbu, au arifa."
+  },
+  "reports": {
+    "loadError": "Haikuweza kupakia ripoti ya jukwaa.",
+    "ranges": {
+      "threeMonths": "Miezi 3",
+      "sixMonths": "Miezi 6",
+      "twelveMonths": "Miezi 12",
+      "custom": "Desturi"
+    },
+    "sortOptions": {
+      "community": "Jumuiya",
+      "usage": "Matumizi",
+      "billed": "Inatozwa",
+      "residents": "Wakazi"
+    },
+    "customRange": {
+      "from": "Kutoka",
+      "to": "Kwa",
+      "hint": "Chagua mwezi wa \"kutoka\" na \"hadi\" ili kupakia ripoti maalum."
+    },
+    "loading": "Inapakia ripoti...",
+    "cards": {
+      "totalCommunities": "Jumla ya Jumuiya",
+      "inThisRange": "Katika safu hii",
+      "totalResidents": "Jumla ya Wakazi",
+      "acrossAllCommunities": "Katika jamii zote",
+      "overallUsage": "Matumizi ya Jumla",
+      "meteredConsumption": "Matumizi ya kipimo",
+      "overallBilled": "Kwa Jumla Inatozwa",
+      "finalizedInvoicesOnly": "Ankara zilizokamilishwa pekee",
+      "avgUsagePerResident": "Wastani wa Matumizi / Mkazi",
+      "avgBillPerResident": "Wastani wa Mswada / Mkazi"
+    },
+    "charts": {
+      "usageTitle": "Matumizi ya Mfumo mzima (kL / mwezi)",
+      "usageEmpty": "Hakuna matumizi yaliyorekodiwa kwa masafa haya.",
+      "usageSeries": "Matumizi",
+      "billedTitle": "Kiasi kinachotozwa kwa Mfumo mzima ( ₹ / mwezi)",
+      "billedEmpty": "Hakuna ankara zilizokamilishwa kwa safu hii.",
+      "billedSeries": "Inatozwa"
+    },
+    "searchPlaceholder": "Chuja kwa jina la jumuiya au msimamizi",
+    "empty": "Bado hakuna jumuiya zilizo na data ya matumizi au malipo ya safu hii.",
+    "noMatch": "Hakuna jumuiya zinazolingana na kichujio chako.",
+    "table": {
+      "community": "Jumuiya",
+      "admin": "Msimamizi",
+      "residents": "Wakazi",
+      "usage": "Matumizi (kL)",
+      "billed": "Inatozwa ( ₹)",
+      "avgUsagePerResident": "Wastani wa Matumizi / Mkazi",
+      "avgBillPerResident": "Wastani wa Mswada / Mkazi"
+    }
+  },
+  "supportTickets": {
+    "title": "Tikiti za Usaidizi",
+    "subtitle": "Tikiti za usaidizi na hoja zilizotolewa na wakaazi na wasimamizi wa jamii, jukwaa kote."
+  }
+}

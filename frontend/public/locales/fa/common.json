@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "بستن",
+    "signUpTitle": "انجمن خود را ثبت کنید",
+    "signInTitle": "خوش آمدید",
+    "signUpSubtitle": "برای شروع مدیریت ساکنان و صدور صورت حساب، یک حساب سرپرست انجمن ایجاد کنید.",
+    "signInSubtitle": "برای مشاهده میزان مصرف آب و صورتحساب خود وارد شوید."
+  },
+  "signIn": {
+    "errorFallback": "ورود به سیستم ممکن نیست. لطفاً دوباره امتحان کنید.",
+    "emailLabel": "ایمیل",
+    "passwordLabel": "رمز عبور",
+    "rememberMe": "مرا به خاطر بسپار",
+    "forgotPassword": "رمز عبور را فراموش کرده اید؟",
+    "submitting": "ورود به سیستم…",
+    "submit": "وارد شوید",
+    "noAccount": "حساب کاربری ندارید؟",
+    "signUpLink": "ثبت نام کنید"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "گذرواژه ها مطابقت ندارند.",
+      "communityRequired": "نام انجمن مورد نیاز است.",
+      "termsRequired": "لطفاً با شرایط خدمات و سیاست حفظ حریم خصوصی موافقت کنید.",
+      "fallback": "ایجاد حساب کاربری ممکن نیست. لطفا دوباره امتحان کنید."
+    },
+    "hint": "فقط مدیران انجمن در اینجا ثبت نام می کنند. هنگامی که وارد شوید، جزئیات ساکنان خود را خودتان اضافه می کنید - آنها به تنهایی ثبت نام نمی کنند.",
+    "fullNameLabel": "نام کامل",
+    "emailLabel": "ایمیل",
+    "phoneLabel": "شماره تلفن",
+    "communityNameLabel": "نام انجمن",
+    "passwordLabel": "رمز عبور",
+    "confirmPasswordLabel": "رمز عبور را تایید کنید",
+    "agreeTerms": "من با <termsLink>شرایط خدمات</termsLink> و <privacyLink>خط‌مشی رازداری</privacyLink> موافقم",
+    "submitting": "در حال ایجاد حساب…",
+    "submit": "ایجاد حساب مدیریت",
+    "haveAccount": "از قبل حساب کاربری دارید؟",
+    "signInLink": "وارد شوید"
+  },
+  "installPrompt": {
+    "title": "نصب HydroLedger",
+    "description": "برای دسترسی سریع، آن را به صفحه اصلی خود اضافه کنید.",
+    "dismiss": "رد کردن",
+    "install": "نصب کنید"
+  },
+  "setPassword": {
+    "title": "رمز عبور خود را تنظیم کنید",
+    "loading": "در حال بارگیری…",
+    "subtitle": "سلام {{name}}، یک رمز عبور برای {{email}} برای فعال کردن حساب HydroLedger خود انتخاب کنید.",
+    "errors": {
+      "invalidLink": "این پیوند نامعتبر است یا منقضی شده است.",
+      "tooShort": "رمز عبور باید حداقل 8 کاراکتر باشد.",
+      "mismatch": "گذرواژه ها مطابقت ندارند.",
+      "fallback": "رمز عبور شما تنظیم نشد. لطفا دوباره امتحان کنید."
+    },
+    "passwordLabel": "رمز عبور",
+    "confirmPasswordLabel": "رمز عبور را تایید کنید",
+    "submitting": "تنظیم رمز عبور…",
+    "submit": "رمز عبور تنظیم کنید و وارد شوید"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger دستیار",
+      "resident": "در مورد حساب خود بپرسید",
+      "admin": "دستیار جامعه",
+      "platform": "دستیار پلتفرم",
+      "default": "دستیار"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger چیست؟",
+        "tieredBilling": "صورتحساب سطحی چگونه کار می کند؟",
+        "leaks": "نشت ها چگونه شناسایی می شوند؟"
+      },
+      "resident": {
+        "billEstimate": "تخمین قبض فعلی من چیست؟",
+        "alerts": "آیا من هشدار استفاده دارم؟",
+        "readings": "نمایش خوانش های اخیر متر من"
+      },
+      "admin": {
+        "households": "چند خانوار داریم؟",
+        "billingCycles": "چرخه‌های صورت‌حساب اخیر ما را فهرست کنید",
+        "tariff": "طرح تعرفه فعلی ما چیست؟"
+      },
+      "platform": {
+        "communities": "فهرست همه جوامع ثبت شده",
+        "usageReport": "گزارش استفاده از پلتفرم را نشان دهید",
+        "systemStatus": "وضعیت سیستم چگونه است؟"
+      }
+    },
+    "errors": {
+      "rateLimited": "شما خیلی سریع پیام ها را ارسال می کنید - لطفاً یک لحظه صبر کنید و دوباره امتحان کنید.",
+      "unavailable": "دستیار موقتاً در دسترس نیست. لطفاً به زودی دوباره امتحان کنید.",
+      "generic": "هنگام ارسال آن پیام مشکلی پیش آمد. لطفا دوباره امتحان کنید."
+    },
+    "emptyHint": "هر چیزی از من بپرسید - من فقط می توانم داده های خود را ببینم.",
+    "closeAssistant": "دستیار نزدیک",
+    "openAssistant": "دستیار را باز کنید",
+    "inputPlaceholder": "یک پیام تایپ کنید…",
+    "inputLabel": "پیام",
+    "send": "ارسال کنید"
+  },
+  "supportBoard": {
+    "defaultTitle": "بلیط های پشتیبانی",
+    "defaultCreateLabel": "نگرانی جدید را مطرح کنید",
+    "status": {
+      "open": "باز کنید",
+      "inProgress": "در حال انجام است",
+      "resolved": "حل شد",
+      "closed": "بسته شد"
+    },
+    "tabs": {
+      "all": "همه بلیط ها"
+    },
+    "recipients": {
+      "admin": "ادمین انجمن",
+      "systemAdmin": "مدیر سیستم",
+      "both": "ادمین انجمن + مدیر سیستم"
+    },
+    "roles": {
+      "resident": "مقیم",
+      "admin": "مدیر"
+    },
+    "toRecipients": "به: {{recipients}}",
+    "raisedByResident": "بزرگ شده توسط ساکن {{name}}",
+    "raisedByAdmin": "مطرح شده توسط ادمین {{name}}",
+    "refresh": "تازه کردن",
+    "stats": {
+      "openLabel": "موارد ارسالی را باز کنید",
+      "openHint": "در انتظار بررسی",
+      "inProgressLabel": "در حال انجام است",
+      "inProgressHint": "در حال کار کردن",
+      "resolvedLabel": "حل شد",
+      "resolvedHint": "با موفقیت بسته شد"
+    },
+    "searchPlaceholder": "جستجوی بلیط ها بر اساس موضوع، شماره…",
+    "loadingTickets": "در حال بارگیری بلیط…",
+    "empty": {
+      "title": "هیچ بلیط پشتیبانی یافت نشد",
+      "body": "شما در حال حاضر هیچ درخواست پشتیبانی باز یا ثبت شده ای مطابق با این فیلتر ندارید.",
+      "cta": "یک نگرانی ارسال کنید"
+    },
+    "errors": {
+      "loadList": "بلیط های پشتیبانی بارگیری نشد. لطفا دوباره امتحان کنید.",
+      "loadDetail": "این بلیط بارگیری نشد. لطفا دوباره امتحان کنید.",
+      "required": "موضوع و پیام هر دو مورد نیاز است.",
+      "recipientRequired": "حداقل یک گیرنده (مدیر انجمن و/یا سرپرست سیستم) را انتخاب کنید.",
+      "submitFallback": "این بلیط ارسال نشد. لطفا دوباره امتحان کنید.",
+      "sendReply": "این پیام ارسال نشد. لطفا دوباره امتحان کنید.",
+      "updateStatus": "وضعیت این بلیت به‌روزرسانی نشد. لطفا دوباره امتحان کنید."
+    },
+    "form": {
+      "defaultHint": "مشکل یا نگرانی خود را در زیر شرح دهید.",
+      "subjectLabel": "موضوع",
+      "subjectPlaceholder": "خلاصه ای از مسئله شما",
+      "messageLabel": "پیام",
+      "messagePlaceholder": "آنچه را که در حال وقوع است با جزئیات توضیح دهید…",
+      "recipientsLabel": "این نگرانی را به",
+      "cancel": "لغو کنید",
+      "submitting": "در حال ارسال…",
+      "submit": "ارسال بلیط"
+    },
+    "detail": {
+      "loading": "در حال بارگیری بلیط…",
+      "replyPlaceholder": "پاسخ بنویس…",
+      "close": "بستن",
+      "sending": "در حال ارسال…",
+      "sendReply": "ارسال پاسخ"
+    }
+  },
+  "shell": {
+    "welcomeBack": "خوش آمدید، {{name}}",
+    "openMenu": "منو را باز کنید",
+    "closeMenu": "بستن منو",
+    "logout": "از سیستم خارج شوید",
+    "search": "جستجو کنید",
+    "notifications": "اطلاعیه ها"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "داشبورد",
+      "households": "فهرست خانوارها",
+      "meterReadings": "قرائت کنتور",
+      "billing": "مدیریت صورتحساب",
+      "bulkPurchases": "خرید عمده",
+      "reports": "گزارش ها",
+      "waterLeakage": "نشت آب",
+      "support": "پشتیبانی / نگرانی",
+      "tariffPlans": "طرح های تعرفه ای",
+      "announcements": "اطلاعیه ها",
+      "profile": "نمایه"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "در اینجا یک عکس فوری از جامعه شما است."
+      },
+      "households": {
+        "title": "فهرست خانوارها",
+        "subtitle": "ساکنان جامعه خود را اضافه کنید، به روز کنید و مدیریت کنید."
+      },
+      "meterReadings": {
+        "title": "هاب قرائت کنتور آب",
+        "subtitle": "یک ساکن را جستجو کنید و میزان قرائت کنتور آب آنها را ثبت کنید."
+      },
+      "tariffPlans": {
+        "title": "پیکربندی تعرفه",
+        "subtitle": "محدودیت‌های نرخ پلکانی، هزینه‌های مشترک منطقه مشترک و روش‌های توزیع را برای جامعه آپارتمان خود پیکربندی کنید."
+      },
+      "billing": {
+        "title": "مدیریت صورتحساب",
+        "subtitle": "چرخه‌های صورت‌حساب را باز، نهایی و بایگانی کنید و فاکتورهای جزئی را برای هر خانواده بررسی کنید."
+      },
+      "bulkPurchases": {
+        "title": "خرید عمده",
+        "subtitle": "تحویل تانکر و خریدهای تدارکات شهری را برای جامعه خود ثبت کنید."
+      },
+      "waterLeakage": {
+        "title": "نشت آب",
+        "subtitle": "هشدارهای نشت مبتنی بر آستانه و موارد دورافتاده را پیکربندی کنید و خانوارهای پرچمدار را بررسی کنید."
+      },
+      "support": {
+        "title": "پشتیبانی / نگرانی",
+        "subtitle": "بلیط های خود را به مدیر سیستم ارائه دهید، یا به نگرانی هایی که ساکنانتان به شما گفته اند رسیدگی کنید."
+      },
+      "profile": {
+        "title": "تنظیمات و نمایه",
+        "subtitle": "اطلاعات حساب و اطلاعات آپارتمان خود را مدیریت کنید."
+      }
+    },
+    "fallbackName": "مدیر",
+    "fallbackCommunity": "ادمین انجمن",
+    "notBuilt": "{{label}} هنوز ساخته نشده است",
+    "searchPlaceholder": "هر چیزی را جستجو کنید…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "گزارش ها",
+      "description": "گزارش های مصرف، صورتحساب و حفاظت برای جامعه شما."
+    },
+    "announcements": {
+      "title": "اطلاعیه ها",
+      "description": "برای ساکنین خود اطلاعیه های سراسری را ارسال کنید."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} به زودی ارائه می شود"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "داشبورد",
+      "usageHistory": "تاریخچه استفاده",
+      "bills": "صورت حساب های من",
+      "recommendations": "توصیه ها",
+      "reports": "گزارش ها",
+      "support": "پشتیبانی / نگرانی",
+      "notifications": "اطلاعیه ها",
+      "profile": "نمایه"
+    },
+    "pages": {
+      "usageHistory": "سابقه استفاده شما",
+      "billing": "صورتحساب و فاکتورها",
+      "notifications": "اطلاعیه ها",
+      "recommendations": "توصیه ها",
+      "support": "پشتیبانی / نگرانی"
+    },
+    "defaultTitle": "داشبورد مقیم",
+    "navLabel": "ناوبری مقیم",
+    "fallbackName": "مقیم",
+    "unit": "واحد {{number}}",
+    "comingSoon": "{{label}} به زودی ارائه می شود",
+    "profile": "نمایه",
+    "searchPlaceholder": "جستجوی تجزیه و تحلیل، صورتحساب…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "داشبورد",
+      "communities": "جوامع",
+      "reports": "گزارش ها",
+      "supportTickets": "بلیط های پشتیبانی",
+      "systemStatus": "وضعیت سیستم"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "عکس فوری در سراسر پلتفرم در هر انجمن ثبت شده."
+      },
+      "communities": {
+        "title": "جوامع",
+        "subtitle": "هر مدیر انجمن ثبت شده و انجمن آنها، در یک مکان."
+      },
+      "reports": {
+        "title": "گزارش ها",
+        "subtitle": "ارقام مصرف آب و صورتحساب در سطح پلت فرم، بر اساس جامعه و در طول زمان."
+      },
+      "supportTickets": {
+        "title": "بلیط های پشتیبانی",
+        "subtitle": "از بلیط‌ها و نگرانی‌های مطرح شده توسط ساکنان و مدیران انجمن، در سراسر پلتفرم پشتیبانی کنید."
+      },
+      "systemStatus": {
+        "title": "وضعیت سیستم",
+        "subtitle": "اتصال Backend و سلامت اولیه زمان اجرا."
+      }
+    },
+    "fallbackName": "مدیر سیستم",
+    "platformOwner": "مالک پلتفرم",
+    "searchPlaceholder": "جستجو در جوامع…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "زبان: {{language}}",
+    "searchPlaceholder": "جستجوی زبان…",
+    "noMatches": "هیچ مسابقه ای وجود ندارد"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Lukke",
+    "signUpTitle": "Registrer fellesskapet ditt",
+    "signInTitle": "Velkommen tilbake",
+    "signUpSubtitle": "Opprett en fellesskapsadministratorkonto for å begynne å administrere innbyggere og fakturering.",
+    "signInSubtitle": "Logg på for å se vannforbruket og faktureringen."
+  },
+  "signIn": {
+    "errorFallback": "Kan ikke logge på. Prøv igjen.",
+    "emailLabel": "E-post",
+    "passwordLabel": "Passord",
+    "rememberMe": "Husk meg",
+    "forgotPassword": "Glemt passord?",
+    "submitting": "Logger på …",
+    "submit": "Logg på",
+    "noAccount": "Har du ikke en konto?",
+    "signUpLink": "Registrer deg"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Passord stemmer ikke.",
+      "communityRequired": "Fellesskapsnavn er obligatorisk.",
+      "termsRequired": "Vennligst godta vilkårene for bruk og personvernerklæringen.",
+      "fallback": "Kan ikke opprette konto. Vennligst prøv igjen."
+    },
+    "hint": "Bare fellesskapsadministratorer registrerer seg her. Når du er inne, legger du til beboernes detaljer selv – de registrerer seg ikke på egenhånd.",
+    "fullNameLabel": "Fullt navn",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefonnummer",
+    "communityNameLabel": "Fellesskapsnavn",
+    "passwordLabel": "Passord",
+    "confirmPasswordLabel": "Bekreft passord",
+    "agreeTerms": "Jeg godtar <termsLink>vilkårene for bruk</termsLink> og <privacyLink>personvernreglene</privacyLink>",
+    "submitting": "Oppretter konto …",
+    "submit": "Opprett administratorkonto",
+    "haveAccount": "Har du allerede en konto?",
+    "signInLink": "Logg på"
+  },
+  "installPrompt": {
+    "title": "Installer HydroLedger",
+    "description": "Legg den til på startskjermen for rask tilgang.",
+    "dismiss": "Avskjedige",
+    "install": "Installer"
+  },
+  "setPassword": {
+    "title": "Angi passordet ditt",
+    "loading": "Laster inn …",
+    "subtitle": "Hei {{name}}, velg et passord for {{email}} for å aktivere HydroLedger-kontoen din.",
+    "errors": {
+      "invalidLink": "Denne koblingen er ugyldig eller har utløpt.",
+      "tooShort": "Passordet må være på minst 8 tegn.",
+      "mismatch": "Passord stemmer ikke.",
+      "fallback": "Kunne ikke angi passordet ditt. Vennligst prøv igjen."
+    },
+    "passwordLabel": "Passord",
+    "confirmPasswordLabel": "Bekreft passord",
+    "submitting": "Angir passord …",
+    "submit": "Angi passord og logg på"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Spør om kontoen din",
+      "admin": "Samfunnsassistent",
+      "platform": "Plattformassistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Hva er HydroLedger?",
+        "tieredBilling": "Hvordan fungerer lagdelt fakturering?",
+        "leaks": "Hvordan oppdages lekkasjer?"
+      },
+      "resident": {
+        "billEstimate": "Hva er mitt nåværende regningsanslag?",
+        "alerts": "Har jeg noen bruksvarsler?",
+        "readings": "Vis mine siste måleravlesninger"
+      },
+      "admin": {
+        "households": "Hvor mange husstander har vi?",
+        "billingCycles": "List opp de siste faktureringssyklusene våre",
+        "tariff": "Hva er vår gjeldende tariffplan?"
+      },
+      "platform": {
+        "communities": "Liste over alle registrerte fellesskap",
+        "usageReport": "Vis rapporten om plattformbruk",
+        "systemStatus": "Hva er systemstatusen?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Du sender meldinger for raskt - vent et øyeblikk og prøv igjen.",
+      "unavailable": "Assistenten er midlertidig utilgjengelig. Prøv igjen snart.",
+      "generic": "Noe gikk galt da meldingen ble sendt. Vennligst prøv igjen."
+    },
+    "emptyHint": "Spør meg hva som helst - jeg kan bare se dine egne data.",
+    "closeAssistant": "Nær assistent",
+    "openAssistant": "Åpne assistent",
+    "inputPlaceholder": "Skriv inn en melding...",
+    "inputLabel": "Beskjed",
+    "send": "Sende"
+  },
+  "supportBoard": {
+    "defaultTitle": "Støttebilletter",
+    "defaultCreateLabel": "Reise ny bekymring",
+    "status": {
+      "open": "Åpne",
+      "inProgress": "Pågår",
+      "resolved": "Løst",
+      "closed": "Lukket"
+    },
+    "tabs": {
+      "all": "Alle billetter"
+    },
+    "recipients": {
+      "admin": "Fellesskapsadministrator",
+      "systemAdmin": "Systemadmin",
+      "both": "Fellesskapsadministrator + systemadministrator"
+    },
+    "roles": {
+      "resident": "Beboer",
+      "admin": "Admin"
+    },
+    "toRecipients": "Til: {{recipients}}",
+    "raisedByResident": "Oppdratt av beboer {{name}}",
+    "raisedByAdmin": "Oppdratt av admin {{name}}",
+    "refresh": "Forfriske",
+    "stats": {
+      "openLabel": "Åpne innleveringer",
+      "openHint": "Venter på anmeldelse",
+      "inProgressLabel": "Pågår",
+      "inProgressHint": "Det jobbes med",
+      "resolvedLabel": "Løst",
+      "resolvedHint": "Vellykket lukket"
+    },
+    "searchPlaceholder": "Søk billetter etter emne, utgave...",
+    "loadingTickets": "Laster inn billetter …",
+    "empty": {
+      "title": "Ingen støttebilletter funnet",
+      "body": "Du har for øyeblikket ingen åpne eller registrerte støtteforespørsler som samsvarer med dette filteret.",
+      "cta": "Send inn en bekymring"
+    },
+    "errors": {
+      "loadList": "Kunne ikke laste inn støttebilletter. Vennligst prøv igjen.",
+      "loadDetail": "Kunne ikke laste inn denne billetten. Vennligst prøv igjen.",
+      "required": "Både emne og melding er obligatoriske.",
+      "recipientRequired": "Velg minst én mottaker (fellesskapsadministrator og/eller systemadministrator).",
+      "submitFallback": "Kunne ikke sende inn denne billetten. Vennligst prøv igjen.",
+      "sendReply": "Kunne ikke sende denne meldingen. Vennligst prøv igjen.",
+      "updateStatus": "Kunne ikke oppdatere denne billettstatusen. Vennligst prøv igjen."
+    },
+    "form": {
+      "defaultHint": "Beskriv problemet eller bekymringen din nedenfor.",
+      "subjectLabel": "Tema",
+      "subjectPlaceholder": "Kort oppsummering av problemet ditt",
+      "messageLabel": "Beskjed",
+      "messagePlaceholder": "Beskriv hva som skjer i detalj...",
+      "recipientsLabel": "Send denne bekymringen til",
+      "cancel": "Kansellere",
+      "submitting": "Sender inn …",
+      "submit": "Send inn billett"
+    },
+    "detail": {
+      "loading": "Laster inn billett …",
+      "replyPlaceholder": "Skriv et svar...",
+      "close": "Lukke",
+      "sending": "Sender …",
+      "sendReply": "Send svar"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Velkommen tilbake, {{name}}",
+    "openMenu": "Åpne menyen",
+    "closeMenu": "Lukk menyen",
+    "logout": "Logg ut",
+    "search": "Søk",
+    "notifications": "Varsler"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashbord",
+      "households": "Husholdningskatalog",
+      "meterReadings": "Måleravlesninger",
+      "billing": "Faktureringsadministrasjon",
+      "bulkPurchases": "Massekjøp",
+      "reports": "Rapporter",
+      "waterLeakage": "Vannlekkasje",
+      "support": "Støtte / Bekymringer",
+      "tariffPlans": "Tariffplaner",
+      "announcements": "Kunngjøringer",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Her er et øyeblikksbilde av fellesskapet ditt."
+      },
+      "households": {
+        "title": "Husholdningskatalog",
+        "subtitle": "Legg til, oppdater og administrer innbyggerne som bor i samfunnet ditt."
+      },
+      "meterReadings": {
+        "title": "Vannmåleravlesningshub",
+        "subtitle": "Søk etter en beboer og registrer vannmålerens avlesning."
+      },
+      "tariffPlans": {
+        "title": "Tariffkonfigurasjon",
+        "subtitle": "Konfigurer nivådelte takstgrenser, delte fellesarealkostnader og distribusjonsmetoder for leilighetsfellesskapet ditt."
+      },
+      "billing": {
+        "title": "Faktureringsadministrasjon",
+        "subtitle": "Åpne, fullfør og arkiver faktureringssykluser, og gjennomgå spesifiserte fakturaer per husholdning."
+      },
+      "bulkPurchases": {
+        "title": "Massekjøp",
+        "subtitle": "Ta opp tankleveranser og kommunale forsyningskjøp for samfunnet ditt."
+      },
+      "waterLeakage": {
+        "title": "Vannlekkasje",
+        "subtitle": "Konfigurer terskel- og avvikbaserte lekkasjevarsler, og gjennomgå flaggede husholdninger."
+      },
+      "support": {
+        "title": "Støtte / Bekymringer",
+        "subtitle": "Hent dine egne billetter til systemadministratoren, eller håndter bekymringer som beboerne har rettet til deg."
+      },
+      "profile": {
+        "title": "Innstillinger og profil",
+        "subtitle": "Administrer kontodetaljer og leilighetsinformasjon."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Fellesskapsadministrator",
+    "notBuilt": "{{label}} er ikke bygget ennå",
+    "searchPlaceholder": "Søk etter hva som helst..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporter",
+      "description": "Forbruks-, fakturerings- og bevaringsrapporter for samfunnet ditt."
+    },
+    "announcements": {
+      "title": "Kunngjøringer",
+      "description": "Send fellesskapsomfattende kunngjøringer til beboerne dine."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kommer snart"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashbord",
+      "usageHistory": "Brukshistorikk",
+      "bills": "Mine regninger",
+      "recommendations": "Anbefalinger",
+      "reports": "Rapporter",
+      "support": "Støtte / Bekymringer",
+      "notifications": "Varsler",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Din brukshistorikk",
+      "billing": "Fakturering og faktura",
+      "notifications": "Varsler",
+      "recommendations": "Anbefalinger",
+      "support": "Støtte / Bekymringer"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Beboernavigasjon",
+    "fallbackName": "Beboer",
+    "unit": "Enhet {{number}}",
+    "comingSoon": "{{label}} kommer snart",
+    "profile": "Profil",
+    "searchPlaceholder": "Søkeanalyse, regninger..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashbord",
+      "communities": "Fellesskap",
+      "reports": "Rapporter",
+      "supportTickets": "Støttebilletter",
+      "systemStatus": "Systemstatus"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platformomfattende øyeblikksbilde på tvers av alle registrerte fellesskap."
+      },
+      "communities": {
+        "title": "Fellesskap",
+        "subtitle": "Hver registrerte fellesskapsadministrator og deres fellesskap, på ett sted."
+      },
+      "reports": {
+        "title": "Rapporter",
+        "subtitle": "Vannbruk og faktureringstall for hele plattformen, etter samfunn og over tid."
+      },
+      "supportTickets": {
+        "title": "Støttebilletter",
+        "subtitle": "Støtt billetter og bekymringer reist av innbyggere og fellesskapsadministratorer, over hele plattformen."
+      },
+      "systemStatus": {
+        "title": "Systemstatus",
+        "subtitle": "Backend-tilkobling og grunnleggende kjøretidshelse."
+      }
+    },
+    "fallbackName": "Systemadmin",
+    "platformOwner": "Plattformeier",
+    "searchPlaceholder": "Søk i fellesskap …"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Språk: {{language}}",
+    "searchPlaceholder": "Søk etter språk...",
+    "noMatches": "Ingen treff"
+  }
+}

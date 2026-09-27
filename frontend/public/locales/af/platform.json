@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktief",
+    "blocked": "Geblokkeer",
+    "terminated": "Beëindig"
+  },
+  "sort": {
+    "sortBy": "Sorteer volgens",
+    "toggleDirection": "Wissel sorteerrigting",
+    "asc": "↑ Asc",
+    "desc": "↓ Beskrywing"
+  },
+  "pagination": {
+    "showing": "Wys tans {{from}}–{{to}} van {{total}}",
+    "prev": "← Vorige",
+    "next": "Volgende →",
+    "page": "Bladsy {{page}} van {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Oorsig",
+    "subtitle": "Elke geregistreerde gemeenskapsadministrateur, oor die hele HydroLedger-platform.",
+    "viewAll": "Bekyk alle gemeenskappe",
+    "loadError": "Kon nie tans platformdata laai nie.",
+    "cards": {
+      "totalCommunities": "Totale gemeenskappe",
+      "registeredAdmins": "Geregistreerde admins",
+      "totalResidents": "Totale inwoners",
+      "acrossAllCommunities": "Regoor alle gemeenskappe",
+      "active": "Aktief",
+      "inGoodStanding": "In goeie reputasie",
+      "blockedTerminated": "Geblokkeer / Beëindig",
+      "blockedTerminatedBreakdown": "{{blocked}} geblokkeer, {{terminated}} beëindig"
+    },
+    "recent": {
+      "title": "Onlangs geregistreerde gemeenskappe",
+      "loading": "Laai tans …",
+      "empty": "Geen gemeenskappe is nog geregistreer nie.",
+      "table": {
+        "community": "Gemeenskap",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Inwoners"
+      }
+    }
+  },
+  "communities": {
+    "count": "Gemeenskappe: {{count}}",
+    "loadError": "Kon nie gemeenskappe laai nie. Probeer asseblief weer.",
+    "searchPlaceholder": "Filtreer volgens gemeenskap, administrateurnaam of e-pos",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Almal"
+    },
+    "sortOptions": {
+      "community": "Gemeenskap",
+      "admin": "Admin",
+      "residents": "Inwoners"
+    },
+    "loading": "Laai tans gemeenskappe …",
+    "empty": "Geen gemeenskappe is nog geregistreer nie.",
+    "noMatch": "Geen gemeenskappe pas by jou filters nie.",
+    "table": {
+      "community": "Gemeenskap",
+      "admin": "Admin",
+      "email": "E-pos",
+      "status": "Status",
+      "residents": "Inwoners",
+      "view": "Uitsig"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Kon nie hierdie gemeenskap laai nie. Dit is dalk verwyder.",
+    "statusUpdateError": "Kon nie hierdie gemeenskap se status opdateer nie.",
+    "deleteError": "Kon nie hierdie gemeenskap uitvee nie.",
+    "loading": "Laai tans gemeenskap …",
+    "notFound": "Gemeenskap nie gevind nie.",
+    "backLink": "← Terug na Gemeenskappe",
+    "backLinkShort": "Terug na Gemeenskappe",
+    "eyebrow": "Gemeenskapsprofiel",
+    "unnamed": "Naamlose gemeenskap",
+    "noAddress": "Geen adres op lêer nie",
+    "stats": {
+      "residents": "Inwoners",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Heraktiveer",
+      "block": "Blok",
+      "terminate": "Beëindig",
+      "delete": "Vee gemeenskap uit"
+    },
+    "blockDialog": {
+      "title": "Blokkeer hierdie gemeenskapsadministrateur?",
+      "message": "Blokkeer {{name}}? Hulle sal nie kan aanmeld totdat hulle gedeblokkeer is nie. Geen data sal geraak word nie.",
+      "confirm": "Blok"
+    },
+    "terminateDialog": {
+      "title": "Beëindig hierdie gemeenskapsadministrateur?",
+      "message": "Beëindig {{name}} se toegang permanent? Dit kan nie ongedaan gemaak word nie, alhoewel hul gemeenskap se data vir rekords gehou sal word.",
+      "confirm": "Beëindig"
+    },
+    "deleteDialog": {
+      "title": "Vee hierdie gemeenskap uit?",
+      "message": "Dit sal <strong>{{name}}</strong> en al sy huishoudings, inwoners, meters, tarief-/faktureringopstelling en faktuurgeskiedenis permanent uitvee. Hierdie handeling kan nie ontdoen word nie.",
+      "typeToConfirm": "Tik <strong>{{word}}</strong> om voort te gaan",
+      "confirm": "Bevestig"
+    },
+    "residents": {
+      "title": "Inwoners",
+      "registeredCount": "Geregistreer: {{count}}",
+      "empty": "Geen inwoners het nog in hierdie gemeenskap geregistreer nie.",
+      "table": {
+        "flatUnit": "Plat Eenheid",
+        "meter": "Meter",
+        "resident": "Inwoner",
+        "email": "E-pos",
+        "passwordSet": "Wagwoord Stel"
+      },
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "cancel": "Kanselleer",
+    "working": "Werk tans …",
+    "deleting": "Vee tans uit …"
+  },
+  "systemStatus": {
+    "statusError": "Kon nie die agterkant bereik om stelselstatus na te gaan nie.",
+    "metricsError": "Kon nie statistiekgeskiedenis laai nie.",
+    "ranges": {
+      "fiveMinutes": "5 minute",
+      "fifteenMinutes": "15 minute",
+      "hour": "Uur",
+      "day": "Dag",
+      "week": "Week",
+      "month": "Maand",
+      "threeMonths": "3 Maande"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Versoeke/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latency",
+      "lastValue": "{{value}} laaste",
+      "loading": "Laai tans …",
+      "empty": "Geen maatstawwe is nog vir hierdie reeks aangeteken nie."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Gem.: <b>{{value}}</b>",
+      "max": "Maksimum: <b>{{value}}</b>",
+      "last": "Laaste: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Kontroleer tans …",
+      "reachable": "Bereikbaar",
+      "unreachable": "Onbereikbaar",
+      "connected": "Gekoppel",
+      "backendApiHint": "Hierdie bladsy het vanaf die agterkant gelaai, so dit het gereageer.",
+      "database": "Databasis",
+      "databaseHint": "PostgreSQL-verbinding, regstreeks nagegaan.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Sedert die laaste toepassing herbegin.",
+      "appVersion": "App weergawe",
+      "appVersionHint": "Backend-bou weergawe."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Lees Latency",
+      "writesLatency": "Skryf Latency",
+      "otherLatency": "Ander Latency",
+      "connections": "Verbindings",
+      "totalKeys": "Totale sleutels"
+    },
+    "note": "Versoeke/sek en vertraging word elke 15 sekondes uit regstreekse agterplaasverkeer gesteek en vir tot 100 dae gehou. Dit is 'n basiese konnektiwiteit + verkeerskontrole - dit vervang nie volledige toepassingsprestasiemonitering, log-aggregasie of waarskuwing nie."
+  },
+  "reports": {
+    "loadError": "Kon nie die platformverslag laai nie.",
+    "ranges": {
+      "threeMonths": "3 Maande",
+      "sixMonths": "6 Maande",
+      "twelveMonths": "12 Maande",
+      "custom": "Pasgemaak"
+    },
+    "sortOptions": {
+      "community": "Gemeenskap",
+      "usage": "Gebruik",
+      "billed": "Gefaktureer",
+      "residents": "Inwoners"
+    },
+    "customRange": {
+      "from": "Van",
+      "to": "Om",
+      "hint": "Kies beide 'n \"van\" en \"tot\" maand om 'n pasgemaakte verslag te laai."
+    },
+    "loading": "Laai tans verslag …",
+    "cards": {
+      "totalCommunities": "Totale gemeenskappe",
+      "inThisRange": "In hierdie reeks",
+      "totalResidents": "Totale inwoners",
+      "acrossAllCommunities": "Regoor alle gemeenskappe",
+      "overallUsage": "Algehele gebruik",
+      "meteredConsumption": "Gemeterde verbruik",
+      "overallBilled": "Algeheel gefaktureer",
+      "finalizedInvoicesOnly": "Slegs gefinaliseerde fakture",
+      "avgUsagePerResident": "Gemiddelde gebruik / inwoner",
+      "avgBillPerResident": "Gemiddelde rekening / inwoner"
+    },
+    "charts": {
+      "usageTitle": "Platformwye gebruik (kL / maand)",
+      "usageEmpty": "Geen gebruik is vir hierdie reeks aangeteken nie.",
+      "usageSeries": "Gebruik",
+      "billedTitle": "Platformwye gefaktureerde bedrag (₹ / maand)",
+      "billedEmpty": "Geen fakture vir hierdie reeks gefinaliseer nie.",
+      "billedSeries": "Gefaktureer"
+    },
+    "searchPlaceholder": "Filter volgens gemeenskap of admin naam",
+    "empty": "Geen gemeenskappe het nog gebruiks- of faktureringdata vir hierdie reeks nie.",
+    "noMatch": "Geen gemeenskappe pas by jou filter nie.",
+    "table": {
+      "community": "Gemeenskap",
+      "admin": "Admin",
+      "residents": "Inwoners",
+      "usage": "Gebruik (kL)",
+      "billed": "Gefaktureer (₹)",
+      "avgUsagePerResident": "Gemiddelde gebruik / inwoner",
+      "avgBillPerResident": "Gemiddelde rekening / inwoner"
+    }
+  },
+  "supportTickets": {
+    "title": "Ondersteuningskaartjies",
+    "subtitle": "Ondersteun kaartjies en bekommernisse wat deur inwoners en gemeenskapsadministrateurs geopper word, platformwyd."
+  }
+}

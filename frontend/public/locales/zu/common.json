@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Vala",
+    "signUpTitle": "Bhalisa umphakathi wakho",
+    "signInTitle": "Siyakwamukela",
+    "signUpSubtitle": "Dala i-akhawunti Yomphathi Womphakathi ukuze uqale ukuphatha izakhamuzi nokukhokhisa.",
+    "signInSubtitle": "Ngena ngemvume ukuze ubuke ukusebenzisa kwakho amanzi kanye nenkokhelo."
+  },
+  "signIn": {
+    "errorFallback": "Ayikwazi ukungena ngemvume. Sicela uzame futhi.",
+    "emailLabel": "I-imeyili",
+    "passwordLabel": "Iphasiwedi",
+    "rememberMe": "Ngikhumbule",
+    "forgotPassword": "Ukhohlwe iphasiwedi?",
+    "submitting": "Ingena ngemvume...",
+    "submit": "Ngena ngemvume",
+    "noAccount": "Awunayo i-akhawunti?",
+    "signUpLink": "bhalisela"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Amagama-mfihlo awafani.",
+      "communityRequired": "Igama lomphakathi liyadingeka.",
+      "termsRequired": "Sicela uvumelane Nemigomo Yesevisi kanye Nenqubomgomo Yobumfihlo.",
+      "fallback": "Ayikwazi ukudala i-akhawunti. Sicela uzame futhi."
+    },
+    "hint": "Abaphathi bomphakathi kuphela ababhalisa lapha. Uma usungenile, uzongeza imininingwane yabahlali bakho ngokwakho — abazibhalisi ngokwabo.",
+    "fullNameLabel": "Igama eligcwele",
+    "emailLabel": "I-imeyili",
+    "phoneLabel": "Inombolo yocingo",
+    "communityNameLabel": "Igama lomphakathi",
+    "passwordLabel": "Iphasiwedi",
+    "confirmPasswordLabel": "Qinisekisa Iphasiwedi",
+    "agreeTerms": "Ngiyavumelana <termsLink>Nemigomo Yesevisi</termsLink> kanye <privacyLink>Nenqubomgomo Yobumfihlo</privacyLink>",
+    "submitting": "Idala i-akhawunti...",
+    "submit": "Dala i-akhawunti yomlawuli",
+    "haveAccount": "Usuvele unayo i-akhawunti?",
+    "signInLink": "Ngena ngemvume"
+  },
+  "installPrompt": {
+    "title": "Faka HydroLedger",
+    "description": "Ingeze esikrinini sakho sasekhaya ukuze uyifinyelele ngokushesha.",
+    "dismiss": "Cashisa",
+    "install": "Faka"
+  },
+  "setPassword": {
+    "title": "Setha iphasiwedi yakho",
+    "loading": "Iyalayisha...",
+    "subtitle": "Sawubona {{name}}, khetha iphasiwedi ukuze {{email}} uvule i-akhawunti yakho ye-HydroLedger.",
+    "errors": {
+      "invalidLink": "Lesi sixhumanisi asivumelekile noma siphelelwe yisikhathi.",
+      "tooShort": "Iphasiwedi kumele okungenani ibe nezinhlamvu eziyi-8.",
+      "mismatch": "Amagama-mfihlo awafani.",
+      "fallback": "Ayikwazanga ukusetha iphasiwedi yakho. Sicela uzame futhi."
+    },
+    "passwordLabel": "Iphasiwedi",
+    "confirmPasswordLabel": "Qinisekisa Iphasiwedi",
+    "submitting": "Isetha iphasiwedi...",
+    "submit": "Setha iphasiwedi futhi ungene ngemvume"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Umsizi",
+      "resident": "Buza nge-akhawunti yakho",
+      "admin": "Umsizi Womphakathi",
+      "platform": "Umsizi Wenkundla",
+      "default": "Umsizi"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Yini i-HydroLedger?",
+        "tieredBilling": "Inkokhelo enezigaba isebenza kanjani?",
+        "leaks": "Kutholwa kanjani ukuvuza?"
+      },
+      "resident": {
+        "billEstimate": "Sithini isilinganiso sebhili yami yamanje?",
+        "alerts": "Ingabe nginazo izexwayiso zokusebenzisa?",
+        "readings": "Bonisa ukufundwa kwamamitha kwami ​​​​kwakamuva"
+      },
+      "admin": {
+        "households": "Mingaki imizi esinayo?",
+        "billingCycles": "Faka kuhlu imijikelezo yethu yakamuva yokukhokha",
+        "tariff": "Luthini uhlelo lwethu lwamanje lwentela?"
+      },
+      "platform": {
+        "communities": "Faka ohlwini yonke imiphakathi ebhalisiwe",
+        "usageReport": "Bonisa umbiko wokusetshenziswa kwenkundla",
+        "systemStatus": "Siyini isimo sesistimu?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Uthumela imilayezo ngokushesha kakhulu - sicela ulinde isikhashana bese uzama futhi.",
+      "unavailable": "Umsizi akatholakali okwamanje. Sicela uzame futhi maduze.",
+      "generic": "Kukhona okungahambanga kahle ngokuthumela lowo mlayezo. Sicela uzame futhi."
+    },
+    "emptyHint": "Ngibuze noma yini - ngibona eyakho idatha kuphela.",
+    "closeAssistant": "Vala umsizi",
+    "openAssistant": "Vula umsizi",
+    "inputPlaceholder": "Thayipha umlayezo...",
+    "inputLabel": "Umlayezo",
+    "send": "Thumela"
+  },
+  "supportBoard": {
+    "defaultTitle": "Ukusekela Amathikithi",
+    "defaultCreateLabel": "Phakamisa Ukukhathazeka Okusha",
+    "status": {
+      "open": "Vula",
+      "inProgress": "Kuyaqhubeka",
+      "resolved": "Kuxazululiwe",
+      "closed": "Kuvaliwe"
+    },
+    "tabs": {
+      "all": "Wonke Amathikithi"
+    },
+    "recipients": {
+      "admin": "Admin Admin",
+      "systemAdmin": "Umphathi Wesistimu",
+      "both": "Umphathi Womphakathi + Umphathi Wesistimu"
+    },
+    "roles": {
+      "resident": "Isakhamuzi",
+      "admin": "Admin"
+    },
+    "toRecipients": "Ku: {{recipients}}",
+    "raisedByResident": "Ikhuliswe ngumhlali {{name}}",
+    "raisedByAdmin": "Iphakanyiswe umlawuli {{name}}",
+    "refresh": "Vuselela",
+    "stats": {
+      "openLabel": "Vula Okuthunyelwe",
+      "openHint": "Ilinde ukubuyekezwa",
+      "inProgressLabel": "Kuyaqhubeka",
+      "inProgressHint": "Kuyasetshenzwa",
+      "resolvedLabel": "Kuxazululiwe",
+      "resolvedHint": "Kuvalwe ngempumelelo"
+    },
+    "searchPlaceholder": "Sesha amathikithi ngesihloko, ukukhishwa...",
+    "loadingTickets": "Ilayisha amathikithi...",
+    "empty": {
+      "title": "Awekho Amathikithi Osekelo Atholiwe",
+      "body": "Okwamanje awunazo izicelo zosekelo ezivuliwe noma ezirekhodiwe ezifana nalesi sihlungi.",
+      "cta": "Thumela Okukhathazayo"
+    },
+    "errors": {
+      "loadList": "Ayikwazanga ukulayisha amathikithi osekelo. Sicela uzame futhi.",
+      "loadDetail": "Ayikwazanga ukulayisha leli thikithi. Sicela uzame futhi.",
+      "required": "Isihloko nomlayezo kokubili kuyadingeka.",
+      "recipientRequired": "Khetha okungenani umamukeli oyedwa (Umphathi Womphakathi kanye/noma Umphathi Wesistimu).",
+      "submitFallback": "Ayikwazanga ukuhambisa leli thikithi. Sicela uzame futhi.",
+      "sendReply": "Ayikwazanga ukuthumela lo mlayezo. Sicela uzame futhi.",
+      "updateStatus": "Ayikwazanga ukubuyekeza lesi simo sethikithi. Sicela uzame futhi."
+    },
+    "form": {
+      "defaultHint": "Chaza inkinga yakho noma okukukhathazayo ngezansi.",
+      "subjectLabel": "Isihloko",
+      "subjectPlaceholder": "Isifinyezo esifushane sodaba lwakho",
+      "messageLabel": "Umlayezo",
+      "messagePlaceholder": "Chaza ukuthi kwenzakalani ngokuningiliziwe...",
+      "recipientsLabel": "Thumela lokhu kukhathazeka ku",
+      "cancel": "Khansela",
+      "submitting": "Iyahambisa...",
+      "submit": "Thumela Ithikithi"
+    },
+    "detail": {
+      "loading": "Ilayisha ithikithi...",
+      "replyPlaceholder": "Bhala impendulo...",
+      "close": "Vala",
+      "sending": "Iyathumela...",
+      "sendReply": "Thumela Impendulo"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Siyakwamukela futhi, {{name}}",
+    "openMenu": "Vula imenyu",
+    "closeMenu": "Vala imenyu",
+    "logout": "Phuma",
+    "search": "Sesha",
+    "notifications": "Izaziso"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Ideshibhodi",
+      "households": "Uhlu Lwemibhalo Yemizi",
+      "meterReadings": "Ukufundwa Kwemitha",
+      "billing": "Ukuphathwa Kwezinkokhelo",
+      "bulkPurchases": "Ukuthenga Ngenqwaba",
+      "reports": "Imibiko",
+      "waterLeakage": "Ukuvuza kwamanzi",
+      "support": "Ukusekela / Ukukhathazeka",
+      "tariffPlans": "Izinhlelo Zentela",
+      "announcements": "Izimemezelo",
+      "profile": "Iphrofayela"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Nasi isifinyezo somphakathi wakho."
+      },
+      "households": {
+        "title": "Uhlu Lwemibhalo Yemizi",
+        "subtitle": "Engeza, buyekeza, futhi uphathe abahlali abahlala emphakathini wakho."
+      },
+      "meterReadings": {
+        "title": "Ihabhu lokufunda lemitha yamanzi",
+        "subtitle": "Sesha umhlali bese urekhoda ukufundwa kwamamitha amanzi."
+      },
+      "tariffPlans": {
+        "title": "Ukucushwa Kwentela",
+        "subtitle": "Lungiselela imikhawulo yesilinganiso esinezigaba, izindleko zendawo eyodwa ezabiwe, nezindlela zokusabalalisa zomphakathi wakho wefulethi."
+      },
+      "billing": {
+        "title": "Ukuphathwa Kwezinkokhelo",
+        "subtitle": "Vula, qedela, futhi ufake kungobo yomlando imijikelezo yokukhokha, futhi ubuyekeze ama-invoyisi ezinto zomndeni ngamunye."
+      },
+      "bulkPurchases": {
+        "title": "Ukuthenga Ngenqwaba",
+        "subtitle": "Rekhoda ukulethwa kwamathangi kanye nokuthengwa kwezinto zikamasipala zomphakathi wakho."
+      },
+      "waterLeakage": {
+        "title": "Ukuvuza kwamanzi",
+        "subtitle": "Lungiselela i-threshold nezixwayiso zokuvuza ezisekelwe ngaphandle, futhi ubuyekeze imindeni ehlatshwe umkhosi."
+      },
+      "support": {
+        "title": "Ukusekela / Ukukhathazeka",
+        "subtitle": "Phakamisa amathikithi akho ku-System Admin, noma uphathe izinto ezikukhathazayo izakhamuzi zakho ezikhulume nawe."
+      },
+      "profile": {
+        "title": "Izilungiselelo Nephrofayela",
+        "subtitle": "Phatha imininingwane ye-akhawunti yakho kanye nolwazi lwefulethi."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Admin Admin",
+    "notBuilt": "{{label}} ayikakhiwa",
+    "searchPlaceholder": "Sesha noma yini..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Imibiko",
+      "description": "Ukusetshenziswa, ukukhokhisa, nemibiko yokongiwa komphakathi wakho."
+    },
+    "announcements": {
+      "title": "Izimemezelo",
+      "description": "Thumela izimemezelo zomphakathi wonke kubahlali bakho."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} iyeza maduze"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Ideshibhodi",
+      "usageHistory": "Umlando Wokusetshenziswa",
+      "bills": "Izikweletu zami",
+      "recommendations": "Izincomo",
+      "reports": "Imibiko",
+      "support": "Ukusekela / Ukukhathazeka",
+      "notifications": "Izaziso",
+      "profile": "Iphrofayela"
+    },
+    "pages": {
+      "usageHistory": "Umlando wakho wokusebenzisa",
+      "billing": "Izinkokhelo nama-invoyisi",
+      "notifications": "Izaziso",
+      "recommendations": "Izincomo",
+      "support": "Ukusekela / Ukukhathazeka"
+    },
+    "defaultTitle": "Ideshibhodi Yezakhamuzi",
+    "navLabel": "Ukuzulazula kwesakhamuzi",
+    "fallbackName": "Isakhamuzi",
+    "unit": "Iyunithi {{number}}",
+    "comingSoon": "{{label}} iyeza maduze",
+    "profile": "Iphrofayela",
+    "searchPlaceholder": "Sesha izibalo, izikweletu..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Ideshibhodi",
+      "communities": "Imiphakathi",
+      "reports": "Imibiko",
+      "supportTickets": "Ukusekela Amathikithi",
+      "systemStatus": "Isimo Sesistimu"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Isifinyezo esibanzi senkundla kuwo wonke umphakathi obhalisiwe."
+      },
+      "communities": {
+        "title": "Imiphakathi",
+        "subtitle": "Bonke abaphathi bomphakathi ababhalisiwe kanye nomphakathi wabo, endaweni eyodwa."
+      },
+      "reports": {
+        "title": "Imibiko",
+        "subtitle": "Ukusetshenziswa kwamanzi endaweni yonke kanye nezibalo zokukhokhisa, ngomphakathi nangokuhamba kwesikhathi."
+      },
+      "supportTickets": {
+        "title": "Ukusekela Amathikithi",
+        "subtitle": "Sekela amathikithi nokukhathazeka okuphakanyiswe abahlali nabaphathi bomphakathi, inkundla yonkana."
+      },
+      "systemStatus": {
+        "title": "Isimo Sesistimu",
+        "subtitle": "Ukuxhumana kwasemuva kanye nempilo eyisisekelo yesikhathi sokusebenza."
+      }
+    },
+    "fallbackName": "Umphathi Wesistimu",
+    "platformOwner": "Umnikazi Wenkundla",
+    "searchPlaceholder": "Sesha imiphakathi..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Ulimi: {{language}}",
+    "searchPlaceholder": "Sesha ulimi...",
+    "noMatches": "Akukho okufanayo"
+  }
+}

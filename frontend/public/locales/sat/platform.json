@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Active",
+    "blocked": "Blocked",
+    "terminated": "Terminated"
+  },
+  "sort": {
+    "sortBy": "Sort by",
+    "toggleDirection": "Toggle sort direction",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "prev": "← Prev",
+    "next": "Next →",
+    "page": "Page {{page}} of {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Overview",
+    "subtitle": "Every registered community admin, across the whole HydroLedger platform.",
+    "viewAll": "View All Communities",
+    "loadError": "Could not load platform data right now.",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "registeredAdmins": "Registered admins",
+      "totalResidents": "Total Residents",
+      "acrossAllCommunities": "Across all communities",
+      "active": "Active",
+      "inGoodStanding": "In good standing",
+      "blockedTerminated": "Blocked / Terminated",
+      "blockedTerminatedBreakdown": "{{blocked}} blocked, {{terminated}} terminated"
+    },
+    "recent": {
+      "title": "Recently Registered Communities",
+      "loading": "Loading…",
+      "empty": "No communities registered yet.",
+      "table": {
+        "community": "Community",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Residents"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communities: {{count}}",
+    "loadError": "Could not load communities. Please try again.",
+    "searchPlaceholder": "Filter by community, admin name, or email",
+    "statusFilter": {
+      "label": "Status",
+      "all": "All"
+    },
+    "sortOptions": {
+      "community": "Community",
+      "admin": "Admin",
+      "residents": "Residents"
+    },
+    "loading": "Loading communities…",
+    "empty": "No communities registered yet.",
+    "noMatch": "No communities match your filters.",
+    "table": {
+      "community": "Community",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Status",
+      "residents": "Residents",
+      "view": "View"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Could not load this community. It may have been removed.",
+    "statusUpdateError": "Could not update this community's status.",
+    "deleteError": "Could not delete this community.",
+    "loading": "Loading community…",
+    "notFound": "Community not found.",
+    "backLink": "← Back to Communities",
+    "backLinkShort": "Back to Communities",
+    "eyebrow": "Community Profile",
+    "unnamed": "Unnamed community",
+    "noAddress": "No address on file",
+    "stats": {
+      "residents": "Residents",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Reactivate",
+      "block": "Block",
+      "terminate": "Terminate",
+      "delete": "Delete Community"
+    },
+    "blockDialog": {
+      "title": "Block this community admin?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "Block"
+    },
+    "terminateDialog": {
+      "title": "Terminate this community admin?",
+      "message": "Permanently terminate {{name}}'s access? This cannot be undone, though their community's data will be kept for records.",
+      "confirm": "Terminate"
+    },
+    "deleteDialog": {
+      "title": "Delete this community?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Confirm"
+    },
+    "residents": {
+      "title": "Residents",
+      "registeredCount": "Registered: {{count}}",
+      "empty": "No residents registered in this community yet.",
+      "table": {
+        "flatUnit": "Flat Unit",
+        "meter": "Meter",
+        "resident": "Resident",
+        "email": "Email",
+        "passwordSet": "Password Set"
+      },
+      "yes": "Yes",
+      "no": "No"
+    },
+    "cancel": "Cancel",
+    "working": "Working…",
+    "deleting": "Deleting…"
+  },
+  "systemStatus": {
+    "statusError": "Could not reach the backend to check system status.",
+    "metricsError": "Could not load metrics history.",
+    "ranges": {
+      "fiveMinutes": "5 Minutes",
+      "fifteenMinutes": "15 Minutes",
+      "hour": "Hour",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "threeMonths": "3 Months"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Requests/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} last",
+      "loading": "Loading…",
+      "empty": "No metrics recorded for this range yet."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Checking…",
+      "reachable": "Reachable",
+      "unreachable": "Unreachable",
+      "connected": "Connected",
+      "backendApiHint": "This page loaded from the backend, so it responded.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL connectivity, checked live.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Since the last application restart.",
+      "appVersion": "App Version",
+      "appVersionHint": "Backend build version."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Reads Latency",
+      "writesLatency": "Writes Latency",
+      "otherLatency": "Other Latency",
+      "connections": "Connections",
+      "totalKeys": "Total Keys"
+    },
+    "note": "Requests/sec and latency are sampled from live backend traffic every 15 seconds and kept for up to 100 days. This is a basic connectivity + traffic check — it does not replace full application performance monitoring, log aggregation, or alerting."
+  },
+  "reports": {
+    "loadError": "ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱨᱤᱯᱚᱨᱴ ᱞᱚᱰ ᱫᱟᱲᱮᱭᱟᱜ ᱵᱟᱹᱱᱩᱜ-ᱟ᱾",
+    "ranges": {
+      "threeMonths": "3 ᱪᱟᱸᱫᱚ",
+      "sixMonths": "6 ᱪᱟᱸᱫᱚ",
+      "twelveMonths": "12 ᱪᱟᱸᱫᱚ",
+      "custom": "ᱠᱚᱥᱴᱚᱢ"
+    },
+    "sortOptions": {
+      "community": "ᱠᱚᱢᱭᱩᱱᱤᱴᱤ",
+      "usage": "ᱵᱮᱵᱷᱟᱨ (Usage)",
+      "billed": "ᱵᱤᱞ ᱦᱩᱭ ᱟᱠᱟᱱ",
+      "residents": "ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲᱠᱚ"
+    },
+    "customRange": {
+      "from": "ᱚᱠᱟ ᱠᱷᱚᱱ",
+      "to": "ᱚᱠᱟ ᱫᱷᱟᱹᱵᱤᱡ",
+      "hint": "ᱠᱚᱥᱴᱚᱢ ᱨᱤᱯᱚᱨᱴ ᱞᱚᱰ ᱞᱟᱹᱜᱤᱫ \"ᱚᱠᱟ ᱠᱷᱚᱱ\" ᱟᱨ \"ᱚᱠᱟ ᱫᱷᱟᱹᱵᱤᱡ\" ᱪᱟᱸᱫᱚ ᱵᱟᱪᱷᱟᱣ ᱢᱮ᱾"
+    },
+    "loading": "ᱨᱤᱯᱚᱨᱴ ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ…",
+    "cards": {
+      "totalCommunities": "ᱜᱩᱴ ᱠᱚᱢᱭᱩᱱᱤᱴᱤᱠᱚ",
+      "inThisRange": "ᱱᱚᱣᱟ ᱚᱠᱛᱚ ᱨᱮ",
+      "totalResidents": "ᱜᱩᱴ ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲᱠᱚ",
+      "acrossAllCommunities": "ᱡᱚᱛᱚ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱨᱮ",
+      "overallUsage": "ᱜᱩᱴ ᱵᱮᱵᱷᱟᱨ",
+      "meteredConsumption": "ᱢᱤᱴᱚᱨ ᱦᱤᱥᱟᱹᱵᱽ ᱵᱮᱵᱷᱟᱨ",
+      "overallBilled": "ᱜᱩᱴ ᱵᱤᱞ",
+      "finalizedInvoicesOnly": "ᱡᱚᱛᱚ ᱯᱷᱟᱭᱱᱟᱞ ᱟᱠᱟᱱ ᱤᱱᱵᱷᱚᱭᱤᱥ",
+      "avgUsagePerResident": "ᱮᱵᱷᱚᱨᱮᱡᱽ ᱵᱮᱵᱷᱟᱨ / ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲ",
+      "avgBillPerResident": "ᱮᱵᱷᱚᱨᱮᱡᱽ ᱵᱤᱞ / ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲ"
+    },
+    "charts": {
+      "usageTitle": "ᱯᱞᱟᱴᱯᱷᱚᱨᱢ-ᱟᱭᱤᱰ ᱵᱮᱵᱷᱟᱨ (kL / ᱪᱟᱸᱫᱚ)",
+      "usageEmpty": "ᱱᱚᱣᱟ ᱚᱠᱛᱚ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱦᱚᱸ ᱵᱮᱵᱷᱟᱨ ᱨᱮᱠᱚᱨᱰ ᱵᱟᱹᱱᱩᱜ-ᱟ᱾",
+      "usageSeries": "ᱵᱮᱵᱷᱟᱨ",
+      "billedTitle": "ᱯᱞᱟᱴᱯᱷᱚᱨᱢ-ᱟᱭᱤᱰ ᱵᱤᱞ (₹ / ᱪᱟᱸᱫᱚ)",
+      "billedEmpty": "ᱱᱚᱣᱟ ᱚᱠᱛᱚ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱦᱚᱸ ᱤᱱᱵᱷᱚᱭᱤᱥ ᱯᱷᱟᱭᱱᱟᱞ ᱵᱟᱹᱱᱩᱜ-ᱟ᱾",
+      "billedSeries": "ᱵᱤᱞ"
+    },
+    "searchPlaceholder": "ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱥᱮ ᱮᱰᱢᱤᱱ ᱧᱩᱛᱩᱢ ᱛᱮ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ",
+    "empty": "ᱱᱚᱣᱟ ᱚᱠᱛᱚ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱟ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱨᱮᱦᱚᱸ ᱵᱮᱵᱷᱟᱨ ᱥᱮ ᱵᱤᱞᱤᱝ ᱰᱮᱴᱟ ᱵᱟᱹᱱᱩᱜ-ᱟ᱾",
+    "noMatch": "ᱟᱢᱟᱜ ᱥᱮᱸᱫᱽᱨᱟ ᱥᱟᱶ ᱚᱠᱟ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱦᱚᱸ ᱵᱟᱝ ᱢᱮᱞᱚᱜ ᱠᱟᱱᱟ᱾",
+    "table": {
+      "community": "ᱠᱚᱢᱭᱩᱱᱤᱴᱤ",
+      "admin": "ᱮᱰᱢᱤᱱ",
+      "residents": "ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲᱠᱚ",
+      "usage": "ᱵᱮᱵᱷᱟᱨ (kL)",
+      "billed": "ᱵᱤᱞ (₹)",
+      "avgUsagePerResident": "ᱮᱵᱷᱚᱨᱮᱡᱽ ᱵᱮᱵᱷᱟᱨ / ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲ",
+      "avgBillPerResident": "ᱮᱵᱷᱚᱨᱮᱡᱽ ᱵᱤᱞ / ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲ"
+    }
+  },
+  "supportTickets": {
+    "title": "ᱥᱚᱯᱚᱨᱴ ᱴᱤᱠᱮᱴᱠᱚ",
+    "subtitle": "ᱛᱟᱦᱮᱸᱱ ᱦᱚᱲ ᱟᱨ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱮᱰᱢᱤᱱ ᱠᱚᱣᱟᱜ ᱥᱚᱯᱚᱨᱴ ᱴᱤᱠᱮᱴ ᱟᱨ ᱪᱤᱱᱛᱟᱹ, ᱡᱚᱛᱚ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱨᱮ᱾"
+  }
+}

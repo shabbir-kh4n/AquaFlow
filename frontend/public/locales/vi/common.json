@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Đóng",
+    "signUpTitle": "Đăng ký cộng đồng của bạn",
+    "signInTitle": "Chào mừng trở lại",
+    "signUpSubtitle": "Tạo tài khoản Quản trị cộng đồng để bắt đầu quản lý cư dân và thanh toán.",
+    "signInSubtitle": "Đăng nhập để xem việc sử dụng nước và thanh toán của bạn."
+  },
+  "signIn": {
+    "errorFallback": "Không thể đăng nhập. Vui lòng thử lại.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Mật khẩu",
+    "rememberMe": "nhớ tôi",
+    "forgotPassword": "Quên mật khẩu?",
+    "submitting": "Đang đăng nhập…",
+    "submit": "Đăng nhập",
+    "noAccount": "Bạn chưa có tài khoản?",
+    "signUpLink": "Đăng ký"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Mật khẩu không khớp.",
+      "communityRequired": "Tên cộng đồng là bắt buộc.",
+      "termsRequired": "Vui lòng đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư.",
+      "fallback": "Không thể tạo tài khoản. Vui lòng thử lại."
+    },
+    "hint": "Chỉ quản trị viên cộng đồng mới đăng ký tại đây. Sau khi đăng nhập, bạn sẽ tự thêm thông tin chi tiết về cư dân của mình — họ không tự đăng ký.",
+    "fullNameLabel": "Tên đầy đủ",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Số điện thoại",
+    "communityNameLabel": "Tên cộng đồng",
+    "passwordLabel": "Mật khẩu",
+    "confirmPasswordLabel": "Xác nhận mật khẩu",
+    "agreeTerms": "Tôi đồng ý với <termsLink>Điều khoản dịch vụ</termsLink> và <privacyLink>Chính sách quyền riêng tư</privacyLink>",
+    "submitting": "Đang tạo tài khoản…",
+    "submit": "Tạo tài khoản quản trị",
+    "haveAccount": "Đã có tài khoản?",
+    "signInLink": "Đăng nhập"
+  },
+  "installPrompt": {
+    "title": "Cài đặt HydroLedger",
+    "description": "Thêm nó vào màn hình chính của bạn để truy cập nhanh.",
+    "dismiss": "Miễn nhiệm",
+    "install": "Cài đặt"
+  },
+  "setPassword": {
+    "title": "Đặt mật khẩu của bạn",
+    "loading": "Đang tải…",
+    "subtitle": "Xin chào {{name}}, hãy chọn mật khẩu cho {{email}} để kích hoạt tài khoản HydroLedger của bạn.",
+    "errors": {
+      "invalidLink": "Liên kết này không hợp lệ hoặc đã hết hạn.",
+      "tooShort": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "mismatch": "Mật khẩu không khớp.",
+      "fallback": "Không thể đặt mật khẩu của bạn. Vui lòng thử lại."
+    },
+    "passwordLabel": "Mật khẩu",
+    "confirmPasswordLabel": "Xác nhận mật khẩu",
+    "submitting": "Đang đặt mật khẩu…",
+    "submit": "Đặt mật khẩu và đăng nhập"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Trợ lý",
+      "resident": "Hỏi về tài khoản của bạn",
+      "admin": "Trợ lý cộng đồng",
+      "platform": "Trợ lý nền tảng",
+      "default": "Trợ lý"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger là gì?",
+        "tieredBilling": "Thanh toán theo cấp độ hoạt động như thế nào?",
+        "leaks": "Làm thế nào để phát hiện rò rỉ?"
+      },
+      "resident": {
+        "billEstimate": "Ước tính hóa đơn hiện tại của tôi là bao nhiêu?",
+        "alerts": "Tôi có bất kỳ cảnh báo sử dụng nào không?",
+        "readings": "Hiển thị chỉ số đồng hồ gần đây của tôi"
+      },
+      "admin": {
+        "households": "Chúng ta có bao nhiêu hộ gia đình?",
+        "billingCycles": "Liệt kê các chu kỳ thanh toán gần đây của chúng tôi",
+        "tariff": "Kế hoạch thuế quan hiện tại của chúng tôi là gì?"
+      },
+      "platform": {
+        "communities": "Liệt kê tất cả các cộng đồng đã đăng ký",
+        "usageReport": "Hiển thị báo cáo sử dụng nền tảng",
+        "systemStatus": "Trạng thái hệ thống là gì?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Bạn đang gửi tin nhắn quá nhanh - vui lòng đợi một lát và thử lại.",
+      "unavailable": "Trợ lý tạm thời không khả dụng. Vui lòng thử lại trong thời gian ngắn.",
+      "generic": "Đã xảy ra lỗi khi gửi tin nhắn đó. Vui lòng thử lại."
+    },
+    "emptyHint": "Hãy hỏi tôi bất cứ điều gì - tôi chỉ có thể xem dữ liệu của riêng bạn.",
+    "closeAssistant": "Đóng trợ lý",
+    "openAssistant": "Trợ lý mở",
+    "inputPlaceholder": "Nhập tin nhắn…",
+    "inputLabel": "Tin nhắn",
+    "send": "Gửi"
+  },
+  "supportBoard": {
+    "defaultTitle": "Vé hỗ trợ",
+    "defaultCreateLabel": "Gây ra mối lo ngại mới",
+    "status": {
+      "open": "Mở",
+      "inProgress": "Đang tiến hành",
+      "resolved": "Đã giải quyết",
+      "closed": "Đã đóng"
+    },
+    "tabs": {
+      "all": "Tất cả vé"
+    },
+    "recipients": {
+      "admin": "Quản trị viên cộng đồng",
+      "systemAdmin": "Quản trị hệ thống",
+      "both": "Quản trị cộng đồng + Quản trị hệ thống"
+    },
+    "roles": {
+      "resident": "Người dân",
+      "admin": "Quản trị viên"
+    },
+    "toRecipients": "Tới: {{recipients}}",
+    "raisedByResident": "Được nuôi dưỡng bởi cư dân {{name}}",
+    "raisedByAdmin": "Được đưa ra bởi quản trị viên {{name}}",
+    "refresh": "Làm cho khỏe lại",
+    "stats": {
+      "openLabel": "Mở bài nộp",
+      "openHint": "Đang chờ xem xét",
+      "inProgressLabel": "Đang tiến hành",
+      "inProgressHint": "Đang làm việc",
+      "resolvedLabel": "Đã giải quyết",
+      "resolvedHint": "Đã đóng thành công"
+    },
+    "searchPlaceholder": "Tìm kiếm vé theo chủ đề, số phát…",
+    "loadingTickets": "Đang tải vé…",
+    "empty": {
+      "title": "Không tìm thấy vé hỗ trợ",
+      "body": "Bạn hiện không có yêu cầu hỗ trợ mở hoặc được ghi lại nào phù hợp với bộ lọc này.",
+      "cta": "Gửi mối quan ngại"
+    },
+    "errors": {
+      "loadList": "Không thể tải vé hỗ trợ. Vui lòng thử lại.",
+      "loadDetail": "Không thể tải vé này. Vui lòng thử lại.",
+      "required": "Chủ đề và tin nhắn đều được yêu cầu.",
+      "recipientRequired": "Chọn ít nhất một người nhận (Quản trị viên cộng đồng và/hoặc Quản trị viên hệ thống).",
+      "submitFallback": "Không thể gửi vé này. Vui lòng thử lại.",
+      "sendReply": "Không thể gửi tin nhắn này. Vui lòng thử lại.",
+      "updateStatus": "Không thể cập nhật trạng thái vé này. Vui lòng thử lại."
+    },
+    "form": {
+      "defaultHint": "Mô tả vấn đề hoặc mối quan tâm của bạn dưới đây.",
+      "subjectLabel": "Chủ thể",
+      "subjectPlaceholder": "Tóm tắt ngắn gọn vấn đề của bạn",
+      "messageLabel": "Tin nhắn",
+      "messagePlaceholder": "Mô tả chi tiết những gì đang xảy ra…",
+      "recipientsLabel": "Gửi mối quan tâm này tới",
+      "cancel": "Hủy bỏ",
+      "submitting": "Đang gửi…",
+      "submit": "Gửi vé"
+    },
+    "detail": {
+      "loading": "Đang tải vé…",
+      "replyPlaceholder": "Viết thư trả lời…",
+      "close": "Đóng",
+      "sending": "Đang gửi…",
+      "sendReply": "Gửi trả lời"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Chào mừng trở lại, {{name}}",
+    "openMenu": "Mở trình đơn",
+    "closeMenu": "Đóng trình đơn",
+    "logout": "Đăng xuất",
+    "search": "Tìm kiếm",
+    "notifications": "Thông báo"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Trang tổng quan",
+      "households": "Danh mục hộ gia đình",
+      "meterReadings": "Số đọc đồng hồ",
+      "billing": "Quản lý thanh toán",
+      "bulkPurchases": "Mua số lượng lớn",
+      "reports": "Báo cáo",
+      "waterLeakage": "Rò rỉ nước",
+      "support": "Hỗ trợ / Mối quan tâm",
+      "tariffPlans": "Gói cước",
+      "announcements": "Thông báo",
+      "profile": "Hồ sơ"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Đây là ảnh chụp nhanh về cộng đồng của bạn."
+      },
+      "households": {
+        "title": "Danh mục hộ gia đình",
+        "subtitle": "Thêm, cập nhật và quản lý cư dân sống trong cộng đồng của bạn."
+      },
+      "meterReadings": {
+        "title": "Trung tâm đo đồng hồ nước",
+        "subtitle": "Tìm kiếm một cư dân và ghi lại chỉ số đồng hồ nước của họ."
+      },
+      "tariffPlans": {
+        "title": "Cấu hình thuế quan",
+        "subtitle": "Định cấu hình giới hạn tỷ lệ theo cấp độ, chi phí chung cho khu vực chung và phương thức phân phối cho cộng đồng căn hộ của bạn."
+      },
+      "billing": {
+        "title": "Quản lý thanh toán",
+        "subtitle": "Mở, hoàn thiện và lưu trữ chu kỳ thanh toán cũng như xem xét các hóa đơn được chia thành từng khoản cho mỗi hộ gia đình."
+      },
+      "bulkPurchases": {
+        "title": "Mua số lượng lớn",
+        "subtitle": "Ghi lại việc giao hàng bằng tàu chở dầu và mua hàng cung cấp cho thành phố cho cộng đồng của bạn."
+      },
+      "waterLeakage": {
+        "title": "Rò rỉ nước",
+        "subtitle": "Định cấu hình cảnh báo rò rỉ dựa trên ngưỡng và ngoại lệ, đồng thời xem xét các hộ gia đình được gắn cờ."
+      },
+      "support": {
+        "title": "Hỗ trợ / Mối quan tâm",
+        "subtitle": "Gửi yêu cầu của riêng bạn cho Quản trị viên hệ thống hoặc xử lý các mối quan ngại mà cư dân của bạn đã gửi cho bạn."
+      },
+      "profile": {
+        "title": "Cài đặt & Hồ sơ",
+        "subtitle": "Quản lý chi tiết tài khoản và thông tin căn hộ của bạn."
+      }
+    },
+    "fallbackName": "Quản trị viên",
+    "fallbackCommunity": "Quản trị viên cộng đồng",
+    "notBuilt": "{{label}} chưa được xây dựng",
+    "searchPlaceholder": "Tìm kiếm bất cứ điều gì…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Báo cáo",
+      "description": "Báo cáo về mức tiêu thụ, thanh toán và bảo tồn cho cộng đồng của bạn."
+    },
+    "announcements": {
+      "title": "Thông báo",
+      "description": "Gửi thông báo toàn cộng đồng tới cư dân của bạn."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} sắp ra mắt"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Trang tổng quan",
+      "usageHistory": "Lịch sử sử dụng",
+      "bills": "Hóa đơn của tôi",
+      "recommendations": "Khuyến nghị",
+      "reports": "Báo cáo",
+      "support": "Hỗ trợ / Mối quan tâm",
+      "notifications": "Thông báo",
+      "profile": "Hồ sơ"
+    },
+    "pages": {
+      "usageHistory": "Lịch sử sử dụng của bạn",
+      "billing": "Thanh toán & Hóa đơn",
+      "notifications": "Thông báo",
+      "recommendations": "Khuyến nghị",
+      "support": "Hỗ trợ / Mối quan tâm"
+    },
+    "defaultTitle": "Bảng điều khiển thường trú",
+    "navLabel": "Điều hướng thường trú",
+    "fallbackName": "Người dân",
+    "unit": "Đơn vị {{number}}",
+    "comingSoon": "{{label}} sắp ra mắt",
+    "profile": "Hồ sơ",
+    "searchPlaceholder": "Phân tích tìm kiếm, hóa đơn…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Trang tổng quan",
+      "communities": "Cộng đồng",
+      "reports": "Báo cáo",
+      "supportTickets": "Vé hỗ trợ",
+      "systemStatus": "Trạng thái hệ thống"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Ảnh chụp nhanh toàn nền tảng trên mọi cộng đồng đã đăng ký."
+      },
+      "communities": {
+        "title": "Cộng đồng",
+        "subtitle": "Mọi quản trị viên cộng đồng đã đăng ký và cộng đồng của họ đều ở cùng một nơi."
+      },
+      "reports": {
+        "title": "Báo cáo",
+        "subtitle": "Số liệu thanh toán và sử dụng nước trên toàn nền tảng, theo cộng đồng và theo thời gian."
+      },
+      "supportTickets": {
+        "title": "Vé hỗ trợ",
+        "subtitle": "Hỗ trợ vé và các mối quan tâm được người dân và quản trị viên cộng đồng nêu ra trên toàn nền tảng."
+      },
+      "systemStatus": {
+        "title": "Trạng thái hệ thống",
+        "subtitle": "Kết nối phụ trợ và tình trạng thời gian chạy cơ bản."
+      }
+    },
+    "fallbackName": "Quản trị hệ thống",
+    "platformOwner": "Chủ sở hữu nền tảng",
+    "searchPlaceholder": "Tìm kiếm cộng đồng…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Ngôn ngữ: {{language}}",
+    "searchPlaceholder": "Tìm kiếm ngôn ngữ…",
+    "noMatches": "Không có kết quả phù hợp"
+  }
+}

@@ -1,62 +1,64 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { listAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
 import { STUB_PAGES } from './adminRoutes'
 import ChatWidget from '../chat/ChatWidget'
+import LanguageSwitcher from '../LanguageSwitcher'
 import './AdminLayout.css'
 
+// labelKey values are translation keys (common namespace), resolved with t() at render time.
 const NAV_ITEMS = [
-  { to: '/admin/dashboard', label: 'Dashboard', icon: 'grid', built: true },
-  { to: '/admin/households', label: 'Households Directory', icon: 'home', built: true },
-  { to: '/admin/meter-readings', label: 'Meter Readings', icon: 'gauge', built: true },
-  { to: '/admin/billing', label: 'Billing Management', icon: 'invoice', built: true },
-  { to: '/admin/bulk-purchases', label: 'Bulk Purchases', icon: 'truck', built: true },
-  { to: '/admin/reports', label: 'Reports', icon: 'chart', built: false },
-  { to: '/admin/water-leakage', label: 'Water Leakage', icon: 'drop-alert', built: true },
-  { to: '/admin/support', label: 'Support / Concerns', icon: 'help', built: true },
-  { to: '/admin/tariff-plans', label: 'Tariff Plans', icon: 'sliders', built: true },
-  { to: '/admin/announcements', label: 'Announcements', icon: 'megaphone', built: false },
-  { to: '/admin/profile', label: 'Profile', icon: 'user', built: true },
+  { to: '/admin/dashboard', labelKey: 'adminLayout.nav.dashboard', icon: 'grid', built: true },
+  { to: '/admin/households', labelKey: 'adminLayout.nav.households', icon: 'home', built: true },
+  { to: '/admin/meter-readings', labelKey: 'adminLayout.nav.meterReadings', icon: 'gauge', built: true },
+  { to: '/admin/billing', labelKey: 'adminLayout.nav.billing', icon: 'invoice', built: true },
+  { to: '/admin/bulk-purchases', labelKey: 'adminLayout.nav.bulkPurchases', icon: 'truck', built: true },
+  { to: '/admin/reports', labelKey: 'adminLayout.nav.reports', icon: 'chart', built: false },
+  { to: '/admin/water-leakage', labelKey: 'adminLayout.nav.waterLeakage', icon: 'drop-alert', built: true },
+  { to: '/admin/support', labelKey: 'adminLayout.nav.support', icon: 'help', built: true },
+  { to: '/admin/tariff-plans', labelKey: 'adminLayout.nav.tariffPlans', icon: 'sliders', built: true },
+  { to: '/admin/announcements', labelKey: 'adminLayout.nav.announcements', icon: 'megaphone', built: false },
+  { to: '/admin/profile', labelKey: 'adminLayout.nav.profile', icon: 'user', built: true },
 ]
 
-// Static per-route topbar copy for the built pages. Dashboard's title is dynamic
-// (greets the admin by name) so it's handled separately below.
+// Static per-route topbar copy (translation keys) for the built pages. Dashboard's title is
+// dynamic (greets the admin by name) so it's handled separately below.
 const PAGE_META = {
-  '/admin/dashboard': { subtitle: "Here's a snapshot of your community." },
+  '/admin/dashboard': { subtitleKey: 'adminLayout.pages.dashboard.subtitle' },
   '/admin/households': {
-    title: 'Households Directory',
-    subtitle: 'Add, update, and manage the residents living in your community.',
+    titleKey: 'adminLayout.pages.households.title',
+    subtitleKey: 'adminLayout.pages.households.subtitle',
   },
   '/admin/meter-readings': {
-    title: 'Water Meter Readings Hub',
-    subtitle: 'Search for a resident and record their water meter reading.',
+    titleKey: 'adminLayout.pages.meterReadings.title',
+    subtitleKey: 'adminLayout.pages.meterReadings.subtitle',
   },
   '/admin/tariff-plans': {
-    title: 'Tariff Configuration',
-    subtitle:
-      'Configure tiered rate limits, shared common-area costs, and distribution methods for your apartment community.',
+    titleKey: 'adminLayout.pages.tariffPlans.title',
+    subtitleKey: 'adminLayout.pages.tariffPlans.subtitle',
   },
   '/admin/billing': {
-    title: 'Billing Management',
-    subtitle: 'Open, finalize, and archive billing cycles, and review itemized invoices per household.',
+    titleKey: 'adminLayout.pages.billing.title',
+    subtitleKey: 'adminLayout.pages.billing.subtitle',
   },
   '/admin/bulk-purchases': {
-    title: 'Bulk Purchases',
-    subtitle: 'Record tanker deliveries and municipal supply purchases for your community.',
+    titleKey: 'adminLayout.pages.bulkPurchases.title',
+    subtitleKey: 'adminLayout.pages.bulkPurchases.subtitle',
   },
   '/admin/water-leakage': {
-    title: 'Water Leakage',
-    subtitle: 'Configure threshold and outlier-based leak alerts, and review flagged households.',
+    titleKey: 'adminLayout.pages.waterLeakage.title',
+    subtitleKey: 'adminLayout.pages.waterLeakage.subtitle',
   },
   '/admin/support': {
-    title: 'Support / Concerns',
-    subtitle: 'Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you.',
+    titleKey: 'adminLayout.pages.support.title',
+    subtitleKey: 'adminLayout.pages.support.subtitle',
   },
   '/admin/profile': {
-    title: 'Settings & Profile',
-    subtitle: 'Manage your account details and apartment information.',
+    titleKey: 'adminLayout.pages.profile.title',
+    subtitleKey: 'adminLayout.pages.profile.subtitle',
   },
 }
 
@@ -91,6 +93,7 @@ function AdminLayout() {
   const { user, logout } = useAuth()
   const navigate = useNavigate()
   const location = useLocation()
+  const { t } = useTranslation('common')
   const [activeAlertCount, setActiveAlertCount] = useState(0)
   const [navOpen, setNavOpen] = useState(false)
   const [lastPathname, setLastPathname] = useState(location.pathname)
@@ -124,16 +127,16 @@ function AdminLayout() {
   let title = ''
   let subtitle = ''
   if (location.pathname === '/admin/dashboard') {
-    title = `Welcome back, ${user?.fullName || 'Admin'}`
-    subtitle = PAGE_META['/admin/dashboard'].subtitle
+    title = t('shell.welcomeBack', { name: user?.fullName || t('adminLayout.fallbackName') })
+    subtitle = t(PAGE_META['/admin/dashboard'].subtitleKey)
   } else if (PAGE_META[location.pathname]) {
-    title = PAGE_META[location.pathname].title
-    subtitle = PAGE_META[location.pathname].subtitle
+    title = t(PAGE_META[location.pathname].titleKey)
+    subtitle = t(PAGE_META[location.pathname].subtitleKey)
   } else {
     const stub = STUB_PAGES.find((page) => page.path === location.pathname)
     if (stub) {
-      title = stub.title
-      subtitle = stub.description
+      title = t(stub.titleKey)
+      subtitle = t(stub.descriptionKey)
     }
   }
 
@@ -157,7 +160,7 @@ function AdminLayout() {
           <button
             type="button"
             className="af-admin__nav-close"
-            aria-label="Close menu"
+            aria-label={t('shell.closeMenu')}
             onClick={() => setNavOpen(false)}
           >
             <Icon name="close" />
@@ -175,18 +178,18 @@ function AdminLayout() {
                 }
               >
                 <Icon name={item.icon} />
-                {item.label}
+                {t(item.labelKey)}
               </NavLink>
             ) : (
               <button
                 key={item.to}
                 type="button"
                 disabled
-                title={`${item.label} isn't built yet`}
+                title={t('adminLayout.notBuilt', { label: t(item.labelKey) })}
                 className="af-admin__nav-item af-admin__nav-item--unbuilt"
               >
                 <Icon name={item.icon} />
-                {item.label}
+                {t(item.labelKey)}
               </button>
             ),
           )}
@@ -195,10 +198,10 @@ function AdminLayout() {
         <div className="af-admin__sidebar-footer">
           <span className="af-admin__avatar">{initials}</span>
           <div className="af-admin__account-text">
-            <strong>{user?.fullName || 'Admin'}</strong>
-            <span>{user?.communityName || 'Community Admin'}</span>
+            <strong>{user?.fullName || t('adminLayout.fallbackName')}</strong>
+            <span>{user?.communityName || t('adminLayout.fallbackCommunity')}</span>
           </div>
-          <button type="button" className="af-admin__logout" onClick={handleLogout} title="Log out">
+          <button type="button" className="af-admin__logout" onClick={handleLogout} title={t('shell.logout')}>
             <span aria-hidden="true">↪</span>
           </button>
         </div>
@@ -210,7 +213,7 @@ function AdminLayout() {
             <button
               type="button"
               className="af-admin__hamburger"
-              aria-label="Open menu"
+              aria-label={t('shell.openMenu')}
               onClick={() => setNavOpen(true)}
             >
               <Icon name="menu" />
@@ -224,18 +227,19 @@ function AdminLayout() {
           <div className="af-admin__account">
             <label className="af-admin__search">
               <Icon name="search" />
-              <input type="search" placeholder="Search anything…" aria-label="Search" />
+              <input type="search" placeholder={t('adminLayout.searchPlaceholder')} aria-label={t('shell.search')} />
             </label>
             <button
               type="button"
               className="af-admin__icon-button"
-              aria-label="Notifications"
-              title="Notifications"
+              aria-label={t('shell.notifications')}
+              title={t('shell.notifications')}
               onClick={() => navigate('/admin/water-leakage')}
             >
               <Icon name="bell" />
               {activeAlertCount > 0 && <b>{activeAlertCount}</b>}
             </button>
+            <LanguageSwitcher variant="topbar" />
             {user?.communityName && (
               <button type="button" className="af-admin__community-pill" title={user.communityName}>
                 <span>{user.communityName}</span>

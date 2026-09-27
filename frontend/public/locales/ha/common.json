@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Kusa",
+    "signUpTitle": "Yi rijistar al'ummar ku",
+    "signInTitle": "Barka da dawowa",
+    "signUpSubtitle": "Ƙirƙiri asusun Admin Community don fara sarrafa mazauna da lissafin kuɗi.",
+    "signInSubtitle": "Shiga don duba amfanin ruwa da lissafin ku."
+  },
+  "signIn": {
+    "errorFallback": "An kasa shiga. Da fatan za a sake gwadawa.",
+    "emailLabel": "Imel",
+    "passwordLabel": "Kalmar wucewa",
+    "rememberMe": "Ka tuna da ni",
+    "forgotPassword": "Manta kalmar sirri?",
+    "submitting": "Ana shiga…",
+    "submit": "Shiga",
+    "noAccount": "Ba ku da asusu?",
+    "signUpLink": "Yi rajista"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Kalmomin sirri ba su daidaita ba.",
+      "communityRequired": "Ana buƙatar sunan al'umma.",
+      "termsRequired": "Da fatan za a yarda da Sharuɗɗan Sabis da Manufar Keɓantawa.",
+      "fallback": "Ba a iya ƙirƙirar lissafi ba. Da fatan za a sake gwadawa."
+    },
+    "hint": "Ma'aikatan al'umma ne kawai ke yin rajista a nan. Da zarar kun shiga, za ku ƙara bayanan mazauna ku da kanku - ba sa rajista da kansu.",
+    "fullNameLabel": "Cikakken suna",
+    "emailLabel": "Imel",
+    "phoneLabel": "Lambar tarho",
+    "communityNameLabel": "Sunan al'umma",
+    "passwordLabel": "Kalmar wucewa",
+    "confirmPasswordLabel": "Tabbata kalmar shiga",
+    "agreeTerms": "Na yarda da <termsLink>Sharuɗɗan Sabis</termsLink> da <privacyLink> Manufar Kerewa</privacyLink>",
+    "submitting": "Ƙirƙirar asusu…",
+    "submit": "Ƙirƙiri Account Admin",
+    "haveAccount": "Kuna da asusu?",
+    "signInLink": "Shiga"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Ƙara shi zuwa allon gida don shiga cikin sauri.",
+    "dismiss": "Korar",
+    "install": "Shigar"
+  },
+  "setPassword": {
+    "title": "Saita kalmar wucewa",
+    "loading": "Ana lodawa…",
+    "subtitle": "Hi {{name}}, choose a password for {{email}} to activate your HydroLedger account.",
+    "errors": {
+      "invalidLink": "Wannan hanyar haɗin yanar gizon ba ta da inganci ko ta ƙare.",
+      "tooShort": "Dole ne kalmar wucewa ta zama aƙalla haruffa 8.",
+      "mismatch": "Kalmomin sirri ba su daidaita ba.",
+      "fallback": "An kasa saita kalmar wucewar ku. Da fatan za a sake gwadawa."
+    },
+    "passwordLabel": "Kalmar wucewa",
+    "confirmPasswordLabel": "Tabbata kalmar shiga",
+    "submitting": "Saitin kalmar wucewa…",
+    "submit": "Saita kalmar wucewa & shiga"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Mataimaki",
+      "resident": "Tambayi game da asusun ku",
+      "admin": "Mataimakin Al'umma",
+      "platform": "Mataimakin Platform",
+      "default": "Mataimaki"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "What is HydroLedger?",
+        "tieredBilling": "Yaya matakin lissafin kuɗi ke aiki?",
+        "leaks": "Ta yaya ake gano zub da jini?"
+      },
+      "resident": {
+        "billEstimate": "Menene kiyasin lissafina na yanzu?",
+        "alerts": "Shin ina da faɗakarwar amfani?",
+        "readings": "Nuna karatun mita na kwanan nan"
+      },
+      "admin": {
+        "households": "Gidaje nawa muke da su?",
+        "billingCycles": "Yi lissafin zagayowar lissafin mu na baya-bayan nan",
+        "tariff": "Menene shirin jadawalin kuɗin fito namu na yanzu?"
+      },
+      "platform": {
+        "communities": "Lissafin duk al'ummomin da suka yi rajista",
+        "usageReport": "Nuna rahoton amfani da dandamali",
+        "systemStatus": "Menene matsayin tsarin?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Kuna aika saƙonni cikin sauri - da fatan za a jira ɗan lokaci kuma a sake gwadawa.",
+      "unavailable": "Ba shi da mataimaki na ɗan lokaci. Da fatan za a sake gwadawa ba da jimawa ba.",
+      "generic": "Wani abu ya yi kuskure aika wannan saƙon. Da fatan za a sake gwadawa."
+    },
+    "emptyHint": "Ka tambaye ni wani abu - Ina iya ganin bayanan ku kawai.",
+    "closeAssistant": "Mataimaki na kusa",
+    "openAssistant": "Bude mataimakin",
+    "inputPlaceholder": "Buga sako…",
+    "inputLabel": "Sako",
+    "send": "Aika"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tallafin Tikiti",
+    "defaultCreateLabel": "Tada Sabon Damuwa",
+    "status": {
+      "open": "Bude",
+      "inProgress": "Ana kai",
+      "resolved": "An warware",
+      "closed": "An rufe"
+    },
+    "tabs": {
+      "all": "Duk Tikiti"
+    },
+    "recipients": {
+      "admin": "Al'umma Admin",
+      "systemAdmin": "Mai Gudanar da Tsarin",
+      "both": "Al'umma Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Mazaunin",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Mazauni ne ya taso {{name}}",
+    "raisedByAdmin": "Raised by admin {{name}}",
+    "refresh": "Sake sabuntawa",
+    "stats": {
+      "openLabel": "Buɗe Abubuwan Gabatarwa",
+      "openHint": "Ana jiran bita",
+      "inProgressLabel": "Ana kai",
+      "inProgressHint": "Ana aiki a kai",
+      "resolvedLabel": "An warware",
+      "resolvedHint": "An yi nasara rufe"
+    },
+    "searchPlaceholder": "Bincika tikiti ta jigo, fitowa…",
+    "loadingTickets": "Ana loda tikiti…",
+    "empty": {
+      "title": "Ba a Samu Tikitin Tallafi ba",
+      "body": "A halin yanzu ba ku da buƙatun tallafi ko buɗaɗɗen buƙatun da suka dace da wannan tacewa.",
+      "cta": "Gabatar da Damuwa"
+    },
+    "errors": {
+      "loadList": "An kasa loda tikitin tallafi. Da fatan za a sake gwadawa.",
+      "loadDetail": "An kasa loda wannan tikitin. Da fatan za a sake gwadawa.",
+      "required": "Abu da saƙo duka ana buƙata.",
+      "recipientRequired": "Zaɓi aƙalla mai karɓa ɗaya (Mai Kula da Jama'a da/ko Mai Gudanar da Tsari).",
+      "submitFallback": "An kasa ƙaddamar da wannan tikitin. Da fatan za a sake gwadawa.",
+      "sendReply": "An kasa aika wannan sakon. Da fatan za a sake gwadawa.",
+      "updateStatus": "An kasa sabunta wannan halin tikitin. Da fatan za a sake gwadawa."
+    },
+    "form": {
+      "defaultHint": "Bayyana matsalarku ko damuwa a ƙasa.",
+      "subjectLabel": "Magana",
+      "subjectPlaceholder": "Takaitaccen bayani game da batun ku",
+      "messageLabel": "Sako",
+      "messagePlaceholder": "Bayyana abin da ke faruwa daki-daki…",
+      "recipientsLabel": "Aika wannan damuwa zuwa ga",
+      "cancel": "Soke",
+      "submitting": "Ana ƙaddamarwa…",
+      "submit": "ƙaddamar da Tikitin"
+    },
+    "detail": {
+      "loading": "Ana loda tikiti…",
+      "replyPlaceholder": "Rubuta amsa…",
+      "close": "Kusa",
+      "sending": "Ana aikawa…",
+      "sendReply": "Aika Amsa"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Buɗe menu",
+    "closeMenu": "Rufe menu",
+    "logout": "Fita",
+    "search": "Bincika",
+    "notifications": "Sanarwa"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Littafin Jagora",
+      "meterReadings": "Karatun Mita",
+      "billing": "Gudanar da Biyan Kuɗi",
+      "bulkPurchases": "Babban Sayayya",
+      "reports": "Rahotanni",
+      "waterLeakage": "Zubar Ruwa",
+      "support": "Taimako / Damuwa",
+      "tariffPlans": "Shirye-shiryen Tariff",
+      "announcements": "Sanarwa",
+      "profile": "Bayanan martaba"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Anan ga hoton al'ummar ku."
+      },
+      "households": {
+        "title": "Littafin Jagora",
+        "subtitle": "Ƙara, sabuntawa, da sarrafa mazaunan da ke zaune a cikin yankin ku."
+      },
+      "meterReadings": {
+        "title": "Wurin Karatun Mitar Ruwa",
+        "subtitle": "Nemo mazaunin kuma yi rikodin karatun mitar ruwa."
+      },
+      "tariffPlans": {
+        "title": "Kanfigareshan Tariff",
+        "subtitle": "Tsara iyakoki masu ƙima, farashin yanki na gama gari, da hanyoyin rarraba don al'ummar gidan ku."
+      },
+      "billing": {
+        "title": "Gudanar da Biyan Kuɗi",
+        "subtitle": "Buɗe, kammalawa, da adana zagayowar lissafin kuɗi, da kuma duba ƙayyadaddun daftari na kowane gida."
+      },
+      "bulkPurchases": {
+        "title": "Babban Sayayya",
+        "subtitle": "Yi rikodin isar da motocin dakon kaya da siyayyar kayan aikin birni don al'ummar ku."
+      },
+      "waterLeakage": {
+        "title": "Zubar Ruwa",
+        "subtitle": "Shirya ƙofa da faɗakarwar tushen leƙen asiri, da kuma bitar gidaje masu tuta."
+      },
+      "support": {
+        "title": "Taimako / Damuwa",
+        "subtitle": "Ƙirƙirar tikitin ku zuwa ga Mai Gudanarwa na System, ko magance matsalolin da mazauna ku suka yi muku."
+      },
+      "profile": {
+        "title": "Saituna & Bayanan Bayani",
+        "subtitle": "Sarrafa bayanan asusun ku da bayanan gida."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Al'umma Admin",
+    "notBuilt": "{{label}} ba a gina shi ba tukuna",
+    "searchPlaceholder": "Bincika wani abu…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rahotanni",
+      "description": "Abubuwan amfani, lissafin kuɗi, da rahotannin adanawa ga al'ummar ku."
+    },
+    "announcements": {
+      "title": "Sanarwa",
+      "description": "Aika sanarwa ga jama'a ga mazaunan ku."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} is coming soon"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Tarihin Amfani",
+      "bills": "Kudi na",
+      "recommendations": "Shawarwari",
+      "reports": "Rahotanni",
+      "support": "Taimako / Damuwa",
+      "notifications": "Sanarwa",
+      "profile": "Bayanan martaba"
+    },
+    "pages": {
+      "usageHistory": "Tarihin amfanin ku",
+      "billing": "Biyan Kuɗi & Rasitoci",
+      "notifications": "Sanarwa",
+      "recommendations": "Shawarwari",
+      "support": "Taimako / Damuwa"
+    },
+    "defaultTitle": "Dashboard na mazaunin",
+    "navLabel": "Mazauna kewayawa",
+    "fallbackName": "Mazaunin",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} is coming soon",
+    "profile": "Bayanan martaba",
+    "searchPlaceholder": "Bincike bincike, lissafin kudi…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Al'umma",
+      "reports": "Rahotanni",
+      "supportTickets": "Tallafin Tikiti",
+      "systemStatus": "Matsayin Tsarin"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hoto mai faɗin dandamali a cikin kowace al'umma mai rijista."
+      },
+      "communities": {
+        "title": "Al'umma",
+        "subtitle": "Kowane admin na al'umma mai rijista da al'ummarsu, a wuri guda."
+      },
+      "reports": {
+        "title": "Rahotanni",
+        "subtitle": "Adadin amfani da ruwa mai faɗin dandamali da lissafin kuɗi, ta al'umma da kan lokaci."
+      },
+      "supportTickets": {
+        "title": "Tallafin Tikiti",
+        "subtitle": "Taimakon tikiti da damuwar da mazauna da masu kula da al'umma suka gabatar, a fa'ida."
+      },
+      "systemStatus": {
+        "title": "Matsayin Tsarin",
+        "subtitle": "Haɗin baya na baya da ainihin lafiyar lokacin gudu."
+      }
+    },
+    "fallbackName": "Mai Gudanar da Tsarin",
+    "platformOwner": "Mai Dandali",
+    "searchPlaceholder": "Bincika al'ummomin…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "Bincika harshe…",
+    "noMatches": "Babu ashana"
+  }
+}

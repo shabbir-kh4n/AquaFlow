@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "بند",
+    "signUpTitle": "پنھنجي ڪميونٽي کي رجسٽر ڪريو",
+    "signInTitle": "واپس ڀلي ڪري آيا",
+    "signUpSubtitle": "رهاڪن ۽ بلنگ کي منظم ڪرڻ شروع ڪرڻ لاءِ ڪميونٽي ايڊمن جو اڪائونٽ ٺاهيو.",
+    "signInSubtitle": "پنھنجي پاڻي جي استعمال ۽ بلنگ کي ڏسڻ لاءِ سائن ان ڪريو."
+  },
+  "signIn": {
+    "errorFallback": "سائن ان ٿيڻ کان قاصر. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+    "emailLabel": "اي ميل",
+    "passwordLabel": "پاسورڊ",
+    "rememberMe": "مونکي ياد ڪيو",
+    "forgotPassword": "پاسورڊ وساري ويٺا؟",
+    "submitting": "سائن ان ٿي رهيو آهي…",
+    "submit": "سائن ان ڪريو",
+    "noAccount": "اڪائونٽ نه آهي؟",
+    "signUpLink": "سائن اپ ڪريو"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "پاسورڊ ملن نه ٿا.",
+      "communityRequired": "ڪميونٽي جو نالو گھربل آھي.",
+      "termsRequired": "مھرباني ڪري قبول ڪريو خدمت جي شرطن ۽ رازداري جي پاليسي.",
+      "fallback": "اڪائونٽ ٺاهڻ جي قابل ناهي. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+    },
+    "hint": "صرف ڪميونٽي منتظمين هتي رجسٽرڊ ڪن ٿا. هڪ دفعو توهان اندر آهيو، توهان پنهنجي رهاڪن جا تفصيل پاڻ شامل ڪندا - اهي پنهنجو پاڻ سائن اپ نٿا ​​ڪن.",
+    "fullNameLabel": "پورو نالو",
+    "emailLabel": "اي ميل",
+    "phoneLabel": "فون نمبر",
+    "communityNameLabel": "ڪميونٽي جو نالو",
+    "passwordLabel": "پاسورڊ",
+    "confirmPasswordLabel": "پاس ورڊ جي تصديق ڪريو",
+    "agreeTerms": "مان متفق آهيان <termsLink>سروس جون شرطون</termsLink> ۽ <privacyLink>رازداري پاليسي</privacyLink>",
+    "submitting": "اڪائونٽ ٺاهي رهيو آهي…",
+    "submit": "ايڊمن اڪائونٽ ٺاهيو",
+    "haveAccount": "اڳ ۾ ئي هڪ اڪائونٽ آهي؟",
+    "signInLink": "سائن ان ڪريو"
+  },
+  "installPrompt": {
+    "title": "انسٽال ڪريو HydroLedger",
+    "description": "جلدي رسائي لاءِ ان کي پنھنجي ھوم اسڪرين تي شامل ڪريو.",
+    "dismiss": "برطرف",
+    "install": "انسٽال ڪريو"
+  },
+  "setPassword": {
+    "title": "پنهنجو پاسورڊ سيٽ ڪريو",
+    "loading": "لوڊ ٿي رهيو آهي…",
+    "subtitle": "هيلو {{name}}، پنهنجو HydroLedger اڪائونٽ چالو ڪرڻ لاءِ {{email}} لاءِ پاسورڊ چونڊيو.",
+    "errors": {
+      "invalidLink": "هي لنڪ غلط آهي يا ختم ٿي چڪو آهي.",
+      "tooShort": "پاسورڊ گهٽ ۾ گهٽ 8 اکرن جو هجڻ گهرجي.",
+      "mismatch": "پاسورڊ ملن نه ٿا.",
+      "fallback": "توھان جو پاسورڊ سيٽ نه ٿي سگھيو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+    },
+    "passwordLabel": "پاسورڊ",
+    "confirmPasswordLabel": "پاس ورڊ جي تصديق ڪريو",
+    "submitting": "پاسورڊ سيٽنگ…",
+    "submit": "پاسورڊ سيٽ ڪريو ۽ سائن ان ڪريو"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger مددگار",
+      "resident": "توهان جي اڪائونٽ بابت پڇو",
+      "admin": "ڪميونٽي اسسٽنٽ",
+      "platform": "پليٽ فارم اسسٽنٽ",
+      "default": "مددگار"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "ڇا آهي HydroLedger؟",
+        "tieredBilling": "ٽائرڊ بلنگ ڪيئن ڪم ڪندو آهي؟",
+        "leaks": "ليڪس ڪيئن معلوم ڪيا ويا آهن؟"
+      },
+      "resident": {
+        "billEstimate": "منهنجي موجوده بل جو اندازو ڇا آهي؟",
+        "alerts": "ڇا مون وٽ ڪي به استعمال جون خبرون آهن؟",
+        "readings": "منهنجي تازي ميٽر ريڊنگ ڏيکاريو"
+      },
+      "admin": {
+        "households": "اسان وٽ ڪيترا گهر آهن؟",
+        "billingCycles": "اسان جي تازي بلنگ چڪر کي لسٽ ڪريو",
+        "tariff": "اسان جو موجوده ٽريف پلان ڇا آهي؟"
+      },
+      "platform": {
+        "communities": "سڀني رجسٽرڊ برادرين کي لسٽ ڪريو",
+        "usageReport": "پليٽ فارم جي استعمال جي رپورٽ ڏيکاريو",
+        "systemStatus": "سسٽم جي حالت ڇا آهي؟"
+      }
+    },
+    "errors": {
+      "rateLimited": "توھان تمام جلدي پيغام موڪلي رھيا آھيو - مھرباني ڪري ڪجھ لمحو انتظار ڪريو ۽ ٻيهر ڪوشش ڪريو.",
+      "unavailable": "مددگار عارضي طور تي دستياب ناهي. مهرباني ڪري ٿوري دير ۾ ٻيهر ڪوشش ڪريو.",
+      "generic": "اهو پيغام موڪلڻ ۾ ڪجهه غلط ٿي ويو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+    },
+    "emptyHint": "مون کان ڪجهه به پڇو - مان صرف توهان جي پنهنجي ڊيٽا ڏسي سگهان ٿو.",
+    "closeAssistant": "اسسٽنٽ بند ڪريو",
+    "openAssistant": "اوپن اسسٽنٽ",
+    "inputPlaceholder": "پيغام ٽائيپ ڪريو...",
+    "inputLabel": "نياپو",
+    "send": "موڪليو"
+  },
+  "supportBoard": {
+    "defaultTitle": "سپورٽ ٽڪيٽون",
+    "defaultCreateLabel": "نئين تشويش کي وڌايو",
+    "status": {
+      "open": "کليل",
+      "inProgress": "جاري آهي",
+      "resolved": "حل ٿيل",
+      "closed": "بند ٿيل"
+    },
+    "tabs": {
+      "all": "سڀ ٽڪيٽون"
+    },
+    "recipients": {
+      "admin": "ڪميونٽي ايڊمن",
+      "systemAdmin": "سسٽم منتظم",
+      "both": "ڪميونٽي ايڊمن + سسٽم ايڊمن"
+    },
+    "roles": {
+      "resident": "رهاڪو",
+      "admin": "ايڊمن"
+    },
+    "toRecipients": "ڏانهن: {{recipients}}",
+    "raisedByResident": "رهواسين پاران اٿاريو ويو {{name}}",
+    "raisedByAdmin": "ايڊمن پاران اٿاريو ويو {{name}}",
+    "refresh": "تازو ڪريو",
+    "stats": {
+      "openLabel": "کوليو موڪلون",
+      "openHint": "نظرثاني جي انتظار ۾",
+      "inProgressLabel": "جاري آهي",
+      "inProgressHint": "تي ڪم ڪيو پيو وڃي",
+      "resolvedLabel": "حل ٿيل",
+      "resolvedHint": "ڪاميابيءَ سان بند ڪيو ويو"
+    },
+    "searchPlaceholder": "موضوع جي لحاظ کان ٽڪيٽون ڳوليو، مسئلو...",
+    "loadingTickets": "ٽڪيٽون لوڊ ٿي رهيون آهن…",
+    "empty": {
+      "title": "ڪابه سپورٽ ٽڪيٽ نه ملي",
+      "body": "توھان وٽ في الحال ھن فلٽر سان ملندڙ ڪو کليل يا رڪارڊ ٿيل سپورٽ درخواستون نه آھن.",
+      "cta": "هڪ تشويش جمع ڪر"
+    },
+    "errors": {
+      "loadList": "سپورٽ ٽڪيٽ لوڊ نه ٿي سگھي. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+      "loadDetail": "هي ٽڪيٽ لوڊ نه ٿي سگهي. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+      "required": "مضمون ۽ پيغام ٻئي گهربل آهن.",
+      "recipientRequired": "گهٽ ۾ گهٽ هڪ وصول ڪندڙ چونڊيو (ڪميونٽي ايڊمن ۽/يا سسٽم ايڊمن).",
+      "submitFallback": "هي ٽڪيٽ جمع نه ٿي سگهيو. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+      "sendReply": "هي پيغام موڪلي نه سگهيو. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+      "updateStatus": "ھن ٽڪيٽ جي صورتحال کي اپڊيٽ نه ڪري سگھيو. مهرباني ڪري ٻيهر ڪوشش ڪريو."
+    },
+    "form": {
+      "defaultHint": "توھان جو مسئلو يا تشويش ھيٺ بيان ڪريو.",
+      "subjectLabel": "مضمون",
+      "subjectPlaceholder": "توھان جي مسئلي جو مختصر خلاصو",
+      "messageLabel": "نياپو",
+      "messagePlaceholder": "تفصيل سان ٻڌايو ته ڇا ٿي رهيو آهي ...",
+      "recipientsLabel": "هن پريشاني کي موڪليو",
+      "cancel": "منسوخ ڪريو",
+      "submitting": "جمع ڪرايو پيو وڃي…",
+      "submit": "ٽڪيٽ جمع ڪر"
+    },
+    "detail": {
+      "loading": "ٽڪيٽ لوڊ ٿي رهي آهي…",
+      "replyPlaceholder": "جواب لکو...",
+      "close": "بند",
+      "sending": "موڪلي رهيو آهي…",
+      "sendReply": "جواب موڪليو"
+    }
+  },
+  "shell": {
+    "welcomeBack": "ڀليڪار، {{name}}",
+    "openMenu": "اوپن مينيو",
+    "closeMenu": "مينيو بند ڪريو",
+    "logout": "لاگ آئوٽ",
+    "search": "ڳولا",
+    "notifications": "نوٽيفڪيشن"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ڊيش بورڊ",
+      "households": "گهرن جي ڊاريڪٽري",
+      "meterReadings": "ميٽر ريڊنگ",
+      "billing": "بلنگ جو انتظام",
+      "bulkPurchases": "وڏي پئماني تي خريداري",
+      "reports": "رپورٽون",
+      "waterLeakage": "پاڻيءَ جي رسي",
+      "support": "حمايت / خدشات",
+      "tariffPlans": "ٽريف منصوبا",
+      "announcements": "اعلانات",
+      "profile": "پروفائل"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "هتي توهان جي ڪميونٽي جو هڪ سنيپ شاٽ آهي."
+      },
+      "households": {
+        "title": "گهرن جي ڊاريڪٽري",
+        "subtitle": "توهان جي ڪميونٽي ۾ رهندڙن کي شامل ڪريو، تازه ڪاري، ۽ منظم ڪريو."
+      },
+      "meterReadings": {
+        "title": "واٽر ميٽر ريڊنگ حب",
+        "subtitle": "هڪ رهائشي جي ڳولا ڪريو ۽ انهن جي پاڻي جي ميٽر پڙهڻ کي رڪارڊ ڪريو."
+      },
+      "tariffPlans": {
+        "title": "ٽريف جي ٺاھ جوڙ",
+        "subtitle": "توهان جي اپارٽمنٽ ڪميونٽي لاء ٽائر ٿيل شرح جي حدن، گڏيل عام-علائقي قيمتون، ۽ تقسيم جا طريقا ترتيب ڏيو."
+      },
+      "billing": {
+        "title": "بلنگ جو انتظام",
+        "subtitle": "کوليو، فائنل ڪريو، ۽ آرڪائيو بلنگ سائيڪل، ۽ نظرثاني ڪريو شيون انوائس في گھربل."
+      },
+      "bulkPurchases": {
+        "title": "وڏي پئماني تي خريداري",
+        "subtitle": "رڪارڊ ٽينڪر پهچائڻ ۽ ميونسپل سپلائي خريداري توهان جي ڪميونٽي لاء."
+      },
+      "waterLeakage": {
+        "title": "پاڻيءَ جي رسي",
+        "subtitle": "حد ۽ ٻاهرئين بنياد تي ليڪ الرٽ کي ترتيب ڏيو، ۽ پرچم ٿيل گھرن جو جائزو وٺو."
+      },
+      "support": {
+        "title": "حمايت / خدشات",
+        "subtitle": "پنهنجون ٽڪيٽون سسٽم ايڊمن ڏانهن وڌو، يا انهن خدشن کي سنڀاليو جيڪي توهان جي رهاڪن توهان کي ٻڌايا آهن."
+      },
+      "profile": {
+        "title": "سيٽنگون ۽ پروفائل",
+        "subtitle": "توهان جي اڪائونٽ جي تفصيل ۽ اپارٽمنٽ جي معلومات کي منظم ڪريو."
+      }
+    },
+    "fallbackName": "ايڊمن",
+    "fallbackCommunity": "ڪميونٽي ايڊمن",
+    "notBuilt": "{{label}} اڃا تعمير نه ٿيو آهي",
+    "searchPlaceholder": "ڪجھ به ڳولهيو ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "رپورٽون",
+      "description": "توهان جي ڪميونٽي لاء استعمال، بلنگ، ۽ تحفظ جي رپورٽون."
+    },
+    "announcements": {
+      "title": "اعلانات",
+      "description": "توهان جي رهاڪن کي ڪميونٽي جي وسيع اعلانات موڪليو."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} جلد اچي رهيو آهي"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ڊيش بورڊ",
+      "usageHistory": "استعمال جي تاريخ",
+      "bills": "منهنجا بل",
+      "recommendations": "سفارشون",
+      "reports": "رپورٽون",
+      "support": "حمايت / خدشات",
+      "notifications": "نوٽيفڪيشن",
+      "profile": "پروفائل"
+    },
+    "pages": {
+      "usageHistory": "توهان جي استعمال جي تاريخ",
+      "billing": "بلنگ ۽ انوائس",
+      "notifications": "نوٽيفڪيشن",
+      "recommendations": "سفارشون",
+      "support": "حمايت / خدشات"
+    },
+    "defaultTitle": "رهائشي ڊيش بورڊ",
+    "navLabel": "رهائشي نيويگيشن",
+    "fallbackName": "رهاڪو",
+    "unit": "يونٽ {{number}}",
+    "comingSoon": "{{label}} جلد اچي رهيو آهي",
+    "profile": "پروفائل",
+    "searchPlaceholder": "ڳولها تجزياتي، بل…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ڊيش بورڊ",
+      "communities": "ڪميونٽيز",
+      "reports": "رپورٽون",
+      "supportTickets": "سپورٽ ٽڪيٽون",
+      "systemStatus": "سسٽم جي حالت"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "هر رجسٽرڊ ڪميونٽي ۾ پليٽ فارم-وائڊ سنيپ شاٽ."
+      },
+      "communities": {
+        "title": "ڪميونٽيز",
+        "subtitle": "هر رجسٽرڊ ڪميونٽي ايڊمن ۽ انهن جي ڪميونٽي، هڪ جڳهه تي."
+      },
+      "reports": {
+        "title": "رپورٽون",
+        "subtitle": "پليٽ فارم تي وسيع پاڻي جي استعمال ۽ بلنگ جا انگ اکر، ڪميونٽي طرفان ۽ وقت سان گڏ."
+      },
+      "supportTickets": {
+        "title": "سپورٽ ٽڪيٽون",
+        "subtitle": "سپورٽ ٽڪيٽون ۽ خدشات رهاڪن ۽ ڪميونٽي جي منتظمين پاران اٿاريو، پليٽ فارم جي وسيع."
+      },
+      "systemStatus": {
+        "title": "سسٽم جي حالت",
+        "subtitle": "پس منظر رابطي ۽ بنيادي رن ٽائم صحت."
+      }
+    },
+    "fallbackName": "سسٽم منتظم",
+    "platformOwner": "پليٽ فارم مالڪ",
+    "searchPlaceholder": "ڪميونٽيز ڳولھيو..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "ٻولي: {{language}}",
+    "searchPlaceholder": "ٻولي ڳولھيو…",
+    "noMatches": "نه ملندو"
+  }
+}

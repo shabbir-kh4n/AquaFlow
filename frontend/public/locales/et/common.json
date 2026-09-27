@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Sule",
+    "signUpTitle": "Registreerige oma kogukond",
+    "signInTitle": "Tere tulemast tagasi",
+    "signUpSubtitle": "Looge kogukonna administraatori konto, et alustada elanike haldamist ja arveldamist.",
+    "signInSubtitle": "Veetarbimise ja arvelduste vaatamiseks logige sisse."
+  },
+  "signIn": {
+    "errorFallback": "Sisselogimine ebaõnnestus. Proovige uuesti.",
+    "emailLabel": "Meil",
+    "passwordLabel": "Parool",
+    "rememberMe": "Pea mind meeles",
+    "forgotPassword": "Unustasid parooli?",
+    "submitting": "Sisselogimine…",
+    "submit": "Logi sisse",
+    "noAccount": "Kas teil pole kontot?",
+    "signUpLink": "Registreeruge"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Paroolid ei ühti.",
+      "communityRequired": "Nõutav on kogukonna nimi.",
+      "termsRequired": "Nõustuge teenusetingimuste ja privaatsuspoliitikaga.",
+      "fallback": "Kontot ei saa luua. Palun proovi uuesti."
+    },
+    "hint": "Siin registreeruvad ainult kogukonna administraatorid. Kui olete sisenenud, lisate ise oma elanike andmed – nad ei registreeru ise.",
+    "fullNameLabel": "Täisnimi",
+    "emailLabel": "Meil",
+    "phoneLabel": "Telefoninumber",
+    "communityNameLabel": "kogukonna nimi",
+    "passwordLabel": "Parool",
+    "confirmPasswordLabel": "Kinnitage parool",
+    "agreeTerms": "Nõustun <termsLink>teenusetingimuste</termsLink> ja <privacyLink>privaatsuspoliitikaga</privacyLink>",
+    "submitting": "Konto loomine…",
+    "submit": "Loo administraatori konto",
+    "haveAccount": "Kas teil on juba konto?",
+    "signInLink": "Logi sisse"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Kiireks juurdepääsuks lisage see oma avakuvale.",
+    "dismiss": "Loobu",
+    "install": "Installige"
+  },
+  "setPassword": {
+    "title": "Seadke oma parool",
+    "loading": "Laadimine…",
+    "subtitle": "Tere, {{name}}, valige {{email}} jaoks parool, et aktiveerida oma HydroLedger konto.",
+    "errors": {
+      "invalidLink": "See link on kehtetu või aegunud.",
+      "tooShort": "Parool peab koosnema vähemalt 8 tähemärgist.",
+      "mismatch": "Paroolid ei ühti.",
+      "fallback": "Teie parooli ei saanud määrata. Palun proovi uuesti."
+    },
+    "passwordLabel": "Parool",
+    "confirmPasswordLabel": "Kinnitage parool",
+    "submitting": "Parooli seadistamine…",
+    "submit": "Määra parool ja logi sisse"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Küsige oma konto kohta",
+      "admin": "kogukonna assistent",
+      "platform": "Platvormi assistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Mis on HydroLedger?",
+        "tieredBilling": "Kuidas astmeline arveldamine toimib?",
+        "leaks": "Kuidas lekkeid tuvastatakse?"
+      },
+      "resident": {
+        "billEstimate": "Mis on minu praegune arveprognoos?",
+        "alerts": "Kas mul on kasutusmärguandeid?",
+        "readings": "Näita minu viimaseid arvesti näitu"
+      },
+      "admin": {
+        "households": "Mitu majapidamist meil on?",
+        "billingCycles": "Loetlege meie hiljutised arveldustsüklid",
+        "tariff": "Mis on meie praegune tariifiplaan?"
+      },
+      "platform": {
+        "communities": "Loetlege kõik registreeritud kogukonnad",
+        "usageReport": "Kuva platvormi kasutusaruanne",
+        "systemStatus": "Mis on süsteemi olek?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Saadate sõnumeid liiga kiiresti – oodake veidi ja proovige uuesti.",
+      "unavailable": "Assistent pole ajutiselt saadaval. Proovige varsti uuesti.",
+      "generic": "Selle sõnumi saatmisel läks midagi valesti. Palun proovi uuesti."
+    },
+    "emptyHint": "Küsige minult kõike – ma näen ainult teie enda andmeid.",
+    "closeAssistant": "Sulge assistent",
+    "openAssistant": "Ava assistent",
+    "inputPlaceholder": "Sisestage sõnum…",
+    "inputLabel": "Sõnum",
+    "send": "Saada"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tugipiletid",
+    "defaultCreateLabel": "Tõsta uus mure",
+    "status": {
+      "open": "Avatud",
+      "inProgress": "Käimas",
+      "resolved": "Lahendatud",
+      "closed": "Suletud"
+    },
+    "tabs": {
+      "all": "Kõik piletid"
+    },
+    "recipients": {
+      "admin": "Kogukonna administraator",
+      "systemAdmin": "Süsteemi administraator",
+      "both": "Kogukonna administraator + süsteemiadministraator"
+    },
+    "roles": {
+      "resident": "Resident",
+      "admin": "Admin"
+    },
+    "toRecipients": "Saaja: {{recipients}}",
+    "raisedByResident": "Kasvatanud elanik {{name}}",
+    "raisedByAdmin": "Kasvatanud administraator {{name}}",
+    "refresh": "Värskenda",
+    "stats": {
+      "openLabel": "Avage Submissions",
+      "openHint": "Ootab ülevaatust",
+      "inProgressLabel": "Käimas",
+      "inProgressHint": "Töötatakse",
+      "resolvedLabel": "Lahendatud",
+      "resolvedHint": "Edukalt suletud"
+    },
+    "searchPlaceholder": "Otsi pileteid teema, numbri järgi…",
+    "loadingTickets": "Piletite laadimine…",
+    "empty": {
+      "title": "Tugipileteid ei leitud",
+      "body": "Teil pole praegu sellele filtrile vastavaid avatud ega salvestatud tugitaotlusi.",
+      "cta": "Esitage mure"
+    },
+    "errors": {
+      "loadList": "Tugipileteid ei saanud laadida. Palun proovi uuesti.",
+      "loadDetail": "Seda piletit ei saanud laadida. Palun proovi uuesti.",
+      "required": "Nii teema kui ka sõnum on kohustuslikud.",
+      "recipientRequired": "Valige vähemalt üks adressaat (kogukonnaadministraator ja/või süsteemiadministraator).",
+      "submitFallback": "Seda piletit ei saanud esitada. Palun proovi uuesti.",
+      "sendReply": "Seda sõnumit ei saanud saata. Palun proovi uuesti.",
+      "updateStatus": "Selle pileti olekut ei saanud värskendada. Palun proovi uuesti."
+    },
+    "form": {
+      "defaultHint": "Kirjeldage allpool oma probleemi või muret.",
+      "subjectLabel": "Teema",
+      "subjectPlaceholder": "Teie probleemi lühikokkuvõte",
+      "messageLabel": "Sõnum",
+      "messagePlaceholder": "Kirjeldage toimuvat üksikasjalikult…",
+      "recipientsLabel": "Saada see mure aadressile",
+      "cancel": "Tühista",
+      "submitting": "Esitamine…",
+      "submit": "Esitage pilet"
+    },
+    "detail": {
+      "loading": "Pileti laadimine…",
+      "replyPlaceholder": "Kirjuta vastus…",
+      "close": "Sule",
+      "sending": "Saatmine…",
+      "sendReply": "Saada vastus"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Tere tulemast tagasi, {{name}}",
+    "openMenu": "Ava menüü",
+    "closeMenu": "Sule menüü",
+    "logout": "Logi välja",
+    "search": "Otsi",
+    "notifications": "Märguanded"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Armatuurlaud",
+      "households": "Majapidamiste kataloog",
+      "meterReadings": "Arvesti näidud",
+      "billing": "Arvelduste haldamine",
+      "bulkPurchases": "Hulgiostud",
+      "reports": "Aruanded",
+      "waterLeakage": "Vee leke",
+      "support": "Tugi / mured",
+      "tariffPlans": "Tariifiplaanid",
+      "announcements": "Teated",
+      "profile": "Profiil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Siin on pilt teie kogukonnast."
+      },
+      "households": {
+        "title": "Majapidamiste kataloog",
+        "subtitle": "Lisage, värskendage ja hallake oma kogukonnas elavaid elanikke."
+      },
+      "meterReadings": {
+        "title": "Veearvestite näitude jaotur",
+        "subtitle": "Otsige üles elanik ja registreerige tema veearvesti näit."
+      },
+      "tariffPlans": {
+        "title": "Tariifi konfiguratsioon",
+        "subtitle": "Seadistage oma korteriühiskonna jaoks mitmetasandilised intressipiirangud, jagatud ühispinna kulud ja jaotusmeetodid."
+      },
+      "billing": {
+        "title": "Arvelduste haldamine",
+        "subtitle": "Avage, viimistlege ja arhiivige arveldustsüklid ning vaadake üle leibkonna üksikarveid."
+      },
+      "bulkPurchases": {
+        "title": "Hulgiostud",
+        "subtitle": "Registreerige oma kogukonna jaoks tankerite tarned ja munitsipaaltarnete ostud."
+      },
+      "waterLeakage": {
+        "title": "Vee leke",
+        "subtitle": "Konfigureerige läve- ja kõrvalekaldepõhiseid lekkehoiatusi ning vaadake üle märgistatud leibkonnad."
+      },
+      "support": {
+        "title": "Tugi / mured",
+        "subtitle": "Tõstke oma piletid süsteemiadministraatorile või lahendage mured, mille elanikud on teile pöördunud."
+      },
+      "profile": {
+        "title": "Seaded ja profiil",
+        "subtitle": "Hallake oma konto andmeid ja korteriteavet."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Kogukonna administraator",
+    "notBuilt": "{{label}} pole veel ehitatud",
+    "searchPlaceholder": "Otsi midagi…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Aruanded",
+      "description": "Teie kogukonna tarbimis-, arveldus- ja säilitusaruanded."
+    },
+    "announcements": {
+      "title": "Teated",
+      "description": "Saatke oma elanikele kogukondlikke teateid."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} on varsti tulemas"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Armatuurlaud",
+      "usageHistory": "Kasutusajalugu",
+      "bills": "Minu arved",
+      "recommendations": "Soovitused",
+      "reports": "Aruanded",
+      "support": "Tugi / mured",
+      "notifications": "Märguanded",
+      "profile": "Profiil"
+    },
+    "pages": {
+      "usageHistory": "Teie kasutusajalugu",
+      "billing": "Arveldamine ja arved",
+      "notifications": "Märguanded",
+      "recommendations": "Soovitused",
+      "support": "Tugi / mured"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Residentide navigeerimine",
+    "fallbackName": "Resident",
+    "unit": "Üksus {{number}}",
+    "comingSoon": "{{label}} on varsti tulemas",
+    "profile": "Profiil",
+    "searchPlaceholder": "Otsinguanalüüs, arved…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Armatuurlaud",
+      "communities": "kogukonnad",
+      "reports": "Aruanded",
+      "supportTickets": "Tugipiletid",
+      "systemStatus": "Süsteemi olek"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platvormiülene hetktõmmis igast registreeritud kogukonnast."
+      },
+      "communities": {
+        "title": "kogukonnad",
+        "subtitle": "Iga registreeritud kogukonna administraator ja nende kogukond ühes kohas."
+      },
+      "reports": {
+        "title": "Aruanded",
+        "subtitle": "Platvormiülesed veekasutus- ja arveldusnäitajad kogukonna ja aja lõikes."
+      },
+      "supportTickets": {
+        "title": "Tugipiletid",
+        "subtitle": "Toetage pileteid ja elanike ja kogukonna administraatorite tõstatatud probleeme kogu platvormil."
+      },
+      "systemStatus": {
+        "title": "Süsteemi olek",
+        "subtitle": "Taustaprogrammi ühenduvus ja põhiline käitusaegne tervis."
+      }
+    },
+    "fallbackName": "Süsteemi administraator",
+    "platformOwner": "Platvormi omanik",
+    "searchPlaceholder": "Otsi kogukondi…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Keel: {{language}}",
+    "searchPlaceholder": "Otsi keel…",
+    "noMatches": "Vasteid pole"
+  }
+}

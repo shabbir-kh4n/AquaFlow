@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Naglo-load…",
+    "saving": "Sine-save...",
+    "saved": "Nai-save.",
+    "uploading": "Ina-upload…",
+    "upload": "Mag-upload",
+    "uploadError": "Hindi ma-upload ang file na ito. Pakisubukang muli.",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "edit": "I-edit",
+    "remove": "Alisin",
+    "saveChanges": "I-save ang Mga Pagbabago",
+    "bulkSummary": "Naproseso ang <b>{{total}}</b> na mga hilera — <b>{{success}}</b> ay nagtagumpay, <b>{{failure}}</b> ay nabigo.",
+    "rowFailure": "Hilera {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Ipinapakita ang {{from}}–{{to}} ng {{total}}",
+    "prev": "← Nakaraan",
+    "next": "Susunod →",
+    "page": "Pahina {{page}} ng {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Hindi ma-load ang iyong data ng komunidad sa ngayon.",
+    "title": "{{community}} Dashboard ng Apartment",
+    "titleFallback": "Dashboard ng iyong Apartment",
+    "subtitle": "Buod ng pagpapatakbo para sa sub-metering ng utility ng tubig at pagkonsumo ng sambahayan.",
+    "comingSoon": "Paparating na",
+    "manageCommunity": "Pamahalaan ang Komunidad",
+    "noUsageReadings": "Wala pang naitalang pagbabasa ng paggamit.",
+    "cards": {
+      "totalHouseholds": "Kabuuang Sambahayan",
+      "occupied": "Okupado",
+      "activeMeters": "Mga Aktibong Metro",
+      "reportingReadings": "Pag-uulat ng mga pagbasa",
+      "monthlyConsumption": "Buwanang Pagkonsumo",
+      "thisCalendarMonth": "Ngayong buwan ng kalendaryo",
+      "latestRecordedMonth": "Pinakabagong naitala na buwan ({{month}})",
+      "noReadingsYet": "Wala pang naitalang pagbabasa",
+      "pendingAlerts": "Mga Nakabinbing Alerto",
+      "anomalyPreview": "Preview ng anomaly detection — hindi pa available"
+    },
+    "actions": {
+      "label": "Mabilis na Administratibong Pagkilos",
+      "uploadReadings": "Mag-upload ng Mga Pagbasa ng Metro",
+      "configureTariffs": "I-configure ang Mga Taripa",
+      "reportsNotBuilt": "Ang mga ulat ay hindi pa nagagawa",
+      "downloadReports": "I-download ang Mga Ulat ng System"
+    },
+    "chart": {
+      "title": "Paghahambing ng Buwanang Pagkonsumo (kL)",
+      "subtitle": "Huling {{months}} buwan: target kumpara sa aktwal na pagkonsumo.",
+      "targetSeries": "Target (preview)",
+      "actualSeries": "Aktwal"
+    },
+    "recent": {
+      "title": "Kamakailang Pagbasa ng Metro",
+      "unit": "Yunit",
+      "resident": "Residente",
+      "lastReading": "Huling Pagbasa",
+      "consumption": "Pagkonsumo"
+    }
+  },
+  "households": {
+    "loadError": "Hindi ma-load ang mga residente. Pakisubukang muli.",
+    "fixFields": "Pakiayos ang mga naka-highlight na field.",
+    "saveError": "Hindi mailigtas ang residenteng ito. Mangyaring suriin ang mga detalye.",
+    "confirmRemove": "Alisin ang {{name}} mula sa direktoryo ng iyong mga sambahayan?",
+    "removeError": "Hindi maalis ang residenteng ito. Pakisubukang muli.",
+    "count": "Mga sambahayan: {{total}}",
+    "bulkUploadButton": "⇪ Maramihang Pag-upload",
+    "addResidentButton": "+ Magdagdag ng Residente",
+    "searchPlaceholder": "I-filter ayon sa pangalan, bahay, email, o metro no.",
+    "loading": "Nilo-load ang mga residente…",
+    "empty": "Wala pang residente. I-click ang \"Add Resident\" para irehistro ang unang sambahayan.",
+    "noMatch": "Walang mga residenteng tumutugma sa \"{{search}}\".",
+    "sort": {
+      "label": "Pagbukud-bukurin ayon sa",
+      "name": "Pangalan",
+      "houseNumber": "Numero ng Bahay",
+      "dateOfJoining": "Petsa ng Pagsali",
+      "toggleDirection": "I-toggle ang direksyon ng pag-uuri",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "gender": {
+      "male": "Lalaki",
+      "female": "Babae",
+      "other": "Iba pa"
+    },
+    "table": {
+      "name": "Pangalan",
+      "houseUnit": "Bahay / Yunit",
+      "email": "Email",
+      "phone": "Telepono",
+      "meterNumber": "Metro No.",
+      "sqft": "Sqft",
+      "joined": "Sumali"
+    },
+    "form": {
+      "addTitle": "Magdagdag ng Residente",
+      "editTitle": "I-edit ang Residente",
+      "editSubtitle": "Ina-update nito ang mga detalye ng residente sa iyong direktoryo.",
+      "bypassSubtitle": "Direktang itinatakda mo ang password ng residenteng ito. Walang email na ipapadala.",
+      "addSubtitle": "Ang isang set-password link ay i-email sa residenteng ito upang ma-activate nila ang kanilang sariling login.",
+      "fullName": "Buong pangalan",
+      "houseNumber": "Bahay / unit no.",
+      "email": "Email",
+      "phone": "Numero ng telepono",
+      "meterNumber": "Numero ng metro",
+      "governmentId": "ID ng gobyerno",
+      "gender": "Kasarian",
+      "dateOfBirth": "Petsa ng kapanganakan",
+      "dateOfJoining": "Petsa ng pagsali",
+      "flatSize": "Flat size (sq ft)",
+      "bypassLabel": "Bypass set-password email — magtakda ng password para sa residenteng ito ngayon",
+      "password": "Password",
+      "confirmPassword": "Kumpirmahin ang password"
+    },
+    "validation": {
+      "fullNameRequired": "Kinakailangan ang buong pangalan.",
+      "emailRequired": "Kinakailangan ang email.",
+      "phoneRequired": "Kinakailangan ang numero ng telepono.",
+      "houseNumberRequired": "Kailangan ang numero ng bahay/unit.",
+      "houseNumberTaken": "Ang numero ng bahay na ito ay nakatalaga na sa ibang residente.",
+      "meterNumberRequired": "Kinakailangan ang numero ng metro.",
+      "meterNumberFormat": "Ang numero ng metro ay dapat magmukhang MTR-1234 (4 na numero).",
+      "meterNumberTaken": "Ang numerong ito ng metro ay nakatalaga na sa ibang residente.",
+      "governmentIdRequired": "Kinakailangan ang Government ID.",
+      "governmentIdFormat": "Ang ID ay dapat na 6 na digit na nagsisimula sa 99 (hal. 991234).",
+      "genderRequired": "Mangyaring pumili ng kasarian.",
+      "dateOfBirthRequired": "Kinakailangan ang petsa ng kapanganakan.",
+      "dateOfJoiningRequired": "Kinakailangan ang petsa ng pagsali.",
+      "passwordRequired": "Kinakailangan ang password.",
+      "passwordLength": "Dapat na hindi bababa sa 8 character ang password.",
+      "confirmPasswordRequired": "Pakikumpirma ang password.",
+      "passwordMismatch": "Hindi tugma ang mga password."
+    },
+    "bulk": {
+      "title": "Maramihang Pag-upload ng mga residente",
+      "noFile": "Mangyaring pumili ng .csv o .xlsx/.xls file na ia-upload.",
+      "instructions": "Mag-upload ng .csv o .xlsx/.xls file na may mga column na <code>{{columns}}</code> (parehong opsyonal ang password at flatSizeSqft). Direktang itinakda ito ng mga hilera na may password; ang mga row na walang isa ay nakakakuha ng set-password na email, katulad ng pagdaragdag ng isang residente nang manu-mano. Ang mga duplicate na numero ng bahay/meter o email ay tinatanggihan bawat row — isang masamang row ang hindi mabibigo sa buong batch."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Hindi ma-load ang mga residente. Pakisubukang muli.",
+    "historyLoadError": "Hindi ma-load ang history ng pagbabasa. Pakisubukang muli.",
+    "successMessage": "Matagumpay na naitala ang pagbabasa ng {{value}} kL para sa {{house}} (Metro: {{meter}})! Kinakalkula ang pagkonsumo: {{consumption}} kL.",
+    "tabs": {
+      "single": "Single Entry",
+      "csv": "Maramihang CSV Mag-upload",
+      "history": "Kasaysayan ng Pagbasa"
+    },
+    "source": {
+      "manual": "Manwal",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Ang residenteng ito ay walang metrong numero sa file.",
+      "dateRequired": "Kinakailangan ang petsa ng pagbabasa.",
+      "invalidValue": "Mangyaring maglagay ng wasto, hindi negatibong halaga ng pagbabasa.",
+      "duplicate": "Mayroon nang pagbabasa para sa metrong ito sa petsang iyon.",
+      "meterNotFound": "Hindi mahanap ang metrong ito. Mangyaring muling piliin ang residente.",
+      "lowerThanPrevious": "Ang pagbasang ito ay mas mababa kaysa sa naunang naitala na pagbabasa.",
+      "recordFailed": "Hindi maitala ang pagbabasang ito. Pakisubukang muli."
+    },
+    "combo": {
+      "label": "Piliin ang Flat & Meter Serial",
+      "placeholder": "Piliin ang Flat & Meter Serial...",
+      "flat": "Flat {{house}}",
+      "noMeter": "Walang metro",
+      "searchPlaceholder": "Maghanap sa flat no, meter serial, residente…",
+      "unitsHeader": "Mga Yunit ng Residential",
+      "found": "Nahanap ang mga flat: {{total}}",
+      "loading": "Nilo-load ang mga residente…",
+      "noMatch": "Walang mga residenteng tumutugma sa \"{{search}}\".",
+      "unassigned": "Hindi nakatalaga",
+      "itemMeta": "{{name}} · Huli: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Nagre-record ng pagbabasa para sa",
+      "context": "Bahay {{house}} · Metro {{meter}}",
+      "changeResident": "Magpalit ng residente",
+      "readingDate": "Petsa ng pagbabasa",
+      "readingValue": "Kasalukuyang Pagbabasa ng Metro (kL)",
+      "submit": "Isumite ang Validated Reading",
+      "recentTitle": "Mga kamakailang pagbabasa",
+      "recentEmpty": "Wala pang naitalang pagbabasa para sa meter na ito."
+    },
+    "info": {
+      "title": "Pagpapatunay ng Monotonic Meter",
+      "body": "Ang bawat bagong pagbabasa ay dapat na mas malaki kaysa o katumbas ng nakaraang log para sa metrong iyon — pinapanatili nitong tumpak ang mga kalkulasyon ng pagkonsumo at maagang nakakakuha ng mga nailipat na digit."
+    },
+    "details": {
+      "title": "Mga Piniling Detalye ng Unit",
+      "flatUnit": "Flat Unit",
+      "meterSerial": "Metro Serial",
+      "occupant": "Pangalan ng Occupant",
+      "lastDial": "Huling Nairecord na Dial",
+      "noReadings": "Wala pang readings",
+      "monthConsumption": "Pagkonsumo ng Buwan",
+      "empty": "Walang napiling sambahayan. Maghanap at pumili ng residente upang makita ang kanilang mga detalye ng metro dito."
+    },
+    "csv": {
+      "noFile": "Mangyaring pumili ng CSV file na ia-upload.",
+      "instructions": "Mag-upload ng CSV na may mga column <code>{{columns}}</code>. Independiyenteng pinoproseso ang mga row — hindi mabibigo ang isang masamang row sa buong batch."
+    },
+    "history": {
+      "loading": "Nilo-load ang mga pagbabasa...",
+      "empty": "Wala pang naitalang pagbabasa para sa iyong komunidad."
+    },
+    "table": {
+      "meterNumber": "Metro No.",
+      "date": "Petsa",
+      "value": "Halaga (kL)",
+      "consumption": "Pagkonsumo (kL)",
+      "source": "Pinagmulan"
+    }
+  },
+  "billingCycles": {
+    "title": "Mga Siklo ng Pagsingil",
+    "loadError": "Hindi ma-load ang mga ikot ng pagsingil. Pakisubukang muli.",
+    "paymentUpdateError": "Hindi ma-update ang katayuan ng pagbabayad ng invoice na ito.",
+    "pdfError": "Hindi ma-download ang PDF. Pakisubukang muli.",
+    "finalizeError": "Hindi ma-finalize ang cycle ng pagsingil na ito.",
+    "archiveError": "Hindi ma-archive ang yugto ng pagsingil na ito.",
+    "loading": "Nilo-load ang mga yugto ng pagsingil...",
+    "empty": "Wala pang mga yugto ng pagsingil. Buksan ang isa sa itaas para makapagsimula.",
+    "status": {
+      "open": "Bukas",
+      "finalized": "Natapos na",
+      "archived": "Naka-archive"
+    },
+    "open": {
+      "title": "Magbukas ng Bagong Ikot ng Pagsingil",
+      "noMonth": "Mangyaring pumili ng isang buwan upang buksan.",
+      "error": "Hindi makapagbukas ng ikot ng pagsingil para sa buwang iyon.",
+      "monthAria": "Buwan ng panahon ng pagsingil",
+      "opening": "Binubuksan…",
+      "submit": "Buksan ang Ikot"
+    },
+    "table": {
+      "period": "Panahon",
+      "status": "Katayuan",
+      "householdsBilled": "Mga Sambahayan na Sinisingil",
+      "totalBilled": "Kabuuang Sinisingil",
+      "actions": "Mga aksyon"
+    },
+    "actions": {
+      "finalize": "Tapusin",
+      "finalizing": "Tinatapos…",
+      "archive": "Archive",
+      "archiving": "Ini-archive…"
+    },
+    "filter": {
+      "aria": "I-filter ayon sa katayuan ng pagbabayad",
+      "all": "Lahat"
+    },
+    "payment": {
+      "paid": "Binayaran",
+      "unpaid": "Walang bayad",
+      "updating": "Ina-update…",
+      "markPaid": "Markahan bilang bayad",
+      "markUnpaid": "Markahan bilang hindi nabayaran"
+    },
+    "detail": {
+      "title": "Detalye ng Ikot — {{period}}",
+      "loading": "Naglo-load ng mga invoice…",
+      "notFinalized": "Hindi pa natatapos ang cycle na ito — walang nabuong mga invoice.",
+      "noInvoices": "Walang mga invoice para sa cycle na ito.",
+      "noMatch": "Walang mga invoice na tumutugma sa filter na ito."
+    },
+    "invoices": {
+      "household": "Sambahayan",
+      "resident": "Residente",
+      "meterNumber": "Metro No.",
+      "consumption": "Pagkonsumo (kL)",
+      "tierBreakdown": "Pagkasira ng Tier",
+      "commonArea": "Karaniwang Lugar",
+      "total": "Kabuuan",
+      "paymentStatus": "Katayuan ng Pagbabayad",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Hindi ma-load ang configuration ng taripa",
+    "saveError": "Hindi ma-save ang configuration ng taripa",
+    "chartTitle": "Aktibong Metered Utility Rate Tier",
+    "axisNote": "Rate sa ₹/kL, mga limitasyon ng slab sa kL",
+    "tableTitle": "Talahanayan ng Mga Tier ng Pagpepresyo",
+    "defaultRatesNote": "Ipinapakita ang mga default na rate — hindi pa nai-save.",
+    "addTier": "+ Magdagdag ng Tier",
+    "saveRates": "I-save ang Mga Rate ng Taripa",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Base)",
+      "medium": "Tier {{tier}} (Medium)",
+      "heavy": "Tier {{tier}} (Mabigat)"
+    },
+    "basePrice": {
+      "label": "Batayang Presyo (₹ / kL, inilapat sa LAHAT ng pagkonsumo)",
+      "note": "Ang bawat kL ay sinisingil muna ng flat rate na ito. Ang mga slab sa ibaba ay nagdaragdag ng KARAGDAGANG singil para lamang sa paggamit na nasa saklaw ng mga ito — hal. ang isang slab na nagsisimula sa 50 kL ay nagdaragdag lamang ng rate nito para sa pagkonsumo sa itaas 50 kL."
+    },
+    "table": {
+      "tierLevel": "Antas ng Tier",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Rate bawat kL",
+      "action": "Aksyon"
+    },
+    "commonArea": {
+      "title": "Configuration ng Gastos sa Ibinahaging Karaniwang Lugar",
+      "loadError": "Hindi ma-load ang configuration ng common-area cost",
+      "saveError": "Hindi ma-save ang configuration ng common-area cost",
+      "empty": "Wala pang na-save na mga item sa gastos.",
+      "labelPlaceholder": "Label ng item ng gastos",
+      "perMonth": "/ buwan",
+      "active": "Aktibo",
+      "addItem": "+ Magdagdag ng Gastos na Item",
+      "save": "I-save ang Common Area Configuration"
+    },
+    "distribution": {
+      "title": "Tagapili ng Paraan ng Pamamahagi ng Gastos",
+      "consumption": "Ayon sa Pagkonsumo (Sub-metered Proportional)",
+      "floorArea": "Ayon sa Flat Size ng Apartment (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Petsa ng Pagsisimula ng Pagsingil sa Ikot",
+      "cycleStartValue": "1st ng Bawat Buwan",
+      "autoInvoices": "Auto-Generate PDF Mga Invoice"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Lumagpas ang Threshold",
+      "statisticalOutlier": "Statistical Outlier"
+    },
+    "status": {
+      "active": "Aktibo",
+      "resolved": "Nalutas",
+      "dismissed": "Nadismiss"
+    },
+    "config": {
+      "title": "Configuration ng Leak Detection",
+      "subtitle": "Magtakda ng buwanang limitasyon sa pagkonsumo at/o paganahin ang statistical outlier detection (bina-flag ang isang sambahayan na ang buwanang pagkonsumo ay hindi pangkaraniwang mataas kumpara sa sarili nitong kasaysayan).",
+      "loadError": "Hindi ma-load ang configuration ng alerto. Pakisubukang muli.",
+      "thresholdRequired": "Kinakailangan ang buwanang threshold (kL) kapag pinagana ang mga alerto sa threshold.",
+      "saveError": "Hindi ma-save ang configuration na ito.",
+      "loading": "Nilo-load ang configuration...",
+      "threshold": "Buwanang threshold (kL)",
+      "sensitivity": "Outlier sensitivity (σ multiplier)",
+      "enableThreshold": "Paganahin ang mga alerto sa limitasyon",
+      "enableOutlier": "I-enable ang statistical outlier alert",
+      "save": "I-save ang Configuration",
+      "running": "Tumatakbo…",
+      "runNow": "Patakbuhin ang Detection Ngayon"
+    },
+    "alerts": {
+      "title": "Mga Na-flag na Sambahayan",
+      "loadError": "Hindi ma-load ang mga alerto. Pakisubukang muli.",
+      "runError": "Hindi makapagpatakbo ng leak detection sa ngayon. Pakisubukang muli.",
+      "updateError": "Hindi ma-update ang alertong ito. Pakisubukang muli.",
+      "allStatuses": "Lahat ng status",
+      "loading": "Nilo-load ang mga alerto...",
+      "empty": "Walang ipapakitang alerto. Mag-configure ng threshold o paganahin ang outlier detection sa itaas, pagkatapos ay i-click ang \"Run Detection Now\" upang suriin ang kasalukuyang paggamit ng iyong komunidad.",
+      "resolve": "Lutasin",
+      "dismiss": "I-dismiss"
+    },
+    "table": {
+      "household": "Sambahayan",
+      "resident": "Residente",
+      "meter": "Metro",
+      "type": "Uri",
+      "period": "Panahon",
+      "consumption": "Pagkonsumo",
+      "reference": "Sanggunian",
+      "status": "Katayuan"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Hindi ma-load ang mga pagbili ng maramihang tubig. Pakisubukang muli.",
+    "confirmRemove": "Alisin ang {{source}} na paghahatid sa {{date}}?",
+    "removeError": "Hindi maalis ang pagbiling ito. Pakisubukang muli.",
+    "count": "Naitala ang mga pagbili: {{total}}",
+    "recordButton": "+ Itala ang Pagbili",
+    "loading": "Naglo-load ng maramihang pagbili ng tubig…",
+    "empty": "Wala pang naitalang pagbili ng maramihang tubig. I-click ang \"I-record ang Pagbili\" upang mag-log ng paghahatid ng tanker o pagbili ng supply ng munisipyo.",
+    "table": {
+      "date": "Petsa",
+      "source": "Pinagmulan",
+      "volume": "Dami (L)",
+      "unitCost": "Gastos ng Yunit",
+      "totalCost": "Kabuuang Gastos",
+      "notes": "Mga Tala"
+    },
+    "form": {
+      "addTitle": "Magtala ng Bulk na Pagbili ng Tubig",
+      "editTitle": "I-edit ang Maramihang Pagbili ng Tubig",
+      "subtitle": "Subaybayan ang paghahatid ng tanker o pagbili ng munisipal na supply para sa iyong komunidad — ito ay naitala para sa cost visibility lamang at hindi nakakaapekto sa mga invoice ng sambahayan.",
+      "requiredFields": "Mangyaring punan ang petsa, pinagmulan, dami, at halaga ng yunit.",
+      "saveError": "Hindi ma-save ang pagbiling ito. Mangyaring suriin ang mga detalye.",
+      "purchaseDate": "Petsa ng pagbili",
+      "source": "Pinagmulan / supplier",
+      "volume": "Dami (litro)",
+      "unitCost": "Gastos ng unit (₹/litro)",
+      "totalPreview": "Kabuuang gastos: {{amount}}",
+      "notes": "Mga Tala (opsyonal)",
+      "submit": "Itala ang Pagbili"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ay hindi pa binuo",
+    "profileSaveError": "Hindi ma-save ang iyong profile. Pakisubukang muli.",
+    "apartmentSaveError": "Hindi ma-save ang mga detalye ng apartment. Pakisubukang muli.",
+    "specsTitle": "Mga Detalye ng Profile",
+    "photoUnavailable": "Hindi pa available ang pag-upload ng larawan",
+    "changePhoto": "Baguhin ang Larawan",
+    "deletePhoto": "Tanggalin",
+    "photoHint": "JPG o PNG. Max na laki 2MB.",
+    "saveProfile": "I-save ang Profile",
+    "apartmentTitle": "Mga Detalye ng Apartment",
+    "saveApartment": "I-save ang Mga Detalye ng Apartment",
+    "tabs": {
+      "profile": "Mga Setting ng Profile",
+      "apartment": "Profile ng Apartment",
+      "notifications": "Mga Panuntunan sa Pag-abiso",
+      "billing": "Mga Pagsasama sa Pagsingil",
+      "security": "Seguridad at Access"
+    },
+    "fields": {
+      "fullName": "Buong Pangalan",
+      "email": "Email Address",
+      "emailLocked": "Hindi mababago ang email dito",
+      "phone": "Numero ng Telepono",
+      "accessLevel": "Antas ng Access",
+      "accessLevelValue": "Administrator ng Komunidad",
+      "roleLocked": "Hindi pa available ang pamamahala sa tungkulin",
+      "apartmentName": "Pangalan ng Apartment",
+      "mainsSource": "Pinagmulan ng Mains",
+      "mainsSourcePlaceholder": "hal. Supply ng Munisipal + Mga Karagdagang Tangke",
+      "address": "Pisikal na Address"
+    },
+    "security": {
+      "title": "Preview ng Seguridad at Pag-access",
+      "twoFactor": "Two-Factor Authentication",
+      "twoFactorHint": "Pinagana sa pag-login",
+      "twoFactorUnavailable": "Hindi pa available ang two-factor authentication",
+      "twoFactorAria": "Dalawang-factor na pagpapatotoo (preview lamang)",
+      "sessionsLabel": "Mga Aktibong Admin Session",
+      "sessionsEmpty": "Hindi pa available ang pagsubaybay sa session — isa itong preview ng paparating na layout."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Aking Mga Ticket",
+      "inbox": "Mga Resident Ticket"
+    },
+    "mine": {
+      "title": "Aking Mga Support Ticket",
+      "subtitle": "Magbigay ng tanong o alalahanin tungkol sa iyong komunidad sa System Admin.",
+      "emptyCreateHint": "Magbigay ng tanong o alalahanin tungkol sa iyong komunidad. Isang System Admin ang susuri at tutugon dito."
+    },
+    "inbox": {
+      "title": "Mga Resident Ticket",
+      "subtitle": "Mga tiket para sa suporta at mga alalahanin na iniharap sa iyo ng mga residente sa iyong komunidad."
+    }
+  }
+}

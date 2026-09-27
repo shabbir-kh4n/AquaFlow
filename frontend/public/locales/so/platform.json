@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Firfircoon",
+    "blocked": "xannibay",
+    "terminated": "La joojiyay"
+  },
+  "sort": {
+    "sortBy": "Ku kala sooc",
+    "toggleDirection": "U rog jihada kala soocida",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Muujinaya {{from}} -{{to}} ee {{total}}",
+    "prev": "← Horay",
+    "next": "Xiga →",
+    "page": "Bogga {{page}} ee {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Dulmarka Platform",
+    "subtitle": "Maamul bulsho kasta oo diiwaangashan, guud ahaan goobta HydroLedger.",
+    "viewAll": "Daawo Dhamaan Bulshooyinka",
+    "loadError": "Ma rari karo xogta goobta hadda",
+    "cards": {
+      "totalCommunities": "Wadarta Bulshooyinka",
+      "registeredAdmins": "Maamulka diiwaangashan",
+      "totalResidents": "Wadarta dadka degan",
+      "acrossAllCommunities": "Bulshooyinka oo dhan",
+      "active": "Firfircoon",
+      "inGoodStanding": "Meel wanaagsan",
+      "blockedTerminated": "La xannibay / la joojiyay",
+      "blockedTerminatedBreakdown": "{{blocked}} la xannibay, {{terminated}} la joojiyay"
+    },
+    "recent": {
+      "title": "Bulshooyinka Dhawaan Diiwangeliyay",
+      "loading": "Soodejinaya…",
+      "empty": "Weli ma jiraan bulsho diwaan gasha.",
+      "table": {
+        "community": "Bulshada",
+        "admin": "Admin",
+        "status": "Xaalada",
+        "residents": "Dadka deegaanka"
+      }
+    }
+  },
+  "communities": {
+    "count": "Bulshooyinka: {{count}}",
+    "loadError": "Waa la rari waayay bulshooyinka Fadlan isku day mar kale",
+    "searchPlaceholder": "Ku sifee bulshada, magaca maamulka, ama iimaylka",
+    "statusFilter": {
+      "label": "Xaalada",
+      "all": "Dhammaan"
+    },
+    "sortOptions": {
+      "community": "Bulshada",
+      "admin": "Admin",
+      "residents": "Dadka deegaanka"
+    },
+    "loading": "Soodejinaya bulshooyinka...",
+    "empty": "Weli ma jiraan bulsho diwaan gasha.",
+    "noMatch": "Ma jiro bulsho u dhigma filtarradaada.",
+    "table": {
+      "community": "Bulshada",
+      "admin": "Admin",
+      "email": "iimaylka",
+      "status": "Xaalada",
+      "residents": "Dadka deegaanka",
+      "view": "Daawo"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Waa la rari waayay bulshadan Waxaa laga yaabaa in laga saaray.",
+    "statusUpdateError": "Ma cusboonaysiin kari waayay beeshan heerkeeda.",
+    "deleteError": "Waa la tirtiri waayay bulshadan.",
+    "loading": "Soodejinaya bulshada...",
+    "notFound": "Bulshada lama helin",
+    "backLink": "← Ku laabo Bulshooyinka",
+    "backLinkShort": "Ku laabo Bulshooyinka",
+    "eyebrow": "Xogta Bulshada",
+    "unnamed": "Beesha aan la magacaabin",
+    "noAddress": "Cinwaan kuma jiro faylka",
+    "stats": {
+      "residents": "Dadka deegaanka",
+      "status": "Xaalada"
+    },
+    "actions": {
+      "reactivate": "Dib u hawlgeli",
+      "block": "Block",
+      "terminate": "Jooji",
+      "delete": "Tirtir Bulshada"
+    },
+    "blockDialog": {
+      "title": "Jooji maamulka bulshadan?",
+      "message": "Block {{name}}? They will be unable to log in until unblocked. No data will be affected.",
+      "confirm": "Block"
+    },
+    "terminateDialog": {
+      "title": "Jooji maamulka bulshadan?",
+      "message": "Si joogto ah u jooji gelida {{name}}? Tan lama noqon karo, inkastoo xogta beeshooda loo hayn doono diiwaan ahaan.",
+      "confirm": "Jooji"
+    },
+    "deleteDialog": {
+      "title": "Ma tirtir beeshan?",
+      "message": "Tani waxay si joogto ah u tirtiri doontaa <strong>{{name}}</strong> iyo dhammaan qoysaskeeda, deganayaasha, mitirka, qaabaynta tacriifta/biilka, iyo taariikhda qaansheegta. Tallaabadan lama noqon karo.",
+      "typeToConfirm": "Nooca <strong>{{word}}</strong> si aad u sii wadato",
+      "confirm": "Xaqiiji"
+    },
+    "residents": {
+      "title": "Dadka deegaanka",
+      "registeredCount": "Diiwaangashan: {{count}}",
+      "empty": "Wali ma jiro dad deegaanka ah oo ka diiwaan gashan bulshadan.",
+      "table": {
+        "flatUnit": "Unug siman",
+        "meter": "Mitir",
+        "resident": "degane",
+        "email": "iimaylka",
+        "passwordSet": "Dejin Password-ka"
+      },
+      "yes": "Haa",
+      "no": "Maya"
+    },
+    "cancel": "Jooji",
+    "working": "shaqaynaysa…",
+    "deleting": "Tirtiraya…"
+  },
+  "systemStatus": {
+    "statusError": "Waa la gaari kari waayay dhabarka dambe si loo hubiyo heerka nidaamka",
+    "metricsError": "Ma rari karo taariikhda cabbirka",
+    "ranges": {
+      "fiveMinutes": "5 daqiiqo",
+      "fifteenMinutes": "15 daqiiqo",
+      "hour": "Saacad",
+      "day": "Maalinta",
+      "week": "Todobaadka",
+      "month": "Bisha",
+      "threeMonths": "3 bilood"
+    },
+    "uptime": {
+      "days": "{{value}} d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Codsiyada/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latency",
+      "lastValue": "{{value}} u dambeeya",
+      "loading": "Soodejinaya…",
+      "empty": "Ilaa hadda wax cabbir ah looma diiwaangelin xadkan."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Celcelis: <b>{{value}}</b>",
+      "max": "Ugu badnaan: <b>{{value}}</b>",
+      "last": "Dambe: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Hubinta…",
+      "reachable": "La gaari karo",
+      "unreachable": "Lama gaadhi karo",
+      "connected": "Ku xidhan",
+      "backendApiHint": "Boggan waxa laga soo raray dhabarka dambe, marka wuu ku jawaabay.",
+      "database": "Database",
+      "databaseHint": "Isku xirka PostgreSQL, si toos ah loo hubiyay.",
+      "uptime": "Wakhtiga Kordhinta",
+      "uptimeHint": "Tan iyo markii codsigii u dambeeyay dib u bilaabmay",
+      "appVersion": "Nooca App",
+      "appVersionHint": "Nooca dhismaha dhabarka."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Wuxuu akhriyaa Latency",
+      "writesLatency": "Wuxuu qoraa Latency",
+      "otherLatency": "Latency Kale",
+      "connections": "Xiriirinta",
+      "totalKeys": "Wadarta furayaasha"
+    },
+    "note": "Codsiyada/seknkii iyo daahitaanka ayaa laga soo qaadaa taraafikada tooska ah 15kii sekan kasta waxaana lagu hayaa ilaa 100 maalmood. Kani waa isku xidhka aasaasiga ah + hubinta taraafikada - ma bedelayso kormeerka waxqabadka codsiga oo buuxa, isku darka log, ama digniinta."
+  },
+  "reports": {
+    "loadError": "Waa la rari waayay warbixinta goobta",
+    "ranges": {
+      "threeMonths": "3 bilood",
+      "sixMonths": "6 bilood",
+      "twelveMonths": "12 bilood",
+      "custom": "Caado"
+    },
+    "sortOptions": {
+      "community": "Bulshada",
+      "usage": "Isticmaalka",
+      "billed": "Biil",
+      "residents": "Dadka deegaanka"
+    },
+    "customRange": {
+      "from": "Ka",
+      "to": "Ku",
+      "hint": "Dooro \"laga bilaabo\" iyo \"ilaa\" labadaba si aad ugu shubto warbixinta gaarka ah."
+    },
+    "loading": "Soo dejinaya warbixinta…",
+    "cards": {
+      "totalCommunities": "Wadarta Bulshooyinka",
+      "inThisRange": "Xadkan",
+      "totalResidents": "Wadarta dadka degan",
+      "acrossAllCommunities": "Bulshooyinka oo dhan",
+      "overallUsage": "Isticmaalka Guud",
+      "meteredConsumption": "Isticmaalka mitirka",
+      "overallBilled": "Guud ahaan waa la dalacsiiyay",
+      "finalizedInvoicesOnly": "Qaansheegyada la dhameeyay oo kaliya",
+      "avgUsagePerResident": "Celcelis ahaan Isticmaalka / Deganeyaasha",
+      "avgBillPerResident": "Celcelis ahaan biilka / deganaha"
+    },
+    "charts": {
+      "usageTitle": "Platform-wide Usage (kL / month)",
+      "usageEmpty": "Ma jiro isticmaal loo diiwaan geliyay xadkan.",
+      "usageSeries": "Isticmaalka",
+      "billedTitle": "Lacagta la soo dalacday (₹ / bishii)",
+      "billedEmpty": "Ma jiro qaan-sheegyo loo dhameeyay xadkan.",
+      "billedSeries": "Biil"
+    },
+    "searchPlaceholder": "Ku shaandhayso magaca beesha ama maamulka",
+    "empty": "Bulsho ma haysato xogta isticmaalka ama biilasha xadkan weli.",
+    "noMatch": "Ma jiro bulsho u dhigma filtarkaaga.",
+    "table": {
+      "community": "Bulshada",
+      "admin": "Admin",
+      "residents": "Dadka deegaanka",
+      "usage": "Usage (kL)",
+      "billed": "La soo dalacsiiyay (₹)",
+      "avgUsagePerResident": "Celcelis ahaan Isticmaalka / Deganeyaasha",
+      "avgBillPerResident": "Celcelis ahaan biilka / deganaha"
+    }
+  },
+  "supportTickets": {
+    "title": "Tigidhada taageerada",
+    "subtitle": "Taageerada tigidhada iyo walaacyada ay soo jeediyaan deganayaasha iyo maamulka bulshada, madal-ballaaran."
+  }
+}

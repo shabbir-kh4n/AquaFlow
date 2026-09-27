@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Ag teacht go luath",
+    "welcome": {
+      "greeting": "Dia duit {{name}},",
+      "greetingFallback": "Dia duit ann,",
+      "title": "Fan gar do scéal uisce do theach.",
+      "subtitle": "Beidh léargais úsáide agus billeála le feiceáil anseo agus do phobal ag taifead léamha.",
+      "viewBadges": "Féach ar Éicea-Suaitheantais"
+    },
+    "stats": {
+      "todaysUsage": "Úsáid an Lae Inniu",
+      "asOf": "Amhail {{date}}",
+      "noReading": "Gan léamh méadair fós",
+      "monthlyTotalFor": "Iomlán Míosúil ({{month}})",
+      "monthlyTotalThisMonth": "Iomlán Míosúil (an mhí seo)",
+      "sumOfReadings": "Suim na léamha taifeadta",
+      "estimatedBill": "An Bille Measta Reatha",
+      "estimatedBillFor": "Úsáid mhéadraithe + muirir chomhroinnte, {{month}}",
+      "estimatedBillHint": "Bunaithe ar thomhaltas méadraithe na míosa seo agus muirir chomhroinnte",
+      "savings": "Coigiltis vs Foirgníocht Meán Fómhair",
+      "savingsValue": "{{percent}} % Níos lú",
+      "savingsPreview": "Réamhamharc amháin - níl an chomparáid beo fós"
+    },
+    "consumption": {
+      "eyebrow": "Tomhaltas",
+      "title": "Tomhaltas Laethúil (14 léamh dheireanacha)",
+      "seriesName": "Tomhaltas",
+      "empty": "Níl aon léamh taifeadta go fóill."
+    },
+    "breakdown": {
+      "eyebrow": "Briseadh síos",
+      "title": "Miondealú Úsáide",
+      "bathroom": "Folctha",
+      "kitchen": "Cistin",
+      "garden": "Gairdín / BALCÓIN",
+      "other": "Eile / Níocháin"
+    },
+    "billing": {
+      "eyebrow": "Billeáil",
+      "title": "Timthriall Gníomhach Billeála",
+      "finalized": "Críochnaithe",
+      "preview": "Réamhamharc",
+      "meteredConsumption": "Tomhaltas méadraithe",
+      "tierPriceLevel": "Sraith leibhéal praghsanna",
+      "tierLabel": "Sraith {{tier}}",
+      "commonArea": "Cionroinnt limistéir choitinn",
+      "commonAreaPreview": "Cionroinnt limistéir choitinn (réamhamharc)",
+      "invoiceTotal": "{{period}} sonrasc san iomlán",
+      "estimatedCharge": "Muirear measta reatha",
+      "commonAreaBreakdown": "Miondealú limistéir choitianta",
+      "payPreview": "Réamhamhairc Bille Íoctha",
+      "payUnavailable": "Níl inneall billeála ar fáil fós"
+    },
+    "tips": {
+      "eyebrow": "Leideanna",
+      "title": "Leideanna um Choigilt Cliste",
+      "viewAll": "Féach ar fad",
+      "empty": "Tagann leideanna pearsantaithe anseo tar éis do do phobal timthriall billeála a thabhairt chun críche."
+    },
+    "community": "Pobal: {{name}}"
+  },
+  "usage": {
+    "loadError": "Níorbh fhéidir do stair úsáide a lódáil. Bain triail eile as.",
+    "loading": "Do anailísí úsáide á lódáil…",
+    "empty": "Níl aon léamh taifeadta go fóill. Nuair a thaifeadfaidh do phobal léamh méadair, taispeánfar anseo é.",
+    "tabs": {
+      "lastSixMonths": "6 Mhí anuas",
+      "customRange": "Raon an Chustaim",
+      "comingSoon": "Ag teacht go luath"
+    },
+    "peakDay": "Lá Buaic:",
+    "lowestDay": "Lá is ísle:",
+    "comparison": {
+      "title": "Tomhaltas Teaghlaigh vs Meán Árasáin",
+      "subtitle": "Taispeántar iomláin mhíosúla i gciliteoirí (kL).",
+      "yourHousehold": "Do Theaghlach",
+      "apartmentAverage": "Meán Apartment",
+      "similarSized": "Tithe Comhmhéide"
+    },
+    "heatmap": {
+      "title": "Léarscáil Teasa Tomhaltais Laethúil",
+      "subtitle": "Léiríonn déine dath laethanta úsáide trom (réamhamharc)."
+    },
+    "ranking": {
+      "title": "Rangú Piaraí Pobail",
+      "subtitle": "Do chéim i gcomparáid le haonaid chomhchosúla (réamhamharc).",
+      "ecoSaver": "Gníomhach Eco Saver",
+      "aptNumber": "Apt{{number}}",
+      "unitNumber": "Aonad{{number}}",
+      "yourUnit": "Do aonad",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (tú)"
+    }
+  },
+  "billing": {
+    "loadError": "Níorbh fhéidir do stair bhilleála a lódáil. Bain triail eile as.",
+    "pdfError": "Níorbh fhéidir an PDF a íoslódáil. Bain triail eile as.",
+    "loading": "Do stair bhilleála á lódáil…",
+    "empty": "Níl sonraisc ar bith fós - a luaithe a bheidh timthriall billeála tugtha chun críche ag do phobal, taispeánfar do bhillí anseo.",
+    "status": {
+      "paid": "Íoctha",
+      "unpaid": "Gan íoc"
+    },
+    "summary": {
+      "outstandingBalance": "Iarmhéid Gan Réiteach",
+      "billingCycle": "Timthriall Billeála: {{period}}",
+      "allPaid": "Íoctar gach sonrasc",
+      "payTotal": "Íoc Iomlán Gan Íoc",
+      "payTotalUnavailable": "Níl íocaíocht ar líne ar fáil go fóill - socraigh billí go díreach le do riarthóir pobail",
+      "downloadSummary": "Íosluchtaigh achoimre ar an dlí",
+      "downloadSummaryUnavailable": "Níl íoslódáil achoimre bille ar fáil fós"
+    },
+    "history": {
+      "title": "Stair Sonraisc",
+      "exportCsv": "Easpórtáil Uile go CSV",
+      "exportUnavailable": "CSV easpórtáil ar fáil fós"
+    },
+    "table": {
+      "cycle": "Rothaíocht",
+      "usage": "Úsáid (kL)",
+      "amountDue": "Méid Dlite",
+      "paymentStatus": "Stádas Íocaíochta",
+      "hideBreakdown": "Folaigh Miondealú ↑",
+      "showBreakdown": "Miondealú Mírithe ↓",
+      "downloading": "Ag íosluchtú…",
+      "pdf": "PDF",
+      "pay": "Íoc"
+    },
+    "breakdown": {
+      "householdTitle": "Miondealú ar Thomhaltas Teaghlaigh",
+      "basePrice": "Bunphraghas: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Sraith {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Úsáid Mhéadraithe Fo-iomlán",
+      "commonAreaTitle": "Cionroinnt Limistéir Choitinn",
+      "subtotalShared": "Limistéar Comhroinnte Fo-iomlán",
+      "noCommonArea": "Níl aon táillí comhlimistéir roinnte don timthriall seo."
+    },
+    "pagination": {
+      "showing": "Ag taispeáint {{from}}–{{to}} de {{total}}",
+      "prev": "← Roimhe seo",
+      "next": "Ar Aghaidh →",
+      "page": "Leathanach {{page}} de {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Modhanna íocaíochta (réamhamharc)",
+      "description": "Níl íocaíocht ar líne ar fáil go fóill - socraítear na billí go díreach le do riarthóir pobail.",
+      "manage": "Bainistigh Modhanna Íocaíochta",
+      "manageUnavailable": "Níl modhanna íocaíochta ar fáil fós"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Arna shlánú ag Razorpay",
+    "billingCycle": "Timthriall Billeála {{period}}",
+    "close": "Dún",
+    "amountPayable": "Méid Iníoctha",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Cártaí",
+      "netbanking": "Glanbhaincéireacht",
+      "wallet": "Sparán"
+    },
+    "upi": {
+      "title": "Íoc trí UPI",
+      "upiId": "UPI Aitheantas",
+      "or": "NÓ",
+      "scan": "Scan le haon UPI aip"
+    },
+    "card": {
+      "title": "Íoc trí Chárta",
+      "number": "Uimhir Chárta",
+      "expiry": "Éaga",
+      "expiryPlaceholder": "MM / BB",
+      "cvv": "CVV",
+      "name": "Ainm ar Chárta",
+      "namePlaceholder": "Mar a phriontáiltear ar chárta"
+    },
+    "netbanking": {
+      "title": "Íoc trí Netbanking"
+    },
+    "wallet": {
+      "title": "Íoc trí Sparán"
+    },
+    "payAmount": "Íoc ₹{{amount}}",
+    "processing": "D'íocaíocht á próiseáil…",
+    "processingHint": "Ná brúigh ar ais nó athnuaigh an leathanach seo",
+    "success": "D'éirigh leis an íocaíocht",
+    "error": "Tharla earráid agus d'íocaíocht á dheimhniú. Bain triail eile as.",
+    "retry": "Bain triail eile as"
+  },
+  "notifications": {
+    "loadError": "Níorbh fhéidir d'fhógraí a lódáil. Bain triail eile as.",
+    "loading": "D'fhógraí á lódáil…",
+    "empty": "Níl aon fhógraí ar bith fós - feicfidh tú rud éigin anseo má tá do riarthóir pobail tar éis foláirimh úsáide-tairseach nó neamhghnácha tomhaltais a chumasú agus má tá ceann spreagtha do do theaghlach.",
+    "type": {
+      "thresholdExceeded": "Sáraíodh an Tairseach Tomhaltais",
+      "statisticalOutlier": "Braitheadh ​​Tomhaltas Neamhghnách"
+    },
+    "status": {
+      "active": "Gníomhach",
+      "resolved": "Réitíodh",
+      "dismissed": "Briseadh as a phost"
+    },
+    "billingPeriod": "Tréimhse bhilleála: {{period}}",
+    "consumption": "Tomhaltas: {{value}} kL",
+    "push": {
+      "title": "Fógraí a bhrú",
+      "description": "Faigh fógra ar an ngléas seo nuair a thagann bille nó foláireamh nua isteach.",
+      "enable": "Cumasaigh",
+      "disable": "Díchumasaigh",
+      "permissionDenied": "Níor deonaíodh cead fógra.",
+      "notConfigured": "Níl fógraí brúigh cumraithe fós. Déan teagmháil le do riarthóir.",
+      "enableError": "Níorbh fhéidir fógraí brú a chumasú. Bain triail eile as.",
+      "disableError": "Níorbh fhéidir fógraí brú a dhíchumasú. Bain triail eile as."
+    }
+  },
+  "recommendations": {
+    "loadError": "Níorbh fhéidir do mholtaí a lódáil. Bain triail eile as.",
+    "loading": "Do leideanna pearsanta á lódáil…",
+    "generated": "Gineadh {{date}}",
+    "generatedForPeriod": "Ginte {{date}} don tréimhse bhilleála {{period}}",
+    "eyebrow": "Pearsanta ar do shon",
+    "title": "Leideanna Cliste um Choigilt Uisce",
+    "empty": "Níl aon leideanna ginte go fóill - déantar iad seo a athnuachan go huathoibríoch gach uair a thugann do phobal timthriall billeála chun críche do do theaghlach."
+  },
+  "support": {
+    "title": "Deasc Tacaíochta agus Imní Cónaitheoirí",
+    "subtitle": "Cuir isteach tuairiscí ar sceitheadh ​​uisce, iarratais ar chalabrú méadair, nó fiosrúcháin bhilleála go díreach chuig do riarthóir pobail agus/nó do Riarthóir Córais.",
+    "emptyCreateHint": "Déan cur síos thíos ar do cheist nó imní, agus roghnaigh cé ba chóir é a láimhseáil."
+  }
+}

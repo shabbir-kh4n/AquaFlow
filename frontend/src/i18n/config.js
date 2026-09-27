@@ -11,7 +11,9 @@ i18next
   .init({
     fallbackLng: 'en',
     supportedLngs: LANGUAGE_CODES,
-    ns: ['landing'],
+    // All namespaces load up front for the active language (only that language's files
+    // are fetched), so navigating between surfaces never re-suspends the app.
+    ns: ['landing', 'common', 'resident', 'admin', 'platform'],
     defaultNS: 'landing',
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',

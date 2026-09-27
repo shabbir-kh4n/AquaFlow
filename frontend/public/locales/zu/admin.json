@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Iyalayisha...",
+    "saving": "Iyalondoloza...",
+    "saved": "Kulondoloziwe.",
+    "uploading": "Iyalayisha...",
+    "upload": "Layisha",
+    "uploadError": "Ayikwazanga ukulayisha leli fayela. Sicela uzame futhi.",
+    "cancel": "Khansela",
+    "close": "Vala",
+    "edit": "Hlela",
+    "remove": "Susa",
+    "saveChanges": "Londoloza Izinguquko",
+    "bulkSummary": "Kucutshungulwe <b>{{total}}</b> imigqa — <b>{{success}}</b> kuphumelele, <b>{{failure}}</b> kuphumelele.",
+    "rowFailure": "Umugqa {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Ibonisa {{from}}–{{to}} kwe-{{total}}",
+    "prev": "← Okwedlule",
+    "next": "Okulandelayo →",
+    "page": "Ikhasi {{page}} kwangu-{{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ayikwazanga ukulayisha idatha yomphakathi wakho njengamanje.",
+    "title": "{{community}} Ideshibhodi Yefulethi",
+    "titleFallback": "Ideshibhodi Yendlu Yakho",
+    "subtitle": "Isifinyezo sokusebenza se-sub-metering yezinsiza zamanzi kanye nokusetshenziswa kwasekhaya.",
+    "comingSoon": "Kuyeza maduze",
+    "manageCommunity": "Phatha umphakathi",
+    "noUsageReadings": "Akukho ukufundwa kokusetshenziswa okurekhodiwe okwamanje.",
+    "cards": {
+      "totalHouseholds": "Ingqikithi Yemindeni",
+      "occupied": "Kumatasatasa",
+      "activeMeters": "Amamitha Asebenzayo",
+      "reportingReadings": "Ukubika ukufundwa",
+      "monthlyConsumption": "Ukusetshenziswa Kwenyanga",
+      "thisCalendarMonth": "Le nyanga yekhalenda",
+      "latestRecordedMonth": "Inyanga erekhodiwe yakamuva ({{month}})",
+      "noReadingsYet": "Akukho ukufundwa okurekhodiwe okwamanje",
+      "pendingAlerts": "Izaziso ezilindile",
+      "anomalyPreview": "Ukuhlola kuqala ukutholwa okudidayo — akukakatholakali"
+    },
+    "actions": {
+      "label": "Izenzo Zokuphatha Ezisheshayo",
+      "uploadReadings": "Layisha Ukufundwa Kwemitha",
+      "configureTariffs": "Lungiselela amanani",
+      "reportsNotBuilt": "Imibiko ayikakhiwe",
+      "downloadReports": "Landa Imibiko Yesistimu"
+    },
+    "chart": {
+      "title": "Ukuqhathaniswa kokusetshenziswa kwanyanga zonke (kL)",
+      "subtitle": "Izinyanga ezingu-{{months}} zokugcina: okuhlosiwe kuqhathaniswa nokusetshenziswa kwangempela.",
+      "targetSeries": "Ithagethi (buka kuqala)",
+      "actualSeries": "Okwangempela"
+    },
+    "recent": {
+      "title": "Ukufundwa Kwamamitha Kwakamuva",
+      "unit": "Iyunithi",
+      "resident": "Isakhamuzi",
+      "lastReading": "Ukufundwa Kokugcina",
+      "consumption": "Ukusetshenziswa"
+    }
+  },
+  "households": {
+    "loadError": "Ayikwazanga ukulayisha abahlali. Sicela uzame futhi.",
+    "fixFields": "Sicela ulungise izinkambu ezigqanyisiwe.",
+    "saveError": "Ayikwazanga ukulondoloza lesi sakhamuzi. Sicela uhlole imininingwane.",
+    "confirmRemove": "Susa i-{{name}} ohlwini lwemibhalo yezindlu zakho?",
+    "removeError": "Ayikwazanga ukususa lesi sakhamuzi. Sicela uzame futhi.",
+    "count": "Imindeni: {{total}}",
+    "bulkUploadButton": "⇪ Ukulayisha Ngenqwaba",
+    "addResidentButton": "+ Engeza Isakhamuzi",
+    "searchPlaceholder": "Hlunga ngegama, indlu, i-imeyili, noma inombolo yemitha.",
+    "loading": "Ilayisha abahlali...",
+    "empty": "Azikho izakhamizi okwamanje. Chofoza okuthi \"Engeza Isakhamuzi\" ukuze ubhalise umndeni wokuqala.",
+    "noMatch": "Azikho izakhamizi ezifana ne-\"{{search}}\".",
+    "sort": {
+      "label": "Hlunga nge",
+      "name": "Igama",
+      "houseNumber": "Inombolo Yendlu",
+      "dateOfJoining": "Usuku Lokujoyina",
+      "toggleDirection": "Guqula isiqondisindlela sokuhlunga",
+      "asc": "↑ I-Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Owesilisa",
+      "female": "Owesifazane",
+      "other": "Okunye"
+    },
+    "table": {
+      "name": "Igama",
+      "houseUnit": "Indlu / Iyunithi",
+      "email": "I-imeyili",
+      "phone": "Ucingo",
+      "meterNumber": "Imitha No.",
+      "sqft": "Sqft",
+      "joined": "Ujoyinile"
+    },
+    "form": {
+      "addTitle": "Engeza Isakhamuzi",
+      "editTitle": "Hlela Isakhamuzi",
+      "editSubtitle": "Lokhu kubuyekeza imininingwane yesakhamuzi ohlwini lwakho lwemibhalo.",
+      "bypassSubtitle": "Ubeka igama-mfihlo lalesi sakhamuzi ngqo. Ayikho i-imeyili ezothunyelwa.",
+      "addSubtitle": "Isixhumanisi se-set-password sizothunyelelwa lesi sakhamuzi nge-imeyili ukuze sikwazi ukwenza ukungena kwaso kusebenze.",
+      "fullName": "Igama eligcwele",
+      "houseNumber": "Indlu / iyunithi no.",
+      "email": "I-imeyili",
+      "phone": "Inombolo yocingo",
+      "meterNumber": "Inombolo yemitha",
+      "governmentId": "Umazisi kahulumeni",
+      "gender": "Ubulili",
+      "dateOfBirth": "Usuku lokuzalwa",
+      "dateOfJoining": "Idethi yokujoyina",
+      "flatSize": "Usayizi oyisicaba (sq ft)",
+      "bypassLabel": "I-imeyili ye-Bypass set-password — setha iphasiwedi yalesi sakhamuzi manje",
+      "password": "Iphasiwedi",
+      "confirmPassword": "Qinisekisa Iphasiwedi"
+    },
+    "validation": {
+      "fullNameRequired": "Igama eligcwele liyadingeka.",
+      "emailRequired": "I-imeyili iyadingeka.",
+      "phoneRequired": "Inombolo yocingo iyadingeka.",
+      "houseNumberRequired": "Kudingeka inombolo yendlu/yeyunithi.",
+      "houseNumberTaken": "Le nombolo yendlu isivele yabelwe omunye umhlali.",
+      "meterNumberRequired": "Inombolo yemitha iyadingeka.",
+      "meterNumberFormat": "Inombolo yemitha kufanele ibukeke njenge-MTR-1234 (amadijithi angu-4).",
+      "meterNumberTaken": "Le nombolo yemitha isivele yabelwe omunye umhlali.",
+      "governmentIdRequired": "I-ID kahulumeni iyadingeka.",
+      "governmentIdFormat": "I-ID kufanele ibe amadijithi ayi-6 aqala ngo-99 (isb. 991234).",
+      "genderRequired": "Sicela ukhethe ubulili.",
+      "dateOfBirthRequired": "Idethi yokuzalwa iyadingeka.",
+      "dateOfJoiningRequired": "Idethi yokujoyina iyadingeka.",
+      "passwordRequired": "Iphasiwedi iyadingeka.",
+      "passwordLength": "Iphasiwedi kumele okungenani ibe nezinhlamvu eziyi-8.",
+      "confirmPasswordRequired": "Sicela uqinisekise iphasiwedi.",
+      "passwordMismatch": "Amagama-mfihlo awafani."
+    },
+    "bulk": {
+      "title": "Abahlali Abalayishwa Ngenqwaba",
+      "noFile": "Sicela ukhethe ifayela elithi .csv noma .xlsx/.xls ozolilayisha.",
+      "instructions": "Layisha ifayela elithi .csv noma .xlsx/.xls elinamakholomu <code>{{columns}}</code> (iphasiwedi kanye ne-flatSizeSqft kokubili kuyakhethwa). Imigqa enephasiwedi iyibeka ngqo; imigqa ngaphandle kweyodwa ithola i-imeyili yokusetha iphasiwedi, okufana nokwengeza umhlali mathupha. Izinombolo zendlu/imitha eziyimpinda noma ama-imeyili anqatshwa umugqa ngamunye — umugqa owodwa omubi ngeke wehluleke yonke inqwaba."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ayikwazanga ukulayisha abahlali. Sicela uzame futhi.",
+    "historyLoadError": "Ayikwazanga ukulayisha umlando wokufunda. Sicela uzame futhi.",
+    "successMessage": "Kurekhodwe ngempumelelo ukufundwa kwe-{{value}} kL kokuthi {{house}} (Imitha: {{meter}})! Ukusetshenziswa okubaliwe: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ukungena Okukodwa",
+      "csv": "Inqwaba CSV Layisha",
+      "history": "Ukufunda Umlando"
+    },
+    "source": {
+      "manual": "Imanuwali",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Lesi sakhamuzi asinayo inombolo yemitha efayelini.",
+      "dateRequired": "Idethi yokufunda iyadingeka.",
+      "invalidValue": "Sicela ufake inani lokufunda elivumelekile, elingelona iqiniso.",
+      "duplicate": "Ukufundwa kwale mitha sekuvele kukhona ngalolo suku.",
+      "meterNotFound": "Le mitha ayitholakalanga. Sicela uphinde ukhethe umhlali.",
+      "lowerThanPrevious": "Lokhu kufundwa kuphansi kunokufundwa okurekhodiwe kwangaphambilini.",
+      "recordFailed": "Ayikwazanga ukurekhoda lokhu kufundwa. Sicela uzame futhi."
+    },
+    "combo": {
+      "label": "Khetha I-Flat & Meter Serial",
+      "placeholder": "Khetha I-Flat & Meter Serial...",
+      "flat": "Isicaba {{house}}",
+      "noMeter": "Ayikho imitha",
+      "searchPlaceholder": "Sesha inombolo yeflethi, inombolo yemitha, umhlali...",
+      "unitsHeader": "Izindawo zokuhlala",
+      "found": "Amafulethi atholakele: {{total}}",
+      "loading": "Ilayisha abahlali...",
+      "noMatch": "Azikho izakhamizi ezifana ne-\"{{search}}\".",
+      "unassigned": "Akunikeziwe",
+      "itemMeta": "{{name}} · Okokugcina: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Irekhoda ukufundwa kwe",
+      "context": "Indlu {{house}} · Imitha {{meter}}",
+      "changeResident": "Shintsha umhlali",
+      "readingDate": "Idethi yokufunda",
+      "readingValue": "Ukufundwa Kwemitha Yamanje (kL)",
+      "submit": "Thumela Ukufunda Okuqinisekisiwe",
+      "recentTitle": "Ukufundwa kwakamuva",
+      "recentEmpty": "Akukho ukufundwa okurekhodiwe okwamanje kule mitha."
+    },
+    "info": {
+      "title": "Ukuqinisekiswa Kwemitha ye-Monotonic",
+      "body": "Konke ukufundwa okusha kumelwe kube kukhulu noma kulingane nelogu yangaphambilini yaleyo mitha — lokhu kugcina izibalo zokusetshenziswa zinembile futhi kubamba amadijithi ashintshiwe kusenesikhathi."
+    },
+    "details": {
+      "title": "Imininingwane Yeyunithi Ekhethiwe",
+      "flatUnit": "Iyunithi eyisicaba",
+      "meterSerial": "I-Meter Serial",
+      "occupant": "Igama Lomhlali",
+      "lastDial": "Ukudayela Kokugcina Okurekhodiwe",
+      "noReadings": "Akukho ukufundwa okwamanje",
+      "monthConsumption": "Ukusetshenziswa Kwenyanga",
+      "empty": "Awukho umndeni okhethiwe. Sesha futhi ukhethe umhlali ukuze ubone imininingwane yawo yamamitha lapha."
+    },
+    "csv": {
+      "noFile": "Sicela ukhethe ifayela elingu-CSV ozolilayisha.",
+      "instructions": "Layisha i-CSV enamakholomu <code>{{columns}}</code>. Imigqa icutshungulwa ngokuzimela — umugqa owodwa omubi ngeke wehluleke yonke inqwaba."
+    },
+    "history": {
+      "loading": "Ilayisha ukufundwa...",
+      "empty": "Akukho ukufundwa okurekhodiwe okwamanje komphakathi wakho."
+    },
+    "table": {
+      "meterNumber": "Imitha No.",
+      "date": "Usuku",
+      "value": "Inani (kL)",
+      "consumption": "Ukusetshenziswa (kL)",
+      "source": "Umthombo"
+    }
+  },
+  "billingCycles": {
+    "title": "Imijikelezo Yokukhokha",
+    "loadError": "Ayikwazanga ukulayisha imijikelezo yokukhokha. Sicela uzame futhi.",
+    "paymentUpdateError": "Ayikwazanga ukubuyekeza isimo sokukhokha sale invoyisi.",
+    "pdfError": "Ayikwazanga ukulanda i-PDF. Sicela uzame futhi.",
+    "finalizeError": "Ayikwazanga ukuphothula lo mjikelezo wokukhokha.",
+    "archiveError": "Ayikwazanga ukufaka kungobo yomlando lo mjikelezo wokukhokha.",
+    "loading": "Ilayisha umjikelezo wokukhokha...",
+    "empty": "Ayikho imijikelezo yokukhokha okwamanje. Vula eyodwa ngenhla ukuze uqalise.",
+    "status": {
+      "open": "Vula",
+      "finalized": "Kuqediwe",
+      "archived": "Kufakwe kungobo yomlando"
+    },
+    "open": {
+      "title": "Vula Umjikelezo Omusha Wokukhokha",
+      "noMonth": "Sicela ukhethe inyanga ozoyivula.",
+      "error": "Ayikwazanga ukuvula umjikelezo wokukhokha waleyo nyanga.",
+      "monthAria": "Inyanga yesikhathi sokukhokha",
+      "opening": "Iyavula...",
+      "submit": "Vula umjikelezo"
+    },
+    "table": {
+      "period": "Isikhathi",
+      "status": "Isimo",
+      "householdsBilled": "Imindeni Ikhokhisiwe",
+      "totalBilled": "Isamba esikhokhisiwe",
+      "actions": "Izenzo"
+    },
+    "actions": {
+      "finalize": "Qeda",
+      "finalizing": "Iyaphetha...",
+      "archive": "Faka kungobo yomlando",
+      "archiving": "Igcina kungobo yomlando..."
+    },
+    "filter": {
+      "aria": "Hlunga ngesimo sokukhokha",
+      "all": "Konke"
+    },
+    "payment": {
+      "paid": "Ikhokhiwe",
+      "unpaid": "Okungakhokhelwa",
+      "updating": "Iyabuyekeza...",
+      "markPaid": "Maka njengekhokhiwe",
+      "markUnpaid": "Maka njengokungakakhokhelwa"
+    },
+    "detail": {
+      "title": "Imininingwane Yomjikelezo — {{period}}",
+      "loading": "Ilayisha ama-invoyisi...",
+      "notFinalized": "Lo mjikelezo awukaqedwa okwamanje - awekho ama-invoyisi akhiqiziwe.",
+      "noInvoices": "Awekho ama-invoyisi alo mjikelezo.",
+      "noMatch": "Awekho ama-invoyisi afana nalesi sihlungi."
+    },
+    "invoices": {
+      "household": "Umndeni",
+      "resident": "Isakhamuzi",
+      "meterNumber": "Imitha No.",
+      "consumption": "Ukusetshenziswa (kL)",
+      "tierBreakdown": "Ukuhlukaniswa kweTier",
+      "commonArea": "Indawo Evamile",
+      "total": "Ingqikithi",
+      "paymentStatus": "Isimo Sokukhokha",
+      "pdf": "PDF",
+      "baseLine": "Isisekelo: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Isigaba {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ayikwazanga ukulayisha ukucushwa kwentela",
+    "saveError": "Ayikwazanga ukulondoloza ukucushwa kwentela",
+    "chartTitle": "Izigaba Zesilinganiso Sokusetshenziswa Kwemitha Esebenzayo",
+    "axisNote": "Linganisa ngama- ₹/kL, imikhawulo ye-slab kokuthi kL",
+    "tableTitle": "Ithebula Lezigaba Zamanani",
+    "defaultRatesNote": "Ibonisa izilinganiso ezimisiwe — azikalondolozwa.",
+    "addTier": "+ Engeza Isigaba",
+    "saveRates": "Yonga Izilinganiso Zentela",
+    "tierLevel": {
+      "base": "Isigaba {{tier}} (Isisekelo)",
+      "medium": "Isigaba {{tier}} (Okumaphakathi)",
+      "heavy": "Isigaba {{tier}} (Sindayo)"
+    },
+    "basePrice": {
+      "label": "Intengo Eyisisekelo ( ₹ / kL, isetshenziswe kukho KONKE ukusetshenziswa)",
+      "note": "Yonke i-kL ikhokhiswa leli nani eliphansi kuqala. Ama-slabs angezansi engeza izindleko EZENGEZIWE kuphela zokusetshenziswa okuwela ngaphakathi kwebanga lazo — isb. i-slab eqala ku-50 kL yengeza kuphela izinga layo lokusetshenziswa ngaphezu kwama-50 kL."
+    },
+    "table": {
+      "tierLevel": "Izinga Lesigaba",
+      "slabLimit": "Umkhawulo we-Slab (kL)",
+      "rate": "Linganisa kL",
+      "action": "Isenzo"
+    },
+    "commonArea": {
+      "title": "Ukucushwa Kwezindleko Zendawo Ekwabelwana Ngayo",
+      "loadError": "Ayikwazanga ukulayisha ukulungiselelwa kwezindleko zendawo evamile",
+      "saveError": "Ayikwazanga ukulondoloza ukulungiselelwa kwezindleko zendawo evamile",
+      "empty": "Azikho izinto zezindleko ezilondoloziwe okwamanje.",
+      "labelPlaceholder": "Ilebula yento yezindleko",
+      "perMonth": "/ inyanga",
+      "active": "Iyasebenza",
+      "addItem": "+ Engeza Izindleko",
+      "save": "Londoloza Ukucushwa Kwendawo Evamile"
+    },
+    "distribution": {
+      "title": "Isikhethi Sendlela Yokusabalalisa Izindleko",
+      "consumption": "Ngokusetshenziswa (I-Sub-metered Proportional)",
+      "floorArea": "Ngosayizi Wefulethi Wefulethi (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Usuku Lokuqala Lokukhokhiswa Komjikelezo",
+      "cycleStartValue": "Oku-1 kweNyanga Zonke",
+      "autoInvoices": "Dala Ngokuzenzakalelayo PDF Ama-invoyisi"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Umkhawulo Weqile",
+      "statisticalOutlier": "I-Statistical Outlier"
+    },
+    "status": {
+      "active": "Iyasebenza",
+      "resolved": "Kuxazululiwe",
+      "dismissed": "Icashisiwe"
+    },
+    "config": {
+      "title": "Ukucushwa kokutholwa kokuvuza",
+      "subtitle": "Setha umkhawulo wokusetshenziswa wanyanga zonke kanye/noma unike amandla ukutholwa kokuphuma kwezibalo (umaka umuzi okusetshenziswa kwawo kwanyanga zonke kuphezulu ngokungavamile uma kuqhathaniswa nomlando wawo).",
+      "loadError": "Ayikwazanga ukulayisha ukucushwa kwesexwayiso. Sicela uzame futhi.",
+      "thresholdRequired": "I-threshold yanyanga zonke (kL) iyadingeka uma izexwayiso ze-threshold zinikwe amandla.",
+      "saveError": "Ayikwazanga ukulondoloza lokhu kulungiselelwa.",
+      "loading": "Ilayisha ukumisa...",
+      "threshold": "Umkhawulo wanyanga zonke (kL)",
+      "sensitivity": "Ukuzwela okungaphandle (isiphindaphinda)",
+      "enableThreshold": "Nika amandla izexwayiso ze-threshold",
+      "enableOutlier": "Nika amandla izexwayiso zezibalo",
+      "save": "Londoloza Ukucushwa",
+      "running": "Iyasebenza...",
+      "runNow": "Qalisa Ukuthola Manje"
+    },
+    "alerts": {
+      "title": "Imindeni Ehlatshwe umkhosi",
+      "loadError": "Ayikwazanga ukulayisha izexwayiso. Sicela uzame futhi.",
+      "runError": "Ayikwazanga ukuqalisa ukutholwa kokuvuza njengamanje. Sicela uzame futhi.",
+      "updateError": "Ayikwazanga ukubuyekeza lesi sexwayiso. Sicela uzame futhi.",
+      "allStatuses": "Zonke izimo",
+      "loading": "Ilayisha izexwayiso...",
+      "empty": "Azikho izexwayiso ezizoboniswa. Lungiselela i-threshold noma unike amandla ukutholwa kwangaphandle ngenhla, bese uchofoza okuthi \"Sebenzisa Ukuthola Manje\" ukuze uhlole ukusetshenziswa kwamanje komphakathi wakho.",
+      "resolve": "Xazulula",
+      "dismiss": "Cashisa"
+    },
+    "table": {
+      "household": "Umndeni",
+      "resident": "Isakhamuzi",
+      "meter": "Imitha",
+      "type": "Uhlobo",
+      "period": "Isikhathi",
+      "consumption": "Ukusetshenziswa",
+      "reference": "Ireferensi",
+      "status": "Isimo"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ayikwazanga ukulayisha ukuthengwa kwamanzi ngobuningi. Sicela uzame futhi.",
+    "confirmRemove": "Susa {{source}} ukulethwa ku-{{date}}?",
+    "removeError": "Ayikwazanga ukususa lokhu kuthenga. Sicela uzame futhi.",
+    "count": "Ukuthenga okurekhodiwe: {{total}}",
+    "recordButton": "+ Qopha Ukuthenga",
+    "loading": "Ilayisha ukuthengwa kwamanzi ngobuningi…",
+    "empty": "Akukho ukuthengwa kwamanzi amaningi okurekhodiwe okwamanje. Chofoza okuthi \"Rekhoda Ukuthengwa\" ukuze uloge ukulethwa kwethangi noma ukuthenga kokuhlinzekwa ngumasipala.",
+    "table": {
+      "date": "Usuku",
+      "source": "Umthombo",
+      "volume": "Ivolumu (L)",
+      "unitCost": "Izindleko zeyunithi",
+      "totalCost": "Izindleko Eziphelele",
+      "notes": "Amanothi"
+    },
+    "form": {
+      "addTitle": "Qopha Ukuthengwa Kwamanzi Ngobuningi",
+      "editTitle": "Hlela Ukuthengwa Kwamanzi Ngobuningi",
+      "subtitle": "Landela ngomkhondo ukulethwa kwamathangi noma okuthengiwe okuhlinzekwa ngumasipala komphakathi wakini - lokhu kuqoshwa ukuze kubonakale izindleko kuphela futhi akuthinti ama-invoyisi asekhaya.",
+      "requiredFields": "Sicela ugcwalise idethi, umthombo, ivolumu, neyunithi yezindleko.",
+      "saveError": "Ayikwazanga ukulondoloza lokhu kuthenga. Sicela uhlole imininingwane.",
+      "purchaseDate": "Idethi yokuthenga",
+      "source": "Umthombo / umphakeli",
+      "volume": "Ivolumu (amalitha)",
+      "unitCost": "Izindleko zeyunithi ( ₹/litha)",
+      "totalPreview": "Izindleko eziphelele: {{amount}}",
+      "notes": "Amanothi (ongakukhetha)",
+      "submit": "Qopha Ukuthenga"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ayikakhiwa",
+    "profileSaveError": "Ayikwazanga ukulondoloza iphrofayela yakho. Sicela uzame futhi.",
+    "apartmentSaveError": "Ayikwazanga ukulondoloza imininingwane yefulethi. Sicela uzame futhi.",
+    "specsTitle": "Imininingwane Yephrofayili",
+    "photoUnavailable": "Ukulayishwa kwesithombe akutholakali okwamanje",
+    "changePhoto": "Shintsha Isithombe",
+    "deletePhoto": "Susa",
+    "photoHint": "I-JPG noma i-PNG. Usayizi omkhulu 2MB.",
+    "saveProfile": "Londoloza Iphrofayela",
+    "apartmentTitle": "Imininingwane Yefulethini",
+    "saveApartment": "Gcina Imininingwane Yezindlu",
+    "tabs": {
+      "profile": "Izilungiselelo Zephrofayela",
+      "apartment": "Iphrofayili Yefulethi",
+      "notifications": "Imithetho Yezaziso",
+      "billing": "Ukuhlanganiswa Kwezinkokhelo",
+      "security": "Ukuphepha Nokufinyelela"
+    },
+    "fields": {
+      "fullName": "Igama eligcwele",
+      "email": "Ikheli le-imeyili",
+      "emailLocked": "I-imeyili ayikwazi ukushintshwa lapha",
+      "phone": "Inombolo yocingo",
+      "accessLevel": "Izinga Lokufinyelela",
+      "accessLevelValue": "Umphathi Womphakathi",
+      "roleLocked": "Ukuphatha indima akukatholakali",
+      "apartmentName": "Igama Lefulethi",
+      "mainsSource": "Mains Source",
+      "mainsSourcePlaceholder": "isib. Ukunikezwa Kwempahla Kamasipala + Amathangi Okwengeza",
+      "address": "Ikheli Lendawo"
+    },
+    "security": {
+      "title": "Ukuhlola kuqala Ukuphepha Nokufinyelela",
+      "twoFactor": "Ukuqinisekiswa Kwezinto Ezimbili",
+      "twoFactorHint": "Inikwe amandla ekungeneni ngemvume",
+      "twoFactorUnavailable": "Ukufakazela ubuqiniso kwezinto ezimbili akutholakali okwamanje",
+      "twoFactorAria": "Ukuqinisekiswa kwezinto ezimbili (buka kuqala kuphela)",
+      "sessionsLabel": "Izikhathi Zokuphatha Ezisebenzayo",
+      "sessionsEmpty": "Ukulandelela isikhathi akukatholakali — lokhu ukubuka kuqala kwesakhiwo esizayo."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Amathikithi Ami",
+      "inbox": "Amathikithi Ahlala"
+    },
+    "mine": {
+      "title": "Amathikithi Ami Okwesekwa",
+      "subtitle": "Phakamisa umbuzo noma ukukhathazeka mayelana nomphakathi wakho kuMphathi Wesistimu.",
+      "emptyCreateHint": "Phakamisa umbuzo noma ukukhathazeka ngomphakathi wakho. Umphathi Wesistimu uzobuyekeza futhi aphendule lapha."
+    },
+    "inbox": {
+      "title": "Amathikithi Ahlala",
+      "subtitle": "Amathikithi okusekela kanye nokukhathazeka izakhamuzi emphakathini wakho ezikubhekise kuwe."
+    }
+  }
+}

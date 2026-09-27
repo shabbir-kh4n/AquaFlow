@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Active",
+    "blocked": "Clausus",
+    "terminated": "terminabitur"
+  },
+  "sort": {
+    "sortBy": "Sort by",
+    "toggleDirection": "Toggle generis partem",
+    "asc": "Asc",
+    "desc": "Desc"
+  },
+  "pagination": {
+    "showing": "ostendens {{from}}-{{to}} de {{total}}",
+    "prev": "Prev",
+    "next": "Proxima →",
+    "page": "Page {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Overview",
+    "subtitle": "Omnis scripti communitas admin, per totum HydroLedger suggestum.",
+    "viewAll": "Omnes Communitates",
+    "loadError": "Non turpis diam nunc.",
+    "cards": {
+      "totalCommunities": "Communitates total",
+      "registeredAdmins": "Registered admins",
+      "totalResidents": "Summa Residentium",
+      "acrossAllCommunities": "Per omnes Communitates",
+      "active": "Active",
+      "inGoodStanding": "Bona stans",
+      "blockedTerminated": "Clausus / Terminated",
+      "blockedTerminatedBreakdown": "{{blocked}} interclusus, {{terminated}} terminatus"
+    },
+    "recent": {
+      "title": "Nuper Registered Communitates",
+      "loading": "Loading…",
+      "empty": "Nullae communitates descripserunt adhuc.",
+      "table": {
+        "community": "Communitas",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Residentibus"
+      }
+    }
+  },
+  "communities": {
+    "count": "Communitates: {{count}}",
+    "loadError": "Communitates onerare non potuit. Quaeso, iterum conare.",
+    "searchPlaceholder": "Colamentum a communitate, nomen admin vel electronica",
+    "statusFilter": {
+      "label": "Status",
+      "all": "All"
+    },
+    "sortOptions": {
+      "community": "Communitas",
+      "admin": "Admin",
+      "residents": "Residentibus"
+    },
+    "loading": "Communitates Loading…",
+    "empty": "Nullae communitates descripserunt adhuc.",
+    "noMatch": "Nullae communitates Filtra tua aequant.",
+    "table": {
+      "community": "Communitas",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Status",
+      "residents": "Residentibus",
+      "view": "Visum"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Communitas hanc onerare non potuit. Fieri remotum est.",
+    "statusUpdateError": "Status huius communitatis renovare non potuit.",
+    "deleteError": "Hanc communitatem delere non potuit.",
+    "loading": "Communitas Loading…",
+    "notFound": "Communitatem non inveni.",
+    "backLink": "Back to Communitates",
+    "backLinkShort": "Ad Communitates",
+    "eyebrow": "Community Profile",
+    "unnamed": "Sine nomine communitatis",
+    "noAddress": "Nulla oratio in lima",
+    "stats": {
+      "residents": "Residentibus",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Reactivate \"",
+      "block": "Obstructionum",
+      "terminate": "Terminare",
+      "delete": "Delere Community"
+    },
+    "blockDialog": {
+      "title": "Obstrue hanc civitatem admin?",
+      "message": "Obstruet {{name}}? Non poterunt aperiri donec unblocked. Nulla notitia affectus erit.",
+      "confirm": "Obstructionum"
+    },
+    "terminateDialog": {
+      "title": "Admin terminare hanc civitatem?",
+      "message": "Perpetuo {{name}} accessu terminatur? Id fieri non potest, quamquam notitia eorum communitatis in monumentis servabitur.",
+      "confirm": "Terminare"
+    },
+    "deleteDialog": {
+      "title": "Delere hanc civitatem?",
+      "message": "Hoc perpetuo delebit <strong>{{name}}</strong> omnesque eius familias, incolas, metra, figuram exosculationem omissorum, et historiae cautionem. Haec actio infectum fieri non potest.",
+      "typeToConfirm": "Typus <strong>{{word}}</strong> pergere",
+      "confirm": "Confirm"
+    },
+    "residents": {
+      "title": "Residentibus",
+      "registeredCount": "Descripserunt: {{count}}",
+      "empty": "Nullae incolas in hac communitate descripserunt adhuc.",
+      "table": {
+        "flatUnit": "Plana Unit",
+        "meter": "Meter",
+        "resident": "Incola",
+        "email": "Email",
+        "passwordSet": "Password Set"
+      },
+      "yes": "Ita",
+      "no": "No"
+    },
+    "cancel": "Cancel",
+    "working": "Operatio…",
+    "deleting": "Deletio…"
+  },
+  "systemStatus": {
+    "statusError": "Status ratio sisto backend pervenire non potuit.",
+    "metricsError": "Historiam metrice onerare non potuit.",
+    "ranges": {
+      "fiveMinutes": "5 Minuta",
+      "fifteenMinutes": "15 Minuta",
+      "hour": "Hora",
+      "day": "dies",
+      "week": "Hebdomada",
+      "month": "Mensis",
+      "threeMonths": "III Menses"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Petitiones/sec",
+      "opsPerSec": "Opis / sec",
+      "latency": "Latency",
+      "lastValue": "{{value}} ult",
+      "loading": "Loading…",
+      "empty": "No metri huius ambitus adhuc memorantur."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Reperiens…",
+      "reachable": "reachable",
+      "unreachable": "impossibile",
+      "connected": "Coniuncta",
+      "backendApiHint": "Haec pagina a backend onerata sic respondet.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL connectivity, repressit vivere.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Cum ultimam applicationem sileo.",
+      "appVersion": "App Version",
+      "appVersionHint": "Backend ædificare versionem."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Legit Latency",
+      "writesLatency": "Scribit Latency",
+      "otherLatency": "Alia Latency",
+      "connections": "hospites",
+      "totalKeys": "Summa Keys"
+    },
+    "note": "Petitiones/sec ac latency ex vivo backendi mercaturas omnes 15 secundis gustatis et usque ad 100 dies servantur. Hoc est fundamentalis connectivity + negotiatio perscriptio — plenam applicationem perficiendi vigilantiam non substituit, aggregationem log aut erectionem."
+  },
+  "reports": {
+    "loadError": "Non poterat onerare suggestum fama.",
+    "ranges": {
+      "threeMonths": "III Menses",
+      "sixMonths": "VI Menses",
+      "twelveMonths": "XII Menses",
+      "custom": "Consuetudinem"
+    },
+    "sortOptions": {
+      "community": "Communitas",
+      "usage": "Usage",
+      "billed": "Occisus",
+      "residents": "Residentibus"
+    },
+    "customRange": {
+      "from": "Ex",
+      "to": "Ad",
+      "hint": "Ambas a \"a\" et \"ad\" mensem carpere ut famae morem onerant."
+    },
+    "loading": "Loading fama…",
+    "cards": {
+      "totalCommunities": "Communitates total",
+      "inThisRange": "Hoc range",
+      "totalResidents": "Summa Residentium",
+      "acrossAllCommunities": "Per omnes Communitates",
+      "overallUsage": "Altiore Ritus",
+      "meteredConsumption": "Meted consummatio",
+      "overallBilled": "altiore inoptatus",
+      "finalizedInvoicesOnly": "Mercium modo finalized",
+      "avgUsagePerResident": "Avg Syntaxis / Residens",
+      "avgBillPerResident": "AVG Bill / Residens"
+    },
+    "charts": {
+      "usageTitle": "Rostra-wide Ritus (kL / mensis)",
+      "usageEmpty": "Nullus usus memoriae pro hoc ambitu.",
+      "usageSeries": "Usage",
+      "billedTitle": "Platform-late inoptatus amount (₹ / month)",
+      "billedEmpty": "Nullae cautiones ad hanc amplitudinem perficiendam.",
+      "billedSeries": "Occisus"
+    },
+    "searchPlaceholder": "Filter in conventu vel nomine admin",
+    "empty": "Nullae communitates habent usum vel notitia exosculatio pro hoc ambitu adhuc.",
+    "noMatch": "Communitates nullae tuae filtrum aequant.",
+    "table": {
+      "community": "Communitas",
+      "admin": "Admin",
+      "residents": "Residentibus",
+      "usage": "Usus (kL)",
+      "billed": "Occisus (₹)",
+      "avgUsagePerResident": "Avg Syntaxis / Residens",
+      "avgBillPerResident": "AVG Bill / Residens"
+    }
+  },
+  "supportTickets": {
+    "title": "Support Nullam",
+    "subtitle": "Support tesserae et sollicitudines a residentibus et communitatibus admins, suggestum-latum."
+  }
+}

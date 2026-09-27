@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktivan",
+    "blocked": "Blokirano",
+    "terminated": "Prekinuto"
+  },
+  "sort": {
+    "sortBy": "Sortiraj po",
+    "toggleDirection": "Prebaci smjer sortiranja",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Prikaz {{from}}–{{to}} od {{total}}",
+    "prev": "← Pret",
+    "next": "Dalje →",
+    "page": "Stranica {{page}} od {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Pregled platforme",
+    "subtitle": "Svaki registrovani administrator zajednice, na cijeloj HydroLedger platformi.",
+    "viewAll": "Prikaži sve zajednice",
+    "loadError": "Trenutno nije moguće učitati podatke platforme.",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "registeredAdmins": "Registrovani administratori",
+      "totalResidents": "Total Residents",
+      "acrossAllCommunities": "U svim zajednicama",
+      "active": "Aktivan",
+      "inGoodStanding": "Na dobroj poziciji",
+      "blockedTerminated": "Blokirano / prekinuto",
+      "blockedTerminatedBreakdown": "{{blocked}} blokirano, {{terminated}} prekinuto"
+    },
+    "recent": {
+      "title": "Nedavno registrovane zajednice",
+      "loading": "Učitavanje…",
+      "empty": "Još nije registrovana nijedna zajednica.",
+      "table": {
+        "community": "Zajednica",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Stanovnici"
+      }
+    }
+  },
+  "communities": {
+    "count": "Zajednice: {{count}}",
+    "loadError": "Nije moguće učitati zajednice. Molimo pokušajte ponovo.",
+    "searchPlaceholder": "Filtrirajte prema zajednici, imenu administratora ili emailu",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Sve"
+    },
+    "sortOptions": {
+      "community": "Zajednica",
+      "admin": "Admin",
+      "residents": "Stanovnici"
+    },
+    "loading": "Učitavanje zajednica…",
+    "empty": "Još nije registrovana nijedna zajednica.",
+    "noMatch": "Nijedna zajednica ne odgovara vašim filterima.",
+    "table": {
+      "community": "Zajednica",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Status",
+      "residents": "Stanovnici",
+      "view": "Pogled"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Nije moguće učitati ovu zajednicu. Možda je uklonjeno.",
+    "statusUpdateError": "Nije moguće ažurirati status ove zajednice.",
+    "deleteError": "Nije moguće izbrisati ovu zajednicu.",
+    "loading": "Učitavanje zajednice…",
+    "notFound": "Zajednica nije pronađena.",
+    "backLink": "← Povratak na Zajednice",
+    "backLinkShort": "Povratak na zajednice",
+    "eyebrow": "Profil zajednice",
+    "unnamed": "Neimenovana zajednica",
+    "noAddress": "Nema adrese u dosijeu",
+    "stats": {
+      "residents": "Stanovnici",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Ponovo aktiviraj",
+      "block": "Blokiraj",
+      "terminate": "Prekini",
+      "delete": "Izbriši zajednicu"
+    },
+    "blockDialog": {
+      "title": "Blokirati ovog administratora zajednice?",
+      "message": "Blokirati {{name}}? Neće se moći prijaviti dok ih ne odblokiraju. Nikakvi podaci neće biti pogođeni.",
+      "confirm": "Blokiraj"
+    },
+    "terminateDialog": {
+      "title": "Ukinuti ovog administratora zajednice?",
+      "message": "Trajno prekinuti pristup {{name}}? Ovo se ne može poništiti, iako će se podaci njihove zajednice čuvati za evidenciju.",
+      "confirm": "Prekini"
+    },
+    "deleteDialog": {
+      "title": "Izbrisati ovu zajednicu?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Potvrdi"
+    },
+    "residents": {
+      "title": "Stanovnici",
+      "registeredCount": "Registrovan: {{count}}",
+      "empty": "Još nema registrovanih stanovnika u ovoj zajednici.",
+      "table": {
+        "flatUnit": "Flat Unit",
+        "meter": "Meter",
+        "resident": "Resident",
+        "email": "Email",
+        "passwordSet": "Password Set"
+      },
+      "yes": "Da",
+      "no": "br"
+    },
+    "cancel": "Otkaži",
+    "working": "Radi…",
+    "deleting": "Brisanje…"
+  },
+  "systemStatus": {
+    "statusError": "Nije moguće doći do pozadine radi provjere statusa sistema.",
+    "metricsError": "Nije moguće učitati historiju metrike.",
+    "ranges": {
+      "fiveMinutes": "5 minuta",
+      "fifteenMinutes": "15 minuta",
+      "hour": "Sat",
+      "day": "Dan",
+      "week": "Sedmica",
+      "month": "Mjesec",
+      "threeMonths": "3 mjeseca"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Zahtjevi/sek",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latencija",
+      "lastValue": "{{value}} zadnji",
+      "loading": "Učitavanje…",
+      "empty": "Još uvijek nema zabilježenih metrika za ovaj raspon."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Provjera…",
+      "reachable": "Dostupan",
+      "unreachable": "Nedostupno",
+      "connected": "Povezano",
+      "backendApiHint": "Ova stranica se učitala sa pozadine, pa je odgovorila.",
+      "database": "Baza podataka",
+      "databaseHint": "PostgreSQL povezanost, provjereno uživo.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Od posljednjeg ponovnog pokretanja aplikacije.",
+      "appVersion": "Verzija aplikacije",
+      "appVersionHint": "Backend verzija verzije."
+    },
+    "mini": {
+      "latency": "Latencija",
+      "readsLatency": "Čita Latencija",
+      "writesLatency": "Zapisuje Latency",
+      "otherLatency": "Ostalo kašnjenje",
+      "connections": "Veze",
+      "totalKeys": "Total Keys"
+    },
+    "note": "Zahtjevi u sekundi i latencija se uzorkuju iz živog backend prometa svakih 15 sekundi i čuvaju do 100 dana. Ovo je osnovna povezanost + provjera prometa — ne zamjenjuje potpuno praćenje performansi aplikacije, agregaciju dnevnika ili upozorenje."
+  },
+  "reports": {
+    "loadError": "Nije moguće učitati izvještaj platforme.",
+    "ranges": {
+      "threeMonths": "3 mjeseca",
+      "sixMonths": "6 mjeseci",
+      "twelveMonths": "12 mjeseci",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Zajednica",
+      "usage": "Upotreba",
+      "billed": "Naplaćeno",
+      "residents": "Stanovnici"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "To",
+      "hint": "Odaberite i \"od\" i \"do\" mjesec da učitate prilagođeni izvještaj."
+    },
+    "loading": "Učitavanje izvještaja…",
+    "cards": {
+      "totalCommunities": "Total Communities",
+      "inThisRange": "U ovom rasponu",
+      "totalResidents": "Total Residents",
+      "acrossAllCommunities": "U svim zajednicama",
+      "overallUsage": "Ukupna upotreba",
+      "meteredConsumption": "Mjerna potrošnja",
+      "overallBilled": "Ukupno naplaćeno",
+      "finalizedInvoicesOnly": "Samo finalizirane fakture",
+      "avgUsagePerResident": "Prosj. upotreba / stanovnik",
+      "avgBillPerResident": "Prosj. račun/rezident"
+    },
+    "charts": {
+      "usageTitle": "Upotreba na cijeloj platformi (kL / mjesec)",
+      "usageEmpty": "Za ovaj raspon nije zabilježeno korištenje.",
+      "usageSeries": "Upotreba",
+      "billedTitle": "Naplaćeni iznos za cijelu platformu (₹ / mjesec)",
+      "billedEmpty": "Nema finaliziranih faktura za ovaj raspon.",
+      "billedSeries": "Naplaćeno"
+    },
+    "searchPlaceholder": "Filtrirajte po imenu zajednice ili administratora",
+    "empty": "Nijedna zajednica još nema podatke o korištenju ili naplati za ovaj raspon.",
+    "noMatch": "Nijedna zajednica ne odgovara vašem filteru.",
+    "table": {
+      "community": "Zajednica",
+      "admin": "Admin",
+      "residents": "Stanovnici",
+      "usage": "Upotreba (kL)",
+      "billed": "Naplaćeno (₹)",
+      "avgUsagePerResident": "Prosj. upotreba / stanovnik",
+      "avgBillPerResident": "Prosj. račun/rezident"
+    }
+  },
+  "supportTickets": {
+    "title": "Ulaznice za podršku",
+    "subtitle": "Ulaznice za podršku i zabrinutosti koje su iznijeli stanovnici i administratori zajednice, na cijeloj platformi."
+  }
+}

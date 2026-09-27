@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "ዕፁው",
+    "signUpTitle": "ማሕበረሰብኩም ኣመዝግቡ።",
+    "signInTitle": "እንቋዕ ብደሓን መጻእኩም",
+    "signUpSubtitle": "ነበርቲ ምምሕዳርን ሕሳብ ምኽፋልን ንምጅማር ናይ ማሕበረሰብ ኣድሚን ኣካውንት ምፍጣር።",
+    "signInSubtitle": "ኣጠቓቕማ ማይካን ሕሳብካን ንምርኣይ እቶ።"
+  },
+  "signIn": {
+    "errorFallback": "ክትኣቱ ኣይከኣልካን በጃኻ እንደገና ፈትን።",
+    "emailLabel": "ኢመይል",
+    "passwordLabel": "መሕለፊ ቓል",
+    "rememberMe": "ዘክሩኒ።",
+    "forgotPassword": "ፓስዎርድ ረሲዕካ?",
+    "submitting": "ኣብ ምእታው...",
+    "submit": "Sign In",
+    "noAccount": "ኣካውንት የብልካን?",
+    "signUpLink": "ተመዝገብ"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "ፓስዎርድታት ኣይሰማምዑን እዮም።",
+      "communityRequired": "ስም ማሕበረሰብ የድሊ።",
+      "termsRequired": "በጃኹም ንውዕል ኣገልግሎትን ፖሊሲ ውልቃዊ ሓበሬታን ተሰማምዑ።",
+      "fallback": "ኣካውንት ምፍጣር ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+    },
+    "hint": "ኣብዚ ናይ ማሕበረሰብ ኣድሚናት ጥራይ እዮም ዝምዝገቡ። ሓንሳብ ምስ ኣተኻ፡ ዝርዝር ነበርትኻ ባዕልኻ ክትውስኾ ኢኻ — ንሳቶም ባዕሎም ኣይምዝገቡን እዮም።",
+    "fullNameLabel": "ምሉእ ስም",
+    "emailLabel": "ኢመይል",
+    "phoneLabel": "ቁጽሪ ተሌፎን።",
+    "communityNameLabel": "ስም ማሕበረሰብ",
+    "passwordLabel": "መሕለፊ ቓል",
+    "confirmPasswordLabel": "ምልክት ቃል ኣረጋግጽ",
+    "agreeTerms": "<termsLink>ውዕል ኣገልግሎት</termsLink> ከምኡ’ውን <privacyLink>ፖሊሲ ብሕታዊነት</privacyLink> ይሰማማዕ እየ።",
+    "submitting": "ኣካውንት ምፍጣር...",
+    "submit": "ኣድሚን ኣካውንት ምፍጣር",
+    "haveAccount": "ድሮ ኣካውንት ኣለካ ድዩ?",
+    "signInLink": "ኣብ ውሽጢ ምእታው"
+  },
+  "installPrompt": {
+    "title": "ምትካል HydroLedger።",
+    "description": "ንቕልጡፍ ምብጻሕ ኣብ ናይ መጀመርታ ስክሪንካ ወስኸሉ።",
+    "dismiss": "ምስንባት",
+    "install": "ምግጣም"
+  },
+  "setPassword": {
+    "title": "ፓስዎርድካ ኣቐምጥ",
+    "loading": "ኣብ ምጽዓን...",
+    "subtitle": "ሰላም {{name}}፣ ን{{email}} ዝኸውን ፓስዎርድ ምረጽ HydroLedger ኣካውንትካ ንምንቅስቓስ።",
+    "errors": {
+      "invalidLink": "እዚ ሊንክ ትኽክል ኣይኮነን ወይ ግዜኡ ሓሊፉ እዩ።",
+      "tooShort": "ፓስዎርድ እንተወሓደ 8 ፊደላት ክኸውን ኣለዎ።",
+      "mismatch": "ፓስዎርድታት ኣይሰማምዑን እዮም።",
+      "fallback": "ምልክት ቃልካ ከቐምጥ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+    },
+    "passwordLabel": "መሕለፊ ቓል",
+    "confirmPasswordLabel": "ምልክት ቃል ኣረጋግጽ",
+    "submitting": "ምቕማጥ ምልክት ቃል...",
+    "submit": "ፓስዎርድ ኣቐምጥ & ምእታው"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger ተሓጋጋዚ",
+      "resident": "ብዛዕባ ኣካውንትካ ሕተት።",
+      "admin": "ሓጋዚ ማሕበረሰብ",
+      "platform": "ሓጋዚ መድረኽ",
+      "default": "ሓጋዚ"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger እንታይ እዩ?",
+        "tieredBilling": "ደረጃ ዘለዎ ሕሳብ ምኽፋል ብኸመይ ይሰርሕ?",
+        "leaks": "ምፍሳስ ብኸመይ ይፍለጥ?"
+      },
+      "resident": {
+        "billEstimate": "ናይ ሕጂ ግምት ሕሳበይ እንታይ እዩ?",
+        "alerts": "ዝኾነ ናይ ኣጠቓቕማ መጠንቀቕታ ኣለኒ ድዩ?",
+        "readings": "ኣብ ቀረባ እዋን ዝገበርክዎ ንባባት ቆጻሪ ኣርእዩ"
+      },
+      "admin": {
+        "households": "ክንደይ ገዛውቲ ኣለዋና?",
+        "billingCycles": "ኣብ ቀረባ እዋን ዝገበርናዮ ናይ ሕሳብ ዑደታት ዘርዝሩ",
+        "tariff": "ህሉው ትልሚ ታሪፍና እንታይ እዩ?"
+      },
+      "platform": {
+        "communities": "ኩሎም ዝተመዝገቡ ማሕበረሰባት ዘርዝሩ",
+        "usageReport": "ጸብጻብ ኣጠቓቕማ መድረኽ ኣርኢ",
+        "systemStatus": "ኩነታት ስርዓት ከመይ ኣሎ?"
+      }
+    },
+    "errors": {
+      "rateLimited": "መልእኽቲ ብቕልጡፍ ትሰድድ ኣለኻ - በጃኻ ቁሩብ ተጸበዮ እሞ እንደገና ፈትን።",
+      "unavailable": "እቲ ተሓጋጋዚ ንግዚኡ ኣይርከብን። በጃኹም ኣብ ሓጺር ግዜ ደጊምኩም ፈትኑ።",
+      "generic": "ነታ መልእኽቲ ምልኣኽ ገለ ነገር ተጋግዩ። በጃኹም ደጊምኩም ፈትኑ።"
+    },
+    "emptyHint": "ዝኾነ ሕተቱኒ - ናይ ባዕልኹም ዳታ ጥራይ እየ ክርኢ ዝኽእል።",
+    "closeAssistant": "ዕጹው ተሓጋጋዚ",
+    "openAssistant": "ክፉት ተሓጋጋዚ",
+    "inputPlaceholder": "መልእኽቲ ጽሓፍ...",
+    "inputLabel": "መልእኽቲ",
+    "send": "ስደድ"
+  },
+  "supportBoard": {
+    "defaultTitle": "ናይ ደገፍ ትኬት",
+    "defaultCreateLabel": "ሓድሽ ስክፍታ ምልዓል",
+    "status": {
+      "open": "ክፈት",
+      "inProgress": "ኣብ ምዕባለ ኣሎ።",
+      "resolved": "ተፈቲሑ",
+      "closed": "ተዓጽዩ ኣሎ።"
+    },
+    "tabs": {
+      "all": "ኩሉ ትኬት"
+    },
+    "recipients": {
+      "admin": "ማሕበረሰብ ኣድሚን",
+      "systemAdmin": "ስርዓት ኣድሚን",
+      "both": "ማሕበረሰብ ኣድሚን + ስርዓት ኣድሚን"
+    },
+    "roles": {
+      "resident": "ነባሪ",
+      "admin": "ኣድሚን"
+    },
+    "toRecipients": "ናብ፡ {{recipients}}",
+    "raisedByResident": "ብነባሪ ዝዓበየ {{name}}",
+    "raisedByAdmin": "ብኣድሚን {{name}} ዝተላዕለ።",
+    "refresh": "ምሕዳስ",
+    "stats": {
+      "openLabel": "ክፉት ጽሑፋት",
+      "openHint": "ዳግመ ግምት ንጽበ",
+      "inProgressLabel": "ኣብ ምዕባለ ኣሎ።",
+      "inProgressHint": "ኣብ ስራሕ ምህላው",
+      "resolvedLabel": "ተፈቲሑ",
+      "resolvedHint": "ብዓወት ተዓጽዩ።"
+    },
+    "searchPlaceholder": "ትኬት ብኣርእስቲ ድለዩ፣ ሕታም...",
+    "loadingTickets": "ትኬት ኣብ ምጽዓን...",
+    "empty": {
+      "title": "ናይ ደገፍ ትኬት ኣይተረኽበን።",
+      "body": "ኣብዚ እዋን እዚ ምስዚ ፍልተር ዝሰማማዕ ክፉት ወይ ዝተመዝገበ ናይ ደገፍ ሕቶታት የብልካን።",
+      "cta": "ስክፍታ ኣቕርቡ።"
+    },
+    "errors": {
+      "loadList": "ናይ ደገፍ ትኬት ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+      "loadDetail": "ነዛ ትኬት ክጽዕና ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+      "required": "ኣርእስትን መልእኽትን ክልቲኡ የድሊ።",
+      "recipientRequired": "እንተወሓደ ሓደ ተቐባሊ (Community Admin and/or System Admin) ምረጽ።",
+      "submitFallback": "ነዚ ትኬት ከቕርብ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+      "sendReply": "እዚ መልእኽቲ ክሰድድ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+      "updateStatus": "ነዚ ናይ ትኬት ኩነታት ክመሓየሽ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+    },
+    "form": {
+      "defaultHint": "ጉዳይኩም ወይ ስክፍታኹም ኣብ ታሕቲ ግለጹ።",
+      "subjectLabel": "ዋና",
+      "subjectPlaceholder": "ሓጺር ጽማቕ ጉዳይካ",
+      "messageLabel": "መልእኽቲ",
+      "messagePlaceholder": "እንታይ ይኸውን ከምዘሎ ብዝርዝር ግለጽ...",
+      "recipientsLabel": "ነዚ ስክፍታ ናብ...",
+      "cancel": "ሰርዝ",
+      "submitting": "ምቕራብ...",
+      "submit": "ትኬት ኣቕርቡ።"
+    },
+    "detail": {
+      "loading": "ትኬት ኣብ ምጽዓን...",
+      "replyPlaceholder": "መልሲ ጽሓፉ...",
+      "close": "ዕፁው",
+      "sending": "ምልኣኽ...",
+      "sendReply": "መልሲ ስደዱ"
+    }
+  },
+  "shell": {
+    "welcomeBack": "እንቋዕ ብደሓን መጻእኩም፣ {{name}}",
+    "openMenu": "ዝርዝር ክፈት",
+    "closeMenu": "ዝርዝር መግቢ ዕጸዎ።",
+    "logout": "ውጻእ",
+    "search": "ምድላይ",
+    "notifications": "መፍለጢታት"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "households": "ማውጫ ስድራቤታት",
+      "meterReadings": "ንባባት ሜትሮ",
+      "billing": "ምሕደራ ሕሳብ ምኽፋል",
+      "bulkPurchases": "ብጅምላ ዝግበር ዕድጊታት",
+      "reports": "ጸብጻባት",
+      "waterLeakage": "ምፍሳስ ማይ",
+      "support": "ደገፍ / ስክፍታታት",
+      "tariffPlans": "ትልምታት ታሪፍ",
+      "announcements": "ምልክታታት",
+      "profile": "መግለፂ"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "ቅጽበታዊ ስእሊ ናይ ማሕበረሰብኩም ኣብዚ ኣሎ።"
+      },
+      "households": {
+        "title": "ማውጫ ስድራቤታት",
+        "subtitle": "ኣብ ማሕበረሰብካ ዝነብሩ ነበርቲ ወስኽ፣ ኣመሓይሽ፣ ኣመሓድር።"
+      },
+      "meterReadings": {
+        "title": "ማይ ቆጻሪ ንባባት ማእከል",
+        "subtitle": "ነባሪ ድለዩን ንባብ ቆጻሪ ማይኦም መዝግቡን።"
+      },
+      "tariffPlans": {
+        "title": "ውቅር ታሪፍ",
+        "subtitle": "ንማሕበረሰብ ኣፓርታማኻ ደረጃታት ዘለዎ ገደብ ደረጃታት፡ ናይ ሓባር ናይ ሓባር-ከባቢ ወጻኢታትን ኣገባባት ምክፍፋልን ኣወሃህድ።"
+      },
+      "billing": {
+        "title": "ምሕደራ ሕሳብ ምኽፋል",
+        "subtitle": "ዑደታት ሕሳብ ምኽፋት ክፈት፣ ምዝዛምን ማህደርን፣ ከምኡ’ውን ንነፍሲ ​​ወከፍ ገዛ ብነጥቢ ዝተቐመጡ ፋክቱራት ምግምጋም።"
+      },
+      "bulkPurchases": {
+        "title": "ብጅምላ ዝግበር ዕድጊታት",
+        "subtitle": "ንማሕበረሰብኩም ዝኸውን ናይ ታንከራት ምብጻሕን ናይ ኮሙን ቀረብ ዕድጊታትን ምዝገባ።"
+      },
+      "waterLeakage": {
+        "title": "ምፍሳስ ማይ",
+        "subtitle": "ኣብ ደረትን ኣውትላይርን ዝተመርኮሰ ናይ ምፍሳስ መጠንቀቕታታት ምውቃር፣ ከምኡ’ውን ሰንደቕ ዕላማ ዝተገብረሎም ስድራቤታት ምግምጋም።"
+      },
+      "support": {
+        "title": "ደገፍ / ስክፍታታት",
+        "subtitle": "ናይ ገዛእ ርእስኻ ትኬት ናብ ሲስተም ኣድሚን ኣልዕል፣ ወይ ድማ ነበርትኻ ዝቐረቡልካ ስክፍታታት ኣተሓሕዞ።"
+      },
+      "profile": {
+        "title": "ቅጥዕታትን ፕሮፋይልን",
+        "subtitle": "ዝርዝር ኣካውንትካን ሓበሬታ ኣፓርታማኻን ኣመሓድር።"
+      }
+    },
+    "fallbackName": "ኣድሚን",
+    "fallbackCommunity": "ማሕበረሰብ ኣድሚን",
+    "notBuilt": "{{label}} ገና ኣይተሃንጸን።",
+    "searchPlaceholder": "ዝኾነ ነገር ድለዩ..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "ጸብጻባት",
+      "description": "ንማሕበረሰብካ ዝኸውን ጸብጻባት ሃልኪ፡ ሕሳብን ዕቃበን።"
+    },
+    "announcements": {
+      "title": "ምልክታታት",
+      "description": "ንነበርትኹም ብደረጃ ማሕበረሰብ ዝምልከት ምልክታታት ስደዱ።"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ኣብ ቀረባ እዋን ይመጽእ ኣሎ።"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "usageHistory": "ታሪኽ ኣጠቓቕማ",
+      "bills": "ናተይ ሕሳብ",
+      "recommendations": "ለበዋታት",
+      "reports": "ጸብጻባት",
+      "support": "ደገፍ / ስክፍታታት",
+      "notifications": "መፍለጢታት",
+      "profile": "መግለፂ"
+    },
+    "pages": {
+      "usageHistory": "ናይ ኣጠቓቕማ ታሪኽካ",
+      "billing": "ሕሳብ ምኽፋልን ፋክቱራትን",
+      "notifications": "መፍለጢታት",
+      "recommendations": "ለበዋታት",
+      "support": "ደገፍ / ስክፍታታት"
+    },
+    "defaultTitle": "ነባሪ ዳሽቦርድ",
+    "navLabel": "ነባሪ ምጉዓዝ",
+    "fallbackName": "ነባሪ",
+    "unit": "ኣሃዱ {{number}}።",
+    "comingSoon": "{{label}} ኣብ ቀረባ እዋን ይመጽእ ኣሎ።",
+    "profile": "መግለፂ",
+    "searchPlaceholder": "ትንታነታት ምድላይ፣ ሕሳብ..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "communities": "ማሕበረሰባት",
+      "reports": "ጸብጻባት",
+      "supportTickets": "ናይ ደገፍ ትኬት",
+      "systemStatus": "ኩነታት ስርዓት"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "ኣብ መላእ ነፍሲ ወከፍ ዝተመዝገበ ማሕበረሰብ መድረኽ-ዓቐን ቅጽበታዊ ስእሊ።"
+      },
+      "communities": {
+        "title": "ማሕበረሰባት",
+        "subtitle": "ኩሉ ዝተመዝገበ ኣድሚን ማሕበረሰብን ማሕበረሰቡን፣ ኣብ ሓደ ቦታ።"
+      },
+      "reports": {
+        "title": "ጸብጻባት",
+        "subtitle": "ፕላትፎርም-ዓቐን ኣጠቓቕማ ማይን ኣሃዛት ሕሳብን፡ ብማሕበረሰብን ምስ ግዜን።"
+      },
+      "supportTickets": {
+        "title": "ናይ ደገፍ ትኬት",
+        "subtitle": "ብነበርትን ኣድሚናት ማሕበረሰብን ዝለዓሉ ትኬታትን ስክፍታታትን ደገፍ፣ ብደረጃ መድረኽ።"
+      },
+      "systemStatus": {
+        "title": "ኩነታት ስርዓት",
+        "subtitle": "ባክኤንድ ምትእስሳርን መሰረታዊ ናይ ምዝዋር ግዜ ጥዕናን።"
+      }
+    },
+    "fallbackName": "ስርዓት ኣድሚን",
+    "platformOwner": "ወናኒ መድረኽ",
+    "searchPlaceholder": "ማሕበረሰባት ድለዩ..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "ቋንቋ፡ {{language}}",
+    "searchPlaceholder": "ቋንቋ ምድላይ...",
+    "noMatches": "ዝኾነ ምትእስሳር የለን"
+  }
+}

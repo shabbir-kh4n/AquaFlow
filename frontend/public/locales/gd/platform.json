@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Gnìomhach",
+    "blocked": "Air a bhacadh",
+    "terminated": "Crìochnaichte"
+  },
+  "sort": {
+    "sortBy": "Deasaich a rèir",
+    "toggleDirection": "Tog an t-slighe seòrsachaidh",
+    "asc": "↑ Asc",
+    "desc": "↓ Deasg"
+  },
+  "pagination": {
+    "showing": "A' sealltainn {{from}}–{{to}} de {{total}}",
+    "prev": "← Mu dheireadh",
+    "next": "Air adhart →",
+    "page": "Duilleag {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Sealladh farsaing air an àrd-ùrlar",
+    "subtitle": "A h-uile rianadair coimhearsnachd clàraichte, thairis air an àrd-ùrlar HydroLedger gu lèir.",
+    "viewAll": "Seall a h-uile Coimhearsnachd",
+    "loadError": "Cha b' urrainn dhuinn dàta an àrd-ùrlair a luchdachadh an-dràsta fhèin.",
+    "cards": {
+      "totalCommunities": "Coimhearsnachdan Iomlan",
+      "registeredAdmins": "Luchd-rianachd clàraichte",
+      "totalResidents": "Luchd-còmhnaidh iomlan",
+      "acrossAllCommunities": "Thar gach coimhearsnachd",
+      "active": "Gnìomhach",
+      "inGoodStanding": "Ann an deagh chàileachd",
+      "blockedTerminated": "Air a bhacadh / air a chrìochnachadh",
+      "blockedTerminatedBreakdown": "{{blocked}} air a bhacadh, {{terminated}} air a bhacadh"
+    },
+    "recent": {
+      "title": "Coimhearsnachdan a chaidh a chlàradh o chionn ghoirid",
+      "loading": "A’ luchdachadh…",
+      "empty": "Chan eil coimhearsnachdan clàraichte fhathast.",
+      "table": {
+        "community": "Coimhearsnachd",
+        "admin": "Rianachd",
+        "status": "Inbhe",
+        "residents": "Luchd-còmhnaidh"
+      }
+    }
+  },
+  "communities": {
+    "count": "Coimhearsnachdan: {{count}}",
+    "loadError": "Cha b' urrainn dhuinn coimhearsnachdan a luchdachadh. Feuch ris a-rithist.",
+    "searchPlaceholder": "Criathraich a-rèir coimhearsnachd, ainm rianaire, no post-d",
+    "statusFilter": {
+      "label": "Inbhe",
+      "all": "Uile"
+    },
+    "sortOptions": {
+      "community": "Coimhearsnachd",
+      "admin": "Rianachd",
+      "residents": "Luchd-còmhnaidh"
+    },
+    "loading": "A’ luchdachadh coimhearsnachdan…",
+    "empty": "Chan eil coimhearsnachdan clàraichte fhathast.",
+    "noMatch": "Chan eil coimhearsnachdan sam bith a' freagairt ris na criathragan agad.",
+    "table": {
+      "community": "Coimhearsnachd",
+      "admin": "Rianachd",
+      "email": "Post-d",
+      "status": "Inbhe",
+      "residents": "Luchd-còmhnaidh",
+      "view": "Sealladh"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Cha b' urrainn dhuinn a' choimhearsnachd seo a luchdadh. Is dòcha gun deach a thoirt air falbh.",
+    "statusUpdateError": "Cha b' urrainn dhuinn inbhe na coimhearsnachd seo ùrachadh.",
+    "deleteError": "Cha b' urrainn dhuinn a' choimhearsnachd seo a sguabadh às.",
+    "loading": "A’ luchdachadh coimhearsnachd…",
+    "notFound": "Coimhearsnachd nach deach a lorg.",
+    "backLink": "← Air ais gu Coimhearsnachdan",
+    "backLinkShort": "Air ais gu Coimhearsnachdan",
+    "eyebrow": "Pròifil Coimhearsnachd",
+    "unnamed": "Coimhearsnachd gun ainm",
+    "noAddress": "Chan eil seòladh air an fhaidhle",
+    "stats": {
+      "residents": "Luchd-còmhnaidh",
+      "status": "Inbhe"
+    },
+    "actions": {
+      "reactivate": "Dèan ath-ghnìomhachadh",
+      "block": "Bloc",
+      "terminate": "Crìochnaich",
+      "delete": "Sguab às Coimhearsnachd"
+    },
+    "blockDialog": {
+      "title": "Cuir stad air an rianaire coimhearsnachd seo?",
+      "message": "Am bacadh {{name}}? Cha bhith e comasach dhaibh logadh a-steach gus an tèid a bhacadh. Cha bhi buaidh air dàta sam bith.",
+      "confirm": "Bloc"
+    },
+    "terminateDialog": {
+      "title": "Cuir crìoch air an rianachd coimhearsnachd seo?",
+      "message": "Cuir crìoch air ruigsinneachd {{name}} gu buan? Chan urrainnear seo a chuir dheth, ged a thèid dàta na coimhearsnachd aca a chumail airson clàran.",
+      "confirm": "Crìochnaich"
+    },
+    "deleteDialog": {
+      "title": "Sguab às a' choimhearsnachd seo?",
+      "message": "Sguabaidh seo às gu buan <strong>{{name}}</strong> agus a dhachaighean gu lèir, luchd-còmhnaidh, meatairean, rèiteachadh taraifean/bilean, agus eachdraidh fàirdeal. Chan urrainnear an gnìomh seo a chuir dheth.",
+      "typeToConfirm": "Seòrsa <strong>{{word}}</strong> gus leantainn air adhart",
+      "confirm": "Dearbhaich"
+    },
+    "residents": {
+      "title": "Luchd-còmhnaidh",
+      "registeredCount": "Clàraichte: {{count}}",
+      "empty": "Chan eil luchd-còmhnaidh clàraichte sa choimhearsnachd seo fhathast.",
+      "table": {
+        "flatUnit": "Aonad còmhnard",
+        "meter": "Meatair",
+        "resident": "Còmhnaidh",
+        "email": "Post-d",
+        "passwordSet": "Seata facal-faire"
+      },
+      "yes": "Tha",
+      "no": "Chan eil"
+    },
+    "cancel": "Sguir dheth",
+    "working": "Ag obair…",
+    "deleting": "A’ sguabadh às…"
+  },
+  "systemStatus": {
+    "statusError": "Cha b' urrainn dhuinn an backend a ruighinn gus inbhe an t-siostaim a dhearbhadh.",
+    "metricsError": "Cha b' urrainn dhuinn eachdraidh metrics a luchdachadh.",
+    "ranges": {
+      "fiveMinutes": "5 mionaidean",
+      "fifteenMinutes": "15 mionaidean",
+      "hour": "Uair",
+      "day": "Latha",
+      "week": "Seachdain",
+      "month": "Mìos",
+      "threeMonths": "3 Mìosan"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Iarrtasan/diog",
+      "opsPerSec": "Ops/diog",
+      "latency": "Laitency",
+      "lastValue": "{{value}} mu dheireadh",
+      "loading": "A’ luchdachadh…",
+      "empty": "Chan eil metrics air an clàradh airson an raoin seo fhathast."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Mu dheireadh: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "A’ sgrùdadh…",
+      "reachable": "Ruigsinneach",
+      "unreachable": "Neo-ruigsinneach",
+      "connected": "Ceangailte",
+      "backendApiHint": "Chaidh an duilleag seo a luchdachadh bhon deireadh-sheachdain, mar sin fhreagair e.",
+      "database": "Stòr-dàta",
+      "databaseHint": "Ceangal PostgreSQL, air a sgrùdadh beò.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Bhon ath-thòisich an tagradh mu dheireadh.",
+      "appVersion": "Tionndadh App",
+      "appVersionHint": "Tionndadh togail cùl-fhiosrachaidh."
+    },
+    "mini": {
+      "latency": "Laitency",
+      "readsLatency": "Leughadh Latency",
+      "writesLatency": "A 'sgrìobhadh Latency",
+      "otherLatency": "Latency eile",
+      "connections": "Ceanglaichean",
+      "totalKeys": "Iuchraichean iomlan"
+    },
+    "note": "Bithear a’ samplachadh iarrtasan / diog agus latency bho thrafaig backend beò gach 15 diog agus air an cumail airson suas ri 100 latha. Is e ceangal bunaiteach + sgrùdadh trafaic a tha seo - chan eil e a’ dol an àite làn sgrùdadh dèanadais tagraidh, cruinneachadh logaichean, no rabhadh."
+  },
+  "reports": {
+    "loadError": "Cha b' urrainn dhuinn an aithisg àrd-ùrlair a luchdadh.",
+    "ranges": {
+      "threeMonths": "3 Mìosan",
+      "sixMonths": "6 Mios",
+      "twelveMonths": "12 Mios",
+      "custom": "Gnàthach"
+    },
+    "sortOptions": {
+      "community": "Coimhearsnachd",
+      "usage": "Cleachdadh",
+      "billed": "Bile",
+      "residents": "Luchd-còmhnaidh"
+    },
+    "customRange": {
+      "from": "Bho",
+      "to": "Gu",
+      "hint": "Tagh an dà chuid mìos “bho” agus “gu” gus aithisg àbhaisteach a luchdachadh."
+    },
+    "loading": "A’ luchdachadh aithisg…",
+    "cards": {
+      "totalCommunities": "Coimhearsnachdan Iomlan",
+      "inThisRange": "Anns an raon seo",
+      "totalResidents": "Luchd-còmhnaidh iomlan",
+      "acrossAllCommunities": "Thar gach coimhearsnachd",
+      "overallUsage": "Cleachdadh iomlan",
+      "meteredConsumption": "Caitheamh meadhanach",
+      "overallBilled": "Gu h-iomlan air a chlàradh",
+      "finalizedInvoicesOnly": "Fàirdealan crìochnaichte a-mhàin",
+      "avgUsagePerResident": "Avg Cleachdadh / Neach-còmhnaidh",
+      "avgBillPerResident": "Avg Bill / Neach-còmhnaidh"
+    },
+    "charts": {
+      "usageTitle": "Cleachdadh air feadh an àrd-ùrlair (kL / mìos)",
+      "usageEmpty": "Cha deach cleachdadh sam bith a chlàradh airson an raoin seo.",
+      "usageSeries": "Cleachdadh",
+      "billedTitle": "Suim bileachaidh air feadh àrd-ùrlar (₹ / mìos)",
+      "billedEmpty": "Cha deach fàirdealan a thoirt gu crìch airson an raoin seo.",
+      "billedSeries": "Bile"
+    },
+    "searchPlaceholder": "Criathraich a-rèir ainm coimhearsnachd no rianachd",
+    "empty": "Chan eil dàta cleachdaidh no bileachaidh aig coimhearsnachdan sam bith airson an raoin seo fhathast.",
+    "noMatch": "Chan eil coimhearsnachdan sam bith a' freagairt ris a' chriathrag agad.",
+    "table": {
+      "community": "Coimhearsnachd",
+      "admin": "Rianachd",
+      "residents": "Luchd-còmhnaidh",
+      "usage": "Cleachdadh (kL)",
+      "billed": "Bile (₹)",
+      "avgUsagePerResident": "Avg Cleachdadh / Neach-còmhnaidh",
+      "avgBillPerResident": "Avg Bill / Neach-còmhnaidh"
+    }
+  },
+  "supportTickets": {
+    "title": "Tiogaidean taic",
+    "subtitle": "Cuir taic ri tiogaidean agus draghan a thog luchd-còmhnaidh agus luchd-rianachd coimhearsnachd, air feadh an àrd-ùrlair."
+  }
+}

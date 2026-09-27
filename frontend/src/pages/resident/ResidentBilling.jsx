@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { downloadMyInvoicePdf, getMyInvoices, payInvoice } from '../../api/billingApi'
 import { Icon } from '../../components/resident/Icon'
 import { downloadBlob } from '../../utils/downloadFile'
@@ -8,6 +9,7 @@ import './ResidentBilling.css'
 const PAGE_SIZE = 10
 
 function ResidentBilling() {
+  const { t } = useTranslation('resident')
   const [invoices, setInvoices] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -20,9 +22,9 @@ function ResidentBilling() {
   useEffect(() => {
     getMyInvoices()
       .then(setInvoices)
-      .catch(() => setError('Could not load your billing history. Please try again.'))
+      .catch(() => setError(t('billing.loadError')))
       .finally(() => setLoading(false))
-  }, [])
+  }, [t])
 
   function handlePaymentSuccess(invoiceId) {
     return payInvoice(invoiceId).then((updated) => {
@@ -46,12 +48,12 @@ function ResidentBilling() {
     setDownloadingId(invoice.id)
     downloadMyInvoicePdf(invoice.id)
       .then((blob) => downloadBlob(blob, `invoice-${invoice.periodMonth}.pdf`))
-      .catch(() => setPdfError('Could not download the PDF. Please try again.'))
+      .catch(() => setPdfError(t('billing.pdfError')))
       .finally(() => setDownloadingId(null))
   }
 
   if (loading) {
-    return <p className="af-bills__empty">Loading your billing history…</p>
+    return <p className="af-bills__empty">{t('billing.loading')}</p>
   }
 
   if (error) {
@@ -62,7 +64,7 @@ function ResidentBilling() {
     return (
       <div className="af-bills__panel">
         <p className="af-bills__empty">
-          No invoices yet — once your community finalizes a billing cycle, your bills will show up here.
+          {t('billing.empty')}
         </p>
       </div>
     )
@@ -76,13 +78,13 @@ function ResidentBilling() {
     <>
       <section className="af-bills__summary">
         <div className="af-bills__summary-main">
-          <p className="af-bills__eyebrow">Outstanding Balance</p>
+          <p className="af-bills__eyebrow">{t('billing.summary.outstandingBalance')}</p>
           <h2>₹{outstandingBalance.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</h2>
           <p className="af-bills__summary-sub">
-            {latestUnpaid ? `Billing Cycle: ${latestUnpaid.periodMonth}` : 'All invoices are paid'}
+            {latestUnpaid ? t('billing.summary.billingCycle', { period: latestUnpaid.periodMonth }) : t('billing.summary.allPaid')}
           </p>
           <span className={`af-bills__badge af-bills__badge--${latestUnpaid ? 'unpaid' : 'paid'}`}>
-            {latestUnpaid ? 'Unpaid' : 'Paid'}
+            {latestUnpaid ? t('billing.status.unpaid') : t('billing.status.paid')}
           </span>
         </div>
         <div className="af-bills__summary-actions">
@@ -90,26 +92,26 @@ function ResidentBilling() {
             type="button"
             className="af-bills__cta"
             disabled
-            title="Online payment isn't available yet — settle bills with your community admin directly"
+            title={t('billing.summary.payTotalUnavailable')}
           >
-            Pay Total Outstanding
+            {t('billing.summary.payTotal')}
           </button>
           <button
             type="button"
             className="af-bills__cta af-bills__cta--outline"
             disabled
-            title="Bill summary download isn't available yet"
+            title={t('billing.summary.downloadSummaryUnavailable')}
           >
-            Download Bill Summary
+            {t('billing.summary.downloadSummary')}
           </button>
         </div>
       </section>
 
       <section className="af-bills__panel">
         <div className="af-bills__panel-heading">
-          <h3>Invoice History</h3>
-          <button type="button" className="af-bills__export" disabled title="CSV export isn't available yet">
-            Export All to CSV
+          <h3>{t('billing.history.title')}</h3>
+          <button type="button" className="af-bills__export" disabled title={t('billing.history.exportUnavailable')}>
+            {t('billing.history.exportCsv')}
           </button>
         </div>
         {pdfError && <div className="af-bills__error af-bills__error--inline">{pdfError}</div>}
@@ -117,10 +119,10 @@ function ResidentBilling() {
           <table className="af-bills__table">
             <thead>
               <tr>
-                <th>Cycle</th>
-                <th>Usage (kL)</th>
-                <th>Amount Due</th>
-                <th>Payment Status</th>
+                <th>{t('billing.table.cycle')}</th>
+                <th>{t('billing.table.usage')}</th>
+                <th>{t('billing.table.amountDue')}</th>
+                <th>{t('billing.table.paymentStatus')}</th>
                 <th></th>
               </tr>
             </thead>
@@ -133,13 +135,13 @@ function ResidentBilling() {
                     <td>₹{Number(invoice.totalAmount).toLocaleString('en-IN')}</td>
                     <td>
                       <span className={`af-bills__badge af-bills__badge--${invoice.paid ? 'paid' : 'unpaid'}`}>
-                        {invoice.paid ? 'Paid' : 'Unpaid'}
+                        {invoice.paid ? t('billing.status.paid') : t('billing.status.unpaid')}
                       </span>
                     </td>
                     <td>
                       <div className="af-bills__row-actions">
                         <button type="button" onClick={() => toggleExpanded(invoice.id)}>
-                          {expandedId === invoice.id ? 'Hide Breakdown ↑' : 'Itemized Breakdown ↓'}
+                          {expandedId === invoice.id ? t('billing.table.hideBreakdown') : t('billing.table.showBreakdown')}
                         </button>
                         <button
                           type="button"
@@ -147,7 +149,7 @@ function ResidentBilling() {
                           disabled={downloadingId === invoice.id}
                           onClick={() => handleDownloadPdf(invoice)}
                         >
-                          {downloadingId === invoice.id ? 'Downloading…' : 'PDF'}
+                          {downloadingId === invoice.id ? t('billing.table.downloading') : t('billing.table.pdf')}
                         </button>
                         {!invoice.paid && (
                           <button
@@ -155,7 +157,7 @@ function ResidentBilling() {
                             className="af-bills__pay-btn"
                             onClick={() => setPayingInvoice(invoice)}
                           >
-                            Pay
+                            {t('billing.table.pay')}
                           </button>
                         )}
                       </div>
@@ -166,11 +168,14 @@ function ResidentBilling() {
                       <td colSpan={5}>
                         <div className="af-bills__breakdown">
                           <div>
-                            <h4>Household Consumption Breakdown</h4>
+                            <h4>{t('billing.breakdown.householdTitle')}</h4>
                             {Number(invoice.baseAmount) > 0 && (
                               <div className="af-bills__breakdown-line">
                                 <span>
-                                  Base Price: {Number(invoice.consumptionUnits).toFixed(1)} kL × ₹{invoice.basePricePerUnit}
+                                  {t('billing.breakdown.basePrice', {
+                                    units: Number(invoice.consumptionUnits).toFixed(1),
+                                    rate: invoice.basePricePerUnit,
+                                  })}
                                 </span>
                                 <strong>₹{Number(invoice.baseAmount).toLocaleString('en-IN')}</strong>
                               </div>
@@ -178,20 +183,24 @@ function ResidentBilling() {
                             {invoice.lineItems.map((line) => (
                               <div key={line.tierOrder} className="af-bills__breakdown-line">
                                 <span>
-                                  Tier {line.tierOrder}: {Number(line.unitsInTier).toFixed(1)} kL × ₹{line.ratePerUnit}
+                                  {t('billing.breakdown.tierLine', {
+                                    tier: line.tierOrder,
+                                    units: Number(line.unitsInTier).toFixed(1),
+                                    rate: line.ratePerUnit,
+                                  })}
                                 </span>
                                 <strong>₹{Number(line.amount).toLocaleString('en-IN')}</strong>
                               </div>
                             ))}
                             <div className="af-bills__breakdown-subtotal">
-                              <span>Subtotal Metered Usage</span>
+                              <span>{t('billing.breakdown.subtotalMetered')}</span>
                               <strong>
                                 ₹{(Number(invoice.baseAmount) + Number(invoice.tariffAmount)).toLocaleString('en-IN')}
                               </strong>
                             </div>
                           </div>
                           <div>
-                            <h4>Common Area Apportionment</h4>
+                            <h4>{t('billing.breakdown.commonAreaTitle')}</h4>
                             {invoice.commonAreaCharges.length > 0 ? (
                               <>
                                 {invoice.commonAreaCharges.map((charge) => (
@@ -201,12 +210,12 @@ function ResidentBilling() {
                                   </div>
                                 ))}
                                 <div className="af-bills__breakdown-subtotal">
-                                  <span>Subtotal Shared Area</span>
+                                  <span>{t('billing.breakdown.subtotalShared')}</span>
                                   <strong>₹{Number(invoice.commonAreaAmount).toLocaleString('en-IN')}</strong>
                                 </div>
                               </>
                             ) : (
-                              <p className="af-bills__breakdown-empty">No shared common-area charges for this cycle.</p>
+                              <p className="af-bills__breakdown-empty">{t('billing.breakdown.noCommonArea')}</p>
                             )}
                           </div>
                         </div>
@@ -221,18 +230,21 @@ function ResidentBilling() {
 
         <div className="af-bills__pagination">
           <span className="af-bills__pagination-info">
-            Showing {page * PAGE_SIZE + 1}–{Math.min(invoices.length, page * PAGE_SIZE + PAGE_SIZE)} of{' '}
-            {invoices.length}
+            {t('billing.pagination.showing', {
+              from: page * PAGE_SIZE + 1,
+              to: Math.min(invoices.length, page * PAGE_SIZE + PAGE_SIZE),
+              total: invoices.length,
+            })}
           </span>
           <div className="af-bills__pagination-controls">
             <button type="button" disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-              ← Prev
+              {t('billing.pagination.prev')}
             </button>
             <span className="af-bills__pagination-page">
-              Page {page + 1} of {pageCount}
+              {t('billing.pagination.page', { page: page + 1, count: pageCount })}
             </span>
             <button type="button" disabled={page >= pageCount - 1} onClick={() => setPage((p) => p + 1)}>
-              Next →
+              {t('billing.pagination.next')}
             </button>
           </div>
         </div>
@@ -244,17 +256,17 @@ function ResidentBilling() {
             <Icon name="bill" />
           </span>
           <div>
-            <strong>Payment methods (preview)</strong>
-            <p>Online payment isn't available yet — bills are settled with your community admin directly.</p>
+            <strong>{t('billing.paymentMethods.title')}</strong>
+            <p>{t('billing.paymentMethods.description')}</p>
           </div>
         </div>
         <button
           type="button"
           className="af-bills__cta af-bills__cta--outline"
           disabled
-          title="Payment methods aren't available yet"
+          title={t('billing.paymentMethods.manageUnavailable')}
         >
-          Manage Payment Methods
+          {t('billing.paymentMethods.manage')}
         </button>
       </section>
 

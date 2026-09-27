@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Iyasebenza",
+    "blocked": "Ivaliwe",
+    "terminated": "Iphelisiwe"
+  },
+  "sort": {
+    "sortBy": "Misa nge",
+    "toggleDirection": "Guqula indlela yokuhlela",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Ibonisa {{from}}–{{to}} ye {{total}}",
+    "prev": "← Edlulileyo",
+    "next": "Okulandelayo →",
+    "page": "Iphepha {{page}} le {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platform Overview",
+    "subtitle": "Wonke umlawuli woluntu obhalisiweyo, kulo lonke HydroLedger iqonga.",
+    "viewAll": "Jonga lonke uluntu",
+    "loadError": "Ayikwazanga ukulayisha idatha yeqonga ngoku.",
+    "cards": {
+      "totalCommunities": "Uluntu ngokubanzi",
+      "registeredAdmins": "Ababhalisi ababhalisiweyo",
+      "totalResidents": "Abahlali bebonke",
+      "acrossAllCommunities": "Kuzo zonke iindawo zokuhlala",
+      "active": "Iyasebenza",
+      "inGoodStanding": "Ume kakuhle",
+      "blockedTerminated": "Ivinjiwe / iphelisiwe",
+      "blockedTerminatedBreakdown": "{{blocked}} ivaliwe, {{terminated}} iphelisiwe"
+    },
+    "recent": {
+      "title": "Uluntu olusandula ukubhaliswa",
+      "loading": "Iyalayisha...",
+      "empty": "Akukho luntu lubhalisiweyo okwangoku.",
+      "table": {
+        "community": "Uluntu",
+        "admin": "Admin",
+        "status": "Ubume",
+        "residents": "Abahlali"
+      }
+    }
+  },
+  "communities": {
+    "count": "Uluntu: {{count}}",
+    "loadError": "Ayikwazanga ukulayisha uluntu. Nceda zama kwakhona.",
+    "searchPlaceholder": "Hlunga ngoluntu, igama lomlawuli, okanye i-imeyile",
+    "statusFilter": {
+      "label": "Ubume",
+      "all": "Konke"
+    },
+    "sortOptions": {
+      "community": "Uluntu",
+      "admin": "Admin",
+      "residents": "Abahlali"
+    },
+    "loading": "Kulayishwa uluntu...",
+    "empty": "Akukho luntu lubhalisiweyo okwangoku.",
+    "noMatch": "Akukho luntu oludibana nezihluzo zakho.",
+    "table": {
+      "community": "Uluntu",
+      "admin": "Admin",
+      "email": "I-imeyile",
+      "status": "Ubume",
+      "residents": "Abahlali",
+      "view": "Jonga"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ayikwazanga ukulayisha olu luntu. Isenokuba isusiwe.",
+    "statusUpdateError": "Ayikwazanga kuhlaziya isimo soluntu.",
+    "deleteError": "Ayikwazanga ukucima olu luntu.",
+    "loading": "Kulayishwa uluntu...",
+    "notFound": "Uluntu alufunyanwanga.",
+    "backLink": "← Buyela kuluntu",
+    "backLinkShort": "Buyela kuluntu",
+    "eyebrow": "Iprofayile yoluntu",
+    "unnamed": "Uluntu olungachazwanga",
+    "noAddress": "Akukho dilesi kwifayile",
+    "stats": {
+      "residents": "Abahlali",
+      "status": "Ubume"
+    },
+    "actions": {
+      "reactivate": "Yenza kusebenze kwakhona",
+      "block": "Vimba",
+      "terminate": "Phelisa",
+      "delete": "Cima Uluntu"
+    },
+    "blockDialog": {
+      "title": "Vimba lo admin wabahlali?",
+      "message": "Nqanda {{name}}? Abayi kukwazi ukungena de bavulwe. Akukho datha iya kuchaphazeleka.",
+      "confirm": "Vimba"
+    },
+    "terminateDialog": {
+      "title": "Ndiphelise lo admin wabahlali?",
+      "message": "Luphelise ngokusisigxina {{name}} ufikelelo? Oku akunakuphinda kungenziwa, nangona idatha yabahlali iya kugcinwa kwiirekhodi.",
+      "confirm": "Phelisa"
+    },
+    "deleteDialog": {
+      "title": "Cima olu luntu?",
+      "message": "Oku kuya kucima umphelo <strong>{{name}}</strong> kunye nazo zonke izindlu zayo, abahlali, iimitha, uluhlu lwamaxabiso/ulungiselelo lwentlawulo, kunye nembali ye-invoyisi. Esi senzo asinakuphinda singenziwa.",
+      "typeToConfirm": "Chwetheza <strong>{{word}}</strong> ukuqhubeka",
+      "confirm": "Qinisekisa"
+    },
+    "residents": {
+      "title": "Abahlali",
+      "registeredCount": "Bhalisa: {{count}}",
+      "empty": "Akukho bahlali ababhalisiweyo kolu luntu okwangoku.",
+      "table": {
+        "flatUnit": "Iyunithi eFlethi",
+        "meter": "Imitha",
+        "resident": "Umhlali",
+        "email": "I-imeyile",
+        "passwordSet": "Iseti yegama lokugqithisa"
+      },
+      "yes": "Ewe",
+      "no": "Hayi"
+    },
+    "cancel": "Rhoxisa",
+    "working": "Iyasebenza...",
+    "deleting": "Iyacima..."
+  },
+  "systemStatus": {
+    "statusError": "Ayikwazanga ukufikelela ngasemva ukujonga ubume benkqubo.",
+    "metricsError": "Ayikwazanga ukulayisha imbali yemetrics.",
+    "ranges": {
+      "fiveMinutes": "5 Imizuzu",
+      "fifteenMinutes": "Imizuzu eli-15",
+      "hour": "Yure",
+      "day": "Usuku",
+      "week": "Iveki",
+      "month": "Inyanga",
+      "threeMonths": "Iinyanga ezi-3"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}y",
+      "minutes": "{{value}} m"
+    },
+    "charts": {
+      "requestsPerSec": "Izicelo/umzuzwana",
+      "opsPerSec": "Ops/umzuzwana",
+      "latency": "Ukubambezeleka",
+      "lastValue": "{{value}} okokugqibela",
+      "loading": "Iyalayisha...",
+      "empty": "Akukho metrics erekhodiweyo kolu luhlu okwangoku."
+    },
+    "stats": {
+      "min": "Umz: <b>{{value}}</b>",
+      "avg": "Av: <b>{{value}}</b>",
+      "max": "Ubukhulu: <b>{{value}}</b>",
+      "last": "Okokugqibela: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Iyajonga...",
+      "reachable": "Iyafikeleleka",
+      "unreachable": "Ayifikeleleki",
+      "connected": "Iqhagamshelwe",
+      "backendApiHint": "Eli phepha lilayishwe ukusuka ngasemva, ngoko liphendule.",
+      "database": "Uvimba weenkcukacha",
+      "databaseHint": "Uqhagamshelo lwePostgreSQL, lukhangelwe bukhoma.",
+      "uptime": "Backup Uptime",
+      "uptimeHint": "Ukusukela okokugqibela isicelo siqale kwakhona.",
+      "appVersion": "Inguqulelo ye-App",
+      "appVersionHint": "Inguqulelo yokwakha ngasemva."
+    },
+    "mini": {
+      "latency": "Ukubambezeleka",
+      "readsLatency": "Ufunda uLatency",
+      "writesLatency": "Ubhala uLatency",
+      "otherLatency": "Enye iLatency",
+      "connections": "Uqhagamshelwano",
+      "totalKeys": "Izitshixo zizonke"
+    },
+    "note": "Izicelo / umzuzwana kunye ne-latency zithathwa kwi-traffic backend ephilayo rhoqo ngemizuzwana ye-15 kwaye zigcinwe ukuya kuthi ga kwiintsuku ze-100. Olu luqhagamshelo olusisiseko + ukujonga itrafikhi — ayithathi indawo yokubekwa kweliso kokusebenza kwesicelo esipheleleyo, ukudityaniswa kwelog, okanye ukwazisa."
+  },
+  "reports": {
+    "loadError": "Ayikwazanga ukulayisha ingxelo yeqonga.",
+    "ranges": {
+      "threeMonths": "Iinyanga ezi-3",
+      "sixMonths": "Iinyanga ezi-6",
+      "twelveMonths": "Iinyanga ezili-12",
+      "custom": "Isiko"
+    },
+    "sortOptions": {
+      "community": "Uluntu",
+      "usage": "Ukusetyenziswa",
+      "billed": "Ihlawulwe",
+      "residents": "Abahlali"
+    },
+    "customRange": {
+      "from": "Ukusuka",
+      "to": "Ukuya",
+      "hint": "Khetha zombini \"ukusuka\" kunye \"ukuya\" kwinyanga ukulayisha ingxelo yesiko."
+    },
+    "loading": "Ilayisha ingxelo...",
+    "cards": {
+      "totalCommunities": "Uluntu ngokubanzi",
+      "inThisRange": "Kolu luhlu",
+      "totalResidents": "Abahlali bebonke",
+      "acrossAllCommunities": "Kuzo zonke iindawo zokuhlala",
+      "overallUsage": "Usetyenziso lulonke",
+      "meteredConsumption": "Ukusetyenziswa ngemitha",
+      "overallBilled": "Ibhililwe iyonke",
+      "finalizedInvoicesOnly": "Ii-invoyisi ezigqityiweyo kuphela",
+      "avgUsagePerResident": "Usetyenziso oluphakathi / Umhlali",
+      "avgBillPerResident": "Avg Bill / Umhlali"
+    },
+    "charts": {
+      "usageTitle": "Ukusetyenziswa kweqonga elibanzi (kL / ngenyanga)",
+      "usageEmpty": "Akukho setyenziso lurekhodiweyo kolu luhlu.",
+      "usageSeries": "Ukusetyenziswa",
+      "billedTitle": "Ixabiso leqonga elibilwayo kwiqonga elibanzi ( ₹ / ngenyanga)",
+      "billedEmpty": "Akukho zi-invoyisi ezigqityiweyo kolu luhlu.",
+      "billedSeries": "Ihlawulwe"
+    },
+    "searchPlaceholder": "Hlunga ngegama loluntu okanye lomlawuli",
+    "empty": "Akukho bahlali banosetyenziso okanye idatha yokuhlawula kolu luhlu okwangoku.",
+    "noMatch": "Akukho luntu oludibana nesihluzo sakho.",
+    "table": {
+      "community": "Uluntu",
+      "admin": "Admin",
+      "residents": "Abahlali",
+      "usage": "Ukusetyenziswa (kL)",
+      "billed": "Ihlawulwe ( ₹)",
+      "avgUsagePerResident": "Usetyenziso oluphakathi / Umhlali",
+      "avgBillPerResident": "Avg Bill / Umhlali"
+    }
+  },
+  "supportTickets": {
+    "title": "Amatikiti enkxaso",
+    "subtitle": "Amatikiti enkxaso kunye neenkxalabo eziphakanyiswe ngabahlali kunye nabalawuli boluntu, iqonga-ngokubanzi."
+  }
+}

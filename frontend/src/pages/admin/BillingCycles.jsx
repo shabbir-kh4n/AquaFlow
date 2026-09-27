@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 import {
   archiveBillingCycle,
   downloadInvoicePdfAsAdmin,
@@ -20,12 +22,19 @@ function currentMonth() {
 }
 
 const STATUS_LABEL = {
-  OPEN: 'Open',
-  FINALIZED: 'Finalized',
-  ARCHIVED: 'Archived',
+  OPEN: 'billingCycles.status.open',
+  FINALIZED: 'billingCycles.status.finalized',
+  ARCHIVED: 'billingCycles.status.archived',
+}
+
+const PAYMENT_FILTER_LABEL = {
+  all: 'billingCycles.filter.all',
+  paid: 'billingCycles.payment.paid',
+  unpaid: 'billingCycles.payment.unpaid',
 }
 
 function BillingCycles() {
+  const { t } = useTranslation('admin')
   const [cycles, setCycles] = useState([])
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState('')
@@ -58,7 +67,7 @@ function BillingCycles() {
     setLoadError('')
     return listBillingCycles()
       .then(setCycles)
-      .catch(() => setLoadError('Could not load billing cycles. Please try again.'))
+      .catch(() => setLoadError(t('billingCycles.loadError')))
       .finally(() => {
         if (!silent) setLoading(false)
       })
@@ -67,7 +76,7 @@ function BillingCycles() {
   useEffect(() => {
     listBillingCycles()
       .then(setCycles)
-      .catch(() => setLoadError('Could not load billing cycles. Please try again.'))
+      .catch(() => setLoadError(i18next.t('billingCycles.loadError', { ns: 'admin' })))
       .finally(() => setLoading(false))
   }, [])
 
@@ -100,7 +109,7 @@ function BillingCycles() {
         invoices: prev.invoices.map((inv) => (inv.id === updated.id ? updated : inv)),
       }))
     } catch {
-      setActionError('Could not update this invoice\'s payment status.')
+      setActionError(t('billingCycles.paymentUpdateError'))
     } finally {
       setPaymentBusyId(null)
     }
@@ -112,7 +121,7 @@ function BillingCycles() {
       const blob = await downloadInvoicePdfAsAdmin(invoice.id)
       downloadBlob(blob, `invoice-${invoice.houseNumber}-${detail?.cycle?.periodMonth ?? ''}.pdf`)
     } catch {
-      setPdfError('Could not download the PDF. Please try again.')
+      setPdfError(t('billingCycles.pdfError'))
     } finally {
       setPdfDownloadingId(null)
     }
@@ -155,7 +164,7 @@ function BillingCycles() {
     setOpenError('')
 
     if (!newMonth) {
-      setOpenError('Please choose a month to open.')
+      setOpenError(t('billingCycles.open.noMonth'))
       return
     }
 
@@ -164,7 +173,7 @@ function BillingCycles() {
       await openBillingCycle(newMonth)
       await loadCycles(true)
     } catch (err) {
-      setOpenError(err.response?.data?.message || 'Could not open a billing cycle for that month.')
+      setOpenError(err.response?.data?.message || t('billingCycles.open.error'))
     } finally {
       setOpening(false)
     }
@@ -180,7 +189,7 @@ function BillingCycles() {
         await refreshDetailSilently(id)
       }
     } catch (err) {
-      setActionError(err.response?.data?.message || 'Could not finalize this billing cycle.')
+      setActionError(err.response?.data?.message || t('billingCycles.finalizeError'))
     } finally {
       setBusyId(null)
     }
@@ -196,7 +205,7 @@ function BillingCycles() {
         await refreshDetailSilently(id)
       }
     } catch (err) {
-      setActionError(err.response?.data?.message || 'Could not archive this billing cycle.')
+      setActionError(err.response?.data?.message || t('billingCycles.archiveError'))
     } finally {
       setBusyId(null)
     }
@@ -205,7 +214,7 @@ function BillingCycles() {
   return (
     <>
       <section className="af-billing__panel">
-        <h2>Open a New Billing Cycle</h2>
+        <h2>{t('billingCycles.open.title')}</h2>
         <form className="af-billing__open-form" onSubmit={handleOpen}>
           {openError && <div className="af-form__error">{openError}</div>}
           <div className="af-billing__open-row">
@@ -213,33 +222,33 @@ function BillingCycles() {
               type="month"
               value={newMonth}
               onChange={(e) => setNewMonth(e.target.value)}
-              aria-label="Billing period month"
+              aria-label={t('billingCycles.open.monthAria')}
             />
             <button type="submit" className="af-billing__open-btn" disabled={opening}>
-              {opening ? 'Opening…' : 'Open Cycle'}
+              {opening ? t('billingCycles.open.opening') : t('billingCycles.open.submit')}
             </button>
           </div>
         </form>
       </section>
 
       <section className="af-billing__panel">
-        <h2>Billing Cycles</h2>
+        <h2>{t('billingCycles.title')}</h2>
         {actionError && <div className="af-form__error">{actionError}</div>}
         {loadError && <div className="af-form__error">{loadError}</div>}
 
         {loading ? (
-          <p className="af-billing__empty">Loading billing cycles…</p>
+          <p className="af-billing__empty">{t('billingCycles.loading')}</p>
         ) : cycles.length === 0 ? (
-          <p className="af-billing__empty">No billing cycles yet. Open one above to get started.</p>
+          <p className="af-billing__empty">{t('billingCycles.empty')}</p>
         ) : (
           <table className="af-billing__table">
             <thead>
               <tr>
-                <th>Period</th>
-                <th>Status</th>
-                <th>Households Billed</th>
-                <th>Total Billed</th>
-                <th>Actions</th>
+                <th>{t('billingCycles.table.period')}</th>
+                <th>{t('billingCycles.table.status')}</th>
+                <th>{t('billingCycles.table.householdsBilled')}</th>
+                <th>{t('billingCycles.table.totalBilled')}</th>
+                <th>{t('billingCycles.table.actions')}</th>
               </tr>
             </thead>
             <tbody>
@@ -254,7 +263,7 @@ function BillingCycles() {
                   <td>{cycle.periodMonth}</td>
                   <td>
                     <span className={`af-billing__badge af-billing__badge--${cycle.status.toLowerCase()}`}>
-                      {STATUS_LABEL[cycle.status] || cycle.status}
+                      {STATUS_LABEL[cycle.status] ? t(STATUS_LABEL[cycle.status]) : cycle.status}
                     </span>
                   </td>
                   <td>{cycle.invoiceCount}</td>
@@ -267,7 +276,7 @@ function BillingCycles() {
                         disabled={busyId === cycle.id}
                         onClick={() => handleFinalize(cycle.id)}
                       >
-                        {busyId === cycle.id ? 'Finalizing…' : 'Finalize'}
+                        {busyId === cycle.id ? t('billingCycles.actions.finalizing') : t('billingCycles.actions.finalize')}
                       </button>
                     )}
                     {cycle.status === 'FINALIZED' && (
@@ -277,7 +286,7 @@ function BillingCycles() {
                         disabled={busyId === cycle.id}
                         onClick={() => handleArchive(cycle.id)}
                       >
-                        {busyId === cycle.id ? 'Archiving…' : 'Archive'}
+                        {busyId === cycle.id ? t('billingCycles.actions.archiving') : t('billingCycles.actions.archive')}
                       </button>
                     )}
                   </td>
@@ -290,22 +299,25 @@ function BillingCycles() {
         {cycles.length > 0 && (
           <div className="af-billing__pagination">
             <span className="af-billing__pagination-info">
-              Showing {cyclesPage * CYCLES_PAGE_SIZE + 1}–
-              {Math.min(cycles.length, cyclesPage * CYCLES_PAGE_SIZE + CYCLES_PAGE_SIZE)} of {cycles.length}
+              {t('pagination.showing', {
+                from: cyclesPage * CYCLES_PAGE_SIZE + 1,
+                to: Math.min(cycles.length, cyclesPage * CYCLES_PAGE_SIZE + CYCLES_PAGE_SIZE),
+                total: cycles.length,
+              })}
             </span>
             <div className="af-billing__pagination-controls">
               <button type="button" disabled={cyclesPage === 0} onClick={() => setCyclesPage((p) => p - 1)}>
-                ← Prev
+                {t('pagination.prev')}
               </button>
               <span className="af-billing__pagination-page">
-                Page {cyclesPage + 1} of {cyclesPageCount}
+                {t('pagination.page', { page: cyclesPage + 1, pageCount: cyclesPageCount })}
               </span>
               <button
                 type="button"
                 disabled={cyclesPage >= cyclesPageCount - 1}
                 onClick={() => setCyclesPage((p) => p + 1)}
               >
-                Next →
+                {t('pagination.next')}
               </button>
             </div>
           </div>
@@ -315,10 +327,10 @@ function BillingCycles() {
       {selectedId && (
         <section className="af-billing__panel">
           <div className="af-billing__detail-heading">
-            <h2>Cycle Detail — {detail?.cycle?.periodMonth || '…'}</h2>
+            <h2>{t('billingCycles.detail.title', { period: detail?.cycle?.periodMonth || '…' })}</h2>
             {pdfError && <div className="af-form__error">{pdfError}</div>}
             {detail && detail.invoices.length > 0 && (
-              <div className="af-billing__payment-filter" role="group" aria-label="Filter by payment status">
+              <div className="af-billing__payment-filter" role="group" aria-label={t('billingCycles.filter.aria')}>
                 {['all', 'paid', 'unpaid'].map((option) => (
                   <button
                     key={option}
@@ -326,35 +338,35 @@ function BillingCycles() {
                     className={`af-billing__filter-btn ${paymentFilter === option ? 'af-billing__filter-btn--active' : ''}`}
                     onClick={() => setPaymentFilter(option)}
                   >
-                    {option === 'all' ? 'All' : option === 'paid' ? 'Paid' : 'Unpaid'}
+                    {t(PAYMENT_FILTER_LABEL[option])}
                   </button>
                 ))}
               </div>
             )}
           </div>
           {detailLoading ? (
-            <p className="af-billing__empty">Loading invoices…</p>
+            <p className="af-billing__empty">{t('billingCycles.detail.loading')}</p>
           ) : !detail || detail.invoices.length === 0 ? (
             <p className="af-billing__empty">
               {detail?.cycle?.status === 'OPEN'
-                ? 'This cycle has not been finalized yet — no invoices generated.'
-                : 'No invoices for this cycle.'}
+                ? t('billingCycles.detail.notFinalized')
+                : t('billingCycles.detail.noInvoices')}
             </p>
           ) : filteredInvoices.length === 0 ? (
-            <p className="af-billing__empty">No invoices match this filter.</p>
+            <p className="af-billing__empty">{t('billingCycles.detail.noMatch')}</p>
           ) : (
             <table className="af-billing__table">
               <thead>
                 <tr>
-                  <th>Household</th>
-                  <th>Resident</th>
-                  <th>Meter No.</th>
-                  <th>Consumption (kL)</th>
-                  <th>Tier Breakdown</th>
-                  <th>Common Area</th>
-                  <th>Total</th>
-                  <th>Payment Status</th>
-                  <th>PDF</th>
+                  <th>{t('billingCycles.invoices.household')}</th>
+                  <th>{t('billingCycles.invoices.resident')}</th>
+                  <th>{t('billingCycles.invoices.meterNumber')}</th>
+                  <th>{t('billingCycles.invoices.consumption')}</th>
+                  <th>{t('billingCycles.invoices.tierBreakdown')}</th>
+                  <th>{t('billingCycles.invoices.commonArea')}</th>
+                  <th>{t('billingCycles.invoices.total')}</th>
+                  <th>{t('billingCycles.invoices.paymentStatus')}</th>
+                  <th>{t('billingCycles.invoices.pdf')}</th>
                 </tr>
               </thead>
               <tbody>
@@ -367,12 +379,21 @@ function BillingCycles() {
                     <td>
                       {Number(invoice.baseAmount) > 0 && (
                         <div className="af-billing__tier-line">
-                          Base: {Number(invoice.consumptionUnits).toFixed(1)} kL × ₹{invoice.basePricePerUnit} = ₹{invoice.baseAmount}
+                          {t('billingCycles.invoices.baseLine', {
+                            units: Number(invoice.consumptionUnits).toFixed(1),
+                            rate: invoice.basePricePerUnit,
+                            amount: invoice.baseAmount,
+                          })}
                         </div>
                       )}
                       {invoice.lineItems.map((line) => (
                         <div key={line.tierOrder} className="af-billing__tier-line">
-                          Tier {line.tierOrder}: {Number(line.unitsInTier).toFixed(1)} kL × ₹{line.ratePerUnit} = ₹{line.amount}
+                          {t('billingCycles.invoices.tierLine', {
+                            tier: line.tierOrder,
+                            units: Number(line.unitsInTier).toFixed(1),
+                            rate: line.ratePerUnit,
+                            amount: line.amount,
+                          })}
                         </div>
                       ))}
                     </td>
@@ -394,9 +415,13 @@ function BillingCycles() {
                         className={`af-billing__badge af-billing__badge--${invoice.paid ? 'paid' : 'unpaid'} af-billing__badge--btn`}
                         disabled={paymentBusyId === invoice.id}
                         onClick={() => handleTogglePaid(invoice)}
-                        title={invoice.paid ? 'Mark as unpaid' : 'Mark as paid'}
+                        title={invoice.paid ? t('billingCycles.payment.markUnpaid') : t('billingCycles.payment.markPaid')}
                       >
-                        {paymentBusyId === invoice.id ? 'Updating…' : invoice.paid ? 'Paid' : 'Unpaid'}
+                        {paymentBusyId === invoice.id
+                          ? t('billingCycles.payment.updating')
+                          : invoice.paid
+                            ? t('billingCycles.payment.paid')
+                            : t('billingCycles.payment.unpaid')}
                       </button>
                     </td>
                     <td>
@@ -406,7 +431,7 @@ function BillingCycles() {
                         disabled={pdfDownloadingId === invoice.id}
                         onClick={() => handleDownloadPdf(invoice)}
                       >
-                        {pdfDownloadingId === invoice.id ? '…' : 'PDF'}
+                        {pdfDownloadingId === invoice.id ? '…' : t('billingCycles.invoices.pdf')}
                       </button>
                     </td>
                   </tr>
@@ -418,22 +443,25 @@ function BillingCycles() {
           {filteredInvoices.length > 0 && (
             <div className="af-billing__pagination">
               <span className="af-billing__pagination-info">
-                Showing {detailPage * DETAIL_PAGE_SIZE + 1}–
-                {Math.min(filteredInvoices.length, detailPage * DETAIL_PAGE_SIZE + DETAIL_PAGE_SIZE)} of {filteredInvoices.length}
+                {t('pagination.showing', {
+                  from: detailPage * DETAIL_PAGE_SIZE + 1,
+                  to: Math.min(filteredInvoices.length, detailPage * DETAIL_PAGE_SIZE + DETAIL_PAGE_SIZE),
+                  total: filteredInvoices.length,
+                })}
               </span>
               <div className="af-billing__pagination-controls">
                 <button type="button" disabled={detailPage === 0} onClick={() => setDetailPage((p) => p - 1)}>
-                  ← Prev
+                  {t('pagination.prev')}
                 </button>
                 <span className="af-billing__pagination-page">
-                  Page {detailPage + 1} of {detailPageCount}
+                  {t('pagination.page', { page: detailPage + 1, pageCount: detailPageCount })}
                 </span>
                 <button
                   type="button"
                   disabled={detailPage >= detailPageCount - 1}
                   onClick={() => setDetailPage((p) => p + 1)}
                 >
-                  Next →
+                  {t('pagination.next')}
                 </button>
               </div>
             </div>

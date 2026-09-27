@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Laden…",
+    "saving": "Sparen…",
+    "saved": "Gespeichert.",
+    "uploading": "Hochladen…",
+    "upload": "Hochladen",
+    "uploadError": "Diese Datei konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.",
+    "cancel": "Stornieren",
+    "close": "Schließen",
+    "edit": "Bearbeiten",
+    "remove": "Entfernen",
+    "saveChanges": "Änderungen speichern",
+    "bulkSummary": "Verarbeitete <b>{{total}}</b> Zeilen – <b>{{success}}</b> erfolgreich, <b>{{failure}}</b> fehlgeschlagen.",
+    "rowFailure": "Zeile {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Zeigt {{from}}–{{to}} von {{total}}",
+    "prev": "← Vorher",
+    "next": "Weiter →",
+    "page": "Seite {{page}} von {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ihre Community-Daten konnten derzeit nicht geladen werden.",
+    "title": "{{community}} Wohnungs-Dashboard",
+    "titleFallback": "Ihr Apartment-Dashboard",
+    "subtitle": "Betriebszusammenfassung für die Untermessung von Wasserversorgungsunternehmen und den Haushaltsverbrauch.",
+    "comingSoon": "Kommt bald",
+    "manageCommunity": "Community verwalten",
+    "noUsageReadings": "Es wurden noch keine Nutzungswerte erfasst.",
+    "cards": {
+      "totalHouseholds": "Gesamtzahl der Haushalte",
+      "occupied": "Besetzt",
+      "activeMeters": "Aktive Messgeräte",
+      "reportingReadings": "Messwerte melden",
+      "monthlyConsumption": "Monatlicher Verbrauch",
+      "thisCalendarMonth": "In diesem Kalendermonat",
+      "latestRecordedMonth": "Letzter aufgezeichneter Monat ({{month}})",
+      "noReadingsYet": "Es wurden noch keine Messwerte erfasst",
+      "pendingAlerts": "Ausstehende Benachrichtigungen",
+      "anomalyPreview": "Vorschau der Anomalieerkennung – noch nicht verfügbar"
+    },
+    "actions": {
+      "label": "Schnelle Verwaltungsmaßnahmen",
+      "uploadReadings": "Laden Sie Zählerstände hoch",
+      "configureTariffs": "Tarife konfigurieren",
+      "reportsNotBuilt": "Berichte sind noch nicht erstellt",
+      "downloadReports": "Laden Sie Systemberichte herunter"
+    },
+    "chart": {
+      "title": "Monatlicher Verbrauchsvergleich (kL)",
+      "subtitle": "Letzte {{months}} Monate: Soll- vs. Ist-Verbrauch.",
+      "targetSeries": "Ziel (Vorschau)",
+      "actualSeries": "Tatsächlich"
+    },
+    "recent": {
+      "title": "Aktuelle Zählerstände",
+      "unit": "Einheit",
+      "resident": "Einwohner",
+      "lastReading": "Letzte Lesung",
+      "consumption": "Verbrauch"
+    }
+  },
+  "households": {
+    "loadError": "Bewohner konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "fixFields": "Bitte korrigieren Sie die hervorgehobenen Felder.",
+    "saveError": "Dieser Bewohner konnte nicht gespeichert werden. Bitte überprüfen Sie die Details.",
+    "confirmRemove": "{{name}} aus Ihrem Haushaltsverzeichnis entfernen?",
+    "removeError": "Dieser Bewohner konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
+    "count": "Haushalte: {{total}}",
+    "bulkUploadButton": "⇪ Massen-Upload",
+    "addResidentButton": "+ Einwohner hinzufügen",
+    "searchPlaceholder": "Filtern Sie nach Name, Haus, E-Mail oder Zählernummer.",
+    "loading": "Bewohner werden geladen…",
+    "empty": "Noch keine Bewohner. Klicken Sie auf „Einwohner hinzufügen“, um den ersten Haushalt zu registrieren.",
+    "noMatch": "Keine Bewohner stimmen mit „{{search}}“ überein.",
+    "sort": {
+      "label": "Sortieren nach",
+      "name": "Name",
+      "houseNumber": "Hausnummer",
+      "dateOfJoining": "Datum des Beitritts",
+      "toggleDirection": "Sortierrichtung umschalten",
+      "asc": "↑ Asc",
+      "desc": "↓ Beschr"
+    },
+    "gender": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "other": "Andere"
+    },
+    "table": {
+      "name": "Name",
+      "houseUnit": "Haus / Einheit",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "meterNumber": "Zähler Nr.",
+      "sqft": "Quadratfuß",
+      "joined": "Beigetreten"
+    },
+    "form": {
+      "addTitle": "Bewohner hinzufügen",
+      "editTitle": "Bewohner bearbeiten",
+      "editSubtitle": "Dadurch werden die Angaben des Bewohners in Ihrem Verzeichnis aktualisiert.",
+      "bypassSubtitle": "Sie legen das Passwort dieses Bewohners direkt fest. Es wird keine E-Mail verschickt.",
+      "addSubtitle": "An diesen Bewohner wird per E-Mail ein Link zum Festlegen eines Passworts gesendet, damit er sein eigenes Login aktivieren kann.",
+      "fullName": "Vollständiger Name",
+      "houseNumber": "Haus-/Einheitsnr.",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "meterNumber": "Zählernummer",
+      "governmentId": "Regierungsausweis",
+      "gender": "Geschlecht",
+      "dateOfBirth": "Geburtsdatum",
+      "dateOfJoining": "Datum des Beitritts",
+      "flatSize": "Wohnungsgröße (Quadratfuß)",
+      "bypassLabel": "E-Mail mit festgelegtem Passwort umgehen – Legen Sie jetzt ein Passwort für diesen Bewohner fest",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen"
+    },
+    "validation": {
+      "fullNameRequired": "Der vollständige Name ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "phoneRequired": "Telefonnummer ist erforderlich.",
+      "houseNumberRequired": "Haus-/Einheitsnummer ist erforderlich.",
+      "houseNumberTaken": "Diese Hausnummer ist bereits einem anderen Bewohner zugeordnet.",
+      "meterNumberRequired": "Zählernummer ist erforderlich.",
+      "meterNumberFormat": "Die Zählernummer muss wie MTR-1234 aussehen (4 Ziffern).",
+      "meterNumberTaken": "Diese Zählernummer ist bereits einem anderen Bewohner zugeordnet.",
+      "governmentIdRequired": "Ein amtlicher Ausweis ist erforderlich.",
+      "governmentIdFormat": "Die ID muss 6-stellig sein und mit 99 beginnen (z. B. 991234).",
+      "genderRequired": "Bitte wählen Sie ein Geschlecht aus.",
+      "dateOfBirthRequired": "Geburtsdatum ist erforderlich.",
+      "dateOfJoiningRequired": "Beitrittsdatum ist erforderlich.",
+      "passwordRequired": "Passwort ist erforderlich.",
+      "passwordLength": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+      "confirmPasswordRequired": "Bitte bestätigen Sie das Passwort.",
+      "passwordMismatch": "Passwörter stimmen nicht überein."
+    },
+    "bulk": {
+      "title": "Massen-Upload von Bewohnern",
+      "noFile": "Bitte wählen Sie eine .csv- oder .xlsx/.xls-Datei zum Hochladen aus.",
+      "instructions": "Laden Sie eine .csv- oder .xlsx/.xls-Datei mit den Spalten <code>{{columns}}</code> hoch (Passwort und flatSizeSqft sind beide optional). Zeilen mit einem Passwort legen es direkt fest; Zeilen ohne eins erhalten eine E-Mail mit festgelegtem Passwort, genau wie beim manuellen Hinzufügen eines Bewohners. Doppelte Haus-/Zählernummern oder E-Mails werden pro Zeile abgelehnt – eine fehlerhafte Zeile führt nicht dazu, dass der gesamte Stapel fehlschlägt."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Bewohner konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "historyLoadError": "Der Leseverlauf konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "successMessage": "Erfolgreich aufgezeichneter Messwert von {{value}} kL für {{house}} (Zähler: {{meter}})! Berechneter Verbrauch: {{consumption}} kL.",
+    "tabs": {
+      "single": "Einzeleintritt",
+      "csv": "Massen-CSV-Upload",
+      "history": "Geschichte lesen"
+    },
+    "source": {
+      "manual": "Handbuch",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Dieser Bewohner hat keine Zählernummer hinterlegt.",
+      "dateRequired": "Lesedatum ist erforderlich.",
+      "invalidValue": "Bitte geben Sie einen gültigen, nicht negativen Messwert ein.",
+      "duplicate": "Zu diesem Datum existiert bereits ein Messwert für diesen Zähler.",
+      "meterNotFound": "Dieses Messgerät konnte nicht gefunden werden. Bitte wählen Sie den Bewohner erneut aus.",
+      "lowerThanPrevious": "Dieser Messwert ist niedriger als der zuvor aufgezeichnete Messwert.",
+      "recordFailed": "Diese Lesung konnte nicht aufgezeichnet werden. Bitte versuchen Sie es erneut."
+    },
+    "combo": {
+      "label": "Wählen Sie Flat & Meter Serial",
+      "placeholder": "Wählen Sie Flat & Meter Serial…",
+      "flat": "Flach {{house}}",
+      "noMeter": "Kein Messgerät",
+      "searchPlaceholder": "Suchen Sie nach Wohnungsnr., Zählerserie, Bewohner…",
+      "unitsHeader": "Wohneinheiten",
+      "found": "Wohnungen gefunden: {{total}}",
+      "loading": "Bewohner werden geladen…",
+      "noMatch": "Keine Bewohner stimmen mit „{{search}}“ überein.",
+      "unassigned": "Nicht zugewiesen",
+      "itemMeta": "{{name}} · Letzter: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Aufzeichnen einer Lesung für",
+      "context": "Haus {{house}} · Meter {{meter}}",
+      "changeResident": "Bewohner wechseln",
+      "readingDate": "Lesedatum",
+      "readingValue": "Aktueller Zählerstand (kL)",
+      "submit": "Senden Sie eine validierte Lektüre",
+      "recentTitle": "Aktuelle Lesungen",
+      "recentEmpty": "Für dieses Messgerät wurden noch keine Messwerte erfasst."
+    },
+    "info": {
+      "title": "Validierung monotoner Messgeräte",
+      "body": "Jeder neue Messwert muss größer oder gleich dem vorherigen Protokoll für diesen Zähler sein – dadurch bleiben die Verbrauchsberechnungen korrekt und vertauschte Ziffern werden frühzeitig erkannt."
+    },
+    "details": {
+      "title": "Ausgewählte Einheitendetails",
+      "flatUnit": "Flache Einheit",
+      "meterSerial": "Messgerät seriell",
+      "occupant": "Name des Bewohners",
+      "lastDial": "Letzter aufgezeichneter Anruf",
+      "noReadings": "Noch keine Lesungen",
+      "monthConsumption": "Monatlicher Verbrauch",
+      "empty": "Kein Haushalt ausgewählt. Suchen Sie einen Bewohner und wählen Sie ihn aus, um hier seine Zählerdaten anzuzeigen."
+    },
+    "csv": {
+      "noFile": "Bitte wählen Sie eine CSV-Datei zum Hochladen aus.",
+      "instructions": "Laden Sie eine CSV mit den Spalten <code>{{columns}}</code> hoch. Zeilen werden unabhängig voneinander verarbeitet – eine fehlerhafte Zeile führt nicht dazu, dass der gesamte Stapel fehlschlägt."
+    },
+    "history": {
+      "loading": "Messwerte werden geladen…",
+      "empty": "Für Ihre Community wurden noch keine Messwerte erfasst."
+    },
+    "table": {
+      "meterNumber": "Zähler Nr.",
+      "date": "Datum",
+      "value": "Wert (kL)",
+      "consumption": "Verbrauch (kL)",
+      "source": "Quelle"
+    }
+  },
+  "billingCycles": {
+    "title": "Abrechnungszyklen",
+    "loadError": "Abrechnungszyklen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "paymentUpdateError": "Der Zahlungsstatus dieser Rechnung konnte nicht aktualisiert werden.",
+    "pdfError": "PDF konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
+    "finalizeError": "Dieser Abrechnungszeitraum konnte nicht abgeschlossen werden.",
+    "archiveError": "Dieser Abrechnungszeitraum konnte nicht archiviert werden.",
+    "loading": "Abrechnungszyklen werden geladen…",
+    "empty": "Noch keine Abrechnungszyklen. Öffnen Sie eines oben, um loszulegen.",
+    "status": {
+      "open": "Offen",
+      "finalized": "Abgeschlossen",
+      "archived": "Archiviert"
+    },
+    "open": {
+      "title": "Öffnen Sie einen neuen Abrechnungszeitraum",
+      "noMonth": "Bitte wählen Sie einen Monat zum Öffnen aus.",
+      "error": "Für diesen Monat konnte kein Abrechnungszyklus geöffnet werden.",
+      "monthAria": "Abrechnungszeitraum Monat",
+      "opening": "Öffnung…",
+      "submit": "Offener Zyklus"
+    },
+    "table": {
+      "period": "Zeitraum",
+      "status": "Status",
+      "householdsBilled": "Haushalte in Rechnung gestellt",
+      "totalBilled": "Gesamtabrechnung",
+      "actions": "Aktionen"
+    },
+    "actions": {
+      "finalize": "Abschließen",
+      "finalizing": "Finalisierung…",
+      "archive": "Archiv",
+      "archiving": "Archivierung…"
+    },
+    "filter": {
+      "aria": "Filtern Sie nach Zahlungsstatus",
+      "all": "Alle"
+    },
+    "payment": {
+      "paid": "Bezahlt",
+      "unpaid": "Unbezahlt",
+      "updating": "Aktualisierung…",
+      "markPaid": "Als bezahlt markieren",
+      "markUnpaid": "Als unbezahlt markieren"
+    },
+    "detail": {
+      "title": "Zyklusdetails – {{period}}",
+      "loading": "Rechnungen werden geladen…",
+      "notFinalized": "Dieser Zyklus ist noch nicht abgeschlossen – es wurden keine Rechnungen erstellt.",
+      "noInvoices": "Keine Rechnungen für diesen Zyklus.",
+      "noMatch": "Keine Rechnungen entsprechen diesem Filter."
+    },
+    "invoices": {
+      "household": "Haushalt",
+      "resident": "Einwohner",
+      "meterNumber": "Zähler Nr.",
+      "consumption": "Verbrauch (kL)",
+      "tierBreakdown": "Aufschlüsselung der Stufen",
+      "commonArea": "Gemeinschaftsbereich",
+      "total": "Gesamt",
+      "paymentStatus": "Zahlungsstatus",
+      "pdf": "PDF",
+      "baseLine": "Basis: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Stufe {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Die Tarifkonfiguration konnte nicht geladen werden",
+    "saveError": "Die Tarifkonfiguration konnte nicht gespeichert werden",
+    "chartTitle": "Aktiv gemessene Versorgungstarifstufen",
+    "axisNote": "Preis in ₹/kL, Plattengrenzen in kL",
+    "tableTitle": "Preisstufentabelle",
+    "defaultRatesNote": "Standardtarife werden angezeigt – noch nicht gespeichert.",
+    "addTier": "+ Stufe hinzufügen",
+    "saveRates": "Tarife sparen",
+    "tierLevel": {
+      "base": "Stufe {{tier}} (Basis)",
+      "medium": "Stufe {{tier}} (Mittel)",
+      "heavy": "Stufe {{tier}} (Schwer)"
+    },
+    "basePrice": {
+      "label": "Grundpreis (£ / kL, angewendet auf ALLE Verbrauchswerte)",
+      "note": "Jedem kL wird zunächst diese Pauschale berechnet. Bei den unten aufgeführten Platten fallen nur EXTRA-Gebühren für die Nutzung an, die in ihren Bereich fällt – z. B. eine Bratplatte ab 50 kL addiert ihren Tarif erst ab einem Verbrauch über 50 kL."
+    },
+    "table": {
+      "tierLevel": "Tier-Ebene",
+      "slabLimit": "Plattenlimit (kL)",
+      "rate": "Preis pro kL",
+      "action": "Aktion"
+    },
+    "commonArea": {
+      "title": "Kostenkonfiguration für gemeinsam genutzte Gemeinschaftsbereiche",
+      "loadError": "Die Kostenkonfiguration für den Gemeinschaftsbereich konnte nicht geladen werden",
+      "saveError": "Die Kostenkonfiguration für den Gemeinschaftsbereich konnte nicht gespeichert werden",
+      "empty": "Noch keine Kostenpositionen gespeichert.",
+      "labelPlaceholder": "Beschriftung der Kostenposition",
+      "perMonth": "/ Monat",
+      "active": "Aktiv",
+      "addItem": "+ Kostenposition hinzufügen",
+      "save": "Speichern Sie die Konfiguration des Gemeinschaftsbereichs"
+    },
+    "distribution": {
+      "title": "Auswahl der Kostenverteilungsmethode",
+      "consumption": "Nach Verbrauch (proportional mit Unterzähler)",
+      "floorArea": "Nach Wohnungsgröße (Quadratmeter)"
+    },
+    "footer": {
+      "cycleStart": "Startdatum der Zyklusabrechnung",
+      "cycleStartValue": "1. eines jeden Monats",
+      "autoInvoices": "PDF Rechnungen automatisch generieren"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Schwellenwert überschritten",
+      "statisticalOutlier": "Statistischer Ausreißer"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Gelöst",
+      "dismissed": "Entlassen"
+    },
+    "config": {
+      "title": "Konfiguration der Leckerkennung",
+      "subtitle": "Legen Sie einen Schwellenwert für den monatlichen Verbrauch fest und/oder aktivieren Sie die statistische Ausreißererkennung (kennzeichnet einen Haushalt, dessen monatlicher Verbrauch im Vergleich zu seinem eigenen Verlauf ungewöhnlich hoch ist).",
+      "loadError": "Die Alarmkonfiguration konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "thresholdRequired": "Ein monatlicher Schwellenwert (kL) ist erforderlich, wenn Schwellenwertwarnungen aktiviert sind.",
+      "saveError": "Diese Konfiguration konnte nicht gespeichert werden.",
+      "loading": "Konfiguration wird geladen…",
+      "threshold": "Monatlicher Schwellenwert (kL)",
+      "sensitivity": "Ausreißerempfindlichkeit (σ-Multiplikator)",
+      "enableThreshold": "Schwellenwertwarnungen aktivieren",
+      "enableOutlier": "Aktivieren Sie statistische Ausreißerwarnungen",
+      "save": "Konfiguration speichern",
+      "running": "Läuft…",
+      "runNow": "Führen Sie die Erkennung jetzt aus"
+    },
+    "alerts": {
+      "title": "Gekennzeichnete Haushalte",
+      "loadError": "Warnungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "runError": "Die Lecksuche konnte derzeit nicht ausgeführt werden. Bitte versuchen Sie es erneut.",
+      "updateError": "Diese Warnung konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+      "allStatuses": "Alle Status",
+      "loading": "Benachrichtigungen werden geladen…",
+      "empty": "Keine Benachrichtigungen zum Anzeigen vorhanden. Konfigurieren Sie oben einen Schwellenwert oder aktivieren Sie die Ausreißererkennung und klicken Sie dann auf „Erkennung jetzt ausführen“, um die aktuelle Nutzung Ihrer Community auszuwerten.",
+      "resolve": "Lösen",
+      "dismiss": "Zurückweisen"
+    },
+    "table": {
+      "household": "Haushalt",
+      "resident": "Einwohner",
+      "meter": "Meter",
+      "type": "Typ",
+      "period": "Zeitraum",
+      "consumption": "Verbrauch",
+      "reference": "Referenz",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Große Wassereinkäufe konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "confirmRemove": "Die Lieferung {{source}} am {{date}} entfernen?",
+    "removeError": "Dieser Kauf konnte nicht entfernt werden. Bitte versuchen Sie es erneut.",
+    "count": "Erfasste Käufe: {{total}}",
+    "recordButton": "+ Rekordkauf",
+    "loading": "Große Wassereinkäufe werden geladen…",
+    "empty": "Es wurden noch keine großen Wasserkäufe verzeichnet. Klicken Sie auf „Kauf aufzeichnen“, um eine Tanklieferung oder einen kommunalen Versorgungskauf zu protokollieren.",
+    "table": {
+      "date": "Datum",
+      "source": "Quelle",
+      "volume": "Volumen (L)",
+      "unitCost": "Stückkosten",
+      "totalCost": "Gesamtkosten",
+      "notes": "Notizen"
+    },
+    "form": {
+      "addTitle": "Zeichnen Sie den Kauf von Wasser in großen Mengen auf",
+      "editTitle": "Bearbeiten Sie den Großeinkauf von Wasser",
+      "subtitle": "Verfolgen Sie eine Tankwagenlieferung oder einen kommunalen Versorgungskauf für Ihre Gemeinde – dies wird nur zur Kostentransparenz erfasst und hat keinen Einfluss auf Haushaltsrechnungen.",
+      "requiredFields": "Bitte geben Sie Datum, Quelle, Menge und Stückkosten ein.",
+      "saveError": "Dieser Kauf konnte nicht gespeichert werden. Bitte überprüfen Sie die Details.",
+      "purchaseDate": "Kaufdatum",
+      "source": "Quelle/Lieferant",
+      "volume": "Volumen (Liter)",
+      "unitCost": "Stückkosten (£/Liter)",
+      "totalPreview": "Gesamtkosten: {{amount}}",
+      "notes": "Notizen (optional)",
+      "submit": "Plattenkauf"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ist noch nicht erstellt",
+    "profileSaveError": "Ihr Profil konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+    "apartmentSaveError": "Wohnungsdetails konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+    "specsTitle": "Profilspezifikationen",
+    "photoUnavailable": "Der Foto-Upload ist noch nicht verfügbar",
+    "changePhoto": "Foto ändern",
+    "deletePhoto": "Löschen",
+    "photoHint": "JPG oder PNG. Maximale Größe 2 MB.",
+    "saveProfile": "Profil speichern",
+    "apartmentTitle": "Wohnungsdetails",
+    "saveApartment": "Apartmentdetails speichern",
+    "tabs": {
+      "profile": "Profileinstellungen",
+      "apartment": "Wohnungsprofil",
+      "notifications": "Benachrichtigungsregeln",
+      "billing": "Abrechnungsintegrationen",
+      "security": "Sicherheit und Zugang"
+    },
+    "fields": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "emailLocked": "Die E-Mail-Adresse kann hier nicht geändert werden",
+      "phone": "Telefonnummer",
+      "accessLevel": "Zugriffsebene",
+      "accessLevelValue": "Community-Administrator",
+      "roleLocked": "Die Rollenverwaltung ist noch nicht verfügbar",
+      "apartmentName": "Wohnungsname",
+      "mainsSource": "Netzquelle",
+      "mainsSourcePlaceholder": "z.B. Kommunale Versorgung + Zusatztanker",
+      "address": "Physische Adresse"
+    },
+    "security": {
+      "title": "Sicherheits- und Zugriffsvorschau",
+      "twoFactor": "Zwei-Faktor-Authentifizierung",
+      "twoFactorHint": "Beim Anmelden aktiviert",
+      "twoFactorUnavailable": "Eine Zwei-Faktor-Authentifizierung ist noch nicht verfügbar",
+      "twoFactorAria": "Zwei-Faktor-Authentifizierung (nur Vorschau)",
+      "sessionsLabel": "Aktive Admin-Sitzungen",
+      "sessionsEmpty": "Sitzungsverfolgung ist noch nicht verfügbar – dies ist eine Vorschau des kommenden Layouts."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Meine Tickets",
+      "inbox": "Einwohnerkarten"
+    },
+    "mine": {
+      "title": "Meine Support-Tickets",
+      "subtitle": "Stellen Sie dem Systemadministrator eine Frage oder Bedenken bezüglich Ihrer Community.",
+      "emptyCreateHint": "Stellen Sie eine Frage oder Bedenken bezüglich Ihrer Community. Ein Systemadministrator wird dies überprüfen und hier antworten."
+    },
+    "inbox": {
+      "title": "Einwohnerkarten",
+      "subtitle": "Support-Tickets und Anliegen, die Bewohner Ihrer Gemeinde an Sie gerichtet haben."
+    }
+  }
+}

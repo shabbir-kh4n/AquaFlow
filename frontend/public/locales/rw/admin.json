@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Kuremera…",
+    "saving": "Kuzigama…",
+    "saved": "Yakijijwe.",
+    "uploading": "Kuramo…",
+    "upload": "Kuramo",
+    "uploadError": "Ntushobora kohereza iyi dosiye. Nyamuneka gerageza.",
+    "cancel": "Kureka",
+    "close": "Funga",
+    "edit": "Hindura",
+    "remove": "Kuraho",
+    "saveChanges": "Bika Impinduka",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Umurongo {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Kwerekana {{from}} - {{to}} ya {{total}}",
+    "prev": ". Ibanza",
+    "next": "Ibikurikira →",
+    "page": "Urupapuro {{page}} rwa {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ntushobora kwikorera amakuru yumuryango wawe nonaha.",
+    "title": "{{community}} Apartment Dashboard",
+    "titleFallback": "Ububiko bwawe",
+    "subtitle": "Incamake y'ibikorwa kubikorwa byamazi yo gukoresha no gukoresha urugo.",
+    "comingSoon": "Kuza vuba",
+    "manageCommunity": "Gucunga Umuryango",
+    "noUsageReadings": "Nta bisomwa byakoreshejwe byanditse.",
+    "cards": {
+      "totalHouseholds": "Ingo zose",
+      "occupied": "Yigaruriwe",
+      "activeMeters": "Ibipimo bifatika",
+      "reportingReadings": "Gutanga raporo",
+      "monthlyConsumption": "Ukoresha ukwezi",
+      "thisCalendarMonth": "Uku kwezi",
+      "latestRecordedMonth": "Ukwezi gushize kwanditswe ({{month}})",
+      "noReadingsYet": "Nta bisomwa byanditswe",
+      "pendingAlerts": "Biteganijwe",
+      "anomalyPreview": "Anomaly detection preview - itaraboneka"
+    },
+    "actions": {
+      "label": "Ibikorwa byubuyobozi byihuse",
+      "uploadReadings": "Kuramo Ibipimo Byasomwe",
+      "configureTariffs": "Kugena ibiciro",
+      "reportsNotBuilt": "Raporo ntabwo yubatswe",
+      "downloadReports": "Kuramo Raporo ya Sisitemu"
+    },
+    "chart": {
+      "title": "Kugereranya Ukoresha Ukwezi (kL)",
+      "subtitle": "Amezi ashize {{months}}: intego nibikoreshwa nyabyo.",
+      "targetSeries": "Intego (kureba)",
+      "actualSeries": "Mubyukuri"
+    },
+    "recent": {
+      "title": "Ibisomwa bya vuba",
+      "unit": "Igice",
+      "resident": "Umuturage",
+      "lastReading": "Gusoma kwa nyuma",
+      "consumption": "Gukoresha"
+    }
+  },
+  "households": {
+    "loadError": "Ntushobora kwikorera abaturage. Nyamuneka gerageza.",
+    "fixFields": "Nyamuneka ukosore imirima yamuritswe.",
+    "saveError": "Ntushobora gukiza uyu muturage. Nyamuneka reba ibisobanuro birambuye.",
+    "confirmRemove": "Kuraho {{name}} mububiko bw'ingo zawe?",
+    "removeError": "Ntushobora gukuraho uyu muturage. Nyamuneka gerageza.",
+    "count": "Ingo: {{total}}",
+    "bulkUploadButton": "Up Upload",
+    "addResidentButton": "+ Ongera Umuturage",
+    "searchPlaceholder": "Akayunguruzo ku izina, inzu, imeri, cyangwa metero no.",
+    "loading": "Gutwara abaturage…",
+    "empty": "Nta muturage. Kanda \"Ongera Umuturage\" kugirango wandike urugo rwa mbere.",
+    "noMatch": "Nta muturage uhuye \"{{search}}\".",
+    "sort": {
+      "label": "Gutondekanya na",
+      "name": "Izina",
+      "houseNumber": "Inomero yinzu",
+      "dateOfJoining": "Itariki yo Kwinjira",
+      "toggleDirection": "Hindura icyerekezo",
+      "asc": "Asc",
+      "desc": "↓ Ibimanuka"
+    },
+    "gender": {
+      "male": "Umugabo",
+      "female": "Umugore",
+      "other": "Ibindi"
+    },
+    "table": {
+      "name": "Izina",
+      "houseUnit": "Inzu / Igice",
+      "email": "Imeri",
+      "phone": "Terefone",
+      "meterNumber": "Metero No.",
+      "sqft": "Sqft",
+      "joined": "Yinjiye"
+    },
+    "form": {
+      "addTitle": "Ongeraho Umuturage",
+      "editTitle": "Hindura Umuturage",
+      "editSubtitle": "Ibi bivugurura amakuru yumuturage mububiko bwawe.",
+      "bypassSubtitle": "Urimo gushiraho ijambo ryibanga ryumuturage. Nta imeri izoherezwa.",
+      "addSubtitle": "Gushiraho-ijambo ryibanga bizoherezwa kuri uyu muturage kugirango babashe gukora enterineti.",
+      "fullName": "Izina ryuzuye",
+      "houseNumber": "Inzu / igice no.",
+      "email": "Imeri",
+      "phone": "Numero ya terefone",
+      "meterNumber": "Umubare wa metero",
+      "governmentId": "Indangamuntu ya Leta",
+      "gender": "Uburinganire",
+      "dateOfBirth": "Itariki y'amavuko",
+      "dateOfJoining": "Itariki yo kwinjiramo",
+      "flatSize": "Ingano nini (sq ft)",
+      "bypassLabel": "Ongera wandike imeri-ijambo ryibanga - shiraho ijambo ryibanga kuri uyu muturage ubungubu",
+      "password": "Ijambobanga",
+      "confirmPassword": "Emeza ijambo ryibanga"
+    },
+    "validation": {
+      "fullNameRequired": "Izina ryuzuye rirakenewe.",
+      "emailRequired": "Imeri irakenewe.",
+      "phoneRequired": "Numero ya terefone irakenewe.",
+      "houseNumberRequired": "Inzu / inomero irakenewe.",
+      "houseNumberTaken": "Iyi nimero yinzu yamaze guhabwa undi muturage.",
+      "meterNumberRequired": "Umubare wa metero urakenewe.",
+      "meterNumberFormat": "Umubare wa metero ugomba kumera nka MTR-1234 (imibare 4).",
+      "meterNumberTaken": "Iyi metero nimero yamaze guhabwa undi muturage.",
+      "governmentIdRequired": "Indangamuntu ya leta irakenewe.",
+      "governmentIdFormat": "Indangamuntu igomba kuba imibare 6 itangirana na 99 (urugero: 991234).",
+      "genderRequired": "Nyamuneka hitamo igitsina.",
+      "dateOfBirthRequired": "Itariki y'amavuko irakenewe.",
+      "dateOfJoiningRequired": "Itariki yo kwinjiramo irakenewe.",
+      "passwordRequired": "Ijambobanga rirakenewe.",
+      "passwordLength": "Ijambobanga rigomba kuba byibuze inyuguti 8.",
+      "confirmPasswordRequired": "Nyamuneka wemeze ijambo ryibanga.",
+      "passwordMismatch": "Ijambobanga ntirihuye."
+    },
+    "bulk": {
+      "title": "Kwishyiriraho byinshi",
+      "noFile": "Nyamuneka hitamo dosiye .csv cyangwa .xlsx / .xls kugirango wohereze.",
+      "instructions": "Kuramo dosiye ya .csv cyangwa .xlsx / .xls ifite inkingi <code> {{columns}} </code> (ijambo ryibanga na flatSizeSqft byombi birahinduka). Imirongo hamwe nijambobanga shyira muburyo butaziguye; umurongo utagira umwe ubona imeri-ijambo ryibanga, kimwe no kongeramo umuturage intoki. Kwigana inzu / metero nimero cyangwa imeri byangwa kumurongo - umurongo umwe mubi ntuzatsindwa icyiciro cyose."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ntushobora kwikorera abaturage. Nyamuneka gerageza.",
+    "historyLoadError": "Ntushobora kwikorera amateka yo gusoma. Nyamuneka gerageza.",
+    "successMessage": "Gusoma neza gusoma {{value}} kL kuri {{house}} (Metero: {{meter}})! Ibiharuro bibarwa: {{consumption}} kL.",
+    "tabs": {
+      "single": "Icyinjira kimwe",
+      "csv": "Igice kinini CSV Kuramo",
+      "history": "Gusoma Amateka"
+    },
+    "source": {
+      "manual": "Igitabo",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Uyu muturage nta numero ya metero iri muri dosiye.",
+      "dateRequired": "Itariki yo gusoma irakenewe.",
+      "invalidValue": "Nyamuneka andika agaciro ko gusoma, kutemewe.",
+      "duplicate": "Gusoma kuri iyi metero bimaze kubaho kuri iyo tariki.",
+      "meterNotFound": "Iyi metero ntishobora kuboneka. Nyamuneka ongera uhitemo umuturage.",
+      "lowerThanPrevious": "Iki gisomwa kiri munsi yicyasomwe mbere.",
+      "recordFailed": "Ntushobora kwandika iki gisomwa. Nyamuneka gerageza."
+    },
+    "combo": {
+      "label": "Hitamo Flat & Meter Serial",
+      "placeholder": "Hitamo Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Nta metero",
+      "searchPlaceholder": "Shakisha igorofa oya, metero ikurikirana, umuturage…",
+      "unitsHeader": "Ibice byo guturamo",
+      "found": "Amazu yabonetse: {{total}}",
+      "loading": "Gutwara abaturage…",
+      "noMatch": "Nta muturage uhuye \"{{search}}\".",
+      "unassigned": "Umukono",
+      "itemMeta": "{{name}} · Iheruka: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Gufata amajwi yo gusoma",
+      "context": "Inzu {{house}} · Metero {{meter}}",
+      "changeResident": "Hindura umuturage",
+      "readingDate": "Itariki yo gusoma",
+      "readingValue": "Gusoma Ibipimo Byubu (kL)",
+      "submit": "Tanga Gusoma Byemewe",
+      "recentTitle": "Ibyasomwe vuba aha",
+      "recentEmpty": "Nta bisomwa byanditswe kuri iyi metero."
+    },
+    "info": {
+      "title": "Ikigereranyo cya Monotonic",
+      "body": "Buri gisomwa gishya kigomba kuba kinini cyangwa kingana na logi yabanjirije iyo metero - ibi bituma imibare ikoreshwa neza kandi ifata imibare yahinduwe hakiri kare."
+    },
+    "details": {
+      "title": "Byahiswemo Igice Ibisobanuro",
+      "flatUnit": "Igice cya Flat",
+      "meterSerial": "Ibipimo bya metero",
+      "occupant": "Izina ry'akazi",
+      "lastDial": "Iheruka Kwandika",
+      "noReadings": "Nta bisomwa",
+      "monthConsumption": "Ukoresha ukwezi",
+      "empty": "Nta rugo rwatoranijwe. Shakisha kandi uhitemo umuturage kugirango urebe amakuru ya metero hano."
+    },
+    "csv": {
+      "noFile": "Nyamuneka hitamo dosiye CSV kugirango wohereze.",
+      "instructions": "Kuramo CSV hamwe n'inkingi <code> {{columns}} </code>. Imirongo itunganywa yigenga - umurongo umwe mubi ntuzatsindwa icyiciro cyose."
+    },
+    "history": {
+      "loading": "Kuremera gusoma…",
+      "empty": "Nta bisomwa byanditswe kugeza kubaturage bawe."
+    },
+    "table": {
+      "meterNumber": "Metero No.",
+      "date": "Itariki",
+      "value": "Agaciro (kL)",
+      "consumption": "Gukoresha (kL)",
+      "source": "Inkomoko"
+    }
+  },
+  "billingCycles": {
+    "title": "Amagare yo kwishyuza",
+    "loadError": "Ntushobora kwishyiriraho inyemezabuguzi. Nyamuneka gerageza.",
+    "paymentUpdateError": "Ntushobora kuvugurura iyi fagitire yo kwishyura.",
+    "pdfError": "Ntushobora gukuramo PDF. Nyamuneka gerageza.",
+    "finalizeError": "Ntushobora kurangiza iyi fagitire.",
+    "archiveError": "Ntushobora kubika iyi fagitire.",
+    "loading": "Kuzamura inyemezabuguzi…",
+    "empty": "Nta fagitire yo kwishyuza. Fungura imwe hejuru kugirango utangire.",
+    "status": {
+      "open": "Fungura",
+      "finalized": "Byarangiye",
+      "archived": "Yabitswe"
+    },
+    "open": {
+      "title": "Fungura uburyo bushya bwo kwishyuza",
+      "noMonth": "Nyamuneka hitamo ukwezi gufungura.",
+      "error": "Ntushobora gufungura fagitire yukwezi.",
+      "monthAria": "Ukwezi kwishura",
+      "opening": "Gufungura…",
+      "submit": "Fungura uruziga"
+    },
+    "table": {
+      "period": "Ikiringo",
+      "status": "Imiterere",
+      "householdsBilled": "Ingo zishyurwa",
+      "totalBilled": "Byuzuye",
+      "actions": "Ibikorwa"
+    },
+    "actions": {
+      "finalize": "Kurangiza",
+      "finalizing": "Kurangiza…",
+      "archive": "Ububiko",
+      "archiving": "Ububiko…"
+    },
+    "filter": {
+      "aria": "Shungura ukurikije uko wishyuye",
+      "all": "Byose"
+    },
+    "payment": {
+      "paid": "Yishyuwe",
+      "unpaid": "Yishyuwe",
+      "updating": "Kuvugurura…",
+      "markPaid": "Shyira ahagaragara uko wishyuwe",
+      "markUnpaid": "Shyira ahagaragara ko utishyuwe"
+    },
+    "detail": {
+      "title": "Ibisobanuro birambuye - {{period}}",
+      "loading": "Gutanga inyemezabuguzi…",
+      "notFinalized": "Uru ruzinduko ntirurangira - nta fagitire yatanzwe.",
+      "noInvoices": "Nta fagitire zuru ruzinduko.",
+      "noMatch": "Nta fagitire ihuye niyungurura."
+    },
+    "invoices": {
+      "household": "Urugo",
+      "resident": "Umuturage",
+      "meterNumber": "Metero No.",
+      "consumption": "Gukoresha (kL)",
+      "tierBreakdown": "Gusenyuka",
+      "commonArea": "Agace rusange",
+      "total": "Igiteranyo",
+      "paymentStatus": "Imiterere yo Kwishura",
+      "pdf": "PDF",
+      "baseLine": "Shingiro: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}",
+      "tierLine": "Urwego {{tier}}: {{units}} kL × ₹ {{rate}} = ₹ {{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ntushobora kwishyiriraho ibiciro",
+    "saveError": "Ntushobora kubika ibiciro byamahoro",
+    "chartTitle": "Igipimo gifatika Cyingirakamaro Igipimo Cyiciro",
+    "axisNote": "Ikigereranyo muri ₹ / kL, imbago zerekana kL",
+    "tableTitle": "Imbonerahamwe y'ibiciro",
+    "defaultRatesNote": "Kwerekana ibipimo bisanzwe - bitarabikwa.",
+    "addTier": "Ongeraho Urwego",
+    "saveRates": "Bika ibiciro by'ibiciro",
+    "tierLevel": {
+      "base": "Urwego {{tier}} (Base)",
+      "medium": "Urwego {{tier}} (Hagati)",
+      "heavy": "Urwego {{tier}} (Biremereye)"
+    },
+    "basePrice": {
+      "label": "Igiciro fatizo (₹ / kL, gikoreshwa kuri BYOSE)",
+      "note": "Buri kL yishyuzwa iki gipimo kibanza. Icyapa kiri hepfo ongeraho amafaranga ya EXTRA gusa kubikoresha biri murwego rwabo - icyapa gitangirira kuri 50 kL kongeramo igipimo cyacyo cyo gukoresha hejuru ya 50 kL."
+    },
+    "table": {
+      "tierLevel": "Urwego",
+      "slabLimit": "Umupaka ntarengwa (kL)",
+      "rate": "Igipimo kuri kL",
+      "action": "Igikorwa"
+    },
+    "commonArea": {
+      "title": "Igabana Rusange Igiciro Iboneza",
+      "loadError": "Ntushobora kwikorera ibiciro-bisanzwe byigiciro",
+      "saveError": "Ntushobora kubika ibisanzwe-ibiciro byigiciro",
+      "empty": "Nta kintu cyigiciro cyabitswe kugeza ubu.",
+      "labelPlaceholder": "Ikirango cyibiciro",
+      "perMonth": "/ ukwezi",
+      "active": "Bikora",
+      "addItem": "+ Ongeraho Ikiguzi",
+      "save": "Bika Ibice Rusange Iboneza"
+    },
+    "distribution": {
+      "title": "Uburyo bwo gukwirakwiza ibiciro",
+      "consumption": "Kubikoresha (Sub-metered Proportional)",
+      "floorArea": "Ubunini bwa Flat Ingano (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Itariki yo kwishyuriraho",
+      "cycleStartValue": "Icya 1 cya buri kwezi",
+      "autoInvoices": "Kwikora-Gukora PDF Inyemezabuguzi"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Imipaka irenze",
+      "statisticalOutlier": "Ibarurishamibare"
+    },
+    "status": {
+      "active": "Bikora",
+      "resolved": "Byakemutse",
+      "dismissed": "Kwirukanwa"
+    },
+    "config": {
+      "title": "Kumenyekanisha Iboneza",
+      "subtitle": "Shiraho igipimo cyo gukoresha buri kwezi kandi / cyangwa ushoboze kumenya imibare igaragara (ibendera urugo ibyo ukoresha buri kwezi ari byinshi bidasanzwe ugereranije namateka yarwo).",
+      "loadError": "Ntushobora kwikorera iboneza. Nyamuneka gerageza.",
+      "thresholdRequired": "Ukwezi kurenga (kL) birasabwa mugihe imenyekanisha ntarengwa ryakozwe.",
+      "saveError": "Ntushobora kubika iyi miterere.",
+      "loading": "Ibikoresho byo gupakira…",
+      "threshold": "Ukwezi kurenga (kL)",
+      "sensitivity": "Ibyiyumvo byo hanze (σ kugwiza)",
+      "enableThreshold": "Gushoboza kumenyesha amakuru",
+      "enableOutlier": "Gushoboza imibare yo hanze",
+      "save": "Bika Iboneza",
+      "running": "Kwiruka…",
+      "runNow": "Koresha Ubushishozi Noneho"
+    },
+    "alerts": {
+      "title": "Ingo zamamaye",
+      "loadError": "Ntushobora gupakira imenyesha. Nyamuneka gerageza.",
+      "runError": "Ntushobora gukora ibimenyekanisha muri iki gihe. Nyamuneka gerageza.",
+      "updateError": "Ntushobora kuvugurura iyi mburi. Nyamuneka gerageza.",
+      "allStatuses": "Imimerere yose",
+      "loading": "Kumenyesha imizigo…",
+      "empty": "Nta nteguza yo kwerekana. Shiraho urutonde cyangwa ushoboze gutahura hejuru, hanyuma ukande \"Koresha Detection Noneho\" kugirango usuzume imikoreshereze yabaturage bawe muri iki gihe.",
+      "resolve": "Kemura",
+      "dismiss": "Kwirukana"
+    },
+    "table": {
+      "household": "Urugo",
+      "resident": "Umuturage",
+      "meter": "Metero",
+      "type": "Andika",
+      "period": "Ikiringo",
+      "consumption": "Gukoresha",
+      "reference": "Reba",
+      "status": "Imiterere"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ntushobora gupakira amazi menshi. Nyamuneka gerageza.",
+    "confirmRemove": "Kuraho itangwa rya {{source}} kuri {{date}}?",
+    "removeError": "Ntushobora gukuraho ubu buguzi. Nyamuneka gerageza.",
+    "count": "Kugura byanditswe: {{total}}",
+    "recordButton": "Kugura inyandiko",
+    "loading": "Gutwara amazi menshi…",
+    "empty": "Nta kugura amazi menshi byanditswe. Kanda \"Record Purchase\" kugirango winjire muri tanker cyangwa kugura amakomine.",
+    "table": {
+      "date": "Itariki",
+      "source": "Inkomoko",
+      "volume": "Umubumbe (L)",
+      "unitCost": "Igiciro",
+      "totalCost": "Igiciro cyose",
+      "notes": "Inyandiko"
+    },
+    "form": {
+      "addTitle": "Andika kugura amazi menshi",
+      "editTitle": "Hindura Kugura Amazi menshi",
+      "subtitle": "Kurikirana itangwa rya tanker cyangwa kugura amakomine kumuryango wawe - ibi byanditswe kugirango bigaragare neza kandi ntabwo bigira ingaruka kuri fagitire zo murugo.",
+      "requiredFields": "Nyamuneka wuzuze itariki, inkomoko, ingano, nigiciro cyibiciro.",
+      "saveError": "Ntushobora kubika ubu buguzi. Nyamuneka reba ibisobanuro birambuye.",
+      "purchaseDate": "Itariki yo kugura",
+      "source": "Inkomoko / utanga isoko",
+      "volume": "Umubumbe (litiro)",
+      "unitCost": "Igiciro cyibice (₹ / litiro)",
+      "totalPreview": "Igiciro cyose: {{amount}}",
+      "notes": "Inyandiko (bidashoboka)",
+      "submit": "Kugura inyandiko"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ntabwo yubatswe",
+    "profileSaveError": "Ntushobora kubika umwirondoro wawe. Nyamuneka gerageza.",
+    "apartmentSaveError": "Ntushobora kubika amakuru arambuye. Nyamuneka gerageza.",
+    "specsTitle": "Umwirondoro",
+    "photoUnavailable": "Gukuramo amafoto ntibiraboneka",
+    "changePhoto": "Hindura Ifoto",
+    "deletePhoto": "Siba",
+    "photoHint": "JPG cyangwa PNG. Ingano nini 2MB.",
+    "saveProfile": "Bika Umwirondoro",
+    "apartmentTitle": "Ibisobanuro birambuye",
+    "saveApartment": "Bika Ibisobanuro birambuye",
+    "tabs": {
+      "profile": "Igenamiterere ry'umwirondoro",
+      "apartment": "Umwirondoro w'amagorofa",
+      "notifications": "Amategeko yo kumenyesha",
+      "billing": "Kwishyuza",
+      "security": "Umutekano & Kwinjira"
+    },
+    "fields": {
+      "fullName": "Izina ryuzuye",
+      "email": "Aderesi ya imeri",
+      "emailLocked": "Imeri ntishobora guhinduka hano",
+      "phone": "Numero ya terefone",
+      "accessLevel": "Urwego",
+      "accessLevelValue": "Umuyobozi wabaturage",
+      "roleLocked": "Uruhare rwinshingano ntiruraboneka",
+      "apartmentName": "Izina ryinzu",
+      "mainsSource": "Inkomoko",
+      "mainsSourcePlaceholder": "urugero Isoko rya komine + Tankers yinyongera",
+      "address": "Aderesi yumubiri"
+    },
+    "security": {
+      "title": "Umutekano & Kwinjira",
+      "twoFactor": "Kwemeza Ibintu bibiri",
+      "twoFactorHint": "Gushoboza kwinjira",
+      "twoFactorUnavailable": "Kwemeza ibintu bibiri ntibiraboneka",
+      "twoFactorAria": "Kwemeza ibintu bibiri (kureba gusa)",
+      "sessionsLabel": "Amasomo akomeye ya Admin",
+      "sessionsEmpty": "Gukurikirana amasomo ntibiraboneka - ibi nibisobanuro byimiterere iri imbere."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Amatike yanjye",
+      "inbox": "Amatike yo gutura"
+    },
+    "mine": {
+      "title": "Amatike yo Gushyigikira",
+      "subtitle": "Baza ikibazo cyangwa impungenge kubyerekeye umuryango wawe kuri Admin Sisitemu.",
+      "emptyCreateHint": "Baza ikibazo cyangwa impungenge kubyerekeye umuryango wawe. Umuyobozi wa sisitemu azasubiramo kandi asubize hano."
+    },
+    "inbox": {
+      "title": "Amatike yo gutura",
+      "subtitle": "Shigikira amatike hamwe nibibazo abatuye mugace batuyemo."
+    }
+  }
+}

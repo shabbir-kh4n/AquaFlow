@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Baldaŭ venos",
+    "welcome": {
+      "greeting": "Saluton {{name}},",
+      "greetingFallback": "Saluton,",
+      "title": "Restu proksime al la akvorakonto de via hejmo.",
+      "subtitle": "Uzado kaj fakturaj scioj aperos ĉi tie dum via komunumo registras legadojn.",
+      "viewBadges": "Vidu Eko-Insignon"
+    },
+    "stats": {
+      "todaysUsage": "Hodiaŭa Uzado",
+      "asOf": "Ekde {{date}}",
+      "noReading": "Ankoraŭ neniu metrolegado",
+      "monthlyTotalFor": "Monata sumo ({{month}})",
+      "monthlyTotalThisMonth": "Monata sumo (ĉi-monate)",
+      "sumOfReadings": "Sumo de registritaj legaĵoj",
+      "estimatedBill": "Nuna Taksita Bill",
+      "estimatedBillFor": "Mezurita uzokutimo + komunaj kostoj, {{month}}",
+      "estimatedBillHint": "Surbaze de la mezurita konsumo kaj komunaj kostoj de ĉi tiu monato",
+      "savings": "Ŝparaĵoj kontraŭ Konstruaĵo Avg",
+      "savingsValue": "{{percent}}% Malpli",
+      "savingsPreview": "Antaŭrigardo nur — komparo ankoraŭ ne viva"
+    },
+    "consumption": {
+      "eyebrow": "Konsumo",
+      "title": "Ĉiutaga Konsumo (Lastaj 14 Legoj)",
+      "seriesName": "Konsumo",
+      "empty": "Neniuj legaĵoj ankoraŭ registritaj."
+    },
+    "breakdown": {
+      "eyebrow": "Panaso",
+      "title": "Uzado-Difekto",
+      "bathroom": "Banĉambro",
+      "kitchen": "Kuirejo",
+      "garden": "Ĝardeno / Balkono",
+      "other": "Aliaj / Lavejo"
+    },
+    "billing": {
+      "eyebrow": "Fakturado",
+      "title": "Aktiva Faktura Ciklo",
+      "finalized": "Finiĝis",
+      "preview": "Antaŭrigardo",
+      "meteredConsumption": "Mezurita konsumo",
+      "tierPriceLevel": "Nivela preza nivelo",
+      "tierLabel": "Nivelo {{tier}}",
+      "commonArea": "Komuna areo-dividado",
+      "commonAreaPreview": "Komuna areodividado (antaŭprezento)",
+      "invoiceTotal": "{{period}} fakturo entute",
+      "estimatedCharge": "Nuna taksita ŝarĝo",
+      "commonAreaBreakdown": "Komuna areo rompo",
+      "payPreview": "Antaŭrigardo de Pay Bill",
+      "payUnavailable": "Faktura motoro ankoraŭ ne havebla"
+    },
+    "tips": {
+      "eyebrow": "Konsiletoj",
+      "title": "Inteligentaj Konsiloj pri Ŝparado",
+      "viewAll": "Rigardu ĉiujn",
+      "empty": "Personigitaj konsiletoj aperas ĉi tie post kiam via komunumo finas fakturan ciklon."
+    },
+    "community": "Komunumo: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ne eblis ŝargi vian uzhistorion. Bonvolu provi denove.",
+    "loading": "Ŝargante viajn analizojn pri uzado...",
+    "empty": "Neniuj legaĵoj ankoraŭ registritaj. Post kiam via komunumo registras mezurilon, ĝi aperos ĉi tie.",
+    "tabs": {
+      "lastSixMonths": "Lastaj 6 Monatoj",
+      "customRange": "Propra Gamo",
+      "comingSoon": "Baldaŭ venos"
+    },
+    "peakDay": "Pinta Tago:",
+    "lowestDay": "Plej Malalta Tago:",
+    "comparison": {
+      "title": "Domana Konsumo vs Apartamenta Mezumo",
+      "subtitle": "Monataj totaloj montritaj en kilolitroj (kL).",
+      "yourHousehold": "Via Domanaro",
+      "apartmentAverage": "Apartamenta Mezumo",
+      "similarSized": "Similgrandaj Hejmoj"
+    },
+    "heatmap": {
+      "title": "Taga Konsumo Varmomapo",
+      "subtitle": "Kolorintenseco flagas pezajn uztagojn (antaŭprezento)."
+    },
+    "ranking": {
+      "title": "Komunuma Peer Ranking",
+      "subtitle": "Via rango kompare kun similaj unuoj (antaŭprezento).",
+      "ecoSaver": "Aktiva Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Unuo {{number}}",
+      "yourUnit": "Via unuo",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Vi)"
+    }
+  },
+  "billing": {
+    "loadError": "Ne eblis ŝargi vian fakturan historion. Bonvolu provi denove.",
+    "pdfError": "Ne eblis elŝuti la PDF. Bonvolu provi denove.",
+    "loading": "Ŝarĝante vian fakturan historion...",
+    "empty": "Ankoraŭ neniuj fakturoj — post kiam via komunumo finos fakturan ciklon, viaj fakturoj aperos ĉi tie.",
+    "status": {
+      "paid": "Pagita",
+      "unpaid": "Nepagita"
+    },
+    "summary": {
+      "outstandingBalance": "Elstara Ekvilibro",
+      "billingCycle": "Faktura Ciklo: {{period}}",
+      "allPaid": "Ĉiuj fakturoj estas pagitaj",
+      "payTotal": "Pagu Totalon Elstara",
+      "payTotalUnavailable": "Enreta pago ankoraŭ ne haveblas — pagu fakturojn rekte kun via komunuma administranto",
+      "downloadSummary": "Elŝutu Bill-Resumon",
+      "downloadSummaryUnavailable": "Elŝuto de resumaj fakturo ankoraŭ ne haveblas"
+    },
+    "history": {
+      "title": "Historio de Fakturoj",
+      "exportCsv": "Eksporti Ĉion al CSV",
+      "exportUnavailable": "CSV eksporto ankoraŭ ne haveblas"
+    },
+    "table": {
+      "cycle": "Ciklo",
+      "usage": "Uzado (kL)",
+      "amountDue": "Kvanto Paga",
+      "paymentStatus": "Paga Statuso",
+      "hideBreakdown": "Kaŝi difekton ↑",
+      "showBreakdown": "Itemized Breakout ↓",
+      "downloading": "Elŝutante…",
+      "pdf": "PDF",
+      "pay": "Pagu"
+    },
+    "breakdown": {
+      "householdTitle": "Romo de Hejma Konsumado",
+      "basePrice": "Baza Prezo: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Nivelo {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Subtotala Mezurita Uzado",
+      "commonAreaTitle": "Komuna Areo Porcio",
+      "subtotalShared": "Subtotala Komuna Areo",
+      "noCommonArea": "Neniuj komunaj komunregionaj kostoj por ĉi tiu ciklo."
+    },
+    "pagination": {
+      "showing": "Montrante {{from}}–{{to}} el {{total}}",
+      "prev": "← Antaŭa",
+      "next": "Sekva →",
+      "page": "Paĝo {{page}} el {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Pagmetodoj (antaŭrigardo)",
+      "description": "Enreta pago ankoraŭ ne haveblas — fakturoj estas pagataj rekte kun via komunuma administranto.",
+      "manage": "Administri Pagajn Metodojn",
+      "manageUnavailable": "Pagmetodoj ankoraŭ ne haveblas"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Sekurigita de Razorpay",
+    "billingCycle": "Faktura Ciklo {{period}}",
+    "close": "Fermu",
+    "amountPayable": "Sumo Pagebla",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kartoj",
+      "netbanking": "Retbankado",
+      "wallet": "Monujo"
+    },
+    "upi": {
+      "title": "Pagu per UPI",
+      "upiId": "UPI ID",
+      "or": "AŬ",
+      "scan": "Skanu per iu ajn UPI apo"
+    },
+    "card": {
+      "title": "Pagu per Karto",
+      "number": "Karta Nombro",
+      "expiry": "Eksvalidiĝo",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Nomo sur Karto",
+      "namePlaceholder": "Kiel presite sur karto"
+    },
+    "netbanking": {
+      "title": "Pagu per Netbanking"
+    },
+    "wallet": {
+      "title": "Pagu per Monujo"
+    },
+    "payAmount": "Pagu ₹{{amount}}",
+    "processing": "Prilaboras vian pagon...",
+    "processingHint": "Bonvolu ne premi reen aŭ refreŝigi ĉi tiun paĝon",
+    "success": "Pago Sukcesa",
+    "error": "Io misfunkciis konfirmante vian pagon. Bonvolu provi denove.",
+    "retry": "Reprovi"
+  },
+  "notifications": {
+    "loadError": "Ne eblis ŝargi viajn sciigojn. Bonvolu provi denove.",
+    "loading": "Ŝargante viajn sciigojn...",
+    "empty": "Ankoraŭ neniuj sciigoj — vi vidos ion ĉi tie se via komunuma administranto ebligis avertojn pri uzado-sojlo aŭ nekutima konsumo kaj unu estas ekigita por via domanaro.",
+    "type": {
+      "thresholdExceeded": "Konsumado-Sojlo Superita",
+      "statisticalOutlier": "Nekutima Konsumo Detektita"
+    },
+    "status": {
+      "active": "Aktiva",
+      "resolved": "Solvita",
+      "dismissed": "Forigita"
+    },
+    "billingPeriod": "Faktura periodo: {{period}}",
+    "consumption": "Konsumo: {{value}} kL",
+    "push": {
+      "title": "Puŝaj sciigoj",
+      "description": "Ricevu sciigon sur ĉi tiu aparato kiam nova fakturo aŭ atentigo venas.",
+      "enable": "Ebligu",
+      "disable": "Malebligu",
+      "permissionDenied": "Sciiga permeso ne estis donita.",
+      "notConfigured": "Puŝaj sciigoj ankoraŭ ne estas agorditaj. Kontaktu vian administranton.",
+      "enableError": "Ne eblis ebligi puŝajn sciigojn. Bonvolu provi denove.",
+      "disableError": "Ne eblis malŝalti puŝajn sciigojn. Bonvolu provi denove."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ne eblis ŝargi viajn rekomendojn. Bonvolu provi denove.",
+    "loading": "Ŝarĝante viajn personecigitajn konsiletojn...",
+    "generated": "Generita {{date}}",
+    "generatedForPeriod": "Generita {{date}} por faktura periodo {{period}}",
+    "eyebrow": "Personigita por vi",
+    "title": "Inteligentaj Akvoŝparaj Konsiloj",
+    "empty": "Ankoraŭ neniuj konsiloj generitaj — ĉi tiuj estas aŭtomate refreŝigitaj ĉiufoje kiam via komunumo finas fakturan ciklon por via domanaro."
+  },
+  "support": {
+    "title": "Loĝanto Subteno & Koncernoj Tablo",
+    "subtitle": "Sendu raportojn pri akvofluado, petojn pri mezuriloj aŭ fakturajn demandojn rekte al via komunuma administranto kaj/aŭ Sistemadministranto.",
+    "emptyCreateHint": "Priskribu vian problemon aŭ zorgon ĉi-sube, kaj elektu, kiu devas trakti ĝin."
+  }
+}

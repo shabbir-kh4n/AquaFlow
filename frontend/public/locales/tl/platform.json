@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktibo",
+    "blocked": "Na-block",
+    "terminated": "Tinapos"
+  },
+  "sort": {
+    "sortBy": "Pagbukud-bukurin ayon sa",
+    "toggleDirection": "I-toggle ang direksyon ng pag-uuri",
+    "asc": "↑ Asc",
+    "desc": "↓ Desk"
+  },
+  "pagination": {
+    "showing": "Ipinapakita ang {{from}}–{{to}} ng {{total}}",
+    "prev": "← Nakaraan",
+    "next": "Susunod →",
+    "page": "Pahina {{page}} ng {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Pangkalahatang-ideya ng Platform",
+    "subtitle": "Bawat nakarehistrong admin ng komunidad, sa buong HydroLedger platform.",
+    "viewAll": "Tingnan ang Lahat ng Komunidad",
+    "loadError": "Hindi ma-load ang data ng platform sa ngayon.",
+    "cards": {
+      "totalCommunities": "Kabuuang Komunidad",
+      "registeredAdmins": "Mga rehistradong admin",
+      "totalResidents": "Kabuuang mga residente",
+      "acrossAllCommunities": "Sa lahat ng komunidad",
+      "active": "Aktibo",
+      "inGoodStanding": "Sa magandang katayuan",
+      "blockedTerminated": "Na-block / Tinapos",
+      "blockedTerminatedBreakdown": "{{blocked}} hinarangan, {{terminated}} winakasan"
+    },
+    "recent": {
+      "title": "Mga Kamakailang Rehistradong Komunidad",
+      "loading": "Naglo-load…",
+      "empty": "Wala pang nakarehistrong komunidad.",
+      "table": {
+        "community": "Komunidad",
+        "admin": "Admin",
+        "status": "Katayuan",
+        "residents": "Mga residente"
+      }
+    }
+  },
+  "communities": {
+    "count": "Mga Komunidad: {{count}}",
+    "loadError": "Hindi ma-load ang mga komunidad. Pakisubukang muli.",
+    "searchPlaceholder": "I-filter ayon sa komunidad, pangalan ng admin, o email",
+    "statusFilter": {
+      "label": "Katayuan",
+      "all": "Lahat"
+    },
+    "sortOptions": {
+      "community": "Komunidad",
+      "admin": "Admin",
+      "residents": "Mga residente"
+    },
+    "loading": "Nilo-load ang mga komunidad...",
+    "empty": "Wala pang nakarehistrong komunidad.",
+    "noMatch": "Walang mga komunidad na tumutugma sa iyong mga filter.",
+    "table": {
+      "community": "Komunidad",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Katayuan",
+      "residents": "Mga residente",
+      "view": "Tingnan"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Hindi ma-load ang komunidad na ito. Maaaring naalis na ito.",
+    "statusUpdateError": "Hindi ma-update ang status ng komunidad na ito.",
+    "deleteError": "Hindi matanggal ang komunidad na ito.",
+    "loading": "Nilo-load ang komunidad...",
+    "notFound": "Hindi nahanap ang komunidad.",
+    "backLink": "← Bumalik sa Mga Komunidad",
+    "backLinkShort": "Bumalik sa Mga Komunidad",
+    "eyebrow": "Profile ng Komunidad",
+    "unnamed": "Hindi pinangalanang komunidad",
+    "noAddress": "Walang address sa file",
+    "stats": {
+      "residents": "Mga residente",
+      "status": "Katayuan"
+    },
+    "actions": {
+      "reactivate": "Muling isaaktibo",
+      "block": "I-block",
+      "terminate": "Tapusin",
+      "delete": "Tanggalin ang Komunidad"
+    },
+    "blockDialog": {
+      "title": "I-block ang admin ng komunidad na ito?",
+      "message": "I-block si {{name}}? Hindi sila makakapag-log in hanggang sa ma-unblock. Walang data na maaapektuhan.",
+      "confirm": "I-block"
+    },
+    "terminateDialog": {
+      "title": "Wakasan ang admin ng komunidad na ito?",
+      "message": "Permanenteng wakasan ang pag-access ni {{name}}? Hindi na ito mababawi, kahit na ang data ng kanilang komunidad ay pananatilihin para sa mga talaan.",
+      "confirm": "Tapusin"
+    },
+    "deleteDialog": {
+      "title": "Tanggalin ang komunidad na ito?",
+      "message": "Permanente nitong tatanggalin ang <strong>{{name}}</strong> at ang lahat ng sambahayan, residente, metro, configuration ng taripa/pagsingil, at kasaysayan ng invoice nito. Ang pagkilos na ito ay hindi maaaring i-undo.",
+      "typeToConfirm": "I-type ang <strong>{{word}}</strong> para magpatuloy",
+      "confirm": "Kumpirmahin"
+    },
+    "residents": {
+      "title": "Mga residente",
+      "registeredCount": "Nakarehistro: {{count}}",
+      "empty": "Wala pang residenteng nakarehistro sa komunidad na ito.",
+      "table": {
+        "flatUnit": "Flat Unit",
+        "meter": "Metro",
+        "resident": "Residente",
+        "email": "Email",
+        "passwordSet": "Itakda ang Password"
+      },
+      "yes": "Oo",
+      "no": "Hindi"
+    },
+    "cancel": "Kanselahin",
+    "working": "Nagtatrabaho…",
+    "deleting": "Tinatanggal…"
+  },
+  "systemStatus": {
+    "statusError": "Hindi maabot ang backend upang suriin ang status ng system.",
+    "metricsError": "Hindi ma-load ang kasaysayan ng sukatan.",
+    "ranges": {
+      "fiveMinutes": "5 Minuto",
+      "fifteenMinutes": "15 Minuto",
+      "hour": "Oras",
+      "day": "Araw",
+      "week": "Linggo",
+      "month": "buwan",
+      "threeMonths": "3 Buwan"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Mga kahilingan/seg",
+      "opsPerSec": "Ops/seg",
+      "latency": "Latency",
+      "lastValue": "{{value}} huli",
+      "loading": "Naglo-load…",
+      "empty": "Wala pang naitala na sukatan para sa hanay na ito."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Huli: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Sinusuri…",
+      "reachable": "Maaabot",
+      "unreachable": "Hindi maabot",
+      "connected": "Nakakonekta",
+      "backendApiHint": "Nag-load ang page na ito mula sa backend, kaya tumugon ito.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL connectivity, nasuri nang live.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Mula noong nag-restart ang huling application.",
+      "appVersion": "Bersyon ng App",
+      "appVersionHint": "Backend build na bersyon."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Nagbabasa ng Latency",
+      "writesLatency": "Nagsusulat ng Latency",
+      "otherLatency": "Iba pang Latency",
+      "connections": "Mga koneksyon",
+      "totalKeys": "Kabuuang Mga Susi"
+    },
+    "note": "Ang mga kahilingan/seg at latency ay na-sample mula sa live na trapiko sa backend bawat 15 segundo at pinapanatili nang hanggang 100 araw. Isa itong pangunahing koneksyon + pagsusuri sa trapiko — hindi nito pinapalitan ang buong pagsubaybay sa pagganap ng application, pagsasama-sama ng log, o pag-alerto."
+  },
+  "reports": {
+    "loadError": "Hindi ma-load ang ulat sa platform.",
+    "ranges": {
+      "threeMonths": "3 Buwan",
+      "sixMonths": "6 na buwan",
+      "twelveMonths": "12 Buwan",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Komunidad",
+      "usage": "Paggamit",
+      "billed": "Sinisingil",
+      "residents": "Mga residente"
+    },
+    "customRange": {
+      "from": "Mula sa",
+      "to": "Upang",
+      "hint": "Pumili ng parehong buwan na \"mula\" at \"hanggang\" para mag-load ng custom na ulat."
+    },
+    "loading": "Nilo-load ang ulat…",
+    "cards": {
+      "totalCommunities": "Kabuuang Komunidad",
+      "inThisRange": "Sa saklaw na ito",
+      "totalResidents": "Kabuuang mga residente",
+      "acrossAllCommunities": "Sa lahat ng komunidad",
+      "overallUsage": "Pangkalahatang Paggamit",
+      "meteredConsumption": "Meter na pagkonsumo",
+      "overallBilled": "Pangkalahatang Sinisingil",
+      "finalizedInvoicesOnly": "Mga na-finalize na invoice lang",
+      "avgUsagePerResident": "Avg na Paggamit / Residente",
+      "avgBillPerResident": "Avg Bill / Residente"
+    },
+    "charts": {
+      "usageTitle": "Paggamit sa buong platform (kL / buwan)",
+      "usageEmpty": "Walang naitala na paggamit para sa hanay na ito.",
+      "usageSeries": "Paggamit",
+      "billedTitle": "Nasisingil na Halaga sa buong platform (₹ / buwan)",
+      "billedEmpty": "Walang na-finalize na mga invoice para sa hanay na ito.",
+      "billedSeries": "Sinisingil"
+    },
+    "searchPlaceholder": "I-filter ayon sa pangalan ng komunidad o admin",
+    "empty": "Wala pang mga komunidad ang may data ng paggamit o pagsingil para sa hanay na ito.",
+    "noMatch": "Walang mga komunidad na tumutugma sa iyong filter.",
+    "table": {
+      "community": "Komunidad",
+      "admin": "Admin",
+      "residents": "Mga residente",
+      "usage": "Paggamit (kL)",
+      "billed": "Sinisingil (₹)",
+      "avgUsagePerResident": "Avg na Paggamit / Residente",
+      "avgBillPerResident": "Avg Bill / Residente"
+    }
+  },
+  "supportTickets": {
+    "title": "Mga Ticket ng Suporta",
+    "subtitle": "Suportahan ang mga tiket at alalahanin na ibinangon ng mga residente at mga admin ng komunidad, sa buong platform."
+  }
+}

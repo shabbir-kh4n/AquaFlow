@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Belastning…",
+    "saving": "Sparande…",
+    "saved": "Sparad.",
+    "uploading": "Laddar upp...",
+    "upload": "Ladda upp",
+    "uploadError": "Det gick inte att ladda upp den här filen. Försök igen.",
+    "cancel": "Avboka",
+    "close": "Nära",
+    "edit": "Redigera",
+    "remove": "Ta bort",
+    "saveChanges": "Spara ändringar",
+    "bulkSummary": "Bearbetade <b>{{total}}</b> rader — <b>{{success}}</b> lyckades, <b>{{failure}}</b> misslyckades.",
+    "rowFailure": "Rad {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Visar {{from}}–{{to}} av {{total}}",
+    "prev": "← Föreg",
+    "next": "Nästa →",
+    "page": "Sida {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Det gick inte att ladda din gruppdata just nu.",
+    "title": "{{community}} Dashboard för lägenhet",
+    "titleFallback": "Dashboard för din lägenhet",
+    "subtitle": "Verksamhetsöversikt för vattenverkets delmätning och hushållsförbrukning.",
+    "comingSoon": "Kommer snart",
+    "manageCommunity": "Hantera gemenskapen",
+    "noUsageReadings": "Inga användningsavläsningar registrerade ännu.",
+    "cards": {
+      "totalHouseholds": "Totalt hushåll",
+      "occupied": "Ockuperade",
+      "activeMeters": "Aktiva mätare",
+      "reportingReadings": "Rapportera avläsningar",
+      "monthlyConsumption": "Månadsförbrukning",
+      "thisCalendarMonth": "Denna kalendermånad",
+      "latestRecordedMonth": "Senaste inspelade månaden ({{month}})",
+      "noReadingsYet": "Inga avläsningar registrerade ännu",
+      "pendingAlerts": "Väntande varningar",
+      "anomalyPreview": "Förhandsgranskning av anomalidetektering — inte tillgänglig ännu"
+    },
+    "actions": {
+      "label": "Snabba administrativa åtgärder",
+      "uploadReadings": "Ladda upp mätaravläsningar",
+      "configureTariffs": "Konfigurera tariffer",
+      "reportsNotBuilt": "Rapporter har inte skapats ännu",
+      "downloadReports": "Ladda ner systemrapporter"
+    },
+    "chart": {
+      "title": "Månatlig förbrukningsjämförelse (kL)",
+      "subtitle": "Senaste {{months}} månaderna: mål kontra faktisk förbrukning.",
+      "targetSeries": "Mål (förhandsgranskning)",
+      "actualSeries": "Faktisk"
+    },
+    "recent": {
+      "title": "Senaste mätaravläsningar",
+      "unit": "Enhet",
+      "resident": "Bosatt",
+      "lastReading": "Senaste läsning",
+      "consumption": "Konsumtion"
+    }
+  },
+  "households": {
+    "loadError": "Kunde inte ladda invånare. Försök igen.",
+    "fixFields": "Vänligen åtgärda de markerade fälten.",
+    "saveError": "Det gick inte att rädda den här invånaren. Kontrollera detaljerna.",
+    "confirmRemove": "Ta bort {{name}} från din hushållskatalog?",
+    "removeError": "Det gick inte att ta bort denna invånare. Försök igen.",
+    "count": "Hushåll: {{total}}",
+    "bulkUploadButton": "⇪ Massuppladdning",
+    "addResidentButton": "+ Lägg till invånare",
+    "searchPlaceholder": "Filtrera efter namn, hus, e-post eller mätarnummer.",
+    "loading": "Laddar invånare...",
+    "empty": "Inga invånare ännu. Klicka på \"Lägg till boende\" för att registrera det första hushållet.",
+    "noMatch": "Inga invånare matchar \"{{search}}\".",
+    "sort": {
+      "label": "Sortera efter",
+      "name": "Namn",
+      "houseNumber": "Husnummer",
+      "dateOfJoining": "Datum för anslutning",
+      "toggleDirection": "Växla sorteringsriktning",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Manlig",
+      "female": "Kvinnlig",
+      "other": "Andra"
+    },
+    "table": {
+      "name": "Namn",
+      "houseUnit": "Hus / Enhet",
+      "email": "E-post",
+      "phone": "Telefon",
+      "meterNumber": "Mätare nr.",
+      "sqft": "Sqft",
+      "joined": "Anslöt sig"
+    },
+    "form": {
+      "addTitle": "Lägg till invånare",
+      "editTitle": "Redigera invånare",
+      "editSubtitle": "Detta uppdaterar invånarens uppgifter i din katalog.",
+      "bypassSubtitle": "Du ställer in den här boendes lösenord direkt. Inget e-postmeddelande kommer att skickas.",
+      "addSubtitle": "En länk med inställt lösenord kommer att skickas till denna invånare så att de kan aktivera sin egen inloggning.",
+      "fullName": "Fullständigt namn",
+      "houseNumber": "Hus / enhet nr.",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "meterNumber": "Mätarnummer",
+      "governmentId": "Regeringens ID",
+      "gender": "Kön",
+      "dateOfBirth": "Födelsedatum",
+      "dateOfJoining": "Datum för anslutning",
+      "flatSize": "Platt storlek (sq ft)",
+      "bypassLabel": "Förbigå set-lösenord e-post — ange ett lösenord för den här boende nu",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta lösenord"
+    },
+    "validation": {
+      "fullNameRequired": "Fullständigt namn krävs.",
+      "emailRequired": "E-post krävs.",
+      "phoneRequired": "Telefonnummer krävs.",
+      "houseNumberRequired": "Hus-/enhetsnummer krävs.",
+      "houseNumberTaken": "Detta husnummer är redan tilldelat en annan boende.",
+      "meterNumberRequired": "Mätarnummer krävs.",
+      "meterNumberFormat": "Mätarnumret måste se ut som MTR-1234 (4 siffror).",
+      "meterNumberTaken": "Detta mätarnummer är redan tilldelat en annan boende.",
+      "governmentIdRequired": "Statligt ID krävs.",
+      "governmentIdFormat": "ID måste vara 6 siffror som börjar med 99 (t.ex. 991234).",
+      "genderRequired": "Välj ett kön.",
+      "dateOfBirthRequired": "Födelsedatum krävs.",
+      "dateOfJoiningRequired": "Datum för anslutning krävs.",
+      "passwordRequired": "Lösenord krävs.",
+      "passwordLength": "Lösenordet måste vara minst 8 tecken.",
+      "confirmPasswordRequired": "Vänligen bekräfta lösenordet.",
+      "passwordMismatch": "Lösenord stämmer inte överens."
+    },
+    "bulk": {
+      "title": "Invånare i massuppladdning",
+      "noFile": "Välj en .csv- eller .xlsx/.xls-fil att ladda upp.",
+      "instructions": "Ladda upp en .csv- eller .xlsx/.xls-fil med kolumnerna <code>{{columns}}</code> (lösenord och flatSizeSqft är båda valfria). Rader med ett lösenord ställer in det direkt; rader utan en får ett e-postmeddelande med ett lösenord, samma som att lägga till en invånare manuellt. Dubbletter av hus-/mätarnummer eller e-postmeddelanden avvisas per rad – en felaktig rad kommer inte att misslyckas med hela partiet."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Kunde inte ladda invånare. Försök igen.",
+    "historyLoadError": "Det gick inte att ladda läshistoriken. Försök igen.",
+    "successMessage": "Inspelad avläsning av {{value}} kL för {{house}} (Mätare: {{meter}})! Beräknad förbrukning: {{consumption}} kL.",
+    "tabs": {
+      "single": "Single Entry",
+      "csv": "Massuppladdning CSV",
+      "history": "Läsa historia"
+    },
+    "source": {
+      "manual": "Manuell",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Denna invånare har inget mätarnummer registrerat.",
+      "dateRequired": "Läsdatum krävs.",
+      "invalidValue": "Ange ett giltigt, icke-negativt läsvärde.",
+      "duplicate": "En avläsning för denna mätare finns redan på det datumet.",
+      "meterNotFound": "Denna mätare kunde inte hittas. Vänligen välj den boende igen.",
+      "lowerThanPrevious": "Denna avläsning är lägre än den tidigare registrerade avläsningen.",
+      "recordFailed": "Det gick inte att spela in den här läsningen. Försök igen."
+    },
+    "combo": {
+      "label": "Välj Flat & Meter Serial",
+      "placeholder": "Välj Flat & Meter Serial...",
+      "flat": "Platt {{house}}",
+      "noMeter": "Ingen mätare",
+      "searchPlaceholder": "Sök lägenhet nr, mätare serie, boende...",
+      "unitsHeader": "Bostadsenheter",
+      "found": "Hittade lägenheter: {{total}}",
+      "loading": "Laddar invånare...",
+      "noMatch": "Inga invånare matchar \"{{search}}\".",
+      "unassigned": "Otilldelad",
+      "itemMeta": "{{name}} · Senaste: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Spela in en läsning för",
+      "context": "Hus {{house}} · Mätare {{meter}}",
+      "changeResident": "Byt boende",
+      "readingDate": "Läsdatum",
+      "readingValue": "Aktuell mätaravläsning (kL)",
+      "submit": "Skicka in validerad läsning",
+      "recentTitle": "Senaste läsningar",
+      "recentEmpty": "Inga avläsningar registrerade ännu för denna mätare."
+    },
+    "info": {
+      "title": "Monotonisk mätarvalidering",
+      "body": "Varje ny avläsning måste vara större än eller lika med den tidigare loggen för den mätaren – detta håller förbrukningsberäkningarna korrekta och fångar transponerade siffror tidigt."
+    },
+    "details": {
+      "title": "Valda enhetsdetaljer",
+      "flatUnit": "Platt enhet",
+      "meterSerial": "Mätare serie",
+      "occupant": "Boendes namn",
+      "lastDial": "Senast inspelade uppringning",
+      "noReadings": "Inga avläsningar ännu",
+      "monthConsumption": "Månadsförbrukning",
+      "empty": "Inget hushåll valt. Sök och välj en invånare för att se deras mätarinformation här."
+    },
+    "csv": {
+      "noFile": "Välj en CSV fil att ladda upp.",
+      "instructions": "Ladda upp en CSV med kolumner <code>{{columns}}</code>. Rader bearbetas oberoende – en dålig rad kommer inte att misslyckas med hela batchen."
+    },
+    "history": {
+      "loading": "Läser in avläsningar...",
+      "empty": "Inga avläsningar har registrerats ännu för din grupp."
+    },
+    "table": {
+      "meterNumber": "Mätare nr.",
+      "date": "Datum",
+      "value": "Värde (kL)",
+      "consumption": "Förbrukning (kL)",
+      "source": "Källa"
+    }
+  },
+  "billingCycles": {
+    "title": "Faktureringscykler",
+    "loadError": "Det gick inte att läsa in faktureringscykler. Försök igen.",
+    "paymentUpdateError": "Det gick inte att uppdatera denna fakturas betalningsstatus.",
+    "pdfError": "Det gick inte att ladda ned PDF. Försök igen.",
+    "finalizeError": "Det gick inte att slutföra den här faktureringsperioden.",
+    "archiveError": "Det gick inte att arkivera den här faktureringscykeln.",
+    "loading": "Läser in faktureringscykler...",
+    "empty": "Inga faktureringscykler ännu. Öppna en ovan för att komma igång.",
+    "status": {
+      "open": "Öppna",
+      "finalized": "Avslutad",
+      "archived": "Arkiverad"
+    },
+    "open": {
+      "title": "Öppna en ny faktureringscykel",
+      "noMonth": "Välj en månad att öppna.",
+      "error": "Det gick inte att öppna en faktureringscykel för den månaden.",
+      "monthAria": "Faktureringsperiod månad",
+      "opening": "Öppning…",
+      "submit": "Öppna cykel"
+    },
+    "table": {
+      "period": "Period",
+      "status": "Status",
+      "householdsBilled": "Hushållen fakturerade",
+      "totalBilled": "Totalt fakturerat",
+      "actions": "Åtgärder"
+    },
+    "actions": {
+      "finalize": "Avsluta",
+      "finalizing": "Slutför...",
+      "archive": "Arkiv",
+      "archiving": "Arkiverar..."
+    },
+    "filter": {
+      "aria": "Filtrera efter betalningsstatus",
+      "all": "Alla"
+    },
+    "payment": {
+      "paid": "Betalt",
+      "unpaid": "Obetald",
+      "updating": "Uppdaterar...",
+      "markPaid": "Markera som betald",
+      "markUnpaid": "Markera som obetalt"
+    },
+    "detail": {
+      "title": "Cykeldetalj — {{period}}",
+      "loading": "Läser in fakturor...",
+      "notFinalized": "Denna cykel har inte slutförts ännu – inga fakturor har genererats.",
+      "noInvoices": "Inga fakturor för denna cykel.",
+      "noMatch": "Inga fakturor matchar detta filter."
+    },
+    "invoices": {
+      "household": "Hushåll",
+      "resident": "Bosatt",
+      "meterNumber": "Mätare nr.",
+      "consumption": "Förbrukning (kL)",
+      "tierBreakdown": "Nivåuppdelning",
+      "commonArea": "Gemensamt område",
+      "total": "Total",
+      "paymentStatus": "Betalningsstatus",
+      "pdf": "PDF",
+      "baseLine": "Bas: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivå {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Det gick inte att ladda tariffkonfigurationen",
+    "saveError": "Det gick inte att spara tariffkonfigurationen",
+    "chartTitle": "Active Metered Utility Rate Tiers",
+    "axisNote": "Betygsätt i ₹/kL, skivgränser i kL",
+    "tableTitle": "Tabell för prisnivåer",
+    "defaultRatesNote": "Visar standardpriser – inte sparat ännu.",
+    "addTier": "+ Lägg till nivå",
+    "saveRates": "Spara tarifferna",
+    "tierLevel": {
+      "base": "Nivå {{tier}} (Bas)",
+      "medium": "Nivå {{tier}} (Medium)",
+      "heavy": "Nivå {{tier}} (Tung)"
+    },
+    "basePrice": {
+      "label": "Baspris (₹ / kL, tillämpas på ALL förbrukning)",
+      "note": "Varje kL debiteras detta schablonbelopp först. Plattorna nedan lägger endast till EXTRA avgifter för användning som faller inom deras intervall — t.ex. en platta som börjar på 50 kL lägger bara till sin konsumtion över 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivå",
+      "slabLimit": "Plattgräns (kL)",
+      "rate": "Pris per kL",
+      "action": "Handling"
+    },
+    "commonArea": {
+      "title": "Kostnadskonfiguration för delat gemensamt område",
+      "loadError": "Det gick inte att läsa in kostnadskonfigurationen för gemensamt område",
+      "saveError": "Det gick inte att spara kostnadskonfigurationen för gemensamt område",
+      "empty": "Inga kostnadsposter sparade ännu.",
+      "labelPlaceholder": "Kostnadspostetikett",
+      "perMonth": "/ månad",
+      "active": "Aktiv",
+      "addItem": "+ Lägg till kostnadspost",
+      "save": "Spara Common Area Configuration"
+    },
+    "distribution": {
+      "title": "Val av kostnadsfördelningsmetod",
+      "consumption": "Efter konsumtion (Submätad proportionell)",
+      "floorArea": "Efter lägenhet lägenhetsstorlek (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Cykelfaktureringsstartdatum",
+      "cycleStartValue": "1:a varje månad",
+      "autoInvoices": "Autogenerera PDF fakturor"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Tröskeln har överskridits",
+      "statisticalOutlier": "Statistisk extremvärde"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Löst",
+      "dismissed": "Avskedad"
+    },
+    "config": {
+      "title": "Konfiguration av läckagedetektering",
+      "subtitle": "Ställ in en månatlig konsumtionströskel och/eller aktivera statistisk detektering av extremvärden (flaggar ett hushåll vars månatliga konsumtion är ovanligt hög jämfört med dess egen historia).",
+      "loadError": "Det gick inte att ladda varningskonfigurationen. Försök igen.",
+      "thresholdRequired": "Ett månatligt tröskelvärde (kL) krävs när tröskelvarningar är aktiverade.",
+      "saveError": "Det gick inte att spara den här konfigurationen.",
+      "loading": "Läser in konfiguration...",
+      "threshold": "Månadsgräns (kL)",
+      "sensitivity": "Outlier känslighet (σ multiplikator)",
+      "enableThreshold": "Aktivera tröskelvarningar",
+      "enableOutlier": "Aktivera varningar om statistiska extremvärden",
+      "save": "Spara konfiguration",
+      "running": "Spring…",
+      "runNow": "Kör upptäckt nu"
+    },
+    "alerts": {
+      "title": "Flaggade hushåll",
+      "loadError": "Det gick inte att läsa in varningar. Försök igen.",
+      "runError": "Det gick inte att köra läckagedetektering just nu. Försök igen.",
+      "updateError": "Det gick inte att uppdatera denna varning. Försök igen.",
+      "allStatuses": "Alla statusar",
+      "loading": "Laddar varningar...",
+      "empty": "Inga varningar att visa. Konfigurera ett tröskelvärde eller aktivera avvikande upptäckt ovan och klicka sedan på \"Kör upptäckt nu\" för att utvärdera din communitys nuvarande användning.",
+      "resolve": "Lösa",
+      "dismiss": "Avfärda"
+    },
+    "table": {
+      "household": "Hushåll",
+      "resident": "Bosatt",
+      "meter": "Meter",
+      "type": "Typ",
+      "period": "Period",
+      "consumption": "Konsumtion",
+      "reference": "Hänvisning",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Det gick inte att ladda bulkvatteninköp. Försök igen.",
+    "confirmRemove": "Ta bort {{source}} leveransen på {{date}}?",
+    "removeError": "Det gick inte att ta bort det här köpet. Försök igen.",
+    "count": "Registrerade köp: {{total}}",
+    "recordButton": "+ Rekordköp",
+    "loading": "Laddar inköp av bulkvatten...",
+    "empty": "Inga bulkvattenköp har registrerats ännu. Klicka på \"Registrera köp\" för att logga en tankbilsleverans eller kommunalt förrådsköp.",
+    "table": {
+      "date": "Datum",
+      "source": "Källa",
+      "volume": "Volym (L)",
+      "unitCost": "Enhetskostnad",
+      "totalCost": "Total kostnad",
+      "notes": "Anteckningar"
+    },
+    "form": {
+      "addTitle": "Spela in bulkvattenköp",
+      "editTitle": "Redigera bulkvattenköp",
+      "subtitle": "Spåra en tankbilsleverans eller kommunalt inköp för ditt samhälle – detta registreras endast för kostnadssynlighet och påverkar inte hushållsfakturor.",
+      "requiredFields": "Vänligen fyll i datum, källa, volym och enhetskostnad.",
+      "saveError": "Det gick inte att spara det här köpet. Kontrollera detaljerna.",
+      "purchaseDate": "Inköpsdatum",
+      "source": "Källa / leverantör",
+      "volume": "Volym (liter)",
+      "unitCost": "Enhetskostnad (₹/liter)",
+      "totalPreview": "Total kostnad: {{amount}}",
+      "notes": "Anteckningar (valfritt)",
+      "submit": "Rekordköp"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} är inte byggd än",
+    "profileSaveError": "Det gick inte att spara din profil. Försök igen.",
+    "apartmentSaveError": "Det gick inte att spara lägenhetsdetaljer. Försök igen.",
+    "specsTitle": "Profilspecifikationer",
+    "photoUnavailable": "Fotouppladdning är inte tillgänglig ännu",
+    "changePhoto": "Byt foto",
+    "deletePhoto": "Radera",
+    "photoHint": "JPG eller PNG. Max storlek 2MB.",
+    "saveProfile": "Spara profil",
+    "apartmentTitle": "Lägenhetsdetaljer",
+    "saveApartment": "Spara lägenhetsdetaljer",
+    "tabs": {
+      "profile": "Profilinställningar",
+      "apartment": "Lägenhetsprofil",
+      "notifications": "Regler för anmälan",
+      "billing": "Faktureringsintegrationer",
+      "security": "Säkerhet och åtkomst"
+    },
+    "fields": {
+      "fullName": "Fullständigt namn",
+      "email": "E-postadress",
+      "emailLocked": "E-post kan inte ändras här",
+      "phone": "Telefonnummer",
+      "accessLevel": "Åtkomstnivå",
+      "accessLevelValue": "Samhällsadministratör",
+      "roleLocked": "Rollhantering är inte tillgänglig än",
+      "apartmentName": "Lägenhetens namn",
+      "mainsSource": "Nätkälla",
+      "mainsSourcePlaceholder": "till exempel Kommunal leverans + Kompletterande tankbilar",
+      "address": "Fysisk adress"
+    },
+    "security": {
+      "title": "Förhandsgranskning av säkerhet och åtkomst",
+      "twoFactor": "Tvåfaktorsautentisering",
+      "twoFactorHint": "Aktiverad vid inloggning",
+      "twoFactorUnavailable": "Tvåfaktorsautentisering är inte tillgänglig ännu",
+      "twoFactorAria": "Tvåfaktorsautentisering (endast förhandsgranskning)",
+      "sessionsLabel": "Aktiva administratörssessioner",
+      "sessionsEmpty": "Sessionsspårning är inte tillgänglig än – det här är en förhandsvisning av den kommande layouten."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Mina biljetter",
+      "inbox": "Resident biljetter"
+    },
+    "mine": {
+      "title": "Mina supportbiljetter",
+      "subtitle": "Ställ en fråga eller oro om din grupp till systemadministratören.",
+      "emptyCreateHint": "Ställ en fråga eller oro om ditt samhälle. En systemadministratör kommer att granska och svara här."
+    },
+    "inbox": {
+      "title": "Resident biljetter",
+      "subtitle": "Stödbiljetter och problem som invånare i ditt samhälle har riktat till dig."
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Mbylle",
+    "signUpTitle": "Regjistroni komunitetin tuaj",
+    "signInTitle": "Mirë se vini përsëri",
+    "signUpSubtitle": "Krijo një llogari administratori të komunitetit për të filluar menaxhimin e banorëve dhe faturimin.",
+    "signInSubtitle": "Identifikohu për të parë përdorimin dhe faturimin e ujit."
+  },
+  "signIn": {
+    "errorFallback": "Nuk mund të identifikohesh. Provo sërish.",
+    "emailLabel": "Email",
+    "passwordLabel": "Fjalëkalimi",
+    "rememberMe": "Më kujto mua",
+    "forgotPassword": "Keni harruar fjalëkalimin?",
+    "submitting": "Po identifikohet…",
+    "submit": "Hyni",
+    "noAccount": "Nuk keni një llogari?",
+    "signUpLink": "Regjistrohu"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Fjalëkalimet nuk përputhen.",
+      "communityRequired": "Kërkohet emri i komunitetit.",
+      "termsRequired": "Ju lutemi pranoni Kushtet e Shërbimit dhe Politikën e Privatësisë.",
+      "fallback": "Llogaria nuk mund të krijohet. Ju lutemi provoni përsëri."
+    },
+    "hint": "Këtu regjistrohen vetëm administratorët e komunitetit. Pasi të hyni, do t'i shtoni vetë të dhënat e banorëve tuaj - ata nuk regjistrohen vetë.",
+    "fullNameLabel": "Emri i plotë",
+    "emailLabel": "Email",
+    "phoneLabel": "Numri i telefonit",
+    "communityNameLabel": "Emri i komunitetit",
+    "passwordLabel": "Fjalëkalimi",
+    "confirmPasswordLabel": "Konfirmo fjalëkalimin",
+    "agreeTerms": "Unë pranoj <termsLink>Kushtet e shërbimit</termsLink> dhe <privacyLink>Politikën e privatësisë</privacyLink>",
+    "submitting": "Po krijon llogari…",
+    "submit": "Krijo një llogari administratori",
+    "haveAccount": "Keni tashmë një llogari?",
+    "signInLink": "Identifikohu"
+  },
+  "installPrompt": {
+    "title": "Instalo HydroLedger",
+    "description": "Shtoje atë në ekranin bazë për qasje të shpejtë.",
+    "dismiss": "Largoje",
+    "install": "Instaloni"
+  },
+  "setPassword": {
+    "title": "Vendosni fjalëkalimin tuaj",
+    "loading": "Po ngarkohet…",
+    "subtitle": "Përshëndetje {{name}}, zgjidhni një fjalëkalim për {{email}} për të aktivizuar llogarinë tuaj HydroLedger.",
+    "errors": {
+      "invalidLink": "Kjo lidhje është e pavlefshme ose ka skaduar.",
+      "tooShort": "Fjalëkalimi duhet të jetë së paku 8 karaktere.",
+      "mismatch": "Fjalëkalimet nuk përputhen.",
+      "fallback": "Fjalëkalimi nuk mund të vendosej. Ju lutemi provoni përsëri."
+    },
+    "passwordLabel": "Fjalëkalimi",
+    "confirmPasswordLabel": "Konfirmo fjalëkalimin",
+    "submitting": "Po vendos fjalëkalimin…",
+    "submit": "Vendos fjalëkalimin dhe identifikohu"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistent",
+      "resident": "Pyetni për llogarinë tuaj",
+      "admin": "Asistent komuniteti",
+      "platform": "Asistent i platformës",
+      "default": "Asistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Çfarë është HydroLedger?",
+        "tieredBilling": "Si funksionon faturimi me nivele?",
+        "leaks": "Si zbulohen rrjedhjet?"
+      },
+      "resident": {
+        "billEstimate": "Cili është vlerësimi im aktual i faturës?",
+        "alerts": "A kam ndonjë alarm përdorimi?",
+        "readings": "Trego leximet e mia të fundit të njehsorit"
+      },
+      "admin": {
+        "households": "Sa familje kemi?",
+        "billingCycles": "Listoni ciklet tona të fundit të faturimit",
+        "tariff": "Cili është plani ynë aktual tarifor?"
+      },
+      "platform": {
+        "communities": "Listoni të gjitha komunitetet e regjistruara",
+        "usageReport": "Trego raportin e përdorimit të platformës",
+        "systemStatus": "Cili është statusi i sistemit?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Ju po dërgoni mesazhe shumë shpejt - ju lutemi prisni një moment dhe provoni përsëri.",
+      "unavailable": "Asistenti është përkohësisht i padisponueshëm. Ju lutemi provoni sërish së shpejti.",
+      "generic": "Ndodhi një gabim me dërgimin e atij mesazhi. Ju lutemi provoni përsëri."
+    },
+    "emptyHint": "Më pyesni çdo gjë - unë mund të shoh vetëm të dhënat tuaja.",
+    "closeAssistant": "Mbyll asistentin",
+    "openAssistant": "Hap asistentin",
+    "inputPlaceholder": "Shkruani një mesazh…",
+    "inputLabel": "Mesazh",
+    "send": "Dërgo"
+  },
+  "supportBoard": {
+    "defaultTitle": "Biletat e mbështetjes",
+    "defaultCreateLabel": "Ngrini shqetësime të reja",
+    "status": {
+      "open": "Hapur",
+      "inProgress": "Në progres",
+      "resolved": "E zgjidhur",
+      "closed": "Mbyllur"
+    },
+    "tabs": {
+      "all": "Të gjitha Biletat"
+    },
+    "recipients": {
+      "admin": "Administratori i komunitetit",
+      "systemAdmin": "Administratori i sistemit",
+      "both": "Administratori i Komunitetit + Administratori i Sistemit"
+    },
+    "roles": {
+      "resident": "Banor",
+      "admin": "Admin"
+    },
+    "toRecipients": "Për: {{recipients}}",
+    "raisedByResident": "Rritur nga banor {{name}}",
+    "raisedByAdmin": "Ngritur nga administratori {{name}}",
+    "refresh": "Rifresko",
+    "stats": {
+      "openLabel": "Hapni Parashtresat",
+      "openHint": "Në pritje të rishikimit",
+      "inProgressLabel": "Në progres",
+      "inProgressHint": "Duke u punuar",
+      "resolvedLabel": "E zgjidhur",
+      "resolvedHint": "Mbyllur me sukses"
+    },
+    "searchPlaceholder": "Kërkoni biletat sipas subjektit, numrit…",
+    "loadingTickets": "Biletat po ngarkohen…",
+    "empty": {
+      "title": "Nuk u gjetën bileta mbështetëse",
+      "body": "Aktualisht nuk keni asnjë kërkesë të hapur ose të regjistruar për mbështetje që përputhet me këtë filtër.",
+      "cta": "Paraqitni një shqetësim"
+    },
+    "errors": {
+      "loadList": "Biletat e mbështetjes nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+      "loadDetail": "Kjo biletë nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+      "required": "Tema dhe mesazhi kërkohen të dyja.",
+      "recipientRequired": "Zgjidhni të paktën një marrës (Administrin e Komunitetit dhe/ose Administratorin e Sistemit).",
+      "submitFallback": "Kjo biletë nuk mund të dorëzohej. Ju lutemi provoni përsëri.",
+      "sendReply": "Ky mesazh nuk mund të dërgohej. Ju lutemi provoni përsëri.",
+      "updateStatus": "Statusi i kësaj bilete nuk mund të përditësohej. Ju lutemi provoni përsëri."
+    },
+    "form": {
+      "defaultHint": "Përshkruani problemin ose shqetësimin tuaj më poshtë.",
+      "subjectLabel": "Subjekti",
+      "subjectPlaceholder": "Përmbledhje e shkurtër e problemit tuaj",
+      "messageLabel": "Mesazh",
+      "messagePlaceholder": "Përshkruani në detaje se çfarë po ndodh…",
+      "recipientsLabel": "Dërgojeni këtë shqetësim tek",
+      "cancel": "Anulo",
+      "submitting": "Po dorëzohet…",
+      "submit": "Paraqisni Biletën"
+    },
+    "detail": {
+      "loading": "Bileta po ngarkohet…",
+      "replyPlaceholder": "Shkruaj një përgjigje…",
+      "close": "Mbylle",
+      "sending": "Po dërgohet…",
+      "sendReply": "Dërgo përgjigje"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Mirë se erdhe, {{name}}",
+    "openMenu": "Hap menunë",
+    "closeMenu": "Mbyll menunë",
+    "logout": "Dilni",
+    "search": "Kërko",
+    "notifications": "Njoftimet"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Paneli",
+      "households": "Drejtoria e Familjeve",
+      "meterReadings": "Leximet e njehsorëve",
+      "billing": "Menaxhimi i Faturimit",
+      "bulkPurchases": "Blerjet me shumicë",
+      "reports": "Raportet",
+      "waterLeakage": "Rrjedhje uji",
+      "support": "Mbështetje / Shqetësime",
+      "tariffPlans": "Planet tarifore",
+      "announcements": "Njoftimet",
+      "profile": "Profili"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Këtu është një fotografi e komunitetit tuaj."
+      },
+      "households": {
+        "title": "Drejtoria e Familjeve",
+        "subtitle": "Shtoni, përditësoni dhe menaxhoni banorët që jetojnë në komunitetin tuaj."
+      },
+      "meterReadings": {
+        "title": "Qendra e leximit të njehsorëve të ujit",
+        "subtitle": "Kërkoni për një banor dhe regjistroni leximin e ujëmatësit të tij."
+      },
+      "tariffPlans": {
+        "title": "Konfigurimi i tarifave",
+        "subtitle": "Konfiguro kufijtë e tarifave me nivele, kostot e përbashkëta të zonës së përbashkët dhe metodat e shpërndarjes për komunitetin e apartamentit tuaj."
+      },
+      "billing": {
+        "title": "Menaxhimi i Faturimit",
+        "subtitle": "Hapni, finalizoni dhe arkivoni ciklet e faturimit dhe rishikoni faturat e detajuara për familje."
+      },
+      "bulkPurchases": {
+        "title": "Blerjet me shumicë",
+        "subtitle": "Regjistroni dërgesat e cisternëve dhe blerjet e furnizimeve komunale për komunitetin tuaj."
+      },
+      "waterLeakage": {
+        "title": "Rrjedhje uji",
+        "subtitle": "Konfiguro sinjalizimet e rrjedhjeve të pragut dhe të jashtëzakonshëm dhe rishiko familjet e shënuara."
+      },
+      "support": {
+        "title": "Mbështetje / Shqetësime",
+        "subtitle": "Ngrini biletat tuaja te Administratori i Sistemit ose trajtoni shqetësimet që banorët tuaj ju kanë adresuar."
+      },
+      "profile": {
+        "title": "Cilësimet dhe Profili",
+        "subtitle": "Menaxhoni detajet e llogarisë tuaj dhe informacionin e apartamentit."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Administratori i komunitetit",
+    "notBuilt": "{{label}} nuk është ndërtuar ende",
+    "searchPlaceholder": "Kërkoni ndonjë gjë…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Raportet",
+      "description": "Raportet e konsumit, faturimit dhe ruajtjes për komunitetin tuaj."
+    },
+    "announcements": {
+      "title": "Njoftimet",
+      "description": "Dërgoni njoftime në mbarë komunitetin për banorët tuaj."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} vjen së shpejti"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Paneli",
+      "usageHistory": "Historia e Përdorimit",
+      "bills": "Faturat e Mia",
+      "recommendations": "Rekomandime",
+      "reports": "Raportet",
+      "support": "Mbështetje / Shqetësime",
+      "notifications": "Njoftimet",
+      "profile": "Profili"
+    },
+    "pages": {
+      "usageHistory": "Historia juaj e përdorimit",
+      "billing": "Faturimi & Faturat",
+      "notifications": "Njoftimet",
+      "recommendations": "Rekomandime",
+      "support": "Mbështetje / Shqetësime"
+    },
+    "defaultTitle": "Paneli i rezidentit",
+    "navLabel": "Navigacion rezident",
+    "fallbackName": "Banor",
+    "unit": "Njësia {{number}}",
+    "comingSoon": "{{label}} vjen së shpejti",
+    "profile": "Profili",
+    "searchPlaceholder": "Kërko analitikën, faturat…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Paneli",
+      "communities": "Komunitetet",
+      "reports": "Raportet",
+      "supportTickets": "Biletat e mbështetjes",
+      "systemStatus": "Statusi i Sistemit"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Foto e gjithë platformës në çdo komunitet të regjistruar."
+      },
+      "communities": {
+        "title": "Komunitetet",
+        "subtitle": "Çdo administrator i regjistruar i komunitetit dhe komuniteti i tyre, në një vend."
+      },
+      "reports": {
+        "title": "Raportet",
+        "subtitle": "Shifrat e përdorimit dhe faturimit të ujit në të gjithë platformën, sipas komunitetit dhe me kalimin e kohës."
+      },
+      "supportTickets": {
+        "title": "Biletat e mbështetjes",
+        "subtitle": "Mbështetni biletat dhe shqetësimet e ngritura nga banorët dhe administratorët e komunitetit, në të gjithë platformën."
+      },
+      "systemStatus": {
+        "title": "Statusi i Sistemit",
+        "subtitle": "Lidhja me bazën e pasme dhe shëndeti bazë i kohës së funksionimit."
+      }
+    },
+    "fallbackName": "Administratori i sistemit",
+    "platformOwner": "Pronari i platformës",
+    "searchPlaceholder": "Kërko komunitetet…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Gjuha: {{language}}",
+    "searchPlaceholder": "Kërko gjuhën…",
+    "noMatches": "Nuk ka ndeshje"
+  }
+}

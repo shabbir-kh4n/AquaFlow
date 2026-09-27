@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "tutup",
+    "signUpTitle": "Daftar komuniti anda",
+    "signInTitle": "Selamat kembali",
+    "signUpSubtitle": "Buat akaun Pentadbir Komuniti untuk mula mengurus penduduk dan pengebilan.",
+    "signInSubtitle": "Log masuk untuk melihat penggunaan air dan pengebilan anda."
+  },
+  "signIn": {
+    "errorFallback": "Tidak dapat log masuk. Sila cuba lagi.",
+    "emailLabel": "E-mel",
+    "passwordLabel": "Kata laluan",
+    "rememberMe": "Ingat saya",
+    "forgotPassword": "Lupa kata laluan?",
+    "submitting": "Melog masuk…",
+    "submit": "Log Masuk",
+    "noAccount": "Tiada akaun?",
+    "signUpLink": "daftar"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Kata laluan tidak sepadan.",
+      "communityRequired": "Nama komuniti diperlukan.",
+      "termsRequired": "Sila bersetuju menerima Syarat Perkhidmatan dan Dasar Privasi.",
+      "fallback": "Tidak dapat mencipta akaun. Sila cuba lagi."
+    },
+    "hint": "Hanya pentadbir komuniti yang mendaftar di sini. Sebaik sahaja anda masuk, anda akan menambah sendiri butiran penduduk anda — mereka tidak mendaftar sendiri.",
+    "fullNameLabel": "Nama penuh",
+    "emailLabel": "E-mel",
+    "phoneLabel": "Nombor telefon",
+    "communityNameLabel": "Nama komuniti",
+    "passwordLabel": "Kata laluan",
+    "confirmPasswordLabel": "Sahkan kata laluan",
+    "agreeTerms": "Saya bersetuju menerima <termsLink>Syarat Perkhidmatan</termsLink> dan <privacyLink>Dasar Privasi</privacyLink>",
+    "submitting": "Membuat akaun…",
+    "submit": "Buat Akaun Pentadbir",
+    "haveAccount": "Sudah mempunyai akaun?",
+    "signInLink": "Log masuk"
+  },
+  "installPrompt": {
+    "title": "Pasang HydroLedger",
+    "description": "Tambahkannya pada skrin utama anda untuk akses pantas.",
+    "dismiss": "Tolak",
+    "install": "Pasang"
+  },
+  "setPassword": {
+    "title": "Tetapkan kata laluan anda",
+    "loading": "Memuatkan…",
+    "subtitle": "Hai {{name}}, pilih kata laluan untuk {{email}} untuk mengaktifkan akaun HydroLedger anda.",
+    "errors": {
+      "invalidLink": "Pautan ini tidak sah atau telah tamat tempoh.",
+      "tooShort": "Kata laluan mestilah sekurang-kurangnya 8 aksara.",
+      "mismatch": "Kata laluan tidak sepadan.",
+      "fallback": "Tidak dapat menetapkan kata laluan anda. Sila cuba lagi."
+    },
+    "passwordLabel": "Kata laluan",
+    "confirmPasswordLabel": "Sahkan kata laluan",
+    "submitting": "Menetapkan kata laluan…",
+    "submit": "Tetapkan kata laluan & log masuk"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Pembantu",
+      "resident": "Tanya tentang akaun anda",
+      "admin": "Pembantu Masyarakat",
+      "platform": "Pembantu Platform",
+      "default": "Penolong"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Apakah HydroLedger?",
+        "tieredBilling": "Bagaimanakah pengebilan berperingkat berfungsi?",
+        "leaks": "Bagaimanakah kebocoran dikesan?"
+      },
+      "resident": {
+        "billEstimate": "Apakah anggaran bil semasa saya?",
+        "alerts": "Adakah saya mempunyai sebarang makluman penggunaan?",
+        "readings": "Tunjukkan bacaan meter saya baru-baru ini"
+      },
+      "admin": {
+        "households": "Berapa bilangan isi rumah yang kita ada?",
+        "billingCycles": "Senaraikan kitaran pengebilan terbaru kami",
+        "tariff": "Apakah rancangan tarif semasa kami?"
+      },
+      "platform": {
+        "communities": "Senaraikan semua komuniti berdaftar",
+        "usageReport": "Tunjukkan laporan penggunaan platform",
+        "systemStatus": "Apakah status sistem?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Anda menghantar mesej terlalu cepat - sila tunggu sebentar dan cuba lagi.",
+      "unavailable": "Pembantu tidak tersedia buat sementara waktu. Sila cuba sebentar lagi.",
+      "generic": "Kesilapan telah berlaku semasa menghantar mesej itu. Sila cuba lagi."
+    },
+    "emptyHint": "Tanya saya apa-apa - saya hanya boleh melihat data anda sendiri.",
+    "closeAssistant": "Tutup pembantu",
+    "openAssistant": "Pembantu terbuka",
+    "inputPlaceholder": "Taip mesej…",
+    "inputLabel": "Mesej",
+    "send": "Hantar"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tiket Sokongan",
+    "defaultCreateLabel": "Bangkitkan Kebimbangan Baru",
+    "status": {
+      "open": "Buka",
+      "inProgress": "Sedang Berlangsung",
+      "resolved": "Selesai",
+      "closed": "tertutup"
+    },
+    "tabs": {
+      "all": "Semua Tiket"
+    },
+    "recipients": {
+      "admin": "Pentadbir Komuniti",
+      "systemAdmin": "Pentadbir Sistem",
+      "both": "Pentadbir Komuniti + Pentadbir Sistem"
+    },
+    "roles": {
+      "resident": "Penduduk",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kepada: {{recipients}}",
+    "raisedByResident": "Dibesarkan oleh pemastautin {{name}}",
+    "raisedByAdmin": "Dibesarkan oleh pentadbir {{name}}",
+    "refresh": "Segarkan semula",
+    "stats": {
+      "openLabel": "Buka Penyerahan",
+      "openHint": "Menunggu semakan",
+      "inProgressLabel": "Sedang Berlangsung",
+      "inProgressHint": "Sedang diusahakan",
+      "resolvedLabel": "Selesai",
+      "resolvedHint": "Berjaya ditutup"
+    },
+    "searchPlaceholder": "Cari tiket mengikut subjek, keluaran…",
+    "loadingTickets": "Memuatkan tiket…",
+    "empty": {
+      "title": "Tiada Tiket Sokongan Ditemui",
+      "body": "Pada masa ini anda tidak mempunyai permintaan sokongan terbuka atau direkodkan yang sepadan dengan penapis ini.",
+      "cta": "Hantar Kebimbangan"
+    },
+    "errors": {
+      "loadList": "Tidak dapat memuatkan tiket sokongan. Sila cuba lagi.",
+      "loadDetail": "Tidak dapat memuatkan tiket ini. Sila cuba lagi.",
+      "required": "Subjek dan mesej kedua-duanya diperlukan.",
+      "recipientRequired": "Pilih sekurang-kurangnya seorang penerima (Pentadbir Komuniti dan/atau Pentadbir Sistem).",
+      "submitFallback": "Tidak dapat menyerahkan tiket ini. Sila cuba lagi.",
+      "sendReply": "Tidak dapat menghantar mesej ini. Sila cuba lagi.",
+      "updateStatus": "Tidak dapat mengemas kini status tiket ini. Sila cuba lagi."
+    },
+    "form": {
+      "defaultHint": "Terangkan isu atau kebimbangan anda di bawah.",
+      "subjectLabel": "Subjek",
+      "subjectPlaceholder": "Ringkasan ringkas isu anda",
+      "messageLabel": "Mesej",
+      "messagePlaceholder": "Terangkan perkara yang berlaku secara terperinci…",
+      "recipientsLabel": "Hantarkan kebimbangan ini kepada",
+      "cancel": "Batal",
+      "submitting": "Menyerahkan…",
+      "submit": "Hantar Tiket"
+    },
+    "detail": {
+      "loading": "Memuatkan tiket…",
+      "replyPlaceholder": "Tulis jawapan…",
+      "close": "tutup",
+      "sending": "Menghantar…",
+      "sendReply": "Hantar Balasan"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Selamat kembali, {{name}}",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "logout": "Log keluar",
+    "search": "Cari",
+    "notifications": "Pemberitahuan"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Papan pemuka",
+      "households": "Direktori Isi Rumah",
+      "meterReadings": "Bacaan Meter",
+      "billing": "Pengurusan Pengebilan",
+      "bulkPurchases": "Pembelian Pukal",
+      "reports": "Laporan",
+      "waterLeakage": "Kebocoran Air",
+      "support": "Sokongan / Kebimbangan",
+      "tariffPlans": "Pelan Tarif",
+      "announcements": "Pengumuman",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Berikut ialah petikan komuniti anda."
+      },
+      "households": {
+        "title": "Direktori Isi Rumah",
+        "subtitle": "Tambah, kemas kini dan urus penduduk yang tinggal dalam komuniti anda."
+      },
+      "meterReadings": {
+        "title": "Hab Bacaan Meter Air",
+        "subtitle": "Cari penduduk dan rekod bacaan meter air mereka."
+      },
+      "tariffPlans": {
+        "title": "Konfigurasi Tarif",
+        "subtitle": "Konfigurasikan had kadar berperingkat, kos kawasan umum yang dikongsi dan kaedah pengedaran untuk komuniti apartmen anda."
+      },
+      "billing": {
+        "title": "Pengurusan Pengebilan",
+        "subtitle": "Buka, akhirkan dan arkibkan kitaran pengebilan serta semak invois yang diperincikan bagi setiap isi rumah."
+      },
+      "bulkPurchases": {
+        "title": "Pembelian Pukal",
+        "subtitle": "Rekod penghantaran kapal tangki dan pembelian bekalan perbandaran untuk komuniti anda."
+      },
+      "waterLeakage": {
+        "title": "Kebocoran Air",
+        "subtitle": "Konfigurasikan ambang dan makluman kebocoran berasaskan outlier, dan semak isi rumah yang dibenderakan."
+      },
+      "support": {
+        "title": "Sokongan / Kebimbangan",
+        "subtitle": "Angkat tiket anda sendiri kepada Pentadbir Sistem, atau tangani kebimbangan yang dialamatkan oleh penduduk anda kepada anda."
+      },
+      "profile": {
+        "title": "Tetapan & Profil",
+        "subtitle": "Urus butiran akaun dan maklumat pangsapuri anda."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Pentadbir Komuniti",
+    "notBuilt": "{{label}} belum dibina lagi",
+    "searchPlaceholder": "Cari apa sahaja…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Laporan",
+      "description": "Laporan penggunaan, pengebilan dan pemuliharaan untuk komuniti anda."
+    },
+    "announcements": {
+      "title": "Pengumuman",
+      "description": "Hantar pengumuman seluruh komuniti kepada penduduk anda."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} akan datang tidak lama lagi"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Papan pemuka",
+      "usageHistory": "Sejarah Penggunaan",
+      "bills": "Bil Saya",
+      "recommendations": "Cadangan",
+      "reports": "Laporan",
+      "support": "Sokongan / Kebimbangan",
+      "notifications": "Pemberitahuan",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Sejarah penggunaan anda",
+      "billing": "Pengebilan & Invois",
+      "notifications": "Pemberitahuan",
+      "recommendations": "Cadangan",
+      "support": "Sokongan / Kebimbangan"
+    },
+    "defaultTitle": "Papan Pemuka Penduduk",
+    "navLabel": "Navigasi penduduk",
+    "fallbackName": "Penduduk",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} akan datang tidak lama lagi",
+    "profile": "Profil",
+    "searchPlaceholder": "Analitis carian, bil…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Papan pemuka",
+      "communities": "Komuniti",
+      "reports": "Laporan",
+      "supportTickets": "Tiket Sokongan",
+      "systemStatus": "Status Sistem"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Gambar seluruh platform merentas setiap komuniti berdaftar."
+      },
+      "communities": {
+        "title": "Komuniti",
+        "subtitle": "Setiap pentadbir komuniti berdaftar dan komuniti mereka, di satu tempat."
+      },
+      "reports": {
+        "title": "Laporan",
+        "subtitle": "Angka penggunaan air dan pengebilan seluruh platform, mengikut komuniti dan dari semasa ke semasa."
+      },
+      "supportTickets": {
+        "title": "Tiket Sokongan",
+        "subtitle": "Sokong tiket dan kebimbangan yang dibangkitkan oleh penduduk dan pentadbir komuniti, di seluruh platform."
+      },
+      "systemStatus": {
+        "title": "Status Sistem",
+        "subtitle": "Kesambungan bahagian belakang dan kesihatan masa jalan asas."
+      }
+    },
+    "fallbackName": "Pentadbir Sistem",
+    "platformOwner": "Pemilik Platform",
+    "searchPlaceholder": "Cari komuniti…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Bahasa: {{language}}",
+    "searchPlaceholder": "Cari bahasa…",
+    "noMatches": "Tiada padanan"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Malosi",
+    "blocked": "poloka",
+    "terminated": "Fa'amuta"
+  },
+  "sort": {
+    "sortBy": "Fa'avasega i",
+    "toggleDirection": "Togomi le fa'avasegaga",
+    "asc": "↑ Asc",
+    "desc": "↓ Fa'amatala"
+  },
+  "pagination": {
+    "showing": "Faaalia {{from}}–{{to}} o {{total}}",
+    "prev": "← Muamua",
+    "next": "Sosoo →",
+    "page": "Itulau {{page}} o le {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Va'aiga lautele",
+    "subtitle": "Ta'ita'i fa'alapotopotoga uma ua resitalaina, i luga o le tulaga atoa HydroLedger.",
+    "viewAll": "Va'ai Nuu Uma",
+    "loadError": "Le mafai ona la'uina fa'amatalaga tulaga i le taimi nei.",
+    "cards": {
+      "totalCommunities": "Aofa'i Nuu",
+      "registeredAdmins": "Pule resitala",
+      "totalResidents": "Aofa'i Tagata nofomau",
+      "acrossAllCommunities": "I totonu o nu'u uma",
+      "active": "Malosi",
+      "inGoodStanding": "I tulaga lelei",
+      "blockedTerminated": "Taofi / Fa'amuta",
+      "blockedTerminatedBreakdown": "{{blocked}} poloka, {{terminated}} faamutaina"
+    },
+    "recent": {
+      "title": "Nu'u Fa'ato'a Fa'amauina",
+      "loading": "utaina...",
+      "empty": "E le'i fa'amauina nu'u.",
+      "table": {
+        "community": "Nuu",
+        "admin": "Pule",
+        "status": "Tulaga",
+        "residents": "Tagata nofomau"
+      }
+    }
+  },
+  "communities": {
+    "count": "Nuu: {{count}}",
+    "loadError": "Le mafai ona utaina nuu. Fa'amolemole toe taumafai.",
+    "searchPlaceholder": "Filifili e ala ile alalafaga, igoa ole pulega, po'o imeli",
+    "statusFilter": {
+      "label": "Tulaga",
+      "all": "O mea uma"
+    },
+    "sortOptions": {
+      "community": "Nuu",
+      "admin": "Pule",
+      "residents": "Tagata nofomau"
+    },
+    "loading": "Tu'u nu'u...",
+    "empty": "E le'i fa'amauina nu'u.",
+    "noMatch": "E leai ni nu'u e fetaui ma au filiga.",
+    "table": {
+      "community": "Nuu",
+      "admin": "Pule",
+      "email": "imeli",
+      "status": "Tulaga",
+      "residents": "Tagata nofomau",
+      "view": "Va'aiga"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Le mafai ona utaina lenei alalafaga. Atonu ua aveese.",
+    "statusUpdateError": "Le mafai ona fa'afou le tulaga o lenei alalafaga.",
+    "deleteError": "Le mafai ona tapeina lenei alalafaga.",
+    "loading": "O lo'o fa'apipi'i le nu'u...",
+    "notFound": "Nuu le maua.",
+    "backLink": "← Toe foi i Nuu",
+    "backLinkShort": "Toe foi i Nuu",
+    "eyebrow": "Tala'aga o Nuu",
+    "unnamed": "Nuu le ta'ua",
+    "noAddress": "Leai se tuatusi ile faila",
+    "stats": {
+      "residents": "Tagata nofomau",
+      "status": "Tulaga"
+    },
+    "actions": {
+      "reactivate": "Toe fa'agaoioia",
+      "block": "poloka",
+      "terminate": "Fa'amuta",
+      "delete": "Aveese le Nuu"
+    },
+    "blockDialog": {
+      "title": "poloka le pule o le alalafaga?",
+      "message": "poloka {{name}}? O le a le mafai ona latou ulufale i totonu se'i vagana ua tatalaina. E leai ni fa'amatalaga o le a a'afia.",
+      "confirm": "poloka"
+    },
+    "terminateDialog": {
+      "title": "Fa'ate'a lenei pulega fa'alapotopotoga?",
+      "message": "Taofi tumau le avanoa o {{name}}? E le mafai ona fa'aleaogaina, e ui o fa'amaumauga a latou nu'u o le a teuina mo fa'amaumauga.",
+      "confirm": "Fa'amuta"
+    },
+    "deleteDialog": {
+      "title": "Ave'ese lenei alalafaga?",
+      "message": "Ole a tape'a tumau <strong>{{name}}</strong> ma ona aiga uma, tagata nofomau, mita, fa'asologa o tau/pepa, ma tala'aga o pili. E le mafai ona fa'aleaogaina lenei gaioiga.",
+      "typeToConfirm": "Tusa <strong>{{word}}</strong> e faaauau",
+      "confirm": "Faamaonia"
+    },
+    "residents": {
+      "title": "Tagata nofomau",
+      "registeredCount": "Resitala: {{count}}",
+      "empty": "E le'i fa'amauina ni tagata nofomau i totonu o lenei nu'u.",
+      "table": {
+        "flatUnit": "Vaega mafolafola",
+        "meter": "mita",
+        "resident": "Tagata nofomau",
+        "email": "imeli",
+        "passwordSet": "Seti upu faataga"
+      },
+      "yes": "Ioe",
+      "no": "Leai"
+    },
+    "cancel": "Fa'aleaogaina",
+    "working": "galue…",
+    "deleting": "Tapēina…"
+  },
+  "systemStatus": {
+    "statusError": "Le mafai ona o'o i le pito i tua e siaki le tulaga o le faiga.",
+    "metricsError": "Le mafai ona la'uina tala fa'asolopito.",
+    "ranges": {
+      "fiveMinutes": "5 minute",
+      "fifteenMinutes": "15 minute",
+      "hour": "Itula",
+      "day": "Aso",
+      "week": "Vaiaso",
+      "month": "Masina",
+      "threeMonths": "3 masina"
+    },
+    "uptime": {
+      "days": "{{value}}o",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Talosaga/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Fa'aliga",
+      "lastValue": "{{value}} mulimuli",
+      "loading": "utaina...",
+      "empty": "E le'i fa'amauina ni fua fa'atatau mo lenei vaega."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Tulaga: <b>{{value}}</b>",
+      "max": "Avanoa: <b>{{value}}</b>",
+      "last": "Mulimuli: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API pito i tua",
+      "checking": "Siaki…",
+      "reachable": "Aapa atu",
+      "unreachable": "Le aapa atu",
+      "connected": "Feso'ota'i",
+      "backendApiHint": "O lenei itulau na uta mai le pito i tua, o lea na tali mai ai.",
+      "database": "Fa'amaumauga",
+      "databaseHint": "PostgreSQL feso'ota'iga, siaki ola.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Talu mai le toe amataina o le talosaga mulimuli.",
+      "appVersion": "App Version",
+      "appVersionHint": "Faiga fau tua."
+    },
+    "mini": {
+      "latency": "Fa'agata",
+      "readsLatency": "Faitau Latency",
+      "writesLatency": "Tusia Latency",
+      "otherLatency": "Isi Latency",
+      "connections": "So'oga",
+      "totalKeys": "Aofa'i Ki"
+    },
+    "note": "Talosaga/sec ma le taofiofi e fa'ata'ita'i mai fe'avea'i i tua i le ta'i 15 sekone ma teu mo le 100 aso. Ole feso'ota'iga fa'avae + siaki ta'avale - e le suia atoa le mata'ituina o fa'atinoga o fa'atinoga, fa'aputugā ogalaau, po'o le fa'ailoa."
+  },
+  "reports": {
+    "loadError": "Le mafai ona utaina le lipoti o le tulaga.",
+    "ranges": {
+      "threeMonths": "3 masina",
+      "sixMonths": "6 masina",
+      "twelveMonths": "12 masina",
+      "custom": "Aganuu"
+    },
+    "sortOptions": {
+      "community": "Nuu",
+      "usage": "Fa'aoga",
+      "billed": "Pili",
+      "residents": "Tagata nofomau"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "I",
+      "hint": "Filifili uma le \"mai\" ma le \"i\" masina e uta ai se lipoti masani."
+    },
+    "loading": "La'uina lipoti...",
+    "cards": {
+      "totalCommunities": "Aofa'i Nuu",
+      "inThisRange": "I lenei tulaga",
+      "totalResidents": "Aofa'i Tagata nofomau",
+      "acrossAllCommunities": "I totonu o nu'u uma",
+      "overallUsage": "Fa'aoga Aotele",
+      "meteredConsumption": "Fa'atauga mita",
+      "overallBilled": "Aotelega Pili",
+      "finalizedInvoicesOnly": "Na'o pili tupe ua mae'a",
+      "avgUsagePerResident": "Tulaga Fa'aoga/Nofo",
+      "avgBillPerResident": "Avg Bill/Nofo"
+    },
+    "charts": {
+      "usageTitle": "Fa'aoga-lautele (kL / masina)",
+      "usageEmpty": "Leai se fa'aoga fa'amauina mo lenei vaega.",
+      "usageSeries": "Fa'aoga",
+      "billedTitle": "Aofa'i Fa'asalalau-lautele (₹ / masina)",
+      "billedEmpty": "E leai ni pili ua mae'a mo lenei vaega.",
+      "billedSeries": "Pili"
+    },
+    "searchPlaceholder": "Filifili e ala ile alalafaga po'o le igoa ole pulega",
+    "empty": "E le'i iai ni fa'amatalaga fa'aoga po'o ni fa'amatalaga tau pili mo lenei vaega.",
+    "noMatch": "E leai ni nu'u e fetaui ma lau faamama.",
+    "table": {
+      "community": "Nuu",
+      "admin": "Pule",
+      "residents": "Tagata nofomau",
+      "usage": "Fa'aoga (kL)",
+      "billed": "Totogi (₹)",
+      "avgUsagePerResident": "Tulaga Fa'aoga/Nofo",
+      "avgBillPerResident": "Avg Bill/Nofo"
+    }
+  },
+  "supportTickets": {
+    "title": "Lagolago Tiketi",
+    "subtitle": "Lagolago tiketi ma atugaluga na laga e tagata nofomau ma faʻalapotopotoga faʻalapotopotoga, tulaga-lautele."
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Uta...",
+    "saving": "Fakahaofi...",
+    "saved": "Fakahaofi.",
+    "uploading": "'Oku 'oatu...",
+    "upload": "Upload",
+    "uploadError": "Na'e 'ikai lava ke upload 'a e faile ko 'eni. Kātaki ʻo toe feinga.",
+    "cancel": "Kaniseli",
+    "close": "Tāpuni",
+    "edit": "Fakatonutonu",
+    "remove": "Fakamavahe'i",
+    "saveChanges": "Tauhi e Ngaahi Liliú",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Row {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Fakahaa'i 'a e {{from}}–{{to}} 'o e {{total}}",
+    "prev": "← Kimu'a",
+    "next": "Hoko atu →",
+    "page": "Peesi {{page}} ʻo e {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "'Ikai lava ke uta ho'o fakamatala fakakolo he taimi ni.",
+    "title": "{{community}} Tesipaati 'o e fale nofo'anga",
+    "titleFallback": "Ko ho'o Dashboard 'o e fale nofo'anga",
+    "subtitle": "Fakanounou ngaue ki he mita si'isi'i 'o e ngaahi ngaue'anga vai mo e fakamole 'a e ngaahi 'api.",
+    "comingSoon": "Vave hoko mai",
+    "manageCommunity": "Pule'i 'o e Komiuniti",
+    "noUsageReadings": "'Oku te'eki ke lekooti ha ngaahi lau 'o hono faka'aonga'i.",
+    "cards": {
+      "totalHouseholds": "Fakakatoa 'o e Ngaahi 'Api",
+      "occupied": "Mo'ua",
+      "activeMeters": "Ngaahi Mita Ngaue",
+      "reportingReadings": "Lipooti 'o e ngaahi lau",
+      "monthlyConsumption": "Fakamole Fakamahina",
+      "thisCalendarMonth": "Ko e māhina fakakaleniti ko ʻení .",
+      "latestRecordedMonth": "Māhina lekooti fakamuimuitaha ({{month}})",
+      "noReadingsYet": "'Oku te'eki ke lekooti ha lau",
+      "pendingAlerts": "Ngaahi Fakatokanga Fakatatali",
+      "anomalyPreview": "Anomaly 'ilo'i 'o e tomu'a sio — 'oku te'eki ke ma'u ."
+    },
+    "actions": {
+      "label": "Ngaahi Ngaue Fakapule'anga Vave",
+      "uploadReadings": "Upload e ngaahi lau 'o e mita",
+      "configureTariffs": "Fakaleleiʻi ʻa e Ngaahi Totongi",
+      "reportsNotBuilt": "'Oku te'eki ke langa 'a e ngaahi lipooti",
+      "downloadReports": "Download 'a e ngaahi lipooti 'o e sisitemi ."
+    },
+    "chart": {
+      "title": "Fakafehoanaki Fakamole Fakamāhina (kL)",
+      "subtitle": "Fakamuimuitaha {{months}} mahina: taumu'a vs.",
+      "targetSeries": "Taketi (tomu'a vakai)",
+      "actualSeries": "Hoko pau"
+    },
+    "recent": {
+      "title": "Ngaahi Lau Mita kimuí ni mai",
+      "unit": "Konga",
+      "resident": "Api nofo'anga",
+      "lastReading": "Lau Faka'osi",
+      "consumption": "Faka'aonga'i"
+    }
+  },
+  "households": {
+    "loadError": "Na'e 'ikai lava ke uta 'a e kau nofo. Kātaki ʻo toe feinga.",
+    "fixFields": "Kātaki ʻo fakaleleiʻi ʻa e ngaahi malaʻe ʻoku fakaʻilongaʻí.",
+    "saveError": "Na'e 'ikai lava ke fakahaofi 'a e tokotaha nofo ko 'eni. Kataki 'o vakai'i 'a e fakaikiiki.",
+    "confirmRemove": "To'o 'a e {{name}} mei ho'o tohi fakahinohino 'o e ngaahi 'api?",
+    "removeError": "Na'e 'ikai lava ke to'o 'a e tokotaha nofo ko 'eni. Kātaki ʻo toe feinga.",
+    "count": "Ngaahi 'api: {{total}}",
+    "bulkUploadButton": "⇪ Upload lahi",
+    "addResidentButton": "+ Tānaki atu ʻa e Nofo",
+    "searchPlaceholder": "Filter 'aki 'a e hingoa, fale, 'imeili, pe fika mita.",
+    "loading": "Uta 'a e kau nofo...",
+    "empty": "Te'eki ke 'iai ha kau nofo. Lomi'i 'i he \"Add Resident\" ke lesisita 'a e 'uluaki 'api.",
+    "noMatch": "'Oku 'ikai ha kau nofo 'oku nau fe'unga mo e \"{{search}}\".",
+    "sort": {
+      "label": "Fakahokohoko ʻaki ʻa e",
+      "name": "Hingoa",
+      "houseNumber": "Fika Fale",
+      "dateOfJoining": "'Aho 'o e Kau",
+      "toggleDirection": "Toggle fakahokohoko 'a e fakahinohino",
+      "asc": "↑ Asc",
+      "desc": "↓ Fakamatala"
+    },
+    "gender": {
+      "male": "Tangata",
+      "female": "Fefine",
+      "other": "Kehe"
+    },
+    "table": {
+      "name": "Hingoa",
+      "houseUnit": "Fale / 'Iuniti",
+      "email": "'Imeili",
+      "phone": "Telefoni",
+      "meterNumber": "Mita Fika.",
+      "sqft": "Sqft",
+      "joined": "Kau mai"
+    },
+    "form": {
+      "addTitle": "Tānaki atu ʻa e Nofo",
+      "editTitle": "Fakatonutonu Nofo",
+      "editSubtitle": "'Oku fakafo'ou 'e he me'a ni 'a e ngaahi fakaikiiki 'o e tokotaha nofo 'i ho'o tohi fakahinohino.",
+      "bypassSubtitle": "'Oku ke seti hangatonu 'a e password 'a e tokotaha nofo ko 'eni. He'ikai ke 'ave ha 'imeili.",
+      "addSubtitle": "'E 'imeili atu ha fehokotaki'anga set-password ki he tokotaha nofo ko 'eni ke nau lava 'o faka'aonga'i 'enau login.",
+      "fullName": "Hingoa kakato",
+      "houseNumber": "Fale / 'iuniti fika.",
+      "email": "'Imeili",
+      "phone": "Fika telefoni",
+      "meterNumber": "Fika mita",
+      "governmentId": "ID Pule'anga",
+      "gender": "Fefine pe tangata",
+      "dateOfBirth": "'Aho fanau'i",
+      "dateOfJoining": "'Aho 'o e kau mai",
+      "flatSize": "Lahi 'o e palapala (sq ft)",
+      "bypassLabel": "Bypass seti-lea fufuu 'imeili — seti ha lea fufuu ki he tokotaha nofo ko 'eni he taimi ni .",
+      "password": "Leafūfū",
+      "confirmPassword": "Fakapapauʻi ʻa e lea fufuú"
+    },
+    "validation": {
+      "fullNameRequired": "'Oku fiema'u 'a e hingoa kakato.",
+      "emailRequired": "'Oku fiema'u 'a e 'imeili.",
+      "phoneRequired": "Fiema'u 'a e fika telefoni.",
+      "houseNumberRequired": "'Oku fiema'u 'a e fika 'o e fale / 'iuniti.",
+      "houseNumberTaken": "Ko e fika fale ko eni kuo 'osi vahe ia ki ha taha kehe 'oku nofo ai.",
+      "meterNumberRequired": "Fiema'u 'a e fika mita.",
+      "meterNumberFormat": "Kuo pau ke hange ko e fika mita 'a e MTR-1234 (fika 'e 4).",
+      "meterNumberTaken": "Ko e fika mita ko eni 'oku 'osi vahe ia ki ha taha nofo 'e taha.",
+      "governmentIdRequired": "'Oku fiema'u 'a e ID 'a e Pule'anga.",
+      "governmentIdFormat": "Kuo pau ke fika 6 'a e ID 'o kamata mei he 99 (e.g. 991234).",
+      "genderRequired": "Kātaki ʻo fili ha tangata pe fefine.",
+      "dateOfBirthRequired": "'Oku fiema'u 'a e 'aho fanau'i.",
+      "dateOfJoiningRequired": "'Oku fiema'u 'a e 'aho 'o e kau mai.",
+      "passwordRequired": "'Oku fie ma'u 'a e password.",
+      "passwordLength": "Ko e password kuo pau ke 'oua 'e si'i hifo he mata'itohi 'e 8.",
+      "confirmPasswordRequired": "Kataki 'o fakapapau'i 'a e lea fufuu.",
+      "passwordMismatch": "ʻOku ʻikai ke feʻunga ʻa e ngaahi lea fufuú."
+    },
+    "bulk": {
+      "title": "Kau Nofo Upload Lahi",
+      "noFile": "Kataki 'o fili ha faile .csv pe .xlsx/.xls ke 'oatu.",
+      "instructions": "Upload a .csv or .xlsx/.xls file with columns <code>{{columns}}</code> (password and flatSizeSqft are both optional). Rows with a password set it directly; rows without one get a set-password email, same as adding a resident manually. Duplicate house/meter numbers or emails are rejected per row — one bad row won't fail the whole batch."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Na'e 'ikai lava ke uta 'a e kau nofo. Kātaki ʻo toe feinga.",
+    "historyLoadError": "Na'e 'ikai lava ke uta 'a e hisitōlia 'o e lau. Kātaki ʻo toe feinga.",
+    "successMessage": "Lavame'a hono lekooti 'o e lau 'o e {{value}} kL ki he {{house}} (Mita: {{meter}})! Fakafuofua'i 'a e fakamole: {{consumption}} kL.",
+    "tabs": {
+      "single": "Hu Taha",
+      "csv": "Lahi CSV Fakahu",
+      "history": "Lau Hisitōlia ."
+    },
+    "source": {
+      "manual": "Tohi fakahinohino",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Ko e tokotaha nofo ko eni 'oku 'ikai ha'ane fika mita 'i he faile.",
+      "dateRequired": "'Oku fiema'u 'a e 'aho lau.",
+      "invalidValue": "Kātaki ʻo fakahū ha mahuʻinga lau ʻoku ʻaonga, ʻikai fakafepaki.",
+      "duplicate": "Ko e lau ki he mita ko eni 'oku 'osi 'i ai pe ia 'i he 'aho ko ia.",
+      "meterNotFound": "Naʻe ʻikai lava ke maʻu ʻa e mita ko ʻení. Kataki 'o toe fili 'a e tokotaha nofo.",
+      "lowerThanPrevious": "Ko e lau ko eni 'oku ma'ulalo ange ia 'i he lau na'e lekooti kimu'a.",
+      "recordFailed": "Naʻe ʻikai lava ke lekooti ʻa e lau ko ʻení. Kātaki ʻo toe feinga."
+    },
+    "combo": {
+      "label": "Fili 'a e Flat & Mita Serial .",
+      "placeholder": "Fili 'a e Flat & Mita Serial...",
+      "flat": "Fāleti {{house}}",
+      "noMeter": "'Ikai ha mita",
+      "searchPlaceholder": "Fekumi ki he fika 'o e fale nofo'anga, mita serial, nofo...",
+      "unitsHeader": "Ngaahi 'Iuniti Nofo'anga",
+      "found": "Na'e ma'u 'a e ngaahi fale nofo'anga: {{total}}",
+      "loading": "Uta 'a e kau nofo...",
+      "noMatch": "'Oku 'ikai ha kau nofo 'oku nau fe'unga mo e \"{{search}}\".",
+      "unassigned": "Te'eki vahe",
+      "itemMeta": "{{name}} · Fakamuimuitaha: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Ko hono lekooti ha lau ki he .",
+      "context": "Fale {{house}} · Mita {{meter}}",
+      "changeResident": "Fetongi nofo'anga",
+      "readingDate": "'Aho lau",
+      "readingValue": "Lau 'o e Mita Lolotonga (kL)",
+      "submit": "Fakahu mai e Lau kuo Fakamo'oni'i",
+      "recentTitle": "Ngaahi lau kimuí ni mai",
+      "recentEmpty": "Kuo te'eki ke lekooti ha lau ki he mita ko 'eni."
+    },
+    "info": {
+      "title": "Fakamo'oni'i 'o e Mita Monotonic",
+      "body": "Kuo pau ke lahi ange pe tatau 'a e lau fo'ou kotoa pe mo e tohi 'o e 'akau kimu'a ki he mita ko ia — 'oku tauhi 'e he me'a ni 'a e ngaahi fakafuofua 'o e fakamole ke tonu pea ma'u 'a e ngaahi fika transposed vave."
+    },
+    "details": {
+      "title": "Ngaahi Fakaikiiki ʻo e ʻIuniti kuo Filí",
+      "flatUnit": "ʻIuniti Pala",
+      "meterSerial": "Mita Fakahokohoko",
+      "occupant": "Hingoa ʻo e Nofoʻangá",
+      "lastDial": "Tala Fakamuimuitaha kuo Lekooti",
+      "noReadings": "Te'eki ke 'iai ha lau",
+      "monthConsumption": "Fakamole Fakamāhina",
+      "empty": "‘Ikai ha ‘api ‘e fili. Fekumi mo fili ha taha nofo ke sio ki he'enau fakaikiiki mita heni."
+    },
+    "csv": {
+      "noFile": "Kātaki ʻo fili ha faile CSV ke ʻoatu.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Uta 'a e ngaahi lau...",
+      "empty": "Kuo te'eki ke lekooti ha ngaahi lau ki homou komiuniti."
+    },
+    "table": {
+      "meterNumber": "Mita Fika.",
+      "date": "Aho",
+      "value": "Value (kL)",
+      "consumption": "Fakamole (kL)",
+      "source": "Ma'unga fakamatala"
+    }
+  },
+  "billingCycles": {
+    "title": "Ngaahi Siakale Fakamole",
+    "loadError": "Na'e 'ikai lava ke uta 'a e ngaahi siakale totongi. Kātaki ʻo toe feinga.",
+    "paymentUpdateError": "'Ikai lava ke fakafo'ou 'a e tu'unga totongi 'o e inivoisi ko 'eni.",
+    "pdfError": "Naʻe ʻikai lava ke download ʻa e PDF. Kātaki ʻo toe feinga.",
+    "finalizeError": "Na'e 'ikai lava ke faka'osi 'a e siakale totongi ko 'eni.",
+    "archiveError": "Na'e 'ikai lava ke archive 'a e siakale totongi ko 'eni.",
+    "loading": "Uta 'a e ngaahi siakale totongi...",
+    "empty": "'Oku te'eki ke 'iai ha ngaahi siakale totongi. Fakaava ha taha ʻi ʻolunga ke ke kamata.",
+    "status": {
+      "open": "Ava",
+      "finalized": "Faka'osi",
+      "archived": "Kuo tauhi"
+    },
+    "open": {
+      "title": "Fakaava ha Siakale Fakamole Fo'ou .",
+      "noMonth": "Kataki 'o fili ha mahina ke fakaava ai.",
+      "error": "Na'e 'ikai lava ke fakaava ha siakale totongi ki he mahina ko ia.",
+      "monthAria": "Vaha'ataimi totongi 'o e mahina",
+      "opening": "Fakaava...",
+      "submit": "Fakaava 'a e Siakale"
+    },
+    "table": {
+      "period": "Piliote",
+      "status": "Tu'unga",
+      "householdsBilled": "Ngaahi 'Api 'oku Totongi",
+      "totalBilled": "Fakakatoa 'o e Totongi",
+      "actions": "Ngaahi Ngaue"
+    },
+    "actions": {
+      "finalize": "Faka'osi",
+      "finalizing": "Faka'osi...",
+      "archive": "Feitu'u tauhi lēkooti fakahisitolia",
+      "archiving": "Fakatolonga..."
+    },
+    "filter": {
+      "aria": "Filter 'aki 'a e tu'unga totongi",
+      "all": "Kotoa"
+    },
+    "payment": {
+      "paid": "Totongi",
+      "unpaid": "Ta'etotongi",
+      "updating": "Fakafo'ou...",
+      "markPaid": "Faka'ilonga'i ko e totongi",
+      "markUnpaid": "Faka'ilonga'i ko e ta'etotongi ."
+    },
+    "detail": {
+      "title": "Fakaikiiki 'o e Siakale — {{period}}",
+      "loading": "Uta 'o e ngaahi inivoisi...",
+      "notFinalized": "'Oku te'eki ke fakapapau'i 'a e siakale ko 'eni — 'oku 'ikai ha ngaahi inivoisi kuo fakatupu.",
+      "noInvoices": "'Ikai ha invoice ki he siakale ko 'eni.",
+      "noMatch": "'Oku 'ikai ha ngaahi inivoisi 'oku tatau mo e filter ko 'eni."
+    },
+    "invoices": {
+      "household": "Kau nofoʻanga",
+      "resident": "Api nofo'anga",
+      "meterNumber": "Mita Fika.",
+      "consumption": "Fakamole (kL)",
+      "tierBreakdown": "Movetevete 'o e Tier",
+      "commonArea": "Feitu'u Angamaheni",
+      "total": "Fakakātoa",
+      "paymentStatus": "Tu'unga Totongi",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "'Ikai lava ke uta 'a e configuration 'o e totongi",
+    "saveError": "'Ikai lava ke fakahaofi 'a e configuration 'o e totongi",
+    "chartTitle": "Ngaahi Tu'unga 'o e Totongi 'o e Utility 'oku Mita 'oku Ngaue",
+    "axisNote": "Fakafuofua 'i he ₹/kL, ngaahi fakangatangata 'o e laupapa 'i he kL",
+    "tableTitle": "Tepile Tiers Totongi",
+    "defaultRatesNote": "Fakahaa'i 'a e ngaahi totongi default — 'oku te'eki ke fakahaofi.",
+    "addTier": "+ Tānaki atu ʻa e Tier",
+    "saveRates": "Fakahaofi e ngaahi totongi totongi",
+    "tierLevel": {
+      "base": "Tier {{tier}} (Tuʻunga)",
+      "medium": "Tier {{tier}} (Lotolotonga)",
+      "heavy": "Tier {{tier}} (Mamafa)"
+    },
+    "basePrice": {
+      "label": "Totongi Fakava'e (₹ / kL, 'oku faka'aonga'i ki he fakamole KOTOA)",
+      "note": "Ko e kL kotoa pe 'oku 'uluaki totongi 'a e totongi flat ko 'eni. Ko e ngaahi slabs 'i lalo 'oku tanaki atu 'a e ngaahi totongi EXTRA pe ki hono faka'aonga'i 'oku to 'i loto 'i honau 'atakai — e.g. ko ha slab kamata 'i he 50 kL 'oku ne tanaki atu pe hono tu'unga ki he fakamole 'i 'olunga 'i he 50 kL."
+    },
+    "table": {
+      "tierLevel": "Levolo Tier",
+      "slabLimit": "Fakangatangata 'o e Palapa (kL)",
+      "rate": "Fakafuofua ki he kL",
+      "action": "Ke ngaue"
+    },
+    "commonArea": {
+      "title": "Fakalelei'i 'o e Fakamole 'o e 'Elia Angamaheni Vahevahe",
+      "loadError": "'Oku 'ikai lava ke uta 'a e configuration 'o e totongi 'o e feitu'u angamaheni",
+      "saveError": "'Ikai lava ke fakahaofi 'a e configuration 'o e totongi 'o e feitu'u angamaheni",
+      "empty": "'Oku te'eki ke fakahaofi ha ngaahi me'a fakamole.",
+      "labelPlaceholder": "Faka'ilonga 'o e me'a fakamole",
+      "perMonth": "/ māhina",
+      "active": "Longomo'ui",
+      "addItem": "+ Tānaki atu ʻa e Meʻa Fakamolé",
+      "save": "Tauhi 'a e Fakalelei'i 'o e 'Elia Angamaheni"
+    },
+    "distribution": {
+      "title": "Fili Founga Tufaki Fakamole",
+      "consumption": "'I he Faka'aonga'i (Sub-metered Fakafe'unga)",
+      "floorArea": "'I he lahi 'o e fale nofo'anga (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "'Aho Kamata 'o e Totongi 'o e Siakale",
+      "cycleStartValue": "'aho 1 'o e Mahina Kotoa pe",
+      "autoInvoices": "Fakatupu ʻotomētiki PDF Ngaahi ʻinivoisi"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Kuo Laka hake ʻi he Tuʻunga",
+      "statisticalOutlier": "Fakasitetisitika 'o e Outlier"
+    },
+    "status": {
+      "active": "Longomo'ui",
+      "resolved": "Fakalelei'i",
+      "dismissed": "Fakahifo"
+    },
+    "config": {
+      "title": "Fakalelei'i 'o e 'ilo'i 'o e leakage",
+      "subtitle": "Fokotu'u ha tu'unga 'o e fakamole fakamāhina pea/pe faka'ata 'a e statistical outlier detection (faka'ilonga'i ha 'api 'oku 'ikai angamaheni 'a e ma'olunga 'o 'ene fakamole fakamāhina 'i hono fakafehoanaki ki hono hisitōlia 'o'ona).",
+      "loadError": "Na'e 'ikai lava ke uta 'a e configuration fakatokanga. Kātaki ʻo toe feinga.",
+      "thresholdRequired": "'Oku fie ma'u ha 'aofi fakamāhina (kL) 'i he taimi 'oku faka'ata ai 'a e ngaahi fakatokanga 'o e 'aofi.",
+      "saveError": "Na'e 'ikai lava ke fakahaofi 'a e fokotu'utu'u ko 'eni.",
+      "loading": "Uta 'a e fakalelei'i...",
+      "threshold": "Tu'unga fakamāhina (kL)",
+      "sensitivity": "Outlier ongo'i (σ fakalahi)",
+      "enableThreshold": "Faka'ata 'a e ngaahi fakatokanga threshold",
+      "enableOutlier": "Faka'ata 'a e ngaahi fakatokanga outlier fakasitetisitika",
+      "save": "Tauhi 'a e Fakalelei'i",
+      "running": "Lele…",
+      "runNow": "Lele 'a e 'ilo'i he taimi ni"
+    },
+    "alerts": {
+      "title": "Ngaahi 'Api kuo Faka'ilonga'i",
+      "loadError": "Na'e 'ikai lava ke uta 'a e ngaahi fakatokanga. Kātaki ʻo toe feinga.",
+      "runError": "'Ikai lava ke fakalele 'a e leak detection he taimi ni. Kātaki ʻo toe feinga.",
+      "updateError": "'Ikai lava ke fakafo'ou 'a e fakatokanga ko 'eni. Kātaki ʻo toe feinga.",
+      "allStatuses": "Ngaahi tu'unga kotoa pe",
+      "loading": "Uta 'a e ngaahi fakatokanga...",
+      "empty": "'Ikai ha ngaahi fakatokanga ke fakahaa'i. Configure ha threshold pe faka'ata 'a e outlier 'ilo'i 'i 'olunga, pea lomi'i 'a e \"Lele 'ilo'i he taimi ni\" ke sivi'i 'a e faka'aonga'i lolotonga 'o ho komiuniti.",
+      "resolve": "Solova",
+      "dismiss": "Tukuange ke alu"
+    },
+    "table": {
+      "household": "Kau nofoʻanga",
+      "resident": "Api nofo'anga",
+      "meter": "Mita",
+      "type": "Fa'ahinga",
+      "period": "Piliote",
+      "consumption": "Faka'aonga'i",
+      "reference": "Fakamo'oni",
+      "status": "Tu'unga"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Na'e 'ikai lava ke uta 'a e ngaahi fakatau vai lahi. Kātaki ʻo toe feinga.",
+    "confirmRemove": "To'o 'a e {{source}} tu'uaki 'i he {{date}}?",
+    "removeError": "Na'e 'ikai lava ke to'o 'a e fakatau ko 'eni. Kātaki ʻo toe feinga.",
+    "count": "Ngaahi fakatau kuo lekooti: {{total}}",
+    "recordButton": "+ Fakatau Lekooti",
+    "loading": "Uta 'a e ngaahi fakatau vai lahi...",
+    "empty": "Kuo te'eki ke lekooti ha fakatau vai lahi. Lomi'i 'i he \"Lekooti Fakatau\" ke log ha tu'uaki 'o e vaka uta pe fakatau 'o e ngaahi me'akai 'a e kolomu'a.",
+    "table": {
+      "date": "Aho",
+      "source": "Ma'unga fakamatala",
+      "volume": "Voliume (L)",
+      "unitCost": "Fakamole ʻiuniti",
+      "totalCost": "Fakakatoa 'o e Fakamole",
+      "notes": "Nouti"
+    },
+    "form": {
+      "addTitle": "Lekooti 'a e Fakatau Vai Lahi",
+      "editTitle": "Fakatonutonu Fakatau Vai Lahi",
+      "subtitle": "Muimui'i ha tu'uaki 'o e vaka uta pe fakatau 'o e ngaahi naunau 'a e kolomu'a ma'a ho komiuniti — 'oku lekooti 'eni ki he 'asi 'o e fakamole pe pea 'oku 'ikai ke ne uesia 'a e ngaahi inivoisi 'o e ngaahi 'api.",
+      "requiredFields": "Kātaki ʻo fakafonu ʻa e ʻaho, maʻuʻanga fakamatala, voliume, mo e totongi ʻo e ʻiunití.",
+      "saveError": "Na'e 'ikai lava ke fakahaofi 'a e fakatau ko 'eni. Kataki 'o vakai'i 'a e fakaikiiki.",
+      "purchaseDate": "'Aho fakatau",
+      "source": "Ma'u'anga fakamatala / tu'uaki",
+      "volume": "Voliume (lita)",
+      "unitCost": "Fakamole ʻiuniti (₹/lita)",
+      "totalPreview": "Fakakatoa 'o e fakamole: {{amount}}",
+      "notes": "Ngaahi fakamatala (fili)",
+      "submit": "Fakatau Lekooti"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} 'oku te'eki ke langa",
+    "profileSaveError": "Naʻe ʻikai lava ke fakahaofi hoʻo fakamatalá. Kātaki ʻo toe feinga.",
+    "apartmentSaveError": "Na'e 'ikai lava ke fakahaofi 'a e ngaahi fakaikiiki 'o e fale nofo'anga. Kātaki ʻo toe feinga.",
+    "specsTitle": "Ngaahi fakaikiiki 'o e fakamatala",
+    "photoUnavailable": "'Oku te'eki ke ma'u 'a e upload 'o e 'ata",
+    "changePhoto": "Liliu ʻa e ʻAtá",
+    "deletePhoto": "Tamate'i",
+    "photoHint": "JPG pe PNG. Lahi lahi taha 2MB.",
+    "saveProfile": "Tauhi e fakamatala",
+    "apartmentTitle": "Fakaikiiki 'o e fale nofo'anga",
+    "saveApartment": "Tauhi 'a e ngaahi fakaikiiki 'o e fale nofo'anga",
+    "tabs": {
+      "profile": "Ngaahi fokotuʻutuʻu ʻo e fakamatala",
+      "apartment": "Fakamatala ʻo e ʻApaatimení",
+      "notifications": "Ngaahi Tu'utu'uni Faka'ilo",
+      "billing": "Fakatahataha'i 'o e totongi",
+      "security": "Malu & Hu ki ai"
+    },
+    "fields": {
+      "fullName": "Hingoa Kakato",
+      "email": "Tu'asila 'Imeili",
+      "emailLocked": "'Oku 'ikai lava ke liliu 'a e 'imeili heni .",
+      "phone": "Fika Telefoni",
+      "accessLevel": "Levolo 'o e Hu",
+      "accessLevelValue": "Pule Fakakomiuniti",
+      "roleLocked": "'Oku te'eki ke ma'u 'a e pule'i 'o e fatongia",
+      "apartmentName": "Hingoa ʻo e fale nofoʻangá",
+      "mainsSource": "Ma'u'anga fakamatala Tefito",
+      "mainsSourcePlaceholder": "e.g. Tu'uaki 'a e Municipal + Ngaahi Taki Fakalahi",
+      "address": "Tuʻasila Fakasino"
+    },
+    "security": {
+      "title": "Malu & Tomu'a vakai ki he hū",
+      "twoFactor": "Fakamo'oni'i 'o e Me'a 'e Ua",
+      "twoFactorHint": "Faka'ata 'i he login",
+      "twoFactorUnavailable": "'Oku te'eki ke ma'u 'a e fakamo'oni 'o e me'a 'e ua",
+      "twoFactorAria": "Fakamo'oni'i 'o e me'a 'e ua (tomu'a vakai'i pe)",
+      "sessionsLabel": "Ngaahi Fakataha Admin 'oku lolotonga ngaue",
+      "sessionsEmpty": "'Oku te'eki ke ma'u 'a e muimui'i 'o e session — ko ha tomu'a sio 'eni ki he fokotu'utu'u 'oku lolotonga hoko mai."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Ko 'eku ngaahi Tikite",
+      "inbox": "Tikite Nofo"
+    },
+    "mine": {
+      "title": "Ko 'eku ngaahi Tikite Poupou",
+      "subtitle": "'Ohake ha fehu'i pe hoha'a fekau'aki mo ho komiuniti ki he System Admin.",
+      "emptyCreateHint": "ʻOhake ha fehuʻi pe hohaʻa fekauʻaki mo ho koló. 'E vakai'i mo tali heni 'e ha System Admin."
+    },
+    "inbox": {
+      "title": "Tikite Nofo",
+      "subtitle": "Poupou tikite mo e ngaahi hoha'a kuo fakahoko atu 'e he kakai 'i ho komiuniti kiate koe."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "نشيط",
+    "blocked": "محظور",
+    "terminated": "تم إنهاؤه"
+  },
+  "sort": {
+    "sortBy": "الترتيب حسب",
+    "toggleDirection": "تبديل اتجاه الفرز",
+    "asc": "↑ تصاعديا",
+    "desc": "↓ وصف"
+  },
+  "pagination": {
+    "showing": "عرض {{from}}–{{to}} من {{total}}",
+    "prev": "← السابق",
+    "next": "التالي →",
+    "page": "الصفحة {{page}} من {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "نظرة عامة على المنصة",
+    "subtitle": "كل مسؤول مجتمع مسجل، عبر النظام الأساسي HydroLedger بأكمله.",
+    "viewAll": "عرض جميع المجتمعات",
+    "loadError": "تعذر تحميل بيانات النظام الأساسي الآن.",
+    "cards": {
+      "totalCommunities": "إجمالي المجتمعات",
+      "registeredAdmins": "المشرفين المسجلين",
+      "totalResidents": "إجمالي السكان",
+      "acrossAllCommunities": "في كافة المجتمعات",
+      "active": "نشيط",
+      "inGoodStanding": "في وضع جيد",
+      "blockedTerminated": "محظور / أنهى",
+      "blockedTerminatedBreakdown": "{{blocked}} محظور، {{terminated}} تم إنهاؤه"
+    },
+    "recent": {
+      "title": "المجتمعات المسجلة مؤخرا",
+      "loading": "تحميل…",
+      "empty": "لم يتم تسجيل أي مجتمعات حتى الآن.",
+      "table": {
+        "community": "مجتمع",
+        "admin": "مسؤل",
+        "status": "حالة",
+        "residents": "سكان"
+      }
+    }
+  },
+  "communities": {
+    "count": "المجتمعات: {{count}}",
+    "loadError": "لا يمكن تحميل المجتمعات. يرجى المحاولة مرة أخرى.",
+    "searchPlaceholder": "قم بالتصفية حسب المجتمع أو اسم المسؤول أو البريد الإلكتروني",
+    "statusFilter": {
+      "label": "حالة",
+      "all": "الجميع"
+    },
+    "sortOptions": {
+      "community": "مجتمع",
+      "admin": "مسؤل",
+      "residents": "المقيمين"
+    },
+    "loading": "جارٍ تحميل المجتمعات…",
+    "empty": "لم يتم تسجيل أي مجتمعات حتى الآن.",
+    "noMatch": "لا توجد مجتمعات تتطابق مع عوامل التصفية الخاصة بك.",
+    "table": {
+      "community": "مجتمع",
+      "admin": "مسؤل",
+      "email": "بريد إلكتروني",
+      "status": "حالة",
+      "residents": "سكان",
+      "view": "منظر"
+    }
+  },
+  "communityDetail": {
+    "loadError": "لا يمكن تحميل هذا المجتمع. ربما تمت إزالتها.",
+    "statusUpdateError": "تعذر تحديث حالة هذا المجتمع.",
+    "deleteError": "لا يمكن حذف هذا المجتمع.",
+    "loading": "جارٍ تحميل المجتمع…",
+    "notFound": "لم يتم العثور على المجتمع.",
+    "backLink": "← العودة إلى المجتمعات",
+    "backLinkShort": "العودة إلى المجتمعات",
+    "eyebrow": "ملف تعريف المجتمع",
+    "unnamed": "مجتمع بدون اسم",
+    "noAddress": "لا يوجد عنوان في الملف",
+    "stats": {
+      "residents": "المقيمين",
+      "status": "حالة"
+    },
+    "actions": {
+      "reactivate": "إعادة التنشيط",
+      "block": "حاجز",
+      "terminate": "إنهاء",
+      "delete": "حذف المجتمع"
+    },
+    "blockDialog": {
+      "title": "هل تريد حظر مسؤول المجتمع هذا؟",
+      "message": "منع {{name}}؟ لن يتمكنوا من تسجيل الدخول حتى يتم إلغاء الحظر. لن تتأثر أية بيانات.",
+      "confirm": "حاجز"
+    },
+    "terminateDialog": {
+      "title": "إنهاء هذا المشرف المجتمع؟",
+      "message": "هل تريد إنهاء وصول {{name}} بشكل دائم؟ لا يمكن التراجع عن هذا، على الرغم من أنه سيتم الاحتفاظ ببيانات مجتمعهم في السجلات.",
+      "confirm": "إنهاء"
+    },
+    "deleteDialog": {
+      "title": "هل تريد حذف هذا المجتمع؟",
+      "message": "سيؤدي هذا إلى حذف <strong>{{name}}</strong> وجميع الأسر والمقيمين والعدادات وتكوين التعريفة/الفوترة وتاريخ الفاتورة نهائيًا. لا يمكن التراجع عن هذا الإجراء.",
+      "typeToConfirm": "اكتب <strong>{{word}}</strong> للمتابعة",
+      "confirm": "يتأكد"
+    },
+    "residents": {
+      "title": "المقيمين",
+      "registeredCount": "مسجل: {{count}}",
+      "empty": "لم يتم تسجيل أي سكان في هذا المجتمع حتى الآن.",
+      "table": {
+        "flatUnit": "وحدة مسطحة",
+        "meter": "متر",
+        "resident": "مقيم",
+        "email": "بريد إلكتروني",
+        "passwordSet": "تعيين كلمة المرور"
+      },
+      "yes": "نعم",
+      "no": "لا"
+    },
+    "cancel": "يلغي",
+    "working": "عمل…",
+    "deleting": "جارٍ الحذف..."
+  },
+  "systemStatus": {
+    "statusError": "تعذر الوصول إلى الواجهة الخلفية للتحقق من حالة النظام.",
+    "metricsError": "تعذر تحميل سجل المقاييس.",
+    "ranges": {
+      "fiveMinutes": "5 دقائق",
+      "fifteenMinutes": "15 دقيقة",
+      "hour": "ساعة",
+      "day": "يوم",
+      "week": "أسبوع",
+      "month": "شهر",
+      "threeMonths": "3 أشهر"
+    },
+    "uptime": {
+      "days": "{{value}}د",
+      "hours": "{{value}}ح",
+      "minutes": "{{value}}م"
+    },
+    "charts": {
+      "requestsPerSec": "طلبات/ثانية",
+      "opsPerSec": "العمليات/ثانية",
+      "latency": "كمون",
+      "lastValue": "{{value}} الاخير",
+      "loading": "تحميل…",
+      "empty": "لم يتم تسجيل أي مقاييس لهذا النطاق حتى الآن."
+    },
+    "stats": {
+      "min": "الحد الأدنى: <b>{{value}}</b>",
+      "avg": "المتوسط: <b>{{value}}</b>",
+      "max": "الحد الأقصى: <b>{{value}}</b>",
+      "last": "الأخير: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "واجهة برمجة التطبيقات الخلفية",
+      "checking": "جارٍ التحقق…",
+      "reachable": "يمكن الوصول إليها",
+      "unreachable": "لا يمكن الوصول إليه",
+      "connected": "متصل",
+      "backendApiHint": "تم تحميل هذه الصفحة من الواجهة الخلفية، لذلك استجابت.",
+      "database": "قاعدة البيانات",
+      "databaseHint": "تم التحقق من اتصال PostgreSQL مباشرةً.",
+      "uptime": "وقت تشغيل الواجهة الخلفية",
+      "uptimeHint": "منذ إعادة تشغيل التطبيق الأخير.",
+      "appVersion": "إصدار التطبيق",
+      "appVersionHint": "نسخة البناء الخلفية."
+    },
+    "mini": {
+      "latency": "كمون",
+      "readsLatency": "يقرأ الكمون",
+      "writesLatency": "يكتب الكمون",
+      "otherLatency": "الكمون الأخرى",
+      "connections": "اتصالات",
+      "totalKeys": "مجموع المفاتيح"
+    },
+    "note": "يتم أخذ عينات من الطلبات/الثانية ووقت الاستجابة من حركة مرور الواجهة الخلفية المباشرة كل 15 ثانية ويتم الاحتفاظ بها لمدة تصل إلى 100 يوم. يعد هذا فحصًا أساسيًا للاتصال + حركة المرور - ولا يحل محل المراقبة الكاملة لأداء التطبيق أو تجميع السجلات أو التنبيه."
+  },
+  "reports": {
+    "loadError": "تعذر تحميل تقرير النظام الأساسي.",
+    "ranges": {
+      "threeMonths": "3 أشهر",
+      "sixMonths": "6 أشهر",
+      "twelveMonths": "12 شهرا",
+      "custom": "مخصص"
+    },
+    "sortOptions": {
+      "community": "مجتمع",
+      "usage": "الاستخدام",
+      "billed": "فاتورة",
+      "residents": "المقيمين"
+    },
+    "customRange": {
+      "from": "من",
+      "to": "ل",
+      "hint": "اختر الشهر \"من\" و\"إلى\" لتحميل تقرير مخصص."
+    },
+    "loading": "جارٍ تحميل التقرير…",
+    "cards": {
+      "totalCommunities": "إجمالي المجتمعات",
+      "inThisRange": "في هذا النطاق",
+      "totalResidents": "إجمالي السكان",
+      "acrossAllCommunities": "في كافة المجتمعات",
+      "overallUsage": "الاستخدام الشامل",
+      "meteredConsumption": "الاستهلاك المقنن",
+      "overallBilled": "الفاتورة الشاملة",
+      "finalizedInvoicesOnly": "الفواتير النهائية فقط",
+      "avgUsagePerResident": "متوسط ​​الاستخدام / المقيم",
+      "avgBillPerResident": "متوسط ​​الفاتورة / المقيم"
+    },
+    "charts": {
+      "usageTitle": "الاستخدام على مستوى النظام الأساسي (kL / الشهر)",
+      "usageEmpty": "لم يتم تسجيل أي استخدام لهذا النطاق.",
+      "usageSeries": "الاستخدام",
+      "billedTitle": "المبلغ المفوتر على مستوى النظام الأساسي (₹ / شهر)",
+      "billedEmpty": "لم يتم الانتهاء من الفواتير لهذا النطاق.",
+      "billedSeries": "فاتورة"
+    },
+    "searchPlaceholder": "قم بالتصفية حسب اسم المجتمع أو المسؤول",
+    "empty": "لا توجد مجتمعات لديها بيانات الاستخدام أو الفوترة لهذا النطاق حتى الآن.",
+    "noMatch": "لا توجد مجتمعات تتطابق مع الفلتر الخاص بك.",
+    "table": {
+      "community": "مجتمع",
+      "admin": "مسؤل",
+      "residents": "المقيمين",
+      "usage": "الاستخدام (kL)",
+      "billed": "مفوتر (₹)",
+      "avgUsagePerResident": "متوسط ​​الاستخدام / المقيم",
+      "avgBillPerResident": "متوسط ​​الفاتورة / المقيم"
+    }
+  },
+  "supportTickets": {
+    "title": "تذاكر الدعم",
+    "subtitle": "دعم التذاكر والمخاوف التي أثارها السكان ومدراء المجتمع، على مستوى النظام الأساسي."
+  }
+}

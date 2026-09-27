@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Á lódáil…",
+    "saving": "Ag sábháil…",
+    "saved": "Shábháil.",
+    "uploading": "Á uaslódáil…",
+    "upload": "Uaslódáil",
+    "uploadError": "Níorbh fhéidir an comhad seo a uaslódáil. Bain triail eile as.",
+    "cancel": "Cealaigh",
+    "close": "Dún",
+    "edit": "Cuir in eagar",
+    "remove": "Bain",
+    "saveChanges": "Sábháil Athruithe",
+    "bulkSummary": "D'éirigh le próiseáil <b>{{total}}</b> sraitheanna — <b>{{success}}</b>, <b>{{failure}}</b> theip.",
+    "rowFailure": "Rae {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Ag taispeáint {{from}}–{{to}} de {{total}}",
+    "prev": "← Roimhe seo",
+    "next": "Ar Aghaidh →",
+    "page": "Leathanach {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Níorbh fhéidir do shonraí pobail a lódáil faoi láthair.",
+    "title": "{{community}} Painéal na nÁrasán",
+    "titleFallback": "Do Phainéal Árasáin",
+    "subtitle": "Achoimre oibriúcháin maidir le fomhéadrú áirgiúlachta uisce agus tomhaltas teaghlaigh.",
+    "comingSoon": "Ag teacht go luath",
+    "manageCommunity": "Pobail a bhainistiú",
+    "noUsageReadings": "Níl aon léamha úsáide taifeadta fós.",
+    "cards": {
+      "totalHouseholds": "Teaghlaigh Iomlán",
+      "occupied": "Áitithe",
+      "activeMeters": "Méadair Ghníomhacha",
+      "reportingReadings": "Léite a thuairisciú",
+      "monthlyConsumption": "Tomhaltas Míosúil",
+      "thisCalendarMonth": "An mhí fhéilire seo",
+      "latestRecordedMonth": "An mhí is déanaí a taifeadadh ({{month}})",
+      "noReadingsYet": "Níl aon léamh taifeadta go fóill",
+      "pendingAlerts": "Foláirimh ar Feitheamh",
+      "anomalyPreview": "Réamhamharc ar bhrath aimhrialtacht — níl sé ar fáil fós"
+    },
+    "actions": {
+      "label": "Gníomhartha Mear Riaracháin",
+      "uploadReadings": "Uaslódáil léamha méadair",
+      "configureTariffs": "Cumraigh Taraifí",
+      "reportsNotBuilt": "Níl tuairiscí tógtha fós",
+      "downloadReports": "Íosluchtaigh tuarascálacha córais"
+    },
+    "chart": {
+      "title": "Comparáid Míosúil Tomhaltais (kL)",
+      "subtitle": "{{months}} míonna deiridh: sprioc vs. tomhaltas iarbhír.",
+      "targetSeries": "Sprioc (réamhamharc)",
+      "actualSeries": "Iarbhír"
+    },
+    "recent": {
+      "title": "Léamha Méadair le Déanaí",
+      "unit": "Aonad",
+      "resident": "Cónaitheach",
+      "lastReading": "Léamh Deireanach",
+      "consumption": "Tomhaltas"
+    }
+  },
+  "households": {
+    "loadError": "Níorbh fhéidir na cónaitheoirí a lódáil. Bain triail eile as.",
+    "fixFields": "Ceartaigh na réimsí aibhsithe.",
+    "saveError": "Níorbh fhéidir an cónaitheoir seo a shábháil. Seiceáil na sonraí le do thoil.",
+    "confirmRemove": "An bhfuil fonn ort {{name}} a bhaint de do eolaire teaghlaigh?",
+    "removeError": "Níorbh fhéidir an cónaitheoir seo a bhaint. Bain triail eile as.",
+    "count": "Teaghlaigh: {{total}}",
+    "bulkUploadButton": "⇪ Uaslódáil Bulc",
+    "addResidentButton": "+ Cuir Cónaitheach leis",
+    "searchPlaceholder": "Scag de réir ainm, tí, ríomhphoist nó uimh mhéadair.",
+    "loading": "Cónaitheoirí á lódáil…",
+    "empty": "Níl aon áitritheoirí fós. Cliceáil \"Cuir Cónaitheach leis\" chun an chéad teaghlach a chlárú.",
+    "noMatch": "Ní mheaitseálann aon áitritheoirí \"{{search}}\".",
+    "sort": {
+      "label": "Sórtáil de réir",
+      "name": "Ainm",
+      "houseNumber": "Uimhir Tí",
+      "dateOfJoining": "Dáta Glactha",
+      "toggleDirection": "Scoránaigh treo sórtála",
+      "asc": "↑ Asc",
+      "desc": "↓ Deasc"
+    },
+    "gender": {
+      "male": "Fireann",
+      "female": "Mná",
+      "other": "Eile"
+    },
+    "table": {
+      "name": "Ainm",
+      "houseUnit": "Teach/Aonad",
+      "email": "Ríomhphost",
+      "phone": "Fón",
+      "meterNumber": "Méadar Uimh.",
+      "sqft": "cearnóige",
+      "joined": "Chuaigh isteach"
+    },
+    "form": {
+      "addTitle": "Cuir Cónaitheach leis",
+      "editTitle": "Cuir Cónaitheach in Eagar",
+      "editSubtitle": "Nuashonraíonn sé seo sonraí an chónaitheora i do eolaire.",
+      "bypassSubtitle": "Tá tú ag socrú pasfhocal an chónaitheora seo go díreach. Ní sheolfar ríomhphost ar bith.",
+      "addSubtitle": "Seolfar nasc pasfhocal socraithe chuig an gcónaitheoir seo le gur féidir leo a logáil isteach féin a ghníomhachtú.",
+      "fullName": "Ainm iomlán",
+      "houseNumber": "Teach / aonad uimh.",
+      "email": "Ríomhphost",
+      "phone": "Uimhir theileafóin",
+      "meterNumber": "Uimhir mhéadair",
+      "governmentId": "Aitheantas Rialtais",
+      "gender": "Inscne",
+      "dateOfBirth": "Dáta breithe",
+      "dateOfJoining": "Dáta ballraíochta",
+      "flatSize": "Méid cothrom (troigh cearnach)",
+      "bypassLabel": "Seoladh ríomhphoist pasfhocal socraithe a sheachbhóthar - socraigh pasfhocal don chónaitheoir seo anois",
+      "password": "Pasfhocal",
+      "confirmPassword": "Deimhnigh pasfhocal"
+    },
+    "validation": {
+      "fullNameRequired": "Tá ainm iomlán ag teastáil.",
+      "emailRequired": "Tá ríomhphost ag teastáil.",
+      "phoneRequired": "Tá uimhir theileafóin ag teastáil.",
+      "houseNumberRequired": "Tá uimhir tí/aonad ag teastáil.",
+      "houseNumberTaken": "Tá an uimhir tí seo sannta cheana féin do chónaitheoir eile.",
+      "meterNumberRequired": "Tá uimhir mhéadair ag teastáil.",
+      "meterNumberFormat": "Caithfidh an uimhir mhéadair a bheith cosúil le MTR-1234 (4 dhigit).",
+      "meterNumberTaken": "Tá an uimhir mhéadair seo sannta cheana féin do chónaitheoir eile.",
+      "governmentIdRequired": "Tá ID an Rialtais ag teastáil.",
+      "governmentIdFormat": "Caithfidh 6 dhigit a bheith san aitheantas ag tosú le 99 (m.sh. 991234).",
+      "genderRequired": "Roghnaigh inscne.",
+      "dateOfBirthRequired": "Tá dáta breithe ag teastáil.",
+      "dateOfJoiningRequired": "Tá dáta ballraíochta ag teastáil.",
+      "passwordRequired": "Tá pasfhocal ag teastáil.",
+      "passwordLength": "Ní mór go mbeadh 8 gcarachtar ar a laghad ag pasfhocal.",
+      "confirmPasswordRequired": "Deimhnigh an pasfhocal le do thoil.",
+      "passwordMismatch": "Ní hionann pasfhocail."
+    },
+    "bulk": {
+      "title": "Mór-Uaslódáil Cónaitheoirí",
+      "noFile": "Roghnaigh comhad .csv nó .xlsx/.xls le huaslódáil.",
+      "instructions": "Uaslódáil comhad .csv nó .xlsx/.xls le colúin <code>{{columns}}</code> (tá pasfhocal agus flatSizeSqft araon roghnach). Leagann sraitheanna le pasfhocal é go díreach; faigheann sraitheanna gan ríomhphost pasfhocal socraithe, mar an gcéanna le cónaitheoir a chur leis de láimh. Diúltaítear uimhreacha tí/méadar nó ríomhphoist dhúblacha in aghaidh an tsraith – ní theipeann ar dhrochshraith amháin sa bhaisc iomlán."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Níorbh fhéidir na cónaitheoirí a lódáil. Bain triail eile as.",
+    "historyLoadError": "Níorbh fhéidir an stair léitheoireachta a lódáil. Bain triail eile as.",
+    "successMessage": "Léamh taifeadta go rathúil de {{value}} kL le haghaidh {{house}} (Méadar: {{meter}})! Tomhaltas ríofa: {{consumption}} kL.",
+    "tabs": {
+      "single": "Iontráil Aonair",
+      "csv": "Mórchóir CSV Uaslódáil",
+      "history": "Stair Léitheoireachta"
+    },
+    "source": {
+      "manual": "Lámhleabhar",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Níl aon uimhir mhéadair ag an gcónaitheoir seo.",
+      "dateRequired": "Tá dáta léitheoireachta ag teastáil.",
+      "invalidValue": "Cuir isteach luach léitheoireachta bailí, neamhdhiúltach.",
+      "duplicate": "Tá léamh don mhéadar seo ann cheana féin ar an dáta sin.",
+      "meterNotFound": "Níorbh fhéidir an méadar seo a aimsiú. Roghnaigh an cónaitheoir arís le do thoil.",
+      "lowerThanPrevious": "Tá an léamh seo níos ísle ná an léamh taifeadta roimhe seo.",
+      "recordFailed": "Níorbh fhéidir an léamh seo a thaifeadadh. Bain triail eile as."
+    },
+    "combo": {
+      "label": "Roghnaigh Srathach Maol & Méadar",
+      "placeholder": "Roghnaigh Srathach Maoláin & Méadar…",
+      "flat": "Maol {{house}}",
+      "noMeter": "Uimh méadar",
+      "searchPlaceholder": "Cuardaigh uimhir árasán, sraith méadar, cónaitheoir…",
+      "unitsHeader": "Aonaid Chónaithe",
+      "found": "Árasáin aimsithe: {{total}}",
+      "loading": "Cónaitheoirí á lódáil…",
+      "noMatch": "Ní mheaitseálann aon áitritheoirí \"{{search}}\".",
+      "unassigned": "Neamhshannta",
+      "itemMeta": "{{name}} · Last: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Léitheoireacht a thaifeadadh le haghaidh",
+      "context": "Teach {{house}} · Méadar {{meter}}",
+      "changeResident": "Athraigh cónaitheoir",
+      "readingDate": "Dáta léitheoireachta",
+      "readingValue": "Léamh Méadair Reatha (kL)",
+      "submit": "Cuir Léitheoireacht Bhailíochtaithe isteach",
+      "recentTitle": "Léamha le déanaí",
+      "recentEmpty": "Níl aon léamha taifeadta fós don mhéadar seo."
+    },
+    "info": {
+      "title": "Bailíochtú Méadar Monotónach",
+      "body": "Ní mór do gach léamh nua a bheith níos mó ná nó cothrom leis an loga roimhe seo don mhéadar sin — coinníonn sé seo ríomhaireachtaí tomhaltais cruinn agus gabhann sé digití luath-aistrithe."
+    },
+    "details": {
+      "title": "Sonraí an Aonaid Roghnaithe",
+      "flatUnit": "Aonad Maol",
+      "meterSerial": "Méadar Sraith",
+      "occupant": "Ainm an Áititheora",
+      "lastDial": "Dial Taifeadta Deiridh",
+      "noReadings": "Níl léamh ar bith fós",
+      "monthConsumption": "Tomhaltas Míosa",
+      "empty": "Níor roghnaíodh aon teaghlach. Cuardaigh agus roghnaigh cónaitheoir chun sonraí a mhéadair a fheiceáil anseo."
+    },
+    "csv": {
+      "noFile": "Roghnaigh CSV comhad le huaslódáil.",
+      "instructions": "Uaslódáil CSV le colúin <code>{{columns}}</code>. Déantar sraitheanna a phróiseáil go neamhspleách - ní theipeann ar shraith dhochrach amháin sa bhaisc iomlán."
+    },
+    "history": {
+      "loading": "Léamh á lódáil…",
+      "empty": "Níl aon léamh taifeadta go fóill do do phobal."
+    },
+    "table": {
+      "meterNumber": "Méadar Uimh.",
+      "date": "Dáta",
+      "value": "Luach (kL)",
+      "consumption": "Tomhaltas (kL)",
+      "source": "Foinse"
+    }
+  },
+  "billingCycles": {
+    "title": "Timthriallta Billeála",
+    "loadError": "Níorbh fhéidir na timthriallta billeála a lódáil. Bain triail eile as.",
+    "paymentUpdateError": "Níorbh fhéidir stádas íocaíochta an tsonraisc seo a nuashonrú.",
+    "pdfError": "Níorbh fhéidir an PDF a íoslódáil. Bain triail eile as.",
+    "finalizeError": "Níorbh fhéidir an timthriall billeála seo a thabhairt chun críche.",
+    "archiveError": "Níorbh fhéidir an timthriall billeála seo a chur sa chartlann.",
+    "loading": "Timthriallta billeála á lódáil…",
+    "empty": "Níl aon timthriallta billeála fós. Oscail ceann thuas le tosú.",
+    "status": {
+      "open": "Oscail",
+      "finalized": "Críochnaithe",
+      "archived": "Cartlannaithe"
+    },
+    "open": {
+      "title": "Oscail Timthriall Nua Billeála",
+      "noMonth": "Roghnaigh mí le hoscailt.",
+      "error": "Níorbh fhéidir timthriall billeála a oscailt don mhí sin.",
+      "monthAria": "Mí na tréimhse billeála",
+      "opening": "Ag oscailt…",
+      "submit": "Timthriall Oscailte"
+    },
+    "table": {
+      "period": "Tréimhse",
+      "status": "Stádas",
+      "householdsBilled": "Teaghlaigh ar cuireadh Bille orthu",
+      "totalBilled": "Iomlán Billeáilte",
+      "actions": "Gníomhartha"
+    },
+    "actions": {
+      "finalize": "Críochnaigh",
+      "finalizing": "Ag críochnú…",
+      "archive": "Cartlann",
+      "archiving": "Ag cartlannú…"
+    },
+    "filter": {
+      "aria": "Scag de réir stádais íocaíochta",
+      "all": "Gach"
+    },
+    "payment": {
+      "paid": "Íoctha",
+      "unpaid": "Gan íoc",
+      "updating": "Ag nuashonrú…",
+      "markPaid": "Marcáil mar a íocadh",
+      "markUnpaid": "Marcáil mar neamhíoctha"
+    },
+    "detail": {
+      "title": "Sonraí na Rothaíochta — {{period}}",
+      "loading": "Sonraisc á lódáil…",
+      "notFinalized": "Níl an timthriall seo tugtha chun críche fós — níor gineadh aon sonraisc.",
+      "noInvoices": "Níl sonraisc ar bith don timthriall seo.",
+      "noMatch": "Níl aon sonraisc ag teacht leis an scagaire seo."
+    },
+    "invoices": {
+      "household": "Teaghlaigh",
+      "resident": "Cónaitheach",
+      "meterNumber": "Méadar Uimh.",
+      "consumption": "Tomhaltas (kL)",
+      "tierBreakdown": "Miondealú Sraithe",
+      "commonArea": "Comhlimistéar",
+      "total": "Iomlán",
+      "paymentStatus": "Stádas Íocaíochta",
+      "pdf": "PDF",
+      "baseLine": "Bonn: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Sraith {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Níorbh fhéidir cumraíocht na taraife a lódáil",
+    "saveError": "Níorbh fhéidir cumraíocht na taraife a shábháil",
+    "chartTitle": "Sraitheanna Ráta Gníomhacha Méadraithe Fóntas",
+    "axisNote": "Ráta ina ₹/kL, teorainneacha leac i kL",
+    "tableTitle": "Tábla Sraitheanna Praghsála",
+    "defaultRatesNote": "Ag taispeáint rátaí réamhshocraithe - gan sábháil fós.",
+    "addTier": "+ Cuir Sraith leis",
+    "saveRates": "Sábháil Rátaí Taraife",
+    "tierLevel": {
+      "base": "Sraith {{tier}} (bonn)",
+      "medium": "Sraith {{tier}} (Meánach)",
+      "heavy": "Sraith {{tier}} (trom)"
+    },
+    "basePrice": {
+      "label": "Bunphraghas (₹ / kL, curtha i bhfeidhm ar GACH tomhaltas)",
+      "note": "Gearrtar an ráta comhréidh seo ar gach kL ar dtús. Ní chuirtear leis na leaca thíos táillí BREISE ach amháin le haghaidh úsáide a thagann faoina raon — m.sh. ní chuireann leac a thosaíonn ag 50 kL ach a ráta tomhaltais os cionn 50 kL."
+    },
+    "table": {
+      "tierLevel": "Sraith Leibhéal",
+      "slabLimit": "Teorainn Leaca (kL)",
+      "rate": "Ráta in aghaidh an kL",
+      "action": "Gníomh"
+    },
+    "commonArea": {
+      "title": "Cumraíocht Costas Limistéir Chomhroinnte",
+      "loadError": "Níorbh fhéidir cumraíocht chostais an limistéir choitinn a luchtú",
+      "saveError": "Níorbh fhéidir cumraíocht chostais an limistéir choitinn a shábháil",
+      "empty": "Níl aon earraí costas sábháilte fós.",
+      "labelPlaceholder": "Lipéad earra costais",
+      "perMonth": "/ mí",
+      "active": "Gníomhach",
+      "addItem": "+ Cuir Mír Costas leis",
+      "save": "Sábháil Cumraíocht Limistéar Coiteann"
+    },
+    "distribution": {
+      "title": "Roghnóir Modh Dáilte Costais",
+      "consumption": "De réir Tomhaltais (Comhréireach Fo-mhéadraithe)",
+      "floorArea": "De réir Méid Árasáin (Cearnógach)"
+    },
+    "footer": {
+      "cycleStart": "Dáta Tosaigh Billeála Rothaíochta",
+      "cycleStartValue": "1ú Gach Mí",
+      "autoInvoices": "Uath-Ghin PDF Sonraisc"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Chuaigh an Tairseach os a chionn",
+      "statisticalOutlier": "Asluiteach Staidrimh"
+    },
+    "status": {
+      "active": "Gníomhach",
+      "resolved": "Réitíodh",
+      "dismissed": "Briseadh as a phost"
+    },
+    "config": {
+      "title": "Cumraíocht Braite Sceitheadh",
+      "subtitle": "Socraigh tairseach tomhaltais mhíosúil agus/nó cumasaigh asluiteach staidrimh a bhrath (brataíonn teaghlach a bhfuil a thomhaltas míosúil neamhghnách ard i gcomparáid lena stair féin).",
+      "loadError": "Níorbh fhéidir cumraíocht foláirimh a luchtú. Bain triail eile as.",
+      "thresholdRequired": "Teastaíonn tairseach mhíosúil (kL) nuair a chumasaítear foláirimh tairsí.",
+      "saveError": "Níorbh fhéidir an chumraíocht seo a shábháil.",
+      "loading": "cumraíocht á lódáil…",
+      "threshold": "Tairseach mhíosúil (kL)",
+      "sensitivity": "Íogaireacht asluiteach (σ iolraitheoir)",
+      "enableThreshold": "Cumasaigh foláirimh tairsí",
+      "enableOutlier": "Cumasaigh foláirimh asluiteacha staidrimh",
+      "save": "Sábháil Cumraíocht",
+      "running": "Ag rith…",
+      "runNow": "Rith Braite Anois"
+    },
+    "alerts": {
+      "title": "Tithe Brataithe",
+      "loadError": "Níorbh fhéidir foláirimh a lódáil. Bain triail eile as.",
+      "runError": "Níorbh fhéidir brath sceite a rith faoi láthair. Bain triail eile as.",
+      "updateError": "Níorbh fhéidir an foláireamh seo a nuashonrú. Bain triail eile as.",
+      "allStatuses": "Gach stádas",
+      "loading": "Foláirimh á lódáil…",
+      "empty": "Níl foláirimh le taispeáint. Cumraigh tairseach nó cumasaigh braite asluiteach thuas, ansin cliceáil \"Rith Braite Anois\" chun úsáid reatha do phobail a mheas.",
+      "resolve": "Réitigh",
+      "dismiss": "Díbhe"
+    },
+    "table": {
+      "household": "Teaghlaigh",
+      "resident": "Cónaitheach",
+      "meter": "Méadar",
+      "type": "Cineál",
+      "period": "Tréimhse",
+      "consumption": "Tomhaltas",
+      "reference": "Tagairt",
+      "status": "Stádas"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Níorbh fhéidir ceannacháin bhulc-uisce a lódáil. Bain triail eile as.",
+    "confirmRemove": "Bain an {{source}} seachadadh ar {{date}}?",
+    "removeError": "Níorbh fhéidir an ceannachán seo a bhaint. Bain triail eile as.",
+    "count": "Ceannacháin a taifeadadh: {{total}}",
+    "recordButton": "+ Ceannach Taifead",
+    "loading": "Bulccheannach uisce á lódáil…",
+    "empty": "Níor taifeadadh aon cheannacháin bulc-uisce go fóill. Cliceáil \"Ceannaigh Taifead\" chun seachadadh tancaer nó ceannach soláthair chathrach a logáil.",
+    "table": {
+      "date": "Dáta",
+      "source": "Foinse",
+      "volume": "Toirt (L)",
+      "unitCost": "Costas Aonaid",
+      "totalCost": "Costas Iomlán",
+      "notes": "Nótaí"
+    },
+    "form": {
+      "addTitle": "Taifead Bulccheannach Uisce",
+      "editTitle": "Cuir Mórcheannach Uisce in Eagar",
+      "subtitle": "Rianaigh seachadadh tancaer nó ceannach soláthair chathrach do do phobal - déantar é seo a thaifeadadh le haghaidh infheictheachta costais amháin agus ní chuireann sé isteach ar shonraisc tí.",
+      "requiredFields": "Líon isteach an dáta, an fhoinse, an toirt agus an costas aonaid.",
+      "saveError": "Níorbh fhéidir an ceannachán seo a shábháil. Seiceáil na sonraí le do thoil.",
+      "purchaseDate": "Dáta ceannaigh",
+      "source": "Foinse / soláthraí",
+      "volume": "Toirt (lítear)",
+      "unitCost": "Costas aonaid (₹/lítear)",
+      "totalPreview": "Costas iomlán: {{amount}}",
+      "notes": "Nótaí (roghnach)",
+      "submit": "Ceannach Taifead"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} nach bhfuil tógtha fós",
+    "profileSaveError": "Níorbh fhéidir do phróifíl a shábháil. Bain triail eile as.",
+    "apartmentSaveError": "Níorbh fhéidir sonraí an árasáin a shábháil. Bain triail eile as.",
+    "specsTitle": "Sonraíochtaí Próifíl",
+    "photoUnavailable": "Níl uaslódáil grianghraf ar fáil fós",
+    "changePhoto": "Athraigh Grianghraf",
+    "deletePhoto": "Scrios",
+    "photoHint": "JPG nó PNG. Uasmhéid 2MB.",
+    "saveProfile": "Sábháil Próifíl",
+    "apartmentTitle": "Sonraí Árasáin",
+    "saveApartment": "Sábháil Sonraí Árasáin",
+    "tabs": {
+      "profile": "Socruithe Próifíl",
+      "apartment": "Próifíl Árasáin",
+      "notifications": "Rialacha Fógra",
+      "billing": "Comhtháthú Billeála",
+      "security": "Slándáil & Rochtain"
+    },
+    "fields": {
+      "fullName": "Ainm Iomlán",
+      "email": "Seoladh Ríomhphoist",
+      "emailLocked": "Ní féidir ríomhphost a athrú anseo",
+      "phone": "Uimhir Theileafóin",
+      "accessLevel": "Leibhéal Rochtana",
+      "accessLevelValue": "Riarthóir Pobail",
+      "roleLocked": "Níl bainistíocht róil ar fáil go fóill",
+      "apartmentName": "Ainm Árasáin",
+      "mainsSource": "Príomhlíonra Foinse",
+      "mainsSourcePlaceholder": "e.g. Soláthar Bardasach + Tancaeir Forlíontacha",
+      "address": "Seoladh Fisiciúil"
+    },
+    "security": {
+      "title": "Réamhamharc Slándála & Rochtana",
+      "twoFactor": "Fíordheimhniú Dhá-Fachtóir",
+      "twoFactorHint": "Cumasaithe ar logáil isteach",
+      "twoFactorUnavailable": "Níl fíordheimhniú dhá fhachtóir ar fáil go fóill",
+      "twoFactorAria": "Fíordheimhniú dhá fhachtóir (réamhamharc amháin)",
+      "sessionsLabel": "Seisiúin Ghníomhach Riaracháin",
+      "sessionsEmpty": "Níl rianú seisiúin ar fáil go fóill — seo réamhamharc ar an leagan amach atá le teacht."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Mo Thicéad",
+      "inbox": "Ticéid Cónaitheach"
+    },
+    "mine": {
+      "title": "Mo Thicéad Tacaíochta",
+      "subtitle": "Cuir ceist nó imní faoi do phobal in iúl don Riarthóir Córais.",
+      "emptyCreateHint": "Cuir ceist nó imní ort faoi do phobal. Déanfaidh Riarachán Córais athbhreithniú agus freagra anseo."
+    },
+    "inbox": {
+      "title": "Ticéid Cónaitheach",
+      "subtitle": "Ticéid tacaíochta agus ábhair imní a sheol cónaitheoirí i do phobal chugat."
+    }
+  }
+}

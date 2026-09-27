@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { listResidents } from '../../api/residentApi'
@@ -6,14 +8,16 @@ import { listUsageReadings } from '../../api/meterUsageApi'
 import { useAuth } from '../../context/useAuth'
 import './AdminDashboard.css'
 
-function monthLabel(ym) {
+function monthLabel(ym, locale) {
   const [year, month] = ym.split('-')
   const date = new Date(Number(year), Number(month) - 1, 1)
-  return date.toLocaleDateString(undefined, { month: 'short' })
+  return date.toLocaleDateString(locale, { month: 'short' })
 }
 
 function AdminDashboard() {
   const { user } = useAuth()
+  const { t, i18n } = useTranslation('admin')
+  const locale = i18n.resolvedLanguage || 'en'
   const [residents, setResidents] = useState([])
   const [readings, setReadings] = useState([])
   const [loading, setLoading] = useState(true)
@@ -25,7 +29,7 @@ function AdminDashboard() {
         setResidents(residentData)
         setReadings(readingData)
       })
-      .catch(() => setError('Could not load your community data right now.'))
+      .catch(() => setError(i18next.t('dashboard.loadError', { ns: 'admin' })))
       .finally(() => setLoading(false))
   }, [])
 
@@ -53,13 +57,13 @@ function AdminDashboard() {
       .sort(([a], [b]) => a.localeCompare(b))
       .slice(-5)
       .map(([ym, actual]) => ({
-        month: monthLabel(ym),
+        month: monthLabel(ym, locale),
         actual: Number(actual.toFixed(2)),
         // No community-wide consumption target is configured yet (that's Phase 2's
         // billing/tariff work) — approximated for visual comparison until it exists.
         target: Number((actual * 0.95).toFixed(2)),
       }))
-  }, [readings])
+  }, [readings, locale])
 
   const currentMonthUsage = useMemo(() => {
     const now = new Date()
@@ -89,11 +93,15 @@ function AdminDashboard() {
     <>
       <div className="af-dash__banner">
         <div>
-          <h2>{user?.communityName || 'Your'} Apartment Dashboard</h2>
-          <p>Operational summary for water utility sub-metering and household consumption.</p>
+          <h2>
+            {user?.communityName
+              ? t('dashboard.title', { community: user.communityName })
+              : t('dashboard.titleFallback')}
+          </h2>
+          <p>{t('dashboard.subtitle')}</p>
         </div>
-        <button type="button" className="af-dash__banner-btn" disabled title="Coming soon">
-          Manage Community
+        <button type="button" className="af-dash__banner-btn" disabled title={t('dashboard.comingSoon')}>
+          {t('dashboard.manageCommunity')}
         </button>
       </div>
 
@@ -101,61 +109,61 @@ function AdminDashboard() {
 
       <div className="af-dash__grid">
         <article className="af-dash__card">
-          <span className="af-dash__label">Total Households</span>
+          <span className="af-dash__label">{t('dashboard.cards.totalHouseholds')}</span>
           <span className="af-dash__value">{loading ? '—' : residents.length}</span>
-          <span className="af-dash__muted">Occupied</span>
+          <span className="af-dash__muted">{t('dashboard.cards.occupied')}</span>
         </article>
 
         <article className="af-dash__card">
-          <span className="af-dash__label">Active Meters</span>
+          <span className="af-dash__label">{t('dashboard.cards.activeMeters')}</span>
           <span className="af-dash__value">
             {loading ? '—' : `${activeMeterCount} / ${residents.length}`}
           </span>
-          <span className="af-dash__muted">Reporting readings</span>
+          <span className="af-dash__muted">{t('dashboard.cards.reportingReadings')}</span>
         </article>
 
         <article className="af-dash__card">
-          <span className="af-dash__label">Monthly Consumption</span>
+          <span className="af-dash__label">{t('dashboard.cards.monthlyConsumption')}</span>
           <span className="af-dash__value">{loading ? '—' : `${currentMonthUsage.total.toFixed(1)} kL`}</span>
           <span className="af-dash__muted">
             {loading || currentMonthUsage.isCurrentMonth
-              ? 'This calendar month'
+              ? t('dashboard.cards.thisCalendarMonth')
               : currentMonthUsage.ym
-                ? `Latest recorded month (${monthLabel(currentMonthUsage.ym)})`
-                : 'No readings recorded yet'}
+                ? t('dashboard.cards.latestRecordedMonth', { month: monthLabel(currentMonthUsage.ym, locale) })
+                : t('dashboard.cards.noReadingsYet')}
           </span>
         </article>
 
         <article className="af-dash__card">
-          <span className="af-dash__label">Pending Alerts</span>
+          <span className="af-dash__label">{t('dashboard.cards.pendingAlerts')}</span>
           <span className="af-dash__value af-dash__value--warn">—</span>
-          <span className="af-dash__muted af-dash__muted--pending">Anomaly detection preview — not yet available</span>
+          <span className="af-dash__muted af-dash__muted--pending">{t('dashboard.cards.anomalyPreview')}</span>
         </article>
       </div>
 
       <div className="af-dash__actions">
-        <p className="af-dash__actions-label">Quick Administrative Actions</p>
+        <p className="af-dash__actions-label">{t('dashboard.actions.label')}</p>
         <div className="af-dash__actions-row">
           <Link to="/admin/meter-readings" className="af-dash__action af-dash__action--primary">
-            Upload Meter Readings
+            {t('dashboard.actions.uploadReadings')}
           </Link>
           <Link to="/admin/tariff-plans" className="af-dash__action">
-            Configure Tariffs
+            {t('dashboard.actions.configureTariffs')}
           </Link>
-          <button type="button" className="af-dash__action" disabled title="Reports isn't built yet">
-            Download System Reports
+          <button type="button" className="af-dash__action" disabled title={t('dashboard.actions.reportsNotBuilt')}>
+            {t('dashboard.actions.downloadReports')}
           </button>
         </div>
       </div>
 
       <div className="af-dash__charts">
         <div className="af-dash__chart-card">
-          <h3>Monthly Consumption Comparison (kL)</h3>
-          <p className="af-dash__chart-subtitle">Last {monthlyTotals.length || 5} months: target vs. actual consumption.</p>
+          <h3>{t('dashboard.chart.title')}</h3>
+          <p className="af-dash__chart-subtitle">{t('dashboard.chart.subtitle', { months: monthlyTotals.length || 5 })}</p>
           {loading ? (
-            <p className="af-dash__chart-empty">Loading…</p>
+            <p className="af-dash__chart-empty">{t('shared.loading')}</p>
           ) : monthlyTotals.length === 0 ? (
-            <p className="af-dash__chart-empty">No usage readings recorded yet.</p>
+            <p className="af-dash__chart-empty">{t('dashboard.noUsageReadings')}</p>
           ) : (
             <ResponsiveContainer width="100%" height={280}>
               <BarChart data={monthlyTotals} margin={{ top: 8, right: 16, left: 0, bottom: 0 }}>
@@ -164,27 +172,27 @@ function AdminDashboard() {
                 <YAxis stroke="var(--af-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} width={40} />
                 <Tooltip contentStyle={{ borderRadius: 12, border: '1px solid var(--af-glass-border)', fontSize: 12 }} />
                 <Legend wrapperStyle={{ fontSize: 12 }} />
-                <Bar dataKey="target" name="Target (preview)" fill="var(--af-chart-6)" radius={[4, 4, 0, 0]} maxBarSize={28} />
-                <Bar dataKey="actual" name="Actual" fill="var(--af-chart-1)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+                <Bar dataKey="target" name={t('dashboard.chart.targetSeries')} fill="var(--af-chart-6)" radius={[4, 4, 0, 0]} maxBarSize={28} />
+                <Bar dataKey="actual" name={t('dashboard.chart.actualSeries')} fill="var(--af-chart-1)" radius={[4, 4, 0, 0]} maxBarSize={28} />
               </BarChart>
             </ResponsiveContainer>
           )}
         </div>
 
         <div className="af-dash__recent-card">
-          <h3>Recent Meter Readings</h3>
+          <h3>{t('dashboard.recent.title')}</h3>
           {loading ? (
-            <p className="af-dash__chart-empty">Loading…</p>
+            <p className="af-dash__chart-empty">{t('shared.loading')}</p>
           ) : recentReadings.length === 0 ? (
-            <p className="af-dash__chart-empty">No usage readings recorded yet.</p>
+            <p className="af-dash__chart-empty">{t('dashboard.noUsageReadings')}</p>
           ) : (
             <table className="af-dash__table">
               <thead>
                 <tr>
-                  <th>Unit</th>
-                  <th>Resident</th>
-                  <th>Last Reading</th>
-                  <th>Consumption</th>
+                  <th>{t('dashboard.recent.unit')}</th>
+                  <th>{t('dashboard.recent.resident')}</th>
+                  <th>{t('dashboard.recent.lastReading')}</th>
+                  <th>{t('dashboard.recent.consumption')}</th>
                 </tr>
               </thead>
               <tbody>

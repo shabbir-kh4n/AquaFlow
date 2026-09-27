@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Inakuja hivi karibuni",
+    "welcome": {
+      "greeting": "Hujambo {{name}},",
+      "greetingFallback": "Habari,",
+      "title": "Kaa karibu na hadithi ya maji ya nyumba yako.",
+      "subtitle": "Maarifa ya matumizi na malipo yataonekana hapa kama usomaji wa rekodi za jumuiya yako.",
+      "viewBadges": "Tazama Beji za Eco"
+    },
+    "stats": {
+      "todaysUsage": "Matumizi ya Leo",
+      "asOf": "Kuanzia {{date}}",
+      "noReading": "Bado hakuna usomaji wa mita",
+      "monthlyTotalFor": "Jumla ya Mwezi ({{month}})",
+      "monthlyTotalThisMonth": "Jumla ya Mwezi (mwezi huu)",
+      "sumOfReadings": "Jumla ya usomaji uliorekodiwa",
+      "estimatedBill": "Muswada wa Sasa wa Makadirio",
+      "estimatedBillFor": "Matumizi yaliyopimwa + gharama za pamoja, {{month}}",
+      "estimatedBillHint": "Kulingana na matumizi ya mita za mwezi huu na gharama za pamoja",
+      "savings": "Akiba dhidi ya Jengo Wastani",
+      "savingsValue": "{{percent}}% Chini",
+      "savingsPreview": "Onyesho la kukagua pekee - ulinganisho bado haujapatikana"
+    },
+    "consumption": {
+      "eyebrow": "Matumizi",
+      "title": "Matumizi ya Kila Siku (Masomo 14 ya Mwisho)",
+      "seriesName": "Matumizi",
+      "empty": "Bado hakuna usomaji uliorekodiwa."
+    },
+    "breakdown": {
+      "eyebrow": "Uchanganuzi",
+      "title": "Uchanganuzi wa Matumizi",
+      "bathroom": "Bafuni",
+      "kitchen": "Jikoni",
+      "garden": "Bustani / balcony",
+      "other": "Nyingine / Kufulia"
+    },
+    "billing": {
+      "eyebrow": "Bili",
+      "title": "Mzunguko Unaotumika wa Malipo",
+      "finalized": "Imekamilika",
+      "preview": "Hakiki",
+      "meteredConsumption": "Matumizi ya kipimo",
+      "tierPriceLevel": "Kiwango cha bei",
+      "tierLabel": "Daraja {{tier}}",
+      "commonArea": "Ugawaji wa eneo la kawaida",
+      "commonAreaPreview": "Ugawaji wa eneo la kawaida (hakiki)",
+      "invoiceTotal": "{{period}} jumla ya ankara",
+      "estimatedCharge": "Makadirio ya gharama ya sasa",
+      "commonAreaBreakdown": "Uchanganuzi wa eneo la kawaida",
+      "payPreview": "Onyesho la Kuchungulia Bili",
+      "payUnavailable": "Injini ya bili bado haipatikani"
+    },
+    "tips": {
+      "eyebrow": "Vidokezo",
+      "title": "Vidokezo Mahiri vya Kuokoa",
+      "viewAll": "Tazama zote",
+      "empty": "Vidokezo vilivyobinafsishwa huonekana hapa baada ya jumuiya yako kukamilisha mzunguko wa bili."
+    },
+    "community": "Jumuiya: {{name}}"
+  },
+  "usage": {
+    "loadError": "Haikuweza kupakia historia yako ya matumizi. Tafadhali jaribu tena.",
+    "loading": "Inapakia takwimu zako za matumizi...",
+    "empty": "Bado hakuna usomaji uliorekodiwa. Baada ya jumuiya yako kurekodi usomaji wa mita, itaonekana hapa.",
+    "tabs": {
+      "lastSixMonths": "Miezi 6 iliyopita",
+      "customRange": "Masafa Maalum",
+      "comingSoon": "Inakuja hivi karibuni"
+    },
+    "peakDay": "Siku ya kilele:",
+    "lowestDay": "Siku ya chini kabisa:",
+    "comparison": {
+      "title": "Matumizi ya Kaya dhidi ya Wastani wa Ghorofa",
+      "subtitle": "Jumla ya kila mwezi iliyoonyeshwa kwa kilolita (kL).",
+      "yourHousehold": "Kaya yako",
+      "apartmentAverage": "Wastani wa Ghorofa",
+      "similarSized": "Nyumba za Ukubwa Sawa"
+    },
+    "heatmap": {
+      "title": "Ramani ya joto ya matumizi ya kila siku",
+      "subtitle": "Uzito wa rangi huashiria siku nzito za matumizi (hakiki)."
+    },
+    "ranking": {
+      "title": "Kiwango cha Rika katika Jamii",
+      "subtitle": "Cheo chako ikilinganishwa na vitengo sawa (hakiki).",
+      "ecoSaver": "Kiokoa Eco Inayotumika",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Kitengo {{number}}",
+      "yourUnit": "Kitengo chako",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Wewe)"
+    }
+  },
+  "billing": {
+    "loadError": "Haikuweza kupakia historia yako ya malipo. Tafadhali jaribu tena.",
+    "pdfError": "Haikuweza kupakua PDF. Tafadhali jaribu tena.",
+    "loading": "Inapakia historia yako ya malipo...",
+    "empty": "Bado hakuna ankara - mara tu jumuiya yako inapokamilisha mzunguko wa bili, bili zako zitaonekana hapa.",
+    "status": {
+      "paid": "Imelipwa",
+      "unpaid": "Haijalipwa"
+    },
+    "summary": {
+      "outstandingBalance": "Usawa Bora",
+      "billingCycle": "Mzunguko wa Malipo: {{period}}",
+      "allPaid": "Ankara zote zinalipwa",
+      "payTotal": "Lipa Malipo Yanayodaiwa",
+      "payTotalUnavailable": "Malipo ya mtandaoni bado hayapatikani - lipa bili moja kwa moja na msimamizi wako wa jumuiya",
+      "downloadSummary": "Pakua Muhtasari wa Muswada",
+      "downloadSummaryUnavailable": "Upakuaji wa muhtasari wa bili bado haupatikani"
+    },
+    "history": {
+      "title": "Historia ya ankara",
+      "exportCsv": "Hamisha Yote kwa CSV",
+      "exportUnavailable": "CSV uhamishaji bado haupatikani"
+    },
+    "table": {
+      "cycle": "Mzunguko",
+      "usage": "Matumizi (kL)",
+      "amountDue": "Kiasi Kinachodaiwa",
+      "paymentStatus": "Hali ya Malipo",
+      "hideBreakdown": "Ficha Uchanganuzi ↑",
+      "showBreakdown": "Uchanganuzi Uliobainishwa ↓",
+      "downloading": "Inapakua...",
+      "pdf": "PDF",
+      "pay": "Lipa"
+    },
+    "breakdown": {
+      "householdTitle": "Mchanganuo wa Matumizi ya Kaya",
+      "basePrice": "Bei ya Msingi: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Daraja {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Jumla ndogo ya Matumizi ya Meta",
+      "commonAreaTitle": "Ugawaji wa Eneo la Pamoja",
+      "subtotalShared": "Jumla ya Eneo Lililoshirikiwa",
+      "noCommonArea": "Hakuna ada zinazoshirikiwa za eneo la kawaida kwa mzunguko huu."
+    },
+    "pagination": {
+      "showing": "Inaonyesha {{from}}–{{to}} kati ya {{total}}",
+      "prev": "← Iliyotangulia",
+      "next": "Inayofuata →",
+      "page": "Ukurasa {{page}} wa {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Njia za malipo (hakiki)",
+      "description": "Malipo ya mtandaoni bado hayapatikani - bili zitalipwa na msimamizi wako wa jumuiya moja kwa moja.",
+      "manage": "Dhibiti Mbinu za Malipo",
+      "manageUnavailable": "Njia za kulipa bado hazipatikani"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Imelindwa na Razorpay",
+    "billingCycle": "Mzunguko wa Malipo {{period}}",
+    "close": "Funga",
+    "amountPayable": "Kiasi Kinacholipwa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kadi",
+      "netbanking": "Mtandao wa benki",
+      "wallet": "Mkoba"
+    },
+    "upi": {
+      "title": "Lipa kupitia UPI",
+      "upiId": "UPI Kitambulisho",
+      "or": "AU",
+      "scan": "Changanua kwa kutumia programu yoyote UPI"
+    },
+    "card": {
+      "title": "Lipa kupitia Kadi",
+      "number": "Nambari ya Kadi",
+      "expiry": "Muda wake unaisha",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Jina kwenye Kadi",
+      "namePlaceholder": "Kama ilivyochapishwa kwenye kadi"
+    },
+    "netbanking": {
+      "title": "Lipa kupitia Netbanking"
+    },
+    "wallet": {
+      "title": "Lipa kupitia Wallet"
+    },
+    "payAmount": "Lipa ₹{{amount}}",
+    "processing": "Inachakata malipo yako...",
+    "processingHint": "Tafadhali usibonyeze nyuma au uonyeshe upya ukurasa huu",
+    "success": "Malipo Yamefaulu",
+    "error": "Hitilafu fulani imetokea wakati wa kuthibitisha malipo yako. Tafadhali jaribu tena.",
+    "retry": "Jaribu tena"
+  },
+  "notifications": {
+    "loadError": "Haikuweza kupakia arifa zako. Tafadhali jaribu tena.",
+    "loading": "Inapakia arifa zako...",
+    "empty": "Bado hakuna arifa - utaona kitu hapa ikiwa msimamizi wa jumuiya yako amewasha kiwango cha matumizi au arifa za matumizi yasiyo ya kawaida na moja imeanzishwa kwa ajili ya kaya yako.",
+    "type": {
+      "thresholdExceeded": "Kiwango cha Matumizi Kimezidi",
+      "statisticalOutlier": "Matumizi Yasiyo ya Kawaida Yamegunduliwa"
+    },
+    "status": {
+      "active": "Inayotumika",
+      "resolved": "Imetatuliwa",
+      "dismissed": "Imeondolewa"
+    },
+    "billingPeriod": "Kipindi cha bili: {{period}}",
+    "consumption": "Matumizi: {{value}} kL",
+    "push": {
+      "title": "Arifa za kushinikiza",
+      "description": "Pata arifa kwenye kifaa hiki wakati bili au arifa mpya inapoingia.",
+      "enable": "Wezesha",
+      "disable": "Zima",
+      "permissionDenied": "Ruhusa ya arifa haikutolewa.",
+      "notConfigured": "Arifa zinazotumwa na programu hata wakati huitumii bado hazijasanidiwa. Wasiliana na msimamizi wako.",
+      "enableError": "Haikuweza kuwasha arifa zinazotumwa na programu hata wakati huitumii. Tafadhali jaribu tena.",
+      "disableError": "Haikuweza kuzima arifa zinazotumwa na programu hata wakati huitumii. Tafadhali jaribu tena."
+    }
+  },
+  "recommendations": {
+    "loadError": "Haikuweza kupakia mapendekezo yako. Tafadhali jaribu tena.",
+    "loading": "Inapakia vidokezo vyako vilivyobinafsishwa...",
+    "generated": "Imezalishwa {{date}}",
+    "generatedForPeriod": "Imetolewa {{date}} kwa kipindi cha bili {{period}}",
+    "eyebrow": "Imebinafsishwa kwa ajili yako",
+    "title": "Vidokezo Mahiri vya Kuokoa Maji",
+    "empty": "Bado hakuna vidokezo vilivyotolewa - hivi huonyeshwa upya kiotomatiki kila wakati jumuiya yako inapokamilisha mzunguko wa bili kwa kaya yako."
+  },
+  "support": {
+    "title": "Dawati la Msaada na Maswala ya Wakazi",
+    "subtitle": "Wasilisha ripoti za uvujaji wa maji, maombi ya kurekebisha mita, au maswali ya bili moja kwa moja kwa msimamizi wako wa jumuiya na/au Msimamizi wa Mfumo.",
+    "emptyCreateHint": "Eleza suala lako au wasiwasi wako hapa chini, na uchague nani anafaa kushughulikia."
+  }
+}

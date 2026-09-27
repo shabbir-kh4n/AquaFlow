@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Kommt bald",
+    "welcome": {
+      "greeting": "Hallo {{name}},",
+      "greetingFallback": "Hallo,",
+      "title": "Bleiben Sie nah an der Wassergeschichte Ihres Hauses.",
+      "subtitle": "Nutzungs- und Abrechnungsinformationen werden hier angezeigt, wenn Ihre Community Messwerte aufzeichnet.",
+      "viewBadges": "Öko-Abzeichen ansehen"
+    },
+    "stats": {
+      "todaysUsage": "Heutige Verwendung",
+      "asOf": "Stand {{date}}",
+      "noReading": "Noch kein Zählerstand",
+      "monthlyTotalFor": "Monatliche Gesamtsumme ({{month}})",
+      "monthlyTotalThisMonth": "Monatliche Gesamtsumme (dieser Monat)",
+      "sumOfReadings": "Summe der aufgezeichneten Messwerte",
+      "estimatedBill": "Aktuelle geschätzte Rechnung",
+      "estimatedBillFor": "Gemessene Nutzung + geteilte Gebühren, {{month}}",
+      "estimatedBillHint": "Basierend auf dem gemessenen Verbrauch und den geteilten Gebühren dieses Monats",
+      "savings": "Einsparungen vs. Gebäudedurchschn",
+      "savingsValue": "{{percent}}% Weniger",
+      "savingsPreview": "Nur Vorschau – Vergleich noch nicht live"
+    },
+    "consumption": {
+      "eyebrow": "Verbrauch",
+      "title": "Täglicher Verbrauch (letzte 14 Messwerte)",
+      "seriesName": "Verbrauch",
+      "empty": "Es wurden noch keine Messwerte erfasst."
+    },
+    "breakdown": {
+      "eyebrow": "Abbauen",
+      "title": "Nutzungsaufschlüsselung",
+      "bathroom": "Badezimmer",
+      "kitchen": "Küche",
+      "garden": "Garten/Balkon",
+      "other": "Sonstiges / Wäsche"
+    },
+    "billing": {
+      "eyebrow": "Abrechnung",
+      "title": "Aktiver Abrechnungszeitraum",
+      "finalized": "Abgeschlossen",
+      "preview": "Vorschau",
+      "meteredConsumption": "Gemessener Verbrauch",
+      "tierPriceLevel": "Staffelpreisniveau",
+      "tierLabel": "Stufe {{tier}}",
+      "commonArea": "Aufteilung des Gemeinschaftsbereichs",
+      "commonAreaPreview": "Aufteilung des Gemeinschaftsbereichs (Vorschau)",
+      "invoiceTotal": "{{period}} Rechnungssumme",
+      "estimatedCharge": "Aktuelle geschätzte Gebühr",
+      "commonAreaBreakdown": "Aufschlüsselung der Gemeinschaftsbereiche",
+      "payPreview": "Rechnungsvorschau bezahlen",
+      "payUnavailable": "Abrechnungsmaschine noch nicht verfügbar"
+    },
+    "tips": {
+      "eyebrow": "Tipps",
+      "title": "Intelligente Spartipps",
+      "viewAll": "Alle anzeigen",
+      "empty": "Personalisierte Tipps werden hier angezeigt, nachdem Ihre Community einen Abrechnungszeitraum abgeschlossen hat."
+    },
+    "community": "Gemeinschaft: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ihr Nutzungsverlauf konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "loading": "Ihre Nutzungsanalyse wird geladen…",
+    "empty": "Es wurden noch keine Messwerte erfasst. Sobald Ihre Gemeinde einen Zählerstand erfasst, wird dieser hier angezeigt.",
+    "tabs": {
+      "lastSixMonths": "Letzte 6 Monate",
+      "customRange": "Benutzerdefinierter Bereich",
+      "comingSoon": "Kommt bald"
+    },
+    "peakDay": "Spitzentag:",
+    "lowestDay": "Niedrigster Tag:",
+    "comparison": {
+      "title": "Haushaltsverbrauch im Vergleich zum Wohnungsdurchschnitt",
+      "subtitle": "Monatliche Gesamtmengen werden in Kilolitern (kL) angezeigt.",
+      "yourHousehold": "Ihr Haushalt",
+      "apartmentAverage": "Wohnung durchschnittlich",
+      "similarSized": "Häuser ähnlicher Größe"
+    },
+    "heatmap": {
+      "title": "Tägliche Verbrauchs-Heatmap",
+      "subtitle": "Farbintensität kennzeichnet Tage mit starker Nutzung (Vorschau)."
+    },
+    "ranking": {
+      "title": "Community-Peer-Ranking",
+      "subtitle": "Ihr Rang im Vergleich zu ähnlichen Einheiten (Vorschau).",
+      "ecoSaver": "Aktiver Öko-Sparer",
+      "aptNumber": "Wohnung {{number}}",
+      "unitNumber": "Einheit {{number}}",
+      "yourUnit": "Ihre Einheit",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Du)"
+    }
+  },
+  "billing": {
+    "loadError": "Ihr Abrechnungsverlauf konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "pdfError": "PDF konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
+    "loading": "Ihr Abrechnungsverlauf wird geladen…",
+    "empty": "Noch keine Rechnungen – sobald Ihre Community einen Abrechnungszyklus abgeschlossen hat, werden Ihre Rechnungen hier angezeigt.",
+    "status": {
+      "paid": "Bezahlt",
+      "unpaid": "Unbezahlt"
+    },
+    "summary": {
+      "outstandingBalance": "Offener Betrag",
+      "billingCycle": "Abrechnungszeitraum: {{period}}",
+      "allPaid": "Alle Rechnungen sind bezahlt",
+      "payTotal": "Bezahlen Sie den gesamten ausstehenden Betrag",
+      "payTotalUnavailable": "Online-Zahlungen sind noch nicht verfügbar. Begleichen Sie Rechnungen direkt mit Ihrem Community-Administrator",
+      "downloadSummary": "Laden Sie die Rechnungszusammenfassung herunter",
+      "downloadSummaryUnavailable": "Der Download der Rechnungszusammenfassung ist noch nicht verfügbar"
+    },
+    "history": {
+      "title": "Rechnungsverlauf",
+      "exportCsv": "Alles exportieren nach CSV",
+      "exportUnavailable": "CSV-Export ist noch nicht verfügbar"
+    },
+    "table": {
+      "cycle": "Zyklus",
+      "usage": "Nutzung (kL)",
+      "amountDue": "Fälliger Betrag",
+      "paymentStatus": "Zahlungsstatus",
+      "hideBreakdown": "Aufschlüsselung ausblenden ↑",
+      "showBreakdown": "Aufschlüsselung ↓",
+      "downloading": "Herunterladen…",
+      "pdf": "PDF",
+      "pay": "Zahlen"
+    },
+    "breakdown": {
+      "householdTitle": "Aufschlüsselung des Haushaltsverbrauchs",
+      "basePrice": "Grundpreis: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Stufe {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Zwischensumme der gemessenen Nutzung",
+      "commonAreaTitle": "Aufteilung des Gemeinschaftsbereichs",
+      "subtotalShared": "Zwischensumme der gemeinsam genutzten Fläche",
+      "noCommonArea": "Für diesen Zyklus fallen keine Gemeinschaftsgebühren an."
+    },
+    "pagination": {
+      "showing": "Zeigt {{from}}–{{to}} von {{total}}",
+      "prev": "← Vorher",
+      "next": "Weiter →",
+      "page": "Seite {{page}} von {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Zahlungsarten (Vorschau)",
+      "description": "Online-Zahlungen sind noch nicht verfügbar – Rechnungen werden direkt mit Ihrem Community-Administrator beglichen.",
+      "manage": "Zahlungsmethoden verwalten",
+      "manageUnavailable": "Zahlungsmethoden sind noch nicht verfügbar"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Gesichert durch Razorpay",
+    "billingCycle": "Abrechnungszeitraum {{period}}",
+    "close": "Schließen",
+    "amountPayable": "Zu zahlender Betrag",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Karten",
+      "netbanking": "Netbanking",
+      "wallet": "Geldbörse"
+    },
+    "upi": {
+      "title": "Bezahlen Sie über UPI",
+      "upiId": "UPI ID",
+      "or": "ODER",
+      "scan": "Scannen Sie mit jeder UPI-App"
+    },
+    "card": {
+      "title": "Bezahlen Sie per Karte",
+      "number": "Kartennummer",
+      "expiry": "Ablauf",
+      "expiryPlaceholder": "MM / JJ",
+      "cvv": "CVV",
+      "name": "Name auf Karte",
+      "namePlaceholder": "Wie auf der Karte gedruckt"
+    },
+    "netbanking": {
+      "title": "Bezahlen Sie per Netbanking"
+    },
+    "wallet": {
+      "title": "Bezahlen Sie per Wallet"
+    },
+    "payAmount": "Zahlen Sie ₹{{amount}}",
+    "processing": "Ihre Zahlung wird bearbeitet…",
+    "processingHint": "Bitte drücken Sie nicht auf „Zurück“ und aktualisieren Sie diese Seite nicht",
+    "success": "Zahlung erfolgreich",
+    "error": "Bei der Bestätigung Ihrer Zahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "retry": "Wiederholen"
+  },
+  "notifications": {
+    "loadError": "Ihre Benachrichtigungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "loading": "Ihre Benachrichtigungen werden geladen…",
+    "empty": "Noch keine Benachrichtigungen – Sie sehen hier etwas, wenn Ihr Community-Administrator Benachrichtigungen zu Nutzungsschwellen oder ungewöhnlichem Verbrauch aktiviert hat und eine Warnung für Ihren Haushalt ausgelöst wird.",
+    "type": {
+      "thresholdExceeded": "Verbrauchsschwelle überschritten",
+      "statisticalOutlier": "Ungewöhnlicher Verbrauch festgestellt"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Gelöst",
+      "dismissed": "Entlassen"
+    },
+    "billingPeriod": "Abrechnungszeitraum: {{period}}",
+    "consumption": "Verbrauch: {{value}} kL",
+    "push": {
+      "title": "Push-Benachrichtigungen",
+      "description": "Lassen Sie sich auf diesem Gerät benachrichtigen, wenn eine neue Rechnung oder Benachrichtigung eingeht.",
+      "enable": "Aktivieren",
+      "disable": "Deaktivieren",
+      "permissionDenied": "Die Benachrichtigungserlaubnis wurde nicht erteilt.",
+      "notConfigured": "Push-Benachrichtigungen sind noch nicht konfiguriert. Kontaktieren Sie Ihren Administrator.",
+      "enableError": "Push-Benachrichtigungen konnten nicht aktiviert werden. Bitte versuchen Sie es erneut.",
+      "disableError": "Push-Benachrichtigungen konnten nicht deaktiviert werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ihre Empfehlungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "loading": "Ihre personalisierten Tipps werden geladen…",
+    "generated": "Erstellt {{date}}",
+    "generatedForPeriod": "Generiert {{date}} für den Abrechnungszeitraum {{period}}",
+    "eyebrow": "Personalisiert für Sie",
+    "title": "Intelligente Tipps zum Wassersparen",
+    "empty": "Es wurden noch keine Trinkgelder generiert – diese werden jedes Mal automatisch aktualisiert, wenn Ihre Community einen Abrechnungszyklus für Ihren Haushalt abschließt."
+  },
+  "support": {
+    "title": "Resident Support & Concerns Desk",
+    "subtitle": "Senden Sie Berichte über Wasserlecks, Anfragen zur Zählerkalibrierung oder Rechnungsanfragen direkt an Ihren Community-Administrator und/oder Systemadministrator.",
+    "emptyCreateHint": "Beschreiben Sie unten Ihr Problem oder Anliegen und wählen Sie aus, wer sich darum kümmern soll."
+  }
+}

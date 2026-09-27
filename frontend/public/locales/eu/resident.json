@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Laster",
+    "welcome": {
+      "greeting": "Kaixo {{name}},",
+      "greetingFallback": "Kaixo,",
+      "title": "Egon zaitez zure etxeko uraren istoriotik gertu.",
+      "subtitle": "Erabilera eta fakturazio-estatistikak hemen agertuko dira zure komunitateko erregistroen irakurketa gisa.",
+      "viewBadges": "Ikusi Eco-txapak"
+    },
+    "stats": {
+      "todaysUsage": "Gaurko Erabilera",
+      "asOf": "{{date}}tik aurrera",
+      "noReading": "Oraindik ez dago kontagailuaren irakurketarik",
+      "monthlyTotalFor": "Hileko guztira ({{month}})",
+      "monthlyTotalThisMonth": "Hileko guztira (hilabete honetan)",
+      "sumOfReadings": "Grabatutako irakurketen batura",
+      "estimatedBill": "Egungo faktura estimatua",
+      "estimatedBillFor": "Neuratutako erabilera + kostu partekatuak, {{month}}",
+      "estimatedBillHint": "Hilabete honetako kontagailuen kontsumoan eta karga partekatuetan oinarrituta",
+      "savings": "Aurrezpena eta eraikinaren batez bestekoa",
+      "savingsValue": "{{percent}}% gutxiago",
+      "savingsPreview": "Aurrebista soilik — konparazioa oraindik ez dago zuzenean"
+    },
+    "consumption": {
+      "eyebrow": "Kontsumoa",
+      "title": "Eguneko kontsumoa (azken 14 irakurketak)",
+      "seriesName": "Kontsumoa",
+      "empty": "Oraindik ez dago irakurketarik erregistratu."
+    },
+    "breakdown": {
+      "eyebrow": "Matxura",
+      "title": "Erabilera-matxura",
+      "bathroom": "Bainugela",
+      "kitchen": "Sukaldea",
+      "garden": "Lorategia / Balkoia",
+      "other": "Bestela / Garbitegia"
+    },
+    "billing": {
+      "eyebrow": "Fakturazioa",
+      "title": "Fakturazio Ziklo Aktiboa",
+      "finalized": "Amaitua",
+      "preview": "Aurrebista",
+      "meteredConsumption": "Kontsumo neurtua",
+      "tierPriceLevel": "Mailako prezio-maila",
+      "tierLabel": "{{tier}} maila",
+      "commonArea": "Eremu komunaren banaketa",
+      "commonAreaPreview": "Eremu komunaren banaketa (aurrebista)",
+      "invoiceTotal": "{{period}} faktura guztira",
+      "estimatedCharge": "Uneko karga estimatua",
+      "commonAreaBreakdown": "Eremu komunaren matxura",
+      "payPreview": "Ordaindu fakturaren aurrebista",
+      "payUnavailable": "Fakturazio-motorra ez dago oraindik erabilgarri"
+    },
+    "tips": {
+      "eyebrow": "Aholkuak",
+      "title": "Aurrezteko aholku adimendunak",
+      "viewAll": "Ikusi guztiak",
+      "empty": "Aholku pertsonalizatuak hemen agertzen dira zure komunitateak fakturazio-ziklo bat amaitzen duenean."
+    },
+    "community": "Komunitatea: {{name}}"
+  },
+  "usage": {
+    "loadError": "Ezin izan da zure erabilera-historia kargatu. Mesedez, saiatu berriro.",
+    "loading": "Zure erabilera-analisiak kargatzen…",
+    "empty": "Oraindik ez dago irakurketarik erregistratu. Zure komunitateak neurgailuaren irakurketa erregistratzen duenean, hemen agertuko da.",
+    "tabs": {
+      "lastSixMonths": "Azken 6 hilabeteak",
+      "customRange": "Barruti pertsonalizatua",
+      "comingSoon": "Laster"
+    },
+    "peakDay": "Goren eguna:",
+    "lowestDay": "Egunik txikiena:",
+    "comparison": {
+      "title": "Etxeko kontsumoa vs apartamentuaren batez bestekoa",
+      "subtitle": "Hileko guztirakoak kilolitrotan (kL) erakusten dira.",
+      "yourHousehold": "Zure Etxea",
+      "apartmentAverage": "Apartamentua Batez bestekoa",
+      "similarSized": "Tamaina Antzeko Etxebizitzak"
+    },
+    "heatmap": {
+      "title": "Eguneko kontsumoaren bero-mapa",
+      "subtitle": "Kolore-intentsitateak erabilera handiko egunak adierazten ditu (aurrebista)."
+    },
+    "ranking": {
+      "title": "Komunitateko Peer Ranking",
+      "subtitle": "Zure sailkapena antzeko unitateekin alderatuta (aurrebista).",
+      "ecoSaver": "Eco-aurrezle aktiboa",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "{{number}} unitatea",
+      "yourUnit": "Zure unitatea",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (zu)"
+    }
+  },
+  "billing": {
+    "loadError": "Ezin izan da kargatu fakturazio-historia. Mesedez, saiatu berriro.",
+    "pdfError": "Ezin izan da deskargatu PDF. Mesedez, saiatu berriro.",
+    "loading": "Zure fakturazio-historia kargatzen…",
+    "empty": "Oraindik ez dago fakturarik: zure komunitateak fakturazio-ziklo bat amaitzen duenean, zure fakturak hemen agertuko dira.",
+    "status": {
+      "paid": "Ordaindua",
+      "unpaid": "Ordaindu gabe"
+    },
+    "summary": {
+      "outstandingBalance": "Balantze nabarmena",
+      "billingCycle": "Fakturazio-zikloa: {{period}}",
+      "allPaid": "Faktura guztiak ordaintzen dira",
+      "payTotal": "Ordainketa osoa ordaintzea",
+      "payTotalUnavailable": "Lineako ordainketa oraindik ez dago erabilgarri; ordaindu fakturak zure komunitateko administratzailearekin zuzenean",
+      "downloadSummary": "Deskargatu fakturaren laburpena",
+      "downloadSummaryUnavailable": "Fakturaren laburpena deskargatzea ez dago eskuragarri oraindik"
+    },
+    "history": {
+      "title": "Fakturen Historia",
+      "exportCsv": "Esportatu guztiak CSV-ra",
+      "exportUnavailable": "CSV esportazioa ez dago oraindik erabilgarri"
+    },
+    "table": {
+      "cycle": "Zikloa",
+      "usage": "Erabilera (kL)",
+      "amountDue": "Egokitutako zenbatekoa",
+      "paymentStatus": "Ordainketa-egoera",
+      "hideBreakdown": "Ezkutatu matxura ↑",
+      "showBreakdown": "Matxura xehatua ↓",
+      "downloading": "Deskargatzen…",
+      "pdf": "PDF",
+      "pay": "Ordaindu"
+    },
+    "breakdown": {
+      "householdTitle": "Etxeko Kontsumoaren Banaketa",
+      "basePrice": "Oinarrizko prezioa: {{units}} kL × ₹{{rate}}",
+      "tierLine": "{{tier}} maila: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Erabilera neurtutako azpi-guztia",
+      "commonAreaTitle": "Eremu Komuneko Banaketa",
+      "subtotalShared": "Azalera partekatua",
+      "noCommonArea": "Ez dago partekatutako eremu komuneko kargarik ziklo honetarako."
+    },
+    "pagination": {
+      "showing": "{{from}}–{{to}}/{{total}} erakusten",
+      "prev": "← Aurrekoa",
+      "next": "Hurrengoa →",
+      "page": "{{page}}/{{count}} orrialdea"
+    },
+    "paymentMethods": {
+      "title": "Ordainketa-metodoak (aurrebista)",
+      "description": "Lineako ordainketa oraindik ez dago erabilgarri; fakturak zure komunitateko administratzailearekin ordaintzen dira zuzenean.",
+      "manage": "Kudeatu Ordainketa Metodoak",
+      "manageUnavailable": "Ordainketa-metodoak oraindik ez daude erabilgarri"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Razorpay-k babestuta",
+    "billingCycle": "Fakturazio-zikloa {{period}}",
+    "close": "Itxi",
+    "amountPayable": "Ordaindu beharreko zenbatekoa",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Txartelak",
+      "netbanking": "Netbankinga",
+      "wallet": "Diru-zorroa"
+    },
+    "upi": {
+      "title": "Ordaindu UPI bidez",
+      "upiId": "UPI ID",
+      "or": "EDO",
+      "scan": "Eskaneatu edozein UPI aplikaziorekin"
+    },
+    "card": {
+      "title": "Ordaindu Txartelaren bidez",
+      "number": "Txartelaren zenbakia",
+      "expiry": "Iraungitzea",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Izena Txartelean",
+      "namePlaceholder": "Txartelean inprimatutako moduan"
+    },
+    "netbanking": {
+      "title": "Ordaindu Netbanking bidez"
+    },
+    "wallet": {
+      "title": "Ordaindu Wallet bidez"
+    },
+    "payAmount": "Ordaindu {{amount}} ₹",
+    "processing": "Ordainketa prozesatzen…",
+    "processingHint": "Mesedez, ez sakatu atzera edo freskatu orrialde hau",
+    "success": "Ordainketa arrakastatsua",
+    "error": "Arazoren bat izan da ordainketa berresten. Mesedez, saiatu berriro.",
+    "retry": "Saiatu berriro"
+  },
+  "notifications": {
+    "loadError": "Ezin izan dira zure jakinarazpenak kargatu. Mesedez, saiatu berriro.",
+    "loading": "Zure jakinarazpenak kargatzen…",
+    "empty": "Oraindik ez dago jakinarazpenik. Hemen zerbait ikusiko duzu zure komunitateko administratzaileak erabilera-atalasea edo ezohiko kontsumoaren alertak gaitu baditu eta zure etxeko bat abiarazten bada.",
+    "type": {
+      "thresholdExceeded": "Kontsumo Atalasea gainditu da",
+      "statisticalOutlier": "Ezohiko Kontsumoa Detektatua"
+    },
+    "status": {
+      "active": "Aktiboa",
+      "resolved": "Ebatzita",
+      "dismissed": "Baztertua"
+    },
+    "billingPeriod": "Fakturazio epea: {{period}}",
+    "consumption": "Kontsumoa: {{value}} kL",
+    "push": {
+      "title": "Push jakinarazpenak",
+      "description": "Jaso jakinarazpenak gailu honetan faktura edo alerta berri bat jasotzen duzunean.",
+      "enable": "Gaitu",
+      "disable": "Desgaitu",
+      "permissionDenied": "Ez da jakinarazpen baimenik eman.",
+      "notConfigured": "Push jakinarazpenak ez daude oraindik konfiguratuta. Jarri harremanetan zure administratzailearekin.",
+      "enableError": "Ezin izan dira gaitu push jakinarazpenak. Mesedez, saiatu berriro.",
+      "disableError": "Ezin izan dira desgaitu push jakinarazpenak. Mesedez, saiatu berriro."
+    }
+  },
+  "recommendations": {
+    "loadError": "Ezin izan dira zure gomendioak kargatu. Mesedez, saiatu berriro.",
+    "loading": "Zure aholku pertsonalizatuak kargatzen…",
+    "generated": "Sortutako {{date}}",
+    "generatedForPeriod": "{{date}} sortu da {{period}} fakturazio-aldirako",
+    "eyebrow": "Zuretzako pertsonalizatua",
+    "title": "Ura aurrezteko aholku adimendunak",
+    "empty": "Oraindik ez da aholkurik sortu - hauek automatikoki freskatzen dira zure komunitateak zure etxeko fakturazio-ziklo bat amaitzen duen bakoitzean."
+  },
+  "support": {
+    "title": "Egoiliarren Laguntza eta Kezkak Bulegoa",
+    "subtitle": "Bidali ur-isurketen txostenak, kontagailuak kalibratzeko eskaerak edo fakturazio-kontsultak zuzenean zure komunitateko administratzaileari eta/edo Sistemako administratzaileari.",
+    "emptyCreateHint": "Deskribatu behean zure arazoa edo kezka, eta aukeratu nork kudeatu behar duen."
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "blocked": "Blok edilib",
+    "terminated": "Xitam verildi"
+  },
+  "sort": {
+    "sortBy": "Sırala",
+    "toggleDirection": "Çeşidləmə istiqamətini dəyişin",
+    "asc": "↑ Asc",
+    "desc": "↓ Azalt"
+  },
+  "pagination": {
+    "showing": "{{total}}-dən {{from}}–{{to}} göstərilir",
+    "prev": "← Əvvəlki",
+    "next": "Sonrakı →",
+    "page": "Səhifə {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformaya Baxış",
+    "subtitle": "Bütün HydroLedger platformasında qeydiyyatdan keçmiş hər bir icma admini.",
+    "viewAll": "Bütün İcmalara Baxın",
+    "loadError": "Hazırda platforma datasını yükləmək mümkün deyil.",
+    "cards": {
+      "totalCommunities": "Ümumi İcmalar",
+      "registeredAdmins": "Qeydiyyatdan keçmiş adminlər",
+      "totalResidents": "Ümumi Sakinlər",
+      "acrossAllCommunities": "Bütün icmalarda",
+      "active": "Aktiv",
+      "inGoodStanding": "Yaxşı vəziyyətdə",
+      "blockedTerminated": "Bloklanmış / Xitam edilmişdir",
+      "blockedTerminatedBreakdown": "{{blocked}} bloklandı, {{terminated}} ləğv edildi"
+    },
+    "recent": {
+      "title": "Son Qeydiyyatdan Keçmiş İcmalar",
+      "loading": "Yüklənir...",
+      "empty": "Hələ heç bir icma qeydiyyatdan keçməyib.",
+      "table": {
+        "community": "İcma",
+        "admin": "Admin",
+        "status": "Vəziyyət",
+        "residents": "Sakinlər"
+      }
+    }
+  },
+  "communities": {
+    "count": "İcmalar: {{count}}",
+    "loadError": "İcmaları yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "searchPlaceholder": "İcma, admin adı və ya e-poçtla filtrləyin",
+    "statusFilter": {
+      "label": "Vəziyyət",
+      "all": "Hamısı"
+    },
+    "sortOptions": {
+      "community": "İcma",
+      "admin": "Admin",
+      "residents": "Sakinlər"
+    },
+    "loading": "İcmalar yüklənir...",
+    "empty": "Hələ heç bir icma qeydiyyatdan keçməyib.",
+    "noMatch": "Filtrlərinizə uyğun icma yoxdur.",
+    "table": {
+      "community": "İcma",
+      "admin": "Admin",
+      "email": "E-poçt",
+      "status": "Vəziyyət",
+      "residents": "Sakinlər",
+      "view": "Baxın"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Bu icmanı yükləmək mümkün olmadı. Ola bilsin ki, silinib.",
+    "statusUpdateError": "Bu icmanın statusunu yeniləmək mümkün olmadı.",
+    "deleteError": "Bu icmanı silmək mümkün olmadı.",
+    "loading": "İcma yüklənir...",
+    "notFound": "İcma tapılmadı.",
+    "backLink": "← İcmalara qayıt",
+    "backLinkShort": "İcmalara qayıt",
+    "eyebrow": "İcma Profili",
+    "unnamed": "Adsız icma",
+    "noAddress": "Faylda ünvan yoxdur",
+    "stats": {
+      "residents": "Sakinlər",
+      "status": "Vəziyyət"
+    },
+    "actions": {
+      "reactivate": "Yenidən aktivləşdirin",
+      "block": "Blok",
+      "terminate": "Bitirmək",
+      "delete": "İcmanı silin"
+    },
+    "blockDialog": {
+      "title": "Bu icma admini bloklansın?",
+      "message": "{{name}} bloklansın? Onlar blokdan çıxarılana qədər daxil ola bilməyəcəklər. Heç bir məlumat təsirlənməyəcək.",
+      "confirm": "Blok"
+    },
+    "terminateDialog": {
+      "title": "Bu icma admini ləğv edilsin?",
+      "message": "{{name}}-un girişi həmişəlik dayandırılsın? Bu, geri qaytarıla bilməz, baxmayaraq ki, onların icmasının məlumatları qeydlər üçün saxlanılacaq.",
+      "confirm": "Bitirmək"
+    },
+    "deleteDialog": {
+      "title": "Bu icma silinsin?",
+      "message": "Bu, <strong>{{name}}</strong> və onun bütün ev təsərrüfatlarını, sakinləri, sayğaclarını, tarif/faktura konfiqurasiyasını və faktura tarixçəsini həmişəlik siləcək. Bu əməliyyat geri qaytarıla bilməz.",
+      "typeToConfirm": "Davam etmək üçün <strong>{{word}}</strong> yazın",
+      "confirm": "Təsdiq edin"
+    },
+    "residents": {
+      "title": "Sakinlər",
+      "registeredCount": "Qeydiyyat: {{count}}",
+      "empty": "Bu icmada hələ heç bir sakin qeydiyyatdan keçməyib.",
+      "table": {
+        "flatUnit": "Düz Vahid",
+        "meter": "Metr",
+        "resident": "Sakin",
+        "email": "E-poçt",
+        "passwordSet": "Parol Dəsti"
+      },
+      "yes": "Bəli",
+      "no": "yox"
+    },
+    "cancel": "Ləğv et",
+    "working": "İşləyir...",
+    "deleting": "Silinir..."
+  },
+  "systemStatus": {
+    "statusError": "Sistem statusunu yoxlamaq üçün arxa tərəfə daxil olmaq mümkün olmadı.",
+    "metricsError": "Metrik tarixçəsini yükləmək mümkün olmadı.",
+    "ranges": {
+      "fiveMinutes": "5 Dəqiqə",
+      "fifteenMinutes": "15 Dəqiqə",
+      "hour": "Saat",
+      "day": "gün",
+      "week": "Həftə",
+      "month": "ay",
+      "threeMonths": "3 Ay"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}saat",
+      "minutes": "{{value}}dəq"
+    },
+    "charts": {
+      "requestsPerSec": "Sorğular/san",
+      "opsPerSec": "Əməliyyat/san",
+      "latency": "Gecikmə",
+      "lastValue": "{{value}} sonuncu",
+      "loading": "Yüklənir...",
+      "empty": "Bu diapazon üçün hələ heç bir göstərici qeydə alınmayıb."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Orta: <b>{{value}}</b>",
+      "max": "Maks: <b>{{value}}</b>",
+      "last": "Son: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Yoxlanır...",
+      "reachable": "Əlçatan",
+      "unreachable": "Əlçatmaz",
+      "connected": "Qoşuldu",
+      "backendApiHint": "Bu səhifə arxa hissədən yükləndi, ona görə də cavab verdi.",
+      "database": "Verilənlər bazası",
+      "databaseHint": "PostgreSQL bağlantısı, canlı olaraq yoxlanılır.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Son tətbiqdən bəri yenidən başladın.",
+      "appVersion": "Proqram Versiyası",
+      "appVersionHint": "Backend qurma versiyası."
+    },
+    "mini": {
+      "latency": "Gecikmə",
+      "readsLatency": "Latency oxuyur",
+      "writesLatency": "Latency yazır",
+      "otherLatency": "Digər Gecikmə",
+      "connections": "Əlaqələr",
+      "totalKeys": "Ümumi Açarlar"
+    },
+    "note": "Sorğular/san və gecikmə hər 15 saniyədən bir canlı backend trafikindən nümunə götürülür və 100 günə qədər saxlanılır. Bu, əsas bağlantı + trafik yoxlanışıdır — o, tam proqram performansının monitorinqini, qeydlərin yığılmasını və ya xəbərdarlığı əvəz etmir."
+  },
+  "reports": {
+    "loadError": "Platforma hesabatını yükləmək mümkün olmadı.",
+    "ranges": {
+      "threeMonths": "3 Ay",
+      "sixMonths": "6 Ay",
+      "twelveMonths": "12 Ay",
+      "custom": "Xüsusi"
+    },
+    "sortOptions": {
+      "community": "İcma",
+      "usage": "İstifadəsi",
+      "billed": "Hesablanmışdır",
+      "residents": "Sakinlər"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "Kimə",
+      "hint": "Fərdi hesabatı yükləmək üçün həm \"dan\" həm də \"to\" ayını seçin."
+    },
+    "loading": "Hesabat yüklənir...",
+    "cards": {
+      "totalCommunities": "Ümumi İcmalar",
+      "inThisRange": "Bu diapazonda",
+      "totalResidents": "Ümumi Sakinlər",
+      "acrossAllCommunities": "Bütün icmalarda",
+      "overallUsage": "Ümumi İstifadə",
+      "meteredConsumption": "Ölçülmüş istehlak",
+      "overallBilled": "Ümumi hesablanmışdır",
+      "finalizedInvoicesOnly": "Yalnız yekun hesab-fakturalar",
+      "avgUsagePerResident": "Orta İstifadə / Rezident",
+      "avgBillPerResident": "Ort Bill / Rezident"
+    },
+    "charts": {
+      "usageTitle": "Platforma üzrə İstifadə (kL / ay)",
+      "usageEmpty": "Bu diapazon üçün heç bir istifadə qeydə alınmayıb.",
+      "usageSeries": "İstifadəsi",
+      "billedTitle": "Platforma üzrə ödəniş məbləği (₹/ay)",
+      "billedEmpty": "Bu aralıq üçün yekun hesab-faktura yoxdur.",
+      "billedSeries": "Hesablanmışdır"
+    },
+    "searchPlaceholder": "İcma və ya admin adına görə süzün",
+    "empty": "Hələ heç bir icmada bu diapazon üçün istifadə və ya faktura datası yoxdur.",
+    "noMatch": "Filtrinizə uyğun icma yoxdur.",
+    "table": {
+      "community": "İcma",
+      "admin": "Admin",
+      "residents": "Sakinlər",
+      "usage": "İstifadə (kL)",
+      "billed": "Hesablanmış (₹)",
+      "avgUsagePerResident": "Orta İstifadə / Rezident",
+      "avgBillPerResident": "Ort Bill / Rezident"
+    }
+  },
+  "supportTickets": {
+    "title": "Dəstək Biletləri",
+    "subtitle": "Platforma miqyasında sakinlər və icma adminləri tərəfindən qaldırılan biletləri və narahatlıqları dəstəkləyin."
+  }
+}

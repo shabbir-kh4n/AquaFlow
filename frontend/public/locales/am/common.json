@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "ገጠመ",
+    "signUpTitle": "ማህበረሰብዎን ያስመዝግቡ",
+    "signInTitle": "እንኳን ደህና መጣህ",
+    "signUpSubtitle": "ነዋሪዎችን እና የሂሳብ አከፋፈልን ማስተዳደር ለመጀመር የማህበረሰብ አስተዳዳሪ መለያ ይፍጠሩ።",
+    "signInSubtitle": "የውሃ አጠቃቀምዎን እና የሂሳብ አከፋፈልዎን ለማየት ይግቡ።"
+  },
+  "signIn": {
+    "errorFallback": "መግባት አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "emailLabel": "ኢሜይል",
+    "passwordLabel": "የይለፍ ቃል",
+    "rememberMe": "አስታውሰኝ",
+    "forgotPassword": "የይለፍ ቃል ረሱ?",
+    "submitting": "በመግባት ላይ…",
+    "submit": "ይግቡ",
+    "noAccount": "መለያ የለህም?",
+    "signUpLink": "ይመዝገቡ"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "የይለፍ ቃሎች አይዛመዱም።",
+      "communityRequired": "የማህበረሰብ ስም ያስፈልጋል።",
+      "termsRequired": "እባክዎ በአገልግሎት ውል እና የግላዊነት መመሪያ ይስማሙ።",
+      "fallback": "መለያ መፍጠር አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "hint": "እዚህ የተመዘገቡት የማህበረሰብ አስተዳዳሪዎች ብቻ ናቸው። አንዴ ከገቡ በኋላ የነዋሪዎትን ዝርዝሮች እራስዎ ይጨምራሉ - በራሳቸው አይመዘገቡም።",
+    "fullNameLabel": "ሙሉ ስም",
+    "emailLabel": "ኢሜይል",
+    "phoneLabel": "ስልክ ቁጥር",
+    "communityNameLabel": "የማህበረሰብ ስም",
+    "passwordLabel": "የይለፍ ቃል",
+    "confirmPasswordLabel": "የይለፍ ቃል ያረጋግጡ",
+    "agreeTerms": "በ<termsLink> የአገልግሎት ውል</termsLink> እና <privacyLink> የግላዊነት መመሪያ</privacyLink> እስማማለሁ",
+    "submitting": "መለያ በመፍጠር ላይ…",
+    "submit": "የአስተዳዳሪ መለያ ይፍጠሩ",
+    "haveAccount": "መለያ አለህ?",
+    "signInLink": "ይግቡ"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "በፍጥነት ለመድረስ ወደ መነሻ ማያዎ ያክሉት።",
+    "dismiss": "አሰናብት",
+    "install": "ጫን"
+  },
+  "setPassword": {
+    "title": "የይለፍ ቃልዎን ያዘጋጁ",
+    "loading": "በመጫን ላይ…",
+    "subtitle": "Hi {{name}}, choose a password for {{email}} to activate your HydroLedger account.",
+    "errors": {
+      "invalidLink": "ይህ አገናኝ ልክ ያልሆነ ነው ወይም ጊዜው አልፎበታል።",
+      "tooShort": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት።",
+      "mismatch": "የይለፍ ቃሎች አይዛመዱም።",
+      "fallback": "የይለፍ ቃልህን ማዘጋጀት አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "passwordLabel": "የይለፍ ቃል",
+    "confirmPasswordLabel": "የይለፍ ቃል ያረጋግጡ",
+    "submitting": "የይለፍ ቃል በማዘጋጀት ላይ…",
+    "submit": "የይለፍ ቃል ያዘጋጁ እና ይግቡ"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger ረዳት",
+      "resident": "ስለ መለያዎ ይጠይቁ",
+      "admin": "የማህበረሰብ ረዳት",
+      "platform": "መድረክ ረዳት",
+      "default": "ረዳት"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger ምንድን ነው?",
+        "tieredBilling": "ደረጃ ያለው የሂሳብ አከፋፈል እንዴት ነው የሚሰራው?",
+        "leaks": "ፍንጣቂዎች እንዴት ይታወቃሉ?"
+      },
+      "resident": {
+        "billEstimate": "የአሁኑ የሂሳብ መጠየቄ ምን ያህል ነው?",
+        "alerts": "የአጠቃቀም ማንቂያዎች አሉኝ?",
+        "readings": "የቅርብ ሜትር ንባቤን አሳይ"
+      },
+      "admin": {
+        "households": "ስንት ቤተሰብ አለን?",
+        "billingCycles": "የቅርብ ጊዜ የሂሳብ አከፋፈል ዑደቶቻችንን ይዘርዝሩ",
+        "tariff": "የአሁኑ የታሪፍ እቅዳችን ምንድን ነው?"
+      },
+      "platform": {
+        "communities": "ሁሉንም የተመዘገቡ ማህበረሰቦችን ይዘርዝሩ",
+        "usageReport": "የመሣሪያ ስርዓት አጠቃቀም ዘገባን አሳይ",
+        "systemStatus": "የስርአቱ ሁኔታ ምን ያህል ነው?"
+      }
+    },
+    "errors": {
+      "rateLimited": "መልዕክቶችን በፍጥነት እየላኩ ነው - እባክዎን ትንሽ ይጠብቁ እና እንደገና ይሞክሩ።",
+      "unavailable": "ረዳቱ ለጊዜው አይገኝም። እባክዎ ከጥቂት ቆይታ በኋላ እንደገና ይሞክሩ።",
+      "generic": "ያንን መልእክት በመላክ ላይ የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "emptyHint": "ማንኛውንም ነገር ጠይቀኝ - የራስህ ውሂብ ብቻ ነው የማየው።",
+    "closeAssistant": "ረዳትን ይዝጉ",
+    "openAssistant": "ክፍት ረዳት",
+    "inputPlaceholder": "መልእክት ይተይቡ…",
+    "inputLabel": "መልእክት",
+    "send": "ላክ"
+  },
+  "supportBoard": {
+    "defaultTitle": "ትኬቶችን ይደግፉ",
+    "defaultCreateLabel": "አዲስ ስጋት ያሳድጉ",
+    "status": {
+      "open": "ክፈት",
+      "inProgress": "በሂደት ላይ",
+      "resolved": "ተፈቷል።",
+      "closed": "ዝግ"
+    },
+    "tabs": {
+      "all": "ሁሉም ቲኬቶች"
+    },
+    "recipients": {
+      "admin": "የማህበረሰብ አስተዳዳሪ",
+      "systemAdmin": "የስርዓት አስተዳዳሪ",
+      "both": "የማህበረሰብ አስተዳዳሪ + የስርዓት አስተዳዳሪ"
+    },
+    "roles": {
+      "resident": "ነዋሪ",
+      "admin": "አስተዳዳሪ"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "በነዋሪ ያደገው {{name}}",
+    "raisedByAdmin": "በአስተዳዳሪ ያደገው {{name}}",
+    "refresh": "አድስ",
+    "stats": {
+      "openLabel": "ማቅረቢያዎችን ክፈት",
+      "openHint": "ግምገማን በመጠባበቅ ላይ",
+      "inProgressLabel": "በሂደት ላይ",
+      "inProgressHint": "እየተሰራበት ነው።",
+      "resolvedLabel": "ተፈቷል።",
+      "resolvedHint": "በተሳካ ሁኔታ ተዘግቷል።"
+    },
+    "searchPlaceholder": "ቲኬቶችን በርዕስ ፈልግ፣ እትም…",
+    "loadingTickets": "ትኬቶችን በመጫን ላይ…",
+    "empty": {
+      "title": "ምንም የድጋፍ ትኬቶች አልተገኙም።",
+      "body": "በአሁኑ ጊዜ ከዚህ ማጣሪያ ጋር የሚዛመዱ ምንም የተከፈቱ ወይም የተቀዳ የድጋፍ ጥያቄዎች የሉዎትም።",
+      "cta": "ስጋት አስገባ"
+    },
+    "errors": {
+      "loadList": "የድጋፍ ትኬቶችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "loadDetail": "ይህን ቲኬት መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "required": "ርዕሰ ጉዳይ እና መልእክት ሁለቱም ያስፈልጋሉ።",
+      "recipientRequired": "ቢያንስ አንድ ተቀባይ ይምረጡ (የማህበረሰብ አስተዳዳሪ እና/ወይም የስርዓት አስተዳዳሪ)።",
+      "submitFallback": "ይህን ቲኬት ማስገባት አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "sendReply": "ይህን መልእክት መላክ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "updateStatus": "ይህን የቲኬት ሁኔታ ማዘመን አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "form": {
+      "defaultHint": "ችግርዎን ወይም ስጋትዎን ከዚህ በታች ይግለጹ።",
+      "subjectLabel": "ርዕሰ ጉዳይ",
+      "subjectPlaceholder": "የጉዳይዎ አጭር ማጠቃለያ",
+      "messageLabel": "መልእክት",
+      "messagePlaceholder": "ምን እየሆነ እንዳለ በዝርዝር ግለጽ…",
+      "recipientsLabel": "ይህንን ስጋት ወደ ላክ",
+      "cancel": "ሰርዝ",
+      "submitting": "በማስረከብ ላይ…",
+      "submit": "ቲኬት አስገባ"
+    },
+    "detail": {
+      "loading": "ትኬት በመጫን ላይ…",
+      "replyPlaceholder": "ምላሽ ጻፍ…",
+      "close": "ገጠመ",
+      "sending": "በመላክ ላይ…",
+      "sendReply": "ምላሽ ላክ"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "ምናሌን ክፈት",
+    "closeMenu": "ምናሌን ዝጋ",
+    "logout": "ውጣ",
+    "search": "ፈልግ",
+    "notifications": "ማሳወቂያዎች"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "households": "የቤተሰብ ማውጫ",
+      "meterReadings": "ሜትር ንባቦች",
+      "billing": "የሂሳብ አከፋፈል አስተዳደር",
+      "bulkPurchases": "የጅምላ ግዢዎች",
+      "reports": "ሪፖርቶች",
+      "waterLeakage": "የውሃ ማፍሰስ",
+      "support": "ድጋፍ / ስጋት",
+      "tariffPlans": "የታሪፍ እቅዶች",
+      "announcements": "ማስታወቂያዎች",
+      "profile": "መገለጫ"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "የማህበረሰብዎ ቅጽበታዊ ገጽ እይታ ይኸውና።"
+      },
+      "households": {
+        "title": "የቤተሰብ ማውጫ",
+        "subtitle": "በማህበረሰብዎ ውስጥ የሚኖሩ ነዋሪዎችን ያክሉ፣ ያዘምኑ እና ያስተዳድሩ።"
+      },
+      "meterReadings": {
+        "title": "የውሃ ቆጣሪ ንባብ ማዕከል",
+        "subtitle": "ነዋሪ ፈልጉ እና የውሃ ቆጣሪ ንባባቸውን ይመዝግቡ።"
+      },
+      "tariffPlans": {
+        "title": "የታሪፍ ውቅር",
+        "subtitle": "ለአፓርታማዎ ማህበረሰብ ደረጃ ያላቸው የዋጋ ገደቦችን፣ የጋራ አካባቢ ወጪዎችን እና የማከፋፈያ ዘዴዎችን ያዋቅሩ።"
+      },
+      "billing": {
+        "title": "የሂሳብ አከፋፈል አስተዳደር",
+        "subtitle": "የክፍያ ዑደቶችን ይክፈቱ፣ ያጠናቅቁ እና በማህደር ያስቀምጡ፣ እና በየቤተሰብ የተዘረዘሩ ደረሰኞችን ይገምግሙ።"
+      },
+      "bulkPurchases": {
+        "title": "የጅምላ ግዢዎች",
+        "subtitle": "ለማህበረሰብዎ የነዳጅ ማጓጓዣ አቅርቦቶችን እና የማዘጋጃ ቤት አቅርቦቶችን ይመዝግቡ።"
+      },
+      "waterLeakage": {
+        "title": "የውሃ ማፍሰስ",
+        "subtitle": "የመነሻ ደረጃን እና በላቁ ላይ የተመሰረቱ የልቅሶ ማንቂያዎችን ያዋቅሩ እና የተጠቆሙ ቤተሰቦችን ይገምግሙ።"
+      },
+      "support": {
+        "title": "ድጋፍ / ስጋት",
+        "subtitle": "የእራስዎን ቲኬቶች ለስርዓት አስተዳዳሪ ያሳድጉ፣ ወይም ነዋሪዎችዎ ለእርስዎ ያነጋገሩትን ስጋቶች ይቆጣጠሩ።"
+      },
+      "profile": {
+        "title": "ቅንብሮች እና መገለጫ",
+        "subtitle": "የመለያ ዝርዝሮችዎን እና የአፓርታማውን መረጃ ያስተዳድሩ።"
+      }
+    },
+    "fallbackName": "አስተዳዳሪ",
+    "fallbackCommunity": "የማህበረሰብ አስተዳዳሪ",
+    "notBuilt": "{{label}} ገና አልተገነባም።",
+    "searchPlaceholder": "ማንኛውንም ነገር ይፈልጉ…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "ሪፖርቶች",
+      "description": "ለማህበረሰብዎ የፍጆታ፣ የሂሳብ አከፋፈል እና የጥበቃ ሪፖርቶች።"
+    },
+    "announcements": {
+      "title": "ማስታወቂያዎች",
+      "description": "ለነዋሪዎችዎ ማህበረሰብ አቀፍ ማስታወቂያዎችን ይላኩ።"
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} በቅርቡ ይመጣል"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "usageHistory": "የአጠቃቀም ታሪክ",
+      "bills": "የእኔ ሂሳቦች",
+      "recommendations": "ምክሮች",
+      "reports": "ሪፖርቶች",
+      "support": "ድጋፍ / ስጋት",
+      "notifications": "ማሳወቂያዎች",
+      "profile": "መገለጫ"
+    },
+    "pages": {
+      "usageHistory": "የአጠቃቀም ታሪክህ",
+      "billing": "የሂሳብ አከፋፈል እና ደረሰኞች",
+      "notifications": "ማሳወቂያዎች",
+      "recommendations": "ምክሮች",
+      "support": "ድጋፍ / ስጋት"
+    },
+    "defaultTitle": "ነዋሪ ዳሽቦርድ",
+    "navLabel": "የነዋሪ ዳሰሳ",
+    "fallbackName": "ነዋሪ",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} በቅርቡ ይመጣል",
+    "profile": "መገለጫ",
+    "searchPlaceholder": "የፍለጋ ትንታኔዎች፣ ሂሳቦች…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "communities": "ማህበረሰቦች",
+      "reports": "ሪፖርቶች",
+      "supportTickets": "ትኬቶችን ይደግፉ",
+      "systemStatus": "የስርዓት ሁኔታ"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "በሁሉም የተመዘገበ ማህበረሰብ ውስጥ መድረክ-ሰፊ ቅጽበታዊ እይታ።"
+      },
+      "communities": {
+        "title": "ማህበረሰቦች",
+        "subtitle": "እያንዳንዱ የተመዘገበ የማህበረሰብ አስተዳዳሪ እና ማህበረሰባቸው፣ በአንድ ቦታ።"
+      },
+      "reports": {
+        "title": "ሪፖርቶች",
+        "subtitle": "መድረክ-ሰፊ የውሃ አጠቃቀም እና የክፍያ አሃዞች፣ በማህበረሰብ እና በጊዜ ሂደት።"
+      },
+      "supportTickets": {
+        "title": "ትኬቶችን ይደግፉ",
+        "subtitle": "የድጋፍ ትኬቶችን እና በነዋሪዎች እና በማህበረሰብ አስተዳዳሪዎች የተነሱ ስጋቶችን መድረክ-ሰፊ።"
+      },
+      "systemStatus": {
+        "title": "የስርዓት ሁኔታ",
+        "subtitle": "የኋላ ግንኙነት እና መሰረታዊ የአሂድ ጊዜ ጤና።"
+      }
+    },
+    "fallbackName": "የስርዓት አስተዳዳሪ",
+    "platformOwner": "የመድረክ ባለቤት",
+    "searchPlaceholder": "ማህበረሰቦችን ፈልግ…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "ቋንቋ ፈልግ…",
+    "noMatches": "ምንም ግጥሚያዎች የሉም"
+  }
+}

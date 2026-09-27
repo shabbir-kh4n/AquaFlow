@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Attiva",
+    "blocked": "Imblukkata",
+    "terminated": "Tterminat"
+  },
+  "sort": {
+    "sortBy": "Issortja minn",
+    "toggleDirection": "Toggle sort direzzjoni",
+    "asc": "↑ Asc",
+    "desc": "↓ Desk"
+  },
+  "pagination": {
+    "showing": "Li juru {{from}}–{{to}} minn {{total}}",
+    "prev": "← Prev",
+    "next": "Li jmiss →",
+    "page": "Paġna {{page}} minn {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Ħarsa ġenerali tal-Pjattaforma",
+    "subtitle": "Kull amministratur tal-komunità rreġistrat, fuq il-pjattaforma HydroLedger kollha.",
+    "viewAll": "Ara l-Komunitajiet Kollha",
+    "loadError": "Ma setgħetx tagħbija data tal-pjattaforma bħalissa.",
+    "cards": {
+      "totalCommunities": "Komunitajiet totali",
+      "registeredAdmins": "Amministraturi reġistrati",
+      "totalResidents": "Residenti Totali",
+      "acrossAllCommunities": "Madwar il-komunitajiet kollha",
+      "active": "Attiva",
+      "inGoodStanding": "Fi stat tajjeb",
+      "blockedTerminated": "Imblukkat / Terminat",
+      "blockedTerminatedBreakdown": "{{blocked}} imblukkata, {{terminated}} mitmuma"
+    },
+    "recent": {
+      "title": "Komunitajiet Reġistrati Riċentement",
+      "loading": "Tagħbija...",
+      "empty": "S'issa ma ġewx irreġistrati komunitajiet.",
+      "table": {
+        "community": "Komunità",
+        "admin": "Amministratur",
+        "status": "Status",
+        "residents": "Residenti"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunitajiet: {{count}}",
+    "loadError": "Ma setgħetx tagħbija komunitajiet. Jekk jogħġbok erġa' pprova.",
+    "searchPlaceholder": "Iffiltra skont il-komunità, l-isem tal-amministratur jew l-email",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Kollha"
+    },
+    "sortOptions": {
+      "community": "Komunità",
+      "admin": "Amministratur",
+      "residents": "Residenti"
+    },
+    "loading": "Tagħbija komunitajiet...",
+    "empty": "S'issa ma ġewx irreġistrati komunitajiet.",
+    "noMatch": "L-ebda komunitajiet ma jaqblu mal-filtri tiegħek.",
+    "table": {
+      "community": "Komunità",
+      "admin": "Amministratur",
+      "email": "Email",
+      "status": "Status",
+      "residents": "Residenti",
+      "view": "Ara"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ma setgħetx tagħbija din il-komunità. Jista' jkun li tneħħa.",
+    "statusUpdateError": "Ma setgħetx taġġorna l-istatus ta' din il-komunità.",
+    "deleteError": "Ma setgħetx tħassar din il-komunità.",
+    "loading": "Tagħbija tal-komunità...",
+    "notFound": "Komunità ma nstabx.",
+    "backLink": "← Lura għall-Komunitajiet",
+    "backLinkShort": "Lura għall-Komunitajiet",
+    "eyebrow": "Profil tal-Komunità",
+    "unnamed": "Komunità bla isem",
+    "noAddress": "L-ebda indirizz fil-fajl",
+    "stats": {
+      "residents": "Residenti",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Attiva mill-ġdid",
+      "block": "Blokk",
+      "terminate": "Ittemm",
+      "delete": "Ħassar Komunità"
+    },
+    "blockDialog": {
+      "title": "Tibblokka dan l-amministratur tal-komunità?",
+      "message": "Blokk {{name}}? Huma ma jkunux jistgħu jidħlu qabel ma jiġu żblokkati. L-ebda data mhi se tkun affettwata.",
+      "confirm": "Blokk"
+    },
+    "terminateDialog": {
+      "title": "Twaqqaf dan l-admin tal-komunità?",
+      "message": "Ittermina b'mod permanenti l-aċċess ta' {{name}}? Dan ma jistax jitneħħa, għalkemm id-dejta tal-komunità tagħhom se tinżamm għar-rekords.",
+      "confirm": "Ittemm"
+    },
+    "deleteDialog": {
+      "title": "Tħassar din il-komunità?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Ikkonferma"
+    },
+    "residents": {
+      "title": "Residenti",
+      "registeredCount": "Reġistrat: {{count}}",
+      "empty": "Għadu l-ebda residenti ma ġie rreġistrat f'din il-komunità.",
+      "table": {
+        "flatUnit": "Unità Flat",
+        "meter": "Miter",
+        "resident": "Resident",
+        "email": "Email",
+        "passwordSet": "Issettja l-Password"
+      },
+      "yes": "Iva",
+      "no": "Nru"
+    },
+    "cancel": "Ikkanċella",
+    "working": "Xogħol...",
+    "deleting": "Tħassar..."
+  },
+  "systemStatus": {
+    "statusError": "Ma setgħetx tilħaq il-backend biex tiċċekkja l-istatus tas-sistema.",
+    "metricsError": "Ma setgħetx tagħbija l-istorja tal-metriċi.",
+    "ranges": {
+      "fiveMinutes": "5 minuti",
+      "fifteenMinutes": "15-il Minuta",
+      "hour": "Siegha",
+      "day": "Jum",
+      "week": "Ġimgħa",
+      "month": "Xahar",
+      "threeMonths": "3 Xhur"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Talbiet/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latenza",
+      "lastValue": "{{value}} l-aħħar",
+      "loading": "Tagħbija...",
+      "empty": "S'issa ma ġietx irreġistrata metrika għal din il-firxa."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Tiċċekkja...",
+      "reachable": "Jintlaħaq",
+      "unreachable": "Ma jistax jintlaħaq",
+      "connected": "Konnessi",
+      "backendApiHint": "Din il-paġna tagħbija mill-backend, għalhekk wieġbet.",
+      "database": "Database",
+      "databaseHint": "Konnettività PostgreSQL, iċċekkjata live.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Mill-aħħar applikazzjoni mill-ġdid.",
+      "appVersion": "Verżjoni tal-App",
+      "appVersionHint": "Verżjoni tal-bini tal-backend."
+    },
+    "mini": {
+      "latency": "Latency",
+      "readsLatency": "Taqra Latency",
+      "writesLatency": "Jikteb Latency",
+      "otherLatency": "Latency Oħra",
+      "connections": "Konnessjonijiet",
+      "totalKeys": "Ċwievet Totali"
+    },
+    "note": "It-talbiet/sekonda u l-latenza jittieħdu kampjuni mit-traffiku backend live kull 15-il sekonda u jinżammu sa 100 jum. Din hija konnettività bażika + kontroll tat-traffiku — ma tissostitwixxix il-monitoraġġ sħiħ tal-prestazzjoni tal-applikazzjoni, l-aggregazzjoni tal-logs, jew it-twissija."
+  },
+  "reports": {
+    "loadError": "Ma setax jgħabbi r-rapport tal-pjattaforma.",
+    "ranges": {
+      "threeMonths": "3 Xhur",
+      "sixMonths": "6 Xhur",
+      "twelveMonths": "12-il Xahar",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Komunità",
+      "usage": "Użu",
+      "billed": "Billed",
+      "residents": "Residenti"
+    },
+    "customRange": {
+      "from": "Minn",
+      "to": "Biex",
+      "hint": "Agħżel kemm xahar \"minn\" kif ukoll \"sa\" biex jgħabbi rapport tad-dwana."
+    },
+    "loading": "Qiegħed it-tagħbija tar-rapport...",
+    "cards": {
+      "totalCommunities": "Komunitajiet totali",
+      "inThisRange": "F'din il-firxa",
+      "totalResidents": "Residenti Totali",
+      "acrossAllCommunities": "Madwar il-komunitajiet kollha",
+      "overallUsage": "Użu ġenerali",
+      "meteredConsumption": "Konsum imkejjel",
+      "overallBilled": "B'mod ġenerali Billed",
+      "finalizedInvoicesOnly": "Fatturi finalizzati biss",
+      "avgUsagePerResident": "Użu medju / Residenti",
+      "avgBillPerResident": "Avg Bill / Resident"
+    },
+    "charts": {
+      "usageTitle": "Użu mal-pjattaforma kollha (kL / xahar)",
+      "usageEmpty": "Ebda użu rreġistrat għal din il-firxa.",
+      "usageSeries": "Użu",
+      "billedTitle": "Ammont Ifatturat mal-pjattaforma kollha (₹ / xahar)",
+      "billedEmpty": "Ebda fattura finalizzata għal din il-firxa.",
+      "billedSeries": "Billed"
+    },
+    "searchPlaceholder": "Iffiltra skont l-isem tal-komunità jew tal-amministratur",
+    "empty": "S'issa l-ebda komunitajiet ma għandhom dejta dwar l-użu jew il-kontijiet għal din il-firxa.",
+    "noMatch": "L-ebda komunitajiet ma jaqblu mal-filtru tiegħek.",
+    "table": {
+      "community": "Komunità",
+      "admin": "Amministratur",
+      "residents": "Residenti",
+      "usage": "Użu (kL)",
+      "billed": "Imħallsa (₹)",
+      "avgUsagePerResident": "Użu medju / Residenti",
+      "avgBillPerResident": "Avg Bill / Resident"
+    }
+  },
+  "supportTickets": {
+    "title": "Biljetti ta' Appoġġ",
+    "subtitle": "Tappoġġja l-biljetti u t-tħassib imqajjem mir-residenti u l-amministraturi tal-komunità, mal-pjattaforma kollha."
+  }
+}

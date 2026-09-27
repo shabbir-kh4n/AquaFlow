@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "A’ luchdachadh…",
+    "saving": "A’ sàbhaladh…",
+    "saved": "Air a shàbhaladh.",
+    "uploading": "A’ luchdachadh suas…",
+    "upload": "Luchdaich suas",
+    "uploadError": "Cha b' urrainn dhuinn am faidhle seo a luchdadh suas. Feuch ris a-rithist.",
+    "cancel": "Sguir dheth",
+    "close": "Dùin",
+    "edit": "Deasaich",
+    "remove": "Thoir air falbh",
+    "saveChanges": "Sàbhail Atharrachaidhean",
+    "bulkSummary": "Shoirbhich le giullachd <b>{{total}} </b> sreathan - <b> {{success}} </b>, <b> {{failure}} </b> dh’ fhàillig.",
+    "rowFailure": "Sreath {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "A' sealltainn {{from}}–{{to}} de {{total}}",
+    "prev": "← Mu dheireadh",
+    "next": "Air adhart →",
+    "page": "Duilleag {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Cha b' urrainn dhuinn an dàta coimhearsnachd agad a luchdachadh an-dràsta fhèin.",
+    "title": "{{community}} Deas-bhòrd àros",
+    "titleFallback": "Deas-bhòrd an àros agad",
+    "subtitle": "Geàrr-chunntas obrachaidh airson fo-mheatair goireasan uisge agus caitheamh taighe.",
+    "comingSoon": "A’ tighinn a dh’ aithghearr",
+    "manageCommunity": "Stiùirich Coimhearsnachd",
+    "noUsageReadings": "Chan eil leughaidhean cleachdaidh air an clàradh fhathast.",
+    "cards": {
+      "totalHouseholds": "Teaghlaichean iomlan",
+      "occupied": "Air a ghabhail thairis",
+      "activeMeters": "Meatairean Gnìomhach",
+      "reportingReadings": "Dèan aithris air leughaidhean",
+      "monthlyConsumption": "Caitheamh Mìosail",
+      "thisCalendarMonth": "Am mìos mìosachain seo",
+      "latestRecordedMonth": "A’ mhìos mu dheireadh a chaidh a chlàradh ({{month}})",
+      "noReadingsYet": "Chan eil leughaidhean air an clàradh fhathast",
+      "pendingAlerts": "Rabhaidhean a' feitheamh",
+      "anomalyPreview": "Ro-shealladh lorg neo-riaghailteachd - chan eil e ri fhaighinn fhathast"
+    },
+    "actions": {
+      "label": "Gnìomhan Rianachd Luath",
+      "uploadReadings": "Luchdaich a-nuas leughaidhean metering.",
+      "configureTariffs": "Dèan rèiteachadh air cìsean",
+      "reportsNotBuilt": "Chan eil aithisgean air an togail fhathast",
+      "downloadReports": "Luchdaich a-nuas an aithisg air an t-siostam."
+    },
+    "chart": {
+      "title": "Coimeas Caitheamh Mìosail (kL)",
+      "subtitle": "{{months}} mìosan mu dheireadh: targaid vs fìor chaitheamh.",
+      "targetSeries": "Targaid (ro-shealladh)",
+      "actualSeries": "Fìor"
+    },
+    "recent": {
+      "title": "Leughaidhean meatair o chionn ghoirid",
+      "unit": "Aonad",
+      "resident": "Còmhnaidh",
+      "lastReading": "Leughadh mu dheireadh",
+      "consumption": "Caitheamh"
+    }
+  },
+  "households": {
+    "loadError": "Cha b' urrainn luchd-còmhnaidh a luchdachadh. Feuch ris a-rithist.",
+    "fixFields": "Feuch an socraich thu na raointean comharraichte.",
+    "saveError": "Cha b' urrainn dhuinn an neach-còmhnaidh seo a shàbhaladh. Feuch an toir thu sùil air an fhiosrachadh.",
+    "confirmRemove": "A bheil thu airson {{name}} a thoirt air falbh bhon chlàr thaigheadais agad?",
+    "removeError": "Cha b' urrainn dhuinn an neach-còmhnaidh seo a thoirt air falbh. Feuch ris a-rithist.",
+    "count": "Teaghlaichean: {{total}}",
+    "bulkUploadButton": "⇪ Luchdaich suas mòr",
+    "addResidentButton": "+ Cuir ris an neach-còmhnaidh",
+    "searchPlaceholder": "Criathraich a rèir ainm, taigh, post-d, no àireamh meatair.",
+    "loading": "A’ luchdachadh luchd-còmhnaidh…",
+    "empty": "Chan eil luchd-còmhnaidh ann fhathast. Cliog air “Cuir Còmhnaidh ris” gus a’ chiad dachaigh a chlàradh.",
+    "noMatch": "No residents match \"{{search}}\".",
+    "sort": {
+      "label": "Deasaich a rèir",
+      "name": "Ainm",
+      "houseNumber": "Àireamh taighe",
+      "dateOfJoining": "Ceann-latha a’ tighinn còmhla",
+      "toggleDirection": "Tog an t-slighe seòrsachaidh",
+      "asc": "↑ Asc",
+      "desc": "↓ Deasg"
+    },
+    "gender": {
+      "male": "Fireann",
+      "female": "Boireann",
+      "other": "Eile"
+    },
+    "table": {
+      "name": "Ainm",
+      "houseUnit": "Taigh/Aonad",
+      "email": "Post-d",
+      "phone": "Fòn",
+      "meterNumber": "Meatair Àir.",
+      "sqft": "Sqft",
+      "joined": "Thig còmhla"
+    },
+    "form": {
+      "addTitle": "Cuir ris an neach-còmhnaidh",
+      "editTitle": "Deasaich Neach-còmhnaidh",
+      "editSubtitle": "Bidh seo ag ùrachadh mion-fhiosrachadh an neach-còmhnaidh san eòlaire agad.",
+      "bypassSubtitle": "Tha thu a' suidheachadh facal-faire an neach-còmhnaidh seo gu dìreach. Cha tèid post-d sam bith a chuir.",
+      "addSubtitle": "Thèid ceangal facal-faire suidhichte a chuir air post-d chun neach-còmhnaidh seo gus an urrainn dhaibh an logadh a-steach aca fhèin a chuir an gnìomh.",
+      "fullName": "Làn ainm",
+      "houseNumber": "Taigh / aonad àireamh.",
+      "email": "Post-d",
+      "phone": "Àireamh fòn",
+      "meterNumber": "Àireamh mheatair",
+      "governmentId": "ID an Riaghaltais",
+      "gender": "Gnè",
+      "dateOfBirth": "Latha breith",
+      "dateOfJoining": "Ceann-latha a’ tighinn còmhla",
+      "flatSize": "Meud còmhnard (sq ft)",
+      "bypassLabel": "Seach-rathad post-d facal-faire seata - suidhich facal-faire airson an neach-còmhnaidh seo a-nis",
+      "password": "Facal-faire",
+      "confirmPassword": "Dearbh am facal-faire"
+    },
+    "validation": {
+      "fullNameRequired": "Tha feum air ainm slàn.",
+      "emailRequired": "Tha feum air post-d.",
+      "phoneRequired": "Tha feum air àireamh fòn.",
+      "houseNumberRequired": "Tha feum air àireamh taighe / aonad.",
+      "houseNumberTaken": "Tha an àireamh taighe seo mu thràth air a shònrachadh do neach-còmhnaidh eile.",
+      "meterNumberRequired": "Tha feum air àireamh meatair.",
+      "meterNumberFormat": "Feumaidh àireamh meatair a bhith coltach ri MTR-1234 (4 àireamhan).",
+      "meterNumberTaken": "Tha an àireamh meatair seo mar-thà air a shònrachadh do neach-còmhnaidh eile.",
+      "governmentIdRequired": "Tha feum air ID an Riaghaltais.",
+      "governmentIdFormat": "Feumaidh an ID a bhith 6 àireamhan a’ tòiseachadh le 99 (m.e. 991234).",
+      "genderRequired": "Feuch an tagh thu gnè.",
+      "dateOfBirthRequired": "Tha feum air ceann-latha breith.",
+      "dateOfJoiningRequired": "Tha feum air ceann-latha ballrachd.",
+      "passwordRequired": "Tha feum air facal-faire.",
+      "passwordLength": "Feumaidh am facal-faire a bhith co-dhiù 8 caractaran.",
+      "confirmPasswordRequired": "Feuch an dearbhaich thu am facal-faire.",
+      "passwordMismatch": "Chan eil faclan-faire co-ionnan."
+    },
+    "bulk": {
+      "title": "Luchd-còmhnaidh mòr-luchdachadh suas",
+      "noFile": "Feuch an tagh thu faidhle .csv no .xlsx/.xls airson a luchdachadh suas.",
+      "instructions": "Luchdaich suas faidhle .csv no .xlsx/.xls le colbhan <code>{{columns}}</code> (tha facal-faire agus flatSizeSqft an dà chuid roghainneil). Bidh sreathan le facal-faire ga shuidheachadh gu dìreach; bidh sreathan às aonais aon a’ faighinn post-d facal-faire suidhichte, an aon rud ri neach-còmhnaidh a chuir ris le làimh. Thathas a’ diùltadh àireamhan taighe/mheatair no puist-d dùblaichte gach sreath - cha bhith aon droch shreath a’ fàiligeadh anns a’ bhaidse gu lèir."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Cha b' urrainn luchd-còmhnaidh a luchdachadh. Feuch ris a-rithist.",
+    "historyLoadError": "Cha b' urrainn dhuinn an eachdraidh leughaidh a luchdadh. Feuch ris a-rithist.",
+    "successMessage": "Leughadh soirbheachail air a chlàradh de {{value}} kL airson {{house}} (Meatair: {{meter}})! Caitheamh àireamhaichte: {{consumption}} kL.",
+    "tabs": {
+      "single": "Inntrigeadh Singilte",
+      "csv": "Mòr-chuid CSV Luchdaich suas",
+      "history": "Eachdraidh Leughaidh"
+    },
+    "source": {
+      "manual": "Leabhar-làimhe",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Chan eil àireamh meatair aig an neach-còmhnaidh seo air faidhle.",
+      "dateRequired": "Tha feum air ceann-latha leughaidh.",
+      "invalidValue": "Feuch an cuir thu a-steach luach leughaidh dligheach, neo-àicheil.",
+      "duplicate": "Tha leughadh airson a’ mheatair seo ann mu thràth air a’ cheann-latha sin.",
+      "meterNotFound": "Cha deach am meatair seo a lorg. Feuch an tagh thu an neach-còmhnaidh a-rithist.",
+      "lowerThanPrevious": "Tha an leughadh seo nas ìsle na an leughadh a chaidh a chlàradh roimhe.",
+      "recordFailed": "Cha b’ urrainn dhuinn an leughadh seo a chlàradh. Feuch ris a-rithist."
+    },
+    "combo": {
+      "label": "Tagh Flat & Meter Serial",
+      "placeholder": "Tagh Flat & Meter Serial…",
+      "flat": "Flat {{house}}",
+      "noMeter": "Gun mheatair",
+      "searchPlaceholder": "Rannsaich flat no, sreath meatair, neach-còmhnaidh…",
+      "unitsHeader": "Aonadan còmhnaidh",
+      "found": "Flataichean air an lorg: {{total}}",
+      "loading": "A’ luchdachadh luchd-còmhnaidh…",
+      "noMatch": "No residents match \"{{search}}\".",
+      "unassigned": "Neo-ainmichte",
+      "itemMeta": "{{name}} · Mu dheireadh: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "A ' clàradh leughadh airson",
+      "context": "Taigh {{house}} · Meatair {{meter}}",
+      "changeResident": "Atharraich neach-còmhnaidh",
+      "readingDate": "Ceann-latha leughaidh",
+      "readingValue": "Current Meter Reading (kL)",
+      "submit": "Cuir a-steach Leughadh Dearbhaichte",
+      "recentTitle": "Leughaidhean o chionn ghoirid",
+      "recentEmpty": "Cha deach leughaidhean sam bith a chlàradh airson a’ mheatair seo fhathast."
+    },
+    "info": {
+      "title": "Dearbhadh Meatair Monotonic",
+      "body": "Feumaidh a h-uile leughadh ùr a bhith nas motha na no co-ionann ris a’ chlàr roimhe airson a’ mheatair sin - bidh seo a’ cumail àireamhachadh caitheamh neo-mhearachdach agus a’ glacadh àireamhan tar-chuir tràth."
+    },
+    "details": {
+      "title": "Mion-fhiosrachadh Aonad taghte",
+      "flatUnit": "Aonad còmhnard",
+      "meterSerial": "Sreath meatair",
+      "occupant": "Ainm an neach-còmhnaidh",
+      "lastDial": "Dial mu dheireadh a chaidh a chlàradh",
+      "noReadings": "Chan eil leughaidhean ann fhathast",
+      "monthConsumption": "Caitheamh Mìos",
+      "empty": "Cha deach dachaigh a thaghadh. Rannsaich agus tagh neach-còmhnaidh gus mion-fhiosrachadh an meatair aca fhaicinn an seo."
+    },
+    "csv": {
+      "noFile": "Feuch an tagh thu faidhle CSV airson a luchdachadh suas.",
+      "instructions": "Luchdaich suas CSV le colbhan <code>{{columns}}</code>. Bidh sreathan air an giullachd gu neo-eisimeileach - cha bhith aon dhroch shreath a 'fàilligeadh a' bhaidse gu lèir."
+    },
+    "history": {
+      "loading": "A’ luchdachadh leughaidhean…",
+      "empty": "Chan eil leughaidhean air an clàradh fhathast airson do choimhearsnachd."
+    },
+    "table": {
+      "meterNumber": "Meatair Àir.",
+      "date": "Ceann-latha",
+      "value": "Luach (kL)",
+      "consumption": "Caitheamh (kL)",
+      "source": "Stòr"
+    }
+  },
+  "billingCycles": {
+    "title": "Cearcallan bileachaidh",
+    "loadError": "Cha b' urrainn dhuinn cearcallan cunntais a luchdachadh. Feuch ris a-rithist.",
+    "paymentUpdateError": "Cha b' urrainn dhuinn inbhe pàighidh an fhàirdeal seo ùrachadh.",
+    "pdfError": "Cha b' urrainn dhuinn am faidhle PDF a luchdachadh sìos. Feuch ris a-rithist.",
+    "finalizeError": "Cha b' urrainn dhuinn crìoch a chur air a' chearcall cunntais seo.",
+    "archiveError": "Cha b' urrainn dhuinn a' chearcall cunntais seo a thasgadh.",
+    "loading": "A’ luchdachadh cearcallan cunntais…",
+    "empty": "Chan eil cearcallan bileachaidh ann fhathast. Fosgail fear gu h-àrd airson tòiseachadh.",
+    "status": {
+      "open": "Fosgailte",
+      "finalized": "Crìochnaichte",
+      "archived": "Tasglann"
+    },
+    "open": {
+      "title": "Fosgail Cearcall Bilean Ùr",
+      "noMonth": "Feuch an tagh thu mìos airson fosgladh.",
+      "error": "Cha b’ urrainn dhuinn cearcall bileachaidh fhosgladh airson a’ mhìos sin.",
+      "monthAria": "Mìos ùine bileachaidh",
+      "opening": "A’ fosgladh…",
+      "submit": "Cearcall Fosgailte"
+    },
+    "table": {
+      "period": "Ùine",
+      "status": "Inbhe",
+      "householdsBilled": "Teaghlaichean air am pàigheadh",
+      "totalBilled": "Iomlan air a bhileachadh",
+      "actions": "Gnìomhan"
+    },
+    "actions": {
+      "finalize": "Cuir crìoch air",
+      "finalizing": "A’ crìochnachadh…",
+      "archive": "Tasglann",
+      "archiving": "A’ tasglann…"
+    },
+    "filter": {
+      "aria": "Criathraich a rèir inbhe pàighidh",
+      "all": "Uile"
+    },
+    "payment": {
+      "paid": "Phàigh",
+      "unpaid": "Gun phàigheadh",
+      "updating": "Ag ùrachadh…",
+      "markPaid": "Comharraich mar a phàigh",
+      "markUnpaid": "Comharraich mar gun phàigheadh"
+    },
+    "detail": {
+      "title": "Mion-fhiosrachadh Rothaireachd - {{period}}",
+      "loading": "A’ luchdachadh chunntasan…",
+      "notFinalized": "Cha deach an cearcall seo a thoirt gu crìch fhathast - cha deach fàirdealan a chruthachadh.",
+      "noInvoices": "Chan eil cunntasan ann airson a’ chuairt seo.",
+      "noMatch": "Chan eil fàirdeal sam bith a' freagairt ris a' chriathrag seo."
+    },
+    "invoices": {
+      "household": "Dachaigh",
+      "resident": "Còmhnaidh",
+      "meterNumber": "Meatair Àir.",
+      "consumption": "Caitheamh (kL)",
+      "tierBreakdown": "Briseadh sìos ìre",
+      "commonArea": "Raon Coitcheann",
+      "total": "Iomlan",
+      "paymentStatus": "Inbhe pàighidh",
+      "pdf": "PDF",
+      "baseLine": "Bunait: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Sreath {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Cha b' urrainn dhuinn rèiteachadh a' chìs a luchdadh",
+    "saveError": "Cha b' urrainn dhuinn an rèiteachadh taraife a shàbhaladh",
+    "chartTitle": "Ìrean Ìre Goireas Meadhanach Gnìomhach",
+    "axisNote": "Ìre ann an ₹/kL, crìochan leac ann an kL",
+    "tableTitle": "Clàr ìrean prìsean",
+    "defaultRatesNote": "A' sealltainn ìrean bunaiteach - cha deach a shàbhaladh fhathast.",
+    "addTier": "+ Cuir ris an t-sreath",
+    "saveRates": "Sàbhail Ìrean Tar-chuir",
+    "tierLevel": {
+      "base": "Sreath {{tier}} (Bunait)",
+      "medium": "Ìre {{tier}} (meadhanach)",
+      "heavy": "Sreath {{tier}} (trom)"
+    },
+    "basePrice": {
+      "label": "Bun-phrìs (₹ / kL, air a chuir an sàs anns A H-UILE caitheamh)",
+      "note": "Tha a h-uile kL air an ìre rèidh seo a phàigheadh ​​an toiseach. Bidh na leacan gu h-ìosal a’ cur cosgaisean EXTRA a-mhàin airson cleachdadh a tha taobh a-staigh an raon aca - me. chan eil leac a' tòiseachadh aig 50 kL a' cur ris an ìre caitheamh ach os cionn 50 kL."
+    },
+    "table": {
+      "tierLevel": "Ìre Ìre",
+      "slabLimit": "Slab Limit (kL)",
+      "rate": "Ìre gach kL",
+      "action": "Gnìomh"
+    },
+    "commonArea": {
+      "title": "Rèiteachadh Cosgais Sgìre Coitcheann Co-roinnte",
+      "loadError": "Cha b' urrainn dhuinn rèiteachadh cosgais na sgìre chumanta a luchdachadh",
+      "saveError": "Cha b' urrainn dhuinn rèiteachadh cosgais na sgìre chumanta a shàbhaladh",
+      "empty": "Chan eil nithean cosgais air an sàbhaladh fhathast.",
+      "labelPlaceholder": "Leubail nì cosgais",
+      "perMonth": "/ mìos",
+      "active": "Gnìomhach",
+      "addItem": "+ Cuir ris an nì cosgais",
+      "save": "Sàbhail rèiteachadh na sgìre cumanta"
+    },
+    "distribution": {
+      "title": "Roghainn Modh Cuairteachaidh Cosgais",
+      "consumption": "Le caitheamh (Co-roinneil fo-mheatair)",
+      "floorArea": "Le Apartment Flat Size (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Ceann-latha tòiseachaidh bileachaidh baidhsagal",
+      "cycleStartValue": "1mh de gach Mìos",
+      "autoInvoices": "Auto-gineadh PDF fàirdealan"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Chaidh an stairsneach seachad",
+      "statisticalOutlier": "Outlier staitistigeil"
+    },
+    "status": {
+      "active": "Gnìomhach",
+      "resolved": "Fuasgladh",
+      "dismissed": "Air a chur às"
+    },
+    "config": {
+      "title": "Rèiteachadh lorg aodion",
+      "subtitle": "Suidhich stairsneach caitheamh mìosail agus/no leig le lorg staitistigeil a-muigh (brataich dachaigh aig a bheil caitheamh mìosail gu math àrd an taca ris an eachdraidh aige fhèin).",
+      "loadError": "Cha b' urrainn dhuinn rèiteachadh rabhaidh a luchdachadh. Feuch ris a-rithist.",
+      "thresholdRequired": "Tha feum air stairsneach mìosail (kL) nuair a tha rabhaidhean stairsnich an comas.",
+      "saveError": "Cha b' urrainn dhuinn an rèiteachadh seo a shàbhaladh.",
+      "loading": "A’ luchdachadh rèiteachaidh…",
+      "threshold": "Monthly threshold (kL)",
+      "sensitivity": "Cugallachd a-muigh (σ iomadachaidh)",
+      "enableThreshold": "Dèan comas air rabhaidhean stairsnich",
+      "enableOutlier": "Dèan comas air rabhaidhean staitistigeil a-muigh",
+      "save": "Sàbhail Configuration",
+      "running": "A’ ruith…",
+      "runNow": "Ruith Detection Now"
+    },
+    "alerts": {
+      "title": "Teaghlaichean Bratach",
+      "loadError": "Cha b' urrainn dhuinn rabhaidhean a luchdachadh. Feuch ris a-rithist.",
+      "runError": "Cha b' urrainn dhuinn lorg aoidionachd a ruith an-dràsta fhèin. Feuch ris a-rithist.",
+      "updateError": "Cha b' urrainn dhuinn an rabhadh seo ùrachadh. Feuch ris a-rithist.",
+      "allStatuses": "A h-uile inbhe",
+      "loading": "A’ luchdachadh rabhaidhean…",
+      "empty": "Gun rabhaidhean ri shealltainn. Dèan rèiteachadh air stairsneach no cuir an comas lorg taobh a-muigh gu h-àrd, agus an uairsin cliog air “Run Detection Now” gus cleachdadh gnàthach na coimhearsnachd agad a mheasadh.",
+      "resolve": "Fuasgail",
+      "dismiss": "Cur às"
+    },
+    "table": {
+      "household": "Dachaigh",
+      "resident": "Còmhnaidh",
+      "meter": "Meatair",
+      "type": "Seòrsa",
+      "period": "Ùine",
+      "consumption": "Caitheamh",
+      "reference": "Iomradh",
+      "status": "Inbhe"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Cha b' urrainn dhuinn tòrr uisge a cheannach. Feuch ris a-rithist.",
+    "confirmRemove": "Thoir air falbh an {{source}} lìbhrigeadh air {{date}}?",
+    "removeError": "Cha b' urrainn dhuinn an ceannach seo a thoirt air falbh. Feuch ris a-rithist.",
+    "count": "Ceannach clàraichte: {{total}}",
+    "recordButton": "+ Ceannach clàran",
+    "loading": "A’ luchdachadh mòr-cheannach uisge…",
+    "empty": "Cha deach mòr-cheannach uisge a chlàradh fhathast. Cliog air “Ceannach Clàraidh” gus lìbhrigeadh tancair no ceannach solarachaidh baile a chlàradh.",
+    "table": {
+      "date": "Ceann-latha",
+      "source": "Stòr",
+      "volume": "Meud (L)",
+      "unitCost": "Cosgais aonad",
+      "totalCost": "Cosgais iomlan",
+      "notes": "Notaichean"
+    },
+    "form": {
+      "addTitle": "Clàraich ceannach mòr uisge",
+      "editTitle": "Deasaich Bulk Water Purchase",
+      "subtitle": "Cum sùil air lìbhrigeadh tancair no ceannach solarachaidh baile don choimhearsnachd agad - tha seo air a chlàradh airson faicsinneachd cosgais a-mhàin agus chan eil e a’ toirt buaidh air fàirdealan taighe.",
+      "requiredFields": "Feuch an lìon thu a-steach an ceann-latha, stòr, tomhas-lìonaidh agus cosgais aonaid.",
+      "saveError": "Cha b' urrainn dhuinn an ceannach seo a shàbhaladh. Feuch an toir thu sùil air an fhiosrachadh.",
+      "purchaseDate": "Ceann-latha ceannach",
+      "source": "Stòr / solaraiche",
+      "volume": "Meud (liotair)",
+      "unitCost": "Cosgais aonaid (₹/liotair)",
+      "totalPreview": "Cosgais iomlan: {{amount}}",
+      "notes": "Notaichean (roghainneil)",
+      "submit": "Ceannach Clàr"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} chan eil e air a thogail fhathast",
+    "profileSaveError": "Cha b' urrainn dhuinn do phròifil a shàbhaladh. Feuch ris a-rithist.",
+    "apartmentSaveError": "Cha b’ urrainn dhuinn mion-fhiosrachadh an àros a shàbhaladh. Feuch ris a-rithist.",
+    "specsTitle": "Sònrachaidhean Pròifil",
+    "photoUnavailable": "Chan eil luchdachadh suas dhealbhan ri fhaighinn fhathast",
+    "changePhoto": "Atharraich an dealbh",
+    "deletePhoto": "Sguab às",
+    "photoHint": "JPG no PNG. Meud as motha 2MB.",
+    "saveProfile": "Sàbhail Pròifil",
+    "apartmentTitle": "Mion-fhiosrachadh Apartment",
+    "saveApartment": "Sàbhail mion-fhiosrachadh Apartment",
+    "tabs": {
+      "profile": "Roghainnean pròifil",
+      "apartment": "Pròifil Apartment",
+      "notifications": "Riaghailtean fios",
+      "billing": "Amalachadh bileachaidh",
+      "security": "Tèarainteachd & ruigsinneachd"
+    },
+    "fields": {
+      "fullName": "Làn ainm",
+      "email": "Seòladh puist-d",
+      "emailLocked": "Cha ghabh post-d atharrachadh an seo",
+      "phone": "Àireamh fòn",
+      "accessLevel": "Ìre Ruigsinneachd",
+      "accessLevelValue": "Rianaire Coimhearsnachd",
+      "roleLocked": "Chan eil stiùireadh dreuchd ri fhaighinn fhathast",
+      "apartmentName": "Ainm Apartment",
+      "mainsSource": "Stòr prìomh phìoban",
+      "mainsSourcePlaceholder": "m.e. Solarachadh Bailteil + Tancairean a bharrachd",
+      "address": "Seòladh Corporra"
+    },
+    "security": {
+      "title": "Ro-shealladh Tèarainteachd & Ruigsinneachd",
+      "twoFactor": "Dearbhadh Dà-Factor",
+      "twoFactorHint": "Air a chomasachadh air logadh a-steach",
+      "twoFactorUnavailable": "Chan eil dearbhadh dà-fhactaraidh ri fhaighinn fhathast",
+      "twoFactorAria": "Dearbhadh dà-fhactaraidh (ro-shealladh a-mhàin)",
+      "sessionsLabel": "Seiseanan Rianachd Gnìomhach",
+      "sessionsEmpty": "Chan eil tracadh seisean ri fhaighinn fhathast - seo ro-shealladh den chruth a tha ri thighinn."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Na Ticeadan agam",
+      "inbox": "Tiogaidean còmhnaidh"
+    },
+    "mine": {
+      "title": "Na Ticeadan Taic agam",
+      "subtitle": "Tog ceist no dragh mun choimhearsnachd agad gu Rianachd an t-Siostaim.",
+      "emptyCreateHint": "Tog ceist no dragh mun choimhearsnachd agad. Nì Rianachd Siostam ath-sgrùdadh agus freagairt an seo."
+    },
+    "inbox": {
+      "title": "Tiogaidean còmhnaidh",
+      "subtitle": "Tiogaidean taic agus draghan a tha luchd-còmhnaidh sa choimhearsnachd agad air dèiligeadh riut."
+    }
+  }
+}

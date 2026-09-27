@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Po ngarkohet…",
+    "saving": "Po ruan…",
+    "saved": "U ruajt.",
+    "uploading": "Po ngarkohet…",
+    "upload": "Ngarko",
+    "uploadError": "Ky skedar nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "cancel": "Anulo",
+    "close": "Mbylle",
+    "edit": "Redakto",
+    "remove": "Hiq",
+    "saveChanges": "Ruaj Ndryshimet",
+    "bulkSummary": "<b>{{total}}</b> rreshta të përpunuara — <b>{{success}}</b> pati sukses, <b>{{failure}}</b> dështoi.",
+    "rowFailure": "Rreshti {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Po shfaqen {{from}}–{{to}} nga {{total}}",
+    "prev": "← E mëparshme",
+    "next": "Tjetra →",
+    "page": "Faqja {{page}} nga {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Nuk mund të ngarkoheshin të dhënat e komunitetit për momentin.",
+    "title": "{{community}} Paneli i apartamenteve",
+    "titleFallback": "Paneli i apartamentit tuaj",
+    "subtitle": "Përmbledhje operacionale për nënmatjen e ujësjellësit dhe konsumin familjar.",
+    "comingSoon": "Së shpejti",
+    "manageCommunity": "Menaxho komunitetin",
+    "noUsageReadings": "Nuk janë regjistruar ende lexime të përdorimit.",
+    "cards": {
+      "totalHouseholds": "Totali i Familjeve",
+      "occupied": "I pushtuar",
+      "activeMeters": "Matësit aktivë",
+      "reportingReadings": "Raportimi i leximeve",
+      "monthlyConsumption": "Konsumi mujor",
+      "thisCalendarMonth": "Ky muaj kalendarik",
+      "latestRecordedMonth": "Muaji më i fundit i regjistruar ({{month}})",
+      "noReadingsYet": "Nuk janë regjistruar ende lexime",
+      "pendingAlerts": "Alarmet në pritje",
+      "anomalyPreview": "Pamja paraprake e zbulimit të anomalive — ende nuk disponohet"
+    },
+    "actions": {
+      "label": "Veprimet e shpejta administrative",
+      "uploadReadings": "Ngarko leximet e njehsorit",
+      "configureTariffs": "Konfiguro tarifat",
+      "reportsNotBuilt": "Raportet nuk janë krijuar ende",
+      "downloadReports": "Shkarkoni Raportet e Sistemit"
+    },
+    "chart": {
+      "title": "Krahasimi mujor i konsumit (kL)",
+      "subtitle": "{{months}} muajt e fundit: objektivi kundrejt konsumit aktual.",
+      "targetSeries": "Synimi (pamja paraprake)",
+      "actualSeries": "Aktual"
+    },
+    "recent": {
+      "title": "Leximet e fundit të njehsorëve",
+      "unit": "Njësia",
+      "resident": "Banor",
+      "lastReading": "Leximi i fundit",
+      "consumption": "Konsumi"
+    }
+  },
+  "households": {
+    "loadError": "Banorët nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+    "fixFields": "Ju lutemi rregulloni fushat e theksuara.",
+    "saveError": "Ky banor nuk mund të shpëtohej. Ju lutemi kontrolloni detajet.",
+    "confirmRemove": "Të hiqet {{name}} nga drejtoria e familjeve tuaja?",
+    "removeError": "Ky banor nuk mund të hiqej. Ju lutemi provoni përsëri.",
+    "count": "Familjet: {{total}}",
+    "bulkUploadButton": "⇪ Ngarkimi në masë",
+    "addResidentButton": "+ Shto banor",
+    "searchPlaceholder": "Filtro sipas emrit, shtëpisë, emailit ose nr.",
+    "loading": "Po ngarkohen banorët…",
+    "empty": "Ende nuk ka banorë. Klikoni \"Shto banor\" për të regjistruar familjen e parë.",
+    "noMatch": "Asnjë banorë nuk përputhet me \"{{search}}\".",
+    "sort": {
+      "label": "Rendit sipas",
+      "name": "Emri",
+      "houseNumber": "Numri i shtëpisë",
+      "dateOfJoining": "Data e anëtarësimit",
+      "toggleDirection": "Ndrysho drejtimin e renditjes",
+      "asc": "↑ Asc",
+      "desc": "↓ Përshkruani"
+    },
+    "gender": {
+      "male": "Mashkull",
+      "female": "Femër",
+      "other": "Të tjera"
+    },
+    "table": {
+      "name": "Emri",
+      "houseUnit": "Shtëpia / Njësia",
+      "email": "Email",
+      "phone": "Telefoni",
+      "meterNumber": "Matësi Nr.",
+      "sqft": "Sqft",
+      "joined": "U bashkua"
+    },
+    "form": {
+      "addTitle": "Shto Banor",
+      "editTitle": "Redakto Banor",
+      "editSubtitle": "Kjo përditëson të dhënat e banorit në drejtorinë tuaj.",
+      "bypassSubtitle": "Ju po vendosni drejtpërdrejt fjalëkalimin e këtij banori. Asnjë email nuk do të dërgohet.",
+      "addSubtitle": "Një lidhje me një fjalëkalim të caktuar do t'i dërgohet me email këtij banori në mënyrë që ai të mund të aktivizojë hyrjen e tij.",
+      "fullName": "Emri i plotë",
+      "houseNumber": "Shtëpia/njësia nr.",
+      "email": "Email",
+      "phone": "Numri i telefonit",
+      "meterNumber": "Numri i njehsorit",
+      "governmentId": "ID e qeverisë",
+      "gender": "Gjinia",
+      "dateOfBirth": "Data e lindjes",
+      "dateOfJoining": "Data e bashkimit",
+      "flatSize": "Madhësia e sheshtë (ft katror)",
+      "bypassLabel": "Anashkaloni emailin me fjalëkalim të caktuar — vendosni një fjalëkalim për këtë banor tani",
+      "password": "Fjalëkalimi",
+      "confirmPassword": "Konfirmo fjalëkalimin"
+    },
+    "validation": {
+      "fullNameRequired": "Kërkohet emri i plotë.",
+      "emailRequired": "Kërkohet email.",
+      "phoneRequired": "Kërkohet numri i telefonit.",
+      "houseNumberRequired": "Kërkohet numri i shtëpisë/njësisë.",
+      "houseNumberTaken": "Ky numër shtëpie i është caktuar tashmë një banori tjetër.",
+      "meterNumberRequired": "Kërkohet numri i njehsorit.",
+      "meterNumberFormat": "Numri i njehsorit duhet të duket si MTR-1234 (4 shifra).",
+      "meterNumberTaken": "Ky numër matësi i është caktuar tashmë një banori tjetër.",
+      "governmentIdRequired": "Kërkohet ID e qeverisë.",
+      "governmentIdFormat": "ID-ja duhet të jetë 6 shifra duke filluar me 99 (p.sh. 991234).",
+      "genderRequired": "Ju lutemi zgjidhni një gjini.",
+      "dateOfBirthRequired": "Kërkohet data e lindjes.",
+      "dateOfJoiningRequired": "Kërkohet data e bashkimit.",
+      "passwordRequired": "Kërkohet fjalëkalimi.",
+      "passwordLength": "Fjalëkalimi duhet të jetë së paku 8 karaktere.",
+      "confirmPasswordRequired": "Ju lutemi konfirmoni fjalëkalimin.",
+      "passwordMismatch": "Fjalëkalimet nuk përputhen."
+    },
+    "bulk": {
+      "title": "Banorët e ngarkimit me shumicë",
+      "noFile": "Ju lutemi zgjidhni një skedar .csv ose .xlsx/.xls për të ngarkuar.",
+      "instructions": "Ngarko një skedar .csv ose .xlsx/.xls me kolonat <code>{{columns}}</code> (fjalëkalimi dhe flatSizeSqft janë të dyja opsionale). Rreshtat me një fjalëkalim e vendosin drejtpërdrejt; rreshtat pa një të tillë marrin një email me fjalëkalim, njësoj si shtimi manual i një banori. Numrat ose emailet e kopjuara të shtëpive/matësve refuzohen për rresht - një rresht i keq nuk do të dështojë të gjithë grupin."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Banorët nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+    "historyLoadError": "Historiku i leximit nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "successMessage": "Leximi i regjistruar me sukses i {{value}} kL për {{house}} (Metri: {{meter}})! Konsumi i llogaritur: {{consumption}} kL.",
+    "tabs": {
+      "single": "Hyrja e vetme",
+      "csv": "Ngarko me shumicë CSV",
+      "history": "Leximi i Historisë"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Ky banor nuk ka asnjë numër matës në dosje.",
+      "dateRequired": "Kërkohet data e leximit.",
+      "invalidValue": "Ju lutemi vendosni një vlerë leximi të vlefshme, jo negative.",
+      "duplicate": "Një lexim për këtë metër ekziston tashmë në atë datë.",
+      "meterNotFound": "Ky matës nuk mund të gjendej. Ju lutemi rizgjidhni banorin.",
+      "lowerThanPrevious": "Ky lexim është më i ulët se leximi i mëparshëm i regjistruar.",
+      "recordFailed": "Ky lexim nuk mund të regjistrohej. Ju lutemi provoni përsëri."
+    },
+    "combo": {
+      "label": "Zgjidhni Serialin Flat & Meter",
+      "placeholder": "Zgjidh serialin e sheshtë dhe matës…",
+      "flat": "Banesë {{house}}",
+      "noMeter": "Asnjë metër",
+      "searchPlaceholder": "Kerko banesa nr, metri serial, banues…",
+      "unitsHeader": "Njësitë Rezidenciale",
+      "found": "Banesat e gjetura: {{total}}",
+      "loading": "Po ngarkohen banorët…",
+      "noMatch": "Asnjë banorë nuk përputhet me \"{{search}}\".",
+      "unassigned": "E pacaktuar",
+      "itemMeta": "{{name}} · E fundit: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Regjistrimi i një leximi për",
+      "context": "Shtëpia {{house}} · Metër {{meter}}",
+      "changeResident": "Ndrysho banor",
+      "readingDate": "Data e leximit",
+      "readingValue": "Leximi aktual i njehsorit (kL)",
+      "submit": "Paraqisni leximin e vlefshëm",
+      "recentTitle": "Leximet e fundit",
+      "recentEmpty": "Nuk janë regjistruar ende lexime për këtë metër."
+    },
+    "info": {
+      "title": "Vleresimi i njehsorit monotonik",
+      "body": "Çdo lexim i ri duhet të jetë më i madh ose i barabartë me regjistrin e mëparshëm për atë matës - kjo i mban llogaritjet e konsumit të sakta dhe kap shifrat e transpozuara herët."
+    },
+    "details": {
+      "title": "Detajet e zgjedhura të njësisë",
+      "flatUnit": "Njësi e sheshtë",
+      "meterSerial": "Seriali i njehsorit",
+      "occupant": "Emri i banorit",
+      "lastDial": "Numri i fundit i regjistruar",
+      "noReadings": "Nuk ka ende lexime",
+      "monthConsumption": "Konsumi mujor",
+      "empty": "Asnjë familje e zgjedhur. Kërkoni dhe zgjidhni një banor për të parë detajet e matësit të tij këtu."
+    },
+    "csv": {
+      "noFile": "Ju lutemi zgjidhni një skedar CSV për të ngarkuar.",
+      "instructions": "Ngarko një CSV me kolonat <code>{{columns}}</code>. Rreshtat përpunohen në mënyrë të pavarur - një rresht i keq nuk do të dështojë të gjithë grupin."
+    },
+    "history": {
+      "loading": "Po ngarkon leximet…",
+      "empty": "Nuk janë regjistruar ende lexime për komunitetin tuaj."
+    },
+    "table": {
+      "meterNumber": "Matësi Nr.",
+      "date": "Data",
+      "value": "Vlera (kL)",
+      "consumption": "Konsumi (kL)",
+      "source": "Burimi"
+    }
+  },
+  "billingCycles": {
+    "title": "Ciklet e faturimit",
+    "loadError": "Ciklet e faturimit nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+    "paymentUpdateError": "Statusi i pagesës së kësaj faturë nuk mund të përditësohej.",
+    "pdfError": "PDF nuk mund të shkarkohej. Ju lutemi provoni përsëri.",
+    "finalizeError": "Ky cikël faturimi nuk mund të finalizohej.",
+    "archiveError": "Ky cikël faturimi nuk mund të arkivohej.",
+    "loading": "Po ngarkon ciklet e faturimit…",
+    "empty": "Nuk ka ende cikle faturimi. Hapni një më sipër për të filluar.",
+    "status": {
+      "open": "Hapur",
+      "finalized": "Finalizuar",
+      "archived": "Arkivuar"
+    },
+    "open": {
+      "title": "Hapni një cikël të ri faturimi",
+      "noMonth": "Ju lutemi zgjidhni një muaj për të hapur.",
+      "error": "Nuk mund të hapej një cikël faturimi për atë muaj.",
+      "monthAria": "Periudha e faturimit muaj",
+      "opening": "Po hapet…",
+      "submit": "Cikli i hapur"
+    },
+    "table": {
+      "period": "Periudha",
+      "status": "Statusi",
+      "householdsBilled": "Faturimi i Familjeve",
+      "totalBilled": "Totali i faturuar",
+      "actions": "Veprimet"
+    },
+    "actions": {
+      "finalize": "finalizoj",
+      "finalizing": "Po finalizohet…",
+      "archive": "Arkivi",
+      "archiving": "Po arkivohet…"
+    },
+    "filter": {
+      "aria": "Filtro sipas statusit të pagesës",
+      "all": "Të gjitha"
+    },
+    "payment": {
+      "paid": "I paguar",
+      "unpaid": "E papaguar",
+      "updating": "Po përditëson…",
+      "markPaid": "Shënoni si të paguar",
+      "markUnpaid": "Shëno si të papaguar"
+    },
+    "detail": {
+      "title": "Detajet e ciklit - {{period}}",
+      "loading": "Faturat po ngarkohen…",
+      "notFinalized": "Ky cikël nuk është finalizuar ende - nuk janë krijuar fatura.",
+      "noInvoices": "Nuk ka fatura për këtë cikël.",
+      "noMatch": "Asnjë faturë nuk përputhet me këtë filtër."
+    },
+    "invoices": {
+      "household": "Familjare",
+      "resident": "Banor",
+      "meterNumber": "Matësi Nr.",
+      "consumption": "Konsumi (kL)",
+      "tierBreakdown": "Ndarja e nivelit",
+      "commonArea": "Zona e Përbashkët",
+      "total": "Gjithsej",
+      "paymentStatus": "Statusi i pagesës",
+      "pdf": "PDF",
+      "baseLine": "Baza: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Niveli {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nuk mund të ngarkohej konfigurimi i tarifës",
+    "saveError": "Nuk mund të ruhej konfigurimi i tarifës",
+    "chartTitle": "Nivelet e normës së shërbimeve të matura aktive",
+    "axisNote": "Norma në ₹/kL, kufijtë e pllakës në kL",
+    "tableTitle": "Tabela e niveleve të çmimeve",
+    "defaultRatesNote": "Duke shfaqur tarifat e paracaktuara - nuk janë ruajtur ende.",
+    "addTier": "+ Shto nivelin",
+    "saveRates": "Kursni tarifat e tarifave",
+    "tierLevel": {
+      "base": "Niveli {{tier}} (Bazë)",
+      "medium": "Niveli {{tier}} (i mesëm)",
+      "heavy": "Niveli {{tier}} (i rëndë)"
+    },
+    "basePrice": {
+      "label": "Çmimi bazë (₹ / kL, aplikuar për konsumin në lekë)",
+      "note": "Çdo kL tarifohet fillimisht me këtë tarifë fikse. Pllakat më poshtë shtojnë tarifa SHTESË vetëm për përdorim që bie brenda gamës së tyre - p.sh. një pllakë që fillon nga 50 kL vetëm shton normën e saj për konsum mbi 50 kL."
+    },
+    "table": {
+      "tierLevel": "Niveli i nivelit",
+      "slabLimit": "Kufiri i pllakës (kL)",
+      "rate": "Norma për kL",
+      "action": "Veprimi"
+    },
+    "commonArea": {
+      "title": "Konfigurimi i kostos së zonës së përbashkët të përbashkët",
+      "loadError": "Nuk mund të ngarkohej konfigurimi i kostos së zonës së përbashkët",
+      "saveError": "Nuk mund të ruhej konfigurimi i kostos së zonës së përbashkët",
+      "empty": "Nuk është ruajtur ende asnjë artikull i kostos.",
+      "labelPlaceholder": "Etiketa e artikullit me kosto",
+      "perMonth": "/ muaj",
+      "active": "Aktiv",
+      "addItem": "+ Shto artikullin e kostos",
+      "save": "Ruaj konfigurimin e zonës së përbashkët"
+    },
+    "distribution": {
+      "title": "Përzgjedhësi i metodës së shpërndarjes së kostos",
+      "consumption": "Sipas konsumit (proporcional i nënmatës)",
+      "floorArea": "Sipas madhësisë së banesës (sqft)"
+    },
+    "footer": {
+      "cycleStart": "Data e fillimit të faturimit të ciklit",
+      "cycleStartValue": "1 e çdo muaji",
+      "autoInvoices": "Krijo automatikisht PDF fatura"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Pragu i tejkaluar",
+      "statisticalOutlier": "Përcaktimi Statistikor"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "E zgjidhur",
+      "dismissed": "I shkarkuar"
+    },
+    "config": {
+      "title": "Konfigurimi i zbulimit të rrjedhjeve",
+      "subtitle": "Cakto një prag konsumi mujor dhe/ose aktivizo zbulimin statistikor të të dhënave të jashtme (shënon një familje, konsumi mujor i së cilës është jashtëzakonisht i lartë në krahasim me historinë e saj).",
+      "loadError": "Konfigurimi i sinjalizimit nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+      "thresholdRequired": "Kërkohet një prag mujor (kL) kur aktivizohen sinjalizimet e pragut.",
+      "saveError": "Ky konfigurim nuk mund të ruhej.",
+      "loading": "Po ngarkon konfigurimin…",
+      "threshold": "Pragu mujor (kL)",
+      "sensitivity": "Ndjeshmëria e jashtme (s shumëzuesi)",
+      "enableThreshold": "Aktivizo alarmet e pragut",
+      "enableOutlier": "Aktivizo sinjalizimet statistikore të jashtme",
+      "save": "Ruaj konfigurimin",
+      "running": "Po vrapon…",
+      "runNow": "Ekzekutoni zbulimin tani"
+    },
+    "alerts": {
+      "title": "Familje me flamur",
+      "loadError": "Sinjalizimet nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+      "runError": "Zbulimi i rrjedhjeve nuk mund të ekzekutohej për momentin. Ju lutemi provoni përsëri.",
+      "updateError": "Ky alarm nuk mund të përditësohej. Ju lutemi provoni përsëri.",
+      "allStatuses": "Të gjitha statuset",
+      "loading": "Sinjalizimet po ngarkohen…",
+      "empty": "Nuk ka sinjalizime për të shfaqur. Konfiguro një prag ose aktivizo zbulimin e jashtzakonshëm më lart, më pas kliko \"Run Detection Now\" për të vlerësuar përdorimin aktual të komunitetit tënd.",
+      "resolve": "Zgjidheni",
+      "dismiss": "Largoje"
+    },
+    "table": {
+      "household": "Familjare",
+      "resident": "Banor",
+      "meter": "Metër",
+      "type": "Lloji",
+      "period": "Periudha",
+      "consumption": "Konsumi",
+      "reference": "Referenca",
+      "status": "Statusi"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Nuk mund të ngarkoheshin blerjet e ujit me shumicë. Ju lutemi provoni përsëri.",
+    "confirmRemove": "Të hiqet dërgesa {{source}} në {{date}}?",
+    "removeError": "Kjo blerje nuk mund të hiqej. Ju lutemi provoni përsëri.",
+    "count": "Purchases recorded: {{total}}",
+    "recordButton": "+ Regjistro blerje",
+    "loading": "Po ngarkon blerjet e ujit me shumicë…",
+    "empty": "Nuk janë regjistruar ende blerje të ujit me shumicë. Kliko \"Regjistro blerjen\" për të regjistruar një dorëzim cisternë ose blerje furnizimi komunal.",
+    "table": {
+      "date": "Data",
+      "source": "Burimi",
+      "volume": "Vëllimi (L)",
+      "unitCost": "Kostoja për njësi",
+      "totalCost": "Kostoja totale",
+      "notes": "Shënime"
+    },
+    "form": {
+      "addTitle": "Regjistro blerjen e ujit me shumicë",
+      "editTitle": "Redakto blerjen me shumicë të ujit",
+      "subtitle": "Gjurmo një dërgesë cisternë ose blerje furnizimi komunal për komunitetin tuaj — kjo regjistrohet vetëm për dukshmërinë e kostos dhe nuk ndikon në faturat shtëpiake.",
+      "requiredFields": "Ju lutemi plotësoni datën, burimin, vëllimin dhe koston e njësisë.",
+      "saveError": "Kjo blerje nuk mund të ruhej. Ju lutemi kontrolloni detajet.",
+      "purchaseDate": "Data e blerjes",
+      "source": "Burimi/furnizuesi",
+      "volume": "Vëllimi (litra)",
+      "unitCost": "Kostoja për njësi (₹/litër)",
+      "totalPreview": "Kostoja totale: {{amount}}",
+      "notes": "Shënime (opsionale)",
+      "submit": "Regjistro blerje"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} nuk është ndërtuar ende",
+    "profileSaveError": "Profili juaj nuk mund të ruhej. Ju lutemi provoni përsëri.",
+    "apartmentSaveError": "Detajet e apartamentit nuk mund të ruheshin. Ju lutemi provoni përsëri.",
+    "specsTitle": "Specifikimet e profilit",
+    "photoUnavailable": "Ngarkimi i fotografive nuk ofrohet ende",
+    "changePhoto": "Ndrysho foton",
+    "deletePhoto": "Fshije",
+    "photoHint": "JPG ose PNG. Madhësia maksimale 2 MB.",
+    "saveProfile": "Ruaj profilin",
+    "apartmentTitle": "Detajet e Apartamentit",
+    "saveApartment": "Ruaj detajet e apartamentit",
+    "tabs": {
+      "profile": "Cilësimet e profilit",
+      "apartment": "Profili i Apartamentit",
+      "notifications": "Rregullat e njoftimit",
+      "billing": "Integrimet e faturimit",
+      "security": "Siguria dhe Qasja"
+    },
+    "fields": {
+      "fullName": "Emri i plotë",
+      "email": "Adresa e emailit",
+      "emailLocked": "Email-i nuk mund të ndryshohet këtu",
+      "phone": "Numri i telefonit",
+      "accessLevel": "Niveli i aksesit",
+      "accessLevelValue": "Administrator i komunitetit",
+      "roleLocked": "Menaxhimi i roleve nuk ofrohet ende",
+      "apartmentName": "Emri i apartamentit",
+      "mainsSource": "Burimi i Rrjetit",
+      "mainsSourcePlaceholder": "p.sh. Furnizimi Komunal + Çisterna Suplementare",
+      "address": "Adresa fizike"
+    },
+    "security": {
+      "title": "Pamje paraprake e sigurisë dhe aksesit",
+      "twoFactor": "Autentifikimi me dy faktorë",
+      "twoFactorHint": "Aktivizuar në hyrje",
+      "twoFactorUnavailable": "Autentifikimi me dy faktorë nuk ofrohet ende",
+      "twoFactorAria": "Vërtetimi me dy faktorë (vetëm shikimi paraprak)",
+      "sessionsLabel": "Sesionet aktive të administratorit",
+      "sessionsEmpty": "Gjurmimi i sesionit nuk është ende i disponueshëm — kjo është një pamje paraprake e paraqitjes së ardhshme."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biletat e mia",
+      "inbox": "Bileta rezidente"
+    },
+    "mine": {
+      "title": "Biletat e mia të mbështetjes",
+      "subtitle": "Parashtroni një pyetje ose shqetësim në lidhje me komunitetin tuaj tek administratori i sistemit.",
+      "emptyCreateHint": "Ngrini një pyetje ose shqetësim për komunitetin tuaj. Një administrator i sistemit do të shqyrtojë dhe përgjigjet këtu."
+    },
+    "inbox": {
+      "title": "Bileta rezidente",
+      "subtitle": "Biletat mbështetëse dhe shqetësimet që banorët në komunitetin tuaj ju kanë adresuar."
+    }
+  }
+}

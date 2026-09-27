@@ -1,0 +1,232 @@
+{
+  "home": {
+    "comingSoon": "Lea la'a sau",
+    "welcome": {
+      "greeting": "Talofa {{name}},",
+      "greetingFallback": "Talofa i ai,",
+      "title": "Tumau latalata ile tala vai o lou fale.",
+      "subtitle": "O fa'amatalaga fa'aoga ma pili o le a fa'aalia iinei a'o fa'amauina e lau afio'aga faitauga.",
+      "viewBadges": "Va'ai Eco-Pina"
+    },
+    "stats": {
+      "todaysUsage": "Fa'aoga i aso nei",
+      "asOf": "E pei o {{date}}",
+      "noReading": "E leai se mita faitau",
+      "monthlyTotalFor": "Aofa'i masina ({{month}})",
+      "monthlyTotalThisMonth": "Aofa'i masina (le masina nei)",
+      "sumOfReadings": "Aofa'iga o faitauga fa'amauina",
+      "estimatedBill": "Tulafono Tau Fa'atatau o lo'o iai nei",
+      "estimatedBillFor": "Fua fa'aoga + tau fa'asoa, {{month}}",
+      "estimatedBillHint": "Fa'avae i luga ole masina fa'atau mita ma tau fa'asoa",
+      "savings": "Fa'asao vs Fale Avg",
+      "savingsValue": "{{percent}}% Itiiti",
+      "savingsPreview": "Na'o le va'aiga - fa'atusatusaga e le'i ola"
+    },
+    "consumption": {
+      "eyebrow": "Fa'atauga",
+      "title": "Fa'atauga i Aso Ta'itasi (Fa'amatalaga 14 Mulimuli)",
+      "seriesName": "Fa'atauga",
+      "empty": "E leai ni faitauga fa'amauina."
+    },
+    "breakdown": {
+      "eyebrow": "malepe",
+      "title": "Fa'aoga Fa'aletonu",
+      "bathroom": "Faleta'ele",
+      "kitchen": "umukuka",
+      "garden": "Fa'ato'aga / Potu",
+      "other": "Isi/Tamea"
+    },
+    "billing": {
+      "eyebrow": "Pili",
+      "title": "Ta'amilosaga tau pili",
+      "finalized": "Fa'ai'u",
+      "preview": "mua'i va'aiga",
+      "meteredConsumption": "Fa'atauga mita",
+      "tierPriceLevel": "Tulaga o tau",
+      "tierLabel": "Tulaga {{tier}}",
+      "commonArea": "Vaeluaga o nofoaga masani",
+      "commonAreaPreview": "Vaeluaga o vaega masani (mua'i va'aiga)",
+      "invoiceTotal": "{{period}} pili atoa",
+      "estimatedCharge": "Tau fa'atatau ile taimi nei",
+      "commonAreaBreakdown": "Fa'aletonu vaega masani",
+      "payPreview": "Totogi Pili Fa'aaliga",
+      "payUnavailable": "E le'i maua le afi pili"
+    },
+    "tips": {
+      "eyebrow": "Fautuaga",
+      "title": "Fautuaga Fa'asao Atamai",
+      "viewAll": "Va'ai uma",
+      "empty": "O fautuaga fa'apitoa e fa'aalia iinei pe a mae'a ona fa'amae'aina e lou alalafaga se taamilosaga o pili."
+    },
+    "community": "Nuu: {{name}}"
+  },
+  "usage": {
+    "loadError": "Le mafai ona uta lau tala fa'aoga. Fa'amolemole toe taumafai.",
+    "loading": "O lo'o uta lau au'ili'iliga fa'aoga...",
+    "empty": "E leai ni faitauga fa'amauina. O le taimi lava e fa'amauina ai e lou nu'u le mita faitau, o le a fa'aalia i'i.",
+    "tabs": {
+      "lastSixMonths": "6 masina talu ai",
+      "customRange": "Tulaga Fa'apitoa",
+      "comingSoon": "Lea la'a sau"
+    },
+    "peakDay": "Aso maualuga:",
+    "lowestDay": "Aso pito maualalo:",
+    "comparison": {
+      "title": "Fa'atauga a le Fale ma le Fale Tele",
+      "subtitle": "Aofa'i masina o lo'o fa'aalia ile kiloliter (kL).",
+      "yourHousehold": "Lou Aiga",
+      "apartmentAverage": "Falefale Ave",
+      "similarSized": "Fale Fa'atutusa"
+    },
+    "heatmap": {
+      "title": "Fa'afanua vevela o le fa'aaogaina o aso uma",
+      "subtitle": "Lanu malosi fu'a mamafa aso fa'aoga (fa'aaliga)."
+    },
+    "ranking": {
+      "title": "Fa'avasegaga a tupulaga",
+      "subtitle": "O lou tulaga fa'atusatusa i iunite tutusa (fa'aaliga).",
+      "ecoSaver": "Active Eco Saver",
+      "aptNumber": "Apt {{number}}",
+      "unitNumber": "Iunite {{number}}",
+      "yourUnit": "Lau iunite",
+      "row": "#{{rank}} {{unit}}",
+      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
+      "youRow": "#{{rank}} {{unit}} (Oe)"
+    }
+  },
+  "billing": {
+    "loadError": "Le mafai ona uta lau tala fa'asolopito. Fa'amolemole toe taumafai.",
+    "pdfError": "Le mafai ona la'u mai le PDF. Fa'amolemole toe taumafai.",
+    "loading": "O lo'o uta lau tala fa'asolopito...",
+    "empty": "E le'i iai ni pili - a fa'amae'a loa e lou nu'u se ta'amilosaga pili, o le a fa'aalia au pili iinei.",
+    "status": {
+      "paid": "Totogi",
+      "unpaid": "Le totogia"
+    },
+    "summary": {
+      "outstandingBalance": "Paleni Tumau",
+      "billingCycle": "Ta'amilosaga pili: {{period}}",
+      "allPaid": "E totogi uma pili",
+      "payTotal": "Totogi Aofa'i Aofa'i",
+      "payTotalUnavailable": "E le'i maua le totogi i luga ole laiga - fa'amalie sa'o pili ma lau pulega fa'alapotopotoga",
+      "downloadSummary": "Download Bill Summary",
+      "downloadSummaryUnavailable": "E le'i maua le la'uina mai o le aotelega o pili"
+    },
+    "history": {
+      "title": "Tala fa'asolopito",
+      "exportCsv": "Lafoa'i uma i CSV",
+      "exportUnavailable": "CSV e le'i maua le auina atu i fafo"
+    },
+    "table": {
+      "cycle": "Ta'amilosaga",
+      "usage": "Fa'aoga (kL)",
+      "amountDue": "Aofaiga e tatau ona totogi",
+      "paymentStatus": "Tulaga Totogi",
+      "hideBreakdown": "Natia le malepe ↑",
+      "showBreakdown": "Fa'avasegaina ↓",
+      "downloading": "La'uina i lalo…",
+      "pdf": "PDF",
+      "pay": "Totogi"
+    },
+    "breakdown": {
+      "householdTitle": "Tu'uaiga Fa'atauga a Aiga",
+      "basePrice": "Tau Fa'avae: {{units}} kL × ₹{{rate}}",
+      "tierLine": "Tulaga {{tier}}: {{units}} kL × ₹{{rate}}",
+      "subtotalMetered": "Fa'aaogāga Fa'atatau Fa'atasi",
+      "commonAreaTitle": "Vaeluaga o Eria masani",
+      "subtotalShared": "La'ititi o le Vaega Fa'asoa",
+      "noCommonArea": "Leai se tau fa'asoa fa'asoa mo lenei ta'amilosaga."
+    },
+    "pagination": {
+      "showing": "Faaalia {{from}}–{{to}} o {{total}}",
+      "prev": "← Muamua",
+      "next": "Sosoo →",
+      "page": "Itulau {{page}} o le {{count}}"
+    },
+    "paymentMethods": {
+      "title": "Auala totogi (mua'i va'aiga)",
+      "description": "E le'i maua le totogi i luga ole laiga - o pili e fa'amalie sa'o ile pule ole alalafaga.",
+      "manage": "Pulea Auala Totogi",
+      "manageUnavailable": "E le'i maua auala e totogi ai"
+    }
+  },
+  "razorpay": {
+    "securedBy": "Puipuia e Razorpay",
+    "billingCycle": "Ta'amilosaga pili {{period}}",
+    "close": "Tapuni",
+    "amountPayable": "Aofaiga e Totogi",
+    "methods": {
+      "upi": "UPI",
+      "cards": "Kata",
+      "netbanking": "Netbanking",
+      "wallet": "atotupe"
+    },
+    "upi": {
+      "title": "Totogi e ala i le UPI",
+      "upiId": "UPI ID",
+      "or": "POO",
+      "scan": "Va'ai i so'o se UPI app"
+    },
+    "card": {
+      "title": "Totogi ile Card",
+      "number": "Numera Card",
+      "expiry": "Fa'agata",
+      "expiryPlaceholder": "MM / YY",
+      "cvv": "CVV",
+      "name": "Igoa ile Kata",
+      "namePlaceholder": "E pei ona lolomiina i luga o kata"
+    },
+    "netbanking": {
+      "title": "Totogi ile Netbanking"
+    },
+    "wallet": {
+      "title": "Totogi e ala ile Wallet"
+    },
+    "payAmount": "Totogi ₹{{amount}}",
+    "processing": "Fa'agasolo lau totogi...",
+    "processingHint": "Faamolemole aua le toe oomi i tua pe toe faafou le itulau lenei",
+    "success": "Totogi Manuia",
+    "error": "Sa iai se mea na faaletonu i le fa'amaoniaina o lau totogi. Fa'amolemole toe taumafai.",
+    "retry": "Toe taumafai"
+  },
+  "notifications": {
+    "loadError": "Le mafai ona uta au fa'amatalaga. Fa'amolemole toe taumafai.",
+    "loading": "O lo'o uta au fa'amatalaga...",
+    "empty": "Leai se fa'amatalaga - e te va'ai i se mea iinei pe a fai o lau fa'alapotopotoga fa'aalalafaga ua fa'atagaina le fa'aogaina-threshold po'o le fa'aogaina-fa'amata'u fa'atau ma le tasi e fa'aosoina mo lou aiga.",
+    "type": {
+      "thresholdExceeded": "Ua Ova le Fa'atauga",
+      "statisticalOutlier": "Fa'atauga e le masani ai ua maua"
+    },
+    "status": {
+      "active": "Malosi",
+      "resolved": "Foia",
+      "dismissed": "Fa'ate'aina"
+    },
+    "billingPeriod": "Vaitaimi o pili: {{period}}",
+    "consumption": "Fa'aaogāina: {{value}} kL",
+    "push": {
+      "title": "Fa'amatalaga tulei",
+      "description": "Fa'ailoa i lenei masini pe a sau se pili fou po'o se fa'aaliga.",
+      "enable": "Fa'amalo",
+      "disable": "Fa'agata",
+      "permissionDenied": "E le'i fa'atagaina le fa'atagaga.",
+      "notConfigured": "E le'i fa'atulagaina fa'amatalaga fa'atosina. Fa'afeso'ota'i lau pule.",
+      "enableError": "Le mafai ona fa'agaoioi fa'amatalaga tulei. Fa'amolemole toe taumafai.",
+      "disableError": "Le mafai ona tape fa'amatalaga tulei. Fa'amolemole toe taumafai."
+    }
+  },
+  "recommendations": {
+    "loadError": "Le mafai ona uta au fautuaga. Fa'amolemole toe taumafai.",
+    "loading": "O lo'o fa'apipi'iina au fautuaga fa'apitoa...",
+    "generated": "Fausia {{date}}",
+    "generatedForPeriod": "Fausia {{date}} mo le piliota {{period}}",
+    "eyebrow": "Fa'apitoa mo oe",
+    "title": "Fautuaga Fa'asao Suavai Atamai",
+    "empty": "E le'i faia lava ni fautuaga - e otometi lava ona toe fa'afouina i taimi uma e fa'amae'a ai e lou alalafaga se ta'amilosaga pili mo lou aiga."
+  },
+  "support": {
+    "title": "Nofoaga Lagolago ma Atunu'u",
+    "subtitle": "Tu'u sa'o atu lipoti o le vai, talosaga fa'avasega mita, po'o fa'amatalaga tau pili i lau fa'alapotopotoga ma/po'o le Pule Fa'atonu.",
+    "emptyCreateHint": "Fa'amatala lau fa'afitauli po'o lou popolega i lalo, ma filifili po'o ai e tatau ona taulimaina."
+  }
+}

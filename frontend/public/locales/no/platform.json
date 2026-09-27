@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "blocked": "Blokkert",
+    "terminated": "Avsluttet"
+  },
+  "sort": {
+    "sortBy": "Sorter etter",
+    "toggleDirection": "Veksle sorteringsretning",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Viser {{from}}–{{to}} av {{total}}",
+    "prev": "← Forrige",
+    "next": "Neste →",
+    "page": "Side {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Plattformoversikt",
+    "subtitle": "Hver registrerte fellesskapsadministrator, på tvers av hele HydroLedger-plattformen.",
+    "viewAll": "Vis alle fellesskap",
+    "loadError": "Kunne ikke laste plattformdata akkurat nå.",
+    "cards": {
+      "totalCommunities": "Totalt fellesskap",
+      "registeredAdmins": "Registrerte administratorer",
+      "totalResidents": "Totalt innbyggere",
+      "acrossAllCommunities": "På tvers av alle lokalsamfunn",
+      "active": "Aktiv",
+      "inGoodStanding": "I god stand",
+      "blockedTerminated": "Blokkert / avsluttet",
+      "blockedTerminatedBreakdown": "{{blocked}} blokkert, {{terminated}} avsluttet"
+    },
+    "recent": {
+      "title": "Nylig registrerte fellesskap",
+      "loading": "Laster inn …",
+      "empty": "Ingen fellesskap er registrert ennå.",
+      "table": {
+        "community": "Fellesskap",
+        "admin": "Admin",
+        "status": "Status",
+        "residents": "Beboere"
+      }
+    }
+  },
+  "communities": {
+    "count": "Fellesskap: {{count}}",
+    "loadError": "Kunne ikke laste inn fellesskap. Vennligst prøv igjen.",
+    "searchPlaceholder": "Filtrer etter fellesskap, administratornavn eller e-postadresse",
+    "statusFilter": {
+      "label": "Status",
+      "all": "Alle"
+    },
+    "sortOptions": {
+      "community": "Fellesskap",
+      "admin": "Admin",
+      "residents": "Beboere"
+    },
+    "loading": "Laster inn fellesskap …",
+    "empty": "Ingen fellesskap er registrert ennå.",
+    "noMatch": "Ingen fellesskap samsvarer med filtrene dine.",
+    "table": {
+      "community": "Fellesskap",
+      "admin": "Admin",
+      "email": "E-post",
+      "status": "Status",
+      "residents": "Beboere",
+      "view": "Utsikt"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Kunne ikke laste dette fellesskapet. Det kan ha blitt fjernet.",
+    "statusUpdateError": "Kunne ikke oppdatere denne fellesskapets status.",
+    "deleteError": "Kunne ikke slette dette fellesskapet.",
+    "loading": "Laster inn fellesskapet …",
+    "notFound": "Finner ikke fellesskapet.",
+    "backLink": "← Tilbake til Fellesskap",
+    "backLinkShort": "Tilbake til fellesskap",
+    "eyebrow": "Fellesskapsprofil",
+    "unnamed": "Ikke navngitt fellesskap",
+    "noAddress": "Ingen adresse registrert",
+    "stats": {
+      "residents": "Beboere",
+      "status": "Status"
+    },
+    "actions": {
+      "reactivate": "Aktiver på nytt",
+      "block": "Blokkere",
+      "terminate": "Avslutte",
+      "delete": "Slett fellesskap"
+    },
+    "blockDialog": {
+      "title": "Vil du blokkere denne fellesskapsadministratoren?",
+      "message": "Vil du blokkere {{name}}? De vil ikke kunne logge på før de er opphevet. Ingen data vil bli påvirket.",
+      "confirm": "Blokkere"
+    },
+    "terminateDialog": {
+      "title": "Vil du avslutte denne fellesskapsadministratoren?",
+      "message": "Vil du avslutte tilgangen til {{name}} permanent? Dette kan ikke angres, selv om fellesskapets data vil bli oppbevart for registrering.",
+      "confirm": "Avslutte"
+    },
+    "deleteDialog": {
+      "title": "Vil du slette dette fellesskapet?",
+      "message": "Dette vil permanent slette <strong>{{name}}</strong> og alle dets husstander, beboere, målere, tariff-/faktureringskonfigurasjon og fakturahistorikk. Denne handlingen kan ikke angres.",
+      "typeToConfirm": "Skriv <strong>{{word}}</strong> for å fortsette",
+      "confirm": "Bekrefte"
+    },
+    "residents": {
+      "title": "Beboere",
+      "registeredCount": "Registrert: {{count}}",
+      "empty": "Ingen innbyggere er registrert i dette fellesskapet ennå.",
+      "table": {
+        "flatUnit": "Flat enhet",
+        "meter": "Måler",
+        "resident": "Beboer",
+        "email": "E-post",
+        "passwordSet": "Passord satt"
+      },
+      "yes": "Ja",
+      "no": "Ingen"
+    },
+    "cancel": "Kansellere",
+    "working": "Jobber …",
+    "deleting": "Sletter …"
+  },
+  "systemStatus": {
+    "statusError": "Kunne ikke nå backend for å sjekke systemstatus.",
+    "metricsError": "Kunne ikke laste inn beregningsloggen.",
+    "ranges": {
+      "fiveMinutes": "5 minutter",
+      "fifteenMinutes": "15 minutter",
+      "hour": "Time",
+      "day": "Dag",
+      "week": "Uke",
+      "month": "Måned",
+      "threeMonths": "3 måneder"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}t",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Forespørsler/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Latens",
+      "lastValue": "{{value}} sist",
+      "loading": "Laster inn …",
+      "empty": "Ingen beregninger registrert for dette området ennå."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Gj.sn.: <b>{{value}}</b>",
+      "max": "Maks: <b>{{value}}</b>",
+      "last": "Siste: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Sjekker …",
+      "reachable": "Kan nås",
+      "unreachable": "Uoppnåelig",
+      "connected": "Tilkoblet",
+      "backendApiHint": "Denne siden ble lastet inn fra backend, så den svarte.",
+      "database": "Database",
+      "databaseHint": "PostgreSQL-tilkobling, sjekket live.",
+      "uptime": "Oppetid for backend",
+      "uptimeHint": "Siden siste omstart av programmet.",
+      "appVersion": "App-versjon",
+      "appVersionHint": "Backend build-versjon."
+    },
+    "mini": {
+      "latency": "Latens",
+      "readsLatency": "Leser latens",
+      "writesLatency": "Skriver Latency",
+      "otherLatency": "Annen ventetid",
+      "connections": "Tilkoblinger",
+      "totalKeys": "Totalnøkler"
+    },
+    "note": "Forespørsler/sek og ventetid samples fra live backend-trafikk hvert 15. sekund og oppbevares i opptil 100 dager. Dette er en grunnleggende tilkobling + trafikksjekk – den erstatter ikke full overvåking av applikasjonsytelse, loggsamling eller varsling."
+  },
+  "reports": {
+    "loadError": "Kunne ikke laste plattformrapporten.",
+    "ranges": {
+      "threeMonths": "3 måneder",
+      "sixMonths": "6 måneder",
+      "twelveMonths": "12 måneder",
+      "custom": "Skikk"
+    },
+    "sortOptions": {
+      "community": "Fellesskap",
+      "usage": "Bruk",
+      "billed": "Fakturert",
+      "residents": "Beboere"
+    },
+    "customRange": {
+      "from": "Fra",
+      "to": "Til",
+      "hint": "Velg både en \"fra\" og \"til\" måned for å laste inn en egendefinert rapport."
+    },
+    "loading": "Laster inn rapport …",
+    "cards": {
+      "totalCommunities": "Totalt fellesskap",
+      "inThisRange": "I dette området",
+      "totalResidents": "Totalt innbyggere",
+      "acrossAllCommunities": "På tvers av alle lokalsamfunn",
+      "overallUsage": "Generell bruk",
+      "meteredConsumption": "Målt forbruk",
+      "overallBilled": "Totalt fakturert",
+      "finalizedInvoicesOnly": "Kun ferdige fakturaer",
+      "avgUsagePerResident": "Gjennomsnittlig bruk / bosatt",
+      "avgBillPerResident": "Gj.sn. regning / innbygger"
+    },
+    "charts": {
+      "usageTitle": "Plattformomfattende bruk (kL / måned)",
+      "usageEmpty": "Ingen bruk registrert for dette området.",
+      "usageSeries": "Bruk",
+      "billedTitle": "Fakturert beløp for hele plattformen (₹ / måned)",
+      "billedEmpty": "Ingen fakturaer er ferdigstilt for dette området.",
+      "billedSeries": "Fakturert"
+    },
+    "searchPlaceholder": "Filtrer etter fellesskap eller administratornavn",
+    "empty": "Ingen fellesskap har bruks- eller faktureringsdata for dette området ennå.",
+    "noMatch": "Ingen fellesskap samsvarer med filteret ditt.",
+    "table": {
+      "community": "Fellesskap",
+      "admin": "Admin",
+      "residents": "Beboere",
+      "usage": "Bruk (kL)",
+      "billed": "Fakturert (₹)",
+      "avgUsagePerResident": "Gjennomsnittlig bruk / bosatt",
+      "avgBillPerResident": "Gj.sn. regning / innbygger"
+    }
+  },
+  "supportTickets": {
+    "title": "Støttebilletter",
+    "subtitle": "Støtt billetter og bekymringer reist av innbyggere og fellesskapsadministratorer, over hele plattformen."
+  }
+}

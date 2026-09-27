@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Gníomhach",
+    "blocked": "Coiscthe",
+    "terminated": "Foirceannadh"
+  },
+  "sort": {
+    "sortBy": "Sórtáil de réir",
+    "toggleDirection": "Scoránaigh treo sórtála",
+    "asc": "↑ Asc",
+    "desc": "↓ Deasc"
+  },
+  "pagination": {
+    "showing": "Ag taispeáint {{from}}–{{to}} de {{total}}",
+    "prev": "← Roimhe seo",
+    "next": "Ar Aghaidh →",
+    "page": "Leathanach {{page}} de {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Forbhreathnú Ardán",
+    "subtitle": "Gach riarthóir pobail cláraithe, ar fud an ardáin HydroLedger ar fad.",
+    "viewAll": "Féach ar Gach Pobal",
+    "loadError": "Níorbh fhéidir sonraí an ardáin a lódáil faoi láthair.",
+    "cards": {
+      "totalCommunities": "Pobail Iomlán",
+      "registeredAdmins": "Riarthóirí cláraithe",
+      "totalResidents": "Cónaitheoirí Iomlán",
+      "acrossAllCommunities": "Ar fud na bpobal go léir",
+      "active": "Gníomhach",
+      "inGoodStanding": "I seasamh maith",
+      "blockedTerminated": "Curtha bactha / Foirceanta",
+      "blockedTerminatedBreakdown": "{{blocked}} bac, {{terminated}} deireadh"
+    },
+    "recent": {
+      "title": "Pobail a Cláraíodh le déanaí",
+      "loading": "Á lódáil…",
+      "empty": "Níl aon phobal cláraithe go fóill.",
+      "table": {
+        "community": "Pobal",
+        "admin": "Riarachán",
+        "status": "Stádas",
+        "residents": "Cónaitheoirí"
+      }
+    }
+  },
+  "communities": {
+    "count": "Pobail: {{count}}",
+    "loadError": "Níorbh fhéidir pobail a luchtú. Bain triail eile as.",
+    "searchPlaceholder": "Scag de réir pobail, ainm riaracháin nó ríomhphost",
+    "statusFilter": {
+      "label": "Stádas",
+      "all": "Gach"
+    },
+    "sortOptions": {
+      "community": "Pobal",
+      "admin": "Riarachán",
+      "residents": "Cónaitheoirí"
+    },
+    "loading": "Pobail á lódáil…",
+    "empty": "Níl aon phobal cláraithe go fóill.",
+    "noMatch": "Ní mheaitseálann pobail ar bith do scagairí.",
+    "table": {
+      "community": "Pobal",
+      "admin": "Riarachán",
+      "email": "Ríomhphost",
+      "status": "Stádas",
+      "residents": "Cónaitheoirí",
+      "view": "Amharc"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Níorbh fhéidir an pobal seo a lódáil. Seans gur baineadh.",
+    "statusUpdateError": "Níorbh fhéidir stádas an phobail seo a nuashonrú.",
+    "deleteError": "Níorbh fhéidir an pobal seo a scriosadh.",
+    "loading": "Pobal á lódáil…",
+    "notFound": "Pobal gan aimsiú.",
+    "backLink": "← Ar Ais go Pobail",
+    "backLinkShort": "Ar Ais go Pobail",
+    "eyebrow": "Próifíl Phobail",
+    "unnamed": "Pobal gan ainm",
+    "noAddress": "Níl seoladh sa chomhad",
+    "stats": {
+      "residents": "Cónaitheoirí",
+      "status": "Stádas"
+    },
+    "actions": {
+      "reactivate": "Athghníomhachtaigh",
+      "block": "Bloc",
+      "terminate": "Foirceannadh",
+      "delete": "Scrios Pobal"
+    },
+    "blockDialog": {
+      "title": "An bhfuil fonn ort an riarthóir pobail seo a bhlocáil?",
+      "message": "An bhfuil fonn ort {{name}} a bhlocáil? Ní bheidh siad in ann logáil isteach go dtí go ndéanfar an bac a bhaint de. Ní dhéanfar difear d'aon sonraí.",
+      "confirm": "Bloc"
+    },
+    "terminateDialog": {
+      "title": "An bhfuil fonn ort an riarachán pobail seo a fhoirceannadh?",
+      "message": "An bhfuil fonn ort rochtain {{name}} a fhoirceannadh go buan? Ní féidir é seo a chealú, cé go gcoimeádfar sonraí a bpobail le haghaidh taifead.",
+      "confirm": "Foirceannadh"
+    },
+    "deleteDialog": {
+      "title": "An bhfuil fonn ort an pobal seo a scriosadh?",
+      "message": "Scriosfaidh sé seo go buan <strong>{{name}}</strong> agus a theaghlaigh, cónaitheoirí, méadair, cumraíocht taraife/bille agus stair na sonrasc go léir. Ní féidir an gníomh seo a chealú.",
+      "typeToConfirm": "Clóscríobh <strong>{{word}}</strong> chun leanúint ar aghaidh",
+      "confirm": "Deimhnigh"
+    },
+    "residents": {
+      "title": "Cónaitheoirí",
+      "registeredCount": "Cláraithe: {{count}}",
+      "empty": "Níl aon áitritheoirí cláraithe sa phobal seo go fóill.",
+      "table": {
+        "flatUnit": "Aonad Maol",
+        "meter": "Méadar",
+        "resident": "Cónaitheach",
+        "email": "Ríomhphost",
+        "passwordSet": "Pasfhocal Socraigh"
+      },
+      "yes": "Tá",
+      "no": "Níl"
+    },
+    "cancel": "Cealaigh",
+    "working": "Ag obair…",
+    "deleting": "Ag scriosadh…"
+  },
+  "systemStatus": {
+    "statusError": "Níorbh fhéidir an t-inneall a bhaint amach chun stádas an chórais a sheiceáil.",
+    "metricsError": "Níorbh fhéidir stair na méadrachta a lódáil.",
+    "ranges": {
+      "fiveMinutes": "5 Nóiméad",
+      "fifteenMinutes": "15 Nóiméad",
+      "hour": "Uair",
+      "day": "Lá",
+      "week": "Seachtain",
+      "month": "Mí",
+      "threeMonths": "3 Mhí"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}u",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Iarratais/soic",
+      "opsPerSec": "OPs/soic",
+      "latency": "Lagacht",
+      "lastValue": "{{value}} seo caite",
+      "loading": "Á lódáil…",
+      "empty": "Níl aon mhéadracht taifeadta don raon seo fós."
+    },
+    "stats": {
+      "min": "Nóiméad: <b>{{value}}</b>",
+      "avg": "Meán Fómhair: <b>{{value}}</b>",
+      "max": "Uasmhéid: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Ag seiceáil…",
+      "reachable": "Insroichte",
+      "unreachable": "Dosroichte",
+      "connected": "Ceangailte",
+      "backendApiHint": "Luchtaíodh an leathanach seo ón inneall, mar sin d'fhreagair sé.",
+      "database": "Bunachar Sonraí",
+      "databaseHint": "Nascacht PostgreSQL, seiceáilte beo.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Ó atosaíodh an t-iarratas deireanach.",
+      "appVersion": "Leagan App",
+      "appVersionHint": "Leagan tógála backend."
+    },
+    "mini": {
+      "latency": "Lagacht",
+      "readsLatency": "Léann Latency",
+      "writesLatency": "Scríobhann Latency",
+      "otherLatency": "Latency Eile",
+      "connections": "Naisc",
+      "totalKeys": "Eochracha Iomlán"
+    },
+    "note": "Déantar iarratais/soicind agus follas a shampláil ó thrácht backend beo gach 15 soicind agus coimeádtar iad ar feadh suas le 100 lá. Is nascacht bhunúsach + seiceáil tráchta é seo - ní chuirtear in ionad monatóireachta feidhmíochta feidhmchláir iomlán, comhiomlánú loga nó foláirimh."
+  },
+  "reports": {
+    "loadError": "Níorbh fhéidir an tuairisc ardán a lódáil.",
+    "ranges": {
+      "threeMonths": "3 Mhí",
+      "sixMonths": "6 Mhí",
+      "twelveMonths": "12 Mhí",
+      "custom": "Saincheaptha"
+    },
+    "sortOptions": {
+      "community": "Pobal",
+      "usage": "Úsáid",
+      "billed": "Billeáilte",
+      "residents": "Cónaitheoirí"
+    },
+    "customRange": {
+      "from": "Ó",
+      "to": "Chuig",
+      "hint": "Roghnaigh mí \"ó\" agus \"go\" chun tuarascáil saincheaptha a luchtú."
+    },
+    "loading": "Tuairisc á lódáil…",
+    "cards": {
+      "totalCommunities": "Pobail Iomlán",
+      "inThisRange": "Sa raon seo",
+      "totalResidents": "Cónaitheoirí Iomlán",
+      "acrossAllCommunities": "Ar fud na bpobal go léir",
+      "overallUsage": "Úsáid Iomlán",
+      "meteredConsumption": "Tomhaltas méadraithe",
+      "overallBilled": "Foriomlán Billeáilte",
+      "finalizedInvoicesOnly": "Sonraisc chríochnaithe amháin",
+      "avgUsagePerResident": "Meán Úsáide / Cónaitheach",
+      "avgBillPerResident": "Meán Bille / Cónaitheach"
+    },
+    "charts": {
+      "usageTitle": "Úsáid ar fud an ardáin (kL / mí)",
+      "usageEmpty": "Níor taifeadadh aon úsáid don raon seo.",
+      "usageSeries": "Úsáid",
+      "billedTitle": "Méid Billeáilte ar fud an Ardáin (₹ / mí)",
+      "billedEmpty": "Níor tugadh aon sonrasc chun críche don raon seo.",
+      "billedSeries": "Billeáilte"
+    },
+    "searchPlaceholder": "Scag de réir ainm pobail nó riaracháin",
+    "empty": "Níl sonraí úsáide nó billeála ag pobail ar bith don raon seo go fóill.",
+    "noMatch": "Ní mheaitseálann pobail ar bith do scagaire.",
+    "table": {
+      "community": "Pobal",
+      "admin": "Riarachán",
+      "residents": "Cónaitheoirí",
+      "usage": "Úsáid (kL)",
+      "billed": "Billeáladh (₹)",
+      "avgUsagePerResident": "Meán Úsáide / Cónaitheach",
+      "avgBillPerResident": "Meán Bille / Cónaitheach"
+    }
+  },
+  "supportTickets": {
+    "title": "Ticéid Tacaíochta",
+    "subtitle": "Ticéid tacaíochta agus imní ardaithe ag cónaitheoirí agus riarthóirí pobail, ar fud an ardáin."
+  }
+}

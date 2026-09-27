@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
+import i18next from 'i18next'
+import { useTranslation } from 'react-i18next'
 import { getCommonAreaConfig, saveCommonAreaConfig } from '../../api/commonAreaApi'
 import { getTariffPlan, saveTariffPlan } from '../../api/tariffApi'
 import './TariffPlans.css'
 
 const DISTRIBUTION_METHODS = [
-  { id: 'CONSUMPTION', label: 'By Consumption (Sub-metered Proportional)' },
-  { id: 'FLOOR_AREA', label: 'By Apartment Flat Size (Sqft)' },
+  { id: 'CONSUMPTION', labelKey: 'tariffPlans.distribution.consumption' },
+  { id: 'FLOOR_AREA', labelKey: 'tariffPlans.distribution.floorArea' },
 ]
 
 // Controlled <input type="number"> fields can end up displaying a stray leading zero (e.g. "010")
@@ -21,13 +23,14 @@ function sanitizeNumberInput(event) {
   return event.target.value
 }
 
-function tierLevelLabel(index, total) {
-  if (index === 0) return 'Tier 1 (Base)'
-  if (index === total - 1) return `Tier ${index + 1} (Heavy)`
-  return `Tier ${index + 1} (Medium)`
+function tierLevelLabel(t, index, total) {
+  if (index === 0) return t('tariffPlans.tierLevel.base', { tier: 1 })
+  if (index === total - 1) return t('tariffPlans.tierLevel.heavy', { tier: index + 1 })
+  return t('tariffPlans.tierLevel.medium', { tier: index + 1 })
 }
 
 function TariffPlans() {
+  const { t } = useTranslation('admin')
   const [autoGenerateInvoices, setAutoGenerateInvoices] = useState(true)
 
   const [basePricePerUnit, setBasePricePerUnit] = useState(0)
@@ -59,7 +62,7 @@ function TariffPlans() {
         })))
         setCommonAreaPersisted(data.persisted)
       })
-      .catch(() => setCommonAreaSaveError('Could not load the common-area cost configuration'))
+      .catch(() => setCommonAreaSaveError(i18next.t('tariffPlans.commonArea.loadError', { ns: 'admin' })))
       .finally(() => setCommonAreaLoading(false))
   }, [])
 
@@ -109,7 +112,7 @@ function TariffPlans() {
       setCommonAreaPersisted(true)
       setCommonAreaSaveSuccess(true)
     } catch (err) {
-      setCommonAreaSaveError(err.response?.data?.message || 'Could not save the common-area cost configuration')
+      setCommonAreaSaveError(err.response?.data?.message || t('tariffPlans.commonArea.saveError'))
     } finally {
       setCommonAreaSaving(false)
     }
@@ -126,12 +129,12 @@ function TariffPlans() {
         setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
         setPersisted(data.persisted)
       })
-      .catch(() => setSaveError('Could not load the tariff configuration'))
+      .catch(() => setSaveError(i18next.t('tariffPlans.loadError', { ns: 'admin' })))
       .finally(() => setLoading(false))
   }, [])
 
   const tierRows = tiers.map((tier, index) => ({
-    level: tierLevelLabel(index, tiers.length),
+    level: tierLevelLabel(t, index, tiers.length),
     min: index === 0 ? firstTierMin : tiers[index - 1].boundary,
     max: tier.boundary,
     rate: tier.rate,
@@ -198,7 +201,7 @@ function TariffPlans() {
       setPersisted(true)
       setSaveSuccess(true)
     } catch (err) {
-      setSaveError(err.response?.data?.message || 'Could not save the tariff configuration')
+      setSaveError(err.response?.data?.message || t('tariffPlans.saveError'))
     } finally {
       setSaving(false)
     }
@@ -208,7 +211,7 @@ function TariffPlans() {
     <>
       <div className="af-tariff__grid">
         <section className="af-tariff__panel af-tariff__panel--tiers">
-          <h2>Active Metered Utility Rate Tiers</h2>
+          <h2>{t('tariffPlans.chartTitle')}</h2>
           <div className="af-tariff__bars">
             {tierRows.map((tier) => (
               <div key={tier.level} className="af-tariff__bar-col">
@@ -220,17 +223,17 @@ function TariffPlans() {
               </div>
             ))}
           </div>
-          <p className="af-tariff__axis-note">Rate in ₹/kL, slab limits in kL</p>
+          <p className="af-tariff__axis-note">{t('tariffPlans.axisNote')}</p>
         </section>
 
         <section className="af-tariff__panel af-tariff__panel--tiers">
-          <h2>Pricing Tiers Table</h2>
+          <h2>{t('tariffPlans.tableTitle')}</h2>
           {!persisted && !loading && (
-            <p className="af-tariff__preview-note">Showing default rates — not yet saved.</p>
+            <p className="af-tariff__preview-note">{t('tariffPlans.defaultRatesNote')}</p>
           )}
           <div className="af-tariff__base-price">
             <label>
-              <span>Base Price (₹ / kL, applied to ALL consumption)</span>
+              <span>{t('tariffPlans.basePrice.label')}</span>
               <input
                 type="number"
                 className="af-tariff__cell-input"
@@ -241,19 +244,17 @@ function TariffPlans() {
               />
             </label>
             <p className="af-tariff__axis-note">
-              Every kL is charged this flat rate first. The slabs below add EXTRA charges only for
-              usage that falls within their range — e.g. a slab starting at 50 kL only adds its
-              rate for consumption above 50 kL.
+              {t('tariffPlans.basePrice.note')}
             </p>
           </div>
           <div className="af-tariff__table-scroll">
             <table className="af-tariff__table">
               <thead>
                 <tr>
-                  <th>Tier Level</th>
-                  <th>Slab Limit (kL)</th>
-                  <th>Rate per kL</th>
-                  <th>Action</th>
+                  <th>{t('tariffPlans.table.tierLevel')}</th>
+                  <th>{t('tariffPlans.table.slabLimit')}</th>
+                  <th>{t('tariffPlans.table.rate')}</th>
+                  <th>{t('tariffPlans.table.action')}</th>
                 </tr>
               </thead>
               <tbody>
@@ -303,7 +304,7 @@ function TariffPlans() {
                         disabled={tiers.length <= 1}
                         onClick={() => removeTier(index)}
                       >
-                        Remove
+                        {t('shared.remove')}
                       </button>
                     </td>
                   </tr>
@@ -313,13 +314,13 @@ function TariffPlans() {
           </div>
           <div className="af-tariff__tier-actions">
             <button type="button" className="af-tariff__add-tier" onClick={addTier}>
-              + Add Tier
+              {t('tariffPlans.addTier')}
             </button>
             <div className="af-tariff__save-area">
               {saveError && <span className="af-tariff__save-error">{saveError}</span>}
-              {saveSuccess && <span className="af-tariff__save-success">Saved.</span>}
+              {saveSuccess && <span className="af-tariff__save-success">{t('shared.saved')}</span>}
               <button type="button" className="af-tariff__save" disabled={saving || loading} onClick={handleSave}>
-                {saving ? 'Saving…' : 'Save Tariff Rates'}
+                {saving ? t('shared.saving') : t('tariffPlans.saveRates')}
               </button>
             </div>
           </div>
@@ -328,9 +329,9 @@ function TariffPlans() {
 
       <div className="af-tariff__grid">
         <section className="af-tariff__panel">
-          <h2>Shared Common Area Cost Configuration</h2>
+          <h2>{t('tariffPlans.commonArea.title')}</h2>
           {!commonAreaPersisted && !commonAreaLoading && (
-            <p className="af-tariff__preview-note">No cost items saved yet.</p>
+            <p className="af-tariff__preview-note">{t('tariffPlans.commonArea.empty')}</p>
           )}
           <ul className="af-tariff__cost-list">
             {costItems.map((item, index) => (
@@ -338,7 +339,7 @@ function TariffPlans() {
                 <input
                   type="text"
                   className="af-tariff__cell-input"
-                  placeholder="Cost item label"
+                  placeholder={t('tariffPlans.commonArea.labelPlaceholder')}
                   value={item.label}
                   onChange={(e) => updateCostItemLabel(index, e.target.value)}
                 />
@@ -351,38 +352,38 @@ function TariffPlans() {
                   value={item.monthlyAmount}
                   onChange={(e) => updateCostItemAmount(index, e.target.value)}
                 />
-                <span>/ month</span>
+                <span>{t('tariffPlans.commonArea.perMonth')}</span>
                 <label className="af-tariff__cost-active">
                   <input type="checkbox" checked={item.active} onChange={() => toggleCostItemActive(index)} />
-                  Active
+                  {t('tariffPlans.commonArea.active')}
                 </label>
                 <button type="button" className="af-tariff__edit-link" onClick={() => removeCostItem(index)}>
-                  Remove
+                  {t('shared.remove')}
                 </button>
               </li>
             ))}
           </ul>
           <div className="af-tariff__tier-actions">
             <button type="button" className="af-tariff__add-tier" onClick={addCostItem}>
-              + Add Cost Item
+              {t('tariffPlans.commonArea.addItem')}
             </button>
             <div className="af-tariff__save-area">
               {commonAreaSaveError && <span className="af-tariff__save-error">{commonAreaSaveError}</span>}
-              {commonAreaSaveSuccess && <span className="af-tariff__save-success">Saved.</span>}
+              {commonAreaSaveSuccess && <span className="af-tariff__save-success">{t('shared.saved')}</span>}
               <button
                 type="button"
                 className="af-tariff__save"
                 disabled={commonAreaSaving || commonAreaLoading || costItems.length === 0}
                 onClick={handleSaveCommonArea}
               >
-                {commonAreaSaving ? 'Saving…' : 'Save Common Area Configuration'}
+                {commonAreaSaving ? t('shared.saving') : t('tariffPlans.commonArea.save')}
               </button>
             </div>
           </div>
         </section>
 
         <section className="af-tariff__panel">
-          <h2>Cost Distribution Method Selector</h2>
+          <h2>{t('tariffPlans.distribution.title')}</h2>
           <div className="af-tariff__radio-group">
             {DISTRIBUTION_METHODS.map((method) => (
               <label key={method.id} className="af-tariff__radio">
@@ -395,7 +396,7 @@ function TariffPlans() {
                     setDistributionMethod(method.id)
                   }}
                 />
-                <span>{method.label}</span>
+                <span>{t(method.labelKey)}</span>
               </label>
             ))}
           </div>
@@ -404,12 +405,12 @@ function TariffPlans() {
 
       <section className="af-tariff__panel af-tariff__footer">
         <div className="af-tariff__cycle">
-          <span className="af-tariff__cycle-label">Cycle Billing Start Date</span>
-          <strong>1st of Every Month</strong>
+          <span className="af-tariff__cycle-label">{t('tariffPlans.footer.cycleStart')}</span>
+          <strong>{t('tariffPlans.footer.cycleStartValue')}</strong>
         </div>
 
         <label className="af-tariff__toggle-field">
-          <span>Auto-Generate PDF Invoices</span>
+          <span>{t('tariffPlans.footer.autoInvoices')}</span>
           <span
             className={`af-tariff__toggle ${autoGenerateInvoices ? 'af-tariff__toggle--on' : ''}`}
             onClick={() => setAutoGenerateInvoices((prev) => !prev)}

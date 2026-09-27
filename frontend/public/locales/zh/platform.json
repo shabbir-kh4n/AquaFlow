@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "积极的",
+    "blocked": "被阻止",
+    "terminated": "终止"
+  },
+  "sort": {
+    "sortBy": "排序方式",
+    "toggleDirection": "切换排序方向",
+    "asc": "↑ 上升",
+    "desc": "↓ 描述"
+  },
+  "pagination": {
+    "showing": "显示 {{total}} 的 {{from}}–{{to}}",
+    "prev": "← 上一页",
+    "next": "下一页 →",
+    "page": "第 {{page}} 页，共 {{pageCount}} 页"
+  },
+  "dashboard": {
+    "title": "平台概览",
+    "subtitle": "整个 HydroLedger 平台上的每个注册社区管理员。",
+    "viewAll": "查看所有社区",
+    "loadError": "目前无法加载平台数据。",
+    "cards": {
+      "totalCommunities": "社区总数",
+      "registeredAdmins": "注册管理员",
+      "totalResidents": "居民总数",
+      "acrossAllCommunities": "遍及所有社区",
+      "active": "积极的",
+      "inGoodStanding": "信誉良好",
+      "blockedTerminated": "阻止/终止",
+      "blockedTerminatedBreakdown": "{{blocked}} 被阻止，{{terminated}} 被终止"
+    },
+    "recent": {
+      "title": "最近注册的社区",
+      "loading": "加载中…",
+      "empty": "尚未注册任何社区。",
+      "table": {
+        "community": "社区",
+        "admin": "行政",
+        "status": "地位",
+        "residents": "居民"
+      }
+    }
+  },
+  "communities": {
+    "count": "社区：{{count}}",
+    "loadError": "无法加载社区。请再试一次。",
+    "searchPlaceholder": "按社区、管理员名称或电子邮件过滤",
+    "statusFilter": {
+      "label": "地位",
+      "all": "全部"
+    },
+    "sortOptions": {
+      "community": "社区",
+      "admin": "行政",
+      "residents": "居民"
+    },
+    "loading": "正在加载社区...",
+    "empty": "尚未注册任何社区。",
+    "noMatch": "没有社区符合您的过滤条件。",
+    "table": {
+      "community": "社区",
+      "admin": "行政",
+      "email": "电子邮件",
+      "status": "地位",
+      "residents": "居民",
+      "view": "看法"
+    }
+  },
+  "communityDetail": {
+    "loadError": "无法加载该社区。它可能已被删除。",
+    "statusUpdateError": "无法更新此社区的状态。",
+    "deleteError": "无法删除该社区。",
+    "loading": "正在加载社区...",
+    "notFound": "未找到社区。",
+    "backLink": "← 返回社区",
+    "backLinkShort": "返回社区",
+    "eyebrow": "社区简介",
+    "unnamed": "未命名社区",
+    "noAddress": "档案中没有地址",
+    "stats": {
+      "residents": "居民",
+      "status": "地位"
+    },
+    "actions": {
+      "reactivate": "重新激活",
+      "block": "堵塞",
+      "terminate": "终止",
+      "delete": "删除社区"
+    },
+    "blockDialog": {
+      "title": "阻止该社区管理员？",
+      "message": "阻止{{name}}？在解锁之前他们将无法登录。任何数据都不会受到影响。",
+      "confirm": "堵塞"
+    },
+    "terminateDialog": {
+      "title": "终止该社区管理员吗？",
+      "message": "永久终止 {{name}} 的访问？尽管他们的社区数据将被保留作为记录，但这是无法撤销的。",
+      "confirm": "终止"
+    },
+    "deleteDialog": {
+      "title": "删除这个社区？",
+      "message": "这将永久删除 <strong>{{name}}</strong> 及其所有家庭、居民、电表、资费/计费配置和发票历史记录。此操作无法撤消。",
+      "typeToConfirm": "输入 <strong>{{word}}</strong> 继续",
+      "confirm": "确认"
+    },
+    "residents": {
+      "title": "居民",
+      "registeredCount": "已注册：{{count}}",
+      "empty": "该社区还没有居民登记。",
+      "table": {
+        "flatUnit": "单位单位",
+        "meter": "仪表",
+        "resident": "居民",
+        "email": "电子邮件",
+        "passwordSet": "密码设置"
+      },
+      "yes": "是的",
+      "no": "不"
+    },
+    "cancel": "取消",
+    "working": "在职的…",
+    "deleting": "正在删除..."
+  },
+  "systemStatus": {
+    "statusError": "无法到达后端检查系统状态。",
+    "metricsError": "无法加载指标历史记录。",
+    "ranges": {
+      "fiveMinutes": "5分钟",
+      "fifteenMinutes": "15 分钟",
+      "hour": "小时",
+      "day": "天",
+      "week": "星期",
+      "month": "月",
+      "threeMonths": "3个月"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}小时",
+      "minutes": "{{value}}米"
+    },
+    "charts": {
+      "requestsPerSec": "请求数/秒",
+      "opsPerSec": "操作数/秒",
+      "latency": "延迟",
+      "lastValue": "{{value}} 最后",
+      "loading": "加载中…",
+      "empty": "尚未记录此范围的指标。"
+    },
+    "stats": {
+      "min": "最小值：<b>{{value}}</b>",
+      "avg": "平均值：<b>{{value}}</b>",
+      "max": "最大值：<b>{{value}}</b>",
+      "last": "最后：<b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "后端API",
+      "checking": "检查…",
+      "reachable": "可达",
+      "unreachable": "无法到达",
+      "connected": "已连接",
+      "backendApiHint": "这个页面是从后端加载的，所以它有响应。",
+      "database": "数据库",
+      "databaseHint": "PostgreSQL 连接，实时检查。",
+      "uptime": "后端正常运行时间",
+      "uptimeHint": "自上次应用程序重新启动以来。",
+      "appVersion": "应用程序版本",
+      "appVersionHint": "后端构建版本。"
+    },
+    "mini": {
+      "latency": "延迟",
+      "readsLatency": "读取延迟",
+      "writesLatency": "写入延迟",
+      "otherLatency": "其他延迟",
+      "connections": "连接",
+      "totalKeys": "总按键数"
+    },
+    "note": "每 15 秒从实时后端流量中采样一次请求/秒和延迟，并最多保留 100 天。这是基本的连接+流量检查 - 它不会取代完整的应用程序性能监控、日志聚合或警报。"
+  },
+  "reports": {
+    "loadError": "无法加载平台报告。",
+    "ranges": {
+      "threeMonths": "3个月",
+      "sixMonths": "6个月",
+      "twelveMonths": "12 个月",
+      "custom": "风俗"
+    },
+    "sortOptions": {
+      "community": "社区",
+      "usage": "用法",
+      "billed": "计费",
+      "residents": "居民"
+    },
+    "customRange": {
+      "from": "从",
+      "to": "到",
+      "hint": "选择“从”和“到”月份来加载自定义报告。"
+    },
+    "loading": "正在加载报告...",
+    "cards": {
+      "totalCommunities": "社区总数",
+      "inThisRange": "在这个范围内",
+      "totalResidents": "居民总数",
+      "acrossAllCommunities": "遍及所有社区",
+      "overallUsage": "整体使用情况",
+      "meteredConsumption": "计量消耗",
+      "overallBilled": "整体计费",
+      "finalizedInvoicesOnly": "仅最终发票",
+      "avgUsagePerResident": "平均使用量/居民",
+      "avgBillPerResident": "平均账单/居民"
+    },
+    "charts": {
+      "usageTitle": "平台范围内的使用情况（kL/月）",
+      "usageEmpty": "没有记录该范围的使用情况。",
+      "usageSeries": "用法",
+      "billedTitle": "全平台计费金额（卢比/月）",
+      "billedEmpty": "该范围没有最终确定的发票。",
+      "billedSeries": "计费"
+    },
+    "searchPlaceholder": "按社区或管理员名称过滤",
+    "empty": "目前还没有社区拥有该范围的使用情况或计费数据。",
+    "noMatch": "没有社区符合您的过滤条件。",
+    "table": {
+      "community": "社区",
+      "admin": "行政",
+      "residents": "居民",
+      "usage": "用法 (kL)",
+      "billed": "计费（$）",
+      "avgUsagePerResident": "平均使用量/居民",
+      "avgBillPerResident": "平均账单/居民"
+    }
+  },
+  "supportTickets": {
+    "title": "支持票",
+    "subtitle": "在整个平台范围内支持居民和社区管理员提出的票证和疑虑。"
+  }
+}

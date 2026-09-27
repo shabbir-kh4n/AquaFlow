@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Katia",
+    "signUpTitle": "Rēhitahia to hapori",
+    "signInTitle": "Nau mai hoki mai",
+    "signUpSubtitle": "Waihangahia he kaute Kaiwhakahaere Hapori hei timata ki te whakahaere i nga kainoho me te nama nama.",
+    "signInSubtitle": "Waitohu ki te tiro i to whakamahinga wai me to nama nama."
+  },
+  "signIn": {
+    "errorFallback": "Kaore e taea te takiuru. Ngana ano.",
+    "emailLabel": "Īmēra",
+    "passwordLabel": "Kupuhipa",
+    "rememberMe": "Kia mahara ki ahau",
+    "forgotPassword": "Kua wareware ki te kupuhipa?",
+    "submitting": "Waitohu mai…",
+    "submit": "Waitohu Mai",
+    "noAccount": "Karekau he kaute?",
+    "signUpLink": "Waitohu"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Karekau nga kupuhipa e taurite.",
+      "communityRequired": "Me ingoa hapori.",
+      "termsRequired": "Whakaae koa ki nga Ture o te Ratonga me te Kaupapahere Whaiaro.",
+      "fallback": "Kāore e taea te waihanga pūkete. Me ngana ano."
+    },
+    "hint": "Ko nga kaiwhakahaere hapori anake ka rehita ki konei. Kia uru koe ki roto, ka taapirihia e koe nga korero a to kainoho - kaore ratou e haina ko ratou ake.",
+    "fullNameLabel": "Ingoa katoa",
+    "emailLabel": "Īmēra",
+    "phoneLabel": "Tau waea",
+    "communityNameLabel": "ingoa hapori",
+    "passwordLabel": "Kupuhipa",
+    "confirmPasswordLabel": "Whakaū kupuhipa",
+    "agreeTerms": "E whakaae ana ahau ki te <termsLink>Tuhinga o te Ratonga</termsLink> me <privacyLink> Kaupapahere Whaiaro</privacyLink>",
+    "submitting": "Waihanga pūkete…",
+    "submit": "Waihanga Pūkete Kaiwhakahaere",
+    "haveAccount": "He pūkete kē?",
+    "signInLink": "Waitohu mai"
+  },
+  "installPrompt": {
+    "title": "Tāuta HydroLedger",
+    "description": "Tāpirihia ki te mata o to kaainga mo te uru tere.",
+    "dismiss": "Whakakore",
+    "install": "Tāuta"
+  },
+  "setPassword": {
+    "title": "Tautuhia to kupuhipa",
+    "loading": "Uta ana…",
+    "subtitle": "Kia ora {{name}}, whiriwhiria he kupuhipa mo {{email}} hei whakahohe i to putea HydroLedger.",
+    "errors": {
+      "invalidLink": "He muhu tenei hono, kua pau ranei.",
+      "tooShort": "Me 8 te iti rawa o te kupuhipa.",
+      "mismatch": "Karekau nga kupuhipa e taurite.",
+      "fallback": "Kāore i taea te tautuhi i tō kupuhipa. Me ngana ano."
+    },
+    "passwordLabel": "Kupuhipa",
+    "confirmPasswordLabel": "Whakaū kupuhipa",
+    "submitting": "Tautuhi kupuhipa…",
+    "submit": "Tautuhi kupuhipa me te takiuru"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Kaiāwhina",
+      "resident": "Uia mo to putea",
+      "admin": "Kaiāwhina Hapori",
+      "platform": "Kaiāwhina Pūhara",
+      "default": "Kaiāwhina"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "He aha te HydroLedger?",
+        "tieredBilling": "Me pehea te mahi nama reanga?",
+        "leaks": "Me pehea e kitea ai nga turuturu?"
+      },
+      "resident": {
+        "billEstimate": "He aha taku tatanga pire o naianei?",
+        "alerts": "He matohi whakamahi au?",
+        "readings": "Whakaatuhia aku panui mita tata nei"
+      },
+      "admin": {
+        "households": "E hia o tatou whare?",
+        "billingCycles": "Whakarārangihia a maatau huringa nama tata",
+        "tariff": "He aha ta tatou mahere utu o naianei?"
+      },
+      "platform": {
+        "communities": "Whakarārangihia ngā hapori kua rehitatia",
+        "usageReport": "Whakaatuhia te purongo whakamahi papa",
+        "systemStatus": "He aha te mana o te punaha?"
+      }
+    },
+    "errors": {
+      "rateLimited": "He tere rawa to tuku karere - me tatari mo te wa poto ka ngana ano.",
+      "unavailable": "Karekau te kaiawhina i te wa poto. Tena koa ngana ano inaianei.",
+      "generic": "I he te tuku i taua karere. Me ngana ano."
+    },
+    "emptyHint": "Uia mai tetahi mea - Ka taea e au te kite i o ake raraunga anake.",
+    "closeAssistant": "Katia te kaiawhina",
+    "openAssistant": "Tuwhera kaiawhina",
+    "inputPlaceholder": "Patohia he karere…",
+    "inputLabel": "Karere",
+    "send": "Tukua"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tikiti Tautoko",
+    "defaultCreateLabel": "Whakaarahia te Maharahara Hou",
+    "status": {
+      "open": "Tuwhera",
+      "inProgress": "Kei te ahu whakamua",
+      "resolved": "Whakatau",
+      "closed": "Katia"
+    },
+    "tabs": {
+      "all": "Tikiti Katoa"
+    },
+    "recipients": {
+      "admin": "Kaiwhakahaere Hapori",
+      "systemAdmin": "Kaiwhakahaere Pūnaha",
+      "both": "Kaiwhakahaere Hapori + Kaiwhakahaere Pūnaha"
+    },
+    "roles": {
+      "resident": "Kainoho",
+      "admin": "Kaiwhakahaere"
+    },
+    "toRecipients": "Ki: {{recipients}}",
+    "raisedByResident": "I whakaarahia e te tangata noho {{name}}",
+    "raisedByAdmin": "I whakaarahia e te kaiwhakahaere {{name}}",
+    "refresh": "Tāmata",
+    "stats": {
+      "openLabel": "Tuwhera Tukunga",
+      "openHint": "E tatari ana ki te arotake",
+      "inProgressLabel": "Kei te ahu whakamua",
+      "inProgressHint": "Kei te mahi",
+      "resolvedLabel": "Whakatau",
+      "resolvedHint": "I tutuki pai"
+    },
+    "searchPlaceholder": "Rapua nga tikiti ma te kaupapa, putanga…",
+    "loadingTickets": "Uta ana i nga tikiti…",
+    "empty": {
+      "title": "Kaore i kitea he Tikiti Tautoko",
+      "body": "I tenei wa karekau he tono tautoko tuwhera, rekoata ranei e rite ana ki tenei tātari.",
+      "cta": "Tukua he Maharahara"
+    },
+    "errors": {
+      "loadList": "Kāore i taea te uta tīkiti tautoko. Me ngana ano.",
+      "loadDetail": "Kaore i taea te uta i tenei tikiti. Me ngana ano.",
+      "required": "Ko te kaupapa me te karere e hiahiatia ana.",
+      "recipientRequired": "Tīpakohia kia kotahi te kaiwhiwhi (Kaiwhakahaere Hapori me/ranei te Kaiwhakahaere Pūnaha).",
+      "submitFallback": "Kaore i taea te tuku i tenei tikiti. Me ngana ano.",
+      "sendReply": "Kāore i taea te tuku i tēnei karere. Me ngana ano.",
+      "updateStatus": "Kāore i taea te whakahōu i tēnei tūnga tīkiti. Me ngana ano."
+    },
+    "form": {
+      "defaultHint": "Whakaahuahia to take, to awangawanga ranei i raro nei.",
+      "subjectLabel": "Kaupapa",
+      "subjectPlaceholder": "He whakarāpopototanga poto o tō take",
+      "messageLabel": "Karere",
+      "messagePlaceholder": "Whakaahuahia he aha nga mea e tupu ana…",
+      "recipientsLabel": "Tukuna tenei awangawanga ki",
+      "cancel": "Whakakore",
+      "submitting": "Kei te tuku…",
+      "submit": "Tuku Tikiti"
+    },
+    "detail": {
+      "loading": "Uta ana i te tikiti…",
+      "replyPlaceholder": "Tuhia he whakautu…",
+      "close": "Katia",
+      "sending": "Tukuna ana…",
+      "sendReply": "Tuku Whakautu"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Nau mai hoki mai, {{name}}",
+    "openMenu": "Tuwhera te tahua",
+    "closeMenu": "Katia te tahua",
+    "logout": "Takiputa atu",
+    "search": "Rapu",
+    "notifications": "Whakamōhiotanga"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Papatohu",
+      "households": "Whaiaronga Whare",
+      "meterReadings": "Panui mita",
+      "billing": "Whakahaere Pire",
+      "bulkPurchases": "Nga Hokonga Nui",
+      "reports": "Ripoata",
+      "waterLeakage": "Te Paheke Wai",
+      "support": "Tautoko / Maharahara",
+      "tariffPlans": "Mahere utu",
+      "announcements": "Panuitanga",
+      "profile": "Kōtaha"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Anei he whakaahua o to hapori."
+      },
+      "households": {
+        "title": "Whaiaronga Whare",
+        "subtitle": "Tāpirihia, whakahou, whakahaere i nga kainoho e noho ana i to hapori."
+      },
+      "meterReadings": {
+        "title": "Te Puka Panui i te mita wai",
+        "subtitle": "Rapua he tangata noho ka tuhi i ta ratou panui mita wai."
+      },
+      "tariffPlans": {
+        "title": "Whirihoranga utu",
+        "subtitle": "Whirihorahia nga tepe reiti taumata, nga utu mo te waahi noa, me nga tikanga tohatoha mo to hapori noho."
+      },
+      "billing": {
+        "title": "Whakahaere Pire",
+        "subtitle": "Whakatuwheratia, whakaoti, me te whakapuranga i nga huringa nama, me te arotake i nga nama nama mo ia whare."
+      },
+      "bulkPurchases": {
+        "title": "Nga Hokonga Nui",
+        "subtitle": "Tuhia nga tuku waka waka me nga hoko taonga a te taone nui mo to hapori."
+      },
+      "waterLeakage": {
+        "title": "Te Paheke Wai",
+        "subtitle": "Whirihorahia te paepae me nga matohi turuturu-a-waho, ka arotake i nga whare kua kara."
+      },
+      "support": {
+        "title": "Tautoko / Maharahara",
+        "subtitle": "Whakanuia o ake tikiti ki te Kaiwhakahaere Pūnaha, hapai ranei i nga awangawanga kua korerohia e o kainoho ki a koe."
+      },
+      "profile": {
+        "title": "Tautuhinga & Kōtaha",
+        "subtitle": "Whakahaerehia o taipitopito putea me nga korero whare."
+      }
+    },
+    "fallbackName": "Kaiwhakahaere",
+    "fallbackCommunity": "Kaiwhakahaere Hapori",
+    "notBuilt": "{{label}} kaore ano kia hanga",
+    "searchPlaceholder": "Rapua tetahi mea..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Ripoata",
+      "description": "Nga korero mo te kai, te nama, me te penapena mo to hapori."
+    },
+    "announcements": {
+      "title": "Panuitanga",
+      "description": "Tukuna nga panui-a-hapori ki o kainoho."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kei te haere mai"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Papatohu",
+      "usageHistory": "Hītori Whakamahi",
+      "bills": "Aku Pire",
+      "recommendations": "Nga Tohutohu",
+      "reports": "Ripoata",
+      "support": "Tautoko / Maharahara",
+      "notifications": "Whakamōhiotanga",
+      "profile": "Kōtaha"
+    },
+    "pages": {
+      "usageHistory": "To hītori whakamahi",
+      "billing": "Nga nama me nga nama",
+      "notifications": "Whakamōhiotanga",
+      "recommendations": "Nga Tohutohu",
+      "support": "Tautoko / Maharahara"
+    },
+    "defaultTitle": "Papatohu Kainoho",
+    "navLabel": "Te whakatere tangata",
+    "fallbackName": "Kainoho",
+    "unit": "Waeine {{number}}",
+    "comingSoon": "{{label}} kei te haere mai",
+    "profile": "Kōtaha",
+    "searchPlaceholder": "Rapu tātaritanga, pire…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Papatohu",
+      "communities": "Hapori",
+      "reports": "Ripoata",
+      "supportTickets": "Tikiti Tautoko",
+      "systemStatus": "Tūnga Pūnaha"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "He whakaahua whanui-whanui puta noa i ia hapori kua rehitatia."
+      },
+      "communities": {
+        "title": "Hapori",
+        "subtitle": "Ia kaiwhakahaere hapori kua rehita me o raatau hapori, ki te waahi kotahi."
+      },
+      "reports": {
+        "title": "Ripoata",
+        "subtitle": "Te whakamahi i te wai whanui me nga nama nama, na te hapori me te roanga o te waa."
+      },
+      "supportTickets": {
+        "title": "Tikiti Tautoko",
+        "subtitle": "Tautokohia nga tikiti me nga awangawanga i whakaarahia e nga kainoho me nga kaiwhakahaere o te hapori, puta noa i te turanga."
+      },
+      "systemStatus": {
+        "title": "Tūnga Pūnaha",
+        "subtitle": "Hononga tuara me te hauora o te wa whakahaere."
+      }
+    },
+    "fallbackName": "Kaiwhakahaere Pūnaha",
+    "platformOwner": "Kaipupuri papa",
+    "searchPlaceholder": "Rapu hapori…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Reo: {{language}}",
+    "searchPlaceholder": "Rapu reo…",
+    "noMatches": "Karekau he whakataetae"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Actif",
+    "blocked": "Wedi'i rwystro",
+    "terminated": "Terfynwyd"
+  },
+  "sort": {
+    "sortBy": "Trefnu yn ôl",
+    "toggleDirection": "Toglo cyfeiriad didoli",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Yn dangos {{from}}–{{to}} o {{total}}",
+    "prev": "← Cynt",
+    "next": "Nesaf →",
+    "page": "Tudalen {{page}} o {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Trosolwg o'r Llwyfan",
+    "subtitle": "Pob gweinyddwr cymunedol cofrestredig, ar draws y platfform HydroLedger cyfan.",
+    "viewAll": "Gweld Pob Cymuned",
+    "loadError": "Methu llwytho data platfform ar hyn o bryd.",
+    "cards": {
+      "totalCommunities": "Cyfanswm Cymunedau",
+      "registeredAdmins": "Gweinyddwyr cofrestredig",
+      "totalResidents": "Cyfanswm y Preswylwyr",
+      "acrossAllCommunities": "Ar draws pob cymuned",
+      "active": "Actif",
+      "inGoodStanding": "Mewn sefyllfa dda",
+      "blockedTerminated": "Wedi'i rwystro / Terfynu",
+      "blockedTerminatedBreakdown": "{{blocked}} rhwystro, {{terminated}} terfynu"
+    },
+    "recent": {
+      "title": "Cymunedau a Gofrestrwyd yn Ddiweddar",
+      "loading": "Wrthi'n llwytho…",
+      "empty": "Dim cymunedau wedi cofrestru eto.",
+      "table": {
+        "community": "Cymuned",
+        "admin": "Gweinyddol",
+        "status": "Statws",
+        "residents": "Preswylwyr"
+      }
+    }
+  },
+  "communities": {
+    "count": "Cymunedau: {{count}}",
+    "loadError": "Methu llwytho cymunedau. Ceisiwch eto.",
+    "searchPlaceholder": "Hidlo yn ôl cymuned, enw gweinyddol, neu e-bost",
+    "statusFilter": {
+      "label": "Statws",
+      "all": "Pawb"
+    },
+    "sortOptions": {
+      "community": "Cymuned",
+      "admin": "Gweinyddol",
+      "residents": "Preswylwyr"
+    },
+    "loading": "Wrthi'n llwytho cymunedau…",
+    "empty": "Dim cymunedau wedi cofrestru eto.",
+    "noMatch": "Nid oes unrhyw gymunedau yn cyfateb i'ch hidlwyr.",
+    "table": {
+      "community": "Cymuned",
+      "admin": "Gweinyddol",
+      "email": "Ebost",
+      "status": "Statws",
+      "residents": "Preswylwyr",
+      "view": "Golwg"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Methu llwytho'r gymuned hon. Efallai ei fod wedi'i ddileu.",
+    "statusUpdateError": "Methu â diweddaru statws y gymuned hon.",
+    "deleteError": "Methu dileu'r gymuned hon.",
+    "loading": "Wrthi'n llwytho'r gymuned…",
+    "notFound": "Cymuned heb ei chanfod.",
+    "backLink": "← Yn ôl i Gymunedau",
+    "backLinkShort": "Yn ôl i Gymunedau",
+    "eyebrow": "Proffil Cymunedol",
+    "unnamed": "Cymuned ddienw",
+    "noAddress": "Dim cyfeiriad ar ffeil",
+    "stats": {
+      "residents": "Preswylwyr",
+      "status": "Statws"
+    },
+    "actions": {
+      "reactivate": "Ail-ysgogi",
+      "block": "Bloc",
+      "terminate": "Terfynu",
+      "delete": "Dileu Cymuned"
+    },
+    "blockDialog": {
+      "title": "Rhwystro'r gweinyddwr cymunedol hwn?",
+      "message": "Rhwystro {{name}}? Ni fyddant yn gallu mewngofnodi nes eu bod wedi'u dadrwystro. Ni fydd unrhyw ddata yn cael ei effeithio.",
+      "confirm": "Bloc"
+    },
+    "terminateDialog": {
+      "title": "Terfynu'r gweinyddwr cymunedol hwn?",
+      "message": "Terfynu mynediad {{name}} yn barhaol? Ni ellir dadwneud hyn, er y bydd data eu cymuned yn cael ei gadw ar gyfer cofnodion.",
+      "confirm": "Terfynu"
+    },
+    "deleteDialog": {
+      "title": "Dileu'r gymuned hon?",
+      "message": "Bydd hyn yn dileu <strong>{{name}}</strong> a'i holl gartrefi, preswylwyr, mesuryddion, ffurfwedd tariff/bil, a hanes anfonebau yn barhaol. Ni ellir dadwneud y weithred hon.",
+      "typeToConfirm": "Teipiwch <strong>{{word}}</strong> i barhau",
+      "confirm": "Cadarnhau"
+    },
+    "residents": {
+      "title": "Preswylwyr",
+      "registeredCount": "Wedi cofrestru: {{count}}",
+      "empty": "Nid oes unrhyw drigolion wedi cofrestru yn y gymuned hon eto.",
+      "table": {
+        "flatUnit": "Uned Fflat",
+        "meter": "Mesurydd",
+        "resident": "Preswylydd",
+        "email": "Ebost",
+        "passwordSet": "Set Cyfrinair"
+      },
+      "yes": "Oes",
+      "no": "Nac ydw"
+    },
+    "cancel": "Canslo",
+    "working": "Yn gweithio…",
+    "deleting": "Wrthi'n dileu…"
+  },
+  "systemStatus": {
+    "statusError": "Methu cyrraedd y pen ôl i wirio statws y system.",
+    "metricsError": "Methu llwytho hanes metrigau.",
+    "ranges": {
+      "fiveMinutes": "5 Munud",
+      "fifteenMinutes": "15 Munud",
+      "hour": "Awr",
+      "day": "Dydd",
+      "week": "Wythnos",
+      "month": "Mis",
+      "threeMonths": "3 Mis"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}f",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Ceisiadau/eiliadau",
+      "opsPerSec": "Ops/eiliad",
+      "latency": "Cudd",
+      "lastValue": "{{value}} diwethaf",
+      "loading": "Wrthi'n llwytho…",
+      "empty": "Nid oes unrhyw fetrigau wedi'u cofnodi ar gyfer yr ystod hon eto."
+    },
+    "stats": {
+      "min": "Isafswm: <b>{{value}}</b>",
+      "avg": "Cyf: <b>{{value}}</b>",
+      "max": "Uchafswm: <b>{{value}}</b>",
+      "last": "Diwethaf: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Wrthi'n gwirio…",
+      "reachable": "Cyrraeddadwy",
+      "unreachable": "Yn anghyraeddadwy",
+      "connected": "Wedi'i gysylltu",
+      "backendApiHint": "Llwythodd y dudalen hon o'r pen ôl, felly ymatebodd.",
+      "database": "Cronfa Ddata",
+      "databaseHint": "Cysylltedd PostgreSQL, wedi'i wirio'n fyw.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Ers y cais diwethaf ailgychwyn.",
+      "appVersion": "Fersiwn App",
+      "appVersionHint": "Fersiwn adeiladu cefn."
+    },
+    "mini": {
+      "latency": "Cudd",
+      "readsLatency": "Yn darllen Latency",
+      "writesLatency": "Yn ysgrifennu Latency",
+      "otherLatency": "Arall Cudd",
+      "connections": "Cysylltiadau",
+      "totalKeys": "Cyfanswm Allweddi"
+    },
+    "note": "Mae ceisiadau/eiliadau a hwyrni yn cael eu samplu o draffig cefn byw bob 15 eiliad a'u cadw am hyd at 100 diwrnod. Mae hwn yn gysylltedd sylfaenol + gwiriad traffig - nid yw'n disodli monitro perfformiad cais llawn, cydgasglu logiau, na rhybuddio."
+  },
+  "reports": {
+    "loadError": "Methu llwytho'r adroddiad platfform.",
+    "ranges": {
+      "threeMonths": "3 Mis",
+      "sixMonths": "6 Mis",
+      "twelveMonths": "12 Mis",
+      "custom": "Custom"
+    },
+    "sortOptions": {
+      "community": "Cymuned",
+      "usage": "Defnydd",
+      "billed": "Wedi'i filio",
+      "residents": "Preswylwyr"
+    },
+    "customRange": {
+      "from": "Oddiwrth",
+      "to": "I",
+      "hint": "Dewiswch fis \"o\" a \"i\" i lwytho adroddiad wedi'i deilwra."
+    },
+    "loading": "Wrthi'n llwytho adroddiad…",
+    "cards": {
+      "totalCommunities": "Cyfanswm Cymunedau",
+      "inThisRange": "Yn yr ystod hon",
+      "totalResidents": "Cyfanswm y Preswylwyr",
+      "acrossAllCommunities": "Ar draws pob cymuned",
+      "overallUsage": "Defnydd Cyffredinol",
+      "meteredConsumption": "Defnydd mesuredig",
+      "overallBilled": "Wedi'i Fil yn Gyffredinol",
+      "finalizedInvoicesOnly": "Anfonebau terfynol yn unig",
+      "avgUsagePerResident": "Avg Defnydd / Preswylydd",
+      "avgBillPerResident": "Cyf. Bil / Preswylydd"
+    },
+    "charts": {
+      "usageTitle": "Defnydd ar draws y platfform (kL / mis)",
+      "usageEmpty": "Ni chofnodwyd unrhyw ddefnydd ar gyfer yr ystod hon.",
+      "usageSeries": "Defnydd",
+      "billedTitle": "Swm Bilio ar draws y platfform (₹ / mis)",
+      "billedEmpty": "Dim anfonebau terfynol ar gyfer yr ystod hon.",
+      "billedSeries": "Wedi'i filio"
+    },
+    "searchPlaceholder": "Hidlo yn ôl cymuned neu enw gweinyddol",
+    "empty": "Nid oes gan unrhyw gymunedau ddata defnydd na bilio ar gyfer yr ystod hon eto.",
+    "noMatch": "Nid oes unrhyw gymunedau yn cyfateb i'ch hidlydd.",
+    "table": {
+      "community": "Cymuned",
+      "admin": "Gweinyddol",
+      "residents": "Preswylwyr",
+      "usage": "Defnydd (kL)",
+      "billed": "Wedi bilio (₹)",
+      "avgUsagePerResident": "Avg Defnydd / Preswylydd",
+      "avgBillPerResident": "Cyf. Bil / Preswylydd"
+    }
+  },
+  "supportTickets": {
+    "title": "Tocynnau Cefnogi",
+    "subtitle": "Tocynnau cymorth a phryderon a godwyd gan drigolion a gweinyddwyr cymunedol, ar draws y platfform."
+  }
+}

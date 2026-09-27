@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Xir",
+    "signUpTitle": "Diiwaangeli bulshadaada",
+    "signInTitle": "Soo dhawoow dib",
+    "signUpSubtitle": "Samee koontada Maamulka Bulshada si aad u bilowdo maaraynta dadka deegaanka iyo biilasha.",
+    "signInSubtitle": "Soo gal si aad u aragto isticmaalka biyahaaga iyo biilashaada."
+  },
+  "signIn": {
+    "errorFallback": "Ma awoodo in uu soo galo. Fadlan isku day mar kale.",
+    "emailLabel": "iimaylka",
+    "passwordLabel": "Furaha",
+    "rememberMe": "I xasuuso",
+    "forgotPassword": "Ilmaamay erayga sirta ah?",
+    "submitting": "Soo galitaanka…",
+    "submit": "Soo gal",
+    "noAccount": "Xisaab ma lihid?",
+    "signUpLink": "Isdiiwaangeli"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Erayada sirta ah isma dhigmaan",
+      "communityRequired": "Magaca beesha ayaa loo baahan yahay.",
+      "termsRequired": "Fadlan ogolaw Shuruudaha Adeegga iyo Siyaasadda Qarsoonnimada.",
+      "fallback": "Aan awoodin in uu abuuro akoon Fadlan isku day mar kale"
+    },
+    "hint": "Kaliya maamulayaasha beesha ayaa iska diiwaangeliya halkan. Markaad gudaha gasho, waxaad naftaada ku dari doontaa tafaasiisha dadka deegaanka - ma isdiiwaangeliyaan.",
+    "fullNameLabel": "Magaca buuxa",
+    "emailLabel": "iimaylka",
+    "phoneLabel": "Lambarka taleefanka",
+    "communityNameLabel": "Magaca beesha",
+    "passwordLabel": "Furaha",
+    "confirmPasswordLabel": "Xaqiiji erayga sirta ah",
+    "agreeTerms": "Waxaan aqbalay <termsLink> Shuruudaha Adeegga </termsLink> iyo <privacyLink> Siyaasadda Qarsoonnimada</privacyLink>",
+    "submitting": "Samaynta akoon...",
+    "submit": "Abuur Account Admin",
+    "haveAccount": "Horeba akoon u yeeshay?",
+    "signInLink": "Soo gal"
+  },
+  "installPrompt": {
+    "title": "Install HydroLedger",
+    "description": "Ku dar shaashadda gurigaaga si aad dhaqso u gasho.",
+    "dismiss": "Eryi",
+    "install": "Ku rakib"
+  },
+  "setPassword": {
+    "title": "Deji eraygaaga sirta ah",
+    "loading": "Soodejinaya…",
+    "subtitle": "Hi {{name}}, dooro erayga sirta ah {{email}} si aad u dhaqaajiso HydroLedger akoonkaaga",
+    "errors": {
+      "invalidLink": "Xidhiidhkani waa mid aan sax ahayn ama wuu dhacay",
+      "tooShort": "Erayga sirta ah waa inuu ahaadaa ugu yaraan 8 xaraf.",
+      "mismatch": "Erayada sirta ah isma dhigmaan",
+      "fallback": "Dajin kari waayay eraygaaga sirta ah Fadlan isku day mar kale"
+    },
+    "passwordLabel": "Furaha",
+    "confirmPasswordLabel": "Xaqiiji erayga sirta ah",
+    "submitting": "Dejinta erayga sirta ah…",
+    "submit": "Deji erayga sirta ah oo soo gal"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Kaaliyaha",
+      "resident": "Weydii xisaabtaada",
+      "admin": "Kaaliyaha Bulshada",
+      "platform": "Kaaliyaha Platform",
+      "default": "Kaaliyaha"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "What is HydroLedger?",
+        "tieredBilling": "Sidee buu u shaqeeyaa biilasha heerka sare ah?",
+        "leaks": "Sidee lagu ogaadaa liidashada?"
+      },
+      "resident": {
+        "billEstimate": "Waa maxay qiyaasta biilka hadda?",
+        "alerts": "Ma haystaa wax digniino isticmaalka ah?",
+        "readings": "Muuji akhrinta mitirkaygii dhawaa"
+      },
+      "admin": {
+        "households": "Immisa guri ayaan leenahay?",
+        "billingCycles": "Liis garee wareegyadayada biilasha ee dhawaa",
+        "tariff": "Waa maxay qorshahayaga tarifka ah ee hadda?"
+      },
+      "platform": {
+        "communities": "Liis garee dhammaan beelaha diiwaangashan",
+        "usageReport": "Muuji warbixinta isticmaalka goobta",
+        "systemStatus": "Waa maxay heerka nidaamka?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Waxaad diraysaa fariimo degdeg ah - fadlan sug in yar oo isku day mar kale.",
+      "unavailable": "Kaaliyaha si ku meel gaar ah looma hayo. Fadlan isku day mar kale wax yar ka dib.",
+      "generic": "Wax baa khaldamay diraya fariintaas Fadlan isku day mar kale"
+    },
+    "emptyHint": "Waxba i weyddii - Waxa aan arki karaa oo keliya xogtaada.",
+    "closeAssistant": "Kaaliyaha dhaw",
+    "openAssistant": "Kaaliyaha furan",
+    "inputPlaceholder": "Ku qor fariin…",
+    "inputLabel": "Fariinta",
+    "send": "Dir"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tigidhada taageerada",
+    "defaultCreateLabel": "Kor u qaad Walaac Cusub",
+    "status": {
+      "open": "Furan",
+      "inProgress": "Horumarka",
+      "resolved": "La xaliyay",
+      "closed": "xiran"
+    },
+    "tabs": {
+      "all": "Dhammaan Tigidhada"
+    },
+    "recipients": {
+      "admin": "Maamulka Bulshada",
+      "systemAdmin": "Maamulka Nidaamka",
+      "both": "Maamulka Bulshada + Maamulka Nidaamka"
+    },
+    "roles": {
+      "resident": "degane",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Waxaa kiciyay degane {{name}}",
+    "raisedByAdmin": "Waxaa kiciyay maamulka {{name}}",
+    "refresh": "Dib u cusboonaysii",
+    "stats": {
+      "openLabel": "Soo Gudbinta Furan",
+      "openHint": "Dib u eegis sugaya",
+      "inProgressLabel": "Horumarka",
+      "inProgressHint": "Lagu shaqaynayo",
+      "resolvedLabel": "La xaliyay",
+      "resolvedHint": "Si guul leh ayaa loo xidhay"
+    },
+    "searchPlaceholder": "Tigidhada ku raadi mawduuc ahaan, soo saarid…",
+    "loadingTickets": "Soodejinaya tigidhada...",
+    "empty": {
+      "title": "Wax Tigidho Taageero ah lama helin",
+      "body": "Hadda ma haysatid codsi taageero furan oo la duubay oo ku habboon shaandhadan.",
+      "cta": "Gudbi walaac"
+    },
+    "errors": {
+      "loadList": "Waa la rari waayay tigidhada taageerada Fadlan isku day mar kale",
+      "loadDetail": "Waa la rari waayay tigidhkan Fadlan isku day mar kale",
+      "required": "Mawduuca iyo fariinta labadaba waa loo baahan yahay.",
+      "recipientRequired": "Dooro ugu yaraan hal qaataha (Maamulka Bulshada iyo/ama Maamulaha Nidaamka).",
+      "submitFallback": "Waa soo gudbin kari waayay tigidhkan Fadlan isku day mar kale",
+      "sendReply": "Ma diri karayn fariintan Fadlan isku day mar kale",
+      "updateStatus": "Ma cusboonaysiin kari waayay heerka tigidhka. Fadlan isku day mar kale"
+    },
+    "form": {
+      "defaultHint": "Hoos ku sharax arrintaada ama welwelkaaga.",
+      "subjectLabel": "Mawduuc",
+      "subjectPlaceholder": "Soo koobid kooban oo arrintaada ah",
+      "messageLabel": "Fariinta",
+      "messagePlaceholder": "Si faahfaahsan u sharax waxa dhacaya…",
+      "recipientsLabel": "U dir welwelkan",
+      "cancel": "Jooji",
+      "submitting": "Gudbinta…",
+      "submit": "Soo gudbi tigidh"
+    },
+    "detail": {
+      "loading": "Soodejinaya tigidh...",
+      "replyPlaceholder": "jawaab qor...",
+      "close": "Xir",
+      "sending": "Diraya…",
+      "sendReply": "Soo dir jawaab"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Fur menu",
+    "closeMenu": "Xir liiska",
+    "logout": "Ka bax",
+    "search": "Raadi",
+    "notifications": "Ogeysiisyada"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard-ka",
+      "households": "Tusaha Qoyska",
+      "meterReadings": "Akhriska mitirka",
+      "billing": "Maareynta biilasha",
+      "bulkPurchases": "Iibka Badan",
+      "reports": "Warbixinada",
+      "waterLeakage": "Biyo-baxa",
+      "support": "Taageero/Walaacyo",
+      "tariffPlans": "Qorshayaasha Tacriifada",
+      "announcements": "Ogaysiisyo",
+      "profile": "Profile"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Waa kan sawirka beeshaada"
+      },
+      "households": {
+        "title": "Tusaha Qoyska",
+        "subtitle": "Ku dar, cusboonaysii, oo maamul deganeyaasha ku dhex nool beeshaada."
+      },
+      "meterReadings": {
+        "title": "Meter Readings Hub",
+        "subtitle": "Raadi qof deegaanka ah oo qor akhrinta mitirka biyaha."
+      },
+      "tariffPlans": {
+        "title": "Habaynta Tarifka",
+        "subtitle": "U deji xadka heerka heerka, kharashyada la wadaago, iyo hababka qaybinta beeshaada aqalka."
+      },
+      "billing": {
+        "title": "Maareynta biilasha",
+        "subtitle": "Fur, dhamaystir, oo kaydi wareegyada biilasha, oo dib u eeg qaansheegyada la soo koobay qoyskiiba."
+      },
+      "bulkPurchases": {
+        "title": "Iibka Badan",
+        "subtitle": "Diiwaangeli keenista booyadaha iyo iibka saadka dawladda hoose ee beeshaada."
+      },
+      "waterLeakage": {
+        "title": "Biyo-baxa",
+        "subtitle": "Habee xadka iyo digniinaha daadinta ku salaysan, oo dib u eeg qoysaska calanka leh."
+      },
+      "support": {
+        "title": "Taageero/Walaacyo",
+        "subtitle": "Kor u qaad tigidhadaada Maamulka Nidaamka, ama wax ka qabato welwelka ay dadka deegaankaagu kuu soo jeediyeen."
+      },
+      "profile": {
+        "title": "Dejinta & Xogta",
+        "subtitle": "Maamul faahfaahinta akoonkaaga iyo macluumaadka aqalka."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Maamulka Bulshada",
+    "notBuilt": "{{label}} weli lama dhisin",
+    "searchPlaceholder": "Wax ka raadi..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Warbixinada",
+      "description": "Isticmaalka, biilasha, iyo warbixinta ilaalinta bulshadaada."
+    },
+    "announcements": {
+      "title": "Ogaysiisyo",
+      "description": "U dir ogaysiisyada bulshada oo dhan deganayaashaada."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} ayaa iman doona dhawaan"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard-ka",
+      "usageHistory": "Taariikhda Isticmaalka",
+      "bills": "Biilashayda",
+      "recommendations": "Talooyin",
+      "reports": "Warbixinada",
+      "support": "Taageero/Walaacyo",
+      "notifications": "Ogeysiisyada",
+      "profile": "Profile"
+    },
+    "pages": {
+      "usageHistory": "Taariikhda isticmaalkaaga",
+      "billing": "Biilasha & qaansheegyada",
+      "notifications": "Ogeysiisyada",
+      "recommendations": "Talooyin",
+      "support": "Taageero/Walaacyo"
+    },
+    "defaultTitle": "Dashboardka degane",
+    "navLabel": "Navigation degane",
+    "fallbackName": "degane",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} ayaa iman doona dhawaan",
+    "profile": "Profile",
+    "searchPlaceholder": "Raadinta falanqaynta, biilasha…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard-ka",
+      "communities": "Bulshooyinka",
+      "reports": "Warbixinada",
+      "supportTickets": "Tigidhada taageerada",
+      "systemStatus": "Xaaladda Nidaamka"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Sawir-qaade-ballaaran oo ka dhacay bulsho kasta oo diiwaangashan."
+      },
+      "communities": {
+        "title": "Bulshooyinka",
+        "subtitle": "Maamul beeleed kasta oo diiwaangashan iyo beeshiisa, hal meel."
+      },
+      "reports": {
+        "title": "Warbixinada",
+        "subtitle": "Isticmaalka biyaha ee Platform-ballaaran iyo tirooyinka biilasha, bulshada iyo waqti ka dib."
+      },
+      "supportTickets": {
+        "title": "Tigidhada taageerada",
+        "subtitle": "Taageerada tigidhada iyo walaacyada ay soo jeediyaan deganayaasha iyo maamulka bulshada, madal-ballaaran."
+      },
+      "systemStatus": {
+        "title": "Xaaladda Nidaamka",
+        "subtitle": "Isku xirnaanta dhabarka iyo caafimaadka aasaasiga ah ee wakhtiga runtu."
+      }
+    },
+    "fallbackName": "Maamulka Nidaamka",
+    "platformOwner": "Mulkiilaha Platform",
+    "searchPlaceholder": "Raadi bulshooyinka…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Language: {{language}}",
+    "searchPlaceholder": "Raadi luqadda…",
+    "noMatches": "Ma jiraan wax tabar ah"
+  }
+}

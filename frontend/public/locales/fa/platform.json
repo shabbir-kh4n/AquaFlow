@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "فعال",
+    "blocked": "مسدود شده است",
+    "terminated": "خاتمه یافت"
+  },
+  "sort": {
+    "sortBy": "مرتب سازی بر اساس",
+    "toggleDirection": "جهت مرتب سازی را تغییر دهید",
+    "asc": "↑ صعودی",
+    "desc": "↓ توصیف"
+  },
+  "pagination": {
+    "showing": "نمایش {{from}}–{{to}} از {{total}}",
+    "prev": "← قبلی",
+    "next": "بعدی →",
+    "page": "صفحه {{page}} از {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "مرور کلی پلت فرم",
+    "subtitle": "هر مدیر انجمن ثبت‌شده، در کل پلتفرم HydroLedger.",
+    "viewAll": "مشاهده همه انجمن ها",
+    "loadError": "در حال حاضر نمی‌توان داده‌های پلتفرم را بارگیری کرد.",
+    "cards": {
+      "totalCommunities": "مجموع جوامع",
+      "registeredAdmins": "ادمین های ثبت شده",
+      "totalResidents": "مجموع ساکنان",
+      "acrossAllCommunities": "در تمام جوامع",
+      "active": "فعال",
+      "inGoodStanding": "در وضعیت خوب",
+      "blockedTerminated": "مسدود / فسخ شده است",
+      "blockedTerminatedBreakdown": "{{blocked}} مسدود شد، {{terminated}} پایان یافت"
+    },
+    "recent": {
+      "title": "انجمن های اخیراً ثبت شده",
+      "loading": "در حال بارگیری…",
+      "empty": "هنوز هیچ انجمنی ثبت نشده است.",
+      "table": {
+        "community": "جامعه",
+        "admin": "مدیر",
+        "status": "وضعیت",
+        "residents": "ساکنین"
+      }
+    }
+  },
+  "communities": {
+    "count": "جوامع: {{count}}",
+    "loadError": "انجمن ها بارگیری نشد. لطفا دوباره امتحان کنید.",
+    "searchPlaceholder": "بر اساس انجمن، نام سرپرست یا ایمیل فیلتر کنید",
+    "statusFilter": {
+      "label": "وضعیت",
+      "all": "همه"
+    },
+    "sortOptions": {
+      "community": "جامعه",
+      "admin": "مدیر",
+      "residents": "ساکنین"
+    },
+    "loading": "در حال بارگیری انجمن ها…",
+    "empty": "هنوز هیچ انجمنی ثبت نشده است.",
+    "noMatch": "هیچ انجمنی با فیلترهای شما مطابقت ندارد.",
+    "table": {
+      "community": "جامعه",
+      "admin": "مدیر",
+      "email": "ایمیل",
+      "status": "وضعیت",
+      "residents": "ساکنین",
+      "view": "مشاهده کنید"
+    }
+  },
+  "communityDetail": {
+    "loadError": "این انجمن بارگیری نشد. ممکن است حذف شده باشد.",
+    "statusUpdateError": "وضعیت این انجمن به‌روزرسانی نشد.",
+    "deleteError": "این انجمن حذف نشد.",
+    "loading": "در حال بارگیری انجمن…",
+    "notFound": "انجمن پیدا نشد",
+    "backLink": "← بازگشت به انجمن ها",
+    "backLinkShort": "بازگشت به انجمن ها",
+    "eyebrow": "نمایه انجمن",
+    "unnamed": "انجمن بی نام",
+    "noAddress": "هیچ آدرسی در پرونده نیست",
+    "stats": {
+      "residents": "ساکنین",
+      "status": "وضعیت"
+    },
+    "actions": {
+      "reactivate": "دوباره فعال کنید",
+      "block": "مسدود کردن",
+      "terminate": "خاتمه دهید",
+      "delete": "حذف انجمن"
+    },
+    "blockDialog": {
+      "title": "مدیر این انجمن مسدود شود؟",
+      "message": "{{name}} مسدود شود؟ آنها تا زمانی که مسدود نشده باشند نمی توانند وارد سیستم شوند. هیچ داده ای تحت تأثیر قرار نخواهد گرفت.",
+      "confirm": "مسدود کردن"
+    },
+    "terminateDialog": {
+      "title": "این سرپرست انجمن خاتمه داده شود؟",
+      "message": "دسترسی {{name}} برای همیشه قطع شود؟ این را نمی‌توان واگرد کرد، اگرچه داده‌های انجمن آنها برای سوابق نگهداری می‌شود.",
+      "confirm": "خاتمه دهید"
+    },
+    "deleteDialog": {
+      "title": "این انجمن حذف شود؟",
+      "message": "با این کار <strong>{{name}}</strong> و همه خانواده‌ها، ساکنان، کنتورها، پیکربندی تعرفه/صورت‌حساب، و سابقه فاکتور برای همیشه حذف می‌شود. این عمل قابل لغو نیست.",
+      "typeToConfirm": "برای ادامه، <strong>{{word}}</strong> را تایپ کنید",
+      "confirm": "تایید کنید"
+    },
+    "residents": {
+      "title": "ساکنین",
+      "registeredCount": "ثبت شده: {{count}}",
+      "empty": "هنوز هیچ ساکنی در این انجمن ثبت نام نکرده است.",
+      "table": {
+        "flatUnit": "واحد تخت",
+        "meter": "متر",
+        "resident": "مقیم",
+        "email": "ایمیل",
+        "passwordSet": "مجموعه رمز عبور"
+      },
+      "yes": "بله",
+      "no": "خیر"
+    },
+    "cancel": "لغو کنید",
+    "working": "در حال کار…",
+    "deleting": "در حال حذف…"
+  },
+  "systemStatus": {
+    "statusError": "نمی توان برای بررسی وضعیت سیستم به پشتیبان رسید.",
+    "metricsError": "سابقه سنجه ها بارگیری نشد.",
+    "ranges": {
+      "fiveMinutes": "5 دقیقه",
+      "fifteenMinutes": "15 دقیقه",
+      "hour": "ساعت",
+      "day": "روز",
+      "week": "هفته",
+      "month": "ماه",
+      "threeMonths": "3 ماه"
+    },
+    "uptime": {
+      "days": "{{value}}د",
+      "hours": "{{value}}ساعت",
+      "minutes": "{{value}} دقیقه"
+    },
+    "charts": {
+      "requestsPerSec": "درخواست ها/ثانیه",
+      "opsPerSec": "عملیات/ثانیه",
+      "latency": "تأخیر",
+      "lastValue": "{{value}} آخرین",
+      "loading": "در حال بارگیری…",
+      "empty": "هنوز معیاری برای این محدوده ثبت نشده است."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "در حال بررسی…",
+      "reachable": "قابل دسترس",
+      "unreachable": "دست نیافتنی",
+      "connected": "متصل شد",
+      "backendApiHint": "این صفحه از باطن بارگیری شد، بنابراین پاسخ داد.",
+      "database": "پایگاه داده",
+      "databaseHint": "اتصال PostgreSQL، به صورت زنده بررسی شد.",
+      "uptime": "Uptime Backend",
+      "uptimeHint": "از زمان آخرین راه اندازی مجدد برنامه.",
+      "appVersion": "نسخه برنامه",
+      "appVersionHint": "نسخه ساخت Backend."
+    },
+    "mini": {
+      "latency": "تأخیر",
+      "readsLatency": "تأخیر را می خواند",
+      "writesLatency": "Latency را می نویسد",
+      "otherLatency": "تأخیر دیگر",
+      "connections": "اتصالات",
+      "totalKeys": "کل کلیدها"
+    },
+    "note": "درخواست‌ها/ثانیه و تأخیر هر 15 ثانیه از ترافیک باطن زنده نمونه‌برداری می‌شوند و تا 100 روز نگهداری می‌شوند. این یک اتصال اولیه + بررسی ترافیک است - جایگزین نظارت کامل بر عملکرد برنامه، تجمع گزارش یا هشدار نمی شود."
+  },
+  "reports": {
+    "loadError": "گزارش پلت فرم بارگیری نشد.",
+    "ranges": {
+      "threeMonths": "3 ماه",
+      "sixMonths": "6 ماه",
+      "twelveMonths": "12 ماه",
+      "custom": "سفارشی"
+    },
+    "sortOptions": {
+      "community": "جامعه",
+      "usage": "استفاده",
+      "billed": "صورتحساب",
+      "residents": "ساکنین"
+    },
+    "customRange": {
+      "from": "از",
+      "to": "به",
+      "hint": "برای بارگیری یک گزارش سفارشی، هر دو ماه \"از\" و \"به\" را انتخاب کنید."
+    },
+    "loading": "در حال بارگیری گزارش…",
+    "cards": {
+      "totalCommunities": "مجموع جوامع",
+      "inThisRange": "در این محدوده",
+      "totalResidents": "مجموع ساکنان",
+      "acrossAllCommunities": "در تمام جوامع",
+      "overallUsage": "استفاده کلی",
+      "meteredConsumption": "مصرف اندازه گیری شده",
+      "overallBilled": "صورتحساب کلی",
+      "finalizedInvoicesOnly": "فقط فاکتورهای نهایی شده",
+      "avgUsagePerResident": "میانگین استفاده / ساکن",
+      "avgBillPerResident": "میانگین بیل / مقیم"
+    },
+    "charts": {
+      "usageTitle": "استفاده در سطح پلت فرم (kL / ماه)",
+      "usageEmpty": "هیچ استفاده ای برای این محدوده ثبت نشده است.",
+      "usageSeries": "استفاده",
+      "billedTitle": "مبلغ صورت‌حساب در سراسر پلتفرم (₹ / ماه)",
+      "billedEmpty": "هیچ فاکتوری برای این محدوده نهایی نشده است.",
+      "billedSeries": "صورتحساب"
+    },
+    "searchPlaceholder": "بر اساس انجمن یا نام مدیر فیلتر کنید",
+    "empty": "هنوز هیچ انجمنی داده استفاده یا صورت‌حساب این محدوده را ندارد.",
+    "noMatch": "هیچ انجمنی با فیلتر شما مطابقت ندارد.",
+    "table": {
+      "community": "جامعه",
+      "admin": "مدیر",
+      "residents": "ساکنین",
+      "usage": "استفاده (kL)",
+      "billed": "صورت‌حساب (₹)",
+      "avgUsagePerResident": "میانگین استفاده / ساکن",
+      "avgBillPerResident": "میانگین بیل / مقیم"
+    }
+  },
+  "supportTickets": {
+    "title": "بلیط های پشتیبانی",
+    "subtitle": "از بلیط‌ها و نگرانی‌های مطرح شده توسط ساکنان و مدیران انجمن، در سراسر پلتفرم پشتیبانی کنید."
+  }
+}

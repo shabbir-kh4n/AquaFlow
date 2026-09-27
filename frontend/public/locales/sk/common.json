@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Zavrieť",
+    "signUpTitle": "Zaregistrujte svoju komunitu",
+    "signInTitle": "Vitajte späť",
+    "signUpSubtitle": "Vytvorte si účet správcu komunity a začnite spravovať obyvateľov a fakturáciu.",
+    "signInSubtitle": "Ak chcete zobraziť spotrebu vody a fakturáciu, prihláste sa."
+  },
+  "signIn": {
+    "errorFallback": "Nedá sa prihlásiť. Skúste to znova.",
+    "emailLabel": "Email",
+    "passwordLabel": "heslo",
+    "rememberMe": "Pamätaj si ma",
+    "forgotPassword": "Zabudli ste heslo?",
+    "submitting": "Prihlasovanie…",
+    "submit": "Prihlásiť sa",
+    "noAccount": "Nemáte účet?",
+    "signUpLink": "Zaregistrujte sa"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Heslá sa nezhodujú.",
+      "communityRequired": "Vyžaduje sa názov komunity.",
+      "termsRequired": "Vyjadrite súhlas so Zmluvnými podmienkami a Zásadami ochrany osobných údajov.",
+      "fallback": "Nedá sa vytvoriť účet. Skúste to znova."
+    },
+    "hint": "Tu sa registrujú iba správcovia komunity. Akonáhle budete dnu, sami pridáte podrobnosti o svojich obyvateľoch – neprihlasujú sa sami.",
+    "fullNameLabel": "Celé meno",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefónne číslo",
+    "communityNameLabel": "Názov komunity",
+    "passwordLabel": "heslo",
+    "confirmPasswordLabel": "Potvrďte heslo",
+    "agreeTerms": "Súhlasím s <termsLink>Zmluvnými podmienkami</termsLink> a <privacyLink>Zásadami ochrany osobných údajov</privacyLink>",
+    "submitting": "Vytvára sa účet…",
+    "submit": "Vytvoriť účet správcu",
+    "haveAccount": "Už máte účet?",
+    "signInLink": "Prihláste sa"
+  },
+  "installPrompt": {
+    "title": "Nainštalovať HydroLedger",
+    "description": "Pridajte si ho na svoju domovskú obrazovku a získajte rýchly prístup.",
+    "dismiss": "Odmietnuť",
+    "install": "Inštalovať"
+  },
+  "setPassword": {
+    "title": "Nastavte si heslo",
+    "loading": "Načítava sa…",
+    "subtitle": "Dobrý deň, {{name}}, vyberte si heslo pre {{email}} na aktiváciu svojho účtu HydroLedger.",
+    "errors": {
+      "invalidLink": "Tento odkaz je neplatný alebo jeho platnosť vypršala.",
+      "tooShort": "Heslo musí mať aspoň 8 znakov.",
+      "mismatch": "Heslá sa nezhodujú.",
+      "fallback": "Nepodarilo sa nastaviť heslo. Skúste to znova."
+    },
+    "passwordLabel": "heslo",
+    "confirmPasswordLabel": "Potvrďte heslo",
+    "submitting": "Nastavuje sa heslo…",
+    "submit": "Nastaviť heslo a prihlásiť sa"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistent",
+      "resident": "Opýtajte sa na svoj účet",
+      "admin": "Komunitný asistent",
+      "platform": "Asistent platformy",
+      "default": "asistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Čo je HydroLedger?",
+        "tieredBilling": "Ako funguje viacúrovňová fakturácia?",
+        "leaks": "Ako sa zisťujú netesnosti?"
+      },
+      "resident": {
+        "billEstimate": "Aký je môj aktuálny odhad účtu?",
+        "alerts": "Mám nejaké upozornenia na používanie?",
+        "readings": "Zobraziť moje posledné namerané hodnoty"
+      },
+      "admin": {
+        "households": "Koľko máme domácností?",
+        "billingCycles": "Uveďte naše posledné fakturačné cykly",
+        "tariff": "Aký je náš aktuálny tarifný plán?"
+      },
+      "platform": {
+        "communities": "Zoznam všetkých registrovaných komunít",
+        "usageReport": "Zobrazte správu o používaní platformy",
+        "systemStatus": "Aký je stav systému?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Posielate správy príliš rýchlo – počkajte chvíľu a skúste to znova.",
+      "unavailable": "Asistent je dočasne nedostupný. Skúste to znova o chvíľu.",
+      "generic": "Pri odosielaní tejto správy sa vyskytla chyba. Skúste to znova."
+    },
+    "emptyHint": "Opýtajte sa ma na čokoľvek – vidím len vaše vlastné údaje.",
+    "closeAssistant": "Zavrieť asistenta",
+    "openAssistant": "Otvorte asistenta",
+    "inputPlaceholder": "Napíšte správu…",
+    "inputLabel": "Správa",
+    "send": "Odoslať"
+  },
+  "supportBoard": {
+    "defaultTitle": "Podporné vstupenky",
+    "defaultCreateLabel": "Vzbudiť nový záujem",
+    "status": {
+      "open": "OTVORENÉ",
+      "inProgress": "Prebieha",
+      "resolved": "Vyriešené",
+      "closed": "ZATVORENÉ"
+    },
+    "tabs": {
+      "all": "Všetky vstupenky"
+    },
+    "recipients": {
+      "admin": "Správca komunity",
+      "systemAdmin": "Správca systému",
+      "both": "Správca komunity + správca systému"
+    },
+    "roles": {
+      "resident": "Rezident",
+      "admin": "Admin"
+    },
+    "toRecipients": "Komu: {{recipients}}",
+    "raisedByResident": "Vychovaný obyvateľom {{name}}",
+    "raisedByAdmin": "Vytvorené správcom {{name}}",
+    "refresh": "Obnoviť",
+    "stats": {
+      "openLabel": "Otvoriť Podania",
+      "openHint": "Čaká sa na posúdenie",
+      "inProgressLabel": "Prebieha",
+      "inProgressHint": "Na tom sa pracuje",
+      "resolvedLabel": "Vyriešené",
+      "resolvedHint": "Úspešne zatvorené"
+    },
+    "searchPlaceholder": "Vyhľadajte lístky podľa predmetu, vydania…",
+    "loadingTickets": "Načítavajú sa lístky…",
+    "empty": {
+      "title": "Nenašli sa žiadne lístky na podporu",
+      "body": "Momentálne nemáte žiadne otvorené ani zaznamenané žiadosti o podporu zodpovedajúce tomuto filtru.",
+      "cta": "Odoslať obavu"
+    },
+    "errors": {
+      "loadList": "Lístky podpory sa nepodarilo načítať. Skúste to znova.",
+      "loadDetail": "Tento lístok sa nepodarilo načítať. Skúste to znova.",
+      "required": "Predmet aj správa sú povinné.",
+      "recipientRequired": "Vyberte aspoň jedného príjemcu (správca komunity a/alebo správca systému).",
+      "submitFallback": "Tento tiket sa nepodarilo odoslať. Skúste to znova.",
+      "sendReply": "Túto správu sa nepodarilo odoslať. Skúste to znova.",
+      "updateStatus": "Tento stav lístka sa nepodarilo aktualizovať. Skúste to znova."
+    },
+    "form": {
+      "defaultHint": "Nižšie popíšte svoj problém alebo obavy.",
+      "subjectLabel": "Predmet",
+      "subjectPlaceholder": "Stručné zhrnutie vášho problému",
+      "messageLabel": "Správa",
+      "messagePlaceholder": "Podrobne opíšte, čo sa deje…",
+      "recipientsLabel": "Pošlite túto obavu na",
+      "cancel": "Zrušiť",
+      "submitting": "Odosiela sa…",
+      "submit": "Odoslať lístok"
+    },
+    "detail": {
+      "loading": "Načítava sa lístok…",
+      "replyPlaceholder": "Napíšte odpoveď…",
+      "close": "Zavrieť",
+      "sending": "Odosiela sa…",
+      "sendReply": "Odoslať odpoveď"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Vitajte späť, {{name}}",
+    "openMenu": "Otvoriť menu",
+    "closeMenu": "Zatvoriť ponuku",
+    "logout": "Odhláste sa",
+    "search": "Hľadať",
+    "notifications": "Upozornenia"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Adresár domácností",
+      "meterReadings": "Stavy metrov",
+      "billing": "Správa fakturácie",
+      "bulkPurchases": "Hromadné nákupy",
+      "reports": "Správy",
+      "waterLeakage": "Únik vody",
+      "support": "Podpora / Obavy",
+      "tariffPlans": "tarifné plány",
+      "announcements": "Oznamy",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Tu je snímka vašej komunity."
+      },
+      "households": {
+        "title": "Adresár domácností",
+        "subtitle": "Pridajte, aktualizujte a spravujte obyvateľov žijúcich vo vašej komunite."
+      },
+      "meterReadings": {
+        "title": "Centrum odpočtov vodomerov",
+        "subtitle": "Vyhľadajte obyvateľa a zaznamenajte jeho stav vodomeru."
+      },
+      "tariffPlans": {
+        "title": "Konfigurácia tarify",
+        "subtitle": "Nakonfigurujte odstupňované limity sadzieb, spoločné náklady na spoločnú plochu a spôsoby distribúcie pre komunitu bytov."
+      },
+      "billing": {
+        "title": "Správa fakturácie",
+        "subtitle": "Otvárajte, finalizujte a archivujte fakturačné cykly a kontrolujte jednotlivé faktúry podľa jednotlivých domácností."
+      },
+      "bulkPurchases": {
+        "title": "Hromadné nákupy",
+        "subtitle": "Zaznamenajte dodávky tankerov a nákupy komunálnych zásob pre vašu komunitu."
+      },
+      "waterLeakage": {
+        "title": "Únik vody",
+        "subtitle": "Nakonfigurujte prahové a odľahlé upozornenia na úniky a skontrolujte označené domácnosti."
+      },
+      "support": {
+        "title": "Podpora / Obavy",
+        "subtitle": "Vyzdvihnite svoje vlastné lístky správcovi systému alebo vybavte obavy, ktoré vám adresovali vaši obyvatelia."
+      },
+      "profile": {
+        "title": "Nastavenia a profil",
+        "subtitle": "Spravujte podrobnosti o svojom účte a informácie o apartmáne."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Správca komunity",
+    "notBuilt": "{{label}} ešte nie je vytvorený",
+    "searchPlaceholder": "Hľadaj čokoľvek…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Správy",
+      "description": "Správy o spotrebe, fakturácii a ochrane vašej komunity."
+    },
+    "announcements": {
+      "title": "Oznamy",
+      "description": "Posielajte svojim obyvateľom oznamy pre celú komunitu."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} bude čoskoro k dispozícii"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "História používania",
+      "bills": "Moje účty",
+      "recommendations": "Odporúčania",
+      "reports": "Správy",
+      "support": "Podpora / Obavy",
+      "notifications": "Upozornenia",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Vaša história používania",
+      "billing": "Fakturácia a faktúry",
+      "notifications": "Upozornenia",
+      "recommendations": "Odporúčania",
+      "support": "Podpora / Obavy"
+    },
+    "defaultTitle": "Rezidentný Dashboard",
+    "navLabel": "Rezidentná navigácia",
+    "fallbackName": "Rezident",
+    "unit": "Jednotka {{number}}",
+    "comingSoon": "{{label}} bude čoskoro k dispozícii",
+    "profile": "Profil",
+    "searchPlaceholder": "Analytika vyhľadávania, účty…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "komunity",
+      "reports": "Správy",
+      "supportTickets": "Podporné vstupenky",
+      "systemStatus": "Stav systému"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Snímka celej platformy v každej registrovanej komunite."
+      },
+      "communities": {
+        "title": "komunity",
+        "subtitle": "Každý registrovaný administrátor komunity a jeho komunita na jednom mieste."
+      },
+      "reports": {
+        "title": "Správy",
+        "subtitle": "Údaje o spotrebe vody a fakturácii v rámci celej platformy podľa komunity a v priebehu času."
+      },
+      "supportTickets": {
+        "title": "Podporné vstupenky",
+        "subtitle": "Podporte lístky a obavy, ktoré vzniesli obyvatelia a správcovia komunít, na celej platforme."
+      },
+      "systemStatus": {
+        "title": "Stav systému",
+        "subtitle": "Backendová konektivita a základné runtime zdravie."
+      }
+    },
+    "fallbackName": "Správca systému",
+    "platformOwner": "Vlastník platformy",
+    "searchPlaceholder": "Hľadať komunity…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Jazyk: {{language}}",
+    "searchPlaceholder": "Jazyk vyhľadávania…",
+    "noMatches": "Žiadne zápasy"
+  }
+}

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import AuthLayout from '../components/AuthLayout'
+import LanguageSwitcher from '../components/LanguageSwitcher'
 import { getSetPasswordInfo, setPassword as setPasswordRequest } from '../api/authApi'
 import { useAuth } from '../context/useAuth'
 import '../components/AuthForm.css'
@@ -9,9 +11,11 @@ function SetPassword() {
   const { token } = useParams()
   const navigate = useNavigate()
   const { setSession } = useAuth()
+  const { t } = useTranslation('common')
 
   const [info, setInfo] = useState(null)
-  const [loadError, setLoadError] = useState('')
+  // Holds the backend's message (or null) so the English-only fallback is translated at render time.
+  const [loadError, setLoadError] = useState(null)
   const [loading, setLoading] = useState(true)
 
   const [password, setPasswordValue] = useState('')
@@ -23,7 +27,7 @@ function SetPassword() {
     getSetPasswordInfo(token)
       .then(setInfo)
       .catch((err) => {
-        setLoadError(err.response?.data?.message || 'This link is invalid or has expired.')
+        setLoadError({ message: err.response?.data?.message || null })
       })
       .finally(() => setLoading(false))
   }, [token])
@@ -33,11 +37,11 @@ function SetPassword() {
     setFormError('')
 
     if (password.length < 8) {
-      setFormError('Password must be at least 8 characters.')
+      setFormError(t('setPassword.errors.tooShort'))
       return
     }
     if (password !== confirmPassword) {
-      setFormError('Passwords do not match.')
+      setFormError(t('setPassword.errors.mismatch'))
       return
     }
 
@@ -47,7 +51,7 @@ function SetPassword() {
       setSession(response)
       navigate('/resident/home')
     } catch (err) {
-      setFormError(err.response?.data?.message || 'Could not set your password. Please try again.')
+      setFormError(err.response?.data?.message || t('setPassword.errors.fallback'))
     } finally {
       setSubmitting(false)
     }
@@ -55,31 +59,32 @@ function SetPassword() {
 
   if (loading) {
     return (
-      <AuthLayout title="Set your password" width={480}>
-        <p className="af-form__hint">Loading…</p>
+      <AuthLayout title={t('setPassword.title')} width={480} cornerAction={<LanguageSwitcher />}>
+        <p className="af-form__hint">{t('setPassword.loading')}</p>
       </AuthLayout>
     )
   }
 
   if (loadError) {
     return (
-      <AuthLayout title="Set your password" width={480}>
-        <div className="af-form__error">{loadError}</div>
+      <AuthLayout title={t('setPassword.title')} width={480} cornerAction={<LanguageSwitcher />}>
+        <div className="af-form__error">{loadError.message || t('setPassword.errors.invalidLink')}</div>
       </AuthLayout>
     )
   }
 
   return (
     <AuthLayout
-      title="Set your password"
-      subtitle={`Hi ${info.fullName}, choose a password for ${info.email} to activate your HydroLedger account.`}
+      title={t('setPassword.title')}
+      subtitle={t('setPassword.subtitle', { name: info.fullName, email: info.email })}
       width={480}
+      cornerAction={<LanguageSwitcher />}
     >
       <form onSubmit={handleSubmit}>
         {formError && <div className="af-form__error">{formError}</div>}
 
         <div className="af-form__field">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">{t('setPassword.passwordLabel')}</label>
           <input
             id="password"
             type="password"
@@ -91,7 +96,7 @@ function SetPassword() {
         </div>
 
         <div className="af-form__field">
-          <label htmlFor="confirmPassword">Confirm password</label>
+          <label htmlFor="confirmPassword">{t('setPassword.confirmPasswordLabel')}</label>
           <input
             id="confirmPassword"
             type="password"
@@ -103,7 +108,7 @@ function SetPassword() {
         </div>
 
         <button type="submit" className="af-form__submit" disabled={submitting}>
-          {submitting ? 'Setting password…' : 'Set password & sign in'}
+          {submitting ? t('setPassword.submitting') : t('setPassword.submit')}
         </button>
       </form>
     </AuthLayout>

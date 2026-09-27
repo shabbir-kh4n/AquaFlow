@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "பந்த",
+    "signUpTitle": "ᱟᱯᱮᱭᱟᱜ ᱜᱟᱶᱛᱟ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱯᱮ",
+    "signInTitle": "ᱥᱟᱜᱩᱱ ᱫᱟᱨᱟᱢ",
+    "signUpSubtitle": "ᱵᱟᱥᱤᱱᱫᱟᱹ ᱟᱨ ᱵᱤᱞ ᱧᱮᱞ-ᱵᱟᱰᱟᱭ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱜᱟᱶᱛᱟ ᱮᱰᱢᱤᱱ ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱯᱮ᱾",
+    "signInSubtitle": "ᱫᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱟᱨ ᱵᱤᱞ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱭᱤᱱ ᱤᱱ ᱯᱮ᱾"
+  },
+  "signIn": {
+    "errorFallback": "ᱥᱟᱭᱤᱱ ᱤᱱ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+    "emailLabel": "ᱤᱢᱮᱞ",
+    "passwordLabel": "ᱯᱟᱥᱣᱟᱨᱰ",
+    "rememberMe": "ᱤᱧ ᱫᱤᱥᱟᱹ ᱫᱚᱦᱚ ᱠᱟᱹᱧ ᱢᱮ",
+    "forgotPassword": "ᱯᱟᱥᱣᱟᱨᱰ ᱦᱤᱲᱤᱧ ᱮᱱᱟ?",
+    "submitting": "ᱥᱟᱭᱤᱱ ᱤᱱ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "submit": "ᱥᱟᱭᱤᱱ ᱤᱱ",
+    "noAccount": "ᱮᱠᱟᱣᱩᱱᱴ ᱵᱟᱹᱱᱩᱜ-ᱟ?",
+    "signUpLink": "ᱥᱟᱭᱤᱱ ᱟᱯ"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱢᱤᱫᱩᱜ ᱠᱟᱱᱟ᱾",
+      "communityRequired": "ᱜᱟᱶᱛᱟ ᱧᱩᱛᱩᱢ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+      "termsRequired": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱥᱮᱵᱟ ᱨᱮᱱᱟᱜ ᱥᱚᱨᱛᱚ ᱟᱨ ᱯᱨᱟᱭᱵᱷᱮᱥᱤ ᱯᱚᱞᱤᱥᱤ ᱨᱮ ᱨᱮᱵᱮᱱ ᱯᱮ᱾",
+      "fallback": "ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾"
+    },
+    "hint": "ᱱᱚᱸᱰᱮ ᱠᱷᱟᱹᱞᱤ ᱜᱟᱶᱛᱟ ᱨᱤᱱ ᱮᱰᱢᱤᱱ ᱠᱚ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱫᱟᱲᱮᱭᱟᱜ-ᱟ᱾ ᱢᱤᱫ ᱫᱷᱟᱣ ᱵᱚᱞᱚ ᱞᱮᱱ ᱠᱷᱟᱱ, ᱟᱯᱮ ᱟᱯᱮ ᱛᱮᱜᱮ ᱵᱟᱥᱤᱱᱫᱟᱹ ᱠᱚᱣᱟᱜ ᱵᱤᱵᱚᱨᱚᱬ ᱯᱮ ᱡᱚᱲᱟᱣᱟ - ᱩᱱᱠᱩ ᱟᱠᱚ ᱛᱮᱫᱚ ᱵᱟᱠᱚ ᱥᱟᱭᱤᱱ ᱟᱯ-ᱟ᱾",
+    "fullNameLabel": "ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ",
+    "emailLabel": "ᱤᱢᱮᱞ",
+    "phoneLabel": "ᱯᱷᱚᱱ ᱮᱞ",
+    "communityNameLabel": "ᱜᱟᱶᱛᱟ ᱧᱩᱛᱩᱢ",
+    "passwordLabel": "ᱯᱟᱥᱣᱟᱨᱰ",
+    "confirmPasswordLabel": "ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱯᱮ",
+    "agreeTerms": "ᱤᱧ ᱫᱚ <termsLink>ᱥᱮᱵᱟ ᱨᱮᱱᱟᱜ ᱥᱚᱨᱛᱚ</termsLink> ᱟᱨ <privacyLink>ᱯᱨᱟᱭᱵᱷᱮᱥᱤ ᱯᱚᱞᱤᱥᱤ</privacyLink> ᱨᱮ ᱨᱮᱵᱮᱱ ᱢᱮᱱᱟᱜ-ᱟᱹᱧ",
+    "submitting": "ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "submit": "ᱮᱰᱢᱤᱱ ᱮᱠᱟᱣᱩᱱᱴ ᱵᱮᱱᱟᱣ ᱯᱮ",
+    "haveAccount": "ᱮᱠᱟᱣᱩᱱᱴ ᱢᱮᱱᱟᱜ-ᱟ?",
+    "signInLink": "ᱥᱟᱭᱤᱱ ᱤᱱ"
+  },
+  "installPrompt": {
+    "title": "HydroLedger ᱤᱱᱥᱴᱚᱞ ᱯᱮ",
+    "description": "ᱞᱚᱜᱚᱱ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱦᱚᱢ ᱥᱠᱨᱤᱱ ᱨᱮ ᱡᱚᱲᱟᱣ ᱯᱮ᱾",
+    "dismiss": "ᱵᱟᱹᱜᱤ ᱯᱮ",
+    "install": "ᱤᱱᱥᱴᱚᱞ"
+  },
+  "setPassword": {
+    "title": "ᱟᱯᱮᱭᱟᱜ ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴ ᱯᱮ",
+    "loading": "ᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ...",
+    "subtitle": "ᱦᱮᱞᱳ {{name}}, {{email}} ᱮᱠᱟᱣᱩᱱᱴ ᱪᱟᱹᱞᱩ ᱞᱟᱹᱜᱤᱫ HydroLedger ᱨᱮ ᱢᱤᱫ ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱪᱷᱟᱣ ᱯᱮ᱾",
+    "errors": {
+      "invalidLink": "ᱱᱚᱶᱟ ᱞᱤᱸᱠ ᱫᱚ ᱵᱟᱝ ᱴᱷᱤᱠᱟᱹ ᱟᱨᱵᱟᱝ ᱚᱠᱛᱚ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ᱾",
+      "tooShort": "ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱢ ᱠᱷᱚᱱ ᱠᱚᱢ ᱘ ᱟᱠᱷᱚᱨ ᱨᱮᱱᱟᱜ ᱦᱩᱭ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+      "mismatch": "ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱢᱤᱫᱩᱜ ᱠᱟᱱᱟ᱾",
+      "fallback": "ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾"
+    },
+    "passwordLabel": "ᱯᱟᱥᱣᱟᱨᱰ",
+    "confirmPasswordLabel": "ᱯᱟᱥᱣᱟᱨᱰ ᱠᱚᱱᱯᱷᱚᱨᱢ ᱯᱮ",
+    "submitting": "ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ...",
+    "submit": "ᱯᱟᱥᱣᱟᱨᱰ ᱥᱮᱴ ᱠᱟᱛᱮ ᱥᱟᱭᱤᱱ ᱤᱱ ᱯᱮ"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger ᱜᱚᱲᱚᱭᱤᱡ",
+      "resident": "ᱟᱯᱮᱭᱟᱜ ᱮᱠᱟᱣᱩᱱᱴ ᱵᱟᱵᱚᱛ ᱠᱩᱞᱤ ᱯᱮ",
+      "admin": "ᱜᱟᱶᱛᱟ ᱜᱚᱲᱚᱭᱤᱡ",
+      "platform": "ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱜᱚᱲᱚᱭᱤᱡ",
+      "default": "ᱜᱚᱲᱚᱭᱤᱡ"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "HydroLedger ᱫᱚ ᱪᱮᱫ ᱠᱟᱱᱟ?",
+        "tieredBilling": "ᱴᱤᱭᱟᱨᱰ ᱵᱤᱞᱤᱝ ᱪᱮᱫ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤᱭᱟ?",
+        "leaks": "ᱞᱤᱠ (leaks) ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱟᱰᱟᱭᱚᱜ-ᱟ?"
+      },
+      "resident": {
+        "billEstimate": "ᱱᱤᱛᱚᱜᱟᱜ ᱵᱤᱞ ᱛᱤᱱᱟᱹᱜ ᱦᱩᱭᱩᱜ-ᱟ?",
+        "alerts": "ᱪᱮᱫ ᱵᱮᱵᱷᱟᱨ ᱨᱮᱱᱟᱜ ᱟᱞᱟᱨᱴ ᱢᱮᱱᱟᱜ-ᱟ?",
+        "readings": "ᱤᱧᱟᱜ ᱢᱤᱴᱟᱨ ᱨᱤᱰᱤᱝ ᱧᱮᱞ ᱚᱪᱚ ᱤᱧ ᱢᱮ"
+      },
+      "admin": {
+        "households": "ᱛᱤᱱᱟᱹᱜ ᱚᱲᱟᱜ ᱢᱮᱱᱟᱜ-ᱟ?",
+        "billingCycles": "ᱞᱟᱦᱟ ᱨᱮᱱᱟᱜ ᱵᱤᱞᱤᱝ ᱥᱟᱭᱠᱮᱞ ᱠᱚ ᱞᱤᱥᱴ ᱯᱮ",
+        "tariff": "ᱱᱤᱛᱚᱜᱟᱜ ᱴᱟᱨᱤᱯᱷ ᱯᱞᱟᱱ ᱪᱮᱫ ᱠᱟᱱᱟ?"
+      },
+      "platform": {
+        "communities": "ᱡᱚᱛᱚ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱟᱠᱟᱱ ᱜᱟᱶᱛᱟ ᱠᱚ ᱞᱤᱥᱴ ᱯᱮ",
+        "usageReport": "ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱵᱮᱵᱷᱟᱨ ᱨᱤᱯᱚᱨᱴ ᱧᱮᱞ ᱚᱪᱚ ᱤᱧ ᱢᱮ",
+        "systemStatus": "ᱥᱤᱥᱴᱮᱢ ᱨᱮᱱᱟᱜ ᱪᱮᱫ ᱚᱵᱚᱥᱛᱟ ᱢᱮᱱᱟᱜ-ᱟ?"
+      }
+    },
+    "errors": {
+      "rateLimited": "ᱟᱯᱮ ᱟᱹᱰᱤ ᱞᱚᱜᱚᱱ ᱢᱮᱥᱮᱡᱽ ᱯᱮ ᱠᱩᱞᱮᱫᱟ - ᱠᱟᱹᱴᱤᱡ ᱛᱟᱺᱜᱤ ᱯᱮ ᱟᱨ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+      "unavailable": "ᱜᱚᱲᱚᱭᱤᱡ ᱱᱤᱛᱚᱜ ᱵᱟᱹᱱᱩᱭᱟ᱾ ᱠᱟᱹᱴᱤᱡ ᱛᱟᱺᱜᱤ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾",
+      "generic": "ᱢᱮᱥᱮᱡᱽ ᱠᱩᱞ ᱨᱮ ᱚᱥᱩᱵᱤᱫᱷᱟ ᱦᱩᱭᱮᱱᱟ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱟᱨᱦᱚᱸ ᱨᱤᱠᱟᱹᱭ ᱯᱮ᱾"
+    },
+    "emptyHint": "ᱡᱟᱦᱟᱸ ᱠᱩᱞᱤ ᱢᱮ - ᱤᱧ ᱫᱚ ᱟᱯᱮᱭᱟᱜ ᱰᱮᱴᱟ ᱜᱮᱧ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜ-ᱟ᱾",
+    "closeAssistant": "ᱜᱚᱲᱚᱭᱤᱡ ᱯᱟᱱᱛᱮ ᱯᱮ",
+    "openAssistant": "ᱜᱚᱲᱚᱭᱤᱡ ᱡᱷᱤᱡ ᱯᱮ",
+    "inputPlaceholder": "ᱢᱮᱥᱮᱡᱽ ᱚᱞ ᱯᱮ...",
+    "inputLabel": "ᱢᱮᱥᱮᱡᱽ",
+    "send": "ᱠᱩᱞ ᱢᱮ"
+  },
+  "supportBoard": {
+    "defaultTitle": "Support Tickets",
+    "defaultCreateLabel": "ᱱᱟᱣᱟ ᱥᱟᱢᱟᱝ ᱮᱛᱚᱦᱚᱵ",
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "tabs": {
+      "all": "ᱡᱚᱛᱚ ᱴᱤᱠᱮᱴ"
+    },
+    "recipients": {
+      "admin": "Community Admin",
+      "systemAdmin": "System Admin",
+      "both": "Community Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Resident",
+      "admin": "Admin"
+    },
+    "toRecipients": "To: {{recipients}}",
+    "raisedByResident": "Raised by resident {{name}}",
+    "raisedByAdmin": "Raised by admin {{name}}",
+    "refresh": "Refresh",
+    "stats": {
+      "openLabel": "Open Submissions",
+      "openHint": "Awaiting review",
+      "inProgressLabel": "In Progress",
+      "inProgressHint": "Being worked on",
+      "resolvedLabel": "Resolved",
+      "resolvedHint": "Successfully closed"
+    },
+    "searchPlaceholder": "Search tickets by subject, issue…",
+    "loadingTickets": "Loading tickets…",
+    "empty": {
+      "title": "No Support Tickets Found",
+      "body": "You currently have no open or recorded support requests matching this filter.",
+      "cta": "Submit a Concern"
+    },
+    "errors": {
+      "loadList": "Could not load support tickets. Please try again.",
+      "loadDetail": "Could not load this ticket. Please try again.",
+      "required": "Subject and message are both required.",
+      "recipientRequired": "Select at least one recipient (Community Admin and/or System Admin).",
+      "submitFallback": "Could not submit this ticket. Please try again.",
+      "sendReply": "Could not send this message. Please try again.",
+      "updateStatus": "Could not update this ticket status. Please try again."
+    },
+    "form": {
+      "defaultHint": "Describe your issue or concern below.",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Brief summary of your issue",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe what's happening in detail…",
+      "recipientsLabel": "Send this concern to",
+      "cancel": "Cancel",
+      "submitting": "Submitting…",
+      "submit": "Submit Ticket"
+    },
+    "detail": {
+      "loading": "Loading ticket…",
+      "replyPlaceholder": "Write a reply…",
+      "close": "Close",
+      "sending": "Sending…",
+      "sendReply": "Send Reply"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welcome back, {{name}}",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "logout": "Log out",
+    "search": "Search",
+    "notifications": "Notifications"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Households Directory",
+      "meterReadings": "Meter Readings",
+      "billing": "Billing Management",
+      "bulkPurchases": "Bulk Purchases",
+      "reports": "Reports",
+      "waterLeakage": "Water Leakage",
+      "support": "Support / Concerns",
+      "tariffPlans": "Tariff Plans",
+      "announcements": "Announcements",
+      "profile": "Profile"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Here's a snapshot of your community."
+      },
+      "households": {
+        "title": "Households Directory",
+        "subtitle": "Add, update, and manage the residents living in your community."
+      },
+      "meterReadings": {
+        "title": "Water Meter Readings Hub",
+        "subtitle": "Search for a resident and record their water meter reading."
+      },
+      "tariffPlans": {
+        "title": "Tariff Configuration",
+        "subtitle": "Configure tiered rate limits, shared common-area costs, and distribution methods for your apartment community."
+      },
+      "billing": {
+        "title": "Billing Management",
+        "subtitle": "Open, finalize, and archive billing cycles, and review itemized invoices per household."
+      },
+      "bulkPurchases": {
+        "title": "Bulk Purchases",
+        "subtitle": "Record tanker deliveries and municipal supply purchases for your community."
+      },
+      "waterLeakage": {
+        "title": "Water Leakage",
+        "subtitle": "Configure threshold and outlier-based leak alerts, and review flagged households."
+      },
+      "support": {
+        "title": "Support / Concerns",
+        "subtitle": "Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you."
+      },
+      "profile": {
+        "title": "Settings & Profile",
+        "subtitle": "Manage your account details and apartment information."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Community Admin",
+    "notBuilt": "{{label}} isn't built yet",
+    "searchPlaceholder": "Search anything…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Reports",
+      "description": "Consumption, billing, and conservation reports for your community."
+    },
+    "announcements": {
+      "title": "Announcements",
+      "description": "Send community-wide announcements to your residents."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} is coming soon"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Usage History",
+      "bills": "My Bills",
+      "recommendations": "Recommendations",
+      "reports": "Reports",
+      "support": "Support / Concerns",
+      "notifications": "Notifications",
+      "profile": "Profile"
+    },
+    "pages": {
+      "usageHistory": "Your usage history",
+      "billing": "Billing & Invoices",
+      "notifications": "Notifications",
+      "recommendations": "Recommendations",
+      "support": "Support / Concerns"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Resident navigation",
+    "fallbackName": "Resident",
+    "unit": "Unit {{number}}",
+    "comingSoon": "{{label}} is coming soon",
+    "profile": "Profile",
+    "searchPlaceholder": "Search analytics, bills…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Communities",
+      "reports": "Reports",
+      "supportTickets": "Support Tickets",
+      "systemStatus": "System Status"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "ᱡᱚᱛᱚ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱟᱠᱟᱱ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱨᱮᱱᱟᱜ ᱯᱞᱮᱴᱯᱷᱚᱨᱢ-ᱣᱟᱭᱤᱰ ᱥᱱᱮᱯᱥᱚᱴ᱾"
+      },
+      "communities": {
+        "title": "Communities",
+        "subtitle": "ᱡᱚᱛᱚ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱟᱠᱟᱱ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱮᱰᱢᱤᱱ ᱟᱨ ᱩᱱᱠᱩᱣᱟᱜ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ, ᱢᱤᱫ ᱴᱷᱮᱱ᱾"
+      },
+      "reports": {
+        "title": "Reports",
+        "subtitle": "ᱯᱞᱮᱴᱯᱷᱚᱨᱢ-ᱣᱟᱭᱤᱰ ᱫᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱟᱨ ᱵᱤᱞᱤᱝ ᱨᱮᱱᱟᱜ ᱦᱤᱥᱟᱹᱵᱽ, ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱞᱮᱠᱟᱛᱮ ᱟᱨ ᱚᱠᱛᱚ ᱞᱮᱠᱟᱛᱮ᱾"
+      },
+      "supportTickets": {
+        "title": "Support Tickets",
+        "subtitle": "ᱵᱟᱥᱤᱱᱫᱟ ᱟᱨ ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱮᱰᱢᱤᱱ ᱠᱚᱣᱟᱜ ᱥᱚᱯᱚᱨᱴ ᱴᱤᱠᱮᱴ ᱟᱨ ᱪᱤᱱᱛᱟᱹ, ᱯᱞᱮᱴᱯᱷᱚᱨᱢ-ᱣᱟᱭᱤᱰ᱾"
+      },
+      "systemStatus": {
+        "title": "System Status",
+        "subtitle": "ᱵᱮᱠᱮᱱᱰ ᱠᱚᱱᱮᱠᱴᱤᱵᱷᱤᱴᱤ ᱟᱨ ᱢᱩᱬᱩᱛ ᱨᱟᱱᱴᱟᱭᱤᱢ ᱦᱮᱞᱛᱷ᱾"
+      }
+    },
+    "fallbackName": "System Admin",
+    "platformOwner": "Platform Owner",
+    "searchPlaceholder": "ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱠᱚ ᱯᱟᱱᱛᱮᱭᱟᱢ..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "ᱯᱟᱹᱨᱥᱤ: {{language}}",
+    "searchPlaceholder": "ᱯᱟᱹᱨᱥᱤ ᱯᱟᱱᱛᱮᱭᱟᱢ...",
+    "noMatches": "ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ"
+  }
+}

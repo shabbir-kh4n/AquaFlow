@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Dichtbij",
+    "signUpTitle": "Registreer uw gemeenschap",
+    "signInTitle": "Welkom terug",
+    "signUpSubtitle": "Maak een Community Admin-account aan om bewoners en facturering te beheren.",
+    "signInSubtitle": "Log in om uw waterverbruik en facturering te bekijken."
+  },
+  "signIn": {
+    "errorFallback": "Kan niet inloggen. Probeer het opnieuw.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Wachtwoord",
+    "rememberMe": "Onthoud mij",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "submitting": "Inloggen…",
+    "submit": "Inloggen",
+    "noAccount": "Heeft u geen account?",
+    "signUpLink": "Schrijf je in"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Wachtwoorden komen niet overeen.",
+      "communityRequired": "Gemeenschapsnaam is vereist.",
+      "termsRequired": "Ga akkoord met de Servicevoorwaarden en het Privacybeleid.",
+      "fallback": "Kan account niet aanmaken. Probeer het opnieuw."
+    },
+    "hint": "Alleen communitybeheerders registreren zich hier. Als u eenmaal binnen bent, voegt u zelf de gegevens van uw bewoners toe; zij melden zich niet zelf aan.",
+    "fullNameLabel": "Volledige naam",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefoonnummer",
+    "communityNameLabel": "Gemeenschapsnaam",
+    "passwordLabel": "Wachtwoord",
+    "confirmPasswordLabel": "Bevestig wachtwoord",
+    "agreeTerms": "Ik ga akkoord met de <termsLink>Servicevoorwaarden</termsLink> en het <privacyLink>Privacybeleid</privacyLink>",
+    "submitting": "Account aanmaken…",
+    "submit": "Maak een beheerdersaccount aan",
+    "haveAccount": "Heeft u al een account?",
+    "signInLink": "Log in"
+  },
+  "installPrompt": {
+    "title": "Installeer HydroLedger",
+    "description": "Voeg het toe aan uw startscherm voor snelle toegang.",
+    "dismiss": "Afwijzen",
+    "install": "Installeren"
+  },
+  "setPassword": {
+    "title": "Stel uw wachtwoord in",
+    "loading": "Laden…",
+    "subtitle": "Hallo {{name}}, kies een wachtwoord voor {{email}} om uw HydroLedger-account te activeren.",
+    "errors": {
+      "invalidLink": "Deze link is ongeldig of verlopen.",
+      "tooShort": "Wachtwoord moet minimaal 8 tekens lang zijn.",
+      "mismatch": "Wachtwoorden komen niet overeen.",
+      "fallback": "Kan uw wachtwoord niet instellen. Probeer het opnieuw."
+    },
+    "passwordLabel": "Wachtwoord",
+    "confirmPasswordLabel": "Bevestig wachtwoord",
+    "submitting": "Wachtwoord instellen…",
+    "submit": "Wachtwoord instellen en inloggen"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Vraag naar uw rekening",
+      "admin": "Gemeenschapsassistent",
+      "platform": "Platform-assistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Wat is HydroLedger?",
+        "tieredBilling": "Hoe werkt gelaagde facturering?",
+        "leaks": "Hoe worden lekkages opgespoord?"
+      },
+      "resident": {
+        "billEstimate": "Wat is mijn huidige factuurschatting?",
+        "alerts": "Krijg ik gebruikswaarschuwingen?",
+        "readings": "Toon mijn recente meterstanden"
+      },
+      "admin": {
+        "households": "Hoeveel huishoudens hebben we?",
+        "billingCycles": "Geef een overzicht van onze recente factureringscycli",
+        "tariff": "Wat is ons huidig ​​tariefplan?"
+      },
+      "platform": {
+        "communities": "Maak een lijst van alle geregistreerde gemeenschappen",
+        "usageReport": "Toon het platformgebruiksrapport",
+        "systemStatus": "Wat is de systeemstatus?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Je verzendt te snel berichten. Wacht even en probeer het opnieuw.",
+      "unavailable": "De assistent is tijdelijk niet beschikbaar. Probeer het binnenkort opnieuw.",
+      "generic": "Er is iets misgegaan bij het verzenden van dat bericht. Probeer het opnieuw."
+    },
+    "emptyHint": "Vraag me alles, ik kan alleen je eigen gegevens zien.",
+    "closeAssistant": "Dichtbij assistent",
+    "openAssistant": "Open assistent",
+    "inputPlaceholder": "Typ een bericht…",
+    "inputLabel": "Bericht",
+    "send": "Versturen"
+  },
+  "supportBoard": {
+    "defaultTitle": "Ondersteuningstickets",
+    "defaultCreateLabel": "Creëer nieuwe zorgen",
+    "status": {
+      "open": "Open",
+      "inProgress": "In uitvoering",
+      "resolved": "Opgelost",
+      "closed": "Gesloten"
+    },
+    "tabs": {
+      "all": "Alle kaartjes"
+    },
+    "recipients": {
+      "admin": "Gemeenschapsbeheerder",
+      "systemAdmin": "Systeembeheerder",
+      "both": "Communitybeheerder + Systeembeheerder"
+    },
+    "roles": {
+      "resident": "Inwoner",
+      "admin": "Beheerder"
+    },
+    "toRecipients": "Aan: {{recipients}}",
+    "raisedByResident": "Opgevoed door bewoner {{name}}",
+    "raisedByAdmin": "Opgevoed door beheerder {{name}}",
+    "refresh": "Vernieuwen",
+    "stats": {
+      "openLabel": "Inzendingen openen",
+      "openHint": "In afwachting van beoordeling",
+      "inProgressLabel": "In uitvoering",
+      "inProgressHint": "Er wordt aan gewerkt",
+      "resolvedLabel": "Opgelost",
+      "resolvedHint": "Succesvol gesloten"
+    },
+    "searchPlaceholder": "Zoek tickets op onderwerp, uitgave...",
+    "loadingTickets": "Kaartjes laden…",
+    "empty": {
+      "title": "Geen supporttickets gevonden",
+      "body": "U heeft momenteel geen openstaande of geregistreerde ondersteuningsverzoeken die overeenkomen met dit filter.",
+      "cta": "Dien een zorg in"
+    },
+    "errors": {
+      "loadList": "Kan supporttickets niet laden. Probeer het opnieuw.",
+      "loadDetail": "Kan dit ticket niet laden. Probeer het opnieuw.",
+      "required": "Onderwerp en bericht zijn beide vereist.",
+      "recipientRequired": "Selecteer ten minste één ontvanger (Communitybeheerder en/of Systeembeheerder).",
+      "submitFallback": "Kan dit ticket niet indienen. Probeer het opnieuw.",
+      "sendReply": "Kan dit bericht niet verzenden. Probeer het opnieuw.",
+      "updateStatus": "Kan deze ticketstatus niet bijwerken. Probeer het opnieuw."
+    },
+    "form": {
+      "defaultHint": "Beschrijf hieronder uw probleem of probleem.",
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Korte samenvatting van uw probleem",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Beschrijf gedetailleerd wat er gebeurt...",
+      "recipientsLabel": "Stuur deze zorg naar",
+      "cancel": "Annuleren",
+      "submitting": "Verzenden…",
+      "submit": "Ticket indienen"
+    },
+    "detail": {
+      "loading": "Ticket laden…",
+      "replyPlaceholder": "Schrijf een antwoord…",
+      "close": "Dichtbij",
+      "sending": "Verzenden…",
+      "sendReply": "Stuur antwoord"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Welkom terug, {{name}}",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "logout": "Uitloggen",
+    "search": "Zoekopdracht",
+    "notifications": "Meldingen"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Huishoudens Directory",
+      "meterReadings": "Meterstanden",
+      "billing": "Facturatiebeheer",
+      "bulkPurchases": "Bulkaankopen",
+      "reports": "Rapporten",
+      "waterLeakage": "Waterlekkage",
+      "support": "Ondersteuning / zorgen",
+      "tariffPlans": "Tariefplannen",
+      "announcements": "Aankondigingen",
+      "profile": "Profiel"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hier is een momentopname van uw community."
+      },
+      "households": {
+        "title": "Huishoudens Directory",
+        "subtitle": "Voeg de bewoners in uw gemeenschap toe, update ze en beheer ze."
+      },
+      "meterReadings": {
+        "title": "Hub voor watermeterstanden",
+        "subtitle": "Zoek een bewoner en noteer de stand van de watermeter."
+      },
+      "tariffPlans": {
+        "title": "Tariefconfiguratie",
+        "subtitle": "Configureer gelaagde tarieflimieten, gedeelde kosten voor de gemeenschappelijke ruimte en distributiemethoden voor uw appartementengemeenschap."
+      },
+      "billing": {
+        "title": "Facturatiebeheer",
+        "subtitle": "Open, voltooi en archiveer factureringscycli en bekijk gespecificeerde facturen per huishouden."
+      },
+      "bulkPurchases": {
+        "title": "Bulkaankopen",
+        "subtitle": "Registreer tankwagenleveringen en gemeentelijke voorraadaankopen voor uw gemeenschap."
+      },
+      "waterLeakage": {
+        "title": "Waterlekkage",
+        "subtitle": "Configureer op drempelwaarden en uitschieters gebaseerde lekwaarschuwingen en bekijk gemarkeerde huishoudens."
+      },
+      "support": {
+        "title": "Ondersteuning / zorgen",
+        "subtitle": "Dien uw eigen tickets in bij de systeembeheerder of behandel problemen die uw bewoners aan u hebben geadresseerd."
+      },
+      "profile": {
+        "title": "Instellingen en profiel",
+        "subtitle": "Beheer uw accountgegevens en appartementinformatie."
+      }
+    },
+    "fallbackName": "Beheerder",
+    "fallbackCommunity": "Gemeenschapsbeheerder",
+    "notBuilt": "{{label}} is nog niet gebouwd",
+    "searchPlaceholder": "Zoek alles..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporten",
+      "description": "Verbruiks-, facturerings- en besparingsrapporten voor uw gemeenschap."
+    },
+    "announcements": {
+      "title": "Aankondigingen",
+      "description": "Stuur gemeenschapsbrede aankondigingen naar uw bewoners."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} komt binnenkort"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Gebruiksgeschiedenis",
+      "bills": "Mijn rekeningen",
+      "recommendations": "Aanbevelingen",
+      "reports": "Rapporten",
+      "support": "Ondersteuning / zorgen",
+      "notifications": "Meldingen",
+      "profile": "Profiel"
+    },
+    "pages": {
+      "usageHistory": "Uw gebruiksgeschiedenis",
+      "billing": "Facturering en facturen",
+      "notifications": "Meldingen",
+      "recommendations": "Aanbevelingen",
+      "support": "Ondersteuning / zorgen"
+    },
+    "defaultTitle": "Bewonersdashboard",
+    "navLabel": "Bewonersnavigatie",
+    "fallbackName": "Inwoner",
+    "unit": "Eenheid {{number}}",
+    "comingSoon": "{{label}} komt binnenkort",
+    "profile": "Profiel",
+    "searchPlaceholder": "Zoekanalyses, facturen…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Gemeenschappen",
+      "reports": "Rapporten",
+      "supportTickets": "Ondersteuningstickets",
+      "systemStatus": "Systeemstatus"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platformbrede momentopname van elke geregistreerde community."
+      },
+      "communities": {
+        "title": "Gemeenschappen",
+        "subtitle": "Elke geregistreerde communitybeheerder en zijn of haar community, op één plek."
+      },
+      "reports": {
+        "title": "Rapporten",
+        "subtitle": "Platformbreed waterverbruik en factureringscijfers, per gemeenschap en in de loop van de tijd."
+      },
+      "supportTickets": {
+        "title": "Ondersteuningstickets",
+        "subtitle": "Ondersteun tickets en zorgen van bewoners en gemeenschapsbeheerders, platformbreed."
+      },
+      "systemStatus": {
+        "title": "Systeemstatus",
+        "subtitle": "Backend-connectiviteit en basisruntime-gezondheid."
+      }
+    },
+    "fallbackName": "Systeembeheerder",
+    "platformOwner": "Platformeigenaar",
+    "searchPlaceholder": "Zoek community's..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Taal: {{language}}",
+    "searchPlaceholder": "Zoektaal…",
+    "noMatches": "Geen overeenkomsten"
+  }
+}

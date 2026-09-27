@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Heinta...",
+    "saving": "Spari...",
+    "saved": "Goymt.",
+    "uploading": "Leggja upp...",
+    "upload": "Legg upp",
+    "uploadError": "Tað eydnaðist ikki at leggja hesa fíluna upp. Vinarliga royn aftur.",
+    "cancel": "strika",
+    "close": "Lata aftur",
+    "edit": "Rætta",
+    "remove": "Taka burtur",
+    "saveChanges": "Goym broytingar",
+    "bulkSummary": "Viðgjørt <b>{{total}}</b> røðir — <b>{{success}}</b> eydnaðist, <b>{{failure}}</b> miseydnaðist.",
+    "rowFailure": "Rað {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Vísir {{from}}–{{to}} av {{total}}",
+    "prev": "← Fyrr",
+    "next": "Næsta →",
+    "page": "Síða {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Kundi ikki heinta tínar felagsdátur beint nú.",
+    "title": "{{community}} Íbúðarstýriborð",
+    "titleFallback": "Títt íbúðarstýriborð",
+    "subtitle": "Rakstrarsamandráttur fyri vatnnýtslu undirmáting og húsarhaldsnýtslu.",
+    "comingSoon": "Kemur skjótt",
+    "manageCommunity": "Stjóra felagsskapinum",
+    "noUsageReadings": "Eingin nýtsluavlesing skrásett enn.",
+    "cards": {
+      "totalHouseholds": "Samlað húsarhald",
+      "occupied": "Upptikin",
+      "activeMeters": "Virkir mátarar",
+      "reportingReadings": "Fráboðan av lesnaðum",
+      "monthlyConsumption": "Mánaðarlig nýtsla",
+      "thisCalendarMonth": "Hendan kalendaramánaðin",
+      "latestRecordedMonth": "Seinasti upptikni mánaður ({{month}})",
+      "noReadingsYet": "Eingin avlestur skrásettur enn",
+      "pendingAlerts": "Bíðandi áminningar",
+      "anomalyPreview": "Forskoðan av frávikum — ikki tøkt enn"
+    },
+    "actions": {
+      "label": "Skjótar fyrisitingarligar tiltøk",
+      "uploadReadings": "Lat upp mátaraavlesingar",
+      "configureTariffs": "Set gjøld upp",
+      "reportsNotBuilt": "Frágreiðingar eru ikki bygdar enn",
+      "downloadReports": "Heinta skipanarfrágreiðingar"
+    },
+    "chart": {
+      "title": "Mánaðarlig nýtslusamanbering (kL)",
+      "subtitle": "Seinastu {{months}} mánaðirnar: mark móti veruligari nýtslu.",
+      "targetSeries": "Mark (forskoðan)",
+      "actualSeries": "Veruligur"
+    },
+    "recent": {
+      "title": "Nýggjari mátaralestur",
+      "unit": "Eind",
+      "resident": "Íbúgvi",
+      "lastReading": "Seinasta lestur",
+      "consumption": "Brúk"
+    }
+  },
+  "households": {
+    "loadError": "Kundi ikki lasta íbúgvar. Vinarliga royn aftur.",
+    "fixFields": "Vinarliga rætta teir markeraðu teigarnar.",
+    "saveError": "Kundi ikki bjarga hesum íbúgvanum. Vinarliga kanna smálutirnar.",
+    "confirmRemove": "Strika {{name}} úr tínari húsarhaldsskrá?",
+    "removeError": "Kundi ikki strika hendan íbúgvan. Vinarliga royn aftur.",
+    "count": "Húsarhald: {{total}}",
+    "bulkUploadButton": "⇪ Hóp upplesing",
+    "addResidentButton": "+ Legg búfólk til",
+    "searchPlaceholder": "Filtra eftir navni, húsi, telduposti ella mátaranr.",
+    "loading": "Lasta íbúgvar...",
+    "empty": "Ongin íbúgvi enn. Trýst á \"Legg bústað til\" fyri at skráseta fyrsta húsarhaldið.",
+    "noMatch": "Eingin íbúgvi passar til \"{{search}}\".",
+    "sort": {
+      "label": "Sortera eftir",
+      "name": "Navn",
+      "houseNumber": "Húsnummar",
+      "dateOfJoining": "Dagur at melda til",
+      "toggleDirection": "Skift sorteringsætlan",
+      "asc": "↑ Asc",
+      "desc": "↓ Lýsing"
+    },
+    "gender": {
+      "male": "Maður",
+      "female": "Kvinna",
+      "other": "Onnur"
+    },
+    "table": {
+      "name": "Navn",
+      "houseUnit": "Hús / Eind",
+      "email": "Teldupostur",
+      "phone": "Telefon",
+      "meterNumber": "Mátara nr.",
+      "sqft": "Kvm",
+      "joined": "Tilmeldaður"
+    },
+    "form": {
+      "addTitle": "Legg búfólk til",
+      "editTitle": "Rætta búfólk",
+      "editSubtitle": "Hetta dagførir upplýsingarnar hjá búfólkinum í tínari skrá.",
+      "bypassSubtitle": "Tú setur loyniorðið hjá hesum búfólki beinleiðis. Eingin teldupostur verður sendur.",
+      "addSubtitle": "Ein set-password leinkja verður send til hendan búfólkið við telduposti, so tey kunnu virkja sína egnu innritan.",
+      "fullName": "Fullt navn",
+      "houseNumber": "Hús / eind nr.",
+      "email": "Teldupostur",
+      "phone": "Telefonnummar",
+      "meterNumber": "Mátaranummar",
+      "governmentId": "Landsstýris-ID",
+      "gender": "Kyn",
+      "dateOfBirth": "Føðingardagur",
+      "dateOfJoining": "Dagur at koma inn",
+      "flatSize": "Flatstødd (fermetrar)",
+      "bypassLabel": "Umkoyr teldupost við loyniorði — set loyniorð til hendan íbúgvan nú",
+      "password": "Loyniorð",
+      "confirmPassword": "Staðfest loyniorð"
+    },
+    "validation": {
+      "fullNameRequired": "Fullt navn krevst.",
+      "emailRequired": "Teldupostur er kravdur.",
+      "phoneRequired": "Telefonnummar krevst.",
+      "houseNumberRequired": "Hús / eindarnummar krevst.",
+      "houseNumberTaken": "Hetta húsanummarið er longu tilskilað øðrum búfólki.",
+      "meterNumberRequired": "Mátaranummar krevst.",
+      "meterNumberFormat": "Mátaranummar skal síggja út sum MTR-1234 (4 siffur).",
+      "meterNumberTaken": "Hetta mátaranummarið er longu tilskilað øðrum búfólki.",
+      "governmentIdRequired": "Landsstýriskrøv er kravt.",
+      "governmentIdFormat": "ID skal vera 6 siffur byrjandi við 99 (t.d. 991234).",
+      "genderRequired": "Vinarliga vel eitt kyn.",
+      "dateOfBirthRequired": "Føðingardagur er kravdur.",
+      "dateOfJoiningRequired": "Dagfesting fyri at melda seg til er kravd.",
+      "passwordRequired": "Loyniorð er kravt.",
+      "passwordLength": "Loyniorð skal vera í minsta lagi 8 stavir.",
+      "confirmPasswordRequired": "Vinarliga vátta loyniorðið.",
+      "passwordMismatch": "Loyniorð passa ikki saman."
+    },
+    "bulk": {
+      "title": "Hóp upplegging íbúgvar",
+      "noFile": "Vinarliga vel eina .csv ella .xlsx/.xls fílu at leggja upp.",
+      "instructions": "Lat eina .csv ella .xlsx/.xls fílu upp við dálum <code>{{columns}}</code> (loyniorð og flatSizeSqft eru bæði valfrí). Røðir við loyniorði seta tað beinleiðis; røðir uttan ein fáa ein sett-loyniorðs teldupost, sama sum at leggja ein bústað til manuelt. Dupult húsa/mátaranummur ella teldupostar verða vrakaðir fyri hvørja røð — ein ring røð fer ikki at miseydnast allan hópin."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Kundi ikki lasta íbúgvar. Vinarliga royn aftur.",
+    "historyLoadError": "Kundi ikki heinta lestrarsøguna. Vinarliga royn aftur.",
+    "successMessage": "Eydnaðist skrásett avlesing av {{value}} kL fyri {{house}} (Mátari: {{meter}})! Roknað nýtsla: {{consumption}} kL.",
+    "tabs": {
+      "single": "Ein uppskot",
+      "csv": "Hóp CSV Heinta",
+      "history": "Lesa søgu"
+    },
+    "source": {
+      "manual": "Handbók",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Hesin íbúgvin hevur einki mátaranummar á skrá.",
+      "dateRequired": "Lestrardagur er kravdur.",
+      "invalidValue": "Vinarliga skriva eitt gyldugt, ikki-negativt lestrarvirði.",
+      "duplicate": "Avlesing fyri hendan mátaran er longu til tann dagin.",
+      "meterNotFound": "Hesin mátarin varð ikki funnin. Vinarliga vel búfólkið aftur.",
+      "lowerThanPrevious": "Hesin avlesturin er lægri enn tann fyrri skrásetti avlesturin.",
+      "recordFailed": "Kundi ikki skráseta hendan lesnaðin. Vinarliga royn aftur."
+    },
+    "combo": {
+      "label": "Vel Flat & Mátara Rað",
+      "placeholder": "Vel Flat- og mátararøð...",
+      "flat": "Flat {{house}}",
+      "noMeter": "Eingin mátari",
+      "searchPlaceholder": "Leita íbúð nr, mátararøð, búsitandi...",
+      "unitsHeader": "Íbúðareindir",
+      "found": "Íbúðir funnar: {{total}}",
+      "loading": "Lasta íbúgvar...",
+      "noMatch": "Eingin íbúgvi passar til \"{{search}}\".",
+      "unassigned": "Ótilskilað",
+      "itemMeta": "{{name}} · Seinast: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "At taka upp upplestur fyri",
+      "context": "Hús {{house}} · Mátari {{meter}}",
+      "changeResident": "Skift bústað",
+      "readingDate": "Lestrardagur",
+      "readingValue": "Streymmátaraavlesing (kL)",
+      "submit": "Send inn staðfestan lesnað",
+      "recentTitle": "Nýggjari upplestur",
+      "recentEmpty": "Ongar avlesingar skrásettar enn fyri hendan mátaran."
+    },
+    "info": {
+      "title": "Eintón mátaraváttan",
+      "body": "Hvør nýggj avlesing skal vera størri enn ella javnbjóðis fyrra logginum fyri tann mátaran — hetta heldur nýtsluútrokningum rættar og fangar tíðliga transponerað siffur."
+    },
+    "details": {
+      "title": "Valdar eindardetaljur",
+      "flatUnit": "Flat eind",
+      "meterSerial": "Mátararøð",
+      "occupant": "Navn á fólki",
+      "lastDial": "Seinast upptikið uppringing",
+      "noReadings": "Eingin upplestur enn",
+      "monthConsumption": "Mánaðarnýtsla",
+      "empty": "Einki húsarhald valt. Leita og vel ein íbúgva fyri at síggja teirra mátaraupplýsingar her."
+    },
+    "csv": {
+      "noFile": "Vinarliga vel eina CSV fílu at leggja upp.'",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Heinta avlesingar...",
+      "empty": "Eingin upplestur er upptikin enn fyri títt samfelag."
+    },
+    "table": {
+      "meterNumber": "Mátara nr.",
+      "date": "Dagur í mánaðinum",
+      "value": "Value (kL)",
+      "consumption": "Nýtsla (kL)",
+      "source": "Kelda"
+    }
+  },
+  "billingCycles": {
+    "title": "Rokningarringrásir",
+    "loadError": "Kundi ikki heinta rokningarringar. Vinarliga royn aftur.",
+    "paymentUpdateError": "Kundi ikki dagføra gjaldsstøðuna hjá hesi rokningini.",
+    "pdfError": "Kundi ikki heinta PDF. Vinarliga royn aftur.",
+    "finalizeError": "Kundi ikki gera hesa rokningargongdina lidna.",
+    "archiveError": "Kundi ikki arkivera hesa rokningarringrásina.",
+    "loading": "Heinta rokningarringrásir...",
+    "empty": "Ongar rokningarringrásir enn. Opna ein omanfyri fyri at koma í gongd.",
+    "status": {
+      "open": "Opin",
+      "finalized": "Endaliga",
+      "archived": "Arkiverað"
+    },
+    "open": {
+      "title": "Opna eina nýggja rokningarringrás",
+      "noMonth": "Vinarliga vel ein mánað at lata upp.",
+      "error": "Kundi ikki lata upp rokningarringrás fyri tann mánaðin.",
+      "monthAria": "Rokningartíðarskeið mánaður",
+      "opening": "Opning...",
+      "submit": "Opin ringrás"
+    },
+    "table": {
+      "period": "Tíðarskeið",
+      "status": "Støða",
+      "householdsBilled": "Húsarhald roknað",
+      "totalBilled": "Samlað roknað",
+      "actions": "Handlingar"
+    },
+    "actions": {
+      "finalize": "Enda",
+      "finalizing": "Endaliga...",
+      "archive": "Skráseta",
+      "archiving": "Arkivera..."
+    },
+    "filter": {
+      "aria": "Filtur eftir gjaldsstøðu",
+      "all": "Altíð"
+    },
+    "payment": {
+      "paid": "Rindaði",
+      "unpaid": "Ógreitt",
+      "updating": "Dagføring...",
+      "markPaid": "Merkja sum greitt",
+      "markUnpaid": "Merkja sum ógreitt"
+    },
+    "detail": {
+      "title": "Detalja á súkklu — {{period}}",
+      "loading": "Heinta rokningar...",
+      "notFinalized": "Hendan ringrásin er ikki liðug enn — ongar rokningar framleiddar.",
+      "noInvoices": "Ongar rokningar fyri hesa ringrásina.",
+      "noMatch": "Ongar rokningar passa til hetta filtrið."
+    },
+    "invoices": {
+      "household": "Húsarhald",
+      "resident": "Íbúgvi",
+      "meterNumber": "Mátara nr.",
+      "consumption": "Nýtsla (kL)",
+      "tierBreakdown": "Tier sundurbýti",
+      "commonArea": "Felagsøki",
+      "total": "Samantald upphædd",
+      "paymentStatus": "Gjaldsstøða",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Tier {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Kundi ikki heinta gjaldsuppsetingina",
+    "saveError": "Kundi ikki goyma gjaldsuppsetingina",
+    "chartTitle": "Virk mátað nyttugjaldsstig",
+    "axisNote": "Kursurin í ₹/kL, plátumørk í kL",
+    "tableTitle": "Prísstigtalva",
+    "defaultRatesNote": "Vísir forsett prísir — ikki goymt enn.",
+    "addTier": "+ Legg stig til",
+    "saveRates": "Spar gjaldsgjøld",
+    "tierLevel": {
+      "base": "Lag {{tier}} (Grundarlag)",
+      "medium": "Stig {{tier}} (Miðal)",
+      "heavy": "Lag {{tier}} (Tungt)"
+    },
+    "basePrice": {
+      "label": "Grundprísur (₹ / kL, galdandi fyri ALLAR nýtslur)",
+      "note": "Hvør kL verður kravdur hendan fasta rentuna fyrst. Pláturnar niðanfyri leggja EYKA gjøld afturat bert fyri nýtslu, sum kemur innan fyri teirra øki — t.d. ein pláta, sum byrjar við 50 kL, leggur bert sín nýtslustig omanfyri 50 kL."
+    },
+    "table": {
+      "tierLevel": "Stig Stig",
+      "slabLimit": "Plátumark (kL)",
+      "rate": "Prísur á kL",
+      "action": "Gerð"
+    },
+    "commonArea": {
+      "title": "Deild felagsøki kostnaðaruppseting",
+      "loadError": "Kundi ikki heinta kostnaðaruppsetingina fyri felagsøkið",
+      "saveError": "Kundi ikki goyma kostnaðaruppsetingina fyri felagsøkið",
+      "empty": "Eingin kostnaðarlutur goymdur enn.",
+      "labelPlaceholder": "Kostnaðarvørumerki",
+      "perMonth": "/ mánaði",
+      "active": "Virkin",
+      "addItem": "+ Legg kostnaðarpost til",
+      "save": "Goym uppseting av felagsøki"
+    },
+    "distribution": {
+      "title": "Kostnaðarbýtisháttaveljari",
+      "consumption": "Eftir nýtslu (Undirmátað lutfalsligt)",
+      "floorArea": "Eftir íbúð Íbúðarstødd (fm)"
+    },
+    "footer": {
+      "cycleStart": "Byrjanardagur fyri súkklurokning",
+      "cycleStartValue": "í hvørjum mánaði",
+      "autoInvoices": "Sjálvvirkandi PDF Rokningar"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Yvirhálað markið",
+      "statisticalOutlier": "Hagtalsligur útlitur"
+    },
+    "status": {
+      "active": "Virkin",
+      "resolved": "Loyst",
+      "dismissed": "Uppsagdur"
+    },
+    "config": {
+      "title": "Uppseting av lekaavdúking",
+      "subtitle": "Set eitt mánaðarligt nýtslumark og/ella ger hagtalsliga útlitskanning møguliga (flagga eitt húsarhald, hvørs mánaðarliga nýtsla er óvanliga høg í mun til sína egnu søgu).",
+      "loadError": "Kundi ikki heinta ávaringsuppsetingina. Vinarliga royn aftur.",
+      "thresholdRequired": "Eitt mánaðarligt mark (kL) er kravt, tá markáminningar eru virknar.",
+      "saveError": "Kundi ikki goyma hesa uppseting.",
+      "loading": "Heinta uppsetingina...",
+      "threshold": "Mánaðarligt mark (kL)",
+      "sensitivity": "Útlitsviðkvæmi (σ margfaldari)",
+      "enableThreshold": "Virkja markávaring",
+      "enableOutlier": "Virkja hagtalsligar útlitsáminningar",
+      "save": "Goym uppseting",
+      "running": "Renning…",
+      "runNow": "Koyr uppdagan nú"
+    },
+    "alerts": {
+      "title": "Flaggað húsarhald",
+      "loadError": "Kundi ikki heinta áminningar. Vinarliga royn aftur.",
+      "runError": "Kundi ikki koyra lekaavdúking beint nú. Vinarliga royn aftur.",
+      "updateError": "Kundi ikki dagføra hesa ávaring. Vinarliga royn aftur.",
+      "allStatuses": "Allar støður",
+      "loading": "Heinta áminningar...",
+      "empty": "Ongar áminningar at vísa. Set eitt mark ella virkja útlitskanning omanfyri, og trýst síðani á \"Koyr kanning nú\" fyri at meta um núverandi nýtsluna í tínum felagsskapi.",
+      "resolve": "Loysa",
+      "dismiss": "Senda heim"
+    },
+    "table": {
+      "household": "Húsarhald",
+      "resident": "Íbúgvi",
+      "meter": "Mátari",
+      "type": "Slag",
+      "period": "Tíðarskeið",
+      "consumption": "Brúk",
+      "reference": "Tilvísing",
+      "status": "Støða"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Kundi ikki lasta rúgvuvatnkeyp. Vinarliga royn aftur.",
+    "confirmRemove": "Strika {{source}} avhendingina á {{date}}?",
+    "removeError": "Kundi ikki strika hetta keypið. Vinarliga royn aftur.",
+    "count": "Keyp skrásett: {{total}}",
+    "recordButton": "+ Plátukeyp",
+    "loading": "Lasta rúgvuvatnkeyp...",
+    "empty": "Eingi rúgvuvatnkeyp skrásett enn. Trýst á \"Skráset keyp\" fyri at skráseta tangaskipaavhending ella kommunalt veitingarkeyp.",
+    "table": {
+      "date": "Dagur í mánaðinum",
+      "source": "Kelda",
+      "volume": "Rúmd (L)",
+      "unitCost": "Eindarkostnaður",
+      "totalCost": "Samlaður kostnaður",
+      "notes": "Viðmerkingar"
+    },
+    "form": {
+      "addTitle": "Methøgur vatnkeyp í rúgvu",
+      "editTitle": "Rætta hópvatnkeyp",
+      "subtitle": "Fylg við tangaskipaflutningi ella kommunalum veitingarkeypi fyri títt samfelag — hetta er bert skrásett fyri kostnaðarsjónleika og ávirkar ikki húsarhaldsrokningarnar.",
+      "requiredFields": "Vinarliga fyll dagfesting, keldu, rúmd og eindarkostnað út.",
+      "saveError": "Kundi ikki goyma hetta keypið. Vinarliga kanna smálutirnar.",
+      "purchaseDate": "Keypsdagur",
+      "source": "Kelda / veitari",
+      "volume": "Rúmd (litrar)",
+      "unitCost": "Eindarkostnaður (₹/litur)",
+      "totalPreview": "Samlaður kostnaður: {{amount}}",
+      "notes": "Viðmerkingar (valfrítt)",
+      "submit": "Plátukeyp"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} er ikki bygt enn",
+    "profileSaveError": "Kundi ikki goyma tína vangamynd. Vinarliga royn aftur.",
+    "apartmentSaveError": "Kundi ikki goyma íbúðarupplýsingar. Vinarliga royn aftur.",
+    "specsTitle": "Profilspesifikatiónir",
+    "photoUnavailable": "Myndaupload er ikki tøk enn",
+    "changePhoto": "Broyt mynd",
+    "deletePhoto": "Strúka burtur",
+    "photoHint": "JPG ella PNG. Mesta stødd 2MB.",
+    "saveProfile": "Goym vangamynd",
+    "apartmentTitle": "Íbúðardetaljur",
+    "saveApartment": "Goym íbúðarupplýsingar",
+    "tabs": {
+      "profile": "Vangamyndar innstillingar",
+      "apartment": "Íbúðarmynd",
+      "notifications": "Fráboðanarreglur",
+      "billing": "Faktureringssamleggingar",
+      "security": "Trygd og atgongd"
+    },
+    "fields": {
+      "fullName": "Fulla navn",
+      "email": "Teldupostadressa",
+      "emailLocked": "Teldupostur kann ikki broytast her",
+      "phone": "Telefonnummar",
+      "accessLevel": "Atgongdarstig",
+      "accessLevelValue": "Felagsleiðari",
+      "roleLocked": "Leiklutsleiðsla er ikki tøk enn",
+      "apartmentName": "Íbúðarnavn",
+      "mainsSource": "Høvuðskelda",
+      "mainsSourcePlaceholder": "t.d. Kommunal Veiting + Ískoytistangaskip",
+      "address": "Fysisk bústaður"
+    },
+    "security": {
+      "title": "Trygd og atgongd Forskoðan",
+      "twoFactor": "Tvífaktor sannroynd",
+      "twoFactorHint": "Virkjað við innritan",
+      "twoFactorUnavailable": "Tvífaktor-góðkenning er ikki tøk enn",
+      "twoFactorAria": "Tvífaktor-góðkenning (bert forskoðan)",
+      "sessionsLabel": "Virknar umsitingarløtur",
+      "sessionsEmpty": "Setufylgja er ikki tøkt enn — hetta er ein forskoðan av komandi uppsetingini."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Míni atgongumerki",
+      "inbox": "Atgongumerki til búfólk"
+    },
+    "mine": {
+      "title": "Mínir stuðulsmiðlar",
+      "subtitle": "Reis ein spurning ella áhugamál um títt samfelag til skipanarumsitaran.",
+      "emptyCreateHint": "Reis ein spurning ella stúran um títt samfelag. Ein skipanarumsitari fer at kanna og svara her."
+    },
+    "inbox": {
+      "title": "Atgongumerki til búfólk",
+      "subtitle": "Stuðulseðlar og áhugamál, sum íbúgvarnir í tínum samfelag hava vendi sær til tín."
+    }
+  }
+}

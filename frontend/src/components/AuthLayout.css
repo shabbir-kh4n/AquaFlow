@@ -1,4 +1,5 @@
 .af-auth {
+  position: relative;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -50,4 +51,22 @@
 .af-auth__footer a {
   color: var(--af-accent-2);
   font-weight: 700;
+}
+
+.af-auth__corner {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+@media (max-width: 620px) {
+  .af-auth {
+    padding-top: 76px;
+  }
+
+  .af-auth__corner {
+    top: 16px;
+    right: 16px;
+  }
 }

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Activ",
+    "blocked": "Blocat",
+    "terminated": "Terminat"
+  },
+  "sort": {
+    "sortBy": "Filtrează după",
+    "toggleDirection": "Comutați direcția de sortare",
+    "asc": "↑ Asc",
+    "desc": "↓ Desc"
+  },
+  "pagination": {
+    "showing": "Se afișează {{from}}–{{to}} din {{total}}",
+    "prev": "← Precedent",
+    "next": "Următorul →",
+    "page": "Pagina {{page}} din {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Prezentare generală a platformei",
+    "subtitle": "Fiecare administrator al comunității înregistrat, pe întreaga platformă HydroLedger.",
+    "viewAll": "Vedeți toate comunitățile",
+    "loadError": "Nu s-au putut încărca datele platformei în acest moment.",
+    "cards": {
+      "totalCommunities": "Total comunități",
+      "registeredAdmins": "Administratori inregistrati",
+      "totalResidents": "Total Rezidenți",
+      "acrossAllCommunities": "În toate comunitățile",
+      "active": "Activ",
+      "inGoodStanding": "În stare bună",
+      "blockedTerminated": "Blocat / Terminat",
+      "blockedTerminatedBreakdown": "{{blocked}} blocat, {{terminated}} terminat"
+    },
+    "recent": {
+      "title": "Comunități înregistrate recent",
+      "loading": "Încărcare…",
+      "empty": "Nu au fost încă înregistrate comunități.",
+      "table": {
+        "community": "Comunitate",
+        "admin": "Admin",
+        "status": "Stare",
+        "residents": "Rezidenți"
+      }
+    }
+  },
+  "communities": {
+    "count": "Comunități: {{count}}",
+    "loadError": "Nu s-au putut încărca comunitățile. Vă rugăm să încercați din nou.",
+    "searchPlaceholder": "Filtrați după comunitate, numele administratorului sau e-mail",
+    "statusFilter": {
+      "label": "Stare",
+      "all": "Toate"
+    },
+    "sortOptions": {
+      "community": "Comunitate",
+      "admin": "Admin",
+      "residents": "Rezidenți"
+    },
+    "loading": "Se încarcă comunitățile…",
+    "empty": "Nu au fost încă înregistrate comunități.",
+    "noMatch": "Nicio comunitate nu se potrivește cu filtrele dvs.",
+    "table": {
+      "community": "Comunitate",
+      "admin": "Admin",
+      "email": "E-mail",
+      "status": "Stare",
+      "residents": "Rezidenți",
+      "view": "Vedere"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Această comunitate nu a putut fi încărcată. Este posibil să fi fost eliminat.",
+    "statusUpdateError": "Nu s-a putut actualiza starea acestei comunități.",
+    "deleteError": "Nu s-a putut șterge această comunitate.",
+    "loading": "Se încarcă comunitatea...",
+    "notFound": "Comunitatea nu a fost găsită.",
+    "backLink": "← Înapoi la Comunități",
+    "backLinkShort": "Înapoi la Comunități",
+    "eyebrow": "Profilul comunității",
+    "unnamed": "Comunitate fără nume",
+    "noAddress": "Nicio adresă în dosar",
+    "stats": {
+      "residents": "Rezidenți",
+      "status": "Stare"
+    },
+    "actions": {
+      "reactivate": "Reactiva",
+      "block": "Bloc",
+      "terminate": "Terminați",
+      "delete": "Șterge comunitatea"
+    },
+    "blockDialog": {
+      "title": "Blocați acest administrator al comunității?",
+      "message": "Blocați {{name}}? Ei nu se vor putea conecta până când nu vor fi deblocate. Nicio dată nu va fi afectată.",
+      "confirm": "Bloc"
+    },
+    "terminateDialog": {
+      "title": "Terminați acest administrator al comunității?",
+      "message": "Terminați definitiv accesul lui {{name}}? Acest lucru nu poate fi anulat, deși datele comunității lor vor fi păstrate pentru înregistrări.",
+      "confirm": "Terminați"
+    },
+    "deleteDialog": {
+      "title": "Ștergeți această comunitate?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Confirma"
+    },
+    "residents": {
+      "title": "Rezidenți",
+      "registeredCount": "Înregistrat: {{count}}",
+      "empty": "Niciun rezident nu s-a înregistrat încă în această comunitate.",
+      "table": {
+        "flatUnit": "Unitate plată",
+        "meter": "Metru",
+        "resident": "Rezident",
+        "email": "E-mail",
+        "passwordSet": "Setată parolă"
+      },
+      "yes": "Da",
+      "no": "Nu"
+    },
+    "cancel": "Anula",
+    "working": "Lucru…",
+    "deleting": "Se șterge…"
+  },
+  "systemStatus": {
+    "statusError": "Nu s-a putut accesa backend-ul pentru a verifica starea sistemului.",
+    "metricsError": "Istoricul valorilor nu a putut fi încărcat.",
+    "ranges": {
+      "fiveMinutes": "5 minute",
+      "fifteenMinutes": "15 minute",
+      "hour": "Oră",
+      "day": "Zi",
+      "week": "Săptămână",
+      "month": "Lună",
+      "threeMonths": "3 luni"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Cereri/sec",
+      "opsPerSec": "Ops/sec",
+      "latency": "Latența",
+      "lastValue": "{{value}} ultimul",
+      "loading": "Încărcare…",
+      "empty": "Nu s-au înregistrat încă valori pentru acest interval."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API de backend",
+      "checking": "Control…",
+      "reachable": "Accesibil",
+      "unreachable": "Inaccesibil",
+      "connected": "Conectat",
+      "backendApiHint": "Această pagină s-a încărcat din backend, așa că a răspuns.",
+      "database": "Baza de date",
+      "databaseHint": "Conectivitate PostgreSQL, verificată în direct.",
+      "uptime": "Timp de funcționare a backend-ului",
+      "uptimeHint": "De la ultima repornire a aplicației.",
+      "appVersion": "Versiunea aplicației",
+      "appVersionHint": "Versiunea de compilare backend."
+    },
+    "mini": {
+      "latency": "Latența",
+      "readsLatency": "Citește Latența",
+      "writesLatency": "Scrie Latența",
+      "otherLatency": "Altă latență",
+      "connections": "Conexiuni",
+      "totalKeys": "Total chei"
+    },
+    "note": "Solicitările/sec și latența sunt eșantionate din traficul backend live la fiecare 15 secunde și păstrate până la 100 de zile. Acesta este o conectivitate de bază + verificare a traficului - nu înlocuiește monitorizarea completă a performanței aplicației, agregarea jurnalelor sau alertele."
+  },
+  "reports": {
+    "loadError": "Nu s-a putut încărca raportul platformei.",
+    "ranges": {
+      "threeMonths": "3 luni",
+      "sixMonths": "6 luni",
+      "twelveMonths": "12 luni",
+      "custom": "Personalizat"
+    },
+    "sortOptions": {
+      "community": "Comunitate",
+      "usage": "Utilizare",
+      "billed": "Facturat",
+      "residents": "Rezidenți"
+    },
+    "customRange": {
+      "from": "Din",
+      "to": "La",
+      "hint": "Alegeți atât o lună „de la” cât și o lună „până la” pentru a încărca un raport personalizat."
+    },
+    "loading": "Se încarcă raportul...",
+    "cards": {
+      "totalCommunities": "Total comunități",
+      "inThisRange": "În acest interval",
+      "totalResidents": "Total Rezidenți",
+      "acrossAllCommunities": "În toate comunitățile",
+      "overallUsage": "Utilizare generală",
+      "meteredConsumption": "Consumul contorizat",
+      "overallBilled": "Total facturat",
+      "finalizedInvoicesOnly": "Doar facturile finalizate",
+      "avgUsagePerResident": "Utilizare medie / rezident",
+      "avgBillPerResident": "Factura medie / rezident"
+    },
+    "charts": {
+      "usageTitle": "Utilizare la nivel de platformă (kL/lună)",
+      "usageEmpty": "Nu a fost înregistrată nicio utilizare pentru această gamă.",
+      "usageSeries": "Utilizare",
+      "billedTitle": "Suma facturată la nivelul întregii platforme (₹/lună)",
+      "billedEmpty": "Nu au fost finalizate facturi pentru acest interval.",
+      "billedSeries": "Facturat"
+    },
+    "searchPlaceholder": "Filtrați după numele comunității sau al administratorului",
+    "empty": "Nicio comunitate nu are încă date de utilizare sau de facturare pentru acest interval.",
+    "noMatch": "Nicio comunitate nu se potrivește cu filtrul dvs.",
+    "table": {
+      "community": "Comunitate",
+      "admin": "Admin",
+      "residents": "Rezidenți",
+      "usage": "Utilizare (kL)",
+      "billed": "Facturat (₹)",
+      "avgUsagePerResident": "Utilizare medie / rezident",
+      "avgBillPerResident": "Factura medie / rezident"
+    }
+  },
+  "supportTickets": {
+    "title": "Bilete de suport",
+    "subtitle": "Sprijină bilete și preocupări ridicate de rezidenți și administratorii comunității, la nivelul întregii platforme."
+  }
+}

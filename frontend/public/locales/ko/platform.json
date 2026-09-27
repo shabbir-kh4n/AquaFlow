@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "활동적인",
+    "blocked": "막힌",
+    "terminated": "종료됨"
+  },
+  "sort": {
+    "sortBy": "정렬 기준",
+    "toggleDirection": "정렬 방향 전환",
+    "asc": "↑ 오름차순",
+    "desc": "↓ 설명"
+  },
+  "pagination": {
+    "showing": "{{total}} 중 {{from}}~{{to}} 표시 중",
+    "prev": "← 이전",
+    "next": "다음 →",
+    "page": "{{pageCount}} 중 {{page}} 페이지"
+  },
+  "dashboard": {
+    "title": "플랫폼 개요",
+    "subtitle": "전체 HydroLedger 플랫폼에 걸쳐 등록된 모든 커뮤니티 관리자.",
+    "viewAll": "모든 커뮤니티 보기",
+    "loadError": "지금은 플랫폼 데이터를 로드할 수 없습니다.",
+    "cards": {
+      "totalCommunities": "총 커뮤니티",
+      "registeredAdmins": "등록된 관리자",
+      "totalResidents": "총 주민",
+      "acrossAllCommunities": "모든 커뮤니티에서",
+      "active": "활동적인",
+      "inGoodStanding": "양호한 상태",
+      "blockedTerminated": "차단/해지됨",
+      "blockedTerminatedBreakdown": "{{blocked}} 차단됨, {{terminated}} 종료됨"
+    },
+    "recent": {
+      "title": "최근 등록된 커뮤니티",
+      "loading": "로드 중…",
+      "empty": "아직 등록된 커뮤니티가 없습니다.",
+      "table": {
+        "community": "지역 사회",
+        "admin": "관리자",
+        "status": "상태",
+        "residents": "주민"
+      }
+    }
+  },
+  "communities": {
+    "count": "커뮤니티: {{count}}",
+    "loadError": "커뮤니티를 로드할 수 없습니다. 다시 시도해 주세요.",
+    "searchPlaceholder": "커뮤니티, 관리자 이름 또는 이메일로 필터링",
+    "statusFilter": {
+      "label": "상태",
+      "all": "모두"
+    },
+    "sortOptions": {
+      "community": "지역 사회",
+      "admin": "관리자",
+      "residents": "주민"
+    },
+    "loading": "커뮤니티 로드 중…",
+    "empty": "아직 등록된 커뮤니티가 없습니다.",
+    "noMatch": "필터와 일치하는 커뮤니티가 없습니다.",
+    "table": {
+      "community": "지역 사회",
+      "admin": "관리자",
+      "email": "이메일",
+      "status": "상태",
+      "residents": "주민",
+      "view": "보다"
+    }
+  },
+  "communityDetail": {
+    "loadError": "이 커뮤니티를 로드할 수 없습니다. 제거되었을 수도 있습니다.",
+    "statusUpdateError": "이 커뮤니티의 상태를 업데이트할 수 없습니다.",
+    "deleteError": "이 커뮤니티를 삭제할 수 없습니다.",
+    "loading": "커뮤니티 로드 중…",
+    "notFound": "커뮤니티를 찾을 수 없습니다.",
+    "backLink": "← 커뮤니티로 돌아가기",
+    "backLinkShort": "커뮤니티로 돌아가기",
+    "eyebrow": "커뮤니티 프로필",
+    "unnamed": "이름이 없는 커뮤니티",
+    "noAddress": "파일에 주소가 없습니다",
+    "stats": {
+      "residents": "주민",
+      "status": "상태"
+    },
+    "actions": {
+      "reactivate": "재활성화",
+      "block": "차단하다",
+      "terminate": "끝내다",
+      "delete": "커뮤니티 삭제"
+    },
+    "blockDialog": {
+      "title": "이 커뮤니티 관리자를 차단하시겠습니까?",
+      "message": "{{name}}을 차단하시겠습니까? 차단이 해제될 때까지 로그인할 수 없습니다. 데이터는 영향을 받지 않습니다.",
+      "confirm": "차단하다"
+    },
+    "terminateDialog": {
+      "title": "이 커뮤니티 관리자를 종료하시겠습니까?",
+      "message": "{{name}}의 액세스를 영구적으로 종료하시겠습니까? 이 작업은 취소할 수 없지만 해당 커뮤니티의 데이터는 기록용으로 보관됩니다.",
+      "confirm": "끝내다"
+    },
+    "deleteDialog": {
+      "title": "이 커뮤니티를 삭제하시겠습니까?",
+      "message": "이렇게 하면 <strong>{{name}}</strong> 및 모든 가구, 거주자, 계량기, 요금/청구 구성 및 송장 내역이 영구적으로 삭제됩니다. 이 작업은 취소할 수 없습니다.",
+      "typeToConfirm": "계속하려면 <strong>{{word}}</strong>를 입력하세요.",
+      "confirm": "확인하다"
+    },
+    "residents": {
+      "title": "주민",
+      "registeredCount": "등록됨: {{count}}",
+      "empty": "아직 이 커뮤니티에 등록된 주민이 없습니다.",
+      "table": {
+        "flatUnit": "플랫 유닛",
+        "meter": "미터",
+        "resident": "거주자",
+        "email": "이메일",
+        "passwordSet": "비밀번호 설정"
+      },
+      "yes": "예",
+      "no": "아니요"
+    },
+    "cancel": "취소",
+    "working": "일하고 있는…",
+    "deleting": "삭제 중…"
+  },
+  "systemStatus": {
+    "statusError": "시스템 상태를 확인하기 위해 백엔드에 연결할 수 없습니다.",
+    "metricsError": "측정항목 기록을 로드할 수 없습니다.",
+    "ranges": {
+      "fiveMinutes": "5분",
+      "fifteenMinutes": "15분",
+      "hour": "시간",
+      "day": "낮",
+      "week": "주",
+      "month": "월",
+      "threeMonths": "3개월"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}시간",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "요청/초",
+      "opsPerSec": "작업/초",
+      "latency": "숨어 있음",
+      "lastValue": "{{value}} 마지막",
+      "loading": "로드 중…",
+      "empty": "이 범위에 대해서는 아직 기록된 측정항목이 없습니다."
+    },
+    "stats": {
+      "min": "최소: <b>{{value}}</b>",
+      "avg": "평균: <b>{{value}}</b>",
+      "max": "최대: <b>{{value}}</b>",
+      "last": "마지막: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "백엔드 API",
+      "checking": "확인 중…",
+      "reachable": "도달 가능",
+      "unreachable": "연결할 수 없음",
+      "connected": "연결됨",
+      "backendApiHint": "이 페이지는 백엔드에서 로드되어 응답했습니다.",
+      "database": "데이터 베이스",
+      "databaseHint": "PostgreSQL 연결이 실시간으로 확인되었습니다.",
+      "uptime": "백엔드 가동 시간",
+      "uptimeHint": "마지막 응용 프로그램이 다시 시작된 이후입니다.",
+      "appVersion": "앱 버전",
+      "appVersionHint": "백엔드 빌드 버전."
+    },
+    "mini": {
+      "latency": "숨어 있음",
+      "readsLatency": "읽기 지연 시간",
+      "writesLatency": "쓰기 지연 시간",
+      "otherLatency": "기타 지연 시간",
+      "connections": "사이",
+      "totalKeys": "총 키"
+    },
+    "note": "초당 요청 및 대기 시간은 15초마다 라이브 백엔드 트래픽에서 샘플링되어 최대 100일 동안 유지됩니다. 이는 기본 연결 + 트래픽 확인으로, 전체 애플리케이션 성능 모니터링, 로그 집계 또는 경고를 대체하지 않습니다."
+  },
+  "reports": {
+    "loadError": "플랫폼 보고서를 로드할 수 없습니다.",
+    "ranges": {
+      "threeMonths": "3개월",
+      "sixMonths": "6개월",
+      "twelveMonths": "12개월",
+      "custom": "관습"
+    },
+    "sortOptions": {
+      "community": "지역 사회",
+      "usage": "용법",
+      "billed": "청구됨",
+      "residents": "주민"
+    },
+    "customRange": {
+      "from": "에서",
+      "to": "에게",
+      "hint": "사용자 정의 보고서를 로드하려면 \"시작\" 및 \"종료\" 월을 모두 선택하세요."
+    },
+    "loading": "보고서 로드 중…",
+    "cards": {
+      "totalCommunities": "총 커뮤니티",
+      "inThisRange": "이 범위에서",
+      "totalResidents": "총 주민",
+      "acrossAllCommunities": "모든 커뮤니티에서",
+      "overallUsage": "전체 사용량",
+      "meteredConsumption": "측정된 소비량",
+      "overallBilled": "전체 청구",
+      "finalizedInvoicesOnly": "확정된 송장만",
+      "avgUsagePerResident": "평균 사용량 / 거주자",
+      "avgBillPerResident": "평균 청구서 / 거주자"
+    },
+    "charts": {
+      "usageTitle": "플랫폼 전체 사용량(kL/월)",
+      "usageEmpty": "이 범위에 대해 기록된 사용량이 없습니다.",
+      "usageSeries": "용법",
+      "billedTitle": "플랫폼 전체 청구 금액(₹/월)",
+      "billedEmpty": "이 범위에 대해 확정된 송장이 없습니다.",
+      "billedSeries": "청구됨"
+    },
+    "searchPlaceholder": "커뮤니티 또는 관리자 이름으로 필터링",
+    "empty": "아직 이 범위에 대한 사용량 또는 청구 데이터가 있는 커뮤니티가 없습니다.",
+    "noMatch": "필터와 일치하는 커뮤니티가 없습니다.",
+    "table": {
+      "community": "지역 사회",
+      "admin": "관리자",
+      "residents": "주민",
+      "usage": "사용법 (kL)",
+      "billed": "청구됨(₹)",
+      "avgUsagePerResident": "평균 사용량 / 거주자",
+      "avgBillPerResident": "평균 청구서 / 거주자"
+    }
+  },
+  "supportTickets": {
+    "title": "지원 티켓",
+    "subtitle": "플랫폼 전반에 걸쳐 주민과 커뮤니티 관리자가 제기한 티켓과 우려 사항을 지원합니다."
+  }
+}

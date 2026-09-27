@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Laster inn …",
+    "saving": "Lagrer …",
+    "saved": "Lagret.",
+    "uploading": "Laster opp …",
+    "upload": "Last opp",
+    "uploadError": "Kunne ikke laste opp denne filen. Vennligst prøv igjen.",
+    "cancel": "Kansellere",
+    "close": "Lukke",
+    "edit": "Redigere",
+    "remove": "Fjerne",
+    "saveChanges": "Lagre endringer",
+    "bulkSummary": "Behandlet <b>{{total}}</b> rader — <b>{{success}}</b> lyktes, <b>{{failure}}</b> mislyktes.",
+    "rowFailure": "Rad {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Viser {{from}}–{{to}} av {{total}}",
+    "prev": "← Forrige",
+    "next": "Neste →",
+    "page": "Side {{page}} av {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Kunne ikke laste fellesskapsdataene dine akkurat nå.",
+    "title": "{{community}} Dashboard for leiligheter",
+    "titleFallback": "Dashboard for leiligheten din",
+    "subtitle": "Driftsoppsummering for vannverksdelmåling og husholdningsforbruk.",
+    "comingSoon": "Kommer snart",
+    "manageCommunity": "Administrer fellesskap",
+    "noUsageReadings": "Ingen bruksavlesninger registrert ennå.",
+    "cards": {
+      "totalHouseholds": "Husholdninger totalt",
+      "occupied": "Okkupert",
+      "activeMeters": "Aktive målere",
+      "reportingReadings": "Rapportering av avlesninger",
+      "monthlyConsumption": "Månedlig forbruk",
+      "thisCalendarMonth": "Denne kalendermåneden",
+      "latestRecordedMonth": "Siste registrerte måned ({{month}})",
+      "noReadingsYet": "Ingen målinger registrert ennå",
+      "pendingAlerts": "Ventende varsler",
+      "anomalyPreview": "Forhåndsvisning av avviksdeteksjon — ikke tilgjengelig ennå"
+    },
+    "actions": {
+      "label": "Raske administrative handlinger",
+      "uploadReadings": "Last opp måleravlesninger",
+      "configureTariffs": "Konfigurer tariffer",
+      "reportsNotBuilt": "Rapporter er ikke laget ennå",
+      "downloadReports": "Last ned systemrapporter"
+    },
+    "chart": {
+      "title": "Sammenligning av månedlig forbruk (kL)",
+      "subtitle": "Siste {{months}} måneder: mål kontra faktisk forbruk.",
+      "targetSeries": "Mål (forhåndsvisning)",
+      "actualSeries": "Faktisk"
+    },
+    "recent": {
+      "title": "Nylige måleravlesninger",
+      "unit": "Enhet",
+      "resident": "Beboer",
+      "lastReading": "Siste lesing",
+      "consumption": "Forbruk"
+    }
+  },
+  "households": {
+    "loadError": "Kunne ikke laste inn beboere. Vennligst prøv igjen.",
+    "fixFields": "Rett opp de uthevede feltene.",
+    "saveError": "Kunne ikke redde denne beboeren. Vennligst sjekk detaljene.",
+    "confirmRemove": "Vil du fjerne {{name}} fra husholdningskatalogen din?",
+    "removeError": "Kunne ikke fjerne denne beboeren. Vennligst prøv igjen.",
+    "count": "Husholdninger: {{total}}",
+    "bulkUploadButton": "⇪ Masseopplasting",
+    "addResidentButton": "+ Legg til beboer",
+    "searchPlaceholder": "Filtrer etter navn, hus, e-post eller målernr.",
+    "loading": "Laster inn beboere …",
+    "empty": "Ingen innbyggere ennå. Klikk \"Legg til beboer\" for å registrere den første husstanden.",
+    "noMatch": "Ingen innbyggere samsvarer med \"{{search}}\".",
+    "sort": {
+      "label": "Sorter etter",
+      "name": "Navn",
+      "houseNumber": "Husnummer",
+      "dateOfJoining": "Dato for tiltredelse",
+      "toggleDirection": "Veksle sorteringsretning",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Mann",
+      "female": "Hunn",
+      "other": "Annen"
+    },
+    "table": {
+      "name": "Navn",
+      "houseUnit": "Hus / Enhet",
+      "email": "E-post",
+      "phone": "Telefon",
+      "meterNumber": "Måler nr.",
+      "sqft": "Sqft",
+      "joined": "Ble med"
+    },
+    "form": {
+      "addTitle": "Legg til beboer",
+      "editTitle": "Rediger beboer",
+      "editSubtitle": "Dette oppdaterer beboerens detaljer i katalogen din.",
+      "bypassSubtitle": "Du angir denne beboerens passord direkte. Ingen e-post vil bli sendt.",
+      "addSubtitle": "En sett-passord-lenke vil bli sendt på e-post til denne beboeren slik at de kan aktivere sin egen pålogging.",
+      "fullName": "Fullt navn",
+      "houseNumber": "Hus/enhetsnr.",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "meterNumber": "Målernummer",
+      "governmentId": "Offentlig ID",
+      "gender": "Kjønn",
+      "dateOfBirth": "Fødselsdato",
+      "dateOfJoining": "Dato for tiltredelse",
+      "flatSize": "Flat størrelse (sq ft)",
+      "bypassLabel": "Omgå sett-passord-e-post – angi et passord for denne beboeren nå",
+      "password": "Passord",
+      "confirmPassword": "Bekreft passord"
+    },
+    "validation": {
+      "fullNameRequired": "Fullt navn kreves.",
+      "emailRequired": "E-post er påkrevd.",
+      "phoneRequired": "Telefonnummer er påkrevd.",
+      "houseNumberRequired": "Hus-/enhetsnummer er påkrevd.",
+      "houseNumberTaken": "Dette husnummeret er allerede tildelt en annen beboer.",
+      "meterNumberRequired": "Målernummer er påkrevd.",
+      "meterNumberFormat": "Målernummer må se ut som MTR-1234 (4 sifre).",
+      "meterNumberTaken": "Dette målernummeret er allerede tildelt en annen beboer.",
+      "governmentIdRequired": "Offentlig ID er påkrevd.",
+      "governmentIdFormat": "ID må være 6 sifre som begynner med 99 (f.eks. 991234).",
+      "genderRequired": "Vennligst velg et kjønn.",
+      "dateOfBirthRequired": "Fødselsdato er påkrevd.",
+      "dateOfJoiningRequired": "Dato for påmelding er påkrevd.",
+      "passwordRequired": "Passord kreves.",
+      "passwordLength": "Passordet må være på minst 8 tegn.",
+      "confirmPasswordRequired": "Vennligst bekreft passordet.",
+      "passwordMismatch": "Passord stemmer ikke."
+    },
+    "bulk": {
+      "title": "Masseopplasting av beboere",
+      "noFile": "Velg en .csv- eller .xlsx/.xls-fil å laste opp.",
+      "instructions": "Last opp en .csv- eller .xlsx/.xls-fil med kolonnene <code>{{columns}}</code> (passord og flatSizeSqft er begge valgfrie). Rader med et passord angir det direkte; rader uten en får en e-post med et sett passord, det samme som å legge til en beboer manuelt. Dupliserte hus-/målernummer eller e-poster avvises per rad – én dårlig rad vil ikke svikte hele partiet."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Kunne ikke laste inn beboere. Vennligst prøv igjen.",
+    "historyLoadError": "Kunne ikke laste inn leseloggen. Vennligst prøv igjen.",
+    "successMessage": "Vellykket registrert lesing av {{value}} kL for {{house}} (måler: {{meter}})! Beregnet forbruk: {{consumption}} kL.",
+    "tabs": {
+      "single": "Enkel inngang",
+      "csv": "Masseopplasting CSV",
+      "history": "Lese historie"
+    },
+    "source": {
+      "manual": "Håndbok",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Denne beboeren har ikke noe målernummer registrert.",
+      "dateRequired": "Lesedato er påkrevd.",
+      "invalidValue": "Angi en gyldig, ikke-negativ leseverdi.",
+      "duplicate": "En avlesning for denne måleren eksisterer allerede på den datoen.",
+      "meterNotFound": "Denne måleren ble ikke funnet. Vennligst velg beboeren på nytt.",
+      "lowerThanPrevious": "Denne avlesningen er lavere enn den forrige registrerte avlesningen.",
+      "recordFailed": "Kunne ikke registrere denne lesingen. Vennligst prøv igjen."
+    },
+    "combo": {
+      "label": "Velg Flat & Meter Serial",
+      "placeholder": "Velg Flat & Meter Serial...",
+      "flat": "Flat {{house}}",
+      "noMeter": "Ingen måler",
+      "searchPlaceholder": "Søk i leilighetsnummer, målerserie, beboer...",
+      "unitsHeader": "Boligenheter",
+      "found": "Leiligheter funnet: {{total}}",
+      "loading": "Laster inn beboere …",
+      "noMatch": "Ingen innbyggere samsvarer med \"{{search}}\".",
+      "unassigned": "Ikke tilordnet",
+      "itemMeta": "{{name}} · Siste: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Tar opp en lesning for",
+      "context": "Hus {{house}} · Måler {{meter}}",
+      "changeResident": "Bytt beboer",
+      "readingDate": "Lesedato",
+      "readingValue": "Gjeldende måleravlesning (kL)",
+      "submit": "Send inn validert lesing",
+      "recentTitle": "Nylige avlesninger",
+      "recentEmpty": "Ingen målinger registrert ennå for denne måleren."
+    },
+    "info": {
+      "title": "Monotonisk målervalidering",
+      "body": "Hver ny avlesning må være større enn eller lik den forrige loggen for den måleren – dette holder forbruksberegninger nøyaktige og fanger opp transponerte sifre tidlig."
+    },
+    "details": {
+      "title": "Valgte enhetsdetaljer",
+      "flatUnit": "Flat enhet",
+      "meterSerial": "Måler serie",
+      "occupant": "Beboers navn",
+      "lastDial": "Siste innspilte nummer",
+      "noReadings": "Ingen avlesninger ennå",
+      "monthConsumption": "Måneds forbruk",
+      "empty": "Ingen husstand er valgt. Søk og velg en beboer for å se målerdetaljer her."
+    },
+    "csv": {
+      "noFile": "Velg en CSV fil å laste opp.",
+      "instructions": "Last opp en CSV med kolonnene <code>{{columns}}</code>. Rader behandles uavhengig - én dårlig rad vil ikke mislykkes hele partiet."
+    },
+    "history": {
+      "loading": "Laster inn avlesninger …",
+      "empty": "Ingen målinger er registrert ennå for fellesskapet ditt."
+    },
+    "table": {
+      "meterNumber": "Måler nr.",
+      "date": "Dato",
+      "value": "Verdi (kL)",
+      "consumption": "Forbruk (kL)",
+      "source": "Kilde"
+    }
+  },
+  "billingCycles": {
+    "title": "Faktureringssykluser",
+    "loadError": "Kunne ikke laste faktureringssykluser. Vennligst prøv igjen.",
+    "paymentUpdateError": "Kunne ikke oppdatere denne fakturaens betalingsstatus.",
+    "pdfError": "Kunne ikke laste ned PDF. Vennligst prøv igjen.",
+    "finalizeError": "Kunne ikke fullføre denne faktureringssyklusen.",
+    "archiveError": "Kunne ikke arkivere denne faktureringssyklusen.",
+    "loading": "Laster inn faktureringssykluser …",
+    "empty": "Ingen faktureringssykluser ennå. Åpne en ovenfor for å komme i gang.",
+    "status": {
+      "open": "Åpne",
+      "finalized": "Fullført",
+      "archived": "Arkivert"
+    },
+    "open": {
+      "title": "Åpne en ny faktureringssyklus",
+      "noMonth": "Velg en måned å åpne.",
+      "error": "Kunne ikke åpne en faktureringssyklus for den måneden.",
+      "monthAria": "Faktureringsperiode måned",
+      "opening": "Åpning…",
+      "submit": "Åpne syklus"
+    },
+    "table": {
+      "period": "Periode",
+      "status": "Status",
+      "householdsBilled": "Husholdninger fakturert",
+      "totalBilled": "Totalt fakturert",
+      "actions": "Handlinger"
+    },
+    "actions": {
+      "finalize": "Fullfør",
+      "finalizing": "Fullfører …",
+      "archive": "Arkiv",
+      "archiving": "Arkiverer …"
+    },
+    "filter": {
+      "aria": "Filtrer etter betalingsstatus",
+      "all": "Alle"
+    },
+    "payment": {
+      "paid": "Betalt",
+      "unpaid": "Ubetalt",
+      "updating": "Oppdaterer …",
+      "markPaid": "Merk som betalt",
+      "markUnpaid": "Merk som ubetalt"
+    },
+    "detail": {
+      "title": "Syklusdetaljer – {{period}}",
+      "loading": "Laster inn fakturaer …",
+      "notFinalized": "Denne syklusen er ikke fullført ennå – ingen fakturaer generert.",
+      "noInvoices": "Ingen fakturaer for denne syklusen.",
+      "noMatch": "Ingen fakturaer samsvarer med dette filteret."
+    },
+    "invoices": {
+      "household": "Husstand",
+      "resident": "Beboer",
+      "meterNumber": "Måler nr.",
+      "consumption": "Forbruk (kL)",
+      "tierBreakdown": "Nivåfordeling",
+      "commonArea": "Fellesareal",
+      "total": "Total",
+      "paymentStatus": "Betalingsstatus",
+      "pdf": "PDF",
+      "baseLine": "Base: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivå {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Kunne ikke laste inn tariffkonfigurasjonen",
+    "saveError": "Kunne ikke lagre tariffkonfigurasjonen",
+    "chartTitle": "Aktive målte nyttesatsnivåer",
+    "axisNote": "Vurder i ₹/kL, plategrenser i kL",
+    "tableTitle": "Prisnivåtabell",
+    "defaultRatesNote": "Viser standardpriser – ikke lagret ennå.",
+    "addTier": "+ Legg til nivå",
+    "saveRates": "Lagre tariffpriser",
+    "tierLevel": {
+      "base": "Nivå {{tier}} (Basis)",
+      "medium": "Nivå {{tier}} (middels)",
+      "heavy": "Nivå {{tier}} (tung)"
+    },
+    "basePrice": {
+      "label": "Grunnpris (₹ / kL, brukt på ALT forbruk)",
+      "note": "Hver kL belastes først med denne faste prisen. Platene nedenfor legger kun til EKSTRA kostnader for bruk som faller innenfor deres rekkevidde - f.eks. en plate som starter på 50 kL legger bare til sin rate for forbruk over 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivå",
+      "slabLimit": "Plategrense (kL)",
+      "rate": "Pris per kL",
+      "action": "Handling"
+    },
+    "commonArea": {
+      "title": "Konfigurasjon av delt fellesarealkostnad",
+      "loadError": "Kunne ikke laste inn fellesarealkostnadskonfigurasjonen",
+      "saveError": "Kunne ikke lagre kostnadskonfigurasjonen for fellesarealer",
+      "empty": "Ingen kostnadsposter lagret ennå.",
+      "labelPlaceholder": "Etikett for kostnadspost",
+      "perMonth": "/ måned",
+      "active": "Aktiv",
+      "addItem": "+ Legg til kostnadselement",
+      "save": "Lagre konfigurasjon av felles område"
+    },
+    "distribution": {
+      "title": "Velger for kostnadsfordelingsmetode",
+      "consumption": "Etter forbruk (undermålt proporsjonal)",
+      "floorArea": "Etter leilighet Flat Size (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Startdato for syklusfakturering",
+      "cycleStartValue": "1. i hver måned",
+      "autoInvoices": "Autogenerer PDF-fakturaer"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Terskelen er overskredet",
+      "statisticalOutlier": "Statistisk avvik"
+    },
+    "status": {
+      "active": "Aktiv",
+      "resolved": "Løst",
+      "dismissed": "Avvist"
+    },
+    "config": {
+      "title": "Konfigurasjon av lekkasjedeteksjon",
+      "subtitle": "Angi en månedlig forbruksterskel og/eller aktiver statistisk avvikdeteksjon (flagger en husholdning hvis månedlige forbruk er uvanlig høyt sammenlignet med sin egen historie).",
+      "loadError": "Kunne ikke laste varselkonfigurasjonen. Vennligst prøv igjen.",
+      "thresholdRequired": "En månedlig terskel (kL) kreves når terskelvarsler er aktivert.",
+      "saveError": "Kunne ikke lagre denne konfigurasjonen.",
+      "loading": "Laster inn konfigurasjon …",
+      "threshold": "Månedlig terskel (kL)",
+      "sensitivity": "Ytterfølsomhet (σ multiplikator)",
+      "enableThreshold": "Aktiver terskelvarsler",
+      "enableOutlier": "Aktiver varsler om statistiske avvik",
+      "save": "Lagre konfigurasjon",
+      "running": "Kjører …",
+      "runNow": "Kjør deteksjon nå"
+    },
+    "alerts": {
+      "title": "Flaggede husholdninger",
+      "loadError": "Kunne ikke laste inn varsler. Vennligst prøv igjen.",
+      "runError": "Kunne ikke kjøre lekkasjedeteksjon akkurat nå. Vennligst prøv igjen.",
+      "updateError": "Kunne ikke oppdatere dette varselet. Vennligst prøv igjen.",
+      "allStatuses": "Alle statuser",
+      "loading": "Laster inn varsler …",
+      "empty": "Ingen varsler å vise. Konfigurer en terskel eller aktiver uteliggerdeteksjon ovenfor, og klikk deretter på \"Kjør deteksjon nå\" for å evaluere fellesskapets nåværende bruk.",
+      "resolve": "Løse",
+      "dismiss": "Avskjedige"
+    },
+    "table": {
+      "household": "Husstand",
+      "resident": "Beboer",
+      "meter": "Måler",
+      "type": "Type",
+      "period": "Periode",
+      "consumption": "Forbruk",
+      "reference": "Referanse",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Kunne ikke laste inn kjøp av bulkvann. Vennligst prøv igjen.",
+    "confirmRemove": "Vil du fjerne {{source}}-leveringen på {{date}}?",
+    "removeError": "Kunne ikke fjerne dette kjøpet. Vennligst prøv igjen.",
+    "count": "Kjøp registrert: {{total}}",
+    "recordButton": "+ Rekordkjøp",
+    "loading": "Laster inn kjøp av bulkvann …",
+    "empty": "Ingen bulk vannkjøp registrert ennå. Klikk \"Registrer kjøp\" for å logge en tankleveranse eller kommunalt forsyningskjøp.",
+    "table": {
+      "date": "Dato",
+      "source": "Kilde",
+      "volume": "Volum (L)",
+      "unitCost": "Enhetskostnad",
+      "totalCost": "Total kostnad",
+      "notes": "Notater"
+    },
+    "form": {
+      "addTitle": "Rekord bulk vannkjøp",
+      "editTitle": "Rediger bulk vannkjøp",
+      "subtitle": "Spor en tankbillevering eller kommunal forsyningskjøp for samfunnet ditt – dette registreres kun for kostnadssynlighet og påvirker ikke husholdningsfakturaer.",
+      "requiredFields": "Fyll inn dato, kilde, volum og enhetskostnad.",
+      "saveError": "Kunne ikke lagre dette kjøpet. Vennligst sjekk detaljene.",
+      "purchaseDate": "Kjøpsdato",
+      "source": "Kilde / leverandør",
+      "volume": "Volum (liter)",
+      "unitCost": "Enhetskostnad (₹/liter)",
+      "totalPreview": "Total kostnad: {{amount}}",
+      "notes": "Merknader (valgfritt)",
+      "submit": "Rekordkjøp"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} er ikke bygget ennå",
+    "profileSaveError": "Kunne ikke lagre profilen din. Vennligst prøv igjen.",
+    "apartmentSaveError": "Kunne ikke lagre leilighetsdetaljer. Vennligst prøv igjen.",
+    "specsTitle": "Profilspesifikasjoner",
+    "photoUnavailable": "Bildeopplasting er ikke tilgjengelig ennå",
+    "changePhoto": "Bytt bilde",
+    "deletePhoto": "Slett",
+    "photoHint": "JPG eller PNG. Maks størrelse 2MB.",
+    "saveProfile": "Lagre profil",
+    "apartmentTitle": "Leilighetsdetaljer",
+    "saveApartment": "Lagre leilighetsdetaljer",
+    "tabs": {
+      "profile": "Profilinnstillinger",
+      "apartment": "Leilighetsprofil",
+      "notifications": "Varslingsregler",
+      "billing": "Faktureringsintegrasjoner",
+      "security": "Sikkerhet og tilgang"
+    },
+    "fields": {
+      "fullName": "Fullt navn",
+      "email": "E-postadresse",
+      "emailLocked": "E-post kan ikke endres her",
+      "phone": "Telefonnummer",
+      "accessLevel": "Tilgangsnivå",
+      "accessLevelValue": "Fellesskapsadministrator",
+      "roleLocked": "Rolleadministrasjon er ikke tilgjengelig ennå",
+      "apartmentName": "Leilighetens navn",
+      "mainsSource": "Strømkilde",
+      "mainsSourcePlaceholder": "f.eks. Kommunal forsyning + Supplerende tankbiler",
+      "address": "Fysisk adresse"
+    },
+    "security": {
+      "title": "Forhåndsvisning av sikkerhet og tilgang",
+      "twoFactor": "Tofaktorautentisering",
+      "twoFactorHint": "Aktivert ved pålogging",
+      "twoFactorUnavailable": "Tofaktorautentisering er ikke tilgjengelig ennå",
+      "twoFactorAria": "Tofaktorautentisering (kun forhåndsvisning)",
+      "sessionsLabel": "Aktive administratorøkter",
+      "sessionsEmpty": "Øktsporing er ikke tilgjengelig ennå – dette er en forhåndsvisning av det kommende oppsettet."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Mine billetter",
+      "inbox": "Innbyggerbilletter"
+    },
+    "mine": {
+      "title": "Mine støttebilletter",
+      "subtitle": "Still et spørsmål eller bekymring angående fellesskapet ditt til systemadministratoren.",
+      "emptyCreateHint": "Still et spørsmål eller bekymring angående samfunnet ditt. En systemadministrator vil vurdere og svare her."
+    },
+    "inbox": {
+      "title": "Innbyggerbilletter",
+      "subtitle": "Støttebilletter og bekymringer innbyggere i samfunnet ditt har adressert til deg."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Hohe",
+    "blocked": "Kua aukatia",
+    "terminated": "Ka mutu"
+  },
+  "sort": {
+    "sortBy": "Kōmaka mā",
+    "toggleDirection": "Takahurihia te ahunga kōmaka",
+    "asc": "↑ Asc",
+    "desc": "↓ Des"
+  },
+  "pagination": {
+    "showing": "Whakaatu ana {{from}}–{{to}} o {{total}}",
+    "prev": "← Tuhinga o mua",
+    "next": "Panuku →",
+    "page": "Whārangi {{page}} o {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Tirohanga Paerewa",
+    "subtitle": "Ia kaiwhakahaere hapori kua rehitatia, puta noa i te HydroLedger katoa.",
+    "viewAll": "Tirohia nga Hapori Katoa",
+    "loadError": "Kāore i taea te uta i ngā raraunga tūāpapa ināianei.",
+    "cards": {
+      "totalCommunities": "Hapori Tapeke",
+      "registeredAdmins": "Nga kaiwhakahaere kua rehitatia",
+      "totalResidents": "Katoa nga Kainoho",
+      "acrossAllCommunities": "Puta noa i nga hapori katoa",
+      "active": "Hohe",
+      "inGoodStanding": "I te tu pai",
+      "blockedTerminated": "Kua aukati / Kua mutu",
+      "blockedTerminatedBreakdown": "{{blocked}} aukatia, {{terminated}} ka mutu"
+    },
+    "recent": {
+      "title": "Ko nga Hapori kua rehita tata nei",
+      "loading": "Uta ana…",
+      "empty": "Kaore ano kia rehitatia nga hapori.",
+      "table": {
+        "community": "Hapori",
+        "admin": "Kaiwhakahaere",
+        "status": "Tūnga",
+        "residents": "Kainoho"
+      }
+    }
+  },
+  "communities": {
+    "count": "Hapori: {{count}}",
+    "loadError": "Kaore i taea te uta nga hapori. Me ngana ano.",
+    "searchPlaceholder": "Tātarihia mā te hapori, te ingoa kaiwhakahaere, te īmēra rānei",
+    "statusFilter": {
+      "label": "Tūnga",
+      "all": "Katoa"
+    },
+    "sortOptions": {
+      "community": "Hapori",
+      "admin": "Kaiwhakahaere",
+      "residents": "Kainoho"
+    },
+    "loading": "Uta ana i nga hapori…",
+    "empty": "Kaore ano kia rehitatia nga hapori.",
+    "noMatch": "Karekau he hapori e taurite ki o whiriwhiringa.",
+    "table": {
+      "community": "Hapori",
+      "admin": "Kaiwhakahaere",
+      "email": "Īmēra",
+      "status": "Tūnga",
+      "residents": "Kainoho",
+      "view": "Tirohanga"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Kaore i taea te uta i tenei hapori. Kua tangohia pea.",
+    "statusUpdateError": "Kāore i taea te whakahōu i te tūnga o tēnei hapori.",
+    "deleteError": "Kāore i taea tēnei hapori te muku.",
+    "loading": "Uta ana te hapori…",
+    "notFound": "Hapori kaore i kitea.",
+    "backLink": "← Hoki ki nga Hapori",
+    "backLinkShort": "Hoki ki nga Hapori",
+    "eyebrow": "Kōtaha Hapori",
+    "unnamed": "Hapori kore ingoa",
+    "noAddress": "Karekau he wahitau kei runga i te konae",
+    "stats": {
+      "residents": "Kainoho",
+      "status": "Tūnga"
+    },
+    "actions": {
+      "reactivate": "Whakahohehia",
+      "block": "Poraka",
+      "terminate": "Whakamutua",
+      "delete": "Mukua Hapori"
+    },
+    "blockDialog": {
+      "title": "Ārai tēnei kaiwhakahaere hapori?",
+      "message": "Poraka {{name}}? Ka kore e taea e ratou te takiuru kia wetewetehia. Karekau he raraunga e pa.",
+      "confirm": "Poraka"
+    },
+    "terminateDialog": {
+      "title": "Whakamutua tenei kaiwhakahaere hapori?",
+      "message": "Whakamutua te urunga a {{name}}? Kaore e taea te whakakore, ahakoa ka pupurihia nga raraunga o to hapori mo nga rekoata.",
+      "confirm": "Whakamutua"
+    },
+    "deleteDialog": {
+      "title": "Mukua tenei hapori?",
+      "message": "Ma tenei ka muku tonu <strong>{{name}}</strong> me ona whare katoa, nga kainoho, nga mita, te whirihoranga utu/nama, me te hitori o nga nama. Kaore e taea te whakakore i tenei mahi.",
+      "typeToConfirm": "Patohia <strong>{{word}}</strong> ki te haere tonu",
+      "confirm": "Whakaū"
+    },
+    "residents": {
+      "title": "Kainoho",
+      "registeredCount": "Kua rēhitatia: {{count}}",
+      "empty": "Kaore ano nga kainoho i rehita ki tenei hapori.",
+      "table": {
+        "flatUnit": "Waeine Papatahi",
+        "meter": "mita",
+        "resident": "Kainoho",
+        "email": "Īmēra",
+        "passwordSet": "Tautuhi Kupuhipa"
+      },
+      "yes": "Ae",
+      "no": "Kao"
+    },
+    "cancel": "Whakakore",
+    "working": "Mahi…",
+    "deleting": "Muku ana…"
+  },
+  "systemStatus": {
+    "statusError": "Kaore i taea te toro atu ki te tuara ki te tirotiro i te mana o te punaha.",
+    "metricsError": "Kaore i taea te uta i nga hitori inenga.",
+    "ranges": {
+      "fiveMinutes": "5 meneti",
+      "fifteenMinutes": "15 meneti",
+      "hour": "Haora",
+      "day": "Ra",
+      "week": "Wiki",
+      "month": "Marama",
+      "threeMonths": "3 Marama"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Nga tono/hekona",
+      "opsPerSec": "Ops/sec",
+      "latency": "Roopuu",
+      "lastValue": "{{value}} whakamutunga",
+      "loading": "Uta ana…",
+      "empty": "Kaore ano kia rekotia he inenga mo tenei awhe."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Wawaenga: <b>{{value}}</b>",
+      "max": "Mōrahi: <b>{{value}}</b>",
+      "last": "Mutunga: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "API Whakamuri",
+      "checking": "Takitaki ana…",
+      "reachable": "Ka taea te toro atu",
+      "unreachable": "Kare e taea te toro atu",
+      "connected": "Kua hono",
+      "backendApiHint": "I utaina tenei wharangi mai i te tuara, no reira i whakautu.",
+      "database": "Pātengi Raraunga",
+      "databaseHint": "Hononga PostgreSQL, tirohia ora.",
+      "uptime": "Wā Whakamuri",
+      "uptimeHint": "Mai i te tiimata o te tono whakamutunga.",
+      "appVersion": "Putanga Taupānga",
+      "appVersionHint": "Putanga hanga tuara."
+    },
+    "mini": {
+      "latency": "Roopuu",
+      "readsLatency": "Ka panui te Rooputanga",
+      "writesLatency": "Tuhi Roopuu",
+      "otherLatency": "Ētahi atu Rooputanga",
+      "connections": "Hononga",
+      "totalKeys": "Tapeke Kī"
+    },
+    "note": "Ka whakatauirahia nga tono/hekona me te roa mai i nga waka ki muri ia 15 hēkona ka pupurihia mo te 100 ra. He hononga taketake tenei me te tirotiro waka - kaore e whakakapi i te katoa o te aroturuki mahi tono, te whakahiato rangitaki, te matohi ranei."
+  },
+  "reports": {
+    "loadError": "Kāore i taea te uta i te pūrongo tūāpapa.",
+    "ranges": {
+      "threeMonths": "3 Marama",
+      "sixMonths": "6 Marama",
+      "twelveMonths": "12 Marama",
+      "custom": "Ritenga"
+    },
+    "sortOptions": {
+      "community": "Hapori",
+      "usage": "Whakamahinga",
+      "billed": "Kua pire",
+      "residents": "Kainoho"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "Ki",
+      "hint": "Tīpakohia he \"mai\" me \"ki\" marama ki te uta i tetahi ripoata ritenga."
+    },
+    "loading": "Uta ana te ripoata…",
+    "cards": {
+      "totalCommunities": "Hapori Tapeke",
+      "inThisRange": "I tenei awhe",
+      "totalResidents": "Katoa nga Kainoho",
+      "acrossAllCommunities": "Puta noa i nga hapori katoa",
+      "overallUsage": "Whakamahinga Whanui",
+      "meteredConsumption": "Kohi mita",
+      "overallBilled": "Ko te katoa kua nama",
+      "finalizedInvoicesOnly": "Ko nga nama kua oti anake",
+      "avgUsagePerResident": "Whakamahi Taurite / Kainoho",
+      "avgBillPerResident": "Pire Taurite / Kainoho"
+    },
+    "charts": {
+      "usageTitle": "Whakamahinga-Whanui (kL / marama)",
+      "usageEmpty": "Karekau he whakamahinga i tuhia mo tenei awhe.",
+      "usageSeries": "Whakamahinga",
+      "billedTitle": "Te moni nama mo te papa-whanui (₹ / marama)",
+      "billedEmpty": "Karekau he nama i oti mo tenei awhe.",
+      "billedSeries": "Kua pire"
+    },
+    "searchPlaceholder": "Tātarihia mā te ingoa hapori, kaiwhakahaere rānei",
+    "empty": "Karekau he hapori he raraunga whakamahi, nama nama ranei mo tenei awhe.",
+    "noMatch": "Kaore he hapori e taurite ki to tātari.",
+    "table": {
+      "community": "Hapori",
+      "admin": "Kaiwhakahaere",
+      "residents": "Kainoho",
+      "usage": "Whakamahinga (kL)",
+      "billed": "Kua nama (₹)",
+      "avgUsagePerResident": "Whakamahi Taurite / Kainoho",
+      "avgBillPerResident": "Pire Taurite / Kainoho"
+    }
+  },
+  "supportTickets": {
+    "title": "Tikiti Tautoko",
+    "subtitle": "Tautokohia nga tikiti me nga awangawanga i whakaarahia e nga kainoho me nga kaiwhakahaere o te hapori, puta noa i te turanga."
+  }
+}

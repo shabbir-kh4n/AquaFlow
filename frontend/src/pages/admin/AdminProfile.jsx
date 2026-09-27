@@ -1,19 +1,21 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { getAdminProfile, getApartment, updateAdminProfile, updateApartment } from '../../api/profileApi'
 import '../../components/AuthForm.css'
 import './AdminProfile.css'
 
 const SETTINGS_TABS = [
-  { key: 'profile', label: 'Profile Settings', built: true },
-  { key: 'apartment', label: 'Apartment Profile', built: false },
-  { key: 'notifications', label: 'Notification Rules', built: false },
-  { key: 'billing', label: 'Billing Integrations', built: false },
-  { key: 'security', label: 'Security & Access', built: false },
+  { key: 'profile', labelKey: 'profile.tabs.profile', built: true },
+  { key: 'apartment', labelKey: 'profile.tabs.apartment', built: false },
+  { key: 'notifications', labelKey: 'profile.tabs.notifications', built: false },
+  { key: 'billing', labelKey: 'profile.tabs.billing', built: false },
+  { key: 'security', labelKey: 'profile.tabs.security', built: false },
 ]
 
 function AdminProfile() {
   const { user } = useAuth()
+  const { t } = useTranslation('admin')
 
   const [profile, setProfile] = useState(null)
   const [profileForm, setProfileForm] = useState({ fullName: '', phone: '' })
@@ -48,7 +50,7 @@ function AdminProfile() {
       setProfile(updated)
       setProfileSaved(true)
     } catch (err) {
-      setProfileError(err.response?.data?.message || 'Could not save your profile. Please try again.')
+      setProfileError(err.response?.data?.message || t('profile.profileSaveError'))
     } finally {
       setProfileSaving(false)
     }
@@ -64,7 +66,7 @@ function AdminProfile() {
       setApartment(updated)
       setApartmentSaved(true)
     } catch (err) {
-      setApartmentError(err.response?.data?.message || 'Could not save apartment details. Please try again.')
+      setApartmentError(err.response?.data?.message || t('profile.apartmentSaveError'))
     } finally {
       setApartmentSaving(false)
     }
@@ -83,7 +85,7 @@ function AdminProfile() {
         {SETTINGS_TABS.map((tab) =>
           tab.built ? (
             <button key={tab.key} type="button" className="af-profile__tab af-profile__tab--active">
-              {tab.label}
+              {t(tab.labelKey)}
             </button>
           ) : (
             <button
@@ -91,9 +93,9 @@ function AdminProfile() {
               type="button"
               className="af-profile__tab"
               disabled
-              title={`${tab.label} isn't built yet`}
+              title={t('profile.tabNotBuilt', { tab: t(tab.labelKey) })}
             >
-              {tab.label}
+              {t(tab.labelKey)}
             </button>
           ),
         )}
@@ -101,17 +103,17 @@ function AdminProfile() {
 
       <div className="af-profile__main">
         <section className="af-profile__panel">
-          <h3>Profile Specifications</h3>
+          <h3>{t('profile.specsTitle')}</h3>
           <div className="af-profile__photo-row">
             <span className="af-profile__avatar">{initials}</span>
             <div className="af-profile__photo-actions">
-              <button type="button" className="af-btn af-btn--cyan" disabled title="Photo upload isn't available yet">
-                Change Photo
+              <button type="button" className="af-btn af-btn--cyan" disabled title={t('profile.photoUnavailable')}>
+                {t('profile.changePhoto')}
               </button>
-              <button type="button" className="af-btn af-btn--outline" disabled title="Photo upload isn't available yet">
-                Delete
+              <button type="button" className="af-btn af-btn--outline" disabled title={t('profile.photoUnavailable')}>
+                {t('profile.deletePhoto')}
               </button>
-              <p className="af-profile__hint">JPG or PNG. Max size 2MB.</p>
+              <p className="af-profile__hint">{t('profile.photoHint')}</p>
             </div>
           </div>
 
@@ -119,7 +121,7 @@ function AdminProfile() {
             {profileError && <div className="af-form__error">{profileError}</div>}
             <div className="af-form__row">
               <div className="af-form__field">
-                <label htmlFor="fullName">Full Name</label>
+                <label htmlFor="fullName">{t('profile.fields.fullName')}</label>
                 <input
                   id="fullName"
                   value={profileForm.fullName}
@@ -130,13 +132,13 @@ function AdminProfile() {
                 />
               </div>
               <div className="af-form__field">
-                <label htmlFor="email">Email Address</label>
-                <input id="email" value={profile?.email || ''} disabled title="Email can't be changed here" />
+                <label htmlFor="email">{t('profile.fields.email')}</label>
+                <input id="email" value={profile?.email || ''} disabled title={t('profile.fields.emailLocked')} />
               </div>
             </div>
             <div className="af-form__row">
               <div className="af-form__field">
-                <label htmlFor="phone">Phone Number</label>
+                <label htmlFor="phone">{t('profile.fields.phone')}</label>
                 <input
                   id="phone"
                   value={profileForm.phone}
@@ -147,26 +149,26 @@ function AdminProfile() {
                 />
               </div>
               <div className="af-form__field">
-                <label htmlFor="accessLevel">Access Level</label>
-                <input id="accessLevel" value="Community Administrator" disabled title="Role management isn't available yet" />
+                <label htmlFor="accessLevel">{t('profile.fields.accessLevel')}</label>
+                <input id="accessLevel" value={t('profile.fields.accessLevelValue')} disabled title={t('profile.fields.roleLocked')} />
               </div>
             </div>
             <div className="af-profile__save-row">
-              {profileSaved && <span className="af-profile__saved">Saved.</span>}
+              {profileSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
               <button type="submit" className="af-form__submit" disabled={profileSaving || !profile}>
-                {profileSaving ? 'Saving…' : 'Save Profile'}
+                {profileSaving ? t('shared.saving') : t('profile.saveProfile')}
               </button>
             </div>
           </form>
         </section>
 
         <section className="af-profile__panel">
-          <h3>Apartment Details</h3>
+          <h3>{t('profile.apartmentTitle')}</h3>
           <form onSubmit={handleApartmentSubmit}>
             {apartmentError && <div className="af-form__error">{apartmentError}</div>}
             <div className="af-form__row">
               <div className="af-form__field">
-                <label htmlFor="apartmentName">Apartment Name</label>
+                <label htmlFor="apartmentName">{t('profile.fields.apartmentName')}</label>
                 <input
                   id="apartmentName"
                   value={apartmentForm.name}
@@ -177,10 +179,10 @@ function AdminProfile() {
                 />
               </div>
               <div className="af-form__field">
-                <label htmlFor="mainsSource">Mains Source</label>
+                <label htmlFor="mainsSource">{t('profile.fields.mainsSource')}</label>
                 <input
                   id="mainsSource"
-                  placeholder="e.g. Municipal Supply + Supplemental Tankers"
+                  placeholder={t('profile.fields.mainsSourcePlaceholder')}
                   value={apartmentForm.mainsSource}
                   onChange={(e) => {
                     setApartmentForm((prev) => ({ ...prev, mainsSource: e.target.value }))
@@ -191,7 +193,7 @@ function AdminProfile() {
             </div>
             <div className="af-form__row">
               <div className="af-form__field">
-                <label htmlFor="address">Physical Address</label>
+                <label htmlFor="address">{t('profile.fields.address')}</label>
                 <input
                   id="address"
                   value={apartmentForm.address}
@@ -203,9 +205,9 @@ function AdminProfile() {
               </div>
             </div>
             <div className="af-profile__save-row">
-              {apartmentSaved && <span className="af-profile__saved">Saved.</span>}
+              {apartmentSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
               <button type="submit" className="af-form__submit" disabled={apartmentSaving || !apartment}>
-                {apartmentSaving ? 'Saving…' : 'Save Apartment Details'}
+                {apartmentSaving ? t('shared.saving') : t('profile.saveApartment')}
               </button>
             </div>
           </form>
@@ -214,23 +216,23 @@ function AdminProfile() {
 
       <aside className="af-profile__side">
         <section className="af-profile__panel">
-          <h3>Security &amp; Access Preview</h3>
+          <h3>{t('profile.security.title')}</h3>
           <div className="af-profile__security-row">
             <div>
-              <strong>Two-Factor Authentication</strong>
-              <p>Enabled on login</p>
+              <strong>{t('profile.security.twoFactor')}</strong>
+              <p>{t('profile.security.twoFactorHint')}</p>
             </div>
             <button
               type="button"
               className="af-profile__toggle af-profile__toggle--off"
               disabled
-              title="Two-factor authentication isn't available yet"
-              aria-label="Two-factor authentication (preview only)"
+              title={t('profile.security.twoFactorUnavailable')}
+              aria-label={t('profile.security.twoFactorAria')}
             />
           </div>
 
-          <p className="af-profile__sessions-label">Active Admin Sessions</p>
-          <p className="af-profile__empty">Session tracking isn't available yet — this is a preview of the upcoming layout.</p>
+          <p className="af-profile__sessions-label">{t('profile.security.sessionsLabel')}</p>
+          <p className="af-profile__empty">{t('profile.security.sessionsEmpty')}</p>
         </section>
       </aside>
     </div>

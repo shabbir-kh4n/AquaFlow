@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Uždaryti",
+    "signUpTitle": "Užregistruokite savo bendruomenę",
+    "signInTitle": "Sveiki sugrįžę",
+    "signUpSubtitle": "Sukurkite bendruomenės administratoriaus paskyrą, kad pradėtumėte tvarkyti gyventojus ir atsiskaityti.",
+    "signInSubtitle": "Prisijunkite, kad peržiūrėtumėte vandens suvartojimą ir atsiskaitymą."
+  },
+  "signIn": {
+    "errorFallback": "Nepavyko prisijungti. Bandykite dar kartą.",
+    "emailLabel": "El. paštas",
+    "passwordLabel": "Slaptažodis",
+    "rememberMe": "Prisimink mane",
+    "forgotPassword": "Pamiršote slaptažodį?",
+    "submitting": "Prisijungiama…",
+    "submit": "Prisijunkite",
+    "noAccount": "Neturite paskyros?",
+    "signUpLink": "Užsiregistruoti"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Slaptažodžiai nesutampa.",
+      "communityRequired": "Būtinas bendruomenės pavadinimas.",
+      "termsRequired": "Prašome sutikti su paslaugų teikimo sąlygomis ir privatumo politika.",
+      "fallback": "Nepavyko sukurti paskyros. Bandykite dar kartą."
+    },
+    "hint": "Čia registruojasi tik bendruomenės administratoriai. Kai būsite prisijungę, patys pridėsite savo gyventojų duomenis – jie patys neprisiregistruoja.",
+    "fullNameLabel": "Pilnas vardas",
+    "emailLabel": "El. paštas",
+    "phoneLabel": "Telefono numeris",
+    "communityNameLabel": "Bendruomenės pavadinimas",
+    "passwordLabel": "Slaptažodis",
+    "confirmPasswordLabel": "Patvirtinkite slaptažodį",
+    "agreeTerms": "Sutinku su <termsLink>paslaugų teikimo sąlygomis</termsLink> ir <privacyLink>privatumo politika</privacyLink>",
+    "submitting": "Kuriama paskyra…",
+    "submit": "Sukurti administratoriaus paskyrą",
+    "haveAccount": "Jau turite paskyrą?",
+    "signInLink": "Prisijunkite"
+  },
+  "installPrompt": {
+    "title": "Įdiegti HydroLedger",
+    "description": "Pridėkite jį prie pagrindinio ekrano, kad galėtumėte greitai pasiekti.",
+    "dismiss": "Atsisakyti",
+    "install": "Įdiegti"
+  },
+  "setPassword": {
+    "title": "Nustatykite slaptažodį",
+    "loading": "Įkeliama…",
+    "subtitle": "Sveiki, {{name}}, pasirinkite {{email}} slaptažodį, kad suaktyvintumėte HydroLedger paskyrą.",
+    "errors": {
+      "invalidLink": "Ši nuoroda neteisinga arba pasibaigė.",
+      "tooShort": "Slaptažodį turi sudaryti bent 8 simboliai.",
+      "mismatch": "Slaptažodžiai nesutampa.",
+      "fallback": "Nepavyko nustatyti slaptažodžio. Bandykite dar kartą."
+    },
+    "passwordLabel": "Slaptažodis",
+    "confirmPasswordLabel": "Patvirtinkite slaptažodį",
+    "submitting": "Nustatomas slaptažodis…",
+    "submit": "Nustatykite slaptažodį ir prisijunkite"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Asistentas",
+      "resident": "Paklauskite apie savo paskyrą",
+      "admin": "Bendruomenės asistentas",
+      "platform": "Platformos asistentas",
+      "default": "Padėjėjas"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Kas yra HydroLedger?",
+        "tieredBilling": "Kaip veikia pakopinis atsiskaitymas?",
+        "leaks": "Kaip aptinkami nutekėjimai?"
+      },
+      "resident": {
+        "billEstimate": "Kokia dabartinė mano sąskaitos sąmata?",
+        "alerts": "Ar turiu naudojimo įspėjimų?",
+        "readings": "Rodyti paskutinius mano skaitiklio rodmenis"
+      },
+      "admin": {
+        "households": "Kiek namų ūkių turime?",
+        "billingCycles": "Išvardykite mūsų paskutinius atsiskaitymo ciklus",
+        "tariff": "Koks dabartinis mūsų tarifų planas?"
+      },
+      "platform": {
+        "communities": "Išvardykite visas registruotas bendruomenes",
+        "usageReport": "Rodyti platformos naudojimo ataskaitą",
+        "systemStatus": "Kokia sistemos būsena?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Per greitai siunčiate pranešimus – šiek tiek palaukite ir bandykite dar kartą.",
+      "unavailable": "Padėjėjas laikinai nepasiekiamas. Netrukus bandykite dar kartą.",
+      "generic": "Kažkas nepavyko siunčiant šį pranešimą. Bandykite dar kartą."
+    },
+    "emptyHint": "Klauskite manęs bet ko – matau tik jūsų duomenis.",
+    "closeAssistant": "Uždaryti asistentą",
+    "openAssistant": "Atidaryti asistentą",
+    "inputPlaceholder": "Įveskite žinutę…",
+    "inputLabel": "Pranešimas",
+    "send": "Siųsti"
+  },
+  "supportBoard": {
+    "defaultTitle": "Palaikymo bilietai",
+    "defaultCreateLabel": "Kelti naują susirūpinimą",
+    "status": {
+      "open": "Atidaryti",
+      "inProgress": "Vykdoma",
+      "resolved": "Išspręsta",
+      "closed": "Uždaryta"
+    },
+    "tabs": {
+      "all": "Visi bilietai"
+    },
+    "recipients": {
+      "admin": "Bendruomenės administratorius",
+      "systemAdmin": "Sistemos administratorius",
+      "both": "Bendruomenės administratorius + sistemos administratorius"
+    },
+    "roles": {
+      "resident": "Gyventojas",
+      "admin": "Admin"
+    },
+    "toRecipients": "Kam: {{recipients}}",
+    "raisedByResident": "Užaugino {{name}} gyventojas",
+    "raisedByAdmin": "Iškėlė administratorius {{name}}",
+    "refresh": "Atnaujinti",
+    "stats": {
+      "openLabel": "Atidarykite pateikimus",
+      "openHint": "Laukiama peržiūros",
+      "inProgressLabel": "Vykdoma",
+      "inProgressHint": "Dirbama",
+      "resolvedLabel": "Išspręsta",
+      "resolvedHint": "Sėkmingai uždaryta"
+    },
+    "searchPlaceholder": "Ieškoti bilietų pagal temą, leidimą…",
+    "loadingTickets": "Įkeliami bilietai…",
+    "empty": {
+      "title": "Palaikymo bilietų nerasta",
+      "body": "Šiuo metu neturite atidarytų arba įrašytų palaikymo užklausų, atitinkančių šį filtrą.",
+      "cta": "Pateikite susirūpinimą"
+    },
+    "errors": {
+      "loadList": "Nepavyko įkelti palaikymo bilietų. Bandykite dar kartą.",
+      "loadDetail": "Nepavyko įkelti šio bilieto. Bandykite dar kartą.",
+      "required": "Reikalinga ir tema, ir pranešimas.",
+      "recipientRequired": "Pasirinkite bent vieną gavėją (bendruomenės administratorių ir (arba) sistemos administratorių).",
+      "submitFallback": "Nepavyko pateikti šio bilieto. Bandykite dar kartą.",
+      "sendReply": "Nepavyko išsiųsti šio pranešimo. Bandykite dar kartą.",
+      "updateStatus": "Nepavyko atnaujinti šio bilieto būsenos. Bandykite dar kartą."
+    },
+    "form": {
+      "defaultHint": "Toliau aprašykite savo problemą arba susirūpinimą.",
+      "subjectLabel": "Tema",
+      "subjectPlaceholder": "Trumpa jūsų problemos santrauka",
+      "messageLabel": "Pranešimas",
+      "messagePlaceholder": "Išsamiai aprašykite, kas vyksta…",
+      "recipientsLabel": "Nusiųskite šį rūpestį",
+      "cancel": "Atšaukti",
+      "submitting": "Pateikiama…",
+      "submit": "Pateikti bilietą"
+    },
+    "detail": {
+      "loading": "Įkeliamas bilietas…",
+      "replyPlaceholder": "Rašyti atsakymą…",
+      "close": "Uždaryti",
+      "sending": "Siunčiama…",
+      "sendReply": "Siųsti atsakymą"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Sveiki sugrįžę, {{name}}",
+    "openMenu": "Atidaryti meniu",
+    "closeMenu": "Uždaryti meniu",
+    "logout": "Atsijungti",
+    "search": "Ieškoti",
+    "notifications": "Pranešimai"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Prietaisų skydelis",
+      "households": "Namų ūkių katalogas",
+      "meterReadings": "Skaitiklių rodmenys",
+      "billing": "Atsiskaitymo valdymas",
+      "bulkPurchases": "Masiniai pirkimai",
+      "reports": "Ataskaitos",
+      "waterLeakage": "Vandens nutekėjimas",
+      "support": "Palaikymas / rūpesčiai",
+      "tariffPlans": "Tarifų planai",
+      "announcements": "Skelbimai",
+      "profile": "Profilis"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Štai jūsų bendruomenės momentinė nuotrauka."
+      },
+      "households": {
+        "title": "Namų ūkių katalogas",
+        "subtitle": "Pridėkite, atnaujinkite ir tvarkykite bendruomenėje gyvenančius gyventojus."
+      },
+      "meterReadings": {
+        "title": "Vandens skaitiklių rodmenų mazgas",
+        "subtitle": "Ieškokite gyventojo ir užrašykite jo vandens skaitiklio rodmenis."
+      },
+      "tariffPlans": {
+        "title": "Tarifų konfigūracija",
+        "subtitle": "Konfigūruokite pakopinius tarifų limitus, bendras bendrojo ploto išlaidas ir paskirstymo metodus savo butų bendrijai."
+      },
+      "billing": {
+        "title": "Atsiskaitymo valdymas",
+        "subtitle": "Atidarykite, užbaigkite ir archyvuokite atsiskaitymo ciklus ir peržiūrėkite detalizuotas sąskaitas faktūras kiekvienam namų ūkiui."
+      },
+      "bulkPurchases": {
+        "title": "Masiniai pirkimai",
+        "subtitle": "Įrašykite tanklaivių pristatymus ir komunalinių prekių pirkimus savo bendruomenei."
+      },
+      "waterLeakage": {
+        "title": "Vandens nutekėjimas",
+        "subtitle": "Konfigūruokite slenksčio ir nuokrypio įspėjimus apie nuotėkį ir peržiūrėkite pažymėtus namų ūkius."
+      },
+      "support": {
+        "title": "Palaikymas / rūpesčiai",
+        "subtitle": "Pakelkite savo bilietus sistemos administratoriui arba tvarkykite su jumis susijusias problemas."
+      },
+      "profile": {
+        "title": "Nustatymai ir profilis",
+        "subtitle": "Tvarkykite savo sąskaitos duomenis ir buto informaciją."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Bendruomenės administratorius",
+    "notBuilt": "{{label}} dar nepastatytas",
+    "searchPlaceholder": "Ieškokite bet ko…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Ataskaitos",
+      "description": "Jūsų bendruomenės suvartojimo, atsiskaitymo ir išsaugojimo ataskaitos."
+    },
+    "announcements": {
+      "title": "Skelbimai",
+      "description": "Siųskite bendruomenės pranešimus savo gyventojams."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} netrukus pasirodys"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Prietaisų skydelis",
+      "usageHistory": "Naudojimo istorija",
+      "bills": "Mano sąskaitos",
+      "recommendations": "Rekomendacijos",
+      "reports": "Ataskaitos",
+      "support": "Palaikymas / rūpesčiai",
+      "notifications": "Pranešimai",
+      "profile": "Profilis"
+    },
+    "pages": {
+      "usageHistory": "Jūsų naudojimo istorija",
+      "billing": "Atsiskaitymas ir sąskaitos faktūros",
+      "notifications": "Pranešimai",
+      "recommendations": "Rekomendacijos",
+      "support": "Palaikymas / rūpesčiai"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Gyventojų navigacija",
+    "fallbackName": "Gyventojas",
+    "unit": "Vienetas {{number}}",
+    "comingSoon": "{{label}} netrukus pasirodys",
+    "profile": "Profilis",
+    "searchPlaceholder": "Paieškos analizė, sąskaitos…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Prietaisų skydelis",
+      "communities": "bendruomenės",
+      "reports": "Ataskaitos",
+      "supportTickets": "Palaikymo bilietai",
+      "systemStatus": "Sistemos būsena"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Visos platformos momentinė nuotrauka iš kiekvienos registruotos bendruomenės."
+      },
+      "communities": {
+        "title": "bendruomenės",
+        "subtitle": "Kiekvienas registruotas bendruomenės administratorius ir jų bendruomenė vienoje vietoje."
+      },
+      "reports": {
+        "title": "Ataskaitos",
+        "subtitle": "Visos platformos vandens suvartojimo ir atsiskaitymo skaičiai pagal bendruomenę ir laikui bėgant."
+      },
+      "supportTickets": {
+        "title": "Palaikymo bilietai",
+        "subtitle": "Palaikykite bilietus ir rūpesčius, kuriuos iškėlė gyventojai ir bendruomenės administratoriai, visoje platformoje."
+      },
+      "systemStatus": {
+        "title": "Sistemos būsena",
+        "subtitle": "Backend ryšys ir pagrindinė vykdymo trukmė."
+      }
+    },
+    "fallbackName": "Sistemos administratorius",
+    "platformOwner": "Platformos savininkas",
+    "searchPlaceholder": "Ieškoti bendruomenių…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Kalba: {{language}}",
+    "searchPlaceholder": "Ieškoti kalba…",
+    "noMatches": "Jokių atitikmenų"
+  }
+}

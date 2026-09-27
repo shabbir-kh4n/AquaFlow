@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Încărcare…",
+    "saving": "Economisire…",
+    "saved": "Salvat.",
+    "uploading": "Se încarcă...",
+    "upload": "Încărcați",
+    "uploadError": "Nu s-a putut încărca acest fișier. Vă rugăm să încercați din nou.",
+    "cancel": "Anula",
+    "close": "Aproape",
+    "edit": "Edita",
+    "remove": "Elimina",
+    "saveChanges": "Salvați modificările",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Rândul {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Se afișează {{from}}–{{to}} din {{total}}",
+    "prev": "← Precedent",
+    "next": "Următorul →",
+    "page": "Pagina {{page}} din {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Nu s-au putut încărca datele comunității dvs. acum.",
+    "title": "{{community}} Tabloul de bord al apartamentului",
+    "titleFallback": "Tabloul de bord al apartamentului dvs",
+    "subtitle": "Rezumat operațional pentru subcontorizarea utilității de apă și consumul casnic.",
+    "comingSoon": "În curând",
+    "manageCommunity": "Gestionează comunitatea",
+    "noUsageReadings": "Nu s-au înregistrat încă citiri de utilizare.",
+    "cards": {
+      "totalHouseholds": "Total gospodării",
+      "occupied": "Ocupat",
+      "activeMeters": "Contoare active",
+      "reportingReadings": "Raportarea citirilor",
+      "monthlyConsumption": "Consum lunar",
+      "thisCalendarMonth": "Luna aceasta calendaristică",
+      "latestRecordedMonth": "Ultima lună înregistrată ({{month}})",
+      "noReadingsYet": "Nu s-au înregistrat încă citiri",
+      "pendingAlerts": "Alerte în așteptare",
+      "anomalyPreview": "Previzualizarea detectării anomaliilor — nu este încă disponibilă"
+    },
+    "actions": {
+      "label": "Acțiuni administrative rapide",
+      "uploadReadings": "Încărcați citirile contorului",
+      "configureTariffs": "Configurați tarife",
+      "reportsNotBuilt": "Rapoartele nu sunt încă create",
+      "downloadReports": "Descărcați rapoarte de sistem"
+    },
+    "chart": {
+      "title": "Comparația consumului lunar (kL)",
+      "subtitle": "Ultimele {{months}} luni: consumul vizat versus consumul real.",
+      "targetSeries": "Țintă (previzualizare)",
+      "actualSeries": "Real"
+    },
+    "recent": {
+      "title": "Citiri recente ale contorului",
+      "unit": "Unitate",
+      "resident": "Rezident",
+      "lastReading": "Ultima Lectură",
+      "consumption": "Consum"
+    }
+  },
+  "households": {
+    "loadError": "Nu s-au putut încărca rezidenții. Vă rugăm să încercați din nou.",
+    "fixFields": "Vă rugăm să remediați câmpurile evidențiate.",
+    "saveError": "Nu s-a putut salva acest rezident. Vă rugăm să verificați detaliile.",
+    "confirmRemove": "Eliminați {{name}} din directorul gospodăriilor dvs.?",
+    "removeError": "Acest rezident nu a putut fi eliminat. Vă rugăm să încercați din nou.",
+    "count": "Gospodării: {{total}}",
+    "bulkUploadButton": "⇪ Încărcare în bloc",
+    "addResidentButton": "+ Adăugați un rezident",
+    "searchPlaceholder": "Filtrați după nume, casă, e-mail sau nr.",
+    "loading": "Se încarcă rezidenții...",
+    "empty": "Încă nu există locuitori. Faceți clic pe „Adăugați rezident” pentru a înregistra prima gospodărie.",
+    "noMatch": "Niciun rezident nu se potrivește cu „{{search}}”.",
+    "sort": {
+      "label": "Filtrează după",
+      "name": "Nume",
+      "houseNumber": "Numărul casei",
+      "dateOfJoining": "Data aderării",
+      "toggleDirection": "Comutați direcția de sortare",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "gender": {
+      "male": "Bărbat",
+      "female": "Femeie",
+      "other": "Alte"
+    },
+    "table": {
+      "name": "Nume",
+      "houseUnit": "Casa/Unitatea",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "meterNumber": "Contor nr.",
+      "sqft": "mp",
+      "joined": "S-a alăturat"
+    },
+    "form": {
+      "addTitle": "Adăugați un rezident",
+      "editTitle": "Editează rezident",
+      "editSubtitle": "Aceasta actualizează detaliile rezidentului din directorul dvs.",
+      "bypassSubtitle": "Setați direct parola acestui rezident. Nu va fi trimis niciun e-mail.",
+      "addSubtitle": "Acest rezident va fi trimis prin e-mail un link cu o parolă stabilită, astfel încât acesta să își poată activa propria autentificare.",
+      "fullName": "Numele complet",
+      "houseNumber": "Casa/unitatea nr.",
+      "email": "E-mail",
+      "phone": "Număr de telefon",
+      "meterNumber": "Numărul contorului",
+      "governmentId": "ID guvernamental",
+      "gender": "Gen",
+      "dateOfBirth": "Data nașterii",
+      "dateOfJoining": "Data aderării",
+      "flatSize": "Dimensiune plată (mp)",
+      "bypassLabel": "Ocoliți e-mailul set-password — setați acum o parolă pentru acest rezident",
+      "password": "Parolă",
+      "confirmPassword": "Confirmați parola"
+    },
+    "validation": {
+      "fullNameRequired": "Numele complet este necesar.",
+      "emailRequired": "E-mailul este obligatoriu.",
+      "phoneRequired": "Numărul de telefon este obligatoriu.",
+      "houseNumberRequired": "Numărul casei/unității este necesar.",
+      "houseNumberTaken": "Acest număr de casă este deja atribuit unui alt rezident.",
+      "meterNumberRequired": "Numărul contorului este necesar.",
+      "meterNumberFormat": "Numărul contorului trebuie să arate ca MTR-1234 (4 cifre).",
+      "meterNumberTaken": "Acest număr de contor este deja atribuit unui alt rezident.",
+      "governmentIdRequired": "Este necesar un act de identitate guvernamental.",
+      "governmentIdFormat": "ID-ul trebuie să aibă 6 cifre, începând cu 99 (de exemplu, 991234).",
+      "genderRequired": "Vă rugăm să selectați un sex.",
+      "dateOfBirthRequired": "Data nașterii este obligatorie.",
+      "dateOfJoiningRequired": "Data aderării este obligatorie.",
+      "passwordRequired": "Parola este necesară.",
+      "passwordLength": "Parola trebuie să aibă cel puțin 8 caractere.",
+      "confirmPasswordRequired": "Vă rugăm să confirmați parola.",
+      "passwordMismatch": "Parolele nu se potrivesc."
+    },
+    "bulk": {
+      "title": "Încărcare în bloc Rezidenți",
+      "noFile": "Vă rugăm să alegeți un fișier .csv sau .xlsx/.xls de încărcat.",
+      "instructions": "Încărcați un fișier .csv sau .xlsx/.xls cu coloanele <code>{{columns}}</code> (parola și flatSizeSqft sunt ambele opționale). Rândurile cu o parolă o setează direct; rândurile fără unul primesc un e-mail cu o parolă setată, la fel ca și adăugarea manuală a unui rezident. Numerele sau e-mailurile duplicate ale casei/contorului sunt respinse pe rând - un rând greșit nu va eșua întregul lot."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Nu s-au putut încărca rezidenții. Vă rugăm să încercați din nou.",
+    "historyLoadError": "Nu s-a putut încărca istoricul de citire. Vă rugăm să încercați din nou.",
+    "successMessage": "Citirea înregistrată cu succes de {{value}} kL pentru {{house}} (Contor: {{meter}})! Consum calculat: {{consumption}} kL.",
+    "tabs": {
+      "single": "Intrare unică",
+      "csv": "Încărcare în bloc CSV",
+      "history": "Citirea Istoriei"
+    },
+    "source": {
+      "manual": "Manual",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Acest rezident nu are un număr de contor în dosar.",
+      "dateRequired": "Data citirii este obligatorie.",
+      "invalidValue": "Vă rugăm să introduceți o valoare de citire validă, nenegativă.",
+      "duplicate": "O citire pentru acest contor există deja la acea dată.",
+      "meterNotFound": "Acest contor nu a putut fi găsit. Vă rugăm să reselectați rezidentul.",
+      "lowerThanPrevious": "Această citire este mai mică decât citirea înregistrată anterior.",
+      "recordFailed": "Nu s-a putut înregistra această citire. Vă rugăm să încercați din nou."
+    },
+    "combo": {
+      "label": "Selectați Flat & Meter Serial",
+      "placeholder": "Selectați Flat & Meter Serial...",
+      "flat": "plat {{house}}",
+      "noMeter": "Fără contor",
+      "searchPlaceholder": "Căutați nr de apartament, serial contor, rezident...",
+      "unitsHeader": "Unitati rezidentiale",
+      "found": "Apartamente găsite: {{total}}",
+      "loading": "Se încarcă rezidenții...",
+      "noMatch": "Niciun rezident nu se potrivește cu „{{search}}”.",
+      "unassigned": "Nealocat",
+      "itemMeta": "{{name}} · Ultima: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Înregistrarea unei citiri pentru",
+      "context": "Casa {{house}} · Contor {{meter}}",
+      "changeResident": "Schimbați rezident",
+      "readingDate": "Data citirii",
+      "readingValue": "Citirea contorului de curent (kL)",
+      "submit": "Trimiteți lectură validată",
+      "recentTitle": "Lecturi recente",
+      "recentEmpty": "Nu s-au înregistrat încă citiri pentru acest contor."
+    },
+    "info": {
+      "title": "Validare monotonă a contorului",
+      "body": "Fiecare citire nouă trebuie să fie mai mare sau egală cu jurnalul anterior pentru acel contor - acest lucru menține calculele de consum precise și prinde cifrele transpuse mai devreme."
+    },
+    "details": {
+      "title": "Detaliile unității selectate",
+      "flatUnit": "Unitate plată",
+      "meterSerial": "Contor de serie",
+      "occupant": "Numele ocupantului",
+      "lastDial": "Ultima formare înregistrată",
+      "noReadings": "Nicio citire încă",
+      "monthConsumption": "Consum lunar",
+      "empty": "Nicio gospodărie selectată. Căutați și alegeți un rezident pentru a vedea detaliile contorului său aici."
+    },
+    "csv": {
+      "noFile": "Vă rugăm să alegeți un fișier CSV de încărcat.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Se încarcă citirile…",
+      "empty": "Nu s-au înregistrat încă lecturi pentru comunitatea dvs."
+    },
+    "table": {
+      "meterNumber": "Contor nr.",
+      "date": "Data",
+      "value": "Valoare (kL)",
+      "consumption": "Consum (kL)",
+      "source": "Sursă"
+    }
+  },
+  "billingCycles": {
+    "title": "Cicluri de facturare",
+    "loadError": "Nu s-au putut încărca ciclurile de facturare. Vă rugăm să încercați din nou.",
+    "paymentUpdateError": "Nu s-a putut actualiza starea plății acestei facturi.",
+    "pdfError": "Nu s-a putut descărca PDF. Vă rugăm să încercați din nou.",
+    "finalizeError": "Nu s-a putut finaliza acest ciclu de facturare.",
+    "archiveError": "Nu s-a putut arhiva acest ciclu de facturare.",
+    "loading": "Se încarcă ciclurile de facturare...",
+    "empty": "Încă nu există cicluri de facturare. Deschide unul mai sus pentru a începe.",
+    "status": {
+      "open": "Deschide",
+      "finalized": "Finalizat",
+      "archived": "Arhivat"
+    },
+    "open": {
+      "title": "Deschideți un nou ciclu de facturare",
+      "noMonth": "Vă rugăm să alegeți o lună pentru deschidere.",
+      "error": "Nu s-a putut deschide un ciclu de facturare pentru luna respectivă.",
+      "monthAria": "Perioada de facturare luna",
+      "opening": "Deschidere…",
+      "submit": "Ciclu deschis"
+    },
+    "table": {
+      "period": "Perioadă",
+      "status": "Stare",
+      "householdsBilled": "Gospodăriile facturate",
+      "totalBilled": "Total facturat",
+      "actions": "Acțiuni"
+    },
+    "actions": {
+      "finalize": "Finalizați",
+      "finalizing": "Finalizarea…",
+      "archive": "Arhivă",
+      "archiving": "Se arhivează…"
+    },
+    "filter": {
+      "aria": "Filtrați după starea plății",
+      "all": "Toate"
+    },
+    "payment": {
+      "paid": "Plătit",
+      "unpaid": "Neplătit",
+      "updating": "Se actualizează…",
+      "markPaid": "Marcați ca plătit",
+      "markUnpaid": "Marcați ca neplătit"
+    },
+    "detail": {
+      "title": "Detaliu ciclu — {{period}}",
+      "loading": "Se încarcă facturile...",
+      "notFinalized": "Acest ciclu nu a fost încă finalizat — nu au fost generate facturi.",
+      "noInvoices": "Nu există facturi pentru acest ciclu.",
+      "noMatch": "Nicio factură nu corespunde acestui filtru."
+    },
+    "invoices": {
+      "household": "Gospodărie",
+      "resident": "Rezident",
+      "meterNumber": "Contor nr.",
+      "consumption": "Consum (kL)",
+      "tierBreakdown": "Defalcarea nivelului",
+      "commonArea": "Zona comună",
+      "total": "Total",
+      "paymentStatus": "Starea plății",
+      "pdf": "PDF",
+      "baseLine": "Baza: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Nivelul {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nu s-a putut încărca configurația tarifului",
+    "saveError": "Nu s-a putut salva configurația tarifului",
+    "chartTitle": "Niveluri de tarife de utilitate contorizate active",
+    "axisNote": "Tarif în ₹/kL, limitele plăcilor în kL",
+    "tableTitle": "Tabelul nivelurilor de prețuri",
+    "defaultRatesNote": "Se afișează ratele implicite — nu au fost încă salvate.",
+    "addTier": "+ Adăugați un nivel",
+    "saveRates": "Economisiți tarifele",
+    "tierLevel": {
+      "base": "Nivelul {{tier}} (de bază)",
+      "medium": "Nivelul {{tier}} (mediu)",
+      "heavy": "Nivelul {{tier}} (greu)"
+    },
+    "basePrice": {
+      "label": "Preț de bază (₹ / kL, aplicat TOATE consumurile)",
+      "note": "Fiecare kL este taxat mai întâi cu acest tarif fix. Plăcile de mai jos adaugă taxe EXTRA numai pentru utilizarea care se încadrează în intervalul lor - de ex. o placă care începe de la 50 kL își adaugă doar tariful pentru consum peste 50 kL."
+    },
+    "table": {
+      "tierLevel": "Nivelul de nivel",
+      "slabLimit": "Limită plăci (kL)",
+      "rate": "Tarif pe kL",
+      "action": "Acţiune"
+    },
+    "commonArea": {
+      "title": "Configurarea costurilor comune comune",
+      "loadError": "Nu s-a putut încărca configurația costului zonei comune",
+      "saveError": "Nu s-a putut salva configurația costului zonei comune",
+      "empty": "Nu au fost salvate încă articole de cost.",
+      "labelPlaceholder": "Eticheta articolului de cost",
+      "perMonth": "/luna",
+      "active": "Activ",
+      "addItem": "+ Adăugați element de cost",
+      "save": "Salvați configurația zonei comune"
+    },
+    "distribution": {
+      "title": "Selectorul metodei de distribuire a costurilor",
+      "consumption": "După consum (proporțional subcontorizat)",
+      "floorArea": "În funcție de dimensiunea apartamentului (mp)"
+    },
+    "footer": {
+      "cycleStart": "Data de începere a facturării ciclului",
+      "cycleStartValue": "1 din fiecare lună",
+      "autoInvoices": "Generați automat PDF facturi"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Prag depășit",
+      "statisticalOutlier": "Outlier statistic"
+    },
+    "status": {
+      "active": "Activ",
+      "resolved": "Rezolvat",
+      "dismissed": "Demis"
+    },
+    "config": {
+      "title": "Configurație de detectare a scurgerilor",
+      "subtitle": "Setați un prag de consum lunar și/sau activați detectarea valorii aberante statistice (semnalează o gospodărie al cărei consum lunar este neobișnuit de mare în comparație cu propriul istoric).",
+      "loadError": "Nu s-a putut încărca configurația alertei. Vă rugăm să încercați din nou.",
+      "thresholdRequired": "Este necesar un prag lunar (kL) când alertele de prag sunt activate.",
+      "saveError": "Nu s-a putut salva această configurație.",
+      "loading": "Se încarcă configurația...",
+      "threshold": "Pragul lunar (kL)",
+      "sensitivity": "Sensibilitatea valorii aberante ( multiplicatorul σ)",
+      "enableThreshold": "Activați alertele de prag",
+      "enableOutlier": "Activați alertele de valori aberante statistice",
+      "save": "Salvați configurația",
+      "running": "Funcţionare…",
+      "runNow": "Executați detectarea acum"
+    },
+    "alerts": {
+      "title": "Gospodăriile marcate",
+      "loadError": "Nu s-au putut încărca alertele. Vă rugăm să încercați din nou.",
+      "runError": "Nu s-a putut rula detectarea scurgerilor în acest moment. Vă rugăm să încercați din nou.",
+      "updateError": "Nu s-a putut actualiza această alertă. Vă rugăm să încercați din nou.",
+      "allStatuses": "Toate stările",
+      "loading": "Se încarcă alertele…",
+      "empty": "Nu există alerte de afișat. Configurați un prag sau activați mai sus detectarea valorii aberante, apoi faceți clic pe „Run Detection Now” pentru a evalua utilizarea curentă a comunității dvs.",
+      "resolve": "Rezolva",
+      "dismiss": "Respingeți"
+    },
+    "table": {
+      "household": "Gospodărie",
+      "resident": "Rezident",
+      "meter": "Metru",
+      "type": "Tip",
+      "period": "Perioadă",
+      "consumption": "Consum",
+      "reference": "Referinţă",
+      "status": "Stare"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Nu s-au putut încărca achizițiile de apă în vrac. Vă rugăm să încercați din nou.",
+    "confirmRemove": "Eliminați livrarea {{source}} pe {{date}}?",
+    "removeError": "Această achiziție nu a putut fi eliminată. Vă rugăm să încercați din nou.",
+    "count": "Achiziții înregistrate: {{total}}",
+    "recordButton": "+ Achiziție record",
+    "loading": "Se încarcă achizițiile de apă în vrac...",
+    "empty": "Nu au fost înregistrate încă achiziții de apă în vrac. Faceți clic pe „Înregistrați achiziția” pentru a înregistra livrarea unei cisterne sau achiziția de aprovizionare municipală.",
+    "table": {
+      "date": "Data",
+      "source": "Sursă",
+      "volume": "Volumul (L)",
+      "unitCost": "Costul unitar",
+      "totalCost": "Costul total",
+      "notes": "Note"
+    },
+    "form": {
+      "addTitle": "Înregistrați achiziția de apă în vrac",
+      "editTitle": "Editați achiziția de apă în vrac",
+      "subtitle": "Urmăriți livrarea unei cisterne sau achiziția de provizii municipale pentru comunitatea dvs. - aceasta este înregistrată numai pentru vizibilitatea costurilor și nu afectează facturile casnice.",
+      "requiredFields": "Vă rugăm să completați data, sursa, volumul și costul unitar.",
+      "saveError": "Nu s-a putut salva această achiziție. Vă rugăm să verificați detaliile.",
+      "purchaseDate": "Data achiziției",
+      "source": "Sursa/furnizor",
+      "volume": "Volumul (litri)",
+      "unitCost": "Cost unitar (₹/litru)",
+      "totalPreview": "Cost total: {{amount}}",
+      "notes": "Note (opțional)",
+      "submit": "Achiziție record"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} nu este încă creat",
+    "profileSaveError": "Nu s-a putut salva profilul dvs. Vă rugăm să încercați din nou.",
+    "apartmentSaveError": "Nu s-au putut salva detaliile apartamentului. Vă rugăm să încercați din nou.",
+    "specsTitle": "Specificațiile profilului",
+    "photoUnavailable": "Încărcarea fotografiilor nu este încă disponibilă",
+    "changePhoto": "Schimbați fotografia",
+    "deletePhoto": "Şterge",
+    "photoHint": "JPG sau PNG. Dimensiune maximă 2 MB.",
+    "saveProfile": "Salvați profilul",
+    "apartmentTitle": "Detalii apartament",
+    "saveApartment": "Salvează detaliile apartamentului",
+    "tabs": {
+      "profile": "Setări profil",
+      "apartment": "Profil apartament",
+      "notifications": "Reguli de notificare",
+      "billing": "Integrari de facturare",
+      "security": "Securitate și acces"
+    },
+    "fields": {
+      "fullName": "Numele complet",
+      "email": "Adresa de e-mail",
+      "emailLocked": "E-mailul nu poate fi schimbat aici",
+      "phone": "Număr de telefon",
+      "accessLevel": "Nivel de acces",
+      "accessLevelValue": "Administrator comunitar",
+      "roleLocked": "Gestionarea rolurilor nu este încă disponibilă",
+      "apartmentName": "Numele apartamentului",
+      "mainsSource": "Sursa de alimentare",
+      "mainsSourcePlaceholder": "de ex. Aprovizionare Municipală + Cisterne Suplimentare",
+      "address": "Adresa fizică"
+    },
+    "security": {
+      "title": "Previzualizare securitate și acces",
+      "twoFactor": "Autentificare cu doi factori",
+      "twoFactorHint": "Activat la conectare",
+      "twoFactorUnavailable": "Autentificarea cu doi factori nu este încă disponibilă",
+      "twoFactorAria": "Autentificare cu doi factori (doar previzualizare)",
+      "sessionsLabel": "Sesiuni de administrare active",
+      "sessionsEmpty": "Urmărirea sesiunii nu este încă disponibilă - aceasta este o previzualizare a aspectului viitor."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biletele mele",
+      "inbox": "Bilete de rezident"
+    },
+    "mine": {
+      "title": "Biletele mele de asistență",
+      "subtitle": "Puneți o întrebare sau îngrijorare cu privire la comunitatea dvs. administratorului de sistem.",
+      "emptyCreateHint": "Ridicați o întrebare sau îngrijorare cu privire la comunitatea dvs. Un administrator de sistem va examina și răspunde aici."
+    },
+    "inbox": {
+      "title": "Bilete de rezident",
+      "subtitle": "Tichetele de asistență și preocupările pe care locuitorii din comunitatea ta ți le-au adresat."
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Lata aftur",
+    "signUpTitle": "Skráset títt felagsskap",
+    "signInTitle": "Vælkomin aftur",
+    "signUpSubtitle": "Stovna eina Community Admin kontu fyri at byrja at umsita búfólk og rokning.",
+    "signInSubtitle": "Rita inn fyri at síggja tína vatnnýtslu og rokning."
+  },
+  "signIn": {
+    "errorFallback": "Tað ber ikki til at rita inn. Vinarliga royn aftur.",
+    "emailLabel": "Teldupostur",
+    "passwordLabel": "Loyniorð",
+    "rememberMe": "Minst til meg",
+    "forgotPassword": "Gloymt tú loyniorð?",
+    "submitting": "Rita inn...",
+    "submit": "Rita inn",
+    "noAccount": "Hevur tú ikki konto?",
+    "signUpLink": "Melda teg til"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Loyniorð passa ikki saman.",
+      "communityRequired": "Felagsnavn er kravt.",
+      "termsRequired": "Vinarliga samtykkja tænastutreytirnar og persónsverndarpolitikkin.",
+      "fallback": "Ber ikki til at stovna kontu. Vinarliga royn aftur."
+    },
+    "hint": "Bert felags admins skráseta seg her. Tá tú ert komin inn, leggur tú sjálvur upplýsingarnar hjá tínum íbúgvum til — teir melda seg ikki til av sær sjálvum.",
+    "fullNameLabel": "Fullt navn",
+    "emailLabel": "Teldupostur",
+    "phoneLabel": "Telefonnummar",
+    "communityNameLabel": "Felagsnavn",
+    "passwordLabel": "Loyniorð",
+    "confirmPasswordLabel": "Staðfest loyniorð",
+    "agreeTerms": "Eg taki undir við <termsLink>Tænastutreytunum</termsLink> og <privacyLink>Persónligu dátupolitikkinum</privacyLink>",
+    "submitting": "Stovna kontu...",
+    "submit": "Stovna admin kontu",
+    "haveAccount": "Hevur tú longu eina konto?",
+    "signInLink": "Rita inn"
+  },
+  "installPrompt": {
+    "title": "Set HydroLedger upp.",
+    "description": "Legg tað til tín heimasíðu fyri at fáa skjóta atgongd.",
+    "dismiss": "Senda heim",
+    "install": "Seta í"
+  },
+  "setPassword": {
+    "title": "Set títt loyniorð",
+    "loading": "Heinta...",
+    "subtitle": "Hey {{name}}, vel eitt loyniorð til {{email}} fyri at virkja tína HydroLedger kontu.",
+    "errors": {
+      "invalidLink": "Hendan leinkjan er ógyldug ella er útgingin.",
+      "tooShort": "Loyniorð skal vera í minsta lagi 8 stavir.",
+      "mismatch": "Loyniorð passa ikki saman.",
+      "fallback": "Kundi ikki seta títt loyniorð. Vinarliga royn aftur."
+    },
+    "passwordLabel": "Loyniorð",
+    "confirmPasswordLabel": "Staðfest loyniorð",
+    "submitting": "Stilla loyniorð...",
+    "submit": "Set loyniorð & rita inn"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Hjálparfólk",
+      "resident": "Spyr um tína kontu",
+      "admin": "Samfelagshjálpari",
+      "platform": "Pallhjálpari",
+      "default": "Hjálparfólk"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Hvat er HydroLedger?",
+        "tieredBilling": "Hvussu virkar stigvís rokning?",
+        "leaks": "Hvussu verða lekar uppdagaðir?"
+      },
+      "resident": {
+        "billEstimate": "Hvør er mín núverandi rokningarmeting?",
+        "alerts": "Havi eg nakrar nýtsluávaring?",
+        "readings": "Vís mínar nýggjaru mátaravlesingar"
+      },
+      "admin": {
+        "households": "Hvussu nógv húsarhald hava vit?",
+        "billingCycles": "Skráset okkara seinastu rokningargongdir",
+        "tariff": "Hvør er okkara núverandi gjaldsætlan?"
+      },
+      "platform": {
+        "communities": "Skráset øll skrásett samfeløg",
+        "usageReport": "Vís pallnýtslufrágreiðingina",
+        "systemStatus": "Hvør er skipanarstøðan?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Tú sendir boð ov skjótt - vinarliga bíða eina løtu og royn aftur.",
+      "unavailable": "Hjálparfólkið er fyribils ikki tøkt. Vinarliga royn aftur í næstum.",
+      "generic": "Okkurt gekk galið við at senda hasi boðini. Vinarliga royn aftur."
+    },
+    "emptyHint": "Spyr meg um hvat sum helst - eg kann bara síggja tínar egnu dátur.",
+    "closeAssistant": "Nærliggjandi hjálpari",
+    "openAssistant": "Opin hjálpari",
+    "inputPlaceholder": "Skriva eini boð...",
+    "inputLabel": "Boð",
+    "send": "Senda"
+  },
+  "supportBoard": {
+    "defaultTitle": "Stuðulsmiðlar",
+    "defaultCreateLabel": "Reis nýtt stúran",
+    "status": {
+      "open": "Opin",
+      "inProgress": "Í gongd",
+      "resolved": "Loyst",
+      "closed": "Stongt"
+    },
+    "tabs": {
+      "all": "Øll atgongumerki"
+    },
+    "recipients": {
+      "admin": "Felagsskapur",
+      "systemAdmin": "Skipanarumsitari",
+      "both": "Felagsskaparstjóri + Skipanarstjóri"
+    },
+    "roles": {
+      "resident": "Íbúgvi",
+      "admin": "Umsitari"
+    },
+    "toRecipients": "Til: {{recipients}}",
+    "raisedByResident": "Uppvaksin av búfólki {{name}}",
+    "raisedByAdmin": "Reist av umsitarum {{name}}",
+    "refresh": "Fríska upp",
+    "stats": {
+      "openLabel": "Opnar innsendingar",
+      "openHint": "Bíða eftir ummæli",
+      "inProgressLabel": "Í gongd",
+      "inProgressHint": "Verður arbeitt við",
+      "resolvedLabel": "Loyst",
+      "resolvedHint": "Stongt væleydnað"
+    },
+    "searchPlaceholder": "Leita eftir atgongumerkjum eftir evni, útgávu...",
+    "loadingTickets": "Heinta atgongumerki...",
+    "empty": {
+      "title": "Ongar stuðulsatgongumerki eru funnin",
+      "body": "Tú hevur í løtuni ongar opnar ella skrásettar stuðulsfyrispurningar, sum passa til hetta filtrið.",
+      "cta": "Send eitt stúran inn"
+    },
+    "errors": {
+      "loadList": "Kundi ikki heinta stuðulsseðlar. Vinarliga royn aftur.",
+      "loadDetail": "Kundi ikki heinta hendan atgongumerkið. Vinarliga royn aftur.",
+      "required": "Evni og boðskapur eru bæði kravd.",
+      "recipientRequired": "Vel minst ein móttakara (Samfelagsleiðari og/ella skipanarumsitari).",
+      "submitFallback": "Kundi ikki lata hendan atgongumerkið inn. Vinarliga royn aftur.",
+      "sendReply": "Fekk ikki senda hesi boðini. Vinarliga royn aftur.",
+      "updateStatus": "Kundi ikki dagføra hesa atgongumerkjastøðuna. Vinarliga royn aftur."
+    },
+    "form": {
+      "defaultHint": "Lýs títt mál ella stúran niðanfyri.",
+      "subjectLabel": "Evni",
+      "subjectPlaceholder": "Stuttur samandráttur av tínum máli",
+      "messageLabel": "Boð",
+      "messagePlaceholder": "Lýs nærri hvat hendir...",
+      "recipientsLabel": "Send hetta varhugan til",
+      "cancel": "strika",
+      "submitting": "Senda inn...",
+      "submit": "Send atgongumerki inn"
+    },
+    "detail": {
+      "loading": "Innlesing atgongumerki...",
+      "replyPlaceholder": "Skriva eitt svar...",
+      "close": "Lata aftur",
+      "sending": "Sendi...",
+      "sendReply": "Send svar"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Vælkomin aftur, {{name}}",
+    "openMenu": "Opna valmynd",
+    "closeMenu": "Lat valmynd aftur",
+    "logout": "Logga út",
+    "search": "Leita",
+    "notifications": "Fráboðanir"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Stýriborð",
+      "households": "Húsarhaldsskrá",
+      "meterReadings": "Mátaralestur",
+      "billing": "Rokningarleiðsla",
+      "bulkPurchases": "Hópkeyp",
+      "reports": "Frágreiðingar",
+      "waterLeakage": "Vatnleki",
+      "support": "Stuðul / Áhugamál",
+      "tariffPlans": "Tollætlanir",
+      "announcements": "Kunningar",
+      "profile": "Vangamynd"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Her er ein løtumynd av tínum samfelag."
+      },
+      "households": {
+        "title": "Húsarhaldsskrá",
+        "subtitle": "Legg til, dagfør og stýr íbúgvunum, sum búgva í tínum samfelag."
+      },
+      "meterReadings": {
+        "title": "Vatnmátaraavlestrarmiðdepil",
+        "subtitle": "Leita eftir einum búfólki og skráset teirra vatnmátaraavlesing."
+      },
+      "tariffPlans": {
+        "title": "Gjaldsuppseting",
+        "subtitle": "Set stigvíst prísmørk, felags kostnað fyri felagsøki og býtishættir til títt íbúðarsamfelag."
+      },
+      "billing": {
+        "title": "Rokningarleiðsla",
+        "subtitle": "Opna, endaliga og arkivera rokningargongdir, og kanna detaldar rokningar fyri hvørt húsarhald."
+      },
+      "bulkPurchases": {
+        "title": "Hópkeyp",
+        "subtitle": "Skráset tangaskipaavhendingar og kommunal veitingarkeyp til títt samfelag."
+      },
+      "waterLeakage": {
+        "title": "Vatnleki",
+        "subtitle": "Set mark- og útlitsgrundaðar lekaávaringar upp, og kanna flaggað húsarhald."
+      },
+      "support": {
+        "title": "Stuðul / Áhugamál",
+        "subtitle": "Hækka tínar egnu atgongumerki til skipanarumsitaran, ella avgreið viðurskifti, sum tínir íbúgvar hava vent tær."
+      },
+      "profile": {
+        "title": "Innstillingar og vangamynd",
+        "subtitle": "Umsita tínar kontuupplýsingar og íbúðarupplýsingar."
+      }
+    },
+    "fallbackName": "Umsitari",
+    "fallbackCommunity": "Felagsskapur",
+    "notBuilt": "{{label}} er ikki bygt enn",
+    "searchPlaceholder": "Leita eftir øllum..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Frágreiðingar",
+      "description": "Nýtslu-, rokningar- og varðveitslufrágreiðingar fyri títt samfelag."
+    },
+    "announcements": {
+      "title": "Kunningar",
+      "description": "Send fráboðanir um alt samfelagið til tínar íbúgvar."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kemur skjótt"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Stýriborð",
+      "usageHistory": "Nýtslusøga",
+      "bills": "Mínar rokningar",
+      "recommendations": "Tilmæli",
+      "reports": "Frágreiðingar",
+      "support": "Stuðul / Áhugamál",
+      "notifications": "Fráboðanir",
+      "profile": "Vangamynd"
+    },
+    "pages": {
+      "usageHistory": "Tín nýtslusøga",
+      "billing": "Rokningar og rokningar",
+      "notifications": "Fráboðanir",
+      "recommendations": "Tilmæli",
+      "support": "Stuðul / Áhugamál"
+    },
+    "defaultTitle": "Búfólkastýriborð",
+    "navLabel": "Heimabúgvandi sigling",
+    "fallbackName": "Íbúgvi",
+    "unit": "Eind {{number}}",
+    "comingSoon": "{{label}} kemur skjótt",
+    "profile": "Vangamynd",
+    "searchPlaceholder": "Leita greiningar, rokningar..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Stýriborð",
+      "communities": "Samfeløg",
+      "reports": "Frágreiðingar",
+      "supportTickets": "Stuðulsmiðlar",
+      "systemStatus": "Skipanarstøða"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Pallbreiða løtumynd av øllum skrásettum felagsskapum."
+      },
+      "communities": {
+        "title": "Samfeløg",
+        "subtitle": "Hvør skrásettur felagsskapur admin og teirra felagsskapur, á einum stað."
+      },
+      "reports": {
+        "title": "Frágreiðingar",
+        "subtitle": "Vatnnýtsla og rokningartøl um alt pall, eftir samfelag og yvir tíð."
+      },
+      "supportTickets": {
+        "title": "Stuðulsmiðlar",
+        "subtitle": "Stuðla atgongumerkjum og ávum, sum íbúgvar og samfelags admins hava reist, um allan pallin."
+      },
+      "systemStatus": {
+        "title": "Skipanarstøða",
+        "subtitle": "Backend samband og grundleggjandi koyritíðarheilsa."
+      }
+    },
+    "fallbackName": "Skipanarumsitari",
+    "platformOwner": "Eigari av palli",
+    "searchPlaceholder": "Leita samfeløg..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Mál: {{language}}",
+    "searchPlaceholder": "Leita mál...",
+    "noMatches": "Eingir dystir"
+  }
+}

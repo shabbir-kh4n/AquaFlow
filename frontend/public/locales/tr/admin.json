@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Yükleniyor…",
+    "saving": "Kaydediliyor…",
+    "saved": "Kaydedildi.",
+    "uploading": "Yükleniyor…",
+    "upload": "Yüklemek",
+    "uploadError": "Bu dosya yüklenemedi. Lütfen tekrar deneyin.",
+    "cancel": "İptal etmek",
+    "close": "Kapalı",
+    "edit": "Düzenlemek",
+    "remove": "Kaldırmak",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "bulkSummary": "İşlenen <b>{{total}}</b> satır — <b>{{success}}</b> başarılı oldu, <b>{{failure}}</b> başarısız oldu.",
+    "rowFailure": "Satır {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "{{from}}–{{to}} / {{total}} gösteriliyor",
+    "prev": "← Önceki",
+    "next": "Sonraki →",
+    "page": "Sayfa {{page}} / {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Topluluk verileriniz şu anda yüklenemedi.",
+    "title": "{{community}} Daire Kontrol Paneli",
+    "titleFallback": "Daire Kontrol Paneliniz",
+    "subtitle": "Su kullanımı alt ölçümü ve ev tüketimi için operasyonel özet.",
+    "comingSoon": "Yakında gelecek",
+    "manageCommunity": "Topluluğu Yönet",
+    "noUsageReadings": "Henüz kayıtlı kullanım okuması yok.",
+    "cards": {
+      "totalHouseholds": "Toplam Hane Halkı",
+      "occupied": "Dolu",
+      "activeMeters": "Aktif Sayaçlar",
+      "reportingReadings": "Okumaların raporlanması",
+      "monthlyConsumption": "Aylık Tüketim",
+      "thisCalendarMonth": "Bu takvim ayı",
+      "latestRecordedMonth": "En son kaydedilen ay ({{month}})",
+      "noReadingsYet": "Henüz kayıtlı okuma yok",
+      "pendingAlerts": "Bekleyen Uyarılar",
+      "anomalyPreview": "Anormallik algılama önizlemesi — henüz mevcut değil"
+    },
+    "actions": {
+      "label": "Hızlı İdari İşlemler",
+      "uploadReadings": "Sayaç Okumalarını Yükle",
+      "configureTariffs": "Tarifeleri Yapılandır",
+      "reportsNotBuilt": "Raporlar henüz oluşturulmadı",
+      "downloadReports": "Sistem Raporlarını İndirin"
+    },
+    "chart": {
+      "title": "Aylık Tüketim Karşılaştırması (kL)",
+      "subtitle": "Son {{months}} ay: hedef ve gerçek tüketim.",
+      "targetSeries": "Hedef (önizleme)",
+      "actualSeries": "Gerçek"
+    },
+    "recent": {
+      "title": "Son Sayaç Okumaları",
+      "unit": "Birim",
+      "resident": "İkamet eden kişi",
+      "lastReading": "Son Okuma",
+      "consumption": "Tüketim"
+    }
+  },
+  "households": {
+    "loadError": "Sakinler yüklenemedi. Lütfen tekrar deneyin.",
+    "fixFields": "Lütfen vurgulanan alanları düzeltin.",
+    "saveError": "Bu sakin kurtarılamadı. Lütfen ayrıntıları kontrol edin.",
+    "confirmRemove": "{{name}} hane dizininizden kaldırılsın mı?",
+    "removeError": "Bu sakin kaldırılamadı. Lütfen tekrar deneyin.",
+    "count": "Haneler: {{total}}",
+    "bulkUploadButton": "⇪ Toplu Yükleme",
+    "addResidentButton": "+ Yerleşik Ekle",
+    "searchPlaceholder": "Ada, eve, e-postaya veya sayaç numarasına göre filtreleyin.",
+    "loading": "Sakinler yükleniyor…",
+    "empty": "Henüz sakin yok. İlk haneyi kaydetmek için \"Yerleşik Ekle\"ye tıklayın.",
+    "noMatch": "\"{{search}}\" ile eşleşen sakin yok.",
+    "sort": {
+      "label": "Göre sırala",
+      "name": "İsim",
+      "houseNumber": "Ev Numarası",
+      "dateOfJoining": "Katılma Tarihi",
+      "toggleDirection": "Sıralama yönünü değiştir",
+      "asc": "↑ Artan",
+      "desc": "↓ Tanım"
+    },
+    "gender": {
+      "male": "Erkek",
+      "female": "Dişi",
+      "other": "Diğer"
+    },
+    "table": {
+      "name": "İsim",
+      "houseUnit": "Ev / Birim",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "meterNumber": "Sayaç No.",
+      "sqft": "Metrekare",
+      "joined": "Katıldı"
+    },
+    "form": {
+      "addTitle": "Yerleşik Ekle",
+      "editTitle": "Yerleşik Kişiyi Düzenle",
+      "editSubtitle": "Bu, rehberinizdeki sakinin ayrıntılarını günceller.",
+      "bypassSubtitle": "Bu sakinin şifresini doğrudan siz belirliyorsunuz. Hiçbir e-posta gönderilmeyecek.",
+      "addSubtitle": "Bu sakine, kendi giriş bilgilerini etkinleştirebilmesi için bir şifre belirleme bağlantısı e-postayla gönderilecektir.",
+      "fullName": "Ad Soyad",
+      "houseNumber": "Ev / ünite no.",
+      "email": "E-posta",
+      "phone": "Telefon numarası",
+      "meterNumber": "Sayaç numarası",
+      "governmentId": "Devlet Kimliği",
+      "gender": "Cinsiyet",
+      "dateOfBirth": "Doğum tarihi",
+      "dateOfJoining": "Katılma tarihi",
+      "flatSize": "Düz boyut (ft kare)",
+      "bypassLabel": "Şifre belirleme e-postasını atlayın; bu sakin için şimdi bir şifre belirleyin",
+      "password": "Şifre",
+      "confirmPassword": "Şifreyi onayla"
+    },
+    "validation": {
+      "fullNameRequired": "Tam ad gerekli.",
+      "emailRequired": "E-posta gerekli.",
+      "phoneRequired": "Telefon numarası gerekli.",
+      "houseNumberRequired": "Ev/ünite numarası gereklidir.",
+      "houseNumberTaken": "Bu ev numarası zaten başka bir sakine atanmış.",
+      "meterNumberRequired": "Sayaç numarası gereklidir.",
+      "meterNumberFormat": "Sayaç numarası MTR-1234 (4 haneli) şeklinde olmalıdır.",
+      "meterNumberTaken": "Bu sayaç numarası zaten başka bir sakine atanmış.",
+      "governmentIdRequired": "Devlet kimliği gereklidir.",
+      "governmentIdFormat": "Kimlik numarası 99 ile başlayan 6 haneli olmalıdır (örn. 991234).",
+      "genderRequired": "Lütfen bir cinsiyet seçin.",
+      "dateOfBirthRequired": "Doğum tarihi gereklidir.",
+      "dateOfJoiningRequired": "Katılım tarihi gereklidir.",
+      "passwordRequired": "Şifre gerekli.",
+      "passwordLength": "Şifre en az 8 karakter olmalıdır.",
+      "confirmPasswordRequired": "Lütfen şifreyi onaylayın.",
+      "passwordMismatch": "Şifreler eşleşmiyor."
+    },
+    "bulk": {
+      "title": "Toplu Yükleme Sakinleri",
+      "noFile": "Lütfen yüklemek için bir .csv veya .xlsx/.xls dosyası seçin.",
+      "instructions": "<code>{{columns}}</code> sütunlarını içeren bir .csv veya .xlsx/.xls dosyası yükleyin (password ve flatSizeSqft isteğe bağlıdır). Parolalı satırlar onu doğrudan ayarlar; biri olmayan satırlar, bir sakini manuel olarak eklemekle aynı şekilde, belirlenmiş bir şifre e-postası alır. Her satırda mükerrer ev/sayaç numaraları veya e-postalar reddedilir; hatalı bir satır tüm partiyi başarısız kılmaz."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Sakinler yüklenemedi. Lütfen tekrar deneyin.",
+    "historyLoadError": "Okuma geçmişi yüklenemedi. Lütfen tekrar deneyin.",
+    "successMessage": "{{house}} için {{value}} kL okuması başarıyla kaydedildi (Sayaç: {{meter}})! Hesaplanan tüketim: {{consumption}} kL.",
+    "tabs": {
+      "single": "Tek Giriş",
+      "csv": "Toplu CSV Yükleme",
+      "history": "Tarih Okumak"
+    },
+    "source": {
+      "manual": "Manuel",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Bu sakinin kayıtlarda sayaç numarası yok.",
+      "dateRequired": "Okuma tarihi gereklidir.",
+      "invalidValue": "Lütfen geçerli, negatif olmayan bir okuma değeri girin.",
+      "duplicate": "Bu sayaç için o tarihte zaten bir okuma mevcut.",
+      "meterNotFound": "Bu sayaç bulunamadı. Lütfen sakini yeniden seçin.",
+      "lowerThanPrevious": "Bu okuma, daha önce kaydedilen okumadan daha düşüktür.",
+      "recordFailed": "Bu okuma kaydedilemedi. Lütfen tekrar deneyin."
+    },
+    "combo": {
+      "label": "Daire ve Metre Serilerini Seçin",
+      "placeholder": "Daire ve Sayaç Serilerini seçin…",
+      "flat": "Düz {{house}}",
+      "noMeter": "Sayaç yok",
+      "searchPlaceholder": "Arama daire no, sayaç seri, ikamet…",
+      "unitsHeader": "Konut Birimleri",
+      "found": "Bulunan daireler: {{total}}",
+      "loading": "Sakinler yükleniyor…",
+      "noMatch": "\"{{search}}\" ile eşleşen sakin yok.",
+      "unassigned": "Atanmamış",
+      "itemMeta": "{{name}} · Son: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Bir okumanın kaydedilmesi",
+      "context": "Ev {{house}} · Metre {{meter}}",
+      "changeResident": "Yerleşik kişiyi değiştir",
+      "readingDate": "Okuma tarihi",
+      "readingValue": "Güncel Sayaç Okuması (kL)",
+      "submit": "Doğrulanmış Okumayı Gönder",
+      "recentTitle": "Son okumalar",
+      "recentEmpty": "Bu sayaç için henüz kayıtlı bir okuma yok."
+    },
+    "info": {
+      "title": "Monotonik Sayaç Doğrulaması",
+      "body": "Her yeni okuma, o ölçüm cihazının önceki kaydından büyük veya ona eşit olmalıdır; bu, tüketim hesaplamalarının doğru olmasını sağlar ve yer değiştirmiş rakamları erken yakalar."
+    },
+    "details": {
+      "title": "Seçilen Birim Detayları",
+      "flatUnit": "Düz Ünite",
+      "meterSerial": "Sayaç Seri",
+      "occupant": "Sakin Adı",
+      "lastDial": "Son Kaydedilen Arama",
+      "noReadings": "Henüz okuma yok",
+      "monthConsumption": "Aylık Tüketim",
+      "empty": "Hane seçilmedi. Sayaç ayrıntılarını burada görmek için bir sakini arayın ve seçin."
+    },
+    "csv": {
+      "noFile": "Lütfen yüklemek için bir CSV dosyası seçin.",
+      "instructions": "<code>{{columns}}</code> sütunlarını içeren bir CSV yükleyin. Satırlar bağımsız olarak işlenir; hatalı bir satır tüm partinin başarısız olmasına neden olmaz."
+    },
+    "history": {
+      "loading": "Okumalar yükleniyor…",
+      "empty": "Topluluğunuz için henüz kayıtlı okuma yok."
+    },
+    "table": {
+      "meterNumber": "Sayaç No.",
+      "date": "Tarih",
+      "value": "Değer (kL)",
+      "consumption": "Tüketim (kL)",
+      "source": "Kaynak"
+    }
+  },
+  "billingCycles": {
+    "title": "Faturalandırma Döngüleri",
+    "loadError": "Faturalandırma döngüleri yüklenemedi. Lütfen tekrar deneyin.",
+    "paymentUpdateError": "Bu faturanın ödeme durumu güncellenemedi.",
+    "pdfError": "PDF indirilemedi. Lütfen tekrar deneyin.",
+    "finalizeError": "Bu faturalandırma döngüsü tamamlanamadı.",
+    "archiveError": "Bu faturalandırma döngüsü arşivlenemedi.",
+    "loading": "Faturalandırma döngüleri yükleniyor…",
+    "empty": "Henüz faturalandırma döngüsü yok. Başlamak için yukarıdakilerden birini açın.",
+    "status": {
+      "open": "Açık",
+      "finalized": "kesinleşti",
+      "archived": "Arşivlendi"
+    },
+    "open": {
+      "title": "Yeni Faturalandırma Döngüsü Aç",
+      "noMonth": "Lütfen açmak için bir ay seçin.",
+      "error": "O aya ait faturalandırma döngüsü açılamadı.",
+      "monthAria": "Fatura dönemi ayı",
+      "opening": "Açılıyor…",
+      "submit": "Açık Döngü"
+    },
+    "table": {
+      "period": "Dönem",
+      "status": "Durum",
+      "householdsBilled": "Faturalandırılan Haneler",
+      "totalBilled": "Toplam Faturalandırılan",
+      "actions": "Eylemler"
+    },
+    "actions": {
+      "finalize": "Sonuçlandırmak",
+      "finalizing": "Sonlandırılıyor…",
+      "archive": "Arşiv",
+      "archiving": "Arşivleniyor…"
+    },
+    "filter": {
+      "aria": "Ödeme durumuna göre filtrele",
+      "all": "Tüm"
+    },
+    "payment": {
+      "paid": "Paralı",
+      "unpaid": "ödenmemiş",
+      "updating": "Güncelleniyor…",
+      "markPaid": "Ödendi olarak işaretle",
+      "markUnpaid": "Ödenmedi olarak işaretle"
+    },
+    "detail": {
+      "title": "Döngü Ayrıntısı — {{period}}",
+      "loading": "Faturalar yükleniyor…",
+      "notFinalized": "Bu döngü henüz tamamlanmadı; fatura oluşturulmadı.",
+      "noInvoices": "Bu döngü için fatura yok.",
+      "noMatch": "Bu filtreyle eşleşen fatura yok."
+    },
+    "invoices": {
+      "household": "Ev",
+      "resident": "İkamet eden kişi",
+      "meterNumber": "Sayaç No.",
+      "consumption": "Tüketim (kL)",
+      "tierBreakdown": "Seviye Dağılımı",
+      "commonArea": "Ortak Alan",
+      "total": "Toplam",
+      "paymentStatus": "Ödeme Durumu",
+      "pdf": "PDF",
+      "baseLine": "Taban: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Seviye {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Tarife yapılandırması yüklenemedi",
+    "saveError": "Tarife yapılandırması kaydedilemedi",
+    "chartTitle": "Aktif Ölçülen Hizmet Oranı Katmanları",
+    "axisNote": "Oran ₹/kL cinsinden, levha sınırları kL cinsinden",
+    "tableTitle": "Fiyatlandırma Katmanları Tablosu",
+    "defaultRatesNote": "Varsayılan oranlar gösteriliyor - henüz kaydedilmedi.",
+    "addTier": "+ Seviye Ekle",
+    "saveRates": "Tarife Oranlarını Kaydet",
+    "tierLevel": {
+      "base": "Seviye {{tier}} (Temel)",
+      "medium": "Seviye {{tier}} (Orta)",
+      "heavy": "Seviye {{tier}} (Ağır)"
+    },
+    "basePrice": {
+      "label": "Taban Fiyat (₹ / kL, TÜM tüketime uygulanır)",
+      "note": "Every kL is charged this flat rate first. The slabs below add EXTRA charges only for usage that falls within their range — e.g. a slab starting at 50 kL only adds its rate for consumption above 50 kL."
+    },
+    "table": {
+      "tierLevel": "Seviye Seviyesi",
+      "slabLimit": "Döşeme Sınırı (kL)",
+      "rate": "kL başına oran",
+      "action": "Aksiyon"
+    },
+    "commonArea": {
+      "title": "Paylaşılan Ortak Alan Maliyet Yapılandırması",
+      "loadError": "Ortak alan maliyet yapılandırması yüklenemedi",
+      "saveError": "Ortak alan maliyet yapılandırması kaydedilemedi",
+      "empty": "Henüz hiçbir maliyet kalemi kaydedilmedi.",
+      "labelPlaceholder": "Maliyet öğesi etiketi",
+      "perMonth": "/ ay",
+      "active": "Aktif",
+      "addItem": "+ Maliyet Kalemi Ekle",
+      "save": "Ortak Alan Yapılandırmasını Kaydet"
+    },
+    "distribution": {
+      "title": "Maliyet Dağıtım Yöntemi Seçici",
+      "consumption": "Tüketime Göre (Alt Ölçümlü Orantılı)",
+      "floorArea": "Daireye Göre Daire Büyüklüğü (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Döngü Faturalandırma Başlangıç ​​Tarihi",
+      "cycleStartValue": "Her Ayın 1'i",
+      "autoInvoices": "PDF Faturayı Otomatik Oluştur"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Eşik Aşıldı",
+      "statisticalOutlier": "İstatistiksel Aykırı Değer"
+    },
+    "status": {
+      "active": "Aktif",
+      "resolved": "Çözüldü",
+      "dismissed": "Görevden alındı"
+    },
+    "config": {
+      "title": "Kaçak Tespit Yapılandırması",
+      "subtitle": "Aylık bir tüketim eşiği belirleyin ve/veya istatistiksel aykırı değerlerin tespitini etkinleştirin (aylık tüketimi kendi geçmişiyle karşılaştırıldığında alışılmadık derecede yüksek olan bir haneyi işaretler).",
+      "loadError": "Uyarı yapılandırması yüklenemedi. Lütfen tekrar deneyin.",
+      "thresholdRequired": "Eşik uyarıları etkinleştirildiğinde aylık bir eşik (kL) gereklidir.",
+      "saveError": "Bu yapılandırma kaydedilemedi.",
+      "loading": "Yapılandırma yükleniyor…",
+      "threshold": "Aylık eşik (kL)",
+      "sensitivity": "Aykırı değer duyarlılığı (σ çarpanı)",
+      "enableThreshold": "Eşik uyarılarını etkinleştir",
+      "enableOutlier": "İstatistiksel aykırı değer uyarılarını etkinleştir",
+      "save": "Yapılandırmayı Kaydet",
+      "running": "Koşma…",
+      "runNow": "Algılamayı Şimdi Çalıştır"
+    },
+    "alerts": {
+      "title": "İşaretli Haneler",
+      "loadError": "Uyarılar yüklenemedi. Lütfen tekrar deneyin.",
+      "runError": "Şu anda sızıntı tespiti çalıştırılamadı. Lütfen tekrar deneyin.",
+      "updateError": "Bu uyarı güncellenemedi. Lütfen tekrar deneyin.",
+      "allStatuses": "Tüm durumlar",
+      "loading": "Uyarılar yükleniyor…",
+      "empty": "Gösterilecek uyarı yok. Yukarıda bir eşik yapılandırın veya aykırı değer tespitini etkinleştirin, ardından topluluğunuzun mevcut kullanımını değerlendirmek için \"Algılamayı Şimdi Çalıştır\"ı tıklayın.",
+      "resolve": "Çöz",
+      "dismiss": "Azletmek"
+    },
+    "table": {
+      "household": "Ev",
+      "resident": "İkamet eden kişi",
+      "meter": "Metre",
+      "type": "Tip",
+      "period": "Dönem",
+      "consumption": "Tüketim",
+      "reference": "Referans",
+      "status": "Durum"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Toplu su alımları yüklenemedi. Lütfen tekrar deneyin.",
+    "confirmRemove": "{{date}} üzerindeki {{source}} dağıtımı kaldırılsın mı?",
+    "removeError": "Bu satın alma işlemi kaldırılamadı. Lütfen tekrar deneyin.",
+    "count": "Kaydedilen satın almalar: {{total}}",
+    "recordButton": "+ Satın Alma Kaydı",
+    "loading": "Toplu su alımları yükleniyor…",
+    "empty": "Henüz toplu su alımı kaydedilmedi. Bir tanker teslimatını veya belediye malzeme alımını kaydetmek için \"Satın Alma İşlemini Kaydet\" seçeneğini tıklayın.",
+    "table": {
+      "date": "Tarih",
+      "source": "Kaynak",
+      "volume": "Hacim (L)",
+      "unitCost": "Birim Maliyet",
+      "totalCost": "Toplam Maliyet",
+      "notes": "Notlar"
+    },
+    "form": {
+      "addTitle": "Toplu Su Alımını Kaydedin",
+      "editTitle": "Toplu Su Alımını Düzenle",
+      "subtitle": "Topluluğunuz için bir tanker teslimatını veya belediye malzeme satın alımını takip edin; bu yalnızca maliyet görünürlüğü amacıyla kaydedilir ve ev faturalarını etkilemez.",
+      "requiredFields": "Lütfen tarihi, kaynağı, hacmi ve birim maliyeti girin.",
+      "saveError": "Bu satın alma işlemi kaydedilemedi. Lütfen ayrıntıları kontrol edin.",
+      "purchaseDate": "Satın alma tarihi",
+      "source": "Kaynak / tedarikçi",
+      "volume": "Hacim (litre)",
+      "unitCost": "Birim maliyet (₹/litre)",
+      "totalPreview": "Toplam maliyet: {{amount}}",
+      "notes": "Notlar (isteğe bağlı)",
+      "submit": "Satın Alma Kaydı"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} henüz oluşturulmadı",
+    "profileSaveError": "Profiliniz kaydedilemedi. Lütfen tekrar deneyin.",
+    "apartmentSaveError": "Daire ayrıntıları kaydedilemedi. Lütfen tekrar deneyin.",
+    "specsTitle": "Profil Özellikleri",
+    "photoUnavailable": "Fotoğraf yükleme henüz kullanılamıyor",
+    "changePhoto": "Fotoğrafı Değiştir",
+    "deletePhoto": "Silmek",
+    "photoHint": "JPG veya PNG. Maksimum boyut 2MB.",
+    "saveProfile": "Profili Kaydet",
+    "apartmentTitle": "Daire Detayları",
+    "saveApartment": "Daire Detaylarını Kaydet",
+    "tabs": {
+      "profile": "Profil Ayarları",
+      "apartment": "Daire Profili",
+      "notifications": "Bildirim Kuralları",
+      "billing": "Faturalandırma Entegrasyonları",
+      "security": "Güvenlik ve Erişim"
+    },
+    "fields": {
+      "fullName": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "emailLocked": "E-posta burada değiştirilemez",
+      "phone": "Telefon Numarası",
+      "accessLevel": "Erişim Düzeyi",
+      "accessLevelValue": "Topluluk Yöneticisi",
+      "roleLocked": "Rol yönetimi henüz kullanılamıyor",
+      "apartmentName": "Daire Adı",
+      "mainsSource": "Şebeke Kaynağı",
+      "mainsSourcePlaceholder": "örneğin Belediye Tedarik + İlave Tankerler",
+      "address": "Fiziksel Adres"
+    },
+    "security": {
+      "title": "Güvenlik ve Erişim Önizlemesi",
+      "twoFactor": "İki Faktörlü Kimlik Doğrulama",
+      "twoFactorHint": "Giriş yapıldığında etkinleştirildi",
+      "twoFactorUnavailable": "İki faktörlü kimlik doğrulama henüz kullanılamıyor",
+      "twoFactorAria": "İki faktörlü kimlik doğrulama (yalnızca önizleme)",
+      "sessionsLabel": "Aktif Yönetici Oturumları",
+      "sessionsEmpty": "Oturum izleme henüz kullanılamıyor; bu, gelecek düzenin bir önizlemesidir."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biletlerim",
+      "inbox": "Yerleşik Biletler"
+    },
+    "mine": {
+      "title": "Destek Biletlerim",
+      "subtitle": "Topluluğunuzla ilgili bir soru veya endişenizi Sistem Yöneticisine iletin.",
+      "emptyCreateHint": "Topluluğunuzla ilgili bir soruyu veya endişenizi dile getirin. Bir Sistem Yöneticisi burayı inceleyip yanıt verecektir."
+    },
+    "inbox": {
+      "title": "Yerleşik Biletler",
+      "subtitle": "Topluluğunuzdaki sakinlerin size ilettiği destek biletleri ve endişeleri."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiva",
+    "blocked": "Blokita",
+    "terminated": "Finita"
+  },
+  "sort": {
+    "sortBy": "Ordigi laŭ",
+    "toggleDirection": "Ŝaltu ordigdirekton",
+    "asc": "↑ Asc",
+    "desc": "↓ Desk"
+  },
+  "pagination": {
+    "showing": "Montrante {{from}}–{{to}} el {{total}}",
+    "prev": "← Antaŭa",
+    "next": "Sekva →",
+    "page": "Paĝo {{page}} el {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Platformo Superrigardo",
+    "subtitle": "Ĉiu registrita komunuma administranto, tra la tuta HydroLedger platformo.",
+    "viewAll": "Rigardu Ĉiuj Komunumoj",
+    "loadError": "Ne eblis ŝargi platformajn datumojn nun.",
+    "cards": {
+      "totalCommunities": "Tutaj Komunumoj",
+      "registeredAdmins": "Registritaj administrantoj",
+      "totalResidents": "Tutaj Loĝantoj",
+      "acrossAllCommunities": "Tra ĉiuj komunumoj",
+      "active": "Aktiva",
+      "inGoodStanding": "En bona stato",
+      "blockedTerminated": "Blokita / Terminita",
+      "blockedTerminatedBreakdown": "{{blocked}} blokita, {{terminated}} finita"
+    },
+    "recent": {
+      "title": "Lastatempe Registritaj Komunumoj",
+      "loading": "Ŝargante…",
+      "empty": "Neniuj komunumoj ankoraŭ registritaj.",
+      "table": {
+        "community": "Komunumo",
+        "admin": "Admin",
+        "status": "Statuso",
+        "residents": "Loĝantoj"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunumoj: {{count}}",
+    "loadError": "Ne eblis ŝargi komunumojn. Bonvolu provi denove.",
+    "searchPlaceholder": "Filtru laŭ komunumo, administra nomo aŭ retpoŝto",
+    "statusFilter": {
+      "label": "Statuso",
+      "all": "Ĉiuj"
+    },
+    "sortOptions": {
+      "community": "Komunumo",
+      "admin": "Admin",
+      "residents": "Loĝantoj"
+    },
+    "loading": "Ŝarĝante komunumojn...",
+    "empty": "Neniuj komunumoj ankoraŭ registritaj.",
+    "noMatch": "Neniuj komunumoj kongruas kun viaj filtriloj.",
+    "table": {
+      "community": "Komunumo",
+      "admin": "Admin",
+      "email": "Retpoŝto",
+      "status": "Statuso",
+      "residents": "Loĝantoj",
+      "view": "Vido"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ne eblis ŝargi ĉi tiun komunumon. Ĝi eble estis forigita.",
+    "statusUpdateError": "Ne eblis ĝisdatigi la staton de ĉi tiu komunumo.",
+    "deleteError": "Ne eblis forigi ĉi tiun komunumon.",
+    "loading": "Ŝarĝante komunumon...",
+    "notFound": "Komunumo ne trovita.",
+    "backLink": "← Reen al Komunumoj",
+    "backLinkShort": "Reen al Komunumoj",
+    "eyebrow": "Komunuma Profilo",
+    "unnamed": "Nenomita komunumo",
+    "noAddress": "Neniu adreso en dosiero",
+    "stats": {
+      "residents": "Loĝantoj",
+      "status": "Statuso"
+    },
+    "actions": {
+      "reactivate": "Reaktivigu",
+      "block": "Bloko",
+      "terminate": "Termini",
+      "delete": "Forigi Komunumon"
+    },
+    "blockDialog": {
+      "title": "Ĉu bloki ĉi tiun komunuman administranton?",
+      "message": "Ĉu bloki {{name}}? Ili ne povos ensaluti ĝis malblokado. Neniuj datumoj estos tuŝitaj.",
+      "confirm": "Bloko"
+    },
+    "terminateDialog": {
+      "title": "Ĉu ĉesi ĉi tiun komunuman administranton?",
+      "message": "Ĉu konstante ĉesi la aliron de {{name}}? Ĉi tio ne povas esti malfarita, kvankam la datumoj de ilia komunumo estos konservitaj por rekordoj.",
+      "confirm": "Termini"
+    },
+    "deleteDialog": {
+      "title": "Ĉu forigi ĉi tiun komunumon?",
+      "message": "This will permanently delete <strong>{{name}}</strong> and all of its households, residents, meters, tariff/billing configuration, and invoice history. This action cannot be undone.",
+      "typeToConfirm": "Type <strong>{{word}}</strong> to continue",
+      "confirm": "Konfirmu"
+    },
+    "residents": {
+      "title": "Loĝantoj",
+      "registeredCount": "Registrita: {{count}}",
+      "empty": "Ankoraŭ neniu loĝanto registrita en ĉi tiu komunumo.",
+      "table": {
+        "flatUnit": "Plata Unuo",
+        "meter": "Metro",
+        "resident": "Loĝanto",
+        "email": "Retpoŝto",
+        "passwordSet": "Pasvorto Agordita"
+      },
+      "yes": "Jes",
+      "no": "Ne"
+    },
+    "cancel": "Nuligi",
+    "working": "Laborante…",
+    "deleting": "Forigante…"
+  },
+  "systemStatus": {
+    "statusError": "Ne eblis atingi la backend por kontroli sisteman staton.",
+    "metricsError": "Ne eblis ŝargi la historion de metrikoj.",
+    "ranges": {
+      "fiveMinutes": "5 Minutoj",
+      "fifteenMinutes": "15 Minutoj",
+      "hour": "Horo",
+      "day": "Tago",
+      "week": "Semajno",
+      "month": "Monato",
+      "threeMonths": "3 Monatoj"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Petoj/sek",
+      "opsPerSec": "Operacio/sek",
+      "latency": "Latenteco",
+      "lastValue": "{{value}} lasta",
+      "loading": "Ŝargante…",
+      "empty": "Ankoraŭ neniu metriko registrita por ĉi tiu intervalo."
+    },
+    "stats": {
+      "min": "Min: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Max: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Kontrolante…",
+      "reachable": "Atingebla",
+      "unreachable": "Neatingebla",
+      "connected": "Konektita",
+      "backendApiHint": "Ĉi tiu paĝo ŝargis de la backend, do ĝi respondis.",
+      "database": "Datumbazo",
+      "databaseHint": "PostgreSQL-konektebleco, kontrolita vive.",
+      "uptime": "Backend Uptime",
+      "uptimeHint": "Ekde la lasta aplikaĵo rekomencas.",
+      "appVersion": "Versio de App",
+      "appVersionHint": "Backend konstrua versio."
+    },
+    "mini": {
+      "latency": "Latenteco",
+      "readsLatency": "Legas Latentecon",
+      "writesLatency": "Skribas Latenteco",
+      "otherLatency": "Alia Latenteco",
+      "connections": "Konektoj",
+      "totalKeys": "Totalaj Ŝlosiloj"
+    },
+    "note": "Petoj/sekundoj kaj latenteco estas provitaj el viva malantaŭa trafiko ĉiujn 15 sekundojn kaj konservitaj ĝis 100 tagoj. Ĉi tio estas baza konektebleco + trafikkontrolo — ĝi ne anstataŭigas plenan aplikaĵan agadon monitoradon, protokolan agregadon aŭ atentigon."
+  },
+  "reports": {
+    "loadError": "Ne eblis ŝargi la platforman raporton.",
+    "ranges": {
+      "threeMonths": "3 Monatoj",
+      "sixMonths": "6 Monatoj",
+      "twelveMonths": "12 Monatoj",
+      "custom": "Kutimo"
+    },
+    "sortOptions": {
+      "community": "Komunumo",
+      "usage": "Uzado",
+      "billed": "Fakturita",
+      "residents": "Loĝantoj"
+    },
+    "customRange": {
+      "from": "De",
+      "to": "Al",
+      "hint": "Elektu kaj \"de\" kaj \"al\" monaton por ŝargi kutiman raporton."
+    },
+    "loading": "Ŝarĝante raporton...",
+    "cards": {
+      "totalCommunities": "Tutaj Komunumoj",
+      "inThisRange": "En ĉi tiu gamo",
+      "totalResidents": "Tutaj Loĝantoj",
+      "acrossAllCommunities": "Tra ĉiuj komunumoj",
+      "overallUsage": "Entuta Uzado",
+      "meteredConsumption": "Mezurita konsumo",
+      "overallBilled": "Ĝenerale Fakturita",
+      "finalizedInvoicesOnly": "Finitaj fakturoj nur",
+      "avgUsagePerResident": "Meza Uzado/Loĝanto",
+      "avgBillPerResident": "Meze Bill / Loĝanto"
+    },
+    "charts": {
+      "usageTitle": "Tutplatformo Uzado (kL/monato)",
+      "usageEmpty": "Neniu uzo registrita por ĉi tiu gamo.",
+      "usageSeries": "Uzado",
+      "billedTitle": "Tutplatformo Fakturita Kvanto (₹/monato)",
+      "billedEmpty": "Neniuj fakturoj finpretigitaj por ĉi tiu gamo.",
+      "billedSeries": "Fakturita"
+    },
+    "searchPlaceholder": "Filtru laŭ komunumo aŭ administra nomo",
+    "empty": "Neniuj komunumoj ankoraŭ havas uzadon aŭ fakturajn datumojn por ĉi tiu gamo.",
+    "noMatch": "Neniuj komunumoj kongruas kun via filtrilo.",
+    "table": {
+      "community": "Komunumo",
+      "admin": "Admin",
+      "residents": "Loĝantoj",
+      "usage": "Uzado (kL)",
+      "billed": "Fakturita (₹)",
+      "avgUsagePerResident": "Meza Uzado/Loĝanto",
+      "avgBillPerResident": "Meze Bill / Loĝanto"
+    }
+  },
+  "supportTickets": {
+    "title": "Subtenaj Biletoj",
+    "subtitle": "Subtenaj biletoj kaj zorgoj levitaj de loĝantoj kaj komunumaj administrantoj, tutplatformo."
+  }
+}

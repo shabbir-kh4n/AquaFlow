@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Načítání…",
+    "saving": "Ukládání…",
+    "saved": "Uloženo.",
+    "uploading": "Nahrávání…",
+    "upload": "Nahrát",
+    "uploadError": "Tento soubor nelze nahrát. Zkuste to prosím znovu.",
+    "cancel": "Zrušit",
+    "close": "Blízko",
+    "edit": "Upravit",
+    "remove": "Odstranit",
+    "saveChanges": "Uložit změny",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Řádek {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Zobrazeno {{from}}–{{to}} z {{total}}",
+    "prev": "← Předchozí",
+    "next": "Další →",
+    "page": "Strana {{page}} z {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Momentálně nelze načíst data vaší komunity.",
+    "title": "{{community}} Panel bytu",
+    "titleFallback": "Váš bytový panel",
+    "subtitle": "Provozní přehled pro dílčí měření vody a spotřebu domácnosti.",
+    "comingSoon": "Již brzy",
+    "manageCommunity": "Spravovat komunitu",
+    "noUsageReadings": "Dosud nebyly zaznamenány žádné údaje o využití.",
+    "cards": {
+      "totalHouseholds": "Celkem domácností",
+      "occupied": "Obsazený",
+      "activeMeters": "Aktivní měřiče",
+      "reportingReadings": "Hlášení odečtů",
+      "monthlyConsumption": "Měsíční spotřeba",
+      "thisCalendarMonth": "Tento kalendářní měsíc",
+      "latestRecordedMonth": "Poslední zaznamenaný měsíc ({{month}})",
+      "noReadingsYet": "Dosud nebyly zaznamenány žádné údaje",
+      "pendingAlerts": "Nevyřízená upozornění",
+      "anomalyPreview": "Náhled detekce anomálií – zatím není k dispozici"
+    },
+    "actions": {
+      "label": "Rychlé administrativní akce",
+      "uploadReadings": "Nahrát stavy měřidel",
+      "configureTariffs": "Konfigurace tarifů",
+      "reportsNotBuilt": "Přehledy ještě nejsou vytvořeny",
+      "downloadReports": "Stáhněte si systémové zprávy"
+    },
+    "chart": {
+      "title": "Srovnání měsíční spotřeby (kL)",
+      "subtitle": "Posledních {{months}} měsíců: cílová versus skutečná spotřeba.",
+      "targetSeries": "Cíl (náhled)",
+      "actualSeries": "Aktuální"
+    },
+    "recent": {
+      "title": "Nedávné odečty měřidel",
+      "unit": "Jednotka",
+      "resident": "Rezident",
+      "lastReading": "Poslední čtení",
+      "consumption": "Spotřeba"
+    }
+  },
+  "households": {
+    "loadError": "Nepodařilo se načíst obyvatele. Zkuste to prosím znovu.",
+    "fixFields": "Opravte prosím zvýrazněná pole.",
+    "saveError": "Tohoto obyvatele se nepodařilo uložit. Zkontrolujte prosím podrobnosti.",
+    "confirmRemove": "Odebrat {{name}} z vašeho adresáře domácností?",
+    "removeError": "Tohoto obyvatele se nepodařilo odebrat. Zkuste to prosím znovu.",
+    "count": "Domácnosti: {{total}}",
+    "bulkUploadButton": "⇪ Hromadné nahrávání",
+    "addResidentButton": "+ Přidat obyvatele",
+    "searchPlaceholder": "Filtrujte podle jména, domu, e-mailu nebo čísla měřiče.",
+    "loading": "Načítání obyvatel…",
+    "empty": "Zatím žádní obyvatelé. Klikněte na \"Přidat obyvatele\" pro registraci první domácnosti.",
+    "noMatch": "„{{search}}“ neodpovídají žádní obyvatelé.",
+    "sort": {
+      "label": "Seřadit podle",
+      "name": "Jméno",
+      "houseNumber": "Číslo domu",
+      "dateOfJoining": "Datum připojení",
+      "toggleDirection": "Přepnout směr řazení",
+      "asc": "↑ Asc",
+      "desc": "↓ Popis"
+    },
+    "gender": {
+      "male": "Samec",
+      "female": "Žena",
+      "other": "Ostatní"
+    },
+    "table": {
+      "name": "Jméno",
+      "houseUnit": "Dům / Jednotka",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "meterNumber": "Metr č.",
+      "sqft": "čtverečních stop",
+      "joined": "Připojeno"
+    },
+    "form": {
+      "addTitle": "Přidat obyvatele",
+      "editTitle": "Upravit Rezident",
+      "editSubtitle": "Tím se aktualizují údaje o obyvateli ve vašem adresáři.",
+      "bypassSubtitle": "Heslo tohoto rezidenta nastavujete přímo. Žádný e-mail nebude odeslán.",
+      "addSubtitle": "Tomuto uživateli bude e-mailem zaslán odkaz na nastavení hesla, aby si mohl aktivovat své vlastní přihlášení.",
+      "fullName": "Celé jméno",
+      "houseNumber": "Dům / jednotka č.p.",
+      "email": "E-mail",
+      "phone": "Telefonní číslo",
+      "meterNumber": "Číslo měřiče",
+      "governmentId": "Vládní identifikační číslo",
+      "gender": "Pohlaví",
+      "dateOfBirth": "Datum narození",
+      "dateOfJoining": "Datum připojení",
+      "flatSize": "Plochá velikost (čtvereční stopa)",
+      "bypassLabel": "Obejít e-mail s nastaveným heslem — nyní nastavte heslo pro tohoto rezidenta",
+      "password": "Heslo",
+      "confirmPassword": "Potvrďte heslo"
+    },
+    "validation": {
+      "fullNameRequired": "Je vyžadováno celé jméno.",
+      "emailRequired": "E-mail je povinný.",
+      "phoneRequired": "Telefonní číslo je povinné.",
+      "houseNumberRequired": "Číslo domu / jednotky je povinné.",
+      "houseNumberTaken": "Toto číslo domu je již přiděleno jinému obyvateli.",
+      "meterNumberRequired": "Číslo měřiče je povinné.",
+      "meterNumberFormat": "Číslo měřiče musí vypadat jako MTR-1234 (4 číslice).",
+      "meterNumberTaken": "Toto číslo měřiče je již přiděleno jinému obyvateli.",
+      "governmentIdRequired": "Je vyžadován vládní průkaz.",
+      "governmentIdFormat": "ID musí mít 6 číslic počínaje 99 (např. 991234).",
+      "genderRequired": "Vyberte prosím pohlaví.",
+      "dateOfBirthRequired": "Datum narození je povinné.",
+      "dateOfJoiningRequired": "Datum připojení je povinné.",
+      "passwordRequired": "Je vyžadováno heslo.",
+      "passwordLength": "Heslo musí mít alespoň 8 znaků.",
+      "confirmPasswordRequired": "Prosím potvrďte heslo.",
+      "passwordMismatch": "Hesla se neshodují."
+    },
+    "bulk": {
+      "title": "Hromadné nahrávání obyvatel",
+      "noFile": "Vyberte prosím soubor .csv nebo .xlsx/.xls, který chcete nahrát.",
+      "instructions": "Nahrajte soubor .csv nebo .xlsx/.xls se sloupci <code>{{columns}}</code> (heslo a flatSizeSqft jsou volitelné). Řádky s heslem jej nastavují přímo; řádky bez jednoho dostanou e-mail s nastaveným heslem, stejně jako ruční přidání rezidenta. Duplicitní čísla domů/metrů nebo e-maily jsou odmítnuty na každý řádek – jeden špatný řádek nezklame celou dávku."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Nepodařilo se načíst obyvatele. Zkuste to prosím znovu.",
+    "historyLoadError": "Nelze načíst historii čtení. Zkuste to prosím znovu.",
+    "successMessage": "Úspěšně zaznamenané čtení {{value}} kL pro {{house}} (měřidlo: {{meter}})! Vypočtená spotřeba: {{consumption}} kL.",
+    "tabs": {
+      "single": "Jediný vstup",
+      "csv": "Hromadné CSV nahrání",
+      "history": "Čtení historie"
+    },
+    "source": {
+      "manual": "Manuál",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Tento obyvatel nemá v evidenci žádné číslo měřiče.",
+      "dateRequired": "Datum čtení je povinné.",
+      "invalidValue": "Zadejte platnou nezápornou hodnotu čtení.",
+      "duplicate": "Odečet tohoto měřiče k tomuto datu již existuje.",
+      "meterNotFound": "Tento měřič nebyl nalezen. Prosím znovu vyberte obyvatele.",
+      "lowerThanPrevious": "Tato hodnota je nižší než předchozí zaznamenaná hodnota.",
+      "recordFailed": "Toto čtení se nepodařilo zaznamenat. Zkuste to prosím znovu."
+    },
+    "combo": {
+      "label": "Vyberte možnost Plochý a sériový metr",
+      "placeholder": "Vyberte sériový plochý a metr…",
+      "flat": "Byt {{house}}",
+      "noMeter": "Žádný metr",
+      "searchPlaceholder": "Vyhledat byt č, sériový elektroměr, obyvatel…",
+      "unitsHeader": "Obytné jednotky",
+      "found": "Nalezené byty: {{total}}",
+      "loading": "Načítání obyvatel…",
+      "noMatch": "„{{search}}“ neodpovídají žádní obyvatelé.",
+      "unassigned": "Nepřiřazeno",
+      "itemMeta": "{{name}} · Poslední: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Záznam čtení pro",
+      "context": "Dům {{house}} · Metr {{meter}}",
+      "changeResident": "Změnit bydliště",
+      "readingDate": "Datum čtení",
+      "readingValue": "Aktuální stav měřiče (kL)",
+      "submit": "Odeslat ověřenou četbu",
+      "recentTitle": "Nedávná čtení",
+      "recentEmpty": "Pro tento měřič zatím nebyly zaznamenány žádné údaje."
+    },
+    "info": {
+      "title": "Monotónní ověření měřiče",
+      "body": "Každý nový odečet musí být větší nebo roven předchozímu protokolu daného měřiče – to udržuje výpočty spotřeby přesné a včas zachytí transponované číslice."
+    },
+    "details": {
+      "title": "Podrobnosti vybrané jednotky",
+      "flatUnit": "Plochá jednotka",
+      "meterSerial": "Sériový měřič",
+      "occupant": "Jméno uživatele",
+      "lastDial": "Poslední nahrané vytáčení",
+      "noReadings": "Zatím žádné údaje",
+      "monthConsumption": "Spotřeba měsíce",
+      "empty": "Není vybrána žádná domácnost. Vyhledejte a vyberte obyvatele, abyste zde viděli podrobnosti o jeho měřičích."
+    },
+    "csv": {
+      "noFile": "Vyberte prosím soubor CSV, který chcete nahrát.",
+      "instructions": "Nahrajte CSV se sloupci <code>{{columns}}</code>. Řádky se zpracovávají nezávisle — jeden špatný řádek nezpůsobí selhání celé dávky."
+    },
+    "history": {
+      "loading": "Načítání hodnot…",
+      "empty": "Pro vaši komunitu zatím nejsou zaznamenána žádná čtení."
+    },
+    "table": {
+      "meterNumber": "Metr č.",
+      "date": "Datum",
+      "value": "Hodnota (kL)",
+      "consumption": "Spotřeba (kL)",
+      "source": "Zdroj"
+    }
+  },
+  "billingCycles": {
+    "title": "Fakturační cykly",
+    "loadError": "Nelze načíst fakturační cykly. Zkuste to prosím znovu.",
+    "paymentUpdateError": "Stav platby této faktury nelze aktualizovat.",
+    "pdfError": "Nelze stáhnout PDF. Zkuste to prosím znovu.",
+    "finalizeError": "Tento fakturační cyklus nelze dokončit.",
+    "archiveError": "Tento fakturační cyklus nelze archivovat.",
+    "loading": "Načítání fakturačních cyklů…",
+    "empty": "Zatím žádné fakturační cykly. Chcete-li začít, otevřete jeden výše.",
+    "status": {
+      "open": "OTEVŘENO",
+      "finalized": "Dokončeno",
+      "archived": "Archivováno"
+    },
+    "open": {
+      "title": "Otevřete nový fakturační cyklus",
+      "noMonth": "Vyberte měsíc pro otevření.",
+      "error": "Nebylo možné otevřít fakturační cyklus pro daný měsíc.",
+      "monthAria": "Měsíc zúčtovacího období",
+      "opening": "Otevírací…",
+      "submit": "Otevřený cyklus"
+    },
+    "table": {
+      "period": "Období",
+      "status": "Postavení",
+      "householdsBilled": "Domácnosti účtovány",
+      "totalBilled": "Celkem fakturováno",
+      "actions": "Akce"
+    },
+    "actions": {
+      "finalize": "Dokončit",
+      "finalizing": "Dokončování…",
+      "archive": "Archiv",
+      "archiving": "Archivace…"
+    },
+    "filter": {
+      "aria": "Filtrujte podle stavu platby",
+      "all": "Vše"
+    },
+    "payment": {
+      "paid": "Zaplaceno",
+      "unpaid": "Nezaplaceno",
+      "updating": "Aktualizace…",
+      "markPaid": "Označit jako zaplacené",
+      "markUnpaid": "Označit jako nezaplacené"
+    },
+    "detail": {
+      "title": "Detail cyklu — {{period}}",
+      "loading": "Načítání faktur…",
+      "notFinalized": "Tento cyklus ještě nebyl dokončen – nebyly vygenerovány žádné faktury.",
+      "noInvoices": "Žádné faktury za tento cyklus.",
+      "noMatch": "Tomuto filtru neodpovídají žádné faktury."
+    },
+    "invoices": {
+      "household": "Domácnost",
+      "resident": "Rezident",
+      "meterNumber": "Metr č.",
+      "consumption": "Spotřeba (kL)",
+      "tierBreakdown": "Rozdělení úrovní",
+      "commonArea": "Společný prostor",
+      "total": "Celkový",
+      "paymentStatus": "Stav platby",
+      "pdf": "PDF",
+      "baseLine": "Základ: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Úroveň {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Nelze načíst konfiguraci tarifu",
+    "saveError": "Konfiguraci tarifu nelze uložit",
+    "chartTitle": "Aktivní úrovně užitné sazby",
+    "axisNote": "Sazba v ₹/kL, limity desek v kL",
+    "tableTitle": "Tabulka cenových úrovní",
+    "defaultRatesNote": "Zobrazují se výchozí sazby – dosud neuloženo.",
+    "addTier": "+ Přidat úroveň",
+    "saveRates": "Ušetřete tarify",
+    "tierLevel": {
+      "base": "Úroveň {{tier}} (základ)",
+      "medium": "Úroveň {{tier}} (střední)",
+      "heavy": "Úroveň {{tier}} (těžká)"
+    },
+    "basePrice": {
+      "label": "Základní cena (₹ / kL, platí pro VŠECHNU spotřebu)",
+      "note": "Každých kL je nejprve účtována tato paušální sazba. Níže uvedené desky přidávají EXTRA poplatky pouze za použití, které spadá do jejich rozsahu — např. deska začínající na 50 kL pouze přidává svou rychlost pro spotřebu nad 50 kL."
+    },
+    "table": {
+      "tierLevel": "Úroveň úrovně",
+      "slabLimit": "Limit desky (kL)",
+      "rate": "Sazba za kL",
+      "action": "Akce"
+    },
+    "commonArea": {
+      "title": "Konfigurace sdílených společných nákladů",
+      "loadError": "Nelze načíst konfiguraci nákladů na společnou oblast",
+      "saveError": "Konfiguraci nákladů na společnou oblast nelze uložit",
+      "empty": "Zatím nejsou uloženy žádné nákladové položky.",
+      "labelPlaceholder": "Štítek nákladové položky",
+      "perMonth": "/ měsíc",
+      "active": "Aktivní",
+      "addItem": "+ Přidat nákladovou položku",
+      "save": "Uložit konfiguraci společné oblasti"
+    },
+    "distribution": {
+      "title": "Volič metody rozdělení nákladů",
+      "consumption": "Podle spotřeby (podměřené poměrné)",
+      "floorArea": "Podle velikosti bytu (čtverečních stop)"
+    },
+    "footer": {
+      "cycleStart": "Datum zahájení fakturace cyklu",
+      "cycleStartValue": "1. každého měsíce",
+      "autoInvoices": "Automaticky generovat PDF faktury"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Threshold Exceeded",
+      "statisticalOutlier": "Statistická odchylka"
+    },
+    "status": {
+      "active": "Aktivní",
+      "resolved": "Vyřešeno",
+      "dismissed": "Zamítnuto"
+    },
+    "config": {
+      "title": "Konfigurace detekce netěsností",
+      "subtitle": "Nastavte měsíční práh spotřeby a/nebo povolte statistickou detekci odlehlých hodnot (označí domácnost, jejíž měsíční spotřeba je neobvykle vysoká ve srovnání s její vlastní historií).",
+      "loadError": "Nelze načíst konfiguraci výstrahy. Zkuste to prosím znovu.",
+      "thresholdRequired": "Když jsou povolena upozornění na prahové hodnoty, je vyžadován měsíční limit (kL).",
+      "saveError": "Tuto konfiguraci nelze uložit.",
+      "loading": "Načítání konfigurace…",
+      "threshold": "Měsíční limit (kL)",
+      "sensitivity": "Odlehlá citlivost (σ multiplikátor)",
+      "enableThreshold": "Povolit upozornění na prahové hodnoty",
+      "enableOutlier": "Povolit statistické odlehlé výstrahy",
+      "save": "Uložit konfiguraci",
+      "running": "Běh…",
+      "runNow": "Spusťte nyní detekci"
+    },
+    "alerts": {
+      "title": "Domácnosti označené příznakem",
+      "loadError": "Upozornění se nepodařilo načíst. Zkuste to prosím znovu.",
+      "runError": "Právě teď nelze spustit detekci úniku. Zkuste to prosím znovu.",
+      "updateError": "Toto upozornění se nepodařilo aktualizovat. Zkuste to prosím znovu.",
+      "allStatuses": "Všechny stavy",
+      "loading": "Načítání upozornění…",
+      "empty": "Žádná upozornění k zobrazení. Nakonfigurujte práh nebo povolte detekci odlehlých hodnot výše a poté klikněte na „Spustit detekci nyní“, abyste vyhodnotili aktuální využití vaší komunity.",
+      "resolve": "Odhodlání",
+      "dismiss": "Propustit"
+    },
+    "table": {
+      "household": "Domácnost",
+      "resident": "Rezident",
+      "meter": "Metr",
+      "type": "Typ",
+      "period": "Období",
+      "consumption": "Spotřeba",
+      "reference": "Odkaz",
+      "status": "Postavení"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Nelze načíst hromadné nákupy vody. Zkuste to prosím znovu.",
+    "confirmRemove": "Odebrat dodávku {{source}} na {{date}}?",
+    "removeError": "Tento nákup se nepodařilo odstranit. Zkuste to prosím znovu.",
+    "count": "Zaznamenané nákupy: {{total}}",
+    "recordButton": "+ Rekordní nákup",
+    "loading": "Načítání hromadných nákupů vody…",
+    "empty": "Dosud nebyly zaznamenány žádné nákupy vody ve velkém. Kliknutím na „Zaznamenat nákup“ zaznamenáte dodávku cisternou nebo nákup komunálních zásob.",
+    "table": {
+      "date": "Datum",
+      "source": "Zdroj",
+      "volume": "Objem (L)",
+      "unitCost": "Jednotkové náklady",
+      "totalCost": "Celkové náklady",
+      "notes": "Poznámky"
+    },
+    "form": {
+      "addTitle": "Rekordní nákupy vody ve velkém",
+      "editTitle": "Upravit nákup vody ve velkém",
+      "subtitle": "Sledujte dodávku cisteren nebo nákup obecních zásob pro vaši komunitu – zaznamenává se pouze pro přehled o nákladech a neovlivňuje faktury pro domácnost.",
+      "requiredFields": "Vyplňte prosím datum, zdroj, objem a jednotkovou cenu.",
+      "saveError": "Tento nákup se nepodařilo uložit. Zkontrolujte prosím podrobnosti.",
+      "purchaseDate": "Datum nákupu",
+      "source": "Zdroj / dodavatel",
+      "volume": "Objem (litry)",
+      "unitCost": "Jednotková cena (₹/litr)",
+      "totalPreview": "Celkové náklady: {{amount}}",
+      "notes": "Poznámky (volitelné)",
+      "submit": "Rekordní nákup"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} ještě není postaveno",
+    "profileSaveError": "Váš profil se nepodařilo uložit. Zkuste to prosím znovu.",
+    "apartmentSaveError": "Podrobnosti o apartmánu nelze uložit. Zkuste to prosím znovu.",
+    "specsTitle": "Specifikace profilu",
+    "photoUnavailable": "Nahrávání fotografií zatím není k dispozici",
+    "changePhoto": "Změnit fotku",
+    "deletePhoto": "Vymazat",
+    "photoHint": "JPG nebo PNG. Maximální velikost 2 MB.",
+    "saveProfile": "Uložit profil",
+    "apartmentTitle": "Podrobnosti o apartmánu",
+    "saveApartment": "Uložit podrobnosti o apartmánu",
+    "tabs": {
+      "profile": "Nastavení profilu",
+      "apartment": "Profil bytu",
+      "notifications": "Pravidla oznamování",
+      "billing": "Integrace fakturace",
+      "security": "Zabezpečení a přístup"
+    },
+    "fields": {
+      "fullName": "Celé jméno",
+      "email": "E-mailová adresa",
+      "emailLocked": "Email zde nelze změnit",
+      "phone": "Telefonní číslo",
+      "accessLevel": "Úroveň přístupu",
+      "accessLevelValue": "Správce komunity",
+      "roleLocked": "Správa rolí zatím není k dispozici",
+      "apartmentName": "Název bytu",
+      "mainsSource": "Síťový zdroj",
+      "mainsSourcePlaceholder": "např. Obecní zásobování + doplňkové cisterny",
+      "address": "Fyzická adresa"
+    },
+    "security": {
+      "title": "Zabezpečení a náhled přístupu",
+      "twoFactor": "Dvoufaktorová autentizace",
+      "twoFactorHint": "Povoleno při přihlášení",
+      "twoFactorUnavailable": "Dvoufaktorové ověřování zatím není k dispozici",
+      "twoFactorAria": "Dvoufaktorové ověření (pouze náhled)",
+      "sessionsLabel": "Aktivní administrátorské relace",
+      "sessionsEmpty": "Sledování relací zatím není k dispozici – toto je náhled nadcházejícího rozvržení."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Moje vstupenky",
+      "inbox": "Rezidentní vstupenky"
+    },
+    "mine": {
+      "title": "Moje vstupenky na podporu",
+      "subtitle": "Položte otázku nebo připomínku týkající se vaší komunity správci systému.",
+      "emptyCreateHint": "Položte otázku nebo znepokojení ohledně vaší komunity. Správce systému to zde zkontroluje a odpoví."
+    },
+    "inbox": {
+      "title": "Rezidentní vstupenky",
+      "subtitle": "Vstupenky na podporu a připomínky, které vám adresovali obyvatelé vaší komunity."
+    }
+  }
+}

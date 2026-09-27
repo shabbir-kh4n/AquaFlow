@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Close",
+    "signUpTitle": "Subcriptio tuam civitatem",
+    "signInTitle": "Receperint retro",
+    "signUpSubtitle": "Creare Community Admin rationem incipere administrandi incolas et exosculatio.",
+    "signInSubtitle": "Sign in to view your water usage and billing."
+  },
+  "signIn": {
+    "errorFallback": "Potest subscribere. Quaeso, iterum conare.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "rememberMe": "memento mei",
+    "forgotPassword": "Oblitusne es tesserae?",
+    "submitting": "Signing in…",
+    "submit": "Signum in",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Passwords non aequare.",
+      "communityRequired": "Nomen communitatis desideratur.",
+      "termsRequired": "Quaeso conveniunt ad Terms servitii et Privacy.",
+      "fallback": "Posse rationem creare. Quaeso, iterum conare."
+    },
+    "hint": "Unicum communitatis admins hic mandare. Postquam in es, addas incolas tuos singularia teipsum — non signum in suo.",
+    "fullNameLabel": "Nomen plenum",
+    "emailLabel": "Email",
+    "phoneLabel": "Numerus telephonicus",
+    "communityNameLabel": "Nomen Communitatis",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Adfirmare password",
+    "agreeTerms": "Assentio ad <termsLink> Terms servitii</termsLink> et <privacyLink> Politiae privatae</privacyLink>",
+    "submitting": "Rationem creandi…",
+    "submit": "Create Fusce ut Ratio",
+    "haveAccount": "Habesne iam rationem?",
+    "signInLink": "Sign in"
+  },
+  "installPrompt": {
+    "title": "Instrue HydroLedger",
+    "description": "Addere eam in domum tuam screen pro accessu vivo.",
+    "dismiss": "Dimitte",
+    "install": "install"
+  },
+  "setPassword": {
+    "title": "Tuas de es tesserae",
+    "loading": "Loading…",
+    "subtitle": "Hi {{name}}, choose a password for {{email}} to activate your HydroLedger account.",
+    "errors": {
+      "invalidLink": "Haec pagina invalidum vel expiratus est.",
+      "tooShort": "Password debet esse saltem VIII ingenia.",
+      "mismatch": "Passwords non aequare.",
+      "fallback": "Non tua. Quaeso, iterum conare."
+    },
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Adfirmare password",
+    "submitting": "Profecta password…",
+    "submit": "Set password & signum in"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistant",
+      "resident": "Quaeritur de ratione vestra",
+      "admin": "Communitas Suffragium",
+      "platform": "Suggestum Assistant",
+      "default": "Suffragium"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Quid est HydroLedger?",
+        "tieredBilling": "Quomodo tiered opus exosculatio?",
+        "leaks": "Quomodo effluo deprehenditur?"
+      },
+      "resident": {
+        "billEstimate": "Quid current libellum meum estimate?",
+        "alerts": "Habesne usus summis?",
+        "readings": "Lectiones metri mei recentis ostende"
+      },
+      "admin": {
+        "households": "Quot familias habemus?",
+        "billingCycles": "Recensere nostri exosculatio cycles recentes",
+        "tariff": "Quod est consilium nostrum omisso vena?"
+      },
+      "platform": {
+        "communities": "Communitates enumerare omnia genealogia",
+        "usageReport": "Ostende suggestu usus fama",
+        "systemStatus": "Quid status ratio?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Mandata nimis cito mittis - exspecta paulisper et iterum conare.",
+      "unavailable": "Adiutor temporarie inaccessibile est. Mox iterum conare.",
+      "generic": "Aliquid erravit mittens nuntium. Quaeso, iterum conare."
+    },
+    "emptyHint": "Quid a me petis - tantum possum videre notitia tua.",
+    "closeAssistant": "Prope adiutorem",
+    "openAssistant": "Apertum adiutorem",
+    "inputPlaceholder": "Typus nuntium…",
+    "inputLabel": "Nuntius",
+    "send": "Mitte"
+  },
+  "supportBoard": {
+    "defaultTitle": "Support Nullam",
+    "defaultCreateLabel": "Leva nova cura",
+    "status": {
+      "open": "Open",
+      "inProgress": "In Exsecutione",
+      "resolved": "certus",
+      "closed": "Clausa"
+    },
+    "tabs": {
+      "all": "Omnes Nullam"
+    },
+    "recipients": {
+      "admin": "Community Admin",
+      "systemAdmin": "Ratio Admin",
+      "both": "Communitas Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Incola",
+      "admin": "Admin"
+    },
+    "toRecipients": "Ad: {{recipients}}",
+    "raisedByResident": "Erexit habitans {{name}}",
+    "raisedByAdmin": "Suscitavit admin {{name}}",
+    "refresh": "Renovare",
+    "stats": {
+      "openLabel": "Open Submissionibus",
+      "openHint": "Adtendite review",
+      "inProgressLabel": "In Exsecutione",
+      "inProgressHint": "Quod laboraverunt in",
+      "resolvedLabel": "certus",
+      "resolvedHint": "Feliciter clausi"
+    },
+    "searchPlaceholder": "Quaere tesseras per subiectum, exitum...",
+    "loadingTickets": "Loading tesseras…",
+    "empty": {
+      "title": "Nulla Support Nullam Found",
+      "body": "Tu aute non habes aperta aut scripta subsidia petitionibus aptans hanc colum.",
+      "cta": "Submit cura"
+    },
+    "errors": {
+      "loadList": "Tesseras sustinere non poterant. Quaeso, iterum conare.",
+      "loadDetail": "Hanc tesseram non onerare. Quaeso, iterum conare.",
+      "required": "Subiectum et nuntius utrumque requiritur.",
+      "recipientRequired": "Elige unum saltem recipiens (Community Admin et/vel Ratio Admin).",
+      "submitFallback": "Hanc tesseram ferre non potuit. Quaeso, iterum conare.",
+      "sendReply": "Hoc nuntium mittere non potuit. Quaeso, iterum conare.",
+      "updateStatus": "Hoc tessera status non update. Quaeso, iterum conare."
+    },
+    "form": {
+      "defaultHint": "Aut de tuo exitus describere infra.",
+      "subjectLabel": "Subiectum",
+      "subjectPlaceholder": "Brevis complexio tui exitus",
+      "messageLabel": "Nuntius",
+      "messagePlaceholder": "Describere quid fit in detail ...",
+      "recipientsLabel": "Mitte hanc de to",
+      "cancel": "Cancel",
+      "submitting": "Submittendo…",
+      "submit": "Submit Aliquam"
+    },
+    "detail": {
+      "loading": "Loading tessera…",
+      "replyPlaceholder": "Scribere responsum…",
+      "close": "Close",
+      "sending": "Mittens…",
+      "sendReply": "Mitte ergo"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Recipe tergum, {{name}}",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "logout": "Log sicco",
+    "search": "Investigatio",
+    "notifications": "Acta Vicimediorum"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "households": "Directory familiae",
+      "meterReadings": "Metrum Lectionum",
+      "billing": "Exosculatio Management",
+      "bulkPurchases": "Mole emptionibus",
+      "reports": "Renuntiationes",
+      "waterLeakage": "Aquae Leakage",
+      "support": "Support / Curae",
+      "tariffPlans": "Lezdam consilia",
+      "announcements": "Annuntiationes",
+      "profile": "Profile"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Hic est a snapshot civitatis tuae."
+      },
+      "households": {
+        "title": "Directory familiae",
+        "subtitle": "Adde, renovate, incolas in communitate tua degentes."
+      },
+      "meterReadings": {
+        "title": "Aqua Metrum Lectionum Hub",
+        "subtitle": "Quaere insitum ac notare aquam metri lectionis."
+      },
+      "tariffPlans": {
+        "title": "Tariff configurationis",
+        "subtitle": "Configurare limites certos ligatos, sumptibus communis area communis, et modos distribuendi pro communitate diaetae tuae."
+      },
+      "billing": {
+        "title": "Exosculatio Management",
+        "subtitle": "Aperi, finalisare, et archivum cycli exosculationis, et recognoscere mercium per familias dicuntur."
+      },
+      "bulkPurchases": {
+        "title": "Mole emptionibus",
+        "subtitle": "Record onerarias amphorarum et emptionum copia municipiorum pro communitate tua."
+      },
+      "waterLeakage": {
+        "title": "Aquae Leakage",
+        "subtitle": "Limen configurare, et in summis rimis outlier-basi, et domos flagitiosas recognoscere."
+      },
+      "support": {
+        "title": "Support / Curae",
+        "subtitle": "Tuas tesseras ad Ratio Admin leva, vel tractas de habitantibus tuis ad te directos."
+      },
+      "profile": {
+        "title": "Optiones & Profile",
+        "subtitle": "Curo rationem vestram singula et diaetam informationem."
+      }
+    },
+    "fallbackName": "Admin",
+    "fallbackCommunity": "Community Admin",
+    "notBuilt": "{{label}} nondum aedificatum est",
+    "searchPlaceholder": "Quaere quid…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Renuntiationes",
+      "description": "Consummatio, exosculatio, et conservatio relationum communitati vestre."
+    },
+    "announcements": {
+      "title": "Annuntiationes",
+      "description": "Communitates patentes nuntios ad tuos incolas mitte."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} cito venit"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "usageHistory": "Ritus Historiae",
+      "bills": "rogationes meae",
+      "recommendations": "Commendationes",
+      "reports": "Renuntiationes",
+      "support": "Support / Curae",
+      "notifications": "Acta Vicimediorum",
+      "profile": "Profile"
+    },
+    "pages": {
+      "usageHistory": "Tua usus historia",
+      "billing": "Exosculatio & Invoices",
+      "notifications": "Acta Vicimediorum",
+      "recommendations": "Commendationes",
+      "support": "Support / Curae"
+    },
+    "defaultTitle": "Habitans Dashboard",
+    "navLabel": "Residens navigationis",
+    "fallbackName": "Incola",
+    "unit": "Unitas {{number}}",
+    "comingSoon": "{{label}} cito venit",
+    "profile": "Profile",
+    "searchPlaceholder": "Quaere analytica, rogationes..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "communities": "Communitates",
+      "reports": "Renuntiationes",
+      "supportTickets": "Support Nullam",
+      "systemStatus": "Ratio Status"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Platform-latae snapshot per omnem communitatem descripserunt."
+      },
+      "communities": {
+        "title": "Communitates",
+        "subtitle": "Omnis scripti communitas admin et communitas in unum locum."
+      },
+      "reports": {
+        "title": "Renuntiationes",
+        "subtitle": "Platform-wide aqua usus et exosculatio figurarum per communitatem et tempus."
+      },
+      "supportTickets": {
+        "title": "Support Nullam",
+        "subtitle": "Support tesserae et sollicitudines a residentibus et communitatibus admins, suggestum-latum."
+      },
+      "systemStatus": {
+        "title": "Ratio Status",
+        "subtitle": "Backend connectivity and basic runtime health."
+      }
+    },
+    "fallbackName": "Ratio Admin",
+    "platformOwner": "Platform Possessor",
+    "searchPlaceholder": "Quaere communitates…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Lingua: {{language}}",
+    "searchPlaceholder": "Quaerere linguam…",
+    "noMatches": "Non par"
+  }
+}

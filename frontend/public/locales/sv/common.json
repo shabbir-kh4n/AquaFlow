@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Nära",
+    "signUpTitle": "Registrera din gemenskap",
+    "signInTitle": "Välkommen tillbaka",
+    "signUpSubtitle": "Skapa ett Community Admin-konto för att börja hantera invånare och fakturering.",
+    "signInSubtitle": "Logga in för att se din vattenanvändning och fakturering."
+  },
+  "signIn": {
+    "errorFallback": "Det gick inte att logga in. Försök igen.",
+    "emailLabel": "E-post",
+    "passwordLabel": "Lösenord",
+    "rememberMe": "Kom ihåg mig",
+    "forgotPassword": "Glömt lösenordet?",
+    "submitting": "Loggar in...",
+    "submit": "Logga in",
+    "noAccount": "Har du inget konto?",
+    "signUpLink": "Anmäl dig"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "Lösenord stämmer inte överens.",
+      "communityRequired": "Gruppnamn krävs.",
+      "termsRequired": "Vänligen godkänn användarvillkoren och sekretesspolicyn.",
+      "fallback": "Det gick inte att skapa konto. Försök igen."
+    },
+    "hint": "Endast communityadministratörer registrerar sig här. När du väl är inne lägger du till dina invånares uppgifter själv – de registrerar sig inte på egen hand.",
+    "fullNameLabel": "Fullständigt namn",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefonnummer",
+    "communityNameLabel": "Gemenskapens namn",
+    "passwordLabel": "Lösenord",
+    "confirmPasswordLabel": "Bekräfta lösenord",
+    "agreeTerms": "Jag godkänner <termsLink>användarvillkoren</termsLink> och <privacyLink>sekretesspolicyn</privacyLink>",
+    "submitting": "Skapar konto...",
+    "submit": "Skapa ett administratörskonto",
+    "haveAccount": "Har du redan ett konto?",
+    "signInLink": "Logga in"
+  },
+  "installPrompt": {
+    "title": "Installera HydroLedger",
+    "description": "Lägg till den på din startskärm för snabb åtkomst.",
+    "dismiss": "Avfärda",
+    "install": "Installera"
+  },
+  "setPassword": {
+    "title": "Ställ in ditt lösenord",
+    "loading": "Belastning…",
+    "subtitle": "Hej {{name}}, välj ett lösenord för {{email}} för att aktivera ditt HydroLedger-konto.",
+    "errors": {
+      "invalidLink": "Denna länk är ogiltig eller har upphört att gälla.",
+      "tooShort": "Lösenordet måste vara minst 8 tecken.",
+      "mismatch": "Lösenord stämmer inte överens.",
+      "fallback": "Det gick inte att ange ditt lösenord. Försök igen."
+    },
+    "passwordLabel": "Lösenord",
+    "confirmPasswordLabel": "Bekräfta lösenord",
+    "submitting": "Ställer in lösenord...",
+    "submit": "Ange lösenord och logga in"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistent",
+      "resident": "Fråga om ditt konto",
+      "admin": "Samhällsassistent",
+      "platform": "Plattformsassistent",
+      "default": "Assistent"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "Vad är HydroLedger?",
+        "tieredBilling": "Hur fungerar nivådelad fakturering?",
+        "leaks": "Hur upptäcks läckor?"
+      },
+      "resident": {
+        "billEstimate": "Vad är min nuvarande uppskattning av räkningen?",
+        "alerts": "Har jag några användningsaviseringar?",
+        "readings": "Visa mina senaste mätaravläsningar"
+      },
+      "admin": {
+        "households": "Hur många hushåll har vi?",
+        "billingCycles": "Lista våra senaste faktureringscykler",
+        "tariff": "Vad är vår nuvarande taxeplan?"
+      },
+      "platform": {
+        "communities": "Lista alla registrerade gemenskaper",
+        "usageReport": "Visa rapporten om plattformsanvändning",
+        "systemStatus": "Vad är systemets status?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Du skickar meddelanden för snabbt - vänta en stund och försök igen.",
+      "unavailable": "Assistenten är tillfälligt otillgänglig. Försök snart igen.",
+      "generic": "Något gick fel när meddelandet skickades. Försök igen."
+    },
+    "emptyHint": "Fråga mig vad som helst – jag kan bara se dina egna uppgifter.",
+    "closeAssistant": "Nära assistent",
+    "openAssistant": "Öppna assistent",
+    "inputPlaceholder": "Skriv ett meddelande...",
+    "inputLabel": "Meddelande",
+    "send": "Skicka"
+  },
+  "supportBoard": {
+    "defaultTitle": "Supportbiljetter",
+    "defaultCreateLabel": "Väcka ny oro",
+    "status": {
+      "open": "Öppna",
+      "inProgress": "Pågår",
+      "resolved": "Löst",
+      "closed": "Stängd"
+    },
+    "tabs": {
+      "all": "Alla biljetter"
+    },
+    "recipients": {
+      "admin": "Gemenskapsadministratör",
+      "systemAdmin": "Systemadmin",
+      "both": "Community Admin + System Admin"
+    },
+    "roles": {
+      "resident": "Bosatt",
+      "admin": "Administration"
+    },
+    "toRecipients": "Till: {{recipients}}",
+    "raisedByResident": "Uppfostrad av invånare {{name}}",
+    "raisedByAdmin": "Uppfostrad av admin {{name}}",
+    "refresh": "Uppdatera",
+    "stats": {
+      "openLabel": "Öppna inlämningar",
+      "openHint": "Väntar på granskning",
+      "inProgressLabel": "Pågår",
+      "inProgressHint": "Arbetas på",
+      "resolvedLabel": "Löst",
+      "resolvedHint": "Stängdes framgångsrikt"
+    },
+    "searchPlaceholder": "Sök biljetter efter ämne, nummer...",
+    "loadingTickets": "Laddar biljetter...",
+    "empty": {
+      "title": "Inga supportbiljetter hittades",
+      "body": "Du har för närvarande inga öppna eller inspelade supportförfrågningar som matchar detta filter.",
+      "cta": "Skicka in en fråga"
+    },
+    "errors": {
+      "loadList": "Det gick inte att ladda supportbiljetter. Försök igen.",
+      "loadDetail": "Det gick inte att ladda denna biljett. Försök igen.",
+      "required": "Ämne och meddelande krävs båda.",
+      "recipientRequired": "Välj minst en mottagare (Community Admin och/eller System Admin).",
+      "submitFallback": "Det gick inte att skicka in denna biljett. Försök igen.",
+      "sendReply": "Det gick inte att skicka detta meddelande. Försök igen.",
+      "updateStatus": "Det gick inte att uppdatera denna biljettstatus. Försök igen."
+    },
+    "form": {
+      "defaultHint": "Beskriv ditt problem eller problem nedan.",
+      "subjectLabel": "Ämne",
+      "subjectPlaceholder": "Kort sammanfattning av ditt problem",
+      "messageLabel": "Meddelande",
+      "messagePlaceholder": "Beskriv vad som händer i detalj...",
+      "recipientsLabel": "Skicka denna oro till",
+      "cancel": "Avboka",
+      "submitting": "Skickar in...",
+      "submit": "Skicka in biljett"
+    },
+    "detail": {
+      "loading": "Laddar biljett...",
+      "replyPlaceholder": "Skriv ett svar...",
+      "close": "Nära",
+      "sending": "Sändning…",
+      "sendReply": "Skicka svar"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Välkommen tillbaka, {{name}}",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn",
+    "logout": "Logga ut",
+    "search": "Söka",
+    "notifications": "Aviseringar"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Instrumentbräda",
+      "households": "Hushållskatalog",
+      "meterReadings": "Mätaravläsningar",
+      "billing": "Faktureringshantering",
+      "bulkPurchases": "Bulkköp",
+      "reports": "Rapporter",
+      "waterLeakage": "Vattenläckage",
+      "support": "Support / Bekymmer",
+      "tariffPlans": "Tariffplaner",
+      "announcements": "Meddelanden",
+      "profile": "Profil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Här är en ögonblicksbild av din gemenskap."
+      },
+      "households": {
+        "title": "Hushållskatalog",
+        "subtitle": "Lägg till, uppdatera och hantera invånarna som bor i ditt samhälle."
+      },
+      "meterReadings": {
+        "title": "Vattenmätaravläsningshubb",
+        "subtitle": "Sök efter en boende och registrera deras vattenmätare."
+      },
+      "tariffPlans": {
+        "title": "Tariffkonfiguration",
+        "subtitle": "Konfigurera prisgränser, delade kostnader för gemensamma områden och distributionsmetoder för din lägenhetsgemenskap."
+      },
+      "billing": {
+        "title": "Faktureringshantering",
+        "subtitle": "Öppna, slutför och arkivera faktureringscykler och granska specificerade fakturor per hushåll."
+      },
+      "bulkPurchases": {
+        "title": "Bulkköp",
+        "subtitle": "Rekordleveranser av tankbilar och kommunala leveranser för ditt samhälle."
+      },
+      "waterLeakage": {
+        "title": "Vattenläckage",
+        "subtitle": "Konfigurera tröskel- och avvikelsebaserade läckagevarningar och granska flaggade hushåll."
+      },
+      "support": {
+        "title": "Support / Bekymmer",
+        "subtitle": "Skaffa dina egna biljetter till systemadministratören eller hantera problem som dina invånare har riktat till dig."
+      },
+      "profile": {
+        "title": "Inställningar och profil",
+        "subtitle": "Hantera dina kontouppgifter och lägenhetsinformation."
+      }
+    },
+    "fallbackName": "Administration",
+    "fallbackCommunity": "Gemenskapsadministratör",
+    "notBuilt": "{{label}} är inte byggd än",
+    "searchPlaceholder": "Sök vad som helst..."
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Rapporter",
+      "description": "Förbruknings-, fakturerings- och bevaranderapporter för ditt samhälle."
+    },
+    "announcements": {
+      "title": "Meddelanden",
+      "description": "Skicka meddelanden i hela samhället till dina invånare."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} kommer snart"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Instrumentbräda",
+      "usageHistory": "Användningshistorik",
+      "bills": "Mina räkningar",
+      "recommendations": "Rekommendationer",
+      "reports": "Rapporter",
+      "support": "Support / Bekymmer",
+      "notifications": "Aviseringar",
+      "profile": "Profil"
+    },
+    "pages": {
+      "usageHistory": "Din användningshistorik",
+      "billing": "Fakturering & fakturor",
+      "notifications": "Aviseringar",
+      "recommendations": "Rekommendationer",
+      "support": "Support / Bekymmer"
+    },
+    "defaultTitle": "Resident Dashboard",
+    "navLabel": "Boendenavigering",
+    "fallbackName": "Bosatt",
+    "unit": "Enhet {{number}}",
+    "comingSoon": "{{label}} kommer snart",
+    "profile": "Profil",
+    "searchPlaceholder": "Sökanalys, räkningar..."
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Instrumentbräda",
+      "communities": "gemenskaper",
+      "reports": "Rapporter",
+      "supportTickets": "Supportbiljetter",
+      "systemStatus": "Systemstatus"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Plattformsomfattande ögonblicksbild över alla registrerade gemenskaper."
+      },
+      "communities": {
+        "title": "gemenskaper",
+        "subtitle": "Varje registrerad gemenskapsadministratör och deras gemenskap, på ett ställe."
+      },
+      "reports": {
+        "title": "Rapporter",
+        "subtitle": "Plattformsomfattande vattenanvändning och faktureringssiffror, per gemenskap och över tid."
+      },
+      "supportTickets": {
+        "title": "Supportbiljetter",
+        "subtitle": "Stöd biljetter och problem som tagits upp av invånare och community-administratörer, över hela plattformen."
+      },
+      "systemStatus": {
+        "title": "Systemstatus",
+        "subtitle": "Backend-anslutning och grundläggande körtidshälsa."
+      }
+    },
+    "fallbackName": "Systemadmin",
+    "platformOwner": "Plattformsägare",
+    "searchPlaceholder": "Sök efter grupper..."
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Språk: {{language}}",
+    "searchPlaceholder": "Sök språk...",
+    "noMatches": "Inga matchningar"
+  }
+}

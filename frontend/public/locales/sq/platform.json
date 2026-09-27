@@ -1,0 +1,238 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "blocked": "E bllokuar",
+    "terminated": "Përfundoi"
+  },
+  "sort": {
+    "sortBy": "Rendit sipas",
+    "toggleDirection": "Ndrysho drejtimin e renditjes",
+    "asc": "↑ Asc",
+    "desc": "↓ Përshkruani"
+  },
+  "pagination": {
+    "showing": "Po shfaqen {{from}}–{{to}} nga {{total}}",
+    "prev": "← E mëparshme",
+    "next": "Tjetra →",
+    "page": "Faqja {{page}} nga {{pageCount}}"
+  },
+  "dashboard": {
+    "title": "Përmbledhje e platformës",
+    "subtitle": "Çdo administrator i regjistruar i komunitetit, në të gjithë platformën HydroLedger.",
+    "viewAll": "Shiko të gjitha komunitetet",
+    "loadError": "Nuk mund të ngarkoheshin të dhënat e platformës për momentin.",
+    "cards": {
+      "totalCommunities": "Totali i komuniteteve",
+      "registeredAdmins": "Administratorët e regjistruar",
+      "totalResidents": "Totali i Banorëve",
+      "acrossAllCommunities": "Në të gjitha komunitetet",
+      "active": "Aktiv",
+      "inGoodStanding": "Në gjendje të mirë",
+      "blockedTerminated": "Bllokuar / Përfunduar",
+      "blockedTerminatedBreakdown": "{{blocked}} i bllokuar, {{terminated}} i përfunduar"
+    },
+    "recent": {
+      "title": "Komunitetet e regjistruara së fundmi",
+      "loading": "Po ngarkohet…",
+      "empty": "Asnjë komunitet nuk është regjistruar ende.",
+      "table": {
+        "community": "Komuniteti",
+        "admin": "Admin",
+        "status": "Statusi",
+        "residents": "Banorët"
+      }
+    }
+  },
+  "communities": {
+    "count": "Komunitetet: {{count}}",
+    "loadError": "Nuk mund të ngarkoheshin bashkësitë. Ju lutemi provoni përsëri.",
+    "searchPlaceholder": "Filtro sipas komunitetit, emrit të administratorit ose emailit",
+    "statusFilter": {
+      "label": "Statusi",
+      "all": "Të gjitha"
+    },
+    "sortOptions": {
+      "community": "Komuniteti",
+      "admin": "Admin",
+      "residents": "Banorët"
+    },
+    "loading": "Po ngarkon bashkësitë…",
+    "empty": "Asnjë komunitet nuk është regjistruar ende.",
+    "noMatch": "Asnjë komunitet nuk përputhet me filtrat tuaj.",
+    "table": {
+      "community": "Komuniteti",
+      "admin": "Admin",
+      "email": "Email",
+      "status": "Statusi",
+      "residents": "Banorët",
+      "view": "Shiko"
+    }
+  },
+  "communityDetail": {
+    "loadError": "Ky komunitet nuk mund të ngarkohej. Mund të jetë hequr.",
+    "statusUpdateError": "Statusi i këtij komuniteti nuk mund të përditësohej.",
+    "deleteError": "Ky komunitet nuk mund të fshihej.",
+    "loading": "Po ngarkon komunitetin…",
+    "notFound": "Komuniteti nuk u gjet.",
+    "backLink": "← Kthehu te Komunitetet",
+    "backLinkShort": "Kthehu te Komunitetet",
+    "eyebrow": "Profili i Komunitetit",
+    "unnamed": "Komunitet pa emër",
+    "noAddress": "Asnjë adresë në dosje",
+    "stats": {
+      "residents": "Banorët",
+      "status": "Statusi"
+    },
+    "actions": {
+      "reactivate": "Riaktivizoni",
+      "block": "Blloko",
+      "terminate": "Përfundoni",
+      "delete": "Fshi komunitetin"
+    },
+    "blockDialog": {
+      "title": "Të bllokohet ky administrator i komunitetit?",
+      "message": "Të bllokohet {{name}}? Ata nuk do të jenë në gjendje të identifikohen derisa të zhbllokohen. Asnjë e dhënë nuk do të ndikohet.",
+      "confirm": "Blloko"
+    },
+    "terminateDialog": {
+      "title": "Të mbyllet ky administrator i komunitetit?",
+      "message": "Të ndërpritet përgjithmonë qasja e {{name}}? Kjo nuk mund të zhbëhet, megjithëse të dhënat e komunitetit të tyre do të mbahen për regjistrim.",
+      "confirm": "Përfundoni"
+    },
+    "deleteDialog": {
+      "title": "Të fshihet ky komunitet?",
+      "message": "Kjo do të fshijë përgjithmonë <strong>{{name}}</strong> dhe të gjitha familjet e tij, banorët, njehsorët, konfigurimin e tarifave/faturimeve dhe historikun e faturave. Ky veprim nuk mund të zhbëhet.",
+      "typeToConfirm": "Shkruani <strong>{{word}}</strong> për të vazhduar",
+      "confirm": "Konfirmo"
+    },
+    "residents": {
+      "title": "Banorët",
+      "registeredCount": "I regjistruar: {{count}}",
+      "empty": "Ende nuk ka banorë të regjistruar në këtë komunitet.",
+      "table": {
+        "flatUnit": "Njësi e sheshtë",
+        "meter": "Metër",
+        "resident": "Banor",
+        "email": "Email",
+        "passwordSet": "Set i fjalëkalimeve"
+      },
+      "yes": "po",
+      "no": "Nr"
+    },
+    "cancel": "Anulo",
+    "working": "Punon…",
+    "deleting": "Po fshihet…"
+  },
+  "systemStatus": {
+    "statusError": "Nuk mund të arrihej në backend për të kontrolluar statusin e sistemit.",
+    "metricsError": "Historiku i metrikës nuk mund të ngarkohej.",
+    "ranges": {
+      "fiveMinutes": "5 minuta",
+      "fifteenMinutes": "15 minuta",
+      "hour": "Ora",
+      "day": "Dita",
+      "week": "javë",
+      "month": "muaj",
+      "threeMonths": "3 muaj"
+    },
+    "uptime": {
+      "days": "{{value}}d",
+      "hours": "{{value}}h",
+      "minutes": "{{value}}m"
+    },
+    "charts": {
+      "requestsPerSec": "Kërkesa/sek",
+      "opsPerSec": "Ops/sek",
+      "latency": "Vonesa",
+      "lastValue": "{{value}} e fundit",
+      "loading": "Po ngarkohet…",
+      "empty": "Nuk është regjistruar ende asnjë metrikë për këtë varg."
+    },
+    "stats": {
+      "min": "Min.: <b>{{value}}</b>",
+      "avg": "Avg: <b>{{value}}</b>",
+      "max": "Maksimumi: <b>{{value}}</b>",
+      "last": "Last: <b>{{value}}</b>"
+    },
+    "cards": {
+      "backendApi": "Backend API",
+      "checking": "Po kontrollon…",
+      "reachable": "E arritshme",
+      "unreachable": "E paarritshme",
+      "connected": "Lidhur",
+      "backendApiHint": "Kjo faqe u ngarkua nga pjesa e pasme, kështu që u përgjigj.",
+      "database": "Baza e të dhënave",
+      "databaseHint": "Lidhja PostgreSQL, e kontrolluar drejtpërdrejt.",
+      "uptime": "Koha e funksionimit të Backend",
+      "uptimeHint": "Që nga rinisja e fundit e aplikacionit.",
+      "appVersion": "Versioni i aplikacionit",
+      "appVersionHint": "Versioni i ndërtimit të Backend."
+    },
+    "mini": {
+      "latency": "Vonesa",
+      "readsLatency": "Lexon latente",
+      "writesLatency": "Shkruan Latency",
+      "otherLatency": "Vonesa të tjera",
+      "connections": "Lidhjet",
+      "totalKeys": "Totali i çelësave"
+    },
+    "note": "Kërkesat/sek dhe vonesa zgjidhen nga trafiku i drejtpërdrejtë në fund çdo 15 sekonda dhe mbahen deri në 100 ditë. Ky është një lidhje bazë + kontroll trafiku — nuk zëvendëson monitorimin e plotë të performancës së aplikacionit, grumbullimin e regjistrave ose sinjalizimin."
+  },
+  "reports": {
+    "loadError": "Raporti i platformës nuk mund të ngarkohej.",
+    "ranges": {
+      "threeMonths": "3 muaj",
+      "sixMonths": "6 muaj",
+      "twelveMonths": "12 muaj",
+      "custom": "Me porosi"
+    },
+    "sortOptions": {
+      "community": "Komuniteti",
+      "usage": "Përdorimi",
+      "billed": "Faturuar",
+      "residents": "Banorët"
+    },
+    "customRange": {
+      "from": "Nga",
+      "to": "te",
+      "hint": "Zgjidh një muaj \"nga\" dhe \"në\" për të ngarkuar një raport të personalizuar."
+    },
+    "loading": "Raporti po ngarkohet…",
+    "cards": {
+      "totalCommunities": "Totali i komuniteteve",
+      "inThisRange": "Në këtë gamë",
+      "totalResidents": "Totali i Banorëve",
+      "acrossAllCommunities": "Në të gjitha komunitetet",
+      "overallUsage": "Përdorimi i përgjithshëm",
+      "meteredConsumption": "Konsumi i matur",
+      "overallBilled": "Faturuar në përgjithësi",
+      "finalizedInvoicesOnly": "Vetëm fatura të përfunduara",
+      "avgUsagePerResident": "Përdorimi mesatar / Banor",
+      "avgBillPerResident": "Fatura mesatare / Banor"
+    },
+    "charts": {
+      "usageTitle": "Përdorimi në të gjithë platformën (kL / muaj)",
+      "usageEmpty": "Nuk është regjistruar asnjë përdorim për këtë varg.",
+      "usageSeries": "Përdorimi",
+      "billedTitle": "Shuma e faturuar në të gjithë platformën (₹ / muaj)",
+      "billedEmpty": "Asnjë faturë nuk është finalizuar për këtë varg.",
+      "billedSeries": "Faturuar"
+    },
+    "searchPlaceholder": "Filtro sipas komunitetit ose emrit të administratorit",
+    "empty": "Asnjë komunitet nuk ka ende të dhëna për përdorimin ose faturimin për këtë varg.",
+    "noMatch": "Asnjë komunitet nuk përputhet me filtrin tuaj.",
+    "table": {
+      "community": "Komuniteti",
+      "admin": "Admin",
+      "residents": "Banorët",
+      "usage": "Përdorimi (kL)",
+      "billed": "Faturuar (₹)",
+      "avgUsagePerResident": "Përdorimi mesatar / Banor",
+      "avgBillPerResident": "Fatura mesatare / Banor"
+    }
+  },
+  "supportTickets": {
+    "title": "Biletat e mbështetjes",
+    "subtitle": "Mbështetni biletat dhe shqetësimet e ngritura nga banorët dhe administratorët e komunitetit, në të gjithë platformën."
+  }
+}

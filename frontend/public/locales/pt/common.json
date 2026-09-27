@@ -1,0 +1,312 @@
+{
+  "authModal": {
+    "close": "Fechar",
+    "signUpTitle": "Registre sua comunidade",
+    "signInTitle": "bem vindo de volta",
+    "signUpSubtitle": "Crie uma conta de administrador da comunidade para começar a gerenciar residentes e cobrança.",
+    "signInSubtitle": "Faça login para ver seu uso e faturamento de água."
+  },
+  "signIn": {
+    "errorFallback": "Não foi possível fazer login. Tente novamente.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Senha",
+    "rememberMe": "Lembre de mim",
+    "forgotPassword": "Esqueceu sua senha?",
+    "submitting": "Fazendo login…",
+    "submit": "Entrar",
+    "noAccount": "Não tem uma conta?",
+    "signUpLink": "Inscrever-se"
+  },
+  "signUp": {
+    "errors": {
+      "passwordMismatch": "As senhas não coincidem.",
+      "communityRequired": "O nome da comunidade é obrigatório.",
+      "termsRequired": "Por favor, concorde com os Termos de Serviço e a Política de Privacidade.",
+      "fallback": "Não foi possível criar a conta. Por favor, tente novamente."
+    },
+    "hint": "Somente administradores da comunidade se registram aqui. Depois de entrar, você mesmo adicionará os dados dos residentes - eles não se inscrevem por conta própria.",
+    "fullNameLabel": "Nome completo",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Número de telefone",
+    "communityNameLabel": "Nome da comunidade",
+    "passwordLabel": "Senha",
+    "confirmPasswordLabel": "Confirme sua senha",
+    "agreeTerms": "Concordo com os <termsLink>Termos de Serviço</termsLink> e a <privacyLink>Política de Privacidade</privacyLink>",
+    "submitting": "Criando conta…",
+    "submit": "Criar conta de administrador",
+    "haveAccount": "Já tem uma conta?",
+    "signInLink": "Entrar"
+  },
+  "installPrompt": {
+    "title": "Instalar HydroLedger",
+    "description": "Adicione-o à sua tela inicial para acesso rápido.",
+    "dismiss": "Liberar",
+    "install": "Instalar"
+  },
+  "setPassword": {
+    "title": "Defina sua senha",
+    "loading": "Carregando…",
+    "subtitle": "Olá {{name}}, escolha uma senha para {{email}} para ativar sua conta HydroLedger.",
+    "errors": {
+      "invalidLink": "Este link é inválido ou expirou.",
+      "tooShort": "A senha deve ter pelo menos 8 caracteres.",
+      "mismatch": "As senhas não coincidem.",
+      "fallback": "Não foi possível definir sua senha. Por favor, tente novamente."
+    },
+    "passwordLabel": "Senha",
+    "confirmPasswordLabel": "Confirme sua senha",
+    "submitting": "Definindo senha…",
+    "submit": "Definir senha e fazer login"
+  },
+  "chat": {
+    "titles": {
+      "landing": "HydroLedger Assistente",
+      "resident": "Pergunte sobre sua conta",
+      "admin": "Assistente Comunitário",
+      "platform": "Assistente de plataforma",
+      "default": "Assistente"
+    },
+    "prompts": {
+      "landing": {
+        "whatIs": "O que é HydroLedger?",
+        "tieredBilling": "Como funciona o faturamento em camadas?",
+        "leaks": "Como os vazamentos são detectados?"
+      },
+      "resident": {
+        "billEstimate": "Qual é a estimativa da minha conta atual?",
+        "alerts": "Tenho algum alerta de uso?",
+        "readings": "Mostrar minhas leituras recentes do medidor"
+      },
+      "admin": {
+        "households": "Quantos domicílios temos?",
+        "billingCycles": "Liste nossos ciclos de faturamento recentes",
+        "tariff": "Qual é o nosso plano tarifário atual?"
+      },
+      "platform": {
+        "communities": "Listar todas as comunidades registradas",
+        "usageReport": "Mostrar o relatório de uso da plataforma",
+        "systemStatus": "Qual é o status do sistema?"
+      }
+    },
+    "errors": {
+      "rateLimited": "Você está enviando mensagens muito rapidamente. Aguarde um momento e tente novamente.",
+      "unavailable": "O assistente está temporariamente indisponível. Por favor, tente novamente em breve.",
+      "generic": "Algo deu errado ao enviar essa mensagem. Por favor, tente novamente."
+    },
+    "emptyHint": "Pergunte-me qualquer coisa - só posso ver seus próprios dados.",
+    "closeAssistant": "Fechar assistente",
+    "openAssistant": "Assistente aberto",
+    "inputPlaceholder": "Digite uma mensagem…",
+    "inputLabel": "Mensagem",
+    "send": "Enviar"
+  },
+  "supportBoard": {
+    "defaultTitle": "Tíquetes de suporte",
+    "defaultCreateLabel": "Levante nova preocupação",
+    "status": {
+      "open": "Abrir",
+      "inProgress": "Em andamento",
+      "resolved": "Resolvido",
+      "closed": "Fechado"
+    },
+    "tabs": {
+      "all": "Todos os ingressos"
+    },
+    "recipients": {
+      "admin": "Administrador da comunidade",
+      "systemAdmin": "Administrador do sistema",
+      "both": "Administrador da comunidade + Administrador do sistema"
+    },
+    "roles": {
+      "resident": "Residente",
+      "admin": "Administrador"
+    },
+    "toRecipients": "Para: {{recipients}}",
+    "raisedByResident": "Criado pelo residente {{name}}",
+    "raisedByAdmin": "Criado pelo administrador {{name}}",
+    "refresh": "Atualizar",
+    "stats": {
+      "openLabel": "Inscrições abertas",
+      "openHint": "Aguardando revisão",
+      "inProgressLabel": "Em andamento",
+      "inProgressHint": "Sendo trabalhado",
+      "resolvedLabel": "Resolvido",
+      "resolvedHint": "Fechado com sucesso"
+    },
+    "searchPlaceholder": "Pesquise ingressos por assunto, questão…",
+    "loadingTickets": "Carregando ingressos…",
+    "empty": {
+      "title": "Nenhum ticket de suporte encontrado",
+      "body": "No momento, você não tem nenhuma solicitação de suporte aberta ou registrada que corresponda a este filtro.",
+      "cta": "Envie uma preocupação"
+    },
+    "errors": {
+      "loadList": "Não foi possível carregar os tickets de suporte. Por favor, tente novamente.",
+      "loadDetail": "Não foi possível carregar este ticket. Por favor, tente novamente.",
+      "required": "Assunto e mensagem são obrigatórios.",
+      "recipientRequired": "Selecione pelo menos um destinatário (Administrador da comunidade e/ou Administrador do sistema).",
+      "submitFallback": "Não foi possível enviar este ticket. Por favor, tente novamente.",
+      "sendReply": "Não foi possível enviar esta mensagem. Por favor, tente novamente.",
+      "updateStatus": "Não foi possível atualizar o status deste ticket. Por favor, tente novamente."
+    },
+    "form": {
+      "defaultHint": "Descreva seu problema ou preocupação abaixo.",
+      "subjectLabel": "Assunto",
+      "subjectPlaceholder": "Breve resumo do seu problema",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Descreva o que está acontecendo em detalhes…",
+      "recipientsLabel": "Envie esta preocupação para",
+      "cancel": "Cancelar",
+      "submitting": "Enviando…",
+      "submit": "Enviar tíquete"
+    },
+    "detail": {
+      "loading": "Carregando ingresso…",
+      "replyPlaceholder": "Escreva uma resposta…",
+      "close": "Fechar",
+      "sending": "Enviando…",
+      "sendReply": "Enviar resposta"
+    }
+  },
+  "shell": {
+    "welcomeBack": "Bem-vindo de volta, {{name}}",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "logout": "Sair",
+    "search": "Procurar",
+    "notifications": "Notificações"
+  },
+  "adminLayout": {
+    "nav": {
+      "dashboard": "Painel",
+      "households": "Diretório de famílias",
+      "meterReadings": "Leituras do medidor",
+      "billing": "Gerenciamento de faturamento",
+      "bulkPurchases": "Compras em massa",
+      "reports": "Relatórios",
+      "waterLeakage": "Vazamento de água",
+      "support": "Suporte / Preocupações",
+      "tariffPlans": "Planos Tarifários",
+      "announcements": "Anúncios",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Aqui está um instantâneo da sua comunidade."
+      },
+      "households": {
+        "title": "Diretório de famílias",
+        "subtitle": "Adicione, atualize e gerencie os residentes que vivem em sua comunidade."
+      },
+      "meterReadings": {
+        "title": "Centro de leituras de medidores de água",
+        "subtitle": "Procure um morador e registre a leitura do hidrômetro."
+      },
+      "tariffPlans": {
+        "title": "Configuração Tarifária",
+        "subtitle": "Configure limites de tarifas escalonadas, custos de áreas comuns compartilhadas e métodos de distribuição para sua comunidade de apartamentos."
+      },
+      "billing": {
+        "title": "Gerenciamento de faturamento",
+        "subtitle": "Abra, finalize e arquive ciclos de faturamento e revise faturas detalhadas por família."
+      },
+      "bulkPurchases": {
+        "title": "Compras em massa",
+        "subtitle": "Registre entregas de caminhões-tanque e compras de suprimentos municipais para sua comunidade."
+      },
+      "waterLeakage": {
+        "title": "Vazamento de água",
+        "subtitle": "Configure alertas de vazamento baseados em limites e valores atípicos e analise as residências sinalizadas."
+      },
+      "support": {
+        "title": "Suporte / Preocupações",
+        "subtitle": "Levante seus próprios tickets para o administrador do sistema ou resolva as preocupações que seus residentes lhe dirigiram."
+      },
+      "profile": {
+        "title": "Configurações e perfil",
+        "subtitle": "Gerencie os detalhes da sua conta e informações do apartamento."
+      }
+    },
+    "fallbackName": "Administrador",
+    "fallbackCommunity": "Administrador da comunidade",
+    "notBuilt": "{{label}} ainda não foi criado",
+    "searchPlaceholder": "Pesquise qualquer coisa…"
+  },
+  "stubPages": {
+    "reports": {
+      "title": "Relatórios",
+      "description": "Relatórios de consumo, faturamento e conservação para sua comunidade."
+    },
+    "announcements": {
+      "title": "Anúncios",
+      "description": "Envie anúncios de toda a comunidade aos seus residentes."
+    }
+  },
+  "comingSoon": {
+    "title": "{{title}} chegará em breve"
+  },
+  "residentLayout": {
+    "nav": {
+      "dashboard": "Painel",
+      "usageHistory": "Histórico de uso",
+      "bills": "Minhas contas",
+      "recommendations": "Recomendações",
+      "reports": "Relatórios",
+      "support": "Suporte / Preocupações",
+      "notifications": "Notificações",
+      "profile": "Perfil"
+    },
+    "pages": {
+      "usageHistory": "Seu histórico de uso",
+      "billing": "Faturamento e faturas",
+      "notifications": "Notificações",
+      "recommendations": "Recomendações",
+      "support": "Suporte / Preocupações"
+    },
+    "defaultTitle": "Painel Residente",
+    "navLabel": "Navegação residente",
+    "fallbackName": "Residente",
+    "unit": "Unidade {{number}}",
+    "comingSoon": "{{label}} chegará em breve",
+    "profile": "Perfil",
+    "searchPlaceholder": "Análise de pesquisa, contas…"
+  },
+  "platformLayout": {
+    "nav": {
+      "dashboard": "Painel",
+      "communities": "Comunidades",
+      "reports": "Relatórios",
+      "supportTickets": "Tíquetes de suporte",
+      "systemStatus": "Status do sistema"
+    },
+    "pages": {
+      "dashboard": {
+        "subtitle": "Instantâneo de toda a plataforma em todas as comunidades registradas."
+      },
+      "communities": {
+        "title": "Comunidades",
+        "subtitle": "Cada administrador de comunidade registrado e sua comunidade, em um só lugar."
+      },
+      "reports": {
+        "title": "Relatórios",
+        "subtitle": "Números de uso e cobrança de água em toda a plataforma, por comunidade e ao longo do tempo."
+      },
+      "supportTickets": {
+        "title": "Tíquetes de suporte",
+        "subtitle": "Apoie tickets e preocupações levantadas por residentes e administradores da comunidade, em toda a plataforma."
+      },
+      "systemStatus": {
+        "title": "Status do sistema",
+        "subtitle": "Conectividade de back-end e integridade básica do tempo de execução."
+      }
+    },
+    "fallbackName": "Administrador do sistema",
+    "platformOwner": "Proprietário da plataforma",
+    "searchPlaceholder": "Pesquisar comunidades…"
+  },
+  "languageSwitcher": {
+    "buttonLabel": "Idioma: {{language}}",
+    "searchPlaceholder": "Idioma de pesquisa…",
+    "noMatches": "Nenhuma correspondência"
+  }
+}

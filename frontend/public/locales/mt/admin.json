@@ -1,0 +1,468 @@
+{
+  "shared": {
+    "loading": "Tagħbija...",
+    "saving": "Insalva...",
+    "saved": "Salvat.",
+    "uploading": "Qed ittella'...",
+    "upload": "Upload",
+    "uploadError": "Ma setgħetx ittella' dan il-fajl. Jekk jogħġbok erġa' pprova.",
+    "cancel": "Ikkanċella",
+    "close": "Agħlaq",
+    "edit": "Editja",
+    "remove": "Neħħi",
+    "saveChanges": "Ħlief Bidliet",
+    "bulkSummary": "Processed <b>{{total}}</b> rows — <b>{{success}}</b> succeeded, <b>{{failure}}</b> failed.",
+    "rowFailure": "Ringiela {{row}}: {{reason}}"
+  },
+  "pagination": {
+    "showing": "Li juru {{from}}–{{to}} minn {{total}}",
+    "prev": "← Prev",
+    "next": "Li jmiss →",
+    "page": "Paġna {{page}} minn {{pageCount}}"
+  },
+  "dashboard": {
+    "loadError": "Ma setgħetx tagħbija d-dejta tal-komunità tiegħek bħalissa.",
+    "title": "{{community}} Appartament Dashboard",
+    "titleFallback": "Dashboard tal-appartament tiegħek",
+    "subtitle": "Sommarju operattiv għas-submetering tal-utilità tal-ilma u l-konsum tad-dar.",
+    "comingSoon": "Dalwaqt",
+    "manageCommunity": "Immaniġġja l-Komunità",
+    "noUsageReadings": "Għadu ma ġiex irreġistrat qari tal-użu.",
+    "cards": {
+      "totalHouseholds": "Total Djar",
+      "occupied": "Okkupat",
+      "activeMeters": "Meters Attivi",
+      "reportingReadings": "Qari ta' rappurtar",
+      "monthlyConsumption": "Konsum ta 'kull xahar",
+      "thisCalendarMonth": "Dan ix-xahar kalendarju",
+      "latestRecordedMonth": "L-aħħar xahar irreġistrat ({{month}})",
+      "noReadingsYet": "Għadu ma ġiex irreġistrat qari",
+      "pendingAlerts": "Twissijiet Pendenti",
+      "anomalyPreview": "Previżjoni ta' sejbien ta' anomaliji — għadha mhix disponibbli"
+    },
+    "actions": {
+      "label": "Azzjonijiet Amministrattivi Mgħaġġla",
+      "uploadReadings": "Ittella Qari tal-Meter",
+      "configureTariffs": "Ikkonfigura Tariffi",
+      "reportsNotBuilt": "Ir-rapporti għadu mhux mibni",
+      "downloadReports": "Niżżel ir-Rapporti tas-Sistema"
+    },
+    "chart": {
+      "title": "Tqabbil tal-Konsum ta' Kull Xahar (kL)",
+      "subtitle": "L-aħħar {{months}} xhur: mira vs konsum attwali.",
+      "targetSeries": "Mira (previżjoni)",
+      "actualSeries": "Attwali"
+    },
+    "recent": {
+      "title": "Qari Reċenti tal-Meter",
+      "unit": "Unità",
+      "resident": "Resident",
+      "lastReading": "L-Aħħar Qari",
+      "consumption": "Konsum"
+    }
+  },
+  "households": {
+    "loadError": "Ma setgħetx tagħbija residenti. Jekk jogħġbok erġa' pprova.",
+    "fixFields": "Jekk jogħġbok waħħal l-oqsma enfasizzati.",
+    "saveError": "Ma setax isalva lil dan ir-resident. Jekk jogħġbok iċċekkja d-dettalji.",
+    "confirmRemove": "Neħħi {{name}} mid-direttorju tad-dar tiegħek?",
+    "removeError": "Ma setgħetx tneħħi dan ir-resident. Jekk jogħġbok erġa' pprova.",
+    "count": "Djar: {{total}}",
+    "bulkUploadButton": "⇪ Bulk Upload",
+    "addResidentButton": "+ Żid Resident",
+    "searchPlaceholder": "Iffiltra bl-isem, id-dar, l-email, jew il-meter nru.",
+    "loading": "Qed jitgħabbew ir-residenti...",
+    "empty": "Għadu l-ebda residenti. Ikklikkja \"Żid Resident\" biex tirreġistra l-ewwel dar.",
+    "noMatch": "L-ebda residenti ma jaqbel ma' \"{{search}}\".",
+    "sort": {
+      "label": "Issortja minn",
+      "name": "Isem",
+      "houseNumber": "Numru tad-Dar",
+      "dateOfJoining": "Data tas-Sieħba",
+      "toggleDirection": "Toggle sort direzzjoni",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "gender": {
+      "male": "Raġel",
+      "female": "Mara",
+      "other": "Oħrajn"
+    },
+    "table": {
+      "name": "Isem",
+      "houseUnit": "Dar / Unità",
+      "email": "Email",
+      "phone": "Telefon",
+      "meterNumber": "Meter Nru.",
+      "sqft": "Sqft",
+      "joined": "Magħqudin"
+    },
+    "form": {
+      "addTitle": "Żid Resident",
+      "editTitle": "Edit Resident",
+      "editSubtitle": "Dan jaġġorna d-dettalji tar-resident fid-direttorju tiegħek.",
+      "bypassSubtitle": "Qed issettja l-password ta' dan ir-resident direttament. L-ebda email mhi se tintbagħat.",
+      "addSubtitle": "Link ta' set-password se jintbagħat email lil dan ir-resident sabiex ikunu jistgħu jattivaw il-login tagħhom stess.",
+      "fullName": "Isem sħiħ",
+      "houseNumber": "Dar / unit nru.",
+      "email": "Email",
+      "phone": "Numru tat-telefon",
+      "meterNumber": "Numru tal-meter",
+      "governmentId": "ID tal-Gvern",
+      "gender": "Is-sess",
+      "dateOfBirth": "Data tat-twelid",
+      "dateOfJoining": "Data tas-sħubija",
+      "flatSize": "Daqs ċatt (sq ft)",
+      "bypassLabel": "Bypass set-password email — issettja password għal dan ir-resident issa",
+      "password": "Password",
+      "confirmPassword": "Ikkonferma l-password"
+    },
+    "validation": {
+      "fullNameRequired": "L-isem sħiħ huwa meħtieġ.",
+      "emailRequired": "L-email hija meħtieġa.",
+      "phoneRequired": "In-numru tat-telefon huwa meħtieġ.",
+      "houseNumberRequired": "In-numru tad-dar / unità huwa meħtieġ.",
+      "houseNumberTaken": "Dan in-numru tad-dar huwa diġà assenjat lil residenti ieħor.",
+      "meterNumberRequired": "In-numru tal-meter huwa meħtieġ.",
+      "meterNumberFormat": "In-numru tal-meter għandu jidher bħal MTR-1234 (4 ċifri).",
+      "meterNumberTaken": "Dan in-numru tal-meter huwa diġà assenjat lil residenti ieħor.",
+      "governmentIdRequired": "ID tal-Gvern hija meħtieġa.",
+      "governmentIdFormat": "L-ID għandu jkun ta' 6 ċifri li jibdew b'99 (eż. 991234).",
+      "genderRequired": "Jekk jogħġbok agħżel sess.",
+      "dateOfBirthRequired": "Id-data tat-twelid hija meħtieġa.",
+      "dateOfJoiningRequired": "Id-data tas-sħubija hija meħtieġa.",
+      "passwordRequired": "Password hija meħtieġa.",
+      "passwordLength": "Il-password għandu jkun ta' mill-inqas 8 karattri.",
+      "confirmPasswordRequired": "Jekk jogħġbok ikkonferma l-password.",
+      "passwordMismatch": "Il-passwords ma jaqblux."
+    },
+    "bulk": {
+      "title": "Bulk Upload Residenti",
+      "noFile": "Jekk jogħġbok agħżel fajl .csv jew .xlsx/.xls biex ittella'.",
+      "instructions": "Tella' fajl .csv jew .xlsx/.xls b'kolonni <code>{{columns}}</code> (il-password u flatSizeSqft huma t-tnejn fakultattivi). Ringieli b'password issettjawha direttament; ringieli mingħajr waħda tikseb email set-password, l-istess bħal ma żżid residenti manwalment. Numri tad-dar/meter jew emails duplikati huma miċħuda għal kull ringiela — ringiela waħda ħażina ma tfallix il-lott kollu."
+    }
+  },
+  "meterReadings": {
+    "loadResidentsError": "Ma setgħetx tagħbija residenti. Jekk jogħġbok erġa' pprova.",
+    "historyLoadError": "Ma setgħetx tagħbija l-istorja tal-qari. Jekk jogħġbok erġa' pprova.",
+    "successMessage": "Qari reġistrat b'suċċess ta' {{value}} kL għal {{house}} (Meter: {{meter}})! Konsum ikkalkulat: {{consumption}} kL.",
+    "tabs": {
+      "single": "Dħul Uniku",
+      "csv": "Bulk CSV Upload",
+      "history": "Qari tal-Istorja"
+    },
+    "source": {
+      "manual": "Manwal",
+      "csv": "CSV"
+    },
+    "errors": {
+      "noMeter": "Dan ir-resident m'għandux numru tal-meter fil-fajl.",
+      "dateRequired": "Id-data tal-qari hija meħtieġa.",
+      "invalidValue": "Jekk jogħġbok daħħal valur ta' qari validu u mhux negattiv.",
+      "duplicate": "Qari għal dan il-miter diġà jeżisti f'dik id-data.",
+      "meterNotFound": "Dan il-meter ma setax jinstab. Jekk jogħġbok agħżel mill-ġdid ir-resident.",
+      "lowerThanPrevious": "Dan il-qari huwa inqas mill-qari reġistrat preċedenti.",
+      "recordFailed": "Ma setax jirreġistra dan il-qari. Jekk jogħġbok erġa' pprova."
+    },
+    "combo": {
+      "label": "Agħżel Flat & Meter Serial",
+      "placeholder": "Agħżel Flat & Meter Serial...",
+      "flat": "Flat {{house}}",
+      "noMeter": "L-ebda metru",
+      "searchPlaceholder": "Fittex flat no, meter serial, residenti...",
+      "unitsHeader": "Unitajiet Residenzjali",
+      "found": "Flats misjuba: {{total}}",
+      "loading": "Qed jitgħabbew ir-residenti...",
+      "noMatch": "L-ebda residenti ma jaqbel ma' \"{{search}}\".",
+      "unassigned": "Mhux assenjat",
+      "itemMeta": "{{name}} · L-aħħar: {{last}}"
+    },
+    "panel": {
+      "eyebrow": "Ir-reġistrazzjoni ta’ qari għal",
+      "context": "Dar {{house}} · Meter {{meter}}",
+      "changeResident": "Bidla residenti",
+      "readingDate": "Data tal-qari",
+      "readingValue": "Qari tal-Meter kurrenti (kL)",
+      "submit": "Issottometti Qari Validat",
+      "recentTitle": "Qari reċenti",
+      "recentEmpty": "Għadu ma ġiex irreġistrat qari għal dan il-meter."
+    },
+    "info": {
+      "title": "Validazzjoni tal-Meter Monotoniku",
+      "body": "Kull qari ġdid għandu jkun akbar minn jew ugwali għall-ġurnal preċedenti għal dak il-meter — dan iżżomm il-kalkoli tal-konsum preċiżi u jaqbad ċifri trasposti kmieni."
+    },
+    "details": {
+      "title": "Dettalji tal-Unità Magħżula",
+      "flatUnit": "Unità Flat",
+      "meterSerial": "Meter Serjali",
+      "occupant": "Isem l-Okkuppant",
+      "lastDial": "L-aħħar Dial Reġistrat",
+      "noReadings": "Għadu l-ebda qari",
+      "monthConsumption": "Xahar Konsum",
+      "empty": "Ebda dar magħżula. Fittex u agħżel residenti biex tara d-dettalji tal-meter tagħhom hawn."
+    },
+    "csv": {
+      "noFile": "Jekk jogħġbok agħżel CSV fajl biex ittella'.",
+      "instructions": "Upload a CSV with columns <code>{{columns}}</code>. Rows are processed independently — one bad row won't fail the whole batch."
+    },
+    "history": {
+      "loading": "Qari qed jgħabbi...",
+      "empty": "Għadu ma ġiex irreġistrat qari għall-komunità tiegħek."
+    },
+    "table": {
+      "meterNumber": "Meter Nru.",
+      "date": "Data",
+      "value": "Valur (kL)",
+      "consumption": "Konsum (kL)",
+      "source": "Sors"
+    }
+  },
+  "billingCycles": {
+    "title": "Ċikli ta' Billing",
+    "loadError": "Ma setgħetx tagħbija taċ-ċikli tal-kontijiet. Jekk jogħġbok erġa' pprova.",
+    "paymentUpdateError": "Ma setgħetx taġġorna l-istatus tal-ħlas ta' din il-fattura.",
+    "pdfError": "Ma setgħetx tniżżel il-PDF. Jekk jogħġbok erġa' pprova.",
+    "finalizeError": "Ma setgħetx tiffinalizza dan iċ-ċiklu tal-kontijiet.",
+    "archiveError": "Ma setax jiġi arkivjat dan iċ-ċiklu tal-kontijiet.",
+    "loading": "Tagħbija ċ-ċikli tal-kontijiet...",
+    "empty": "Għadu l-ebda ċiklu ta' kontijiet. Iftaħ wieħed hawn fuq biex tibda.",
+    "status": {
+      "open": "Miftuħa",
+      "finalized": "Finalizzat",
+      "archived": "Arkivjat"
+    },
+    "open": {
+      "title": "Iftaħ Ċiklu Ġdid ta' Billing",
+      "noMonth": "Jekk jogħġbok agħżel xahar biex tiftaħ.",
+      "error": "Ma setgħetx tiftaħ ċiklu ta' kontijiet għal dak ix-xahar.",
+      "monthAria": "Perjodu tal-kontijiet xahar",
+      "opening": "Ftuħ...",
+      "submit": "Ċiklu Miftuħ"
+    },
+    "table": {
+      "period": "Perjodu",
+      "status": "Status",
+      "householdsBilled": "Id-Djar Billed",
+      "totalBilled": "Total Billed",
+      "actions": "Azzjonijiet"
+    },
+    "actions": {
+      "finalize": "Iffinalizza",
+      "finalizing": "Tifffinalizza...",
+      "archive": "Arkivju",
+      "archiving": "Arkivjar..."
+    },
+    "filter": {
+      "aria": "Iffiltra skont l-istatus tal-ħlas",
+      "all": "Kollha"
+    },
+    "payment": {
+      "paid": "Imħallas",
+      "unpaid": "Mhux imħallas",
+      "updating": "Aġġornament...",
+      "markPaid": "Immarka bħala mħallsa",
+      "markUnpaid": "Immarka bħala mhux imħallas"
+    },
+    "detail": {
+      "title": "Dettall taċ-Ċiklu — {{period}}",
+      "loading": "Qed jitgħabbew fatturi...",
+      "notFinalized": "Dan iċ-ċiklu għadu ma ġiex finalizzat — l-ebda fattura ma ġiet iġġenerata.",
+      "noInvoices": "L-ebda fattura għal dan iċ-ċiklu.",
+      "noMatch": "L-ebda fattura ma taqbel ma' dan il-filtru."
+    },
+    "invoices": {
+      "household": "Dar",
+      "resident": "Resident",
+      "meterNumber": "Meter Nru.",
+      "consumption": "Konsum (kL)",
+      "tierBreakdown": "Tqassim tal-Livell",
+      "commonArea": "Żona Komuni",
+      "total": "Total",
+      "paymentStatus": "Status tal-Ħlas",
+      "pdf": "PDF",
+      "baseLine": "Bażi: {{units}} kL × ₹{{rate}} = ₹{{amount}}",
+      "tierLine": "Livell {{tier}}: {{units}} kL × ₹{{rate}} = ₹{{amount}}"
+    }
+  },
+  "tariffPlans": {
+    "loadError": "Ma setgħetx tagħbija l-konfigurazzjoni tat-tariffa",
+    "saveError": "Ma setgħetx issalva l-konfigurazzjoni tat-tariffa",
+    "chartTitle": "Livelli ta' Rata ta' Utilità Mkejla Attiva",
+    "axisNote": "Rata fi ₹/kL, limiti taċ-ċangatura fi kL",
+    "tableTitle": "Tabella tal-Livelli tal-Ipprezzar",
+    "defaultRatesNote": "Li juru r-rati ta' default — għadu mhux salvat.",
+    "addTier": "+ Żid il-Livell",
+    "saveRates": "Ħlief ir-Rati tat-Tariffa",
+    "tierLevel": {
+      "base": "Saff {{tier}} (Bażi)",
+      "medium": "Saff {{tier}} (Medju)",
+      "heavy": "Saff {{tier}} (Tqil)"
+    },
+    "basePrice": {
+      "label": "Prezz Bażi (₹ / kL, applikat għall-konsum KOLLHA)",
+      "note": "Kull kL tiġi ċċarġjata din ir-rata fissa l-ewwel. Iċ-ċangaturi hawn taħt iżidu ħlasijiet EXTRA biss għall-użu li jaqa' fil-firxa tagħhom - eż. ċangatura li tibda minn 50 kL iżżid biss ir-rata tagħha għall-konsum 'il fuq minn 50 kL."
+    },
+    "table": {
+      "tierLevel": "Livell tal-Livell",
+      "slabLimit": "Limitu taċ-ċangatura (kL)",
+      "rate": "Rata għal kull kL",
+      "action": "Azzjoni"
+    },
+    "commonArea": {
+      "title": "Konfigurazzjoni tal-Ispejjeż taż-Żona Komuni Kondiviża",
+      "loadError": "Ma setgħetx tagħbija l-konfigurazzjoni tal-ispiża taż-żona komuni",
+      "saveError": "Ma setgħetx tiffranka l-konfigurazzjoni tal-ispiża taż-żona komuni",
+      "empty": "L-ebda oġġett tal-ispiża s'issa ssalva.",
+      "labelPlaceholder": "Tikketta tal-oġġett tal-ispiża",
+      "perMonth": "/ xahar",
+      "active": "Attiva",
+      "addItem": "+ Żid Oġġett tal-Ispejjeż",
+      "save": "Ħlief Konfigurazzjoni taż-Żona Komuni"
+    },
+    "distribution": {
+      "title": "Selettur tal-Metodu ta' Distribuzzjoni tal-Ispejjeż",
+      "consumption": "Skont il-Konsum (Proporzjonali Sub-imkejjel)",
+      "floorArea": "Skont Daqs Ċatt tal-Appartament (Sqft)"
+    },
+    "footer": {
+      "cycleStart": "Data tal-Bidu ta' Billing taċ-Ċiklu",
+      "cycleStartValue": "1 ta' Kull Xahar",
+      "autoInvoices": "Iġġenera PDF Fatturi Awtomatikament"
+    }
+  },
+  "waterLeakage": {
+    "type": {
+      "thresholdExceeded": "Limitu Inqabeż",
+      "statisticalOutlier": "Outlier Statistika"
+    },
+    "status": {
+      "active": "Attiva",
+      "resolved": "Solvuti",
+      "dismissed": "Miċħud"
+    },
+    "config": {
+      "title": "Konfigurazzjoni ta 'Sejbien ta' Tnixxija",
+      "subtitle": "Issettja limitu ta' konsum ta' kull xahar u/jew ippermetti skoperta ta' barra statistika (tindika dar li l-konsum ta' kull xahar tagħha huwa għoli b'mod mhux tas-soltu meta mqabbel mal-istorja tagħha stess).",
+      "loadError": "Ma setgħetx tagħbija konfigurazzjoni tat-twissija. Jekk jogħġbok erġa' pprova.",
+      "thresholdRequired": "Limitu ta' kull xahar (kL) huwa meħtieġ meta twissijiet ta' limitu huma attivati.",
+      "saveError": "Ma setgħetx issalva din il-konfigurazzjoni.",
+      "loading": "Tagħbija konfigurazzjoni...",
+      "threshold": "Limitu ta' kull xahar (kL)",
+      "sensitivity": "Sensittività barra (σ multiplikatur)",
+      "enableThreshold": "Ippermetti twissijiet ta' limitu",
+      "enableOutlier": "Ippermetta twissijiet ta' barra ta' l-istatistika",
+      "save": "Ħlief Konfigurazzjoni",
+      "running": "Tiġri...",
+      "runNow": "Mexxi Sejbien Issa"
+    },
+    "alerts": {
+      "title": "Djar Bmarkati",
+      "loadError": "Ma setgħetx tagħbija twissijiet. Jekk jogħġbok erġa' pprova.",
+      "runError": "Ma setgħetx taħdem skoperta ta 'tnixxija bħalissa. Jekk jogħġbok erġa' pprova.",
+      "updateError": "Ma setgħetx taġġorna din it-twissija. Jekk jogħġbok erġa' pprova.",
+      "allStatuses": "L-istatus kollu",
+      "loading": "Tagħbija twissijiet...",
+      "empty": "Ebda twissijiet x'juri. Ikkonfigura limitu jew ippermetti skoperta ta' barra hawn fuq, imbagħad ikklikkja \"Run Detection Now\" biex tevalwa l-użu attwali tal-komunità tiegħek.",
+      "resolve": "Issolvi",
+      "dismiss": "Tkeċċi"
+    },
+    "table": {
+      "household": "Dar",
+      "resident": "Resident",
+      "meter": "Miter",
+      "type": "Tip",
+      "period": "Perjodu",
+      "consumption": "Konsum",
+      "reference": "Referenza",
+      "status": "Status"
+    }
+  },
+  "bulkPurchases": {
+    "loadError": "Ma setgħetx tagħbija xiri bl-ingrossa ta 'ilma. Jekk jogħġbok erġa' pprova.",
+    "confirmRemove": "Neħħi l-kunsinna {{source}} fi {{date}}?",
+    "removeError": "Ma setgħetx tneħħi dan ix-xiri. Jekk jogħġbok erġa' pprova.",
+    "count": "Xiri rreġistrati: {{total}}",
+    "recordButton": "+ Xiri Rekord",
+    "loading": "Tagħbija xiri bl-ingrossa tal-ilma...",
+    "empty": "L-ebda xiri ta' ilma bl-ingrossa għadu rreġistrat. Ikklikkja \"Record Purchase\" biex tilloggja kunsinna ta' tanker jew xiri ta' provvista muniċipali.",
+    "table": {
+      "date": "Data",
+      "source": "Sors",
+      "volume": "Volum (L)",
+      "unitCost": "Kost ta' Unità",
+      "totalCost": "Spiża Totali",
+      "notes": "Noti"
+    },
+    "form": {
+      "addTitle": "Irreġistra Xiri tal-Ilma bl-ingrossa",
+      "editTitle": "Editja Xiri tal-Ilma bl-ingrossa",
+      "subtitle": "Issegwi kunsinna ta' tanker jew xiri ta' provvista muniċipali għall-komunità tiegħek — dan huwa rreġistrat għall-viżibilità tal-ispejjeż biss u ma jaffettwax il-fatturi tad-dar.",
+      "requiredFields": "Jekk jogħġbok imla d-data, is-sors, il-volum, u l-ispiża unitarja.",
+      "saveError": "Ma setax isalva dan ix-xiri. Jekk jogħġbok iċċekkja d-dettalji.",
+      "purchaseDate": "Data tax-xiri",
+      "source": "Sors / fornitur",
+      "volume": "Volum (litri)",
+      "unitCost": "Kost unitarju (₹/litru)",
+      "totalPreview": "Spiża totali: {{amount}}",
+      "notes": "Noti (mhux obbligatorju)",
+      "submit": "Xiri Rekord"
+    }
+  },
+  "profile": {
+    "tabNotBuilt": "{{tab}} għadu mhux mibni",
+    "profileSaveError": "Ma setgħetx issalva l-profil tiegħek. Jekk jogħġbok erġa' pprova.",
+    "apartmentSaveError": "Ma setgħetx tissejvja d-dettalji tal-appartament. Jekk jogħġbok erġa' pprova.",
+    "specsTitle": "Speċifikazzjonijiet tal-Profil",
+    "photoUnavailable": "It-tlugħ tar-ritratti għadu mhux disponibbli",
+    "changePhoto": "Bidla Ritratt",
+    "deletePhoto": "Ħassar",
+    "photoHint": "JPG jew PNG. Daqs massimu 2MB.",
+    "saveProfile": "Ħlief Profil",
+    "apartmentTitle": "Dettalji tal-appartament",
+    "saveApartment": "Ħlief Dettalji tal-Appartament",
+    "tabs": {
+      "profile": "Settings tal-Profil",
+      "apartment": "Profil tal-appartament",
+      "notifications": "Regoli ta' Notifika",
+      "billing": "Integrazzjonijiet tal-kontijiet",
+      "security": "Sigurtà u Aċċess"
+    },
+    "fields": {
+      "fullName": "Isem Sħiħ",
+      "email": "Indirizz elettroniku",
+      "emailLocked": "L-email ma tistax tinbidel hawn",
+      "phone": "Numru tat-Telefon",
+      "accessLevel": "Livell ta' Aċċess",
+      "accessLevelValue": "Amministratur tal-Komunità",
+      "roleLocked": "Il-ġestjoni tar-rwoli għadha mhix disponibbli",
+      "apartmentName": "Isem tal-Appartament",
+      "mainsSource": "Sors tal-Mejns",
+      "mainsSourcePlaceholder": "eż. Provvista Muniċipali + Tankers Supplimentari",
+      "address": "Indirizz Fi]iku"
+    },
+    "security": {
+      "title": "Preview tas-Sigurtà u l-Aċċess",
+      "twoFactor": "Awtentikazzjoni b'żewġ fatturi",
+      "twoFactorHint": "Ippermettiet mal-login",
+      "twoFactorUnavailable": "L-awtentikazzjoni b'żewġ fatturi għadha mhix disponibbli",
+      "twoFactorAria": "Awtentikazzjoni b'żewġ fatturi (previżjoni biss)",
+      "sessionsLabel": "Sessjonijiet ta' Amministrazzjoni Attiva",
+      "sessionsEmpty": "It-traċċar tas-sessjoni għadu mhux disponibbli — din hija preview tat-tqassim li jmiss."
+    }
+  },
+  "support": {
+    "tabs": {
+      "mine": "Biljetti Tiegħi",
+      "inbox": "Biljetti Residenti"
+    },
+    "mine": {
+      "title": "Biljetti ta' Appoġġ Tiegħi",
+      "subtitle": "Qiegħed mistoqsija jew tħassib dwar il-komunità tiegħek lill-Amministratur tas-Sistema.",
+      "emptyCreateHint": "Qiegħed mistoqsija jew tħassib dwar il-komunità tiegħek. Amministratur tas-Sistema se jirrevedi u jwieġeb hawn."
+    },
+    "inbox": {
+      "title": "Biljetti Residenti",
+      "subtitle": "Biljetti ta' appoġġ u tħassib li r-residenti fil-komunità tiegħek indirizzawlek."
+    }
+  }
+}
