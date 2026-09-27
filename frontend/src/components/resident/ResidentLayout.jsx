@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   { label: 'My Bills', icon: 'bill', to: '/resident/billing' },
   { label: 'Recommendations', icon: 'bulb', to: '/resident/recommendations' },
   { label: 'Reports', icon: 'chart' },
-  { label: 'Support / Concerns', icon: 'help' },
+  { label: 'Support / Concerns', icon: 'help', to: '/resident/support' },
   { label: 'Notifications', icon: 'bell', to: '/resident/notifications' },
   { label: 'Profile', icon: 'user' },
 ]
@@ -36,6 +36,10 @@ const PAGE_META = {
   '/resident/recommendations': {
     eyebrow: 'Personalized for you',
     title: 'Recommendations',
+  },
+  '/resident/support': {
+    eyebrow: 'Support',
+    title: 'Support / Concerns',
   },
 }
 

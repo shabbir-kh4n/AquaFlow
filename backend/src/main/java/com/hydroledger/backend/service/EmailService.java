@@ -87,6 +87,21 @@ public class EmailService {
         send(mailMessage, resident.getEmail(), "alert");
     }
 
+    public void sendSupportTicketUpdateEmail(String recipientEmail, String recipientName, String subject,
+            String updateMessage, String link) {
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setTo(recipientEmail);
+        mailMessage.setSubject("HydroLedger support ticket update: " + subject);
+        mailMessage.setText(
+                "Hi " + recipientName + ",\n\n"
+                        + updateMessage + "\n\n"
+                        + "View your ticket here:\n\n"
+                        + link
+        );
+
+        send(mailMessage, recipientEmail, "support-ticket-update");
+    }
+
     private void send(SimpleMailMessage message, String recipient, String emailType) {
         try {
             mailSender.send(message);

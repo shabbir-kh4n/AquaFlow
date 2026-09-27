@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { to: '/platform/dashboard', label: 'Dashboard', icon: 'grid' },
   { to: '/platform/communities', label: 'Communities', icon: 'buildings' },
   { to: '/platform/reports', label: 'Reports', icon: 'chart' },
+  { to: '/platform/support-tickets', label: 'Support Tickets', icon: 'help' },
   { to: '/platform/system-status', label: 'System Status', icon: 'pulse' },
 ]
 
@@ -22,6 +23,10 @@ const PAGE_META = {
     title: 'Reports',
     subtitle: 'Platform-wide water usage and billing figures, by community and over time.',
   },
+  '/platform/support-tickets': {
+    title: 'Support Tickets',
+    subtitle: 'Support tickets and concerns raised by residents and community admins, platform-wide.',
+  },
   '/platform/system-status': {
     title: 'System Status',
     subtitle: 'Backend connectivity and basic runtime health.',
@@ -33,6 +38,7 @@ const ICONS = {
   buildings: <path d="M4 21V7l6-4 6 4v14M4 21h16M9 9h2M9 13h2M13 9h2M13 13h2M9 21v-4h4v4" />,
   chart: <path d="M4 21V9M10 21V3M16 21v-7M22 21H2" />,
   pulse: <path d="M3 12h4l2-7 4 14 2-7h6" />,
+  help: <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9a2.5 2.5 0 1 1 3.7 2.2c-.7.4-1.2 1-1.2 1.8v.3M12 17h.01" />,
   search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,
   menu: <path d="M4 6h16M4 12h16M4 18h16" />,

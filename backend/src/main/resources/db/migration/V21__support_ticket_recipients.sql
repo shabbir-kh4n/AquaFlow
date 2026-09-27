@@ -1,0 +1,3 @@
+ALTER TABLE support_tickets
+    ADD COLUMN to_community_admin BOOLEAN NOT NULL DEFAULT FALSE,
+    ADD COLUMN to_system_admin BOOLEAN NOT NULL DEFAULT TRUE;

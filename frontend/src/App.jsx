@@ -23,11 +23,14 @@ import UsageHistory from './pages/resident/UsageHistory'
 import ResidentBilling from './pages/resident/ResidentBilling'
 import ResidentNotifications from './pages/resident/ResidentNotifications'
 import Recommendations from './pages/resident/Recommendations'
+import ResidentSupportTickets from './pages/resident/ResidentSupportTickets'
+import SupportConcerns from './pages/admin/SupportConcerns'
 import PlatformLayout from './components/platform/PlatformLayout'
 import PlatformDashboard from './pages/platform/PlatformDashboard'
 import Communities from './pages/platform/Communities'
 import CommunityDetail from './pages/platform/CommunityDetail'
 import PlatformReports from './pages/platform/PlatformReports'
+import PlatformSupportTickets from './pages/platform/SupportTickets'
 import SystemStatus from './pages/platform/SystemStatus'
 import './styles/theme.css'
 
@@ -54,6 +57,7 @@ function App() {
               <Route path="/resident/billing" element={<ResidentBilling />} />
               <Route path="/resident/notifications" element={<ResidentNotifications />} />
               <Route path="/resident/recommendations" element={<Recommendations />} />
+              <Route path="/resident/support" element={<ResidentSupportTickets />} />
             </Route>
 
             <Route
@@ -70,6 +74,7 @@ function App() {
               <Route path="/admin/billing" element={<BillingCycles />} />
               <Route path="/admin/bulk-purchases" element={<BulkWaterPurchases />} />
               <Route path="/admin/water-leakage" element={<WaterLeakage />} />
+              <Route path="/admin/support" element={<SupportConcerns />} />
               <Route path="/admin/profile" element={<AdminProfile />} />
 
               {STUB_PAGES.map((page) => (
@@ -88,6 +93,7 @@ function App() {
               <Route path="/platform/communities" element={<Communities />} />
               <Route path="/platform/communities/:adminId" element={<CommunityDetail />} />
               <Route path="/platform/reports" element={<PlatformReports />} />
+              <Route path="/platform/support-tickets" element={<PlatformSupportTickets />} />
               <Route path="/platform/system-status" element={<SystemStatus />} />
             </Route>
           </Routes>

@@ -35,6 +35,7 @@ import com.hydroledger.backend.repository.HouseholdRepository;
 import com.hydroledger.backend.repository.PasswordSetupTokenRepository;
 import com.hydroledger.backend.repository.PushSubscriptionRepository;
 import com.hydroledger.backend.repository.ResidentRepository;
+import com.hydroledger.backend.repository.SupportTicketRepository;
 import com.hydroledger.backend.repository.TariffPlanRepository;
 import com.hydroledger.backend.repository.WaterMeterRepository;
 import com.hydroledger.backend.repository.WaterUsageReadingRepository;
@@ -60,6 +61,7 @@ public class SystemAdminService {
     private final BillingCycleRepository billingCycleRepository;
     private final AlertConfigRepository alertConfigRepository;
     private final PushSubscriptionRepository pushSubscriptionRepository;
+    private final SupportTicketRepository supportTicketRepository;
     private final DataSource dataSource;
 
     @Value("${app.version}")
@@ -141,6 +143,11 @@ public class SystemAdminService {
         // Invoices reference households (no ON DELETE CASCADE on that FK, only on billing_cycle_id),
         // so billing cycles must be deleted before households/meters, not after.
         billingCycleRepository.deleteAll(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment));
+
+        // Support tickets reference resident_id/community_admin_id directly (no ON DELETE CASCADE on
+        // either FK, same convention as push_subscriptions) - must go before residents/admin are deleted.
+        // Any new resident-keyed table needs a corresponding line added here.
+        supportTicketRepository.deleteAll(supportTicketRepository.findByApartmentOrderByCreatedAtDesc(apartment));
 
         residents.forEach(passwordSetupTokenRepository::deleteByResident);
         residents.forEach(pushSubscriptionRepository::deleteByResident);

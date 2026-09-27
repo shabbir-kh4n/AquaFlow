@@ -41,6 +41,7 @@ import com.hydroledger.backend.repository.HouseholdRepository;
 import com.hydroledger.backend.repository.PasswordSetupTokenRepository;
 import com.hydroledger.backend.repository.PushSubscriptionRepository;
 import com.hydroledger.backend.repository.ResidentRepository;
+import com.hydroledger.backend.repository.SupportTicketRepository;
 import com.hydroledger.backend.repository.TariffPlanRepository;
 import com.hydroledger.backend.repository.WaterMeterRepository;
 import com.hydroledger.backend.repository.WaterUsageReadingRepository;
@@ -87,6 +88,9 @@ class SystemAdminServiceTests {
 
     @Mock
     private AlertConfigRepository alertConfigRepository;
+
+    @Mock
+    private SupportTicketRepository supportTicketRepository;
 
     @Mock
     private DataSource dataSource;
@@ -174,15 +178,19 @@ class SystemAdminServiceTests {
         when(alertConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
+        when(supportTicketRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of());
 
         systemAdminService.deleteCommunityAdmin(1L);
 
         InOrder inOrder = Mockito.inOrder(waterUsageReadingRepository, billingCycleRepository,
-                passwordSetupTokenRepository, pushSubscriptionRepository, residentRepository, waterMeterRepository,
-                householdRepository, apartmentRepository, communityAdminRepository);
+                supportTicketRepository, passwordSetupTokenRepository, pushSubscriptionRepository, residentRepository,
+                waterMeterRepository, householdRepository, apartmentRepository, communityAdminRepository);
 
         inOrder.verify(waterUsageReadingRepository).deleteByMeterIn(List.of(meter));
         inOrder.verify(billingCycleRepository).deleteAll(List.of());
+        // Support tickets have FKs to both residents and the admin (no ON DELETE CASCADE) - must be
+        // deleted before either is removed, same as password-setup tokens/push subscriptions below.
+        inOrder.verify(supportTicketRepository).deleteAll(List.of());
         inOrder.verify(passwordSetupTokenRepository).deleteByResident(resident);
         // Push subscriptions have an FK to residents (no ON DELETE CASCADE) - must be deleted
         // before the resident row itself, same as password-setup tokens above.
@@ -206,6 +214,7 @@ class SystemAdminServiceTests {
         when(alertConfigRepository.findByApartment(apartment)).thenReturn(Optional.empty());
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
+        when(supportTicketRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of());
 
         systemAdminService.deleteCommunityAdmin(1L);
 

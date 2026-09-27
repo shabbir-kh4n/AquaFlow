@@ -15,7 +15,7 @@ const NAV_ITEMS = [
   { to: '/admin/bulk-purchases', label: 'Bulk Purchases', icon: 'truck', built: true },
   { to: '/admin/reports', label: 'Reports', icon: 'chart', built: false },
   { to: '/admin/water-leakage', label: 'Water Leakage', icon: 'drop-alert', built: true },
-  { to: '/admin/support', label: 'Support / Concerns', icon: 'help', built: false },
+  { to: '/admin/support', label: 'Support / Concerns', icon: 'help', built: true },
   { to: '/admin/tariff-plans', label: 'Tariff Plans', icon: 'sliders', built: true },
   { to: '/admin/announcements', label: 'Announcements', icon: 'megaphone', built: false },
   { to: '/admin/profile', label: 'Profile', icon: 'user', built: true },
@@ -49,6 +49,10 @@ const PAGE_META = {
   '/admin/water-leakage': {
     title: 'Water Leakage',
     subtitle: 'Configure threshold and outlier-based leak alerts, and review flagged households.',
+  },
+  '/admin/support': {
+    title: 'Support / Concerns',
+    subtitle: 'Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you.',
   },
   '/admin/profile': {
     title: 'Settings & Profile',
