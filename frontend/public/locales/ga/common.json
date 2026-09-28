@@ -222,6 +222,14 @@
         "title": "Tacaíocht / Imní",
         "subtitle": "Ardaigh do thicéid féin chuig an Riarthóir Córais, nó láimhsigh imní a chuir do chónaitheoirí chugat."
       },
+      "reports": {
+        "title": "Tuarascálacha Pobail",
+        "subtitle": "Figiúirí tomhaltais, billeála, bailiúcháin agus bulccheannaigh do do phobal."
+      },
+      "announcements": {
+        "title": "Fógraí",
+        "subtitle": "Foilsigh fógraí ar fud an phobail do do chónaitheoirí."
+      },
       "profile": {
         "title": "Socruithe & Próifíl",
         "subtitle": "Bainistigh do shonraí cuntais agus faisnéis árasán."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Riarachán Pobail",
     "notBuilt": "{{label}} nach bhfuil tógtha fós",
     "searchPlaceholder": "Cuardaigh rud ar bith…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Tuarascálacha",
-      "description": "Tomhaltas, billeáil, agus tuarascálacha caomhnaithe do do phobal."
-    },
-    "announcements": {
-      "title": "Fógraí",
-      "description": "Seol fógraí ar fud an phobail chuig do chónaitheoirí."
-    }
   },
   "comingSoon": {
     "title": "{{title}} ag teacht go luath"
@@ -261,7 +259,9 @@
       "billing": "Billeáil & Sonraisc",
       "notifications": "Fógraí",
       "recommendations": "Moltaí",
-      "support": "Tacaíocht / Imní"
+      "support": "Tacaíocht / Imní",
+      "reports": "Do thuairiscí úsáide & caiteachais",
+      "profile": "Mo phróifíl"
     },
     "defaultTitle": "Painéal Cónaitheach",
     "navLabel": "Nascleanúint cónaitheoirí",
@@ -277,7 +277,8 @@
       "communities": "Pobail",
       "reports": "Tuarascálacha",
       "supportTickets": "Ticéid Tacaíochta",
-      "systemStatus": "Stádas an Chórais"
+      "systemStatus": "Stádas an Chórais",
+      "profile": "Próifíl"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stádas an Chórais",
         "subtitle": "Nascacht inneall agus sláinte bhunúsach ama rite."
+      },
+      "profile": {
+        "title": "Próifíl",
+        "subtitle": "Do chuntas, avatar agus pasfhocal"
       }
     },
     "fallbackName": "Riarachán Córais",
@@ -308,5 +313,40 @@
     "buttonLabel": "Teanga: {{language}}",
     "searchPlaceholder": "Cuardaigh teanga…",
     "noMatches": "Gan aon chluichí"
+  },
+  "avatarPicker": {
+    "label": "Roghnaigh avatar",
+    "hint": "Roghnaigh ceann de na avatars réamhshocraithe, nó úsáid do cheannlitreacha.",
+    "change": "Athrú",
+    "cancel": "Cealaigh",
+    "useInitials": "Úsáid ceannlitreacha",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Sábháil an avatar",
+    "saving": "Ag sábháil…",
+    "saved": "Avatar nuashonraithe",
+    "saveError": "Níorbh fhéidir d'avatar a nuashonrú. Bain triail eile as."
+  },
+  "changePassword": {
+    "current": "Focal faire reatha",
+    "new": "Pasfhocal nua",
+    "confirm": "Deimhnigh pasfhocal nua",
+    "hint": "{{min}} carachtar ar a laghad.",
+    "tooShort": "Caithfidh ar a laghad {{min}} carachtar a bheith sa phasfhocal nua.",
+    "mismatch": "Ní hionann na pasfhocail nua.",
+    "sameAsCurrent": "Caithfidh pasfhocal nua a bheith difriúil ó do phasfhocal reatha.",
+    "submit": "Nuashonraigh pasfhocal",
+    "saving": "Ag nuashonrú…",
+    "success": "Nuashonraíodh do phasfhocal.",
+    "error": "Níorbh fhéidir do phasfhocal a nuashonrú. Bain triail eile as."
+  },
+  "search": {
+    "kindPage": "Leathanach",
+    "kindRecord": "Toradh",
+    "loading": "Ag cuardach…",
+    "noResults": "Gan aon chluichí",
+    "recordsUnavailable": "Níorbh fhéidir ach leathanaigh a chuardach faoi láthair.",
+    "invoiceLabel": "Sonrasc {{period}}",
+    "paid": "Íoctha",
+    "unpaid": "Gan íoc"
   }
 }

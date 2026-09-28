@@ -38,6 +38,19 @@ public class PushNotificationService {
         sendToResident(resident, alertTypeLabel, message, link);
     }
 
+    public void sendAnnouncementPush(Resident resident, String title, String body, String link) {
+        sendToResident(resident, "Announcement: " + title, truncate(body, ANNOUNCEMENT_PREVIEW_LENGTH), link);
+    }
+
+    private static final int ANNOUNCEMENT_PREVIEW_LENGTH = 140;
+
+    private String truncate(String value, int maxLength) {
+        if (value == null || value.length() <= maxLength) {
+            return value;
+        }
+        return value.substring(0, maxLength - 3) + "...";
+    }
+
     private void sendToResident(Resident resident, String title, String body, String link) {
         if (pushService == null) {
             // No VAPID keys configured - push sending is a no-op, mirrors EmailService's

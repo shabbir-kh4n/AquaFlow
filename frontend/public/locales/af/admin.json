@@ -25,7 +25,6 @@
     "title": "{{community}} Woonstel Dashboard",
     "titleFallback": "Jou Woonstel Dashboard",
     "subtitle": "Operasionele opsomming vir waternuts submetering en huishoudelike verbruik.",
-    "comingSoon": "Binnekort beskikbaar",
     "manageCommunity": "Bestuur gemeenskap",
     "noUsageReadings": "Geen gebruikslesings is nog aangeteken nie.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Jongste aangetekende maand ({{month}})",
       "noReadingsYet": "Geen lesings is nog aangeteken nie",
       "pendingAlerts": "Hangende waarskuwings",
-      "anomalyPreview": "Voorskou van afwykingsopsporing — nog nie beskikbaar nie"
+      "reviewAlerts": "Aktiewe lekkasie / gebruik waarskuwings - hersien nou",
+      "noActiveAlerts": "Geen aktiewe waarskuwings nie"
     },
     "actions": {
       "label": "Vinnige administratiewe aksies",
       "uploadReadings": "Laai meterlesings op",
       "configureTariffs": "Stel tariewe op",
-      "reportsNotBuilt": "Verslae is nog nie gebou nie",
       "downloadReports": "Laai stelselverslae af"
     },
     "chart": {
       "title": "Maandelikse verbruiksvergelyking (kL)",
       "subtitle": "Laaste {{months}} maande: teiken vs. werklike verbruik.",
-      "targetSeries": "Teiken (voorskou)",
       "actualSeries": "Werklik"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Kon nie jou profiel stoor nie. Probeer asseblief weer.",
     "apartmentSaveError": "Kon nie woonstelbesonderhede stoor nie. Probeer asseblief weer.",
     "specsTitle": "Profiel spesifikasies",
-    "photoUnavailable": "Foto-oplaai is nog nie beskikbaar nie",
-    "changePhoto": "Verander foto",
-    "deletePhoto": "Vee uit",
-    "photoHint": "JPG of PNG. Maksimum grootte 2MB.",
     "saveProfile": "Stoor profiel",
     "apartmentTitle": "Woonstel Besonderhede",
     "saveApartment": "Stoor woonstelbesonderhede",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Twee-faktor-stawing is nog nie beskikbaar nie",
       "twoFactorAria": "Twee-faktor-verifikasie (slegs voorskou)",
       "sessionsLabel": "Aktiewe Admin Sessies",
-      "sessionsEmpty": "Sessienasporing is nog nie beskikbaar nie - dit is 'n voorskou van die komende uitleg."
-    }
+      "sessionsEmpty": "Sessienasporing is nog nie beskikbaar nie - dit is 'n voorskou van die komende uitleg.",
+      "previewNote": "Slegs voorskou: twee-faktor-verifikasie en sessienasporing is nog nie beskikbaar nie."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Verander wagwoord"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Inwoner Kaartjies",
       "subtitle": "Ondersteuningskaartjies en bekommernisse wat inwoners in jou gemeenskap aan jou gerig het."
+    }
+  },
+  "reports": {
+    "loadError": "Kon nie die gemeenskapsverslag laai nie. Probeer asseblief weer.",
+    "pdfError": "Kon nie die PDF-verslag aflaai nie. Probeer asseblief weer.",
+    "loading": "Laai tans verslag …",
+    "empty": "Geen huishoudings met data in hierdie reeks nie.",
+    "noMatch": "Geen huishoudings pas by \"{{search}}\" nie.",
+    "searchPlaceholder": "Filtreer volgens huis, inwoner, of meter nr.",
+    "downloadCsv": "Laai CSV af",
+    "downloadPdf": "Laai PDF Opsomming af",
+    "downloadingPdf": "Berei tans PDF voor...",
+    "ranges": {
+      "threeMonths": "Laaste 3 maande",
+      "sixMonths": "Laaste 6 maande",
+      "twelveMonths": "Laaste 12 maande",
+      "custom": "Pasgemaakte reeks"
+    },
+    "customRange": {
+      "from": "Van",
+      "to": "Om",
+      "hint": "Kies beide 'n begin- en 'n eindmaand om die verslag te laai."
+    },
+    "cards": {
+      "totalConsumption": "Totale verbruik",
+      "households": "Regoor {{total}} huishoudings",
+      "avgMonthly": "Gemiddelde maandelikse verbruik",
+      "communityWide": "Gemeenskapswyd, per maand",
+      "billed": "Gefaktureer",
+      "finalizedOnly": "Slegs gefinaliseerde en geargiveerde siklusse",
+      "paid": "Betaal",
+      "invoices": "{{total}} fakture uitgereik",
+      "outstanding": "Uitstaande",
+      "unpaidInvoices": "{{total}} onbetaalde fakture",
+      "collectionRate": "Insamelingkoers"
+    },
+    "costs": {
+      "title": "Koste teenoor inkomste",
+      "commonArea": "Gemeenskaplike-area-koste word gefaktureer",
+      "bulkCost": "Grootmaat water aankoop koste",
+      "bulkVolume": "Grootmaat water aangekoop",
+      "bulkCount": "{{total}} aankope",
+      "billedMinusBulk": "Gefaktureerde inkomste minus grootmaatkoste",
+      "note": "Grootmaat aankope word opgespoor vir kostesigbaarheid en word nie direk aan huishoudings gefaktureer nie."
+    },
+    "top": {
+      "title": "Top verbruikers",
+      "empty": "Geen verbruik is in hierdie reeks aangeteken nie."
+    },
+    "charts": {
+      "consumptionTitle": "Maandelikse verbruik",
+      "consumptionSeries": "Verbruik",
+      "billingTitle": "Gefaktureerde vs. Betaalde vs. Grootmaatkoste",
+      "billedSeries": "Gefaktureer",
+      "paidSeries": "Betaal",
+      "bulkSeries": "Grootmaat aankoopkoste",
+      "empty": "Geen data vir hierdie reeks nie."
+    },
+    "sort": {
+      "label": "Sorteer volgens",
+      "toggleDirection": "Wissel sorteerrigting",
+      "asc": "↑ Asc",
+      "desc": "↓ Beskrywing"
+    },
+    "table": {
+      "house": "Huis",
+      "resident": "Inwoner",
+      "meter": "Meter",
+      "totalKl": "Totaal kL",
+      "avgMonthlyKl": "Gemiddelde maandelikse kL",
+      "billed": "Gefaktureer",
+      "paid": "Betaal",
+      "outstanding": "Uitstaande"
+    }
+  },
+  "announcements": {
+    "loadError": "Kon nie aankondigings laai nie. Probeer asseblief weer.",
+    "removeError": "Kon nie hierdie aankondiging uitvee nie. Probeer asseblief weer.",
+    "loading": "Laai tans aankondigings …",
+    "empty": "Nog geen aankondigings nie. Klik \"Nuwe Aankondiging\" om jou inwoners in kennis te stel.",
+    "count": "Aankondigings: {{total}}",
+    "newButton": "+ Nuwe aankondiging",
+    "pinned": "Vasgespeld",
+    "expired": "Verval",
+    "postedAt": "Geplaas {{date}}",
+    "updatedAt": "Geredigeer {{date}}",
+    "expiresAt": "Verval {{date}}",
+    "category": {
+      "general": "Algemeen",
+      "maintenance": "Onderhoud",
+      "waterSupply": "Watervoorsiening",
+      "billing": "Fakturering",
+      "urgent": "Dringend"
+    },
+    "form": {
+      "addTitle": "Nuwe aankondiging",
+      "editTitle": "Wysig aankondiging",
+      "addSubtitle": "Inwoners sien dit op hul Kennisgewingsbladsy, en enigiemand met stootkennisgewings geaktiveer word dadelik in kennis gestel.",
+      "editSubtitle": "Wysigings werk die aankondiging op in plek. Inwoners word nie weer in kennis gestel nie.",
+      "title": "Titel",
+      "category": "Kategorie",
+      "expiresAt": "Verval (opsioneel)",
+      "body": "Boodskap",
+      "pinned": "Speld boaan inwoners se aankondigings vas",
+      "requiredFields": "Voer asseblief 'n titel en 'n boodskap in.",
+      "saveError": "Kon nie hierdie aankondiging stoor nie. Gaan asseblief die besonderhede na.",
+      "publish": "Publiseer"
+    },
+    "confirm": {
+      "title": "Vee aankondiging uit?",
+      "body": "\"{{title}}\" sal vir alle inwoners verwyder word. Dit kan nie ongedaan gemaak word nie.",
+      "delete": "Vee uit",
+      "deleting": "Vee tans uit …"
     }
   }
 }

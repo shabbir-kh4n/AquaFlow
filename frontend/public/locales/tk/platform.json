@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Goldaw biletleri",
     "subtitle": "Platforma boýunça ýaşaýjylar we jemgyýetçilik administratorlary tarapyndan döredilen biletleri we aladalary goldaň."
+  },
+  "profile": {
+    "accountTitle": "Hasap",
+    "avatarTitle": "Awatar",
+    "passwordTitle": "Paroly üýtgetmek",
+    "loadError": "Profiliňizi ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "fields": {
+      "fullName": "Doly ady",
+      "email": "E-poçta iberiň",
+      "role": "Rol",
+      "roleValue": "Ulgam dolandyryjysy"
+    }
   }
 }

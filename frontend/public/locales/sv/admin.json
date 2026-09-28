@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard för lägenhet",
     "titleFallback": "Dashboard för din lägenhet",
     "subtitle": "Verksamhetsöversikt för vattenverkets delmätning och hushållsförbrukning.",
-    "comingSoon": "Kommer snart",
     "manageCommunity": "Hantera gemenskapen",
     "noUsageReadings": "Inga användningsavläsningar registrerade ännu.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Senaste inspelade månaden ({{month}})",
       "noReadingsYet": "Inga avläsningar registrerade ännu",
       "pendingAlerts": "Väntande varningar",
-      "anomalyPreview": "Förhandsgranskning av anomalidetektering — inte tillgänglig ännu"
+      "reviewAlerts": "Aktiva läckage/användningsvarningar — granska nu",
+      "noActiveAlerts": "Inga aktiva varningar"
     },
     "actions": {
       "label": "Snabba administrativa åtgärder",
       "uploadReadings": "Ladda upp mätaravläsningar",
       "configureTariffs": "Konfigurera tariffer",
-      "reportsNotBuilt": "Rapporter har inte skapats ännu",
       "downloadReports": "Ladda ner systemrapporter"
     },
     "chart": {
       "title": "Månatlig förbrukningsjämförelse (kL)",
       "subtitle": "Senaste {{months}} månaderna: mål kontra faktisk förbrukning.",
-      "targetSeries": "Mål (förhandsgranskning)",
       "actualSeries": "Faktisk"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Det gick inte att spara din profil. Försök igen.",
     "apartmentSaveError": "Det gick inte att spara lägenhetsdetaljer. Försök igen.",
     "specsTitle": "Profilspecifikationer",
-    "photoUnavailable": "Fotouppladdning är inte tillgänglig ännu",
-    "changePhoto": "Byt foto",
-    "deletePhoto": "Radera",
-    "photoHint": "JPG eller PNG. Max storlek 2MB.",
     "saveProfile": "Spara profil",
     "apartmentTitle": "Lägenhetsdetaljer",
     "saveApartment": "Spara lägenhetsdetaljer",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Tvåfaktorsautentisering är inte tillgänglig ännu",
       "twoFactorAria": "Tvåfaktorsautentisering (endast förhandsgranskning)",
       "sessionsLabel": "Aktiva administratörssessioner",
-      "sessionsEmpty": "Sessionsspårning är inte tillgänglig än – det här är en förhandsvisning av den kommande layouten."
-    }
+      "sessionsEmpty": "Sessionsspårning är inte tillgänglig än – det här är en förhandsvisning av den kommande layouten.",
+      "previewNote": "Endast förhandsgranskning: tvåfaktorsautentisering och sessionsspårning är inte tillgängliga ännu."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Ändra lösenord"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Resident biljetter",
       "subtitle": "Stödbiljetter och problem som invånare i ditt samhälle har riktat till dig."
+    }
+  },
+  "reports": {
+    "loadError": "Det gick inte att läsa in communityrapporten. Försök igen.",
+    "pdfError": "Det gick inte att ladda ned PDF-rapporten. Försök igen.",
+    "loading": "Läser in rapport...",
+    "empty": "Inga hushåll med data inom detta intervall.",
+    "noMatch": "Inga hushåll matchar \"{{search}}\".",
+    "searchPlaceholder": "Filtrera efter hus, boende eller mätarnr.",
+    "downloadCsv": "Ladda ner CSV",
+    "downloadPdf": "Ladda ner PDF Sammanfattning",
+    "downloadingPdf": "Förbereder PDF...",
+    "ranges": {
+      "threeMonths": "Senaste 3 månaderna",
+      "sixMonths": "Senaste 6 månaderna",
+      "twelveMonths": "Senaste 12 månaderna",
+      "custom": "Anpassat sortiment"
+    },
+    "customRange": {
+      "from": "Från",
+      "to": "Till",
+      "hint": "Välj både en start- och en slutmånad för att ladda rapporten."
+    },
+    "cards": {
+      "totalConsumption": "Total förbrukning",
+      "households": "I {{total}} hushåll",
+      "avgMonthly": "Genomsnittlig månadsförbrukning",
+      "communityWide": "Samhällsomfattande, per månad",
+      "billed": "Fakturerad",
+      "finalizedOnly": "Endast slutförda och arkiverade cykler",
+      "paid": "Betalt",
+      "invoices": "{{total}} fakturor utfärdade",
+      "outstanding": "Utestående",
+      "unpaidInvoices": "{{total}} obetalda fakturor",
+      "collectionRate": "Insamlingshastighet"
+    },
+    "costs": {
+      "title": "Kostnader kontra intäkter",
+      "commonArea": "Avgifter för gemensamt område faktureras",
+      "bulkCost": "Inköpskostnad för bulkvatten",
+      "bulkVolume": "Bulkvatten köpt",
+      "bulkCount": "{{total}} köp",
+      "billedMinusBulk": "Fakturerad intäkt minus bulkkostnad",
+      "note": "Massinköp spåras för kostnadssynlighet och faktureras inte direkt till hushållen."
+    },
+    "top": {
+      "title": "Toppkonsumenter",
+      "empty": "Ingen förbrukning registrerad i detta intervall."
+    },
+    "charts": {
+      "consumptionTitle": "Månadsförbrukning",
+      "consumptionSeries": "Konsumtion",
+      "billingTitle": "Fakturerad vs. betald vs. masskostnad",
+      "billedSeries": "Fakturerad",
+      "paidSeries": "Betalt",
+      "bulkSeries": "Massinköpskostnad",
+      "empty": "Ingen data för detta intervall."
+    },
+    "sort": {
+      "label": "Sortera efter",
+      "toggleDirection": "Växla sorteringsriktning",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Hus",
+      "resident": "Bosatt",
+      "meter": "Meter",
+      "totalKl": "Totalt kL",
+      "avgMonthlyKl": "Genomsnittlig månad kL",
+      "billed": "Fakturerad",
+      "paid": "Betalt",
+      "outstanding": "Utestående"
+    }
+  },
+  "announcements": {
+    "loadError": "Det gick inte att läsa in meddelanden. Försök igen.",
+    "removeError": "Det gick inte att ta bort det här meddelandet. Försök igen.",
+    "loading": "Läser in meddelanden...",
+    "empty": "Inga meddelanden än. Klicka på \"Nytt meddelande\" för att meddela dina invånare.",
+    "count": "Meddelanden: {{total}}",
+    "newButton": "+ Nytt meddelande",
+    "pinned": "Fäst",
+    "expired": "Utgått",
+    "postedAt": "Postade {{date}}",
+    "updatedAt": "Redigerat {{date}}",
+    "expiresAt": "Upphör att gälla {{date}}",
+    "category": {
+      "general": "Allmän",
+      "maintenance": "Underhåll",
+      "waterSupply": "Vattenförsörjning",
+      "billing": "Fakturering",
+      "urgent": "Brådskande"
+    },
+    "form": {
+      "addTitle": "Nytt meddelande",
+      "editTitle": "Redigera meddelande",
+      "addSubtitle": "Invånare ser detta på sin aviseringssida, och alla med push-meddelanden aktiverade meddelas direkt.",
+      "editSubtitle": "Redigeringar uppdaterar meddelandet på plats. Invånarna meddelas inte igen.",
+      "title": "Titel",
+      "category": "Kategori",
+      "expiresAt": "Upphör att gälla (valfritt)",
+      "body": "Meddelande",
+      "pinned": "Fäst högst upp i invånarnas meddelanden",
+      "requiredFields": "Vänligen ange en titel och ett meddelande.",
+      "saveError": "Det gick inte att spara det här meddelandet. Kontrollera detaljerna.",
+      "publish": "Publicera"
+    },
+    "confirm": {
+      "title": "Ta bort meddelande?",
+      "body": "\"{{title}}\" kommer att tas bort för alla invånare. Detta kan inte ångras.",
+      "delete": "Radera",
+      "deleting": "Tar bort..."
     }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Support Tickets",
     "subtitle": "Support tickets and concerns raised by residents and community admins, platform-wide."
+  },
+  "profile": {
+    "accountTitle": "Account",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Change password",
+    "loadError": "Could not load your profile. Please try again.",
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email",
+      "role": "Role",
+      "roleValue": "System Administrator"
+    }
   }
 }

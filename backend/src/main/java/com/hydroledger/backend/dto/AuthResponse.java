@@ -10,6 +10,7 @@ public record AuthResponse(
         Role role,
         String communityName,
         String houseNumber,
-        String meterNumber
+        String meterNumber,
+        String avatarKey
 ) {
 }

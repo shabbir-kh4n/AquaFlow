@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Netrukus",
     "welcome": {
       "greeting": "Sveiki {{name}},",
       "greetingFallback": "Sveiki,",
       "title": "Būkite šalia savo namų vandens istorijos.",
-      "subtitle": "Naudojimo ir atsiskaitymo įžvalgos bus rodomos čia, kai jūsų bendruomenė registruoja rodmenis.",
-      "viewBadges": "Peržiūrėkite ekologinius ženklelius"
+      "subtitle": "Naudojimo ir atsiskaitymo įžvalgos bus rodomos čia, kai jūsų bendruomenė registruoja rodmenis."
     },
     "stats": {
       "todaysUsage": "Šiandieninis naudojimas",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Matuojamas naudojimas + bendri mokesčiai, {{month}}",
       "estimatedBillHint": "Remiantis šio mėnesio skaičiuojamu suvartojimu ir bendrais mokesčiais",
       "savings": "Sutaupyta, palyginti su pastato vid",
-      "savingsValue": "{{percent}} % mažiau",
-      "savingsPreview": "Tik peržiūra – palyginimas dar neaktyvus"
+      "savingsLess": "{{percent}} % mažiau",
+      "savingsMore": "{{percent}}% daugiau",
+      "savingsEqual": "Toks pat kaip vidutinis",
+      "savingsDetail": "{{household}} kL prieš {{average}} kL vidurkį, {{month}}",
+      "savingsNoData": "Pastatų palyginimo dar nėra"
     },
     "consumption": {
       "eyebrow": "Vartojimas",
       "title": "Kasdienis suvartojimas (14 paskutinių skaitymų)",
       "seriesName": "Vartojimas",
       "empty": "Dar nėra užfiksuotų rodmenų."
-    },
-    "breakdown": {
-      "eyebrow": "Suskirstymas",
-      "title": "Naudojimo suskirstymas",
-      "bathroom": "Vonios kambarys",
-      "kitchen": "Virtuvė",
-      "garden": "Sodas / Balkonas",
-      "other": "Kita / Skalbykla"
     },
     "billing": {
       "eyebrow": "Atsiskaitymas",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Pakopų kainų lygis",
       "tierLabel": "Pakopa {{tier}}",
       "commonArea": "Bendro ploto paskirstymas",
-      "commonAreaPreview": "Bendros erdvės paskirstymas (peržiūra)",
       "invoiceTotal": "Iš viso {{period}} sąskaitos faktūros",
       "estimatedCharge": "Dabartinis apskaičiuotas mokestis",
       "commonAreaBreakdown": "Bendro ploto suskirstymas",
-      "payPreview": "Mokėti sąskaitos peržiūra",
-      "payUnavailable": "Atsiskaitymo variklis dar nepasiekiamas"
+      "commonAreaEstimate": "Bendro ploto paskirstymas (įvertis)",
+      "payOutstanding": "Mokėkite {{amount}} INR",
+      "payAllDescription": "Visos neapmokėtos sąskaitos ({{number}})"
     },
     "tips": {
       "eyebrow": "Patarimai",
@@ -66,8 +59,7 @@
     "empty": "Dar nėra užfiksuotų rodmenų. Kai jūsų bendruomenė užfiksuos skaitiklio rodmenis, jis bus rodomas čia.",
     "tabs": {
       "lastSixMonths": "Paskutiniai 6 mėnesiai",
-      "customRange": "Pasirinktinis diapazonas",
-      "comingSoon": "Netrukus"
+      "customRange": "Pasirinktinis diapazonas"
     },
     "peakDay": "Piko diena:",
     "lowestDay": "Žemiausia diena:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Kasdienio vartojimo šilumos žemėlapis",
-      "subtitle": "Spalvos intensyvumas žymi intensyvaus naudojimo dienas (peržiūra)."
+      "subtitle": "Spalvos intensyvumas žymi intensyvaus naudojimo dienas (peržiūra).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: nėra duomenų",
+      "less": "Mažiau",
+      "more": "Daugiau",
+      "noData": "Nėra duomenų"
     },
     "ranking": {
       "title": "Bendruomenės bendraamžių reitingas",
-      "subtitle": "Jūsų reitingas, palyginti su panašiais vienetais (peržiūra).",
-      "ecoSaver": "Aktyvus ekologinis taupymas",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Vienetas {{number}}",
-      "yourUnit": "Jūsų padalinys",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Jūs)"
+      "subtitle": "Jūsų namų ūkis palyginti su kiekvienu namų ūkiu jūsų bute {{month}}. Mažesnis naudojimas yra aukštesnis.",
+      "headline": "#{{rank}} iš {{total}} namų ūkių",
+      "percentile": "Sunaudojote mažiau vandens nei {{percent}} % savo kaimynų.",
+      "min": "Žemiausias",
+      "median": "Mediana",
+      "max": "Aukščiausias",
+      "youRow": "#{{rank}} Jūs",
+      "neighbourRow": "#{{rank}} Kaimynas",
+      "privacyNote": "Kaimynai anonimiški. Namų numeriai ir pavadinimai niekada nerodomi.",
+      "empty": "Dar nepakanka duomenų, kad būtų galima reitinguoti jūsų namų ūkį."
+    },
+    "range": {
+      "from": "Iš",
+      "to": "Į",
+      "invalid": "Pradžios mėnuo negali būti po mėnesio pabaigos.",
+      "noData": "Šiame diapazone suvartojimo duomenų nėra."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Atsiskaitymo ciklas: {{period}}",
       "allPaid": "Visos sąskaitos apmokėtos",
       "payTotal": "Iš viso mokėti",
-      "payTotalUnavailable": "Mokėjimas internetu dar nepasiekiamas – apmokėkite sąskaitas tiesiogiai su bendruomenės administratoriumi",
       "downloadSummary": "Atsisiųskite sąskaitų santrauką",
-      "downloadSummaryUnavailable": "Sąskaitų suvestinės atsisiuntimas dar nepasiekiamas"
+      "payAllDescription": "Visos neapmokėtos sąskaitos ({{number}})"
     },
     "history": {
       "title": "Sąskaitų faktūrų istorija",
-      "exportCsv": "Eksportuoti viską į CSV",
-      "exportUnavailable": "CSV eksportavimas dar nepasiekiamas"
+      "exportCsv": "Eksportuoti viską į CSV"
     },
     "table": {
       "cycle": "Ciklas",
@@ -148,6 +151,17 @@
       "description": "Mokėjimas internetu dar nepasiekiamas – sąskaitos apmokamos tiesiogiai su bendruomenės administratoriumi.",
       "manage": "Tvarkyti mokėjimo būdus",
       "manageUnavailable": "Mokėjimo būdai dar nepasiekiami"
+    },
+    "csv": {
+      "cycle": "Atsiskaitymo laikotarpis",
+      "consumption": "Vartojimas (kL)",
+      "baseAmount": "Bazinė suma",
+      "tariffAmount": "Tarifo suma",
+      "commonAreaAmount": "Bendro ploto suma",
+      "totalAmount": "Bendra suma",
+      "paid": "Mokama",
+      "paidAt": "Sumokėta adresu",
+      "generatedAt": "Sukurta adresu"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Prašome nespausti atgal ir neatnaujinti šio puslapio",
     "success": "Mokėjimas sėkmingas",
     "error": "Patvirtinant mokėjimą įvyko klaida. Bandykite dar kartą.",
-    "retry": "Bandykite dar kartą"
+    "retry": "Bandykite dar kartą",
+    "simulationNotice": "Imituojamas atsiskaitymas tik demonstravimui. Realus mokėjimas neatliekamas ir pinigai nėra imami."
   },
   "notifications": {
     "loadError": "Nepavyko įkelti pranešimų. Bandykite dar kartą.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push pranešimai dar nesukonfigūruoti. Susisiekite su savo administratoriumi.",
       "enableError": "Nepavyko įjungti tiesioginių pranešimų. Bandykite dar kartą.",
       "disableError": "Nepavyko išjungti tiesioginių pranešimų. Bandykite dar kartą."
+    },
+    "tabs": {
+      "alerts": "Perspėjimai",
+      "announcements": "Skelbimai"
+    },
+    "announcements": {
+      "loadError": "Nepavyko įkelti pranešimų. Bandykite dar kartą.",
+      "loading": "Įkeliami pranešimai…",
+      "empty": "Šiuo metu jūsų bendruomenės administratoriaus pranešimų nėra.",
+      "pinned": "Prisegta",
+      "postedAt": "Paskelbta {{date}}",
+      "expiresAt": "Iki {{date}}",
+      "category": {
+        "general": "Generolas",
+        "maintenance": "Priežiūra",
+        "waterSupply": "Vandens tiekimas",
+        "billing": "Atsiskaitymas",
+        "urgent": "Skubiai"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Gyventojų palaikymo ir rūpesčių biuras",
     "subtitle": "Pateikite vandens nuotėkio ataskaitas, skaitiklio kalibravimo užklausas arba atsiskaitymo užklausas tiesiogiai savo bendruomenės administratoriui ir (arba) sistemos administratoriui.",
     "emptyCreateHint": "Toliau aprašykite savo problemą arba susirūpinimą ir pasirinkite, kas turėtų ją spręsti."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Paskutiniai 3 mėnesiai",
+      "sixMonths": "Paskutiniai 6 mėnesiai",
+      "twelveMonths": "Paskutiniai 12 mėnesių",
+      "custom": "Pasirinktinis diapazonas"
+    },
+    "customRange": {
+      "from": "Iš",
+      "to": "Į",
+      "hint": "Norėdami peržiūrėti ataskaitą, pasirinkite pradžios ir pabaigos mėnesį."
+    },
+    "loading": "Įkeliama ataskaita…",
+    "loadError": "Nepavyko įkelti ataskaitos. Bandykite dar kartą.",
+    "pdfError": "Nepavyko atsisiųsti pareiškimo. Bandykite dar kartą.",
+    "downloading": "Atsisiunčiama…",
+    "downloadCsv": "Atsisiųsti CSV",
+    "downloadStatement": "Atsisiųsti pareiškimą PDF",
+    "period": "Ataskaitinis laikotarpis: {{from}}–{{to}}",
+    "cards": {
+      "totalUsage": "Bendras naudojimas",
+      "avgMonthly": "Vidutinis mėnesio naudojimas",
+      "avgMonthlyHint": "Ištisus mėnesius su įrašytais rodmenimis",
+      "change": "Pakeitimas, palyginti su ankstesniu laikotarpiu",
+      "changeHint": "{{previous}} iš {{from}} iki {{to}}",
+      "changeNoData": "Jokio naudojimo ankstesniu laikotarpiu palyginimui",
+      "totalBilled": "Iš viso išrašyta",
+      "totalPaid": "Iš viso sumokėta",
+      "outstanding": "Išskirtinis"
+    },
+    "chart": {
+      "title": "Mėnesio naudojimas ir atsiskaitymas",
+      "subtitle": "Juostos rodo suvartojimą (kL); eilutėje rodoma sąskaitos suma (₹).",
+      "consumption": "Vartojimas",
+      "billed": "Išrašyta sąskaita"
+    },
+    "table": {
+      "title": "Mėnesio suskirstymas",
+      "month": "Mėnuo",
+      "consumption": "Vartojimas (kL)",
+      "billed": "Išrašyta sąskaita",
+      "paid": "Mokama",
+      "status": "Būsena"
+    },
+    "status": {
+      "paid": "Mokama",
+      "unpaid": "Neapmokėta",
+      "notBilled": "Neapmokestinamas"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Sąskaitos informacija",
+    "managedNote": "Jūsų bendruomenės administratorius tvarko šią informaciją. Susisiekite su jais, jei reikia ką nors pakeisti.",
+    "loading": "Įkeliamas jūsų profilis…",
+    "loadError": "Nepavyko įkelti jūsų profilio. Bandykite dar kartą.",
+    "notSet": "Nenustatyta",
+    "flatSizeValue": "{{size}} kv. pėd",
+    "avatarTitle": "Avataras",
+    "passwordTitle": "Keisti slaptažodį",
+    "fields": {
+      "fullName": "Pilnas vardas",
+      "email": "El. paštas",
+      "phone": "Telefonas",
+      "houseNumber": "Namo numeris",
+      "meterNumber": "Skaitiklio numeris",
+      "community": "bendruomenė",
+      "flatSize": "Plokščias dydis",
+      "joined": "Prisijungė"
+    }
   }
 }

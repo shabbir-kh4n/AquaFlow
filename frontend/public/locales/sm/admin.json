@@ -25,7 +25,6 @@
     "title": "{{community}} Laupapa Fale",
     "titleFallback": "Lau Laupapa Fale",
     "subtitle": "Aotelega o galuega mo le fuaina o le suavai ma le faaaogaina e aiga.",
-    "comingSoon": "Lea la'a sau",
     "manageCommunity": "Pulea le Nuu",
     "noUsageReadings": "E le'i fa'amauina le faitau fa'aoga.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Fa'amauina masina fou ({{month}})",
       "noReadingsYet": "E leai ni faitauga fa'amauina",
       "pendingAlerts": "Fa'atali Fa'aliga",
-      "anomalyPreview": "Va'aiga fa'ailoga fa'aletonu - e le'i maua"
+      "reviewAlerts": "Fa'aaliga leak / fa'aoga - toe iloilo nei",
+      "noActiveAlerts": "Leai ni fa'ailo toaga"
     },
     "actions": {
       "label": "Fa'atonuga Fa'atonu",
       "uploadReadings": "Tu'u mai le mita Faitauga",
       "configureTariffs": "Fa'atulaga Fa'asologa",
-      "reportsNotBuilt": "E le'i fausia lipoti",
       "downloadReports": "La'uina Lipoti Faiga"
     },
     "chart": {
       "title": "Fa'atusatusaga Fa'aaogā Fa'alemasina (kL)",
       "subtitle": "{{months}} masina ua tuana'i: sini vs. taumafa moni.",
-      "targetSeries": "Sini (mua'i va'aiga)",
       "actualSeries": "Moni"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Le mafai ona sefe lau talaaga. Fa'amolemole toe taumafai.",
     "apartmentSaveError": "Le mafai ona sefe fa'amatalaga o fale mautotogi. Fa'amolemole toe taumafai.",
     "specsTitle": "Fa'amatalaga Fa'amatalaga",
-    "photoUnavailable": "E le'i avanoa le la'uina o ata",
-    "changePhoto": "Suia Ata",
-    "deletePhoto": "Aveese",
-    "photoHint": "JPG poʻo PNG. Max tele 2MB.",
     "saveProfile": "Fa'asaoina Tala'aga",
     "apartmentTitle": "Fa'amatalaga Fale",
     "saveApartment": "Fa'asaoina Fa'amatalaga Fale",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "E le'i maua le fa'amaoniga e lua",
       "twoFactorAria": "Fa'amaoniga e lua (na'o le mua'i va'aiga)",
       "sessionsLabel": "Fa'atonu Pule Sauniga",
-      "sessionsEmpty": "E le'i maua le su'ega o sauniga - o se fa'aaliga lea o le fa'atulagaina o lo'o lumana'i."
-    }
+      "sessionsEmpty": "E le'i maua le su'ega o sauniga - o se fa'aaliga lea o le fa'atulagaina o lo'o lumana'i.",
+      "previewNote": "Na'o le mua'i va'aiga: e le'i maua le fa'amaoni e lua ma le su'esu'eina o vasega."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Suia upu faataga"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tiketi nofomau",
       "subtitle": "Lagolago tiketi ma atugaluga ua fa'asino atu e tagata o lou nu'u ia oe."
+    }
+  },
+  "reports": {
+    "loadError": "Le mafai ona utaina le lipoti a le nuu. Fa'amolemole toe taumafai.",
+    "pdfError": "Le mafai ona la'u mai le PDF lipoti. Fa'amolemole toe taumafai.",
+    "loading": "La'uina lipoti...",
+    "empty": "Leai ni aiga e iai fa'amaumauga i lenei vaega.",
+    "noMatch": "E leai ni aiga e fetaui ma le \"{{search}}\".",
+    "searchPlaceholder": "Filifili ile fale, nofomau, po'o le mita nu.",
+    "downloadCsv": "La'u mai CSV",
+    "downloadPdf": "La'u mai PDF Aotelega",
+    "downloadingPdf": "Saunia PDF…",
+    "ranges": {
+      "threeMonths": "3 masina mulimuli",
+      "sixMonths": "6 masina talu ai",
+      "twelveMonths": "12 masina talu ai",
+      "custom": "Tulaga fa'apitoa"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "I",
+      "hint": "Filifili uma le amataga ma le masina fa'ai'u e uta ai le lipoti."
+    },
+    "cards": {
+      "totalConsumption": "Aofa'i Fa'atau",
+      "households": "I totonu {{total}} aiga",
+      "avgMonthly": "Fa'atauga Fa'alemasina",
+      "communityWide": "Nu'u lautele, i le masina",
+      "billed": "Pili",
+      "finalizedOnly": "Na'o ta'amilosaga fa'amae'a & teu fa'amaumauga",
+      "paid": "Totogi",
+      "invoices": "{{total}} pili ua tuuina atu",
+      "outstanding": "Mata'ina",
+      "unpaidInvoices": "{{total}} pili e le'i totogiina",
+      "collectionRate": "Fua o le aoina"
+    },
+    "costs": {
+      "title": "Tau vs. Tupe Maua",
+      "commonArea": "Totogi a le nofoaga masani",
+      "bulkCost": "Tau fa'atauga vai tele",
+      "bulkVolume": "Fa'atau vai tele",
+      "bulkCount": "{{total}} faatau",
+      "billedMinusBulk": "Tupe maua totogi to'ese le tau tele",
+      "note": "O fa'atauga fa'atele e mata'ituina mo le va'aia o tau ma e le fa'atau sa'o i aiga."
+    },
+    "top": {
+      "title": "Tagata fa'atau sili",
+      "empty": "Leai se fa'aaogaina na fa'amauina i lenei vaega."
+    },
+    "charts": {
+      "consumptionTitle": "Fa'aaogā masina",
+      "consumptionSeries": "Fa'atauga",
+      "billingTitle": "Totogi vs. Totogi vs. Tau tele",
+      "billedSeries": "Pili",
+      "paidSeries": "Totogi",
+      "bulkSeries": "Tau fa'atauga tele",
+      "empty": "Leai ni fa'amatalaga mo lenei vaega."
+    },
+    "sort": {
+      "label": "Fa'avasega i",
+      "toggleDirection": "Togomi le fa'avasegaga",
+      "asc": "↑ Asc",
+      "desc": "↓ Fa'amatala"
+    },
+    "table": {
+      "house": "Fale",
+      "resident": "Tagata nofomau",
+      "meter": "mita",
+      "totalKl": "Aofa'iga kL",
+      "avgMonthlyKl": "Tulaga Fa'alemasina kL",
+      "billed": "Pili",
+      "paid": "Totogi",
+      "outstanding": "Mata'ina"
+    }
+  },
+  "announcements": {
+    "loadError": "Le mafai ona utaina fa'asalalauga. Fa'amolemole toe taumafai.",
+    "removeError": "Le mafai ona tapeina lenei fa'aaliga. Fa'amolemole toe taumafai.",
+    "loading": "O lo'o uta fa'asalalauga...",
+    "empty": "E leai ni fa'asalalauga. Kiliki le \"Fa'asilasilaga Fou\" e logo ai tagata o lo'o nonofo ai.",
+    "count": "Faasalalauga: {{total}}",
+    "newButton": "+ Faasilasilaga Fou",
+    "pinned": "Fa'amauina",
+    "expired": "Ua mae'a",
+    "postedAt": "Fa'asalalau {{date}}",
+    "updatedAt": "Fa'atonu {{date}}",
+    "expiresAt": "E muta {{date}}",
+    "category": {
+      "general": "lautele",
+      "maintenance": "Tausiga",
+      "waterSupply": "Suavai",
+      "billing": "Pili",
+      "urgent": "Fa'anatinati"
+    },
+    "form": {
+      "addTitle": "Faasilasilaga Fou",
+      "editTitle": "Fa'atonu Fa'asilasilaga",
+      "addSubtitle": "O lo'o va'ai tagata nofoia i luga o latou itulau Fa'asilasilaga, ma so'o se tasi e fa'agaoioi fa'amatalaga tulei e logo vave lava.",
+      "editSubtitle": "Fa'afou fa'afou le fa'aaliga ua tu'u. E le toe logoina tagata nofomau.",
+      "title": "Ulutala",
+      "category": "Vaega",
+      "expiresAt": "E muta (filifiliga)",
+      "body": "Savali",
+      "pinned": "Fa'amau i le pito i luga o fa'asalalauga a tagata nofomau",
+      "requiredFields": "Fa'amolemole tu'u se ulutala ma se fe'au.",
+      "saveError": "Le mafai ona sefe lenei fa'aaliga. Fa'amolemole siaki fa'amatalaga.",
+      "publish": "Fa'asalalau"
+    },
+    "confirm": {
+      "title": "Ave'ese le fa'aaliga?",
+      "body": "\"{{title}}\" o le a aveesea mo tagata uma. E le mafai ona fa'aleaogaina.",
+      "delete": "Aveese",
+      "deleting": "Tapēina…"
     }
   }
 }

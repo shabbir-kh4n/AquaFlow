@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tiket Sokongan",
     "subtitle": "Sokong tiket dan kebimbangan yang dibangkitkan oleh penduduk dan pentadbir komuniti, di seluruh platform."
+  },
+  "profile": {
+    "accountTitle": "Akaun",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Tukar kata laluan",
+    "loadError": "Tidak dapat memuatkan profil anda. Sila cuba lagi.",
+    "fields": {
+      "fullName": "Nama penuh",
+      "email": "E-mel",
+      "role": "Peranan",
+      "roleValue": "Pentadbir Sistem"
+    }
   }
 }

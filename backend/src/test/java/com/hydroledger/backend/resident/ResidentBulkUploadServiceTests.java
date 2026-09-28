@@ -64,7 +64,7 @@ class ResidentBulkUploadServiceTests {
                 + "Priya Test,priya@example.com,8888888888,B-202,MTR-0002,995678,Female,2001-01-01,2026-01-01,mypassword1\n";
 
         when(residentService.create(any(ResidentRequest.class), eq(admin)))
-                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null));
+                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null, null));
 
         CsvUploadResultResponse result = bulkUploadService.bulkUpload(csvFile(csv), admin);
 
@@ -80,7 +80,7 @@ class ResidentBulkUploadServiceTests {
                 + "Priya Test,priya@example.com,8888888888,B-202,MTR-0002,995678,Female,2001-01-01,2026-01-01,mypassword1\n";
 
         when(residentService.create(any(ResidentRequest.class), eq(admin)))
-                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null));
+                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null, null));
 
         bulkUploadService.bulkUpload(csvFile(csv), admin);
 
@@ -96,7 +96,7 @@ class ResidentBulkUploadServiceTests {
                 + "Ayan Test,ayan@example.com,9999999999,A-101,MTR-0001,991234,Male,2000-01-01,2026-01-01,\n";
 
         when(residentService.create(any(ResidentRequest.class), eq(admin)))
-                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null));
+                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null, null));
 
         bulkUploadService.bulkUpload(csvFile(csv), admin);
 
@@ -190,7 +190,7 @@ class ResidentBulkUploadServiceTests {
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelBytes);
 
         when(residentService.create(any(ResidentRequest.class), eq(admin)))
-                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null));
+                .thenReturn(new ResidentResponse(1L, "x", "x", "x", "x", "x", "x", "x", "x", "x", null, null, null));
 
         CsvUploadResultResponse result = bulkUploadService.bulkUpload(file, admin);
 

@@ -17,7 +17,8 @@ public record ResidentResponse(
         String dateOfBirth,
         String dateOfJoining,
         Instant createdAt,
-        BigDecimal flatSizeSqft
+        BigDecimal flatSizeSqft,
+        String avatarKey
 ) {
     public static ResidentResponse from(Resident resident) {
         return new ResidentResponse(
@@ -32,7 +33,8 @@ public record ResidentResponse(
                 resident.getDateOfBirth(),
                 resident.getDateOfJoining(),
                 resident.getCreatedAt(),
-                resident.getHousehold() != null ? resident.getHousehold().getFlatSizeSqft() : null
+                resident.getHousehold() != null ? resident.getHousehold().getFlatSizeSqft() : null,
+                resident.getAvatarKey()
         );
     }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Nadzorna plošča stanovanja",
     "titleFallback": "Nadzorna plošča vašega stanovanja",
     "subtitle": "Operativni povzetek za vodovodne storitve in gospodinjsko porabo.",
-    "comingSoon": "Kmalu na voljo",
     "manageCommunity": "Upravljanje skupnosti",
     "noUsageReadings": "Zabeleženih še ni nobenih odčitkov o uporabi.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Zadnji zabeležen mesec ({{month}})",
       "noReadingsYet": "Odčitki še niso zabeleženi",
       "pendingAlerts": "Čakajoča opozorila",
-      "anomalyPreview": "Predogled zaznavanja nepravilnosti — še ni na voljo"
+      "reviewAlerts": "Aktivna opozorila o puščanju/uporabi — preglejte zdaj",
+      "noActiveAlerts": "Ni aktivnih opozoril"
     },
     "actions": {
       "label": "Hitri administrativni ukrepi",
       "uploadReadings": "Naloži odčitke števca",
       "configureTariffs": "Konfigurirajte tarife",
-      "reportsNotBuilt": "Poročila še niso izdelana",
       "downloadReports": "Prenesite sistemska poročila"
     },
     "chart": {
       "title": "Primerjava mesečne porabe (kL)",
       "subtitle": "Zadnjih {{months}} mesecev: cilj v primerjavi z dejansko porabo.",
-      "targetSeries": "Cilj (predogled)",
       "actualSeries": "Dejansko"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Vašega profila ni bilo mogoče shraniti. prosim poskusite ponovno",
     "apartmentSaveError": "Podatkov o stanovanju ni bilo mogoče shraniti. prosim poskusite ponovno",
     "specsTitle": "Specifikacije profila",
-    "photoUnavailable": "Nalaganje fotografij še ni na voljo",
-    "changePhoto": "Spremeni fotografijo",
-    "deletePhoto": "Izbriši",
-    "photoHint": "JPG ali PNG. Največja velikost 2 MB.",
     "saveProfile": "Shrani profil",
     "apartmentTitle": "Podrobnosti o stanovanju",
     "saveApartment": "Shranite podrobnosti o stanovanju",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Dvostopenjska avtentikacija še ni na voljo",
       "twoFactorAria": "Dvostopenjska avtentikacija (samo predogled)",
       "sessionsLabel": "Aktivne skrbniške seje",
-      "sessionsEmpty": "Sledenje sejam še ni na voljo — to je predogled prihajajoče postavitve."
-    }
+      "sessionsEmpty": "Sledenje sejam še ni na voljo — to je predogled prihajajoče postavitve.",
+      "previewNote": "Samo predogled: dvostopenjska avtentikacija in sledenje sejam še nista na voljo."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Spremeni geslo"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Vstopnice za prebivalce",
       "subtitle": "Vstopnice za podporo in skrbi, ki so jih na vas naslovili prebivalci vaše skupnosti."
+    }
+  },
+  "reports": {
+    "loadError": "Poročila skupnosti ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "pdfError": "Ni bilo mogoče prenesti poročila PDF. prosim poskusite ponovno",
+    "loading": "Nalaganje poročila …",
+    "empty": "Ni gospodinjstev s podatki v tem obsegu.",
+    "noMatch": "Nobeno gospodinjstvo ne ustreza \"{{search}}\".",
+    "searchPlaceholder": "Filtriraj po hiši, stanovalcu ali števcu.",
+    "downloadCsv": "Prenos CSV",
+    "downloadPdf": "Prenesite PDF povzetek",
+    "downloadingPdf": "Priprava PDF …",
+    "ranges": {
+      "threeMonths": "Zadnje 3 mesece",
+      "sixMonths": "Zadnjih 6 mesecev",
+      "twelveMonths": "Zadnjih 12 mesecev",
+      "custom": "Razpon po meri"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "Za",
+      "hint": "Za nalaganje poročila izberite začetni in končni mesec."
+    },
+    "cards": {
+      "totalConsumption": "Skupna poraba",
+      "households": "V {{total}} gospodinjstvih",
+      "avgMonthly": "Povprečna mesečna poraba",
+      "communityWide": "Za celotno skupnost, na mesec",
+      "billed": "Zaračunano",
+      "finalizedOnly": "Samo dokončani in arhivirani cikli",
+      "paid": "Plačano",
+      "invoices": "{{total}} izdanih računov",
+      "outstanding": "Izjemno",
+      "unpaidInvoices": "{{total}} neplačanih računov",
+      "collectionRate": "Stopnja zbiranja"
+    },
+    "costs": {
+      "title": "Stroški v primerjavi s prihodki",
+      "commonArea": "Zaračunani stroški skupnih prostorov",
+      "bulkCost": "Stroški nakupa vode v razsutem stanju",
+      "bulkVolume": "Voda v razsutem stanju kupljena",
+      "bulkCount": "{{total}} nakupov",
+      "billedMinusBulk": "Zaračunani prihodek minus skupni stroški",
+      "note": "Množičnim nakupom se sledi zaradi preglednosti stroškov in se ne zaračunavajo neposredno gospodinjstvom."
+    },
+    "top": {
+      "title": "Najboljši potrošniki",
+      "empty": "V tem območju ni zabeležene porabe."
+    },
+    "charts": {
+      "consumptionTitle": "Mesečna poraba",
+      "consumptionSeries": "Poraba",
+      "billingTitle": "Zaračunani v primerjavi s plačanimi v primerjavi z množičnimi stroški",
+      "billedSeries": "Zaračunano",
+      "paidSeries": "Plačano",
+      "bulkSeries": "Stroški množičnega nakupa",
+      "empty": "Ni podatkov za ta obseg."
+    },
+    "sort": {
+      "label": "Razvrsti po",
+      "toggleDirection": "Preklopi smer razvrščanja",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Hiša",
+      "resident": "Stanovnik",
+      "meter": "Merilnik",
+      "totalKl": "Skupaj kL",
+      "avgMonthlyKl": "Povprečno mesečno kL",
+      "billed": "Zaračunano",
+      "paid": "Plačano",
+      "outstanding": "Izjemno"
+    }
+  },
+  "announcements": {
+    "loadError": "Obvestil ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "removeError": "Te objave ni bilo mogoče izbrisati. prosim poskusite ponovno",
+    "loading": "Nalaganje obvestil …",
+    "empty": "Ni še obvestil. Kliknite »Novo obvestilo«, da obvestite svoje stanovalce.",
+    "count": "Obvestila: {{total}}",
+    "newButton": "+ Nova objava",
+    "pinned": "Pripeto",
+    "expired": "potekel",
+    "postedAt": "Objavljeno {{date}}",
+    "updatedAt": "Urejeno {{date}}",
+    "expiresAt": "Poteče {{date}}",
+    "category": {
+      "general": "Splošno",
+      "maintenance": "Vzdrževanje",
+      "waterSupply": "Oskrba z vodo",
+      "billing": "Obračunavanje",
+      "urgent": "Nujno"
+    },
+    "form": {
+      "addTitle": "Novo obvestilo",
+      "editTitle": "Uredi obvestilo",
+      "addSubtitle": "Prebivalci to vidijo na svoji strani z obvestili in vsi, ki imajo omogočena potisna obvestila, so takoj obveščeni.",
+      "editSubtitle": "Urejanja posodobijo obvestilo na mestu. Stanovalci spet niso obveščeni.",
+      "title": "Naslov",
+      "category": "Kategorija",
+      "expiresAt": "Poteče (neobvezno)",
+      "body": "Sporočilo",
+      "pinned": "Pripni na vrh obvestil stanovalcev",
+      "requiredFields": "Vnesite naslov in sporočilo.",
+      "saveError": "Te objave ni bilo mogoče shraniti. Preverite podrobnosti.",
+      "publish": "Objavi"
+    },
+    "confirm": {
+      "title": "Želite izbrisati obvestilo?",
+      "body": "»{{title}}« bo odstranjen za vse prebivalce. Tega ni mogoče razveljaviti.",
+      "delete": "Izbriši",
+      "deleting": "Brisanje …"
     }
   }
 }

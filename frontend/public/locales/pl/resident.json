@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Już wkrótce",
     "welcome": {
       "greeting": "Witaj {{name}},",
       "greetingFallback": "Witam,",
       "title": "Pozostań blisko historii wody w swoim domu.",
-      "subtitle": "Informacje o użytkowaniu i rozliczeniach będą się tu pojawiać w miarę odczytów rejestrowanych przez Twoją społeczność.",
-      "viewBadges": "Zobacz odznaki ekologiczne"
+      "subtitle": "Informacje o użytkowaniu i rozliczeniach będą się tu pojawiać w miarę odczytów rejestrowanych przez Twoją społeczność."
     },
     "stats": {
       "todaysUsage": "Dzisiejsze użycie",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Pomiar zużycia + wspólne opłaty, {{month}}",
       "estimatedBillHint": "Na podstawie zmierzonego zużycia w tym miesiącu i wspólnych opłat",
       "savings": "Oszczędności w porównaniu ze średnią budową",
-      "savingsValue": "{{percent}}% Mniej",
-      "savingsPreview": "Tylko podgląd — porównanie jeszcze nieaktualne"
+      "savingsLess": "{{percent}}% Mniej",
+      "savingsMore": "{{percent}}% Więcej",
+      "savingsEqual": "Tak samo jak przeciętnie",
+      "savingsDetail": "{{household}} kL vs {{average}} kL średnia, {{month}}",
+      "savingsNoData": "Nie ma jeszcze porównania budynków"
     },
     "consumption": {
       "eyebrow": "Konsumpcja",
       "title": "Dzienne spożycie (ostatnie 14 odczytów)",
       "seriesName": "Konsumpcja",
       "empty": "Nie zarejestrowano jeszcze żadnych odczytów."
-    },
-    "breakdown": {
-      "eyebrow": "Załamanie",
-      "title": "Podział wykorzystania",
-      "bathroom": "Łazienka",
-      "kitchen": "Kuchnia",
-      "garden": "Ogród/balkon",
-      "other": "Inne / Pralnia"
     },
     "billing": {
       "eyebrow": "Rozliczenia",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Poziom cenowy poziomu",
       "tierLabel": "Poziom {{tier}}",
       "commonArea": "Podział części wspólnej",
-      "commonAreaPreview": "Podział powierzchni wspólnych (podgląd)",
       "invoiceTotal": "{{period}} suma faktury",
       "estimatedCharge": "Aktualna szacunkowa opłata",
       "commonAreaBreakdown": "Podział powierzchni wspólnych",
-      "payPreview": "Podgląd rachunku",
-      "payUnavailable": "Mechanizm rozliczeniowy nie jest jeszcze dostępny"
+      "commonAreaEstimate": "Podział powierzchni wspólnej (szacunkowy)",
+      "payOutstanding": "Zapłać zaległe ₹{{amount}}",
+      "payAllDescription": "Wszystkie niezapłacone rachunki ({{number}})"
     },
     "tips": {
       "eyebrow": "Porady",
@@ -66,8 +59,7 @@
     "empty": "Nie zarejestrowano jeszcze żadnych odczytów. Gdy Twoja społeczność zarejestruje odczyt licznika, pojawi się on tutaj.",
     "tabs": {
       "lastSixMonths": "Ostatnie 6 miesięcy",
-      "customRange": "Zakres niestandardowy",
-      "comingSoon": "Już wkrótce"
+      "customRange": "Zakres niestandardowy"
     },
     "peakDay": "Dzień szczytowy:",
     "lowestDay": "Najniższy dzień:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Mapa cieplna dziennego zużycia",
-      "subtitle": "Intensywność kolorów oznacza dni intensywnego użytkowania (podgląd)."
+      "subtitle": "Intensywność kolorów oznacza dni intensywnego użytkowania (podgląd).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: brak danych",
+      "less": "Mniej",
+      "more": "Więcej",
+      "noData": "Brak danych"
     },
     "ranking": {
       "title": "Ranking społecznościowy",
-      "subtitle": "Twoja ranga w porównaniu do podobnych jednostek (podgląd).",
-      "ecoSaver": "Aktywny Eco Saver",
-      "aptNumber": "trafny {{number}}",
-      "unitNumber": "Jednostka {{number}}",
-      "yourUnit": "Twoja jednostka",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ty)"
+      "subtitle": "Twoje gospodarstwo domowe vs każde gospodarstwo domowe w Twoim mieszkaniu w okresie {{month}}. Niższe wykorzystanie ma wyższą rangę.",
+      "headline": "#{{rank}} z {{total}} gospodarstw domowych",
+      "percentile": "Zużyłeś mniej wody niż {{percent}}% Twoich sąsiadów.",
+      "min": "Najniższy",
+      "median": "Mediana",
+      "max": "Najwyższy",
+      "youRow": "#{{rank}} Ty",
+      "neighbourRow": "#{{rank}} Sąsiad",
+      "privacyNote": "Sąsiedzi są anonimowi. Numery i nazwy domów nigdy nie są pokazane.",
+      "empty": "Za mało danych, aby sklasyfikować Twoje gospodarstwo domowe."
+    },
+    "range": {
+      "from": "Z",
+      "to": "Do",
+      "invalid": "Miesiąc początkowy nie może przypadać po miesiącu końcowym.",
+      "noData": "Brak danych dotyczących zużycia w tym zakresie."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Cykl rozliczeniowy: {{period}}",
       "allPaid": "Wszystkie faktury są opłacone",
       "payTotal": "Zapłać całą kwotę zaległą",
-      "payTotalUnavailable": "Płatności online nie są jeszcze dostępne — rozliczaj rachunki bezpośrednio z administratorem społeczności",
       "downloadSummary": "Pobierz podsumowanie rachunku",
-      "downloadSummaryUnavailable": "Pobieranie podsumowania rachunków nie jest jeszcze dostępne"
+      "payAllDescription": "Wszystkie niezapłacone rachunki ({{number}})"
     },
     "history": {
       "title": "Historia faktur",
-      "exportCsv": "Eksportuj wszystko do CSV",
-      "exportUnavailable": "CSV eksport nie jest jeszcze dostępny"
+      "exportCsv": "Eksportuj wszystko do CSV"
     },
     "table": {
       "cycle": "Cykl",
@@ -148,6 +151,17 @@
       "description": "Płatności online nie są jeszcze dostępne — rachunki są rozliczane bezpośrednio z administratorem społeczności.",
       "manage": "Zarządzaj metodami płatności",
       "manageUnavailable": "Metody płatności nie są jeszcze dostępne"
+    },
+    "csv": {
+      "cycle": "Okres rozliczeniowy",
+      "consumption": "Zużycie (kL)",
+      "baseAmount": "Kwota podstawowa",
+      "tariffAmount": "Wysokość taryfy",
+      "commonAreaAmount": "Ilość powierzchni wspólnej",
+      "totalAmount": "Całkowita kwota",
+      "paid": "Płatny",
+      "paidAt": "Płatne o godz",
+      "generatedAt": "Wygenerowano o godz"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Proszę nie wciskać wstecz ani nie odświeżać tej strony",
     "success": "Płatność pomyślna",
     "error": "Coś poszło nie tak podczas potwierdzania Twojej płatności. Spróbuj ponownie.",
-    "retry": "Spróbować ponownie"
+    "retry": "Spróbować ponownie",
+    "simulationNotice": "Symulowana realizacja transakcji wyłącznie w celach demonstracyjnych. Żadna rzeczywista płatność nie jest dokonywana i żadne pieniądze nie są pobierane."
   },
   "notifications": {
     "loadError": "Nie udało się wczytać powiadomień. Spróbuj ponownie.",
@@ -213,6 +228,25 @@
       "notConfigured": "Powiadomienia push nie są jeszcze skonfigurowane. Skontaktuj się z administratorem.",
       "enableError": "Nie można włączyć powiadomień push. Spróbuj ponownie.",
       "disableError": "Nie można wyłączyć powiadomień push. Spróbuj ponownie."
+    },
+    "tabs": {
+      "alerts": "Alerty",
+      "announcements": "Ogłoszenia"
+    },
+    "announcements": {
+      "loadError": "Nie udało się wczytać ogłoszeń. Spróbuj ponownie.",
+      "loading": "Ładowanie ogłoszeń…",
+      "empty": "W tej chwili nie ma żadnych ogłoszeń od administratora społeczności.",
+      "pinned": "Przypięty",
+      "postedAt": "Opublikowano {{date}}",
+      "expiresAt": "Do {{date}}",
+      "category": {
+        "general": "Ogólny",
+        "maintenance": "Konserwacja",
+        "waterSupply": "Zaopatrzenie w wodę",
+        "billing": "Rozliczenia",
+        "urgent": "Pilny"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Biuro wsparcia i obsługi mieszkańców",
     "subtitle": "Przesyłaj raporty o wyciekach wody, prośby o kalibrację licznika lub zapytania dotyczące rozliczeń bezpośrednio do administratora społeczności i/lub administratora systemu.",
     "emptyCreateHint": "Opisz poniżej swój problem lub obawę i wybierz, kto powinien się nim zająć."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Ostatnie 3 miesiące",
+      "sixMonths": "Ostatnie 6 miesięcy",
+      "twelveMonths": "Ostatnie 12 miesięcy",
+      "custom": "Zakres niestandardowy"
+    },
+    "customRange": {
+      "from": "Z",
+      "to": "Do",
+      "hint": "Wybierz miesiąc początkowy i końcowy, aby zobaczyć raport."
+    },
+    "loading": "Ładowanie raportu…",
+    "loadError": "Nie udało się wczytać raportu. Spróbuj ponownie.",
+    "pdfError": "Nie udało się pobrać wyciągu. Spróbuj ponownie.",
+    "downloading": "Ściąganie…",
+    "downloadCsv": "Pobierz CSV",
+    "downloadStatement": "Pobierz oświadczenie PDF",
+    "period": "Okres raportu: {{from}} do {{to}}",
+    "cards": {
+      "totalUsage": "Całkowite wykorzystanie",
+      "avgMonthly": "Średnie miesięczne użycie",
+      "avgMonthlyHint": "Przez miesiące z zarejestrowanymi odczytami",
+      "change": "Zmiana w stosunku do poprzedniego okresu",
+      "changeHint": "{{previous}} w {{from}} do {{to}}",
+      "changeNoData": "Brak użycia w poprzednim okresie do porównania",
+      "totalBilled": "Łącznie naliczone",
+      "totalPaid": "Razem zapłacono",
+      "outstanding": "Wybitny"
+    },
+    "chart": {
+      "title": "Miesięczne wykorzystanie i rozliczenia",
+      "subtitle": "Słupki pokazują zużycie (kL); linia pokazuje rozliczoną kwotę (₹).",
+      "consumption": "Konsumpcja",
+      "billed": "Rozliczono"
+    },
+    "table": {
+      "title": "Podział miesiąc po miesiącu",
+      "month": "Miesiąc",
+      "consumption": "Zużycie (kL)",
+      "billed": "Rozliczono",
+      "paid": "Płatny",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Płatny",
+      "unpaid": "Nie zapłacony",
+      "notBilled": "Nierozliczone"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Szczegóły konta",
+    "managedNote": "Administrator społeczności zarządza tymi szczegółami. Skontaktuj się z nimi, jeśli coś wymaga zmiany.",
+    "loading": "Ładowanie Twojego profilu…",
+    "loadError": "Nie można załadować Twojego profilu. Spróbuj ponownie.",
+    "notSet": "Nie ustawiono",
+    "flatSizeValue": "{{size}} stopy kwadratowe",
+    "avatarTitle": "Awatara",
+    "passwordTitle": "Zmień hasło",
+    "fields": {
+      "fullName": "Pełne imię i nazwisko",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "houseNumber": "Numer domu",
+      "meterNumber": "Numer licznika",
+      "community": "Wspólnota",
+      "flatSize": "Rozmiar płaski",
+      "joined": "Dołączył"
+    }
   }
 }

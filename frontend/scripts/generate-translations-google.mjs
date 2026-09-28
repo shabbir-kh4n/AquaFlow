@@ -3,9 +3,13 @@
 // time - if that happens, re-run later or fall back to the Gemini script. Quality for short UI
 // labels is a bit below the Gemini script, which sees the whole file as context.
 //
-// Run manually: node scripts/generate-translations-google.mjs [--only=hi,ta] [--ns=admin] [--concurrency=3]
+// Run manually: node scripts/generate-translations-google.mjs [--fill] [--only=hi,ta] [--ns=admin] [--concurrency=3]
 // Same inputs/outputs as generate-translations.mjs: reads public/locales/en/{ns}.json, writes
 // public/locales/{code}/{ns}.json, skips files that already exist (so re-runs resume).
+// --fill also updates existing files: keys missing from them are translated, keys no longer in
+// English are dropped, and existing translations are kept untouched. (An English string whose
+// wording changed under the same key keeps its old translation - rename the key, or delete that
+// locale file, to force a retranslation.)
 //
 // {{placeholders}}, <Trans> tags, and a few never-translate terms are swapped for [[n]] tokens
 // before sending and restored afterwards. A string whose tokens don't survive is retried alone,
@@ -104,6 +108,14 @@ function collectStrings(node, out = []) {
   return out
 }
 
+// Leaf paths in the same order collectStrings visits them, so both can be zipped by index.
+function collectPaths(node, prefix = '', out = []) {
+  if (typeof node === 'string') out.push(prefix)
+  else if (Array.isArray(node)) node.forEach((child, i) => collectPaths(child, `${prefix}[${i}]`, out))
+  else if (node && typeof node === 'object') Object.entries(node).forEach(([k, v]) => collectPaths(v, prefix ? `${prefix}.${k}` : k, out))
+  return out
+}
+
 function rebuild(node, translations, cursor = { i: 0 }) {
   if (typeof node === 'string') return translations[cursor.i++]
   if (Array.isArray(node)) return node.map((child) => rebuild(child, translations, cursor))
@@ -113,10 +125,25 @@ function rebuild(node, translations, cursor = { i: 0 }) {
   return node
 }
 
-async function translateFile(sourceJson, googleCode, report) {
+// `existingJson` (--fill): a previous translation of this file; its still-valid strings are reused.
+async function translateFile(sourceJson, googleCode, report, existingJson = null) {
   const sources = collectStrings(sourceJson)
   const masked = sources.map(mask)
   const results = new Array(sources.length)
+  const reused = new Array(sources.length).fill(null)
+  if (existingJson) {
+    const previous = new Map()
+    const previousStrings = collectStrings(existingJson)
+    collectPaths(existingJson).forEach((p, i) => previous.set(p, previousStrings[i]))
+    collectPaths(sourceJson).forEach((p, i) => {
+      const old = previous.get(p)
+      // Only reuse when it still carries exactly the English string's placeholders/tags.
+      if (typeof old === 'string' && mask(old).tokens.sort().join() === [...masked[i].tokens].sort().join()) {
+        reused[i] = old
+      }
+    })
+    report.reused = reused.filter((r) => r !== null).length
+  }
 
   // Batch by size; strings with no letters at all (e.g. "—", "↑") are passed through as-is.
   let batch = []
@@ -130,6 +157,7 @@ async function translateFile(sourceJson, googleCode, report) {
     await sleep(REQUEST_DELAY_MS)
   }
   for (let i = 0; i < sources.length; i += 1) {
+    if (reused[i] !== null) continue
     if (!/\p{L}/u.test(masked[i].masked.replace(/\[\[\d+\]\]/g, ''))) {
       results[i] = masked[i].masked
       continue
@@ -142,6 +170,10 @@ async function translateFile(sourceJson, googleCode, report) {
 
   const final = []
   for (let i = 0; i < sources.length; i += 1) {
+    if (reused[i] !== null) {
+      final.push(reused[i])
+      continue
+    }
     let restored = results[i] == null ? null : unmask(results[i], masked[i].tokens)
     if (restored === null) {
       // Batched context sometimes reshuffles tokens - one retry on its own before giving up.
@@ -163,6 +195,7 @@ async function main() {
   const onlyCodes = arg('only')?.split(',')
   const onlyNs = arg('ns')?.split(',')
   const concurrency = Number(arg('concurrency') || 3)
+  const fill = process.argv.includes('--fill')
 
   const { LANGUAGES } = await import(pathToFileURL(path.join(FRONTEND_ROOT, 'src', 'i18n', 'languages.js')))
   const namespaces = fs.readdirSync(SOURCE_DIR)
@@ -176,7 +209,7 @@ async function main() {
   const jobs = []
   for (const language of LANGUAGES) {
     if (language.code === 'en' || (onlyCodes && !onlyCodes.includes(language.code))) continue
-    const pending = namespaces.filter((ns) => !fs.existsSync(path.join(LOCALES_DIR, language.code, `${ns}.json`)))
+    const pending = namespaces.filter((ns) => fill || !fs.existsSync(path.join(LOCALES_DIR, language.code, `${ns}.json`)))
     if (pending.length > 0) jobs.push({ language, pending })
   }
   console.log(`${jobs.reduce((n, j) => n + j.pending.length, 0)} file(s) to generate across ${jobs.length} language(s)`)
@@ -190,13 +223,19 @@ async function main() {
       next += 1
       const googleCode = GOOGLE_CODES[language.code] || language.code
       for (const ns of pending) {
-        const report = { keptEnglish: 0 }
+        const report = { keptEnglish: 0, reused: 0 }
+        const outFile = path.join(LOCALES_DIR, language.code, `${ns}.json`)
         try {
-          const translated = await translateFile(sources[ns], googleCode, report)
-          const outFile = path.join(LOCALES_DIR, language.code, `${ns}.json`)
+          const existing = fs.existsSync(outFile) ? JSON.parse(fs.readFileSync(outFile, 'utf-8')) : null
+          if (existing && collectStrings(sources[ns]).length === 0) continue
+          const translated = await translateFile(sources[ns], googleCode, report, fill ? existing : null)
+          if (existing && JSON.stringify(existing) === JSON.stringify(translated)) continue
           fs.mkdirSync(path.dirname(outFile), { recursive: true })
           fs.writeFileSync(outFile, JSON.stringify(translated, null, 2) + '\n', 'utf-8')
-          const note = report.keptEnglish ? ` (${report.keptEnglish} string(s) kept in English)` : ''
+          const notes = []
+          if (report.reused) notes.push(`${report.reused} existing kept`)
+          if (report.keptEnglish) notes.push(`${report.keptEnglish} string(s) kept in English`)
+          const note = notes.length ? ` (${notes.join(', ')})` : ''
           console.log(`[done] ${language.code}/${ns}${note}`)
         } catch (err) {
           if (err.unsupported) {

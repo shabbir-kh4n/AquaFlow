@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ondersteuningskaartjies",
     "subtitle": "Ondersteun kaartjies en bekommernisse wat deur inwoners en gemeenskapsadministrateurs geopper word, platformwyd."
+  },
+  "profile": {
+    "accountTitle": "Rekening",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Verander wagwoord",
+    "loadError": "Kon nie jou profiel laai nie. Probeer asseblief weer.",
+    "fields": {
+      "fullName": "Volle naam",
+      "email": "E-pos",
+      "role": "Rol",
+      "roleValue": "Stelsel administrateur"
+    }
   }
 }

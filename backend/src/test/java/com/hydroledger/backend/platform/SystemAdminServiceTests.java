@@ -24,6 +24,7 @@ import org.springframework.test.util.ReflectionTestUtils;
 import com.hydroledger.backend.dto.CommunityDetailResponse;
 import com.hydroledger.backend.dto.CommunitySummaryResponse;
 import com.hydroledger.backend.dto.SystemStatusResponse;
+import com.hydroledger.backend.entity.Announcement;
 import com.hydroledger.backend.entity.Apartment;
 import com.hydroledger.backend.entity.CommunityAdmin;
 import com.hydroledger.backend.entity.CommunityAdminStatus;
@@ -32,6 +33,7 @@ import com.hydroledger.backend.entity.Resident;
 import com.hydroledger.backend.entity.WaterMeter;
 import com.hydroledger.backend.exception.ApiException;
 import com.hydroledger.backend.repository.AlertConfigRepository;
+import com.hydroledger.backend.repository.AnnouncementRepository;
 import com.hydroledger.backend.repository.ApartmentRepository;
 import com.hydroledger.backend.repository.BillingCycleRepository;
 import com.hydroledger.backend.repository.BulkWaterPurchaseRepository;
@@ -91,6 +93,9 @@ class SystemAdminServiceTests {
 
     @Mock
     private SupportTicketRepository supportTicketRepository;
+
+    @Mock
+    private AnnouncementRepository announcementRepository;
 
     @Mock
     private DataSource dataSource;
@@ -179,12 +184,15 @@ class SystemAdminServiceTests {
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
         when(supportTicketRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of());
+        Announcement announcement = Announcement.builder().id(5L).apartment(apartment).title("Notice").body("Body").build();
+        when(announcementRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of(announcement));
 
         systemAdminService.deleteCommunityAdmin(1L);
 
         InOrder inOrder = Mockito.inOrder(waterUsageReadingRepository, billingCycleRepository,
                 supportTicketRepository, passwordSetupTokenRepository, pushSubscriptionRepository, residentRepository,
-                waterMeterRepository, householdRepository, apartmentRepository, communityAdminRepository);
+                waterMeterRepository, householdRepository, announcementRepository, apartmentRepository,
+                communityAdminRepository);
 
         inOrder.verify(waterUsageReadingRepository).deleteByMeterIn(List.of(meter));
         inOrder.verify(billingCycleRepository).deleteAll(List.of());
@@ -198,6 +206,8 @@ class SystemAdminServiceTests {
         inOrder.verify(residentRepository).deleteAll(List.of(resident));
         inOrder.verify(waterMeterRepository).deleteAll(List.of(meter));
         inOrder.verify(householdRepository).deleteAll(List.of(household));
+        // Announcements have an FK to apartments (no ON DELETE CASCADE) - must be deleted before the apartment.
+        inOrder.verify(announcementRepository).deleteAll(List.of(announcement));
         inOrder.verify(apartmentRepository).delete(apartment);
         inOrder.verify(communityAdminRepository).delete(admin);
     }
@@ -215,6 +225,7 @@ class SystemAdminServiceTests {
         when(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment)).thenReturn(List.of());
         when(billingCycleRepository.findByApartmentOrderByPeriodMonthDesc(apartment)).thenReturn(List.of());
         when(supportTicketRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of());
+        when(announcementRepository.findByApartmentOrderByCreatedAtDesc(apartment)).thenReturn(List.of());
 
         systemAdminService.deleteCommunityAdmin(1L);
 

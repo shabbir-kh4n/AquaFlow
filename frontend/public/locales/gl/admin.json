@@ -25,7 +25,6 @@
     "title": "{{community}} Panel de control do apartamento",
     "titleFallback": "O panel de control do teu apartamento",
     "subtitle": "Resumo operativo para a subcontaxe de auga e consumo doméstico.",
-    "comingSoon": "Próximamente",
     "manageCommunity": "Xestionar a comunidade",
     "noUsageReadings": "Aínda non se rexistraron lecturas de uso.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Último mes rexistrado ({{month}})",
       "noReadingsYet": "Aínda non se rexistraron lecturas",
       "pendingAlerts": "Alertas pendentes",
-      "anomalyPreview": "Vista previa da detección de anomalías, aínda non dispoñible"
+      "reviewAlerts": "Alertas activas de fuga / uso: revisa agora",
+      "noActiveAlerts": "Non hai alertas activas"
     },
     "actions": {
       "label": "Accións administrativas rápidas",
       "uploadReadings": "Cargar lecturas de contadores",
       "configureTariffs": "Configurar Tarifas",
-      "reportsNotBuilt": "Os informes aínda non están construídos",
       "downloadReports": "Descargar informes do sistema"
     },
     "chart": {
       "title": "Comparación do consumo mensual (kL)",
       "subtitle": "Últimos {{months}} meses: consumo obxectivo versus consumo real.",
-      "targetSeries": "Obxectivo (vista previa)",
       "actualSeries": "Real"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Non se puido gardar o teu perfil. Téntao de novo.",
     "apartmentSaveError": "Non se puideron gardar os detalles do apartamento. Téntao de novo.",
     "specsTitle": "Especificacións do perfil",
-    "photoUnavailable": "A carga de fotos aínda non está dispoñible",
-    "changePhoto": "Cambiar foto",
-    "deletePhoto": "Eliminar",
-    "photoHint": "JPG ou PNG. Tamaño máximo 2 MB.",
     "saveProfile": "Gardar o perfil",
     "apartmentTitle": "Detalles do apartamento",
     "saveApartment": "Garda os detalles do apartamento",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "A autenticación de dous factores aínda non está dispoñible",
       "twoFactorAria": "Autenticación de dous factores (só vista previa)",
       "sessionsLabel": "Sesións de administración activas",
-      "sessionsEmpty": "O seguimento da sesión aínda non está dispoñible. Esta é unha vista previa do próximo deseño."
-    }
+      "sessionsEmpty": "O seguimento da sesión aínda non está dispoñible. Esta é unha vista previa do próximo deseño.",
+      "previewNote": "Só vista previa: a autenticación de dous factores e o seguimento de sesións aínda non están dispoñibles."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Cambiar contrasinal"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tickets de residentes",
       "subtitle": "Os tickets de apoio e as preocupacións que os residentes na túa comunidade dirixíronche."
+    }
+  },
+  "reports": {
+    "loadError": "Non se puido cargar o informe da comunidade. Téntao de novo.",
+    "pdfError": "Non se puido descargar o informe PDF. Téntao de novo.",
+    "loading": "Cargando informe...",
+    "empty": "Non hai fogares con datos neste intervalo.",
+    "noMatch": "Ningún fogar coincide con \"{{search}}\".",
+    "searchPlaceholder": "Filtrar por casa, residente ou número de contador.",
+    "downloadCsv": "Descargar CSV",
+    "downloadPdf": "Descargar PDF Resumo",
+    "downloadingPdf": "Preparando PDF…",
+    "ranges": {
+      "threeMonths": "Últimos 3 meses",
+      "sixMonths": "Últimos 6 meses",
+      "twelveMonths": "Últimos 12 meses",
+      "custom": "Rango personalizado"
+    },
+    "customRange": {
+      "from": "Desde",
+      "to": "Para",
+      "hint": "Escolle un mes de inicio e de finalización para cargar o informe."
+    },
+    "cards": {
+      "totalConsumption": "Consumo total",
+      "households": "En {{total}} fogares",
+      "avgMonthly": "Consumo medio mensual",
+      "communityWide": "En toda a comunidade, por mes",
+      "billed": "Facturado",
+      "finalizedOnly": "Só ciclos finalizados e arquivados",
+      "paid": "Pagado",
+      "invoices": "{{total}} facturas emitidas",
+      "outstanding": "Sobresaliente",
+      "unpaidInvoices": "{{total}} facturas sen pagar",
+      "collectionRate": "Taxa de recollida"
+    },
+    "costs": {
+      "title": "Custos vs ingresos",
+      "commonArea": "Cargas de zona común facturadas",
+      "bulkCost": "Custo de compra de auga a granel",
+      "bulkVolume": "Auga comprada a granel",
+      "bulkCount": "{{total}} compras",
+      "billedMinusBulk": "Ingresos facturados menos custo masivo",
+      "note": "As compras masivas fanse un seguimento para obter visibilidade dos custos e non se facturan directamente aos fogares."
+    },
+    "top": {
+      "title": "Principais consumidores",
+      "empty": "Non se rexistraron consumos nesta franxa."
+    },
+    "charts": {
+      "consumptionTitle": "Consumo Mensual",
+      "consumptionSeries": "Consumo",
+      "billingTitle": "Facturado vs Pagado vs. Custo masivo",
+      "billedSeries": "Facturado",
+      "paidSeries": "Pagado",
+      "bulkSeries": "Custo de compra a granel",
+      "empty": "Non hai datos para este intervalo."
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "toggleDirection": "Alterna a dirección de ordenación",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Casa",
+      "resident": "Residente",
+      "meter": "Contador",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Media mensual kL",
+      "billed": "Facturado",
+      "paid": "Pagado",
+      "outstanding": "Sobresaliente"
+    }
+  },
+  "announcements": {
+    "loadError": "Non se puideron cargar os anuncios. Téntao de novo.",
+    "removeError": "Non se puido eliminar este anuncio. Téntao de novo.",
+    "loading": "Cargando anuncios...",
+    "empty": "Aínda non hai anuncios. Fai clic en \"Novo anuncio\" para notificar aos teus residentes.",
+    "count": "Anuncios: {{total}}",
+    "newButton": "+ Novo anuncio",
+    "pinned": "Fixado",
+    "expired": "Caducou",
+    "postedAt": "Publicado o {{date}}",
+    "updatedAt": "Editado {{date}}",
+    "expiresAt": "Caduca o {{date}}",
+    "category": {
+      "general": "Xeral",
+      "maintenance": "Mantemento",
+      "waterSupply": "Abastecemento de auga",
+      "billing": "Facturación",
+      "urgent": "Urxente"
+    },
+    "form": {
+      "addTitle": "Novo Anuncio",
+      "editTitle": "Editar anuncio",
+      "addSubtitle": "Os residentes ven isto na súa páxina de notificacións e calquera persoa que teña activadas as notificacións push recibe unha notificación de inmediato.",
+      "editSubtitle": "As edicións actualizan o anuncio no seu lugar. Os veciños non son avisados ​​de novo.",
+      "title": "Título",
+      "category": "Categoría",
+      "expiresAt": "Caduca (opcional)",
+      "body": "Mensaxe",
+      "pinned": "Fixar na parte superior dos anuncios dos veciños",
+      "requiredFields": "Introduce un título e unha mensaxe.",
+      "saveError": "Non se puido gardar este anuncio. Comprobe os detalles.",
+      "publish": "Publicar"
+    },
+    "confirm": {
+      "title": "Queres eliminar o anuncio?",
+      "body": "\"{{title}}\" eliminarase para todos os residentes. Isto non se pode desfacer.",
+      "delete": "Eliminar",
+      "deleting": "Eliminando…"
     }
   }
 }

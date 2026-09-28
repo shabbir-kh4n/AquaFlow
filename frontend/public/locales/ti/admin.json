@@ -25,7 +25,6 @@
     "title": "{{community}} ኣፓርታማ ዳሽቦርድ",
     "titleFallback": "ናይ ኣፓርታማኹም ዳሽቦርድ",
     "subtitle": "ጽማቕ ስርሒት ንኡስ ቆጻሪ ዩቲሊቲ ማይን ሃልኪ ገዛውትን።",
-    "comingSoon": "ኣብዚ ቐረባ እዋን",
     "manageCommunity": "ማሕበረሰብ ምምሕዳር",
     "noUsageReadings": "ክሳብ ሕጂ ዝኾነ ናይ ኣጠቓቕማ ንባባት ኣይተመዝገበን።",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "ናይ መወዳእታ ዝተመዝገበ ወርሒ ({{month}})",
       "noReadingsYet": "ክሳብ ሕጂ ዝተመዝገበ ንባባት የለን",
       "pendingAlerts": "ኣብ ምጽባይ ዘሎ መጠንቀቕታታት",
-      "anomalyPreview": "ቅድመ ምርኢት ምፍላጥ ኣኖማሊ — ገና ኣይተረኽበን።"
+      "reviewAlerts": "ንጡፍ ምፍሳስ / ኣጠቓቕማ መጠንቀቕታታት — ሕጂ ርአ",
+      "noActiveAlerts": "ንጡፍ መጠንቀቕታ የለን"
     },
     "actions": {
       "label": "ቅልጡፍ ምምሕዳራዊ ስጉምትታት",
       "uploadReadings": "ንባባት ሜትሮ ምጽዓን።",
       "configureTariffs": "ታሪፍ ምውቃር",
-      "reportsNotBuilt": "ሪፖርትስ ገና ኣይተሃንጸን።",
       "downloadReports": "ጸብጻባት ስርዓት ኣውርድ"
     },
     "chart": {
       "title": "ወርሓዊ ምውድዳር ሃልኪ (kL)",
       "subtitle": "ዝሓለፉ {{months}} ኣዋርሕ: ዕላማ ኣንጻር ጭቡጥ ሃልኪ።",
-      "targetSeries": "ዕላማ (ቅድመ-ምርኢት)",
       "actualSeries": "ክዉን"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "ፕሮፋይልካ ክዕቅቦ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
     "apartmentSaveError": "ዝርዝር ኣፓርታማታት ክዕቅብ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
     "specsTitle": "ስፔሲፊኬሽን ፕሮፋይል",
-    "photoUnavailable": "ስእሊ ምጽዓን ገና ኣይተረኽበን።",
-    "changePhoto": "ስእሊ ምቕያር",
-    "deletePhoto": "ምድምሳስ",
-    "photoHint": "ጀፒጂ ወይ ፒኤንጂ። ዝለዓለ ስፍሓት 2MB እዩ።",
     "saveProfile": "ፕሮፋይል ምዕቃብ",
     "apartmentTitle": "ዝርዝር ኣፓርታማታት",
     "saveApartment": "ዝርዝር ኣፓርታማ ዕቅብ",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "ክልተ ረቛሒታት ዘለዎ ምርግጋጽ ምርግጋጽ ገና ኣይተረኽበን።",
       "twoFactorAria": "ክልተ ረቛሒታት ዘለዎ ምርግጋጽ ምርግጋጽ (ቅድመ-ምርኢት ጥራይ)",
       "sessionsLabel": "ንጡፍ ናይ ኣድሚን ክፍለ ግዜታት",
-      "sessionsEmpty": "ምክትታል ክፍለ ግዜ ገና ኣይተረኽበን — እዚ ቅድመ ምርኢት ናይቲ ዝመጽእ ኣቀማምጣ እዩ።"
-    }
+      "sessionsEmpty": "ምክትታል ክፍለ ግዜ ገና ኣይተረኽበን — እዚ ቅድመ ምርኢት ናይቲ ዝመጽእ ኣቀማምጣ እዩ።",
+      "previewNote": "ቅድመ-ምርኢት ጥራይ: ክልተ-ረቛሒታት ምርግጋጽን ክፍለ-ግዜ ምክትታልን ገና ኣይተረኽበን።"
+    },
+    "avatarLabel": "ኣቫታር",
+    "passwordTitle": "ፓስዎርድ ምቕያር"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "ነባሪ ትኬት",
       "subtitle": "ናይ ደገፍ ትኬታትን ስክፍታታትን ነበርቲ ማሕበረሰብኩም ዘቕረቡልኩም።"
+    }
+  },
+  "reports": {
+    "loadError": "ጸብጻብ ማሕበረሰብ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "pdfError": "ጸብጻብ PDF ከውርድ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "ጸብጻብ ይጽዕን ኣሎ...",
+    "empty": "ኣብዚ ደረጃ ዳታ ዘለዎም ስድራቤታት የለዉን።",
+    "noMatch": "ምስ \"{{search}}\" ዝሰማማዕ ስድራቤታት የለን።",
+    "searchPlaceholder": "ብገዛ፣ ነባሪ፣ ወይ ቆፃሪ ቁ.",
+    "downloadCsv": "ምውራድ CSV",
+    "downloadPdf": "Download PDF ጽማቕ ትሕዝቶ",
+    "downloadingPdf": "ምድላው PDF...",
+    "ranges": {
+      "threeMonths": "ዝሓለፉ 3 ኣዋርሕ",
+      "sixMonths": "ዝሓለፉ 6 ኣዋርሕ",
+      "twelveMonths": "ዝሓለፉ 12 ኣዋርሕ",
+      "custom": "ብሕታዊ ደረጃ"
+    },
+    "customRange": {
+      "from": "ካብ",
+      "to": "ናብ",
+      "hint": "ነቲ ጸብጻብ ንምጽዓን ክልቲኡ መጀመርታን መወዳእታን ወርሒ ምረጽ።"
+    },
+    "cards": {
+      "totalConsumption": "ጠቕላላ ሃልኪ",
+      "households": "ኣብ ስግር {{total}} ስድራቤታት",
+      "avgMonthly": "ማእከላይ ወርሓዊ ሃልኪ",
+      "communityWide": "ብደረጃ ማሕበረሰብ፣ ኣብ ወርሒ",
+      "billed": "ሕሳብ ዝተኸፍለ",
+      "finalizedOnly": "Finalized & archived ዑደታት ጥራይ",
+      "paid": "ተኸፊሉ",
+      "invoices": "{{total}} ፋክቱራት ተዋሂቡ።",
+      "outstanding": "ብሉፅ",
+      "unpaidInvoices": "{{total}} ዘይተኸፍለ ፋክቱራት",
+      "collectionRate": "መጠን ምእካብ"
+    },
+    "costs": {
+      "title": "ወጻኢታት ኣንጻር እቶት።",
+      "commonArea": "ናይ ሓባር-ከባቢ ክፍሊታት ሕሳብ",
+      "bulkCost": "ብጅምላ ማይ ዕድጊ ወጻኢታት",
+      "bulkVolume": "ብጅምላ ማይ ዝተዓደገ",
+      "bulkCount": "{{total}} ዕድጊታት",
+      "billedMinusBulk": "ዝተሓተተ እቶት ካብ ጅምላ ወጻኢታት ኣጉዲልካ",
+      "note": "ብጅምላ ዝግበር ዕድጊታት ንዋጋ ርኡይነት ይከታተል እምበር ብቐጥታ ንስድራቤታት ኣይሕተትን እዩ።"
+    },
+    "top": {
+      "title": "ላዕለዎት ተጠቀምቲ",
+      "empty": "ኣብዚ ደረጃ ዝተመዝገበ ሃልኪ የለን።"
+    },
+    "charts": {
+      "consumptionTitle": "ወርሓዊ ሃልኪ",
+      "consumptionSeries": "ምህላኽ",
+      "billingTitle": "ቢልድ ኣንጻር ዝተኸፍለ ኣንጻር ጅምላ ወጻኢታት",
+      "billedSeries": "ሕሳብ ዝተኸፍለ",
+      "paidSeries": "ተኸፊሉ",
+      "bulkSeries": "ብጅምላ ዕድጊ ወጻኢታት",
+      "empty": "ነዚ ደረጃ ዝምልከት ዳታ የለን።"
+    },
+    "sort": {
+      "label": "ብስርዓት",
+      "toggleDirection": "ኣንፈት ምድላው ምቕያር",
+      "asc": "↑ ኣስክ",
+      "desc": "↓ መግለጺ"
+    },
+    "table": {
+      "house": "ገዛ",
+      "resident": "ነባሪ",
+      "meter": "ሜትሮ",
+      "totalKl": "ጠቕላላ kL።",
+      "avgMonthlyKl": "ማእከላይ ወርሓዊ kL",
+      "billed": "ሕሳብ ዝተኸፍለ",
+      "paid": "ተኸፊሉ",
+      "outstanding": "ብሉፅ"
+    }
+  },
+  "announcements": {
+    "loadError": "ምልክታታት ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "removeError": "ነዚ ምልክታ ክስረዝ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "loading": "ምልክታታት ኣብ ምጽዓን...",
+    "empty": "ዛጊት ዝኾነ ምልክታ የለን። ንነበርትኹም ንምሕባር \"ሓድሽ ምልክታ\" ጠውቑ።",
+    "count": "ምልክታታት፡ {{total}}",
+    "newButton": "+ ሓድሽ ምልክታ",
+    "pinned": "ፒን ተገይሩሉ።",
+    "expired": "ኣገልግሎቱ ዝወደአ",
+    "postedAt": "ተለጢፉ {{date}}",
+    "updatedAt": "ዝተኣርመ {{date}}።",
+    "expiresAt": "ግዜኡ ይውዳእ {{date}}።",
+    "category": {
+      "general": "ሓፈሻዊ",
+      "maintenance": "ፅገና",
+      "waterSupply": "ቀረብ ማይ",
+      "billing": "ሕሳብ ምኽፋል",
+      "urgent": "ህፁፅ"
+    },
+    "form": {
+      "addTitle": "ሓድሽ ምልክታ",
+      "editTitle": "ምልክታ ኣርትዕ",
+      "addSubtitle": "ነበርቲ ነዚ ኣብ ገጽ መተሓሳሰቢታቶም ይርእይዎ፡ ዝኾነ ሰብ ድፍኢት መፍለጢታት ኣንቀሳቒሱ ብኡንብኡ ይሕበር።",
+      "editSubtitle": "ኣርትዖታት ነቲ ምልክታ ኣብ ቦታኡ የሐድሶ። ነበርቲ ዳግማይ ኣይሕበሩን።",
+      "title": "ርእሲ",
+      "category": "ምደባ",
+      "expiresAt": "ግዜኡ ይውዳእ (ኣማራጺ)",
+      "body": "መልእኽቲ",
+      "pinned": "ኣብ ላዕሊ ናይ ነበርቲ ምልክታታት ፒን ግበር",
+      "requiredFields": "ኣርእስትን መልእኽትን ኣእትዉ።",
+      "saveError": "ነዚ ምልክታ ከድሕኖ ኣይከኣለን። በጃኹም ዝርዝር ሓበሬታ ርኣዩ።",
+      "publish": "ምሕታም"
+    },
+    "confirm": {
+      "title": "ምልክታ ምድምሳስ?",
+      "body": "\"{{title}}\" ንኹሎም ነበርቲ ክእለ እዩ። እዚ ክምለስ ኣይክእልን እዩ።",
+      "delete": "ምድምሳስ",
+      "deleting": "ምድምሳስ..."
     }
   }
 }

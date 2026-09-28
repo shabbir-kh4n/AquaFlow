@@ -1,23 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Cell, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
-import { getMyDashboard, getMyUsageHistory } from '../../api/residentDashboardApi'
+import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { getMyDashboard, getMyUsageComparison, getMyUsageHistory } from '../../api/residentDashboardApi'
 import { getBillEstimate } from '../../api/tariffApi'
-import { getMyInvoices } from '../../api/billingApi'
+import { getMyInvoices, payAllOutstanding } from '../../api/billingApi'
 import { getRecommendations } from '../../api/recommendationApi'
 import { Icon } from '../../components/resident/Icon'
 import { useAuth } from '../../context/useAuth'
-
-// Usage doesn't yet break down by fixture, and the billing engine (Phase 2)
-// isn't built — these mirror the Tariff Plans page's approach of previewing
-// the intended UI with representative sample data until that data exists.
-const USAGE_BREAKDOWN = [
-  { nameKey: 'home.breakdown.bathroom', value: 45, color: 'var(--afr-chart-1)' },
-  { nameKey: 'home.breakdown.kitchen', value: 35, color: 'var(--afr-chart-2)' },
-  { nameKey: 'home.breakdown.garden', value: 15, color: 'var(--afr-chart-3)' },
-  { nameKey: 'home.breakdown.other', value: 5, color: 'var(--afr-chart-5)' },
-]
+import RazorpaySimulatorModal from './RazorpaySimulatorModal'
 
 function monthLabel(date, locale) {
   return new Date(date).toLocaleDateString(locale, { month: 'short', day: 'numeric' })
@@ -35,7 +26,9 @@ function ResidentHome() {
   const [dashboard, setDashboard] = useState(null)
   const [readings, setReadings] = useState([])
   const [billEstimate, setBillEstimate] = useState(null)
-  const [latestInvoice, setLatestInvoice] = useState(null)
+  const [invoices, setInvoices] = useState([])
+  const [comparison, setComparison] = useState([])
+  const [payingAll, setPayingAll] = useState(false)
   const [tips, setTips] = useState([])
 
   useEffect(() => {
@@ -55,9 +48,14 @@ function ResidentHome() {
         // No tariff configured yet or no readings — the bill panel falls back to '--'.
       })
     getMyInvoices()
-      .then((invoices) => setLatestInvoice(invoices[0] || null))
+      .then(setInvoices)
       .catch(() => {
         // No finalized invoices yet — the billing cycle panel falls back to the live estimate.
+      })
+    getMyUsageComparison()
+      .then(setComparison)
+      .catch(() => {
+        // No comparison data — the savings stat shows its empty state.
       })
   }, [])
 
@@ -75,6 +73,29 @@ function ResidentHome() {
       cancelled = true
     }
   }, [i18n.resolvedLanguage])
+
+  const latestInvoice = invoices[0] ?? null
+  const unpaidInvoices = invoices.filter((inv) => !inv.paid)
+  const outstandingTotal = unpaidInvoices.reduce((sum, inv) => sum + Number(inv.totalAmount), 0)
+
+  function handlePayAllSuccess() {
+    return payAllOutstanding().then((paid) => {
+      const byId = new Map(paid.map((inv) => [inv.id, inv]))
+      setInvoices((prev) => prev.map((inv) => byId.get(inv.id) ?? inv))
+      setPayingAll(false)
+    })
+  }
+
+  // Latest month with comparison data: household vs apartment average (positive = saved water).
+  const savings = useMemo(() => {
+    const latest = comparison.slice().sort((a, b) => a.month.localeCompare(b.month)).at(-1)
+    if (!latest) return null
+    const household = Number(latest.household)
+    const average = Number(latest.apartmentAverage)
+    if (!(average > 0)) return null
+    const diffKl = average - household
+    return { month: latest.month, household, average, diffKl, percent: Math.abs((diffKl / average) * 100) }
+  }, [comparison])
 
   const communityName = dashboard?.communityName ?? user?.communityName
   const hasReading = dashboard?.latestReadingValue != null && dashboard?.latestReadingDate != null
@@ -115,7 +136,6 @@ function ResidentHome() {
     return highest ? t('home.billing.tierLabel', { tier: highest.tierOrder }) : '--'
   }, [billEstimate, latestInvoice, t])
 
-  const usageBreakdown = USAGE_BREAKDOWN.map((entry) => ({ ...entry, name: t(entry.nameKey) }))
   const firstName = user?.fullName?.split(' ')[0]
 
   return (
@@ -128,9 +148,6 @@ function ResidentHome() {
           <h2>{t('home.welcome.title')}</h2>
           <p>{t('home.welcome.subtitle')}</p>
         </div>
-        <button type="button" className="af-resident__badges-btn" disabled title={t('home.comingSoon')}>
-          <Icon name="award" /> {t('home.welcome.viewBadges')}
-        </button>
       </div>
 
       <div className="af-resident__stats">
@@ -155,12 +172,33 @@ function ResidentHome() {
         </article>
         <article className="af-resident__stat">
           <p>{t('home.stats.savings')}</p>
-          <strong className="af-resident__good">{t('home.stats.savingsValue', { percent: 12 })}</strong>
-          <span className="af-resident__muted af-resident__muted--pending">{t('home.stats.savingsPreview')}</span>
+          {savings ? (
+            <>
+              <strong className={savings.diffKl >= 0 ? 'af-resident__good' : 'af-resident__bad'}>
+                {Math.abs(savings.diffKl) < 0.05
+                  ? t('home.stats.savingsEqual')
+                  : savings.diffKl > 0
+                    ? t('home.stats.savingsLess', { percent: savings.percent.toFixed(0) })
+                    : t('home.stats.savingsMore', { percent: savings.percent.toFixed(0) })}
+              </strong>
+              <span className="af-resident__muted">
+                {t('home.stats.savingsDetail', {
+                  household: savings.household.toFixed(1),
+                  average: savings.average.toFixed(1),
+                  month: yearMonthLabel(savings.month, locale),
+                })}
+              </span>
+            </>
+          ) : (
+            <>
+              <strong>--</strong>
+              <span className="af-resident__muted">{t('home.stats.savingsNoData')}</span>
+            </>
+          )}
         </article>
       </div>
 
-      <div className="af-resident__lower-grid">
+      <div className="af-resident__lower-grid af-resident__lower-grid--single">
         <section className="af-resident__panel">
           <div className="af-resident__panel-heading">
             <div>
@@ -184,31 +222,6 @@ function ResidentHome() {
           )}
         </section>
 
-        <section className="af-resident__panel">
-          <p className="af-resident__eyebrow">{t('home.breakdown.eyebrow')}</p>
-          <h3>{t('home.breakdown.title')}</h3>
-          <div className="af-resident__donut">
-            <ResponsiveContainer width="100%" height={160}>
-              <PieChart>
-                <Pie data={usageBreakdown} dataKey="value" nameKey="name" innerRadius={48} outerRadius={70} paddingAngle={2}>
-                  {usageBreakdown.map((entry) => (
-                    <Cell key={entry.nameKey} fill={entry.color} />
-                  ))}
-                </Pie>
-                <Tooltip formatter={(v, n) => [`${v}%`, n]} contentStyle={{ borderRadius: 10, border: '1px solid var(--afr-border)', fontSize: 12 }} />
-              </PieChart>
-            </ResponsiveContainer>
-          </div>
-          <ul className="af-resident__legend">
-            {usageBreakdown.map((entry) => (
-              <li key={entry.nameKey}>
-                <span className="af-resident__legend-dot" style={{ background: entry.color }} />
-                <span>{entry.name}</span>
-                <strong>{entry.value}%</strong>
-              </li>
-            ))}
-          </ul>
-        </section>
       </div>
 
       <div className="af-resident__lower-grid">
@@ -231,9 +244,11 @@ function ResidentHome() {
             </div>
             <div><span>{t('home.billing.tierPriceLevel')}</span><strong className="af-resident__warn">{currentTierLabel}</strong></div>
             <div>
-              <span>{latestInvoice ? t('home.billing.commonArea') : t('home.billing.commonAreaPreview')}</span>
+              <span>{latestInvoice ? t('home.billing.commonArea') : t('home.billing.commonAreaEstimate')}</span>
               <strong>
-                {latestInvoice ? `₹${Number(latestInvoice.commonAreaAmount).toLocaleString('en-IN')}` : '₹240'}
+                {latestInvoice
+                  ? `₹${Number(latestInvoice.commonAreaAmount).toLocaleString('en-IN')}`
+                  : billEstimate ? `₹${Number(billEstimate.commonAreaAmount).toLocaleString('en-IN')}` : '--'}
               </strong>
             </div>
             <div>
@@ -256,7 +271,13 @@ function ResidentHome() {
               </div>
             )}
           </div>
-          <button type="button" className="af-resident__cta" disabled title={t('home.billing.payUnavailable')}>{t('home.billing.payPreview')}</button>
+          {unpaidInvoices.length > 0 && (
+            <button type="button" className="af-resident__cta" onClick={() => setPayingAll(true)}>
+              {t('home.billing.payOutstanding', {
+                amount: outstandingTotal.toLocaleString('en-IN', { minimumFractionDigits: 2 }),
+              })}
+            </button>
+          )}
         </section>
 
         <section className="af-resident__panel">
@@ -283,6 +304,15 @@ function ResidentHome() {
           )}
         </section>
       </div>
+
+      {payingAll && (
+        <RazorpaySimulatorModal
+          amount={outstandingTotal}
+          description={t('home.billing.payAllDescription', { number: unpaidInvoices.length })}
+          onClose={() => setPayingAll(false)}
+          onSuccess={handlePayAllSuccess}
+        />
+      )}
 
       {communityName && (
         <p className="af-resident__footnote">{t('home.community', { name: communityName })}</p>

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { getAdminProfile, getApartment, updateAdminProfile, updateApartment } from '../../api/profileApi'
+import AvatarPicker from '../../components/AvatarPicker'
+import ChangePasswordForm from '../../components/ChangePasswordForm'
 import '../../components/AuthForm.css'
 import './AdminProfile.css'
 
@@ -72,13 +74,6 @@ function AdminProfile() {
     }
   }
 
-  const initials = (profile?.fullName || user?.fullName || 'Admin')
-    .split(' ')
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join('')
-    .toUpperCase()
-
   return (
     <div className="af-profile__layout">
       <aside className="af-profile__tabs">
@@ -105,16 +100,13 @@ function AdminProfile() {
         <section className="af-profile__panel">
           <h3>{t('profile.specsTitle')}</h3>
           <div className="af-profile__photo-row">
-            <span className="af-profile__avatar">{initials}</span>
-            <div className="af-profile__photo-actions">
-              <button type="button" className="af-btn af-btn--cyan" disabled title={t('profile.photoUnavailable')}>
-                {t('profile.changePhoto')}
-              </button>
-              <button type="button" className="af-btn af-btn--outline" disabled title={t('profile.photoUnavailable')}>
-                {t('profile.deletePhoto')}
-              </button>
-              <p className="af-profile__hint">{t('profile.photoHint')}</p>
-            </div>
+            <p className="af-profile__sessions-label">{t('profile.avatarLabel')}</p>
+            <AvatarPicker
+              role="ADMIN"
+              value={profile ? profile.avatarKey : user?.avatarKey ?? null}
+              name={profile?.fullName || user?.fullName}
+              onSaved={(avatarKey) => setProfile((prev) => (prev ? { ...prev, avatarKey } : prev))}
+            />
           </div>
 
           <form onSubmit={handleProfileSubmit}>
@@ -216,7 +208,13 @@ function AdminProfile() {
 
       <aside className="af-profile__side">
         <section className="af-profile__panel">
+          <h3>{t('profile.passwordTitle')}</h3>
+          <ChangePasswordForm />
+        </section>
+
+        <section className="af-profile__panel">
           <h3>{t('profile.security.title')}</h3>
+          <p className="af-profile__preview-note">{t('profile.security.previewNote')}</p>
           <div className="af-profile__security-row">
             <div>
               <strong>{t('profile.security.twoFactor')}</strong>

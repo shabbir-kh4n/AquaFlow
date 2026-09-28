@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard na Apartment",
     "titleFallback": "Dashboard na Apartment",
     "subtitle": "Takaitacciyar aiki don ƙananan mitoci masu amfani da ruwa da amfanin gida.",
-    "comingSoon": "Ana zuwa nan ba da jimawa ba",
     "manageCommunity": "Sarrafa Al'umma",
     "noUsageReadings": "Ba a yi rikodin karatun amfani ba tukuna.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Latest recorded month ({{month}})",
       "noReadingsYet": "Ba a yi rikodin karatun ba tukuna",
       "pendingAlerts": "Faɗakarwar da ake jira",
-      "anomalyPreview": "Samfurin gano anomaly - har yanzu ba a samu ba"
+      "reviewAlerts": "Faɗakarwar leak / amfani mai aiki - sake dubawa yanzu",
+      "noActiveAlerts": "Babu faɗakarwa mai aiki"
     },
     "actions": {
       "label": "Ayyukan Gudanarwa na gaggawa",
       "uploadReadings": "Loda Karatun Mita",
       "configureTariffs": "Sanya Tariffs",
-      "reportsNotBuilt": "Har yanzu ba a gina rahotanni ba",
       "downloadReports": "Zazzage Rahoton Tsarin"
     },
     "chart": {
       "title": "Monthly Consumption Comparison (kL)",
       "subtitle": "Last {{months}} months: target vs. actual consumption.",
-      "targetSeries": "Target (samfoti)",
       "actualSeries": "Ainihin"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ba za a iya ajiye bayanin martabarku ba. Da fatan za a sake gwadawa.",
     "apartmentSaveError": "An kasa ajiye bayanan gida. Da fatan za a sake gwadawa.",
     "specsTitle": "Bayanan Bayanin Bayani",
-    "photoUnavailable": "Ba a samun ɗora hoto tukuna",
-    "changePhoto": "Canja Hoto",
-    "deletePhoto": "Share",
-    "photoHint": "JPG ko PNG. Matsakaicin girman 2MB.",
     "saveProfile": "Ajiye bayanan martaba",
     "apartmentTitle": "Bayanin Apartment",
     "saveApartment": "Ajiye Cikakkun Gida",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Ba a samu tabbacin abubuwa biyu ba tukuna",
       "twoFactorAria": "Tabbatar da abubuwa biyu (samfoti kawai)",
       "sessionsLabel": "Zama Mai Gudanarwa",
-      "sessionsEmpty": "Har yanzu ba a samun bin sawun zama - wannan shine samfoti na shimfidar wuri mai zuwa."
-    }
+      "sessionsEmpty": "Har yanzu ba a samun bin sawun zama - wannan shine samfoti na shimfidar wuri mai zuwa.",
+      "previewNote": "Dubawa kawai: ba a samu tabbacin abubuwa biyu ba tukuna."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Canza kalmar shiga"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tikitin zama",
       "subtitle": "Tikitin tallafi da damuwa mazauna yankinku sun yi magana da ku."
+    }
+  },
+  "reports": {
+    "loadError": "An kasa loda rahoton al'umma. Da fatan za a sake gwadawa.",
+    "pdfError": "An kasa sauke rahoton PDF. Da fatan za a sake gwadawa.",
+    "loading": "Ana loda rahoton…",
+    "empty": "Babu gidaje da ke da bayanai a cikin wannan kewayon.",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "Tace ta gida, mazauni, ko mitar no.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Sauke PDF Takaitawa",
+    "downloadingPdf": "Preparing PDF…",
+    "ranges": {
+      "threeMonths": "Watanni 3 da suka wuce",
+      "sixMonths": "Watanni 6 da suka gabata",
+      "twelveMonths": "Watanni 12 da suka gabata",
+      "custom": "Kewayo na al'ada"
+    },
+    "customRange": {
+      "from": "Daga",
+      "to": "Zuwa",
+      "hint": "Zaɓi duka farkon da ƙarshen wata don loda rahoton."
+    },
+    "cards": {
+      "totalConsumption": "Jimlar Amfani",
+      "households": "A ko'ina {{total}} gidaje",
+      "avgMonthly": "Matsakaicin Amfani na Watan",
+      "communityWide": "Faɗin al'umma, kowane wata",
+      "billed": "An biya",
+      "finalizedOnly": "Kammalawa & rumbun hawan keke kawai",
+      "paid": "An biya",
+      "invoices": "{{total}} da aka fitar",
+      "outstanding": "Fitacciyar",
+      "unpaidInvoices": "{{total}} daftarin da ba a biya ba",
+      "collectionRate": "Adadin Tari"
+    },
+    "costs": {
+      "title": "Farashin vs. Haraji",
+      "commonArea": "An yi cajin cajin yanki na gama gari",
+      "bulkCost": "Farashin siyan ruwa mai yawa",
+      "bulkVolume": "An saya ruwa mai yawa",
+      "bulkCount": "{{total}} sayayya",
+      "billedMinusBulk": "Kudaden shiga da aka yi wa lissafin kuɗi rage yawan farashi",
+      "note": "Ana sa ido kan sayayya mai yawa don ganin farashi kuma ba a biyan kuɗi ga gidaje kai tsaye."
+    },
+    "top": {
+      "title": "Manyan Masu Amfani",
+      "empty": "Babu amfani da aka rubuta a cikin wannan kewayon."
+    },
+    "charts": {
+      "consumptionTitle": "Amfanin wata-wata",
+      "consumptionSeries": "Amfani",
+      "billingTitle": "Biyan Kuɗi vs. Biya vs. Babban Kuɗin",
+      "billedSeries": "An biya",
+      "paidSeries": "An biya",
+      "bulkSeries": "Farashin sayayya mai yawa",
+      "empty": "Babu bayanai don wannan kewayon."
+    },
+    "sort": {
+      "label": "Kasa",
+      "toggleDirection": "Juya hanyar daidaitawa",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Gida",
+      "resident": "Mazaunin",
+      "meter": "Mita",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Matsakaicin Watan kL",
+      "billed": "An biya",
+      "paid": "An biya",
+      "outstanding": "Fitacciyar"
+    }
+  },
+  "announcements": {
+    "loadError": "An kasa loda sanarwa. Da fatan za a sake gwadawa.",
+    "removeError": "An kasa share wannan sanarwar. Da fatan za a sake gwadawa.",
+    "loading": "Ana loda sanarwar…",
+    "empty": "Babu sanarwa tukuna. Danna \"Sabuwar Sanarwa\" don sanar da mazauna ku.",
+    "count": "Sanarwa: {{total}}",
+    "newButton": "+ Sabuwar Sanarwa",
+    "pinned": "Pinned",
+    "expired": "Karewa",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "Gabaɗaya",
+      "maintenance": "Kulawa",
+      "waterSupply": "Samar da Ruwa",
+      "billing": "Biyan kuɗi",
+      "urgent": "Gaggawa"
+    },
+    "form": {
+      "addTitle": "Sabuwar Sanarwa",
+      "editTitle": "Gyara Sanarwa",
+      "addSubtitle": "Mazauna suna ganin wannan a shafinsu na Fadakarwa, kuma duk wanda ke da sanarwar turawa ana sanar da shi nan take.",
+      "editSubtitle": "Gyara sabunta sanarwar a wurin. Ba a sake sanar da mazauna wurin ba.",
+      "title": "Take",
+      "category": "Kashi",
+      "expiresAt": "Ya ƙare (na zaɓi)",
+      "body": "Sako",
+      "pinned": "Matsa zuwa saman sanarwar mazauna",
+      "requiredFields": "Da fatan za a shigar da take da sako.",
+      "saveError": "An kasa ajiye wannan sanarwar. Da fatan za a duba cikakkun bayanai.",
+      "publish": "Buga"
+    },
+    "confirm": {
+      "title": "Share sanarwa?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "Share",
+      "deleting": "Ana sharewa…"
     }
   }
 }

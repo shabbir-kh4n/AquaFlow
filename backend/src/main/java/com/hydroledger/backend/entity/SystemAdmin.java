@@ -37,6 +37,9 @@ public class SystemAdmin {
     @Column(nullable = false)
     private String password;
 
+    @Column(name = "avatar_key", length = 32)
+    private String avatarKey;
+
     @Column(nullable = false, updatable = false)
     private Instant createdAt;
 

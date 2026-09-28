@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Billets d'assistance",
     "subtitle": "Prenez en charge les tickets et les préoccupations soulevées par les résidents et les administrateurs de la communauté, à l'échelle de la plateforme."
+  },
+  "profile": {
+    "accountTitle": "Compte",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Changer le mot de passe",
+    "loadError": "Impossible de charger votre profil. Veuillez réessayer.",
+    "fields": {
+      "fullName": "Nom et prénom",
+      "email": "E-mail",
+      "role": "Rôle",
+      "roleValue": "Administrateur du système"
+    }
   }
 }

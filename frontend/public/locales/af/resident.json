@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Binnekort beskikbaar",
     "welcome": {
       "greeting": "Hallo {{name}},",
       "greetingFallback": "Hallo daar,",
       "title": "Bly naby jou huis se waterstorie.",
-      "subtitle": "Gebruik- en fakturering-insigte sal hier verskyn soos jou gemeenskap lesings aanteken.",
-      "viewBadges": "Bekyk eko-kentekens"
+      "subtitle": "Gebruik- en fakturering-insigte sal hier verskyn soos jou gemeenskap lesings aanteken."
     },
     "stats": {
       "todaysUsage": "Vandag se gebruik",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Gemeterde gebruik + gedeelde heffings, {{month}}",
       "estimatedBillHint": "Gebaseer op hierdie maand se gemeterde verbruik en gedeelde heffings",
       "savings": "Spaar teenoor gebou Gem",
-      "savingsValue": "{{percent}}% minder",
-      "savingsPreview": "Slegs voorskou — vergelyking nog nie regstreeks nie"
+      "savingsLess": "{{percent}}% minder",
+      "savingsMore": "{{percent}}% meer",
+      "savingsEqual": "Dieselfde as gemiddeld",
+      "savingsDetail": "{{household}} kL vs {{average}} kL gemiddeld, {{month}}",
+      "savingsNoData": "Nog geen gebouvergelyking nie"
     },
     "consumption": {
       "eyebrow": "Verbruik",
       "title": "Daaglikse verbruik (laaste 14 lesings)",
       "seriesName": "Verbruik",
       "empty": "Geen lesings is nog aangeteken nie."
-    },
-    "breakdown": {
-      "eyebrow": "Ineenstorting",
-      "title": "Gebruik Onderbreking",
-      "bathroom": "Badkamer",
-      "kitchen": "Kombuis",
-      "garden": "Tuin / Balkon",
-      "other": "Ander / Wasgoed"
     },
     "billing": {
       "eyebrow": "Fakturering",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Vlak prysvlak",
       "tierLabel": "Vlak {{tier}}",
       "commonArea": "Gemeenskaplike area verdeling",
-      "commonAreaPreview": "Gemeenskaplike area verdeling (voorskou)",
       "invoiceTotal": "{{period}} faktuurtotaal",
       "estimatedCharge": "Huidige beraamde heffing",
       "commonAreaBreakdown": "Algemene area uiteensetting",
-      "payPreview": "Betaal rekeningvoorskou",
-      "payUnavailable": "Rekening-enjin nog nie beskikbaar nie"
+      "commonAreaEstimate": "Gemeenskaplike area verdeling (skatting)",
+      "payOutstanding": "Betaal uitstaande ₹{{amount}}",
+      "payAllDescription": "Alle onbetaalde rekeninge ({{number}})"
     },
     "tips": {
       "eyebrow": "Wenke",
@@ -66,8 +59,7 @@
     "empty": "Geen lesings is nog aangeteken nie. Sodra jou gemeenskap 'n meterlesing aanteken, sal dit hier verskyn.",
     "tabs": {
       "lastSixMonths": "Laaste 6 maande",
-      "customRange": "Pasgemaakte reeks",
-      "comingSoon": "Binnekort beskikbaar"
+      "customRange": "Pasgemaakte reeks"
     },
     "peakDay": "Spitsdag:",
     "lowestDay": "Laagste dag:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Daaglikse verbruik hittekaart",
-      "subtitle": "Kleurintensiteit vlag swaar gebruik dae (voorskou)."
+      "subtitle": "Kleurintensiteit vlag swaar gebruik dae (voorskou).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: geen data",
+      "less": "Minder",
+      "more": "Meer",
+      "noData": "Geen data nie"
     },
     "ranking": {
       "title": "Gemeenskap-eweknie-ranglys",
-      "subtitle": "Jou rang in vergelyking met soortgelyke eenhede (voorskou).",
-      "ecoSaver": "Aktiewe Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Eenheid {{number}}",
-      "yourUnit": "Jou eenheid",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Jy)"
+      "subtitle": "Jou huishouding teenoor elke huishouding in jou woonstel vir {{month}}. Laer gebruik rangskik hoër.",
+      "headline": "#{{rank}} van {{total}} huishoudings",
+      "percentile": "Jy het minder water as {{percent}}% van jou bure gebruik.",
+      "min": "Laagste",
+      "median": "Mediaan",
+      "max": "Hoogste",
+      "youRow": "#{{rank}} Jy",
+      "neighbourRow": "#{{rank}} Buurman",
+      "privacyNote": "Bure is anoniem. Huisnommers en name word nooit gewys nie.",
+      "empty": "Nog nie genoeg data om jou huishouding te rangskik nie."
+    },
+    "range": {
+      "from": "Van",
+      "to": "Om",
+      "invalid": "Die beginmaand moet nie na die eindmaand wees nie.",
+      "noData": "Geen verbruikdata in hierdie reeks nie."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Faktureringsiklus: {{period}}",
       "allPaid": "Alle fakture word betaal",
       "payTotal": "Betaal totaal uitstaande",
-      "payTotalUnavailable": "Aanlyn betaling is nog nie beskikbaar nie – betaal rekeninge direk met jou gemeenskapsadministrateur",
       "downloadSummary": "Laai rekeningopsomming af",
-      "downloadSummaryUnavailable": "Aflaai van rekeningopsomming is nog nie beskikbaar nie"
+      "payAllDescription": "Alle onbetaalde rekeninge ({{number}})"
     },
     "history": {
       "title": "Faktuurgeskiedenis",
-      "exportCsv": "Voer alles uit na CSV",
-      "exportUnavailable": "CSV uitvoer is nog nie beskikbaar nie"
+      "exportCsv": "Voer alles uit na CSV"
     },
     "table": {
       "cycle": "Siklus",
@@ -148,6 +151,17 @@
       "description": "Aanlyn betaling is nog nie beskikbaar nie – rekeninge word direk met jou gemeenskapsadministrateur vereffen.",
       "manage": "Bestuur betaalmetodes",
       "manageUnavailable": "Betaalmetodes is nog nie beskikbaar nie"
+    },
+    "csv": {
+      "cycle": "Faktureringstydperk",
+      "consumption": "Verbruik (kL)",
+      "baseAmount": "Basis bedrag",
+      "tariffAmount": "Tariefbedrag",
+      "commonAreaAmount": "Algemene oppervlakte bedrag",
+      "totalAmount": "Totale bedrag",
+      "paid": "Betaal",
+      "paidAt": "Betaal by",
+      "generatedAt": "Gegenereer by"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Moet asseblief nie terugdruk of hierdie bladsy verfris nie",
     "success": "Betaling suksesvol",
     "error": "Iets het verkeerd geloop om jou betaling te bevestig. Probeer asseblief weer.",
-    "retry": "Probeer weer"
+    "retry": "Probeer weer",
+    "simulationNotice": "Gesimuleerde betaalpunt slegs vir demonstrasie. Geen werklike betaling word gemaak nie en geen geld word gehef nie."
   },
   "notifications": {
     "loadError": "Kon nie jou kennisgewings laai nie. Probeer asseblief weer.",
@@ -213,6 +228,25 @@
       "notConfigured": "Stootkennisgewings is nog nie opgestel nie. Kontak jou admin.",
       "enableError": "Kon nie stootkennisgewings aktiveer nie. Probeer asseblief weer.",
       "disableError": "Kon nie stootkennisgewings deaktiveer nie. Probeer asseblief weer."
+    },
+    "tabs": {
+      "alerts": "Waarskuwings",
+      "announcements": "Aankondigings"
+    },
+    "announcements": {
+      "loadError": "Kon nie aankondigings laai nie. Probeer asseblief weer.",
+      "loading": "Laai tans aankondigings …",
+      "empty": "Geen aankondigings van jou gemeenskapsadministrateur op die oomblik nie.",
+      "pinned": "Vasgespeld",
+      "postedAt": "Geplaas {{date}}",
+      "expiresAt": "Tot {{date}}",
+      "category": {
+        "general": "Algemeen",
+        "maintenance": "Onderhoud",
+        "waterSupply": "Watervoorsiening",
+        "billing": "Fakturering",
+        "urgent": "Dringend"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Inwoner Ondersteuning & Bekommernisse lessenaar",
     "subtitle": "Dien waterlekkasieverslae, meterkalibrasieversoeke of faktuurnavrae direk by jou gemeenskapsadministrateur en/of Stelseladministrateur in.",
     "emptyCreateHint": "Beskryf jou probleem of bekommernis hieronder, en kies wie dit moet hanteer."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Laaste 3 maande",
+      "sixMonths": "Laaste 6 maande",
+      "twelveMonths": "Laaste 12 maande",
+      "custom": "Pasgemaakte reeks"
+    },
+    "customRange": {
+      "from": "Van",
+      "to": "Om",
+      "hint": "Kies 'n begin- en eindmaand om jou verslag te sien."
+    },
+    "loading": "Laai tans jou verslag …",
+    "loadError": "Kon nie jou verslag laai nie. Probeer asseblief weer.",
+    "pdfError": "Kon nie die verklaring aflaai nie. Probeer asseblief weer.",
+    "downloading": "Laai tans af …",
+    "downloadCsv": "Laai CSV af",
+    "downloadStatement": "Laai verklaring af PDF",
+    "period": "Verslagtydperk: {{from}} tot {{to}}",
+    "cards": {
+      "totalUsage": "Totale gebruik",
+      "avgMonthly": "Gemiddelde maandelikse gebruik",
+      "avgMonthlyHint": "Oor maande met aangetekende lesings",
+      "change": "Verandering teenoor vorige tydperk",
+      "changeHint": "{{previous}} in {{from}} tot {{to}}",
+      "changeNoData": "Geen gebruik in die vorige tydperk om te vergelyk nie",
+      "totalBilled": "Totaal gefaktureer",
+      "totalPaid": "Totaal betaal",
+      "outstanding": "Uitstaande"
+    },
+    "chart": {
+      "title": "Maandelikse gebruik en fakturering",
+      "subtitle": "Stawe wys verbruik (kL); die lyn wys die gefaktureerde bedrag (₹).",
+      "consumption": "Verbruik",
+      "billed": "Gefaktureer"
+    },
+    "table": {
+      "title": "Maand-vir-maand-uiteensetting",
+      "month": "Maand",
+      "consumption": "Verbruik (kL)",
+      "billed": "Gefaktureer",
+      "paid": "Betaal",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Betaal",
+      "unpaid": "Onbetaald",
+      "notBilled": "Nie gefaktureer nie"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Rekeningbesonderhede",
+    "managedNote": "Jou gemeenskapsadministrateur bestuur hierdie besonderhede. Kontak hulle as enigiets moet verander.",
+    "loading": "Laai tans jou profiel …",
+    "loadError": "Kon nie jou profiel laai nie. Probeer asseblief weer.",
+    "notSet": "Nie gestel nie",
+    "flatSizeValue": "{{size}} vk",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Verander wagwoord",
+    "fields": {
+      "fullName": "Volle naam",
+      "email": "E-pos",
+      "phone": "Telefoon",
+      "houseNumber": "Huisnommer",
+      "meterNumber": "Meter nommer",
+      "community": "Gemeenskap",
+      "flatSize": "Plat grootte",
+      "joined": "Aangesluit"
+    }
   }
 }

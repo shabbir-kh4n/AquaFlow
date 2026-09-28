@@ -13,6 +13,7 @@ public record CommunitySummaryResponse(
         String apartmentName,
         int householdCount,
         int residentCount,
-        Instant adminCreatedAt
+        Instant adminCreatedAt,
+        String avatarKey
 ) {
 }

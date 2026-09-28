@@ -222,6 +222,14 @@
         "title": "Atbalsts / bažas",
         "subtitle": "Paaugstiniet savas biļetes sistēmas administratoram vai apstrādājiet problēmas, kuras jums ir adresējuši jūsu iedzīvotāji."
       },
+      "reports": {
+        "title": "Kopienas ziņojumi",
+        "subtitle": "Patēriņa, norēķinu, iekasēšanas un lielapjoma pirkumu rādītāji jūsu kopienai."
+      },
+      "announcements": {
+        "title": "Paziņojumi",
+        "subtitle": "Publicējiet visiem kopienas paziņojumus saviem iedzīvotājiem."
+      },
       "profile": {
         "title": "Iestatījumi un profils",
         "subtitle": "Pārvaldiet sava konta informāciju un dzīvokļa informāciju."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Kopienas administrators",
     "notBuilt": "{{label}} vēl nav uzbūvēts",
     "searchPlaceholder": "Meklēt jebko…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Pārskati",
-      "description": "Patēriņa, norēķinu un saglabāšanas pārskati jūsu kopienai."
-    },
-    "announcements": {
-      "title": "Paziņojumi",
-      "description": "Nosūtiet visiem kopienas paziņojumus saviem iedzīvotājiem."
-    }
   },
   "comingSoon": {
     "title": "{{title}} drīzumā"
@@ -261,7 +259,9 @@
       "billing": "Norēķini un rēķini",
       "notifications": "Paziņojumi",
       "recommendations": "Ieteikumi",
-      "support": "Atbalsts / bažas"
+      "support": "Atbalsts / bažas",
+      "reports": "Jūsu lietojuma un tēriņu pārskati",
+      "profile": "Mans profils"
     },
     "defaultTitle": "Rezidentu informācijas panelis",
     "navLabel": "Iedzīvotāju navigācija",
@@ -277,7 +277,8 @@
       "communities": "kopienas",
       "reports": "Pārskati",
       "supportTickets": "Atbalsta biļetes",
-      "systemStatus": "Sistēmas statuss"
+      "systemStatus": "Sistēmas statuss",
+      "profile": "Profils"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistēmas statuss",
         "subtitle": "Aizmugursistēmas savienojamība un pamata izpildlaika veselība."
+      },
+      "profile": {
+        "title": "Profils",
+        "subtitle": "Jūsu konts, iemiesojums un parole"
       }
     },
     "fallbackName": "Sistēmas administrators",
@@ -308,5 +313,40 @@
     "buttonLabel": "Valoda: {{language}}",
     "searchPlaceholder": "Meklēt valodu…",
     "noMatches": "Nav nevienas spēles"
+  },
+  "avatarPicker": {
+    "label": "Izvēlieties iemiesojumu",
+    "hint": "Izvēlieties vienu no iepriekš iestatītajiem iemiesojumiem vai izmantojiet savus iniciāļus.",
+    "change": "Mainīt",
+    "cancel": "Atcelt",
+    "useInitials": "Izmantojiet iniciāļus",
+    "optionLabel": "Iemiesojums {{number}}",
+    "save": "Saglabāt iemiesojumu",
+    "saving": "Notiek saglabāšana…",
+    "saved": "Iemiesojums ir atjaunināts",
+    "saveError": "Nevarēja atjaunināt jūsu iemiesojumu. Lūdzu, mēģiniet vēlreiz."
+  },
+  "changePassword": {
+    "current": "Pašreizējā parole",
+    "new": "Jauna parole",
+    "confirm": "Apstipriniet jauno paroli",
+    "hint": "Vismaz {{min}} rakstzīmes.",
+    "tooShort": "Jaunajai parolei ir jābūt vismaz {{min}} rakstzīmēm.",
+    "mismatch": "Jaunās paroles nesakrīt.",
+    "sameAsCurrent": "Jaunajai parolei ir jāatšķiras no pašreizējās paroles.",
+    "submit": "Atjaunināt paroli",
+    "saving": "Notiek atjaunināšana…",
+    "success": "Jūsu parole ir atjaunināta.",
+    "error": "Nevarēja atjaunināt jūsu paroli. Lūdzu, mēģiniet vēlreiz."
+  },
+  "search": {
+    "kindPage": "Lapa",
+    "kindRecord": "Rezultāts",
+    "loading": "Notiek meklēšana…",
+    "noResults": "Nav nevienas spēles",
+    "recordsUnavailable": "Šobrīd var meklēt tikai lapas.",
+    "invoiceLabel": "Rēķins {{period}}",
+    "paid": "Apmaksāts",
+    "unpaid": "Neapmaksāts"
   }
 }

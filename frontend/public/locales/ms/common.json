@@ -222,6 +222,14 @@
         "title": "Sokongan / Kebimbangan",
         "subtitle": "Angkat tiket anda sendiri kepada Pentadbir Sistem, atau tangani kebimbangan yang dialamatkan oleh penduduk anda kepada anda."
       },
+      "reports": {
+        "title": "Laporan Komuniti",
+        "subtitle": "Angka penggunaan, pengebilan, kutipan dan pembelian pukal untuk komuniti anda."
+      },
+      "announcements": {
+        "title": "Pengumuman",
+        "subtitle": "Terbitkan notis seluruh komuniti kepada penduduk anda."
+      },
       "profile": {
         "title": "Tetapan & Profil",
         "subtitle": "Urus butiran akaun dan maklumat pangsapuri anda."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Pentadbir Komuniti",
     "notBuilt": "{{label}} belum dibina lagi",
     "searchPlaceholder": "Cari apa sahaja…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Laporan",
-      "description": "Laporan penggunaan, pengebilan dan pemuliharaan untuk komuniti anda."
-    },
-    "announcements": {
-      "title": "Pengumuman",
-      "description": "Hantar pengumuman seluruh komuniti kepada penduduk anda."
-    }
   },
   "comingSoon": {
     "title": "{{title}} akan datang tidak lama lagi"
@@ -261,7 +259,9 @@
       "billing": "Pengebilan & Invois",
       "notifications": "Pemberitahuan",
       "recommendations": "Cadangan",
-      "support": "Sokongan / Kebimbangan"
+      "support": "Sokongan / Kebimbangan",
+      "reports": "Laporan penggunaan & perbelanjaan anda",
+      "profile": "profil saya"
     },
     "defaultTitle": "Papan Pemuka Penduduk",
     "navLabel": "Navigasi penduduk",
@@ -277,7 +277,8 @@
       "communities": "Komuniti",
       "reports": "Laporan",
       "supportTickets": "Tiket Sokongan",
-      "systemStatus": "Status Sistem"
+      "systemStatus": "Status Sistem",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Status Sistem",
         "subtitle": "Kesambungan bahagian belakang dan kesihatan masa jalan asas."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Akaun, avatar dan kata laluan anda"
       }
     },
     "fallbackName": "Pentadbir Sistem",
@@ -308,5 +313,40 @@
     "buttonLabel": "Bahasa: {{language}}",
     "searchPlaceholder": "Cari bahasa…",
     "noMatches": "Tiada padanan"
+  },
+  "avatarPicker": {
+    "label": "Pilih avatar",
+    "hint": "Pilih salah satu avatar pratetap, atau gunakan parap anda.",
+    "change": "Berubah",
+    "cancel": "Batal",
+    "useInitials": "Gunakan inisial",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Simpan avatar",
+    "saving": "Menyimpan…",
+    "saved": "Avatar dikemas kini",
+    "saveError": "Tidak dapat mengemas kini avatar anda. Sila cuba lagi."
+  },
+  "changePassword": {
+    "current": "Kata laluan semasa",
+    "new": "Kata laluan baharu",
+    "confirm": "Sahkan kata laluan baharu",
+    "hint": "Sekurang-kurangnya {{min}} aksara.",
+    "tooShort": "Kata laluan baharu mestilah sekurang-kurangnya {{min}} aksara.",
+    "mismatch": "Kata laluan baharu tidak sepadan.",
+    "sameAsCurrent": "Kata laluan baharu mestilah berbeza daripada kata laluan semasa anda.",
+    "submit": "Kemas kini kata laluan",
+    "saving": "Mengemas kini…",
+    "success": "Kata laluan anda telah dikemas kini.",
+    "error": "Tidak dapat mengemas kini kata laluan anda. Sila cuba lagi."
+  },
+  "search": {
+    "kindPage": "Halaman",
+    "kindRecord": "Hasilnya",
+    "loading": "Mencari…",
+    "noResults": "Tiada padanan",
+    "recordsUnavailable": "Hanya halaman yang boleh dicari sekarang.",
+    "invoiceLabel": "Invois {{period}}",
+    "paid": "Dibayar",
+    "unpaid": "Tak bergaji"
   }
 }

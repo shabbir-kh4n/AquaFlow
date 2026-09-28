@@ -222,6 +222,14 @@
         "title": "Palaikymas / rūpesčiai",
         "subtitle": "Pakelkite savo bilietus sistemos administratoriui arba tvarkykite su jumis susijusias problemas."
       },
+      "reports": {
+        "title": "Bendruomenės ataskaitos",
+        "subtitle": "Jūsų bendruomenės suvartojimo, atsiskaitymo, surinkimo ir masinio pirkimo skaičiai."
+      },
+      "announcements": {
+        "title": "Skelbimai",
+        "subtitle": "Paskelbkite bendruomenės pranešimus savo gyventojams."
+      },
       "profile": {
         "title": "Nustatymai ir profilis",
         "subtitle": "Tvarkykite savo sąskaitos duomenis ir buto informaciją."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Bendruomenės administratorius",
     "notBuilt": "{{label}} dar nepastatytas",
     "searchPlaceholder": "Ieškokite bet ko…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Ataskaitos",
-      "description": "Jūsų bendruomenės suvartojimo, atsiskaitymo ir išsaugojimo ataskaitos."
-    },
-    "announcements": {
-      "title": "Skelbimai",
-      "description": "Siųskite bendruomenės pranešimus savo gyventojams."
-    }
   },
   "comingSoon": {
     "title": "{{title}} netrukus pasirodys"
@@ -261,7 +259,9 @@
       "billing": "Atsiskaitymas ir sąskaitos faktūros",
       "notifications": "Pranešimai",
       "recommendations": "Rekomendacijos",
-      "support": "Palaikymas / rūpesčiai"
+      "support": "Palaikymas / rūpesčiai",
+      "reports": "Jūsų naudojimo ir išlaidų ataskaitos",
+      "profile": "Mano profilis"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Gyventojų navigacija",
@@ -277,7 +277,8 @@
       "communities": "bendruomenės",
       "reports": "Ataskaitos",
       "supportTickets": "Palaikymo bilietai",
-      "systemStatus": "Sistemos būsena"
+      "systemStatus": "Sistemos būsena",
+      "profile": "Profilis"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistemos būsena",
         "subtitle": "Backend ryšys ir pagrindinė vykdymo trukmė."
+      },
+      "profile": {
+        "title": "Profilis",
+        "subtitle": "Jūsų paskyra, avataras ir slaptažodis"
       }
     },
     "fallbackName": "Sistemos administratorius",
@@ -308,5 +313,40 @@
     "buttonLabel": "Kalba: {{language}}",
     "searchPlaceholder": "Ieškoti kalba…",
     "noMatches": "Jokių atitikmenų"
+  },
+  "avatarPicker": {
+    "label": "Pasirinkite avatarą",
+    "hint": "Pasirinkite vieną iš iš anksto nustatytų avatarų arba naudokite savo inicialus.",
+    "change": "Keisti",
+    "cancel": "Atšaukti",
+    "useInitials": "Naudokite inicialus",
+    "optionLabel": "Avataras {{number}}",
+    "save": "Išsaugoti avatarą",
+    "saving": "Išsaugoma…",
+    "saved": "Avataras atnaujintas",
+    "saveError": "Nepavyko atnaujinti pseudoportreto. Bandykite dar kartą."
+  },
+  "changePassword": {
+    "current": "Dabartinis slaptažodis",
+    "new": "Naujas slaptažodis",
+    "confirm": "Patvirtinkite naują slaptažodį",
+    "hint": "Bent {{min}} simbolių.",
+    "tooShort": "Naują slaptažodį turi sudaryti bent {{min}} simbolių.",
+    "mismatch": "Nauji slaptažodžiai nesutampa.",
+    "sameAsCurrent": "Naujas slaptažodis turi skirtis nuo dabartinio slaptažodžio.",
+    "submit": "Atnaujinkite slaptažodį",
+    "saving": "Atnaujinama…",
+    "success": "Jūsų slaptažodis buvo atnaujintas.",
+    "error": "Nepavyko atnaujinti slaptažodžio. Bandykite dar kartą."
+  },
+  "search": {
+    "kindPage": "Puslapis",
+    "kindRecord": "Rezultatas",
+    "loading": "Ieškoma…",
+    "noResults": "Jokių atitikmenų",
+    "recordsUnavailable": "Šiuo metu galima ieškoti tik puslapiuose.",
+    "invoiceLabel": "Sąskaita faktūra {{period}}",
+    "paid": "Mokama",
+    "unpaid": "Neapmokėta"
   }
 }

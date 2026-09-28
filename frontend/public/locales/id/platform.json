@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tiket Dukungan",
     "subtitle": "Tiket dukungan dan kekhawatiran yang disampaikan oleh warga dan admin komunitas, di seluruh platform."
+  },
+  "profile": {
+    "accountTitle": "Akun",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Ubah kata sandi",
+    "loadError": "Tidak dapat memuat profil Anda. Silakan coba lagi.",
+    "fields": {
+      "fullName": "Nama lengkap",
+      "email": "E-mail",
+      "role": "Peran",
+      "roleValue": "Administrator sistem"
+    }
   }
 }

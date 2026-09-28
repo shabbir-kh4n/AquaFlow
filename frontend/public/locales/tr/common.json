@@ -222,6 +222,14 @@
         "title": "Destek / Endişeler",
         "subtitle": "Sistem Yöneticisine kendi bildirimlerinizi oluşturun veya sakinlerinizin size ilettiği endişeleri ele alın."
       },
+      "reports": {
+        "title": "Topluluk Raporları",
+        "subtitle": "Topluluğunuz için tüketim, faturalandırma, tahsilat ve toplu satın alma rakamları."
+      },
+      "announcements": {
+        "title": "Duyurular",
+        "subtitle": "Sakinlerinize topluluk çapında duyurular yayınlayın."
+      },
       "profile": {
         "title": "Ayarlar ve Profil",
         "subtitle": "Hesap ayrıntılarınızı ve daire bilgilerinizi yönetin."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Topluluk Yöneticisi",
     "notBuilt": "{{label}} henüz oluşturulmadı",
     "searchPlaceholder": "Herhangi bir şeyi arayın…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raporlar",
-      "description": "Topluluğunuz için tüketim, faturalandırma ve koruma raporları."
-    },
-    "announcements": {
-      "title": "Duyurular",
-      "description": "Sakinlerinize topluluk çapında duyurular gönderin."
-    }
   },
   "comingSoon": {
     "title": "{{title}} yakında geliyor"
@@ -261,7 +259,9 @@
       "billing": "Faturalandırma ve Faturalar",
       "notifications": "Bildirimler",
       "recommendations": "Öneriler",
-      "support": "Destek / Endişeler"
+      "support": "Destek / Endişeler",
+      "reports": "Kullanım ve harcama raporlarınız",
+      "profile": "Profilim"
     },
     "defaultTitle": "Yerleşik Kontrol Paneli",
     "navLabel": "Yerleşik navigasyon",
@@ -277,7 +277,8 @@
       "communities": "Topluluklar",
       "reports": "Raporlar",
       "supportTickets": "Destek Biletleri",
-      "systemStatus": "Sistem Durumu"
+      "systemStatus": "Sistem Durumu",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistem Durumu",
         "subtitle": "Arka uç bağlantısı ve temel çalışma zamanı durumu."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Hesabınız, avatarınız ve şifreniz"
       }
     },
     "fallbackName": "Sistem Yöneticisi",
@@ -308,5 +313,40 @@
     "buttonLabel": "Dil: {{language}}",
     "searchPlaceholder": "Dil ara…",
     "noMatches": "Eşleşme yok"
+  },
+  "avatarPicker": {
+    "label": "Bir avatar seçin",
+    "hint": "Önceden ayarlanmış avatarlardan birini seçin veya adınızın baş harflerini kullanın.",
+    "change": "Değiştirmek",
+    "cancel": "İptal etmek",
+    "useInitials": "Baş harfleri kullan",
+    "optionLabel": "Avatarı {{number}}",
+    "save": "Avatarı kaydet",
+    "saving": "Kaydediliyor…",
+    "saved": "Avatar güncellendi",
+    "saveError": "Avatarınız güncellenemedi. Lütfen tekrar deneyin."
+  },
+  "changePassword": {
+    "current": "Mevcut Şifre",
+    "new": "Yeni Şifre",
+    "confirm": "Yeni şifreyi onayla",
+    "hint": "En az {{min}} karakter.",
+    "tooShort": "Yeni şifre en az {{min}} karakterden oluşmalıdır.",
+    "mismatch": "Yeni şifreler eşleşmiyor.",
+    "sameAsCurrent": "Yeni şifreniz mevcut şifrenizden farklı olmalıdır.",
+    "submit": "Şifreyi güncelle",
+    "saving": "Güncelleniyor…",
+    "success": "Şifreniz güncellendi.",
+    "error": "Şifreniz güncellenemedi. Lütfen tekrar deneyin."
+  },
+  "search": {
+    "kindPage": "Sayfa",
+    "kindRecord": "Sonuç",
+    "loading": "Arama…",
+    "noResults": "Eşleşme yok",
+    "recordsUnavailable": "Şu anda yalnızca sayfalar aranabiliyor.",
+    "invoiceLabel": "Fatura {{period}}",
+    "paid": "Paralı",
+    "unpaid": "ödenmemiş"
   }
 }

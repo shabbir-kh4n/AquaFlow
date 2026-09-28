@@ -80,7 +80,7 @@ class PlatformAdminControllerTests {
     void listCommunitiesReturnsOkForSystemAdmin() throws Exception {
         when(systemAdminService.listCommunities()).thenReturn(List.of(
                 new CommunitySummaryResponse(2L, "Jane Admin", "jane@example.com", CommunityAdminStatus.ACTIVE,
-                        10L, "Sunrise Towers", 4, 4, Instant.now())
+                        10L, "Sunrise Towers", 4, 4, Instant.now(), null)
         ));
 
         mockMvc.perform(get("/api/platform/communities").with(user(new SystemAdminPrincipal(systemAdmin))))

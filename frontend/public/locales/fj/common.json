@@ -222,6 +222,14 @@
         "title": "Veitokoni / Kauwai",
         "subtitle": "Laveta cake na nomu tikite ki na Admin ni Sistema, se qarava na kauwai era sa vakaraitaka vei iko na nomu lewenivanua."
       },
+      "reports": {
+        "title": "Ripote ni Vanua",
+        "subtitle": "Na vakayagataki, bili, vakasoqoni, kei na iwiliwili ni volivoli vakalevu me baleta na nomu itikotiko."
+      },
+      "announcements": {
+        "title": "Kacivaka",
+        "subtitle": "Tabaka na itukutuku raraba vei ira na nomu lewenivanua."
+      },
       "profile": {
         "title": "Tuvatuva kei na itukutuku",
         "subtitle": "Vakatulewataka na nomu itukutuku ni akaude kei na itukutuku ni vale."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Dauniveiliutaki ni Vanua",
     "notBuilt": "{{label}} se bera ni tara",
     "searchPlaceholder": "Vakasaqara e dua na ka..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Ripote",
-      "description": "Na ripote ni vakayagataki, bili, kei na maroroi ni veika bula me baleta na nomu itikotiko."
-    },
-    "announcements": {
-      "title": "Kacivaka",
-      "description": "Vakauta na itukutuku ni veivanua raraba vei ira na nomu lewenivanua."
-    }
   },
   "comingSoon": {
     "title": "{{title}} sa voleka mai"
@@ -261,7 +259,9 @@
       "billing": "Bili kei na ivoli",
       "notifications": "Veivakatakila",
       "recommendations": "Vakatutu",
-      "support": "Veitokoni / Kauwai"
+      "support": "Veitokoni / Kauwai",
+      "reports": "Na nomu vakayagataki & ripote ni vakayagataki ilavo",
+      "profile": "Na noqu itukutuku"
     },
     "defaultTitle": "Dasibodi ni Vakaitikotiko",
     "navLabel": "Veilakoyaki ni vakaitikotiko",
@@ -277,7 +277,8 @@
       "communities": "Veivanua",
       "reports": "Ripote",
       "supportTickets": "Tikite ni veitokoni",
-      "systemStatus": "iTuvaki ni Sistema"
+      "systemStatus": "iTuvaki ni Sistema",
+      "profile": "Itukutuku"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "iTuvaki ni Sistema",
         "subtitle": "Na veitaratara ni backend kei na yavu ni bula ni gauna ni cici."
+      },
+      "profile": {
+        "title": "Itukutuku",
+        "subtitle": "Na nomu akaude, avatar kei na vosanicuru"
       }
     },
     "fallbackName": "Admin ni Sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Vosa: {{language}}",
     "searchPlaceholder": "Vakasaqara na vosa...",
     "noMatches": "Sega na veitau"
+  },
+  "avatarPicker": {
+    "label": "Digitaka e dua na ivakatakarakara",
+    "hint": "Digitaka e dua na avatar sa vakarautaki tu, se vakayagataka na nomu matanivola taumada.",
+    "change": "Veisau",
+    "cancel": "Biuta laivi",
+    "useInitials": "Vakayagataka na matanivola taumada",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Maroroya na ivakatakarakara",
+    "saving": "Vakabulai...",
+    "saved": "Vakavoutaki na avatar",
+    "saveError": "E sega ni rawa ni vakavoutaki na nomu ivakatakarakara. Kerekere mo tovolea tale."
+  },
+  "changePassword": {
+    "current": "Vosanicuru ena gauna oqo",
+    "new": "Vosanicuru vou",
+    "confirm": "Vakadeitaka na vosanicuru vou",
+    "hint": "E lailai duadua na {{min}} na matanivola.",
+    "tooShort": "Na vosanicuru vou e dodonu me lailai duadua na {{min}} na matanivola.",
+    "mismatch": "Na vosanicuru vou e sega ni veiganiti.",
+    "sameAsCurrent": "Na vosanicuru vou e dodonu me duidui mai na nomu vosanicuru ena gauna oqo.",
+    "submit": "Vakavoutaka na vosanicuru",
+    "saving": "Vakavoui...",
+    "success": "Sa vakavoutaki na nomu vosanicuru.",
+    "error": "E sega ni rawa ni vakavoutaki na nomu vosanicuru. Kerekere mo tovolea tale."
+  },
+  "search": {
+    "kindPage": "Tabana",
+    "kindRecord": "Macala",
+    "loading": "Vakasaqaqara...",
+    "noResults": "Sega na veitau",
+    "recordsUnavailable": "Na draunipepa ga e rawa ni vakasaqarai ena gauna oqo.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Saumi",
+    "unpaid": "Sega ni saumi"
   }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Buto prietaisų skydelis",
     "titleFallback": "Jūsų buto prietaisų skydelis",
     "subtitle": "Veiklos santrauka apie vandens komunalinių paslaugų sub-apskaitą ir buitinį suvartojimą.",
-    "comingSoon": "Netrukus",
     "manageCommunity": "Tvarkyti bendruomenę",
     "noUsageReadings": "Naudojimo rodmenų dar neužregistruota.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Paskutinis įrašytas mėnuo ({{month}})",
       "noReadingsYet": "Dar nėra užfiksuotų rodmenų",
       "pendingAlerts": "Laukiantys įspėjimai",
-      "anomalyPreview": "Anomalijų aptikimo peržiūra – dar nepasiekiama"
+      "reviewAlerts": "Aktyvūs nuotėkio / naudojimo įspėjimai – peržiūrėkite dabar",
+      "noActiveAlerts": "Nėra aktyvių įspėjimų"
     },
     "actions": {
       "label": "Greiti administraciniai veiksmai",
       "uploadReadings": "Įkelti skaitiklių rodmenis",
       "configureTariffs": "Konfigūruoti tarifus",
-      "reportsNotBuilt": "Ataskaitos dar neparengtos",
       "downloadReports": "Atsisiųskite sistemos ataskaitas"
     },
     "chart": {
       "title": "Mėnesio vartojimo palyginimas (kL)",
       "subtitle": "Paskutiniai {{months}} mėnesiai: tikslinis ir faktinis suvartojimas.",
-      "targetSeries": "Tikslas (peržiūra)",
       "actualSeries": "Faktinis"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nepavyko išsaugoti jūsų profilio. Bandykite dar kartą.",
     "apartmentSaveError": "Nepavyko išsaugoti buto informacijos. Bandykite dar kartą.",
     "specsTitle": "Profilio specifikacijos",
-    "photoUnavailable": "Nuotraukų įkėlimas dar nepasiekiamas",
-    "changePhoto": "Keisti nuotrauką",
-    "deletePhoto": "Ištrinti",
-    "photoHint": "JPG arba PNG. Maksimalus dydis 2MB.",
     "saveProfile": "Išsaugoti profilį",
     "apartmentTitle": "Buto detalės",
     "saveApartment": "Išsaugokite informaciją apie butą",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Dviejų veiksnių autentifikavimas dar nepasiekiamas",
       "twoFactorAria": "Dviejų veiksnių autentifikavimas (tik peržiūra)",
       "sessionsLabel": "Aktyvios administratoriaus sesijos",
-      "sessionsEmpty": "Seanso stebėjimas dar nepasiekiamas – tai būsimo išdėstymo peržiūra."
-    }
+      "sessionsEmpty": "Seanso stebėjimas dar nepasiekiamas – tai būsimo išdėstymo peržiūra.",
+      "previewNote": "Tik peržiūra: dviejų veiksnių autentifikavimas ir seanso stebėjimas dar nepasiekiami."
+    },
+    "avatarLabel": "Avataras",
+    "passwordTitle": "Keisti slaptažodį"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Gyventojų bilietai",
       "subtitle": "Palaikymo bilietai ir rūpesčiai, kuriuos jūsų bendruomenės gyventojai kreipėsi į jus."
+    }
+  },
+  "reports": {
+    "loadError": "Nepavyko įkelti bendruomenės ataskaitos. Bandykite dar kartą.",
+    "pdfError": "Nepavyko atsisiųsti PDF ataskaitos. Bandykite dar kartą.",
+    "loading": "Įkeliama ataskaita…",
+    "empty": "Nėra namų ūkių, turinčių duomenų šiame diapazone.",
+    "noMatch": "Nė vienas namų ūkis neatitinka „{{search}}“.",
+    "searchPlaceholder": "Filtruoti pagal namą, gyventoją arba skaitiklio Nr.",
+    "downloadCsv": "Atsisiųsti CSV",
+    "downloadPdf": "Atsisiųsti PDF santrauką",
+    "downloadingPdf": "Ruošiamasi PDF…",
+    "ranges": {
+      "threeMonths": "Paskutiniai 3 mėn",
+      "sixMonths": "Paskutiniai 6 mėn",
+      "twelveMonths": "Paskutiniai 12 mėnesių",
+      "custom": "Individualus diapazonas"
+    },
+    "customRange": {
+      "from": "Iš",
+      "to": "Į",
+      "hint": "Norėdami įkelti ataskaitą, pasirinkite pradžios ir pabaigos mėnesį."
+    },
+    "cards": {
+      "totalConsumption": "Bendras suvartojimas",
+      "households": "Visuose {{total}} namų ūkiuose",
+      "avgMonthly": "Vidutinis mėnesio suvartojimas",
+      "communityWide": "Visoje bendruomenėje, per mėnesį",
+      "billed": "Išrašyta sąskaita",
+      "finalizedOnly": "Tik baigti ir archyvuoti ciklai",
+      "paid": "Mokama",
+      "invoices": "{{total}} išrašytos sąskaitos faktūros",
+      "outstanding": "Išskirtinis",
+      "unpaidInvoices": "{{total}} neapmokėtų sąskaitų faktūrų",
+      "collectionRate": "Surinkimo norma"
+    },
+    "costs": {
+      "title": "Išlaidos ir pajamos",
+      "commonArea": "Išrašomi mokesčiai už bendrą plotą",
+      "bulkCost": "Masinio vandens pirkimo kaina",
+      "bulkVolume": "Pirktas birus vanduo",
+      "bulkCount": "{{total}} pirkinių",
+      "billedMinusBulk": "Sąskaitos pajamos atėmus masines išlaidas",
+      "note": "Masiniai pirkimai stebimi, kad būtų matomos išlaidos, ir jie nėra apmokestinami tiesiogiai namų ūkiams."
+    },
+    "top": {
+      "title": "Geriausi vartotojai",
+      "empty": "Šiame diapazone suvartojimas neužregistruotas."
+    },
+    "charts": {
+      "consumptionTitle": "Mėnesio suvartojimas",
+      "consumptionSeries": "Vartojimas",
+      "billingTitle": "Sąskaitos ir mokamos bei masinės išlaidos",
+      "billedSeries": "Išrašyta sąskaita",
+      "paidSeries": "Mokama",
+      "bulkSeries": "Masinio pirkimo kaina",
+      "empty": "Šio diapazono duomenų nėra."
+    },
+    "sort": {
+      "label": "Rūšiuoti pagal",
+      "toggleDirection": "Perjungti rūšiavimo kryptį",
+      "asc": "↑ Asc",
+      "desc": "↓ Aprašymas"
+    },
+    "table": {
+      "house": "Namas",
+      "resident": "Gyventojas",
+      "meter": "Metras",
+      "totalKl": "Iš viso kL",
+      "avgMonthlyKl": "Vid. per mėnesį kL",
+      "billed": "Išrašyta sąskaita",
+      "paid": "Mokama",
+      "outstanding": "Išskirtinis"
+    }
+  },
+  "announcements": {
+    "loadError": "Nepavyko įkelti pranešimų. Bandykite dar kartą.",
+    "removeError": "Nepavyko ištrinti šio pranešimo. Bandykite dar kartą.",
+    "loading": "Įkeliami pranešimai…",
+    "empty": "Kol kas jokių pranešimų. Spustelėkite „Naujas pranešimas“, kad praneštumėte savo gyventojams.",
+    "count": "Pranešimai: {{total}}",
+    "newButton": "+ Naujas pranešimas",
+    "pinned": "Prisegta",
+    "expired": "Baigėsi galiojimo laikas",
+    "postedAt": "Paskelbta {{date}}",
+    "updatedAt": "Redaguota {{date}}",
+    "expiresAt": "Baigiasi {{date}}",
+    "category": {
+      "general": "Generolas",
+      "maintenance": "Priežiūra",
+      "waterSupply": "Vandens tiekimas",
+      "billing": "Atsiskaitymas",
+      "urgent": "Skubiai"
+    },
+    "form": {
+      "addTitle": "Naujas Skelbimas",
+      "editTitle": "Redaguoti skelbimą",
+      "addSubtitle": "Gyventojai tai mato savo pranešimų puslapyje, o visiems, kuriems įjungti tiesioginiai pranešimai, apie tai pranešama iš karto.",
+      "editSubtitle": "Pakeitimai atnaujina skelbimą vietoje. Gyventojai vėl nepranešami.",
+      "title": "Pavadinimas",
+      "category": "Kategorija",
+      "expiresAt": "Baigia galioti (neprivaloma)",
+      "body": "Pranešimas",
+      "pinned": "Prisekite prie gyventojų pranešimų viršaus",
+      "requiredFields": "Įveskite pavadinimą ir pranešimą.",
+      "saveError": "Nepavyko išsaugoti šio pranešimo. Patikrinkite išsamią informaciją.",
+      "publish": "Paskelbti"
+    },
+    "confirm": {
+      "title": "Ištrinti skelbimą?",
+      "body": "„{{title}}“ bus pašalintas visiems gyventojams. To negalima anuliuoti.",
+      "delete": "Ištrinti",
+      "deleting": "Ištrinama…"
     }
   }
 }

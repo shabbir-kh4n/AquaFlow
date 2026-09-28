@@ -222,6 +222,14 @@
         "title": "Podpora / Obavy",
         "subtitle": "Vyzvedněte si vlastní lístky na správce systému nebo vyřiďte obavy, které vám adresovali vaši obyvatelé."
       },
+      "reports": {
+        "title": "Zprávy komunity",
+        "subtitle": "Údaje o spotřebě, fakturaci, inkasu a hromadném nákupu pro vaši komunitu."
+      },
+      "announcements": {
+        "title": "Oznámení",
+        "subtitle": "Zveřejňujte celospolečenská oznámení pro své obyvatele."
+      },
       "profile": {
         "title": "Nastavení a profil",
         "subtitle": "Spravujte podrobnosti o svém účtu a informace o bytech."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Správce komunity",
     "notBuilt": "{{label}} ještě není postaveno",
     "searchPlaceholder": "Hledat cokoli…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Zprávy",
-      "description": "Zprávy o spotřebě, fakturaci a ochraně pro vaši komunitu."
-    },
-    "announcements": {
-      "title": "Oznámení",
-      "description": "Posílejte svým obyvatelům celospolečenská oznámení."
-    }
   },
   "comingSoon": {
     "title": "{{title}} již brzy"
@@ -261,7 +259,9 @@
       "billing": "Fakturace a faktury",
       "notifications": "Oznámení",
       "recommendations": "Doporučení",
-      "support": "Podpora / Obavy"
+      "support": "Podpora / Obavy",
+      "reports": "Vaše přehledy využití a výdajů",
+      "profile": "Můj profil"
     },
     "defaultTitle": "Rezidentní Dashboard",
     "navLabel": "Rezidentní navigace",
@@ -277,7 +277,8 @@
       "communities": "společenství",
       "reports": "Zprávy",
       "supportTickets": "Vstupenky na podporu",
-      "systemStatus": "Stav systému"
+      "systemStatus": "Stav systému",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stav systému",
         "subtitle": "Backendová konektivita a základní běhové prostředí."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Váš účet, avatar a heslo"
       }
     },
     "fallbackName": "Správce systému",
@@ -308,5 +313,40 @@
     "buttonLabel": "Jazyk: {{language}}",
     "searchPlaceholder": "Vyhledat jazyk…",
     "noMatches": "Žádné zápasy"
+  },
+  "avatarPicker": {
+    "label": "Vyberte si avatara",
+    "hint": "Vyberte si jednoho z přednastavených avatarů nebo použijte své iniciály.",
+    "change": "Přeměna",
+    "cancel": "Zrušit",
+    "useInitials": "Použijte iniciály",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Uložit avatara",
+    "saving": "Ukládání…",
+    "saved": "Avatar aktualizován",
+    "saveError": "Váš avatar se nepodařilo aktualizovat. Zkuste to prosím znovu."
+  },
+  "changePassword": {
+    "current": "Aktuální heslo",
+    "new": "Nové heslo",
+    "confirm": "Potvrďte nové heslo",
+    "hint": "Minimálně {{min}} znaků.",
+    "tooShort": "Nové heslo musí mít alespoň {{min}} znaků.",
+    "mismatch": "Nová hesla se neshodují.",
+    "sameAsCurrent": "Nové heslo se musí lišit od aktuálního hesla.",
+    "submit": "Aktualizujte heslo",
+    "saving": "Aktualizace…",
+    "success": "Vaše heslo bylo aktualizováno.",
+    "error": "Vaše heslo se nepodařilo aktualizovat. Zkuste to prosím znovu."
+  },
+  "search": {
+    "kindPage": "Strana",
+    "kindRecord": "Výsledek",
+    "loading": "Vyhledávání…",
+    "noResults": "Žádné zápasy",
+    "recordsUnavailable": "Momentálně lze vyhledávat pouze stránky.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Zaplaceno",
+    "unpaid": "Nezaplaceno"
   }
 }

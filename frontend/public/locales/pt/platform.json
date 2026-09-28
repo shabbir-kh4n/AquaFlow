@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tíquetes de suporte",
     "subtitle": "Apoie tickets e preocupações levantadas por residentes e administradores da comunidade, em toda a plataforma."
+  },
+  "profile": {
+    "accountTitle": "Conta",
+    "avatarTitle": "avatar",
+    "passwordTitle": "Alterar a senha",
+    "loadError": "Não foi possível carregar seu perfil. Por favor, tente novamente.",
+    "fields": {
+      "fullName": "Nome completo",
+      "email": "E-mail",
+      "role": "Papel",
+      "roleValue": "Administrador do sistema"
+    }
   }
 }

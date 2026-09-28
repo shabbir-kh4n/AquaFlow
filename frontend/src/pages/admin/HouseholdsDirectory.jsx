@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import i18next from 'i18next'
 import { Trans, useTranslation } from 'react-i18next'
+import { useSearchParams } from 'react-router-dom'
 import { bulkUploadResidents, createResident, deleteResident, listResidents, updateResident } from '../../api/residentApi'
+import Avatar from '../../components/Avatar'
 import '../../components/AuthForm.css'
 import './HouseholdsDirectory.css'
 
@@ -117,7 +119,16 @@ function HouseholdsDirectory() {
   const [fieldErrors, setFieldErrors] = useState({})
   const [submitting, setSubmitting] = useState(false)
 
-  const [search, setSearch] = useState('')
+  // ?q= comes from the topbar search; re-applied whenever it changes (adjust-during-render,
+  // per the project's react-hooks/set-state-in-effect rule), while still letting the admin edit it.
+  const [searchParams] = useSearchParams()
+  const queryParam = searchParams.get('q') || ''
+  const [search, setSearch] = useState(queryParam)
+  const [lastQueryParam, setLastQueryParam] = useState(queryParam)
+  if (queryParam !== lastQueryParam) {
+    setLastQueryParam(queryParam)
+    setSearch(queryParam)
+  }
   const [sortField, setSortField] = useState('fullName')
   const [sortDirection, setSortDirection] = useState('asc')
   const [page, setPage] = useState(0)
@@ -354,6 +365,7 @@ function HouseholdsDirectory() {
           <table className="af-hh__table">
             <thead>
               <tr>
+                <th className="af-hh__avatar-col"></th>
                 <th>{t('households.table.name')}</th>
                 <th>{t('households.table.houseUnit')}</th>
                 <th>{t('households.table.email')}</th>
@@ -367,6 +379,9 @@ function HouseholdsDirectory() {
             <tbody>
               {pagedResidents.map((resident) => (
                 <tr key={resident.id}>
+                  <td className="af-hh__avatar-col">
+                    <Avatar avatarKey={resident.avatarKey} name={resident.fullName} className="af-hh__avatar" />
+                  </td>
                   <td>{resident.fullName}</td>
                   <td>{resident.houseNumber}</td>
                   <td>{resident.email}</td>

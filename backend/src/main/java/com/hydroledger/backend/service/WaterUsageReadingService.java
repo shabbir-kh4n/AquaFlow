@@ -26,6 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.hydroledger.backend.dto.ConsumptionComparisonPoint;
 import com.hydroledger.backend.dto.CsvRowFailure;
 import com.hydroledger.backend.dto.CsvUploadResultResponse;
+import com.hydroledger.backend.dto.PeerRankingResponse;
 import com.hydroledger.backend.dto.WaterUsageReadingRequest;
 import com.hydroledger.backend.dto.WaterUsageReadingResponse;
 import com.hydroledger.backend.entity.Apartment;
@@ -120,15 +121,7 @@ public class WaterUsageReadingService {
         Apartment apartment = household.getApartment();
 
         List<Household> households = householdRepository.findByApartmentOrderByHouseNumberAsc(apartment);
-
-        // month -> householdId -> that household's total consumption for the month
-        Map<String, Map<Long, BigDecimal>> byMonth = new TreeMap<>();
-        for (Household h : households) {
-            for (WaterUsageReadingResponse reading : listForHousehold(h)) {
-                byMonth.computeIfAbsent(reading.consumptionMonth(), k -> new LinkedHashMap<>())
-                        .merge(h.getId(), reading.consumption(), BigDecimal::add);
-            }
-        }
+        Map<String, Map<Long, BigDecimal>> byMonth = consumptionByMonthAndHousehold(households);
 
         BigDecimal residentSqft = household.getFlatSizeSqft();
         Set<Long> similarSizedIds = residentSqft == null || residentSqft.signum() <= 0
@@ -152,6 +145,85 @@ public class WaterUsageReadingService {
             points.add(new ConsumptionComparisonPoint(entry.getKey(), householdValue, apartmentAverage, similarSizedAverage));
         }
         return points;
+    }
+
+    /**
+     * Ranks the resident's household against every household in its apartment for the latest month
+     * the resident's household has consumption data, using the same consumptionMonth grouping as
+     * getComparisonForResident. Neighbours are anonymized (rank + value only, never house numbers).
+     */
+    public PeerRankingResponse getPeerRankingForResident(Resident resident) {
+        Household residentHousehold = resident.getHousehold();
+        if (residentHousehold == null) {
+            return PeerRankingResponse.empty();
+        }
+
+        Household household = householdRepository.findWithApartmentById(residentHousehold.getId())
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Household not found"));
+        List<Household> households = householdRepository.findByApartmentOrderByHouseNumberAsc(household.getApartment());
+        TreeMap<String, Map<Long, BigDecimal>> byMonth = consumptionByMonthAndHousehold(households);
+
+        // byMonth is a TreeMap keyed "YYYY-MM", so walking it in reverse finds the latest month first.
+        String latestMonth = byMonth.descendingMap().entrySet().stream()
+                .filter(entry -> entry.getValue().containsKey(household.getId()))
+                .map(Map.Entry::getKey)
+                .findFirst()
+                .orElse(null);
+        if (latestMonth == null) {
+            return PeerRankingResponse.empty();
+        }
+
+        return buildPeerRanking(latestMonth, household.getId(), byMonth.get(latestMonth));
+    }
+
+    /**
+     * Pure ranking math, exposed for tests. Competition ranking (ties share a rank: 1, 1, 3) with
+     * lower consumption = better. {@code perHousehold} must contain {@code selfId}.
+     */
+    public static PeerRankingResponse buildPeerRanking(String month, Long selfId, Map<Long, BigDecimal> perHousehold) {
+        BigDecimal selfValue = perHousehold.get(selfId);
+        if (selfValue == null) {
+            return PeerRankingResponse.empty();
+        }
+
+        List<Map.Entry<Long, BigDecimal>> sorted = perHousehold.entrySet().stream()
+                .sorted(Map.Entry.<Long, BigDecimal>comparingByValue()
+                        // Among ties, list the caller first so "You" leads its tie group.
+                        .thenComparing(entry -> entry.getKey().equals(selfId) ? 0 : 1))
+                .toList();
+        int total = sorted.size();
+
+        List<PeerRankingResponse.Entry> entries = new ArrayList<>(total);
+        for (Map.Entry<Long, BigDecimal> entry : sorted) {
+            long lower = sorted.stream().filter(other -> other.getValue().compareTo(entry.getValue()) < 0).count();
+            entries.add(new PeerRankingResponse.Entry((int) lower + 1, entry.getValue(), entry.getKey().equals(selfId)));
+        }
+
+        int selfRank = (int) sorted.stream().filter(e -> e.getValue().compareTo(selfValue) < 0).count() + 1;
+        long higher = sorted.stream().filter(e -> e.getValue().compareTo(selfValue) > 0).count();
+        BigDecimal percentile = total <= 1
+                ? null
+                : BigDecimal.valueOf(higher * 100).divide(BigDecimal.valueOf(total - 1), 1, RoundingMode.HALF_UP);
+
+        List<BigDecimal> values = sorted.stream().map(Map.Entry::getValue).toList();
+        BigDecimal median = total % 2 == 1
+                ? values.get(total / 2)
+                : values.get(total / 2 - 1).add(values.get(total / 2)).divide(BigDecimal.valueOf(2), 3, RoundingMode.HALF_UP);
+
+        return new PeerRankingResponse(month, selfRank, total, percentile, selfValue,
+                values.get(0), median, values.get(total - 1), entries);
+    }
+
+    // month ("YYYY-MM", sorted) -> householdId -> that household's total consumption for the month
+    private TreeMap<String, Map<Long, BigDecimal>> consumptionByMonthAndHousehold(List<Household> households) {
+        TreeMap<String, Map<Long, BigDecimal>> byMonth = new TreeMap<>();
+        for (Household h : households) {
+            for (WaterUsageReadingResponse reading : listForHousehold(h)) {
+                byMonth.computeIfAbsent(reading.consumptionMonth(), k -> new LinkedHashMap<>())
+                        .merge(h.getId(), reading.consumption(), BigDecimal::add);
+            }
+        }
+        return byMonth;
     }
 
     private boolean isWithinBand(BigDecimal candidateSqft, BigDecimal referenceSqft) {

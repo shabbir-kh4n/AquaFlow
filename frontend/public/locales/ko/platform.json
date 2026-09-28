@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "지원 티켓",
     "subtitle": "플랫폼 전반에 걸쳐 주민과 커뮤니티 관리자가 제기한 티켓과 우려 사항을 지원합니다."
+  },
+  "profile": {
+    "accountTitle": "계정",
+    "avatarTitle": "화신",
+    "passwordTitle": "비밀번호 변경",
+    "loadError": "프로필을 로드할 수 없습니다. 다시 시도해 주세요.",
+    "fields": {
+      "fullName": "성명",
+      "email": "이메일",
+      "role": "역할",
+      "roleValue": "시스템 관리자"
+    }
   }
 }

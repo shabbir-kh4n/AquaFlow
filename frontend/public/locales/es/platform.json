@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Boletos de soporte",
     "subtitle": "Tickets de soporte e inquietudes planteadas por residentes y administradores de la comunidad en toda la plataforma."
+  },
+  "profile": {
+    "accountTitle": "Cuenta",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Cambiar la contraseña",
+    "loadError": "No se pudo cargar tu perfil. Por favor inténtalo de nuevo.",
+    "fields": {
+      "fullName": "nombre completo",
+      "email": "Correo electrónico",
+      "role": "Role",
+      "roleValue": "Administrador del sistema"
+    }
   }
 }

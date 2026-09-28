@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ticket di supporto",
     "subtitle": "Supporta i ticket e le preoccupazioni sollevate dai residenti e dagli amministratori della comunità, a livello di piattaforma."
+  },
+  "profile": {
+    "accountTitle": "Account",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Cambiare la password",
+    "loadError": "Impossibile caricare il tuo profilo. Per favore riprova.",
+    "fields": {
+      "fullName": "Nome e cognome",
+      "email": "E-mail",
+      "role": "Ruolo",
+      "roleValue": "Amministratore di sistema"
+    }
   }
 }

@@ -222,6 +222,14 @@
         "title": "Support / Concerns",
         "subtitle": "Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you."
       },
+      "reports": {
+        "title": "Community Reports",
+        "subtitle": "Consumption, billing, collection, and bulk-purchase figures for your community."
+      },
+      "announcements": {
+        "title": "Announcements",
+        "subtitle": "Publish community-wide notices to your residents."
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Manage your account details and apartment information."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} isn't built yet",
     "searchPlaceholder": "Search anything…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Reports",
-      "description": "Consumption, billing, and conservation reports for your community."
-    },
-    "announcements": {
-      "title": "Announcements",
-      "description": "Send community-wide announcements to your residents."
-    }
   },
   "comingSoon": {
     "title": "{{title}} is coming soon"
@@ -261,7 +259,9 @@
       "billing": "Billing & Invoices",
       "notifications": "Notifications",
       "recommendations": "Recommendations",
-      "support": "Support / Concerns"
+      "support": "Support / Concerns",
+      "reports": "Your usage & spending reports",
+      "profile": "My profile"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Resident navigation",
@@ -277,7 +277,8 @@
       "communities": "Communities",
       "reports": "Reports",
       "supportTickets": "Support Tickets",
-      "systemStatus": "System Status"
+      "systemStatus": "System Status",
+      "profile": "Profile"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "System Status",
         "subtitle": "Backend connectivity and basic runtime health."
+      },
+      "profile": {
+        "title": "Profile",
+        "subtitle": "Your account, avatar and password"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "Search language…",
     "noMatches": "No matches"
+  },
+  "avatarPicker": {
+    "label": "Choose an avatar",
+    "hint": "Pick one of the preset avatars, or use your initials.",
+    "change": "Change",
+    "cancel": "Cancel",
+    "useInitials": "Use initials",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Save avatar",
+    "saving": "Saving…",
+    "saved": "Avatar updated",
+    "saveError": "Could not update your avatar. Please try again."
+  },
+  "changePassword": {
+    "current": "Current password",
+    "new": "New password",
+    "confirm": "Confirm new password",
+    "hint": "At least {{min}} characters.",
+    "tooShort": "New password must be at least {{min}} characters.",
+    "mismatch": "The new passwords don't match.",
+    "sameAsCurrent": "New password must be different from your current password.",
+    "submit": "Update password",
+    "saving": "Updating…",
+    "success": "Your password has been updated.",
+    "error": "Could not update your password. Please try again."
+  },
+  "search": {
+    "kindPage": "Page",
+    "kindRecord": "Result",
+    "loading": "Searching…",
+    "noResults": "No matches",
+    "recordsUnavailable": "Only pages could be searched right now.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Paid",
+    "unpaid": "Unpaid"
   }
 }

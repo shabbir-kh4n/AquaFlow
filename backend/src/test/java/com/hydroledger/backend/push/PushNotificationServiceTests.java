@@ -108,6 +108,31 @@ class PushNotificationServiceTests {
         verify(pushService).send(any(Notification.class));
     }
 
+    @Test
+    void sendAnnouncementPushSendsOnePerSubscriptionAndSwallowsFailures() throws Exception {
+        when(pushServiceProvider.getIfAvailable()).thenReturn(pushService);
+        PushNotificationService service = new PushNotificationService(pushSubscriptionRepository, pushServiceProvider);
+
+        PushSubscription sub = PushSubscription.builder().id(1L).resident(resident)
+                .endpoint("https://push.example.com/a").p256dhKey(validP256dh).authKey(validAuth).build();
+        when(pushSubscriptionRepository.findByResident(resident)).thenReturn(List.of(sub));
+        doThrow(new RuntimeException("boom")).when(pushService).send(any(Notification.class));
+
+        service.sendAnnouncementPush(resident, "Water shutdown", "x".repeat(500), "https://app/resident/notifications");
+
+        verify(pushService).send(any(Notification.class));
+    }
+
+    @Test
+    void sendAnnouncementPushIsNoOpWhenVapidNotConfigured() {
+        when(pushServiceProvider.getIfAvailable()).thenReturn(null);
+        PushNotificationService service = new PushNotificationService(pushSubscriptionRepository, pushServiceProvider);
+
+        service.sendAnnouncementPush(resident, "Water shutdown", "body", "https://app/resident/notifications");
+
+        verify(pushSubscriptionRepository, never()).findByResident(any());
+    }
+
     private static byte[] generateUncompressedP256Point() throws Exception {
         KeyPairGenerator generator = KeyPairGenerator.getInstance("EC");
         generator.initialize(new ECGenParameterSpec("secp256r1"));

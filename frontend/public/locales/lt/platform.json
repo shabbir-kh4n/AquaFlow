@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Palaikymo bilietai",
     "subtitle": "Palaikykite bilietus ir rūpesčius, kuriuos iškėlė gyventojai ir bendruomenės administratoriai, visoje platformoje."
+  },
+  "profile": {
+    "accountTitle": "sąskaita",
+    "avatarTitle": "Avataras",
+    "passwordTitle": "Keisti slaptažodį",
+    "loadError": "Nepavyko įkelti jūsų profilio. Bandykite dar kartą.",
+    "fields": {
+      "fullName": "Pilnas vardas",
+      "email": "El. paštas",
+      "role": "Vaidmuo",
+      "roleValue": "Sistemos administratorius"
+    }
   }
 }

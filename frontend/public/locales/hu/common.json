@@ -222,6 +222,14 @@
         "title": "Támogatás / Aggodalmak",
         "subtitle": "Emelje fel saját jegyeit a rendszeradminisztrátornak, vagy kezelje a lakói által Önhöz intézett aggályokat."
       },
+      "reports": {
+        "title": "Közösségi jelentések",
+        "subtitle": "Fogyasztási, számlázási, beszedési és tömeges vásárlási adatok a közösség számára."
+      },
+      "announcements": {
+        "title": "Közlemények",
+        "subtitle": "Tegyen közzé az egész közösségre kiterjedő közleményeket lakói számára."
+      },
       "profile": {
         "title": "Beállítások és profil",
         "subtitle": "Kezelje fiókadatait és lakásinformációit."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Közösségi adminisztrátor",
     "notBuilt": "{{label}} még nincs megépítve",
     "searchPlaceholder": "Keressen bármit…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Jelentések",
-      "description": "Fogyasztási, számlázási és megőrzési jelentések a közösség számára."
-    },
-    "announcements": {
-      "title": "Közlemények",
-      "description": "Küldjön közösségre kiterjedő közleményeket lakóinak."
-    }
   },
   "comingSoon": {
     "title": "{{title}} hamarosan érkezik"
@@ -261,7 +259,9 @@
       "billing": "Számlázás és számlák",
       "notifications": "Értesítések",
       "recommendations": "Ajánlások",
-      "support": "Támogatás / Aggodalmak"
+      "support": "Támogatás / Aggodalmak",
+      "reports": "Használati és kiadási jelentései",
+      "profile": "A profilom"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Lakossági navigáció",
@@ -277,7 +277,8 @@
       "communities": "közösségek",
       "reports": "Jelentések",
       "supportTickets": "Támogató jegyek",
-      "systemStatus": "Rendszer állapota"
+      "systemStatus": "Rendszer állapota",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Rendszer állapota",
         "subtitle": "Háttérkapcsolat és alapvető futásidejű állapot."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Fiókod, avatarod és jelszavad"
       }
     },
     "fallbackName": "Rendszergazda",
@@ -308,5 +313,40 @@
     "buttonLabel": "Nyelv: {{language}}",
     "searchPlaceholder": "Nyelv keresése…",
     "noMatches": "Nincs egyezés"
+  },
+  "avatarPicker": {
+    "label": "Válassz egy avatart",
+    "hint": "Válassza ki az előre beállított avatarok egyikét, vagy használja a kezdőbetűit.",
+    "change": "Változás",
+    "cancel": "Mégse",
+    "useInitials": "Használjon kezdőbetűket",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatar mentése",
+    "saving": "Megtakarítás…",
+    "saved": "Az Avatar frissítve",
+    "saveError": "Nem sikerült frissíteni az avatarod. Kérjük, próbálja újra."
+  },
+  "changePassword": {
+    "current": "Jelenlegi jelszó",
+    "new": "Új jelszó",
+    "confirm": "Erősítse meg az új jelszót",
+    "hint": "Legalább {{min}} karakter.",
+    "tooShort": "Az új jelszónak legalább {{min}} karakterből kell állnia.",
+    "mismatch": "Az új jelszavak nem egyeznek.",
+    "sameAsCurrent": "Az új jelszónak különböznie kell a jelenlegi jelszavától.",
+    "submit": "Frissítse a jelszót",
+    "saving": "Frissítés…",
+    "success": "A jelszava frissítve lett.",
+    "error": "Nem sikerült frissíteni a jelszavát. Kérjük, próbálja újra."
+  },
+  "search": {
+    "kindPage": "oldal",
+    "kindRecord": "Eredmény",
+    "loading": "Keresés…",
+    "noResults": "Nincs egyezés",
+    "recordsUnavailable": "Jelenleg csak oldalakon lehet keresni.",
+    "invoiceLabel": "Számla {{period}}",
+    "paid": "Fizetett",
+    "unpaid": "Kifizetetlen"
   }
 }

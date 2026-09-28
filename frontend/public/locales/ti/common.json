@@ -222,6 +222,14 @@
         "title": "ደገፍ / ስክፍታታት",
         "subtitle": "ናይ ገዛእ ርእስኻ ትኬት ናብ ሲስተም ኣድሚን ኣልዕል፣ ወይ ድማ ነበርትኻ ዝቐረቡልካ ስክፍታታት ኣተሓሕዞ።"
       },
+      "reports": {
+        "title": "ጸብጻባት ማሕበረሰብ",
+        "subtitle": "ንማሕበረሰብካ ዝምልከት ኣሃዛት ሃልኪ፡ ሕሳብ፡ ምእካብን ብጅምላ ዕድጊን።"
+      },
+      "announcements": {
+        "title": "ምልክታታት",
+        "subtitle": "ንነበርትኻ ብደረጃ ማሕበረሰብ ዝምልከት ምልክታታት ምሕታም።"
+      },
       "profile": {
         "title": "ቅጥዕታትን ፕሮፋይልን",
         "subtitle": "ዝርዝር ኣካውንትካን ሓበሬታ ኣፓርታማኻን ኣመሓድር።"
@@ -231,16 +239,6 @@
     "fallbackCommunity": "ማሕበረሰብ ኣድሚን",
     "notBuilt": "{{label}} ገና ኣይተሃንጸን።",
     "searchPlaceholder": "ዝኾነ ነገር ድለዩ..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "ጸብጻባት",
-      "description": "ንማሕበረሰብካ ዝኸውን ጸብጻባት ሃልኪ፡ ሕሳብን ዕቃበን።"
-    },
-    "announcements": {
-      "title": "ምልክታታት",
-      "description": "ንነበርትኹም ብደረጃ ማሕበረሰብ ዝምልከት ምልክታታት ስደዱ።"
-    }
   },
   "comingSoon": {
     "title": "{{title}} ኣብ ቀረባ እዋን ይመጽእ ኣሎ።"
@@ -261,7 +259,9 @@
       "billing": "ሕሳብ ምኽፋልን ፋክቱራትን",
       "notifications": "መፍለጢታት",
       "recommendations": "ለበዋታት",
-      "support": "ደገፍ / ስክፍታታት"
+      "support": "ደገፍ / ስክፍታታት",
+      "reports": "ጸብጻባት ኣጠቓቕማ & ወጻኢታትካ",
+      "profile": "ፕሮፋይለይ"
     },
     "defaultTitle": "ነባሪ ዳሽቦርድ",
     "navLabel": "ነባሪ ምጉዓዝ",
@@ -277,7 +277,8 @@
       "communities": "ማሕበረሰባት",
       "reports": "ጸብጻባት",
       "supportTickets": "ናይ ደገፍ ትኬት",
-      "systemStatus": "ኩነታት ስርዓት"
+      "systemStatus": "ኩነታት ስርዓት",
+      "profile": "መግለፂ"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "ኩነታት ስርዓት",
         "subtitle": "ባክኤንድ ምትእስሳርን መሰረታዊ ናይ ምዝዋር ግዜ ጥዕናን።"
+      },
+      "profile": {
+        "title": "መግለፂ",
+        "subtitle": "ኣካውንትካ፡ ኣቫታርካን ፓስዎርድካን"
       }
     },
     "fallbackName": "ስርዓት ኣድሚን",
@@ -308,5 +313,40 @@
     "buttonLabel": "ቋንቋ፡ {{language}}",
     "searchPlaceholder": "ቋንቋ ምድላይ...",
     "noMatches": "ዝኾነ ምትእስሳር የለን"
+  },
+  "avatarPicker": {
+    "label": "ኣቫታር ምረጽ",
+    "hint": "ካብቶም ኣቐዲሞም ዝተቐመጡ ኣቫታራት ሓደ ምረጽ፡ ወይ ድማ ቀዳሞት ፊደላትካ ተጠቐም።",
+    "change": "ለውጢ",
+    "cancel": "ሰርዝ",
+    "useInitials": "ቀዳሞት ፊደላት ተጠቐም",
+    "optionLabel": "ኣቫታር {{number}}",
+    "save": "ኣቫታር ምዕቃብ",
+    "saving": "ዕቋር...",
+    "saved": "ኣቫታር ተሓዲሱ",
+    "saveError": "ኣቫታርካ ከዘምን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+  },
+  "changePassword": {
+    "current": "ናይ ሕጂ ምልክት ቃል",
+    "new": "ሓድሽ ምልክት ቃል",
+    "confirm": "ሓድሽ ምልክት ቃል ኣረጋግጽ",
+    "hint": "እንተወሓደ {{min}} ፊደላት።",
+    "tooShort": "ሓድሽ ምልክት ቃል እንተወሓደ {{min}} ፊደላት ክኸውን ኣለዎ።",
+    "mismatch": "እቶም ሓደስቲ ፓስዎርድታት ኣይሰማምዑን እዮም።",
+    "sameAsCurrent": "ሓድሽ ፓስዎርድ ካብቲ ሕጂ ዘለካ ፓስዎርድ ዝተፈልየ ክኸውን ኣለዎ።",
+    "submit": "ፓስዎርድ ኣዘምንዎ።",
+    "saving": "ኣብ ምዕራፍ...",
+    "success": "ፓስዎርድካ ተሓዲሱ ኣሎ።",
+    "error": "ፓስዎርድካ ከዘምን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+  },
+  "search": {
+    "kindPage": "ገጽ",
+    "kindRecord": "ውፅኢት",
+    "loading": "ምድላይ...",
+    "noResults": "ዝኾነ ምትእስሳር የለን",
+    "recordsUnavailable": "ኣብዚ ሕጂ እዋን ገጻት ጥራይ እዮም ክድለዩ ዝኽእሉ ነይሮም።",
+    "invoiceLabel": "ፋክቱር {{period}}።",
+    "paid": "ተኸፊሉ",
+    "unpaid": "ዘይተኸፍለ"
   }
 }

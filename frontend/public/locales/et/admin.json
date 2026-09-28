@@ -25,7 +25,6 @@
     "title": "{{community}} Korteri armatuurlaud",
     "titleFallback": "Teie korteri juhtpaneel",
     "subtitle": "Veevärgi alammõõtmise ja kodutarbimise toimiv kokkuvõte.",
-    "comingSoon": "Varsti tulemas",
     "manageCommunity": "Halda kogukonda",
     "noUsageReadings": "Kasutusnäitu pole veel salvestatud.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Viimane salvestatud kuu ({{month}})",
       "noReadingsYet": "Näiteid pole veel salvestatud",
       "pendingAlerts": "Ootel hoiatused",
-      "anomalyPreview": "Anomaaliate tuvastamise eelvaade – pole veel saadaval"
+      "reviewAlerts": "Aktiivsed lekke-/kasutushoiatused – vaadake kohe üle",
+      "noActiveAlerts": "Aktiivseid hoiatusi pole"
     },
     "actions": {
       "label": "Kiired haldustoimingud",
       "uploadReadings": "Laadige üles arvesti näidud",
       "configureTariffs": "Tariifide seadistamine",
-      "reportsNotBuilt": "Aruanded pole veel koostatud",
       "downloadReports": "Laadige alla süsteemiaruanded"
     },
     "chart": {
       "title": "Igakuine tarbimise võrdlus (kL)",
       "subtitle": "Viimased {{months}} kuud: eesmärk vs tegelik tarbimine.",
-      "targetSeries": "Siht (eelvaade)",
       "actualSeries": "Tegelik"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Teie profiili ei saanud salvestada. Palun proovi uuesti.",
     "apartmentSaveError": "Korteri andmeid ei õnnestunud salvestada. Palun proovi uuesti.",
     "specsTitle": "Profiili spetsifikatsioonid",
-    "photoUnavailable": "Fotode üleslaadimine pole veel saadaval",
-    "changePhoto": "Muuda fotot",
-    "deletePhoto": "Kustuta",
-    "photoHint": "JPG või PNG. Max suurus 2MB.",
     "saveProfile": "Salvesta profiil",
     "apartmentTitle": "Korteri üksikasjad",
     "saveApartment": "Salvestage korteri üksikasjad",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Kahefaktoriline autentimine pole veel saadaval",
       "twoFactorAria": "Kahefaktoriline autentimine (ainult eelvaade)",
       "sessionsLabel": "Aktiivsed administraatoriseansid",
-      "sessionsEmpty": "Seansi jälgimine pole veel saadaval – see on eelseisva paigutuse eelvaade."
-    }
+      "sessionsEmpty": "Seansi jälgimine pole veel saadaval – see on eelseisva paigutuse eelvaade.",
+      "previewNote": "Ainult eelvaade: kahefaktoriline autentimine ja seansi jälgimine pole veel saadaval."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Muuda parooli"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Residentide piletid",
       "subtitle": "Teie kogukonna elanike tugipiletid ja mured on teie poole pöördunud."
+    }
+  },
+  "reports": {
+    "loadError": "Kommuuni aruannet ei saanud laadida. Palun proovi uuesti.",
+    "pdfError": "Aruannet PDF ei saanud alla laadida. Palun proovi uuesti.",
+    "loading": "Aruande laadimine…",
+    "empty": "Selles vahemikus pole andmeid sisaldavaid leibkondi.",
+    "noMatch": "Ükski leibkond ei vasta \"{{search}}\".",
+    "searchPlaceholder": "Filtreerige maja, elaniku või arvesti nr.",
+    "downloadCsv": "Laadi alla CSV",
+    "downloadPdf": "Laadige alla PDF kokkuvõte",
+    "downloadingPdf": "Ettevalmistus PDF…",
+    "ranges": {
+      "threeMonths": "Viimased 3 kuud",
+      "sixMonths": "Viimased 6 kuud",
+      "twelveMonths": "Viimased 12 kuud",
+      "custom": "Kohandatud vahemik"
+    },
+    "customRange": {
+      "from": "Alates",
+      "to": "To",
+      "hint": "Valige aruande laadimiseks nii algus- kui ka lõpukuu."
+    },
+    "cards": {
+      "totalConsumption": "Kogutarbimine",
+      "households": "{{total}} leibkonnas",
+      "avgMonthly": "Keskmine igakuine tarbimine",
+      "communityWide": "Kogu kogukond, kuus",
+      "billed": "Arveldatud",
+      "finalizedOnly": "Ainult lõpetatud ja arhiveeritud tsüklid",
+      "paid": "Tasuline",
+      "invoices": "{{total}} väljastatud arveid",
+      "outstanding": "Silmapaistev",
+      "unpaidInvoices": "{{total}} tasumata arveid",
+      "collectionRate": "Kogumismäär"
+    },
+    "costs": {
+      "title": "Kulud vs tulud",
+      "commonArea": "Ühispinna tasud arveldatud",
+      "bulkCost": "Lahtise vee ostmise maksumus",
+      "bulkVolume": "Ostetud lahtiselt vesi",
+      "bulkCount": "{{total}} ostu",
+      "billedMinusBulk": "Arveldatud tulu miinus hulgikulud",
+      "note": "Hulgiostude puhul jälgitakse kulude nähtavust ja nende eest ei esitata arveid otse leibkondadele."
+    },
+    "top": {
+      "title": "Tipptarbijad",
+      "empty": "Selles vahemikus pole tarbimist registreeritud."
+    },
+    "charts": {
+      "consumptionTitle": "Igakuine tarbimine",
+      "consumptionSeries": "Tarbimine",
+      "billingTitle": "Arveldatud vs. tasutud vs hulgikulu",
+      "billedSeries": "Arveldatud",
+      "paidSeries": "Tasuline",
+      "bulkSeries": "Hulgiostu maksumus",
+      "empty": "Selle vahemiku kohta andmed puuduvad."
+    },
+    "sort": {
+      "label": "Sorteeri",
+      "toggleDirection": "Lülita sortimissuunda",
+      "asc": "↑ Asc",
+      "desc": "↓ Kirjeldus"
+    },
+    "table": {
+      "house": "Maja",
+      "resident": "Resident",
+      "meter": "Mõõdik",
+      "totalKl": "Kokku kL",
+      "avgMonthlyKl": "Keskmine kuu kL",
+      "billed": "Arveldatud",
+      "paid": "Tasuline",
+      "outstanding": "Silmapaistev"
+    }
+  },
+  "announcements": {
+    "loadError": "Teateid ei saanud laadida. Palun proovi uuesti.",
+    "removeError": "Seda teadet ei saanud kustutada. Palun proovi uuesti.",
+    "loading": "Teadete laadimine…",
+    "empty": "Teadaanded veel puuduvad. Elanike teavitamiseks klõpsake \"Uus teadaanne\".",
+    "count": "Teated: {{total}}",
+    "newButton": "+ Uus teadaanne",
+    "pinned": "Kinnitatud",
+    "expired": "Aegunud",
+    "postedAt": "Postitatud {{date}}",
+    "updatedAt": "Redigeeritud {{date}}",
+    "expiresAt": "Aegub {{date}}",
+    "category": {
+      "general": "Kindral",
+      "maintenance": "Hooldus",
+      "waterSupply": "Veevarustus",
+      "billing": "Arveldamine",
+      "urgent": "Kiireloomuline"
+    },
+    "form": {
+      "addTitle": "Uus teadaanne",
+      "editTitle": "Redigeeri teadaannet",
+      "addSubtitle": "Elanikud näevad seda oma teavituste lehel ja kõiki, kellel on tõukemärguanded lubatud, teavitatakse sellest kohe.",
+      "editSubtitle": "Muudatused värskendavad teadaannet. Elanikke uuesti ei teavitata.",
+      "title": "Pealkiri",
+      "category": "Kategooria",
+      "expiresAt": "Aegub (valikuline)",
+      "body": "Sõnum",
+      "pinned": "Kinnitage elanike teadete ülaossa",
+      "requiredFields": "Sisestage pealkiri ja sõnum.",
+      "saveError": "Seda teadet ei saanud salvestada. Palun kontrollige üksikasju.",
+      "publish": "Avalda"
+    },
+    "confirm": {
+      "title": "Kas kustutada teadaanne?",
+      "body": "\"{{title}}\" eemaldatakse kõigi elanike jaoks. Seda ei saa tagasi võtta.",
+      "delete": "Kustuta",
+      "deleting": "Kustutamine…"
     }
   }
 }

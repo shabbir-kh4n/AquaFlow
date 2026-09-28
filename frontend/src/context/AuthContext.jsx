@@ -34,6 +34,17 @@ export function AuthProvider({ children }) {
     persistSession(response)
   }, [])
 
+  // Merges changed profile fields (e.g. { avatarKey }) into the stored user in place,
+  // without touching the token.
+  const updateUser = useCallback((patch) => {
+    setUser((prev) => {
+      if (!prev) return prev
+      const next = { ...prev, ...patch }
+      localStorage.setItem(USER_KEY, JSON.stringify(next))
+      return next
+    })
+  }, [])
+
   const logout = useCallback(() => {
     localStorage.removeItem(TOKEN_KEY)
     localStorage.removeItem(USER_KEY)
@@ -41,8 +52,8 @@ export function AuthProvider({ children }) {
   }, [])
 
   const value = useMemo(
-    () => ({ user, isAuthenticated: !!user, login, register, setSession, logout }),
-    [user, login, register, setSession, logout],
+    () => ({ user, isAuthenticated: !!user, login, register, setSession, updateUser, logout }),
+    [user, login, register, setSession, updateUser, logout],
   )
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

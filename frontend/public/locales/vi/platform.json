@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Vé hỗ trợ",
     "subtitle": "Hỗ trợ vé và các mối quan tâm được người dân và quản trị viên cộng đồng nêu ra trên toàn nền tảng."
+  },
+  "profile": {
+    "accountTitle": "Tài khoản",
+    "avatarTitle": "Hình đại diện",
+    "passwordTitle": "Thay đổi mật khẩu",
+    "loadError": "Không thể tải hồ sơ của bạn. Vui lòng thử lại.",
+    "fields": {
+      "fullName": "Tên đầy đủ",
+      "email": "E-mail",
+      "role": "Vai trò",
+      "roleValue": "Quản trị viên hệ thống"
+    }
   }
 }

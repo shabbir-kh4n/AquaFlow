@@ -222,6 +222,14 @@
         "title": "지원/우려사항",
         "subtitle": "시스템 관리자에게 자신의 티켓을 제출하거나 주민들이 귀하에게 제기한 문제를 처리하십시오."
       },
+      "reports": {
+        "title": "커뮤니티 보고서",
+        "subtitle": "커뮤니티의 소비, 청구, 수집 및 대량 구매 수치입니다."
+      },
+      "announcements": {
+        "title": "공지사항",
+        "subtitle": "주민들에게 커뮤니티 전체에 공지사항을 게시하세요."
+      },
       "profile": {
         "title": "설정 및 프로필",
         "subtitle": "계정 세부정보 및 아파트 정보를 관리하세요."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "커뮤니티 관리자",
     "notBuilt": "{{label}}은(는) 아직 빌드되지 않았습니다.",
     "searchPlaceholder": "무엇이든 검색하세요…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "보고서",
-      "description": "지역사회의 소비, 청구 및 보존 보고서입니다."
-    },
-    "announcements": {
-      "title": "공지사항",
-      "description": "지역사회 전체의 공지사항을 주민들에게 보냅니다."
-    }
   },
   "comingSoon": {
     "title": "{{title}}이(가) 곧 출시됩니다"
@@ -261,7 +259,9 @@
       "billing": "청구 및 송장",
       "notifications": "알림",
       "recommendations": "권장사항",
-      "support": "지원/우려사항"
+      "support": "지원/우려사항",
+      "reports": "사용 및 지출 보고서",
+      "profile": "내 프로필"
     },
     "defaultTitle": "주민 대시보드",
     "navLabel": "주민 내비게이션",
@@ -277,7 +277,8 @@
       "communities": "커뮤니티",
       "reports": "보고서",
       "supportTickets": "지원 티켓",
-      "systemStatus": "시스템 상태"
+      "systemStatus": "시스템 상태",
+      "profile": "윤곽"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "시스템 상태",
         "subtitle": "백엔드 연결 및 기본 런타임 상태."
+      },
+      "profile": {
+        "title": "윤곽",
+        "subtitle": "귀하의 계정, 아바타 및 비밀번호"
       }
     },
     "fallbackName": "시스템 관리자",
@@ -308,5 +313,40 @@
     "buttonLabel": "언어: {{language}}",
     "searchPlaceholder": "검색 언어…",
     "noMatches": "일치하는 항목 없음"
+  },
+  "avatarPicker": {
+    "label": "아바타를 선택하세요",
+    "hint": "미리 설정된 아바타 중 하나를 선택하거나 이니셜을 사용하세요.",
+    "change": "변화",
+    "cancel": "취소",
+    "useInitials": "이니셜을 사용하세요",
+    "optionLabel": "아바타 {{number}}",
+    "save": "아바타 저장",
+    "saving": "절약…",
+    "saved": "아바타가 업데이트되었습니다.",
+    "saveError": "아바타를 업데이트할 수 없습니다. 다시 시도해 주세요."
+  },
+  "changePassword": {
+    "current": "현재 비밀번호",
+    "new": "새 비밀번호",
+    "confirm": "새 비밀번호 확인",
+    "hint": "최소 {{min}}자 이상입니다.",
+    "tooShort": "새 비밀번호는 {{min}}자 이상이어야 합니다.",
+    "mismatch": "새 비밀번호가 일치하지 않습니다.",
+    "sameAsCurrent": "새 비밀번호는 현재 비밀번호와 달라야 합니다.",
+    "submit": "비밀번호 업데이트",
+    "saving": "업데이트 중…",
+    "success": "귀하의 비밀번호가 업데이트되었습니다.",
+    "error": "비밀번호를 업데이트할 수 없습니다. 다시 시도해 주세요."
+  },
+  "search": {
+    "kindPage": "페이지",
+    "kindRecord": "결과",
+    "loading": "수색…",
+    "noResults": "일치하는 항목 없음",
+    "recordsUnavailable": "지금은 페이지만 검색할 수 있습니다.",
+    "invoiceLabel": "송장 {{period}}",
+    "paid": "유급의",
+    "unpaid": "미지급"
   }
 }

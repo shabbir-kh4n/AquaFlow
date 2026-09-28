@@ -222,6 +222,14 @@
         "title": "Appoġġ / Tħassib",
         "subtitle": "Għolli l-biljetti tiegħek lill-Amministratur tas-Sistema, jew maniġġa t-tħassib li r-residenti tiegħek indirizzawlek."
       },
+      "reports": {
+        "title": "Rapporti tal-Komunità",
+        "subtitle": "Ċifri ta' konsum, kontijiet, ġbir u xiri bl-ingrossa għall-komunità tiegħek."
+      },
+      "announcements": {
+        "title": "Avviżi",
+        "subtitle": "Ippubblika avviżi mal-komunità kollha lir-residenti tiegħek."
+      },
       "profile": {
         "title": "Settings & Profil",
         "subtitle": "Immaniġġja d-dettalji tal-kont tiegħek u l-informazzjoni tal-appartament."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Amministratur tal-Komunità",
     "notBuilt": "{{label}} għadu mhux mibni",
     "searchPlaceholder": "Fittex xi ħaġa..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporti",
-      "description": "Rapporti dwar il-konsum, il-kontijiet u l-konservazzjoni għall-komunità tiegħek."
-    },
-    "announcements": {
-      "title": "Avviżi",
-      "description": "Ibgħat avviżi mal-komunità kollha lir-residenti tiegħek."
-    }
   },
   "comingSoon": {
     "title": "{{title}} dalwaqt"
@@ -261,7 +259,9 @@
       "billing": "Kontijiet u Fatturi",
       "notifications": "Notifiki",
       "recommendations": "Rakkomandazzjonijiet",
-      "support": "Appoġġ / Tħassib"
+      "support": "Appoġġ / Tħassib",
+      "reports": "Ir-rapporti tal-użu u tal-infiq tiegħek",
+      "profile": "Il-profil tiegħi"
     },
     "defaultTitle": "Dashboard Residenti",
     "navLabel": "Navigazzjoni residenti",
@@ -277,7 +277,8 @@
       "communities": "Komunitajiet",
       "reports": "Rapporti",
       "supportTickets": "Biljetti ta' Appoġġ",
-      "systemStatus": "Status tas-Sistema"
+      "systemStatus": "Status tas-Sistema",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Status tas-Sistema",
         "subtitle": "Konnettività backend u saħħa runtime bażika."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Il-kont, l-avatar u l-password tiegħek"
       }
     },
     "fallbackName": "Amministratur tas-Sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lingwa: {{language}}",
     "searchPlaceholder": "Fittex il-lingwa...",
     "noMatches": "Ebda logħbiet"
+  },
+  "avatarPicker": {
+    "label": "Agħżel avatar",
+    "hint": "Agħżel wieħed mill-avatars issettjati minn qabel, jew uża l-inizjali tiegħek.",
+    "change": "Bidla",
+    "cancel": "Ikkanċella",
+    "useInitials": "Uża l-inizjali",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Issejvja l-avatar",
+    "saving": "Insalva...",
+    "saved": "Avatar aġġornat",
+    "saveError": "Ma setgħetx taġġorna l-avatar tiegħek. Jekk jogħġbok erġa' pprova."
+  },
+  "changePassword": {
+    "current": "Password kurrenti",
+    "new": "Password ġdida",
+    "confirm": "Ikkonferma password ġdida",
+    "hint": "Mill-inqas {{min}} karattri.",
+    "tooShort": "Il-password il-ġdida trid tkun mill-inqas {{min}} karattri.",
+    "mismatch": "Il-passwords il-ġodda ma jaqblux.",
+    "sameAsCurrent": "Il-password il-ġdida trid tkun differenti mill-password attwali tiegħek.",
+    "submit": "Aġġorna l-password",
+    "saving": "Aġġornament...",
+    "success": "Il-password tiegħek ġiet aġġornata.",
+    "error": "Ma setgħetx taġġorna l-password tiegħek. Jekk jogħġbok erġa' pprova."
+  },
+  "search": {
+    "kindPage": "Paġna",
+    "kindRecord": "Riżultat",
+    "loading": "Qed tfittex...",
+    "noResults": "Ebda logħbiet",
+    "recordsUnavailable": "Paġni biss setgħu jiġu mfittxija bħalissa.",
+    "invoiceLabel": "Fattura {{period}}",
+    "paid": "Imħallas",
+    "unpaid": "Mhux imħallas"
   }
 }

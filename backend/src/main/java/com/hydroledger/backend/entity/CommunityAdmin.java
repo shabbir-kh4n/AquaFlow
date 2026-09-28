@@ -44,6 +44,9 @@ public class CommunityAdmin {
 
     private String unitNumber;
 
+    @Column(name = "avatar_key", length = 32)
+    private String avatarKey;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     @ColumnDefault("'ACTIVE'")

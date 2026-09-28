@@ -222,6 +222,14 @@
         "title": "Goldaw / aladalar",
         "subtitle": "Ulgam dolandyryjysyna öz biletleriňizi galdyryň ýa-da ýaşaýjylaryňyzyň size ýüzlenýän aladalaryny çözüň."
       },
+      "reports": {
+        "title": "Jemgyýet hasabaty",
+        "subtitle": "Jemgyýetiňiz üçin sarp ediş, hasaplaşyk, ýygnamak we köp satyn almak sanlary."
+      },
+      "announcements": {
+        "title": "Bildirişler",
+        "subtitle": "Residentsaşaýjylaryňyza jemgyýetçilik habarnamalaryny çap ediň."
+      },
       "profile": {
         "title": "Sazlamalar we profil",
         "subtitle": "Hasabyňyzyň jikme-jikliklerini we kwartira maglumatlaryny dolandyryň."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Jemgyýet dolandyryjysy",
     "notBuilt": "{{label}} entek gurlanok",
     "searchPlaceholder": "Islän zadyňyzy gözläň ..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Hasabat",
-      "description": "Jemgyýetiňiz üçin sarp ediş, töleg we gorap saklamak hasabatlary."
-    },
-    "announcements": {
-      "title": "Bildirişler",
-      "description": "Residentsaşaýjylaryňyza jemgyýetçilik bildirişlerini iberiň."
-    }
   },
   "comingSoon": {
     "title": "{{title}} ýakyn wagtda geler"
@@ -261,7 +259,9 @@
       "billing": "Hasaplaşyk we hasap-fakturalar",
       "notifications": "Duýduryşlar",
       "recommendations": "Teklipler",
-      "support": "Goldaw / aladalar"
+      "support": "Goldaw / aladalar",
+      "reports": "Ulanyş we çykdajy hasabatlaryňyz",
+      "profile": "Meniň profilim"
     },
     "defaultTitle": "Resident Dolandyryş paneli",
     "navLabel": "Identaşaýjy nawigasiýa",
@@ -277,7 +277,8 @@
       "communities": "Jemgyýetler",
       "reports": "Hasabat",
       "supportTickets": "Goldaw biletleri",
-      "systemStatus": "Ulgam ýagdaýy"
+      "systemStatus": "Ulgam ýagdaýy",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Ulgam ýagdaýy",
         "subtitle": "Arka baglanyşyk we iş wagtynyň saglygy."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Hasabyňyz, awataryňyz we parolyňyz"
       }
     },
     "fallbackName": "Ulgam dolandyryjysy",
@@ -308,5 +313,40 @@
     "buttonLabel": "Dil: {{language}}",
     "searchPlaceholder": "Gözleg dili…",
     "noMatches": "Gabat gelenok"
+  },
+  "avatarPicker": {
+    "label": "Awatar saýlaň",
+    "hint": "Öňünden kesgitlenen awatarlardan birini saýlaň ýa-da baş harplaryňyzy ulanyň.",
+    "change": "Üýtget",
+    "cancel": "Elatyr",
+    "useInitials": "Baş harplary ulanyň",
+    "optionLabel": "Awatar {{number}}",
+    "save": "Awatary ýatda saklaň",
+    "saving": "Tygşytlamak…",
+    "saved": "Awatar täzelendi",
+    "saveError": "Awataryňyzy täzeläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris."
+  },
+  "changePassword": {
+    "current": "Häzirki parol",
+    "new": "Täze parol",
+    "confirm": "Täze paroly tassyklaň",
+    "hint": "Iň bolmanda {{min}} nyşan.",
+    "tooShort": "Täze parol iň bolmanda {{min}} nyşan bolmaly.",
+    "mismatch": "Täze parollar gabat gelenok",
+    "sameAsCurrent": "Täze parol häzirki parolyňyzdan tapawutly bolmaly.",
+    "submit": "Paroly täzeläň",
+    "saving": "Täzelenme…",
+    "success": "Parolyňyz täzelendi",
+    "error": "Parolyňyzy täzeläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris."
+  },
+  "search": {
+    "kindPage": "Sahypa",
+    "kindRecord": "Netije",
+    "loading": "Gözleg…",
+    "noResults": "Gabat gelenok",
+    "recordsUnavailable": "Häzirki wagtda diňe sahypalary gözläp bolýar.",
+    "invoiceLabel": "Hasap-faktura {{period}}",
+    "paid": "Tölegli",
+    "unpaid": "Tölenmedik"
   }
 }

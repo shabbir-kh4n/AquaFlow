@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Amatikiti enkxaso",
     "subtitle": "Amatikiti enkxaso kunye neenkxalabo eziphakanyiswe ngabahlali kunye nabalawuli boluntu, iqonga-ngokubanzi."
+  },
+  "profile": {
+    "accountTitle": "Iakhawunti",
+    "avatarTitle": "IAvatar",
+    "passwordTitle": "Tshintsha iphasiwedi",
+    "loadError": "Ayikwazanga ukulayisha iprofayile yakho. Nceda zama kwakhona.",
+    "fields": {
+      "fullName": "Igama eliphelele",
+      "email": "I-imeyile",
+      "role": "Indima",
+      "roleValue": "Umlawuli weNkqubo"
+    }
   }
 }

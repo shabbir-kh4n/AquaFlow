@@ -222,6 +222,14 @@
         "title": "Supporto/Preoccupazioni",
         "subtitle": "Presenta i tuoi ticket all'amministratore di sistema o gestisci le preoccupazioni che i tuoi residenti ti hanno rivolto."
       },
+      "reports": {
+        "title": "Rapporti della comunità",
+        "subtitle": "Dati su consumo, fatturazione, raccolta e acquisti in blocco per la tua comunità."
+      },
+      "announcements": {
+        "title": "Annunci",
+        "subtitle": "Pubblica avvisi a livello comunitario per i tuoi residenti."
+      },
       "profile": {
         "title": "Impostazioni e profilo",
         "subtitle": "Gestisci i dettagli del tuo account e le informazioni sull'appartamento."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Amministratore della comunità",
     "notBuilt": "{{label}} non è ancora stato creato",
     "searchPlaceholder": "Cerca qualsiasi cosa…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporti",
-      "description": "Report su consumo, fatturazione e conservazione per la tua comunità."
-    },
-    "announcements": {
-      "title": "Annunci",
-      "description": "Invia annunci a livello comunitario ai tuoi residenti."
-    }
   },
   "comingSoon": {
     "title": "{{title}} sarà presto disponibile"
@@ -261,7 +259,9 @@
       "billing": "Fatturazione e fatture",
       "notifications": "Notifiche",
       "recommendations": "Raccomandazioni",
-      "support": "Supporto/Preoccupazioni"
+      "support": "Supporto/Preoccupazioni",
+      "reports": "I tuoi report sull'utilizzo e sulla spesa",
+      "profile": "Il mio profilo"
     },
     "defaultTitle": "Dashboard residente",
     "navLabel": "Navigazione residente",
@@ -277,7 +277,8 @@
       "communities": "Comunità",
       "reports": "Rapporti",
       "supportTickets": "Ticket di supporto",
-      "systemStatus": "Stato del sistema"
+      "systemStatus": "Stato del sistema",
+      "profile": "Profilo"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stato del sistema",
         "subtitle": "Connettività backend e integrità di runtime di base."
+      },
+      "profile": {
+        "title": "Profilo",
+        "subtitle": "Il tuo account, avatar e password"
       }
     },
     "fallbackName": "Amministratore di sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lingua: {{language}}",
     "searchPlaceholder": "Cerca lingua...",
     "noMatches": "Nessuna corrispondenza"
+  },
+  "avatarPicker": {
+    "label": "Scegli un avatar",
+    "hint": "Scegli uno degli avatar preimpostati o usa le tue iniziali.",
+    "change": "Modifica",
+    "cancel": "Cancellare",
+    "useInitials": "Usa le iniziali",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Salva l'avatar",
+    "saving": "Risparmio…",
+    "saved": "Avatar aggiornato",
+    "saveError": "Impossibile aggiornare il tuo avatar. Per favore riprova."
+  },
+  "changePassword": {
+    "current": "Password attuale",
+    "new": "Nuova password",
+    "confirm": "Conferma la nuova password",
+    "hint": "Almeno {{min}} caratteri.",
+    "tooShort": "La nuova password deve contenere almeno {{min}} caratteri.",
+    "mismatch": "Le nuove password non corrispondono.",
+    "sameAsCurrent": "La nuova password deve essere diversa dalla password attuale.",
+    "submit": "Aggiorna password",
+    "saving": "Aggiornamento…",
+    "success": "La tua password è stata aggiornata.",
+    "error": "Impossibile aggiornare la password. Per favore riprova."
+  },
+  "search": {
+    "kindPage": "Pagina",
+    "kindRecord": "Risultato",
+    "loading": "Ricerca…",
+    "noResults": "Nessuna corrispondenza",
+    "recordsUnavailable": "Al momento è possibile cercare solo le pagine.",
+    "invoiceLabel": "Fattura {{period}}",
+    "paid": "Pagato",
+    "unpaid": "Non pagato"
   }
 }

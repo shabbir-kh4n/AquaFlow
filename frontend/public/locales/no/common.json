@@ -222,6 +222,14 @@
         "title": "Støtte / Bekymringer",
         "subtitle": "Hent dine egne billetter til systemadministratoren, eller håndter bekymringer som beboerne har rettet til deg."
       },
+      "reports": {
+        "title": "Fellesskapsrapporter",
+        "subtitle": "Tall for forbruk, fakturering, innkreving og bulkkjøp for samfunnet ditt."
+      },
+      "announcements": {
+        "title": "Kunngjøringer",
+        "subtitle": "Publiser fellesskapsomfattende meldinger til beboerne dine."
+      },
       "profile": {
         "title": "Innstillinger og profil",
         "subtitle": "Administrer kontodetaljer og leilighetsinformasjon."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Fellesskapsadministrator",
     "notBuilt": "{{label}} er ikke bygget ennå",
     "searchPlaceholder": "Søk etter hva som helst..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporter",
-      "description": "Forbruks-, fakturerings- og bevaringsrapporter for samfunnet ditt."
-    },
-    "announcements": {
-      "title": "Kunngjøringer",
-      "description": "Send fellesskapsomfattende kunngjøringer til beboerne dine."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kommer snart"
@@ -261,7 +259,9 @@
       "billing": "Fakturering og faktura",
       "notifications": "Varsler",
       "recommendations": "Anbefalinger",
-      "support": "Støtte / Bekymringer"
+      "support": "Støtte / Bekymringer",
+      "reports": "Dine bruks- og utgiftsrapporter",
+      "profile": "Min profil"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Beboernavigasjon",
@@ -277,7 +277,8 @@
       "communities": "Fellesskap",
       "reports": "Rapporter",
       "supportTickets": "Støttebilletter",
-      "systemStatus": "Systemstatus"
+      "systemStatus": "Systemstatus",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Systemstatus",
         "subtitle": "Backend-tilkobling og grunnleggende kjøretidshelse."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Din konto, avatar og passord"
       }
     },
     "fallbackName": "Systemadmin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Språk: {{language}}",
     "searchPlaceholder": "Søk etter språk...",
     "noMatches": "Ingen treff"
+  },
+  "avatarPicker": {
+    "label": "Velg en avatar",
+    "hint": "Velg en av de forhåndsinnstilte avatarene, eller bruk initialene dine.",
+    "change": "Endre",
+    "cancel": "Kansellere",
+    "useInitials": "Bruk initialer",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Lagre avatar",
+    "saving": "Lagrer …",
+    "saved": "Avatar oppdatert",
+    "saveError": "Kunne ikke oppdatere avataren din. Vennligst prøv igjen."
+  },
+  "changePassword": {
+    "current": "Gjeldende passord",
+    "new": "Nytt passord",
+    "confirm": "Bekreft nytt passord",
+    "hint": "Minst {{min}} tegn.",
+    "tooShort": "Nytt passord må bestå av minst {{min}} tegn.",
+    "mismatch": "De nye passordene stemmer ikke.",
+    "sameAsCurrent": "Nytt passord må være forskjellig fra ditt nåværende passord.",
+    "submit": "Oppdater passord",
+    "saving": "Oppdaterer …",
+    "success": "Passordet ditt er oppdatert.",
+    "error": "Kunne ikke oppdatere passordet ditt. Vennligst prøv igjen."
+  },
+  "search": {
+    "kindPage": "Side",
+    "kindRecord": "Resultat",
+    "loading": "Søker …",
+    "noResults": "Ingen treff",
+    "recordsUnavailable": "Bare sider kunne søkes i akkurat nå.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Betalt",
+    "unpaid": "Ubetalt"
   }
 }

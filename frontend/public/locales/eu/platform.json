@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Laguntza Sarrerak",
     "subtitle": "Laguntza-txartelak eta bizilagunek eta komunitateko administratzaileek planteatutako kezkak, plataforma osoan."
+  },
+  "profile": {
+    "accountTitle": "Kontua",
+    "avatarTitle": "Avatarra",
+    "passwordTitle": "Aldatu pasahitza",
+    "loadError": "Ezin izan da zure profila kargatu. Mesedez, saiatu berriro.",
+    "fields": {
+      "fullName": "Izen osoa",
+      "email": "Posta elektronikoa",
+      "role": "Rola",
+      "roleValue": "Sistema Administratzailea"
+    }
   }
 }

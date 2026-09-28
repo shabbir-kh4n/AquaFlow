@@ -222,6 +222,14 @@
         "title": "תמיכה / דאגות",
         "subtitle": "העלו כרטיסים משלכם למנהל המערכת, או טפלו בחששות שהתושבים שלכם פנו אליכם."
       },
+      "reports": {
+        "title": "דוחות קהילה",
+        "subtitle": "נתוני צריכה, חיוב, גבייה ורכישה בכמות גדולה עבור הקהילה שלך."
+      },
+      "announcements": {
+        "title": "הכרזות",
+        "subtitle": "פרסם הודעות כלל-קהילתיות לתושבים שלך."
+      },
       "profile": {
         "title": "הגדרות ופרופיל",
         "subtitle": "נהל את פרטי החשבון ופרטי הדירה שלך."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "מנהל קהילה",
     "notBuilt": "{{label}} עדיין לא נבנה",
     "searchPlaceholder": "חפש בכל דבר…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "דוחות",
-      "description": "דוחות צריכה, חיוב ושימור עבור הקהילה שלך."
-    },
-    "announcements": {
-      "title": "הכרזות",
-      "description": "שלח הודעות כלל-קהילתיות לתושבים שלך."
-    }
   },
   "comingSoon": {
     "title": "{{title}} בקרוב"
@@ -261,7 +259,9 @@
       "billing": "חיוב וחשבוניות",
       "notifications": "התראות",
       "recommendations": "המלצות",
-      "support": "תמיכה / דאגות"
+      "support": "תמיכה / דאגות",
+      "reports": "דוחות השימוש וההוצאות שלך",
+      "profile": "הפרופיל שלי"
     },
     "defaultTitle": "לוח מחוונים של תושב",
     "navLabel": "ניווט תושבים",
@@ -277,7 +277,8 @@
       "communities": "קהילות",
       "reports": "דוחות",
       "supportTickets": "כרטיסי תמיכה",
-      "systemStatus": "מצב מערכת"
+      "systemStatus": "מצב מערכת",
+      "profile": "פּרוֹפִיל"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "מצב מערכת",
         "subtitle": "קישוריות אחורי ובריאות זמן ריצה בסיסית."
+      },
+      "profile": {
+        "title": "פּרוֹפִיל",
+        "subtitle": "החשבון, הדמות והסיסמה שלך"
       }
     },
     "fallbackName": "מנהל מערכת",
@@ -308,5 +313,40 @@
     "buttonLabel": "שפה: {{language}}",
     "searchPlaceholder": "שפת חיפוש...",
     "noMatches": "אין התאמות"
+  },
+  "avatarPicker": {
+    "label": "בחר אווטאר",
+    "hint": "בחר אחד מהאווטרים המוגדרים מראש, או השתמש בראשי התיבות שלך.",
+    "change": "לְשַׁנוֹת",
+    "cancel": "לְבַטֵל",
+    "useInitials": "השתמש בראשי תיבות",
+    "optionLabel": "אוואטר {{number}}",
+    "save": "שמור את הדמות",
+    "saving": "חִסָכוֹן…",
+    "saved": "אווטאר עודכן",
+    "saveError": "לא ניתן היה לעדכן את הדמות שלך. אנא נסה שוב."
+  },
+  "changePassword": {
+    "current": "סיסמה נוכחית",
+    "new": "סיסמה חדשה",
+    "confirm": "אשר סיסמה חדשה",
+    "hint": "לפחות {{min}} תווים.",
+    "tooShort": "הסיסמה החדשה חייבת להיות לפחות {{min}} תווים.",
+    "mismatch": "הסיסמאות החדשות אינן תואמות.",
+    "sameAsCurrent": "הסיסמה החדשה חייבת להיות שונה מהסיסמה הנוכחית שלך.",
+    "submit": "עדכן סיסמה",
+    "saving": "עִדכּוּן…",
+    "success": "הסיסמה שלך עודכנה.",
+    "error": "לא ניתן היה לעדכן את הסיסמה שלך. אנא נסה שוב."
+  },
+  "search": {
+    "kindPage": "עַמוּד",
+    "kindRecord": "תוֹצָאָה",
+    "loading": "מחפש...",
+    "noResults": "אין התאמות",
+    "recordsUnavailable": "כרגע ניתן היה לחפש רק דפים.",
+    "invoiceLabel": "חשבונית {{period}}",
+    "paid": "בתשלום",
+    "unpaid": "ללא תשלום"
   }
 }

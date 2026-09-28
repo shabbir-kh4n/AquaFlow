@@ -222,6 +222,14 @@
         "title": "Mbështetje / Shqetësime",
         "subtitle": "Ngrini biletat tuaja te Administratori i Sistemit ose trajtoni shqetësimet që banorët tuaj ju kanë adresuar."
       },
+      "reports": {
+        "title": "Raportet e Komunitetit",
+        "subtitle": "Shifrat e konsumit, faturimit, grumbullimit dhe blerjeve me shumicë për komunitetin tuaj."
+      },
+      "announcements": {
+        "title": "Njoftimet",
+        "subtitle": "Publikoni njoftime në mbarë komunitetin për banorët tuaj."
+      },
       "profile": {
         "title": "Cilësimet dhe Profili",
         "subtitle": "Menaxhoni detajet e llogarisë tuaj dhe informacionin e apartamentit."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administratori i komunitetit",
     "notBuilt": "{{label}} nuk është ndërtuar ende",
     "searchPlaceholder": "Kërkoni ndonjë gjë…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raportet",
-      "description": "Raportet e konsumit, faturimit dhe ruajtjes për komunitetin tuaj."
-    },
-    "announcements": {
-      "title": "Njoftimet",
-      "description": "Dërgoni njoftime në mbarë komunitetin për banorët tuaj."
-    }
   },
   "comingSoon": {
     "title": "{{title}} vjen së shpejti"
@@ -261,7 +259,9 @@
       "billing": "Faturimi & Faturat",
       "notifications": "Njoftimet",
       "recommendations": "Rekomandime",
-      "support": "Mbështetje / Shqetësime"
+      "support": "Mbështetje / Shqetësime",
+      "reports": "Raportet tuaja të përdorimit dhe shpenzimeve",
+      "profile": "Profili im"
     },
     "defaultTitle": "Paneli i rezidentit",
     "navLabel": "Navigacion rezident",
@@ -277,7 +277,8 @@
       "communities": "Komunitetet",
       "reports": "Raportet",
       "supportTickets": "Biletat e mbështetjes",
-      "systemStatus": "Statusi i Sistemit"
+      "systemStatus": "Statusi i Sistemit",
+      "profile": "Profili"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Statusi i Sistemit",
         "subtitle": "Lidhja me bazën e pasme dhe shëndeti bazë i kohës së funksionimit."
+      },
+      "profile": {
+        "title": "Profili",
+        "subtitle": "Llogaria, avatari dhe fjalëkalimi juaj"
       }
     },
     "fallbackName": "Administratori i sistemit",
@@ -308,5 +313,40 @@
     "buttonLabel": "Gjuha: {{language}}",
     "searchPlaceholder": "Kërko gjuhën…",
     "noMatches": "Nuk ka ndeshje"
+  },
+  "avatarPicker": {
+    "label": "Zgjidhni një avatar",
+    "hint": "Zgjidhni një nga avatarët e paracaktuar ose përdorni inicialet tuaja.",
+    "change": "Ndryshimi",
+    "cancel": "Anulo",
+    "useInitials": "Përdorni inicialet",
+    "optionLabel": "Avatari {{number}}",
+    "save": "Ruaj avatarin",
+    "saving": "Po ruan…",
+    "saved": "Avatari u përditësua",
+    "saveError": "Avatari yt nuk mund të përditësohej. Ju lutemi provoni përsëri."
+  },
+  "changePassword": {
+    "current": "Fjalëkalimi aktual",
+    "new": "Fjalëkalim i ri",
+    "confirm": "Konfirmo fjalëkalimin e ri",
+    "hint": "Të paktën {{min}} karaktere.",
+    "tooShort": "Fjalëkalimi i ri duhet të ketë të paktën {{min}} karaktere.",
+    "mismatch": "Fjalëkalimet e reja nuk përputhen.",
+    "sameAsCurrent": "Fjalëkalimi i ri duhet të jetë i ndryshëm nga fjalëkalimi juaj aktual.",
+    "submit": "Përditëso fjalëkalimin",
+    "saving": "Po përditëson…",
+    "success": "Fjalëkalimi juaj është përditësuar.",
+    "error": "Fjalëkalimi nuk mund të përditësohej. Ju lutemi provoni përsëri."
+  },
+  "search": {
+    "kindPage": "Faqe",
+    "kindRecord": "Rezultati",
+    "loading": "Po kërkon…",
+    "noResults": "Nuk ka ndeshje",
+    "recordsUnavailable": "Vetëm faqet mund të kërkoheshin tani.",
+    "invoiceLabel": "Fatura {{period}}",
+    "paid": "I paguar",
+    "unpaid": "E papaguar"
   }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Dashibodi ya Ghorofa",
     "titleFallback": "Dashibodi yako ya Ghorofa",
     "subtitle": "Muhtasari wa uendeshaji wa kupima mita ndogo ya matumizi ya maji na matumizi ya kaya.",
-    "comingSoon": "Inakuja hivi karibuni",
     "manageCommunity": "Dhibiti Jumuiya",
     "noUsageReadings": "Bado hakuna usomaji wa matumizi uliorekodiwa.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Mwezi uliorekodiwa hivi karibuni ({{month}})",
       "noReadingsYet": "Bado hakuna usomaji uliorekodiwa",
       "pendingAlerts": "Tahadhari Zinazosubiri",
-      "anomalyPreview": "Onyesho la kukagua ugunduzi usio wa kawaida - bado haupatikani"
+      "reviewAlerts": "Arifa za uvujaji / matumizi - kagua sasa",
+      "noActiveAlerts": "Hakuna arifa zinazotumika"
     },
     "actions": {
       "label": "Vitendo vya Utawala vya Haraka",
       "uploadReadings": "Pakia Masomo ya Mita",
       "configureTariffs": "Sanidi Ushuru",
-      "reportsNotBuilt": "Ripoti bado hazijaundwa",
       "downloadReports": "Pakua Ripoti za Mfumo"
     },
     "chart": {
       "title": "Ulinganisho wa Matumizi ya Kila Mwezi (kL)",
       "subtitle": "Miezi {{months}} iliyopita: lengo dhidi ya matumizi halisi.",
-      "targetSeries": "Lengo (hakiki)",
       "actualSeries": "Halisi"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Haikuweza kuhifadhi wasifu wako. Tafadhali jaribu tena.",
     "apartmentSaveError": "Haikuweza kuhifadhi maelezo ya ghorofa. Tafadhali jaribu tena.",
     "specsTitle": "Maelezo ya Wasifu",
-    "photoUnavailable": "Upakiaji wa picha bado haupatikani",
-    "changePhoto": "Badilisha Picha",
-    "deletePhoto": "Futa",
-    "photoHint": "JPG au PNG. Ukubwa wa juu 2MB.",
     "saveProfile": "Hifadhi Wasifu",
     "apartmentTitle": "Maelezo ya Ghorofa",
     "saveApartment": "Hifadhi Maelezo ya Ghorofa",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Uthibitishaji wa vipengele viwili bado haupatikani",
       "twoFactorAria": "Uthibitishaji wa mambo mawili (hakiki pekee)",
       "sessionsLabel": "Vipindi vya Wasimamizi Amilifu",
-      "sessionsEmpty": "Ufuatiliaji wa kipindi bado haupatikani - hii ni hakikisho la mpangilio ujao."
-    }
+      "sessionsEmpty": "Ufuatiliaji wa kipindi bado haupatikani - hii ni hakikisho la mpangilio ujao.",
+      "previewNote": "Hakiki pekee: uthibitishaji wa vipengele viwili na ufuatiliaji wa kipindi bado haupatikani."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Badilisha Nenosiri"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tikiti za Mkazi",
       "subtitle": "Tikiti za usaidizi na hoja ambazo wakazi katika jumuiya yako wamekuelekeza."
+    }
+  },
+  "reports": {
+    "loadError": "Haikuweza kupakia ripoti ya jumuiya. Tafadhali jaribu tena.",
+    "pdfError": "Haikuweza kupakua ripoti ya PDF. Tafadhali jaribu tena.",
+    "loading": "Inapakia ripoti...",
+    "empty": "Hakuna kaya zilizo na data katika safu hii.",
+    "noMatch": "Hakuna kaya zinazolingana na \"{{search}}\".",
+    "searchPlaceholder": "Chuja kwa nyumba, mkazi, au mita nambari.",
+    "downloadCsv": "Pakua CSV",
+    "downloadPdf": "Pakua PDF Muhtasari",
+    "downloadingPdf": "Inatayarisha PDF…",
+    "ranges": {
+      "threeMonths": "Miezi 3 iliyopita",
+      "sixMonths": "Miezi 6 iliyopita",
+      "twelveMonths": "Miezi 12 iliyopita",
+      "custom": "Masafa maalum"
+    },
+    "customRange": {
+      "from": "Kutoka",
+      "to": "Kwa",
+      "hint": "Chagua mwezi wa kuanza na mwisho ili kupakia ripoti."
+    },
+    "cards": {
+      "totalConsumption": "Jumla ya Matumizi",
+      "households": "Katika kaya {{total}}",
+      "avgMonthly": "Wastani wa Matumizi ya Kila Mwezi",
+      "communityWide": "Jumuiya nzima, kwa mwezi",
+      "billed": "Inatozwa",
+      "finalizedOnly": "Mizunguko iliyokamilishwa na kuhifadhiwa kwenye kumbukumbu pekee",
+      "paid": "Imelipwa",
+      "invoices": "{{total}} ankara zilizotolewa",
+      "outstanding": "Bora",
+      "unpaidInvoices": "{{total}} ankara ambazo hazijalipwa",
+      "collectionRate": "Kiwango cha Ukusanyaji"
+    },
+    "costs": {
+      "title": "Gharama dhidi ya Mapato",
+      "commonArea": "Gharama za eneo la pamoja zinatozwa",
+      "bulkCost": "Gharama ya ununuzi wa maji kwa wingi",
+      "bulkVolume": "Maji mengi yaliyonunuliwa",
+      "bulkCount": "{{total}} ununuzi",
+      "billedMinusBulk": "Mapato yanayotozwa ukiondoa gharama nyingi",
+      "note": "Ununuzi wa wingi hufuatiliwa kwa mwonekano wa gharama na hautozwi kwa kaya moja kwa moja."
+    },
+    "top": {
+      "title": "Wateja wa Juu",
+      "empty": "Hakuna matumizi yaliyorekodiwa katika safu hii."
+    },
+    "charts": {
+      "consumptionTitle": "Matumizi ya Kila Mwezi",
+      "consumptionSeries": "Matumizi",
+      "billingTitle": "Bili dhidi ya Kulipwa dhidi ya Gharama ya Wingi",
+      "billedSeries": "Inatozwa",
+      "paidSeries": "Imelipwa",
+      "bulkSeries": "Gharama ya ununuzi wa wingi",
+      "empty": "Hakuna data ya safu hii."
+    },
+    "sort": {
+      "label": "Panga kwa",
+      "toggleDirection": "Geuza mwelekeo wa kupanga",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Nyumba",
+      "resident": "Mkazi",
+      "meter": "Mita",
+      "totalKl": "Jumla kL",
+      "avgMonthlyKl": "Wastani wa Kila Mwezi kL",
+      "billed": "Inatozwa",
+      "paid": "Imelipwa",
+      "outstanding": "Bora"
+    }
+  },
+  "announcements": {
+    "loadError": "Haikuweza kupakia matangazo. Tafadhali jaribu tena.",
+    "removeError": "Haikuweza kufuta tangazo hili. Tafadhali jaribu tena.",
+    "loading": "Inapakia matangazo...",
+    "empty": "Bado hakuna matangazo. Bofya \"Tangazo Jipya\" ili kuwaarifu wakazi wako.",
+    "count": "Matangazo: {{total}}",
+    "newButton": "+ Tangazo Mpya",
+    "pinned": "Imebandikwa",
+    "expired": "Muda wake umeisha",
+    "postedAt": "Ilichapishwa {{date}}",
+    "updatedAt": "Imehaririwa {{date}}",
+    "expiresAt": "Inaisha muda {{date}}",
+    "category": {
+      "general": "Mkuu",
+      "maintenance": "Matengenezo",
+      "waterSupply": "Ugavi wa Maji",
+      "billing": "Bili",
+      "urgent": "Haraka"
+    },
+    "form": {
+      "addTitle": "Tangazo Jipya",
+      "editTitle": "Badilisha Tangazo",
+      "addSubtitle": "Wakazi wanaona hili kwenye ukurasa wao wa Arifa, na mtu yeyote aliye na arifa zinazotumwa na programu hatakiwi amewashwa anaarifiwa mara moja.",
+      "editSubtitle": "Mabadiliko yanasasisha tangazo mahali pake. Wakazi hawatarifiwi tena.",
+      "title": "Kichwa",
+      "category": "Kategoria",
+      "expiresAt": "Muda wake unaisha (si lazima)",
+      "body": "Ujumbe",
+      "pinned": "Bandika sehemu ya juu ya matangazo ya wakaazi",
+      "requiredFields": "Tafadhali weka kichwa na ujumbe.",
+      "saveError": "Haikuweza kuhifadhi tangazo hili. Tafadhali angalia maelezo.",
+      "publish": "Chapisha"
+    },
+    "confirm": {
+      "title": "Ungependa kufuta tangazo?",
+      "body": "\"{{title}}\" itaondolewa kwa wakazi wote. Hili haliwezi kutenduliwa.",
+      "delete": "Futa",
+      "deleting": "Inafuta..."
     }
   }
 }

@@ -222,6 +222,14 @@
         "title": "Supportu / Preoccupazioni",
         "subtitle": "Alzate i vostri propri biglietti à l'amministratore di u sistema, o trattà e preoccupazioni chì i vostri residenti anu indirizzatu à voi."
       },
+      "reports": {
+        "title": "Rapporti di a cumunità",
+        "subtitle": "Cifre di cunsumu, fattura, cullezzione è compra in massa per a vostra cumunità."
+      },
+      "announcements": {
+        "title": "Annunci",
+        "subtitle": "Publicate avvisi in tutta a cumunità à i vostri residenti."
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Gestisce i dati di u vostru contu è l'infurmazioni di l'appartamentu."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Amministratore di a cumunità",
     "notBuilt": "{{label}} ùn hè ancu custruitu",
     "searchPlaceholder": "Cerca qualcosa..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporti",
-      "description": "Rapporti di cunsumu, fattura è cunservazione per a vostra cumunità."
-    },
-    "announcements": {
-      "title": "Annunci",
-      "description": "Mandate annunzii in tutta a cumunità à i vostri residenti."
-    }
   },
   "comingSoon": {
     "title": "{{title}} hè prestu"
@@ -261,7 +259,9 @@
       "billing": "Fatturazione è fatture",
       "notifications": "Notificazioni",
       "recommendations": "Raccomandazioni",
-      "support": "Supportu / Preoccupazioni"
+      "support": "Supportu / Preoccupazioni",
+      "reports": "I vostri rapporti di usu è spesa",
+      "profile": "U mo prufilu"
     },
     "defaultTitle": "Dashboard di u Residente",
     "navLabel": "Navigazione residente",
@@ -277,7 +277,8 @@
       "communities": "Cumunità",
       "reports": "Rapporti",
       "supportTickets": "Biglietti di supportu",
-      "systemStatus": "Status di u sistema"
+      "systemStatus": "Status di u sistema",
+      "profile": "Prufilu"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Status di u sistema",
         "subtitle": "Connettività backend è salute di runtime basica."
+      },
+      "profile": {
+        "title": "Prufilu",
+        "subtitle": "U vostru contu, avatar è password"
       }
     },
     "fallbackName": "Amministratore di u sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lingua: {{language}}",
     "searchPlaceholder": "Ricerca lingua...",
     "noMatches": "Nisuna partita"
+  },
+  "avatarPicker": {
+    "label": "Sceglite un avatar",
+    "hint": "Sceglite unu di l'avatars preset, o utilizate e vostre iniziali.",
+    "change": "Cambia",
+    "cancel": "Cancella",
+    "useInitials": "Aduprà iniziali",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Salvà l'avatar",
+    "saving": "Salvà…",
+    "saved": "Avatar aghjurnatu",
+    "saveError": "Ùn puderebbe aghjurnà u vostru avatar. Per piacè pruvate di novu."
+  },
+  "changePassword": {
+    "current": "Parolla d'intesa attuale",
+    "new": "Nova password",
+    "confirm": "Cunfirmà a nova password",
+    "hint": "Almenu {{min}} caratteri.",
+    "tooShort": "A nova password deve esse almenu {{min}} caratteri.",
+    "mismatch": "I novi password ùn currispondenu micca.",
+    "sameAsCurrent": "A nova password deve esse diversa da a vostra password attuale.",
+    "submit": "Aghjurnà a password",
+    "saving": "Aghjurnà…",
+    "success": "A vostra password hè stata aghjurnata.",
+    "error": "Ùn pudia aghjurnà a vostra password. Per piacè pruvate di novu."
+  },
+  "search": {
+    "kindPage": "Pagina",
+    "kindRecord": "Risultatu",
+    "loading": "Ricerca…",
+    "noResults": "Nisuna partita",
+    "recordsUnavailable": "Solu e pagine ponu esse cercate avà.",
+    "invoiceLabel": "fattura {{period}}",
+    "paid": "Pagatu",
+    "unpaid": "Impagatu"
   }
 }

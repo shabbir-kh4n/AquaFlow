@@ -25,7 +25,6 @@
     "title": "{{community}} የአፓርታማ ዳሽቦርድ",
     "titleFallback": "የእርስዎ አፓርታማ ዳሽቦርድ",
     "subtitle": "የውሃ አገልግሎት ንዑስ-መለኪያ እና የቤተሰብ ፍጆታ የሥራ ማጠቃለያ።",
-    "comingSoon": "በቅርቡ ይመጣል",
     "manageCommunity": "ማህበረሰቡን ያስተዳድሩ",
     "noUsageReadings": "እስካሁን ምንም የአጠቃቀም ንባቦች አልተመዘገቡም።",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Latest recorded month ({{month}})",
       "noReadingsYet": "እስካሁን ምንም የተመዘገቡ ንባቦች የሉም",
       "pendingAlerts": "በመጠባበቅ ላይ ያሉ ማንቂያዎች",
-      "anomalyPreview": "ያልተለመደ ማወቂያ ቅድመ እይታ - እስካሁን አይገኝም"
+      "reviewAlerts": "የንቁ መፍሰስ/አጠቃቀም ማንቂያዎች — አሁን ይገምግሙ",
+      "noActiveAlerts": "ምንም ንቁ ማንቂያዎች የሉም"
     },
     "actions": {
       "label": "ፈጣን አስተዳደራዊ እርምጃዎች",
       "uploadReadings": "የሜትር ንባቦችን ይስቀሉ",
       "configureTariffs": "ታሪፎችን ያዋቅሩ",
-      "reportsNotBuilt": "ሪፖርቶች ገና አልተገነቡም።",
       "downloadReports": "የስርዓት ሪፖርቶችን ያውርዱ"
     },
     "chart": {
       "title": "Monthly Consumption Comparison (kL)",
       "subtitle": "የመጨረሻዎቹ {{months}} ወራት፡ ዒላማ ከትክክለኛ ፍጆታ ጋር ሲነጻጸር።",
-      "targetSeries": "ዒላማ (ቅድመ እይታ)",
       "actualSeries": "ትክክለኛ"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "መገለጫህን ማስቀመጥ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
     "apartmentSaveError": "የአፓርታማ ዝርዝሮችን ማስቀመጥ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
     "specsTitle": "የመገለጫ ዝርዝሮች",
-    "photoUnavailable": "ፎቶ ሰቀላ እስካሁን አይገኝም",
-    "changePhoto": "ፎቶ ቀይር",
-    "deletePhoto": "ሰርዝ",
-    "photoHint": "JPG ወይም PNG. ከፍተኛ መጠን 2 ሜባ",
     "saveProfile": "መገለጫ አስቀምጥ",
     "apartmentTitle": "የአፓርታማ ዝርዝሮች",
     "saveApartment": "የአፓርታማ ዝርዝሮችን ያስቀምጡ",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "ባለ ሁለት ደረጃ ማረጋገጫ እስካሁን አይገኝም",
       "twoFactorAria": "ባለ ሁለት ደረጃ ማረጋገጫ (ቅድመ እይታ ብቻ)",
       "sessionsLabel": "ንቁ የአስተዳዳሪ ክፍለ ጊዜዎች",
-      "sessionsEmpty": "የክፍለ-ጊዜ ክትትል ገና የለም - ይህ የመጪው አቀማመጥ ቅድመ እይታ ነው።"
-    }
+      "sessionsEmpty": "የክፍለ-ጊዜ ክትትል ገና የለም - ይህ የመጪው አቀማመጥ ቅድመ እይታ ነው።",
+      "previewNote": "ቅድመ እይታ ብቻ፡ ባለ ሁለት ደረጃ ማረጋገጫ እና የክፍለ-ጊዜ መከታተያ እስካሁን አይገኙም።"
+    },
+    "avatarLabel": "አምሳያ",
+    "passwordTitle": "የይለፍ ቃል ቀይር"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "የመኖሪያ ትኬቶች",
       "subtitle": "በማህበረሰብዎ ውስጥ ያሉ የድጋፍ ትኬቶች እና ስጋቶች ለእርስዎ አነጋግረዋል።"
+    }
+  },
+  "reports": {
+    "loadError": "የማህበረሰቡን ሪፖርት መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "pdfError": "PDF ሪፖርቱን ማውረድ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "loading": "ሪፖርትን በመጫን ላይ…",
+    "empty": "በዚህ ክልል ውስጥ ምንም ውሂብ ያላቸው ቤተሰቦች የሉም።",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "በቤት፣ በነዋሪ ወይም በሜትር ቁ.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "አውርድ PDF ማጠቃለያ",
+    "downloadingPdf": "Preparing PDF…",
+    "ranges": {
+      "threeMonths": "ያለፉት 3 ወራት",
+      "sixMonths": "ያለፉት 6 ወራት",
+      "twelveMonths": "ያለፉት 12 ወራት",
+      "custom": "ብጁ ክልል"
+    },
+    "customRange": {
+      "from": "ከ",
+      "to": "ለ",
+      "hint": "ሪፖርቱን ለመጫን ሁለቱንም የመጀመሪያ እና የመጨረሻ ወር ይምረጡ።"
+    },
+    "cards": {
+      "totalConsumption": "አጠቃላይ ፍጆታ",
+      "households": "በመላው {{total}} ቤተሰቦች",
+      "avgMonthly": "አማካይ ወርሃዊ ፍጆታ",
+      "communityWide": "ማህበረሰብ አቀፍ፣ በወር",
+      "billed": "ተከፍሏል።",
+      "finalizedOnly": "የተጠናቀቁ እና በማህደር የተቀመጡ ዑደቶች ብቻ",
+      "paid": "የተከፈለ",
+      "invoices": "{{total}} ደረሰኞች ወጥተዋል።",
+      "outstanding": "የላቀ",
+      "unpaidInvoices": "{{total}} ያልተከፈሉ ደረሰኞች",
+      "collectionRate": "የስብስብ መጠን"
+    },
+    "costs": {
+      "title": "ወጪዎች ከገቢ ጋር ሲነጻጸር",
+      "commonArea": "የጋራ አካባቢ ክፍያዎች ተከፍለዋል።",
+      "bulkCost": "የጅምላ ውሃ ግዢ ​​ዋጋ",
+      "bulkVolume": "ብዙ ውሃ ተገዛ",
+      "bulkCount": "{{total}} purchases",
+      "billedMinusBulk": "ከጅምላ ወጪ የተቀነሰ ገቢ",
+      "note": "የጅምላ ግዢዎች ለዋጋ ታይነት ክትትል የሚደረግባቸው ሲሆን በቀጥታ ለቤተሰቦች አይከፈሉም።"
+    },
+    "top": {
+      "title": "ከፍተኛ ሸማቾች",
+      "empty": "በዚህ ክልል ውስጥ ምንም ፍጆታ አልተመዘገበም።"
+    },
+    "charts": {
+      "consumptionTitle": "ወርሃዊ ፍጆታ",
+      "consumptionSeries": "ፍጆታ",
+      "billingTitle": "የሚከፈልበት እና የሚከፈልበት የጅምላ ወጪ",
+      "billedSeries": "ተከፍሏል።",
+      "paidSeries": "የተከፈለ",
+      "bulkSeries": "የጅምላ ግዢ ዋጋ",
+      "empty": "ለዚህ ክልል ምንም ውሂብ የለም።"
+    },
+    "sort": {
+      "label": "ደርድር በ",
+      "toggleDirection": "የመደርደር አቅጣጫ ቀያይር",
+      "asc": "↑ አስ",
+      "desc": "↓ ዴስክ"
+    },
+    "table": {
+      "house": "ቤት",
+      "resident": "ነዋሪ",
+      "meter": "ሜትር",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "አማካይ ወርሃዊ kL",
+      "billed": "ተከፍሏል።",
+      "paid": "የተከፈለ",
+      "outstanding": "የላቀ"
+    }
+  },
+  "announcements": {
+    "loadError": "ማስታወቂያዎችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "removeError": "ይህን ማስታወቂያ መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "loading": "ማስታወቂያዎችን በመጫን ላይ…",
+    "empty": "እስካሁን ምንም ማስታወቂያዎች የሉም። ነዋሪዎችዎን ለማሳወቅ \"አዲስ ማስታወቂያ\" ን ጠቅ ያድርጉ።",
+    "count": "ማስታወቂያዎች፡ {{total}}",
+    "newButton": "+ አዲስ ማስታወቂያ",
+    "pinned": "ተሰክቷል።",
+    "expired": "ጊዜው አልፎበታል።",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "ጊዜው ያበቃል {{date}}",
+    "category": {
+      "general": "አጠቃላይ",
+      "maintenance": "ጥገና",
+      "waterSupply": "የውሃ አቅርቦት",
+      "billing": "የሂሳብ አከፋፈል",
+      "urgent": "አስቸኳይ"
+    },
+    "form": {
+      "addTitle": "አዲስ ማስታወቂያ",
+      "editTitle": "ማስታወቂያ አርትዕ",
+      "addSubtitle": "ነዋሪዎች ይህንን በማስታወቂያ ገጻቸው ላይ ያዩታል፣ እና ማንኛውም የግፋ ማሳወቂያ የነቃለት ሰው ወዲያውኑ እንዲያውቀው ይደረጋል።",
+      "editSubtitle": "አርትዖቶች ማስታወቂያውን በቦታው ያዘምኑታል። ነዋሪዎች በድጋሚ እንዲያውቁ አይደረግም።",
+      "title": "ርዕስ",
+      "category": "ምድብ",
+      "expiresAt": "ጊዜው ያበቃል (አማራጭ)",
+      "body": "መልእክት",
+      "pinned": "ከነዋሪዎች ማስታወቂያዎች አናት ላይ ይሰኩ።",
+      "requiredFields": "እባክህ ርዕስ እና መልእክት አስገባ።",
+      "saveError": "ይህን ማስታወቂያ ማስቀመጥ አልተቻለም። እባክዎን ዝርዝሮቹን ያረጋግጡ።",
+      "publish": "አትም"
+    },
+    "confirm": {
+      "title": "ማስታወቂያ ይሰረዝ?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "ሰርዝ",
+      "deleting": "በመሰረዝ ላይ…"
     }
   }
 }

@@ -222,6 +222,14 @@
         "title": "Taic/Draghan",
         "subtitle": "Tog na tiogaidean agad fhèin gu Rianachd an t-Siostaim, no làimhsich draghan a tha an luchd-còmhnaidh agad air dèiligeadh riut."
       },
+      "reports": {
+        "title": "Aithisgean Coimhearsnachd",
+        "subtitle": "Figearan caitheamh, bileachaidh, cruinneachadh, agus mòr-cheannach airson do choimhearsnachd."
+      },
+      "announcements": {
+        "title": "Sanasan",
+        "subtitle": "Foillsich sanasan coimhearsnachd don luchd-còmhnaidh agad."
+      },
       "profile": {
         "title": "Roghainnean & Pròifil",
         "subtitle": "Stiùirich mion-fhiosrachadh do chunntas agus fiosrachadh àros."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Rianachd Coimhearsnachd",
     "notBuilt": "{{label}} chan eil e air a thogail fhathast",
     "searchPlaceholder": "Lorg rud sam bith…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Aithisgean",
-      "description": "Aithisgean caitheamh, bileachaidh agus glèidhteachais airson do choimhearsnachd."
-    },
-    "announcements": {
-      "title": "Sanasan",
-      "description": "Cuir fiosan air feadh na coimhearsnachd chun luchd-còmhnaidh agad."
-    }
   },
   "comingSoon": {
     "title": "{{title}} a’ tighinn a dh’ aithghearr"
@@ -261,7 +259,9 @@
       "billing": "Clàradh & fàirdealan",
       "notifications": "Brathan",
       "recommendations": "Molaidhean",
-      "support": "Taic/Draghan"
+      "support": "Taic/Draghan",
+      "reports": "Na h-aithisgean cleachdaidh is caitheamh agad",
+      "profile": "Mo phròifil"
     },
     "defaultTitle": "Deas-bhòrd còmhnaidh",
     "navLabel": "Seòladh luchd-còmhnaidh",
@@ -277,7 +277,8 @@
       "communities": "Coimhearsnachdan",
       "reports": "Aithisgean",
       "supportTickets": "Tiogaidean taic",
-      "systemStatus": "Inbhe siostam"
+      "systemStatus": "Inbhe siostam",
+      "profile": "Pròifil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Inbhe siostam",
         "subtitle": "Ceangal backend agus slàinte runtime bunaiteach."
+      },
+      "profile": {
+        "title": "Pròifil",
+        "subtitle": "Do chunntas, avatar agus facal-faire"
       }
     },
     "fallbackName": "Rianachd siostam",
@@ -308,5 +313,40 @@
     "buttonLabel": "Cànan: {{language}}",
     "searchPlaceholder": "Rannsachadh cànain…",
     "noMatches": "Gun choimeas"
+  },
+  "avatarPicker": {
+    "label": "Tagh avatar",
+    "hint": "Tagh aon de na avatars ro-shuidhichte, no cleachd na ciad litrichean ainmean agad.",
+    "change": "Atharraich",
+    "cancel": "Sguir dheth",
+    "useInitials": "Cleachd ciad litrichean",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Sàbhail an avatar",
+    "saving": "A’ sàbhaladh…",
+    "saved": "Avatar air ùrachadh",
+    "saveError": "Cha b' urrainn dhuinn an avatar agad ùrachadh. Feuch ris a-rithist."
+  },
+  "changePassword": {
+    "current": "Facal-faire gnàthaichte",
+    "new": "Facal-faire ùr",
+    "confirm": "Dearbhaich am facal-faire ùr",
+    "hint": "Co-dhiù {{min}} caractaran.",
+    "tooShort": "Feumaidh co-dhiù {{min}} caractar a bhith aig facal-faire ùr.",
+    "mismatch": "Chan eil na faclan-faire ùra a' freagairt.",
+    "sameAsCurrent": "Feumaidh facal-faire ùr a bhith eadar-dhealaichte bhon fhacal-fhaire làithreach agad.",
+    "submit": "Luchdaich a-nuas am facal-faire",
+    "saving": "Ag ùrachadh…",
+    "success": "Chaidh am facal-faire agad ùrachadh.",
+    "error": "Cha b' urrainn dhuinn am facal-faire agad ùrachadh. Feuch ris a-rithist."
+  },
+  "search": {
+    "kindPage": "Duilleag",
+    "kindRecord": "Toradh",
+    "loading": "A’ lorg…",
+    "noResults": "Gun choimeas",
+    "recordsUnavailable": "Cha b’ urrainnear ach duilleagan a sgrùdadh an-dràsta fhèin.",
+    "invoiceLabel": "Fàirdeal {{period}}",
+    "paid": "Phàigh",
+    "unpaid": "Gun phàigheadh"
   }
 }

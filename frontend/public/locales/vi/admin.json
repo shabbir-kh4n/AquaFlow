@@ -25,7 +25,6 @@
     "title": "{{community}} Bảng điều khiển căn hộ",
     "titleFallback": "Bảng điều khiển căn hộ của bạn",
     "subtitle": "Tóm tắt hoạt động đo đếm phụ của tiện ích nước và tiêu dùng của hộ gia đình.",
-    "comingSoon": "Sắp ra mắt",
     "manageCommunity": "Quản lý cộng đồng",
     "noUsageReadings": "Chưa có bài đọc sử dụng nào được ghi lại.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Tháng ghi nhận gần nhất ({{month}})",
       "noReadingsYet": "Chưa có bài đọc nào được ghi lại",
       "pendingAlerts": "Cảnh báo đang chờ xử lý",
-      "anomalyPreview": "Xem trước phát hiện bất thường - chưa có sẵn"
+      "reviewAlerts": "Cảnh báo rò rỉ/sử dụng đang hoạt động — xem lại ngay",
+      "noActiveAlerts": "Không có cảnh báo hoạt động"
     },
     "actions": {
       "label": "Hành động hành chính nhanh chóng",
       "uploadReadings": "Tải lên số đo của đồng hồ",
       "configureTariffs": "Cấu hình biểu thuế",
-      "reportsNotBuilt": "Báo cáo chưa được xây dựng",
       "downloadReports": "Tải xuống báo cáo hệ thống"
     },
     "chart": {
       "title": "So sánh mức tiêu thụ hàng tháng (kL)",
       "subtitle": "{{months}} tháng qua: mục tiêu so với mức tiêu thụ thực tế.",
-      "targetSeries": "Mục tiêu (xem trước)",
       "actualSeries": "Thật sự"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Không thể lưu hồ sơ của bạn. Vui lòng thử lại.",
     "apartmentSaveError": "Không thể lưu chi tiết căn hộ. Vui lòng thử lại.",
     "specsTitle": "Thông số hồ sơ",
-    "photoUnavailable": "Tính năng tải ảnh lên chưa khả dụng",
-    "changePhoto": "Thay đổi ảnh",
-    "deletePhoto": "Xóa bỏ",
-    "photoHint": "JPG hoặc PNG. Kích thước tối đa 2MB.",
     "saveProfile": "Lưu hồ sơ",
     "apartmentTitle": "Chi tiết căn hộ",
     "saveApartment": "Lưu chi tiết căn hộ",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Xác thực hai yếu tố chưa khả dụng",
       "twoFactorAria": "Xác thực hai yếu tố (chỉ xem trước)",
       "sessionsLabel": "Phiên quản trị đang hoạt động",
-      "sessionsEmpty": "Tính năng theo dõi phiên chưa khả dụng — đây là bản xem trước của bố cục sắp tới."
-    }
+      "sessionsEmpty": "Tính năng theo dõi phiên chưa khả dụng — đây là bản xem trước của bố cục sắp tới.",
+      "previewNote": "Chỉ xem trước: xác thực hai yếu tố và theo dõi phiên chưa khả dụng."
+    },
+    "avatarLabel": "Hình đại diện",
+    "passwordTitle": "Thay đổi mật khẩu"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Vé thường trú",
       "subtitle": "Phiếu hỗ trợ và những mối quan tâm mà cư dân trong cộng đồng của bạn đã gửi đến bạn."
+    }
+  },
+  "reports": {
+    "loadError": "Không thể tải báo cáo cộng đồng. Vui lòng thử lại.",
+    "pdfError": "Không thể tải xuống báo cáo PDF. Vui lòng thử lại.",
+    "loading": "Đang tải báo cáo…",
+    "empty": "Không có hộ gia đình nào có dữ liệu trong phạm vi này.",
+    "noMatch": "Không có hộ gia đình nào khớp với \"{{search}}\".",
+    "searchPlaceholder": "Lọc theo số nhà, cư dân hoặc số mét.",
+    "downloadCsv": "Tải xuống CSV",
+    "downloadPdf": "Tải xuống PDF Tóm tắt",
+    "downloadingPdf": "Đang chuẩn bị PDF…",
+    "ranges": {
+      "threeMonths": "3 tháng qua",
+      "sixMonths": "6 tháng qua",
+      "twelveMonths": "12 tháng qua",
+      "custom": "Phạm vi tùy chỉnh"
+    },
+    "customRange": {
+      "from": "Từ",
+      "to": "ĐẾN",
+      "hint": "Chọn cả tháng bắt đầu và tháng kết thúc để tải báo cáo."
+    },
+    "cards": {
+      "totalConsumption": "Tổng mức tiêu thụ",
+      "households": "Trên {{total}} hộ gia đình",
+      "avgMonthly": "Mức tiêu thụ trung bình hàng tháng",
+      "communityWide": "Toàn cộng đồng, mỗi tháng",
+      "billed": "Đã thanh toán",
+      "finalizedOnly": "Chỉ các chu kỳ đã hoàn tất và lưu trữ",
+      "paid": "Trả",
+      "invoices": "{{total}} hóa đơn đã phát hành",
+      "outstanding": "Nổi bật",
+      "unpaidInvoices": "{{total}} hóa đơn chưa thanh toán",
+      "collectionRate": "Tỷ lệ thu thập"
+    },
+    "costs": {
+      "title": "Chi phí so với doanh thu",
+      "commonArea": "Tính phí khu vực chung",
+      "bulkCost": "Chi phí mua nước số lượng lớn",
+      "bulkVolume": "Mua nước số lượng lớn",
+      "bulkCount": "{{total}} lượt mua hàng",
+      "billedMinusBulk": "Doanh thu được lập hóa đơn trừ đi chi phí hàng loạt",
+      "note": "Việc mua số lượng lớn được theo dõi để hiển thị chi phí và không được lập hóa đơn trực tiếp cho các hộ gia đình."
+    },
+    "top": {
+      "title": "Người tiêu dùng hàng đầu",
+      "empty": "Không có mức tiêu thụ nào được ghi nhận trong phạm vi này."
+    },
+    "charts": {
+      "consumptionTitle": "Tiêu thụ hàng tháng",
+      "consumptionSeries": "Sự tiêu thụ",
+      "billingTitle": "Được lập hóa đơn so với được trả tiền so với chi phí hàng loạt",
+      "billedSeries": "Đã thanh toán",
+      "paidSeries": "Trả",
+      "bulkSeries": "Chi phí mua số lượng lớn",
+      "empty": "Không có dữ liệu cho phạm vi này."
+    },
+    "sort": {
+      "label": "Sắp xếp theo",
+      "toggleDirection": "Chuyển đổi hướng sắp xếp",
+      "asc": "↑ Tăng dần",
+      "desc": "↓ Quyết định"
+    },
+    "table": {
+      "house": "Căn nhà",
+      "resident": "Người dân",
+      "meter": "Mét",
+      "totalKl": "Tổng cộng kL",
+      "avgMonthlyKl": "Trung bình hàng tháng kL",
+      "billed": "Đã thanh toán",
+      "paid": "Trả",
+      "outstanding": "Nổi bật"
+    }
+  },
+  "announcements": {
+    "loadError": "Không thể tải thông báo. Vui lòng thử lại.",
+    "removeError": "Không thể xóa thông báo này. Vui lòng thử lại.",
+    "loading": "Đang tải thông báo…",
+    "empty": "Chưa có thông báo nào. Nhấp vào \"Thông báo mới\" để thông báo cho cư dân của bạn.",
+    "count": "Thông báo: {{total}}",
+    "newButton": "+ Thông báo mới",
+    "pinned": "Đã ghim",
+    "expired": "Hết hạn",
+    "postedAt": "Đã đăng {{date}}",
+    "updatedAt": "Đã chỉnh sửa {{date}}",
+    "expiresAt": "Hết hạn {{date}}",
+    "category": {
+      "general": "Tổng quan",
+      "maintenance": "BẢO TRÌ",
+      "waterSupply": "Cấp nước",
+      "billing": "Thanh toán",
+      "urgent": "Cấp bách"
+    },
+    "form": {
+      "addTitle": "Thông báo mới",
+      "editTitle": "Chỉnh sửa thông báo",
+      "addSubtitle": "Cư dân nhìn thấy điều này trên trang Thông báo của họ và bất kỳ ai bật thông báo đẩy đều được thông báo ngay lập tức.",
+      "editSubtitle": "Chỉnh sửa cập nhật thông báo tại chỗ. Người dân không được thông báo nữa.",
+      "title": "Tiêu đề",
+      "category": "Loại",
+      "expiresAt": "Hết hạn (tùy chọn)",
+      "body": "Tin nhắn",
+      "pinned": "Ghim vào đầu thông báo của cư dân",
+      "requiredFields": "Vui lòng nhập tiêu đề và tin nhắn.",
+      "saveError": "Không thể lưu thông báo này. Vui lòng kiểm tra chi tiết.",
+      "publish": "Xuất bản"
+    },
+    "confirm": {
+      "title": "Xóa thông báo?",
+      "body": "\"{{title}}\" sẽ bị xóa đối với tất cả cư dân. Không thể hoàn tác việc này.",
+      "delete": "Xóa bỏ",
+      "deleting": "Đang xóa…"
     }
   }
 }

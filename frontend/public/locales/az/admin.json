@@ -25,7 +25,6 @@
     "title": "{{community}} Mənzil İdarə Paneli",
     "titleFallback": "Mənzilinizin İdarə Paneli",
     "subtitle": "Su kommunallarının sayğaclaşdırılması və məişət istehlakı üçün əməliyyat xülasəsi.",
-    "comingSoon": "Tezliklə",
     "manageCommunity": "İcmanı idarə edin",
     "noUsageReadings": "İstifadə oxunuşu hələ qeydə alınmayıb.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ən son qeydə alınmış ay ({{month}})",
       "noReadingsYet": "Hələ oxunuş qeydə alınmayıb",
       "pendingAlerts": "Gözləyən Siqnallar",
-      "anomalyPreview": "Anomaliya aşkarlanmasına baxış — hələ mövcud deyil"
+      "reviewAlerts": "Aktiv sızma / istifadə xəbərdarlıqları - indi nəzərdən keçirin",
+      "noActiveAlerts": "Aktiv xəbərdarlıq yoxdur"
     },
     "actions": {
       "label": "Sürətli inzibati tədbirlər",
       "uploadReadings": "Sayğac oxunuşlarını yükləyin",
       "configureTariffs": "Tarifləri konfiqurasiya edin",
-      "reportsNotBuilt": "Hesabatlar hələ hazırlanmayıb",
       "downloadReports": "Sistem Hesabatlarını yükləyin"
     },
     "chart": {
       "title": "Aylıq İstehlak Müqayisəsi (kL)",
       "subtitle": "Son {{months}} ay: hədəf və faktiki istehlak.",
-      "targetSeries": "Hədəf (ön baxış)",
       "actualSeries": "Faktiki"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profilinizi saxlamaq mümkün olmadı. Yenidən cəhd edin.",
     "apartmentSaveError": "Mənzil təfərrüatlarını saxlamaq mümkün olmadı. Yenidən cəhd edin.",
     "specsTitle": "Profil Xüsusiyyətləri",
-    "photoUnavailable": "Foto yükləmə hələ mövcud deyil",
-    "changePhoto": "Fotonu dəyişdirin",
-    "deletePhoto": "Sil",
-    "photoHint": "JPG və ya PNG. Maksimum ölçü 2MB.",
     "saveProfile": "Profili yadda saxla",
     "apartmentTitle": "Mənzil təfərrüatları",
     "saveApartment": "Mənzil Təfərrüatlarını Saxla",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "İki faktorlu autentifikasiya hələ mövcud deyil",
       "twoFactorAria": "İki faktorlu autentifikasiya (yalnız önizləmə)",
       "sessionsLabel": "Aktiv İdarəetmə Sessiyaları",
-      "sessionsEmpty": "Sessiyanın izlənilməsi hələ mövcud deyil — bu, qarşıdan gələn tərtibatın ilkin baxışıdır."
-    }
+      "sessionsEmpty": "Sessiyanın izlənilməsi hələ mövcud deyil — bu, qarşıdan gələn tərtibatın ilkin baxışıdır.",
+      "previewNote": "Yalnız önizləmə: iki faktorlu autentifikasiya və sessiya izləmə hələ mövcud deyil."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Parolun dəyişdirilməsi"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Rezident biletləri",
       "subtitle": "Dəstək biletləri və icmanızın sakinləri sizə müraciət ediblər."
+    }
+  },
+  "reports": {
+    "loadError": "İcma hesabatını yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "pdfError": "PDF hesabatını endirmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "Hesabat yüklənir...",
+    "empty": "Bu diapazonda datası olan ev təsərrüfatları yoxdur.",
+    "noMatch": "\"{{search}}\" ilə uyğun gələn ev təsərrüfatları yoxdur.",
+    "searchPlaceholder": "Evə, sakinə və ya sayğac nömrəsinə görə süzün.",
+    "downloadCsv": "CSV endirin",
+    "downloadPdf": "PDF Xülasəni endirin",
+    "downloadingPdf": "PDF hazırlanır...",
+    "ranges": {
+      "threeMonths": "Son 3 ay",
+      "sixMonths": "Son 6 ay",
+      "twelveMonths": "Son 12 ay",
+      "custom": "Fərdi diapazon"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "Kimə",
+      "hint": "Hesabatı yükləmək üçün həm başlanğıc, həm də bitmə ayı seçin."
+    },
+    "cards": {
+      "totalConsumption": "Ümumi istehlak",
+      "households": "{{total}} ev təsərrüfatlarında",
+      "avgMonthly": "Orta aylıq istehlak",
+      "communityWide": "İcma miqyasında, ayda",
+      "billed": "Hesablanmışdır",
+      "finalizedOnly": "Yalnız yekunlaşdırılmış və arxivləşdirilmiş dövrlər",
+      "paid": "Ödənişli",
+      "invoices": "{{total}} faktura verilmişdir",
+      "outstanding": "Görkəmli",
+      "unpaidInvoices": "{{total}} ödənilməmiş hesab-fakturalar",
+      "collectionRate": "Yığım dərəcəsi"
+    },
+    "costs": {
+      "title": "Xərclər və gəlir",
+      "commonArea": "Ümumi sahə ödənişləri hesablanır",
+      "bulkCost": "Kütləvi su alışı dəyəri",
+      "bulkVolume": "Toplu su alınıb",
+      "bulkCount": "{{total}} alış",
+      "billedMinusBulk": "Hesablanmış gəlir minus toplu xərc",
+      "note": "Toplu satınalmalar xərclərin görünməsi üçün izlənilir və birbaşa ev təsərrüfatlarına hesablanmır."
+    },
+    "top": {
+      "title": "Ən yaxşı istehlakçılar",
+      "empty": "Bu diapazonda heç bir istehlak qeydə alınmayıb."
+    },
+    "charts": {
+      "consumptionTitle": "Aylıq istehlak",
+      "consumptionSeries": "İstehlak",
+      "billingTitle": "Hesablanmış və Ödənilmiş və Toplu Dəyər",
+      "billedSeries": "Hesablanmışdır",
+      "paidSeries": "Ödənişli",
+      "bulkSeries": "Toplu alış dəyəri",
+      "empty": "Bu diapazon üçün məlumat yoxdur."
+    },
+    "sort": {
+      "label": "Sırala",
+      "toggleDirection": "Çeşidləmə istiqamətini dəyişin",
+      "asc": "↑ Asc",
+      "desc": "↓ Azalt"
+    },
+    "table": {
+      "house": "ev",
+      "resident": "Sakin",
+      "meter": "Metr",
+      "totalKl": "Cəmi kL",
+      "avgMonthlyKl": "Aylıq orta kL",
+      "billed": "Hesablanmışdır",
+      "paid": "Ödənişli",
+      "outstanding": "Görkəmli"
+    }
+  },
+  "announcements": {
+    "loadError": "Elanları yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "removeError": "Bu elanı silmək mümkün olmadı. Yenidən cəhd edin.",
+    "loading": "Elanlar yüklənir...",
+    "empty": "Hələ heç bir elan yoxdur. Sakinlərinizi xəbərdar etmək üçün \"Yeni Elan\" üzərinə klikləyin.",
+    "count": "Elanlar: {{total}}",
+    "newButton": "+ Yeni Elan",
+    "pinned": "Saxlanmış",
+    "expired": "İstifadə müddəti bitdi",
+    "postedAt": "Göndərildi {{date}}",
+    "updatedAt": "Redaktə edildi {{date}}",
+    "expiresAt": "Vaxtı bitir {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Baxım",
+      "waterSupply": "Su təchizatı",
+      "billing": "Faturalandırma",
+      "urgent": "Təcili"
+    },
+    "form": {
+      "addTitle": "Yeni Elan",
+      "editTitle": "Elanı redaktə edin",
+      "addSubtitle": "Sakinlər bunu Bildirişlər səhifəsində görür və push bildirişləri aktiv olan hər kəs dərhal xəbərdar edilir.",
+      "editSubtitle": "Düzəlişlər elanı yerində yeniləyir. Sakinlərə bir daha məlumat verilmir.",
+      "title": "Başlıq",
+      "category": "Kateqoriya",
+      "expiresAt": "İstifadə müddəti bitir (isteğe bağlı)",
+      "body": "Mesaj",
+      "pinned": "Sakinlərin elanlarının yuxarısına yapışdırın",
+      "requiredFields": "Başlıq və mesaj daxil edin.",
+      "saveError": "Bu elanı saxlamaq mümkün olmadı. Zəhmət olmasa təfərrüatları yoxlayın.",
+      "publish": "Nəşr et"
+    },
+    "confirm": {
+      "title": "Elan silinsin?",
+      "body": "\"{{title}}\" bütün sakinlər üçün silinəcək. Bu geri qaytarıla bilməz.",
+      "delete": "Sil",
+      "deleting": "Silinir..."
     }
   }
 }

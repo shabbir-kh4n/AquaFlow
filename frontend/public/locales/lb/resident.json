@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Kommt geschwënn",
     "welcome": {
       "greeting": "Moien {{name}},",
       "greetingFallback": "Moien,",
       "title": "Bleift no bei der Waassergeschicht vun Ärem Heem.",
-      "subtitle": "Notzungs- a Rechnungsabléck erschéngen hei wéi Är Gemeinschaft Liesungen ophëlt.",
-      "viewBadges": "View Eco-Badges"
+      "subtitle": "Notzungs- a Rechnungsabléck erschéngen hei wéi Är Gemeinschaft Liesungen ophëlt."
     },
     "stats": {
       "todaysUsage": "D'Benotzung vun haut",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Metered Notzung + gemeinsam Käschten, {{month}}",
       "estimatedBillHint": "Baséierend op de gemoossene Verbrauch vun dësem Mount a gemeinsame Käschten",
       "savings": "Spuer vs Gebai Duerchschnëtt",
-      "savingsValue": "{{percent}}% manner",
-      "savingsPreview": "Nëmmen Virschau - Verglach nach net live"
+      "savingsLess": "{{percent}}% manner",
+      "savingsMore": "{{percent}}% Méi",
+      "savingsEqual": "Selwecht wéi duerchschnëttlech",
+      "savingsDetail": "{{household}} kL vs {{average}} kL Duerchschnëtt, {{month}}",
+      "savingsNoData": "Kee Gebai Verglach nach"
     },
     "consumption": {
       "eyebrow": "Konsum",
       "title": "Deeglech Verbrauch (Lescht 14 Liesungen)",
       "seriesName": "Konsum",
       "empty": "Keng Liesungen nach opgeholl."
-    },
-    "breakdown": {
-      "eyebrow": "Zerfall",
-      "title": "Benotzung Decompte",
-      "bathroom": "Buedzëmmer",
-      "kitchen": "Kichen",
-      "garden": "Gaart / Balkon",
-      "other": "Aner / Wäsch"
     },
     "billing": {
       "eyebrow": "Rechnung",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Tier Präis Niveau",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Gemeinsam Beräich Verdeelung",
-      "commonAreaPreview": "Gemeinsam Beräich Verdeelung (Virschau)",
       "invoiceTotal": "{{period}} Rechnung am Ganzen",
       "estimatedCharge": "Aktuell geschätzte Charge",
       "commonAreaBreakdown": "Gemeinsam Beräich Decompte",
-      "payPreview": "Pay Bill Preview",
-      "payUnavailable": "Rechnungsmotor nach net verfügbar"
+      "commonAreaEstimate": "Gemeinsam Beräich Verdeelung (Schätzung)",
+      "payOutstanding": "Ausbezuelt ₹{{amount}}",
+      "payAllDescription": "All onbezuelten Rechnungen ({{number}})"
     },
     "tips": {
       "eyebrow": "Tipps",
@@ -66,8 +59,7 @@
     "empty": "Keng Liesungen nach opgeholl. Wann Är Gemeinschaft e Meterliest ophëlt, gëtt se hei gewisen.",
     "tabs": {
       "lastSixMonths": "Déi lescht 6 Méint",
-      "customRange": "Benotzerdefinéiert Range",
-      "comingSoon": "Kommt geschwënn"
+      "customRange": "Benotzerdefinéiert Range"
     },
     "peakDay": "Héichpunkt Dag:",
     "lowestDay": "Niddregsten Dag:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Deeglech Verbrauch Heatmap",
-      "subtitle": "Faarfintensitéit markéiert schwéier Benotzungsdeeg (Virschau)."
+      "subtitle": "Faarfintensitéit markéiert schwéier Benotzungsdeeg (Virschau).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: keng Donnéeën",
+      "less": "Manner",
+      "more": "Méi",
+      "noData": "Keng Daten"
     },
     "ranking": {
       "title": "Gemeinschaft Peer Ranking",
-      "subtitle": "Äre Rang am Verglach mat ähnlechen Eenheeten (Virschau).",
-      "ecoSaver": "Aktiv Eco Saver",
-      "aptNumber": "Schéin {{number}}",
-      "unitNumber": "Eenheet {{number}}",
-      "yourUnit": "Är Eenheet",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Dir)"
+      "subtitle": "Äre Stot vs all Stot an Ärem Appartement fir {{month}}. Niddereg Notzung rangéiert méi héich.",
+      "headline": "#{{rank}} vun {{total}} Stéit",
+      "percentile": "Dir hutt manner Waasser benotzt wéi {{percent}}% vun Ären Noperen.",
+      "min": "Niddregsten",
+      "median": "Median",
+      "max": "Héchsten",
+      "youRow": "#{{rank}} Dir",
+      "neighbourRow": "#{{rank}} Noper",
+      "privacyNote": "Noperen sinn anonym. Hausnummeren an Nimm ginn ni gewisen.",
+      "empty": "Net genuch Daten nach fir Äert Stot ze klasséieren."
+    },
+    "range": {
+      "from": "Vun",
+      "to": "Zu",
+      "invalid": "De Start Mount däerf net nom Enn Mount sinn.",
+      "noData": "Keng Konsumdaten an dësem Beräich."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Rechnungszyklus: {{period}}",
       "allPaid": "All Rechnungen gi bezuelt",
       "payTotal": "Bezuelen Ganzen enestaende",
-      "payTotalUnavailable": "Online Bezuelung ass nach net verfügbar - regléiert Rechnungen direkt mat Ärem Gemeinschaftsadministrator",
       "downloadSummary": "Download Bill Resumé",
-      "downloadSummaryUnavailable": "Rechnung Resumé Download ass nach net verfügbar"
+      "payAllDescription": "All onbezuelten Rechnungen ({{number}})"
     },
     "history": {
       "title": "Rechnung Geschicht",
-      "exportCsv": "Export alles op CSV",
-      "exportUnavailable": "CSV Export ass nach net verfügbar"
+      "exportCsv": "Export alles op CSV"
     },
     "table": {
       "cycle": "Zyklus",
@@ -148,6 +151,17 @@
       "description": "Online Bezuelung ass nach net verfügbar - Rechnungen gi mat Ärem Gemeinschaftsadministrateur direkt geléist.",
       "manage": "Verwalte Bezuelmethoden",
       "manageUnavailable": "Bezuelmethoden sinn nach net verfügbar"
+    },
+    "csv": {
+      "cycle": "Rechnung Period",
+      "consumption": "Verbrauch (kL)",
+      "baseAmount": "Basis Betrag",
+      "tariffAmount": "Tarif Betrag",
+      "commonAreaAmount": "Gemeinsam Beräich Betrag",
+      "totalAmount": "Gesamtbetrag",
+      "paid": "Bezuelt",
+      "paidAt": "Bezuelt um",
+      "generatedAt": "Generéiert am"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "W.e.g. dréckt net zréck oder erfrëscht dës Säit",
     "success": "Bezuelen Erfolleg",
     "error": "Eppes ass falsch gaang fir Är Bezuelung ze bestätegen. Probéiert w.e.g. nach eng Kéier.",
-    "retry": "Nach eng Kéier probéieren"
+    "retry": "Nach eng Kéier probéieren",
+    "simulationNotice": "Simuléiert Kasse nëmme fir Demonstratioun. Keng richteg Bezuelung gëtt gemaach a keng Sue gi verrechent."
   },
   "notifications": {
     "loadError": "Konnt Är Notifikatiounen net lueden. Probéiert w.e.g. nach eng Kéier.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push Notifikatiounen sinn nach net konfiguréiert. Kontaktéiert Ären Admin.",
       "enableError": "Konnt Push Notifikatiounen net aktivéieren. Probéiert w.e.g. nach eng Kéier.",
       "disableError": "Konnt Push Notifikatiounen net deaktivéieren. Probéiert w.e.g. nach eng Kéier."
+    },
+    "tabs": {
+      "alerts": "Alarmer",
+      "announcements": "Ukënnegung"
+    },
+    "announcements": {
+      "loadError": "Konnt d'Ukënnegung net lueden. Probéiert w.e.g. nach eng Kéier.",
+      "loading": "Lueden Ukënnegungen…",
+      "empty": "Keng Ukënnegung vun Ärem Gemeinschaftsadministrateur de Moment.",
+      "pinned": "Befestegt",
+      "postedAt": "Gepost {{date}}",
+      "expiresAt": "Bis {{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "Ënnerhalt",
+        "waterSupply": "Waasserversuergung",
+        "billing": "Rechnung",
+        "urgent": "Dringend"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Bedenken Desk",
     "subtitle": "Gitt Waasserleckberichter, Meterkalibratiounsufroen oder Rechnungsufroen direkt un Äre Gemeinschaftsadministrator an / oder System Admin of.",
     "emptyCreateHint": "Beschreift Äert Thema oder Suerg hei ënnen a wielt wien et soll behandelen."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Déi lescht 3 Méint",
+      "sixMonths": "Déi lescht 6 Méint",
+      "twelveMonths": "Déi lescht 12 Méint",
+      "custom": "Benotzerdefinéiert Range"
+    },
+    "customRange": {
+      "from": "Vun",
+      "to": "Zu",
+      "hint": "Wielt e Start an Enn Mount fir Äre Bericht ze gesinn."
+    },
+    "loading": "Luet Äre Bericht ...",
+    "loadError": "Konnt Äre Bericht net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "pdfError": "Konnt d'Ausso net eroflueden. Probéiert w.e.g. nach eng Kéier.",
+    "downloading": "Eroflueden…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Download Statement PDF",
+    "period": "Rapportperiod: {{from}} bis {{to}}",
+    "cards": {
+      "totalUsage": "Gesamtverbrauch",
+      "avgMonthly": "Duerchschnëtt monatlecht Benotzung",
+      "avgMonthlyHint": "Iwwer Méint mat opgeholl Liesungen",
+      "change": "Ännerung vs Virdrun Period",
+      "changeHint": "{{previous}} an {{from}} bis {{to}}",
+      "changeNoData": "Keng Notzung an der viregter Period fir ze vergläichen",
+      "totalBilled": "Total Rechnung",
+      "totalPaid": "Total bezuelt",
+      "outstanding": "Ausgezeechent"
+    },
+    "chart": {
+      "title": "Mount Notzung a Rechnung",
+      "subtitle": "Baren weisen Konsum (kL); d'Linn weist de Rechnungsbetrag (₹).",
+      "consumption": "Konsum",
+      "billed": "Rechnung"
+    },
+    "table": {
+      "title": "Mount-fir-Mount Ënnerdeelung",
+      "month": "Mount",
+      "consumption": "Verbrauch (kL)",
+      "billed": "Rechnung",
+      "paid": "Bezuelt",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Bezuelt",
+      "unpaid": "Onbezuelt",
+      "notBilled": "Net Rechnung"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Kont Detailer",
+    "managedNote": "Äre Gemeinschaftsadministrator geréiert dës Detailer. Kontaktéiert hinnen wann eppes muss änneren.",
+    "loading": "Lued Äre Profil…",
+    "loadError": "Konnt Äre Profil net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "notSet": "Net gesat",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Passwuert änneren",
+    "fields": {
+      "fullName": "Ganzen numm",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "houseNumber": "Hausnummer",
+      "meterNumber": "Meter Zuel",
+      "community": "Communautéit",
+      "flatSize": "Flaach Gréisst",
+      "joined": "Matgemaach"
+    }
   }
 }

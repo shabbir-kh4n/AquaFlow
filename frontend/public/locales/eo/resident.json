@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Baldaŭ venos",
     "welcome": {
       "greeting": "Saluton {{name}},",
       "greetingFallback": "Saluton,",
       "title": "Restu proksime al la akvorakonto de via hejmo.",
-      "subtitle": "Uzado kaj fakturaj scioj aperos ĉi tie dum via komunumo registras legadojn.",
-      "viewBadges": "Vidu Eko-Insignon"
+      "subtitle": "Uzado kaj fakturaj scioj aperos ĉi tie dum via komunumo registras legadojn."
     },
     "stats": {
       "todaysUsage": "Hodiaŭa Uzado",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Mezurita uzokutimo + komunaj kostoj, {{month}}",
       "estimatedBillHint": "Surbaze de la mezurita konsumo kaj komunaj kostoj de ĉi tiu monato",
       "savings": "Ŝparaĵoj kontraŭ Konstruaĵo Avg",
-      "savingsValue": "{{percent}}% Malpli",
-      "savingsPreview": "Antaŭrigardo nur — komparo ankoraŭ ne viva"
+      "savingsLess": "{{percent}}% Malpli",
+      "savingsMore": "{{percent}}% Pli",
+      "savingsEqual": "Same kiel mezumo",
+      "savingsDetail": "{{household}} kL kontraŭ {{average}} kL mezumo, {{month}}",
+      "savingsNoData": "Ankoraŭ neniu konstrua komparo"
     },
     "consumption": {
       "eyebrow": "Konsumo",
       "title": "Ĉiutaga Konsumo (Lastaj 14 Legoj)",
       "seriesName": "Konsumo",
       "empty": "Neniuj legaĵoj ankoraŭ registritaj."
-    },
-    "breakdown": {
-      "eyebrow": "Panaso",
-      "title": "Uzado-Difekto",
-      "bathroom": "Banĉambro",
-      "kitchen": "Kuirejo",
-      "garden": "Ĝardeno / Balkono",
-      "other": "Aliaj / Lavejo"
     },
     "billing": {
       "eyebrow": "Fakturado",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Nivela preza nivelo",
       "tierLabel": "Nivelo {{tier}}",
       "commonArea": "Komuna areo-dividado",
-      "commonAreaPreview": "Komuna areodividado (antaŭprezento)",
       "invoiceTotal": "{{period}} fakturo entute",
       "estimatedCharge": "Nuna taksita ŝarĝo",
       "commonAreaBreakdown": "Komuna areo rompo",
-      "payPreview": "Antaŭrigardo de Pay Bill",
-      "payUnavailable": "Faktura motoro ankoraŭ ne havebla"
+      "commonAreaEstimate": "Komuna areodividado (takso)",
+      "payOutstanding": "Pagu elstaran ₹{{amount}}",
+      "payAllDescription": "Ĉiuj nepagitaj fakturoj ({{number}})"
     },
     "tips": {
       "eyebrow": "Konsiletoj",
@@ -66,8 +59,7 @@
     "empty": "Neniuj legaĵoj ankoraŭ registritaj. Post kiam via komunumo registras mezurilon, ĝi aperos ĉi tie.",
     "tabs": {
       "lastSixMonths": "Lastaj 6 Monatoj",
-      "customRange": "Propra Gamo",
-      "comingSoon": "Baldaŭ venos"
+      "customRange": "Propra Gamo"
     },
     "peakDay": "Pinta Tago:",
     "lowestDay": "Plej Malalta Tago:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Taga Konsumo Varmomapo",
-      "subtitle": "Kolorintenseco flagas pezajn uztagojn (antaŭprezento)."
+      "subtitle": "Kolorintenseco flagas pezajn uztagojn (antaŭprezento).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: neniuj datumoj",
+      "less": "Malpli",
+      "more": "Pli",
+      "noData": "Neniuj datumoj"
     },
     "ranking": {
       "title": "Komunuma Peer Ranking",
-      "subtitle": "Via rango kompare kun similaj unuoj (antaŭprezento).",
-      "ecoSaver": "Aktiva Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unuo {{number}}",
-      "yourUnit": "Via unuo",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Vi)"
+      "subtitle": "Via domanaro kontraŭ ĉiu domanaro en via loĝejo por {{month}}. Pli malalta uzado rangas pli alte.",
+      "headline": "#{{rank}} el {{total}} domanaroj",
+      "percentile": "Vi uzis malpli da akvo ol {{percent}}% de viaj najbaroj.",
+      "min": "Plej malalta",
+      "median": "Mediano",
+      "max": "Plej alta",
+      "youRow": "#{{rank}} Vi",
+      "neighbourRow": "#{{rank}} Najbaro",
+      "privacyNote": "Najbaroj estas anonimaj. Domnumeroj kaj nomoj neniam estas montritaj.",
+      "empty": "Ankoraŭ ne sufiĉas datumoj por rangigi vian domanaron."
+    },
+    "range": {
+      "from": "De",
+      "to": "Al",
+      "invalid": "La komenca monato ne devas esti post la finmonato.",
+      "noData": "Neniuj konsumdatenoj en ĉi tiu gamo."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Faktura Ciklo: {{period}}",
       "allPaid": "Ĉiuj fakturoj estas pagitaj",
       "payTotal": "Pagu Totalon Elstara",
-      "payTotalUnavailable": "Enreta pago ankoraŭ ne haveblas — pagu fakturojn rekte kun via komunuma administranto",
       "downloadSummary": "Elŝutu Bill-Resumon",
-      "downloadSummaryUnavailable": "Elŝuto de resumaj fakturo ankoraŭ ne haveblas"
+      "payAllDescription": "Ĉiuj nepagitaj fakturoj ({{number}})"
     },
     "history": {
       "title": "Historio de Fakturoj",
-      "exportCsv": "Eksporti Ĉion al CSV",
-      "exportUnavailable": "CSV eksporto ankoraŭ ne haveblas"
+      "exportCsv": "Eksporti Ĉion al CSV"
     },
     "table": {
       "cycle": "Ciklo",
@@ -148,6 +151,17 @@
       "description": "Enreta pago ankoraŭ ne haveblas — fakturoj estas pagataj rekte kun via komunuma administranto.",
       "manage": "Administri Pagajn Metodojn",
       "manageUnavailable": "Pagmetodoj ankoraŭ ne haveblas"
+    },
+    "csv": {
+      "cycle": "Faktura periodo",
+      "consumption": "Konsumo (kL)",
+      "baseAmount": "Baza kvanto",
+      "tariffAmount": "Tarifa kvanto",
+      "commonAreaAmount": "Komuna areo kvanto",
+      "totalAmount": "Tuta kvanto",
+      "paid": "Pagita",
+      "paidAt": "Pagita ĉe",
+      "generatedAt": "Generita ĉe"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Bonvolu ne premi reen aŭ refreŝigi ĉi tiun paĝon",
     "success": "Pago Sukcesa",
     "error": "Io misfunkciis konfirmante vian pagon. Bonvolu provi denove.",
-    "retry": "Reprovi"
+    "retry": "Reprovi",
+    "simulationNotice": "Simulita kaso nur por pruvo. Neniu reala pago estas farita kaj neniu mono estas ŝargita."
   },
   "notifications": {
     "loadError": "Ne eblis ŝargi viajn sciigojn. Bonvolu provi denove.",
@@ -213,6 +228,25 @@
       "notConfigured": "Puŝaj sciigoj ankoraŭ ne estas agorditaj. Kontaktu vian administranton.",
       "enableError": "Ne eblis ebligi puŝajn sciigojn. Bonvolu provi denove.",
       "disableError": "Ne eblis malŝalti puŝajn sciigojn. Bonvolu provi denove."
+    },
+    "tabs": {
+      "alerts": "Atentigoj",
+      "announcements": "Anoncoj"
+    },
+    "announcements": {
+      "loadError": "Ne eblis ŝargi anoncojn. Bonvolu provi denove.",
+      "loading": "Ŝarĝante anoncojn...",
+      "empty": "Neniuj anoncoj de via komunuma administranto nun.",
+      "pinned": "Alpinglita",
+      "postedAt": "Afiŝita {{date}}",
+      "expiresAt": "Ĝis {{date}}",
+      "category": {
+        "general": "Generalo",
+        "maintenance": "Prizorgado",
+        "waterSupply": "Akvoprovizo",
+        "billing": "Fakturado",
+        "urgent": "Urĝa"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Loĝanto Subteno & Koncernoj Tablo",
     "subtitle": "Sendu raportojn pri akvofluado, petojn pri mezuriloj aŭ fakturajn demandojn rekte al via komunuma administranto kaj/aŭ Sistemadministranto.",
     "emptyCreateHint": "Priskribu vian problemon aŭ zorgon ĉi-sube, kaj elektu, kiu devas trakti ĝin."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Lastaj 3 Monatoj",
+      "sixMonths": "Lastaj 6 Monatoj",
+      "twelveMonths": "Lastaj 12 Monatoj",
+      "custom": "Propra Gamo"
+    },
+    "customRange": {
+      "from": "De",
+      "to": "Al",
+      "hint": "Elektu komencan kaj finmonaton por vidi vian raporton."
+    },
+    "loading": "Ŝarĝante vian raporton...",
+    "loadError": "Ne eblis ŝargi vian raporton. Bonvolu provi denove.",
+    "pdfError": "Ne eblis elŝuti la deklaron. Bonvolu provi denove.",
+    "downloading": "Elŝutante…",
+    "downloadCsv": "Elŝutu CSV",
+    "downloadStatement": "Elŝutu Deklaron PDF",
+    "period": "Raportperiodo: {{from}} ĝis {{to}}",
+    "cards": {
+      "totalUsage": "Tuta Uzado",
+      "avgMonthly": "Meza Monata Uzado",
+      "avgMonthlyHint": "Tra monatoj kun registritaj legaĵoj",
+      "change": "Ŝanĝo kontraŭ Antaŭa Periodo",
+      "changeHint": "{{previous}} en {{from}} ĝis {{to}}",
+      "changeNoData": "Neniu uzo en la antaŭa periodo por kompari",
+      "totalBilled": "Totalo Fakturita",
+      "totalPaid": "Tute Pagita",
+      "outstanding": "Elstara"
+    },
+    "chart": {
+      "title": "Monata Uzado kaj Fakturado",
+      "subtitle": "Trinkejoj montras konsumon (kL); la linio montras la fakturitan kvanton (₹).",
+      "consumption": "Konsumo",
+      "billed": "Fakturita"
+    },
+    "table": {
+      "title": "Monato-post-monata Romo",
+      "month": "Monato",
+      "consumption": "Konsumo (kL)",
+      "billed": "Fakturita",
+      "paid": "Pagita",
+      "status": "Statuso"
+    },
+    "status": {
+      "paid": "Pagita",
+      "unpaid": "Nepagita",
+      "notBilled": "Ne fakturita"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Detaloj pri konto",
+    "managedNote": "Via komunuma administranto administras ĉi tiujn detalojn. Kontaktu ilin se io bezonas ŝanĝi.",
+    "loading": "Ŝarĝante vian profilon...",
+    "loadError": "Ne eblis ŝargi vian profilon. Bonvolu provi denove.",
+    "notSet": "Ne fiksita",
+    "flatSizeValue": "{{size}} kv",
+    "avatarTitle": "Avataro",
+    "passwordTitle": "Ŝanĝi pasvorton",
+    "fields": {
+      "fullName": "Plena nomo",
+      "email": "Retpoŝto",
+      "phone": "Telefono",
+      "houseNumber": "Domnumero",
+      "meterNumber": "Nombro de metro",
+      "community": "Komunumo",
+      "flatSize": "Ebena grandeco",
+      "joined": "Aliĝis"
+    }
   }
 }

@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Kommer snart",
     "welcome": {
       "greeting": "Hej {{name}},",
       "greetingFallback": "Hej med dig,",
       "title": "Hold dig tæt på dit hjems vandhistorie.",
-      "subtitle": "Brugs- og faktureringsindsigt vises her, mens dit fællesskab registrerer aflæsninger.",
-      "viewBadges": "Se Eco-Badges"
+      "subtitle": "Brugs- og faktureringsindsigt vises her, mens dit fællesskab registrerer aflæsninger."
     },
     "stats": {
       "todaysUsage": "Dagens brug",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Målt forbrug + delte afgifter, {{month}}",
       "estimatedBillHint": "Baseret på denne måneds målte forbrug og delte afgifter",
       "savings": "Besparelser vs. bygning Gns",
-      "savingsValue": "{{percent}} % mindre",
-      "savingsPreview": "Kun forhåndsvisning — sammenligning er endnu ikke live"
+      "savingsLess": "{{percent}} % mindre",
+      "savingsMore": "{{percent}} % mere",
+      "savingsEqual": "Samme som gennemsnittet",
+      "savingsDetail": "{{household}} kL vs {{average}} kL gennemsnit, {{month}}",
+      "savingsNoData": "Ingen bygningssammenligning endnu"
     },
     "consumption": {
       "eyebrow": "Forbrug",
       "title": "Dagligt forbrug (sidste 14 aflæsninger)",
       "seriesName": "Forbrug",
       "empty": "Ingen aflæsninger registreret endnu."
-    },
-    "breakdown": {
-      "eyebrow": "Sammenbrud",
-      "title": "Forbrugsfordeling",
-      "bathroom": "Badeværelse",
-      "kitchen": "Køkken",
-      "garden": "Have / altan",
-      "other": "Andet / Tøjvask"
     },
     "billing": {
       "eyebrow": "Fakturering",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Tierprisniveau",
       "tierLabel": "Niveau {{tier}}",
       "commonArea": "Fællesarealfordeling",
-      "commonAreaPreview": "Fællesarealfordeling (forhåndsvisning)",
       "invoiceTotal": "{{period}} faktura i alt",
       "estimatedCharge": "Aktuel estimeret afgift",
       "commonAreaBreakdown": "Fælles områdenedbrydning",
-      "payPreview": "Forhåndsvisning af betalingsregning",
-      "payUnavailable": "Faktureringsmotor er endnu ikke tilgængelig"
+      "commonAreaEstimate": "Fællesarealfordeling (skøn)",
+      "payOutstanding": "Betal udestående ₹{{amount}}",
+      "payAllDescription": "Alle ubetalte regninger ({{number}})"
     },
     "tips": {
       "eyebrow": "Tips",
@@ -66,8 +59,7 @@
     "empty": "Ingen aflæsninger registreret endnu. Når dit fællesskab registrerer en måleraflæsning, vises den her.",
     "tabs": {
       "lastSixMonths": "Sidste 6 måneder",
-      "customRange": "Brugerdefineret rækkevidde",
-      "comingSoon": "Kommer snart"
+      "customRange": "Brugerdefineret rækkevidde"
     },
     "peakDay": "Højeste dag:",
     "lowestDay": "Laveste dag:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Dagligt forbrug varmekort",
-      "subtitle": "Farveintensitet markerer store brugsdage (forhåndsvisning)."
+      "subtitle": "Farveintensitet markerer store brugsdage (forhåndsvisning).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: ingen data",
+      "less": "Mindre",
+      "more": "Mere",
+      "noData": "Ingen data"
     },
     "ranking": {
       "title": "Community Peer Ranking",
-      "subtitle": "Din rangering sammenlignet med lignende enheder (forhåndsvisning).",
-      "ecoSaver": "Aktiv Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Enhed {{number}}",
-      "yourUnit": "Din enhed",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (dig)"
+      "subtitle": "Din husstand kontra hver husstand i din lejlighed for {{month}}. Lavere brug rangerer højere.",
+      "headline": "#{{rank}} af {{total}} husstande",
+      "percentile": "Du brugte mindre vand end {{percent}} % af dine naboer.",
+      "min": "Laveste",
+      "median": "Median",
+      "max": "Højest",
+      "youRow": "#{{rank}} Dig",
+      "neighbourRow": "#{{rank}} Nabo",
+      "privacyNote": "Naboer er anonyme. Husnumre og navne vises aldrig.",
+      "empty": "Ikke nok data endnu til at rangere din husstand."
+    },
+    "range": {
+      "from": "Fra",
+      "to": "Til",
+      "invalid": "Startmåneden må ikke ligge efter slutmåneden.",
+      "noData": "Ingen forbrugsdata i dette interval."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Faktureringscyklus: {{period}}",
       "allPaid": "Alle fakturaer betales",
       "payTotal": "Betal i alt udestående",
-      "payTotalUnavailable": "Onlinebetaling er ikke tilgængelig endnu – afregn regninger med din community-administrator direkte",
       "downloadSummary": "Download regningsoversigt",
-      "downloadSummaryUnavailable": "Regningsoversigt download er ikke tilgængelig endnu"
+      "payAllDescription": "Alle ubetalte regninger ({{number}})"
     },
     "history": {
       "title": "Fakturahistorik",
-      "exportCsv": "Eksporter alle til CSV",
-      "exportUnavailable": "CSV eksport er ikke tilgængelig endnu"
+      "exportCsv": "Eksporter alle til CSV"
     },
     "table": {
       "cycle": "Cyklus",
@@ -148,6 +151,17 @@
       "description": "Onlinebetaling er ikke tilgængelig endnu – regninger afregnes direkte med din fællesskabsadministrator.",
       "manage": "Administrer betalingsmetoder",
       "manageUnavailable": "Betalingsmetoder er ikke tilgængelige endnu"
+    },
+    "csv": {
+      "cycle": "Faktureringsperiode",
+      "consumption": "Forbrug (kL)",
+      "baseAmount": "Grundbeløb",
+      "tariffAmount": "Takstbeløb",
+      "commonAreaAmount": "Fællesarealbeløb",
+      "totalAmount": "Samlet beløb",
+      "paid": "Betalt",
+      "paidAt": "Betales kl",
+      "generatedAt": "Genereret kl"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Tryk ikke tilbage eller opdater denne side",
     "success": "Betaling lykkedes",
     "error": "Noget gik galt med at bekræfte din betaling. Prøv venligst igen.",
-    "retry": "Prøv igen"
+    "retry": "Prøv igen",
+    "simulationNotice": "Simuleret kasse kun til demonstration. Der foretages ingen reel betaling, og der opkræves ingen penge."
   },
   "notifications": {
     "loadError": "Kunne ikke indlæse dine notifikationer. Prøv venligst igen.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push-meddelelser er ikke konfigureret endnu. Kontakt din administrator.",
       "enableError": "Kunne ikke aktivere push-beskeder. Prøv venligst igen.",
       "disableError": "Kunne ikke deaktivere push-beskeder. Prøv venligst igen."
+    },
+    "tabs": {
+      "alerts": "Advarsler",
+      "announcements": "Meddelelser"
+    },
+    "announcements": {
+      "loadError": "Kunne ikke indlæse meddelelser. Prøv venligst igen.",
+      "loading": "Indlæser meddelelser...",
+      "empty": "Ingen meddelelser fra din fællesskabsadministrator lige nu.",
+      "pinned": "Fastgjort",
+      "postedAt": "Sendt {{date}}",
+      "expiresAt": "Indtil {{date}}",
+      "category": {
+        "general": "Generel",
+        "maintenance": "Opretholdelse",
+        "waterSupply": "Vandforsyning",
+        "billing": "Fakturering",
+        "urgent": "Presserende"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Send vandlækagerapporter, målerkalibreringsanmodninger eller faktureringsforespørgsler direkte til din fællesskabsadministrator og/eller systemadministrator.",
     "emptyCreateHint": "Beskriv dit problem eller din bekymring nedenfor, og vælg, hvem der skal håndtere det."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Sidste 3 måneder",
+      "sixMonths": "Sidste 6 måneder",
+      "twelveMonths": "Sidste 12 måneder",
+      "custom": "Brugerdefineret rækkevidde"
+    },
+    "customRange": {
+      "from": "Fra",
+      "to": "Til",
+      "hint": "Vælg en start- og slutmåned for at se din rapport."
+    },
+    "loading": "Indlæser din rapport...",
+    "loadError": "Kunne ikke indlæse din rapport. Prøv venligst igen.",
+    "pdfError": "Kunne ikke downloade erklæringen. Prøv venligst igen.",
+    "downloading": "Downloader...",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Download erklæring PDF",
+    "period": "Rapportperiode: {{from}} til {{to}}",
+    "cards": {
+      "totalUsage": "Samlet forbrug",
+      "avgMonthly": "Gennemsnitlig månedlig brug",
+      "avgMonthlyHint": "På tværs af måneder med registrerede aflæsninger",
+      "change": "Ændring i forhold til forrige periode",
+      "changeHint": "{{previous}} i {{from}} til {{to}}",
+      "changeNoData": "Ingen brug i den foregående periode til sammenligning",
+      "totalBilled": "Samlet faktureret",
+      "totalPaid": "Samlet betalt",
+      "outstanding": "Udestående"
+    },
+    "chart": {
+      "title": "Månedlig brug og fakturering",
+      "subtitle": "Søjler viser forbrug (kL); linjen viser det fakturerede beløb (₹).",
+      "consumption": "Forbrug",
+      "billed": "Faktureret"
+    },
+    "table": {
+      "title": "Opdeling måned for måned",
+      "month": "Måned",
+      "consumption": "Forbrug (kL)",
+      "billed": "Faktureret",
+      "paid": "Betalt",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Betalt",
+      "unpaid": "Ubetalt",
+      "notBilled": "Ikke faktureret"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Kontooplysninger",
+    "managedNote": "Din fællesskabsadministrator administrerer disse detaljer. Kontakt dem, hvis noget skal ændres.",
+    "loading": "Indlæser din profil...",
+    "loadError": "Kunne ikke indlæse din profil. Prøv venligst igen.",
+    "notSet": "Ikke indstillet",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Skift adgangskode",
+    "fields": {
+      "fullName": "Fulde navn",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "houseNumber": "Husnummer",
+      "meterNumber": "Måler nummer",
+      "community": "Fællesskab",
+      "flatSize": "Flad størrelse",
+      "joined": "Tiltrådte"
+    }
   }
 }

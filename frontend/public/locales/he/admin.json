@@ -25,7 +25,6 @@
     "title": "{{community}} לוח מחוונים לדירה",
     "titleFallback": "לוח המחוונים של הדירה שלך",
     "subtitle": "סיכום תפעולי עבור תת מדידות של חברת מים וצריכה ביתית.",
-    "comingSoon": "בקרוב",
     "manageCommunity": "ניהול קהילה",
     "noUsageReadings": "עדיין לא נרשמו קריאות שימוש.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "החודש האחרון שהוקלט ({{month}})",
       "noReadingsYet": "עדיין לא נרשמו קריאות",
       "pendingAlerts": "התראות בהמתנה",
-      "anomalyPreview": "תצוגה מקדימה של זיהוי אנומליות - עדיין לא זמינה"
+      "reviewAlerts": "התראות על דליפה פעילה / שימוש - בדוק כעת",
+      "noActiveAlerts": "אין התראות פעילות"
     },
     "actions": {
       "label": "פעולות ניהוליות מהירות",
       "uploadReadings": "העלה קריאת מד",
       "configureTariffs": "הגדר תעריפים",
-      "reportsNotBuilt": "דוחות עדיין לא בנויים",
       "downloadReports": "הורד דוחות מערכת"
     },
     "chart": {
       "title": "השוואת צריכה חודשית (kL)",
       "subtitle": "בחודשים האחרונים {{months}}: יעד מול צריכה בפועל.",
-      "targetSeries": "יעד (תצוגה מקדימה)",
       "actualSeries": "מַמָשִׁי"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "לא ניתן לשמור את הפרופיל שלך. אנא נסה שוב.",
     "apartmentSaveError": "לא ניתן לשמור את פרטי הדירה. אנא נסה שוב.",
     "specsTitle": "מפרט פרופיל",
-    "photoUnavailable": "העלאת תמונה אינה זמינה עדיין",
-    "changePhoto": "שנה תמונה",
-    "deletePhoto": "לִמְחוֹק",
-    "photoHint": "JPG או PNG. גודל מקסימלי 2MB.",
     "saveProfile": "שמור פרופיל",
     "apartmentTitle": "פרטי דירה",
     "saveApartment": "שמור את פרטי הדירה",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "אימות דו-גורמי אינו זמין עדיין",
       "twoFactorAria": "אימות דו-גורמי (תצוגה מקדימה בלבד)",
       "sessionsLabel": "הפעלות ניהול פעילות",
-      "sessionsEmpty": "מעקב אחר פעילויות עדיין לא זמין - זוהי תצוגה מקדימה של הפריסה הקרובה."
-    }
+      "sessionsEmpty": "מעקב אחר פעילויות עדיין לא זמין - זוהי תצוגה מקדימה של הפריסה הקרובה.",
+      "previewNote": "תצוגה מקדימה בלבד: אימות דו-גורמי ומעקב אחר הפעלה אינם זמינים עדיין."
+    },
+    "avatarLabel": "גִלגוּל",
+    "passwordTitle": "שנה סיסמה"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "כרטיסי תושבים",
       "subtitle": "כרטיסי תמיכה וחששות שתושבים בקהילה שלך פנו אליך."
+    }
+  },
+  "reports": {
+    "loadError": "לא ניתן היה לטעון את דוח הקהילה. אנא נסה שוב.",
+    "pdfError": "לא ניתן היה להוריד את הדוח PDF. אנא נסה שוב.",
+    "loading": "טוען דוח...",
+    "empty": "אין משקי בית עם נתונים בטווח הזה.",
+    "noMatch": "אין משקי בית שתואמים את \"{{search}}\".",
+    "searchPlaceholder": "סנן לפי בית, תושב או מספר מד.",
+    "downloadCsv": "הורד את CSV",
+    "downloadPdf": "הורד את PDF סיכום",
+    "downloadingPdf": "מכין את PDF...",
+    "ranges": {
+      "threeMonths": "3 חודשים אחרונים",
+      "sixMonths": "6 חודשים אחרונים",
+      "twelveMonths": "12 חודשים אחרונים",
+      "custom": "טווח מותאם אישית"
+    },
+    "customRange": {
+      "from": "מִן",
+      "to": "אֶל",
+      "hint": "בחר גם חודש התחלה וגם חודש סיום כדי לטעון את הדוח."
+    },
+    "cards": {
+      "totalConsumption": "צריכה כוללת",
+      "households": "על פני {{total}} משקי בית",
+      "avgMonthly": "צריכה חודשית ממוצעת",
+      "communityWide": "כלל הקהילה, לחודש",
+      "billed": "מחויב",
+      "finalizedOnly": "מחזורים סופיים וארכיון בלבד",
+      "paid": "בתשלום",
+      "invoices": "{{total}} הוצאו חשבוניות",
+      "outstanding": "בּוֹלֵט",
+      "unpaidInvoices": "{{total}} חשבוניות שלא שולמו",
+      "collectionRate": "שיעור איסוף"
+    },
+    "costs": {
+      "title": "עלויות לעומת הכנסות",
+      "commonArea": "חיובי אזור משותף מחויב",
+      "bulkCost": "עלות רכישת מים בתפזורת",
+      "bulkVolume": "מים בתפזורת נרכשו",
+      "bulkCount": "{{total}} רכישות",
+      "billedMinusBulk": "הכנסה מחויבת בניכוי עלות בכמות גדולה",
+      "note": "מעקב אחר רכישות בכמות גדולה לצורך נראות עלויות ואינן מחויבות למשקי בית ישירות."
+    },
+    "top": {
+      "title": "צרכנים מובילים",
+      "empty": "לא נרשמה צריכה בטווח זה."
+    },
+    "charts": {
+      "consumptionTitle": "צריכה חודשית",
+      "consumptionSeries": "צְרִיכָה",
+      "billingTitle": "חיוב לעומת עלות בתשלום לעומת עלות בכמות גדולה",
+      "billedSeries": "מחויב",
+      "paidSeries": "בתשלום",
+      "bulkSeries": "עלות רכישה בתפזורת",
+      "empty": "אין נתונים עבור טווח זה."
+    },
+    "sort": {
+      "label": "מיין לפי",
+      "toggleDirection": "החלף את כיוון המיון",
+      "asc": "↑ Asc",
+      "desc": "↓ תיאור"
+    },
+    "table": {
+      "house": "בַּיִת",
+      "resident": "תוֹשָׁב",
+      "meter": "מֶטֶר",
+      "totalKl": "סך הכל kL",
+      "avgMonthlyKl": "ממוצע חודשי kL",
+      "billed": "מחויב",
+      "paid": "בתשלום",
+      "outstanding": "בּוֹלֵט"
+    }
+  },
+  "announcements": {
+    "loadError": "לא ניתן היה לטעון הודעות. אנא נסה שוב.",
+    "removeError": "לא ניתן למחוק הודעה זו. אנא נסה שוב.",
+    "loading": "טוען הודעות...",
+    "empty": "עדיין אין הכרזות. לחץ על \"הודעה חדשה\" כדי להודיע ​​לתושבים שלך.",
+    "count": "הודעות: {{total}}",
+    "newButton": "+ הודעה חדשה",
+    "pinned": "מוצמד",
+    "expired": "פג תוקף",
+    "postedAt": "פורסם {{date}}",
+    "updatedAt": "נערך {{date}}",
+    "expiresAt": "יפוג {{date}}",
+    "category": {
+      "general": "כְּלָלִי",
+      "maintenance": "תַחזוּקָה",
+      "waterSupply": "אַסְפָּקַת מַיִם",
+      "billing": "חיוב",
+      "urgent": "דָחוּף"
+    },
+    "form": {
+      "addTitle": "הודעה חדשה",
+      "editTitle": "ערוך הודעה",
+      "addSubtitle": "תושבים רואים זאת בדף ההתראות שלהם, וכל מי שהפעלת התראות דחיפה מקבל הודעה מיד.",
+      "editSubtitle": "עריכות מעדכנות את ההודעה במקום. התושבים לא מקבלים שוב הודעה.",
+      "title": "כּוֹתֶרֶת",
+      "category": "קָטֵגוֹרִיָה",
+      "expiresAt": "יפוג (אופציונלי)",
+      "body": "הוֹדָעָה",
+      "pinned": "הצמד לראש הודעות התושבים",
+      "requiredFields": "נא להזין כותרת והודעה.",
+      "saveError": "לא ניתן לשמור את ההודעה הזו. אנא בדוק את הפרטים.",
+      "publish": "לְפַרְסֵם"
+    },
+    "confirm": {
+      "title": "למחוק הודעה?",
+      "body": "\"{{title}}\" יוסר עבור כל התושבים. זה לא ניתן לביטול.",
+      "delete": "לִמְחוֹק",
+      "deleting": "מוחק..."
     }
   }
 }

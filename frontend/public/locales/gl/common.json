@@ -222,6 +222,14 @@
         "title": "Apoio/Preocupacións",
         "subtitle": "Envía as túas propias entradas ao administrador do sistema ou xestiona as preocupacións que che dirixiron os teus residentes."
       },
+      "reports": {
+        "title": "Informes comunitarios",
+        "subtitle": "Cifras de consumo, facturación, cobro e compras a granel para a túa comunidade."
+      },
+      "announcements": {
+        "title": "Anuncios",
+        "subtitle": "Publica avisos para toda a comunidade aos teus residentes."
+      },
       "profile": {
         "title": "Configuración e perfil",
         "subtitle": "Xestiona os detalles da túa conta e a información do apartamento."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administrador da comunidade",
     "notBuilt": "{{label}} aínda non está construído",
     "searchPlaceholder": "Busca calquera cousa..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Informes",
-      "description": "Informes de consumo, facturación e conservación da túa comunidade."
-    },
-    "announcements": {
-      "title": "Anuncios",
-      "description": "Envía anuncios para toda a comunidade aos teus residentes."
-    }
   },
   "comingSoon": {
     "title": "{{title}} chegará en breve"
@@ -261,7 +259,9 @@
       "billing": "Facturación e facturas",
       "notifications": "Notificacións",
       "recommendations": "Recomendacións",
-      "support": "Apoio/Preocupacións"
+      "support": "Apoio/Preocupacións",
+      "reports": "Os teus informes de uso e gasto",
+      "profile": "O meu perfil"
     },
     "defaultTitle": "Panel de control de residentes",
     "navLabel": "Navegación de residentes",
@@ -277,7 +277,8 @@
       "communities": "Comunidades",
       "reports": "Informes",
       "supportTickets": "Entradas de apoio",
-      "systemStatus": "Estado do sistema"
+      "systemStatus": "Estado do sistema",
+      "profile": "Perfil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Estado do sistema",
         "subtitle": "Conectividade de backend e estado de execución básico."
+      },
+      "profile": {
+        "title": "Perfil",
+        "subtitle": "A túa conta, avatar e contrasinal"
       }
     },
     "fallbackName": "Administrador do sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Idioma: {{language}}",
     "searchPlaceholder": "Busca idioma...",
     "noMatches": "Non hai coincidencias"
+  },
+  "avatarPicker": {
+    "label": "Escolle un avatar",
+    "hint": "Escolle un dos avatares predefinidos ou usa as túas iniciais.",
+    "change": "Cambiar",
+    "cancel": "Cancelar",
+    "useInitials": "Use iniciais",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Gardar avatar",
+    "saving": "Gardando…",
+    "saved": "Avatar actualizado",
+    "saveError": "Non se puido actualizar o teu avatar. Téntao de novo."
+  },
+  "changePassword": {
+    "current": "Contrasinal actual",
+    "new": "Contrasinal novo",
+    "confirm": "Confirme o novo contrasinal",
+    "hint": "Polo menos {{min}} caracteres.",
+    "tooShort": "O novo contrasinal debe ter polo menos {{min}} caracteres.",
+    "mismatch": "Os contrasinais novos non coinciden.",
+    "sameAsCurrent": "O novo contrasinal debe ser diferente do teu contrasinal actual.",
+    "submit": "Actualizar contrasinal",
+    "saving": "Actualizando…",
+    "success": "Actualizouse o teu contrasinal.",
+    "error": "Non se puido actualizar o teu contrasinal. Téntao de novo."
+  },
+  "search": {
+    "kindPage": "Páx",
+    "kindRecord": "Resultado",
+    "loading": "Buscando…",
+    "noResults": "Non hai coincidencias",
+    "recordsUnavailable": "Agora só se podían buscar páxinas.",
+    "invoiceLabel": "Factura {{period}}",
+    "paid": "Pagado",
+    "unpaid": "Sen pago"
   }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Wohnungs-Dashboard",
     "titleFallback": "Ihr Apartment-Dashboard",
     "subtitle": "Betriebszusammenfassung für die Untermessung von Wasserversorgungsunternehmen und den Haushaltsverbrauch.",
-    "comingSoon": "Kommt bald",
     "manageCommunity": "Community verwalten",
     "noUsageReadings": "Es wurden noch keine Nutzungswerte erfasst.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Letzter aufgezeichneter Monat ({{month}})",
       "noReadingsYet": "Es wurden noch keine Messwerte erfasst",
       "pendingAlerts": "Ausstehende Benachrichtigungen",
-      "anomalyPreview": "Vorschau der Anomalieerkennung – noch nicht verfügbar"
+      "reviewAlerts": "Aktive Leck-/Nutzungswarnungen – jetzt überprüfen",
+      "noActiveAlerts": "Keine aktiven Warnungen"
     },
     "actions": {
       "label": "Schnelle Verwaltungsmaßnahmen",
       "uploadReadings": "Laden Sie Zählerstände hoch",
       "configureTariffs": "Tarife konfigurieren",
-      "reportsNotBuilt": "Berichte sind noch nicht erstellt",
       "downloadReports": "Laden Sie Systemberichte herunter"
     },
     "chart": {
       "title": "Monatlicher Verbrauchsvergleich (kL)",
       "subtitle": "Letzte {{months}} Monate: Soll- vs. Ist-Verbrauch.",
-      "targetSeries": "Ziel (Vorschau)",
       "actualSeries": "Tatsächlich"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ihr Profil konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
     "apartmentSaveError": "Wohnungsdetails konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
     "specsTitle": "Profilspezifikationen",
-    "photoUnavailable": "Der Foto-Upload ist noch nicht verfügbar",
-    "changePhoto": "Foto ändern",
-    "deletePhoto": "Löschen",
-    "photoHint": "JPG oder PNG. Maximale Größe 2 MB.",
     "saveProfile": "Profil speichern",
     "apartmentTitle": "Wohnungsdetails",
     "saveApartment": "Apartmentdetails speichern",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Eine Zwei-Faktor-Authentifizierung ist noch nicht verfügbar",
       "twoFactorAria": "Zwei-Faktor-Authentifizierung (nur Vorschau)",
       "sessionsLabel": "Aktive Admin-Sitzungen",
-      "sessionsEmpty": "Sitzungsverfolgung ist noch nicht verfügbar – dies ist eine Vorschau des kommenden Layouts."
-    }
+      "sessionsEmpty": "Sitzungsverfolgung ist noch nicht verfügbar – dies ist eine Vorschau des kommenden Layouts.",
+      "previewNote": "Nur Vorschau: Zwei-Faktor-Authentifizierung und Sitzungsverfolgung sind noch nicht verfügbar."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Kennwort ändern"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Einwohnerkarten",
       "subtitle": "Support-Tickets und Anliegen, die Bewohner Ihrer Gemeinde an Sie gerichtet haben."
+    }
+  },
+  "reports": {
+    "loadError": "Der Community-Bericht konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "pdfError": "Der PDF-Bericht konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
+    "loading": "Bericht wird geladen…",
+    "empty": "Keine Haushalte mit Daten in diesem Bereich.",
+    "noMatch": "Keine Haushalte stimmen mit „{{search}}“ überein.",
+    "searchPlaceholder": "Filtern Sie nach Haus, Bewohner oder Zählernummer.",
+    "downloadCsv": "Herunterladen CSV",
+    "downloadPdf": "Laden Sie PDF Zusammenfassung herunter",
+    "downloadingPdf": "PDF wird vorbereitet…",
+    "ranges": {
+      "threeMonths": "Letzte 3 Monate",
+      "sixMonths": "Letzte 6 Monate",
+      "twelveMonths": "Letzte 12 Monate",
+      "custom": "Benutzerdefiniertes Sortiment"
+    },
+    "customRange": {
+      "from": "Aus",
+      "to": "Zu",
+      "hint": "Wählen Sie sowohl einen Start- als auch einen Endmonat aus, um den Bericht zu laden."
+    },
+    "cards": {
+      "totalConsumption": "Gesamtverbrauch",
+      "households": "In {{total}} Haushalten",
+      "avgMonthly": "Durchschnittlicher monatlicher Verbrauch",
+      "communityWide": "Gemeinschaftsweit, pro Monat",
+      "billed": "In Rechnung gestellt",
+      "finalizedOnly": "Nur abgeschlossene und archivierte Zyklen",
+      "paid": "Bezahlt",
+      "invoices": "{{total}} Rechnungen ausgestellt",
+      "outstanding": "Hervorragend",
+      "unpaidInvoices": "{{total}} unbezahlte Rechnungen",
+      "collectionRate": "Sammelquote"
+    },
+    "costs": {
+      "title": "Kosten vs. Einnahmen",
+      "commonArea": "Gebühren für den Gemeinschaftsbereich werden in Rechnung gestellt",
+      "bulkCost": "Kosten für den Kauf von Großwasser",
+      "bulkVolume": "Großes Wasser gekauft",
+      "bulkCount": "{{total}} Käufe",
+      "billedMinusBulk": "In Rechnung gestellter Umsatz abzüglich Massenkosten",
+      "note": "Großeinkäufe werden zur Kostentransparenz verfolgt und den Haushalten nicht direkt in Rechnung gestellt."
+    },
+    "top": {
+      "title": "Top-Verbraucher",
+      "empty": "In diesem Bereich wurde kein Verbrauch registriert."
+    },
+    "charts": {
+      "consumptionTitle": "Monatlicher Verbrauch",
+      "consumptionSeries": "Verbrauch",
+      "billingTitle": "In Rechnung gestellte vs. bezahlte vs. Massenkosten",
+      "billedSeries": "In Rechnung gestellt",
+      "paidSeries": "Bezahlt",
+      "bulkSeries": "Großeinkaufskosten",
+      "empty": "Keine Daten für diesen Bereich."
+    },
+    "sort": {
+      "label": "Sortieren nach",
+      "toggleDirection": "Sortierrichtung umschalten",
+      "asc": "↑ Asc",
+      "desc": "↓ Beschr"
+    },
+    "table": {
+      "house": "Haus",
+      "resident": "Einwohner",
+      "meter": "Meter",
+      "totalKl": "Gesamt kL",
+      "avgMonthlyKl": "Durchschnittlich monatlich kL",
+      "billed": "In Rechnung gestellt",
+      "paid": "Bezahlt",
+      "outstanding": "Hervorragend"
+    }
+  },
+  "announcements": {
+    "loadError": "Ankündigungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "removeError": "Diese Ankündigung konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+    "loading": "Ankündigungen werden geladen…",
+    "empty": "Noch keine Ankündigungen. Klicken Sie auf „Neue Ankündigung“, um Ihre Bewohner zu benachrichtigen.",
+    "count": "Ankündigungen: {{total}}",
+    "newButton": "+ Neue Ankündigung",
+    "pinned": "Angepinnt",
+    "expired": "Abgelaufen",
+    "postedAt": "Gepostet {{date}}",
+    "updatedAt": "Bearbeitet {{date}}",
+    "expiresAt": "Läuft ab {{date}}",
+    "category": {
+      "general": "Allgemein",
+      "maintenance": "Wartung",
+      "waterSupply": "Wasserversorgung",
+      "billing": "Abrechnung",
+      "urgent": "Dringend"
+    },
+    "form": {
+      "addTitle": "Neue Ankündigung",
+      "editTitle": "Ankündigung bearbeiten",
+      "addSubtitle": "Bewohner sehen dies auf ihrer Benachrichtigungsseite und jeder, der Push-Benachrichtigungen aktiviert hat, wird sofort benachrichtigt.",
+      "editSubtitle": "Durch Änderungen wird die Ankündigung aktualisiert. Anwohner werden nicht erneut benachrichtigt.",
+      "title": "Titel",
+      "category": "Kategorie",
+      "expiresAt": "Läuft ab (optional)",
+      "body": "Nachricht",
+      "pinned": "Oben in den Mitteilungen der Bewohner anpinnen",
+      "requiredFields": "Bitte geben Sie einen Titel und eine Nachricht ein.",
+      "saveError": "Diese Ankündigung konnte nicht gespeichert werden. Bitte überprüfen Sie die Details.",
+      "publish": "Veröffentlichen"
+    },
+    "confirm": {
+      "title": "Ankündigung löschen?",
+      "body": "„{{title}}“ wird für alle Bewohner entfernt. Dies kann nicht rückgängig gemacht werden.",
+      "delete": "Löschen",
+      "deleting": "Löschen…"
     }
   }
 }

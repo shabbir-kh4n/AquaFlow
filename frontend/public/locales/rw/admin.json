@@ -25,7 +25,6 @@
     "title": "{{community}} Apartment Dashboard",
     "titleFallback": "Ububiko bwawe",
     "subtitle": "Incamake y'ibikorwa kubikorwa byamazi yo gukoresha no gukoresha urugo.",
-    "comingSoon": "Kuza vuba",
     "manageCommunity": "Gucunga Umuryango",
     "noUsageReadings": "Nta bisomwa byakoreshejwe byanditse.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ukwezi gushize kwanditswe ({{month}})",
       "noReadingsYet": "Nta bisomwa byanditswe",
       "pendingAlerts": "Biteganijwe",
-      "anomalyPreview": "Anomaly detection preview - itaraboneka"
+      "reviewAlerts": "Gukora / kumenyesha gukoreshwa - gusubiramo nonaha",
+      "noActiveAlerts": "Nta kumenyesha gukora"
     },
     "actions": {
       "label": "Ibikorwa byubuyobozi byihuse",
       "uploadReadings": "Kuramo Ibipimo Byasomwe",
       "configureTariffs": "Kugena ibiciro",
-      "reportsNotBuilt": "Raporo ntabwo yubatswe",
       "downloadReports": "Kuramo Raporo ya Sisitemu"
     },
     "chart": {
       "title": "Kugereranya Ukoresha Ukwezi (kL)",
       "subtitle": "Amezi ashize {{months}}: intego nibikoreshwa nyabyo.",
-      "targetSeries": "Intego (kureba)",
       "actualSeries": "Mubyukuri"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ntushobora kubika umwirondoro wawe. Nyamuneka gerageza.",
     "apartmentSaveError": "Ntushobora kubika amakuru arambuye. Nyamuneka gerageza.",
     "specsTitle": "Umwirondoro",
-    "photoUnavailable": "Gukuramo amafoto ntibiraboneka",
-    "changePhoto": "Hindura Ifoto",
-    "deletePhoto": "Siba",
-    "photoHint": "JPG cyangwa PNG. Ingano nini 2MB.",
     "saveProfile": "Bika Umwirondoro",
     "apartmentTitle": "Ibisobanuro birambuye",
     "saveApartment": "Bika Ibisobanuro birambuye",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Kwemeza ibintu bibiri ntibiraboneka",
       "twoFactorAria": "Kwemeza ibintu bibiri (kureba gusa)",
       "sessionsLabel": "Amasomo akomeye ya Admin",
-      "sessionsEmpty": "Gukurikirana amasomo ntibiraboneka - ibi nibisobanuro byimiterere iri imbere."
-    }
+      "sessionsEmpty": "Gukurikirana amasomo ntibiraboneka - ibi nibisobanuro byimiterere iri imbere.",
+      "previewNote": "Kureba gusa: kwemeza ibintu bibiri no gukurikirana amasomo ntibiraboneka."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Hindura ijambo ryibanga"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Amatike yo gutura",
       "subtitle": "Shigikira amatike hamwe nibibazo abatuye mugace batuyemo."
+    }
+  },
+  "reports": {
+    "loadError": "Ntushobora kwikorera raporo yabaturage. Nyamuneka gerageza.",
+    "pdfError": "Ntushobora gukuramo raporo PDF. Nyamuneka gerageza.",
+    "loading": "Raporo yerekana…",
+    "empty": "Nta rugo rufite amakuru muriki cyiciro.",
+    "noMatch": "Nta rugo ruhuye \"{{search}}\".",
+    "searchPlaceholder": "Akayunguruzo ku nzu, umuturage, cyangwa metero no.",
+    "downloadCsv": "Kuramo CSV",
+    "downloadPdf": "Kuramo PDF Incamake",
+    "downloadingPdf": "Gutegura PDF…",
+    "ranges": {
+      "threeMonths": "Amezi 3 ashize",
+      "sixMonths": "Amezi 6 ashize",
+      "twelveMonths": "Amezi 12 ashize",
+      "custom": "Urutonde rwumukiriya"
+    },
+    "customRange": {
+      "from": "Kuva",
+      "to": "Kuri",
+      "hint": "Tora intangiriro n'ukwezi kurangira kugirango ukore raporo."
+    },
+    "cards": {
+      "totalConsumption": "Ibikoreshwa byose",
+      "households": "Hirya no hino {{total}} ingo",
+      "avgMonthly": "Avg Ukoresha Ukwezi",
+      "communityWide": "Umuganda wose, buri kwezi",
+      "billed": "Yishyurwa",
+      "finalizedOnly": "Kurangiza & archives cycle gusa",
+      "paid": "Yishyuwe",
+      "invoices": "{{total}} invoices issued",
+      "outstanding": "Indashyikirwa",
+      "unpaidInvoices": "{{total}} unpaid invoices",
+      "collectionRate": "Igipimo cyo gukusanya"
+    },
+    "costs": {
+      "title": "Ibiciro hamwe ninjiza",
+      "commonArea": "Amafaranga asanzwe akunze kwishyurwa",
+      "bulkCost": "Igiciro kinini cyo kugura amazi",
+      "bulkVolume": "Amazi menshi yaguzwe",
+      "bulkCount": "{{total}} kugura",
+      "billedMinusBulk": "Amafaranga yishyuwe ukuyemo ikiguzi kinini",
+      "note": "Kugura byinshi bikurikiranwa kugirango ibiciro bigaragare kandi ntabwo byishyurwa ingo mu buryo butaziguye."
+    },
+    "top": {
+      "title": "Abaguzi bo hejuru",
+      "empty": "Nta bicuruzwa byanditse muri uru rwego."
+    },
+    "charts": {
+      "consumptionTitle": "Ukoresha ukwezi",
+      "consumptionSeries": "Gukoresha",
+      "billingTitle": "Yishyuwe na Yishyuwe hamwe nigiciro kinini",
+      "billedSeries": "Yishyurwa",
+      "paidSeries": "Yishyuwe",
+      "bulkSeries": "Igiciro kinini cyo kugura",
+      "empty": "Nta makuru yuru rwego."
+    },
+    "sort": {
+      "label": "Gutondekanya na",
+      "toggleDirection": "Hindura icyerekezo",
+      "asc": "Asc",
+      "desc": "↓ Ibimanuka"
+    },
+    "table": {
+      "house": "Inzu",
+      "resident": "Umuturage",
+      "meter": "Metero",
+      "totalKl": "Bose hamwe kL",
+      "avgMonthlyKl": "Avg buri kwezi kL",
+      "billed": "Yishyurwa",
+      "paid": "Yishyuwe",
+      "outstanding": "Indashyikirwa"
+    }
+  },
+  "announcements": {
+    "loadError": "Ntushobora gupakira amatangazo. Nyamuneka gerageza.",
+    "removeError": "Ntushobora gusiba iri tangazo. Nyamuneka gerageza.",
+    "loading": "Gutanga amatangazo…",
+    "empty": "Nta tangazo kugeza ubu. Kanda \"Itangazo Rishya\" kugirango umenyeshe abaturage bawe.",
+    "count": "Amatangazo: {{total}}",
+    "newButton": "+ Itangazo Rishya",
+    "pinned": "Yashizweho",
+    "expired": "Byarangiye",
+    "postedAt": "Byoherejwe {{date}}",
+    "updatedAt": "Byahinduwe {{date}}",
+    "expiresAt": "Irangira {{date}}",
+    "category": {
+      "general": "Jenerali",
+      "maintenance": "Kubungabunga",
+      "waterSupply": "Gutanga Amazi",
+      "billing": "Kwishyuza",
+      "urgent": "Byihutirwa"
+    },
+    "form": {
+      "addTitle": "Itangazo Rishya",
+      "editTitle": "Hindura Itangazo",
+      "addSubtitle": "Abaturage babibona kurupapuro rwabo rwo Kumenyesha, kandi umuntu wese ufite imenyesha ryo gusunika abimenyeshejwe ako kanya.",
+      "editSubtitle": "Hindura ivugurura itangazo mu mwanya. Abaturage ntibongeye kubimenyeshwa.",
+      "title": "Umutwe",
+      "category": "Icyiciro",
+      "expiresAt": "Byarangiye (bidashoboka)",
+      "body": "Ubutumwa",
+      "pinned": "Shyira hejuru kumatangazo yabaturage",
+      "requiredFields": "Nyamuneka andika umutwe n'ubutumwa.",
+      "saveError": "Ntushobora kubika iri tangazo. Nyamuneka reba ibisobanuro birambuye.",
+      "publish": "Tangaza"
+    },
+    "confirm": {
+      "title": "Gusiba itangazo?",
+      "body": "\"{{title}}\" izavaho kubaturage bose. Ibi ntibishobora gusubirwaho.",
+      "delete": "Siba",
+      "deleting": "Gusiba…"
     }
   }
 }

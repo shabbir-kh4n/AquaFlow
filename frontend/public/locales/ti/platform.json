@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "ናይ ደገፍ ትኬት",
     "subtitle": "ብነበርትን ኣድሚናት ማሕበረሰብን ዝለዓሉ ትኬታትን ስክፍታታትን ደገፍ፣ ብደረጃ መድረኽ።"
+  },
+  "profile": {
+    "accountTitle": "ኣካውንት",
+    "avatarTitle": "ኣቫታር",
+    "passwordTitle": "ፓስዎርድ ምቕያር",
+    "loadError": "ፕሮፋይልካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "fields": {
+      "fullName": "ምሉእ ስም",
+      "email": "ኢመይል",
+      "role": "ግደ",
+      "roleValue": "ኣመሓዳሪ ስርዓት"
+    }
   }
 }

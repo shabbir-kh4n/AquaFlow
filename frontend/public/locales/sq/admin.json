@@ -25,7 +25,6 @@
     "title": "{{community}} Paneli i apartamenteve",
     "titleFallback": "Paneli i apartamentit tuaj",
     "subtitle": "Përmbledhje operacionale për nënmatjen e ujësjellësit dhe konsumin familjar.",
-    "comingSoon": "Së shpejti",
     "manageCommunity": "Menaxho komunitetin",
     "noUsageReadings": "Nuk janë regjistruar ende lexime të përdorimit.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Muaji më i fundit i regjistruar ({{month}})",
       "noReadingsYet": "Nuk janë regjistruar ende lexime",
       "pendingAlerts": "Alarmet në pritje",
-      "anomalyPreview": "Pamja paraprake e zbulimit të anomalive — ende nuk disponohet"
+      "reviewAlerts": "Sinjalizimet aktive të rrjedhjeve / përdorimit - rishikoni tani",
+      "noActiveAlerts": "Nuk ka sinjalizime aktive"
     },
     "actions": {
       "label": "Veprimet e shpejta administrative",
       "uploadReadings": "Ngarko leximet e njehsorit",
       "configureTariffs": "Konfiguro tarifat",
-      "reportsNotBuilt": "Raportet nuk janë krijuar ende",
       "downloadReports": "Shkarkoni Raportet e Sistemit"
     },
     "chart": {
       "title": "Krahasimi mujor i konsumit (kL)",
       "subtitle": "{{months}} muajt e fundit: objektivi kundrejt konsumit aktual.",
-      "targetSeries": "Synimi (pamja paraprake)",
       "actualSeries": "Aktual"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profili juaj nuk mund të ruhej. Ju lutemi provoni përsëri.",
     "apartmentSaveError": "Detajet e apartamentit nuk mund të ruheshin. Ju lutemi provoni përsëri.",
     "specsTitle": "Specifikimet e profilit",
-    "photoUnavailable": "Ngarkimi i fotografive nuk ofrohet ende",
-    "changePhoto": "Ndrysho foton",
-    "deletePhoto": "Fshije",
-    "photoHint": "JPG ose PNG. Madhësia maksimale 2 MB.",
     "saveProfile": "Ruaj profilin",
     "apartmentTitle": "Detajet e Apartamentit",
     "saveApartment": "Ruaj detajet e apartamentit",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Autentifikimi me dy faktorë nuk ofrohet ende",
       "twoFactorAria": "Vërtetimi me dy faktorë (vetëm shikimi paraprak)",
       "sessionsLabel": "Sesionet aktive të administratorit",
-      "sessionsEmpty": "Gjurmimi i sesionit nuk është ende i disponueshëm — kjo është një pamje paraprake e paraqitjes së ardhshme."
-    }
+      "sessionsEmpty": "Gjurmimi i sesionit nuk është ende i disponueshëm — kjo është një pamje paraprake e paraqitjes së ardhshme.",
+      "previewNote": "Vetëm pamje paraprake: vërtetimi me dy faktorë dhe gjurmimi i sesioneve nuk ofrohen ende."
+    },
+    "avatarLabel": "Avatari",
+    "passwordTitle": "Ndrysho fjalëkalimin"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Bileta rezidente",
       "subtitle": "Biletat mbështetëse dhe shqetësimet që banorët në komunitetin tuaj ju kanë adresuar."
+    }
+  },
+  "reports": {
+    "loadError": "Raporti i komunitetit nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "pdfError": "Raporti PDF nuk mund të shkarkohej. Ju lutemi provoni përsëri.",
+    "loading": "Raporti po ngarkohet…",
+    "empty": "Nuk ka familje me të dhëna në këtë interval.",
+    "noMatch": "Asnjë familje nuk përputhet me \"{{search}}\".",
+    "searchPlaceholder": "Filtro sipas shtëpisë, banorit ose nr.",
+    "downloadCsv": "Shkarko CSV",
+    "downloadPdf": "Shkarko PDF Përmbledhje",
+    "downloadingPdf": "Po përgatitet PDF…",
+    "ranges": {
+      "threeMonths": "3 muajt e fundit",
+      "sixMonths": "6 muajt e fundit",
+      "twelveMonths": "12 muajt e fundit",
+      "custom": "Gama e personalizuar"
+    },
+    "customRange": {
+      "from": "Nga",
+      "to": "te",
+      "hint": "Zgjidh një muaj fillimi dhe një muaji fundor për të ngarkuar raportin."
+    },
+    "cards": {
+      "totalConsumption": "Konsumi total",
+      "households": "Nëpër {{total}} familje",
+      "avgMonthly": "Konsumi mesatar mujor",
+      "communityWide": "Në mbarë komunitetin, në muaj",
+      "billed": "Faturuar",
+      "finalizedOnly": "Vetëm ciklet e finalizuara dhe të arkivuara",
+      "paid": "I paguar",
+      "invoices": "{{total}} fatura të lëshuara",
+      "outstanding": "I shquar",
+      "unpaidInvoices": "{{total}} fatura të papaguara",
+      "collectionRate": "Norma e Mbledhjes"
+    },
+    "costs": {
+      "title": "Kostot kundrejt të ardhurave",
+      "commonArea": "Tarifat e zonës së përbashkët të faturuara",
+      "bulkCost": "Kostoja e blerjes së ujit me shumicë",
+      "bulkVolume": "Uji me shumicë i blerë",
+      "bulkCount": "{{total}} blerje",
+      "billedMinusBulk": "Të ardhurat e faturuara minus koston me shumicë",
+      "note": "Blerjet me shumicë gjurmohen për dukshmërinë e kostos dhe nuk i faturohen drejtpërdrejt familjeve."
+    },
+    "top": {
+      "title": "Konsumatorët kryesorë",
+      "empty": "Nuk është regjistruar asnjë konsum në këtë interval."
+    },
+    "charts": {
+      "consumptionTitle": "Konsumi mujor",
+      "consumptionSeries": "Konsumi",
+      "billingTitle": "Kosto e faturuar kundrejt kostos së paguar kundrejt masës",
+      "billedSeries": "Faturuar",
+      "paidSeries": "I paguar",
+      "bulkSeries": "Kostoja e blerjes me shumicë",
+      "empty": "Nuk ka të dhëna për këtë varg."
+    },
+    "sort": {
+      "label": "Rendit sipas",
+      "toggleDirection": "Ndrysho drejtimin e renditjes",
+      "asc": "↑ Asc",
+      "desc": "↓ Përshkruani"
+    },
+    "table": {
+      "house": "Shtëpia",
+      "resident": "Banor",
+      "meter": "Metër",
+      "totalKl": "Gjithsej kL",
+      "avgMonthlyKl": "Mesatarisht mujore kL",
+      "billed": "Faturuar",
+      "paid": "I paguar",
+      "outstanding": "I shquar"
+    }
+  },
+  "announcements": {
+    "loadError": "Njoftimet nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+    "removeError": "Ky njoftim nuk mund të fshihej. Ju lutemi provoni përsëri.",
+    "loading": "Po ngarkon njoftimet…",
+    "empty": "Ende nuk ka njoftime. Klikoni \"Njoftim i ri\" për të njoftuar banorët tuaj.",
+    "count": "Njoftimet: {{total}}",
+    "newButton": "+ Njoftim i ri",
+    "pinned": "E ngulitur",
+    "expired": "I skaduar",
+    "postedAt": "Postuar {{date}}",
+    "updatedAt": "Redaktuar {{date}}",
+    "expiresAt": "Skadon {{date}}",
+    "category": {
+      "general": "Gjeneral",
+      "maintenance": "Mirëmbajtja",
+      "waterSupply": "Furnizimi me ujë",
+      "billing": "Faturimi",
+      "urgent": "Urgjente"
+    },
+    "form": {
+      "addTitle": "Njoftim i ri",
+      "editTitle": "Redaktoni Njoftimin",
+      "addSubtitle": "Banorët e shohin këtë në faqen e tyre të Njoftimeve dhe kushdo që ka aktivizuar njoftimet push njoftohet menjëherë.",
+      "editSubtitle": "Ndryshimet përditësojnë njoftimin në vend. Banorët nuk njoftohen më.",
+      "title": "Titulli",
+      "category": "Kategoria",
+      "expiresAt": "Skadon (opsionale)",
+      "body": "Mesazh",
+      "pinned": "Gozhdoni në krye të njoftimeve të banorëve",
+      "requiredFields": "Ju lutemi shkruani një titull dhe një mesazh.",
+      "saveError": "Ky njoftim nuk mund të ruhej. Ju lutemi kontrolloni detajet.",
+      "publish": "Publikoni"
+    },
+    "confirm": {
+      "title": "Të fshihet njoftimi?",
+      "body": "\"{{title}}\" do të hiqet për të gjithë banorët. Kjo nuk mund të zhbëhet.",
+      "delete": "Fshije",
+      "deleting": "Po fshihet…"
     }
   }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Tableau de bord de l'appartement",
     "titleFallback": "Tableau de bord de votre appartement",
     "subtitle": "Résumé opérationnel pour le sous-comptage des services d’eau et la consommation des ménages.",
-    "comingSoon": "À venir",
     "manageCommunity": "Gérer la communauté",
     "noUsageReadings": "Aucune lecture d'utilisation enregistrée pour le moment.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Dernier mois enregistré ({{month}})",
       "noReadingsYet": "Aucune lecture enregistrée pour le moment",
       "pendingAlerts": "Alertes en attente",
-      "anomalyPreview": "Aperçu de la détection des anomalies – pas encore disponible"
+      "reviewAlerts": "Alertes actives de fuite/d'utilisation – vérifiez maintenant",
+      "noActiveAlerts": "Aucune alerte active"
     },
     "actions": {
       "label": "Actions administratives rapides",
       "uploadReadings": "Télécharger les relevés de compteur",
       "configureTariffs": "Configurer les tarifs",
-      "reportsNotBuilt": "Les rapports ne sont pas encore créés",
       "downloadReports": "Télécharger les rapports système"
     },
     "chart": {
       "title": "Comparaison de la consommation mensuelle (kL)",
       "subtitle": "{{months}} derniers mois : consommation cible par rapport à la consommation réelle.",
-      "targetSeries": "Cible (aperçu)",
       "actualSeries": "Réel"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Impossible d'enregistrer votre profil. Veuillez réessayer.",
     "apartmentSaveError": "Impossible d'enregistrer les détails de l'appartement. Veuillez réessayer.",
     "specsTitle": "Spécifications du profil",
-    "photoUnavailable": "Le téléchargement de photos n'est pas encore disponible",
-    "changePhoto": "Changer de photo",
-    "deletePhoto": "Supprimer",
-    "photoHint": "JPG ou PNG. Taille maximale 2 Mo.",
     "saveProfile": "Enregistrer le profil",
     "apartmentTitle": "Détails de l'appartement",
     "saveApartment": "Enregistrer les détails de l'appartement",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "L'authentification à deux facteurs n'est pas encore disponible",
       "twoFactorAria": "Authentification à deux facteurs (version préliminaire uniquement)",
       "sessionsLabel": "Sessions d'administration actives",
-      "sessionsEmpty": "Le suivi de session n'est pas encore disponible. Il s'agit d'un aperçu de la mise en page à venir."
-    }
+      "sessionsEmpty": "Le suivi de session n'est pas encore disponible. Il s'agit d'un aperçu de la mise en page à venir.",
+      "previewNote": "Aperçu uniquement : l'authentification à deux facteurs et le suivi de session ne sont pas encore disponibles."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Changer le mot de passe"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Billets résidents",
       "subtitle": "Les tickets d’assistance et les préoccupations que les résidents de votre communauté vous ont adressées."
+    }
+  },
+  "reports": {
+    "loadError": "Impossible de charger le rapport de la communauté. Veuillez réessayer.",
+    "pdfError": "Impossible de télécharger le rapport PDF. Veuillez réessayer.",
+    "loading": "Chargement du rapport…",
+    "empty": "Aucun ménage avec des données dans cette plage.",
+    "noMatch": "Aucun foyer ne correspond à \"{{search}}\".",
+    "searchPlaceholder": "Filtrer par maison, habitant ou numéro de compteur.",
+    "downloadCsv": "Télécharger CSV",
+    "downloadPdf": "Télécharger PDF Résumé",
+    "downloadingPdf": "Préparation de PDF…",
+    "ranges": {
+      "threeMonths": "3 derniers mois",
+      "sixMonths": "6 derniers mois",
+      "twelveMonths": "12 derniers mois",
+      "custom": "Gamme personnalisée"
+    },
+    "customRange": {
+      "from": "Depuis",
+      "to": "À",
+      "hint": "Choisissez un mois de début et un mois de fin pour charger le rapport."
+    },
+    "cards": {
+      "totalConsumption": "Consommation totale",
+      "households": "Dans {{total}} ménages",
+      "avgMonthly": "Consommation mensuelle moyenne",
+      "communityWide": "À l'échelle de la communauté, par mois",
+      "billed": "Facturé",
+      "finalizedOnly": "Cycles finalisés et archivés uniquement",
+      "paid": "Payé",
+      "invoices": "{{total}} factures émises",
+      "outstanding": "Remarquable",
+      "unpaidInvoices": "{{total}} factures impayées",
+      "collectionRate": "Taux de recouvrement"
+    },
+    "costs": {
+      "title": "Coûts par rapport aux revenus",
+      "commonArea": "Charges de parties communes facturées",
+      "bulkCost": "Coût d’achat d’eau en vrac",
+      "bulkVolume": "Eau achetée en gros",
+      "bulkCount": "{{total}} achats",
+      "billedMinusBulk": "Revenus facturés moins le coût global",
+      "note": "Les achats groupés sont suivis pour une visibilité sur les coûts et ne sont pas facturés directement aux ménages."
+    },
+    "top": {
+      "title": "Principaux consommateurs",
+      "empty": "Aucune consommation enregistrée dans cette fourchette."
+    },
+    "charts": {
+      "consumptionTitle": "Consommation mensuelle",
+      "consumptionSeries": "Consommation",
+      "billingTitle": "Facturé, payé ou coût de gros",
+      "billedSeries": "Facturé",
+      "paidSeries": "Payé",
+      "bulkSeries": "Coût d'achat en gros",
+      "empty": "Aucune donnée pour cette gamme."
+    },
+    "sort": {
+      "label": "Trier par",
+      "toggleDirection": "Changer le sens du tri",
+      "asc": "↑ Asc.",
+      "desc": "↓ Desc."
+    },
+    "table": {
+      "house": "Maison",
+      "resident": "Résident",
+      "meter": "Mètre",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Moyenne mensuelle kL",
+      "billed": "Facturé",
+      "paid": "Payé",
+      "outstanding": "Remarquable"
+    }
+  },
+  "announcements": {
+    "loadError": "Impossible de charger les annonces. Veuillez réessayer.",
+    "removeError": "Impossible de supprimer cette annonce. Veuillez réessayer.",
+    "loading": "Chargement des annonces…",
+    "empty": "Aucune annonce pour l'instant. Cliquez sur « Nouvelle annonce » pour informer vos résidents.",
+    "count": "Annonces : {{total}}",
+    "newButton": "+ Nouvelle annonce",
+    "pinned": "Épinglé",
+    "expired": "Expiré",
+    "postedAt": "Publié {{date}}",
+    "updatedAt": "Modifié {{date}}",
+    "expiresAt": "Expire {{date}}",
+    "category": {
+      "general": "Général",
+      "maintenance": "Entretien",
+      "waterSupply": "Approvisionnement en eau",
+      "billing": "Facturation",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "addTitle": "Nouvelle annonce",
+      "editTitle": "Modifier l'annonce",
+      "addSubtitle": "Les résidents le voient sur leur page de notifications, et toute personne dont les notifications push sont activées est immédiatement informée.",
+      "editSubtitle": "Les modifications mettent à jour l'annonce en place. Les résidents ne sont plus informés.",
+      "title": "Titre",
+      "category": "Catégorie",
+      "expiresAt": "Expire (facultatif)",
+      "body": "Message",
+      "pinned": "Épingler en haut des annonces des résidents",
+      "requiredFields": "Veuillez saisir un titre et un message.",
+      "saveError": "Impossible d'enregistrer cette annonce. Veuillez vérifier les détails.",
+      "publish": "Publier"
+    },
+    "confirm": {
+      "title": "Supprimer l'annonce ?",
+      "body": "\"{{title}}\" sera supprimé pour tous les résidents. Cela ne peut pas être annulé.",
+      "delete": "Supprimer",
+      "deleting": "Suppression…"
     }
   }
 }

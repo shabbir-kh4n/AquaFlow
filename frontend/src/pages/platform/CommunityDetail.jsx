@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Trans, useTranslation } from 'react-i18next'
 import { deleteCommunity, getCommunityDetail, updateCommunityStatus } from '../../api/platformApi'
+import Avatar from '../../components/Avatar'
 import './CommunityDetail.css'
 
 const PAGE_SIZE = 10
@@ -134,9 +135,12 @@ function CommunityDetail() {
             <span className="af-cd__stat-label">{t('communityDetail.stats.status')}</span>
           </div>
           <div className="af-cd__admin-block">
-            <strong>{detail.adminFullName}</strong>
-            <span>{detail.adminEmail}</span>
-            {detail.adminPhone && <span>{detail.adminPhone}</span>}
+            <Avatar avatarKey={detail.avatarKey} name={detail.adminFullName} className="af-cd__admin-avatar" />
+            <span className="af-cd__admin-block-text">
+              <strong>{detail.adminFullName}</strong>
+              <span>{detail.adminEmail}</span>
+              {detail.adminPhone && <span>{detail.adminPhone}</span>}
+            </span>
           </div>
         </div>
       </div>
@@ -205,6 +209,7 @@ function CommunityDetail() {
           <table className="af-cd__table">
             <thead>
               <tr>
+                <th className="af-cd__avatar-col"></th>
                 <th>{t('communityDetail.residents.table.flatUnit')}</th>
                 <th>{t('communityDetail.residents.table.meter')}</th>
                 <th>{t('communityDetail.residents.table.resident')}</th>
@@ -215,6 +220,9 @@ function CommunityDetail() {
             <tbody>
               {pagedResidents.map((r) => (
                 <tr key={r.id}>
+                  <td className="af-cd__avatar-col">
+                    <Avatar avatarKey={r.avatarKey} name={r.fullName} className="af-cd__avatar" />
+                  </td>
                   <td>{r.houseNumber || '—'}</td>
                   <td>{r.meterNumber || '—'}</td>
                   <td>{r.fullName}</td>

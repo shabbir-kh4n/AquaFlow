@@ -222,6 +222,14 @@
         "title": "Stuðningur / áhyggjur",
         "subtitle": "Fáðu þína eigin miða til kerfisstjórans, eða sjáðu um áhyggjur íbúar þínir hafa beint til þín."
       },
+      "reports": {
+        "title": "Skýrslur samfélagsins",
+        "subtitle": "Tölur um neyslu, innheimtu, innheimtu og magnkaup fyrir samfélagið þitt."
+      },
+      "announcements": {
+        "title": "Tilkynningar",
+        "subtitle": "Birtu tilkynningar um allt samfélagið til íbúa þinna."
+      },
       "profile": {
         "title": "Stillingar og prófíl",
         "subtitle": "Hafðu umsjón með reikningsupplýsingum þínum og íbúðaupplýsingum."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Samfélagsstjórnandi",
     "notBuilt": "{{label}} er ekki smíðað ennþá",
     "searchPlaceholder": "Leitaðu að hverju sem er…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Skýrslur",
-      "description": "Neyslu-, innheimtu- og varðveisluskýrslur fyrir samfélagið þitt."
-    },
-    "announcements": {
-      "title": "Tilkynningar",
-      "description": "Sendu tilkynningar um allt samfélagið til íbúa þinna."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kemur bráðum"
@@ -261,7 +259,9 @@
       "billing": "Innheimtu og reikningar",
       "notifications": "Tilkynningar",
       "recommendations": "Meðmæli",
-      "support": "Stuðningur / áhyggjur"
+      "support": "Stuðningur / áhyggjur",
+      "reports": "Notkunar- og eyðsluskýrslur þínar",
+      "profile": "Prófíllinn minn"
     },
     "defaultTitle": "Mælaborð íbúa",
     "navLabel": "Siglingar íbúa",
@@ -277,7 +277,8 @@
       "communities": "Samfélög",
       "reports": "Skýrslur",
       "supportTickets": "Stuðningsmiðar",
-      "systemStatus": "Kerfisstaða"
+      "systemStatus": "Kerfisstaða",
+      "profile": "Prófíll"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Kerfisstaða",
         "subtitle": "Bakendatengingar og grunnheilbrigðistímar."
+      },
+      "profile": {
+        "title": "Prófíll",
+        "subtitle": "Reikningurinn þinn, avatar og lykilorð"
       }
     },
     "fallbackName": "Kerfisstjóri",
@@ -308,5 +313,40 @@
     "buttonLabel": "Tungumál: {{language}}",
     "searchPlaceholder": "Leita tungumál...",
     "noMatches": "Engar samsvörun"
+  },
+  "avatarPicker": {
+    "label": "Veldu avatar",
+    "hint": "Veldu einn af forstilltu avatarunum eða notaðu upphafsstafina þína.",
+    "change": "Breyta",
+    "cancel": "Hætta við",
+    "useInitials": "Notaðu upphafsstafi",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Vista avatar",
+    "saving": "Vistar...",
+    "saved": "Avatar uppfært",
+    "saveError": "Gat ekki uppfært avatarinn þinn. Vinsamlegast reyndu aftur."
+  },
+  "changePassword": {
+    "current": "Núverandi lykilorð",
+    "new": "Nýtt lykilorð",
+    "confirm": "Staðfestu nýtt lykilorð",
+    "hint": "Að minnsta kosti {{min}} stafir.",
+    "tooShort": "Nýtt lykilorð verður að vera að minnsta kosti {{min}} stafir.",
+    "mismatch": "Nýju lykilorðin passa ekki saman.",
+    "sameAsCurrent": "Nýtt lykilorð verður að vera annað en núverandi lykilorð þitt.",
+    "submit": "Uppfærðu lykilorð",
+    "saving": "Uppfærir...",
+    "success": "Lykilorðið þitt hefur verið uppfært.",
+    "error": "Gat ekki uppfært lykilorðið þitt. Vinsamlegast reyndu aftur."
+  },
+  "search": {
+    "kindPage": "Bls",
+    "kindRecord": "Niðurstaða",
+    "loading": "Leitar…",
+    "noResults": "Engar samsvörun",
+    "recordsUnavailable": "Aðeins var hægt að leita á síðum eins og er.",
+    "invoiceLabel": "Reikningur {{period}}",
+    "paid": "Greitt",
+    "unpaid": "Ógreitt"
   }
 }

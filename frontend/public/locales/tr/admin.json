@@ -25,7 +25,6 @@
     "title": "{{community}} Daire Kontrol Paneli",
     "titleFallback": "Daire Kontrol Paneliniz",
     "subtitle": "Su kullanımı alt ölçümü ve ev tüketimi için operasyonel özet.",
-    "comingSoon": "Yakında gelecek",
     "manageCommunity": "Topluluğu Yönet",
     "noUsageReadings": "Henüz kayıtlı kullanım okuması yok.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "En son kaydedilen ay ({{month}})",
       "noReadingsYet": "Henüz kayıtlı okuma yok",
       "pendingAlerts": "Bekleyen Uyarılar",
-      "anomalyPreview": "Anormallik algılama önizlemesi — henüz mevcut değil"
+      "reviewAlerts": "Aktif sızıntı/kullanım uyarıları — hemen inceleyin",
+      "noActiveAlerts": "Etkin uyarı yok"
     },
     "actions": {
       "label": "Hızlı İdari İşlemler",
       "uploadReadings": "Sayaç Okumalarını Yükle",
       "configureTariffs": "Tarifeleri Yapılandır",
-      "reportsNotBuilt": "Raporlar henüz oluşturulmadı",
       "downloadReports": "Sistem Raporlarını İndirin"
     },
     "chart": {
       "title": "Aylık Tüketim Karşılaştırması (kL)",
       "subtitle": "Son {{months}} ay: hedef ve gerçek tüketim.",
-      "targetSeries": "Hedef (önizleme)",
       "actualSeries": "Gerçek"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profiliniz kaydedilemedi. Lütfen tekrar deneyin.",
     "apartmentSaveError": "Daire ayrıntıları kaydedilemedi. Lütfen tekrar deneyin.",
     "specsTitle": "Profil Özellikleri",
-    "photoUnavailable": "Fotoğraf yükleme henüz kullanılamıyor",
-    "changePhoto": "Fotoğrafı Değiştir",
-    "deletePhoto": "Silmek",
-    "photoHint": "JPG veya PNG. Maksimum boyut 2MB.",
     "saveProfile": "Profili Kaydet",
     "apartmentTitle": "Daire Detayları",
     "saveApartment": "Daire Detaylarını Kaydet",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "İki faktörlü kimlik doğrulama henüz kullanılamıyor",
       "twoFactorAria": "İki faktörlü kimlik doğrulama (yalnızca önizleme)",
       "sessionsLabel": "Aktif Yönetici Oturumları",
-      "sessionsEmpty": "Oturum izleme henüz kullanılamıyor; bu, gelecek düzenin bir önizlemesidir."
-    }
+      "sessionsEmpty": "Oturum izleme henüz kullanılamıyor; bu, gelecek düzenin bir önizlemesidir.",
+      "previewNote": "Yalnızca önizleme: iki faktörlü kimlik doğrulama ve oturum izleme henüz mevcut değildir."
+    },
+    "avatarLabel": "avatar",
+    "passwordTitle": "Şifre değiştir"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Yerleşik Biletler",
       "subtitle": "Topluluğunuzdaki sakinlerin size ilettiği destek biletleri ve endişeleri."
+    }
+  },
+  "reports": {
+    "loadError": "Topluluk raporu yüklenemedi. Lütfen tekrar deneyin.",
+    "pdfError": "PDF raporu indirilemedi. Lütfen tekrar deneyin.",
+    "loading": "Rapor yükleniyor…",
+    "empty": "Bu aralıkta veriye sahip hane yok.",
+    "noMatch": "\"{{search}}\" ile eşleşen hane yok.",
+    "searchPlaceholder": "Ev, sakin veya sayaç numarasına göre filtreleyin.",
+    "downloadCsv": "CSV İndir",
+    "downloadPdf": "PDF Özetini İndir",
+    "downloadingPdf": "PDF hazırlanıyor…",
+    "ranges": {
+      "threeMonths": "Son 3 ay",
+      "sixMonths": "Son 6 ay",
+      "twelveMonths": "Son 12 ay",
+      "custom": "Özel aralık"
+    },
+    "customRange": {
+      "from": "İtibaren",
+      "to": "İle",
+      "hint": "Raporu yüklemek için hem başlangıç ​​hem de bitiş ayını seçin."
+    },
+    "cards": {
+      "totalConsumption": "Toplam Tüketim",
+      "households": "{{total}} hane genelinde",
+      "avgMonthly": "Ortalama Aylık Tüketim",
+      "communityWide": "Topluluk çapında, aylık",
+      "billed": "Faturalandırıldı",
+      "finalizedOnly": "Yalnızca sonlandırılan ve arşivlenen döngüler",
+      "paid": "Paralı",
+      "invoices": "{{total}} fatura düzenlendi",
+      "outstanding": "Üstün",
+      "unpaidInvoices": "{{total}} ödenmemiş fatura",
+      "collectionRate": "Tahsilat Oranı"
+    },
+    "costs": {
+      "title": "Maliyetler ve Gelirler",
+      "commonArea": "Ortak alan ücretleri faturalandırıldı",
+      "bulkCost": "Toplu su satın alma maliyeti",
+      "bulkVolume": "Toplu su satın alındı",
+      "bulkCount": "{{total}} satın alma",
+      "billedMinusBulk": "Faturalandırılmış gelir eksi toplu maliyet",
+      "note": "Toplu satın alımlar maliyet görünürlüğü açısından takip edilir ve doğrudan hanelere fatura edilmez."
+    },
+    "top": {
+      "title": "En İyi Tüketiciler",
+      "empty": "Bu aralıkta tüketim kaydedilmedi."
+    },
+    "charts": {
+      "consumptionTitle": "Aylık Tüketim",
+      "consumptionSeries": "Tüketim",
+      "billingTitle": "Faturalandırılmış, Ödenmiş ve Toplu Maliyet",
+      "billedSeries": "Faturalandırıldı",
+      "paidSeries": "Paralı",
+      "bulkSeries": "Toplu satın alma maliyeti",
+      "empty": "Bu aralık için veri yok."
+    },
+    "sort": {
+      "label": "Göre sırala",
+      "toggleDirection": "Sıralama yönünü değiştir",
+      "asc": "↑ Artan",
+      "desc": "↓ Tanım"
+    },
+    "table": {
+      "house": "Ev",
+      "resident": "İkamet eden kişi",
+      "meter": "Metre",
+      "totalKl": "Toplam kL",
+      "avgMonthlyKl": "Ortalama Aylık kL",
+      "billed": "Faturalandırıldı",
+      "paid": "Paralı",
+      "outstanding": "Üstün"
+    }
+  },
+  "announcements": {
+    "loadError": "Duyurular yüklenemedi. Lütfen tekrar deneyin.",
+    "removeError": "Bu duyuru silinemedi. Lütfen tekrar deneyin.",
+    "loading": "Duyurular yükleniyor…",
+    "empty": "Henüz duyuru yok. Sakinlerinizi bilgilendirmek için \"Yeni Duyuru\"ya tıklayın.",
+    "count": "Duyurular: {{total}}",
+    "newButton": "+ Yeni Duyuru",
+    "pinned": "Sabitlendi",
+    "expired": "Günü geçmiş",
+    "postedAt": "Gönderildi {{date}}",
+    "updatedAt": "Düzenlendi {{date}}",
+    "expiresAt": "Süresi doluyor {{date}}",
+    "category": {
+      "general": "Genel",
+      "maintenance": "Bakım",
+      "waterSupply": "Su Temini",
+      "billing": "Faturalandırma",
+      "urgent": "Acil"
+    },
+    "form": {
+      "addTitle": "Yeni Duyuru",
+      "editTitle": "Duyuru Düzenle",
+      "addSubtitle": "Sakinler bunu Bildirimler sayfasında görür ve anında bildirimleri etkinleştiren herkes hemen bilgilendirilir.",
+      "editSubtitle": "Düzenlemeler duyuruyu yerinde günceller. Vatandaşlara bir daha bilgi verilmedi.",
+      "title": "Başlık",
+      "category": "Kategori",
+      "expiresAt": "Süresi doluyor (isteğe bağlı)",
+      "body": "Mesaj",
+      "pinned": "Konut sakinlerinin duyurularının en üstüne sabitle",
+      "requiredFields": "Lütfen bir başlık ve mesaj girin.",
+      "saveError": "Bu duyuru kaydedilemedi. Lütfen ayrıntıları kontrol edin.",
+      "publish": "Yayınla"
+    },
+    "confirm": {
+      "title": "Duyuru silinsin mi?",
+      "body": "\"{{title}}\" tüm sakinler için kaldırılacak. Bu geri alınamaz.",
+      "delete": "Silmek",
+      "deleting": "Siliniyor…"
     }
   }
 }

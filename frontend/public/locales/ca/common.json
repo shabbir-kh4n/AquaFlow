@@ -222,6 +222,14 @@
         "title": "Suport/Preocupacions",
         "subtitle": "Recolliu les vostres pròpies entrades a l'administrador del sistema o gestioneu les preocupacions que els vostres residents us hagin dirigit."
       },
+      "reports": {
+        "title": "Informes comunitaris",
+        "subtitle": "Xifres de consum, facturació, cobrament i compres a granel per a la vostra comunitat."
+      },
+      "announcements": {
+        "title": "Anuncis",
+        "subtitle": "Publiqueu avisos a tota la comunitat als vostres residents."
+      },
       "profile": {
         "title": "Configuració i perfil",
         "subtitle": "Gestioneu les dades del vostre compte i la informació de l'apartament."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administrador de la comunitat",
     "notBuilt": "{{label}} encara no està construït",
     "searchPlaceholder": "Cerca qualsevol cosa..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Informes",
-      "description": "Informes de consum, facturació i conservació de la teva comunitat."
-    },
-    "announcements": {
-      "title": "Anuncis",
-      "description": "Envieu anuncis a tota la comunitat als vostres residents."
-    }
   },
   "comingSoon": {
     "title": "{{title}} arribarà aviat"
@@ -261,7 +259,9 @@
       "billing": "Facturació i factures",
       "notifications": "Notificacions",
       "recommendations": "Recomanacions",
-      "support": "Suport/Preocupacions"
+      "support": "Suport/Preocupacions",
+      "reports": "Els vostres informes d'ús i despesa",
+      "profile": "El meu perfil"
     },
     "defaultTitle": "Tauler de control del resident",
     "navLabel": "Navegació resident",
@@ -277,7 +277,8 @@
       "communities": "Comunitats",
       "reports": "Informes",
       "supportTickets": "Entrades de suport",
-      "systemStatus": "Estat del sistema"
+      "systemStatus": "Estat del sistema",
+      "profile": "Perfil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Estat del sistema",
         "subtitle": "Connectivitat backend i salut bàsica del temps d'execució."
+      },
+      "profile": {
+        "title": "Perfil",
+        "subtitle": "El teu compte, avatar i contrasenya"
       }
     },
     "fallbackName": "Administrador del sistema",
@@ -308,5 +313,40 @@
     "buttonLabel": "Idioma: {{language}}",
     "searchPlaceholder": "Cerca l'idioma...",
     "noMatches": "Sense coincidències"
+  },
+  "avatarPicker": {
+    "label": "Trieu un avatar",
+    "hint": "Tria un dels avatars preestablerts o utilitza les teves inicials.",
+    "change": "Canviar",
+    "cancel": "Cancel·la",
+    "useInitials": "Utilitzeu inicials",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Desa l'avatar",
+    "saving": "S'està desant…",
+    "saved": "Avatar actualitzat",
+    "saveError": "No s'ha pogut actualitzar el vostre avatar. Si us plau, torna-ho a provar."
+  },
+  "changePassword": {
+    "current": "Contrasenya actual",
+    "new": "Contrasenya nova",
+    "confirm": "Confirmeu la nova contrasenya",
+    "hint": "Com a mínim {{min}} caràcters.",
+    "tooShort": "La contrasenya nova ha de tenir com a mínim {{min}} caràcters.",
+    "mismatch": "Les noves contrasenyes no coincideixen.",
+    "sameAsCurrent": "La contrasenya nova ha de ser diferent de la contrasenya actual.",
+    "submit": "Actualitza la contrasenya",
+    "saving": "S'està actualitzant…",
+    "success": "La teva contrasenya s'ha actualitzat.",
+    "error": "No s'ha pogut actualitzar la contrasenya. Si us plau, torna-ho a provar."
+  },
+  "search": {
+    "kindPage": "Pàgina",
+    "kindRecord": "Resultat",
+    "loading": "S'està cercant…",
+    "noResults": "Sense coincidències",
+    "recordsUnavailable": "Ara mateix només es poden cercar pàgines.",
+    "invoiceLabel": "Factura {{period}}",
+    "paid": "Pagat",
+    "unpaid": "Sense pagar"
   }
 }

@@ -222,6 +222,14 @@
         "title": "Lagolago / atugaluga",
         "subtitle": "Si'i a oe lava tiketi ile Pule Fa'atonu, pe taulima atugaluga na fa'ailoa atu e lou aumau ia te oe."
       },
+      "reports": {
+        "title": "Lipoti a Nuu",
+        "subtitle": "Fa'atauga, pili, aoina, ma fa'atau tele fa'atau mo lou nu'u."
+      },
+      "announcements": {
+        "title": "Faasalalauga",
+        "subtitle": "Fa'asalalau fa'asalalauga lautele i tagata o lo'o nonofo ai."
+      },
       "profile": {
         "title": "Fa'atonu & Tala'aga",
         "subtitle": "Pulea au fa'amatalaga fa'amatalaga ma fa'amatalaga fale mautotogi."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Pule o Nuu",
     "notBuilt": "{{label}} e le'i fausia",
     "searchPlaceholder": "Su'e so'o se mea..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Lipoti",
-      "description": "Lipoti fa'atau, pili, ma fa'asao mo lou nu'u."
-    },
-    "announcements": {
-      "title": "Faasalalauga",
-      "description": "Auina atu faʻasalalauga lautele i tagata o loʻo nofoia."
-    }
   },
   "comingSoon": {
     "title": "{{title}} ua lata mai"
@@ -261,7 +259,9 @@
       "billing": "Pili & pili",
       "notifications": "Fa'asilasilaga",
       "recommendations": "Fautuaga",
-      "support": "Lagolago / atugaluga"
+      "support": "Lagolago / atugaluga",
+      "reports": "Lau fa'aoga & fa'aalu lipoti",
+      "profile": "O lo'u talaaga"
     },
     "defaultTitle": "Nu'u Dashboard",
     "navLabel": "Tautai nofomau",
@@ -277,7 +277,8 @@
       "communities": "Nuu",
       "reports": "Lipoti",
       "supportTickets": "Lagolago Tiketi",
-      "systemStatus": "Tulaga Fa'atonu"
+      "systemStatus": "Tulaga Fa'atonu",
+      "profile": "Tala'aga"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Tulaga Faiga",
         "subtitle": "Feso'ota'iga pito i tua ma le soifua maloloina fa'avae."
+      },
+      "profile": {
+        "title": "Tala'aga",
+        "subtitle": "O lau tala, avatar ma lau upu faataga"
       }
     },
     "fallbackName": "Pule Fa'atonu",
@@ -308,5 +313,40 @@
     "buttonLabel": "Gagana: {{language}}",
     "searchPlaceholder": "Su'e gagana...",
     "noMatches": "Leai se fetaui"
+  },
+  "avatarPicker": {
+    "label": "Filifili se avatar",
+    "hint": "Filifili se tasi o avatar ua faatulagaina, pe faaaoga ou mataitusi mataitusi.",
+    "change": "Suiga",
+    "cancel": "Fa'aleaogaina",
+    "useInitials": "Fa'aaoga mataitusi mataitusi",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Faasaoina avatar",
+    "saving": "Sefe…",
+    "saved": "Avatar faafou",
+    "saveError": "Le mafai ona faafou lau avatar. Fa'amolemole toe taumafai."
+  },
+  "changePassword": {
+    "current": "Upu tuanai o le taimi nei",
+    "new": "Upu faataga fou",
+    "confirm": "Fa'amautu upu fou",
+    "hint": "Le itiiti ifo {{min}} mataitusi.",
+    "tooShort": "O upu fou e tatau ona le itiiti ifo i le {{min}} mataitusi.",
+    "mismatch": "E le fetaui upu faataga fou.",
+    "sameAsCurrent": "E tatau ona ese le uputatala fou mai lau upu faataga o iai nei.",
+    "submit": "Faafou upu faataga",
+    "saving": "Fa'afou...",
+    "success": "Ua toe faafou lau upu faataga.",
+    "error": "Le mafai ona fa'afou lau fa'aupuga. Fa'amolemole toe taumafai."
+  },
+  "search": {
+    "kindPage": "Itulau",
+    "kindRecord": "I'uga",
+    "loading": "Su'e...",
+    "noResults": "Leai se fetaui",
+    "recordsUnavailable": "Na'o itulau e mafai ona su'eina i le taimi nei.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Totogi",
+    "unpaid": "Le totogia"
   }
 }

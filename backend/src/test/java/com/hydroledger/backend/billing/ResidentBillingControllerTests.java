@@ -5,8 +5,12 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,6 +89,23 @@ class ResidentBillingControllerTests {
         CommunityAdmin admin = CommunityAdmin.builder().id(1L).fullName("Admin").email("admin@example.com").build();
 
         mockMvc.perform(get("/api/resident/invoices/5/pdf").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isForbidden());
+    }
+
+    @Test
+    void payAllOutstandingReturns200WithEmptyListWhenNothingUnpaid() throws Exception {
+        when(billingCycleService.payAllOutstandingAsResident(any(Resident.class))).thenReturn(List.of());
+
+        mockMvc.perform(post("/api/resident/invoices/pay-all").with(user(new ResidentPrincipal(resident))))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(0));
+    }
+
+    @Test
+    void payAllOutstandingIsForbiddenForAdmin() throws Exception {
+        CommunityAdmin admin = CommunityAdmin.builder().id(1L).fullName("Admin").email("admin@example.com").build();
+
+        mockMvc.perform(post("/api/resident/invoices/pay-all").with(user(new UserPrincipal(admin))))
                 .andExpect(status().isForbidden());
     }
 }

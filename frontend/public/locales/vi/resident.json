@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Sắp ra mắt",
     "welcome": {
       "greeting": "Xin chào {{name}},",
       "greetingFallback": "Xin chào,",
       "title": "Ở gần câu chuyện nước của nhà bạn.",
-      "subtitle": "Thông tin chi tiết về việc sử dụng và thanh toán sẽ xuất hiện ở đây dưới dạng thông tin ghi lại trong cộng đồng của bạn.",
-      "viewBadges": "Xem huy hiệu sinh thái"
+      "subtitle": "Thông tin chi tiết về việc sử dụng và thanh toán sẽ xuất hiện ở đây dưới dạng thông tin ghi lại trong cộng đồng của bạn."
     },
     "stats": {
       "todaysUsage": "Cách sử dụng ngày nay",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Mức sử dụng được tính + phí chia sẻ, {{month}}",
       "estimatedBillHint": "Dựa trên mức tiêu thụ theo định mức và chi phí chung của tháng này",
       "savings": "Tiết kiệm so với xây dựng trung bình",
-      "savingsValue": "{{percent}}% Ít hơn",
-      "savingsPreview": "Chỉ xem trước - so sánh chưa trực tuyến"
+      "savingsLess": "{{percent}}% Ít hơn",
+      "savingsMore": "{{percent}}% Thêm",
+      "savingsEqual": "Giống như mức trung bình",
+      "savingsDetail": "{{household}} kL so với {{average}} kL trung bình, {{month}}",
+      "savingsNoData": "Chưa có so sánh tòa nhà nào"
     },
     "consumption": {
       "eyebrow": "Sự tiêu thụ",
       "title": "Tiêu thụ hàng ngày (14 bài đọc cuối cùng)",
       "seriesName": "Sự tiêu thụ",
       "empty": "Chưa có bài đọc nào được ghi lại."
-    },
-    "breakdown": {
-      "eyebrow": "Sự cố",
-      "title": "Phân tích sử dụng",
-      "bathroom": "Phòng tắm",
-      "kitchen": "Phòng bếp",
-      "garden": "Vườn / Ban công",
-      "other": "Khác / Giặt ủi"
     },
     "billing": {
       "eyebrow": "Thanh toán",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Mức giá bậc",
       "tierLabel": "Bậc {{tier}}",
       "commonArea": "Phân chia diện tích chung",
-      "commonAreaPreview": "Phân chia diện tích chung (xem trước)",
       "invoiceTotal": "{{period}} tổng hóa đơn",
       "estimatedCharge": "Phí ước tính hiện tại",
       "commonAreaBreakdown": "Phân chia khu vực chung",
-      "payPreview": "Xem trước hóa đơn thanh toán",
-      "payUnavailable": "Công cụ thanh toán chưa có sẵn"
+      "commonAreaEstimate": "Phân bổ diện tích chung (ước tính)",
+      "payOutstanding": "Thanh toán dư nợ ₹{{amount}}",
+      "payAllDescription": "Tất cả các hóa đơn chưa thanh toán ({{number}})"
     },
     "tips": {
       "eyebrow": "Mẹo",
@@ -66,8 +59,7 @@
     "empty": "Chưa có bài đọc nào được ghi lại. Khi cộng đồng của bạn ghi lại chỉ số đồng hồ, nó sẽ hiển thị ở đây.",
     "tabs": {
       "lastSixMonths": "6 tháng qua",
-      "customRange": "Phạm vi tùy chỉnh",
-      "comingSoon": "Sắp ra mắt"
+      "customRange": "Phạm vi tùy chỉnh"
     },
     "peakDay": "Ngày cao điểm:",
     "lowestDay": "Ngày thấp nhất:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Bản đồ nhiệt tiêu thụ hàng ngày",
-      "subtitle": "Cờ cường độ màu ngày sử dụng nhiều (xem trước)."
+      "subtitle": "Cờ cường độ màu ngày sử dụng nhiều (xem trước).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: không có dữ liệu",
+      "less": "Ít hơn",
+      "more": "Hơn",
+      "noData": "Không có dữ liệu"
     },
     "ranking": {
       "title": "Xếp hạng ngang hàng trong cộng đồng",
-      "subtitle": "Thứ hạng của bạn so với các đơn vị tương tự (xem trước).",
-      "ecoSaver": "Tiết kiệm sinh thái đang hoạt động",
-      "aptNumber": "Căn hộ {{number}}",
-      "unitNumber": "Đơn vị {{number}}",
-      "yourUnit": "Đơn vị của bạn",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Bạn)"
+      "subtitle": "Hộ gia đình của bạn so với mọi hộ gia đình trong căn hộ của bạn trong {{month}}. Mức sử dụng thấp hơn xếp hạng cao hơn.",
+      "headline": "#{{rank}} trong số {{total}} hộ gia đình",
+      "percentile": "Bạn đã sử dụng ít nước hơn {{percent}}% hàng xóm của mình.",
+      "min": "Thấp nhất",
+      "median": "trung vị",
+      "max": "Cao nhất",
+      "youRow": "#{{rank}} Bạn",
+      "neighbourRow": "#{{rank}} Hàng xóm",
+      "privacyNote": "Hàng xóm đều ẩn danh. Số nhà và tên không bao giờ được hiển thị.",
+      "empty": "Chưa đủ dữ liệu để xếp hạng hộ gia đình của bạn."
+    },
+    "range": {
+      "from": "Từ",
+      "to": "ĐẾN",
+      "invalid": "Tháng bắt đầu không được sau tháng kết thúc.",
+      "noData": "Không có dữ liệu tiêu thụ trong phạm vi này."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Chu kỳ thanh toán: {{period}}",
       "allPaid": "Tất cả các hóa đơn được thanh toán",
       "payTotal": "Thanh toán tổng số dư nợ",
-      "payTotalUnavailable": "Thanh toán trực tuyến chưa khả dụng - thanh toán hóa đơn trực tiếp với quản trị viên cộng đồng của bạn",
       "downloadSummary": "Tải xuống bản tóm tắt hóa đơn",
-      "downloadSummaryUnavailable": "Chưa có bản tải xuống tóm tắt hóa đơn"
+      "payAllDescription": "Tất cả các hóa đơn chưa thanh toán ({{number}})"
     },
     "history": {
       "title": "Lịch sử hóa đơn",
-      "exportCsv": "Xuất tất cả sang CSV",
-      "exportUnavailable": "CSV chưa xuất được"
+      "exportCsv": "Xuất tất cả sang CSV"
     },
     "table": {
       "cycle": "Xe đạp",
@@ -148,6 +151,17 @@
       "description": "Thanh toán trực tuyến chưa khả dụng — hóa đơn được thanh toán trực tiếp với quản trị viên cộng đồng của bạn.",
       "manage": "Quản lý phương thức thanh toán",
       "manageUnavailable": "Phương thức thanh toán chưa có sẵn"
+    },
+    "csv": {
+      "cycle": "Kỳ thanh toán",
+      "consumption": "Mức tiêu thụ (kL)",
+      "baseAmount": "Số tiền cơ bản",
+      "tariffAmount": "Số tiền thuế",
+      "commonAreaAmount": "Diện tích chung",
+      "totalAmount": "Tổng số tiền",
+      "paid": "Trả",
+      "paidAt": "Được thanh toán tại",
+      "generatedAt": "Được tạo vào lúc"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Vui lòng không nhấn lại hoặc làm mới trang này",
     "success": "Thanh toán thành công",
     "error": "Đã xảy ra lỗi khi xác nhận khoản thanh toán của bạn. Vui lòng thử lại.",
-    "retry": "Thử lại"
+    "retry": "Thử lại",
+    "simulationNotice": "Thanh toán mô phỏng chỉ để trình diễn. Không có khoản thanh toán thực sự nào được thực hiện và không có khoản tiền nào bị tính phí."
   },
   "notifications": {
     "loadError": "Không thể tải thông báo của bạn. Vui lòng thử lại.",
@@ -213,6 +228,25 @@
       "notConfigured": "Thông báo đẩy chưa được định cấu hình. Liên hệ với quản trị viên của bạn.",
       "enableError": "Không thể bật thông báo đẩy. Vui lòng thử lại.",
       "disableError": "Không thể tắt thông báo đẩy. Vui lòng thử lại."
+    },
+    "tabs": {
+      "alerts": "Cảnh báo",
+      "announcements": "Thông báo"
+    },
+    "announcements": {
+      "loadError": "Không thể tải thông báo. Vui lòng thử lại.",
+      "loading": "Đang tải thông báo…",
+      "empty": "Hiện không có thông báo nào từ quản trị viên cộng đồng của bạn.",
+      "pinned": "Đã ghim",
+      "postedAt": "Đã đăng {{date}}",
+      "expiresAt": "Cho đến {{date}}",
+      "category": {
+        "general": "Tổng quan",
+        "maintenance": "BẢO TRÌ",
+        "waterSupply": "Cấp nước",
+        "billing": "Thanh toán",
+        "urgent": "Cấp bách"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Bộ phận hỗ trợ và quan tâm thường trú",
     "subtitle": "Gửi báo cáo rò rỉ nước, yêu cầu hiệu chỉnh đồng hồ hoặc yêu cầu thanh toán trực tiếp đến quản trị viên cộng đồng và/hoặc Quản trị viên hệ thống của bạn.",
     "emptyCreateHint": "Hãy mô tả vấn đề hoặc mối quan ngại của bạn bên dưới và chọn người sẽ xử lý vấn đề đó."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 tháng qua",
+      "sixMonths": "6 tháng qua",
+      "twelveMonths": "12 tháng qua",
+      "custom": "Phạm vi tùy chỉnh"
+    },
+    "customRange": {
+      "from": "Từ",
+      "to": "ĐẾN",
+      "hint": "Chọn tháng bắt đầu và tháng kết thúc để xem báo cáo của bạn."
+    },
+    "loading": "Đang tải báo cáo của bạn…",
+    "loadError": "Không thể tải báo cáo của bạn. Vui lòng thử lại.",
+    "pdfError": "Không thể tải xuống bản tuyên bố. Vui lòng thử lại.",
+    "downloading": "Đang tải xuống…",
+    "downloadCsv": "Tải xuống CSV",
+    "downloadStatement": "Tải xuống Tuyên bố PDF",
+    "period": "Kỳ báo cáo: {{from}} đến {{to}}",
+    "cards": {
+      "totalUsage": "Tổng mức sử dụng",
+      "avgMonthly": "Mức sử dụng trung bình hàng tháng",
+      "avgMonthlyHint": "Trong nhiều tháng với các bài đọc được ghi lại",
+      "change": "Thay đổi so với kỳ trước",
+      "changeHint": "{{previous}} trong {{from}} đến {{to}}",
+      "changeNoData": "Không có mức sử dụng ở kỳ trước để so sánh",
+      "totalBilled": "Tổng số tiền đã thanh toán",
+      "totalPaid": "Tổng số tiền đã trả",
+      "outstanding": "Nổi bật"
+    },
+    "chart": {
+      "title": "Sử dụng và thanh toán hàng tháng",
+      "subtitle": "Thanh hiển thị mức tiêu thụ (kL); dòng hiển thị số tiền được lập hóa đơn (₹).",
+      "consumption": "Sự tiêu thụ",
+      "billed": "Đã thanh toán"
+    },
+    "table": {
+      "title": "Phân tích theo tháng",
+      "month": "Tháng",
+      "consumption": "Mức tiêu thụ (kL)",
+      "billed": "Đã thanh toán",
+      "paid": "Trả",
+      "status": "Trạng thái"
+    },
+    "status": {
+      "paid": "Trả",
+      "unpaid": "Chưa thanh toán",
+      "notBilled": "Không được lập hóa đơn"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Chi tiết tài khoản",
+    "managedNote": "Quản trị viên cộng đồng của bạn quản lý các chi tiết này. Hãy liên hệ với họ nếu có điều gì cần thay đổi.",
+    "loading": "Đang tải hồ sơ của bạn…",
+    "loadError": "Không thể tải hồ sơ của bạn. Vui lòng thử lại.",
+    "notSet": "Chưa đặt",
+    "flatSizeValue": "{{size}} ft vuông",
+    "avatarTitle": "Hình đại diện",
+    "passwordTitle": "Thay đổi mật khẩu",
+    "fields": {
+      "fullName": "Tên đầy đủ",
+      "email": "E-mail",
+      "phone": "Điện thoại",
+      "houseNumber": "Số nhà",
+      "meterNumber": "Số mét",
+      "community": "Cộng đồng",
+      "flatSize": "Kích thước phẳng",
+      "joined": "Đã tham gia"
+    }
   }
 }

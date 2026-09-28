@@ -222,6 +222,14 @@
         "title": "Stuðul / Áhugamál",
         "subtitle": "Hækka tínar egnu atgongumerki til skipanarumsitaran, ella avgreið viðurskifti, sum tínir íbúgvar hava vent tær."
       },
+      "reports": {
+        "title": "Felagsfrágreiðingar",
+        "subtitle": "Nýtslu-, rokningar-, innkrevjingar- og rúgvukeypstøl fyri títt samfelag."
+      },
+      "announcements": {
+        "title": "Kunningar",
+        "subtitle": "Gev út fráboðanir um alt samfelagið til tínar íbúgvar."
+      },
       "profile": {
         "title": "Innstillingar og vangamynd",
         "subtitle": "Umsita tínar kontuupplýsingar og íbúðarupplýsingar."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Felagsskapur",
     "notBuilt": "{{label}} er ikki bygt enn",
     "searchPlaceholder": "Leita eftir øllum..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Frágreiðingar",
-      "description": "Nýtslu-, rokningar- og varðveitslufrágreiðingar fyri títt samfelag."
-    },
-    "announcements": {
-      "title": "Kunningar",
-      "description": "Send fráboðanir um alt samfelagið til tínar íbúgvar."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kemur skjótt"
@@ -261,7 +259,9 @@
       "billing": "Rokningar og rokningar",
       "notifications": "Fráboðanir",
       "recommendations": "Tilmæli",
-      "support": "Stuðul / Áhugamál"
+      "support": "Stuðul / Áhugamál",
+      "reports": "Tínar nýtslu- og útreiðslufrágreiðingar",
+      "profile": "Mín vangamynd"
     },
     "defaultTitle": "Búfólkastýriborð",
     "navLabel": "Heimabúgvandi sigling",
@@ -277,7 +277,8 @@
       "communities": "Samfeløg",
       "reports": "Frágreiðingar",
       "supportTickets": "Stuðulsmiðlar",
-      "systemStatus": "Skipanarstøða"
+      "systemStatus": "Skipanarstøða",
+      "profile": "Vangamynd"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Skipanarstøða",
         "subtitle": "Backend samband og grundleggjandi koyritíðarheilsa."
+      },
+      "profile": {
+        "title": "Vangamynd",
+        "subtitle": "Tín konta, avatar og loyniorð"
       }
     },
     "fallbackName": "Skipanarumsitari",
@@ -308,5 +313,40 @@
     "buttonLabel": "Mál: {{language}}",
     "searchPlaceholder": "Leita mál...",
     "noMatches": "Eingir dystir"
+  },
+  "avatarPicker": {
+    "label": "Vel ein avatar",
+    "hint": "Vel ein av teimum forsettu avatarunum, ella brúka tínar forbókstavir.",
+    "change": "Broyta",
+    "cancel": "strika",
+    "useInitials": "Brúka forbókstavir",
+    "optionLabel": "Myndmynd {{number}}",
+    "save": "Goym avatar",
+    "saving": "Spari...",
+    "saved": "Avatar dagført",
+    "saveError": "Kundi ikki dagføra tín avatar. Vinarliga royn aftur."
+  },
+  "changePassword": {
+    "current": "Núverandi loyniorð",
+    "new": "Nýtt loyniorð",
+    "confirm": "Vátta nýtt loyniorð",
+    "hint": "Í minsta lagi {{min}} stavir.",
+    "tooShort": "Nýtt loyniorð skal hava í minsta lagi {{min}} stavir.",
+    "mismatch": "Nýggju loyniorðini passa ikki saman.",
+    "sameAsCurrent": "Nýtt loyniorð skal vera øðrvísi enn títt núverandi loyniorð.",
+    "submit": "Dagfør loyniorð",
+    "saving": "Dagføring...",
+    "success": "Títt loyniorð er dagført.",
+    "error": "Kundi ikki dagføra títt loyniorð. Vinarliga royn aftur."
+  },
+  "search": {
+    "kindPage": "Síða",
+    "kindRecord": "Úrslit",
+    "loading": "Leita...",
+    "noResults": "Eingir dystir",
+    "recordsUnavailable": "Bara síður kundu leitast beint nú.",
+    "invoiceLabel": "Rokning {{period}}",
+    "paid": "Rindaði",
+    "unpaid": "Ógreitt"
   }
 }

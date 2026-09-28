@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { listAlerts } from '../../api/alertApi'
 import { listResidents } from '../../api/residentApi'
 import { listUsageReadings } from '../../api/meterUsageApi'
 import { useAuth } from '../../context/useAuth'
@@ -22,6 +23,8 @@ function AdminDashboard() {
   const [readings, setReadings] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  // null = not loaded yet / failed to load, shown as a dash rather than a misleading 0.
+  const [activeAlertCount, setActiveAlertCount] = useState(null)
 
   useEffect(() => {
     Promise.all([listResidents(), listUsageReadings({})])
@@ -31,6 +34,11 @@ function AdminDashboard() {
       })
       .catch(() => setError(i18next.t('dashboard.loadError', { ns: 'admin' })))
       .finally(() => setLoading(false))
+
+    // Loaded separately so an alert-engine hiccup never blanks the rest of the dashboard.
+    listAlerts('ACTIVE')
+      .then((alerts) => setActiveAlertCount(alerts.length))
+      .catch(() => setActiveAlertCount(null))
   }, [])
 
   const meterToResident = useMemo(
@@ -59,9 +67,6 @@ function AdminDashboard() {
       .map(([ym, actual]) => ({
         month: monthLabel(ym, locale),
         actual: Number(actual.toFixed(2)),
-        // No community-wide consumption target is configured yet (that's Phase 2's
-        // billing/tariff work) — approximated for visual comparison until it exists.
-        target: Number((actual * 0.95).toFixed(2)),
       }))
   }, [readings, locale])
 
@@ -100,9 +105,9 @@ function AdminDashboard() {
           </h2>
           <p>{t('dashboard.subtitle')}</p>
         </div>
-        <button type="button" className="af-dash__banner-btn" disabled title={t('dashboard.comingSoon')}>
+        <Link to="/admin/households" className="af-dash__banner-btn">
           {t('dashboard.manageCommunity')}
-        </button>
+        </Link>
       </div>
 
       {error && <div className="af-dash__error">{error}</div>}
@@ -134,11 +139,15 @@ function AdminDashboard() {
           </span>
         </article>
 
-        <article className="af-dash__card">
+        <Link to="/admin/water-leakage" className="af-dash__card af-dash__card--link">
           <span className="af-dash__label">{t('dashboard.cards.pendingAlerts')}</span>
-          <span className="af-dash__value af-dash__value--warn">—</span>
-          <span className="af-dash__muted af-dash__muted--pending">{t('dashboard.cards.anomalyPreview')}</span>
-        </article>
+          <span className={`af-dash__value${activeAlertCount ? ' af-dash__value--warn' : ''}`}>
+            {activeAlertCount ?? '—'}
+          </span>
+          <span className="af-dash__muted">
+            {activeAlertCount ? t('dashboard.cards.reviewAlerts') : t('dashboard.cards.noActiveAlerts')}
+          </span>
+        </Link>
       </div>
 
       <div className="af-dash__actions">
@@ -150,9 +159,9 @@ function AdminDashboard() {
           <Link to="/admin/tariff-plans" className="af-dash__action">
             {t('dashboard.actions.configureTariffs')}
           </Link>
-          <button type="button" className="af-dash__action" disabled title={t('dashboard.actions.reportsNotBuilt')}>
+          <Link to="/admin/reports" className="af-dash__action">
             {t('dashboard.actions.downloadReports')}
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -171,8 +180,6 @@ function AdminDashboard() {
                 <XAxis dataKey="month" stroke="var(--af-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} />
                 <YAxis stroke="var(--af-chart-axis)" tick={{ fontSize: 11 }} tickLine={false} axisLine={false} width={40} />
                 <Tooltip contentStyle={{ borderRadius: 12, border: '1px solid var(--af-glass-border)', fontSize: 12 }} />
-                <Legend wrapperStyle={{ fontSize: 12 }} />
-                <Bar dataKey="target" name={t('dashboard.chart.targetSeries')} fill="var(--af-chart-6)" radius={[4, 4, 0, 0]} maxBarSize={28} />
                 <Bar dataKey="actual" name={t('dashboard.chart.actualSeries')} fill="var(--af-chart-1)" radius={[4, 4, 0, 0]} maxBarSize={28} />
               </BarChart>
             </ResponsiveContainer>

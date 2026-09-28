@@ -222,6 +222,14 @@
         "title": "ድጋፍ / ስጋት",
         "subtitle": "የእራስዎን ቲኬቶች ለስርዓት አስተዳዳሪ ያሳድጉ፣ ወይም ነዋሪዎችዎ ለእርስዎ ያነጋገሩትን ስጋቶች ይቆጣጠሩ።"
       },
+      "reports": {
+        "title": "የማህበረሰብ ሪፖርቶች",
+        "subtitle": "ለማህበረሰብዎ የፍጆታ፣ የሂሳብ አከፋፈል፣ የመሰብሰብ እና የጅምላ ግዢ አሃዞች።"
+      },
+      "announcements": {
+        "title": "ማስታወቂያዎች",
+        "subtitle": "ለነዋሪዎችዎ ማህበረሰብ አቀፍ ማስታወቂያዎችን ያትሙ።"
+      },
       "profile": {
         "title": "ቅንብሮች እና መገለጫ",
         "subtitle": "የመለያ ዝርዝሮችዎን እና የአፓርታማውን መረጃ ያስተዳድሩ።"
@@ -231,16 +239,6 @@
     "fallbackCommunity": "የማህበረሰብ አስተዳዳሪ",
     "notBuilt": "{{label}} ገና አልተገነባም።",
     "searchPlaceholder": "ማንኛውንም ነገር ይፈልጉ…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "ሪፖርቶች",
-      "description": "ለማህበረሰብዎ የፍጆታ፣ የሂሳብ አከፋፈል እና የጥበቃ ሪፖርቶች።"
-    },
-    "announcements": {
-      "title": "ማስታወቂያዎች",
-      "description": "ለነዋሪዎችዎ ማህበረሰብ አቀፍ ማስታወቂያዎችን ይላኩ።"
-    }
   },
   "comingSoon": {
     "title": "{{title}} በቅርቡ ይመጣል"
@@ -261,7 +259,9 @@
       "billing": "የሂሳብ አከፋፈል እና ደረሰኞች",
       "notifications": "ማሳወቂያዎች",
       "recommendations": "ምክሮች",
-      "support": "ድጋፍ / ስጋት"
+      "support": "ድጋፍ / ስጋት",
+      "reports": "የእርስዎ አጠቃቀም እና ወጪ ሪፖርቶች",
+      "profile": "የእኔ መገለጫ"
     },
     "defaultTitle": "ነዋሪ ዳሽቦርድ",
     "navLabel": "የነዋሪ ዳሰሳ",
@@ -277,7 +277,8 @@
       "communities": "ማህበረሰቦች",
       "reports": "ሪፖርቶች",
       "supportTickets": "ትኬቶችን ይደግፉ",
-      "systemStatus": "የስርዓት ሁኔታ"
+      "systemStatus": "የስርዓት ሁኔታ",
+      "profile": "መገለጫ"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "የስርዓት ሁኔታ",
         "subtitle": "የኋላ ግንኙነት እና መሰረታዊ የአሂድ ጊዜ ጤና።"
+      },
+      "profile": {
+        "title": "መገለጫ",
+        "subtitle": "የእርስዎ መለያ፣ አቫታር እና የይለፍ ቃል"
       }
     },
     "fallbackName": "የስርዓት አስተዳዳሪ",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "ቋንቋ ፈልግ…",
     "noMatches": "ምንም ግጥሚያዎች የሉም"
+  },
+  "avatarPicker": {
+    "label": "አምሳያ ይምረጡ",
+    "hint": "ከተዘጋጁት አምሳያዎች ውስጥ አንዱን ይምረጡ ወይም የመጀመሪያ ፊደላትን ይጠቀሙ።",
+    "change": "ለውጥ",
+    "cancel": "ሰርዝ",
+    "useInitials": "የመጀመሪያ ሆሄያትን ተጠቀም",
+    "optionLabel": "አምሳያ {{number}}",
+    "save": "አምሳያ አስቀምጥ",
+    "saving": "በማስቀመጥ ላይ…",
+    "saved": "አምሳያ ዘምኗል",
+    "saveError": "የእርስዎን አምሳያ ማዘመን አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "changePassword": {
+    "current": "የአሁኑ ሚስጥራዊ ማለፊያ ቁልፍ",
+    "new": "አዲስ የይለፍ ቃል",
+    "confirm": "አዲስ የይለፍ ቃል ያረጋግጡ",
+    "hint": "ቢያንስ {{min}} ቁምፊዎች።",
+    "tooShort": "አዲስ የይለፍ ቃል ቢያንስ {{min}} ቁምፊዎች መሆን አለበት።",
+    "mismatch": "አዲሶቹ የይለፍ ቃሎች አይዛመዱም።",
+    "sameAsCurrent": "አዲስ የይለፍ ቃል ከአሁኑ የይለፍ ቃልዎ የተለየ መሆን አለበት።",
+    "submit": "የይለፍ ቃል አዘምን",
+    "saving": "በማዘመን ላይ…",
+    "success": "የይለፍ ቃልህ ተዘምኗል።",
+    "error": "የይለፍ ቃልህን ማዘመን አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "search": {
+    "kindPage": "ገጽ",
+    "kindRecord": "ውጤት",
+    "loading": "በመፈለግ ላይ…",
+    "noResults": "ምንም ግጥሚያዎች የሉም",
+    "recordsUnavailable": "አሁን ገጾች ብቻ ሊፈለጉ ይችላሉ።",
+    "invoiceLabel": "ደረሰኝ {{period}}",
+    "paid": "የተከፈለ",
+    "unpaid": "ያልተከፈለ"
   }
 }

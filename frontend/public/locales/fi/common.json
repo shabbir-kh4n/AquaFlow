@@ -222,6 +222,14 @@
         "title": "Tuki / huolenaiheet",
         "subtitle": "Nosta omat lippusi Järjestelmänvalvojalle tai käsittele asukkaidesi sinulle osoittamat huolenaiheet."
       },
+      "reports": {
+        "title": "Yhteisön raportit",
+        "subtitle": "Yhteisösi kulutus-, laskutus-, perintä- ja joukkoostoluvut."
+      },
+      "announcements": {
+        "title": "Ilmoitukset",
+        "subtitle": "Julkaise yhteisön laajuisia ilmoituksia asukkaillesi."
+      },
       "profile": {
         "title": "Asetukset ja profiili",
         "subtitle": "Hallitse tilitietojasi ja asunnon tietoja."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Yhteisön järjestelmänvalvoja",
     "notBuilt": "{{label}} ei ole vielä rakennettu",
     "searchPlaceholder": "Hae mitä tahansa…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raportit",
-      "description": "Kulutus-, laskutus- ja säilytysraportit yhteisöllesi."
-    },
-    "announcements": {
-      "title": "Ilmoitukset",
-      "description": "Lähetä yhteisön laajuisia ilmoituksia asukkaillesi."
-    }
   },
   "comingSoon": {
     "title": "{{title}} on tulossa pian"
@@ -261,7 +259,9 @@
       "billing": "Laskutus ja laskut",
       "notifications": "Ilmoitukset",
       "recommendations": "Suositukset",
-      "support": "Tuki / huolenaiheet"
+      "support": "Tuki / huolenaiheet",
+      "reports": "Käyttö- ja kulutusraportit",
+      "profile": "Oma profiili"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Asukas navigointi",
@@ -277,7 +277,8 @@
       "communities": "yhteisöt",
       "reports": "Raportit",
       "supportTickets": "Tukiliput",
-      "systemStatus": "Järjestelmän tila"
+      "systemStatus": "Järjestelmän tila",
+      "profile": "Profiili"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Järjestelmän tila",
         "subtitle": "Taustayhteydet ja peruskäyttöaikainen kunto."
+      },
+      "profile": {
+        "title": "Profiili",
+        "subtitle": "Tilisi, avatarisi ja salasanasi"
       }
     },
     "fallbackName": "Järjestelmänvalvoja",
@@ -308,5 +313,40 @@
     "buttonLabel": "Kieli: {{language}}",
     "searchPlaceholder": "Hakukieli…",
     "noMatches": "Ei osumia"
+  },
+  "avatarPicker": {
+    "label": "Valitse avatar",
+    "hint": "Valitse yksi esiasetetuista avatareista tai käytä nimikirjaimia.",
+    "change": "Muuttaa",
+    "cancel": "Peruuttaa",
+    "useInitials": "Käytä nimikirjaimia",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Tallenna avatar",
+    "saving": "Tallennetaan…",
+    "saved": "Avatar päivitetty",
+    "saveError": "Avatariasi ei voitu päivittää. Yritä uudelleen."
+  },
+  "changePassword": {
+    "current": "Nykyinen salasana",
+    "new": "Uusi salasana",
+    "confirm": "Vahvista uusi salasana",
+    "hint": "Vähintään {{min}} merkkiä.",
+    "tooShort": "Uuden salasanan on oltava vähintään {{min}} merkkiä.",
+    "mismatch": "Uudet salasanat eivät täsmää.",
+    "sameAsCurrent": "Uuden salasanan on oltava eri kuin nykyinen salasanasi.",
+    "submit": "Päivitä salasana",
+    "saving": "Päivitetään…",
+    "success": "Salasanasi on päivitetty.",
+    "error": "Salasanaasi ei voitu päivittää. Yritä uudelleen."
+  },
+  "search": {
+    "kindPage": "Sivu",
+    "kindRecord": "Tulos",
+    "loading": "Haetaan…",
+    "noResults": "Ei osumia",
+    "recordsUnavailable": "Tällä hetkellä voi hakea vain sivuja.",
+    "invoiceLabel": "Lasku {{period}}",
+    "paid": "Maksettu",
+    "unpaid": "Palkaton"
   }
 }

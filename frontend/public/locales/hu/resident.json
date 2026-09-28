@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Hamarosan",
     "welcome": {
       "greeting": "Szia {{name}}!",
       "greetingFallback": "Sziasztok!",
       "title": "Maradjon közel otthona víztörténetéhez.",
-      "subtitle": "Itt jelennek meg a használati és számlázási statisztikák, ahogy a közösség rögzíti a leolvasásokat.",
-      "viewBadges": "Öko-jelvények megtekintése"
+      "subtitle": "Itt jelennek meg a használati és számlázási statisztikák, ahogy a közösség rögzíti a leolvasásokat."
     },
     "stats": {
       "todaysUsage": "Mai használat",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Mért használat + megosztott költségek, {{month}}",
       "estimatedBillHint": "Az e havi mért fogyasztás és a megosztott díjak alapján",
       "savings": "Megtakarítás vs. épület átl",
-      "savingsValue": "{{percent}}%-kal kevesebb",
-      "savingsPreview": "Csak előnézet – az összehasonlítás még nem éles"
+      "savingsLess": "{{percent}}%-kal kevesebb",
+      "savingsMore": "{{percent}}% több",
+      "savingsEqual": "Ugyanaz, mint az átlag",
+      "savingsDetail": "{{household}} kL vs {{average}} kL átlag, {{month}}",
+      "savingsNoData": "Még nincs épület összehasonlítás"
     },
     "consumption": {
       "eyebrow": "Fogyasztás",
       "title": "Napi fogyasztás (utolsó 14 olvasás)",
       "seriesName": "Fogyasztás",
       "empty": "Még nem rögzítettek leolvasást."
-    },
-    "breakdown": {
-      "eyebrow": "Lebontás",
-      "title": "Használati bontás",
-      "bathroom": "Fürdőszoba",
-      "kitchen": "Konyha",
-      "garden": "Kert / Erkély",
-      "other": "Egyéb / Mosoda"
     },
     "billing": {
       "eyebrow": "Számlázás",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Tier árszint",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Közös terület felosztása",
-      "commonAreaPreview": "Közös terület felosztása (előnézet)",
       "invoiceTotal": "{{period}} számla végösszege",
       "estimatedCharge": "Jelenlegi becsült díj",
       "commonAreaBreakdown": "Közös terület bontása",
-      "payPreview": "Fizetési számla előnézete",
-      "payUnavailable": "A számlázási motor még nem érhető el"
+      "commonAreaEstimate": "Közös terület felosztása (becslés)",
+      "payOutstanding": "Fizessen ki kiemelkedő {{amount}} ₹",
+      "payAllDescription": "Minden kifizetetlen számla ({{number}})"
     },
     "tips": {
       "eyebrow": "Tippek",
@@ -66,8 +59,7 @@
     "empty": "Még nem rögzítettek leolvasást. Ha a közösséged rögzíti a mérőállást, az megjelenik itt.",
     "tabs": {
       "lastSixMonths": "Az elmúlt 6 hónap",
-      "customRange": "Egyedi tartomány",
-      "comingSoon": "Hamarosan"
+      "customRange": "Egyedi tartomány"
     },
     "peakDay": "Csúcsnap:",
     "lowestDay": "A legalacsonyabb nap:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Napi fogyasztás hőtérkép",
-      "subtitle": "A színintenzitás az erős használatú napokat jelzi (előnézet)."
+      "subtitle": "A színintenzitás az erős használatú napokat jelzi (előnézet).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: nincs adat",
+      "less": "Kevesebb",
+      "more": "Több",
+      "noData": "Nincs adat"
     },
     "ranking": {
       "title": "Közösségi rangsor",
-      "subtitle": "Az Ön rangja a hasonló egységekhez képest (előnézet).",
-      "ecoSaver": "Aktív Eco Saver",
-      "aptNumber": "Alkalmas {{number}}",
-      "unitNumber": "Egység {{number}}",
-      "yourUnit": "Az Ön egysége",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ön)"
+      "subtitle": "Az Ön háztartása a lakásában lévő összes háztartáshoz képest {{month}}. Az alacsonyabb használat magasabb rangot jelent.",
+      "headline": "{{total}} háztartásból #{{rank}}",
+      "percentile": "Kevesebb vizet használt, mint a szomszédok {{percent}}%-a.",
+      "min": "Legalacsonyabb",
+      "median": "Középső",
+      "max": "Legmagasabb",
+      "youRow": "#{{rank}} Te",
+      "neighbourRow": "#{{rank}} Szomszéd",
+      "privacyNote": "A szomszédok névtelenek. A házszámok és a nevek soha nem jelennek meg.",
+      "empty": "Még nincs elég adat a háztartás rangsorolásához."
+    },
+    "range": {
+      "from": "Tól",
+      "to": "To",
+      "invalid": "A kezdő hónap nem lehet a befejező hónap után.",
+      "noData": "Ebben a tartományban nincsenek fogyasztási adatok."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Számlázási ciklus: {{period}}",
       "allPaid": "Minden számla ki van fizetve",
       "payTotal": "Teljes fizetés Kiemelkedő",
-      "payTotalUnavailable": "Az online fizetés még nem érhető el – közvetlenül a közösségi rendszergazdával rendezheti a számlákat",
       "downloadSummary": "Töltse le a számlaösszefoglalót",
-      "downloadSummaryUnavailable": "A számlaösszesítő letöltése még nem érhető el"
+      "payAllDescription": "Minden kifizetetlen számla ({{number}})"
     },
     "history": {
       "title": "Számlaelőzmények",
-      "exportCsv": "Az összes exportálása ide: CSV",
-      "exportUnavailable": "CSV exportálás még nem érhető el"
+      "exportCsv": "Az összes exportálása ide: CSV"
     },
     "table": {
       "cycle": "Ciklus",
@@ -148,6 +151,17 @@
       "description": "Az online fizetés még nem érhető el – a számlákat közvetlenül a közösségi rendszergazdával rendezzük.",
       "manage": "Fizetési módok kezelése",
       "manageUnavailable": "Fizetési módok még nem állnak rendelkezésre"
+    },
+    "csv": {
+      "cycle": "Számlázási időszak",
+      "consumption": "Fogyasztás (kL)",
+      "baseAmount": "Alapösszeg",
+      "tariffAmount": "Tarifa összege",
+      "commonAreaAmount": "Közös terület összege",
+      "totalAmount": "Teljes összeg",
+      "paid": "Fizetett",
+      "paidAt": "Fizetve:",
+      "generatedAt": "Generálva:"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Kérjük, ne nyomja vissza vagy frissítse ezt az oldalt",
     "success": "Sikeres fizetés",
     "error": "Hiba történt a fizetés megerősítésekor. Kérjük, próbálja újra.",
-    "retry": "Próbálja újra"
+    "retry": "Próbálja újra",
+    "simulationNotice": "Szimulált pénztár csak bemutató céljából. Nem történik valódi fizetés, és nem számítanak fel pénzt."
   },
   "notifications": {
     "loadError": "Nem sikerült betölteni az értesítéseket. Kérjük, próbálja újra.",
@@ -213,6 +228,25 @@
       "notConfigured": "A push értesítések még nincsenek konfigurálva. Forduljon a rendszergazdához.",
       "enableError": "Nem sikerült engedélyezni a push értesítéseket. Kérjük, próbálja újra.",
       "disableError": "Nem sikerült letiltani a push értesítéseket. Kérjük, próbálja újra."
+    },
+    "tabs": {
+      "alerts": "Figyelmeztetések",
+      "announcements": "Közlemények"
+    },
+    "announcements": {
+      "loadError": "Nem sikerült betölteni a közleményeket. Kérjük, próbálja újra.",
+      "loading": "Közlemények betöltése…",
+      "empty": "Jelenleg nincsenek bejelentések a közösségi adminisztrátortól.",
+      "pinned": "Rögzítve",
+      "postedAt": "Közzétéve {{date}}",
+      "expiresAt": "Egészen {{date}}",
+      "category": {
+        "general": "Általános",
+        "maintenance": "Karbantartás",
+        "waterSupply": "Vízellátás",
+        "billing": "Számlázás",
+        "urgent": "Sürgős"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Nyújtsa be a vízszivárgási jelentéseket, a mérőkalibrálási kérelmeket vagy a számlázási kérdéseket közvetlenül a közösségi adminisztrátornak és/vagy a rendszergazdának.",
     "emptyCreateHint": "Az alábbiakban írja le problémáját vagy problémáját, és válassza ki, hogy ki kezelje."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Az elmúlt 3 hónap",
+      "sixMonths": "Az elmúlt 6 hónap",
+      "twelveMonths": "Az elmúlt 12 hónap",
+      "custom": "Egyedi tartomány"
+    },
+    "customRange": {
+      "from": "Tól",
+      "to": "To",
+      "hint": "A jelentés megtekintéséhez válassza ki a kezdő és záró hónapot."
+    },
+    "loading": "Jelentés betöltése…",
+    "loadError": "Nem sikerült betölteni a jelentést. Kérjük, próbálja újra.",
+    "pdfError": "Nem sikerült letölteni a nyilatkozatot. Kérjük, próbálja újra.",
+    "downloading": "Letöltés…",
+    "downloadCsv": "Letöltés CSV",
+    "downloadStatement": "Nyilatkozat letöltése PDF",
+    "period": "Jelentés időszaka: {{from}} - {{to}}",
+    "cards": {
+      "totalUsage": "Teljes használat",
+      "avgMonthly": "Átlagos havi használat",
+      "avgMonthlyHint": "Hónapokon keresztül rögzített leolvasásokkal",
+      "change": "Változás az előző időszakhoz képest",
+      "changeHint": "{{previous}} itt: {{from}} – {{to}}",
+      "changeNoData": "Az előző időszakban nincs használat összehasonlítható",
+      "totalBilled": "Teljes számlázott",
+      "totalPaid": "Összesen fizetett",
+      "outstanding": "Kiemelkedő"
+    },
+    "chart": {
+      "title": "Havi használat és számlázás",
+      "subtitle": "Az oszlopok a fogyasztást mutatják (kL); a sorban a számlázott összeg (₹) látható.",
+      "consumption": "Fogyasztás",
+      "billed": "Kiszámlázott"
+    },
+    "table": {
+      "title": "Havi bontásban",
+      "month": "Hónap",
+      "consumption": "Fogyasztás (kL)",
+      "billed": "Kiszámlázott",
+      "paid": "Fizetett",
+      "status": "Állapot"
+    },
+    "status": {
+      "paid": "Fizetett",
+      "unpaid": "Kifizetetlen",
+      "notBilled": "Nincs számlázva"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Számlaadatok",
+    "managedNote": "A közösségi adminisztrátor kezeli ezeket a részleteket. Forduljon hozzájuk, ha bármin változtatni kell.",
+    "loading": "Profilod betöltése…",
+    "loadError": "Nem sikerült betölteni a profilt. Kérjük, próbálja újra.",
+    "notSet": "Nincs beállítva",
+    "flatSizeValue": "{{size}} négyzetméter",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Jelszó módosítása",
+    "fields": {
+      "fullName": "Teljes név",
+      "email": "Email",
+      "phone": "Telefon",
+      "houseNumber": "Házszám",
+      "meterNumber": "Mérőszám",
+      "community": "Közösség",
+      "flatSize": "Lapos méretű",
+      "joined": "Csatlakozott"
+    }
   }
 }

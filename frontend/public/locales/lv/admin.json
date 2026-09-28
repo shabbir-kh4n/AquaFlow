@@ -25,7 +25,6 @@
     "title": "{{community}} Dzīvokļa informācijas panelis",
     "titleFallback": "Jūsu dzīvokļa informācijas panelis",
     "subtitle": "Darbības kopsavilkums par ūdensapgādes apakšuzskaiti un mājsaimniecības patēriņu.",
-    "comingSoon": "Drīzumā",
     "manageCommunity": "Pārvaldīt kopienu",
     "noUsageReadings": "Vēl nav reģistrēti lietošanas rādījumi.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Pēdējais reģistrētais mēnesis ({{month}})",
       "noReadingsYet": "Vēl nav reģistrēti rādījumi",
       "pendingAlerts": "Gaidāmie brīdinājumi",
-      "anomalyPreview": "Anomāliju noteikšanas priekšskatījums — vēl nav pieejams"
+      "reviewAlerts": "Aktīvie noplūdes/lietošanas brīdinājumi — pārskatiet tūlīt",
+      "noActiveAlerts": "Nav aktīvu brīdinājumu"
     },
     "actions": {
       "label": "Ātras administratīvās darbības",
       "uploadReadings": "Augšupielādējiet skaitītāja rādījumus",
       "configureTariffs": "Konfigurējiet tarifus",
-      "reportsNotBuilt": "Pārskati vēl nav izveidoti",
       "downloadReports": "Lejupielādēt sistēmas pārskatus"
     },
     "chart": {
       "title": "Mēneša patēriņa salīdzinājums (kL)",
       "subtitle": "Pēdējie {{months}} mēneši: mērķis pret faktisko patēriņu.",
-      "targetSeries": "Mērķis (priekšskatījums)",
       "actualSeries": "Faktiskais"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nevarēja saglabāt jūsu profilu. Lūdzu, mēģiniet vēlreiz.",
     "apartmentSaveError": "Nevarēja saglabāt dzīvokļa informāciju. Lūdzu, mēģiniet vēlreiz.",
     "specsTitle": "Profila specifikācijas",
-    "photoUnavailable": "Fotoattēlu augšupielāde vēl nav pieejama",
-    "changePhoto": "Mainīt fotoattēlu",
-    "deletePhoto": "Dzēst",
-    "photoHint": "JPG vai PNG. Maksimālais izmērs 2MB.",
     "saveProfile": "Saglabāt profilu",
     "apartmentTitle": "Dzīvokļa detaļas",
     "saveApartment": "Saglabājiet dzīvokļa informāciju",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Divu faktoru autentifikācija vēl nav pieejama",
       "twoFactorAria": "Divu faktoru autentifikācija (tikai priekšskatījums)",
       "sessionsLabel": "Aktīvās administratora sesijas",
-      "sessionsEmpty": "Sesiju izsekošana vēl nav pieejama — šis ir gaidāmā izkārtojuma priekšskatījums."
-    }
+      "sessionsEmpty": "Sesiju izsekošana vēl nav pieejama — šis ir gaidāmā izkārtojuma priekšskatījums.",
+      "previewNote": "Tikai priekšskatījums: divu faktoru autentifikācija un sesijas izsekošana vēl nav pieejama."
+    },
+    "avatarLabel": "Iemiesojums",
+    "passwordTitle": "Mainīt paroli"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Iedzīvotāju biļetes",
       "subtitle": "Atbalsta biļetes un bažas, ko jūsu kopienas iedzīvotāji ir adresējuši jums."
+    }
+  },
+  "reports": {
+    "loadError": "Nevarēja ielādēt kopienas pārskatu. Lūdzu, mēģiniet vēlreiz.",
+    "pdfError": "Nevarēja lejupielādēt PDF pārskatu. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek pārskata ielāde…",
+    "empty": "Nav mājsaimniecību ar datiem šajā diapazonā.",
+    "noMatch": "Neviena mājsaimniecība neatbilst \"{{search}}\".",
+    "searchPlaceholder": "Filtrēt pēc mājas, iedzīvotāja vai skaitītāja nr.",
+    "downloadCsv": "Lejupielādēt CSV",
+    "downloadPdf": "Lejupielādēt PDF kopsavilkumu",
+    "downloadingPdf": "Notiek sagatavošana PDF…",
+    "ranges": {
+      "threeMonths": "Pēdējie 3 mēneši",
+      "sixMonths": "Pēdējie 6 mēneši",
+      "twelveMonths": "Pēdējie 12 mēneši",
+      "custom": "Pielāgots diapazons"
+    },
+    "customRange": {
+      "from": "No",
+      "to": "Uz",
+      "hint": "Izvēlieties gan sākuma, gan beigu mēnesi, lai ielādētu pārskatu."
+    },
+    "cards": {
+      "totalConsumption": "Kopējais patēriņš",
+      "households": "Visās {{total}} mājsaimniecībās",
+      "avgMonthly": "Vidējais mēneša patēriņš",
+      "communityWide": "Visā sabiedrībā mēnesī",
+      "billed": "Rēķins",
+      "finalizedOnly": "Tikai pabeigtie un arhivētie cikli",
+      "paid": "Apmaksāts",
+      "invoices": "{{total}} izrakstīti rēķini",
+      "outstanding": "Izcili",
+      "unpaidInvoices": "{{total}} neapmaksāti rēķini",
+      "collectionRate": "Iekasēšanas likme"
+    },
+    "costs": {
+      "title": "Izmaksas salīdzinājumā ar ieņēmumiem",
+      "commonArea": "Maksa par koplietošanas telpu",
+      "bulkCost": "Beztaras ūdens iegādes izmaksas",
+      "bulkVolume": "Iegādāts beztaras ūdens",
+      "bulkCount": "{{total}} pirkumi",
+      "billedMinusBulk": "Rēķinos iekļautie ieņēmumi mīnus lielapjoma izmaksas",
+      "note": "Lielapjoma pirkumi tiek izsekoti, lai nodrošinātu izmaksu redzamību, un tie netiek tieši iekasēti no mājsaimniecībām."
+    },
+    "top": {
+      "title": "Labākie patērētāji",
+      "empty": "Šajā diapazonā nav reģistrēts patēriņš."
+    },
+    "charts": {
+      "consumptionTitle": "Mēneša patēriņš",
+      "consumptionSeries": "Patēriņš",
+      "billingTitle": "Rēķins salīdzinājumā ar apmaksātu un lielapjoma izmaksām",
+      "billedSeries": "Rēķins",
+      "paidSeries": "Apmaksāts",
+      "bulkSeries": "Lielapjoma iegādes izmaksas",
+      "empty": "Nav datu par šo diapazonu."
+    },
+    "sort": {
+      "label": "Kārtot pēc",
+      "toggleDirection": "Pārslēgt kārtošanas virzienu",
+      "asc": "↑ Asc",
+      "desc": "↓ Aprak"
+    },
+    "table": {
+      "house": "Māja",
+      "resident": "Iedzīvotājs",
+      "meter": "Mērītājs",
+      "totalKl": "Kopā kL",
+      "avgMonthlyKl": "Vid. mēnesī kL",
+      "billed": "Rēķins",
+      "paid": "Apmaksāts",
+      "outstanding": "Izcili"
+    }
+  },
+  "announcements": {
+    "loadError": "Nevarēja ielādēt paziņojumus. Lūdzu, mēģiniet vēlreiz.",
+    "removeError": "Šo paziņojumu nevarēja izdzēst. Lūdzu, mēģiniet vēlreiz.",
+    "loading": "Notiek paziņojumu ielāde…",
+    "empty": "Pagaidām nav paziņojumu. Noklikšķiniet uz \"Jauns paziņojums\", lai informētu savus iedzīvotājus.",
+    "count": "Paziņojumi: {{total}}",
+    "newButton": "+ Jauns paziņojums",
+    "pinned": "Piesprausts",
+    "expired": "Beidzies derīguma termiņš",
+    "postedAt": "Izlikts {{date}}",
+    "updatedAt": "Rediģēts {{date}}",
+    "expiresAt": "Beidzas {{date}}",
+    "category": {
+      "general": "Ģenerālis",
+      "maintenance": "Apkope",
+      "waterSupply": "Ūdens apgāde",
+      "billing": "Norēķini",
+      "urgent": "Steidzami"
+    },
+    "form": {
+      "addTitle": "Jauns Paziņojums",
+      "editTitle": "Rediģēt paziņojumu",
+      "addSubtitle": "Iedzīvotāji to redz savā paziņojumu lapā, un ikviens, kuram ir iespējoti pašpiegādes paziņojumi, tiek nekavējoties informēts.",
+      "editSubtitle": "Labojumi atjaunina paziņojumu savā vietā. Iedzīvotāji atkārtoti netiek informēti.",
+      "title": "Nosaukums",
+      "category": "Kategorija",
+      "expiresAt": "Beidzas (pēc izvēles)",
+      "body": "Ziņa",
+      "pinned": "Piespraudiet iedzīvotāju paziņojumu augšpusē",
+      "requiredFields": "Lūdzu, ievadiet nosaukumu un ziņojumu.",
+      "saveError": "Nevarēja saglabāt šo paziņojumu. Lūdzu, pārbaudiet informāciju.",
+      "publish": "Publicēt"
+    },
+    "confirm": {
+      "title": "Vai dzēst paziņojumu?",
+      "body": "\"{{title}}\" tiks noņemts visiem iedzīvotājiem. Šo darbību nevar atsaukt.",
+      "delete": "Dzēst",
+      "deleting": "Notiek dzēšana…"
     }
   }
 }

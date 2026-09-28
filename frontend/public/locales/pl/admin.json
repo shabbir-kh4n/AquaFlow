@@ -25,7 +25,6 @@
     "title": "{{community}} Pulpit nawigacyjny apartamentów",
     "titleFallback": "Panel Twojego mieszkania",
     "subtitle": "Podsumowanie operacyjne dotyczące podliczników w przedsiębiorstwach wodociągowych i zużycia wody w gospodarstwach domowych.",
-    "comingSoon": "Już wkrótce",
     "manageCommunity": "Zarządzaj społecznością",
     "noUsageReadings": "Nie zarejestrowano jeszcze żadnych odczytów użycia.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ostatni zarejestrowany miesiąc ({{month}})",
       "noReadingsYet": "Nie zarejestrowano jeszcze żadnych odczytów",
       "pendingAlerts": "Oczekujące alerty",
-      "anomalyPreview": "Podgląd wykrywania anomalii — jeszcze niedostępny"
+      "reviewAlerts": "Aktywne alerty o wyciekach/użytkowaniu — przejrzyj teraz",
+      "noActiveAlerts": "Brak aktywnych alertów"
     },
     "actions": {
       "label": "Szybkie działania administracyjne",
       "uploadReadings": "Prześlij odczyty liczników",
       "configureTariffs": "Skonfiguruj taryfy",
-      "reportsNotBuilt": "Raporty nie zostały jeszcze utworzone",
       "downloadReports": "Pobierz raporty systemowe"
     },
     "chart": {
       "title": "Porównanie miesięcznego zużycia (kL)",
       "subtitle": "Ostatnie {{months}} miesiące: docelowa a rzeczywista konsumpcja.",
-      "targetSeries": "Cel (podgląd)",
       "actualSeries": "Rzeczywisty"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nie można zapisać Twojego profilu. Spróbuj ponownie.",
     "apartmentSaveError": "Nie udało się zapisać szczegółów mieszkania. Spróbuj ponownie.",
     "specsTitle": "Specyfikacje profili",
-    "photoUnavailable": "Przesyłanie zdjęć nie jest jeszcze dostępne",
-    "changePhoto": "Zmień zdjęcie",
-    "deletePhoto": "Usuwać",
-    "photoHint": "JPG lub PNG. Maksymalny rozmiar 2 MB.",
     "saveProfile": "Zapisz profil",
     "apartmentTitle": "Szczegóły mieszkania",
     "saveApartment": "Zapisz szczegóły mieszkania",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Uwierzytelnianie dwuskładnikowe nie jest jeszcze dostępne",
       "twoFactorAria": "Uwierzytelnianie dwuskładnikowe (tylko wersja zapoznawcza)",
       "sessionsLabel": "Aktywne sesje administracyjne",
-      "sessionsEmpty": "Śledzenie sesji nie jest jeszcze dostępne — jest to podgląd nadchodzącego układu."
-    }
+      "sessionsEmpty": "Śledzenie sesji nie jest jeszcze dostępne — jest to podgląd nadchodzącego układu.",
+      "previewNote": "Tylko podgląd: uwierzytelnianie dwuskładnikowe i śledzenie sesji nie są jeszcze dostępne."
+    },
+    "avatarLabel": "Awatara",
+    "passwordTitle": "Zmień hasło"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Bilety dla mieszkańców",
       "subtitle": "Zgłoszenia pomocy i problemy, które zgłosili do Ciebie mieszkańcy Twojej społeczności."
+    }
+  },
+  "reports": {
+    "loadError": "Nie można wczytać raportu społeczności. Spróbuj ponownie.",
+    "pdfError": "Nie można pobrać raportu PDF. Spróbuj ponownie.",
+    "loading": "Ładowanie raportu…",
+    "empty": "Brak gospodarstw domowych posiadających dane w tym zakresie.",
+    "noMatch": "Żadne gospodarstwo domowe nie pasuje do „{{search}}”.",
+    "searchPlaceholder": "Filtruj według domu, mieszkańca lub numeru licznika.",
+    "downloadCsv": "Pobierz CSV",
+    "downloadPdf": "Pobierz PDF Podsumowanie",
+    "downloadingPdf": "Przygotowuję PDF…",
+    "ranges": {
+      "threeMonths": "Ostatnie 3 miesiące",
+      "sixMonths": "Ostatnie 6 miesięcy",
+      "twelveMonths": "Ostatnie 12 miesięcy",
+      "custom": "Zakres niestandardowy"
+    },
+    "customRange": {
+      "from": "Z",
+      "to": "Do",
+      "hint": "Wybierz miesiąc początkowy i końcowy, aby załadować raport."
+    },
+    "cards": {
+      "totalConsumption": "Całkowite zużycie",
+      "households": "W {{total}} gospodarstwach domowych",
+      "avgMonthly": "Średnie miesięczne zużycie",
+      "communityWide": "W całej społeczności, miesięcznie",
+      "billed": "Rozliczono",
+      "finalizedOnly": "Tylko sfinalizowane i zarchiwizowane cykle",
+      "paid": "Płatny",
+      "invoices": "{{total}} wystawione faktury",
+      "outstanding": "Wybitny",
+      "unpaidInvoices": "{{total}} niezapłacone faktury",
+      "collectionRate": "Szybkość zbierania"
+    },
+    "costs": {
+      "title": "Koszty a przychody",
+      "commonArea": "Naliczane opłaty za korzystanie z powierzchni wspólnych",
+      "bulkCost": "Koszt zakupu wody zbiorczej",
+      "bulkVolume": "Zakupiono wodę hurtową",
+      "bulkCount": "{{total}} zakupy",
+      "billedMinusBulk": "Zafakturowany przychód minus koszt masowy",
+      "note": "Zakupy zbiorcze są śledzone pod kątem przejrzystości kosztów i nie są obciążane bezpośrednio gospodarstwami domowymi."
+    },
+    "top": {
+      "title": "Najlepsi konsumenci",
+      "empty": "W tym zakresie nie odnotowano żadnego zużycia."
+    },
+    "charts": {
+      "consumptionTitle": "Miesięczne zużycie",
+      "consumptionSeries": "Konsumpcja",
+      "billingTitle": "Rozliczone vs. zapłacone vs. koszty zbiorcze",
+      "billedSeries": "Rozliczono",
+      "paidSeries": "Płatny",
+      "bulkSeries": "Koszt zakupu zbiorczego",
+      "empty": "Brak danych dla tego zakresu."
+    },
+    "sort": {
+      "label": "Sortuj według",
+      "toggleDirection": "Przełącz kierunek sortowania",
+      "asc": "↑ Rosn",
+      "desc": "↓ Opis"
+    },
+    "table": {
+      "house": "Dom",
+      "resident": "Rezydent",
+      "meter": "Metr",
+      "totalKl": "Razem kL",
+      "avgMonthlyKl": "Średnia miesięczna kL",
+      "billed": "Rozliczono",
+      "paid": "Płatny",
+      "outstanding": "Wybitny"
+    }
+  },
+  "announcements": {
+    "loadError": "Nie udało się wczytać ogłoszeń. Spróbuj ponownie.",
+    "removeError": "Nie można usunąć tego ogłoszenia. Spróbuj ponownie.",
+    "loading": "Ładowanie ogłoszeń…",
+    "empty": "Nie ma jeszcze żadnych ogłoszeń. Kliknij „Nowe ogłoszenie”, aby powiadomić mieszkańców.",
+    "count": "Ogłoszenia: {{total}}",
+    "newButton": "+ Nowe ogłoszenie",
+    "pinned": "Przypięty",
+    "expired": "Wygasły",
+    "postedAt": "Opublikowano {{date}}",
+    "updatedAt": "Edytowano {{date}}",
+    "expiresAt": "Wygasa {{date}}",
+    "category": {
+      "general": "Ogólny",
+      "maintenance": "Konserwacja",
+      "waterSupply": "Zaopatrzenie w wodę",
+      "billing": "Rozliczenia",
+      "urgent": "Pilny"
+    },
+    "form": {
+      "addTitle": "Nowe ogłoszenie",
+      "editTitle": "Edytuj ogłoszenie",
+      "addSubtitle": "Mieszkańcy widzą to na swojej stronie Powiadomienia, a każda osoba, która ma włączone powiadomienia push, zostaje natychmiast powiadomiona.",
+      "editSubtitle": "Zmiany aktualizują ogłoszenie na miejscu. Mieszkańcy nie zostali ponownie powiadomieni.",
+      "title": "Tytuł",
+      "category": "Kategoria",
+      "expiresAt": "Wygasa (opcjonalnie)",
+      "body": "Wiadomość",
+      "pinned": "Przypinaj na górze ogłoszeń mieszkańców",
+      "requiredFields": "Proszę wpisać tytuł i wiadomość.",
+      "saveError": "Nie można zapisać tego ogłoszenia. Sprawdź szczegóły.",
+      "publish": "Publikować"
+    },
+    "confirm": {
+      "title": "Usunąć ogłoszenie?",
+      "body": "„{{title}}” zostanie usunięte dla wszystkich mieszkańców. Tego nie można cofnąć.",
+      "delete": "Usuwać",
+      "deleting": "Usuwanie…"
     }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ulaznice za podršku",
     "subtitle": "Ulaznice za podršku i zabrinutosti koje su iznijeli stanovnici i administratori zajednice, na cijeloj platformi."
+  },
+  "profile": {
+    "accountTitle": "Račun",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Promijeni lozinku",
+    "loadError": "Nije moguće učitati vaš profil. Molimo pokušajte ponovo.",
+    "fields": {
+      "fullName": "Puno ime",
+      "email": "Email",
+      "role": "Uloga",
+      "roleValue": "Administrator sistema"
+    }
   }
 }

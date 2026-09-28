@@ -222,6 +222,14 @@
         "title": "Support / Bekymmer",
         "subtitle": "Skaffa dina egna biljetter till systemadministratören eller hantera problem som dina invånare har riktat till dig."
       },
+      "reports": {
+        "title": "Samhällsrapporter",
+        "subtitle": "Siffror för konsumtion, fakturering, insamling och bulkköp för ditt samhälle."
+      },
+      "announcements": {
+        "title": "Meddelanden",
+        "subtitle": "Publicera meddelanden i hela samhället till dina invånare."
+      },
       "profile": {
         "title": "Inställningar och profil",
         "subtitle": "Hantera dina kontouppgifter och lägenhetsinformation."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Gemenskapsadministratör",
     "notBuilt": "{{label}} är inte byggd än",
     "searchPlaceholder": "Sök vad som helst..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporter",
-      "description": "Förbruknings-, fakturerings- och bevaranderapporter för ditt samhälle."
-    },
-    "announcements": {
-      "title": "Meddelanden",
-      "description": "Skicka meddelanden i hela samhället till dina invånare."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kommer snart"
@@ -261,7 +259,9 @@
       "billing": "Fakturering & fakturor",
       "notifications": "Aviseringar",
       "recommendations": "Rekommendationer",
-      "support": "Support / Bekymmer"
+      "support": "Support / Bekymmer",
+      "reports": "Dina användnings- och utgiftsrapporter",
+      "profile": "Min profil"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Boendenavigering",
@@ -277,7 +277,8 @@
       "communities": "gemenskaper",
       "reports": "Rapporter",
       "supportTickets": "Supportbiljetter",
-      "systemStatus": "Systemstatus"
+      "systemStatus": "Systemstatus",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Systemstatus",
         "subtitle": "Backend-anslutning och grundläggande körtidshälsa."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Ditt konto, avatar och lösenord"
       }
     },
     "fallbackName": "Systemadmin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Språk: {{language}}",
     "searchPlaceholder": "Sök språk...",
     "noMatches": "Inga matchningar"
+  },
+  "avatarPicker": {
+    "label": "Välj en avatar",
+    "hint": "Välj en av de förinställda avatarerna eller använd dina initialer.",
+    "change": "Ändra",
+    "cancel": "Avboka",
+    "useInitials": "Använd initialer",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Spara avatar",
+    "saving": "Sparande…",
+    "saved": "Avatar uppdaterad",
+    "saveError": "Det gick inte att uppdatera din avatar. Försök igen."
+  },
+  "changePassword": {
+    "current": "Aktuellt lösenord",
+    "new": "Nytt lösenord",
+    "confirm": "Bekräfta nytt lösenord",
+    "hint": "Minst {{min}} tecken.",
+    "tooShort": "Nytt lösenord måste bestå av minst {{min}} tecken.",
+    "mismatch": "De nya lösenorden matchar inte.",
+    "sameAsCurrent": "Det nya lösenordet måste skilja sig från ditt nuvarande lösenord.",
+    "submit": "Uppdatera lösenord",
+    "saving": "Uppdaterar...",
+    "success": "Ditt lösenord har uppdaterats.",
+    "error": "Det gick inte att uppdatera ditt lösenord. Försök igen."
+  },
+  "search": {
+    "kindPage": "Sida",
+    "kindRecord": "Resultat",
+    "loading": "Sökande…",
+    "noResults": "Inga matchningar",
+    "recordsUnavailable": "Bara sidor kunde sökas just nu.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Betalt",
+    "unpaid": "Obetald"
   }
 }

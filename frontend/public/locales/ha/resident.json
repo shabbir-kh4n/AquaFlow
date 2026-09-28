@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Ana zuwa nan ba da jimawa ba",
     "welcome": {
       "greeting": "Hello {{name}},",
       "greetingFallback": "Sannu da zuwa,",
       "title": "Kasance kusa da labarin ruwa na gidanku.",
-      "subtitle": "Bayanin amfani da lissafin kuɗi zai bayyana a nan yayin da al'ummar ku ke yin rikodin karatun.",
-      "viewBadges": "Duba Eco-Badges"
+      "subtitle": "Bayanin amfani da lissafin kuɗi zai bayyana a nan yayin da al'ummar ku ke yin rikodin karatun."
     },
     "stats": {
       "todaysUsage": "Amfanin Yau",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Amfani mai ƙima + cajin da aka raba, {{month}}",
       "estimatedBillHint": "Dangane da yawan mitoci na wannan watan da cajin da aka raba",
       "savings": "Ajiye vs Gina Matsakaicin",
-      "savingsValue": "{{percent}} % Kasa",
-      "savingsPreview": "Preview kawai - kwatancen bai wanzu ba tukuna"
+      "savingsLess": "{{percent}} % Kasa",
+      "savingsMore": "{{percent}}% ƙari",
+      "savingsEqual": "Daidai da matsakaici",
+      "savingsDetail": "{{household}} kL vs {{average}} kL matsakaici, {{month}}",
+      "savingsNoData": "Babu kwatancen gini tukuna"
     },
     "consumption": {
       "eyebrow": "Amfani",
       "title": "Amfanin Kullum (Karatun 14 na ƙarshe)",
       "seriesName": "Amfani",
       "empty": "Ba a yi rikodin karatun ba tukuna."
-    },
-    "breakdown": {
-      "eyebrow": "Rushewa",
-      "title": "Rushewar Amfani",
-      "bathroom": "Gidan wanka",
-      "kitchen": "Kitchen",
-      "garden": "Lambun / baranda",
-      "other": "Sauran / Wanke"
     },
     "billing": {
       "eyebrow": "Biyan kuɗi",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Matsayin farashin matakin",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Rarraba yanki gama gari",
-      "commonAreaPreview": "Rarraba yanki gama gari (samfoti)",
       "invoiceTotal": "{{period}} jimlar daftari",
       "estimatedCharge": "Adadin da aka kiyasta na yanzu",
       "commonAreaBreakdown": "Rushewar yanki gama gari",
-      "payPreview": "Biyan Bill Preview",
-      "payUnavailable": "Injin cajin bai wanzu ba tukuna"
+      "commonAreaEstimate": "Rarraba yanki gama gari (ƙimantawa)",
+      "payOutstanding": "Bayar da Kyautar ₹{{amount}}",
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "tips": {
       "eyebrow": "Tips",
@@ -66,8 +59,7 @@
     "empty": "Ba a yi rikodin karatun ba tukuna. Da zarar al'ummar ku sun yi rikodin karatun mita, zai bayyana a nan.",
     "tabs": {
       "lastSixMonths": "Watanni 6 da suka gabata",
-      "customRange": "Range na Musamman",
-      "comingSoon": "Ana zuwa nan ba da jimawa ba"
+      "customRange": "Range na Musamman"
     },
     "peakDay": "Ranar Koli:",
     "lowestDay": "Ranar mafi ƙasƙanci:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Taswirar Zafi na yau da kullun",
-      "subtitle": "Ƙarfin launi yana nuna manyan kwanakin amfani (samfoti)."
+      "subtitle": "Ƙarfin launi yana nuna manyan kwanakin amfani (samfoti).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: no data",
+      "less": "Kadan",
+      "more": "Kara",
+      "noData": "Babu bayanai"
     },
     "ranking": {
       "title": "Matsayin Abokan Al'umma",
-      "subtitle": "Matsayinku idan aka kwatanta da raka'a iri ɗaya (samfoti).",
-      "ecoSaver": "Active Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unit {{number}}",
-      "yourUnit": "Naúrar ku",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ku)"
+      "subtitle": "Gidanku da kowane gida a cikin gidan ku don {{month}}. Ƙananan amfani yana da matsayi mafi girma.",
+      "headline": "#{{rank}} na {{total}} gidaje",
+      "percentile": "Kun yi amfani da ƙasa da ruwa fiye da {{percent}}% na maƙwabtanku.",
+      "min": "Mafi ƙasƙanci",
+      "median": "Matsakaici",
+      "max": "Mafi girma",
+      "youRow": "#{{rank}} You",
+      "neighbourRow": "#{{rank}} Makwabci",
+      "privacyNote": "Maƙwabta ba a san sunansu ba. Ba a taɓa nuna lambobin gida da sunaye ba.",
+      "empty": "Har yanzu babu isassun bayanai don daraja gidan ku."
+    },
+    "range": {
+      "from": "Daga",
+      "to": "Zuwa",
+      "invalid": "Dole ne watan farawa ya kasance bayan karshen watan.",
+      "noData": "Babu bayanan amfani a cikin wannan kewayon."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Zagayowar Biyan Kuɗi: {{period}}",
       "allPaid": "Ana biyan duk daftari",
       "payTotal": "Biyan Jimillar Firi",
-      "payTotalUnavailable": "Ba a samu biyan kuɗin kan layi ba tukuna - daidaita lissafin kuɗi tare da mai kula da yankin ku kai tsaye",
       "downloadSummary": "Zazzage Ƙididdigar Bill",
-      "downloadSummaryUnavailable": "Ba a samu zazzagewar taƙaitaccen lissafin ba tukuna"
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "history": {
       "title": "Tarihin Daftari",
-      "exportCsv": "Fitar da Duk zuwa CSV",
-      "exportUnavailable": "CSV export isn't available yet"
+      "exportCsv": "Fitar da Duk zuwa CSV"
     },
     "table": {
       "cycle": "Zagayowar",
@@ -148,6 +151,17 @@
       "description": "Ba a samu biyan kuɗin kan layi ba tukuna - an daidaita lissafin kuɗi tare da mai kula da yankin ku kai tsaye.",
       "manage": "Sarrafa hanyoyin Biyan kuɗi",
       "manageUnavailable": "Har yanzu ba a samun hanyoyin biyan kuɗi"
+    },
+    "csv": {
+      "cycle": "Lokacin biyan kuɗi",
+      "consumption": "Consumption (kL)",
+      "baseAmount": "Adadin tushe",
+      "tariffAmount": "Adadin jadawalin kuɗin fito",
+      "commonAreaAmount": "Adadin yanki gama gari",
+      "totalAmount": "Jimla",
+      "paid": "An biya",
+      "paidAt": "An biya a",
+      "generatedAt": "An ƙirƙira a"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Don Allah kar a danna baya ko sabunta wannan shafin",
     "success": "Biyan ya yi Nasara",
     "error": "Wani abu yayi kuskure yana tabbatar da biyan ku. Da fatan za a sake gwadawa.",
-    "retry": "Sake gwadawa"
+    "retry": "Sake gwadawa",
+    "simulationNotice": "Fitar da simulators don nunawa kawai. Babu ainihin biyan kuɗi kuma ba a cajin kuɗi."
   },
   "notifications": {
     "loadError": "An kasa loda sanarwarku. Da fatan za a sake gwadawa.",
@@ -213,6 +228,25 @@
       "notConfigured": "Ba a saita sanarwar turawa tukuna. Tuntuɓi admin ɗin ku.",
       "enableError": "An kasa kunna sanarwar turawa. Da fatan za a sake gwadawa.",
       "disableError": "An kasa kashe sanarwar turawa. Da fatan za a sake gwadawa."
+    },
+    "tabs": {
+      "alerts": "Fadakarwa",
+      "announcements": "Sanarwa"
+    },
+    "announcements": {
+      "loadError": "An kasa loda sanarwa. Da fatan za a sake gwadawa.",
+      "loading": "Ana loda sanarwar…",
+      "empty": "Babu sanarwa daga manajan yankin ku a yanzu.",
+      "pinned": "Pinned",
+      "postedAt": "Posted {{date}}",
+      "expiresAt": "Until {{date}}",
+      "category": {
+        "general": "Gabaɗaya",
+        "maintenance": "Kulawa",
+        "waterSupply": "Samar da Ruwa",
+        "billing": "Biyan kuɗi",
+        "urgent": "Gaggawa"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Taimakon mazauna & Tebur Damuwa",
     "subtitle": "Ƙaddamar da rahotannin zubar ruwa, buƙatun daidaita mita, ko tambayoyin lissafin kuɗi kai tsaye zuwa ga mai gudanarwa da/ko mai kula da tsarin.",
     "emptyCreateHint": "Bayyana batunku ko damuwa a ƙasa, kuma zaɓi wanda ya kamata ya magance ta."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Watanni 3 da suka gabata",
+      "sixMonths": "Watanni 6 da suka gabata",
+      "twelveMonths": "Watanni 12 da suka gabata",
+      "custom": "Range na Musamman"
+    },
+    "customRange": {
+      "from": "Daga",
+      "to": "Zuwa",
+      "hint": "Zaɓi farkon da ƙarshen watan don ganin rahoton ku."
+    },
+    "loading": "Ana loda rahoton ku…",
+    "loadError": "An kasa loda rahoton ku. Da fatan za a sake gwadawa.",
+    "pdfError": "An kasa sauke bayanin. Da fatan za a sake gwadawa.",
+    "downloading": "Ana saukewa…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Zazzage Bayanin PDF",
+    "period": "Report period: {{from}} to {{to}}",
+    "cards": {
+      "totalUsage": "Jimlar Amfani",
+      "avgMonthly": "Matsakaicin Amfani na kowane wata",
+      "avgMonthlyHint": "Tsawon watanni tare da rubutaccen karatun",
+      "change": "Canza vs Lokacin Baya",
+      "changeHint": "{{previous}} in {{from}} to {{to}}",
+      "changeNoData": "Babu amfani a cikin lokacin da ya gabata don kwatanta",
+      "totalBilled": "Jimillar Kuɗi",
+      "totalPaid": "Jimlar Biya",
+      "outstanding": "Fitacciyar"
+    },
+    "chart": {
+      "title": "Amfani da Kuɗi na wata-wata",
+      "subtitle": "Bars show consumption (kL); the line shows the billed amount (₹).",
+      "consumption": "Amfani",
+      "billed": "An biya"
+    },
+    "table": {
+      "title": "Tsare-tsare na wata-wata",
+      "month": "Watan",
+      "consumption": "Consumption (kL)",
+      "billed": "An biya",
+      "paid": "An biya",
+      "status": "Matsayi"
+    },
+    "status": {
+      "paid": "An biya",
+      "unpaid": "Ba a biya ba",
+      "notBilled": "Ba a biya ba"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Bayanan asusun",
+    "managedNote": "Manajan yankin ku yana sarrafa waɗannan bayanan. Tuntuɓi su idan wani abu yana buƙatar canzawa.",
+    "loading": "Ana loda bayanan martaba…",
+    "loadError": "An kasa loda bayanan martabarku. Da fatan za a sake gwadawa.",
+    "notSet": "Ba a saita ba",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Canza kalmar shiga",
+    "fields": {
+      "fullName": "Cikakken suna",
+      "email": "Imel",
+      "phone": "Waya",
+      "houseNumber": "Lambar gida",
+      "meterNumber": "Lambar mita",
+      "community": "Al'umma",
+      "flatSize": "Girman lebur",
+      "joined": "An shiga"
+    }
   }
 }

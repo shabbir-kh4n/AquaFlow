@@ -25,7 +25,6 @@
     "title": "{{community}} Kwartira paneli",
     "titleFallback": "Kwartira paneli",
     "subtitle": "Suw desgalarynyň ölçegleri we öý sarp edişleri üçin iş gysgaça mazmuny.",
-    "comingSoon": "Soonakynda",
     "manageCommunity": "Jemgyýeti dolandyryň",
     "noUsageReadings": "Ulanyş okalyşy entek ýazylmady.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Iň soňky ýazylan aý ({{month}})",
       "noReadingsYet": "Entek okalmady",
       "pendingAlerts": "Garaşylýan duýduryşlar",
-      "anomalyPreview": "Anomaliýany ýüze çykarmak deslapky syn - entek elýeterli däl"
+      "reviewAlerts": "Işjeň syzmak / ulanyş duýduryşlary - indi gözden geçiriň",
+      "noActiveAlerts": "Işjeň duýduryş ýok"
     },
     "actions": {
       "label": "Çalt dolandyryş çäreleri",
       "uploadReadings": "Metr okaýyşlaryny ýükläň",
       "configureTariffs": "Nyrhlary sazlaň",
-      "reportsNotBuilt": "Hasabat entek gurlanok",
       "downloadReports": "Ulgam hasabatlaryny göçürip alyň"
     },
     "chart": {
       "title": "Aýlyk sarp ediş deňeşdirmesi (kL)",
       "subtitle": "Soňky {{months}} aý: maksat we hakyky sarp.",
-      "targetSeries": "Maksat (deslapky syn)",
       "actualSeries": "Hakyky"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profiliňizi ýazdyryp bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris.",
     "apartmentSaveError": "Kwartira jikme-jikliklerini saklap bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
     "specsTitle": "Profil aýratynlyklary",
-    "photoUnavailable": "Surat ýüklemek entek elýeterli däl",
-    "changePhoto": "Suraty üýtgediň",
-    "deletePhoto": "Öçür",
-    "photoHint": "JPG ýa-da PNG. Iň uly ululygy 2MB.",
     "saveProfile": "Profil ýazdyr",
     "apartmentTitle": "Kwartira maglumatlary",
     "saveApartment": "Kwartira maglumatlaryny ýazdyryň",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Iki faktorly tanamaklyk entek elýeterli däl",
       "twoFactorAria": "Iki faktorly tanamaklyk (diňe deslapky syn)",
       "sessionsLabel": "Işjeň administrasiýa sessiýalary",
-      "sessionsEmpty": "Sessiýa yzarlamasy entek elýeterli däl - bu öňümizdäki düzülişiň deslapky syny."
-    }
+      "sessionsEmpty": "Sessiýa yzarlamasy entek elýeterli däl - bu öňümizdäki düzülişiň deslapky syny.",
+      "previewNote": "Diňe deslapky syn: iki faktorly tanamak we sessiýa yzarlamak entek elýeterli däl."
+    },
+    "avatarLabel": "Awatar",
+    "passwordTitle": "Paroly üýtgetmek"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Identaşaýjy biletler",
       "subtitle": "Goldaw biletleri we jemgyýetiňizdäki ýaşaýjylar size ýüzlendiler."
+    }
+  },
+  "reports": {
+    "loadError": "Jemgyýet hasabatyny ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "pdfError": "PDF hasabatyny göçürip alyp bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "loading": "Reportükleme hasabaty…",
+    "empty": "Bu aralykda maglumatlary bolan öý hojalygy ýok.",
+    "noMatch": "Hiç bir öý hojalygy \"{{search}}\" bilen gabat gelenok.",
+    "searchPlaceholder": "Jaý, ýaşaýjy ýa-da metr belgisi boýunça süzgüç.",
+    "downloadCsv": "CSV göçürip al",
+    "downloadPdf": "PDF Gysgaça mazmun",
+    "downloadingPdf": "Taýýarlyk PDF…",
+    "ranges": {
+      "threeMonths": "Soňky 3 aý",
+      "sixMonths": "Soňky 6 aý",
+      "twelveMonths": "Soňky 12 aý",
+      "custom": "Omörite diapazon"
+    },
+    "customRange": {
+      "from": "Kimden",
+      "to": "To",
+      "hint": "Hasabaty ýüklemek üçin başlangyç we ahyrky aýy saýlaň."
+    },
+    "cards": {
+      "totalConsumption": "Jemi sarp",
+      "households": "{{total}} öýlerde",
+      "avgMonthly": "Ortaça aýlyk sarp",
+      "communityWide": "Jemgyýetde, aýda",
+      "billed": "Hasaplaşyk",
+      "finalizedOnly": "Diňe gutarnykly we arhiwlenen sikller",
+      "paid": "Tölegli",
+      "invoices": "{{total}} hasap-fakturalar berildi",
+      "outstanding": "Görnükli",
+      "unpaidInvoices": "{{total}} tölenmedik hasap-fakturalar",
+      "collectionRate": "Collectionygyndy nyrhy"
+    },
+    "costs": {
+      "title": "Çykdajylar we girdeji",
+      "commonArea": "Umumy töleg tölenýär",
+      "bulkCost": "Köp suw satyn almak bahasy",
+      "bulkVolume": "Köp suw satyn alyndy",
+      "bulkCount": "{{total}} satyn almalar",
+      "billedMinusBulk": "Hasaplanan girdeji minus köp çykdajy",
+      "note": "Köpçülikleýin satyn alyşlar çykdajylaryň görünmegi üçin yzarlanýar we gönüden-göni öý hojalygyna tölenmeýär."
+    },
+    "top": {
+      "title": "Iň köp sarp edijiler",
+      "empty": "Bu aralykda hiç hili sarp edilmedi."
+    },
+    "charts": {
+      "consumptionTitle": "Aýlyk sarp",
+      "consumptionSeries": "Sarp etmek",
+      "billingTitle": "Hasaplaşyk vs. Tölegli we köp çykdajy",
+      "billedSeries": "Hasaplaşyk",
+      "paidSeries": "Tölegli",
+      "bulkSeries": "Köp mukdarda satyn alyş bahasy",
+      "empty": "Bu aralyk üçin maglumat ýok."
+    },
+    "sort": {
+      "label": "Tertipleşdir",
+      "toggleDirection": "Sort ugruny üýtgediň",
+      "asc": "↑ Asc",
+      "desc": "↓ Des"
+    },
+    "table": {
+      "house": "Jaý",
+      "resident": "Aşaıjy",
+      "meter": "Metr",
+      "totalKl": "Jemi kL",
+      "avgMonthlyKl": "Ortaça aýlyk kL",
+      "billed": "Hasaplaşyk",
+      "paid": "Tölegli",
+      "outstanding": "Görnükli"
+    }
+  },
+  "announcements": {
+    "loadError": "Bildirişleri ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "removeError": "Bu bildirişi pozup bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "loading": "Bildirişleri ýüklemek…",
+    "empty": "Entek bildiriş ýok. Residentsaşaýjylaryňyza habar bermek üçin \"Täze bildiriş\" -e basyň.",
+    "count": "Bildirişler: {{total}}",
+    "newButton": "+ Täze bildiriş",
+    "pinned": "Berkidilen",
+    "expired": "Möhleti gutardy",
+    "postedAt": "Iberilen {{date}}",
+    "updatedAt": "Redaktirlendi {{date}}",
+    "expiresAt": "Möhleti gutarýar {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Bejeriş",
+      "waterSupply": "Suw üpjünçiligi",
+      "billing": "Hasaplaşyk",
+      "urgent": "Gyssagly"
+    },
+    "form": {
+      "addTitle": "Täze bildiriş",
+      "editTitle": "Bildirişi redaktirläň",
+      "addSubtitle": "Identaşaýjylar muny habarnamalar sahypasynda görýärler we itergi habarnamalary açyk bolanlara derrew habar berilýär.",
+      "editSubtitle": "Düzedişler bildirişi ýerinde täzeleýär. Identaşaýjylara ýene habar berilmeýär.",
+      "title": "Ady",
+      "category": "Kategoriýa",
+      "expiresAt": "Möhleti gutarýar (islege görä)",
+      "body": "Habar",
+      "pinned": "Residentsaşaýjylaryň bildirişleriniň başyna basyň",
+      "requiredFields": "Ady we habary ýazmagyňyzy haýyş edýäris.",
+      "saveError": "Bu bildirişi saklap bolmady Jikme-jiklikleri barlaň.",
+      "publish": "Neşir et"
+    },
+    "confirm": {
+      "title": "Bildirişi pozuň?",
+      "body": "\"{{title}}\" ähli ýaşaýjylar üçin aýrylar. Muny yzyna gaýtaryp bolmaz.",
+      "delete": "Öçür",
+      "deleting": "Öçürmek…"
     }
   }
 }

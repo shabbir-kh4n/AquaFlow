@@ -222,6 +222,14 @@
         "title": "Podpora/pomisleki",
         "subtitle": "Sami pokličite sistemskega skrbnika ali obravnavajte pomisleke, ki so jih vaši stanovalci naslovili na vas."
       },
+      "reports": {
+        "title": "Poročila skupnosti",
+        "subtitle": "Podatki o porabi, obračunavanju, zbiranju in množičnem nakupu za vašo skupnost."
+      },
+      "announcements": {
+        "title": "Obvestila",
+        "subtitle": "Objavite obvestila za celotno skupnost svojim stanovalcem."
+      },
       "profile": {
         "title": "Nastavitve in profil",
         "subtitle": "Upravljajte podatke o svojem računu in podatke o stanovanju."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Skrbnik skupnosti",
     "notBuilt": "{{label}} še ni zgrajen",
     "searchPlaceholder": "Išči karkoli ..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Poročila",
-      "description": "Poročila o porabi, obračunavanju in varčevanju za vašo skupnost."
-    },
-    "announcements": {
-      "title": "Obvestila",
-      "description": "Pošljite obvestila za celotno skupnost svojim stanovalcem."
-    }
   },
   "comingSoon": {
     "title": "{{title}} bo kmalu na voljo"
@@ -261,7 +259,9 @@
       "billing": "Obračunavanje in računi",
       "notifications": "Obvestila",
       "recommendations": "Priporočila",
-      "support": "Podpora/pomisleki"
+      "support": "Podpora/pomisleki",
+      "reports": "Vaša poročila o uporabi in porabi",
+      "profile": "Moj profil"
     },
     "defaultTitle": "Rezidentna nadzorna plošča",
     "navLabel": "Rezidenčna navigacija",
@@ -277,7 +277,8 @@
       "communities": "skupnosti",
       "reports": "Poročila",
       "supportTickets": "Vstopnice za podporo",
-      "systemStatus": "Stanje sistema"
+      "systemStatus": "Stanje sistema",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stanje sistema",
         "subtitle": "Zaledna povezljivost in osnovno stanje izvajalnega okolja."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Vaš račun, avatar in geslo"
       }
     },
     "fallbackName": "Sistemski skrbnik",
@@ -308,5 +313,40 @@
     "buttonLabel": "Jezik: {{language}}",
     "searchPlaceholder": "Išči jezik ...",
     "noMatches": "Ni ujemanja"
+  },
+  "avatarPicker": {
+    "label": "Izberite avatar",
+    "hint": "Izberite enega od prednastavljenih avatarjev ali uporabite svoje začetnice.",
+    "change": "spremeniti",
+    "cancel": "Prekliči",
+    "useInitials": "Uporabite začetnice",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Shrani avatar",
+    "saving": "Shranjevanje ...",
+    "saved": "Avatar posodobljen",
+    "saveError": "Vašega avatarja ni bilo mogoče posodobiti. prosim poskusite ponovno"
+  },
+  "changePassword": {
+    "current": "Trenutno geslo",
+    "new": "Novo geslo",
+    "confirm": "Potrdite novo geslo",
+    "hint": "Najmanj {{min}} znakov.",
+    "tooShort": "Novo geslo mora imeti vsaj {{min}} znakov.",
+    "mismatch": "Nova gesla se ne ujemata.",
+    "sameAsCurrent": "Novo geslo se mora razlikovati od trenutnega.",
+    "submit": "Posodobi geslo",
+    "saving": "Posodabljanje ...",
+    "success": "Vaše geslo je posodobljeno.",
+    "error": "Gesla ni bilo mogoče posodobiti. prosim poskusite ponovno"
+  },
+  "search": {
+    "kindPage": "Stran",
+    "kindRecord": "Rezultat",
+    "loading": "Iskanje ...",
+    "noResults": "Ni ujemanja",
+    "recordsUnavailable": "Trenutno je mogoče iskati samo strani.",
+    "invoiceLabel": "Račun {{period}}",
+    "paid": "Plačano",
+    "unpaid": "Neplačano"
   }
 }

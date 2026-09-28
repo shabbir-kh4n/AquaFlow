@@ -222,6 +222,14 @@
         "title": "Ondersteuning / Bekommernisse",
         "subtitle": "Samel jou eie kaartjies na die Stelseladministrateur, of hanteer bekommernisse wat jou inwoners aan jou gerig het."
       },
+      "reports": {
+        "title": "Gemeenskapsverslae",
+        "subtitle": "Verbruik, fakturering, invordering en grootmaat-aankoopsyfers vir jou gemeenskap."
+      },
+      "announcements": {
+        "title": "Aankondigings",
+        "subtitle": "Publiseer gemeenskapswye kennisgewings aan jou inwoners."
+      },
       "profile": {
         "title": "Instellings en profiel",
         "subtitle": "Bestuur jou rekeningbesonderhede en woonstelinligting."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Gemeenskap Admin",
     "notBuilt": "{{label}} is nog nie gebou nie",
     "searchPlaceholder": "Soek enigiets …"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Verslae",
-      "description": "Verbruik-, fakturerings- en bewaringsverslae vir jou gemeenskap."
-    },
-    "announcements": {
-      "title": "Aankondigings",
-      "description": "Stuur gemeenskapswye aankondigings aan jou inwoners."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kom binnekort"
@@ -261,7 +259,9 @@
       "billing": "Fakture en faktuur",
       "notifications": "Kennisgewings",
       "recommendations": "Aanbevelings",
-      "support": "Ondersteuning / Bekommernisse"
+      "support": "Ondersteuning / Bekommernisse",
+      "reports": "Jou gebruik en besteding verslae",
+      "profile": "My profiel"
     },
     "defaultTitle": "Inwoner Dashboard",
     "navLabel": "Inwoner navigasie",
@@ -277,7 +277,8 @@
       "communities": "Gemeenskappe",
       "reports": "Verslae",
       "supportTickets": "Ondersteuningskaartjies",
-      "systemStatus": "Stelsel Status"
+      "systemStatus": "Stelsel Status",
+      "profile": "Profiel"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stelsel Status",
         "subtitle": "Backend-verbinding en basiese runtime-gesondheid."
+      },
+      "profile": {
+        "title": "Profiel",
+        "subtitle": "Jou rekening, avatar en wagwoord"
       }
     },
     "fallbackName": "Stelsel Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Taal: {{language}}",
     "searchPlaceholder": "Soek taal …",
     "noMatches": "Geen wedstryde nie"
+  },
+  "avatarPicker": {
+    "label": "Kies 'n avatar",
+    "hint": "Kies een van die voorafbepaalde avatars, of gebruik jou voorletters.",
+    "change": "Verander",
+    "cancel": "Kanselleer",
+    "useInitials": "Gebruik voorletters",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Stoor avatar",
+    "saving": "Stoor tans …",
+    "saved": "Avatar opgedateer",
+    "saveError": "Kon nie jou avatar opdateer nie. Probeer asseblief weer."
+  },
+  "changePassword": {
+    "current": "Huidige wagwoord",
+    "new": "Nuwe wagwoord",
+    "confirm": "Bevestig nuwe wagwoord",
+    "hint": "Ten minste {{min}} karakters.",
+    "tooShort": "Nuwe wagwoord moet ten minste {{min}} karakters wees.",
+    "mismatch": "Die nuwe wagwoorde stem nie ooreen nie.",
+    "sameAsCurrent": "Nuwe wagwoord moet verskil van jou huidige wagwoord.",
+    "submit": "Dateer wagwoord op",
+    "saving": "Dateer tans op …",
+    "success": "Jou wagwoord is opgedateer.",
+    "error": "Kon nie jou wagwoord opdateer nie. Probeer asseblief weer."
+  },
+  "search": {
+    "kindPage": "Bladsy",
+    "kindRecord": "Resultaat",
+    "loading": "Soek tans …",
+    "noResults": "Geen wedstryde nie",
+    "recordsUnavailable": "Slegs bladsye kon tans deursoek word.",
+    "invoiceLabel": "Faktuur {{period}}",
+    "paid": "Betaal",
+    "unpaid": "Onbetaald"
   }
 }

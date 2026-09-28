@@ -25,7 +25,6 @@
     "title": "{{community}} Íbúðarstýriborð",
     "titleFallback": "Títt íbúðarstýriborð",
     "subtitle": "Rakstrarsamandráttur fyri vatnnýtslu undirmáting og húsarhaldsnýtslu.",
-    "comingSoon": "Kemur skjótt",
     "manageCommunity": "Stjóra felagsskapinum",
     "noUsageReadings": "Eingin nýtsluavlesing skrásett enn.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Seinasti upptikni mánaður ({{month}})",
       "noReadingsYet": "Eingin avlestur skrásettur enn",
       "pendingAlerts": "Bíðandi áminningar",
-      "anomalyPreview": "Forskoðan av frávikum — ikki tøkt enn"
+      "reviewAlerts": "Virknar leka / nýtsluávaring — kanna nú",
+      "noActiveAlerts": "Ongar virknar áminningar"
     },
     "actions": {
       "label": "Skjótar fyrisitingarligar tiltøk",
       "uploadReadings": "Lat upp mátaraavlesingar",
       "configureTariffs": "Set gjøld upp",
-      "reportsNotBuilt": "Frágreiðingar eru ikki bygdar enn",
       "downloadReports": "Heinta skipanarfrágreiðingar"
     },
     "chart": {
       "title": "Mánaðarlig nýtslusamanbering (kL)",
       "subtitle": "Seinastu {{months}} mánaðirnar: mark móti veruligari nýtslu.",
-      "targetSeries": "Mark (forskoðan)",
       "actualSeries": "Veruligur"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Kundi ikki goyma tína vangamynd. Vinarliga royn aftur.",
     "apartmentSaveError": "Kundi ikki goyma íbúðarupplýsingar. Vinarliga royn aftur.",
     "specsTitle": "Profilspesifikatiónir",
-    "photoUnavailable": "Myndaupload er ikki tøk enn",
-    "changePhoto": "Broyt mynd",
-    "deletePhoto": "Strúka burtur",
-    "photoHint": "JPG ella PNG. Mesta stødd 2MB.",
     "saveProfile": "Goym vangamynd",
     "apartmentTitle": "Íbúðardetaljur",
     "saveApartment": "Goym íbúðarupplýsingar",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Tvífaktor-góðkenning er ikki tøk enn",
       "twoFactorAria": "Tvífaktor-góðkenning (bert forskoðan)",
       "sessionsLabel": "Virknar umsitingarløtur",
-      "sessionsEmpty": "Setufylgja er ikki tøkt enn — hetta er ein forskoðan av komandi uppsetingini."
-    }
+      "sessionsEmpty": "Setufylgja er ikki tøkt enn — hetta er ein forskoðan av komandi uppsetingini.",
+      "previewNote": "Einans forskoðan: tvífaktor-góðkenning og setufylgja eru ikki tøk enn."
+    },
+    "avatarLabel": "Myndmynd",
+    "passwordTitle": "Broyt loyniorð"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Atgongumerki til búfólk",
       "subtitle": "Stuðulseðlar og áhugamál, sum íbúgvarnir í tínum samfelag hava vendi sær til tín."
+    }
+  },
+  "reports": {
+    "loadError": "Kundi ikki heinta felagsfrágreiðingina. Vinarliga royn aftur.",
+    "pdfError": "Kundi ikki heinta PDF frágreiðingina. Vinarliga royn aftur.",
+    "loading": "Heinta frágreiðing...",
+    "empty": "Eingi húsarhald við dátum í hesum bilinum.",
+    "noMatch": "Eingi húsarhald passa til \"{{search}}\".",
+    "searchPlaceholder": "Filtur eftir húsi, bústaði, ella mátaranr.",
+    "downloadCsv": "Heinta CSV",
+    "downloadPdf": "Heinta PDF Samandráttur",
+    "downloadingPdf": "Fyrireiking PDF...",
+    "ranges": {
+      "threeMonths": "Seinastu 3 mánaðirnar",
+      "sixMonths": "Seinastu 6 mánaðirnar",
+      "twelveMonths": "Seinastu 12 mánaðirnar",
+      "custom": "Sersniðgivið úrval"
+    },
+    "customRange": {
+      "from": "Frá",
+      "to": "Til",
+      "hint": "Vel bæði ein byrjanar- og ein endamánað at heinta frágreiðingina."
+    },
+    "cards": {
+      "totalConsumption": "Samlað nýtsla",
+      "households": "Tvørtur um {{total}} húsarhald",
+      "avgMonthly": "Miðal mánaðarlig nýtsla",
+      "communityWide": "Um alt samfelagið, um mánaðin",
+      "billed": "Roknað",
+      "finalizedOnly": "Einans endaligar og arkiveraðar ringrásir",
+      "paid": "Rindaði",
+      "invoices": "{{total}} rokningar útgivnar",
+      "outstanding": "Framúrskarandi",
+      "unpaidInvoices": "{{total}} ógoldnar rokningar",
+      "collectionRate": "Innsavningarstig"
+    },
+    "costs": {
+      "title": "Kostnaður móti inntøkur",
+      "commonArea": "Gjøld fyri felagsøki roknað",
+      "bulkCost": "Kostnaður fyri keyp av rúgvuvatni",
+      "bulkVolume": "Bulkvatn keypt",
+      "bulkCount": "{{total}} keyp",
+      "billedMinusBulk": "Roknaðar inntøkur minus rúgvukostnað",
+      "note": "Bulkkeyp verða fylgd fyri kostnaðarsjónleika og verða ikki roknað húsarhaldum beinleiðis."
+    },
+    "top": {
+      "title": "Toppbrúkarar",
+      "empty": "Eingin nýtsla skrásett í hesum bilinum."
+    },
+    "charts": {
+      "consumptionTitle": "Mánaðarlig nýtsla",
+      "consumptionSeries": "Brúk",
+      "billingTitle": "Faktureraður móti greiddur móti hópkostnaði",
+      "billedSeries": "Roknað",
+      "paidSeries": "Rindaði",
+      "bulkSeries": "Kostnaður fyri hópkeyp",
+      "empty": "Ongar dátur fyri hetta økið."
+    },
+    "sort": {
+      "label": "Sortera eftir",
+      "toggleDirection": "Skift sorteringsætlan",
+      "asc": "↑ Asc",
+      "desc": "↓ Lýsing"
+    },
+    "table": {
+      "house": "Hús",
+      "resident": "Íbúgvi",
+      "meter": "Mátari",
+      "totalKl": "Tilsamans kL",
+      "avgMonthlyKl": "Miðal Mánaðarliga kL",
+      "billed": "Roknað",
+      "paid": "Rindaði",
+      "outstanding": "Framúrskarandi"
+    }
+  },
+  "announcements": {
+    "loadError": "Kundi ikki heinta kunngerðir. Vinarliga royn aftur.",
+    "removeError": "Kundi ikki strika hesa fráboðan. Vinarliga royn aftur.",
+    "loading": "Heinta kunngerðir...",
+    "empty": "Ongar fráboðanir enn. Trýst á \"Nýggj kunngerð\" fyri at boða tínum íbúgvum frá.",
+    "count": "Kunningar: {{total}}",
+    "newButton": "+ Nýggj kunning",
+    "pinned": "Pinnað",
+    "expired": "Útgingið",
+    "postedAt": "Lagt út {{date}}",
+    "updatedAt": "Rættað {{date}}",
+    "expiresAt": "Gongur út {{date}}",
+    "category": {
+      "general": "Vanligur",
+      "maintenance": "Skilahald",
+      "waterSupply": "Vatnveitingar",
+      "billing": "Fakturering",
+      "urgent": "Skund"
+    },
+    "form": {
+      "addTitle": "Nýggj kunning",
+      "editTitle": "Rætta kunngerð",
+      "addSubtitle": "Íbúgvarnir síggja hetta á teirra Fráboðanarsíðu, og øll, sum hava push-boð virknar, fáa boð beinanvegin.",
+      "editSubtitle": "Rættingar dagføra fráboðanina uppá pláss. Íbúgvar fáa ikki fráboðan aftur.",
+      "title": "Heiti",
+      "category": "Flokkur",
+      "expiresAt": "Gongur út (valfrítt)",
+      "body": "Boð",
+      "pinned": "Pinna til ovastu fráboðanir hjá íbúgvum",
+      "requiredFields": "Vinarliga skriva heiti og boð.",
+      "saveError": "Kundi ikki bjarga hesi fráboðan. Vinarliga kanna smálutirnar.",
+      "publish": "Útgeva"
+    },
+    "confirm": {
+      "title": "Strika fráboðan?",
+      "body": "\"{{title}}\" verður strikað fyri allar íbúgvar. Hetta kann ikki gerast aftur.",
+      "delete": "Strúka burtur",
+      "deleting": "Strika..."
     }
   }
 }

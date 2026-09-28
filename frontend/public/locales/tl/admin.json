@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard ng Apartment",
     "titleFallback": "Dashboard ng iyong Apartment",
     "subtitle": "Buod ng pagpapatakbo para sa sub-metering ng utility ng tubig at pagkonsumo ng sambahayan.",
-    "comingSoon": "Paparating na",
     "manageCommunity": "Pamahalaan ang Komunidad",
     "noUsageReadings": "Wala pang naitalang pagbabasa ng paggamit.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Pinakabagong naitala na buwan ({{month}})",
       "noReadingsYet": "Wala pang naitalang pagbabasa",
       "pendingAlerts": "Mga Nakabinbing Alerto",
-      "anomalyPreview": "Preview ng anomaly detection — hindi pa available"
+      "reviewAlerts": "Mga alerto sa aktibong pagtagas / paggamit — suriin ngayon",
+      "noActiveAlerts": "Walang aktibong alerto"
     },
     "actions": {
       "label": "Mabilis na Administratibong Pagkilos",
       "uploadReadings": "Mag-upload ng Mga Pagbasa ng Metro",
       "configureTariffs": "I-configure ang Mga Taripa",
-      "reportsNotBuilt": "Ang mga ulat ay hindi pa nagagawa",
       "downloadReports": "I-download ang Mga Ulat ng System"
     },
     "chart": {
       "title": "Paghahambing ng Buwanang Pagkonsumo (kL)",
       "subtitle": "Huling {{months}} buwan: target kumpara sa aktwal na pagkonsumo.",
-      "targetSeries": "Target (preview)",
       "actualSeries": "Aktwal"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Hindi ma-save ang iyong profile. Pakisubukang muli.",
     "apartmentSaveError": "Hindi ma-save ang mga detalye ng apartment. Pakisubukang muli.",
     "specsTitle": "Mga Detalye ng Profile",
-    "photoUnavailable": "Hindi pa available ang pag-upload ng larawan",
-    "changePhoto": "Baguhin ang Larawan",
-    "deletePhoto": "Tanggalin",
-    "photoHint": "JPG o PNG. Max na laki 2MB.",
     "saveProfile": "I-save ang Profile",
     "apartmentTitle": "Mga Detalye ng Apartment",
     "saveApartment": "I-save ang Mga Detalye ng Apartment",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Hindi pa available ang two-factor authentication",
       "twoFactorAria": "Dalawang-factor na pagpapatotoo (preview lamang)",
       "sessionsLabel": "Mga Aktibong Admin Session",
-      "sessionsEmpty": "Hindi pa available ang pagsubaybay sa session — isa itong preview ng paparating na layout."
-    }
+      "sessionsEmpty": "Hindi pa available ang pagsubaybay sa session — isa itong preview ng paparating na layout.",
+      "previewNote": "Preview lang: hindi pa available ang two-factor authentication at session tracking."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Baguhin ang Password"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Mga Resident Ticket",
       "subtitle": "Mga tiket para sa suporta at mga alalahanin na iniharap sa iyo ng mga residente sa iyong komunidad."
+    }
+  },
+  "reports": {
+    "loadError": "Hindi ma-load ang ulat ng komunidad. Pakisubukang muli.",
+    "pdfError": "Hindi ma-download ang PDF ulat. Pakisubukang muli.",
+    "loading": "Nilo-load ang ulat…",
+    "empty": "Walang mga sambahayan na may data sa hanay na ito.",
+    "noMatch": "Walang kabahayan ang tumutugma sa \"{{search}}\".",
+    "searchPlaceholder": "Salain ayon sa bahay, residente, o metro blg.",
+    "downloadCsv": "I-download ang CSV",
+    "downloadPdf": "I-download ang PDF Buod",
+    "downloadingPdf": "Inihahanda ang PDF…",
+    "ranges": {
+      "threeMonths": "Huling 3 buwan",
+      "sixMonths": "Huling 6 na buwan",
+      "twelveMonths": "Huling 12 buwan",
+      "custom": "Custom na hanay"
+    },
+    "customRange": {
+      "from": "Mula sa",
+      "to": "Upang",
+      "hint": "Pumili ng simula at pagtatapos ng buwan para i-load ang ulat."
+    },
+    "cards": {
+      "totalConsumption": "Kabuuang Pagkonsumo",
+      "households": "Sa buong {{total}} kabahayan",
+      "avgMonthly": "Avg Buwanang Pagkonsumo",
+      "communityWide": "Sa buong komunidad, bawat buwan",
+      "billed": "Sinisingil",
+      "finalizedOnly": "Mga na-finalize at naka-archive na cycle lang",
+      "paid": "Binayaran",
+      "invoices": "{{total}} mga invoice na ibinigay",
+      "outstanding": "Natitirang",
+      "unpaidInvoices": "{{total}} mga hindi nabayarang invoice",
+      "collectionRate": "Rate ng Koleksyon"
+    },
+    "costs": {
+      "title": "Mga Gastos kumpara sa Kita",
+      "commonArea": "Sinisingil ang mga singil sa karaniwang lugar",
+      "bulkCost": "Gastos sa pagbili ng maramihang tubig",
+      "bulkVolume": "Bumili ng maramihang tubig",
+      "bulkCount": "{{total}} mga pagbili",
+      "billedMinusBulk": "Sinisingil na kita na binawasan ang maramihang gastos",
+      "note": "Ang mga maramihang pagbili ay sinusubaybayan para sa visibility ng gastos at hindi direktang sinisingil sa mga sambahayan."
+    },
+    "top": {
+      "title": "Mga Nangungunang Konsyumer",
+      "empty": "Walang naitala na pagkonsumo sa hanay na ito."
+    },
+    "charts": {
+      "consumptionTitle": "Buwanang Pagkonsumo",
+      "consumptionSeries": "Pagkonsumo",
+      "billingTitle": "Sinisingil kumpara sa Binabayaran kumpara sa Bultuhang Gastos",
+      "billedSeries": "Sinisingil",
+      "paidSeries": "Binayaran",
+      "bulkSeries": "Bultuhang halaga ng pagbili",
+      "empty": "Walang data para sa hanay na ito."
+    },
+    "sort": {
+      "label": "Pagbukud-bukurin ayon sa",
+      "toggleDirection": "I-toggle ang direksyon ng pag-uuri",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "table": {
+      "house": "Bahay",
+      "resident": "Residente",
+      "meter": "Metro",
+      "totalKl": "Kabuuan kL",
+      "avgMonthlyKl": "Avg Buwanang kL",
+      "billed": "Sinisingil",
+      "paid": "Binayaran",
+      "outstanding": "Natitirang"
+    }
+  },
+  "announcements": {
+    "loadError": "Hindi ma-load ang mga anunsyo. Pakisubukang muli.",
+    "removeError": "Hindi matanggal ang anunsyo na ito. Pakisubukang muli.",
+    "loading": "Nilo-load ang mga anunsyo…",
+    "empty": "Wala pang anunsyo. I-click ang \"Bagong Anunsyo\" upang abisuhan ang iyong mga residente.",
+    "count": "Mga Anunsyo: {{total}}",
+    "newButton": "+ Bagong Anunsyo",
+    "pinned": "Naka-pin",
+    "expired": "Nag-expire na",
+    "postedAt": "Na-post {{date}}",
+    "updatedAt": "Na-edit {{date}}",
+    "expiresAt": "Mag-e-expire {{date}}",
+    "category": {
+      "general": "Heneral",
+      "maintenance": "Pagpapanatili",
+      "waterSupply": "Supply ng Tubig",
+      "billing": "Pagsingil",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "addTitle": "Bagong Anunsyo",
+      "editTitle": "I-edit ang Anunsyo",
+      "addSubtitle": "Nakikita ito ng mga residente sa kanilang page ng Mga Notification, at ang sinumang may naka-enable na push notification ay aabisuhan kaagad.",
+      "editSubtitle": "Ina-update ng mga pag-edit ang anunsyo sa lugar. Hindi na inaabisuhan muli ang mga residente.",
+      "title": "Pamagat",
+      "category": "Kategorya",
+      "expiresAt": "Mag-e-expire (opsyonal)",
+      "body": "Mensahe",
+      "pinned": "I-pin sa itaas ng mga anunsyo ng mga residente",
+      "requiredFields": "Mangyaring maglagay ng pamagat at mensahe.",
+      "saveError": "Hindi ma-save ang anunsyo na ito. Mangyaring suriin ang mga detalye.",
+      "publish": "I-publish"
+    },
+    "confirm": {
+      "title": "Tanggalin ang anunsyo?",
+      "body": "\"{{title}}\" ay aalisin para sa lahat ng residente. Hindi na ito maaaring bawiin.",
+      "delete": "Tanggalin",
+      "deleting": "Tinatanggal…"
     }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Vstupenky na podporu",
     "subtitle": "Podpořte vstupenky a obavy vznesené obyvateli a správci komunit na celé platformě."
+  },
+  "profile": {
+    "accountTitle": "Účet",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Změňte heslo",
+    "loadError": "Nelze načíst váš profil. Zkuste to prosím znovu.",
+    "fields": {
+      "fullName": "Celé jméno",
+      "email": "E-mail",
+      "role": "Role",
+      "roleValue": "Správce systému"
+    }
   }
 }

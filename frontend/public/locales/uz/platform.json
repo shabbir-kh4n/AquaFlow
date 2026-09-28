@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Qo'llab-quvvatlash chiptalari",
     "subtitle": "Platforma bo'ylab aholi va hamjamiyat ma'murlari tomonidan bildirilgan chiptalar va tashvishlarni qo'llab-quvvatlash."
+  },
+  "profile": {
+    "accountTitle": "Hisob",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Parolni o'zgartirish",
+    "loadError": "Profilingiz yuklanmadi. Iltimos, qayta urinib koʻring.",
+    "fields": {
+      "fullName": "To'liq ism",
+      "email": "Elektron pochta",
+      "role": "Rol",
+      "roleValue": "Tizim administratori"
+    }
   }
 }

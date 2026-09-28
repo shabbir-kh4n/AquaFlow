@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Prestu",
     "welcome": {
       "greeting": "Salutami {{name}},",
       "greetingFallback": "Salutami,",
       "title": "Stà vicinu à a storia di l'acqua di a vostra casa.",
-      "subtitle": "L'infurmazioni di usu è di fatturazione appariscenu quì cum'è a vostra cumunità registra e letture.",
-      "viewBadges": "Vede Eco-Badges"
+      "subtitle": "L'infurmazioni di usu è di fatturazione appariscenu quì cum'è a vostra cumunità registra e letture."
     },
     "stats": {
       "todaysUsage": "L'usu d'oghje",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Usu misuratu + carichi spartuti, {{month}}",
       "estimatedBillHint": "Basatu nantu à u cunsumu misuratu di stu mese è i carichi spartuti",
       "savings": "Risparmi versus Building Avg",
-      "savingsValue": "{{percent}}% di menu",
-      "savingsPreview": "Preview solu - paragone micca ancu in diretta"
+      "savingsLess": "{{percent}}% di menu",
+      "savingsMore": "{{percent}}% Più",
+      "savingsEqual": "U listessu cum'è a media",
+      "savingsDetail": "{{household}} kL vs {{average}} kL media, {{month}}",
+      "savingsNoData": "Nisun paragone di edifiziu ancora"
     },
     "consumption": {
       "eyebrow": "Cunsumu",
       "title": "Cunsumu di ogni ghjornu (Ultime 14 Letture)",
       "seriesName": "Cunsumu",
       "empty": "Nisuna lettura ancora registrata."
-    },
-    "breakdown": {
-      "eyebrow": "Rupture",
-      "title": "Spartimentu di l'usu",
-      "bathroom": "Bagnu",
-      "kitchen": "Cucina",
-      "garden": "Giardinu / Balcone",
-      "other": "Altru / Lavanderia"
     },
     "billing": {
       "eyebrow": "Facturazione",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "U livellu di prezzu",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Distribuzione di l'area cumuna",
-      "commonAreaPreview": "Distribuzione di l'area cumuna (anteprima)",
       "invoiceTotal": "{{period}} fattura tutale",
       "estimatedCharge": "Carica stimata attuale",
       "commonAreaBreakdown": "Ripartizione di l'area cumuna",
-      "payPreview": "Pay Bill Preview",
-      "payUnavailable": "U mutore di fatturazione ùn hè ancu dispunibule"
+      "commonAreaEstimate": "Distribuzione di l'area cumuna (stima)",
+      "payOutstanding": "Paga eccessivamente ₹{{amount}}",
+      "payAllDescription": "Tutte e fatture impagate ({{number}})"
     },
     "tips": {
       "eyebrow": "Cunsiglii",
@@ -66,8 +59,7 @@
     "empty": "Nisuna lettura ancora registrata. Una volta chì a vostra cumunità registra una lettura di u metru, si mostrarà quì.",
     "tabs": {
       "lastSixMonths": "L'ultimi 6 mesi",
-      "customRange": "Gamma persunalizata",
-      "comingSoon": "Prestu"
+      "customRange": "Gamma persunalizata"
     },
     "peakDay": "U ghjornu di punta:",
     "lowestDay": "U ghjornu più bassu:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Heatmap di cunsumu ogni ghjornu",
-      "subtitle": "L'intensità di u culore indica i ghjorni di usu pesante (anteprima)."
+      "subtitle": "L'intensità di u culore indica i ghjorni di usu pesante (anteprima).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: nisuna dati",
+      "less": "Meno",
+      "more": "Più",
+      "noData": "Nisuna dati"
     },
     "ranking": {
       "title": "Classificazione di i pari di a cumunità",
-      "subtitle": "U vostru rangu cumparatu cù unità simili (anteprima).",
-      "ecoSaver": "Eco Saver attivu",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unità {{number}}",
-      "yourUnit": "A vostra unità",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Tu)"
+      "subtitle": "A vostra casa versus ogni casa in u vostru appartamentu per {{month}}. L'usu più bassu hè più altu.",
+      "headline": "#{{rank}} di {{total}} famiglie",
+      "percentile": "Avete usatu menu acqua chè {{percent}}% di i vostri vicini.",
+      "min": "U più bassu",
+      "median": "Mediana",
+      "max": "U più altu",
+      "youRow": "#{{rank}} Tu",
+      "neighbourRow": "#{{rank}} Vicinu",
+      "privacyNote": "I vicini sò anonimi. I numeri di casa è i nomi ùn sò mai mostrati.",
+      "empty": "Ùn ci hè ancora abbastanza dati per classificà a vostra famiglia."
+    },
+    "range": {
+      "from": "Da",
+      "to": "À",
+      "invalid": "U mese di principiu ùn deve esse dopu à u mese di fine.",
+      "noData": "Nisuna dati di cunsumu in questa gamma."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Ciclu di fattura: {{period}}",
       "allPaid": "Tutte e fatture sò pagate",
       "payTotal": "Pay Total Outstanding",
-      "payTotalUnavailable": "U pagamentu in linea ùn hè micca dispunibule ancu - saldete e fatture direttamente cù u vostru amministratore di a cumunità",
       "downloadSummary": "Scaricate Bill Summary",
-      "downloadSummaryUnavailable": "U scaricamentu di u riassuntu di Bill ùn hè micca dispunibule ancu"
+      "payAllDescription": "Tutte e fatture impagate ({{number}})"
     },
     "history": {
       "title": "Storia di a fattura",
-      "exportCsv": "Esporta tuttu à CSV",
-      "exportUnavailable": "CSV esportazione ùn hè ancu dispunibile"
+      "exportCsv": "Esporta tuttu à CSV"
     },
     "table": {
       "cycle": "Ciclu",
@@ -148,6 +151,17 @@
       "description": "U pagamentu in linea ùn hè ancu dispunibule - e fatture sò saldate direttamente cù u vostru amministratore di a cumunità.",
       "manage": "Gestisce i metudi di pagamentu",
       "manageUnavailable": "I metudi di pagamentu ùn sò ancu dispunibili"
+    },
+    "csv": {
+      "cycle": "Periudu di fattura",
+      "consumption": "Cunsumu (kL)",
+      "baseAmount": "A quantità di basa",
+      "tariffAmount": "A quantità di tariffu",
+      "commonAreaAmount": "A quantità di l'area cumuna",
+      "totalAmount": "A quantità tutale",
+      "paid": "Pagatu",
+      "paidAt": "Pagatu à",
+      "generatedAt": "Generatu à"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Per piacè ùn appughjà micca in daretu o rinfriscà sta pagina",
     "success": "Pagamentu successu",
     "error": "Qualcosa hè andatu male cunfirmendu u vostru pagamentu. Per piacè pruvate di novu.",
-    "retry": "Riprova"
+    "retry": "Riprova",
+    "simulationNotice": "Scadenza simulata solu per a dimostrazione. Nisun pagamentu veru hè fattu è ùn sò micca pagati soldi."
   },
   "notifications": {
     "loadError": "Ùn pudite micca caricate e vostre notificazioni. Per piacè pruvate di novu.",
@@ -213,6 +228,25 @@
       "notConfigured": "E notificazioni push ùn sò micca cunfigurate ancu. Cuntattate u vostru amministratore.",
       "enableError": "Ùn pudia micca attivà e notificazioni push. Per piacè pruvate di novu.",
       "disableError": "Ùn pudia micca disattivà e notificazioni push. Per piacè pruvate di novu."
+    },
+    "tabs": {
+      "alerts": "Alerts",
+      "announcements": "Annunci"
+    },
+    "announcements": {
+      "loadError": "Impossibile caricare l'annunzii. Per piacè pruvate di novu.",
+      "loading": "Caricamentu di l'annunzii…",
+      "empty": "Nisun annunziu da u vostru amministratore di a cumunità avà.",
+      "pinned": "Appuntatu",
+      "postedAt": "Postatu {{date}}",
+      "expiresAt": "Finu à {{date}}",
+      "category": {
+        "general": "Generale",
+        "maintenance": "Mantenimentu",
+        "waterSupply": "Fornitura d'acqua",
+        "billing": "Facturazione",
+        "urgent": "Urgente"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Desk di supportu è preoccupazioni per i residenti",
     "subtitle": "Inviate rapporti di perdite d'acqua, richieste di calibrazione di metru, o dumande di fatturazione direttamente à u vostru amministratore di a cumunità è / o l'amministratore di u sistema.",
     "emptyCreateHint": "Descrivite u vostru prublema o preoccupazione quì sottu, è sceglite quale deve trattà."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "L'ultimi 3 mesi",
+      "sixMonths": "L'ultimi 6 mesi",
+      "twelveMonths": "L'ultimi 12 mesi",
+      "custom": "Gamma persunalizata"
+    },
+    "customRange": {
+      "from": "Da",
+      "to": "À",
+      "hint": "Sceglite un mese di principiu è di fine per vede u vostru rapportu."
+    },
+    "loading": "Carica u vostru rapportu...",
+    "loadError": "Ùn pudia micca carica u vostru rapportu. Per piacè pruvate di novu.",
+    "pdfError": "Ùn pudia micca scaricà a dichjarazione. Per piacè pruvate di novu.",
+    "downloading": "Scaricamentu…",
+    "downloadCsv": "Scaricate CSV",
+    "downloadStatement": "Scaricate a Dichjarazione PDF",
+    "period": "Periudu di rapportu: {{from}} à {{to}}",
+    "cards": {
+      "totalUsage": "Usu tutale",
+      "avgMonthly": "Utilizzu mediu mensile",
+      "avgMonthlyHint": "À traversu mesi cù letture registrate",
+      "change": "Cambia versu u Periudu Precedente",
+      "changeHint": "{{previous}} in {{from}} à {{to}}",
+      "changeNoData": "Nisun usu in u periodu precedente per paragunà",
+      "totalBilled": "Total fatturatu",
+      "totalPaid": "Total Pagatu",
+      "outstanding": "Eccezziunale"
+    },
+    "chart": {
+      "title": "Usu mensuale è fattura",
+      "subtitle": "I bars mostranu u cunsumu (kL); a linea mostra a quantità fatturata (₹).",
+      "consumption": "Cunsumu",
+      "billed": "fatturatu"
+    },
+    "table": {
+      "title": "Ripartizione di mese per mese",
+      "month": "Mese",
+      "consumption": "Cunsumu (kL)",
+      "billed": "fatturatu",
+      "paid": "Pagatu",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Pagatu",
+      "unpaid": "Impagatu",
+      "notBilled": "Ùn fatturatu"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Dettagli di u contu",
+    "managedNote": "U vostru amministratore di a cumunità gestisce questi dettagli. Cuntattateli s'ellu ci vole à cambià qualcosa.",
+    "loading": "Carica u vostru prufilu…",
+    "loadError": "Ùn pudia micca carica u vostru prufilu. Per piacè pruvate di novu.",
+    "notSet": "Micca stabilitu",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Cambia password",
+    "fields": {
+      "fullName": "Nome interu",
+      "email": "E-mail",
+      "phone": "telefonu",
+      "houseNumber": "Numeru di casa",
+      "meterNumber": "numeru di metru",
+      "community": "Cumunità",
+      "flatSize": "Dimensione flat",
+      "joined": "Aghjunghjite"
+    }
   }
 }

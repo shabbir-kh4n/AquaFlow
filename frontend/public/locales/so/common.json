@@ -222,6 +222,14 @@
         "title": "Taageero/Walaacyo",
         "subtitle": "Kor u qaad tigidhadaada Maamulka Nidaamka, ama wax ka qabato welwelka ay dadka deegaankaagu kuu soo jeediyeen."
       },
+      "reports": {
+        "title": "Warbixinada Bulshada",
+        "subtitle": "Isticmaalka, biilasha, ururinta, iyo tirada iibka badan ee beeshaada."
+      },
+      "announcements": {
+        "title": "Ogaysiisyo",
+        "subtitle": "U daabac ogeysiisyada bulshada oo dhan ee deganayaashaada."
+      },
       "profile": {
         "title": "Dejinta & Xogta",
         "subtitle": "Maamul faahfaahinta akoonkaaga iyo macluumaadka aqalka."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Maamulka Bulshada",
     "notBuilt": "{{label}} weli lama dhisin",
     "searchPlaceholder": "Wax ka raadi..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Warbixinada",
-      "description": "Isticmaalka, biilasha, iyo warbixinta ilaalinta bulshadaada."
-    },
-    "announcements": {
-      "title": "Ogaysiisyo",
-      "description": "U dir ogaysiisyada bulshada oo dhan deganayaashaada."
-    }
   },
   "comingSoon": {
     "title": "{{title}} ayaa iman doona dhawaan"
@@ -261,7 +259,9 @@
       "billing": "Biilasha & qaansheegyada",
       "notifications": "Ogeysiisyada",
       "recommendations": "Talooyin",
-      "support": "Taageero/Walaacyo"
+      "support": "Taageero/Walaacyo",
+      "reports": "Isticmaalkaaga & warbixinaha kharash bixinta",
+      "profile": "My profile"
     },
     "defaultTitle": "Dashboardka degane",
     "navLabel": "Navigation degane",
@@ -277,7 +277,8 @@
       "communities": "Bulshooyinka",
       "reports": "Warbixinada",
       "supportTickets": "Tigidhada taageerada",
-      "systemStatus": "Xaaladda Nidaamka"
+      "systemStatus": "Xaaladda Nidaamka",
+      "profile": "Profile"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Xaaladda Nidaamka",
         "subtitle": "Isku xirnaanta dhabarka iyo caafimaadka aasaasiga ah ee wakhtiga runtu."
+      },
+      "profile": {
+        "title": "Profile",
+        "subtitle": "Koontadaada, avatar iyo eraygaaga sirta ah"
       }
     },
     "fallbackName": "Maamulka Nidaamka",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "Raadi luqadda…",
     "noMatches": "Ma jiraan wax tabar ah"
+  },
+  "avatarPicker": {
+    "label": "Dooro avatar",
+    "hint": "Dooro mid ka mid ah avatars-ka hore, ama isticmaal xarfaha hore.",
+    "change": "Beddel",
+    "cancel": "Jooji",
+    "useInitials": "Isticmaal xarfaha hore",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Badbaadi avatar",
+    "saving": "Keydinaya…",
+    "saved": "Avatar waa la cusboonaysiiyay",
+    "saveError": "Ma cusboonaysiin kari waayay avatarkaaga. Fadlan isku day mar kale"
+  },
+  "changePassword": {
+    "current": "Furaha hadda jira",
+    "new": "Furaha cusub",
+    "confirm": "Xaqiiji erayga sirta ah ee cusub",
+    "hint": "Ugu yaraan {{min}} jilayaal",
+    "tooShort": "Erayga cusub waa inuu noqdaa ugu yaraan {{min}} xarfo.",
+    "mismatch": "Furaha cusubi isma dhigmaan",
+    "sameAsCurrent": "Furaha cusubi waa inuu ka duwan yahay eraygaaga sirta ah ee hadda.",
+    "submit": "Cusbooneysii erayga sirta ah",
+    "saving": "Cusboonaysiinta…",
+    "success": "Furahaaga sirta ah waa la cusboonaysiiyay",
+    "error": "Ma cusboonaysiin kari waayay eraygaaga sirta ah Fadlan isku day mar kale"
+  },
+  "search": {
+    "kindPage": "Bogga",
+    "kindRecord": "Natiijada",
+    "loading": "Raadinta…",
+    "noResults": "Ma jiraan wax tabar ah",
+    "recordsUnavailable": "Bogagga kaliya ayaa hadda la raadin karaa",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "La bixiyay",
+    "unpaid": "Lacag la'aan"
   }
 }

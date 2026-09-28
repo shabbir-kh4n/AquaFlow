@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard ụlọ",
     "titleFallback": "Dashboard ụlọ gị",
     "subtitle": "Nchịkọta ọrụ maka sub-metering ọrụ mmiri na oriri ezinụlọ.",
-    "comingSoon": "Na-abịa oge adịghị anya",
     "manageCommunity": "Jikwaa Ogbe",
     "noUsageReadings": "Edekọbeghị agụ ojiji.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Latest recorded month ({{month}})",
       "noReadingsYet": "Enweghị agụ akwụkwọ edekọbeghị",
       "pendingAlerts": "Mkpu na-echere",
-      "anomalyPreview": "Nhụchalụ nchọpụta anomaly - adịbeghị"
+      "reviewAlerts": "Ngosipụta ntapu / ojiji na-arụ ọrụ - nyochaa ugbu a",
+      "noActiveAlerts": "Enweghị ọkwa na-arụ ọrụ"
     },
     "actions": {
       "label": "Mmemme nchịkwa ngwa ngwa",
       "uploadReadings": "Bulite Ọgụgụ Mita",
       "configureTariffs": "Hazie tarifu",
-      "reportsNotBuilt": "Ewubebeghị akụkọ",
       "downloadReports": "Budata Akụkọ Sistemụ"
     },
     "chart": {
       "title": "Monthly Consumption Comparison (kL)",
       "subtitle": "Last {{months}} months: target vs. actual consumption.",
-      "targetSeries": "Ebumnuche (nhụchalụ)",
       "actualSeries": "N'ezie"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Enweghị ike ịchekwa profaịlụ gị. Biko nwaa ọzọ.",
     "apartmentSaveError": "Enweghị ike ichekwa nkọwa ụlọ. Biko nwaa ọzọ.",
     "specsTitle": "Nkọwapụta profaịlụ",
-    "photoUnavailable": "Nbulite foto adịghị ugbu a",
-    "changePhoto": "Gbanwee Foto",
-    "deletePhoto": "Hichapụ",
-    "photoHint": "JPG ma ọ bụ PNG. Oke kachasị 2MB.",
     "saveProfile": "Chekwa profaịlụ",
     "apartmentTitle": "Nkọwa ụlọ",
     "saveApartment": "Chekwaa nkọwa ụlọ",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Nnwale ihe abụọ adịbeghị",
       "twoFactorAria": "Nnwale ihe abụọ (naanị nhụchalụ)",
       "sessionsLabel": "Oge Admin nọ n'ọrụ",
-      "sessionsEmpty": "Nsochi oge adịbeghị - nke a bụ nleba anya nke nhazi na-abịa."
-    }
+      "sessionsEmpty": "Nsochi oge adịbeghị - nke a bụ nleba anya nke nhazi na-abịa.",
+      "previewNote": "Naanị nhụchalụ: nyocha ihe abụọ na nsochi nnọkọ adịghị ugbu a."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Gbanwee okwuntughe"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tiketi ndị bi",
       "subtitle": "Tiketi nkwado na nchegbu ndị bi na obodo gị agwala gị."
+    }
+  },
+  "reports": {
+    "loadError": "Enweghị ike ibunye akụkọ obodo. Biko nwaa ọzọ.",
+    "pdfError": "Enweghị ike ibudata akụkọ PDF. Biko nwaa ọzọ.",
+    "loading": "Na-ebu akụkọ…",
+    "empty": "Enweghị ezinụlọ nwere data na mpaghara a.",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "Wepụta site n'ụlọ, onye bi, ma ọ bụ mita mba.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Budata PDF Nchịkọta",
+    "downloadingPdf": "Na-akwado PDF…",
+    "ranges": {
+      "threeMonths": "Ọnwa 3 gara aga",
+      "sixMonths": "Ọnwa 6 gara aga",
+      "twelveMonths": "Ọnwa iri na abụọ gara aga",
+      "custom": "Omenala nso"
+    },
+    "customRange": {
+      "from": "Site na",
+      "to": "Iji",
+      "hint": "Họrọ ma mmalite na ọnwa ngwụcha iji buo akụkọ ahụ."
+    },
+    "cards": {
+      "totalConsumption": "Mkpokọta oriri",
+      "households": "N'ofe {{total}} ezinaụlọ",
+      "avgMonthly": "Nkeji Oriri kwa ọnwa",
+      "communityWide": "Gburugburu obodo, kwa ọnwa",
+      "billed": "Agbara ya",
+      "finalizedOnly": "Naanị okirikiri emechachara na echekwara",
+      "paid": "Akwụ ụgwọ",
+      "invoices": "{{total}} ewepụtala akwụkwọ ọnụahịa",
+      "outstanding": "pụtara ìhè",
+      "unpaidInvoices": "{{total}} akwụkwọ ọnụahịa akwụghị ụgwọ",
+      "collectionRate": "Ọnụego mkpokọta"
+    },
+    "costs": {
+      "title": "Ọnụ ego vs. Ego ha nwetara",
+      "commonArea": "A na-akwụ ụgwọ ụgwọ mpaghara ọnụ",
+      "bulkCost": "Ọnụ ego ịzụta mmiri buru ibu",
+      "bulkVolume": "A zụrụ nnukwu mmiri",
+      "bulkCount": "{{total}} ịzụrụ ihe",
+      "billedMinusBulk": "Ego a na-akwụ ụgwọ na-ewepu nnukwu ọnụ ahịa",
+      "note": "A na-enyocha ihe ịzụrụ nnukwu ego maka ọhụhụ ọnụ ahịa yana anaghị akwụ ụgwọ ya n'ụlọ ozugbo."
+    },
+    "top": {
+      "title": "Ndị ahịa kacha elu",
+      "empty": "Enweghị oriri ọ bụla edekọtara na nso nso a."
+    },
+    "charts": {
+      "consumptionTitle": "Oriri kwa ọnwa",
+      "consumptionSeries": "Oriri",
+      "billingTitle": "Akwụ ụgwọ vs. akwụ ụgwọ vs. Ọnụ ego buru ibu",
+      "billedSeries": "Agbara ya",
+      "paidSeries": "Akwụ ụgwọ",
+      "bulkSeries": "Ọnụ ahịa ịzụrụ nnukwute",
+      "empty": "Enweghị data maka oke a."
+    },
+    "sort": {
+      "label": "Hazie site na",
+      "toggleDirection": "Gbanwee ụzọ nhazi",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Ụlọ",
+      "resident": "Onye bi",
+      "meter": "Mita",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Nkeji kwa ọnwa kL",
+      "billed": "Agbara ya",
+      "paid": "Akwụ ụgwọ",
+      "outstanding": "pụtara ìhè"
+    }
+  },
+  "announcements": {
+    "loadError": "Enweghị ike ibu ọkwa ọkwa. Biko nwaa ọzọ.",
+    "removeError": "Enweghị ike ihichapụ ọkwa a. Biko nwaa ọzọ.",
+    "loading": "Na-ebu ọkwa…",
+    "empty": "Enweghị ọkwa ma. Pịa \"Ọkwa Ọhụrụ\" iji mee ka ndị bi gị mara.",
+    "count": "Ọkwa: {{total}}",
+    "newButton": "+ Ọhụrụ Ọkwa",
+    "pinned": "Etinyere",
+    "expired": "Kubie ume",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "Izugbe",
+      "maintenance": "Nlekọta",
+      "waterSupply": "Nkwanye mmiri",
+      "billing": "Ịgba ụgwọ",
+      "urgent": "Ngwa ngwa"
+    },
+    "form": {
+      "addTitle": "Ọhụrụ ọkwa",
+      "editTitle": "Dezie ọkwa",
+      "addSubtitle": "Ndị bi na-ahụ nke a na ibe ngosi ha, a na-agwa onye ọ bụla nwere ọkwa ntinye aka ozugbo.",
+      "editSubtitle": "Na-edezi na-emelite ọkwa n'ebe. A naghị agwa ndị bi ebe ahụ ọkwa ọzọ.",
+      "title": "Aha",
+      "category": "Otu",
+      "expiresAt": "Kubie ume (nhọrọ)",
+      "body": "Ozi",
+      "pinned": "Tinye n'elu ọkwa ndị bi na ya",
+      "requiredFields": "Biko tinye aha na ozi.",
+      "saveError": "Enweghị ike ichekwa ọkwa a. Biko lelee nkọwa.",
+      "publish": "Bipụta"
+    },
+    "confirm": {
+      "title": "Hichapụ ọkwa?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "Hichapụ",
+      "deleting": "Na-ehichapụ…"
     }
   }
 }

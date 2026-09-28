@@ -6,14 +6,16 @@ public record AdminProfileResponse(
         Long id,
         String fullName,
         String email,
-        String phone
+        String phone,
+        String avatarKey
 ) {
     public static AdminProfileResponse from(CommunityAdmin admin) {
         return new AdminProfileResponse(
                 admin.getId(),
                 admin.getFullName(),
                 admin.getEmail(),
-                admin.getPhone()
+                admin.getPhone(),
+                admin.getAvatarKey()
         );
     }
 }

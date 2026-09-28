@@ -222,6 +222,14 @@
         "title": "サポート/懸念事項",
         "subtitle": "自分のチケットをシステム管理者に提出するか、住民から寄せられた懸念事項に対処してください。"
       },
+      "reports": {
+        "title": "コミュニティレポート",
+        "subtitle": "コミュニティの消費、請求、コレクション、および一括購入の数字。"
+      },
+      "announcements": {
+        "title": "お知らせ",
+        "subtitle": "コミュニティ全体の通知を住民に発行します。"
+      },
       "profile": {
         "title": "設定とプロフィール",
         "subtitle": "アカウントの詳細とアパート情報を管理します。"
@@ -231,16 +239,6 @@
     "fallbackCommunity": "コミュニティ管理者",
     "notBuilt": "{{label}} はまだ構築されていません",
     "searchPlaceholder": "何でも検索してください…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "レポート",
-      "description": "コミュニティの消費、請求、保全レポート。"
-    },
-    "announcements": {
-      "title": "お知らせ",
-      "description": "コミュニティ全体のお知らせを住民に送信します。"
-    }
   },
   "comingSoon": {
     "title": "{{title}} がもうすぐ登場します"
@@ -261,7 +259,9 @@
       "billing": "請求書と請求書",
       "notifications": "通知",
       "recommendations": "推奨事項",
-      "support": "サポート/懸念事項"
+      "support": "サポート/懸念事項",
+      "reports": "使用状況と支出のレポート",
+      "profile": "私のプロフィール"
     },
     "defaultTitle": "常駐ダッシュボード",
     "navLabel": "居住者ナビゲーション",
@@ -277,7 +277,8 @@
       "communities": "コミュニティ",
       "reports": "レポート",
       "supportTickets": "サポートチケット",
-      "systemStatus": "システムステータス"
+      "systemStatus": "システムステータス",
+      "profile": "プロフィール"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "システムステータス",
         "subtitle": "バックエンドの接続と基本的なランタイムの健全性。"
+      },
+      "profile": {
+        "title": "プロフィール",
+        "subtitle": "あなたのアカウント、アバター、パスワード"
       }
     },
     "fallbackName": "システム管理者",
@@ -308,5 +313,40 @@
     "buttonLabel": "言語: {{language}}",
     "searchPlaceholder": "言語を検索…",
     "noMatches": "一致しません"
+  },
+  "avatarPicker": {
+    "label": "アバターを選択してください",
+    "hint": "プリセットのアバターの 1 つを選択するか、自分のイニシャルを使用します。",
+    "change": "変化",
+    "cancel": "キャンセル",
+    "useInitials": "イニシャルを使用する",
+    "optionLabel": "アバター {{number}}",
+    "save": "アバターの保存",
+    "saving": "保存中…",
+    "saved": "アバターが更新されました",
+    "saveError": "アバターを更新できませんでした。もう一度試してください。"
+  },
+  "changePassword": {
+    "current": "現在のパスワード",
+    "new": "新しいパスワード",
+    "confirm": "新しいパスワードを確認します",
+    "hint": "少なくとも {{min}} 文字。",
+    "tooShort": "新しいパスワードは {{min}} 文字以上である必要があります。",
+    "mismatch": "新しいパスワードが一致しません。",
+    "sameAsCurrent": "新しいパスワードは現在のパスワードとは異なる必要があります。",
+    "submit": "パスワードを更新する",
+    "saving": "更新中…",
+    "success": "パスワードが更新されました。",
+    "error": "パスワードを更新できませんでした。もう一度試してください。"
+  },
+  "search": {
+    "kindPage": "ページ",
+    "kindRecord": "結果",
+    "loading": "検索中…",
+    "noResults": "一致しません",
+    "recordsUnavailable": "現在検索できるのはページのみです。",
+    "invoiceLabel": "請求書 {{period}}",
+    "paid": "有料",
+    "unpaid": "未払い"
   }
 }

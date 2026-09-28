@@ -25,7 +25,6 @@
     "title": "{{community}} Apartment Dashboard",
     "titleFallback": "Tua Duis Dashboard",
     "subtitle": "Summarium operationale ad utilitatem aquarum sub- metering et consumationem familiarem.",
-    "comingSoon": "Veniens cito",
     "manageCommunity": "Curo Community",
     "noUsageReadings": "Nullus adhuc usus lectionum scribitur.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ultimae memoriae mensis ({{month}})",
       "noReadingsYet": "Non tamen memoriae Lectiones",
       "pendingAlerts": "Eviewray Alerts",
-      "anomalyPreview": "Anomalia deprehensio preview - not yet available"
+      "reviewAlerts": "Active Leak / usus summis - review nunc",
+      "noActiveAlerts": "Nulla activae summis montibus"
     },
     "actions": {
       "label": "Velox actiones administrativae",
       "uploadReadings": "Index metri lectionum",
       "configureTariffs": "Configurare Tariffs",
-      "reportsNotBuilt": "Renuntiationes non aedificatur adhuc",
       "downloadReports": "Ratio Download Renuntiationes"
     },
     "chart": {
       "title": "Consumptio Vestibulum Comparatio (kL)",
       "subtitle": "Last {{months}} menses: target vs. ipsa consummatio.",
-      "targetSeries": "Scopum (preview)",
       "actualSeries": "Actualis"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profile tuum non potuisti. Quaeso, iterum conare.",
     "apartmentSaveError": "Apartment details servare non potuit. Quaeso, iterum conare.",
     "specsTitle": "Specifications Profile",
-    "photoUnavailable": "Photo upload is not available yet",
-    "changePhoto": "Mutatio Photo",
-    "deletePhoto": "Delere",
-    "photoHint": "JPG vel PNG. Max amplitudo 2MB.",
     "saveProfile": "Servare Profile",
     "apartmentTitle": "Apartment Details",
     "saveApartment": "Servare Duis Details",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Duo-factor non available tamen authenticas",
       "twoFactorAria": "Duo-factor authenticas (solum praevius)",
       "sessionsLabel": "Active Admin Sessiones",
-      "sessionsEmpty": "Sessio tracking adhuc praesto non est — haec praevisio venturi layouti est."
-    }
+      "sessionsEmpty": "Sessio tracking adhuc praesto non est — haec praevisio venturi layouti est.",
+      "previewNote": "Praevisio tantum: duo-factorum authenticarum et sessionum vestigia nondum in promptu sunt."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Mutatio Password"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Habitans Nullam",
       "subtitle": "Support tesserae et sollicitudines incolarum in communitate vestra ad vos directi sunt."
+    }
+  },
+  "reports": {
+    "loadError": "Non poterant onerare famam communitatis. Quaeso, iterum conare.",
+    "pdfError": "Could not download the PDF report. Please try again.",
+    "loading": "Loading fama…",
+    "empty": "Nullae familiares cum notitia in hac parte complectuntur.",
+    "noMatch": "Familiae nullae aequant \"{{search}}\".",
+    "searchPlaceholder": "Filter by house, incola, or meter no.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Download PDF Summarium",
+    "downloadingPdf": "Praeparans PDF…",
+    "ranges": {
+      "threeMonths": "Last III mensibus",
+      "sixMonths": "Last 6 months",
+      "twelveMonths": "Last XII months",
+      "custom": "Custom range"
+    },
+    "customRange": {
+      "from": "Ex",
+      "to": "Ad",
+      "hint": "Sume et initium et mensem finem, ut famam oneraveris."
+    },
+    "cards": {
+      "totalConsumption": "Totalis Consummatio",
+      "households": "Per {{total}} familiares",
+      "avgMonthly": "Avg Vestibulum Consummatio",
+      "communityWide": "Communitas lata, per mensem",
+      "billed": "Occisus",
+      "finalizedOnly": "Finalised & scrinium cycles solum",
+      "paid": "Paid",
+      "invoices": "{{total}} mercium venditarum latae",
+      "outstanding": "excellens",
+      "unpaidInvoices": "{{total}} mercium insolutis",
+      "collectionRate": "Collectio Rate"
+    },
+    "costs": {
+      "title": "Constat vs. Revenue",
+      "commonArea": "Commune-area criminibus billed",
+      "bulkCost": "Mole aqua emptio pretium",
+      "bulkVolume": "Mole aquam emit",
+      "bulkCount": "{{total}} emptionem",
+      "billedMinusBulk": "Occisus reditus mole minus sumptus",
+      "note": "Molis emptionibus ad visibilitatem sumptus investigantur et ad familiares directe non excipiunt."
+    },
+    "top": {
+      "title": "Top Consumers",
+      "empty": "Nulla consummatio in hac amplitudine exposita."
+    },
+    "charts": {
+      "consumptionTitle": "Menstrua Consummatio",
+      "consumptionSeries": "Consummatio",
+      "billingTitle": "Inoptatus vs. Mole Pretium vs",
+      "billedSeries": "Occisus",
+      "paidSeries": "Paid",
+      "bulkSeries": "Mole emptio pretium",
+      "empty": "Nulla id rhoncus mauris."
+    },
+    "sort": {
+      "label": "Sort by",
+      "toggleDirection": "Toggle generis partem",
+      "asc": "Asc",
+      "desc": "Desc"
+    },
+    "table": {
+      "house": "Domus",
+      "resident": "Incola",
+      "meter": "Meter",
+      "totalKl": "Totalis kL",
+      "avgMonthlyKl": "AVG Menstrua kL",
+      "billed": "Occisus",
+      "paid": "Paid",
+      "outstanding": "excellens"
+    }
+  },
+  "announcements": {
+    "loadError": "Nuntiis onerare non potuit. Quaeso, iterum conare.",
+    "removeError": "Hoc denuntiatio delere non potuit. Quaeso, iterum conare.",
+    "loading": "Loading annuntiationes…",
+    "empty": "Nulla nuntia sed. Preme \"Novum Nuntius\" certiorem te habitant.",
+    "count": "Nuntios: {{total}}",
+    "newButton": "+ Novus Nuntius",
+    "pinned": "adfixum",
+    "expired": "Expiratus",
+    "postedAt": "Missae {{date}}",
+    "updatedAt": "Ediderunt {{date}}",
+    "expiresAt": "Expirat {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Tutela",
+      "waterSupply": "Aquae Supple",
+      "billing": "Billing",
+      "urgent": "Urgente"
+    },
+    "form": {
+      "addTitle": "Novus Nuntius",
+      "editTitle": "Edit Nuntius",
+      "addSubtitle": "Residentes hoc vident in pagina notificationum suarum, et quilibet cum notificationibus impulsus enabled statim notificatur.",
+      "editSubtitle": "Conlationes renovationis in loco pronuntiatum est. Residentibus iterum notificatur.",
+      "title": "Titulus",
+      "category": "Categoria",
+      "expiresAt": "Vivamus (libitum)",
+      "body": "Nuntius",
+      "pinned": "Acum in vertice habitant, annuntiationes",
+      "requiredFields": "Please enter the title and message.",
+      "saveError": "Hoc denuntiatio salvare non potuit. Quaeso reprehendo singula.",
+      "publish": "Publicare"
+    },
+    "confirm": {
+      "title": "Delere denuntiatio?",
+      "body": "\"{{title}}\" pro omnibus habitantibus tolletur. Hoc fieri infectum non potest.",
+      "delete": "Delere",
+      "deleting": "Deletio…"
     }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tugipiletid",
     "subtitle": "Toetage pileteid ja elanike ja kogukonna administraatorite tõstatatud probleeme kogu platvormil."
+  },
+  "profile": {
+    "accountTitle": "konto",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Muuda parooli",
+    "loadError": "Teie profiili ei saanud laadida. Palun proovi uuesti.",
+    "fields": {
+      "fullName": "Täisnimi",
+      "email": "Meil",
+      "role": "Roll",
+      "roleValue": "Süsteemi administraator"
+    }
   }
 }

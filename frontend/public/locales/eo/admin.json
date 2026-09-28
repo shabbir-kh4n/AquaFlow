@@ -25,7 +25,6 @@
     "title": "{{community}} Apartamenta Panelo",
     "titleFallback": "Via Apartamenta Panelo",
     "subtitle": "Funkcia resumo por akvoservaĵo submezurado kaj hejma konsumo.",
-    "comingSoon": "Baldaŭ venos",
     "manageCommunity": "Administri Komunumon",
     "noUsageReadings": "Neniuj uzadolegaĵoj ankoraŭ registritaj.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Plej lasta registrita monato ({{month}})",
       "noReadingsYet": "Neniuj legaĵoj ankoraŭ registritaj",
       "pendingAlerts": "Atendantaj Atentigoj",
-      "anomalyPreview": "Antaŭrigardo pri detektado de anomalioj — ankoraŭ ne havebla"
+      "reviewAlerts": "Aktivaj liko / uzado-atentigoj - reviziu nun",
+      "noActiveAlerts": "Neniuj aktivaj atentigoj"
     },
     "actions": {
       "label": "Rapidaj Administraj Agoj",
       "uploadReadings": "Alŝutu Metrolegaĵojn",
       "configureTariffs": "Agordi Tarifojn",
-      "reportsNotBuilt": "Raportoj ankoraŭ ne estas konstruitaj",
       "downloadReports": "Elŝutu Sistemajn Raportojn"
     },
     "chart": {
       "title": "Monata Konsumo-Komparo (kL)",
       "subtitle": "Lastaj {{months}} monatoj: celo kontraŭ reala konsumo.",
-      "targetSeries": "Celo (antaŭprezento)",
       "actualSeries": "Fakta"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ne eblis konservi vian profilon. Bonvolu provi denove.",
     "apartmentSaveError": "Ne eblis konservi detalojn pri apartamento. Bonvolu provi denove.",
     "specsTitle": "Specifoj de Profilo",
-    "photoUnavailable": "Foto-alŝuto ankoraŭ ne haveblas",
-    "changePhoto": "Ŝanĝi Foton",
-    "deletePhoto": "Forigi",
-    "photoHint": "JPG aŭ PNG. Maksimuma grandeco 2MB.",
     "saveProfile": "Konservi Profilon",
     "apartmentTitle": "Apartamentaj Detaloj",
     "saveApartment": "Konservu Apartamentajn Detalojn",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Dufaktora aŭtentigo ankoraŭ ne haveblas",
       "twoFactorAria": "Dufaktora aŭtentigo (nur antaŭrigardo)",
       "sessionsLabel": "Aktivaj Administraj Sesioj",
-      "sessionsEmpty": "Seanspurado ankoraŭ ne haveblas — ĉi tio estas antaŭprezento de la venonta aranĝo."
-    }
+      "sessionsEmpty": "Seanspurado ankoraŭ ne haveblas — ĉi tio estas antaŭprezento de la venonta aranĝo.",
+      "previewNote": "Antaŭrigardo nur: dufaktora aŭtentigo kaj sesiospurado ankoraŭ ne disponeblas."
+    },
+    "avatarLabel": "Avataro",
+    "passwordTitle": "Ŝanĝi Pasvorton"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Loĝantaj Biletoj",
       "subtitle": "Subtenaj biletoj kaj zorgoj, kiujn loĝantoj en via komunumo adresis al vi."
+    }
+  },
+  "reports": {
+    "loadError": "Ne eblis ŝargi la komunumaraporton. Bonvolu provi denove.",
+    "pdfError": "Ne eblis elŝuti la PDF raporton. Bonvolu provi denove.",
+    "loading": "Ŝarĝante raporton...",
+    "empty": "Neniuj domanaroj kun datumoj en ĉi tiu intervalo.",
+    "noMatch": "Neniuj domanaroj kongruas kun \"{{search}}\".",
+    "searchPlaceholder": "Filtru laŭ domo, loĝanto aŭ metron-ro.",
+    "downloadCsv": "Elŝutu CSV",
+    "downloadPdf": "Elŝutu PDF Resumon",
+    "downloadingPdf": "Preparante PDF...",
+    "ranges": {
+      "threeMonths": "Lastaj 3 monatoj",
+      "sixMonths": "Lastaj 6 monatoj",
+      "twelveMonths": "Lastaj 12 monatoj",
+      "custom": "Propra gamo"
+    },
+    "customRange": {
+      "from": "De",
+      "to": "Al",
+      "hint": "Elektu kaj komencan kaj finmonaton por ŝargi la raporton."
+    },
+    "cards": {
+      "totalConsumption": "Tuta Konsumo",
+      "households": "Tra {{total}} domanaroj",
+      "avgMonthly": "Meza Monata Konsumo",
+      "communityWide": "Tutkomunumo, monate",
+      "billed": "Fakturita",
+      "finalizedOnly": "Nur finigitaj kaj arkivitaj cikloj",
+      "paid": "Pagita",
+      "invoices": "{{total}} fakturoj emisiitaj",
+      "outstanding": "Elstara",
+      "unpaidInvoices": "{{total}} nepagitaj fakturoj",
+      "collectionRate": "Kolekta indico"
+    },
+    "costs": {
+      "title": "Kostoj kontraŭ Enspezo",
+      "commonArea": "Komunaj kostoj fakturitaj",
+      "bulkCost": "Kosto de aĉeto de pogranda akvo",
+      "bulkVolume": "Pogranda akvo aĉetita",
+      "bulkCount": "{{total}} aĉetoj",
+      "billedMinusBulk": "Fakturita enspezo minus pogranda kosto",
+      "note": "Pograndaj aĉetoj estas spuritaj por kostvidebleco kaj ne estas fakturitaj al domanaroj rekte."
+    },
+    "top": {
+      "title": "Supraj Konsumantoj",
+      "empty": "Neniu konsumo registrita en ĉi tiu gamo."
+    },
+    "charts": {
+      "consumptionTitle": "Monata Konsumo",
+      "consumptionSeries": "Konsumo",
+      "billingTitle": "Fakturita kontraŭ Pagita kontraŭ Pogranda Kosto",
+      "billedSeries": "Fakturita",
+      "paidSeries": "Pagita",
+      "bulkSeries": "Pogranda aĉetkosto",
+      "empty": "Neniuj datumoj por ĉi tiu gamo."
+    },
+    "sort": {
+      "label": "Ordigi laŭ",
+      "toggleDirection": "Ŝaltu ordigdirekton",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "table": {
+      "house": "Domo",
+      "resident": "Loĝanto",
+      "meter": "Metro",
+      "totalKl": "Sumo kL",
+      "avgMonthlyKl": "Mezumonata kL",
+      "billed": "Fakturita",
+      "paid": "Pagita",
+      "outstanding": "Elstara"
+    }
+  },
+  "announcements": {
+    "loadError": "Ne eblis ŝargi anoncojn. Bonvolu provi denove.",
+    "removeError": "Ne eblis forigi ĉi tiun anoncon. Bonvolu provi denove.",
+    "loading": "Ŝarĝante anoncojn...",
+    "empty": "Ankoraŭ neniuj anoncoj. Alklaku \"Nova Anonco\" por sciigi viajn loĝantojn.",
+    "count": "Anoncoj: {{total}}",
+    "newButton": "+ Nova Anonco",
+    "pinned": "Alpinglita",
+    "expired": "Eksvalidiĝis",
+    "postedAt": "Afiŝita {{date}}",
+    "updatedAt": "Redaktita {{date}}",
+    "expiresAt": "Eksvalidiĝas {{date}}",
+    "category": {
+      "general": "Generalo",
+      "maintenance": "Prizorgado",
+      "waterSupply": "Akvoprovizo",
+      "billing": "Fakturado",
+      "urgent": "Urĝa"
+    },
+    "form": {
+      "addTitle": "Nova Anonco",
+      "editTitle": "Redakti Anoncon",
+      "addSubtitle": "Loĝantoj vidas ĉi tion sur sia Sciigoj-paĝo, kaj iu ajn kun puŝaj sciigoj ebligitaj estas tuj sciigitaj.",
+      "editSubtitle": "Redaktoj ĝisdatigas la anoncon surloke. Loĝantoj ne denove estas sciigitaj.",
+      "title": "Titolo",
+      "category": "Kategorio",
+      "expiresAt": "Eksvalidiĝas (laŭvola)",
+      "body": "Mesaĝo",
+      "pinned": "Alpinglu al la supro de anoncoj de loĝantoj",
+      "requiredFields": "Bonvolu enigi titolon kaj mesaĝon.",
+      "saveError": "Ne eblis konservi ĉi tiun anoncon. Bonvolu kontroli la detalojn.",
+      "publish": "Publiki"
+    },
+    "confirm": {
+      "title": "Ĉu forigi anoncon?",
+      "body": "\"{{title}}\" estos forigita por ĉiuj loĝantoj. Ĉi tio ne povas esti malfarita.",
+      "delete": "Forigi",
+      "deleting": "Forigante…"
     }
   }
 }

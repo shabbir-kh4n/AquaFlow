@@ -1,9 +1,12 @@
 package com.hydroledger.backend.resident;
 
+import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.containsString;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -11,6 +14,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +25,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.hydroledger.backend.controller.ResidentUsageHistoryController;
 import com.hydroledger.backend.dto.ConsumptionComparisonPoint;
+import com.hydroledger.backend.dto.PeerRankingResponse;
 import com.hydroledger.backend.dto.WaterUsageReadingResponse;
 import com.hydroledger.backend.entity.CommunityAdmin;
 import com.hydroledger.backend.entity.ReadingSource;
@@ -111,6 +116,31 @@ class ResidentUsageHistoryControllerTests {
         CommunityAdmin admin = CommunityAdmin.builder().id(1L).fullName("Admin").email("admin@example.com").build();
 
         mockMvc.perform(get("/api/resident/usage-comparison").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isForbidden());
+    }
+
+    @Test
+    void peerRankingReturns200WithAnonymizedEntries() throws Exception {
+        PeerRankingResponse ranking = WaterUsageReadingService.buildPeerRanking("2026-02", 1L, Map.of(
+                1L, new BigDecimal("10.000"), 2L, new BigDecimal("20.000"), 3L, new BigDecimal("5.000")));
+        when(waterUsageReadingService.getPeerRankingForResident(any(Resident.class))).thenReturn(ranking);
+
+        mockMvc.perform(get("/api/resident/peer-ranking").with(user(new ResidentPrincipal(resident))))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.month").value("2026-02"))
+                .andExpect(jsonPath("$.rank").value(2))
+                .andExpect(jsonPath("$.totalHouseholds").value(3))
+                .andExpect(jsonPath("$.entries.length()").value(3))
+                .andExpect(jsonPath("$.entries[0].householdId").doesNotExist())
+                .andExpect(jsonPath("$.entries[0].houseNumber").doesNotExist())
+                .andExpect(content().string(not(containsString("houseNumber"))));
+    }
+
+    @Test
+    void peerRankingIsForbiddenForAdmin() throws Exception {
+        CommunityAdmin admin = CommunityAdmin.builder().id(1L).fullName("Admin").email("admin@example.com").build();
+
+        mockMvc.perform(get("/api/resident/peer-ranking").with(user(new UserPrincipal(admin))))
                 .andExpect(status().isForbidden());
     }
 }

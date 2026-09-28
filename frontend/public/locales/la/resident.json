@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Veniens cito",
     "welcome": {
       "greeting": "salve {{name}}",
       "greetingFallback": "Salve ibi,",
       "title": "Prope manete aquam fabulam domi tuae.",
-      "subtitle": "Usus et perceptio exosculatio hic apparebit sicut documenta communitatis vestrae lectionis.",
-      "viewBadges": "Visum Eco-Insignes"
+      "subtitle": "Usus et perceptio exosculatio hic apparebit sicut documenta communitatis vestrae lectionis."
     },
     "stats": {
       "todaysUsage": "Hodiernae Usu",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Metered usus + criminibus communibus, {{month}}",
       "estimatedBillHint": "Ex hoc mense consumptio metered et crimina communicare",
       "savings": "Savings vs Building Avg",
-      "savingsValue": "{{percent}}% Minus",
-      "savingsPreview": "Praevius solum - comparatio nondum vivunt"
+      "savingsLess": "{{percent}}% Minus",
+      "savingsMore": "{{percent}}% More",
+      "savingsEqual": "Sicut mediocris",
+      "savingsDetail": "{{household}} kLvs {{average}} kL mediocris, {{month}}",
+      "savingsNoData": "Non aedificationem comparationis adhuc"
     },
     "consumption": {
       "eyebrow": "Consummatio",
       "title": "Cotidiana Consummatio (Last XIV Lectiones)",
       "seriesName": "Consummatio",
       "empty": "No tamen lectiones scripti sunt."
-    },
-    "breakdown": {
-      "eyebrow": "Naufragii",
-      "title": "Usus Naufragii",
-      "bathroom": "Bathroom",
-      "kitchen": "Culina",
-      "garden": "Hortus / Balcony",
-      "other": "Other / Lauandi"
     },
     "billing": {
       "eyebrow": "Billing",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "ORDO pretium gradu",
       "tierLabel": "ORDO {{tier}}",
       "commonArea": "Communi area adiectio",
-      "commonAreaPreview": "Communis area adiectio (preview)",
       "invoiceTotal": "{{period}} cautionem total",
       "estimatedCharge": "Current extimationis crimen",
       "commonAreaBreakdown": "Communi area naufragii",
-      "payPreview": "Stipendium Bill Praevius",
-      "payUnavailable": "Exosculatio engine nondum praesto"
+      "commonAreaEstimate": "Communi area adiectio (aestimatio)",
+      "payOutstanding": "Stipendium Outstanding {{amount}}",
+      "payAllDescription": "Omnes rogationes insolutis ({{number}})"
     },
     "tips": {
       "eyebrow": "Apicibus",
@@ -66,8 +59,7 @@
     "empty": "No tamen lectiones scripti sunt. Postquam communitas vestra metrum recitat, hic ostendet.",
     "tabs": {
       "lastSixMonths": "Last VI Menses",
-      "customRange": "Custom Range",
-      "comingSoon": "Veniens cito"
+      "customRange": "Custom Range"
     },
     "peakDay": "Picus dies:",
     "lowestDay": "Infimus dies:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Cotidiana Consummatio Heatmap",
-      "subtitle": "Color intensio vexilla gravis usus dierum (praevisio)."
+      "subtitle": "Color intensio vexilla gravis usus dierum (praevisio).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: nulla data",
+      "less": "Minus",
+      "more": "More",
+      "noData": "Nulla notitia"
     },
     "ranking": {
       "title": "Community Peer Ranking",
-      "subtitle": "Tuus ordo ad similes unitates comparatus est.",
-      "ecoSaver": "Active Eco New",
-      "aptNumber": "Apta {{number}}",
-      "unitNumber": "Unitas {{number}}",
-      "yourUnit": "Unitas tua",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (tu)"
+      "subtitle": "Familiam tuam nobis omnem domum in conclavi {{month}} tuo. Inferior consuetudo fert superior.",
+      "headline": "#{{rank}} de {{total}} familiis",
+      "percentile": "Minus aqua quam {{percent}}% vicinis tuis usus es.",
+      "min": "Lowest",
+      "median": "Medus",
+      "max": "altissimum",
+      "youRow": "#{{rank}} You",
+      "neighbourRow": "#{{rank}} vicinus",
+      "privacyNote": "Vicini anonymi. Domus numeri et nomina numquam demonstrantur.",
+      "empty": "Nondum satis notitia adhuc ad familiam tuam deputabis."
+    },
+    "range": {
+      "from": "Ex",
+      "to": "Ad",
+      "invalid": "Mensis initium non debet esse post finem mensis.",
+      "noData": "Mauris in nulla dolor."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Exosculatio: {{period}}",
       "allPaid": "Omnes mercium venditarum solverunt",
       "payTotal": "Stipendium Romanum Outstanding",
-      "payTotalUnavailable": "Online solucionis is not available yet - settle bills with your community Administrator directe",
       "downloadSummary": "Download Bill Summary",
-      "downloadSummaryUnavailable": "Bill summary download is not available yet"
+      "payAllDescription": "Omnes rogationes insolutis ({{number}})"
     },
     "history": {
       "title": "Cautionem historia",
-      "exportCsv": "Omnes exportare CSV",
-      "exportUnavailable": "CSV exportare is not available yet"
+      "exportCsv": "Omnes exportare CSV"
     },
     "table": {
       "cycle": "Cycle",
@@ -148,6 +151,17 @@
       "description": "Online solutionis nondum praesto est - rogationes constituuntur cum communitate tua admin directe.",
       "manage": "Payment Methodi Curo",
       "manageUnavailable": "Payment modi non funguntur adhuc"
+    },
+    "csv": {
+      "cycle": "Exosculatio tempus",
+      "consumption": "Consummatio (kL)",
+      "baseAmount": "Basis moles",
+      "tariffAmount": "Lezdam moles",
+      "commonAreaAmount": "Communi area moles",
+      "totalAmount": "Summa copia",
+      "paid": "Paid",
+      "paidAt": "pretium at *",
+      "generatedAt": "generatae at"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Quaeso ne premas vel refice hanc paginam",
     "success": "Mercedem Prosperum",
     "error": "Aliquid abiit iniuriam confirmans mercedem tuam. Quaeso, iterum conare.",
-    "retry": "Retry"
+    "retry": "Retry",
+    "simulationNotice": "Checkout ad demonstrationem tantum simulata. Nulla realis solutio facta est et nulla pecunia oneratur."
   },
   "notifications": {
     "loadError": "Non tuam notificationes load. Quaeso, iterum conare.",
@@ -213,6 +228,25 @@
       "notConfigured": "Acta Vicimediorum dis non set tamen. Contact vestri admin.",
       "enableError": "Non dis notificationes enable. Quaeso, iterum conare.",
       "disableError": "Disable notificationes non dis. Quaeso, iterum conare."
+    },
+    "tabs": {
+      "alerts": "Alerts",
+      "announcements": "Annuntiationes"
+    },
+    "announcements": {
+      "loadError": "Nuntiis onerare non potuit. Quaeso, iterum conare.",
+      "loading": "Loading annuntiationes…",
+      "empty": "Nulla nuntia de communitate tua admin nunc.",
+      "pinned": "adfixum",
+      "postedAt": "Missae {{date}}",
+      "expiresAt": "Donec {{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "Tutela",
+        "waterSupply": "Aquae Supple",
+        "billing": "Billing",
+        "urgent": "Urgente"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Habitans Support & concernit Pluteum",
     "subtitle": "Submittere lacus aquationes, petitiones metri calibrationis, vel rogationes exosculationes directe ad tuam communitatem admin et/vel System Admin.",
     "emptyCreateHint": "Causam tuam vel sollicitudinem infra describe, et elige qui eam tractare debeas."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Last III menses",
+      "sixMonths": "Last VI Menses",
+      "twelveMonths": "Last XII Menses",
+      "custom": "Custom Range"
+    },
+    "customRange": {
+      "from": "Ex",
+      "to": "Ad",
+      "hint": "Colligunt initium et finis mensis ad famam tuam videre."
+    },
+    "loading": "Loading fama tua ...",
+    "loadError": "Non potuit famam tuam onerare. Quaeso, iterum conare.",
+    "pdfError": "Non poterat hoc verbum extrahere. Quaeso, iterum conare.",
+    "downloading": "Downloading…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Download Statement PDF",
+    "period": "Fama periodum: {{from}} ad {{to}}",
+    "cards": {
+      "totalUsage": "Totalis Usu",
+      "avgMonthly": "Mediocris Vestibulum Usu",
+      "avgMonthlyHint": "Per menses apud memoriae Lectiones",
+      "change": "Mutationem nobis Previous Period",
+      "changeHint": "{{previous}} ad {{from}} ad {{to}}",
+      "changeNoData": "Nullus usus est in praecedenti tempore comparare",
+      "totalBilled": "Totalis inoptatus",
+      "totalPaid": "Total Paid",
+      "outstanding": "excellens"
+    },
+    "chart": {
+      "title": "Menstrua Ritus et Billing",
+      "subtitle": "Vectes tabes ostendunt (kL; in linea ostendit billed moles (₹).",
+      "consumption": "Consummatio",
+      "billed": "Occisus"
+    },
+    "table": {
+      "title": "Mensis-by-mense Naufragii",
+      "month": "Mensis",
+      "consumption": "Consummatio (kL)",
+      "billed": "Occisus",
+      "paid": "Paid",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Paid",
+      "unpaid": "insolutis",
+      "notBilled": "Non billed"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Ratio details",
+    "managedNote": "Communitas tua admin singula haec administrat. Eos contact si quid mutandum est.",
+    "loading": "Your profile Loading ...",
+    "loadError": "Non profile tuam load. Quaeso, iterum conare.",
+    "notSet": "Non posuit",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Mutatio password",
+    "fields": {
+      "fullName": "Nomen plenum",
+      "email": "Email",
+      "phone": "Phone",
+      "houseNumber": "Domus numerus",
+      "meterNumber": "Numerus meter",
+      "community": "Communitas",
+      "flatSize": "Plana magnitudine",
+      "joined": "Joined"
+    }
   }
 }

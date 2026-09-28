@@ -222,6 +222,14 @@
         "title": "Suport / Preocupări",
         "subtitle": "Ridicați-vă propriile bilete la administratorul de sistem sau gestionați preocupările pe care vi le-au adresat rezidenții."
       },
+      "reports": {
+        "title": "Rapoarte ale comunității",
+        "subtitle": "Cifrele de consum, facturare, colectare și achiziții în bloc pentru comunitatea dvs."
+      },
+      "announcements": {
+        "title": "Anunturi",
+        "subtitle": "Publicați notificări la nivelul comunității pentru rezidenții dvs."
+      },
       "profile": {
         "title": "Setări și profil",
         "subtitle": "Gestionați detaliile contului și informațiile despre apartament."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administratorul comunității",
     "notBuilt": "{{label}} nu este încă creat",
     "searchPlaceholder": "Cauta orice..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapoarte",
-      "description": "Rapoarte de consum, facturare și conservare pentru comunitatea dvs."
-    },
-    "announcements": {
-      "title": "Anunturi",
-      "description": "Trimiteți anunțuri la nivelul comunității rezidenților dvs."
-    }
   },
   "comingSoon": {
     "title": "{{title}} va veni în curând"
@@ -261,7 +259,9 @@
       "billing": "Facturare și facturi",
       "notifications": "Notificări",
       "recommendations": "Recomandări",
-      "support": "Suport / Preocupări"
+      "support": "Suport / Preocupări",
+      "reports": "Rapoartele dvs. de utilizare și cheltuieli",
+      "profile": "Profilul meu"
     },
     "defaultTitle": "Tabloul de bord pentru rezidenți",
     "navLabel": "Navigație pentru rezidenți",
@@ -277,7 +277,8 @@
       "communities": "Comunități",
       "reports": "Rapoarte",
       "supportTickets": "Bilete de suport",
-      "systemStatus": "Stare sistem"
+      "systemStatus": "Stare sistem",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stare sistem",
         "subtitle": "Conectivitate backend și starea de funcționare de bază."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Contul, avatarul și parola dvs"
       }
     },
     "fallbackName": "Administrator de sistem",
@@ -308,5 +313,40 @@
     "buttonLabel": "Limba: {{language}}",
     "searchPlaceholder": "Căutați limba...",
     "noMatches": "Fără meciuri"
+  },
+  "avatarPicker": {
+    "label": "Alegeți un avatar",
+    "hint": "Alegeți unul dintre avatarele prestabilite sau folosiți inițialele dvs.",
+    "change": "Schimba",
+    "cancel": "Anula",
+    "useInitials": "Folosiți inițialele",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Salvați avatarul",
+    "saving": "Economisire…",
+    "saved": "Avatarul a fost actualizat",
+    "saveError": "Nu s-a putut actualiza avatarul. Vă rugăm să încercați din nou."
+  },
+  "changePassword": {
+    "current": "Parola actuală",
+    "new": "Parolă Nouă",
+    "confirm": "Confirmați noua parolă",
+    "hint": "Cel puțin {{min}} caractere.",
+    "tooShort": "Parola nouă trebuie să aibă cel puțin {{min}} caractere.",
+    "mismatch": "Noile parole nu se potrivesc.",
+    "sameAsCurrent": "Parola nouă trebuie să fie diferită de parola dvs. actuală.",
+    "submit": "Actualizați parola",
+    "saving": "Se actualizează…",
+    "success": "Parola dvs. a fost actualizată.",
+    "error": "Nu s-a putut actualiza parola. Vă rugăm să încercați din nou."
+  },
+  "search": {
+    "kindPage": "Pagină",
+    "kindRecord": "Rezultat",
+    "loading": "Se caută…",
+    "noResults": "Fără meciuri",
+    "recordsUnavailable": "Numai paginile pot fi căutate chiar acum.",
+    "invoiceLabel": "Factura {{period}}",
+    "paid": "Plătit",
+    "unpaid": "Neplătit"
   }
 }

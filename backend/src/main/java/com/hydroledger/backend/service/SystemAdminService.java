@@ -26,6 +26,7 @@ import com.hydroledger.backend.entity.Resident;
 import com.hydroledger.backend.entity.WaterMeter;
 import com.hydroledger.backend.exception.ApiException;
 import com.hydroledger.backend.repository.AlertConfigRepository;
+import com.hydroledger.backend.repository.AnnouncementRepository;
 import com.hydroledger.backend.repository.ApartmentRepository;
 import com.hydroledger.backend.repository.BillingCycleRepository;
 import com.hydroledger.backend.repository.BulkWaterPurchaseRepository;
@@ -62,6 +63,7 @@ public class SystemAdminService {
     private final AlertConfigRepository alertConfigRepository;
     private final PushSubscriptionRepository pushSubscriptionRepository;
     private final SupportTicketRepository supportTicketRepository;
+    private final AnnouncementRepository announcementRepository;
     private final DataSource dataSource;
 
     @Value("${app.version}")
@@ -87,7 +89,8 @@ public class SystemAdminService {
                 apartment.map(Apartment::getName).orElse(null),
                 householdCount,
                 residentCount,
-                admin.getCreatedAt()
+                admin.getCreatedAt(),
+                admin.getAvatarKey()
         );
     }
 
@@ -98,7 +101,8 @@ public class SystemAdminService {
         List<CommunityDetailResponse.ResidentSummary> residents = residentRepository
                 .findByCreatedByOrderByCreatedAtDesc(admin).stream()
                 .map(r -> new CommunityDetailResponse.ResidentSummary(
-                        r.getId(), r.getFullName(), r.getEmail(), r.getHouseNumber(), r.getMeterNumber(), r.isPasswordSet()))
+                        r.getId(), r.getFullName(), r.getEmail(), r.getHouseNumber(), r.getMeterNumber(), r.isPasswordSet(),
+                        r.getAvatarKey()))
                 .toList();
 
         return new CommunityDetailResponse(
@@ -111,6 +115,7 @@ public class SystemAdminService {
                 apartment.map(Apartment::getName).orElse(null),
                 apartment.map(Apartment::getAddress).orElse(null),
                 admin.getCreatedAt(),
+                admin.getAvatarKey(),
                 residents
         );
     }
@@ -159,6 +164,8 @@ public class SystemAdminService {
         commonAreaConfigRepository.findByApartment(apartment).ifPresent(commonAreaConfigRepository::delete);
         alertConfigRepository.findByApartment(apartment).ifPresent(alertConfigRepository::delete);
         bulkWaterPurchaseRepository.deleteAll(bulkWaterPurchaseRepository.findByApartmentOrderByPurchaseDateDesc(apartment));
+        // Announcements reference apartment_id only (no ON DELETE CASCADE) - must go before the apartment.
+        announcementRepository.deleteAll(announcementRepository.findByApartmentOrderByCreatedAtDesc(apartment));
 
         apartmentRepository.delete(apartment);
         communityAdminRepository.delete(admin);

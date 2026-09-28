@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard di l'appartamentu",
     "titleFallback": "U vostru Dashboard di l'appartamentu",
     "subtitle": "Riassuntu operativu per u submetering di l'utilità di l'acqua è u cunsumu domesticu.",
-    "comingSoon": "Prestu",
     "manageCommunity": "Gestisce a cumunità",
     "noUsageReadings": "Nisuna lettura di usu registrata ancora.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ultimu mese registratu ({{month}})",
       "noReadingsYet": "Nisuna lettura ancora registrata",
       "pendingAlerts": "Avvisi pendenti",
-      "anomalyPreview": "Preview di rilevazione di anomalie - micca ancu dispunibule"
+      "reviewAlerts": "Avvisi di fuga / usu attivu - rivedete avà",
+      "noActiveAlerts": "Nisun avvisu attivu"
     },
     "actions": {
       "label": "Azzione Amministrativa Rapida",
       "uploadReadings": "Caricà e letture di u metru",
       "configureTariffs": "Configurate Tariffe",
-      "reportsNotBuilt": "I rapporti ùn sò micca custruiti ancu",
       "downloadReports": "Scaricate i rapporti di u sistema"
     },
     "chart": {
       "title": "Paragone di cunsumu mensu (kL)",
       "subtitle": "L'ultimi {{months}} mesi : u cunsumu target versus u cunsumu attuale.",
-      "targetSeries": "Target (anteprima)",
       "actualSeries": "Attuali"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ùn pudia micca salvà u vostru prufilu. Per piacè pruvate di novu.",
     "apartmentSaveError": "Ùn pudia micca salvà i dettagli di l'appartamentu. Per piacè pruvate di novu.",
     "specsTitle": "Specificazioni di u prufilu",
-    "photoUnavailable": "L'upload di foto ùn hè ancu dispunibule",
-    "changePhoto": "Cambia a foto",
-    "deletePhoto": "Sguassà",
-    "photoHint": "JPG o PNG. Dimensione massima 2 MB.",
     "saveProfile": "Salvà u prufilu",
     "apartmentTitle": "Dettagli di l'appartamentu",
     "saveApartment": "Salvà i dettagli di l'appartamentu",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "L'autenticazione à dui fattori ùn hè ancu dispunibule",
       "twoFactorAria": "Autentificazione à dui fattori (solu in anteprima)",
       "sessionsLabel": "Sessioni di amministratore attivu",
-      "sessionsEmpty": "U seguimentu di a sessione ùn hè ancu dispunibile - questu hè un anteprima di u layout chì vene."
-    }
+      "sessionsEmpty": "U seguimentu di a sessione ùn hè ancu dispunibile - questu hè un anteprima di u layout chì vene.",
+      "previewNote": "Preview solu: l'autentificazione à dui fattori è u seguimentu di sessione ùn sò micca ancu dispunibili."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Cambia Password"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Biglietti per i residenti",
       "subtitle": "I biglietti di supportu è e preoccupazioni chì i residenti in a vostra cumunità anu indirizzatu à voi."
+    }
+  },
+  "reports": {
+    "loadError": "Ùn pudia micca carica u rapportu di a cumunità. Per piacè pruvate di novu.",
+    "pdfError": "Ùn pudia micca scaricà u rapportu PDF. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di u rapportu…",
+    "empty": "Nisuna famiglia cù dati in questa gamma.",
+    "noMatch": "Nisuna famiglia currisponde à \"{{search}}\".",
+    "searchPlaceholder": "Filtrà per casa, residente, o metru n.",
+    "downloadCsv": "Scaricate CSV",
+    "downloadPdf": "Scaricate PDF Riassuntu",
+    "downloadingPdf": "Preparazione di PDF...",
+    "ranges": {
+      "threeMonths": "L'ultimi 3 mesi",
+      "sixMonths": "Ultimi 6 mesi",
+      "twelveMonths": "L'ultimi 12 mesi",
+      "custom": "Gamma persunalizata"
+    },
+    "customRange": {
+      "from": "Da",
+      "to": "À",
+      "hint": "Sceglite un mese di principiu è di fine per carica u rapportu."
+    },
+    "cards": {
+      "totalConsumption": "Cunsumu tutale",
+      "households": "In {{total}} famiglie",
+      "avgMonthly": "Cunsumu mediu mensile",
+      "communityWide": "In tutta a cumunità, per mese",
+      "billed": "fatturatu",
+      "finalizedOnly": "Cicli finalizzati è archiviati solu",
+      "paid": "Pagatu",
+      "invoices": "{{total}} fatture emesse",
+      "outstanding": "Eccezziunale",
+      "unpaidInvoices": "{{total}} fatture impagate",
+      "collectionRate": "Tariffa di cullezzione"
+    },
+    "costs": {
+      "title": "Costs vs Revenue",
+      "commonArea": "Carichi di l'area cumuna fatturati",
+      "bulkCost": "Costu di compra d'acqua in massa",
+      "bulkVolume": "L'acqua in quantità acquistata",
+      "bulkCount": "{{total}} acquisti",
+      "billedMinusBulk": "Ingressu fatturatu minus costu grossu",
+      "note": "L'acquisti in massa sò tracciati per a visibilità di i costi è ùn sò micca fatturati direttamente à e famiglie."
+    },
+    "top": {
+      "title": "Top Consumatori",
+      "empty": "Nisun cunsumu registratu in questa gamma."
+    },
+    "charts": {
+      "consumptionTitle": "Cunsumu mensili",
+      "consumptionSeries": "Cunsumu",
+      "billingTitle": "Billed vs Paid vs Bulk Cost",
+      "billedSeries": "fatturatu",
+      "paidSeries": "Pagatu",
+      "bulkSeries": "Costu di compra in massa",
+      "empty": "Nisuna dati per questa gamma."
+    },
+    "sort": {
+      "label": "Ordina per",
+      "toggleDirection": "Cambia a direzzione di sorte",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Casa",
+      "resident": "Residente",
+      "meter": "metru",
+      "totalKl": "Totale kL",
+      "avgMonthlyKl": "Media mensile kL",
+      "billed": "fatturatu",
+      "paid": "Pagatu",
+      "outstanding": "Eccezziunale"
+    }
+  },
+  "announcements": {
+    "loadError": "Impossibile caricare l'annunzii. Per piacè pruvate di novu.",
+    "removeError": "Ùn pudia micca sguassà stu annunziu. Per piacè pruvate di novu.",
+    "loading": "Caricamentu di l'annunzii…",
+    "empty": "Nisun annunziu ancora. Cliccate \"Novu annunziu\" per avvisà i vostri residenti.",
+    "count": "Annunci: {{total}}",
+    "newButton": "+ Novu annunziu",
+    "pinned": "Appuntatu",
+    "expired": "Scadutu",
+    "postedAt": "Postatu {{date}}",
+    "updatedAt": "Editatu {{date}}",
+    "expiresAt": "Scadenza {{date}}",
+    "category": {
+      "general": "Generale",
+      "maintenance": "Mantenimentu",
+      "waterSupply": "Fornitura d'acqua",
+      "billing": "Facturazione",
+      "urgent": "Urgente"
+    },
+    "form": {
+      "addTitle": "Novu annunziu",
+      "editTitle": "Edite l'annunziu",
+      "addSubtitle": "I residenti vedenu questu nantu à a so pagina di Notificazioni, è qualchissia chì hà attivatu e notificazioni push hè notificatu immediatamente.",
+      "editSubtitle": "Editi aghjurnà l'annunziu in u locu. I residenti ùn sò micca avvisati di novu.",
+      "title": "Titulu",
+      "category": "categuria",
+      "expiresAt": "Scadenza (opzionale)",
+      "body": "Missaghju",
+      "pinned": "Pin à a cima di l'annunzii di i residenti",
+      "requiredFields": "Per piacè inserite un titulu è un missaghju.",
+      "saveError": "Ùn pudia micca salvà questu annunziu. Per piacè verificate i dettagli.",
+      "publish": "Publicà"
+    },
+    "confirm": {
+      "title": "Eliminate l'annunziu?",
+      "body": "\"{{title}}\" serà sguassatu per tutti i residenti. Questu ùn pò micca esse annullatu.",
+      "delete": "Sguassà",
+      "deleting": "Sguassendu…"
     }
   }
 }

@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Segera hadir",
     "welcome": {
       "greeting": "Halo {{name}},",
       "greetingFallback": "Halo,",
       "title": "Tetap dekat dengan kisah air rumah Anda.",
-      "subtitle": "Wawasan penggunaan dan penagihan akan muncul di sini saat komunitas Anda mencatat pembacaan.",
-      "viewBadges": "Lihat Lencana Ramah Lingkungan"
+      "subtitle": "Wawasan penggunaan dan penagihan akan muncul di sini saat komunitas Anda mencatat pembacaan."
     },
     "stats": {
       "todaysUsage": "Penggunaan Hari Ini",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Penggunaan terukur + biaya bersama, {{month}}",
       "estimatedBillHint": "Berdasarkan konsumsi terukur dan biaya bersama bulan ini",
       "savings": "Penghematan vs Rata-Rata Bangunan",
-      "savingsValue": "{{percent}}% Lebih sedikit",
-      "savingsPreview": "Hanya pratinjau — perbandingan belum ditayangkan"
+      "savingsLess": "{{percent}}% Lebih sedikit",
+      "savingsMore": "{{percent}}% Lebih banyak",
+      "savingsEqual": "Sama seperti rata-rata",
+      "savingsDetail": "{{household}} kL vs {{average}} kL rata-rata, {{month}}",
+      "savingsNoData": "Belum ada perbandingan bangunan"
     },
     "consumption": {
       "eyebrow": "Konsumsi",
       "title": "Konsumsi Harian (14 Bacaan Terakhir)",
       "seriesName": "Konsumsi",
       "empty": "Belum ada pembacaan yang tercatat."
-    },
-    "breakdown": {
-      "eyebrow": "Perincian",
-      "title": "Perincian Penggunaan",
-      "bathroom": "Kamar mandi",
-      "kitchen": "Dapur",
-      "garden": "Taman / Balkon",
-      "other": "Lainnya / Binatu"
     },
     "billing": {
       "eyebrow": "Penagihan",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Tingkat harga tingkat",
       "tierLabel": "Tingkat {{tier}}",
       "commonArea": "Pembagian area umum",
-      "commonAreaPreview": "Pembagian area umum (pratinjau)",
       "invoiceTotal": "{{period}} total faktur",
       "estimatedCharge": "Perkiraan biaya saat ini",
       "commonAreaBreakdown": "Kerusakan area umum",
-      "payPreview": "Pratinjau Tagihan Bayar",
-      "payUnavailable": "Mesin penagihan belum tersedia"
+      "commonAreaEstimate": "Pembagian area umum (perkiraan)",
+      "payOutstanding": "Bayar Terutang ₹{{amount}}",
+      "payAllDescription": "Semua tagihan yang belum dibayar ({{number}})"
     },
     "tips": {
       "eyebrow": "Kiat",
@@ -66,8 +59,7 @@
     "empty": "Belum ada pembacaan yang tercatat. Setelah komunitas Anda mencatat pembacaan meter, pembacaan tersebut akan muncul di sini.",
     "tabs": {
       "lastSixMonths": "6 Bulan Terakhir",
-      "customRange": "Rentang Kustom",
-      "comingSoon": "Segera hadir"
+      "customRange": "Rentang Kustom"
     },
     "peakDay": "Hari Puncak:",
     "lowestDay": "Hari Terendah:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Peta Panas Konsumsi Harian",
-      "subtitle": "Intensitas warna menandai hari-hari penggunaan yang berat (pratinjau)."
+      "subtitle": "Intensitas warna menandai hari-hari penggunaan yang berat (pratinjau).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: tidak ada data",
+      "less": "Lebih sedikit",
+      "more": "Lagi",
+      "noData": "Tidak ada data"
     },
     "ranking": {
       "title": "Peringkat Sejawat Komunitas",
-      "subtitle": "Peringkat Anda dibandingkan dengan unit serupa (pratinjau).",
-      "ecoSaver": "Penghemat Lingkungan Aktif",
-      "aptNumber": "Tepat {{number}}",
-      "unitNumber": "Satuan {{number}}",
-      "yourUnit": "Unit Anda",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Kamu)"
+      "subtitle": "Rumah tangga Anda vs setiap rumah tangga di apartemen Anda untuk {{month}}. Penggunaan yang lebih rendah memiliki peringkat yang lebih tinggi.",
+      "headline": "#{{rank}} dari {{total}} rumah tangga",
+      "percentile": "Anda menggunakan lebih sedikit air dibandingkan {{percent}}% tetangga Anda.",
+      "min": "Terendah",
+      "median": "median",
+      "max": "Paling tinggi",
+      "youRow": "#{{rank}} Kamu",
+      "neighbourRow": "#{{rank}} Tetangga",
+      "privacyNote": "Tetangga tidak disebutkan namanya. Nomor dan nama rumah tidak pernah ditampilkan.",
+      "empty": "Data belum cukup untuk menentukan peringkat rumah tangga Anda."
+    },
+    "range": {
+      "from": "Dari",
+      "to": "Ke",
+      "invalid": "Bulan awal tidak boleh setelah bulan akhir.",
+      "noData": "Tidak ada data konsumsi dalam kisaran ini."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Siklus Penagihan: {{period}}",
       "allPaid": "Semua faktur dibayar",
       "payTotal": "Bayar Total Terutang",
-      "payTotalUnavailable": "Pembayaran online belum tersedia — selesaikan tagihan langsung dengan admin komunitas Anda",
       "downloadSummary": "Unduh Ringkasan Tagihan",
-      "downloadSummaryUnavailable": "Unduhan ringkasan tagihan belum tersedia"
+      "payAllDescription": "Semua tagihan yang belum dibayar ({{number}})"
     },
     "history": {
       "title": "Riwayat Faktur",
-      "exportCsv": "Ekspor Semua ke CSV",
-      "exportUnavailable": "CSV ekspor belum tersedia"
+      "exportCsv": "Ekspor Semua ke CSV"
     },
     "table": {
       "cycle": "Siklus",
@@ -148,6 +151,17 @@
       "description": "Pembayaran online belum tersedia — tagihan diselesaikan langsung dengan admin komunitas Anda.",
       "manage": "Kelola Metode Pembayaran",
       "manageUnavailable": "Metode pembayaran belum tersedia"
+    },
+    "csv": {
+      "cycle": "Periode penagihan",
+      "consumption": "Konsumsi (kL)",
+      "baseAmount": "Jumlah dasar",
+      "tariffAmount": "Jumlah tarif",
+      "commonAreaAmount": "Jumlah area umum",
+      "totalAmount": "Jumlah total",
+      "paid": "Dibayar",
+      "paidAt": "Dibayar di",
+      "generatedAt": "Dihasilkan di"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Mohon jangan menekan kembali atau menyegarkan halaman ini",
     "success": "Pembayaran Berhasil",
     "error": "Terjadi masalah saat mengonfirmasi pembayaran Anda. Silakan coba lagi.",
-    "retry": "Mencoba kembali"
+    "retry": "Mencoba kembali",
+    "simulationNotice": "Simulasi checkout untuk demonstrasi saja. Tidak ada pembayaran nyata yang dilakukan dan tidak ada uang yang dibebankan."
   },
   "notifications": {
     "loadError": "Tidak dapat memuat notifikasi Anda. Silakan coba lagi.",
@@ -213,6 +228,25 @@
       "notConfigured": "Notifikasi push belum dikonfigurasi. Hubungi admin Anda.",
       "enableError": "Tidak dapat mengaktifkan pemberitahuan push. Silakan coba lagi.",
       "disableError": "Tidak dapat menonaktifkan pemberitahuan push. Silakan coba lagi."
+    },
+    "tabs": {
+      "alerts": "Peringatan",
+      "announcements": "Pengumuman"
+    },
+    "announcements": {
+      "loadError": "Tidak dapat memuat pengumuman. Silakan coba lagi.",
+      "loading": "Memuat pengumuman…",
+      "empty": "Tidak ada pengumuman dari admin komunitas Anda saat ini.",
+      "pinned": "Disematkan",
+      "postedAt": "Diposting {{date}}",
+      "expiresAt": "Sampai {{date}}",
+      "category": {
+        "general": "Umum",
+        "maintenance": "Pemeliharaan",
+        "waterSupply": "Persediaan air",
+        "billing": "Penagihan",
+        "urgent": "Mendesak"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Meja Dukungan & Kekhawatiran Residen",
     "subtitle": "Kirimkan laporan kebocoran air, permintaan kalibrasi meteran, atau pertanyaan penagihan langsung ke admin komunitas Anda dan/atau Admin Sistem.",
     "emptyCreateHint": "Jelaskan masalah atau kekhawatiran Anda di bawah ini, dan pilih siapa yang harus menanganinya."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 Bulan Terakhir",
+      "sixMonths": "6 Bulan Terakhir",
+      "twelveMonths": "12 Bulan Terakhir",
+      "custom": "Rentang Kustom"
+    },
+    "customRange": {
+      "from": "Dari",
+      "to": "Ke",
+      "hint": "Pilih bulan awal dan akhir untuk melihat laporan Anda."
+    },
+    "loading": "Memuat laporan Anda…",
+    "loadError": "Tidak dapat memuat laporan Anda. Silakan coba lagi.",
+    "pdfError": "Tidak dapat mengunduh pernyataan tersebut. Silakan coba lagi.",
+    "downloading": "Mengunduh…",
+    "downloadCsv": "Unduh CSV",
+    "downloadStatement": "Unduh Pernyataan PDF",
+    "period": "Periode laporan: {{from}} hingga {{to}}",
+    "cards": {
+      "totalUsage": "Jumlah Penggunaan",
+      "avgMonthly": "Rata-rata Penggunaan Bulanan",
+      "avgMonthlyHint": "Selama berbulan-bulan dengan pembacaan yang tercatat",
+      "change": "Perubahan vs Periode Sebelumnya",
+      "changeHint": "{{previous}} di {{from}} hingga {{to}}",
+      "changeNoData": "Tidak ada penggunaan pada periode sebelumnya untuk dibandingkan",
+      "totalBilled": "Jumlah yang Ditagih",
+      "totalPaid": "Jumlah yang Dibayar",
+      "outstanding": "Luar biasa"
+    },
+    "chart": {
+      "title": "Penggunaan dan Penagihan Bulanan",
+      "subtitle": "Batang menunjukkan konsumsi (kL); garis menunjukkan jumlah yang ditagih (₹).",
+      "consumption": "Konsumsi",
+      "billed": "Ditagih"
+    },
+    "table": {
+      "title": "Rincian Bulan demi Bulan",
+      "month": "Bulan",
+      "consumption": "Konsumsi (kL)",
+      "billed": "Ditagih",
+      "paid": "Dibayar",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Dibayar",
+      "unpaid": "Tidak dibayar",
+      "notBilled": "Tidak ditagih"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Detail akun",
+    "managedNote": "Admin komunitas Anda mengelola detail ini. Hubungi mereka jika ada yang perlu diubah.",
+    "loading": "Memuat profil Anda…",
+    "loadError": "Tidak dapat memuat profil Anda. Silakan coba lagi.",
+    "notSet": "Tidak disetel",
+    "flatSizeValue": "{{size}} kaki persegi",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Ubah kata sandi",
+    "fields": {
+      "fullName": "Nama lengkap",
+      "email": "E-mail",
+      "phone": "Telepon",
+      "houseNumber": "Nomor rumah",
+      "meterNumber": "Nomor meteran",
+      "community": "Masyarakat",
+      "flatSize": "Ukuran datar",
+      "joined": "Bergabung"
+    }
   }
 }

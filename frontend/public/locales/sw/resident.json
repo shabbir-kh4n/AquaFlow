@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Inakuja hivi karibuni",
     "welcome": {
       "greeting": "Hujambo {{name}},",
       "greetingFallback": "Habari,",
       "title": "Kaa karibu na hadithi ya maji ya nyumba yako.",
-      "subtitle": "Maarifa ya matumizi na malipo yataonekana hapa kama usomaji wa rekodi za jumuiya yako.",
-      "viewBadges": "Tazama Beji za Eco"
+      "subtitle": "Maarifa ya matumizi na malipo yataonekana hapa kama usomaji wa rekodi za jumuiya yako."
     },
     "stats": {
       "todaysUsage": "Matumizi ya Leo",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Matumizi yaliyopimwa + gharama za pamoja, {{month}}",
       "estimatedBillHint": "Kulingana na matumizi ya mita za mwezi huu na gharama za pamoja",
       "savings": "Akiba dhidi ya Jengo Wastani",
-      "savingsValue": "{{percent}}% Chini",
-      "savingsPreview": "Onyesho la kukagua pekee - ulinganisho bado haujapatikana"
+      "savingsLess": "{{percent}}% Chini",
+      "savingsMore": "{{percent}}% Zaidi",
+      "savingsEqual": "Sawa na wastani",
+      "savingsDetail": "{{household}} kL dhidi ya {{average}} kL wastani, {{month}}",
+      "savingsNoData": "Bado hakuna ulinganisho wa jengo"
     },
     "consumption": {
       "eyebrow": "Matumizi",
       "title": "Matumizi ya Kila Siku (Masomo 14 ya Mwisho)",
       "seriesName": "Matumizi",
       "empty": "Bado hakuna usomaji uliorekodiwa."
-    },
-    "breakdown": {
-      "eyebrow": "Uchanganuzi",
-      "title": "Uchanganuzi wa Matumizi",
-      "bathroom": "Bafuni",
-      "kitchen": "Jikoni",
-      "garden": "Bustani / balcony",
-      "other": "Nyingine / Kufulia"
     },
     "billing": {
       "eyebrow": "Bili",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Kiwango cha bei",
       "tierLabel": "Daraja {{tier}}",
       "commonArea": "Ugawaji wa eneo la kawaida",
-      "commonAreaPreview": "Ugawaji wa eneo la kawaida (hakiki)",
       "invoiceTotal": "{{period}} jumla ya ankara",
       "estimatedCharge": "Makadirio ya gharama ya sasa",
       "commonAreaBreakdown": "Uchanganuzi wa eneo la kawaida",
-      "payPreview": "Onyesho la Kuchungulia Bili",
-      "payUnavailable": "Injini ya bili bado haipatikani"
+      "commonAreaEstimate": "Ugawaji wa eneo la kawaida (makisio)",
+      "payOutstanding": "Lipa ₹{{amount}}",
+      "payAllDescription": "Bili zote ambazo hazijalipwa ({{number}})"
     },
     "tips": {
       "eyebrow": "Vidokezo",
@@ -66,8 +59,7 @@
     "empty": "Bado hakuna usomaji uliorekodiwa. Baada ya jumuiya yako kurekodi usomaji wa mita, itaonekana hapa.",
     "tabs": {
       "lastSixMonths": "Miezi 6 iliyopita",
-      "customRange": "Masafa Maalum",
-      "comingSoon": "Inakuja hivi karibuni"
+      "customRange": "Masafa Maalum"
     },
     "peakDay": "Siku ya kilele:",
     "lowestDay": "Siku ya chini kabisa:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Ramani ya joto ya matumizi ya kila siku",
-      "subtitle": "Uzito wa rangi huashiria siku nzito za matumizi (hakiki)."
+      "subtitle": "Uzito wa rangi huashiria siku nzito za matumizi (hakiki).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: hakuna data",
+      "less": "Chini",
+      "more": "Zaidi",
+      "noData": "Hakuna data"
     },
     "ranking": {
       "title": "Kiwango cha Rika katika Jamii",
-      "subtitle": "Cheo chako ikilinganishwa na vitengo sawa (hakiki).",
-      "ecoSaver": "Kiokoa Eco Inayotumika",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Kitengo {{number}}",
-      "yourUnit": "Kitengo chako",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Wewe)"
+      "subtitle": "Kaya yako dhidi ya kila kaya katika nyumba yako kwa {{month}}. Kiwango cha chini cha matumizi ni cha juu zaidi.",
+      "headline": "#{{rank}} kati ya {{total}} kaya",
+      "percentile": "Ulitumia maji kidogo kuliko {{percent}}% ya majirani zako.",
+      "min": "Chini kabisa",
+      "median": "Wastani",
+      "max": "Juu zaidi",
+      "youRow": "#{{rank}} Wewe",
+      "neighbourRow": "#{{rank}} Jirani",
+      "privacyNote": "Majirani hawatambuliki. Nambari za nyumba na majina hazionyeshwa kamwe.",
+      "empty": "Bado hakuna data ya kutosha kuorodhesha kaya yako."
+    },
+    "range": {
+      "from": "Kutoka",
+      "to": "Kwa",
+      "invalid": "Mwezi wa kuanza lazima usiwe baada ya mwezi wa mwisho.",
+      "noData": "Hakuna data ya matumizi katika safu hii."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Mzunguko wa Malipo: {{period}}",
       "allPaid": "Ankara zote zinalipwa",
       "payTotal": "Lipa Malipo Yanayodaiwa",
-      "payTotalUnavailable": "Malipo ya mtandaoni bado hayapatikani - lipa bili moja kwa moja na msimamizi wako wa jumuiya",
       "downloadSummary": "Pakua Muhtasari wa Muswada",
-      "downloadSummaryUnavailable": "Upakuaji wa muhtasari wa bili bado haupatikani"
+      "payAllDescription": "Bili zote ambazo hazijalipwa ({{number}})"
     },
     "history": {
       "title": "Historia ya ankara",
-      "exportCsv": "Hamisha Yote kwa CSV",
-      "exportUnavailable": "CSV uhamishaji bado haupatikani"
+      "exportCsv": "Hamisha Yote kwa CSV"
     },
     "table": {
       "cycle": "Mzunguko",
@@ -148,6 +151,17 @@
       "description": "Malipo ya mtandaoni bado hayapatikani - bili zitalipwa na msimamizi wako wa jumuiya moja kwa moja.",
       "manage": "Dhibiti Mbinu za Malipo",
       "manageUnavailable": "Njia za kulipa bado hazipatikani"
+    },
+    "csv": {
+      "cycle": "Kipindi cha bili",
+      "consumption": "Matumizi (kL)",
+      "baseAmount": "Kiasi cha msingi",
+      "tariffAmount": "Kiasi cha ushuru",
+      "commonAreaAmount": "Kiasi cha eneo la kawaida",
+      "totalAmount": "Jumla ya kiasi",
+      "paid": "Imelipwa",
+      "paidAt": "Imelipwa kwa",
+      "generatedAt": "Imetolewa saa"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Tafadhali usibonyeze nyuma au uonyeshe upya ukurasa huu",
     "success": "Malipo Yamefaulu",
     "error": "Hitilafu fulani imetokea wakati wa kuthibitisha malipo yako. Tafadhali jaribu tena.",
-    "retry": "Jaribu tena"
+    "retry": "Jaribu tena",
+    "simulationNotice": "Malipo yaliyoigwa kwa onyesho pekee. Hakuna malipo halisi yanayofanywa na hakuna pesa inayotozwa."
   },
   "notifications": {
     "loadError": "Haikuweza kupakia arifa zako. Tafadhali jaribu tena.",
@@ -213,6 +228,25 @@
       "notConfigured": "Arifa zinazotumwa na programu hata wakati huitumii bado hazijasanidiwa. Wasiliana na msimamizi wako.",
       "enableError": "Haikuweza kuwasha arifa zinazotumwa na programu hata wakati huitumii. Tafadhali jaribu tena.",
       "disableError": "Haikuweza kuzima arifa zinazotumwa na programu hata wakati huitumii. Tafadhali jaribu tena."
+    },
+    "tabs": {
+      "alerts": "Tahadhari",
+      "announcements": "Matangazo"
+    },
+    "announcements": {
+      "loadError": "Haikuweza kupakia matangazo. Tafadhali jaribu tena.",
+      "loading": "Inapakia matangazo...",
+      "empty": "Hakuna matangazo kutoka kwa msimamizi wako wa jumuiya kwa sasa.",
+      "pinned": "Imebandikwa",
+      "postedAt": "Ilichapishwa {{date}}",
+      "expiresAt": "Hadi {{date}}",
+      "category": {
+        "general": "Mkuu",
+        "maintenance": "Matengenezo",
+        "waterSupply": "Ugavi wa Maji",
+        "billing": "Bili",
+        "urgent": "Haraka"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Dawati la Msaada na Maswala ya Wakazi",
     "subtitle": "Wasilisha ripoti za uvujaji wa maji, maombi ya kurekebisha mita, au maswali ya bili moja kwa moja kwa msimamizi wako wa jumuiya na/au Msimamizi wa Mfumo.",
     "emptyCreateHint": "Eleza suala lako au wasiwasi wako hapa chini, na uchague nani anafaa kushughulikia."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Miezi 3 iliyopita",
+      "sixMonths": "Miezi 6 iliyopita",
+      "twelveMonths": "Miezi 12 iliyopita",
+      "custom": "Masafa Maalum"
+    },
+    "customRange": {
+      "from": "Kutoka",
+      "to": "Kwa",
+      "hint": "Chagua mwezi wa mwanzo na mwisho ili uone ripoti yako."
+    },
+    "loading": "Inapakia ripoti yako...",
+    "loadError": "Haikuweza kupakia ripoti yako. Tafadhali jaribu tena.",
+    "pdfError": "Haikuweza kupakua taarifa. Tafadhali jaribu tena.",
+    "downloading": "Inapakua...",
+    "downloadCsv": "Pakua CSV",
+    "downloadStatement": "Pakua Taarifa PDF",
+    "period": "Kipindi cha ripoti: {{from}} hadi {{to}}",
+    "cards": {
+      "totalUsage": "Jumla ya Matumizi",
+      "avgMonthly": "Wastani wa Matumizi ya Kila Mwezi",
+      "avgMonthlyHint": "Kwa miezi mingi na usomaji uliorekodiwa",
+      "change": "Badilisha dhidi ya Kipindi Kilichotangulia",
+      "changeHint": "{{previous}} katika {{from}} hadi {{to}}",
+      "changeNoData": "Hakuna matumizi katika kipindi cha awali kulinganisha",
+      "totalBilled": "Jumla Inayotozwa",
+      "totalPaid": "Jumla ya Kulipwa",
+      "outstanding": "Bora"
+    },
+    "chart": {
+      "title": "Matumizi na Malipo ya Kila Mwezi",
+      "subtitle": "Baa huonyesha matumizi (kL); mstari unaonyesha kiasi kinachotozwa ( ₹).",
+      "consumption": "Matumizi",
+      "billed": "Inatozwa"
+    },
+    "table": {
+      "title": "Uchanganuzi wa Mwezi kwa Mwezi",
+      "month": "Mwezi",
+      "consumption": "Matumizi (kL)",
+      "billed": "Inatozwa",
+      "paid": "Imelipwa",
+      "status": "Hali"
+    },
+    "status": {
+      "paid": "Imelipwa",
+      "unpaid": "Haijalipwa",
+      "notBilled": "Haijatozwa"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Maelezo ya akaunti",
+    "managedNote": "Msimamizi wako wa jumuiya anadhibiti maelezo haya. Wasiliana nao ikiwa chochote kinahitaji kubadilishwa.",
+    "loading": "Inapakia wasifu wako...",
+    "loadError": "Haikuweza kupakia wasifu wako. Tafadhali jaribu tena.",
+    "notSet": "Haijawekwa",
+    "flatSizeValue": "{{size}} futi za mraba",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Badilisha nenosiri",
+    "fields": {
+      "fullName": "Jina kamili",
+      "email": "Barua pepe",
+      "phone": "Simu",
+      "houseNumber": "Nambari ya nyumba",
+      "meterNumber": "Nambari ya mita",
+      "community": "Jumuiya",
+      "flatSize": "Ukubwa wa gorofa",
+      "joined": "Imejiunga"
+    }
   }
 }

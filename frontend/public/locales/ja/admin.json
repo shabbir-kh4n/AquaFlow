@@ -25,7 +25,6 @@
     "title": "{{community}} アパートのダッシュボード",
     "titleFallback": "あなたのアパートのダッシュボード",
     "subtitle": "水道事業のサブメーターと家庭の消費量の運用概要。",
-    "comingSoon": "近日公開",
     "manageCommunity": "コミュニティの管理",
     "noUsageReadings": "使用量の測定値はまだ記録されていません。",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "最新の記録月 ({{month}})",
       "noReadingsYet": "まだ測定値が記録されていません",
       "pendingAlerts": "保留中のアラート",
-      "anomalyPreview": "異常検出プレビュー — まだ利用できません"
+      "reviewAlerts": "アクティブなリーク/使用状況アラート — 今すぐ確認してください",
+      "noActiveAlerts": "アクティブなアラートはありません"
     },
     "actions": {
       "label": "迅速な管理アクション",
       "uploadReadings": "メーター測定値をアップロードする",
       "configureTariffs": "料金の設定",
-      "reportsNotBuilt": "レポートはまだ作成されていません",
       "downloadReports": "システムレポートのダウンロード"
     },
     "chart": {
       "title": "月間消費量の比較 (kL)",
       "subtitle": "過去 {{months}} か月: 目標消費量と実際の消費量。",
-      "targetSeries": "ターゲット (プレビュー)",
       "actualSeries": "実際の"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "プロフィールを保存できませんでした。もう一度試してください。",
     "apartmentSaveError": "アパートメントの詳細を保存できませんでした。もう一度試してください。",
     "specsTitle": "プロファイル仕様",
-    "photoUnavailable": "写真のアップロードはまだ利用できません",
-    "changePhoto": "写真を変更する",
-    "deletePhoto": "消去",
-    "photoHint": "JPG または PNG。最大サイズは2MB。",
     "saveProfile": "プロファイルの保存",
     "apartmentTitle": "アパートの詳細",
     "saveApartment": "アパートの詳細を保存",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "二要素認証はまだ利用できません",
       "twoFactorAria": "2 要素認証 (プレビューのみ)",
       "sessionsLabel": "アクティブな管理者セッション",
-      "sessionsEmpty": "セッション追跡はまだ利用できません。これは今後のレイアウトのプレビューです。"
-    }
+      "sessionsEmpty": "セッション追跡はまだ利用できません。これは今後のレイアウトのプレビューです。",
+      "previewNote": "プレビューのみ: 2 要素認証とセッション追跡はまだ利用できません。"
+    },
+    "avatarLabel": "アバター",
+    "passwordTitle": "パスワードを変更する"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "居住者チケット",
       "subtitle": "サポート チケットと、コミュニティの住民があなたに寄せた懸念事項。"
+    }
+  },
+  "reports": {
+    "loadError": "コミュニティ レポートを読み込めませんでした。もう一度試してください。",
+    "pdfError": "PDF レポートをダウンロードできませんでした。もう一度試してください。",
+    "loading": "レポートを読み込み中…",
+    "empty": "この範囲のデータを持つ世帯はありません。",
+    "noMatch": "「{{search}}」に一致する世帯はありません。",
+    "searchPlaceholder": "家、居住者、またはメーター番号でフィルターします。",
+    "downloadCsv": "ダウンロード CSV",
+    "downloadPdf": "PDF の概要をダウンロード",
+    "downloadingPdf": "PDF を準備しています…",
+    "ranges": {
+      "threeMonths": "過去 3 か月",
+      "sixMonths": "過去6ヶ月",
+      "twelveMonths": "過去 12 か月",
+      "custom": "カスタム範囲"
+    },
+    "customRange": {
+      "from": "から",
+      "to": "に",
+      "hint": "レポートをロードする開始月と終了月の両方を選択します。"
+    },
+    "cards": {
+      "totalConsumption": "総消費量",
+      "households": "{{total}} 世帯全体",
+      "avgMonthly": "月間平均消費量",
+      "communityWide": "コミュニティ全体、月ごと",
+      "billed": "請求済み",
+      "finalizedOnly": "完了およびアーカイブされたサイクルのみ",
+      "paid": "有料",
+      "invoices": "{{total}} 件の請求書が発行されました",
+      "outstanding": "並外れた",
+      "unpaidInvoices": "{{total}} 件の未払いの請求書",
+      "collectionRate": "回収率"
+    },
+    "costs": {
+      "title": "コストと収益",
+      "commonArea": "共益費請求",
+      "bulkCost": "水の一括購入費用",
+      "bulkVolume": "大量に購入した水",
+      "bulkCount": "{{total}} 個の購入品",
+      "billedMinusBulk": "請求された収益からバルクコストを差し引いたもの",
+      "note": "一括購入はコストを可視化するために追跡され、世帯に直接請求されることはありません。"
+    },
+    "top": {
+      "title": "上位の消費者",
+      "empty": "この範囲では消費量は記録されません。"
+    },
+    "charts": {
+      "consumptionTitle": "月間消費量",
+      "consumptionSeries": "消費",
+      "billingTitle": "請求済み vs 有料 vs 一括費用",
+      "billedSeries": "請求済み",
+      "paidSeries": "有料",
+      "bulkSeries": "まとめ買い費用",
+      "empty": "この範囲のデータはありません。"
+    },
+    "sort": {
+      "label": "並べ替え",
+      "toggleDirection": "並べ替え方向の切り替え",
+      "asc": "↑昇順",
+      "desc": "↓ 説明"
+    },
+    "table": {
+      "house": "家",
+      "resident": "居住者",
+      "meter": "メーター",
+      "totalKl": "合計 kL",
+      "avgMonthlyKl": "月平均 kL",
+      "billed": "請求済み",
+      "paid": "有料",
+      "outstanding": "並外れた"
+    }
+  },
+  "announcements": {
+    "loadError": "お知らせを読み込めませんでした。もう一度試してください。",
+    "removeError": "このお知らせを削除できませんでした。もう一度試してください。",
+    "loading": "お知らせを読み込んでいます…",
+    "empty": "まだ発表はありません。 「新しいお知らせ」をクリックして、住民に通知します。",
+    "count": "お知らせ: {{total}}",
+    "newButton": "+ 新しいお知らせ",
+    "pinned": "固定された",
+    "expired": "期限切れ",
+    "postedAt": "投稿しました {{date}}",
+    "updatedAt": "編集済み {{date}}",
+    "expiresAt": "有効期限が切れます {{date}}",
+    "category": {
+      "general": "一般的な",
+      "maintenance": "メンテナンス",
+      "waterSupply": "給水",
+      "billing": "請求する",
+      "urgent": "緊急"
+    },
+    "form": {
+      "addTitle": "新しいお知らせ",
+      "editTitle": "お知らせの編集",
+      "addSubtitle": "住民は通知ページでこれを確認し、プッシュ通知を有効にしている人にはすぐに通知が届きます。",
+      "editSubtitle": "編集により、アナウンスが更新されます。住民には再度通知されません。",
+      "title": "タイトル",
+      "category": "カテゴリ",
+      "expiresAt": "有効期限切れ (オプション)",
+      "body": "メッセージ",
+      "pinned": "住民のお知らせの先頭にピン留めする",
+      "requiredFields": "タイトルとメッセージを入力してください。",
+      "saveError": "このお知らせを保存できませんでした。詳細をご確認ください。",
+      "publish": "公開"
+    },
+    "confirm": {
+      "title": "お知らせを削除しますか?",
+      "body": "すべての住民の「{{title}}」が削除されます。これを元に戻すことはできません。",
+      "delete": "消去",
+      "deleting": "削除中…"
     }
   }
 }

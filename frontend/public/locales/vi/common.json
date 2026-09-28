@@ -222,6 +222,14 @@
         "title": "Hỗ trợ / Mối quan tâm",
         "subtitle": "Gửi yêu cầu của riêng bạn cho Quản trị viên hệ thống hoặc xử lý các mối quan ngại mà cư dân của bạn đã gửi cho bạn."
       },
+      "reports": {
+        "title": "Báo cáo cộng đồng",
+        "subtitle": "Số liệu về mức tiêu thụ, thanh toán, thu tiền và mua số lượng lớn cho cộng đồng của bạn."
+      },
+      "announcements": {
+        "title": "Thông báo",
+        "subtitle": "Xuất bản thông báo toàn cộng đồng cho cư dân của bạn."
+      },
       "profile": {
         "title": "Cài đặt & Hồ sơ",
         "subtitle": "Quản lý chi tiết tài khoản và thông tin căn hộ của bạn."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Quản trị viên cộng đồng",
     "notBuilt": "{{label}} chưa được xây dựng",
     "searchPlaceholder": "Tìm kiếm bất cứ điều gì…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Báo cáo",
-      "description": "Báo cáo về mức tiêu thụ, thanh toán và bảo tồn cho cộng đồng của bạn."
-    },
-    "announcements": {
-      "title": "Thông báo",
-      "description": "Gửi thông báo toàn cộng đồng tới cư dân của bạn."
-    }
   },
   "comingSoon": {
     "title": "{{title}} sắp ra mắt"
@@ -261,7 +259,9 @@
       "billing": "Thanh toán & Hóa đơn",
       "notifications": "Thông báo",
       "recommendations": "Khuyến nghị",
-      "support": "Hỗ trợ / Mối quan tâm"
+      "support": "Hỗ trợ / Mối quan tâm",
+      "reports": "Báo cáo sử dụng và chi tiêu của bạn",
+      "profile": "Hồ sơ của tôi"
     },
     "defaultTitle": "Bảng điều khiển thường trú",
     "navLabel": "Điều hướng thường trú",
@@ -277,7 +277,8 @@
       "communities": "Cộng đồng",
       "reports": "Báo cáo",
       "supportTickets": "Vé hỗ trợ",
-      "systemStatus": "Trạng thái hệ thống"
+      "systemStatus": "Trạng thái hệ thống",
+      "profile": "Hồ sơ"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Trạng thái hệ thống",
         "subtitle": "Kết nối phụ trợ và tình trạng thời gian chạy cơ bản."
+      },
+      "profile": {
+        "title": "Hồ sơ",
+        "subtitle": "Tài khoản, hình đại diện và mật khẩu của bạn"
       }
     },
     "fallbackName": "Quản trị hệ thống",
@@ -308,5 +313,40 @@
     "buttonLabel": "Ngôn ngữ: {{language}}",
     "searchPlaceholder": "Tìm kiếm ngôn ngữ…",
     "noMatches": "Không có kết quả phù hợp"
+  },
+  "avatarPicker": {
+    "label": "Chọn một hình đại diện",
+    "hint": "Chọn một trong các hình đại diện cài sẵn hoặc sử dụng tên viết tắt của bạn.",
+    "change": "Thay đổi",
+    "cancel": "Hủy bỏ",
+    "useInitials": "Sử dụng tên viết tắt",
+    "optionLabel": "Hình đại diện {{number}}",
+    "save": "Lưu hình đại diện",
+    "saving": "Đang lưu…",
+    "saved": "Đã cập nhật hình đại diện",
+    "saveError": "Không thể cập nhật hình đại diện của bạn. Vui lòng thử lại."
+  },
+  "changePassword": {
+    "current": "Mật khẩu hiện tại",
+    "new": "Mật khẩu mới",
+    "confirm": "Xác nhận mật khẩu mới",
+    "hint": "Ít nhất {{min}} ký tự.",
+    "tooShort": "Mật khẩu mới phải có ít nhất {{min}} ký tự.",
+    "mismatch": "Mật khẩu mới không khớp.",
+    "sameAsCurrent": "Mật khẩu mới phải khác với mật khẩu hiện tại của bạn.",
+    "submit": "Cập nhật mật khẩu",
+    "saving": "Đang cập nhật…",
+    "success": "Mật khẩu của bạn đã được cập nhật.",
+    "error": "Không thể cập nhật mật khẩu của bạn. Vui lòng thử lại."
+  },
+  "search": {
+    "kindPage": "Trang",
+    "kindRecord": "Kết quả",
+    "loading": "Đang tìm kiếm…",
+    "noResults": "Không có kết quả phù hợp",
+    "recordsUnavailable": "Chỉ có thể tìm kiếm các trang ngay bây giờ.",
+    "invoiceLabel": "Hóa đơn {{period}}",
+    "paid": "Trả",
+    "unpaid": "Chưa thanh toán"
   }
 }

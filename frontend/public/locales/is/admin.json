@@ -25,7 +25,6 @@
     "title": "{{community}} Mælaborð íbúða",
     "titleFallback": "Mælaborð íbúðarinnar þíns",
     "subtitle": "Rekstraryfirlit fyrir undirmælingu vatnsveitu og heimilisnotkun.",
-    "comingSoon": "Kemur bráðum",
     "manageCommunity": "Stjórna samfélagi",
     "noUsageReadings": "Engar notkunarlestur skráðar ennþá.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Síðasti skráði mánuðurinn ({{month}})",
       "noReadingsYet": "Enginn lestur skráður ennþá",
       "pendingAlerts": "Tilkynningar í bið",
-      "anomalyPreview": "Forskoðun fráviksgreiningar — ekki enn tiltæk"
+      "reviewAlerts": "Virkar leka / notkunarviðvaranir - skoðaðu núna",
+      "noActiveAlerts": "Engar virkar viðvaranir"
     },
     "actions": {
       "label": "Fljótlegar stjórnunaraðgerðir",
       "uploadReadings": "Hladdu upp mæligildum",
       "configureTariffs": "Stilla gjaldskrár",
-      "reportsNotBuilt": "Skýrslur eru ekki smíðaðar enn",
       "downloadReports": "Sækja kerfisskýrslur"
     },
     "chart": {
       "title": "Mánaðarlegur neyslusamanburður (kL)",
       "subtitle": "Síðustu {{months}} mánuðir: markmið á móti raunverulegri neyslu.",
-      "targetSeries": "Miða (forskoðun)",
       "actualSeries": "Raunverulegt"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ekki tókst að vista prófílinn þinn. Vinsamlegast reyndu aftur.",
     "apartmentSaveError": "Ekki tókst að vista upplýsingar um íbúð. Vinsamlegast reyndu aftur.",
     "specsTitle": "Upplýsingar um prófíl",
-    "photoUnavailable": "Ekki er hægt að hlaða upp myndum ennþá",
-    "changePhoto": "Breyta mynd",
-    "deletePhoto": "Eyða",
-    "photoHint": "JPG eða PNG. Hámarksstærð 2MB.",
     "saveProfile": "Vista prófíl",
     "apartmentTitle": "Upplýsingar um íbúð",
     "saveApartment": "Vistaðu upplýsingar um íbúð",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Tvíþætt auðkenning er ekki í boði ennþá",
       "twoFactorAria": "Tveggja þátta auðkenning (aðeins forskoðun)",
       "sessionsLabel": "Virkar stjórnunarlotur",
-      "sessionsEmpty": "Setumæling er ekki í boði ennþá - þetta er sýnishorn af væntanlegu skipulagi."
-    }
+      "sessionsEmpty": "Setumæling er ekki í boði ennþá - þetta er sýnishorn af væntanlegu skipulagi.",
+      "previewNote": "Aðeins forskoðun: tveggja þátta auðkenning og loturakning eru ekki tiltæk ennþá."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Breyta lykilorði"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Miðar fyrir íbúa",
       "subtitle": "Stuðningsmiðar og áhyggjur íbúar í samfélaginu þínu hafa beint til þín."
+    }
+  },
+  "reports": {
+    "loadError": "Ekki tókst að hlaða samfélagsskýrslunni. Vinsamlegast reyndu aftur.",
+    "pdfError": "Gat ekki hlaðið niður PDF skýrslunni. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður skýrslu...",
+    "empty": "Engin heimili með gögn á þessu bili.",
+    "noMatch": "Engin heimili passa við „{{search}}“.",
+    "searchPlaceholder": "Sía eftir húsi, íbúa eða mælinr.",
+    "downloadCsv": "Sækja CSV",
+    "downloadPdf": "Sækja PDF samantekt",
+    "downloadingPdf": "Undirbýr PDF...",
+    "ranges": {
+      "threeMonths": "Síðustu 3 mánuðir",
+      "sixMonths": "Síðustu 6 mánuðir",
+      "twelveMonths": "Síðustu 12 mánuðir",
+      "custom": "Sérsniðið úrval"
+    },
+    "customRange": {
+      "from": "Frá",
+      "to": "Til",
+      "hint": "Veldu bæði upphafs- og lokamánuð til að hlaða skýrslunni."
+    },
+    "cards": {
+      "totalConsumption": "Heildarneysla",
+      "households": "Á {{total}} heimilum",
+      "avgMonthly": "Meðal mánaðarleg neysla",
+      "communityWide": "Um allt samfélagið, á mánuði",
+      "billed": "Innheimt",
+      "finalizedOnly": "Lokaðar og geymdar lotur eingöngu",
+      "paid": "Greitt",
+      "invoices": "{{total}} reikningar gefnir út",
+      "outstanding": "Framúrskarandi",
+      "unpaidInvoices": "{{total}} ógreiddir reikningar",
+      "collectionRate": "Innheimtuhlutfall"
+    },
+    "costs": {
+      "title": "Kostnaður vs. tekjur",
+      "commonArea": "Sameignargjöld innheimt",
+      "bulkCost": "Innkaupakostnaður á magnvatni",
+      "bulkVolume": "Mikið vatn keypt",
+      "bulkCount": "{{total}} kaup",
+      "billedMinusBulk": "Innheimtar tekjur að frádregnum magnkostnaði",
+      "note": "Magninnkaup eru fylgst með kostnaðarsýnileika og eru ekki innheimt beint á heimilin."
+    },
+    "top": {
+      "title": "Topp neytendur",
+      "empty": "Engin neysla skráð á þessu sviði."
+    },
+    "charts": {
+      "consumptionTitle": "Mánaðarleg neysla",
+      "consumptionSeries": "Neysla",
+      "billingTitle": "Innheimtur vs. greiddur vs magnkostnaður",
+      "billedSeries": "Innheimt",
+      "paidSeries": "Greitt",
+      "bulkSeries": "Magnkaupskostnaður",
+      "empty": "Engin gögn fyrir þetta svið."
+    },
+    "sort": {
+      "label": "Raða eftir",
+      "toggleDirection": "Skiptu um flokkunarstefnu",
+      "asc": "↑ Asc",
+      "desc": "↓ Skýrsla"
+    },
+    "table": {
+      "house": "Hús",
+      "resident": "Íbúi",
+      "meter": "Mælir",
+      "totalKl": "Samtals kL",
+      "avgMonthlyKl": "Meðal mánaðarlegt kL",
+      "billed": "Innheimt",
+      "paid": "Greitt",
+      "outstanding": "Framúrskarandi"
+    }
+  },
+  "announcements": {
+    "loadError": "Ekki tókst að hlaða tilkynningum. Vinsamlegast reyndu aftur.",
+    "removeError": "Ekki tókst að eyða þessari tilkynningu. Vinsamlegast reyndu aftur.",
+    "loading": "Hleður tilkynningar...",
+    "empty": "Engar tilkynningar ennþá. Smelltu á „Ný tilkynning“ til að láta íbúa vita.",
+    "count": "Tilkynningar: {{total}}",
+    "newButton": "+ Ný tilkynning",
+    "pinned": "Festist",
+    "expired": "Útrunnið",
+    "postedAt": "Sent {{date}}",
+    "updatedAt": "Breytti {{date}}",
+    "expiresAt": "Rennur út {{date}}",
+    "category": {
+      "general": "Almennt",
+      "maintenance": "Viðhald",
+      "waterSupply": "Vatnsveita",
+      "billing": "Innheimta",
+      "urgent": "Brýnt"
+    },
+    "form": {
+      "addTitle": "Ný tilkynning",
+      "editTitle": "Breyta tilkynningu",
+      "addSubtitle": "Íbúar sjá þetta á tilkynningasíðunni sinni og allir sem eru með ýtt tilkynningar virkar fá tilkynningu strax.",
+      "editSubtitle": "Breytingar uppfæra tilkynninguna á sínum stað. Íbúar eru ekki látnir vita aftur.",
+      "title": "Titill",
+      "category": "Flokkur",
+      "expiresAt": "Rennur út (valfrjálst)",
+      "body": "Skilaboð",
+      "pinned": "Festu efst í tilkynningum íbúa",
+      "requiredFields": "Vinsamlega sláðu inn titil og skilaboð.",
+      "saveError": "Ekki tókst að vista þessa tilkynningu. Vinsamlegast athugaðu upplýsingarnar.",
+      "publish": "Birta"
+    },
+    "confirm": {
+      "title": "Eyða tilkynningu?",
+      "body": "„{{title}}“ verður fjarlægt fyrir alla íbúa. Þetta er ekki hægt að afturkalla.",
+      "delete": "Eyða",
+      "deleting": "Eyðir..."
     }
   }
 }

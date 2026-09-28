@@ -222,6 +222,14 @@
         "title": "Cefnogaeth / Pryderon",
         "subtitle": "Codwch eich tocynnau eich hun i Weinyddwr y System, neu ymdrin â phryderon y mae eich preswylwyr wedi'u cyfeirio atoch."
       },
+      "reports": {
+        "title": "Adroddiadau Cymunedol",
+        "subtitle": "Ffigurau defnydd, bilio, casglu a swmpbrynu ar gyfer eich cymuned."
+      },
+      "announcements": {
+        "title": "Cyhoeddiadau",
+        "subtitle": "Cyhoeddi hysbysiadau cymunedol i'ch preswylwyr."
+      },
       "profile": {
         "title": "Gosodiadau a Phroffil",
         "subtitle": "Rheoli manylion eich cyfrif a gwybodaeth am fflat."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Gweinyddiaeth Gymunedol",
     "notBuilt": "{{label}} heb ei adeiladu eto",
     "searchPlaceholder": "Chwiliwch unrhyw beth…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Adroddiadau",
-      "description": "Adroddiadau defnydd, bilio a chadwraeth ar gyfer eich cymuned."
-    },
-    "announcements": {
-      "title": "Cyhoeddiadau",
-      "description": "Anfonwch gyhoeddiadau cymunedol i'ch preswylwyr."
-    }
   },
   "comingSoon": {
     "title": "{{title}} yn dod yn fuan"
@@ -261,7 +259,9 @@
       "billing": "Bilio ac Anfonebau",
       "notifications": "Hysbysiadau",
       "recommendations": "Argymhellion",
-      "support": "Cefnogaeth / Pryderon"
+      "support": "Cefnogaeth / Pryderon",
+      "reports": "Eich adroddiadau defnydd a gwariant",
+      "profile": "Fy mhroffil"
     },
     "defaultTitle": "Dangosfwrdd Preswylwyr",
     "navLabel": "Mordwyo preswylwyr",
@@ -277,7 +277,8 @@
       "communities": "Cymunedau",
       "reports": "Adroddiadau",
       "supportTickets": "Tocynnau Cefnogi",
-      "systemStatus": "Statws System"
+      "systemStatus": "Statws System",
+      "profile": "Proffil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Statws System",
         "subtitle": "Cysylltedd ôl-gefn ac iechyd amser rhedeg sylfaenol."
+      },
+      "profile": {
+        "title": "Proffil",
+        "subtitle": "Eich cyfrif, avatar a chyfrinair"
       }
     },
     "fallbackName": "Gweinyddwr System",
@@ -308,5 +313,40 @@
     "buttonLabel": "Iaith: {{language}}",
     "searchPlaceholder": "Chwilio iaith…",
     "noMatches": "Dim gemau"
+  },
+  "avatarPicker": {
+    "label": "Dewiswch avatar",
+    "hint": "Dewiswch un o'r avatars rhagosodedig, neu defnyddiwch eich blaenlythrennau.",
+    "change": "Newid",
+    "cancel": "Canslo",
+    "useInitials": "Defnyddiwch lythrennau blaen",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Arbed avatar",
+    "saving": "Wrthi'n cadw…",
+    "saved": "Avatar wedi'i ddiweddaru",
+    "saveError": "Methu â diweddaru'ch avatar. Ceisiwch eto."
+  },
+  "changePassword": {
+    "current": "Cyfrinair cyfredol",
+    "new": "Cyfrinair newydd",
+    "confirm": "Cadarnhau cyfrinair newydd",
+    "hint": "O leiaf {{min}} nod.",
+    "tooShort": "Rhaid i gyfrinair newydd fod o leiaf {{min}} nod.",
+    "mismatch": "Nid yw'r cyfrineiriau newydd yn cyfateb.",
+    "sameAsCurrent": "Rhaid i gyfrinair newydd fod yn wahanol i'ch cyfrinair cyfredol.",
+    "submit": "Diweddaru cyfrinair",
+    "saving": "Wrthi'n diweddaru…",
+    "success": "Mae eich cyfrinair wedi'i ddiweddaru.",
+    "error": "Methu diweddaru eich cyfrinair. Ceisiwch eto."
+  },
+  "search": {
+    "kindPage": "Tudalen",
+    "kindRecord": "Canlyniad",
+    "loading": "Wrthi'n chwilio…",
+    "noResults": "Dim gemau",
+    "recordsUnavailable": "Dim ond tudalennau y gellir eu chwilio ar hyn o bryd.",
+    "invoiceLabel": "Anfoneb {{period}}",
+    "paid": "Talwyd",
+    "unpaid": "Di-dâl"
   }
 }

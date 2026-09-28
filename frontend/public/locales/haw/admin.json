@@ -25,7 +25,6 @@
     "title": "{{community}} Papa Papahana Hale",
     "titleFallback": "ʻO kāu papa kuhikuhi hale",
     "subtitle": "ʻO ka hōʻuluʻulu hana no ka sub-metering pono wai a me ka hoʻohana ʻana i ka hale.",
-    "comingSoon": "Hele koke",
     "manageCommunity": "Hooponopono Kaiaulu",
     "noUsageReadings": "ʻAʻohe heluhelu hoʻohana i hoʻopaʻa ʻia.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Mahina i hoʻopaʻa ʻia ({{month}})",
       "noReadingsYet": "ʻAʻohe heluhelu i hoʻopaʻa ʻia",
       "pendingAlerts": "E kali ana i na makaala",
-      "anomalyPreview": "Nāmua ʻike anomaly — ʻaʻole i loaʻa"
+      "reviewAlerts": "Nā mākaʻikaʻi leak / hoʻohana - e nānā i kēia manawa",
+      "noActiveAlerts": "ʻAʻohe mākaʻikaʻi hana"
     },
     "actions": {
       "label": "Nā hana hoʻoponopono wikiwiki",
       "uploadReadings": "Hoʻouka i nā Heluhelu Mika",
       "configureTariffs": "E hoʻonohonoho i nā kumukūʻai",
-      "reportsNotBuilt": "ʻAʻole i kūkulu ʻia nā hōʻike",
       "downloadReports": "Hoʻoiho i nā Pūnaewele Pūnaewele"
     },
     "chart": {
       "title": "Hoʻohālikelike Hoʻohana Mahina (kL)",
       "subtitle": "{{months}} mahina i hala iho nei: pahu hopu vs. hoʻohana maoli.",
-      "targetSeries": "Pahuhopu (nānā)",
       "actualSeries": "ʻOiaʻiʻo"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "ʻAʻole hiki ke mālama i kāu ʻaoʻao. E ʻoluʻolu e hoʻāʻo hou.",
     "apartmentSaveError": "ʻAʻole hiki ke mālama i nā kikoʻī hale. E ʻoluʻolu e hoʻāʻo hou.",
     "specsTitle": "Nā ʻōlelo kikoʻī",
-    "photoUnavailable": "ʻAʻole i loaʻa ka hoʻouka kiʻi",
-    "changePhoto": "Hoʻololi Kiʻi",
-    "deletePhoto": "Holoi",
-    "photoHint": "JPG a i ʻole PNG. 2MB ka nui nui.",
     "saveProfile": "E mālama i ka moʻolelo",
     "apartmentTitle": "Nā kikoʻī hale",
     "saveApartment": "E mālama i nā kikoʻī o ke keʻena",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "ʻAʻole i loaʻa ka hōʻoia ʻelua kumu",
       "twoFactorAria": "ʻO ka hōʻoia ʻelua kumu (nānā wale nō)",
       "sessionsLabel": "Nā Kau Luna Hoʻoikaika",
-      "sessionsEmpty": "ʻAʻole i loaʻa ka hoʻopaʻa ʻana i kēia manawa - he ʻike mua kēia o ka hoʻolālā e hiki mai ana."
-    }
+      "sessionsEmpty": "ʻAʻole i loaʻa ka hoʻopaʻa ʻana i kēia manawa - he ʻike mua kēia o ka hoʻolālā e hiki mai ana.",
+      "previewNote": "Nāmua wale nō: ʻaʻole i loaʻa ka hōʻoia ʻelua kumu a me ka nānā ʻana i ka wā."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Hoʻololi i ka ʻōlelo huna"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Kikiki Kupa",
       "subtitle": "Kākoʻo nā tikiki a me nā hopohopo i kamaʻilio ʻia e nā kamaʻāina o kou kaiāulu iā ʻoe."
+    }
+  },
+  "reports": {
+    "loadError": "ʻAʻole hiki ke hoʻouka i ka hōʻike kaiaulu. E ʻoluʻolu e hoʻāʻo hou.",
+    "pdfError": "ʻAʻole hiki ke hoʻoiho i ka hōʻike PDF. E ʻoluʻolu e hoʻāʻo hou.",
+    "loading": "Ke hoʻouka nei i ka hōʻike…",
+    "empty": "ʻAʻohe hale me ka ʻikepili ma kēia pae.",
+    "noMatch": "ʻAʻohe hale pili me \"{{search}}\".",
+    "searchPlaceholder": "E kānana ma ka hale, kama'āina, a i ʻole mika no.",
+    "downloadCsv": "Hoʻoiho CSV",
+    "downloadPdf": "Hoʻoiho PDF Hōʻuluʻulu manaʻo",
+    "downloadingPdf": "Ke hoʻomākaukau nei PDF…",
+    "ranges": {
+      "threeMonths": "3 mahina i hala",
+      "sixMonths": "6 mahina i hala",
+      "twelveMonths": "12 mahina i hala",
+      "custom": "Laulā maʻamau"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "I ka",
+      "hint": "E koho i ka mahina hoʻomaka a me ka mahina hope e hoʻouka i ka hōʻike."
+    },
+    "cards": {
+      "totalConsumption": "Huina pau",
+      "households": "Ma waena o {{total}} hale",
+      "avgMonthly": "Hoʻohana ʻia i kēlā me kēia mahina",
+      "communityWide": "Kaiaulu-nui, no ka mahina",
+      "billed": "Pili ʻia",
+      "finalizedOnly": "Hoʻopau ʻia a mālama ʻia nā pōʻai wale nō",
+      "paid": "Ukuia",
+      "invoices": "{{total}} hoʻopuka ʻia nā palapala",
+      "outstanding": "Kūlana",
+      "unpaidInvoices": "{{total}} uku ʻole ʻia",
+      "collectionRate": "Ka helu ohi"
+    },
+    "costs": {
+      "title": "Nā Koina vs",
+      "commonArea": "ʻAi ʻia nā uku ʻāina maʻamau",
+      "bulkCost": "ʻO ke kumukūʻai kūʻai wai nui",
+      "bulkVolume": "Ua kūʻai ʻia ka wai nui",
+      "bulkCount": "{{total}} kūʻai",
+      "billedMinusBulk": "Loaʻa kālā hoʻemi ʻia ke kumu kūʻai nui",
+      "note": "Hoʻopili ʻia nā kūʻai nui no ka ʻike ʻana i ke kumukūʻai a ʻaʻole i uku pololei ʻia i nā ʻohana."
+    },
+    "top": {
+      "title": "Nā mea kūʻai nui",
+      "empty": "ʻAʻohe hoʻohana i hoʻopaʻa ʻia ma kēia pae."
+    },
+    "charts": {
+      "consumptionTitle": "Hoʻohana i kēlā me kēia mahina",
+      "consumptionSeries": "Hoʻohana",
+      "billingTitle": "Hoʻopaʻa ʻia vs",
+      "billedSeries": "Pili ʻia",
+      "paidSeries": "Ukuia",
+      "bulkSeries": "ʻO ke kumukūʻai kūʻai nui",
+      "empty": "ʻAʻohe ʻikepili no kēia laulima."
+    },
+    "sort": {
+      "label": "Hoʻokaʻawale",
+      "toggleDirection": "E hoʻololi i ke kuhikuhi ʻana",
+      "asc": "↑ Asc",
+      "desc": "↓ Hōʻike"
+    },
+    "table": {
+      "house": "Hale",
+      "resident": "kamaaina",
+      "meter": "Mika",
+      "totalKl": "Huina kL",
+      "avgMonthlyKl": "Awelika o kēlā me kēia mahina kL",
+      "billed": "Pili ʻia",
+      "paid": "Ukuia",
+      "outstanding": "Kūlana"
+    }
+  },
+  "announcements": {
+    "loadError": "ʻAʻole hiki ke hoʻouka i nā hoʻolaha. E ʻoluʻolu e hoʻāʻo hou.",
+    "removeError": "ʻAʻole hiki ke holoi i kēia hoʻolaha. E ʻoluʻolu e hoʻāʻo hou.",
+    "loading": "Ke hoʻouka nei i nā hoʻolaha…",
+    "empty": "ʻAʻohe hoʻolaha i kēia manawa. Kaomi \"Hoʻolaha Hou\" e hoʻomaopopo i kāu poʻe kamaʻāina.",
+    "count": "Nā Hoʻolaha: {{total}}",
+    "newButton": "+ Hoʻolaha Hou",
+    "pinned": "Hoʻopaʻa ʻia",
+    "expired": "Pau",
+    "postedAt": "Hoʻouna ʻia {{date}}",
+    "updatedAt": "Hoʻoponopono ʻia {{date}}",
+    "expiresAt": "Pau {{date}}",
+    "category": {
+      "general": "Generala",
+      "maintenance": "Ka malama ana",
+      "waterSupply": "Waiwai",
+      "billing": "Pili kālā",
+      "urgent": "Koke"
+    },
+    "form": {
+      "addTitle": "Hoolaha Hou",
+      "editTitle": "Hoʻoponopono Hoʻolaha",
+      "addSubtitle": "ʻIke ka poʻe kamaʻāina i kēia ma kā lākou ʻaoʻao Hoʻolaha, a hoʻolaha koke ʻia ka poʻe me ka hoʻolaha pana.",
+      "editSubtitle": "Hoʻoponopono nā hoʻoponopono i ka hoʻolaha ma kahi. ʻAʻole hoʻolaha hou ʻia nā kamaʻāina.",
+      "title": "Poʻo inoa",
+      "category": "Māhele",
+      "expiresAt": "Pau (koho)",
+      "body": "ʻŌlelo",
+      "pinned": "Pin i luna o nā hoʻolaha o nā kamaʻāina",
+      "requiredFields": "E ʻoluʻolu e hoʻokomo i kahi poʻo inoa a me kahi memo.",
+      "saveError": "ʻAʻole hiki ke mālama i kēia hoʻolaha. E ʻoluʻolu e nānā i nā kikoʻī.",
+      "publish": "Hoolaha"
+    },
+    "confirm": {
+      "title": "Holoi i ka hoʻolaha?",
+      "body": "\"{{title}}\" e wehe ʻia no nā kamaʻāina āpau. ʻAʻole hiki ke hoʻopau ʻia kēia.",
+      "delete": "Holoi",
+      "deleting": "Holoi ana…"
     }
   }
 }

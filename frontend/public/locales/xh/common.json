@@ -222,6 +222,14 @@
         "title": "Inkxaso / Iinkxalabo",
         "subtitle": "Phakamisa awakho amatikiti kuLawulo lweNkqubo, okanye uphathe iinkxalabo abahlali bakho abazibhekise kuwe."
       },
+      "reports": {
+        "title": "Iingxelo zoluntu",
+        "subtitle": "Ukusetyenziswa, ukuhlawula, ukuqokelelwa, kunye namanani okuthenga ngobuninzi kuluntu lwakho."
+      },
+      "announcements": {
+        "title": "Izaziso",
+        "subtitle": "Papasha izaziso kuluntu ngokubanzi kubahlali bakho."
+      },
       "profile": {
         "title": "Iisetingi kunye neProfayili",
         "subtitle": "Lawula iinkcukacha zeakhawunti yakho kunye nolwazi lwefulethi."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} ayikakhiwa",
     "searchPlaceholder": "Phendla nantoni na..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Iingxelo",
-      "description": "Ukusetyenziswa, ukuhlawula, kunye neengxelo zolondolozo kuluntu lwakho."
-    },
-    "announcements": {
-      "title": "Izaziso",
-      "description": "Thumela izaziso zoluntu ngokubanzi kubahlali bakho."
-    }
   },
   "comingSoon": {
     "title": "{{title}} iyeza kwakamsinya"
@@ -261,7 +259,9 @@
       "billing": "Iintlawulo kunye nee-invoyisi",
       "notifications": "Izaziso",
       "recommendations": "Iingcebiso",
-      "support": "Inkxaso / Iinkxalabo"
+      "support": "Inkxaso / Iinkxalabo",
+      "reports": "Iingxelo zakho zokusetyenziswa kunye nenkcitho",
+      "profile": "Iprofayile yam"
     },
     "defaultTitle": "Ideshibhodi yabahlali",
     "navLabel": "Ukuzulazula kwabahlali",
@@ -277,7 +277,8 @@
       "communities": "Uluntu",
       "reports": "Iingxelo",
       "supportTickets": "Amatikiti enkxaso",
-      "systemStatus": "Ubume beNkqubo"
+      "systemStatus": "Ubume beNkqubo",
+      "profile": "Inkangeleko yesimo"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Ubume beNkqubo",
         "subtitle": "Uqhagamshelo lwasemva kunye nempilo esisiseko yexesha lokusebenza."
+      },
+      "profile": {
+        "title": "Inkangeleko yesimo",
+        "subtitle": "Iakhawunti yakho, avatar kunye negama lokugqitha"
       }
     },
     "fallbackName": "Ulawulo lweNkqubo",
@@ -308,5 +313,40 @@
     "buttonLabel": "Ulwimi: {{language}}",
     "searchPlaceholder": "Phendla ulwimi...",
     "noMatches": "Akukho midlalo"
+  },
+  "avatarPicker": {
+    "label": "Khetha i-avatar",
+    "hint": "Khetha enye yee-avatar ezisetwe kwangaphambili, okanye usebenzise iiinishiyali zakho.",
+    "change": "Guqula",
+    "cancel": "Rhoxisa",
+    "useInitials": "Sebenzisa oonobumba bokuqala",
+    "optionLabel": "I-avatar {{number}}",
+    "save": "Gcina i-avatar",
+    "saving": "Iyagcina...",
+    "saved": "IAvatar ihlaziyiwe",
+    "saveError": "Ayikwazanga ukuhlaziya i-avatar yakho. Nceda zama kwakhona."
+  },
+  "changePassword": {
+    "current": "Iphasiwedi yangoku",
+    "new": "Iphasiwedi entsha",
+    "confirm": "Qinisekisa igama lokugqithisa elitsha",
+    "hint": "Ubuncinane {{min}} abalinganiswa.",
+    "tooShort": "Igama lokugqitha elitsha kufuneka libenamagama {{min}} ubuncinane.",
+    "mismatch": "Amagama okugqithisa amatsha awahambelani.",
+    "sameAsCurrent": "I-password entsha kufuneka yahluke kwi-password yakho yangoku.",
+    "submit": "Hlaziya igama lokugqitha",
+    "saving": "Iyahlaziya...",
+    "success": "Igama lokugqithisa lakho lihlaziyiwe.",
+    "error": "Ayikwazanga kuhlaziya igama lokugqithisa lakho. Nceda zama kwakhona."
+  },
+  "search": {
+    "kindPage": "Iphepha",
+    "kindRecord": "Isiphumo",
+    "loading": "Iyakhangela...",
+    "noResults": "Akukho midlalo",
+    "recordsUnavailable": "Ngamaphepha kuphela anokuphendlwa ngoku.",
+    "invoiceLabel": "I-invoyisi {{period}}",
+    "paid": "Ihlawulwe",
+    "unpaid": "Engahlawulwanga"
   }
 }

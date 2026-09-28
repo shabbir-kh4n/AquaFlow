@@ -1,12 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { listAlerts } from '../../api/alertApi'
 import Logo from '../Logo'
+import Avatar from '../Avatar'
 import { STUB_PAGES } from './adminRoutes'
 import ChatWidget from '../chat/ChatWidget'
 import LanguageSwitcher from '../LanguageSwitcher'
+import TopbarSearch from '../TopbarSearch'
+import { listResidents } from '../../api/residentApi'
 import './AdminLayout.css'
 
 // labelKey values are translation keys (common namespace), resolved with t() at render time.
@@ -16,11 +19,11 @@ const NAV_ITEMS = [
   { to: '/admin/meter-readings', labelKey: 'adminLayout.nav.meterReadings', icon: 'gauge', built: true },
   { to: '/admin/billing', labelKey: 'adminLayout.nav.billing', icon: 'invoice', built: true },
   { to: '/admin/bulk-purchases', labelKey: 'adminLayout.nav.bulkPurchases', icon: 'truck', built: true },
-  { to: '/admin/reports', labelKey: 'adminLayout.nav.reports', icon: 'chart', built: false },
+  { to: '/admin/reports', labelKey: 'adminLayout.nav.reports', icon: 'chart', built: true },
   { to: '/admin/water-leakage', labelKey: 'adminLayout.nav.waterLeakage', icon: 'drop-alert', built: true },
   { to: '/admin/support', labelKey: 'adminLayout.nav.support', icon: 'help', built: true },
   { to: '/admin/tariff-plans', labelKey: 'adminLayout.nav.tariffPlans', icon: 'sliders', built: true },
-  { to: '/admin/announcements', labelKey: 'adminLayout.nav.announcements', icon: 'megaphone', built: false },
+  { to: '/admin/announcements', labelKey: 'adminLayout.nav.announcements', icon: 'megaphone', built: true },
   { to: '/admin/profile', labelKey: 'adminLayout.nav.profile', icon: 'user', built: true },
 ]
 
@@ -55,6 +58,14 @@ const PAGE_META = {
   '/admin/support': {
     titleKey: 'adminLayout.pages.support.title',
     subtitleKey: 'adminLayout.pages.support.subtitle',
+  },
+  '/admin/reports': {
+    titleKey: 'adminLayout.pages.reports.title',
+    subtitleKey: 'adminLayout.pages.reports.subtitle',
+  },
+  '/admin/announcements': {
+    titleKey: 'adminLayout.pages.announcements.title',
+    subtitleKey: 'adminLayout.pages.announcements.subtitle',
   },
   '/admin/profile': {
     titleKey: 'adminLayout.pages.profile.title',
@@ -124,6 +135,21 @@ function AdminLayout() {
     navigate('/')
   }
 
+  const searchPages = useMemo(
+    () => NAV_ITEMS.filter((item) => item.built).map((item) => ({ id: item.to, label: t(item.labelKey), to: item.to })),
+    [t],
+  )
+  // A resident hit opens the Households Directory pre-filtered to them (it reads ?q=).
+  const loadSearchRecords = useCallback(
+    () => listResidents().then((residents) => residents.map((resident) => ({
+      id: resident.id,
+      label: resident.fullName,
+      sublabel: [resident.houseNumber, resident.meterNumber, resident.email].filter(Boolean).join(' · '),
+      to: `/admin/households?q=${encodeURIComponent(resident.houseNumber || resident.fullName)}`,
+    }))),
+    [],
+  )
+
   let title = ''
   let subtitle = ''
   if (location.pathname === '/admin/dashboard') {
@@ -139,13 +165,6 @@ function AdminLayout() {
       subtitle = t(stub.descriptionKey)
     }
   }
-
-  const initials = (user?.fullName || 'Admin')
-    .split(' ')
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join('')
-    .toUpperCase()
 
   return (
     <div className="af-admin">
@@ -196,7 +215,7 @@ function AdminLayout() {
         </nav>
 
         <div className="af-admin__sidebar-footer">
-          <span className="af-admin__avatar">{initials}</span>
+          <Avatar avatarKey={user?.avatarKey} name={user?.fullName} fallbackName={t('adminLayout.fallbackName')} className="af-admin__avatar" />
           <div className="af-admin__account-text">
             <strong>{user?.fullName || t('adminLayout.fallbackName')}</strong>
             <span>{user?.communityName || t('adminLayout.fallbackCommunity')}</span>
@@ -225,10 +244,13 @@ function AdminLayout() {
           </div>
 
           <div className="af-admin__account">
-            <label className="af-admin__search">
-              <Icon name="search" />
-              <input type="search" placeholder={t('adminLayout.searchPlaceholder')} aria-label={t('shell.search')} />
-            </label>
+            <TopbarSearch
+              className="af-admin__search"
+              icon={<Icon name="search" />}
+              placeholder={t('adminLayout.searchPlaceholder')}
+              pages={searchPages}
+              loadRecords={loadSearchRecords}
+            />
             <button
               type="button"
               className="af-admin__icon-button"

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Bilety wsparcia",
     "subtitle": "Zgłoszenia pomocy i wątpliwości zgłaszane przez mieszkańców i administratorów społeczności na całej platformie."
+  },
+  "profile": {
+    "accountTitle": "Konto",
+    "avatarTitle": "Awatara",
+    "passwordTitle": "Zmień hasło",
+    "loadError": "Nie można załadować Twojego profilu. Spróbuj ponownie.",
+    "fields": {
+      "fullName": "Pełne imię i nazwisko",
+      "email": "E-mail",
+      "role": "Rola",
+      "roleValue": "Administrator systemu"
+    }
   }
 }

@@ -25,7 +25,6 @@
     "title": "{{community}} Papan Pemuka Pangsapuri",
     "titleFallback": "Papan Pemuka Pangsapuri Anda",
     "subtitle": "Ringkasan operasi untuk sub-metering utiliti air dan penggunaan isi rumah.",
-    "comingSoon": "Akan datang",
     "manageCommunity": "Urus Komuniti",
     "noUsageReadings": "Tiada bacaan penggunaan direkodkan.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Bulan tercatat terkini ({{month}})",
       "noReadingsYet": "Tiada bacaan direkodkan lagi",
       "pendingAlerts": "Makluman belum selesai",
-      "anomalyPreview": "Pratonton pengesanan anomali — belum tersedia"
+      "reviewAlerts": "Makluman kebocoran / penggunaan aktif — semak sekarang",
+      "noActiveAlerts": "Tiada makluman aktif"
     },
     "actions": {
       "label": "Tindakan Pentadbiran Pantas",
       "uploadReadings": "Muat Naik Bacaan Meter",
       "configureTariffs": "Konfigurasikan Tarif",
-      "reportsNotBuilt": "Laporan belum dibina lagi",
       "downloadReports": "Muat Turun Laporan Sistem"
     },
     "chart": {
       "title": "Perbandingan Penggunaan Bulanan (kL)",
       "subtitle": "{{months}} bulan lepas: sasaran berbanding penggunaan sebenar.",
-      "targetSeries": "Sasaran (pratonton)",
       "actualSeries": "sebenarnya"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Tidak dapat menyimpan profil anda. Sila cuba lagi.",
     "apartmentSaveError": "Tidak dapat menyimpan butiran apartmen. Sila cuba lagi.",
     "specsTitle": "Spesifikasi Profil",
-    "photoUnavailable": "Muat naik foto belum tersedia lagi",
-    "changePhoto": "Tukar Foto",
-    "deletePhoto": "Padam",
-    "photoHint": "JPG atau PNG. Saiz maksimum 2MB.",
     "saveProfile": "Simpan Profil",
     "apartmentTitle": "Butiran Pangsapuri",
     "saveApartment": "Simpan Butiran Pangsapuri",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Pengesahan dua faktor belum tersedia lagi",
       "twoFactorAria": "Pengesahan dua faktor (pratonton sahaja)",
       "sessionsLabel": "Sesi Pentadbiran Aktif",
-      "sessionsEmpty": "Penjejakan sesi belum tersedia lagi — ini ialah pratonton reka letak yang akan datang."
-    }
+      "sessionsEmpty": "Penjejakan sesi belum tersedia lagi — ini ialah pratonton reka letak yang akan datang.",
+      "previewNote": "Pratonton sahaja: pengesahan dua faktor dan penjejakan sesi belum tersedia lagi."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Tukar Kata Laluan"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tiket Pemastautin",
       "subtitle": "Tiket sokongan dan kebimbangan penduduk dalam komuniti anda telah dialamatkan kepada anda."
+    }
+  },
+  "reports": {
+    "loadError": "Tidak dapat memuatkan laporan komuniti. Sila cuba lagi.",
+    "pdfError": "Tidak dapat memuat turun laporan PDF. Sila cuba lagi.",
+    "loading": "Memuatkan laporan…",
+    "empty": "Tiada isi rumah dengan data dalam julat ini.",
+    "noMatch": "Tiada isi rumah sepadan dengan \"{{search}}\".",
+    "searchPlaceholder": "Tapis mengikut rumah, penduduk atau no meter.",
+    "downloadCsv": "Muat turun CSV",
+    "downloadPdf": "Muat turun PDF Ringkasan",
+    "downloadingPdf": "Menyediakan PDF…",
+    "ranges": {
+      "threeMonths": "3 bulan lepas",
+      "sixMonths": "6 bulan lepas",
+      "twelveMonths": "12 bulan lepas",
+      "custom": "Julat tersuai"
+    },
+    "customRange": {
+      "from": "daripada",
+      "to": "Kepada",
+      "hint": "Pilih kedua-dua permulaan dan bulan akhir untuk memuatkan laporan."
+    },
+    "cards": {
+      "totalConsumption": "Jumlah Penggunaan",
+      "households": "Merentasi {{total}} isi rumah",
+      "avgMonthly": "Purata Penggunaan Bulanan",
+      "communityWide": "Seluruh komuniti, setiap bulan",
+      "billed": "Dibilkan",
+      "finalizedOnly": "Kitaran dimuktamadkan & diarkibkan sahaja",
+      "paid": "Dibayar",
+      "invoices": "{{total}} invois dikeluarkan",
+      "outstanding": "Cemerlang",
+      "unpaidInvoices": "{{total}} invois yang belum dibayar",
+      "collectionRate": "Kadar Kutipan"
+    },
+    "costs": {
+      "title": "Kos lwn. Hasil",
+      "commonArea": "Caj kawasan umum dibilkan",
+      "bulkCost": "Kos pembelian air pukal",
+      "bulkVolume": "Air pukal dibeli",
+      "bulkCount": "{{total}} pembelian",
+      "billedMinusBulk": "Hasil yang dibilkan tolak kos pukal",
+      "note": "Pembelian pukal dijejaki untuk keterlihatan kos dan tidak dibilkan kepada isi rumah secara langsung."
+    },
+    "top": {
+      "title": "Pengguna Tertinggi",
+      "empty": "Tiada penggunaan direkodkan dalam julat ini."
+    },
+    "charts": {
+      "consumptionTitle": "Penggunaan Bulanan",
+      "consumptionSeries": "Penggunaan",
+      "billingTitle": "Dibilkan lwn. Dibayar lwn Kos Pukal",
+      "billedSeries": "Dibilkan",
+      "paidSeries": "Dibayar",
+      "bulkSeries": "Kos pembelian pukal",
+      "empty": "Tiada data untuk julat ini."
+    },
+    "sort": {
+      "label": "Isih mengikut",
+      "toggleDirection": "Togol arah isihan",
+      "asc": "↑ Asc",
+      "desc": "↓ Des"
+    },
+    "table": {
+      "house": "rumah",
+      "resident": "Penduduk",
+      "meter": "Meter",
+      "totalKl": "Jumlah kL",
+      "avgMonthlyKl": "Purata Bulanan kL",
+      "billed": "Dibilkan",
+      "paid": "Dibayar",
+      "outstanding": "Cemerlang"
+    }
+  },
+  "announcements": {
+    "loadError": "Tidak dapat memuatkan pengumuman. Sila cuba lagi.",
+    "removeError": "Tidak dapat memadamkan pengumuman ini. Sila cuba lagi.",
+    "loading": "Memuatkan pengumuman…",
+    "empty": "Tiada pengumuman lagi. Klik \"Pengumuman Baharu\" untuk memberitahu penduduk anda.",
+    "count": "Pengumuman: {{total}}",
+    "newButton": "+ Pengumuman Baharu",
+    "pinned": "Disemat",
+    "expired": "Tamat tempoh",
+    "postedAt": "Disiarkan {{date}}",
+    "updatedAt": "Diedit {{date}}",
+    "expiresAt": "Tamat tempoh {{date}}",
+    "category": {
+      "general": "Umum",
+      "maintenance": "Penyelenggaraan",
+      "waterSupply": "Bekalan Air",
+      "billing": "Pengebilan",
+      "urgent": "mendesak"
+    },
+    "form": {
+      "addTitle": "Pengumuman Baru",
+      "editTitle": "Edit Pengumuman",
+      "addSubtitle": "Penduduk melihat ini pada halaman Pemberitahuan mereka, dan sesiapa yang mempunyai pemberitahuan tolak didayakan akan dimaklumkan dengan serta-merta.",
+      "editSubtitle": "Pengeditan mengemas kini pengumuman yang ada. Penduduk tidak dimaklumkan lagi.",
+      "title": "Tajuk",
+      "category": "kategori",
+      "expiresAt": "Tamat tempoh (pilihan)",
+      "body": "Mesej",
+      "pinned": "Sematkan pada bahagian atas pengumuman penduduk",
+      "requiredFields": "Sila masukkan tajuk dan mesej.",
+      "saveError": "Tidak dapat menyimpan pengumuman ini. Sila semak butiran.",
+      "publish": "Terbitkan"
+    },
+    "confirm": {
+      "title": "Padamkan pengumuman?",
+      "body": "\"{{title}}\" akan dialih keluar untuk semua penduduk. Ini tidak boleh dibuat asal.",
+      "delete": "Padam",
+      "deleting": "Memadamkan…"
     }
   }
 }

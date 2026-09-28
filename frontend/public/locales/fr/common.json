@@ -222,6 +222,14 @@
         "title": "Soutien / Préoccupations",
         "subtitle": "Soumettez vos propres tickets à l'administrateur système ou traitez les préoccupations que vos résidents vous ont adressées."
       },
+      "reports": {
+        "title": "Rapports communautaires",
+        "subtitle": "Chiffres de consommation, de facturation, de collecte et d'achats groupés pour votre communauté."
+      },
+      "announcements": {
+        "title": "Annonces",
+        "subtitle": "Publiez des avis à l’échelle de la communauté à vos résidents."
+      },
       "profile": {
         "title": "Paramètres et profil",
         "subtitle": "Gérez les détails de votre compte et les informations sur l'appartement."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administrateur de la communauté",
     "notBuilt": "{{label}} n'est pas encore construit",
     "searchPlaceholder": "Recherchez n'importe quoi…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapports",
-      "description": "Rapports de consommation, de facturation et de conservation pour votre communauté."
-    },
-    "announcements": {
-      "title": "Annonces",
-      "description": "Envoyez des annonces à l’échelle de la communauté à vos résidents."
-    }
   },
   "comingSoon": {
     "title": "{{title}} arrive bientôt"
@@ -261,7 +259,9 @@
       "billing": "Facturation et factures",
       "notifications": "Notifications",
       "recommendations": "Recommandations",
-      "support": "Soutien / Préoccupations"
+      "support": "Soutien / Préoccupations",
+      "reports": "Vos rapports d'utilisation et de dépenses",
+      "profile": "Mon profil"
     },
     "defaultTitle": "Tableau de bord résident",
     "navLabel": "Navigation résidente",
@@ -277,7 +277,8 @@
       "communities": "Communautés",
       "reports": "Rapports",
       "supportTickets": "Billets d'assistance",
-      "systemStatus": "État du système"
+      "systemStatus": "État du système",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "État du système",
         "subtitle": "Connectivité back-end et santé d’exécution de base."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Votre compte, avatar et mot de passe"
       }
     },
     "fallbackName": "Administrateur système",
@@ -308,5 +313,40 @@
     "buttonLabel": "Langue : {{language}}",
     "searchPlaceholder": "Langue de recherche…",
     "noMatches": "Aucune correspondance"
+  },
+  "avatarPicker": {
+    "label": "Choisissez un avatar",
+    "hint": "Choisissez l'un des avatars prédéfinis ou utilisez vos initiales.",
+    "change": "Changement",
+    "cancel": "Annuler",
+    "useInitials": "Utiliser les initiales",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Enregistrer l'avatar",
+    "saving": "Économie…",
+    "saved": "Avatar mis à jour",
+    "saveError": "Impossible de mettre à jour votre avatar. Veuillez réessayer."
+  },
+  "changePassword": {
+    "current": "Mot de passe actuel",
+    "new": "Nouveau mot de passe",
+    "confirm": "Confirmer le nouveau mot de passe",
+    "hint": "Au moins {{min}} caractères.",
+    "tooShort": "Le nouveau mot de passe doit contenir au moins {{min}} caractères.",
+    "mismatch": "Les nouveaux mots de passe ne correspondent pas.",
+    "sameAsCurrent": "Le nouveau mot de passe doit être différent de votre mot de passe actuel.",
+    "submit": "Mettre à jour le mot de passe",
+    "saving": "Mise à jour…",
+    "success": "Votre mot de passe a été mis à jour.",
+    "error": "Impossible de mettre à jour votre mot de passe. Veuillez réessayer."
+  },
+  "search": {
+    "kindPage": "Page",
+    "kindRecord": "Résultat",
+    "loading": "Recherche…",
+    "noResults": "Aucune correspondance",
+    "recordsUnavailable": "Seules les pages peuvent être recherchées pour le moment.",
+    "invoiceLabel": "Facture {{period}}",
+    "paid": "Payé",
+    "unpaid": "Non rémunéré"
   }
 }

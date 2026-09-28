@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hydroledger.backend.dto.AdminProfileRequest;
 import com.hydroledger.backend.dto.AdminProfileResponse;
+import com.hydroledger.backend.dto.AvatarUpdateRequest;
 import com.hydroledger.backend.security.UserPrincipal;
 import com.hydroledger.backend.service.AdminProfileService;
 
@@ -34,5 +35,11 @@ public class AdminProfileController {
     public ResponseEntity<AdminProfileResponse> update(@Valid @RequestBody AdminProfileRequest request,
             @AuthenticationPrincipal UserPrincipal principal) {
         return ResponseEntity.ok(adminProfileService.update(request, principal.getUser()));
+    }
+
+    @PutMapping("/avatar")
+    public ResponseEntity<AdminProfileResponse> updateAvatar(@Valid @RequestBody AvatarUpdateRequest request,
+            @AuthenticationPrincipal UserPrincipal principal) {
+        return ResponseEntity.ok(adminProfileService.updateAvatar(request.avatarKey(), principal.getUser()));
     }
 }

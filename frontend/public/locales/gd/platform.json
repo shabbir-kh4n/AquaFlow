@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tiogaidean taic",
     "subtitle": "Cuir taic ri tiogaidean agus draghan a thog luchd-còmhnaidh agus luchd-rianachd coimhearsnachd, air feadh an àrd-ùrlair."
+  },
+  "profile": {
+    "accountTitle": "Cunntas",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Atharraich am facal-faire",
+    "loadError": "Cha b' urrainn dhuinn do phròifil a luchdadh. Feuch ris a-rithist.",
+    "fields": {
+      "fullName": "Làn ainm",
+      "email": "Post-d",
+      "role": "Ròl",
+      "roleValue": "Rianaire siostam"
+    }
   }
 }

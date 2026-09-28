@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Aviat",
     "welcome": {
       "greeting": "Hola {{name}},",
       "greetingFallback": "hola,",
       "title": "Estigues a prop de la història de l'aigua de casa teva.",
-      "subtitle": "Les estadístiques d'ús i de facturació apareixeran aquí a mesura que la vostra comunitat enregistri les lectures.",
-      "viewBadges": "Veure Eco-Badges"
+      "subtitle": "Les estadístiques d'ús i de facturació apareixeran aquí a mesura que la vostra comunitat enregistri les lectures."
     },
     "stats": {
       "todaysUsage": "Ús d'avui",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Ús mesurat + càrrecs compartits, {{month}}",
       "estimatedBillHint": "Basat en el consum comptat i els càrrecs compartits d'aquest mes",
       "savings": "Estalvi vs Edifici Mitjana",
-      "savingsValue": "{{percent}}% menys",
-      "savingsPreview": "Només previsualització: la comparació encara no està publicada"
+      "savingsLess": "{{percent}}% menys",
+      "savingsMore": "{{percent}}% més",
+      "savingsEqual": "Igual que la mitjana",
+      "savingsDetail": "{{household}} kL vs {{average}} kL mitjana, {{month}}",
+      "savingsNoData": "Encara no hi ha cap comparació d'edificis"
     },
     "consumption": {
       "eyebrow": "Consum",
       "title": "Consum diari (últimes 14 lectures)",
       "seriesName": "Consum",
       "empty": "Encara no s'han registrat lectures."
-    },
-    "breakdown": {
-      "eyebrow": "Avaria",
-      "title": "Desglossament d'ús",
-      "bathroom": "Bany",
-      "kitchen": "Cuina",
-      "garden": "Jardí / Balcó",
-      "other": "Altres / Bugaderia"
     },
     "billing": {
       "eyebrow": "Facturació",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Nivell de preu del nivell",
       "tierLabel": "Nivell {{tier}}",
       "commonArea": "Distribució de la zona comuna",
-      "commonAreaPreview": "Distribució d'àrea comuna (visualització prèvia)",
       "invoiceTotal": "{{period}} factura total",
       "estimatedCharge": "Càrrec estimat actual",
       "commonAreaBreakdown": "Desglossament de la zona comuna",
-      "payPreview": "Vista prèvia de la factura de pagament",
-      "payUnavailable": "El motor de facturació encara no està disponible"
+      "commonAreaEstimate": "Distribució de l'àrea comuna (estimació)",
+      "payOutstanding": "Paga pendent {{amount}} ₹",
+      "payAllDescription": "Totes les factures no pagades ({{number}})"
     },
     "tips": {
       "eyebrow": "Consells",
@@ -66,8 +59,7 @@
     "empty": "Encara no s'han registrat lectures. Un cop la vostra comunitat enregistri una lectura del comptador, es mostrarà aquí.",
     "tabs": {
       "lastSixMonths": "Últims 6 mesos",
-      "customRange": "Interval personalitzat",
-      "comingSoon": "Aviat"
+      "customRange": "Interval personalitzat"
     },
     "peakDay": "Dia punta:",
     "lowestDay": "Dia més baix:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Mapa de calor de consum diari",
-      "subtitle": "La intensitat del color indica dies d'ús intens (visualització prèvia)."
+      "subtitle": "La intensitat del color indica dies d'ús intens (visualització prèvia).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: no hi ha dades",
+      "less": "Menys",
+      "more": "Més",
+      "noData": "Sense dades"
     },
     "ranking": {
       "title": "Classificació d'iguals de la comunitat",
-      "subtitle": "La teva classificació en comparació amb unitats similars (visualització prèvia).",
-      "ecoSaver": "Eco estalvi actiu",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unitat {{number}}",
-      "yourUnit": "La teva unitat",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (tu)"
+      "subtitle": "La teva llar enfront de totes les llars del teu apartament per {{month}}. L'ús inferior és més alt.",
+      "headline": "#{{rank}} de {{total}} llars",
+      "percentile": "Has fet servir menys aigua que el {{percent}}% dels teus veïns.",
+      "min": "El més baix",
+      "median": "Mitjana",
+      "max": "El més alt",
+      "youRow": "#{{rank}} Tu",
+      "neighbourRow": "#{{rank}} Veí",
+      "privacyNote": "Els veïns són anònims. Els números de casa i els noms no es mostren mai.",
+      "empty": "Encara no hi ha prou dades per classificar la vostra llar."
+    },
+    "range": {
+      "from": "Des de",
+      "to": "A",
+      "invalid": "El mes inicial no ha de ser posterior al mes final.",
+      "noData": "No hi ha dades de consum en aquest rang."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Cicle de facturació: {{period}}",
       "allPaid": "Es paguen totes les factures",
       "payTotal": "Paga total pendent",
-      "payTotalUnavailable": "El pagament en línia encara no està disponible: pagueu les factures directament amb l'administrador de la vostra comunitat",
       "downloadSummary": "Descarrega el resum de factura",
-      "downloadSummaryUnavailable": "La baixada del resum de la factura encara no està disponible"
+      "payAllDescription": "Totes les factures no pagades ({{number}})"
     },
     "history": {
       "title": "Historial de factures",
-      "exportCsv": "Exporta-ho tot a CSV",
-      "exportUnavailable": "L'exportació de CSV encara no està disponible"
+      "exportCsv": "Exporta-ho tot a CSV"
     },
     "table": {
       "cycle": "Cicle",
@@ -148,6 +151,17 @@
       "description": "El pagament en línia encara no està disponible: les factures es paguen directament amb l'administrador de la comunitat.",
       "manage": "Gestionar les formes de pagament",
       "manageUnavailable": "Els mètodes de pagament encara no estan disponibles"
+    },
+    "csv": {
+      "cycle": "Període de facturació",
+      "consumption": "Consum (kL)",
+      "baseAmount": "Import base",
+      "tariffAmount": "Import de la tarifa",
+      "commonAreaAmount": "Import de la zona comuna",
+      "totalAmount": "Import total",
+      "paid": "Pagat",
+      "paidAt": "Pagat a",
+      "generatedAt": "Generat a"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Si us plau, no premeu enrere ni actualitzeu aquesta pàgina",
     "success": "Pagament correcte",
     "error": "S'ha produït un error en confirmar el pagament. Si us plau, torna-ho a provar.",
-    "retry": "Torna-ho a provar"
+    "retry": "Torna-ho a provar",
+    "simulationNotice": "Pagament simulat només per a demostració. No es fa cap pagament real i no es cobren diners."
   },
   "notifications": {
     "loadError": "No s'han pogut carregar les vostres notificacions. Si us plau, torna-ho a provar.",
@@ -213,6 +228,25 @@
       "notConfigured": "Les notificacions push encara no estan configurades. Contacta amb el teu administrador.",
       "enableError": "No s'han pogut activar les notificacions push. Si us plau, torna-ho a provar.",
       "disableError": "No s'han pogut desactivar les notificacions push. Si us plau, torna-ho a provar."
+    },
+    "tabs": {
+      "alerts": "Alertes",
+      "announcements": "Anuncis"
+    },
+    "announcements": {
+      "loadError": "No s'han pogut carregar els anuncis. Si us plau, torna-ho a provar.",
+      "loading": "S'estan carregant els anuncis...",
+      "empty": "No hi ha cap anunci de l'administrador de la comunitat en aquest moment.",
+      "pinned": "Fixat",
+      "postedAt": "Publicat el {{date}}",
+      "expiresAt": "Fins a les {{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "Manteniment",
+        "waterSupply": "Subministrament d'aigua",
+        "billing": "Facturació",
+        "urgent": "Urgent"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Taulell d'atenció i inquietuds als residents",
     "subtitle": "Envieu informes de fuites d'aigua, sol·licituds de calibratge de comptadors o consultes de facturació directament a l'administrador de la vostra comunitat i/o a l'administrador del sistema.",
     "emptyCreateHint": "Descriu el teu problema o preocupació a continuació i tria qui s'ha de gestionar."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Últims 3 mesos",
+      "sixMonths": "Últims 6 mesos",
+      "twelveMonths": "Últims 12 mesos",
+      "custom": "Interval personalitzat"
+    },
+    "customRange": {
+      "from": "Des de",
+      "to": "A",
+      "hint": "Trieu un mes d'inici i de finalització per veure el vostre informe."
+    },
+    "loading": "S'està carregant el teu informe...",
+    "loadError": "No s'ha pogut carregar el vostre informe. Si us plau, torna-ho a provar.",
+    "pdfError": "No s'ha pogut descarregar la declaració. Si us plau, torna-ho a provar.",
+    "downloading": "S'està baixant…",
+    "downloadCsv": "Descarrega CSV",
+    "downloadStatement": "Descarrega la declaració PDF",
+    "period": "Període de l'informe: {{from}} a {{to}}",
+    "cards": {
+      "totalUsage": "Ús total",
+      "avgMonthly": "Ús mitjà mensual",
+      "avgMonthlyHint": "Al llarg de mesos amb lectures enregistrades",
+      "change": "Canvi vs període anterior",
+      "changeHint": "{{previous}} del {{from}} al {{to}}",
+      "changeNoData": "No s'ha utilitzat durant el període anterior per comparar",
+      "totalBilled": "Total facturat",
+      "totalPaid": "Total pagat",
+      "outstanding": "Destacat"
+    },
+    "chart": {
+      "title": "Ús i facturació mensuals",
+      "subtitle": "Les barres mostren el consum (kL); la línia mostra l'import facturat (₹).",
+      "consumption": "Consum",
+      "billed": "Facturat"
+    },
+    "table": {
+      "title": "Desglossament mes a mes",
+      "month": "Mes",
+      "consumption": "Consum (kL)",
+      "billed": "Facturat",
+      "paid": "Pagat",
+      "status": "Estat"
+    },
+    "status": {
+      "paid": "Pagat",
+      "unpaid": "Sense pagar",
+      "notBilled": "No facturat"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Detalls del compte",
+    "managedNote": "L'administrador de la comunitat gestiona aquests detalls. Poseu-vos en contacte amb ells si cal canviar alguna cosa.",
+    "loading": "S'està carregant el teu perfil...",
+    "loadError": "No s'ha pogut carregar el teu perfil. Si us plau, torna-ho a provar.",
+    "notSet": "No configurat",
+    "flatSizeValue": "{{size}} peus quadrats",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Canvia la contrasenya",
+    "fields": {
+      "fullName": "Nom complet",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "houseNumber": "Número de casa",
+      "meterNumber": "Número de comptador",
+      "community": "Comunitat",
+      "flatSize": "Mida plana",
+      "joined": "S'ha unit"
+    }
   }
 }

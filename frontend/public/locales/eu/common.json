@@ -222,6 +222,14 @@
         "title": "Laguntza / Kezkak",
         "subtitle": "Altxatu zure txartelak Sistemaren administratzaileari edo kudeatu zure egoiliarrek zuri zuzendutako kezkak."
       },
+      "reports": {
+        "title": "Komunitate Txostenak",
+        "subtitle": "Zure komunitaterako kontsumo, fakturazio, kobrantza eta erosketa multzoko zifrak."
+      },
+      "announcements": {
+        "title": "Iragarkiak",
+        "subtitle": "Argitaratu komunitate osorako oharrak zure bizilagunei."
+      },
       "profile": {
         "title": "Ezarpenak eta profila",
         "subtitle": "Kudeatu zure kontuaren xehetasunak eta apartamentuaren informazioa."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Komunitateko administratzailea",
     "notBuilt": "{{label}} oraindik ez dago eraikita",
     "searchPlaceholder": "Bilatu ezer..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Txostenak",
-      "description": "Zure komunitaterako kontsumo, fakturazio eta kontserbazio txostenak."
-    },
-    "announcements": {
-      "title": "Iragarkiak",
-      "description": "Bidali komunitate osorako iragarkiak zure bizilagunei."
-    }
   },
   "comingSoon": {
     "title": "{{title}} laster etorriko da"
@@ -261,7 +259,9 @@
       "billing": "Fakturak eta fakturak",
       "notifications": "Jakinarazpenak",
       "recommendations": "Gomendioak",
-      "support": "Laguntza / Kezkak"
+      "support": "Laguntza / Kezkak",
+      "reports": "Zure erabilera eta gastuen txostenak",
+      "profile": "Nire profila"
     },
     "defaultTitle": "Egoiliarren Arbela",
     "navLabel": "Egoiliarren nabigazioa",
@@ -277,7 +277,8 @@
       "communities": "Komunitateak",
       "reports": "Txostenak",
       "supportTickets": "Laguntza Sarrerak",
-      "systemStatus": "Sistemaren egoera"
+      "systemStatus": "Sistemaren egoera",
+      "profile": "Profila"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistemaren egoera",
         "subtitle": "Backend konektibitatea eta oinarrizko exekuzio-denboraren osasuna."
+      },
+      "profile": {
+        "title": "Profila",
+        "subtitle": "Zure kontua, avatarra eta pasahitza"
       }
     },
     "fallbackName": "Sistemako administratzailea",
@@ -308,5 +313,40 @@
     "buttonLabel": "Hizkuntza: {{language}}",
     "searchPlaceholder": "Bilatu hizkuntza…",
     "noMatches": "Partidurik ez"
+  },
+  "avatarPicker": {
+    "label": "Aukeratu avatar bat",
+    "hint": "Aukeratu aurrez ezarritako avatarretako bat edo erabili inizialak.",
+    "change": "Aldatu",
+    "cancel": "Utzi",
+    "useInitials": "Erabili inizialak",
+    "optionLabel": "Avatarra {{number}}",
+    "save": "Gorde avatarra",
+    "saving": "Gordetzen…",
+    "saved": "Avatarra eguneratu da",
+    "saveError": "Ezin izan da zure avatarra eguneratu. Mesedez, saiatu berriro."
+  },
+  "changePassword": {
+    "current": "Uneko pasahitza",
+    "new": "Pasahitz berria",
+    "confirm": "Berretsi pasahitz berria",
+    "hint": "Gutxienez {{min}} karaktere.",
+    "tooShort": "Pasahitz berriak gutxienez {{min}} karaktere izan behar ditu.",
+    "mismatch": "Pasahitz berriak ez datoz bat.",
+    "sameAsCurrent": "Pasahitz berriak zure egungo pasahitzarekiko ezberdina izan behar du.",
+    "submit": "Eguneratu pasahitza",
+    "saving": "Eguneratzen…",
+    "success": "Zure pasahitza eguneratu da.",
+    "error": "Ezin izan da pasahitza eguneratu. Mesedez, saiatu berriro."
+  },
+  "search": {
+    "kindPage": "Orria",
+    "kindRecord": "Emaitza",
+    "loading": "Bilatzen…",
+    "noResults": "Partidurik ez",
+    "recordsUnavailable": "Momentu honetan orrialdeak soilik bilatu litezke.",
+    "invoiceLabel": "{{period}} faktura",
+    "paid": "Ordaindua",
+    "unpaid": "Ordaindu gabe"
   }
 }

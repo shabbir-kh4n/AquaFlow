@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "בקרוב",
     "welcome": {
       "greeting": "שלום {{name}},",
       "greetingFallback": "שלום לך,",
       "title": "הישאר קרוב לסיפור המים של הבית שלך.",
-      "subtitle": "תובנות לגבי שימוש וחיוב יופיעו כאן כשהקהילה שלך רושמת קריאות.",
-      "viewBadges": "צפה בתגים אקולוגיים"
+      "subtitle": "תובנות לגבי שימוש וחיוב יופיעו כאן כשהקהילה שלך רושמת קריאות."
     },
     "stats": {
       "todaysUsage": "השימוש של היום",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "שימוש מדוד + חיובים משותפים, {{month}}",
       "estimatedBillHint": "מבוסס על הצריכה המדודה של החודש והחיובים המשותפים",
       "savings": "חיסכון לעומת בניין ממוצע",
-      "savingsValue": "{{percent}}% פחות",
-      "savingsPreview": "תצוגה מקדימה בלבד - ההשוואה עדיין לא פעילה"
+      "savingsLess": "{{percent}}% פחות",
+      "savingsMore": "{{percent}}% יותר",
+      "savingsEqual": "זהה לממוצע",
+      "savingsDetail": "{{household}} kL לעומת {{average}} kL ממוצע, {{month}}",
+      "savingsNoData": "אין עדיין השוואת בניינים"
     },
     "consumption": {
       "eyebrow": "צְרִיכָה",
       "title": "צריכה יומית (14 קריאות אחרונות)",
       "seriesName": "צְרִיכָה",
       "empty": "עדיין לא נרשמו קריאות."
-    },
-    "breakdown": {
-      "eyebrow": "הִתמוֹטְטוּת",
-      "title": "פירוט שימוש",
-      "bathroom": "חֲדַר אַמְבַּטִיָה",
-      "kitchen": "מִטְבָּח",
-      "garden": "גינה / מרפסת",
-      "other": "אחר / כביסה"
     },
     "billing": {
       "eyebrow": "חיוב",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "רמת מחירים",
       "tierLabel": "שכבה {{tier}}",
       "commonArea": "חלוקת שטח משותף",
-      "commonAreaPreview": "חלוקת שטח משותף (תצוגה מקדימה)",
       "invoiceTotal": "סה\"כ {{period}} חשבונית",
       "estimatedCharge": "חיוב משוער נוכחי",
       "commonAreaBreakdown": "התמוטטות שטח משותף",
-      "payPreview": "תצוגה מקדימה של חשבונות תשלום",
-      "payUnavailable": "מנוע החיוב עדיין לא זמין"
+      "commonAreaEstimate": "חלוקת שטח משותף (הערכה)",
+      "payOutstanding": "שלם ₹{{amount}}",
+      "payAllDescription": "כל החשבונות שלא שולמו ({{number}})"
     },
     "tips": {
       "eyebrow": "טיפים",
@@ -66,8 +59,7 @@
     "empty": "עדיין לא נרשמו קריאות. ברגע שהקהילה שלך תתעד קריאת מונה, היא תופיע כאן.",
     "tabs": {
       "lastSixMonths": "6 החודשים האחרונים",
-      "customRange": "טווח מותאם אישית",
-      "comingSoon": "בקרוב"
+      "customRange": "טווח מותאם אישית"
     },
     "peakDay": "יום השיא:",
     "lowestDay": "היום הנמוך ביותר:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "מפת חום של צריכה יומית",
-      "subtitle": "עוצמת הצבע מסמנת ימי שימוש כבדים (תצוגה מקדימה)."
+      "subtitle": "עוצמת הצבע מסמנת ימי שימוש כבדים (תצוגה מקדימה).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: אין נתונים",
+      "less": "פָּחוֹת",
+      "more": "יוֹתֵר",
+      "noData": "אין נתונים"
     },
     "ranking": {
       "title": "דירוג עמיתים בקהילה",
-      "subtitle": "הדירוג שלך בהשוואה ליחידות דומות (תצוגה מקדימה).",
-      "ecoSaver": "חיסכון אקטיבי אקטיבי",
-      "aptNumber": "דירה {{number}}",
-      "unitNumber": "יחידה {{number}}",
-      "yourUnit": "היחידה שלך",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (אתה)"
+      "subtitle": "משק הבית שלך לעומת כל משק בית בדירה שלך עבור {{month}}. שימוש נמוך יותר מדורג גבוה יותר.",
+      "headline": "#{{rank}} מתוך {{total}} משקי בית",
+      "percentile": "השתמשת בפחות מים מ-{{percent}}% מהשכנים שלך.",
+      "min": "הכי נמוך",
+      "median": "חֲצִיוֹן",
+      "max": "הֲכִי גָבוֹהַ",
+      "youRow": "#{{rank}} אתה",
+      "neighbourRow": "#{{rank}} שכן",
+      "privacyNote": "השכנים אנונימיים. מספרי בתים ושמות לעולם אינם מוצגים.",
+      "empty": "עדיין אין מספיק נתונים כדי לדרג את משק הבית שלך."
+    },
+    "range": {
+      "from": "מִן",
+      "to": "אֶל",
+      "invalid": "חודש ההתחלה לא חייב להיות אחרי חודש הסיום.",
+      "noData": "אין נתוני צריכה בטווח זה."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "מחזור חיובים: {{period}}",
       "allPaid": "כל החשבוניות משולמות",
       "payTotal": "שלם סה\"כ מצטיינים",
-      "payTotalUnavailable": "תשלום מקוון אינו זמין עדיין - קבע חשבונות ישירות עם מנהל הקהילה שלך",
       "downloadSummary": "הורד את סיכום חשבונות",
-      "downloadSummaryUnavailable": "הורדת סיכום חשבונות אינה זמינה עדיין"
+      "payAllDescription": "כל החשבונות שלא שולמו ({{number}})"
     },
     "history": {
       "title": "היסטוריית חשבוניות",
-      "exportCsv": "ייצא הכל אל CSV",
-      "exportUnavailable": "ייצוא CSV אינו זמין עדיין"
+      "exportCsv": "ייצא הכל אל CSV"
     },
     "table": {
       "cycle": "מַחזוֹר",
@@ -148,6 +151,17 @@
       "description": "תשלום מקוון אינו זמין עדיין - החשבונות מסולקים ישירות עם מנהל הקהילה שלך.",
       "manage": "ניהול אמצעי תשלום",
       "manageUnavailable": "אמצעי תשלום אינם זמינים עדיין"
+    },
+    "csv": {
+      "cycle": "תקופת חיוב",
+      "consumption": "צריכה (kL)",
+      "baseAmount": "כמות בסיס",
+      "tariffAmount": "סכום התעריף",
+      "commonAreaAmount": "כמות שטח משותף",
+      "totalAmount": "סכום כולל",
+      "paid": "בתשלום",
+      "paidAt": "שולם ב",
+      "generatedAt": "נוצר ב"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "נא לא ללחוץ אחורה או לרענן את הדף הזה",
     "success": "התשלום הצליח",
     "error": "משהו השתבש באישור התשלום שלך. אנא נסה שוב.",
-    "retry": "נסה שוב"
+    "retry": "נסה שוב",
+    "simulationNotice": "קופה מדומה להדגמה בלבד. לא מתבצע תשלום אמיתי ולא גובים כסף."
   },
   "notifications": {
     "loadError": "לא ניתן היה לטעון את ההתראות שלך. אנא נסה שוב.",
@@ -213,6 +228,25 @@
       "notConfigured": "הודעות דחיפה אינן מוגדרות עדיין. פנה למנהל המערכת שלך.",
       "enableError": "לא ניתן להפעיל הודעות דחיפה. אנא נסה שוב.",
       "disableError": "לא ניתן היה להשבית הודעות דחיפה. אנא נסה שוב."
+    },
+    "tabs": {
+      "alerts": "התראות",
+      "announcements": "הכרזות"
+    },
+    "announcements": {
+      "loadError": "לא ניתן היה לטעון הודעות. אנא נסה שוב.",
+      "loading": "טוען הודעות...",
+      "empty": "אין הודעות ממנהל הקהילה שלך כרגע.",
+      "pinned": "מוצמד",
+      "postedAt": "פורסם {{date}}",
+      "expiresAt": "עד {{date}}",
+      "category": {
+        "general": "כְּלָלִי",
+        "maintenance": "תַחזוּקָה",
+        "waterSupply": "אַסְפָּקַת מַיִם",
+        "billing": "חיוב",
+        "urgent": "דָחוּף"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "דלפק תמיכה ודאגות לתושבים",
     "subtitle": "שלח דוחות נזילות מים, בקשות לכיול מונה או פניות חיוב ישירות למנהל הקהילה ו/או למנהל המערכת שלך.",
     "emptyCreateHint": "תאר את הבעיה או החשש שלך למטה, ובחר מי צריך לטפל בהם."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 חודשים אחרונים",
+      "sixMonths": "6 החודשים האחרונים",
+      "twelveMonths": "12 החודשים האחרונים",
+      "custom": "טווח מותאם אישית"
+    },
+    "customRange": {
+      "from": "מִן",
+      "to": "אֶל",
+      "hint": "בחר חודש התחלה וסוף כדי לראות את הדוח שלך."
+    },
+    "loading": "טוען את הדוח שלך...",
+    "loadError": "לא ניתן היה לטעון את הדוח שלך. אנא נסה שוב.",
+    "pdfError": "לא ניתן היה להוריד את ההצהרה. אנא נסה שוב.",
+    "downloading": "מוריד...",
+    "downloadCsv": "הורד את CSV",
+    "downloadStatement": "הורד הצהרה PDF",
+    "period": "תקופת דיווח: {{from}} עד {{to}}",
+    "cards": {
+      "totalUsage": "שימוש כולל",
+      "avgMonthly": "שימוש חודשי ממוצע",
+      "avgMonthlyHint": "על פני חודשים עם קריאות מוקלטות",
+      "change": "שינוי לעומת תקופה קודמת",
+      "changeHint": "{{previous}} ב-{{from}} עד {{to}}",
+      "changeNoData": "אין שימוש בתקופה הקודמת להשוואה",
+      "totalBilled": "סך החיובים",
+      "totalPaid": "סך הכל בתשלום",
+      "outstanding": "בּוֹלֵט"
+    },
+    "chart": {
+      "title": "שימוש חודשי וחיוב",
+      "subtitle": "עמודות מציגות צריכה (kL); השורה מציגה את סכום החיוב (₹).",
+      "consumption": "צְרִיכָה",
+      "billed": "מחויב"
+    },
+    "table": {
+      "title": "פירוט חודש לחודש",
+      "month": "חוֹדֶשׁ",
+      "consumption": "צריכה (kL)",
+      "billed": "מחויב",
+      "paid": "בתשלום",
+      "status": "סטָטוּס"
+    },
+    "status": {
+      "paid": "בתשלום",
+      "unpaid": "ללא תשלום",
+      "notBilled": "לא מחויב"
+    }
+  },
+  "profile": {
+    "detailsTitle": "פרטי חשבון",
+    "managedNote": "מנהל הקהילה שלך מנהל את הפרטים האלה. צור איתם קשר אם משהו צריך לשנות.",
+    "loading": "טוען את הפרופיל שלך...",
+    "loadError": "לא ניתן היה לטעון את הפרופיל שלך. אנא נסה שוב.",
+    "notSet": "לא מוגדר",
+    "flatSizeValue": "{{size}} מ\"ר",
+    "avatarTitle": "גִלגוּל",
+    "passwordTitle": "שנה סיסמה",
+    "fields": {
+      "fullName": "שם מלא",
+      "email": "אֶלֶקטרוֹנִי",
+      "phone": "טֵלֵפוֹן",
+      "houseNumber": "מספר בית",
+      "meterNumber": "מספר מטר",
+      "community": "קהילה",
+      "flatSize": "גודל שטוח",
+      "joined": "הצטרף"
+    }
   }
 }

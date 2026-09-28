@@ -62,7 +62,7 @@ class AdminProfileControllerTests {
     @Test
     void getReturnsProfileForAuthenticatedAdmin() throws Exception {
         when(adminProfileService.get(any(CommunityAdmin.class)))
-                .thenReturn(new AdminProfileResponse(1L, "Jane Admin", "jane@example.com", "9876543210"));
+                .thenReturn(new AdminProfileResponse(1L, "Jane Admin", "jane@example.com", "9876543210", null));
 
         mockMvc.perform(get("/api/admin/profile").with(user(new UserPrincipal(admin()))))
                 .andExpect(status().isOk())
@@ -86,7 +86,7 @@ class AdminProfileControllerTests {
     @Test
     void putUpdatesFullNameAndPhone() throws Exception {
         when(adminProfileService.update(any(), any(CommunityAdmin.class)))
-                .thenReturn(new AdminProfileResponse(1L, "New Name", "jane@example.com", "9999999999"));
+                .thenReturn(new AdminProfileResponse(1L, "New Name", "jane@example.com", "9999999999", null));
 
         mockMvc.perform(put("/api/admin/profile")
                         .with(user(new UserPrincipal(admin())))

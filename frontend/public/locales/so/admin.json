@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboardka Apartment",
     "titleFallback": "Dashboardka Gurigaaga",
     "subtitle": "Soo koobida hawlgalka ee mitir-hoosaadka utility biyaha iyo isticmaalka qoyska.",
-    "comingSoon": "Dhawaan imaanaya",
     "manageCommunity": "Maamulka Bulshada",
     "noUsageReadings": "Weli ma jiro akhrinta isticmaalka oo la duubay",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Latest recorded month ({{month}})",
       "noReadingsYet": "Weli wax akhrin ah lama duubin",
       "pendingAlerts": "Ogeysiisyada la sugayo",
-      "anomalyPreview": "Horudhac ogaanshaha anomaly - wali lama hayo"
+      "reviewAlerts": "Ogeysiisyada daadinta/isticmaalka ee firfircoon - dib u eeg hadda",
+      "noActiveAlerts": "Ma jiro digniino firfircoon"
     },
     "actions": {
       "label": "Tallaabooyinka Maamulka Degdegga ah",
       "uploadReadings": "Soo rar Akhriska Mitirka",
       "configureTariffs": "Habee tacriifada",
-      "reportsNotBuilt": "Warbixinada weli lama dhisin",
       "downloadReports": "Soo deji Warbixinada Nidaamka"
     },
     "chart": {
       "title": "Monthly Consumption Comparison (kL)",
       "subtitle": "Last {{months}} months: target vs. actual consumption.",
-      "targetSeries": "Bartilmaameedka (fiiri)",
       "actualSeries": "Dhab ahaantii"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ma kaydin kari waayay astaantaada Fadlan isku day mar kale",
     "apartmentSaveError": "Ma keydin karin faahfaahinta aqalka Fadlan isku day mar kale",
     "specsTitle": "Tilmaamaha Xogta",
-    "photoUnavailable": "Soo gelinta sawirka weli lama heli karo",
-    "changePhoto": "Beddel Sawirka",
-    "deletePhoto": "Tirtir",
-    "photoHint": "JPG ama PNG. Cabbirka ugu badan 2MB.",
     "saveProfile": "Keydi Profile",
     "apartmentTitle": "Faahfaahinta Guryaha",
     "saveApartment": "Keydi Faahfaahinta Guryaha",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Xaqiijinta laba-factor wali lama hayo",
       "twoFactorAria": "Xaqiijinta laba-factor (fiiri kaliya)",
       "sessionsLabel": "Kulamada Maamulka ee Firfircoon",
-      "sessionsEmpty": "Dabagalka fadhiga weli lama hayo - tani waa horudhac qaabka soo socda."
-    }
+      "sessionsEmpty": "Dabagalka fadhiga weli lama hayo - tani waa horudhac qaabka soo socda.",
+      "previewNote": "Aragtida kaliya: xaqiijinta laba-geesoodka ah iyo dabagalka fadhiga wali lama hayo."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Beddel erayga sirta ah"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tigidhada dadka degan",
       "subtitle": "Tigidhada taageerada iyo welwelka deganayaasha beeshaada ayaa ku soo jeediyay adiga."
+    }
+  },
+  "reports": {
+    "loadError": "Waa la rari waayay warbixinta bulshada Fadlan isku day mar kale",
+    "pdfError": "Lama soo dejin karo warbixinta PDF. Fadlan isku day mar kale",
+    "loading": "Soo dejinaya warbixinta…",
+    "empty": "Ma jiraan qoysas leh xogta xadkan.",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "Ku sifee guri, degane, ama mitirka no.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Soo deji PDF Kooban",
+    "downloadingPdf": "Diyaarinta PDF…",
+    "ranges": {
+      "threeMonths": "3 bilood ee u dambeeyay",
+      "sixMonths": "6 bilood ee ugu danbeyay",
+      "twelveMonths": "12 bilood ee u dambeeyay",
+      "custom": "Kala duwanaanshaha gaarka ah"
+    },
+    "customRange": {
+      "from": "Ka",
+      "to": "Ku",
+      "hint": "Dooro labadaba bilawga iyo dhamaadka bisha si aad u shubto warbixinta."
+    },
+    "cards": {
+      "totalConsumption": "Wadarta Isticmaalka",
+      "households": "Guud ahaan {{total}} guryaha",
+      "avgMonthly": "Celcelis ahaan Isticmaalka Bishii",
+      "communityWide": "Bulshada oo dhan, bishii",
+      "billed": "Biil",
+      "finalizedOnly": "Wareegyada la dhammeeyey & kaydsan oo keliya",
+      "paid": "La bixiyay",
+      "invoices": "{{total}} biilasha la soo saaray",
+      "outstanding": "heer sare ah",
+      "unpaidInvoices": "{{total}} biilasha aan la bixin",
+      "collectionRate": "Heerka Ururinta"
+    },
+    "costs": {
+      "title": "Qiimaha vs Dakhliga",
+      "commonArea": "Kharashyada aagga guud waa la dalacsiiyay",
+      "bulkCost": "Qiimaha iibka biyaha badan",
+      "bulkVolume": "Biyo badan oo la iibsaday",
+      "bulkCount": "{{total}} purchases",
+      "billedMinusBulk": "Dakhliga la dalacsiiyay oo laga jaray kharashka badan",
+      "note": "Iibka faraha badan waxa lala socdaa aragtida qiimaha oo si toos ah looguma dalaco guryaha."
+    },
+    "top": {
+      "title": "Macaamiisha Sare",
+      "empty": "Ma jiro wax isticmaal ah oo laga diiwaan geliyay xadkan."
+    },
+    "charts": {
+      "consumptionTitle": "Isticmaalka Bisha",
+      "consumptionSeries": "Isticmaalka",
+      "billingTitle": "La soo dallacay vs. La bixiyay vs. Kharashka badan",
+      "billedSeries": "Biil",
+      "paidSeries": "La bixiyay",
+      "bulkSeries": "Qiimaha iibka badan",
+      "empty": "Wax xog ah oo kala duwani ma jiraan"
+    },
+    "sort": {
+      "label": "Ku kala sooc",
+      "toggleDirection": "U rog jihada kala soocida",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Guri",
+      "resident": "degane",
+      "meter": "Mitir",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Celcelis ahaan bishii kL",
+      "billed": "Biil",
+      "paid": "La bixiyay",
+      "outstanding": "heer sare ah"
+    }
+  },
+  "announcements": {
+    "loadError": "Waa la rari waayay ogeysiisyada Fadlan isku day mar kale",
+    "removeError": "Waa la tirtiri waayay ogeysiiskan Fadlan isku day mar kale",
+    "loading": "Soodejinaya ogeysiisyada…",
+    "empty": "Weli wax ogeysiis ah ma jiraan Guji \"Ogaysiis Cusub\" si aad u ogeysiiso dadka deggan.",
+    "count": "Ogaysiisyada: {{total}}",
+    "newButton": "+ Ogaysiis Cusub",
+    "pinned": "Ku dheggan",
+    "expired": "dhacay",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "Guud ahaan",
+      "maintenance": "Dayactirka",
+      "waterSupply": "Bixinta Biyaha",
+      "billing": "Biilasha",
+      "urgent": "Degdeg"
+    },
+    "form": {
+      "addTitle": "Ogaysiis Cusub",
+      "editTitle": "Wax ka beddel Ogeysiinta",
+      "addSubtitle": "Deganayaashu waxay tan ku arkaan boggooda Ogeysiisyada, iyo qof kasta oo awood u leh ogeysiisyada riixitaanka isla markaaba waa la ogeysiiyaa.",
+      "editSubtitle": "Wax ka beddelka cusboonaysiinta ku dhawaaqista meesha. Dadka deegaanka dib looma ogaysiiyo",
+      "title": "Ciwaanka",
+      "category": "Qaybta",
+      "expiresAt": "Dhacaya (ikhtiyaar)",
+      "body": "Fariinta",
+      "pinned": "Ku dheji meesha ugu sareysa ee ogeysiisyada dadka deegaanka",
+      "requiredFields": "Fadlan geli cinwaan iyo fariin",
+      "saveError": "Ma kaydin kari waayay ogeysiiskan. Fadlan hubi faahfaahinta",
+      "publish": "Daabac"
+    },
+    "confirm": {
+      "title": "Ma tirtirtaa ogeysiiska?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "Tirtir",
+      "deleting": "Tirtiraya…"
     }
   }
 }

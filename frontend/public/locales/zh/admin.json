@@ -25,7 +25,6 @@
     "title": "{{community}} 公寓仪表板",
     "titleFallback": "您的公寓仪表板",
     "subtitle": "自来水分项计量和家庭消费的操作摘要。",
-    "comingSoon": "即将推出",
     "manageCommunity": "管理社区",
     "noUsageReadings": "尚未记录使用读数。",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "最新记录月份 ({{month}})",
       "noReadingsYet": "尚未记录读数",
       "pendingAlerts": "待处理警报",
-      "anomalyPreview": "异常检测预览 - 尚不可用"
+      "reviewAlerts": "主动泄漏/使用警报 - 立即查看",
+      "noActiveAlerts": "没有活动警报"
     },
     "actions": {
       "label": "快速管理行动",
       "uploadReadings": "上传仪表读数",
       "configureTariffs": "配置资费",
-      "reportsNotBuilt": "报告尚未构建",
       "downloadReports": "下载系统报告"
     },
     "chart": {
       "title": "每月消费比较(kL)",
       "subtitle": "过去 {{months}} 个月：目标消耗量与实际消耗量。",
-      "targetSeries": "目标（预览）",
       "actualSeries": "实际的"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "无法保存您的个人资料。请再试一次。",
     "apartmentSaveError": "无法保存公寓详细信息。请再试一次。",
     "specsTitle": "型材规格",
-    "photoUnavailable": "尚不支持照片上传",
-    "changePhoto": "更改照片",
-    "deletePhoto": "删除",
-    "photoHint": "JPG 或 PNG。最大大小 2MB。",
     "saveProfile": "保存个人资料",
     "apartmentTitle": "公寓详情",
     "saveApartment": "保存公寓详细信息",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "双因素身份验证尚不可用",
       "twoFactorAria": "双因素身份验证（仅限预览版）",
       "sessionsLabel": "活跃的管理会话",
-      "sessionsEmpty": "会话跟踪尚不可用 - 这是即将推出的布局的预览。"
-    }
+      "sessionsEmpty": "会话跟踪尚不可用 - 这是即将推出的布局的预览。",
+      "previewNote": "仅预览：二因素身份验证和会话跟踪尚不可用。"
+    },
+    "avatarLabel": "阿凡达",
+    "passwordTitle": "更改密码"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "居民票",
       "subtitle": "您所在社区的居民向您提出的支持请求和疑虑。"
+    }
+  },
+  "reports": {
+    "loadError": "无法加载社区报告。请再试一次。",
+    "pdfError": "无法下载 PDF 报告。请再试一次。",
+    "loading": "正在加载报告...",
+    "empty": "没有家庭拥有此范围内的数据。",
+    "noMatch": "没有家庭匹配“{{search}}”。",
+    "searchPlaceholder": "按房屋、居民或电表编号过滤。",
+    "downloadCsv": "下载CSV",
+    "downloadPdf": "下载PDF摘要",
+    "downloadingPdf": "正在准备 PDF...",
+    "ranges": {
+      "threeMonths": "过去 3 个月",
+      "sixMonths": "过去 6 个月",
+      "twelveMonths": "过去 12 个月",
+      "custom": "定制范围"
+    },
+    "customRange": {
+      "from": "从",
+      "to": "到",
+      "hint": "选择加载报告的开始月份和结束月份。"
+    },
+    "cards": {
+      "totalConsumption": "总消费",
+      "households": "跨 {{total}} 个家庭",
+      "avgMonthly": "平均每月消费",
+      "communityWide": "社区范围内，每月",
+      "billed": "计费",
+      "finalizedOnly": "仅最终确定和存档的周期",
+      "paid": "有薪酬的",
+      "invoices": "{{total}} 已开具发票",
+      "outstanding": "杰出的",
+      "unpaidInvoices": "{{total}} 未付发票",
+      "collectionRate": "回收率"
+    },
+    "costs": {
+      "title": "成本与收入",
+      "commonArea": "公共区域收费",
+      "bulkCost": "大宗购水成本",
+      "bulkVolume": "大量购买水",
+      "bulkCount": "{{total}} 购买",
+      "billedMinusBulk": "计费收入减去批量成本",
+      "note": "跟踪批量采购的成本可见性，并且不会直接向家庭收取费用。"
+    },
+    "top": {
+      "title": "顶级消费者",
+      "empty": "在此范围内没有消耗记录。"
+    },
+    "charts": {
+      "consumptionTitle": "每月消费",
+      "consumptionSeries": "消耗",
+      "billingTitle": "计费、付费、批量成本",
+      "billedSeries": "计费",
+      "paidSeries": "有薪酬的",
+      "bulkSeries": "批量采购成本",
+      "empty": "没有该范围的数据。"
+    },
+    "sort": {
+      "label": "排序方式",
+      "toggleDirection": "切换排序方向",
+      "asc": "↑ 上升",
+      "desc": "↓ 描述"
+    },
+    "table": {
+      "house": "房子",
+      "resident": "居民",
+      "meter": "仪表",
+      "totalKl": "总计 kL",
+      "avgMonthlyKl": "平均每月 kL",
+      "billed": "计费",
+      "paid": "有薪酬的",
+      "outstanding": "杰出的"
+    }
+  },
+  "announcements": {
+    "loadError": "无法加载公告。请再试一次。",
+    "removeError": "无法删除此公告。请再试一次。",
+    "loading": "正在加载公告...",
+    "empty": "还没有公告。点击“新公告”通知您的居民。",
+    "count": "公告：{{total}}",
+    "newButton": "+ 新公告",
+    "pinned": "已固定",
+    "expired": "已到期",
+    "postedAt": "已发布 {{date}}",
+    "updatedAt": "已编辑 {{date}}",
+    "expiresAt": "过期 {{date}}",
+    "category": {
+      "general": "一般的",
+      "maintenance": "维护",
+      "waterSupply": "供水",
+      "billing": "计费",
+      "urgent": "紧迫的"
+    },
+    "form": {
+      "addTitle": "新公告",
+      "editTitle": "编辑公告",
+      "addSubtitle": "居民可以在他们的通知页面上看到这一点，任何启用了推送通知的人都会立即收到通知。",
+      "editSubtitle": "编辑更新了公告。居民不会再收到通知。",
+      "title": "标题",
+      "category": "类别",
+      "expiresAt": "过期（可选）",
+      "body": "信息",
+      "pinned": "固定到居民公告的顶部",
+      "requiredFields": "请输入标题和消息。",
+      "saveError": "无法保存此公告。请检查详细信息。",
+      "publish": "发布"
+    },
+    "confirm": {
+      "title": "删除公告？",
+      "body": "所有居民的“{{title}}”将被删除。这无法撤消。",
+      "delete": "删除",
+      "deleting": "正在删除..."
     }
   }
 }

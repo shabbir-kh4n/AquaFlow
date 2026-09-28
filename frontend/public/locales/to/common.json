@@ -222,6 +222,14 @@
         "title": "Poupou / Hoha'a",
         "subtitle": "Hiki hake ho'o tikite 'a'au ki he System Admin, pe tokanga'i 'a e ngaahi hoha'a kuo fakahoko atu 'e ho'o kau nofo kiate koe."
       },
+      "reports": {
+        "title": "Ngaahi Lipooti Fakakomiuniti",
+        "subtitle": "Ko e ngaahi fika 'o e fakamole, totongi, tanaki, mo e fakatau lahi ki ho komiuniti."
+      },
+      "announcements": {
+        "title": "Ngaahi Fanongonongo",
+        "subtitle": "Pulusi ha ngaahi fakatokanga fakakomiuniti ki homou kau nofo aí."
+      },
       "profile": {
         "title": "Ngaahi fokotuʻutuʻu & Fakamatala",
         "subtitle": "Pule'i ho'o ngaahi fakaikiiki 'o e 'akauni mo e fakamatala 'o e fale nofo'anga."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Pule Fakakomiuniti",
     "notBuilt": "{{label}} 'oku te'eki ke langa",
     "searchPlaceholder": "Fekumi ki ha me'a pe..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Ngaahi Lipooti",
-      "description": "Ngaahi lipooti fakamole, totongi, mo e tauhi maʻa ho komiunitií."
-    },
-    "announcements": {
-      "title": "Ngaahi Fanongonongo",
-      "description": "ʻAve ha ngaahi fanongonongo fakakomiuniti ki hoʻo kau nofo aí."
-    }
   },
   "comingSoon": {
     "title": "{{title}} 'oku vave mai"
@@ -261,7 +259,9 @@
       "billing": "Ngaahi totongi mo e ngaahi inivoisi",
       "notifications": "Ngaahi Fakatokanga",
       "recommendations": "Ngaahi Fokotuʻu",
-      "support": "Poupou / Hoha'a"
+      "support": "Poupou / Hoha'a",
+      "reports": "Ko ho'o lipooti ngaue'aki & fakamole",
+      "profile": "Ko hoku fakamatala"
     },
     "defaultTitle": "Dashboard 'o e Nofo'anga",
     "navLabel": "Folau 'eve'eva 'a e kau nofo",
@@ -277,7 +277,8 @@
       "communities": "Ngaahi komiuniti",
       "reports": "Ngaahi Lipooti",
       "supportTickets": "Tikite Poupou",
-      "systemStatus": "Tu'unga 'o e Sisitemi"
+      "systemStatus": "Tu'unga 'o e Sisitemi",
+      "profile": "Fakamatala fakatāutaha"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Tu'unga 'o e Sisitemi",
         "subtitle": "Backend fehokotaki'anga mo e mo'ui lelei 'o e taimi lele tefito."
+      },
+      "profile": {
+        "title": "Fakamatala fakatāutaha",
+        "subtitle": "Ko ho'o 'akauni, avatar mo e lea fufuu ."
       }
     },
     "fallbackName": "Pule Sisitemi",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lea: {{language}}",
     "searchPlaceholder": "Fekumi ki he lea...",
     "noMatches": "'Ikai ha ngaahi fe'auhi"
+  },
+  "avatarPicker": {
+    "label": "Fili ha avatar .",
+    "hint": "Fili ha taha ʻo e ngaahi avatar kuo ʻosi fokotuʻú, pe fakaʻaongaʻi hoʻo ngaahi mataʻitohi ʻuluakí.",
+    "change": "Liliu",
+    "cancel": "Kaniseli",
+    "useInitials": "Ngāue‘aki ‘a e ngaahi mata‘itohi ‘uluakí",
+    "optionLabel": "ʻAvatā {{number}}",
+    "save": "Tauhi ʻa e avatar",
+    "saving": "Fakahaofi...",
+    "saved": "Kuo fakafo'ou 'a e Avatar",
+    "saveError": "Na'e 'ikai lava ke fakafo'ou ho'o avatar. Kātaki ʻo toe feinga."
+  },
+  "changePassword": {
+    "current": "Lea fufuu lolotonga",
+    "new": "Lea fufuu fo'ou",
+    "confirm": "Fakapapau'i 'a e lea fufuu fo'ou",
+    "hint": "Ko e si'isi'i taha 'o e {{min}} mata'itohi.",
+    "tooShort": "Ko e lea fufuu fo'ou kuo pau ke 'oua 'e si'i hifo he {{min}} mata'itohi.",
+    "mismatch": "'Oku 'ikai ke fe'unga 'a e ngaahi lea fufuu fo'ou.",
+    "sameAsCurrent": "Kuo pau ke kehe ʻa e lea fufuu foʻoú mei hoʻo lea fufuu lolotongá.",
+    "submit": "Fakafo'ou 'a e lea fufuu",
+    "saving": "Fakafo'ou...",
+    "success": "Kuo fakafo'ou ho'o lea fufuu.",
+    "error": "Na'e 'ikai lava ke fakafo'ou ho'o lea fufuu. Kātaki ʻo toe feinga."
+  },
+  "search": {
+    "kindPage": "Peesi 1 .",
+    "kindRecord": "Ola",
+    "loading": "Fekumi...",
+    "noResults": "'Ikai ha ngaahi fe'auhi",
+    "recordsUnavailable": "Ko e ngaahi peesi pē naʻe lava ke kumi he taimí ni.",
+    "invoiceLabel": "ʻInivoisi {{period}}",
+    "paid": "Totongi",
+    "unpaid": "Ta'etotongi"
   }
 }

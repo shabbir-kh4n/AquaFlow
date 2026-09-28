@@ -222,6 +222,14 @@
         "title": "Fanohanana / ahiahy",
         "subtitle": "Atsangano any amin'ny Admin System ny tapakilanao manokana, na karakarao ny ahiahin'ny mponina aminao."
       },
+      "reports": {
+        "title": "Tatitry ny fiaraha-monina",
+        "subtitle": "Tarehin'ny fanjifana, faktiora, fanangonana ary fividianana betsaka ho an'ny vondrom-piarahamoninao."
+      },
+      "announcements": {
+        "title": "Fampandrenesana",
+        "subtitle": "Mamoaha fampandrenesana manerana ny vondrom-piarahamonina ho an'ny mponinao."
+      },
       "profile": {
         "title": "Fikirana & mombamomba",
         "subtitle": "Tantano ny antsipirian'ny kaontinao sy ny mombamomba ny trano."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Mpitantana ny vondrom-piarahamonina",
     "notBuilt": "{{label}} dia tsy mbola vita",
     "searchPlaceholder": "Hikaroka na inona na inona…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "tatitra",
-      "description": "Tatitra momba ny fanjifana, faktiora ary fiarovana ho an'ny vondrom-piarahamoninao."
-    },
-    "announcements": {
-      "title": "Fampandrenesana",
-      "description": "Mandefa fanambarana manerana ny vondrom-piarahamonina amin'ny mponinao."
-    }
   },
   "comingSoon": {
     "title": "{{title}} ho avy tsy ho ela"
@@ -261,7 +259,9 @@
       "billing": "Faktiora & faktiora",
       "notifications": "fampahatsiahivana",
       "recommendations": "tolo-kevitra",
-      "support": "Fanohanana / ahiahy"
+      "support": "Fanohanana / ahiahy",
+      "reports": "Tatitra momba ny fampiasanao sy fandanianao",
+      "profile": "Ny mombamomba ahy"
     },
     "defaultTitle": "Dashboard mponina",
     "navLabel": "Fikarohana mponina",
@@ -277,7 +277,8 @@
       "communities": "Vondrom-piarahamonina",
       "reports": "tatitra",
       "supportTickets": "Tickets fanohanana",
-      "systemStatus": "Satan'ny rafitra"
+      "systemStatus": "Satan'ny rafitra",
+      "profile": "TANTARANY"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Satan'ny rafitra",
         "subtitle": "Ny fifandraisana amin'ny backend sy ny fahasalamana fototra amin'ny fotoana fandehanana."
+      },
+      "profile": {
+        "title": "TANTARANY",
+        "subtitle": "Ny kaontinao, ny avatar ary ny tenimiafinao"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Fiteny: {{language}}",
     "searchPlaceholder": "Fiteny fikarohana…",
     "noMatches": "Tsy misy lalao"
+  },
+  "avatarPicker": {
+    "label": "Mifidiana avatar",
+    "hint": "Mifidiana iray amin'ireo avatar efa nomanina, na ampiasao ny voalohany.",
+    "change": "FIOVANA",
+    "cancel": "hanafoana",
+    "useInitials": "Mampiasà voalohany",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Save avatar",
+    "saving": "Mitahiry…",
+    "saved": "Avatar nohavaozina",
+    "saveError": "Tsy afaka nanavao ny avatar-nao. Andramo indray azafady."
+  },
+  "changePassword": {
+    "current": "Tenimiafina ankehitriny",
+    "new": "Tenimiafina vaovao",
+    "confirm": "Hamafiso ny tenimiafina vaovao",
+    "hint": "Farafahakeliny tarehintsoratra {{min}}.",
+    "tooShort": "Ny tenimiafina vaovao dia tsy maintsy manana tarehintsoratra {{min}} fara-fahakeliny.",
+    "mismatch": "Tsy mifanentana ireo tenimiafina vaovao.",
+    "sameAsCurrent": "Ny tenimiafina vaovao dia tsy maintsy tsy mitovy amin'ny tenimiafinao ankehitriny.",
+    "submit": "Fanavaozana ny tenimiafina",
+    "saving": "Manavao…",
+    "success": "Nohavaozina ny tenimiafinao.",
+    "error": "Tsy afaka nanavao ny tenimiafinao. Andramo indray azafady."
+  },
+  "search": {
+    "kindPage": "Pejy",
+    "kindRecord": "vokany",
+    "loading": "Mikaroka…",
+    "noResults": "Tsy misy lalao",
+    "recordsUnavailable": "Pejy ihany no azo karohina amin'izao fotoana izao.",
+    "invoiceLabel": "Faktiora {{period}}",
+    "paid": "karama",
+    "unpaid": "handraisam-bola"
   }
 }

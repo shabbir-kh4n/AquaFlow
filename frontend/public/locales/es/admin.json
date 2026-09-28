@@ -25,7 +25,6 @@
     "title": "{{community}} Panel de control del apartamento",
     "titleFallback": "Panel de control de su apartamento",
     "subtitle": "Resumen operativo de submedición de servicios de agua y consumo doméstico.",
-    "comingSoon": "Muy pronto",
     "manageCommunity": "Administrar comunidad",
     "noUsageReadings": "Aún no se han registrado lecturas de uso.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Último mes registrado ({{month}})",
       "noReadingsYet": "Aún no se han registrado lecturas",
       "pendingAlerts": "Alertas pendientes",
-      "anomalyPreview": "Vista previa de detección de anomalías: aún no disponible"
+      "reviewAlerts": "Alertas activas de fugas/uso: revisar ahora",
+      "noActiveAlerts": "No hay alertas activas"
     },
     "actions": {
       "label": "Acciones administrativas rápidas",
       "uploadReadings": "Cargar lecturas del medidor",
       "configureTariffs": "Configurar Tarifas",
-      "reportsNotBuilt": "Los informes aún no están creados",
       "downloadReports": "Descargar informes del sistema"
     },
     "chart": {
       "title": "Comparación de consumo mensual (kL)",
       "subtitle": "Últimos {{months}} meses: consumo objetivo versus consumo real.",
-      "targetSeries": "Objetivo (vista previa)",
       "actualSeries": "Actual"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "No se pudo guardar tu perfil. Por favor inténtalo de nuevo.",
     "apartmentSaveError": "No se pudieron guardar los detalles del apartamento. Por favor inténtalo de nuevo.",
     "specsTitle": "Especificaciones del perfil",
-    "photoUnavailable": "La carga de fotos aún no está disponible",
-    "changePhoto": "Cambiar foto",
-    "deletePhoto": "Borrar",
-    "photoHint": "JPG o PNG. Tamaño máximo 2 MB.",
     "saveProfile": "Guardar perfil",
     "apartmentTitle": "Detalles del apartamento",
     "saveApartment": "Guardar detalles del apartamento",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "La autenticación de dos factores aún no está disponible",
       "twoFactorAria": "Autenticación de dos factores (solo versión preliminar)",
       "sessionsLabel": "Sesiones de administrador activas",
-      "sessionsEmpty": "El seguimiento de sesiones aún no está disponible; esta es una vista previa del próximo diseño."
-    }
+      "sessionsEmpty": "El seguimiento de sesiones aún no está disponible; esta es una vista previa del próximo diseño.",
+      "previewNote": "Solo vista previa: la autenticación de dos factores y el seguimiento de sesiones aún no están disponibles."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Cambiar la contraseña"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Entradas para residentes",
       "subtitle": "Tickets de soporte e inquietudes que los residentes de su comunidad le han dirigido."
+    }
+  },
+  "reports": {
+    "loadError": "No se pudo cargar el informe de la comunidad. Por favor inténtalo de nuevo.",
+    "pdfError": "No se pudo descargar el informe PDF. Por favor inténtalo de nuevo.",
+    "loading": "Cargando informe…",
+    "empty": "No hay hogares con datos en este rango.",
+    "noMatch": "Ningún hogar coincide con \"{{search}}\".",
+    "searchPlaceholder": "Filtrar por casa, residente o número de medidor.",
+    "downloadCsv": "Descargar CSV",
+    "downloadPdf": "Descargar PDF Resumen",
+    "downloadingPdf": "Preparando PDF…",
+    "ranges": {
+      "threeMonths": "últimos 3 meses",
+      "sixMonths": "últimos 6 meses",
+      "twelveMonths": "últimos 12 meses",
+      "custom": "Rango personalizado"
+    },
+    "customRange": {
+      "from": "De",
+      "to": "A",
+      "hint": "Elija un mes inicial y uno final para cargar el informe."
+    },
+    "cards": {
+      "totalConsumption": "Consumo total",
+      "households": "En {{total}} hogares",
+      "avgMonthly": "Consumo mensual promedio",
+      "communityWide": "En toda la comunidad, por mes",
+      "billed": "facturado",
+      "finalizedOnly": "Solo ciclos finalizados y archivados",
+      "paid": "Pagado",
+      "invoices": "{{total}} facturas emitidas",
+      "outstanding": "Pendiente",
+      "unpaidInvoices": "{{total}} facturas impagas",
+      "collectionRate": "Tasa de recaudación"
+    },
+    "costs": {
+      "title": "Costos versus ingresos",
+      "commonArea": "Cargos de áreas comunes facturados",
+      "bulkCost": "Costo de compra de agua a granel",
+      "bulkVolume": "Compra de agua a granel",
+      "bulkCount": "{{total}} compras",
+      "billedMinusBulk": "Ingresos facturados menos costo al por mayor",
+      "note": "Se realiza un seguimiento de las compras al por mayor para obtener visibilidad de los costos y no se facturan directamente a los hogares."
+    },
+    "top": {
+      "title": "Principales consumidores",
+      "empty": "No se registra consumo en este rango."
+    },
+    "charts": {
+      "consumptionTitle": "Consumo Mensual",
+      "consumptionSeries": "Consumo",
+      "billingTitle": "Costo facturado, pagado o al por mayor",
+      "billedSeries": "facturado",
+      "paidSeries": "Pagado",
+      "bulkSeries": "Costo de compra al por mayor",
+      "empty": "No hay datos para este rango."
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "toggleDirection": "Alternar dirección de clasificación",
+      "asc": "↑ Asc",
+      "desc": "↓ descripción"
+    },
+    "table": {
+      "house": "Casa",
+      "resident": "Residente",
+      "meter": "Metro",
+      "totalKl": "Totales kL",
+      "avgMonthlyKl": "Promedio mensual kL",
+      "billed": "facturado",
+      "paid": "Pagado",
+      "outstanding": "Pendiente"
+    }
+  },
+  "announcements": {
+    "loadError": "No se pudieron cargar los anuncios. Por favor inténtalo de nuevo.",
+    "removeError": "No se pudo eliminar este anuncio. Por favor inténtalo de nuevo.",
+    "loading": "Cargando anuncios…",
+    "empty": "Aún no hay anuncios. Haga clic en \"Nuevo anuncio\" para notificar a sus residentes.",
+    "count": "Anuncios: {{total}}",
+    "newButton": "+ Nuevo Anuncio",
+    "pinned": "Fijado",
+    "expired": "Venció",
+    "postedAt": "Publicado {{date}}",
+    "updatedAt": "Editado {{date}}",
+    "expiresAt": "Vence {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Mantenimiento",
+      "waterSupply": "Suministro de agua",
+      "billing": "Facturación",
+      "urgent": "Urgente"
+    },
+    "form": {
+      "addTitle": "Nuevo anuncio",
+      "editTitle": "Editar anuncio",
+      "addSubtitle": "Los residentes ven esto en su página de Notificaciones y cualquier persona que tenga las notificaciones automáticas habilitadas recibe una notificación de inmediato.",
+      "editSubtitle": "Las ediciones actualizan el anuncio vigente. Los residentes no son notificados nuevamente.",
+      "title": "Título",
+      "category": "Categoría",
+      "expiresAt": "Caduca (opcional)",
+      "body": "Mensaje",
+      "pinned": "Fijar en la parte superior de los anuncios de los residentes",
+      "requiredFields": "Por favor introduce un título y un mensaje.",
+      "saveError": "No se pudo guardar este anuncio. Por favor verifique los detalles.",
+      "publish": "Publicar"
+    },
+    "confirm": {
+      "title": "¿Eliminar anuncio?",
+      "body": "\"{{title}}\" se eliminará para todos los residentes. Esto no se puede deshacer.",
+      "delete": "Borrar",
+      "deleting": "Eliminando…"
     }
   }
 }

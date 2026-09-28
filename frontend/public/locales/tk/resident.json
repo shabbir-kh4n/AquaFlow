@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Soonakynda",
     "welcome": {
       "greeting": "Salam {{name}},",
       "greetingFallback": "Salam,",
       "title": "Öýüňiziň suw hekaýasyna ýakyn duruň.",
-      "subtitle": "Ulanyş we töleg düşünjeleri bu ýerde jemgiýet ýazgylaryňyzy okaýarka peýda bolar.",
-      "viewBadges": "Eko-nyşanlary görmek"
+      "subtitle": "Ulanyş we töleg düşünjeleri bu ýerde jemgiýet ýazgylaryňyzy okaýarka peýda bolar."
     },
     "stats": {
       "todaysUsage": "Şu günki ulanyş",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Ölçeg ulanylyşy + umumy tölegler, {{month}}",
       "estimatedBillHint": "Bu aýyň ortaça sarp edilişine we umumy töleglere esaslanýar",
       "savings": "Tygşytlylyk vs Gurluşyk ortaça",
-      "savingsValue": "{{percent}}% Az",
-      "savingsPreview": "Diňe deslapky syn - deňeşdirme entek göni däl"
+      "savingsLess": "{{percent}}% Az",
+      "savingsMore": "{{percent}}% Has köp",
+      "savingsEqual": "Ortaça deň",
+      "savingsDetail": "{{household}} kL vs {{average}} kL ortaça, {{month}}",
+      "savingsNoData": "Gurluşyk deňeşdirmesi entek ýok"
     },
     "consumption": {
       "eyebrow": "Sarp etmek",
       "title": "Gündelik sarp ediş (Soňky 14 okalyş)",
       "seriesName": "Sarp etmek",
       "empty": "Entek okalmady."
-    },
-    "breakdown": {
-      "eyebrow": "Bölünmek",
-      "title": "Ulanyşyň bölünişi",
-      "bathroom": "Hammam",
-      "kitchen": "Aşhana",
-      "garden": "Bag / balkon",
-      "other": "Beýleki / kir ýuwmak"
     },
     "billing": {
       "eyebrow": "Hasaplaşyk",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Bahalaryň derejesi",
       "tierLabel": "Gatnaşyk {{tier}}",
       "commonArea": "Umumy meýdany bölmek",
-      "commonAreaPreview": "Umumy meýdany bölmek (deslapky syn)",
       "invoiceTotal": "{{period}} hasap-faktura jemi",
       "estimatedCharge": "Häzirki çak edilýän töleg",
       "commonAreaBreakdown": "Umumy meýdanyň bölünişi",
-      "payPreview": "Hasabyň deslapky synyny töläň",
-      "payUnavailable": "Hasaplaşyk dwigateli entek elýeterli däl"
+      "commonAreaEstimate": "Umumy meýdany bölmek (çaklama)",
+      "payOutstanding": "Ajaýyp töle ₹ {{amount}}",
+      "payAllDescription": "Tölenmedik ähli tölegler ({{number}})"
     },
     "tips": {
       "eyebrow": "Maslahat",
@@ -66,8 +59,7 @@
     "empty": "Entek okalmady. Jemgyýetiňiz bir metr okamagy ýazga geçirenden soň, şu ýerde görkeziler.",
     "tabs": {
       "lastSixMonths": "Soňky 6 aý",
-      "customRange": "Omörite aralyk",
-      "comingSoon": "Soonakynda"
+      "customRange": "Omörite aralyk"
     },
     "peakDay": "Iň ýokary gün:",
     "lowestDay": "Iň pes gün:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Gündelik sarp ediş ýylylyk kartasy",
-      "subtitle": "Reňk intensiwligi agyr ulanylyş günlerini görkezýär (deslapky syn)."
+      "subtitle": "Reňk intensiwligi agyr ulanylyş günlerini görkezýär (deslapky syn).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: maglumat ýok",
+      "less": "Az",
+      "more": "Has köp",
+      "noData": "Maglumat ýok"
     },
     "ranking": {
       "title": "Jemgyýet deň-duşlary sanawy",
-      "subtitle": "Siziň derejäňiz şuňa meňzeş birlikler bilen deňeşdirilende (deslapky syn).",
-      "ecoSaver": "Işjeň eko tygşytlaýjy",
-      "aptNumber": "Kwartira {{number}}",
-      "unitNumber": "Bölüm {{number}}",
-      "yourUnit": "Bölümiňiz",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "# {{rank}} {{unit}} (Siz)"
+      "subtitle": "Öýüňiz {{month}} üçin jaýyňyzdaky her bir öý. Pes ulanylyşy has ýokary.",
+      "headline": "{{total}} öý hojalygynyň # {{rank}}",
+      "percentile": "Goňşularyňyzyň {{percent}}% -den az suw ulandyňyz.",
+      "min": "Iň pes",
+      "median": "Orta",
+      "max": "Iň ýokary",
+      "youRow": "# {{rank}} Siz",
+      "neighbourRow": "# {{rank}} Goňşy",
+      "privacyNote": "Goňşulary näbelli. Jaý nomerleri we atlary hiç haçan görkezilmeýär.",
+      "empty": "Öýüňizi tertipleşdirmek üçin entek ýeterlik maglumat ýok."
+    },
+    "range": {
+      "from": "Kimden",
+      "to": "To",
+      "invalid": "Başlangyç aýy ahyrky aýdan soň bolmaly däldir.",
+      "noData": "Bu aralykda sarp ediş maglumatlary ýok."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Hasaplaşyk sikli: {{period}}",
       "allPaid": "Hasap-fakturalaryň hemmesi tölenýär",
       "payTotal": "Jemi töläň",
-      "payTotalUnavailable": "Onlaýn töleg entek elýeterli däl - hasaplaryňyzy göni administratoryňyz bilen çözüň",
       "downloadSummary": "Gysgaça mazmuny göçürip alyň",
-      "downloadSummaryUnavailable": "Hasaby gysgaça göçürip almak entek elýeterli däl"
+      "payAllDescription": "Tölenmedik ähli tölegler ({{number}})"
     },
     "history": {
       "title": "Hasap-faktura taryhy",
-      "exportCsv": "Hemmesini eksport ediň CSV",
-      "exportUnavailable": "CSV eksport entek elýeterli däl"
+      "exportCsv": "Hemmesini eksport ediň CSV"
     },
     "table": {
       "cycle": "Sikl",
@@ -148,6 +151,17 @@
       "description": "Onlaýn töleg entek elýeterli däl - tölegler gönüden-göni jemgyýet administratoryňyz bilen çözülýär.",
       "manage": "Töleg usullaryny dolandyryň",
       "manageUnavailable": "Töleg usullary entek elýeterli däl"
+    },
+    "csv": {
+      "cycle": "Hasaplaşyk möhleti",
+      "consumption": "Sarp etmek (kL)",
+      "baseAmount": "Esasy mukdar",
+      "tariffAmount": "Nyrh mukdary",
+      "commonAreaAmount": "Umumy meýdanyň mukdary",
+      "totalAmount": "Jemi mukdar",
+      "paid": "Tölegli",
+      "paidAt": "Tölegli",
+      "generatedAt": "Ated"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Bu sahypany yzyna basmaň ýa-da täzelemäň",
     "success": "Töleg üstünlikli",
     "error": "Tölegiňizi tassyklaýan bir zat ýalňyşdy. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
-    "retry": "Gaýtadan synanyşyň"
+    "retry": "Gaýtadan synanyşyň",
+    "simulationNotice": "Diňe görkezmek üçin simulirlenen töleg. Hakyky töleg tölenmeýär we pul alynmaýar."
   },
   "notifications": {
     "loadError": "Duýduryşlaryňyzy ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push habarnamalary entek düzülenok. Adminiňiz bilen habarlaşyň.",
       "enableError": "Push habarnamalaryny açyp bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris.",
       "disableError": "Push habarnamalaryny öçürip bolmady. Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    },
+    "tabs": {
+      "alerts": "Duýduryşlar",
+      "announcements": "Bildirişler"
+    },
+    "announcements": {
+      "loadError": "Bildirişleri ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+      "loading": "Bildirişleri ýüklemek…",
+      "empty": "Jemgyýet administratoryňyzdan häzirlikçe bildiriş ýok.",
+      "pinned": "Berkidilen",
+      "postedAt": "Iberilen {{date}}",
+      "expiresAt": "{{date}} çenli",
+      "category": {
+        "general": "General",
+        "maintenance": "Bejeriş",
+        "waterSupply": "Suw üpjünçiligi",
+        "billing": "Hasaplaşyk",
+        "urgent": "Gyssagly"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Identaşaýjy goldaw we aladalar bölümi",
     "subtitle": "Suwuň syzmagy baradaky hasabatlary, metrleri kalibrleme haýyşlaryny ýa-da töleg soragnamalaryny gönüden-göni jemgyýetiňiziň administratoryna we / ýa-da Ulgam Dolandyryjysyna iberiň.",
     "emptyCreateHint": "Meseläňizi ýa-da aladalaryňyzy aşakda beýan ediň we kimiň çözmelidigini saýlaň."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Soňky 3 aý",
+      "sixMonths": "Soňky 6 aý",
+      "twelveMonths": "Soňky 12 aý",
+      "custom": "Omörite aralyk"
+    },
+    "customRange": {
+      "from": "Kimden",
+      "to": "To",
+      "hint": "Hasabatyňyzy görmek üçin başlangyç we ahyrky aýy saýlaň."
+    },
+    "loading": "Hasabatyňyzy ýüklemek…",
+    "loadError": "Hasabatyňyzy ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "pdfError": "Beýannamany göçürip alyp bolmaýar Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "downloading": "Ingüklemek…",
+    "downloadCsv": "CSV göçürip al",
+    "downloadStatement": "Beýannamany göçürip al PDF",
+    "period": "Hasabat döwri: {{from}} -den {{to}}",
+    "cards": {
+      "totalUsage": "Jemi ulanylyşy",
+      "avgMonthly": "Ortaça aýlyk ulanyş",
+      "avgMonthlyHint": "Recordedazga alnan okaýyşlar bilen birnäçe aýyň dowamynda",
+      "change": "Öňki döwri üýtgetmek",
+      "changeHint": "{{previous}} -da {{from}} -den {{to}}",
+      "changeNoData": "Öňki döwürde deňeşdirmek üçin ulanyş ýok",
+      "totalBilled": "Jemi hasaplaşyk",
+      "totalPaid": "Jemi tölenen",
+      "outstanding": "Görnükli"
+    },
+    "chart": {
+      "title": "Aýlyk ulanyş we hasaplaşyk",
+      "subtitle": "Barlar sarp edişini görkezýärler (kL); setirde hasaplanan mukdar görkezilýär (₹).",
+      "consumption": "Sarp etmek",
+      "billed": "Hasaplaşyk"
+    },
+    "table": {
+      "title": "Aý-aý arakesme",
+      "month": "Aý",
+      "consumption": "Sarp etmek (kL)",
+      "billed": "Hasaplaşyk",
+      "paid": "Tölegli",
+      "status": ".Agdaý"
+    },
+    "status": {
+      "paid": "Tölegli",
+      "unpaid": "Tölenmedik",
+      "notBilled": "Hasaplaşyk ýok"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Hasap maglumatlary",
+    "managedNote": "Jemgyýetiňiziň dolandyryjysy bu maglumatlary dolandyrýar. Bir zat üýtgemeli bolsa, olar bilen habarlaşyň.",
+    "loading": "Profiliňizi ýüklemek…",
+    "loadError": "Profiliňizi ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "notSet": "Bellenmedi",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Awatar",
+    "passwordTitle": "Paroly üýtgetmek",
+    "fields": {
+      "fullName": "Doly ady",
+      "email": "E-poçta iberiň",
+      "phone": "Telefon",
+      "houseNumber": "Jaý belgisi",
+      "meterNumber": "Metr belgisi",
+      "community": "Jemgyýet",
+      "flatSize": "Kwartiranyň ululygy",
+      "joined": "Goşuldy"
+    }
   }
 }

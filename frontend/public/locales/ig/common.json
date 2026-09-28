@@ -222,6 +222,14 @@
         "title": "Nkwado / Nchegbu",
         "subtitle": "Bulite tiketi nke gị na nchịkwa Sistemu, ma ọ bụ dozie nchegbu ndị bi gị gwara gị."
       },
+      "reports": {
+        "title": "Akụkọ obodo",
+        "subtitle": "Ọnụ ọgụgụ oriri, ịgba ụgwọ, mkpokọta na ọnụ ọgụgụ ịzụrụ ihe maka obodo gị."
+      },
+      "announcements": {
+        "title": "Ọkwa",
+        "subtitle": "Bipụta ọkwa gbasara obodo nye ndị bi gị."
+      },
       "profile": {
         "title": "Ntọala & Profaịlụ",
         "subtitle": "Jikwaa nkọwa akaụntụ gị yana ozi ụlọ."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Onye nchịkwa obodo",
     "notBuilt": "{{label}} emebebeghị",
     "searchPlaceholder": "Chọọ ihe ọ bụla…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Akụkọ",
-      "description": "Akụkọ oriri, ụgwọ, na nchekwa maka obodo gị."
-    },
-    "announcements": {
-      "title": "Ọkwa",
-      "description": "Ziga ndị bi gị ọkwa ọkwa obodo."
-    }
   },
   "comingSoon": {
     "title": "{{title}} na-abịa ngwa ngwa"
@@ -261,7 +259,9 @@
       "billing": "Ịgba ụgwọ & akwụkwọ ọnụahịa",
       "notifications": "Amamọkwa",
       "recommendations": "Nkwanye",
-      "support": "Nkwado / Nchegbu"
+      "support": "Nkwado / Nchegbu",
+      "reports": "Akụkọ ojiji gị & mmefu gị",
+      "profile": "Profaịlụ m"
     },
     "defaultTitle": "Dashboard obibi",
     "navLabel": "Ntugharị onye bi",
@@ -277,7 +277,8 @@
       "communities": "Obodo",
       "reports": "Akụkọ",
       "supportTickets": "Tiketi nkwado",
-      "systemStatus": "Ọnọdụ Sistemu"
+      "systemStatus": "Ọnọdụ Sistemu",
+      "profile": "Profaịlụ"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Ọnọdụ Sistemu",
         "subtitle": "Njikọ azụ azụ na ahụ ike oge agba ọsọ."
+      },
+      "profile": {
+        "title": "Profaịlụ",
+        "subtitle": "Akaụntụ gị, avatar na paswọọdụ"
       }
     },
     "fallbackName": "Onye nchịkwa sistemụ",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "Chọọ asụsụ…",
     "noMatches": "Enweghị nha"
+  },
+  "avatarPicker": {
+    "label": "Họrọ avatar",
+    "hint": "Họrọ otu n'ime avatars atọrọ, ma ọ bụ jiri mkpịrịsị mkpịrịsị gị.",
+    "change": "Gbanwee",
+    "cancel": "Kagbuo",
+    "useInitials": "Jiri mkpịrịsị",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Chekwaa avatar",
+    "saving": "Na-echekwa…",
+    "saved": "Avatar emelitere",
+    "saveError": "Enweghị ike imelite avatar gị. Biko nwaa ọzọ."
+  },
+  "changePassword": {
+    "current": "Okwuntughe Ugbu a",
+    "new": "Okwuntughe Ọhụrụ",
+    "confirm": "Kwenye paswọọdụ ọhụrụ",
+    "hint": "Opekempe {{min}} mkpụrụedemede.",
+    "tooShort": "Okwuntughe ọhụrụ ga-abụrịrị opekata mpe mkpụrụedemede {{min}}.",
+    "mismatch": "Okwuntughe ọhụrụ adabaghị.",
+    "sameAsCurrent": "Okwuntughe ọhụrụ ga-adị iche na paswọọdụ gị ugbu a.",
+    "submit": "Melite okwuntughe",
+    "saving": "Na-emelite…",
+    "success": "Emelitela paswọọdụ gị.",
+    "error": "Enweghị ike imelite paswọọdụ gị. Biko nwaa ọzọ."
+  },
+  "search": {
+    "kindPage": "Ibe",
+    "kindRecord": "Nsonaazụ",
+    "loading": "Na-achọ…",
+    "noResults": "Enweghị nha",
+    "recordsUnavailable": "Naanị ibe ka enwere ike ịchọ ugbu a.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Akwụ ụgwọ",
+    "unpaid": "Akwụghị ụgwọ"
   }
 }

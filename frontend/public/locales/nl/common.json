@@ -222,6 +222,14 @@
         "title": "Ondersteuning / zorgen",
         "subtitle": "Dien uw eigen tickets in bij de systeembeheerder of behandel problemen die uw bewoners aan u hebben geadresseerd."
       },
+      "reports": {
+        "title": "Gemeenschapsrapporten",
+        "subtitle": "Verbruiks-, facturerings-, incasso- en bulkaankoopcijfers voor uw gemeenschap."
+      },
+      "announcements": {
+        "title": "Aankondigingen",
+        "subtitle": "Publiceer gemeenschapsbrede mededelingen voor uw bewoners."
+      },
       "profile": {
         "title": "Instellingen en profiel",
         "subtitle": "Beheer uw accountgegevens en appartementinformatie."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Gemeenschapsbeheerder",
     "notBuilt": "{{label}} is nog niet gebouwd",
     "searchPlaceholder": "Zoek alles..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporten",
-      "description": "Verbruiks-, facturerings- en besparingsrapporten voor uw gemeenschap."
-    },
-    "announcements": {
-      "title": "Aankondigingen",
-      "description": "Stuur gemeenschapsbrede aankondigingen naar uw bewoners."
-    }
   },
   "comingSoon": {
     "title": "{{title}} komt binnenkort"
@@ -261,7 +259,9 @@
       "billing": "Facturering en facturen",
       "notifications": "Meldingen",
       "recommendations": "Aanbevelingen",
-      "support": "Ondersteuning / zorgen"
+      "support": "Ondersteuning / zorgen",
+      "reports": "Uw gebruiks- en uitgavenrapporten",
+      "profile": "Mijn profiel"
     },
     "defaultTitle": "Bewonersdashboard",
     "navLabel": "Bewonersnavigatie",
@@ -277,7 +277,8 @@
       "communities": "Gemeenschappen",
       "reports": "Rapporten",
       "supportTickets": "Ondersteuningstickets",
-      "systemStatus": "Systeemstatus"
+      "systemStatus": "Systeemstatus",
+      "profile": "Profiel"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Systeemstatus",
         "subtitle": "Backend-connectiviteit en basisruntime-gezondheid."
+      },
+      "profile": {
+        "title": "Profiel",
+        "subtitle": "Uw account, avatar en wachtwoord"
       }
     },
     "fallbackName": "Systeembeheerder",
@@ -308,5 +313,40 @@
     "buttonLabel": "Taal: {{language}}",
     "searchPlaceholder": "Zoektaal…",
     "noMatches": "Geen overeenkomsten"
+  },
+  "avatarPicker": {
+    "label": "Kies een avatar",
+    "hint": "Kies een van de vooraf ingestelde avatars of gebruik uw initialen.",
+    "change": "Wijziging",
+    "cancel": "Annuleren",
+    "useInitials": "Gebruik initialen",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatar opslaan",
+    "saving": "Besparing…",
+    "saved": "Avatar bijgewerkt",
+    "saveError": "Kan je avatar niet updaten. Probeer het opnieuw."
+  },
+  "changePassword": {
+    "current": "Huidig ​​wachtwoord",
+    "new": "Nieuw wachtwoord",
+    "confirm": "Bevestig nieuw wachtwoord",
+    "hint": "Minimaal {{min}} tekens.",
+    "tooShort": "Nieuw wachtwoord moet minimaal {{min}} tekens bevatten.",
+    "mismatch": "De nieuwe wachtwoorden komen niet overeen.",
+    "sameAsCurrent": "Het nieuwe wachtwoord moet anders zijn dan uw huidige wachtwoord.",
+    "submit": "Wachtwoord bijwerken",
+    "saving": "Updaten…",
+    "success": "Uw wachtwoord is bijgewerkt.",
+    "error": "Kan uw wachtwoord niet bijwerken. Probeer het opnieuw."
+  },
+  "search": {
+    "kindPage": "Pagina",
+    "kindRecord": "Resultaat",
+    "loading": "Zoeken…",
+    "noResults": "Geen overeenkomsten",
+    "recordsUnavailable": "Momenteel kunnen alleen pagina's worden doorzocht.",
+    "invoiceLabel": "Factuur {{period}}",
+    "paid": "Betaald",
+    "unpaid": "Onbetaald"
   }
 }

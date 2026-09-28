@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "即将推出",
     "welcome": {
       "greeting": "你好{{name}}，",
       "greetingFallback": "你好呀，",
       "title": "密切关注您家的水故事。",
-      "subtitle": "当您的社区记录读数时，使用情况和计费见解将显示在此处。",
-      "viewBadges": "查看生态徽章"
+      "subtitle": "当您的社区记录读数时，使用情况和计费见解将显示在此处。"
     },
     "stats": {
       "todaysUsage": "今天的使用情况",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "计量使用 + 共享费用，{{month}}",
       "estimatedBillHint": "基于本月的计量消耗和共享费用",
       "savings": "节省与建筑平均",
-      "savingsValue": "{{percent}}% 减少",
-      "savingsPreview": "仅预览 - 尚未进行比较"
+      "savingsLess": "{{percent}}% 减少",
+      "savingsMore": "{{percent}}% 更多",
+      "savingsEqual": "与平均水平相同",
+      "savingsDetail": "{{household}} kL 与 {{average}} kL 平均值，{{month}}",
+      "savingsNoData": "还没有建筑物比较"
     },
     "consumption": {
       "eyebrow": "消耗",
       "title": "每日消耗量（最近 14 次读数）",
       "seriesName": "消耗",
       "empty": "尚未记录读数。"
-    },
-    "breakdown": {
-      "eyebrow": "分解",
-      "title": "使用情况细分",
-      "bathroom": "浴室",
-      "kitchen": "厨房",
-      "garden": "花园/阳台",
-      "other": "其他/洗衣"
     },
     "billing": {
       "eyebrow": "计费",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "等级价格水平",
       "tierLabel": "层 {{tier}}",
       "commonArea": "公共区域分配",
-      "commonAreaPreview": "公共区域分配（预览）",
       "invoiceTotal": "{{period}} 发票总额",
       "estimatedCharge": "目前预计费用",
       "commonAreaBreakdown": "公共区域明细",
-      "payPreview": "支付账单预览",
-      "payUnavailable": "计费引擎尚不可用"
+      "commonAreaEstimate": "公共区域分配（估计）",
+      "payOutstanding": "支付未付 卢比{{amount}}",
+      "payAllDescription": "所有未付账单 ({{number}})"
     },
     "tips": {
       "eyebrow": "尖端",
@@ -66,8 +59,7 @@
     "empty": "尚未记录读数。一旦您的社区记录了抄表，它将显示在此处。",
     "tabs": {
       "lastSixMonths": "过去 6 个月",
-      "customRange": "定制范围",
-      "comingSoon": "即将推出"
+      "customRange": "定制范围"
     },
     "peakDay": "高峰日：",
     "lowestDay": "最低日：",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "每日消费热图",
-      "subtitle": "颜色强度标记大量使用天数（预览）。"
+      "subtitle": "颜色强度标记大量使用天数（预览）。",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}：无数据",
+      "less": "较少的",
+      "more": "更多的",
+      "noData": "无数据"
     },
     "ranking": {
       "title": "社区同行排名",
-      "subtitle": "您与类似单位相比的排名（预览）。",
-      "ecoSaver": "积极的生态节约者",
-      "aptNumber": "适合 {{number}}",
-      "unitNumber": "单位{{number}}",
-      "yourUnit": "你的单位",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}}{{unit}}（你）"
+      "subtitle": "您的家庭与您公寓中的每个家庭的 {{month}}。使用率越低排名越高。",
+      "headline": "#{{rank}} 个家庭，共 {{total}} 个",
+      "percentile": "您的用水量比 {{percent}}% 的邻居少。",
+      "min": "最低",
+      "median": "中位数",
+      "max": "最高",
+      "youRow": "#{{rank}}你",
+      "neighbourRow": "#{{rank}} 邻居",
+      "privacyNote": "邻居都是匿名的。门牌号码和姓名从未显示。",
+      "empty": "尚未有足够的数据来对您的家庭进行排名。"
+    },
+    "range": {
+      "from": "从",
+      "to": "到",
+      "invalid": "开始月份不得晚于结束月份。",
+      "noData": "没有该范围内的消费数据。"
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "计费周期：{{period}}",
       "allPaid": "所有发票均已支付",
       "payTotal": "欠薪总额",
-      "payTotalUnavailable": "尚不支持在线支付 - 直接与社区管理员结算账单",
       "downloadSummary": "下载账单摘要",
-      "downloadSummaryUnavailable": "帐单摘要尚不可用"
+      "payAllDescription": "所有未付账单 ({{number}})"
     },
     "history": {
       "title": "发票历史记录",
-      "exportCsv": "全部导出到 CSV",
-      "exportUnavailable": "CSV 导出尚不可用"
+      "exportCsv": "全部导出到 CSV"
     },
     "table": {
       "cycle": "循环",
@@ -148,6 +151,17 @@
       "description": "尚不支持在线支付 - 账单可直接与您的社区管理员结算。",
       "manage": "管理付款方式",
       "manageUnavailable": "付款方式尚不可用"
+    },
+    "csv": {
+      "cycle": "计费周期",
+      "consumption": "消耗（kL）",
+      "baseAmount": "基础金额",
+      "tariffAmount": "关税金额",
+      "commonAreaAmount": "公共面积数量",
+      "totalAmount": "总金额",
+      "paid": "有薪酬的",
+      "paidAt": "支付于",
+      "generatedAt": "生成于"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "请不要按返回或刷新此页面",
     "success": "付款成功",
     "error": "确认您的付款时出现问题。请再试一次。",
-    "retry": "重试"
+    "retry": "重试",
+    "simulationNotice": "模拟结账仅供演示。没有实际付款，也没有收取任何费用。"
   },
   "notifications": {
     "loadError": "无法加载您的通知。请再试一次。",
@@ -213,6 +228,25 @@
       "notConfigured": "尚未配置推送通知。请联系您的管理员。",
       "enableError": "无法启用推送通知。请再试一次。",
       "disableError": "无法禁用推送通知。请再试一次。"
+    },
+    "tabs": {
+      "alerts": "警报",
+      "announcements": "公告"
+    },
+    "announcements": {
+      "loadError": "无法加载公告。请再试一次。",
+      "loading": "正在加载公告...",
+      "empty": "您的社区管理员目前没有任何公告。",
+      "pinned": "已固定",
+      "postedAt": "已发布 {{date}}",
+      "expiresAt": "直到{{date}}",
+      "category": {
+        "general": "一般的",
+        "maintenance": "维护",
+        "waterSupply": "供水",
+        "billing": "计费",
+        "urgent": "紧迫的"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "居民支持和疑虑服务台",
     "subtitle": "直接向您的社区管理员和/或系统管理员提交漏水报告、仪表校准请求或计费查询。",
     "emptyCreateHint": "请在下面描述您的问题或疑虑，并选择由谁来处理。"
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "过去 3 个月",
+      "sixMonths": "过去 6 个月",
+      "twelveMonths": "过去 12 个月",
+      "custom": "定制范围"
+    },
+    "customRange": {
+      "from": "从",
+      "to": "到",
+      "hint": "选择开始和结束月份以查看您的报告。"
+    },
+    "loading": "正在加载您的报告...",
+    "loadError": "无法加载您的报告。请再试一次。",
+    "pdfError": "无法下载声明。请再试一次。",
+    "downloading": "正在下载...",
+    "downloadCsv": "下载CSV",
+    "downloadStatement": "下载声明 PDF",
+    "period": "报告周期：{{from}}至{{to}}",
+    "cards": {
+      "totalUsage": "总使用量",
+      "avgMonthly": "平均每月使用量",
+      "avgMonthlyHint": "跨月记录读数",
+      "change": "与上一时期相比的变化",
+      "changeHint": "{{from}} 至 {{to}} 中的 {{previous}}",
+      "changeNoData": "没有上期的使用情况可以比较",
+      "totalBilled": "总计费",
+      "totalPaid": "总付费",
+      "outstanding": "杰出的"
+    },
+    "chart": {
+      "title": "每月使用量和计费",
+      "subtitle": "条形显示消耗量（kL）；该行显示账单金额（卢比）。",
+      "consumption": "消耗",
+      "billed": "计费"
+    },
+    "table": {
+      "title": "逐月细分",
+      "month": "月",
+      "consumption": "消耗（kL）",
+      "billed": "计费",
+      "paid": "有薪酬的",
+      "status": "地位"
+    },
+    "status": {
+      "paid": "有薪酬的",
+      "unpaid": "未付",
+      "notBilled": "未计费"
+    }
+  },
+  "profile": {
+    "detailsTitle": "账户详情",
+    "managedNote": "您的社区管理员管理这些详细信息。如果有什么需要改变，请联系他们。",
+    "loading": "正在加载您的个人资料...",
+    "loadError": "无法加载您的个人资料。请再试一次。",
+    "notSet": "未设置",
+    "flatSizeValue": "{{size}} 平方英尺",
+    "avatarTitle": "阿凡达",
+    "passwordTitle": "更改密码",
+    "fields": {
+      "fullName": "姓名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "houseNumber": "门牌号码",
+      "meterNumber": "米数",
+      "community": "社区",
+      "flatSize": "平面尺寸",
+      "joined": "已加入"
+    }
   }
 }

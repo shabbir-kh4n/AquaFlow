@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Kommer snart",
     "welcome": {
       "greeting": "Hej {{name}},",
       "greetingFallback": "Hej där,",
       "title": "Håll dig nära ditt hems vattenhistoria.",
-      "subtitle": "Användnings- och faktureringsinsikter visas här när din grupp registrerar avläsningar.",
-      "viewBadges": "Se Eco-Badges"
+      "subtitle": "Användnings- och faktureringsinsikter visas här när din grupp registrerar avläsningar."
     },
     "stats": {
       "todaysUsage": "Dagens användning",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Uppmätt användning + delade avgifter, {{month}}",
       "estimatedBillHint": "Baserat på denna månads uppmätta förbrukning och delade avgifter",
       "savings": "Besparingar vs byggnadsgenomsnitt",
-      "savingsValue": "{{percent}}% mindre",
-      "savingsPreview": "Endast förhandsgranskning — jämförelse ännu inte live"
+      "savingsLess": "{{percent}}% mindre",
+      "savingsMore": "{{percent}}% mer",
+      "savingsEqual": "Samma som genomsnittet",
+      "savingsDetail": "{{household}} kL vs {{average}} kL genomsnitt, {{month}}",
+      "savingsNoData": "Ingen byggnadsjämförelse ännu"
     },
     "consumption": {
       "eyebrow": "Konsumtion",
       "title": "Daglig konsumtion (senaste 14 avläsningarna)",
       "seriesName": "Konsumtion",
       "empty": "Inga avläsningar registrerade ännu."
-    },
-    "breakdown": {
-      "eyebrow": "Sammanbrott",
-      "title": "Användningsfördelning",
-      "bathroom": "Badrum",
-      "kitchen": "Kök",
-      "garden": "Trädgård / Balkong",
-      "other": "Övrigt / Tvätt"
     },
     "billing": {
       "eyebrow": "Fakturering",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Nivåprisnivå",
       "tierLabel": "Nivå {{tier}}",
       "commonArea": "Gemensam yta",
-      "commonAreaPreview": "Gemensamt områdesfördelning (förhandsvisning)",
       "invoiceTotal": "{{period}} faktura totalt",
       "estimatedCharge": "Aktuell beräknad avgift",
       "commonAreaBreakdown": "Gemensamt områdesfördelning",
-      "payPreview": "Förhandsvisning av betala räkning",
-      "payUnavailable": "Faktureringsmotor ännu inte tillgänglig"
+      "commonAreaEstimate": "Gemensamt områdesfördelning (uppskattning)",
+      "payOutstanding": "Betala utestående ₹{{amount}}",
+      "payAllDescription": "Alla obetalda räkningar ({{number}})"
     },
     "tips": {
       "eyebrow": "Tips",
@@ -66,8 +59,7 @@
     "empty": "Inga avläsningar registrerade ännu. När din grupp registrerar en mätarställning kommer den att visas här.",
     "tabs": {
       "lastSixMonths": "Senaste 6 månaderna",
-      "customRange": "Anpassat intervall",
-      "comingSoon": "Kommer snart"
+      "customRange": "Anpassat intervall"
     },
     "peakDay": "Högsta dag:",
     "lowestDay": "Lägsta dag:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Daglig förbrukning värmekarta",
-      "subtitle": "Färgintensitet flaggar för tunga användningsdagar (förhandsgranskning)."
+      "subtitle": "Färgintensitet flaggar för tunga användningsdagar (förhandsgranskning).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: inga data",
+      "less": "Mindre",
+      "more": "Mer",
+      "noData": "Inga data"
     },
     "ranking": {
       "title": "Gemenskapens kamratranking",
-      "subtitle": "Din rankning jämfört med liknande enheter (förhandsgranskning).",
-      "ecoSaver": "Aktiv Eco Saver",
-      "aptNumber": "Lämplig {{number}}",
-      "unitNumber": "Enhet {{number}}",
-      "yourUnit": "Din enhet",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Du)"
+      "subtitle": "Ditt hushåll kontra varje hushåll i din lägenhet för {{month}}. Lägre användning rankas högre.",
+      "headline": "#{{rank}} av {{total}} hushåll",
+      "percentile": "Du använde mindre vatten än {{percent}} % av dina grannar.",
+      "min": "Lägst",
+      "median": "Median",
+      "max": "Högsta",
+      "youRow": "#{{rank}} Du",
+      "neighbourRow": "#{{rank}} Granne",
+      "privacyNote": "Grannar är anonyma. Husnummer och namn visas aldrig.",
+      "empty": "Inte tillräckligt med data ännu för att rangordna ditt hushåll."
+    },
+    "range": {
+      "from": "Från",
+      "to": "Till",
+      "invalid": "Startmånaden får inte infalla efter slutmånaden.",
+      "noData": "Inga förbrukningsdata i detta intervall."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Faktureringscykel: {{period}}",
       "allPaid": "Alla fakturor är betalda",
       "payTotal": "Betala totalt utestående",
-      "payTotalUnavailable": "Onlinebetalning är inte tillgänglig ännu – betala räkningar direkt med din community-administratör",
       "downloadSummary": "Ladda ner räkningssammanfattning",
-      "downloadSummaryUnavailable": "Nedladdning av fakturasammanfattning är inte tillgänglig ännu"
+      "payAllDescription": "Alla obetalda räkningar ({{number}})"
     },
     "history": {
       "title": "Fakturahistorik",
-      "exportCsv": "Exportera alla till CSV",
-      "exportUnavailable": "CSV export är inte tillgänglig ännu"
+      "exportCsv": "Exportera alla till CSV"
     },
     "table": {
       "cycle": "Cykel",
@@ -148,6 +151,17 @@
       "description": "Onlinebetalning är inte tillgänglig ännu – räkningar regleras med din community-administratör direkt.",
       "manage": "Hantera betalningsmetoder",
       "manageUnavailable": "Betalningsmetoder är inte tillgängliga ännu"
+    },
+    "csv": {
+      "cycle": "Faktureringsperiod",
+      "consumption": "Förbrukning (kL)",
+      "baseAmount": "Basbelopp",
+      "tariffAmount": "Tariffbelopp",
+      "commonAreaAmount": "Gemensamt områdesbelopp",
+      "totalAmount": "Totalt belopp",
+      "paid": "Betalt",
+      "paidAt": "Betalas kl",
+      "generatedAt": "Genereras kl"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Vänligen tryck inte tillbaka eller uppdatera den här sidan",
     "success": "Betalning lyckad",
     "error": "Något gick fel när du bekräftade din betalning. Försök igen.",
-    "retry": "Försöka igen"
+    "retry": "Försöka igen",
+    "simulationNotice": "Simulerad utcheckning endast för demonstration. Ingen riktig betalning görs och inga pengar debiteras."
   },
   "notifications": {
     "loadError": "Det gick inte att läsa in dina aviseringar. Försök igen.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push-meddelanden är inte konfigurerade ännu. Kontakta din administratör.",
       "enableError": "Det gick inte att aktivera push-meddelanden. Försök igen.",
       "disableError": "Det gick inte att inaktivera push-meddelanden. Försök igen."
+    },
+    "tabs": {
+      "alerts": "Varningar",
+      "announcements": "Meddelanden"
+    },
+    "announcements": {
+      "loadError": "Det gick inte att läsa in meddelanden. Försök igen.",
+      "loading": "Läser in meddelanden...",
+      "empty": "Inga meddelanden från din gruppadministratör just nu.",
+      "pinned": "Fäst",
+      "postedAt": "Postade {{date}}",
+      "expiresAt": "Tills {{date}}",
+      "category": {
+        "general": "Allmän",
+        "maintenance": "Underhåll",
+        "waterSupply": "Vattenförsörjning",
+        "billing": "Fakturering",
+        "urgent": "Brådskande"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Skicka rapporter om vattenläckage, förfrågningar om mätarekalibrering eller faktureringsförfrågningar direkt till din communityadministratör och/eller systemadministratör.",
     "emptyCreateHint": "Beskriv ditt problem eller problem nedan och välj vem som ska hantera det."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Senaste 3 månaderna",
+      "sixMonths": "Senaste 6 månaderna",
+      "twelveMonths": "Senaste 12 månaderna",
+      "custom": "Anpassat intervall"
+    },
+    "customRange": {
+      "from": "Från",
+      "to": "Till",
+      "hint": "Välj en start- och slutmånad för att se din rapport."
+    },
+    "loading": "Laddar din rapport...",
+    "loadError": "Det gick inte att ladda din rapport. Försök igen.",
+    "pdfError": "Det gick inte att ladda ner uttalandet. Försök igen.",
+    "downloading": "Laddar ned...",
+    "downloadCsv": "Ladda ner CSV",
+    "downloadStatement": "Ladda ner uttalande PDF",
+    "period": "Rapportperiod: {{from}} till {{to}}",
+    "cards": {
+      "totalUsage": "Total användning",
+      "avgMonthly": "Genomsnittlig månatlig användning",
+      "avgMonthlyHint": "Över månader med registrerade avläsningar",
+      "change": "Förändring kontra föregående period",
+      "changeHint": "{{previous}} i {{from}} till {{to}}",
+      "changeNoData": "Ingen användning under föregående period att jämföra",
+      "totalBilled": "Totalt fakturerat",
+      "totalPaid": "Totalt betalt",
+      "outstanding": "Utestående"
+    },
+    "chart": {
+      "title": "Månatlig användning och fakturering",
+      "subtitle": "Staplar visar förbrukning (kL); raden visar det fakturerade beloppet (₹).",
+      "consumption": "Konsumtion",
+      "billed": "Fakturerad"
+    },
+    "table": {
+      "title": "Uppdelning månad för månad",
+      "month": "Månad",
+      "consumption": "Förbrukning (kL)",
+      "billed": "Fakturerad",
+      "paid": "Betalt",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Betalt",
+      "unpaid": "Obetald",
+      "notBilled": "Debiteras inte"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Kontouppgifter",
+    "managedNote": "Din gruppadministratör hanterar dessa uppgifter. Kontakta dem om något behöver ändras.",
+    "loading": "Laddar din profil...",
+    "loadError": "Det gick inte att ladda din profil. Försök igen.",
+    "notSet": "Inte inställt",
+    "flatSizeValue": "{{size}} kvadratfot",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Byt lösenord",
+    "fields": {
+      "fullName": "Fullständigt namn",
+      "email": "E-post",
+      "phone": "Telefon",
+      "houseNumber": "Husnummer",
+      "meterNumber": "Mätarnummer",
+      "community": "Gemenskap",
+      "flatSize": "Platt storlek",
+      "joined": "Anslöt sig"
+    }
   }
 }

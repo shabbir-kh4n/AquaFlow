@@ -222,6 +222,14 @@
         "title": "Suporta / Alalahanin",
         "subtitle": "Itaas ang iyong sariling mga tiket sa Admin ng System, o pangasiwaan ang mga alalahanin na itinuro sa iyo ng iyong mga residente."
       },
+      "reports": {
+        "title": "Mga Ulat sa Komunidad",
+        "subtitle": "Mga numero ng pagkonsumo, pagsingil, koleksyon, at maramihang pagbili para sa iyong komunidad."
+      },
+      "announcements": {
+        "title": "Mga anunsyo",
+        "subtitle": "Mag-publish ng mga paunawa sa buong komunidad sa iyong mga residente."
+      },
       "profile": {
         "title": "Mga Setting at Profile",
         "subtitle": "Pamahalaan ang mga detalye ng iyong account at impormasyon ng apartment."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Admin ng Komunidad",
     "notBuilt": "{{label}} ay hindi pa binuo",
     "searchPlaceholder": "Maghanap ng kahit ano..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Mga ulat",
-      "description": "Mga ulat sa pagkonsumo, pagsingil, at konserbasyon para sa iyong komunidad."
-    },
-    "announcements": {
-      "title": "Mga anunsyo",
-      "description": "Magpadala ng mga anunsyo sa buong komunidad sa iyong mga residente."
-    }
   },
   "comingSoon": {
     "title": "Malapit na ang {{title}}."
@@ -261,7 +259,9 @@
       "billing": "Pagsingil at Mga Invoice",
       "notifications": "Mga abiso",
       "recommendations": "Mga rekomendasyon",
-      "support": "Suporta / Alalahanin"
+      "support": "Suporta / Alalahanin",
+      "reports": "Ang iyong mga ulat sa paggamit at paggasta",
+      "profile": "Aking profile"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Resident navigation",
@@ -277,7 +277,8 @@
       "communities": "Mga komunidad",
       "reports": "Mga ulat",
       "supportTickets": "Mga Ticket ng Suporta",
-      "systemStatus": "Katayuan ng System"
+      "systemStatus": "Katayuan ng System",
+      "profile": "Profile"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Katayuan ng System",
         "subtitle": "Backend connectivity at basic runtime health."
+      },
+      "profile": {
+        "title": "Profile",
+        "subtitle": "Ang iyong account, avatar at password"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Wika: {{language}}",
     "searchPlaceholder": "Maghanap ng wika…",
     "noMatches": "Walang tugma"
+  },
+  "avatarPicker": {
+    "label": "Pumili ng avatar",
+    "hint": "Pumili ng isa sa mga preset na avatar, o gamitin ang iyong mga inisyal.",
+    "change": "Baguhin",
+    "cancel": "Kanselahin",
+    "useInitials": "Gumamit ng mga inisyal",
+    "optionLabel": "Avatar {{number}}",
+    "save": "I-save ang avatar",
+    "saving": "Sine-save...",
+    "saved": "Na-update ang avatar",
+    "saveError": "Hindi ma-update ang iyong avatar. Pakisubukang muli."
+  },
+  "changePassword": {
+    "current": "Kasalukuyang password",
+    "new": "Bagong password",
+    "confirm": "Kumpirmahin ang bagong password",
+    "hint": "Hindi bababa sa {{min}} character.",
+    "tooShort": "Ang bagong password ay dapat na hindi bababa sa {{min}} mga character.",
+    "mismatch": "Ang mga bagong password ay hindi tumutugma.",
+    "sameAsCurrent": "Ang bagong password ay dapat na iba sa iyong kasalukuyang password.",
+    "submit": "I-update ang password",
+    "saving": "Ina-update…",
+    "success": "Na-update na ang iyong password.",
+    "error": "Hindi ma-update ang iyong password. Pakisubukang muli."
+  },
+  "search": {
+    "kindPage": "Pahina",
+    "kindRecord": "Resulta",
+    "loading": "Naghahanap…",
+    "noResults": "Walang tugma",
+    "recordsUnavailable": "Mga page lang ang mahahanap ngayon.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Binayaran",
+    "unpaid": "Walang bayad"
   }
 }

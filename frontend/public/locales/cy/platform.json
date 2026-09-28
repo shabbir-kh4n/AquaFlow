@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tocynnau Cefnogi",
     "subtitle": "Tocynnau cymorth a phryderon a godwyd gan drigolion a gweinyddwyr cymunedol, ar draws y platfform."
+  },
+  "profile": {
+    "accountTitle": "Cyfrif",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Newid cyfrinair",
+    "loadError": "Methu llwytho eich proffil. Ceisiwch eto.",
+    "fields": {
+      "fullName": "Enw llawn",
+      "email": "Ebost",
+      "role": "Rôl",
+      "roleValue": "Gweinyddwr System"
+    }
   }
 }

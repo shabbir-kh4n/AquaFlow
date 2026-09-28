@@ -1,12 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { getMyAlerts } from '../../api/alertApi'
+import { getMyInvoices } from '../../api/billingApi'
 import Logo from '../Logo'
+import Avatar from '../Avatar'
 import { Icon } from './Icon'
 import ChatWidget from '../chat/ChatWidget'
 import LanguageSwitcher from '../LanguageSwitcher'
+import TopbarSearch from '../TopbarSearch'
 import '../../pages/resident/ResidentHome.css'
 
 // labelKey values are translation keys (common namespace), resolved with t() at render time.
@@ -15,10 +18,10 @@ const NAV_ITEMS = [
   { labelKey: 'residentLayout.nav.usageHistory', icon: 'drop', to: '/resident/usage-history' },
   { labelKey: 'residentLayout.nav.bills', icon: 'bill', to: '/resident/billing' },
   { labelKey: 'residentLayout.nav.recommendations', icon: 'bulb', to: '/resident/recommendations' },
-  { labelKey: 'residentLayout.nav.reports', icon: 'chart' },
+  { labelKey: 'residentLayout.nav.reports', icon: 'chart', to: '/resident/reports' },
   { labelKey: 'residentLayout.nav.support', icon: 'help', to: '/resident/support' },
   { labelKey: 'residentLayout.nav.notifications', icon: 'bell', to: '/resident/notifications' },
-  { labelKey: 'residentLayout.nav.profile', icon: 'user' },
+  { labelKey: 'residentLayout.nav.profile', icon: 'user', to: '/resident/profile' },
 ]
 
 // Per-route topbar copy (translation keys). The Dashboard's title is dynamic (greets the
@@ -41,9 +44,17 @@ const PAGE_META = {
     eyebrow: 'Personalized for you',
     titleKey: 'residentLayout.pages.recommendations',
   },
+  '/resident/reports': {
+    eyebrow: 'Reports',
+    titleKey: 'residentLayout.pages.reports',
+  },
   '/resident/support': {
     eyebrow: 'Support',
     titleKey: 'residentLayout.pages.support',
+  },
+  '/resident/profile': {
+    eyebrow: 'Account',
+    titleKey: 'residentLayout.pages.profile',
   },
 }
 
@@ -82,14 +93,23 @@ function ResidentLayout() {
     navigate('/')
   }
 
+  const searchPages = useMemo(
+    () => NAV_ITEMS.filter((item) => item.to).map((item) => ({ id: item.to, label: t(item.labelKey), to: item.to })),
+    [t],
+  )
+  const loadSearchRecords = useCallback(
+    () => getMyInvoices().then((invoices) => invoices.map((invoice) => ({
+      id: invoice.id,
+      label: t('search.invoiceLabel', { period: invoice.periodMonth }),
+      sublabel: `₹${Number(invoice.totalAmount).toLocaleString('en-IN', { minimumFractionDigits: 2 })} · ${
+        invoice.paid ? t('search.paid') : t('search.unpaid')}`,
+      to: '/resident/billing',
+    }))),
+    [t],
+  )
+
   const meta = PAGE_META[location.pathname]
   const title = meta ? t(meta.titleKey) : t('residentLayout.defaultTitle')
-  const initials = (user?.fullName || t('residentLayout.fallbackName'))
-    .split(' ')
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join('')
-    .toUpperCase()
 
   return (
     <div className="af-resident">
@@ -146,8 +166,18 @@ function ResidentLayout() {
         </nav>
 
         <div className="af-resident__sidebar-footer">
-          <button type="button" className="af-resident__profile" title={t('residentLayout.profile')}>
-            <span className="af-resident__avatar" aria-hidden="true">{initials}</span>
+          <button
+            type="button"
+            className="af-resident__profile"
+            title={t('residentLayout.profile')}
+            onClick={() => navigate('/resident/profile')}
+          >
+            <Avatar
+              avatarKey={user?.avatarKey}
+              name={user?.fullName}
+              fallbackName={t('residentLayout.fallbackName')}
+              className="af-resident__avatar"
+            />
             <span className="af-resident__profile-text">
               <strong>{user?.fullName || t('residentLayout.fallbackName')}</strong>
               <span>
@@ -178,10 +208,13 @@ function ResidentLayout() {
           </div>
 
           <div className="af-resident__topbar-actions">
-            <label className="af-resident__search">
-              <Icon name="search" />
-              <input type="search" placeholder={t('residentLayout.searchPlaceholder')} aria-label={t('shell.search')} />
-            </label>
+            <TopbarSearch
+              className="af-resident__search"
+              icon={<Icon name="search" />}
+              placeholder={t('residentLayout.searchPlaceholder')}
+              pages={searchPages}
+              loadRecords={loadSearchRecords}
+            />
             <button
               type="button"
               className="af-resident__icon-button"

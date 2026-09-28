@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hydroledger.backend.dto.ConsumptionComparisonPoint;
+import com.hydroledger.backend.dto.PeerRankingResponse;
 import com.hydroledger.backend.dto.WaterUsageReadingResponse;
 import com.hydroledger.backend.security.ResidentPrincipal;
 import com.hydroledger.backend.service.WaterUsageReadingService;
@@ -32,5 +33,10 @@ public class ResidentUsageHistoryController {
     @GetMapping("/usage-comparison")
     public ResponseEntity<List<ConsumptionComparisonPoint>> getUsageComparison(@AuthenticationPrincipal ResidentPrincipal principal) {
         return ResponseEntity.ok(waterUsageReadingService.getComparisonForResident(principal.getUser()));
+    }
+
+    @GetMapping("/peer-ranking")
+    public ResponseEntity<PeerRankingResponse> getPeerRanking(@AuthenticationPrincipal ResidentPrincipal principal) {
+        return ResponseEntity.ok(waterUsageReadingService.getPeerRankingForResident(principal.getUser()));
     }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Vstopnice za podporo",
     "subtitle": "Vstopnice za podporo in pomisleki prebivalcev in skrbnikov skupnosti na celotni platformi."
+  },
+  "profile": {
+    "accountTitle": "Račun",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Spremeni geslo",
+    "loadError": "Vašega profila ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "fields": {
+      "fullName": "Polno ime",
+      "email": "E-pošta",
+      "role": "Vloga",
+      "roleValue": "Sistemski skrbnik"
+    }
   }
 }

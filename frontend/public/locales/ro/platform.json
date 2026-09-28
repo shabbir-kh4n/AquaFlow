@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Bilete de suport",
     "subtitle": "Sprijină bilete și preocupări ridicate de rezidenți și administratorii comunității, la nivelul întregii platforme."
+  },
+  "profile": {
+    "accountTitle": "Cont",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Schimbaţi parola",
+    "loadError": "Nu s-a putut încărca profilul dvs. Vă rugăm să încercați din nou.",
+    "fields": {
+      "fullName": "Numele complet",
+      "email": "E-mail",
+      "role": "Rol",
+      "roleValue": "Administrator de sistem"
+    }
   }
 }

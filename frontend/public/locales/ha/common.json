@@ -222,6 +222,14 @@
         "title": "Taimako / Damuwa",
         "subtitle": "Ƙirƙirar tikitin ku zuwa ga Mai Gudanarwa na System, ko magance matsalolin da mazauna ku suka yi muku."
       },
+      "reports": {
+        "title": "Rahoton Al'umma",
+        "subtitle": "Adadin abubuwan amfani, lissafin kuɗi, tarawa, da adadi mai yawa na siyan jama'ar ku."
+      },
+      "announcements": {
+        "title": "Sanarwa",
+        "subtitle": "Buga sanarwa gabaɗayan al'umma ga mazauna ku."
+      },
       "profile": {
         "title": "Saituna & Bayanan Bayani",
         "subtitle": "Sarrafa bayanan asusun ku da bayanan gida."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Al'umma Admin",
     "notBuilt": "{{label}} ba a gina shi ba tukuna",
     "searchPlaceholder": "Bincika wani abu…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rahotanni",
-      "description": "Abubuwan amfani, lissafin kuɗi, da rahotannin adanawa ga al'ummar ku."
-    },
-    "announcements": {
-      "title": "Sanarwa",
-      "description": "Aika sanarwa ga jama'a ga mazaunan ku."
-    }
   },
   "comingSoon": {
     "title": "{{title}} is coming soon"
@@ -261,7 +259,9 @@
       "billing": "Biyan Kuɗi & Rasitoci",
       "notifications": "Sanarwa",
       "recommendations": "Shawarwari",
-      "support": "Taimako / Damuwa"
+      "support": "Taimako / Damuwa",
+      "reports": "Rahoton amfanin ku & kashe kuɗi",
+      "profile": "Bayanan martaba na"
     },
     "defaultTitle": "Dashboard na mazaunin",
     "navLabel": "Mazauna kewayawa",
@@ -277,7 +277,8 @@
       "communities": "Al'umma",
       "reports": "Rahotanni",
       "supportTickets": "Tallafin Tikiti",
-      "systemStatus": "Matsayin Tsarin"
+      "systemStatus": "Matsayin Tsarin",
+      "profile": "Bayanan martaba"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Matsayin Tsarin",
         "subtitle": "Haɗin baya na baya da ainihin lafiyar lokacin gudu."
+      },
+      "profile": {
+        "title": "Bayanan martaba",
+        "subtitle": "Asusun ku, avatar da kalmar sirri"
       }
     },
     "fallbackName": "Mai Gudanar da Tsarin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "Bincika harshe…",
     "noMatches": "Babu ashana"
+  },
+  "avatarPicker": {
+    "label": "Zaɓi avatar",
+    "hint": "Zaɓi ɗaya daga cikin saitattun avatars, ko yi amfani da baƙaƙen ku.",
+    "change": "Canza",
+    "cancel": "Soke",
+    "useInitials": "Yi amfani da baƙaƙe",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Ajiye avatar",
+    "saving": "Ana ajiyewa…",
+    "saved": "Avatar an sabunta",
+    "saveError": "Ba za a iya sabunta avatar ku ba. Da fatan za a sake gwadawa."
+  },
+  "changePassword": {
+    "current": "Kalmar shiga na halin yanzu",
+    "new": "Sabuwar kalmar sirri",
+    "confirm": "Tabbatar da sabon kalmar sirri",
+    "hint": "Akalla haruffa {{min}}.",
+    "tooShort": "New password must be at least {{min}} characters.",
+    "mismatch": "Sabbin kalmomin shiga ba su daidaita ba.",
+    "sameAsCurrent": "Dole ne sabon kalmar sirri ta bambanta da kalmar wucewa ta yanzu.",
+    "submit": "Sabunta kalmar sirri",
+    "saving": "Ana sabuntawa…",
+    "success": "An sabunta kalmar wucewar ku.",
+    "error": "Ba za a iya sabunta kalmar sirrinku ba. Da fatan za a sake gwadawa."
+  },
+  "search": {
+    "kindPage": "Shafi",
+    "kindRecord": "Sakamako",
+    "loading": "Neman…",
+    "noResults": "Babu ashana",
+    "recordsUnavailable": "Shafukan kawai za a iya bincika a yanzu.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "An biya",
+    "unpaid": "Ba a biya ba"
   }
 }

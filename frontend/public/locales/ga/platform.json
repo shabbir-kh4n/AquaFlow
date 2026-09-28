@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ticéid Tacaíochta",
     "subtitle": "Ticéid tacaíochta agus imní ardaithe ag cónaitheoirí agus riarthóirí pobail, ar fud an ardáin."
+  },
+  "profile": {
+    "accountTitle": "Cuntas",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Athraigh pasfhocal",
+    "loadError": "Níorbh fhéidir do phróifíl a lódáil. Bain triail eile as.",
+    "fields": {
+      "fullName": "Ainm iomlán",
+      "email": "Ríomhphost",
+      "role": "Ról",
+      "roleValue": "Riarthóir an Chórais"
+    }
   }
 }

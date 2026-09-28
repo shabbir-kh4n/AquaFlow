@@ -222,6 +222,14 @@
         "title": "Support / Curae",
         "subtitle": "Tuas tesseras ad Ratio Admin leva, vel tractas de habitantibus tuis ad te directos."
       },
+      "reports": {
+        "title": "Renuntiationes Communitatis",
+        "subtitle": "Consummatio, exosculatio, collectio, ac mole-emise figurae pro communitate vestra."
+      },
+      "announcements": {
+        "title": "Annuntiationes",
+        "subtitle": "Communitates-latae notationes ad incolas tuos divulga."
+      },
       "profile": {
         "title": "Optiones & Profile",
         "subtitle": "Curo rationem vestram singula et diaetam informationem."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} nondum aedificatum est",
     "searchPlaceholder": "Quaere quid…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Renuntiationes",
-      "description": "Consummatio, exosculatio, et conservatio relationum communitati vestre."
-    },
-    "announcements": {
-      "title": "Annuntiationes",
-      "description": "Communitates patentes nuntios ad tuos incolas mitte."
-    }
   },
   "comingSoon": {
     "title": "{{title}} cito venit"
@@ -261,7 +259,9 @@
       "billing": "Exosculatio & Invoices",
       "notifications": "Acta Vicimediorum",
       "recommendations": "Commendationes",
-      "support": "Support / Curae"
+      "support": "Support / Curae",
+      "reports": "Tua usus & impendio tradit",
+      "profile": "My profile"
     },
     "defaultTitle": "Habitans Dashboard",
     "navLabel": "Residens navigationis",
@@ -277,7 +277,8 @@
       "communities": "Communitates",
       "reports": "Renuntiationes",
       "supportTickets": "Support Nullam",
-      "systemStatus": "Ratio Status"
+      "systemStatus": "Ratio Status",
+      "profile": "Profile"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Ratio Status",
         "subtitle": "Backend connectivity and basic runtime health."
+      },
+      "profile": {
+        "title": "Profile",
+        "subtitle": "Your Account, avatar and password"
       }
     },
     "fallbackName": "Ratio Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lingua: {{language}}",
     "searchPlaceholder": "Quaerere linguam…",
     "noMatches": "Non par"
+  },
+  "avatarPicker": {
+    "label": "Elige avatar",
+    "hint": "Colligunt unum e prest avatars, vel initialibus tuis utere.",
+    "change": "Mutatio",
+    "cancel": "Cancel",
+    "useInitials": "Usus initial",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Servare avatar",
+    "saving": "Salvis…",
+    "saved": "Avatar updated",
+    "saveError": "Non update avatar Quaeso, iterum conare."
+  },
+  "changePassword": {
+    "current": "Current password",
+    "new": "Novum password",
+    "confirm": "Adfirmare novum password",
+    "hint": "Saltem {{min}} ingenia.",
+    "tooShort": "Tessera nova saltem {{min}} ingenia esse debet.",
+    "mismatch": "Novus passwords non aequare.",
+    "sameAsCurrent": "Nova tessera a tessera current differre debet.",
+    "submit": "Update password",
+    "saving": "Adaequationis…",
+    "success": "Password renovatum est.",
+    "error": "Non update tesseram rationis. Quaeso, iterum conare."
+  },
+  "search": {
+    "kindPage": "Page",
+    "kindRecord": "Proventus",
+    "loading": "Investigatio…",
+    "noResults": "Non par",
+    "recordsUnavailable": "Solae paginae nunc quaerendae sunt.",
+    "invoiceLabel": "Cautionem {{period}}",
+    "paid": "Paid",
+    "unpaid": "insolutis"
   }
 }

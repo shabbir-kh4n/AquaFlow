@@ -25,7 +25,6 @@
     "title": "{{community}} Az apartman irányítópultja",
     "titleFallback": "Az Ön lakása irányítópultja",
     "subtitle": "Működési összefoglaló a víziközmű alméréshez és a háztartási fogyasztáshoz.",
-    "comingSoon": "Hamarosan",
     "manageCommunity": "Közösség kezelése",
     "noUsageReadings": "Még nem rögzítettek használati adatokat.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Legutóbbi rögzített hónap ({{month}})",
       "noReadingsYet": "Még nem rögzítettek leolvasást",
       "pendingAlerts": "Függőben lévő figyelmeztetések",
-      "anomalyPreview": "Anomália-észlelés előnézete – még nem érhető el"
+      "reviewAlerts": "Aktív szivárgási/használati riasztások – tekintse át most",
+      "noActiveAlerts": "Nincsenek aktív figyelmeztetések"
     },
     "actions": {
       "label": "Gyors adminisztrációs műveletek",
       "uploadReadings": "Mérőleolvasások feltöltése",
       "configureTariffs": "Konfigurálja a tarifákat",
-      "reportsNotBuilt": "A jelentések még nem készültek el",
       "downloadReports": "Rendszerjelentések letöltése"
     },
     "chart": {
       "title": "Havi fogyasztási összehasonlítás (kL)",
       "subtitle": "Utolsó {{months}} hónap: cél és tényleges fogyasztás.",
-      "targetSeries": "Cél (előnézet)",
       "actualSeries": "Tényleges"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nem sikerült menteni a profilt. Kérjük, próbálja újra.",
     "apartmentSaveError": "Nem sikerült menteni a lakás adatait. Kérjük, próbálja újra.",
     "specsTitle": "Profil specifikációk",
-    "photoUnavailable": "Fényképfeltöltés még nem érhető el",
-    "changePhoto": "Fotó módosítása",
-    "deletePhoto": "Töröl",
-    "photoHint": "JPG vagy PNG. Max méret 2MB.",
     "saveProfile": "Profil mentése",
     "apartmentTitle": "Apartman Részletek",
     "saveApartment": "Mentse el az apartman részleteit",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "A kétfaktoros hitelesítés még nem érhető el",
       "twoFactorAria": "Kéttényezős hitelesítés (csak előnézet)",
       "sessionsLabel": "Aktív rendszergazdai munkamenetek",
-      "sessionsEmpty": "A munkamenet-követés még nem érhető el – ez a közelgő elrendezés előnézete."
-    }
+      "sessionsEmpty": "A munkamenet-követés még nem érhető el – ez a közelgő elrendezés előnézete.",
+      "previewNote": "Csak előnézet: a kéttényezős hitelesítés és a munkamenet-követés még nem érhető el."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Jelszó módosítása"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Lakossági jegyek",
       "subtitle": "Támogatási jegyek és aggodalmak, amelyeket a közössége lakói intézett Önhöz."
+    }
+  },
+  "reports": {
+    "loadError": "Nem sikerült betölteni a közösségi jelentést. Kérjük, próbálja újra.",
+    "pdfError": "Nem sikerült letölteni a PDF jelentést. Kérjük, próbálja újra.",
+    "loading": "Jelentés betöltése…",
+    "empty": "Nincsenek olyan háztartások, amelyek adatokkal rendelkeznek ebben a tartományban.",
+    "noMatch": "Egyetlen háztartás sem felel meg a következőnek: {{search}}.",
+    "searchPlaceholder": "Szűrés ház, lakó vagy mérőszám szerint.",
+    "downloadCsv": "Letöltés CSV",
+    "downloadPdf": "PDF Összegzés letöltése",
+    "downloadingPdf": "Felkészülés PDF…",
+    "ranges": {
+      "threeMonths": "Az elmúlt 3 hónap",
+      "sixMonths": "Az elmúlt 6 hónap",
+      "twelveMonths": "Az elmúlt 12 hónap",
+      "custom": "Egyedi tartomány"
+    },
+    "customRange": {
+      "from": "Tól",
+      "to": "To",
+      "hint": "A jelentés betöltéséhez válassza ki a kezdő és egy befejező hónapot."
+    },
+    "cards": {
+      "totalConsumption": "Teljes fogyasztás",
+      "households": "{{total}} háztartásban",
+      "avgMonthly": "Átlagos havi fogyasztás",
+      "communityWide": "Közösségi szinten, havonta",
+      "billed": "Kiszámlázott",
+      "finalizedOnly": "Csak a véglegesített és archivált ciklusok",
+      "paid": "Fizetett",
+      "invoices": "{{total}} kiállított számla",
+      "outstanding": "Kiemelkedő",
+      "unpaidInvoices": "{{total}} kifizetetlen számla",
+      "collectionRate": "Begyűjtési arány"
+    },
+    "costs": {
+      "title": "Költségek vs. bevétel",
+      "commonArea": "Közös használat díja kiszámlázva",
+      "bulkCost": "Ömlesztett víz beszerzési költsége",
+      "bulkVolume": "Tömeges víz vásárolt",
+      "bulkCount": "{{total}} vásárlás",
+      "billedMinusBulk": "Számlázott bevétel mínusz tömeges költség",
+      "note": "A tömeges vásárlásokat a rendszer nyomon követi a költségek láthatósága érdekében, és nem közvetlenül a háztartásoknak számlázzák ki őket."
+    },
+    "top": {
+      "title": "Legjobb fogyasztók",
+      "empty": "Ebben a tartományban nincs rögzítve a fogyasztás."
+    },
+    "charts": {
+      "consumptionTitle": "Havi fogyasztás",
+      "consumptionSeries": "Fogyasztás",
+      "billingTitle": "Számlázott vs. fizetett vs. tömeges költség",
+      "billedSeries": "Kiszámlázott",
+      "paidSeries": "Fizetett",
+      "bulkSeries": "Tömeges vásárlási költség",
+      "empty": "Nincs adat ehhez a tartományhoz."
+    },
+    "sort": {
+      "label": "Rendezés",
+      "toggleDirection": "Váltsd át a rendezési irányt",
+      "asc": "↑ Asc",
+      "desc": "↓ Leírás"
+    },
+    "table": {
+      "house": "Ház",
+      "resident": "Rezidens",
+      "meter": "Méter",
+      "totalKl": "Összesen kL",
+      "avgMonthlyKl": "Átl. havi kL",
+      "billed": "Kiszámlázott",
+      "paid": "Fizetett",
+      "outstanding": "Kiemelkedő"
+    }
+  },
+  "announcements": {
+    "loadError": "Nem sikerült betölteni a közleményeket. Kérjük, próbálja újra.",
+    "removeError": "Nem sikerült törölni ezt a közleményt. Kérjük, próbálja újra.",
+    "loading": "Közlemények betöltése…",
+    "empty": "Még nincsenek bejelentések. Kattintson az „Új közlemény” gombra, hogy értesítse lakóit.",
+    "count": "Közlemények: {{total}}",
+    "newButton": "+ Új bejelentés",
+    "pinned": "Rögzítve",
+    "expired": "Lejárt",
+    "postedAt": "Közzétéve {{date}}",
+    "updatedAt": "Szerkesztette {{date}}",
+    "expiresAt": "Lejár {{date}}",
+    "category": {
+      "general": "Általános",
+      "maintenance": "Karbantartás",
+      "waterSupply": "Vízellátás",
+      "billing": "Számlázás",
+      "urgent": "Sürgős"
+    },
+    "form": {
+      "addTitle": "Új bejelentés",
+      "editTitle": "Közlemény szerkesztése",
+      "addSubtitle": "A lakosok ezt az Értesítések oldalán látják, és akinél engedélyezve vannak a push értesítések, azonnal értesítést kapnak.",
+      "editSubtitle": "A módosítások a helyükön frissítik a közleményt. A lakosokat ismét nem értesítik.",
+      "title": "Cím",
+      "category": "Kategória",
+      "expiresAt": "Lejár (nem kötelező)",
+      "body": "Üzenet",
+      "pinned": "Rögzítse a lakossági közlemények tetejére",
+      "requiredFields": "Kérjük, írjon be egy címet és egy üzenetet.",
+      "saveError": "Nem sikerült menteni ezt a közleményt. Kérjük, ellenőrizze a részleteket.",
+      "publish": "Közzététel"
+    },
+    "confirm": {
+      "title": "Törli a bejelentést?",
+      "body": "A(z) „{{title}}” el lesz távolítva minden lakosnál. Ezt nem lehet visszavonni.",
+      "delete": "Töröl",
+      "deleting": "Törlés…"
     }
   }
 }

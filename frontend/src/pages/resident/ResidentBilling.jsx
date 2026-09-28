@@ -1,7 +1,8 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { downloadMyInvoicePdf, getMyInvoices, payInvoice } from '../../api/billingApi'
+import { downloadMyInvoicePdf, downloadMyStatementPdf, getMyInvoices, payAllOutstanding, payInvoice } from '../../api/billingApi'
 import { Icon } from '../../components/resident/Icon'
+import { downloadCsv } from '../../utils/csv'
 import { downloadBlob } from '../../utils/downloadFile'
 import RazorpaySimulatorModal from './RazorpaySimulatorModal'
 import './ResidentBilling.css'
@@ -18,6 +19,8 @@ function ResidentBilling() {
   const [payingInvoice, setPayingInvoice] = useState(null)
   const [downloadingId, setDownloadingId] = useState(null)
   const [pdfError, setPdfError] = useState('')
+  const [payingAll, setPayingAll] = useState(false)
+  const [downloadingStatement, setDownloadingStatement] = useState(false)
 
   useEffect(() => {
     getMyInvoices()
@@ -31,6 +34,52 @@ function ResidentBilling() {
       setInvoices((prev) => prev.map((inv) => (inv.id === updated.id ? updated : inv)))
       setPayingInvoice(null)
     })
+  }
+
+  function handlePayAllSuccess() {
+    return payAllOutstanding().then((paid) => {
+      const byId = new Map(paid.map((inv) => [inv.id, inv]))
+      setInvoices((prev) => prev.map((inv) => byId.get(inv.id) ?? inv))
+      setPayingAll(false)
+    })
+  }
+
+  function handleDownloadStatement() {
+    setPdfError('')
+    setDownloadingStatement(true)
+    downloadMyStatementPdf()
+      .then((blob) => downloadBlob(blob, 'account-statement.pdf'))
+      .catch(() => setPdfError(t('billing.pdfError')))
+      .finally(() => setDownloadingStatement(false))
+  }
+
+  // Headers are translated; values stay raw (ISO dates, plain numbers, true/false).
+  function handleExportCsv() {
+    downloadCsv(
+      'invoice-history.csv',
+      [
+        t('billing.csv.cycle'),
+        t('billing.csv.consumption'),
+        t('billing.csv.baseAmount'),
+        t('billing.csv.tariffAmount'),
+        t('billing.csv.commonAreaAmount'),
+        t('billing.csv.totalAmount'),
+        t('billing.csv.paid'),
+        t('billing.csv.paidAt'),
+        t('billing.csv.generatedAt'),
+      ],
+      invoices.map((inv) => [
+        inv.periodMonth,
+        inv.consumptionUnits,
+        inv.baseAmount,
+        inv.tariffAmount,
+        inv.commonAreaAmount,
+        inv.totalAmount,
+        inv.paid,
+        inv.paidAt ?? '',
+        inv.generatedAt ?? '',
+      ]),
+    )
   }
 
   const pageCount = Math.max(1, Math.ceil(invoices.length / PAGE_SIZE))
@@ -88,21 +137,18 @@ function ResidentBilling() {
           </span>
         </div>
         <div className="af-bills__summary-actions">
-          <button
-            type="button"
-            className="af-bills__cta"
-            disabled
-            title={t('billing.summary.payTotalUnavailable')}
-          >
-            {t('billing.summary.payTotal')}
-          </button>
+          {unpaidInvoices.length > 0 && (
+            <button type="button" className="af-bills__cta" onClick={() => setPayingAll(true)}>
+              {t('billing.summary.payTotal')}
+            </button>
+          )}
           <button
             type="button"
             className="af-bills__cta af-bills__cta--outline"
-            disabled
-            title={t('billing.summary.downloadSummaryUnavailable')}
+            disabled={downloadingStatement}
+            onClick={handleDownloadStatement}
           >
-            {t('billing.summary.downloadSummary')}
+            {downloadingStatement ? t('billing.table.downloading') : t('billing.summary.downloadSummary')}
           </button>
         </div>
       </section>
@@ -110,7 +156,7 @@ function ResidentBilling() {
       <section className="af-bills__panel">
         <div className="af-bills__panel-heading">
           <h3>{t('billing.history.title')}</h3>
-          <button type="button" className="af-bills__export" disabled title={t('billing.history.exportUnavailable')}>
+          <button type="button" className="af-bills__export" onClick={handleExportCsv}>
             {t('billing.history.exportCsv')}
           </button>
         </div>
@@ -275,6 +321,15 @@ function ResidentBilling() {
           invoice={payingInvoice}
           onClose={() => setPayingInvoice(null)}
           onSuccess={() => handlePaymentSuccess(payingInvoice.id)}
+        />
+      )}
+
+      {payingAll && (
+        <RazorpaySimulatorModal
+          amount={outstandingBalance}
+          description={t('billing.summary.payAllDescription', { number: unpaidInvoices.length })}
+          onClose={() => setPayingAll(false)}
+          onSuccess={handlePayAllSuccess}
         />
       )}
     </>

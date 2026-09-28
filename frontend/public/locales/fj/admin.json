@@ -25,7 +25,6 @@
     "title": "{{community}} Dasibodi ni vale",
     "titleFallback": "Na nomu Dasibodi ni Vale",
     "subtitle": "Na itukutuku lekaleka ni cakacaka me baleta na vakayagataki ni wai kei na vakayagataki ni veivale.",
-    "comingSoon": "Sa voleka",
     "manageCommunity": "Lewa na Vanua",
     "noUsageReadings": "Se bera ni volai na wiliwili ni vakayagataki.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Vula vou duadua e volai ({{month}})",
       "noReadingsYet": "Se bera ni dua na wiliwili e volai",
       "pendingAlerts": "Vakaroti tiko",
-      "anomalyPreview": "Na vakaraitaki ni kena kunei na anomaly — se bera ni rawa"
+      "reviewAlerts": "Leakage / vakayagataki ni veivakaroti — railesuva ena gauna oqo",
+      "noActiveAlerts": "Sega na ivakasala"
     },
     "actions": {
       "label": "Cakacaka ni Veiliutaki Totolo",
       "uploadReadings": "Vakauta na Wilika ni Mita",
       "configureTariffs": "Vakarautaka na isau",
-      "reportsNotBuilt": "Ripote e se bera ni tara",
       "downloadReports": "Lavetaka na Ripote ni Sistema"
     },
     "chart": {
       "title": "Veivakatauvatani ni vakayagataki ilavo ena veivula (kL)",
       "subtitle": "iOtioti {{months}} vula: takete vs.",
-      "targetSeries": "Takete (raica taumada)",
       "actualSeries": "Dina"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "E sega ni rawa ni maroroi na nomu itukutuku. Kerekere mo tovolea tale.",
     "apartmentSaveError": "E sega ni rawa ni maroroi na itukutuku ni vale. Kerekere mo tovolea tale.",
     "specsTitle": "Na itukutuku ni itukutuku",
-    "photoUnavailable": "E se bera ni rawa ni vakau na itaba",
-    "changePhoto": "Veisautaka na itaba",
-    "deletePhoto": "Bokoca",
-    "photoHint": "JPG se PNG. Levu levu duadua 2MB.",
     "saveProfile": "Maroroya na itukutuku",
     "apartmentTitle": "Na itukutuku matailalai ni vale",
     "saveApartment": "Maroroya na itukutuku matailalai ni vale",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Na veivakadeitaki ni rua na ka e se bera ni rawa",
       "twoFactorAria": "Na veivakadeitaki ni rua na ka (raica taumada ga)",
       "sessionsLabel": "Soqoni ni Admin gugumatua",
-      "sessionsEmpty": "Na vakamuri ni soqoni e se bera ni rawa — oqo e dua na ivakaraitaki ni ituvatuva sa roro tiko mai."
-    }
+      "sessionsEmpty": "Na vakamuri ni soqoni e se bera ni rawa — oqo e dua na ivakaraitaki ni ituvatuva sa roro tiko mai.",
+      "previewNote": "Raica taumada ga: rua na ka ni veivakadeitaki kei na vakamuri ni soqoni e se bera ni rawa."
+    },
+    "avatarLabel": "iVakaraitaki",
+    "passwordTitle": "Veisautaka na vosanicuru"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tikite ni Vakaitikotiko",
       "subtitle": "Veitokoni tikite kei na kauwai era sa vakaraitaka vei iko na lewenivanua ena nomu itikotiko."
+    }
+  },
+  "reports": {
+    "loadError": "E sega ni rawa ni vakavodoki na ripote ni itikotiko. Kerekere mo tovolea tale.",
+    "pdfError": "E sega ni rawa ni lavetaki na ripote PDF. Kerekere mo tovolea tale.",
+    "loading": "Ripote ni vakavodoki...",
+    "empty": "E sega ni dua na veivale e tiko kina na itukutuku ena ilawalawa oqo.",
+    "noMatch": "E sega ni dua na matavuvale e veiganiti kei na \"{{search}}\".",
+    "searchPlaceholder": "Vakasavasavataka na vale, vakaitikotiko, se naba ni mita.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Lavetaka na PDF Vakalekalekataki",
+    "downloadingPdf": "Vakarautaki PDF...",
+    "ranges": {
+      "threeMonths": "Vula 3 sa oti",
+      "sixMonths": "vula 6 sa oti",
+      "twelveMonths": "vula sa oti",
+      "custom": "Range vakaitaukei"
+    },
+    "customRange": {
+      "from": "Mai",
+      "to": "Me",
+      "hint": "Digia ruarua e dua na itekivu kei na dua na vula ni itinitini me vakavodoki kina na ripote."
+    },
+    "cards": {
+      "totalConsumption": "Na iwiliwili taucoko ni vakayagataki",
+      "households": "Ena loma ni {{total}} veivale",
+      "avgMonthly": "Avg ni vakayagataki ni veivula",
+      "communityWide": "Vanua-rabailevu, ena veivula",
+      "billed": "Saumi",
+      "finalizedOnly": "Vakaoti & maroroi tu na veisau",
+      "paid": "Saumi",
+      "invoices": "{{total}} ivoli sa soli",
+      "outstanding": "Sega ni saumi",
+      "unpaidInvoices": "{{total}} ivoli sega ni saumi",
+      "collectionRate": "Na iwiliwili ni kumuni"
+    },
+    "costs": {
+      "title": "Na isau kei na ilavo curu mai",
+      "commonArea": "Na isau ni vanua raraba e bilitaki",
+      "bulkCost": "Na isau ni voli wai levu",
+      "bulkVolume": "Voli na wai levu",
+      "bulkCount": "{{total}} purchases",
+      "billedMinusBulk": "Na ilavo curu mai kauta laivi na isau levu",
+      "note": "Na volivoli vakalevu e dau vakamuri me baleta na kena laurai na isau ka sega ni bilitaki vakadodonu ki na veivale."
+    },
+    "top": {
+      "title": "Dauvolivoli cecere",
+      "empty": "E sega ni dua na vakayagataki e volai ena ilawalawa oqo."
+    },
+    "charts": {
+      "consumptionTitle": "Vakayagataki ena veivula",
+      "consumptionSeries": "Vakayagataki",
+      "billingTitle": "Saumi vs. Saumi vs. Na isau levu",
+      "billedSeries": "Saumi",
+      "paidSeries": "Saumi",
+      "bulkSeries": "Na isau ni volivoli vakalevu",
+      "empty": "Sega na itukutuku me baleta na ilawalawa oqo."
+    },
+    "sort": {
+      "label": "Vakarautaka ena",
+      "toggleDirection": "Veisautaka na veidusimaki",
+      "asc": "↑ Asc",
+      "desc": "↓ iVakamacala"
+    },
+    "table": {
+      "house": "Vale",
+      "resident": "Vakaitikotiko",
+      "meter": "Mita",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "iVakatautauvata ni Vula kL",
+      "billed": "Saumi",
+      "paid": "Saumi",
+      "outstanding": "Sega ni saumi"
+    }
+  },
+  "announcements": {
+    "loadError": "E sega ni rawa ni vakavodoki na itukutuku. Kerekere mo tovolea tale.",
+    "removeError": "E sega ni rawa ni bokoci na itukutuku oqo. Kerekere mo tovolea tale.",
+    "loading": "Vakavodoki tiko na itukutuku...",
+    "empty": "Se bera ni dua na itukutuku. Kiliki ena \"Itukutuku vou\" me vakaraitaka vei ira na nomu lewenivanua.",
+    "count": "Veivakatakila: {{total}}",
+    "newButton": "+ iTukutuku Vou",
+    "pinned": "Pini",
+    "expired": "Oti na kena gauna",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Vakadodonutaki {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "Raraba",
+      "maintenance": "Maroroi",
+      "waterSupply": "Vakadrodroi ni Wai",
+      "billing": "Bili",
+      "urgent": "Bibi"
+    },
+    "form": {
+      "addTitle": "iTukutuku Vou",
+      "editTitle": "Edita na itukutuku",
+      "addSubtitle": "Era raica na lewenivanua oqo ena nodra tabana ni veivakadeitaki, kei koya e vakatara na veivakadeitaki ni push e vakaraitaki sara ga.",
+      "editSubtitle": "Edita vakavoutaka na itukutuku ena vanua. Era sega ni vakaraitaki tale na lewenivanua.",
+      "title": "Ulutaga",
+      "category": "Iwasewase",
+      "expiresAt": "Sa oti na kena gauna (vakatulewa)",
+      "body": "Itukutuku",
+      "pinned": "Pin ki na dela ni lewenivanua’ itukutuku",
+      "requiredFields": "Yalovinaka vakacuruma e dua na ulutaga kei na dua na itukutuku.",
+      "saveError": "E sega ni rawa ni vakabulai na itukutuku oqo. Kerekere mo ni raica na kena matailalai.",
+      "publish": "Tabaka"
+    },
+    "confirm": {
+      "title": "Bokoca na itukutuku?",
+      "body": "\"{{title}}\" ena kau laivi vei ira kece na lewenivanua. E sega ni rawa ni vakasukai oqo.",
+      "delete": "Bokoca",
+      "deleting": "Bokoca..."
     }
   }
 }

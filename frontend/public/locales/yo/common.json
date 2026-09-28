@@ -222,6 +222,14 @@
         "title": "Atilẹyin / Awọn ifiyesi",
         "subtitle": "Gbe awọn tikẹti tirẹ lọ si Alakoso Eto, tabi mu awọn ifiyesi ti awọn olugbe rẹ ti koju si ọ."
       },
+      "reports": {
+        "title": "Agbegbe Iroyin",
+        "subtitle": "Lilo, ìdíyelé, ikojọpọ, ati awọn isiro rira-pupọ fun agbegbe rẹ."
+      },
+      "announcements": {
+        "title": "Awọn ikede",
+        "subtitle": "Ṣe atẹjade awọn akiyesi jakejado agbegbe si awọn olugbe rẹ."
+      },
       "profile": {
         "title": "Eto & Profaili",
         "subtitle": "Ṣakoso awọn alaye akọọlẹ rẹ ati alaye iyẹwu."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Abojuto Agbegbe",
     "notBuilt": "{{label}} ko tii kọ",
     "searchPlaceholder": "Wa ohunkohun…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Iroyin",
-      "description": "Lilo, ìdíyelé, ati awọn ijabọ itoju fun agbegbe rẹ."
-    },
-    "announcements": {
-      "title": "Awọn ikede",
-      "description": "Firanṣẹ awọn ikede jakejado agbegbe si awọn olugbe rẹ."
-    }
   },
   "comingSoon": {
     "title": "{{title}} n bọ laipẹ"
@@ -261,7 +259,9 @@
       "billing": "Ìdíyelé & Invoices",
       "notifications": "Awọn iwifunni",
       "recommendations": "Awọn iṣeduro",
-      "support": "Atilẹyin / Awọn ifiyesi"
+      "support": "Atilẹyin / Awọn ifiyesi",
+      "reports": "Lilo rẹ & awọn ijabọ inawo",
+      "profile": "Profaili mi"
     },
     "defaultTitle": "Dasibodu olugbe",
     "navLabel": "Lilọ kiri olugbe",
@@ -277,7 +277,8 @@
       "communities": "Awọn agbegbe",
       "reports": "Iroyin",
       "supportTickets": "Tiketi atilẹyin",
-      "systemStatus": "Ipo System"
+      "systemStatus": "Ipo System",
+      "profile": "Profaili"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Ipo System",
         "subtitle": "Asopọmọra afẹyinti ati ilera asiko isise ipilẹ."
+      },
+      "profile": {
+        "title": "Profaili",
+        "subtitle": "Akọọlẹ rẹ, avatar ati ọrọ igbaniwọle"
       }
     },
     "fallbackName": "Alakoso Eto",
@@ -308,5 +313,40 @@
     "buttonLabel": "Language: {{language}}",
     "searchPlaceholder": "Wa ede…",
     "noMatches": "Ko si ibaamu"
+  },
+  "avatarPicker": {
+    "label": "Yan avatar kan",
+    "hint": "Yan ọkan ninu awọn avatars tito tẹlẹ, tabi lo awọn ibẹrẹ rẹ.",
+    "change": "Yipada",
+    "cancel": "Fagilee",
+    "useInitials": "Lo awọn ibẹrẹ akọkọ",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Fi avatar pamọ",
+    "saving": "Nfipamọ…",
+    "saved": "Afata imudojuiwọn",
+    "saveError": "Ko le ṣe imudojuiwọn avatar rẹ. Jọwọ gbiyanju lẹẹkansi."
+  },
+  "changePassword": {
+    "current": "Ọrọigbaniwọle lọwọlọwọ",
+    "new": "Ọrọ aṣina Tuntun",
+    "confirm": "Jẹrisi ọrọ igbaniwọle tuntun",
+    "hint": "O kere ju {{min}} awọn ami kikọ.",
+    "tooShort": "Ọ̀rọ̀ aṣínà tuntun gbọ́dọ̀ kéré tán {{min}} ẹyọ ọ̀rọ̀.",
+    "mismatch": "Awọn ọrọigbaniwọle titun ko baramu.",
+    "sameAsCurrent": "Ọrọigbaniwọle titun gbọdọ yatọ si ọrọ igbaniwọle lọwọlọwọ rẹ.",
+    "submit": "Ṣe imudojuiwọn ọrọ igbaniwọle",
+    "saving": "Nmu imudojuiwọn…",
+    "success": "Ọrọigbaniwọle rẹ ti ni imudojuiwọn.",
+    "error": "Ko le ṣe imudojuiwọn ọrọ igbaniwọle rẹ. Jọwọ gbiyanju lẹẹkansi."
+  },
+  "search": {
+    "kindPage": "Oju-iwe",
+    "kindRecord": "Abajade",
+    "loading": "Ṣiṣawari…",
+    "noResults": "Ko si ibaamu",
+    "recordsUnavailable": "Awọn oju-iwe nikan ni o le wa ni bayi.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Sanwo",
+    "unpaid": "Ti ko sanwo"
   }
 }

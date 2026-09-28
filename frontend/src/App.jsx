@@ -16,6 +16,8 @@ import BillingCycles from './pages/admin/BillingCycles'
 import BulkWaterPurchases from './pages/admin/BulkWaterPurchases'
 import WaterLeakage from './pages/admin/WaterLeakage'
 import AdminProfile from './pages/admin/AdminProfile'
+import AdminReports from './pages/admin/AdminReports'
+import Announcements from './pages/admin/Announcements'
 import ComingSoon from './pages/admin/ComingSoon'
 import ResidentLayout from './components/resident/ResidentLayout'
 import ResidentHome from './pages/resident/ResidentHome'
@@ -24,6 +26,7 @@ import ResidentBilling from './pages/resident/ResidentBilling'
 import ResidentNotifications from './pages/resident/ResidentNotifications'
 import Recommendations from './pages/resident/Recommendations'
 import ResidentSupportTickets from './pages/resident/ResidentSupportTickets'
+import ResidentReports from './pages/resident/ResidentReports'
 import SupportConcerns from './pages/admin/SupportConcerns'
 import PlatformLayout from './components/platform/PlatformLayout'
 import PlatformDashboard from './pages/platform/PlatformDashboard'
@@ -32,6 +35,8 @@ import CommunityDetail from './pages/platform/CommunityDetail'
 import PlatformReports from './pages/platform/PlatformReports'
 import PlatformSupportTickets from './pages/platform/SupportTickets'
 import SystemStatus from './pages/platform/SystemStatus'
+import PlatformProfile from './pages/platform/PlatformProfile'
+import ResidentProfile from './pages/resident/ResidentProfile'
 import './styles/theme.css'
 
 function App() {
@@ -58,6 +63,8 @@ function App() {
               <Route path="/resident/notifications" element={<ResidentNotifications />} />
               <Route path="/resident/recommendations" element={<Recommendations />} />
               <Route path="/resident/support" element={<ResidentSupportTickets />} />
+              <Route path="/resident/profile" element={<ResidentProfile />} />
+              <Route path="/resident/reports" element={<ResidentReports />} />
             </Route>
 
             <Route
@@ -76,6 +83,8 @@ function App() {
               <Route path="/admin/water-leakage" element={<WaterLeakage />} />
               <Route path="/admin/support" element={<SupportConcerns />} />
               <Route path="/admin/profile" element={<AdminProfile />} />
+              <Route path="/admin/reports" element={<AdminReports />} />
+              <Route path="/admin/announcements" element={<Announcements />} />
 
               {STUB_PAGES.map((page) => (
                 <Route key={page.path} path={page.path} element={<ComingSoon titleKey={page.titleKey} descriptionKey={page.descriptionKey} />} />
@@ -95,6 +104,7 @@ function App() {
               <Route path="/platform/reports" element={<PlatformReports />} />
               <Route path="/platform/support-tickets" element={<PlatformSupportTickets />} />
               <Route path="/platform/system-status" element={<SystemStatus />} />
+              <Route path="/platform/profile" element={<PlatformProfile />} />
             </Route>
           </Routes>
         </BrowserRouter>

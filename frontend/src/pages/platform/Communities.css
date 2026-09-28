@@ -148,6 +148,17 @@
   border-bottom: none;
 }
 
+.af-comm__avatar-col {
+  width: 1%;
+  padding-right: 0 !important;
+}
+
+.af-comm__avatar {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+}
+
 .af-comm__row--clickable {
   cursor: pointer;
 }

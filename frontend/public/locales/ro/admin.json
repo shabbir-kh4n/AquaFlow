@@ -25,7 +25,6 @@
     "title": "{{community}} Tabloul de bord al apartamentului",
     "titleFallback": "Tabloul de bord al apartamentului dvs",
     "subtitle": "Rezumat operațional pentru subcontorizarea utilității de apă și consumul casnic.",
-    "comingSoon": "În curând",
     "manageCommunity": "Gestionează comunitatea",
     "noUsageReadings": "Nu s-au înregistrat încă citiri de utilizare.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Ultima lună înregistrată ({{month}})",
       "noReadingsYet": "Nu s-au înregistrat încă citiri",
       "pendingAlerts": "Alerte în așteptare",
-      "anomalyPreview": "Previzualizarea detectării anomaliilor — nu este încă disponibilă"
+      "reviewAlerts": "Alerte active de scurgere/utilizare — revizuiți acum",
+      "noActiveAlerts": "Nu există alerte active"
     },
     "actions": {
       "label": "Acțiuni administrative rapide",
       "uploadReadings": "Încărcați citirile contorului",
       "configureTariffs": "Configurați tarife",
-      "reportsNotBuilt": "Rapoartele nu sunt încă create",
       "downloadReports": "Descărcați rapoarte de sistem"
     },
     "chart": {
       "title": "Comparația consumului lunar (kL)",
       "subtitle": "Ultimele {{months}} luni: consumul vizat versus consumul real.",
-      "targetSeries": "Țintă (previzualizare)",
       "actualSeries": "Real"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nu s-a putut salva profilul dvs. Vă rugăm să încercați din nou.",
     "apartmentSaveError": "Nu s-au putut salva detaliile apartamentului. Vă rugăm să încercați din nou.",
     "specsTitle": "Specificațiile profilului",
-    "photoUnavailable": "Încărcarea fotografiilor nu este încă disponibilă",
-    "changePhoto": "Schimbați fotografia",
-    "deletePhoto": "Şterge",
-    "photoHint": "JPG sau PNG. Dimensiune maximă 2 MB.",
     "saveProfile": "Salvați profilul",
     "apartmentTitle": "Detalii apartament",
     "saveApartment": "Salvează detaliile apartamentului",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Autentificarea cu doi factori nu este încă disponibilă",
       "twoFactorAria": "Autentificare cu doi factori (doar previzualizare)",
       "sessionsLabel": "Sesiuni de administrare active",
-      "sessionsEmpty": "Urmărirea sesiunii nu este încă disponibilă - aceasta este o previzualizare a aspectului viitor."
-    }
+      "sessionsEmpty": "Urmărirea sesiunii nu este încă disponibilă - aceasta este o previzualizare a aspectului viitor.",
+      "previewNote": "Numai previzualizare: autentificarea cu doi factori și urmărirea sesiunii nu sunt încă disponibile."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Schimbaţi parola"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Bilete de rezident",
       "subtitle": "Tichetele de asistență și preocupările pe care locuitorii din comunitatea ta ți le-au adresat."
+    }
+  },
+  "reports": {
+    "loadError": "Nu s-a putut încărca raportul comunității. Vă rugăm să încercați din nou.",
+    "pdfError": "Nu s-a putut descărca raportul PDF. Vă rugăm să încercați din nou.",
+    "loading": "Se încarcă raportul...",
+    "empty": "Nu există gospodării cu date în acest interval.",
+    "noMatch": "Nicio gospodărie nu se potrivește cu „{{search}}”.",
+    "searchPlaceholder": "Filtrați după casă, rezident sau contor nr.",
+    "downloadCsv": "Descărcați CSV",
+    "downloadPdf": "Descărcați PDF Rezumat",
+    "downloadingPdf": "Se pregătește PDF…",
+    "ranges": {
+      "threeMonths": "Ultimele 3 luni",
+      "sixMonths": "Ultimele 6 luni",
+      "twelveMonths": "Ultimele 12 luni",
+      "custom": "Gamă personalizată"
+    },
+    "customRange": {
+      "from": "Din",
+      "to": "La",
+      "hint": "Alegeți atât o lună de început, cât și o lună de sfârșit pentru a încărca raportul."
+    },
+    "cards": {
+      "totalConsumption": "Consumul total",
+      "households": "În {{total}} gospodării",
+      "avgMonthly": "Consumul mediu lunar",
+      "communityWide": "La nivelul întregii comunități, pe lună",
+      "billed": "Facturat",
+      "finalizedOnly": "Numai cicluri finalizate și arhivate",
+      "paid": "Plătit",
+      "invoices": "{{total}} facturi emise",
+      "outstanding": "Remarcabil",
+      "unpaidInvoices": "{{total}} facturi neplătite",
+      "collectionRate": "Rata de colectare"
+    },
+    "costs": {
+      "title": "Costuri vs. Venituri",
+      "commonArea": "Taxe pentru zona comună facturate",
+      "bulkCost": "Costul de achiziție a apei în vrac",
+      "bulkVolume": "Apa achiziționată în vrac",
+      "bulkCount": "{{total}} achiziții",
+      "billedMinusBulk": "Venitul facturat minus costul în bloc",
+      "note": "Achizițiile în vrac sunt urmărite pentru vizibilitatea costurilor și nu sunt facturate direct gospodăriilor."
+    },
+    "top": {
+      "title": "Consumatorii de top",
+      "empty": "Nu s-a inregistrat consum in aceasta gama."
+    },
+    "charts": {
+      "consumptionTitle": "Consum lunar",
+      "consumptionSeries": "Consum",
+      "billingTitle": "Facturat vs. plătit vs. cost în bloc",
+      "billedSeries": "Facturat",
+      "paidSeries": "Plătit",
+      "bulkSeries": "Cost de achiziție în vrac",
+      "empty": "Nu există date pentru acest interval."
+    },
+    "sort": {
+      "label": "Filtrează după",
+      "toggleDirection": "Comutați direcția de sortare",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Casa",
+      "resident": "Rezident",
+      "meter": "Metru",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Mediu lunar kL",
+      "billed": "Facturat",
+      "paid": "Plătit",
+      "outstanding": "Remarcabil"
+    }
+  },
+  "announcements": {
+    "loadError": "Nu s-au putut încărca anunțurile. Vă rugăm să încercați din nou.",
+    "removeError": "Nu s-a putut șterge acest anunț. Vă rugăm să încercați din nou.",
+    "loading": "Se încarcă anunțuri…",
+    "empty": "Niciun anunt inca. Faceți clic pe „Anunț nou” pentru a vă notifica rezidenții.",
+    "count": "Anunțuri: {{total}}",
+    "newButton": "+ Anunț nou",
+    "pinned": "Fixat",
+    "expired": "Expirat",
+    "postedAt": "Postat {{date}}",
+    "updatedAt": "Editat {{date}}",
+    "expiresAt": "Expiră {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Întreţinere",
+      "waterSupply": "Aprovizionare cu apă",
+      "billing": "Facturare",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "addTitle": "Anunț nou",
+      "editTitle": "Editați anunțul",
+      "addSubtitle": "Rezidenții văd acest lucru pe pagina lor de notificări și oricine are activate notificări push este notificat imediat.",
+      "editSubtitle": "Editările actualizează anunțul în loc. Locuitorii nu sunt anunțați din nou.",
+      "title": "Titlu",
+      "category": "Categorie",
+      "expiresAt": "Expiră (opțional)",
+      "body": "Mesaj",
+      "pinned": "Fixați în partea de sus a anunțurilor rezidenților",
+      "requiredFields": "Vă rugăm să introduceți un titlu și un mesaj.",
+      "saveError": "Nu s-a putut salva acest anunț. Vă rugăm să verificați detaliile.",
+      "publish": "Publica"
+    },
+    "confirm": {
+      "title": "Ștergeți anunțul?",
+      "body": "„{{title}}” va fi eliminat pentru toți rezidenții. Acest lucru nu poate fi anulat.",
+      "delete": "Şterge",
+      "deleting": "Se șterge…"
     }
   }
 }

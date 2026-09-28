@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ënnerstëtzung Ticketen",
     "subtitle": "Ënnerstëtzt Ticketen a Bedenken, déi vun Awunner a Gemeinschaftsadministrateuren opgeworf ginn, Plattform-breet."
+  },
+  "profile": {
+    "accountTitle": "Kont",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Passwuert änneren",
+    "loadError": "Konnt Äre Profil net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "fields": {
+      "fullName": "Ganzen numm",
+      "email": "E-Mail",
+      "role": "Roll",
+      "roleValue": "System Administrateur"
+    }
   }
 }

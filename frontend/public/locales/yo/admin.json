@@ -25,7 +25,6 @@
     "title": "{{community}} Dasibodu iyẹwu",
     "titleFallback": "Dasibodu Iyẹwu Rẹ",
     "subtitle": "Akopọ iṣẹ ṣiṣe fun iwọn-mita iwUlO omi ati lilo ile.",
-    "comingSoon": "Nbọ laipẹ",
     "manageCommunity": "Ṣakoso Agbegbe",
     "noUsageReadings": "Ko si awọn kika kika lilo sibẹsibẹ.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Oṣu tuntun ti o gbasilẹ ({{month}})",
       "noReadingsYet": "Ko si awọn iwe kika ti o gbasilẹ sibẹsibẹ",
       "pendingAlerts": "Titaniji ni isunmọtosi",
-      "anomalyPreview": "Awotẹlẹ iwari Anomaly - ko sibẹsibẹ wa"
+      "reviewAlerts": "Awọn itaniji jijo / lilo ti nṣiṣe lọwọ - ṣe atunyẹwo ni bayi",
+      "noActiveAlerts": "Ko si awọn itaniji ti nṣiṣe lọwọ"
     },
     "actions": {
       "label": "Awọn ọna Isakoso Awọn iṣe",
       "uploadReadings": "Po si Mita kika",
       "configureTariffs": "Ṣe atunto Awọn idiyele",
-      "reportsNotBuilt": "Awọn ijabọ ko tii kọ",
       "downloadReports": "Download System Iroyin"
     },
     "chart": {
       "title": "Ifiwera Lilo Oṣooṣu (kL)",
       "subtitle": "Last {{months}} months: target vs. actual consumption.",
-      "targetSeries": "Àfojúsùn (awotẹlẹ)",
       "actualSeries": "Gangan"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ko le fi profaili rẹ pamọ. Jọwọ gbiyanju lẹẹkansi.",
     "apartmentSaveError": "Ko le fi awọn alaye iyẹwu pamọ. Jọwọ gbiyanju lẹẹkansi.",
     "specsTitle": "Awọn pato Profaili",
-    "photoUnavailable": "Igbesoke Fọto ko si sibẹsibẹ",
-    "changePhoto": "Yi Fọto pada",
-    "deletePhoto": "Paarẹ",
-    "photoHint": "JPG tabi PNG. Iwọn to pọju 2MB.",
     "saveProfile": "Fi Profaili pamọ",
     "apartmentTitle": "Iyẹwu Awọn alaye",
     "saveApartment": "Fipamọ Awọn alaye Iyẹwu",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Ijeri ifosiwewe meji ko si sibẹsibẹ",
       "twoFactorAria": "Ijeri ifosiwewe meji (awotẹlẹ nikan)",
       "sessionsLabel": "Awọn igba Admin ti nṣiṣe lọwọ",
-      "sessionsEmpty": "Titele igba ko si sibẹsibẹ - eyi jẹ awotẹlẹ ti ifilelẹ ti n bọ."
-    }
+      "sessionsEmpty": "Titele igba ko si sibẹsibẹ - eyi jẹ awotẹlẹ ti ifilelẹ ti n bọ.",
+      "previewNote": "Awotẹlẹ nikan: Ijeri ifosiwewe meji ati ipasẹ igba ko si sibẹsibẹ."
+    },
+    "avatarLabel": "Afata",
+    "passwordTitle": "Tun oruko akowole re se"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tiketi olugbe",
       "subtitle": "Tiketi atilẹyin ati awọn ifiyesi awọn olugbe ni agbegbe rẹ ti koju si ọ."
+    }
+  },
+  "reports": {
+    "loadError": "Ko le ṣe fifuye ijabọ agbegbe. Jọwọ gbiyanju lẹẹkansi.",
+    "pdfError": "Ko le ṣe igbasilẹ ijabọ PDF. Jọwọ gbiyanju lẹẹkansi.",
+    "loading": "Ikojọpọ iroyin…",
+    "empty": "Ko si awọn idile pẹlu data ni sakani yii.",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "Àlẹmọ nipa ile, olugbe, tabi mita no.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Ṣe igbasilẹ PDF Lakotan",
+    "downloadingPdf": "Ngbaradi PDF…",
+    "ranges": {
+      "threeMonths": "Osu 3 to koja",
+      "sixMonths": "Osu 6 to koja",
+      "twelveMonths": "Awọn oṣu 12 to kọja",
+      "custom": "Aṣa ibiti o"
+    },
+    "customRange": {
+      "from": "Lati",
+      "to": "Si",
+      "hint": "Mu mejeeji ibẹrẹ ati oṣu ipari kan lati ṣaja ijabọ naa."
+    },
+    "cards": {
+      "totalConsumption": "Lapapọ Lilo",
+      "households": "Kọja {{total}} awọn ile",
+      "avgMonthly": "Apapọ Lilo Oṣooṣu",
+      "communityWide": "Jakejado agbegbe, fun oṣu kan",
+      "billed": "Billed",
+      "finalizedOnly": "Ipari & Awọn akoko ti a fi pamọ nikan",
+      "paid": "Sanwo",
+      "invoices": "{{total}} awọn risiti ti oniṣowo",
+      "outstanding": "O tayọ",
+      "unpaidInvoices": "{{total}} awọn risiti ti a ko sanwo",
+      "collectionRate": "Gbigba Oṣuwọn"
+    },
+    "costs": {
+      "title": "Owo vs Wiwọle",
+      "commonArea": "Awọn idiyele agbegbe ti o wọpọ ni idiyele",
+      "bulkCost": "Olopobobo omi rira iye owo",
+      "bulkVolume": "Olopobobo ti ra",
+      "bulkCount": "{{total}} rira",
+      "billedMinusBulk": "Owo-wiwọle ti a ṣe idiyele iyokuro iye owo olopobobo",
+      "note": "Awọn rira olopobobo ni a tọpinpin fun hihan iye owo ati pe a ko gba owo si awọn idile taara."
+    },
+    "top": {
+      "title": "Top onibara",
+      "empty": "Ko si agbara ti o gbasilẹ ni sakani yii."
+    },
+    "charts": {
+      "consumptionTitle": "Lilo Oṣooṣu",
+      "consumptionSeries": "Lilo agbara",
+      "billingTitle": "Billed vs. San vs. Olopobo iye owo",
+      "billedSeries": "Billed",
+      "paidSeries": "Sanwo",
+      "bulkSeries": "Olopobobo iye owo rira",
+      "empty": "Ko si data fun sakani yii."
+    },
+    "sort": {
+      "label": "Sa pelu",
+      "toggleDirection": "Yi ọna tootọ yipada",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Ile",
+      "resident": "Olugbe",
+      "meter": "Mita",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Apapọ oṣooṣu kL",
+      "billed": "Billed",
+      "paid": "Sanwo",
+      "outstanding": "O tayọ"
+    }
+  },
+  "announcements": {
+    "loadError": "Ko le gbe awọn ikede silẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "removeError": "Ko le pa ikede yii rẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "loading": "Nkojọpọ awọn ikede…",
+    "empty": "Ko si awọn ikede sibẹsibẹ. Tẹ \"Ikede Tuntun\" lati fi to awọn olugbe leti.",
+    "count": "Awọn ikede: {{total}}",
+    "newButton": "+ Ìkéde Tuntun",
+    "pinned": "Pinni",
+    "expired": "Ti pari",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "Gbogboogbo",
+      "maintenance": "Itoju",
+      "waterSupply": "Ipese Omi",
+      "billing": "Ìdíyelé",
+      "urgent": "Ni kiakia"
+    },
+    "form": {
+      "addTitle": "Ikede Tuntun",
+      "editTitle": "Ṣatunkọ Akede",
+      "addSubtitle": "Awọn olugbe wo eyi lori oju-iwe Awọn iwifunni wọn, ati pe ẹnikẹni ti o ni awọn iwifunni titari ṣiṣẹ ni iwifunni lẹsẹkẹsẹ.",
+      "editSubtitle": "Awọn atunṣe ṣe imudojuiwọn ikede ni aaye. Awọn olugbe ko ni iwifunni lẹẹkansi.",
+      "title": "Akọle",
+      "category": "Ẹka",
+      "expiresAt": "O pari (aṣayan)",
+      "body": "Ifiranṣẹ",
+      "pinned": "Pin si oke ti awọn ikede olugbe",
+      "requiredFields": "Jọwọ tẹ akọle sii ati ifiranṣẹ kan.",
+      "saveError": "Ko le fi ikede yii pamọ. Jọwọ ṣayẹwo awọn alaye.",
+      "publish": "Ṣe atẹjade"
+    },
+    "confirm": {
+      "title": "Pa ikede rẹ rẹ bi?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "Paarẹ",
+      "deleting": "Nparẹ…"
     }
   }
 }

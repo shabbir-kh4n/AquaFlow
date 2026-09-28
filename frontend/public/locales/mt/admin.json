@@ -25,7 +25,6 @@
     "title": "{{community}} Appartament Dashboard",
     "titleFallback": "Dashboard tal-appartament tiegħek",
     "subtitle": "Sommarju operattiv għas-submetering tal-utilità tal-ilma u l-konsum tad-dar.",
-    "comingSoon": "Dalwaqt",
     "manageCommunity": "Immaniġġja l-Komunità",
     "noUsageReadings": "Għadu ma ġiex irreġistrat qari tal-użu.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "L-aħħar xahar irreġistrat ({{month}})",
       "noReadingsYet": "Għadu ma ġiex irreġistrat qari",
       "pendingAlerts": "Twissijiet Pendenti",
-      "anomalyPreview": "Previżjoni ta' sejbien ta' anomaliji — għadha mhix disponibbli"
+      "reviewAlerts": "Twissijiet ta' tnixxija / użu attivi — irrevedi issa",
+      "noActiveAlerts": "Ebda twissijiet attivi"
     },
     "actions": {
       "label": "Azzjonijiet Amministrattivi Mgħaġġla",
       "uploadReadings": "Ittella Qari tal-Meter",
       "configureTariffs": "Ikkonfigura Tariffi",
-      "reportsNotBuilt": "Ir-rapporti għadu mhux mibni",
       "downloadReports": "Niżżel ir-Rapporti tas-Sistema"
     },
     "chart": {
       "title": "Tqabbil tal-Konsum ta' Kull Xahar (kL)",
       "subtitle": "L-aħħar {{months}} xhur: mira vs konsum attwali.",
-      "targetSeries": "Mira (previżjoni)",
       "actualSeries": "Attwali"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ma setgħetx issalva l-profil tiegħek. Jekk jogħġbok erġa' pprova.",
     "apartmentSaveError": "Ma setgħetx tissejvja d-dettalji tal-appartament. Jekk jogħġbok erġa' pprova.",
     "specsTitle": "Speċifikazzjonijiet tal-Profil",
-    "photoUnavailable": "It-tlugħ tar-ritratti għadu mhux disponibbli",
-    "changePhoto": "Bidla Ritratt",
-    "deletePhoto": "Ħassar",
-    "photoHint": "JPG jew PNG. Daqs massimu 2MB.",
     "saveProfile": "Ħlief Profil",
     "apartmentTitle": "Dettalji tal-appartament",
     "saveApartment": "Ħlief Dettalji tal-Appartament",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "L-awtentikazzjoni b'żewġ fatturi għadha mhix disponibbli",
       "twoFactorAria": "Awtentikazzjoni b'żewġ fatturi (previżjoni biss)",
       "sessionsLabel": "Sessjonijiet ta' Amministrazzjoni Attiva",
-      "sessionsEmpty": "It-traċċar tas-sessjoni għadu mhux disponibbli — din hija preview tat-tqassim li jmiss."
-    }
+      "sessionsEmpty": "It-traċċar tas-sessjoni għadu mhux disponibbli — din hija preview tat-tqassim li jmiss.",
+      "previewNote": "Preview biss: l-awtentikazzjoni b'żewġ fatturi u t-traċċar tas-sessjoni għadhom mhumiex disponibbli."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Ibdel il-Password"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Biljetti Residenti",
       "subtitle": "Biljetti ta' appoġġ u tħassib li r-residenti fil-komunità tiegħek indirizzawlek."
+    }
+  },
+  "reports": {
+    "loadError": "Ma setax jgħabbi r-rapport tal-komunità. Jekk jogħġbok erġa' pprova.",
+    "pdfError": "Ma setax tniżżel ir-rapport PDF. Jekk jogħġbok erġa' pprova.",
+    "loading": "Qiegħed it-tagħbija tar-rapport...",
+    "empty": "L-ebda familja b'dejta f'din il-firxa.",
+    "noMatch": "L-ebda familja ma taqbilx ma' \"{{search}}\".",
+    "searchPlaceholder": "Iffiltra minn dar, residenti, jew meter nru.",
+    "downloadCsv": "Niżżel CSV",
+    "downloadPdf": "Niżżel PDF Sommarju",
+    "downloadingPdf": "Nipprepara PDF...",
+    "ranges": {
+      "threeMonths": "L-aħħar 3 xhur",
+      "sixMonths": "L-aħħar 6 xhur",
+      "twelveMonths": "L-aħħar 12-il xahar",
+      "custom": "Firxa tad-dwana"
+    },
+    "customRange": {
+      "from": "Minn",
+      "to": "Biex",
+      "hint": "Agħżel kemm xahar tal-bidu kif ukoll xahar tat-tmiem biex tagħbija r-rapport."
+    },
+    "cards": {
+      "totalConsumption": "Konsum Totali",
+      "households": "Madwar {{total}} familji",
+      "avgMonthly": "Konsum medju ta' kull xahar",
+      "communityWide": "Il-Komunità kollha, kull xahar",
+      "billed": "Billed",
+      "finalizedOnly": "Ċikli finalizzati u arkivjati biss",
+      "paid": "Imħallas",
+      "invoices": "{{total}} fatturi maħruġa",
+      "outstanding": "Pendenti",
+      "unpaidInvoices": "{{total}} fatturi mhux imħallsa",
+      "collectionRate": "Rata ta' Ġbir"
+    },
+    "costs": {
+      "title": "Spejjeż vs Dħul",
+      "commonArea": "Ħlasijiet taż-żona komuni ċċarġjati",
+      "bulkCost": "Spiża tax-xiri tal-ilma bl-ingrossa",
+      "bulkVolume": "Ilma bl-ingrossa mixtri",
+      "bulkCount": "{{total}} xiri",
+      "billedMinusBulk": "Dħul fatturat nieqes l-ispiża bl-ingrossa",
+      "note": "Ix-xiri bl-ingrossa jiġi ssorveljat għall-viżibilità tal-ispiża u ma jiġix fatturat lill-familji direttament."
+    },
+    "top": {
+      "title": "Konsumaturi ta' Fuq",
+      "empty": "Ebda konsum irreġistrat f'din il-medda."
+    },
+    "charts": {
+      "consumptionTitle": "Konsum ta 'kull xahar",
+      "consumptionSeries": "Konsum",
+      "billingTitle": "Billed vs Imħallas vs Bulk Cost",
+      "billedSeries": "Billed",
+      "paidSeries": "Imħallas",
+      "bulkSeries": "Spiża ta 'xiri bl-ingrossa",
+      "empty": "L-ebda dejta għal din il-firxa."
+    },
+    "sort": {
+      "label": "Issortja minn",
+      "toggleDirection": "Toggle sort direzzjoni",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "table": {
+      "house": "Dar",
+      "resident": "Resident",
+      "meter": "Miter",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Medja Kull Xahar kL",
+      "billed": "Billed",
+      "paid": "Imħallas",
+      "outstanding": "Pendenti"
+    }
+  },
+  "announcements": {
+    "loadError": "Ma setgħetx tagħbija avviżi. Jekk jogħġbok erġa' pprova.",
+    "removeError": "Ma setgħetx tħassar din l-aħbar. Jekk jogħġbok erġa' pprova.",
+    "loading": "Tagħbija l-avviżi...",
+    "empty": "S'issa l-ebda avviżi. Ikklikkja \"Tħabbir Ġdid\" biex tavża lir-residenti tiegħek.",
+    "count": "Avviżi: {{total}}",
+    "newButton": "+ Tħabbir Ġdid",
+    "pinned": "Pinnjati",
+    "expired": "Skaduta",
+    "postedAt": "Mibgħut {{date}}",
+    "updatedAt": "Editjat {{date}}",
+    "expiresAt": "Tiskadi {{date}}",
+    "category": {
+      "general": "Ġenerali",
+      "maintenance": "Manutenzjoni",
+      "waterSupply": "Provvista tal-Ilma",
+      "billing": "Kontijiet",
+      "urgent": "Urġenti"
+    },
+    "form": {
+      "addTitle": "Avviż Ġdid",
+      "editTitle": "Editja Tħabbira",
+      "addSubtitle": "Ir-residenti jaraw dan fuq il-paġna tan-Notifiki tagħhom, u kull min għandu notifiki push attivati ​​jiġi notifikat minnufih.",
+      "editSubtitle": "Edits jaġġornaw l-avviż fis-seħħ. Ir-residenti ma jerġgħux jiġu notifikati.",
+      "title": "Titolu",
+      "category": "Kategorija",
+      "expiresAt": "Tiskadi (mhux obbligatorju)",
+      "body": "Messaġġ",
+      "pinned": "Pin fil-quċċata tal-avviżi tar-residenti",
+      "requiredFields": "Jekk jogħġbok daħħal titolu u messaġġ.",
+      "saveError": "Ma setgħetx tissejvja din l-aħbar. Jekk jogħġbok iċċekkja d-dettalji.",
+      "publish": "Ippubblika"
+    },
+    "confirm": {
+      "title": "Ħassar l-avviż?",
+      "body": "\"{{title}}\" se titneħħa għar-residenti kollha. Dan ma jistax jitneħħa.",
+      "delete": "Ħassar",
+      "deleting": "Tħassar..."
     }
   }
 }

@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Ho avy tsy ho ela",
     "welcome": {
       "greeting": "Salama {{name}},",
       "greetingFallback": "Salama ny ao,",
       "title": "Mijanòna akaikin'ny tantaran'ny rano ao an-tranonao.",
-      "subtitle": "Hiseho eto ny hevitra momba ny fampiasana sy faktiora rehefa mirakitra ny vakiteny ny vondrom-piarahamoninao.",
-      "viewBadges": "Jereo ny Eco-Badges"
+      "subtitle": "Hiseho eto ny hevitra momba ny fampiasana sy faktiora rehefa mirakitra ny vakiteny ny vondrom-piarahamoninao."
     },
     "stats": {
       "todaysUsage": "Fampiasana anio",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Fampiasana mitatra + sara ifampizarana, {{month}}",
       "estimatedBillHint": "Mifototra amin'ny fanjifana amin'ity volana ity sy ny sara ifampizarana",
       "savings": "Savings vs Building Avg",
-      "savingsValue": "{{percent}}% Kely",
-      "savingsPreview": "Preview fotsiny — tsy mbola mivantana ny fampitahana"
+      "savingsLess": "{{percent}}% Kely",
+      "savingsMore": "{{percent}}% More",
+      "savingsEqual": "Mitovy amin'ny antonony",
+      "savingsDetail": "{{household}} kL vs {{average}} kL antonony, {{month}}",
+      "savingsNoData": "Tsy mbola misy fampitahana trano"
     },
     "consumption": {
       "eyebrow": "fihinanana",
       "title": "Fanjifana isan'andro (Vakio 14 farany)",
       "seriesName": "fihinanana",
       "empty": "Tsy mbola nisy vakiteny voarakitra."
-    },
-    "breakdown": {
-      "eyebrow": "Mitanondrika",
-      "title": "Fampiharana ny fampiasana",
-      "bathroom": "efitra fandroana",
-      "kitchen": "LAKOZIA",
-      "garden": "Zaridaina / lavarangana",
-      "other": "Hafa / Fanasan-damba"
     },
     "billing": {
       "eyebrow": "Billing",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Ny haavon'ny vidin'ny tier",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Fizarana faritra iraisana",
-      "commonAreaPreview": "Fizarana faritra iraisana (fahitana)",
       "invoiceTotal": "{{period}} totalin'ny faktiora",
       "estimatedCharge": "Tombanana sarany ankehitriny",
       "commonAreaBreakdown": "Faritra iraisana",
-      "payPreview": "Pay Bill Preview",
-      "payUnavailable": "Mbola tsy misy ny maotera faktiora"
+      "commonAreaEstimate": "Fizarana faritra iraisana (tombanana)",
+      "payOutstanding": "Mandoa vola ₹{{amount}}",
+      "payAllDescription": "Ny faktiora tsy voaloa rehetra ({{number}})"
     },
     "tips": {
       "eyebrow": "SOSO-KEVITRA",
@@ -66,8 +59,7 @@
     "empty": "Tsy mbola nisy vakiteny voarakitra. Rehefa voarakitra an-tsoratra metatra iray ny vondrom-piarahamoninao dia hiseho eto izany.",
     "tabs": {
       "lastSixMonths": "6 volana lasa izay",
-      "customRange": "Kilalao manokana",
-      "comingSoon": "Ho avy tsy ho ela"
+      "customRange": "Kilalao manokana"
     },
     "peakDay": "Andro faratampony:",
     "lowestDay": "Andro ambany indrindra:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Sarintany hafanana fanjifana isan'andro",
-      "subtitle": "Ny hamafin'ny loko dia manondro andro fampiasana mavesatra (fijerena)."
+      "subtitle": "Ny hamafin'ny loko dia manondro andro fampiasana mavesatra (fijerena).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: tsy misy data",
+      "less": "Kely kokoa",
+      "more": "Bebe kokoa",
+      "noData": "Tsy misy angona"
     },
     "ranking": {
       "title": "Fiakaran'ny mpiara-belona",
-      "subtitle": "Ny laharanao raha ampitahaina amin'ny singa mitovitovy (mijery).",
-      "ecoSaver": "Active Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Fizarana {{number}}",
-      "yourUnit": "Ny tarikao",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ianao)"
+      "subtitle": "Ny ankohonanao vs ny tokantrano tsirairay ao amin'ny tranonao {{month}}. Ny fampiasana ambany dia laharana ambony kokoa.",
+      "headline": "#{{rank}} amin'ny tokantrano {{total}}.",
+      "percentile": "Nampiasa rano kely kokoa noho ny {{percent}}%-n'ny mpiara-monina aminao ianao.",
+      "min": "ambany",
+      "median": "Mediana",
+      "max": "ambony indrindra",
+      "youRow": "#{{rank}} Ianao",
+      "neighbourRow": "#{{rank}} Mpiara-monina",
+      "privacyNote": "Tsy fantatra anarana ny mpiara-monina. Tsy aseho mihitsy ny laharan'ny trano sy ny anarana.",
+      "empty": "Mbola tsy ampy ny angona hanasana ny ankohonanao."
+    },
+    "range": {
+      "from": "From",
+      "to": "ny",
+      "invalid": "Ny volana fanombohana dia tsy tokony ho aorian'ny volana farany.",
+      "noData": "Tsy misy angon-drakitra momba ny fanjifana amin'ity sehatra ity."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Fihodinana faktiora: {{period}}",
       "allPaid": "Voaloa ny faktiora rehetra",
       "payTotal": "Mandoa Total Outstanding",
-      "payTotalUnavailable": "Tsy mbola misy ny fandoavam-bola an-tserasera — manefa faktiora mivantana amin'ny admin-nao",
       "downloadSummary": "Download Bill Summary",
-      "downloadSummaryUnavailable": "Tsy mbola misy ny fampidinana famintinana volavolan-dalàna"
+      "payAllDescription": "Ny faktiora tsy voaloa rehetra ({{number}})"
     },
     "history": {
       "title": "Tantaran'ny faktiora",
-      "exportCsv": "Manondrana rehetra any CSV",
-      "exportUnavailable": "CSV tsy mbola misy ny fanondranana"
+      "exportCsv": "Manondrana rehetra any CSV"
     },
     "table": {
       "cycle": "tsingerin'ny",
@@ -148,6 +151,17 @@
       "description": "Tsy mbola misy ny fandoavam-bola an-tserasera — ny faktiora dia voalamina mivantana amin'ny mpitantana ny vondrom-piarahamoninao.",
       "manage": "Mitantana ny fomba fandoavam-bola",
       "manageUnavailable": "Tsy mbola misy ny fomba fandoavam-bola"
+    },
+    "csv": {
+      "cycle": "Vanim-potoana faktiora",
+      "consumption": "Fanjifana (kL)",
+      "baseAmount": "Vola fototra",
+      "tariffAmount": "Haben'ny tariff",
+      "commonAreaAmount": "Faritra iraisana",
+      "totalAmount": "Fitambarany",
+      "paid": "karama",
+      "paidAt": "Voaloa tamin'ny",
+      "generatedAt": "Natao tamin'ny"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Aza manindry miverina na manavao ity pejy ity azafady",
     "success": "Nahomby ny fandoavana",
     "error": "Nisy tsy nety nanamarina ny fandoavanao. Andramo indray azafady.",
-    "retry": "Hanandrana indray"
+    "retry": "Hanandrana indray",
+    "simulationNotice": "Fividianana simulation ho an'ny fihetsiketsehana ihany. Tsy misy fandoavam-bola marina ary tsy misy vola aloa."
   },
   "notifications": {
     "loadError": "Tsy afaka nampiditra ny fampandrenesanao. Andramo indray azafady.",
@@ -213,6 +228,25 @@
       "notConfigured": "Tsy mbola voarindra ny fampandrenesana fanerena. Mifandraisa amin'ny admin anao.",
       "enableError": "Tsy afaka namela fampandrenesana fanosehana. Andramo indray azafady.",
       "disableError": "Tsy afaka nesorina ny fampandrenesana fanosehana. Andramo indray azafady."
+    },
+    "tabs": {
+      "alerts": "fanairana",
+      "announcements": "Fampandrenesana"
+    },
+    "announcements": {
+      "loadError": "Tsy afaka nampiditra filazana. Andramo indray azafady.",
+      "loading": "Mametraka filazana…",
+      "empty": "Tsy misy filazana avy amin'ny mpitantana ny vondrom-piarahamoninao amin'izao fotoana izao.",
+      "pinned": "mipaingotra",
+      "postedAt": "Navoaka {{date}}",
+      "expiresAt": "Mandra-{{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "fikarakarana",
+        "waterSupply": "Famatsiana rano",
+        "billing": "Billing",
+        "urgent": "MAIKA"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Biraon'ny fanohanana sy fiahiana ny mponina",
     "subtitle": "Alefaso any amin'ny mpitantana ny vondrom-piarahamoninao sy/na ny System Admin ny tatitra momba ny fahapotehan'ny rano, ny fangatahana calibration metatra, na ny fanontaniana momba ny faktiora.",
     "emptyCreateHint": "Lazalazao eto ambany ny olanao na ny ahiahinao, ary fidio izay tokony hikarakara azy."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 volana lasa izay",
+      "sixMonths": "6 volana lasa izay",
+      "twelveMonths": "12 volana lasa izay",
+      "custom": "Kilalao manokana"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "ny",
+      "hint": "Mifidiana volana fanombohana sy fiafarana hahitana ny tatitrao."
+    },
+    "loading": "Mampiakatra ny tatitrao…",
+    "loadError": "Tsy afaka nampiditra ny tatitrao. Andramo indray azafady.",
+    "pdfError": "Tsy afaka misintona ny fanambarana. Andramo indray azafady.",
+    "downloading": "Misintona…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Download fanambarana PDF",
+    "period": "Fe-potoana hanaovana tatitra: {{from}} hatramin'ny {{to}}",
+    "cards": {
+      "totalUsage": "Fampiasana tanteraka",
+      "avgMonthly": "Salanisan'ny fampiasana isam-bolana",
+      "avgMonthlyHint": "Nandritra ny volana maromaro miaraka amin'ny vakiteny voarakitra",
+      "change": "Fiovana vs Vanim-potoana teo aloha",
+      "changeHint": "{{previous}} ao {{from}} mankany {{to}}",
+      "changeNoData": "Tsy misy fampiasana amin'ny vanim-potoana teo aloha hampitahana",
+      "totalBilled": "Voaloa tanteraka",
+      "totalPaid": "Voaloa tanteraka",
+      "outstanding": "miavaka"
+    },
+    "chart": {
+      "title": "Fampiasana isam-bolana sy faktiora",
+      "subtitle": "Ny bara dia mampiseho fanjifana (kL); ny tsipika dia mampiseho ny vola voavidy (₹).",
+      "consumption": "fihinanana",
+      "billed": "no voalaza"
+    },
+    "table": {
+      "title": "Fizarana isam-bolana",
+      "month": "VOLANA",
+      "consumption": "Fanjifana (kL)",
+      "billed": "no voalaza",
+      "paid": "karama",
+      "status": "sata"
+    },
+    "status": {
+      "paid": "karama",
+      "unpaid": "handraisam-bola",
+      "notBilled": "Tsy voaloa"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Ny antsipirian'ny kaonty",
+    "managedNote": "Ny mpitantana ny vondrom-piarahamoninao no mitantana ireo antsipiriany ireo. Mifandraisa amin'izy ireo raha misy mila ovaina.",
+    "loading": "Mampiakatra ny mombamomba anao…",
+    "loadError": "Tsy afaka nampiditra ny mombamomba anao. Andramo indray azafady.",
+    "notSet": "Tsy napetraka",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Hanova tenimiafina",
+    "fields": {
+      "fullName": "Anarana feno",
+      "email": "mailaka",
+      "phone": "Phone",
+      "houseNumber": "Laharan-trano",
+      "meterNumber": "Laharana metatra",
+      "community": "COMMUNITY",
+      "flatSize": "Habe fisaka",
+      "joined": "nanatevin-daharana"
+    }
   }
 }

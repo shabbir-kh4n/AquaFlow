@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Destek Biletleri",
     "subtitle": "Platform genelinde sakinler ve topluluk yöneticileri tarafından dile getirilen bildirimleri ve endişeleri destekleyin."
+  },
+  "profile": {
+    "accountTitle": "Hesap",
+    "avatarTitle": "avatar",
+    "passwordTitle": "Şifre değiştir",
+    "loadError": "Profiliniz yüklenemedi. Lütfen tekrar deneyin.",
+    "fields": {
+      "fullName": "Ad Soyad",
+      "email": "E-posta",
+      "role": "Rol",
+      "roleValue": "Sistem yöneticisi"
+    }
   }
 }

@@ -32,6 +32,16 @@ export function payInvoice(invoiceId) {
   return axiosClient.post(`/resident/invoices/${invoiceId}/pay`).then((res) => res.data)
 }
 
+// Simulated checkout only: marks every unpaid invoice of the resident's household paid.
+// Resolves to the invoices that were just paid (empty when nothing was outstanding).
+export function payAllOutstanding() {
+  return axiosClient.post('/resident/invoices/pay-all').then((res) => res.data)
+}
+
+export function downloadMyStatementPdf() {
+  return axiosClient.get('/resident/invoices/statement/pdf', { responseType: 'blob' }).then((res) => res.data)
+}
+
 export function downloadMyInvoicePdf(invoiceId) {
   return axiosClient.get(`/resident/invoices/${invoiceId}/pdf`, { responseType: 'blob' }).then((res) => res.data)
 }

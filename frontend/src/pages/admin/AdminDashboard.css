@@ -34,9 +34,8 @@
   font-weight: 700;
 }
 
-.af-dash__banner-btn:disabled {
-  cursor: not-allowed;
-  opacity: 0.7;
+.af-dash__banner-btn:hover {
+  filter: brightness(1.05);
 }
 
 .af-dash__grid {
@@ -79,8 +78,15 @@
   color: var(--af-text-muted);
 }
 
-.af-dash__muted--pending {
-  color: var(--af-chart-5);
+.af-dash__card--link {
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s ease;
+}
+
+.af-dash__card--link:hover,
+.af-dash__card--link:focus-visible {
+  border-color: var(--af-accent-2);
 }
 
 .af-dash__link {

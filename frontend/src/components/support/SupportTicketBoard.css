@@ -366,9 +366,10 @@
 }
 
 .af-support__bubble {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 72%;
-  padding: 8px 12px 20px;
+  padding: 8px 12px 6px;
   margin: 4px 0;
   border-radius: 12px;
   border-top-left-radius: 4px;
@@ -402,9 +403,8 @@
 }
 
 .af-support__bubble-time {
-  position: absolute;
-  right: 12px;
-  bottom: 6px;
+  align-self: flex-end;
+  margin-top: 2px;
   font-size: 10px;
   color: var(--af-text-muted);
   white-space: nowrap;

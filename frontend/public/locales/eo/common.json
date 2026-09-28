@@ -222,6 +222,14 @@
         "title": "Subteno / Zorgoj",
         "subtitle": "Levu viajn proprajn biletojn al la Sistemadministranto, aŭ pritraktu zorgojn, kiujn viaj loĝantoj adresis al vi."
       },
+      "reports": {
+        "title": "Komunumaj Raportoj",
+        "subtitle": "Ciferoj pri konsumado, fakturado, kolekto kaj pogranda aĉeto por via komunumo."
+      },
+      "announcements": {
+        "title": "Anoncoj",
+        "subtitle": "Publikigi tutkomunumajn avizojn al viaj loĝantoj."
+      },
       "profile": {
         "title": "Agordoj & Profilo",
         "subtitle": "Administri viajn kontajn detalojn kaj apartamentojn."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Komunuma Administranto",
     "notBuilt": "{{label}} ankoraŭ ne estas konstruita",
     "searchPlaceholder": "Serĉu ion ajn..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raportoj",
-      "description": "Raportoj pri konsumado, fakturado kaj konservado por via komunumo."
-    },
-    "announcements": {
-      "title": "Anoncoj",
-      "description": "Sendu tutkomunumajn anoncojn al viaj loĝantoj."
-    }
   },
   "comingSoon": {
     "title": "{{title}} baldaŭ venos"
@@ -261,7 +259,9 @@
       "billing": "Fakturado kaj Fakturoj",
       "notifications": "Sciigoj",
       "recommendations": "Rekomendoj",
-      "support": "Subteno / Zorgoj"
+      "support": "Subteno / Zorgoj",
+      "reports": "Viaj raportoj pri uzado kaj elspezo",
+      "profile": "Mia profilo"
     },
     "defaultTitle": "Loĝanta Panelo",
     "navLabel": "Loĝanta navigado",
@@ -277,7 +277,8 @@
       "communities": "Komunumoj",
       "reports": "Raportoj",
       "supportTickets": "Subtenaj Biletoj",
-      "systemStatus": "Sistema Statuso"
+      "systemStatus": "Sistema Statuso",
+      "profile": "Profilo"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistemo Statuso",
         "subtitle": "Backend konektebleco kaj baza rultempa sano."
+      },
+      "profile": {
+        "title": "Profilo",
+        "subtitle": "Via konto, avataro kaj pasvorto"
       }
     },
     "fallbackName": "Sistemadministranto",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lingvo: {{language}}",
     "searchPlaceholder": "Serĉu lingvon...",
     "noMatches": "Neniuj alumetoj"
+  },
+  "avatarPicker": {
+    "label": "Elektu avataron",
+    "hint": "Elektu unu el la antaŭfiksitaj avataroj, aŭ uzu viajn inicialojn.",
+    "change": "Ŝanĝi",
+    "cancel": "Nuligi",
+    "useInitials": "Uzu inicialojn",
+    "optionLabel": "Avataro {{number}}",
+    "save": "Konservu avataron",
+    "saving": "Konservante…",
+    "saved": "Avataro ĝisdatigita",
+    "saveError": "Ne eblis ĝisdatigi vian avataron. Bonvolu provi denove."
+  },
+  "changePassword": {
+    "current": "Nuna pasvorto",
+    "new": "Nova pasvorto",
+    "confirm": "Konfirmu novan pasvorton",
+    "hint": "Almenaŭ {{min}} signoj.",
+    "tooShort": "Nova pasvorto devas esti almenaŭ {{min}} signoj.",
+    "mismatch": "La novaj pasvortoj ne kongruas.",
+    "sameAsCurrent": "Nova pasvorto devas esti malsama ol via nuna pasvorto.",
+    "submit": "Ĝisdatigu pasvorton",
+    "saving": "Ĝisdatigante…",
+    "success": "Via pasvorto estas ĝisdatigita.",
+    "error": "Ne eblis ĝisdatigi vian pasvorton. Bonvolu provi denove."
+  },
+  "search": {
+    "kindPage": "Paĝo",
+    "kindRecord": "Rezulto",
+    "loading": "Serĉante…",
+    "noResults": "Neniuj alumetoj",
+    "recordsUnavailable": "Nur paĝoj povus esti serĉataj nun.",
+    "invoiceLabel": "Fakturo {{period}}",
+    "paid": "Pagita",
+    "unpaid": "Nepagita"
   }
 }

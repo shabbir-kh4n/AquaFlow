@@ -25,7 +25,6 @@
     "title": "{{community}} Dashboard for leiligheter",
     "titleFallback": "Dashboard for leiligheten din",
     "subtitle": "Driftsoppsummering for vannverksdelmåling og husholdningsforbruk.",
-    "comingSoon": "Kommer snart",
     "manageCommunity": "Administrer fellesskap",
     "noUsageReadings": "Ingen bruksavlesninger registrert ennå.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Siste registrerte måned ({{month}})",
       "noReadingsYet": "Ingen målinger registrert ennå",
       "pendingAlerts": "Ventende varsler",
-      "anomalyPreview": "Forhåndsvisning av avviksdeteksjon — ikke tilgjengelig ennå"
+      "reviewAlerts": "Aktive lekkasje-/bruksvarsler — se gjennom nå",
+      "noActiveAlerts": "Ingen aktive varsler"
     },
     "actions": {
       "label": "Raske administrative handlinger",
       "uploadReadings": "Last opp måleravlesninger",
       "configureTariffs": "Konfigurer tariffer",
-      "reportsNotBuilt": "Rapporter er ikke laget ennå",
       "downloadReports": "Last ned systemrapporter"
     },
     "chart": {
       "title": "Sammenligning av månedlig forbruk (kL)",
       "subtitle": "Siste {{months}} måneder: mål kontra faktisk forbruk.",
-      "targetSeries": "Mål (forhåndsvisning)",
       "actualSeries": "Faktisk"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Kunne ikke lagre profilen din. Vennligst prøv igjen.",
     "apartmentSaveError": "Kunne ikke lagre leilighetsdetaljer. Vennligst prøv igjen.",
     "specsTitle": "Profilspesifikasjoner",
-    "photoUnavailable": "Bildeopplasting er ikke tilgjengelig ennå",
-    "changePhoto": "Bytt bilde",
-    "deletePhoto": "Slett",
-    "photoHint": "JPG eller PNG. Maks størrelse 2MB.",
     "saveProfile": "Lagre profil",
     "apartmentTitle": "Leilighetsdetaljer",
     "saveApartment": "Lagre leilighetsdetaljer",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Tofaktorautentisering er ikke tilgjengelig ennå",
       "twoFactorAria": "Tofaktorautentisering (kun forhåndsvisning)",
       "sessionsLabel": "Aktive administratorøkter",
-      "sessionsEmpty": "Øktsporing er ikke tilgjengelig ennå – dette er en forhåndsvisning av det kommende oppsettet."
-    }
+      "sessionsEmpty": "Øktsporing er ikke tilgjengelig ennå – dette er en forhåndsvisning av det kommende oppsettet.",
+      "previewNote": "Kun forhåndsvisning: tofaktorautentisering og øktsporing er ikke tilgjengelig ennå."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Endre passord"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Innbyggerbilletter",
       "subtitle": "Støttebilletter og bekymringer innbyggere i samfunnet ditt har adressert til deg."
+    }
+  },
+  "reports": {
+    "loadError": "Kunne ikke laste inn fellesskapsrapporten. Vennligst prøv igjen.",
+    "pdfError": "Kunne ikke laste ned PDF-rapporten. Vennligst prøv igjen.",
+    "loading": "Laster inn rapport …",
+    "empty": "Ingen husholdninger med data i dette området.",
+    "noMatch": "Ingen husholdninger samsvarer med \"{{search}}\".",
+    "searchPlaceholder": "Filtrer etter hus, beboer eller målernr.",
+    "downloadCsv": "Last ned CSV",
+    "downloadPdf": "Last ned PDF Sammendrag",
+    "downloadingPdf": "Forbereder PDF...",
+    "ranges": {
+      "threeMonths": "Siste 3 måneder",
+      "sixMonths": "Siste 6 måneder",
+      "twelveMonths": "Siste 12 måneder",
+      "custom": "Egendefinert rekkevidde"
+    },
+    "customRange": {
+      "from": "Fra",
+      "to": "Til",
+      "hint": "Velg både en start- og en sluttmåned for å laste rapporten."
+    },
+    "cards": {
+      "totalConsumption": "Totalt forbruk",
+      "households": "På tvers av {{total}} husholdninger",
+      "avgMonthly": "Gjennomsnittlig månedlig forbruk",
+      "communityWide": "Hele samfunnet, per måned",
+      "billed": "Fakturert",
+      "finalizedOnly": "Kun ferdigstilte og arkiverte sykluser",
+      "paid": "Betalt",
+      "invoices": "{{total}} utstedte fakturaer",
+      "outstanding": "Utestående",
+      "unpaidInvoices": "{{total}} ubetalte fakturaer",
+      "collectionRate": "Innsamlingssats"
+    },
+    "costs": {
+      "title": "Kostnader vs. inntekter",
+      "commonArea": "Fellesarealavgifter faktureres",
+      "bulkCost": "Innkjøpskostnad for bulkvann",
+      "bulkVolume": "Bulk vann kjøpt",
+      "bulkCount": "{{total}} kjøp",
+      "billedMinusBulk": "Fakturert inntekt minus bulkkostnad",
+      "note": "Massekjøp spores for kostnadssynlighet og faktureres ikke direkte til husholdningene."
+    },
+    "top": {
+      "title": "Topp forbrukere",
+      "empty": "Ingen forbruk registrert i dette området."
+    },
+    "charts": {
+      "consumptionTitle": "Månedlig forbruk",
+      "consumptionSeries": "Forbruk",
+      "billingTitle": "Fakturert vs. betalt vs. massekostnad",
+      "billedSeries": "Fakturert",
+      "paidSeries": "Betalt",
+      "bulkSeries": "Massekjøpskostnad",
+      "empty": "Ingen data for dette området."
+    },
+    "sort": {
+      "label": "Sorter etter",
+      "toggleDirection": "Veksle sorteringsretning",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Hus",
+      "resident": "Beboer",
+      "meter": "Måler",
+      "totalKl": "Totalt kL",
+      "avgMonthlyKl": "Gj.sn. månedlig kL",
+      "billed": "Fakturert",
+      "paid": "Betalt",
+      "outstanding": "Utestående"
+    }
+  },
+  "announcements": {
+    "loadError": "Kunne ikke laste inn kunngjøringer. Vennligst prøv igjen.",
+    "removeError": "Kunne ikke slette denne kunngjøringen. Vennligst prøv igjen.",
+    "loading": "Laster inn kunngjøringer …",
+    "empty": "Ingen kunngjøringer ennå. Klikk \"Ny kunngjøring\" for å varsle beboerne dine.",
+    "count": "Kunngjøringer: {{total}}",
+    "newButton": "+ Ny kunngjøring",
+    "pinned": "Festet",
+    "expired": "Utløpt",
+    "postedAt": "Lagt ut {{date}}",
+    "updatedAt": "Redigert {{date}}",
+    "expiresAt": "Utløper {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Vedlikehold",
+      "waterSupply": "Vannforsyning",
+      "billing": "Fakturering",
+      "urgent": "Som haster"
+    },
+    "form": {
+      "addTitle": "Ny kunngjøring",
+      "editTitle": "Rediger kunngjøring",
+      "addSubtitle": "Beboere ser dette på varslingssiden deres, og alle med push-varsler aktivert blir varslet med en gang.",
+      "editSubtitle": "Endringer oppdaterer kunngjøringen på plass. Beboerne varsles ikke igjen.",
+      "title": "Tittel",
+      "category": "Kategori",
+      "expiresAt": "Utløper (valgfritt)",
+      "body": "Beskjed",
+      "pinned": "Fest til toppen av beboernes kunngjøringer",
+      "requiredFields": "Vennligst skriv inn en tittel og en melding.",
+      "saveError": "Kunne ikke lagre denne kunngjøringen. Vennligst sjekk detaljene.",
+      "publish": "Utgi"
+    },
+    "confirm": {
+      "title": "Vil du slette kunngjøringen?",
+      "body": "«{{title}}» vil bli fjernet for alle innbyggere. Dette kan ikke angres.",
+      "delete": "Slett",
+      "deleting": "Sletter …"
     }
   }
 }

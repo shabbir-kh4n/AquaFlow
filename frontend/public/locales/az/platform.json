@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Dəstək Biletləri",
     "subtitle": "Platforma miqyasında sakinlər və icma adminləri tərəfindən qaldırılan biletləri və narahatlıqları dəstəkləyin."
+  },
+  "profile": {
+    "accountTitle": "Hesab",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Parolu dəyişdirin",
+    "loadError": "Profilinizi yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "fields": {
+      "fullName": "Tam adı",
+      "email": "E-poçt",
+      "role": "Rol",
+      "roleValue": "Sistem Administratoru"
+    }
   }
 }

@@ -72,7 +72,7 @@ public class AuthService {
 
         String token = jwtService.generateToken(new UserPrincipal(admin));
         return new AuthResponse(token, admin.getId(), admin.getFullName(), admin.getEmail(), Role.ADMIN,
-                apartment.getName(), null, null);
+                apartment.getName(), null, null, admin.getAvatarKey());
     }
 
     public AuthResponse login(LoginRequest request) {
@@ -90,7 +90,7 @@ public class AuthService {
             Apartment apartment = apartmentService.getOrCreate(found);
             String token = jwtService.generateToken(new UserPrincipal(found));
             return new AuthResponse(token, found.getId(), found.getFullName(), found.getEmail(), Role.ADMIN,
-                    apartment.getName(), null, null);
+                    apartment.getName(), null, null, found.getAvatarKey());
         }
 
         var resident = residentRepository.findByEmailAndPasswordSetTrue(request.email());
@@ -99,7 +99,7 @@ public class AuthService {
             Apartment apartment = apartmentService.getOrCreate(found.getCreatedBy());
             String token = jwtService.generateToken(new ResidentPrincipal(found));
             return new AuthResponse(token, found.getId(), found.getFullName(), found.getEmail(), Role.RESIDENT,
-                    apartment.getName(), found.getHouseNumber(), found.getMeterNumber());
+                    apartment.getName(), found.getHouseNumber(), found.getMeterNumber(), found.getAvatarKey());
         }
 
         SystemAdmin sysAdmin = systemAdminRepository.findByEmail(request.email())
@@ -107,7 +107,7 @@ public class AuthService {
 
         String token = jwtService.generateToken(new SystemAdminPrincipal(sysAdmin));
         return new AuthResponse(token, sysAdmin.getId(), sysAdmin.getFullName(), sysAdmin.getEmail(),
-                Role.SYSTEM_ADMIN, null, null, null);
+                Role.SYSTEM_ADMIN, null, null, null, sysAdmin.getAvatarKey());
     }
 
     public SetPasswordInfoResponse getSetPasswordInfo(String token) {
@@ -127,7 +127,7 @@ public class AuthService {
         Apartment apartment = apartmentService.getOrCreate(resident.getCreatedBy());
         String jwt = jwtService.generateToken(new ResidentPrincipal(resident));
         return new AuthResponse(jwt, resident.getId(), resident.getFullName(), resident.getEmail(), Role.RESIDENT,
-                apartment.getName(), resident.getHouseNumber(), resident.getMeterNumber());
+                apartment.getName(), resident.getHouseNumber(), resident.getMeterNumber(), resident.getAvatarKey());
     }
 
     private PasswordSetupToken resolveValidToken(String token) {

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { listCommunities } from '../../api/platformApi'
+import Avatar from '../../components/Avatar'
 import './Communities.css'
 
 const PAGE_SIZE = 10
@@ -138,6 +139,7 @@ function Communities() {
           <table className="af-comm__table">
             <thead>
               <tr>
+                <th className="af-comm__avatar-col"></th>
                 <th>{t('communities.table.community')}</th>
                 <th>{t('communities.table.admin')}</th>
                 <th>{t('communities.table.email')}</th>
@@ -161,6 +163,9 @@ function Communities() {
                     }
                   }}
                 >
+                  <td className="af-comm__avatar-col">
+                    <Avatar avatarKey={c.avatarKey} name={c.adminFullName} className="af-comm__avatar" />
+                  </td>
                   <td>{c.apartmentName || '—'}</td>
                   <td>{c.adminFullName}</td>
                   <td>{c.adminEmail}</td>

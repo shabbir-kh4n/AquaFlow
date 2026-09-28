@@ -25,7 +25,6 @@
     "title": "{{community}} Apartment Dashboard",
     "titleFallback": "Your Apartment Dashboard",
     "subtitle": "Operational summary for water utility sub-metering and household consumption.",
-    "comingSoon": "Coming soon",
     "manageCommunity": "Manage Community",
     "noUsageReadings": "No usage readings recorded yet.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Latest recorded month ({{month}})",
       "noReadingsYet": "No readings recorded yet",
       "pendingAlerts": "Pending Alerts",
-      "anomalyPreview": "Anomaly detection preview — not yet available"
+      "reviewAlerts": "Active leak / usage alerts — review now",
+      "noActiveAlerts": "No active alerts"
     },
     "actions": {
       "label": "Quick Administrative Actions",
       "uploadReadings": "Upload Meter Readings",
       "configureTariffs": "Configure Tariffs",
-      "reportsNotBuilt": "Reports isn't built yet",
       "downloadReports": "Download System Reports"
     },
     "chart": {
-      "title": "Monthly Consumption Comparison (kL)",
-      "subtitle": "Last {{months}} months: target vs. actual consumption.",
-      "targetSeries": "Target (preview)",
+      "title": "Monthly Consumption (kL)",
+      "subtitle": "Community-wide metered consumption over the last {{months}} months.",
       "actualSeries": "Actual"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Could not save your profile. Please try again.",
     "apartmentSaveError": "Could not save apartment details. Please try again.",
     "specsTitle": "Profile Specifications",
-    "photoUnavailable": "Photo upload isn't available yet",
-    "changePhoto": "Change Photo",
-    "deletePhoto": "Delete",
-    "photoHint": "JPG or PNG. Max size 2MB.",
     "saveProfile": "Save Profile",
     "apartmentTitle": "Apartment Details",
     "saveApartment": "Save Apartment Details",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Two-factor authentication isn't available yet",
       "twoFactorAria": "Two-factor authentication (preview only)",
       "sessionsLabel": "Active Admin Sessions",
-      "sessionsEmpty": "Session tracking isn't available yet — this is a preview of the upcoming layout."
-    }
+      "sessionsEmpty": "Session tracking isn't available yet — this is a preview of the upcoming layout.",
+      "previewNote": "Preview only: two-factor authentication and session tracking aren't available yet."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Change Password"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Resident Tickets",
       "subtitle": "Support tickets and concerns residents in your community have addressed to you."
+    }
+  },
+  "reports": {
+    "loadError": "Could not load the community report. Please try again.",
+    "pdfError": "Could not download the PDF report. Please try again.",
+    "loading": "Loading report…",
+    "empty": "No households with data in this range.",
+    "noMatch": "No households match \"{{search}}\".",
+    "searchPlaceholder": "Filter by house, resident, or meter no.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Download PDF Summary",
+    "downloadingPdf": "Preparing PDF…",
+    "ranges": {
+      "threeMonths": "Last 3 months",
+      "sixMonths": "Last 6 months",
+      "twelveMonths": "Last 12 months",
+      "custom": "Custom range"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "To",
+      "hint": "Pick both a start and an end month to load the report."
+    },
+    "cards": {
+      "totalConsumption": "Total Consumption",
+      "households": "Across {{total}} households",
+      "avgMonthly": "Avg Monthly Consumption",
+      "communityWide": "Community-wide, per month",
+      "billed": "Billed",
+      "finalizedOnly": "Finalized & archived cycles only",
+      "paid": "Paid",
+      "invoices": "{{total}} invoices issued",
+      "outstanding": "Outstanding",
+      "unpaidInvoices": "{{total}} unpaid invoices",
+      "collectionRate": "Collection Rate"
+    },
+    "costs": {
+      "title": "Costs vs. Revenue",
+      "commonArea": "Common-area charges billed",
+      "bulkCost": "Bulk water purchase cost",
+      "bulkVolume": "Bulk water purchased",
+      "bulkCount": "{{total}} purchases",
+      "billedMinusBulk": "Billed revenue minus bulk cost",
+      "note": "Bulk purchases are tracked for cost visibility and are not billed to households directly."
+    },
+    "top": {
+      "title": "Top Consumers",
+      "empty": "No consumption recorded in this range."
+    },
+    "charts": {
+      "consumptionTitle": "Monthly Consumption",
+      "consumptionSeries": "Consumption",
+      "billingTitle": "Billed vs. Paid vs. Bulk Cost",
+      "billedSeries": "Billed",
+      "paidSeries": "Paid",
+      "bulkSeries": "Bulk purchase cost",
+      "empty": "No data for this range."
+    },
+    "sort": {
+      "label": "Sort by",
+      "toggleDirection": "Toggle sort direction",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "House",
+      "resident": "Resident",
+      "meter": "Meter",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Avg Monthly kL",
+      "billed": "Billed",
+      "paid": "Paid",
+      "outstanding": "Outstanding"
+    }
+  },
+  "announcements": {
+    "loadError": "Could not load announcements. Please try again.",
+    "removeError": "Could not delete this announcement. Please try again.",
+    "loading": "Loading announcements…",
+    "empty": "No announcements yet. Click \"New Announcement\" to notify your residents.",
+    "count": "Announcements: {{total}}",
+    "newButton": "+ New Announcement",
+    "pinned": "Pinned",
+    "expired": "Expired",
+    "postedAt": "Posted {{date}}",
+    "updatedAt": "Edited {{date}}",
+    "expiresAt": "Expires {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Maintenance",
+      "waterSupply": "Water Supply",
+      "billing": "Billing",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "addTitle": "New Announcement",
+      "editTitle": "Edit Announcement",
+      "addSubtitle": "Residents see this on their Notifications page, and anyone with push notifications enabled is notified right away.",
+      "editSubtitle": "Edits update the announcement in place. Residents are not notified again.",
+      "title": "Title",
+      "category": "Category",
+      "expiresAt": "Expires (optional)",
+      "body": "Message",
+      "pinned": "Pin to the top of residents' announcements",
+      "requiredFields": "Please enter a title and a message.",
+      "saveError": "Could not save this announcement. Please check the details.",
+      "publish": "Publish"
+    },
+    "confirm": {
+      "title": "Delete announcement?",
+      "body": "\"{{title}}\" will be removed for all residents. This can't be undone.",
+      "delete": "Delete",
+      "deleting": "Deleting…"
     }
   }
 }

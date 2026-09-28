@@ -47,6 +47,12 @@ public class ResidentBillingController {
         return ResponseEntity.ok(billingCycleService.payInvoiceAsResident(principal.getUser(), id));
     }
 
+    // Simulated checkout only (see RazorpaySimulatorModal) - no real payment gateway.
+    @PostMapping("/invoices/pay-all")
+    public ResponseEntity<List<InvoiceResponse>> payAllOutstanding(@AuthenticationPrincipal ResidentPrincipal principal) {
+        return ResponseEntity.ok(billingCycleService.payAllOutstandingAsResident(principal.getUser()));
+    }
+
     @GetMapping("/invoices/{id}/pdf")
     public ResponseEntity<byte[]> downloadInvoicePdf(@PathVariable Long id,
             @AuthenticationPrincipal ResidentPrincipal principal) {

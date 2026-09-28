@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Së shpejti",
     "welcome": {
       "greeting": "Përshëndetje {{name}},",
       "greetingFallback": "Përshëndetje atje,",
       "title": "Qëndroni afër historisë së ujit të shtëpisë tuaj.",
-      "subtitle": "Informacionet e përdorimit dhe të faturimit do të shfaqen këtu ndërsa komuniteti juaj regjistron leximet.",
-      "viewBadges": "Shiko shënjat Eko"
+      "subtitle": "Informacionet e përdorimit dhe të faturimit do të shfaqen këtu ndërsa komuniteti juaj regjistron leximet."
     },
     "stats": {
       "todaysUsage": "Përdorimi i sotëm",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Përdorimi i matur + tarifat e përbashkëta, {{month}}",
       "estimatedBillHint": "Bazuar në konsumin e matur të këtij muaji dhe tarifat e përbashkëta",
       "savings": "Mesatarja e kursimeve kundrejt ndërtimit",
-      "savingsValue": "{{percent}}% më pak",
-      "savingsPreview": "Vetëm shikimi paraprak - krahasimi nuk është ende i drejtpërdrejtë"
+      "savingsLess": "{{percent}}% më pak",
+      "savingsMore": "{{percent}}% më shumë",
+      "savingsEqual": "Njësoj si mesatarja",
+      "savingsDetail": "{{household}} kL vs {{average}} kL mesatare, {{month}}",
+      "savingsNoData": "Nuk ka ende asnjë krahasim ndërtimi"
     },
     "consumption": {
       "eyebrow": "Konsumi",
       "title": "Konsumi ditor (14 leximet e fundit)",
       "seriesName": "Konsumi",
       "empty": "Nuk janë regjistruar ende lexime."
-    },
-    "breakdown": {
-      "eyebrow": "Zbërthimi",
-      "title": "Zbërthimi i Përdorimit",
-      "bathroom": "Banjo",
-      "kitchen": "Kuzhina",
-      "garden": "Kopsht/Ballkon",
-      "other": "Të tjera / Lavanderi"
     },
     "billing": {
       "eyebrow": "Faturimi",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Niveli i çmimeve të nivelit",
       "tierLabel": "Niveli {{tier}}",
       "commonArea": "Ndarja e sipërfaqes së përbashkët",
-      "commonAreaPreview": "Ndarja e zonës së përbashkët (pamje paraprake)",
       "invoiceTotal": "{{period}} faturë totale",
       "estimatedCharge": "Tarifa aktuale e vlerësuar",
       "commonAreaBreakdown": "Zbërthimi i zonës së përbashkët",
-      "payPreview": "Pamja paraprake e faturave të pagesës",
-      "payUnavailable": "Motori i faturimit nuk ofrohet ende"
+      "commonAreaEstimate": "Ndarja e sipërfaqes së përbashkët (vlerësimi)",
+      "payOutstanding": "Paguani ₹ të papaguara{{amount}}",
+      "payAllDescription": "Të gjitha faturat e papaguara ({{number}})"
     },
     "tips": {
       "eyebrow": "Këshilla",
@@ -66,8 +59,7 @@
     "empty": "Nuk janë regjistruar ende lexime. Pasi komuniteti juaj të regjistrojë një lexim të njehsorit, ai do të shfaqet këtu.",
     "tabs": {
       "lastSixMonths": "6 Muajt ​​e fundit",
-      "customRange": "Gama e personalizuar",
-      "comingSoon": "Së shpejti"
+      "customRange": "Gama e personalizuar"
     },
     "peakDay": "Dita e pikut:",
     "lowestDay": "Dita më e ulët:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Harta e ngrohjes e konsumit ditor",
-      "subtitle": "Intensiteti i ngjyrës tregon ditët e përdorimit të rëndë (pamja paraprake)."
+      "subtitle": "Intensiteti i ngjyrës tregon ditët e përdorimit të rëndë (pamja paraprake).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: nuk ka të dhëna",
+      "less": "Më pak",
+      "more": "Më shumë",
+      "noData": "Nuk ka të dhëna"
     },
     "ranking": {
       "title": "Renditja e bashkëmoshatarëve të komunitetit",
-      "subtitle": "Renditja juaj në krahasim me njësi të ngjashme (parapamje).",
-      "ecoSaver": "Aktiv Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Njësia {{number}}",
-      "yourUnit": "Njësia juaj",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ti)"
+      "subtitle": "Familja juaj kundrejt çdo familjeje në banesën tuaj për {{month}}. Përdorimi më i ulët renditet më lart.",
+      "headline": "#{{rank}} nga {{total}} familje",
+      "percentile": "Keni përdorur më pak ujë se {{percent}}% e fqinjëve tuaj.",
+      "min": "Më e ulëta",
+      "median": "mesatare",
+      "max": "Më e larta",
+      "youRow": "#{{rank}} Ju",
+      "neighbourRow": "#{{rank}} Fqinjë",
+      "privacyNote": "Fqinjët janë anonimë. Numrat dhe emrat e shtëpive nuk shfaqen kurrë.",
+      "empty": "Nuk ka ende të dhëna të mjaftueshme për të renditur familjen tuaj."
+    },
+    "range": {
+      "from": "Nga",
+      "to": "te",
+      "invalid": "Muaji i fillimit nuk duhet të jetë pas muajit të fundit.",
+      "noData": "Nuk ka të dhëna për konsumin në këtë interval."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Cikli i faturimit: {{period}}",
       "allPaid": "Të gjitha faturat paguhen",
       "payTotal": "Paguani totalin e papaguar",
-      "payTotalUnavailable": "Pagesa në internet nuk ofrohet ende — shlyeni direkt faturat me administratorin e komunitetit tuaj",
       "downloadSummary": "Shkarkoni përmbledhjen e faturave",
-      "downloadSummaryUnavailable": "Shkarkimi i përmbledhjes së faturave nuk ofrohet ende"
+      "payAllDescription": "Të gjitha faturat e papaguara ({{number}})"
     },
     "history": {
       "title": "Historia e faturave",
-      "exportCsv": "Eksporto të gjitha në CSV",
-      "exportUnavailable": "Eksportimi CSV nuk ofrohet ende"
+      "exportCsv": "Eksporto të gjitha në CSV"
     },
     "table": {
       "cycle": "Cikli",
@@ -148,6 +151,17 @@
       "description": "Pagesa në internet nuk ofrohet ende — faturat paguhen drejtpërdrejt me administratorin e komunitetit tuaj.",
       "manage": "Menaxhoni metodat e pagesës",
       "manageUnavailable": "Mënyrat e pagesës nuk ofrohen ende"
+    },
+    "csv": {
+      "cycle": "Periudha e faturimit",
+      "consumption": "Konsumi (kL)",
+      "baseAmount": "Shuma bazë",
+      "tariffAmount": "Shuma e tarifës",
+      "commonAreaAmount": "Sasia e zonës së përbashkët",
+      "totalAmount": "Shuma totale",
+      "paid": "I paguar",
+      "paidAt": "Paguhet në",
+      "generatedAt": "Gjeneruar në"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Ju lutemi, mos e shtypni ose rifreskoni këtë faqe",
     "success": "Pagesa u krye me sukses",
     "error": "Ndodhi një gabim me konfirmimin e pagesës. Ju lutemi provoni përsëri.",
-    "retry": "Provo sërish"
+    "retry": "Provo sërish",
+    "simulationNotice": "Arkë e simuluar vetëm për demonstrim. Asnjë pagesë e vërtetë nuk bëhet dhe nuk tarifohen para."
   },
   "notifications": {
     "loadError": "Njoftimet tuaja nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
@@ -213,6 +228,25 @@
       "notConfigured": "Njoftimet e shtytjes nuk janë konfiguruar ende. Kontaktoni administratorin tuaj.",
       "enableError": "Njoftimet shtytëse nuk mund të aktivizoheshin. Ju lutemi provoni përsëri.",
       "disableError": "Njoftimet shtytëse nuk mund të çaktivizoheshin. Ju lutemi provoni përsëri."
+    },
+    "tabs": {
+      "alerts": "Alarmet",
+      "announcements": "Njoftimet"
+    },
+    "announcements": {
+      "loadError": "Njoftimet nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
+      "loading": "Po ngarkon njoftimet…",
+      "empty": "Nuk ka njoftime nga administratori i komunitetit tuaj për momentin.",
+      "pinned": "E ngulitur",
+      "postedAt": "Postuar {{date}}",
+      "expiresAt": "Deri në {{date}}",
+      "category": {
+        "general": "Gjeneral",
+        "maintenance": "Mirëmbajtja",
+        "waterSupply": "Furnizimi me ujë",
+        "billing": "Faturimi",
+        "urgent": "Urgjente"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Tavolina e mbështetjes dhe shqetësimeve të banorit",
     "subtitle": "Paraqisni raportet e rrjedhjeve të ujit, kërkesat për kalibrimin e njehsorit ose kërkesat për faturimin direkt te administratori i komunitetit tuaj dhe/ose administratori i sistemit.",
     "emptyCreateHint": "Përshkruani problemin ose shqetësimin tuaj më poshtë dhe zgjidhni se kush duhet ta trajtojë atë."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 Muajt ​​e fundit",
+      "sixMonths": "6 Muajt ​​e fundit",
+      "twelveMonths": "12 muajt e fundit",
+      "custom": "Gama e personalizuar"
+    },
+    "customRange": {
+      "from": "Nga",
+      "to": "te",
+      "hint": "Zgjidh një muaj fillimi dhe mbarimi për të parë raportin tënd."
+    },
+    "loading": "Raporti juaj po ngarkohet…",
+    "loadError": "Raporti juaj nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "pdfError": "Deklarata nuk mund të shkarkohej. Ju lutemi provoni përsëri.",
+    "downloading": "Po shkarkohet…",
+    "downloadCsv": "Shkarko CSV",
+    "downloadStatement": "Shkarko deklaratën PDF",
+    "period": "Periudha e raportimit: {{from}} deri në {{to}}",
+    "cards": {
+      "totalUsage": "Përdorimi total",
+      "avgMonthly": "Përdorimi mesatar mujor",
+      "avgMonthlyHint": "Gjatë muajve me lexime të regjistruara",
+      "change": "Ndryshimi kundrejt periudhës së mëparshme",
+      "changeHint": "{{previous}} në {{from}} në {{to}}",
+      "changeNoData": "Nuk ka përdorim në periudhën e mëparshme për të krahasuar",
+      "totalBilled": "Totali i faturuar",
+      "totalPaid": "Totali i paguar",
+      "outstanding": "I shquar"
+    },
+    "chart": {
+      "title": "Përdorimi dhe faturimi mujor",
+      "subtitle": "Shiritat tregojnë konsumin (kL); rreshti tregon shumën e faturuar (₹).",
+      "consumption": "Konsumi",
+      "billed": "Faturuar"
+    },
+    "table": {
+      "title": "Përbërja muaj pas muaji",
+      "month": "muaj",
+      "consumption": "Konsumi (kL)",
+      "billed": "Faturuar",
+      "paid": "I paguar",
+      "status": "Statusi"
+    },
+    "status": {
+      "paid": "I paguar",
+      "unpaid": "E papaguar",
+      "notBilled": "I pa faturuar"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Detajet e llogarisë",
+    "managedNote": "Administratori i komunitetit tuaj i menaxhon këto detaje. Kontaktoni ata nëse diçka duhet të ndryshojë.",
+    "loading": "Profili juaj po ngarkohet…",
+    "loadError": "Profili juaj nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "notSet": "Nuk është vendosur",
+    "flatSizeValue": "{{size}} këmbë katrore",
+    "avatarTitle": "Avatari",
+    "passwordTitle": "Ndrysho fjalëkalimin",
+    "fields": {
+      "fullName": "Emri i plotë",
+      "email": "Email",
+      "phone": "Telefoni",
+      "houseNumber": "Numri i shtëpisë",
+      "meterNumber": "Numri i njehsorit",
+      "community": "Komuniteti",
+      "flatSize": "Madhësia e sheshtë",
+      "joined": "U bashkua"
+    }
   }
 }

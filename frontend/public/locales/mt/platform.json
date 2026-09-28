@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Biljetti ta' Appoġġ",
     "subtitle": "Tappoġġja l-biljetti u t-tħassib imqajjem mir-residenti u l-amministraturi tal-komunità, mal-pjattaforma kollha."
+  },
+  "profile": {
+    "accountTitle": "Kont",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Ibdel il-password",
+    "loadError": "Ma setgħetx tagħbija l-profil tiegħek. Jekk jogħġbok erġa' pprova.",
+    "fields": {
+      "fullName": "Isem sħiħ",
+      "email": "Email",
+      "role": "Rwol",
+      "roleValue": "Amministratur tas-Sistema"
+    }
   }
 }

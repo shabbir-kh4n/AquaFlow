@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Laster",
     "welcome": {
       "greeting": "Kaixo {{name}},",
       "greetingFallback": "Kaixo,",
       "title": "Egon zaitez zure etxeko uraren istoriotik gertu.",
-      "subtitle": "Erabilera eta fakturazio-estatistikak hemen agertuko dira zure komunitateko erregistroen irakurketa gisa.",
-      "viewBadges": "Ikusi Eco-txapak"
+      "subtitle": "Erabilera eta fakturazio-estatistikak hemen agertuko dira zure komunitateko erregistroen irakurketa gisa."
     },
     "stats": {
       "todaysUsage": "Gaurko Erabilera",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Neuratutako erabilera + kostu partekatuak, {{month}}",
       "estimatedBillHint": "Hilabete honetako kontagailuen kontsumoan eta karga partekatuetan oinarrituta",
       "savings": "Aurrezpena eta eraikinaren batez bestekoa",
-      "savingsValue": "{{percent}}% gutxiago",
-      "savingsPreview": "Aurrebista soilik — konparazioa oraindik ez dago zuzenean"
+      "savingsLess": "{{percent}}% gutxiago",
+      "savingsMore": "{{percent}}% gehiago",
+      "savingsEqual": "Batez bestekoaren berdina",
+      "savingsDetail": "{{household}} kL vs {{average}} kL batez bestekoa, {{month}}",
+      "savingsNoData": "Oraindik ez dago eraikinen alderaketarik"
     },
     "consumption": {
       "eyebrow": "Kontsumoa",
       "title": "Eguneko kontsumoa (azken 14 irakurketak)",
       "seriesName": "Kontsumoa",
       "empty": "Oraindik ez dago irakurketarik erregistratu."
-    },
-    "breakdown": {
-      "eyebrow": "Matxura",
-      "title": "Erabilera-matxura",
-      "bathroom": "Bainugela",
-      "kitchen": "Sukaldea",
-      "garden": "Lorategia / Balkoia",
-      "other": "Bestela / Garbitegia"
     },
     "billing": {
       "eyebrow": "Fakturazioa",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Mailako prezio-maila",
       "tierLabel": "{{tier}} maila",
       "commonArea": "Eremu komunaren banaketa",
-      "commonAreaPreview": "Eremu komunaren banaketa (aurrebista)",
       "invoiceTotal": "{{period}} faktura guztira",
       "estimatedCharge": "Uneko karga estimatua",
       "commonAreaBreakdown": "Eremu komunaren matxura",
-      "payPreview": "Ordaindu fakturaren aurrebista",
-      "payUnavailable": "Fakturazio-motorra ez dago oraindik erabilgarri"
+      "commonAreaEstimate": "Eremu komunaren banaketa (kalkulua)",
+      "payOutstanding": "Ordaindu beharrekoa ₹{{amount}}",
+      "payAllDescription": "Ordaindu gabeko faktura guztiak ({{number}})"
     },
     "tips": {
       "eyebrow": "Aholkuak",
@@ -66,8 +59,7 @@
     "empty": "Oraindik ez dago irakurketarik erregistratu. Zure komunitateak neurgailuaren irakurketa erregistratzen duenean, hemen agertuko da.",
     "tabs": {
       "lastSixMonths": "Azken 6 hilabeteak",
-      "customRange": "Barruti pertsonalizatua",
-      "comingSoon": "Laster"
+      "customRange": "Barruti pertsonalizatua"
     },
     "peakDay": "Goren eguna:",
     "lowestDay": "Egunik txikiena:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Eguneko kontsumoaren bero-mapa",
-      "subtitle": "Kolore-intentsitateak erabilera handiko egunak adierazten ditu (aurrebista)."
+      "subtitle": "Kolore-intentsitateak erabilera handiko egunak adierazten ditu (aurrebista).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: daturik ez",
+      "less": "Gutxiago",
+      "more": "Gehiago",
+      "noData": "Ez dago daturik"
     },
     "ranking": {
       "title": "Komunitateko Peer Ranking",
-      "subtitle": "Zure sailkapena antzeko unitateekin alderatuta (aurrebista).",
-      "ecoSaver": "Eco-aurrezle aktiboa",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "{{number}} unitatea",
-      "yourUnit": "Zure unitatea",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (zu)"
+      "subtitle": "Zure etxea eta zure apartamentuko etxe guztiak {{month}}. Erabilera txikiagoa maila altuagoa da.",
+      "headline": "{{total}} etxeetatik #{{rank}}",
+      "percentile": "Bizilagunen % {{percent}}k baino ur gutxiago erabili duzu.",
+      "min": "Baxuena",
+      "median": "Mediana",
+      "max": "Altuena",
+      "youRow": "#{{rank}} Zu",
+      "neighbourRow": "#{{rank}} Bizilaguna",
+      "privacyNote": "Bizilagunak anonimoak dira. Etxe-zenbakiak eta izenak ez dira inoiz erakusten.",
+      "empty": "Oraindik ez dago datu nahikorik zure etxea sailkatzeko."
+    },
+    "range": {
+      "from": "Bertatik",
+      "to": "To",
+      "invalid": "Hasierako hilabeteak ez du amaierako hilabetearen ondorengoa izan behar.",
+      "noData": "Ez dago kontsumo-daturik tarte honetan."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Fakturazio-zikloa: {{period}}",
       "allPaid": "Faktura guztiak ordaintzen dira",
       "payTotal": "Ordainketa osoa ordaintzea",
-      "payTotalUnavailable": "Lineako ordainketa oraindik ez dago erabilgarri; ordaindu fakturak zure komunitateko administratzailearekin zuzenean",
       "downloadSummary": "Deskargatu fakturaren laburpena",
-      "downloadSummaryUnavailable": "Fakturaren laburpena deskargatzea ez dago eskuragarri oraindik"
+      "payAllDescription": "Ordaindu gabeko faktura guztiak ({{number}})"
     },
     "history": {
       "title": "Fakturen Historia",
-      "exportCsv": "Esportatu guztiak CSV-ra",
-      "exportUnavailable": "CSV esportazioa ez dago oraindik erabilgarri"
+      "exportCsv": "Esportatu guztiak CSV-ra"
     },
     "table": {
       "cycle": "Zikloa",
@@ -148,6 +151,17 @@
       "description": "Lineako ordainketa oraindik ez dago erabilgarri; fakturak zure komunitateko administratzailearekin ordaintzen dira zuzenean.",
       "manage": "Kudeatu Ordainketa Metodoak",
       "manageUnavailable": "Ordainketa-metodoak oraindik ez daude erabilgarri"
+    },
+    "csv": {
+      "cycle": "Fakturazio epea",
+      "consumption": "Kontsumoa (kL)",
+      "baseAmount": "Oinarrizko zenbatekoa",
+      "tariffAmount": "Tarifaren zenbatekoa",
+      "commonAreaAmount": "Eremu komunaren zenbatekoa",
+      "totalAmount": "Zenbateko osoa",
+      "paid": "Ordaindua",
+      "paidAt": "Ordaindua",
+      "generatedAt": "urtean sortua"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Mesedez, ez sakatu atzera edo freskatu orrialde hau",
     "success": "Ordainketa arrakastatsua",
     "error": "Arazoren bat izan da ordainketa berresten. Mesedez, saiatu berriro.",
-    "retry": "Saiatu berriro"
+    "retry": "Saiatu berriro",
+    "simulationNotice": "Simulatutako ordainketa erakustaldirako soilik. Ez da benetako ordainketarik egiten eta ez da dirurik kobratzen."
   },
   "notifications": {
     "loadError": "Ezin izan dira zure jakinarazpenak kargatu. Mesedez, saiatu berriro.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push jakinarazpenak ez daude oraindik konfiguratuta. Jarri harremanetan zure administratzailearekin.",
       "enableError": "Ezin izan dira gaitu push jakinarazpenak. Mesedez, saiatu berriro.",
       "disableError": "Ezin izan dira desgaitu push jakinarazpenak. Mesedez, saiatu berriro."
+    },
+    "tabs": {
+      "alerts": "Alertak",
+      "announcements": "Iragarkiak"
+    },
+    "announcements": {
+      "loadError": "Ezin izan dira iragarkiak kargatu. Mesedez, saiatu berriro.",
+      "loading": "Iragarkiak kargatzen…",
+      "empty": "Une honetan ez dago zure komunitateko administratzailearen iragarkirik.",
+      "pinned": "Ainguratuta",
+      "postedAt": "{{date}} argitaratua",
+      "expiresAt": "{{date}} arte",
+      "category": {
+        "general": "Orokorra",
+        "maintenance": "Mantentzea",
+        "waterSupply": "Ur Hornidura",
+        "billing": "Fakturazioa",
+        "urgent": "Premiazkoa"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Egoiliarren Laguntza eta Kezkak Bulegoa",
     "subtitle": "Bidali ur-isurketen txostenak, kontagailuak kalibratzeko eskaerak edo fakturazio-kontsultak zuzenean zure komunitateko administratzaileari eta/edo Sistemako administratzaileari.",
     "emptyCreateHint": "Deskribatu behean zure arazoa edo kezka, eta aukeratu nork kudeatu behar duen."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Azken 3 hilabeteak",
+      "sixMonths": "Azken 6 hilabeteak",
+      "twelveMonths": "Azken 12 hilabeteak",
+      "custom": "Barruti pertsonalizatua"
+    },
+    "customRange": {
+      "from": "Bertatik",
+      "to": "To",
+      "hint": "Aukeratu hasierako eta amaierako hilabete bat zure txostena ikusteko."
+    },
+    "loading": "Zure txostena kargatzen…",
+    "loadError": "Ezin izan da zure txostena kargatu. Mesedez, saiatu berriro.",
+    "pdfError": "Ezin izan da adierazpena deskargatu. Mesedez, saiatu berriro.",
+    "downloading": "Deskargatzen…",
+    "downloadCsv": "Deskargatu CSV",
+    "downloadStatement": "Deskargatu adierazpena PDF",
+    "period": "Txostenaren epea: {{from}}tik {{to}}",
+    "cards": {
+      "totalUsage": "Erabilera osoa",
+      "avgMonthly": "Hileko batez besteko erabilera",
+      "avgMonthlyHint": "Hilabeteetan zehar irakurketa grabatuekin",
+      "change": "Aldaketa vs Aurreko aldia",
+      "changeHint": "{{previous}} {{from}}tik {{to}} artean",
+      "changeNoData": "Konparatzeko aurreko aldian erabilerarik ez",
+      "totalBilled": "Fakturatutako guztira",
+      "totalPaid": "Guztira Ordaindua",
+      "outstanding": "Nabarmena"
+    },
+    "chart": {
+      "title": "Hileko erabilera eta fakturazioa",
+      "subtitle": "Tabernek kontsumoa erakusten dute (kL); lerroak fakturatutako zenbatekoa (₹) erakusten du.",
+      "consumption": "Kontsumoa",
+      "billed": "Fakturatua"
+    },
+    "table": {
+      "title": "Hilabetez Hileko Banaketa",
+      "month": "Hilabetea",
+      "consumption": "Kontsumoa (kL)",
+      "billed": "Fakturatua",
+      "paid": "Ordaindua",
+      "status": "Egoera"
+    },
+    "status": {
+      "paid": "Ordaindua",
+      "unpaid": "Ordaindu gabe",
+      "notBilled": "Fakturatu gabe"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Kontuaren xehetasunak",
+    "managedNote": "Zure komunitateko administratzaileak kudeatzen ditu xehetasun hauek. Jarri eurekin harremanetan zerbait aldatu behar bada.",
+    "loading": "Zure profila kargatzen…",
+    "loadError": "Ezin izan da zure profila kargatu. Mesedez, saiatu berriro.",
+    "notSet": "Ezarrita",
+    "flatSizeValue": "{{size}} oin karratu",
+    "avatarTitle": "Avatarra",
+    "passwordTitle": "Aldatu pasahitza",
+    "fields": {
+      "fullName": "Izen osoa",
+      "email": "Posta elektronikoa",
+      "phone": "Telefonoa",
+      "houseNumber": "Etxe zenbakia",
+      "meterNumber": "Kontagailuaren zenbakia",
+      "community": "Komunitatea",
+      "flatSize": "Tamaina laua",
+      "joined": "Bat eginda"
+    }
   }
 }

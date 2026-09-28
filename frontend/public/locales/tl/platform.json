@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Mga Ticket ng Suporta",
     "subtitle": "Suportahan ang mga tiket at alalahanin na ibinangon ng mga residente at mga admin ng komunidad, sa buong platform."
+  },
+  "profile": {
+    "accountTitle": "Account",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Baguhin ang password",
+    "loadError": "Hindi ma-load ang iyong profile. Pakisubukang muli.",
+    "fields": {
+      "fullName": "Buong pangalan",
+      "email": "Email",
+      "role": "Tungkulin",
+      "roleValue": "Administrator ng System"
+    }
   }
 }

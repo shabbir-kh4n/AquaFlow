@@ -222,6 +222,14 @@
         "title": "Dukungan / Kekhawatiran",
         "subtitle": "Ajukan tiket Anda sendiri ke Admin Sistem, atau tangani kekhawatiran yang disampaikan penghuni Anda kepada Anda."
       },
+      "reports": {
+        "title": "Laporan Komunitas",
+        "subtitle": "Angka konsumsi, penagihan, pengumpulan, dan pembelian massal untuk komunitas Anda."
+      },
+      "announcements": {
+        "title": "Pengumuman",
+        "subtitle": "Publikasikan pemberitahuan komunitas kepada warga Anda."
+      },
       "profile": {
         "title": "Pengaturan & Profil",
         "subtitle": "Kelola detail akun dan informasi apartemen Anda."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Admin Komunitas",
     "notBuilt": "{{label}} belum dibuat",
     "searchPlaceholder": "Telusuri apa saja…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Laporan",
-      "description": "Laporan konsumsi, penagihan, dan konservasi untuk komunitas Anda."
-    },
-    "announcements": {
-      "title": "Pengumuman",
-      "description": "Kirimkan pengumuman ke seluruh komunitas kepada warga Anda."
-    }
   },
   "comingSoon": {
     "title": "{{title}} akan segera hadir"
@@ -261,7 +259,9 @@
       "billing": "Penagihan & Faktur",
       "notifications": "Pemberitahuan",
       "recommendations": "Rekomendasi",
-      "support": "Dukungan / Kekhawatiran"
+      "support": "Dukungan / Kekhawatiran",
+      "reports": "Laporan penggunaan & pengeluaran Anda",
+      "profile": "Profil saya"
     },
     "defaultTitle": "Dasbor Penduduk",
     "navLabel": "Navigasi penduduk",
@@ -277,7 +277,8 @@
       "communities": "Komunitas",
       "reports": "Laporan",
       "supportTickets": "Tiket Dukungan",
-      "systemStatus": "Status Sistem"
+      "systemStatus": "Status Sistem",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Status Sistem",
         "subtitle": "Konektivitas backend dan kesehatan runtime dasar."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Akun, avatar, dan kata sandi Anda"
       }
     },
     "fallbackName": "Admin Sistem",
@@ -308,5 +313,40 @@
     "buttonLabel": "Bahasa: {{language}}",
     "searchPlaceholder": "Bahasa penelusuran…",
     "noMatches": "Tidak ada kecocokan"
+  },
+  "avatarPicker": {
+    "label": "Pilih avatar",
+    "hint": "Pilih salah satu avatar preset, atau gunakan inisial Anda.",
+    "change": "Mengubah",
+    "cancel": "Membatalkan",
+    "useInitials": "Gunakan inisial",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Simpan avatar",
+    "saving": "Penghematan…",
+    "saved": "Avatar diperbarui",
+    "saveError": "Tidak dapat memperbarui avatar Anda. Silakan coba lagi."
+  },
+  "changePassword": {
+    "current": "Kata sandi saat ini",
+    "new": "Kata sandi baru",
+    "confirm": "Konfirmasikan kata sandi baru",
+    "hint": "Setidaknya {{min}} karakter.",
+    "tooShort": "Kata sandi baru minimal harus {{min}} karakter.",
+    "mismatch": "Kata sandi baru tidak cocok.",
+    "sameAsCurrent": "Kata sandi baru harus berbeda dengan kata sandi Anda saat ini.",
+    "submit": "Perbarui kata sandi",
+    "saving": "Memperbarui…",
+    "success": "Kata sandi Anda telah diperbarui.",
+    "error": "Tidak dapat memperbarui kata sandi Anda. Silakan coba lagi."
+  },
+  "search": {
+    "kindPage": "Halaman",
+    "kindRecord": "Hasil",
+    "loading": "Mencari…",
+    "noResults": "Tidak ada kecocokan",
+    "recordsUnavailable": "Hanya halaman yang dapat dicari saat ini.",
+    "invoiceLabel": "Faktur {{period}}",
+    "paid": "Dibayar",
+    "unpaid": "Tidak dibayar"
   }
 }

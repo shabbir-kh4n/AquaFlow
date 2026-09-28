@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Nbọ laipẹ",
     "welcome": {
       "greeting": "Hello {{name}},",
       "greetingFallback": "Henle nibe yen,",
       "title": "Duro si itan omi ile rẹ.",
-      "subtitle": "Lilo ati awọn oye ìdíyelé yoo han nibi bi agbegbe rẹ ṣe n ṣe igbasilẹ awọn kika.",
-      "viewBadges": "Wo Eco-Badges"
+      "subtitle": "Lilo ati awọn oye ìdíyelé yoo han nibi bi agbegbe rẹ ṣe n ṣe igbasilẹ awọn kika."
     },
     "stats": {
       "todaysUsage": "Lilo Oni",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Lilo mita + awọn idiyele pinpin, {{month}}",
       "estimatedBillHint": "Da lori lilo mita oṣu yii ati awọn idiyele pinpin",
       "savings": "Awọn ifowopamọ vs Ilé Avg",
-      "savingsValue": "{{percent}}% Kere",
-      "savingsPreview": "Awotẹlẹ nikan - lafiwe ko tii wa laaye"
+      "savingsLess": "{{percent}}% Kere",
+      "savingsMore": "{{percent}}% Die e sii",
+      "savingsEqual": "Kanna bi apapọ",
+      "savingsDetail": "{{household}} kL vs {{average}} kL average, {{month}}",
+      "savingsNoData": "Ko si lafiwe ile sibẹsibẹ"
     },
     "consumption": {
       "eyebrow": "Lilo agbara",
       "title": "Lilo Ojoojumọ (Awọn kika 14 kẹhin)",
       "seriesName": "Lilo agbara",
       "empty": "Ko si awọn iwe kika ti o gbasilẹ sibẹsibẹ."
-    },
-    "breakdown": {
-      "eyebrow": "Ko ṣiṣẹ",
-      "title": "Idinku lilo",
-      "bathroom": "Yara iwẹ",
-      "kitchen": "Idana",
-      "garden": "Ọgba / balikoni",
-      "other": "Miiran / ifọṣọ"
     },
     "billing": {
       "eyebrow": "Ìdíyelé",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Ipele idiyele ipele",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Wọpọ agbegbe ipin",
-      "commonAreaPreview": "Pipin agbegbe ti o wọpọ (awotẹlẹ)",
       "invoiceTotal": "{{period}} lapapọ risiti",
       "estimatedCharge": "Owo idiyele lọwọlọwọ",
       "commonAreaBreakdown": "Pipin agbegbe ti o wọpọ",
-      "payPreview": "Sanwo Bill Awotẹlẹ",
-      "payUnavailable": "Ẹnjini ìdíyelé ko sibẹsibẹ wa"
+      "commonAreaEstimate": "Pipin agbegbe ti o wọpọ (iṣiro)",
+      "payOutstanding": "Sanwo Iyatọ ₹{{amount}}",
+      "payAllDescription": "Gbogbo awọn owo ti a ko sanwo ({{number}})"
     },
     "tips": {
       "eyebrow": "Italolobo",
@@ -66,8 +59,7 @@
     "empty": "Ko si awọn iwe kika ti o gbasilẹ sibẹsibẹ. Ni kete ti agbegbe rẹ ṣe igbasilẹ kika mita kan, yoo han nibi.",
     "tabs": {
       "lastSixMonths": "Awọn oṣu 6 ti o kẹhin",
-      "customRange": "Aṣa Ibiti",
-      "comingSoon": "Nbọ laipẹ"
+      "customRange": "Aṣa Ibiti"
     },
     "peakDay": "Ọjọ ti o ga julọ:",
     "lowestDay": "Ọjọ ti o kere julọ:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Ojoojumọ Lilo Heatmap",
-      "subtitle": "Awọn asia kikankikan awọ ti o wuwo awọn ọjọ lilo (awotẹlẹ)."
+      "subtitle": "Awọn asia kikankikan awọ ti o wuwo awọn ọjọ lilo (awotẹlẹ).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: ko si data",
+      "less": "Ti o kere",
+      "more": "Die e sii",
+      "noData": "Ko si data"
     },
     "ranking": {
       "title": "Agbegbe Ẹlẹgbẹ ipo",
-      "subtitle": "Ipo rẹ ni akawe si awọn ẹya ti o jọra (awotẹlẹ).",
-      "ecoSaver": "Ipamọ Eco ti nṣiṣe lọwọ",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unit {{number}}",
-      "yourUnit": "Ẹyọ rẹ",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ìwọ)"
+      "subtitle": "Idile rẹ ati gbogbo idile ni iyẹwu rẹ fun {{month}}. Isalẹ lilo awọn ipo ti o ga.",
+      "headline": "#{{rank}} ti {{total}} idile",
+      "percentile": "O lo omi ti o kere ju {{percent}}% ti awọn aladugbo rẹ.",
+      "min": "Ti o kere julọ",
+      "median": "Agbedemeji",
+      "max": "Ti o ga julọ",
+      "youRow": "#{{rank}} Iwọ",
+      "neighbourRow": "#{{rank}} Aládùúgbò",
+      "privacyNote": "Awọn aladugbo jẹ ailorukọ. Awọn nọmba ile ati awọn orukọ ko han rara.",
+      "empty": "Ko si data to sibẹsibẹ lati ṣe ipo idile rẹ."
+    },
+    "range": {
+      "from": "Lati",
+      "to": "Si",
+      "invalid": "Oṣu ibẹrẹ ko gbọdọ jẹ lẹhin oṣu ipari.",
+      "noData": "Ko si data lilo ni sakani yii."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Yiyika Ìdíyelé: {{period}}",
       "allPaid": "Gbogbo awọn risiti ti san",
       "payTotal": "Pay Total olutayo",
-      "payTotalUnavailable": "Isanwo ori ayelujara ko si sibẹsibẹ - yanju awọn owo pẹlu alabojuto agbegbe rẹ taara",
       "downloadSummary": "Download Bill Lakotan",
-      "downloadSummaryUnavailable": "Gbigba lati ayelujara akopọ Bill ko si sibẹsibẹ"
+      "payAllDescription": "Gbogbo awọn owo ti a ko sanwo ({{number}})"
     },
     "history": {
       "title": "Itan risiti",
-      "exportCsv": "Gbe Gbogbo Rẹ jade si CSV",
-      "exportUnavailable": "CSV okeere ko si sibẹsibẹ"
+      "exportCsv": "Gbe Gbogbo Rẹ jade si CSV"
     },
     "table": {
       "cycle": "Yiyipo",
@@ -148,6 +151,17 @@
       "description": "Isanwo ori ayelujara ko si sibẹsibẹ - awọn owo-owo ti yanju pẹlu alabojuto agbegbe rẹ taara.",
       "manage": "Ṣakoso awọn ọna Isanwo",
       "manageUnavailable": "Awọn ọna isanwo ko si sibẹsibẹ"
+    },
+    "csv": {
+      "cycle": "Akoko ìdíyelé",
+      "consumption": "Lilo (kL)",
+      "baseAmount": "Iwọn ipilẹ",
+      "tariffAmount": "Iye owo idiyele",
+      "commonAreaAmount": "Iwọn agbegbe ti o wọpọ",
+      "totalAmount": "Oye gbo e",
+      "paid": "Sanwo",
+      "paidAt": "San ni",
+      "generatedAt": "Ti ipilẹṣẹ ni"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Jọwọ maṣe tẹ sẹhin tabi sọ oju-iwe yii sọtun",
     "success": "Isanwo Aseyori",
     "error": "Nkankan ti ko tọ lati jẹrisi sisanwo rẹ. Jọwọ gbiyanju lẹẹkansi.",
-    "retry": "Tun gbiyanju"
+    "retry": "Tun gbiyanju",
+    "simulationNotice": "Ibi isanwo ti afarawe fun iṣafihan nikan. Ko si owo sisan gidi ko si gba owo."
   },
   "notifications": {
     "loadError": "Ko le gbe awọn iwifunni rẹ silẹ. Jọwọ gbiyanju lẹẹkansi.",
@@ -213,6 +228,25 @@
       "notConfigured": "Awọn iwifunni titari ko ni tunto sibẹsibẹ. Kan si alabojuto rẹ.",
       "enableError": "Ko le mu awọn iwifunni titari ṣiṣẹ. Jọwọ gbiyanju lẹẹkansi.",
       "disableError": "Ko le mu awọn iwifunni titari ṣiṣẹ. Jọwọ gbiyanju lẹẹkansi."
+    },
+    "tabs": {
+      "alerts": "Awọn itaniji",
+      "announcements": "Awọn ikede"
+    },
+    "announcements": {
+      "loadError": "Ko le gbe awọn ikede silẹ. Jọwọ gbiyanju lẹẹkansi.",
+      "loading": "Nkojọpọ awọn ikede…",
+      "empty": "Ko si awọn ikede lati ọdọ alabojuto agbegbe rẹ ni bayi.",
+      "pinned": "Pinni",
+      "postedAt": "Posted {{date}}",
+      "expiresAt": "Until {{date}}",
+      "category": {
+        "general": "Gbogboogbo",
+        "maintenance": "Itoju",
+        "waterSupply": "Ipese Omi",
+        "billing": "Ìdíyelé",
+        "urgent": "Ni kiakia"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Olugbe Support & Awọn ifiyesi Iduro",
     "subtitle": "Fi awọn ijabọ jijo omi silẹ, awọn ibeere isọdiwọn mita, tabi awọn ibeere ìdíyelé taara si alabojuto agbegbe ati/tabi Alakoso Eto.",
     "emptyCreateHint": "Ṣe apejuwe ọran rẹ tabi ibakcdun ni isalẹ, ki o yan ẹni ti o yẹ ki o mu."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Awọn oṣu mẹta sẹhin",
+      "sixMonths": "Awọn oṣu 6 ti o kẹhin",
+      "twelveMonths": "Awọn oṣu 12 to kọja",
+      "custom": "Aṣa Ibiti"
+    },
+    "customRange": {
+      "from": "Lati",
+      "to": "Si",
+      "hint": "Yan ibẹrẹ ati oṣu ipari lati wo ijabọ rẹ."
+    },
+    "loading": "Nkojọpọ ijabọ rẹ…",
+    "loadError": "Ko le gbe ijabọ rẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "pdfError": "Ko le ṣe igbasilẹ alaye naa. Jọwọ gbiyanju lẹẹkansi.",
+    "downloading": "Ngbasile…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Gbólóhùn Gbigbasilẹ PDF",
+    "period": "Report period: {{from}} to {{to}}",
+    "cards": {
+      "totalUsage": "Lapapọ Lilo",
+      "avgMonthly": "Apapọ Oṣooṣu Lilo",
+      "avgMonthlyHint": "Ni gbogbo awọn oṣu pẹlu awọn kika ti o gbasilẹ",
+      "change": "Yi pada vs ti tẹlẹ Akoko",
+      "changeHint": "{{previous}} in {{from}} to {{to}}",
+      "changeNoData": "Ko si lilo ni akoko iṣaaju lati ṣe afiwe",
+      "totalBilled": "Lapapọ Billed",
+      "totalPaid": "Lapapọ Sanwo",
+      "outstanding": "O tayọ"
+    },
+    "chart": {
+      "title": "Oṣooṣu Lilo ati Ìdíyelé",
+      "subtitle": "Bars show consumption (kL); the line shows the billed amount (₹).",
+      "consumption": "Lilo agbara",
+      "billed": "Billed"
+    },
+    "table": {
+      "title": "Oṣooṣu-nipasẹ-osù didenukole",
+      "month": "Osu",
+      "consumption": "Lilo (kL)",
+      "billed": "Billed",
+      "paid": "Sanwo",
+      "status": "Ipo"
+    },
+    "status": {
+      "paid": "Sanwo",
+      "unpaid": "Ti ko sanwo",
+      "notBilled": "Ko ṣe idiyele"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Awọn alaye akọọlẹ",
+    "managedNote": "Abojuto agbegbe rẹ ṣakoso awọn alaye wọnyi. Kan si wọn ti ohunkohun ba nilo lati yipada.",
+    "loading": "Nkojọpọ profaili rẹ…",
+    "loadError": "Ko le ṣe fifuye profaili rẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "notSet": "Ko ṣeto",
+    "flatSizeValue": "{{size}} square ft",
+    "avatarTitle": "Afata",
+    "passwordTitle": "Tun oruko akowole re se",
+    "fields": {
+      "fullName": "Akokun Oruko",
+      "email": "Imeeli",
+      "phone": "Foonu",
+      "houseNumber": "Nọmba ile",
+      "meterNumber": "Nọmba mita",
+      "community": "Agbegbe",
+      "flatSize": "Iwọn alapin",
+      "joined": "Darapọ mọ"
+    }
   }
 }

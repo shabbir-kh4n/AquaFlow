@@ -25,7 +25,6 @@
     "title": "{{community}} Painéal na nÁrasán",
     "titleFallback": "Do Phainéal Árasáin",
     "subtitle": "Achoimre oibriúcháin maidir le fomhéadrú áirgiúlachta uisce agus tomhaltas teaghlaigh.",
-    "comingSoon": "Ag teacht go luath",
     "manageCommunity": "Pobail a bhainistiú",
     "noUsageReadings": "Níl aon léamha úsáide taifeadta fós.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "An mhí is déanaí a taifeadadh ({{month}})",
       "noReadingsYet": "Níl aon léamh taifeadta go fóill",
       "pendingAlerts": "Foláirimh ar Feitheamh",
-      "anomalyPreview": "Réamhamharc ar bhrath aimhrialtacht — níl sé ar fáil fós"
+      "reviewAlerts": "Foláirimh ghníomhacha sceite / úsáide — déan athbhreithniú anois",
+      "noActiveAlerts": "Gan foláireamh gníomhach"
     },
     "actions": {
       "label": "Gníomhartha Mear Riaracháin",
       "uploadReadings": "Uaslódáil léamha méadair",
       "configureTariffs": "Cumraigh Taraifí",
-      "reportsNotBuilt": "Níl tuairiscí tógtha fós",
       "downloadReports": "Íosluchtaigh tuarascálacha córais"
     },
     "chart": {
       "title": "Comparáid Míosúil Tomhaltais (kL)",
       "subtitle": "{{months}} míonna deiridh: sprioc vs. tomhaltas iarbhír.",
-      "targetSeries": "Sprioc (réamhamharc)",
       "actualSeries": "Iarbhír"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Níorbh fhéidir do phróifíl a shábháil. Bain triail eile as.",
     "apartmentSaveError": "Níorbh fhéidir sonraí an árasáin a shábháil. Bain triail eile as.",
     "specsTitle": "Sonraíochtaí Próifíl",
-    "photoUnavailable": "Níl uaslódáil grianghraf ar fáil fós",
-    "changePhoto": "Athraigh Grianghraf",
-    "deletePhoto": "Scrios",
-    "photoHint": "JPG nó PNG. Uasmhéid 2MB.",
     "saveProfile": "Sábháil Próifíl",
     "apartmentTitle": "Sonraí Árasáin",
     "saveApartment": "Sábháil Sonraí Árasáin",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Níl fíordheimhniú dhá fhachtóir ar fáil go fóill",
       "twoFactorAria": "Fíordheimhniú dhá fhachtóir (réamhamharc amháin)",
       "sessionsLabel": "Seisiúin Ghníomhach Riaracháin",
-      "sessionsEmpty": "Níl rianú seisiúin ar fáil go fóill — seo réamhamharc ar an leagan amach atá le teacht."
-    }
+      "sessionsEmpty": "Níl rianú seisiúin ar fáil go fóill — seo réamhamharc ar an leagan amach atá le teacht.",
+      "previewNote": "Réamhamharc amháin: níl fíordheimhniú dhá fhachtóir agus rianú seisiúin ar fáil go fóill."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Athraigh Pasfhocal"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Ticéid Cónaitheach",
       "subtitle": "Ticéid tacaíochta agus ábhair imní a sheol cónaitheoirí i do phobal chugat."
+    }
+  },
+  "reports": {
+    "loadError": "Níorbh fhéidir an tuairisc phobail a lódáil. Bain triail eile as.",
+    "pdfError": "Níorbh fhéidir an tuarascáil PDF a íoslódáil. Bain triail eile as.",
+    "loading": "Tuairisc á lódáil…",
+    "empty": "Níl sonraí sa raon seo ag aon teaghlach.",
+    "noMatch": "Níl aon teaghlach ag teacht le \"{{search}}\".",
+    "searchPlaceholder": "Scag de réir tí, cónaitheora, nó méadar uimh.",
+    "downloadCsv": "Íoslódáil CSV",
+    "downloadPdf": "Íoslódáil PDF achoimre",
+    "downloadingPdf": "PDF á ullmhú…",
+    "ranges": {
+      "threeMonths": "3 mhí seo caite",
+      "sixMonths": "6 mhí anuas",
+      "twelveMonths": "12 mhí anuas",
+      "custom": "Raon saincheaptha"
+    },
+    "customRange": {
+      "from": "Ó",
+      "to": "Chuig",
+      "hint": "Roghnaigh mí tosaigh agus mí deiridh chun an tuairisc a luchtú."
+    },
+    "cards": {
+      "totalConsumption": "Tomhaltas Iomlán",
+      "households": "Ar fud {{total}} teaghlach",
+      "avgMonthly": "Meán Tomhaltas Míosúil",
+      "communityWide": "Ar fud an phobail, in aghaidh na míosa",
+      "billed": "Billeáilte",
+      "finalizedOnly": "Timthriallta críochnaithe & cartlannaithe amháin",
+      "paid": "Íoctha",
+      "invoices": "{{total}} sonrasc eisithe",
+      "outstanding": "Sármhaith",
+      "unpaidInvoices": "{{total}} sonrasc neamhíoctha",
+      "collectionRate": "Ráta Bailiúcháin"
+    },
+    "costs": {
+      "title": "Costais vs. na Coimisinéirí Ioncaim",
+      "commonArea": "Táillí comhlimistéir gearrtha",
+      "bulkCost": "Costas ceannaigh uisce mórchóir",
+      "bulkVolume": "Bulc-uisce ceannaithe",
+      "bulkCount": "{{total}} cheannacháin",
+      "billedMinusBulk": "Ioncam bille lúide costas mórchóir",
+      "note": "Rianaítear mórcheannach le haghaidh infheictheachta costais agus ní dhéantar iad a bhilleáil go díreach chuig teaghlaigh."
+    },
+    "top": {
+      "title": "Tomhaltóirí Barr",
+      "empty": "Níor taifeadadh aon tomhaltas sa raon seo."
+    },
+    "charts": {
+      "consumptionTitle": "Tomhaltas Míosúil",
+      "consumptionSeries": "Tomhaltas",
+      "billingTitle": "Bille vs Íoctha vs Costas Bulc",
+      "billedSeries": "Billeáilte",
+      "paidSeries": "Íoctha",
+      "bulkSeries": "Costas mórcheannaigh",
+      "empty": "Níl aon sonraí don raon seo."
+    },
+    "sort": {
+      "label": "Sórtáil de réir",
+      "toggleDirection": "Scoránaigh treo sórtála",
+      "asc": "↑ Asc",
+      "desc": "↓ Deasc"
+    },
+    "table": {
+      "house": "Teach",
+      "resident": "Cónaitheach",
+      "meter": "Méadar",
+      "totalKl": "Iomlán kL",
+      "avgMonthlyKl": "Meán Fómhair Míosúil kL",
+      "billed": "Billeáilte",
+      "paid": "Íoctha",
+      "outstanding": "Sármhaith"
+    }
+  },
+  "announcements": {
+    "loadError": "Níorbh fhéidir fógraí a lódáil. Bain triail eile as.",
+    "removeError": "Níorbh fhéidir an fógra seo a scriosadh. Bain triail eile as.",
+    "loading": "Fógraí á lódáil…",
+    "empty": "Níl aon fhógraí fós. Cliceáil \"Fógra Nua\" chun fógra a thabhairt do do chónaitheoirí.",
+    "count": "Fógraí: {{total}}",
+    "newButton": "+ Fógra Nua",
+    "pinned": "Pionnáilte",
+    "expired": "imithe in éag",
+    "postedAt": "Arna phostáil {{date}}",
+    "updatedAt": "Curtha in eagar {{date}}",
+    "expiresAt": "In éag {{date}}",
+    "category": {
+      "general": "Ginearálta",
+      "maintenance": "Cothabháil",
+      "waterSupply": "Soláthar Uisce",
+      "billing": "Billeáil",
+      "urgent": "Práinneach"
+    },
+    "form": {
+      "addTitle": "Fógra Nua",
+      "editTitle": "Cuir Fógra in Eagar",
+      "addSubtitle": "Feiceann cónaitheoirí é seo ar a leathanach Fógraí, agus cuirtear aon duine a bhfuil fógraí brú cumasaithe aige ar an eolas láithreach.",
+      "editSubtitle": "Déanann athruithe an fógra atá i bhfeidhm a nuashonrú. Ní thugtar fógra do chónaitheoirí arís.",
+      "title": "Teideal",
+      "category": "Catagóir",
+      "expiresAt": "In éag (roghnach)",
+      "body": "Teachtaireacht",
+      "pinned": "PIN go barr fógraí na gcónaitheoirí",
+      "requiredFields": "Cuir isteach teideal agus teachtaireacht.",
+      "saveError": "Níorbh fhéidir an fógra seo a shábháil. Seiceáil na sonraí le do thoil.",
+      "publish": "Foilsigh"
+    },
+    "confirm": {
+      "title": "An bhfuil fonn ort fógra a scriosadh?",
+      "body": "Bainfear \"{{title}}\" do na cónaitheoirí go léir. Ní féidir é seo a chealú.",
+      "delete": "Scrios",
+      "deleting": "Ag scriosadh…"
     }
   }
 }

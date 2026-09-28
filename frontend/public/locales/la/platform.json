@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Support Nullam",
     "subtitle": "Support tesserae et sollicitudines a residentibus et communitatibus admins, suggestum-latum."
+  },
+  "profile": {
+    "accountTitle": "Ratio",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Mutatio password",
+    "loadError": "Non profile tuam load. Quaeso, iterum conare.",
+    "fields": {
+      "fullName": "Nomen plenum",
+      "email": "Email",
+      "role": "Munus",
+      "roleValue": "Administrator Systematis"
+    }
   }
 }

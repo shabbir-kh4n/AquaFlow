@@ -1,10 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import Logo from '../Logo'
+import Avatar from '../Avatar'
 import ChatWidget from '../chat/ChatWidget'
 import LanguageSwitcher from '../LanguageSwitcher'
+import TopbarSearch from '../TopbarSearch'
+import { listCommunities } from '../../api/platformApi'
 import './PlatformLayout.css'
 
 // labelKey/titleKey/subtitleKey values are translation keys (common namespace), resolved
@@ -15,6 +18,7 @@ const NAV_ITEMS = [
   { to: '/platform/reports', labelKey: 'platformLayout.nav.reports', icon: 'chart' },
   { to: '/platform/support-tickets', labelKey: 'platformLayout.nav.supportTickets', icon: 'help' },
   { to: '/platform/system-status', labelKey: 'platformLayout.nav.systemStatus', icon: 'pulse' },
+  { to: '/platform/profile', labelKey: 'platformLayout.nav.profile', icon: 'user' },
 ]
 
 const PAGE_META = {
@@ -35,6 +39,10 @@ const PAGE_META = {
     titleKey: 'platformLayout.pages.systemStatus.title',
     subtitleKey: 'platformLayout.pages.systemStatus.subtitle',
   },
+  '/platform/profile': {
+    titleKey: 'platformLayout.pages.profile.title',
+    subtitleKey: 'platformLayout.pages.profile.subtitle',
+  },
 }
 
 const ICONS = {
@@ -47,6 +55,7 @@ const ICONS = {
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,
   menu: <path d="M4 6h16M4 12h16M4 18h16" />,
   close: <path d="M6 6l12 12M18 6L6 18" />,
+  user: <path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zM4 21c1.5-4.5 5-6.5 8-6.5s6.5 2 8 6.5" />,
 }
 
 function Icon({ name }) {
@@ -85,6 +94,20 @@ function PlatformLayout() {
     navigate('/')
   }
 
+  const searchPages = useMemo(
+    () => NAV_ITEMS.map((item) => ({ id: item.to, label: t(item.labelKey), to: item.to })),
+    [t],
+  )
+  const loadSearchRecords = useCallback(
+    () => listCommunities().then((communities) => communities.map((community) => ({
+      id: community.adminId,
+      label: community.apartmentName || community.adminFullName,
+      sublabel: `${community.adminFullName} · ${community.adminEmail}`,
+      to: `/platform/communities/${community.adminId}`,
+    }))),
+    [],
+  )
+
   let title = ''
   let subtitle = ''
   if (location.pathname === '/platform/dashboard') {
@@ -94,13 +117,6 @@ function PlatformLayout() {
     title = t(PAGE_META[location.pathname].titleKey)
     subtitle = t(PAGE_META[location.pathname].subtitleKey)
   }
-
-  const initials = (user?.fullName || t('platformLayout.fallbackName'))
-    .split(' ')
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join('')
-    .toUpperCase()
 
   return (
     <div className="af-platform">
@@ -138,7 +154,12 @@ function PlatformLayout() {
         </nav>
 
         <div className="af-platform__sidebar-footer">
-          <span className="af-platform__avatar">{initials}</span>
+          <Avatar
+            avatarKey={user?.avatarKey}
+            name={user?.fullName}
+            fallbackName={t('platformLayout.fallbackName')}
+            className="af-platform__avatar"
+          />
           <div className="af-platform__account-text">
             <strong>{user?.fullName || t('platformLayout.fallbackName')}</strong>
             <span>{t('platformLayout.platformOwner')}</span>
@@ -167,10 +188,13 @@ function PlatformLayout() {
           </div>
 
           <div className="af-platform__account">
-            <label className="af-platform__search">
-              <Icon name="search" />
-              <input type="search" placeholder={t('platformLayout.searchPlaceholder')} aria-label={t('shell.search')} />
-            </label>
+            <TopbarSearch
+              className="af-platform__search"
+              icon={<Icon name="search" />}
+              placeholder={t('platformLayout.searchPlaceholder')}
+              pages={searchPages}
+              loadRecords={loadSearchRecords}
+            />
             <button
               type="button"
               className="af-platform__icon-button"

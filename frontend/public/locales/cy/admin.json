@@ -25,7 +25,6 @@
     "title": "{{community}} Dangosfwrdd Fflatiau",
     "titleFallback": "Eich Dangosfwrdd Fflatiau",
     "subtitle": "Crynodeb gweithredol ar gyfer is-fesuryddion cyfleustodau dŵr a defnydd cartrefi.",
-    "comingSoon": "Yn dod yn fuan",
     "manageCommunity": "Rheoli Cymuned",
     "noUsageReadings": "Dim darlleniadau defnydd wedi'u cofnodi eto.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Y mis diweddaraf a gofnodwyd ({{month}})",
       "noReadingsYet": "Dim darlleniadau wedi'u cofnodi eto",
       "pendingAlerts": "Rhybuddion sy'n Arfaethu",
-      "anomalyPreview": "Rhagolwg canfod anomaleddau - ddim ar gael eto"
+      "reviewAlerts": "Rhybuddion gollwng / defnydd gweithredol - adolygu nawr",
+      "noActiveAlerts": "Dim rhybuddion gweithredol"
     },
     "actions": {
       "label": "Camau Gweinyddol Cyflym",
       "uploadReadings": "Uwchlwytho Darlleniadau Mesurydd",
       "configureTariffs": "Ffurfweddu Tariffau",
-      "reportsNotBuilt": "Nid yw adroddiadau wedi'u hadeiladu eto",
       "downloadReports": "Lawrlwythwch Adroddiadau System"
     },
     "chart": {
       "title": "Cymhariaeth Defnydd Misol (kL)",
       "subtitle": "{{months}} misoedd diwethaf: targed yn erbyn defnydd gwirioneddol.",
-      "targetSeries": "Targed (rhagolwg)",
       "actualSeries": "Gwirioneddol"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Methu cadw eich proffil. Ceisiwch eto.",
     "apartmentSaveError": "Ni fu modd arbed manylion y fflat. Ceisiwch eto.",
     "specsTitle": "Manylebau Proffil",
-    "photoUnavailable": "Nid yw uwchlwytho lluniau ar gael eto",
-    "changePhoto": "Newid Llun",
-    "deletePhoto": "Dileu",
-    "photoHint": "JPG neu PNG. Maint mwyaf 2MB.",
     "saveProfile": "Cadw Proffil",
     "apartmentTitle": "Manylion Fflat",
     "saveApartment": "Arbed Manylion Fflat",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Nid yw dilysu dau ffactor ar gael eto",
       "twoFactorAria": "Dilysu dau ffactor (rhagolwg yn unig)",
       "sessionsLabel": "Sesiynau Gweinyddol Gweithredol",
-      "sessionsEmpty": "Nid yw tracio sesiwn ar gael eto - dyma ragolwg o'r cynllun sydd i ddod."
-    }
+      "sessionsEmpty": "Nid yw tracio sesiwn ar gael eto - dyma ragolwg o'r cynllun sydd i ddod.",
+      "previewNote": "Rhagolwg yn unig: nid yw dilysu dau ffactor ac olrhain sesiynau ar gael eto."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Newid Cyfrinair"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Tocynnau Preswylwyr",
       "subtitle": "Tocynnau cymorth a phryderon y mae preswylwyr yn eich cymuned wedi'u cyfeirio atoch."
+    }
+  },
+  "reports": {
+    "loadError": "Methu llwytho'r adroddiad cymunedol. Ceisiwch eto.",
+    "pdfError": "Methu lawrlwytho'r PDF adroddiad. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho adroddiad…",
+    "empty": "Dim cartrefi â data yn yr ystod hon.",
+    "noMatch": "Nid oes unrhyw aelwydydd yn cyfateb i \"{{search}}\".",
+    "searchPlaceholder": "Hidlo yn ôl tŷ, preswylydd, neu rif metr.",
+    "downloadCsv": "Lawrlwytho CSV",
+    "downloadPdf": "Lawrlwythwch PDF Crynodeb",
+    "downloadingPdf": "Wrthi'n paratoi PDF…",
+    "ranges": {
+      "threeMonths": "3 mis diwethaf",
+      "sixMonths": "6 mis diwethaf",
+      "twelveMonths": "12 mis diwethaf",
+      "custom": "Ystod personol"
+    },
+    "customRange": {
+      "from": "Oddiwrth",
+      "to": "I",
+      "hint": "Dewiswch fis dechrau a mis diwedd i lwytho'r adroddiad."
+    },
+    "cards": {
+      "totalConsumption": "Cyfanswm y Defnydd",
+      "households": "Ar draws {{total}} o gartrefi",
+      "avgMonthly": "Avg Treuliad Misol",
+      "communityWide": "Ar draws y gymuned, bob mis",
+      "billed": "Wedi'i filio",
+      "finalizedOnly": "Cylchoedd terfynol ac archif yn unig",
+      "paid": "Talwyd",
+      "invoices": "{{total}} anfonebau wedi'u cyhoeddi",
+      "outstanding": "Eithriadol",
+      "unpaidInvoices": "{{total}} anfonebau heb eu talu",
+      "collectionRate": "Cyfradd Casgliad"
+    },
+    "costs": {
+      "title": "Costau yn erbyn Refeniw",
+      "commonArea": "Taliadau ardal gyffredin yn cael eu bilio",
+      "bulkCost": "Cost prynu dŵr swmp",
+      "bulkVolume": "Swmp dŵr wedi'i brynu",
+      "bulkCount": "{{total}} pryniannau",
+      "billedMinusBulk": "Refeniw bil llai cost swmp",
+      "note": "Mae pryniannau swmp yn cael eu holrhain ar gyfer gwelededd cost ac nid ydynt yn cael eu bilio i aelwydydd yn uniongyrchol."
+    },
+    "top": {
+      "title": "Defnyddwyr Gorau",
+      "empty": "Dim defnydd wedi'i gofnodi yn yr ystod hon."
+    },
+    "charts": {
+      "consumptionTitle": "Treuliad Misol",
+      "consumptionSeries": "Treuliant",
+      "billingTitle": "Biliwyd vs Talwyd vs Cost Swmp",
+      "billedSeries": "Wedi'i filio",
+      "paidSeries": "Talwyd",
+      "bulkSeries": "Cost swmp-brynu",
+      "empty": "Dim data ar gyfer yr ystod hon."
+    },
+    "sort": {
+      "label": "Trefnu yn ôl",
+      "toggleDirection": "Toglo cyfeiriad didoli",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Ty",
+      "resident": "Preswylydd",
+      "meter": "Mesurydd",
+      "totalKl": "Cyfanswm kL",
+      "avgMonthlyKl": "Cyf Misol kL",
+      "billed": "Wedi'i filio",
+      "paid": "Talwyd",
+      "outstanding": "Eithriadol"
+    }
+  },
+  "announcements": {
+    "loadError": "Methu llwytho cyhoeddiadau. Ceisiwch eto.",
+    "removeError": "Methu dileu'r cyhoeddiad hwn. Ceisiwch eto.",
+    "loading": "Wrthi'n llwytho cyhoeddiadau…",
+    "empty": "Dim cyhoeddiadau eto. Cliciwch \"Cyhoeddiad Newydd\" i hysbysu'ch preswylwyr.",
+    "count": "Cyhoeddiadau: {{total}}",
+    "newButton": "+ Cyhoeddiad Newydd",
+    "pinned": "Wedi'i binio",
+    "expired": "Wedi dod i ben",
+    "postedAt": "Wedi'i bostio {{date}}",
+    "updatedAt": "Wedi'i olygu {{date}}",
+    "expiresAt": "Yn dod i ben {{date}}",
+    "category": {
+      "general": "Cyffredinol",
+      "maintenance": "Cynnal a chadw",
+      "waterSupply": "Cyflenwad Dwr",
+      "billing": "Bilio",
+      "urgent": "Brys"
+    },
+    "form": {
+      "addTitle": "Cyhoeddiad Newydd",
+      "editTitle": "Golygu Cyhoeddiad",
+      "addSubtitle": "Mae preswylwyr yn gweld hyn ar eu tudalen Hysbysiadau, ac mae unrhyw un sydd â hysbysiadau gwthio wedi'u galluogi yn cael eu hysbysu ar unwaith.",
+      "editSubtitle": "Mae golygiadau yn diweddaru'r cyhoeddiad sydd ar waith. Nid yw preswylwyr yn cael eu hysbysu eto.",
+      "title": "Teitl",
+      "category": "Categori",
+      "expiresAt": "Yn dod i ben (dewisol)",
+      "body": "Neges",
+      "pinned": "Piniwch i frig cyhoeddiadau trigolion",
+      "requiredFields": "Rhowch deitl a neges.",
+      "saveError": "Methu cadw'r cyhoeddiad hwn. Gwiriwch y manylion.",
+      "publish": "Cyhoeddi"
+    },
+    "confirm": {
+      "title": "Dileu cyhoeddiad?",
+      "body": "Bydd \"{{title}}\" yn cael ei ddileu ar gyfer yr holl drigolion. Ni ellir dadwneud hyn.",
+      "delete": "Dileu",
+      "deleting": "Wrthi'n dileu…"
     }
   }
 }

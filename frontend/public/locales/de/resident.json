@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Kommt bald",
     "welcome": {
       "greeting": "Hallo {{name}},",
       "greetingFallback": "Hallo,",
       "title": "Bleiben Sie nah an der Wassergeschichte Ihres Hauses.",
-      "subtitle": "Nutzungs- und Abrechnungsinformationen werden hier angezeigt, wenn Ihre Community Messwerte aufzeichnet.",
-      "viewBadges": "Öko-Abzeichen ansehen"
+      "subtitle": "Nutzungs- und Abrechnungsinformationen werden hier angezeigt, wenn Ihre Community Messwerte aufzeichnet."
     },
     "stats": {
       "todaysUsage": "Heutige Verwendung",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Gemessene Nutzung + geteilte Gebühren, {{month}}",
       "estimatedBillHint": "Basierend auf dem gemessenen Verbrauch und den geteilten Gebühren dieses Monats",
       "savings": "Einsparungen vs. Gebäudedurchschn",
-      "savingsValue": "{{percent}}% Weniger",
-      "savingsPreview": "Nur Vorschau – Vergleich noch nicht live"
+      "savingsLess": "{{percent}}% Weniger",
+      "savingsMore": "{{percent}}% Mehr",
+      "savingsEqual": "Das Gleiche wie der Durchschnitt",
+      "savingsDetail": "{{household}} kL vs. {{average}} kL Durchschnitt, {{month}}",
+      "savingsNoData": "Noch kein Gebäudevergleich"
     },
     "consumption": {
       "eyebrow": "Verbrauch",
       "title": "Täglicher Verbrauch (letzte 14 Messwerte)",
       "seriesName": "Verbrauch",
       "empty": "Es wurden noch keine Messwerte erfasst."
-    },
-    "breakdown": {
-      "eyebrow": "Abbauen",
-      "title": "Nutzungsaufschlüsselung",
-      "bathroom": "Badezimmer",
-      "kitchen": "Küche",
-      "garden": "Garten/Balkon",
-      "other": "Sonstiges / Wäsche"
     },
     "billing": {
       "eyebrow": "Abrechnung",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Staffelpreisniveau",
       "tierLabel": "Stufe {{tier}}",
       "commonArea": "Aufteilung des Gemeinschaftsbereichs",
-      "commonAreaPreview": "Aufteilung des Gemeinschaftsbereichs (Vorschau)",
       "invoiceTotal": "{{period}} Rechnungssumme",
       "estimatedCharge": "Aktuelle geschätzte Gebühr",
       "commonAreaBreakdown": "Aufschlüsselung der Gemeinschaftsbereiche",
-      "payPreview": "Rechnungsvorschau bezahlen",
-      "payUnavailable": "Abrechnungsmaschine noch nicht verfügbar"
+      "commonAreaEstimate": "Aufteilung der Gemeinschaftsfläche (Schätzung)",
+      "payOutstanding": "Bezahlen Sie ausstehende ₹{{amount}}",
+      "payAllDescription": "Alle unbezahlten Rechnungen ({{number}})"
     },
     "tips": {
       "eyebrow": "Tipps",
@@ -66,8 +59,7 @@
     "empty": "Es wurden noch keine Messwerte erfasst. Sobald Ihre Gemeinde einen Zählerstand erfasst, wird dieser hier angezeigt.",
     "tabs": {
       "lastSixMonths": "Letzte 6 Monate",
-      "customRange": "Benutzerdefinierter Bereich",
-      "comingSoon": "Kommt bald"
+      "customRange": "Benutzerdefinierter Bereich"
     },
     "peakDay": "Spitzentag:",
     "lowestDay": "Niedrigster Tag:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Tägliche Verbrauchs-Heatmap",
-      "subtitle": "Farbintensität kennzeichnet Tage mit starker Nutzung (Vorschau)."
+      "subtitle": "Farbintensität kennzeichnet Tage mit starker Nutzung (Vorschau).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: keine Daten",
+      "less": "Weniger",
+      "more": "Mehr",
+      "noData": "Keine Daten"
     },
     "ranking": {
       "title": "Community-Peer-Ranking",
-      "subtitle": "Ihr Rang im Vergleich zu ähnlichen Einheiten (Vorschau).",
-      "ecoSaver": "Aktiver Öko-Sparer",
-      "aptNumber": "Wohnung {{number}}",
-      "unitNumber": "Einheit {{number}}",
-      "yourUnit": "Ihre Einheit",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Du)"
+      "subtitle": "Ihr Haushalt im Vergleich zu jedem Haushalt in Ihrer Wohnung für {{month}}. Eine geringere Nutzung hat einen höheren Rang.",
+      "headline": "#{{rank}} von {{total}} Haushalten",
+      "percentile": "Sie haben weniger Wasser verbraucht als {{percent}} % Ihrer Nachbarn.",
+      "min": "Am niedrigsten",
+      "median": "Mittlere",
+      "max": "Höchste",
+      "youRow": "#{{rank}} Du",
+      "neighbourRow": "#{{rank}} Nachbar",
+      "privacyNote": "Nachbarn sind anonym. Hausnummern und Namen werden nie angezeigt.",
+      "empty": "Es liegen noch nicht genügend Daten für eine Einstufung Ihres Haushalts vor."
+    },
+    "range": {
+      "from": "Aus",
+      "to": "Zu",
+      "invalid": "Der Startmonat darf nicht nach dem Endmonat liegen.",
+      "noData": "Keine Verbrauchsdaten in diesem Bereich."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Abrechnungszeitraum: {{period}}",
       "allPaid": "Alle Rechnungen sind bezahlt",
       "payTotal": "Bezahlen Sie den gesamten ausstehenden Betrag",
-      "payTotalUnavailable": "Online-Zahlungen sind noch nicht verfügbar. Begleichen Sie Rechnungen direkt mit Ihrem Community-Administrator",
       "downloadSummary": "Laden Sie die Rechnungszusammenfassung herunter",
-      "downloadSummaryUnavailable": "Der Download der Rechnungszusammenfassung ist noch nicht verfügbar"
+      "payAllDescription": "Alle unbezahlten Rechnungen ({{number}})"
     },
     "history": {
       "title": "Rechnungsverlauf",
-      "exportCsv": "Alles exportieren nach CSV",
-      "exportUnavailable": "CSV-Export ist noch nicht verfügbar"
+      "exportCsv": "Alles exportieren nach CSV"
     },
     "table": {
       "cycle": "Zyklus",
@@ -148,6 +151,17 @@
       "description": "Online-Zahlungen sind noch nicht verfügbar – Rechnungen werden direkt mit Ihrem Community-Administrator beglichen.",
       "manage": "Zahlungsmethoden verwalten",
       "manageUnavailable": "Zahlungsmethoden sind noch nicht verfügbar"
+    },
+    "csv": {
+      "cycle": "Abrechnungszeitraum",
+      "consumption": "Verbrauch (kL)",
+      "baseAmount": "Grundbetrag",
+      "tariffAmount": "Tarifbetrag",
+      "commonAreaAmount": "Menge des Gemeinschaftsbereichs",
+      "totalAmount": "Gesamtbetrag",
+      "paid": "Bezahlt",
+      "paidAt": "Bezahlt bei",
+      "generatedAt": "Erstellt am"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Bitte drücken Sie nicht auf „Zurück“ und aktualisieren Sie diese Seite nicht",
     "success": "Zahlung erfolgreich",
     "error": "Bei der Bestätigung Ihrer Zahlung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-    "retry": "Wiederholen"
+    "retry": "Wiederholen",
+    "simulationNotice": "Simulierter Checkout nur zur Demonstration. Es erfolgt keine tatsächliche Zahlung und es wird kein Geld abgebucht."
   },
   "notifications": {
     "loadError": "Ihre Benachrichtigungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push-Benachrichtigungen sind noch nicht konfiguriert. Kontaktieren Sie Ihren Administrator.",
       "enableError": "Push-Benachrichtigungen konnten nicht aktiviert werden. Bitte versuchen Sie es erneut.",
       "disableError": "Push-Benachrichtigungen konnten nicht deaktiviert werden. Bitte versuchen Sie es erneut."
+    },
+    "tabs": {
+      "alerts": "Warnungen",
+      "announcements": "Ankündigungen"
+    },
+    "announcements": {
+      "loadError": "Ankündigungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "loading": "Ankündigungen werden geladen…",
+      "empty": "Im Moment liegen keine Ankündigungen von Ihrem Community-Administrator vor.",
+      "pinned": "Angepinnt",
+      "postedAt": "Gepostet {{date}}",
+      "expiresAt": "Bis {{date}}",
+      "category": {
+        "general": "Allgemein",
+        "maintenance": "Wartung",
+        "waterSupply": "Wasserversorgung",
+        "billing": "Abrechnung",
+        "urgent": "Dringend"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Senden Sie Berichte über Wasserlecks, Anfragen zur Zählerkalibrierung oder Rechnungsanfragen direkt an Ihren Community-Administrator und/oder Systemadministrator.",
     "emptyCreateHint": "Beschreiben Sie unten Ihr Problem oder Anliegen und wählen Sie aus, wer sich darum kümmern soll."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Letzte 3 Monate",
+      "sixMonths": "Letzte 6 Monate",
+      "twelveMonths": "Letzte 12 Monate",
+      "custom": "Benutzerdefinierter Bereich"
+    },
+    "customRange": {
+      "from": "Aus",
+      "to": "Zu",
+      "hint": "Wählen Sie einen Start- und Endmonat aus, um Ihren Bericht anzuzeigen."
+    },
+    "loading": "Ihr Bericht wird geladen…",
+    "loadError": "Ihr Bericht konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "pdfError": "Die Erklärung konnte nicht heruntergeladen werden. Bitte versuchen Sie es erneut.",
+    "downloading": "Herunterladen…",
+    "downloadCsv": "Herunterladen CSV",
+    "downloadStatement": "Erklärung herunterladen PDF",
+    "period": "Berichtszeitraum: {{from}} bis {{to}}",
+    "cards": {
+      "totalUsage": "Gesamtnutzung",
+      "avgMonthly": "Durchschnittliche monatliche Nutzung",
+      "avgMonthlyHint": "Über Monate hinweg mit aufgezeichneten Messwerten",
+      "change": "Änderung im Vergleich zur vorherigen Periode",
+      "changeHint": "{{previous}} in {{from}} bis {{to}}",
+      "changeNoData": "Keine vergleichbare Nutzung im vorherigen Zeitraum",
+      "totalBilled": "Gesamtabrechnung",
+      "totalPaid": "Gesamtbezahlt",
+      "outstanding": "Hervorragend"
+    },
+    "chart": {
+      "title": "Monatliche Nutzung und Abrechnung",
+      "subtitle": "Balken zeigen den Verbrauch (kL); In der Zeile wird der Rechnungsbetrag (£) angezeigt.",
+      "consumption": "Verbrauch",
+      "billed": "In Rechnung gestellt"
+    },
+    "table": {
+      "title": "Aufschlüsselung nach Monaten",
+      "month": "Monat",
+      "consumption": "Verbrauch (kL)",
+      "billed": "In Rechnung gestellt",
+      "paid": "Bezahlt",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Bezahlt",
+      "unpaid": "Unbezahlt",
+      "notBilled": "Nicht in Rechnung gestellt"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Kontodaten",
+    "managedNote": "Ihr Community-Administrator verwaltet diese Details. Kontaktieren Sie sie, wenn sich etwas ändern muss.",
+    "loading": "Ihr Profil wird geladen…",
+    "loadError": "Ihr Profil konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "notSet": "Nicht festgelegt",
+    "flatSizeValue": "{{size}} Quadratfuß",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Kennwort ändern",
+    "fields": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "houseNumber": "Hausnummer",
+      "meterNumber": "Zählernummer",
+      "community": "Gemeinschaft",
+      "flatSize": "Flache Größe",
+      "joined": "Beigetreten"
+    }
   }
 }

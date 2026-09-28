@@ -25,7 +25,6 @@
     "title": "{{community}} Apartamentuaren panela",
     "titleFallback": "Zure apartamentuaren panela",
     "subtitle": "Laburpen operatiboa ur-zerbitzuaren azpineurketa eta etxeko kontsumoa.",
-    "comingSoon": "Laster",
     "manageCommunity": "Kudeatu Komunitatea",
     "noUsageReadings": "Oraindik ez da erabilera-irakurketarik erregistratu.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Grabatutako azken hilabetea ({{month}})",
       "noReadingsYet": "Oraindik ez dago irakurketarik erregistratu",
       "pendingAlerts": "Alertak zain",
-      "anomalyPreview": "Anomaliak hautemateko aurrebista — oraindik ez dago erabilgarri"
+      "reviewAlerts": "Isurketa/erabileraren alerta aktiboak — berrikusi orain",
+      "noActiveAlerts": "Ez dago alerta aktiborik"
     },
     "actions": {
       "label": "Administrazio Ekintza Azkarrak",
       "uploadReadings": "Kontagailuen irakurketak igo",
       "configureTariffs": "Konfiguratu Tarifak",
-      "reportsNotBuilt": "Txostenak oraindik ez dira sortu",
       "downloadReports": "Deskargatu sistemaren txostenak"
     },
     "chart": {
       "title": "Hileko kontsumoaren konparaketa (kL)",
       "subtitle": "Azken {{months}} hilabeteak: helburua eta benetako kontsumoa.",
-      "targetSeries": "Helburua (aurrebista)",
       "actualSeries": "Benetakoa"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Ezin izan da zure profila gorde. Mesedez, saiatu berriro.",
     "apartmentSaveError": "Ezin izan dira gorde apartamentuaren xehetasunak. Mesedez, saiatu berriro.",
     "specsTitle": "Profilaren zehaztapenak",
-    "photoUnavailable": "Argazkiak kargatzea ez dago erabilgarri oraindik",
-    "changePhoto": "Aldatu argazkia",
-    "deletePhoto": "Ezabatu",
-    "photoHint": "JPG edo PNG. Gehienezko tamaina 2 MB.",
     "saveProfile": "Gorde profila",
     "apartmentTitle": "Apartamentuaren xehetasunak",
     "saveApartment": "Gorde apartamentuaren xehetasunak",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Bi faktoreko autentifikazioa ez dago oraindik erabilgarri",
       "twoFactorAria": "Bi faktoreko autentifikazioa (aurrebista soilik)",
       "sessionsLabel": "Admin Saio Aktiboak",
-      "sessionsEmpty": "Saioen jarraipena oraindik ez dago erabilgarri — hurrengo diseinuaren aurrebista da hau."
-    }
+      "sessionsEmpty": "Saioen jarraipena oraindik ez dago erabilgarri — hurrengo diseinuaren aurrebista da hau.",
+      "previewNote": "Aurrebista soilik: bi faktoreko autentifikazioa eta saioaren jarraipena ez daude eskuragarri oraindik."
+    },
+    "avatarLabel": "Avatarra",
+    "passwordTitle": "Aldatu pasahitza"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Egoiliarren txartelak",
       "subtitle": "Zure komunitateko bizilagunek zuri zuzendutako laguntza-txartelak eta kezkak."
+    }
+  },
+  "reports": {
+    "loadError": "Ezin izan da komunitatearen txostena kargatu. Mesedez, saiatu berriro.",
+    "pdfError": "Ezin izan da PDF txostena deskargatu. Mesedez, saiatu berriro.",
+    "loading": "Txostena kargatzen…",
+    "empty": "Ez dago tarte horretako datuak dituen etxerik.",
+    "noMatch": "Ez dago \"{{search}}\" bat datorren etxerik.",
+    "searchPlaceholder": "Iragazi etxearen, bizilagunaren edo neurgailuaren arabera.",
+    "downloadCsv": "Deskargatu CSV",
+    "downloadPdf": "Deskargatu PDF Laburpena",
+    "downloadingPdf": "PDF prestatzen…",
+    "ranges": {
+      "threeMonths": "Azken 3 hilabeteak",
+      "sixMonths": "Azken 6 hilabeteak",
+      "twelveMonths": "Azken 12 hilabeteak",
+      "custom": "Barruti pertsonalizatua"
+    },
+    "customRange": {
+      "from": "Bertatik",
+      "to": "To",
+      "hint": "Hautatu hasierako eta amaierako hilabete bat txostena kargatzeko."
+    },
+    "cards": {
+      "totalConsumption": "Kontsumo osoa",
+      "households": "{{total}} etxeetan",
+      "avgMonthly": "Batez besteko hileroko kontsumoa",
+      "communityWide": "Komunitate osoan, hilean",
+      "billed": "Fakturatua",
+      "finalizedOnly": "Amaitutako eta artxibatutako zikloak soilik",
+      "paid": "Ordaindua",
+      "invoices": "{{total}} faktura igorri dira",
+      "outstanding": "Nabarmena",
+      "unpaidInvoices": "Ordaindu gabeko {{total}} faktura",
+      "collectionRate": "Bilketa-tasa"
+    },
+    "costs": {
+      "title": "Kostuak vs diru-sarrerak",
+      "commonArea": "Fakturatutako eremu komuneko kargak",
+      "bulkCost": "Ura ontziratuta erosteko kostua",
+      "bulkVolume": "Erositako ura soltean",
+      "bulkCount": "{{total}} erosketa",
+      "billedMinusBulk": "Fakturatutako diru-sarrerak ken kostu masiboa",
+      "note": "Masakako erosketen jarraipena egiten da kostuen ikusgarritasuna lortzeko eta ez zaizkie zuzenean etxeei fakturatzen."
+    },
+    "top": {
+      "title": "Kontsumitzaile nagusiak",
+      "empty": "Ez da kontsumorik erregistratu tarte honetan."
+    },
+    "charts": {
+      "consumptionTitle": "Hileko Kontsumoa",
+      "consumptionSeries": "Kontsumoa",
+      "billingTitle": "Fakturatua vs. Ordaindua vs. Masa handiko kostua",
+      "billedSeries": "Fakturatua",
+      "paidSeries": "Ordaindua",
+      "bulkSeries": "Masakako erosketa kostua",
+      "empty": "Ez dago barruti honetarako daturik."
+    },
+    "sort": {
+      "label": "Ordenatu",
+      "toggleDirection": "Aldatu ordenatzeko norabidea",
+      "asc": "↑ Asc",
+      "desc": "↓ Desk"
+    },
+    "table": {
+      "house": "Etxea",
+      "resident": "Egoiliarra",
+      "meter": "Metroa",
+      "totalKl": "Guztira kL",
+      "avgMonthlyKl": "Batez besteko hilero kL",
+      "billed": "Fakturatua",
+      "paid": "Ordaindua",
+      "outstanding": "Nabarmena"
+    }
+  },
+  "announcements": {
+    "loadError": "Ezin izan dira iragarkiak kargatu. Mesedez, saiatu berriro.",
+    "removeError": "Ezin izan da iragarkia ezabatu. Mesedez, saiatu berriro.",
+    "loading": "Iragarkiak kargatzen…",
+    "empty": "Oraindik ez dago iragarkirik. Egin klik \"Deialdi berria\" zure bizilagunei jakinarazteko.",
+    "count": "Iragarkiak: {{total}}",
+    "newButton": "+ Iragarki berria",
+    "pinned": "Ainguratuta",
+    "expired": "Iraungi egin da",
+    "postedAt": "{{date}} argitaratua",
+    "updatedAt": "Editatua {{date}}",
+    "expiresAt": "Iraungitze-data: {{date}}",
+    "category": {
+      "general": "Orokorra",
+      "maintenance": "Mantentzea",
+      "waterSupply": "Ur Hornidura",
+      "billing": "Fakturazioa",
+      "urgent": "Premiazkoa"
+    },
+    "form": {
+      "addTitle": "Iragarki berria",
+      "editTitle": "Editatu iragarkia",
+      "addSubtitle": "Bizilagunek jakinarazpenen orrian ikusten dute hori, eta push jakinarazpenak gaituta dituen edonori berehala jakinarazten zaio.",
+      "editSubtitle": "Aldaketek iragarkia eguneratzen dute. Bizilagunei ez zaie berriro jakinarazi.",
+      "title": "Izenburua",
+      "category": "Kategoria",
+      "expiresAt": "Iraungitzen da (aukerakoa)",
+      "body": "Mezua",
+      "pinned": "Ainguratu bizilagunen iragarkien goialdean",
+      "requiredFields": "Mesedez, idatzi izenburu bat eta mezu bat.",
+      "saveError": "Ezin izan da iragarkia gorde. Mesedez, egiaztatu xehetasunak.",
+      "publish": "Argitaratu"
+    },
+    "confirm": {
+      "title": "Iragarkia ezabatu?",
+      "body": "\"{{title}}\" kenduko da bizilagun guztientzat. Hau ezin da desegin.",
+      "delete": "Ezabatu",
+      "deleting": "Ezabatzen…"
     }
   }
 }

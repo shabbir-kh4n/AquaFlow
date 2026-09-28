@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Ondersteuningstickets",
     "subtitle": "Ondersteun tickets en zorgen van bewoners en gemeenschapsbeheerders, platformbreed."
+  },
+  "profile": {
+    "accountTitle": "Rekening",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Wachtwoord wijzigen",
+    "loadError": "Kan uw profiel niet laden. Probeer het opnieuw.",
+    "fields": {
+      "fullName": "Volledige naam",
+      "email": "E-mail",
+      "role": "Rol",
+      "roleValue": "Systeembeheerder"
+    }
   }
 }

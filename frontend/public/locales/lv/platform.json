@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Atbalsta biļetes",
     "subtitle": "Atbalstiet biļetes un iedzīvotāju un kopienas administratoru bažas visā platformā."
+  },
+  "profile": {
+    "accountTitle": "Konts",
+    "avatarTitle": "Iemiesojums",
+    "passwordTitle": "Mainiet paroli",
+    "loadError": "Nevarēja ielādēt jūsu profilu. Lūdzu, mēģiniet vēlreiz.",
+    "fields": {
+      "fullName": "Pilns vārds",
+      "email": "E-pasts",
+      "role": "Loma",
+      "roleValue": "Sistēmas administrators"
+    }
   }
 }

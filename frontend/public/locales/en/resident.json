@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Coming soon",
     "welcome": {
       "greeting": "Hello {{name}},",
       "greetingFallback": "Hello there,",
       "title": "Stay close to your home's water story.",
-      "subtitle": "Usage and billing insights will appear here as your community records readings.",
-      "viewBadges": "View Eco-Badges"
+      "subtitle": "Usage and billing insights will appear here as your community records readings."
     },
     "stats": {
       "todaysUsage": "Today's Usage",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Metered usage + shared charges, {{month}}",
       "estimatedBillHint": "Based on this month’s metered consumption and shared charges",
       "savings": "Savings vs Building Avg",
-      "savingsValue": "{{percent}}% Less",
-      "savingsPreview": "Preview only — comparison not yet live"
+      "savingsLess": "{{percent}}% Less",
+      "savingsMore": "{{percent}}% More",
+      "savingsEqual": "Same as average",
+      "savingsDetail": "{{household}} kL vs {{average}} kL average, {{month}}",
+      "savingsNoData": "No building comparison yet"
     },
     "consumption": {
       "eyebrow": "Consumption",
       "title": "Daily Consumption (Last 14 Readings)",
       "seriesName": "Consumption",
       "empty": "No readings recorded yet."
-    },
-    "breakdown": {
-      "eyebrow": "Breakdown",
-      "title": "Usage Breakdown",
-      "bathroom": "Bathroom",
-      "kitchen": "Kitchen",
-      "garden": "Garden / Balcony",
-      "other": "Other / Laundry"
     },
     "billing": {
       "eyebrow": "Billing",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Tier price level",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Common area apportionment",
-      "commonAreaPreview": "Common area apportionment (preview)",
       "invoiceTotal": "{{period}} invoice total",
       "estimatedCharge": "Current estimated charge",
       "commonAreaBreakdown": "Common area breakdown",
-      "payPreview": "Pay Bill Preview",
-      "payUnavailable": "Billing engine not yet available"
+      "commonAreaEstimate": "Common area apportionment (estimate)",
+      "payOutstanding": "Pay Outstanding ₹{{amount}}",
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "tips": {
       "eyebrow": "Tips",
@@ -66,8 +59,7 @@
     "empty": "No readings recorded yet. Once your community records a meter reading, it will show up here.",
     "tabs": {
       "lastSixMonths": "Last 6 Months",
-      "customRange": "Custom Range",
-      "comingSoon": "Coming soon"
+      "customRange": "Custom Range"
     },
     "peakDay": "Peak Day:",
     "lowestDay": "Lowest Day:",
@@ -79,19 +71,32 @@
       "similarSized": "Similar-Sized Homes"
     },
     "heatmap": {
-      "title": "Daily Consumption Heatmap",
-      "subtitle": "Color intensity flags heavy usage days (preview)."
+      "title": "Monthly Consumption Heatmap",
+      "subtitle": "Your household's usage over the last 12 months. Darker means more water used.",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: no data",
+      "less": "Less",
+      "more": "More",
+      "noData": "No data"
     },
     "ranking": {
       "title": "Community Peer Ranking",
-      "subtitle": "Your rank compared to similar units (preview).",
-      "ecoSaver": "Active Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unit {{number}}",
-      "yourUnit": "Your unit",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (You)"
+      "subtitle": "Your household vs every household in your apartment for {{month}}. Lower usage ranks higher.",
+      "headline": "#{{rank}} of {{total}} households",
+      "percentile": "You used less water than {{percent}}% of your neighbours.",
+      "min": "Lowest",
+      "median": "Median",
+      "max": "Highest",
+      "youRow": "#{{rank}} You",
+      "neighbourRow": "#{{rank}} Neighbour",
+      "privacyNote": "Neighbours are anonymous. House numbers and names are never shown.",
+      "empty": "Not enough data yet to rank your household."
+    },
+    "range": {
+      "from": "From",
+      "to": "To",
+      "invalid": "The start month must not be after the end month.",
+      "noData": "No consumption data in this range."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Billing Cycle: {{period}}",
       "allPaid": "All invoices are paid",
       "payTotal": "Pay Total Outstanding",
-      "payTotalUnavailable": "Online payment isn't available yet — settle bills with your community admin directly",
       "downloadSummary": "Download Bill Summary",
-      "downloadSummaryUnavailable": "Bill summary download isn't available yet"
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "history": {
       "title": "Invoice History",
-      "exportCsv": "Export All to CSV",
-      "exportUnavailable": "CSV export isn't available yet"
+      "exportCsv": "Export All to CSV"
     },
     "table": {
       "cycle": "Cycle",
@@ -148,6 +151,17 @@
       "description": "Online payment isn't available yet — bills are settled with your community admin directly.",
       "manage": "Manage Payment Methods",
       "manageUnavailable": "Payment methods aren't available yet"
+    },
+    "csv": {
+      "cycle": "Billing period",
+      "consumption": "Consumption (kL)",
+      "baseAmount": "Base amount",
+      "tariffAmount": "Tariff amount",
+      "commonAreaAmount": "Common area amount",
+      "totalAmount": "Total amount",
+      "paid": "Paid",
+      "paidAt": "Paid at",
+      "generatedAt": "Generated at"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Please do not press back or refresh this page",
     "success": "Payment Successful",
     "error": "Something went wrong confirming your payment. Please try again.",
-    "retry": "Retry"
+    "retry": "Retry",
+    "simulationNotice": "Simulated checkout for demonstration only. No real payment is made and no money is charged."
   },
   "notifications": {
     "loadError": "Could not load your notifications. Please try again.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push notifications are not configured yet. Contact your admin.",
       "enableError": "Could not enable push notifications. Please try again.",
       "disableError": "Could not disable push notifications. Please try again."
+    },
+    "tabs": {
+      "alerts": "Alerts",
+      "announcements": "Announcements"
+    },
+    "announcements": {
+      "loadError": "Could not load announcements. Please try again.",
+      "loading": "Loading announcements…",
+      "empty": "No announcements from your community admin right now.",
+      "pinned": "Pinned",
+      "postedAt": "Posted {{date}}",
+      "expiresAt": "Until {{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "Maintenance",
+        "waterSupply": "Water Supply",
+        "billing": "Billing",
+        "urgent": "Urgent"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Submit water leakage reports, meter calibration requests, or billing inquiries directly to your community admin and/or System Admin.",
     "emptyCreateHint": "Describe your issue or concern below, and choose who should handle it."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Last 3 Months",
+      "sixMonths": "Last 6 Months",
+      "twelveMonths": "Last 12 Months",
+      "custom": "Custom Range"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "To",
+      "hint": "Pick a start and end month to see your report."
+    },
+    "loading": "Loading your report…",
+    "loadError": "Could not load your report. Please try again.",
+    "pdfError": "Could not download the statement. Please try again.",
+    "downloading": "Downloading…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "Download Statement PDF",
+    "period": "Report period: {{from}} to {{to}}",
+    "cards": {
+      "totalUsage": "Total Usage",
+      "avgMonthly": "Average Monthly Usage",
+      "avgMonthlyHint": "Across months with recorded readings",
+      "change": "Change vs Previous Period",
+      "changeHint": "{{previous}} in {{from}} to {{to}}",
+      "changeNoData": "No usage in the previous period to compare",
+      "totalBilled": "Total Billed",
+      "totalPaid": "Total Paid",
+      "outstanding": "Outstanding"
+    },
+    "chart": {
+      "title": "Monthly Usage and Billing",
+      "subtitle": "Bars show consumption (kL); the line shows the billed amount (₹).",
+      "consumption": "Consumption",
+      "billed": "Billed"
+    },
+    "table": {
+      "title": "Month-by-Month Breakdown",
+      "month": "Month",
+      "consumption": "Consumption (kL)",
+      "billed": "Billed",
+      "paid": "Paid",
+      "status": "Status"
+    },
+    "status": {
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "notBilled": "Not billed"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Account details",
+    "managedNote": "Your community admin manages these details. Contact them if anything needs to change.",
+    "loading": "Loading your profile…",
+    "loadError": "Could not load your profile. Please try again.",
+    "notSet": "Not set",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Change password",
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "houseNumber": "House number",
+      "meterNumber": "Meter number",
+      "community": "Community",
+      "flatSize": "Flat size",
+      "joined": "Joined"
+    }
   }
 }

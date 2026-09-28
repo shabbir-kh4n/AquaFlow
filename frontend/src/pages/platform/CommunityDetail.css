@@ -101,9 +101,22 @@
 
 .af-cd__admin-block {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12.5px;
+}
+
+.af-cd__admin-avatar {
+  width: 38px;
+  height: 38px;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.af-cd__admin-block-text {
+  display: flex;
   flex-direction: column;
   gap: 2px;
-  font-size: 12.5px;
 }
 
 .af-cd__admin-block strong {
@@ -226,6 +239,17 @@
   padding: 14px 20px;
   border-bottom: 1px solid var(--af-border-subtle);
   color: var(--af-text-dark);
+}
+
+.af-cd__avatar-col {
+  width: 1%;
+  padding-right: 0 !important;
+}
+
+.af-cd__avatar {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
 }
 
 .af-cd__table tr:last-child td {

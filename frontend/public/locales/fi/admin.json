@@ -25,7 +25,6 @@
     "title": "{{community}} Asunnon kojelauta",
     "titleFallback": "Asuntosi kojelauta",
     "subtitle": "Toiminnallinen yhteenveto vesilaitoksen osamittauksesta ja kotitalouksien kulutuksesta.",
-    "comingSoon": "Tulossa pian",
     "manageCommunity": "Hallinnoi yhteisöä",
     "noUsageReadings": "Käyttölukemia ei ole vielä tallennettu.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Viimeisin tallennettu kuukausi ({{month}})",
       "noReadingsYet": "Mitään lukemia ei ole vielä tallennettu",
       "pendingAlerts": "Odottavat hälytykset",
-      "anomalyPreview": "Poikkeamien havaitsemisen esikatselu – ei vielä saatavilla"
+      "reviewAlerts": "Aktiiviset vuoto-/käyttöhälytykset – tarkista nyt",
+      "noActiveAlerts": "Ei aktiivisia hälytyksiä"
     },
     "actions": {
       "label": "Nopeat hallinnolliset toimet",
       "uploadReadings": "Lataa mittarilukemat",
       "configureTariffs": "Määritä tariffit",
-      "reportsNotBuilt": "Raportteja ei ole vielä rakennettu",
       "downloadReports": "Lataa järjestelmäraportit"
     },
     "chart": {
       "title": "Kuukausittaisen kulutuksen vertailu (kL)",
       "subtitle": "Viimeiset {{months}} kuukautta: tavoite vs. todellinen kulutus.",
-      "targetSeries": "Kohde (esikatselu)",
       "actualSeries": "Todellinen"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profiiliasi ei voitu tallentaa. Yritä uudelleen.",
     "apartmentSaveError": "Asunnon tietoja ei voitu tallentaa. Yritä uudelleen.",
     "specsTitle": "Profiilin tiedot",
-    "photoUnavailable": "Valokuvien lataus ei ole vielä saatavilla",
-    "changePhoto": "Vaihda valokuva",
-    "deletePhoto": "Poistaa",
-    "photoHint": "JPG tai PNG. Max koko 2MB.",
     "saveProfile": "Tallenna profiili",
     "apartmentTitle": "Huoneiston tiedot",
     "saveApartment": "Tallenna asunnon tiedot",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Kaksivaiheista todennusta ei ole vielä saatavilla",
       "twoFactorAria": "Kaksivaiheinen todennus (vain esikatselu)",
       "sessionsLabel": "Aktiiviset järjestelmänvalvojan istunnot",
-      "sessionsEmpty": "Istuntoseuranta ei ole vielä käytettävissä – tämä on esikatselu tulevasta asettelusta."
-    }
+      "sessionsEmpty": "Istuntoseuranta ei ole vielä käytettävissä – tämä on esikatselu tulevasta asettelusta.",
+      "previewNote": "Vain esikatselu: kaksivaiheinen todennus ja istunnon seuranta eivät ole vielä saatavilla."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Vaihda salasana"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Asukasliput",
       "subtitle": "Yhteisösi asukkaat ovat osoittaneet sinulle tukiliput ja huolenaiheet."
+    }
+  },
+  "reports": {
+    "loadError": "Yhteisöraporttia ei voitu ladata. Yritä uudelleen.",
+    "pdfError": "Raporttia PDF ei voitu ladata. Yritä uudelleen.",
+    "loading": "Ladataan raporttia…",
+    "empty": "Ei kotitalouksia, joiden data on tällä alueella.",
+    "noMatch": "Yksikään kotitalous ei vastaa arvoa {{search}}.",
+    "searchPlaceholder": "Suodata talon, asukkaan tai mittarin numeron mukaan.",
+    "downloadCsv": "Lataa CSV",
+    "downloadPdf": "Lataa PDF yhteenveto",
+    "downloadingPdf": "Valmistellaan PDF…",
+    "ranges": {
+      "threeMonths": "Viimeiset 3 kuukautta",
+      "sixMonths": "Viimeiset 6 kuukautta",
+      "twelveMonths": "Viimeiset 12 kuukautta",
+      "custom": "Mukautettu valikoima"
+    },
+    "customRange": {
+      "from": "From",
+      "to": "Vastaanottaja",
+      "hint": "Valitse sekä aloitus- että loppukuukausi raportin lataamiseksi."
+    },
+    "cards": {
+      "totalConsumption": "Kokonaiskulutus",
+      "households": "{{total}} kotitaloudessa",
+      "avgMonthly": "Keskimääräinen kuukausikulutus",
+      "communityWide": "Koko yhteisössä kuukaudessa",
+      "billed": "Laskutettu",
+      "finalizedOnly": "Vain viimeistellyt ja arkistoidut jaksot",
+      "paid": "Maksettu",
+      "invoices": "{{total}} laskuja lähetetty",
+      "outstanding": "Erinomaista",
+      "unpaidInvoices": "{{total}} maksamattomia laskuja",
+      "collectionRate": "Keräysprosentti"
+    },
+    "costs": {
+      "title": "Kustannukset vs. tulot",
+      "commonArea": "Yhteistilamaksut laskutetaan",
+      "bulkCost": "Veden hankintahinta",
+      "bulkVolume": "Vettä ostettu",
+      "bulkCount": "{{total}} ostosta",
+      "billedMinusBulk": "Laskutetut tulot miinus joukkokulut",
+      "note": "Joukkoostoista seurataan kustannusten näkyvyyttä, eikä niitä laskuteta suoraan kotitalouksilta."
+    },
+    "top": {
+      "title": "Huippukuluttajat",
+      "empty": "Kulutusta ei ole kirjattu tällä alueella."
+    },
+    "charts": {
+      "consumptionTitle": "Kuukausittainen kulutus",
+      "consumptionSeries": "Kulutus",
+      "billingTitle": "Laskutettu vs. maksettu vs. joukkokulut",
+      "billedSeries": "Laskutettu",
+      "paidSeries": "Maksettu",
+      "bulkSeries": "Suurin ostohinta",
+      "empty": "Ei tietoja tälle alueelle."
+    },
+    "sort": {
+      "label": "Lajitteluperuste",
+      "toggleDirection": "Vaihda lajittelusuuntaa",
+      "asc": "↑ Asc",
+      "desc": "↓ Kuvaus"
+    },
+    "table": {
+      "house": "Talo",
+      "resident": "Asukas",
+      "meter": "Mittari",
+      "totalKl": "Yhteensä kL",
+      "avgMonthlyKl": "Keskim. kuukausi kL",
+      "billed": "Laskutettu",
+      "paid": "Maksettu",
+      "outstanding": "Erinomaista"
+    }
+  },
+  "announcements": {
+    "loadError": "Ilmoituksia ei voitu ladata. Yritä uudelleen.",
+    "removeError": "Tätä ilmoitusta ei voitu poistaa. Yritä uudelleen.",
+    "loading": "Ladataan ilmoituksia…",
+    "empty": "Ei vielä ilmoituksia. Napsauta \"Uusi ilmoitus\" ilmoittaaksesi asukkaille.",
+    "count": "Ilmoitukset: {{total}}",
+    "newButton": "+ Uusi ilmoitus",
+    "pinned": "Kiinnitetty",
+    "expired": "Vanhentunut",
+    "postedAt": "Lähetetty {{date}}",
+    "updatedAt": "Muokattu {{date}}",
+    "expiresAt": "Vanhenee {{date}}",
+    "category": {
+      "general": "Kenraali",
+      "maintenance": "Huolto",
+      "waterSupply": "Vesihuolto",
+      "billing": "Laskutus",
+      "urgent": "Kiireellinen"
+    },
+    "form": {
+      "addTitle": "Uusi ilmoitus",
+      "editTitle": "Muokkaa ilmoitusta",
+      "addSubtitle": "Asukkaat näkevät tämän Ilmoitukset-sivullaan, ja kaikille, joilla on push-ilmoitukset käytössä, ilmoitetaan heti.",
+      "editSubtitle": "Muokkaukset päivittävät ilmoituksen paikalleen. Asukkaille ei ilmoiteta uudelleen.",
+      "title": "Otsikko",
+      "category": "Luokka",
+      "expiresAt": "Vanhenee (valinnainen)",
+      "body": "Viesti",
+      "pinned": "Kiinnitä asukkaiden ilmoitusten yläosaan",
+      "requiredFields": "Anna otsikko ja viesti.",
+      "saveError": "Tätä ilmoitusta ei voitu tallentaa. Tarkista tiedot.",
+      "publish": "Julkaista"
+    },
+    "confirm": {
+      "title": "Poistetaanko ilmoitus?",
+      "body": "\"{{title}}\" poistetaan kaikilta asukkailta. Tätä ei voi kumota.",
+      "delete": "Poistaa",
+      "deleting": "Poistetaan…"
     }
   }
 }

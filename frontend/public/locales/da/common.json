@@ -222,6 +222,14 @@
         "title": "Support / Bekymringer",
         "subtitle": "Indhent dine egne billetter til systemadministratoren, eller håndter bekymringer, som dine beboere har rettet til dig."
       },
+      "reports": {
+        "title": "Samfundsrapporter",
+        "subtitle": "Tal for forbrug, fakturering, indsamling og massekøb for dit samfund."
+      },
+      "announcements": {
+        "title": "Meddelelser",
+        "subtitle": "Udgiv meddelelser i hele samfundet til dine beboere."
+      },
       "profile": {
         "title": "Indstillinger og profil",
         "subtitle": "Administrer dine kontooplysninger og lejlighedsoplysninger."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Fællesskabsadministrator",
     "notBuilt": "{{label}} er ikke bygget endnu",
     "searchPlaceholder": "Søg hvad som helst..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporter",
-      "description": "Forbrugs-, fakturerings- og bevaringsrapporter for dit samfund."
-    },
-    "announcements": {
-      "title": "Meddelelser",
-      "description": "Send meddelelser i hele samfundet til dine beboere."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kommer snart"
@@ -261,7 +259,9 @@
       "billing": "Fakturering & Fakturaer",
       "notifications": "Meddelelser",
       "recommendations": "Anbefalinger",
-      "support": "Support / Bekymringer"
+      "support": "Support / Bekymringer",
+      "reports": "Dine forbrugs- og forbrugsrapporter",
+      "profile": "Min profil"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Beboer navigation",
@@ -277,7 +277,8 @@
       "communities": "Fællesskaber",
       "reports": "Rapporter",
       "supportTickets": "Support billetter",
-      "systemStatus": "Systemstatus"
+      "systemStatus": "Systemstatus",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Systemstatus",
         "subtitle": "Backend-forbindelse og grundlæggende runtime-sundhed."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Din konto, avatar og adgangskode"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Sprog: {{language}}",
     "searchPlaceholder": "Søg efter sprog...",
     "noMatches": "Ingen kampe"
+  },
+  "avatarPicker": {
+    "label": "Vælg en avatar",
+    "hint": "Vælg en af ​​de forudindstillede avatarer, eller brug dine initialer.",
+    "change": "Forandring",
+    "cancel": "Ophæve",
+    "useInitials": "Brug initialer",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Gem avatar",
+    "saving": "Gemmer...",
+    "saved": "Avatar opdateret",
+    "saveError": "Kunne ikke opdatere din avatar. Prøv venligst igen."
+  },
+  "changePassword": {
+    "current": "Nuværende adgangskode",
+    "new": "Ny adgangskode",
+    "confirm": "Bekræft ny adgangskode",
+    "hint": "Mindst {{min}} tegn.",
+    "tooShort": "Ny adgangskode skal være på mindst {{min}} tegn.",
+    "mismatch": "De nye adgangskoder stemmer ikke overens.",
+    "sameAsCurrent": "Ny adgangskode skal være forskellig fra din nuværende adgangskode.",
+    "submit": "Opdater adgangskode",
+    "saving": "Opdaterer...",
+    "success": "Din adgangskode er blevet opdateret.",
+    "error": "Kunne ikke opdatere din adgangskode. Prøv venligst igen."
+  },
+  "search": {
+    "kindPage": "Side",
+    "kindRecord": "Resultat",
+    "loading": "Søger...",
+    "noResults": "Ingen kampe",
+    "recordsUnavailable": "Kun sider kunne søges lige nu.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Betalt",
+    "unpaid": "Ubetalt"
   }
 }

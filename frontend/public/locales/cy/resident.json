@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Yn dod yn fuan",
     "welcome": {
       "greeting": "Helo {{name}},",
       "greetingFallback": "Helo yno,",
       "title": "Arhoswch yn agos at stori dŵr eich cartref.",
-      "subtitle": "Bydd mewnwelediadau defnydd a bilio yn ymddangos yma wrth i'ch cymuned gofnodi darlleniadau.",
-      "viewBadges": "Gweld Eco-Fathodynnau"
+      "subtitle": "Bydd mewnwelediadau defnydd a bilio yn ymddangos yma wrth i'ch cymuned gofnodi darlleniadau."
     },
     "stats": {
       "todaysUsage": "Defnydd Heddiw",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Defnydd mesuredig + taliadau a rennir, {{month}}",
       "estimatedBillHint": "Yn seiliedig ar ddefnydd mesuredig y mis hwn a thaliadau a rennir",
       "savings": "Arbedion vs Adeiladu Cyf",
-      "savingsValue": "{{percent}} % Llai",
-      "savingsPreview": "Rhagolwg yn unig - cymhariaeth ddim yn fyw eto"
+      "savingsLess": "{{percent}} % Llai",
+      "savingsMore": "{{percent}} % Mwy",
+      "savingsEqual": "Yr un fath â'r cyfartaledd",
+      "savingsDetail": "{{household}} kL vs {{average}} kL cyfartaledd, {{month}}",
+      "savingsNoData": "Dim cymhariaeth adeiladu eto"
     },
     "consumption": {
       "eyebrow": "Treuliant",
       "title": "Defnydd Dyddiol (14 Darlleniad Diwethaf)",
       "seriesName": "Treuliant",
       "empty": "Dim darlleniadau wedi'u cofnodi eto."
-    },
-    "breakdown": {
-      "eyebrow": "Chwalfa",
-      "title": "Dadansoddiad Defnydd",
-      "bathroom": "Ystafell ymolchi",
-      "kitchen": "Cegin",
-      "garden": "Gardd / Balconi",
-      "other": "Arall / Golchdy"
     },
     "billing": {
       "eyebrow": "Bilio",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Haen lefel pris",
       "tierLabel": "Haen {{tier}}",
       "commonArea": "Dosraniad ardal gyffredin",
-      "commonAreaPreview": "Dosraniad ardal gyffredin (rhagolwg)",
       "invoiceTotal": "{{period}} cyfanswm yr anfoneb",
       "estimatedCharge": "Tâl amcangyfrifedig cyfredol",
       "commonAreaBreakdown": "Dadansoddiad ardal gyffredin",
-      "payPreview": "Rhagolwg Bil Tâl",
-      "payUnavailable": "Peiriant bilio ddim ar gael eto"
+      "commonAreaEstimate": "Dosraniad ardal gyffredin (amcangyfrif)",
+      "payOutstanding": "Talu heb ei dalu ₹{{amount}}",
+      "payAllDescription": "Pob bil heb ei dalu ({{number}})"
     },
     "tips": {
       "eyebrow": "Cynghorion",
@@ -66,8 +59,7 @@
     "empty": "Dim darlleniadau wedi'u cofnodi eto. Unwaith y bydd eich cymuned yn cofnodi darlleniad mesurydd, bydd yn ymddangos yma.",
     "tabs": {
       "lastSixMonths": "6 Mis diwethaf",
-      "customRange": "Ystod Custom",
-      "comingSoon": "Yn dod yn fuan"
+      "customRange": "Ystod Custom"
     },
     "peakDay": "Diwrnod Brig:",
     "lowestDay": "Diwrnod Isaf:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Map Gwres Defnydd Dyddiol",
-      "subtitle": "Mae dwyster lliw yn amlygu diwrnodau defnydd trwm (rhagolwg)."
+      "subtitle": "Mae dwyster lliw yn amlygu diwrnodau defnydd trwm (rhagolwg).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: dim data",
+      "less": "Llai",
+      "more": "Mwy",
+      "noData": "Dim data"
     },
     "ranking": {
       "title": "Safle Cymheiriaid Cymunedol",
-      "subtitle": "Eich rheng o gymharu ag unedau tebyg (rhagolwg).",
-      "ecoSaver": "Arbedwr Eco Actif",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Uned {{number}}",
-      "yourUnit": "Eich uned",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}}{{unit}} (Chi)"
+      "subtitle": "Eich cartref yn erbyn pob cartref yn eich fflat ar gyfer {{month}}. Mae defnydd is yn graddio'n uwch.",
+      "headline": "#{{rank}} o {{total}} o aelwydydd",
+      "percentile": "Fe wnaethoch chi ddefnyddio llai o ddŵr na {{percent}}% o'ch cymdogion.",
+      "min": "Isaf",
+      "median": "Canolrif",
+      "max": "Uchaf",
+      "youRow": "#{{rank}} Chi",
+      "neighbourRow": "#{{rank}} Cymydog",
+      "privacyNote": "Mae cymdogion yn ddienw. Nid yw rhifau ac enwau tai byth yn cael eu dangos.",
+      "empty": "Dim digon o ddata eto i raddio eich cartref."
+    },
+    "range": {
+      "from": "Oddiwrth",
+      "to": "I",
+      "invalid": "Ni ddylai'r mis cychwyn fod ar ôl y mis diwedd.",
+      "noData": "Dim data defnydd yn yr ystod hon."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Cylch Bilio: {{period}}",
       "allPaid": "Telir pob anfoneb",
       "payTotal": "Cyfanswm Talu heb ei dalu",
-      "payTotalUnavailable": "Nid yw taliad ar-lein ar gael eto - talwch eich biliau'n uniongyrchol gyda'ch gweinyddwr cymunedol",
       "downloadSummary": "Lawrlwythwch Crynodeb Bil",
-      "downloadSummaryUnavailable": "Nid yw crynodeb o'r bil ar gael eto"
+      "payAllDescription": "Pob bil heb ei dalu ({{number}})"
     },
     "history": {
       "title": "Hanes Anfoneb",
-      "exportCsv": "Allforio Pawb i CSV",
-      "exportUnavailable": "CSV nid yw allforio ar gael eto"
+      "exportCsv": "Allforio Pawb i CSV"
     },
     "table": {
       "cycle": "Beicio",
@@ -148,6 +151,17 @@
       "description": "Nid yw taliad ar-lein ar gael eto - caiff biliau eu setlo'n uniongyrchol gyda'ch gweinyddwr cymunedol.",
       "manage": "Rheoli Dulliau Talu",
       "manageUnavailable": "Nid yw dulliau talu ar gael eto"
+    },
+    "csv": {
+      "cycle": "Cyfnod bilio",
+      "consumption": "Defnydd (kL)",
+      "baseAmount": "Swm sylfaenol",
+      "tariffAmount": "Swm tariff",
+      "commonAreaAmount": "Swm arwynebedd cyffredin",
+      "totalAmount": "Cyfanswm",
+      "paid": "Talwyd",
+      "paidAt": "Talwyd am",
+      "generatedAt": "Wedi'i gynhyrchu yn"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Peidiwch â phwyso'n ôl nac adnewyddu'r dudalen hon",
     "success": "Taliad yn Llwyddiannus",
     "error": "Aeth rhywbeth o'i le yn cadarnhau eich taliad. Ceisiwch eto.",
-    "retry": "Ceisiwch eto"
+    "retry": "Ceisiwch eto",
+    "simulationNotice": "Efelychu til ar gyfer arddangosiad yn unig. Ni wneir unrhyw daliad go iawn ac ni chodir unrhyw arian."
   },
   "notifications": {
     "loadError": "Methu llwytho eich hysbysiadau. Ceisiwch eto.",
@@ -213,6 +228,25 @@
       "notConfigured": "Nid yw hysbysiadau gwthio wedi'u ffurfweddu eto. Cysylltwch â'ch gweinyddwr.",
       "enableError": "Ni fu modd galluogi hysbysiadau gwthio. Ceisiwch eto.",
       "disableError": "Methu ag analluogi hysbysiadau gwthio. Ceisiwch eto."
+    },
+    "tabs": {
+      "alerts": "Rhybuddion",
+      "announcements": "Cyhoeddiadau"
+    },
+    "announcements": {
+      "loadError": "Methu llwytho cyhoeddiadau. Ceisiwch eto.",
+      "loading": "Wrthi'n llwytho cyhoeddiadau…",
+      "empty": "Dim cyhoeddiadau gan eich gweinyddwr cymunedol ar hyn o bryd.",
+      "pinned": "Wedi'i binio",
+      "postedAt": "Wedi'i bostio {{date}}",
+      "expiresAt": "Tan {{date}}",
+      "category": {
+        "general": "Cyffredinol",
+        "maintenance": "Cynnal a chadw",
+        "waterSupply": "Cyflenwad Dwr",
+        "billing": "Bilio",
+        "urgent": "Brys"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Desg Cefnogi a Phryderon Preswylwyr",
     "subtitle": "Cyflwyno adroddiadau gollyngiadau dŵr, ceisiadau graddnodi mesurydd, neu ymholiadau bilio yn uniongyrchol i'ch gweinyddwr cymunedol a / neu Weinyddwr System.",
     "emptyCreateHint": "Disgrifiwch eich mater neu bryder isod, a dewiswch pwy ddylai ymdrin ag ef."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "3 Mis diwethaf",
+      "sixMonths": "6 Mis diwethaf",
+      "twelveMonths": "12 Mis diwethaf",
+      "custom": "Ystod Custom"
+    },
+    "customRange": {
+      "from": "Oddiwrth",
+      "to": "I",
+      "hint": "Dewiswch fis dechrau a diwedd i weld eich adroddiad."
+    },
+    "loading": "Wrthi'n llwytho eich adroddiad…",
+    "loadError": "Methu llwytho eich adroddiad. Ceisiwch eto.",
+    "pdfError": "Methu lawrlwytho'r datganiad. Ceisiwch eto.",
+    "downloading": "Wrthi'n llwytho i lawr…",
+    "downloadCsv": "Lawrlwytho CSV",
+    "downloadStatement": "Lawrlwytho Datganiad PDF",
+    "period": "Cyfnod adrodd: {{from}} i {{to}}",
+    "cards": {
+      "totalUsage": "Cyfanswm Defnydd",
+      "avgMonthly": "Defnydd Misol Cyfartalog",
+      "avgMonthlyHint": "Dros fisoedd gyda darlleniadau wedi'u recordio",
+      "change": "Newid yn erbyn y Cyfnod Blaenorol",
+      "changeHint": "{{previous}} yn {{from}} i {{to}}",
+      "changeNoData": "Dim defnydd yn y cyfnod blaenorol i gymharu",
+      "totalBilled": "Cyfanswm y Bil",
+      "totalPaid": "Cyfanswm a Dalwyd",
+      "outstanding": "Eithriadol"
+    },
+    "chart": {
+      "title": "Defnydd Misol a Bilio",
+      "subtitle": "Mae bariau'n dangos treuliant (kL); mae'r llinell yn dangos y swm wedi'i filio (₹).",
+      "consumption": "Treuliant",
+      "billed": "Wedi'i filio"
+    },
+    "table": {
+      "title": "Chwaliad Mis-wrth-Mis",
+      "month": "Mis",
+      "consumption": "Defnydd (kL)",
+      "billed": "Wedi'i filio",
+      "paid": "Talwyd",
+      "status": "Statws"
+    },
+    "status": {
+      "paid": "Talwyd",
+      "unpaid": "Di-dâl",
+      "notBilled": "Heb ei bilio"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Manylion cyfrif",
+    "managedNote": "Eich gweinyddwr cymunedol sy'n rheoli'r manylion hyn. Cysylltwch â nhw os oes angen newid unrhyw beth.",
+    "loading": "Wrthi'n llwytho eich proffil…",
+    "loadError": "Methu llwytho eich proffil. Ceisiwch eto.",
+    "notSet": "Heb ei osod",
+    "flatSizeValue": "{{size}} troedfedd sgwâr",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Newid cyfrinair",
+    "fields": {
+      "fullName": "Enw llawn",
+      "email": "Ebost",
+      "phone": "Ffon",
+      "houseNumber": "Rhif ty",
+      "meterNumber": "Rhif mesurydd",
+      "community": "Cymuned",
+      "flatSize": "Maint gwastad",
+      "joined": "Ymunodd"
+    }
   }
 }

@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Paparating na",
     "welcome": {
       "greeting": "Kamusta {{name}},",
       "greetingFallback": "kumusta,",
       "title": "Manatiling malapit sa kwento ng tubig ng iyong tahanan.",
-      "subtitle": "Lalabas dito ang mga insight sa paggamit at pagsingil habang nagre-record ang iyong komunidad ng mga pagbabasa.",
-      "viewBadges": "Tingnan ang Mga Eco-Badge"
+      "subtitle": "Lalabas dito ang mga insight sa paggamit at pagsingil habang nagre-record ang iyong komunidad ng mga pagbabasa."
     },
     "stats": {
       "todaysUsage": "Paggamit Ngayong Araw",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Metered na paggamit + nakabahaging singil, {{month}}",
       "estimatedBillHint": "Batay sa metered consumption at shared charges ngayong buwan",
       "savings": "Savings vs Building Avg",
-      "savingsValue": "{{percent}}% Mas kaunti",
-      "savingsPreview": "Preview lang — hindi pa live ang paghahambing"
+      "savingsLess": "{{percent}}% Mas kaunti",
+      "savingsMore": "{{percent}}% Higit pa",
+      "savingsEqual": "Pareho sa average",
+      "savingsDetail": "{{household}} kL vs {{average}} kL average, {{month}}",
+      "savingsNoData": "Wala pang paghahambing ng gusali"
     },
     "consumption": {
       "eyebrow": "Pagkonsumo",
       "title": "Pang-araw-araw na Pagkonsumo (Huling 14 na Pagbasa)",
       "seriesName": "Pagkonsumo",
       "empty": "Wala pang naitalang pagbabasa."
-    },
-    "breakdown": {
-      "eyebrow": "Pagkasira",
-      "title": "Pagkakasira ng Paggamit",
-      "bathroom": "Banyo",
-      "kitchen": "Kusina",
-      "garden": "Hardin / Balkonahe",
-      "other": "Iba pa / Paglalaba"
     },
     "billing": {
       "eyebrow": "Pagsingil",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Antas ng presyo ng tier",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "Karaniwang paghahati sa lugar",
-      "commonAreaPreview": "Karaniwang paghahati-hati ng lugar (preview)",
       "invoiceTotal": "{{period}} kabuuan ng invoice",
       "estimatedCharge": "Kasalukuyang tinantyang singil",
       "commonAreaBreakdown": "Karaniwang pagkasira ng lugar",
-      "payPreview": "Pay Bill Preview",
-      "payUnavailable": "Hindi pa available ang makina ng pagsingil"
+      "commonAreaEstimate": "Karaniwang paghahati-hati sa lugar (tantiya)",
+      "payOutstanding": "Magbayad ng Natitirang ₹{{amount}}",
+      "payAllDescription": "Lahat ng hindi nabayarang singil ({{number}})"
     },
     "tips": {
       "eyebrow": "Mga tip",
@@ -66,8 +59,7 @@
     "empty": "Wala pang naitalang pagbabasa. Kapag nakapagtala ang iyong komunidad ng pagbabasa ng metro, lalabas ito dito.",
     "tabs": {
       "lastSixMonths": "Huling 6 na Buwan",
-      "customRange": "Custom na Saklaw",
-      "comingSoon": "Paparating na"
+      "customRange": "Custom na Saklaw"
     },
     "peakDay": "Araw ng Peak:",
     "lowestDay": "Pinakamababang Araw:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Pang-araw-araw na Consumption Heatmap",
-      "subtitle": "Binabandera ng intensity ng kulay ang mabibigat na araw ng paggamit (preview)."
+      "subtitle": "Binabandera ng intensity ng kulay ang mabibigat na araw ng paggamit (preview).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: walang data",
+      "less": "Mas kaunti",
+      "more": "Higit pa",
+      "noData": "Walang data"
     },
     "ranking": {
       "title": "Pagraranggo ng Peer sa Komunidad",
-      "subtitle": "Ang iyong ranggo kumpara sa mga katulad na unit (preview).",
-      "ecoSaver": "Aktibong Eco Saver",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Yunit {{number}}",
-      "yourUnit": "Iyong unit",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Ikaw)"
+      "subtitle": "Ang iyong sambahayan kumpara sa bawat sambahayan sa iyong apartment para sa {{month}}. Mas mataas ang ranggo ng mas mababang paggamit.",
+      "headline": "#{{rank}} ng {{total}} kabahayan",
+      "percentile": "Gumamit ka ng mas kaunting tubig kaysa sa {{percent}}% ng iyong mga kapitbahay.",
+      "min": "Pinakamababa",
+      "median": "Median",
+      "max": "Pinakamataas",
+      "youRow": "#{{rank}} Ikaw",
+      "neighbourRow": "#{{rank}} kapitbahay",
+      "privacyNote": "Anonymous ang mga kapitbahay. Hindi ipinapakita ang mga numero at pangalan ng bahay.",
+      "empty": "Hindi pa sapat ang data para i-rank ang iyong sambahayan."
+    },
+    "range": {
+      "from": "Mula sa",
+      "to": "Upang",
+      "invalid": "Ang simula ng buwan ay hindi dapat pagkatapos ng huling buwan.",
+      "noData": "Walang data ng pagkonsumo sa hanay na ito."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Ikot ng Pagsingil: {{period}}",
       "allPaid": "Ang lahat ng mga invoice ay binabayaran",
       "payTotal": "Magbayad ng Total Outstanding",
-      "payTotalUnavailable": "Hindi pa available ang online na pagbabayad — direktang bayaran ang mga bill sa iyong admin ng komunidad",
       "downloadSummary": "I-download ang Buod ng Bill",
-      "downloadSummaryUnavailable": "Hindi pa available ang pag-download ng buod ng bill"
+      "payAllDescription": "Lahat ng hindi nabayarang singil ({{number}})"
     },
     "history": {
       "title": "Kasaysayan ng Invoice",
-      "exportCsv": "I-export ang Lahat sa CSV",
-      "exportUnavailable": "CSV ang pag-export ay hindi pa available"
+      "exportCsv": "I-export ang Lahat sa CSV"
     },
     "table": {
       "cycle": "Ikot",
@@ -148,6 +151,17 @@
       "description": "Hindi pa available ang online na pagbabayad — direktang binabayaran ang mga bill sa iyong admin ng komunidad.",
       "manage": "Pamahalaan ang Mga Paraan ng Pagbabayad",
       "manageUnavailable": "Hindi pa available ang mga paraan ng pagbabayad"
+    },
+    "csv": {
+      "cycle": "Panahon ng pagsingil",
+      "consumption": "Pagkonsumo (kL)",
+      "baseAmount": "Base na halaga",
+      "tariffAmount": "Halaga ng taripa",
+      "commonAreaAmount": "Karaniwang dami ng lugar",
+      "totalAmount": "Kabuuang halaga",
+      "paid": "Binayaran",
+      "paidAt": "Binayaran sa",
+      "generatedAt": "Binuo sa"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Mangyaring huwag pindutin muli o i-refresh ang pahinang ito",
     "success": "Matagumpay ang Pagbabayad",
     "error": "Nagkaproblema sa pagkumpirma ng iyong pagbabayad. Pakisubukang muli.",
-    "retry": "Subukan muli"
+    "retry": "Subukan muli",
+    "simulationNotice": "Simulated checkout para sa pagpapakita lamang. Walang tunay na pagbabayad na ginawa at walang pera na sinisingil."
   },
   "notifications": {
     "loadError": "Hindi ma-load ang iyong mga notification. Pakisubukang muli.",
@@ -213,6 +228,25 @@
       "notConfigured": "Hindi pa naka-configure ang mga push notification. Makipag-ugnayan sa iyong admin.",
       "enableError": "Hindi ma-enable ang mga push notification. Pakisubukang muli.",
       "disableError": "Hindi ma-disable ang mga push notification. Pakisubukang muli."
+    },
+    "tabs": {
+      "alerts": "Mga alerto",
+      "announcements": "Mga anunsyo"
+    },
+    "announcements": {
+      "loadError": "Hindi ma-load ang mga anunsyo. Pakisubukang muli.",
+      "loading": "Nilo-load ang mga anunsyo…",
+      "empty": "Walang mga anunsyo mula sa iyong admin ng komunidad sa ngayon.",
+      "pinned": "Naka-pin",
+      "postedAt": "Na-post {{date}}",
+      "expiresAt": "Hanggang sa {{date}}",
+      "category": {
+        "general": "Heneral",
+        "maintenance": "Pagpapanatili",
+        "waterSupply": "Supply ng Tubig",
+        "billing": "Pagsingil",
+        "urgent": "Urgent"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Magsumite ng mga ulat sa pagtagas ng tubig, mga kahilingan sa pag-calibrate ng metro, o mga katanungan sa pagsingil nang direkta sa iyong admin ng komunidad at/o Admin ng System.",
     "emptyCreateHint": "Ilarawan ang iyong isyu o alalahanin sa ibaba, at piliin kung sino ang dapat humawak nito."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Huling 3 Buwan",
+      "sixMonths": "Huling 6 na Buwan",
+      "twelveMonths": "Huling 12 Buwan",
+      "custom": "Custom na Saklaw"
+    },
+    "customRange": {
+      "from": "Mula sa",
+      "to": "Upang",
+      "hint": "Pumili ng simula at pagtatapos ng buwan para makita ang iyong ulat."
+    },
+    "loading": "Nilo-load ang iyong ulat…",
+    "loadError": "Hindi ma-load ang iyong ulat. Pakisubukang muli.",
+    "pdfError": "Hindi ma-download ang pahayag. Pakisubukang muli.",
+    "downloading": "Dina-download…",
+    "downloadCsv": "I-download ang CSV",
+    "downloadStatement": "I-download ang Pahayag PDF",
+    "period": "Panahon ng pag-uulat: {{from}} hanggang {{to}}",
+    "cards": {
+      "totalUsage": "Kabuuang Paggamit",
+      "avgMonthly": "Average na Buwanang Paggamit",
+      "avgMonthlyHint": "Sa buong buwan na may mga naitalang pagbabasa",
+      "change": "Pagbabago kumpara sa Nakaraang Panahon",
+      "changeHint": "{{previous}} sa {{from}} hanggang {{to}}",
+      "changeNoData": "Walang paggamit sa nakaraang panahon upang ihambing",
+      "totalBilled": "Kabuuang Sinisingil",
+      "totalPaid": "Kabuuang Bayad",
+      "outstanding": "Natitirang"
+    },
+    "chart": {
+      "title": "Buwanang Paggamit at Pagsingil",
+      "subtitle": "Ipinapakita ng mga bar ang pagkonsumo (kL); ipinapakita ng linya ang nasingil na halaga (₹).",
+      "consumption": "Pagkonsumo",
+      "billed": "Sinisingil"
+    },
+    "table": {
+      "title": "Buwan-buwan Breakdown",
+      "month": "buwan",
+      "consumption": "Pagkonsumo (kL)",
+      "billed": "Sinisingil",
+      "paid": "Binayaran",
+      "status": "Katayuan"
+    },
+    "status": {
+      "paid": "Binayaran",
+      "unpaid": "Walang bayad",
+      "notBilled": "Hindi sinisingil"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Mga detalye ng account",
+    "managedNote": "Pinamamahalaan ng iyong admin ng komunidad ang mga detalyeng ito. Makipag-ugnayan sa kanila kung may kailangang baguhin.",
+    "loading": "Nilo-load ang iyong profile…",
+    "loadError": "Hindi ma-load ang iyong profile. Pakisubukang muli.",
+    "notSet": "Hindi nakatakda",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Baguhin ang password",
+    "fields": {
+      "fullName": "Buong pangalan",
+      "email": "Email",
+      "phone": "Telepono",
+      "houseNumber": "Numero ng bahay",
+      "meterNumber": "Numero ng metro",
+      "community": "Komunidad",
+      "flatSize": "Flat size",
+      "joined": "Sumali"
+    }
   }
 }

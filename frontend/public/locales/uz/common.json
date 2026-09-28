@@ -222,6 +222,14 @@
         "title": "Qo'llab-quvvatlash / Xavotirlar",
         "subtitle": "Tizim ma'muriga o'z chiptalaringizni taqdim eting yoki fuqarolaringiz sizga murojaat qilgan muammolarni hal qiling."
       },
+      "reports": {
+        "title": "Jamiyat hisobotlari",
+        "subtitle": "Jamiyatingiz uchun iste'mol, hisob-kitob, yig'ish va ommaviy xarid ko'rsatkichlari."
+      },
+      "announcements": {
+        "title": "E'lonlar",
+        "subtitle": "Rezidentlaringiz uchun jamoatchilik bildirishnomalarini e'lon qiling."
+      },
       "profile": {
         "title": "Sozlamalar va profil",
         "subtitle": "Hisob ma'lumotlarini va kvartira ma'lumotlarini boshqaring."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Hamjamiyat administratori",
     "notBuilt": "{{label}} hali qurilmagan",
     "searchPlaceholder": "Har qanday narsani qidiring…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Hisobotlar",
-      "description": "Jamiyatingiz uchun iste'mol, hisob-kitob va saqlash hisobotlari."
-    },
-    "announcements": {
-      "title": "E'lonlar",
-      "description": "Aholiga hamjamiyat miqyosida e'lonlar yuboring."
-    }
   },
   "comingSoon": {
     "title": "{{title}} tez orada chiqadi"
@@ -261,7 +259,9 @@
       "billing": "Billing & Invoys",
       "notifications": "Bildirishnomalar",
       "recommendations": "Tavsiyalar",
-      "support": "Qo'llab-quvvatlash / Xavotirlar"
+      "support": "Qo'llab-quvvatlash / Xavotirlar",
+      "reports": "Foydalanish va sarf-xarajat hisobotlari",
+      "profile": "Mening profilim"
     },
     "defaultTitle": "Rezident boshqaruv paneli",
     "navLabel": "Rezident navigatsiyasi",
@@ -277,7 +277,8 @@
       "communities": "Jamiyatlar",
       "reports": "Hisobotlar",
       "supportTickets": "Qo'llab-quvvatlash chiptalari",
-      "systemStatus": "Tizim holati"
+      "systemStatus": "Tizim holati",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Tizim holati",
         "subtitle": "Backend ulanishi va asosiy ish vaqti salomatligi."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Hisobingiz, avataringiz va parolingiz"
       }
     },
     "fallbackName": "Tizim administratori",
@@ -308,5 +313,40 @@
     "buttonLabel": "Til: {{language}}",
     "searchPlaceholder": "Til qidirish…",
     "noMatches": "Mos kelmaydi"
+  },
+  "avatarPicker": {
+    "label": "Avatarni tanlang",
+    "hint": "Oldindan o'rnatilgan avatarlardan birini tanlang yoki bosh harflardan foydalaning.",
+    "change": "O'zgartirish",
+    "cancel": "Bekor qilish",
+    "useInitials": "Bosh harflardan foydalaning",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatarni saqlang",
+    "saving": "Saqlanmoqda…",
+    "saved": "Avatar yangilandi",
+    "saveError": "Avataringizni yangilab boʻlmadi. Iltimos, qayta urinib koʻring."
+  },
+  "changePassword": {
+    "current": "Joriy parol",
+    "new": "Yangi parol",
+    "confirm": "Yangi parolni tasdiqlang",
+    "hint": "Kamida {{min}} belgi.",
+    "tooShort": "Yangi parol kamida {{min}} belgidan iborat boʻlishi kerak.",
+    "mismatch": "Yangi parollar mos emas.",
+    "sameAsCurrent": "Yangi parol joriy parolingizdan farq qilishi kerak.",
+    "submit": "Parolni yangilang",
+    "saving": "Yangilanmoqda…",
+    "success": "Parolingiz yangilandi.",
+    "error": "Parolni yangilab bo‘lmadi. Iltimos, qayta urinib koʻring."
+  },
+  "search": {
+    "kindPage": "Sahifa",
+    "kindRecord": "Natija",
+    "loading": "Qidirilmoqda…",
+    "noResults": "Mos kelmaydi",
+    "recordsUnavailable": "Hozir faqat sahifalarni qidirish mumkin edi.",
+    "invoiceLabel": "Hisob-faktura {{period}}",
+    "paid": "To'langan",
+    "unpaid": "To'lanmagan"
   }
 }

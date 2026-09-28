@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Entradas de apoio",
     "subtitle": "Tickets de apoio e dúbidas formuladas polos residentes e os administradores da comunidade, en toda a plataforma."
+  },
+  "profile": {
+    "accountTitle": "Conta",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Cambiar contrasinal",
+    "loadError": "Non se puido cargar o teu perfil. Téntao de novo.",
+    "fields": {
+      "fullName": "Nome completo",
+      "email": "Correo electrónico",
+      "role": "Papel",
+      "roleValue": "Administrador do sistema"
+    }
   }
 }

@@ -222,6 +222,14 @@
         "title": "Tugi / mured",
         "subtitle": "Tõstke oma piletid süsteemiadministraatorile või lahendage mured, mille elanikud on teile pöördunud."
       },
+      "reports": {
+        "title": "Kogukonna aruanded",
+        "subtitle": "Teie kogukonna tarbimis-, arveldus-, kogumis- ja hulgiostuandmed."
+      },
+      "announcements": {
+        "title": "Teated",
+        "subtitle": "Avaldage oma elanikele kogukondlikke teateid."
+      },
       "profile": {
         "title": "Seaded ja profiil",
         "subtitle": "Hallake oma konto andmeid ja korteriteavet."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Kogukonna administraator",
     "notBuilt": "{{label}} pole veel ehitatud",
     "searchPlaceholder": "Otsi midagi…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Aruanded",
-      "description": "Teie kogukonna tarbimis-, arveldus- ja säilitusaruanded."
-    },
-    "announcements": {
-      "title": "Teated",
-      "description": "Saatke oma elanikele kogukondlikke teateid."
-    }
   },
   "comingSoon": {
     "title": "{{title}} on varsti tulemas"
@@ -261,7 +259,9 @@
       "billing": "Arveldamine ja arved",
       "notifications": "Märguanded",
       "recommendations": "Soovitused",
-      "support": "Tugi / mured"
+      "support": "Tugi / mured",
+      "reports": "Teie kasutus- ja kuluaruanded",
+      "profile": "Minu profiil"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Residentide navigeerimine",
@@ -277,7 +277,8 @@
       "communities": "kogukonnad",
       "reports": "Aruanded",
       "supportTickets": "Tugipiletid",
-      "systemStatus": "Süsteemi olek"
+      "systemStatus": "Süsteemi olek",
+      "profile": "Profiil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Süsteemi olek",
         "subtitle": "Taustaprogrammi ühenduvus ja põhiline käitusaegne tervis."
+      },
+      "profile": {
+        "title": "Profiil",
+        "subtitle": "Teie konto, avatar ja parool"
       }
     },
     "fallbackName": "Süsteemi administraator",
@@ -308,5 +313,40 @@
     "buttonLabel": "Keel: {{language}}",
     "searchPlaceholder": "Otsi keel…",
     "noMatches": "Vasteid pole"
+  },
+  "avatarPicker": {
+    "label": "Valige avatar",
+    "hint": "Valige üks eelseadistatud avataridest või kasutage oma initsiaale.",
+    "change": "Muuda",
+    "cancel": "Tühista",
+    "useInitials": "Kasutage initsiaale",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Salvesta avatar",
+    "saving": "Salvestamine…",
+    "saved": "Avatari värskendatud",
+    "saveError": "Teie avatari ei saanud värskendada. Palun proovi uuesti."
+  },
+  "changePassword": {
+    "current": "Praegune parool",
+    "new": "Uus parool",
+    "confirm": "Kinnitage uus parool",
+    "hint": "Vähemalt {{min}} tähemärki.",
+    "tooShort": "Uus parool peab koosnema vähemalt {{min}} tähemärgist.",
+    "mismatch": "Uued paroolid ei ühti.",
+    "sameAsCurrent": "Uus parool peab erinema teie praegusest paroolist.",
+    "submit": "Uuenda parooli",
+    "saving": "Värskendamine…",
+    "success": "Teie parool on uuendatud.",
+    "error": "Teie parooli ei saanud värskendada. Palun proovi uuesti."
+  },
+  "search": {
+    "kindPage": "Lehekülg",
+    "kindRecord": "Tulemus",
+    "loading": "Otsimine…",
+    "noResults": "Vasteid pole",
+    "recordsUnavailable": "Praegu saab otsida ainult lehti.",
+    "invoiceLabel": "Arve {{period}}",
+    "paid": "Tasuline",
+    "unpaid": "Tasumata"
   }
 }

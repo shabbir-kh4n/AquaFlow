@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "ትኬቶችን ይደግፉ",
     "subtitle": "የድጋፍ ትኬቶችን እና በነዋሪዎች እና በማህበረሰብ አስተዳዳሪዎች የተነሱ ስጋቶችን መድረክ-ሰፊ።"
+  },
+  "profile": {
+    "accountTitle": "መለያ",
+    "avatarTitle": "አምሳያ",
+    "passwordTitle": "የይለፍ ቃል ቀይር",
+    "loadError": "መገለጫህን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "fields": {
+      "fullName": "ሙሉ ስም",
+      "email": "ኢሜይል",
+      "role": "ሚና",
+      "roleValue": "የስርዓት አስተዳዳሪ"
+    }
   }
 }

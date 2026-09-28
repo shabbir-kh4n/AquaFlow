@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tikiti Tautoko",
     "subtitle": "Tautokohia nga tikiti me nga awangawanga i whakaarahia e nga kainoho me nga kaiwhakahaere o te hapori, puta noa i te turanga."
+  },
+  "profile": {
+    "accountTitle": "Pūkete",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Huri kupuhipa",
+    "loadError": "Kāore i taea te uta i tō kōtaha. Me ngana ano.",
+    "fields": {
+      "fullName": "Ingoa katoa",
+      "email": "Īmēra",
+      "role": "Tūnga",
+      "roleValue": "Kaiwhakahaere Pūnaha"
+    }
   }
 }

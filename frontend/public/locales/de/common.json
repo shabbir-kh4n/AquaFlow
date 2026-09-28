@@ -222,6 +222,14 @@
         "title": "Unterstützung / Bedenken",
         "subtitle": "Eröffnen Sie Ihre eigenen Tickets beim Systemadministrator oder bearbeiten Sie Anliegen, die Ihre Bewohner an Sie gerichtet haben."
       },
+      "reports": {
+        "title": "Community-Berichte",
+        "subtitle": "Verbrauchs-, Abrechnungs-, Inkasso- und Großeinkaufszahlen für Ihre Gemeinde."
+      },
+      "announcements": {
+        "title": "Ankündigungen",
+        "subtitle": "Veröffentlichen Sie gemeinschaftsweite Mitteilungen an Ihre Bewohner."
+      },
       "profile": {
         "title": "Einstellungen & Profil",
         "subtitle": "Verwalten Sie Ihre Kontodaten und Apartmentinformationen."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Community-Administrator",
     "notBuilt": "{{label}} ist noch nicht erstellt",
     "searchPlaceholder": "Suchen Sie alles ..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Berichte",
-      "description": "Verbrauchs-, Abrechnungs- und Erhaltungsberichte für Ihre Gemeinde."
-    },
-    "announcements": {
-      "title": "Ankündigungen",
-      "description": "Senden Sie gemeinschaftsweite Ankündigungen an Ihre Bewohner."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kommt bald"
@@ -261,7 +259,9 @@
       "billing": "Abrechnung und Rechnungen",
       "notifications": "Benachrichtigungen",
       "recommendations": "Empfehlungen",
-      "support": "Unterstützung / Bedenken"
+      "support": "Unterstützung / Bedenken",
+      "reports": "Ihre Nutzungs- und Ausgabenberichte",
+      "profile": "Mein Profil"
     },
     "defaultTitle": "Resident-Dashboard",
     "navLabel": "Residente Navigation",
@@ -277,7 +277,8 @@
       "communities": "Gemeinschaften",
       "reports": "Berichte",
       "supportTickets": "Support-Tickets",
-      "systemStatus": "Systemstatus"
+      "systemStatus": "Systemstatus",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Systemstatus",
         "subtitle": "Backend-Konnektivität und grundlegende Laufzeitintegrität."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Ihr Konto, Avatar und Passwort"
       }
     },
     "fallbackName": "Systemadministrator",
@@ -308,5 +313,40 @@
     "buttonLabel": "Sprache: {{language}}",
     "searchPlaceholder": "Sprache suchen…",
     "noMatches": "Keine Übereinstimmungen"
+  },
+  "avatarPicker": {
+    "label": "Wählen Sie einen Avatar",
+    "hint": "Wählen Sie einen der voreingestellten Avatare oder verwenden Sie Ihre Initialen.",
+    "change": "Ändern",
+    "cancel": "Stornieren",
+    "useInitials": "Verwenden Sie Initialen",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatar speichern",
+    "saving": "Sparen…",
+    "saved": "Avatar aktualisiert",
+    "saveError": "Dein Avatar konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+  },
+  "changePassword": {
+    "current": "Aktuelles Passwort",
+    "new": "Neues Passwort",
+    "confirm": "Bestätigen Sie das neue Passwort",
+    "hint": "Mindestens {{min}} Zeichen.",
+    "tooShort": "Das neue Passwort muss mindestens {{min}} Zeichen lang sein.",
+    "mismatch": "Die neuen Passwörter stimmen nicht überein.",
+    "sameAsCurrent": "Das neue Passwort muss sich von Ihrem aktuellen Passwort unterscheiden.",
+    "submit": "Passwort aktualisieren",
+    "saving": "Aktualisierung…",
+    "success": "Ihr Passwort wurde aktualisiert.",
+    "error": "Ihr Passwort konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+  },
+  "search": {
+    "kindPage": "Seite",
+    "kindRecord": "Ergebnis",
+    "loading": "Suche…",
+    "noResults": "Keine Übereinstimmungen",
+    "recordsUnavailable": "Derzeit konnten nur Seiten durchsucht werden.",
+    "invoiceLabel": "Rechnung {{period}}",
+    "paid": "Bezahlt",
+    "unpaid": "Unbezahlt"
   }
 }

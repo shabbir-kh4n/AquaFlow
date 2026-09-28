@@ -222,6 +222,14 @@
         "title": "Kākoʻo / hopohopo",
         "subtitle": "E hoʻokiʻekiʻe i kāu mau tiketi ponoʻī i ka System Admin, a i ʻole e mālama i nā hopohopo a kāu poʻe kamaʻāina i kamaʻilio aku iā ʻoe."
       },
+      "reports": {
+        "title": "Hoike Kaiaulu",
+        "subtitle": "Nā helu hoʻohana, hoʻolimalima, hōʻiliʻili, a kūʻai nui ʻia no kou kaiāulu."
+      },
+      "announcements": {
+        "title": "Nā hoʻolaha",
+        "subtitle": "E hoʻolaha i nā leka hoʻolaha kaiaulu i kāu poʻe kamaʻāina."
+      },
       "profile": {
         "title": "Hoʻonohonoho & Profile",
         "subtitle": "E mālama i kāu kikoʻī moʻokāki a me ka ʻike hale."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Luna Kaiaulu",
     "notBuilt": "{{label}} ʻaʻole i kūkulu ʻia",
     "searchPlaceholder": "Huli i kekahi mea…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Nā hōʻike",
-      "description": "Nā hōʻike hoʻohana, hoʻolimalima, a me ka mālama ʻana no kou kaiāulu."
-    },
-    "announcements": {
-      "title": "Nā hoʻolaha",
-      "description": "E hoʻouna i nā hoʻolaha kaiaulu i kou poʻe kamaʻāina."
-    }
   },
   "comingSoon": {
     "title": "{{title}} e hiki koke mai ana"
@@ -261,7 +259,9 @@
       "billing": "Pili & Invoice",
       "notifications": "Hoolaha",
       "recommendations": "Nā Manaʻo",
-      "support": "Kākoʻo / hopohopo"
+      "support": "Kākoʻo / hopohopo",
+      "reports": "ʻO kāu hōʻike hoʻohana & hoʻolilo",
+      "profile": "ʻO koʻu ʻaoʻao"
     },
     "defaultTitle": "Papa Hoʻokele Noho",
     "navLabel": "Hoʻokele kamaʻāina",
@@ -277,7 +277,8 @@
       "communities": "Nā kaiaulu",
       "reports": "Nā hōʻike",
       "supportTickets": "Kākoʻo Tickets",
-      "systemStatus": "Kūlana Pūnaehana"
+      "systemStatus": "Kūlana Pūnaehana",
+      "profile": "Pilikino"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Kūlana Pūnaehana",
         "subtitle": "Hoʻohui hope a me ke olakino holo manawa maʻamau."
+      },
+      "profile": {
+        "title": "Pilikino",
+        "subtitle": "ʻO kāu moʻokāki, avatar a me kāu ʻōlelo huna"
       }
     },
     "fallbackName": "Luna hooponopono",
@@ -308,5 +313,40 @@
     "buttonLabel": "ʻŌlelo: {{language}}",
     "searchPlaceholder": "Huli ʻōlelo…",
     "noMatches": "ʻAʻohe pāʻani"
+  },
+  "avatarPicker": {
+    "label": "E koho i kahi avatar",
+    "hint": "E koho i kekahi o nā avatar i hoʻonohonoho mua ʻia, a i ʻole e hoʻohana i kāu mau hua mua.",
+    "change": "Hoʻololi",
+    "cancel": "Hoʻopau",
+    "useInitials": "E hoʻohana i nā hua mua",
+    "optionLabel": "Avatar {{number}}",
+    "save": "E mālama i ka avatar",
+    "saving": "Mālama ʻia…",
+    "saved": "Hōʻano hou ʻia ka Avatar",
+    "saveError": "ʻAʻole hiki ke hōʻano hou i kāu avatar. E ʻoluʻolu e hoʻāʻo hou."
+  },
+  "changePassword": {
+    "current": "ʻōlelo huna i kēia manawa",
+    "new": "ʻōlelo huna hou",
+    "confirm": "E hōʻoia i ka ʻōlelo huna hou",
+    "hint": "Ma ka liʻiliʻi loa {{min}} huapalapala.",
+    "tooShort": "Pono ka ʻōlelo huna hou ma kahi o {{min}} mau huapalapala.",
+    "mismatch": "ʻAʻole kūlike nā ʻōlelo huna hou.",
+    "sameAsCurrent": "Pono ʻokoʻa ka ʻōlelo huna hou me kāu ʻōlelo huna o kēia manawa.",
+    "submit": "Hōʻano hou i ka ʻōlelo huna",
+    "saving": "Ke hōʻano hou nei…",
+    "success": "Ua hōʻano hou ʻia kāu ʻōlelo huna.",
+    "error": "ʻAʻole hiki ke hōʻano hou i kāu ʻōlelo huna. E ʻoluʻolu e hoʻāʻo hou."
+  },
+  "search": {
+    "kindPage": "ʻAoʻao",
+    "kindRecord": "Ka hopena",
+    "loading": "Ke huli nei…",
+    "noResults": "ʻAʻohe pāʻani",
+    "recordsUnavailable": "Hiki ke huli ʻia nā ʻaoʻao i kēia manawa.",
+    "invoiceLabel": "Invoice {{period}}",
+    "paid": "Ukuia",
+    "unpaid": "Uku ole ia"
   }
 }

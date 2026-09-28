@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Support-Tickets",
     "subtitle": "Support-Tickets und Bedenken von Anwohnern und Community-Administratoren auf der gesamten Plattform."
+  },
+  "profile": {
+    "accountTitle": "Konto",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Kennwort ändern",
+    "loadError": "Ihr Profil konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "fields": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "roleValue": "Systemadministrator"
+    }
   }
 }

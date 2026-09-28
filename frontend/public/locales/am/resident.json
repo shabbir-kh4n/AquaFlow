@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "በቅርቡ ይመጣል",
     "welcome": {
       "greeting": "ሰላም {{name}}",
       "greetingFallback": "ሰላም፣",
       "title": "ከቤትዎ የውሃ ታሪክ አጠገብ ይቆዩ።",
-      "subtitle": "የእርስዎ ማህበረሰብ ንባቦችን ሲመዘግብ የአጠቃቀም እና የሂሳብ አከፋፈል ግንዛቤዎች እዚህ ይታያሉ።",
-      "viewBadges": "ኢኮ-ባጆችን ይመልከቱ"
+      "subtitle": "የእርስዎ ማህበረሰብ ንባቦችን ሲመዘግብ የአጠቃቀም እና የሂሳብ አከፋፈል ግንዛቤዎች እዚህ ይታያሉ።"
     },
     "stats": {
       "todaysUsage": "የዛሬው አጠቃቀም",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "የሚለካ አጠቃቀም + የጋራ ክፍያዎች፣ {{month}}",
       "estimatedBillHint": "በዚህ ወር በሚለካ ፍጆታ እና በጋራ ክፍያዎች ላይ በመመስረት",
       "savings": "ቁጠባ ከግንባታ አማካይ",
-      "savingsValue": "{{percent}}% ያነሰ",
-      "savingsPreview": "ቅድመ-ዕይታ ብቻ - ንጽጽር ገና በቀጥታ አይደለም"
+      "savingsLess": "{{percent}}% ያነሰ",
+      "savingsMore": "{{percent}}% ተጨማሪ",
+      "savingsEqual": "ከአማካይ ጋር ተመሳሳይ",
+      "savingsDetail": "{{household}} kL ከ {{average}} kL አማካይ፣ {{month}}",
+      "savingsNoData": "እስካሁን ምንም የግንባታ ንጽጽር የለም።"
     },
     "consumption": {
       "eyebrow": "ፍጆታ",
       "title": "ዕለታዊ ፍጆታ (የመጨረሻዎቹ 14 ንባቦች)",
       "seriesName": "ፍጆታ",
       "empty": "እስካሁን ምንም የተመዘገቡ ንባቦች የሉም።"
-    },
-    "breakdown": {
-      "eyebrow": "መከፋፈል",
-      "title": "የአጠቃቀም መከፋፈል",
-      "bathroom": "መታጠቢያ ቤት",
-      "kitchen": "ወጥ ቤት",
-      "garden": "የአትክልት ስፍራ / በረንዳ",
-      "other": "ሌላ / የልብስ ማጠቢያ"
     },
     "billing": {
       "eyebrow": "የሂሳብ አከፋፈል",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "የደረጃ የዋጋ ደረጃ",
       "tierLabel": "Tier {{tier}}",
       "commonArea": "የጋራ አካባቢ ክፍፍል",
-      "commonAreaPreview": "የጋራ አካባቢ ክፍፍል (ቅድመ እይታ)",
       "invoiceTotal": "{{period}} ጠቅላላ ደረሰኝ",
       "estimatedCharge": "የአሁኑ ግምታዊ ክፍያ",
       "commonAreaBreakdown": "የጋራ አካባቢ መከፋፈል",
-      "payPreview": "የክፍያ ሂሳብ ቅድመ እይታ",
-      "payUnavailable": "የሂሳብ መክፈያ ሞተር እስካሁን አይገኝም"
+      "commonAreaEstimate": "የጋራ አካባቢ ክፍፍል (ግምት)",
+      "payOutstanding": "የላቀ ክፍያ ₹{{amount}}",
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "tips": {
       "eyebrow": "ጠቃሚ ምክሮች",
@@ -66,8 +59,7 @@
     "empty": "እስካሁን ምንም የተመዘገቡ ንባቦች የሉም። አንዴ ማህበረሰብዎ የአንድ ሜትር ንባብ ከመዘገበ፣ እዚህ ይታያል።",
     "tabs": {
       "lastSixMonths": "ያለፉት 6 ወራት",
-      "customRange": "ብጁ ክልል",
-      "comingSoon": "በቅርቡ ይመጣል"
+      "customRange": "ብጁ ክልል"
     },
     "peakDay": "ከፍተኛ ቀን፡",
     "lowestDay": "ዝቅተኛው ቀን፡",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "ዕለታዊ ፍጆታ የሙቀት ካርታ",
-      "subtitle": "የቀለም ጥንካሬ ከባድ የአጠቃቀም ቀናትን ያሳያል (ቅድመ እይታ)።"
+      "subtitle": "የቀለም ጥንካሬ ከባድ የአጠቃቀም ቀናትን ያሳያል (ቅድመ እይታ)።",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}፡ ምንም ውሂብ የለም።",
+      "less": "ያነሰ",
+      "more": "ተጨማሪ",
+      "noData": "ምንም ውሂብ የለም"
     },
     "ranking": {
       "title": "የማህበረሰብ አቻ ደረጃ አሰጣጥ",
-      "subtitle": "የእርስዎ ደረጃ ከተመሳሳይ ክፍሎች (ቅድመ እይታ) ጋር ሲነጻጸር።",
-      "ecoSaver": "ንቁ ኢኮ ቆጣቢ",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unit {{number}}",
-      "yourUnit": "የእርስዎ ክፍል",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (እርስዎ)"
+      "subtitle": "የእርስዎ ቤተሰብ እና በአፓርታማዎ ውስጥ ላለ እያንዳንዱ ቤተሰብ ለ {{month}}። ዝቅተኛ አጠቃቀም ደረጃ ከፍ ያለ ነው።",
+      "headline": "#{{rank}} of {{total}} households",
+      "percentile": "ከጎረቤትዎ {{percent}}% ያነሰ ውሃ ተጠቅመዋል።",
+      "min": "ዝቅተኛው",
+      "median": "ሚዲያን",
+      "max": "ከፍተኛ",
+      "youRow": "#{{rank}} You",
+      "neighbourRow": "#{{rank}} Neighbour",
+      "privacyNote": "ጎረቤቶች ማንነታቸው የማይታወቅ ነው። የቤት ቁጥሮች እና ስሞች በጭራሽ አይታዩም።",
+      "empty": "ቤተሰብዎን ደረጃ ለመስጠት እስካሁን በቂ መረጃ የለም።"
+    },
+    "range": {
+      "from": "ከ",
+      "to": "ለ",
+      "invalid": "የመነሻ ወር ከመጨረሻው ወር በኋላ መሆን የለበትም.",
+      "noData": "በዚህ ክልል ውስጥ ምንም የፍጆታ ውሂብ የለም።"
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "የሂሳብ አከፋፈል ዑደት፡ {{period}}",
       "allPaid": "ሁሉም ደረሰኞች ይከፈላሉ",
       "payTotal": "ጠቅላላ የላቀ ክፍያ ይክፈሉ።",
-      "payTotalUnavailable": "የመስመር ላይ ክፍያ ገና የለም — ሂሳቦችን ከማህበረሰብ አስተዳዳሪዎ ጋር በቀጥታ ያስተካክሉ",
       "downloadSummary": "የቢል ማጠቃለያ አውርድ",
-      "downloadSummaryUnavailable": "የሂሳብ ማጠቃለያ ማውረድ እስካሁን የለም።"
+      "payAllDescription": "All unpaid bills ({{number}})"
     },
     "history": {
       "title": "የክፍያ መጠየቂያ ታሪክ",
-      "exportCsv": "ሁሉንም ወደ CSV ላክ",
-      "exportUnavailable": "CSV export isn't available yet"
+      "exportCsv": "ሁሉንም ወደ CSV ላክ"
     },
     "table": {
       "cycle": "ዑደት",
@@ -148,6 +151,17 @@
       "description": "የመስመር ላይ ክፍያ እስካሁን የለም - ሂሳቦች ከማህበረሰብ አስተዳዳሪዎ ጋር በቀጥታ ተስተካክለዋል።",
       "manage": "የመክፈያ ዘዴዎችን ያስተዳድሩ",
       "manageUnavailable": "የመክፈያ ዘዴዎች እስካሁን አይገኙም።"
+    },
+    "csv": {
+      "cycle": "የክፍያ ጊዜ",
+      "consumption": "Consumption (kL)",
+      "baseAmount": "የመሠረት መጠን",
+      "tariffAmount": "የታሪፍ መጠን",
+      "commonAreaAmount": "የጋራ አካባቢ መጠን",
+      "totalAmount": "ጠቅላላ መጠን",
+      "paid": "የተከፈለ",
+      "paidAt": "የተከፈለው በ",
+      "generatedAt": "የተፈጠረው በ"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "እባኮትን መልሰው አይጫኑ ወይም ይህን ገጽ አያድሱ",
     "success": "ክፍያ ተሳክቷል።",
     "error": "ክፍያዎን በማረጋገጥ ላይ የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
-    "retry": "እንደገና ይሞክሩ"
+    "retry": "እንደገና ይሞክሩ",
+    "simulationNotice": "ለማሳያ ብቻ የተመሰለ ፍተሻ። ምንም እውነተኛ ክፍያ አይደረግም እና ምንም ገንዘብ አይጠየቅም."
   },
   "notifications": {
     "loadError": "ማሳወቂያዎችዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
@@ -213,6 +228,25 @@
       "notConfigured": "የግፋ ማሳወቂያዎች ገና አልተዋቀሩም። አስተዳዳሪዎን ያነጋግሩ።",
       "enableError": "የግፋ ማሳወቂያዎችን ማንቃት አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
       "disableError": "የግፋ ማሳወቂያዎችን ማሰናከል አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    "tabs": {
+      "alerts": "ማንቂያዎች",
+      "announcements": "ማስታወቂያዎች"
+    },
+    "announcements": {
+      "loadError": "ማስታወቂያዎችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+      "loading": "ማስታወቂያዎችን በመጫን ላይ…",
+      "empty": "አሁን ከማህበረሰብ አስተዳዳሪዎ ምንም ማስታወቂያዎች የሉም።",
+      "pinned": "ተሰክቷል።",
+      "postedAt": "Posted {{date}}",
+      "expiresAt": "እስከ {{date}}",
+      "category": {
+        "general": "አጠቃላይ",
+        "maintenance": "ጥገና",
+        "waterSupply": "የውሃ አቅርቦት",
+        "billing": "የሂሳብ አከፋፈል",
+        "urgent": "አስቸኳይ"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "የነዋሪዎች ድጋፍ እና አሳሳቢ ጉዳዮች ዴስክ",
     "subtitle": "የውሃ ማፍሰስ ሪፖርቶችን፣ የሜትር መለኪያ ጥያቄዎችን ወይም የሂሳብ መጠየቂያ ጥያቄዎችን በቀጥታ ለማህበረሰብ አስተዳዳሪዎ እና/ወይም የስርዓት አስተዳዳሪዎ ያቅርቡ።",
     "emptyCreateHint": "ችግርዎን ወይም ስጋትዎን ከዚህ በታች ይግለጹ እና ማን ማስተናገድ እንዳለበት ይምረጡ።"
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "ያለፉት 3 ወራት",
+      "sixMonths": "ያለፉት 6 ወራት",
+      "twelveMonths": "ያለፉት 12 ወራት",
+      "custom": "ብጁ ክልል"
+    },
+    "customRange": {
+      "from": "ከ",
+      "to": "ለ",
+      "hint": "ሪፖርትዎን ለማየት የመጀመሪያ እና የመጨረሻ ወር ይምረጡ።"
+    },
+    "loading": "ሪፖርትዎን በመጫን ላይ…",
+    "loadError": "ሪፖርትህን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "pdfError": "መግለጫውን ማውረድ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "downloading": "በማውረድ ላይ…",
+    "downloadCsv": "Download CSV",
+    "downloadStatement": "አውርድ መግለጫ PDF",
+    "period": "የሪፖርት ጊዜ፡ {{from}} ወደ {{to}}",
+    "cards": {
+      "totalUsage": "አጠቃላይ አጠቃቀም",
+      "avgMonthly": "አማካይ ወርሃዊ አጠቃቀም",
+      "avgMonthlyHint": "ከተመዘገቡ ንባቦች ጋር ወራቶች",
+      "change": "ለውጥ ከቀዳሚው ጊዜ ጋር",
+      "changeHint": "{{previous}} in {{from}} to {{to}}",
+      "changeNoData": "ለማነጻጸር ባለፈው ክፍለ ጊዜ ምንም ጥቅም የለም።",
+      "totalBilled": "ጠቅላላ ክፍያ ተከፍሏል።",
+      "totalPaid": "ጠቅላላ የተከፈለ",
+      "outstanding": "የላቀ"
+    },
+    "chart": {
+      "title": "ወርሃዊ አጠቃቀም እና ክፍያ",
+      "subtitle": "Bars show consumption (kL); the line shows the billed amount (₹).",
+      "consumption": "ፍጆታ",
+      "billed": "ተከፍሏል።"
+    },
+    "table": {
+      "title": "ወር-በ-ወር መከፋፈል",
+      "month": "ወር",
+      "consumption": "Consumption (kL)",
+      "billed": "ተከፍሏል።",
+      "paid": "የተከፈለ",
+      "status": "ሁኔታ"
+    },
+    "status": {
+      "paid": "የተከፈለ",
+      "unpaid": "ያልተከፈለ",
+      "notBilled": "አልተከፈለም።"
+    }
+  },
+  "profile": {
+    "detailsTitle": "የመለያ ዝርዝሮች",
+    "managedNote": "የማህበረሰብ አስተዳዳሪዎ እነዚህን ዝርዝሮች ያስተዳድራል። የሆነ ነገር መለወጥ ካለበት ያነጋግሩዋቸው።",
+    "loading": "መገለጫዎን በመጫን ላይ…",
+    "loadError": "መገለጫህን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "notSet": "አልተዘጋጀም።",
+    "flatSizeValue": "{{size}} ካሬ ጫማ",
+    "avatarTitle": "አምሳያ",
+    "passwordTitle": "የይለፍ ቃል ቀይር",
+    "fields": {
+      "fullName": "ሙሉ ስም",
+      "email": "ኢሜይል",
+      "phone": "ስልክ",
+      "houseNumber": "የቤት ቁጥር",
+      "meterNumber": "ሜትር ቁጥር",
+      "community": "ማህበረሰብ",
+      "flatSize": "ጠፍጣፋ መጠን",
+      "joined": "ተቀላቅሏል።"
+    }
   }
 }

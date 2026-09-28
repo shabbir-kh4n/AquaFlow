@@ -275,6 +275,41 @@ public class BillingCycleService {
         return toInvoiceResponse(invoiceRepository.save(invoice));
     }
 
+    /**
+     * Simulated "Pay Total Outstanding": marks every unpaid invoice of the resident's own household
+     * paid in one go, recording exactly what the single-invoice simulated pay records (paid + paidAt).
+     * No real payment gateway is involved. Idempotent - returns an empty list when nothing is unpaid.
+     *
+     * @return the invoices that were just marked paid (already-paid invoices are not included)
+     */
+    @Transactional
+    public List<InvoiceResponse> payAllOutstandingAsResident(Resident resident) {
+        Household residentHousehold = resident.getHousehold();
+        if (residentHousehold == null) {
+            return List.of();
+        }
+
+        Household household = householdRepository.findWithApartmentById(residentHousehold.getId())
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Household not found"));
+
+        List<Invoice> unpaid = invoiceRepository.findByHouseholdOrderByGeneratedAtDesc(household).stream()
+                .filter(invoice -> !invoice.isPaid())
+                .toList();
+        if (unpaid.isEmpty()) {
+            return List.of();
+        }
+
+        Instant paidAt = Instant.now();
+        for (Invoice invoice : unpaid) {
+            invoice.setPaid(true);
+            invoice.setPaidAt(paidAt);
+        }
+
+        return invoiceRepository.saveAll(unpaid).stream()
+                .map(this::toInvoiceResponse)
+                .toList();
+    }
+
     public byte[] generateInvoicePdfForAdmin(Apartment apartment, Long invoiceId) {
         Invoice invoice = invoiceRepository.findByIdAndBillingCycle_Apartment(invoiceId, apartment)
                 .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Invoice not found"));

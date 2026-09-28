@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Stuðulsmiðlar",
     "subtitle": "Stuðla atgongumerkjum og ávum, sum íbúgvar og samfelags admins hava reist, um allan pallin."
+  },
+  "profile": {
+    "accountTitle": "Konta",
+    "avatarTitle": "Myndmynd",
+    "passwordTitle": "Broyt loyniorð",
+    "loadError": "Kundi ikki heinta tína vangamynd. Vinarliga royn aftur.",
+    "fields": {
+      "fullName": "Fullt navn",
+      "email": "Teldupostur",
+      "role": "Leiklutur",
+      "roleValue": "Skipanarleiðari"
+    }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Stuðningsmiðar",
     "subtitle": "Styðjið miða og áhyggjur sem íbúar og stjórnendur samfélagsins hafa vakið yfir, alls staðar á vettvangi."
+  },
+  "profile": {
+    "accountTitle": "Reikningur",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Breyta lykilorði",
+    "loadError": "Ekki tókst að hlaða prófílnum þínum. Vinsamlegast reyndu aftur.",
+    "fields": {
+      "fullName": "Fullt nafn",
+      "email": "Tölvupóstur",
+      "role": "Hlutverk",
+      "roleValue": "Kerfisstjóri"
+    }
   }
 }

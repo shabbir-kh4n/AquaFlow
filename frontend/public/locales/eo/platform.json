@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Subtenaj Biletoj",
     "subtitle": "Subtenaj biletoj kaj zorgoj levitaj de loĝantoj kaj komunumaj administrantoj, tutplatformo."
+  },
+  "profile": {
+    "accountTitle": "Konto",
+    "avatarTitle": "Avataro",
+    "passwordTitle": "Ŝanĝi pasvorton",
+    "loadError": "Ne eblis ŝargi vian profilon. Bonvolu provi denove.",
+    "fields": {
+      "fullName": "Plena nomo",
+      "email": "Retpoŝto",
+      "role": "Rolo",
+      "roleValue": "Sistemadministranto"
+    }
   }
 }

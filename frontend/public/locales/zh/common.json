@@ -222,6 +222,14 @@
         "title": "支持/关注",
         "subtitle": "向系统管理员提出您自己的票证，或处理您的居民向您提出的问题。"
       },
+      "reports": {
+        "title": "社区报告",
+        "subtitle": "您所在社区的消费、计费、收款和批量购买数据。"
+      },
+      "announcements": {
+        "title": "公告",
+        "subtitle": "向居民发布社区范围的通知。"
+      },
       "profile": {
         "title": "设置和个人资料",
         "subtitle": "管理您的帐户详细信息和公寓信息。"
@@ -231,16 +239,6 @@
     "fallbackCommunity": "社区管理员",
     "notBuilt": "{{label}} 尚未构建",
     "searchPlaceholder": "搜索任何东西..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "报告",
-      "description": "您所在社区的消耗、计费和保护报告。"
-    },
-    "announcements": {
-      "title": "公告",
-      "description": "向您的居民发送社区范围的公告。"
-    }
   },
   "comingSoon": {
     "title": "{{title}} 即将推出"
@@ -261,7 +259,9 @@
       "billing": "账单和发票",
       "notifications": "通知",
       "recommendations": "建议",
-      "support": "支持/关注"
+      "support": "支持/关注",
+      "reports": "您的使用情况和支出报告",
+      "profile": "我的个人资料"
     },
     "defaultTitle": "居民仪表板",
     "navLabel": "驻地导航",
@@ -277,7 +277,8 @@
       "communities": "社区",
       "reports": "报告",
       "supportTickets": "支持票",
-      "systemStatus": "系统状态"
+      "systemStatus": "系统状态",
+      "profile": "轮廓"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "系统状态",
         "subtitle": "后端连接和基本运行时健康状况。"
+      },
+      "profile": {
+        "title": "轮廓",
+        "subtitle": "您的帐户、头像和密码"
       }
     },
     "fallbackName": "系统管理员",
@@ -308,5 +313,40 @@
     "buttonLabel": "语言：{{language}}",
     "searchPlaceholder": "搜索语言...",
     "noMatches": "没有匹配项"
+  },
+  "avatarPicker": {
+    "label": "选择头像",
+    "hint": "选择预设头像之一，或使用您的姓名首字母缩写。",
+    "change": "改变",
+    "cancel": "取消",
+    "useInitials": "使用缩写",
+    "optionLabel": "头像 {{number}}",
+    "save": "保存头像",
+    "saving": "保存…",
+    "saved": "头像已更新",
+    "saveError": "无法更新您的头像。请再试一次。"
+  },
+  "changePassword": {
+    "current": "当前密码",
+    "new": "新密码",
+    "confirm": "确认新密码",
+    "hint": "至少 {{min}} 个字符。",
+    "tooShort": "新密码必须至少包含 {{min}} 个字符。",
+    "mismatch": "新密码不匹配。",
+    "sameAsCurrent": "新密码必须与您当前的密码不同。",
+    "submit": "更新密码",
+    "saving": "正在更新…",
+    "success": "您的密码已更新。",
+    "error": "无法更新您的密码。请再试一次。"
+  },
+  "search": {
+    "kindPage": "页",
+    "kindRecord": "结果",
+    "loading": "正在寻找...",
+    "noResults": "没有匹配项",
+    "recordsUnavailable": "目前只能搜索页面。",
+    "invoiceLabel": "发票 {{period}}",
+    "paid": "有薪酬的",
+    "unpaid": "未付"
   }
 }

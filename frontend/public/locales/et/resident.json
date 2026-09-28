@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Varsti tulemas",
     "welcome": {
       "greeting": "Tere, {{name}}",
       "greetingFallback": "Tere,",
       "title": "Püsige oma kodu veejutu lähedal.",
-      "subtitle": "Siin kuvatakse kasutus- ja arveldamise statistika, kuna teie kogukond salvestab näidud.",
-      "viewBadges": "Vaadake ökomärke"
+      "subtitle": "Siin kuvatakse kasutus- ja arveldamise statistika, kuna teie kogukond salvestab näidud."
     },
     "stats": {
       "todaysUsage": "Tänane kasutus",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Kasutusarvestus + jagatud tasud, {{month}}",
       "estimatedBillHint": "Põhineb selle kuu mõõdetud tarbimisel ja jagatud tasudel",
       "savings": "Sääst vs hoone keskmine",
-      "savingsValue": "{{percent}}% vähem",
-      "savingsPreview": "Ainult eelvaade – võrdlus pole veel aktiivne"
+      "savingsLess": "{{percent}}% vähem",
+      "savingsMore": "{{percent}}% rohkem",
+      "savingsEqual": "Sama nagu keskmine",
+      "savingsDetail": "{{household}} kL vs {{average}} kL keskmine, {{month}}",
+      "savingsNoData": "Hoonete võrdlust veel pole"
     },
     "consumption": {
       "eyebrow": "Tarbimine",
       "title": "Päevane tarbimine (viimased 14 näitu)",
       "seriesName": "Tarbimine",
       "empty": "Näiteid pole veel salvestatud."
-    },
-    "breakdown": {
-      "eyebrow": "Jaotus",
-      "title": "Kasutamise jaotus",
-      "bathroom": "Vannituba",
-      "kitchen": "Köök",
-      "garden": "Aed / rõdu",
-      "other": "Muu / Pesu"
     },
     "billing": {
       "eyebrow": "Arveldamine",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Taseme hinnatase",
       "tierLabel": "Tase {{tier}}",
       "commonArea": "Ühispinna jaotus",
-      "commonAreaPreview": "Ühise ala jaotus (eelvaade)",
       "invoiceTotal": "{{period}} arve kokku",
       "estimatedCharge": "Praegune hinnanguline tasu",
       "commonAreaBreakdown": "Ühise ala jaotus",
-      "payPreview": "Maksete arvete eelvaade",
-      "payUnavailable": "Arveldusmootor pole veel saadaval"
+      "commonAreaEstimate": "Ühise ala jaotus (hinnanguline)",
+      "payOutstanding": "Makske tasumata {{amount}} ₹",
+      "payAllDescription": "Kõik maksmata arved ({{number}})"
     },
     "tips": {
       "eyebrow": "Näpunäiteid",
@@ -66,8 +59,7 @@
     "empty": "Näiteid pole veel salvestatud. Kui teie kogukond registreerib arvesti näidu, kuvatakse see siin.",
     "tabs": {
       "lastSixMonths": "Viimased 6 kuud",
-      "customRange": "Kohandatud vahemik",
-      "comingSoon": "Varsti tulemas"
+      "customRange": "Kohandatud vahemik"
     },
     "peakDay": "Tipppäev:",
     "lowestDay": "Madalaim päev:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Päevase tarbimise soojuskaart",
-      "subtitle": "Värvi intensiivsus tähistab tiheda kasutusega päevi (eelvaade)."
+      "subtitle": "Värvi intensiivsus tähistab tiheda kasutusega päevi (eelvaade).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: andmed puuduvad",
+      "less": "Vähem",
+      "more": "Rohkem",
+      "noData": "Andmed puuduvad"
     },
     "ranking": {
       "title": "Kogukonna kolleegide edetabel",
-      "subtitle": "Teie asetus võrreldes sarnaste üksustega (eelvaade).",
-      "ecoSaver": "Aktiivne ökosäästja",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Üksus {{number}}",
-      "yourUnit": "Teie üksus",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Teie)"
+      "subtitle": "Teie leibkond vs kõik teie korteri leibkonnad {{month}}. Madalam kasutus on kõrgem.",
+      "headline": "#{{rank}} {{total}} leibkonnast",
+      "percentile": "Kasutasite vähem vett kui {{percent}}% oma naabritest.",
+      "min": "Madalaim",
+      "median": "Mediaan",
+      "max": "Kõrgeim",
+      "youRow": "#{{rank}} Sina",
+      "neighbourRow": "#{{rank}} Naaber",
+      "privacyNote": "Naabrid on anonüümsed. Majanumbreid ja nimesid ei näidata kunagi.",
+      "empty": "Teie leibkonna järjestamiseks pole veel piisavalt andmeid."
+    },
+    "range": {
+      "from": "Alates",
+      "to": "To",
+      "invalid": "Alguskuu ei tohi olla pärast lõpukuud.",
+      "noData": "Selles vahemikus pole tarbimisandmeid."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Arveldustsükkel: {{period}}",
       "allPaid": "Kõik arved on tasutud",
       "payTotal": "Tasu kokku tasumata",
-      "payTotalUnavailable": "Veebimakse pole veel saadaval – arveldage arveid otse kogukonna administraatoriga",
       "downloadSummary": "Laadige alla arve kokkuvõte",
-      "downloadSummaryUnavailable": "Arve kokkuvõtte allalaadimine pole veel saadaval"
+      "payAllDescription": "Kõik maksmata arved ({{number}})"
     },
     "history": {
       "title": "Arve ajalugu",
-      "exportCsv": "Ekspordi kõik asukohta CSV",
-      "exportUnavailable": "CSV eksport pole veel saadaval"
+      "exportCsv": "Ekspordi kõik asukohta CSV"
     },
     "table": {
       "cycle": "Tsükkel",
@@ -148,6 +151,17 @@
       "description": "Veebimakse pole veel saadaval – arved arveldatakse otse teie kogukonna administraatoriga.",
       "manage": "Makseviiside haldamine",
       "manageUnavailable": "Makseviisid pole veel saadaval"
+    },
+    "csv": {
+      "cycle": "Arveldusperiood",
+      "consumption": "Tarbimine (kL)",
+      "baseAmount": "Baassumma",
+      "tariffAmount": "Tariifi summa",
+      "commonAreaAmount": "Ühispinna summa",
+      "totalAmount": "Kogusumma",
+      "paid": "Tasuline",
+      "paidAt": "Makstud kl",
+      "generatedAt": "Loodud aadressil"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Palun ärge vajutage tagasi ega värskendage seda lehte",
     "success": "Makse õnnestus",
     "error": "Teie makse kinnitamisel läks midagi valesti. Palun proovi uuesti.",
-    "retry": "Proovi uuesti"
+    "retry": "Proovi uuesti",
+    "simulationNotice": "Simuleeritud kassasse ainult tutvustamiseks. Päris makset ei tehta ja raha ei võeta."
   },
   "notifications": {
     "loadError": "Teie teatisi ei saanud laadida. Palun proovi uuesti.",
@@ -213,6 +228,25 @@
       "notConfigured": "Tõukemärguanded pole veel konfigureeritud. Võtke ühendust oma administraatoriga.",
       "enableError": "Tõukemärguandeid ei saanud lubada. Palun proovi uuesti.",
       "disableError": "Tõukemärguandeid ei saanud keelata. Palun proovi uuesti."
+    },
+    "tabs": {
+      "alerts": "Märguanded",
+      "announcements": "Teated"
+    },
+    "announcements": {
+      "loadError": "Teateid ei saanud laadida. Palun proovi uuesti.",
+      "loading": "Teadete laadimine…",
+      "empty": "Teie kogukonna administraatorilt pole praegu teadaandeid.",
+      "pinned": "Kinnitatud",
+      "postedAt": "Postitatud {{date}}",
+      "expiresAt": "Kuni {{date}}",
+      "category": {
+        "general": "Kindral",
+        "maintenance": "Hooldus",
+        "waterSupply": "Veevarustus",
+        "billing": "Arveldamine",
+        "urgent": "Kiireloomuline"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Residentide tugi- ja murepunkt",
     "subtitle": "Esitage veelekkearuanded, arvestite kalibreerimistaotlused või arvelduspäringud otse oma kogukonna administraatorile ja/või süsteemiadministraatorile.",
     "emptyCreateHint": "Kirjeldage allpool oma probleemi või muret ja valige, kes peaks sellega tegelema."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Viimased 3 kuud",
+      "sixMonths": "Viimased 6 kuud",
+      "twelveMonths": "Viimased 12 kuud",
+      "custom": "Kohandatud vahemik"
+    },
+    "customRange": {
+      "from": "Alates",
+      "to": "To",
+      "hint": "Aruande vaatamiseks valige algus- ja lõppkuu."
+    },
+    "loading": "Aruande laadimine…",
+    "loadError": "Teie aruannet ei saanud laadida. Palun proovi uuesti.",
+    "pdfError": "Väljavõtet ei saanud alla laadida. Palun proovi uuesti.",
+    "downloading": "Allalaadimine…",
+    "downloadCsv": "Laadi alla CSV",
+    "downloadStatement": "Laadi alla avaldus PDF",
+    "period": "Aruandeperiood: {{from}} kuni {{to}}",
+    "cards": {
+      "totalUsage": "Kogukasutus",
+      "avgMonthly": "Keskmine kuukasutus",
+      "avgMonthlyHint": "Kuude lõikes salvestatud näitudega",
+      "change": "Muuda vs eelmine periood",
+      "changeHint": "{{previous}} {{from}} kuni {{to}}",
+      "changeNoData": "Võrdlemiseks eelmisel perioodil kasutus puudub",
+      "totalBilled": "Arveldatud kokku",
+      "totalPaid": "Kokku makstud",
+      "outstanding": "Silmapaistev"
+    },
+    "chart": {
+      "title": "Igakuine kasutus ja arveldamine",
+      "subtitle": "Tulbad näitavad tarbimist (kL); rida näitab arveldatud summat (₹).",
+      "consumption": "Tarbimine",
+      "billed": "Arveldatud"
+    },
+    "table": {
+      "title": "Kuude lõikes jaotus",
+      "month": "Kuu",
+      "consumption": "Tarbimine (kL)",
+      "billed": "Arveldatud",
+      "paid": "Tasuline",
+      "status": "Olek"
+    },
+    "status": {
+      "paid": "Tasuline",
+      "unpaid": "Tasumata",
+      "notBilled": "Arveldamata"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Konto üksikasjad",
+    "managedNote": "Teie kogukonna administraator haldab neid üksikasju. Võtke nendega ühendust, kui midagi on vaja muuta.",
+    "loading": "Teie profiili laadimine…",
+    "loadError": "Teie profiili ei saanud laadida. Palun proovi uuesti.",
+    "notSet": "Pole määratud",
+    "flatSizeValue": "{{size}} ruutjalga",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Muuda parooli",
+    "fields": {
+      "fullName": "Täisnimi",
+      "email": "Meil",
+      "phone": "Telefon",
+      "houseNumber": "Maja number",
+      "meterNumber": "Arvesti number",
+      "community": "kogukond",
+      "flatSize": "Lame suurus",
+      "joined": "Liitunud"
+    }
   }
 }

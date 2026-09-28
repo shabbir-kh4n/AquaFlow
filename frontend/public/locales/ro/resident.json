@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "În curând",
     "welcome": {
       "greeting": "Bună ziua {{name}},",
       "greetingFallback": "Salutare,",
       "title": "Rămâi aproape de povestea cu apă a casei tale.",
-      "subtitle": "Informațiile despre utilizare și facturare vor apărea aici pe măsură ce comunitatea dvs. înregistrează citirile.",
-      "viewBadges": "Vedeți Eco-insigne"
+      "subtitle": "Informațiile despre utilizare și facturare vor apărea aici pe măsură ce comunitatea dvs. înregistrează citirile."
     },
     "stats": {
       "todaysUsage": "Utilizarea de azi",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Utilizare măsurată + taxe partajate, {{month}}",
       "estimatedBillHint": "Pe baza consumului contorizat din această lună și a taxelor partajate",
       "savings": "Economii vs clădire medie",
-      "savingsValue": "{{percent}}% mai puțin",
-      "savingsPreview": "Doar previzualizare — comparația nu este încă live"
+      "savingsLess": "{{percent}}% mai puțin",
+      "savingsMore": "{{percent}}% mai mult",
+      "savingsEqual": "La fel ca media",
+      "savingsDetail": "{{household}} kL vs {{average}} kL medie, {{month}}",
+      "savingsNoData": "Nicio comparație de clădire încă"
     },
     "consumption": {
       "eyebrow": "Consum",
       "title": "Consum zilnic (ultimele 14 citiri)",
       "seriesName": "Consum",
       "empty": "Nu s-au înregistrat încă citiri."
-    },
-    "breakdown": {
-      "eyebrow": "Dărâma",
-      "title": "Defalcarea utilizării",
-      "bathroom": "Baie",
-      "kitchen": "Bucătărie",
-      "garden": "Grădină / Balcon",
-      "other": "Altele / Spălătorie"
     },
     "billing": {
       "eyebrow": "Facturare",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Nivelul prețului",
       "tierLabel": "Nivelul {{tier}}",
       "commonArea": "Repartizarea zonei comune",
-      "commonAreaPreview": "Repartizarea zonei comune (previzualizare)",
       "invoiceTotal": "{{period}} factură totală",
       "estimatedCharge": "Taxa curent estimat",
       "commonAreaBreakdown": "Defalcarea zonei comune",
-      "payPreview": "Previzualizarea plății facturilor",
-      "payUnavailable": "Motorul de facturare nu este încă disponibil"
+      "commonAreaEstimate": "Repartizarea suprafeței comune (estimare)",
+      "payOutstanding": "Plătiți restante {{amount}} INR",
+      "payAllDescription": "Toate facturile neplătite ({{number}})"
     },
     "tips": {
       "eyebrow": "Sfaturi",
@@ -66,8 +59,7 @@
     "empty": "Nu s-au înregistrat încă citiri. Odată ce comunitatea dvs. înregistrează o citire a contorului, aceasta va apărea aici.",
     "tabs": {
       "lastSixMonths": "Ultimele 6 luni",
-      "customRange": "Interval personalizat",
-      "comingSoon": "În curând"
+      "customRange": "Interval personalizat"
     },
     "peakDay": "Ziua de vârf:",
     "lowestDay": "Ziua cea mai scăzută:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Harta termică a consumului zilnic",
-      "subtitle": "Intensitatea culorii semnalează zile de utilizare intensă (previzualizare)."
+      "subtitle": "Intensitatea culorii semnalează zile de utilizare intensă (previzualizare).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: fără date",
+      "less": "Mai puțin",
+      "more": "Mai mult",
+      "noData": "Fără date"
     },
     "ranking": {
       "title": "Clasamentul comunității peer",
-      "subtitle": "Clasamentul dvs. în comparație cu unități similare (previzualizare).",
-      "ecoSaver": "Economisitor activ",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Unitatea {{number}}",
-      "yourUnit": "Unitatea ta",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Tu)"
+      "subtitle": "Gospodăria dvs. față de fiecare gospodărie din apartamentul dvs. pentru {{month}}. Utilizarea mai scăzută se clasează mai sus.",
+      "headline": "#{{rank}} din {{total}} gospodării",
+      "percentile": "Ai folosit mai puțină apă decât {{percent}}% dintre vecinii tăi.",
+      "min": "Cel mai scăzut",
+      "median": "Median",
+      "max": "Cel mai înalt",
+      "youRow": "#{{rank}} Tu",
+      "neighbourRow": "#{{rank}} Vecin",
+      "privacyNote": "Vecinii sunt anonimi. Numerele și numele caselor nu sunt afișate niciodată.",
+      "empty": "Nu sunt suficiente date încă pentru a vă clasifica gospodăria."
+    },
+    "range": {
+      "from": "Din",
+      "to": "La",
+      "invalid": "Luna de început nu trebuie să fie după luna de sfârșit.",
+      "noData": "Nu există date de consum în acest interval."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Ciclul de facturare: {{period}}",
       "allPaid": "Toate facturile sunt achitate",
       "payTotal": "Plătiți total restante",
-      "payTotalUnavailable": "Plata online nu este încă disponibilă - plătiți facturile direct cu administratorul comunității",
       "downloadSummary": "Descărcați rezumatul facturii",
-      "downloadSummaryUnavailable": "Descărcarea rezumatului facturii nu este încă disponibilă"
+      "payAllDescription": "Toate facturile neplătite ({{number}})"
     },
     "history": {
       "title": "Istoricul facturilor",
-      "exportCsv": "Exportați toate în CSV",
-      "exportUnavailable": "Exportul CSV nu este încă disponibil"
+      "exportCsv": "Exportați toate în CSV"
     },
     "table": {
       "cycle": "Ciclu",
@@ -148,6 +151,17 @@
       "description": "Plata online nu este încă disponibilă — facturile sunt decontate direct cu administratorul comunității.",
       "manage": "Gestionați metodele de plată",
       "manageUnavailable": "Metodele de plată nu sunt încă disponibile"
+    },
+    "csv": {
+      "cycle": "Perioada de facturare",
+      "consumption": "Consum (kL)",
+      "baseAmount": "Suma de bază",
+      "tariffAmount": "Valoarea tarifului",
+      "commonAreaAmount": "Cantitatea zonei comune",
+      "totalAmount": "Valoare totală",
+      "paid": "Plătit",
+      "paidAt": "Plătit la",
+      "generatedAt": "Generat la"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Vă rugăm să nu apăsați înapoi sau să reîmprospătați această pagină",
     "success": "Plata reușită",
     "error": "A apărut o eroare la confirmarea plății dvs. Vă rugăm să încercați din nou.",
-    "retry": "Reîncercați"
+    "retry": "Reîncercați",
+    "simulationNotice": "Cazare simulată doar pentru demonstrație. Nu se efectuează nicio plată reală și nu se percepe bani."
   },
   "notifications": {
     "loadError": "Nu s-au putut încărca notificările dvs. Vă rugăm să încercați din nou.",
@@ -213,6 +228,25 @@
       "notConfigured": "Notificările push nu sunt încă configurate. Contactați administratorul dvs.",
       "enableError": "Nu s-au putut activa notificările push. Vă rugăm să încercați din nou.",
       "disableError": "Nu s-au putut dezactiva notificările push. Vă rugăm să încercați din nou."
+    },
+    "tabs": {
+      "alerts": "Alerte",
+      "announcements": "Anunturi"
+    },
+    "announcements": {
+      "loadError": "Nu s-au putut încărca anunțurile. Vă rugăm să încercați din nou.",
+      "loading": "Se încarcă anunțuri…",
+      "empty": "Niciun anunț de la administratorul comunității dvs. în acest moment.",
+      "pinned": "Fixat",
+      "postedAt": "Postat {{date}}",
+      "expiresAt": "Până la {{date}}",
+      "category": {
+        "general": "General",
+        "maintenance": "Întreţinere",
+        "waterSupply": "Aprovizionare cu apă",
+        "billing": "Facturare",
+        "urgent": "Urgent"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Birou de asistență și preocupări pentru rezidenți",
     "subtitle": "Trimiteți rapoarte privind scurgerile de apă, solicitări de calibrare a contorului sau întrebări de facturare direct administratorului comunității și/sau administratorului de sistem.",
     "emptyCreateHint": "Descrieți problema sau preocuparea dvs. mai jos și alegeți cine ar trebui să se ocupe de ea."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Ultimele 3 luni",
+      "sixMonths": "Ultimele 6 luni",
+      "twelveMonths": "Ultimele 12 luni",
+      "custom": "Interval personalizat"
+    },
+    "customRange": {
+      "from": "Din",
+      "to": "La",
+      "hint": "Alegeți o lună de început și de sfârșit pentru a vedea raportul."
+    },
+    "loading": "Se încarcă raportul...",
+    "loadError": "Raportul dvs. nu a putut fi încărcat. Vă rugăm să încercați din nou.",
+    "pdfError": "Nu s-a putut descărca declarația. Vă rugăm să încercați din nou.",
+    "downloading": "Se descarcă…",
+    "downloadCsv": "Descărcați CSV",
+    "downloadStatement": "Descărcați declarația PDF",
+    "period": "Perioada de raportare: {{from}} până la {{to}}",
+    "cards": {
+      "totalUsage": "Utilizare totală",
+      "avgMonthly": "Utilizare lunară medie",
+      "avgMonthlyHint": "Pe parcursul lunilor cu citiri înregistrate",
+      "change": "Schimbare vs perioada anterioară",
+      "changeHint": "{{previous}} în {{from}} până la {{to}}",
+      "changeNoData": "Nicio utilizare în perioada anterioară pentru a compara",
+      "totalBilled": "Total facturat",
+      "totalPaid": "Total plătit",
+      "outstanding": "Remarcabil"
+    },
+    "chart": {
+      "title": "Utilizare lunară și facturare",
+      "subtitle": "Barurile arată consumul (kL); linia arată suma facturată (₹).",
+      "consumption": "Consum",
+      "billed": "Facturat"
+    },
+    "table": {
+      "title": "Defalcare lună cu lună",
+      "month": "Lună",
+      "consumption": "Consum (kL)",
+      "billed": "Facturat",
+      "paid": "Plătit",
+      "status": "Stare"
+    },
+    "status": {
+      "paid": "Plătit",
+      "unpaid": "Neplătit",
+      "notBilled": "Nefacturat"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Detaliile contului",
+    "managedNote": "Administratorul comunității dvs. gestionează aceste detalii. Contactați-i dacă trebuie să se schimbe ceva.",
+    "loading": "Se încarcă profilul dvs....",
+    "loadError": "Nu s-a putut încărca profilul dvs. Vă rugăm să încercați din nou.",
+    "notSet": "Nu setat",
+    "flatSizeValue": "{{size}} sq ft",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Schimbaţi parola",
+    "fields": {
+      "fullName": "Numele complet",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "houseNumber": "Numărul casei",
+      "meterNumber": "Numărul contorului",
+      "community": "Comunitate",
+      "flatSize": "Dimensiune plată",
+      "joined": "S-a alăturat"
+    }
   }
 }

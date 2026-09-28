@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Yakında gelecek",
     "welcome": {
       "greeting": "Merhaba {{name}},",
       "greetingFallback": "Selamlar,",
       "title": "Evinizin su hikayesine yakın durun.",
-      "subtitle": "Topluluğunuz okumaları kaydettikçe kullanım ve faturalandırma bilgileri burada görünecektir.",
-      "viewBadges": "Eko Rozetleri Görüntüle"
+      "subtitle": "Topluluğunuz okumaları kaydettikçe kullanım ve faturalandırma bilgileri burada görünecektir."
     },
     "stats": {
       "todaysUsage": "Bugünkü Kullanım",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Ölçülen kullanım + paylaşılan ücretler, {{month}}",
       "estimatedBillHint": "Bu ayın ölçülen tüketimine ve paylaşılan ücretlere dayanmaktadır",
       "savings": "Tasarruf ve Bina Ortalaması",
-      "savingsValue": "%{{percent}} Daha Az",
-      "savingsPreview": "Yalnızca önizleme — karşılaştırma henüz yayınlanmadı"
+      "savingsLess": "%{{percent}} Daha Az",
+      "savingsMore": "%{{percent}} Daha Fazla",
+      "savingsEqual": "Ortalama ile aynı",
+      "savingsDetail": "{{household}} kL vs {{average}} kL ortalaması, {{month}}",
+      "savingsNoData": "Henüz bina karşılaştırması yok"
     },
     "consumption": {
       "eyebrow": "Tüketim",
       "title": "Günlük Tüketim (Son 14 Okuma)",
       "seriesName": "Tüketim",
       "empty": "Henüz kayıtlı bir okuma yok."
-    },
-    "breakdown": {
-      "eyebrow": "Bozulma",
-      "title": "Kullanım Dağılımı",
-      "bathroom": "Banyo",
-      "kitchen": "Mutfak",
-      "garden": "Bahçe / Balkon",
-      "other": "Diğer / Çamaşırhane"
     },
     "billing": {
       "eyebrow": "Faturalandırma",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Katman fiyat düzeyi",
       "tierLabel": "Seviye {{tier}}",
       "commonArea": "Ortak alan paylaşımı",
-      "commonAreaPreview": "Ortak alan paylaşımı (önizleme)",
       "invoiceTotal": "{{period}} fatura toplamı",
       "estimatedCharge": "Mevcut tahmini ücret",
       "commonAreaBreakdown": "Ortak alan dökümü",
-      "payPreview": "Ödeme Faturası Önizlemesi",
-      "payUnavailable": "Faturalandırma motoru henüz kullanılamıyor"
+      "commonAreaEstimate": "Ortak alan paylaşımı (tahmini)",
+      "payOutstanding": "₹{{amount}} Ödenmemiş Ödeme",
+      "payAllDescription": "Tüm ödenmemiş faturalar ({{number}})"
     },
     "tips": {
       "eyebrow": "İpuçları",
@@ -66,8 +59,7 @@
     "empty": "Henüz kayıtlı bir okuma yok. Topluluğunuz bir sayaç okuması kaydettiğinde burada görünecektir.",
     "tabs": {
       "lastSixMonths": "Son 6 Ay",
-      "customRange": "Özel Aralık",
-      "comingSoon": "Yakında gelecek"
+      "customRange": "Özel Aralık"
     },
     "peakDay": "Zirve Günü:",
     "lowestDay": "En Düşük Gün:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Günlük Tüketim Isı Haritası",
-      "subtitle": "Renk yoğunluğu yoğun kullanım günlerini işaretler (önizleme)."
+      "subtitle": "Renk yoğunluğu yoğun kullanım günlerini işaretler (önizleme).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: veri yok",
+      "less": "Az",
+      "more": "Daha",
+      "noData": "Veri yok"
     },
     "ranking": {
       "title": "Topluluk Akran Sıralaması",
-      "subtitle": "Benzer birimlerle karşılaştırıldığında sıralamanız (önizleme).",
-      "ecoSaver": "Aktif Eko Tasarruf",
-      "aptNumber": "Apt {{number}}",
-      "unitNumber": "Birim {{number}}",
-      "yourUnit": "Üniteniz",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Siz)"
+      "subtitle": "{{month}} için haneniz vs dairenizdeki her hane. Daha düşük kullanım daha yüksek sırada yer alır.",
+      "headline": "#{{rank}} / {{total}} hane",
+      "percentile": "Komşularınızın %{{percent}} oranından daha az su kullandınız.",
+      "min": "En düşük",
+      "median": "Medyan",
+      "max": "En yüksek",
+      "youRow": "#{{rank}} Sen",
+      "neighbourRow": "#{{rank}} Komşu",
+      "privacyNote": "Komşular anonimdir. Ev numaraları ve adları hiçbir zaman gösterilmez.",
+      "empty": "Hanenizi sıralamak için henüz yeterli veri yok."
+    },
+    "range": {
+      "from": "İtibaren",
+      "to": "İle",
+      "invalid": "Başlangıç ​​ayı bitiş ayından sonra olmamalıdır.",
+      "noData": "Bu aralıkta tüketim verisi yok."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Faturalandırma Döngüsü: {{period}}",
       "allPaid": "Tüm faturalar ödenmiştir",
       "payTotal": "Toplam Ödenmemiş Ödeme",
-      "payTotalUnavailable": "Çevrimiçi ödeme henüz kullanılamıyor; faturaları doğrudan topluluk yöneticinizle ödeyin",
       "downloadSummary": "Fatura Özetini İndirin",
-      "downloadSummaryUnavailable": "Fatura özeti indirme işlemi henüz kullanılamıyor"
+      "payAllDescription": "Tüm ödenmemiş faturalar ({{number}})"
     },
     "history": {
       "title": "Fatura Geçmişi",
-      "exportCsv": "Tümünü CSV'a Aktar",
-      "exportUnavailable": "CSV dışa aktarma henüz kullanılamıyor"
+      "exportCsv": "Tümünü CSV'a Aktar"
     },
     "table": {
       "cycle": "Döngü",
@@ -148,6 +151,17 @@
       "description": "Çevrimiçi ödeme henüz mevcut değil; faturalar doğrudan topluluk yöneticinizle ödenir.",
       "manage": "Ödeme Yöntemlerini Yönet",
       "manageUnavailable": "Ödeme yöntemleri henüz kullanılamıyor"
+    },
+    "csv": {
+      "cycle": "Fatura dönemi",
+      "consumption": "Tüketim (kL)",
+      "baseAmount": "Baz tutar",
+      "tariffAmount": "Tarife tutarı",
+      "commonAreaAmount": "Ortak alan miktarı",
+      "totalAmount": "Toplam tutar",
+      "paid": "Paralı",
+      "paidAt": "Ödeme tarihi:",
+      "generatedAt": "Oluşturulma tarihi:"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Lütfen geri basmayın veya bu sayfayı yenilemeyin",
     "success": "Ödeme Başarılı",
     "error": "Ödemeniz onaylanırken bir şeyler ters gitti. Lütfen tekrar deneyin.",
-    "retry": "Yeniden dene"
+    "retry": "Yeniden dene",
+    "simulationNotice": "Yalnızca tanıtım amaçlı simüle edilmiş ödeme. Gerçek bir ödeme yapılmaz ve herhangi bir para tahsil edilmez."
   },
   "notifications": {
     "loadError": "Bildirimleriniz yüklenemedi. Lütfen tekrar deneyin.",
@@ -213,6 +228,25 @@
       "notConfigured": "Anlık bildirimler henüz yapılandırılmadı. Yöneticinizle iletişime geçin.",
       "enableError": "Anlık bildirimler etkinleştirilemedi. Lütfen tekrar deneyin.",
       "disableError": "Anlık bildirimler devre dışı bırakılamadı. Lütfen tekrar deneyin."
+    },
+    "tabs": {
+      "alerts": "Uyarılar",
+      "announcements": "Duyurular"
+    },
+    "announcements": {
+      "loadError": "Duyurular yüklenemedi. Lütfen tekrar deneyin.",
+      "loading": "Duyurular yükleniyor…",
+      "empty": "Şu anda topluluk yöneticinizden duyuru yok.",
+      "pinned": "Sabitlendi",
+      "postedAt": "Gönderildi {{date}}",
+      "expiresAt": "{{date}} tarihine kadar",
+      "category": {
+        "general": "Genel",
+        "maintenance": "Bakım",
+        "waterSupply": "Su Temini",
+        "billing": "Faturalandırma",
+        "urgent": "Acil"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Konut Sakinleri Destek ve Endişeler Masası",
     "subtitle": "Su kaçağı raporlarını, sayaç kalibrasyon taleplerini veya faturalandırma sorgularını doğrudan topluluk yöneticinize ve/veya Sistem Yöneticinize gönderin.",
     "emptyCreateHint": "Sorununuzu veya endişenizi aşağıda açıklayın ve kimin ilgilenmesi gerektiğini seçin."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Son 3 Ay",
+      "sixMonths": "Son 6 Ay",
+      "twelveMonths": "Son 12 Ay",
+      "custom": "Özel Aralık"
+    },
+    "customRange": {
+      "from": "İtibaren",
+      "to": "İle",
+      "hint": "Raporunuzu görmek için bir başlangıç ​​ve bitiş ayı seçin."
+    },
+    "loading": "Raporunuz yükleniyor…",
+    "loadError": "Raporunuz yüklenemedi. Lütfen tekrar deneyin.",
+    "pdfError": "Bildirim indirilemedi. Lütfen tekrar deneyin.",
+    "downloading": "İndiriliyor…",
+    "downloadCsv": "CSV İndir",
+    "downloadStatement": "Bildirimi İndir PDF",
+    "period": "Rapor dönemi: {{from}} - {{to}}",
+    "cards": {
+      "totalUsage": "Toplam Kullanım",
+      "avgMonthly": "Ortalama Aylık Kullanım",
+      "avgMonthlyHint": "Kaydedilen okumalarla aylar boyunca",
+      "change": "Değişim ve Önceki Dönem",
+      "changeHint": "{{from}}'den {{to}}'ye {{previous}}",
+      "changeNoData": "Karşılaştırma için önceki dönemde kullanım yok",
+      "totalBilled": "Toplam Faturalandırılan",
+      "totalPaid": "Toplam Ödenen",
+      "outstanding": "Üstün"
+    },
+    "chart": {
+      "title": "Aylık Kullanım ve Faturalandırma",
+      "subtitle": "Çubuklar tüketimi gösterir (kL); satır faturalanan tutarı (₹) gösterir.",
+      "consumption": "Tüketim",
+      "billed": "Faturalandırıldı"
+    },
+    "table": {
+      "title": "Aylık Aylık Dağılımı",
+      "month": "Ay",
+      "consumption": "Tüketim (kL)",
+      "billed": "Faturalandırıldı",
+      "paid": "Paralı",
+      "status": "Durum"
+    },
+    "status": {
+      "paid": "Paralı",
+      "unpaid": "ödenmemiş",
+      "notBilled": "Faturalandırılmadı"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Hesap ayrıntıları",
+    "managedNote": "Topluluk yöneticiniz bu ayrıntıları yönetir. Bir şeyin değişmesi gerekiyorsa onlarla iletişime geçin.",
+    "loading": "Profiliniz yükleniyor…",
+    "loadError": "Profiliniz yüklenemedi. Lütfen tekrar deneyin.",
+    "notSet": "Ayarlanmadı",
+    "flatSizeValue": "{{size}} metrekare",
+    "avatarTitle": "avatar",
+    "passwordTitle": "Şifre değiştir",
+    "fields": {
+      "fullName": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "houseNumber": "Ev numarası",
+      "meterNumber": "Sayaç numarası",
+      "community": "Toplum",
+      "flatSize": "Düz boyut",
+      "joined": "Katıldı"
+    }
   }
 }

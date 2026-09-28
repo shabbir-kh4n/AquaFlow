@@ -60,6 +60,9 @@ public class Resident {
     @Builder.Default
     private boolean passwordSet = false;
 
+    @Column(name = "avatar_key", length = 32)
+    private String avatarKey;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "admin_id", nullable = false)
     private CommunityAdmin createdBy;

@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hydroledger.backend.dto.AdminProfileRequest;
 import com.hydroledger.backend.dto.AdminProfileResponse;
 import com.hydroledger.backend.entity.CommunityAdmin;
+import com.hydroledger.backend.entity.Role;
 import com.hydroledger.backend.repository.CommunityAdminRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -24,6 +25,13 @@ public class AdminProfileService {
     public AdminProfileResponse update(AdminProfileRequest request, CommunityAdmin admin) {
         admin.setFullName(request.fullName());
         admin.setPhone(request.phone());
+        communityAdminRepository.save(admin);
+        return AdminProfileResponse.from(admin);
+    }
+
+    @Transactional
+    public AdminProfileResponse updateAvatar(String avatarKey, CommunityAdmin admin) {
+        admin.setAvatarKey(AvatarKeys.validate(Role.ADMIN, avatarKey));
         communityAdminRepository.save(admin);
         return AdminProfileResponse.from(admin);
     }

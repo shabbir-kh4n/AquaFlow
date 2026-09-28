@@ -25,7 +25,6 @@
     "title": "{{community}} Panel bytu",
     "titleFallback": "Váš bytový panel",
     "subtitle": "Provozní přehled pro dílčí měření vody a spotřebu domácnosti.",
-    "comingSoon": "Již brzy",
     "manageCommunity": "Spravovat komunitu",
     "noUsageReadings": "Dosud nebyly zaznamenány žádné údaje o využití.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Poslední zaznamenaný měsíc ({{month}})",
       "noReadingsYet": "Dosud nebyly zaznamenány žádné údaje",
       "pendingAlerts": "Nevyřízená upozornění",
-      "anomalyPreview": "Náhled detekce anomálií – zatím není k dispozici"
+      "reviewAlerts": "Aktivní upozornění na únik/použití – zkontrolujte nyní",
+      "noActiveAlerts": "Žádná aktivní upozornění"
     },
     "actions": {
       "label": "Rychlé administrativní akce",
       "uploadReadings": "Nahrát stavy měřidel",
       "configureTariffs": "Konfigurace tarifů",
-      "reportsNotBuilt": "Přehledy ještě nejsou vytvořeny",
       "downloadReports": "Stáhněte si systémové zprávy"
     },
     "chart": {
       "title": "Srovnání měsíční spotřeby (kL)",
       "subtitle": "Posledních {{months}} měsíců: cílová versus skutečná spotřeba.",
-      "targetSeries": "Cíl (náhled)",
       "actualSeries": "Aktuální"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Váš profil se nepodařilo uložit. Zkuste to prosím znovu.",
     "apartmentSaveError": "Podrobnosti o apartmánu nelze uložit. Zkuste to prosím znovu.",
     "specsTitle": "Specifikace profilu",
-    "photoUnavailable": "Nahrávání fotografií zatím není k dispozici",
-    "changePhoto": "Změnit fotku",
-    "deletePhoto": "Vymazat",
-    "photoHint": "JPG nebo PNG. Maximální velikost 2 MB.",
     "saveProfile": "Uložit profil",
     "apartmentTitle": "Podrobnosti o apartmánu",
     "saveApartment": "Uložit podrobnosti o apartmánu",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Dvoufaktorové ověřování zatím není k dispozici",
       "twoFactorAria": "Dvoufaktorové ověření (pouze náhled)",
       "sessionsLabel": "Aktivní administrátorské relace",
-      "sessionsEmpty": "Sledování relací zatím není k dispozici – toto je náhled nadcházejícího rozvržení."
-    }
+      "sessionsEmpty": "Sledování relací zatím není k dispozici – toto je náhled nadcházejícího rozvržení.",
+      "previewNote": "Pouze náhled: dvoufaktorové ověřování a sledování relace zatím nejsou k dispozici."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Změnit heslo"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Rezidentní vstupenky",
       "subtitle": "Vstupenky na podporu a připomínky, které vám adresovali obyvatelé vaší komunity."
+    }
+  },
+  "reports": {
+    "loadError": "Přehled komunity nelze načíst. Zkuste to prosím znovu.",
+    "pdfError": "Přehled PDF nelze stáhnout. Zkuste to prosím znovu.",
+    "loading": "Načítání přehledu…",
+    "empty": "Žádné domácnosti s údaji v tomto rozsahu.",
+    "noMatch": "„{{search}}“ neodpovídají žádné domácnosti.",
+    "searchPlaceholder": "Filtrujte podle domu, rezidenta nebo čísla měřiče.",
+    "downloadCsv": "Stáhnout CSV",
+    "downloadPdf": "Stáhnout PDF Souhrn",
+    "downloadingPdf": "Příprava PDF…",
+    "ranges": {
+      "threeMonths": "Poslední 3 měsíce",
+      "sixMonths": "Posledních 6 měsíců",
+      "twelveMonths": "Posledních 12 měsíců",
+      "custom": "Vlastní rozsah"
+    },
+    "customRange": {
+      "from": "Z",
+      "to": "Na",
+      "hint": "Chcete-li načíst přehled, vyberte počáteční i konečný měsíc."
+    },
+    "cards": {
+      "totalConsumption": "Celková spotřeba",
+      "households": "V {{total}} domácnostech",
+      "avgMonthly": "Průměrná měsíční spotřeba",
+      "communityWide": "V rámci celé komunity za měsíc",
+      "billed": "Účtováno",
+      "finalizedOnly": "Pouze dokončené a archivované cykly",
+      "paid": "Zaplaceno",
+      "invoices": "{{total}} vystavených faktur",
+      "outstanding": "Vynikající",
+      "unpaidInvoices": "{{total}} nezaplacené faktury",
+      "collectionRate": "Míra sběru"
+    },
+    "costs": {
+      "title": "Náklady vs. výnosy",
+      "commonArea": "Poplatky za společné prostory účtovány",
+      "bulkCost": "Náklady na nákup vody ve velkém",
+      "bulkVolume": "Voda zakoupená ve velkém",
+      "bulkCount": "{{total}} nákupů",
+      "billedMinusBulk": "Fakturované tržby mínus hromadné náklady",
+      "note": "Hromadné nákupy jsou sledovány z hlediska viditelnosti nákladů a nejsou účtovány přímo domácnostem."
+    },
+    "top": {
+      "title": "Nejlepší spotřebitelé",
+      "empty": "V tomto rozmezí nebyla zaznamenána žádná spotřeba."
+    },
+    "charts": {
+      "consumptionTitle": "Měsíční spotřeba",
+      "consumptionSeries": "Spotřeba",
+      "billingTitle": "Fakturované vs. placené vs. hromadné náklady",
+      "billedSeries": "Účtováno",
+      "paidSeries": "Zaplaceno",
+      "bulkSeries": "Cena hromadného nákupu",
+      "empty": "Pro tento rozsah nejsou žádná data."
+    },
+    "sort": {
+      "label": "Seřadit podle",
+      "toggleDirection": "Přepnout směr řazení",
+      "asc": "↑ Asc",
+      "desc": "↓ Popis"
+    },
+    "table": {
+      "house": "Dům",
+      "resident": "Rezident",
+      "meter": "Metr",
+      "totalKl": "Celkem kL",
+      "avgMonthlyKl": "Prům. měsíčně kL",
+      "billed": "Účtováno",
+      "paid": "Zaplaceno",
+      "outstanding": "Vynikající"
+    }
+  },
+  "announcements": {
+    "loadError": "Nelze načíst oznámení. Zkuste to prosím znovu.",
+    "removeError": "Toto oznámení se nepodařilo smazat. Zkuste to prosím znovu.",
+    "loading": "Načítání oznámení…",
+    "empty": "Zatím žádná oznámení. Kliknutím na „Nové oznámení“ upozorníte své obyvatele.",
+    "count": "Oznámení: {{total}}",
+    "newButton": "+ Nové oznámení",
+    "pinned": "Připnuto",
+    "expired": "Platnost vypršela",
+    "postedAt": "Publikováno {{date}}",
+    "updatedAt": "Upraveno {{date}}",
+    "expiresAt": "Vyprší {{date}}",
+    "category": {
+      "general": "Generál",
+      "maintenance": "Údržba",
+      "waterSupply": "Vodovod",
+      "billing": "Fakturace",
+      "urgent": "Naléhavé"
+    },
+    "form": {
+      "addTitle": "Nové oznámení",
+      "editTitle": "Upravit oznámení",
+      "addSubtitle": "Obyvatelé to vidí na své stránce Oznámení a každý, kdo má povolená oznámení push, je okamžitě informován.",
+      "editSubtitle": "Úpravy aktualizují oznámení na místě. Obyvatelé opět nejsou informováni.",
+      "title": "Titul",
+      "category": "Kategorie",
+      "expiresAt": "Vyprší (volitelné)",
+      "body": "Zpráva",
+      "pinned": "Připnout na začátek oznámení obyvatel",
+      "requiredFields": "Zadejte název a zprávu.",
+      "saveError": "Toto oznámení se nepodařilo uložit. Zkontrolujte prosím podrobnosti.",
+      "publish": "Publikovat"
+    },
+    "confirm": {
+      "title": "Smazat oznámení?",
+      "body": "„{{title}}“ bude odebráno všem obyvatelům. Toto nelze vrátit zpět.",
+      "delete": "Vymazat",
+      "deleting": "Mazání…"
     }
   }
 }

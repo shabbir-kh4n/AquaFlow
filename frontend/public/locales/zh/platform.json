@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "支持票",
     "subtitle": "在整个平台范围内支持居民和社区管理员提出的票证和疑虑。"
+  },
+  "profile": {
+    "accountTitle": "帐户",
+    "avatarTitle": "阿凡达",
+    "passwordTitle": "更改密码",
+    "loadError": "无法加载您的个人资料。请再试一次。",
+    "fields": {
+      "fullName": "姓名",
+      "email": "电子邮件",
+      "role": "角色",
+      "roleValue": "系统管理员"
+    }
   }
 }

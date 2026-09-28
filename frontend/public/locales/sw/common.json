@@ -222,6 +222,14 @@
         "title": "Msaada / Wasiwasi",
         "subtitle": "Pandisha tikiti zako kwa Msimamizi wa Mfumo, au ushughulikie masuala ambayo wakazi wako wamekujibu."
       },
+      "reports": {
+        "title": "Ripoti za Jumuiya",
+        "subtitle": "Takwimu za matumizi, bili, ukusanyaji na ununuzi wa wingi kwa jumuiya yako."
+      },
+      "announcements": {
+        "title": "Matangazo",
+        "subtitle": "Chapisha arifa za jumuiya kwa wakazi wako."
+      },
       "profile": {
         "title": "Mipangilio na Wasifu",
         "subtitle": "Dhibiti maelezo ya akaunti yako na maelezo ya ghorofa."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Msimamizi wa Jumuiya",
     "notBuilt": "{{label}} haijajengwa bado",
     "searchPlaceholder": "Tafuta chochote..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Ripoti",
-      "description": "Ripoti za matumizi, bili na uhifadhi kwa jumuiya yako."
-    },
-    "announcements": {
-      "title": "Matangazo",
-      "description": "Tuma matangazo kwa jamii nzima kwa wakazi wako."
-    }
   },
   "comingSoon": {
     "title": "{{title}} inakuja hivi karibuni"
@@ -261,7 +259,9 @@
       "billing": "Bili na ankara",
       "notifications": "Arifa",
       "recommendations": "Mapendekezo",
-      "support": "Msaada / Wasiwasi"
+      "support": "Msaada / Wasiwasi",
+      "reports": "Ripoti zako za matumizi na matumizi",
+      "profile": "Wasifu wangu"
     },
     "defaultTitle": "Dashibodi ya Mkazi",
     "navLabel": "Urambazaji wa wakaazi",
@@ -277,7 +277,8 @@
       "communities": "Jumuiya",
       "reports": "Ripoti",
       "supportTickets": "Tikiti za Usaidizi",
-      "systemStatus": "Hali ya Mfumo"
+      "systemStatus": "Hali ya Mfumo",
+      "profile": "Wasifu"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Hali ya Mfumo",
         "subtitle": "Muunganisho wa nyuma na afya ya msingi ya wakati wa kukimbia."
+      },
+      "profile": {
+        "title": "Wasifu",
+        "subtitle": "Akaunti yako, avatar na nenosiri"
       }
     },
     "fallbackName": "Msimamizi wa Mfumo",
@@ -308,5 +313,40 @@
     "buttonLabel": "Lugha: {{language}}",
     "searchPlaceholder": "Tafuta lugha...",
     "noMatches": "Hakuna zinazolingana"
+  },
+  "avatarPicker": {
+    "label": "Chagua avatar",
+    "hint": "Chagua mojawapo ya ishara zilizowekwa mapema, au tumia herufi zako za kwanza.",
+    "change": "Badilika",
+    "cancel": "Ghairi",
+    "useInitials": "Tumia herufi za mwanzo",
+    "optionLabel": "Ishara {{number}}",
+    "save": "Hifadhi avatar",
+    "saving": "Inahifadhi...",
+    "saved": "Avatar imesasishwa",
+    "saveError": "Haikuweza kusasisha avatar yako. Tafadhali jaribu tena."
+  },
+  "changePassword": {
+    "current": "Nenosiri la sasa",
+    "new": "Nenosiri mpya",
+    "confirm": "Thibitisha nenosiri jipya",
+    "hint": "Angalau herufi {{min}}.",
+    "tooShort": "Nenosiri jipya lazima liwe angalau vibambo {{min}}.",
+    "mismatch": "Manenosiri mapya hayalingani.",
+    "sameAsCurrent": "Nenosiri jipya lazima liwe tofauti na nenosiri lako la sasa.",
+    "submit": "Sasisha nenosiri",
+    "saving": "Inasasisha...",
+    "success": "Nenosiri lako limesasishwa.",
+    "error": "Haikuweza kusasisha nenosiri lako. Tafadhali jaribu tena."
+  },
+  "search": {
+    "kindPage": "Ukurasa",
+    "kindRecord": "Matokeo",
+    "loading": "Inatafuta...",
+    "noResults": "Hakuna zinazolingana",
+    "recordsUnavailable": "Kurasa pekee ndizo zinazoweza kutafutwa sasa hivi.",
+    "invoiceLabel": "Ankara {{period}}",
+    "paid": "Imelipwa",
+    "unpaid": "Haijalipwa"
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Support billetter",
     "subtitle": "Støt billetter og bekymringer rejst af beboere og fællesskabsadministratorer på hele platformen."
+  },
+  "profile": {
+    "accountTitle": "Konto",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Skift adgangskode",
+    "loadError": "Kunne ikke indlæse din profil. Prøv venligst igen.",
+    "fields": {
+      "fullName": "Fulde navn",
+      "email": "E-mail",
+      "role": "Rolle",
+      "roleValue": "Systemadministrator"
+    }
   }
 }

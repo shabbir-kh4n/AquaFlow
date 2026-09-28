@@ -193,6 +193,17 @@
   border-bottom: none;
 }
 
+.af-hh__avatar-col {
+  width: 1%;
+  padding-right: 0 !important;
+}
+
+.af-hh__avatar {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+}
+
 .af-hh__pagination {
   display: flex;
   align-items: center;

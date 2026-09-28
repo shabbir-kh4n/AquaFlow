@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Podporné vstupenky",
     "subtitle": "Podporte lístky a obavy, ktoré vzniesli obyvatelia a správcovia komunít, na celej platforme."
+  },
+  "profile": {
+    "accountTitle": "účtu",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Zmeniť heslo",
+    "loadError": "Nepodarilo sa načítať váš profil. Skúste to znova.",
+    "fields": {
+      "fullName": "Celé meno",
+      "email": "Email",
+      "role": "Role",
+      "roleValue": "Správca systému"
+    }
   }
 }

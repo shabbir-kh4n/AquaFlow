@@ -25,7 +25,6 @@
     "title": "{{community}} Tauler de control de l'apartament",
     "titleFallback": "Tauler del vostre apartament",
     "subtitle": "Resum operatiu per a la submesura de l'aigua i el consum de les llars.",
-    "comingSoon": "Aviat",
     "manageCommunity": "Gestionar la comunitat",
     "noUsageReadings": "Encara no s'ha registrat cap lectura d'ús.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Últim mes registrat ({{month}})",
       "noReadingsYet": "Encara no s'han registrat lectures",
       "pendingAlerts": "Alertes pendents",
-      "anomalyPreview": "Vista prèvia de detecció d'anomalies, encara no disponible"
+      "reviewAlerts": "Alertes actives de fuites / ús: revisa ara",
+      "noActiveAlerts": "No hi ha alertes actives"
     },
     "actions": {
       "label": "Accions administratives ràpides",
       "uploadReadings": "Carregueu les lectures del comptador",
       "configureTariffs": "Configura les tarifes",
-      "reportsNotBuilt": "Els informes encara no s'han creat",
       "downloadReports": "Baixeu els informes del sistema"
     },
     "chart": {
       "title": "Comparació de consum mensual (kL)",
       "subtitle": "Darrers {{months}} mesos: consum objectiu versus consum real.",
-      "targetSeries": "Objectiu (visualització prèvia)",
       "actualSeries": "Real"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "No s'ha pogut desar el teu perfil. Si us plau, torna-ho a provar.",
     "apartmentSaveError": "No s'han pogut desar els detalls de l'apartament. Si us plau, torna-ho a provar.",
     "specsTitle": "Especificacions del perfil",
-    "photoUnavailable": "La càrrega de fotos encara no està disponible",
-    "changePhoto": "Canvia foto",
-    "deletePhoto": "Suprimeix",
-    "photoHint": "JPG o PNG. Mida màxima 2 MB.",
     "saveProfile": "Desa el perfil",
     "apartmentTitle": "Detalls de l'apartament",
     "saveApartment": "Desa els detalls de l'apartament",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "L'autenticació de dos factors encara no està disponible",
       "twoFactorAria": "Autenticació de dos factors (només vista prèvia)",
       "sessionsLabel": "Sessions d'administració actives",
-      "sessionsEmpty": "El seguiment de la sessió encara no està disponible; aquesta és una vista prèvia del proper disseny."
-    }
+      "sessionsEmpty": "El seguiment de la sessió encara no està disponible; aquesta és una vista prèvia del proper disseny.",
+      "previewNote": "Només previsualització: l'autenticació de dos factors i el seguiment de sessions encara no estan disponibles."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Canvia la contrasenya"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Bitllets de residents",
       "subtitle": "Els bitllets de suport i les preocupacions que els residents de la vostra comunitat us han adreçat."
+    }
+  },
+  "reports": {
+    "loadError": "No s'ha pogut carregar l'informe de la comunitat. Si us plau, torna-ho a provar.",
+    "pdfError": "No s'ha pogut baixar l'informe PDF. Si us plau, torna-ho a provar.",
+    "loading": "S'està carregant l'informe...",
+    "empty": "No hi ha cap llar amb dades en aquest interval.",
+    "noMatch": "Cap llar coincideix amb \"{{search}}\".",
+    "searchPlaceholder": "Filtreu per casa, resident o núm.",
+    "downloadCsv": "Descarrega CSV",
+    "downloadPdf": "Baixeu PDF Resum",
+    "downloadingPdf": "S'està preparant PDF...",
+    "ranges": {
+      "threeMonths": "Últims 3 mesos",
+      "sixMonths": "Últims 6 mesos",
+      "twelveMonths": "Últims 12 mesos",
+      "custom": "Gamma personalitzada"
+    },
+    "customRange": {
+      "from": "Des de",
+      "to": "A",
+      "hint": "Trieu un mes d'inici i un de final per carregar l'informe."
+    },
+    "cards": {
+      "totalConsumption": "Consum total",
+      "households": "A {{total}} llars",
+      "avgMonthly": "Consum mitjà mensual",
+      "communityWide": "A tota la comunitat, per mes",
+      "billed": "Facturat",
+      "finalizedOnly": "Només cicles finalitzats i arxivats",
+      "paid": "Pagat",
+      "invoices": "{{total}} factures emeses",
+      "outstanding": "Destacat",
+      "unpaidInvoices": "{{total}} factures no pagades",
+      "collectionRate": "Taxa de recollida"
+    },
+    "costs": {
+      "title": "Costos vs. Ingressos",
+      "commonArea": "Càrrecs de zones comuns facturats",
+      "bulkCost": "Cost de compra d'aigua a granel",
+      "bulkVolume": "Aigua a granel comprada",
+      "bulkCount": "{{total}} compres",
+      "billedMinusBulk": "Ingressos facturats menys cost massiu",
+      "note": "Les compres a granel es fan un seguiment per a la visibilitat dels costos i no es facturen directament a les llars."
+    },
+    "top": {
+      "title": "Principals consumidors",
+      "empty": "No s'ha registrat cap consum en aquest rang."
+    },
+    "charts": {
+      "consumptionTitle": "Consum mensual",
+      "consumptionSeries": "Consum",
+      "billingTitle": "Facturat vs. Pagat vs. Cost a granel",
+      "billedSeries": "Facturat",
+      "paidSeries": "Pagat",
+      "bulkSeries": "Cost de compra a granel",
+      "empty": "No hi ha dades per a aquest interval."
+    },
+    "sort": {
+      "label": "Ordena per",
+      "toggleDirection": "Canvia la direcció d'ordenació",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Casa",
+      "resident": "Resident",
+      "meter": "Mesurador",
+      "totalKl": "Total kL",
+      "avgMonthlyKl": "Mitjana mensual kL",
+      "billed": "Facturat",
+      "paid": "Pagat",
+      "outstanding": "Destacat"
+    }
+  },
+  "announcements": {
+    "loadError": "No s'han pogut carregar els anuncis. Si us plau, torna-ho a provar.",
+    "removeError": "No s'ha pogut suprimir aquest anunci. Si us plau, torna-ho a provar.",
+    "loading": "S'estan carregant els anuncis...",
+    "empty": "Encara no hi ha anuncis. Feu clic a \"Nou anunci\" per notificar als vostres residents.",
+    "count": "Anuncis: {{total}}",
+    "newButton": "+ Nou anunci",
+    "pinned": "Fixat",
+    "expired": "Caducat",
+    "postedAt": "Publicat el {{date}}",
+    "updatedAt": "Editat {{date}}",
+    "expiresAt": "Caduca el {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Manteniment",
+      "waterSupply": "Subministrament d'aigua",
+      "billing": "Facturació",
+      "urgent": "Urgent"
+    },
+    "form": {
+      "addTitle": "Nou Anunci",
+      "editTitle": "Edita l'anunci",
+      "addSubtitle": "Els residents ho veuen a la seva pàgina de notificacions, i qualsevol persona que tingui activades les notificacions push rebrà una notificació immediata.",
+      "editSubtitle": "Les edicions actualitzen l'anunci al seu lloc. Els residents no es tornen a avisar.",
+      "title": "Títol",
+      "category": "Categoria",
+      "expiresAt": "Caduca (opcional)",
+      "body": "Missatge",
+      "pinned": "Fixeu-vos a la part superior dels anuncis dels residents",
+      "requiredFields": "Introduïu un títol i un missatge.",
+      "saveError": "No s'ha pogut desar aquest anunci. Si us plau, comproveu els detalls.",
+      "publish": "Publicar"
+    },
+    "confirm": {
+      "title": "Vols suprimir l'anunci?",
+      "body": "\"{{title}}\" s'eliminarà per a tots els residents. Això no es pot desfer.",
+      "delete": "Suprimeix",
+      "deleting": "S'està suprimint…"
     }
   }
 }

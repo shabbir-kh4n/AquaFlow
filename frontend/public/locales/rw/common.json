@@ -222,6 +222,14 @@
         "title": "Inkunga / Ibibazo",
         "subtitle": "Kuzamura amatike yawe kuri Admin Sisitemu, cyangwa ukemure ibibazo abaturage bawe bakubwiye."
       },
+      "reports": {
+        "title": "Raporo z'abaturage",
+        "subtitle": "Imikoreshereze, fagitire, icyegeranyo, hamwe nimibare yo kugura byinshi kubaturage bawe."
+      },
+      "announcements": {
+        "title": "Amatangazo",
+        "subtitle": "Tangaza umuganda wose kubaturage bawe."
+      },
       "profile": {
         "title": "Igenamiterere & Umwirondoro",
         "subtitle": "Gucunga konti yawe hamwe namakuru yimiturire."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Umuyobozi wabaturage",
     "notBuilt": "{{label}} ntabwo yubatswe",
     "searchPlaceholder": "Shakisha ikintu cyose…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raporo",
-      "description": "Raporo yo gukoresha, kwishura, no kubungabunga ibidukikije."
-    },
-    "announcements": {
-      "title": "Amatangazo",
-      "description": "Kohereza amatangazo rusange kubaturage bawe."
-    }
   },
   "comingSoon": {
     "title": "{{title}} is coming soon"
@@ -261,7 +259,9 @@
       "billing": "Inyemezabuguzi & Inyemezabuguzi",
       "notifications": "Kumenyesha",
       "recommendations": "Ibyifuzo",
-      "support": "Inkunga / Ibibazo"
+      "support": "Inkunga / Ibibazo",
+      "reports": "Imikoreshereze & raporo yo gukoresha",
+      "profile": "Umwirondoro wanjye"
     },
     "defaultTitle": "Ikibaho",
     "navLabel": "Kugenda",
@@ -277,7 +277,8 @@
       "communities": "Imiryango",
       "reports": "Raporo",
       "supportTickets": "Amatike yo Gushyigikira",
-      "systemStatus": "Imiterere ya Sisitemu"
+      "systemStatus": "Imiterere ya Sisitemu",
+      "profile": "Umwirondoro"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Imiterere ya Sisitemu",
         "subtitle": "Inyuma ihuza hamwe nubuzima bwibanze bwigihe."
+      },
+      "profile": {
+        "title": "Umwirondoro",
+        "subtitle": "Konti yawe, avatar nijambobanga"
       }
     },
     "fallbackName": "Umuyobozi wa sisitemu",
@@ -308,5 +313,40 @@
     "buttonLabel": "Ururimi: {{language}}",
     "searchPlaceholder": "Shakisha ururimi…",
     "noMatches": "Ntaho bihuriye"
+  },
+  "avatarPicker": {
+    "label": "Hitamo avatar",
+    "hint": "Tora imwe muri avatar yagenwe, cyangwa ukoreshe intangiriro yawe.",
+    "change": "Hindura",
+    "cancel": "Kureka",
+    "useInitials": "Koresha intangiriro",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Bika avatar",
+    "saving": "Kuzigama…",
+    "saved": "Avatar ivugururwa",
+    "saveError": "Ntushobora kuvugurura avatar yawe. Nyamuneka gerageza."
+  },
+  "changePassword": {
+    "current": "Ijambobanga ryubu",
+    "new": "Ijambobanga rishya",
+    "confirm": "Emeza ijambo ryibanga rishya",
+    "hint": "Nibura {{min}} inyuguti.",
+    "tooShort": "Ijambobanga rishya rigomba kuba byibuze {{min}} inyuguti.",
+    "mismatch": "Ijambobanga rishya ntirihuye.",
+    "sameAsCurrent": "Ijambobanga rishya rigomba kuba ritandukanye nijambobanga ryubu.",
+    "submit": "Kuvugurura ijambo ryibanga",
+    "saving": "Kuvugurura…",
+    "success": "Ijambobanga ryawe ryaravuguruwe.",
+    "error": "Ntushobora kuvugurura ijambo ryibanga. Nyamuneka gerageza."
+  },
+  "search": {
+    "kindPage": "Urupapuro",
+    "kindRecord": "Igisubizo",
+    "loading": "Gushakisha…",
+    "noResults": "Ntaho bihuriye",
+    "recordsUnavailable": "Gusa impapuro zishobora gushakishwa nonaha.",
+    "invoiceLabel": "Inyemezabuguzi {{period}}",
+    "paid": "Yishyuwe",
+    "unpaid": "Yishyuwe"
   }
 }

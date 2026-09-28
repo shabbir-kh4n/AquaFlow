@@ -222,6 +222,14 @@
         "title": "Ënnerstëtzung / Bedenken",
         "subtitle": "Huelt Är eege Ticketen un de System Admin, oder behandelt Bedenken déi Är Awunner un Iech adresséiert hunn."
       },
+      "reports": {
+        "title": "Communautéit Rapporten",
+        "subtitle": "Verbrauch, Rechnung, Sammlung a Bulk-Kaaf Zuelen fir Är Gemeinschaft."
+      },
+      "announcements": {
+        "title": "Ukënnegung",
+        "subtitle": "Verëffentlecht Gemeinschaftsbreet Notifikatiounen un Är Awunner."
+      },
       "profile": {
         "title": "Astellungen & Profil",
         "subtitle": "Managen Äre Kont Detailer an Appartement Informatiounen."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Gemeinschaft Admin",
     "notBuilt": "{{label}} ass nach net gebaut",
     "searchPlaceholder": "Sich no eppes ..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Rapporten",
-      "description": "Verbrauch, Rechnung, a Conservatioun Berichter fir Är Gemeinschaft."
-    },
-    "announcements": {
-      "title": "Ukënnegung",
-      "description": "Schéckt Gemeinschaftsbreet Ukënnegung un Är Awunner."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kënnt geschwënn"
@@ -261,7 +259,9 @@
       "billing": "Rechnung & Rechnungen",
       "notifications": "Notifikatiounen",
       "recommendations": "Recommandatiounen",
-      "support": "Ënnerstëtzung / Bedenken"
+      "support": "Ënnerstëtzung / Bedenken",
+      "reports": "Är Benotzungs- a Ausgabeberichter",
+      "profile": "Mäi Profil"
     },
     "defaultTitle": "Awunner Dashboard",
     "navLabel": "Awunner Navigatioun",
@@ -277,7 +277,8 @@
       "communities": "Communautéiten",
       "reports": "Rapporten",
       "supportTickets": "Ënnerstëtzung Ticketen",
-      "systemStatus": "System Status"
+      "systemStatus": "System Status",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "System Status",
         "subtitle": "Backend Konnektivitéit a Basis Runtime Gesondheet."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Äre Kont, Avatar a Passwuert"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "Sprooch: {{language}}",
     "searchPlaceholder": "Sprooch sichen…",
     "noMatches": "Keng Mätscher"
+  },
+  "avatarPicker": {
+    "label": "Wielt en Avatar",
+    "hint": "Wielt ee vun de preset Avataren, oder benotzt Är Initialen.",
+    "change": "Änneren",
+    "cancel": "Ofbriechen",
+    "useInitials": "Benotzt Initialen",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatar späicheren",
+    "saving": "Spuert…",
+    "saved": "Avatar aktualiséiert",
+    "saveError": "Konnt Ären Avatar net aktualiséieren. Probéiert w.e.g. nach eng Kéier."
+  },
+  "changePassword": {
+    "current": "Aktuell Passwuert",
+    "new": "Neit Passwuert",
+    "confirm": "Confirméieren neit Passwuert",
+    "hint": "Op d'mannst {{min}} Zeechen.",
+    "tooShort": "Neit Passwuert muss op d'mannst {{min}} Zeeche sinn.",
+    "mismatch": "Déi nei Passwierder passen net.",
+    "sameAsCurrent": "Neit Passwuert muss anescht sinn wéi Äert aktuellt Passwuert.",
+    "submit": "Update Passwuert",
+    "saving": "Aktualiséieren…",
+    "success": "Äert Passwuert gouf aktualiséiert.",
+    "error": "Konnt Äert Passwuert net aktualiséieren. Probéiert w.e.g. nach eng Kéier."
+  },
+  "search": {
+    "kindPage": "Säit",
+    "kindRecord": "Resultat",
+    "loading": "Sichen…",
+    "noResults": "Keng Mätscher",
+    "recordsUnavailable": "Nëmmen Säite konnten elo gesicht ginn.",
+    "invoiceLabel": "Rechnung {{period}}",
+    "paid": "Bezuelt",
+    "unpaid": "Onbezuelt"
   }
 }

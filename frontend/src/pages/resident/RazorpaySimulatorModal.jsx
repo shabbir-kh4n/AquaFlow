@@ -104,14 +104,17 @@ function generateFakePaymentId() {
 // Simulates a Razorpay Checkout session end-to-end without any real gateway integration —
 // no live keys are configured, so this replicates the same look-and-feel and processing →
 // success flow, then calls back into the real backend endpoint to mark the invoice paid.
-function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
+// Pass `invoice` for a single bill, or `amount` + `description` for a combined payment
+// (e.g. "Pay Total Outstanding" across several unpaid invoices).
+function RazorpaySimulatorModal({ invoice, amount, description, onClose, onSuccess }) {
   const { t } = useTranslation('resident')
   const [method, setMethod] = useState('upi')
   const [stage, setStage] = useState('checkout') // checkout | processing | success | error
   const [paymentId] = useState(generateFakePaymentId)
   const [upiId, setUpiId] = useState('')
 
-  const amountLabel = Number(invoice.totalAmount).toLocaleString('en-IN', { minimumFractionDigits: 2 })
+  const amountLabel = Number(amount ?? invoice?.totalAmount ?? 0).toLocaleString('en-IN', { minimumFractionDigits: 2 })
+  const subtitle = description ?? t('razorpay.billingCycle', { period: invoice?.periodMonth })
 
   function handlePay() {
     setStage('processing')
@@ -138,7 +141,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
                 <span className="af-rzp__merchant-logo">HL</span>
                 <div>
                   <strong>HydroLedger</strong>
-                  <small>{t('razorpay.billingCycle', { period: invoice.periodMonth })}</small>
+                  <small>{subtitle}</small>
                 </div>
               </div>
               <button type="button" className="af-rzp__close" onClick={onClose} aria-label={t('razorpay.close')}>
@@ -257,6 +260,7 @@ function RazorpaySimulatorModal({ invoice, onClose, onSuccess }) {
             </div>
 
             <div className="af-rzp__footer">
+              <p className="af-rzp__sim-notice">{t('razorpay.simulationNotice')}</p>
               <button type="button" className="af-rzp__pay-btn" onClick={handlePay}>
                 {t('razorpay.payAmount', { amount: amountLabel })}
               </button>

@@ -222,6 +222,14 @@
         "title": "Wsparcie / wątpliwości",
         "subtitle": "Zgłoś swoje własne zgłoszenia do administratora systemu lub zajmij się problemami, które skierowali do ciebie mieszkańcy."
       },
+      "reports": {
+        "title": "Raporty społeczności",
+        "subtitle": "Dane dotyczące zużycia, rozliczeń, odbioru i zakupów hurtowych w Twojej społeczności."
+      },
+      "announcements": {
+        "title": "Ogłoszenia",
+        "subtitle": "Publikuj powiadomienia dla mieszkańców całej społeczności."
+      },
       "profile": {
         "title": "Ustawienia i profil",
         "subtitle": "Zarządzaj danymi swojego konta i informacjami o apartamencie."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Administrator społeczności",
     "notBuilt": "{{label}} nie jest jeszcze zbudowany",
     "searchPlaceholder": "Szukaj czegokolwiek…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Raporty",
-      "description": "Raporty dotyczące zużycia, rozliczeń i ochrony środowiska dla Twojej społeczności."
-    },
-    "announcements": {
-      "title": "Ogłoszenia",
-      "description": "Wysyłaj ogłoszenia ogólnospołeczne do swoich mieszkańców."
-    }
   },
   "comingSoon": {
     "title": "{{title}} już wkrótce"
@@ -261,7 +259,9 @@
       "billing": "Rozliczenia i faktury",
       "notifications": "Powiadomienia",
       "recommendations": "Zalecenia",
-      "support": "Wsparcie / wątpliwości"
+      "support": "Wsparcie / wątpliwości",
+      "reports": "Twoje raporty dotyczące użytkowania i wydatków",
+      "profile": "Mój profil"
     },
     "defaultTitle": "Panel rezydenta",
     "navLabel": "Nawigacja rezydentna",
@@ -277,7 +277,8 @@
       "communities": "Społeczności",
       "reports": "Raporty",
       "supportTickets": "Bilety wsparcia",
-      "systemStatus": "Stan systemu"
+      "systemStatus": "Stan systemu",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Stan systemu",
         "subtitle": "Łączność z backendem i podstawowy stan środowiska wykonawczego."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Twoje konto, awatar i hasło"
       }
     },
     "fallbackName": "Administrator systemu",
@@ -308,5 +313,40 @@
     "buttonLabel": "Język: {{language}}",
     "searchPlaceholder": "Wyszukaj język…",
     "noMatches": "Brak dopasowań"
+  },
+  "avatarPicker": {
+    "label": "Wybierz awatara",
+    "hint": "Wybierz jeden z gotowych awatarów lub użyj swoich inicjałów.",
+    "change": "Zmiana",
+    "cancel": "Anulować",
+    "useInitials": "Użyj inicjałów",
+    "optionLabel": "Awatar {{number}}",
+    "save": "Zapisz awatar",
+    "saving": "Oszczędność…",
+    "saved": "Awatar zaktualizowany",
+    "saveError": "Nie można zaktualizować Twojego awatara. Spróbuj ponownie."
+  },
+  "changePassword": {
+    "current": "Aktualne hasło",
+    "new": "Nowe hasło",
+    "confirm": "Potwierdź nowe hasło",
+    "hint": "Co najmniej {{min}} znaków.",
+    "tooShort": "Nowe hasło musi składać się z co najmniej {{min}} znaków.",
+    "mismatch": "Nowe hasła nie pasują.",
+    "sameAsCurrent": "Nowe hasło musi różnić się od bieżącego hasła.",
+    "submit": "Zaktualizuj hasło",
+    "saving": "Aktualizuję…",
+    "success": "Twoje hasło zostało zaktualizowane.",
+    "error": "Nie można zaktualizować hasła. Spróbuj ponownie."
+  },
+  "search": {
+    "kindPage": "Strona",
+    "kindRecord": "Wynik",
+    "loading": "Badawczy…",
+    "noResults": "Brak dopasowań",
+    "recordsUnavailable": "W tej chwili można przeszukiwać tylko strony.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Płatny",
+    "unpaid": "Nie zapłacony"
   }
 }

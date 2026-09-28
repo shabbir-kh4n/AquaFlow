@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "サポートチケット",
     "subtitle": "プラットフォーム全体で、住民やコミュニティ管理者によって提起されたチケットと懸念事項をサポートします。"
+  },
+  "profile": {
+    "accountTitle": "アカウント",
+    "avatarTitle": "アバター",
+    "passwordTitle": "パスワードを変更する",
+    "loadError": "プロフィールを読み込めませんでした。もう一度試してください。",
+    "fields": {
+      "fullName": "フルネーム",
+      "email": "電子メール",
+      "role": "役割",
+      "roleValue": "システム管理者"
+    }
   }
 }

@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tiketi nkwado",
     "subtitle": "Nkwado tiketi na nchegbu ndị bi na ndị nlekọta obodo welitere, n'ofe ikpo okwu."
+  },
+  "profile": {
+    "accountTitle": "Akaụntụ",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Gbanwee okwuntughe",
+    "loadError": "Enweghị ike ibunye profaịlụ gị. Biko nwaa ọzọ.",
+    "fields": {
+      "fullName": "Aha n'uju",
+      "email": "Email",
+      "role": "Ọrụ",
+      "roleValue": "Onye nchịkwa sistemụ"
+    }
   }
 }

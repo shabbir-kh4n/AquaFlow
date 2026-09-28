@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Tukiliput",
     "subtitle": "Tue lippuja ja asukkaiden ja yhteisön järjestelmänvalvojien esittämiä huolenaiheita alustanlaajuisesti."
+  },
+  "profile": {
+    "accountTitle": "Tili",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Vaihda salasana",
+    "loadError": "Profiiliasi ei voitu ladata. Yritä uudelleen.",
+    "fields": {
+      "fullName": "Koko nimi",
+      "email": "Sähköposti",
+      "role": "Rooli",
+      "roleValue": "Järjestelmänvalvoja"
+    }
   }
 }

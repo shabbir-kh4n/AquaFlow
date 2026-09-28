@@ -108,7 +108,7 @@ class AuthServiceCommunityNameTests {
     void loginResidentBranchCarriesCommunityNameHouseAndMeter() {
         LoginRequest request = new LoginRequest("res@example.com", "password123");
         Resident resident = Resident.builder().id(2L).fullName("Res Ident").email("res@example.com")
-                .houseNumber("A-101").meterNumber("MTR-0001").passwordSet(true).createdBy(admin).build();
+                .houseNumber("A-101").meterNumber("MTR-0001").passwordSet(true).avatarKey("resident-05").createdBy(admin).build();
         when(communityAdminRepository.findByEmail("res@example.com")).thenReturn(Optional.empty());
         when(residentRepository.findByEmailAndPasswordSetTrue("res@example.com")).thenReturn(Optional.of(resident));
         Apartment apartment = Apartment.builder().id(1L).name("Sunrise Towers").admin(admin).build();
@@ -121,6 +121,7 @@ class AuthServiceCommunityNameTests {
         assertThat(response.houseNumber()).isEqualTo("A-101");
         assertThat(response.meterNumber()).isEqualTo("MTR-0001");
         assertThat(response.role()).isEqualTo(Role.RESIDENT);
+        assertThat(response.avatarKey()).isEqualTo("resident-05");
     }
 
     @Test

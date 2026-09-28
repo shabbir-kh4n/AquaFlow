@@ -222,6 +222,14 @@
         "title": "Support / Concerns",
         "subtitle": "Raise your own tickets to the System Admin, or handle concerns your residents have addressed to you."
       },
+      "reports": {
+        "title": "ᱥᱟᱶᱛᱟ ᱨᱤᱯᱳᱨᱴ",
+        "subtitle": "ᱟᱯᱮ ᱜᱟᱶᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱠᱷᱟᱴᱚᱜ, ᱵᱤᱞᱤᱝ, ᱡᱟᱣᱨᱟ ᱟᱨ ᱵᱟᱹᱲᱛᱤ ᱠᱤᱨᱤᱧ ᱨᱮᱭᱟᱜ ᱮᱞᱠᱷᱟ᱾"
+      },
+      "announcements": {
+        "title": "ᱩᱪᱷᱟᱹᱱ ᱠᱚ",
+        "subtitle": "ᱟᱯᱮ ᱨᱮᱱ ᱵᱟᱥᱤᱱᱫᱟ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱶᱛᱟ ᱯᱟᱥᱱᱟᱣ ᱱᱚᱴᱤᱥ ᱪᱷᱟᱯᱟᱣ ᱢᱮ ᱾"
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Manage your account details and apartment information."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} isn't built yet",
     "searchPlaceholder": "Search anything…"
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Reports",
-      "description": "Consumption, billing, and conservation reports for your community."
-    },
-    "announcements": {
-      "title": "Announcements",
-      "description": "Send community-wide announcements to your residents."
-    }
   },
   "comingSoon": {
     "title": "{{title}} is coming soon"
@@ -261,7 +259,9 @@
       "billing": "Billing & Invoices",
       "notifications": "Notifications",
       "recommendations": "Recommendations",
-      "support": "Support / Concerns"
+      "support": "Support / Concerns",
+      "reports": "ᱟᱢᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱟᱨ ᱠᱷᱚᱨᱪᱟ ᱨᱤᱯᱳᱨᱴ",
+      "profile": "ᱤᱧᱟᱜ ᱯᱨᱚᱯᱷᱟᱭᱤᱞ"
     },
     "defaultTitle": "Resident Dashboard",
     "navLabel": "Resident navigation",
@@ -277,7 +277,8 @@
       "communities": "Communities",
       "reports": "Reports",
       "supportTickets": "Support Tickets",
-      "systemStatus": "System Status"
+      "systemStatus": "System Status",
+      "profile": "ᱯᱨᱚᱯᱷᱟᱤᱞ"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "System Status",
         "subtitle": "ᱵᱮᱠᱮᱱᱰ ᱠᱚᱱᱮᱠᱴᱤᱵᱷᱤᱴᱤ ᱟᱨ ᱢᱩᱬᱩᱛ ᱨᱟᱱᱴᱟᱭᱤᱢ ᱦᱮᱞᱛᱷ᱾"
+      },
+      "profile": {
+        "title": "ᱯᱨᱚᱯᱷᱟᱤᱞ",
+        "subtitle": "ᱟᱢᱟᱜ ᱮᱠᱟᱣᱩᱱᱴ, ᱚᱵᱷᱟᱴᱟᱨ ᱟᱨ ᱯᱟᱥᱣᱟᱨᱰ"
       }
     },
     "fallbackName": "System Admin",
@@ -308,5 +313,40 @@
     "buttonLabel": "ᱯᱟᱹᱨᱥᱤ: {{language}}",
     "searchPlaceholder": "ᱯᱟᱹᱨᱥᱤ ᱯᱟᱱᱛᱮᱭᱟᱢ...",
     "noMatches": "ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ"
+  },
+  "avatarPicker": {
+    "label": "ᱢᱤᱫ ᱚᱵᱷᱟᱴᱟᱨ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "hint": "ᱢᱟᱲᱟᱝ ᱛᱮ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱ ᱚᱵᱷᱟᱴᱟᱨ ᱠᱚ ᱢᱩᱫᱽ ᱨᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱵᱟᱪᱷᱟᱣ ᱢᱮ, ᱟᱨᱵᱟᱝ ᱟᱢᱟᱜ ᱮᱛᱚᱦᱚᱵ ᱟᱹᱲᱟᱹ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱢᱮ ᱾",
+    "change": "ᱵᱚᱫᱚᱞ",
+    "cancel": "ᱵᱟᱛᱤᱞ",
+    "useInitials": "ᱮᱛᱚᱦᱚᱵ ᱟᱹᱲᱟᱹ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱢᱮ",
+    "optionLabel": "ᱚᱵᱷᱟᱴᱟᱨ {{number}}",
+    "save": "ᱚᱵᱷᱟᱴᱟᱨ ᱥᱟᱧᱪᱟᱣ ᱢᱮ",
+    "saving": "ᱵᱟᱧᱪᱟᱣ...",
+    "saved": "ᱚᱵᱷᱟᱴᱟᱨ ᱟᱯᱰᱮᱴ ᱦᱩᱭᱮᱱᱟ",
+    "saveError": "ᱟᱢᱟᱜ ᱚᱵᱷᱟᱴᱟᱨ ᱵᱟᱝ ᱟᱯᱰᱮᱴ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ᱾"
+  },
+  "changePassword": {
+    "current": "ᱱᱤᱛᱚᱜ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ",
+    "new": "ᱱᱟᱶᱟ ᱯᱟᱥᱣᱟᱨᱰ",
+    "confirm": "ᱱᱟᱶᱟ ᱯᱟᱥᱣᱟᱨᱰ ᱴᱷᱟᱹᱣᱠᱟᱹ ᱢᱮ",
+    "hint": "ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ {{min}} ᱪᱤᱠᱤ ᱠᱚ ᱾",
+    "tooShort": "ᱱᱟᱶᱟ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ {{min}} ᱪᱤᱠᱤ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+    "mismatch": "ᱱᱟᱶᱟ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱵᱟᱝ ᱢᱤᱞᱟᱹᱣᱜ ᱠᱟᱱᱟ ᱾",
+    "sameAsCurrent": "ᱱᱟᱶᱟ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱫᱚ ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜ ᱫᱟᱱᱟᱝ ᱥᱟᱵᱟᱫᱽ ᱠᱷᱚᱱ ᱵᱷᱮᱜᱟᱨ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤᱭᱟ᱾",
+    "submit": "ᱯᱟᱥᱣᱟᱨᱰ ᱟᱯᱰᱮᱴ ᱢᱮ",
+    "saving": "ᱟᱯᱰᱮᱴᱤᱝ...",
+    "success": "ᱟᱢᱟᱜ ᱯᱟᱥᱣᱟᱨᱰ ᱱᱟᱣᱟ ᱦᱩᱭ ᱟᱠᱟᱱᱟ ᱾",
+    "error": "ᱟᱢᱟᱜ ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱟᱯᱰᱮᱴ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ᱾"
+  },
+  "search": {
+    "kindPage": "ᱥᱟᱦᱴᱟ",
+    "kindRecord": "ᱚᱨᱡᱚ",
+    "loading": "ᱥᱮᱸᱫᱽᱨᱟ...",
+    "noResults": "ᱪᱮᱫ ᱢᱮᱪ ᱵᱟᱹᱱᱩᱜᱼᱟ",
+    "recordsUnavailable": "ᱱᱤᱛᱚᱜ ᱫᱚ ᱥᱩᱢᱩᱝ ᱥᱟᱦᱴᱟ ᱠᱚ ᱜᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾",
+    "invoiceLabel": "ᱪᱟᱞᱟᱱ {{period}}",
+    "paid": "ᱫᱟᱢ ᱮᱢ",
+    "unpaid": "ᱵᱤᱱ ᱯᱩᱭᱥᱟᱹ"
   }
 }

@@ -15,6 +15,7 @@ public record CommunityDetailResponse(
         String apartmentName,
         String apartmentAddress,
         Instant adminCreatedAt,
+        String avatarKey,
         List<ResidentSummary> residents
 ) {
     public record ResidentSummary(
@@ -23,7 +24,8 @@ public record CommunityDetailResponse(
             String email,
             String houseNumber,
             String meterNumber,
-            boolean passwordSet
+            boolean passwordSet,
+            String avatarKey
     ) {
     }
 }

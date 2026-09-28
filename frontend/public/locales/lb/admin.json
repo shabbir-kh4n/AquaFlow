@@ -25,7 +25,6 @@
     "title": "{{community}} Appartement Dashboard",
     "titleFallback": "Är Appartement Dashboard",
     "subtitle": "Operationell Resumé fir Waasser Utility Sub-Messung a Stot Konsum.",
-    "comingSoon": "Kommt geschwënn",
     "manageCommunity": "Verwalte Gemeinschaft",
     "noUsageReadings": "Keng Benotzungslesunge sinn nach opgeholl.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Lescht opgeholl Mount ({{month}})",
       "noReadingsYet": "Keng Liesungen nach opgeholl",
       "pendingAlerts": "Waarden Alarmer",
-      "anomalyPreview": "Anomalie Detektioun Virschau - nach net verfügbar"
+      "reviewAlerts": "Aktiv Leck / Notzung Alarmer - iwwerpréift elo",
+      "noActiveAlerts": "Keng aktiv Alarm"
     },
     "actions": {
       "label": "Quick Administrativ Aktiounen",
       "uploadReadings": "Eroplueden Meter Liesungen",
       "configureTariffs": "Tariffer konfiguréieren",
-      "reportsNotBuilt": "Berichter sinn nach net gebaut",
       "downloadReports": "Download System Berichter"
     },
     "chart": {
       "title": "Monatlecht Verbrauchsvergleich (kL)",
       "subtitle": "Läscht {{months}} Méint: Zil vs aktuell Konsum.",
-      "targetSeries": "Zil (Virschau)",
       "actualSeries": "Tatsächlech"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Konnt Äre Profil net späicheren. Probéiert w.e.g. nach eng Kéier.",
     "apartmentSaveError": "Konnt d'Appartementdetailer net späicheren. Probéiert w.e.g. nach eng Kéier.",
     "specsTitle": "Profil Spezifikatioune",
-    "photoUnavailable": "Foto Upload ass nach net verfügbar",
-    "changePhoto": "Foto änneren",
-    "deletePhoto": "Läschen",
-    "photoHint": "JPG oder PNG. Maximal Gréisst 2MB.",
     "saveProfile": "Späicheren Profil",
     "apartmentTitle": "Appartement Detailer",
     "saveApartment": "Retten Appartement Detailer",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Zwee-Faktor Authentifikatioun ass nach net verfügbar",
       "twoFactorAria": "Zwee-Faktor Authentifikatioun (nëmmen Virschau)",
       "sessionsLabel": "Aktiv Admin Sessiounen",
-      "sessionsEmpty": "Sessiounsverfollegung ass nach net verfügbar - dëst ass eng Virschau vum Upëff vum Layout."
-    }
+      "sessionsEmpty": "Sessiounsverfollegung ass nach net verfügbar - dëst ass eng Virschau vum Upëff vum Layout.",
+      "previewNote": "Nëmmen Virschau: Zwee-Faktor Authentifikatioun an Sessiounsverfollegung sinn nach net verfügbar."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Passwuert änneren"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Awunner Ticketen",
       "subtitle": "Ënnerstëtzung Ticketen a Bedenken Awunner an Ärer Gemeng hunn Iech adresséiert."
+    }
+  },
+  "reports": {
+    "loadError": "Konnt de Gemeinschaftsbericht net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "pdfError": "Konnt den PDF Bericht net eroflueden. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Rapport lueden…",
+    "empty": "Keng Stéit mat Daten an dësem Beräich.",
+    "noMatch": "Keng Stéit passen \"{{search}}\".",
+    "searchPlaceholder": "Filter no Haus, Awunner oder Meter Nr.",
+    "downloadCsv": "Download CSV",
+    "downloadPdf": "Download PDF Resumé",
+    "downloadingPdf": "Preparéieren PDF...",
+    "ranges": {
+      "threeMonths": "Déi lescht 3 Méint",
+      "sixMonths": "Déi lescht 6 Méint",
+      "twelveMonths": "Déi lescht 12 Méint",
+      "custom": "Benotzerdefinéiert Gamme"
+    },
+    "customRange": {
+      "from": "Vun",
+      "to": "Zu",
+      "hint": "Wielt souwuel e Start an en Enn Mount fir de Bericht ze lueden."
+    },
+    "cards": {
+      "totalConsumption": "Gesamtverbrauch",
+      "households": "Iwwer {{total}} Stéit",
+      "avgMonthly": "Moyenne monatlecht Verbrauch",
+      "communityWide": "Gemeinschaftswäit, pro Mount",
+      "billed": "Rechnung",
+      "finalizedOnly": "Nëmme finaliséiert & archivéiert Zyklen",
+      "paid": "Bezuelt",
+      "invoices": "{{total}} Rechnungen ausgestallt",
+      "outstanding": "Ausgezeechent",
+      "unpaidInvoices": "{{total}} onbezuelten Rechnungen",
+      "collectionRate": "Kollektioun Taux"
+    },
+    "costs": {
+      "title": "Käschten vs Recetten",
+      "commonArea": "Gemeinsam Beräich Käschten verrechent",
+      "bulkCost": "Bulk Waasser Kaf Käschten",
+      "bulkVolume": "Bulk Waasser kaaft",
+      "bulkCount": "{{total}} Akeef",
+      "billedMinusBulk": "Rechnung Akommes minus Bulk Käschten",
+      "note": "Bulk Akeef gi verfollegt fir Käschte Visibilitéit a ginn net direkt un d'Stéit fakturéiert."
+    },
+    "top": {
+      "title": "Top Konsumenten",
+      "empty": "Kee Konsum an dëser Gamme opgeholl."
+    },
+    "charts": {
+      "consumptionTitle": "Monatlecht Verbrauch",
+      "consumptionSeries": "Konsum",
+      "billingTitle": "Rechnung vs Bezuelt vs Bulk Käschten",
+      "billedSeries": "Rechnung",
+      "paidSeries": "Bezuelt",
+      "bulkSeries": "Bulk Akaf Käschten",
+      "empty": "Keng Daten fir dës Gamme."
+    },
+    "sort": {
+      "label": "Sortéieren no",
+      "toggleDirection": "Toggle Zort Richtung",
+      "asc": "↑ Asc",
+      "desc": "↓ Desch"
+    },
+    "table": {
+      "house": "Haus",
+      "resident": "Awunner",
+      "meter": "Meter",
+      "totalKl": "Ganzen kL",
+      "avgMonthlyKl": "Duerchschnëtt Mount kL",
+      "billed": "Rechnung",
+      "paid": "Bezuelt",
+      "outstanding": "Ausgezeechent"
+    }
+  },
+  "announcements": {
+    "loadError": "Konnt d'Ukënnegung net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "removeError": "Konnt dës Ukënnegung net läschen. Probéiert w.e.g. nach eng Kéier.",
+    "loading": "Lueden Ukënnegungen…",
+    "empty": "Nach keng Ukënnegung. Klickt op \"Nei Ukënnegung\" fir Är Awunner z'informéieren.",
+    "count": "Ukënnegung: {{total}}",
+    "newButton": "+ Nei Ukënnegung",
+    "pinned": "Befestegt",
+    "expired": "Ofgelaaf",
+    "postedAt": "Gepost {{date}}",
+    "updatedAt": "Geännert {{date}}",
+    "expiresAt": "Expiréiert {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Ënnerhalt",
+      "waterSupply": "Waasserversuergung",
+      "billing": "Rechnung",
+      "urgent": "Dringend"
+    },
+    "form": {
+      "addTitle": "Nei Ukënnegung",
+      "editTitle": "Edit Annonce",
+      "addSubtitle": "Awunner gesinn dëst op hirer Notifikatiounssäit, a jiddereen mat Push Notifikatiounen aktivéiert gëtt direkt matgedeelt.",
+      "editSubtitle": "Ännerungen update der Ukënnegung am Plaz. D'Awunner ginn net méi informéiert.",
+      "title": "Titel",
+      "category": "Kategorie",
+      "expiresAt": "Erléist (optional)",
+      "body": "Message",
+      "pinned": "Pin un d'Spëtzt vun den Awunner Ukënnegung",
+      "requiredFields": "Gitt weg en Titel an e Message.",
+      "saveError": "Konnt dës Ukënnegung net späicheren. Kuckt w.e.g. d'Detailer.",
+      "publish": "Verëffentlechen"
+    },
+    "confirm": {
+      "title": "Läschen Annonce?",
+      "body": "\"{{title}}\" gëtt fir all Awunner geläscht. Dëst kann net réckgängeg gemaach ginn.",
+      "delete": "Läschen",
+      "deleting": "Läscht…"
     }
   }
 }

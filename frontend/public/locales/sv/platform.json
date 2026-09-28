@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Supportbiljetter",
     "subtitle": "Stöd biljetter och problem som tagits upp av invånare och community-administratörer, över hela plattformen."
+  },
+  "profile": {
+    "accountTitle": "Konto",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Byt lösenord",
+    "loadError": "Det gick inte att ladda din profil. Försök igen.",
+    "fields": {
+      "fullName": "Fullständigt namn",
+      "email": "E-post",
+      "role": "Roll",
+      "roleValue": "Systemadministratör"
+    }
   }
 }

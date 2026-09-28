@@ -222,6 +222,14 @@
         "title": "Tautoko / Maharahara",
         "subtitle": "Whakanuia o ake tikiti ki te Kaiwhakahaere Pūnaha, hapai ranei i nga awangawanga kua korerohia e o kainoho ki a koe."
       },
+      "reports": {
+        "title": "Nga Ripoata Hapori",
+        "subtitle": "Ko nga nama mo te hoko, te nama, te kohinga me te hokonga nui mo to hapori."
+      },
+      "announcements": {
+        "title": "Panuitanga",
+        "subtitle": "Whakaputa panui-a-hapori ki o kainoho."
+      },
       "profile": {
         "title": "Tautuhinga & Kōtaha",
         "subtitle": "Whakahaerehia o taipitopito putea me nga korero whare."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Kaiwhakahaere Hapori",
     "notBuilt": "{{label}} kaore ano kia hanga",
     "searchPlaceholder": "Rapua tetahi mea..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Ripoata",
-      "description": "Nga korero mo te kai, te nama, me te penapena mo to hapori."
-    },
-    "announcements": {
-      "title": "Panuitanga",
-      "description": "Tukuna nga panui-a-hapori ki o kainoho."
-    }
   },
   "comingSoon": {
     "title": "{{title}} kei te haere mai"
@@ -261,7 +259,9 @@
       "billing": "Nga nama me nga nama",
       "notifications": "Whakamōhiotanga",
       "recommendations": "Nga Tohutohu",
-      "support": "Tautoko / Maharahara"
+      "support": "Tautoko / Maharahara",
+      "reports": "To whakamahi me te whakapaunga moni",
+      "profile": "Taku kōtaha"
     },
     "defaultTitle": "Papatohu Kainoho",
     "navLabel": "Te whakatere tangata",
@@ -277,7 +277,8 @@
       "communities": "Hapori",
       "reports": "Ripoata",
       "supportTickets": "Tikiti Tautoko",
-      "systemStatus": "Tūnga Pūnaha"
+      "systemStatus": "Tūnga Pūnaha",
+      "profile": "Kōtaha"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Tūnga Pūnaha",
         "subtitle": "Hononga tuara me te hauora o te wa whakahaere."
+      },
+      "profile": {
+        "title": "Kōtaha",
+        "subtitle": "To pūkete, avatar me to kupuhipa"
       }
     },
     "fallbackName": "Kaiwhakahaere Pūnaha",
@@ -308,5 +313,40 @@
     "buttonLabel": "Reo: {{language}}",
     "searchPlaceholder": "Rapu reo…",
     "noMatches": "Karekau he whakataetae"
+  },
+  "avatarPicker": {
+    "label": "Kōwhiria he avatar",
+    "hint": "Tīpakohia tetahi o nga avatar tatūkē, whakamahia ranei o tohu tuatahi.",
+    "change": "Hurihia",
+    "cancel": "Whakakore",
+    "useInitials": "Whakamahia nga tohu tuatahi",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Tiakina avatar",
+    "saving": "Tiaki…",
+    "saved": "Kua whakahoutia te Avatar",
+    "saveError": "Kaore i taea te whakahou i to avatar. Me ngana ano."
+  },
+  "changePassword": {
+    "current": "Kupuhipa o naianei",
+    "new": "Kupuhipa hou",
+    "confirm": "Whakaū kupuhipa hōu",
+    "hint": "I te iti rawa {{min}} pūāhua.",
+    "tooShort": "Ko te kupuhipa hōu me {{min}} pūāhua.",
+    "mismatch": "Ko nga kupuhipa hou kaore i te rite.",
+    "sameAsCurrent": "Me rereke te kupuhipa hou i to kupuhipa o naianei.",
+    "submit": "Whakahouhia te kupuhipa",
+    "saving": "Whakahōu ana…",
+    "success": "Kua whakahoutia to kupuhipa.",
+    "error": "Kāore i taea te whakahōu i tō kupuhipa. Me ngana ano."
+  },
+  "search": {
+    "kindPage": "Whārangi",
+    "kindRecord": "Hua",
+    "loading": "Kei te rapu…",
+    "noResults": "Karekau he whakataetae",
+    "recordsUnavailable": "Ko nga wharangi anake ka taea te rapu inaianei.",
+    "invoiceLabel": "Nama {{period}}",
+    "paid": "Ka utua",
+    "unpaid": "Kare i utua"
   }
 }

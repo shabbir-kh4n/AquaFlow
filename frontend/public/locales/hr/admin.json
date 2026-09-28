@@ -25,7 +25,6 @@
     "title": "{{community}} Nadzorna ploča apartmana",
     "titleFallback": "Nadzorna ploča vašeg stana",
     "subtitle": "Operativni sažetak za vodoopskrbno podmjerenje i potrošnju kućanstva.",
-    "comingSoon": "Dolazi uskoro",
     "manageCommunity": "Upravljanje zajednicom",
     "noUsageReadings": "Još nisu zabilježena očitanja upotrebe.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Zadnji snimljeni mjesec ({{month}})",
       "noReadingsYet": "Još nema zabilježenih očitanja",
       "pendingAlerts": "Upozorenja na čekanju",
-      "anomalyPreview": "Pregled otkrivanja anomalija — još nije dostupno"
+      "reviewAlerts": "Aktivna upozorenja o curenju/korištenju — pregledajte sada",
+      "noActiveAlerts": "Nema aktivnih upozorenja"
     },
     "actions": {
       "label": "Brze administrativne radnje",
       "uploadReadings": "Prenesite očitanja brojila",
       "configureTariffs": "Konfigurirajte tarife",
-      "reportsNotBuilt": "Izvješća još nisu izrađena",
       "downloadReports": "Preuzmite izvješća sustava"
     },
     "chart": {
       "title": "Usporedba mjesečne potrošnje (kL)",
       "subtitle": "Zadnjih {{months}} mjeseci: ciljana u odnosu na stvarnu potrošnju.",
-      "targetSeries": "Cilj (pregled)",
       "actualSeries": "Stvarno"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Nije moguće spremiti vaš profil. Molimo pokušajte ponovo.",
     "apartmentSaveError": "Nije moguće spremiti podatke o stanu. Molimo pokušajte ponovo.",
     "specsTitle": "Specifikacije profila",
-    "photoUnavailable": "Prijenos fotografija još nije dostupan",
-    "changePhoto": "Promjena fotografije",
-    "deletePhoto": "Izbrisati",
-    "photoHint": "JPG ili PNG. Maksimalna veličina 2MB.",
     "saveProfile": "Spremi profil",
     "apartmentTitle": "Detalji apartmana",
     "saveApartment": "Spremi detalje apartmana",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Dvofaktorska autentifikacija još nije dostupna",
       "twoFactorAria": "Dvostruka autentifikacija (samo pregled)",
       "sessionsLabel": "Aktivne administratorske sesije",
-      "sessionsEmpty": "Praćenje sesije još nije dostupno — ovo je pregled nadolazećeg izgleda."
-    }
+      "sessionsEmpty": "Praćenje sesije još nije dostupno — ovo je pregled nadolazećeg izgleda.",
+      "previewNote": "Samo pregled: dvofaktorska autentifikacija i praćenje sesije još nisu dostupni."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Promjena lozinke"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Ulaznice za stanovnike",
       "subtitle": "Ulaznice za podršku i zabrinutosti koje su vam uputili stanovnici vaše zajednice."
+    }
+  },
+  "reports": {
+    "loadError": "Nije moguće učitati izvješće zajednice. Molimo pokušajte ponovo.",
+    "pdfError": "Nije moguće preuzeti izvješće PDF. Molimo pokušajte ponovo.",
+    "loading": "Učitavanje izvješća…",
+    "empty": "Nema kućanstava s podacima u ovom rasponu.",
+    "noMatch": "Nijedno kućanstvo ne odgovara \"{{search}}\".",
+    "searchPlaceholder": "Filtriraj po kući, stanovniku ili broju brojila.",
+    "downloadCsv": "Preuzmi CSV",
+    "downloadPdf": "Preuzmite PDF sažetak",
+    "downloadingPdf": "Priprema PDF…",
+    "ranges": {
+      "threeMonths": "Zadnja 3 mjeseca",
+      "sixMonths": "Zadnjih 6 mjeseci",
+      "twelveMonths": "Zadnjih 12 mjeseci",
+      "custom": "Prilagođeni raspon"
+    },
+    "customRange": {
+      "from": "Iz",
+      "to": "Do",
+      "hint": "Odaberite početni i završni mjesec za učitavanje izvješća."
+    },
+    "cards": {
+      "totalConsumption": "Ukupna potrošnja",
+      "households": "U {{total}} kućanstava",
+      "avgMonthly": "Prosječna mjesečna potrošnja",
+      "communityWide": "Za cijelu zajednicu, mjesečno",
+      "billed": "Naplaćeno",
+      "finalizedOnly": "Samo finalizirani i arhivirani ciklusi",
+      "paid": "Plaćeno",
+      "invoices": "{{total}} izdanih faktura",
+      "outstanding": "Izvanredan",
+      "unpaidInvoices": "{{total}} neplaćenih faktura",
+      "collectionRate": "Stopa prikupljanja"
+    },
+    "costs": {
+      "title": "Troškovi naspram prihoda",
+      "commonArea": "Naplaćeni troškovi zajedničkog prostora",
+      "bulkCost": "Trošak kupnje vode u rinfuzi",
+      "bulkVolume": "Voda u rinfuzi kupljena",
+      "bulkCount": "{{total}} kupnji",
+      "billedMinusBulk": "Naplaćeni prihod minus skupni trošak",
+      "note": "Skupne kupnje prate se radi vidljivosti troškova i ne naplaćuju se izravno kućanstvima."
+    },
+    "top": {
+      "title": "Vrhunski potrošači",
+      "empty": "U ovom rasponu nije zabilježena potrošnja."
+    },
+    "charts": {
+      "consumptionTitle": "Mjesečna potrošnja",
+      "consumptionSeries": "Potrošnja",
+      "billingTitle": "Naplaćeni u odnosu na plaćeni u odnosu na skupni trošak",
+      "billedSeries": "Naplaćeno",
+      "paidSeries": "Plaćeno",
+      "bulkSeries": "Skupni trošak nabave",
+      "empty": "Nema podataka za ovaj raspon."
+    },
+    "sort": {
+      "label": "Poredaj po",
+      "toggleDirection": "Promjena smjera sortiranja",
+      "asc": "↑ Asc",
+      "desc": "↓ Desc"
+    },
+    "table": {
+      "house": "Kuća",
+      "resident": "Stanovnik",
+      "meter": "Metar",
+      "totalKl": "Ukupno kL",
+      "avgMonthlyKl": "Prosj. mjesečno kL",
+      "billed": "Naplaćeno",
+      "paid": "Plaćeno",
+      "outstanding": "Izvanredan"
+    }
+  },
+  "announcements": {
+    "loadError": "Nije moguće učitati najave. Molimo pokušajte ponovo.",
+    "removeError": "Nije moguće izbrisati ovu najavu. Molimo pokušajte ponovo.",
+    "loading": "Učitavanje najava...",
+    "empty": "Još nema najava. Kliknite \"Nova obavijest\" kako biste obavijestili svoje stanovnike.",
+    "count": "Najave: {{total}}",
+    "newButton": "+ Nova najava",
+    "pinned": "Prikvačeno",
+    "expired": "Istekao",
+    "postedAt": "Objavljeno {{date}}",
+    "updatedAt": "Uređeno {{date}}",
+    "expiresAt": "Ističe {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Održavanje",
+      "waterSupply": "Vodoopskrba",
+      "billing": "Naplata",
+      "urgent": "Hitno"
+    },
+    "form": {
+      "addTitle": "Nova najava",
+      "editTitle": "Uredi najavu",
+      "addSubtitle": "Stanovnici to vide na svojoj stranici s obavijestima, a svatko s uključenim push obavijestima odmah je obaviješten.",
+      "editSubtitle": "Uređivanja ažuriraju najavu na mjestu. Stanovnici se više ne obavještavaju.",
+      "title": "Titula",
+      "category": "Kategorija",
+      "expiresAt": "Ističe (nije obavezno)",
+      "body": "Poruka",
+      "pinned": "Prikvači na vrh najava stanovnika",
+      "requiredFields": "Unesite naslov i poruku.",
+      "saveError": "Nije moguće spremiti ovu najavu. Provjerite detalje.",
+      "publish": "Objaviti"
+    },
+    "confirm": {
+      "title": "Izbrisati najavu?",
+      "body": "\"{{title}}\" bit će uklonjen za sve stanovnike. Ovo se ne može poništiti.",
+      "delete": "Izbrisati",
+      "deleting": "Brisanje..."
     }
   }
 }

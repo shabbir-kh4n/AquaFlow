@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Entrades de suport",
     "subtitle": "Ajudes de suport i preocupacions plantejades pels residents i els administradors de la comunitat, a tota la plataforma."
+  },
+  "profile": {
+    "accountTitle": "Compte",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Canvia la contrasenya",
+    "loadError": "No s'ha pogut carregar el teu perfil. Si us plau, torna-ho a provar.",
+    "fields": {
+      "fullName": "Nom complet",
+      "email": "Correu electrònic",
+      "role": "Rol",
+      "roleValue": "Administrador del sistema"
+    }
   }
 }

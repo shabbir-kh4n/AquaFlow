@@ -25,7 +25,6 @@
     "title": "{{community}} Kvartira boshqaruv paneli",
     "titleFallback": "Sizning kvartirangiz boshqaruv paneli",
     "subtitle": "Suv ta'minoti sub-hisoblash va maishiy iste'mol uchun operatsion xulosa.",
-    "comingSoon": "Tez kunlarda",
     "manageCommunity": "Hamjamiyatni boshqarish",
     "noUsageReadings": "Foydalanish ko'rsatkichlari hali qayd etilmagan.",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "Oxirgi yozilgan oy ({{month}})",
       "noReadingsYet": "O'qishlar hali qayd etilmagan",
       "pendingAlerts": "Kutilayotgan ogohlantirishlar",
-      "anomalyPreview": "Anomaliyalarni aniqlashni oldindan ko'rish — hali mavjud emas"
+      "reviewAlerts": "Faol oqish / foydalanish haqida ogohlantirishlar - hozir ko'rib chiqing",
+      "noActiveAlerts": "Faol ogohlantirishlar yo'q"
     },
     "actions": {
       "label": "Tez ma'muriy harakatlar",
       "uploadReadings": "Hisoblagich ko'rsatkichlarini yuklash",
       "configureTariffs": "Tariflarni sozlash",
-      "reportsNotBuilt": "Hisobotlar hali tuzilmagan",
       "downloadReports": "Tizim hisobotlarini yuklab oling"
     },
     "chart": {
       "title": "Oylik iste'molni taqqoslash (kL)",
       "subtitle": "Oxirgi {{months}} oy: maqsadli va haqiqiy iste'mol.",
-      "targetSeries": "Maqsad (oldindan ko'rish)",
       "actualSeries": "Haqiqiy"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Profilingiz saqlanmadi. Iltimos, qayta urinib koʻring.",
     "apartmentSaveError": "Kvartira tafsilotlarini saqlab bo‘lmadi. Iltimos, qayta urinib koʻring.",
     "specsTitle": "Profil spetsifikatsiyalari",
-    "photoUnavailable": "Rasm yuklash hali mavjud emas",
-    "changePhoto": "Rasmni o'zgartirish",
-    "deletePhoto": "Oʻchirish",
-    "photoHint": "JPG yoki PNG. Maksimal hajmi 2 MB.",
     "saveProfile": "Profilni saqlash",
     "apartmentTitle": "Kvartira tafsilotlari",
     "saveApartment": "Kvartira tafsilotlarini saqlang",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Ikki faktorli autentifikatsiya hali mavjud emas",
       "twoFactorAria": "Ikki faktorli autentifikatsiya (faqat oldindan ko'rish)",
       "sessionsLabel": "Faol administrator seanslari",
-      "sessionsEmpty": "Seansni kuzatish hozircha mavjud emas — bu kelgusi tartibning oldindan ko‘rishi."
-    }
+      "sessionsEmpty": "Seansni kuzatish hozircha mavjud emas — bu kelgusi tartibning oldindan ko‘rishi.",
+      "previewNote": "Faqat oldindan ko‘rish: ikki faktorli autentifikatsiya va seansni kuzatish hali mavjud emas."
+    },
+    "avatarLabel": "Avatar",
+    "passwordTitle": "Parolni o'zgartirish"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Rezident chiptalari",
       "subtitle": "Qo'llab-quvvatlash chiptalari va sizning mahallangiz aholisi sizga murojaat qilgan."
+    }
+  },
+  "reports": {
+    "loadError": "Hamjamiyat hisobotini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "pdfError": "PDF hisobotini yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Hisobot yuklanmoqda…",
+    "empty": "Bu oraliqda maʼlumotlarga ega boʻlgan uy xoʻjaliklari yoʻq.",
+    "noMatch": "“{{search}}”ga mos keladigan uy xo‘jaliklari topilmadi.",
+    "searchPlaceholder": "Uy, yashovchi yoki hisoblagich raqami bo'yicha filtrlang.",
+    "downloadCsv": "Yuklab olish CSV",
+    "downloadPdf": "Yuklab olish PDF Xulosa",
+    "downloadingPdf": "Tayyorlanmoqda PDF…",
+    "ranges": {
+      "threeMonths": "Oxirgi 3 oy",
+      "sixMonths": "Oxirgi 6 oy",
+      "twelveMonths": "Oxirgi 12 oy",
+      "custom": "Maxsus diapazon"
+    },
+    "customRange": {
+      "from": "Kimdan",
+      "to": "Kimga",
+      "hint": "Hisobotni yuklash uchun boshlanish va tugash oyini tanlang."
+    },
+    "cards": {
+      "totalConsumption": "Umumiy iste'mol",
+      "households": "{{total}} xonadon boʻylab",
+      "avgMonthly": "Oylik o'rtacha iste'mol",
+      "communityWide": "Jamiyat miqyosida, oyiga",
+      "billed": "Hisob-kitob qilingan",
+      "finalizedOnly": "Faqat yakunlangan va arxivlangan tsikllar",
+      "paid": "To'langan",
+      "invoices": "{{total}} hisob-fakturalar berilgan",
+      "outstanding": "Ajoyib",
+      "unpaidInvoices": "{{total}} toʻlanmagan hisob-fakturalar",
+      "collectionRate": "Yig'ish darajasi"
+    },
+    "costs": {
+      "title": "Xarajatlar va daromadlar",
+      "commonArea": "Umumiy maydon toʻlovlari toʻlanadi",
+      "bulkCost": "Ommaviy suv sotib olish narxi",
+      "bulkVolume": "Ommaviy suv sotib olindi",
+      "bulkCount": "{{total}} xarid",
+      "billedMinusBulk": "Hisoblangan daromad minus ommaviy xarajat",
+      "note": "Ommaviy xaridlar xarajat koʻrinishi uchun kuzatiladi va toʻgʻridan-toʻgʻri uy xoʻjaliklariga toʻlanmaydi."
+    },
+    "top": {
+      "title": "Eng yaxshi iste'molchilar",
+      "empty": "Ushbu diapazonda iste'mol qayd etilmagan."
+    },
+    "charts": {
+      "consumptionTitle": "Oylik iste'mol",
+      "consumptionSeries": "Iste'mol",
+      "billingTitle": "Hisoblangan va toʻlangan va ommaviy xarajat",
+      "billedSeries": "Hisob-kitob qilingan",
+      "paidSeries": "To'langan",
+      "bulkSeries": "Ommaviy xarid narxi",
+      "empty": "Bu diapazon uchun maʼlumot yoʻq."
+    },
+    "sort": {
+      "label": "Saralash turi",
+      "toggleDirection": "Saralash yoʻnalishini oʻzgartirish",
+      "asc": "↑ Asc",
+      "desc": "↓ Tuzatish"
+    },
+    "table": {
+      "house": "Uy",
+      "resident": "Rezident",
+      "meter": "Metr",
+      "totalKl": "Jami kL",
+      "avgMonthlyKl": "Oylik oʻrtacha kL",
+      "billed": "Hisob-kitob qilingan",
+      "paid": "To'langan",
+      "outstanding": "Ajoyib"
+    }
+  },
+  "announcements": {
+    "loadError": "Eʼlonlarni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "removeError": "Bu eʼlonni oʻchirib boʻlmadi. Iltimos, qayta urinib koʻring.",
+    "loading": "Eʼlonlar yuklanmoqda…",
+    "empty": "Hozircha e'lonlar yo'q. Rezidentlaringizni xabardor qilish uchun \"Yangi e'lon\" tugmasini bosing.",
+    "count": "E'lonlar: {{total}}",
+    "newButton": "+ Yangi e'lon",
+    "pinned": "Qadalgan",
+    "expired": "Muddati tugagan",
+    "postedAt": "Joylangan {{date}}",
+    "updatedAt": "Tahrirlangan {{date}}",
+    "expiresAt": "Muddati tugaydi {{date}}",
+    "category": {
+      "general": "General",
+      "maintenance": "Xizmat",
+      "waterSupply": "Suv ta'minoti",
+      "billing": "Hisob-kitob",
+      "urgent": "Shoshilinch"
+    },
+    "form": {
+      "addTitle": "Yangi e'lon",
+      "editTitle": "E'lonni tahrirlash",
+      "addSubtitle": "Rezidentlar buni o'zlarining Bildirishnomalar sahifasida ko'rishadi va push bildirishnomalari yoqilgan har bir kishi darhol xabardor qilinadi.",
+      "editSubtitle": "O'zgartirishlar e'lonni joyida yangilaydi. Aholiga yana xabar berilmaydi.",
+      "title": "Sarlavha",
+      "category": "Turkum",
+      "expiresAt": "Muddati tugaydi (ixtiyoriy)",
+      "body": "Xabar",
+      "pinned": "Aholining e'lonlari tepasiga mahkamlang",
+      "requiredFields": "Iltimos, sarlavha va xabarni kiriting.",
+      "saveError": "Bu eʼlonni saqlab boʻlmadi. Iltimos, tafsilotlarni tekshiring.",
+      "publish": "Nashr qilish"
+    },
+    "confirm": {
+      "title": "E'lon o'chirilsinmi?",
+      "body": "“{{title}}” barcha rezidentlar uchun olib tashlanadi. Buni ortga qaytarib bo‘lmaydi.",
+      "delete": "Oʻchirish",
+      "deleting": "Oʻchirilmoqda…"
     }
   }
 }

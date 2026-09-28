@@ -25,7 +25,6 @@
     "title": "{{community}} अपार्टमेंट डैशबोर्ड",
     "titleFallback": "तुंदा अपार्टमेंट डैशबोर्ड",
     "subtitle": "पानी दी खपत ते सब-मीटरिंग दा सारांश।",
-    "comingSoon": "जल्दी आ रहा है",
     "manageCommunity": "कम्युनिटी प्रबंधित करो",
     "noUsageReadings": "अज्जै तकर कोई खपत रीडिंग दर्ज नी होई।",
     "cards": {
@@ -38,19 +37,18 @@
       "latestRecordedMonth": "नवीनतम दर्ज महीना ({{month}})",
       "noReadingsYet": "अज्जै कोई रीडिंग दर्ज नी होई",
       "pendingAlerts": "लंबित अलर्ट",
-      "anomalyPreview": "विसंगति डिटेक्शन प्रीव्यू — अज्जै उपलब्ध नी है"
+      "reviewAlerts": "सक्रिय लीक / उपयोग अलर्ट — अज्जै थमां गै समीक्षा करो",
+      "noActiveAlerts": "कोई सक्रिय अलर्ट नेईं"
     },
     "actions": {
       "label": "प्रशासनिक कार्य",
       "uploadReadings": "मीटर रीडिंग अपलोड करो",
       "configureTariffs": "टैरिफ कॉन्फ़िगर करो",
-      "reportsNotBuilt": "रिपोर्ट अज्जै तैयार नी है",
       "downloadReports": "सिस्टम रिपोर्ट डाउनलोड करो"
     },
     "chart": {
       "title": "मासिक खपत तुलना (kL)",
       "subtitle": "पिछले {{months}} महीने: लक्ष्य बनाम वास्तविक खपत।",
-      "targetSeries": "लक्ष्य (प्रीव्यू)",
       "actualSeries": "वास्तविक"
     },
     "recent": {
@@ -413,10 +411,6 @@
     "profileSaveError": "Tuhadi profile save nahi ho saki. Kripya pher koshish karo.",
     "apartmentSaveError": "Apartment da vivran save nahi ho sakya. Kripya pher koshish karo.",
     "specsTitle": "Profile da vivran",
-    "photoUnavailable": "Photo upload abi uplabdh nahi hai",
-    "changePhoto": "Photo badlo",
-    "deletePhoto": "Delete karo",
-    "photoHint": "JPG ya PNG. Zayada ton zayada 2MB size.",
     "saveProfile": "Profile save karo",
     "apartmentTitle": "Apartment da vivran",
     "saveApartment": "Apartment da vivran save karo",
@@ -447,8 +441,11 @@
       "twoFactorUnavailable": "Two-factor authentication abi uplabdh nahi hai",
       "twoFactorAria": "Two-factor authentication (sirf preview)",
       "sessionsLabel": "Sakriye admin session",
-      "sessionsEmpty": "Session tracking abi uplabdh nahi hai — eh aan aale layout da preview hai."
-    }
+      "sessionsEmpty": "Session tracking abi uplabdh nahi hai — eh aan aale layout da preview hai.",
+      "previewNote": "सिर्फ पूर्वावलोकन: दो-कारक प्रमाणीकरण ते सत्र ट्रैकिंग अजें तगर उपलब्ध नेईं ऐ।"
+    },
+    "avatarLabel": "अवतार",
+    "passwordTitle": "पासवर्ड बदलो"
   },
   "support": {
     "tabs": {
@@ -463,6 +460,119 @@
     "inbox": {
       "title": "Niwasia di tickets",
       "subtitle": "Support tickets te chinta jo tuhadi community de niwasiya ne tuhade kol rakhiya han."
+    }
+  },
+  "reports": {
+    "loadError": "समुदाय दी रिपोर्ट लोड नेईं होई सकेआ। कृपा करियै दुबारा कोशश करो।",
+    "pdfError": "PDF रिपोर्ट डाउनलोड नेईं करी सकेआ. कृपा करियै दुबारा कोशश करो।",
+    "loading": "रिपोर्ट लोड होआ करदी ऐ...",
+    "empty": "इस रेंज च डेटा आह् ले कोई घर नेईं।",
+    "noMatch": "कोई बी घर \"{{search}}\" कन्नै मेल नेईं खंदा।",
+    "searchPlaceholder": "घर, निवासी, या मीटर नंबर दे अनुसार छानना।",
+    "downloadCsv": "डाउनलोड करो CSV।",
+    "downloadPdf": "डाउनलोड करो PDF सारांश",
+    "downloadingPdf": "तैयारी करदे होई PDF...",
+    "ranges": {
+      "threeMonths": "पिछले 3 महीने",
+      "sixMonths": "पिछले 6 महीने",
+      "twelveMonths": "पिछले 12 महीने",
+      "custom": "कस्टम रेंज"
+    },
+    "customRange": {
+      "from": "थमां",
+      "to": "गी",
+      "hint": "रिपोर्ट लोड करने लेई इक शुरूआत ते इक अंत म्हीना दोनें गी चुनो।"
+    },
+    "cards": {
+      "totalConsumption": "कुल खपत",
+      "households": "{{total}} घरें दे पार",
+      "avgMonthly": "औसत मासिक खपत",
+      "communityWide": "समुदाय-व्यापी, हर महीने",
+      "billed": "बिल कीता",
+      "finalizedOnly": "अंतिम & संग्रहीत चक्र ही",
+      "paid": "भुगतान कीते दा",
+      "invoices": "{{total}} चालान जारी कीते गे",
+      "outstanding": "बकाया",
+      "unpaidInvoices": "{{total}} अदत्त चालान",
+      "collectionRate": "संग्रह दर"
+    },
+    "costs": {
+      "title": "लागत बनाम राजस्व",
+      "commonArea": "आम-क्षेत्र शुल्क बिल",
+      "bulkCost": "थोक पानी खरीद लागत",
+      "bulkVolume": "थोक पानी खरीदा",
+      "bulkCount": "{{total}} खरीददारी करदा ऐ",
+      "billedMinusBulk": "बिल राजस्व माइनस थोक लागत",
+      "note": "बल्क खरीददारी गी लागत दी दृश्यता आस्तै ट्रैक कीता जंदा ऐ ते घरें गी सीधे तौर पर बिल नेईं दित्ता जंदा ऐ।"
+    },
+    "top": {
+      "title": "शीर्ष उपभोक्ता",
+      "empty": "इस रेंज च कोई खपत दर्ज नेईं कीती गेई।"
+    },
+    "charts": {
+      "consumptionTitle": "मासिक खपत करना",
+      "consumptionSeries": "खपत",
+      "billingTitle": "बिल बनाम भुगतान बनाम थोक लागत",
+      "billedSeries": "बिल कीता",
+      "paidSeries": "भुगतान कीते दा",
+      "bulkSeries": "थोक खरीद लागत",
+      "empty": "इस रेंज लेई कोई डेटा नेईं।"
+    },
+    "sort": {
+      "label": "क्रमबद्ध करना",
+      "toggleDirection": "सॉर्ट दिशा टॉगल करो",
+      "asc": "↑ एससी ने दी",
+      "desc": "↓ वर्णन ऐ"
+    },
+    "table": {
+      "house": "घर",
+      "resident": "बसनीक",
+      "meter": "मीटर",
+      "totalKl": "कुल kL ऐ।",
+      "avgMonthlyKl": "औसत मासिक kL",
+      "billed": "बिल कीता",
+      "paid": "भुगतान कीते दा",
+      "outstanding": "बकाया"
+    }
+  },
+  "announcements": {
+    "loadError": "घोषणाएं गी लोड नेईं करी सकेआ। कृपा करियै दुबारा कोशश करो।",
+    "removeError": "इस घोशणा गी हटाई नेईं सकेआ। कृपा करियै दुबारा कोशश करो।",
+    "loading": "घोशणाएं लोड होआ करदे न...",
+    "empty": "अजे तक कोई ऐलान नहीं। अपने निवासियें गी सूचित करने लेई \"नमीं घोशणा\" पर क्लिक करो।",
+    "count": "घोषणाएं: {{total}} ऐ।",
+    "newButton": "+ नई ऐलान",
+    "pinned": "पिन कर दिया",
+    "expired": "समाप्त",
+    "postedAt": "पोस्ट कीता गेदा {{date}}",
+    "updatedAt": "संपादित कीता गेदा {{date}}",
+    "expiresAt": "समाप्त हो जांदा ऐ {{date}} ।",
+    "category": {
+      "general": "आम",
+      "maintenance": "सांभ-सम्हाल",
+      "waterSupply": "पानी की आपूर्ति",
+      "billing": "बिलिंग करना",
+      "urgent": "फौरन"
+    },
+    "form": {
+      "addTitle": "नई ऐलान",
+      "editTitle": "घोषणा संपादित करो",
+      "addSubtitle": "निवासी इसगी अपने सूचनाएं दे पृष्ठ पर दिक्खदे न, ते जिस कुसै बी व्यक्ति गी पुश सूचना सक्षम ऐ, उसी तुरत सूचित कीता जंदा ऐ।",
+      "editSubtitle": "संपादन घोशणा गी जगह च अपडेट करदा ऐ। निवासियें गी दुबारा सूचित नेईं कीता जंदा ऐ।",
+      "title": "शीर्शक",
+      "category": "वर्ण",
+      "expiresAt": "समाप्त होंदा ऐ (वैकल्पिक)",
+      "body": "सनेहा",
+      "pinned": "निवासियों की घोषणाओं के शीर्ष पर पिन",
+      "requiredFields": "कृपया इक शीर्षक ते इक संदेश दर्ज करो।",
+      "saveError": "इस घोषणा गी बचाई नेईं सकेआ। कृपया विस्तार कन्नै जांच करो।",
+      "publish": "प्रकाशित करो"
+    },
+    "confirm": {
+      "title": "घोषणा हटाओ ?",
+      "body": "\"{{title}}\" सारे निवासियें आस्तै हटाई दित्ता जाग. इसगी वापस नेईं कीता जाई सकदा।",
+      "delete": "म्हेसना",
+      "deleting": "डिलीट करदे होई..."
     }
   }
 }

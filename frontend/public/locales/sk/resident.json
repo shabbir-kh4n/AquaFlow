@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Už čoskoro",
     "welcome": {
       "greeting": "Dobrý deň, {{name}},",
       "greetingFallback": "Dobrý deň,",
       "title": "Zostaňte blízko príbehu vody vášho domova.",
-      "subtitle": "Tu sa zobrazia štatistiky o používaní a fakturácii, keď vaša komunita zaznamenáva čítania.",
-      "viewBadges": "Zobraziť ekologické odznaky"
+      "subtitle": "Tu sa zobrazia štatistiky o používaní a fakturácii, keď vaša komunita zaznamenáva čítania."
     },
     "stats": {
       "todaysUsage": "Dnešné použitie",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Meraná spotreba + zdieľané poplatky, {{month}}",
       "estimatedBillHint": "Na základe nameranej spotreby a zdieľaných poplatkov za tento mesiac",
       "savings": "Priem. úspora vs. budova",
-      "savingsValue": "{{percent}} % menej",
-      "savingsPreview": "Iba ukážka – porovnanie ešte nie je zverejnené"
+      "savingsLess": "{{percent}} % menej",
+      "savingsMore": "{{percent}} % viac",
+      "savingsEqual": "Rovnako ako priemer",
+      "savingsDetail": "{{household}} kL oproti {{average}} kL priemer, {{month}}",
+      "savingsNoData": "Zatiaľ žiadne porovnanie budov"
     },
     "consumption": {
       "eyebrow": "Spotreba",
       "title": "Denná spotreba (posledných 14 prečítaní)",
       "seriesName": "Spotreba",
       "empty": "Zatiaľ neboli zaznamenané žiadne hodnoty."
-    },
-    "breakdown": {
-      "eyebrow": "Členenie",
-      "title": "Rozdelenie použitia",
-      "bathroom": "Kúpeľňa",
-      "kitchen": "Kuchyňa",
-      "garden": "Záhrada / Balkón",
-      "other": "Ostatné / Práčovňa"
     },
     "billing": {
       "eyebrow": "Fakturácia",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Úroveň cenovej hladiny",
       "tierLabel": "Úroveň {{tier}}",
       "commonArea": "Rozdelenie spoločných priestorov",
-      "commonAreaPreview": "Rozdelenie spoločných priestorov (ukážka)",
       "invoiceTotal": "{{period}} faktúra celkom",
       "estimatedCharge": "Aktuálny odhadovaný poplatok",
       "commonAreaBreakdown": "Rozdelenie spoločných priestorov",
-      "payPreview": "Náhľad faktúry",
-      "payUnavailable": "Fakturačný nástroj zatiaľ nie je k dispozícii"
+      "commonAreaEstimate": "Rozdelenie spoločnej plochy (odhad)",
+      "payOutstanding": "Vyplatiť dlžné {{amount}} INR",
+      "payAllDescription": "Všetky nezaplatené účty ({{number}})"
     },
     "tips": {
       "eyebrow": "Tipy",
@@ -66,8 +59,7 @@
     "empty": "Zatiaľ neboli zaznamenané žiadne hodnoty. Keď vaša komunita zaznamená stav merača, zobrazí sa tu.",
     "tabs": {
       "lastSixMonths": "Posledných 6 mesiacov",
-      "customRange": "Vlastný rozsah",
-      "comingSoon": "Už čoskoro"
+      "customRange": "Vlastný rozsah"
     },
     "peakDay": "Vrcholový deň:",
     "lowestDay": "Najnižší deň:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Teplotná mapa dennej spotreby",
-      "subtitle": "Intenzita farieb označuje dni intenzívneho používania (ukážka)."
+      "subtitle": "Intenzita farieb označuje dni intenzívneho používania (ukážka).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: žiadne údaje",
+      "less": "Menej",
+      "more": "Viac",
+      "noData": "Žiadne údaje"
     },
     "ranking": {
       "title": "Hodnotenie komunitných partnerov",
-      "subtitle": "Vaše hodnotenie v porovnaní s podobnými jednotkami (ukážka).",
-      "ecoSaver": "Aktívny ekologický šetrič",
-      "aptNumber": "Byt {{number}}",
-      "unitNumber": "Jednotka {{number}}",
-      "yourUnit": "Vaša jednotka",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Vy)"
+      "subtitle": "Vaša domácnosť verzus každá domácnosť vo vašom byte za {{month}}. Nižšia spotreba je vyššia.",
+      "headline": "#{{rank}} z {{total}} domácností",
+      "percentile": "Spotrebovali ste menej vody ako {{percent}} % vašich susedov.",
+      "min": "Najnižšia",
+      "median": "Medián",
+      "max": "Najvyššie",
+      "youRow": "#{{rank}} Vy",
+      "neighbourRow": "#{{rank}} Sused",
+      "privacyNote": "Susedia sú anonymní. Čísla a mená domov sa nikdy nezobrazujú.",
+      "empty": "Zatiaľ nie je dostatok údajov na hodnotenie vašej domácnosti."
+    },
+    "range": {
+      "from": "Od",
+      "to": "Komu",
+      "invalid": "Počiatočný mesiac nesmie nasledovať po koncovom mesiaci.",
+      "noData": "V tomto rozsahu nie sú žiadne údaje o spotrebe."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Fakturačný cyklus: {{period}}",
       "allPaid": "Všetky faktúry sú uhradené",
       "payTotal": "Zaplatiť celkom nevyrovnané",
-      "payTotalUnavailable": "Online platba zatiaľ nie je k dispozícii – vyrovnávajte účty priamo so správcom komunity",
       "downloadSummary": "Stiahnite si Súhrn faktúr",
-      "downloadSummaryUnavailable": "Stiahnutie súhrnu faktúr zatiaľ nie je k dispozícii"
+      "payAllDescription": "Všetky nezaplatené účty ({{number}})"
     },
     "history": {
       "title": "História faktúr",
-      "exportCsv": "Exportovať všetko do CSV",
-      "exportUnavailable": "CSV export zatiaľ nie je k dispozícii"
+      "exportCsv": "Exportovať všetko do CSV"
     },
     "table": {
       "cycle": "Cyklus",
@@ -148,6 +151,17 @@
       "description": "Online platba zatiaľ nie je k dispozícii – účty sa vyrovnávajú priamo so správcom komunity.",
       "manage": "Spravujte spôsoby platby",
       "manageUnavailable": "Spôsoby platby zatiaľ nie sú k dispozícii"
+    },
+    "csv": {
+      "cycle": "Fakturačné obdobie",
+      "consumption": "Spotreba (kL)",
+      "baseAmount": "Základná suma",
+      "tariffAmount": "Výška tarify",
+      "commonAreaAmount": "Množstvo spoločného priestoru",
+      "totalAmount": "Celková suma",
+      "paid": "Zaplatené",
+      "paidAt": "Zaplatené v",
+      "generatedAt": "Vygenerované o"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Netlačte späť ani neobnovujte túto stránku",
     "success": "Platba úspešná",
     "error": "Pri potvrdení vašej platby sa vyskytla chyba. Skúste to znova.",
-    "retry": "Skúste to znova"
+    "retry": "Skúste to znova",
+    "simulationNotice": "Simulovaná pokladňa len na ukážku. Neuskutočňuje sa žiadna skutočná platba a neúčtujú sa žiadne peniaze."
   },
   "notifications": {
     "loadError": "Nepodarilo sa načítať vaše upozornenia. Skúste to znova.",
@@ -213,6 +228,25 @@
       "notConfigured": "Push notifikácie ešte nie sú nakonfigurované. Kontaktujte svojho správcu.",
       "enableError": "Nepodarilo sa povoliť upozornenia push. Skúste to znova.",
       "disableError": "Nepodarilo sa vypnúť upozornenia push. Skúste to znova."
+    },
+    "tabs": {
+      "alerts": "Upozornenia",
+      "announcements": "Oznamy"
+    },
+    "announcements": {
+      "loadError": "Oznámenia sa nepodarilo načítať. Skúste to znova.",
+      "loading": "Načítavajú sa oznámenia…",
+      "empty": "Momentálne žiadne oznámenia od správcu komunity.",
+      "pinned": "Pripnuté",
+      "postedAt": "Uverejnené {{date}}",
+      "expiresAt": "Do {{date}}",
+      "category": {
+        "general": "generál",
+        "maintenance": "Údržba",
+        "waterSupply": "Zásobovanie vodou",
+        "billing": "Fakturácia",
+        "urgent": "Naliehavé"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Odošlite správy o úniku vody, požiadavky na kalibráciu merača alebo otázky týkajúce sa fakturácie priamo správcovi komunity a/alebo správcovi systému.",
     "emptyCreateHint": "Nižšie popíšte svoj problém alebo obavu a vyberte, kto by to mal riešiť."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Posledné 3 mesiace",
+      "sixMonths": "Posledných 6 mesiacov",
+      "twelveMonths": "Posledných 12 mesiacov",
+      "custom": "Vlastný rozsah"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "Komu",
+      "hint": "Ak chcete zobraziť prehľad, vyberte mesiac začiatku a konca."
+    },
+    "loading": "Načítava sa váš prehľad…",
+    "loadError": "Váš prehľad sa nepodarilo načítať. Skúste to znova.",
+    "pdfError": "Výpis sa nepodarilo stiahnuť. Skúste to znova.",
+    "downloading": "Sťahuje sa…",
+    "downloadCsv": "Stiahnuť CSV",
+    "downloadStatement": "Stiahnuť vyhlásenie PDF",
+    "period": "Obdobie prehľadu: {{from}} až {{to}}",
+    "cards": {
+      "totalUsage": "Celkové využitie",
+      "avgMonthly": "Priemerná mesačná spotreba",
+      "avgMonthlyHint": "Počas mesiacov so zaznamenanými hodnotami",
+      "change": "Zmena oproti predchádzajúcemu obdobiu",
+      "changeHint": "{{previous}} v {{from}} až {{to}}",
+      "changeNoData": "Žiadne použitie v predchádzajúcom období na porovnanie",
+      "totalBilled": "Celkom fakturované",
+      "totalPaid": "Celkom zaplatené",
+      "outstanding": "Vynikajúci"
+    },
+    "chart": {
+      "title": "Mesačná spotreba a fakturácia",
+      "subtitle": "Stĺpce zobrazujú spotrebu (kL); riadok zobrazuje fakturovanú sumu (₹).",
+      "consumption": "Spotreba",
+      "billed": "Fakturované"
+    },
+    "table": {
+      "title": "Rozdelenie podľa mesiacov",
+      "month": "mesiac",
+      "consumption": "Spotreba (kL)",
+      "billed": "Fakturované",
+      "paid": "Zaplatené",
+      "status": "Stav"
+    },
+    "status": {
+      "paid": "Zaplatené",
+      "unpaid": "Nezaplatené",
+      "notBilled": "Neúčtované"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Podrobnosti účtu",
+    "managedNote": "Tieto podrobnosti spravuje váš správca komunity. Kontaktujte ich, ak je potrebné niečo zmeniť.",
+    "loading": "Načítava sa váš profil…",
+    "loadError": "Nepodarilo sa načítať váš profil. Skúste to znova.",
+    "notSet": "Nie je nastavené",
+    "flatSizeValue": "{{size}} štvorcových stôp",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Zmeniť heslo",
+    "fields": {
+      "fullName": "Celé meno",
+      "email": "Email",
+      "phone": "Telefón",
+      "houseNumber": "Číslo domu",
+      "meterNumber": "Číslo merača",
+      "community": "Spoločenstva",
+      "flatSize": "Plochá veľkosť",
+      "joined": "Pripojené"
+    }
   }
 }

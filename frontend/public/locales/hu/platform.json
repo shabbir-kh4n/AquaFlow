@@ -234,5 +234,17 @@
   "supportTickets": {
     "title": "Támogató jegyek",
     "subtitle": "Támogatási jegyek és a lakosság és a közösségi adminisztrátorok által felvetett aggályok, platformszerte."
+  },
+  "profile": {
+    "accountTitle": "fiók",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Jelszó módosítása",
+    "loadError": "Nem sikerült betölteni a profilt. Kérjük, próbálja újra.",
+    "fields": {
+      "fullName": "Teljes név",
+      "email": "Email",
+      "role": "Szerep",
+      "roleValue": "Rendszergazda"
+    }
   }
 }

@@ -222,6 +222,14 @@
         "title": "Dəstək / Narahatlıqlar",
         "subtitle": "Sistem Admininə öz biletinizi qaldırın və ya sakinlərin sizə ünvanladığı narahatlıqları idarə edin."
       },
+      "reports": {
+        "title": "İcma Hesabatları",
+        "subtitle": "İcmanız üçün istehlak, faktura, kolleksiya və toplu alış rəqəmləri."
+      },
+      "announcements": {
+        "title": "Elanlar",
+        "subtitle": "Sakinlərinizə icma miqyasında bildirişlər dərc edin."
+      },
       "profile": {
         "title": "Parametrlər və Profil",
         "subtitle": "Hesab məlumatlarınızı və mənzil məlumatlarınızı idarə edin."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "İcma Admini",
     "notBuilt": "{{label}} hələ qurulmayıb",
     "searchPlaceholder": "İstənilən şeyi axtarın..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Hesabatlar",
-      "description": "İcmanız üçün istehlak, hesablama və qoruma hesabatları."
-    },
-    "announcements": {
-      "title": "Elanlar",
-      "description": "Sakinlərinizə icma miqyasında elanlar göndərin."
-    }
   },
   "comingSoon": {
     "title": "{{title}} tezliklə gələcək"
@@ -261,7 +259,9 @@
       "billing": "Faktura və Fakturalar",
       "notifications": "Bildirişlər",
       "recommendations": "Tövsiyələr",
-      "support": "Dəstək / Narahatlıqlar"
+      "support": "Dəstək / Narahatlıqlar",
+      "reports": "İstifadə və xərcləmə hesabatlarınız",
+      "profile": "Mənim profilim"
     },
     "defaultTitle": "Rezident İdarə Paneli",
     "navLabel": "Rezident naviqasiyası",
@@ -277,7 +277,8 @@
       "communities": "İcmalar",
       "reports": "Hesabatlar",
       "supportTickets": "Dəstək Biletləri",
-      "systemStatus": "Sistem Vəziyyəti"
+      "systemStatus": "Sistem Vəziyyəti",
+      "profile": "Profil"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Sistem Vəziyyəti",
         "subtitle": "Backend bağlantısı və əsas iş vaxtı sağlamlığı."
+      },
+      "profile": {
+        "title": "Profil",
+        "subtitle": "Hesabınız, avatarınız və şifrəniz"
       }
     },
     "fallbackName": "Sistem Administratoru",
@@ -308,5 +313,40 @@
     "buttonLabel": "Dil: {{language}}",
     "searchPlaceholder": "Dil axtar...",
     "noMatches": "Uyğunluq yoxdur"
+  },
+  "avatarPicker": {
+    "label": "Bir avatar seçin",
+    "hint": "Əvvəlcədən təyin edilmiş avatarlardan birini seçin və ya baş hərflərdən istifadə edin.",
+    "change": "Dəyişmək",
+    "cancel": "Ləğv et",
+    "useInitials": "Baş hərflərdən istifadə edin",
+    "optionLabel": "Avatar {{number}}",
+    "save": "Avatarı yadda saxla",
+    "saving": "Yadda saxlanılır...",
+    "saved": "Avatar yeniləndi",
+    "saveError": "Avatarınızı yeniləmək mümkün olmadı. Yenidən cəhd edin."
+  },
+  "changePassword": {
+    "current": "Cari parol",
+    "new": "Yeni parol",
+    "confirm": "Yeni parolu təsdiqləyin",
+    "hint": "Ən azı {{min}} simvol.",
+    "tooShort": "Yeni parol ən azı {{min}} simvoldan ibarət olmalıdır.",
+    "mismatch": "Yeni parollar uyğun gəlmir.",
+    "sameAsCurrent": "Yeni parol cari parolunuzdan fərqli olmalıdır.",
+    "submit": "Parolu yeniləyin",
+    "saving": "Yenilənir...",
+    "success": "Parolunuz yeniləndi.",
+    "error": "Parolunuzu yeniləmək mümkün olmadı. Yenidən cəhd edin."
+  },
+  "search": {
+    "kindPage": "Səhifə",
+    "kindRecord": "Nəticə",
+    "loading": "Axtarılır...",
+    "noResults": "Uyğunluq yoxdur",
+    "recordsUnavailable": "Hazırda yalnız səhifələr axtarıla bilər.",
+    "invoiceLabel": "Faktura {{period}}",
+    "paid": "Ödənişli",
+    "unpaid": "Ödənilməmiş"
   }
 }

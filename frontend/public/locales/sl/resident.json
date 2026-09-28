@@ -1,12 +1,10 @@
 {
   "home": {
-    "comingSoon": "Kmalu na voljo",
     "welcome": {
       "greeting": "Pozdravljeni {{name}},",
       "greetingFallback": "Pozdravljeni,",
       "title": "Ostanite blizu vodne zgodbe vašega doma.",
-      "subtitle": "Tukaj bodo prikazani vpogledi v uporabo in zaračunavanje, ko vaša skupnost beleži odčitke.",
-      "viewBadges": "Oglejte si ekološke značke"
+      "subtitle": "Tukaj bodo prikazani vpogledi v uporabo in zaračunavanje, ko vaša skupnost beleži odčitke."
     },
     "stats": {
       "todaysUsage": "Današnja uporaba",
@@ -19,22 +17,17 @@
       "estimatedBillFor": "Merjena poraba + skupni stroški, {{month}}",
       "estimatedBillHint": "Na podlagi izmerjene porabe v tem mesecu in deljenih stroškov",
       "savings": "Prihranki v primerjavi z gradnjo Povp",
-      "savingsValue": "{{percent}}% manj",
-      "savingsPreview": "Samo predogled — primerjava še ni objavljena"
+      "savingsLess": "{{percent}}% manj",
+      "savingsMore": "{{percent}}% več",
+      "savingsEqual": "Enako kot povprečje",
+      "savingsDetail": "{{household}} kL proti {{average}} kL povprečje, {{month}}",
+      "savingsNoData": "Primerjave zgradb še ni"
     },
     "consumption": {
       "eyebrow": "Poraba",
       "title": "Dnevna poraba (zadnjih 14 meritev)",
       "seriesName": "Poraba",
       "empty": "Odčitki še niso zabeleženi."
-    },
-    "breakdown": {
-      "eyebrow": "Razčlenitev",
-      "title": "Razčlenitev uporabe",
-      "bathroom": "Kopalnica",
-      "kitchen": "Kuhinja",
-      "garden": "Vrt / Balkon",
-      "other": "Drugo / Pranje perila"
     },
     "billing": {
       "eyebrow": "Obračunavanje",
@@ -45,12 +38,12 @@
       "tierPriceLevel": "Stopnja cene",
       "tierLabel": "Stopnja {{tier}}",
       "commonArea": "Porazdelitev skupnega prostora",
-      "commonAreaPreview": "Porazdelitev skupnega prostora (predogled)",
       "invoiceTotal": "{{period}} račun skupaj",
       "estimatedCharge": "Trenutna ocenjena poraba",
       "commonAreaBreakdown": "Razčlenitev skupnega prostora",
-      "payPreview": "Predogled plačila računa",
-      "payUnavailable": "Mehanizem obračunavanja še ni na voljo"
+      "commonAreaEstimate": "Porazdelitev skupnih površin (ocena)",
+      "payOutstanding": "Plačajte neporavnano ₹ {{amount}}",
+      "payAllDescription": "Vsi neplačani računi ({{number}})"
     },
     "tips": {
       "eyebrow": "Nasveti",
@@ -66,8 +59,7 @@
     "empty": "Odčitki še niso zabeleženi. Ko vaša skupnost zabeleži odčitek števca, se prikaže tukaj.",
     "tabs": {
       "lastSixMonths": "Zadnjih 6 mesecev",
-      "customRange": "Razpon po meri",
-      "comingSoon": "Kmalu na voljo"
+      "customRange": "Razpon po meri"
     },
     "peakDay": "Najvišji dan:",
     "lowestDay": "Najnižji dan:",
@@ -80,18 +72,31 @@
     },
     "heatmap": {
       "title": "Toplotni zemljevid dnevne porabe",
-      "subtitle": "Intenzivnost barve označuje dneve pogoste uporabe (predogled)."
+      "subtitle": "Intenzivnost barve označuje dneve pogoste uporabe (predogled).",
+      "cellValue": "{{month}}: {{value}} kL",
+      "cellNoData": "{{month}}: ni podatkov",
+      "less": "Manj",
+      "more": "več",
+      "noData": "Ni podatkov"
     },
     "ranking": {
       "title": "Skupnost Peer Ranking",
-      "subtitle": "Vaša uvrstitev v primerjavi s podobnimi enotami (predogled).",
-      "ecoSaver": "Active Eco Saver",
-      "aptNumber": "Stanovanje {{number}}",
-      "unitNumber": "Enota {{number}}",
-      "yourUnit": "Vaša enota",
-      "row": "#{{rank}} {{unit}}",
-      "rowWithLabel": "#{{rank}} {{unit}} - {{label}}",
-      "youRow": "#{{rank}} {{unit}} (Vi)"
+      "subtitle": "Vaše gospodinjstvo proti vsem gospodinjstvom v vašem stanovanju za {{month}}. Nižja poraba se uvršča višje.",
+      "headline": "#{{rank}} od {{total}} gospodinjstev",
+      "percentile": "Porabili ste manj vode kot {{percent}} % vaših sosedov.",
+      "min": "Najnižja",
+      "median": "Mediana",
+      "max": "Najvišje",
+      "youRow": "#{{rank}} Vi",
+      "neighbourRow": "#{{rank}} Sosed",
+      "privacyNote": "Sosedje so anonimni. Hišne številke in imena niso nikoli prikazana.",
+      "empty": "Ni še dovolj podatkov za uvrstitev vašega gospodinjstva."
+    },
+    "range": {
+      "from": "Od",
+      "to": "Za",
+      "invalid": "Začetni mesec ne sme biti za končnim mesecem.",
+      "noData": "V tem območju ni podatkov o porabi."
     }
   },
   "billing": {
@@ -108,14 +113,12 @@
       "billingCycle": "Obračunski cikel: {{period}}",
       "allPaid": "Vsi računi so plačani",
       "payTotal": "Plačajte skupno neporavnano",
-      "payTotalUnavailable": "Spletno plačilo še ni na voljo — račune poravnajte neposredno s skrbnikom skupnosti",
       "downloadSummary": "Prenesite povzetek računa",
-      "downloadSummaryUnavailable": "Prenos povzetka računa še ni na voljo"
+      "payAllDescription": "Vsi neplačani računi ({{number}})"
     },
     "history": {
       "title": "Zgodovina računov",
-      "exportCsv": "Izvozi vse v CSV",
-      "exportUnavailable": "CSV izvoz še ni na voljo"
+      "exportCsv": "Izvozi vse v CSV"
     },
     "table": {
       "cycle": "Cikel",
@@ -148,6 +151,17 @@
       "description": "Spletno plačilo še ni na voljo — računi se poravnajo neposredno pri skrbniku skupnosti.",
       "manage": "Upravljanje plačilnih metod",
       "manageUnavailable": "Načini plačila še niso na voljo"
+    },
+    "csv": {
+      "cycle": "Obračunsko obdobje",
+      "consumption": "Poraba (kL)",
+      "baseAmount": "Osnovni znesek",
+      "tariffAmount": "Znesek tarife",
+      "commonAreaAmount": "Znesek skupnega prostora",
+      "totalAmount": "Skupni znesek",
+      "paid": "Plačano",
+      "paidAt": "Plačano pri",
+      "generatedAt": "Ustvarjeno ob"
     }
   },
   "razorpay": {
@@ -187,7 +201,8 @@
     "processingHint": "Prosimo, ne pritiskajte nazaj ali osvežite te strani",
     "success": "Plačilo uspešno",
     "error": "Pri potrjevanju vašega plačila je šlo nekaj narobe. prosim poskusite ponovno",
-    "retry": "Poskusite znova"
+    "retry": "Poskusite znova",
+    "simulationNotice": "Simulirana blagajna samo za predstavitev. Pravo plačilo ni izvedeno in denar ni zaračunan."
   },
   "notifications": {
     "loadError": "Vaših obvestil ni bilo mogoče naložiti. prosim poskusite ponovno",
@@ -213,6 +228,25 @@
       "notConfigured": "Potisna obvestila še niso konfigurirana. Obrnite se na skrbnika.",
       "enableError": "Potisnih obvestil ni bilo mogoče omogočiti. prosim poskusite ponovno",
       "disableError": "Potisnih obvestil ni bilo mogoče onemogočiti. prosim poskusite ponovno"
+    },
+    "tabs": {
+      "alerts": "Opozorila",
+      "announcements": "Obvestila"
+    },
+    "announcements": {
+      "loadError": "Obvestil ni bilo mogoče naložiti. prosim poskusite ponovno",
+      "loading": "Nalaganje obvestil …",
+      "empty": "Trenutno ni obvestil skrbnika vaše skupnosti.",
+      "pinned": "Pripeto",
+      "postedAt": "Objavljeno {{date}}",
+      "expiresAt": "Do {{date}}",
+      "category": {
+        "general": "Splošno",
+        "maintenance": "Vzdrževanje",
+        "waterSupply": "Oskrba z vodo",
+        "billing": "Obračunavanje",
+        "urgent": "Nujno"
+      }
     }
   },
   "recommendations": {
@@ -228,5 +262,75 @@
     "title": "Resident Support & Concerns Desk",
     "subtitle": "Predložite poročila o puščanju vode, zahteve za umerjanje merilnika ali poizvedbe o obračunavanju neposredno svojemu skrbniku skupnosti in/ali skrbniku sistema.",
     "emptyCreateHint": "Spodaj opišite svojo težavo ali skrb in izberite, kdo naj jo obravnava."
+  },
+  "reports": {
+    "ranges": {
+      "threeMonths": "Zadnji 3 meseci",
+      "sixMonths": "Zadnjih 6 mesecev",
+      "twelveMonths": "Zadnjih 12 mesecev",
+      "custom": "Razpon po meri"
+    },
+    "customRange": {
+      "from": "Od",
+      "to": "Za",
+      "hint": "Za ogled poročila izberite začetni in končni mesec."
+    },
+    "loading": "Nalaganje poročila ...",
+    "loadError": "Vašega poročila ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "pdfError": "Izjave ni bilo mogoče prenesti. prosim poskusite ponovno",
+    "downloading": "Prenašanje ...",
+    "downloadCsv": "Prenos CSV",
+    "downloadStatement": "Prenesi izjavo PDF",
+    "period": "Obdobje poročanja: {{from}} do {{to}}",
+    "cards": {
+      "totalUsage": "Skupna poraba",
+      "avgMonthly": "Povprečna mesečna poraba",
+      "avgMonthlyHint": "Po mesecih z zabeleženimi odčitki",
+      "change": "Sprememba v primerjavi s prejšnjim obdobjem",
+      "changeHint": "{{previous}} v {{from}} do {{to}}",
+      "changeNoData": "Ni uporabe v prejšnjem obdobju za primerjavo",
+      "totalBilled": "Skupaj zaračunano",
+      "totalPaid": "Skupno plačano",
+      "outstanding": "Izjemno"
+    },
+    "chart": {
+      "title": "Mesečna uporaba in zaračunavanje",
+      "subtitle": "Vrstice prikazujejo porabo (kL); vrstica prikazuje zaračunani znesek (₹).",
+      "consumption": "Poraba",
+      "billed": "Zaračunano"
+    },
+    "table": {
+      "title": "Razčlenitev po mesecih",
+      "month": "mesec",
+      "consumption": "Poraba (kL)",
+      "billed": "Zaračunano",
+      "paid": "Plačano",
+      "status": "Stanje"
+    },
+    "status": {
+      "paid": "Plačano",
+      "unpaid": "Neplačano",
+      "notBilled": "Ni zaračunano"
+    }
+  },
+  "profile": {
+    "detailsTitle": "Podrobnosti računa",
+    "managedNote": "Skrbnik vaše skupnosti upravlja te podrobnosti. Kontaktirajte jih, če je treba karkoli spremeniti.",
+    "loading": "Nalaganje vašega profila …",
+    "loadError": "Vašega profila ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "notSet": "Ni nastavljeno",
+    "flatSizeValue": "{{size}} kvadratnih čevljev",
+    "avatarTitle": "Avatar",
+    "passwordTitle": "Spremeni geslo",
+    "fields": {
+      "fullName": "Polno ime",
+      "email": "E-pošta",
+      "phone": "Telefon",
+      "houseNumber": "Hišna številka",
+      "meterNumber": "Številka števca",
+      "community": "Skupnost",
+      "flatSize": "Ravna velikost",
+      "joined": "Pridružen"
+    }
   }
 }

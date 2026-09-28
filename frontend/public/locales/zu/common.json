@@ -222,6 +222,14 @@
         "title": "Ukusekela / Ukukhathazeka",
         "subtitle": "Phakamisa amathikithi akho ku-System Admin, noma uphathe izinto ezikukhathazayo izakhamuzi zakho ezikhulume nawe."
       },
+      "reports": {
+        "title": "Imibiko Yomphakathi",
+        "subtitle": "Ukusetshenziswa, ukukhokhisa, ukuqoqwa, kanye nezibalo zokuthenga ngobuningi zomphakathi wakho."
+      },
+      "announcements": {
+        "title": "Izimemezelo",
+        "subtitle": "Shicilela izaziso zomphakathi wonkana kubahlali bakho."
+      },
       "profile": {
         "title": "Izilungiselelo Nephrofayela",
         "subtitle": "Phatha imininingwane ye-akhawunti yakho kanye nolwazi lwefulethi."
@@ -231,16 +239,6 @@
     "fallbackCommunity": "Admin Admin",
     "notBuilt": "{{label}} ayikakhiwa",
     "searchPlaceholder": "Sesha noma yini..."
-  },
-  "stubPages": {
-    "reports": {
-      "title": "Imibiko",
-      "description": "Ukusetshenziswa, ukukhokhisa, nemibiko yokongiwa komphakathi wakho."
-    },
-    "announcements": {
-      "title": "Izimemezelo",
-      "description": "Thumela izimemezelo zomphakathi wonke kubahlali bakho."
-    }
   },
   "comingSoon": {
     "title": "{{title}} iyeza maduze"
@@ -261,7 +259,9 @@
       "billing": "Izinkokhelo nama-invoyisi",
       "notifications": "Izaziso",
       "recommendations": "Izincomo",
-      "support": "Ukusekela / Ukukhathazeka"
+      "support": "Ukusekela / Ukukhathazeka",
+      "reports": "Imibiko yakho yokusebenzisa nokusetshenziswa kwemali",
+      "profile": "Iphrofayela yami"
     },
     "defaultTitle": "Ideshibhodi Yezakhamuzi",
     "navLabel": "Ukuzulazula kwesakhamuzi",
@@ -277,7 +277,8 @@
       "communities": "Imiphakathi",
       "reports": "Imibiko",
       "supportTickets": "Ukusekela Amathikithi",
-      "systemStatus": "Isimo Sesistimu"
+      "systemStatus": "Isimo Sesistimu",
+      "profile": "Iphrofayela"
     },
     "pages": {
       "dashboard": {
@@ -298,6 +299,10 @@
       "systemStatus": {
         "title": "Isimo Sesistimu",
         "subtitle": "Ukuxhumana kwasemuva kanye nempilo eyisisekelo yesikhathi sokusebenza."
+      },
+      "profile": {
+        "title": "Iphrofayela",
+        "subtitle": "I-akhawunti yakho, i-avatar nephasiwedi"
       }
     },
     "fallbackName": "Umphathi Wesistimu",
@@ -308,5 +313,40 @@
     "buttonLabel": "Ulimi: {{language}}",
     "searchPlaceholder": "Sesha ulimi...",
     "noMatches": "Akukho okufanayo"
+  },
+  "avatarPicker": {
+    "label": "Khetha isithombe",
+    "hint": "Khetha eyodwa yama-avatar asethwe ngaphambilini, noma sebenzisa amagama akho okuqala.",
+    "change": "Shintsha",
+    "cancel": "Khansela",
+    "useInitials": "Sebenzisa amagama okuqala",
+    "optionLabel": "Isithombe {{number}}",
+    "save": "Londoloza isithombe",
+    "saving": "Iyalondoloza...",
+    "saved": "Isithombe sibuyekeziwe",
+    "saveError": "Ayikwazanga ukubuyekeza isithombe sakho. Sicela uzame futhi."
+  },
+  "changePassword": {
+    "current": "I-password Yamanje",
+    "new": "Iphasiwedi Entsha",
+    "confirm": "Qinisekisa iphasiwedi entsha",
+    "hint": "Okungenani izinhlamvu ezingu-{{min}}.",
+    "tooShort": "Iphasiwedi entsha kufanele okungenani ibe nezinhlamvu ezingu-{{min}}.",
+    "mismatch": "Amaphasiwedi amasha awafani.",
+    "sameAsCurrent": "Iphasiwedi entsha kufanele yehluke kunephasiwedi yakho yamanje.",
+    "submit": "Buyekeza iphasiwedi",
+    "saving": "Iyabuyekeza...",
+    "success": "Iphasiwedi yakho ibuyekeziwe.",
+    "error": "Ayikwazanga ukubuyekeza iphasiwedi yakho. Sicela uzame futhi."
+  },
+  "search": {
+    "kindPage": "Ikhasi",
+    "kindRecord": "Umphumela",
+    "loading": "Iyasesha...",
+    "noResults": "Akukho okufanayo",
+    "recordsUnavailable": "Amakhasi kuphela angaseshwa khona manje.",
+    "invoiceLabel": "I-invoyisi {{period}}",
+    "paid": "Ikhokhiwe",
+    "unpaid": "Okungakhokhelwa"
   }
 }
