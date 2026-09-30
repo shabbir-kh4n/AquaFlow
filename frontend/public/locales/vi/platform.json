@@ -4,6 +4,39 @@
     "blocked": "Bị chặn",
     "terminated": "Đã chấm dứt"
   },
+  "verification": {
+    "title": "Xác minh tài liệu",
+    "status": {
+      "notSubmitted": "Chưa gửi",
+      "pending": "Đang chờ xem xét",
+      "approved": "Tán thành",
+      "rejected": "Vật bị loại bỏ"
+    },
+    "notSubmitted": "Quản trị viên cộng đồng này chưa gửi tài liệu xác minh.",
+    "communityName": "Tên cộng đồng",
+    "address": "Địa chỉ",
+    "totalFlats": "Tổng số căn hộ",
+    "totalBlocks": "Tổng số khối",
+    "documentType": "Loại tài liệu",
+    "documentNumber": "Số tài liệu",
+    "notes": "Chi tiết",
+    "file": "Tài liệu (PDF)",
+    "submittedAt": "Đã gửi",
+    "reviewedAt": "Đã đánh giá",
+    "rejectionReason": "Lý do từ chối:",
+    "approve": "Chấp thuận",
+    "reject": "Từ chối",
+    "viewError": "Không thể mở tài liệu.",
+    "approveError": "Không thể phê duyệt xác minh này.",
+    "rejectError": "Không thể từ chối xác minh này.",
+    "reasonRequired": "Hãy cho biết lý do từ chối.",
+    "rejectDialog": {
+      "title": "Từ chối xác minh",
+      "message": "{{name}} sẽ thấy lý do bạn đưa ra và có thể nộp hồ sơ mới.",
+      "reasonLabel": "Lý do từ chối",
+      "confirm": "Từ chối"
+    }
+  },
   "sort": {
     "sortBy": "Sắp xếp theo",
     "toggleDirection": "Chuyển đổi hướng sắp xếp",
@@ -64,6 +97,7 @@
       "admin": "Quản trị viên",
       "email": "E-mail",
       "status": "Trạng thái",
+      "verification": "Xác minh",
       "residents": "cư dân",
       "view": "Xem"
     }

@@ -535,6 +535,68 @@
       "outstanding": "Sega ni saumi"
     }
   },
+  "verification": {
+    "loading": "Vakavodoki ni veivakadeitaki...",
+    "loadError": "E sega ni rawa ni vakavodoki na nomu ituvaki ni veivakadeitaki. Kerekere mo tovolea tale.",
+    "viewError": "E sega ni rawa ni dolava na ivola.",
+    "statusTitle": "Tuvaki ni veivakadeitaki",
+    "rejectionReason": "Vuna e sega ni ciqomi kina:",
+    "status": {
+      "notSubmitted": "Sega ni vakau",
+      "pending": "Railesuvi tiko",
+      "approved": "Vakadonui",
+      "rejected": "Sa sega ni ciqomi"
+    },
+    "messages": {
+      "notSubmitted": "Vakauta mai na nomu itukutuku ni itikotiko kei na ivola e ra. Me yacova ni ra sa vakadonui e rawa ni o vakayagataka ga na Dashboard, Vakadeitaka kei na itukutuku ni draunipepa.",
+      "pending": "Na nomu ivola e tiko vata kei na dua na vakailesilesi ni ituvatuva me baleta na kena dikevi. Me yacova ni ra sa vakadonui e rawa ni o vakayagataka ga na Dashboard, Vakadeitaka kei na itukutuku ni draunipepa.",
+      "approved": "Sa vakadeitaki na nomu ivola.",
+      "rejectedHint": "Vakavinakataka na leqa ka vakauta tale na nomu ivola ena ruku."
+    },
+    "details": {
+      "communityName": "Yaca ni itikotiko",
+      "address": "Itikotiko",
+      "totalFlats": "Taucoko ni vale",
+      "totalBlocks": "Buloko taucoko",
+      "type": "Mataqali ivola",
+      "number": "Naba ni ivola",
+      "notes": "Itukutuku matailalai",
+      "file": "Document (PDF)",
+      "submittedAt": "Vakau",
+      "reviewedAt": "Railesuvi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Sitivikiti ni rejisita ni isoqosoqo",
+      "ownershipProof": "Na ivakadinadina ni taukeni ni iyau",
+      "governmentId": "ID ni Matanitu",
+      "other": "So tale"
+    },
+    "form": {
+      "title": "Vakauta mai na ivola",
+      "resubmitTitle": "Vakauta tale mai na ivola",
+      "documentType": "Mataqali ivola",
+      "documentNumber": "Naba ni ivola",
+      "details": "Na ikuri ni itukutuku (vakatulewa)",
+      "file": "Document PDF",
+      "fileHint": "PDF duadua ga, me yacova na 5 MB.",
+      "communitySection": "Na itukutuku matailalai ni itikotiko",
+      "documentSection": "Na ivola ni veivakadeitaki",
+      "communityName": "Yaca ni itikotiko / isoqosoqo",
+      "address": "Itikotiko",
+      "city": "Korolevu",
+      "state": "Matanitu",
+      "pincode": "Naba ni pini",
+      "totalFlats": "Na iwiliwili taucoko ni vale",
+      "totalBlocks": "Na iwiliwili ni buloko / vale cecere (vakatulewa)",
+      "fieldsRequired": "Yalovinaka vakalewena na vanua kece e gadrevi.",
+      "countInvalid": "Na vale kei na buloko e dodonu me lailai duadua na kena naba mai na 1.",
+      "fileRequired": "Kerekere mo vakacuruma e dua na ivola PDF.",
+      "tooLarge": "Na faile e dodonu me 5 MB se lailai sobu.",
+      "submit": "Vakauta mai me vakadeitaki",
+      "submitting": "Vakauta mai...",
+      "submitError": "E sega ni rawa ni vakau na nomu ivola. Kerekere mo tovolea tale."
+    }
+  },
   "announcements": {
     "loadError": "E sega ni rawa ni vakavodoki na itukutuku. Kerekere mo tovolea tale.",
     "removeError": "E sega ni rawa ni bokoci na itukutuku oqo. Kerekere mo tovolea tale.",

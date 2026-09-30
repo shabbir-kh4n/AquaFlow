@@ -4,6 +4,39 @@
     "blocked": "Blokerað",
     "terminated": "Uppsagt"
   },
+  "verification": {
+    "title": "Skjalváttan",
+    "status": {
+      "notSubmitted": "Ikki latið inn",
+      "pending": "Bíða eftir ummæli",
+      "approved": "Viðurkendur",
+      "rejected": "Vrakað"
+    },
+    "notSubmitted": "Hesin felagsskapurin hevur ikki latið inn váttanarskjøl enn.",
+    "communityName": "Felagsnavn",
+    "address": "Bústaður",
+    "totalFlats": "Íbúðir í alt",
+    "totalBlocks": "Samlaðir blokkar",
+    "documentType": "Skjalsslag",
+    "documentNumber": "Skjalnummar",
+    "notes": "Staklutir",
+    "file": "Document (PDF)",
+    "submittedAt": "Latið inn",
+    "reviewedAt": "Ummælt",
+    "rejectionReason": "Orsøk til avvísing:",
+    "approve": "Taka undir við",
+    "reject": "Kveistra burtur",
+    "viewError": "Fekk ikki lata skjalið upp.",
+    "approveError": "Kundi ikki góðkenna hesa váttan.",
+    "rejectError": "Kundi ikki vraka hesa sannroynd.",
+    "reasonRequired": "Vinarliga gev eina orsøk til at vraka.",
+    "rejectDialog": {
+      "title": "Vraka váttan",
+      "message": "{{name}} sær orsøkina tú gevur og kann senda nýggj skjøl inn.",
+      "reasonLabel": "Orsøk til avvísing",
+      "confirm": "Kveistra burtur"
+    }
+  },
   "sort": {
     "sortBy": "Sortera eftir",
     "toggleDirection": "Skift sorteringsætlan",
@@ -64,6 +97,7 @@
       "admin": "Umsitari",
       "email": "Teldupostur",
       "status": "Støða",
+      "verification": "Staðfesting",
       "residents": "Íbúgvar",
       "view": "Útsýni"
     }

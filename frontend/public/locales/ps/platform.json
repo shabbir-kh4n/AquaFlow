@@ -4,6 +4,39 @@
     "blocked": "بلاک شوی",
     "terminated": "ختم شوی"
   },
+  "verification": {
+    "title": "د اسنادو تصدیق",
+    "status": {
+      "notSubmitted": "سپارل شوی نه دی",
+      "pending": "بیاکتنه پاتې ده",
+      "approved": "تصویب شوی",
+      "rejected": "رد کړل"
+    },
+    "notSubmitted": "د دې ټولنې مدیر تر اوسه د تایید اسناد ندي سپارلي.",
+    "communityName": "د ټولنې نوم",
+    "address": "پته",
+    "totalFlats": "ټول فلیټونه",
+    "totalBlocks": "ټول بلاکونه",
+    "documentType": "د سند ډول",
+    "documentNumber": "د سند شمیره",
+    "notes": "جزیات",
+    "file": "سند (PDF)",
+    "submittedAt": "سپارل شوی",
+    "reviewedAt": "بیاکتنه وشوه",
+    "rejectionReason": "د ردولو دلیل:",
+    "approve": "تصویب کړه",
+    "reject": "رد کړه",
+    "viewError": "سند خلاص نشو.",
+    "approveError": "د دې تصدیق تایید نشو کولی.",
+    "rejectError": "دا تایید رد نشو کولی.",
+    "reasonRequired": "مهرباني وکړئ د ردولو لپاره دلیل ورکړئ.",
+    "rejectDialog": {
+      "title": "تایید رد کړئ",
+      "message": "{{name}} به هغه دلیل وګوري چې تاسو یې ورکوئ او کولی شئ نوي اسناد وسپارئ.",
+      "reasonLabel": "د ردولو دلیل",
+      "confirm": "رد کړه"
+    }
+  },
   "sort": {
     "sortBy": "په ترتیب سره",
     "toggleDirection": "د ترتیب ترتیب بدل کړئ",
@@ -64,6 +97,7 @@
       "admin": "اډمین",
       "email": "ایمیل",
       "status": "حالت",
+      "verification": "تایید",
       "residents": "اوسيدونکي",
       "view": "لید"
     }

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Dosya seç",
+    "change": "Dosyayı değiştir",
+    "none": "Dosya seçilmedi"
+  },
   "authModal": {
     "close": "Kapalı",
     "signUpTitle": "Topluluğunuzu kaydedin",
@@ -188,6 +193,7 @@
       "support": "Destek / Endişeler",
       "tariffPlans": "Tarife Planları",
       "announcements": "Duyurular",
+      "verification": "Doğrulama",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Duyurular",
         "subtitle": "Sakinlerinize topluluk çapında duyurular yayınlayın."
       },
+      "verification": {
+        "title": "Belge Doğrulaması",
+        "subtitle": "Platformun topluluğunuzu doğrulayabilmesi için belgelerinizi gönderin."
+      },
       "profile": {
         "title": "Ayarlar ve Profil",
         "subtitle": "Hesap ayrıntılarınızı ve daire bilgilerinizi yönetin."
       }
     },
     "fallbackName": "Yönetici",
+    "locked": "Topluluğunuz doğrulandıktan sonra kullanılabilir",
+    "verifyBanner": "Topluluğunuz henüz doğrulanmadığından çoğu sayfa kilitli.",
+    "verifyBannerLink": "Doğrulamaya Git",
     "fallbackCommunity": "Topluluk Yöneticisi",
     "notBuilt": "{{label}} henüz oluşturulmadı",
     "searchPlaceholder": "Herhangi bir şeyi arayın…"

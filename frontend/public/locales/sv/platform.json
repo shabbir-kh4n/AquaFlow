@@ -4,6 +4,39 @@
     "blocked": "Blockerad",
     "terminated": "Avslutad"
   },
+  "verification": {
+    "title": "Dokumentverifiering",
+    "status": {
+      "notSubmitted": "Ej inlämnad",
+      "pending": "Väntar på granskning",
+      "approved": "Godkänd",
+      "rejected": "Avvisad"
+    },
+    "notSubmitted": "Denna gruppadministratör har inte skickat in verifieringsdokument ännu.",
+    "communityName": "Gemenskapens namn",
+    "address": "Adress",
+    "totalFlats": "Totalt lägenheter",
+    "totalBlocks": "Totalt antal block",
+    "documentType": "Dokumenttyp",
+    "documentNumber": "Dokumentnummer",
+    "notes": "Detaljer",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Inlämnad",
+    "reviewedAt": "Recenserad",
+    "rejectionReason": "Orsak till avslag:",
+    "approve": "Godkänna",
+    "reject": "Avvisa",
+    "viewError": "Det gick inte att öppna dokumentet.",
+    "approveError": "Det gick inte att godkänna denna verifiering.",
+    "rejectError": "Det gick inte att avvisa denna verifiering.",
+    "reasonRequired": "Ange en anledning till att du avvisar.",
+    "rejectDialog": {
+      "title": "Avvisa verifiering",
+      "message": "{{name}} kommer att se anledningen du anger och kan skicka in nya dokument.",
+      "reasonLabel": "Orsak till avslag",
+      "confirm": "Avvisa"
+    }
+  },
   "sort": {
     "sortBy": "Sortera efter",
     "toggleDirection": "Växla sorteringsriktning",
@@ -64,6 +97,7 @@
       "admin": "Administration",
       "email": "E-post",
       "status": "Status",
+      "verification": "Kontroll",
       "residents": "Invånare",
       "view": "Se"
     }

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Fili 'a e faile",
+    "change": "Liliu e faile",
+    "none": "'Ikai fili ha faile"
+  },
   "authModal": {
     "close": "Tāpuni",
     "signUpTitle": "Lesisita ho komiuniti .",
@@ -188,6 +193,7 @@
       "support": "Poupou / Hoha'a",
       "tariffPlans": "Ngaahi Palani Totongi",
       "announcements": "Ngaahi Fanongonongo",
+      "verification": "Fakamo'oni",
       "profile": "Fakamatala fakatāutaha"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ngaahi Fanongonongo",
         "subtitle": "Pulusi ha ngaahi fakatokanga fakakomiuniti ki homou kau nofo aí."
       },
+      "verification": {
+        "title": "Fakamo'oni'i 'o e Tohi",
+        "subtitle": "Fakahu mai ho'o ngaahi tohi ke lava 'e he peletifoomu 'o fakamo'oni'i ho komiuniti."
+      },
       "profile": {
         "title": "Ngaahi fokotuʻutuʻu & Fakamatala",
         "subtitle": "Pule'i ho'o ngaahi fakaikiiki 'o e 'akauni mo e fakamatala 'o e fale nofo'anga."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Ma'u atu hili hono fakamo'oni'i ho'o komiuniti .",
+    "verifyBanner": "'Oku te'eki ke fakamo'oni'i ho'o komiuniti, ko ia 'oku loka'i 'a e lahi taha 'o e ngaahi peesi.",
+    "verifyBannerLink": "Alu ki he Fakamo'oni .",
     "fallbackCommunity": "Pule Fakakomiuniti",
     "notBuilt": "{{label}} 'oku te'eki ke langa",
     "searchPlaceholder": "Fekumi ki ha me'a pe..."

@@ -535,6 +535,68 @@
       "outstanding": "Kiemelkedő"
     }
   },
+  "verification": {
+    "loading": "Ellenőrzés betöltése…",
+    "loadError": "Nem sikerült betölteni az ellenőrzési állapotot. Kérjük, próbálja újra.",
+    "viewError": "Nem sikerült megnyitni a dokumentumot.",
+    "statusTitle": "Ellenőrzés állapota",
+    "rejectionReason": "Elutasítás oka:",
+    "status": {
+      "notSubmitted": "Nem nyújtották be",
+      "pending": "Felülvizsgálatra vár",
+      "approved": "Jóváhagyott",
+      "rejected": "Elutasítva"
+    },
+    "messages": {
+      "notSubmitted": "Az alábbiakban küldje el közösségének adatait és dokumentumait. Jóváhagyásukig csak az Irányítópult, az Ellenőrzés és a Profil oldalakat használhatja.",
+      "pending": "Dokumentumait a platform adminisztrátora ellenőrizte. Jóváhagyásukig csak az Irányítópult, az Ellenőrzés és a Profil oldalakat használhatja.",
+      "approved": "Dokumentumait ellenőriztük.",
+      "rejectedHint": "Javítsa ki a problémát, és alább küldje be újra a dokumentumokat."
+    },
+    "details": {
+      "communityName": "Közösség neve",
+      "address": "Cím",
+      "totalFlats": "Összes lakás",
+      "totalBlocks": "Összes blokk",
+      "type": "Dokumentum típusa",
+      "number": "Iratszám",
+      "notes": "Részletek",
+      "file": "Dokumentum (PDF)",
+      "submittedAt": "Beküldve",
+      "reviewedAt": "Áttekintve"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Társaság bejegyzési igazolása",
+      "ownershipProof": "Az ingatlan tulajdonjogát igazoló okirat",
+      "governmentId": "Kormányzati igazolvány",
+      "other": "Más"
+    },
+    "form": {
+      "title": "Dokumentumok benyújtása",
+      "resubmitTitle": "Nyújtsa be újra a dokumentumokat",
+      "documentType": "Dokumentum típusa",
+      "documentNumber": "Iratszám",
+      "details": "További részletek (nem kötelező)",
+      "file": "dokumentum PDF",
+      "fileHint": "csak PDF, legfeljebb 5 MB.",
+      "communitySection": "Közösségi részletek",
+      "documentSection": "Ellenőrző dokumentum",
+      "communityName": "Közösség/társaság neve",
+      "address": "Cím",
+      "city": "Város",
+      "state": "Állami",
+      "pincode": "Pinkód",
+      "totalFlats": "Összes lakásszám",
+      "totalBlocks": "Blokkok/tornyok száma (opcionális)",
+      "fieldsRequired": "Kérjük, töltse ki az összes kötelező mezőt.",
+      "countInvalid": "A lakások és háztömbök számának legalább 1-nek kell lennie.",
+      "fileRequired": "Kérjük, csatoljon egy PDF dokumentumot.",
+      "tooLarge": "A fájl 5 MB vagy kisebb lehet.",
+      "submit": "Nyújtsa be ellenőrzésre",
+      "submitting": "Beküldés…",
+      "submitError": "Nem sikerült benyújtani a dokumentumokat. Kérjük, próbálja újra."
+    }
+  },
   "announcements": {
     "loadError": "Nem sikerült betölteni a közleményeket. Kérjük, próbálja újra.",
     "removeError": "Nem sikerült törölni ezt a közleményt. Kérjük, próbálja újra.",

@@ -535,6 +535,68 @@
       "outstanding": "Remarcabil"
     }
   },
+  "verification": {
+    "loading": "Se încarcă verificarea...",
+    "loadError": "Nu s-a putut încărca starea dvs. de verificare. Vă rugăm să încercați din nou.",
+    "viewError": "Documentul nu a putut fi deschis.",
+    "statusTitle": "Starea de verificare",
+    "rejectionReason": "Motivul respingerii:",
+    "status": {
+      "notSubmitted": "Nu a fost trimis",
+      "pending": "În așteptarea examinării",
+      "approved": "Aprobat",
+      "rejected": "Respins"
+    },
+    "messages": {
+      "notSubmitted": "Trimiteți detaliile și documentele comunității dvs. mai jos. Până când sunt aprobate, puteți utiliza numai paginile Tabloul de bord, Verificarea și Profilul.",
+      "pending": "Documentele dumneavoastră sunt la un administrator de platformă pentru examinare. Până când sunt aprobate, puteți utiliza numai paginile Tabloul de bord, Verificarea și Profilul.",
+      "approved": "Documentele dvs. au fost verificate.",
+      "rejectedHint": "Remediați problema și trimiteți din nou documentele mai jos."
+    },
+    "details": {
+      "communityName": "Numele comunității",
+      "address": "Adresa",
+      "totalFlats": "Total apartamente",
+      "totalBlocks": "Blocuri totale",
+      "type": "Tip document",
+      "number": "Numărul documentului",
+      "notes": "Detalii",
+      "file": "Document (PDF)",
+      "submittedAt": "Trimis",
+      "reviewedAt": "Revizuit"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificat de înregistrare a societății",
+      "ownershipProof": "Dovada dreptului de proprietate",
+      "governmentId": "ID guvernamental",
+      "other": "Alte"
+    },
+    "form": {
+      "title": "Trimiteți documentele",
+      "resubmitTitle": "Trimiteți din nou documentele",
+      "documentType": "Tip document",
+      "documentNumber": "Numărul documentului",
+      "details": "Detalii suplimentare (optional)",
+      "file": "Document PDF",
+      "fileHint": "Numai PDF, până la 5 MB.",
+      "communitySection": "Detalii ale comunității",
+      "documentSection": "Document de verificare",
+      "communityName": "Numele comunității/societății",
+      "address": "Adresa",
+      "city": "Oraş",
+      "state": "Stat",
+      "pincode": "Cod PIN",
+      "totalFlats": "Numar total de apartamente",
+      "totalBlocks": "Număr de blocuri / turnuri (opțional)",
+      "fieldsRequired": "Vă rugăm să completați toate câmpurile obligatorii.",
+      "countInvalid": "Apartamentele și blocurile trebuie să fie numere de cel puțin 1.",
+      "fileRequired": "Vă rugăm să atașați un document PDF.",
+      "tooLarge": "Fișierul trebuie să aibă 5 MB sau mai mic.",
+      "submit": "Trimiteți pentru verificare",
+      "submitting": "Se trimite…",
+      "submitError": "Nu s-au putut trimite documentele dvs. Vă rugăm să încercați din nou."
+    }
+  },
   "announcements": {
     "loadError": "Nu s-au putut încărca anunțurile. Vă rugăm să încercați din nou.",
     "removeError": "Nu s-a putut șterge acest anunț. Vă rugăm să încercați din nou.",

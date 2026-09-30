@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Odaberite datoteku",
+    "change": "Promjena datoteke",
+    "none": "Nije odabrana datoteka"
+  },
   "authModal": {
     "close": "Zatvoriti",
     "signUpTitle": "Registrirajte svoju zajednicu",
@@ -188,6 +193,7 @@
       "support": "Podrška/zabrinutost",
       "tariffPlans": "Tarifni planovi",
       "announcements": "Obavijesti",
+      "verification": "Provjera",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Obavijesti",
         "subtitle": "Objavite obavijesti za cijelu zajednicu svojim stanovnicima."
       },
+      "verification": {
+        "title": "Ovjera dokumenata",
+        "subtitle": "Pošaljite svoje dokumente kako bi platforma mogla potvrditi vašu zajednicu."
+      },
       "profile": {
         "title": "Postavke i profil",
         "subtitle": "Upravljajte podacima o svom računu i podacima o apartmanu."
       }
     },
     "fallbackName": "Administrator",
+    "locked": "Dostupno nakon verifikacije vaše zajednice",
+    "verifyBanner": "Vaša zajednica još nije potvrđena, pa je većina stranica zaključana.",
+    "verifyBannerLink": "Idite na Provjeru",
     "fallbackCommunity": "Administrator zajednice",
     "notBuilt": "{{label}} još nije izgrađen",
     "searchPlaceholder": "Traži bilo što…"

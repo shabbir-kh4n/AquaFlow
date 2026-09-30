@@ -535,6 +535,68 @@
       "outstanding": "Eccezziunale"
     }
   },
+  "verification": {
+    "loading": "Carica a verificazione…",
+    "loadError": "Ùn pudia micca carica u vostru statutu di verificazione. Per piacè pruvate di novu.",
+    "viewError": "Ùn pudia micca apre u documentu.",
+    "statusTitle": "Statu di verificazione",
+    "rejectionReason": "Motivu di rifiutu:",
+    "status": {
+      "notSubmitted": "Ùn hè micca sottumessu",
+      "pending": "Revisione in attesa",
+      "approved": "Appruvatu",
+      "rejected": "Rifiutata"
+    },
+    "messages": {
+      "notSubmitted": "Mandate i dettagli è i documenti di a vostra cumunità quì sottu. Finu à esse appruvati, pudete aduprà solu e pagine Dashboard, Verificazione è Profile.",
+      "pending": "I vostri documenti sò cun un amministratore di a piattaforma per a revisione. Finu à esse appruvati, pudete aduprà solu e pagine Dashboard, Verificazione è Profile.",
+      "approved": "I vostri documenti sò stati verificati.",
+      "rejectedHint": "Risolve u prublema è rinviate i vostri documenti quì sottu."
+    },
+    "details": {
+      "communityName": "Nome di a cumunità",
+      "address": "Indirizzu",
+      "totalFlats": "Piatti totali",
+      "totalBlocks": "Blocchi totali",
+      "type": "Tipu di documentu",
+      "number": "Numeru di documentu",
+      "notes": "Dettagli",
+      "file": "Documentu (PDF)",
+      "submittedAt": "Inviatu",
+      "reviewedAt": "Rivista"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificatu di iscrizzione di a Società",
+      "ownershipProof": "Prova di pruprietà di pruprietà",
+      "governmentId": "ID di u guvernu",
+      "other": "Altru"
+    },
+    "form": {
+      "title": "Invia i ducumenti",
+      "resubmitTitle": "Invia i documenti di novu",
+      "documentType": "Tipu di documentu",
+      "documentNumber": "Numeru di documentu",
+      "details": "Dettagli supplementari (opcional)",
+      "file": "Documentu PDF",
+      "fileHint": "PDF solu, finu à 5 MB.",
+      "communitySection": "Dettagli di a cumunità",
+      "documentSection": "Documentu di verificazione",
+      "communityName": "Nome di a cumunità / sucità",
+      "address": "Indirizzu",
+      "city": "Cità",
+      "state": "Statu",
+      "pincode": "Pincode",
+      "totalFlats": "Numaru tutale di appartamenti",
+      "totalBlocks": "Numero di blocchi / torri (opcional)",
+      "fieldsRequired": "Per piacè compilate tutti i campi richiesti.",
+      "countInvalid": "L'appartamenti è i blocchi devenu esse numeri di almenu 1.",
+      "fileRequired": "Per piacè aghjunghje un documentu PDF.",
+      "tooLarge": "U schedariu deve esse 5 MB o menu.",
+      "submit": "Invia per verificazione",
+      "submitting": "Invio…",
+      "submitError": "Ùn pudia micca mandà i vostri documenti. Per piacè pruvate di novu."
+    }
+  },
   "announcements": {
     "loadError": "Impossibile caricare l'annunzii. Per piacè pruvate di novu.",
     "removeError": "Ùn pudia micca sguassà stu annunziu. Per piacè pruvate di novu.",

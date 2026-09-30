@@ -4,6 +4,39 @@
     "blocked": "An katange",
     "terminated": "Ƙarshe"
   },
+  "verification": {
+    "title": "Tabbatar da Takardu",
+    "status": {
+      "notSubmitted": "Ba a ƙaddamar da shi ba",
+      "pending": "Ana jiran bita",
+      "approved": "An amince",
+      "rejected": "An ƙi"
+    },
+    "notSubmitted": "Wannan mai kula da al'umma bai ƙaddamar da takaddun tabbatarwa ba tukuna.",
+    "communityName": "Sunan al'umma",
+    "address": "Adireshi",
+    "totalFlats": "Jimillar filaye",
+    "totalBlocks": "Jimlar tubalan",
+    "documentType": "Nau'in takarda",
+    "documentNumber": "Lambar takarda",
+    "notes": "Cikakkun bayanai",
+    "file": "Document (PDF)",
+    "submittedAt": "An ƙaddamar",
+    "reviewedAt": "An duba",
+    "rejectionReason": "Dalilin ƙin yarda:",
+    "approve": "Amincewa",
+    "reject": "Ƙi",
+    "viewError": "An kasa buɗe takardar.",
+    "approveError": "Ba za a iya amincewa da wannan tabbaci ba.",
+    "rejectError": "Ba za a iya ƙin wannan tabbacin ba.",
+    "reasonRequired": "Da fatan za a ba da dalilin ƙin yarda.",
+    "rejectDialog": {
+      "title": "Ƙi tabbaci",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "Dalilin kin amincewa",
+      "confirm": "Ƙi"
+    }
+  },
   "sort": {
     "sortBy": "Kasa",
     "toggleDirection": "Juya hanyar daidaitawa",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Imel",
       "status": "Matsayi",
+      "verification": "Tabbatarwa",
       "residents": "Mazauna",
       "view": "Duba"
     }

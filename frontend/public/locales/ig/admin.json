@@ -535,6 +535,68 @@
       "outstanding": "pụtara ìhè"
     }
   },
+  "verification": {
+    "loading": "Na-ebunye nkwenye…",
+    "loadError": "Enweghị ike ibunye ọkwa nkwenye gị. Biko nwaa ọzọ.",
+    "viewError": "Enweghị ike imepe akwụkwọ ahụ.",
+    "statusTitle": "Ọkwa nkwenye",
+    "rejectionReason": "Ihe kpatara ịjụ:",
+    "status": {
+      "notSubmitted": "Edenyeghị ya",
+      "pending": "Nlebanya na-eche",
+      "approved": "Ekwenyere",
+      "rejected": "Ajụjụ"
+    },
+    "messages": {
+      "notSubmitted": "Nyefee nkọwa na akwụkwọ obodo gị n'okpuru. Ruo mgbe akwadoro ha, ị nwere ike iji naanị ibe Dashboard, nkwenye na profaịlụ.",
+      "pending": "Akwụkwọ gị dị na onye nchịkwa ikpo okwu maka nyocha. Ruo mgbe akwadoro ha, ị nwere ike iji naanị ibe Dashboard, nkwenye na profaịlụ.",
+      "approved": "Achọpụtala akwụkwọ gị.",
+      "rejectedHint": "Dezie okwu a wee nyefee akwụkwọ gị ọzọ n'okpuru."
+    },
+    "details": {
+      "communityName": "Aha obodo",
+      "address": "adreesị",
+      "totalFlats": "Mgbakọta ọnụ ụlọ",
+      "totalBlocks": "Mkpokọta ngọngọ",
+      "type": "Ụdị akwụkwọ",
+      "number": "Nọmba akwụkwọ",
+      "notes": "Nkọwa",
+      "file": "Document (PDF)",
+      "submittedAt": "Enyere ya",
+      "reviewedAt": "Nyochaa"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Akwụkwọ ndebanye aha ọha",
+      "ownershipProof": "Ihe akaebe inwe ihe onwunwe",
+      "governmentId": "NJ gọọmentị",
+      "other": "Ndị ọzọ"
+    },
+    "form": {
+      "title": "Nyefee akwụkwọ",
+      "resubmitTitle": "Nyefee akwụkwọ ọzọ",
+      "documentType": "Ụdị akwụkwọ",
+      "documentNumber": "Nọmba akwụkwọ",
+      "details": "Nkọwa ndị ọzọ (nhọrọ)",
+      "file": "Document PDF",
+      "fileHint": "PDF naanị, ruo 5 MB.",
+      "communitySection": "Nkọwa obodo",
+      "documentSection": "Akwụkwọ nkwenye",
+      "communityName": "Obodo / aha ọha",
+      "address": "adreesị",
+      "city": "Obodo",
+      "state": "Steeti",
+      "pincode": "PIN koodu",
+      "totalFlats": "Ngụkọta ọnụ ụlọ ụlọ",
+      "totalBlocks": "Ọnụọgụ nke ngọngọ/ụlọ elu (nhọrọ)",
+      "fieldsRequired": "Biko dejupụta mpaghara niile achọrọ.",
+      "countInvalid": "Flat na ngọngọ ga-abụrịrị ọnụọgụ nke opekata mpe 1.",
+      "fileRequired": "Biko tinye akwụkwọ PDF.",
+      "tooLarge": "Faịlụ ga-abụrịrị 5 MB ma ọ bụ obere.",
+      "submit": "Nyefee maka nkwenye",
+      "submitting": "Na-enyefe…",
+      "submitError": "Enweghị ike ịnyefe akwụkwọ gị. Biko nwaa ọzọ."
+    }
+  },
   "announcements": {
     "loadError": "Enweghị ike ibu ọkwa ọkwa. Biko nwaa ọzọ.",
     "removeError": "Enweghị ike ihichapụ ọkwa a. Biko nwaa ọzọ.",

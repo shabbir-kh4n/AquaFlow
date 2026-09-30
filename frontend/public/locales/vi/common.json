@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Chọn tập tin",
+    "change": "Thay đổi tập tin",
+    "none": "Không có tập tin nào được chọn"
+  },
   "authModal": {
     "close": "Đóng",
     "signUpTitle": "Đăng ký cộng đồng của bạn",
@@ -188,6 +193,7 @@
       "support": "Hỗ trợ / Mối quan tâm",
       "tariffPlans": "Gói cước",
       "announcements": "Thông báo",
+      "verification": "Xác minh",
       "profile": "Hồ sơ"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Thông báo",
         "subtitle": "Xuất bản thông báo toàn cộng đồng cho cư dân của bạn."
       },
+      "verification": {
+        "title": "Xác minh tài liệu",
+        "subtitle": "Gửi tài liệu của bạn để nền tảng có thể xác minh cộng đồng của bạn."
+      },
       "profile": {
         "title": "Cài đặt & Hồ sơ",
         "subtitle": "Quản lý chi tiết tài khoản và thông tin căn hộ của bạn."
       }
     },
     "fallbackName": "Quản trị viên",
+    "locked": "Có sẵn sau khi cộng đồng của bạn được xác minh",
+    "verifyBanner": "Cộng đồng của bạn chưa được xác minh nên hầu hết các trang đều bị khóa.",
+    "verifyBannerLink": "Đi đến Xác minh",
     "fallbackCommunity": "Quản trị viên cộng đồng",
     "notBuilt": "{{label}} chưa được xây dựng",
     "searchPlaceholder": "Tìm kiếm bất cứ điều gì…"

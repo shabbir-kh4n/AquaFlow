@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Dooro faylka",
+    "change": "Beddel faylka",
+    "none": "Ma jiro fayl la doortay"
+  },
   "authModal": {
     "close": "Xir",
     "signUpTitle": "Diiwaangeli bulshadaada",
@@ -188,6 +193,7 @@
       "support": "Taageero/Walaacyo",
       "tariffPlans": "Qorshayaasha Tacriifada",
       "announcements": "Ogaysiisyo",
+      "verification": "Xaqiijinta",
       "profile": "Profile"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ogaysiisyo",
         "subtitle": "U daabac ogeysiisyada bulshada oo dhan ee deganayaashaada."
       },
+      "verification": {
+        "title": "Xaqiijinta Dukumentiga",
+        "subtitle": "Soo gudbi dukumeentigaaga si madalku u xaqiijiso beeshaada."
+      },
       "profile": {
         "title": "Dejinta & Xogta",
         "subtitle": "Maamul faahfaahinta akoonkaaga iyo macluumaadka aqalka."
       }
     },
     "fallbackName": "Admin",
+    "locked": "La heli karo ka dib marka bulshadaada la xaqiijiyo",
+    "verifyBanner": "Beeshaada weli lama xaqiijin, marka badi boggaga waa quful.",
+    "verifyBannerLink": "Tag Xaqiijinta",
     "fallbackCommunity": "Maamulka Bulshada",
     "notBuilt": "{{label}} weli lama dhisin",
     "searchPlaceholder": "Wax ka raadi..."

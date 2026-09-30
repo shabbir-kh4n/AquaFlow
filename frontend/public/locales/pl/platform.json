@@ -4,6 +4,39 @@
     "blocked": "Zablokowany",
     "terminated": "Zakończony"
   },
+  "verification": {
+    "title": "Weryfikacja dokumentu",
+    "status": {
+      "notSubmitted": "Nie przesłano",
+      "pending": "Oczekuje na recenzję",
+      "approved": "Zatwierdzony",
+      "rejected": "Odrzucony"
+    },
+    "notSubmitted": "Ten administrator społeczności nie przesłał jeszcze dokumentów weryfikacyjnych.",
+    "communityName": "Nazwa społeczności",
+    "address": "Adres",
+    "totalFlats": "Razem mieszkania",
+    "totalBlocks": "Razem bloki",
+    "documentType": "Typ dokumentu",
+    "documentNumber": "Numer dokumentu",
+    "notes": "Bliższe dane",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Złożony",
+    "reviewedAt": "Recenzję",
+    "rejectionReason": "Powód odrzucenia:",
+    "approve": "Zatwierdzić",
+    "reject": "Odrzucić",
+    "viewError": "Nie można otworzyć dokumentu.",
+    "approveError": "Nie można zatwierdzić tej weryfikacji.",
+    "rejectError": "Nie można odrzucić tej weryfikacji.",
+    "reasonRequired": "Proszę podać powód odrzucenia.",
+    "rejectDialog": {
+      "title": "Odrzuć weryfikację",
+      "message": "{{name}} zobaczy powód, który podałeś i będzie mógł przesłać nowe dokumenty.",
+      "reasonLabel": "Powód odrzucenia",
+      "confirm": "Odrzucić"
+    }
+  },
   "sort": {
     "sortBy": "Sortuj według",
     "toggleDirection": "Przełącz kierunek sortowania",
@@ -64,6 +97,7 @@
       "admin": "Administrator",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Weryfikacja",
       "residents": "Mieszkańcy",
       "view": "Pogląd"
     }

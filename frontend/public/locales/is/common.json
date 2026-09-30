@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Veldu skrá",
+    "change": "Breyta skrá",
+    "none": "Engin skrá valin"
+  },
   "authModal": {
     "close": "Loka",
     "signUpTitle": "Skráðu samfélag þitt",
@@ -188,6 +193,7 @@
       "support": "Stuðningur / áhyggjur",
       "tariffPlans": "Gjaldskráráætlanir",
       "announcements": "Tilkynningar",
+      "verification": "Staðfesting",
       "profile": "Prófíll"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Tilkynningar",
         "subtitle": "Birtu tilkynningar um allt samfélagið til íbúa þinna."
       },
+      "verification": {
+        "title": "Staðfesting skjala",
+        "subtitle": "Sendu inn skjölin þín svo vettvangurinn geti staðfest samfélagið þitt."
+      },
       "profile": {
         "title": "Stillingar og prófíl",
         "subtitle": "Hafðu umsjón með reikningsupplýsingum þínum og íbúðaupplýsingum."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Í boði eftir að samfélagið þitt hefur verið staðfest",
+    "verifyBanner": "Samfélagið þitt er ekki staðfest ennþá, svo flestar síður eru læstar.",
+    "verifyBannerLink": "Farðu í Staðfestingu",
     "fallbackCommunity": "Samfélagsstjórnandi",
     "notBuilt": "{{label}} er ekki smíðað ennþá",
     "searchPlaceholder": "Leitaðu að hverju sem er…"

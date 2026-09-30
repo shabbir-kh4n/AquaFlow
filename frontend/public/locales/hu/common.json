@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Válasszon fájlt",
+    "change": "Fájl módosítása",
+    "none": "Nincs kiválasztva fájl"
+  },
   "authModal": {
     "close": "Közeli",
     "signUpTitle": "Regisztrálja közösségét",
@@ -188,6 +193,7 @@
       "support": "Támogatás / Aggodalmak",
       "tariffPlans": "Díjszabási tervek",
       "announcements": "Közlemények",
+      "verification": "Ellenőrzés",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Közlemények",
         "subtitle": "Tegyen közzé az egész közösségre kiterjedő közleményeket lakói számára."
       },
+      "verification": {
+        "title": "Dokumentumellenőrzés",
+        "subtitle": "Nyújtsa be dokumentumait, hogy a platform ellenőrizni tudja közösségét."
+      },
       "profile": {
         "title": "Beállítások és profil",
         "subtitle": "Kezelje fiókadatait és lakásinformációit."
       }
     },
     "fallbackName": "Adminisztrátor",
+    "locked": "A közösség ellenőrzése után érhető el",
+    "verifyBanner": "A közösséged még nincs igazolva, ezért a legtöbb oldal zárolva van.",
+    "verifyBannerLink": "Lépjen az Ellenőrzés oldalra",
     "fallbackCommunity": "Közösségi adminisztrátor",
     "notBuilt": "{{label}} még nincs megépítve",
     "searchPlaceholder": "Keressen bármit…"

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Pumili ng file",
+    "change": "Baguhin ang file",
+    "none": "Walang napiling file"
+  },
   "authModal": {
     "close": "Isara",
     "signUpTitle": "Irehistro ang iyong komunidad",
@@ -188,6 +193,7 @@
       "support": "Suporta / Alalahanin",
       "tariffPlans": "Mga Plano ng Taripa",
       "announcements": "Mga anunsyo",
+      "verification": "Pagpapatunay",
       "profile": "Profile"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Mga anunsyo",
         "subtitle": "Mag-publish ng mga paunawa sa buong komunidad sa iyong mga residente."
       },
+      "verification": {
+        "title": "Pagpapatunay ng Dokumento",
+        "subtitle": "Isumite ang iyong mga dokumento upang ma-verify ng platform ang iyong komunidad."
+      },
       "profile": {
         "title": "Mga Setting at Profile",
         "subtitle": "Pamahalaan ang mga detalye ng iyong account at impormasyon ng apartment."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Available pagkatapos ma-verify ang iyong komunidad",
+    "verifyBanner": "Hindi pa nabe-verify ang iyong komunidad, kaya naka-lock ang karamihan sa mga page.",
+    "verifyBannerLink": "Pumunta sa Pagpapatunay",
     "fallbackCommunity": "Admin ng Komunidad",
     "notBuilt": "{{label}} ay hindi pa binuo",
     "searchPlaceholder": "Maghanap ng kahit ano..."

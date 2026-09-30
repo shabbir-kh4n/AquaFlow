@@ -4,6 +4,39 @@
     "blocked": "Tarova",
     "terminated": "Sa vakaoti"
   },
+  "verification": {
+    "title": "Vakadeitaki ni ivola",
+    "status": {
+      "notSubmitted": "Sega ni vakau",
+      "pending": "Railesuvi tiko",
+      "approved": "Vakadonui",
+      "rejected": "Sa sega ni ciqomi"
+    },
+    "notSubmitted": "Na admin ni itikotiko oqo e se bera ni vakauta mai na ivola ni veivakadeitaki.",
+    "communityName": "Yaca ni itikotiko",
+    "address": "Itikotiko",
+    "totalFlats": "Taucoko ni vale",
+    "totalBlocks": "Buloko taucoko",
+    "documentType": "Mataqali ivola",
+    "documentNumber": "Naba ni ivola",
+    "notes": "Itukutuku matailalai",
+    "file": "Document (PDF)",
+    "submittedAt": "Vakau",
+    "reviewedAt": "Railesuvi",
+    "rejectionReason": "Vuna e sega ni ciqomi kina:",
+    "approve": "Vakadonuya",
+    "reject": "Cata",
+    "viewError": "E sega ni rawa ni dolava na ivola.",
+    "approveError": "E sega ni rawa ni vakadonui na veivakadeitaki oqo.",
+    "rejectError": "E sega ni rawa ni vakasuka na veivakadeitaki oqo.",
+    "reasonRequired": "Kerekere mo tukuna e dua na vuna o sega ni vakadonuya kina.",
+    "rejectDialog": {
+      "title": "Cakitaka na veivakadeitaki",
+      "message": "{{name}} ena raica na vuna o solia ka rawa ni vakauta na ivola vou.",
+      "reasonLabel": "Vuna ni kena sega ni ciqomi",
+      "confirm": "Cata"
+    }
+  },
   "sort": {
     "sortBy": "Vakarautaka ena",
     "toggleDirection": "Veisautaka na veidusimaki",
@@ -64,6 +97,7 @@
       "admin": "Dauniveiliutaki",
       "email": "Imeli",
       "status": "ITuvatuva",
+      "verification": "Vakadeitaki",
       "residents": "Lewenivanua",
       "view": "Rai"
     }

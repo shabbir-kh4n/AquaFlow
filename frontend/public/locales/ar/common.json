@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "اختر الملف",
+    "change": "تغيير الملف",
+    "none": "لم يتم اختيار أي ملف"
+  },
   "authModal": {
     "close": "يغلق",
     "signUpTitle": "سجل مجتمعك",
@@ -188,6 +193,7 @@
       "support": "الدعم / المخاوف",
       "tariffPlans": "خطط التعريفة",
       "announcements": "إعلانات",
+      "verification": "تَحَقّق",
       "profile": "حساب تعريفي"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "إعلانات",
         "subtitle": "نشر إشعارات على مستوى المجتمع للمقيمين لديك."
       },
+      "verification": {
+        "title": "التحقق من الوثيقة",
+        "subtitle": "أرسل مستنداتك حتى تتمكن المنصة من التحقق من مجتمعك."
+      },
       "profile": {
         "title": "الإعدادات والملف الشخصي",
         "subtitle": "إدارة تفاصيل حسابك ومعلومات الشقة."
       }
     },
     "fallbackName": "مسؤل",
+    "locked": "متاح بعد التحقق من مجتمعك",
+    "verifyBanner": "لم يتم التحقق من مجتمعك بعد، لذلك تم قفل معظم الصفحات.",
+    "verifyBannerLink": "انتقل إلى التحقق",
     "fallbackCommunity": "مشرف المجتمع",
     "notBuilt": "{{label}} لم يتم بناؤه بعد",
     "searchPlaceholder": "ابحث عن أي شيء…"

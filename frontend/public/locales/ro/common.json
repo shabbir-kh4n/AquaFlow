@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Alegeți fișierul",
+    "change": "Schimbați fișierul",
+    "none": "Niciun fișier ales"
+  },
   "authModal": {
     "close": "Aproape",
     "signUpTitle": "Înregistrează-ți comunitatea",
@@ -188,6 +193,7 @@
       "support": "Suport / Preocupări",
       "tariffPlans": "Planuri tarifare",
       "announcements": "Anunturi",
+      "verification": "Verificare",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Anunturi",
         "subtitle": "Publicați notificări la nivelul comunității pentru rezidenții dvs."
       },
+      "verification": {
+        "title": "Verificarea documentelor",
+        "subtitle": "Trimiteți documentele pentru ca platforma să vă poată verifica comunitatea."
+      },
       "profile": {
         "title": "Setări și profil",
         "subtitle": "Gestionați detaliile contului și informațiile despre apartament."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Disponibil după verificarea comunității dvs",
+    "verifyBanner": "Comunitatea ta nu este încă verificată, așa că majoritatea paginilor sunt blocate.",
+    "verifyBannerLink": "Accesați Verificare",
     "fallbackCommunity": "Administratorul comunității",
     "notBuilt": "{{label}} nu este încă creat",
     "searchPlaceholder": "Cauta orice..."

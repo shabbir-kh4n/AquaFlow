@@ -535,6 +535,68 @@
       "outstanding": "Ausgezeechent"
     }
   },
+  "verification": {
+    "loading": "Luet d'Verifizéierung ...",
+    "loadError": "Konnt Äre Verifizéierungsstatus net lueden. Probéiert w.e.g. nach eng Kéier.",
+    "viewError": "Konnt d'Dokument net opmaachen.",
+    "statusTitle": "Verifikatioun Status",
+    "rejectionReason": "Grond fir Oflehnung:",
+    "status": {
+      "notSubmitted": "Net presentéiert",
+      "pending": "Erwaardung iwwerpréiwen",
+      "approved": "Genehmegt",
+      "rejected": "Refuséiert"
+    },
+    "messages": {
+      "notSubmitted": "Gitt Är Gemeinschaftsdetailer an Dokumenter hei ënnen un. Bis se guttgeheescht ginn, kënnt Dir nëmmen d'Dashboard, Verifizéierung a Profil Säiten benotzen.",
+      "pending": "Är Dokumenter si mat engem Plattformadministrator fir iwwerpréift. Bis se guttgeheescht ginn, kënnt Dir nëmmen d'Dashboard, Verifizéierung a Profil Säiten benotzen.",
+      "approved": "Är Dokumenter goufen verifizéiert.",
+      "rejectedHint": "Fixéiert d'Thema a schéckt Är Dokumenter nach eng Kéier hei drënner."
+    },
+    "details": {
+      "communityName": "Gemeinschaft Numm",
+      "address": "Adress",
+      "totalFlats": "Ganzen Appartementer",
+      "totalBlocks": "Total Blocks",
+      "type": "Dokument Typ",
+      "number": "Dokument Zuel",
+      "notes": "Detailer",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Erlaabt",
+      "reviewedAt": "Iwwerpréift"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Societeit Aschreiwung Zertifikat",
+      "ownershipProof": "Eegentum Besëtz Beweis",
+      "governmentId": "Regierung ID",
+      "other": "Aner"
+    },
+    "form": {
+      "title": "Dokumenter ofginn",
+      "resubmitTitle": "Gitt Dokumenter nach eng Kéier of",
+      "documentType": "Dokument Typ",
+      "documentNumber": "Dokument Zuel",
+      "details": "Zousätzlech Detailer (fakultativ)",
+      "file": "Dokument PDF",
+      "fileHint": "PDF nëmmen, bis zu 5 MB.",
+      "communitySection": "Communautéit Detailer",
+      "documentSection": "Verifikatioun Dokument",
+      "communityName": "Communautéit / Societeit Numm",
+      "address": "Adress",
+      "city": "Stad",
+      "state": "Staat",
+      "pincode": "Pincode",
+      "totalFlats": "Total Zuel vun Appartementer",
+      "totalBlocks": "Zuel vu Blocks / Tierm (optional)",
+      "fieldsRequired": "Fëllt w.e.g. all déi néideg Felder aus.",
+      "countInvalid": "Flats a Blocks mussen Zuelen vun op d'mannst 1 sinn.",
+      "fileRequired": "Befestegt w.e.g. en PDF Dokument.",
+      "tooLarge": "De Fichier muss 5 MB oder méi kleng sinn.",
+      "submit": "Gitt fir d'Verifizéierung of",
+      "submitting": "Erlaabt…",
+      "submitError": "Konnt Är Dokumenter net ofginn. Probéiert w.e.g. nach eng Kéier."
+    }
+  },
   "announcements": {
     "loadError": "Konnt d'Ukënnegung net lueden. Probéiert w.e.g. nach eng Kéier.",
     "removeError": "Konnt dës Ukënnegung net läschen. Probéiert w.e.g. nach eng Kéier.",

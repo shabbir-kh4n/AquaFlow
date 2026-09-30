@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Faýl saýlaň",
+    "change": "Faýly üýtgediň",
+    "none": "Hiç hili faýl saýlanmady"
+  },
   "authModal": {
     "close": ".Akyn",
     "signUpTitle": "Jemgyýetiňizi hasaba alyň",
@@ -188,6 +193,7 @@
       "support": "Goldaw / aladalar",
       "tariffPlans": "Nyrh meýilnamalary",
       "announcements": "Bildirişler",
+      "verification": "Barlamak",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Bildirişler",
         "subtitle": "Residentsaşaýjylaryňyza jemgyýetçilik habarnamalaryny çap ediň."
       },
+      "verification": {
+        "title": "Resminamalary barlamak",
+        "subtitle": "Platforma jemgyýetiňizi barlap biler ýaly resminamalaryňyzy iberiň."
+      },
       "profile": {
         "title": "Sazlamalar we profil",
         "subtitle": "Hasabyňyzyň jikme-jikliklerini we kwartira maglumatlaryny dolandyryň."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Jemgyýetiňiz barlanandan soň elýeterli",
+    "verifyBanner": "Jemgyýetiňiz entek tassyklanmady, şonuň üçin sahypalaryň köpüsi gulplandy.",
+    "verifyBannerLink": "Barlamaga geçiň",
     "fallbackCommunity": "Jemgyýet dolandyryjysy",
     "notBuilt": "{{label}} entek gurlanok",
     "searchPlaceholder": "Islän zadyňyzy gözläň ..."

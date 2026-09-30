@@ -535,6 +535,68 @@
       "outstanding": "Bora"
     }
   },
+  "verification": {
+    "loading": "Inapakia uthibitishaji...",
+    "loadError": "Haikuweza kupakia hali yako ya uthibitishaji. Tafadhali jaribu tena.",
+    "viewError": "Haikuweza kufungua hati.",
+    "statusTitle": "Hali ya uthibitishaji",
+    "rejectionReason": "Sababu ya kukataliwa:",
+    "status": {
+      "notSubmitted": "Haijawasilishwa",
+      "pending": "Inasubiri ukaguzi",
+      "approved": "Imeidhinishwa",
+      "rejected": "Imekataliwa"
+    },
+    "messages": {
+      "notSubmitted": "Wasilisha maelezo na hati za jumuiya yako hapa chini. Hadi ziidhinishwe unaweza kutumia Dashibodi, Uthibitishaji na kurasa za Wasifu pekee.",
+      "pending": "Hati zako ziko kwa msimamizi wa jukwaa kwa ukaguzi. Hadi ziidhinishwe unaweza kutumia Dashibodi, Uthibitishaji na kurasa za Wasifu pekee.",
+      "approved": "Hati zako zimethibitishwa.",
+      "rejectedHint": "Rekebisha suala hilo na uwasilishe hati zako tena hapa chini."
+    },
+    "details": {
+      "communityName": "Jina la jumuiya",
+      "address": "Anwani",
+      "totalFlats": "Jumla ya magorofa",
+      "totalBlocks": "Jumla ya vizuizi",
+      "type": "Aina ya hati",
+      "number": "Nambari ya hati",
+      "notes": "Maelezo",
+      "file": "Hati (PDF)",
+      "submittedAt": "Imewasilishwa",
+      "reviewedAt": "Imekaguliwa"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Cheti cha usajili wa jamii",
+      "ownershipProof": "Uthibitisho wa umiliki wa mali",
+      "governmentId": "Kitambulisho cha Serikali",
+      "other": "Nyingine"
+    },
+    "form": {
+      "title": "Peana hati",
+      "resubmitTitle": "Peana hati tena",
+      "documentType": "Aina ya hati",
+      "documentNumber": "Nambari ya hati",
+      "details": "Maelezo ya ziada (si lazima)",
+      "file": "Hati PDF",
+      "fileHint": "PDF pekee, hadi MB 5.",
+      "communitySection": "Maelezo ya jumuiya",
+      "documentSection": "Hati ya uthibitishaji",
+      "communityName": "Jina la jumuiya/jamii",
+      "address": "Anwani",
+      "city": "Jiji",
+      "state": "Jimbo",
+      "pincode": "Msimbo wa siri",
+      "totalFlats": "Jumla ya idadi ya magorofa",
+      "totalBlocks": "Idadi ya vitalu / minara (si lazima)",
+      "fieldsRequired": "Tafadhali jaza sehemu zote zinazohitajika.",
+      "countInvalid": "Ghorofa na vitalu lazima ziwe na nambari za angalau 1.",
+      "fileRequired": "Tafadhali ambatisha hati PDF.",
+      "tooLarge": "Faili lazima iwe 5 MB au ndogo zaidi.",
+      "submit": "Wasilisha kwa uthibitisho",
+      "submitting": "Inawasilisha...",
+      "submitError": "Haikuweza kuwasilisha hati zako. Tafadhali jaribu tena."
+    }
+  },
   "announcements": {
     "loadError": "Haikuweza kupakia matangazo. Tafadhali jaribu tena.",
     "removeError": "Haikuweza kufuta tangazo hili. Tafadhali jaribu tena.",

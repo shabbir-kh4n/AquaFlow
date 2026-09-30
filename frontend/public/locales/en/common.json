@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Choose file",
+    "change": "Change file",
+    "none": "No file chosen"
+  },
   "authModal": {
     "close": "Close",
     "signUpTitle": "Register your community",
@@ -188,6 +193,7 @@
       "support": "Support / Concerns",
       "tariffPlans": "Tariff Plans",
       "announcements": "Announcements",
+      "verification": "Verification",
       "profile": "Profile"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Announcements",
         "subtitle": "Publish community-wide notices to your residents."
       },
+      "verification": {
+        "title": "Document Verification",
+        "subtitle": "Submit your documents so the platform can verify your community."
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Manage your account details and apartment information."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Available after your community is verified",
+    "verifyBanner": "Your community is not verified yet, so most pages are locked.",
+    "verifyBannerLink": "Go to Verification",
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} isn't built yet",
     "searchPlaceholder": "Search anything…"

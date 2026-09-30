@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Kies lêer",
+    "change": "Verander lêer",
+    "none": "Geen lêer gekies nie"
+  },
   "authModal": {
     "close": "Maak toe",
     "signUpTitle": "Registreer jou gemeenskap",
@@ -188,6 +193,7 @@
       "support": "Ondersteuning / Bekommernisse",
       "tariffPlans": "Tariefplanne",
       "announcements": "Aankondigings",
+      "verification": "Verifikasie",
       "profile": "Profiel"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Aankondigings",
         "subtitle": "Publiseer gemeenskapswye kennisgewings aan jou inwoners."
       },
+      "verification": {
+        "title": "Dokumentverifikasie",
+        "subtitle": "Dien jou dokumente in sodat die platform jou gemeenskap kan verifieer."
+      },
       "profile": {
         "title": "Instellings en profiel",
         "subtitle": "Bestuur jou rekeningbesonderhede en woonstelinligting."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Beskikbaar nadat jou gemeenskap geverifieer is",
+    "verifyBanner": "Jou gemeenskap is nog nie geverifieer nie, so die meeste bladsye is gesluit.",
+    "verifyBannerLink": "Gaan na Verifikasie",
     "fallbackCommunity": "Gemeenskap Admin",
     "notBuilt": "{{label}} is nog nie gebou nie",
     "searchPlaceholder": "Soek enigiets …"

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "בחר קובץ",
+    "change": "שנה קובץ",
+    "none": "לא נבחר קובץ"
+  },
   "authModal": {
     "close": "לִסְגוֹר",
     "signUpTitle": "רשום את הקהילה שלך",
@@ -188,6 +193,7 @@
       "support": "תמיכה / דאגות",
       "tariffPlans": "תוכניות תעריפים",
       "announcements": "הכרזות",
+      "verification": "אימות",
       "profile": "פּרוֹפִיל"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "הכרזות",
         "subtitle": "פרסם הודעות כלל-קהילתיות לתושבים שלך."
       },
+      "verification": {
+        "title": "אימות מסמך",
+        "subtitle": "שלח את המסמכים שלך כדי שהפלטפורמה תוכל לאמת את הקהילה שלך."
+      },
       "profile": {
         "title": "הגדרות ופרופיל",
         "subtitle": "נהל את פרטי החשבון ופרטי הדירה שלך."
       }
     },
     "fallbackName": "מנהל מערכת",
+    "locked": "זמין לאחר אימות הקהילה שלך",
+    "verifyBanner": "הקהילה שלך עדיין לא מאומתת, אז רוב הדפים נעולים.",
+    "verifyBannerLink": "עבור אל אימות",
     "fallbackCommunity": "מנהל קהילה",
     "notBuilt": "{{label}} עדיין לא נבנה",
     "searchPlaceholder": "חפש בכל דבר…"

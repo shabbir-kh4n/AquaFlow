@@ -535,6 +535,68 @@
       "outstanding": "Sobresaliente"
     }
   },
+  "verification": {
+    "loading": "Cargando verificación...",
+    "loadError": "Non se puido cargar o teu estado de verificación. Téntao de novo.",
+    "viewError": "Non se puido abrir o documento.",
+    "statusTitle": "Estado de verificación",
+    "rejectionReason": "Motivo do rexeitamento:",
+    "status": {
+      "notSubmitted": "Non enviado",
+      "pending": "Pendente de revisión",
+      "approved": "Aprobado",
+      "rejected": "Rexeitado"
+    },
+    "messages": {
+      "notSubmitted": "Envía os detalles e documentos da túa comunidade a continuación. Ata que sexan aprobados, só podes usar as páxinas do Panel, Verificación e Perfil.",
+      "pending": "Os teus documentos están cun administrador da plataforma para a súa revisión. Ata que sexan aprobados, só podes usar as páxinas do Panel, Verificación e Perfil.",
+      "approved": "Verificáronse os teus documentos.",
+      "rejectedHint": "Resolve o problema e envía os teus documentos de novo a continuación."
+    },
+    "details": {
+      "communityName": "Nome da comunidade",
+      "address": "Enderezo",
+      "totalFlats": "Total de pisos",
+      "totalBlocks": "Bloques totais",
+      "type": "Tipo de documento",
+      "number": "Número de documento",
+      "notes": "Detalles",
+      "file": "Documento (PDF)",
+      "submittedAt": "Enviado",
+      "reviewedAt": "Revisado"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificado de rexistro social",
+      "ownershipProof": "Acreditación da propiedade da propiedade",
+      "governmentId": "Identificación do goberno",
+      "other": "Outros"
+    },
+    "form": {
+      "title": "Presentar documentos",
+      "resubmitTitle": "Enviar documentos de novo",
+      "documentType": "Tipo de documento",
+      "documentNumber": "Número de documento",
+      "details": "Detalles adicionais (opcional)",
+      "file": "Documento PDF",
+      "fileHint": "Só PDF, ata 5 MB.",
+      "communitySection": "Detalles da comunidade",
+      "documentSection": "Documento de verificación",
+      "communityName": "Nome da comunidade/sociedade",
+      "address": "Enderezo",
+      "city": "Cidade",
+      "state": "Estado",
+      "pincode": "Código PIN",
+      "totalFlats": "Número total de pisos",
+      "totalBlocks": "Número de bloques/torres (opcional)",
+      "fieldsRequired": "Encha todos os campos obrigatorios.",
+      "countInvalid": "Os pisos e bloques deben ser números de polo menos 1.",
+      "fileRequired": "Achegue un documento PDF.",
+      "tooLarge": "O ficheiro debe ser de 5 MB ou menos.",
+      "submit": "Enviar para verificación",
+      "submitting": "Enviando…",
+      "submitError": "Non se puideron enviar os teus documentos. Téntao de novo."
+    }
+  },
   "announcements": {
     "loadError": "Non se puideron cargar os anuncios. Téntao de novo.",
     "removeError": "Non se puido eliminar este anuncio. Téntao de novo.",

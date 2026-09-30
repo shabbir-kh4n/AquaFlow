@@ -4,6 +4,39 @@
     "blocked": "Air a bhacadh",
     "terminated": "Crìochnaichte"
   },
+  "verification": {
+    "title": "Dearbhadh Sgrìobhainn",
+    "status": {
+      "notSubmitted": "Gun a bhith air a chuir a-steach",
+      "pending": "A’ feitheamh lèirmheas",
+      "approved": "Aontaichte",
+      "rejected": "Air a dhiùltadh"
+    },
+    "notSubmitted": "Chan eil an rianaire coimhearsnachd seo air sgrìobhainnean dearbhaidh a chuir a-steach fhathast.",
+    "communityName": "Ainm coimhearsnachd",
+    "address": "Seòladh",
+    "totalFlats": "Flataichean iomlan",
+    "totalBlocks": "Blocaichean iomlan",
+    "documentType": "Seòrsa sgrìobhainn",
+    "documentNumber": "Àireamh sgrìobhainn",
+    "notes": "Mion-fhiosrachadh",
+    "file": "Sgrìobhainn (PDF)",
+    "submittedAt": "Air a chuir a-steach",
+    "reviewedAt": "Ath-sgrùdadh",
+    "rejectionReason": "Adhbhar airson a dhiùltadh:",
+    "approve": "Aontaich",
+    "reject": "diùltadh",
+    "viewError": "Cha b' urrainn dhuinn an sgrìobhainn fhosgladh.",
+    "approveError": "Cha b' urrainn dhuinn an dearbhadh seo aontachadh.",
+    "rejectError": "Cha b' urrainn dhuinn an dearbhadh seo a dhiùltadh.",
+    "reasonRequired": "Feuch an toir thu adhbhar airson a dhiùltadh.",
+    "rejectDialog": {
+      "title": "Dearbhadh a dhiùltadh",
+      "message": "{{name}} chì thu an adhbhar a bheir thu seachad agus faodaidh iad sgrìobhainnean ùra a chuir a-steach.",
+      "reasonLabel": "Adhbhar airson a dhiùltadh",
+      "confirm": "diùltadh"
+    }
+  },
   "sort": {
     "sortBy": "Deasaich a rèir",
     "toggleDirection": "Tog an t-slighe seòrsachaidh",
@@ -64,6 +97,7 @@
       "admin": "Rianachd",
       "email": "Post-d",
       "status": "Inbhe",
+      "verification": "Dearbhadh",
       "residents": "Luchd-còmhnaidh",
       "view": "Sealladh"
     }

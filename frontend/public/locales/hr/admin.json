@@ -535,6 +535,68 @@
       "outstanding": "Izvanredan"
     }
   },
+  "verification": {
+    "loading": "Učitavanje potvrde...",
+    "loadError": "Nije moguće učitati vaš status potvrde. Molimo pokušajte ponovo.",
+    "viewError": "Nije moguće otvoriti dokument.",
+    "statusTitle": "Status provjere",
+    "rejectionReason": "Razlog odbijanja:",
+    "status": {
+      "notSubmitted": "Nije predano",
+      "pending": "Čeka pregled",
+      "approved": "Odobreno",
+      "rejected": "Odbijen"
+    },
+    "messages": {
+      "notSubmitted": "U nastavku pošaljite detalje i dokumente svoje zajednice. Dok se ne odobre, možete koristiti samo stranice nadzorne ploče, provjere i profila.",
+      "pending": "Vaši su dokumenti kod administratora platforme na pregled. Dok se ne odobre, možete koristiti samo stranice nadzorne ploče, provjere i profila.",
+      "approved": "Vaši su dokumenti ovjereni.",
+      "rejectedHint": "Riješite problem i ponovno pošaljite svoje dokumente u nastavku."
+    },
+    "details": {
+      "communityName": "Naziv zajednice",
+      "address": "Adresa",
+      "totalFlats": "Ukupno stanova",
+      "totalBlocks": "Ukupno blokova",
+      "type": "Vrsta dokumenta",
+      "number": "Broj dokumenta",
+      "notes": "pojedinosti",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Poslano",
+      "reviewedAt": "Pregledano"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Potvrda o registraciji društva",
+      "ownershipProof": "Dokaz o vlasništvu nekretnine",
+      "governmentId": "Državna iskaznica",
+      "other": "ostalo"
+    },
+    "form": {
+      "title": "Predajte dokumente",
+      "resubmitTitle": "Ponovno dostavite dokumente",
+      "documentType": "Vrsta dokumenta",
+      "documentNumber": "Broj dokumenta",
+      "details": "Dodatne pojedinosti (nije obavezno)",
+      "file": "Dokument PDF",
+      "fileHint": "Samo PDF, do 5 MB.",
+      "communitySection": "Detalji zajednice",
+      "documentSection": "Dokument o provjeri",
+      "communityName": "Naziv zajednice / društva",
+      "address": "Adresa",
+      "city": "Grad",
+      "state": "Stanje",
+      "pincode": "Pinkod",
+      "totalFlats": "Ukupan broj stanova",
+      "totalBlocks": "Broj blokova/tornjeva (neobavezno)",
+      "fieldsRequired": "Molimo ispunite sva potrebna polja.",
+      "countInvalid": "Stanovi i blokovi moraju imati brojeve od najmanje 1.",
+      "fileRequired": "Priložite PDF dokument.",
+      "tooLarge": "Datoteka mora biti 5 MB ili manja.",
+      "submit": "Pošaljite na provjeru",
+      "submitting": "Slanje...",
+      "submitError": "Nije moguće poslati vaše dokumente. Molimo pokušajte ponovo."
+    }
+  },
   "announcements": {
     "loadError": "Nije moguće učitati najave. Molimo pokušajte ponovo.",
     "removeError": "Nije moguće izbrisati ovu najavu. Molimo pokušajte ponovo.",

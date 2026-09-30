@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Họrọ faịlụ",
+    "change": "Gbanwee faịlụ",
+    "none": "Enweghị faịlụ ahọpụtara"
+  },
   "authModal": {
     "close": "Mechie",
     "signUpTitle": "Debanye aha obodo gị",
@@ -188,6 +193,7 @@
       "support": "Nkwado / Nchegbu",
       "tariffPlans": "Atụmatụ tarifu",
       "announcements": "Ọkwa",
+      "verification": "Nyocha",
       "profile": "Profaịlụ"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ọkwa",
         "subtitle": "Bipụta ọkwa gbasara obodo nye ndị bi gị."
       },
+      "verification": {
+        "title": "Nyocha akwụkwọ",
+        "subtitle": "Nyefee akwụkwọ gị ka ikpo okwu nwee ike nyochaa obodo gị."
+      },
       "profile": {
         "title": "Ntọala & Profaịlụ",
         "subtitle": "Jikwaa nkọwa akaụntụ gị yana ozi ụlọ."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Ọ dị ka enyochachara obodo gị",
+    "verifyBanner": "Ekwuputabeghị obodo gị, ya mere akpọchiri ọtụtụ ibe.",
+    "verifyBannerLink": "Gaa na nkwenye",
     "fallbackCommunity": "Onye nchịkwa obodo",
     "notBuilt": "{{label}} emebebeghị",
     "searchPlaceholder": "Chọọ ihe ọ bụla…"

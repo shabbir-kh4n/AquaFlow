@@ -535,6 +535,68 @@
       "outstanding": "Ajoyib"
     }
   },
+  "verification": {
+    "loading": "Tasdiqlash yuklanmoqda…",
+    "loadError": "Tasdiqlash holatini yuklab bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "viewError": "Hujjatni ochib boʻlmadi.",
+    "statusTitle": "Tasdiqlash holati",
+    "rejectionReason": "Rad etish sababi:",
+    "status": {
+      "notSubmitted": "Taqdim qilinmagan",
+      "pending": "Ko‘rib chiqish kutilmoqda",
+      "approved": "Tasdiqlangan",
+      "rejected": "Rad etilgan"
+    },
+    "messages": {
+      "notSubmitted": "Quyida hamjamiyatingiz tafsilotlari va hujjatlarini yuboring. Ular tasdiqlanmaguncha siz faqat asboblar paneli, tekshirish va profil sahifalaridan foydalanishingiz mumkin.",
+      "pending": "Hujjatlaringiz koʻrib chiqish uchun platforma administratorida. Ular tasdiqlanmaguncha siz faqat asboblar paneli, tekshirish va profil sahifalaridan foydalanishingiz mumkin.",
+      "approved": "Hujjatlaringiz tekshirildi.",
+      "rejectedHint": "Muammoni tuzating va hujjatlarni quyida qayta yuboring."
+    },
+    "details": {
+      "communityName": "Jamiyat nomi",
+      "address": "Manzil",
+      "totalFlats": "Jami kvartiralar",
+      "totalBlocks": "Jami bloklar",
+      "type": "Hujjat turi",
+      "number": "Hujjat raqami",
+      "notes": "Tafsilotlar",
+      "file": "Hujjat (PDF)",
+      "submittedAt": "Taqdim etilgan",
+      "reviewedAt": "Ko'rib chiqilgan"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Jamiyatni ro'yxatdan o'tkazish to'g'risidagi guvohnoma",
+      "ownershipProof": "Mulkga egalik huquqini tasdiqlovchi hujjat",
+      "governmentId": "Hukumat identifikatori",
+      "other": "Boshqa"
+    },
+    "form": {
+      "title": "Hujjatlarni topshirish",
+      "resubmitTitle": "Hujjatlarni qayta topshiring",
+      "documentType": "Hujjat turi",
+      "documentNumber": "Hujjat raqami",
+      "details": "Qo'shimcha tafsilotlar (ixtiyoriy)",
+      "file": "Hujjat PDF",
+      "fileHint": "faqat PDF, 5 MB gacha.",
+      "communitySection": "Hamjamiyat tafsilotlari",
+      "documentSection": "Tasdiqlovchi hujjat",
+      "communityName": "Jamiyat / jamiyat nomi",
+      "address": "Manzil",
+      "city": "Shahar",
+      "state": "Davlat",
+      "pincode": "PIN-kod",
+      "totalFlats": "Kvartiralarning umumiy soni",
+      "totalBlocks": "Bloklar / minoralar soni (ixtiyoriy)",
+      "fieldsRequired": "Barcha kerakli maydonlarni toʻldiring.",
+      "countInvalid": "Kvartiralar va bloklar soni kamida 1 bo'lishi kerak.",
+      "fileRequired": "Iltimos, PDF hujjatni ilova qiling.",
+      "tooLarge": "Fayl 5 MB yoki undan kichik bo'lishi kerak.",
+      "submit": "Tasdiqlash uchun yuboring",
+      "submitting": "Yuborilmoqda…",
+      "submitError": "Hujjatlaringizni topshirib boʻlmadi. Iltimos, qayta urinib koʻring."
+    }
+  },
   "announcements": {
     "loadError": "Eʼlonlarni yuklab boʻlmadi. Iltimos, qayta urinib koʻring.",
     "removeError": "Bu eʼlonni oʻchirib boʻlmadi. Iltimos, qayta urinib koʻring.",

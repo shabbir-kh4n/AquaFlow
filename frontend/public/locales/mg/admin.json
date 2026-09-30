@@ -535,6 +535,68 @@
       "outstanding": "miavaka"
     }
   },
+  "verification": {
+    "loading": "Mametraka fanamarinana…",
+    "loadError": "Tsy afaka nampiditra ny satan'ny fanamarinanao. Andramo indray azafady.",
+    "viewError": "Tsy afaka nanokatra ny antontan-taratasy.",
+    "statusTitle": "Sata fanamarinana",
+    "rejectionReason": "Antony fandavana:",
+    "status": {
+      "notSubmitted": "Tsy natolotra",
+      "pending": "Miandry famerenana",
+      "approved": "nankatoavina",
+      "rejected": "TSY"
+    },
+    "messages": {
+      "notSubmitted": "Alefaso eto ambany ny antsipirian'ny vondrom-piarahamoninao sy ny antontan-taratasy. Mandra-pankatoavana azy ireo dia tsy afaka mampiasa afa-tsy ny Dashboard, Fanamarinana ary pejin'ny mombamomba anao ianao.",
+      "pending": "Ny antontan-taratasinao dia miaraka amin'ny mpitantana ny sehatra hojerena. Mandra-pankatoavana azy ireo dia tsy afaka mampiasa afa-tsy ny Dashboard, Fanamarinana ary pejin'ny mombamomba anao ianao.",
+      "approved": "Voamarina ny antontan-taratasinao.",
+      "rejectedHint": "Amboary ny olana ary alefaso eto ambany indray ny antontan-taratasinao."
+    },
+    "details": {
+      "communityName": "Anaran'ny fiaraha-monina",
+      "address": "Adiresy",
+      "totalFlats": "Total trano",
+      "totalBlocks": "Total blocks",
+      "type": "Karazana antontan-taratasy",
+      "number": "Laharan'ny antontan-taratasy",
+      "notes": "tsipiriany",
+      "file": "Taratasy (PDF)",
+      "submittedAt": "nanaiky",
+      "reviewedAt": "nandinika"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Taratasy fisoratana anarana fiaraha-monina",
+      "ownershipProof": "Porofon'ny fananana fananana",
+      "governmentId": "Governemanta ID",
+      "other": "hafa"
+    },
+    "form": {
+      "title": "Alefaso ny antontan-taratasy",
+      "resubmitTitle": "Alefaso indray ny antontan-taratasy",
+      "documentType": "Karazana antontan-taratasy",
+      "documentNumber": "Laharan'ny antontan-taratasy",
+      "details": "Tsipiriany fanampiny (tsy voatery)",
+      "file": "Taratasy PDF",
+      "fileHint": "PDF ihany, hatramin'ny 5 MB.",
+      "communitySection": "Ny antsipirian'ny fiaraha-monina",
+      "documentSection": "Taratasy fanamarinana",
+      "communityName": "Anaran'ny fiaraha-monina / fiaraha-monina",
+      "address": "Adiresy",
+      "city": "Tanàna",
+      "state": "FANJAKANA",
+      "pincode": "Pincode",
+      "totalFlats": "Total isan'ny trano",
+      "totalBlocks": "Isan'ny sakana / tilikambo (tsy voatery)",
+      "fieldsRequired": "Fenoy azafady ny saha ilaina rehetra.",
+      "countInvalid": "Ny trano fisaka sy ny sakana dia tokony ho isa farafahakeliny 1.",
+      "fileRequired": "Ampifandraiso azafady ny antontan-taratasy PDF.",
+      "tooLarge": "Ny rakitra dia tsy maintsy 5 MB na kely kokoa.",
+      "submit": "Alefaso ho fanamarinana",
+      "submitting": "Mandefa…",
+      "submitError": "Tsy afaka nanolotra ny antontan-taratasinao. Andramo indray azafady."
+    }
+  },
   "announcements": {
     "loadError": "Tsy afaka nampiditra filazana. Andramo indray azafady.",
     "removeError": "Tsy afaka namafa ity fanambarana ity. Andramo indray azafady.",

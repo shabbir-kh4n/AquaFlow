@@ -535,6 +535,68 @@
       "outstanding": "뛰어난"
     }
   },
+  "verification": {
+    "loading": "확인 로드 중…",
+    "loadError": "확인 상태를 로드할 수 없습니다. 다시 시도해 주세요.",
+    "viewError": "문서를 열 수 없습니다.",
+    "statusTitle": "확인 상태",
+    "rejectionReason": "거부 이유:",
+    "status": {
+      "notSubmitted": "제출되지 않음",
+      "pending": "검토 대기 중",
+      "approved": "승인됨",
+      "rejected": "거부됨"
+    },
+    "messages": {
+      "notSubmitted": "아래에 커뮤니티 세부정보와 문서를 제출하세요. 승인될 때까지는 대시보드, 확인 및 프로필 페이지만 사용할 수 있습니다.",
+      "pending": "귀하의 문서는 검토를 위해 플랫폼 관리자에게 있습니다. 승인될 때까지는 대시보드, 확인 및 프로필 페이지만 사용할 수 있습니다.",
+      "approved": "귀하의 문서가 확인되었습니다.",
+      "rejectedHint": "문제를 해결한 후 아래에서 서류를 다시 제출해 주세요."
+    },
+    "details": {
+      "communityName": "커뮤니티 이름",
+      "address": "주소",
+      "totalFlats": "아파트 총계",
+      "totalBlocks": "총 블록",
+      "type": "문서 유형",
+      "number": "문서번호",
+      "notes": "세부",
+      "file": "문서(PDF)",
+      "submittedAt": "제출된",
+      "reviewedAt": "검토됨"
+    },
+    "documentTypes": {
+      "registrationCertificate": "학회 등록증",
+      "ownershipProof": "재산 소유권 증명",
+      "governmentId": "정부 신분증",
+      "other": "다른"
+    },
+    "form": {
+      "title": "서류 제출",
+      "resubmitTitle": "서류를 다시 제출하세요",
+      "documentType": "문서 유형",
+      "documentNumber": "문서번호",
+      "details": "추가 세부정보(선택사항)",
+      "file": "문서 PDF",
+      "fileHint": "PDF만, 최대 5MB입니다.",
+      "communitySection": "커뮤니티 세부정보",
+      "documentSection": "확인서류",
+      "communityName": "커뮤니티 / 사회 이름",
+      "address": "주소",
+      "city": "도시",
+      "state": "상태",
+      "pincode": "핀코드",
+      "totalFlats": "총 아파트 수",
+      "totalBlocks": "블록/타워 수(선택 사항)",
+      "fieldsRequired": "필수 입력란을 모두 작성해 주세요.",
+      "countInvalid": "아파트와 블록은 1개 이상이어야 합니다.",
+      "fileRequired": "PDF 문서를 첨부하세요.",
+      "tooLarge": "파일은 5MB 이하여야 합니다.",
+      "submit": "확인을 위해 제출",
+      "submitting": "제출 중…",
+      "submitError": "문서를 제출할 수 없습니다. 다시 시도해 주세요."
+    }
+  },
   "announcements": {
     "loadError": "공지사항을 로드할 수 없습니다. 다시 시도해 주세요.",
     "removeError": "이 공지를 삭제할 수 없습니다. 다시 시도해 주세요.",

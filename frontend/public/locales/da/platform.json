@@ -4,6 +4,39 @@
     "blocked": "Blokeret",
     "terminated": "Afsluttet"
   },
+  "verification": {
+    "title": "Dokumentbekræftelse",
+    "status": {
+      "notSubmitted": "Ikke indsendt",
+      "pending": "Afventer gennemgang",
+      "approved": "Godkendt",
+      "rejected": "Afvist"
+    },
+    "notSubmitted": "Denne fællesskabsadministrator har endnu ikke indsendt bekræftelsesdokumenter.",
+    "communityName": "Fællesskabsnavn",
+    "address": "Adresse",
+    "totalFlats": "Lejligheder i alt",
+    "totalBlocks": "Samlede blokke",
+    "documentType": "Dokumenttype",
+    "documentNumber": "Dokumentnummer",
+    "notes": "Detaljer",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Indsendt",
+    "reviewedAt": "Gennemgået",
+    "rejectionReason": "Årsag til afvisning:",
+    "approve": "Godkende",
+    "reject": "Afvise",
+    "viewError": "Kunne ikke åbne dokumentet.",
+    "approveError": "Denne bekræftelse kunne ikke godkendes.",
+    "rejectError": "Kunne ikke afvise denne bekræftelse.",
+    "reasonRequired": "Angiv venligst en grund til at afvise.",
+    "rejectDialog": {
+      "title": "Afvis verifikation",
+      "message": "{{name}} vil se årsagen til, du giver, og kan indsende nye dokumenter.",
+      "reasonLabel": "Årsag til afvisning",
+      "confirm": "Afvise"
+    }
+  },
   "sort": {
     "sortBy": "Sorter efter",
     "toggleDirection": "Skift sorteringsretning",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Verifikation",
       "residents": "Beboere",
       "view": "Udsigt"
     }

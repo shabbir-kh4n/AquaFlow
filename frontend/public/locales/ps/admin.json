@@ -535,6 +535,68 @@
       "outstanding": "بقایا"
     }
   },
+  "verification": {
+    "loading": "تایید پورته کول…",
+    "loadError": "ستاسو د تایید حالت نشي پورته کولی. مهرباني وکړئ بیا هڅه وکړئ.",
+    "viewError": "سند خلاص نشو.",
+    "statusTitle": "د تایید حالت",
+    "rejectionReason": "د ردولو دلیل:",
+    "status": {
+      "notSubmitted": "سپارل شوی نه دی",
+      "pending": "بیاکتنه پاتې ده",
+      "approved": "تصویب شوی",
+      "rejected": "رد کړل"
+    },
+    "messages": {
+      "notSubmitted": "لاندې د خپلې ټولنې توضیحات او اسناد وسپارئ. تر هغه چې دوی تصویب نشي تاسو کولی شئ یوازې ډشبورډ، تایید او پروفایل پاڼې وکاروئ.",
+      "pending": "ستاسو اسناد د بیاکتنې لپاره د پلیټ فارم مدیر سره دي. تر هغه چې دوی تصویب نشي تاسو کولی شئ یوازې ډشبورډ، تایید او پروفایل پاڼې وکاروئ.",
+      "approved": "ستاسو اسناد تایید شوي دي.",
+      "rejectedHint": "مسله حل کړئ او خپل اسناد بیا لاندې وسپارئ."
+    },
+    "details": {
+      "communityName": "د ټولنې نوم",
+      "address": "پته",
+      "totalFlats": "ټول فلیټونه",
+      "totalBlocks": "ټول بلاکونه",
+      "type": "د سند ډول",
+      "number": "د سند شمیره",
+      "notes": "جزیات",
+      "file": "سند (PDF)",
+      "submittedAt": "سپارل شوی",
+      "reviewedAt": "بیاکتنه وشوه"
+    },
+    "documentTypes": {
+      "registrationCertificate": "د ټولنې د ثبت سند",
+      "ownershipProof": "د ملکیت ثبوت",
+      "governmentId": "د حکومت ID",
+      "other": "نور"
+    },
+    "form": {
+      "title": "اسناد وسپاري",
+      "resubmitTitle": "بیا اسناد وسپارئ",
+      "documentType": "د سند ډول",
+      "documentNumber": "د سند شمیره",
+      "details": "اضافي توضیحات (اختیاري)",
+      "file": "سند PDF",
+      "fileHint": "PDF یوازې، تر 5 MB پورې.",
+      "communitySection": "د ټولنې توضیحات",
+      "documentSection": "د تصدیق سند",
+      "communityName": "د ټولنې / ټولنې نوم",
+      "address": "پته",
+      "city": "ښار",
+      "state": "ریاست",
+      "pincode": "پنکوډ",
+      "totalFlats": "د فلیټونو ټول شمیر",
+      "totalBlocks": "د بلاکونو / برجونو شمیر (اختیاري)",
+      "fieldsRequired": "مهرباني وکړئ ټول اړین ځایونه ډک کړئ.",
+      "countInvalid": "فلیټونه او بلاکونه باید لږترلږه د 1 شمیر وي.",
+      "fileRequired": "مهرباني وکړئ یو PDF سند ضمیمه کړئ.",
+      "tooLarge": "فایل باید 5 MB یا کوچنی وي.",
+      "submit": "د تصدیق لپاره وسپارئ",
+      "submitting": "سپارل…",
+      "submitError": "نشي کولی خپل اسناد وسپاري. مهرباني وکړئ بیا هڅه وکړئ."
+    }
+  },
   "announcements": {
     "loadError": "اعلانونه نشي پورته کولی. مهرباني وکړئ بیا هڅه وکړئ.",
     "removeError": "دا اعلان ړنګ نه شو. مهرباني وکړئ بیا هڅه وکړئ.",

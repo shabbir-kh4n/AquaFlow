@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Pilih fail",
+    "change": "Tukar fail",
+    "none": "Tiada fail dipilih"
+  },
   "authModal": {
     "close": "tutup",
     "signUpTitle": "Daftar komuniti anda",
@@ -188,6 +193,7 @@
       "support": "Sokongan / Kebimbangan",
       "tariffPlans": "Pelan Tarif",
       "announcements": "Pengumuman",
+      "verification": "Pengesahan",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Pengumuman",
         "subtitle": "Terbitkan notis seluruh komuniti kepada penduduk anda."
       },
+      "verification": {
+        "title": "Pengesahan Dokumen",
+        "subtitle": "Serahkan dokumen anda supaya platform boleh mengesahkan komuniti anda."
+      },
       "profile": {
         "title": "Tetapan & Profil",
         "subtitle": "Urus butiran akaun dan maklumat pangsapuri anda."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Tersedia selepas komuniti anda disahkan",
+    "verifyBanner": "Komuniti anda belum disahkan lagi, jadi kebanyakan halaman dikunci.",
+    "verifyBannerLink": "Pergi ke Pengesahan",
     "fallbackCommunity": "Pentadbir Komuniti",
     "notBuilt": "{{label}} belum dibina lagi",
     "searchPlaceholder": "Cari apa sahaja…"

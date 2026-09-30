@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Wybierz plik",
+    "change": "Zmień plik",
+    "none": "Nie wybrano pliku"
+  },
   "authModal": {
     "close": "Zamknąć",
     "signUpTitle": "Zarejestruj swoją społeczność",
@@ -188,6 +193,7 @@
       "support": "Wsparcie / wątpliwości",
       "tariffPlans": "Plany taryfowe",
       "announcements": "Ogłoszenia",
+      "verification": "Weryfikacja",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ogłoszenia",
         "subtitle": "Publikuj powiadomienia dla mieszkańców całej społeczności."
       },
+      "verification": {
+        "title": "Weryfikacja dokumentu",
+        "subtitle": "Prześlij swoje dokumenty, aby platforma mogła zweryfikować Twoją społeczność."
+      },
       "profile": {
         "title": "Ustawienia i profil",
         "subtitle": "Zarządzaj danymi swojego konta i informacjami o apartamencie."
       }
     },
     "fallbackName": "Administrator",
+    "locked": "Dostępne po zweryfikowaniu Twojej społeczności",
+    "verifyBanner": "Twoja społeczność nie została jeszcze zweryfikowana, więc większość stron jest zablokowana.",
+    "verifyBannerLink": "Przejdź do Weryfikacja",
     "fallbackCommunity": "Administrator społeczności",
     "notBuilt": "{{label}} nie jest jeszcze zbudowany",
     "searchPlaceholder": "Szukaj czegokolwiek…"

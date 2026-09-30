@@ -4,6 +4,39 @@
     "blocked": "ถูกบล็อก",
     "terminated": "ยุติแล้ว"
   },
+  "verification": {
+    "title": "การตรวจสอบเอกสาร",
+    "status": {
+      "notSubmitted": "ไม่ได้ส่ง",
+      "pending": "รอการตรวจสอบ",
+      "approved": "ที่ได้รับการอนุมัติ",
+      "rejected": "ถูกปฏิเสธ"
+    },
+    "notSubmitted": "ผู้ดูแลระบบชุมชนนี้ยังไม่ได้ส่งเอกสารยืนยัน",
+    "communityName": "ชื่อชุมชน",
+    "address": "ที่อยู่",
+    "totalFlats": "แฟลตทั้งหมด",
+    "totalBlocks": "บล็อกทั้งหมด",
+    "documentType": "ประเภทเอกสาร",
+    "documentNumber": "หมายเลขเอกสาร",
+    "notes": "รายละเอียด",
+    "file": "เอกสาร (PDF)",
+    "submittedAt": "ส่งแล้ว",
+    "reviewedAt": "ตรวจสอบแล้ว",
+    "rejectionReason": "เหตุผลในการปฏิเสธ:",
+    "approve": "อนุมัติ",
+    "reject": "ปฏิเสธ",
+    "viewError": "ไม่สามารถเปิดเอกสารได้",
+    "approveError": "ไม่สามารถอนุมัติการยืนยันนี้ได้",
+    "rejectError": "ไม่สามารถปฏิเสธการยืนยันนี้ได้",
+    "reasonRequired": "โปรดให้เหตุผลในการปฏิเสธ",
+    "rejectDialog": {
+      "title": "ปฏิเสธการยืนยัน",
+      "message": "{{name}} จะเห็นเหตุผลที่คุณให้และสามารถส่งเอกสารใหม่ได้",
+      "reasonLabel": "เหตุผลในการปฏิเสธ",
+      "confirm": "ปฏิเสธ"
+    }
+  },
   "sort": {
     "sortBy": "เรียงตาม",
     "toggleDirection": "สลับทิศทางการจัดเรียง",
@@ -64,6 +97,7 @@
       "admin": "ผู้ดูแลระบบ",
       "email": "อีเมล",
       "status": "สถานะ",
+      "verification": "การยืนยัน",
       "residents": "ผู้อยู่อาศัย",
       "view": "ดู"
     }

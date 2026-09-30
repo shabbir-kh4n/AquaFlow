@@ -4,6 +4,39 @@
     "blocked": "ບລັອກ",
     "terminated": "ຢຸດເຊົາ"
   },
+  "verification": {
+    "title": "ການຢັ້ງຢືນເອກະສານ",
+    "status": {
+      "notSubmitted": "ບໍ່ໄດ້ສົ່ງ",
+      "pending": "ລໍຖ້າການກວດສອບ",
+      "approved": "ອະນຸມັດ",
+      "rejected": "ປະຕິເສດ"
+    },
+    "notSubmitted": "ຜູ້ເບິ່ງແຍງຊຸມຊົນນີ້ຍັງບໍ່ໄດ້ສົ່ງເອກະສານຢັ້ງຢືນເທື່ອ.",
+    "communityName": "ຊື່ຊຸມຊົນ",
+    "address": "ທີ່ຢູ່",
+    "totalFlats": "ຮາບພຽງທັງໝົດ",
+    "totalBlocks": "ທ່ອນໄມ້ທັງໝົດ",
+    "documentType": "ປະເພດເອກະສານ",
+    "documentNumber": "ໝາຍເລກເອກະສານ",
+    "notes": "ລາຍລະອຽດ",
+    "file": "ເອກະສານ (PDF)",
+    "submittedAt": "ສົ່ງແລ້ວ",
+    "reviewedAt": "ທົບທວນຄືນ",
+    "rejectionReason": "ເຫດຜົນສໍາລັບການປະຕິເສດ:",
+    "approve": "ອະນຸມັດ",
+    "reject": "ປະຕິເສດ",
+    "viewError": "ບໍ່ສາມາດເປີດເອກະສານໄດ້.",
+    "approveError": "ບໍ່ສາມາດອະນຸມັດການຢັ້ງຢືນນີ້ໄດ້.",
+    "rejectError": "ບໍ່ສາມາດປະຕິເສດການຢັ້ງຢືນນີ້ໄດ້.",
+    "reasonRequired": "ກະລຸນາໃຫ້ເຫດຜົນສໍາລັບການປະຕິເສດ.",
+    "rejectDialog": {
+      "title": "ປະຕິເສດການຢັ້ງຢືນ",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "ເຫດຜົນສໍາລັບການປະຕິເສດ",
+      "confirm": "ປະຕິເສດ"
+    }
+  },
   "sort": {
     "sortBy": "ຈັດຮຽງຕາມ",
     "toggleDirection": "ສະຫຼັບທິດທາງການຈັດຮຽງ",
@@ -64,6 +97,7 @@
       "admin": "ບໍລິຫານ",
       "email": "ອີເມວ",
       "status": "ສະຖານະ",
+      "verification": "ການຢັ້ງຢືນ",
       "residents": "ທີ່ຢູ່ອາໄສ",
       "view": "ເບິ່ງ"
     }

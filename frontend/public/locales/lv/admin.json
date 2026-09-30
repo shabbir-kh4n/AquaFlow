@@ -535,6 +535,68 @@
       "outstanding": "Izcili"
     }
   },
+  "verification": {
+    "loading": "Notiek verifikācijas ielāde…",
+    "loadError": "Nevarēja ielādēt jūsu verifikācijas statusu. Lūdzu, mēģiniet vēlreiz.",
+    "viewError": "Nevarēja atvērt dokumentu.",
+    "statusTitle": "Verifikācijas statuss",
+    "rejectionReason": "Atteikuma iemesls:",
+    "status": {
+      "notSubmitted": "Nav iesniegts",
+      "pending": "Gaida pārskatīšanu",
+      "approved": "Apstiprināts",
+      "rejected": "Noraidīts"
+    },
+    "messages": {
+      "notSubmitted": "Tālāk iesniedziet savas kopienas informāciju un dokumentus. Kamēr tie nav apstiprināti, varat izmantot tikai informācijas paneli, verifikācijas un profila lapas.",
+      "pending": "Jūsu dokumenti tiek izskatīti platformas administratoram. Kamēr tie nav apstiprināti, varat izmantot tikai informācijas paneli, verifikācijas un profila lapas.",
+      "approved": "Jūsu dokumenti ir pārbaudīti.",
+      "rejectedHint": "Novērsiet problēmu un vēlreiz iesniedziet dokumentus tālāk."
+    },
+    "details": {
+      "communityName": "Kopienas nosaukums",
+      "address": "Adrese",
+      "totalFlats": "Dzīvokļi kopā",
+      "totalBlocks": "Kopējie bloki",
+      "type": "Dokumenta veids",
+      "number": "Dokumenta numurs",
+      "notes": "Sīkāka informācija",
+      "file": "Dokuments (PDF)",
+      "submittedAt": "Iesniegts",
+      "reviewedAt": "Pārskatīts"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Biedrības reģistrācijas apliecība",
+      "ownershipProof": "Īpašuma īpašumtiesību pierādījums",
+      "governmentId": "Valsts iestādes ID",
+      "other": "Cits"
+    },
+    "form": {
+      "title": "Iesniedz dokumentus",
+      "resubmitTitle": "Iesniedziet dokumentus vēlreiz",
+      "documentType": "Dokumenta veids",
+      "documentNumber": "Dokumenta numurs",
+      "details": "Papildinformācija (pēc izvēles)",
+      "file": "Dokuments PDF",
+      "fileHint": "tikai PDF, līdz 5 MB.",
+      "communitySection": "Kopienas informācija",
+      "documentSection": "Pārbaudes dokuments",
+      "communityName": "Kopienas/sabiedrības nosaukums",
+      "address": "Adrese",
+      "city": "Pilsēta",
+      "state": "valsts",
+      "pincode": "Pinkods",
+      "totalFlats": "Kopējais dzīvokļu skaits",
+      "totalBlocks": "Bloku/torņu skaits (pēc izvēles)",
+      "fieldsRequired": "Lūdzu, aizpildiet visus obligātos laukus.",
+      "countInvalid": "Dzīvokļu un bloku skaitļiem jābūt vismaz 1.",
+      "fileRequired": "Lūdzu, pievienojiet PDF dokumentu.",
+      "tooLarge": "Faila lielumam ir jābūt 5 MB vai mazākam.",
+      "submit": "Iesniedziet pārbaudei",
+      "submitting": "Notiek iesniegšana…",
+      "submitError": "Nevarēja iesniegt dokumentus. Lūdzu, mēģiniet vēlreiz."
+    }
+  },
   "announcements": {
     "loadError": "Nevarēja ielādēt paziņojumus. Lūdzu, mēģiniet vēlreiz.",
     "removeError": "Šo paziņojumu nevarēja izdzēst. Lūdzu, mēģiniet vēlreiz.",

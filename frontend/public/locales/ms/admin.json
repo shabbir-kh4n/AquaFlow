@@ -535,6 +535,68 @@
       "outstanding": "Cemerlang"
     }
   },
+  "verification": {
+    "loading": "Memuatkan pengesahan…",
+    "loadError": "Tidak dapat memuatkan status pengesahan anda. Sila cuba lagi.",
+    "viewError": "Tidak dapat membuka dokumen.",
+    "statusTitle": "Status pengesahan",
+    "rejectionReason": "Sebab penolakan:",
+    "status": {
+      "notSubmitted": "Tidak diserahkan",
+      "pending": "Semakan belum selesai",
+      "approved": "Diluluskan",
+      "rejected": "ditolak"
+    },
+    "messages": {
+      "notSubmitted": "Serahkan butiran dan dokumen komuniti anda di bawah. Sehingga mereka diluluskan, anda hanya boleh menggunakan halaman Papan Pemuka, Pengesahan dan Profil.",
+      "pending": "Dokumen anda bersama pentadbir platform untuk semakan. Sehingga mereka diluluskan, anda hanya boleh menggunakan halaman Papan Pemuka, Pengesahan dan Profil.",
+      "approved": "Dokumen anda telah disahkan.",
+      "rejectedHint": "Selesaikan isu dan serahkan dokumen anda sekali lagi di bawah."
+    },
+    "details": {
+      "communityName": "Nama komuniti",
+      "address": "Alamat",
+      "totalFlats": "Jumlah flat",
+      "totalBlocks": "Jumlah blok",
+      "type": "Jenis dokumen",
+      "number": "Nombor dokumen",
+      "notes": "Butiran",
+      "file": "Dokumen (PDF)",
+      "submittedAt": "diserahkan",
+      "reviewedAt": "Disemak"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Sijil pendaftaran persatuan",
+      "ownershipProof": "Bukti pemilikan hartanah",
+      "governmentId": "ID Kerajaan",
+      "other": "Lain-lain"
+    },
+    "form": {
+      "title": "Serahkan dokumen",
+      "resubmitTitle": "Hantar dokumen sekali lagi",
+      "documentType": "Jenis dokumen",
+      "documentNumber": "Nombor dokumen",
+      "details": "Butiran tambahan (pilihan)",
+      "file": "Dokumen PDF",
+      "fileHint": "PDF sahaja, sehingga 5 MB.",
+      "communitySection": "Butiran komuniti",
+      "documentSection": "Dokumen pengesahan",
+      "communityName": "Nama komuniti / masyarakat",
+      "address": "Alamat",
+      "city": "Bandar",
+      "state": "negeri",
+      "pincode": "Kod pin",
+      "totalFlats": "Jumlah bilangan flat",
+      "totalBlocks": "Bilangan blok / menara (pilihan)",
+      "fieldsRequired": "Sila isi semua medan yang diperlukan.",
+      "countInvalid": "Rumah pangsa dan blok mestilah nombor sekurang-kurangnya 1.",
+      "fileRequired": "Sila lampirkan dokumen PDF.",
+      "tooLarge": "Fail mestilah 5 MB atau lebih kecil.",
+      "submit": "Serahkan untuk pengesahan",
+      "submitting": "Menyerahkan…",
+      "submitError": "Tidak dapat menyerahkan dokumen anda. Sila cuba lagi."
+    }
+  },
   "announcements": {
     "loadError": "Tidak dapat memuatkan pengumuman. Sila cuba lagi.",
     "removeError": "Tidak dapat memadamkan pengumuman ini. Sila cuba lagi.",

@@ -535,6 +535,68 @@
       "outstanding": "Pendenti"
     }
   },
+  "verification": {
+    "loading": "Tagħbija l-verifika...",
+    "loadError": "Ma setgħetx tagħbija l-istatus tal-verifika tiegħek. Jekk jogħġbok erġa' pprova.",
+    "viewError": "Ma setax jiftaħ id-dokument.",
+    "statusTitle": "Status ta' verifika",
+    "rejectionReason": "Raġuni għaċ-ċaħda:",
+    "status": {
+      "notSubmitted": "Mhux sottomess",
+      "pending": "Pendenti reviżjoni",
+      "approved": "Approvat",
+      "rejected": "Miċħuda"
+    },
+    "messages": {
+      "notSubmitted": "Ibgħat id-dettalji u d-dokumenti tal-komunità tiegħek hawn taħt. Sakemm jiġu approvati tista' tuża biss il-paġni Dashboard, Verifika u Profil.",
+      "pending": "Id-dokumenti tiegħek huma ma' amministratur tal-pjattaforma għal reviżjoni. Sakemm jiġu approvati tista' tuża biss il-paġni Dashboard, Verifika u Profil.",
+      "approved": "Id-dokumenti tiegħek ġew verifikati.",
+      "rejectedHint": "Irranġa l-kwistjoni u erġa ibgħat id-dokumenti tiegħek hawn taħt."
+    },
+    "details": {
+      "communityName": "Isem tal-Komunità",
+      "address": "Indirizz",
+      "totalFlats": "Flats totali",
+      "totalBlocks": "Blokki totali",
+      "type": "Tip ta' dokument",
+      "number": "Numru tad-dokument",
+      "notes": "Dettalji",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Sottomessi",
+      "reviewedAt": "Riveduta"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Ċertifikat ta' reġistrazzjoni tas-soċjetà",
+      "ownershipProof": "Prova ta' sjieda ta' proprjetà",
+      "governmentId": "ID tal-Gvern",
+      "other": "Oħrajn"
+    },
+    "form": {
+      "title": "Ibgħat dokumenti",
+      "resubmitTitle": "Issottometti dokumenti mill-ġdid",
+      "documentType": "Tip ta' dokument",
+      "documentNumber": "Numru tad-dokument",
+      "details": "Dettalji addizzjonali (mhux obbligatorju)",
+      "file": "Dokument PDF",
+      "fileHint": "PDF biss, sa 5 MB.",
+      "communitySection": "Dettalji tal-Komunità",
+      "documentSection": "Dokument ta' verifika",
+      "communityName": "Isem tal-komunità/soċjetà",
+      "address": "Indirizz",
+      "city": "Belt",
+      "state": "Stat",
+      "pincode": "Pincode",
+      "totalFlats": "Numru totali ta' appartamenti",
+      "totalBlocks": "Numru ta' blokki / torrijiet (mhux obbligatorju)",
+      "fieldsRequired": "Jekk jogħġbok imla l-oqsma kollha meħtieġa.",
+      "countInvalid": "Flats u blokki għandhom ikunu numri ta' mill-inqas 1.",
+      "fileRequired": "Jekk jogħġbok ehmeż dokument PDF.",
+      "tooLarge": "Il-fajl għandu jkun 5 MB jew iżgħar.",
+      "submit": "Issottometti għall-verifika",
+      "submitting": "Tissottometti...",
+      "submitError": "Ma setgħetx tissottometti d-dokumenti tiegħek. Jekk jogħġbok erġa' pprova."
+    }
+  },
   "announcements": {
     "loadError": "Ma setgħetx tagħbija avviżi. Jekk jogħġbok erġa' pprova.",
     "removeError": "Ma setgħetx tħassar din l-aħbar. Jekk jogħġbok erġa' pprova.",

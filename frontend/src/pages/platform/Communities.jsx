@@ -4,8 +4,16 @@ import { useTranslation } from 'react-i18next'
 import { listCommunities } from '../../api/platformApi'
 import Avatar from '../../components/Avatar'
 import './Communities.css'
+import './CommunityVerification.css'
 
 const PAGE_SIZE = 10
+
+const VERIFICATION_STATUS_KEYS = {
+  NOT_SUBMITTED: 'verification.status.notSubmitted',
+  PENDING: 'verification.status.pending',
+  APPROVED: 'verification.status.approved',
+  REJECTED: 'verification.status.rejected',
+}
 
 const SORT_OPTIONS = [
   { value: 'apartmentName', label: 'communities.sortOptions.community' },
@@ -144,6 +152,7 @@ function Communities() {
                 <th>{t('communities.table.admin')}</th>
                 <th>{t('communities.table.email')}</th>
                 <th>{t('communities.table.status')}</th>
+                <th>{t('communities.table.verification')}</th>
                 <th>{t('communities.table.residents')}</th>
                 <th></th>
               </tr>
@@ -172,6 +181,11 @@ function Communities() {
                   <td>
                     <span className={`af-comm__badge af-comm__badge--${c.status.toLowerCase()}`}>
                       {STATUS_KEYS[c.status] ? t(STATUS_KEYS[c.status]) : c.status}
+                    </span>
+                  </td>
+                  <td>
+                    <span className={`af-cd__vbadge af-cd__vbadge--${(c.verificationStatus || 'NOT_SUBMITTED').toLowerCase().replace('_', '-')}`}>
+                      {t(VERIFICATION_STATUS_KEYS[c.verificationStatus] || VERIFICATION_STATUS_KEYS.NOT_SUBMITTED)}
                     </span>
                   </td>
                   <td>{c.residentCount}</td>

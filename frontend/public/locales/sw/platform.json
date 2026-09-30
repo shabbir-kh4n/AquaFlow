@@ -4,6 +4,39 @@
     "blocked": "Imezuiwa",
     "terminated": "Imekatishwa"
   },
+  "verification": {
+    "title": "Uthibitishaji wa Hati",
+    "status": {
+      "notSubmitted": "Haijawasilishwa",
+      "pending": "Inasubiri ukaguzi",
+      "approved": "Imeidhinishwa",
+      "rejected": "Imekataliwa"
+    },
+    "notSubmitted": "Msimamizi huyu wa jumuiya bado hajawasilisha hati za uthibitishaji.",
+    "communityName": "Jina la jumuiya",
+    "address": "Anwani",
+    "totalFlats": "Jumla ya magorofa",
+    "totalBlocks": "Jumla ya vizuizi",
+    "documentType": "Aina ya hati",
+    "documentNumber": "Nambari ya hati",
+    "notes": "Maelezo",
+    "file": "Hati (PDF)",
+    "submittedAt": "Imewasilishwa",
+    "reviewedAt": "Imekaguliwa",
+    "rejectionReason": "Sababu ya kukataliwa:",
+    "approve": "Idhinisha",
+    "reject": "Kataa",
+    "viewError": "Haikuweza kufungua hati.",
+    "approveError": "Haikuweza kuidhinisha uthibitishaji huu.",
+    "rejectError": "Haikuweza kukataa uthibitishaji huu.",
+    "reasonRequired": "Tafadhali toa sababu ya kukataa.",
+    "rejectDialog": {
+      "title": "Kataa uthibitishaji",
+      "message": "{{name}} ataona sababu uliyotoa na anaweza kuwasilisha hati mpya.",
+      "reasonLabel": "Sababu ya kukataliwa",
+      "confirm": "Kataa"
+    }
+  },
   "sort": {
     "sortBy": "Panga kwa",
     "toggleDirection": "Geuza mwelekeo wa kupanga",
@@ -64,6 +97,7 @@
       "admin": "Msimamizi",
       "email": "Barua pepe",
       "status": "Hali",
+      "verification": "Uthibitishaji",
       "residents": "Wakazi",
       "view": "Tazama"
     }

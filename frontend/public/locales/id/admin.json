@@ -535,6 +535,68 @@
       "outstanding": "Luar biasa"
     }
   },
+  "verification": {
+    "loading": "Memuat verifikasi…",
+    "loadError": "Tidak dapat memuat status verifikasi Anda. Silakan coba lagi.",
+    "viewError": "Tidak dapat membuka dokumen.",
+    "statusTitle": "Status verifikasi",
+    "rejectionReason": "Alasan penolakan:",
+    "status": {
+      "notSubmitted": "Tidak diserahkan",
+      "pending": "Peninjauan tertunda",
+      "approved": "Disetujui",
+      "rejected": "Ditolak"
+    },
+    "messages": {
+      "notSubmitted": "Kirimkan detail dan dokumen komunitas Anda di bawah. Sampai disetujui Anda hanya dapat menggunakan halaman Dasbor, Verifikasi, dan Profil.",
+      "pending": "Dokumen Anda berada pada administrator platform untuk ditinjau. Sampai disetujui Anda hanya dapat menggunakan halaman Dasbor, Verifikasi, dan Profil.",
+      "approved": "Dokumen Anda telah diverifikasi.",
+      "rejectedHint": "Perbaiki masalahnya dan kirimkan kembali dokumen Anda di bawah."
+    },
+    "details": {
+      "communityName": "Nama komunitas",
+      "address": "Alamat",
+      "totalFlats": "Total flat",
+      "totalBlocks": "Jumlah blok",
+      "type": "Jenis dokumen",
+      "number": "Nomor dokumen",
+      "notes": "Detail",
+      "file": "Dokumen (PDF)",
+      "submittedAt": "Dikirim",
+      "reviewedAt": "Ditinjau"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Sertifikat pendaftaran masyarakat",
+      "ownershipProof": "Bukti kepemilikan properti",
+      "governmentId": "tanda pengenal pemerintah",
+      "other": "Lainnya"
+    },
+    "form": {
+      "title": "Kirim dokumen",
+      "resubmitTitle": "Kirim dokumen lagi",
+      "documentType": "Jenis dokumen",
+      "documentNumber": "Nomor dokumen",
+      "details": "Detail tambahan (opsional)",
+      "file": "Dokumen PDF",
+      "fileHint": "PDF saja, hingga 5 MB.",
+      "communitySection": "Detail komunitas",
+      "documentSection": "Dokumen verifikasi",
+      "communityName": "Nama komunitas/masyarakat",
+      "address": "Alamat",
+      "city": "Kota",
+      "state": "Negara",
+      "pincode": "Kode PIN",
+      "totalFlats": "Jumlah total rumah susun",
+      "totalBlocks": "Jumlah blok/menara (opsional)",
+      "fieldsRequired": "Silakan isi semua bidang yang diperlukan.",
+      "countInvalid": "Rumah susun dan blok harus berjumlah minimal 1.",
+      "fileRequired": "Harap lampirkan dokumen PDF.",
+      "tooLarge": "File harus berukuran 5 MB atau lebih kecil.",
+      "submit": "Kirim untuk verifikasi",
+      "submitting": "Mengirimkan…",
+      "submitError": "Tidak dapat mengirimkan dokumen Anda. Silakan coba lagi."
+    }
+  },
   "announcements": {
     "loadError": "Tidak dapat memuat pengumuman. Silakan coba lagi.",
     "removeError": "Tidak dapat menghapus pengumuman ini. Silakan coba lagi.",

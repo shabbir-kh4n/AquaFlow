@@ -4,6 +4,39 @@
     "blocked": "બ્લૉક કરેલ",
     "terminated": "બંધ કરેલ"
   },
+  "verification": {
+    "title": "દસ્તાવેજ ચકાસણી",
+    "status": {
+      "notSubmitted": "સબમિટ કરેલ નથી",
+      "pending": "બાકી સમીક્ષા",
+      "approved": "મંજૂર",
+      "rejected": "ફગાવી દીધી"
+    },
+    "notSubmitted": "આ સમુદાય વ્યવસ્થાપકે હજુ સુધી ચકાસણી દસ્તાવેજો સબમિટ કર્યા નથી.",
+    "communityName": "સમુદાયનું નામ",
+    "address": "સરનામું",
+    "totalFlats": "કુલ ફ્લેટ",
+    "totalBlocks": "કુલ બ્લોક્સ",
+    "documentType": "દસ્તાવેજનો પ્રકાર",
+    "documentNumber": "દસ્તાવેજ નંબર",
+    "notes": "વિગતો",
+    "file": "દસ્તાવેજ (PDF)",
+    "submittedAt": "સબમિટ કર્યું",
+    "reviewedAt": "સમીક્ષા કરી",
+    "rejectionReason": "અસ્વીકાર માટેનું કારણ:",
+    "approve": "મંજૂર",
+    "reject": "અસ્વીકાર કરો",
+    "viewError": "દસ્તાવેજ ખોલી શકાયો નથી.",
+    "approveError": "આ ચકાસણી મંજૂર કરી શકાઈ નથી.",
+    "rejectError": "આ ચકાસણીને નકારી શકાઈ નથી.",
+    "reasonRequired": "મહેરબાની કરીને નામંજૂર કરવા માટેનું કારણ આપો.",
+    "rejectDialog": {
+      "title": "ચકાસણી નકારો",
+      "message": "{{name}} તમે જે કારણ આપો છો તે જોશે અને નવા દસ્તાવેજો સબમિટ કરી શકશે.",
+      "reasonLabel": "અસ્વીકાર માટેનું કારણ",
+      "confirm": "અસ્વીકાર કરો"
+    }
+  },
   "sort": {
     "sortBy": "ક્રમબદ્ધ કરો",
     "toggleDirection": "ક્રમની દિશા બદલો",
@@ -64,6 +97,7 @@
       "admin": "એડમિન",
       "email": "ઇમેઇલ",
       "status": "સ્થિતિ",
+      "verification": "ચકાસણી",
       "residents": "રહેવાસીઓ",
       "view": "જુઓ"
     }

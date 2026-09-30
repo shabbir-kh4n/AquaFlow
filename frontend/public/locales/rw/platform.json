@@ -4,6 +4,39 @@
     "blocked": "Yahagaritswe",
     "terminated": "Byarangiye"
   },
+  "verification": {
+    "title": "Kugenzura Inyandiko",
+    "status": {
+      "notSubmitted": "Ntabwo yatanzwe",
+      "pending": "Mu gihe hagitegerejwe gusubirwamo",
+      "approved": "Byemejwe",
+      "rejected": "Yanze"
+    },
+    "notSubmitted": "Uyu muturage wumuganda ntabwo yatanze ibyangombwa byo kugenzura.",
+    "communityName": "Izina ryabaturage",
+    "address": "Aderesi",
+    "totalFlats": "Amazu yose",
+    "totalBlocks": "Inzitizi zose",
+    "documentType": "Ubwoko bw'inyandiko",
+    "documentNumber": "Inomero yinyandiko",
+    "notes": "Ibisobanuro",
+    "file": "Inyandiko (PDF)",
+    "submittedAt": "Yatanzwe",
+    "reviewedAt": "Yasubiwemo",
+    "rejectionReason": "Impamvu yo kwangwa:",
+    "approve": "Emeza",
+    "reject": "Wange",
+    "viewError": "Ntushobora gufungura inyandiko.",
+    "approveError": "Ntushobora kwemeza iri genzura.",
+    "rejectError": "Ntushobora kwanga iri genzura.",
+    "reasonRequired": "Nyamuneka tanga impamvu yo kwanga.",
+    "rejectDialog": {
+      "title": "Wange kugenzura",
+      "message": "{{name}} azabona impamvu utanga kandi ushobora gutanga inyandiko nshya.",
+      "reasonLabel": "Impamvu yo kwangwa",
+      "confirm": "Wange"
+    }
+  },
   "sort": {
     "sortBy": "Gutondekanya na",
     "toggleDirection": "Hindura icyerekezo",
@@ -64,6 +97,7 @@
       "admin": "Umuyobozi",
       "email": "Imeri",
       "status": "Imiterere",
+      "verification": "Kugenzura",
       "residents": "Abaturage",
       "view": "Reba"
     }

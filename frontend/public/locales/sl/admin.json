@@ -535,6 +535,68 @@
       "outstanding": "Izjemno"
     }
   },
+  "verification": {
+    "loading": "Nalaganje preverjanja ...",
+    "loadError": "Vašega stanja preverjanja ni bilo mogoče naložiti. prosim poskusite ponovno",
+    "viewError": "Dokumenta ni bilo mogoče odpreti.",
+    "statusTitle": "Stanje preverjanja",
+    "rejectionReason": "Razlog za zavrnitev:",
+    "status": {
+      "notSubmitted": "Ni predloženo",
+      "pending": "Čaka na pregled",
+      "approved": "Odobreno",
+      "rejected": "Zavrnjeno"
+    },
+    "messages": {
+      "notSubmitted": "Spodaj pošljite podrobnosti in dokumente svoje skupnosti. Dokler niso odobreni, lahko uporabljate samo strani Nadzorna plošča, Preverjanje in Profil.",
+      "pending": "Vaši dokumenti so v pregled pri skrbniku platforme. Dokler niso odobreni, lahko uporabljate samo strani Nadzorna plošča, Preverjanje in Profil.",
+      "approved": "Vaši dokumenti so bili preverjeni.",
+      "rejectedHint": "Odpravite težavo in spodaj znova pošljite dokumente."
+    },
+    "details": {
+      "communityName": "Ime skupnosti",
+      "address": "Naslov",
+      "totalFlats": "Skupaj stanovanj",
+      "totalBlocks": "Skupno število blokov",
+      "type": "Vrsta dokumenta",
+      "number": "Številka dokumenta",
+      "notes": "Podrobnosti",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Oddano",
+      "reviewedAt": "Pregledano"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Potrdilo o registraciji društva",
+      "ownershipProof": "Dokazilo o lastništvu nepremičnine",
+      "governmentId": "Državna izkaznica",
+      "other": "drugo"
+    },
+    "form": {
+      "title": "Predloži dokumente",
+      "resubmitTitle": "Ponovno oddajte dokumente",
+      "documentType": "Vrsta dokumenta",
+      "documentNumber": "Številka dokumenta",
+      "details": "Dodatne podrobnosti (neobvezno)",
+      "file": "Dokument PDF",
+      "fileHint": "Samo PDF, do 5 MB.",
+      "communitySection": "podrobnosti skupnosti",
+      "documentSection": "Dokument za preverjanje",
+      "communityName": "Ime skupnosti/društva",
+      "address": "Naslov",
+      "city": "Mesto",
+      "state": "Država",
+      "pincode": "PIN koda",
+      "totalFlats": "Skupno število stanovanj",
+      "totalBlocks": "Število blokov / stolpov (neobvezno)",
+      "fieldsRequired": "Prosimo izpolnite vsa zahtevana polja.",
+      "countInvalid": "Stanovanja in bloki morajo biti oštevilčeni vsaj z 1.",
+      "fileRequired": "Priložite PDF dokument.",
+      "tooLarge": "Datoteka mora biti velika 5 MB ali manjša.",
+      "submit": "Predloži v preverjanje",
+      "submitting": "Pošiljanje ...",
+      "submitError": "Vaših dokumentov ni bilo mogoče oddati. prosim poskusite ponovno"
+    }
+  },
   "announcements": {
     "loadError": "Obvestil ni bilo mogoče naložiti. prosim poskusite ponovno",
     "removeError": "Te objave ni bilo mogoče izbrisati. prosim poskusite ponovno",

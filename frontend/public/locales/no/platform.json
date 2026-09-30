@@ -4,6 +4,39 @@
     "blocked": "Blokkert",
     "terminated": "Avsluttet"
   },
+  "verification": {
+    "title": "Dokumentverifisering",
+    "status": {
+      "notSubmitted": "Ikke sendt inn",
+      "pending": "Venter på vurdering",
+      "approved": "Godkjent",
+      "rejected": "Avvist"
+    },
+    "notSubmitted": "Denne fellesskapsadministratoren har ikke sendt inn bekreftelsesdokumenter ennå.",
+    "communityName": "Fellesskapsnavn",
+    "address": "Adresse",
+    "totalFlats": "Totalt leiligheter",
+    "totalBlocks": "Totale blokker",
+    "documentType": "Dokumenttype",
+    "documentNumber": "Dokumentnummer",
+    "notes": "Detaljer",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Sendt inn",
+    "reviewedAt": "Anmeldt",
+    "rejectionReason": "Årsak til avvisning:",
+    "approve": "Vedta",
+    "reject": "Avvis",
+    "viewError": "Kunne ikke åpne dokumentet.",
+    "approveError": "Kunne ikke godkjenne denne bekreftelsen.",
+    "rejectError": "Kunne ikke avvise denne bekreftelsen.",
+    "reasonRequired": "Gi en begrunnelse for å avvise.",
+    "rejectDialog": {
+      "title": "Avvis bekreftelse",
+      "message": "{{name}} vil se grunnen du oppgir og kan sende inn nye dokumenter.",
+      "reasonLabel": "Årsak til avslag",
+      "confirm": "Avvis"
+    }
+  },
   "sort": {
     "sortBy": "Sorter etter",
     "toggleDirection": "Veksle sorteringsretning",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-post",
       "status": "Status",
+      "verification": "Bekreftelse",
       "residents": "Beboere",
       "view": "Utsikt"
     }

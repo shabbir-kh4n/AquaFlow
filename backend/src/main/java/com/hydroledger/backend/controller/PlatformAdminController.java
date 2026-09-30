@@ -19,6 +19,9 @@ import com.hydroledger.backend.dto.CommunitySummaryResponse;
 import com.hydroledger.backend.dto.PlatformReportResponse;
 import com.hydroledger.backend.dto.SystemMetricsResponse;
 import com.hydroledger.backend.dto.SystemStatusResponse;
+import com.hydroledger.backend.dto.VerificationRejectRequest;
+import com.hydroledger.backend.dto.VerificationResponse;
+import com.hydroledger.backend.service.AdminVerificationService;
 import com.hydroledger.backend.service.PlatformReportService;
 import com.hydroledger.backend.service.SystemAdminService;
 import com.hydroledger.backend.service.SystemMetricsService;
@@ -35,6 +38,7 @@ public class PlatformAdminController {
     private final SystemAdminService systemAdminService;
     private final SystemMetricsService systemMetricsService;
     private final PlatformReportService platformReportService;
+    private final AdminVerificationService adminVerificationService;
 
     @GetMapping("/communities")
     public ResponseEntity<List<CommunitySummaryResponse>> listCommunities() {
@@ -57,6 +61,27 @@ public class PlatformAdminController {
     public ResponseEntity<Void> deleteCommunity(@PathVariable Long adminId) {
         systemAdminService.deleteCommunityAdmin(adminId);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping("/communities/{adminId}/verification")
+    public ResponseEntity<VerificationResponse> getVerification(@PathVariable Long adminId) {
+        return ResponseEntity.ok(adminVerificationService.getForAdmin(adminId));
+    }
+
+    @GetMapping("/communities/{adminId}/verification/document")
+    public ResponseEntity<byte[]> getVerificationDocument(@PathVariable Long adminId) {
+        return AdminVerificationController.pdf(adminVerificationService.getDocumentForAdmin(adminId));
+    }
+
+    @PutMapping("/communities/{adminId}/verification/approve")
+    public ResponseEntity<VerificationResponse> approveVerification(@PathVariable Long adminId) {
+        return ResponseEntity.ok(adminVerificationService.approve(adminId));
+    }
+
+    @PutMapping("/communities/{adminId}/verification/reject")
+    public ResponseEntity<VerificationResponse> rejectVerification(@PathVariable Long adminId,
+            @Valid @RequestBody VerificationRejectRequest request) {
+        return ResponseEntity.ok(adminVerificationService.reject(adminId, request.reason()));
     }
 
     @GetMapping("/system-status")

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Elektu dosieron",
+    "change": "Ŝanĝi dosieron",
+    "none": "Neniu dosiero elektita"
+  },
   "authModal": {
     "close": "Fermu",
     "signUpTitle": "Registri vian komunumon",
@@ -188,6 +193,7 @@
       "support": "Subteno / Zorgoj",
       "tariffPlans": "Tarifaj Planoj",
       "announcements": "Anoncoj",
+      "verification": "Konfirmo",
       "profile": "Profilo"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Anoncoj",
         "subtitle": "Publikigi tutkomunumajn avizojn al viaj loĝantoj."
       },
+      "verification": {
+        "title": "Dokumenta Kontrolo",
+        "subtitle": "Sendu viajn dokumentojn por ke la platformo povu kontroli vian komunumon."
+      },
       "profile": {
         "title": "Agordoj & Profilo",
         "subtitle": "Administri viajn kontajn detalojn kaj apartamentojn."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Disponebla post kiam via komunumo estas kontrolita",
+    "verifyBanner": "Via komunumo ankoraŭ ne estas kontrolita, do plej multaj paĝoj estas ŝlositaj.",
+    "verifyBannerLink": "Iru al Konfirmo",
     "fallbackCommunity": "Komunuma Administranto",
     "notBuilt": "{{label}} ankoraŭ ne estas konstruita",
     "searchPlaceholder": "Serĉu ion ajn..."

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Roghnaigh comhad",
+    "change": "Athraigh an comhad",
+    "none": "Níor roghnaíodh aon chomhad"
+  },
   "authModal": {
     "close": "Dún",
     "signUpTitle": "Cláraigh do phobal",
@@ -188,6 +193,7 @@
       "support": "Tacaíocht / Imní",
       "tariffPlans": "Pleananna Taraife",
       "announcements": "Fógraí",
+      "verification": "Fíorú",
       "profile": "Próifíl"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Fógraí",
         "subtitle": "Foilsigh fógraí ar fud an phobail do do chónaitheoirí."
       },
+      "verification": {
+        "title": "Fíorú Doiciméid",
+        "subtitle": "Cuir isteach do dhoiciméid ionas gur féidir leis an ardán do phobal a fhíorú."
+      },
       "profile": {
         "title": "Socruithe & Próifíl",
         "subtitle": "Bainistigh do shonraí cuntais agus faisnéis árasán."
       }
     },
     "fallbackName": "Riarachán",
+    "locked": "Ar fáil tar éis do phobal a fhíorú",
+    "verifyBanner": "Níl do phobal fíoraithe fós, mar sin tá formhór na leathanach glasáilte.",
+    "verifyBannerLink": "Téigh go Fíorú",
     "fallbackCommunity": "Riarachán Pobail",
     "notBuilt": "{{label}} nach bhfuil tógtha fós",
     "searchPlaceholder": "Cuardaigh rud ar bith…"

@@ -4,6 +4,39 @@
     "blocked": "Blockéiert",
     "terminated": "Ofgeschloss"
   },
+  "verification": {
+    "title": "Dokument Verifikatioun",
+    "status": {
+      "notSubmitted": "Net presentéiert",
+      "pending": "Erwaardung iwwerpréiwen",
+      "approved": "Genehmegt",
+      "rejected": "Refuséiert"
+    },
+    "notSubmitted": "Dëse Gemeinschaftsadministrator huet nach keng Verifizéierungsdokumenter ofginn.",
+    "communityName": "Gemeinschaft Numm",
+    "address": "Adress",
+    "totalFlats": "Ganzen Appartementer",
+    "totalBlocks": "Total Blocks",
+    "documentType": "Dokument Typ",
+    "documentNumber": "Dokument Zuel",
+    "notes": "Detailer",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Erlaabt",
+    "reviewedAt": "Iwwerpréift",
+    "rejectionReason": "Grond fir Oflehnung:",
+    "approve": "Zoustëmmen",
+    "reject": "Refuséieren",
+    "viewError": "Konnt d'Dokument net opmaachen.",
+    "approveError": "Konnt dës Verifizéierung net stëmmen.",
+    "rejectError": "Konnt dës Verifizéierung net refuséieren.",
+    "reasonRequired": "Gitt weg e Grond fir ze refuséieren.",
+    "rejectDialog": {
+      "title": "Verifizéierung refuséieren",
+      "message": "{{name}} wäert de Grond gesinn, deen Dir gitt a kënnt nei Dokumenter ofginn.",
+      "reasonLabel": "Grond fir Ofleenung",
+      "confirm": "Refuséieren"
+    }
+  },
   "sort": {
     "sortBy": "Sortéieren no",
     "toggleDirection": "Toggle Zort Richtung",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-Mail",
       "status": "Status",
+      "verification": "Verifikatioun",
       "residents": "Awunner",
       "view": "Vue"
     }

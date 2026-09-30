@@ -32,6 +32,7 @@ import com.hydroledger.backend.entity.Household;
 import com.hydroledger.backend.entity.Resident;
 import com.hydroledger.backend.entity.WaterMeter;
 import com.hydroledger.backend.exception.ApiException;
+import com.hydroledger.backend.repository.AdminVerificationRepository;
 import com.hydroledger.backend.repository.AlertConfigRepository;
 import com.hydroledger.backend.repository.AnnouncementRepository;
 import com.hydroledger.backend.repository.ApartmentRepository;
@@ -78,6 +79,9 @@ class SystemAdminServiceTests {
 
     @Mock
     private TariffPlanRepository tariffPlanRepository;
+
+    @Mock
+    private AdminVerificationRepository adminVerificationRepository;
 
     @Mock
     private CommonAreaConfigRepository commonAreaConfigRepository;

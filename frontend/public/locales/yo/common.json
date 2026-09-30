@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Yan faili",
+    "change": "Yi faili pada",
+    "none": "Ko si faili ti o yan"
+  },
   "authModal": {
     "close": "Sunmọ",
     "signUpTitle": "Forukọsilẹ agbegbe rẹ",
@@ -188,6 +193,7 @@
       "support": "Atilẹyin / Awọn ifiyesi",
       "tariffPlans": "Awọn Eto owo idiyele",
       "announcements": "Awọn ikede",
+      "verification": "Ijerisi",
       "profile": "Profaili"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Awọn ikede",
         "subtitle": "Ṣe atẹjade awọn akiyesi jakejado agbegbe si awọn olugbe rẹ."
       },
+      "verification": {
+        "title": "Ijẹrisi iwe-aṣẹ",
+        "subtitle": "Fi awọn iwe aṣẹ rẹ silẹ ki pẹpẹ le rii daju agbegbe rẹ."
+      },
       "profile": {
         "title": "Eto & Profaili",
         "subtitle": "Ṣakoso awọn alaye akọọlẹ rẹ ati alaye iyẹwu."
       }
     },
     "fallbackName": "Abojuto",
+    "locked": "Wa lẹhin agbegbe rẹ ti jẹri",
+    "verifyBanner": "Agbegbe rẹ ko tii jẹrisi sibẹsibẹ, nitoribẹẹ ọpọlọpọ awọn oju-iwe ti wa ni titiipa.",
+    "verifyBannerLink": "Lọ si Ijeri",
     "fallbackCommunity": "Abojuto Agbegbe",
     "notBuilt": "{{label}} ko tii kọ",
     "searchPlaceholder": "Wa ohunkohun…"

@@ -4,6 +4,39 @@
     "blocked": "Diblokir",
     "terminated": "Dihentikan"
   },
+  "verification": {
+    "title": "Verifikasi Dokumen",
+    "status": {
+      "notSubmitted": "Tidak diserahkan",
+      "pending": "Peninjauan tertunda",
+      "approved": "Disetujui",
+      "rejected": "Ditolak"
+    },
+    "notSubmitted": "Admin komunitas ini belum mengirimkan dokumen verifikasi.",
+    "communityName": "Nama komunitas",
+    "address": "Alamat",
+    "totalFlats": "Total flat",
+    "totalBlocks": "Jumlah blok",
+    "documentType": "Jenis dokumen",
+    "documentNumber": "Nomor dokumen",
+    "notes": "Detail",
+    "file": "Dokumen (PDF)",
+    "submittedAt": "Dikirim",
+    "reviewedAt": "Ditinjau",
+    "rejectionReason": "Alasan penolakan:",
+    "approve": "Menyetujui",
+    "reject": "Menolak",
+    "viewError": "Tidak dapat membuka dokumen.",
+    "approveError": "Tidak dapat menyetujui verifikasi ini.",
+    "rejectError": "Tidak dapat menolak verifikasi ini.",
+    "reasonRequired": "Tolong berikan alasan penolakannya.",
+    "rejectDialog": {
+      "title": "Tolak verifikasi",
+      "message": "{{name}} akan melihat alasan yang Anda berikan dan dapat mengirimkan dokumen baru.",
+      "reasonLabel": "Alasan penolakan",
+      "confirm": "Menolak"
+    }
+  },
   "sort": {
     "sortBy": "Urutkan berdasarkan",
     "toggleDirection": "Alihkan arah pengurutan",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Verifikasi",
       "residents": "Penduduk",
       "view": "Melihat"
     }

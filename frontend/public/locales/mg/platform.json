@@ -4,6 +4,39 @@
     "blocked": "voasakana",
     "terminated": "faranana"
   },
+  "verification": {
+    "title": "Fanamarinana ny antontan-taratasy",
+    "status": {
+      "notSubmitted": "Tsy natolotra",
+      "pending": "Miandry famerenana",
+      "approved": "nankatoavina",
+      "rejected": "TSY"
+    },
+    "notSubmitted": "Ity admin vondrom-piarahamonina ity dia tsy mbola nandefa antontan-taratasy fanamarinana.",
+    "communityName": "Anaran'ny fiaraha-monina",
+    "address": "Adiresy",
+    "totalFlats": "Total trano",
+    "totalBlocks": "Total blocks",
+    "documentType": "Karazana antontan-taratasy",
+    "documentNumber": "Laharan'ny antontan-taratasy",
+    "notes": "tsipiriany",
+    "file": "Taratasy (PDF)",
+    "submittedAt": "nanaiky",
+    "reviewedAt": "nandinika",
+    "rejectionReason": "Antony fandavana:",
+    "approve": "hanaiky",
+    "reject": "mandà",
+    "viewError": "Tsy afaka nanokatra ny antontan-taratasy.",
+    "approveError": "Tsy afaka nankasitraka ity fanamarinana ity.",
+    "rejectError": "Tsy afaka nandà ity fanamarinana ity.",
+    "reasonRequired": "Mba omeo antony handavana.",
+    "rejectDialog": {
+      "title": "Mandà ny fanamarinana",
+      "message": "{{name}} dia hahita ny antony omenao ary afaka mandefa antontan-taratasy vaovao.",
+      "reasonLabel": "Antony fandavana",
+      "confirm": "mandà"
+    }
+  },
   "sort": {
     "sortBy": "Sivanina araka",
     "toggleDirection": "Ampifamadiho ny lalana fanasokajiana",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "mailaka",
       "status": "sata",
+      "verification": "fanamarinana",
       "residents": "TEZITRA ny mponina",
       "view": "View"
     }

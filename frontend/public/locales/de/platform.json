@@ -4,6 +4,39 @@
     "blocked": "Blockiert",
     "terminated": "Beendet"
   },
+  "verification": {
+    "title": "Dokumentenüberprüfung",
+    "status": {
+      "notSubmitted": "Nicht eingereicht",
+      "pending": "Ausstehende Überprüfung",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt"
+    },
+    "notSubmitted": "Dieser Community-Administrator hat noch keine Verifizierungsdokumente eingereicht.",
+    "communityName": "Community-Name",
+    "address": "Adresse",
+    "totalFlats": "Insgesamt Wohnungen",
+    "totalBlocks": "Gesamtblöcke",
+    "documentType": "Dokumenttyp",
+    "documentNumber": "Dokumentennummer",
+    "notes": "Details",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Eingereicht",
+    "reviewedAt": "Bewertet",
+    "rejectionReason": "Grund für die Ablehnung:",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "viewError": "Das Dokument konnte nicht geöffnet werden.",
+    "approveError": "Diese Überprüfung konnte nicht genehmigt werden.",
+    "rejectError": "Diese Bestätigung konnte nicht abgelehnt werden.",
+    "reasonRequired": "Bitte begründen Sie die Ablehnung.",
+    "rejectDialog": {
+      "title": "Verifizierung ablehnen",
+      "message": "{{name}} sieht den von Ihnen angegebenen Grund und kann neue Dokumente einreichen.",
+      "reasonLabel": "Grund für die Ablehnung",
+      "confirm": "Ablehnen"
+    }
+  },
   "sort": {
     "sortBy": "Sortieren nach",
     "toggleDirection": "Sortierrichtung umschalten",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-Mail",
       "status": "Status",
+      "verification": "Überprüfung",
       "residents": "Bewohner",
       "view": "Sicht"
     }

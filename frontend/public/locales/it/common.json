@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Scegli file",
+    "change": "Cambia file",
+    "none": "Nessun file scelto"
+  },
   "authModal": {
     "close": "Vicino",
     "signUpTitle": "Registra la tua comunità",
@@ -188,6 +193,7 @@
       "support": "Supporto/Preoccupazioni",
       "tariffPlans": "Piani tariffari",
       "announcements": "Annunci",
+      "verification": "Verifica",
       "profile": "Profilo"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Annunci",
         "subtitle": "Pubblica avvisi a livello comunitario per i tuoi residenti."
       },
+      "verification": {
+        "title": "Verifica del documento",
+        "subtitle": "Invia i tuoi documenti in modo che la piattaforma possa verificare la tua comunità."
+      },
       "profile": {
         "title": "Impostazioni e profilo",
         "subtitle": "Gestisci i dettagli del tuo account e le informazioni sull'appartamento."
       }
     },
     "fallbackName": "Ammin",
+    "locked": "Disponibile dopo la verifica della tua community",
+    "verifyBanner": "La tua community non è ancora verificata, quindi la maggior parte delle pagine sono bloccate.",
+    "verifyBannerLink": "Vai a Verifica",
     "fallbackCommunity": "Amministratore della comunità",
     "notBuilt": "{{label}} non è ancora stato creato",
     "searchPlaceholder": "Cerca qualsiasi cosa…"

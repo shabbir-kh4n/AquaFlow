@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Zgjidhni skedarin",
+    "change": "Ndrysho skedarin",
+    "none": "Asnjë skedar i zgjedhur"
+  },
   "authModal": {
     "close": "Mbylle",
     "signUpTitle": "Regjistroni komunitetin tuaj",
@@ -188,6 +193,7 @@
       "support": "Mbështetje / Shqetësime",
       "tariffPlans": "Planet tarifore",
       "announcements": "Njoftimet",
+      "verification": "Verifikimi",
       "profile": "Profili"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Njoftimet",
         "subtitle": "Publikoni njoftime në mbarë komunitetin për banorët tuaj."
       },
+      "verification": {
+        "title": "Verifikimi i dokumentit",
+        "subtitle": "Paraqisni dokumentet tuaja në mënyrë që platforma të verifikojë komunitetin tuaj."
+      },
       "profile": {
         "title": "Cilësimet dhe Profili",
         "subtitle": "Menaxhoni detajet e llogarisë tuaj dhe informacionin e apartamentit."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Ofrohet pasi komuniteti juaj të verifikohet",
+    "verifyBanner": "Komuniteti juaj nuk është verifikuar ende, kështu që shumica e faqeve janë të kyçura.",
+    "verifyBannerLink": "Shkoni te Verifikimi",
     "fallbackCommunity": "Administratori i komunitetit",
     "notBuilt": "{{label}} nuk është ndërtuar ende",
     "searchPlaceholder": "Kërkoni ndonjë gjë…"

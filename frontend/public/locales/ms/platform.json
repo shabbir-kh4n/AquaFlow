@@ -4,6 +4,39 @@
     "blocked": "Disekat",
     "terminated": "ditamatkan"
   },
+  "verification": {
+    "title": "Pengesahan Dokumen",
+    "status": {
+      "notSubmitted": "Tidak diserahkan",
+      "pending": "Semakan belum selesai",
+      "approved": "Diluluskan",
+      "rejected": "ditolak"
+    },
+    "notSubmitted": "Pentadbir komuniti ini belum menyerahkan dokumen pengesahan lagi.",
+    "communityName": "Nama komuniti",
+    "address": "Alamat",
+    "totalFlats": "Jumlah flat",
+    "totalBlocks": "Jumlah blok",
+    "documentType": "Jenis dokumen",
+    "documentNumber": "Nombor dokumen",
+    "notes": "Butiran",
+    "file": "Dokumen (PDF)",
+    "submittedAt": "diserahkan",
+    "reviewedAt": "Disemak",
+    "rejectionReason": "Sebab penolakan:",
+    "approve": "Luluskan",
+    "reject": "Tolak",
+    "viewError": "Tidak dapat membuka dokumen.",
+    "approveError": "Tidak dapat meluluskan pengesahan ini.",
+    "rejectError": "Tidak dapat menolak pengesahan ini.",
+    "reasonRequired": "Sila berikan alasan untuk menolak.",
+    "rejectDialog": {
+      "title": "Tolak pengesahan",
+      "message": "{{name}} akan melihat sebab yang anda berikan dan boleh menyerahkan dokumen baharu.",
+      "reasonLabel": "Sebab penolakan",
+      "confirm": "Tolak"
+    }
+  },
   "sort": {
     "sortBy": "Isih mengikut",
     "toggleDirection": "Togol arah isihan",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mel",
       "status": "Status",
+      "verification": "Pengesahan",
       "residents": "Penduduk",
       "view": "Lihat"
     }

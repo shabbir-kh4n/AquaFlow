@@ -535,6 +535,68 @@
       "outstanding": "Utestående"
     }
   },
+  "verification": {
+    "loading": "Laster inn bekreftelse …",
+    "loadError": "Kunne ikke laste inn bekreftelsesstatusen din. Vennligst prøv igjen.",
+    "viewError": "Kunne ikke åpne dokumentet.",
+    "statusTitle": "Bekreftelsesstatus",
+    "rejectionReason": "Årsak til avvisning:",
+    "status": {
+      "notSubmitted": "Ikke sendt inn",
+      "pending": "Venter på vurdering",
+      "approved": "Godkjent",
+      "rejected": "Avvist"
+    },
+    "messages": {
+      "notSubmitted": "Send inn fellesskapets detaljer og dokumenter nedenfor. Inntil de er godkjent kan du bare bruke Dashboard-, Verifikasjons- og Profilsidene.",
+      "pending": "Dokumentene dine ligger hos en plattformadministrator for gjennomgang. Inntil de er godkjent kan du bare bruke Dashboard-, Verifikasjons- og Profilsidene.",
+      "approved": "Dokumentene dine er verifisert.",
+      "rejectedHint": "Løs problemet og send inn dokumentene dine på nytt nedenfor."
+    },
+    "details": {
+      "communityName": "Fellesskapsnavn",
+      "address": "Adresse",
+      "totalFlats": "Totalt leiligheter",
+      "totalBlocks": "Totale blokker",
+      "type": "Dokumenttype",
+      "number": "Dokumentnummer",
+      "notes": "Detaljer",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Sendt inn",
+      "reviewedAt": "Anmeldt"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Samfunnsregistreringsbevis",
+      "ownershipProof": "Eiendomsbevis",
+      "governmentId": "Offentlig ID",
+      "other": "Annen"
+    },
+    "form": {
+      "title": "Send inn dokumenter",
+      "resubmitTitle": "Send inn dokumenter på nytt",
+      "documentType": "Dokumenttype",
+      "documentNumber": "Dokumentnummer",
+      "details": "Ytterligere detaljer (valgfritt)",
+      "file": "Dokument PDF",
+      "fileHint": "Bare PDF opptil 5 MB.",
+      "communitySection": "Fellesskapsdetaljer",
+      "documentSection": "Verifikasjonsdokument",
+      "communityName": "Navn på fellesskap/samfunn",
+      "address": "Adresse",
+      "city": "By",
+      "state": "Tilstand",
+      "pincode": "Pinkode",
+      "totalFlats": "Totalt antall leiligheter",
+      "totalBlocks": "Antall blokker / tårn (valgfritt)",
+      "fieldsRequired": "Vennligst fyll ut alle de obligatoriske feltene.",
+      "countInvalid": "Leiligheter og blokker må ha nummer på minst 1.",
+      "fileRequired": "Legg ved et PDF dokument.",
+      "tooLarge": "Filen må være 5 MB eller mindre.",
+      "submit": "Send inn for verifisering",
+      "submitting": "Sender inn …",
+      "submitError": "Kunne ikke sende inn dokumentene dine. Vennligst prøv igjen."
+    }
+  },
   "announcements": {
     "loadError": "Kunne ikke laste inn kunngjøringer. Vennligst prøv igjen.",
     "removeError": "Kunne ikke slette denne kunngjøringen. Vennligst prøv igjen.",

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "ᱨᱮᱫ ᱵᱟᱪᱷᱟᱣ ᱢᱮ",
+    "change": "ᱨᱮᱫ ᱵᱚᱫᱚᱞ ᱢᱮ",
+    "none": "ᱪᱮᱫ ᱨᱮᱫ ᱦᱚᱸ ᱵᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱᱟ"
+  },
   "authModal": {
     "close": "பந்த",
     "signUpTitle": "ᱟᱯᱮᱭᱟᱜ ᱜᱟᱶᱛᱟ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱯᱮ",
@@ -188,6 +193,7 @@
       "support": "Support / Concerns",
       "tariffPlans": "Tariff Plans",
       "announcements": "Announcements",
+      "verification": "ᱯᱚᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ",
       "profile": "Profile"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "ᱩᱪᱷᱟᱹᱱ ᱠᱚ",
         "subtitle": "ᱟᱯᱮ ᱨᱮᱱ ᱵᱟᱥᱤᱱᱫᱟ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱶᱛᱟ ᱯᱟᱥᱱᱟᱣ ᱱᱚᱴᱤᱥ ᱪᱷᱟᱯᱟᱣ ᱢᱮ ᱾"
       },
+      "verification": {
+        "title": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ",
+        "subtitle": "ᱟᱢᱟᱜ ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱠᱚ ᱡᱚᱢᱟᱣ ᱢᱮ ᱡᱮᱢᱚᱱ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱟᱢᱟᱜ ᱜᱟᱶᱛᱟ ᱯᱩᱥᱴᱟᱹᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ ᱾"
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Manage your account details and apartment information."
       }
     },
     "fallbackName": "Admin",
+    "locked": "ᱟᱯᱮ ᱜᱟᱶᱛᱟ ᱯᱩᱥᱴᱟᱹᱣ ᱛᱟᱭᱚᱢ ᱧᱟᱢᱚᱜᱼᱟ",
+    "verifyBanner": "ᱟᱢᱟᱜ ᱜᱟᱶᱛᱟ ᱱᱤᱛ ᱦᱚᱸ ᱵᱟᱝ ᱯᱩᱥᱴᱟᱹᱣ ᱟᱠᱟᱱᱟ, ᱚᱱᱟᱛᱮ ᱵᱤᱥᱛᱤ ᱥᱟᱦᱴᱟ ᱠᱚ ᱞᱚᱠ ᱮᱱᱟ ᱾",
+    "verifyBannerLink": "ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱨᱮ ᱥᱮᱱᱚᱜ ᱢᱮ",
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} isn't built yet",
     "searchPlaceholder": "Search anything…"

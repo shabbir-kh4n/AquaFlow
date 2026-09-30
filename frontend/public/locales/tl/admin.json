@@ -535,6 +535,68 @@
       "outstanding": "Natitirang"
     }
   },
+  "verification": {
+    "loading": "Nilo-load ang pag-verify...",
+    "loadError": "Hindi ma-load ang iyong katayuan sa pag-verify. Pakisubukang muli.",
+    "viewError": "Hindi mabuksan ang dokumento.",
+    "statusTitle": "Katayuan ng pag-verify",
+    "rejectionReason": "Dahilan ng pagtanggi:",
+    "status": {
+      "notSubmitted": "Hindi isinumite",
+      "pending": "Nakabinbing pagsusuri",
+      "approved": "Naaprubahan",
+      "rejected": "Tinanggihan"
+    },
+    "messages": {
+      "notSubmitted": "Isumite ang mga detalye at dokumento ng iyong komunidad sa ibaba. Hanggang sa maaprubahan ang mga ito, magagamit mo lang ang mga pahina ng Dashboard, Pag-verify at Profile.",
+      "pending": "Ang iyong mga dokumento ay kasama ng isang platform administrator para sa pagsusuri. Hanggang sa maaprubahan ang mga ito, magagamit mo lang ang mga pahina ng Dashboard, Pag-verify at Profile.",
+      "approved": "Na-verify na ang iyong mga dokumento.",
+      "rejectedHint": "Ayusin ang isyu at isumite muli ang iyong mga dokumento sa ibaba."
+    },
+    "details": {
+      "communityName": "Pangalan ng komunidad",
+      "address": "Address",
+      "totalFlats": "Kabuuang mga flat",
+      "totalBlocks": "Kabuuang mga bloke",
+      "type": "Uri ng dokumento",
+      "number": "Numero ng dokumento",
+      "notes": "Mga Detalye",
+      "file": "Dokumento (PDF)",
+      "submittedAt": "Naisumite",
+      "reviewedAt": "Sinuri"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Sertipiko ng pagpaparehistro ng lipunan",
+      "ownershipProof": "Patunay ng pagmamay-ari ng ari-arian",
+      "governmentId": "ID ng gobyerno",
+      "other": "Iba pa"
+    },
+    "form": {
+      "title": "Magsumite ng mga dokumento",
+      "resubmitTitle": "Magsumite muli ng mga dokumento",
+      "documentType": "Uri ng dokumento",
+      "documentNumber": "Numero ng dokumento",
+      "details": "Mga karagdagang detalye (opsyonal)",
+      "file": "Dokumento PDF",
+      "fileHint": "PDF lang, hanggang 5 MB.",
+      "communitySection": "Mga detalye ng komunidad",
+      "documentSection": "Dokumento sa pagpapatunay",
+      "communityName": "Pangalan ng komunidad / lipunan",
+      "address": "Address",
+      "city": "lungsod",
+      "state": "Estado",
+      "pincode": "Pincode",
+      "totalFlats": "Kabuuang bilang ng mga flat",
+      "totalBlocks": "Bilang ng mga bloke / tore (opsyonal)",
+      "fieldsRequired": "Mangyaring punan ang lahat ng kinakailangang mga patlang.",
+      "countInvalid": "Ang mga flat at block ay dapat na mga numero ng hindi bababa sa 1.",
+      "fileRequired": "Mangyaring mag-attach ng PDF na dokumento.",
+      "tooLarge": "Ang file ay dapat na 5 MB o mas maliit.",
+      "submit": "Isumite para sa pag-verify",
+      "submitting": "Isinusumite…",
+      "submitError": "Hindi maisumite ang iyong mga dokumento. Pakisubukang muli."
+    }
+  },
   "announcements": {
     "loadError": "Hindi ma-load ang mga anunsyo. Pakisubukang muli.",
     "removeError": "Hindi matanggal ang anunsyo na ito. Pakisubukang muli.",

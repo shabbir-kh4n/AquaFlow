@@ -4,6 +4,39 @@
     "blocked": "Užblokuota",
     "terminated": "Nutraukta"
   },
+  "verification": {
+    "title": "Dokumento patikrinimas",
+    "status": {
+      "notSubmitted": "Nepateikta",
+      "pending": "Laukiama peržiūros",
+      "approved": "Patvirtinta",
+      "rejected": "Atmesta"
+    },
+    "notSubmitted": "Šis bendruomenės administratorius dar nepateikė patvirtinimo dokumentų.",
+    "communityName": "Bendruomenės pavadinimas",
+    "address": "Adresas",
+    "totalFlats": "Iš viso butų",
+    "totalBlocks": "Iš viso blokų",
+    "documentType": "Dokumento tipas",
+    "documentNumber": "Dokumento numeris",
+    "notes": "Detalės",
+    "file": "Dokumentas (PDF)",
+    "submittedAt": "Pateikta",
+    "reviewedAt": "Peržiūrėta",
+    "rejectionReason": "Atmetimo priežastis:",
+    "approve": "Patvirtinti",
+    "reject": "Atmesti",
+    "viewError": "Nepavyko atidaryti dokumento.",
+    "approveError": "Nepavyko patvirtinti šio patvirtinimo.",
+    "rejectError": "Nepavyko atmesti šio patvirtinimo.",
+    "reasonRequired": "Nurodykite atmetimo priežastį.",
+    "rejectDialog": {
+      "title": "Atmesti patvirtinimą",
+      "message": "{{name}} matys jūsų nurodytą priežastį ir galės pateikti naujus dokumentus.",
+      "reasonLabel": "Atmetimo priežastis",
+      "confirm": "Atmesti"
+    }
+  },
   "sort": {
     "sortBy": "Rūšiuoti pagal",
     "toggleDirection": "Perjungti rūšiavimo kryptį",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "El. paštas",
       "status": "Būsena",
+      "verification": "Patikrinimas",
       "residents": "Gyventojai",
       "view": "Žiūrėti"
     }

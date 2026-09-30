@@ -4,6 +4,39 @@
     "blocked": "Blocked",
     "terminated": "Terminated"
   },
+  "verification": {
+    "title": "Document Verification",
+    "status": {
+      "notSubmitted": "Not submitted",
+      "pending": "Pending review",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "notSubmitted": "This community admin has not submitted verification documents yet.",
+    "communityName": "Community name",
+    "address": "Address",
+    "totalFlats": "Total flats",
+    "totalBlocks": "Total blocks",
+    "documentType": "Document type",
+    "documentNumber": "Document number",
+    "notes": "Details",
+    "file": "Document (PDF)",
+    "submittedAt": "Submitted",
+    "reviewedAt": "Reviewed",
+    "rejectionReason": "Reason for rejection:",
+    "approve": "Approve",
+    "reject": "Reject",
+    "viewError": "Could not open the document.",
+    "approveError": "Could not approve this verification.",
+    "rejectError": "Could not reject this verification.",
+    "reasonRequired": "Please give a reason for rejecting.",
+    "rejectDialog": {
+      "title": "Reject verification",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "Reason for rejection",
+      "confirm": "Reject"
+    }
+  },
   "sort": {
     "sortBy": "Sort by",
     "toggleDirection": "Toggle sort direction",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Status",
+      "verification": "Verification",
       "residents": "Residents",
       "view": "View"
     }

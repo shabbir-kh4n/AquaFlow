@@ -4,6 +4,39 @@
     "blocked": "Lokað",
     "terminated": "Hætti"
   },
+  "verification": {
+    "title": "Staðfesting skjala",
+    "status": {
+      "notSubmitted": "Ekki lagt fram",
+      "pending": "Bíður endurskoðunar",
+      "approved": "Samþykkt",
+      "rejected": "Hafnað"
+    },
+    "notSubmitted": "Þessi samfélagsstjóri hefur ekki sent inn staðfestingarskjöl ennþá.",
+    "communityName": "Samfélagsheiti",
+    "address": "Heimilisfang",
+    "totalFlats": "Samtals íbúðir",
+    "totalBlocks": "Samtals blokkir",
+    "documentType": "Skjaltegund",
+    "documentNumber": "Skjalnúmer",
+    "notes": "Upplýsingar",
+    "file": "Skjal (PDF)",
+    "submittedAt": "Lagt fram",
+    "reviewedAt": "Farið yfir",
+    "rejectionReason": "Ástæða höfnunar:",
+    "approve": "Samþykkja",
+    "reject": "Hafna",
+    "viewError": "Ekki tókst að opna skjalið.",
+    "approveError": "Ekki tókst að samþykkja þessa staðfestingu.",
+    "rejectError": "Ekki tókst að hafna þessari staðfestingu.",
+    "reasonRequired": "Vinsamlegast gefðu upp ástæðu fyrir höfnun.",
+    "rejectDialog": {
+      "title": "Hafna staðfestingu",
+      "message": "{{name}} mun sjá ástæðuna sem þú gefur upp og getur sent inn ný skjöl.",
+      "reasonLabel": "Ástæða höfnunar",
+      "confirm": "Hafna"
+    }
+  },
   "sort": {
     "sortBy": "Raða eftir",
     "toggleDirection": "Skiptu um flokkunarstefnu",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Tölvupóstur",
       "status": "Staða",
+      "verification": "Staðfesting",
       "residents": "Íbúar",
       "view": "Skoða"
     }

@@ -4,6 +4,39 @@
     "blocked": "Kāohi ʻia",
     "terminated": "Hoʻopau ʻia"
   },
+  "verification": {
+    "title": "Hōʻoia Palapala",
+    "status": {
+      "notSubmitted": "ʻAʻole i waiho ʻia",
+      "pending": "Ke kali nei ka loiloi",
+      "approved": "Aponoia",
+      "rejected": "Hōʻole ʻia"
+    },
+    "notSubmitted": "ʻAʻole i hoʻouna kēia luna kaiaulu i nā palapala hōʻoia.",
+    "communityName": "inoa kaiaulu",
+    "address": "Heluhelu",
+    "totalFlats": "Huina palahalaha",
+    "totalBlocks": "huina pau",
+    "documentType": "ʻAno palapala",
+    "documentNumber": "Helu palapala",
+    "notes": "Nā kikoʻī",
+    "file": "Palapala (PDF)",
+    "submittedAt": "Waihoia",
+    "reviewedAt": "Nānā ʻia",
+    "rejectionReason": "Ke kumu o ka hōʻole ʻana:",
+    "approve": "Apono",
+    "reject": "Hoole",
+    "viewError": "ʻAʻole hiki ke wehe i ka palapala.",
+    "approveError": "ʻAʻole hiki ke ʻae i kēia hōʻoia.",
+    "rejectError": "ʻAʻole hiki ke hōʻole i kēia hōʻoia.",
+    "reasonRequired": "E ʻoluʻolu e hāʻawi mai i kumu no ka hōʻole ʻana.",
+    "rejectDialog": {
+      "title": "Hōʻole i ka hōʻoia",
+      "message": "E ʻike ʻo {{name}} i ke kumu āu e hāʻawi ai a hiki ke hoʻouna i nā palapala hou.",
+      "reasonLabel": "Ke kumu o ka hoole",
+      "confirm": "Hoole"
+    }
+  },
   "sort": {
     "sortBy": "Hoʻokaʻawale",
     "toggleDirection": "E hoʻololi i ke kuhikuhi ʻana",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "leka uila",
       "status": "Kūlana",
+      "verification": "Hooia",
       "residents": "Nā kamaʻāina",
       "view": "Nānā"
     }

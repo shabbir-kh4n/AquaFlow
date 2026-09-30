@@ -4,6 +4,39 @@
     "blocked": "Dina",
     "terminated": "Ti pari"
   },
+  "verification": {
+    "title": "Ijẹrisi iwe-aṣẹ",
+    "status": {
+      "notSubmitted": "Ko silẹ",
+      "pending": "ni isunmọtosi ni awotẹlẹ",
+      "approved": "Ti fọwọsi",
+      "rejected": "Ti kọ"
+    },
+    "notSubmitted": "Alabojuto agbegbe ko tii fi awọn iwe ijẹrisi silẹ sibẹsibẹ.",
+    "communityName": "Orukọ agbegbe",
+    "address": "Adirẹsi",
+    "totalFlats": "Lapapọ awọn ile adagbe",
+    "totalBlocks": "Lapapọ ohun amorindun",
+    "documentType": "Iru iwe",
+    "documentNumber": "Nọmba iwe",
+    "notes": "Awọn alaye",
+    "file": "Document (PDF)",
+    "submittedAt": "Ti fi silẹ",
+    "reviewedAt": "Atunwo",
+    "rejectionReason": "Idi fun ijusile:",
+    "approve": "fọwọsi",
+    "reject": "Kọ",
+    "viewError": "Ko le ṣi iwe-ipamọ naa.",
+    "approveError": "Ko le fọwọsi ijẹrisi yii.",
+    "rejectError": "Ko le kọ ijẹrisi yii.",
+    "reasonRequired": "Jọwọ fun idi kan fun kọ.",
+    "rejectDialog": {
+      "title": "Kọ ijerisi",
+      "message": "{{name}} yoo rii idi ti o fun ati pe o le fi awọn iwe aṣẹ tuntun silẹ.",
+      "reasonLabel": "Idi fun ijusile",
+      "confirm": "Kọ"
+    }
+  },
   "sort": {
     "sortBy": "Sa pelu",
     "toggleDirection": "Yi ọna tootọ yipada",
@@ -64,6 +97,7 @@
       "admin": "Abojuto",
       "email": "Imeeli",
       "status": "Ipo",
+      "verification": "Ijerisi",
       "residents": "Awọn olugbe",
       "view": "Wo"
     }

@@ -535,6 +535,68 @@
       "outstanding": "Indashyikirwa"
     }
   },
+  "verification": {
+    "loading": "Kugenzura…",
+    "loadError": "Ntushobora kwikorera imiterere yawe yo kugenzura. Nyamuneka gerageza.",
+    "viewError": "Ntushobora gufungura inyandiko.",
+    "statusTitle": "Imiterere yo kugenzura",
+    "rejectionReason": "Impamvu yo kwangwa:",
+    "status": {
+      "notSubmitted": "Ntabwo yatanzwe",
+      "pending": "Mu gihe hagitegerejwe gusubirwamo",
+      "approved": "Byemejwe",
+      "rejected": "Yanze"
+    },
+    "messages": {
+      "notSubmitted": "Tanga amakuru yumuryango wawe hamwe ninyandiko zikurikira. Kugeza igihe byemewe ushobora gukoresha gusa Dashboard, Kugenzura na paji yumwirondoro.",
+      "pending": "Inyandiko zawe ziri hamwe numuyobozi wa platform kugirango asubiremo. Kugeza igihe byemewe ushobora gukoresha gusa Dashboard, Kugenzura na paji yumwirondoro.",
+      "approved": "Inyandiko zawe zaragenzuwe.",
+      "rejectedHint": "Kemura ikibazo hanyuma wongere utange inyandiko zawe hepfo."
+    },
+    "details": {
+      "communityName": "Izina ryabaturage",
+      "address": "Aderesi",
+      "totalFlats": "Amazu yose",
+      "totalBlocks": "Inzitizi zose",
+      "type": "Ubwoko bw'inyandiko",
+      "number": "Inomero yinyandiko",
+      "notes": "Ibisobanuro",
+      "file": "Inyandiko (PDF)",
+      "submittedAt": "Yatanzwe",
+      "reviewedAt": "Yasubiwemo"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Icyemezo cyo kwiyandikisha muri sosiyete",
+      "ownershipProof": "Icyemezo cyo gutunga umutungo",
+      "governmentId": "Indangamuntu ya Leta",
+      "other": "Ibindi"
+    },
+    "form": {
+      "title": "Tanga inyandiko",
+      "resubmitTitle": "Ongera utange inyandiko",
+      "documentType": "Ubwoko bw'inyandiko",
+      "documentNumber": "Inomero yinyandiko",
+      "details": "Ibisobanuro birambuye (bidashoboka)",
+      "file": "Inyandiko PDF",
+      "fileHint": "PDF gusa, kugeza kuri 5 MB.",
+      "communitySection": "Ibisobanuro birambuye byabaturage",
+      "documentSection": "Inyandiko yo kugenzura",
+      "communityName": "Izina ry'umuryango / umuryango",
+      "address": "Aderesi",
+      "city": "Umujyi",
+      "state": "Leta",
+      "pincode": "Pincode",
+      "totalFlats": "Umubare w'amagorofa",
+      "totalBlocks": "Umubare wahagaritswe / iminara (bidashoboka)",
+      "fieldsRequired": "Nyamuneka wuzuze imirima yose isabwa.",
+      "countInvalid": "Amagorofa nibice bigomba kuba imibare byibuze 1.",
+      "fileRequired": "Nyamuneka ongeraho inyandiko PDF.",
+      "tooLarge": "Dosiye igomba kuba 5 MB cyangwa ntoya.",
+      "submit": "Tanga ibisobanuro",
+      "submitting": "Kohereza…",
+      "submitError": "Ntushobora gutanga ibyangombwa byawe. Nyamuneka gerageza."
+    }
+  },
   "announcements": {
     "loadError": "Ntushobora gupakira amatangazo. Nyamuneka gerageza.",
     "removeError": "Ntushobora gusiba iri tangazo. Nyamuneka gerageza.",

@@ -4,6 +4,39 @@
     "blocked": "Egbochiri",
     "terminated": "Akwụsịla"
   },
+  "verification": {
+    "title": "Nyocha akwụkwọ",
+    "status": {
+      "notSubmitted": "Edenyeghị ya",
+      "pending": "Nlebanya na-eche",
+      "approved": "Ekwenyere",
+      "rejected": "Ajụjụ"
+    },
+    "notSubmitted": "Onye nchịkwa obodo a enyefebeghị akwụkwọ nkwenye.",
+    "communityName": "Aha obodo",
+    "address": "adreesị",
+    "totalFlats": "Mgbakọta ọnụ ụlọ",
+    "totalBlocks": "Mkpokọta ngọngọ",
+    "documentType": "Ụdị akwụkwọ",
+    "documentNumber": "Nọmba akwụkwọ",
+    "notes": "Nkọwa",
+    "file": "Document (PDF)",
+    "submittedAt": "Enyere ya",
+    "reviewedAt": "Nyochaa",
+    "rejectionReason": "Ihe kpatara ịjụ:",
+    "approve": "Kwado",
+    "reject": "Jụ",
+    "viewError": "Enweghị ike imepe akwụkwọ ahụ.",
+    "approveError": "Enweghị ike ịkwado nkwenye a.",
+    "rejectError": "Enweghị ike ịjụ nkwenye a.",
+    "reasonRequired": "Biko nye ihe kpatara ịjụ.",
+    "rejectDialog": {
+      "title": "Jụ nkwenye",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "Ihe kpatara ịjụ",
+      "confirm": "Jụ"
+    }
+  },
   "sort": {
     "sortBy": "Hazie site na",
     "toggleDirection": "Gbanwee ụzọ nhazi",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Ọnọdụ",
+      "verification": "Nyocha",
       "residents": "Ndị bi",
       "view": "Lelee"
     }

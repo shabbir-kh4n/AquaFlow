@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Izberite datoteko",
+    "change": "Spremeni datoteko",
+    "none": "Ni izbrana datoteka"
+  },
   "authModal": {
     "close": "Zapri",
     "signUpTitle": "Registrirajte svojo skupnost",
@@ -188,6 +193,7 @@
       "support": "Podpora/pomisleki",
       "tariffPlans": "Tarifni načrti",
       "announcements": "Obvestila",
+      "verification": "Preverjanje",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Obvestila",
         "subtitle": "Objavite obvestila za celotno skupnost svojim stanovalcem."
       },
+      "verification": {
+        "title": "Preverjanje dokumenta",
+        "subtitle": "Predložite svoje dokumente, da lahko platforma preveri vašo skupnost."
+      },
       "profile": {
         "title": "Nastavitve in profil",
         "subtitle": "Upravljajte podatke o svojem računu in podatke o stanovanju."
       }
     },
     "fallbackName": "skrbnik",
+    "locked": "Na voljo po potrditvi vaše skupnosti",
+    "verifyBanner": "Vaša skupnost še ni potrjena, zato je večina strani zaklenjenih.",
+    "verifyBannerLink": "Pojdite na Preverjanje",
     "fallbackCommunity": "Skrbnik skupnosti",
     "notBuilt": "{{label}} še ni zgrajen",
     "searchPlaceholder": "Išči karkoli ..."

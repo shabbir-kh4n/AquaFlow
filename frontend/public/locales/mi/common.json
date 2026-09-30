@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Kōwhiri kōnae",
+    "change": "Hurihia te konae",
+    "none": "Karekau he konae i tohua"
+  },
   "authModal": {
     "close": "Katia",
     "signUpTitle": "Rēhitahia to hapori",
@@ -188,6 +193,7 @@
       "support": "Tautoko / Maharahara",
       "tariffPlans": "Mahere utu",
       "announcements": "Panuitanga",
+      "verification": "Manatokonga",
       "profile": "Kōtaha"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Panuitanga",
         "subtitle": "Whakaputa panui-a-hapori ki o kainoho."
       },
+      "verification": {
+        "title": "Manatokonga Tuhinga",
+        "subtitle": "Tukuna o tuhinga kia taea e te papaaho te manatoko i to hapori."
+      },
       "profile": {
         "title": "Tautuhinga & Kōtaha",
         "subtitle": "Whakahaerehia o taipitopito putea me nga korero whare."
       }
     },
     "fallbackName": "Kaiwhakahaere",
+    "locked": "Ka waatea i muri i te manatoko o to hapori",
+    "verifyBanner": "Kaore ano kia manatokohia to hapori, no reira kua maukati te nuinga o nga wharangi.",
+    "verifyBannerLink": "Haere ki te Manatoko",
     "fallbackCommunity": "Kaiwhakahaere Hapori",
     "notBuilt": "{{label}} kaore ano kia hanga",
     "searchPlaceholder": "Rapua tetahi mea..."

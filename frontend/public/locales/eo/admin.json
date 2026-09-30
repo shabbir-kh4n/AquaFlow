@@ -535,6 +535,68 @@
       "outstanding": "Elstara"
     }
   },
+  "verification": {
+    "loading": "Ŝarĝante konfirmon...",
+    "loadError": "Ne eblis ŝargi vian konfirman staton. Bonvolu provi denove.",
+    "viewError": "Ne eblis malfermi la dokumenton.",
+    "statusTitle": "Kontrola stato",
+    "rejectionReason": "Kialo de malakcepto:",
+    "status": {
+      "notSubmitted": "Ne submetita",
+      "pending": "Pritraktata revizio",
+      "approved": "Aprobita",
+      "rejected": "Malakceptita"
+    },
+    "messages": {
+      "notSubmitted": "Sendu la detalojn kaj dokumentojn de via komunumo sube. Ĝis ili estas aprobitaj, vi povas nur uzi la paĝojn de Panelo, Kontrolo kaj Profilo.",
+      "pending": "Viaj dokumentoj estas ĉe platforma administranto por revizio. Ĝis ili estas aprobitaj, vi povas nur uzi la paĝojn de Panelo, Kontrolo kaj Profilo.",
+      "approved": "Viaj dokumentoj estas kontrolitaj.",
+      "rejectedHint": "Solvu la problemon kaj sendu viajn dokumentojn denove sube."
+    },
+    "details": {
+      "communityName": "Komunuma nomo",
+      "address": "Adreso",
+      "totalFlats": "Totalaj apartamentoj",
+      "totalBlocks": "Tutaj blokoj",
+      "type": "Dokumenttipo",
+      "number": "Dokumentnumero",
+      "notes": "Detaloj",
+      "file": "Dokumento (PDF)",
+      "submittedAt": "Submetita",
+      "reviewedAt": "Reviziita"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Atestilo pri registriĝo de la socio",
+      "ownershipProof": "Provo de proprieto",
+      "governmentId": "Registaridentigilo",
+      "other": "Aliaj"
+    },
+    "form": {
+      "title": "Sendu dokumentojn",
+      "resubmitTitle": "Sendu dokumentojn denove",
+      "documentType": "Dokumenttipo",
+      "documentNumber": "Dokumentnumero",
+      "details": "Pliaj detaloj (laŭvola)",
+      "file": "Dokumento PDF",
+      "fileHint": "PDF nur, ĝis 5 MB.",
+      "communitySection": "Komunumaj detaloj",
+      "documentSection": "Kontrola dokumento",
+      "communityName": "Nomo de komunumo/societo",
+      "address": "Adreso",
+      "city": "Urbo",
+      "state": "Ŝtato",
+      "pincode": "Pinkodo",
+      "totalFlats": "Tuta nombro da apartamentoj",
+      "totalBlocks": "Nombro da blokoj / turoj (laŭvola)",
+      "fieldsRequired": "Bonvolu plenigi ĉiujn postulatajn kampojn.",
+      "countInvalid": "Apartamentoj kaj blokoj devas esti nombroj de almenaŭ 1.",
+      "fileRequired": "Bonvolu alkroĉi PDF dokumenton.",
+      "tooLarge": "La dosiero devas esti 5 MB aŭ pli malgranda.",
+      "submit": "Sendu por konfirmo",
+      "submitting": "Sendante…",
+      "submitError": "Ne eblis sendi viajn dokumentojn. Bonvolu provi denove."
+    }
+  },
   "announcements": {
     "loadError": "Ne eblis ŝargi anoncojn. Bonvolu provi denove.",
     "removeError": "Ne eblis forigi ĉi tiun anoncon. Bonvolu provi denove.",

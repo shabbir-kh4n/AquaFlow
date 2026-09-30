@@ -535,6 +535,68 @@
       "outstanding": "Wybitny"
     }
   },
+  "verification": {
+    "loading": "Ładowanie weryfikacji…",
+    "loadError": "Nie udało się wczytać statusu weryfikacji. Spróbuj ponownie.",
+    "viewError": "Nie można otworzyć dokumentu.",
+    "statusTitle": "Stan weryfikacji",
+    "rejectionReason": "Powód odrzucenia:",
+    "status": {
+      "notSubmitted": "Nie przesłano",
+      "pending": "Oczekuje na recenzję",
+      "approved": "Zatwierdzony",
+      "rejected": "Odrzucony"
+    },
+    "messages": {
+      "notSubmitted": "Poniżej prześlij dane i dokumenty swojej społeczności. Do czasu ich zatwierdzenia możesz korzystać wyłącznie ze stron Panelu sterowania, Weryfikacji i Profilu.",
+      "pending": "Twoje dokumenty są u administratora platformy do przeglądu. Do czasu ich zatwierdzenia możesz korzystać wyłącznie ze stron Panelu sterowania, Weryfikacji i Profilu.",
+      "approved": "Twoje dokumenty zostały zweryfikowane.",
+      "rejectedHint": "Rozwiąż problem i prześlij dokumenty ponownie poniżej."
+    },
+    "details": {
+      "communityName": "Nazwa społeczności",
+      "address": "Adres",
+      "totalFlats": "Razem mieszkania",
+      "totalBlocks": "Razem bloki",
+      "type": "Typ dokumentu",
+      "number": "Numer dokumentu",
+      "notes": "Bliższe dane",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Złożony",
+      "reviewedAt": "Recenzję"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Świadectwo rejestracji stowarzyszenia",
+      "ownershipProof": "Dowód własności nieruchomości",
+      "governmentId": "Identyfikator rządowy",
+      "other": "Inny"
+    },
+    "form": {
+      "title": "Prześlij dokumenty",
+      "resubmitTitle": "Prześlij dokumenty ponownie",
+      "documentType": "Typ dokumentu",
+      "documentNumber": "Numer dokumentu",
+      "details": "Dodatkowe szczegóły (opcjonalnie)",
+      "file": "Dokument PDF",
+      "fileHint": "Tylko PDF, do 5 MB.",
+      "communitySection": "Szczegóły społeczności",
+      "documentSection": "Dokument weryfikacyjny",
+      "communityName": "Nazwa społeczności/stowarzyszenia",
+      "address": "Adres",
+      "city": "Miasto",
+      "state": "Państwo",
+      "pincode": "Kod PIN",
+      "totalFlats": "Łączna liczba mieszkań",
+      "totalBlocks": "Liczba bloków/wież (opcjonalnie)",
+      "fieldsRequired": "Proszę wypełnić wszystkie wymagane pola.",
+      "countInvalid": "Mieszkania i bloki muszą mieć numery co najmniej 1.",
+      "fileRequired": "Proszę załączyć dokument PDF.",
+      "tooLarge": "Plik musi mieć rozmiar 5 MB lub mniejszy.",
+      "submit": "Prześlij do weryfikacji",
+      "submitting": "Przedkładający…",
+      "submitError": "Nie udało się przesłać dokumentów. Spróbuj ponownie."
+    }
+  },
   "announcements": {
     "loadError": "Nie udało się wczytać ogłoszeń. Spróbuj ponownie.",
     "removeError": "Nie można usunąć tego ogłoszenia. Spróbuj ponownie.",

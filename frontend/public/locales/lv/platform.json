@@ -4,6 +4,39 @@
     "blocked": "Bloķēts",
     "terminated": "Izbeigts"
   },
+  "verification": {
+    "title": "Dokumentu pārbaude",
+    "status": {
+      "notSubmitted": "Nav iesniegts",
+      "pending": "Gaida pārskatīšanu",
+      "approved": "Apstiprināts",
+      "rejected": "Noraidīts"
+    },
+    "notSubmitted": "Šis kopienas administrators vēl nav iesniedzis verifikācijas dokumentus.",
+    "communityName": "Kopienas nosaukums",
+    "address": "Adrese",
+    "totalFlats": "Dzīvokļi kopā",
+    "totalBlocks": "Kopējie bloki",
+    "documentType": "Dokumenta veids",
+    "documentNumber": "Dokumenta numurs",
+    "notes": "Sīkāka informācija",
+    "file": "Dokuments (PDF)",
+    "submittedAt": "Iesniegts",
+    "reviewedAt": "Pārskatīts",
+    "rejectionReason": "Atteikuma iemesls:",
+    "approve": "Apstiprināt",
+    "reject": "Noraidīt",
+    "viewError": "Nevarēja atvērt dokumentu.",
+    "approveError": "Nevarēja apstiprināt šo verifikāciju.",
+    "rejectError": "Nevarēja noraidīt šo verifikāciju.",
+    "reasonRequired": "Lūdzu, norādiet noraidīšanas iemeslu.",
+    "rejectDialog": {
+      "title": "Noraidīt verifikāciju",
+      "message": "{{name}} redzēs jūsu norādīto iemeslu un varēs iesniegt jaunus dokumentus.",
+      "reasonLabel": "Atteikuma iemesls",
+      "confirm": "Noraidīt"
+    }
+  },
   "sort": {
     "sortBy": "Kārtot pēc",
     "toggleDirection": "Pārslēgt kārtošanas virzienu",
@@ -64,6 +97,7 @@
       "admin": "Administrators",
       "email": "E-pasts",
       "status": "Statuss",
+      "verification": "Verifikācija",
       "residents": "Iedzīvotāji",
       "view": "Skatīt"
     }

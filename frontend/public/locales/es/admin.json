@@ -535,6 +535,68 @@
       "outstanding": "Pendiente"
     }
   },
+  "verification": {
+    "loading": "Cargando verificación…",
+    "loadError": "No se pudo cargar su estado de verificación. Por favor inténtalo de nuevo.",
+    "viewError": "No se pudo abrir el documento.",
+    "statusTitle": "Estado de verificación",
+    "rejectionReason": "Motivo del rechazo:",
+    "status": {
+      "notSubmitted": "No enviado",
+      "pending": "Pendiente de revisión",
+      "approved": "Aprobado",
+      "rejected": "Rechazado"
+    },
+    "messages": {
+      "notSubmitted": "Envíe los detalles y documentos de su comunidad a continuación. Hasta que sean aprobados, solo puedes usar las páginas Panel, Verificación y Perfil.",
+      "pending": "Sus documentos están con un administrador de la plataforma para su revisión. Hasta que sean aprobados, solo puedes usar las páginas Panel, Verificación y Perfil.",
+      "approved": "Sus documentos han sido verificados.",
+      "rejectedHint": "Solucione el problema y envíe sus documentos nuevamente a continuación."
+    },
+    "details": {
+      "communityName": "Nombre de la comunidad",
+      "address": "DIRECCIÓN",
+      "totalFlats": "Total pisos",
+      "totalBlocks": "Bloques totales",
+      "type": "Tipo de documento",
+      "number": "Número de documento",
+      "notes": "Detalles",
+      "file": "Documento (PDF)",
+      "submittedAt": "Enviado",
+      "reviewedAt": "Revisado"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificado de registro de la sociedad",
+      "ownershipProof": "Prueba de propiedad de la propiedad",
+      "governmentId": "Identificación gubernamental",
+      "other": "Otro"
+    },
+    "form": {
+      "title": "Enviar documentos",
+      "resubmitTitle": "Enviar documentos nuevamente",
+      "documentType": "Tipo de documento",
+      "documentNumber": "Número de documento",
+      "details": "Detalles adicionales (opcional)",
+      "file": "Documento PDF",
+      "fileHint": "PDF únicamente, hasta 5 MB.",
+      "communitySection": "Detalles de la comunidad",
+      "documentSection": "Documento de verificación",
+      "communityName": "Nombre de la comunidad/sociedad",
+      "address": "DIRECCIÓN",
+      "city": "Ciudad",
+      "state": "Estado",
+      "pincode": "código PIN",
+      "totalFlats": "Número total de pisos",
+      "totalBlocks": "Número de bloques/torres (opcional)",
+      "fieldsRequired": "Por favor complete todos los campos requeridos.",
+      "countInvalid": "Los pisos y bloques deben ser números de al menos 1.",
+      "fileRequired": "Adjunte un documento PDF.",
+      "tooLarge": "El archivo debe tener 5 MB o menos.",
+      "submit": "Enviar para verificación",
+      "submitting": "Sumisión…",
+      "submitError": "No se pudieron enviar sus documentos. Por favor inténtalo de nuevo."
+    }
+  },
   "announcements": {
     "loadError": "No se pudieron cargar los anuncios. Por favor inténtalo de nuevo.",
     "removeError": "No se pudo eliminar este anuncio. Por favor inténtalo de nuevo.",

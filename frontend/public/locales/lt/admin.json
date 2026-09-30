@@ -535,6 +535,68 @@
       "outstanding": "Išskirtinis"
     }
   },
+  "verification": {
+    "loading": "Įkeliamas patvirtinimas…",
+    "loadError": "Nepavyko įkelti patvirtinimo būsenos. Bandykite dar kartą.",
+    "viewError": "Nepavyko atidaryti dokumento.",
+    "statusTitle": "Patvirtinimo būsena",
+    "rejectionReason": "Atmetimo priežastis:",
+    "status": {
+      "notSubmitted": "Nepateikta",
+      "pending": "Laukiama peržiūros",
+      "approved": "Patvirtinta",
+      "rejected": "Atmesta"
+    },
+    "messages": {
+      "notSubmitted": "Toliau pateikite išsamią bendruomenės informaciją ir dokumentus. Kol jie nepatvirtinti, galite naudoti tik informacijos suvestinės, patvirtinimo ir profilio puslapius.",
+      "pending": "Jūsų dokumentai pateikiami platformos administratoriui peržiūrėti. Kol jie nepatvirtinti, galite naudoti tik informacijos suvestinės, patvirtinimo ir profilio puslapius.",
+      "approved": "Jūsų dokumentai buvo patikrinti.",
+      "rejectedHint": "Išspręskite problemą ir toliau pateikite dokumentus dar kartą."
+    },
+    "details": {
+      "communityName": "Bendruomenės pavadinimas",
+      "address": "Adresas",
+      "totalFlats": "Iš viso butų",
+      "totalBlocks": "Iš viso blokų",
+      "type": "Dokumento tipas",
+      "number": "Dokumento numeris",
+      "notes": "Detalės",
+      "file": "Dokumentas (PDF)",
+      "submittedAt": "Pateikta",
+      "reviewedAt": "Peržiūrėta"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Draugijos registracijos pažymėjimas",
+      "ownershipProof": "Turto nuosavybės įrodymas",
+      "governmentId": "Vyriausybinis ID",
+      "other": "Kita"
+    },
+    "form": {
+      "title": "Pateikite dokumentus",
+      "resubmitTitle": "Dar kartą pateikite dokumentus",
+      "documentType": "Dokumento tipas",
+      "documentNumber": "Dokumento numeris",
+      "details": "Papildoma informacija (neprivaloma)",
+      "file": "Dokumentas PDF",
+      "fileHint": "Tik PDF, iki 5 MB.",
+      "communitySection": "Bendruomenės informacija",
+      "documentSection": "Patvirtinimo dokumentas",
+      "communityName": "Bendruomenės/bendruomenės pavadinimas",
+      "address": "Adresas",
+      "city": "Miestas",
+      "state": "valstybė",
+      "pincode": "Pin kodas",
+      "totalFlats": "Bendras butų skaičius",
+      "totalBlocks": "Blokų / bokštų skaičius (neprivaloma)",
+      "fieldsRequired": "Užpildykite visus privalomus laukus.",
+      "countInvalid": "Butų ir blokų skaičius turi būti ne mažesnis kaip 1.",
+      "fileRequired": "Pridėkite PDF dokumentą.",
+      "tooLarge": "Failas turi būti 5 MB ar mažesnis.",
+      "submit": "Pateikite patikrinti",
+      "submitting": "Pateikiama…",
+      "submitError": "Nepavyko pateikti dokumentų. Bandykite dar kartą."
+    }
+  },
   "announcements": {
     "loadError": "Nepavyko įkelti pranešimų. Bandykite dar kartą.",
     "removeError": "Nepavyko ištrinti šio pranešimo. Bandykite dar kartą.",

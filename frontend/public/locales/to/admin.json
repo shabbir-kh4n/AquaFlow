@@ -535,6 +535,68 @@
       "outstanding": "Fu'u lelei 'aupito"
     }
   },
+  "verification": {
+    "loading": "Fakamo'oni'i 'o e uta...",
+    "loadError": "Na'e 'ikai lava ke uta ho'o tu'unga fakamo'oni. Kātaki ʻo toe feinga.",
+    "viewError": "Naʻe ʻikai lava ke fakaava ʻa e tohí.",
+    "statusTitle": "Tu'unga fakamo'oni",
+    "rejectionReason": "'Uhinga 'o e fakafisinga'i:",
+    "status": {
+      "notSubmitted": "'Oku te'eki ke fakahu",
+      "pending": "Fakatatali ki hono vakai'i",
+      "approved": "Tali",
+      "rejected": "Fakafisinga'i"
+    },
+    "messages": {
+      "notSubmitted": "Fakahu mai 'a e ngaahi fakaikiiki mo e ngaahi tohi 'a ho'o komiuniti 'i lalo. Kae 'oua kuo nau fakangofua 'e lava pe ke ke faka'aonga'i 'a e Dashboard, Fakamo'oni mo e ngaahi peesi 'o e Profile.",
+      "pending": "Ko ho'o ngaahi tohi 'oku 'i ha pule 'o e peletifoomu ke vakai'i. Kae 'oua kuo nau fakangofua 'e lava pe ke ke faka'aonga'i 'a e Dashboard, Fakamo'oni mo e ngaahi peesi 'o e Profile.",
+      "approved": "Kuo fakamo'oni'i ho'o ngaahi tohi.",
+      "rejectedHint": "Fakalelei'i 'a e issue pea toe fakahu mai ho'o ngaahi tohi 'i lalo."
+    },
+    "details": {
+      "communityName": "Hingoa ʻo e komiuniti",
+      "address": "Tu'asila",
+      "totalFlats": "Fakakatoa 'o e ngaahi fale nofo'anga",
+      "totalBlocks": "Fakakatoa 'o e ngaahi poloka",
+      "type": "Fa'ahinga tohi",
+      "number": "Fika 'o e tohi",
+      "notes": "Ngaahi fakaikiiki",
+      "file": "Document (PDF)",
+      "submittedAt": "Fakahū mai",
+      "reviewedAt": "Toe vakaiʻi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Tohi fakamo'oni lesisita 'a e sosaieti .",
+      "ownershipProof": "Fakamo'oni 'o e 'ea 'o e koloa",
+      "governmentId": "ID Pule'anga",
+      "other": "Kehe"
+    },
+    "form": {
+      "title": "Fakahu mai e ngaahi pepa",
+      "resubmitTitle": "Toe fakahu mai e ngaahi pepa .",
+      "documentType": "Fa'ahinga tohi",
+      "documentNumber": "Fika 'o e tohi",
+      "details": "Ngaahi fakaikiiki kehe (fili)",
+      "file": "Tohi PDF",
+      "fileHint": "PDF pe, 'o a'u ki he 5 MB.",
+      "communitySection": "Fakaikiiki 'o e komiuniti",
+      "documentSection": "Pepa fakamo'oni",
+      "communityName": "Hingoa 'o e komiuniti / sosaieti",
+      "address": "Tu'asila",
+      "city": "Siti",
+      "state": "Vahefonua",
+      "pincode": "Kouti Pini",
+      "totalFlats": "Fakakatoa 'o e ngaahi fale nofo'anga",
+      "totalBlocks": "Fika 'o e ngaahi poloka / ngaahi taua (fili)",
+      "fieldsRequired": "Kātaki ʻo fakafonu kotoa ʻa e ngaahi malaʻe ʻoku fie maʻú.",
+      "countInvalid": "Ko e ngaahi fale nofo'anga mo e ngaahi poloka kuo pau ke 'oua 'e si'i hifo he 1.",
+      "fileRequired": "Kātaki ʻo fakapipiki ha PDF tohi.",
+      "tooLarge": "Ko e faile kuo pau ke 5 MB pe si'isi'i ange.",
+      "submit": "Fakahū atu ke fakamoʻoniʻi",
+      "submitting": "Fakahū atu...",
+      "submitError": "Na'e 'ikai lava ke fakahu ho'o ngaahi tohi. Kātaki ʻo toe feinga."
+    }
+  },
   "announcements": {
     "loadError": "Na'e 'ikai lava ke load 'a e ngaahi fanongonongo. Kātaki ʻo toe feinga.",
     "removeError": "Na'e 'ikai lava ke tamate'i 'a e fanongonongo ko 'eni. Kātaki ʻo toe feinga.",

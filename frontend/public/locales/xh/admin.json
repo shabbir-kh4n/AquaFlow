@@ -535,6 +535,68 @@
       "outstanding": "Ebalaseleyo"
     }
   },
+  "verification": {
+    "loading": "Ilayisha uqinisekiso...",
+    "loadError": "Ayikwazanga ukulayisha isimo sakho sokuqinisekisa. Nceda zama kwakhona.",
+    "viewError": "Ayikwazanga ukuvula uxwebhu.",
+    "statusTitle": "Ubume bokuqinisekisa",
+    "rejectionReason": "Isizathu sokwaliwa:",
+    "status": {
+      "notSubmitted": "Ayingeniswanga",
+      "pending": "Kusalindelwe uphononongo",
+      "approved": "Ivunyiwe",
+      "rejected": "Yaliwe"
+    },
+    "messages": {
+      "notSubmitted": "Ngenisa iinkcukacha zoluntu lwakho kunye namaxwebhu angezantsi. De zivunywe ungasebenzisa kuphela iDashboard, uQinisekiso kunye namaphepha eProfayili.",
+      "pending": "Amaxwebhu akho anomlawuli weqonga ukuze aqwalaselwe. De zivunywe ungasebenzisa kuphela iDashboard, uQinisekiso kunye namaphepha eProfayili.",
+      "approved": "Amaxwebhu akho aqinisekisiwe.",
+      "rejectedHint": "Lungisa umba kwaye ungenise amaxwebhu akho kwakhona ngezantsi."
+    },
+    "details": {
+      "communityName": "Igama loluntu",
+      "address": "Idilesi",
+      "totalFlats": "Iiflethi zizonke",
+      "totalBlocks": "Iibhloko zizonke",
+      "type": "Uhlobo loxwebhu",
+      "number": "Inombolo yoxwebhu",
+      "notes": "Iinkcukacha",
+      "file": "Uxwebhu (PDF)",
+      "submittedAt": "Ithunyelwe",
+      "reviewedAt": "Ijongiwe"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Isatifiketi sobhaliso loluntu",
+      "ownershipProof": "Ubungqina bobunini bepropati",
+      "governmentId": "Isazisi sikaRhulumente",
+      "other": "Okunye"
+    },
+    "form": {
+      "title": "Ngenisa amaxwebhu",
+      "resubmitTitle": "Ngenisa amaxwebhu kwakhona",
+      "documentType": "Uhlobo loxwebhu",
+      "documentNumber": "Inombolo yoxwebhu",
+      "details": "Iinkcukacha ezongezelelweyo (ukhetho)",
+      "file": "Uxwebhu PDF",
+      "fileHint": "PDF kuphela, ukuya kuthi ga kwi-5 MB.",
+      "communitySection": "Iinkcukacha zoluntu",
+      "documentSection": "Uxwebhu lokuqinisekisa",
+      "communityName": "Igama loluntu / loluntu",
+      "address": "Idilesi",
+      "city": "Isixeko",
+      "state": "Umbuso",
+      "pincode": "Ikhowudi yekhowudi",
+      "totalFlats": "Lilonke inani leeflethi",
+      "totalBlocks": "Inani leebhloko / iinqaba (ukhetho)",
+      "fieldsRequired": "Nceda ugcwalise zonke iindawo ezifunekayo.",
+      "countInvalid": "Iiflethi kunye neebhloko kufuneka zibe ngamanani ubuncinane u-1.",
+      "fileRequired": "Nceda uqhoboshele uxwebhu PDF.",
+      "tooLarge": "Ifayile kufuneka ibe yi-5 MB okanye ngaphantsi.",
+      "submit": "Ngenisa ukuze kuqinisekiswe",
+      "submitting": "Iyathumela...",
+      "submitError": "Ayikwazanga ukungenisa amaxwebhu akho. Nceda zama kwakhona."
+    }
+  },
   "announcements": {
     "loadError": "Ayikwazanga ukulayisha izibhengezo. Nceda zama kwakhona.",
     "removeError": "Ayikwazanga ukucima esi sibhengezo. Nceda zama kwakhona.",

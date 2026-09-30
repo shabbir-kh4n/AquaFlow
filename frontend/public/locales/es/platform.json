@@ -4,6 +4,39 @@
     "blocked": "Obstruido",
     "terminated": "Finalizado"
   },
+  "verification": {
+    "title": "Verificación de documentos",
+    "status": {
+      "notSubmitted": "No enviado",
+      "pending": "Pendiente de revisión",
+      "approved": "Aprobado",
+      "rejected": "Rechazado"
+    },
+    "notSubmitted": "Este administrador de la comunidad aún no ha enviado documentos de verificación.",
+    "communityName": "Nombre de la comunidad",
+    "address": "DIRECCIÓN",
+    "totalFlats": "Total pisos",
+    "totalBlocks": "Bloques totales",
+    "documentType": "Tipo de documento",
+    "documentNumber": "Número de documento",
+    "notes": "Detalles",
+    "file": "Documento (PDF)",
+    "submittedAt": "Enviado",
+    "reviewedAt": "Revisado",
+    "rejectionReason": "Motivo del rechazo:",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "viewError": "No se pudo abrir el documento.",
+    "approveError": "No se pudo aprobar esta verificación.",
+    "rejectError": "No se pudo rechazar esta verificación.",
+    "reasonRequired": "Por favor proporcione una razón para rechazar.",
+    "rejectDialog": {
+      "title": "Rechazar verificación",
+      "message": "{{name}} verá el motivo que usted da y podrá enviar nuevos documentos.",
+      "reasonLabel": "Motivo del rechazo",
+      "confirm": "Rechazar"
+    }
+  },
   "sort": {
     "sortBy": "Ordenar por",
     "toggleDirection": "Alternar dirección de clasificación",
@@ -64,6 +97,7 @@
       "admin": "Administración",
       "email": "Correo electrónico",
       "status": "Estado",
+      "verification": "Verificación",
       "residents": "Residentes",
       "view": "Vista"
     }

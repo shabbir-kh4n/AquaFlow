@@ -4,6 +4,39 @@
     "blocked": "Blokiran",
     "terminated": "Raskinuto"
   },
+  "verification": {
+    "title": "Ovjera dokumenata",
+    "status": {
+      "notSubmitted": "Nije predano",
+      "pending": "Čeka pregled",
+      "approved": "Odobreno",
+      "rejected": "Odbijen"
+    },
+    "notSubmitted": "Ovaj administrator zajednice još nije podnio dokumente za potvrdu.",
+    "communityName": "Naziv zajednice",
+    "address": "Adresa",
+    "totalFlats": "Ukupno stanova",
+    "totalBlocks": "Ukupno blokova",
+    "documentType": "Vrsta dokumenta",
+    "documentNumber": "Broj dokumenta",
+    "notes": "pojedinosti",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Poslano",
+    "reviewedAt": "Pregledano",
+    "rejectionReason": "Razlog odbijanja:",
+    "approve": "Odobriti",
+    "reject": "Odbiti",
+    "viewError": "Nije moguće otvoriti dokument.",
+    "approveError": "Nije moguće odobriti ovu provjeru.",
+    "rejectError": "Nije moguće odbiti ovu potvrdu.",
+    "reasonRequired": "Navedite razlog odbijanja.",
+    "rejectDialog": {
+      "title": "Odbij provjeru",
+      "message": "{{name}} će vidjeti razlog koji navedete i moći će poslati nove dokumente.",
+      "reasonLabel": "Razlog odbijanja",
+      "confirm": "Odbiti"
+    }
+  },
   "sort": {
     "sortBy": "Poredaj po",
     "toggleDirection": "Promjena smjera sortiranja",
@@ -64,6 +97,7 @@
       "admin": "Administrator",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Provjera",
       "residents": "Stanovnici",
       "view": "Pogled"
     }

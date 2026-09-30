@@ -4,6 +4,39 @@
     "blocked": "Estetty",
     "terminated": "Lopetettu"
   },
+  "verification": {
+    "title": "Asiakirjan vahvistus",
+    "status": {
+      "notSubmitted": "Ei lähetetty",
+      "pending": "Odottaa tarkistusta",
+      "approved": "Hyväksytty",
+      "rejected": "Hylätty"
+    },
+    "notSubmitted": "Tämä yhteisön järjestelmänvalvoja ei ole vielä lähettänyt vahvistusasiakirjoja.",
+    "communityName": "Yhteisön nimi",
+    "address": "Osoite",
+    "totalFlats": "Asuntoja yhteensä",
+    "totalBlocks": "Lohkot yhteensä",
+    "documentType": "Asiakirjan tyyppi",
+    "documentNumber": "Asiakirjan numero",
+    "notes": "Yksityiskohdat",
+    "file": "Asiakirja (PDF)",
+    "submittedAt": "Lähetetty",
+    "reviewedAt": "Arvosteltu",
+    "rejectionReason": "Hylkäämisen syy:",
+    "approve": "Hyväksyä",
+    "reject": "Hylätä",
+    "viewError": "Asiakirjaa ei voitu avata.",
+    "approveError": "Tätä vahvistusta ei voitu hyväksyä.",
+    "rejectError": "Tätä vahvistusta ei voitu hylätä.",
+    "reasonRequired": "Ole hyvä ja perustele hylkäämisellesi.",
+    "rejectDialog": {
+      "title": "Hylkää vahvistus",
+      "message": "{{name}} näkee antamasi syyn ja voi lähettää uusia asiakirjoja.",
+      "reasonLabel": "Hylkäämisen syy",
+      "confirm": "Hylätä"
+    }
+  },
   "sort": {
     "sortBy": "Lajitteluperuste",
     "toggleDirection": "Vaihda lajittelusuuntaa",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Sähköposti",
       "status": "Status",
+      "verification": "Vahvistus",
       "residents": "Asukkaat",
       "view": "Näytä"
     }

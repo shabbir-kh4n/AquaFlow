@@ -4,6 +4,39 @@
     "blocked": "Blokeeritud",
     "terminated": "Lõpetatud"
   },
+  "verification": {
+    "title": "Dokumendi kinnitamine",
+    "status": {
+      "notSubmitted": "Esitamata",
+      "pending": "Ülevaatuse ootel",
+      "approved": "Kinnitatud",
+      "rejected": "Tagasi lükatud"
+    },
+    "notSubmitted": "See kommuuni administraator pole veel kinnitusdokumente esitanud.",
+    "communityName": "kogukonna nimi",
+    "address": "Aadress",
+    "totalFlats": "Korterid kokku",
+    "totalBlocks": "Plokid kokku",
+    "documentType": "Dokumendi tüüp",
+    "documentNumber": "Dokumendi number",
+    "notes": "Üksikasjad",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Esitatud",
+    "reviewedAt": "Üle vaadatud",
+    "rejectionReason": "Tagasilükkamise põhjus:",
+    "approve": "Kinnita",
+    "reject": "Keeldu",
+    "viewError": "Dokumenti ei saanud avada.",
+    "approveError": "",
+    "rejectError": "",
+    "reasonRequired": "",
+    "rejectDialog": {
+      "title": "Keeldu kinnitusest",
+      "message": "{{name}} näeb teie esitatud põhjust ja saab esitada uusi dokumente.",
+      "reasonLabel": "Tagasilükkamise põhjus",
+      "confirm": "Keeldu"
+    }
+  },
   "sort": {
     "sortBy": "Sorteeri",
     "toggleDirection": "Lülita sortimissuunda",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Meil",
       "status": "Olek",
+      "verification": "Kontrollimine",
       "residents": "Elanikud",
       "view": "Vaade"
     }

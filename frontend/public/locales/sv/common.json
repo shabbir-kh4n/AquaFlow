@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Välj fil",
+    "change": "Byt fil",
+    "none": "Ingen fil har valts"
+  },
   "authModal": {
     "close": "Nära",
     "signUpTitle": "Registrera din gemenskap",
@@ -188,6 +193,7 @@
       "support": "Support / Bekymmer",
       "tariffPlans": "Tariffplaner",
       "announcements": "Meddelanden",
+      "verification": "Kontroll",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Meddelanden",
         "subtitle": "Publicera meddelanden i hela samhället till dina invånare."
       },
+      "verification": {
+        "title": "Dokumentverifiering",
+        "subtitle": "Skicka in dina dokument så att plattformen kan verifiera din community."
+      },
       "profile": {
         "title": "Inställningar och profil",
         "subtitle": "Hantera dina kontouppgifter och lägenhetsinformation."
       }
     },
     "fallbackName": "Administration",
+    "locked": "Tillgängligt efter att din grupp har verifierats",
+    "verifyBanner": "Din grupp är inte verifierad än, så de flesta sidor är låsta.",
+    "verifyBannerLink": "Gå till Verifiering",
     "fallbackCommunity": "Gemenskapsadministratör",
     "notBuilt": "{{label}} är inte byggd än",
     "searchPlaceholder": "Sök vad som helst..."

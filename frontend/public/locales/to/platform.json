@@ -4,6 +4,39 @@
     "blocked": "Kuo poloka",
     "terminated": "Fakangata"
   },
+  "verification": {
+    "title": "Fakamo'oni'i 'o e Tohi",
+    "status": {
+      "notSubmitted": "'Oku te'eki ke fakahu",
+      "pending": "Fakatatali ki hono vakai'i",
+      "approved": "Tali",
+      "rejected": "Fakafisinga'i"
+    },
+    "notSubmitted": "Ko e admin ko eni 'o e komiuniti 'oku te'eki ke 'omai 'a e ngaahi tohi fakamo'oni.",
+    "communityName": "Hingoa ʻo e komiuniti",
+    "address": "Tu'asila",
+    "totalFlats": "Fakakatoa 'o e ngaahi fale nofo'anga",
+    "totalBlocks": "Fakakatoa 'o e ngaahi poloka",
+    "documentType": "Fa'ahinga tohi",
+    "documentNumber": "Fika 'o e tohi",
+    "notes": "Ngaahi fakaikiiki",
+    "file": "Document (PDF)",
+    "submittedAt": "Fakahū mai",
+    "reviewedAt": "Toe vakaiʻi",
+    "rejectionReason": "'Uhinga 'o e fakafisinga'i:",
+    "approve": "Tali",
+    "reject": "Ta'etali",
+    "viewError": "Naʻe ʻikai lava ke fakaava ʻa e tohí.",
+    "approveError": "Naʻe ʻikai lava ke fakangofua ʻa e fakamoʻoni ko ʻení.",
+    "rejectError": "Na'e 'ikai lava ke fakafisinga'i 'a e fakamo'oni ko 'eni.",
+    "reasonRequired": "Kataki 'o 'omai ha 'uhinga ki he fakafisinga'i.",
+    "rejectDialog": {
+      "title": "Fakafisinga'i 'a e fakamo'oni",
+      "message": "{{name}} 'e sio ki he 'uhinga 'oku ke 'omai pea 'e lava ke ne fakahu mai ha ngaahi tohi fo'ou.",
+      "reasonLabel": "'Uhinga 'o e fakafisinga'i .",
+      "confirm": "Ta'etali"
+    }
+  },
   "sort": {
     "sortBy": "Fakahokohoko ʻaki ʻa e",
     "toggleDirection": "Toggle fakahokohoko 'a e fakahinohino",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "'Imeili",
       "status": "Tu'unga",
+      "verification": "Fakamo'oni",
       "residents": "Kau Nofo",
       "view": "Vakai"
     }

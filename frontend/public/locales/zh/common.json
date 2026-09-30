@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "选择文件",
+    "change": "更改文件",
+    "none": "未选择文件"
+  },
   "authModal": {
     "close": "关闭",
     "signUpTitle": "注册您的社区",
@@ -188,6 +193,7 @@
       "support": "支持/关注",
       "tariffPlans": "资费计划",
       "announcements": "公告",
+      "verification": "确认",
       "profile": "轮廓"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "公告",
         "subtitle": "向居民发布社区范围的通知。"
       },
+      "verification": {
+        "title": "文件验证",
+        "subtitle": "提交您的文件，以便平台可以验证您的社区。"
+      },
       "profile": {
         "title": "设置和个人资料",
         "subtitle": "管理您的帐户详细信息和公寓信息。"
       }
     },
     "fallbackName": "行政",
+    "locked": "您的社区经过验证后即可使用",
+    "verifyBanner": "您的社区尚未经过验证，因此大多数页面已被锁定。",
+    "verifyBannerLink": "前往验证",
     "fallbackCommunity": "社区管理员",
     "notBuilt": "{{label}} 尚未构建",
     "searchPlaceholder": "搜索任何东西..."

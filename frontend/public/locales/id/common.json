@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Pilih berkas",
+    "change": "Ubah berkas",
+    "none": "Tidak ada file yang dipilih"
+  },
   "authModal": {
     "close": "Menutup",
     "signUpTitle": "Daftarkan komunitas Anda",
@@ -188,6 +193,7 @@
       "support": "Dukungan / Kekhawatiran",
       "tariffPlans": "Paket Tarif",
       "announcements": "Pengumuman",
+      "verification": "Verifikasi",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Pengumuman",
         "subtitle": "Publikasikan pemberitahuan komunitas kepada warga Anda."
       },
+      "verification": {
+        "title": "Verifikasi Dokumen",
+        "subtitle": "Kirimkan dokumen Anda sehingga platform dapat memverifikasi komunitas Anda."
+      },
       "profile": {
         "title": "Pengaturan & Profil",
         "subtitle": "Kelola detail akun dan informasi apartemen Anda."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Tersedia setelah komunitas Anda diverifikasi",
+    "verifyBanner": "Komunitas Anda belum terverifikasi, sehingga sebagian besar halaman terkunci.",
+    "verifyBannerLink": "Buka Verifikasi",
     "fallbackCommunity": "Admin Komunitas",
     "notBuilt": "{{label}} belum dibuat",
     "searchPlaceholder": "Telusuri apa saja…"

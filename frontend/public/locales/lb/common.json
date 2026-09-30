@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Wielt Datei",
+    "change": "Datei änneren",
+    "none": "Kee Fichier gewielt"
+  },
   "authModal": {
     "close": "Zoumaachen",
     "signUpTitle": "Registréiert Är Gemeinschaft",
@@ -188,6 +193,7 @@
       "support": "Ënnerstëtzung / Bedenken",
       "tariffPlans": "Tarifpläng",
       "announcements": "Ukënnegung",
+      "verification": "Verifikatioun",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ukënnegung",
         "subtitle": "Verëffentlecht Gemeinschaftsbreet Notifikatiounen un Är Awunner."
       },
+      "verification": {
+        "title": "Dokument Verifikatioun",
+        "subtitle": "Gitt Är Dokumenter of, sou datt d'Plattform Är Gemeinschaft verifizéiere kann."
+      },
       "profile": {
         "title": "Astellungen & Profil",
         "subtitle": "Managen Äre Kont Detailer an Appartement Informatiounen."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Verfügbar nodeems Är Gemeinschaft verifizéiert ass",
+    "verifyBanner": "Är Gemeinschaft ass nach net verifizéiert, sou datt déi meescht Säite gespaart sinn.",
+    "verifyBannerLink": "Gitt op d'Verifikatioun",
     "fallbackCommunity": "Gemeinschaft Admin",
     "notBuilt": "{{label}} ass nach net gebaut",
     "searchPlaceholder": "Sich no eppes ..."

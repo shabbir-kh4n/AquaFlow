@@ -4,6 +4,39 @@
     "blocked": "بلاک شدہ",
     "terminated": "برطرف شدہ"
   },
+  "verification": {
+    "title": "دستاویز کی تصدیق",
+    "status": {
+      "notSubmitted": "جمع نہیں کرایا",
+      "pending": "زیر التواء جائزہ",
+      "approved": "منظور شدہ",
+      "rejected": "مسترد"
+    },
+    "notSubmitted": "اس کمیونٹی ایڈمن نے ابھی تک تصدیقی دستاویزات جمع نہیں کرائے ہیں۔",
+    "communityName": "کمیونٹی کا نام",
+    "address": "پتہ",
+    "totalFlats": "کل فلیٹ",
+    "totalBlocks": "کل بلاکس",
+    "documentType": "دستاویز کی قسم",
+    "documentNumber": "دستاویز نمبر",
+    "notes": "تفصیلات",
+    "file": "دستاویز (PDF)",
+    "submittedAt": "جمع کرایا",
+    "reviewedAt": "جائزہ لیا گیا۔",
+    "rejectionReason": "انکار کی وجہ:",
+    "approve": "منظور کرو",
+    "reject": "رد کرنا",
+    "viewError": "دستاویز نہیں کھول سکا۔",
+    "approveError": "اس توثیق کو منظور نہیں کیا جا سکا۔",
+    "rejectError": "اس توثیق کو مسترد نہیں کیا جا سکا۔",
+    "reasonRequired": "براہ کرم مسترد کرنے کی کوئی وجہ بتائیں۔",
+    "rejectDialog": {
+      "title": "تصدیق کو مسترد کریں۔",
+      "message": "{{name}} آپ کی وجہ دیکھیں گے اور نئی دستاویزات جمع کر سکتے ہیں۔",
+      "reasonLabel": "انکار کی وجہ",
+      "confirm": "رد کرنا"
+    }
+  },
   "sort": {
     "sortBy": "ترتیب دیں",
     "toggleDirection": "ترتیب کی سمت تبدیل کریں",
@@ -64,6 +97,7 @@
       "admin": "ایڈمن",
       "email": "ای میل",
       "status": "حیثیت",
+      "verification": "تصدیق",
       "residents": "رہائشی",
       "view": "دیکھیں"
     }

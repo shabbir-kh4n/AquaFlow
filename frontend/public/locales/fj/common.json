@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Digitaka na faile",
+    "change": "Veisautaka na faile",
+    "none": "Sega ni digitaki na faile"
+  },
   "authModal": {
     "close": "Voleka",
     "signUpTitle": "Rejisitataka na nomu itikotiko .",
@@ -188,6 +193,7 @@
       "support": "Veitokoni / Kauwai",
       "tariffPlans": "iTuvatuva ni Sausaumi",
       "announcements": "Kacivaka",
+      "verification": "Vakadeitaki",
       "profile": "Itukutuku"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Kacivaka",
         "subtitle": "Tabaka na itukutuku raraba vei ira na nomu lewenivanua."
       },
+      "verification": {
+        "title": "Vakadeitaki ni ivola",
+        "subtitle": "Vakauta mai na nomu ivola me rawa ni vakadeitaka na ituvatuva na nomu itikotiko."
+      },
       "profile": {
         "title": "Tuvatuva kei na itukutuku",
         "subtitle": "Vakatulewataka na nomu itukutuku ni akaude kei na itukutuku ni vale."
       }
     },
     "fallbackName": "Dauniveiliutaki",
+    "locked": "E rawa ni oti na kena vakadeitaki na nomu itikotiko .",
+    "verifyBanner": "E se bera ni vakadeitaki na nomu itikotiko, sa lokataki kina e levu na draunipepa.",
+    "verifyBannerLink": "Lako ki na Veivakadeitaki",
     "fallbackCommunity": "Dauniveiliutaki ni Vanua",
     "notBuilt": "{{label}} se bera ni tara",
     "searchPlaceholder": "Vakasaqara e dua na ka..."

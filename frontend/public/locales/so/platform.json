@@ -4,6 +4,39 @@
     "blocked": "xannibay",
     "terminated": "La joojiyay"
   },
+  "verification": {
+    "title": "Xaqiijinta Dukumentiga",
+    "status": {
+      "notSubmitted": "Lama gudbin",
+      "pending": "Dib u eegis la sugayo",
+      "approved": "La ansixiyay",
+      "rejected": "Waa la diiday"
+    },
+    "notSubmitted": "Maamulka beesha weli ma soo gudbin dukumentiyada xaqiijinta.",
+    "communityName": "Magaca beesha",
+    "address": "Cinwaanka",
+    "totalFlats": "Guryaha wadarta",
+    "totalBlocks": "Wadarta blocks",
+    "documentType": "Nooca dukumeenti",
+    "documentNumber": "Lambarka dukumeentiga",
+    "notes": "Faahfaahin",
+    "file": "Document (PDF)",
+    "submittedAt": "La soo gudbiyay",
+    "reviewedAt": "Dib loo eegay",
+    "rejectionReason": "Sababta loo diiday:",
+    "approve": "Ogow",
+    "reject": "Diid",
+    "viewError": "Ma furi karo dukumeentiga",
+    "approveError": "Ma oggolaan karo xaqiijintan.",
+    "rejectError": "Ma diidi karo xaqiijintan",
+    "reasonRequired": "Fadlan sheeg sababta aad u diiday",
+    "rejectDialog": {
+      "title": "Diid xaqiijinta",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "Sababta loo diiday",
+      "confirm": "Diid"
+    }
+  },
   "sort": {
     "sortBy": "Ku kala sooc",
     "toggleDirection": "U rog jihada kala soocida",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "iimaylka",
       "status": "Xaalada",
+      "verification": "Xaqiijinta",
       "residents": "Dadka deegaanka",
       "view": "Daawo"
     }

@@ -18,13 +18,16 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hydroledger.backend.dto.CommunityDetailResponse;
 import com.hydroledger.backend.dto.CommunitySummaryResponse;
 import com.hydroledger.backend.dto.SystemStatusResponse;
+import com.hydroledger.backend.entity.AdminVerification;
 import com.hydroledger.backend.entity.Apartment;
+import com.hydroledger.backend.entity.VerificationStatus;
 import com.hydroledger.backend.entity.CommunityAdmin;
 import com.hydroledger.backend.entity.CommunityAdminStatus;
 import com.hydroledger.backend.entity.Household;
 import com.hydroledger.backend.entity.Resident;
 import com.hydroledger.backend.entity.WaterMeter;
 import com.hydroledger.backend.exception.ApiException;
+import com.hydroledger.backend.repository.AdminVerificationRepository;
 import com.hydroledger.backend.repository.AlertConfigRepository;
 import com.hydroledger.backend.repository.AnnouncementRepository;
 import com.hydroledger.backend.repository.ApartmentRepository;
@@ -64,6 +67,7 @@ public class SystemAdminService {
     private final PushSubscriptionRepository pushSubscriptionRepository;
     private final SupportTicketRepository supportTicketRepository;
     private final AnnouncementRepository announcementRepository;
+    private final AdminVerificationRepository adminVerificationRepository;
     private final DataSource dataSource;
 
     @Value("${app.version}")
@@ -90,7 +94,10 @@ public class SystemAdminService {
                 householdCount,
                 residentCount,
                 admin.getCreatedAt(),
-                admin.getAvatarKey()
+                admin.getAvatarKey(),
+                adminVerificationRepository.findByAdmin(admin)
+                        .map(AdminVerification::getStatus)
+                        .orElse(VerificationStatus.NOT_SUBMITTED)
         );
     }
 
@@ -131,6 +138,9 @@ public class SystemAdminService {
     public void deleteCommunityAdmin(Long adminId) {
         CommunityAdmin admin = requireAdmin(adminId);
         Optional<Apartment> apartmentOpt = apartmentRepository.findByAdmin(admin);
+
+        // admin_verifications.admin_id has no ON DELETE CASCADE - delete it before the admin row.
+        adminVerificationRepository.deleteByAdmin(admin);
 
         if (apartmentOpt.isEmpty()) {
             communityAdminRepository.delete(admin);

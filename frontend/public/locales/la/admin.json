@@ -535,6 +535,68 @@
       "outstanding": "excellens"
     }
   },
+  "verification": {
+    "loading": "Loading verificationem…",
+    "loadError": "Non oneratis verificationem status. Quaeso, iterum conare.",
+    "viewError": "Documentum aperire non potuit.",
+    "statusTitle": "Comprobatio status",
+    "rejectionReason": "Ratio reiectionis;",
+    "status": {
+      "notSubmitted": "Non summitto",
+      "pending": "Eviewray review",
+      "approved": "Probatus",
+      "rejected": "reprobum"
+    },
+    "messages": {
+      "notSubmitted": "Subicite singularia et documenta vestrae congregationis infra. Donec approbantur solum Dashboard, Verificatione et Profile pagina uti potes.",
+      "pending": "Documenta tua cum tribunali administratori recognoscendae sunt. Donec approbantur solum Dashboard, Verificatione et Profile pagina uti potes.",
+      "approved": "Documenta tua comprobata sunt.",
+      "rejectedHint": "Pone constitutionem et documenta denuo infra subice."
+    },
+    "details": {
+      "communityName": "Nomen Communitatis",
+      "address": "Oratio",
+      "totalFlats": "summa blandit",
+      "totalBlocks": "Summa caudices",
+      "type": "Documenti type",
+      "number": "Documentum numerus",
+      "notes": "Singula",
+      "file": "Documentum (PDF)",
+      "submittedAt": "summitto",
+      "reviewedAt": "Recensuit"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Societas adnotatione certificatorium",
+      "ownershipProof": "Proprietas dominii probationem",
+      "governmentId": "Imperium ID",
+      "other": "Other"
+    },
+    "form": {
+      "title": "Submittere documenta",
+      "resubmitTitle": "Submit documenta iterum",
+      "documentType": "Documenti type",
+      "documentNumber": "Documentum numerus",
+      "details": "Additional details (libitum)",
+      "file": "Documentum PDF",
+      "fileHint": "PDF tantum, usque ad 5 MB.",
+      "communitySection": "Community details",
+      "documentSection": "Comprobatio documentum",
+      "communityName": "Communitas / societas nominis",
+      "address": "Oratio",
+      "city": "urbs",
+      "state": "publicae",
+      "pincode": "Pincode",
+      "totalFlats": "Totalis numerus blandit",
+      "totalBlocks": "Numerus caudices / turres (libitum)",
+      "fieldsRequired": "Quaeso, requiritur agris.",
+      "countInvalid": "Flat et caudices debent esse numeri saltem 1 .",
+      "fileRequired": "Quaeso, documentum appone PDF documentum.",
+      "tooLarge": "Tabella 5 MB vel minor erit.",
+      "submit": "Submit ad verificationem",
+      "submitting": "Submittendo…",
+      "submitError": "Documenta tua submittere non poterant. Quaeso, iterum conare."
+    }
+  },
   "announcements": {
     "loadError": "Nuntiis onerare non potuit. Quaeso, iterum conare.",
     "removeError": "Hoc denuntiatio delere non potuit. Quaeso, iterum conare.",

@@ -4,6 +4,39 @@
     "blocked": "ब्लॉक केल्ले",
     "terminated": "समाप्त केल्ले"
   },
+  "verification": {
+    "title": "दस्तावेज सत्यापन",
+    "status": {
+      "notSubmitted": "सादर करूंक ना",
+      "pending": "नियाळ प्रलंबीत आसा",
+      "approved": "मान्यतायप्राप्त",
+      "rejected": "नाका म्हणलें"
+    },
+    "notSubmitted": "ह्या कम्युनिटी एडमिनान अजून सत्यापन दस्तावेज सादर करूंक नात.",
+    "communityName": "समुदायाचें नांव",
+    "address": "नामो",
+    "totalFlats": "एकूण फ्लॅट",
+    "totalBlocks": "एकूण ब्लॉक",
+    "documentType": "दस्तावेजाचो प्रकार",
+    "documentNumber": "दस्तावेज क्रमांक",
+    "notes": "तपशील",
+    "file": "दस्तावेज (PDF) 1.1.",
+    "submittedAt": "सादर केला",
+    "reviewedAt": "नियाळ केला",
+    "rejectionReason": "नाका म्हणपाचें कारण: १.",
+    "approve": "मान्यताय",
+    "reject": "न्हयकार",
+    "viewError": "दस्तावेज उगडूंक शकलो ना.",
+    "approveError": "ह्या सत्यापनाक मान्यताय दिवंक मेळ्ळी ना.",
+    "rejectError": "हें सत्यापन न्हयकारूंक शकलें ना.",
+    "reasonRequired": "नाका म्हणपाचें कारण सांगात.",
+    "rejectDialog": {
+      "title": "सत्यापन न्हयकारप",
+      "message": "{{name}} तुमी दिल्लें कारण पळयतले आनी नवे दस्तावेज सादर करूंक शकतले.",
+      "reasonLabel": "नाका म्हणपाचें कारण",
+      "confirm": "न्हयकार"
+    }
+  },
   "sort": {
     "sortBy": "क्रमबद्ध करात",
     "toggleDirection": "क्रम बदलत",
@@ -64,6 +97,7 @@
       "admin": "ॲडमिन",
       "email": "ईमेल",
       "status": "स्थिती",
+      "verification": "सत्यापन करप",
       "residents": "रहिवासी",
       "view": "पळयात"
     }

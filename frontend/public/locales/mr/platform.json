@@ -4,6 +4,39 @@
     "blocked": "ब्लॉक केलेले",
     "terminated": "समाप्त केलेले"
   },
+  "verification": {
+    "title": "दस्तऐवज पडताळणी",
+    "status": {
+      "notSubmitted": "सादर केले नाही",
+      "pending": "प्रलंबित पुनरावलोकन",
+      "approved": "मंजूर",
+      "rejected": "नाकारले"
+    },
+    "notSubmitted": "या समुदाय प्रशासकाने अद्याप सत्यापन दस्तऐवज सबमिट केलेले नाहीत.",
+    "communityName": "समुदायाचे नाव",
+    "address": "पत्ता",
+    "totalFlats": "एकूण फ्लॅट्स",
+    "totalBlocks": "एकूण ब्लॉक्स",
+    "documentType": "दस्तऐवज प्रकार",
+    "documentNumber": "दस्तऐवज क्रमांक",
+    "notes": "तपशील",
+    "file": "दस्तऐवज (PDF)",
+    "submittedAt": "सादर केले",
+    "reviewedAt": "पुनरावलोकन केले",
+    "rejectionReason": "नाकारण्याचे कारण:",
+    "approve": "मंजूर करा",
+    "reject": "नकार द्या",
+    "viewError": "दस्तऐवज उघडू शकलो नाही.",
+    "approveError": "हे सत्यापन मंजूर करू शकलो नाही.",
+    "rejectError": "हे सत्यापन नाकारू शकलो नाही.",
+    "reasonRequired": "कृपया नाकारण्याचे कारण द्या.",
+    "rejectDialog": {
+      "title": "पडताळणी नाकारणे",
+      "message": "{{name}} तुम्ही दिलेले कारण पाहतील आणि नवीन कागदपत्रे सबमिट करू शकतात.",
+      "reasonLabel": "नकाराचे कारण",
+      "confirm": "नकार द्या"
+    }
+  },
   "sort": {
     "sortBy": "क्रमानुसार लावा",
     "toggleDirection": "क्रम बदलावा",
@@ -64,6 +97,7 @@
       "admin": "ॲडमिन",
       "email": "ईमेल",
       "status": "स्थिती",
+      "verification": "पडताळणी",
       "residents": "रहिवासी",
       "view": "पहा"
     }

@@ -4,6 +4,39 @@
     "blocked": "Geblokkeerd",
     "terminated": "Beëindigd"
   },
+  "verification": {
+    "title": "Documentverificatie",
+    "status": {
+      "notSubmitted": "Niet ingediend",
+      "pending": "In afwachting van beoordeling",
+      "approved": "Goedgekeurd",
+      "rejected": "Afgewezen"
+    },
+    "notSubmitted": "Deze communitybeheerder heeft nog geen verificatiedocumenten ingediend.",
+    "communityName": "Gemeenschapsnaam",
+    "address": "Adres",
+    "totalFlats": "Totaal appartementen",
+    "totalBlocks": "Totaal blokken",
+    "documentType": "Documenttype",
+    "documentNumber": "Documentnummer",
+    "notes": "Details",
+    "file": "Document (PDF)",
+    "submittedAt": "Ingediend",
+    "reviewedAt": "Beoordeeld",
+    "rejectionReason": "Reden voor afwijzing:",
+    "approve": "Goedkeuren",
+    "reject": "Afwijzen",
+    "viewError": "Kan het document niet openen.",
+    "approveError": "Kan deze verificatie niet goedkeuren.",
+    "rejectError": "Kan deze verificatie niet afwijzen.",
+    "reasonRequired": "Geef een reden voor afwijzing op.",
+    "rejectDialog": {
+      "title": "Verificatie afwijzen",
+      "message": "{{name}} ziet de reden die u opgeeft en kan nieuwe documenten indienen.",
+      "reasonLabel": "Reden voor afwijzing",
+      "confirm": "Afwijzen"
+    }
+  },
   "sort": {
     "sortBy": "Sorteer op",
     "toggleDirection": "Sorteerrichting wijzigen",
@@ -64,6 +97,7 @@
       "admin": "Beheerder",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Verificatie",
       "residents": "Bewoners",
       "view": "Weergave"
     }

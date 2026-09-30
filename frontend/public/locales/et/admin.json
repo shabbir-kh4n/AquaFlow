@@ -535,6 +535,68 @@
       "outstanding": "Silmapaistev"
     }
   },
+  "verification": {
+    "loading": "Kinnituse laadimine…",
+    "loadError": "Teie kinnitusolekut ei saanud laadida. Palun proovi uuesti.",
+    "viewError": "Dokumenti ei saanud avada.",
+    "statusTitle": "Kinnitamise olek",
+    "rejectionReason": "Tagasilükkamise põhjus:",
+    "status": {
+      "notSubmitted": "Esitamata",
+      "pending": "Ülevaatuse ootel",
+      "approved": "Kinnitatud",
+      "rejected": "Tagasi lükatud"
+    },
+    "messages": {
+      "notSubmitted": "Esitage allpool oma kogukonna üksikasjad ja dokumendid. Kuni nende kinnitamiseni saate kasutada ainult armatuurlaua, kinnituse ja profiili lehti.",
+      "pending": "Teie dokumendid on ülevaatamiseks platvormi administraatori käes. Kuni nende kinnitamiseni saate kasutada ainult armatuurlaua, kinnituse ja profiili lehti.",
+      "approved": "Teie dokumendid on kinnitatud.",
+      "rejectedHint": "Lahendage probleem ja esitage allpool oma dokumendid uuesti."
+    },
+    "details": {
+      "communityName": "kogukonna nimi",
+      "address": "Aadress",
+      "totalFlats": "Korterid kokku",
+      "totalBlocks": "Plokid kokku",
+      "type": "Dokumendi tüüp",
+      "number": "Dokumendi number",
+      "notes": "Üksikasjad",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Esitatud",
+      "reviewedAt": "Üle vaadatud"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Seltsi registreerimistunnistus",
+      "ownershipProof": "Kinnisvara omandiõigust tõendav dokument",
+      "governmentId": "Riiklik isikutunnistus",
+      "other": "muud"
+    },
+    "form": {
+      "title": "Esitage dokumendid",
+      "resubmitTitle": "Esitage dokumendid uuesti",
+      "documentType": "Dokumendi tüüp",
+      "documentNumber": "Dokumendi number",
+      "details": "Täiendavad üksikasjad (valikuline)",
+      "file": "Dokument PDF",
+      "fileHint": "Ainult PDF, kuni 5 MB.",
+      "communitySection": "Ühenduse üksikasjad",
+      "documentSection": "Tõendusdokument",
+      "communityName": "Ühenduse/seltsi nimi",
+      "address": "Aadress",
+      "city": "Linn",
+      "state": "osariik",
+      "pincode": "Pin-kood",
+      "totalFlats": "Korterite arv kokku",
+      "totalBlocks": "Plokkide/tornide arv (valikuline)",
+      "fieldsRequired": "Palun täitke kõik nõutud väljad.",
+      "countInvalid": "Korterite ja kvartalite arv peab olema vähemalt 1.",
+      "fileRequired": "Lisage PDF dokument.",
+      "tooLarge": "Fail peab olema 5 MB või väiksem.",
+      "submit": "Esitage kontrollimiseks",
+      "submitting": "Esitamine…",
+      "submitError": "Teie dokumente ei saanud esitada. Palun proovi uuesti."
+    }
+  },
   "announcements": {
     "loadError": "Teateid ei saanud laadida. Palun proovi uuesti.",
     "removeError": "Seda teadet ei saanud kustutada. Palun proovi uuesti.",

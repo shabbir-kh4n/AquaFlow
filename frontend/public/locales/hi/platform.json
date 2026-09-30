@@ -4,6 +4,39 @@
     "blocked": "अवरुद्ध",
     "terminated": "समाप्त"
   },
+  "verification": {
+    "title": "दस्तावेज़ सत्यापन",
+    "status": {
+      "notSubmitted": "प्रस्तुत नही किया है",
+      "pending": "समीक्षा लंबित है",
+      "approved": "अनुमत",
+      "rejected": "अस्वीकार कर दिया"
+    },
+    "notSubmitted": "इस समुदाय व्यवस्थापक ने अभी तक सत्यापन दस्तावेज़ जमा नहीं किए हैं.",
+    "communityName": "समुदाय का नाम",
+    "address": "पता",
+    "totalFlats": "कुल फ्लैट",
+    "totalBlocks": "कुल ब्लॉक",
+    "documentType": "दस्तावेज़ प्रकार",
+    "documentNumber": "दस्तावेज़ संख्या",
+    "notes": "विवरण",
+    "file": "दस्तावेज़ (PDF)",
+    "submittedAt": "प्रस्तुत किया गया",
+    "reviewedAt": "समीक्षित",
+    "rejectionReason": "खारिज करने का कारण:",
+    "approve": "मंज़ूरी देना",
+    "reject": "अस्वीकार करना",
+    "viewError": "दस्तावेज़ नहीं खुल सका.",
+    "approveError": "इस सत्यापन को मंजूरी नहीं दी जा सकी.",
+    "rejectError": "इस सत्यापन को अस्वीकार नहीं किया जा सका.",
+    "reasonRequired": "कृपया अस्वीकार करने का कारण बताएं.",
+    "rejectDialog": {
+      "title": "सत्यापन अस्वीकार करें",
+      "message": "{{name}} आपके द्वारा दिए गए कारण को देखेगा और नए दस्तावेज़ जमा कर सकता है।",
+      "reasonLabel": "खारिज करने का कारण",
+      "confirm": "अस्वीकार करना"
+    }
+  },
   "sort": {
     "sortBy": "क्रमबद्ध करें",
     "toggleDirection": "दिशा बदलें",
@@ -64,6 +97,7 @@
       "admin": "एडमिन",
       "email": "ईमेल",
       "status": "स्थिति",
+      "verification": "सत्यापन",
       "residents": "निवासी",
       "view": "देखें"
     }

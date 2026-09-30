@@ -223,3 +223,9 @@ button {
   --afr-chart-grid: #e3e8e0;
   --afr-chart-axis: #a9b5a5;
 }
+
+/* Native checkboxes/radios use the theme green everywhere (component rules can still override). */
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: var(--af-accent-2);
+}

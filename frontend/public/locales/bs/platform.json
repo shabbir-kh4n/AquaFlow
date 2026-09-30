@@ -4,6 +4,39 @@
     "blocked": "Blokirano",
     "terminated": "Prekinuto"
   },
+  "verification": {
+    "title": "Verifikacija dokumenta",
+    "status": {
+      "notSubmitted": "Nije dostavljeno",
+      "pending": "Na čekanju za pregled",
+      "approved": "Odobreno",
+      "rejected": "Odbijeno"
+    },
+    "notSubmitted": "Ovaj administrator zajednice još nije dostavio dokumente za verifikaciju.",
+    "communityName": "Ime zajednice",
+    "address": "Adresa",
+    "totalFlats": "Total flats",
+    "totalBlocks": "Totalni blokovi",
+    "documentType": "Vrsta dokumenta",
+    "documentNumber": "Broj dokumenta",
+    "notes": "Detalji",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Poslano",
+    "reviewedAt": "Recenzirano",
+    "rejectionReason": "Razlog za odbijanje:",
+    "approve": "Odobre",
+    "reject": "Odbiti",
+    "viewError": "Nije moguće otvoriti dokument.",
+    "approveError": "Nije moguće odobriti ovu potvrdu.",
+    "rejectError": "Nije moguće odbiti ovu potvrdu.",
+    "reasonRequired": "Molimo navedite razlog za odbijanje.",
+    "rejectDialog": {
+      "title": "Odbij verifikaciju",
+      "message": "{{name}} će vidjeti razlog koji navedete i može podnijeti nove dokumente.",
+      "reasonLabel": "Razlog za odbijanje",
+      "confirm": "Odbiti"
+    }
+  },
   "sort": {
     "sortBy": "Sortiraj po",
     "toggleDirection": "Prebaci smjer sortiranja",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Status",
+      "verification": "Verifikacija",
       "residents": "Stanovnici",
       "view": "Pogled"
     }

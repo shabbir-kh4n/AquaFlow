@@ -4,6 +4,39 @@
     "blocked": "Bloccatu",
     "terminated": "Terminatu"
   },
+  "verification": {
+    "title": "Verificazione di u documentu",
+    "status": {
+      "notSubmitted": "Ùn hè micca sottumessu",
+      "pending": "Revisione in attesa",
+      "approved": "Appruvatu",
+      "rejected": "Rifiutata"
+    },
+    "notSubmitted": "Stu amministratore di a cumunità ùn hà micca ancu inviatu documenti di verificazione.",
+    "communityName": "Nome di a cumunità",
+    "address": "Indirizzu",
+    "totalFlats": "Piatti totali",
+    "totalBlocks": "Blocchi totali",
+    "documentType": "Tipu di documentu",
+    "documentNumber": "Numeru di documentu",
+    "notes": "Dettagli",
+    "file": "Documentu (PDF)",
+    "submittedAt": "Inviatu",
+    "reviewedAt": "Rivista",
+    "rejectionReason": "Motivu di rifiutu:",
+    "approve": "Appruvà",
+    "reject": "Rifiuta",
+    "viewError": "Ùn pudia micca apre u documentu.",
+    "approveError": "Ùn pudia appruvà sta verificazione.",
+    "rejectError": "Ùn pudia micca ricusà sta verificazione.",
+    "reasonRequired": "Per piacè dà una ragione per u rifiutu.",
+    "rejectDialog": {
+      "title": "Rifiuta a verificazione",
+      "message": "{{name}} vi vede u mutivu chì dà è pò mandà novi documenti.",
+      "reasonLabel": "Motivu di rifiutu",
+      "confirm": "Rifiuta"
+    }
+  },
   "sort": {
     "sortBy": "Ordina per",
     "toggleDirection": "Cambia a direzzione di sorte",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mail",
       "status": "Status",
+      "verification": "Verificazione",
       "residents": "Residenti",
       "view": "Vede"
     }

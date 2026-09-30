@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Sceglie u schedariu",
+    "change": "Cambia u schedariu",
+    "none": "Nisun schedariu sceltu"
+  },
   "authModal": {
     "close": "Chiudi",
     "signUpTitle": "Registrate a vostra cumunità",
@@ -188,6 +193,7 @@
       "support": "Supportu / Preoccupazioni",
       "tariffPlans": "Piani tariffari",
       "announcements": "Annunci",
+      "verification": "Verificazione",
       "profile": "Prufilu"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Annunci",
         "subtitle": "Publicate avvisi in tutta a cumunità à i vostri residenti."
       },
+      "verification": {
+        "title": "Verificazione di u documentu",
+        "subtitle": "Inviate i vostri documenti per chì a piattaforma pò verificà a vostra cumunità."
+      },
       "profile": {
         "title": "Settings & Profile",
         "subtitle": "Gestisce i dati di u vostru contu è l'infurmazioni di l'appartamentu."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Disponibile dopu chì a vostra cumunità hè verificata",
+    "verifyBanner": "A vostra cumunità ùn hè ancu verificata, cusì a maiò parte di e pagine sò chjude.",
+    "verifyBannerLink": "Andà à Verification",
     "fallbackCommunity": "Amministratore di a cumunità",
     "notBuilt": "{{label}} ùn hè ancu custruitu",
     "searchPlaceholder": "Cerca qualcosa..."

@@ -535,6 +535,68 @@
       "outstanding": "Destacat"
     }
   },
+  "verification": {
+    "loading": "S'està carregant la verificació...",
+    "loadError": "No s'ha pogut carregar el vostre estat de verificació. Si us plau, torna-ho a provar.",
+    "viewError": "No s'ha pogut obrir el document.",
+    "statusTitle": "Estat de verificació",
+    "rejectionReason": "Motiu del rebuig:",
+    "status": {
+      "notSubmitted": "No enviat",
+      "pending": "Pendent de revisió",
+      "approved": "Aprovat",
+      "rejected": "Rebutjat"
+    },
+    "messages": {
+      "notSubmitted": "Envieu els detalls i els documents de la vostra comunitat a continuació. Fins que no s'aprovin, només podeu utilitzar les pàgines Tauler, Verificació i Perfil.",
+      "pending": "Els vostres documents estan amb un administrador de la plataforma per revisar-lo. Fins que no s'aprovin, només podeu utilitzar les pàgines Tauler, Verificació i Perfil.",
+      "approved": "Els vostres documents s'han verificat.",
+      "rejectedHint": "Solucioneu el problema i torneu a enviar els vostres documents a continuació."
+    },
+    "details": {
+      "communityName": "Nom de la comunitat",
+      "address": "Adreça",
+      "totalFlats": "Total de pisos",
+      "totalBlocks": "Blocs totals",
+      "type": "Tipus de document",
+      "number": "Número de document",
+      "notes": "Detalls",
+      "file": "Document (PDF)",
+      "submittedAt": "Presentat",
+      "reviewedAt": "Revisat"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificat de registre social",
+      "ownershipProof": "Acreditació de la propietat de la propietat",
+      "governmentId": "Identificació del govern",
+      "other": "Altres"
+    },
+    "form": {
+      "title": "Presentar documents",
+      "resubmitTitle": "Torna a enviar documents",
+      "documentType": "Tipus de document",
+      "documentNumber": "Número de document",
+      "details": "Detalls addicionals (opcional)",
+      "file": "Document PDF",
+      "fileHint": "Només PDF, fins a 5 MB.",
+      "communitySection": "Detalls de la comunitat",
+      "documentSection": "Document de verificació",
+      "communityName": "Nom de la comunitat/societat",
+      "address": "Adreça",
+      "city": "Ciutat",
+      "state": "Estat",
+      "pincode": "Codi PIN",
+      "totalFlats": "Nombre total de pisos",
+      "totalBlocks": "Nombre de blocs/torres (opcional)",
+      "fieldsRequired": "Si us plau, ompliu tots els camps obligatoris.",
+      "countInvalid": "Els pisos i els blocs han de ser números d'almenys 1.",
+      "fileRequired": "Adjunteu un document PDF.",
+      "tooLarge": "El fitxer ha de tenir 5 MB o menys.",
+      "submit": "Enviar per a la verificació",
+      "submitting": "S'està enviant…",
+      "submitError": "No s'han pogut enviar els vostres documents. Si us plau, torna-ho a provar."
+    }
+  },
   "announcements": {
     "loadError": "No s'han pogut carregar els anuncis. Si us plau, torna-ho a provar.",
     "removeError": "No s'ha pogut suprimir aquest anunci. Si us plau, torna-ho a provar.",

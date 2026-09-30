@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "ፋይል ምረጽ",
+    "change": "ፋይል ምቕያር",
+    "none": "ፋይል ኣይተመርጸን።"
+  },
   "authModal": {
     "close": "ዕፁው",
     "signUpTitle": "ማሕበረሰብኩም ኣመዝግቡ።",
@@ -188,6 +193,7 @@
       "support": "ደገፍ / ስክፍታታት",
       "tariffPlans": "ትልምታት ታሪፍ",
       "announcements": "ምልክታታት",
+      "verification": "ምርግጋጽ",
       "profile": "መግለፂ"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "ምልክታታት",
         "subtitle": "ንነበርትኻ ብደረጃ ማሕበረሰብ ዝምልከት ምልክታታት ምሕታም።"
       },
+      "verification": {
+        "title": "ምርግጋጽ ሰነድ",
+        "subtitle": "እቲ መድረኽ ንማሕበረሰብኩም ከረጋግጽ ምእንቲ ሰነዳትኩም ኣቕርብ።"
+      },
       "profile": {
         "title": "ቅጥዕታትን ፕሮፋይልን",
         "subtitle": "ዝርዝር ኣካውንትካን ሓበሬታ ኣፓርታማኻን ኣመሓድር።"
       }
     },
     "fallbackName": "ኣድሚን",
+    "locked": "ማሕበረሰብካ ምስተረጋገጸ ይርከብ።",
+    "verifyBanner": "ማሕበረሰብካ ገና ኣይተረጋገጸን፣ ስለዚ መብዛሕትኦም ገጻት ተዓጽዮም ኣለዉ።",
+    "verifyBannerLink": "ናብ ምርግጋጽ ኪድ",
     "fallbackCommunity": "ማሕበረሰብ ኣድሚን",
     "notBuilt": "{{label}} ገና ኣይተሃንጸን።",
     "searchPlaceholder": "ዝኾነ ነገር ድለዩ..."

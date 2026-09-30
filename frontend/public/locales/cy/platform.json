@@ -4,6 +4,39 @@
     "blocked": "Wedi'i rwystro",
     "terminated": "Terfynwyd"
   },
+  "verification": {
+    "title": "Dilysu Dogfen",
+    "status": {
+      "notSubmitted": "Heb ei gyflwyno",
+      "pending": "Adolygiad yn aros",
+      "approved": "Cymeradwy",
+      "rejected": "Gwrthodwyd"
+    },
+    "notSubmitted": "Nid yw'r gweinyddwr cymunedol hwn wedi cyflwyno dogfennau dilysu eto.",
+    "communityName": "Enw cymuned",
+    "address": "Cyfeiriad",
+    "totalFlats": "Cyfanswm y fflatiau",
+    "totalBlocks": "Cyfanswm blociau",
+    "documentType": "Math o ddogfen",
+    "documentNumber": "Rhif y ddogfen",
+    "notes": "Manylion",
+    "file": "Dogfen (PDF)",
+    "submittedAt": "Cyflwynwyd",
+    "reviewedAt": "Adolygwyd",
+    "rejectionReason": "Rheswm dros wrthod:",
+    "approve": "Cymeradwyo",
+    "reject": "Gwrthod",
+    "viewError": "Methu agor y ddogfen.",
+    "approveError": "Methu â chymeradwyo'r dilysiad hwn.",
+    "rejectError": "Methu â gwrthod y dilysiad hwn.",
+    "reasonRequired": "Rhowch reswm dros wrthod.",
+    "rejectDialog": {
+      "title": "Gwrthod dilysu",
+      "message": "Bydd {{name}} yn gweld y rheswm a roddwch ac yn gallu cyflwyno dogfennau newydd.",
+      "reasonLabel": "Rheswm dros wrthod",
+      "confirm": "Gwrthod"
+    }
+  },
   "sort": {
     "sortBy": "Trefnu yn ôl",
     "toggleDirection": "Toglo cyfeiriad didoli",
@@ -64,6 +97,7 @@
       "admin": "Gweinyddol",
       "email": "Ebost",
       "status": "Statws",
+      "verification": "Dilysu",
       "residents": "Preswylwyr",
       "view": "Golwg"
     }

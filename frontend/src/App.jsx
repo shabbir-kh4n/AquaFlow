@@ -16,6 +16,7 @@ import BillingCycles from './pages/admin/BillingCycles'
 import BulkWaterPurchases from './pages/admin/BulkWaterPurchases'
 import WaterLeakage from './pages/admin/WaterLeakage'
 import AdminProfile from './pages/admin/AdminProfile'
+import Verification from './pages/admin/Verification'
 import AdminReports from './pages/admin/AdminReports'
 import Announcements from './pages/admin/Announcements'
 import ComingSoon from './pages/admin/ComingSoon'
@@ -83,6 +84,7 @@ function App() {
               <Route path="/admin/water-leakage" element={<WaterLeakage />} />
               <Route path="/admin/support" element={<SupportConcerns />} />
               <Route path="/admin/profile" element={<AdminProfile />} />
+              <Route path="/admin/verification" element={<Verification />} />
               <Route path="/admin/reports" element={<AdminReports />} />
               <Route path="/admin/announcements" element={<Announcements />} />
 

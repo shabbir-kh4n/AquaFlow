@@ -4,6 +4,39 @@
     "blocked": "poloka",
     "terminated": "Fa'amuta"
   },
+  "verification": {
+    "title": "Fa'amaoniga o Pepa",
+    "status": {
+      "notSubmitted": "E lei tuuina atu",
+      "pending": "Talia le iloiloga",
+      "approved": "Faamaonia",
+      "rejected": "Teena"
+    },
+    "notSubmitted": "E le'i tu'uina mai e lenei pule fa'alapotopotoga ni pepa fa'amaonia.",
+    "communityName": "igoa ole nuu",
+    "address": "tuatusi",
+    "totalFlats": "Aofa'i fale mautotogi",
+    "totalBlocks": "Aofa'i poloka",
+    "documentType": "Ituaiga pepa",
+    "documentNumber": "Numera pepa",
+    "notes": "Fa'amatalaga",
+    "file": "Pepa (PDF)",
+    "submittedAt": "Tuuina atu",
+    "reviewedAt": "Toe iloilo",
+    "rejectionReason": "Mafuaaga mo le teena:",
+    "approve": "Faamaonia",
+    "reject": "Teena",
+    "viewError": "Le mafai ona tatala le pepa.",
+    "approveError": "Le mafai ona fa'amaonia lenei fa'amaoniga.",
+    "rejectError": "Le mafai ona teena lenei fa'amaoniga.",
+    "reasonRequired": "Faamolemole aumai se mafuaaga e tete'e ai.",
+    "rejectDialog": {
+      "title": "Teena le fa'amaoniga",
+      "message": "{{name}} o le a iloa le mafuaʻaga e te tuʻuina atu ma e mafai ona tuʻuina atu pepa fou.",
+      "reasonLabel": "Mafuaaga mo le teena",
+      "confirm": "Teena"
+    }
+  },
   "sort": {
     "sortBy": "Fa'avasega i",
     "toggleDirection": "Togomi le fa'avasegaga",
@@ -64,6 +97,7 @@
       "admin": "Pule",
       "email": "imeli",
       "status": "Tulaga",
+      "verification": "Fa'amaoniga",
       "residents": "Tagata nofomau",
       "view": "Va'aiga"
     }

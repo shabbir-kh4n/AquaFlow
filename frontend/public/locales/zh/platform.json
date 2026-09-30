@@ -4,6 +4,39 @@
     "blocked": "被阻止",
     "terminated": "终止"
   },
+  "verification": {
+    "title": "文件验证",
+    "status": {
+      "notSubmitted": "未提交",
+      "pending": "待审核",
+      "approved": "得到正式认可的",
+      "rejected": "被拒绝"
+    },
+    "notSubmitted": "该社区管理员尚未提交验证文件。",
+    "communityName": "社区名称",
+    "address": "地址",
+    "totalFlats": "公寓总数",
+    "totalBlocks": "总块数",
+    "documentType": "文件类型",
+    "documentNumber": "文件编号",
+    "notes": "细节",
+    "file": "文档（PDF）",
+    "submittedAt": "已提交",
+    "reviewedAt": "已审核",
+    "rejectionReason": "拒绝原因：",
+    "approve": "批准",
+    "reject": "拒绝",
+    "viewError": "无法打开文档。",
+    "approveError": "无法批准此验证。",
+    "rejectError": "无法拒绝此验证。",
+    "reasonRequired": "请给出拒绝的理由。",
+    "rejectDialog": {
+      "title": "拒绝验证",
+      "message": "{{name}} 将看到您给出的原因并可以提交新文件。",
+      "reasonLabel": "拒绝原因",
+      "confirm": "拒绝"
+    }
+  },
   "sort": {
     "sortBy": "排序方式",
     "toggleDirection": "切换排序方向",
@@ -64,6 +97,7 @@
       "admin": "行政",
       "email": "电子邮件",
       "status": "地位",
+      "verification": "确认",
       "residents": "居民",
       "view": "看法"
     }

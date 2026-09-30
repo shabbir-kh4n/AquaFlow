@@ -535,6 +535,68 @@
       "outstanding": "並外れた"
     }
   },
+  "verification": {
+    "loading": "検証を読み込み中…",
+    "loadError": "検証ステータスを読み込めませんでした。もう一度試してください。",
+    "viewError": "ドキュメントを開けませんでした。",
+    "statusTitle": "検証状況",
+    "rejectionReason": "拒否の理由:",
+    "status": {
+      "notSubmitted": "未提出",
+      "pending": "審査待ち",
+      "approved": "承認された",
+      "rejected": "拒否されました"
+    },
+    "messages": {
+      "notSubmitted": "コミュニティの詳細と書類を以下に送信してください。承認されるまでは、[ダッシュボード]、[検証]、および [プロファイル] ページのみを使用できます。",
+      "pending": "あなたのドキュメントはレビューのためにプラットフォーム管理者に預けられています。承認されるまでは、[ダッシュボード]、[検証]、および [プロファイル] ページのみを使用できます。",
+      "approved": "あなたの書類が確認されました。",
+      "rejectedHint": "問題を修正して、以下に書類を再度提出してください。"
+    },
+    "details": {
+      "communityName": "コミュニティ名",
+      "address": "住所",
+      "totalFlats": "アパート総数",
+      "totalBlocks": "総ブロック数",
+      "type": "文書の種類",
+      "number": "文書番号",
+      "notes": "詳細",
+      "file": "ドキュメント (PDF)",
+      "submittedAt": "提出済み",
+      "reviewedAt": "レビュー済み"
+    },
+    "documentTypes": {
+      "registrationCertificate": "学会登録証明書",
+      "ownershipProof": "不動産所有権の証明",
+      "governmentId": "政府ID",
+      "other": "他の"
+    },
+    "form": {
+      "title": "書類の提出",
+      "resubmitTitle": "再度書類を提出してください",
+      "documentType": "文書の種類",
+      "documentNumber": "文書番号",
+      "details": "追加の詳細 (オプション)",
+      "file": "ドキュメント PDF",
+      "fileHint": "PDF のみ、最大 5 MB。",
+      "communitySection": "コミュニティの詳細",
+      "documentSection": "確認書類",
+      "communityName": "コミュニティ・団体名",
+      "address": "住所",
+      "city": "市",
+      "state": "州",
+      "pincode": "ピンコード",
+      "totalFlats": "アパート総数",
+      "totalBlocks": "ブロック/タワーの数 (オプション)",
+      "fieldsRequired": "必須フィールドをすべて入力してください。",
+      "countInvalid": "フラットとブロックは少なくとも 1 の数値でなければなりません。",
+      "fileRequired": "PDF の文書を添付してください。",
+      "tooLarge": "ファイルは 5 MB 以下である必要があります。",
+      "submit": "検証のために送信する",
+      "submitting": "送信中…",
+      "submitError": "書類を提出できませんでした。もう一度試してください。"
+    }
+  },
   "announcements": {
     "loadError": "お知らせを読み込めませんでした。もう一度試してください。",
     "removeError": "このお知らせを削除できませんでした。もう一度試してください。",

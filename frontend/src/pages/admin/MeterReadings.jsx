@@ -4,6 +4,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import { listResidents } from '../../api/residentApi'
 import { bulkUploadUsageCsv, listUsageReadings, recordUsageReading } from '../../api/meterUsageApi'
 import '../../components/AuthForm.css'
+import FilePicker from '../../components/FilePicker'
 import './MeterReadings.css'
 
 function today() {
@@ -504,9 +505,10 @@ function MeterReadings() {
           <form onSubmit={handleCsvSubmit} className="af-mr__csv-form">
             {csvError && <div className="af-form__error">{csvError}</div>}
 
-            <input
-              type="file"
+            <FilePicker
+              id="meterCsvFile"
               accept=".csv,text/csv"
+              file={csvFile}
               onChange={(e) => setCsvFile(e.target.files?.[0] || null)}
             />
 

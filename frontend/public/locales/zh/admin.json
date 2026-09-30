@@ -535,6 +535,68 @@
       "outstanding": "杰出的"
     }
   },
+  "verification": {
+    "loading": "正在加载验证...",
+    "loadError": "无法加载您的验证状态。请再试一次。",
+    "viewError": "无法打开文档。",
+    "statusTitle": "验证状态",
+    "rejectionReason": "拒绝原因：",
+    "status": {
+      "notSubmitted": "未提交",
+      "pending": "待审核",
+      "approved": "得到正式认可的",
+      "rejected": "被拒绝"
+    },
+    "messages": {
+      "notSubmitted": "请在下面提交您社区的详细信息和文件。在获得批准之前，您只能使用仪表板、验证和配置文件页面。",
+      "pending": "您的文档将由平台管理员审核。在获得批准之前，您只能使用仪表板、验证和配置文件页面。",
+      "approved": "您的文件已经过验证。",
+      "rejectedHint": "修复问题并在下面再次提交您的文档。"
+    },
+    "details": {
+      "communityName": "社区名称",
+      "address": "地址",
+      "totalFlats": "公寓总数",
+      "totalBlocks": "总块数",
+      "type": "文件类型",
+      "number": "文件编号",
+      "notes": "细节",
+      "file": "文档（PDF）",
+      "submittedAt": "已提交",
+      "reviewedAt": "已审核"
+    },
+    "documentTypes": {
+      "registrationCertificate": "社团登记证书",
+      "ownershipProof": "房产所有权证明",
+      "governmentId": "政府身份证",
+      "other": "其他"
+    },
+    "form": {
+      "title": "提交文件",
+      "resubmitTitle": "再次提交文件",
+      "documentType": "文件类型",
+      "documentNumber": "文件编号",
+      "details": "其他详细信息（可选）",
+      "file": "文档 PDF",
+      "fileHint": "仅限 PDF，最多 5 MB。",
+      "communitySection": "社区详情",
+      "documentSection": "验证文件",
+      "communityName": "社区/社团名称",
+      "address": "地址",
+      "city": "城市",
+      "state": "状态",
+      "pincode": "密码",
+      "totalFlats": "单位总数",
+      "totalBlocks": "街区/塔楼数量（可选）",
+      "fieldsRequired": "请填写所有必填字段。",
+      "countInvalid": "单位和块的数字必须至少为 1。",
+      "fileRequired": "请附上PDF文件。",
+      "tooLarge": "文件必须为 5 MB 或更小。",
+      "submit": "提交验证",
+      "submitting": "正在提交...",
+      "submitError": "无法提交您的文件。请再试一次。"
+    }
+  },
   "announcements": {
     "loadError": "无法加载公告。请再试一次。",
     "removeError": "无法删除此公告。请再试一次。",

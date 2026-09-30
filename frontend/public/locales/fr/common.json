@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Choisir un fichier",
+    "change": "Changer de fichier",
+    "none": "Aucun fichier choisi"
+  },
   "authModal": {
     "close": "Fermer",
     "signUpTitle": "Enregistrez votre communauté",
@@ -188,6 +193,7 @@
       "support": "Soutien / Préoccupations",
       "tariffPlans": "Plans tarifaires",
       "announcements": "Annonces",
+      "verification": "Vérification",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Annonces",
         "subtitle": "Publiez des avis à l’échelle de la communauté à vos résidents."
       },
+      "verification": {
+        "title": "Vérification des documents",
+        "subtitle": "Soumettez vos documents afin que la plateforme puisse vérifier votre communauté."
+      },
       "profile": {
         "title": "Paramètres et profil",
         "subtitle": "Gérez les détails de votre compte et les informations sur l'appartement."
       }
     },
     "fallbackName": "Administrateur",
+    "locked": "Disponible après vérification de votre communauté",
+    "verifyBanner": "Votre communauté n'est pas encore vérifiée, la plupart des pages sont donc verrouillées.",
+    "verifyBannerLink": "Aller à la vérification",
     "fallbackCommunity": "Administrateur de la communauté",
     "notBuilt": "{{label}} n'est pas encore construit",
     "searchPlaceholder": "Recherchez n'importe quoi…"

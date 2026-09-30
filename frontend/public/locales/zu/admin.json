@@ -535,6 +535,68 @@
       "outstanding": "Okuvelele"
     }
   },
+  "verification": {
+    "loading": "Ilayisha ukuqinisekiswa...",
+    "loadError": "Ayikwazanga ukulayisha isimo sakho sokuqinisekisa. Sicela uzame futhi.",
+    "viewError": "Ayikwazanga ukuvula idokhumenti.",
+    "statusTitle": "Isimo sokuqinisekisa",
+    "rejectionReason": "Isizathu sokwenqatshwa:",
+    "status": {
+      "notSubmitted": "Akuthunyelwe",
+      "pending": "Kusalinde ukubuyekezwa",
+      "approved": "Kuvunyelwe",
+      "rejected": "Kwaliwe"
+    },
+    "messages": {
+      "notSubmitted": "Thumela imininingwane yomphakathi wakho namadokhumenti ngezansi. Zize zigunyazwe ungasebenzisa kuphela Ideshibhodi, Amakhasi Okuqinisekisa kanye Nephrofayela.",
+      "pending": "Amadokhumenti akho anomlawuli wenkundla ukuze abuyekezwe. Zize zigunyazwe ungasebenzisa kuphela Ideshibhodi, Amakhasi Okuqinisekisa kanye Nephrofayela.",
+      "approved": "Amadokhumenti akho aqinisekisiwe.",
+      "rejectedHint": "Lungisa inkinga bese uhambisa amadokhumenti akho futhi ngezansi."
+    },
+    "details": {
+      "communityName": "Igama lomphakathi",
+      "address": "Ikheli",
+      "totalFlats": "Amafulethi aphelele",
+      "totalBlocks": "Isamba samabhlogo",
+      "type": "Uhlobo lwedokhumenti",
+      "number": "Inombolo yedokhumenti",
+      "notes": "Imininingwane",
+      "file": "Idokhumenti (PDF)",
+      "submittedAt": "Kuthunyelwe",
+      "reviewedAt": "Kubuyekeziwe"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Isitifiketi sokubhaliswa komphakathi",
+      "ownershipProof": "Ubufakazi bobunikazi bendawo",
+      "governmentId": "Umazisi kahulumeni",
+      "other": "Okunye"
+    },
+    "form": {
+      "title": "Thumela imibhalo",
+      "resubmitTitle": "Thumela amadokhumenti futhi",
+      "documentType": "Uhlobo lwedokhumenti",
+      "documentNumber": "Inombolo yedokhumenti",
+      "details": "Imininingwane engeziwe (kuyakhetheka)",
+      "file": "Idokhumenti PDF",
+      "fileHint": "PDF kuphela, kufika ku-5 MB.",
+      "communitySection": "Imininingwane yomphakathi",
+      "documentSection": "Idokhumenti yokuqinisekisa",
+      "communityName": "Igama lomphakathi / lomphakathi",
+      "address": "Ikheli",
+      "city": "Idolobha",
+      "state": "Izwe",
+      "pincode": "Iphinikhodi",
+      "totalFlats": "Isamba senani lamafulethi",
+      "totalBlocks": "Inombolo yamabhulokhi / imibhoshongo (kuyakhetheka)",
+      "fieldsRequired": "Sicela ugcwalise zonke izinkambu ezidingekayo.",
+      "countInvalid": "Amafulethi namabhulokhi kufanele kube izinombolo okungenani ezi-1.",
+      "fileRequired": "Sicela unamathisele idokhumenti PDF.",
+      "tooLarge": "Ifayela kufanele libe ngu-5 MB noma ngaphansi.",
+      "submit": "Thumela ukuze kuqinisekiswe",
+      "submitting": "Iyahambisa...",
+      "submitError": "Ayikwazanga ukuhambisa amadokhumenti akho. Sicela uzame futhi."
+    }
+  },
   "announcements": {
     "loadError": "Ayikwazanga ukulayisha izimemezelo. Sicela uzame futhi.",
     "removeError": "Ayikwazanga ukususa lesi simemezelo. Sicela uzame futhi.",

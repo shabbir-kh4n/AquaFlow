@@ -535,6 +535,68 @@
       "outstanding": "Hervorragend"
     }
   },
+  "verification": {
+    "loading": "Bestätigung wird geladen…",
+    "loadError": "Ihr Verifizierungsstatus konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "viewError": "Das Dokument konnte nicht geöffnet werden.",
+    "statusTitle": "Verifizierungsstatus",
+    "rejectionReason": "Grund für die Ablehnung:",
+    "status": {
+      "notSubmitted": "Nicht eingereicht",
+      "pending": "Ausstehende Überprüfung",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt"
+    },
+    "messages": {
+      "notSubmitted": "Senden Sie unten die Details und Dokumente Ihrer Community. Bis zur Genehmigung können Sie nur die Seiten Dashboard, Verifizierung und Profil verwenden.",
+      "pending": "Ihre Dokumente liegen zur Überprüfung bei einem Plattformadministrator. Bis zur Genehmigung können Sie nur die Seiten Dashboard, Verifizierung und Profil verwenden.",
+      "approved": "Ihre Dokumente wurden überprüft.",
+      "rejectedHint": "Beheben Sie das Problem und reichen Sie Ihre Dokumente unten erneut ein."
+    },
+    "details": {
+      "communityName": "Community-Name",
+      "address": "Adresse",
+      "totalFlats": "Insgesamt Wohnungen",
+      "totalBlocks": "Gesamtblöcke",
+      "type": "Dokumenttyp",
+      "number": "Dokumentennummer",
+      "notes": "Details",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Eingereicht",
+      "reviewedAt": "Bewertet"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Registrierungsbescheinigung des Vereins",
+      "ownershipProof": "Eigentumsnachweis",
+      "governmentId": "Regierungsausweis",
+      "other": "Andere"
+    },
+    "form": {
+      "title": "Unterlagen einreichen",
+      "resubmitTitle": "Dokumente erneut einreichen",
+      "documentType": "Dokumenttyp",
+      "documentNumber": "Dokumentennummer",
+      "details": "Zusätzliche Details (optional)",
+      "file": "Dokument PDF",
+      "fileHint": "Nur PDF, bis zu 5 MB.",
+      "communitySection": "Community-Details",
+      "documentSection": "Verifizierungsdokument",
+      "communityName": "Name der Gemeinschaft/Gesellschaft",
+      "address": "Adresse",
+      "city": "Stadt",
+      "state": "Zustand",
+      "pincode": "PIN-Code",
+      "totalFlats": "Gesamtzahl der Wohnungen",
+      "totalBlocks": "Anzahl Blöcke/Türme (optional)",
+      "fieldsRequired": "Bitte füllen Sie alle erforderlichen Felder aus.",
+      "countInvalid": "Wohnungen und Blöcke müssen eine Anzahl von mindestens 1 haben.",
+      "fileRequired": "Bitte fügen Sie ein PDF Dokument bei.",
+      "tooLarge": "Die Datei darf maximal 5 MB groß sein.",
+      "submit": "Zur Überprüfung einreichen",
+      "submitting": "Einreichen…",
+      "submitError": "Ihre Unterlagen konnten nicht übermittelt werden. Bitte versuchen Sie es erneut."
+    }
+  },
   "announcements": {
     "loadError": "Ankündigungen konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
     "removeError": "Diese Ankündigung konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Dewiswch ffeil",
+    "change": "Newid ffeil",
+    "none": "Dim ffeil wedi'i dewis"
+  },
   "authModal": {
     "close": "Cau",
     "signUpTitle": "Cofrestrwch eich cymuned",
@@ -188,6 +193,7 @@
       "support": "Cefnogaeth / Pryderon",
       "tariffPlans": "Cynlluniau Tariff",
       "announcements": "Cyhoeddiadau",
+      "verification": "Dilysu",
       "profile": "Proffil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Cyhoeddiadau",
         "subtitle": "Cyhoeddi hysbysiadau cymunedol i'ch preswylwyr."
       },
+      "verification": {
+        "title": "Dilysu Dogfen",
+        "subtitle": "Cyflwyno'ch dogfennau fel y gall y platfform wirio'ch cymuned."
+      },
       "profile": {
         "title": "Gosodiadau a Phroffil",
         "subtitle": "Rheoli manylion eich cyfrif a gwybodaeth am fflat."
       }
     },
     "fallbackName": "Gweinyddol",
+    "locked": "Ar gael ar ôl i'ch cymuned gael ei dilysu",
+    "verifyBanner": "Nid yw eich cymuned wedi'i dilysu eto, felly mae'r rhan fwyaf o dudalennau wedi'u cloi.",
+    "verifyBannerLink": "Ewch i Gwirio",
     "fallbackCommunity": "Gweinyddiaeth Gymunedol",
     "notBuilt": "{{label}} heb ei adeiladu eto",
     "searchPlaceholder": "Chwiliwch unrhyw beth…"

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Agħżel fajl",
+    "change": "Ibdel il-fajl",
+    "none": "Ebda fajl magħżul"
+  },
   "authModal": {
     "close": "Agħlaq",
     "signUpTitle": "Irreġistra l-komunità tiegħek",
@@ -188,6 +193,7 @@
       "support": "Appoġġ / Tħassib",
       "tariffPlans": "Pjanijiet ta' Tariffi",
       "announcements": "Avviżi",
+      "verification": "Verifika",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Avviżi",
         "subtitle": "Ippubblika avviżi mal-komunità kollha lir-residenti tiegħek."
       },
+      "verification": {
+        "title": "Verifika tad-Dokument",
+        "subtitle": "Ibgħat id-dokumenti tiegħek sabiex il-pjattaforma tkun tista' tivverifika l-komunità tiegħek."
+      },
       "profile": {
         "title": "Settings & Profil",
         "subtitle": "Immaniġġja d-dettalji tal-kont tiegħek u l-informazzjoni tal-appartament."
       }
     },
     "fallbackName": "Amministratur",
+    "locked": "Disponibbli wara li l-komunità tiegħek tiġi vverifikata",
+    "verifyBanner": "Il-komunità tiegħek għadha mhix verifikata, għalhekk ħafna mill-paġni huma msakkra.",
+    "verifyBannerLink": "Mur għall-Verifika",
     "fallbackCommunity": "Amministratur tal-Komunità",
     "notBuilt": "{{label}} għadu mhux mibni",
     "searchPlaceholder": "Fittex xi ħaġa..."

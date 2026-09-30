@@ -6,8 +6,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpStatusCodeException;
+import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.RestClientException;
 
@@ -56,6 +59,26 @@ public class GeminiClient {
                     .retrieve()
                     .body(new ParameterizedTypeReference<Map<String, Object>>() {
                     });
+        } catch (HttpStatusCodeException ex) {
+            HttpStatusCode status = ex.getStatusCode();
+            log.error("Gemini API call failed with status {}: {}", status, ex.getResponseBodyAsString(), ex);
+            if (status.value() == 429) {
+                throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE,
+                        "AI assistant is rate-limited right now. Please wait a moment and try again.");
+            }
+            if (status.value() == 401 || status.value() == 403) {
+                throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE,
+                        "AI assistant is misconfigured (authentication failed). Please contact an administrator.");
+            }
+            if (status.is5xxServerError()) {
+                throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE,
+                        "AI assistant provider is having issues right now. Please try again shortly.");
+            }
+            throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE, "AI assistant is temporarily unavailable");
+        } catch (ResourceAccessException ex) {
+            log.error("Gemini API call timed out or was unreachable", ex);
+            throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE,
+                    "AI assistant took too long to respond. Please try again.");
         } catch (RestClientException ex) {
             log.error("Gemini API call failed", ex);
             throw new ApiException(HttpStatus.SERVICE_UNAVAILABLE, "AI assistant is temporarily unavailable");

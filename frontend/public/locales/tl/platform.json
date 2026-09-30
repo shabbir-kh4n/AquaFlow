@@ -4,6 +4,39 @@
     "blocked": "Na-block",
     "terminated": "Tinapos"
   },
+  "verification": {
+    "title": "Pagpapatunay ng Dokumento",
+    "status": {
+      "notSubmitted": "Hindi isinumite",
+      "pending": "Nakabinbing pagsusuri",
+      "approved": "Naaprubahan",
+      "rejected": "Tinanggihan"
+    },
+    "notSubmitted": "Ang admin ng komunidad na ito ay hindi pa nagsusumite ng mga dokumento sa pagpapatunay.",
+    "communityName": "Pangalan ng komunidad",
+    "address": "Address",
+    "totalFlats": "Kabuuang mga flat",
+    "totalBlocks": "Kabuuang mga bloke",
+    "documentType": "Uri ng dokumento",
+    "documentNumber": "Numero ng dokumento",
+    "notes": "Mga Detalye",
+    "file": "Dokumento (PDF)",
+    "submittedAt": "Naisumite",
+    "reviewedAt": "Sinuri",
+    "rejectionReason": "Dahilan ng pagtanggi:",
+    "approve": "Aprubahan",
+    "reject": "Tanggihan",
+    "viewError": "Hindi mabuksan ang dokumento.",
+    "approveError": "Hindi maaprubahan ang pag-verify na ito.",
+    "rejectError": "Hindi ma-reject ang pag-verify na ito.",
+    "reasonRequired": "Mangyaring magbigay ng dahilan para sa pagtanggi.",
+    "rejectDialog": {
+      "title": "Tanggihan ang pag-verify",
+      "message": "Makikita ng {{name}} ang dahilan kung bakit ka nagbibigay at maaaring magsumite ng mga bagong dokumento.",
+      "reasonLabel": "Dahilan ng pagtanggi",
+      "confirm": "Tanggihan"
+    }
+  },
   "sort": {
     "sortBy": "Pagbukud-bukurin ayon sa",
     "toggleDirection": "I-toggle ang direksyon ng pag-uuri",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Katayuan",
+      "verification": "Pagpapatunay",
       "residents": "Mga residente",
       "view": "Tingnan"
     }

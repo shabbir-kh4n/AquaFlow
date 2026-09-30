@@ -4,6 +4,39 @@
     "blocked": "Kuvinjiwe",
     "terminated": "Inqanyuliwe"
   },
+  "verification": {
+    "title": "Ukuqinisekiswa Kwedokhumenti",
+    "status": {
+      "notSubmitted": "Akuthunyelwe",
+      "pending": "Kusalinde ukubuyekezwa",
+      "approved": "Kuvunyelwe",
+      "rejected": "Kwaliwe"
+    },
+    "notSubmitted": "Lo mphathi womphakathi akakawahambisi amadokhumenti okuqinisekisa okwamanje.",
+    "communityName": "Igama lomphakathi",
+    "address": "Ikheli",
+    "totalFlats": "Amafulethi aphelele",
+    "totalBlocks": "Isamba samabhlogo",
+    "documentType": "Uhlobo lwedokhumenti",
+    "documentNumber": "Inombolo yedokhumenti",
+    "notes": "Imininingwane",
+    "file": "Idokhumenti (PDF)",
+    "submittedAt": "Kuthunyelwe",
+    "reviewedAt": "Kubuyekeziwe",
+    "rejectionReason": "Isizathu sokwenqatshwa:",
+    "approve": "Gunyaza",
+    "reject": "Yenqaba",
+    "viewError": "Ayikwazanga ukuvula idokhumenti.",
+    "approveError": "Ayikwazanga ukugunyaza lokhu kuqinisekiswa.",
+    "rejectError": "Ayikwazanga ukwenqaba lokhu kuqinisekiswa.",
+    "reasonRequired": "Sicela unikeze isizathu sokwenqaba.",
+    "rejectDialog": {
+      "title": "Yenqaba ukuqinisekiswa",
+      "message": "{{name}} uzobona isizathu osinikezile futhi angahambisa amadokhumenti amasha.",
+      "reasonLabel": "Isizathu sokwenqatshwa",
+      "confirm": "Yenqaba"
+    }
+  },
   "sort": {
     "sortBy": "Hlunga nge",
     "toggleDirection": "Guqula isiqondisindlela sokuhlunga",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "I-imeyili",
       "status": "Isimo",
+      "verification": "Ukuqinisekisa",
       "residents": "Izakhamuzi",
       "view": "Buka"
     }

@@ -535,6 +535,68 @@
       "outstanding": "የላቀ"
     }
   },
+  "verification": {
+    "loading": "ማረጋገጫን በመጫን ላይ…",
+    "loadError": "የማረጋገጫ ሁኔታዎን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "viewError": "ሰነዱን መክፈት አልተቻለም።",
+    "statusTitle": "የማረጋገጫ ሁኔታ",
+    "rejectionReason": "ውድቅ የተደረገበት ምክንያት፡-",
+    "status": {
+      "notSubmitted": "አልቀረበም።",
+      "pending": "ግምገማ በመጠባበቅ ላይ",
+      "approved": "ጸድቋል",
+      "rejected": "ውድቅ ተደርጓል"
+    },
+    "messages": {
+      "notSubmitted": "የማህበረሰብዎን ዝርዝሮች እና ሰነዶች ከዚህ በታች ያስገቡ። እስኪጸድቁ ድረስ የዳሽቦርድ፣ የማረጋገጫ እና የመገለጫ ገጾችን ብቻ መጠቀም ይችላሉ።",
+      "pending": "ሰነዶችዎ ለግምገማ ከመድረክ አስተዳዳሪ ጋር ናቸው። እስኪጸድቁ ድረስ የዳሽቦርድ፣ የማረጋገጫ እና የመገለጫ ገጾችን ብቻ መጠቀም ይችላሉ።",
+      "approved": "ሰነዶችዎ ተረጋግጠዋል።",
+      "rejectedHint": "ችግሩን ያስተካክሉ እና ሰነዶችዎን ከዚህ በታች እንደገና ያስገቡ።"
+    },
+    "details": {
+      "communityName": "የማህበረሰብ ስም",
+      "address": "አድራሻ",
+      "totalFlats": "ጠቅላላ አፓርታማዎች",
+      "totalBlocks": "ጠቅላላ ብሎኮች",
+      "type": "የሰነድ አይነት",
+      "number": "የሰነድ ቁጥር",
+      "notes": "ዝርዝሮች",
+      "file": "Document (PDF)",
+      "submittedAt": "ገብቷል።",
+      "reviewedAt": "ተገምግሟል"
+    },
+    "documentTypes": {
+      "registrationCertificate": "የማህበረሰብ ምዝገባ የምስክር ወረቀት",
+      "ownershipProof": "የንብረት ባለቤትነት ማረጋገጫ",
+      "governmentId": "የመንግስት መታወቂያ",
+      "other": "ሌላ"
+    },
+    "form": {
+      "title": "ሰነዶችን አስገባ",
+      "resubmitTitle": "ሰነዶችን እንደገና አስገባ",
+      "documentType": "የሰነድ አይነት",
+      "documentNumber": "የሰነድ ቁጥር",
+      "details": "ተጨማሪ ዝርዝሮች (አማራጭ)",
+      "file": "Document PDF",
+      "fileHint": "PDF ብቻ፣ እስከ 5 ሜባ።",
+      "communitySection": "የማህበረሰብ ዝርዝሮች",
+      "documentSection": "የማረጋገጫ ሰነድ",
+      "communityName": "የማህበረሰብ / የማህበረሰብ ስም",
+      "address": "አድራሻ",
+      "city": "ከተማ",
+      "state": "ግዛት",
+      "pincode": "ፒን ኮድ",
+      "totalFlats": "አጠቃላይ የአፓርታማዎች ብዛት",
+      "totalBlocks": "የብሎኮች/ማማዎች ብዛት (አማራጭ)",
+      "fieldsRequired": "እባክዎ ሁሉንም አስፈላጊ መስኮች ይሙሉ።",
+      "countInvalid": "ፍላት እና ብሎኮች ቢያንስ 1 ቁጥሮች መሆን አለባቸው።",
+      "fileRequired": "እባክዎ PDF ሰነድ ያያይዙ።",
+      "tooLarge": "ፋይሉ 5 ሜባ ወይም ከዚያ ያነሰ መሆን አለበት።",
+      "submit": "ለማረጋገጫ አስገባ",
+      "submitting": "በማስረከብ ላይ…",
+      "submitError": "ሰነዶችዎን ማስገባት አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
   "announcements": {
     "loadError": "ማስታወቂያዎችን መጫን አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
     "removeError": "ይህን ማስታወቂያ መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",

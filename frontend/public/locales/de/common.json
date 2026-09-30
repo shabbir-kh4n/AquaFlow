@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Datei auswählen",
+    "change": "Datei ändern",
+    "none": "Keine Datei ausgewählt"
+  },
   "authModal": {
     "close": "Schließen",
     "signUpTitle": "Registrieren Sie Ihre Community",
@@ -188,6 +193,7 @@
       "support": "Unterstützung / Bedenken",
       "tariffPlans": "Tarifpläne",
       "announcements": "Ankündigungen",
+      "verification": "Überprüfung",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ankündigungen",
         "subtitle": "Veröffentlichen Sie gemeinschaftsweite Mitteilungen an Ihre Bewohner."
       },
+      "verification": {
+        "title": "Dokumentenüberprüfung",
+        "subtitle": "Reichen Sie Ihre Dokumente ein, damit die Plattform Ihre Community verifizieren kann."
+      },
       "profile": {
         "title": "Einstellungen & Profil",
         "subtitle": "Verwalten Sie Ihre Kontodaten und Apartmentinformationen."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Verfügbar, nachdem Ihre Community überprüft wurde",
+    "verifyBanner": "Ihre Community ist noch nicht verifiziert, daher sind die meisten Seiten gesperrt.",
+    "verifyBannerLink": "Gehen Sie zur Verifizierung",
     "fallbackCommunity": "Community-Administrator",
     "notBuilt": "{{label}} ist noch nicht erstellt",
     "searchPlaceholder": "Suchen Sie alles ..."

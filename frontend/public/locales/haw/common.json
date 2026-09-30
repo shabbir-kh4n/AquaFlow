@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "E koho i ka faila",
+    "change": "Hoʻololi i ka faila",
+    "none": "ʻAʻohe faila i koho ʻia"
+  },
   "authModal": {
     "close": "Pani",
     "signUpTitle": "E hoʻopaʻa inoa i kou kaiāulu",
@@ -188,6 +193,7 @@
       "support": "Kākoʻo / hopohopo",
       "tariffPlans": "Hoʻolālā Uku",
       "announcements": "Nā hoʻolaha",
+      "verification": "Hooia",
       "profile": "Pilikino"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Nā hoʻolaha",
         "subtitle": "E hoʻolaha i nā leka hoʻolaha kaiaulu i kāu poʻe kamaʻāina."
       },
+      "verification": {
+        "title": "Hōʻoia Palapala",
+        "subtitle": "E hoʻouna i kāu mau palapala i hiki i ka paepae ke hōʻoia i kou kaiāulu."
+      },
       "profile": {
         "title": "Hoʻonohonoho & Profile",
         "subtitle": "E mālama i kāu kikoʻī moʻokāki a me ka ʻike hale."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Loaʻa ma hope o ka hōʻoia ʻia ʻana o kāu kaiāulu",
+    "verifyBanner": "ʻAʻole i hōʻoia ʻia kou kaiāulu, no laila ua laka ʻia ka hapa nui o nā ʻaoʻao.",
+    "verifyBannerLink": "E hele i ka Verification",
     "fallbackCommunity": "Luna Kaiaulu",
     "notBuilt": "{{label}} ʻaʻole i kūkulu ʻia",
     "searchPlaceholder": "Huli i kekahi mea…"

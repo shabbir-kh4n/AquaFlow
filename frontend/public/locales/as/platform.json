@@ -4,6 +4,39 @@
     "blocked": "অৱৰুদ্ধ",
     "terminated": "বন্ধ কৰা হৈছে"
   },
+  "verification": {
+    "title": "নথিপত্ৰ পৰীক্ষণ",
+    "status": {
+      "notSubmitted": "জমা দিয়া হোৱা নাই",
+      "pending": "পৰ্যালোচনাৰ বাকী আছে",
+      "approved": "অনুমোদিত",
+      "rejected": "নাকচ কৰা হৈছে"
+    },
+    "notSubmitted": "এই সম্প্ৰদায়ৰ প্ৰশাসকে এতিয়াও সত্যাপন নথি জমা দিয়া নাই।",
+    "communityName": "সম্প্ৰদায়ৰ নাম",
+    "address": "ঠিকনা",
+    "totalFlats": "মুঠ ফ্লেট",
+    "totalBlocks": "মুঠ ব্লক",
+    "documentType": "নথিপত্ৰৰ ধৰণ",
+    "documentNumber": "নথিপত্ৰ নম্বৰ",
+    "notes": "সবিশেষ",
+    "file": "নথিপত্ৰ (PDF)",
+    "submittedAt": "জমা দিয়া হৈছে",
+    "reviewedAt": "পৰ্যালোচনা কৰা হৈছে",
+    "rejectionReason": "প্ৰত্যাখ্যানৰ কাৰণ:",
+    "approve": "অনুমোদন",
+    "reject": "প্ৰত্যাখ্যান",
+    "viewError": "দস্তাবেজটো খোলিব পৰা নগ'ল।",
+    "approveError": "এই পৰীক্ষণ অনুমোদন কৰিব পৰা নগ'ল।",
+    "rejectError": "এই পৰীক্ষণ নাকচ কৰিব পৰা নগ'ল।",
+    "reasonRequired": "প্ৰত্যাখ্যান কৰাৰ কাৰণ এটা দিয়ক।",
+    "rejectDialog": {
+      "title": "সত্যাপন নাকচ কৰক",
+      "message": "{{name}} এ আপুনি দিয়া কাৰণ চাব আৰু নতুন দস্তাবেজ জমা দিব পাৰিব।",
+      "reasonLabel": "প্ৰত্যাখ্যানৰ কাৰণ",
+      "confirm": "প্ৰত্যাখ্যান"
+    }
+  },
   "sort": {
     "sortBy": "ক্ৰম অনুসাৰে সজাওক",
     "toggleDirection": "ক্ৰম সলনি কৰক",
@@ -64,6 +97,7 @@
       "admin": "এডমিন",
       "email": "ইমেইল",
       "status": "স্থিতি",
+      "verification": "পৰীক্ষণ",
       "residents": "আৱাসী",
       "view": "চাওক"
     }

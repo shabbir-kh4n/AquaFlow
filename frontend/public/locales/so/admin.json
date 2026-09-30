@@ -535,6 +535,68 @@
       "outstanding": "heer sare ah"
     }
   },
+  "verification": {
+    "loading": "Soo dejinaya xaqiijinta…",
+    "loadError": "Ma rari karo heerka xaqiijinta Fadlan isku day mar kale",
+    "viewError": "Ma furi karo dukumeentiga",
+    "statusTitle": "Heerka xaqiijinta",
+    "rejectionReason": "Sababta loo diiday:",
+    "status": {
+      "notSubmitted": "Lama gudbin",
+      "pending": "Dib u eegis la sugayo",
+      "approved": "La ansixiyay",
+      "rejected": "Waa la diiday"
+    },
+    "messages": {
+      "notSubmitted": "Hoos u soo gudbi tafaasiisha beeshaada iyo dukumentiyada. Ilaa laga oggolaado waxaad isticmaali kartaa oo keliya Bogagga Dashboard-ka, Xaqiijinta iyo Xog-ururinta.",
+      "pending": "Dukumeentiyadaadu waxay la socdaan maamulaha madal si dib loogu eego. Ilaa laga oggolaado waxaad isticmaali kartaa oo keliya Bogagga Dashboard-ka, Xaqiijinta iyo Xog-ururinta.",
+      "approved": "Dukumentiyadaada waa la xaqiijiyay",
+      "rejectedHint": "Hagaaji arrinta oo soo gudbi dukumeentigaaga mar kale hoos."
+    },
+    "details": {
+      "communityName": "Magaca beesha",
+      "address": "Cinwaanka",
+      "totalFlats": "Guryaha wadarta",
+      "totalBlocks": "Wadarta blocks",
+      "type": "Nooca dukumeenti",
+      "number": "Lambarka dukumeentiga",
+      "notes": "Faahfaahin",
+      "file": "Document (PDF)",
+      "submittedAt": "La soo gudbiyay",
+      "reviewedAt": "Dib loo eegay"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Shahaadada diiwaangelinta bulshada",
+      "ownershipProof": "Caddeynta lahaanshaha hantida",
+      "governmentId": "Aqoonsiga dawladda",
+      "other": "Mid kale"
+    },
+    "form": {
+      "title": "Soo gudbi dukumeenti",
+      "resubmitTitle": "Soo gudbi dukumeenti mar labaad",
+      "documentType": "Nooca dukumeenti",
+      "documentNumber": "Lambarka dukumeentiga",
+      "details": "Faahfaahin dheeraad ah (ikhtiyaar)",
+      "file": "Document PDF",
+      "fileHint": "PDF kaliya, ilaa 5 MB.",
+      "communitySection": "Faahfaahinta bulshada",
+      "documentSection": "Dukumeentiga xaqiijinta",
+      "communityName": "Magaca bulshada / bulshada",
+      "address": "Cinwaanka",
+      "city": "Magaalada",
+      "state": "Gobolka",
+      "pincode": "Koodhka",
+      "totalFlats": "Tirada guud ee guryaha",
+      "totalBlocks": "Tirada baloogyada / munaaradaha (ikhtiyaar)",
+      "fieldsRequired": "Fadlan buuxi dhammaan meelaha loo baahan yahay",
+      "countInvalid": "Guryaha iyo baloogyada waa inay ahaadaan tirooyin ah ugu yaraan 1.",
+      "fileRequired": "Please attach a PDF document.",
+      "tooLarge": "Faylku waa inuu noqdaa 5 MB ama ka yar.",
+      "submit": "Soo gudbi si loo xaqiijiyo",
+      "submitting": "Gudbinta…",
+      "submitError": "Ma soo gudbin karo dukumentiyadaada Fadlan isku day mar kale"
+    }
+  },
   "announcements": {
     "loadError": "Waa la rari waayay ogeysiisyada Fadlan isku day mar kale",
     "removeError": "Waa la tirtiri waayay ogeysiiskan Fadlan isku day mar kale",

@@ -535,6 +535,68 @@
       "outstanding": "Outstanding"
     }
   },
+  "verification": {
+    "loading": "Loading verification…",
+    "loadError": "Could not load your verification status. Please try again.",
+    "viewError": "Could not open the document.",
+    "statusTitle": "Verification status",
+    "rejectionReason": "Reason for rejection:",
+    "status": {
+      "notSubmitted": "Not submitted",
+      "pending": "Pending review",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "messages": {
+      "notSubmitted": "Submit your community's details and documents below. Until they are approved you can only use the Dashboard, Verification and Profile pages.",
+      "pending": "Your documents are with a platform administrator for review. Until they are approved you can only use the Dashboard, Verification and Profile pages.",
+      "approved": "Your documents have been verified.",
+      "rejectedHint": "Fix the issue and submit your documents again below."
+    },
+    "details": {
+      "communityName": "Community name",
+      "address": "Address",
+      "totalFlats": "Total flats",
+      "totalBlocks": "Total blocks",
+      "type": "Document type",
+      "number": "Document number",
+      "notes": "Details",
+      "file": "Document (PDF)",
+      "submittedAt": "Submitted",
+      "reviewedAt": "Reviewed"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Society registration certificate",
+      "ownershipProof": "Property ownership proof",
+      "governmentId": "Government ID",
+      "other": "Other"
+    },
+    "form": {
+      "title": "Submit documents",
+      "resubmitTitle": "Submit documents again",
+      "documentType": "Document type",
+      "documentNumber": "Document number",
+      "details": "Additional details (optional)",
+      "file": "Document PDF",
+      "fileHint": "PDF only, up to 5 MB.",
+      "communitySection": "Community details",
+      "documentSection": "Verification document",
+      "communityName": "Community / society name",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "pincode": "Pincode",
+      "totalFlats": "Total number of flats",
+      "totalBlocks": "Number of blocks / towers (optional)",
+      "fieldsRequired": "Please fill in all the required fields.",
+      "countInvalid": "Flats and blocks must be numbers of at least 1.",
+      "fileRequired": "Please attach a PDF document.",
+      "tooLarge": "The file must be 5 MB or smaller.",
+      "submit": "Submit for verification",
+      "submitting": "Submitting…",
+      "submitError": "Could not submit your documents. Please try again."
+    }
+  },
   "announcements": {
     "loadError": "Could not load announcements. Please try again.",
     "removeError": "Could not delete this announcement. Please try again.",

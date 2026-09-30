@@ -4,6 +4,39 @@
     "blocked": "بند ٿيل",
     "terminated": "ختم ٿيل"
   },
+  "verification": {
+    "title": "دستاويز جي تصديق",
+    "status": {
+      "notSubmitted": "جمع نه ٿيو",
+      "pending": "التوا جو جائزو",
+      "approved": "منظور ٿيل",
+      "rejected": "رد ٿيل"
+    },
+    "notSubmitted": "هن ڪميونٽي جي منتظم اڃا تائين تصديقي دستاويز جمع نه ڪيا آهن.",
+    "communityName": "ڪميونٽي جو نالو",
+    "address": "پتو",
+    "totalFlats": "ڪل فليٽ",
+    "totalBlocks": "کل بلاڪ",
+    "documentType": "دستاويز جو قسم",
+    "documentNumber": "دستاويز نمبر",
+    "notes": "تفصيل",
+    "file": "دستاويز (PDF)",
+    "submittedAt": "جمع ٿيل",
+    "reviewedAt": "جائزو ورتو",
+    "rejectionReason": "رد ڪرڻ جو سبب:",
+    "approve": "منظور ڪرڻ",
+    "reject": "رد ڪرڻ",
+    "viewError": "دستاويز کولي نه سگهيو.",
+    "approveError": "هن تصديق کي منظور نه ڪري سگهيو.",
+    "rejectError": "هن تصديق کي رد نه ڪري سگهيو.",
+    "reasonRequired": "مهرباني ڪري رد ڪرڻ جو سبب ڏيو.",
+    "rejectDialog": {
+      "title": "تصديق کي رد ڪريو",
+      "message": "{{name}} ڏسندو توهان جو سبب ۽ نوان دستاويز پيش ڪري سگهو ٿا.",
+      "reasonLabel": "رد ڪرڻ جو سبب",
+      "confirm": "رد ڪرڻ"
+    }
+  },
   "sort": {
     "sortBy": "ترتيب ڏيو",
     "toggleDirection": "ترتيب جي هدايت تبديل ڪريو",
@@ -64,6 +97,7 @@
       "admin": "ايڊمن",
       "email": "اي ميل",
       "status": "اسٽيٽس",
+      "verification": "تصديق",
       "residents": "رهواسي",
       "view": "ڏسو"
     }

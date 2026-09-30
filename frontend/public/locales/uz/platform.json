@@ -4,6 +4,39 @@
     "blocked": "Bloklangan",
     "terminated": "Tugatilgan"
   },
+  "verification": {
+    "title": "Hujjatni tekshirish",
+    "status": {
+      "notSubmitted": "Taqdim qilinmagan",
+      "pending": "Ko‘rib chiqish kutilmoqda",
+      "approved": "Tasdiqlangan",
+      "rejected": "Rad etilgan"
+    },
+    "notSubmitted": "Bu hamjamiyat administratori hali tasdiqlash hujjatlarini topshirmagan.",
+    "communityName": "Jamiyat nomi",
+    "address": "Manzil",
+    "totalFlats": "Jami kvartiralar",
+    "totalBlocks": "Jami bloklar",
+    "documentType": "Hujjat turi",
+    "documentNumber": "Hujjat raqami",
+    "notes": "Tafsilotlar",
+    "file": "Hujjat (PDF)",
+    "submittedAt": "Taqdim etilgan",
+    "reviewedAt": "Ko'rib chiqilgan",
+    "rejectionReason": "Rad etish sababi:",
+    "approve": "Tasdiqlash",
+    "reject": "Rad etish",
+    "viewError": "Hujjatni ochib boʻlmadi.",
+    "approveError": "Bu tasdiqlashni tasdiqlab bo‘lmadi.",
+    "rejectError": "Bu tasdiqlashni rad etib bo‘lmadi.",
+    "reasonRequired": "Iltimos, rad etish sababini ko'rsating.",
+    "rejectDialog": {
+      "title": "Tasdiqlashni rad etish",
+      "message": "{{name}} siz koʻrsatgan sababni koʻradi va yangi hujjatlarni topshirishingiz mumkin.",
+      "reasonLabel": "Rad etish sababi",
+      "confirm": "Rad etish"
+    }
+  },
   "sort": {
     "sortBy": "Saralash turi",
     "toggleDirection": "Saralash yoʻnalishini oʻzgartirish",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Elektron pochta",
       "status": "Status",
+      "verification": "Tekshirish",
       "residents": "Aholi",
       "view": "Ko'rish"
     }

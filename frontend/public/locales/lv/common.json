@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Izvēlieties failu",
+    "change": "Mainīt failu",
+    "none": "Nav izvēlēts neviens fails"
+  },
   "authModal": {
     "close": "Aizvērt",
     "signUpTitle": "Reģistrējiet savu kopienu",
@@ -188,6 +193,7 @@
       "support": "Atbalsts / bažas",
       "tariffPlans": "Tarifu plāni",
       "announcements": "Paziņojumi",
+      "verification": "Verifikācija",
       "profile": "Profils"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Paziņojumi",
         "subtitle": "Publicējiet visiem kopienas paziņojumus saviem iedzīvotājiem."
       },
+      "verification": {
+        "title": "Dokumentu pārbaude",
+        "subtitle": "Iesniedziet savus dokumentus, lai platforma varētu verificēt jūsu kopienu."
+      },
       "profile": {
         "title": "Iestatījumi un profils",
         "subtitle": "Pārvaldiet sava konta informāciju un dzīvokļa informāciju."
       }
     },
     "fallbackName": "Administrators",
+    "locked": "Pieejams pēc kopienas verifikācijas",
+    "verifyBanner": "Jūsu kopiena vēl nav verificēta, tāpēc lielākā daļa lapu ir bloķētas.",
+    "verifyBannerLink": "Atveriet sadaļu Verifikācija",
     "fallbackCommunity": "Kopienas administrators",
     "notBuilt": "{{label}} vēl nav uzbūvēts",
     "searchPlaceholder": "Meklēt jebko…"

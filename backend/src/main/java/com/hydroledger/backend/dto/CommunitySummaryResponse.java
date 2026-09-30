@@ -3,6 +3,7 @@ package com.hydroledger.backend.dto;
 import java.time.Instant;
 
 import com.hydroledger.backend.entity.CommunityAdminStatus;
+import com.hydroledger.backend.entity.VerificationStatus;
 
 public record CommunitySummaryResponse(
         Long adminId,
@@ -14,6 +15,7 @@ public record CommunitySummaryResponse(
         int householdCount,
         int residentCount,
         Instant adminCreatedAt,
-        String avatarKey
+        String avatarKey,
+        VerificationStatus verificationStatus
 ) {
 }

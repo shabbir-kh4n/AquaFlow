@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Pasirinkite failą",
+    "change": "Keisti failą",
+    "none": "Nepasirinktas joks failas"
+  },
   "authModal": {
     "close": "Uždaryti",
     "signUpTitle": "Užregistruokite savo bendruomenę",
@@ -188,6 +193,7 @@
       "support": "Palaikymas / rūpesčiai",
       "tariffPlans": "Tarifų planai",
       "announcements": "Skelbimai",
+      "verification": "Patikrinimas",
       "profile": "Profilis"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Skelbimai",
         "subtitle": "Paskelbkite bendruomenės pranešimus savo gyventojams."
       },
+      "verification": {
+        "title": "Dokumento patikrinimas",
+        "subtitle": "Pateikite dokumentus, kad platforma galėtų patvirtinti jūsų bendruomenę."
+      },
       "profile": {
         "title": "Nustatymai ir profilis",
         "subtitle": "Tvarkykite savo sąskaitos duomenis ir buto informaciją."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Pasiekiamas, kai bendruomenė bus patvirtinta",
+    "verifyBanner": "Jūsų bendruomenė dar nepatvirtinta, todėl dauguma puslapių užrakinti.",
+    "verifyBannerLink": "Eikite į Patvirtinimas",
     "fallbackCommunity": "Bendruomenės administratorius",
     "notBuilt": "{{label}} dar nepastatytas",
     "searchPlaceholder": "Ieškokite bet ko…"

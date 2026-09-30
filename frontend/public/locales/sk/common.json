@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Vyberte súbor",
+    "change": "Zmeniť súbor",
+    "none": "Nie je vybraný žiadny súbor"
+  },
   "authModal": {
     "close": "Zavrieť",
     "signUpTitle": "Zaregistrujte svoju komunitu",
@@ -188,6 +193,7 @@
       "support": "Podpora / Obavy",
       "tariffPlans": "tarifné plány",
       "announcements": "Oznamy",
+      "verification": "Overenie",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Oznamy",
         "subtitle": "Zverejňujte celospoločenské oznámenia pre svojich obyvateľov."
       },
+      "verification": {
+        "title": "Overenie dokumentu",
+        "subtitle": "Odošlite svoje dokumenty, aby platforma mohla overiť vašu komunitu."
+      },
       "profile": {
         "title": "Nastavenia a profil",
         "subtitle": "Spravujte podrobnosti o svojom účte a informácie o apartmáne."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Dostupné po overení vašej komunity",
+    "verifyBanner": "Vaša komunita ešte nie je overená, takže väčšina stránok je uzamknutá.",
+    "verifyBannerLink": "Prejdite na Overenie",
     "fallbackCommunity": "Správca komunity",
     "notBuilt": "{{label}} ešte nie je vytvorený",
     "searchPlaceholder": "Hľadaj čokoľvek…"

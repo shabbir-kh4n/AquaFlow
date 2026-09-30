@@ -4,6 +4,39 @@
     "blocked": "blokiran",
     "terminated": "Prekinjeno"
   },
+  "verification": {
+    "title": "Preverjanje dokumenta",
+    "status": {
+      "notSubmitted": "Ni predloženo",
+      "pending": "Čaka na pregled",
+      "approved": "Odobreno",
+      "rejected": "Zavrnjeno"
+    },
+    "notSubmitted": "Ta skrbnik skupnosti še ni predložil dokumentov za preverjanje.",
+    "communityName": "Ime skupnosti",
+    "address": "Naslov",
+    "totalFlats": "Skupaj stanovanj",
+    "totalBlocks": "Skupno število blokov",
+    "documentType": "Vrsta dokumenta",
+    "documentNumber": "Številka dokumenta",
+    "notes": "Podrobnosti",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Oddano",
+    "reviewedAt": "Pregledano",
+    "rejectionReason": "Razlog za zavrnitev:",
+    "approve": "odobri",
+    "reject": "Zavrni",
+    "viewError": "Dokumenta ni bilo mogoče odpreti.",
+    "approveError": "Tega preverjanja ni bilo mogoče odobriti.",
+    "rejectError": "Tega preverjanja ni bilo mogoče zavrniti.",
+    "reasonRequired": "Navedite razlog za zavrnitev.",
+    "rejectDialog": {
+      "title": "Zavrni preverjanje",
+      "message": "{{name}} bo videl razlog, ki ste ga navedli, in lahko predloži nove dokumente.",
+      "reasonLabel": "Razlog za zavrnitev",
+      "confirm": "Zavrni"
+    }
+  },
   "sort": {
     "sortBy": "Razvrsti po",
     "toggleDirection": "Preklopi smer razvrščanja",
@@ -64,6 +97,7 @@
       "admin": "skrbnik",
       "email": "E-pošta",
       "status": "Stanje",
+      "verification": "Preverjanje",
       "residents": "Prebivalci",
       "view": "Pogled"
     }

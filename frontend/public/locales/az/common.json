@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Fayl seçin",
+    "change": "Faylı dəyişdirin",
+    "none": "Heç bir fayl seçilməyib"
+  },
   "authModal": {
     "close": "Bağlayın",
     "signUpTitle": "İcmanızı qeydiyyatdan keçirin",
@@ -188,6 +193,7 @@
       "support": "Dəstək / Narahatlıqlar",
       "tariffPlans": "Tarif Planları",
       "announcements": "Elanlar",
+      "verification": "Doğrulama",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Elanlar",
         "subtitle": "Sakinlərinizə icma miqyasında bildirişlər dərc edin."
       },
+      "verification": {
+        "title": "Sənədin yoxlanılması",
+        "subtitle": "Sənədlərinizi təqdim edin ki, platforma icmanızı təsdiq edə bilsin."
+      },
       "profile": {
         "title": "Parametrlər və Profil",
         "subtitle": "Hesab məlumatlarınızı və mənzil məlumatlarınızı idarə edin."
       }
     },
     "fallbackName": "Admin",
+    "locked": "İcma təsdiqləndikdən sonra əlçatandır",
+    "verifyBanner": "İcmanız hələ təsdiqlənməyib, ona görə də əksər səhifələr kilidlənib.",
+    "verifyBannerLink": "Doğrulamaya keçin",
     "fallbackCommunity": "İcma Admini",
     "notBuilt": "{{label}} hələ qurulmayıb",
     "searchPlaceholder": "İstənilən şeyi axtarın..."

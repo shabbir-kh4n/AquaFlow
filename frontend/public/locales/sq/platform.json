@@ -4,6 +4,39 @@
     "blocked": "E bllokuar",
     "terminated": "Përfundoi"
   },
+  "verification": {
+    "title": "Verifikimi i dokumentit",
+    "status": {
+      "notSubmitted": "Nuk është dorëzuar",
+      "pending": "Në pritje të shqyrtimit",
+      "approved": "Miratuar",
+      "rejected": "Refuzuar"
+    },
+    "notSubmitted": "Ky administrator i komunitetit nuk ka dorëzuar ende dokumente verifikimi.",
+    "communityName": "Emri i komunitetit",
+    "address": "Adresa",
+    "totalFlats": "Totali i banesave",
+    "totalBlocks": "Totali i blloqeve",
+    "documentType": "Lloji i dokumentit",
+    "documentNumber": "Numri i dokumentit",
+    "notes": "Detajet",
+    "file": "Dokument (PDF)",
+    "submittedAt": "dorëzuar",
+    "reviewedAt": "Shqyrtuar",
+    "rejectionReason": "Arsyeja e refuzimit:",
+    "approve": "Mirato",
+    "reject": "Refuzo",
+    "viewError": "Dokumenti nuk mund të hapej.",
+    "approveError": "Nuk mund ta miratonte këtë verifikim.",
+    "rejectError": "Ky verifikim nuk mund të refuzohej.",
+    "reasonRequired": "Ju lutemi jepni një arsye për refuzimin.",
+    "rejectDialog": {
+      "title": "Refuzo verifikimin",
+      "message": "{{name}} do të shohë arsyen që jep dhe mund të dorëzojë dokumente të reja.",
+      "reasonLabel": "Arsyeja e refuzimit",
+      "confirm": "Refuzo"
+    }
+  },
   "sort": {
     "sortBy": "Rendit sipas",
     "toggleDirection": "Ndrysho drejtimin e renditjes",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Statusi",
+      "verification": "Verifikimi",
       "residents": "Banorët",
       "view": "Shiko"
     }

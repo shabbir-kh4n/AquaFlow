@@ -4,6 +4,39 @@
     "blocked": "Engellendi",
     "terminated": "Feshedildi"
   },
+  "verification": {
+    "title": "Belge Doğrulaması",
+    "status": {
+      "notSubmitted": "Gönderilmedi",
+      "pending": "İnceleme bekleniyor",
+      "approved": "Onaylı",
+      "rejected": "Reddedilmiş"
+    },
+    "notSubmitted": "Bu topluluk yöneticisi henüz doğrulama belgelerini göndermedi.",
+    "communityName": "Topluluk adı",
+    "address": "Adres",
+    "totalFlats": "Toplam daire",
+    "totalBlocks": "Toplam bloklar",
+    "documentType": "Belge türü",
+    "documentNumber": "Belge numarası",
+    "notes": "Detaylar",
+    "file": "Belge (PDF)",
+    "submittedAt": "Gönderildi",
+    "reviewedAt": "İncelendi",
+    "rejectionReason": "Reddedilme nedeni:",
+    "approve": "Onaylamak",
+    "reject": "Reddetmek",
+    "viewError": "Belge açılamadı.",
+    "approveError": "Bu doğrulama onaylanamadı.",
+    "rejectError": "Bu doğrulama reddedilemedi.",
+    "reasonRequired": "Lütfen reddetme nedeninizi belirtin.",
+    "rejectDialog": {
+      "title": "Doğrulamayı reddet",
+      "message": "{{name}} belirttiğiniz nedeni görecek ve yeni belgeler gönderebilecek.",
+      "reasonLabel": "Reddedilme nedeni",
+      "confirm": "Reddetmek"
+    }
+  },
   "sort": {
     "sortBy": "Göre sırala",
     "toggleDirection": "Sıralama yönünü değiştir",
@@ -64,6 +97,7 @@
       "admin": "Yönetici",
       "email": "E-posta",
       "status": "Durum",
+      "verification": "Doğrulama",
       "residents": "Sakinler",
       "view": "Görüş"
     }

@@ -535,6 +535,68 @@
       "outstanding": "Nabarmena"
     }
   },
+  "verification": {
+    "loading": "Egiaztapena kargatzen…",
+    "loadError": "Ezin izan da kargatu egiaztapen-egoera. Mesedez, saiatu berriro.",
+    "viewError": "Ezin izan da dokumentua ireki.",
+    "statusTitle": "Egiaztapen-egoera",
+    "rejectionReason": "Errefusaren arrazoia:",
+    "status": {
+      "notSubmitted": "Ez da aurkeztu",
+      "pending": "Berrikuspenaren zain",
+      "approved": "Onartua",
+      "rejected": "Baztertua"
+    },
+    "messages": {
+      "notSubmitted": "Bidali zure komunitatearen xehetasunak eta dokumentuak behean. Onartu arte Arbela, Egiaztapena eta Profil orriak soilik erabil ditzakezu.",
+      "pending": "Zure dokumentuak plataformako administratzaile batekin daude berrikusteko. Onartu arte Arbela, Egiaztapena eta Profil orriak soilik erabil ditzakezu.",
+      "approved": "Zure dokumentuak egiaztatu dira.",
+      "rejectedHint": "Konpondu arazoa eta bidali berriro zure dokumentuak behean."
+    },
+    "details": {
+      "communityName": "Komunitatearen izena",
+      "address": "Helbidea",
+      "totalFlats": "Etxebizitza guztira",
+      "totalBlocks": "Blokeak guztira",
+      "type": "Dokumentu mota",
+      "number": "Dokumentu zenbakia",
+      "notes": "Xehetasunak",
+      "file": "Dokumentua (PDF)",
+      "submittedAt": "Aurkeztua",
+      "reviewedAt": "Berrikusi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Gizartearen errolda-ziurtagiria",
+      "ownershipProof": "Jabetza jabetzaren egiaztagiria",
+      "governmentId": "Gobernuaren NAN",
+      "other": "Bestela"
+    },
+    "form": {
+      "title": "Dokumentuak aurkeztu",
+      "resubmitTitle": "Bidali dokumentuak berriro",
+      "documentType": "Dokumentu mota",
+      "documentNumber": "Dokumentu zenbakia",
+      "details": "Xehetasun gehigarriak (aukerakoa)",
+      "file": "PDF dokumentua",
+      "fileHint": "PDF bakarrik, 5 MB gehienez.",
+      "communitySection": "Komunitatearen xehetasunak",
+      "documentSection": "Egiaztatzeko agiria",
+      "communityName": "Komunitate/gizarte izena",
+      "address": "Helbidea",
+      "city": "Hiria",
+      "state": "Estatua",
+      "pincode": "Pincode",
+      "totalFlats": "Pisu kopurua guztira",
+      "totalBlocks": "Bloke/dorre kopurua (aukerakoa)",
+      "fieldsRequired": "Mesedez, bete beharrezko eremu guztiak.",
+      "countInvalid": "Etxebizitzak eta blokeak gutxienez 1eko zenbakiak izan behar dira.",
+      "fileRequired": "Mesedez, erantsi PDF dokumentu bat.",
+      "tooLarge": "Fitxategiak 5 MB edo txikiagoa izan behar du.",
+      "submit": "Bidali egiaztatzeko",
+      "submitting": "Bidaltzen…",
+      "submitError": "Ezin izan dira zure dokumentuak bidali. Mesedez, saiatu berriro."
+    }
+  },
   "announcements": {
     "loadError": "Ezin izan dira iragarkiak kargatu. Mesedez, saiatu berriro.",
     "removeError": "Ezin izan da iragarkia ezabatu. Mesedez, saiatu berriro.",

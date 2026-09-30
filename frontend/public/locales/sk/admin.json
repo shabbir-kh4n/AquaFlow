@@ -535,6 +535,68 @@
       "outstanding": "Vynikajúci"
     }
   },
+  "verification": {
+    "loading": "Načítava sa overenie…",
+    "loadError": "Nepodarilo sa načítať váš stav overenia. Skúste to znova.",
+    "viewError": "Dokument sa nepodarilo otvoriť.",
+    "statusTitle": "Stav overenia",
+    "rejectionReason": "Dôvod odmietnutia:",
+    "status": {
+      "notSubmitted": "Nepredložené",
+      "pending": "Čaká sa na kontrolu",
+      "approved": "Schválené",
+      "rejected": "Odmietnuté"
+    },
+    "messages": {
+      "notSubmitted": "Nižšie odošlite podrobnosti o svojej komunite a dokumenty. Kým nebudú schválené, môžete používať iba stránky Dashboard, Verifikácia a Profil.",
+      "pending": "Vaše dokumenty sú na kontrolu u správcu platformy. Kým nebudú schválené, môžete používať iba stránky Dashboard, Verifikácia a Profil.",
+      "approved": "Vaše dokumenty boli overené.",
+      "rejectedHint": "Opravte problém a znova odošlite svoje dokumenty nižšie."
+    },
+    "details": {
+      "communityName": "Názov komunity",
+      "address": "Adresa",
+      "totalFlats": "Byty celkom",
+      "totalBlocks": "Celkový počet blokov",
+      "type": "Typ dokumentu",
+      "number": "Číslo dokladu",
+      "notes": "Podrobnosti",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Predložené",
+      "reviewedAt": "Skontrolované"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Osvedčenie o registrácii spoločnosti",
+      "ownershipProof": "Doklad o vlastníctve nehnuteľnosti",
+      "governmentId": "Vládne identifikačné číslo",
+      "other": "Iné"
+    },
+    "form": {
+      "title": "Predložte dokumenty",
+      "resubmitTitle": "Znova odošlite dokumenty",
+      "documentType": "Typ dokumentu",
+      "documentNumber": "Číslo dokladu",
+      "details": "Ďalšie podrobnosti (voliteľné)",
+      "file": "Dokument PDF",
+      "fileHint": "Len PDF, do 5 MB.",
+      "communitySection": "Podrobnosti o komunite",
+      "documentSection": "Overovací dokument",
+      "communityName": "Názov komunity / spoločnosti",
+      "address": "Adresa",
+      "city": "Mesto",
+      "state": "štátu",
+      "pincode": "PIN kód",
+      "totalFlats": "Celkový počet bytov",
+      "totalBlocks": "Počet blokov / veží (voliteľné)",
+      "fieldsRequired": "Vyplňte všetky povinné polia.",
+      "countInvalid": "Byty a bloky musia mať čísla aspoň 1.",
+      "fileRequired": "Pripojte dokument PDF.",
+      "tooLarge": "Súbor musí mať 5 MB alebo menej.",
+      "submit": "Odoslať na overenie",
+      "submitting": "Odosiela sa…",
+      "submitError": "Nepodarilo sa odoslať vaše dokumenty. Skúste to znova."
+    }
+  },
   "announcements": {
     "loadError": "Oznámenia sa nepodarilo načítať. Skúste to znova.",
     "removeError": "Toto oznámenie sa nepodarilo odstrániť. Skúste to znova.",

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "ファイルを選択してください",
+    "change": "ファイルを変更する",
+    "none": "ファイルが選択されていません"
+  },
   "authModal": {
     "close": "近い",
     "signUpTitle": "コミュニティを登録する",
@@ -188,6 +193,7 @@
       "support": "サポート/懸念事項",
       "tariffPlans": "料金プラン",
       "announcements": "お知らせ",
+      "verification": "検証",
       "profile": "プロフィール"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "お知らせ",
         "subtitle": "コミュニティ全体の通知を住民に発行します。"
       },
+      "verification": {
+        "title": "書類の検証",
+        "subtitle": "プラットフォームがコミュニティを認証できるように書類を提出してください。"
+      },
       "profile": {
         "title": "設定とプロフィール",
         "subtitle": "アカウントの詳細とアパート情報を管理します。"
       }
     },
     "fallbackName": "管理者",
+    "locked": "コミュニティの認証後に利用可能になります",
+    "verifyBanner": "コミュニティはまだ認証されていないため、ほとんどのページがロックされています。",
+    "verifyBannerLink": "検証に進む",
     "fallbackCommunity": "コミュニティ管理者",
     "notBuilt": "{{label}} はまだ構築されていません",
     "searchPlaceholder": "何でも検索してください…"

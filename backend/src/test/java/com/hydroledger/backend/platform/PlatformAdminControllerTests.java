@@ -24,6 +24,8 @@ import com.hydroledger.backend.dto.CommunitySummaryResponse;
 import com.hydroledger.backend.dto.PlatformReportResponse;
 import com.hydroledger.backend.dto.SystemMetricsResponse;
 import com.hydroledger.backend.dto.SystemStatusResponse;
+import com.hydroledger.backend.dto.VerificationResponse;
+import com.hydroledger.backend.entity.VerificationStatus;
 import com.hydroledger.backend.entity.CommunityAdmin;
 import com.hydroledger.backend.entity.CommunityAdminStatus;
 import com.hydroledger.backend.entity.Resident;
@@ -37,6 +39,7 @@ import com.hydroledger.backend.security.ResidentPrincipal;
 import com.hydroledger.backend.security.SecurityConfig;
 import com.hydroledger.backend.security.SystemAdminPrincipal;
 import com.hydroledger.backend.security.UserPrincipal;
+import com.hydroledger.backend.service.AdminVerificationService;
 import com.hydroledger.backend.service.PlatformReportService;
 import com.hydroledger.backend.service.SystemAdminService;
 import com.hydroledger.backend.service.SystemMetricsService;
@@ -61,6 +64,9 @@ class PlatformAdminControllerTests {
     private JwtService jwtService;
 
     @MockitoBean
+    private AdminVerificationService adminVerificationService;
+
+    @MockitoBean
     private CommunityAdminRepository communityAdminRepository;
 
     @MockitoBean
@@ -80,12 +86,41 @@ class PlatformAdminControllerTests {
     void listCommunitiesReturnsOkForSystemAdmin() throws Exception {
         when(systemAdminService.listCommunities()).thenReturn(List.of(
                 new CommunitySummaryResponse(2L, "Jane Admin", "jane@example.com", CommunityAdminStatus.ACTIVE,
-                        10L, "Sunrise Towers", 4, 4, Instant.now(), null)
+                        10L, "Sunrise Towers", 4, 4, Instant.now(), null, com.hydroledger.backend.entity.VerificationStatus.NOT_SUBMITTED)
         ));
 
         mockMvc.perform(get("/api/platform/communities").with(user(new SystemAdminPrincipal(systemAdmin))))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].apartmentName").value("Sunrise Towers"));
+    }
+
+    @Test
+    void rejectVerificationRequiresAReason() throws Exception {
+        mockMvc.perform(put("/api/platform/communities/2/verification/reject")
+                        .with(user(new SystemAdminPrincipal(systemAdmin)))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("{\"reason\":\"  \"}"))
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void rejectVerificationPassesReasonToService() throws Exception {
+        when(adminVerificationService.reject(2L, "Blurry scan")).thenReturn(new VerificationResponse(
+                VerificationStatus.REJECTED, "GST", "X1", null, "S", "A", "C", "St", "1", 10, null, "a.pdf", 10L, "Blurry scan", Instant.now(), Instant.now()));
+
+        mockMvc.perform(put("/api/platform/communities/2/verification/reject")
+                        .with(user(new SystemAdminPrincipal(systemAdmin)))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("{\"reason\":\"Blurry scan\"}"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status").value("REJECTED"))
+                .andExpect(jsonPath("$.rejectionReason").value("Blurry scan"));
+    }
+
+    @Test
+    void approveVerificationIsForbiddenForCommunityAdmin() throws Exception {
+        mockMvc.perform(put("/api/platform/communities/2/verification/approve").with(user(new UserPrincipal(admin))))
+                .andExpect(status().isForbidden());
     }
 
     @Test

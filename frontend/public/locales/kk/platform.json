@@ -4,6 +4,39 @@
     "blocked": "Блокталған",
     "terminated": "Тоқтатылды"
   },
+  "verification": {
+    "title": "Құжатты тексеру",
+    "status": {
+      "notSubmitted": "Жіберілмеген",
+      "pending": "Қарау күтілуде",
+      "approved": "Бекітілді",
+      "rejected": "Қабылданбады"
+    },
+    "notSubmitted": "Бұл қауымдастық әкімшісі әлі растау құжаттарын жіберген жоқ.",
+    "communityName": "Қауымдастық атауы",
+    "address": "Мекенжай",
+    "totalFlats": "Жалпы пәтерлер",
+    "totalBlocks": "Жалпы блоктар",
+    "documentType": "Құжат түрі",
+    "documentNumber": "Құжат нөмірі",
+    "notes": "Мәліметтер",
+    "file": "Құжат (PDF)",
+    "submittedAt": "Жіберілді",
+    "reviewedAt": "Қаралды",
+    "rejectionReason": "Бас тарту себебі:",
+    "approve": "Мақұлдау",
+    "reject": "Қабылдамау",
+    "viewError": "Құжатты ашу мүмкін болмады.",
+    "approveError": "Бұл растауды мақұлдау мүмкін болмады.",
+    "rejectError": "Бұл растаудан бас тарту мүмкін болмады.",
+    "reasonRequired": "Бас тарту себебін көрсетіңіз.",
+    "rejectDialog": {
+      "title": "Растаудан бас тарту",
+      "message": "{{name}} берген себебін көреді және жаңа құжаттарды ұсына алады.",
+      "reasonLabel": "Бас тарту себебі",
+      "confirm": "Қабылдамау"
+    }
+  },
   "sort": {
     "sortBy": "Бойынша сұрыптау",
     "toggleDirection": "Сұрыптау бағытын ауыстыру",
@@ -64,6 +97,7 @@
       "admin": "Админ",
       "email": "Электрондық пошта",
       "status": "Күй",
+      "verification": "Тексеру",
       "residents": "Тұрғындар",
       "view": "Көру"
     }

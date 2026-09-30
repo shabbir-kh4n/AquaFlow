@@ -4,6 +4,39 @@
     "blocked": "Kua aukatia",
     "terminated": "Ka mutu"
   },
+  "verification": {
+    "title": "Manatokonga Tuhinga",
+    "status": {
+      "notSubmitted": "Kaore i tukuna",
+      "pending": "E tatari ana te arotake",
+      "approved": "Whakaaetia",
+      "rejected": "Kua whakakorehia"
+    },
+    "notSubmitted": "Ko tenei kaiwhakahaere hapori kaore ano kia tuku tuhinga whakamana.",
+    "communityName": "ingoa hapori",
+    "address": "Wāhitau",
+    "totalFlats": "Tapeke whare",
+    "totalBlocks": "Tapeke poraka",
+    "documentType": "Momo tuhinga",
+    "documentNumber": "Tau tuhinga",
+    "notes": "Nga korero",
+    "file": "Tuhinga (PDF)",
+    "submittedAt": "Kua tukuna",
+    "reviewedAt": "Kua arotakehia",
+    "rejectionReason": "Take mo te whakakore:",
+    "approve": "Whakaae",
+    "reject": "Whakakahore",
+    "viewError": "Kāore i taea te tūwhera te tuhinga.",
+    "approveError": "Kaore i taea te whakaae ki tenei manatoko.",
+    "rejectError": "Kaore i taea te whakakore i tenei manatoko.",
+    "reasonRequired": "Tena koa homai he take mo te whakakore.",
+    "rejectDialog": {
+      "title": "Whakakahoretia te manatoko",
+      "message": "Ka kite a {{name}} i te take ka hoatu e koe ka taea e koe te tuku tuhinga hou.",
+      "reasonLabel": "Take mo te whakakore",
+      "confirm": "Whakakahore"
+    }
+  },
   "sort": {
     "sortBy": "Kōmaka mā",
     "toggleDirection": "Takahurihia te ahunga kōmaka",
@@ -64,6 +97,7 @@
       "admin": "Kaiwhakahaere",
       "email": "Īmēra",
       "status": "Tūnga",
+      "verification": "Manatokonga",
       "residents": "Kainoho",
       "view": "Tirohanga"
     }

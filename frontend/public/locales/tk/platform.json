@@ -4,6 +4,39 @@
     "blocked": "Bloklandy",
     "terminated": "Inatedatyryldy"
   },
+  "verification": {
+    "title": "Resminamalary barlamak",
+    "status": {
+      "notSubmitted": "Iberilmedi",
+      "pending": "Garaşylýan syn",
+      "approved": "Makullandy",
+      "rejected": "Ret edildi"
+    },
+    "notSubmitted": "Bu jemgyýetçilik administratory entek tassyklama resminamalaryny tabşyrmady.",
+    "communityName": "Jemgyýetiň ady",
+    "address": "Salgysy",
+    "totalFlats": "Jemi kwartira",
+    "totalBlocks": "Jemi bloklar",
+    "documentType": "Resminamanyň görnüşi",
+    "documentNumber": "Resminamanyň belgisi",
+    "notes": "Jikme-jiklikler",
+    "file": "Resminama (PDF)",
+    "submittedAt": "Iberildi",
+    "reviewedAt": "Gözden geçirildi",
+    "rejectionReason": "Ret etmegiň sebäbi:",
+    "approve": "Tassykla",
+    "reject": "Ret et",
+    "viewError": "Resminamany açyp bolmady",
+    "approveError": "Bu tassyklamany tassyklap bolmady",
+    "rejectError": "Bu tassyklamany ret edip bilmedim.",
+    "reasonRequired": "Rejectüz öwürmegiňize sebäp bermegiňizi haýyş edýäris.",
+    "rejectDialog": {
+      "title": "Barlamagy ret et",
+      "message": "{{name}} bermegiň sebäbini görer we täze resminamalary iberip biler.",
+      "reasonLabel": "Reüz öwürmegiň sebäbi",
+      "confirm": "Ret et"
+    }
+  },
   "sort": {
     "sortBy": "Tertipleşdir",
     "toggleDirection": "Sort ugruny üýtgediň",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-poçta iberiň",
       "status": ".Agdaý",
+      "verification": "Barlamak",
       "residents": "Identaşaýjylar",
       "view": "Gör"
     }

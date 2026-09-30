@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Vælg fil",
+    "change": "Skift fil",
+    "none": "Ingen fil valgt"
+  },
   "authModal": {
     "close": "Tæt",
     "signUpTitle": "Registrer dit fællesskab",
@@ -188,6 +193,7 @@
       "support": "Support / Bekymringer",
       "tariffPlans": "Tarifplaner",
       "announcements": "Meddelelser",
+      "verification": "Verifikation",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Meddelelser",
         "subtitle": "Udgiv meddelelser i hele samfundet til dine beboere."
       },
+      "verification": {
+        "title": "Dokumentbekræftelse",
+        "subtitle": "Indsend dine dokumenter, så platformen kan bekræfte dit fællesskab."
+      },
       "profile": {
         "title": "Indstillinger og profil",
         "subtitle": "Administrer dine kontooplysninger og lejlighedsoplysninger."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Tilgængelig efter dit fællesskab er bekræftet",
+    "verifyBanner": "Dit fællesskab er ikke bekræftet endnu, så de fleste sider er låst.",
+    "verifyBannerLink": "Gå til Verifikation",
     "fallbackCommunity": "Fællesskabsadministrator",
     "notBuilt": "{{label}} er ikke bygget endnu",
     "searchPlaceholder": "Søg hvad som helst..."

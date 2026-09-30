@@ -535,6 +535,68 @@
       "outstanding": "Uitstaande"
     }
   },
+  "verification": {
+    "loading": "Laai tans verifikasie …",
+    "loadError": "Kon nie jou verifikasiestatus laai nie. Probeer asseblief weer.",
+    "viewError": "Kon nie die dokument oopmaak nie.",
+    "statusTitle": "Verifikasiestatus",
+    "rejectionReason": "Rede vir verwerping:",
+    "status": {
+      "notSubmitted": "Nie ingedien nie",
+      "pending": "Hangende hersiening",
+      "approved": "Goedgekeur",
+      "rejected": "Verwerp"
+    },
+    "messages": {
+      "notSubmitted": "Dien jou gemeenskap se besonderhede en dokumente hieronder in. Totdat hulle goedgekeur is, kan jy net die Dashboard-, Verifikasie- en Profielbladsye gebruik.",
+      "pending": "Jou dokumente is by 'n platformadministrateur vir hersiening. Totdat hulle goedgekeur is, kan jy net die Dashboard-, Verifikasie- en Profielbladsye gebruik.",
+      "approved": "Jou dokumente is geverifieer.",
+      "rejectedHint": "Los die probleem op en dien weer jou dokumente hieronder in."
+    },
+    "details": {
+      "communityName": "Gemeenskapsnaam",
+      "address": "Adres",
+      "totalFlats": "Totale woonstelle",
+      "totalBlocks": "Totale blokke",
+      "type": "Dokument tipe",
+      "number": "Dokumentnommer",
+      "notes": "Besonderhede",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Ingedien",
+      "reviewedAt": "Hersien"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Genootskapregistrasiesertifikaat",
+      "ownershipProof": "Bewys van eiendomsbesit",
+      "governmentId": "Regering ID",
+      "other": "Ander"
+    },
+    "form": {
+      "title": "Dien dokumente in",
+      "resubmitTitle": "Dien dokumente weer in",
+      "documentType": "Dokument tipe",
+      "documentNumber": "Dokumentnommer",
+      "details": "Bykomende besonderhede (opsioneel)",
+      "file": "Dokument PDF",
+      "fileHint": "Slegs PDF tot 5 MB.",
+      "communitySection": "Gemeenskapbesonderhede",
+      "documentSection": "Verifikasie dokument",
+      "communityName": "Gemeenskap / samelewing naam",
+      "address": "Adres",
+      "city": "Stad",
+      "state": "Staat",
+      "pincode": "Pinkode",
+      "totalFlats": "Totale aantal woonstelle",
+      "totalBlocks": "Aantal blokke / torings (opsioneel)",
+      "fieldsRequired": "Vul asseblief al die vereiste velde in.",
+      "countInvalid": "Woonstelle en blokke moet nommers van minstens 1 wees.",
+      "fileRequired": "Heg asseblief 'n PDF dokument aan.",
+      "tooLarge": "Die lêer moet 5 MB of kleiner wees.",
+      "submit": "Dien in vir verifikasie",
+      "submitting": "Dien tans in …",
+      "submitError": "Kon nie jou dokumente indien nie. Probeer asseblief weer."
+    }
+  },
   "announcements": {
     "loadError": "Kon nie aankondigings laai nie. Probeer asseblief weer.",
     "removeError": "Kon nie hierdie aankondiging uitvee nie. Probeer asseblief weer.",

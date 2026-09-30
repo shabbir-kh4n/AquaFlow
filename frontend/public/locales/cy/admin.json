@@ -535,6 +535,68 @@
       "outstanding": "Eithriadol"
     }
   },
+  "verification": {
+    "loading": "Wrthi'n llwytho dilysiad…",
+    "loadError": "Methu llwytho eich statws dilysu. Ceisiwch eto.",
+    "viewError": "Methu agor y ddogfen.",
+    "statusTitle": "Statws dilysu",
+    "rejectionReason": "Rheswm dros wrthod:",
+    "status": {
+      "notSubmitted": "Heb ei gyflwyno",
+      "pending": "Adolygiad yn aros",
+      "approved": "Cymeradwy",
+      "rejected": "Gwrthodwyd"
+    },
+    "messages": {
+      "notSubmitted": "Cyflwynwch fanylion a dogfennau eich cymuned isod. Hyd nes y cânt eu cymeradwyo dim ond y tudalennau Dangosfwrdd, Dilysu a Phroffil y gallwch eu defnyddio.",
+      "pending": "Mae eich dogfennau gyda gweinyddwr platfform i'w hadolygu. Hyd nes y cânt eu cymeradwyo dim ond y tudalennau Dangosfwrdd, Dilysu a Phroffil y gallwch eu defnyddio.",
+      "approved": "Mae eich dogfennau wedi'u gwirio.",
+      "rejectedHint": "Trwsiwch y mater a chyflwynwch eich dogfennau eto isod."
+    },
+    "details": {
+      "communityName": "Enw cymuned",
+      "address": "Cyfeiriad",
+      "totalFlats": "Cyfanswm y fflatiau",
+      "totalBlocks": "Cyfanswm blociau",
+      "type": "Math o ddogfen",
+      "number": "Rhif y ddogfen",
+      "notes": "Manylion",
+      "file": "Dogfen (PDF)",
+      "submittedAt": "Cyflwynwyd",
+      "reviewedAt": "Adolygwyd"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Tystysgrif cofrestru cymdeithas",
+      "ownershipProof": "Prawf perchnogaeth eiddo",
+      "governmentId": "ID y Llywodraeth",
+      "other": "Arall"
+    },
+    "form": {
+      "title": "Cyflwyno dogfennau",
+      "resubmitTitle": "Cyflwyno dogfennau eto",
+      "documentType": "Math o ddogfen",
+      "documentNumber": "Rhif y ddogfen",
+      "details": "Manylion ychwanegol (dewisol)",
+      "file": "Dogfen PDF",
+      "fileHint": "PDF yn unig, hyd at 5 MB.",
+      "communitySection": "Manylion cymunedol",
+      "documentSection": "Dogfen ddilysu",
+      "communityName": "Enw cymuned / cymdeithas",
+      "address": "Cyfeiriad",
+      "city": "Dinas",
+      "state": "Cyflwr",
+      "pincode": "Cod pin",
+      "totalFlats": "Cyfanswm nifer y fflatiau",
+      "totalBlocks": "Nifer y blociau / tyrau (dewisol)",
+      "fieldsRequired": "Llenwch yr holl feysydd gofynnol.",
+      "countInvalid": "Rhaid i fflatiau a blociau fod yn rifau o 1 o leiaf.",
+      "fileRequired": "Atodwch ddogfen PDF.",
+      "tooLarge": "Rhaid i'r ffeil fod yn 5 MB neu lai.",
+      "submit": "Cyflwyno i'w ddilysu",
+      "submitting": "Wrthi'n cyflwyno…",
+      "submitError": "Methu â chyflwyno'ch dogfennau. Ceisiwch eto."
+    }
+  },
   "announcements": {
     "loadError": "Methu llwytho cyhoeddiadau. Ceisiwch eto.",
     "removeError": "Methu dileu'r cyhoeddiad hwn. Ceisiwch eto.",

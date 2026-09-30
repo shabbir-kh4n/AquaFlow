@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Mifidiana rakitra",
+    "change": "Hanova rakitra",
+    "none": "Tsy misy rakitra voafidy"
+  },
   "authModal": {
     "close": "AKAIKY",
     "signUpTitle": "Soraty ny vondrom-piarahamoninao",
@@ -188,6 +193,7 @@
       "support": "Fanohanana / ahiahy",
       "tariffPlans": "Tarifa drafitra",
       "announcements": "Fampandrenesana",
+      "verification": "fanamarinana",
       "profile": "TANTARANY"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Fampandrenesana",
         "subtitle": "Mamoaha fampandrenesana manerana ny vondrom-piarahamonina ho an'ny mponinao."
       },
+      "verification": {
+        "title": "Fanamarinana ny antontan-taratasy",
+        "subtitle": "Alefaso ny antontan-taratasinao mba ahafahan'ny sehatra manamarina ny vondrom-piarahamoninao."
+      },
       "profile": {
         "title": "Fikirana & mombamomba",
         "subtitle": "Tantano ny antsipirian'ny kaontinao sy ny mombamomba ny trano."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Misy rehefa voamarina ny vondrom-piarahamoninao",
+    "verifyBanner": "Tsy mbola voamarina ny vondrom-piarahamoninao, ka voahidy ny ankamaroan'ny pejy.",
+    "verifyBannerLink": "Mandehana any amin'ny Verification",
     "fallbackCommunity": "Mpitantana ny vondrom-piarahamonina",
     "notBuilt": "{{label}} dia tsy mbola vita",
     "searchPlaceholder": "Hikaroka na inona na inona…"

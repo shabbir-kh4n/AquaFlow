@@ -535,6 +535,68 @@
       "outstanding": "Kūlana"
     }
   },
+  "verification": {
+    "loading": "Ke hoʻouka nei i ka hōʻoia…",
+    "loadError": "ʻAʻole hiki ke hoʻouka i kāu kūlana hōʻoia. E ʻoluʻolu e hoʻāʻo hou.",
+    "viewError": "ʻAʻole hiki ke wehe i ka palapala.",
+    "statusTitle": "Kūlana hōʻoia",
+    "rejectionReason": "Ke kumu o ka hōʻole ʻana:",
+    "status": {
+      "notSubmitted": "ʻAʻole i waiho ʻia",
+      "pending": "Ke kali nei ka loiloi",
+      "approved": "Aponoia",
+      "rejected": "Hōʻole ʻia"
+    },
+    "messages": {
+      "notSubmitted": "E hoʻouna i nā kikoʻī a me nā palapala o kāu kaiāulu ma lalo. A hiki i ka ʻae ʻia ʻana, hiki iā ʻoe ke hoʻohana wale i ka Dashboard, Verification and Profile page.",
+      "pending": "Aia kāu mau palapala me kahi luna hoʻomalu no ka loiloi. A hiki i ka ʻae ʻia ʻana, hiki iā ʻoe ke hoʻohana wale i ka Dashboard, Verification and Profile page.",
+      "approved": "Ua hōʻoia ʻia kāu mau palapala.",
+      "rejectedHint": "Hoʻoponopono i ka pilikia a hoʻouna hou i kāu mau palapala ma lalo nei."
+    },
+    "details": {
+      "communityName": "inoa kaiaulu",
+      "address": "Heluhelu",
+      "totalFlats": "Huina palahalaha",
+      "totalBlocks": "huina pau",
+      "type": "ʻAno palapala",
+      "number": "Helu palapala",
+      "notes": "Nā kikoʻī",
+      "file": "Palapala (PDF)",
+      "submittedAt": "Waihoia",
+      "reviewedAt": "Nānā ʻia"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Palapala hoʻopaʻa inoa o ka hui",
+      "ownershipProof": "Hōʻoiaʻiʻo o ka ʻona",
+      "governmentId": "ID aupuni",
+      "other": "'ē aʻe"
+    },
+    "form": {
+      "title": "Waiho i nā palapala",
+      "resubmitTitle": "Hoʻouna hou i nā palapala",
+      "documentType": "ʻAno palapala",
+      "documentNumber": "Helu palapala",
+      "details": "Nā kikoʻī hou aku (koe)",
+      "file": "Palapala PDF",
+      "fileHint": "PDF wale nō, a hiki i 5 MB.",
+      "communitySection": "Nā kikoʻī kaiaulu",
+      "documentSection": "Palapala hōʻoia",
+      "communityName": "inoa kaiaulu / hui",
+      "address": "Heluhelu",
+      "city": "Kulanakauhale",
+      "state": "Mokuʻāina",
+      "pincode": "Pincode",
+      "totalFlats": "Huina helu o na palahalaha",
+      "totalBlocks": "Ka helu o nā poloka / hale kiaʻi (koho)",
+      "fieldsRequired": "E ʻoluʻolu e hoʻopiha i nā kahua āpau i koi ʻia.",
+      "countInvalid": "Pono nā papa a me nā poloka i nā helu o ka liʻiliʻi o 1.",
+      "fileRequired": "E ʻoluʻolu e hoʻopili i kahi palapala PDF.",
+      "tooLarge": "Pono ka waihona he 5 MB a ʻoi aʻe paha.",
+      "submit": "Waiho no ka hooiaio",
+      "submitting": "Ke waiho nei…",
+      "submitError": "ʻAʻole hiki ke waiho i kāu mau palapala. E ʻoluʻolu e hoʻāʻo hou."
+    }
+  },
   "announcements": {
     "loadError": "ʻAʻole hiki ke hoʻouka i nā hoʻolaha. E ʻoluʻolu e hoʻāʻo hou.",
     "removeError": "ʻAʻole hiki ke holoi i kēia hoʻolaha. E ʻoluʻolu e hoʻāʻo hou.",

@@ -535,6 +535,68 @@
       "outstanding": "Görnükli"
     }
   },
+  "verification": {
+    "loading": "Barlag ýüklenýär…",
+    "loadError": "Barlag ýagdaýyňyzy ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "viewError": "Resminamany açyp bolmady",
+    "statusTitle": "Barlag ýagdaýy",
+    "rejectionReason": "Ret etmegiň sebäbi:",
+    "status": {
+      "notSubmitted": "Iberilmedi",
+      "pending": "Garaşylýan syn",
+      "approved": "Makullandy",
+      "rejected": "Ret edildi"
+    },
+    "messages": {
+      "notSubmitted": "Jemgyýetiňiziň jikme-jikliklerini we resminamalaryny aşakda iberiň. Olar tassyklanýança diňe Dolandyryş paneli, Barlamak we Profil sahypalaryny ulanyp bilersiňiz.",
+      "pending": "Resminamalaryňyz gözden geçirmek üçin platforma administratorynyň ýanyndadyr. Olar tassyklanýança diňe Dolandyryş paneli, Barlamak we Profil sahypalaryny ulanyp bilersiňiz.",
+      "approved": "Resminamalaryňyz tassyklandy",
+      "rejectedHint": "Meseläni düzediň we resminamalaryňyzy aşakda gaýtadan iberiň."
+    },
+    "details": {
+      "communityName": "Jemgyýetiň ady",
+      "address": "Salgysy",
+      "totalFlats": "Jemi kwartira",
+      "totalBlocks": "Jemi bloklar",
+      "type": "Resminamanyň görnüşi",
+      "number": "Resminamanyň belgisi",
+      "notes": "Jikme-jiklikler",
+      "file": "Resminama (PDF)",
+      "submittedAt": "Iberildi",
+      "reviewedAt": "Gözden geçirildi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Jemgyýet hasaba alyş şahadatnamasy",
+      "ownershipProof": "Emläk eýeçiliginiň subutnamasy",
+      "governmentId": "Döwlet şahadatnamasy",
+      "other": "Beýlekiler"
+    },
+    "form": {
+      "title": "Resminamalary iberiň",
+      "resubmitTitle": "Resminamalary gaýtadan iberiň",
+      "documentType": "Resminamanyň görnüşi",
+      "documentNumber": "Resminamanyň belgisi",
+      "details": "Goşmaça maglumatlar (islege görä)",
+      "file": "Resminama PDF",
+      "fileHint": "PDF diňe 5 MB çenli.",
+      "communitySection": "Jemgyýetiň maglumatlary",
+      "documentSection": "Barlag resminamasy",
+      "communityName": "Jemgyýetiň / jemgyýetiň ady",
+      "address": "Salgysy",
+      "city": "Şäher",
+      "state": "Döwlet",
+      "pincode": "Pinkod",
+      "totalFlats": "Kwartiralaryň umumy sany",
+      "totalBlocks": "Bloklaryň / diňleriň sany (islege görä)",
+      "fieldsRequired": "Requiredhli zerur meýdanlary doldurmagyňyzy haýyş edýäris.",
+      "countInvalid": "Kwartiralar we bloklar azyndan 1 bolmaly.",
+      "fileRequired": "PDF resminama goşmagyňyzy haýyş edýäris.",
+      "tooLarge": "Faýl 5 MB ýa-da has kiçi bolmaly.",
+      "submit": "Barlamak üçin tabşyryň",
+      "submitting": "Ibermek ...",
+      "submitError": "Resminamalaryňyzy iberip bilmedim Gaýtadan synanyşmagyňyzy haýyş edýäris."
+    }
+  },
   "announcements": {
     "loadError": "Bildirişleri ýükläp bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
     "removeError": "Bu bildirişi pozup bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",

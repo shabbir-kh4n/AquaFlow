@@ -535,6 +535,68 @@
       "outstanding": "Görkəmli"
     }
   },
+  "verification": {
+    "loading": "Doğrulama yüklənir...",
+    "loadError": "Doğrulama statusunuzu yükləmək mümkün olmadı. Yenidən cəhd edin.",
+    "viewError": "Sənədi açmaq mümkün olmadı.",
+    "statusTitle": "Doğrulama statusu",
+    "rejectionReason": "Rədd edilmə səbəbi:",
+    "status": {
+      "notSubmitted": "Təqdim olunmayıb",
+      "pending": "Baxış gözlənilir",
+      "approved": "Təsdiq edildi",
+      "rejected": "Rədd edildi"
+    },
+    "messages": {
+      "notSubmitted": "Cəmiyyətinizin təfərrüatlarını və sənədlərini aşağıda təqdim edin. Onlar təsdiq edilənə qədər siz yalnız İdarə Paneli, Doğrulama və Profil səhifələrindən istifadə edə bilərsiniz.",
+      "pending": "Sənədləriniz nəzərdən keçirilmək üçün platforma administratorundadır. Onlar təsdiq edilənə qədər siz yalnız İdarə Paneli, Doğrulama və Profil səhifələrindən istifadə edə bilərsiniz.",
+      "approved": "Sənədləriniz yoxlanılıb.",
+      "rejectedHint": "Problemi həll edin və sənədlərinizi yenidən aşağıda təqdim edin."
+    },
+    "details": {
+      "communityName": "İcma adı",
+      "address": "Ünvan",
+      "totalFlats": "Ümumi mənzillər",
+      "totalBlocks": "Ümumi bloklar",
+      "type": "Sənəd növü",
+      "number": "Sənəd nömrəsi",
+      "notes": "Təfərrüatlar",
+      "file": "Sənəd (PDF)",
+      "submittedAt": "Təqdim edildi",
+      "reviewedAt": "Nəzərdən keçirildi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Cəmiyyətin qeydiyyatı haqqında şəhadətnamə",
+      "ownershipProof": "Əmlakın mülkiyyət sənədi",
+      "governmentId": "Hökumət ID",
+      "other": "Digər"
+    },
+    "form": {
+      "title": "Sənədləri təqdim edin",
+      "resubmitTitle": "Sənədləri yenidən təqdim edin",
+      "documentType": "Sənəd növü",
+      "documentNumber": "Sənəd nömrəsi",
+      "details": "Əlavə təfərrüatlar (isteğe bağlı)",
+      "file": "Sənəd PDF",
+      "fileHint": "yalnız PDF, 5 MB-a qədər.",
+      "communitySection": "İcma təfərrüatları",
+      "documentSection": "Doğrulama sənədi",
+      "communityName": "İcma/cəmiyyət adı",
+      "address": "Ünvan",
+      "city": "Şəhər",
+      "state": "dövlət",
+      "pincode": "Pin kodu",
+      "totalFlats": "Mənzillərin ümumi sayı",
+      "totalBlocks": "Blokların / qüllələrin sayı (isteğe bağlı)",
+      "fieldsRequired": "Zəhmət olmasa bütün tələb olunan sahələri doldurun.",
+      "countInvalid": "Mənzillər və bloklar ən azı 1 ədəd olmalıdır.",
+      "fileRequired": "Lütfən, PDF sənəd əlavə edin.",
+      "tooLarge": "Fayl 5 MB və ya daha kiçik olmalıdır.",
+      "submit": "Təsdiq üçün təqdim edin",
+      "submitting": "Göndərilir...",
+      "submitError": "Sənədlərinizi təqdim etmək mümkün olmadı. Yenidən cəhd edin."
+    }
+  },
   "announcements": {
     "loadError": "Elanları yükləmək mümkün olmadı. Yenidən cəhd edin.",
     "removeError": "Bu elanı silmək mümkün olmadı. Yenidən cəhd edin.",

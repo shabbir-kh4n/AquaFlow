@@ -5,6 +5,7 @@ import { useSearchParams } from 'react-router-dom'
 import { bulkUploadResidents, createResident, deleteResident, listResidents, updateResident } from '../../api/residentApi'
 import Avatar from '../../components/Avatar'
 import '../../components/AuthForm.css'
+import FilePicker from '../../components/FilePicker'
 import './HouseholdsDirectory.css'
 
 const EMPTY_FORM = {
@@ -671,9 +672,10 @@ function HouseholdsDirectory() {
               {bulkError && <div className="af-form__error">{bulkError}</div>}
 
               <div className="af-hh__bulk-upload-input">
-                <input
-                  type="file"
+                <FilePicker
+                  id="bulkResidentFile"
                   accept=".csv,.xlsx,.xls,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel"
+                  file={bulkFile}
                   onChange={(e) => setBulkFile(e.target.files?.[0] || null)}
                 />
               </div>

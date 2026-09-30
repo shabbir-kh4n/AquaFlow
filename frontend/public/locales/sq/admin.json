@@ -535,6 +535,68 @@
       "outstanding": "I shquar"
     }
   },
+  "verification": {
+    "loading": "Verifikimi po ngarkohet…",
+    "loadError": "Statusi i verifikimit nuk mund të ngarkohej. Ju lutemi provoni përsëri.",
+    "viewError": "Dokumenti nuk mund të hapej.",
+    "statusTitle": "Statusi i verifikimit",
+    "rejectionReason": "Arsyeja e refuzimit:",
+    "status": {
+      "notSubmitted": "Nuk është dorëzuar",
+      "pending": "Në pritje të shqyrtimit",
+      "approved": "Miratuar",
+      "rejected": "Refuzuar"
+    },
+    "messages": {
+      "notSubmitted": "Paraqisni detajet dhe dokumentet e komunitetit tuaj më poshtë. Derisa të miratohen, mund të përdorni vetëm faqet e Panelit, Verifikimit dhe Profilit.",
+      "pending": "Dokumentet tuaja janë me një administrator platforme për shqyrtim. Derisa të miratohen, mund të përdorni vetëm faqet e Panelit, Verifikimit dhe Profilit.",
+      "approved": "Dokumentet tuaja janë verifikuar.",
+      "rejectedHint": "Rregulloni problemin dhe dorëzoni përsëri dokumentet tuaja më poshtë."
+    },
+    "details": {
+      "communityName": "Emri i komunitetit",
+      "address": "Adresa",
+      "totalFlats": "Totali i banesave",
+      "totalBlocks": "Totali i blloqeve",
+      "type": "Lloji i dokumentit",
+      "number": "Numri i dokumentit",
+      "notes": "Detajet",
+      "file": "Dokument (PDF)",
+      "submittedAt": "dorëzuar",
+      "reviewedAt": "Shqyrtuar"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certifikata e regjistrimit të shoqërisë",
+      "ownershipProof": "Dëshmia e pronësisë së pronës",
+      "governmentId": "ID e qeverisë",
+      "other": "Të tjera"
+    },
+    "form": {
+      "title": "Paraqisni dokumente",
+      "resubmitTitle": "Paraqisni përsëri dokumentet",
+      "documentType": "Lloji i dokumentit",
+      "documentNumber": "Numri i dokumentit",
+      "details": "Detaje shtesë (opsionale)",
+      "file": "Dokumenti PDF",
+      "fileHint": "Vetëm PDF, deri në 5 MB.",
+      "communitySection": "Detajet e komunitetit",
+      "documentSection": "Dokument verifikimi",
+      "communityName": "Emri i komunitetit / shoqërisë",
+      "address": "Adresa",
+      "city": "Qyteti",
+      "state": "Shtetit",
+      "pincode": "Kodi pin",
+      "totalFlats": "Numri total i banesave",
+      "totalBlocks": "Numri i blloqeve / kullave (opsionale)",
+      "fieldsRequired": "Ju lutemi plotësoni të gjitha fushat e kërkuara.",
+      "countInvalid": "Banesat dhe blloqet duhet të jenë numra të paktën 1.",
+      "fileRequired": "Ju lutemi bashkëngjitni një dokument PDF.",
+      "tooLarge": "Skedari duhet të jetë 5 MB ose më i vogël.",
+      "submit": "Paraqisni për verifikim",
+      "submitting": "Po dorëzohet…",
+      "submitError": "Dokumentet tuaja nuk mund të dorëzoheshin. Ju lutemi provoni përsëri."
+    }
+  },
   "announcements": {
     "loadError": "Njoftimet nuk mund të ngarkoheshin. Ju lutemi provoni përsëri.",
     "removeError": "Ky njoftim nuk mund të fshihej. Ju lutemi provoni përsëri.",

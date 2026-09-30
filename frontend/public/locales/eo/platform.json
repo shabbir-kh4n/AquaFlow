@@ -4,6 +4,39 @@
     "blocked": "Blokita",
     "terminated": "Finita"
   },
+  "verification": {
+    "title": "Dokumenta Kontrolo",
+    "status": {
+      "notSubmitted": "Ne submetita",
+      "pending": "Pritraktata revizio",
+      "approved": "Aprobita",
+      "rejected": "Malakceptita"
+    },
+    "notSubmitted": "Ĉi tiu komunuma administranto ankoraŭ ne sendis konfirmdokumentojn.",
+    "communityName": "Komunuma nomo",
+    "address": "Adreso",
+    "totalFlats": "Totalaj apartamentoj",
+    "totalBlocks": "Tutaj blokoj",
+    "documentType": "Dokumenttipo",
+    "documentNumber": "Dokumentnumero",
+    "notes": "Detaloj",
+    "file": "Dokumento (PDF)",
+    "submittedAt": "Submetita",
+    "reviewedAt": "Reviziita",
+    "rejectionReason": "Kialo de malakcepto:",
+    "approve": "Aprobi",
+    "reject": "Malakcepti",
+    "viewError": "Ne eblis malfermi la dokumenton.",
+    "approveError": "Ne eblis aprobi ĉi tiun konfirmon.",
+    "rejectError": "Ne eblis malakcepti ĉi tiun konfirmon.",
+    "reasonRequired": "Bonvolu doni kialon por malakcepto.",
+    "rejectDialog": {
+      "title": "Malakcepti konfirmon",
+      "message": "{{name}} vidos la kialon, kiun vi donas kaj povas sendi novajn dokumentojn.",
+      "reasonLabel": "Kialo por malakcepto",
+      "confirm": "Malakcepti"
+    }
+  },
   "sort": {
     "sortBy": "Ordigi laŭ",
     "toggleDirection": "Ŝaltu ordigdirekton",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Retpoŝto",
       "status": "Statuso",
+      "verification": "Konfirmo",
       "residents": "Loĝantoj",
       "view": "Vido"
     }

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Aukeratu fitxategia",
+    "change": "Aldatu fitxategia",
+    "none": "Ez da fitxategirik aukeratu"
+  },
   "authModal": {
     "close": "Itxi",
     "signUpTitle": "Erregistratu zure komunitatea",
@@ -188,6 +193,7 @@
       "support": "Laguntza / Kezkak",
       "tariffPlans": "Tarifa Planak",
       "announcements": "Iragarkiak",
+      "verification": "Egiaztapena",
       "profile": "Profila"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Iragarkiak",
         "subtitle": "Argitaratu komunitate osorako oharrak zure bizilagunei."
       },
+      "verification": {
+        "title": "Dokumentuen egiaztapena",
+        "subtitle": "Bidali zure dokumentuak plataformak zure komunitatea egiazta dezan."
+      },
       "profile": {
         "title": "Ezarpenak eta profila",
         "subtitle": "Kudeatu zure kontuaren xehetasunak eta apartamentuaren informazioa."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Zure komunitatea egiaztatu ondoren eskuragarri",
+    "verifyBanner": "Zure komunitatea ez dago egiaztatuta oraindik, beraz, orrialde gehienak blokeatuta daude.",
+    "verifyBannerLink": "Joan Egiaztapenera",
     "fallbackCommunity": "Komunitateko administratzailea",
     "notBuilt": "{{label}} oraindik ez dago eraikita",
     "searchPlaceholder": "Bilatu ezer..."

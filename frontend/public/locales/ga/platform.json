@@ -4,6 +4,39 @@
     "blocked": "Coiscthe",
     "terminated": "Foirceannadh"
   },
+  "verification": {
+    "title": "Fíorú Doiciméid",
+    "status": {
+      "notSubmitted": "Níor cuireadh isteach",
+      "pending": "Athbhreithniú ar feitheamh",
+      "approved": "Ceadaithe",
+      "rejected": "Diúltaithe"
+    },
+    "notSubmitted": "Níl doiciméid fíorúcháin curtha isteach ag an riarthóir pobail seo fós.",
+    "communityName": "Ainm pobail",
+    "address": "Seoladh",
+    "totalFlats": "Iomlán árasán",
+    "totalBlocks": "Bloic iomlán",
+    "documentType": "Cineál doiciméid",
+    "documentNumber": "Uimhir an doiciméid",
+    "notes": "Sonraí",
+    "file": "Doiciméad (PDF)",
+    "submittedAt": "Arna chur isteach",
+    "reviewedAt": "Athbhreithnithe",
+    "rejectionReason": "An chúis leis an diúltú:",
+    "approve": "Cheadaigh",
+    "reject": "Diúltaigh",
+    "viewError": "Níorbh fhéidir an doiciméad a oscailt.",
+    "approveError": "Níorbh fhéidir an fíorú seo a cheadú.",
+    "rejectError": "Níorbh fhéidir an fíorú seo a dhiúltú.",
+    "reasonRequired": "Tabhair cúis le diúltú, le do thoil.",
+    "rejectDialog": {
+      "title": "Diúltaigh an fíorú",
+      "message": "{{name}} feicfidh tú an chúis a thugann tú agus is féidir doiciméid nua a chur isteach.",
+      "reasonLabel": "An chúis leis an diúltú",
+      "confirm": "Diúltaigh"
+    }
+  },
   "sort": {
     "sortBy": "Sórtáil de réir",
     "toggleDirection": "Scoránaigh treo sórtála",
@@ -64,6 +97,7 @@
       "admin": "Riarachán",
       "email": "Ríomhphost",
       "status": "Stádas",
+      "verification": "Fíorú",
       "residents": "Cónaitheoirí",
       "view": "Amharc"
     }

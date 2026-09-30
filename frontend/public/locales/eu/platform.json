@@ -4,6 +4,39 @@
     "blocked": "Blokeatua",
     "terminated": "Amaitua"
   },
+  "verification": {
+    "title": "Dokumentuen egiaztapena",
+    "status": {
+      "notSubmitted": "Ez da aurkeztu",
+      "pending": "Berrikuspenaren zain",
+      "approved": "Onartua",
+      "rejected": "Baztertua"
+    },
+    "notSubmitted": "Komunitateko administratzaile honek ez du egiaztapen-dokumenturik bidali oraindik.",
+    "communityName": "Komunitatearen izena",
+    "address": "Helbidea",
+    "totalFlats": "Etxebizitza guztira",
+    "totalBlocks": "Blokeak guztira",
+    "documentType": "Dokumentu mota",
+    "documentNumber": "Dokumentu zenbakia",
+    "notes": "Xehetasunak",
+    "file": "Dokumentua (PDF)",
+    "submittedAt": "Aurkeztua",
+    "reviewedAt": "Berrikusi",
+    "rejectionReason": "Errefusaren arrazoia:",
+    "approve": "Onartu",
+    "reject": "Baztertu",
+    "viewError": "Ezin izan da dokumentua ireki.",
+    "approveError": "Ezin izan da egiaztapen hau onartu.",
+    "rejectError": "Ezin izan da ukatu egiaztapen hau.",
+    "reasonRequired": "Mesedez, eman ezesteko arrazoia.",
+    "rejectDialog": {
+      "title": "Ukatu egiaztapena",
+      "message": "{{name}}-k ematen duzun arrazoia ikusiko du eta dokumentu berriak aurkez ditzake.",
+      "reasonLabel": "Errefusaren arrazoia",
+      "confirm": "Baztertu"
+    }
+  },
   "sort": {
     "sortBy": "Ordenatu",
     "toggleDirection": "Aldatu ordenatzeko norabidea",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Posta elektronikoa",
       "status": "Egoera",
+      "verification": "Egiaztapena",
       "residents": "Bizilagunak",
       "view": "Ikusi"
     }

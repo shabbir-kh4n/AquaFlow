@@ -4,6 +4,39 @@
     "blocked": "ተዓጽዩ ኣሎ።",
     "terminated": "ተቛሪጹ"
   },
+  "verification": {
+    "title": "ምርግጋጽ ሰነድ",
+    "status": {
+      "notSubmitted": "ኣይቀረበን።",
+      "pending": "ዳግመ ግምት ኣብ ምጽባይ",
+      "approved": "ጸዲቑ",
+      "rejected": "ተነጺጉ"
+    },
+    "notSubmitted": "እዚ ናይ ማሕበረሰብ ኣድሚን ክሳብ ሕጂ ናይ ምርግጋጽ ሰነድ ኣየቕረበን።",
+    "communityName": "ስም ማሕበረሰብ",
+    "address": "አድራሻ",
+    "totalFlats": "ጠቕላላ ፍላት",
+    "totalBlocks": "ጠቕላላ ብሎኮታት",
+    "documentType": "ዓይነት ሰነድ",
+    "documentNumber": "ቁጽሪ ሰነድ",
+    "notes": "ዝርዝራት",
+    "file": "ሰነድ (PDF)",
+    "submittedAt": "ዝቐረበ",
+    "reviewedAt": "ተገምጊሙ",
+    "rejectionReason": "ምኽንያት ምንጻግ፤",
+    "approve": "ምቕባል",
+    "reject": "ምንጻግ",
+    "viewError": "ነቲ ሰነድ ክኸፍቶ ኣይከኣለን።",
+    "approveError": "ነዚ ምርግጋጽ ከጽድቕ ኣይከኣለን።",
+    "rejectError": "ነዚ ምርግጋጽ ክነጽጎ ኣይከኣለን።",
+    "reasonRequired": "ንዝነጸግኩምሉ ምኽንያት ሃቡና።",
+    "rejectDialog": {
+      "title": "ምርግጋጽ ምንጻግ",
+      "message": "{{name}} ዝሃብካዮ ምኽንያት ክርኢን ሓደስቲ ሰነዳት ከቕርብ ይኽእልን እዩ።",
+      "reasonLabel": "ምኽንያት ምንጻግ",
+      "confirm": "ምንጻግ"
+    }
+  },
   "sort": {
     "sortBy": "ብስርዓት",
     "toggleDirection": "ኣንፈት ምድላው ምቕያር",
@@ -64,6 +97,7 @@
       "admin": "ኣድሚን",
       "email": "ኢመይል",
       "status": "ኩነታት",
+      "verification": "ምርግጋጽ",
       "residents": "ነበርቲ",
       "view": "ኣረኣእያ"
     }

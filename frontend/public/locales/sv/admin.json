@@ -535,6 +535,68 @@
       "outstanding": "Utestående"
     }
   },
+  "verification": {
+    "loading": "Laddar verifiering...",
+    "loadError": "Det gick inte att ladda din verifieringsstatus. Försök igen.",
+    "viewError": "Det gick inte att öppna dokumentet.",
+    "statusTitle": "Verifieringsstatus",
+    "rejectionReason": "Orsak till avslag:",
+    "status": {
+      "notSubmitted": "Ej inlämnad",
+      "pending": "Väntar på granskning",
+      "approved": "Godkänd",
+      "rejected": "Avvisad"
+    },
+    "messages": {
+      "notSubmitted": "Skicka in din grupps uppgifter och dokument nedan. Tills de är godkända kan du bara använda Dashboard-, Verifierings- och Profilsidorna.",
+      "pending": "Dina dokument ligger hos en plattformsadministratör för granskning. Tills de är godkända kan du bara använda Dashboard-, Verifierings- och Profilsidorna.",
+      "approved": "Dina dokument har verifierats.",
+      "rejectedHint": "Åtgärda problemet och skicka in dina dokument igen nedan."
+    },
+    "details": {
+      "communityName": "Gemenskapens namn",
+      "address": "Adress",
+      "totalFlats": "Totalt lägenheter",
+      "totalBlocks": "Totalt antal block",
+      "type": "Dokumenttyp",
+      "number": "Dokumentnummer",
+      "notes": "Detaljer",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Inlämnad",
+      "reviewedAt": "Recenserad"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Samhällets registreringsbevis",
+      "ownershipProof": "Fastighetsägande bevis",
+      "governmentId": "Regeringens ID",
+      "other": "Andra"
+    },
+    "form": {
+      "title": "Skicka in dokument",
+      "resubmitTitle": "Skicka in dokument igen",
+      "documentType": "Dokumenttyp",
+      "documentNumber": "Dokumentnummer",
+      "details": "Ytterligare detaljer (valfritt)",
+      "file": "Dokument PDF",
+      "fileHint": "Endast PDF upp till 5 MB.",
+      "communitySection": "Information om gemenskapen",
+      "documentSection": "Verifieringsdokument",
+      "communityName": "Gemenskapens/samhällets namn",
+      "address": "Adress",
+      "city": "Stad",
+      "state": "Ange",
+      "pincode": "Pinkod",
+      "totalFlats": "Totalt antal lägenheter",
+      "totalBlocks": "Antal block/torn (valfritt)",
+      "fieldsRequired": "Vänligen fyll i alla obligatoriska fält.",
+      "countInvalid": "Lägenheter och kvarter måste vara minst 1.",
+      "fileRequired": "Bifoga ett PDF dokument.",
+      "tooLarge": "Filen måste vara 5 MB eller mindre.",
+      "submit": "Skicka in för verifiering",
+      "submitting": "Skickar in...",
+      "submitError": "Det gick inte att skicka in dina dokument. Försök igen."
+    }
+  },
   "announcements": {
     "loadError": "Det gick inte att läsa in meddelanden. Försök igen.",
     "removeError": "Det gick inte att ta bort det här meddelandet. Försök igen.",

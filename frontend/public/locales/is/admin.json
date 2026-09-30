@@ -535,6 +535,68 @@
       "outstanding": "Framúrskarandi"
     }
   },
+  "verification": {
+    "loading": "Hleður staðfestingu...",
+    "loadError": "Ekki tókst að hlaða staðfestingarstöðuna þína. Vinsamlegast reyndu aftur.",
+    "viewError": "Ekki tókst að opna skjalið.",
+    "statusTitle": "Staðfestingarstaða",
+    "rejectionReason": "Ástæða höfnunar:",
+    "status": {
+      "notSubmitted": "Ekki lagt fram",
+      "pending": "Bíður endurskoðunar",
+      "approved": "Samþykkt",
+      "rejected": "Hafnað"
+    },
+    "messages": {
+      "notSubmitted": "Sendu inn upplýsingar og skjöl samfélagsins þíns hér að neðan. Þangað til þau eru samþykkt geturðu aðeins notað Mælaborðið, Staðfestingar- og prófílsíðurnar.",
+      "pending": "Skjölin þín eru hjá vettvangsstjóra til yfirferðar. Þangað til þau eru samþykkt geturðu aðeins notað Mælaborðið, Staðfestingar- og prófílsíðurnar.",
+      "approved": "Skjölin þín hafa verið staðfest.",
+      "rejectedHint": "Lagaðu málið og sendu inn skjölin þín aftur hér að neðan."
+    },
+    "details": {
+      "communityName": "Samfélagsheiti",
+      "address": "Heimilisfang",
+      "totalFlats": "Samtals íbúðir",
+      "totalBlocks": "Samtals blokkir",
+      "type": "Skjaltegund",
+      "number": "Skjalnúmer",
+      "notes": "Upplýsingar",
+      "file": "Skjal (PDF)",
+      "submittedAt": "Lagt fram",
+      "reviewedAt": "Farið yfir"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Félagsskráningarskírteini",
+      "ownershipProof": "Sönnun um eignarhald",
+      "governmentId": "Ríkiskenni",
+      "other": "Annað"
+    },
+    "form": {
+      "title": "Leggðu fram skjöl",
+      "resubmitTitle": "Sendu skjöl aftur",
+      "documentType": "Skjaltegund",
+      "documentNumber": "Skjalnúmer",
+      "details": "Viðbótarupplýsingar (valfrjálst)",
+      "file": "Skjal PDF",
+      "fileHint": "PDF aðeins, allt að 5 MB.",
+      "communitySection": "Samfélagsupplýsingar",
+      "documentSection": "Staðfestingarskjal",
+      "communityName": "Heiti samfélags/samfélags",
+      "address": "Heimilisfang",
+      "city": "Borg",
+      "state": "Ríki",
+      "pincode": "PINkóði",
+      "totalFlats": "Heildarfjöldi íbúða",
+      "totalBlocks": "Fjöldi blokka / turna (valfrjálst)",
+      "fieldsRequired": "Vinsamlegast fylltu út alla nauðsynlega reiti.",
+      "countInvalid": "Íbúðir og blokkir verða að vera að minnsta kosti 1.",
+      "fileRequired": "Vinsamlegast hengdu við PDF skjal.",
+      "tooLarge": "Skráin verður að vera 5 MB eða minni.",
+      "submit": "Sendu til staðfestingar",
+      "submitting": "Sendir inn...",
+      "submitError": "Gat ekki sent inn skjölin þín. Vinsamlegast reyndu aftur."
+    }
+  },
   "announcements": {
     "loadError": "Ekki tókst að hlaða tilkynningum. Vinsamlegast reyndu aftur.",
     "removeError": "Ekki tókst að eyða þessari tilkynningu. Vinsamlegast reyndu aftur.",

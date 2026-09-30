@@ -535,6 +535,68 @@
       "outstanding": "Sármhaith"
     }
   },
+  "verification": {
+    "loading": "Fíorú á lódáil…",
+    "loadError": "Níorbh fhéidir do stádas fíorúcháin a lódáil. Bain triail eile as.",
+    "viewError": "Níorbh fhéidir an doiciméad a oscailt.",
+    "statusTitle": "Stádas fíoraithe",
+    "rejectionReason": "An chúis leis an diúltú:",
+    "status": {
+      "notSubmitted": "Níor cuireadh isteach",
+      "pending": "Athbhreithniú ar feitheamh",
+      "approved": "Ceadaithe",
+      "rejected": "Diúltaithe"
+    },
+    "messages": {
+      "notSubmitted": "Cuir isteach sonraí agus doiciméid do phobail thíos. Go dtí go gceadaítear iad ní féidir leat ach na leathanaigh Deais, Fíoraithe agus Próifíl a úsáid.",
+      "pending": "Tá do dhoiciméid le riarthóir ardáin le haghaidh athbhreithnithe. Go dtí go gceadaítear iad ní féidir leat ach na leathanaigh Deais, Fíoraithe agus Próifíl a úsáid.",
+      "approved": "Fíoraíodh do dhoiciméid.",
+      "rejectedHint": "Deisigh an cheist agus cuir isteach do dhoiciméid arís thíos."
+    },
+    "details": {
+      "communityName": "Ainm pobail",
+      "address": "Seoladh",
+      "totalFlats": "Iomlán árasán",
+      "totalBlocks": "Bloic iomlán",
+      "type": "Cineál doiciméid",
+      "number": "Uimhir an doiciméid",
+      "notes": "Sonraí",
+      "file": "Doiciméad (PDF)",
+      "submittedAt": "Arna chur isteach",
+      "reviewedAt": "Athbhreithnithe"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Deimhniú clárúcháin cumann",
+      "ownershipProof": "Cruthúnas ar úinéireacht maoine",
+      "governmentId": "Aitheantas Rialtais",
+      "other": "Eile"
+    },
+    "form": {
+      "title": "Doiciméid a chur isteach",
+      "resubmitTitle": "Cuir isteach na doiciméid arís",
+      "documentType": "Cineál doiciméid",
+      "documentNumber": "Uimhir an doiciméid",
+      "details": "Sonraí breise (roghnach)",
+      "file": "Doiciméad PDF",
+      "fileHint": "PDF amháin, suas go dtí 5 MB.",
+      "communitySection": "Sonraí pobail",
+      "documentSection": "Doiciméad fíoraithe",
+      "communityName": "Ainm pobail / cumainn",
+      "address": "Seoladh",
+      "city": "Cathair",
+      "state": "Stáit",
+      "pincode": "Cód pin",
+      "totalFlats": "Líon iomlán na n-árasán",
+      "totalBlocks": "Líon na mbloc / túir (roghnach)",
+      "fieldsRequired": "Líon isteach na réimsí riachtanacha go léir le do thoil.",
+      "countInvalid": "Ní mór uimhreacha 1 ar a laghad a bheith sna árasáin agus sna bloic.",
+      "fileRequired": "Ceangail doiciméad PDF le do thoil.",
+      "tooLarge": "Caithfidh an comhad a bheith 5 MB nó níos lú.",
+      "submit": "Cuir isteach le haghaidh fíoraithe",
+      "submitting": "Á chur isteach…",
+      "submitError": "Níorbh fhéidir do dhoiciméid a chur isteach. Bain triail eile as."
+    }
+  },
   "announcements": {
     "loadError": "Níorbh fhéidir fógraí a lódáil. Bain triail eile as.",
     "removeError": "Níorbh fhéidir an fógra seo a scriosadh. Bain triail eile as.",

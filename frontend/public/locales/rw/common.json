@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Hitamo dosiye",
+    "change": "Hindura dosiye",
+    "none": "Nta dosiye yatoranijwe"
+  },
   "authModal": {
     "close": "Funga",
     "signUpTitle": "Iyandikishe umuryango wawe",
@@ -188,6 +193,7 @@
       "support": "Inkunga / Ibibazo",
       "tariffPlans": "Gahunda y'Ibiciro",
       "announcements": "Amatangazo",
+      "verification": "Kugenzura",
       "profile": "Umwirondoro"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Amatangazo",
         "subtitle": "Tangaza umuganda wose kubaturage bawe."
       },
+      "verification": {
+        "title": "Kugenzura Inyandiko",
+        "subtitle": "Tanga inyandiko zawe kugirango urubuga rushobore kugenzura umuryango wawe."
+      },
       "profile": {
         "title": "Igenamiterere & Umwirondoro",
         "subtitle": "Gucunga konti yawe hamwe namakuru yimiturire."
       }
     },
     "fallbackName": "Umuyobozi",
+    "locked": "Kuboneka nyuma yumuryango wawe umaze kugenzurwa",
+    "verifyBanner": "Umuganda wawe nturamenyekana neza, page nyinshi rero zifunze.",
+    "verifyBannerLink": "Jya kuri Verification",
     "fallbackCommunity": "Umuyobozi wabaturage",
     "notBuilt": "{{label}} ntabwo yubatswe",
     "searchPlaceholder": "Shakisha ikintu cyose…"

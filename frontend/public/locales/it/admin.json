@@ -535,6 +535,68 @@
       "outstanding": "Eccezionale"
     }
   },
+  "verification": {
+    "loading": "Caricamento verifica...",
+    "loadError": "Impossibile caricare lo stato di verifica. Per favore riprova.",
+    "viewError": "Impossibile aprire il documento.",
+    "statusTitle": "Stato di verifica",
+    "rejectionReason": "Motivo del rifiuto:",
+    "status": {
+      "notSubmitted": "Non inviato",
+      "pending": "In attesa di revisione",
+      "approved": "Approvato",
+      "rejected": "Respinto"
+    },
+    "messages": {
+      "notSubmitted": "Invia i dettagli e i documenti della tua comunità di seguito. Fino a quando non verranno approvati, potrai utilizzare solo le pagine Dashboard, Verifica e Profilo.",
+      "pending": "I tuoi documenti sono presso un amministratore della piattaforma per la revisione. Fino a quando non verranno approvati, potrai utilizzare solo le pagine Dashboard, Verifica e Profilo.",
+      "approved": "I tuoi documenti sono stati verificati.",
+      "rejectedHint": "Risolvi il problema e invia nuovamente i tuoi documenti di seguito."
+    },
+    "details": {
+      "communityName": "Nome della comunità",
+      "address": "Indirizzo",
+      "totalFlats": "Appartamenti totali",
+      "totalBlocks": "Blocchi totali",
+      "type": "Tipo di documento",
+      "number": "Numero del documento",
+      "notes": "Dettagli",
+      "file": "Documento (PDF)",
+      "submittedAt": "Inviato",
+      "reviewedAt": "Recensito"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificato di registrazione della società",
+      "ownershipProof": "Prova della proprietà dell'immobile",
+      "governmentId": "Carta d'identità governativa",
+      "other": "Altro"
+    },
+    "form": {
+      "title": "Invia documenti",
+      "resubmitTitle": "Invia nuovamente i documenti",
+      "documentType": "Tipo di documento",
+      "documentNumber": "Numero del documento",
+      "details": "Ulteriori dettagli (facoltativo)",
+      "file": "Documento PDF",
+      "fileHint": "Solo PDF, fino a 5 MB.",
+      "communitySection": "Dettagli della comunità",
+      "documentSection": "Documento di verifica",
+      "communityName": "Nome della comunità/società",
+      "address": "Indirizzo",
+      "city": "Città",
+      "state": "Stato",
+      "pincode": "Codice PIN",
+      "totalFlats": "Numero totale di appartamenti",
+      "totalBlocks": "Numero di blocchi/torri (opzionale)",
+      "fieldsRequired": "Si prega di compilare tutti i campi richiesti.",
+      "countInvalid": "Gli appartamenti e i condomini devono essere numeri almeno pari a 1.",
+      "fileRequired": "Allega un documento PDF.",
+      "tooLarge": "Il file deve essere di 5 MB o inferiore.",
+      "submit": "Invia per la verifica",
+      "submitting": "Invio...",
+      "submitError": "Impossibile inviare i tuoi documenti. Per favore riprova."
+    }
+  },
   "announcements": {
     "loadError": "Impossibile caricare gli annunci. Per favore riprova.",
     "removeError": "Impossibile eliminare questo annuncio. Per favore riprova.",

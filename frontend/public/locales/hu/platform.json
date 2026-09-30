@@ -4,6 +4,39 @@
     "blocked": "Zárolt",
     "terminated": "Megszűnt"
   },
+  "verification": {
+    "title": "Dokumentumellenőrzés",
+    "status": {
+      "notSubmitted": "Nem nyújtották be",
+      "pending": "Felülvizsgálatra vár",
+      "approved": "Jóváhagyott",
+      "rejected": "Elutasítva"
+    },
+    "notSubmitted": "Ez a közösségi adminisztrátor még nem nyújtott be igazoló dokumentumokat.",
+    "communityName": "Közösség neve",
+    "address": "Cím",
+    "totalFlats": "Összes lakás",
+    "totalBlocks": "Összes blokk",
+    "documentType": "Dokumentum típusa",
+    "documentNumber": "Iratszám",
+    "notes": "Részletek",
+    "file": "Dokumentum (PDF)",
+    "submittedAt": "Beküldve",
+    "reviewedAt": "Áttekintve",
+    "rejectionReason": "Elutasítás oka:",
+    "approve": "Jóváhagyni",
+    "reject": "Elutasít",
+    "viewError": "Nem sikerült megnyitni a dokumentumot.",
+    "approveError": "Nem sikerült jóváhagyni ezt az ellenőrzést.",
+    "rejectError": "Nem sikerült elutasítani az ellenőrzést.",
+    "reasonRequired": "Kérjük, indokolja az elutasítást.",
+    "rejectDialog": {
+      "title": "Az ellenőrzés elutasítása",
+      "message": "{{name}} látni fogja az Ön által megadott okot, és új dokumentumokat küldhet be.",
+      "reasonLabel": "Elutasítás oka",
+      "confirm": "Elutasít"
+    }
+  },
   "sort": {
     "sortBy": "Rendezés",
     "toggleDirection": "Váltsd át a rendezési irányt",
@@ -64,6 +97,7 @@
       "admin": "Adminisztrátor",
       "email": "Email",
       "status": "Állapot",
+      "verification": "Ellenőrzés",
       "residents": "Lakosok",
       "view": "Kilátás"
     }

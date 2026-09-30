@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Trieu fitxer",
+    "change": "Canvia fitxer",
+    "none": "No s'ha seleccionat cap fitxer"
+  },
   "authModal": {
     "close": "Tancar",
     "signUpTitle": "Registreu la vostra comunitat",
@@ -188,6 +193,7 @@
       "support": "Suport/Preocupacions",
       "tariffPlans": "Plans Tarifaris",
       "announcements": "Anuncis",
+      "verification": "Verificació",
       "profile": "Perfil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Anuncis",
         "subtitle": "Publiqueu avisos a tota la comunitat als vostres residents."
       },
+      "verification": {
+        "title": "Verificació de documents",
+        "subtitle": "Envieu els vostres documents perquè la plataforma pugui verificar la vostra comunitat."
+      },
       "profile": {
         "title": "Configuració i perfil",
         "subtitle": "Gestioneu les dades del vostre compte i la informació de l'apartament."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Disponible després de verificar la teva comunitat",
+    "verifyBanner": "La teva comunitat encara no està verificada, de manera que la majoria de pàgines estan bloquejades.",
+    "verifyBannerLink": "Aneu a Verificació",
     "fallbackCommunity": "Administrador de la comunitat",
     "notBuilt": "{{label}} encara no està construït",
     "searchPlaceholder": "Cerca qualsevol cosa..."

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Valitse tiedosto",
+    "change": "Vaihda tiedosto",
+    "none": "Tiedostoa ei ole valittu"
+  },
   "authModal": {
     "close": "Lähellä",
     "signUpTitle": "Rekisteröi yhteisösi",
@@ -188,6 +193,7 @@
       "support": "Tuki / huolenaiheet",
       "tariffPlans": "Tariffisuunnitelmat",
       "announcements": "Ilmoitukset",
+      "verification": "Vahvistus",
       "profile": "Profiili"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Ilmoitukset",
         "subtitle": "Julkaise yhteisön laajuisia ilmoituksia asukkaillesi."
       },
+      "verification": {
+        "title": "Asiakirjan vahvistus",
+        "subtitle": "Lähetä asiakirjasi, jotta alusta voi vahvistaa yhteisösi."
+      },
       "profile": {
         "title": "Asetukset ja profiili",
         "subtitle": "Hallitse tilitietojasi ja asunnon tietoja."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Saatavilla, kun yhteisösi on vahvistettu",
+    "verifyBanner": "Yhteisöäsi ei ole vielä vahvistettu, joten useimmat sivut on lukittu.",
+    "verifyBannerLink": "Siirry kohtaan Vahvistus",
     "fallbackCommunity": "Yhteisön järjestelmänvalvoja",
     "notBuilt": "{{label}} ei ole vielä rakennettu",
     "searchPlaceholder": "Hae mitä tahansa…"

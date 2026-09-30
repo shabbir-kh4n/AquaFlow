@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Vel fílu",
+    "change": "Broyt fílu",
+    "none": "Eingin fíla er vald"
+  },
   "authModal": {
     "close": "Lata aftur",
     "signUpTitle": "Skráset títt felagsskap",
@@ -188,6 +193,7 @@
       "support": "Stuðul / Áhugamál",
       "tariffPlans": "Tollætlanir",
       "announcements": "Kunningar",
+      "verification": "Staðfesting",
       "profile": "Vangamynd"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Kunningar",
         "subtitle": "Gev út fráboðanir um alt samfelagið til tínar íbúgvar."
       },
+      "verification": {
+        "title": "Skjalváttan",
+        "subtitle": "Send tíni skjøl inn, so pallurin kann staðfesta títt samfelag."
+      },
       "profile": {
         "title": "Innstillingar og vangamynd",
         "subtitle": "Umsita tínar kontuupplýsingar og íbúðarupplýsingar."
       }
     },
     "fallbackName": "Umsitari",
+    "locked": "Fæst eftir at tín felagsskapur er váttaður",
+    "verifyBanner": "Tín felagsskapur er ikki váttaður enn, so flestu síðurnar eru læstar.",
+    "verifyBannerLink": "Far til Staðfesting",
     "fallbackCommunity": "Felagsskapur",
     "notBuilt": "{{label}} er ikki bygt enn",
     "searchPlaceholder": "Leita eftir øllum..."

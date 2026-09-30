@@ -535,6 +535,68 @@
       "outstanding": "Remarquable"
     }
   },
+  "verification": {
+    "loading": "Chargement de la vérification…",
+    "loadError": "Impossible de charger votre statut de vérification. Veuillez réessayer.",
+    "viewError": "Impossible d'ouvrir le document.",
+    "statusTitle": "Statut de vérification",
+    "rejectionReason": "Motif du refus :",
+    "status": {
+      "notSubmitted": "Non soumis",
+      "pending": "En attente d'examen",
+      "approved": "Approuvé",
+      "rejected": "Rejeté"
+    },
+    "messages": {
+      "notSubmitted": "Soumettez les détails et les documents de votre communauté ci-dessous. Jusqu'à ce qu'ils soient approuvés, vous ne pouvez utiliser que les pages Tableau de bord, Vérification et Profil.",
+      "pending": "Vos documents sont confiés à un administrateur de plateforme pour examen. Jusqu'à ce qu'ils soient approuvés, vous ne pouvez utiliser que les pages Tableau de bord, Vérification et Profil.",
+      "approved": "Vos documents ont été vérifiés.",
+      "rejectedHint": "Résolvez le problème et soumettez à nouveau vos documents ci-dessous."
+    },
+    "details": {
+      "communityName": "Nom de la communauté",
+      "address": "Adresse",
+      "totalFlats": "Total appartements",
+      "totalBlocks": "Blocs totaux",
+      "type": "Type de document",
+      "number": "Numéro du document",
+      "notes": "Détails",
+      "file": "Document (PDF)",
+      "submittedAt": "Soumis",
+      "reviewedAt": "Révisé"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificat d'enregistrement de la société",
+      "ownershipProof": "Preuve de propriété",
+      "governmentId": "Carte d'identité gouvernementale",
+      "other": "Autre"
+    },
+    "form": {
+      "title": "Soumettre des documents",
+      "resubmitTitle": "Soumettre à nouveau les documents",
+      "documentType": "Type de document",
+      "documentNumber": "Numéro du document",
+      "details": "Détails supplémentaires (facultatif)",
+      "file": "Document PDF",
+      "fileHint": "PDF uniquement, jusqu'à 5 Mo.",
+      "communitySection": "Détails de la communauté",
+      "documentSection": "Document de vérification",
+      "communityName": "Nom de la communauté/société",
+      "address": "Adresse",
+      "city": "Ville",
+      "state": "État",
+      "pincode": "Code PIN",
+      "totalFlats": "Nombre total d'appartements",
+      "totalBlocks": "Nombre de blocs/tours (facultatif)",
+      "fieldsRequired": "Veuillez remplir tous les champs obligatoires.",
+      "countInvalid": "Les appartements et les blocs doivent être des nombres d'au moins 1.",
+      "fileRequired": "Veuillez joindre un document PDF.",
+      "tooLarge": "Le fichier doit faire 5 Mo ou moins.",
+      "submit": "Soumettre pour vérification",
+      "submitting": "Soumission…",
+      "submitError": "Impossible de soumettre vos documents. Veuillez réessayer."
+    }
+  },
   "announcements": {
     "loadError": "Impossible de charger les annonces. Veuillez réessayer.",
     "removeError": "Impossible de supprimer cette annonce. Veuillez réessayer.",

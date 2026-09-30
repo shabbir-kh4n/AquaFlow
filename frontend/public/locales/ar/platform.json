@@ -4,6 +4,39 @@
     "blocked": "محظور",
     "terminated": "تم إنهاؤه"
   },
+  "verification": {
+    "title": "التحقق من الوثيقة",
+    "status": {
+      "notSubmitted": "لم يتم تقديمه",
+      "pending": "في انتظار المراجعة",
+      "approved": "موافقة",
+      "rejected": "مرفوض"
+    },
+    "notSubmitted": "لم يقدم مسؤول المجتمع هذا وثائق التحقق بعد.",
+    "communityName": "اسم المجتمع",
+    "address": "عنوان",
+    "totalFlats": "إجمالي الشقق",
+    "totalBlocks": "مجموع الكتل",
+    "documentType": "نوع الوثيقة",
+    "documentNumber": "رقم الوثيقة",
+    "notes": "تفاصيل",
+    "file": "الوثيقة (PDF)",
+    "submittedAt": "مُقَدَّم",
+    "reviewedAt": "تمت المراجعة",
+    "rejectionReason": "سبب الرفض:",
+    "approve": "يعتمد",
+    "reject": "يرفض",
+    "viewError": "لا يمكن فتح المستند.",
+    "approveError": "تعذرت الموافقة على هذا التحقق.",
+    "rejectError": "لا يمكن رفض هذا التحقق.",
+    "reasonRequired": "يرجى إعطاء سبب الرفض.",
+    "rejectDialog": {
+      "title": "رفض التحقق",
+      "message": "سوف يرى {{name}} السبب الذي قدمته ويمكنه إرسال مستندات جديدة.",
+      "reasonLabel": "سبب الرفض",
+      "confirm": "يرفض"
+    }
+  },
   "sort": {
     "sortBy": "الترتيب حسب",
     "toggleDirection": "تبديل اتجاه الفرز",
@@ -64,6 +97,7 @@
       "admin": "مسؤل",
       "email": "بريد إلكتروني",
       "status": "حالة",
+      "verification": "تَحَقّق",
       "residents": "سكان",
       "view": "منظر"
     }

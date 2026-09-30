@@ -535,6 +535,68 @@
       "outstanding": "Framúrskarandi"
     }
   },
+  "verification": {
+    "loading": "Heinta váttan...",
+    "loadError": "Kundi ikki heinta tína váttanarstøðu. Vinarliga royn aftur.",
+    "viewError": "Fekk ikki lata skjalið upp.",
+    "statusTitle": "Staðfestingarstøða",
+    "rejectionReason": "Orsøk til avvísing:",
+    "status": {
+      "notSubmitted": "Ikki latið inn",
+      "pending": "Bíða eftir ummæli",
+      "approved": "Viðurkendur",
+      "rejected": "Vrakað"
+    },
+    "messages": {
+      "notSubmitted": "Send inn upplýsingar og skjøl hjá tínum samfelag niðanfyri. Inntil tey eru góðkend kanst tú bert brúka síðurnar Dashboard, Verifikatión og Profil.",
+      "pending": "Tíni skjøl eru hjá einum pallleiðara at kanna. Inntil tey eru góðkend kanst tú bert brúka síðurnar Dashboard, Verifikatión og Profil.",
+      "approved": "Tíni skjøl eru váttað.",
+      "rejectedHint": "Rætta trupulleikan og send tíni skjøl inn aftur niðanfyri."
+    },
+    "details": {
+      "communityName": "Felagsnavn",
+      "address": "Bústaður",
+      "totalFlats": "Íbúðir í alt",
+      "totalBlocks": "Samlaðir blokkar",
+      "type": "Skjalsslag",
+      "number": "Skjalnummar",
+      "notes": "Staklutir",
+      "file": "Document (PDF)",
+      "submittedAt": "Latið inn",
+      "reviewedAt": "Ummælt"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Felagsskrásetingarváttan",
+      "ownershipProof": "Ognareigaraprógv",
+      "governmentId": "Landsstýris-ID",
+      "other": "Onnur"
+    },
+    "form": {
+      "title": "Send skjøl inn",
+      "resubmitTitle": "Send skjøl inn aftur",
+      "documentType": "Skjalsslag",
+      "documentNumber": "Skjalnummar",
+      "details": "Eyka smálutir (valfrítt)",
+      "file": "Skjal PDF",
+      "fileHint": "PDF einans, upp til 5 MB.",
+      "communitySection": "Smálutir um felagsskapin",
+      "documentSection": "Staðfestingarskjal",
+      "communityName": "Felagsskapur / felagsnavn .",
+      "address": "Bústaður",
+      "city": "Býur",
+      "state": "Støða",
+      "pincode": "Pinnkoda",
+      "totalFlats": "Samlað tal av íbúðum",
+      "totalBlocks": "Tal av blokkum / tornum (valfrítt)",
+      "fieldsRequired": "Vinarliga fyll allar kravdu teigarnar út.",
+      "countInvalid": "Íbúðir og blokkar skulu vera í minsta lagi 1.",
+      "fileRequired": "Vinarliga viðheft eitt PDF skjal.",
+      "tooLarge": "Skráin skal vera 5 MB ella minni.",
+      "submit": "Send inn til váttan",
+      "submitting": "Senda inn...",
+      "submitError": "Kundi ikki lata tíni skjøl inn. Vinarliga royn aftur."
+    }
+  },
   "announcements": {
     "loadError": "Kundi ikki heinta kunngerðir. Vinarliga royn aftur.",
     "removeError": "Kundi ikki strika hesa fráboðan. Vinarliga royn aftur.",

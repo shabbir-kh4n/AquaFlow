@@ -4,6 +4,39 @@
     "blocked": "ब्लॉक कीता",
     "terminated": "समाप्त"
   },
+  "verification": {
+    "title": "दस्तावेज सत्यापन",
+    "status": {
+      "notSubmitted": "जमा नहीं किया गया",
+      "pending": "समीक्षा लंबित ऐ",
+      "approved": "मंजूरशुदा",
+      "rejected": "खारिज कर दित्ता"
+    },
+    "notSubmitted": "इस कम्युनिटी एडमिन ने अजें तगर सत्यापन दस्तावेज नेईं जमा कीते न।",
+    "communityName": "समुदाय दा नाम",
+    "address": "पता",
+    "totalFlats": "कुल फ्लैट",
+    "totalBlocks": "कुल ब्लॉक",
+    "documentType": "दस्तावेज़ दा प्रकार",
+    "documentNumber": "दस्तावेज़ नंबर",
+    "notes": "तफसील",
+    "file": "Document (PDF)",
+    "submittedAt": "जमा कर दिया",
+    "reviewedAt": "समीक्षा कीती",
+    "rejectionReason": "नकारने दा कारण:",
+    "approve": "मंजूर करना",
+    "reject": "रद्द करना",
+    "viewError": "दस्तावेज़ नेईं खोह् ल्ली सकेआ।",
+    "approveError": "इस सत्यापन गी मंजूरी नेईं देई सकेआ।",
+    "rejectError": "इस सत्यापन गी खारिज नेईं करी सकेआ।",
+    "reasonRequired": "खारिज करने दा कारण दस्सो।",
+    "rejectDialog": {
+      "title": "सत्यापन गी खारिज करो",
+      "message": "{{name}} तुस दित्ते गेदे कारण गी दिक्खग ते नमें दस्तावेज जमा करी सकदा ऐ।",
+      "reasonLabel": "नकारने दा कारण",
+      "confirm": "रद्द करना"
+    }
+  },
   "sort": {
     "sortBy": "क्रमबद्ध करो",
     "toggleDirection": "क्रम दिशा बदलें",
@@ -64,6 +97,7 @@
       "admin": "एडमिन",
       "email": "ईमेल",
       "status": "स्थिति",
+      "verification": "सत्यापन करना",
       "residents": "निवासी",
       "view": "दक्खो"
     }

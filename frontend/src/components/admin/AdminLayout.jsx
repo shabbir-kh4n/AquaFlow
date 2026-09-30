@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { Navigate, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { getMyVerification } from '../../api/verificationApi'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../../context/useAuth'
 import { listAlerts } from '../../api/alertApi'
@@ -24,8 +25,13 @@ const NAV_ITEMS = [
   { to: '/admin/support', labelKey: 'adminLayout.nav.support', icon: 'help', built: true },
   { to: '/admin/tariff-plans', labelKey: 'adminLayout.nav.tariffPlans', icon: 'sliders', built: true },
   { to: '/admin/announcements', labelKey: 'adminLayout.nav.announcements', icon: 'megaphone', built: true },
+  { to: '/admin/verification', labelKey: 'adminLayout.nav.verification', icon: 'shield', built: true },
   { to: '/admin/profile', labelKey: 'adminLayout.nav.profile', icon: 'user', built: true },
 ]
+
+// Until the platform approves a community admin's documents, only these pages are usable
+// (the backend enforces the same rule on /api/admin/**).
+const UNVERIFIED_ALLOWED_PATHS = ['/admin/dashboard', '/admin/verification', '/admin/profile']
 
 // Static per-route topbar copy (translation keys) for the built pages. Dashboard's title is
 // dynamic (greets the admin by name) so it's handled separately below.
@@ -67,6 +73,10 @@ const PAGE_META = {
     titleKey: 'adminLayout.pages.announcements.title',
     subtitleKey: 'adminLayout.pages.announcements.subtitle',
   },
+  '/admin/verification': {
+    titleKey: 'adminLayout.pages.verification.title',
+    subtitleKey: 'adminLayout.pages.verification.subtitle',
+  },
   '/admin/profile': {
     titleKey: 'adminLayout.pages.profile.title',
     subtitleKey: 'adminLayout.pages.profile.subtitle',
@@ -84,6 +94,7 @@ const ICONS = {
   help: <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM9.5 9a2.5 2.5 0 1 1 3.7 2.2c-.7.4-1.2 1-1.2 1.8v.3M12 17h.01" />,
   sliders: <path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h13M21 18h-2M12 4v4M20 10v4M9 16v4" />,
   megaphone: <path d="M3 11v2a2 2 0 0 0 2 2h1l2 5h2l-1-5h4l6 4V6l-6 4H6a2 2 0 0 0-2 2z" />,
+  shield: <path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6zM9 12l2 2 4-4" />,
   user: <path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zM4 21c1.5-4.5 5-6.5 8-6.5s6.5 2 8 6.5" />,
   search: <path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM21 21l-4.35-4.35" />,
   bell: <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" />,
@@ -108,6 +119,15 @@ function AdminLayout() {
   const [activeAlertCount, setActiveAlertCount] = useState(0)
   const [navOpen, setNavOpen] = useState(false)
   const [lastPathname, setLastPathname] = useState(location.pathname)
+  // null while loading; any non-APPROVED value (including a failed lookup) means restricted.
+  const [verificationStatus, setVerificationStatus] = useState(null)
+
+  // Re-checked on every navigation so an approval shows up without a fresh login.
+  useEffect(() => {
+    getMyVerification()
+      .then((v) => setVerificationStatus(v.status))
+      .catch(() => setVerificationStatus('UNKNOWN'))
+  }, [location.pathname])
 
   useEffect(() => {
     listAlerts('ACTIVE')
@@ -135,9 +155,14 @@ function AdminLayout() {
     navigate('/')
   }
 
+  const restricted = verificationStatus !== null && verificationStatus !== 'APPROVED'
+  const pageLocked = (path) => restricted && !UNVERIFIED_ALLOWED_PATHS.includes(path)
+
   const searchPages = useMemo(
-    () => NAV_ITEMS.filter((item) => item.built).map((item) => ({ id: item.to, label: t(item.labelKey), to: item.to })),
-    [t],
+    () => NAV_ITEMS
+      .filter((item) => item.built && !(restricted && !UNVERIFIED_ALLOWED_PATHS.includes(item.to)))
+      .map((item) => ({ id: item.to, label: t(item.labelKey), to: item.to })),
+    [t, restricted],
   )
   // A resident hit opens the Households Directory pre-filtered to them (it reads ?q=).
   const loadSearchRecords = useCallback(
@@ -188,7 +213,18 @@ function AdminLayout() {
 
         <nav className="af-admin__nav">
           {NAV_ITEMS.map((item) =>
-            item.built ? (
+            item.built && pageLocked(item.to) ? (
+              <button
+                key={item.to}
+                type="button"
+                disabled
+                title={t('adminLayout.locked')}
+                className="af-admin__nav-item af-admin__nav-item--unbuilt"
+              >
+                <Icon name={item.icon} />
+                {t(item.labelKey)}
+              </button>
+            ) : item.built ? (
               <NavLink
                 key={item.to}
                 to={item.to}
@@ -272,11 +308,22 @@ function AdminLayout() {
         </header>
 
         <main className="af-admin__content">
-          <Outlet />
+          {restricted && location.pathname !== '/admin/verification' && (
+            <div className="af-admin__verify-banner">
+              {t('adminLayout.verifyBanner')}{' '}
+              <NavLink to="/admin/verification">{t('adminLayout.verifyBannerLink')}</NavLink>
+            </div>
+          )}
+          {pageLocked(location.pathname) ? (
+            <Navigate to="/admin/verification" replace />
+          ) : (
+            // Wait for the status before rendering a gated page so it never fires requests that would 403.
+            (verificationStatus !== null || UNVERIFIED_ALLOWED_PATHS.includes(location.pathname)) && <Outlet />
+          )}
         </main>
       </div>
 
-      <ChatWidget endpoint="/admin/chat" persona="admin" />
+      {!restricted && <ChatWidget endpoint="/admin/chat" persona="admin" />}
     </div>
   )
 }

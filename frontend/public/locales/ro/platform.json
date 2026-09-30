@@ -4,6 +4,39 @@
     "blocked": "Blocat",
     "terminated": "Terminat"
   },
+  "verification": {
+    "title": "Verificarea documentelor",
+    "status": {
+      "notSubmitted": "Nu a fost trimis",
+      "pending": "În așteptarea examinării",
+      "approved": "Aprobat",
+      "rejected": "Respins"
+    },
+    "notSubmitted": "Acest administrator al comunității nu a trimis încă documente de verificare.",
+    "communityName": "Numele comunității",
+    "address": "Adresa",
+    "totalFlats": "Total apartamente",
+    "totalBlocks": "Blocuri totale",
+    "documentType": "Tip document",
+    "documentNumber": "Numărul documentului",
+    "notes": "Detalii",
+    "file": "Document (PDF)",
+    "submittedAt": "Trimis",
+    "reviewedAt": "Revizuit",
+    "rejectionReason": "Motivul respingerii:",
+    "approve": "Aproba",
+    "reject": "Respinge",
+    "viewError": "Documentul nu a putut fi deschis.",
+    "approveError": "Această verificare nu a putut fi aprobată.",
+    "rejectError": "Nu s-a putut respinge această verificare.",
+    "reasonRequired": "Vă rugăm să oferiți un motiv pentru respingere.",
+    "rejectDialog": {
+      "title": "Respinge verificarea",
+      "message": "{{name}} va vedea motivul pe care îl oferiți și poate trimite noi documente.",
+      "reasonLabel": "Motivul respingerii",
+      "confirm": "Respinge"
+    }
+  },
   "sort": {
     "sortBy": "Filtrează după",
     "toggleDirection": "Comutați direcția de sortare",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mail",
       "status": "Stare",
+      "verification": "Verificare",
       "residents": "Rezidenți",
       "view": "Vedere"
     }

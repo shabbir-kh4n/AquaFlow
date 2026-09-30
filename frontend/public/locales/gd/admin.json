@@ -535,6 +535,68 @@
       "outstanding": "Sònraichte"
     }
   },
+  "verification": {
+    "loading": "A’ luchdachadh dearbhadh…",
+    "loadError": "Cha b' urrainn dhuinn an inbhe dearbhaidh agad a luchdadh. Feuch ris a-rithist.",
+    "viewError": "Cha b' urrainn dhuinn an sgrìobhainn fhosgladh.",
+    "statusTitle": "Inbhe dearbhaidh",
+    "rejectionReason": "Adhbhar airson a dhiùltadh:",
+    "status": {
+      "notSubmitted": "Gun a bhith air a chuir a-steach",
+      "pending": "A’ feitheamh lèirmheas",
+      "approved": "Aontaichte",
+      "rejected": "Air a dhiùltadh"
+    },
+    "messages": {
+      "notSubmitted": "Cuir a-steach mion-fhiosrachadh agus sgrìobhainnean na coimhearsnachd agad gu h-ìosal. Gus an tèid an aontachadh chan urrainn dhut ach na duilleagan deas-bhòrd, dearbhaidh agus pròifil a chleachdadh.",
+      "pending": "Tha na sgrìobhainnean agad le rianaire àrd-ùrlar airson ath-sgrùdadh. Gus an tèid an aontachadh chan urrainn dhut ach na duilleagan deas-bhòrd, dearbhaidh agus pròifil a chleachdadh.",
+      "approved": "Chaidh na sgrìobhainnean agad a dhearbhadh.",
+      "rejectedHint": "Ceartaich a’ chùis agus cuir a-steach na sgrìobhainnean agad a-rithist gu h-ìosal."
+    },
+    "details": {
+      "communityName": "Ainm coimhearsnachd",
+      "address": "Seòladh",
+      "totalFlats": "Flataichean iomlan",
+      "totalBlocks": "Blocaichean iomlan",
+      "type": "Seòrsa sgrìobhainn",
+      "number": "Àireamh sgrìobhainn",
+      "notes": "Mion-fhiosrachadh",
+      "file": "Sgrìobhainn (PDF)",
+      "submittedAt": "Air a chuir a-steach",
+      "reviewedAt": "Ath-sgrùdadh"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Teisteanas clàraidh a’ chomainn",
+      "ownershipProof": "Teisteanas seilbh seilbh",
+      "governmentId": "ID an Riaghaltais",
+      "other": "Eile"
+    },
+    "form": {
+      "title": "Cuir a-steach sgrìobhainnean",
+      "resubmitTitle": "Cuir a-steach sgrìobhainnean a-rithist",
+      "documentType": "Seòrsa sgrìobhainn",
+      "documentNumber": "Àireamh sgrìobhainn",
+      "details": "Fiosrachadh a bharrachd (roghainneil)",
+      "file": "Sgrìobhainn PDF",
+      "fileHint": "PDF a-mhàin, suas ri 5 MB.",
+      "communitySection": "Mion-fhiosrachadh coimhearsnachd",
+      "documentSection": "Sgrìobhainn dearbhaidh",
+      "communityName": "Ainm coimhearsnachd/comainn",
+      "address": "Seòladh",
+      "city": "Cathair-bhaile",
+      "state": "Stàite",
+      "pincode": "Còd pin",
+      "totalFlats": "Àireamh iomlan de flataichean",
+      "totalBlocks": "An àireamh de bhlocaichean / thùir (roghainneil)",
+      "fieldsRequired": "Feuch an lìon thu a h-uile raon riatanach.",
+      "countInvalid": "Feumaidh flataichean agus blocaichean a bhith nan àireamhan co-dhiù 1.",
+      "fileRequired": "Feuch an ceangail thu sgrìobhainn PDF.",
+      "tooLarge": "Feumaidh am faidhle a bhith 5 MB no nas lugha.",
+      "submit": "Cuir a-steach airson dearbhadh",
+      "submitting": "A’ cur a-steach…",
+      "submitError": "Cha b' urrainn dhuinn na sgrìobhainnean agad a chur a-steach. Feuch ris a-rithist."
+    }
+  },
   "announcements": {
     "loadError": "Cha b' urrainn dhuinn sanasan a luchdachadh. Feuch ris a-rithist.",
     "removeError": "Cha b' urrainn dhuinn an sanas seo a sguabadh às. Feuch ris a-rithist.",

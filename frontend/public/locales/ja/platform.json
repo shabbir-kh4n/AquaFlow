@@ -4,6 +4,39 @@
     "blocked": "ブロックされました",
     "terminated": "終了しました"
   },
+  "verification": {
+    "title": "書類の検証",
+    "status": {
+      "notSubmitted": "未提出",
+      "pending": "審査待ち",
+      "approved": "承認された",
+      "rejected": "拒否されました"
+    },
+    "notSubmitted": "このコミュニティ管理者はまだ確認書類を提出していません。",
+    "communityName": "コミュニティ名",
+    "address": "住所",
+    "totalFlats": "アパート総数",
+    "totalBlocks": "総ブロック数",
+    "documentType": "文書の種類",
+    "documentNumber": "文書番号",
+    "notes": "詳細",
+    "file": "ドキュメント (PDF)",
+    "submittedAt": "提出済み",
+    "reviewedAt": "レビュー済み",
+    "rejectionReason": "拒否の理由:",
+    "approve": "承認する",
+    "reject": "拒否する",
+    "viewError": "ドキュメントを開けませんでした。",
+    "approveError": "この検証を承認できませんでした。",
+    "rejectError": "この検証を拒否できませんでした。",
+    "reasonRequired": "拒否する理由を教えてください。",
+    "rejectDialog": {
+      "title": "検証を拒否する",
+      "message": "{{name}} はあなたが指定した理由を確認し、新しい書類を提出できます。",
+      "reasonLabel": "拒否理由",
+      "confirm": "拒否する"
+    }
+  },
   "sort": {
     "sortBy": "並べ替え",
     "toggleDirection": "並べ替え方向の切り替え",
@@ -64,6 +97,7 @@
       "admin": "管理者",
       "email": "電子メール",
       "status": "状態",
+      "verification": "検証",
       "residents": "住民",
       "view": "ビュー"
     }

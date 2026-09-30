@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Khetha ifayile",
+    "change": "Guqula ifayile",
+    "none": "Akukho fayile ikhethiweyo"
+  },
   "authModal": {
     "close": "Vala",
     "signUpTitle": "Bhalisa uluntu lwakho",
@@ -188,6 +193,7 @@
       "support": "Inkxaso / Iinkxalabo",
       "tariffPlans": "Izicwangciso zeRhafu",
       "announcements": "Izaziso",
+      "verification": "Ukuqinisekisa",
       "profile": "Inkangeleko yesimo"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Izaziso",
         "subtitle": "Papasha izaziso kuluntu ngokubanzi kubahlali bakho."
       },
+      "verification": {
+        "title": "Ukuqinisekiswa koxwebhu",
+        "subtitle": "Ngenisa amaxwebhu akho ukuze iqonga liqinisekise uluntu lwakho."
+      },
       "profile": {
         "title": "Iisetingi kunye neProfayili",
         "subtitle": "Lawula iinkcukacha zeakhawunti yakho kunye nolwazi lwefulethi."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Ifumaneka emva kokuba uluntu lwakho luqinisekisiwe",
+    "verifyBanner": "Uluntu lwakho alukaqinisekiswa, ngoko ke amaphepha amaninzi atshixiwe.",
+    "verifyBannerLink": "Yiya kuQinisekiso",
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} ayikakhiwa",
     "searchPlaceholder": "Phendla nantoni na..."

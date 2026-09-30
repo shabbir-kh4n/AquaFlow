@@ -4,6 +4,39 @@
     "blocked": "Ivaliwe",
     "terminated": "Iphelisiwe"
   },
+  "verification": {
+    "title": "Ukuqinisekiswa koxwebhu",
+    "status": {
+      "notSubmitted": "Ayingeniswanga",
+      "pending": "Kusalindelwe uphononongo",
+      "approved": "Ivunyiwe",
+      "rejected": "Yaliwe"
+    },
+    "notSubmitted": "Lo mlawuli wabahlali akakawangenisi amaxwebhu okuqinisekisa.",
+    "communityName": "Igama loluntu",
+    "address": "Idilesi",
+    "totalFlats": "Iiflethi zizonke",
+    "totalBlocks": "Iibhloko zizonke",
+    "documentType": "Uhlobo loxwebhu",
+    "documentNumber": "Inombolo yoxwebhu",
+    "notes": "Iinkcukacha",
+    "file": "Uxwebhu (PDF)",
+    "submittedAt": "Ithunyelwe",
+    "reviewedAt": "Ijongiwe",
+    "rejectionReason": "Isizathu sokwaliwa:",
+    "approve": "Vuma",
+    "reject": "Yala",
+    "viewError": "Ayikwazanga ukuvula uxwebhu.",
+    "approveError": "Ayikwazanga ukuvuma esi siqinisekiso.",
+    "rejectError": "Ayikwazanga ukwala esi siqinisekiso.",
+    "reasonRequired": "Nceda unike isizathu sokwala.",
+    "rejectDialog": {
+      "title": "Yala ukuqinisekiswa",
+      "message": "{{name}} uza kubona isizathu sokuba unike kwaye angangenisa amaxwebhu amatsha.",
+      "reasonLabel": "Isizathu sokwaliwa",
+      "confirm": "Yala"
+    }
+  },
   "sort": {
     "sortBy": "Misa nge",
     "toggleDirection": "Guqula indlela yokuhlela",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "I-imeyile",
       "status": "Ubume",
+      "verification": "Ukuqinisekisa",
       "residents": "Abahlali",
       "view": "Jonga"
     }

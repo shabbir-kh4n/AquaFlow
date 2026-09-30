@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Khetha ifayela",
+    "change": "Shintsha ifayela",
+    "none": "Alikho ifayela elikhethiwe"
+  },
   "authModal": {
     "close": "Vala",
     "signUpTitle": "Bhalisa umphakathi wakho",
@@ -188,6 +193,7 @@
       "support": "Ukusekela / Ukukhathazeka",
       "tariffPlans": "Izinhlelo Zentela",
       "announcements": "Izimemezelo",
+      "verification": "Ukuqinisekisa",
       "profile": "Iphrofayela"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Izimemezelo",
         "subtitle": "Shicilela izaziso zomphakathi wonkana kubahlali bakho."
       },
+      "verification": {
+        "title": "Ukuqinisekiswa Kwedokhumenti",
+        "subtitle": "Thumela amadokhumenti akho ukuze inkundla ikwazi ukuqinisekisa umphakathi wakho."
+      },
       "profile": {
         "title": "Izilungiselelo Nephrofayela",
         "subtitle": "Phatha imininingwane ye-akhawunti yakho kanye nolwazi lwefulethi."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Itholakala ngemva kokuqinisekiswa komphakathi wakho",
+    "verifyBanner": "Umphakathi wakho awukakaqinisekiswa, ngakho amakhasi amaningi akhiyiwe.",
+    "verifyBannerLink": "Iya kokuthi Ukuqinisekisa",
     "fallbackCommunity": "Admin Admin",
     "notBuilt": "{{label}} ayikakhiwa",
     "searchPlaceholder": "Sesha noma yini..."

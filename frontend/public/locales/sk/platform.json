@@ -4,6 +4,39 @@
     "blocked": "Zablokované",
     "terminated": "Ukončené"
   },
+  "verification": {
+    "title": "Overenie dokumentu",
+    "status": {
+      "notSubmitted": "Nepredložené",
+      "pending": "Čaká sa na kontrolu",
+      "approved": "Schválené",
+      "rejected": "Odmietnuté"
+    },
+    "notSubmitted": "Tento správca komunity zatiaľ neodoslal overovacie dokumenty.",
+    "communityName": "Názov komunity",
+    "address": "Adresa",
+    "totalFlats": "Byty celkom",
+    "totalBlocks": "Celkový počet blokov",
+    "documentType": "Typ dokumentu",
+    "documentNumber": "Číslo dokladu",
+    "notes": "Podrobnosti",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Predložené",
+    "reviewedAt": "Skontrolované",
+    "rejectionReason": "Dôvod odmietnutia:",
+    "approve": "schváliť",
+    "reject": "Odmietnuť",
+    "viewError": "Dokument sa nepodarilo otvoriť.",
+    "approveError": "Toto overenie sa nepodarilo schváliť.",
+    "rejectError": "Toto overenie sa nepodarilo odmietnuť.",
+    "reasonRequired": "Uveďte dôvod odmietnutia.",
+    "rejectDialog": {
+      "title": "Odmietnuť overenie",
+      "message": "{{name}} uvidí dôvod, ktorý uvediete, a bude môcť odoslať nové dokumenty.",
+      "reasonLabel": "Dôvod odmietnutia",
+      "confirm": "Odmietnuť"
+    }
+  },
   "sort": {
     "sortBy": "Zoradiť podľa",
     "toggleDirection": "Prepnúť smer zoradenia",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Stav",
+      "verification": "Overenie",
       "residents": "Obyvatelia",
       "view": "Zobraziť"
     }

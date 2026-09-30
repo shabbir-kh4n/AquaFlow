@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Kies bestand",
+    "change": "Bestand wijzigen",
+    "none": "Geen bestand gekozen"
+  },
   "authModal": {
     "close": "Dichtbij",
     "signUpTitle": "Registreer uw gemeenschap",
@@ -188,6 +193,7 @@
       "support": "Ondersteuning / zorgen",
       "tariffPlans": "Tariefplannen",
       "announcements": "Aankondigingen",
+      "verification": "Verificatie",
       "profile": "Profiel"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Aankondigingen",
         "subtitle": "Publiceer gemeenschapsbrede mededelingen voor uw bewoners."
       },
+      "verification": {
+        "title": "Documentverificatie",
+        "subtitle": "Dien uw documenten in zodat het platform uw community kan verifiëren."
+      },
       "profile": {
         "title": "Instellingen en profiel",
         "subtitle": "Beheer uw accountgegevens en appartementinformatie."
       }
     },
     "fallbackName": "Beheerder",
+    "locked": "Beschikbaar nadat uw community is geverifieerd",
+    "verifyBanner": "Je community is nog niet geverifieerd, dus de meeste pagina's zijn vergrendeld.",
+    "verifyBannerLink": "Ga naar Verificatie",
     "fallbackCommunity": "Gemeenschapsbeheerder",
     "notBuilt": "{{label}} is nog niet gebouwd",
     "searchPlaceholder": "Zoek alles..."

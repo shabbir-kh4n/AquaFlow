@@ -347,3 +347,19 @@
   .af-admin__search { display: none; }
   .af-admin__community-pill span { display: none; }
 }
+
+.af-admin__verify-banner {
+  margin-bottom: 18px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(200, 140, 30, 0.35);
+  background: rgba(200, 140, 30, 0.1);
+  color: #7a5408;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.af-admin__verify-banner a {
+  color: var(--af-accent-2);
+  text-decoration: underline;
+}

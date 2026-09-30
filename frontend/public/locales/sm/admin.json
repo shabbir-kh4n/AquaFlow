@@ -535,6 +535,68 @@
       "outstanding": "Mata'ina"
     }
   },
+  "verification": {
+    "loading": "La'uina le fa'amaoniga...",
+    "loadError": "Le mafai ona utaina lou tulaga fa'amaonia. Fa'amolemole toe taumafai.",
+    "viewError": "Le mafai ona tatala le pepa.",
+    "statusTitle": "Tulaga fa'amaonia",
+    "rejectionReason": "Mafuaaga mo le teena:",
+    "status": {
+      "notSubmitted": "E lei tuuina atu",
+      "pending": "Talia le iloiloga",
+      "approved": "Faamaonia",
+      "rejected": "Teena"
+    },
+    "messages": {
+      "notSubmitted": "Tu'u mai fa'amatalaga a lou nu'u ma pepa o lo'o i lalo. Se'i vagana ua fa'amaonia e mafai ona e fa'aogaina le Dashboard, Verification and Profile page.",
+      "pending": "O au pepa o lo'o i ai se pule fa'avae mo le toe iloiloina. Se'i vagana ua fa'amaonia e mafai ona e fa'aogaina le Dashboard, Verification and Profile page.",
+      "approved": "Ua fa'amaonia au pepa.",
+      "rejectedHint": "Fa'alelei le fa'afitauli ma toe tu'uina atu au pepa i lalo."
+    },
+    "details": {
+      "communityName": "igoa ole nuu",
+      "address": "tuatusi",
+      "totalFlats": "Aofa'i fale mautotogi",
+      "totalBlocks": "Aofa'i poloka",
+      "type": "Ituaiga pepa",
+      "number": "Numera pepa",
+      "notes": "Fa'amatalaga",
+      "file": "Pepa (PDF)",
+      "submittedAt": "Tuuina atu",
+      "reviewedAt": "Toe iloilo"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Tusipasi resitala o sosaiete",
+      "ownershipProof": "Fa'amaoniga o le umiaina o meatotino",
+      "governmentId": "ID Malo",
+      "other": "Isi"
+    },
+    "form": {
+      "title": "Tuuina atu pepa",
+      "resubmitTitle": "Toe tu'u atu pepa",
+      "documentType": "Ituaiga pepa",
+      "documentNumber": "Numera pepa",
+      "details": "Fa'amatalaga fa'aopoopo (filifiliga)",
+      "file": "Pepa PDF",
+      "fileHint": "PDF na'o le 5 MB.",
+      "communitySection": "Fa'amatalaga nu'u",
+      "documentSection": "Pepa faamaonia",
+      "communityName": "Igoa nu'u / sosaiete",
+      "address": "tuatusi",
+      "city": "Aai",
+      "state": "Setete",
+      "pincode": "Pincode",
+      "totalFlats": "Aofa'iga o fale mautotogi",
+      "totalBlocks": "Numera o poloka / olo (filifiliga)",
+      "fieldsRequired": "Fa'amolemole fa'atumu uma fanua e mana'omia.",
+      "countInvalid": "O fale mafolafola ma poloka e tatau ona i ai numera ia le itiiti ifo i le 1.",
+      "fileRequired": "Fa'amolemole fa'apipi'i se pepa PDF.",
+      "tooLarge": "O le faila e tatau ona 5 MB pe laʻititi.",
+      "submit": "Tuuina atu mo le faamaoniga",
+      "submitting": "Tuuina atu…",
+      "submitError": "Le mafai ona tu'uina atu au pepa. Fa'amolemole toe taumafai."
+    }
+  },
   "announcements": {
     "loadError": "Le mafai ona utaina fa'asalalauga. Fa'amolemole toe taumafai.",
     "removeError": "Le mafai ona tapeina lenei fa'aaliga. Fa'amolemole toe taumafai.",

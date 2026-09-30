@@ -535,6 +535,68 @@
       "outstanding": "בּוֹלֵט"
     }
   },
+  "verification": {
+    "loading": "טוען אימות...",
+    "loadError": "לא ניתן היה לטעון את סטטוס האימות שלך. אנא נסה שוב.",
+    "viewError": "לא ניתן היה לפתוח את המסמך.",
+    "statusTitle": "סטטוס אימות",
+    "rejectionReason": "סיבת הדחייה:",
+    "status": {
+      "notSubmitted": "לא הוגש",
+      "pending": "ממתין לסקירה",
+      "approved": "מְאוּשָׁר",
+      "rejected": "נִדחֶה"
+    },
+    "messages": {
+      "notSubmitted": "שלח את הפרטים והמסמכים של הקהילה שלך למטה. עד שהם יאושרו תוכל להשתמש רק בדפי לוח המחוונים, האימות והפרופיל.",
+      "pending": "המסמכים שלך נמצאים אצל מנהל פלטפורמה לבדיקה. עד שהם יאושרו תוכל להשתמש רק בדפי לוח המחוונים, האימות והפרופיל.",
+      "approved": "המסמכים שלך אומתו.",
+      "rejectedHint": "תקן את הבעיה ושלח את המסמכים שלך שוב למטה."
+    },
+    "details": {
+      "communityName": "שם הקהילה",
+      "address": "כְּתוֹבֶת",
+      "totalFlats": "סך הכל דירות",
+      "totalBlocks": "סך הכל בלוקים",
+      "type": "סוג מסמך",
+      "number": "מספר מסמך",
+      "notes": "פרטים",
+      "file": "מסמך (PDF)",
+      "submittedAt": "הוגש",
+      "reviewedAt": "נבדק"
+    },
+    "documentTypes": {
+      "registrationCertificate": "תעודת רישום החברה",
+      "ownershipProof": "הוכחת בעלות על נכס",
+      "governmentId": "תעודה מזהה ממשלתית",
+      "other": "אַחֵר"
+    },
+    "form": {
+      "title": "הגשת מסמכים",
+      "resubmitTitle": "שלח מסמכים שוב",
+      "documentType": "סוג מסמך",
+      "documentNumber": "מספר מסמך",
+      "details": "פרטים נוספים (אופציונלי)",
+      "file": "מסמך PDF",
+      "fileHint": "PDF בלבד, עד 5 MB.",
+      "communitySection": "פרטי הקהילה",
+      "documentSection": "מסמך אימות",
+      "communityName": "שם קהילה / חברה",
+      "address": "כְּתוֹבֶת",
+      "city": "עִיר",
+      "state": "מְדִינָה",
+      "pincode": "פיקוד",
+      "totalFlats": "סך כל הדירות",
+      "totalBlocks": "מספר בלוקים / מגדלים (אופציונלי)",
+      "fieldsRequired": "נא למלא את כל השדות הנדרשים.",
+      "countInvalid": "דירות ובלוקים חייבים להיות מספרים של לפחות 1.",
+      "fileRequired": "נא לצרף מסמך PDF.",
+      "tooLarge": "הקובץ חייב להיות בגודל 5 MB ומטה.",
+      "submit": "שלח לאימות",
+      "submitting": "הַגָשָׁה…",
+      "submitError": "לא ניתן היה לשלוח את המסמכים שלך. אנא נסה שוב."
+    }
+  },
   "announcements": {
     "loadError": "לא ניתן היה לטעון הודעות. אנא נסה שוב.",
     "removeError": "לא ניתן למחוק הודעה זו. אנא נסה שוב.",

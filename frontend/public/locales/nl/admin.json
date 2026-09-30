@@ -535,6 +535,68 @@
       "outstanding": "Uitstekend"
     }
   },
+  "verification": {
+    "loading": "Verificatie laden…",
+    "loadError": "Kan uw verificatiestatus niet laden. Probeer het opnieuw.",
+    "viewError": "Kan het document niet openen.",
+    "statusTitle": "Verificatiestatus",
+    "rejectionReason": "Reden voor afwijzing:",
+    "status": {
+      "notSubmitted": "Niet ingediend",
+      "pending": "In afwachting van beoordeling",
+      "approved": "Goedgekeurd",
+      "rejected": "Afgewezen"
+    },
+    "messages": {
+      "notSubmitted": "Dien hieronder de gegevens en documenten van uw gemeenschap in. Totdat ze zijn goedgekeurd, kunt u alleen de pagina's Dashboard, Verificatie en Profiel gebruiken.",
+      "pending": "Uw documenten liggen ter beoordeling bij een platformbeheerder. Totdat ze zijn goedgekeurd, kunt u alleen de pagina's Dashboard, Verificatie en Profiel gebruiken.",
+      "approved": "Uw documenten zijn geverifieerd.",
+      "rejectedHint": "Los het probleem op en dien hieronder uw documenten opnieuw in."
+    },
+    "details": {
+      "communityName": "Gemeenschapsnaam",
+      "address": "Adres",
+      "totalFlats": "Totaal appartementen",
+      "totalBlocks": "Totaal blokken",
+      "type": "Documenttype",
+      "number": "Documentnummer",
+      "notes": "Details",
+      "file": "Document (PDF)",
+      "submittedAt": "Ingediend",
+      "reviewedAt": "Beoordeeld"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Certificaat van inschrijving van de vereniging",
+      "ownershipProof": "Bewijs van eigendomsrecht",
+      "governmentId": "Overheids-ID",
+      "other": "Ander"
+    },
+    "form": {
+      "title": "Documenten indienen",
+      "resubmitTitle": "Documenten opnieuw indienen",
+      "documentType": "Documenttype",
+      "documentNumber": "Documentnummer",
+      "details": "Aanvullende details (optioneel)",
+      "file": "Document PDF",
+      "fileHint": "Alleen PDF, maximaal 5 MB.",
+      "communitySection": "Gemeenschapsgegevens",
+      "documentSection": "Verificatiedocument",
+      "communityName": "Gemeenschaps-/verenigingsnaam",
+      "address": "Adres",
+      "city": "Stad",
+      "state": "Staat",
+      "pincode": "Pincode",
+      "totalFlats": "Totaal aantal appartementen",
+      "totalBlocks": "Aantal blokken / torens (optioneel)",
+      "fieldsRequired": "Vul alle verplichte velden in.",
+      "countInvalid": "Flats en blokken moeten een getal van minimaal 1 hebben.",
+      "fileRequired": "Voeg een PDF-document toe.",
+      "tooLarge": "Het bestand moet 5 MB of kleiner zijn.",
+      "submit": "Verzenden ter verificatie",
+      "submitting": "Verzenden…",
+      "submitError": "Kan uw documenten niet indienen. Probeer het opnieuw."
+    }
+  },
   "announcements": {
     "loadError": "Kan mededelingen niet laden. Probeer het opnieuw.",
     "removeError": "Kan deze aankondiging niet verwijderen. Probeer het opnieuw.",

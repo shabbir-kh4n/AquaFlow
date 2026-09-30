@@ -4,6 +4,39 @@
     "blocked": "Blokováno",
     "terminated": "Ukončeno"
   },
+  "verification": {
+    "title": "Ověření dokumentu",
+    "status": {
+      "notSubmitted": "Nebylo předloženo",
+      "pending": "Čeká na kontrolu",
+      "approved": "Schválený",
+      "rejected": "Odmítnuto"
+    },
+    "notSubmitted": "Tento správce komunity zatím neodeslal ověřovací dokumenty.",
+    "communityName": "Název komunity",
+    "address": "Adresa",
+    "totalFlats": "Byty celkem",
+    "totalBlocks": "Celkový počet bloků",
+    "documentType": "Typ dokumentu",
+    "documentNumber": "Číslo dokladu",
+    "notes": "Podrobnosti",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Odesláno",
+    "reviewedAt": "Zkontrolováno",
+    "rejectionReason": "Důvod zamítnutí:",
+    "approve": "Schvalovat",
+    "reject": "Odmítnout",
+    "viewError": "Dokument nelze otevřít.",
+    "approveError": "Toto ověření nebylo možné schválit.",
+    "rejectError": "Toto ověření se nepodařilo odmítnout.",
+    "reasonRequired": "Uveďte prosím důvod zamítnutí.",
+    "rejectDialog": {
+      "title": "Odmítnout ověření",
+      "message": "{{name}} uvidí důvod, který uvedete, a bude moci odeslat nové dokumenty.",
+      "reasonLabel": "Důvod odmítnutí",
+      "confirm": "Odmítnout"
+    }
+  },
   "sort": {
     "sortBy": "Seřadit podle",
     "toggleDirection": "Přepnout směr řazení",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-mail",
       "status": "Postavení",
+      "verification": "Ověření",
       "residents": "Obyvatelé",
       "view": "Pohled"
     }

@@ -535,6 +535,68 @@
       "outstanding": "Fitacciyar"
     }
   },
+  "verification": {
+    "loading": "Ana loda tabbaci…",
+    "loadError": "An kasa loda matsayin tabbatarwar ku. Da fatan za a sake gwadawa.",
+    "viewError": "An kasa buɗe takardar.",
+    "statusTitle": "Matsayin tabbatarwa",
+    "rejectionReason": "Dalilin ƙin yarda:",
+    "status": {
+      "notSubmitted": "Ba a ƙaddamar da shi ba",
+      "pending": "Ana jiran bita",
+      "approved": "An amince",
+      "rejected": "An ƙi"
+    },
+    "messages": {
+      "notSubmitted": "Ƙaddamar da cikakkun bayanai da takaddun al'ummar ku a ƙasa. Har sai an amince da su za ku iya amfani da Dashboard, Tabbatarwa da Shafukan Fayil.",
+      "pending": "Takardunku suna tare da mai gudanar da dandamali don dubawa. Har sai an amince da su za ku iya amfani da Dashboard, Tabbatarwa da Shafukan Fayil.",
+      "approved": "An tabbatar da takaddun ku.",
+      "rejectedHint": "Gyara batun kuma sake ƙaddamar da takaddun ku a ƙasa."
+    },
+    "details": {
+      "communityName": "Sunan al'umma",
+      "address": "Adireshi",
+      "totalFlats": "Jimillar filaye",
+      "totalBlocks": "Jimlar tubalan",
+      "type": "Nau'in takarda",
+      "number": "Lambar takarda",
+      "notes": "Cikakkun bayanai",
+      "file": "Document (PDF)",
+      "submittedAt": "An ƙaddamar",
+      "reviewedAt": "An duba"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Takaddar rijistar al'umma",
+      "ownershipProof": "Tabbacin mallakar dukiya",
+      "governmentId": "ID na gwamnati",
+      "other": "Sauran"
+    },
+    "form": {
+      "title": "Gabatar da takardu",
+      "resubmitTitle": "Gabatar da takardu kuma",
+      "documentType": "Nau'in takarda",
+      "documentNumber": "Lambar takarda",
+      "details": "Ƙarin cikakkun bayanai (na zaɓi)",
+      "file": "Document PDF",
+      "fileHint": "PDF only, up to 5 MB.",
+      "communitySection": "Bayanan al'umma",
+      "documentSection": "Takardun tabbatarwa",
+      "communityName": "Al'umma / sunan al'umma",
+      "address": "Adireshi",
+      "city": "Garin",
+      "state": "Jiha",
+      "pincode": "Pincode",
+      "totalFlats": "Jimlar adadin gidajen kwana",
+      "totalBlocks": "Yawan tubalan / hasumiya (na zaɓi)",
+      "fieldsRequired": "Da fatan za a cika duk filayen da ake buƙata.",
+      "countInvalid": "Filaye da tubalan dole ne su zama lambobi na akalla 1.",
+      "fileRequired": "Please attach a PDF document.",
+      "tooLarge": "Dole ne fayil ɗin ya zama 5 MB ko ƙarami.",
+      "submit": "Sallama don tabbatarwa",
+      "submitting": "Ana ƙaddamarwa…",
+      "submitError": "Ba za a iya ƙaddamar da takaddun ku ba. Da fatan za a sake gwadawa."
+    }
+  },
   "announcements": {
     "loadError": "An kasa loda sanarwa. Da fatan za a sake gwadawa.",
     "removeError": "An kasa share wannan sanarwar. Da fatan za a sake gwadawa.",

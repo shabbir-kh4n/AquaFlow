@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Faylni tanlang",
+    "change": "Faylni o'zgartirish",
+    "none": "Hech qanday fayl tanlanmagan"
+  },
   "authModal": {
     "close": "Yopish",
     "signUpTitle": "Jamoangizni ro'yxatdan o'tkazing",
@@ -188,6 +193,7 @@
       "support": "Qo'llab-quvvatlash / Xavotirlar",
       "tariffPlans": "Tarif rejalari",
       "announcements": "E'lonlar",
+      "verification": "Tekshirish",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "E'lonlar",
         "subtitle": "Rezidentlaringiz uchun jamoatchilik bildirishnomalarini e'lon qiling."
       },
+      "verification": {
+        "title": "Hujjatni tekshirish",
+        "subtitle": "Platforma sizning hamjamiyatingizni tekshirishi uchun hujjatlaringizni yuboring."
+      },
       "profile": {
         "title": "Sozlamalar va profil",
         "subtitle": "Hisob ma'lumotlarini va kvartira ma'lumotlarini boshqaring."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Hamjamiyatingiz tasdiqlangandan keyin mavjud",
+    "verifyBanner": "Hamjamiyatingiz hali tasdiqlanmagan, shuning uchun aksariyat sahifalar qulflangan.",
+    "verifyBannerLink": "Tekshirishga o'ting",
     "fallbackCommunity": "Hamjamiyat administratori",
     "notBuilt": "{{label}} hali qurilmagan",
     "searchPlaceholder": "Har qanday narsani qidiring…"

@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Tagh faidhle",
+    "change": "Atharraich am faidhle",
+    "none": "Cha deach faidhle a thaghadh"
+  },
   "authModal": {
     "close": "Dùin",
     "signUpTitle": "Clàraich do choimhearsnachd",
@@ -188,6 +193,7 @@
       "support": "Taic/Draghan",
       "tariffPlans": "Planaichean Tar-chuir",
       "announcements": "Sanasan",
+      "verification": "Dearbhadh",
       "profile": "Pròifil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Sanasan",
         "subtitle": "Foillsich sanasan coimhearsnachd don luchd-còmhnaidh agad."
       },
+      "verification": {
+        "title": "Dearbhadh Sgrìobhainn",
+        "subtitle": "Cuir a-steach na sgrìobhainnean agad gus an urrainn don àrd-ùrlar do choimhearsnachd a dhearbhadh."
+      },
       "profile": {
         "title": "Roghainnean & Pròifil",
         "subtitle": "Stiùirich mion-fhiosrachadh do chunntas agus fiosrachadh àros."
       }
     },
     "fallbackName": "Rianachd",
+    "locked": "Ri fhaighinn às deidh do choimhearsnachd a bhith air a dhearbhadh",
+    "verifyBanner": "Chan eil do choimhearsnachd air a dhearbhadh fhathast, agus mar sin tha a’ mhòr-chuid de dhuilleagan glaiste.",
+    "verifyBannerLink": "Rach gu Dearbhadh",
     "fallbackCommunity": "Rianachd Coimhearsnachd",
     "notBuilt": "{{label}} chan eil e air a thogail fhathast",
     "searchPlaceholder": "Lorg rud sam bith…"

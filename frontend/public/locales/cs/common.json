@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Vyberte soubor",
+    "change": "Změnit soubor",
+    "none": "Nebyl vybrán žádný soubor"
+  },
   "authModal": {
     "close": "Blízko",
     "signUpTitle": "Zaregistrujte svou komunitu",
@@ -188,6 +193,7 @@
       "support": "Podpora / Obavy",
       "tariffPlans": "Tarifní plány",
       "announcements": "Oznámení",
+      "verification": "Ověření",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Oznámení",
         "subtitle": "Zveřejňujte celospolečenská oznámení pro své obyvatele."
       },
+      "verification": {
+        "title": "Ověření dokumentu",
+        "subtitle": "Odešlete své dokumenty, aby platforma mohla ověřit vaši komunitu."
+      },
       "profile": {
         "title": "Nastavení a profil",
         "subtitle": "Spravujte podrobnosti o svém účtu a informace o bytech."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Dostupné po ověření vaší komunity",
+    "verifyBanner": "Vaše komunita ještě není ověřená, takže většina stránek je uzamčena.",
+    "verifyBannerLink": "Přejděte na Ověření",
     "fallbackCommunity": "Správce komunity",
     "notBuilt": "{{label}} ještě není postaveno",
     "searchPlaceholder": "Hledat cokoli…"

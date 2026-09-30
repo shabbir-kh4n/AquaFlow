@@ -535,6 +535,68 @@
       "outstanding": "Üstün"
     }
   },
+  "verification": {
+    "loading": "Doğrulama yükleniyor…",
+    "loadError": "Doğrulama durumunuz yüklenemedi. Lütfen tekrar deneyin.",
+    "viewError": "Belge açılamadı.",
+    "statusTitle": "Doğrulama durumu",
+    "rejectionReason": "Reddedilme nedeni:",
+    "status": {
+      "notSubmitted": "Gönderilmedi",
+      "pending": "İnceleme bekleniyor",
+      "approved": "Onaylı",
+      "rejected": "Reddedilmiş"
+    },
+    "messages": {
+      "notSubmitted": "Topluluğunuzun ayrıntılarını ve belgelerini aşağıya gönderin. Onaylanıncaya kadar yalnızca Kontrol Paneli, Doğrulama ve Profil sayfalarını kullanabilirsiniz.",
+      "pending": "Belgeleriniz incelenmek üzere bir platform yöneticisinde. Onaylanıncaya kadar yalnızca Kontrol Paneli, Doğrulama ve Profil sayfalarını kullanabilirsiniz.",
+      "approved": "Belgeleriniz doğrulandı.",
+      "rejectedHint": "Sorunu düzeltin ve belgelerinizi aşağıda tekrar gönderin."
+    },
+    "details": {
+      "communityName": "Topluluk adı",
+      "address": "Adres",
+      "totalFlats": "Toplam daire",
+      "totalBlocks": "Toplam bloklar",
+      "type": "Belge türü",
+      "number": "Belge numarası",
+      "notes": "Detaylar",
+      "file": "Belge (PDF)",
+      "submittedAt": "Gönderildi",
+      "reviewedAt": "İncelendi"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Dernek kayıt belgesi",
+      "ownershipProof": "Mülkiyet kanıtı",
+      "governmentId": "Devlet Kimliği",
+      "other": "Diğer"
+    },
+    "form": {
+      "title": "Belgeleri gönderin",
+      "resubmitTitle": "Belgeleri tekrar gönderin",
+      "documentType": "Belge türü",
+      "documentNumber": "Belge numarası",
+      "details": "Ek ayrıntılar (isteğe bağlı)",
+      "file": "Belge PDF",
+      "fileHint": "Yalnızca PDF, 5 MB'a kadar.",
+      "communitySection": "Topluluk ayrıntıları",
+      "documentSection": "Doğrulama belgesi",
+      "communityName": "Topluluk / topluluk adı",
+      "address": "Adres",
+      "city": "Şehir",
+      "state": "Durum",
+      "pincode": "Pin kodu",
+      "totalFlats": "Toplam daire sayısı",
+      "totalBlocks": "Blok/kule sayısı (isteğe bağlı)",
+      "fieldsRequired": "Lütfen gerekli tüm alanları doldurun.",
+      "countInvalid": "Daire ve blokların sayısı en az 1 olmalıdır.",
+      "fileRequired": "Lütfen bir PDF belgesi ekleyin.",
+      "tooLarge": "Dosya 5 MB veya daha küçük olmalıdır.",
+      "submit": "Doğrulama için gönder",
+      "submitting": "Gönderiliyor…",
+      "submitError": "Belgeleriniz gönderilemedi. Lütfen tekrar deneyin."
+    }
+  },
   "announcements": {
     "loadError": "Duyurular yüklenemedi. Lütfen tekrar deneyin.",
     "removeError": "Bu duyuru silinemedi. Lütfen tekrar deneyin.",

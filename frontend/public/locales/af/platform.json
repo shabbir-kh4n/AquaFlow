@@ -4,6 +4,39 @@
     "blocked": "Geblokkeer",
     "terminated": "Beëindig"
   },
+  "verification": {
+    "title": "Dokumentverifikasie",
+    "status": {
+      "notSubmitted": "Nie ingedien nie",
+      "pending": "Hangende hersiening",
+      "approved": "Goedgekeur",
+      "rejected": "Verwerp"
+    },
+    "notSubmitted": "Hierdie gemeenskapsadministrateur het nog nie verifikasiedokumente ingedien nie.",
+    "communityName": "Gemeenskapsnaam",
+    "address": "Adres",
+    "totalFlats": "Totale woonstelle",
+    "totalBlocks": "Totale blokke",
+    "documentType": "Dokument tipe",
+    "documentNumber": "Dokumentnommer",
+    "notes": "Besonderhede",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Ingedien",
+    "reviewedAt": "Hersien",
+    "rejectionReason": "Rede vir verwerping:",
+    "approve": "Keur goed",
+    "reject": "Verwerp",
+    "viewError": "Kon nie die dokument oopmaak nie.",
+    "approveError": "Kon nie hierdie verifikasie goedkeur nie.",
+    "rejectError": "Kon nie hierdie verifikasie verwerp nie.",
+    "reasonRequired": "Gee asseblief 'n rede vir die verwerping.",
+    "rejectDialog": {
+      "title": "Verwerp verifikasie",
+      "message": "{{name}} sal die rede sien wat jy gee en kan nuwe dokumente indien.",
+      "reasonLabel": "Rede vir verwerping",
+      "confirm": "Verwerp"
+    }
+  },
   "sort": {
     "sortBy": "Sorteer volgens",
     "toggleDirection": "Wissel sorteerrigting",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-pos",
       "status": "Status",
+      "verification": "Verifikasie",
       "residents": "Inwoners",
       "view": "Uitsig"
     }

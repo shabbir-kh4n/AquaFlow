@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Valige fail",
+    "change": "Muuda faili",
+    "none": "Faili pole valitud"
+  },
   "authModal": {
     "close": "Sule",
     "signUpTitle": "Registreerige oma kogukond",
@@ -188,6 +193,7 @@
       "support": "Tugi / mured",
       "tariffPlans": "Tariifiplaanid",
       "announcements": "Teated",
+      "verification": "Kontrollimine",
       "profile": "Profiil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Teated",
         "subtitle": "Avaldage oma elanikele kogukondlikke teateid."
       },
+      "verification": {
+        "title": "Dokumendi kinnitamine",
+        "subtitle": "Esitage oma dokumendid, et platvorm saaks teie kogukonna kinnitada."
+      },
       "profile": {
         "title": "Seaded ja profiil",
         "subtitle": "Hallake oma konto andmeid ja korteriteavet."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Saadaval pärast teie kogukonna kinnitamist",
+    "verifyBanner": "Teie kogukond pole veel kinnitatud, seega on enamik lehti lukustatud.",
+    "verifyBannerLink": "Minge jaotisse Kinnitamine",
     "fallbackCommunity": "Kogukonna administraator",
     "notBuilt": "{{label}} pole veel ehitatud",
     "searchPlaceholder": "Otsi midagi…"

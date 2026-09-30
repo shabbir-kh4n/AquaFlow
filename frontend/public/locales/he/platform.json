@@ -4,6 +4,39 @@
     "blocked": "חָסוּם",
     "terminated": "הסתיים"
   },
+  "verification": {
+    "title": "אימות מסמך",
+    "status": {
+      "notSubmitted": "לא הוגש",
+      "pending": "ממתין לסקירה",
+      "approved": "מְאוּשָׁר",
+      "rejected": "נִדחֶה"
+    },
+    "notSubmitted": "מנהל הקהילה הזה לא שלח עדיין מסמכי אימות.",
+    "communityName": "שם הקהילה",
+    "address": "כְּתוֹבֶת",
+    "totalFlats": "סך הכל דירות",
+    "totalBlocks": "סך הכל בלוקים",
+    "documentType": "סוג מסמך",
+    "documentNumber": "מספר מסמך",
+    "notes": "פרטים",
+    "file": "מסמך (PDF)",
+    "submittedAt": "הוגש",
+    "reviewedAt": "נבדק",
+    "rejectionReason": "סיבת הדחייה:",
+    "approve": "לְאַשֵׁר",
+    "reject": "לִדחוֹת",
+    "viewError": "לא ניתן היה לפתוח את המסמך.",
+    "approveError": "לא ניתן לאשר את האימות הזה.",
+    "rejectError": "לא ניתן לדחות את האימות הזה.",
+    "reasonRequired": "נא לתת סיבה לדחייה.",
+    "rejectDialog": {
+      "title": "דחה אימות",
+      "message": "{{name}} יראה את הסיבה שאתה נותן ויוכל להגיש מסמכים חדשים.",
+      "reasonLabel": "סיבה לדחייה",
+      "confirm": "לִדחוֹת"
+    }
+  },
   "sort": {
     "sortBy": "מיין לפי",
     "toggleDirection": "החלף את כיוון המיון",
@@ -64,6 +97,7 @@
       "admin": "מנהל מערכת",
       "email": "אֶלֶקטרוֹנִי",
       "status": "סטָטוּס",
+      "verification": "אימות",
       "residents": "תושבים",
       "view": "נוֹף"
     }

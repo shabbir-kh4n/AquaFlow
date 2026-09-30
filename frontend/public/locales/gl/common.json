@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Escolla ficheiro",
+    "change": "Cambiar ficheiro",
+    "none": "Non se escolleu ningún ficheiro"
+  },
   "authModal": {
     "close": "Pechar",
     "signUpTitle": "Rexistra a túa comunidade",
@@ -188,6 +193,7 @@
       "support": "Apoio/Preocupacións",
       "tariffPlans": "Plans tarifarios",
       "announcements": "Anuncios",
+      "verification": "Verificación",
       "profile": "Perfil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Anuncios",
         "subtitle": "Publica avisos para toda a comunidade aos teus residentes."
       },
+      "verification": {
+        "title": "Verificación de documentos",
+        "subtitle": "Envía os teus documentos para que a plataforma poida verificar a túa comunidade."
+      },
       "profile": {
         "title": "Configuración e perfil",
         "subtitle": "Xestiona os detalles da túa conta e a información do apartamento."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Dispoñible despois de que se verifique a túa comunidade",
+    "verifyBanner": "A túa comunidade aínda non está verificada, polo que a maioría das páxinas están bloqueadas.",
+    "verifyBannerLink": "Vaia a Verificación",
     "fallbackCommunity": "Administrador da comunidade",
     "notBuilt": "{{label}} aínda non está construído",
     "searchPlaceholder": "Busca calquera cousa..."

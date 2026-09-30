@@ -4,6 +4,39 @@
     "blocked": "مسدود شده است",
     "terminated": "خاتمه یافت"
   },
+  "verification": {
+    "title": "تأیید سند",
+    "status": {
+      "notSubmitted": "ارسال نشده است",
+      "pending": "در انتظار بررسی",
+      "approved": "تصویب شد",
+      "rejected": "رد شد"
+    },
+    "notSubmitted": "این سرپرست انجمن هنوز مدارک تأیید را ارسال نکرده است.",
+    "communityName": "نام انجمن",
+    "address": "آدرس",
+    "totalFlats": "کل آپارتمان",
+    "totalBlocks": "کل بلوک ها",
+    "documentType": "نوع سند",
+    "documentNumber": "شماره سند",
+    "notes": "جزئیات",
+    "file": "سند (PDF)",
+    "submittedAt": "ارسال شد",
+    "reviewedAt": "بررسی شد",
+    "rejectionReason": "دلیل رد شدن:",
+    "approve": "تایید کنید",
+    "reject": "رد کردن",
+    "viewError": "سند باز نشد.",
+    "approveError": "نمی‌توان این تأیید را تأیید کرد.",
+    "rejectError": "نمی‌توان این تأیید را رد کرد.",
+    "reasonRequired": "لطفا دلیل رد را ذکر کنید.",
+    "rejectDialog": {
+      "title": "تأیید را رد کنید",
+      "message": "{{name}} دلیل شما را می بیند و می تواند اسناد جدید را ارسال کند.",
+      "reasonLabel": "دلیل رد",
+      "confirm": "رد کردن"
+    }
+  },
   "sort": {
     "sortBy": "مرتب سازی بر اساس",
     "toggleDirection": "جهت مرتب سازی را تغییر دهید",
@@ -64,6 +97,7 @@
       "admin": "مدیر",
       "email": "ایمیل",
       "status": "وضعیت",
+      "verification": "تأیید",
       "residents": "ساکنین",
       "view": "مشاهده کنید"
     }

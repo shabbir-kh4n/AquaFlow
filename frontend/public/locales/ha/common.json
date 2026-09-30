@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Zaɓi fayil",
+    "change": "Canza fayil",
+    "none": "Babu fayil da aka zaɓa"
+  },
   "authModal": {
     "close": "Kusa",
     "signUpTitle": "Yi rijistar al'ummar ku",
@@ -188,6 +193,7 @@
       "support": "Taimako / Damuwa",
       "tariffPlans": "Shirye-shiryen Tariff",
       "announcements": "Sanarwa",
+      "verification": "Tabbatarwa",
       "profile": "Bayanan martaba"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Sanarwa",
         "subtitle": "Buga sanarwa gabaɗayan al'umma ga mazauna ku."
       },
+      "verification": {
+        "title": "Tabbatar da Takardu",
+        "subtitle": "Ƙaddamar da takaddun ku don dandamali ya iya tabbatar da al'ummar ku."
+      },
       "profile": {
         "title": "Saituna & Bayanan Bayani",
         "subtitle": "Sarrafa bayanan asusun ku da bayanan gida."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Akwai bayan an tabbatar da al'ummar ku",
+    "verifyBanner": "Har yanzu ba a tabbatar da al'ummar ku ba, don haka yawancin shafuka suna kulle.",
+    "verifyBannerLink": "Je zuwa Tabbatarwa",
     "fallbackCommunity": "Al'umma Admin",
     "notBuilt": "{{label}} ba a gina shi ba tukuna",
     "searchPlaceholder": "Bincika wani abu…"

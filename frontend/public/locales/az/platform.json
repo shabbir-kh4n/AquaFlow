@@ -4,6 +4,39 @@
     "blocked": "Blok edilib",
     "terminated": "Xitam verildi"
   },
+  "verification": {
+    "title": "Sənədin yoxlanılması",
+    "status": {
+      "notSubmitted": "Təqdim olunmayıb",
+      "pending": "Baxış gözlənilir",
+      "approved": "Təsdiq edildi",
+      "rejected": "Rədd edildi"
+    },
+    "notSubmitted": "Bu icma admini hələ doğrulama sənədlərini təqdim etməyib.",
+    "communityName": "İcma adı",
+    "address": "Ünvan",
+    "totalFlats": "Ümumi mənzillər",
+    "totalBlocks": "Ümumi bloklar",
+    "documentType": "Sənəd növü",
+    "documentNumber": "Sənəd nömrəsi",
+    "notes": "Təfərrüatlar",
+    "file": "Sənəd (PDF)",
+    "submittedAt": "Təqdim edildi",
+    "reviewedAt": "Nəzərdən keçirildi",
+    "rejectionReason": "Rədd edilmə səbəbi:",
+    "approve": "Təsdiq edin",
+    "reject": "Rədd edin",
+    "viewError": "Sənədi açmaq mümkün olmadı.",
+    "approveError": "Bu yoxlamanı təsdiqləmək mümkün olmadı.",
+    "rejectError": "Bu doğrulamanı rədd etmək mümkün olmadı.",
+    "reasonRequired": "Zəhmət olmasa, imtina üçün səbəb göstərin.",
+    "rejectDialog": {
+      "title": "Doğrulamanı rədd edin",
+      "message": "{{name}} göstərdiyiniz səbəbi görəcək və yeni sənədlər təqdim edə bilərsiniz.",
+      "reasonLabel": "Rədd edilmə səbəbi",
+      "confirm": "Rədd edin"
+    }
+  },
   "sort": {
     "sortBy": "Sırala",
     "toggleDirection": "Çeşidləmə istiqamətini dəyişin",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "E-poçt",
       "status": "Vəziyyət",
+      "verification": "Doğrulama",
       "residents": "Sakinlər",
       "view": "Baxın"
     }

@@ -4,6 +4,39 @@
     "blocked": "Imblukkata",
     "terminated": "Tterminat"
   },
+  "verification": {
+    "title": "Verifika tad-Dokument",
+    "status": {
+      "notSubmitted": "Mhux sottomess",
+      "pending": "Pendenti reviżjoni",
+      "approved": "Approvat",
+      "rejected": "Miċħuda"
+    },
+    "notSubmitted": "Dan l-amministratur tal-komunità għadu ma ssottomettax dokumenti ta' verifika.",
+    "communityName": "Isem tal-Komunità",
+    "address": "Indirizz",
+    "totalFlats": "Flats totali",
+    "totalBlocks": "Blokki totali",
+    "documentType": "Tip ta' dokument",
+    "documentNumber": "Numru tad-dokument",
+    "notes": "Dettalji",
+    "file": "Dokument (PDF)",
+    "submittedAt": "Sottomessi",
+    "reviewedAt": "Riveduta",
+    "rejectionReason": "Raġuni għaċ-ċaħda:",
+    "approve": "Japprova",
+    "reject": "Tiċħad",
+    "viewError": "Ma setax jiftaħ id-dokument.",
+    "approveError": "Ma setgħetx tapprova din il-verifika.",
+    "rejectError": "Ma setgħetx tirrifjuta din il-verifika.",
+    "reasonRequired": "Jekk jogħġbok agħti raġuni għar-rifjut.",
+    "rejectDialog": {
+      "title": "Tiċħad il-verifika",
+      "message": "{{name}} se jara r-raġuni li tagħti u tista' tissottometti dokumenti ġodda.",
+      "reasonLabel": "Raġuni għaċ-ċaħda",
+      "confirm": "Tiċħad"
+    }
+  },
   "sort": {
     "sortBy": "Issortja minn",
     "toggleDirection": "Toggle sort direzzjoni",
@@ -64,6 +97,7 @@
       "admin": "Amministratur",
       "email": "Email",
       "status": "Status",
+      "verification": "Verifika",
       "residents": "Residenti",
       "view": "Ara"
     }

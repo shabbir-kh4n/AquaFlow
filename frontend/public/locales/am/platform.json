@@ -4,6 +4,39 @@
     "blocked": "ታግዷል",
     "terminated": "ተቋርጧል"
   },
+  "verification": {
+    "title": "የሰነድ ማረጋገጫ",
+    "status": {
+      "notSubmitted": "አልቀረበም።",
+      "pending": "ግምገማ በመጠባበቅ ላይ",
+      "approved": "ጸድቋል",
+      "rejected": "ውድቅ ተደርጓል"
+    },
+    "notSubmitted": "ይህ የማህበረሰብ አስተዳዳሪ እስካሁን የማረጋገጫ ሰነዶችን አላቀረበም።",
+    "communityName": "የማህበረሰብ ስም",
+    "address": "አድራሻ",
+    "totalFlats": "ጠቅላላ አፓርታማዎች",
+    "totalBlocks": "ጠቅላላ ብሎኮች",
+    "documentType": "የሰነድ አይነት",
+    "documentNumber": "የሰነድ ቁጥር",
+    "notes": "ዝርዝሮች",
+    "file": "Document (PDF)",
+    "submittedAt": "ገብቷል።",
+    "reviewedAt": "ተገምግሟል",
+    "rejectionReason": "ውድቅ የተደረገበት ምክንያት፡-",
+    "approve": "አጽድቅ",
+    "reject": "እምቢ",
+    "viewError": "ሰነዱን መክፈት አልተቻለም።",
+    "approveError": "ይህን ማረጋገጫ ማጽደቅ አልተቻለም።",
+    "rejectError": "ይህን ማረጋገጫ ውድቅ ማድረግ አልተቻለም።",
+    "reasonRequired": "እባክዎን ውድቅ ያደረጉበትን ምክንያት ይስጡ።",
+    "rejectDialog": {
+      "title": "ማረጋገጫን ውድቅ አድርግ",
+      "message": "{{name}} will see the reason you give and can submit new documents.",
+      "reasonLabel": "ውድቅ የተደረገበት ምክንያት",
+      "confirm": "እምቢ"
+    }
+  },
   "sort": {
     "sortBy": "ደርድር በ",
     "toggleDirection": "የመደርደር አቅጣጫ ቀያይር",
@@ -64,6 +97,7 @@
       "admin": "አስተዳዳሪ",
       "email": "ኢሜይል",
       "status": "ሁኔታ",
+      "verification": "ማረጋገጥ",
       "residents": "ነዋሪዎች",
       "view": "ይመልከቱ"
     }

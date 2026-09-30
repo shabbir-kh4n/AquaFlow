@@ -4,6 +4,39 @@
     "blocked": "Bloccato",
     "terminated": "Terminato"
   },
+  "verification": {
+    "title": "Verifica del documento",
+    "status": {
+      "notSubmitted": "Non inviato",
+      "pending": "In attesa di revisione",
+      "approved": "Approvato",
+      "rejected": "Respinto"
+    },
+    "notSubmitted": "Questo amministratore della comunità non ha ancora inviato documenti di verifica.",
+    "communityName": "Nome della comunità",
+    "address": "Indirizzo",
+    "totalFlats": "Appartamenti totali",
+    "totalBlocks": "Blocchi totali",
+    "documentType": "Tipo di documento",
+    "documentNumber": "Numero del documento",
+    "notes": "Dettagli",
+    "file": "Documento (PDF)",
+    "submittedAt": "Inviato",
+    "reviewedAt": "Recensito",
+    "rejectionReason": "Motivo del rifiuto:",
+    "approve": "Approvare",
+    "reject": "Rifiutare",
+    "viewError": "Impossibile aprire il documento.",
+    "approveError": "Impossibile approvare questa verifica.",
+    "rejectError": "Impossibile rifiutare questa verifica.",
+    "reasonRequired": "Si prega di fornire un motivo per il rifiuto.",
+    "rejectDialog": {
+      "title": "Rifiuta la verifica",
+      "message": "{{name}} vedrà il motivo fornito e potrà inviare nuovi documenti.",
+      "reasonLabel": "Motivo del rifiuto",
+      "confirm": "Rifiutare"
+    }
+  },
   "sort": {
     "sortBy": "Ordina per",
     "toggleDirection": "Attiva/disattiva la direzione dell'ordinamento",
@@ -64,6 +97,7 @@
       "admin": "Ammin",
       "email": "E-mail",
       "status": "Stato",
+      "verification": "Verifica",
       "residents": "Residenti",
       "view": "Visualizzazione"
     }

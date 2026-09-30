@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Elige file",
+    "change": "Mutare file",
+    "none": "Nulla file electi"
+  },
   "authModal": {
     "close": "Close",
     "signUpTitle": "Subcriptio tuam civitatem",
@@ -188,6 +193,7 @@
       "support": "Support / Curae",
       "tariffPlans": "Lezdam consilia",
       "announcements": "Annuntiationes",
+      "verification": "Comprobatio",
       "profile": "Profile"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Annuntiationes",
         "subtitle": "Communitates-latae notationes ad incolas tuos divulga."
       },
+      "verification": {
+        "title": "Documenti comprobatio",
+        "subtitle": "Subicite documenta vestra ut tribunal communitatis vestrae cognoscere possit."
+      },
       "profile": {
         "title": "Optiones & Profile",
         "subtitle": "Curo rationem vestram singula et diaetam informationem."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Available post conventum tuum verificatur",
+    "verifyBanner": "Communitas tua non verificatur adhuc, ideo plurimae paginae clauduntur.",
+    "verifyBannerLink": "Vade ad comprobatio",
     "fallbackCommunity": "Community Admin",
     "notBuilt": "{{label}} nondum aedificatum est",
     "searchPlaceholder": "Quaere quid…"

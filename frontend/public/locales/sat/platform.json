@@ -4,6 +4,39 @@
     "blocked": "Blocked",
     "terminated": "Terminated"
   },
+  "verification": {
+    "title": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ",
+    "status": {
+      "notSubmitted": "ᱵᱟᱝ ᱡᱚᱢᱟ ᱟᱠᱟᱱᱟ",
+      "pending": "ᱛᱟᱺᱜᱤ ᱠᱟᱱ ᱧᱮᱞ ᱫᱚᱦᱲᱟ",
+      "approved": "ᱢᱟᱱᱟᱳ",
+      "rejected": "ᱵᱟᱝ ᱦᱩᱭ ᱟᱠᱟᱱᱟ"
+    },
+    "notSubmitted": "ᱱᱩᱭ ᱜᱟᱶᱛᱟ ᱮᱰᱢᱤᱱ ᱫᱚ ᱱᱤᱛ ᱦᱚᱸ ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱵᱟᱭ ᱡᱚᱢᱟ ᱟᱠᱟᱫᱟ᱾",
+    "communityName": "ᱜᱟᱶᱛᱟ ᱧᱩᱛᱩᱢ",
+    "address": "ᱴᱷᱤᱠᱟᱱᱟ",
+    "totalFlats": "ᱢᱩᱴ ᱯᱷᱞᱮᱴ",
+    "totalBlocks": "ᱢᱩᱴ ᱵᱞᱚᱠ",
+    "documentType": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱞᱮᱠᱟ",
+    "documentNumber": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱱᱚᱢᱵᱚᱨ",
+    "notes": "ᱫᱚᱨᱠᱟᱨᱤ",
+    "file": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ (PDF)",
+    "submittedAt": "ᱡᱚᱢᱟ ᱦᱩᱭ ᱟᱠᱟᱱᱟ",
+    "reviewedAt": "ᱧᱮᱞ ᱫᱚᱦᱲᱟ ᱦᱩᱭ ᱟᱠᱟᱱᱟ",
+    "rejectionReason": "ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱨᱮᱭᱟᱜ ᱠᱟᱨᱚᱱᱺ",
+    "approve": "ᱢᱟᱱᱟᱳ",
+    "reject": "ᱵᱟᱫ",
+    "viewError": "ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱵᱟᱝ ᱡᱷᱤᱡᱽ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱾",
+    "approveError": "ᱱᱚᱣᱟ ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱟᱝ ᱟᱝᱜᱚᱪ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱾",
+    "rejectError": "ᱱᱚᱣᱟ ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱟᱝ ᱨᱤᱡᱷᱟᱹᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+    "reasonRequired": "ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱨᱮᱭᱟᱜ ᱠᱟᱨᱚᱱ ᱞᱟᱹᱭ ᱢᱮ᱾",
+    "rejectDialog": {
+      "title": "ᱵᱷᱮᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ",
+      "message": "{{name}} ᱟᱢ ᱮᱢ ᱟᱠᱟᱫ ᱠᱟᱨᱚᱱ ᱧᱮᱞᱚᱜᱼᱟ ᱟᱨ ᱱᱟᱶᱟ ᱰᱚᱠᱭᱩᱢᱮᱱᱴ ᱠᱚ ᱡᱚᱢᱟ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
+      "reasonLabel": "ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱨᱮᱭᱟᱜ ᱠᱟᱨᱚᱱ",
+      "confirm": "ᱵᱟᱫ"
+    }
+  },
   "sort": {
     "sortBy": "Sort by",
     "toggleDirection": "Toggle sort direction",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Status",
+      "verification": "ᱯᱚᱨᱤᱯᱷᱤᱠᱮᱥᱚᱱ",
       "residents": "Residents",
       "view": "View"
     }

@@ -4,6 +4,39 @@
     "blocked": "अवरुद्ध",
     "terminated": "समाप्त"
   },
+  "verification": {
+    "title": "दस्तावेज सत्यापन",
+    "status": {
+      "notSubmitted": "जमा नहि भेल",
+      "pending": "समीक्षा लंबित अछि",
+      "approved": "स्वीकृत भेटल",
+      "rejected": "खारिज क देल गेल"
+    },
+    "notSubmitted": "ई समुदायक एडमिन एखन धरि सत्यापन दस्तावेज नहि जमा केने छथि ।",
+    "communityName": "समुदाय के नाम",
+    "address": "ठिकाना",
+    "totalFlats": "कुल फ्लैट",
+    "totalBlocks": "कुल ब्लॉक",
+    "documentType": "दस्तावेज के प्रकार",
+    "documentNumber": "दस्तावेज संख्या",
+    "notes": "विवरण",
+    "file": "दस्तावेज (PDF) २.",
+    "submittedAt": "प्रस्तुत कयल गेल",
+    "reviewedAt": "समीक्षा कयल गेल",
+    "rejectionReason": "अस्वीकृति के कारण : १.",
+    "approve": "अनुमोदन",
+    "reject": "अस्वीकार करनाइ",
+    "viewError": "दस्तावेज नहि खोलि सकल।",
+    "approveError": "एहि सत्यापन कए मंजूरी नहि द सकल।",
+    "rejectError": "एहि सत्यापन केँ खारिज नहि क' सकल.",
+    "reasonRequired": "अस्वीकार करबाक कारण बताउ।",
+    "rejectDialog": {
+      "title": "सत्यापन के अस्वीकार करब",
+      "message": "{{name}} अहाँ देबाक कारण देखत आ नव दस्तावेज जमा क' सकैत अछि.",
+      "reasonLabel": "अस्वीकृति के कारण",
+      "confirm": "अस्वीकार करनाइ"
+    }
+  },
   "sort": {
     "sortBy": "क्रमबद्ध करू",
     "toggleDirection": "क्रम बदलू",
@@ -64,6 +97,7 @@
       "admin": "एडमिन",
       "email": "ईमेल",
       "status": "स्थिति",
+      "verification": "सत्यापन",
       "residents": "निवासी",
       "view": "देखू"
     }

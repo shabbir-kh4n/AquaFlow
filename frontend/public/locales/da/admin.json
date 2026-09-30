@@ -535,6 +535,68 @@
       "outstanding": "Udestående"
     }
   },
+  "verification": {
+    "loading": "Indlæser bekræftelse...",
+    "loadError": "Kunne ikke indlæse din bekræftelsesstatus. Prøv venligst igen.",
+    "viewError": "Kunne ikke åbne dokumentet.",
+    "statusTitle": "Verifikationsstatus",
+    "rejectionReason": "Årsag til afvisning:",
+    "status": {
+      "notSubmitted": "Ikke indsendt",
+      "pending": "Afventer gennemgang",
+      "approved": "Godkendt",
+      "rejected": "Afvist"
+    },
+    "messages": {
+      "notSubmitted": "Indsend dit fællesskabs detaljer og dokumenter nedenfor. Indtil de er godkendt, kan du kun bruge Dashboard-, Verifikations- og Profilsiderne.",
+      "pending": "Dine dokumenter er hos en platformsadministrator til gennemgang. Indtil de er godkendt, kan du kun bruge Dashboard-, Verifikations- og Profilsiderne.",
+      "approved": "Dine dokumenter er blevet bekræftet.",
+      "rejectedHint": "Løs problemet, og indsend dine dokumenter igen nedenfor."
+    },
+    "details": {
+      "communityName": "Fællesskabsnavn",
+      "address": "Adresse",
+      "totalFlats": "Lejligheder i alt",
+      "totalBlocks": "Samlede blokke",
+      "type": "Dokumenttype",
+      "number": "Dokumentnummer",
+      "notes": "Detaljer",
+      "file": "Dokument (PDF)",
+      "submittedAt": "Indsendt",
+      "reviewedAt": "Gennemgået"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Samfunds registreringsattest",
+      "ownershipProof": "Ejendomsbevis",
+      "governmentId": "Regerings-id",
+      "other": "Andre"
+    },
+    "form": {
+      "title": "Indsend dokumenter",
+      "resubmitTitle": "Indsend dokumenter igen",
+      "documentType": "Dokumenttype",
+      "documentNumber": "Dokumentnummer",
+      "details": "Yderligere detaljer (valgfrit)",
+      "file": "Dokument PDF",
+      "fileHint": "Kun PDF op til 5 MB.",
+      "communitySection": "Fællesskabsoplysninger",
+      "documentSection": "Verifikationsdokument",
+      "communityName": "Navn på samfund/samfund",
+      "address": "Adresse",
+      "city": "By",
+      "state": "Tilstand",
+      "pincode": "Pinkode",
+      "totalFlats": "Samlet antal lejligheder",
+      "totalBlocks": "Antal blokke/tårne ​​(valgfrit)",
+      "fieldsRequired": "Udfyld venligst alle de påkrævede felter.",
+      "countInvalid": "Lejligheder og blokke skal være numre på mindst 1.",
+      "fileRequired": "Vedhæft venligst et PDF dokument.",
+      "tooLarge": "Filen skal være 5 MB eller mindre.",
+      "submit": "Send til verifikation",
+      "submitting": "Indsender...",
+      "submitError": "Kunne ikke indsende dine dokumenter. Prøv venligst igen."
+    }
+  },
   "announcements": {
     "loadError": "Kunne ikke indlæse meddelelser. Prøv venligst igen.",
     "removeError": "Kunne ikke slette denne meddelelse. Prøv venligst igen.",

@@ -535,6 +535,68 @@
       "outstanding": "Erinomaista"
     }
   },
+  "verification": {
+    "loading": "Ladataan vahvistusta…",
+    "loadError": "Vahvistuksen tilaa ei voitu ladata. Yritä uudelleen.",
+    "viewError": "Asiakirjaa ei voitu avata.",
+    "statusTitle": "Vahvistuksen tila",
+    "rejectionReason": "Hylkäämisen syy:",
+    "status": {
+      "notSubmitted": "Ei lähetetty",
+      "pending": "Odottaa tarkistusta",
+      "approved": "Hyväksytty",
+      "rejected": "Hylätty"
+    },
+    "messages": {
+      "notSubmitted": "Lähetä yhteisösi tiedot ja asiakirjat alle. Ennen kuin ne on hyväksytty, voit käyttää vain hallintapaneeli-, vahvistus- ja profiilisivuja.",
+      "pending": "Asiakirjasi ovat alustan järjestelmänvalvojan tarkastettavaksi. Ennen kuin ne on hyväksytty, voit käyttää vain hallintapaneeli-, vahvistus- ja profiilisivuja.",
+      "approved": "Asiakirjasi on vahvistettu.",
+      "rejectedHint": "Korjaa ongelma ja lähetä asiakirjasi uudelleen alla."
+    },
+    "details": {
+      "communityName": "Yhteisön nimi",
+      "address": "Osoite",
+      "totalFlats": "Asuntoja yhteensä",
+      "totalBlocks": "Lohkot yhteensä",
+      "type": "Asiakirjan tyyppi",
+      "number": "Asiakirjan numero",
+      "notes": "Yksityiskohdat",
+      "file": "Asiakirja (PDF)",
+      "submittedAt": "Lähetetty",
+      "reviewedAt": "Arvosteltu"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Yhdistyksen rekisteröintitodistus",
+      "ownershipProof": "Todiste kiinteistön omistuksesta",
+      "governmentId": "Virallinen henkilöllisyystodistus",
+      "other": "Muut"
+    },
+    "form": {
+      "title": "Lähetä asiakirjat",
+      "resubmitTitle": "Lähetä asiakirjat uudelleen",
+      "documentType": "Asiakirjan tyyppi",
+      "documentNumber": "Asiakirjan numero",
+      "details": "Lisätiedot (valinnainen)",
+      "file": "Asiakirja PDF",
+      "fileHint": "Vain PDF, enintään 5 Mt.",
+      "communitySection": "Yhteisön tiedot",
+      "documentSection": "Vahvistusasiakirja",
+      "communityName": "Yhteisön/yhdistyksen nimi",
+      "address": "Osoite",
+      "city": "Kaupunki",
+      "state": "Osavaltio",
+      "pincode": "Pin-koodi",
+      "totalFlats": "Asuntojen kokonaismäärä",
+      "totalBlocks": "Lohkojen / tornien lukumäärä (valinnainen)",
+      "fieldsRequired": "Täytä kaikki vaaditut kentät.",
+      "countInvalid": "Asuntojen ja kerrosten on oltava vähintään 1.",
+      "fileRequired": "Liitä PDF asiakirja.",
+      "tooLarge": "Tiedoston on oltava 5 Mt tai pienempi.",
+      "submit": "Lähetä tarkistettavaksi",
+      "submitting": "Lähetetään…",
+      "submitError": "Asiakirjojasi ei voitu lähettää. Yritä uudelleen."
+    }
+  },
   "announcements": {
     "loadError": "Ilmoituksia ei voitu ladata. Yritä uudelleen.",
     "removeError": "Tätä ilmoitusta ei voitu poistaa. Yritä uudelleen.",

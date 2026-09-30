@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Velg fil",
+    "change": "Endre fil",
+    "none": "Ingen fil er valgt"
+  },
   "authModal": {
     "close": "Lukke",
     "signUpTitle": "Registrer fellesskapet ditt",
@@ -188,6 +193,7 @@
       "support": "Støtte / Bekymringer",
       "tariffPlans": "Tariffplaner",
       "announcements": "Kunngjøringer",
+      "verification": "Bekreftelse",
       "profile": "Profil"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Kunngjøringer",
         "subtitle": "Publiser fellesskapsomfattende meldinger til beboerne dine."
       },
+      "verification": {
+        "title": "Dokumentverifisering",
+        "subtitle": "Send inn dokumentene dine slik at plattformen kan bekrefte fellesskapet ditt."
+      },
       "profile": {
         "title": "Innstillinger og profil",
         "subtitle": "Administrer kontodetaljer og leilighetsinformasjon."
       }
     },
     "fallbackName": "Admin",
+    "locked": "Tilgjengelig etter at fellesskapet ditt er bekreftet",
+    "verifyBanner": "Fellesskapet ditt er ikke bekreftet ennå, så de fleste sidene er låst.",
+    "verifyBannerLink": "Gå til Verifisering",
     "fallbackCommunity": "Fellesskapsadministrator",
     "notBuilt": "{{label}} er ikke bygget ennå",
     "searchPlaceholder": "Søk etter hva som helst..."

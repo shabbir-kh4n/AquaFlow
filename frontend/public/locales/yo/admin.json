@@ -535,6 +535,68 @@
       "outstanding": "O tayọ"
     }
   },
+  "verification": {
+    "loading": "Ijeri ikojọpọ…",
+    "loadError": "Ko le ṣe fifuye ipo ijẹrisi rẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "viewError": "Ko le ṣi iwe-ipamọ naa.",
+    "statusTitle": "Ipo ijerisi",
+    "rejectionReason": "Idi fun ijusile:",
+    "status": {
+      "notSubmitted": "Ko silẹ",
+      "pending": "ni isunmọtosi ni awotẹlẹ",
+      "approved": "Ti fọwọsi",
+      "rejected": "Ti kọ"
+    },
+    "messages": {
+      "notSubmitted": "Fi awọn alaye agbegbe ati awọn iwe aṣẹ silẹ ni isalẹ. Titi wọn yoo fi fọwọsi o le lo Dasibodu, Ijeri ati awọn oju-iwe Profaili nikan.",
+      "pending": "Awọn iwe aṣẹ rẹ wa pẹlu oluṣakoso Syeed fun atunyẹwo. Titi wọn yoo fi fọwọsi o le lo Dasibodu, Ijeri ati awọn oju-iwe Profaili nikan.",
+      "approved": "Awọn iwe aṣẹ rẹ ti ni idaniloju.",
+      "rejectedHint": "Ṣe atunṣe ọrọ naa ki o fi awọn iwe aṣẹ rẹ silẹ lẹẹkansi ni isalẹ."
+    },
+    "details": {
+      "communityName": "Orukọ agbegbe",
+      "address": "Adirẹsi",
+      "totalFlats": "Lapapọ awọn ile adagbe",
+      "totalBlocks": "Lapapọ ohun amorindun",
+      "type": "Iru iwe",
+      "number": "Nọmba iwe",
+      "notes": "Awọn alaye",
+      "file": "Document (PDF)",
+      "submittedAt": "Ti fi silẹ",
+      "reviewedAt": "Atunwo"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Awujọ ìforúkọsílẹ ijẹrisi",
+      "ownershipProof": "Ẹri nini ohun-ini",
+      "governmentId": "ID ijoba",
+      "other": "Omiiran"
+    },
+    "form": {
+      "title": "Fi awọn iwe aṣẹ silẹ",
+      "resubmitTitle": "Fi awọn iwe aṣẹ silẹ lẹẹkansi",
+      "documentType": "Iru iwe",
+      "documentNumber": "Nọmba iwe",
+      "details": "Awọn alaye afikun (aṣayan)",
+      "file": "Document PDF",
+      "fileHint": "PDF nikan, to 5 MB.",
+      "communitySection": "Awọn alaye agbegbe",
+      "documentSection": "Iwe idaniloju",
+      "communityName": "Community / awujo orukọ",
+      "address": "Adirẹsi",
+      "city": "Ilu",
+      "state": "Ipinle",
+      "pincode": "Pincode",
+      "totalFlats": "Lapapọ nọmba ti ile adagbe",
+      "totalBlocks": "Nọmba awọn bulọọki / ile-iṣọ (aṣayan)",
+      "fieldsRequired": "Jọwọ fọwọsi gbogbo awọn aaye ti a beere.",
+      "countInvalid": "Filati ati awọn bulọọki gbọdọ jẹ nọmba ti o kere ju 1.",
+      "fileRequired": "Jọwọ so iwe PDF kan.",
+      "tooLarge": "Faili gbọdọ jẹ 5 MB tabi kere si.",
+      "submit": "Fi silẹ fun ijerisi",
+      "submitting": "Nfi silẹ…",
+      "submitError": "Ko le fi awọn iwe aṣẹ rẹ silẹ. Jọwọ gbiyanju lẹẹkansi."
+    }
+  },
   "announcements": {
     "loadError": "Ko le gbe awọn ikede silẹ. Jọwọ gbiyanju lẹẹkansi.",
     "removeError": "Ko le pa ikede yii rẹ. Jọwọ gbiyanju lẹẹkansi.",

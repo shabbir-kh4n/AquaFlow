@@ -4,6 +4,39 @@
     "blocked": "Clausus",
     "terminated": "terminabitur"
   },
+  "verification": {
+    "title": "Documenti comprobatio",
+    "status": {
+      "notSubmitted": "Non summitto",
+      "pending": "Eviewray review",
+      "approved": "Probatus",
+      "rejected": "reprobum"
+    },
+    "notSubmitted": "Haec communitas admin documenta verificationis nondum submisit.",
+    "communityName": "Nomen Communitatis",
+    "address": "Oratio",
+    "totalFlats": "summa blandit",
+    "totalBlocks": "Summa caudices",
+    "documentType": "Documenti type",
+    "documentNumber": "Documentum numerus",
+    "notes": "Singula",
+    "file": "Documentum (PDF)",
+    "submittedAt": "summitto",
+    "reviewedAt": "Recensuit",
+    "rejectionReason": "Ratio reiectionis;",
+    "approve": "Probo",
+    "reject": "Reject",
+    "viewError": "Documentum aperire non potuit.",
+    "approveError": "Verificationem hanc probare non potui.",
+    "rejectError": "Verificationem hanc repudiare non potuit.",
+    "reasonRequired": "Da quaeso rationem repudiandi.",
+    "rejectDialog": {
+      "title": "Rogationem contribulati verificationis",
+      "message": "{{name}} Causam tuam videbunt ac nova documenta submittere possunt.",
+      "reasonLabel": "Causa rejectionis",
+      "confirm": "Reject"
+    }
+  },
   "sort": {
     "sortBy": "Sort by",
     "toggleDirection": "Toggle generis partem",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Email",
       "status": "Status",
+      "verification": "Comprobatio",
       "residents": "Residentibus",
       "view": "Visum"
     }

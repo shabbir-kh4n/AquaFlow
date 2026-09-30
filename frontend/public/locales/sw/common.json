@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Chagua faili",
+    "change": "Badilisha faili",
+    "none": "Hakuna faili iliyochaguliwa"
+  },
   "authModal": {
     "close": "Funga",
     "signUpTitle": "Sajili jumuiya yako",
@@ -188,6 +193,7 @@
       "support": "Msaada / Wasiwasi",
       "tariffPlans": "Mipango ya Ushuru",
       "announcements": "Matangazo",
+      "verification": "Uthibitishaji",
       "profile": "Wasifu"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Matangazo",
         "subtitle": "Chapisha arifa za jumuiya kwa wakazi wako."
       },
+      "verification": {
+        "title": "Uthibitishaji wa Hati",
+        "subtitle": "Wasilisha hati zako ili jukwaa liweze kuthibitisha jumuiya yako."
+      },
       "profile": {
         "title": "Mipangilio na Wasifu",
         "subtitle": "Dhibiti maelezo ya akaunti yako na maelezo ya ghorofa."
       }
     },
     "fallbackName": "Msimamizi",
+    "locked": "Inapatikana baada ya jumuiya yako kuthibitishwa",
+    "verifyBanner": "Jumuiya yako bado haijathibitishwa, kwa hivyo kurasa nyingi zimefungwa.",
+    "verifyBannerLink": "Nenda kwenye Uthibitishaji",
     "fallbackCommunity": "Msimamizi wa Jumuiya",
     "notBuilt": "{{label}} haijajengwa bado",
     "searchPlaceholder": "Tafuta chochote..."

@@ -535,6 +535,68 @@
       "outstanding": "ብሉፅ"
     }
   },
+  "verification": {
+    "loading": "ምርግጋጽ ምጽዓን...",
+    "loadError": "ናይ ምርግጋጽ ኩነታትካ ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
+    "viewError": "ነቲ ሰነድ ክኸፍቶ ኣይከኣለን።",
+    "statusTitle": "ናይ ምርግጋጽ ኩነታት",
+    "rejectionReason": "ምኽንያት ምንጻግ፤",
+    "status": {
+      "notSubmitted": "ኣይቀረበን።",
+      "pending": "ዳግመ ግምት ኣብ ምጽባይ",
+      "approved": "ጸዲቑ",
+      "rejected": "ተነጺጉ"
+    },
+    "messages": {
+      "notSubmitted": "ዝርዝርን ሰነዳትን ማሕበረሰብኩም ኣብ ታሕቲ ኣቕርቡ። ክሳብ ዝጸድቑ ድማ ናይ Dashboard, Verification and Profile ገጻት ጥራይ ኢኻ ክትጥቀም ትኽእል።",
+      "pending": "ሰነዳትካ ንኽግምገሙ ምስ ኣመሓዳሪ መድረኽ ኣለዉ። ክሳብ ዝጸድቑ ድማ ናይ Dashboard, Verification and Profile ገጻት ጥራይ ኢኻ ክትጥቀም ትኽእል።",
+      "approved": "ሰነዳትኩም ተረጋጊጹ ኣሎ።",
+      "rejectedHint": "ነቲ ጉዳይ ኣዐርዩ ሰነዳትኩም ኣብ ታሕቲ እንደገና ኣቕርቡ።"
+    },
+    "details": {
+      "communityName": "ስም ማሕበረሰብ",
+      "address": "አድራሻ",
+      "totalFlats": "ጠቕላላ ፍላት",
+      "totalBlocks": "ጠቕላላ ብሎኮታት",
+      "type": "ዓይነት ሰነድ",
+      "number": "ቁጽሪ ሰነድ",
+      "notes": "ዝርዝራት",
+      "file": "ሰነድ (PDF)",
+      "submittedAt": "ዝቐረበ",
+      "reviewedAt": "ተገምጊሙ"
+    },
+    "documentTypes": {
+      "registrationCertificate": "ናይ ማሕበር ምዝገባ ምስክር ወረቐት",
+      "ownershipProof": "ናይ ንብረት ዋንነት መርትዖ",
+      "governmentId": "መንግስታዊ መለለዪ መንነት",
+      "other": "ካልእ"
+    },
+    "form": {
+      "title": "ሰነዳት ምቕራብ",
+      "resubmitTitle": "ሰነዳት እንደገና ኣቕርቡ።",
+      "documentType": "ዓይነት ሰነድ",
+      "documentNumber": "ቁጽሪ ሰነድ",
+      "details": "ተወሳኺ ዝርዝር (ኣማራጺ)",
+      "file": "ሰነድ PDF።",
+      "fileHint": "PDF ጥራይ፣ ክሳብ 5 ሜባ።",
+      "communitySection": "ዝርዝር ማሕበረሰብ",
+      "documentSection": "ናይ ምርግጋጽ ሰነድ",
+      "communityName": "ስም ማሕበረሰብ / ሕብረተሰብ",
+      "address": "አድራሻ",
+      "city": "ከተማ",
+      "state": "ግዝኣት",
+      "pincode": "ፒንኮድ",
+      "totalFlats": "ጠቕላላ ቁጽሪ ፍላት",
+      "totalBlocks": "ብዝሒ ብሎኮታት / ግምብታት (ኣማራፂ)",
+      "fieldsRequired": "ኩሉ ዘድሊ ቦታታት ምልኣዮ።",
+      "countInvalid": "ፍላትን ብሎክን ብውሑዱ ቁጽሪ 1 ክኾኑ ኣለዎም።",
+      "fileRequired": "በጃኹም PDF ሰነድ ኣተሓሕዝዎ።",
+      "tooLarge": "እቲ ፋይል 5 ሜባ ወይ ካብኡ ዝንእስ ክኸውን ኣለዎ።",
+      "submit": "ንምርግጋጽ ኣቕርቡ።",
+      "submitting": "ምቕራብ...",
+      "submitError": "ሰነዳትኩም ከቕርብ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።"
+    }
+  },
   "announcements": {
     "loadError": "ምልክታታት ክጽዕን ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",
     "removeError": "ነዚ ምልክታ ክስረዝ ኣይከኣለን። በጃኹም ደጊምኩም ፈትኑ።",

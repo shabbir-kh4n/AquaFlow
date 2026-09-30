@@ -334,6 +334,7 @@
 }
 
 .af-hh__modal-actions {
+  align-items: center;
   display: flex;
   justify-content: flex-end;
   gap: 12px;
@@ -341,6 +342,7 @@
 }
 
 .af-hh__modal-actions .af-form__submit {
+  margin-top: 0;
   width: auto;
   padding: 0 24px;
 }

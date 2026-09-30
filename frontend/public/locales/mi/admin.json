@@ -535,6 +535,68 @@
       "outstanding": "Tino pai"
     }
   },
+  "verification": {
+    "loading": "Uta ana i te manatoko…",
+    "loadError": "Kaore i taea te uta i to mana manatoko. Me ngana ano.",
+    "viewError": "Kāore i taea te tūwhera te tuhinga.",
+    "statusTitle": "Manatokonga",
+    "rejectionReason": "Take mo te whakakore:",
+    "status": {
+      "notSubmitted": "Kaore i tukuna",
+      "pending": "E tatari ana te arotake",
+      "approved": "Whakaaetia",
+      "rejected": "Kua whakakorehia"
+    },
+    "messages": {
+      "notSubmitted": "Tukuna nga korero me nga tuhinga o to hapori i raro nei. Kia whakaaetia ra ano ka taea e koe te whakamahi i te Papatohu, Manatoko me nga whaarangi Profile.",
+      "pending": "Ko o tuhinga kei te taha o te kaiwhakahaere papaaho hei arotake. Kia whakaaetia ra ano ka taea e koe te whakamahi i te Papatohu, Manatoko me nga whaarangi Profile.",
+      "approved": "Kua manatokohia o tuhinga.",
+      "rejectedHint": "Whakatikahia te take ka tuku ano i o tuhinga ki raro."
+    },
+    "details": {
+      "communityName": "ingoa hapori",
+      "address": "Wāhitau",
+      "totalFlats": "Tapeke whare",
+      "totalBlocks": "Tapeke poraka",
+      "type": "Momo tuhinga",
+      "number": "Tau tuhinga",
+      "notes": "Nga korero",
+      "file": "Tuhinga (PDF)",
+      "submittedAt": "Kua tukuna",
+      "reviewedAt": "Kua arotakehia"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Tiwhikete rehitatanga hapori",
+      "ownershipProof": "He tohu mana whenua",
+      "governmentId": "ID Kāwanatanga",
+      "other": "Ētahi atu"
+    },
+    "form": {
+      "title": "Tuku tuhinga",
+      "resubmitTitle": "Tukua ano nga tuhinga",
+      "documentType": "Momo tuhinga",
+      "documentNumber": "Tau tuhinga",
+      "details": "Ētahi atu taipitopito (kōwhiringa)",
+      "file": "Tuhinga PDF",
+      "fileHint": "PDF anake, tae atu ki te 5 MB.",
+      "communitySection": "Nga korero mo te hapori",
+      "documentSection": "Tuhinga manatoko",
+      "communityName": "Ingoa hapori / hapori",
+      "address": "Wāhitau",
+      "city": "Taone",
+      "state": "State",
+      "pincode": "Pincode",
+      "totalFlats": "Te maha o nga whare papa",
+      "totalBlocks": "Te maha o nga poraka / pourewa (mehemea)",
+      "fieldsRequired": "Whakakiia nga waahi katoa e hiahiatia ana.",
+      "countInvalid": "Ko nga papa me nga poraka me 1 te iti rawa.",
+      "fileRequired": "Tēnā tāpirihia he tuhinga PDF.",
+      "tooLarge": "Me 5 MB te rahi ake ranei o te konae.",
+      "submit": "Tukuna mo te manatoko",
+      "submitting": "Kei te tuku…",
+      "submitError": "Kāore i taea te tuku i ō tuhinga. Me ngana ano."
+    }
+  },
   "announcements": {
     "loadError": "Kaore i taea te uta panui. Me ngana ano.",
     "removeError": "Kaore i taea te muku i tenei panui. Me ngana ano.",

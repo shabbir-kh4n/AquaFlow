@@ -535,6 +535,68 @@
       "outstanding": "Nổi bật"
     }
   },
+  "verification": {
+    "loading": "Đang tải xác minh…",
+    "loadError": "Không thể tải trạng thái xác minh của bạn. Vui lòng thử lại.",
+    "viewError": "Không thể mở tài liệu.",
+    "statusTitle": "Trạng thái xác minh",
+    "rejectionReason": "Lý do từ chối:",
+    "status": {
+      "notSubmitted": "Chưa gửi",
+      "pending": "Đang chờ xem xét",
+      "approved": "Tán thành",
+      "rejected": "Vật bị loại bỏ"
+    },
+    "messages": {
+      "notSubmitted": "Gửi thông tin chi tiết và tài liệu về cộng đồng của bạn dưới đây. Cho đến khi chúng được chấp thuận, bạn chỉ có thể sử dụng các trang Bảng điều khiển, Xác minh và Hồ sơ.",
+      "pending": "Tài liệu của bạn sẽ được quản trị viên nền tảng xem xét. Cho đến khi chúng được chấp thuận, bạn chỉ có thể sử dụng các trang Bảng điều khiển, Xác minh và Hồ sơ.",
+      "approved": "Tài liệu của bạn đã được xác minh.",
+      "rejectedHint": "Hãy khắc phục sự cố và gửi lại tài liệu của bạn ở bên dưới."
+    },
+    "details": {
+      "communityName": "Tên cộng đồng",
+      "address": "Địa chỉ",
+      "totalFlats": "Tổng số căn hộ",
+      "totalBlocks": "Tổng số khối",
+      "type": "Loại tài liệu",
+      "number": "Số tài liệu",
+      "notes": "Chi tiết",
+      "file": "Tài liệu (PDF)",
+      "submittedAt": "Đã gửi",
+      "reviewedAt": "Đã đánh giá"
+    },
+    "documentTypes": {
+      "registrationCertificate": "Giấy chứng nhận đăng ký xã hội",
+      "ownershipProof": "Bằng chứng về quyền sở hữu tài sản",
+      "governmentId": "ID chính phủ",
+      "other": "Khác"
+    },
+    "form": {
+      "title": "Gửi tài liệu",
+      "resubmitTitle": "Gửi lại tài liệu",
+      "documentType": "Loại tài liệu",
+      "documentNumber": "Số tài liệu",
+      "details": "Chi tiết bổ sung (tùy chọn)",
+      "file": "Tài liệu PDF",
+      "fileHint": "PDF chỉ, tối đa 5 MB.",
+      "communitySection": "Chi tiết cộng đồng",
+      "documentSection": "Tài liệu xác minh",
+      "communityName": "Tên cộng đồng/xã hội",
+      "address": "Địa chỉ",
+      "city": "Thành phố",
+      "state": "Tình trạng",
+      "pincode": "Mã pin",
+      "totalFlats": "Tổng số căn hộ",
+      "totalBlocks": "Số khối/tháp (tùy chọn)",
+      "fieldsRequired": "Vui lòng điền vào tất cả các trường bắt buộc.",
+      "countInvalid": "Căn hộ và khối phải có số lượng ít nhất là 1.",
+      "fileRequired": "Vui lòng đính kèm tài liệu PDF.",
+      "tooLarge": "Tệp phải có dung lượng 5 MB hoặc nhỏ hơn.",
+      "submit": "Gửi để xác minh",
+      "submitting": "Đang gửi…",
+      "submitError": "Không thể gửi tài liệu của bạn. Vui lòng thử lại."
+    }
+  },
   "announcements": {
     "loadError": "Không thể tải thông báo. Vui lòng thử lại.",
     "removeError": "Không thể xóa thông báo này. Vui lòng thử lại.",

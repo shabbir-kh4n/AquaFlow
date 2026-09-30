@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "Filifili faila",
+    "change": "Suia faila",
+    "none": "Leai se faila ua filifilia"
+  },
   "authModal": {
     "close": "Tapuni",
     "signUpTitle": "Resitala lou nuu",
@@ -188,6 +193,7 @@
       "support": "Lagolago / atugaluga",
       "tariffPlans": "Fuafuaga o Faasologa",
       "announcements": "Faasalalauga",
+      "verification": "Fa'amaoniga",
       "profile": "Tala'aga"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "Faasalalauga",
         "subtitle": "Fa'asalalau fa'asalalauga lautele i tagata o lo'o nonofo ai."
       },
+      "verification": {
+        "title": "Fa'amaoniga o Pepa",
+        "subtitle": "Tuuina atu au pepa ina ia mafai e le tulaga ona faʻamaonia lou alalafaga."
+      },
       "profile": {
         "title": "Fa'atonu & Tala'aga",
         "subtitle": "Pulea au fa'amatalaga fa'amatalaga ma fa'amatalaga fale mautotogi."
       }
     },
     "fallbackName": "Pule",
+    "locked": "E maua pe a uma ona fa'amaonia lou nu'u",
+    "verifyBanner": "E le'i fa'amaonia lou nu'u, o lea ua loka ai le tele o itulau.",
+    "verifyBannerLink": "Alu i le Verification",
     "fallbackCommunity": "Pule o Nuu",
     "notBuilt": "{{label}} e le'i fausia",
     "searchPlaceholder": "Su'e so'o se mea..."

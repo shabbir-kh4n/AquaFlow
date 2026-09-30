@@ -4,6 +4,39 @@
     "blocked": "Bloquejat",
     "terminated": "Terminat"
   },
+  "verification": {
+    "title": "Verificació de documents",
+    "status": {
+      "notSubmitted": "No enviat",
+      "pending": "Pendent de revisió",
+      "approved": "Aprovat",
+      "rejected": "Rebutjat"
+    },
+    "notSubmitted": "Aquest administrador de la comunitat encara no ha enviat documents de verificació.",
+    "communityName": "Nom de la comunitat",
+    "address": "Adreça",
+    "totalFlats": "Total de pisos",
+    "totalBlocks": "Blocs totals",
+    "documentType": "Tipus de document",
+    "documentNumber": "Número de document",
+    "notes": "Detalls",
+    "file": "Document (PDF)",
+    "submittedAt": "Presentat",
+    "reviewedAt": "Revisat",
+    "rejectionReason": "Motiu del rebuig:",
+    "approve": "Aprovar",
+    "reject": "Rebutja",
+    "viewError": "No s'ha pogut obrir el document.",
+    "approveError": "No s'ha pogut aprovar aquesta verificació.",
+    "rejectError": "No s'ha pogut rebutjar aquesta verificació.",
+    "reasonRequired": "Si us plau, indiqueu un motiu per rebutjar-lo.",
+    "rejectDialog": {
+      "title": "Rebutja la verificació",
+      "message": "{{name}} veurà el motiu que doneu i podrà enviar nous documents.",
+      "reasonLabel": "Motiu del rebuig",
+      "confirm": "Rebutja"
+    }
+  },
   "sort": {
     "sortBy": "Ordena per",
     "toggleDirection": "Canvia la direcció d'ordenació",
@@ -64,6 +97,7 @@
       "admin": "Admin",
       "email": "Correu electrònic",
       "status": "Estat",
+      "verification": "Verificació",
       "residents": "Residents",
       "view": "Veure"
     }

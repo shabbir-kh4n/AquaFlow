@@ -1,4 +1,9 @@
 {
+  "filePicker": {
+    "choose": "ፋይል ይምረጡ",
+    "change": "ፋይል ቀይር",
+    "none": "ምንም ፋይል አልተመረጠም።"
+  },
   "authModal": {
     "close": "ገጠመ",
     "signUpTitle": "ማህበረሰብዎን ያስመዝግቡ",
@@ -188,6 +193,7 @@
       "support": "ድጋፍ / ስጋት",
       "tariffPlans": "የታሪፍ እቅዶች",
       "announcements": "ማስታወቂያዎች",
+      "verification": "ማረጋገጥ",
       "profile": "መገለጫ"
     },
     "pages": {
@@ -230,12 +236,19 @@
         "title": "ማስታወቂያዎች",
         "subtitle": "ለነዋሪዎችዎ ማህበረሰብ አቀፍ ማስታወቂያዎችን ያትሙ።"
       },
+      "verification": {
+        "title": "የሰነድ ማረጋገጫ",
+        "subtitle": "መድረኩ ማህበረሰቡን ማረጋገጥ እንዲችል ሰነዶችዎን ያስገቡ።"
+      },
       "profile": {
         "title": "ቅንብሮች እና መገለጫ",
         "subtitle": "የመለያ ዝርዝሮችዎን እና የአፓርታማውን መረጃ ያስተዳድሩ።"
       }
     },
     "fallbackName": "አስተዳዳሪ",
+    "locked": "ማህበረሰብዎ ከተረጋገጠ በኋላ ይገኛል።",
+    "verifyBanner": "የእርስዎ ማህበረሰብ እስካሁን አልተረጋገጠም፣ ስለዚህ አብዛኛዎቹ ገጾች ተቆልፈዋል።",
+    "verifyBannerLink": "ወደ ማረጋገጫ ይሂዱ",
     "fallbackCommunity": "የማህበረሰብ አስተዳዳሪ",
     "notBuilt": "{{label}} ገና አልተገነባም።",
     "searchPlaceholder": "ማንኛውንም ነገር ይፈልጉ…"
