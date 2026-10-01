@@ -17,6 +17,12 @@
     "passwordLabel": "heslo",
     "rememberMe": "Pamätaj si ma",
     "forgotPassword": "Zabudli ste heslo?",
+    "forgotIntro": "Zadajte e-mail, pomocou ktorého ste sa prihlásili, a my vám pošleme odkaz na obnovenie hesla.",
+    "sendLink": "Odoslať odkaz na obnovenie",
+    "sendingLink": "Odosiela sa…",
+    "forgotSent": "Ak je zaregistrovaný {{email}}, je pripravený odkaz na obnovenie hesla. Jeho platnosť vyprší o 1 hodinu.",
+    "forgotError": "Nepodarilo sa odoslať e-mail na obnovenie. Skúste to znova.",
+    "backToSignIn": "Späť na prihlásenie",
     "submitting": "Prihlasovanie…",
     "submit": "Prihlásiť sa",
     "noAccount": "Nemáte účet?",
@@ -47,6 +53,21 @@
     "description": "Pridajte si ho na svoju domovskú obrazovku a získajte rýchly prístup.",
     "dismiss": "Odmietnuť",
     "install": "Inštalovať"
+  },
+  "resetPassword": {
+    "title": "Obnovte svoje heslo",
+    "subtitle": "Zvoľte si nové heslo pre svoj HydroLedger účet.",
+    "errors": {
+      "tooShort": "Heslo musí mať aspoň 8 znakov.",
+      "mismatch": "Heslá sa nezhodujú.",
+      "fallback": "Nepodarilo sa obnoviť vaše heslo. Platnosť odkazu možno vypršala."
+    },
+    "passwordLabel": "Nové heslo",
+    "confirmPasswordLabel": "Potvrďte nové heslo",
+    "submitting": "Resetuje sa…",
+    "submit": "Obnoviť heslo",
+    "success": "Vaše heslo bolo obnovené. Teraz sa s ním môžete prihlásiť.",
+    "backToSignIn": "Späť na prihlásenie"
   },
   "setPassword": {
     "title": "Nastavte si heslo",
@@ -347,6 +368,12 @@
     "tooShort": "Nové heslo musí mať aspoň {{min}} znakov.",
     "mismatch": "Nové heslá sa nezhodujú.",
     "sameAsCurrent": "Nové heslo sa musí líšiť od vášho aktuálneho hesla.",
+    "open": "Zmeniť heslo",
+    "forgot": "Zabudli ste heslo?",
+    "forgotSending": "Odosiela sa…",
+    "forgotSent": "Ak má tento účet uložený e-mail, odoslali sme odkaz na obnovenie hesla na adresu {{email}}.",
+    "forgotError": "Nepodarilo sa odoslať e-mail na obnovenie. Skúste to znova.",
+    "cancel": "Zrušiť",
     "submit": "Aktualizovať heslo",
     "saving": "Aktualizuje sa…",
     "success": "Vaše heslo bolo aktualizované.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Mật khẩu",
     "rememberMe": "nhớ tôi",
     "forgotPassword": "Quên mật khẩu?",
+    "forgotIntro": "Nhập email bạn đã đăng ký và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn.",
+    "sendLink": "Gửi liên kết đặt lại",
+    "sendingLink": "Đang gửi…",
+    "forgotSent": "Nếu {{email}} được đăng ký, liên kết đặt lại mật khẩu sẽ được gửi đến. Nó hết hạn sau 1 giờ.",
+    "forgotError": "Không thể gửi email đặt lại. Vui lòng thử lại.",
+    "backToSignIn": "Quay lại để đăng nhập",
     "submitting": "Đang đăng nhập…",
     "submit": "Đăng nhập",
     "noAccount": "Bạn chưa có tài khoản?",
@@ -47,6 +53,21 @@
     "description": "Thêm nó vào màn hình chính của bạn để truy cập nhanh.",
     "dismiss": "Miễn nhiệm",
     "install": "Cài đặt"
+  },
+  "resetPassword": {
+    "title": "Đặt lại mật khẩu của bạn",
+    "subtitle": "Chọn mật khẩu mới cho tài khoản HydroLedger của bạn.",
+    "errors": {
+      "tooShort": "Mật khẩu phải có ít nhất 8 ký tự.",
+      "mismatch": "Mật khẩu không khớp.",
+      "fallback": "Không thể đặt lại mật khẩu của bạn. Liên kết có thể đã hết hạn."
+    },
+    "passwordLabel": "Mật khẩu mới",
+    "confirmPasswordLabel": "Xác nhận mật khẩu mới",
+    "submitting": "Đang đặt lại…",
+    "submit": "Đặt lại mật khẩu",
+    "success": "Mật khẩu của bạn đã được đặt lại. Bây giờ bạn có thể đăng nhập bằng nó.",
+    "backToSignIn": "Quay lại để đăng nhập"
   },
   "setPassword": {
     "title": "Đặt mật khẩu của bạn",
@@ -347,6 +368,12 @@
     "tooShort": "Mật khẩu mới phải có ít nhất {{min}} ký tự.",
     "mismatch": "Mật khẩu mới không khớp.",
     "sameAsCurrent": "Mật khẩu mới phải khác với mật khẩu hiện tại của bạn.",
+    "open": "Thay đổi mật khẩu",
+    "forgot": "Bạn quên mật khẩu?",
+    "forgotSending": "Đang gửi…",
+    "forgotSent": "Nếu tài khoản này có email trong hồ sơ, chúng tôi đã gửi liên kết đặt lại mật khẩu tới {{email}}.",
+    "forgotError": "Không thể gửi email đặt lại. Vui lòng thử lại.",
+    "cancel": "Hủy bỏ",
     "submit": "Cập nhật mật khẩu",
     "saving": "Đang cập nhật…",
     "success": "Mật khẩu của bạn đã được cập nhật.",

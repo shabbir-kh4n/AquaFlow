@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "Tsarovy aho",
     "forgotPassword": "Hadino ny tenimiafina?",
+    "forgotIntro": "Ampidiro ny mailaka nosoniavinao dia halefanay rohy hamerenana ny tenimiafinao ianao.",
+    "sendLink": "Alefaso rohy reset",
+    "sendingLink": "Mandefa…",
+    "forgotSent": "Raha toa ka voasoratra anarana {{email}} dia misy rohy famerenana ny tenimiafina efa mandeha. Tapitra afaka 1 ora.",
+    "forgotError": "Tsy afaka nandefa ny mailaka reset. Andramo indray azafady.",
+    "backToSignIn": "Miverina amin'ny fidirana",
     "submitting": "Miditra…",
     "submit": "Hiditra",
     "noAccount": "Tsy manana kaonty?",
@@ -47,6 +53,21 @@
     "description": "Ampio amin'ny efijerinao izany mba hidirana haingana.",
     "dismiss": "handroaka",
     "install": "hametraka"
+  },
+  "resetPassword": {
+    "title": "Avereno ny tenimiafinao",
+    "subtitle": "Mifidiana tenimiafina vaovao ho an'ny kaontinao HydroLedger.",
+    "errors": {
+      "tooShort": "Ny tenimiafina dia tsy maintsy 8 farafahakeliny.",
+      "mismatch": "Tsy mifanaraka ny tenimiafina.",
+      "fallback": "Tsy afaka namerina ny tenimiafinao. Mety ho lany daty ny rohy."
+    },
+    "passwordLabel": "Tenimiafina vaovao",
+    "confirmPasswordLabel": "Hamafiso ny tenimiafina vaovao",
+    "submitting": "Mamerina…",
+    "submit": "Avereno ny tenimiafina",
+    "success": "Naverina ny tenimiafinao. Afaka miditra amin'izany ianao izao.",
+    "backToSignIn": "Miverina amin'ny fidirana"
   },
   "setPassword": {
     "title": "Ataovy ny tenimiafinao",
@@ -347,6 +368,12 @@
     "tooShort": "Ny tenimiafina vaovao dia tsy maintsy manana tarehintsoratra {{min}} fara-fahakeliny.",
     "mismatch": "Tsy mifanentana ireo tenimiafina vaovao.",
     "sameAsCurrent": "Ny tenimiafina vaovao dia tsy maintsy tsy mitovy amin'ny tenimiafinao ankehitriny.",
+    "open": "Hanova tenimiafina",
+    "forgot": "Hadinonao ny tenimiafinao?",
+    "forgotSending": "Mandefa…",
+    "forgotSent": "Raha manana mailaka ao anaty rakitra ity kaonty ity, dia nandefa rohy famerenana ny tenimiafina mankany amin'ny {{email}} izahay.",
+    "forgotError": "Tsy afaka nandefa ny mailaka reset. Andramo indray azafady.",
+    "cancel": "hanafoana",
     "submit": "Fanavaozana ny tenimiafina",
     "saving": "Manavao…",
     "success": "Nohavaozina ny tenimiafinao.",

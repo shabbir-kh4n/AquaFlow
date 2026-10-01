@@ -17,6 +17,12 @@
     "passwordLabel": "Pasvorto",
     "rememberMe": "Memoru min",
     "forgotPassword": "Ĉu vi forgesis pasvorton?",
+    "forgotIntro": "Enigu la retpoŝton kun kiu vi aliĝis kaj ni sendos al vi ligilon por restarigi vian pasvorton.",
+    "sendLink": "Sendu rekomencigitan ligon",
+    "sendingLink": "Sendante…",
+    "forgotSent": "Se {{email}} estas registrita, pasvorta rekomencigita ligilo estas survoja. Ĝi eksvalidiĝas en 1 horo.",
+    "forgotError": "Ne eblis sendi la rekomencigitan retpoŝton. Bonvolu provi denove.",
+    "backToSignIn": "Reen por ensaluti",
     "submitting": "Ensaltante...",
     "submit": "Ensalutu",
     "noAccount": "Ĉu vi ne havas konton?",
@@ -47,6 +53,21 @@
     "description": "Aldonu ĝin al via hejma ekrano por rapida aliro.",
     "dismiss": "Forĵeti",
     "install": "Instali"
+  },
+  "resetPassword": {
+    "title": "Restarigu vian pasvorton",
+    "subtitle": "Elektu novan pasvorton por via HydroLedger konto.",
+    "errors": {
+      "tooShort": "Pasvorto devas esti almenaŭ 8 signoj.",
+      "mismatch": "Pasvortoj ne kongruas.",
+      "fallback": "Ne eblis restarigi vian pasvorton. La ligilo eble eksvalidiĝis."
+    },
+    "passwordLabel": "Nova pasvorto",
+    "confirmPasswordLabel": "Konfirmu novan pasvorton",
+    "submitting": "Restarigante…",
+    "submit": "Restarigi pasvorton",
+    "success": "Via pasvorto estis rekomencigita. Vi nun povas ensaluti per ĝi.",
+    "backToSignIn": "Reen por ensaluti"
   },
   "setPassword": {
     "title": "Agordu vian pasvorton",
@@ -347,6 +368,12 @@
     "tooShort": "Nova pasvorto devas esti almenaŭ {{min}} signoj.",
     "mismatch": "La novaj pasvortoj ne kongruas.",
     "sameAsCurrent": "Nova pasvorto devas esti malsama ol via nuna pasvorto.",
+    "open": "Ŝanĝi pasvorton",
+    "forgot": "Ĉu vi forgesis vian pasvorton?",
+    "forgotSending": "Sendante…",
+    "forgotSent": "Se ĉi tiu konto havas retpoŝton en dosiero, ni sendis pasvortigan ligilon al {{email}}.",
+    "forgotError": "Ne eblis sendi la rekomencigitan retpoŝton. Bonvolu provi denove.",
+    "cancel": "Nuligi",
     "submit": "Ĝisdatigu pasvorton",
     "saving": "Ĝisdatigante…",
     "success": "Via pasvorto estas ĝisdatigita.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Nenosiri",
     "rememberMe": "Nikumbuke",
     "forgotPassword": "Umesahau nenosiri?",
+    "forgotIntro": "Weka barua pepe uliyojiandikisha nayo na tutakutumia kiungo ili kuweka upya nenosiri lako.",
+    "sendLink": "Tuma kiungo cha kuweka upya",
+    "sendingLink": "Inatuma...",
+    "forgotSent": "Ikiwa {{email}} imesajiliwa, kiungo cha kuweka upya nenosiri kiko njiani. Muda wake unaisha baada ya saa 1.",
+    "forgotError": "Haikuweza kutuma barua pepe ya kuweka upya. Tafadhali jaribu tena.",
+    "backToSignIn": "Rudi ili kuingia",
     "submitting": "Inaingia...",
     "submit": "Ingia",
     "noAccount": "Je, huna akaunti?",
@@ -47,6 +53,21 @@
     "description": "Iongeze kwenye skrini yako ya nyumbani kwa ufikiaji wa haraka.",
     "dismiss": "Ondoa",
     "install": "Sakinisha"
+  },
+  "resetPassword": {
+    "title": "Weka upya nenosiri lako",
+    "subtitle": "Chagua nenosiri jipya la akaunti yako ya HydroLedger.",
+    "errors": {
+      "tooShort": "Nenosiri lazima liwe na angalau vibambo 8.",
+      "mismatch": "Manenosiri hayalingani.",
+      "fallback": "Haikuweza kuweka upya nenosiri lako. Kiungo kinaweza kuwa kimeisha muda wake."
+    },
+    "passwordLabel": "Nenosiri mpya",
+    "confirmPasswordLabel": "Thibitisha nenosiri jipya",
+    "submitting": "Inaweka upya...",
+    "submit": "Weka upya nenosiri",
+    "success": "Nenosiri lako limewekwa upya. Sasa unaweza kuingia nayo.",
+    "backToSignIn": "Rudi ili kuingia"
   },
   "setPassword": {
     "title": "Weka nenosiri lako",
@@ -347,6 +368,12 @@
     "tooShort": "Nenosiri jipya lazima liwe angalau vibambo {{min}}.",
     "mismatch": "Manenosiri mapya hayalingani.",
     "sameAsCurrent": "Nenosiri jipya lazima liwe tofauti na nenosiri lako la sasa.",
+    "open": "Badilisha nenosiri",
+    "forgot": "Je, umesahau nenosiri lako?",
+    "forgotSending": "Inatuma...",
+    "forgotSent": "Ikiwa akaunti hii ina barua pepe kwenye faili, tumetuma kiungo cha kuweka upya nenosiri kwa {{email}}.",
+    "forgotError": "Haikuweza kutuma barua pepe ya kuweka upya. Tafadhali jaribu tena.",
+    "cancel": "Ghairi",
     "submit": "Sasisha nenosiri",
     "saving": "Inasasisha...",
     "success": "Nenosiri lako limesasishwa.",

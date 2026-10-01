@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "Remember me",
     "forgotPassword": "Forgot password?",
+    "forgotIntro": "Enter the email you signed up with and we will send you a link to reset your password.",
+    "sendLink": "Send reset link",
+    "sendingLink": "Sending…",
+    "forgotSent": "If {{email}} is registered, a password reset link is on its way. It expires in 1 hour.",
+    "forgotError": "Could not send the reset email. Please try again.",
+    "backToSignIn": "Back to sign in",
     "submitting": "Signing in…",
     "submit": "Sign In",
     "noAccount": "Don't have an account?",
@@ -47,6 +53,21 @@
     "description": "Add it to your home screen for quick access.",
     "dismiss": "Dismiss",
     "install": "Install"
+  },
+  "resetPassword": {
+    "title": "Reset your password",
+    "subtitle": "Choose a new password for your HydroLedger account.",
+    "errors": {
+      "tooShort": "Password must be at least 8 characters.",
+      "mismatch": "Passwords do not match.",
+      "fallback": "Could not reset your password. The link may have expired."
+    },
+    "passwordLabel": "New password",
+    "confirmPasswordLabel": "Confirm new password",
+    "submitting": "Resetting…",
+    "submit": "Reset password",
+    "success": "Your password has been reset. You can now sign in with it.",
+    "backToSignIn": "Back to sign in"
   },
   "setPassword": {
     "title": "Set your password",
@@ -347,6 +368,12 @@
     "tooShort": "New password must be at least {{min}} characters.",
     "mismatch": "The new passwords don't match.",
     "sameAsCurrent": "New password must be different from your current password.",
+    "open": "Change password",
+    "forgot": "Forgot your password?",
+    "forgotSending": "Sending…",
+    "forgotSent": "If this account has an email on file, we have sent a password reset link to {{email}}.",
+    "forgotError": "Could not send the reset email. Please try again.",
+    "cancel": "Cancel",
     "submit": "Update password",
     "saving": "Updating…",
     "success": "Your password has been updated.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Passwuert",
     "rememberMe": "Erënner dech u mech",
     "forgotPassword": "Passwuert vergiess?",
+    "forgotIntro": "Gitt d'E-Mail un, mat där Dir Iech ugemellt hutt, a mir schécken Iech e Link fir Äert Passwuert zréckzesetzen.",
+    "sendLink": "Schécken zréckgesat Link",
+    "sendingLink": "Schéckt…",
+    "forgotSent": "Wann {{email}} registréiert ass, ass e Passwuert zréckgesat Link ënnerwee. Et leeft an 1 Stonn.",
+    "forgotError": "Konnt d'E-Mail zrécksetzen net schécken. Probéiert w.e.g. nach eng Kéier.",
+    "backToSignIn": "Zréck fir Iech unzemellen",
     "submitting": "Umellen…",
     "submit": "Umellen",
     "noAccount": "Hutt Dir kee Kont?",
@@ -47,6 +53,21 @@
     "description": "Füügt et op Ärem Heembildschierm fir séier Zougang.",
     "dismiss": "Entlooss",
     "install": "Installéieren"
+  },
+  "resetPassword": {
+    "title": "Reset Äert Passwuert",
+    "subtitle": "Wielt en neit Passwuert fir Äre HydroLedger Kont.",
+    "errors": {
+      "tooShort": "Passwuert muss mindestens 8 Zeechen sinn.",
+      "mismatch": "Passwierder passen net.",
+      "fallback": "Konnt Äert Passwuert net zrécksetzen. De Link kann ofgelaf sinn."
+    },
+    "passwordLabel": "Neit Passwuert",
+    "confirmPasswordLabel": "Confirméieren neit Passwuert",
+    "submitting": "Zerécksetzen…",
+    "submit": "Passwuert zrécksetzen",
+    "success": "Äert Passwuert gouf zréckgesat. Dir kënnt elo mat et umellen.",
+    "backToSignIn": "Zréck fir Iech unzemellen"
   },
   "setPassword": {
     "title": "Setzt Äert Passwuert",
@@ -347,6 +368,12 @@
     "tooShort": "Neit Passwuert muss op d'mannst {{min}} Zeeche sinn.",
     "mismatch": "Déi nei Passwierder passen net.",
     "sameAsCurrent": "Neit Passwuert muss anescht sinn wéi Äert aktuellt Passwuert.",
+    "open": "Passwuert änneren",
+    "forgot": "passwuert vergiess?",
+    "forgotSending": "Schéckt…",
+    "forgotSent": "Wann dëse Kont eng E-Mail op Datei huet, hu mir e Passwuert zréckgesat Link op {{email}} geschéckt.",
+    "forgotError": "Konnt d'E-Mail zrécksetzen net schécken. Probéiert w.e.g. nach eng Kéier.",
+    "cancel": "Ofbriechen",
     "submit": "Update Passwuert",
     "saving": "Aktualiséieren…",
     "success": "Äert Passwuert gouf aktualiséiert.",

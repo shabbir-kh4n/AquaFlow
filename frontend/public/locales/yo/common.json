@@ -17,6 +17,12 @@
     "passwordLabel": "Ọrọigbaniwọle",
     "rememberMe": "Ranti mi",
     "forgotPassword": "Gbagbe ọrọ aṣina bi?",
+    "forgotIntro": "Tẹ imeeli sii ti o forukọsilẹ pẹlu a yoo fi ọna asopọ ranṣẹ si ọ lati tun ọrọ igbaniwọle rẹ tunto.",
+    "sendLink": "Fi ọna asopọ atunto ranṣẹ",
+    "sendingLink": "Fifiranṣẹ…",
+    "forgotSent": "Ti {{email}} ba forukọsilẹ, ọna asopọ atunto ọrọ igbaniwọle wa ni ọna rẹ. O pari ni wakati kan.",
+    "forgotError": "Ko le fi imeeli atunto ranṣẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "backToSignIn": "Pada lati wọle",
     "submitting": "Wọlé…",
     "submit": "Wọle",
     "noAccount": "Ṣe ko ni akọọlẹ kan?",
@@ -47,6 +53,21 @@
     "description": "Ṣafikun-un si iboju ile rẹ fun wiwọle yara yara.",
     "dismiss": "Yọọ kuro",
     "install": "Fi sori ẹrọ"
+  },
+  "resetPassword": {
+    "title": "Tun ọrọ igbaniwọle rẹ to",
+    "subtitle": "Yan ọrọ igbaniwọle tuntun fun akọọlẹ HydroLedger rẹ.",
+    "errors": {
+      "tooShort": "Ọrọigbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8.",
+      "mismatch": "Awọn ọrọ igbaniwọle ko baramu.",
+      "fallback": "Ko le tun ọrọ igbaniwọle rẹ to. Ọna asopọ le ti pari."
+    },
+    "passwordLabel": "Ọrọ aṣina Tuntun",
+    "confirmPasswordLabel": "Jẹrisi ọrọ igbaniwọle tuntun",
+    "submitting": "Ntunto…",
+    "submit": "Tun ọrọ igbaniwọle to",
+    "success": "Ọrọigbaniwọle rẹ ti jẹ atunto. O le wọle bayi pẹlu rẹ.",
+    "backToSignIn": "Pada lati wọle"
   },
   "setPassword": {
     "title": "Ṣeto ọrọ igbaniwọle rẹ",
@@ -347,6 +368,12 @@
     "tooShort": "Ọ̀rọ̀ aṣínà tuntun gbọ́dọ̀ kéré tán {{min}} ẹyọ ọ̀rọ̀.",
     "mismatch": "Awọn ọrọigbaniwọle titun ko baramu.",
     "sameAsCurrent": "Ọrọigbaniwọle titun gbọdọ yatọ si ọrọ igbaniwọle lọwọlọwọ rẹ.",
+    "open": "Tun oruko akowole re se",
+    "forgot": "Gbagbe oruku abawole re?",
+    "forgotSending": "Fifiranṣẹ…",
+    "forgotSent": "Ti akọọlẹ yii ba ni imeeli lori faili, a ti fi ọna asopọ atunto ọrọ igbaniwọle ranṣẹ si {{email}}.",
+    "forgotError": "Ko le fi imeeli atunto ranṣẹ. Jọwọ gbiyanju lẹẹkansi.",
+    "cancel": "Fagilee",
     "submit": "Ṣe imudojuiwọn ọrọ igbaniwọle",
     "saving": "Nmu imudojuiwọn…",
     "success": "Ọrọigbaniwọle rẹ ti ni imudojuiwọn.",

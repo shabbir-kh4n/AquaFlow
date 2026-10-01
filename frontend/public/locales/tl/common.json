@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "Tandaan mo ako",
     "forgotPassword": "Nakalimutan ang password?",
+    "forgotIntro": "Ilagay ang email kung saan ka nag-sign up at padadalhan ka namin ng link para i-reset ang iyong password.",
+    "sendLink": "Magpadala ng link sa pag-reset",
+    "sendingLink": "Ipinapadala…",
+    "forgotSent": "Kung ang {{email}} ay nakarehistro, isang link sa pag-reset ng password ay paparating na. Mag-e-expire ito sa loob ng 1 oras.",
+    "forgotError": "Hindi maipadala ang reset email. Pakisubukang muli.",
+    "backToSignIn": "Bumalik para mag-sign in",
     "submitting": "Nagsa-sign in…",
     "submit": "Mag-sign In",
     "noAccount": "Walang account?",
@@ -47,6 +53,21 @@
     "description": "Idagdag ito sa iyong home screen para sa mabilis na pag-access.",
     "dismiss": "I-dismiss",
     "install": "I-install"
+  },
+  "resetPassword": {
+    "title": "I-reset ang iyong password",
+    "subtitle": "Pumili ng bagong password para sa iyong HydroLedger account.",
+    "errors": {
+      "tooShort": "Dapat na hindi bababa sa 8 character ang password.",
+      "mismatch": "Hindi tugma ang mga password.",
+      "fallback": "Hindi ma-reset ang iyong password. Maaaring nag-expire na ang link."
+    },
+    "passwordLabel": "Bagong password",
+    "confirmPasswordLabel": "Kumpirmahin ang bagong password",
+    "submitting": "Nire-reset…",
+    "submit": "I-reset ang password",
+    "success": "Na-reset ang iyong password. Maaari ka na ngayong mag-sign in gamit ito.",
+    "backToSignIn": "Bumalik para mag-sign in"
   },
   "setPassword": {
     "title": "Itakda ang iyong password",
@@ -347,6 +368,12 @@
     "tooShort": "Ang bagong password ay dapat na hindi bababa sa {{min}} mga character.",
     "mismatch": "Ang mga bagong password ay hindi tumutugma.",
     "sameAsCurrent": "Ang bagong password ay dapat na iba sa iyong kasalukuyang password.",
+    "open": "Baguhin ang password",
+    "forgot": "Nakalimutan ang iyong password?",
+    "forgotSending": "Ipinapadala…",
+    "forgotSent": "Kung ang account na ito ay may email na naka-file, nagpadala kami ng link sa pag-reset ng password sa {{email}}.",
+    "forgotError": "Hindi maipadala ang reset email. Pakisubukang muli.",
+    "cancel": "Kanselahin",
     "submit": "I-update ang password",
     "saving": "Ina-update…",
     "success": "Na-update na ang iyong password.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Kalmar wucewa",
     "rememberMe": "Ka tuna da ni",
     "forgotPassword": "Manta kalmar sirri?",
+    "forgotIntro": "Shigar da imel ɗin da kuka yi rajista da shi kuma za mu aika muku hanyar haɗi don sake saita kalmar wucewa.",
+    "sendLink": "Aika hanyar haɗin saiti",
+    "sendingLink": "Ana aikawa…",
+    "forgotSent": "Idan {{email}} an yi rajista, hanyar hanyar saitin kalmar sirri yana kan hanya. Yana ƙarewa a cikin awa 1.",
+    "forgotError": "An kasa aika imel ɗin sake saitin. Da fatan za a sake gwadawa.",
+    "backToSignIn": "Komawa shiga",
     "submitting": "Ana shiga…",
     "submit": "Shiga",
     "noAccount": "Ba ku da asusu?",
@@ -47,6 +53,21 @@
     "description": "Ƙara shi zuwa allon gida don shiga cikin sauri.",
     "dismiss": "Korar",
     "install": "Shigar"
+  },
+  "resetPassword": {
+    "title": "Sake saita kalmar wucewa",
+    "subtitle": "Choose a new password for your HydroLedger account.",
+    "errors": {
+      "tooShort": "Dole ne kalmar wucewa ta zama aƙalla haruffa 8.",
+      "mismatch": "Kalmomin sirri ba su daidaita ba.",
+      "fallback": "An kasa sake saita kalmar wucewar ku. Mai yiwuwa hanyar haɗin gwiwar ta ƙare."
+    },
+    "passwordLabel": "Sabuwar kalmar sirri",
+    "confirmPasswordLabel": "Tabbatar da sabon kalmar sirri",
+    "submitting": "Ana sake saitawa…",
+    "submit": "Sake saita kalmar wucewa",
+    "success": "An sake saita kalmar wucewar ku. Yanzu zaku iya shiga da ita.",
+    "backToSignIn": "Komawa shiga"
   },
   "setPassword": {
     "title": "Saita kalmar wucewa",
@@ -347,6 +368,12 @@
     "tooShort": "New password must be at least {{min}} characters.",
     "mismatch": "Sabbin kalmomin shiga ba su daidaita ba.",
     "sameAsCurrent": "Dole ne sabon kalmar sirri ta bambanta da kalmar wucewa ta yanzu.",
+    "open": "Canza kalmar shiga",
+    "forgot": "manta da kalmar shigar ka?",
+    "forgotSending": "Ana aikawa…",
+    "forgotSent": "Idan wannan asusun yana da imel akan fayil, mun aika hanyar sake saitin kalmar sirri zuwa {{email}}.",
+    "forgotError": "An kasa aika imel ɗin sake saitin. Da fatan za a sake gwadawa.",
+    "cancel": "Soke",
     "submit": "Sabunta kalmar sirri",
     "saving": "Ana sabuntawa…",
     "success": "An sabunta kalmar wucewar ku.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Kata laluan",
     "rememberMe": "Ingat saya",
     "forgotPassword": "Lupa kata laluan?",
+    "forgotIntro": "Masukkan e-mel yang anda gunakan untuk mendaftar dan kami akan menghantar pautan kepada anda untuk menetapkan semula kata laluan anda.",
+    "sendLink": "Hantar pautan set semula",
+    "sendingLink": "Menghantar…",
+    "forgotSent": "Jika {{email}} didaftarkan, pautan tetapan semula kata laluan sedang dalam perjalanan. Ia tamat tempoh dalam 1 jam.",
+    "forgotError": "Tidak dapat menghantar e-mel tetapan semula. Sila cuba lagi.",
+    "backToSignIn": "Kembali untuk log masuk",
     "submitting": "Melog masuk…",
     "submit": "Log Masuk",
     "noAccount": "Tiada akaun?",
@@ -47,6 +53,21 @@
     "description": "Tambahkannya pada skrin utama anda untuk akses pantas.",
     "dismiss": "Tolak",
     "install": "Pasang"
+  },
+  "resetPassword": {
+    "title": "Tetapkan semula kata laluan anda",
+    "subtitle": "Pilih kata laluan baharu untuk akaun HydroLedger anda.",
+    "errors": {
+      "tooShort": "Kata laluan mestilah sekurang-kurangnya 8 aksara.",
+      "mismatch": "Kata laluan tidak sepadan.",
+      "fallback": "Tidak dapat menetapkan semula kata laluan anda. Pautan mungkin telah tamat tempoh."
+    },
+    "passwordLabel": "Kata laluan baharu",
+    "confirmPasswordLabel": "Sahkan kata laluan baharu",
+    "submitting": "Menetapkan semula…",
+    "submit": "Tetapkan semula kata laluan",
+    "success": "Kata laluan anda telah ditetapkan semula. Anda kini boleh log masuk dengannya.",
+    "backToSignIn": "Kembali untuk log masuk"
   },
   "setPassword": {
     "title": "Tetapkan kata laluan anda",
@@ -347,6 +368,12 @@
     "tooShort": "Kata laluan baharu mestilah sekurang-kurangnya {{min}} aksara.",
     "mismatch": "Kata laluan baharu tidak sepadan.",
     "sameAsCurrent": "Kata laluan baharu mestilah berbeza daripada kata laluan semasa anda.",
+    "open": "Tukar kata laluan",
+    "forgot": "Terlupa kata laluan anda?",
+    "forgotSending": "Menghantar…",
+    "forgotSent": "Jika akaun ini mempunyai e-mel dalam fail, kami telah menghantar pautan tetapan semula kata laluan ke {{email}}.",
+    "forgotError": "Tidak dapat menghantar e-mel tetapan semula. Sila cuba lagi.",
+    "cancel": "Batal",
     "submit": "Kemas kini kata laluan",
     "saving": "Mengemas kini…",
     "success": "Kata laluan anda telah dikemas kini.",

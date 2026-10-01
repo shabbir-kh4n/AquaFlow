@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "Ricordati di me",
     "forgotPassword": "Ha dimenticato la password?",
+    "forgotIntro": "Inserisci l'email con cui ti sei registrato e ti invieremo un link per reimpostare la tua password.",
+    "sendLink": "Invia collegamento di reimpostazione",
+    "sendingLink": "Invio…",
+    "forgotSent": "Se {{email}} è registrato, è in arrivo un collegamento per la reimpostazione della password. Scade tra 1 ora.",
+    "forgotError": "Impossibile inviare l'e-mail di reimpostazione. Per favore riprova.",
+    "backToSignIn": "Torna per accedere",
     "submitting": "Accesso…",
     "submit": "Registrazione",
     "noAccount": "Non hai un account?",
@@ -47,6 +53,21 @@
     "description": "Aggiungilo alla schermata iniziale per un accesso rapido.",
     "dismiss": "Congedare",
     "install": "Installare"
+  },
+  "resetPassword": {
+    "title": "Reimposta la tua password",
+    "subtitle": "Scegli una nuova password per il tuo account HydroLedger.",
+    "errors": {
+      "tooShort": "La password deve contenere almeno 8 caratteri.",
+      "mismatch": "Le password non corrispondono.",
+      "fallback": "Impossibile reimpostare la password. Il collegamento potrebbe essere scaduto."
+    },
+    "passwordLabel": "Nuova password",
+    "confirmPasswordLabel": "Conferma la nuova password",
+    "submitting": "Reimpostazione…",
+    "submit": "Reimposta la password",
+    "success": "La tua password è stata reimpostata. Ora puoi accedere con esso.",
+    "backToSignIn": "Torna per accedere"
   },
   "setPassword": {
     "title": "Imposta la tua password",
@@ -347,6 +368,12 @@
     "tooShort": "La nuova password deve contenere almeno {{min}} caratteri.",
     "mismatch": "Le nuove password non corrispondono.",
     "sameAsCurrent": "La nuova password deve essere diversa dalla password attuale.",
+    "open": "Cambiare la password",
+    "forgot": "Hai dimenticato la password?",
+    "forgotSending": "Invio…",
+    "forgotSent": "Se questo account ha un indirizzo email in archivio, abbiamo inviato un collegamento per la reimpostazione della password a {{email}}.",
+    "forgotError": "Impossibile inviare l'e-mail di reimpostazione. Per favore riprova.",
+    "cancel": "Cancellare",
     "submit": "Aggiorna password",
     "saving": "Aggiornamento…",
     "success": "La tua password è stata aggiornata.",

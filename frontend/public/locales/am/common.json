@@ -17,6 +17,12 @@
     "passwordLabel": "የይለፍ ቃል",
     "rememberMe": "አስታውሰኝ",
     "forgotPassword": "የይለፍ ቃል ረሱ?",
+    "forgotIntro": "የተመዘገብክበትን ኢሜል አስገባ እና የይለፍ ቃልህን እንደገና የምታስጀምር አገናኝ እንልክልሃለን።",
+    "sendLink": "ዳግም ማስጀመሪያ አገናኝ ላክ",
+    "sendingLink": "በመላክ ላይ…",
+    "forgotSent": "{{email}} ከተመዘገበ፣ የይለፍ ቃል ዳግም ማስጀመሪያ አገናኝ እየመጣ ነው። በ1 ሰአት ውስጥ ጊዜው ያልፍበታል።",
+    "forgotError": "የዳግም ማስጀመሪያ ኢሜይሉን መላክ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "backToSignIn": "ለመግባት ተመለስ",
     "submitting": "በመግባት ላይ…",
     "submit": "ይግቡ",
     "noAccount": "መለያ የለህም?",
@@ -47,6 +53,21 @@
     "description": "በፍጥነት ለመድረስ ወደ መነሻ ማያዎ ያክሉት።",
     "dismiss": "አሰናብት",
     "install": "ጫን"
+  },
+  "resetPassword": {
+    "title": "የይለፍ ቃልዎን ዳግም ያስጀምሩ",
+    "subtitle": "Choose a new password for your HydroLedger account.",
+    "errors": {
+      "tooShort": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት።",
+      "mismatch": "የይለፍ ቃሎች አይዛመዱም።",
+      "fallback": "የይለፍ ቃልህን ዳግም ማስጀመር አልተቻለም። አገናኙ ጊዜው አልፎበታል።"
+    },
+    "passwordLabel": "አዲስ የይለፍ ቃል",
+    "confirmPasswordLabel": "አዲስ የይለፍ ቃል ያረጋግጡ",
+    "submitting": "ዳግም በማስጀመር ላይ…",
+    "submit": "የይለፍ ቃል ዳግም አስጀምር",
+    "success": "የይለፍ ቃልህ ዳግም ተጀምሯል። አሁን በእሱ መግባት ይችላሉ።",
+    "backToSignIn": "ለመግባት ተመለስ"
   },
   "setPassword": {
     "title": "የይለፍ ቃልዎን ያዘጋጁ",
@@ -347,6 +368,12 @@
     "tooShort": "አዲስ የይለፍ ቃል ቢያንስ {{min}} ቁምፊዎች መሆን አለበት።",
     "mismatch": "አዲሶቹ የይለፍ ቃሎች አይዛመዱም።",
     "sameAsCurrent": "አዲስ የይለፍ ቃል ከአሁኑ የይለፍ ቃልዎ የተለየ መሆን አለበት።",
+    "open": "የይለፍ ቃል ቀይር",
+    "forgot": "የይለፍ ቃልህን ረሳህ?",
+    "forgotSending": "በመላክ ላይ…",
+    "forgotSent": "If this account has an email on file, we have sent a password reset link to {{email}}.",
+    "forgotError": "የዳግም ማስጀመሪያ ኢሜይሉን መላክ አልተቻለም። እባክዎ እንደገና ይሞክሩ።",
+    "cancel": "ሰርዝ",
     "submit": "የይለፍ ቃል አዘምን",
     "saving": "በማዘመን ላይ…",
     "success": "የይለፍ ቃልህ ተዘምኗል።",

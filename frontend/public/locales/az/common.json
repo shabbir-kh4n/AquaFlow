@@ -17,6 +17,12 @@
     "passwordLabel": "parol",
     "rememberMe": "Məni xatırla",
     "forgotPassword": "Şifrəni unutmusunuz?",
+    "forgotIntro": "Qeydiyyatdan keçdiyiniz e-poçtu daxil edin və biz sizə parolunuzu sıfırlamaq üçün link göndərəcəyik.",
+    "sendLink": "Sıfırlama linkini göndərin",
+    "sendingLink": "Göndərilir...",
+    "forgotSent": "{{email}} qeydiyyatdan keçibsə, parol sıfırlama linki yoldadır. 1 saata bitir.",
+    "forgotError": "Sıfırlama e-poçtunu göndərmək mümkün olmadı. Yenidən cəhd edin.",
+    "backToSignIn": "Daxil olmaq üçün geri qayıdın",
     "submitting": "Daxil olunur...",
     "submit": "Daxil ol",
     "noAccount": "Hesabınız yoxdur?",
@@ -47,6 +53,21 @@
     "description": "Tez daxil olmaq üçün onu əsas ekranınıza əlavə edin.",
     "dismiss": "Rədd et",
     "install": "Quraşdırın"
+  },
+  "resetPassword": {
+    "title": "Parolunuzu sıfırlayın",
+    "subtitle": "HydroLedger hesabınız üçün yeni parol seçin.",
+    "errors": {
+      "tooShort": "Parol ən azı 8 simvoldan ibarət olmalıdır.",
+      "mismatch": "Parollar uyğun gəlmir.",
+      "fallback": "Parolunuzu sıfırlamaq mümkün olmadı. Linkin vaxtı bitmiş ola bilər."
+    },
+    "passwordLabel": "Yeni parol",
+    "confirmPasswordLabel": "Yeni parolu təsdiqləyin",
+    "submitting": "Sıfırlanır...",
+    "submit": "Parolu sıfırlayın",
+    "success": "Parolunuz sıfırlandı. İndi onunla daxil ola bilərsiniz.",
+    "backToSignIn": "Daxil olmaq üçün geri qayıdın"
   },
   "setPassword": {
     "title": "Parolunuzu təyin edin",
@@ -347,6 +368,12 @@
     "tooShort": "Yeni parol ən azı {{min}} simvoldan ibarət olmalıdır.",
     "mismatch": "Yeni parollar uyğun gəlmir.",
     "sameAsCurrent": "Yeni parol cari parolunuzdan fərqli olmalıdır.",
+    "open": "Parolu dəyişdirin",
+    "forgot": "Parolunuzu unutmusunuz?",
+    "forgotSending": "Göndərilir...",
+    "forgotSent": "Bu hesabın faylda e-poçtu varsa, parol sıfırlama linkini {{email}} ünvanına göndərmişik.",
+    "forgotError": "Sıfırlama e-poçtunu göndərmək mümkün olmadı. Yenidən cəhd edin.",
+    "cancel": "Ləğv et",
     "submit": "Parolu yeniləyin",
     "saving": "Yenilənir...",
     "success": "Parolunuz yeniləndi.",

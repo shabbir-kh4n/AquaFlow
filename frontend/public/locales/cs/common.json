@@ -17,6 +17,12 @@
     "passwordLabel": "Heslo",
     "rememberMe": "Pamatuj si mě",
     "forgotPassword": "Zapomněli jste heslo?",
+    "forgotIntro": "Zadejte e-mail, pomocí kterého jste se přihlásili, a my vám zašleme odkaz pro obnovení hesla.",
+    "sendLink": "Odeslat odkaz na reset",
+    "sendingLink": "Odesílání…",
+    "forgotSent": "Pokud je registrován {{email}}, je na cestě odkaz pro resetování hesla. Vyprší za 1 hodinu.",
+    "forgotError": "Nepodařilo se odeslat resetovací e-mail. Zkuste to znovu.",
+    "backToSignIn": "Zpět k přihlášení",
     "submitting": "Přihlašování…",
     "submit": "Přihlaste se",
     "noAccount": "Nemáte účet?",
@@ -47,6 +53,21 @@
     "description": "Přidejte si jej na domovskou obrazovku pro rychlý přístup.",
     "dismiss": "Propustit",
     "install": "Instalovat"
+  },
+  "resetPassword": {
+    "title": "Obnovte heslo",
+    "subtitle": "Zvolte si nové heslo pro svůj HydroLedger účet.",
+    "errors": {
+      "tooShort": "Heslo musí mít alespoň 8 znaků.",
+      "mismatch": "Hesla se neshodují.",
+      "fallback": "Heslo se nepodařilo resetovat. Platnost odkazu možná vypršela."
+    },
+    "passwordLabel": "Nové heslo",
+    "confirmPasswordLabel": "Potvrďte nové heslo",
+    "submitting": "Resetování…",
+    "submit": "Obnovit heslo",
+    "success": "Vaše heslo bylo resetováno. Nyní se s ním můžete přihlásit.",
+    "backToSignIn": "Zpět k přihlášení"
   },
   "setPassword": {
     "title": "Nastavte si heslo",
@@ -347,6 +368,12 @@
     "tooShort": "Nové heslo musí mít alespoň {{min}} znaků.",
     "mismatch": "Nová hesla se neshodují.",
     "sameAsCurrent": "Nové heslo se musí lišit od aktuálního hesla.",
+    "open": "Změňte heslo",
+    "forgot": "Zapomněli jste heslo?",
+    "forgotSending": "Odesílání…",
+    "forgotSent": "Pokud je u tohoto účtu uložen e-mail, odeslali jsme odkaz pro obnovení hesla na adresu {{email}}.",
+    "forgotError": "Nepodařilo se odeslat resetovací e-mail. Zkuste to prosím znovu.",
+    "cancel": "Zrušit",
     "submit": "Aktualizujte heslo",
     "saving": "Aktualizace…",
     "success": "Vaše heslo bylo aktualizováno.",

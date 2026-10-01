@@ -17,6 +17,12 @@
     "passwordLabel": "Parol",
     "rememberMe": "Meni eslaysizmi",
     "forgotPassword": "Parolni unutdingizmi?",
+    "forgotIntro": "Roʻyxatdan oʻtgan elektron pochta manzilingizni kiriting va biz sizga parolingizni tiklash uchun havola yuboramiz.",
+    "sendLink": "Qayta tiklash havolasini yuboring",
+    "sendingLink": "Yuborilmoqda…",
+    "forgotSent": "Agar {{email}} roʻyxatdan oʻtgan boʻlsa, parolni tiklash havolasi yoʻlda. 1 soatdan keyin muddati tugaydi.",
+    "forgotError": "Qayta tiklash xatini yuborib bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "backToSignIn": "Kirish uchun qayting",
     "submitting": "Kirish…",
     "submit": "Tizimga kirish",
     "noAccount": "Hisobingiz yo'qmi?",
@@ -47,6 +53,21 @@
     "description": "Tez kirish uchun uni bosh ekraningizga qo'shing.",
     "dismiss": "Rad etish",
     "install": "O'rnatish"
+  },
+  "resetPassword": {
+    "title": "Parolingizni qayta o'rnating",
+    "subtitle": "HydroLedger hisobingiz uchun yangi parolni tanlang.",
+    "errors": {
+      "tooShort": "Parol kamida 8 ta belgidan iborat bo'lishi kerak.",
+      "mismatch": "Parollar mos kelmaydi.",
+      "fallback": "Parolingizni tiklab bo‘lmadi. Havola muddati tugagan bo‘lishi mumkin."
+    },
+    "passwordLabel": "Yangi parol",
+    "confirmPasswordLabel": "Yangi parolni tasdiqlang",
+    "submitting": "Qayta tiklanmoqda…",
+    "submit": "Parolni tiklash",
+    "success": "Parolingiz qayta tiklandi. Endi u bilan tizimga kirishingiz mumkin.",
+    "backToSignIn": "Kirish uchun qayting"
   },
   "setPassword": {
     "title": "Parolingizni o'rnating",
@@ -347,6 +368,12 @@
     "tooShort": "Yangi parol kamida {{min}} belgidan iborat boʻlishi kerak.",
     "mismatch": "Yangi parollar mos emas.",
     "sameAsCurrent": "Yangi parol joriy parolingizdan farq qilishi kerak.",
+    "open": "Parolni o'zgartirish",
+    "forgot": "Parolingiz esdan chiqdimi?",
+    "forgotSending": "Yuborilmoqda…",
+    "forgotSent": "Agar bu hisob faylda e-pochta manzili boʻlsa, biz {{email}} manziliga parolni tiklash havolasini yubordik.",
+    "forgotError": "Qayta tiklash xatini yuborib bo‘lmadi. Iltimos, qayta urinib koʻring.",
+    "cancel": "Bekor qilish",
     "submit": "Parolni yangilang",
     "saving": "Yangilanmoqda…",
     "success": "Parolingiz yangilandi.",

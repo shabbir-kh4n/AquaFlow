@@ -17,6 +17,12 @@
     "passwordLabel": "Okwuntughe",
     "rememberMe": "Cheta m",
     "forgotPassword": "Chefuru okwuntughe?",
+    "forgotIntro": "Tinye email ị debanyere aha na anyị ga-ezitere gị njikọ iji tọgharịa paswọọdụ gị.",
+    "sendLink": "zipu njikọ nrụpụta",
+    "sendingLink": "Na-eziga…",
+    "forgotSent": "Ọ bụrụ {{email}} edebanyere aha, njikọ nrụpụta paswọọdụ na-aga. Ọ na-ekubi ume n'ime otu elekere.",
+    "forgotError": "Enweghị ike izipu ozi nrụpụta nrụpụta. Biko nwaa ọzọ.",
+    "backToSignIn": "Laghachi ịbanye",
     "submitting": "Ịbanye…",
     "submit": "Banye",
     "noAccount": "Ịnweghị akaụntụ?",
@@ -47,6 +53,21 @@
     "description": "Tinye ya na ihuenyo ụlọ maka ịnweta ngwa ngwa.",
     "dismiss": "Wepụ",
     "install": "Wụnye"
+  },
+  "resetPassword": {
+    "title": "Tọgharịa paswọọdụ gị",
+    "subtitle": "Họrọ paswọọdụ ọhụrụ maka akaụntụ HydroLedger gị.",
+    "errors": {
+      "tooShort": "Okwuntughe ga-abụrịrị opekata mpe mkpụrụedemede 8.",
+      "mismatch": "Okwuntughe adabaghị.",
+      "fallback": "Enweghị ike ịtọgharịa paswọọdụ gị. Njikọ ahụ nwere ike kubie ume."
+    },
+    "passwordLabel": "Okwuntughe Ọhụrụ",
+    "confirmPasswordLabel": "Kwenye paswọọdụ ọhụrụ",
+    "submitting": "Na-atọgharị…",
+    "submit": "Tọgharịa okwuntughe",
+    "success": "Etọgharịala paswọọdụ gị. Ị nwere ike iji ya banye ugbu a.",
+    "backToSignIn": "Laghachi ịbanye"
   },
   "setPassword": {
     "title": "Tọọ paswọọdụ gị",
@@ -347,6 +368,12 @@
     "tooShort": "Okwuntughe ọhụrụ ga-abụrịrị opekata mpe mkpụrụedemede {{min}}.",
     "mismatch": "Okwuntughe ọhụrụ adabaghị.",
     "sameAsCurrent": "Okwuntughe ọhụrụ ga-adị iche na paswọọdụ gị ugbu a.",
+    "open": "Gbanwee okwuntughe",
+    "forgot": "Chefuru okwuntughe gị?",
+    "forgotSending": "Na-eziga…",
+    "forgotSent": "Ọ bụrụ na akaụntụ a nwere email na faịlụ, anyị ezipụla njikọ nrụpụta okwuntughe na {{email}}.",
+    "forgotError": "Enweghị ike izipu ozi nrụpụta nrụpụta. Biko nwaa ọzọ.",
+    "cancel": "Kagbuo",
     "submit": "Melite okwuntughe",
     "saving": "Na-emelite…",
     "success": "Emelitela paswọọdụ gị.",

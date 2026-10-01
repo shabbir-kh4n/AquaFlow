@@ -17,6 +17,12 @@
     "passwordLabel": "Ijambobanga",
     "rememberMe": "Unyibuke",
     "forgotPassword": "Wibagiwe ijambo ryibanga?",
+    "forgotIntro": "Injira imeri wiyandikishije hanyuma tuzakohereza umurongo wo gusubiramo ijambo ryibanga.",
+    "sendLink": "Kohereza gusubiramo",
+    "sendingLink": "Kohereza…",
+    "forgotSent": "Niba {{email}} yanditswe, ihuza ryibanga ryibanga riri munzira. Irangira mu isaha 1.",
+    "forgotError": "Ntushobora kohereza imeri imeri. Nyamuneka gerageza.",
+    "backToSignIn": "Subira kwinjira",
     "submitting": "Kwinjira…",
     "submit": "Injira",
     "noAccount": "Ntabwo ufite konti?",
@@ -47,6 +53,21 @@
     "description": "Ongeraho murugo rwawe kugirango ubone uburyo bwihuse.",
     "dismiss": "Kwirukana",
     "install": "Shyiramo"
+  },
+  "resetPassword": {
+    "title": "Ongera usubize ijambo ryibanga",
+    "subtitle": "Hitamo ijambo ryibanga kuri konte yawe HydroLedger.",
+    "errors": {
+      "tooShort": "Ijambobanga rigomba kuba byibuze inyuguti 8.",
+      "mismatch": "Ijambobanga ntirihuye.",
+      "fallback": "Ntushobora gusubiramo ijambo ryibanga. Ihuza rishobora kuba ryararangiye."
+    },
+    "passwordLabel": "Ijambobanga rishya",
+    "confirmPasswordLabel": "Emeza ijambo ryibanga rishya",
+    "submitting": "Gusubiramo…",
+    "submit": "Ongera usubize ijambo ryibanga",
+    "success": "Ijambobanga ryawe ryasubiwemo. Urashobora noneho kwinjira hamwe nayo.",
+    "backToSignIn": "Subira kwinjira"
   },
   "setPassword": {
     "title": "Shiraho ijambo ryibanga",
@@ -347,6 +368,12 @@
     "tooShort": "Ijambobanga rishya rigomba kuba byibuze {{min}} inyuguti.",
     "mismatch": "Ijambobanga rishya ntirihuye.",
     "sameAsCurrent": "Ijambobanga rishya rigomba kuba ritandukanye nijambobanga ryubu.",
+    "open": "Hindura ijambo ryibanga",
+    "forgot": "Wibagiwe ijambo ryibanga?",
+    "forgotSending": "Kohereza…",
+    "forgotSent": "Niba iyi konti ifite imeri kuri dosiye, twohereje ijambo ryibanga ryibanga ryibanga kuri {{email}}.",
+    "forgotError": "Ntushobora kohereza imeri imeri. Nyamuneka gerageza.",
+    "cancel": "Kureka",
     "submit": "Kuvugurura ijambo ryibanga",
     "saving": "Kuvugurura…",
     "success": "Ijambobanga ryawe ryaravuguruwe.",

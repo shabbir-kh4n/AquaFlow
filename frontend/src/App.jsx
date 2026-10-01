@@ -8,6 +8,7 @@ import AdminLayout from './components/admin/AdminLayout'
 import { STUB_PAGES } from './components/admin/adminRoutes'
 import Landing from './pages/Landing'
 import SetPassword from './pages/SetPassword'
+import ResetPassword from './pages/ResetPassword'
 import AdminDashboard from './pages/admin/AdminDashboard'
 import HouseholdsDirectory from './pages/admin/HouseholdsDirectory'
 import MeterReadings from './pages/admin/MeterReadings'
@@ -50,6 +51,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/set-password/:token" element={<SetPassword />} />
+            <Route path="/reset-password/:token" element={<ResetPassword />} />
 
             <Route
               element={

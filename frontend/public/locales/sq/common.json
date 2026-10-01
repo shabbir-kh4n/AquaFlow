@@ -17,6 +17,12 @@
     "passwordLabel": "Fjalëkalimi",
     "rememberMe": "Më kujto mua",
     "forgotPassword": "Keni harruar fjalëkalimin?",
+    "forgotIntro": "Futni emailin me të cilin jeni regjistruar dhe ne do t'ju dërgojmë një lidhje për të rivendosur fjalëkalimin tuaj.",
+    "sendLink": "Dërgo lidhjen e rivendosjes",
+    "sendingLink": "Po dërgohet…",
+    "forgotSent": "Nëse {{email}} është regjistruar, një lidhje për rivendosjen e fjalëkalimit është në rrugë e sipër. Skadon për 1 orë.",
+    "forgotError": "Email-i i rivendosur nuk mund të dërgohej. Ju lutemi provoni përsëri.",
+    "backToSignIn": "Kthehu për t'u identifikuar",
     "submitting": "Po identifikohet…",
     "submit": "Hyni",
     "noAccount": "Nuk keni një llogari?",
@@ -47,6 +53,21 @@
     "description": "Shtoje atë në ekranin bazë për qasje të shpejtë.",
     "dismiss": "Largoje",
     "install": "Instaloni"
+  },
+  "resetPassword": {
+    "title": "Rivendosni fjalëkalimin tuaj",
+    "subtitle": "Zgjidhni një fjalëkalim të ri për llogarinë tuaj HydroLedger.",
+    "errors": {
+      "tooShort": "Fjalëkalimi duhet të jetë së paku 8 karaktere.",
+      "mismatch": "Fjalëkalimet nuk përputhen.",
+      "fallback": "Fjalëkalimi nuk mund të rivendosej. Lidhja mund të ketë skaduar."
+    },
+    "passwordLabel": "Fjalëkalim i ri",
+    "confirmPasswordLabel": "Konfirmo fjalëkalimin e ri",
+    "submitting": "Po rivendoset…",
+    "submit": "Rivendos fjalëkalimin",
+    "success": "Fjalëkalimi juaj është rivendosur. Tani mund të identifikohesh me të.",
+    "backToSignIn": "Kthehu për t'u identifikuar"
   },
   "setPassword": {
     "title": "Vendosni fjalëkalimin tuaj",
@@ -347,6 +368,12 @@
     "tooShort": "Fjalëkalimi i ri duhet të ketë të paktën {{min}} karaktere.",
     "mismatch": "Fjalëkalimet e reja nuk përputhen.",
     "sameAsCurrent": "Fjalëkalimi i ri duhet të jetë i ndryshëm nga fjalëkalimi juaj aktual.",
+    "open": "Ndrysho fjalëkalimin",
+    "forgot": "Keni harruar fjalëkalimin tuaj?",
+    "forgotSending": "Po dërgohet…",
+    "forgotSent": "Nëse kjo llogari ka një email në dosje, ne kemi dërguar një lidhje për rivendosjen e fjalëkalimit në {{email}}.",
+    "forgotError": "Email-i i rivendosur nuk mund të dërgohej. Ju lutemi provoni përsëri.",
+    "cancel": "Anulo",
     "submit": "Përditëso fjalëkalimin",
     "saving": "Po përditëson…",
     "success": "Fjalëkalimi juaj është përditësuar.",

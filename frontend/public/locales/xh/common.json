@@ -17,6 +17,12 @@
     "passwordLabel": "Inombolo yokuvula",
     "rememberMe": "Ndikhumbule",
     "forgotPassword": "Ingaba uyilibele iphasiwedi?",
+    "forgotIntro": "Ngenisa i-imeyile obhalise ngayo kwaye siya kukuthumelela ikhonkco lokuseta kwakhona igama lakho eliyimfihlo.",
+    "sendLink": "Thumela ikhonkco lokuseta kwakhona",
+    "sendingLink": "Iyathumela...",
+    "forgotSent": "Ukuba {{email}} ibhalisiwe, ikhonkco lokusetha ngokutsha igama lokugqitha lisendleleni. Iphelelwa ngeyure enye.",
+    "forgotError": "Ayikwazanga ukuthumela i-imeyile yokusetha kwakhona. Nceda zama kwakhona.",
+    "backToSignIn": "Buyela ukuze ungene",
     "submitting": "Iyangena...",
     "submit": "Ngena",
     "noAccount": "Awunayo iakhawunti?",
@@ -47,6 +53,21 @@
     "description": "Yongeza kwiscreen sakho sasekhaya ukuze ufikelele ngokukhawuleza.",
     "dismiss": "Gxotha",
     "install": "Faka"
+  },
+  "resetPassword": {
+    "title": "Phinda umisele igama lokugqithisa lakho",
+    "subtitle": "Khetha igama lokugqitha elitsha le akhawunti yakho HydroLedger.",
+    "errors": {
+      "tooShort": "Igama lokugqithisa kufuneka libe noonobumba abasi-8 ubuncinane.",
+      "mismatch": "Amagama okugqithisa awahambelani.",
+      "fallback": "Ayikwazanga ukuseta kwakhona igama lokugqithisa lakho. Ikhonkco inokuba iphelelwe lixesha."
+    },
+    "passwordLabel": "Iphasiwedi entsha",
+    "confirmPasswordLabel": "Qinisekisa igama lokugqithisa elitsha",
+    "submitting": "Kusetwa kwakhona...",
+    "submit": "Phinda umisele igama lokugqitha",
+    "success": "Iphasiwedi yakho isetyenzisiwe. Ungangena ngayo ngoku.",
+    "backToSignIn": "Buyela ukuze ungene"
   },
   "setPassword": {
     "title": "Seta igama lokugqithisa lakho",
@@ -347,6 +368,12 @@
     "tooShort": "Igama lokugqitha elitsha kufuneka libenamagama {{min}} ubuncinane.",
     "mismatch": "Amagama okugqithisa amatsha awahambelani.",
     "sameAsCurrent": "I-password entsha kufuneka yahluke kwi-password yakho yangoku.",
+    "open": "Tshintsha iphasiwedi",
+    "forgot": "Ingaba uyilibele iphasiwedi yakho?",
+    "forgotSending": "Iyathumela...",
+    "forgotSent": "Ukuba le akhawunti ine-imeyile kwifayile, sithumele ikhonkco lokuseta kwakhona igama lokugqitha ku {{email}}.",
+    "forgotError": "Ayikwazanga ukuthumela i-imeyile yokusetha kwakhona. Nceda zama kwakhona.",
+    "cancel": "Rhoxisa",
     "submit": "Hlaziya igama lokugqitha",
     "saving": "Iyahlaziya...",
     "success": "Igama lokugqithisa lakho lihlaziyiwe.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "Ftakar fija",
     "forgotPassword": "Insejt il-password?",
+    "forgotIntro": "Daħħal l-email li ffirmajt magħha u aħna nibagħtulek link biex tirrisettja l-password tiegħek.",
+    "sendLink": "Ibgħat ir-reset link",
+    "sendingLink": "Nibgħat...",
+    "forgotSent": "Jekk {{email}} huwa reġistrat, rabta ta' reset tal-password tinsab għaddejja. Tiskadi f'siegħa.",
+    "forgotError": "Ma setgħetx tibgħat l-email reset. Jekk jogħġbok erġa' pprova.",
+    "backToSignIn": "Lura biex tidħol",
     "submitting": "Iffirmar...",
     "submit": "Idħol",
     "noAccount": "M'għandekx kont?",
@@ -47,6 +53,21 @@
     "description": "Żidha mal-iskrin tad-dar tiegħek għal aċċess rapidu.",
     "dismiss": "Tkeċċi",
     "install": "Installa"
+  },
+  "resetPassword": {
+    "title": "Irrisettja l-password tiegħek",
+    "subtitle": "Agħżel password ġdida għall-kont HydroLedger tiegħek.",
+    "errors": {
+      "tooShort": "Il-password għandu jkun ta' mill-inqas 8 karattri.",
+      "mismatch": "Il-passwords ma jaqblux.",
+      "fallback": "Ma setgħetx tirrisettja l-password tiegħek. Il-link setgħet skadiet."
+    },
+    "passwordLabel": "Password ġdida",
+    "confirmPasswordLabel": "Ikkonferma password ġdida",
+    "submitting": "Resetting...",
+    "submit": "Irrisettja l-password",
+    "success": "Il-password tiegħek ġiet reset. Issa tista' tiffirma magħha.",
+    "backToSignIn": "Lura biex tidħol"
   },
   "setPassword": {
     "title": "Issettja l-password tiegħek",
@@ -347,6 +368,12 @@
     "tooShort": "Il-password il-ġdida trid tkun mill-inqas {{min}} karattri.",
     "mismatch": "Il-passwords il-ġodda ma jaqblux.",
     "sameAsCurrent": "Il-password il-ġdida trid tkun differenti mill-password attwali tiegħek.",
+    "open": "Ibdel il-password",
+    "forgot": "Insejt il-password tiegħek?",
+    "forgotSending": "Nibgħat...",
+    "forgotSent": "Jekk dan il-kont għandu email fil-fajl, aħna bgħatna link għall-irrisettjar tal-password lil {{email}}.",
+    "forgotError": "Ma setgħetx tibgħat l-email reset. Jekk jogħġbok erġa' pprova.",
+    "cancel": "Ikkanċella",
     "submit": "Aġġorna l-password",
     "saving": "Aġġornament...",
     "success": "Il-password tiegħek ġiet aġġornata.",

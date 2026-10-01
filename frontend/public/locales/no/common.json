@@ -17,6 +17,12 @@
     "passwordLabel": "Passord",
     "rememberMe": "Husk meg",
     "forgotPassword": "Glemt passord?",
+    "forgotIntro": "Skriv inn e-postadressen du registrerte deg med, så sender vi deg en lenke for å tilbakestille passordet ditt.",
+    "sendLink": "Send tilbakestillingslink",
+    "sendingLink": "Sender …",
+    "forgotSent": "Hvis {{email}} er registrert, er en lenke for tilbakestilling av passord på vei. Den utløper om 1 time.",
+    "forgotError": "Kunne ikke sende tilbakestillings-e-posten. Vennligst prøv igjen.",
+    "backToSignIn": "Tilbake for å logge på",
     "submitting": "Logger på …",
     "submit": "Logg på",
     "noAccount": "Har du ikke en konto?",
@@ -47,6 +53,21 @@
     "description": "Legg den til på startskjermen for rask tilgang.",
     "dismiss": "Avskjedige",
     "install": "Installer"
+  },
+  "resetPassword": {
+    "title": "Tilbakestill passordet ditt",
+    "subtitle": "Velg et nytt passord for HydroLedger-kontoen din.",
+    "errors": {
+      "tooShort": "Passordet må være på minst 8 tegn.",
+      "mismatch": "Passord stemmer ikke.",
+      "fallback": "Kunne ikke tilbakestille passordet ditt. Linken kan ha utløpt."
+    },
+    "passwordLabel": "Nytt passord",
+    "confirmPasswordLabel": "Bekreft nytt passord",
+    "submitting": "Tilbakestiller …",
+    "submit": "Tilbakestill passord",
+    "success": "Passordet ditt er tilbakestilt. Du kan nå logge på med den.",
+    "backToSignIn": "Tilbake for å logge på"
   },
   "setPassword": {
     "title": "Angi passordet ditt",
@@ -347,6 +368,12 @@
     "tooShort": "Nytt passord må bestå av minst {{min}} tegn.",
     "mismatch": "De nye passordene stemmer ikke.",
     "sameAsCurrent": "Nytt passord må være forskjellig fra ditt nåværende passord.",
+    "open": "Endre passord",
+    "forgot": "Glemt passordet ditt?",
+    "forgotSending": "Sender …",
+    "forgotSent": "Hvis denne kontoen har en e-post registrert, har vi sendt en lenke for tilbakestilling av passord til {{email}}.",
+    "forgotError": "Kunne ikke sende tilbakestillings-e-posten. Vennligst prøv igjen.",
+    "cancel": "Kansellere",
     "submit": "Oppdater passord",
     "saving": "Oppdaterer …",
     "success": "Passordet ditt er oppdatert.",

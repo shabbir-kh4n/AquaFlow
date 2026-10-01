@@ -17,6 +17,12 @@
     "passwordLabel": "Adgangskode",
     "rememberMe": "Husk mig",
     "forgotPassword": "Glemt adgangskode?",
+    "forgotIntro": "Indtast den e-mail, du tilmeldte dig med, og vi sender dig et link til at nulstille din adgangskode.",
+    "sendLink": "Send nulstillingslink",
+    "sendingLink": "Sender...",
+    "forgotSent": "Hvis {{email}} er registreret, er et link til nulstilling af adgangskode på vej. Den udløber om 1 time.",
+    "forgotError": "Kunne ikke sende nulstillings-e-mailen. Prøv venligst igen.",
+    "backToSignIn": "Tilbage for at logge ind",
     "submitting": "Logger ind...",
     "submit": "Log ind",
     "noAccount": "Har du ikke en konto?",
@@ -47,6 +53,21 @@
     "description": "Føj det til din startskærm for hurtig adgang.",
     "dismiss": "Afskedige",
     "install": "Installere"
+  },
+  "resetPassword": {
+    "title": "Nulstil din adgangskode",
+    "subtitle": "Vælg en ny adgangskode til din HydroLedger konto.",
+    "errors": {
+      "tooShort": "Adgangskoden skal være på mindst 8 tegn.",
+      "mismatch": "Adgangskoder stemmer ikke overens.",
+      "fallback": "Kunne ikke nulstille din adgangskode. Linket kan være udløbet."
+    },
+    "passwordLabel": "Ny adgangskode",
+    "confirmPasswordLabel": "Bekræft ny adgangskode",
+    "submitting": "Nulstiller...",
+    "submit": "Nulstil adgangskode",
+    "success": "Din adgangskode er blevet nulstillet. Du kan nu logge ind med det.",
+    "backToSignIn": "Tilbage for at logge ind"
   },
   "setPassword": {
     "title": "Indstil din adgangskode",
@@ -347,6 +368,12 @@
     "tooShort": "Ny adgangskode skal være på mindst {{min}} tegn.",
     "mismatch": "De nye adgangskoder stemmer ikke overens.",
     "sameAsCurrent": "Ny adgangskode skal være forskellig fra din nuværende adgangskode.",
+    "open": "Skift adgangskode",
+    "forgot": "Har du glemt din adgangskode?",
+    "forgotSending": "Sender...",
+    "forgotSent": "Hvis denne konto har en e-mail registreret, har vi sendt et link til nulstilling af adgangskode til {{email}}.",
+    "forgotError": "Kunne ikke sende nulstillings-e-mailen. Prøv venligst igen.",
+    "cancel": "Ophæve",
     "submit": "Opdater adgangskode",
     "saving": "Opdaterer...",
     "success": "Din adgangskode er blevet opdateret.",

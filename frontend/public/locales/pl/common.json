@@ -17,6 +17,12 @@
     "passwordLabel": "Hasło",
     "rememberMe": "Pamiętaj mnie",
     "forgotPassword": "Zapomniałeś hasła?",
+    "forgotIntro": "Wpisz adres e-mail, na który się zarejestrowałeś, a my wyślemy Ci link umożliwiający zresetowanie hasła.",
+    "sendLink": "Wyślij link resetujący",
+    "sendingLink": "Przesyłka…",
+    "forgotSent": "Jeśli zarejestrowany jest {{email}}, łącze do resetowania hasła jest już w drodze. Wygasa za 1 godzinę.",
+    "forgotError": "Nie można wysłać resetującego e-maila. Spróbuj ponownie.",
+    "backToSignIn": "Wróć do logowania",
     "submitting": "Logowanie…",
     "submit": "Zalogować się",
     "noAccount": "Nie masz konta?",
@@ -47,6 +53,21 @@
     "description": "Dodaj go do ekranu głównego, aby uzyskać szybki dostęp.",
     "dismiss": "Odrzucać",
     "install": "Zainstalować"
+  },
+  "resetPassword": {
+    "title": "Zresetuj swoje hasło",
+    "subtitle": "Wybierz nowe hasło do swojego konta HydroLedger.",
+    "errors": {
+      "tooShort": "Hasło musi mieć co najmniej 8 znaków.",
+      "mismatch": "Hasła nie pasują.",
+      "fallback": "Nie udało się zresetować hasła. Link mógł wygasnąć."
+    },
+    "passwordLabel": "Nowe hasło",
+    "confirmPasswordLabel": "Potwierdź nowe hasło",
+    "submitting": "Resetuję…",
+    "submit": "Zresetuj hasło",
+    "success": "Twoje hasło zostało zresetowane. Możesz się teraz za jego pomocą zalogować.",
+    "backToSignIn": "Wróć do logowania"
   },
   "setPassword": {
     "title": "Ustaw swoje hasło",
@@ -347,6 +368,12 @@
     "tooShort": "Nowe hasło musi składać się z co najmniej {{min}} znaków.",
     "mismatch": "Nowe hasła nie pasują.",
     "sameAsCurrent": "Nowe hasło musi różnić się od bieżącego hasła.",
+    "open": "Zmień hasło",
+    "forgot": "Zapomniałeś hasła?",
+    "forgotSending": "Przesyłka…",
+    "forgotSent": "Jeśli na tym koncie zapisany jest adres e-mail, wysłaliśmy link do resetowania hasła na adres {{email}}.",
+    "forgotError": "Nie można wysłać resetującego e-maila. Spróbuj ponownie.",
+    "cancel": "Anulować",
     "submit": "Zaktualizuj hasło",
     "saving": "Aktualizuję…",
     "success": "Twoje hasło zostało zaktualizowane.",

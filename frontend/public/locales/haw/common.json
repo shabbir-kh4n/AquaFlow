@@ -17,6 +17,12 @@
     "passwordLabel": "Hua huna",
     "rememberMe": "Hoʻomanaʻo iaʻu",
     "forgotPassword": "Poina ka ʻōlelo huna?",
+    "forgotIntro": "E hoʻokomo i ka leka uila āu i kau inoa ai a e hoʻouna mākou iā ʻoe i kahi loulou e hoʻonohonoho hou i kāu ʻōlelo huna.",
+    "sendLink": "E hoʻouna i ka loulou hoʻoponopono",
+    "sendingLink": "Hoʻouna ʻia…",
+    "forgotSent": "Inā hoʻopaʻa inoa ʻia ʻo {{email}}, aia kahi loulou hoʻonohonoho ʻōlelo huna. Hoʻopau i ka hola 1.",
+    "forgotError": "ʻAʻole hiki ke hoʻouna i ka leka uila. E ʻoluʻolu e hoʻāʻo hou.",
+    "backToSignIn": "E hoʻi e hoʻopaʻa inoa",
     "submitting": "Ke ʻeʻe nei…",
     "submit": "ʻeʻe",
     "noAccount": "ʻAʻohe moʻokāki?",
@@ -47,6 +53,21 @@
     "description": "Hoʻohui ia i kāu pale home no ke komo wikiwiki.",
     "dismiss": "Hoʻokuʻu",
     "install": "Hoʻokomo"
+  },
+  "resetPassword": {
+    "title": "Hoʻoponopono hou i kāu ʻōlelo huna",
+    "subtitle": "E koho i ka ʻōlelo huna hou no kāu moʻokāki HydroLedger.",
+    "errors": {
+      "tooShort": "Pono ka ʻōlelo huna ma kahi o 8 mau huapalapala.",
+      "mismatch": "ʻAʻole kūlike nā ʻōlelo huna.",
+      "fallback": "ʻAʻole hiki ke hoʻonohonoho hou i kāu ʻōlelo huna. Ua pau paha ka loulou."
+    },
+    "passwordLabel": "ʻōlelo huna hou",
+    "confirmPasswordLabel": "E hōʻoia i ka ʻōlelo huna hou",
+    "submitting": "Hoʻoponopono hou…",
+    "submit": "Hoʻoponopono hou i ka ʻōlelo huna",
+    "success": "Ua hoʻonohonoho hou ʻia kāu ʻōlelo huna. Hiki iā ʻoe ke kau inoa me ia.",
+    "backToSignIn": "E hoʻi e hoʻopaʻa inoa"
   },
   "setPassword": {
     "title": "E hoʻonoho i kāu ʻōlelo huna",
@@ -347,6 +368,12 @@
     "tooShort": "Pono ka ʻōlelo huna hou ma kahi o {{min}} mau huapalapala.",
     "mismatch": "ʻAʻole kūlike nā ʻōlelo huna hou.",
     "sameAsCurrent": "Pono ʻokoʻa ka ʻōlelo huna hou me kāu ʻōlelo huna o kēia manawa.",
+    "open": "E hoʻololi i ka ʻōlelo huna",
+    "forgot": "Poina i kāu ʻōlelo huna?",
+    "forgotSending": "Hoʻouna ʻia…",
+    "forgotSent": "Inā loaʻa i kēia moʻokāki ka leka uila ma ka faila, ua hoʻouna mākou i kahi loulou hoʻonohonoho ʻōlelo huna iā {{email}}.",
+    "forgotError": "ʻAʻole hiki ke hoʻouna i ka leka uila. E ʻoluʻolu e hoʻāʻo hou.",
+    "cancel": "Hoʻopau",
     "submit": "Hōʻano hou i ka ʻōlelo huna",
     "saving": "Ke hōʻano hou nei…",
     "success": "Ua hōʻano hou ʻia kāu ʻōlelo huna.",

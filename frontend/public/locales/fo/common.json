@@ -17,6 +17,12 @@
     "passwordLabel": "Loyniorð",
     "rememberMe": "Minst til meg",
     "forgotPassword": "Gloymt tú loyniorð?",
+    "forgotIntro": "Skriva teldupostin tú meldaði teg til við og vit senda tær eina leinkju til at nullstilla títt loyniorð.",
+    "sendLink": "Send nullstillað leinkju",
+    "sendingLink": "Sendi...",
+    "forgotSent": "Um {{email}} er skrásett, er ein loyniorðsnullstillingar leinkja á veg. Tað gongur út um 1 tíma.",
+    "forgotError": "Kundi ikki senda nullstillaða teldupostin. Vinarliga royn aftur.",
+    "backToSignIn": "Aftur fyri at rita inn",
     "submitting": "Rita inn...",
     "submit": "Rita inn",
     "noAccount": "Hevur tú ikki konto?",
@@ -47,6 +53,21 @@
     "description": "Legg tað til tín heimasíðu fyri at fáa skjóta atgongd.",
     "dismiss": "Senda heim",
     "install": "Seta í"
+  },
+  "resetPassword": {
+    "title": "Nullstilla títt loyniorð",
+    "subtitle": "Vel eitt nýtt loyniorð til tína HydroLedger kontu.",
+    "errors": {
+      "tooShort": "Loyniorð skal vera í minsta lagi 8 stavir.",
+      "mismatch": "Loyniorð passa ikki saman.",
+      "fallback": "Kundi ikki nullstilla títt loyniorð. Leinkjan kann vera útgingin."
+    },
+    "passwordLabel": "Nýtt loyniorð",
+    "confirmPasswordLabel": "Vátta nýtt loyniorð",
+    "submitting": "Nullstilla...",
+    "submit": "Nullstilla loyniorð",
+    "success": "Títt loyniorð er nullstillað. Tú kanst nú rita inn við tí.",
+    "backToSignIn": "Aftur fyri at rita inn"
   },
   "setPassword": {
     "title": "Set títt loyniorð",
@@ -347,6 +368,12 @@
     "tooShort": "Nýtt loyniorð skal hava í minsta lagi {{min}} stavir.",
     "mismatch": "Nýggju loyniorðini passa ikki saman.",
     "sameAsCurrent": "Nýtt loyniorð skal vera øðrvísi enn títt núverandi loyniorð.",
+    "open": "Broyt loyniorð",
+    "forgot": "Gloymt tú títt loyniorð?",
+    "forgotSending": "Sendi...",
+    "forgotSent": "Um henda kontan hevur ein teldupost á skrá, hava vit sent eina leinkju til {{email}}.",
+    "forgotError": "Kundi ikki senda nullstillaða teldupostin. Vinarliga royn aftur.",
+    "cancel": "strika",
     "submit": "Dagfør loyniorð",
     "saving": "Dagføring...",
     "success": "Títt loyniorð er dagført.",

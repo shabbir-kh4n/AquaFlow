@@ -17,6 +17,12 @@
     "passwordLabel": "Pasahitza",
     "rememberMe": "Gogoratu nirekin",
     "forgotPassword": "Pasahitza ahaztu duzu?",
+    "forgotIntro": "Sartu izena eman zenuen posta elektronikoa eta esteka bat bidaliko dizugu pasahitza berrezartzeko.",
+    "sendLink": "Bidali berrezartzeko esteka",
+    "sendingLink": "Bidaltzen…",
+    "forgotSent": "{{email}} erregistratuta badago, pasahitza berrezartzeko esteka martxan dago. Ordubete barru iraungitzen da.",
+    "forgotError": "Ezin izan da berrezarri mezu elektronikoa bidali. Mesedez, saiatu berriro.",
+    "backToSignIn": "Itzuli saioa hasteko",
     "submitting": "Saioa hasten…",
     "submit": "Hasi saioa",
     "noAccount": "Ez al duzu konturik?",
@@ -47,6 +53,21 @@
     "description": "Gehitu zure hasierako pantailan atzitzeko.",
     "dismiss": "Baztertu",
     "install": "Instalatu"
+  },
+  "resetPassword": {
+    "title": "Berrezarri pasahitza",
+    "subtitle": "Aukeratu pasahitz berri bat zure HydroLedger konturako.",
+    "errors": {
+      "tooShort": "Pasahitzak 8 karaktere izan behar ditu gutxienez.",
+      "mismatch": "Pasahitzak ez datoz bat.",
+      "fallback": "Ezin izan da pasahitza berrezarri. Baliteke esteka iraungi izatea."
+    },
+    "passwordLabel": "Pasahitz berria",
+    "confirmPasswordLabel": "Berretsi pasahitz berria",
+    "submitting": "Berrezartzen…",
+    "submit": "Berrezarri pasahitza",
+    "success": "Zure pasahitza berrezarri da. Orain harekin saioa hasi dezakezu.",
+    "backToSignIn": "Itzuli saioa hasteko"
   },
   "setPassword": {
     "title": "Ezarri zure pasahitza",
@@ -347,6 +368,12 @@
     "tooShort": "Pasahitz berriak gutxienez {{min}} karaktere izan behar ditu.",
     "mismatch": "Pasahitz berriak ez datoz bat.",
     "sameAsCurrent": "Pasahitz berriak zure egungo pasahitzarekiko ezberdina izan behar du.",
+    "open": "Aldatu pasahitza",
+    "forgot": "Pasahitza ahaztu al duzu?",
+    "forgotSending": "Bidaltzen…",
+    "forgotSent": "Kontu honek mezu elektroniko bat badu fitxategian, pasahitza berrezartzeko esteka bidali dugu {{email}} helbidera.",
+    "forgotError": "Ezin izan da berrezarri mezu elektronikoa bidali. Mesedez, saiatu berriro.",
+    "cancel": "Utzi",
     "submit": "Eguneratu pasahitza",
     "saving": "Eguneratzen…",
     "success": "Zure pasahitza eguneratu da.",

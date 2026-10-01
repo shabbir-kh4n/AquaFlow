@@ -17,6 +17,12 @@
     "passwordLabel": "Jelszó",
     "rememberMe": "Emlékezz rám",
     "forgotPassword": "Elfelejtetted a jelszavad?",
+    "forgotIntro": "Adja meg az e-mail címet, amellyel regisztrált, és küldünk egy linket a jelszó visszaállításához.",
+    "sendLink": "Reset link küldése",
+    "sendingLink": "Küldés…",
+    "forgotSent": "Ha {{email}} regisztrálva van, a jelszó-visszaállítási hivatkozás úton van. 1 óra múlva lejár.",
+    "forgotError": "Nem sikerült elküldeni a visszaállítási e-mailt. Kérjük, próbálja újra.",
+    "backToSignIn": "Vissza a bejelentkezéshez",
     "submitting": "Bejelentkezés…",
     "submit": "Jelentkezzen be",
     "noAccount": "Nincs fiókod?",
@@ -47,6 +53,21 @@
     "description": "Adja hozzá a kezdőképernyőhöz a gyors hozzáférés érdekében.",
     "dismiss": "Elvetés",
     "install": "Telepítés"
+  },
+  "resetPassword": {
+    "title": "Állítsa vissza jelszavát",
+    "subtitle": "Válasszon új jelszót HydroLedger fiókjához.",
+    "errors": {
+      "tooShort": "A jelszónak legalább 8 karakterből kell állnia.",
+      "mismatch": "A jelszavak nem egyeznek.",
+      "fallback": "Nem sikerült visszaállítani a jelszavát. Lehet, hogy a link lejárt."
+    },
+    "passwordLabel": "Új jelszó",
+    "confirmPasswordLabel": "Erősítse meg az új jelszót",
+    "submitting": "Visszaállítás…",
+    "submit": "Jelszó visszaállítása",
+    "success": "Jelszava visszaállításra került. Most már bejelentkezhet vele.",
+    "backToSignIn": "Vissza a bejelentkezéshez"
   },
   "setPassword": {
     "title": "Állítsa be a jelszavát",
@@ -347,6 +368,12 @@
     "tooShort": "Az új jelszónak legalább {{min}} karakterből kell állnia.",
     "mismatch": "Az új jelszavak nem egyeznek.",
     "sameAsCurrent": "Az új jelszónak különböznie kell a jelenlegi jelszavától.",
+    "open": "Jelszó módosítása",
+    "forgot": "Elfelejtette jelszavát?",
+    "forgotSending": "Küldés…",
+    "forgotSent": "Ha a fiókban van egy e-mail, akkor elküldtük a jelszó-visszaállítási linket a {{email}} címre.",
+    "forgotError": "Nem sikerült elküldeni a visszaállítási e-mailt. Kérjük, próbálja újra.",
+    "cancel": "Mégsem",
     "submit": "Frissítse a jelszót",
     "saving": "Frissítés…",
     "success": "A jelszava frissítve lett.",

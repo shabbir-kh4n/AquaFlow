@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import i18next from 'i18next'
 import { useTranslation } from 'react-i18next'
 import { getCommonAreaConfig, saveCommonAreaConfig } from '../../api/commonAreaApi'
@@ -41,6 +41,8 @@ function TariffPlans() {
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState(null)
   const [saveSuccess, setSaveSuccess] = useState(false)
+  // Saved configs show as a read-only summary with an Edit button; an unsaved one opens straight in edit mode.
+  const [editingTariff, setEditingTariff] = useState(false)
 
   const [distributionMethod, setDistributionMethod] = useState('CONSUMPTION')
   const [costItems, setCostItems] = useState([])
@@ -49,22 +51,34 @@ function TariffPlans() {
   const [commonAreaSaving, setCommonAreaSaving] = useState(false)
   const [commonAreaSaveError, setCommonAreaSaveError] = useState(null)
   const [commonAreaSaveSuccess, setCommonAreaSaveSuccess] = useState(false)
+  const [editingCommonArea, setEditingCommonArea] = useState(false)
+
+  const loadCommonArea = useCallback(() => getCommonAreaConfig()
+    .then((data) => {
+      setDistributionMethod(data.distributionMethod)
+      setCostItems(data.costItems.map((item) => ({
+        id: item.id,
+        label: item.label,
+        monthlyAmount: Number(item.monthlyAmount),
+        active: item.active,
+      })))
+      setCommonAreaPersisted(data.persisted)
+      return data.persisted
+    })
+    .catch(() => {
+      setCommonAreaSaveError(i18next.t('tariffPlans.commonArea.loadError', { ns: 'admin' }))
+      return true
+    })
+    .finally(() => setCommonAreaLoading(false)), [])
 
   useEffect(() => {
-    getCommonAreaConfig()
-      .then((data) => {
-        setDistributionMethod(data.distributionMethod)
-        setCostItems(data.costItems.map((item) => ({
-          id: item.id,
-          label: item.label,
-          monthlyAmount: Number(item.monthlyAmount),
-          active: item.active,
-        })))
-        setCommonAreaPersisted(data.persisted)
-      })
-      .catch(() => setCommonAreaSaveError(i18next.t('tariffPlans.commonArea.loadError', { ns: 'admin' })))
-      .finally(() => setCommonAreaLoading(false))
-  }, [])
+    loadCommonArea().then((persisted) => setEditingCommonArea(!persisted))
+  }, [loadCommonArea])
+
+  function cancelCommonAreaEdit() {
+    setCommonAreaSaveError(null)
+    loadCommonArea().then(() => setEditingCommonArea(false))
+  }
 
   function addCostItem() {
     setCommonAreaSaveSuccess(false)
@@ -111,6 +125,7 @@ function TariffPlans() {
       })))
       setCommonAreaPersisted(true)
       setCommonAreaSaveSuccess(true)
+      setEditingCommonArea(false)
     } catch (err) {
       setCommonAreaSaveError(err.response?.data?.message || t('tariffPlans.commonArea.saveError'))
     } finally {
@@ -118,20 +133,31 @@ function TariffPlans() {
     }
   }
 
+  const loadTariff = useCallback(() => getTariffPlan()
+    .then((data) => {
+      setTiers(data.tiers.map((tier) => ({
+        boundary: tier.maxUnits != null ? Number(tier.maxUnits) : null,
+        rate: Number(tier.ratePerUnit),
+      })))
+      setFirstTierMin(data.tiers.length > 0 ? Number(data.tiers[0].minUnits) : 0)
+      setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
+      setPersisted(data.persisted)
+      return data.persisted
+    })
+    .catch(() => {
+      setSaveError(i18next.t('tariffPlans.loadError', { ns: 'admin' }))
+      return true
+    })
+    .finally(() => setLoading(false)), [])
+
   useEffect(() => {
-    getTariffPlan()
-      .then((data) => {
-        setTiers(data.tiers.map((tier) => ({
-          boundary: tier.maxUnits != null ? Number(tier.maxUnits) : null,
-          rate: Number(tier.ratePerUnit),
-        })))
-        setFirstTierMin(data.tiers.length > 0 ? Number(data.tiers[0].minUnits) : 0)
-        setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
-        setPersisted(data.persisted)
-      })
-      .catch(() => setSaveError(i18next.t('tariffPlans.loadError', { ns: 'admin' })))
-      .finally(() => setLoading(false))
-  }, [])
+    loadTariff().then((isPersisted) => setEditingTariff(!isPersisted))
+  }, [loadTariff])
+
+  function cancelTariffEdit() {
+    setSaveError(null)
+    loadTariff().then(() => setEditingTariff(false))
+  }
 
   const tierRows = tiers.map((tier, index) => ({
     level: tierLevelLabel(t, index, tiers.length),
@@ -200,6 +226,7 @@ function TariffPlans() {
       setBasePricePerUnit(Number(data.basePricePerUnit ?? 0))
       setPersisted(true)
       setSaveSuccess(true)
+      setEditingTariff(false)
     } catch (err) {
       setSaveError(err.response?.data?.message || t('tariffPlans.saveError'))
     } finally {
@@ -234,14 +261,18 @@ function TariffPlans() {
           <div className="af-tariff__base-price">
             <label>
               <span>{t('tariffPlans.basePrice.label')}</span>
-              <input
-                type="number"
-                className="af-tariff__cell-input"
-                min="0"
-                step="0.01"
-                value={basePricePerUnit}
-                onChange={(e) => updateBasePricePerUnit(sanitizeNumberInput(e))}
-              />
+              {editingTariff ? (
+                <input
+                  type="number"
+                  className="af-tariff__cell-input"
+                  min="0"
+                  step="0.01"
+                  value={basePricePerUnit}
+                  onChange={(e) => updateBasePricePerUnit(sanitizeNumberInput(e))}
+                />
+              ) : (
+                <strong className="af-tariff__view-value">₹{basePricePerUnit}</strong>
+              )}
             </label>
             <p className="af-tariff__axis-note">
               {t('tariffPlans.basePrice.note')}
@@ -254,7 +285,7 @@ function TariffPlans() {
                   <th>{t('tariffPlans.table.tierLevel')}</th>
                   <th>{t('tariffPlans.table.slabLimit')}</th>
                   <th>{t('tariffPlans.table.rate')}</th>
-                  <th>{t('tariffPlans.table.action')}</th>
+                  {editingTariff && <th>{t('tariffPlans.table.action')}</th>}
                 </tr>
               </thead>
               <tbody>
@@ -262,7 +293,7 @@ function TariffPlans() {
                   <tr key={tier.level}>
                     <td>{tier.level}</td>
                     <td>
-                      {index === 0 ? (
+                      {index === 0 && editingTariff ? (
                         <input
                           type="number"
                           className="af-tariff__cell-input"
@@ -274,7 +305,7 @@ function TariffPlans() {
                         tier.min
                       )}
                       {' - '}
-                      {tier.max != null ? (
+                      {tier.max != null && editingTariff ? (
                         <input
                           type="number"
                           className="af-tariff__cell-input"
@@ -283,45 +314,76 @@ function TariffPlans() {
                           onChange={(e) => updateBoundary(index, sanitizeNumberInput(e))}
                         />
                       ) : (
-                        '∞'
+                        tier.max ?? '∞'
                       )}
                     </td>
                     <td>
                       ₹
-                      <input
-                        type="number"
-                        className="af-tariff__cell-input"
-                        min="0"
-                        step="0.01"
-                        value={tier.rate}
-                        onChange={(e) => updateRate(index, sanitizeNumberInput(e))}
-                      />
+                      {editingTariff ? (
+                        <input
+                          type="number"
+                          className="af-tariff__cell-input"
+                          min="0"
+                          step="0.01"
+                          value={tier.rate}
+                          onChange={(e) => updateRate(index, sanitizeNumberInput(e))}
+                        />
+                      ) : (
+                        tier.rate
+                      )}
                     </td>
-                    <td>
-                      <button
-                        type="button"
-                        className="af-tariff__edit-link"
-                        disabled={tiers.length <= 1}
-                        onClick={() => removeTier(index)}
-                      >
-                        {t('shared.remove')}
-                      </button>
-                    </td>
+                    {editingTariff && (
+                      <td>
+                        <button
+                          type="button"
+                          className="af-tariff__edit-link"
+                          disabled={tiers.length <= 1}
+                          onClick={() => removeTier(index)}
+                        >
+                          {t('shared.remove')}
+                        </button>
+                      </td>
+                    )}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <div className="af-tariff__tier-actions">
-            <button type="button" className="af-tariff__add-tier" onClick={addTier}>
-              {t('tariffPlans.addTier')}
-            </button>
+            {editingTariff ? (
+              <button type="button" className="af-tariff__add-tier" onClick={addTier}>
+                {t('tariffPlans.addTier')}
+              </button>
+            ) : (
+              <span />
+            )}
             <div className="af-tariff__save-area">
               {saveError && <span className="af-tariff__save-error">{saveError}</span>}
-              {saveSuccess && <span className="af-tariff__save-success">{t('shared.saved')}</span>}
-              <button type="button" className="af-tariff__save" disabled={saving || loading} onClick={handleSave}>
-                {saving ? t('shared.saving') : t('tariffPlans.saveRates')}
-              </button>
+              {saveSuccess && !editingTariff && <span className="af-tariff__save-success">{t('shared.saved')}</span>}
+              {editingTariff ? (
+                <>
+                  {persisted && (
+                    <button type="button" className="af-tariff__cancel" disabled={saving} onClick={cancelTariffEdit}>
+                      {t('shared.cancel')}
+                    </button>
+                  )}
+                  <button type="button" className="af-tariff__save" disabled={saving || loading} onClick={handleSave}>
+                    {saving ? t('shared.saving') : t('tariffPlans.saveRates')}
+                  </button>
+                </>
+              ) : (
+                <button
+                  type="button"
+                  className="af-tariff__edit-btn"
+                  disabled={loading}
+                  onClick={() => {
+                    setSaveSuccess(false)
+                    setEditingTariff(true)
+                  }}
+                >
+                  {t('shared.edit')}
+                </button>
+              )}
             </div>
           </div>
         </section>
@@ -336,48 +398,93 @@ function TariffPlans() {
           <ul className="af-tariff__cost-list">
             {costItems.map((item, index) => (
               <li key={item.id ?? index}>
-                <input
-                  type="text"
-                  className="af-tariff__cell-input"
-                  placeholder={t('tariffPlans.commonArea.labelPlaceholder')}
-                  value={item.label}
-                  onChange={(e) => updateCostItemLabel(index, e.target.value)}
-                />
-                <span>₹</span>
-                <input
-                  type="number"
-                  className="af-tariff__cell-input"
-                  min="0"
-                  step="0.01"
-                  value={item.monthlyAmount}
-                  onChange={(e) => updateCostItemAmount(index, e.target.value)}
-                />
-                <span>{t('tariffPlans.commonArea.perMonth')}</span>
-                <label className="af-tariff__cost-active">
-                  <input type="checkbox" checked={item.active} onChange={() => toggleCostItemActive(index)} />
-                  {t('tariffPlans.commonArea.active')}
-                </label>
-                <button type="button" className="af-tariff__edit-link" onClick={() => removeCostItem(index)}>
-                  {t('shared.remove')}
-                </button>
+                {editingCommonArea ? (
+                  <>
+                    <input
+                      type="text"
+                      className="af-tariff__cell-input"
+                      placeholder={t('tariffPlans.commonArea.labelPlaceholder')}
+                      value={item.label}
+                      onChange={(e) => updateCostItemLabel(index, e.target.value)}
+                    />
+                    <span>₹</span>
+                    <input
+                      type="number"
+                      className="af-tariff__cell-input"
+                      min="0"
+                      step="0.01"
+                      value={item.monthlyAmount}
+                      onChange={(e) => updateCostItemAmount(index, e.target.value)}
+                    />
+                    <span>{t('tariffPlans.commonArea.perMonth')}</span>
+                    <label className="af-tariff__cost-active">
+                      <input type="checkbox" checked={item.active} onChange={() => toggleCostItemActive(index)} />
+                      {t('tariffPlans.commonArea.active')}
+                    </label>
+                    <button type="button" className="af-tariff__edit-link" onClick={() => removeCostItem(index)}>
+                      {t('shared.remove')}
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <strong className="af-tariff__cost-name">{item.label}</strong>
+                    <span className="af-tariff__view-value">₹{item.monthlyAmount}</span>
+                    <span>{t('tariffPlans.commonArea.perMonth')}</span>
+                    <span className={`af-tariff__pill ${item.active ? 'af-tariff__pill--on' : ''}`}>
+                      {item.active ? t('tariffPlans.commonArea.active') : t('tariffPlans.commonArea.inactive')}
+                    </span>
+                  </>
+                )}
               </li>
             ))}
           </ul>
           <div className="af-tariff__tier-actions">
-            <button type="button" className="af-tariff__add-tier" onClick={addCostItem}>
-              {t('tariffPlans.commonArea.addItem')}
-            </button>
+            {editingCommonArea ? (
+              <button type="button" className="af-tariff__add-tier" onClick={addCostItem}>
+                {t('tariffPlans.commonArea.addItem')}
+              </button>
+            ) : (
+              <span />
+            )}
             <div className="af-tariff__save-area">
               {commonAreaSaveError && <span className="af-tariff__save-error">{commonAreaSaveError}</span>}
-              {commonAreaSaveSuccess && <span className="af-tariff__save-success">{t('shared.saved')}</span>}
-              <button
-                type="button"
-                className="af-tariff__save"
-                disabled={commonAreaSaving || commonAreaLoading || costItems.length === 0}
-                onClick={handleSaveCommonArea}
-              >
-                {commonAreaSaving ? t('shared.saving') : t('tariffPlans.commonArea.save')}
-              </button>
+              {commonAreaSaveSuccess && !editingCommonArea && (
+                <span className="af-tariff__save-success">{t('shared.saved')}</span>
+              )}
+              {editingCommonArea ? (
+                <>
+                  {commonAreaPersisted && (
+                    <button
+                      type="button"
+                      className="af-tariff__cancel"
+                      disabled={commonAreaSaving}
+                      onClick={cancelCommonAreaEdit}
+                    >
+                      {t('shared.cancel')}
+                    </button>
+                  )}
+                  <button
+                    type="button"
+                    className="af-tariff__save"
+                    disabled={commonAreaSaving || commonAreaLoading || costItems.length === 0}
+                    onClick={handleSaveCommonArea}
+                  >
+                    {commonAreaSaving ? t('shared.saving') : t('tariffPlans.commonArea.save')}
+                  </button>
+                </>
+              ) : (
+                <button
+                  type="button"
+                  className="af-tariff__edit-btn"
+                  disabled={commonAreaLoading}
+                  onClick={() => {
+                    setCommonAreaSaveSuccess(false)
+                    setEditingCommonArea(true)
+                  }}
+                >
+                  {t('shared.edit')}
+                </button>
+              )}
             </div>
           </div>
         </section>
@@ -390,6 +497,7 @@ function TariffPlans() {
                 <input
                   type="radio"
                   name="distributionMethod"
+                  disabled={!editingCommonArea}
                   checked={distributionMethod === method.id}
                   onChange={() => {
                     setCommonAreaSaveSuccess(false)

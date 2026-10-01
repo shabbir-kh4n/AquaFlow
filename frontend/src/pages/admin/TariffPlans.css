@@ -412,6 +412,60 @@
   color: var(--af-success, #2e7d32);
 }
 
+.af-tariff__edit-btn,
+.af-tariff__cancel {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: 1px solid var(--af-accent-2);
+  background: rgba(47, 107, 65, 0.08);
+  color: var(--af-accent-2);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.af-tariff__cancel {
+  border-color: var(--af-glass-border);
+  background: var(--af-white);
+  color: var(--af-text-dark);
+}
+
+.af-tariff__edit-btn:hover:not(:disabled) {
+  background: rgba(47, 107, 65, 0.16);
+}
+
+.af-tariff__edit-btn:disabled,
+.af-tariff__cancel:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.af-tariff__view-value {
+  font-weight: 700;
+  color: var(--af-text-dark);
+}
+
+.af-tariff__cost-name {
+  flex: 1;
+  min-width: 140px;
+}
+
+.af-tariff__pill {
+  margin-left: auto;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: rgba(139, 151, 141, 0.16);
+  color: var(--af-text-muted);
+}
+
+.af-tariff__pill--on {
+  background: rgba(47, 107, 65, 0.12);
+  color: var(--af-accent-2);
+}
+
 @media (max-width: 960px) {
   .af-tariff__grid {
     grid-template-columns: 1fr;

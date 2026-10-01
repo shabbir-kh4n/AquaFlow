@@ -17,6 +17,12 @@
     "passwordLabel": "Slaptažodis",
     "rememberMe": "Prisimink mane",
     "forgotPassword": "Pamiršote slaptažodį?",
+    "forgotIntro": "Įveskite el. pašto adresą, kuriuo prisiregistravote, ir mes atsiųsime jums nuorodą, kad iš naujo nustatytumėte slaptažodį.",
+    "sendLink": "Siųsti atkūrimo nuorodą",
+    "sendingLink": "Siunčiama…",
+    "forgotSent": "Jei {{email}} yra užregistruotas, slaptažodžio nustatymo iš naujo nuoroda yra kelyje. Jis baigiasi po 1 valandos.",
+    "forgotError": "Nepavyko išsiųsti atstatymo el. laiško. Bandykite dar kartą.",
+    "backToSignIn": "Atgal prisijungti",
     "submitting": "Prisijungiama…",
     "submit": "Prisijunkite",
     "noAccount": "Neturite paskyros?",
@@ -47,6 +53,21 @@
     "description": "Pridėkite jį prie pagrindinio ekrano, kad galėtumėte greitai pasiekti.",
     "dismiss": "Atsisakyti",
     "install": "Įdiegti"
+  },
+  "resetPassword": {
+    "title": "Iš naujo nustatykite slaptažodį",
+    "subtitle": "Pasirinkite naują slaptažodį HydroLedger paskyrai.",
+    "errors": {
+      "tooShort": "Slaptažodį turi sudaryti bent 8 simboliai.",
+      "mismatch": "Slaptažodžiai nesutampa.",
+      "fallback": "Nepavyko iš naujo nustatyti slaptažodžio. Gali būti, kad nuorodos galiojimo laikas baigėsi."
+    },
+    "passwordLabel": "Naujas slaptažodis",
+    "confirmPasswordLabel": "Patvirtinkite naują slaptažodį",
+    "submitting": "Nustatoma iš naujo…",
+    "submit": "Iš naujo nustatyti slaptažodį",
+    "success": "Jūsų slaptažodis nustatytas iš naujo. Dabar su juo galite prisijungti.",
+    "backToSignIn": "Atgal prisijungti"
   },
   "setPassword": {
     "title": "Nustatykite slaptažodį",
@@ -347,6 +368,12 @@
     "tooShort": "Naują slaptažodį turi sudaryti bent {{min}} simbolių.",
     "mismatch": "Nauji slaptažodžiai nesutampa.",
     "sameAsCurrent": "Naujas slaptažodis turi skirtis nuo dabartinio slaptažodžio.",
+    "open": "Keisti slaptažodį",
+    "forgot": "Pamiršote slaptažodį?",
+    "forgotSending": "Siunčiama…",
+    "forgotSent": "Jei šioje paskyroje yra el. laiškas, išsiuntėme slaptažodžio nustatymo iš naujo nuorodą adresu {{email}}.",
+    "forgotError": "Nepavyko išsiųsti atstatymo el. laiško. Bandykite dar kartą.",
+    "cancel": "Atšaukti",
     "submit": "Atnaujinkite slaptažodį",
     "saving": "Atnaujinama…",
     "success": "Jūsų slaptažodis buvo atnaujintas.",

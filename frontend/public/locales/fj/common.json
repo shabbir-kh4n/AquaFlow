@@ -17,6 +17,12 @@
     "passwordLabel": "Vosavuni",
     "rememberMe": "Nanumi au",
     "forgotPassword": "Guilecava na vosanicuru?",
+    "forgotIntro": "Vakacuruma na imeli o sainitaka kina ka keitou na vakauta vei iko e dua na isema me vakavoutaki kina na nomu vosanicuru.",
+    "sendLink": "Vakauta na isema ni vakavoui",
+    "sendingLink": "Vakauta...",
+    "forgotSent": "Kevaka e sa rejisita {{email}}, e dua na isema ni vakavoui ni vosanicuru sa tiko ena kena sala. E oti ena 1 na auwa.",
+    "forgotError": "E sega ni rawa ni vakau na imeli ni vakavoui. Kerekere mo tovolea tale.",
+    "backToSignIn": "Lesu tale ki na saini",
     "submitting": "Saini ena...",
     "submit": "Saini",
     "noAccount": "Sega ni dua na nomu akaude?",
@@ -47,6 +53,21 @@
     "description": "Vakacuruma ki na nomu sikirini ni vale me baleta na totolo ni kena rawati.",
     "dismiss": "Vakasivoi",
     "install": "Vakacuruma"
+  },
+  "resetPassword": {
+    "title": "Vakavoutaka na nomu vosanicuru",
+    "subtitle": "Digitaka e dua na vosanicuru vou me baleta na nomu akaude HydroLedger.",
+    "errors": {
+      "tooShort": "Na vosanicuru e dodonu me lailai duadua na 8 na matanivola.",
+      "mismatch": "E sega ni veiganiti na vosanicuru.",
+      "fallback": "E sega ni rawa ni vakavoutaki na nomu vosanicuru. Sa rawa ni sa oti na kena gauna na isema."
+    },
+    "passwordLabel": "Vosanicuru vou",
+    "confirmPasswordLabel": "Vakadeitaka na vosanicuru vou",
+    "submitting": "Vakavoutaka...",
+    "submit": "Vakavoutaka na vosanicuru",
+    "success": "Sa vakavoutaki na nomu vosanicuru. Sa rawa mo saini ena kena.",
+    "backToSignIn": "Lesu tale ki na saini"
   },
   "setPassword": {
     "title": "Vakarautaka na nomu vosanicuru",
@@ -347,6 +368,12 @@
     "tooShort": "Na vosanicuru vou e dodonu me lailai duadua na {{min}} na matanivola.",
     "mismatch": "Na vosanicuru vou e sega ni veiganiti.",
     "sameAsCurrent": "Na vosanicuru vou e dodonu me duidui mai na nomu vosanicuru ena gauna oqo.",
+    "open": "Veisautaka na vosanicuru",
+    "forgot": "Guilecava na nomu vosanicuru?",
+    "forgotSending": "Vakauta...",
+    "forgotSent": "Kevaka e tiko ena akaude oqo e dua na imeli ena faile, keitou sa vakauta e dua na isema ni vakavoui ni vosanicuru ki na {{email}}.",
+    "forgotError": "E sega ni rawa ni vakau na imeli ni vakavoui. Kerekere mo tovolea tale.",
+    "cancel": "Biuta laivi",
     "submit": "Vakavoutaka na vosanicuru",
     "saving": "Vakavoui...",
     "success": "Sa vakavoutaki na nomu vosanicuru.",

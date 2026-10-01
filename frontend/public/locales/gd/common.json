@@ -17,6 +17,12 @@
     "passwordLabel": "Facal-faire",
     "rememberMe": "Cuimhnich ormsa",
     "forgotPassword": "An do dhìochuimhnich thu am facal-faire?",
+    "forgotIntro": "Cuir a-steach am post-d a chuir thu d’ ainm ris agus cuiridh sinn ceangal thugad gus am facal-faire agad ath-shuidheachadh.",
+    "sendLink": "Cuir ceangal ath-shuidheachadh",
+    "sendingLink": "A’ cur…",
+    "forgotSent": "Ma tha {{email}} clàraichte, tha ceangal ath-shuidheachadh facal-faire air an t-slighe. Thig e gu crìch ann an 1 uair.",
+    "forgotError": "Cha b' urrainn dhuinn am post-d ath-shuidheachadh a chuir. Feuch ris a-rithist.",
+    "backToSignIn": "Air ais airson clàradh a-steach",
     "submitting": "A’ clàradh a-steach…",
     "submit": "Soidhnig a-steach",
     "noAccount": "Chan eil cunntas agad?",
@@ -47,6 +53,21 @@
     "description": "Cuir ris an sgrìn dachaigh agad airson ruigsinneachd luath.",
     "dismiss": "Cur às",
     "install": "Stàladh"
+  },
+  "resetPassword": {
+    "title": "Ath-shuidhich am facal-faire agad",
+    "subtitle": "Tagh facal-faire ùr airson a' chunntais HydroLedger agad.",
+    "errors": {
+      "tooShort": "Feumaidh am facal-faire a bhith co-dhiù 8 caractaran.",
+      "mismatch": "Chan eil faclan-faire co-ionnan.",
+      "fallback": "Cha b' urrainn dhuinn am facal-faire agad ath-shuidheachadh. Is dòcha gu bheil an ceangal air tighinn gu crìch."
+    },
+    "passwordLabel": "Facal-faire ùr",
+    "confirmPasswordLabel": "Dearbhaich am facal-faire ùr",
+    "submitting": "Ag ath-shuidheachadh…",
+    "submit": "Ath-shuidhich am facal-faire",
+    "success": "Chaidh am facal-faire agad ath-shuidheachadh. Faodaidh tu a-nis clàradh a-steach leis.",
+    "backToSignIn": "Air ais airson clàradh a-steach"
   },
   "setPassword": {
     "title": "Suidhich am facal-faire agad",
@@ -347,6 +368,12 @@
     "tooShort": "Feumaidh co-dhiù {{min}} caractar a bhith aig facal-faire ùr.",
     "mismatch": "Chan eil na faclan-faire ùra a' freagairt.",
     "sameAsCurrent": "Feumaidh facal-faire ùr a bhith eadar-dhealaichte bhon fhacal-fhaire làithreach agad.",
+    "open": "Atharraich am facal-faire",
+    "forgot": "Na dhìochuimhnich thu am facal-faire agad?",
+    "forgotSending": "A’ cur…",
+    "forgotSent": "Ma tha post-d san fhaidhle aig a’ chunntas seo, chuir sinn ceangal ath-shuidheachadh facal-faire gu {{email}}.",
+    "forgotError": "Cha b' urrainn dhuinn am post-d ath-shuidheachadh a chuir. Feuch ris a-rithist.",
+    "cancel": "Sguir dheth",
     "submit": "Luchdaich a-nuas am facal-faire",
     "saving": "Ag ùrachadh…",
     "success": "Chaidh am facal-faire agad ùrachadh.",

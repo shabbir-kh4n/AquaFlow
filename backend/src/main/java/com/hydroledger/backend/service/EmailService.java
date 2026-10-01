@@ -38,6 +38,21 @@ public class EmailService {
         send(message, resident.getEmail(), "set-password");
     }
 
+    public void sendPasswordResetEmail(String recipientEmail, String recipientName, String link) {
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setTo(recipientEmail);
+        message.setSubject("Reset your HydroLedger password");
+        message.setText(
+                "Hi " + recipientName + ",\n\n"
+                        + "We received a request to reset your HydroLedger password. Choose a new one here:\n\n"
+                        + link + "\n\n"
+                        + "This link expires in 1 hour and can be used once.\n\n"
+                        + "If you didn't ask for this, you can ignore this email - your password won't change."
+        );
+
+        send(message, recipientEmail, "password-reset");
+    }
+
     public void sendInvoiceReadyEmail(Resident resident, String periodMonth, BigDecimal totalAmount, String link,
             byte[] invoicePdf) {
         String text =

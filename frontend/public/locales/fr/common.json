@@ -17,6 +17,12 @@
     "passwordLabel": "Mot de passe",
     "rememberMe": "Souviens-toi de moi",
     "forgotPassword": "Mot de passe oublié ?",
+    "forgotIntro": "Entrez l'e-mail avec lequel vous vous êtes inscrit et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "sendLink": "Envoyer le lien de réinitialisation",
+    "sendingLink": "Envoi…",
+    "forgotSent": "Si {{email}} est enregistré, un lien de réinitialisation du mot de passe est en route. Il expire dans 1 heure.",
+    "forgotError": "Impossible d'envoyer l'e-mail de réinitialisation. Veuillez réessayer.",
+    "backToSignIn": "Retour pour vous connecter",
     "submitting": "Connexion…",
     "submit": "Se connecter",
     "noAccount": "Vous n'avez pas de compte ?",
@@ -47,6 +53,21 @@
     "description": "Ajoutez-le à votre écran d'accueil pour un accès rapide.",
     "dismiss": "Rejeter",
     "install": "Installer"
+  },
+  "resetPassword": {
+    "title": "Réinitialisez votre mot de passe",
+    "subtitle": "Choisissez un nouveau mot de passe pour votre compte HydroLedger.",
+    "errors": {
+      "tooShort": "Le mot de passe doit comporter au moins 8 caractères.",
+      "mismatch": "Les mots de passe ne correspondent pas.",
+      "fallback": "Impossible de réinitialiser votre mot de passe. Le lien a peut-être expiré."
+    },
+    "passwordLabel": "Nouveau mot de passe",
+    "confirmPasswordLabel": "Confirmer le nouveau mot de passe",
+    "submitting": "Réinitialisation…",
+    "submit": "Réinitialiser le mot de passe",
+    "success": "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter avec.",
+    "backToSignIn": "Retour pour vous connecter"
   },
   "setPassword": {
     "title": "Définissez votre mot de passe",
@@ -347,6 +368,12 @@
     "tooShort": "Le nouveau mot de passe doit contenir au moins {{min}} caractères.",
     "mismatch": "Les nouveaux mots de passe ne correspondent pas.",
     "sameAsCurrent": "Le nouveau mot de passe doit être différent de votre mot de passe actuel.",
+    "open": "Changer le mot de passe",
+    "forgot": "Vous avez oublié votre mot de passe ?",
+    "forgotSending": "Envoi…",
+    "forgotSent": "Si ce compte a une adresse e-mail enregistrée, nous avons envoyé un lien de réinitialisation du mot de passe à {{email}}.",
+    "forgotError": "Impossible d'envoyer l'e-mail de réinitialisation. Veuillez réessayer.",
+    "cancel": "Annuler",
     "submit": "Mettre à jour le mot de passe",
     "saving": "Mise à jour…",
     "success": "Votre mot de passe a été mis à jour.",

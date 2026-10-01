@@ -176,3 +176,63 @@
     overflow-x: auto;
   }
 }
+
+.af-profile__view {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 20px;
+  margin: 0 0 14px;
+}
+
+.af-profile__view dt {
+  font-size: 11.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--af-text-muted);
+}
+
+.af-profile__view dd {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: var(--af-text-dark);
+  overflow-wrap: anywhere;
+}
+
+.af-profile__view-wide {
+  grid-column: 1 / -1;
+}
+
+.af-profile__edit-btn,
+.af-profile__cancel-btn {
+  height: 42px;
+  padding: 0 22px;
+  border-radius: 10px;
+  border: 1px solid var(--af-accent-2);
+  background: rgba(47, 107, 65, 0.08);
+  color: var(--af-accent-2);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.af-profile__edit-btn:hover:not(:disabled) {
+  background: rgba(47, 107, 65, 0.16);
+}
+
+.af-profile__cancel-btn {
+  border-color: var(--af-glass-border);
+  background: var(--af-white);
+  color: var(--af-text-dark);
+}
+
+.af-profile__edit-btn:disabled,
+.af-profile__cancel-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .af-profile__view {
+    grid-template-columns: 1fr;
+  }
+}

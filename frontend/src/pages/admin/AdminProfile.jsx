@@ -24,12 +24,15 @@ function AdminProfile() {
   const [profileSaving, setProfileSaving] = useState(false)
   const [profileError, setProfileError] = useState('')
   const [profileSaved, setProfileSaved] = useState(false)
+  // Details show as a read-only summary; Edit swaps in the form, Save/Cancel swaps it back.
+  const [editingProfile, setEditingProfile] = useState(false)
 
   const [apartment, setApartment] = useState(null)
   const [apartmentForm, setApartmentForm] = useState({ name: '', mainsSource: '', address: '' })
   const [apartmentSaving, setApartmentSaving] = useState(false)
   const [apartmentError, setApartmentError] = useState('')
   const [apartmentSaved, setApartmentSaved] = useState(false)
+  const [editingApartment, setEditingApartment] = useState(false)
 
   useEffect(() => {
     getAdminProfile().then((data) => {
@@ -51,6 +54,7 @@ function AdminProfile() {
       const updated = await updateAdminProfile(profileForm)
       setProfile(updated)
       setProfileSaved(true)
+      setEditingProfile(false)
     } catch (err) {
       setProfileError(err.response?.data?.message || t('profile.profileSaveError'))
     } finally {
@@ -67,11 +71,36 @@ function AdminProfile() {
       const updated = await updateApartment(apartmentForm)
       setApartment(updated)
       setApartmentSaved(true)
+      setEditingApartment(false)
     } catch (err) {
       setApartmentError(err.response?.data?.message || t('profile.apartmentSaveError'))
     } finally {
       setApartmentSaving(false)
     }
+  }
+
+  function startProfileEdit() {
+    setProfileForm({ fullName: profile.fullName, phone: profile.phone || '' })
+    setProfileError('')
+    setProfileSaved(false)
+    setEditingProfile(true)
+  }
+
+  function cancelProfileEdit() {
+    setProfileError('')
+    setEditingProfile(false)
+  }
+
+  function startApartmentEdit() {
+    setApartmentForm({ name: apartment.name, mainsSource: apartment.mainsSource || '', address: apartment.address || '' })
+    setApartmentError('')
+    setApartmentSaved(false)
+    setEditingApartment(true)
+  }
+
+  function cancelApartmentEdit() {
+    setApartmentError('')
+    setEditingApartment(false)
   }
 
   return (
@@ -109,6 +138,34 @@ function AdminProfile() {
             />
           </div>
 
+          {!editingProfile ? (
+            <>
+              <dl className="af-profile__view">
+                <div>
+                  <dt>{t('profile.fields.fullName')}</dt>
+                  <dd>{profile?.fullName || '—'}</dd>
+                </div>
+                <div>
+                  <dt>{t('profile.fields.email')}</dt>
+                  <dd>{profile?.email || '—'}</dd>
+                </div>
+                <div>
+                  <dt>{t('profile.fields.phone')}</dt>
+                  <dd>{profile?.phone || '—'}</dd>
+                </div>
+                <div>
+                  <dt>{t('profile.fields.accessLevel')}</dt>
+                  <dd>{t('profile.fields.accessLevelValue')}</dd>
+                </div>
+              </dl>
+              <div className="af-profile__save-row">
+                {profileSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
+                <button type="button" className="af-profile__edit-btn" disabled={!profile} onClick={startProfileEdit}>
+                  {t('shared.edit')}
+                </button>
+              </div>
+            </>
+          ) : (
           <form onSubmit={handleProfileSubmit}>
             {profileError && <div className="af-form__error">{profileError}</div>}
             <div className="af-form__row">
@@ -146,16 +203,43 @@ function AdminProfile() {
               </div>
             </div>
             <div className="af-profile__save-row">
-              {profileSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
+              <button type="button" className="af-profile__cancel-btn" disabled={profileSaving} onClick={cancelProfileEdit}>
+                {t('shared.cancel')}
+              </button>
               <button type="submit" className="af-form__submit" disabled={profileSaving || !profile}>
                 {profileSaving ? t('shared.saving') : t('profile.saveProfile')}
               </button>
             </div>
           </form>
+          )}
         </section>
 
         <section className="af-profile__panel">
           <h3>{t('profile.apartmentTitle')}</h3>
+          {!editingApartment ? (
+            <>
+              <dl className="af-profile__view">
+                <div>
+                  <dt>{t('profile.fields.apartmentName')}</dt>
+                  <dd>{apartment?.name || '—'}</dd>
+                </div>
+                <div>
+                  <dt>{t('profile.fields.mainsSource')}</dt>
+                  <dd>{apartment?.mainsSource || '—'}</dd>
+                </div>
+                <div className="af-profile__view-wide">
+                  <dt>{t('profile.fields.address')}</dt>
+                  <dd>{apartment?.address || '—'}</dd>
+                </div>
+              </dl>
+              <div className="af-profile__save-row">
+                {apartmentSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
+                <button type="button" className="af-profile__edit-btn" disabled={!apartment} onClick={startApartmentEdit}>
+                  {t('shared.edit')}
+                </button>
+              </div>
+            </>
+          ) : (
           <form onSubmit={handleApartmentSubmit}>
             {apartmentError && <div className="af-form__error">{apartmentError}</div>}
             <div className="af-form__row">
@@ -197,12 +281,15 @@ function AdminProfile() {
               </div>
             </div>
             <div className="af-profile__save-row">
-              {apartmentSaved && <span className="af-profile__saved">{t('shared.saved')}</span>}
+              <button type="button" className="af-profile__cancel-btn" disabled={apartmentSaving} onClick={cancelApartmentEdit}>
+                {t('shared.cancel')}
+              </button>
               <button type="submit" className="af-form__submit" disabled={apartmentSaving || !apartment}>
                 {apartmentSaving ? t('shared.saving') : t('profile.saveApartment')}
               </button>
             </div>
           </form>
+          )}
         </section>
       </div>
 

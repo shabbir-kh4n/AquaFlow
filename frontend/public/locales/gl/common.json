@@ -17,6 +17,12 @@
     "passwordLabel": "Contrasinal",
     "rememberMe": "Lémbrame",
     "forgotPassword": "Esqueciches o contrasinal?",
+    "forgotIntro": "Introduce o correo electrónico co que te rexistrastes e enviarémosche unha ligazón para restablecer o teu contrasinal.",
+    "sendLink": "Enviar ligazón de restablecemento",
+    "sendingLink": "Enviando…",
+    "forgotSent": "Se {{email}} está rexistrado, unha ligazón para restablecer o contrasinal está en camiño. Caduca en 1 hora.",
+    "forgotError": "Non se puido enviar o correo electrónico de restablecemento. Téntao de novo.",
+    "backToSignIn": "Volver para iniciar sesión",
     "submitting": "Iniciando sesión...",
     "submit": "Iniciar sesión",
     "noAccount": "Non tes unha conta?",
@@ -47,6 +53,21 @@
     "description": "Engádeo á túa pantalla de inicio para acceder rapidamente.",
     "dismiss": "Descartar",
     "install": "Instalar"
+  },
+  "resetPassword": {
+    "title": "Restablece o teu contrasinal",
+    "subtitle": "Escolla un novo contrasinal para a súa conta HydroLedger.",
+    "errors": {
+      "tooShort": "O contrasinal debe ter polo menos 8 caracteres.",
+      "mismatch": "Os contrasinais non coinciden.",
+      "fallback": "Non se puido restablecer o teu contrasinal. É posible que a ligazón caducou."
+    },
+    "passwordLabel": "Contrasinal novo",
+    "confirmPasswordLabel": "Confirme o novo contrasinal",
+    "submitting": "Restablecendo…",
+    "submit": "Restablecer o contrasinal",
+    "success": "Restableceuse o teu contrasinal. Agora podes iniciar sesión con el.",
+    "backToSignIn": "Volver para iniciar sesión"
   },
   "setPassword": {
     "title": "Establece o teu contrasinal",
@@ -347,6 +368,12 @@
     "tooShort": "O novo contrasinal debe ter polo menos {{min}} caracteres.",
     "mismatch": "Os contrasinais novos non coinciden.",
     "sameAsCurrent": "O novo contrasinal debe ser diferente do teu contrasinal actual.",
+    "open": "Cambiar contrasinal",
+    "forgot": "Esqueceches o teu contrasinal?",
+    "forgotSending": "Enviando…",
+    "forgotSent": "Se esta conta ten un correo electrónico rexistrado, enviamos unha ligazón para restablecer o contrasinal a {{email}}.",
+    "forgotError": "Non se puido enviar o correo electrónico de restablecemento. Téntao de novo.",
+    "cancel": "Cancelar",
     "submit": "Actualizar contrasinal",
     "saving": "Actualizando…",
     "success": "Actualizouse o teu contrasinal.",

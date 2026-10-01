@@ -17,6 +17,12 @@
     "passwordLabel": "Salasana",
     "rememberMe": "Muista minut",
     "forgotPassword": "Unohditko salasanan?",
+    "forgotIntro": "Anna sähköpostiosoitteesi, jolla rekisteröidyit, niin lähetämme sinulle linkin salasanan vaihtamiseen.",
+    "sendLink": "Lähetä nollauslinkki",
+    "sendingLink": "Lähetetään…",
+    "forgotSent": "Jos {{email}} on rekisteröity, salasanan palautuslinkki on matkalla. Se vanhenee 1 tunnin kuluttua.",
+    "forgotError": "Nollaussähköpostia ei voitu lähettää. Yritä uudelleen.",
+    "backToSignIn": "Takaisin kirjautumaan sisään",
     "submitting": "Kirjaudutaan sisään…",
     "submit": "Kirjaudu sisään",
     "noAccount": "Eikö sinulla ole tiliä?",
@@ -47,6 +53,21 @@
     "description": "Lisää se aloitusnäyttöön nopeaa käyttöä varten.",
     "dismiss": "Hylkää",
     "install": "Asentaa"
+  },
+  "resetPassword": {
+    "title": "Palauta salasanasi",
+    "subtitle": "Valitse uusi salasana HydroLedger-tilillesi.",
+    "errors": {
+      "tooShort": "Salasanassa on oltava vähintään 8 merkkiä.",
+      "mismatch": "Salasanat eivät täsmää.",
+      "fallback": "Salasanaasi ei voitu nollata. Linkki saattaa olla vanhentunut."
+    },
+    "passwordLabel": "Uusi salasana",
+    "confirmPasswordLabel": "Vahvista uusi salasana",
+    "submitting": "Nollataan…",
+    "submit": "Palauta salasana",
+    "success": "Salasanasi on nollattu. Voit nyt kirjautua sisään sillä.",
+    "backToSignIn": "Takaisin kirjautumaan sisään"
   },
   "setPassword": {
     "title": "Aseta salasanasi",
@@ -347,6 +368,12 @@
     "tooShort": "Uuden salasanan on oltava vähintään {{min}} merkkiä.",
     "mismatch": "Uudet salasanat eivät täsmää.",
     "sameAsCurrent": "Uuden salasanan on oltava eri kuin nykyinen salasanasi.",
+    "open": "Vaihda salasana",
+    "forgot": "Unohditko salasanasi?",
+    "forgotSending": "Lähetetään…",
+    "forgotSent": "Jos tällä tilillä on sähköposti, olemme lähettäneet salasanan palautuslinkin osoitteeseen {{email}}.",
+    "forgotError": "Nollaussähköpostia ei voitu lähettää. Yritä uudelleen.",
+    "cancel": "Peruuttaa",
     "submit": "Päivitä salasana",
     "saving": "Päivitetään…",
     "success": "Salasanasi on päivitetty.",

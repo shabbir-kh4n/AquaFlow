@@ -17,6 +17,12 @@
     "passwordLabel": "Parool",
     "rememberMe": "Pea mind meeles",
     "forgotPassword": "Unustasid parooli?",
+    "forgotIntro": "Sisestage e-posti aadress, millega registreerusite ja me saadame teile lingi parooli lähtestamiseks.",
+    "sendLink": "Saada lähtestamise link",
+    "sendingLink": "Saatmine…",
+    "forgotSent": "Kui {{email}} on registreeritud, on parooli lähtestamise link teel. See aegub 1 tunni pärast.",
+    "forgotError": "Lähtestamismeili ei saanud saata. Palun proovi uuesti.",
+    "backToSignIn": "Tagasi sisselogimiseks",
     "submitting": "Sisselogimine…",
     "submit": "Logi sisse",
     "noAccount": "Kas teil pole kontot?",
@@ -47,6 +53,21 @@
     "description": "Kiireks juurdepääsuks lisage see oma avakuvale.",
     "dismiss": "Loobu",
     "install": "Installige"
+  },
+  "resetPassword": {
+    "title": "Lähtestage oma parool",
+    "subtitle": "Valige oma HydroLedger konto jaoks uus parool.",
+    "errors": {
+      "tooShort": "Parool peab koosnema vähemalt 8 tähemärgist.",
+      "mismatch": "Paroolid ei ühti.",
+      "fallback": "Teie parooli ei saanud lähtestada. Link võib olla aegunud."
+    },
+    "passwordLabel": "Uus parool",
+    "confirmPasswordLabel": "Kinnitage uus parool",
+    "submitting": "Lähtestamine…",
+    "submit": "Lähtestage parool",
+    "success": "Teie parool on lähtestatud. Nüüd saate sellega sisse logida.",
+    "backToSignIn": "Tagasi sisselogimiseks"
   },
   "setPassword": {
     "title": "Seadke oma parool",
@@ -347,6 +368,12 @@
     "tooShort": "Uus parool peab koosnema vähemalt {{min}} tähemärgist.",
     "mismatch": "Uued paroolid ei ühti.",
     "sameAsCurrent": "Uus parool peab erinema teie praegusest paroolist.",
+    "open": "Muuda parooli",
+    "forgot": "Unustasite parooli?",
+    "forgotSending": "Saatmine…",
+    "forgotSent": "Kui sellel kontol on salvestatud meil, oleme saatnud parooli lähtestamise lingi aadressile {{email}}.",
+    "forgotError": "Lähtestamismeili ei saanud saata. Palun proovi uuesti.",
+    "cancel": "Tühista",
     "submit": "Uuenda parooli",
     "saving": "Värskendamine…",
     "success": "Teie parool on uuendatud.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Parol",
     "rememberMe": "Meni ýatla",
     "forgotPassword": "Paroly ýatdan çykardyňyzmy?",
+    "forgotIntro": "Hasaba giren e-poçtaňyzy giriziň we parolyňyzy täzeden düzmek üçin baglanyşyk ibereris.",
+    "sendLink": "Täzeden baglanyşyk iberiň",
+    "sendingLink": "Ibermek…",
+    "forgotSent": "{{email}} hasaba alnan bolsa, paroly täzeden düzmek baglanyşygy bar. 1 sagadyň içinde gutarýar.",
+    "forgotError": "Täzeden düzülen e-poçta iberip bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "backToSignIn": "Hasaba girmek üçin gaýdyp geliň",
     "submitting": "Hasaba girmek ...",
     "submit": "Giriň",
     "noAccount": "Hasabyňyz ýokmy?",
@@ -47,6 +53,21 @@
     "description": "Çalt girmek üçin baş ekrana goşuň.",
     "dismiss": "Işden aýyrmak",
     "install": "Gurnama"
+  },
+  "resetPassword": {
+    "title": "Parolyňyzy täzeden düzüň",
+    "subtitle": "HydroLedger hasabyňyz üçin täze parol saýlaň.",
+    "errors": {
+      "tooShort": "Parol azyndan 8 simwoldan ybarat bolmaly",
+      "mismatch": "Parollar gabat gelenok",
+      "fallback": "Parolyňyzy täzeden düzüp bolmady Baglanyşygyň möhleti gutaran bolmagy mümkin."
+    },
+    "passwordLabel": "Täze parol",
+    "confirmPasswordLabel": "Täze paroly tassyklaň",
+    "submitting": "Täzeden düzmek…",
+    "submit": "Paroly täzeden düzmek",
+    "success": "Parolyňyz täzeden düzüldi Indi onuň bilen girip bilersiňiz.",
+    "backToSignIn": "Hasaba girmek üçin gaýdyp geliň"
   },
   "setPassword": {
     "title": "Parolyňyzy düzüň",
@@ -347,6 +368,12 @@
     "tooShort": "Täze parol iň bolmanda {{min}} nyşan bolmaly.",
     "mismatch": "Täze parollar gabat gelenok",
     "sameAsCurrent": "Täze parol häzirki parolyňyzdan tapawutly bolmaly.",
+    "open": "Paroly üýtgetmek",
+    "forgot": "Parolyňyzy ýatdan çykardyňyzmy?",
+    "forgotSending": "Ibermek…",
+    "forgotSent": "If this account has an email on file, we have sent a password reset link to {{email}}.",
+    "forgotError": "Täzeden düzülen e-poçta iberip bolmady Gaýtadan synanyşmagyňyzy haýyş edýäris.",
+    "cancel": "Elatyr",
     "submit": "Paroly täzeläň",
     "saving": "Täzelenme…",
     "success": "Parolyňyz täzelendi",

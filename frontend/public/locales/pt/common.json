@@ -17,6 +17,12 @@
     "passwordLabel": "Senha",
     "rememberMe": "Lembre de mim",
     "forgotPassword": "Esqueceu sua senha?",
+    "forgotIntro": "Digite o e-mail com o qual você se inscreveu e enviaremos um link para redefinir sua senha.",
+    "sendLink": "Enviar link de redefinição",
+    "sendingLink": "Enviando…",
+    "forgotSent": "Se {{email}} estiver registrado, um link de redefinição de senha estará a caminho. Expira em 1 hora.",
+    "forgotError": "Não foi possível enviar o email de redefinição. Por favor, tente novamente.",
+    "backToSignIn": "Voltar para fazer login",
     "submitting": "Fazendo login…",
     "submit": "Entrar",
     "noAccount": "Não tem uma conta?",
@@ -47,6 +53,21 @@
     "description": "Adicione-o à sua tela inicial para acesso rápido.",
     "dismiss": "Liberar",
     "install": "Instalar"
+  },
+  "resetPassword": {
+    "title": "Redefinir sua senha",
+    "subtitle": "Escolha uma nova senha para sua conta HydroLedger.",
+    "errors": {
+      "tooShort": "A senha deve ter pelo menos 8 caracteres.",
+      "mismatch": "As senhas não coincidem.",
+      "fallback": "Não foi possível redefinir sua senha. O link pode ter expirado."
+    },
+    "passwordLabel": "Nova Senha",
+    "confirmPasswordLabel": "Confirme a nova senha",
+    "submitting": "Redefinindo…",
+    "submit": "Redefinir senha",
+    "success": "Sua senha foi redefinida. Agora você pode fazer login com ele.",
+    "backToSignIn": "Voltar para fazer login"
   },
   "setPassword": {
     "title": "Defina sua senha",
@@ -347,6 +368,12 @@
     "tooShort": "A nova senha deve ter pelo menos {{min}} caracteres.",
     "mismatch": "As novas senhas não coincidem.",
     "sameAsCurrent": "A nova senha deve ser diferente da sua senha atual.",
+    "open": "Alterar a senha",
+    "forgot": "Esqueceu sua senha?",
+    "forgotSending": "Enviando…",
+    "forgotSent": "Se esta conta tiver um e-mail registrado, enviamos um link de redefinição de senha para {{email}}.",
+    "forgotError": "Não foi possível enviar o email de redefinição. Por favor, tente novamente.",
+    "cancel": "Cancelar",
     "submit": "Atualizar senha",
     "saving": "Atualizando…",
     "success": "Sua senha foi atualizada.",

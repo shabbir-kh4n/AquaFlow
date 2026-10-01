@@ -17,6 +17,12 @@
     "passwordLabel": "Furaha",
     "rememberMe": "I xasuuso",
     "forgotPassword": "Ilmaamay erayga sirta ah?",
+    "forgotIntro": "Geli iimaylka aad wax ku qortay waxaanu kuu soo diri doonaa xidhiidh aad dib ugu dejiso eraygaaga sirta ah.",
+    "sendLink": "Soo dir xiriirinta dib u dejinta",
+    "sendingLink": "Diraya…",
+    "forgotSent": "Haddii {{email}} uu diiwaangashan yahay, isku xirka dib u habeynta erayga sirta ah ayaa soo socda. Waxay ku dhacaysaa 1 saac gudahood.",
+    "forgotError": "Ma diri karo iimaylka dib u dajinta Fadlan isku day mar kale",
+    "backToSignIn": "Ku laabo si aad u soo gasho",
     "submitting": "Soo galitaanka…",
     "submit": "Soo gal",
     "noAccount": "Xisaab ma lihid?",
@@ -47,6 +53,21 @@
     "description": "Ku dar shaashadda gurigaaga si aad dhaqso u gasho.",
     "dismiss": "Eryi",
     "install": "Ku rakib"
+  },
+  "resetPassword": {
+    "title": "Dib u deji eraygaaga sirta ah",
+    "subtitle": "Dooro eraygaaga sirta ah ee cusub HydroLedger.",
+    "errors": {
+      "tooShort": "Erayga sirta ah waa inuu ahaadaa ugu yaraan 8 xaraf.",
+      "mismatch": "Erayada sirta ah isma dhigmaan",
+      "fallback": "Dib u dajin kari waayay eraygaaga sirta ah Xidhiidhku waxa laga yaabaa inuu dhacay"
+    },
+    "passwordLabel": "Furaha cusub",
+    "confirmPasswordLabel": "Xaqiiji erayga sirta ah ee cusub",
+    "submitting": "Dib u dejinta…",
+    "submit": "Dib u deji erayga sirta ah",
+    "success": "Furahaaga dib baa loo dajiyay Hadda waad ku soo geli kartaa",
+    "backToSignIn": "Ku laabo si aad u soo gasho"
   },
   "setPassword": {
     "title": "Deji eraygaaga sirta ah",
@@ -347,6 +368,12 @@
     "tooShort": "Erayga cusub waa inuu noqdaa ugu yaraan {{min}} xarfo.",
     "mismatch": "Furaha cusubi isma dhigmaan",
     "sameAsCurrent": "Furaha cusubi waa inuu ka duwan yahay eraygaaga sirta ah ee hadda.",
+    "open": "Beddel erayga sirta ah",
+    "forgot": "Ma illowday eraygaaga sirta ah?",
+    "forgotSending": "Diraya…",
+    "forgotSent": "Haddii akoonkan uu ku leeyahay iimayl faylka, waxaanu u dirnay xidhiidhka dib u habeynta erayga sirta ah {{email}}.",
+    "forgotError": "Ma diri karo iimaylka dib u dajinta Fadlan isku day mar kale",
+    "cancel": "Jooji",
     "submit": "Cusbooneysii erayga sirta ah",
     "saving": "Cusboonaysiinta…",
     "success": "Furahaaga sirta ah waa la cusboonaysiiyay",

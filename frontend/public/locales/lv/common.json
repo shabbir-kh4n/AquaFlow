@@ -17,6 +17,12 @@
     "passwordLabel": "Parole",
     "rememberMe": "Atcerieties mani",
     "forgotPassword": "Aizmirsāt paroli?",
+    "forgotIntro": "Ievadiet e-pasta adresi, ar kuru reģistrējāties, un mēs jums nosūtīsim saiti paroles atiestatīšanai.",
+    "sendLink": "Nosūtīt atiestatīšanas saiti",
+    "sendingLink": "Notiek sūtīšana…",
+    "forgotSent": "Ja {{email}} ir reģistrēts, paroles atiestatīšanas saite ir ceļā. Tas beidzas pēc 1 stundas.",
+    "forgotError": "Nevarēja nosūtīt atiestatīšanas e-pasta ziņojumu. Lūdzu, mēģiniet vēlreiz.",
+    "backToSignIn": "Atgriezties, lai pierakstītos",
     "submitting": "Notiek pierakstīšanās…",
     "submit": "Pierakstīties",
     "noAccount": "Vai jums nav konta?",
@@ -47,6 +53,21 @@
     "description": "Pievienojiet to sākuma ekrānam, lai ātri piekļūtu.",
     "dismiss": "Atlaist",
     "install": "Instalējiet"
+  },
+  "resetPassword": {
+    "title": "Atiestatiet savu paroli",
+    "subtitle": "Izvēlieties jaunu paroli savam HydroLedger kontam.",
+    "errors": {
+      "tooShort": "Parolei ir jābūt vismaz 8 rakstzīmēm.",
+      "mismatch": "Paroles nesakrīt.",
+      "fallback": "Nevarēja atiestatīt jūsu paroli. Iespējams, saitei ir beidzies derīguma termiņš."
+    },
+    "passwordLabel": "Jauna parole",
+    "confirmPasswordLabel": "Apstipriniet jauno paroli",
+    "submitting": "Notiek atiestatīšana…",
+    "submit": "Atiestatīt paroli",
+    "success": "Jūsu parole ir atiestatīta. Tagad varat pierakstīties ar to.",
+    "backToSignIn": "Atgriezties, lai pierakstītos"
   },
   "setPassword": {
     "title": "Iestatiet savu paroli",
@@ -347,6 +368,12 @@
     "tooShort": "Jaunajai parolei ir jābūt vismaz {{min}} rakstzīmēm.",
     "mismatch": "Jaunās paroles nesakrīt.",
     "sameAsCurrent": "Jaunajai parolei ir jāatšķiras no pašreizējās paroles.",
+    "open": "Mainiet paroli",
+    "forgot": "Aizmirsāt paroli?",
+    "forgotSending": "Notiek sūtīšana…",
+    "forgotSent": "Ja šajā kontā ir reģistrēts e-pasta ziņojums, mēs esam nosūtījuši paroles atiestatīšanas saiti uz {{email}}.",
+    "forgotError": "Nevarēja nosūtīt atiestatīšanas e-pasta ziņojumu. Lūdzu, mēģiniet vēlreiz.",
+    "cancel": "Atcelt",
     "submit": "Atjaunināt paroli",
     "saving": "Notiek atjaunināšana…",
     "success": "Jūsu parole ir atjaunināta.",

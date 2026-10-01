@@ -17,6 +17,12 @@
     "passwordLabel": "Leafūfū",
     "rememberMe": "Manatu'i au .",
     "forgotPassword": "Ngalo 'a e lea fufuu?",
+    "forgotIntro": "Fakahu 'a e 'imeili na'a ke fakamo'oni hingoa ki ai pea te mau 'oatu ha fehokotaki'anga ke toe fokotu'u ho'o lea fufuu.",
+    "sendLink": "Fekau'i atu 'a e fehokotaki'anga reset",
+    "sendingLink": "Ko hono 'ave...",
+    "forgotSent": "Kapau 'oku lesisita 'a e {{email}}, 'oku 'i hono hala ha fehokotaki'anga fakafoki 'o e lea fufuu. 'Oku 'osi ia 'i he houa 'e 1.",
+    "forgotError": "Na'e 'ikai lava ke 'ave 'a e 'imeili reset. Kātaki ʻo toe feinga.",
+    "backToSignIn": "Foki ki he fakamo'oni hingoa",
     "submitting": "Fakamo'oni hingoa...",
     "submit": "Fakamoʻoni",
     "noAccount": "'Oku 'ikai ha'o 'akauni?",
@@ -47,6 +53,21 @@
     "description": "Tānaki atu ia ki hoʻo screen ʻi ʻapí ke vave ʻa e hū ki aí.",
     "dismiss": "Tukuange ke alu",
     "install": "Fokotu'u"
+  },
+  "resetPassword": {
+    "title": "Toe fokotuʻu hoʻo lea fufuú",
+    "subtitle": "Fili ha lea fufuu foʻou ki hoʻo ʻakauni HydroLedger.",
+    "errors": {
+      "tooShort": "Ko e password kuo pau ke 'oua 'e si'i hifo he mata'itohi 'e 8.",
+      "mismatch": "ʻOku ʻikai ke feʻunga ʻa e ngaahi lea fufuú.",
+      "fallback": "Na'e 'ikai lava ke toe fokotu'u ho'o lea fufuu. Mahalo kuo ʻosi ʻa e taimi ʻo e fehokotakiʻangá."
+    },
+    "passwordLabel": "Lea fufuu fo'ou",
+    "confirmPasswordLabel": "Fakapapau'i 'a e lea fufuu fo'ou",
+    "submitting": "Toe fokotu'u...",
+    "submit": "Toe fokotuʻu ʻa e lea fufuú",
+    "success": "Kuo toe fokotuʻu hoʻo lea fufuú. Te ke lava ʻeni ʻo fakamoʻoni hingoa ʻaki ia.",
+    "backToSignIn": "Foki ki he fakamo'oni hingoa"
   },
   "setPassword": {
     "title": "Seti ho'o lea fufuu .",
@@ -347,6 +368,12 @@
     "tooShort": "Ko e lea fufuu fo'ou kuo pau ke 'oua 'e si'i hifo he {{min}} mata'itohi.",
     "mismatch": "'Oku 'ikai ke fe'unga 'a e ngaahi lea fufuu fo'ou.",
     "sameAsCurrent": "Kuo pau ke kehe ʻa e lea fufuu foʻoú mei hoʻo lea fufuu lolotongá.",
+    "open": "Liliu e lea fufuu",
+    "forgot": "Ngalo ho'o lea fufuu?",
+    "forgotSending": "Ko hono 'ave...",
+    "forgotSent": "Kapau 'oku 'i ai ha 'imeili 'i he faile 'o e 'akauni ko 'eni, kuo mau 'ave ha fehokotaki'anga fakafoki 'o e lea fufuu ki he {{email}}.",
+    "forgotError": "Na'e 'ikai lava ke 'ave 'a e 'imeili reset. Kātaki ʻo toe feinga.",
+    "cancel": "Kaniseli",
     "submit": "Fakafo'ou 'a e lea fufuu",
     "saving": "Fakafo'ou...",
     "success": "Kuo fakafo'ou ho'o lea fufuu.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Wachtwoord",
     "rememberMe": "Onthoud mij",
     "forgotPassword": "Wachtwoord vergeten?",
+    "forgotIntro": "Voer het e-mailadres in waarmee u zich heeft aangemeld en wij sturen u een link om uw wachtwoord opnieuw in te stellen.",
+    "sendLink": "Resetlink verzenden",
+    "sendingLink": "Verzenden…",
+    "forgotSent": "Als {{email}} is geregistreerd, is er een link voor het opnieuw instellen van het wachtwoord onderweg. Het verloopt over 1 uur.",
+    "forgotError": "Kan de reset-e-mail niet verzenden. Probeer het opnieuw.",
+    "backToSignIn": "Terug naar inloggen",
     "submitting": "Inloggen…",
     "submit": "Inloggen",
     "noAccount": "Heeft u geen account?",
@@ -47,6 +53,21 @@
     "description": "Voeg het toe aan uw startscherm voor snelle toegang.",
     "dismiss": "Afwijzen",
     "install": "Installeren"
+  },
+  "resetPassword": {
+    "title": "Reset uw wachtwoord",
+    "subtitle": "Kies een nieuw wachtwoord voor uw HydroLedger-account.",
+    "errors": {
+      "tooShort": "Wachtwoord moet minimaal 8 tekens lang zijn.",
+      "mismatch": "Wachtwoorden komen niet overeen.",
+      "fallback": "Kan uw wachtwoord niet opnieuw instellen. Mogelijk is de link verlopen."
+    },
+    "passwordLabel": "Nieuw wachtwoord",
+    "confirmPasswordLabel": "Bevestig nieuw wachtwoord",
+    "submitting": "Resetten…",
+    "submit": "Wachtwoord opnieuw instellen",
+    "success": "Uw wachtwoord is opnieuw ingesteld. U kunt er nu mee inloggen.",
+    "backToSignIn": "Terug naar inloggen"
   },
   "setPassword": {
     "title": "Stel uw wachtwoord in",
@@ -347,6 +368,12 @@
     "tooShort": "Nieuw wachtwoord moet minimaal {{min}} tekens bevatten.",
     "mismatch": "De nieuwe wachtwoorden komen niet overeen.",
     "sameAsCurrent": "Het nieuwe wachtwoord moet anders zijn dan uw huidige wachtwoord.",
+    "open": "Wachtwoord wijzigen",
+    "forgot": "Wachtwoord vergeten?",
+    "forgotSending": "Verzenden…",
+    "forgotSent": "Als er voor dit account een e-mailadres is geregistreerd, hebben we een link voor het opnieuw instellen van het wachtwoord naar {{email}} gestuurd.",
+    "forgotError": "Kan de reset-e-mail niet verzenden. Probeer het opnieuw.",
+    "cancel": "Annuleren",
     "submit": "Wachtwoord bijwerken",
     "saving": "Updaten…",
     "success": "Uw wachtwoord is bijgewerkt.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Numera e le iloa e sesi",
     "rememberMe": "Manatua mai a'u",
     "forgotPassword": "Ua galo upu faataga?",
+    "forgotIntro": "Ulufale i le imeli na e saini ai ma o le a matou tuʻuina atu ia te oe se fesoʻotaʻiga e toe setiina ai lau faʻaupuga.",
+    "sendLink": "Auina le toe setiina o sootaga",
+    "sendingLink": "Tuuina atu…",
+    "forgotSent": "Afai ua resitalaina {{email}}, o lo'o aga'i mai le feso'ota'iga toe setiina o upu fa'aoga. E muta i le 1 itula.",
+    "forgotError": "Le mafai ona lafo le imeli toe setiina. Fa'amolemole toe taumafai.",
+    "backToSignIn": "Toe fo'i e saini i totonu",
     "submitting": "Saini i totonu…",
     "submit": "Saini ese j",
     "noAccount": "E leai se tala?",
@@ -47,6 +53,21 @@
     "description": "Fa'aopoopo i lau lau fale mo le vave maua.",
     "dismiss": "Fa'ate'a",
     "install": "Fa'apipi'i"
+  },
+  "resetPassword": {
+    "title": "Toe setiina lau upu faataga",
+    "subtitle": "Filifili se upu faataga fou mo lau HydroLedger.",
+    "errors": {
+      "tooShort": "O le upu faataga e tatau ona le itiiti ifo ma le 8 mataitusi.",
+      "mismatch": "E le fetaui upu faataga.",
+      "fallback": "Le mafai ona toe setiina lau upu faataga. Atonu ua uma le sootaga."
+    },
+    "passwordLabel": "Upu faataga fou",
+    "confirmPasswordLabel": "Fa'amautu upu fou",
+    "submitting": "Toe setiina...",
+    "submit": "Toe seti upu faataga",
+    "success": "Ua toe setiina lau upu faataga. Ua mafai nei ona e saini i totonu.",
+    "backToSignIn": "Toe fo'i e saini i totonu"
   },
   "setPassword": {
     "title": "Seti lau upu faataga",
@@ -347,6 +368,12 @@
     "tooShort": "O upu fou e tatau ona le itiiti ifo i le {{min}} mataitusi.",
     "mismatch": "E le fetaui upu faataga fou.",
     "sameAsCurrent": "E tatau ona ese le uputatala fou mai lau upu faataga o iai nei.",
+    "open": "Suia upu faataga",
+    "forgot": "Ua galo lau upu faataga?",
+    "forgotSending": "Tuuina atu…",
+    "forgotSent": "Afai ei ai se imeli i luga o le faila i lenei tala, ua matou lafoina se feso'ota'iga toe setiina o upu fa'aigoa i le {{email}}.",
+    "forgotError": "Le mafai ona lafo le imeli toe setiina. Fa'amolemole toe taumafai.",
+    "cancel": "Fa'aleaogaina",
     "submit": "Faafou upu faataga",
     "saving": "Fa'afou...",
     "success": "Ua toe faafou lau upu faataga.",

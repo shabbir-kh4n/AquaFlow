@@ -17,6 +17,12 @@
     "passwordLabel": "Contraseña",
     "rememberMe": "Acuérdate de mí",
     "forgotPassword": "¿Has olvidado tu contraseña?",
+    "forgotIntro": "Ingresa el correo electrónico con el que te registraste y te enviaremos un enlace para restablecer tu contraseña.",
+    "sendLink": "Enviar enlace de reinicio",
+    "sendingLink": "Envío…",
+    "forgotSent": "Si {{email}} está registrado, un enlace para restablecer la contraseña está en camino. Caduca en 1 hora.",
+    "forgotError": "No se pudo enviar el correo electrónico de restablecimiento. Por favor inténtalo de nuevo.",
+    "backToSignIn": "Volver para iniciar sesión",
     "submitting": "Iniciando sesión…",
     "submit": "Iniciar sesión",
     "noAccount": "¿No tienes una cuenta?",
@@ -47,6 +53,21 @@
     "description": "Agréguelo a su pantalla de inicio para un acceso rápido.",
     "dismiss": "Despedir",
     "install": "Instalar"
+  },
+  "resetPassword": {
+    "title": "Restablece tu contraseña",
+    "subtitle": "Elija una nueva contraseña para su cuenta HydroLedger.",
+    "errors": {
+      "tooShort": "La contraseña debe tener al menos 8 caracteres.",
+      "mismatch": "Las contraseñas no coinciden.",
+      "fallback": "No se pudo restablecer su contraseña. Es posible que el enlace haya caducado."
+    },
+    "passwordLabel": "Nueva contraseña",
+    "confirmPasswordLabel": "Confirmar nueva contraseña",
+    "submitting": "Restableciendo…",
+    "submit": "Restablecer contraseña",
+    "success": "Su contraseña ha sido restablecida. Ahora puedes iniciar sesión con él.",
+    "backToSignIn": "Volver para iniciar sesión"
   },
   "setPassword": {
     "title": "Establece tu contraseña",
@@ -347,6 +368,12 @@
     "tooShort": "La nueva contraseña debe tener al menos {{min}} caracteres.",
     "mismatch": "Las nuevas contraseñas no coinciden.",
     "sameAsCurrent": "La nueva contraseña debe ser diferente de su contraseña actual.",
+    "open": "Cambiar la contraseña",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "forgotSending": "Envío…",
+    "forgotSent": "Si esta cuenta tiene un correo electrónico registrado, hemos enviado un enlace para restablecer la contraseña a {{email}}.",
+    "forgotError": "No se pudo enviar el correo electrónico de restablecimiento. Por favor inténtalo de nuevo.",
+    "cancel": "Cancelar",
     "submit": "Actualizar contraseña",
     "saving": "Actualizando…",
     "success": "Su contraseña ha sido actualizada.",

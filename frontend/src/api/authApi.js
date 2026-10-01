@@ -19,3 +19,11 @@ export function getSetPasswordInfo(token) {
 export function setPassword(token, password) {
   return axiosClient.post('/auth/set-password', { token, password }).then((res) => res.data)
 }
+
+export function forgotPassword(email) {
+  return axiosClient.post('/auth/forgot-password', { email }).then((res) => res.data)
+}
+
+export function resetPassword(token, password) {
+  return axiosClient.post('/auth/reset-password', { token, password }).then((res) => res.data)
+}

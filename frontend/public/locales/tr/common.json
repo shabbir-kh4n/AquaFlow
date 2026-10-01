@@ -17,6 +17,12 @@
     "passwordLabel": "Şifre",
     "rememberMe": "Beni Hatırla",
     "forgotPassword": "Parolanızı mı unuttunuz?",
+    "forgotIntro": "Kayıt olduğunuz e-posta adresini girin, size şifrenizi sıfırlamanız için bir bağlantı göndereceğiz.",
+    "sendLink": "Sıfırlama bağlantısını gönder",
+    "sendingLink": "Gönderiliyor…",
+    "forgotSent": "Eğer {{email}} kayıtlıysa, şifre sıfırlama bağlantısı yoldadır. 1 saatte sona eriyor.",
+    "forgotError": "Sıfırlama e-postası gönderilemedi. Lütfen tekrar deneyin.",
+    "backToSignIn": "Oturum açmak için geri dön",
     "submitting": "Oturum açılıyor…",
     "submit": "Oturum aç",
     "noAccount": "Hesabınız yok mu?",
@@ -47,6 +53,21 @@
     "description": "Hızlı erişim için ana ekranınıza ekleyin.",
     "dismiss": "Azletmek",
     "install": "Düzenlemek"
+  },
+  "resetPassword": {
+    "title": "Şifrenizi sıfırlayın",
+    "subtitle": "HydroLedger hesabınız için yeni bir şifre seçin.",
+    "errors": {
+      "tooShort": "Şifre en az 8 karakter olmalıdır.",
+      "mismatch": "Şifreler eşleşmiyor.",
+      "fallback": "Şifreniz sıfırlanamadı. Bağlantının süresi dolmuş olabilir."
+    },
+    "passwordLabel": "Yeni Şifre",
+    "confirmPasswordLabel": "Yeni şifreyi onayla",
+    "submitting": "Sıfırlanıyor…",
+    "submit": "Şifreyi sıfırla",
+    "success": "Şifreniz sıfırlandı. Artık onunla oturum açabilirsiniz.",
+    "backToSignIn": "Oturum açmak için geri dön"
   },
   "setPassword": {
     "title": "Şifrenizi belirleyin",
@@ -347,6 +368,12 @@
     "tooShort": "Yeni şifre en az {{min}} karakterden oluşmalıdır.",
     "mismatch": "Yeni şifreler eşleşmiyor.",
     "sameAsCurrent": "Yeni şifreniz mevcut şifrenizden farklı olmalıdır.",
+    "open": "Şifre değiştir",
+    "forgot": "Şifrenizi mi unuttunuz?",
+    "forgotSending": "Gönderiliyor…",
+    "forgotSent": "Bu hesabın kayıtlı bir e-postası varsa, {{email}} adresine bir şifre sıfırlama bağlantısı gönderdik.",
+    "forgotError": "Sıfırlama e-postası gönderilemedi. Lütfen tekrar deneyin.",
+    "cancel": "İptal etmek",
     "submit": "Şifreyi güncelle",
     "saving": "Güncelleniyor…",
     "success": "Şifreniz güncellendi.",

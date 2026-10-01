@@ -17,6 +17,12 @@
     "passwordLabel": "Kata sandi",
     "rememberMe": "Ingat saya",
     "forgotPassword": "Lupa kata sandi?",
+    "forgotIntro": "Masukkan email yang Anda gunakan untuk mendaftar dan kami akan mengirimkan Anda tautan untuk mengatur ulang kata sandi Anda.",
+    "sendLink": "Kirim tautan setel ulang",
+    "sendingLink": "Mengirim…",
+    "forgotSent": "Jika {{email}} terdaftar, tautan pengaturan ulang kata sandi sedang dikirim. Masa berlakunya habis dalam 1 jam.",
+    "forgotError": "Tidak dapat mengirim email setel ulang. Silakan coba lagi.",
+    "backToSignIn": "Kembali untuk masuk",
     "submitting": "Masuk…",
     "submit": "Masuk",
     "noAccount": "Belum punya akun?",
@@ -47,6 +53,21 @@
     "description": "Tambahkan ke layar beranda Anda untuk akses cepat.",
     "dismiss": "Membubarkan",
     "install": "Memasang"
+  },
+  "resetPassword": {
+    "title": "Setel ulang kata sandi Anda",
+    "subtitle": "Pilih kata sandi baru untuk akun HydroLedger Anda.",
+    "errors": {
+      "tooShort": "Kata sandi minimal harus 8 karakter.",
+      "mismatch": "Kata sandi tidak cocok.",
+      "fallback": "Tidak dapat menyetel ulang sandi Anda. Tautan tersebut mungkin telah kedaluwarsa."
+    },
+    "passwordLabel": "Kata sandi baru",
+    "confirmPasswordLabel": "Konfirmasikan kata sandi baru",
+    "submitting": "Menyetel ulang…",
+    "submit": "Setel ulang kata sandi",
+    "success": "Kata sandi Anda telah disetel ulang. Anda sekarang dapat masuk dengannya.",
+    "backToSignIn": "Kembali untuk masuk"
   },
   "setPassword": {
     "title": "Tetapkan kata sandi Anda",
@@ -347,6 +368,12 @@
     "tooShort": "Kata sandi baru minimal harus {{min}} karakter.",
     "mismatch": "Kata sandi baru tidak cocok.",
     "sameAsCurrent": "Kata sandi baru harus berbeda dengan kata sandi Anda saat ini.",
+    "open": "Ubah kata sandi",
+    "forgot": "Lupa kata sandi Anda?",
+    "forgotSending": "Mengirim…",
+    "forgotSent": "Jika akun ini memiliki email yang tercatat, kami telah mengirimkan tautan pengaturan ulang kata sandi ke {{email}}.",
+    "forgotError": "Tidak dapat mengirim email setel ulang. Silakan coba lagi.",
+    "cancel": "Membatalkan",
     "submit": "Perbarui kata sandi",
     "saving": "Memperbarui…",
     "success": "Kata sandi Anda telah diperbarui.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Codice",
     "rememberMe": "Arriccorda ti di mè",
     "forgotPassword": "Password dimenticata?",
+    "forgotIntro": "Inserite l'email cù quale avete registratu è vi manderemu un ligame per resettate a vostra password.",
+    "sendLink": "Mandate u ligame di reset",
+    "sendingLink": "Mandatu…",
+    "forgotSent": "Se {{email}} hè registratu, un ligame di resettore di password hè in strada. Scade in 1 ora.",
+    "forgotError": "Ùn pudia micca mandà l'email di reset. Per piacè pruvate di novu.",
+    "backToSignIn": "Torna à accede",
     "submitting": "Signing in…",
     "submit": "Firmà lu",
     "noAccount": "Ùn avete micca un contu ?",
@@ -47,6 +53,21 @@
     "description": "Aghjunghjite à a vostra pantalla di casa per un accessu rapidu.",
     "dismiss": "Licenziate",
     "install": "Installa"
+  },
+  "resetPassword": {
+    "title": "Resettate a vostra password",
+    "subtitle": "Sceglite una nova password per u vostru contu HydroLedger.",
+    "errors": {
+      "tooShort": "A password deve esse almenu 8 caratteri.",
+      "mismatch": "I password ùn currispondenu micca.",
+      "fallback": "Ùn pudia micca resettate a vostra password. U ligame pò esse scadutu."
+    },
+    "passwordLabel": "Nova password",
+    "confirmPasswordLabel": "Cunfirmà a nova password",
+    "submitting": "Resetting…",
+    "submit": "Resettate a password",
+    "success": "A vostra password hè stata resettata. Pudete avà firmà cun ellu.",
+    "backToSignIn": "Torna à accede"
   },
   "setPassword": {
     "title": "Stabbilisce a vostra password",
@@ -347,6 +368,12 @@
     "tooShort": "A nova password deve esse almenu {{min}} caratteri.",
     "mismatch": "I novi password ùn currispondenu micca.",
     "sameAsCurrent": "A nova password deve esse diversa da a vostra password attuale.",
+    "open": "Cambia password",
+    "forgot": "Avete scurdatu a vostra password?",
+    "forgotSending": "Mandatu…",
+    "forgotSent": "Se stu contu hà un email in u schedariu, avemu mandatu un ligame di resettore di password à {{email}}.",
+    "forgotError": "Ùn pudia micca mandà l'email di reset. Per piacè pruvate di novu.",
+    "cancel": "Cancella",
     "submit": "Aghjurnà a password",
     "saving": "Aghjurnà…",
     "success": "A vostra password hè stata aghjurnata.",

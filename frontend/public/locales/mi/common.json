@@ -17,6 +17,12 @@
     "passwordLabel": "Kupuhipa",
     "rememberMe": "Kia mahara ki ahau",
     "forgotPassword": "Kua wareware ki te kupuhipa?",
+    "forgotIntro": "Whakauruhia te imeera i hainatia e koe ka tukuna atu e matou he hononga ki a koe hei tautuhi i to kupuhipa.",
+    "sendLink": "Tuku hono tautuhi",
+    "sendingLink": "Tukuna ana…",
+    "forgotSent": "Mena kua rehitatia {{email}}, kei te haere mai he hononga tautuhi kupuhipa. Ka pau i roto i te 1 haora.",
+    "forgotError": "Kaore i taea te tuku i te imeera tautuhi. Me ngana ano.",
+    "backToSignIn": "Hoki ki te takiuru",
     "submitting": "Waitohu mai…",
     "submit": "Waitohu Mai",
     "noAccount": "Karekau he kaute?",
@@ -47,6 +53,21 @@
     "description": "Tāpirihia ki te mata o to kaainga mo te uru tere.",
     "dismiss": "Whakakore",
     "install": "Tāuta"
+  },
+  "resetPassword": {
+    "title": "Tautuhi ano i to kupuhipa",
+    "subtitle": "Kōwhiria he kupuhipa hōu mō tō pūkete HydroLedger.",
+    "errors": {
+      "tooShort": "Me 8 te iti rawa o te kupuhipa.",
+      "mismatch": "Karekau nga kupuhipa e taurite.",
+      "fallback": "Kāore i taea te tautuhi anō i tō kupuhipa. Kua pau pea te hono."
+    },
+    "passwordLabel": "Kupuhipa hou",
+    "confirmPasswordLabel": "Whakaū kupuhipa hōu",
+    "submitting": "Tautuhi Anō…",
+    "submit": "Tautuhi kupuhipa",
+    "success": "Kua tautuhia to kupuhipa. Ka taea e koe te haina ki roto.",
+    "backToSignIn": "Hoki ki te takiuru"
   },
   "setPassword": {
     "title": "Tautuhia to kupuhipa",
@@ -347,6 +368,12 @@
     "tooShort": "Ko te kupuhipa hōu me {{min}} pūāhua.",
     "mismatch": "Ko nga kupuhipa hou kaore i te rite.",
     "sameAsCurrent": "Me rereke te kupuhipa hou i to kupuhipa o naianei.",
+    "open": "Huri kupuhipa",
+    "forgot": "Kua wareware i to kupuhipa?",
+    "forgotSending": "Tukuna ana…",
+    "forgotSent": "Mena he imeera kei runga i tenei kaute, kua tukuna e matou he hononga tautuhi kupuhipa ki {{email}}.",
+    "forgotError": "Kaore i taea te tuku i te imeera tautuhi. Me ngana ano.",
+    "cancel": "Whakakore",
     "submit": "Whakahouhia te kupuhipa",
     "saving": "Whakahōu ana…",
     "success": "Kua whakahoutia to kupuhipa.",

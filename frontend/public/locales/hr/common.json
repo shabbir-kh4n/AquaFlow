@@ -17,6 +17,12 @@
     "passwordLabel": "Lozinka",
     "rememberMe": "Zapamti me",
     "forgotPassword": "Zaboravili ste lozinku?",
+    "forgotIntro": "Unesite e-mail s kojim ste se prijavili i poslat ćemo vam poveznicu za poništavanje lozinke.",
+    "sendLink": "Pošalji link za resetiranje",
+    "sendingLink": "Slanje...",
+    "forgotSent": "Ako je {{email}} registriran, veza za ponovno postavljanje lozinke je na putu. Istječe za 1 sat.",
+    "forgotError": "Nije moguće poslati e-poštu za poništavanje. Molimo pokušajte ponovo.",
+    "backToSignIn": "Natrag na prijavu",
     "submitting": "Prijava...",
     "submit": "Prijavite se",
     "noAccount": "Nemate račun?",
@@ -47,6 +53,21 @@
     "description": "Dodajte ga na početni zaslon za brzi pristup.",
     "dismiss": "Odbaciti",
     "install": "Instalirati"
+  },
+  "resetPassword": {
+    "title": "Ponovno postavite lozinku",
+    "subtitle": "Odaberite novu lozinku za svoj HydroLedger račun.",
+    "errors": {
+      "tooShort": "Lozinka mora imati najmanje 8 znakova.",
+      "mismatch": "Lozinke se ne podudaraju.",
+      "fallback": "Nije moguće ponovno postaviti lozinku. Veza je možda istekla."
+    },
+    "passwordLabel": "Nova lozinka",
+    "confirmPasswordLabel": "Potvrdite novu lozinku",
+    "submitting": "Resetovanje…",
+    "submit": "Resetiraj lozinku",
+    "success": "Vaša lozinka je poništena. Sada se možete prijaviti s njim.",
+    "backToSignIn": "Natrag na prijavu"
   },
   "setPassword": {
     "title": "Postavite lozinku",
@@ -347,6 +368,12 @@
     "tooShort": "Nova lozinka mora imati najmanje {{min}} znakova.",
     "mismatch": "Nove lozinke se ne podudaraju.",
     "sameAsCurrent": "Nova lozinka mora se razlikovati od vaše trenutne lozinke.",
+    "open": "Promjena lozinke",
+    "forgot": "Zaboravili ste lozinku?",
+    "forgotSending": "Slanje...",
+    "forgotSent": "Ako ovaj račun ima e-poštu u evidenciji, poslali smo vezu za ponovno postavljanje lozinke na {{email}}.",
+    "forgotError": "Nije moguće poslati e-poštu za poništavanje. Molimo pokušajte ponovo.",
+    "cancel": "Otkazati",
     "submit": "Ažurirajte lozinku",
     "saving": "Ažuriranje...",
     "success": "Vaša lozinka je ažurirana.",

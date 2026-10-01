@@ -17,6 +17,12 @@
     "passwordLabel": "Password",
     "rememberMe": "memento mei",
     "forgotPassword": "Oblitusne es tesserae?",
+    "forgotIntro": "Ingredere electronicam tibi signatam cum et mittemus tibi nexum ut tesseram reset tuam.",
+    "sendLink": "Mitte reset link",
+    "sendingLink": "Mittens…",
+    "forgotSent": "Si relatus {{email}} est relatus, tessera rete ligamen in suo itinere est. Exspirat in 1 hora.",
+    "forgotError": "Reddere non potuit mittere email. Quaeso, iterum conare.",
+    "backToSignIn": "Ad signum in",
     "submitting": "Signing in…",
     "submit": "Signum in",
     "noAccount": "Don't have an account?",
@@ -47,6 +53,21 @@
     "description": "Addere eam in domum tuam screen pro accessu vivo.",
     "dismiss": "Dimitte",
     "install": "install"
+  },
+  "resetPassword": {
+    "title": "Reset password",
+    "subtitle": "Tesseram novam elige pro HydroLedger ratione.",
+    "errors": {
+      "tooShort": "Password debet esse saltem VIII ingenia.",
+      "mismatch": "Passwords non aequare.",
+      "fallback": "Non reset password. Nexum forsan explevisse."
+    },
+    "passwordLabel": "Novum password",
+    "confirmPasswordLabel": "Adfirmare novum password",
+    "submitting": "Resetting…",
+    "submit": "Reset password",
+    "success": "Your password has been reset. Nunc signum in eo potes.",
+    "backToSignIn": "Ad signum in"
   },
   "setPassword": {
     "title": "Tuas de es tesserae",
@@ -347,6 +368,12 @@
     "tooShort": "Tessera nova saltem {{min}} ingenia esse debet.",
     "mismatch": "Novus passwords non aequare.",
     "sameAsCurrent": "Nova tessera a tessera current differre debet.",
+    "open": "Mutatio password",
+    "forgot": "Oblitusne es tesserae tuae?",
+    "forgotSending": "Mittens…",
+    "forgotSent": "Si haec ratio inscriptionem in tabella habet, tesseram rete ligamen ad {{email}} misimus.",
+    "forgotError": "Reddere non potuit mittere email. Quaeso, iterum conare.",
+    "cancel": "Cancel",
     "submit": "Update password",
     "saving": "Adaequationis…",
     "success": "Password renovatum est.",

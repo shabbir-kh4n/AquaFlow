@@ -17,6 +17,12 @@
     "passwordLabel": "Pasfhocal",
     "rememberMe": "Cuimhnigh orm",
     "forgotPassword": "Focal faire dearmadta?",
+    "forgotIntro": "Cuir isteach an ríomhphost ar chláraigh tú leis agus seolfaimid nasc chugat chun do phasfhocal a athshocrú.",
+    "sendLink": "Seol nasc athshocraithe",
+    "sendingLink": "Á sheoladh…",
+    "forgotSent": "Má tá {{email}} cláraithe, tá nasc athshocraithe pasfhocail ar an mbealach. Téann sé in éag i 1 uair an chloig.",
+    "forgotError": "Níorbh fhéidir an ríomhphost athshocraithe a sheoladh. Bain triail eile as.",
+    "backToSignIn": "Ar ais chun síniú isteach",
     "submitting": "Ag síniú isteach…",
     "submit": "Sínigh Isteach",
     "noAccount": "Nach bhfuil cuntas agat?",
@@ -47,6 +53,21 @@
     "description": "Cuir é le do scáileán baile le haghaidh rochtana tapa.",
     "dismiss": "Díbhe",
     "install": "Suiteáil"
+  },
+  "resetPassword": {
+    "title": "Athshocraigh do phasfhocal",
+    "subtitle": "Roghnaigh pasfhocal nua do do chuntas HydroLedger.",
+    "errors": {
+      "tooShort": "Ní mór go mbeadh 8 gcarachtar ar a laghad ag pasfhocal.",
+      "mismatch": "Ní hionann pasfhocail.",
+      "fallback": "Níorbh fhéidir do phasfhocal a athshocrú. Seans go bhfuil an nasc imithe in éag."
+    },
+    "passwordLabel": "Pasfhocal nua",
+    "confirmPasswordLabel": "Deimhnigh pasfhocal nua",
+    "submitting": "Á athshocrú…",
+    "submit": "Athshocraigh pasfhocal",
+    "success": "Athshocraíodh do phasfhocal. Is féidir leat síniú isteach anois leis.",
+    "backToSignIn": "Ar ais chun síniú isteach"
   },
   "setPassword": {
     "title": "Socraigh do phasfhocal",
@@ -347,6 +368,12 @@
     "tooShort": "Caithfidh ar a laghad {{min}} carachtar a bheith sa phasfhocal nua.",
     "mismatch": "Ní hionann na pasfhocail nua.",
     "sameAsCurrent": "Caithfidh pasfhocal nua a bheith difriúil ó do phasfhocal reatha.",
+    "open": "Athraigh pasfhocal",
+    "forgot": "Dearmad déanta agat ar do phasfhocal?",
+    "forgotSending": "Á sheoladh…",
+    "forgotSent": "Má tá ríomhphost ar comhad ag an gcuntas seo, sheolamar nasc athshocraithe pasfhocail chuig {{email}}.",
+    "forgotError": "Níorbh fhéidir an ríomhphost athshocraithe a sheoladh. Bain triail eile as.",
+    "cancel": "Cealaigh",
     "submit": "Nuashonraigh pasfhocal",
     "saving": "Ag nuashonrú…",
     "success": "Nuashonraíodh do phasfhocal.",

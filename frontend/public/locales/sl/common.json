@@ -17,6 +17,12 @@
     "passwordLabel": "Geslo",
     "rememberMe": "Zapomni si me",
     "forgotPassword": "Ste pozabili geslo?",
+    "forgotIntro": "Vnesite e-poštni naslov, s katerim ste se prijavili, in poslali vam bomo povezavo za ponastavitev gesla.",
+    "sendLink": "Pošlji povezavo za ponastavitev",
+    "sendingLink": "Pošiljanje ...",
+    "forgotSent": "Če je {{email}} registriran, je povezava za ponastavitev gesla na poti. Poteče čez 1 uro.",
+    "forgotError": "E-pošte za ponastavitev ni bilo mogoče poslati. prosim poskusite ponovno",
+    "backToSignIn": "Nazaj na prijavo",
     "submitting": "Prijava ...",
     "submit": "Prijavite se",
     "noAccount": "Nimate računa?",
@@ -47,6 +53,21 @@
     "description": "Dodajte ga na začetni zaslon za hiter dostop.",
     "dismiss": "Odpusti",
     "install": "Namestite"
+  },
+  "resetPassword": {
+    "title": "Ponastavite geslo",
+    "subtitle": "Izberite novo geslo za svoj račun HydroLedger.",
+    "errors": {
+      "tooShort": "Geslo mora imeti vsaj 8 znakov.",
+      "mismatch": "Gesli se ne ujemata.",
+      "fallback": "Vašega gesla ni bilo mogoče ponastaviti. Povezava je morda potekla."
+    },
+    "passwordLabel": "Novo geslo",
+    "confirmPasswordLabel": "Potrdite novo geslo",
+    "submitting": "Ponastavitev ...",
+    "submit": "Ponastavi geslo",
+    "success": "Vaše geslo je bilo ponastavljeno. Zdaj se lahko prijavite z njim.",
+    "backToSignIn": "Nazaj na prijavo"
   },
   "setPassword": {
     "title": "Nastavite geslo",
@@ -347,6 +368,12 @@
     "tooShort": "Novo geslo mora imeti vsaj {{min}} znakov.",
     "mismatch": "Nova gesla se ne ujemata.",
     "sameAsCurrent": "Novo geslo se mora razlikovati od trenutnega.",
+    "open": "Spremeni geslo",
+    "forgot": "Ste pozabili geslo?",
+    "forgotSending": "Pošiljanje ...",
+    "forgotSent": "Če ima ta račun shranjen e-poštni naslov, smo poslali povezavo za ponastavitev gesla na {{email}}.",
+    "forgotError": "E-pošte za ponastavitev ni bilo mogoče poslati. prosim poskusite ponovno",
+    "cancel": "Prekliči",
     "submit": "Posodobi geslo",
     "saving": "Posodabljanje ...",
     "success": "Vaše geslo je posodobljeno.",

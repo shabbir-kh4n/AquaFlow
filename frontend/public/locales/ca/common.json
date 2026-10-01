@@ -17,6 +17,12 @@
     "passwordLabel": "Contrasenya",
     "rememberMe": "Recorda'm",
     "forgotPassword": "Heu oblidat la contrasenya?",
+    "forgotIntro": "Introduïu el correu electrònic amb què us heu registrat i us enviarem un enllaç per restablir la vostra contrasenya.",
+    "sendLink": "Envia l'enllaç de restabliment",
+    "sendingLink": "S'està enviant…",
+    "forgotSent": "Si {{email}} està registrat, un enllaç de restabliment de la contrasenya està en marxa. Caduca en 1 hora.",
+    "forgotError": "No s'ha pogut enviar el correu electrònic de restabliment. Si us plau, torna-ho a provar.",
+    "backToSignIn": "Torna per iniciar la sessió",
     "submitting": "S'està iniciant la sessió...",
     "submit": "Inicieu la sessió",
     "noAccount": "No tens un compte?",
@@ -47,6 +53,21 @@
     "description": "Afegiu-lo a la vostra pantalla d'inici per accedir-hi ràpidament.",
     "dismiss": "Descartar",
     "install": "Instal·lar"
+  },
+  "resetPassword": {
+    "title": "Restableix la teva contrasenya",
+    "subtitle": "Trieu una contrasenya nova per al vostre compte HydroLedger.",
+    "errors": {
+      "tooShort": "La contrasenya ha de tenir com a mínim 8 caràcters.",
+      "mismatch": "Les contrasenyes no coincideixen.",
+      "fallback": "No s'ha pogut restablir la contrasenya. És possible que l'enllaç hagi caducat."
+    },
+    "passwordLabel": "Contrasenya nova",
+    "confirmPasswordLabel": "Confirmeu la nova contrasenya",
+    "submitting": "S'està restablint…",
+    "submit": "Restableix la contrasenya",
+    "success": "La teva contrasenya s'ha restablert. Ara podeu iniciar la sessió amb ell.",
+    "backToSignIn": "Torna per iniciar la sessió"
   },
   "setPassword": {
     "title": "Establiu la vostra contrasenya",
@@ -347,6 +368,12 @@
     "tooShort": "La contrasenya nova ha de tenir com a mínim {{min}} caràcters.",
     "mismatch": "Les noves contrasenyes no coincideixen.",
     "sameAsCurrent": "La contrasenya nova ha de ser diferent de la contrasenya actual.",
+    "open": "Canvia la contrasenya",
+    "forgot": "Has oblidat la teva contrasenya?",
+    "forgotSending": "S'està enviant…",
+    "forgotSent": "Si aquest compte té un correu electrònic registrat, hem enviat un enllaç de restabliment de la contrasenya a {{email}}.",
+    "forgotError": "No s'ha pogut enviar el correu electrònic de restabliment. Si us plau, torna-ho a provar.",
+    "cancel": "Cancel·la",
     "submit": "Actualitza la contrasenya",
     "saving": "S'està actualitzant…",
     "success": "La teva contrasenya s'ha actualitzat.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Iphasiwedi",
     "rememberMe": "Ngikhumbule",
     "forgotPassword": "Ukhohlwe iphasiwedi?",
+    "forgotIntro": "Faka i-imeyili obhalise ngayo futhi sizokuthumelela isixhumanisi sokusetha kabusha iphasiwedi yakho.",
+    "sendLink": "Thumela isixhumanisi sokusetha kabusha",
+    "sendingLink": "Iyathumela...",
+    "forgotSent": "Uma i-{{email}} ibhalisiwe, isixhumanisi sokusetha kabusha iphasiwedi sisendleleni. Iphelelwa yisikhathi ehoreni elingu-1.",
+    "forgotError": "Ayikwazanga ukuthumela i-imeyili yokusetha kabusha. Sicela uzame futhi.",
+    "backToSignIn": "Buyela ukuze ungene ngemvume",
     "submitting": "Ingena ngemvume...",
     "submit": "Ngena ngemvume",
     "noAccount": "Awunayo i-akhawunti?",
@@ -47,6 +53,21 @@
     "description": "Ingeze esikrinini sakho sasekhaya ukuze uyifinyelele ngokushesha.",
     "dismiss": "Cashisa",
     "install": "Faka"
+  },
+  "resetPassword": {
+    "title": "Setha kabusha iphasiwedi yakho",
+    "subtitle": "Khetha iphasiwedi entsha ye-akhawunti yakho ye-HydroLedger.",
+    "errors": {
+      "tooShort": "Iphasiwedi kumele okungenani ibe nezinhlamvu eziyi-8.",
+      "mismatch": "Amagama-mfihlo awafani.",
+      "fallback": "Ayikwazanga ukusetha kabusha iphasiwedi yakho. Isixhumanisi kungenzeka siphelelwe yisikhathi."
+    },
+    "passwordLabel": "Iphasiwedi Entsha",
+    "confirmPasswordLabel": "Qinisekisa iphasiwedi entsha",
+    "submitting": "Isetha kabusha...",
+    "submit": "Setha kabusha iphasiwedi",
+    "success": "Iphasiwedi yakho isethwe kabusha. Manje ungangena ngemvume ngayo.",
+    "backToSignIn": "Buyela ukuze ungene ngemvume"
   },
   "setPassword": {
     "title": "Setha iphasiwedi yakho",
@@ -347,6 +368,12 @@
     "tooShort": "Iphasiwedi entsha kufanele okungenani ibe nezinhlamvu ezingu-{{min}}.",
     "mismatch": "Amaphasiwedi amasha awafani.",
     "sameAsCurrent": "Iphasiwedi entsha kufanele yehluke kunephasiwedi yakho yamanje.",
+    "open": "SHINTSHA iphasiwedi",
+    "forgot": "Ukhohlwe iphasiwedi yakho?",
+    "forgotSending": "Iyathumela...",
+    "forgotSent": "Uma le akhawunti ine-imeyili efayelini, sithumele isixhumanisi sokusetha kabusha iphasiwedi ku-{{email}}.",
+    "forgotError": "Ayikwazanga ukuthumela i-imeyili yokusetha kabusha. Sicela uzame futhi.",
+    "cancel": "Khansela",
     "submit": "Buyekeza iphasiwedi",
     "saving": "Iyabuyekeza...",
     "success": "Iphasiwedi yakho ibuyekeziwe.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Lykilorð",
     "rememberMe": "Mundu eftir mér",
     "forgotPassword": "Gleymt lykilorð?",
+    "forgotIntro": "Sláðu inn netfangið sem þú skráðir þig með og við munum senda þér hlekk til að endurstilla lykilorðið þitt.",
+    "sendLink": "Senda endurstillingartengil",
+    "sendingLink": "Sendir…",
+    "forgotSent": "Ef {{email}} er skráð er hlekkur til að endurstilla lykilorð á leiðinni. Það rennur út eftir 1 klst.",
+    "forgotError": "Gat ekki sent endurstillingarpóstinn. Vinsamlegast reyndu aftur.",
+    "backToSignIn": "Til baka til að skrá þig inn",
     "submitting": "Skráir sig inn...",
     "submit": "Skráðu þig inn",
     "noAccount": "Ertu ekki með reikning?",
@@ -47,6 +53,21 @@
     "description": "Bættu því við heimaskjáinn þinn til að fá skjótan aðgang.",
     "dismiss": "Segja frá",
     "install": "Settu upp"
+  },
+  "resetPassword": {
+    "title": "Endurstilltu lykilorðið þitt",
+    "subtitle": "Veldu nýtt lykilorð fyrir HydroLedger reikninginn þinn.",
+    "errors": {
+      "tooShort": "Lykilorð verður að vera að minnsta kosti 8 stafir.",
+      "mismatch": "Lykilorð passa ekki saman.",
+      "fallback": "Gat ekki endurstillt lykilorðið þitt. Hlekkurinn gæti hafa verið útrunninn."
+    },
+    "passwordLabel": "Nýtt lykilorð",
+    "confirmPasswordLabel": "Staðfestu nýtt lykilorð",
+    "submitting": "Núllstillir…",
+    "submit": "Endurstilla lykilorð",
+    "success": "Lykilorðið þitt hefur verið endurstillt. Þú getur nú skráð þig inn með því.",
+    "backToSignIn": "Til baka til að skrá þig inn"
   },
   "setPassword": {
     "title": "Stilltu lykilorðið þitt",
@@ -347,6 +368,12 @@
     "tooShort": "Nýtt lykilorð verður að vera að minnsta kosti {{min}} stafir.",
     "mismatch": "Nýju lykilorðin passa ekki saman.",
     "sameAsCurrent": "Nýtt lykilorð verður að vera annað en núverandi lykilorð þitt.",
+    "open": "Breyta lykilorði",
+    "forgot": "Gleymt lykilorðinu þínu?",
+    "forgotSending": "Sendir…",
+    "forgotSent": "Ef tölvupóstur er skráður á þennan reikning höfum við sent hlekk til að endurstilla lykilorð á {{email}}.",
+    "forgotError": "Gat ekki sent endurstillingarpóstinn. Vinsamlegast reyndu aftur.",
+    "cancel": "Hætta við",
     "submit": "Uppfærðu lykilorð",
     "saving": "Uppfærir...",
     "success": "Lykilorðið þitt hefur verið uppfært.",

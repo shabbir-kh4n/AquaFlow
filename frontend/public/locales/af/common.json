@@ -17,6 +17,12 @@
     "passwordLabel": "Wagwoord",
     "rememberMe": "Onthou my",
     "forgotPassword": "Wagwoord vergeet?",
+    "forgotIntro": "Voer die e-posadres in waarmee jy aangesluit het en ons sal vir jou 'n skakel stuur om jou wagwoord terug te stel.",
+    "sendLink": "Stuur terugstelskakel",
+    "sendingLink": "Stuur tans …",
+    "forgotSent": "As {{email}} geregistreer is, is 'n wagwoordterugstelskakel op pad. Dit verval oor 1 uur.",
+    "forgotError": "Kon nie die terugstel-e-pos stuur nie. Probeer asseblief weer.",
+    "backToSignIn": "Terug om aan te meld",
     "submitting": "Meld tans aan …",
     "submit": "Meld aan",
     "noAccount": "Het jy nie 'n rekening nie?",
@@ -47,6 +53,21 @@
     "description": "Voeg dit by jou tuisskerm vir vinnige toegang.",
     "dismiss": "Verwerp",
     "install": "Installeer"
+  },
+  "resetPassword": {
+    "title": "Stel jou wagwoord terug",
+    "subtitle": "Kies 'n nuwe wagwoord vir jou HydroLedger rekening.",
+    "errors": {
+      "tooShort": "Wagwoord moet ten minste 8 karakters wees.",
+      "mismatch": "Wagwoorde stem nie ooreen nie.",
+      "fallback": "Kon nie jou wagwoord terugstel nie. Die skakel het dalk verval."
+    },
+    "passwordLabel": "Nuwe wagwoord",
+    "confirmPasswordLabel": "Bevestig nuwe wagwoord",
+    "submitting": "Stel tans terug …",
+    "submit": "Stel wagwoord terug",
+    "success": "Jou wagwoord is teruggestel. Jy kan nou daarmee aanmeld.",
+    "backToSignIn": "Terug om aan te meld"
   },
   "setPassword": {
     "title": "Stel jou wagwoord",
@@ -347,6 +368,12 @@
     "tooShort": "Nuwe wagwoord moet ten minste {{min}} karakters wees.",
     "mismatch": "Die nuwe wagwoorde stem nie ooreen nie.",
     "sameAsCurrent": "Nuwe wagwoord moet verskil van jou huidige wagwoord.",
+    "open": "Verander wagwoord",
+    "forgot": "Het jy jou wagwoord vergeet?",
+    "forgotSending": "Stuur tans …",
+    "forgotSent": "As hierdie rekening 'n e-pos op lêer het, het ons 'n wagwoordterugstelskakel na {{email}} gestuur.",
+    "forgotError": "Kon nie die terugstel-e-pos stuur nie. Probeer asseblief weer.",
+    "cancel": "Kanselleer",
     "submit": "Dateer wagwoord op",
     "saving": "Dateer tans op …",
     "success": "Jou wagwoord is opgedateer.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Parolă",
     "rememberMe": "Ține-mă minte",
     "forgotPassword": "Aţi uitat parola?",
+    "forgotIntro": "Introduceți e-mailul cu care v-ați înscris și vă vom trimite un link pentru a vă reseta parola.",
+    "sendLink": "Trimite linkul de resetare",
+    "sendingLink": "Se trimite…",
+    "forgotSent": "Dacă {{email}} este înregistrat, un link de resetare a parolei este pe drum. Expiră în 1 oră.",
+    "forgotError": "Nu s-a putut trimite e-mailul de resetare. Vă rugăm să încercați din nou.",
+    "backToSignIn": "Înapoi pentru a vă conecta",
     "submitting": "Se conectează...",
     "submit": "Conectare",
     "noAccount": "Nu ai un cont?",
@@ -47,6 +53,21 @@
     "description": "Adăugați-l pe ecranul de pornire pentru acces rapid.",
     "dismiss": "Respingeți",
     "install": "Instala"
+  },
+  "resetPassword": {
+    "title": "Resetați parola",
+    "subtitle": "Alegeți o nouă parolă pentru contul dvs. HydroLedger.",
+    "errors": {
+      "tooShort": "Parola trebuie să aibă cel puțin 8 caractere.",
+      "mismatch": "Parolele nu se potrivesc.",
+      "fallback": "Nu s-a putut reseta parola. Este posibil ca linkul să fi expirat."
+    },
+    "passwordLabel": "Parolă Nouă",
+    "confirmPasswordLabel": "Confirmați noua parolă",
+    "submitting": "Se resetează…",
+    "submit": "Resetează parola",
+    "success": "Parola dvs. a fost resetată. Acum vă puteți conecta cu el.",
+    "backToSignIn": "Înapoi pentru a vă conecta"
   },
   "setPassword": {
     "title": "Setează-ți parola",
@@ -347,6 +368,12 @@
     "tooShort": "Parola nouă trebuie să aibă cel puțin {{min}} caractere.",
     "mismatch": "Noile parole nu se potrivesc.",
     "sameAsCurrent": "Parola nouă trebuie să fie diferită de parola dvs. actuală.",
+    "open": "Schimbaţi parola",
+    "forgot": "Ați uitat parola?",
+    "forgotSending": "Se trimite…",
+    "forgotSent": "Dacă acest cont are un e-mail înregistrat, am trimis un link de resetare a parolei către {{email}}.",
+    "forgotError": "Nu s-a putut trimite e-mailul de resetare. Vă rugăm să încercați din nou.",
+    "cancel": "Anula",
     "submit": "Actualizați parola",
     "saving": "Se actualizează…",
     "success": "Parola dvs. a fost actualizată.",

@@ -17,6 +17,12 @@
     "passwordLabel": "Lösenord",
     "rememberMe": "Kom ihåg mig",
     "forgotPassword": "Glömt lösenordet?",
+    "forgotIntro": "Ange e-postadressen du registrerade dig med så skickar vi en länk för att återställa ditt lösenord.",
+    "sendLink": "Skicka återställningslänk",
+    "sendingLink": "Sändning…",
+    "forgotSent": "Om {{email}} är registrerad är en länk för återställning av lösenord på väg. Den löper ut om 1 timme.",
+    "forgotError": "Det gick inte att skicka återställningsmeddelandet. Försök igen.",
+    "backToSignIn": "Tillbaka för att logga in",
     "submitting": "Loggar in...",
     "submit": "Logga in",
     "noAccount": "Har du inget konto?",
@@ -47,6 +53,21 @@
     "description": "Lägg till den på din startskärm för snabb åtkomst.",
     "dismiss": "Avfärda",
     "install": "Installera"
+  },
+  "resetPassword": {
+    "title": "Återställ ditt lösenord",
+    "subtitle": "Välj ett nytt lösenord för ditt HydroLedger-konto.",
+    "errors": {
+      "tooShort": "Lösenordet måste vara minst 8 tecken.",
+      "mismatch": "Lösenord stämmer inte överens.",
+      "fallback": "Det gick inte att återställa ditt lösenord. Länken kan ha gått ut."
+    },
+    "passwordLabel": "Nytt lösenord",
+    "confirmPasswordLabel": "Bekräfta nytt lösenord",
+    "submitting": "Återställer...",
+    "submit": "Återställ lösenord",
+    "success": "Ditt lösenord har återställts. Du kan nu logga in med den.",
+    "backToSignIn": "Tillbaka för att logga in"
   },
   "setPassword": {
     "title": "Ställ in ditt lösenord",
@@ -347,6 +368,12 @@
     "tooShort": "Nytt lösenord måste bestå av minst {{min}} tecken.",
     "mismatch": "De nya lösenorden matchar inte.",
     "sameAsCurrent": "Det nya lösenordet måste skilja sig från ditt nuvarande lösenord.",
+    "open": "Byt lösenord",
+    "forgot": "Glömt ditt lösenord?",
+    "forgotSending": "Sändning…",
+    "forgotSent": "Om det här kontot har en e-postadress registrerad har vi skickat en länk för återställning av lösenord till {{email}}.",
+    "forgotError": "Det gick inte att skicka återställningsmeddelandet. Försök igen.",
+    "cancel": "Avboka",
     "submit": "Uppdatera lösenord",
     "saving": "Uppdaterar...",
     "success": "Ditt lösenord har uppdaterats.",

@@ -17,6 +17,12 @@
     "passwordLabel": "密码",
     "rememberMe": "记住账号",
     "forgotPassword": "忘记密码？",
+    "forgotIntro": "输入您注册时使用的电子邮件，我们将向您发送一个链接以重置您的密码。",
+    "sendLink": "发送重置链接",
+    "sendingLink": "正在发送...",
+    "forgotSent": "如果 {{email}} 已注册，则会出现密码重置链接。 1 小时后过期。",
+    "forgotError": "无法发送重置电子邮件。请再试一次。",
+    "backToSignIn": "返回登录",
     "submitting": "正在登录...",
     "submit": "登入",
     "noAccount": "没有帐户？",
@@ -47,6 +53,21 @@
     "description": "将其添加到主屏幕以便快速访问。",
     "dismiss": "解雇",
     "install": "安装"
+  },
+  "resetPassword": {
+    "title": "重置您的密码",
+    "subtitle": "为您的 HydroLedger 帐户选择一个新密码。",
+    "errors": {
+      "tooShort": "密码必须至少为 8 个字符。",
+      "mismatch": "密码不匹配。",
+      "fallback": "无法重置您的密码。该链接可能已过期。"
+    },
+    "passwordLabel": "新密码",
+    "confirmPasswordLabel": "确认新密码",
+    "submitting": "正在重置...",
+    "submit": "重置密码",
+    "success": "您的密码已重置。您现在可以使用它登录。",
+    "backToSignIn": "返回登录"
   },
   "setPassword": {
     "title": "设置您的密码",
@@ -347,6 +368,12 @@
     "tooShort": "新密码必须至少包含 {{min}} 个字符。",
     "mismatch": "新密码不匹配。",
     "sameAsCurrent": "新密码必须与您当前的密码不同。",
+    "open": "更改密码",
+    "forgot": "忘记密码了吗？",
+    "forgotSending": "正在发送...",
+    "forgotSent": "如果此帐户有电子邮件存档，我们已向 {{email}} 发送密码重置链接。",
+    "forgotError": "无法发送重置电子邮件。请再试一次。",
+    "cancel": "取消",
     "submit": "更新密码",
     "saving": "正在更新…",
     "success": "您的密码已更新。",

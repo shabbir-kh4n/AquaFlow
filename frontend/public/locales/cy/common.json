@@ -17,6 +17,12 @@
     "passwordLabel": "Cyfrinair",
     "rememberMe": "Cofiwch fi",
     "forgotPassword": "Wedi anghofio cyfrinair?",
+    "forgotIntro": "Rhowch yr e-bost y gwnaethoch gofrestru ag ef a byddwn yn anfon dolen atoch i ailosod eich cyfrinair.",
+    "sendLink": "Anfon dolen ailosod",
+    "sendingLink": "Wrthi'n anfon…",
+    "forgotSent": "Os yw {{email}} wedi'i gofrestru, mae dolen ailosod cyfrinair ar ei ffordd. Mae'n dod i ben mewn 1 awr.",
+    "forgotError": "Methu anfon yr e-bost ailosod. Ceisiwch eto.",
+    "backToSignIn": "Yn ôl i fewngofnodi",
     "submitting": "Wrthi'n mewngofnodi…",
     "submit": "Mewngofnodwch",
     "noAccount": "Dim cyfrif?",
@@ -47,6 +53,21 @@
     "description": "Ychwanegwch ef i'ch sgrin gartref i gael mynediad cyflym.",
     "dismiss": "Diystyru",
     "install": "Gosod"
+  },
+  "resetPassword": {
+    "title": "Ailosod eich cyfrinair",
+    "subtitle": "Dewiswch gyfrinair newydd ar gyfer eich cyfrif HydroLedger.",
+    "errors": {
+      "tooShort": "Rhaid i'r cyfrinair fod o leiaf 8 nod.",
+      "mismatch": "Nid yw cyfrineiriau yn cyfateb.",
+      "fallback": "Methu ailosod eich cyfrinair. Efallai bod y ddolen wedi dod i ben."
+    },
+    "passwordLabel": "Cyfrinair newydd",
+    "confirmPasswordLabel": "Cadarnhau cyfrinair newydd",
+    "submitting": "Wrthi'n ailosod…",
+    "submit": "Ailosod cyfrinair",
+    "success": "Mae eich cyfrinair wedi'i ailosod. Gallwch nawr fewngofnodi ag ef.",
+    "backToSignIn": "Yn ôl i fewngofnodi"
   },
   "setPassword": {
     "title": "Gosodwch eich cyfrinair",
@@ -347,6 +368,12 @@
     "tooShort": "Rhaid i gyfrinair newydd fod o leiaf {{min}} nod.",
     "mismatch": "Nid yw'r cyfrineiriau newydd yn cyfateb.",
     "sameAsCurrent": "Rhaid i gyfrinair newydd fod yn wahanol i'ch cyfrinair cyfredol.",
+    "open": "Newid cyfrinair",
+    "forgot": "Wedi anghofio eich cyfrinair?",
+    "forgotSending": "Wrthi'n anfon…",
+    "forgotSent": "Os oes gan y cyfrif hwn e-bost ar ffeil, rydym wedi anfon dolen ailosod cyfrinair i {{email}}.",
+    "forgotError": "Methu anfon yr e-bost ailosod. Ceisiwch eto.",
+    "cancel": "Canslo",
     "submit": "Diweddaru cyfrinair",
     "saving": "Wrthi'n diweddaru…",
     "success": "Mae eich cyfrinair wedi'i ddiweddaru.",
